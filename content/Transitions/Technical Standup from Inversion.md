@@ -163,7 +163,7 @@ The movement requires coordinating a hip-over-shoulder rotation with precise pos
 Strategically, this technique serves as the essential exit valve for grasshopper guard. Without a reliable standup pathway, the grasshopper player becomes trapped in a position that drains energy rapidly. Knowing when to abandon the inversion and come up to feet is often what separates effective grasshopper guard players from those who exhaust themselves chasing submissions from disadvantageous angles. The technique is most effective when the opponent retreats to a wide base or when fatigue begins compromising hip elevation, and it preserves offensive initiative by transitioning to a standing open guard rather than conceding position.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Disengage legs**: Release any remaining hooks or leg contact with the opponent's legs while maintaining hip elevation. Retract your legs toward your chest in a compact position, keeping knees bent and feet close to your hips. This creates the loaded spring position necessary for the upcoming rotation. (Timing: Initiate when opponent creates distance or retreats beyond effective hooking range)
-2. **Initiate hip rotation**: Drive your hips in a semicircular motion from the elevated inverted position toward the mat on your posting side. Use your core and the momentum from your retracted legs to swing your hips underneath your torso. Your shoulder blades will roll from flat contact to angled contact as your body rotates from inverted to side-facing. (Timing: Execute immediately after leg disengagement to use stored momentum)
-3. **Plant posting hand**: As your hips rotate underneath you, plant your rear hand firmly on the mat approximately 12-18 inches behind where your hip will land. Fingers should point away from your body with a slight angle for structural strength. The posting arm should be slightly bent at the elbow to absorb force, not locked straight which risks collapse under pressure. (Timing: Hand must contact mat before full weight transfers to that side)
-4. **Establish foot base**: Plant your lead foot flat on the mat with knee bent at approximately 90 degrees as your hips complete the rotation underneath you. This foot should be positioned directly beneath your center of mass for maximum stability. Your other leg extends slightly toward the opponent as a frame and distance management tool to prevent them from closing distance during the transition. (Timing: Foot plants simultaneously with hip settling into the posting position)
-5. **Drive to standing**: Push explosively through both your posting hand and planted foot to elevate your hips off the mat. As you rise, bring your trailing leg underneath you and plant that foot behind the lead foot, creating a staggered stance. Your non-posting hand comes forward into a framing position to shield against any opponent rush during the final phase of the standup. (Timing: Explosive drive executed as single continuous motion without pause)
-6. **Establish standing guard**: Complete the standup by squaring your hips toward the opponent and settling into a balanced athletic stance. Both feet should be roughly shoulder-width apart with knees slightly bent and weight on the balls of your feet. Your hands establish open guard grips or frames, and your posture is upright with eyes locked on the opponent's hips and shoulders to read their next movement. (Timing: Transition to guard engagement within one second of reaching feet)
-7. **Re-engage guard system**: From the newly established standing position, immediately threaten with foot placement on the opponent's hips, knee, or biceps to establish an active open guard engagement. Use the distance created by the standup to choose your preferred guard configuration - collar-sleeve, De La Riva, or seated guard depending on the opponent's posture and grips available. (Timing: Begin guard engagement immediately to prevent opponent from dictating the pace)
+1. **Disengage legs**: Release any remaining hooks or leg contact with the opponent's legs while maintaining hip elevation. Retract your legs toward your chest in a compact position, keeping knees bent and feet close to your hips. This creates the loaded spring position necessary for the upcoming rotation.
+2. **Initiate hip rotation**: Drive your hips in a semicircular motion from the elevated inverted position toward the mat on your posting side. Use your core and the momentum from your retracted legs to swing your hips underneath your torso. Your shoulder blades will roll from flat contact to angled contact as your body rotates from inverted to side-facing.
+3. **Plant posting hand**: As your hips rotate underneath you, plant your rear hand firmly on the mat approximately 12-18 inches behind where your hip will land. Fingers should point away from your body with a slight angle for structural strength. The posting arm should be slightly bent at the elbow to absorb force, not locked straight which risks collapse under pressure.
+4. **Establish foot base**: Plant your lead foot flat on the mat with knee bent at approximately 90 degrees as your hips complete the rotation underneath you. This foot should be positioned directly beneath your center of mass for maximum stability. Your other leg extends slightly toward the opponent as a frame and distance management tool to prevent them from closing distance during the transition.
+5. **Drive to standing**: Push explosively through both your posting hand and planted foot to elevate your hips off the mat. As you rise, bring your trailing leg underneath you and plant that foot behind the lead foot, creating a staggered stance. Your non-posting hand comes forward into a framing position to shield against any opponent rush during the final phase of the standup.
+6. **Establish standing guard**: Complete the standup by squaring your hips toward the opponent and settling into a balanced athletic stance. Both feet should be roughly shoulder-width apart with knees slightly bent and weight on the balls of your feet. Your hands establish open guard grips or frames, and your posture is upright with eyes locked on the opponent's hips and shoulders to read their next movement.
+7. **Re-engage guard system**: From the newly established standing position, immediately threaten with foot placement on the opponent's hips, knee, or biceps to establish an active open guard engagement. Use the distance created by the standup to choose your preferred guard configuration - collar-sleeve, De La Riva, or seated guard depending on the opponent's posture and grips available.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, this technique serves as the essential exit valve for grasshopper
 ## Training Progressions
 **Week 1-2** - Solo inversion-to-standup mechanics
 Practice the hip rotation and posting sequence without a partner. Start in inverted shoulder position, rotate hips underneath, establish posting hand, and drive to standing. Perform 20 repetitions per side focusing on smooth continuous motion. Emphasize proper hand placement distance and foot positioning during the drive phase.
-(Resistance: None)
 
 **Week 3-4** - Partner timing and distance recognition
 Partner stands at varying distances while you hold grasshopper guard. Practice reading when the distance becomes too great for effective attacks and initiating the standup. Partner provides light resistance by slowly advancing during your transition to develop timing for completing the sequence under mild pressure.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chain transitions
 Partner actively counters your standup attempts with forward rushes, ankle grabs, and circling. Practice aborting the standup into alternative transitions like Granby roll to guard or leg entanglement entries when the counter succeeds. Develop the decision-making to choose between completing the standup and redirecting to other options.
-(Resistance: Medium)
 
 **Week 7+** - Live integration with grasshopper guard system
 Incorporate the technical standup into full grasshopper guard sparring rounds. Start each round in grasshopper and work through attack sequences, using the standup when appropriate. Partner provides full resistance. Track success rate and identify patterns in when the standup succeeds versus when alternative transitions are more effective.
-(Resistance: Full)
 
 
 

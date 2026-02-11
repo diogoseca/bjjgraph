@@ -153,7 +153,7 @@ description: "Master Kouchi Gari in BJJ. Small inner reap takedown from standing
 Kouchi Gari (small inner reap) is a fundamental judo technique that has become essential in modern BJJ and no-gi grappling. The technique involves hooking your opponent's inside leg with your own while simultaneously breaking their balance backward and to the side. Unlike its larger cousin Ouchi Gari, Kouchi Gari focuses on a smaller, more nuanced reaping motion that targets the ankle and lower calf rather than the thigh. This makes it particularly effective when your opponent has a narrow stance or is stepping backward. The technique's beauty lies in its timing and subtlety—when executed properly, your opponent falls before they realize they've been swept. Kouchi Gari works exceptionally well as part of combination attacks, often setting up other throws or creating opportunities for guard pulls when the initial attempt is defended.
 
 **From Position**: [[Clinch/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips and angle**: Secure a high collar grip with your right hand and sleeve/wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them. (Timing: During initial grip fighting when opponent is settling into stance)
-2. **Break opponent's posture**: Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body. This creates the initial off-balance and prevents them from maintaining strong upright posture. (Timing: As soon as grips are secured)
-3. **Create diagonal off-balance**: Push and pull in opposite directions with your hands to turn your opponent's shoulders and hips. Pull the collar grip backward and to your left while pushing the sleeve grip forward and to your right, creating a diagonal off-balance toward their rear corner. (Timing: Immediately following posture break)
-4. **Step in with base leg**: Step your left foot (base leg) deep between your opponent's legs or just outside their lead leg, positioning yourself close to their center line. Your base leg should be bent and loaded, ready to drive forward through the technique. (Timing: As opponent begins to step backward to recover balance)
-5. **Execute the reap**: Hook your right foot behind your opponent's right ankle, making contact with the blade of your foot against the back of their Achilles tendon and lower calf. The motion should be a small, quick reaping action from the inside, not a large swing. (Timing: Precisely when opponent's weight commits to the target leg)
-6. **Drive and finish**: Continue driving forward with your hips and chest while simultaneously reaping backward with your hooking leg. Your upper body control pulls them diagonally backward as your leg removes their base. Follow them to the ground, landing in side control position. (Timing: Continuous motion from the reap through to ground control)
+1. **Establish grips and angle**: Secure a high collar grip with your right hand and sleeve/wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them.
+2. **Break opponent's posture**: Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body. This creates the initial off-balance and prevents them from maintaining strong upright posture.
+3. **Create diagonal off-balance**: Push and pull in opposite directions with your hands to turn your opponent's shoulders and hips. Pull the collar grip backward and to your left while pushing the sleeve grip forward and to your right, creating a diagonal off-balance toward their rear corner.
+4. **Step in with base leg**: Step your left foot (base leg) deep between your opponent's legs or just outside their lead leg, positioning yourself close to their center line. Your base leg should be bent and loaded, ready to drive forward through the technique.
+5. **Execute the reap**: Hook your right foot behind your opponent's right ankle, making contact with the blade of your foot against the back of their Achilles tendon and lower calf. The motion should be a small, quick reaping action from the inside, not a large swing.
+6. **Drive and finish**: Continue driving forward with your hips and chest while simultaneously reaping backward with your hooking leg. Your upper body control pulls them diagonally backward as your leg removes their base. Follow them to the ground, landing in side control position.
 
 
 </section>
@@ -250,19 +250,15 @@ Kouchi Gari (small inner reap) is a fundamental judo technique that has become e
 ## Training Progressions
 **Week 1-2: Static drilling** - Footwork and timing fundamentals
 Practice the reaping motion and off-balancing with a cooperative partner who provides light resistance. Focus on proper foot placement, angle creation, and the diagonal off-balance direction. Drill 20-30 repetitions per session, alternating sides.
-(Resistance: None)
 
 **Week 3-4: Dynamic drilling** - Entry and combination work
 Partner provides moderate resistance and movement. Practice entering from different grip configurations and angles. Begin chaining Kouchi Gari with other techniques when the initial attempt is defended. Focus on timing the reap when opponent steps backward.
-(Resistance: Light)
 
 **Week 5-6: Situational sparring** - Application under pressure
 Start from standing with specific goals: land Kouchi Gari or acceptable alternative takedown within 60 seconds. Partner provides realistic defensive reactions but doesn't attempt their own throws. Emphasize reading weight distribution and creating opportunities.
-(Resistance: Medium)
 
 **Week 7+: Full integration** - Competition application
 Incorporate Kouchi Gari into regular stand-up sparring and competition training. Focus on using it as part of combination attacks and recognizing optimal timing windows. Track success rate and adjust technique based on opponent reactions.
-(Resistance: Full)
 
 
 

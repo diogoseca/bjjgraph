@@ -163,7 +163,7 @@ From a biomechanical perspective, the Defensive Roll works by accepting and then
 Strategically, this escape must be initiated at the correct moment in the Twister Control sequence. Attempting the roll too early, before the opponent has committed to their controls, allows them to easily readjust. Waiting too long means the spinal rotation is too severe and the escape window has closed. The ideal timing is when the opponent is transitioning their grip to hunt for the Twister finish, as this creates a brief window where their leg control may momentarily weaken. Success requires commitment to the rolling direction and immediate follow-through to a defensive position such as Turtle or Half Guard retention.
 
 **From Position**: [[Twister Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess rotation direction**: Identify which direction your spine is being rotated and determine the rolling direction that will reduce this torque rather than increase it. The roll should go with the rotation, not against it. (Timing: Immediate upon recognition of Twister Control)
-2. **Protect the neck**: Tuck your chin firmly to your chest and bring your free hand to protect your neck. This prevents guillotine or neck crank attempts during the transition and roll. (Timing: Before any rolling movement begins)
-3. **Post with free arm**: Plant your free arm firmly on the mat in the direction of the intended roll. This arm will guide your body through the rolling motion and help control the speed and direction of the escape. (Timing: When opponent adjusts their grip)
-4. **Initiate the roll**: Drive your hips forcefully in the direction of the roll while using your posted arm to guide the motion. The roll should be compact and tight, keeping your limbs close to your body to prevent re-capture. (Timing: Immediately after posting)
-5. **Extract trapped leg**: As you roll through, actively work to free your trapped leg by pulling your knee toward your chest. The rolling momentum helps break the leg control by changing the angle of entanglement. (Timing: During the roll)
-6. **Establish defensive position**: Complete the roll into Turtle position with strong frames, or if possible, immediately work to recover Half Guard by inserting your knee shield. Do not pause in vulnerable positions. (Timing: Immediately upon roll completion)
-7. **Create distance**: Once in Turtle or Half Guard, immediately work to create separation and prevent your opponent from re-establishing back control or returning to Twister entries. (Timing: Within 2 seconds of completing roll)
+1. **Assess rotation direction**: Identify which direction your spine is being rotated and determine the rolling direction that will reduce this torque rather than increase it. The roll should go with the rotation, not against it.
+2. **Protect the neck**: Tuck your chin firmly to your chest and bring your free hand to protect your neck. This prevents guillotine or neck crank attempts during the transition and roll.
+3. **Post with free arm**: Plant your free arm firmly on the mat in the direction of the intended roll. This arm will guide your body through the rolling motion and help control the speed and direction of the escape.
+4. **Initiate the roll**: Drive your hips forcefully in the direction of the roll while using your posted arm to guide the motion. The roll should be compact and tight, keeping your limbs close to your body to prevent re-capture.
+5. **Extract trapped leg**: As you roll through, actively work to free your trapped leg by pulling your knee toward your chest. The rolling momentum helps break the leg control by changing the angle of entanglement.
+6. **Establish defensive position**: Complete the roll into Turtle position with strong frames, or if possible, immediately work to recover Half Guard by inserting your knee shield. Do not pause in vulnerable positions.
+7. **Create distance**: Once in Turtle or Half Guard, immediately work to create separation and prevent your opponent from re-establishing back control or returning to Twister entries.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, this escape must be initiated at the correct moment in the Twiste
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion without resistance, focusing on identifying rotation direction, maintaining neck protection, and completing the roll in a tight body position. Drill the posting arm placement and roll direction recognition.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner establishes light Twister Control and adjusts grips slowly. Practice recognizing the timing window when grip adjustments create escape opportunities. Focus on initiating the roll at the correct moment.
-(Resistance: Light)
 
 **Week 5-6** - Leg extraction integration
 Practice the complete escape sequence with emphasis on freeing the trapped leg during the roll. Partner provides moderate resistance and attempts to maintain leg control. Work on immediate guard recovery after the roll.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply the Defensive Roll in live rolling situations. Partner actively hunts Twister submissions while you work to identify and execute the escape. Practice chaining into secondary escapes when the initial roll is partially countered.
-(Resistance: Full)
 
 
 

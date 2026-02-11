@@ -21,37 +21,37 @@ description: "Master defensive strategies from top of straight ankle lock contro
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
-      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter Entry to Opponent's Leg",
-      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Counter Entry to Opponent's Leg. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing Escape",
-      "text": "From this position, attempt Standing Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Standing Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Rotation Defense",
-      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Rotation Defense. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Extraction",
-      "text": "From this position, attempt Knee Extraction. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Knee Extraction. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Distance Creation",
-      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Distance Creation. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -215,19 +215,21 @@ The psychological dimension of defending straight ankle lock control cannot be u
 
 ## Available Attacks
 
-### [[Ashi Garami Escape]] (15% of attempts)
+### [[Ashi Garami Escape]] (12% of attempts)
 
-### [[Counter Entry to Opponent's Leg]] (14% of attempts)
+### [[Counter Entry to Opponent's Leg]] (10% of attempts)
 
-### [[Standing Escape]] (15% of attempts)
+### [[Standing Escape]] (10% of attempts)
 
-### [[Hip Rotation Defense]] (15% of attempts)
+### [[Hip Rotation Defense]] (10% of attempts)
 
-### [[Knee Extraction]] (14% of attempts)
+### [[Knee Extraction]] (10% of attempts)
 
-### [[Frame and Distance Creation]] (15% of attempts)
+### [[Frame and Distance Creation]] (10% of attempts)
 
-### [[Pass to Top Control]] (12% of attempts)
+### [[Pass to Top Control]] (8% of attempts)
+
+### [[Straight Ankle Lock]] (30% of attempts)
 
 
 
@@ -378,11 +380,11 @@ Partner establishes straight ankle lock control and applies moderate submission 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 35% | 45% |
-| Intermediate | 40% | 50% | 30% |
-| Advanced     | 55% | 65% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 48% |
+| Advancement Probability | 58% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 5-12 seconds optimal window for escape before attacker advances
 

@@ -283,21 +283,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Ability to avoid submission and extract from Meathook"
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Likelihood of improving position after Meathook escape"
       },
       "submission_probability": {
-        "beginner": 65,
-        "intermediate": 45,
-        "advanced": 25,
+        "value": 35,
         "description": "Risk of being submitted while trapped in Meathook"
       },
       "average_time": "20-40 seconds from recognition to escape or submission"
@@ -580,21 +574,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Ability to maintain Meathook control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Likelihood of advancing to submission or improved position from Meathook"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Probability of finishing submission directly from Meathook position"
       },
       "average_time": "30-45 seconds before transition required due to energy cost"
@@ -602,31 +590,39 @@
     "transitions": [
       {
         "transition": "Meathook to Gogoplata Control",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Crackhead Control to Carni",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Armbar from Guard",
         "attempt_probability": 12
       },
       {
+        "transition": "Triangle Setup",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Closed Guard to Omoplata",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Crackhead Control to Carni",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Armbar from Guard",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Omoplata to Back",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Crackhead Control to Mission Control",
-        "attempt_probability": 15
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Baratoplata Setup",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Tarikoplata Setup",
+        "attempt_probability": 11
       }
     ]
   }

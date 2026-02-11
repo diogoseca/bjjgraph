@@ -153,7 +153,7 @@ description: "Learn Hook Sweep in BJJ. Step-by-step execution from Butterfly Gua
 The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they're attempting to pass your guard. The technique relies on elevating the opponent using butterfly hooks while simultaneously pulling them off-balance, creating a sweeping motion that results in a dominant top position. The Hook Sweep is one of the most high-percentage sweeps from butterfly guard due to its mechanical efficiency and the difficulty opponents face in defending once proper grips and hooks are established. This technique forms the foundation of the butterfly guard system and connects seamlessly with other butterfly guard attacks, making it essential for any practitioner looking to develop a comprehensive guard game. The sweep can be executed from both seated and combat base butterfly positions, and its success depends on timing, proper hook placement, and the ability to create and exploit angles.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish butterfly guard position**: Sit with both butterfly hooks inserted deep under opponent's thighs, feet flexed and pulling upward. Establish strong grips on opponent's collar with one hand and sleeve or tricep with the other. Maintain upright posture with chest connected to opponent's upper body. (Timing: Pre-sweep positioning phase)
-2. **Create angle and off-balance**: Shift your hips approximately 45 degrees to the side you intend to sweep (typically to the side of your collar grip hand). Simultaneously pull opponent forward and slightly to that side using your grips, breaking their base and forcing their weight forward over their knees. (Timing: Initial off-balancing motion)
-3. **Load the sweeping hook**: Transfer your weight slightly to the non-sweeping side while maintaining the angle. Drive the sweeping-side butterfly hook deep under opponent's thigh, foot flexed and ready to elevate. Your opposite hook maintains base and prevents opponent from posting. (Timing: Loading phase before explosive action)
-4. **Execute simultaneous lift and pull**: Explosively extend your sweeping-side leg, lifting opponent's near leg off the mat while simultaneously pulling their upper body toward you and down with your grips. The lifting motion should be directed upward and across your body. Your chest should remain connected to theirs throughout. (Timing: Primary sweeping motion - explosive but controlled)
-5. **Drive through and establish top position**: As opponent begins to fall, continue driving your hook upward and rolling your body weight forward and over them. Use your grips to control their upper body and prevent them from recovering. Begin transitioning your hips forward to establish side control or knee on belly position. (Timing: Completion phase as opponent is swept)
-6. **Secure dominant position**: Land in side control with your chest pressure on opponent's torso, establishing crossface with your near arm and controlling their far hip or underhook with your other arm. Ensure your base is wide with knees spread, hips low, and weight distributed to prevent immediate escape attempts. (Timing: Final stabilization after sweep completion)
+1. **Establish butterfly guard position**: Sit with both butterfly hooks inserted deep under opponent's thighs, feet flexed and pulling upward. Establish strong grips on opponent's collar with one hand and sleeve or tricep with the other. Maintain upright posture with chest connected to opponent's upper body.
+2. **Create angle and off-balance**: Shift your hips approximately 45 degrees to the side you intend to sweep (typically to the side of your collar grip hand). Simultaneously pull opponent forward and slightly to that side using your grips, breaking their base and forcing their weight forward over their knees.
+3. **Load the sweeping hook**: Transfer your weight slightly to the non-sweeping side while maintaining the angle. Drive the sweeping-side butterfly hook deep under opponent's thigh, foot flexed and ready to elevate. Your opposite hook maintains base and prevents opponent from posting.
+4. **Execute simultaneous lift and pull**: Explosively extend your sweeping-side leg, lifting opponent's near leg off the mat while simultaneously pulling their upper body toward you and down with your grips. The lifting motion should be directed upward and across your body. Your chest should remain connected to theirs throughout.
+5. **Drive through and establish top position**: As opponent begins to fall, continue driving your hook upward and rolling your body weight forward and over them. Use your grips to control their upper body and prevent them from recovering. Begin transitioning your hips forward to establish side control or knee on belly position.
+6. **Secure dominant position**: Land in side control with your chest pressure on opponent's torso, establishing crossface with your near arm and controlling their far hip or underhook with your other arm. Ensure your base is wide with knees spread, hips low, and weight distributed to prevent immediate escape attempts.
 
 
 </section>
@@ -250,23 +250,18 @@ The Hook Sweep is a fundamental butterfly guard technique that leverages proper 
 ## Training Progressions
 **Phase 1: Weeks 1-2** - Basic mechanics and hook placement
 Practice hook insertion and maintenance with stationary partner. Focus on proper foot placement, angle creation, and grip establishment. Partner remains static while you drill setup position and basic lifting motion without resistance.
-(Resistance: None)
 
 **Phase 2: Weeks 3-4** - Coordinated sweep motion with cooperative partner
 Execute complete sweep with partner allowing technique to work. Emphasize simultaneous pull-and-lift timing, proper angle maintenance, and smooth follow-through to top position. Partner provides minimal resistance, allowing focus on technical details and body mechanics.
-(Resistance: Light)
 
 **Phase 3: Weeks 5-8** - Sweep against moderate resistance and counter responses
 Partner begins defending with common counters like posting, base widening, and hip sprawling. Practice recognizing and responding to different defensive reactions. Develop ability to chain to alternative techniques when primary sweep is blocked.
-(Resistance: Medium)
 
 **Phase 4: Months 3-6** - Live application and integration with butterfly guard system
 Incorporate hook sweep into positional sparring from butterfly guard. Practice setting up sweep from various grip configurations and against different opponent postures. Develop ability to create sweep opportunities through feints and combinations.
-(Resistance: Full)
 
 **Phase 5: Months 6+** - Competition refinement and situational mastery
 Apply technique in live rolling and competition scenarios. Develop timing to capitalize on opponent movements and weight shifts. Master variations and adaptations based on opponent size, style, and defensive patterns.
-(Resistance: Full)
 
 
 

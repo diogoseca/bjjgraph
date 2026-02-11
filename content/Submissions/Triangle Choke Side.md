@@ -167,7 +167,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 68%
+**Success Rate**: 59%
 
 </section>
 
@@ -246,13 +246,13 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate and trap opponent's near arm**: From side control or north-south position, use your upper body control to guide opponent's near-side arm across their own neck and centerline. This is often accomplished by pressuring their far shoulder, causing them to frame with their near arm, or by directly controlling their wrist and threading it across. The arm must cross past their centerline to create the choking angle. (Timing: 1-2 seconds - requires reading opponent's defensive reactions) [Pressure: Moderate]
-2. **Secure trapped arm position with chest pressure**: Once the arm is isolated across their neck, use your chest or shoulder pressure to pin it in place temporarily while you transition your legs. Your upper body should maintain enough pressure to prevent them from pulling the arm back, but not so much that you cannot move your hips freely. This is a critical transition moment where balance is essential. (Timing: 1 second) [Pressure: Firm]
-3. **Swing near leg over opponent's head and neck**: From your side control or north-south position, swing your near-side leg (the leg closest to opponent's head) over their head and across the back of their neck. Your shin should make contact with the back of their neck while your knee is positioned near their far shoulder. This requires lifting your hips and potentially using your hands on the mat for base during the transition. (Timing: 1-2 seconds - dynamic movement requiring coordination) [Pressure: Light]
-4. **Lock triangle configuration with figure-four**: Bring your far leg (the leg farther from opponent's head) up and position your foot behind the knee of your near leg, creating the figure-four lock. Your ankle should hook securely behind your knee, and your locked legs should form a triangle shape with opponent's head and trapped arm inside the triangle. Ensure the trapped arm is still positioned across their neck before fully locking. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Adjust body angle perpendicular to opponent**: Once locked, adjust your torso position so that you are perpendicular (90 degrees) to your opponent's body. Your hips should be high and positioned toward their head, not parallel to their torso. This perpendicular angle is critical for proper compression. You may need to post on your hands or use your free arm to adjust your position. Your head should be near their hips or far side. (Timing: 1-2 seconds - positional refinement) [Pressure: Moderate]
-6. **Control opponent's free arm**: Use your hands to control or pin the opponent's free arm (the arm not trapped in the triangle). Common controls include grabbing their wrist and pulling it away from their neck, pinning it to the mat, or hugging it to your body. Preventing them from inserting their free hand into the triangle is essential for maintaining the choke's integrity and preventing escapes. (Timing: Ongoing - concurrent with finishing pressure) [Pressure: Firm]
-7. **Finish with knee squeeze and hip pressure toward head**: Apply finishing pressure by squeezing your knees together (bringing them toward each other) while simultaneously driving your hips toward opponent's head. This creates circumferential compression on their neck and uses their own trapped arm as a wedge against their carotid artery. Apply pressure SLOWLY over 3-5 seconds in training. Watch for tap signals continuously throughout the finishing sequence. (Timing: 3-7 seconds in training - SLOW progressive pressure) [Pressure: Maximum]
+1. **Isolate and trap opponent's near arm**: From side control or north-south position, use your upper body control to guide opponent's near-side arm across their own neck and centerline. This is often accomplished by pressuring their far shoulder, causing them to frame with their near arm, or by directly controlling their wrist and threading it across. The arm must cross past their centerline to create the choking angle. (Timing: 1-2 seconds - requires reading opponent's defensive reactions)
+2. **Secure trapped arm position with chest pressure**: Once the arm is isolated across their neck, use your chest or shoulder pressure to pin it in place temporarily while you transition your legs. Your upper body should maintain enough pressure to prevent them from pulling the arm back, but not so much that you cannot move your hips freely. This is a critical transition moment where balance is essential. (Timing: 1 second)
+3. **Swing near leg over opponent's head and neck**: From your side control or north-south position, swing your near-side leg (the leg closest to opponent's head) over their head and across the back of their neck. Your shin should make contact with the back of their neck while your knee is positioned near their far shoulder. This requires lifting your hips and potentially using your hands on the mat for base during the transition. (Timing: 1-2 seconds - dynamic movement requiring coordination)
+4. **Lock triangle configuration with figure-four**: Bring your far leg (the leg farther from opponent's head) up and position your foot behind the knee of your near leg, creating the figure-four lock. Your ankle should hook securely behind your knee, and your locked legs should form a triangle shape with opponent's head and trapped arm inside the triangle. Ensure the trapped arm is still positioned across their neck before fully locking. (Timing: 1-2 seconds)
+5. **Adjust body angle perpendicular to opponent**: Once locked, adjust your torso position so that you are perpendicular (90 degrees) to your opponent's body. Your hips should be high and positioned toward their head, not parallel to their torso. This perpendicular angle is critical for proper compression. You may need to post on your hands or use your free arm to adjust your position. Your head should be near their hips or far side. (Timing: 1-2 seconds - positional refinement)
+6. **Control opponent's free arm**: Use your hands to control or pin the opponent's free arm (the arm not trapped in the triangle). Common controls include grabbing their wrist and pulling it away from their neck, pinning it to the mat, or hugging it to your body. Preventing them from inserting their free hand into the triangle is essential for maintaining the choke's integrity and preventing escapes. (Timing: Ongoing - concurrent with finishing pressure)
+7. **Finish with knee squeeze and hip pressure toward head**: Apply finishing pressure by squeezing your knees together (bringing them toward each other) while simultaneously driving your hips toward opponent's head. This creates circumferential compression on their neck and uses their own trapped arm as a wedge against their carotid artery. Apply pressure SLOWLY over 3-5 seconds in training. Watch for tap signals continuously throughout the finishing sequence. (Timing: 3-7 seconds in training - SLOW progressive pressure)
 
 
 </section>
@@ -272,25 +272,25 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying triangle from parallel position instead of perpendicular angle [Low DANGER]
+- **Mistake**: Applying triangle from parallel position instead of perpendicular angle
   - **Consequence**: Choke fails because pressure is distributed incorrectly, and opponent can easily posture or turn to escape. Parallel positioning mimics bottom triangle mechanics which don't work from top positions.
   - **Correction**: Always ensure your body is 90 degrees to opponent's torso with hips high and positioned toward their head. Think of making a 'T' shape with your bodies. Reposition before attempting to finish if angle is wrong.
-- **Mistake**: Locking triangle before properly securing trapped arm position [Low DANGER]
+- **Mistake**: Locking triangle before properly securing trapped arm position
   - **Consequence**: Opponent pulls their arm out during the lock transition, eliminating the choking mechanism entirely. Triangle without the trapped arm is ineffective and easily escaped.
   - **Correction**: Use upper body pressure and grips to fully secure the arm across their neck before committing to the leg swing. Patience in the setup phase is critical - don't rush to lock the triangle.
-- **Mistake**: Failing to control opponent's free arm during finish [Low DANGER]
+- **Mistake**: Failing to control opponent's free arm during finish
   - **Consequence**: Opponent inserts free hand into triangle, creates space, or uses it to frame and escape. Free arm gives them multiple defensive options that compromise the submission.
   - **Correction**: Dedicate one or both hands to controlling the free arm throughout the finishing sequence - grab wrist, pin to mat, or hug to your body. Never leave their free hand uncontrolled during the finish.
-- **Mistake**: CRITICAL: Cranking or spiking the neck with sudden jerking motions [CRITICAL DANGER]
+- **Mistake**: CRITICAL: Cranking or spiking the neck with sudden jerking motions
   - **Consequence**: Severe risk of neck injury, whiplash, cervical strain, or even vertebral damage. Partner may suffer long-term neck problems or be unable to continue training.
   - **Correction**: ALWAYS apply progressive, controlled pressure over minimum 3-5 seconds in training. Squeeze gradually and watch for tap continuously. Think 'squeeze and hold' not 'crank and jerk.' Safety must override finishing urgency.
-- **Mistake**: Squeezing only with calf muscles instead of full knee compression [Low DANGER]
+- **Mistake**: Squeezing only with calf muscles instead of full knee compression
   - **Consequence**: Choke is weak and ineffective because calf squeeze creates linear pressure rather than circumferential compression. Opponent can withstand the pressure and escape easily.
   - **Correction**: Focus on bringing your knees toward each other (adduction) while maintaining the locked figure-four. The squeezing motion should come from your thighs and hips, creating circular compression around the neck.
-- **Mistake**: Losing perpendicular angle during opponent's defensive movements [Medium DANGER]
+- **Mistake**: Losing perpendicular angle during opponent's defensive movements
   - **Consequence**: Choke weakens or fails as pressure shifts away from optimal angle. Opponent gains opportunity to escape or reverse position.
   - **Correction**: Maintain active hip movement to track opponent's defensive adjustments. As they turn or bridge, you must turn with them to preserve 90-degree angle. Think of your hips as being 'glued' to their head position.
-- **Mistake**: CRITICAL: Continuing pressure after tap signal or signs of unconsciousness [CRITICAL DANGER]
+- **Mistake**: CRITICAL: Continuing pressure after tap signal or signs of unconsciousness
   - **Consequence**: Extreme danger of causing unconsciousness, concussion, or permanent neurological damage. This is a serious safety violation that can end training partnerships and result in serious injury.
   - **Correction**: Develop hyper-awareness of tap signals - verbal, physical, or changes in partner resistance. Release IMMEDIATELY at first sign of tap. If partner goes limp or stops resisting suddenly, assume unconsciousness and release instantly. Safety is absolute priority.
 
@@ -353,43 +353,6 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Phase 1: Technical Understanding and Mechanics** (Week 1-2)
-- Focus: Learn the conceptual difference between bottom and side triangles, understand perpendicular angle requirements, and practice arm isolation setups from side control and north-south. Focus on recognition of when opponent's defensive frames create the trapped arm opportunity.
-- Resistance: Zero resistance
-- Safety: Partner remains completely passive during initial learning. No finishing pressure applied - practice only positioning and locking mechanics. Emphasis on understanding that this is a blood choke requiring extreme caution. Review tap protocols extensively before any practice.
-
-**Phase 2: Controlled Position Drills** (Week 3-4)
-- Focus: Drill the full sequence from side control to locked triangle with cooperative partner. Practice adjusting body angle to achieve perpendicular positioning. Work on controlling free arm while maintaining triangle lock. No finishing pressure yet - focus is on smooth transitions and positional control.
-- Resistance: Zero resistance
-- Safety: Partner allows you to complete the technique but provides feedback on pressure points and comfort. Still no finishing squeeze - stop at locked position. Practice release protocol repeatedly to build muscle memory for safety.
-
-**Phase 3: Progressive Pressure Introduction** (Week 5-8)
-- Focus: Begin applying light finishing pressure (20-30% of maximum) with 7-10 second application time. Partner taps early to indicate when they feel the choke beginning to take effect. Focus on smoothness of pressure application and immediate recognition of tap signals. Develop awareness of proper vs improper pressure angles.
-- Resistance: Mild resistance
-- Safety: CRITICAL phase for safety development. Partner must tap EARLY before any significant discomfort. Practice immediate release upon tap extensively. Begin developing awareness of how quickly blood chokes can take effect. Never exceed 30% pressure during this phase. Verbal communication throughout each attempt.
-
-**Phase 4: Defensive Reactions and Adjustments** (Week 9-12)
-- Focus: Partner begins using realistic defensive patterns (pulling trapped arm, inserting free hand, turning to relieve pressure). Practice maintaining position and making adjustments while keeping safety as priority. Apply moderate finishing pressure (40-60%) with 5-7 second application time. Develop ability to recognize when triangle is properly positioned vs when you need to reset.
-- Resistance: Realistic resistance
-- Safety: Partner continues tapping early but defends realistically. Both partners responsible for safety. Practice stopping if position becomes scrambled or unsafe. Review injury risks and ensure both partners understand cervical strain risks from improper angles. No jerking or sudden adjustments.
-
-**Phase 5: Live Integration and Timing** (Week 13-24)
-- Focus: Integrate side triangle attempts into live positional sparring from side control and north-south. Work on recognizing fleeting opportunities during transitions. Apply full pressure when properly positioned, but maintain 5 second minimum application time. Develop situational awareness of when to attempt vs when to maintain positional control.
-- Resistance: Full resistance
-- Safety: Both partners must have strong safety culture established. Immediate tap recognition is non-negotiable. Avoid attempting during fully live rolling until technique is reliable in positional sparring. Still prioritize slow application even with full resistance. Partner must be experienced enough to defend and tap appropriately.
-
-**Phase 6: Ongoing Refinement and Safety Maintenance** (Month 7+)
-- Focus: Continuous refinement of setup recognition, angle adjustments, and finishing mechanics. Study variations and integrate into personal game. Teach the technique to others to deepen understanding. Regular review of safety protocols and injury awareness.
-- Resistance: Full resistance
-- Safety: Maintain heightened safety awareness even with experience. Never become complacent with blood chokes. Regular review of release protocols. When teaching others, emphasize safety first mentality. Adapt application speed based on training partner experience level - slower with less experienced partners.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -435,6 +398,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -10,11 +10,6 @@
     "submission-setup",
     "guard-attack"
   ],
-  "success_rates": {
-    "beginner": 25,
-    "intermediate": 40,
-    "advanced": 60
-  },
   "overview": "The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.",
   "key_principles": [
     "Control opponent's posture and sleeve before attempting triangle entry",
@@ -36,38 +31,32 @@
     {
       "step_number": 1,
       "action": "Break posture and control",
-      "description": "From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs.",
-      "timing": "Initiate when opponent attempts to establish their grips or begins to posture"
+      "description": "From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs."
     },
     {
       "step_number": 2,
       "action": "Isolate the arm",
-      "description": "Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard while the other is positioned outside.",
-      "timing": "Pull the arm across as you feel their weight shift forward"
+      "description": "Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard while the other is positioned outside."
     },
     {
       "step_number": 3,
       "action": "Open guard and create angle",
-      "description": "Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a slight hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics.",
-      "timing": "Execute the angle creation as one fluid motion immediately after isolating the arm"
+      "description": "Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a slight hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics."
     },
     {
       "step_number": 4,
       "action": "Throw leg over shoulder",
-      "description": "Drive your left leg up and over the opponent's right shoulder, bringing your shin across the back of their neck. Your left knee should be positioned near your own centerline while your foot extends past their left shoulder. Maintain downward pressure on their head with your collar grip to prevent them from posturing up.",
-      "timing": "Throw the leg as soon as the angle is created, before opponent can recover posture"
+      "description": "Drive your left leg up and over the opponent's right shoulder, bringing your shin across the back of their neck. Your left knee should be positioned near your own centerline while your foot extends past their left shoulder. Maintain downward pressure on their head with your collar grip to prevent them from posturing up."
     },
     {
       "step_number": 5,
       "action": "Lock the triangle",
-      "description": "Pull your right leg out from behind the opponent's back and place your right ankle behind your left knee, forming the triangle lock. Your left leg should maintain pressure across the back of their neck while your right leg secures the lock. Ensure the opponent's trapped arm remains across their centerline and their head is pulled down toward your chest.",
-      "timing": "Lock the triangle immediately after leg is over shoulder to prevent escape"
+      "description": "Pull your right leg out from behind the opponent's back and place your right ankle behind your left knee, forming the triangle lock. Your left leg should maintain pressure across the back of their neck while your right leg secures the lock. Ensure the opponent's trapped arm remains across their centerline and their head is pulled down toward your chest."
     },
     {
       "step_number": 6,
       "action": "Adjust angle and finish",
-      "description": "Grab your own shin (left leg) with both hands and pull it down toward your chest while simultaneously angling your hips further away from the trapped arm side. This adjustment tightens the triangle and positions the opponent's carotid arteries directly against your thigh and calf. Elevate your hips slightly to increase pressure and secure the submission.",
-      "timing": "Make final adjustments until you feel the choke tightening properly"
+      "description": "Grab your own shin (left leg) with both hands and pull it down toward your chest while simultaneously angling your hips further away from the trapped arm side. This adjustment tightens the triangle and positions the opponent's carotid arteries directly against your thigh and calf. Elevate your hips slightly to increase pressure and secure the submission."
     }
   ],
   "common_counters": [
@@ -128,38 +117,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Arm isolation and angle creation",
-      "description": "Practice breaking posture, isolating the arm across centerline, and creating proper angles from closed guard. Partner remains stationary while you develop muscle memory for hip movement and arm control. Focus on consistent angle creation of approximately 45 degrees.",
-      "resistance_level": "None"
+      "description": "Practice breaking posture, isolating the arm across centerline, and creating proper angles from closed guard. Partner remains stationary while you develop muscle memory for hip movement and arm control. Focus on consistent angle creation of approximately 45 degrees."
     },
     {
       "phase": "Week 3-4: Entry Drilling",
       "focus": "Complete transition sequence",
-      "description": "Drill the entire sequence from closed guard to locked triangle position. Partner provides light resistance by maintaining basic posture but allows technique to complete. Emphasize smooth transitions between steps and proper timing of guard opening, angle creation, and leg placement over shoulder.",
-      "resistance_level": "Light"
+      "description": "Drill the entire sequence from closed guard to locked triangle position. Partner provides light resistance by maintaining basic posture but allows technique to complete. Emphasize smooth transitions between steps and proper timing of guard opening, angle creation, and leg placement over shoulder."
     },
     {
       "phase": "Week 5-6: Position Retention",
       "focus": "Maintaining triangle against defensive movements",
-      "description": "Partner attempts basic escapes such as posturing up and pulling arm back. Practice maintaining triangle lock, adjusting angle, and following opponent's movement. Begin recognizing when to transition to alternative submissions like armbar or omoplata.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts basic escapes such as posturing up and pulling arm back. Practice maintaining triangle lock, adjusting angle, and following opponent's movement. Begin recognizing when to transition to alternative submissions like armbar or omoplata."
     },
     {
       "phase": "Week 7-8: Counter Responses",
       "focus": "Dealing with common defenses",
-      "description": "Partner employs realistic defensive tactics including standing to stack, circling away from angle, and driving forward pressure. Develop ability to maintain control and finish triangle despite resistance, or smoothly transition to backup attacks when primary finish is defended.",
-      "resistance_level": "Medium"
+      "description": "Partner employs realistic defensive tactics including standing to stack, circling away from angle, and driving forward pressure. Develop ability to maintain control and finish triangle despite resistance, or smoothly transition to backup attacks when primary finish is defended."
     },
     {
       "phase": "Week 9-10: Live Application",
       "focus": "Integration into positional sparring",
-      "description": "Apply triangle entries during positional sparring from closed guard with full resistance. Partner knows you're hunting for triangle but defends realistically. Focus on creating setups, recognizing optimal timing, and chaining together multiple attack attempts.",
-      "resistance_level": "Full"
+      "description": "Apply triangle entries during positional sparring from closed guard with full resistance. Partner knows you're hunting for triangle but defends realistically. Focus on creating setups, recognizing optimal timing, and chaining together multiple attack attempts."
     },
     {
       "phase": "Week 11+: Competition Refinement",
       "focus": "High-percentage finishing under pressure",
-      "description": "Implement triangle attacks during full sparring sessions. Develop recognition of optimal moments to attack based on opponent's grip fighting, posture, and defensive patterns. Refine ability to finish quickly or transition to alternative attacks without losing advantageous position.",
-      "resistance_level": "Full"
+      "description": "Implement triangle attacks during full sparring sessions. Develop recognition of optimal moments to attack based on opponent's grip fighting, posture, and defensive patterns. Refine ability to finish quickly or transition to alternative attacks without losing advantageous position."
     }
   ],
   "variants_and_adaptations": [
@@ -182,33 +165,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is creating an angle with your hips essential for a successful triangle from closed guard?",
-      "answer": "Creating an angle positions your thigh and calf bone perpendicular to the opponent's neck, allowing them to compress the carotid arteries effectively. Without this angle, the choke relies only on forward pressure which is easily defended by posturing. The angle also prevents the opponent from simply pulling straight back to escape, as your body position blocks their escape path.",
-      "difficulty": "Beginner"
+      "answer": "Creating an angle positions your thigh and calf bone perpendicular to the opponent's neck, allowing them to compress the carotid arteries effectively. Without this angle, the choke relies only on forward pressure which is easily defended by posturing. The angle also prevents the opponent from simply pulling straight back to escape, as your body position blocks their escape path."
     },
     {
       "question": "What is the primary difference between trapping the arm across centerline versus allowing it to remain on the same side as the opponent's body?",
-      "answer": "Trapping the arm across centerline creates a structural weakness where the opponent cannot generate power to defend or posture because their arm is fighting against their own body mechanics. When the arm stays on the same side, they can use it as a post to create base and generate escape pressure. The crossed arm also creates the necessary space on one side of the neck for your leg to enter and establish the choking angle.",
-      "difficulty": "Intermediate"
+      "answer": "Trapping the arm across centerline creates a structural weakness where the opponent cannot generate power to defend or posture because their arm is fighting against their own body mechanics. When the arm stays on the same side, they can use it as a post to create base and generate escape pressure. The crossed arm also creates the necessary space on one side of the neck for your leg to enter and establish the choking angle."
     },
     {
       "question": "How should you adjust your triangle if the opponent successfully stands up and begins to stack you?",
-      "answer": "When the opponent stands and stacks, maintain your triangle lock and use your hands to control their hips or belt to prevent them from driving forward. Elevate your hips higher to maintain choking pressure and consider transitioning to an elevated position by climbing your back off the ground. Alternatively, if the stack pressure is too great, transition to armbar by extending the trapped arm or switch to omoplata by releasing the top leg and swinging it over their back.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent stands and stacks, maintain your triangle lock and use your hands to control their hips or belt to prevent them from driving forward. Elevate your hips higher to maintain choking pressure and consider transitioning to an elevated position by climbing your back off the ground. Alternatively, if the stack pressure is too great, transition to armbar by extending the trapped arm or switch to omoplata by releasing the top leg and swinging it over their back."
     },
     {
       "question": "What grip configurations from closed guard best facilitate the transition to triangle?",
-      "answer": "The most effective grip combinations include: collar and sleeve grip (controlling posture and isolating the arm), double sleeve grips (allowing you to manipulate arm positioning across centerline), or overhook and wrist control (creating immediate arm isolation). The collar and sleeve combination is most versatile as it provides posture control while setting up the arm isolation necessary for triangle entry.",
-      "difficulty": "Intermediate"
+      "answer": "The most effective grip combinations include: collar and sleeve grip (controlling posture and isolating the arm), double sleeve grips (allowing you to manipulate arm positioning across centerline), or overhook and wrist control (creating immediate arm isolation). The collar and sleeve combination is most versatile as it provides posture control while setting up the arm isolation necessary for triangle entry."
     },
     {
       "question": "Why is it important to maintain control of the opponent's posture until the triangle is fully locked?",
-      "answer": "Posture control prevents the opponent from creating space and seeing the triangle attack coming. If you release the collar or head control prematurely, the opponent can posture up with their spine straight, making it extremely difficult to get your leg over their shoulder. Maintaining downward pressure on their head keeps them bent forward, shortening the distance your leg needs to travel and preventing them from defending the shoulder. Once the triangle is locked, their posture is controlled by the leg across their neck, allowing you to release the initial grips and make final adjustments.",
-      "difficulty": "Beginner"
+      "answer": "Posture control prevents the opponent from creating space and seeing the triangle attack coming. If you release the collar or head control prematurely, the opponent can posture up with their spine straight, making it extremely difficult to get your leg over their shoulder. Maintaining downward pressure on their head keeps them bent forward, shortening the distance your leg needs to travel and preventing them from defending the shoulder. Once the triangle is locked, their posture is controlled by the leg across their neck, allowing you to release the initial grips and make final adjustments."
     },
     {
       "question": "What are the mechanical advantages of locking the triangle with ankle behind knee versus other leg configurations?",
-      "answer": "The ankle-behind-knee figure-four lock creates a self-tightening mechanism where pulling on the shin increases pressure exponentially. This configuration also distributes force across a wider area of the opponent's neck, making it harder for them to create space. The locked position prevents the opponent from simply pushing your legs apart, as the structural integrity of the lock becomes stronger under pressure. Alternative configurations lack this mechanical advantage and can be broken more easily through posturing or hand fighting.",
-      "difficulty": "Advanced"
+      "answer": "The ankle-behind-knee figure-four lock creates a self-tightening mechanism where pulling on the shin increases pressure exponentially. This configuration also distributes force across a wider area of the opponent's neck, making it harder for them to create space. The locked position prevents the opponent from simply pushing your legs apart, as the structural integrity of the lock becomes stronger under pressure. Alternative configurations lack this mechanical advantage and can be broken more easily through posturing or hand fighting."
     }
   ],
   "safety_considerations": "When training triangle setups from closed guard, practitioners must be mindful of neck and spine safety for both participants. The person applying the triangle should never crank or jerk the opponent's head violently, as this can cause cervical spine injuries. Apply pressure gradually and release immediately upon tap signal. For the defender, avoid explosive stacking movements that could injure your training partner's neck or spine—controlled movement is essential. When practicing entries, beginners should focus on position rather than finishing pressure until proper mechanics are established. Partners should communicate clearly about pressure levels and tap early when learning the position. Instructors should emphasize that the triangle choke targets the carotid arteries, not the trachea, and should be applied with control rather than force. Never practice triangles on training partners with known neck injuries without explicit clearance from medical professionals.",
@@ -280,5 +257,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 50
 }

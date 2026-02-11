@@ -9,11 +9,6 @@
     "fundamental",
     "top_game"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.",
   "key_principles": [
     "Maintain constant downward pressure through chest and hips to limit opponent's movement",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Establish combat base position",
-      "description": "From inside opponent's guard, posture up and establish combat base with one knee up and one knee down. Your lead knee should be between opponent's legs while your back foot is planted flat for base. Grip opponent's pants at both knees or one knee and one belt/hip area.",
-      "timing": "Initial positioning phase"
+      "description": "From inside opponent's guard, posture up and establish combat base with one knee up and one knee down. Your lead knee should be between opponent's legs while your back foot is planted flat for base. Grip opponent's pants at both knees or one knee and one belt/hip area."
     },
     {
       "step_number": 2,
       "action": "Open and pin opponent's legs",
-      "description": "Use your grips to push opponent's knees apart and down toward the mat. As you create this opening, begin to drive your chest forward and down toward opponent's hips or lower chest. Your head should be positioned on one side (typically the side you'll pass toward).",
-      "timing": "Coordinated with hip pressure"
+      "description": "Use your grips to push opponent's knees apart and down toward the mat. As you create this opening, begin to drive your chest forward and down toward opponent's hips or lower chest. Your head should be positioned on one side (typically the side you'll pass toward)."
     },
     {
       "step_number": 3,
       "action": "Apply chest-to-chest or chest-to-hip pressure",
-      "description": "Drive your chest heavily into opponent's body, making them carry your weight. Keep your hips low and drive them forward to maximize pressure. Your chest should create a crushing sensation that limits opponent's ability to move their hips or create frames.",
-      "timing": "Continuous throughout the pass"
+      "description": "Drive your chest heavily into opponent's body, making them carry your weight. Keep your hips low and drive them forward to maximize pressure. Your chest should create a crushing sensation that limits opponent's ability to move their hips or create frames."
     },
     {
       "step_number": 4,
       "action": "Establish crossface or underhook control",
-      "description": "As you maintain pressure, secure either a crossface (forearm across opponent's face driving to far side) or an underhook on the near side. The crossface prevents them from turning toward you while the underhook controls their shoulder and prevents defensive frames.",
-      "timing": "As opponent tries to defend"
+      "description": "As you maintain pressure, secure either a crossface (forearm across opponent's face driving to far side) or an underhook on the near side. The crossface prevents them from turning toward you while the underhook controls their shoulder and prevents defensive frames."
     },
     {
       "step_number": 5,
       "action": "Clear the near leg",
-      "description": "While maintaining upper body pressure and control, use your free hand to clear opponent's near leg away from your body. Push the knee down toward the mat or hook it with your elbow to prevent it from blocking your advancement.",
-      "timing": "Progressive clearing motion"
+      "description": "While maintaining upper body pressure and control, use your free hand to clear opponent's near leg away from your body. Push the knee down toward the mat or hook it with your elbow to prevent it from blocking your advancement."
     },
     {
       "step_number": 6,
       "action": "Step over and consolidate hip control",
-      "description": "Step your outside leg over opponent's cleared leg while maintaining heavy chest pressure. Your knee should land on the mat near their hip. Keep driving pressure through your chest to prevent them from recovering guard.",
-      "timing": "Smooth stepping motion"
+      "description": "Step your outside leg over opponent's cleared leg while maintaining heavy chest pressure. Your knee should land on the mat near their hip. Keep driving pressure through your chest to prevent them from recovering guard."
     },
     {
       "step_number": 7,
       "action": "Secure side control position",
-      "description": "Bring your trailing leg through to establish full side control. Ensure your chest remains heavy on opponent's chest, your hips are low and perpendicular to their body, and you maintain crossface or underhook control. Your head should be tight to their far shoulder.",
-      "timing": "Final consolidation"
+      "description": "Bring your trailing leg through to establish full side control. Ensure your chest remains heavy on opponent's chest, your hips are low and perpendicular to their body, and you maintain crossface or underhook control. Your head should be tight to their far shoulder."
     }
   ],
   "common_counters": [
@@ -134,32 +122,27 @@
     {
       "phase": "Week 1-2: Pressure Mechanics",
       "focus": "Establishing proper pressure and weight distribution",
-      "description": "Practice maintaining heavy chest pressure from combat base against stationary opponent. Focus on hip positioning, chest contact, and making partner carry your weight. Partner provides no resistance, allowing you to feel proper pressure mechanics.",
-      "resistance_level": "None"
+      "description": "Practice maintaining heavy chest pressure from combat base against stationary opponent. Focus on hip positioning, chest contact, and making partner carry your weight. Partner provides no resistance, allowing you to feel proper pressure mechanics."
     },
     {
       "phase": "Week 3-4: Basic Pass with Light Resistance",
       "focus": "Completing full pressure pass sequence with minimal counters",
-      "description": "Execute complete pressure pass from combat base to side control with partner offering light resistance. Partner may attempt to create frames but doesn't actively recover guard. Focus on maintaining pressure throughout the movement.",
-      "resistance_level": "Light"
+      "description": "Execute complete pressure pass from combat base to side control with partner offering light resistance. Partner may attempt to create frames but doesn't actively recover guard. Focus on maintaining pressure throughout the movement."
     },
     {
       "phase": "Week 5-8: Dealing with Common Frames and Resistance",
       "focus": "Passing against frames, hip escapes, and guard recovery attempts",
-      "description": "Partner actively attempts to frame, create distance, and recover guard. Practice collapsing frames, maintaining pressure during hip movement, and dealing with common defensive reactions. Work both gi and no-gi variations.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to frame, create distance, and recover guard. Practice collapsing frames, maintaining pressure during hip movement, and dealing with common defensive reactions. Work both gi and no-gi variations."
     },
     {
       "phase": "Week 9-12: Dynamic Passing and Counter Responses",
       "focus": "Chaining pressure pass with other passing options and countering advanced defenses",
-      "description": "Partner uses full defensive toolkit including deep half attempts, underhooks, and dynamic guard recovery. Practice recognizing when to continue pressure pass versus transitioning to knee slice, leg drag, or other complementary passes.",
-      "resistance_level": "Medium"
+      "description": "Partner uses full defensive toolkit including deep half attempts, underhooks, and dynamic guard recovery. Practice recognizing when to continue pressure pass versus transitioning to knee slice, leg drag, or other complementary passes."
     },
     {
       "phase": "Month 4+: Full Resistance and Competition Application",
       "focus": "Applying pressure passing in live rolling and competition scenarios",
-      "description": "Use pressure passing as primary passing method during positional sparring from various guard positions. Integrate with your overall passing system and develop ability to maintain pressure against fully resisting opponents of various sizes and skill levels.",
-      "resistance_level": "Full"
+      "description": "Use pressure passing as primary passing method during positional sparring from various guard positions. Integrate with your overall passing system and develop ability to maintain pressure against fully resisting opponents of various sizes and skill levels."
     }
   ],
   "variants_and_adaptations": [
@@ -187,33 +170,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary objective of pressure passing compared to speed passing?",
-      "answer": "The primary objective of pressure passing is to use controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure, rather than trying to quickly bypass their legs. Pressure passing emphasizes control and methodical advancement over speed.",
-      "difficulty": "Beginner"
+      "answer": "The primary objective of pressure passing is to use controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure, rather than trying to quickly bypass their legs. Pressure passing emphasizes control and methodical advancement over speed."
     },
     {
       "question": "Why is it important to keep your hips low during a pressure pass?",
-      "answer": "Keeping your hips low during a pressure pass maximizes the amount of weight you can drive through your chest onto the opponent, making it harder for them to move their hips or create defensive frames. Low hips also improve your base and prevent the opponent from using your high posture to create space underneath.",
-      "difficulty": "Beginner"
+      "answer": "Keeping your hips low during a pressure pass maximizes the amount of weight you can drive through your chest onto the opponent, making it harder for them to move their hips or create defensive frames. Low hips also improve your base and prevent the opponent from using your high posture to create space underneath."
     },
     {
       "question": "What should you do if your opponent establishes strong frames on your hips during a pressure pass?",
-      "answer": "If the opponent establishes frames on your hips, you should lower your hips beneath their frames while driving your chest forward over the frames. Use your grips to collapse their knee shield or remove their frames, and consider transitioning to a knee slice or leg drag if they overcommit to pushing.",
-      "difficulty": "Intermediate"
+      "answer": "If the opponent establishes frames on your hips, you should lower your hips beneath their frames while driving your chest forward over the frames. Use your grips to collapse their knee shield or remove their frames, and consider transitioning to a knee slice or leg drag if they overcommit to pushing."
     },
     {
       "question": "Why is crossface control important during pressure passing, and which direction should you pass relative to the crossface?",
-      "answer": "Crossface control is important because it prevents the opponent from turning into you, establishing underhooks, or recovering half guard. You should pass toward the same side as your crossface (if crossfacing to their right, pass to your right) to use the crossface pressure to drive them flat and prevent defensive rotation.",
-      "difficulty": "Intermediate"
+      "answer": "Crossface control is important because it prevents the opponent from turning into you, establishing underhooks, or recovering half guard. You should pass toward the same side as your crossface (if crossfacing to their right, pass to your right) to use the crossface pressure to drive them flat and prevent defensive rotation."
     },
     {
       "question": "How should you respond if your opponent begins to turn into you and establish deep half guard during your pressure pass?",
-      "answer": "If the opponent turns into you for deep half, immediately establish a strong crossface to drive them flat, clear their underhook if they have one, and establish a whizzer on their near arm. Focus on preventing them from coming to their side fully, and use your crossface pressure combined with hip positioning to flatten them back to their back before continuing the pass.",
-      "difficulty": "Advanced"
+      "answer": "If the opponent turns into you for deep half, immediately establish a strong crossface to drive them flat, clear their underhook if they have one, and establish a whizzer on their near arm. Focus on preventing them from coming to their side fully, and use your crossface pressure combined with hip positioning to flatten them back to their back before continuing the pass."
     },
     {
       "question": "Explain the concept of incremental advancement in pressure passing and why rushing the pass is counterproductive?",
-      "answer": "Incremental advancement means passing in controlled steps, consolidating each position before moving to the next, rather than trying to complete the pass in one motion. Rushing is counterproductive because it causes you to lose pressure and balance, giving the opponent opportunities to use your momentum against you for sweeps or guard recovery. Pressure passing requires patience and steady progression while maintaining constant heavy pressure throughout.",
-      "difficulty": "Advanced"
+      "answer": "Incremental advancement means passing in controlled steps, consolidating each position before moving to the next, rather than trying to complete the pass in one motion. Rushing is counterproductive because it causes you to lose pressure and balance, giving the opponent opportunities to use your momentum against you for sweeps or guard recovery. Pressure passing requires patience and steady progression while maintaining constant heavy pressure throughout."
     }
   ],
   "safety_considerations": "Pressure passing is generally safe when practiced with control, but be mindful of the amount of weight you apply, especially when training with significantly smaller or less experienced partners. Avoid dropping your full weight suddenly onto opponent's chest or ribs. When applying crossface pressure, ensure you're not driving your forearm directly into partner's throat or face with excessive force. Communicate with training partners about pressure tolerance. If you're on the receiving end and pressure becomes uncomfortable or affects breathing, tap early and communicate. When practicing stacking variations, be cautious of putting extreme pressure on partner's neck or spine. Always release pressure immediately if partner taps or indicates discomfort.",
@@ -285,5 +262,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

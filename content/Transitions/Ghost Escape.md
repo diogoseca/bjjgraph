@@ -153,7 +153,7 @@ description: "Learn Ghost Escape in BJJ. Step-by-step execution from Side Contro
 The Ghost Escape is an advanced, dynamic escape from side control that utilizes rotational movement and timing to create space and transition to turtle position. Named for its ability to seemingly disappear from underneath the opponent's control, this escape combines hip movement, shoulder rotation, and precise timing to slip out from heavy pressure. Unlike traditional shrimping escapes that move perpendicular to the opponent, the Ghost Escape rotates the body in a circular motion, creating a unique angle that disrupts the opponent's base and weight distribution. This technique is particularly effective against opponents who maintain heavy chest-to-chest pressure and are anticipating standard escape patterns. The Ghost Escape requires good body awareness, timing, and the ability to create small windows of space under pressure. It's most successful when initiated during transitional moments when the opponent shifts their weight or adjusts their grips. The escape represents a modern, mobile approach to dealing with dominant top positions and is especially valuable in no-gi grappling where traditional gi grips are unavailable.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -203,12 +203,12 @@ The Ghost Escape is an advanced, dynamic escape from side control that utilizes 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create initial frame**: From bottom side control, establish a strong frame against the opponent's shoulder or neck with your far arm while keeping your near elbow tight to your ribs. Your near-side hand should be posted on the mat or creating a secondary frame against the opponent's hip. This dual framing structure creates the essential space needed to begin the escape. (Timing: Establish frames immediately when opponent settles into side control)
-2. **Generate hip movement**: Bridge slightly to create additional space, then explosively turn your hips away from the opponent (towards your stomach) while maintaining your frames. Your hips should rotate approximately 45-90 degrees, bringing your bottom knee closer to your chest. This hip rotation is the critical first movement that initiates the ghost motion. (Timing: Execute during opponent's exhale or weight adjustment)
-3. **Initiate shoulder rotation**: As your hips rotate, begin rotating your shoulders in the same direction, creating a continuous circular motion through your entire body. Your far shoulder should drive towards the mat as if performing a forward roll. Keep your chin tucked to your chest to protect your neck during this rotation. Your body should now be turning perpendicular to the opponent. (Timing: Immediate follow-through from hip movement without pause)
-4. **Pull bottom arm through**: As you continue the rotation, pull your bottom arm (the arm closest to the mat) out from underneath your body and bring it across your torso. This arm extraction is essential for completing the rotation and prevents you from getting stuck mid-escape. Your elbow should stay tight to your body as you pull it through to avoid giving the opponent an underhook or armbar opportunity. (Timing: Execute as shoulders reach 45-degree rotation)
-5. **Complete the roll**: Continue the rotational momentum by driving your far shoulder fully to the mat while bringing your knees underneath your body. Your movement should resemble a forward roll executed from the side. As you roll, keep your elbows tight and hands ready to post. The opponent's weight should slide off your back as you rotate through the position. (Timing: Maintain continuous momentum without stopping mid-rotation)
-6. **Establish turtle position**: As the rotation completes, settle into a strong turtle position with your knees and hands creating a solid base. Your elbows should be tight to your knees, and your hips should be elevated slightly. Immediately assess the opponent's position and prepare to defend against back takes or stand up if space allows. Your head should be protected, looking towards your knees rather than up at the opponent. (Timing: Stabilize immediately upon completing rotation)
+1. **Create initial frame**: From bottom side control, establish a strong frame against the opponent's shoulder or neck with your far arm while keeping your near elbow tight to your ribs. Your near-side hand should be posted on the mat or creating a secondary frame against the opponent's hip. This dual framing structure creates the essential space needed to begin the escape.
+2. **Generate hip movement**: Bridge slightly to create additional space, then explosively turn your hips away from the opponent (towards your stomach) while maintaining your frames. Your hips should rotate approximately 45-90 degrees, bringing your bottom knee closer to your chest. This hip rotation is the critical first movement that initiates the ghost motion.
+3. **Initiate shoulder rotation**: As your hips rotate, begin rotating your shoulders in the same direction, creating a continuous circular motion through your entire body. Your far shoulder should drive towards the mat as if performing a forward roll. Keep your chin tucked to your chest to protect your neck during this rotation. Your body should now be turning perpendicular to the opponent.
+4. **Pull bottom arm through**: As you continue the rotation, pull your bottom arm (the arm closest to the mat) out from underneath your body and bring it across your torso. This arm extraction is essential for completing the rotation and prevents you from getting stuck mid-escape. Your elbow should stay tight to your body as you pull it through to avoid giving the opponent an underhook or armbar opportunity.
+5. **Complete the roll**: Continue the rotational momentum by driving your far shoulder fully to the mat while bringing your knees underneath your body. Your movement should resemble a forward roll executed from the side. As you roll, keep your elbows tight and hands ready to post. The opponent's weight should slide off your back as you rotate through the position.
+6. **Establish turtle position**: As the rotation completes, settle into a strong turtle position with your knees and hands creating a solid base. Your elbows should be tight to your knees, and your hips should be elevated slightly. Immediately assess the opponent's position and prepare to defend against back takes or stand up if space allows. Your head should be protected, looking towards your knees rather than up at the opponent.
 
 
 </section>
@@ -255,27 +255,21 @@ The Ghost Escape is an advanced, dynamic escape from side control that utilizes 
 ## Training Progressions
 **Week 1-2: Solo drilling and mechanics** - Master the rotational movement pattern without resistance
 Practice the ghost rotation movement from side control position without a partner, focusing on smooth circular motion, proper hip rotation, arm extraction, and landing in solid turtle position. Perform 20-30 repetitions daily to build muscle memory for the movement pattern.
-(Resistance: None)
 
 **Week 3-4: Cooperative partner drilling** - Execute escape with compliant partner maintaining light side control
 Partner maintains side control with light pressure (30-40% intensity) and allows the escape to complete. Focus on timing, creating frames, and smooth execution. Partner provides feedback on technique. Perform 15-20 repetitions per session, alternating with partner.
-(Resistance: Light)
 
 **Week 5-6: Increased resistance drilling** - Execute against partner maintaining moderate pressure and base
 Partner maintains side control with moderate pressure (60-70% intensity) and maintains proper base but doesn't actively counter the escape. Focus on explosive initiation and maintaining momentum through pressure. Perform 10-15 repetitions per session.
-(Resistance: Medium)
 
 **Week 7-8: Active defense drilling** - Execute against partner who defends the escape with specific counters
 Partner actively defends with one pre-determined counter (sprawl, mount transition, or back take) per round. Practice recognizing and responding to each counter. Perform 8-10 repetitions per counter type.
-(Resistance: Medium)
 
 **Week 9-12: Full resistance integration** - Integrate escape into positional sparring from side control
 Start positional rounds from side control bottom (2-3 minute rounds) where you attempt the ghost escape along with other escape options. Partner provides full resistance and attempts to maintain or improve position. Focus on timing and recognizing optimal moments for the escape.
-(Resistance: Full)
 
 **Month 4+: Competition refinement** - Use escape in full sparring and competition scenarios
 Incorporate the ghost escape into your regular sparring as a high-percentage option from side control. Track success rate and identify specific scenarios where it works best versus other escape options. Continue drilling the movement pattern 5-10 times before each training session to maintain sharpness.
-(Resistance: Full)
 
 
 

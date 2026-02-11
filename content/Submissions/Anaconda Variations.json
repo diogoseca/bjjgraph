@@ -15,11 +15,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 75
-  },
   "overview": "The Anaconda choke variations represent a sophisticated family of blood chokes that capitalize on front headlock control, turtle attacks, and scramble situations. Unlike the standard anaconda which relies purely on arm encirclement and body compression, these variations offer tactical adaptations for different defensive responses, body types, and positional contexts. The arm-in anaconda sacrifices pure choking mechanics for superior control when opponents defend their neck aggressively. The high elbow variation generates increased shoulder pressure into the carotid while maintaining structural integrity against athletic opponents. The marce choke represents a hybrid evolution combining anaconda mechanics with darce-style shoulder driving, creating a powerful finishing option when traditional angles are compromised. Understanding these variations transforms the anaconda from a single technique into a complete submission system capable of finishing from multiple entries and adapting to diverse opponent responses. Modern competition demonstrates that variation mastery dramatically increases finishing percentages, as opponents who defend one variation often expose themselves to another.",
   "safety_considerations": {
     "injury_risks": [
@@ -94,43 +89,37 @@
       "step_number": 1,
       "action": "Secure deep arm penetration",
       "description": "From front headlock position, drive your choking arm (same side as controlled head) deep under opponent's neck. Your elbow must clear past their centerline completely. For arm-in variation, capture their defensive arm inside your grip. For high elbow variation, keep elbow elevated near their temple. Your forearm crosses their throat at the carotid arteries, not the trachea. This deep penetration is critical - shallow placement will fail regardless of compression applied.",
-      "timing": "2-3 seconds - establish depth before proceeding",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds - establish depth before proceeding"
     },
     {
       "step_number": 2,
       "action": "Lock hands and trap opponent's shoulder",
       "description": "Secure your grip by connecting your choking hand to your opposite hand. For standard anaconda, use gable grip (palm to palm) or s-grip (fingers interlaced). Your non-choking arm reaches across opponent's back and under their far armpit. Lock your hands on the far side of their body. Your choking-side shoulder should now be positioned behind their near shoulder, creating the trap. This configuration turns their own shoulder into a choking mechanism as you apply compression.",
-      "timing": "1-2 seconds - secure lock before compression",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds - secure lock before compression"
     },
     {
       "step_number": 3,
       "action": "Establish body lock and hip pressure",
       "description": "Circle your hips toward opponent's far side while maintaining the arm encirclement. Your body should form a tight 'C' shape wrapped around their upper body. Drive your hips forward and slightly upward, creating compression. Your chest presses into their trapped shoulder from behind. For marce variation, emphasize shoulder driving similar to darce mechanics. Your head position stays tight to their far hip or ribs to prevent space. This body lock multiplies the choking pressure exponentially.",
-      "timing": "1-2 seconds - position for finish",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds - position for finish"
     },
     {
       "step_number": 4,
       "action": "Execute variation-specific finish",
       "description": "For standard anaconda: Roll toward your choking-side shoulder, bringing opponent with you while maintaining tight encirclement. Land with opponent on top of you, their weight adding to compression. For high elbow variation: Instead of rolling, drive your elbow upward toward their head while expanding chest into their trapped shoulder. For marce choke: Shift weight to drive your shoulder into their neck while walking your feet toward their head, creating darce-style angle. Each variation maximizes different mechanical advantages while maintaining core choking structure.",
-      "timing": "2-3 seconds - progressive increase",
-      "pressure_level": "Maximum"
+      "timing": "2-3 seconds - progressive increase"
     },
     {
       "step_number": 5,
       "action": "Fine-tune choking angle and pressure",
       "description": "Adjust your position for maximum efficacy. For rolling variation: Pull your elbows tight to your body, eliminating all space. Arch your back slightly to increase compression. For high elbow: Focus pressure through your forearm into their neck while maintaining elevated elbow position. For marce: Walk your feet incrementally higher, each step increasing the angle and shoulder pressure. Your breathing should be controlled - exhale as you tighten. Monitor opponent closely for tap signals. Small adjustments often mean the difference between near-finish and complete submission.",
-      "timing": "3-5 seconds - controlled final adjustment",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds - controlled final adjustment"
     },
     {
       "step_number": 6,
       "action": "Maintain control through completion",
       "description": "Hold position with consistent pressure until tap occurs. Do not prematurely release or adjust. Your entire body remains engaged - arms locked, core tight, hips driving forward. If opponent attempts to roll through or stand up, follow their movement while maintaining arm structure. For rolling variation, be prepared to re-roll if they bridge. For high elbow, anchor your free hand on the mat for stability. For marce, continue walking feet higher if initial angle doesn't finish. The submission succeeds through sustained technical position, not explosive force. Release immediately and completely upon tap.",
-      "timing": "Variable - maintain until tap",
-      "pressure_level": "Maximum"
+      "timing": "Variable - maintain until tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -164,44 +153,37 @@
     {
       "error": "Attempting to finish with shallow arm penetration before elbow clears centerline",
       "consequence": "Choke fails completely as compression drives into opponent's jaw or face rather than carotid arteries, causing pain compliance attempt instead of blood choke",
-      "correction": "Prioritize depth of choking arm penetration over speed of finish. Take extra time to walk arm deeper using small progressive movements. Your elbow must be visible on the far side of their head before proceeding to body lock.",
-      "danger_level": "Medium"
+      "correction": "Prioritize depth of choking arm penetration over speed of finish. Take extra time to walk arm deeper using small progressive movements. Your elbow must be visible on the far side of their head before proceeding to body lock."
     },
     {
       "error": "Jerking or spiking the choke with explosive force rather than progressive pressure",
       "consequence": "CRITICAL INJURY RISK - can cause unconsciousness without warning, neck trauma, or trachea damage; partner cannot tap in time",
-      "correction": "Apply pressure gradually over 4-6 seconds minimum. Your intensity should increase smoothly like a dimmer switch, not a light switch. Monitor partner continuously for distress signals. In training, accept longer finishing times for safety.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure gradually over 4-6 seconds minimum. Your intensity should increase smoothly like a dimmer switch, not a light switch. Monitor partner continuously for distress signals. In training, accept longer finishing times for safety."
     },
     {
       "error": "Failing to adjust variation when initial setup meets defensive resistance",
       "consequence": "Wasted energy fighting through strong defense; missed opportunities for easier finish with different variation",
-      "correction": "Develop sensitivity to opponent's defensive pattern within first 2-3 seconds. If they post arm strongly, switch to arm-in. If they stand, use high elbow. If they create unusual angle, try marce. Variation mastery requires recognizing when standard approach is compromised.",
-      "danger_level": "Low"
+      "correction": "Develop sensitivity to opponent's defensive pattern within first 2-3 seconds. If they post arm strongly, switch to arm-in. If they stand, use high elbow. If they create unusual angle, try marce. Variation mastery requires recognizing when standard approach is compromised."
     },
     {
       "error": "Creating space between your body and opponent's body during lock and compression",
       "consequence": "Dramatic loss of choking pressure; opponent can turn into you or escape the position entirely",
-      "correction": "Visualize your body as a tightening python - every breath should bring you closer, never further. Your chest must stay glued to their trapped shoulder. Your hips drive forward continuously. Eliminate all gaps between your torso and their back.",
-      "danger_level": "Medium"
+      "correction": "Visualize your body as a tightening python - every breath should bring you closer, never further. Your chest must stay glued to their trapped shoulder. Your hips drive forward continuously. Eliminate all gaps between your torso and their back."
     },
     {
       "error": "Using arm strength to squeeze rather than body positioning to compress",
       "consequence": "Rapid fatigue; failure to finish against athletic opponents; teaches wrong motor pattern",
-      "correction": "Your arms function as structure, not force generators. Lock your grip and forget about it. Generate all pressure through hip drive, chest expansion, and body positioning. Test this in training - maintain loose arm muscles while increasing body compression.",
-      "danger_level": "Low"
+      "correction": "Your arms function as structure, not force generators. Lock your grip and forget about it. Generate all pressure through hip drive, chest expansion, and body positioning. Test this in training - maintain loose arm muscles while increasing body compression."
     },
     {
       "error": "Holding submission after partner taps or goes unconscious",
       "consequence": "CRITICAL INJURY RISK - brain damage from prolonged blood restriction; loss of trust; potential gym dismissal",
-      "correction": "Release immediately and completely at first tap signal. No gradual release - full immediate separation. If partner goes limp without tapping, assume unconsciousness and release instantly. Never test your partner's toughness in training.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately and completely at first tap signal. No gradual release - full immediate separation. If partner goes limp without tapping, assume unconsciousness and release instantly. Never test your partner's toughness in training."
     },
     {
       "error": "Attempting rolling variation without first establishing secure body lock",
       "consequence": "Loss of position during roll; opponent escapes to top position; wasted setup",
-      "correction": "Spend extra time perfecting body lock before initiating roll. Test the lock by attempting small movements - if opponent moves independently, lock is insufficient. Your body and their body should move as single unit before rolling.",
-      "danger_level": "Low"
+      "correction": "Spend extra time perfecting body lock before initiating roll. Test the lock by attempting small movements - if opponent moves independently, lock is insufficient. Your body and their body should move as single unit before rolling."
     }
   ],
   "variations_and_setups": [
@@ -293,50 +275,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Safety Introduction",
-      "timeframe": "Week 1-2",
-      "focus": "Learn all variation mechanics, understand choking principles, memorize safety protocols. Practice arm penetration, grip variations, and body positioning with zero resistance. Study differences between blood chokes and air chokes. Understand carotid anatomy and unconsciousness progression.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Memorize all tap signals and release protocols. Practice immediate release drills. Understand that training partners trust you with their safety. Learn to recognize pre-unconsciousness signs (eyes glazing, body tension changing, breathing pattern shifts). Never proceed to resistance training until safety protocols are automatic."
-    },
-    {
-      "phase": "Slow Practice with Communication",
-      "timeframe": "Week 3-4",
-      "focus": "Execute each variation slowly with verbal communication. Partner provides continuous feedback about pressure location and intensity. Practice 10-second application minimum. Focus on technical precision rather than finishing. Begin recognizing when variation choice should change based on partner positioning.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Develop habit of asking 'are you okay?' before increasing pressure. Partner should describe what they feel - 'pressure on jaw' means adjustment needed, 'pressure on neck' means correct positioning. Build trust through consistent safety-first behavior. Establish that tapping is encouraged at any pressure level."
-    },
-    {
-      "phase": "Positional Resistance Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Partner provides mild defensive resistance - tucking chin, posting arm, attempting to stand. Practice variation selection based on defense pattern. Begin flowing between variations when initial choice is defended. Maintain 8-second minimum application. Focus on adaptation rather than force.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "As resistance increases, safety communication must increase proportionally. Partner should tap earlier than necessary to build safety margin. Person applying choke should not chase taps - if technique is correct, partner will tap from pressure, not pain. Any pain rather than pressure indicates wrong technique. Stop and reset if confusion occurs."
-    },
-    {
-      "phase": "Realistic Defense with Positional Flow",
-      "timeframe": "Week 9-12",
-      "focus": "Partner defends intelligently, forcing variation selection and technical problem-solving. Practice entries from front headlock, turtle, scrambles. Begin recognizing submission windows - moments when defense creates variation opportunity. Reduce application time to 6 seconds. Emphasis on smooth transitions between variations.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Establish pre-roll agreement about intensity level. Both partners must agree on speed and force limits before starting. Person defending should tap when technique is correctly applied, not try to tough it out. Person attacking must honor agreed intensity level even when opportunities for harder application appear. Trust requires both partners upholding safety agreement."
-    },
-    {
-      "phase": "Competition Simulation with Safety Agreements",
-      "timeframe": "Week 13-20",
-      "focus": "Full-speed entries and realistic finishing attempts. Practice against opponents who know your tendencies. Time application approaches competition speed but maintains 4-second minimum. Begin recognizing when variation chains create submission inevitability. Develop style preferences - which variations fit your body type and game.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even at competition intensity, training is not competition. Agree on tap-or-out rule - when technique is locked, partner must tap, no escape attempts. Competition mindset of holding submissions is forbidden in training. If someone goes unconscious in this phase, both partners should reduce intensity in subsequent sessions. Safety must never be sacrificed for ego or perceived toughness."
-    },
-    {
-      "phase": "Ongoing Refinement and Teaching",
-      "timeframe": "Week 21+",
-      "focus": "Continuous technical refinement through teaching others. Help training partners develop their variation mastery. Study competition footage to see variation applications. Develop signature setups and variation preferences. Maintain technical precision rather than relying on athleticism. Begin recognizing setup opportunities earlier in positional sequences.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "As senior practitioner, you model safety culture for juniors. Never demonstrate techniques with dangerous speed or pressure. When teaching, emphasize safety protocols as much as technical details. Refuse to train with partners who disregard safety agreements. Understand that injuries hurt the entire training community, not just the individual. Your safety record affects whether beginners continue training or quit in fear."
-    }
-  ],
   "from_positions": [
     "Front Headlock",
     "Turtle",
@@ -352,7 +290,7 @@
   "related_submissions": [
     "Anaconda Choke",
     "Darce Choke",
-    "D'arce-Anaconda Connection",
+    "Darce-Anaconda Connection",
     "Guillotine Choke",
     "Arm Triangle",
     "Brabo Choke",
@@ -379,7 +317,7 @@
       "relationship": "Position family - control position maintained before finishing variations"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Sister control position - shares mechanical principles and transitional opportunities"
     },
     {
@@ -406,5 +344,6 @@
       "name": "Turtle",
       "relationship": "Primary attack surface - turtle position exposes neck for anaconda entries"
     }
-  ]
+  ],
+  "success_rate": 65
 }

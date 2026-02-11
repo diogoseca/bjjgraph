@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Granby Roll Escape is an inverted rolling technique specifically designed to escape the dangerous Aoki Lock position by using shoulder rotation and hip movement to extract your trapped arm while simultaneously creating distance from your opponent. Named after the wrestling maneuver popularized at Granby High School, this escape leverages the principle of moving with pressure rather than against it, using rotational momentum to create space where direct resistance would fail.\n\nThis technique becomes essential when caught in the Aoki Lock because traditional escape methods that involve pulling the arm directly out or bridging away often increase shoulder torque and injury risk. The Granby Roll instead uses an inverted rolling motion toward the trapped arm, following the path of least resistance while your opponent's leg entanglement momentarily loosens during the rotational transition. The timing window is narrow but reliable when executed with proper mechanics.\n\nStrategically, the Granby Roll Escape should be initiated before your opponent fully consolidates hip pressure on your shoulder. Once pressure reaches dangerous levels, the safer option is to tap rather than force an escape. The technique requires moderate flexibility and comfort with inverted positions, making it more suitable for practitioners who have developed basic inversion skills through guard play or wrestling backgrounds.",
   "key_principles": [
     "Move with the pressure direction rather than against it - roll toward your trapped arm, not away from it",
@@ -55,44 +50,37 @@
     {
       "step_number": 1,
       "action": "Assess shoulder safety",
-      "description": "Before initiating escape, confirm your shoulder is not under extreme pressure that could cause injury during the roll. If pain is sharp or significant, tap immediately rather than risking shoulder damage through the rotational movement.",
-      "timing": "Within 2-3 seconds of being caught"
+      "description": "Before initiating escape, confirm your shoulder is not under extreme pressure that could cause injury during the roll. If pain is sharp or significant, tap immediately rather than risking shoulder damage through the rotational movement."
     },
     {
       "step_number": 2,
       "action": "Tuck chin and position head",
-      "description": "Tuck your chin firmly to your chest to protect your neck during the inversion. Turn your head slightly toward your trapped arm side, preparing for the rolling direction that will follow.",
-      "timing": "Immediately before initiating roll"
+      "description": "Tuck your chin firmly to your chest to protect your neck during the inversion. Turn your head slightly toward your trapped arm side, preparing for the rolling direction that will follow."
     },
     {
       "step_number": 3,
       "action": "Post with free arm",
-      "description": "Plant your free hand on the mat near your opposite shoulder, creating a pivot point for the roll. This arm will guide the direction and control the speed of your rotation throughout the escape.",
-      "timing": "Simultaneous with chin tuck"
+      "description": "Plant your free hand on the mat near your opposite shoulder, creating a pivot point for the roll. This arm will guide the direction and control the speed of your rotation throughout the escape."
     },
     {
       "step_number": 4,
       "action": "Initiate inverted roll",
-      "description": "Drive off your posted arm while simultaneously lifting your hips and rolling over your shoulder toward your trapped arm side. Your body should rotate in an inverted arc, with your back passing over your shoulder rather than rolling sideways.",
-      "timing": "Explosive but controlled"
+      "description": "Drive off your posted arm while simultaneously lifting your hips and rolling over your shoulder toward your trapped arm side. Your body should rotate in an inverted arc, with your back passing over your shoulder rather than rolling sideways."
     },
     {
       "step_number": 5,
       "action": "Extract trapped arm",
-      "description": "As you rotate through the inverted position, your trapped arm naturally loosens from opponent's leg entanglement. Pull your elbow toward your hip while continuing the rotation to complete the extraction without fighting directly against their grip.",
-      "timing": "During mid-roll rotation"
+      "description": "As you rotate through the inverted position, your trapped arm naturally loosens from opponent's leg entanglement. Pull your elbow toward your hip while continuing the rotation to complete the extraction without fighting directly against their grip."
     },
     {
       "step_number": 6,
       "action": "Complete roll to guard",
-      "description": "Finish the rotation facing your opponent with your newly freed arm establishing frames or grips. Immediately insert your feet between you and your opponent to establish open guard, preventing them from immediately re-attacking.",
-      "timing": "Smoothly complete rotation"
+      "description": "Finish the rotation facing your opponent with your newly freed arm establishing frames or grips. Immediately insert your feet between you and your opponent to establish open guard, preventing them from immediately re-attacking."
     },
     {
       "step_number": 7,
       "action": "Establish guard position",
-      "description": "Once facing opponent, use both hands and feet to create active open guard control. Get your feet on their hips or establish hooks before they can close distance. Do not pause in transition - immediately create your defensive structure.",
-      "timing": "Within 1-2 seconds of roll completion"
+      "description": "Once facing opponent, use both hands and feet to create active open guard control. Get your feet on their hips or establish hooks before they can close distance. Do not pause in transition - immediately create your defensive structure."
     }
   ],
   "common_counters": [
@@ -153,26 +141,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Basic Granby Roll mechanics",
-      "description": "Practice the inverted rolling motion without a partner, focusing on chin tuck, shoulder rotation, and smooth completion. Build comfort with the inversion and develop the muscle memory for the rolling arc.",
-      "resistance_level": "None"
+      "description": "Practice the inverted rolling motion without a partner, focusing on chin tuck, shoulder rotation, and smooth completion. Build comfort with the inversion and develop the muscle memory for the rolling arc."
     },
     {
       "phase": "Week 3-4",
       "focus": "Partner drilling with positioning",
-      "description": "Partner establishes Aoki Lock position with minimal pressure (10-20%). Practice the complete escape sequence including arm extraction and guard establishment. Focus on timing and direction.",
-      "resistance_level": "Light"
+      "description": "Partner establishes Aoki Lock position with minimal pressure (10-20%). Practice the complete escape sequence including arm extraction and guard establishment. Focus on timing and direction."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing against resistance",
-      "description": "Partner applies moderate pressure (40-50%) and actively adjusts position. Practice reading the timing windows for escape initiation and develop sensitivity to when the technique is viable versus when to tap.",
-      "resistance_level": "Medium"
+      "description": "Partner applies moderate pressure (40-50%) and actively adjusts position. Practice reading the timing windows for escape initiation and develop sensitivity to when the technique is viable versus when to tap."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and combinations",
-      "description": "Integrate the Granby Roll Escape into positional sparring from Aoki Lock scenarios. Practice combining with other escape options and develop the decision-making for when to use this escape versus alternatives.",
-      "resistance_level": "Full"
+      "description": "Integrate the Granby Roll Escape into positional sparring from Aoki Lock scenarios. Practice combining with other escape options and develop the decision-making for when to use this escape versus alternatives."
     }
   ],
   "variants_and_adaptations": [
@@ -195,53 +179,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Granby Roll Escape?",
-      "answer": "The primary goal is to escape the Aoki Lock shoulder submission by using inverted rotational momentum to extract your trapped arm while creating distance and establishing guard position. The technique prioritizes arm extraction through movement with pressure rather than against it.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to escape the Aoki Lock shoulder submission by using inverted rotational momentum to extract your trapped arm while creating distance and establishing guard position. The technique prioritizes arm extraction through movement with pressure rather than against it."
     },
     {
       "question": "What position do you start Granby Roll Escape from?",
-      "answer": "This technique starts from Aoki Lock Bottom, where your opponent has established leg entanglement control over your shoulder and is applying or preparing to apply shoulder lock pressure. The escape must be initiated before maximum pressure is achieved.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Aoki Lock Bottom, where your opponent has established leg entanglement control over your shoulder and is applying or preparing to apply shoulder lock pressure. The escape must be initiated before maximum pressure is achieved."
     },
     {
       "question": "Why must you roll toward your trapped arm rather than away from it?",
-      "answer": "Rolling toward the trapped arm follows the path of least resistance and actually reduces shoulder torque during the escape. Rolling away dramatically increases rotational stress on the shoulder joint, potentially causing serious injury while making escape mechanically impossible.",
-      "difficulty": "Intermediate"
+      "answer": "Rolling toward the trapped arm follows the path of least resistance and actually reduces shoulder torque during the escape. Rolling away dramatically increases rotational stress on the shoulder joint, potentially causing serious injury while making escape mechanically impossible."
     },
     {
       "question": "Your opponent tightens their leg entanglement as you begin the roll - how do you adjust?",
-      "answer": "Accelerate through the roll rather than stopping, using any forward pressure they provide as additional momentum. If they tighten before you initiate, feint the roll first to make them commit, then execute when they relax or adjust. Never pause midway through the rotation.",
-      "difficulty": "Advanced"
+      "answer": "Accelerate through the roll rather than stopping, using any forward pressure they provide as additional momentum. If they tighten before you initiate, feint the roll first to make them commit, then execute when they relax or adjust. Never pause midway through the rotation."
     },
     {
       "question": "When is the best time to attempt Granby Roll Escape?",
-      "answer": "The optimal timing window is after your opponent has established the Aoki Lock position but before they have fully consolidated hip pressure on your shoulder. If you wait until pressure is severe, the escape becomes dangerous. The technique works best when initiated during opponent's positional adjustments.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing window is after your opponent has established the Aoki Lock position but before they have fully consolidated hip pressure on your shoulder. If you wait until pressure is severe, the escape becomes dangerous. The technique works best when initiated during opponent's positional adjustments."
     },
     {
       "question": "What should your free arm be doing during the escape?",
-      "answer": "Your free arm posts on the mat near your opposite shoulder to create a pivot point that guides and controls the rolling direction. It should not push against your opponent - this wastes energy and eliminates the posting platform needed for proper rotational mechanics.",
-      "difficulty": "Intermediate"
+      "answer": "Your free arm posts on the mat near your opposite shoulder to create a pivot point that guides and controls the rolling direction. It should not push against your opponent - this wastes energy and eliminates the posting platform needed for proper rotational mechanics."
     },
     {
       "question": "What happens if your opponent follows your roll and takes your back?",
-      "answer": "If they abandon the Aoki Lock for back control during your roll, you have successfully escaped the shoulder lock submission. This is an acceptable outcome - immediately transition to standard back escape sequences from the new position.",
-      "difficulty": "Advanced"
+      "answer": "If they abandon the Aoki Lock for back control during your roll, you have successfully escaped the shoulder lock submission. This is an acceptable outcome - immediately transition to standard back escape sequences from the new position."
     },
     {
       "question": "How do you know when to tap instead of attempting the Granby Roll Escape?",
-      "answer": "Tap immediately if you feel sharp pain in your shoulder, if your arm is fully extended with maximum pressure already applied, or if you cannot initiate shoulder rotation without significant discomfort. The Granby Roll requires some rotational freedom to execute safely - forcing it under extreme pressure risks serious injury.",
-      "difficulty": "Intermediate"
+      "answer": "Tap immediately if you feel sharp pain in your shoulder, if your arm is fully extended with maximum pressure already applied, or if you cannot initiate shoulder rotation without significant discomfort. The Granby Roll requires some rotational freedom to execute safely - forcing it under extreme pressure risks serious injury."
     },
     {
       "question": "What is the critical action immediately after completing the roll?",
-      "answer": "Immediately establish open guard by inserting your feet between you and your opponent before they can close distance or re-attack. The escape is not complete until you have active defensive positioning - pausing after the roll negates the successful arm extraction.",
-      "difficulty": "Beginner"
+      "answer": "Immediately establish open guard by inserting your feet between you and your opponent before they can close distance or re-attack. The escape is not complete until you have active defensive positioning - pausing after the roll negates the successful arm extraction."
     },
     {
       "question": "How does head position affect the Granby Roll mechanics?",
-      "answer": "Your chin must stay tucked to your chest throughout the roll to protect your neck and maintain proper rotational mechanics. Lifting your head disrupts the rolling arc and often causes the escape to stall in an exposed inverted position.",
-      "difficulty": "Intermediate"
+      "answer": "Your chin must stay tucked to your chest throughout the roll to protect your neck and maintain proper rotational mechanics. Lifting your head disrupts the rolling arc and often causes the escape to stall in an exposed inverted position."
     }
   ],
   "safety_considerations": "The Granby Roll Escape carries inherent risk due to the shoulder manipulation involved in the Aoki Lock position. Never force this escape when your shoulder is under significant pressure - tap early if pain is sharp or rotation feels restricted. The rolling motion requires adequate neck mobility; practitioners with cervical spine issues should consult a medical professional before training this technique. Always maintain chin-to-chest position to protect your neck during inversion. Practice initially with cooperative partners at very low resistance to develop proper mechanics before adding intensity. If the escape stalls midway, do not pause in the inverted position - either complete the rotation or reset by tapping. The threshold for tapping should be lower when training this escape compared to competition, as repeated shoulder stress from failed attempts can cause cumulative damage.",
@@ -279,5 +253,6 @@
       "name": "Kimura Trap",
       "relationship": "Related shoulder manipulation position with similar defensive principles"
     }
-  ]
+  ],
+  "success_rate": 58
 }

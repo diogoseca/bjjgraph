@@ -239,19 +239,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 70,
-        "intermediate": 82,
-        "advanced": 92
+        "value": 87
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 62,
-        "advanced": 78
+        "value": 70
       },
       "submission_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "average_time": "30-90 seconds"
     },
@@ -541,19 +535,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 30
+        "value": 22
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
+        "value": 40
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 8,
-        "advanced": 12
+        "value": 10
       },
       "average_time": "20-45 seconds before submission or escape"
     },

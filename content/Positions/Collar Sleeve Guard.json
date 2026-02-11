@@ -253,21 +253,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Ability to maintain top position without being swept"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of successfully passing to side control or better"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35,
+        "value": 30,
         "description": "Probability of finishing submission directly from top of collar sleeve guard"
       },
       "average_time": "60-120 seconds to complete guard pass or get swept"
@@ -548,21 +542,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Ability to maintain collar sleeve guard against passing attempts"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of successful sweep or transition to better position"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
+        "value": 48,
         "description": "Probability of finishing submission directly from collar sleeve guard"
       },
       "average_time": "45-90 seconds before sweep attempt or position change"

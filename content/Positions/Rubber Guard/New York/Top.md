@@ -378,11 +378,11 @@ Partner establishes New York control, you have 60 seconds to escape to better po
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 20% | 35% |
-| Intermediate | 40% | 35% | 25% |
-| Advanced     | 25% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 32% |
+| Advancement Probability | 45% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 

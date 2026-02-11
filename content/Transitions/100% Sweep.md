@@ -165,7 +165,7 @@ description: "Master the 100% Sweep from closed guard. Complete guide covering a
 The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an advanced closed guard technique that reverses position from bottom to top by isolating the opponent's arm and using precise hip movement. This sweep exemplifies the principle of limb isolation to create sweeping leverage, demonstrating how technical control can overcome strength. The technique starts from closed guard bottom with the practitioner trapping one of the opponent's arms across their body while simultaneously breaking their posture and creating an optimal angle through hip movement. The 100% Sweep is particularly effective against opponents who posture aggressively or attempt to break the guard, making it a high-percentage competition technique. Success requires excellent timing, proper arm control, and dynamic hip mobility to roll the opponent over their trapped arm and shoulder. This sweep is essential for advanced practitioners developing a sophisticated closed guard game and understanding the mechanics of limb isolation sweeps.
 
 **From Position**: [[Closed Guard]]
-**Success Rates**: Beginner 20%, Intermediate 40%, Advanced 60%
+**Success Rate**: 50%
 
 </section>
 
@@ -266,27 +266,21 @@ The 100% Sweep, also known as the Hundred Percent Sweep or Arm Trap Sweep, is an
 ## Training Progressions
 **Solo Drilling Phase** - Hip shift and arm trap mechanics without partner
 Practice hip shift movements and arm trap positioning without a partner to develop muscle memory. Focus on the mechanics of creating the proper angle and understanding the body movements required. Use a grappling dummy if available to simulate arm control and practice the rolling motion.
-(Resistance: None)
 
 **Cooperative Drilling** - Complete technique execution with compliant partner
 Partner allows the sweep to develop smoothly for technique refinement. Focus on proper sequencing from arm trap through posture break to sweep completion. Partner should provide enough structure to practice against but not resist. Perform 10-15 repetitions per side to build proper movement patterns.
-(Resistance: None)
 
 **Progressive Resistance Training** - Adding defensive reactions to setup
 Partner provides increasing levels of resistance to the arm trap and sweep attempt. Start with 25% resistance and gradually increase as technique improves. Partner can defend posture and try to free arm, forcing you to make technical adjustments. Focus on maintaining proper mechanics under pressure.
-(Resistance: Light)
 
 **Positional Sparring from Closed Guard** - Live closed guard scenarios with sweep attempts
 Start from closed guard bottom and attempt the 100% Sweep during positional sparring. Partner can use any defense or counter they want. Focus on recognizing the right moments to attempt the sweep and chaining to other attacks when it's defended. Practice for 5-minute rounds.
-(Resistance: Full)
 
 **Combination Development** - Chaining with other closed guard attacks
 Practice flowing from 100% Sweep to triangle, armbar, or other sweeps based on opponent's defensive reactions. Develop ability to read their defense and immediately transition to appropriate follow-up attacks. Focus on creating multi-attack sequences.
-(Resistance: Medium)
 
 **Competition Simulation** - Full resistance competition scenarios
 Apply the 100% Sweep in full sparring and competition simulation rounds. Focus on setting up the sweep through grip fighting and creating the right opportunities. Practice consolidating top position after successful sweeps to maximize scoring.
-(Resistance: Full)
 
 
 

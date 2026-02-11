@@ -157,7 +157,7 @@ The biomechanical foundation of this escape relies on maintaining underhook conn
 From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma for the top player. Driving forward pressure to complete the pass opens vulnerability to the rolling escape, while backing off to prevent the roll allows the bottom player to recover guard frames. This technique chains naturally into turtle attacks and back takes, making it both a defensive escape and an offensive transition when the opponent follows the roll.
 
 **From Position**: [[Jailbreak/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure underhook**: Establish deep underhook on the same side as your trapped leg, driving your elbow tight to your own hip to create a structural frame that prevents the opponent from driving flattening pressure through the connection point. (Timing: Before opponent fully commits weight forward)
-2. **Turn hips**: Rotate your hips toward your trapped leg side, angling your body to face the direction of the roll while maintaining underhook connection. This angular positioning creates the momentum vector for the inversion. (Timing: As opponent begins driving forward pressure)
-3. **Tuck chin**: Pull your chin firmly to your chest, rounding your shoulders and spine to protect your neck during the rolling motion. Look toward your own belt line to ensure proper spinal alignment throughout the inversion sequence. (Timing: Immediately before initiating roll)
-4. **Push with free leg**: Drive explosively off the mat with your free leg, generating propulsion for the rolling motion. The push should angle toward the direction of your underhook, creating rotational force to roll through the opponent's pressure. (Timing: Simultaneously with shoulder inversion)
-5. **Invert shoulders**: Roll your shoulders toward the mat in a granby-style motion, using the momentum from your leg push and the opponent's forward pressure to rotate your body. Maintain tight underhook throughout to prevent separation during the roll. (Timing: When opponent's weight is committed forward)
-6. **Complete to turtle**: Continue the rolling motion until you establish turtle position with knees and hands on mat. Immediately protect your neck and far arm from chokes while assessing options for guard recovery, standing, or back attack if opponent followed. (Timing: Momentum carries through to turtle base)
+1. **Secure underhook**: Establish deep underhook on the same side as your trapped leg, driving your elbow tight to your own hip to create a structural frame that prevents the opponent from driving flattening pressure through the connection point.
+2. **Turn hips**: Rotate your hips toward your trapped leg side, angling your body to face the direction of the roll while maintaining underhook connection. This angular positioning creates the momentum vector for the inversion.
+3. **Tuck chin**: Pull your chin firmly to your chest, rounding your shoulders and spine to protect your neck during the rolling motion. Look toward your own belt line to ensure proper spinal alignment throughout the inversion sequence.
+4. **Push with free leg**: Drive explosively off the mat with your free leg, generating propulsion for the rolling motion. The push should angle toward the direction of your underhook, creating rotational force to roll through the opponent's pressure.
+5. **Invert shoulders**: Roll your shoulders toward the mat in a granby-style motion, using the momentum from your leg push and the opponent's forward pressure to rotate your body. Maintain tight underhook throughout to prevent separation during the roll.
+6. **Complete to turtle**: Continue the rolling motion until you establish turtle position with knees and hands on mat. Immediately protect your neck and far arm from chokes while assessing options for guard recovery, standing, or back attack if opponent followed.
 
 
 </section>
@@ -251,19 +251,15 @@ From a game theory perspective, Jailbreak to Turtle creates a strategic dilemma 
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the rolling motion solo and with compliant partner. Focus on underhook positioning, chin tuck, and granby-style inversion without resistance. Build muscle memory for the movement pattern and body awareness for the inversion.
-(Resistance: None)
 
 **Week 3-4** - Timing development
 Partner applies moderate forward pressure while you read weight commitment and execute escape at optimal moment. Focus on recognizing when opponent's base is vulnerable versus when they are well-posted. Alternate between jailbreak and deep half entries based on pressure.
-(Resistance: Light)
 
 **Week 5-6** - Chain combinations
 Practice jailbreak to turtle then immediately chain to guard recovery, standing, or back take depending on opponent's reaction. Add partner following the roll to practice continuing momentum into offensive transitions rather than stopping at turtle.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate jailbreak into positional sparring from half guard bottom. Work against fully resisting opponents who know the technique is coming. Focus on setting up the escape with other threats and executing when genuine openings appear.
-(Resistance: Full)
 
 
 

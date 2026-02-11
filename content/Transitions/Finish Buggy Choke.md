@@ -157,7 +157,7 @@ The finishing mechanics distinguish this technique from the positional control p
 Strategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, committing to the finish requires reading opponent defensive reac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm grip depth**: Verify threading arm has achieved maximum depth with palm-up hand securing far-side collar material deep enough that your wrist contacts opponent's neck, not your forearm (Timing: Before initiating pressure)
-2. **Consolidate secondary grip**: Secure opposite hand on collar material adjacent to primary grip in gi, or gable grip hands together in no-gi, creating unified choking structure without gaps (Timing: Immediately after confirming primary depth)
-3. **Transfer body weight**: Drive chest weight downward onto opponent's back and shoulder complex while simultaneously dropping hips heavy onto their near hip to flatten their turtle structure completely (Timing: As grips consolidate)
-4. **Establish perpendicular angle**: Position your body perpendicular to opponent's spine with head tight to their far shoulder, creating optimal geometry for carotid compression rather than tracheal pressure (Timing: During weight transfer)
-5. **Initiate progressive pressure**: Begin choking pressure by rotating your radius bone into the carotid artery while pulling collar material toward your own chest, using body mechanics rather than arm strength (Timing: After perpendicular angle established)
-6. **Escalate to finish**: Progressively increase pressure by driving your shoulder toward the mat while maintaining grip depth and body weight, compressing both carotid arteries until opponent taps or goes unconscious (Timing: Final phase until tap)
+1. **Confirm grip depth**: Verify threading arm has achieved maximum depth with palm-up hand securing far-side collar material deep enough that your wrist contacts opponent's neck, not your forearm
+2. **Consolidate secondary grip**: Secure opposite hand on collar material adjacent to primary grip in gi, or gable grip hands together in no-gi, creating unified choking structure without gaps
+3. **Transfer body weight**: Drive chest weight downward onto opponent's back and shoulder complex while simultaneously dropping hips heavy onto their near hip to flatten their turtle structure completely
+4. **Establish perpendicular angle**: Position your body perpendicular to opponent's spine with head tight to their far shoulder, creating optimal geometry for carotid compression rather than tracheal pressure
+5. **Initiate progressive pressure**: Begin choking pressure by rotating your radius bone into the carotid artery while pulling collar material toward your own chest, using body mechanics rather than arm strength
+6. **Escalate to finish**: Progressively increase pressure by driving your shoulder toward the mat while maintaining grip depth and body weight, compressing both carotid arteries until opponent taps or goes unconscious
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, committing to the finish requires reading opponent defensive reac
 ## Training Progressions
 **Week 1-2** - Grip mechanics and depth
 Practice threading arm penetration and grip establishment on cooperative partner. Focus on achieving palm-up orientation with maximum collar depth. Drill grip placement 50+ repetitions per session without resistance to build muscle memory for proper finishing structure.
-(Resistance: None)
 
 **Week 3-4** - Pressure application timing
 Add light defensive movement from partner. Practice coordinating body weight transfer with grip consolidation. Develop feel for optimal perpendicular positioning and progressive pressure escalation. Partner provides feedback on pressure quality and choking effectiveness.
-(Resistance: Light)
 
 **Week 5-6** - Defensive reaction reading
 Partner provides medium resistance with varied defensive responses: grip fighting, sitting to guard, arm extension for base. Practice recognizing when to commit to finish versus transition to alternative attacks. Build decision-making under moderate pressure.
-(Resistance: Medium)
 
 **Week 7+** - Competition simulation
 Full resistance positional sparring starting from buggy choke control. Top player attempts finish or positional advancement while bottom player uses complete defensive arsenal. Score based on submissions, escapes, and positional transitions. Develop finishing instincts under realistic competition pressure.
-(Resistance: Full)
 
 
 

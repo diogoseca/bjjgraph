@@ -368,11 +368,11 @@ From invisible collar position, create three-way dilemma: collar choke, rear nak
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 50% | 45% |
-| Intermediate | 70% | 65% | 62% |
-| Advanced     | 85% | 80% | 78% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 70% |
 
 **Average Time in Position**: 30-90 seconds from establishment to finish or transition
 

@@ -269,21 +269,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Ability to maintain mounted triangle control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Likelihood of finishing submission or advancing to superior position"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Probability of achieving submission finish from mounted triangle"
       },
       "average_time": "45-120 seconds to submission or position change"
@@ -550,21 +544,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Ability to maintain defensive position without being submitted"
       },
       "advancement_probability": {
-        "beginner": 18,
-        "intermediate": 32,
-        "advanced": 48,
+        "value": 40,
         "description": "Likelihood of escaping to neutral or better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 8,
-        "advanced": 12,
+        "value": 10,
         "description": "Negligible offensive finishing capability from this defensive position"
       },
       "average_time": "30-90 seconds before submission or escape"

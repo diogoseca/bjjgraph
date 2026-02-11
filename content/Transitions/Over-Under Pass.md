@@ -159,7 +159,7 @@ description: "Master Over-Under Pass in BJJ. Pressure-based passing from Half Gu
 The Over-Under Pass is a fundamental pressure-based guard passing technique that combines superior positioning with powerful control mechanics to bypass the opponent's guard. This technique is characterized by controlling one leg over the opponent's body while threading the other arm under their opposite leg, creating a stacking effect that neutralizes their defensive capabilities. The Over-Under Pass is particularly effective against half guard, butterfly guard, and open guard variations, making it a cornerstone technique in modern Brazilian Jiu-Jitsu. What makes this pass especially valuable is its combination of pressure control and positional dominance - by stacking the opponent's weight onto their shoulders, you eliminate their hip mobility and ability to re-guard while methodically advancing to side control. The technique requires excellent weight distribution, patience under pressure, and the ability to maintain chest-to-chest connection throughout the passing sequence. Unlike speed-based passes that rely on quick movements, the Over-Under Pass exemplifies the principle of using superior position and leverage to overcome an opponent's defensive structure through systematic pressure application.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -208,13 +208,13 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish initial grips and position**: From top position in half guard or open guard, secure a deep under-hook on the opponent's near leg, threading your arm as far as possible under their thigh. Simultaneously grip their far leg at the knee or pants with your opposite hand. Your chest should be heavy on their torso with your head positioned on the over-hook side. (Timing: Take time to establish solid grips before advancing)
-2. **Create the stack**: Drive your shoulder into the opponent's chest while lifting their hips with your under-hook arm. Begin walking your feet forward toward their head, stacking their weight onto their shoulders. Your hips should remain low and heavy, with your weight distributed through your chest and shoulder into their torso. The stacking angle should be approximately 45 degrees, compromising their ability to hip escape. (Timing: Progressive stacking - increase angle gradually)
-3. **Secure the far leg over-hook**: With your over-hook hand controlling the far leg, pull it tightly across your body and trap it against your torso. Your forearm should be across their shin or ankle, preventing them from recovering butterfly hooks or creating knee shield. Maintain this grip while continuing to drive pressure through your shoulder. (Timing: Lock the far leg before advancing position)
-4. **Control the near hip**: Your under-hook arm should be controlling their far hip, preventing hip escape to that side. Your hand can grip their belt, pants, or reach across to their far hip. This control is critical - it blocks their primary escape route and maintains the stacking pressure. Keep your elbow tight to their body. (Timing: Maintain constant hip control throughout)
-5. **Begin hip circulation**: While maintaining chest pressure and your grips, begin circling your hips away from the opponent's remaining free leg. Your movement should be lateral, not backward - stay heavy and connected. As you circle, gradually flatten them out by driving your shoulder pressure while your hips move. Your knees should be wide for base stability. (Timing: Slow, deliberate hip movement - 3-5 seconds)
-6. **Clear the remaining leg**: As your hips circle past their free leg, use your body position and continued pressure to pin this leg to the mat or push it away. Your chest-to-chest connection prevents them from following you or re-establishing guard. Continue circling until your hips are completely past their legs and you're perpendicular to their body. (Timing: Wait for complete leg clearance)
-7. **Establish side control**: Once your hips have cleared both legs, release the over-hook on their far leg and immediately establish side control grips. Your near arm should control their far arm or cross-face their neck, while your far arm controls their near hip. Distribute your weight through your chest onto their torso, with your hips low and head positioned high. Settle into side control with proper spacing and pressure. (Timing: Smooth transition from pass to control)
+1. **Establish initial grips and position**: From top position in half guard or open guard, secure a deep under-hook on the opponent's near leg, threading your arm as far as possible under their thigh. Simultaneously grip their far leg at the knee or pants with your opposite hand. Your chest should be heavy on their torso with your head positioned on the over-hook side.
+2. **Create the stack**: Drive your shoulder into the opponent's chest while lifting their hips with your under-hook arm. Begin walking your feet forward toward their head, stacking their weight onto their shoulders. Your hips should remain low and heavy, with your weight distributed through your chest and shoulder into their torso. The stacking angle should be approximately 45 degrees, compromising their ability to hip escape.
+3. **Secure the far leg over-hook**: With your over-hook hand controlling the far leg, pull it tightly across your body and trap it against your torso. Your forearm should be across their shin or ankle, preventing them from recovering butterfly hooks or creating knee shield. Maintain this grip while continuing to drive pressure through your shoulder.
+4. **Control the near hip**: Your under-hook arm should be controlling their far hip, preventing hip escape to that side. Your hand can grip their belt, pants, or reach across to their far hip. This control is critical - it blocks their primary escape route and maintains the stacking pressure. Keep your elbow tight to their body.
+5. **Begin hip circulation**: While maintaining chest pressure and your grips, begin circling your hips away from the opponent's remaining free leg. Your movement should be lateral, not backward - stay heavy and connected. As you circle, gradually flatten them out by driving your shoulder pressure while your hips move. Your knees should be wide for base stability.
+6. **Clear the remaining leg**: As your hips circle past their free leg, use your body position and continued pressure to pin this leg to the mat or push it away. Your chest-to-chest connection prevents them from following you or re-establishing guard. Continue circling until your hips are completely past their legs and you're perpendicular to their body.
+7. **Establish side control**: Once your hips have cleared both legs, release the over-hook on their far leg and immediately establish side control grips. Your near arm should control their far arm or cross-face their neck, while your far arm controls their near hip. Distribute your weight through your chest onto their torso, with your hips low and head positioned high. Settle into side control with proper spacing and pressure.
 
 
 </section>
@@ -264,23 +264,18 @@ The Over-Under Pass is a fundamental pressure-based guard passing technique that
 ## Training Progressions
 **Week 1-2: Grip and Position Establishment** - Learning proper grips, under-hook depth, and stacking mechanics
 Practice establishing the under-hook and over-hook grips from various top positions. Focus on threading the under-hook deeply and creating the initial stack. Partner provides no resistance, allowing you to feel proper body positioning and weight distribution. Emphasize chest-to-chest connection and maintaining heavy pressure.
-(Resistance: None)
 
 **Week 3-4: Stack Control and Hip Positioning** - Maintaining the stack and beginning hip circulation
 Partner provides light resistance by attempting to maintain their guard structure. Practice walking your feet forward to create the stacking angle and begin the hip circulation movement. Focus on keeping hips low and maintaining constant pressure. Work on controlling the opponent's far hip with your under-hook throughout the movement.
-(Resistance: Light)
 
 **Week 5-8: Full Pass Execution with Resistance** - Complete pass from setup to side control against defending opponent
 Partner actively defends with frames, hip escapes, and guard recovery attempts. Practice the entire sequence from grip establishment through hip circulation to side control consolidation. Focus on troubleshooting common defensive reactions and maintaining pressure throughout transitions. Add variations based on opponent's reactions.
-(Resistance: Medium)
 
 **Week 9-12: Positional Sparring and Combinations** - Integrating the Over-Under Pass into your overall passing game
 Positional sparring starting from guard, with focus on recognizing Over-Under Pass opportunities. Practice chaining with other passes (knee slice, smash pass, double under). Work on entries from different guard positions and situations. Partner provides full resistance with the goal of passing or preventing the pass.
-(Resistance: Full)
 
 **Week 13+: Competition Application and Refinement** - Using the Over-Under Pass in live sparring and competition scenarios
 Incorporate the pass into regular sparring sessions against various skill levels and body types. Analyze what works and what doesn't against different opponents. Refine timing, pressure application, and transitions. Develop personal preferences for grips and positioning details.
-(Resistance: Full)
 
 
 

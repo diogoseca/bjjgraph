@@ -157,7 +157,7 @@ The technique represents a fundamental bridge between defensive guard recovery a
 Strategically, the dogfight is particularly valuable against heavy passers who rely on grinding pressure. By coming up rather than staying flat, you deny their preferred passing mechanics and force them into a scramble they may be less comfortable with. Success requires excellent timing, strong underhook fighting skills, and the ability to chain multiple wrestling-based attacks from the kneeling position.
 
 **From Position**: [[Leg Weave/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frame**: From leg weave bottom, drive your near-side forearm into opponent's neck or shoulder to create separation. Your far hand controls their hip to monitor weight distribution and set up timing. (Timing: Immediately upon recognizing leg weave establishment)
-2. **Create hip angle**: Execute a strong hip escape away from opponent, turning your hips at approximately 45 degrees toward them. This angle is essential for posting your elbow without your shoulder being driven back down. (Timing: When opponent's pressure momentarily lightens)
-3. **Post elbow**: Drive your near-side elbow into the mat, keeping it tight to your body. Your elbow should post directly under your shoulder for maximum structural support. Maintain frame pressure throughout this transition. (Timing: Explosively, coordinated with hip escape)
-4. **Fight for underhook**: As you rise onto your elbow, your near-side arm transitions from framing to aggressively swimming for the underhook. Drive your hand deep under their armpit, aiming to reach their far shoulder blade. (Timing: As elbow posts and body begins rising)
-5. **Rise to posting hand**: Continue the upward momentum by transitioning from elbow to posting hand. Keep your chest connected to their chest throughout. Your far leg maintains the hook until you have established kneeling base. (Timing: Immediately after securing or contesting underhook)
-6. **Establish kneeling base**: Complete the transition to kneeling dogfight position with both knees on the mat, chest-to-chest with opponent. Release the half guard hook and establish squared hips facing your opponent, ready for wrestling exchanges. (Timing: Upon achieving stable posting hand position)
+1. **Establish frame**: From leg weave bottom, drive your near-side forearm into opponent's neck or shoulder to create separation. Your far hand controls their hip to monitor weight distribution and set up timing.
+2. **Create hip angle**: Execute a strong hip escape away from opponent, turning your hips at approximately 45 degrees toward them. This angle is essential for posting your elbow without your shoulder being driven back down.
+3. **Post elbow**: Drive your near-side elbow into the mat, keeping it tight to your body. Your elbow should post directly under your shoulder for maximum structural support. Maintain frame pressure throughout this transition.
+4. **Fight for underhook**: As you rise onto your elbow, your near-side arm transitions from framing to aggressively swimming for the underhook. Drive your hand deep under their armpit, aiming to reach their far shoulder blade.
+5. **Rise to posting hand**: Continue the upward momentum by transitioning from elbow to posting hand. Keep your chest connected to their chest throughout. Your far leg maintains the hook until you have established kneeling base.
+6. **Establish kneeling base**: Complete the transition to kneeling dogfight position with both knees on the mat, chest-to-chest with opponent. Release the half guard hook and establish squared hips facing your opponent, ready for wrestling exchanges.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the dogfight is particularly valuable against heavy passers who r
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the elbow posting and rising mechanics without resistance. Focus on keeping chest-to-chest connection, maintaining the hook, and proper underhook swimming motion. Drill 20 repetitions each side with compliant partner.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides light leg weave pressure and varies their weight distribution. Bottom player identifies windows for the dogfight entry and executes when timing is correct. Partner verbally confirms good vs poor timing choices.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner begins adding common counters: crossface pressure, sprawling, stepping over the hook. Bottom player must adapt technique or abort and reset. Practice the deep half bail-out option when sprawl counter is applied.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting in leg weave. Bottom player works to achieve dogfight or alternative escapes. Top player works to pass or take back. Track success rates and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

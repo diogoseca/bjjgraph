@@ -157,7 +157,7 @@ The fundamental challenge of leg drag recovery lies in the mechanical disadvanta
 Strategically, this transition exploits a fundamental vulnerability in the leg drag position: the opponent must maintain forward pressure while controlling both your leg and upper body. When they adjust their weight or reach for new grips, windows open for leg extraction. The key insight is recognizing that you are not escaping to a neutral position—you are transitioning directly to an attacking guard that gives you immediate sweep and submission threats. This mindset shift from defense to offense is what separates successful recoveries from those that merely delay the inevitable pass.
 
 **From Position**: [[Leg Drag Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ Strategically, this transition exploits a fundamental vulnerability in the leg d
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Place your near-side hand on opponent's shoulder or bicep, creating a stiff arm frame. Your far-side hand controls their sleeve or collar to prevent them from settling weight or establishing crossface. (Timing: Immediately upon recognizing leg drag position)
-2. **Hip escape to angle**: Perform a hip escape away from opponent while keeping your shoulders relatively flat. This creates space between your hip and their controlling pressure without exposing your back. (Timing: When opponent shifts weight or reaches for new grip)
-3. **Free leg intervention**: Use your free leg to push against opponent's hip or hook behind their knee. This creates additional space and prevents them from following your hip escape with forward pressure. (Timing: Simultaneous with hip escape)
-4. **Extract trapped leg**: Pull your trapped leg back by driving your knee toward your chest in a circular motion, not straight back. The angle created by your hip escape allows the leg to clear their grip and body. (Timing: As space is created from steps 2-3)
-5. **Insert DLR hook**: Immediately thread your extracted leg around opponent's front leg, placing your foot behind their knee or thigh to establish the De La Riva hook. Your instep hooks their inner thigh. (Timing: Within one second of leg extraction)
-6. **Establish guard grips**: Secure collar and sleeve grips appropriate for De La Riva attacks. Your non-hooking leg establishes contact on their hip or sleeve-controlled arm. Begin off-balancing immediately. (Timing: Immediately upon hook establishment)
+1. **Establish frames**: Place your near-side hand on opponent's shoulder or bicep, creating a stiff arm frame. Your far-side hand controls their sleeve or collar to prevent them from settling weight or establishing crossface.
+2. **Hip escape to angle**: Perform a hip escape away from opponent while keeping your shoulders relatively flat. This creates space between your hip and their controlling pressure without exposing your back.
+3. **Free leg intervention**: Use your free leg to push against opponent's hip or hook behind their knee. This creates additional space and prevents them from following your hip escape with forward pressure.
+4. **Extract trapped leg**: Pull your trapped leg back by driving your knee toward your chest in a circular motion, not straight back. The angle created by your hip escape allows the leg to clear their grip and body.
+5. **Insert DLR hook**: Immediately thread your extracted leg around opponent's front leg, placing your foot behind their knee or thigh to establish the De La Riva hook. Your instep hooks their inner thigh.
+6. **Establish guard grips**: Secure collar and sleeve grips appropriate for De La Riva attacks. Your non-hooking leg establishes contact on their hip or sleeve-controlled arm. Begin off-balancing immediately.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, this transition exploits a fundamental vulnerability in the leg d
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the hip escape to angle and leg extraction sequence against a stationary partner. Focus on the circular path of leg extraction and immediate hook insertion. Partner provides position but no resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light pressure in leg drag and makes small weight shifts or grip adjustments. Bottom player identifies windows and executes extraction during these moments. Develop sensitivity to weight distribution.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the DLR recovery with immediate attacks: sweeps, berimbolo entries, back takes. If recovery fails, transition to alternative escapes like technical standup or turtle. Build a complete defensive flowchart.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance guard passing rounds where partner actively attempts leg drag passes. Implement recovery in real time against opponents using counter-techniques and transitions. Stress-test timing and execution under pressure.
-(Resistance: Full)
 
 
 

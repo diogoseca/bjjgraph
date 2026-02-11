@@ -229,7 +229,7 @@ Hip Escape Mechanics represents the fundamental biomechanical framework for crea
 
 **Modified Mount**: Adapting hip escape angles based on opponent's modified positioning, identifying which direction offers optimal escape path despite non-standard mount configuration.
 
-**North South Control**: Bridging vertically to create space under opponent's chest while framing against hips, then executing hip rotations toward either side to escape the centerline control position.
+**North-South**: Bridging vertically to create space under opponent's chest while framing against hips, then executing hip rotations toward either side to escape the centerline control position.
 
 **Mounted Crucifix**: Using limited hip mobility to create incremental space while opponent controls arms, focusing escape efforts on recovering arm position before full hip escape sequence becomes possible.
 

@@ -21,37 +21,37 @@ description: "Dominate with S Mount attacks in BJJ. Master arm isolation, armbar
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Mount",
-      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Mount",
-      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Crucifix Entry",
-      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Crucifix Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,19 @@ S Mount appears throughout BJJ history as a signature position of submission spe
 
 ## Available Attacks
 
-### [[Armbar from Mount]] (35% of attempts)
+### [[Armbar from Mount]] (29% of attempts)
 
-### [[Triangle from Mount]] (20% of attempts)
+### [[Triangle from Mount]] (17% of attempts)
 
-### [[Americana from Mount]] (10% of attempts)
+### [[Americana from Mount]] (9% of attempts)
 
-### [[Kimura from Mount]] (10% of attempts)
+### [[Kimura from Mount]] (9% of attempts)
 
-### [[Back Take]] (15% of attempts)
+### [[Back Take]] (13% of attempts)
 
-### [[Mounted Crucifix Entry]] (10% of attempts)
+### [[Mounted Crucifix Entry]] (9% of attempts)
+
+### [[Gift Wrap to Back]] (14% of attempts)
 
 
 
@@ -387,11 +389,11 @@ Start in S Mount top, partner starts in S Mount bottom. Full resistance sparring
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 65% | 55% |
-| Intermediate | 75% | 80% | 70% |
-| Advanced     | 85% | 90% | 85% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 85% |
+| Submission Probability | 78% |
 
 **Average Time in Position**: 20-60 seconds from entry to submission or position change
 

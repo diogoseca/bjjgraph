@@ -169,7 +169,7 @@ The sweep works on the principle of removing one of the opponent's base points w
 Success with this sweep depends heavily on timing, grip control, and the ability to read the opponent's weight distribution. Advanced practitioners can chain this sweep with other attacks, using the opponent's defensive reactions to create offensive opportunities. The foot grab sweep is an essential component of a complete open guard game and serves as both a primary attacking option and a counter to standing guard passes.
 
 **From Position**: [[Seated Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -218,14 +218,14 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: From open guard, secure a strong grip on the opponent's sleeve or collar with one hand. Simultaneously use your legs to control their hips or torso, preventing them from creating distance. Your free hand should be ready to grab their foot. (Timing: As opponent begins to engage or stand)
-2. **Isolate target foot**: Identify which foot to attack based on the opponent's weight distribution. Typically, choose the foot that has less weight on it or the one that aligns with your sweeping direction. Use your leg to push or hook behind their opposite knee, forcing weight onto one leg. (Timing: When opponent's weight shifts or commits forward)
-3. **Grab the foot**: With your free hand, quickly reach and secure a firm grip on the opponent's foot, ankle, or heel. The grip should be strong enough to control their leg completely. Your thumb should wrap around the heel or inside of the ankle for maximum control. (Timing: Explosive movement when opening appears)
-4. **Break posture and grips**: Pull down sharply on your sleeve or collar grip while simultaneously lifting and pulling the captured foot. This dual action breaks the opponent's posture and eliminates their grips on you. Your legs should actively push or hook to further destabilize their base. (Timing: Immediately after securing foot grip)
-5. **Generate sweeping force**: Drive your hips off the mat and rotate your body in the direction of the sweep. Pull the controlled foot across your body while pushing with your legs against the opponent's remaining base. The motion should be circular and continuous, like a windshield wiper. (Timing: Continuous motion from posture break)
-6. **Elevate and rotate opponent**: As the opponent begins to fall, maintain control of their foot and continue the rotational motion. Your legs should actively drive them over while your grips guide their direction. Elevate your hips to create maximum leverage and ensure they cannot post with their hands. (Timing: As opponent loses balance)
-7. **Follow through to top position**: As the opponent falls to their back or side, release the foot grip and immediately establish top position. Drive forward with your chest and establish control with your weight. Secure grips and move to consolidate side control, mount, or maintain positional advantage. (Timing: As opponent impacts the mat)
-8. **Establish top control**: Once on top, immediately establish dominant grips and distribute your weight to prevent the opponent from recovering guard. Control their hips with your hands or legs, and begin advancing to a more dominant position or setting up submissions. (Timing: Immediately after completing sweep)
+1. **Establish grip control**: From open guard, secure a strong grip on the opponent's sleeve or collar with one hand. Simultaneously use your legs to control their hips or torso, preventing them from creating distance. Your free hand should be ready to grab their foot.
+2. **Isolate target foot**: Identify which foot to attack based on the opponent's weight distribution. Typically, choose the foot that has less weight on it or the one that aligns with your sweeping direction. Use your leg to push or hook behind their opposite knee, forcing weight onto one leg.
+3. **Grab the foot**: With your free hand, quickly reach and secure a firm grip on the opponent's foot, ankle, or heel. The grip should be strong enough to control their leg completely. Your thumb should wrap around the heel or inside of the ankle for maximum control.
+4. **Break posture and grips**: Pull down sharply on your sleeve or collar grip while simultaneously lifting and pulling the captured foot. This dual action breaks the opponent's posture and eliminates their grips on you. Your legs should actively push or hook to further destabilize their base.
+5. **Generate sweeping force**: Drive your hips off the mat and rotate your body in the direction of the sweep. Pull the controlled foot across your body while pushing with your legs against the opponent's remaining base. The motion should be circular and continuous, like a windshield wiper.
+6. **Elevate and rotate opponent**: As the opponent begins to fall, maintain control of their foot and continue the rotational motion. Your legs should actively drive them over while your grips guide their direction. Elevate your hips to create maximum leverage and ensure they cannot post with their hands.
+7. **Follow through to top position**: As the opponent falls to their back or side, release the foot grip and immediately establish top position. Drive forward with your chest and establish control with your weight. Secure grips and move to consolidate side control, mount, or maintain positional advantage.
+8. **Establish top control**: Once on top, immediately establish dominant grips and distribute your weight to prevent the opponent from recovering guard. Control their hips with your hands or legs, and begin advancing to a more dominant position or setting up submissions.
 
 
 </section>
@@ -271,27 +271,21 @@ Success with this sweep depends heavily on timing, grip control, and the ability
 ## Training Progressions
 **Week 1-2: Fundamental mechanics** - Foot grip and basic sweeping motion
 Practice foot gripping techniques with stationary partner. Focus on proper hand placement on the foot and ankle. Drill the basic sweeping motion without resistance, emphasizing hip elevation and rotational movement. Partner remains still to allow repetition of mechanics.
-(Resistance: None)
 
 **Week 3-4: Timing and grip coordination** - Coordinating upper body control with foot grab
 Partner provides light movement and slight resistance. Practice establishing sleeve/collar grip first, then timing the foot grab appropriately. Work on breaking posture simultaneously with foot control. Partner allows sweep to complete but provides realistic movement.
-(Resistance: Light)
 
 **Week 5-6: Weight distribution reading** - Identifying optimal timing based on opponent's position
 Partner varies their stance and weight distribution. Practitioner must read which foot to attack and when to initiate sweep. Increase resistance progressively. Partner may attempt basic counters like pulling foot back or posting hand.
-(Resistance: Medium)
 
 **Week 7-8: Counter defense integration** - Responding to common counters and maintaining sweep success
 Partner actively tries to counter the sweep using posting, sprawling, or foot withdrawal. Practitioner works on adjustments, alternative sweeps, and transitions. Focus on maintaining offensive pressure even when primary sweep is defended.
-(Resistance: Medium)
 
 **Week 9-12: Live integration** - Executing sweep during positional sparring
 Full resistance positional sparring from open guard. Partner attempts to pass while practitioner looks for foot grab sweep opportunities. Work on chaining with other sweeps and creating dilemmas. Track success rate and identify patterns.
-(Resistance: Full)
 
 **Ongoing: Competition refinement** - High-level application and system building
 Integrate foot grab sweep into complete open guard system. Practice against various passing styles. Work on combinations with leg entanglements, back takes, and submission threats. Film and analyze execution during live rolling and competition.
-(Resistance: Full)
 
 
 

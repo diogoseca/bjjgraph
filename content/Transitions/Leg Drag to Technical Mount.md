@@ -157,7 +157,7 @@ This transition capitalizes on the leg drag's inherent mechanics: when you contr
 The strategic value lies in maintaining offensive pressure throughout the transition. Many practitioners lose submissions attempting to consolidate full mount from leg drag, giving opponents time to recover guard. Technical mount eliminates this gap—you arrive with arm triangles, mounted triangles, and armbars immediately available. The position also prevents common mount escapes like the upa because the opponent cannot generate leverage from their side.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The strategic value lies in maintaining offensive pressure throughout the transi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure upper body control**: Before initiating the mount transition, establish a strong crossface or underhook on the far side. Your forearm drives across their jaw or your arm threads under their far armpit. This control prevents them from turning into you during the transition. (Timing: Establish before releasing any leg drag pressure)
-2. **Increase hip pressure**: Drive your chest into their near hip with increased intensity, forcing them fully onto their side. Your weight shifts forward and diagonal, loading pressure through your shoulder into their hip bone. This creates the space behind their back for your knee insertion. (Timing: 2-3 seconds of sustained pressure)
-3. **Slide knee behind back**: While maintaining crossface pressure, slide your near-side knee behind their back, aiming to place it at their lower back or kidney level. The knee insertion must be deep enough that your shin contacts their back, not just your knee point. (Timing: Quick insertion while hip pressure is maximum)
-4. **Release leg drag grip**: Once your knee is secure behind their back, release the leg drag grip and bring that hand to control their near arm or establish a grip on their collar. The trapped leg will naturally stay pinned under your body weight if your position is correct. (Timing: Only after knee is fully inserted)
-5. **Post front leg**: Swing your other leg around to post in front of their hips, with your foot planted on the mat near their belt line. This leg prevents them from turning into you and serves as your primary base for the technical mount position. (Timing: Immediately after releasing leg drag)
-6. **Consolidate technical mount**: Settle your weight diagonally across their torso, with your hips heavy and chest pressure driving into their shoulder. Your crossface hand controls their head while your other hand secures their near arm. Begin immediately threatening arm triangle or armbar. (Timing: Complete within 1-2 seconds of front leg posting)
+1. **Secure upper body control**: Before initiating the mount transition, establish a strong crossface or underhook on the far side. Your forearm drives across their jaw or your arm threads under their far armpit. This control prevents them from turning into you during the transition.
+2. **Increase hip pressure**: Drive your chest into their near hip with increased intensity, forcing them fully onto their side. Your weight shifts forward and diagonal, loading pressure through your shoulder into their hip bone. This creates the space behind their back for your knee insertion.
+3. **Slide knee behind back**: While maintaining crossface pressure, slide your near-side knee behind their back, aiming to place it at their lower back or kidney level. The knee insertion must be deep enough that your shin contacts their back, not just your knee point.
+4. **Release leg drag grip**: Once your knee is secure behind their back, release the leg drag grip and bring that hand to control their near arm or establish a grip on their collar. The trapped leg will naturally stay pinned under your body weight if your position is correct.
+5. **Post front leg**: Swing your other leg around to post in front of their hips, with your foot planted on the mat near their belt line. This leg prevents them from turning into you and serves as your primary base for the technical mount position.
+6. **Consolidate technical mount**: Settle your weight diagonally across their torso, with your hips heavy and chest pressure driving into their shoulder. Your crossface hand controls their head while your other hand secures their near arm. Begin immediately threatening arm triangle or armbar.
 
 
 </section>
@@ -253,19 +253,15 @@ The strategic value lies in maintaining offensive pressure throughout the transi
 ## Training Progressions
 **Week 1-2** - Position recognition and basic mechanics
 Practice the knee insertion and leg posting from static leg drag position. Partner offers no resistance. Focus on the sequence: upper body control, knee behind back, release grip, post front leg. Drill 20 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Timing and pressure maintenance
 Partner provides light defensive movement (framing, slight hip escapes). Focus on maintaining constant pressure throughout transition. Practice recognizing when opponent's position is optimal for technical mount versus back take.
-(Resistance: Light)
 
 **Week 5-6** - Counter responses and combinations
 Partner actively counters with frames, bridges, and guard recovery attempts. Practice adjusting to common counters and chaining to alternative positions (back take, knee on belly) when technical mount is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and submission chains
 Incorporate into live rolling with specific focus. Start from leg drag control and work to finish from technical mount. Chain immediate submission threats (arm triangle, armbar) upon arriving in position.
-(Resistance: Full)
 
 
 

@@ -163,7 +163,7 @@ The escape mechanics center on three interconnected elements: counter-rotating t
 Strategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.
 
 **From Position**: [[Estima Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, Leg Extraction serves as the primary bailout when caught in Estim
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Counter-rotate ankle**: Immediately rotate your trapped ankle in the opposite direction of the submission pressure, turning your toes away from your body to reduce strain on the ankle joint and Achilles tendon. (Timing: Within first 2 seconds of feeling inverted pressure)
-2. **Establish hip frames**: Place both hands on opponent's hips with elbows tight, creating structural frames that generate space between their torso and your trapped leg while preventing them from consolidating forward pressure. (Timing: Immediately after counter-rotation)
-3. **Activate free leg**: Position your free leg with foot on opponent's hip, knee, or thigh, preparing to push and create distance. The free leg serves as your primary lever for generating extraction space. (Timing: Concurrent with framing)
-4. **Hip escape movement**: Execute a controlled hip escape away from the trapped leg side, using your frames and free leg push simultaneously to create space while keeping your upper body turned toward the trapped limb. (Timing: Coordinated push-and-escape motion)
-5. **Knee retraction**: As space opens from the hip escape, begin retracting your knee toward your chest using the gap created, keeping slight bend to prevent the opponent from straightening your leg back into the lock. (Timing: When 4-6 inches of space opens)
-6. **Foot extraction**: Pull your foot completely free through the created opening by combining knee retraction with ankle rotation, immediately transitioning to guard recovery position once the leg clears. (Timing: Decisive pull when knee clears opponent's control)
-7. **Guard recovery**: Immediately establish defensive guard position using your now-free leg to create hooks or frames, preventing the opponent from re-engaging the leg attack or advancing to a passing position. (Timing: Continuous flow from extraction)
+1. **Counter-rotate ankle**: Immediately rotate your trapped ankle in the opposite direction of the submission pressure, turning your toes away from your body to reduce strain on the ankle joint and Achilles tendon.
+2. **Establish hip frames**: Place both hands on opponent's hips with elbows tight, creating structural frames that generate space between their torso and your trapped leg while preventing them from consolidating forward pressure.
+3. **Activate free leg**: Position your free leg with foot on opponent's hip, knee, or thigh, preparing to push and create distance. The free leg serves as your primary lever for generating extraction space.
+4. **Hip escape movement**: Execute a controlled hip escape away from the trapped leg side, using your frames and free leg push simultaneously to create space while keeping your upper body turned toward the trapped limb.
+5. **Knee retraction**: As space opens from the hip escape, begin retracting your knee toward your chest using the gap created, keeping slight bend to prevent the opponent from straightening your leg back into the lock.
+6. **Foot extraction**: Pull your foot completely free through the created opening by combining knee retraction with ankle rotation, immediately transitioning to guard recovery position once the leg clears.
+7. **Guard recovery**: Immediately establish defensive guard position using your now-free leg to create hooks or frames, preventing the opponent from re-engaging the leg attack or advancing to a passing position.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, Leg Extraction serves as the primary bailout when caught in Estim
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice counter-rotation and framing sequence with cooperative partner applying zero submission pressure. Focus on correct hand placement for hip frames, free leg positioning, and understanding the hip escape angle needed for extraction.
-(Resistance: None)
 
 **Week 3-4** - Timing and coordination
 Partner maintains Estima Lock control at 30% pressure while you execute full extraction sequence. Focus on coordinating frame establishment with hip escape timing and recognizing when sufficient space opens for knee retraction.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively follows movement and transitions to alternative attacks at 50% resistance. Practice recognizing counter attempts and adjusting escape sequence accordingly. Drill transitions between extraction attempts and guard recovery.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate extraction into live rolling from Estima Lock starting position. Partner applies full competition-level pressure and counters. Focus on recognizing extraction windows in dynamic exchanges and chaining to follow-up positions.
-(Resistance: Full)
 
 
 

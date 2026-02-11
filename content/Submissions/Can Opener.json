@@ -14,11 +14,6 @@
   "submission_type": "Neck Crank",
   "target_area": "Cervical spine and neck muscles",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 15,
-    "intermediate": 25,
-    "advanced": 35
-  },
   "overview": "The Can Opener is a neck crank technique applied from within an opponent's closed guard, primarily used as a guard-breaking mechanism rather than a finishing submission. The technique involves interlacing fingers behind the opponent's head and driving the forearms into their neck while pulling the head forward and down, creating intense pressure on the cervical spine and neck muscles. This compression submission is banned in most Brazilian Jiu-Jitsu competitions under IBJJF rules and is considered a controversial technique due to its high injury potential. While it can be effective at forcing an opponent to open their guard to relieve pressure, the Can Opener carries significant risks including neck muscle strains, cervical spine compression injuries, and potential disc damage. Modern BJJ practitioners typically learn this technique primarily for defensive purposes - understanding how to recognize and counter it - rather than as an offensive weapon. The technique's effectiveness comes from the mechanical disadvantage created when the defender's own guard restricts their ability to posture away from the pressure. However, higher-level practitioners develop strong defensive responses including grip fighting, posture control, and guard adjustments that significantly reduce the Can Opener's success rate. Understanding this technique is essential for comprehensive grappling education, but its application should be severely restricted or avoided entirely in training environments.",
   "safety_considerations": {
     "injury_risks": [
@@ -92,43 +87,37 @@
       "step_number": 1,
       "action": "Establish head control",
       "description": "From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard.",
-      "timing": "Initial setup phase - 2-3 seconds",
-      "pressure_level": "Light"
+      "timing": "Initial setup phase - 2-3 seconds"
     },
     {
       "step_number": 2,
       "action": "Interlace fingers",
       "description": "Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base.",
-      "timing": "Grip establishment - 1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "Grip establishment - 1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Position forearms against neck",
       "description": "Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck.",
-      "timing": "Structural positioning - 2-3 seconds",
-      "pressure_level": "Light"
+      "timing": "Structural positioning - 2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Pull head forward and down",
       "description": "Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving your forearms into their neck. The motion combines forward pulling with downward compression. Their own closed guard prevents them from creating distance, trapping them in the compression. This creates the characteristic 'can opening' effect on the cervical spine.",
-      "timing": "ONLY IF EDUCATIONAL DEMONSTRATION - 3-4 seconds minimum",
-      "pressure_level": "Moderate"
+      "timing": "ONLY IF EDUCATIONAL DEMONSTRATION - 3-4 seconds minimum"
     },
     {
       "step_number": 5,
       "action": "Drive elbows together",
       "description": "Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates pressure on the neck. This increases the compression force while limiting opponent's ability to create space. The combined forward pull, downward pressure, and inward elbow drive maximizes discomfort forcing guard opening.",
-      "timing": "ONLY IF EDUCATIONAL DEMONSTRATION - 2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "ONLY IF EDUCATIONAL DEMONSTRATION - 2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Maintain pressure until guard opens",
       "description": "Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard opens, immediately release all neck pressure and transition to a legal guard passing position. Never maintain this pressure longer than absolutely necessary, and never use in competitive or live training contexts where it is prohibited.",
-      "timing": "RELEASE IMMEDIATELY upon guard opening or any distress signal",
-      "pressure_level": "Moderate"
+      "timing": "RELEASE IMMEDIATELY upon guard opening or any distress signal"
     }
   ],
   "opponent_defense_patterns": [
@@ -167,44 +156,37 @@
     {
       "error": "Applying rapid or jerking pressure to neck",
       "consequence": "Immediate severe injury risk including cervical spine damage, muscle tears, or nerve impingement",
-      "correction": "If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all.",
-      "danger_level": "CRITICAL"
+      "correction": "If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all."
     },
     {
       "error": "Using technique in competition or gym where it is banned",
       "consequence": "Disqualification, gym expulsion, legal liability for injuries, and damage to reputation as unsafe training partner",
-      "correction": "Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks.",
-      "danger_level": "CRITICAL"
+      "correction": "Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks."
     },
     {
       "error": "Continuing pressure after partner shows discomfort",
       "consequence": "Serious injury to training partner, breakdown of trust, and potential long-term cervical damage",
-      "correction": "Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks."
     },
     {
       "error": "Shallow hand position on top of head rather than base of skull",
       "consequence": "Reduced effectiveness allowing easy escape through head movement, and potential for hands to slip causing uncontrolled pressure spikes",
-      "correction": "If demonstrating technique, ensure hands are positioned at skull base with secure interlaced grip. However, prioritize not using this technique over perfecting its mechanics.",
-      "danger_level": "Medium"
+      "correction": "If demonstrating technique, ensure hands are positioned at skull base with secure interlaced grip. However, prioritize not using this technique over perfecting its mechanics."
     },
     {
       "error": "Using in training without explicit partner consent and communication",
       "consequence": "Violation of training partner trust, unexpected injury, and creation of unsafe training environment",
-      "correction": "If technique must be shown for educational awareness, obtain explicit verbal consent, agree on pressure limits, and maintain constant communication. Better approach: demonstrate on willing experienced partner or use verbal explanation only.",
-      "danger_level": "CRITICAL"
+      "correction": "If technique must be shown for educational awareness, obtain explicit verbal consent, agree on pressure limits, and maintain constant communication. Better approach: demonstrate on willing experienced partner or use verbal explanation only."
     },
     {
       "error": "Relying on Can Opener as primary guard breaking method",
       "consequence": "Development of poor technical fundamentals, inability to break guards of skilled opponents, and reputation as unsafe or low-level grappler",
-      "correction": "Invest training time in proper guard breaking mechanics including standing breaks, toreando passing, pressure passing, and leg weave techniques that are legal, safe, and effective at all levels.",
-      "danger_level": "High"
+      "correction": "Invest training time in proper guard breaking mechanics including standing breaks, toreando passing, pressure passing, and leg weave techniques that are legal, safe, and effective at all levels."
     },
     {
       "error": "Driving forearms into throat rather than neck sides",
       "consequence": "Airway compression creating choking effect rather than neck crank, increased injury risk, and potential loss of consciousness",
-      "correction": "If demonstrating, ensure forearms contact neck sides and back rather than windpipe. However, recognize that any neck cranking carries significant risks regardless of precise positioning.",
-      "danger_level": "CRITICAL"
+      "correction": "If demonstrating, ensure forearms contact neck sides and back rather than windpipe. However, recognize that any neck cranking carries significant risks regardless of precise positioning."
     }
   ],
   "variations_and_setups": [
@@ -286,50 +268,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Theoretical Understanding Only",
-      "timeframe": "1-2 sessions",
-      "focus": "Learn what Can Opener is, why it is banned, and how to defend against setup attempts through verbal instruction and video analysis only",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand injury mechanisms and legal status before any physical demonstration. Emphasize that this technique should not be part of regular training repertoire."
-    },
-    {
-      "phase": "Defensive Recognition Practice",
-      "timeframe": "2-3 weeks",
-      "focus": "Partner attempts setup positioning only (hands behind head) while you practice grip fighting, posture breaking, and preventive defenses. No pressure applied.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Practice recognizing setup attempts and implementing preventive defenses. Never progress to actual pressure application. Focus on stopping technique before compression begins."
-    },
-    {
-      "phase": "Escape Drill from Static Position",
-      "timeframe": "1-2 weeks",
-      "focus": "Starting from position where opponent has hand position established, practice opening guard voluntarily, framing, and creating distance. Partner maintains static position without adding pressure.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Learn proper escape mechanics with zero pressure. Emphasize immediate voluntary guard opening as primary escape rather than attempting to endure pressure."
-    },
-    {
-      "phase": "Legal Guard Breaking Alternatives Development",
-      "timeframe": "Ongoing - 6+ months",
-      "focus": "Invest training time in standing guard breaks, knee slice pressure, toreando passing, and other legal techniques that provide effective guard breaking without injury risk",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "This is where actual training focus should be directed. Develop comprehensive guard passing system using legal and safe techniques that work at all levels."
-    },
-    {
-      "phase": "Defensive Integration in Live Training",
-      "timeframe": "Ongoing",
-      "focus": "Maintain awareness during live rolling to recognize and prevent Can Opener setups through proper guard maintenance, grip fighting, and posture control",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "If partner attempts Can Opener in live training, immediately stop, communicate about safety and gym rules, and decline to continue rolling if they persist in using banned techniques."
-    },
-    {
-      "phase": "Teaching and Coaching Defensive Awareness",
-      "timeframe": "Advanced practitioners only",
-      "focus": "Help newer practitioners understand why technique is dangerous, how to defend setup, and why legal alternatives are superior choices",
-      "resistance_level": "None",
-      "safety_emphasis": "If demonstrating for teaching purposes, use extreme caution with zero pressure application. Focus on conceptual understanding and defensive solutions rather than offensive execution."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Half Guard",
@@ -388,5 +326,6 @@
       "name": "Anaconda Choke",
       "relationship": "Legal neck attack alternative focusing on carotid compression rather than cervical pressure"
     }
-  ]
+  ],
+  "success_rate": 30
 }

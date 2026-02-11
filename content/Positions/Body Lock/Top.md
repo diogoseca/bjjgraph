@@ -368,11 +368,11 @@ Partner attempts various escapes from your body lock including frames, whizzer, 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 55% | 25% |
-| Intermediate | 60% | 70% | 40% |
-| Advanced     | 75% | 85% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 78% |
+| Submission Probability | 50% |
 
 **Average Time in Position**: 2-6 seconds before transition to next position
 

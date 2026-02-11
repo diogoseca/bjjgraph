@@ -357,7 +357,7 @@ The front headlock system requires layered drilling that progressively builds fr
 - [[Front Headlock]] (Position) - Primary control position for entire system
 - [[Guillotine Control]] (Position) - Key position state within guillotine attack pathway
 - [[Anaconda Control]] (Position) - Control position for anaconda choke pathway
-- [[D'arce Control]] (Position) - Control position for darce choke pathway
+- [[Darce Control]] (Position) - Control position for darce choke pathway
 - [[Back Control]] (Position) - Target position for back exposure pathway when chokes are defended
 - [[Turtle]] (Position) - Common entry position for front headlock attacks from top
 - [[Crucifix]] (Position) - Alternative finishing position from front headlock spiral mechanics

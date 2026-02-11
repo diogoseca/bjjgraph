@@ -157,7 +157,7 @@ The technical foundation of this escape relies on understanding the mechanical d
 Strategically, Inside Position Recovery represents the preferred escape pathway when you cannot prevent the leg drag but have maintained enough hip mobility to create space. Unlike rolling to turtle (which concedes position) or fighting for half guard (which may still leave you in a compromised state), successful Inside Position Recovery puts you in butterfly guard with active hooks and offensive options. This makes it particularly valuable in competition where guard retention and immediate counter-attacks are essential for scoring and momentum.
 
 **From Position**: [[Leg Drag Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, Inside Position Recovery represents the preferred escape pathway 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary frame**: Place your far-side forearm against opponent's shoulder or neck, creating a structural frame that prevents them from driving their weight forward and flattening you to the mat (Timing: Immediately upon recognizing leg drag control)
-2. **Post free leg**: Plant your free leg's foot flat on the mat with knee bent, positioning it close to your hip to generate power for the upcoming hip escape movement (Timing: Simultaneous with establishing frame)
-3. **Execute hip escape**: Push off your posted foot while driving your frame into opponent's shoulder, creating space by moving your hips away from them while keeping your shoulders relatively flat to prevent back exposure (Timing: When opponent shifts weight to advance)
-4. **Extract trapped leg**: As space opens from your hip escape, pull your trapped knee toward your chest by engaging your hip flexors, threading your foot back inside their control to free the leg (Timing: During the hip escape movement)
-5. **Insert butterfly hook**: Immediately convert your freed leg into a butterfly hook by placing your instep against their inner thigh, establishing inside position before they can re-establish leg control (Timing: Immediately upon leg extraction)
-6. **Establish butterfly guard**: Bring your second leg into position with both butterfly hooks active, grip their collar or underhook their arm, and sit up slightly into proper butterfly guard posture with offensive options (Timing: Within 1-2 seconds of first hook insertion)
+1. **Establish primary frame**: Place your far-side forearm against opponent's shoulder or neck, creating a structural frame that prevents them from driving their weight forward and flattening you to the mat
+2. **Post free leg**: Plant your free leg's foot flat on the mat with knee bent, positioning it close to your hip to generate power for the upcoming hip escape movement
+3. **Execute hip escape**: Push off your posted foot while driving your frame into opponent's shoulder, creating space by moving your hips away from them while keeping your shoulders relatively flat to prevent back exposure
+4. **Extract trapped leg**: As space opens from your hip escape, pull your trapped knee toward your chest by engaging your hip flexors, threading your foot back inside their control to free the leg
+5. **Insert butterfly hook**: Immediately convert your freed leg into a butterfly hook by placing your instep against their inner thigh, establishing inside position before they can re-establish leg control
+6. **Establish butterfly guard**: Bring your second leg into position with both butterfly hooks active, grip their collar or underhook their arm, and sit up slightly into proper butterfly guard posture with offensive options
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, Inside Position Recovery represents the preferred escape pathway 
 ## Training Progressions
 **Week 1-2** - Frame and hip escape mechanics
 Practice the frame positioning and hip escape movement in isolation. Partner establishes leg drag control with no resistance while you work on timing the hip escape with proper frame placement. Focus on keeping shoulders flat while moving hips.
-(Resistance: None)
 
 **Week 3-4** - Leg extraction timing
 Partner provides light resistance during leg drag control. Practice recognizing the window when partner shifts weight and executing the full sequence from frame to butterfly hook insertion. Drill both sides equally.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to counter your recovery with shoulder pressure, backsteps, or back takes. Work on reading their reactions and adjusting your technique. Begin linking to follow-up attacks from butterfly guard.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement Inside Position Recovery during live rolling with full resistance. Focus on early recognition of leg drag entries and immediate defensive response. Track success rate and analyze failures for continued improvement.
-(Resistance: Full)
 
 
 

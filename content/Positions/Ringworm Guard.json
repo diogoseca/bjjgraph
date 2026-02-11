@@ -246,21 +246,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60,
+        "value": 52,
         "description": "Ability to maintain top position without being swept"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
+        "value": 48,
         "description": "Probability of successfully passing guard from this position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Probability of securing submission while escaping position"
       },
       "average_time": "60-120 seconds to extract or get swept"
@@ -515,19 +509,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
+        "value": 58
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "average_time": "45-90 seconds before transition or pass"
     },

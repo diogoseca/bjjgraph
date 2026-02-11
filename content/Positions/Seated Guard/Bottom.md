@@ -21,37 +21,37 @@ description: "Master Seated Guard Bottom in BJJ. Upright open guard with posted 
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand-up",
-      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand-up. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Tripod Sweep",
-      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Tripod Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,23 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 ## Available Escapes
 
-### [[Technical Stand-up]] (16% of attempts)
+### [[Technical Stand-up]] (12% of attempts)
 
-### [[Butterfly Sweep]] (12% of attempts)
+### [[Butterfly Sweep]] (11% of attempts)
 
-### [[Scissor Sweep]] (13% of attempts)
+### [[Scissor Sweep]] (12% of attempts)
 
-### [[Single Leg X Entry]] (12% of attempts)
+### [[Single Leg X Entry]] (11% of attempts)
 
-### [[Ankle Pick]] (11% of attempts)
+### [[Ankle Pick]] (10% of attempts)
 
-### [[Tripod Sweep]] (12% of attempts)
+### [[Tripod Sweep]] (11% of attempts)
 
-### [[X-Guard Sweep]] (12% of attempts)
+### [[X-Guard Sweep]] (11% of attempts)
 
-### [[Lumberjack Sweep]] (12% of attempts)
+### [[Lumberjack Sweep]] (11% of attempts)
+
+### [[Foot Grab Sweep]] (11% of attempts)
 
 
 
@@ -385,11 +387,11 @@ Start in seated guard. Partner attempts to pass. You defend and look for sweeps 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 20% |
-| Intermediate | 50% | 50% | 35% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 20-60 seconds
 

@@ -163,7 +163,7 @@ The fundamental concept involves using your elbows as wedges against your oppone
 This escape is particularly effective against the invisible collar because it doesn't require you to remove your hands from neck defense to fight hooks. The elbow mechanics allow you to address both threats simultaneously—protecting your neck while dismantling their lower body control. Successful execution requires patience, proper sequencing, and the discipline to complete each phase fully before moving to the next. Rushing any step typically results in the opponent simply re-establishing the cleared hook.
 
 **From Position**: [[Invisible Collar/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ This escape is particularly effective against the invisible collar because it do
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure neck defense**: Tuck your chin aggressively to your chest and bring both hands to your collar area to control opponent's choking grip. This defense must remain intact throughout the entire hook removal sequence—never sacrifice neck protection for faster escape. (Timing: Immediate upon recognizing back control position)
-2. **Identify vulnerable hook**: Determine which hook is more exposed based on opponent's weight distribution and body angle. The hook on the side opponent is leaning away from typically has less pressure and is easier to clear first. Feel for which leg has lighter ankle pressure. (Timing: 1-2 seconds of assessment)
-3. **Position elbow wedge**: Drop your elbow on the targeted side down inside your hip, creating a frame between your elbow and hip bone. The point of your elbow should contact the opponent's ankle or instep area. Keep your forearm vertical to maximize leverage and prevent the hook from riding over. (Timing: Maintain continuous pressure)
-4. **Hip escape and clear hook**: Execute a strong hip escape away from the hook you're removing—shrimp your hips laterally while simultaneously using your elbow to push their ankle toward the mat. The combination of hip movement and elbow pressure should clear the hook past your leg. Immediately clamp your legs together to trap the cleared limb. (Timing: Explosive movement with 1-2 second commitment)
-5. **Secure cleared position**: Triangle your legs to trap opponent's cleared leg between your thighs, preventing re-insertion while you address the second hook. Your outside leg should hook over their cleared leg while your inside leg closes the triangle. This creates a temporary half-back position. (Timing: Immediately after clearing first hook)
-6. **Address second hook**: With the first hook trapped, begin turning your torso toward your opponent while dropping your opposite elbow inside to wedge against their remaining hook. Execute another hip escape in the opposite direction to clear this hook while maintaining your leg trap on the first. (Timing: 2-3 seconds after securing first hook)
-7. **Complete rotation to guard**: Once both hooks are cleared, complete your rotation to face your opponent. Frame on their hips with your hands while inserting your knees between your bodies. Establish open guard position with feet on hips and hands controlling their wrists or collar to prevent them from re-taking back control. (Timing: Continuous movement to establish guard)
+1. **Secure neck defense**: Tuck your chin aggressively to your chest and bring both hands to your collar area to control opponent's choking grip. This defense must remain intact throughout the entire hook removal sequence—never sacrifice neck protection for faster escape.
+2. **Identify vulnerable hook**: Determine which hook is more exposed based on opponent's weight distribution and body angle. The hook on the side opponent is leaning away from typically has less pressure and is easier to clear first. Feel for which leg has lighter ankle pressure.
+3. **Position elbow wedge**: Drop your elbow on the targeted side down inside your hip, creating a frame between your elbow and hip bone. The point of your elbow should contact the opponent's ankle or instep area. Keep your forearm vertical to maximize leverage and prevent the hook from riding over.
+4. **Hip escape and clear hook**: Execute a strong hip escape away from the hook you're removing—shrimp your hips laterally while simultaneously using your elbow to push their ankle toward the mat. The combination of hip movement and elbow pressure should clear the hook past your leg. Immediately clamp your legs together to trap the cleared limb.
+5. **Secure cleared position**: Triangle your legs to trap opponent's cleared leg between your thighs, preventing re-insertion while you address the second hook. Your outside leg should hook over their cleared leg while your inside leg closes the triangle. This creates a temporary half-back position.
+6. **Address second hook**: With the first hook trapped, begin turning your torso toward your opponent while dropping your opposite elbow inside to wedge against their remaining hook. Execute another hip escape in the opposite direction to clear this hook while maintaining your leg trap on the first.
+7. **Complete rotation to guard**: Once both hooks are cleared, complete your rotation to face your opponent. Frame on their hips with your hands while inserting your knees between your bodies. Establish open guard position with feet on hips and hands controlling their wrists or collar to prevent them from re-taking back control.
 
 
 </section>
@@ -263,19 +263,15 @@ This escape is particularly effective against the invisible collar because it do
 ## Training Progressions
 **Week 1-2** - Elbow wedge mechanics
 Practice positioning your elbow as a frame against partner's hook without resistance. Focus on finding the correct contact point (elbow to ankle/instep) and maintaining the wedge while moving your hips. Drill hip escapes with the elbow frame until the coordination becomes natural.
-(Resistance: None)
 
 **Week 3-4** - Sequential hook removal
 With light resistance, practice clearing one hook completely and trapping it before addressing the second. Partner maintains hooks but doesn't actively re-insert or counter. Develop the habit of completing each phase fully before moving to the next.
-(Resistance: Light)
 
 **Week 5-6** - Integration with neck defense
 Partner adds light collar attacks while you escape. Practice maintaining neck protection throughout hook removal sequence. Develop the ability to monitor both threats simultaneously and adjust escape timing based on submission danger.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Full resistance back escape rounds. Start in back control with collar grip established. Defender works elbow escape while attacker fights to maintain position and finish. Track success rates and identify patterns in failures to address specific weaknesses.
-(Resistance: Full)
 
 
 

@@ -364,11 +364,11 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 45% | 25% |
-| Intermediate | 60% | 60% | 40% |
-| Advanced     | 75% | 75% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 68% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 30-60 seconds
 

@@ -153,7 +153,7 @@ description: "Master Armbar Defense in BJJ. Learn systematic escapes from mount,
 Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized. The defense varies significantly depending on whether the armbar is being applied from mount, guard, side control, or back control, requiring practitioners to develop position-specific defensive responses while maintaining awareness of fundamental escape principles that apply across all variations.
 
 **From Position**: [[Armbar Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -203,12 +203,12 @@ Armbar defense represents one of the most critical defensive skills in Brazilian
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the attack**: Identify armbar setup immediately as opponent begins to pivot their body perpendicular to yours, isolates your arm, or starts to swing their leg across your head or chest. Early recognition is critical as defenses become exponentially more difficult once full extension begins. (Timing: As soon as leg begins to swing or arm isolation occurs)
-2. **Lock hands together**: Immediately clasp both hands together in a grip (gable grip or S-grip) to prevent full arm extension. Keep thumbs pointed upward and elbows tight to your body. This creates a structural frame that makes it significantly harder for opponent to straighten your arm. (Timing: Within 0.5-1 second of recognizing attack)
-3. **Rotate toward opponent**: Turn your body and trapped shoulder toward your opponent's head, moving from supine position to your side. This rotation reduces the angle of attack on your elbow joint and begins to stack opponent's hips, compromising their leverage for the submission. (Timing: Simultaneously with hand clasping)
-4. **Posture up and stack**: Drive your weight forward over opponent's hips, stacking their lower back and legs toward their head. Use your free hand to post on the mat near their head for base. This stacking action removes the hip extension necessary for armbar completion and creates escape opportunities. (Timing: As rotation begins to take effect)
-5. **Extract trapped arm**: While maintaining stacking pressure, begin extracting your trapped arm by pulling it back toward your body in a circular motion, keeping the elbow bent. Pull arm across opponent's centerline toward their opposite hip, using the momentum of your stack to assist the extraction. (Timing: Once maximum stacking pressure is achieved)
-6. **Establish guard or pass**: As arm clears opponent's legs, immediately transition to either passing to side control (if sufficient stacking occurred) or establishing position in their guard (if they recover). Maintain positional pressure and avoid allowing opponent to re-establish armbar control or transition to alternative attacks. (Timing: Immediately following arm extraction)
+1. **Recognize the attack**: Identify armbar setup immediately as opponent begins to pivot their body perpendicular to yours, isolates your arm, or starts to swing their leg across your head or chest. Early recognition is critical as defenses become exponentially more difficult once full extension begins.
+2. **Lock hands together**: Immediately clasp both hands together in a grip (gable grip or S-grip) to prevent full arm extension. Keep thumbs pointed upward and elbows tight to your body. This creates a structural frame that makes it significantly harder for opponent to straighten your arm.
+3. **Rotate toward opponent**: Turn your body and trapped shoulder toward your opponent's head, moving from supine position to your side. This rotation reduces the angle of attack on your elbow joint and begins to stack opponent's hips, compromising their leverage for the submission.
+4. **Posture up and stack**: Drive your weight forward over opponent's hips, stacking their lower back and legs toward their head. Use your free hand to post on the mat near their head for base. This stacking action removes the hip extension necessary for armbar completion and creates escape opportunities.
+5. **Extract trapped arm**: While maintaining stacking pressure, begin extracting your trapped arm by pulling it back toward your body in a circular motion, keeping the elbow bent. Pull arm across opponent's centerline toward their opposite hip, using the momentum of your stack to assist the extraction.
+6. **Establish guard or pass**: As arm clears opponent's legs, immediately transition to either passing to side control (if sufficient stacking occurred) or establishing position in their guard (if they recover). Maintain positional pressure and avoid allowing opponent to re-establish armbar control or transition to alternative attacks.
 
 
 </section>
@@ -254,27 +254,21 @@ Armbar defense represents one of the most critical defensive skills in Brazilian
 ## Training Progressions
 **Week 1-2: Recognition Drills** - Identifying armbar setups from various positions
 Partner slowly initiates armbar setups from mount, guard, and side control while you focus solely on recognizing the attack indicators (leg movement, arm isolation, body pivoting). Call out the attack type and freeze position for analysis.
-(Resistance: None)
 
 **Week 3-4: Mechanical Practice** - Executing defensive sequence with cooperative partner
 Partner achieves partial armbar position (hands clasped but legs in position) and pauses. Practice the full defensive sequence: lock hands, rotate shoulder, stack hips, extract arm. Partner maintains light control but allows successful completion. Focus on proper mechanics over speed.
-(Resistance: Light)
 
 **Week 5-8: Resistance Drilling** - Defending against increasing pressure and completion attempts
 Partner applies armbar with progressive resistance, attempting to break your defensive grip and extend the arm. Practice maintaining defensive structure under pressure while executing escape sequence. Start from 50% resistance and increase to 75% as proficiency develops.
-(Resistance: Medium)
 
 **Week 9-12: Dynamic Scenarios** - Live drilling from various starting positions with transitions
 Partner can attempt armbars from any position during positional sparring. Practice recognizing attacks from mount escapes, guard passing attempts, and scrambles. Defend the armbar and transition to next appropriate position. Partner can switch to triangle or omoplata if opportunity arises.
-(Resistance: Full)
 
 **Week 13+: Competition Integration** - Defending armbars during unrestricted sparring
 Apply defensive techniques during normal rolling sessions. Focus on early recognition and prevention of armbar setups through improved positional awareness. Track success rate and common failure points for continued refinement.
-(Resistance: Full)
 
 **Ongoing: Position-Specific Refinement** - Developing specialized defenses for each armbar variation
 Dedicate focused training time to defending specific armbar types: mount armbar, guard armbar, back armbar, flying armbar. Study subtle mechanical differences and optimal defensive responses for each variation. Work with higher-level training partners who can apply these submissions at high proficiency.
-(Resistance: Full)
 
 
 

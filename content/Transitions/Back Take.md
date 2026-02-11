@@ -157,7 +157,7 @@ The technique thrives on the dilemma-based nature of crackhead control - your op
 From a strategic standpoint, the back take from crackhead control serves as the primary advancement pathway in the 10th Planet turtle attack system. It connects directly to the highest-scoring and highest-submission-percentage position in grappling, making it an essential technique for competitive practitioners. The transition exemplifies the modern approach to positional grappling where control positions exist primarily as launching platforms for further advancement rather than static holding positions.
 
 **From Position**: [[Crackhead Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure upper body control**: Establish seatbelt grip with your choking arm (over shoulder) and underhook arm (under armpit) while maintaining hip pressure on opponent's lower back. Clasp hands together using a gable grip or S-grip configuration. (Timing: Before initiating rotation)
-2. **Load weight forward**: Shift your weight forward through your chest onto opponent's upper back, slightly releasing hip pressure to create mobility for rotation while maintaining chest-to-back connection that prevents them from turning. (Timing: 1-2 seconds)
-3. **Begin rotation using inside hook**: Use your inside leg hook as a pivot point, rotating your hips around opponent's body toward the side of your underhook arm. Your outside leg swings around to begin clearing their hip. (Timing: Continuous motion)
-4. **Insert first hook**: As your rotation brings you alongside opponent's body, insert your first hook (previously inside leg) deep into their thigh with your foot crossing inside toward their groin area. Toes point outward. (Timing: During rotation)
-5. **Complete rotation and insert second hook**: Continue rotating until your chest is fully behind opponent's back, then insert your second hook on the opposite side. Both feet should be positioned inside their thighs with heels driving toward their hips. (Timing: Immediately after first hook)
-6. **Consolidate back control**: Settle your hips below opponent's hips to create downward pressure, tighten seatbelt grip, and establish full chest-to-back connection. Begin threat assessment for submission entries. (Timing: 2-3 seconds to settle)
+1. **Secure upper body control**: Establish seatbelt grip with your choking arm (over shoulder) and underhook arm (under armpit) while maintaining hip pressure on opponent's lower back. Clasp hands together using a gable grip or S-grip configuration.
+2. **Load weight forward**: Shift your weight forward through your chest onto opponent's upper back, slightly releasing hip pressure to create mobility for rotation while maintaining chest-to-back connection that prevents them from turning.
+3. **Begin rotation using inside hook**: Use your inside leg hook as a pivot point, rotating your hips around opponent's body toward the side of your underhook arm. Your outside leg swings around to begin clearing their hip.
+4. **Insert first hook**: As your rotation brings you alongside opponent's body, insert your first hook (previously inside leg) deep into their thigh with your foot crossing inside toward their groin area. Toes point outward.
+5. **Complete rotation and insert second hook**: Continue rotating until your chest is fully behind opponent's back, then insert your second hook on the opposite side. Both feet should be positioned inside their thighs with heels driving toward their hips.
+6. **Consolidate back control**: Settle your hips below opponent's hips to create downward pressure, tighten seatbelt grip, and establish full chest-to-back connection. Begin threat assessment for submission entries.
 
 
 </section>
@@ -252,19 +252,15 @@ From a strategic standpoint, the back take from crackhead control serves as the 
 ## Training Progressions
 **Week 1-2** - Movement mechanics
 Practice the rotation mechanics from crackhead control with a completely cooperative partner. Focus on maintaining hip connection during rotation, proper hook insertion depth, and seatbelt grip retention. Drill 30-50 repetitions per session on each side.
-(Resistance: None)
 
 **Week 3-4** - Timing and sensitivity
 Partner provides light defensive movement (hip shifts, minor sit-through attempts) while you practice recognizing optimal timing windows for the back take. Focus on reading opponent's weight distribution and initiating rotation when they're committed elsewhere.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Integrate back take with other crackhead control threats. Practice flow sequences: threaten truck entry, opponent defends, take back. Threaten crucifix, opponent protects arm, take back. Develop the dilemma-based attack system.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Apply technique in full-speed positional sparring starting from crackhead control. Partner uses 100% resistance to escape or counter. Track success rate and identify specific failure points for targeted drilling.
-(Resistance: Full)
 
 
 

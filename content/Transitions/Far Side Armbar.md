@@ -157,7 +157,7 @@ The technique exploits a fundamental weakness in the Kuzure Kesa-Gatame position
 Strategically, the far side armbar serves as both a primary attack and a position advancement tool. Failed attempts often result in the opponent turning into you to protect the arm, which opens transitions to mount or traditional armbar positions. This win-win dynamic makes it a high-percentage technique when properly integrated into your top game. The attack is particularly effective against opponents who aggressively frame from bottom Kuzure Kesa-Gatame, as their defensive action directly feeds your offensive sequence.
 
 **From Position**: [[Kuzure Kesa-Gatame/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the far side armbar serves as both a primary attack and a positio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: With your near-side hand, grip opponent's far wrist firmly using a C-grip. Pull their arm across your chest while maintaining your seated Kuzure Kesa-Gatame base. Their elbow should be positioned against your sternum. (Timing: Execute when opponent extends arm to frame against your chest)
-2. **Pin the arm**: Clamp your far-side arm over their trapped bicep, creating a figure-four grip on the arm by connecting your hands. This double-arm control prevents them from retracting the arm during your transition. (Timing: Immediately after securing wrist)
-3. **Initiate hip pivot**: Begin rotating your hips toward their head, pivoting on your base-side hip. Your chest maintains pressure on their arm as you start transitioning from a parallel orientation to perpendicular. Keep your weight forward to prevent them from sitting up. (Timing: Smooth continuous motion)
-4. **Swing bottom leg over**: In one fluid motion, swing your bottom leg (the one closer to their legs) up and over their head. Your calf should land across their throat or upper chest. Simultaneously, your top leg posts on their far hip to prevent them from rolling toward you. (Timing: As hips reach 45-degree angle)
-5. **Establish leg control**: Bring your top leg over to join the bottom leg, creating a figure-four configuration with their arm trapped between your thighs. Squeeze your knees together tightly with their arm pinched between your legs, thumb pointing up. (Timing: Immediately after bottom leg clears)
-6. **Finish the armbar**: Pull their wrist to your chest while elevating your hips in a controlled manner. The pressure should be applied to their elbow joint against your pubic bone. Raise hips incrementally until they tap, maintaining knee squeeze throughout. (Timing: Controlled steady elevation)
+1. **Secure wrist control**: With your near-side hand, grip opponent's far wrist firmly using a C-grip. Pull their arm across your chest while maintaining your seated Kuzure Kesa-Gatame base. Their elbow should be positioned against your sternum.
+2. **Pin the arm**: Clamp your far-side arm over their trapped bicep, creating a figure-four grip on the arm by connecting your hands. This double-arm control prevents them from retracting the arm during your transition.
+3. **Initiate hip pivot**: Begin rotating your hips toward their head, pivoting on your base-side hip. Your chest maintains pressure on their arm as you start transitioning from a parallel orientation to perpendicular. Keep your weight forward to prevent them from sitting up.
+4. **Swing bottom leg over**: In one fluid motion, swing your bottom leg (the one closer to their legs) up and over their head. Your calf should land across their throat or upper chest. Simultaneously, your top leg posts on their far hip to prevent them from rolling toward you.
+5. **Establish leg control**: Bring your top leg over to join the bottom leg, creating a figure-four configuration with their arm trapped between your thighs. Squeeze your knees together tightly with their arm pinched between your legs, thumb pointing up.
+6. **Finish the armbar**: Pull their wrist to your chest while elevating your hips in a controlled manner. The pressure should be applied to their elbow joint against your pubic bone. Raise hips incrementally until they tap, maintaining knee squeeze throughout.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, the far side armbar serves as both a primary attack and a positio
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the arm control sequence from static Kuzure Kesa-Gatame. Partner offers their far arm without resistance. Focus on proper wrist grip, figure-four arm clamp, and smooth leg swing mechanics. Drill 20 reps each side without finishing.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner actively frames against your chest from bottom position. Learn to recognize the extension timing window and immediately attack when arm presents. Add light resistance to leg transition phase. Begin finishing with controlled pressure.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the far side armbar with americana threats and mount transitions. When armbar is defended, flow to secondary attacks. Partner defends at 50% resistance, forcing you to read and react to their defensive choices.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from Kuzure Kesa-Gatame. Full resistance with resets on escape or submission. Track success rate and identify failure patterns. Integrate into regular rolling as primary attack from the position.
-(Resistance: Full)
 
 
 

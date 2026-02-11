@@ -163,7 +163,7 @@ Strategically, the Williams Shoulder Lock functions as the apex threat in the Wi
 The submission targets the rotator cuff complex and shoulder capsule through external rotation and abduction, making it one of the more dangerous joint locks in the BJJ arsenal. Due to the complexity of shoulder anatomy and the speed at which injury can occur, practitioners must develop exceptional sensitivity to their partner's defensive responses and maintain strict progressive pressure application. The finishing window is narrow — once the three-point control alignment is achieved (deep overhook, proper hip angle, active leg control), the opponent cannot mechanically escape, and patience becomes the primary finishing tool.
 
 **From Position**: [[Williams Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -213,13 +213,13 @@ The submission targets the rotator cuff complex and shoulder capsule through ext
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify overhook depth**: Confirm your overhook arm is threaded deeply under opponent's arm with your grip reaching their upper back or tricep. Their elbow must be trapped against your sternum with no extraction angle available. If the overhook is shallow, hip escape slightly and re-swim the arm deeper before proceeding. (Timing: Pre-submission check, 1-2 seconds)
-2. **Establish wrist control**: With your free hand, secure a C-clamp grip on opponent's wrist or forearm of the trapped arm. This creates the critical two-point control system that prevents arm extraction during finishing. In no-gi, grip the wrist bone directly; in gi, grab the sleeve at the wrist with four fingers inside. (Timing: 1-2 seconds to secure grip without releasing overhook tension)
-3. **Set hip angle**: Shrimp your hips away from the trapped arm side to establish a 45-90 degree angle relative to opponent's centerline. This angle transforms your body into a fulcrum that converts hip rotation into shoulder torque. Feel for the engagement point where small hip movements create pressure on their shoulder capsule. (Timing: 2-3 seconds of controlled hip adjustment)
-4. **Activate leg control**: Position your bottom leg to hook opponent's far hip or wrap their thigh, preventing them from rolling toward the trapped arm. Your top leg controls their near shoulder or neck, pulling them into broken posture. Both legs must remain active throughout — they are your primary defense against escape and base creation. (Timing: Continuous engagement from this point forward)
-5. **Initiate external rotation**: Begin applying extremely slow external rotation to the shoulder by using your overhook arm as an anchor while your hips and core rotate to drive their palm upward and away from their body. The movement should feel like slowly turning a dial — progressive pressure that gives your partner time to recognize danger and tap. Apply at 10-20% intensity initially. (Timing: 3-5 seconds of gradual, progressive increase)
-6. **Complete with core rotation**: Continue external rotation by engaging your entire core and hip system as a single unit, creating rotational torque on the glenohumeral joint and rotator cuff. Your whole body rotates in the same direction while maintaining all control points. Watch for tap signals constantly — verbal, physical hand tap, foot tap, or any distress signal. (Timing: 5-7 seconds minimum to finish, never spike or jerk)
-7. **Hold and finish**: Once the shoulder lock is fully engaged at moderate pressure and the opponent cannot mechanically escape, hold position and wait for the tap. Do not increase pressure further in training. The three-point alignment (deep overhook, proper hip angle, active legs) means they cannot escape — patience is your finishing tool. Monitor for clicking or popping sounds and release immediately if detected. (Timing: Hold until tap or referee stoppage)
+1. **Verify overhook depth**: Confirm your overhook arm is threaded deeply under opponent's arm with your grip reaching their upper back or tricep. Their elbow must be trapped against your sternum with no extraction angle available. If the overhook is shallow, hip escape slightly and re-swim the arm deeper before proceeding.
+2. **Establish wrist control**: With your free hand, secure a C-clamp grip on opponent's wrist or forearm of the trapped arm. This creates the critical two-point control system that prevents arm extraction during finishing. In no-gi, grip the wrist bone directly; in gi, grab the sleeve at the wrist with four fingers inside.
+3. **Set hip angle**: Shrimp your hips away from the trapped arm side to establish a 45-90 degree angle relative to opponent's centerline. This angle transforms your body into a fulcrum that converts hip rotation into shoulder torque. Feel for the engagement point where small hip movements create pressure on their shoulder capsule.
+4. **Activate leg control**: Position your bottom leg to hook opponent's far hip or wrap their thigh, preventing them from rolling toward the trapped arm. Your top leg controls their near shoulder or neck, pulling them into broken posture. Both legs must remain active throughout — they are your primary defense against escape and base creation.
+5. **Initiate external rotation**: Begin applying extremely slow external rotation to the shoulder by using your overhook arm as an anchor while your hips and core rotate to drive their palm upward and away from their body. The movement should feel like slowly turning a dial — progressive pressure that gives your partner time to recognize danger and tap. Apply at 10-20% intensity initially.
+6. **Complete with core rotation**: Continue external rotation by engaging your entire core and hip system as a single unit, creating rotational torque on the glenohumeral joint and rotator cuff. Your whole body rotates in the same direction while maintaining all control points. Watch for tap signals constantly — verbal, physical hand tap, foot tap, or any distress signal.
+7. **Hold and finish**: Once the shoulder lock is fully engaged at moderate pressure and the opponent cannot mechanically escape, hold position and wait for the tap. Do not increase pressure further in training. The three-point alignment (deep overhook, proper hip angle, active legs) means they cannot escape — patience is your finishing tool. Monitor for clicking or popping sounds and release immediately if detected.
 
 
 </section>
@@ -269,19 +269,15 @@ The submission targets the rotator cuff complex and shoulder capsule through ext
 ## Training Progressions
 **Week 1-2** - Position familiarity and safety protocols
 Study shoulder anatomy and injury mechanisms. Practice establishing Williams Guard position with deep overhook control without any submission pressure. Learn to feel the difference between position control and submission engagement. Establish tap signal communication with training partners. Practice only the overhook entry, hip angle adjustment, and leg positioning.
-(Resistance: None)
 
 **Week 3-4** - Control mechanics and angle precision
 Drill the complete positional sequence — overhook depth, wrist control, hip angle, leg engagement — stopping before any rotational pressure. Partner provides minimal resistance to positioning but allows full control. Focus on feeling the engagement point where hip angle creates potential shoulder torque without applying it. Practice transitioning between Williams Guard and omoplata position as escape drill.
-(Resistance: Light)
 
 **Week 5-8** - Progressive pressure introduction with advanced partners
 Begin applying extremely light rotational pressure (10-20% intensity) with experienced training partners who understand shoulder submissions. Practice 7-10 second progressive application timeline. After each repetition, discuss with partner what they felt. Introduce defensive reactions and practice reading them as transition triggers to omoplata and triangle.
-(Resistance: Medium)
 
 **Week 9-12** - Chain integration and live application
 Integrate Williams Shoulder Lock into live positional sparring from Williams Guard. Practice the full submission chain: shoulder lock attempt, read defensive reaction, transition to omoplata or triangle or back take based on opponent's response. Apply at training-appropriate intensity (50% maximum). Focus on entry timing recognition and setup creation rather than forcing finishes.
-(Resistance: Full)
 
 
 

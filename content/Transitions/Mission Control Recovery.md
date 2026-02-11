@@ -159,7 +159,7 @@ Strategically, this recovery transforms the rubber guard system from a single-at
 The execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.
 
 **From Position**: [[Gogoplata Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ The execution requires precise timing and understanding of weight distribution. 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize failure point**: Identify that the gogoplata is compromised before fully losing position. Warning signs include opponent successfully hand-fighting the foot behind their head, loss of perpendicular shin angle, or hip elevation dropping significantly. (Timing: Must recognize within 1-2 seconds of compromise)
-2. **Secure overhook**: Before withdrawing the attacking leg, ensure your overhook control on the opponent's far arm is tight. Thread your arm deep over their tricep and grip your own wrist or lapel. This prevents them from posturing when you remove the shin. (Timing: Immediately upon recognition)
-3. **Hip adjustment**: Slightly lower your hips while maintaining connection with your opponent. This creates the space needed to withdraw your shin from their throat while keeping your legs in position to re-establish Mission Control configuration. (Timing: Subtle movement during overhook securing)
-4. **Withdraw attacking leg**: Smoothly slide your shin back from the opponent's throat, keeping the leg bent and your foot near their shoulder. Do not fully extend the leg or allow it to drop to the mat. The leg should move from throat position to shoulder-hook position. (Timing: Controlled 1-second withdrawal)
-5. **Re-establish rubber guard**: Place your foot behind your opponent's shoulder blade while pulling down on their head with your same-side hand. Your shin should now be across their upper back and shoulder rather than their throat, creating the classic Mission Control configuration. (Timing: Immediately after shin withdrawal)
-6. **Consolidate Mission Control**: Grab your own shin with your free hand to lock the Mission Control position. Pull your knee toward your chest while pushing their head down with the overhook arm. Establish proper hip angle for subsequent attack options. (Timing: Within 2 seconds of foot placement)
+1. **Recognize failure point**: Identify that the gogoplata is compromised before fully losing position. Warning signs include opponent successfully hand-fighting the foot behind their head, loss of perpendicular shin angle, or hip elevation dropping significantly.
+2. **Secure overhook**: Before withdrawing the attacking leg, ensure your overhook control on the opponent's far arm is tight. Thread your arm deep over their tricep and grip your own wrist or lapel. This prevents them from posturing when you remove the shin.
+3. **Hip adjustment**: Slightly lower your hips while maintaining connection with your opponent. This creates the space needed to withdraw your shin from their throat while keeping your legs in position to re-establish Mission Control configuration.
+4. **Withdraw attacking leg**: Smoothly slide your shin back from the opponent's throat, keeping the leg bent and your foot near their shoulder. Do not fully extend the leg or allow it to drop to the mat. The leg should move from throat position to shoulder-hook position.
+5. **Re-establish rubber guard**: Place your foot behind your opponent's shoulder blade while pulling down on their head with your same-side hand. Your shin should now be across their upper back and shoulder rather than their throat, creating the classic Mission Control configuration.
+6. **Consolidate Mission Control**: Grab your own shin with your free hand to lock the Mission Control position. Pull your knee toward your chest while pushing their head down with the overhook arm. Establish proper hip angle for subsequent attack options.
 
 
 </section>
@@ -255,19 +255,15 @@ The execution requires precise timing and understanding of weight distribution. 
 ## Training Progressions
 **Week 1-2** - Isolation mechanics
 Practice the leg withdrawal and Mission Control re-establishment in isolation without resistance. Focus on smooth shin movement from throat to shoulder position while maintaining overhook. Partner remains completely passive.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides light hand fighting during gogoplata. Practice recognizing the moment when gogoplata becomes compromised and initiating recovery at the correct timing. Partner gradually increases defensive activity.
-(Resistance: Light)
 
 **Week 5-6** - Chain integration
 Work gogoplata to Mission Control Recovery to alternative attacks in flowing sequences. Partner provides moderate resistance throughout. Focus on maintaining continuous threat rather than isolated techniques.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement Mission Control Recovery in live rolling with full resistance. Track success rate and identify failure patterns. Refine timing and execution based on live feedback from resisting opponents.
-(Resistance: Full)
 
 
 

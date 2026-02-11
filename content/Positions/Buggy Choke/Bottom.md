@@ -358,11 +358,11 @@ Partner attacks with buggy choke using graduated resistance levels: 25%, 50%, 75
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 20% | 5% |
-| Intermediate | 40% | 35% | 10% |
-| Advanced     | 55% | 50% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 48% |
+| Advancement Probability | 42% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 15-30 seconds before submission or transition
 

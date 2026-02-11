@@ -342,12 +342,12 @@ Long-term focus on building comprehensive position-specific offensive systems wi
 - **[[Submission Chains]]** (Prerequisite): Understanding fundamental submission chains provides the mechanical foundation upon which sophisticated offensive combinations build, as combination effectiveness depends on fluid execution of connected submission attempts.
 - **[[Action and Reaction]]** (Prerequisite): The principle of creating and exploiting reactions forms the theoretical basis for offensive combinations, as combinations fundamentally structure attacks around predicted defensive responses to initial threatening actions.
 - **[[Dilemma Creation]]** (Complementary): Offensive combinations operationalize dilemma creation by presenting connected threats where defending against one attack necessarily exposes vulnerabilities to alternatives, making these concepts mutually reinforcing in application.
-- **[[Position Transitions]]** (Complementary): Effective combinations integrate positional transitions with submission attempts, as advancing position opens new attacking opportunities while submission threats force movements that enable positional improvements.
+- **[[Transition Management]]** (Complementary): Effective combinations integrate positional transitions with submission attempts, as advancing position opens new attacking opportunities while submission threats force movements that enable positional improvements.
 - **[[Timing and Rhythm]]** (Extension): Advanced combination execution incorporates timing variations and rhythmic patterns that disguise attacking intentions and create openings through tempo changes, extending basic combination concepts into sophisticated tactical applications.
 - **[[System Building]]** (Advanced form): Systematic offensive approaches represent the highest development of combination concepts, organizing multiple combinations into comprehensive attacking frameworks with position-specific paths and methodological training progressions.
 - **[[Creating Reactions]]** (Complementary): The skill of forcing specific defensive responses through attacking pressure directly enables combination effectiveness by making opponent reactions predictable and exploitable within structured offensive sequences.
 - **[[Control Maintenance]]** (Prerequisite): Sustaining dominant control throughout combination sequences prevents defensive escapes between attacks, making control maintenance foundational to executing extended offensive combinations under resistance.
-- **[[Transition Management]]** (Complementary): Managing transitions smoothly between attacking techniques maintains offensive momentum and prevents defensive recovery, directly supporting combination effectiveness through seamless technical flow.
+- **[[Transition Sequences]]** (Complementary): Managing transitions smoothly between attacking techniques maintains offensive momentum and prevents defensive recovery, directly supporting combination effectiveness through seamless technical flow.
 
 
 ### Related Content
@@ -360,7 +360,7 @@ Long-term focus on building comprehensive position-specific offensive systems wi
 - [[Closed Guard]] (Position) - Foundation position for developing multi-directional combination systems from bottom positions
 - [[Dilemma Creation]] (Principle) - Complementary strategic concept operationalized through combination structures
 - [[Action and Reaction]] (Principle) - Theoretical foundation explaining why combinations work through reaction exploitation
-- [[Position Transitions]] (Principle) - Integration of positional movement with submission attempts creating compound offensive pressure
+- [[Transition Management]] (Principle) - Integration of positional movement with submission attempts creating compound offensive pressure
 - [[System Building]] (Principle) - Advanced development organizing multiple combinations into comprehensive offensive frameworks
 - [[Armbar Finish]] (Submission) - Core submission appearing in numerous combination sequences across multiple positions
 - [[Kimura]] (Submission) - Versatile submission enabling combination paths from multiple positions with numerous connected attacks

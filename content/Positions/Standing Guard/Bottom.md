@@ -396,11 +396,11 @@ Start standing with grips engaged. Bottom player must successfully pull guard to
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 50% | 15% |
-| Intermediate | 60% | 65% | 25% |
-| Advanced     | 75% | 80% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 72% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 15-45 seconds before guard pull or takedown
 

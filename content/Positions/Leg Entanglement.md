@@ -383,11 +383,11 @@ Partner attempts specific escapes from leg entanglement (hip escape, knee cleari
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 30% |
-| Intermediate | 60% | 55% | 50% |
-| Advanced     | 75% | 70% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: 45-90 seconds in competition, 2-3 minutes in training (varies significantly by entanglement variant and skill level)
 

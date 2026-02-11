@@ -384,11 +384,11 @@ Start with compliant partner, increase their resistance by 20% every minute unti
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 70% | 55% | 35% |
-| Intermediate | 82% | 72% | 58% |
-| Advanced     | 92% | 85% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 87% |
+| Advancement Probability | 78% |
+| Submission Probability | 66% |
 
 **Average Time in Position**: 60-120 seconds to submission or position advancement
 

@@ -356,11 +356,11 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 35% | 5% |
-| Intermediate | 30% | 50% | 10% |
-| Advanced     | 45% | 65% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 58% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 

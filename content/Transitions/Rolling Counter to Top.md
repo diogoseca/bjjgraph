@@ -157,7 +157,7 @@ The key to this technique lies in understanding that the Aoki Lock top player mu
 This counter is particularly effective against aggressive opponents who overcommit to the finish. It transforms a dangerous defensive situation into an immediate offensive opportunity. The psychological impact of being reversed from a dominant submission position often creates hesitation in subsequent attacks, giving you the initiative in the match. Understanding this technique also makes you a more dangerous Aoki Lock attacker, as you'll recognize the vulnerability and maintain better base.
 
 **From Position**: [[Aoki Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This counter is particularly effective against aggressive opponents who overcomm
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize timing window**: Feel for opponent's forward hip pressure commitment indicating they are loading up for the submission finish. This is your signal that their base has shifted forward and become vulnerable to reversal. (Timing: When hip pressure increases significantly)
-2. **Secure hip control**: Use your free hand to grip opponent's far hip, belt, or pants material. This grip will serve as your primary handle for directing and accelerating the rolling motion throughout the technique. (Timing: Immediately before initiating roll)
-3. **Protect shoulder alignment**: Ensure your trapped shoulder is internally rotated and your chin is tucked toward your chest. This protects the shoulder joint during the dynamic rolling motion and prevents injury as positions change rapidly. (Timing: Continuous throughout technique)
-4. **Initiate rolling motion**: Roll toward your trapped arm direction, following the path of opponent's pressure rather than fighting against it. Use your free arm grip on their hip to pull them over your body while driving with your hips and legs. (Timing: Explosive execution)
-5. **Maintain leg entanglement**: Throughout the rolling motion, keep your legs actively engaged with opponent's arm to maintain the Aoki Lock configuration. Do not release the leg control as this is what allows you to secure top position upon reversal completion. (Timing: Continuous throughout roll)
-6. **Consolidate top position**: As you complete the roll and arrive on top, immediately post your free leg to establish base. Tighten your leg entanglement around opponent's shoulder and begin applying your own hip pressure to secure Aoki Lock top control. (Timing: Immediately upon reversal completion)
+1. **Recognize timing window**: Feel for opponent's forward hip pressure commitment indicating they are loading up for the submission finish. This is your signal that their base has shifted forward and become vulnerable to reversal.
+2. **Secure hip control**: Use your free hand to grip opponent's far hip, belt, or pants material. This grip will serve as your primary handle for directing and accelerating the rolling motion throughout the technique.
+3. **Protect shoulder alignment**: Ensure your trapped shoulder is internally rotated and your chin is tucked toward your chest. This protects the shoulder joint during the dynamic rolling motion and prevents injury as positions change rapidly.
+4. **Initiate rolling motion**: Roll toward your trapped arm direction, following the path of opponent's pressure rather than fighting against it. Use your free arm grip on their hip to pull them over your body while driving with your hips and legs.
+5. **Maintain leg entanglement**: Throughout the rolling motion, keep your legs actively engaged with opponent's arm to maintain the Aoki Lock configuration. Do not release the leg control as this is what allows you to secure top position upon reversal completion.
+6. **Consolidate top position**: As you complete the roll and arrive on top, immediately post your free leg to establish base. Tighten your leg entanglement around opponent's shoulder and begin applying your own hip pressure to secure Aoki Lock top control.
 
 
 </section>
@@ -253,19 +253,15 @@ This counter is particularly effective against aggressive opponents who overcomm
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion solo and with compliant partner. Focus on rolling toward the trapped arm direction, maintaining imaginary leg entanglement, and shoulder protection. Develop muscle memory for correct movement pattern without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies light Aoki Lock pressure with varying intensity. Practice recognizing the forward pressure commitment that signals the timing window. Execute rolls when you feel appropriate pressure increase. Partner gives feedback on timing accuracy.
-(Resistance: Light)
 
 **Week 5-6** - Complete sequence
 Chain the technique from recognition through consolidation. Partner provides moderate resistance including some base adjustment attempts. Focus on maintaining leg entanglement throughout and immediately securing top position upon reversal.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate into live rolling from Aoki Lock bottom position. Partner attacks with full intention to finish. Develop ability to recognize opportunity amidst real submission threat. Build confidence executing under pressure while maintaining safety awareness.
-(Resistance: Full)
 
 
 

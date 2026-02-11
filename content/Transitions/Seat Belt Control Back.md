@@ -157,7 +157,7 @@ This transition exploits the opponent's compromised defensive structure. With ar
 The seat belt grip configuration (one arm over the shoulder, one under the armpit, hands clasped at the sternum) provides the structural foundation for maintaining back control through opponent's escape attempts. Establishing this grip during the transition from mounted crucifix ensures you arrive at back control with immediate offensive potential rather than scrambling to establish control after the position change. This proactive grip work separates high-level back takes from opportunistic ones that often result in lost positions.
 
 **From Position**: [[Mounted Crucifix/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize transition window**: Identify the moment when opponent begins turning toward their trapped arm side or when your crucifix leg control starts slipping. This defensive movement actually exposes their back - recognize it as opportunity rather than problem. (Timing: When opponent initiates turn or escape attempt)
-2. **Establish over-arm grip**: Before releasing any crucifix control, reach your arm that's closer to opponent's head over their shoulder, threading it across their chest to grab their far-side lat or hip. This arm becomes your 'over' in the seat belt configuration. (Timing: Immediately upon recognizing window)
-3. **Thread under-arm**: Drive your other arm underneath opponent's armpit on the near side, reaching around their torso toward the centerline. Your hand should aim to connect with your over-arm hand at their sternum area. (Timing: As opponent's turn continues)
-4. **Lock seat belt grip**: Connect your hands at opponent's sternum in a gable grip or S-grip configuration. The over-arm should be controlling their shoulder/neck area while under-arm controls their torso. Pull elbows tight to eliminate slack in the grip. (Timing: Before releasing leg control)
-5. **Release crucifix and follow**: With seat belt secured, release your leg entanglement from the crucifix position and immediately begin sliding your hips behind opponent's hips. Maintain tight chest-to-back connection throughout this slide to prevent separation. (Timing: Fluid movement following grip lock)
-6. **Insert hooks or body triangle**: As your hips arrive behind opponent, immediately work to insert your hooks (feet inside opponent's thighs) or establish body triangle control. The bottom hook typically inserts first as you slide, with top hook following to complete back control. (Timing: As hips settle behind opponent)
+1. **Recognize transition window**: Identify the moment when opponent begins turning toward their trapped arm side or when your crucifix leg control starts slipping. This defensive movement actually exposes their back - recognize it as opportunity rather than problem.
+2. **Establish over-arm grip**: Before releasing any crucifix control, reach your arm that's closer to opponent's head over their shoulder, threading it across their chest to grab their far-side lat or hip. This arm becomes your 'over' in the seat belt configuration.
+3. **Thread under-arm**: Drive your other arm underneath opponent's armpit on the near side, reaching around their torso toward the centerline. Your hand should aim to connect with your over-arm hand at their sternum area.
+4. **Lock seat belt grip**: Connect your hands at opponent's sternum in a gable grip or S-grip configuration. The over-arm should be controlling their shoulder/neck area while under-arm controls their torso. Pull elbows tight to eliminate slack in the grip.
+5. **Release crucifix and follow**: With seat belt secured, release your leg entanglement from the crucifix position and immediately begin sliding your hips behind opponent's hips. Maintain tight chest-to-back connection throughout this slide to prevent separation.
+6. **Insert hooks or body triangle**: As your hips arrive behind opponent, immediately work to insert your hooks (feet inside opponent's thighs) or establish body triangle control. The bottom hook typically inserts first as you slide, with top hook following to complete back control.
 
 
 </section>
@@ -252,19 +252,15 @@ The seat belt grip configuration (one arm over the shoulder, one under the armpi
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice seat belt grip establishment from stationary positions. Focus on proper over-under arm threading, hand connection methods, and elbow positioning. Partner remains passive while you develop muscle memory for the grip configuration.
-(Resistance: None)
 
 **Week 3-4** - Transition timing
 From mounted crucifix, practice recognizing when partner's movement creates back take opportunities. Execute the full transition sequence with partner providing light turning movement to simulate defensive reactions. Focus on maintaining continuous control throughout position change.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner adds defensive responses including framing, turning into you, and grip fighting. Practice adjusting your transition based on their defensive choices. Develop ability to complete back take despite resistance or abandon to advantageous position when blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate transition into full sparring from mounted crucifix starting position. Test timing recognition, execution under pressure, and chain to finishing attacks from back control. Evaluate success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

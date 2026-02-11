@@ -157,7 +157,7 @@ This transition exploits the defender's compromised hip mobility when one arm is
 Strategically, this transition is particularly valuable when rear naked choke attempts have been defended or when the opponent demonstrates excellent hand fighting ability. By advancing to technical mount with the Gift Wrap intact, the attacker gains access to mounted submission chains including the mounted triangle, armbar transitions, and collar attacks in gi competition. The technical mount position also eliminates the footlock danger present in standard back control, making it a safer advancement path against leg attack specialists.
 
 **From Position**: [[Gift Wrap/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this transition is particularly valuable when rear naked choke at
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize rotation opportunity**: Feel for opponent's hip rotation toward you - this is the trigger. They may be attempting to relieve back pressure or setting up escape. Do not initiate until this rotation begins as forcing creates defensive frames. (Timing: As opponent initiates turn)
-2. **Remove far side hook**: Release the hook that is furthest from the direction of rotation. This hook would obstruct the transition. Keep the near side hook deeply engaged as this provides the pivot point for the entire movement. (Timing: Immediately following rotation recognition)
-3. **Guide the rotation**: Use your Gift Wrap arm control and near side hook to guide opponent's body rotation. Apply slight downward pressure on the trapped arm while using your hook to direct their hip movement. You are funneling them toward the mounted position. (Timing: During rotation)
-4. **Clear hips and establish knee**: As opponent's body rotates past the perpendicular point, drive your near side knee across their body, sliding it above their hip and toward the opposite side. Your knee must clear their hip line completely before they can flatten their hips. (Timing: At perpendicular point)
-5. **Post far leg**: Bring your far leg over and post it on the mat on the opposite side of opponent's body. This leg provides base and prevents them from continuing the roll. Keep this foot tight to their body initially to block guard recovery attempts. (Timing: Immediately after knee clears)
-6. **Consolidate technical mount**: Settle your weight into technical mount position with one knee high in their armpit on the trapped arm side and the other foot posted. Reinforce Gift Wrap control by pulling the trapped arm even higher across their chest. Your hips should be heavy on their torso. (Timing: Final settling phase)
+1. **Recognize rotation opportunity**: Feel for opponent's hip rotation toward you - this is the trigger. They may be attempting to relieve back pressure or setting up escape. Do not initiate until this rotation begins as forcing creates defensive frames.
+2. **Remove far side hook**: Release the hook that is furthest from the direction of rotation. This hook would obstruct the transition. Keep the near side hook deeply engaged as this provides the pivot point for the entire movement.
+3. **Guide the rotation**: Use your Gift Wrap arm control and near side hook to guide opponent's body rotation. Apply slight downward pressure on the trapped arm while using your hook to direct their hip movement. You are funneling them toward the mounted position.
+4. **Clear hips and establish knee**: As opponent's body rotates past the perpendicular point, drive your near side knee across their body, sliding it above their hip and toward the opposite side. Your knee must clear their hip line completely before they can flatten their hips.
+5. **Post far leg**: Bring your far leg over and post it on the mat on the opposite side of opponent's body. This leg provides base and prevents them from continuing the roll. Keep this foot tight to their body initially to block guard recovery attempts.
+6. **Consolidate technical mount**: Settle your weight into technical mount position with one knee high in their armpit on the trapped arm side and the other foot posted. Reinforce Gift Wrap control by pulling the trapped arm even higher across their chest. Your hips should be heavy on their torso.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this transition is particularly valuable when rear naked choke at
 ## Training Progressions
 **Week 1-2** - Mechanical pathway
 Practice the hook removal and knee clearance sequence with fully cooperative partner. Focus on maintaining Gift Wrap tightness throughout movement. Perform 20-30 repetitions per side daily until movement becomes fluid and automatic.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner provides light resistance and random rotation timing. Develop ability to feel rotation initiation through the Gift Wrap connection. Practice reacting within half-second of rotation beginning. Partner varies rotation speed and commitment.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner adds specific counters: framing arm, continuing roll, stiffening resistance. Develop appropriate responses to each counter while maintaining transition success rate above 60%. Chain with rear naked choke threats when opponent stiffens.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate into live rolling from back control. Track conversion rate from Gift Wrap to technical mount versus other outcomes. Target 70% success rate against training partners of similar skill level. Analyze failures for pattern recognition.
-(Resistance: Full)
 
 
 

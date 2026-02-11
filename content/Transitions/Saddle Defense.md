@@ -165,7 +165,7 @@ description: "Learn Saddle Defense in BJJ. Step-by-step escape from one of the m
 The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical defensive sequence designed to escape one of the most dangerous leg entanglement positions in modern BJJ. When caught in the saddle, your opponent controls both your legs while isolating one for heel hook attacks, creating an extremely high-risk submission threat. This defense prioritizes immediate heel protection through proper positioning of the trapped leg, systematic dismantling of opponent control points, and strategic recovery to safer positions. The technique requires precise understanding of leg entanglement mechanics, as improper defensive movements can actually facilitate the heel hook finish. Successfully executing this escape involves controlling your opponent's hip alignment, clearing their leg triangle configuration, and creating the rotational space needed to extract your trapped leg. This is considered an advanced technique due to the severe injury risk associated with heel hooks and the technical precision required under extreme pressure.
 
 **From Position**: [[Saddle/Top]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -214,14 +214,14 @@ The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical d
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Hide the heel immediately**: The moment you recognize the saddle position, internally rotate your trapped leg by turning your foot inward toward your opposite leg. This heel-hiding position prevents your opponent from establishing the heel hook grip and buys crucial time for your escape sequence. Keep your foot actively turned in throughout the entire escape process. (Timing: Immediate upon position recognition)
-2. **Clear the near leg connection**: Using your free leg, step over and clear your opponent's near leg (the leg that is underneath your trapped leg). Push this leg down and away while posting your free foot on the mat. This breaks the leg triangle configuration and removes one control point, making it harder for your opponent to maintain the saddle structure. (Timing: 1-2 seconds after heel hiding)
-3. **Control opponent's hip**: Reach your inside hand (same side as trapped leg) to grab your opponent's hip, belt, or pants at the hip. Apply forward pressure to prevent them from creating distance or falling backward to secure deeper control. This hand becomes your steering wheel for controlling their body position throughout the escape. (Timing: Simultaneously with leg clearing)
-4. **Create hip rotation space**: Drive your free leg's knee toward the mat while simultaneously pushing your hips in a circular motion away from your opponent. This rotation begins to create the angle needed to extract your trapped leg. Maintain constant forward pressure with your controlling hand to prevent opponent from countering by falling back. (Timing: Smooth continuous motion)
-5. **Clear the far leg**: As you rotate, use your free leg to hook and clear your opponent's far leg (the leg that was over your trapped leg). This is typically done by posting your free foot on their hip or thigh and pushing while you rotate. Complete dismantling of the leg triangle is essential before attempting full leg extraction. (Timing: Mid-rotation, 2-3 seconds into escape)
-6. **Extract trapped leg**: With both opponent legs cleared and your body rotated perpendicular to them, carefully extract your trapped leg by pulling your knee toward your chest while maintaining heel protection through internal rotation. Do not straighten the leg during extraction as this exposes the heel. Circle your leg out and over their legs. (Timing: Once full rotation achieved)
-7. **Establish defensive position**: Complete the escape by bringing both feet to the mat in a defensive standing or combat base position. Keep your legs bent and ready to defend against follow-up leg attacks. From here, you can choose to re-engage with proper distance management or fully disengage to standing position. (Timing: Final 1-2 seconds of sequence)
-8. **Distance management**: Once extracted, immediately create distance by framing on opponent's knees or hips with your hands while establishing standing posture. Never remain in close proximity after escaping saddle as this allows immediate re-entry. Stand fully or establish a strong seated guard position with proper leg positioning to prevent re-attack. (Timing: Immediate follow-up to extraction)
+1. **Hide the heel immediately**: The moment you recognize the saddle position, internally rotate your trapped leg by turning your foot inward toward your opposite leg. This heel-hiding position prevents your opponent from establishing the heel hook grip and buys crucial time for your escape sequence. Keep your foot actively turned in throughout the entire escape process.
+2. **Clear the near leg connection**: Using your free leg, step over and clear your opponent's near leg (the leg that is underneath your trapped leg). Push this leg down and away while posting your free foot on the mat. This breaks the leg triangle configuration and removes one control point, making it harder for your opponent to maintain the saddle structure.
+3. **Control opponent's hip**: Reach your inside hand (same side as trapped leg) to grab your opponent's hip, belt, or pants at the hip. Apply forward pressure to prevent them from creating distance or falling backward to secure deeper control. This hand becomes your steering wheel for controlling their body position throughout the escape.
+4. **Create hip rotation space**: Drive your free leg's knee toward the mat while simultaneously pushing your hips in a circular motion away from your opponent. This rotation begins to create the angle needed to extract your trapped leg. Maintain constant forward pressure with your controlling hand to prevent opponent from countering by falling back.
+5. **Clear the far leg**: As you rotate, use your free leg to hook and clear your opponent's far leg (the leg that was over your trapped leg). This is typically done by posting your free foot on their hip or thigh and pushing while you rotate. Complete dismantling of the leg triangle is essential before attempting full leg extraction.
+6. **Extract trapped leg**: With both opponent legs cleared and your body rotated perpendicular to them, carefully extract your trapped leg by pulling your knee toward your chest while maintaining heel protection through internal rotation. Do not straighten the leg during extraction as this exposes the heel. Circle your leg out and over their legs.
+7. **Establish defensive position**: Complete the escape by bringing both feet to the mat in a defensive standing or combat base position. Keep your legs bent and ready to defend against follow-up leg attacks. From here, you can choose to re-engage with proper distance management or fully disengage to standing position.
+8. **Distance management**: Once extracted, immediately create distance by framing on opponent's knees or hips with your hands while establishing standing posture. Never remain in close proximity after escaping saddle as this allows immediate re-entry. Stand fully or establish a strong seated guard position with proper leg positioning to prevent re-attack.
 
 
 </section>
@@ -267,27 +267,21 @@ The Saddle Defense (also known as the Honey Hole or 4-11 escape) is a critical d
 ## Training Progressions
 **Week 1-2: Positional Familiarization** - Understanding saddle position mechanics and heel hiding reflex
 Partner places you in saddle position with zero submission pressure. Practice identifying the position, hiding your heel through internal rotation, and feeling the control points. Partner maintains static position while you explore hip rotation and leg positioning options. Focus on calm recognition rather than escape speed.
-(Resistance: None)
 
 **Week 3-4: Systematic Clearing Sequence** - Drilling the leg clearing and hip rotation mechanics
 Partner maintains saddle position with light grip pressure but no submission threat. Practice the systematic clearing of near leg, then far leg, while rotating hips. Partner can prevent some movements but provides feedback rather than full resistance. Develop smooth, flowing transitions between clearing steps.
-(Resistance: Light)
 
 **Week 5-8: Escape Under Submission Threat** - Performing escape while partner applies controlled heel hook pressure
 Partner is allowed to establish heel hook grip and apply slow, controlled pressure while you execute escape sequence. This builds the mental toughness and technical precision needed under real threat. Partner must apply pressure very slowly (3-5 second ramp-up) and release immediately on tap. Focus on maintaining technique under pressure.
-(Resistance: Medium)
 
 **Week 9-12: Counter-Defense Training** - Dealing with opponent's counters to your escape attempts
 Partner actively tries to prevent your escape using common counters: falling back, grip switching, transitioning positions. You must adapt your clearing sequence to their reactions while maintaining heel safety. Partner still applies controlled submission pressure but adds intelligent defensive responses to your escape mechanics.
-(Resistance: Medium)
 
 **Week 13-16: Live Situational Sparring** - Escaping from full-resistance saddle attacks in controlled rounds
 Start in saddle position bottom with partner using full technical resistance (but intelligent, safety-conscious finishing mechanics). Work 2-3 minute rounds with reset after each successful escape or submission. Partner uses full technique but maintains injury awareness. Build conditioning and problem-solving under realistic pressure.
-(Resistance: Full)
 
 **Month 4+: Integration and Prevention** - Preventing saddle entries and early escapes from leg entanglement sequences
 Work on recognizing and defending saddle entries before position is fully established. Practice escaping from preliminary leg entanglement positions (ashi variations, 50-50) before opponent can transition to saddle. Study entries to develop preventative strategies. Continue occasional review of late-stage saddle escape mechanics.
-(Resistance: Full)
 
 
 

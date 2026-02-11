@@ -163,7 +163,7 @@ This pass works because the grasshopper guard's inverted structure relies on bot
 Strategically, the Step Over to Mount functions as a high-reward option within the broader toolkit for dealing with inverted guards. Unlike the back step pass which creates lateral separation, or the leg drag which redirects the bottom player's legs to one side, the step over commits fully forward through the center line to achieve the most dominant positional outcome. This directness is both its strength and its vulnerability - if the bottom player reads the step over and catches the stepping leg, they can transition into leg entanglements. The technique pairs naturally with leg drag and back step passes as part of a three-option passing system against grasshopper guard, where each option covers the defensive response to the others.
 
 **From Position**: [[Grasshopper Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -213,13 +213,13 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify the window**: Recognize the moment when the bottom player's legs are in transition between configurations - one leg hooks or controls your near-side leg while the other extends or repositions for an entanglement attempt. This asymmetry is your trigger to initiate the pass. (Timing: Immediately as bottom player commits second leg to attack or repositions)
-2. **Control the near-side leg**: Use your hip pressure or hand to pin the bottom player's primary hooking leg against the mat or against their own body. This prevents them from using that leg to block your step over or to recover guard. Drive your knee or shin across their thigh to flatten their hook. (Timing: Within one second of identifying the window)
-3. **Clear the far-side leg**: With your free hand, push the bottom player's transitioning leg away from your body or across their centerline. Strip any grip or hook they have on your far-side leg by driving your knee laterally and posting your foot wide for base. (Timing: Simultaneous with near-side control)
-4. **Step over with lead leg**: Lift your lead leg high enough to clear the bottom player's hips and remaining leg structure, stepping over their torso to the far side. Keep your hips low and heavy throughout the motion - do not stand tall. Your stepping foot should land tight against their far hip. (Timing: Quick, decisive motion - hesitation allows re-guard)
-5. **Drop hips and settle weight**: As your lead foot lands on the far side, immediately drop your hips down onto the bottom player's torso. Your weight should distribute across their midsection, pinning their hips to the mat and preventing any bridging or hip escape attempt. Slide your knee to the mat beside their hip. (Timing: Immediately upon foot placement - no pause between step and settle)
-6. **Bring trailing leg across**: Swing your trailing leg across the bottom player's body to complete the mount position. This leg should clear any remaining leg hooks and establish your second knee on the mat beside their opposite hip. Keep your heels tucked against their hips for mount retention. (Timing: Fluid continuation of the step-over motion)
-7. **Consolidate mount**: Once both knees are on the mat, squeeze your knees tight against the bottom player's ribs, flatten your feet against their thighs, and settle your weight through your hips. Establish chest-to-chest contact with arms controlling their upper body to prevent immediate escape attempts. Confirm mount is fully secured before transitioning to any offensive attacks. (Timing: 2-3 seconds to fully stabilize and deny escape frames)
+1. **Identify the window**: Recognize the moment when the bottom player's legs are in transition between configurations - one leg hooks or controls your near-side leg while the other extends or repositions for an entanglement attempt. This asymmetry is your trigger to initiate the pass.
+2. **Control the near-side leg**: Use your hip pressure or hand to pin the bottom player's primary hooking leg against the mat or against their own body. This prevents them from using that leg to block your step over or to recover guard. Drive your knee or shin across their thigh to flatten their hook.
+3. **Clear the far-side leg**: With your free hand, push the bottom player's transitioning leg away from your body or across their centerline. Strip any grip or hook they have on your far-side leg by driving your knee laterally and posting your foot wide for base.
+4. **Step over with lead leg**: Lift your lead leg high enough to clear the bottom player's hips and remaining leg structure, stepping over their torso to the far side. Keep your hips low and heavy throughout the motion - do not stand tall. Your stepping foot should land tight against their far hip.
+5. **Drop hips and settle weight**: As your lead foot lands on the far side, immediately drop your hips down onto the bottom player's torso. Your weight should distribute across their midsection, pinning their hips to the mat and preventing any bridging or hip escape attempt. Slide your knee to the mat beside their hip.
+6. **Bring trailing leg across**: Swing your trailing leg across the bottom player's body to complete the mount position. This leg should clear any remaining leg hooks and establish your second knee on the mat beside their opposite hip. Keep your heels tucked against their hips for mount retention.
+7. **Consolidate mount**: Once both knees are on the mat, squeeze your knees tight against the bottom player's ribs, flatten your feet against their thighs, and settle your weight through your hips. Establish chest-to-chest contact with arms controlling their upper body to prevent immediate escape attempts. Confirm mount is fully secured before transitioning to any offensive attacks.
 
 
 </section>
@@ -265,19 +265,15 @@ Strategically, the Step Over to Mount functions as a high-reward option within t
 ## Training Progressions
 **Week 1-2** - Mechanics and positioning
 Practice the step-over motion from a static position with a cooperative partner in grasshopper guard. Focus on hip height, foot placement, weight transfer, and the continuous motion from step to mount consolidation. Drill 20 repetitions per side with zero resistance to build muscle memory for the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Timing and window recognition
 Partner provides light resistance and cycles through different leg configurations. Practice identifying the asymmetric window when one leg transitions. Partner signals readiness by extending one leg. Progress to partner creating windows naturally without signaling. Add near-side leg control before stepping.
-(Resistance: Light)
 
 **Week 5-6** - Combination passing and counter recovery
 Integrate the step over with back step pass and leg drag as a three-option system. Partner defends at moderate resistance, and you chain between passing options based on their defensive reactions. Practice aborting the step over mid-attempt when partner catches your leg, and resetting to alternative passes.
-(Resistance: Medium)
 
 **Week 7-8** - Live application and mount consolidation
 Begin from standing against partner's grasshopper guard at full resistance during positional sparring. Work on recognizing step-over opportunities in live rolling. Track success rate and identify your most common failure point. Extend drill to include 10 seconds of mount retention after each successful pass to build the complete sequence.
-(Resistance: Full)
 
 
 

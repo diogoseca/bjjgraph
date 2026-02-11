@@ -363,11 +363,11 @@ Establish rear triangle position with compliant partner. Practice the following 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 40% |
-| Intermediate | 65% | 55% | 60% |
-| Advanced     | 85% | 75% | 80% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 75% |
+| Advancement Probability | 65% |
+| Submission Probability | 70% |
 
 **Average Time in Position**: 45-90 seconds before submission or escape attempt
 

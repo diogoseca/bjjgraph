@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Hand Fighting from back control bottom represents the essential defensive protocol that precedes any successful escape from one of grappling's most dangerous positions. When an opponent establishes seat belt control with potential rear naked choke threats, systematic hand fighting allows the bottom player to neutralize immediate submission danger while creating the positional disruption necessary to initiate escape sequences. This technique bridges pure survival and active escape, transforming a passive defensive situation into one with offensive escape potential.\n\nThe strategic value of hand fighting lies in its ability to buy time, drain opponent's attacking resources, and create the specific grip configurations needed for escape attempts. Rather than simply blocking the choke, effective hand fighting involves controlling the opponent's choking wrist, disrupting their grip connections, and creating angles that weaken their positional structure. When executed correctly, hand fighting frustrates the top player's submission attempts while systematically degrading their control, eventually opening windows for hip escapes, turns to turtle, or guard recovery.\n\nThis defensive discipline requires patience, precise timing, and understanding of the opponent's attack patterns. The bottom player must balance defensive urgency with energy conservation, recognizing that panicked reactions accelerate exhaustion while methodical grip work can be sustained indefinitely. Advanced practitioners use hand fighting not just defensively but to manipulate opponent reactions, baiting submission attempts that create the positional openings needed for escape.",
   "key_principles": [
     "Protect the neck as primary objective - chin tucked, hands defending collar line before any offensive grip work begins",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Establish neck protection",
-      "description": "Tuck chin tightly to chest, closing the space under your jaw. Bring both hands to your collar line with elbows tucked close to your ribs. This creates the defensive foundation that must be maintained throughout all subsequent movements.",
-      "timing": "Immediately upon recognizing back control"
+      "description": "Tuck chin tightly to chest, closing the space under your jaw. Bring both hands to your collar line with elbows tucked close to your ribs. This creates the defensive foundation that must be maintained throughout all subsequent movements."
     },
     {
       "step_number": 2,
       "action": "Identify choking hand",
-      "description": "Through tactile feedback, locate opponent's over-shoulder arm which provides their primary choking threat. Feel whether their hand is near your neck, across your chest, or connected to their other hand in the seat belt configuration.",
-      "timing": "1-2 seconds after establishing defense"
+      "description": "Through tactile feedback, locate opponent's over-shoulder arm which provides their primary choking threat. Feel whether their hand is near your neck, across your chest, or connected to their other hand in the seat belt configuration."
     },
     {
       "step_number": 3,
       "action": "Secure two-on-one grip",
-      "description": "Bring both of your hands to opponent's choking wrist. Your same-side hand grabs their wrist while your opposite hand reinforces by gripping their forearm near the wrist. This two-on-one provides mechanical advantage over their single arm.",
-      "timing": "When opponent's choking hand is accessible"
+      "description": "Bring both of your hands to opponent's choking wrist. Your same-side hand grabs their wrist while your opposite hand reinforces by gripping their forearm near the wrist. This two-on-one provides mechanical advantage over their single arm."
     },
     {
       "step_number": 4,
       "action": "Pull wrist toward hip",
-      "description": "Using your two-on-one grip, pull opponent's choking wrist down toward your far hip, away from your neck. Keep your elbows tight to your body and use your back muscles rather than just arm strength for this pulling motion.",
-      "timing": "Continuous pressure"
+      "description": "Using your two-on-one grip, pull opponent's choking wrist down toward your far hip, away from your neck. Keep your elbows tight to your body and use your back muscles rather than just arm strength for this pulling motion."
     },
     {
       "step_number": 5,
       "action": "Create hip angle",
-      "description": "While maintaining wrist control, shrimp your hips away from opponent to create space between your back and their chest. This hip movement compounds the grip disruption by changing the angle of their seat belt configuration.",
-      "timing": "Coordinated with wrist pull"
+      "description": "While maintaining wrist control, shrimp your hips away from opponent to create space between your back and their chest. This hip movement compounds the grip disruption by changing the angle of their seat belt configuration."
     },
     {
       "step_number": 6,
       "action": "Transition to escape",
-      "description": "With opponent's grip structure weakened and space created, continue hip movement to turn toward opponent for turtle position, or complete escape to guard. Maintain wrist control until positional improvement is secured.",
-      "timing": "When adequate space exists"
+      "description": "With opponent's grip structure weakened and space created, continue hip movement to turn toward opponent for turtle position, or complete escape to guard. Maintain wrist control until positional improvement is secured."
     }
   ],
   "common_counters": [
@@ -136,26 +125,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip identification and neck defense",
-      "description": "Practice identifying opponent's grip configuration through tactile feedback alone with eyes closed. Drill maintaining chin tuck and collar line defense while partner simulates seat belt control. Focus on remaining calm and controlled rather than attempting escapes.",
-      "resistance_level": "None"
+      "description": "Practice identifying opponent's grip configuration through tactile feedback alone with eyes closed. Drill maintaining chin tuck and collar line defense while partner simulates seat belt control. Focus on remaining calm and controlled rather than attempting escapes."
     },
     {
       "phase": "Week 3-4",
       "focus": "Two-on-one wrist control",
-      "description": "Drill securing two-on-one grip on partner's choking wrist and pulling toward far hip. Partner provides light resistance but allows grip to be controlled. Focus on grip mechanics and pulling angles. Add coordination with basic hip shrimp movement.",
-      "resistance_level": "Light"
+      "description": "Drill securing two-on-one grip on partner's choking wrist and pulling toward far hip. Partner provides light resistance but allows grip to be controlled. Focus on grip mechanics and pulling angles. Add coordination with basic hip shrimp movement."
     },
     {
       "phase": "Week 5-6",
       "focus": "Grip breaking to escape sequences",
-      "description": "Combine hand fighting with full escape attempts. Practice the complete sequence from grip identification through two-on-one control to hip escape and turtle recovery. Partner provides realistic resistance and occasionally attacks submissions.",
-      "resistance_level": "Medium"
+      "description": "Combine hand fighting with full escape attempts. Practice the complete sequence from grip identification through two-on-one control to hip escape and turtle recovery. Partner provides realistic resistance and occasionally attacks submissions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and reaction chains",
-      "description": "Full positional sparring from back control bottom. Apply hand fighting against actively attacking partner with full resistance. Work on timing grip attacks with partner's submission attempts and transitioning smoothly between defensive protocols and escape attempts.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring from back control bottom. Apply hand fighting against actively attacking partner with full resistance. Work on timing grip attacks with partner's submission attempts and transitioning smoothly between defensive protocols and escape attempts."
     }
   ],
   "variants_and_adaptations": [
@@ -178,43 +163,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Hand Fighting from back control bottom?",
-      "answer": "The primary goal is to neutralize immediate submission threats while creating positional disruption that enables escape. Hand fighting bridges pure survival and active escape by controlling opponent's choking wrist, weakening their grip structure, and creating angles that open windows for hip escapes, turns to turtle, or guard recovery.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to neutralize immediate submission threats while creating positional disruption that enables escape. Hand fighting bridges pure survival and active escape by controlling opponent's choking wrist, weakening their grip structure, and creating angles that open windows for hip escapes, turns to turtle, or guard recovery."
     },
     {
       "question": "Why should you target the over-shoulder arm first rather than the under-arm?",
-      "answer": "The over-shoulder arm provides opponent's primary choking leverage and is the foundation of their control structure. This arm has direct access to your neck and creates the mechanical pathway for rear naked choke. The under-arm provides secondary control but cannot finish chokes independently. Breaking the over-arm first eliminates immediate danger and structurally weakens the entire seat belt configuration.",
-      "difficulty": "Intermediate"
+      "answer": "The over-shoulder arm provides opponent's primary choking leverage and is the foundation of their control structure. This arm has direct access to your neck and creates the mechanical pathway for rear naked choke. The under-arm provides secondary control but cannot finish chokes independently. Breaking the over-arm first eliminates immediate danger and structurally weakens the entire seat belt configuration."
     },
     {
       "question": "Your opponent begins sliding their forearm toward your chin - how do you adjust your hand fighting?",
-      "answer": "Immediately abandon any grip work and return both hands to collar line defense. Tuck chin harder and use your hands to block their forearm from sliding under. Once the immediate threat is addressed, resume hand fighting but stay more defensively conservative. The approaching choke indicates you were too focused on offense - recalibrate to maintain defensive foundation while working grips.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately abandon any grip work and return both hands to collar line defense. Tuck chin harder and use your hands to block their forearm from sliding under. Once the immediate threat is addressed, resume hand fighting but stay more defensively conservative. The approaching choke indicates you were too focused on offense - recalibrate to maintain defensive foundation while working grips."
     },
     {
       "question": "What is the mechanical advantage of two-on-one wrist control?",
-      "answer": "Two-on-one provides approximately 2:1 strength advantage since you use both arms against their single arm. Additionally, the leverage changes - you can isolate their arm from their body's support structure, making it impossible for them to use core strength to resist. One hand controls the wrist while the other controls the forearm, preventing them from rotating out of the grip.",
-      "difficulty": "Beginner"
+      "answer": "Two-on-one provides approximately 2:1 strength advantage since you use both arms against their single arm. Additionally, the leverage changes - you can isolate their arm from their body's support structure, making it impossible for them to use core strength to resist. One hand controls the wrist while the other controls the forearm, preventing them from rotating out of the grip."
     },
     {
       "question": "Why must hip movement be coordinated with grip breaks?",
-      "answer": "Grip work alone rarely breaks established control because opponent can simply re-grip when your body position remains static. Hip movement changes the angles of their seat belt configuration, making their grips biomechanically weaker. The combination compounds disruption - as you pull their wrist and shrimp simultaneously, their grip structure faces both pulling force and positional angle change that no single defense can address.",
-      "difficulty": "Intermediate"
+      "answer": "Grip work alone rarely breaks established control because opponent can simply re-grip when your body position remains static. Hip movement changes the angles of their seat belt configuration, making their grips biomechanically weaker. The combination compounds disruption - as you pull their wrist and shrimp simultaneously, their grip structure faces both pulling force and positional angle change that no single defense can address."
     },
     {
       "question": "Your opponent counters by switching to body triangle when you threaten their grip - what is your response?",
-      "answer": "Continue hand fighting since body triangle does not threaten immediate submission and actually makes their arms less mobile for choking. Work to slide your hips to the mat on the side opposite the body triangle lock, creating escape angle. The body triangle sacrifices grip mobility for leg control - exploit this by intensifying hand work while their upper body control is diminished.",
-      "difficulty": "Advanced"
+      "answer": "Continue hand fighting since body triangle does not threaten immediate submission and actually makes their arms less mobile for choking. Work to slide your hips to the mat on the side opposite the body triangle lock, creating escape angle. The body triangle sacrifices grip mobility for leg control - exploit this by intensifying hand work while their upper body control is diminished."
     },
     {
       "question": "When is the optimal timing to attack opponent's grip during their submission attempt?",
-      "answer": "Attack when opponent commits to the choke by releasing their grip connection to slide the choking arm toward your neck. The moment they release the seat belt grip to attack, their control structure is at its weakest. This creates a window where aggressive grip fighting combined with hip movement can break their position entirely. Their offensive commitment becomes your escape opportunity.",
-      "difficulty": "Advanced"
+      "answer": "Attack when opponent commits to the choke by releasing their grip connection to slide the choking arm toward your neck. The moment they release the seat belt grip to attack, their control structure is at its weakest. This creates a window where aggressive grip fighting combined with hip movement can break their position entirely. Their offensive commitment becomes your escape opportunity."
     },
     {
       "question": "How do you maintain energy efficiency during extended hand fighting sequences?",
-      "answer": "Use sustained pressure rather than explosive bursts - think of slowly prying grips over 10-15 seconds rather than 1-2 second explosive attempts. Distribute effort through your back muscles rather than just arms. Maintain defensive positioning that requires minimal energy to sustain. Time your highest-intensity efforts with opponent's attacks when their position is temporarily weakened. Controlled breathing prevents panic-induced exhaustion.",
-      "difficulty": "Intermediate"
+      "answer": "Use sustained pressure rather than explosive bursts - think of slowly prying grips over 10-15 seconds rather than 1-2 second explosive attempts. Distribute effort through your back muscles rather than just arms. Maintain defensive positioning that requires minimal energy to sustain. Time your highest-intensity efforts with opponent's attacks when their position is temporarily weakened. Controlled breathing prevents panic-induced exhaustion."
     }
   ],
   "safety_considerations": "Hand Fighting is a relatively low-risk defensive technique, but practitioners should remain aware of several safety factors. The primary danger comes from neglecting neck defense while focused on grip work - always maintain chin tuck and collar line awareness to prevent sudden choke attacks. Finger injuries can occur when aggressively stripping grips, particularly in gi training where fingers can catch in fabric. During training, communicate with partners about intensity levels and tap immediately if a choke is locked regardless of your defensive efforts. Avoid explosive jerking motions when breaking grips as this can strain your own shoulder joints. Practitioners with neck or shoulder injuries should work hand fighting at reduced intensity and inform training partners of limitations.",
@@ -252,5 +229,6 @@
       "name": "Rolling Escape",
       "relationship": "Alternative follow-up - rolling escape becomes viable after weakening grips"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -159,7 +159,7 @@ Strategically, the neck crank serves multiple purposes within the Twister Contro
 The technique requires precise understanding of rotational mechanics. The finishing pressure should come from controlled body positioning and leverage rather than explosive jerking movements. The goal is to create irresistible pressure that forces the tap, not to cause injury through violent application. This distinction separates skilled practitioners from those who rely on aggression over technique.
 
 **From Position**: [[Twister Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ The technique requires precise understanding of rotational mechanics. The finish
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify base control**: Confirm your leg control is secure and opponent cannot extract their trapped leg. The spinal rotation from Twister Control provides the foundation for cervical manipulation. (Timing: Before initiating neck attack)
-2. **Secure head control**: Thread your arm around opponent's head, securing either their chin, jaw, or forehead. The exact grip depends on their defensive positioning and chin tuck. (Timing: Smoothly without telegraphing)
-3. **Establish figure-four grip**: Connect your hands in a figure-four configuration behind opponent's head. Your forearm should press against the side of their skull while your other arm reinforces the grip. (Timing: While maintaining chest pressure)
-4. **Align your body**: Position your upper body perpendicular to opponent's spine. Your chest should drive into their upper back while your arms control their head position. (Timing: Incrementally while adjusting grips)
-5. **Create rotational pressure**: Using your connected arms and body position, begin rotating opponent's head in the opposite direction from their hips. This amplifies the existing spinal twist into the cervical region. (Timing: Gradually increasing pressure)
-6. **Finish with controlled pressure**: Drive your shoulder forward while pulling with your arms to maximize cervical rotation. The pressure should be steady and controlled, not explosive. Release immediately upon tap. (Timing: Sustained pressure until tap)
+1. **Verify base control**: Confirm your leg control is secure and opponent cannot extract their trapped leg. The spinal rotation from Twister Control provides the foundation for cervical manipulation.
+2. **Secure head control**: Thread your arm around opponent's head, securing either their chin, jaw, or forehead. The exact grip depends on their defensive positioning and chin tuck.
+3. **Establish figure-four grip**: Connect your hands in a figure-four configuration behind opponent's head. Your forearm should press against the side of their skull while your other arm reinforces the grip.
+4. **Align your body**: Position your upper body perpendicular to opponent's spine. Your chest should drive into their upper back while your arms control their head position.
+5. **Create rotational pressure**: Using your connected arms and body position, begin rotating opponent's head in the opposite direction from their hips. This amplifies the existing spinal twist into the cervical region.
+6. **Finish with controlled pressure**: Drive your shoulder forward while pulling with your arms to maximize cervical rotation. The pressure should be steady and controlled, not explosive. Release immediately upon tap.
 
 
 </section>
@@ -255,19 +255,15 @@ The technique requires precise understanding of rotational mechanics. The finish
 ## Training Progressions
 **Week 1-2** - Mechanics and safety
 Learn grip configurations and body positioning on cooperative partner. Emphasize controlled pressure application and tap recognition. No resistance - focus purely on technical understanding.
-(Resistance: None)
 
 **Week 3-4** - Position maintenance
 Practice maintaining Twister Control while threatening neck attack. Partner provides light defense to chin and creates frames. Work on transitioning between neck threat and leg control maintenance.
-(Resistance: Light)
 
 **Week 5-6** - Defensive reactions
 Partner defends actively using chin tuck, hand fighting, and leg extraction attempts. Practice reading defensive reactions and transitioning to alternative attacks when appropriate.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance rolling with Twister Control entries. Apply neck crank attempts in live scenarios while maintaining safety awareness. Focus on timing windows and combination attacks.
-(Resistance: Full)
 
 
 

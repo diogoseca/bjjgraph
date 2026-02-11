@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Gift Wrap to Back transition represents one of the most reliable pathways from mount to back control in Brazilian Jiu-Jitsu. This technique capitalizes on the opponent's natural defensive instinct to turn away from submission threats by using their own arm against them. When you establish the gift wrap grip—wrapping their arm across their body and securing it with your hand reaching under their neck—you create a mechanical trap that forces them to expose their back.\n\nFrom S Mount, the gift wrap becomes particularly powerful because you already have advantageous positioning with perpendicular hip alignment and natural arm isolation. When the opponent attempts to protect their isolated arm by turning toward it, you capitalize by feeding their arm across their centerline and securing the gift wrap configuration. This control eliminates their ability to face you while creating the rotational momentum needed to take the back.\n\nThe strategic value of this transition lies in its forcing function—the opponent must choose between defending the arm attack (which exposes the back) or preventing the back take (which exposes the arm). This dilemma creation is fundamental to high-level positional grappling. The gift wrap control also travels with you during the transition, providing continuous control through the movement rather than requiring you to release and re-establish grips.",
   "key_principles": [
     "Control the arm across their centerline before initiating rotation—the gift wrap must be established, not chased",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Isolate the arm",
-      "description": "From S Mount, control opponent's near arm at the wrist with your near hand. Begin feeding their arm across their body toward their opposite shoulder, using your chest pressure to pin it.",
-      "timing": "When opponent defends armbar by bending arm or turning"
+      "description": "From S Mount, control opponent's near arm at the wrist with your near hand. Begin feeding their arm across their body toward their opposite shoulder, using your chest pressure to pin it."
     },
     {
       "step_number": 2,
       "action": "Establish gift wrap",
-      "description": "Reach your far hand under their neck from the opposite side, grabbing their wrist that you're feeding across. Your arm now wraps around their head while controlling their trapped arm—this is the gift wrap configuration.",
-      "timing": "As their arm crosses their centerline"
+      "description": "Reach your far hand under their neck from the opposite side, grabbing their wrist that you're feeding across. Your arm now wraps around their head while controlling their trapped arm—this is the gift wrap configuration."
     },
     {
       "step_number": 3,
       "action": "Secure the control",
-      "description": "Lock the gift wrap by pulling their wrist tight against their neck. Your chest drops onto their wrapped arm, pinning it to their body. Their face should be turned away from you by the arm position.",
-      "timing": "Immediately after grip connection"
+      "description": "Lock the gift wrap by pulling their wrist tight against their neck. Your chest drops onto their wrapped arm, pinning it to their body. Their face should be turned away from you by the arm position."
     },
     {
       "step_number": 4,
       "action": "Initiate rotation",
-      "description": "Begin walking your body around their head toward their back. Your weight stays heavy on their shoulder. Use your legs to push and pivot, keeping your hips glued to their body throughout the rotation.",
-      "timing": "Once gift wrap is fully secured"
+      "description": "Begin walking your body around their head toward their back. Your weight stays heavy on their shoulder. Use your legs to push and pivot, keeping your hips glued to their body throughout the rotation."
     },
     {
       "step_number": 5,
       "action": "Clear the shoulder",
-      "description": "Continue rotating until you clear their far shoulder and can see their back. Your gift wrap hand maintains control while your free hand begins reaching for the seatbelt underhook position on their far side.",
-      "timing": "As you pass perpendicular to their spine"
+      "description": "Continue rotating until you clear their far shoulder and can see their back. Your gift wrap hand maintains control while your free hand begins reaching for the seatbelt underhook position on their far side."
     },
     {
       "step_number": 6,
       "action": "Establish back control",
-      "description": "Insert your bottom hook (the leg closest to the mat) into their hip first, then work to establish the second hook or body triangle. Transition from gift wrap to full seatbelt control by releasing their wrist and securing the over-under grip around their torso.",
-      "timing": "Once you're behind their shoulder line"
+      "description": "Insert your bottom hook (the leg closest to the mat) into their hip first, then work to establish the second hook or body triangle. Transition from gift wrap to full seatbelt control by releasing their wrist and securing the over-under grip around their torso."
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Gift wrap grip mechanics",
-      "description": "Drill the gift wrap entry from S Mount with a compliant partner. Focus on proper hand placement, arm feeding sequence, and securing the grip under the neck. Partner allows arm to be wrapped without resistance. Build muscle memory for the grip configuration.",
-      "resistance_level": "None"
+      "description": "Drill the gift wrap entry from S Mount with a compliant partner. Focus on proper hand placement, arm feeding sequence, and securing the grip under the neck. Partner allows arm to be wrapped without resistance. Build muscle memory for the grip configuration."
     },
     {
       "phase": "Week 3-4",
       "focus": "Rotation pathway",
-      "description": "Add the rotation around the head with light resistance. Partner turns away when cued, you establish gift wrap and complete the movement to back control. Focus on maintaining chest pressure and hip connection throughout. Partner provides 30% resistance.",
-      "resistance_level": "Light"
+      "description": "Add the rotation around the head with light resistance. Partner turns away when cued, you establish gift wrap and complete the movement to back control. Focus on maintaining chest pressure and hip connection throughout. Partner provides 30% resistance."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner actively defends by keeping elbow tight, turning back toward you, or posting. Practice recognizing defensive reactions and switching to appropriate responses (armbar, reset to mount, attack posting arm). Build reaction chains.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends by keeping elbow tight, turning back toward you, or posting. Practice recognizing defensive reactions and switching to appropriate responses (armbar, reset to mount, attack posting arm). Build reaction chains."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Positional sparring starting from S Mount. Full resistance from partner attempting all escapes. Work on timing the gift wrap with natural defensive reactions. Chain with submissions if back take is defended. Track success rate and identify remaining gaps.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting from S Mount. Full resistance from partner attempting all escapes. Work on timing the gift wrap with natural defensive reactions. Chain with submissions if back take is defended. Track success rate and identify remaining gaps."
     }
   ],
   "variants_and_adaptations": [
@@ -181,53 +166,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Gift Wrap to Back?",
-      "answer": "The primary goal is to transition from S Mount or mount to back control by using the opponent's arm wrapped across their body as a controlling mechanism. The gift wrap traps their arm against their neck, forcing them to expose their back as you rotate around their head, ultimately establishing rear control with seatbelt grip and hooks.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from S Mount or mount to back control by using the opponent's arm wrapped across their body as a controlling mechanism. The gift wrap traps their arm against their neck, forcing them to expose their back as you rotate around their head, ultimately establishing rear control with seatbelt grip and hooks."
     },
     {
       "question": "What position do you start Gift Wrap to Back from?",
-      "answer": "This technique primarily starts from S Mount (technical mount) where you have perpendicular positioning with your leg over opponent's head. It can also be executed from standard mount or high mount when the opponent begins turning away from you, though S Mount provides the most advantageous starting configuration for arm isolation.",
-      "difficulty": "Beginner"
+      "answer": "This technique primarily starts from S Mount (technical mount) where you have perpendicular positioning with your leg over opponent's head. It can also be executed from standard mount or high mount when the opponent begins turning away from you, though S Mount provides the most advantageous starting configuration for arm isolation."
     },
     {
       "question": "What are the key grips needed for Gift Wrap to Back?",
-      "answer": "The gift wrap grip requires your far hand reaching under opponent's neck to grab their wrist while their arm is fed across their body. Your near hand initially controls their wrist to feed the arm across, then transitions to posting or assisting the rotation. The grip creates a loop where your arm wraps around their head while securing their trapped wrist.",
-      "difficulty": "Beginner"
+      "answer": "The gift wrap grip requires your far hand reaching under opponent's neck to grab their wrist while their arm is fed across their body. Your near hand initially controls their wrist to feed the arm across, then transitions to posting or assisting the rotation. The grip creates a loop where your arm wraps around their head while securing their trapped wrist."
     },
     {
       "question": "Your opponent keeps their elbow extremely tight to prevent arm isolation—how do you adjust?",
-      "answer": "A tight elbow defense actually facilitates the armbar rather than the gift wrap. Switch your attack to the armbar since their bent arm is already isolated in your control. Their defensive posture against the gift wrap creates the exact configuration needed for armbar success. Don't force the gift wrap—take what they give you.",
-      "difficulty": "Intermediate"
+      "answer": "A tight elbow defense actually facilitates the armbar rather than the gift wrap. Switch your attack to the armbar since their bent arm is already isolated in your control. Their defensive posture against the gift wrap creates the exact configuration needed for armbar success. Don't force the gift wrap—take what they give you."
     },
     {
       "question": "When is the best time to attempt Gift Wrap to Back?",
-      "answer": "The optimal timing is when opponent turns away from you to defend an arm attack (typically armbar threat from S Mount). Their rotation toward their trapped arm creates the momentum and positioning needed for the gift wrap. Attempting it while they face you requires forcing the arm across against resistance, which significantly lowers success rate.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent turns away from you to defend an arm attack (typically armbar threat from S Mount). Their rotation toward their trapped arm creates the momentum and positioning needed for the gift wrap. Attempting it while they face you requires forcing the arm across against resistance, which significantly lowers success rate."
     },
     {
       "question": "What should you do if opponent explosively turns back toward you during the rotation?",
-      "answer": "If the gift wrap is secure, follow their rotation and end up in mount on their opposite side with control maintained. If the gift wrap isn't secure yet, abandon the back take attempt, maintain mount, and reset. Don't fight their rotation—either use it to complete the technique or accept the position reset.",
-      "difficulty": "Intermediate"
+      "answer": "If the gift wrap is secure, follow their rotation and end up in mount on their opposite side with control maintained. If the gift wrap isn't secure yet, abandon the back take attempt, maintain mount, and reset. Don't fight their rotation—either use it to complete the technique or accept the position reset."
     },
     {
       "question": "How do you maintain control during the transition from gift wrap to seatbelt?",
-      "answer": "Keep your chest pinning their wrapped arm throughout the rotation. Only release the gift wrap grip after you've established the seatbelt underhook with your other hand. The transition should overlap—your free hand secures seatbelt before the gift wrap releases. Never have a moment without upper body control.",
-      "difficulty": "Advanced"
+      "answer": "Keep your chest pinning their wrapped arm throughout the rotation. Only release the gift wrap grip after you've established the seatbelt underhook with your other hand. The transition should overlap—your free hand secures seatbelt before the gift wrap releases. Never have a moment without upper body control."
     },
     {
       "question": "Your opponent posts their far arm as you begin rotating—how do you capitalize?",
-      "answer": "Their posted arm is now extended and vulnerable. You can attack it with a kimura grip by releasing the rotation and securing their posting wrist with your free hand. Alternatively, continue the rotation but trap their posting arm with your leg as you pass, transitioning to crucifix rather than standard back control.",
-      "difficulty": "Advanced"
+      "answer": "Their posted arm is now extended and vulnerable. You can attack it with a kimura grip by releasing the rotation and securing their posting wrist with your free hand. Alternatively, continue the rotation but trap their posting arm with your leg as you pass, transitioning to crucifix rather than standard back control."
     },
     {
       "question": "What is the critical hip position throughout the Gift Wrap to Back transition?",
-      "answer": "Your hips must stay glued to opponent's body throughout the entire rotation—specifically tight to their shoulder and upper back. Any space between your hips and their body allows them to hip escape, turn back toward you, or create the distance needed to recover guard. Think of your hips as connected to them by a short rope.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips must stay glued to opponent's body throughout the entire rotation—specifically tight to their shoulder and upper back. Any space between your hips and their body allows them to hip escape, turn back toward you, or create the distance needed to recover guard. Think of your hips as connected to them by a short rope."
     },
     {
       "question": "How do you counter an opponent who tries to roll toward you during the back take?",
-      "answer": "Let them roll and follow their momentum. You'll end up in mount on their opposite side with the gift wrap still intact (they're now facing the other direction). From here, simply attempt the back take again—their roll essentially resets the position favorably for another attempt. Their defensive roll doesn't escape the gift wrap control.",
-      "difficulty": "Advanced"
+      "answer": "Let them roll and follow their momentum. You'll end up in mount on their opposite side with the gift wrap still intact (they're now facing the other direction). From here, simply attempt the back take again—their roll essentially resets the position favorably for another attempt. Their defensive roll doesn't escape the gift wrap control."
     }
   ],
   "safety_considerations": "The Gift Wrap to Back transition is generally low-risk for injury when performed correctly. The primary safety concern is shoulder strain on the trapped arm if excessive force is applied to the gift wrap grip. Always apply control progressively rather than jerking the arm into position. During training, communicate with your partner if the shoulder position feels compromised. Avoid cranking the arm beyond its natural range of motion—the technique works through positional control, not joint manipulation. When drilling, release immediately if your partner taps or indicates discomfort in the shoulder.",
@@ -265,5 +240,6 @@
       "name": "High Mount",
       "relationship": "Related dominant position"
     }
-  ]
+  ],
+  "success_rate": 58
 }

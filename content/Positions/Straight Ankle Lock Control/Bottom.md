@@ -382,11 +382,11 @@ With fully compliant partner in straight ankle lock control, practice proper bre
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 30% |
-| Intermediate | 50% | 55% | 45% |
-| Advanced     | 65% | 70% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 62% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 8-15 seconds before finish or transition required
 

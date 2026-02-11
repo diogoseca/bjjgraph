@@ -259,21 +259,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Ability to avoid submission or sweep while maintaining top position"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Likelihood of successfully passing or taking back"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Probability of finishing submission from top (very low, primarily defensive position)"
       },
       "average_time": "20-40 seconds before position resolves to pass, back take, or submission"
@@ -551,21 +545,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Ability to maintain position without opponent passing or taking back"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Likelihood of successfully transitioning to submission control or sweep"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Probability of finishing submission directly from position"
       },
       "average_time": "15-30 seconds before submission attempt or transition"

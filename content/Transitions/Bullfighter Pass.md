@@ -153,7 +153,7 @@ description: "Master the Bullfighter Pass (Toreando Pass) in BJJ. Dynamic standi
 The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing guard pass that uses lateral movement and precise grip control to bypass the opponent's guard. The name comes from the bullfighting motion of moving to the side while controlling the opponent's legs, similar to a matador avoiding a charging bull. This pass is effective against various open guard configurations including Spider Guard, De La Riva Guard, and Collar Sleeve Guard. The technique relies on explosive footwork, proper weight distribution, and the ability to control the opponent's legs while maintaining balance. The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. The pass creates significant pressure and forward momentum, making it difficult for the opponent to recover guard or establish defensive frames.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: Stand up in opponent's open guard and secure bilateral grips on their pants at the knees or shins. In gi, grip the fabric firmly with thumbs inside. In no-gi, cup behind the knees or control the ankles. Keep your posture upright with hips back to prevent being pulled forward. (Timing: Initial setup phase)
-2. **Create separation**: Push the opponent's knees together and toward their chest while stepping back slightly. This compresses their guard and limits their hip mobility. Maintain constant pressure on the legs to prevent them from re-establishing guard or creating angles for sweeps. (Timing: 1-2 seconds after establishing grips)
-3. **Initiate lateral movement**: Explosively step to one side (usually your stronger side) while simultaneously pushing the opponent's legs in the opposite direction. Your movement should be quick and low to the ground, like a matador stepping aside from a bull. Keep your hips facing the opponent throughout the movement. (Timing: Explosive burst, 0.5 seconds)
-4. **Clear the legs**: As you move laterally, use a circular motion to throw the opponent's legs to the side and away from your body. The motion should be firm but controlled, creating enough space to pass while preventing the opponent from hooking your legs. Release the far leg grip first, maintaining control of the near leg. (Timing: Simultaneous with lateral step)
-5. **Drop your weight**: Immediately after clearing the legs, drop your chest and hips toward the opponent's torso. Your near-side knee should come to the mat as you drive your shoulder into their chest or shoulder. This pressure prevents them from turning into you or recovering guard. (Timing: Immediate follow-up, no hesitation)
-6. **Secure side control**: Establish crossface control with your near arm while your far arm controls their far hip or underhooks their far arm. Distribute your weight across their chest and hips. Adjust your base to prevent them from bridging or creating frames. Confirm all four side control pressure points before relaxing. (Timing: 2-3 seconds to full consolidation)
+1. **Establish grip control**: Stand up in opponent's open guard and secure bilateral grips on their pants at the knees or shins. In gi, grip the fabric firmly with thumbs inside. In no-gi, cup behind the knees or control the ankles. Keep your posture upright with hips back to prevent being pulled forward.
+2. **Create separation**: Push the opponent's knees together and toward their chest while stepping back slightly. This compresses their guard and limits their hip mobility. Maintain constant pressure on the legs to prevent them from re-establishing guard or creating angles for sweeps.
+3. **Initiate lateral movement**: Explosively step to one side (usually your stronger side) while simultaneously pushing the opponent's legs in the opposite direction. Your movement should be quick and low to the ground, like a matador stepping aside from a bull. Keep your hips facing the opponent throughout the movement.
+4. **Clear the legs**: As you move laterally, use a circular motion to throw the opponent's legs to the side and away from your body. The motion should be firm but controlled, creating enough space to pass while preventing the opponent from hooking your legs. Release the far leg grip first, maintaining control of the near leg.
+5. **Drop your weight**: Immediately after clearing the legs, drop your chest and hips toward the opponent's torso. Your near-side knee should come to the mat as you drive your shoulder into their chest or shoulder. This pressure prevents them from turning into you or recovering guard.
+6. **Secure side control**: Establish crossface control with your near arm while your far arm controls their far hip or underhooks their far arm. Distribute your weight across their chest and hips. Adjust your base to prevent them from bridging or creating frames. Confirm all four side control pressure points before relaxing.
 
 
 </section>
@@ -254,27 +254,21 @@ The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing gua
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip control and lateral movement
 Practice standing in guard and establishing proper grips. Drill the lateral stepping motion without a partner, focusing on staying low and explosive. With a partner, practice pushing legs to the side while they remain passive. Emphasis on coordinating grip control with footwork.
-(Resistance: None)
 
 **Week 3-4: Timing and Coordination** - Complete pass sequence with light resistance
 Execute full pass with partner providing 25% resistance. They should maintain guard structure but not actively fight the pass. Focus on the timing of releasing grips and dropping weight. Drill both left and right side passes to develop bilateral proficiency.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Passing** - Chaining directional changes and counter responses
 Partner provides 50% resistance and attempts to follow your movement or recover guard. Practice reading their hip movement and changing directions mid-pass. Incorporate grip breaks and re-grips. Begin adding the pass to positional sparring from open guard.
-(Resistance: Medium)
 
 **Week 9-12: Variation and Adaptation** - Passing against different guard styles
 Apply the Bullfighter Pass against specific guards: Spider Guard, De La Riva Guard, Collar Sleeve Guard, and Lasso Guard. Learn the grip variations and timing adjustments needed for each. Partner provides 75% resistance. Focus on recognizing when the pass is available versus when to switch to alternative passes.
-(Resistance: Medium)
 
 **Week 13+: Competition Integration** - Full resistance and combination sequences
 Use the Bullfighter Pass in live rolling and competition-style sparring. Chain it with other standing passes like the Knee Cut and Long Step. Develop the ability to switch between passes based on opponent reactions. Refine timing to exploit specific moments when opponent extends legs.
-(Resistance: Full)
 
 **Ongoing: Advanced Applications** - Style-specific refinements and high-level details
 For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Develop alternative leg controls using wrist control and underhooks. Study competition footage of high-level grapplers using the pass. Experiment with using the pass to set up leg attacks or back takes when opponent defends effectively.
-(Resistance: Full)
 
 
 

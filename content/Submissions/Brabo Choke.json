@@ -16,12 +16,7 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
-  "overview": "The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the D'arce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'D'arce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.",
+  "overview": "The Brabo Choke is a powerful blood choke from the front headlock position, closely related to the Darce and Anaconda chokes. The technique involves threading your arm under the opponent's near arm and across their neck, securing a grip on your own bicep to create a vice-like constriction of the carotid arteries. The name 'Brabo' is a Portuguese pronunciation variation of 'Darce,' though some practitioners distinguish between the two based on subtle grip and angle differences. This submission is particularly effective when the opponent is defending a front headlock by keeping their elbows tight, creating the necessary space for arm insertion. The Brabo Choke excels in scramble situations, turtle attacks, and failed takedown defense scenarios. Its effectiveness comes from the mechanical advantage created by using your entire body weight to compress the opponent's neck against their own shoulder, making it extremely difficult to defend once properly locked. The choke works in both gi and no-gi contexts, though grip variations differ slightly between formats. Modern competitors favor this submission for its high finishing rate and the control it provides throughout the execution process.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -92,43 +87,37 @@
       "step_number": 1,
       "action": "Secure dominant front headlock position",
       "description": "From standing or ground front headlock, establish strong head control with your primary arm wrapped around opponent's head. Your chest should be heavy on their upper back, preventing them from posturing up. Control their posture by pulling their head toward your hip while maintaining shoulder pressure downward. Ensure your weight is distributed to prevent opponent from rolling or scrambling away.",
-      "timing": "Establish control before attempting arm insertion - 2-3 seconds of stable position",
-      "pressure_level": "Firm"
+      "timing": "Establish control before attempting arm insertion - 2-3 seconds of stable position"
     },
     {
       "step_number": 2,
       "action": "Thread choking arm under opponent's near arm",
       "description": "Identify the opponent's near arm (same side as their controlled head). Slide your free arm under their armpit, driving deep across their neck. Your forearm should cross the front of their throat with the blade of your forearm (pinky side) positioned against the near-side carotid artery. Keep your elbow tight and continue threading until your hand emerges on the far side of their neck. This deep insertion is critical for effectiveness.",
-      "timing": "Smooth insertion over 2-3 seconds - do not rush or force",
-      "pressure_level": "Moderate"
+      "timing": "Smooth insertion over 2-3 seconds - do not rush or force"
     },
     {
       "step_number": 3,
       "action": "Secure bicep grip to lock the choke",
       "description": "Once your choking arm is fully threaded, reach your choking hand to grip your own bicep of the head-control arm. This creates a closed circuit where your arms form a tight loop around opponent's neck and trapped arm. Alternatively, you can grip your own wrist for a tighter lock. The grip completion transforms separate controls into a unified choking mechanism. Ensure the grip is deep and secure before applying pressure.",
-      "timing": "Grip must be secured before pressure application - 1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "Grip must be secured before pressure application - 1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Adjust body angle for optimal compression",
       "description": "Rotate your body perpendicular to opponent's spine, positioning your chest across their upper back. Your head should be positioned near their far shoulder. This angle creates a mechanical advantage where your shoulder drives into the side of their neck while your forearm compresses from the front. Walk your feet in a circular motion to adjust angle until you feel the choke tightening. The opponent's own shoulder becomes a choking surface pressed against the far-side carotid.",
-      "timing": "Angle adjustment takes 2-3 seconds - feel for proper alignment",
-      "pressure_level": "Moderate"
+      "timing": "Angle adjustment takes 2-3 seconds - feel for proper alignment"
     },
     {
       "step_number": 5,
       "action": "Drive shoulder pressure while expanding chest",
       "description": "With proper angle established, drive your shoulder into the side of opponent's neck while simultaneously expanding your chest. This creates a scissoring pressure: your forearm compresses one carotid while your shoulder and their own trapped shoulder compress the other. Pull your elbows together while keeping your grip tight. The pressure should be progressive and controlled, not sudden.",
-      "timing": "Progressive pressure increase over 3-5 seconds in training",
-      "pressure_level": "Firm"
+      "timing": "Progressive pressure increase over 3-5 seconds in training"
     },
     {
       "step_number": 6,
       "action": "Maintain position and complete submission",
       "description": "Hold the compressed position while monitoring opponent for tap signals. Keep your hips low and chest heavy to prevent escape attempts. If opponent attempts to roll, follow their movement while maintaining the choke. Do not loosen grip or pressure until clear tap signal is received. Expect tap within 3-7 seconds of proper compression. In training, maintain slow, controlled pressure and release immediately upon tap. Watch for loss of resistance indicating unconsciousness and release immediately if detected.",
-      "timing": "Hold until tap - typically 3-7 seconds from full compression",
-      "pressure_level": "Maximum"
+      "timing": "Hold until tap - typically 3-7 seconds from full compression"
     }
   ],
   "opponent_defense_patterns": [
@@ -162,44 +151,37 @@
     {
       "error": "Threading arm too shallow, failing to reach deep across neck",
       "consequence": "Choke pressure focuses on trachea (painful air choke) rather than carotids (effective blood choke), giving opponent time to escape",
-      "correction": "Drive elbow deep through the armpit until your hand emerges past far side of neck. Your forearm should bisect their neck completely, with wrist visible on far side.",
-      "danger_level": "High"
+      "correction": "Drive elbow deep through the armpit until your hand emerges past far side of neck. Your forearm should bisect their neck completely, with wrist visible on far side."
     },
     {
       "error": "Applying sudden jerking pressure instead of progressive compression",
       "consequence": "Risk of neck injury, trachea damage, or causing panic in training partner",
-      "correction": "Build pressure gradually over 3-5 seconds in training. Smooth, progressive compression is both safer and more effective than explosive pressure.",
-      "danger_level": "CRITICAL"
+      "correction": "Build pressure gradually over 3-5 seconds in training. Smooth, progressive compression is both safer and more effective than explosive pressure."
     },
     {
       "error": "Poor angle - body positioned parallel to opponent instead of perpendicular",
       "consequence": "Lost mechanical advantage, weak choking pressure, easy escape for opponent",
-      "correction": "Rotate body perpendicular to opponent's spine with your chest across their back. Your shoulder should drive into side of their neck, not the back of their head.",
-      "danger_level": "Medium"
+      "correction": "Rotate body perpendicular to opponent's spine with your chest across their back. Your shoulder should drive into side of their neck, not the back of their head."
     },
     {
       "error": "Losing head control while attempting arm thread",
       "consequence": "Opponent postures up and escapes front headlock entirely, nullifying submission attempt",
-      "correction": "Maintain constant downward pressure with head-control arm throughout threading process. Your chest stays heavy on their back - never lift weight to thread arm.",
-      "danger_level": "Medium"
+      "correction": "Maintain constant downward pressure with head-control arm throughout threading process. Your chest stays heavy on their back - never lift weight to thread arm."
     },
     {
       "error": "Gripping too high on own arm instead of deep bicep grip",
       "consequence": "Loose circuit allows neck escape space, opponent can turn head and relieve pressure",
-      "correction": "Grip as deep as possible on your own bicep, pulling elbows together to eliminate space. Tight grip = tight choke.",
-      "danger_level": "Low"
+      "correction": "Grip as deep as possible on your own bicep, pulling elbows together to eliminate space. Tight grip = tight choke."
     },
     {
       "error": "Continuing pressure after tap signal or loss of resistance",
       "consequence": "Potential unconsciousness, serious injury, loss of training partner trust",
-      "correction": "Release immediately upon ANY tap signal or if opponent's body goes limp. Always err on side of early release in training.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon ANY tap signal or if opponent's body goes limp. Always err on side of early release in training."
     },
     {
       "error": "Raising hips too high during finish, allowing opponent to escape underneath",
       "consequence": "Opponent slips out the back door and escapes to guard or reverses position",
-      "correction": "Keep hips low throughout finish. Weight should be distributed with chest on opponent's back and hips controlling their hip movement.",
-      "danger_level": "Low"
+      "correction": "Keep hips low throughout finish. Weight should be distributed with chest on opponent's back and hips controlling their hip movement."
     }
   ],
   "variations_and_setups": [
@@ -251,8 +233,8 @@
       "safety_critical": false
     },
     {
-      "question": "What are the key differences between the Brabo Choke and the D'arce Choke, and when might you choose one over the other?",
-      "answer": "The Brabo and D'arce are closely related with subtle differences in entry angle and finishing mechanics. The Brabo traditionally refers to threading under the near arm from front headlock when opponent's arm is tight to their body, while D'arce often implies threading from side control or when the arm is slightly away from body. Some practitioners use the terms interchangeably. The practical difference is angle of entry: Brabo setup assumes opponent is defending with tight elbows from bottom, while D'arce assumes you're attacking from a top control position. Choose based on which entry presents itself in the scramble or position you're attacking from.",
+      "question": "What are the key differences between the Brabo Choke and the Darce Choke, and when might you choose one over the other?",
+      "answer": "The Brabo and Darce are closely related with subtle differences in entry angle and finishing mechanics. The Brabo traditionally refers to threading under the near arm from front headlock when opponent's arm is tight to their body, while Darce often implies threading from side control or when the arm is slightly away from body. Some practitioners use the terms interchangeably. The practical difference is angle of entry: Brabo setup assumes opponent is defending with tight elbows from bottom, while Darce assumes you're attacking from a top control position. Choose based on which entry presents itself in the scramble or position you're attacking from.",
       "safety_critical": false
     },
     {
@@ -291,50 +273,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Solo and Demonstration)",
-      "timeframe": "Week 1-2",
-      "focus": "Understanding anatomy, proper arm threading mechanics, and grip positions without live partner. Practice on grappling dummy if available. Study video and receive detailed instruction on carotid vs trachea targeting.",
-      "resistance_level": "None",
-      "safety_emphasis": "Learn to distinguish between blood choke mechanics (carotid compression) and air choke (tracheal pressure). Understand that blood chokes cause rapid unconsciousness and must be respected. Review all tap signals and release protocols before live practice."
-    },
-    {
-      "phase": "Positional Drilling (Cooperative Partner)",
-      "timeframe": "Week 2-4",
-      "focus": "Partner allows front headlock position. Practice arm threading, grip completion, and angle adjustment with zero resistance. Partner taps when they feel any pressure beginning. Focus entirely on smooth mechanics, not finishing.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner taps immediately when they feel initial pressure. Attacker releases instantly on tap, no exceptions. Build muscle memory for smooth release protocol. Maximum 5-10 repetitions per training session to avoid neck fatigue."
-    },
-    {
-      "phase": "Progressive Pressure Application",
-      "timeframe": "Week 4-8",
-      "focus": "Partner allows position setup but defends with mild resistance once choke is locked. Practice building pressure slowly (5+ seconds) and recognizing the feeling of proper compression. Partner provides feedback on pressure location - carotid vs trachea.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Attacker must count to 5 before applying any significant pressure. Partner taps before discomfort becomes significant. Discuss pressure location after each rep - adjust if partner reports trachea pressure rather than carotid. Rest 30+ seconds between repetitions."
-    },
-    {
-      "phase": "Entry Drilling Against Defense",
-      "timeframe": "Week 8-12",
-      "focus": "Partner actively defends the entry - hand fighting, posture, head movement - but once choke is locked they allow finish with mild resistance. Emphasize getting to the position against realistic defense.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Realistic resistance only during entry and setup. Once choke is locked, defender provides mild resistance only and taps early. Both partners should be comfortable stopping mid-technique if position feels unsafe. Prioritize control over speed."
-    },
-    {
-      "phase": "Situational Sparring",
-      "timeframe": "Week 12-20",
-      "focus": "Start from specific positions (front headlock, turtle, scrambles) and work for Brabo Choke against increasing resistance. Partner defends intelligently and escapes when possible, taps when caught. Begin chaining Brabo with related submissions (Anaconda, Darce).",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Both partners operating with full awareness of danger. Defender taps early rather than fighting through significant pressure. Attacker maintains progressive pressure even at this phase - no explosive finishing. Check in with partner regularly about neck comfort."
-    },
-    {
-      "phase": "Live Rolling Integration",
-      "timeframe": "Month 5+",
-      "focus": "Brabo Choke becomes available tool during normal rolling. Use in combination with front headlock system, turtle attacks, and scramble situations. Continue emphasizing control and technical precision over speed.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain training-speed application (3-5 seconds minimum) even during competition-style rolls. Never hold choke to prove a point or after tap. Be especially careful with less experienced partners who may not recognize danger quickly. If partner isn't tapping but seems in danger (unusual sounds, loss of resistance), release immediately and check on them. Competition finishing speed reserved for competition only."
-    }
-  ],
   "from_positions": [
     "Front Headlock",
     "Turtle",
@@ -348,7 +286,7 @@
   "related_submissions": [
     "Darce Choke",
     "Anaconda Choke",
-    "D'arce-Anaconda Connection",
+    "Darce-Anaconda Connection",
     "Guillotine Choke",
     "Arm Triangle",
     "North-South Choke",
@@ -367,7 +305,7 @@
       "relationship": "High-percentage entry - turtle defense creates ideal Brabo threading opportunity"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Control position - intermediate position between Brabo setup and finish"
     },
     {
@@ -406,5 +344,6 @@
       "name": "Arm Triangle",
       "relationship": "System connection - both submissions use opponent's shoulder as part of choking mechanism"
     }
-  ]
+  ],
+  "success_rate": 58
 }

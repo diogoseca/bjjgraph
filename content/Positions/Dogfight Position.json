@@ -273,19 +273,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 45,
-      "intermediate": 60,
-      "advanced": 75
+      "value": 68
     },
     "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
+      "value": 62
     },
     "submission_probability": {
-      "beginner": 10,
-      "intermediate": 20,
-      "advanced": 30
+      "value": 25
     },
     "average_time": "30-90 seconds before transition to sweep, back take, or pass occurs (highly dynamic position with rapid resolution)"
   }

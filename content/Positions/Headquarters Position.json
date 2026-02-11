@@ -227,19 +227,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 70,
-      "intermediate": 85,
-      "advanced": 95
+      "value": 90
     },
     "advancement_probability": {
-      "beginner": 45,
-      "intermediate": 65,
-      "advanced": 80
+      "value": 72
     },
     "submission_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 45
+      "value": 38
     },
     "average_time": "30-90 seconds before advancing to side control or mount, or returning to guard configurations"
   },

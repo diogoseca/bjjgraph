@@ -163,7 +163,7 @@ The setup requires transitioning from the standard outside ashi figure-4 configu
 This transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.
 
 **From Position**: [[Outside Ashi-Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ This transition is particularly effective because it punishes one of the most co
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize trigger**: Identify when opponent drives forward into your outside ashi or straightens their leg to defend heel hook—this leg extension creates the kneebar opportunity (Timing: Immediate response to forward pressure)
-2. **Release heel grip**: Release your heel hook grip and transition your hands to control the ankle and lower leg, securing the foot against your chest or shoulder with toes pointing toward ceiling (Timing: Simultaneous with body rotation)
-3. **Rotate body perpendicular**: Rotate your body to position yourself perpendicular to their trapped leg, bringing your hips directly under their knee joint while maintaining the figure-4 leg lock around their thigh (Timing: Smooth continuous motion)
-4. **Secure leg position**: Triangle your legs tightly around their upper leg above the knee, squeezing your knees together to prevent any rotation or extraction of their leg from the submission position (Timing: Lock position before applying pressure)
-5. **Control ankle alignment**: Pull their foot tight against your chest with both hands controlling the ankle area, ensuring their toes point toward the ceiling to align the knee joint for proper hyperextension (Timing: Establish before hip drive)
-6. **Apply hip pressure**: Drive your hips forward and upward into the back of their knee while pulling down on the ankle, creating hyperextension pressure on the knee joint through opposing forces (Timing: Controlled progressive pressure)
-7. **Adjust and finish**: If opponent resists, micro-adjust hip position to find the optimal angle where knee cannot rotate, increase hip elevation progressively until tap or transition to alternative attack (Timing: Gradual increase in training)
+1. **Recognize trigger**: Identify when opponent drives forward into your outside ashi or straightens their leg to defend heel hook—this leg extension creates the kneebar opportunity
+2. **Release heel grip**: Release your heel hook grip and transition your hands to control the ankle and lower leg, securing the foot against your chest or shoulder with toes pointing toward ceiling
+3. **Rotate body perpendicular**: Rotate your body to position yourself perpendicular to their trapped leg, bringing your hips directly under their knee joint while maintaining the figure-4 leg lock around their thigh
+4. **Secure leg position**: Triangle your legs tightly around their upper leg above the knee, squeezing your knees together to prevent any rotation or extraction of their leg from the submission position
+5. **Control ankle alignment**: Pull their foot tight against your chest with both hands controlling the ankle area, ensuring their toes point toward the ceiling to align the knee joint for proper hyperextension
+6. **Apply hip pressure**: Drive your hips forward and upward into the back of their knee while pulling down on the ankle, creating hyperextension pressure on the knee joint through opposing forces
+7. **Adjust and finish**: If opponent resists, micro-adjust hip position to find the optimal angle where knee cannot rotate, increase hip elevation progressively until tap or transition to alternative attack
 
 
 </section>
@@ -264,19 +264,15 @@ This transition is particularly effective because it punishes one of the most co
 ## Training Progressions
 **Week 1-2** - Position mechanics
 Practice the body rotation and leg positioning with a stationary partner. Focus on maintaining figure-4 leg control while transitioning perpendicular. Drill ankle control and foot alignment with no resistance. 50+ repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Entry timing
 Partner provides light forward pressure from outside ashi top position. Practice recognizing the entry trigger and flowing into kneebar position. Partner allows the transition but does not tap—focus on position, not finish.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Drill the heel hook to kneebar transition when partner defends heel exposure by straightening leg. Practice flowing between submissions based on leg position. Partner resists at 50% and attempts basic counters.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from outside ashi. Partner works legitimate escapes and counters. Practice integrating kneebar into your complete leg lock game. Focus on recognizing live opportunities and chain attacks.
-(Resistance: Full)
 
 
 

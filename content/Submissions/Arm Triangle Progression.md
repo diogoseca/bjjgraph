@@ -163,7 +163,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 **Type**: Blood Choke
 **Target Area**: Carotid arteries (compression via shoulder and arm)
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -238,13 +238,13 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant side control with crossface**: Begin from tight side control with heavy crossface pressure. Your chest should be driving into opponent's face, preventing them from turning toward you. Your hips are low and tight to their body. Your far arm can control their far hip or be posted for base. This foundational control prevents the initial defensive movements that would stop the choke setup. (Timing: Hold for 2-3 seconds to establish positional dominance) [Pressure: Firm]
-2. **Thread choking arm deep under opponent's head**: Slide your crossface arm deep under opponent's head, reaching across to the far side of their neck. Your shoulder should be tight to their face. The key detail is depth - your bicep should be on one side of their neck and their own shoulder on the other side, creating the triangular structure. This arm becomes the 'blade' of the choke, so maximum depth is critical. Your hand can grip your own opposite shoulder or reach to the mat on the far side. (Timing: 2-3 seconds to establish deep arm position) [Pressure: Moderate]
-3. **Trap opponent's near arm across their body**: Use your free hand to control opponent's near arm, either pushing it across their chest or using it to create the choking triangle. You want their arm to run across their own neck, adding to the compression. This arm positioning is what makes the choke 'arm triangle' - their shoulder becomes part of the choking mechanism. Some variations have the arm high near their face, others across the chest. Both work if the shoulder is properly aligned. (Timing: 1-2 seconds of active arm control) [Pressure: Firm]
-4. **Begin transition to optimal finishing angle**: Start moving your body toward the opponent's head, changing the angle from perpendicular to more parallel with their body. This can be done by walking your feet toward their head or by switching to mount. The key is maintaining the head and arm connection throughout - if you create any gap, they escape. Your choking-side shoulder must stay glued to their face as you move. Many practitioners fail here by releasing pressure during the transition. (Timing: 3-4 seconds for smooth transition maintaining connection) [Pressure: Firm]
-5. **Secure optimal finishing position**: Establish your finishing position - either mount with your head tight to theirs, or side position with your body parallel to theirs and head to head. In mount, your hips should be high on their chest. In side finish, your body should be tight along their side with your head at their head level. This positioning allows your shoulder to drive at the correct angle into their neck. Check that their trapped arm is still across their body and your choking arm is still deep. (Timing: 2-3 seconds to settle into position) [Pressure: Firm]
-6. **Connect hands and create choking structure**: Bring your free hand behind their head to connect with your choking hand. Common grips include gable grip, palm-to-palm, or grabbing your own bicep. The connection doesn't create the choke - it locks the structure. Your elbows should drive together, making the triangle tighter. This is the 'setting' of the submission where you create the structural frame that will restrict blood flow. (Timing: 1-2 seconds to establish grip connection) [Pressure: Moderate]
-7. **Apply finishing pressure through shoulder drive and squeeze**: Drive your shoulder into their neck while pulling your elbows together and squeezing toward the centerline of their body. The pressure should angle from the choking-side shoulder across toward their far shoulder. You should feel your shoulder and their shoulder creating a V-shape that compresses both carotid arteries. The squeeze is directed inward (squeezing your elbows together) not upward. Proper technique feels like moderate pressure to you but creates significant compression on the arteries. Apply slowly and progressively, watching for the tap. (Timing: 3-5 seconds progressive pressure, stop immediately on tap) [Pressure: Maximum]
+1. **Establish dominant side control with crossface**: Begin from tight side control with heavy crossface pressure. Your chest should be driving into opponent's face, preventing them from turning toward you. Your hips are low and tight to their body. Your far arm can control their far hip or be posted for base. This foundational control prevents the initial defensive movements that would stop the choke setup. (Timing: Hold for 2-3 seconds to establish positional dominance)
+2. **Thread choking arm deep under opponent's head**: Slide your crossface arm deep under opponent's head, reaching across to the far side of their neck. Your shoulder should be tight to their face. The key detail is depth - your bicep should be on one side of their neck and their own shoulder on the other side, creating the triangular structure. This arm becomes the 'blade' of the choke, so maximum depth is critical. Your hand can grip your own opposite shoulder or reach to the mat on the far side. (Timing: 2-3 seconds to establish deep arm position)
+3. **Trap opponent's near arm across their body**: Use your free hand to control opponent's near arm, either pushing it across their chest or using it to create the choking triangle. You want their arm to run across their own neck, adding to the compression. This arm positioning is what makes the choke 'arm triangle' - their shoulder becomes part of the choking mechanism. Some variations have the arm high near their face, others across the chest. Both work if the shoulder is properly aligned. (Timing: 1-2 seconds of active arm control)
+4. **Begin transition to optimal finishing angle**: Start moving your body toward the opponent's head, changing the angle from perpendicular to more parallel with their body. This can be done by walking your feet toward their head or by switching to mount. The key is maintaining the head and arm connection throughout - if you create any gap, they escape. Your choking-side shoulder must stay glued to their face as you move. Many practitioners fail here by releasing pressure during the transition. (Timing: 3-4 seconds for smooth transition maintaining connection)
+5. **Secure optimal finishing position**: Establish your finishing position - either mount with your head tight to theirs, or side position with your body parallel to theirs and head to head. In mount, your hips should be high on their chest. In side finish, your body should be tight along their side with your head at their head level. This positioning allows your shoulder to drive at the correct angle into their neck. Check that their trapped arm is still across their body and your choking arm is still deep. (Timing: 2-3 seconds to settle into position)
+6. **Connect hands and create choking structure**: Bring your free hand behind their head to connect with your choking hand. Common grips include gable grip, palm-to-palm, or grabbing your own bicep. The connection doesn't create the choke - it locks the structure. Your elbows should drive together, making the triangle tighter. This is the 'setting' of the submission where you create the structural frame that will restrict blood flow. (Timing: 1-2 seconds to establish grip connection)
+7. **Apply finishing pressure through shoulder drive and squeeze**: Drive your shoulder into their neck while pulling your elbows together and squeezing toward the centerline of their body. The pressure should angle from the choking-side shoulder across toward their far shoulder. You should feel your shoulder and their shoulder creating a V-shape that compresses both carotid arteries. The squeeze is directed inward (squeezing your elbows together) not upward. Proper technique feels like moderate pressure to you but creates significant compression on the arteries. Apply slowly and progressively, watching for the tap. (Timing: 3-5 seconds progressive pressure, stop immediately on tap)
 
 
 </section>
@@ -264,25 +264,25 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Rushing the transition before properly isolating the head and arm [Low DANGER]
+- **Mistake**: Rushing the transition before properly isolating the head and arm
   - **Consequence**: Opponent escapes by pulling their arm free or turning away, completely neutralizing the submission attempt
   - **Correction**: Spend extra time in the setup phase ensuring the arm is truly trapped and your shoulder pressure is eliminating all space. Only transition once the structure is locked - patience in setup determines success in finish.
-- **Mistake**: Squeezing upward toward the ceiling instead of inward toward centerline [Medium DANGER]
+- **Mistake**: Squeezing upward toward the ceiling instead of inward toward centerline
   - **Consequence**: Ineffective choke that allows opponent to defend indefinitely, wasted energy, and potential neck strain without arterial compression
   - **Correction**: Focus on driving your shoulder across their neck while pulling your elbows together. The squeeze should feel like you're trying to touch your elbows together in front of their neck, not lifting their head off the mat. Imagine squeezing toward their far shoulder.
-- **Mistake**: Positioning hips too low on opponent's torso during mount finish [Low DANGER]
+- **Mistake**: Positioning hips too low on opponent's torso during mount finish
   - **Consequence**: Incorrect angle prevents proper shoulder pressure into neck, opponent can bridge more easily, and the choke lacks the necessary compression to finish
   - **Correction**: In mount finish variation, hips should be high on their chest, almost to their armpits. This creates the downward angle needed for your shoulder to drive into their neck properly. If you feel like you're mounting too high, you're probably at the right height for this choke.
-- **Mistake**: Creating gap between your shoulder and opponent's face during transition [Low DANGER]
+- **Mistake**: Creating gap between your shoulder and opponent's face during transition
   - **Consequence**: Opponent immediately pulls their arm free and escapes, potentially recovering guard or reversing position
   - **Correction**: Your shoulder must remain glued to their face throughout the entire transition. Think of your shoulder, their head, and their trapped arm as a single unit that moves together. If you need to adjust position, do it slowly while maintaining constant pressure. Consider finishing from side control if you cannot maintain connection during the mount transition.
-- **Mistake**: Applying rapid, jerking pressure instead of slow progressive squeeze [CRITICAL DANGER]
+- **Mistake**: Applying rapid, jerking pressure instead of slow progressive squeeze
   - **Consequence**: Partner cannot tap in time, risk of loss of consciousness, windpipe damage if angle is wrong, and development of unsafe training habits
   - **Correction**: ALWAYS apply arm triangle pressure slowly over 3-5 seconds minimum. You should feel the pressure building gradually. Watch your partner's face for color changes or signs of distress. In training, the goal is to achieve the position where you COULD finish, not to actually finish every time. Give your partner time to recognize they're caught and tap safely.
-- **Mistake**: Forgetting to check that partner's tapping arm is free [CRITICAL DANGER]
+- **Mistake**: Forgetting to check that partner's tapping arm is free
   - **Consequence**: Partner cannot signal submission, risk of injury or loss of consciousness, dangerous training environment
   - **Correction**: Before applying finishing pressure, do a quick mental check that at least one of your partner's arms is completely free to tap on you or the mat. If both arms are trapped in your control, you've made a serious safety error. Adjust your position to free one arm before applying any choking pressure.
-- **Mistake**: Targeting windpipe instead of carotid arteries [High DANGER]
+- **Mistake**: Targeting windpipe instead of carotid arteries
   - **Consequence**: Painful air choke instead of clean blood choke, potential trachea damage, opponent unnecessarily suffering, and development of poor technique
   - **Correction**: The pressure point should be the sides of the neck where the carotid arteries run, not the front of the throat. If your partner is coughing or their face is turning red from air restriction rather than blood restriction, your angle is wrong. Adjust so your shoulder drives into the side of the neck. A proper arm triangle should feel relatively comfortable to you while being inescapable for the opponent - if it feels like hard work, your angle is off.
 
@@ -349,43 +349,6 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks of learning the technique)
-- Focus: Learn the structural mechanics, practice the setup from side control, understand the choking triangle concept, and develop slow, controlled transitions without finishing the choke
-- Resistance: Zero resistance
-- Safety: Partner remains completely passive while you drill the motion. Focus on understanding WHY each step matters rather than making the technique work against resistance. This is pure motor learning without any pressure application.
-
-**Slow Positional Practice (Weeks 3-4)** (Weeks 3-4 after initial instruction)
-- Focus: Practice the complete progression from side control to finishing position with compliant partner. Begin to understand the feeling of proper structure. Practice identifying when the position is 'on' versus when gaps exist. Start to recognize the difference between correct and incorrect angles.
-- Resistance: Mild resistance
-- Safety: Partner gives light positional resistance (turning slightly, attempting small movements) but doesn't actively defend. NO FINISHING PRESSURE YET - stop at the point where you would squeeze. Check that partner's tapping arm is free before even setting up the structure. Begin developing the habit of slow, controlled setup.
-
-**Controlled Application with Tap Drills (Weeks 5-8)** (Weeks 5-8, after demonstrating consistent position achievement)
-- Focus: Begin applying light finishing pressure using the 3-5 second progressive squeeze protocol. Practice stopping immediately on tap. Partner practices tapping early when they feel the structure lock in, not waiting until uncomfortable. Both partners develop communication and trust.
-- Resistance: Realistic resistance
-- Safety: This is the critical safety development phase. Partner defends normally but taps AS SOON as they recognize they're caught - the goal is NOT to see how long they can last. You practice applying pressure SLOWLY and STOPPING INSTANTLY on tap. Both partners develop the mutual trust needed for safe training. If either partner rushes the pressure or holds the choke too long, return to previous phase.
-
-**Live Situational Rolling (Weeks 9-12)** (Weeks 9-12, after consistent safe application in controlled drilling)
-- Focus: Start from side control in live rolling with goal of achieving and finishing arm triangle. Partner actively defends and tries to escape. Practice recognizing the opportunity in real time and capitalizing on it. Develop the ability to chain from failed attempts to other techniques.
-- Resistance: Full resistance
-- Safety: Maintain the 3-5 second progressive squeeze even in live rolling - competition speed has NO PLACE in training. If you catch the submission in live training, apply it slowly and give your partner every opportunity to tap. Remember that 'winning' in the training room means both partners improving, not forcing taps through speed or strength.
-
-**Integration and Chaining (Weeks 13+)** (After 3+ months of consistent practice)
-- Focus: Integrate arm triangle into your overall game, chain it with other submissions (kimura, back takes, mount control), recognize setup opportunities from multiple positions (turtle, failed guard passes, scrambles), and develop your personal high-percentage entries.
-- Resistance: Full resistance
-- Safety: As the technique becomes more automatic, vigilance about safety must INCREASE, not decrease. Experienced practitioners can apply submissions very quickly, which makes slow, controlled application even more important. Develop the discipline to always give partners the time to tap even when you could finish faster. This is what separates good training partners from dangerous ones.
-
-**Ongoing Refinement and Teaching (Ongoing)** (Continuous throughout your BJJ journey)
-- Focus: Refine details based on opponent size, strength, and defensive sophistication. Develop multiple variations and entries. Begin teaching the technique to less experienced students, which deepens your own understanding. Study high-level competition applications and adapt concepts to your game.
-- Resistance: Full resistance
-- Safety: As you teach this technique to others, emphasize safety protocols even more than technical details. Model perfect safety behavior in your own training. When rolling with less experienced students, use the arm triangle as a control position rather than always finishing - this develops your positional control while keeping your partner safe. Remember that your responsibility for safety increases with your experience level.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -412,7 +375,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 - [[Darce Choke]]
 - [[Anaconda Choke]]
 - [[Guillotine Choke]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 - [[Rear Naked Choke]]
 - [[Ezekiel Choke]]
 - [[North-South Choke]]
@@ -445,6 +408,7 @@ The Arm Triangle Progression represents a fundamental systematic approach to one
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

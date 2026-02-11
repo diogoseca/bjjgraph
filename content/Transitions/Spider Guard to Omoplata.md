@@ -159,7 +159,7 @@ description: "Master the Spider Guard to Omoplata transition in BJJ. Complete gu
 The Spider Guard to Omoplata is a fundamental attacking transition that combines sweeping mechanics with submission threat. From spider guard, you manipulate your opponent's posture and base using sleeve control and foot pressure on the biceps, creating an opening to swing your leg over their shoulder and sit up into the omoplata position. This technique exemplifies the principle of using your opponent's defensive reactions against them - when they resist your spider guard pressure by posting or pulling back, you capitalize on their commitment by attacking the shoulder with the omoplata. The transition is highly effective because it occurs in a single fluid motion, giving your opponent minimal time to recognize and counter the attack. Understanding proper grip mechanics, hip movement, and timing is essential for successfully executing this technique under resistance.
 
 **From Position**: [[Spider Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -207,13 +207,13 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish spider guard control**: From spider guard, secure both sleeves with deep grips, placing both feet on opponent's biceps. Apply constant pressure outward with your legs to extend their arms and compromise their posture. (Timing: Setup phase - establish stable control)
-2. **Identify attacking side**: Choose the side where opponent's weight is more committed forward or where their arm is more extended. Strengthen your grip on that sleeve while maintaining foot pressure on that bicep to prevent arm withdrawal. (Timing: Recognition phase - read opponent's position)
-3. **Remove opposite foot**: Take your foot off the non-attacking side bicep and place it on the mat or opponent's hip for base. This allows you to generate rotational momentum while maintaining control of the attacking side. (Timing: Preparation - create mobility)
-4. **Swing leg over shoulder**: Using your grounded foot for leverage, explosively swing your attacking-side leg up and over opponent's shoulder, threading it between their head and trapped arm. Your shin should land across their upper back/shoulder blade area. (Timing: Explosive execution - commit fully to the movement)
-5. **Sit up and control posture**: As your leg crosses over, immediately sit up toward your opponent, pulling their trapped sleeve across your body. Your chest should come to their back while your leg weight prevents them from lifting their head. (Timing: Immediate follow-through - no pause)
-6. **Secure omoplata position**: Grip their belt or pants behind their back with your free hand, pinch their trapped arm between your legs, and ensure your shin is positioned correctly across their shoulder blades. Control their hips with your bottom leg to prevent forward roll escapes. (Timing: Position consolidation - establish control)
-7. **Break posture completely**: Drive your chest into opponent's back while pulling their hips toward you with your belt grip. Their head should be driven toward the mat with no space to lift up. From here you can finish the shoulder lock or transition to sweep/back take. (Timing: Finishing phase - maximize control)
+1. **Establish spider guard control**: From spider guard, secure both sleeves with deep grips, placing both feet on opponent's biceps. Apply constant pressure outward with your legs to extend their arms and compromise their posture.
+2. **Identify attacking side**: Choose the side where opponent's weight is more committed forward or where their arm is more extended. Strengthen your grip on that sleeve while maintaining foot pressure on that bicep to prevent arm withdrawal.
+3. **Remove opposite foot**: Take your foot off the non-attacking side bicep and place it on the mat or opponent's hip for base. This allows you to generate rotational momentum while maintaining control of the attacking side.
+4. **Swing leg over shoulder**: Using your grounded foot for leverage, explosively swing your attacking-side leg up and over opponent's shoulder, threading it between their head and trapped arm. Your shin should land across their upper back/shoulder blade area.
+5. **Sit up and control posture**: As your leg crosses over, immediately sit up toward your opponent, pulling their trapped sleeve across your body. Your chest should come to their back while your leg weight prevents them from lifting their head.
+6. **Secure omoplata position**: Grip their belt or pants behind their back with your free hand, pinch their trapped arm between your legs, and ensure your shin is positioned correctly across their shoulder blades. Control their hips with your bottom leg to prevent forward roll escapes.
+7. **Break posture completely**: Drive your chest into opponent's back while pulling their hips toward you with your belt grip. Their head should be driven toward the mat with no space to lift up. From here you can finish the shoulder lock or transition to sweep/back take.
 
 
 </section>
@@ -256,23 +256,18 @@ The Spider Guard to Omoplata is a fundamental attacking transition that combines
 ## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Master the leg swing and sit-up motion without resistance
 Partner holds still in spider guard position while you practice swinging your leg over their shoulder and sitting up. Focus on smooth, explosive movement and maintaining sleeve control throughout. Repeat 20-30 times per training session.
-(Resistance: None)
 
 **Week 3-4: Timing and Recognition** - Learn to identify proper attacking opportunities
 Partner gives light resistance and varies their posture (forward, backward, attempting to stand). Practice recognizing the correct moment to attack and executing the transition with light resistance. Partner should allow the technique to work when timing is correct.
-(Resistance: Light)
 
 **Week 5-8: Position Consolidation** - Securing omoplata control against moderate resistance
 Partner provides moderate resistance and attempts basic escape attempts (arm withdrawal, posture recovery). Focus on maintaining grips, controlling hips, and breaking posture completely before attempting the finish.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Defending common counters and transitioning to alternatives
 Partner actively attempts all common counters (stack, roll, arm pull, standing). Practice recognizing each counter early and flowing to alternative attacks (triangle, sweep, back take) rather than forcing the omoplata. Begin incorporating into live rolling.
-(Resistance: Full)
 
 **Month 4+: Competition Application** - Setting up the attack from dynamic spider guard play
 Practice the entire sequence from guard establishment through finish during full resistance positional sparring. Focus on using spider guard sweeps and other attacks to set up the omoplata opportunity. Emphasize seamless transitions to other techniques when countered.
-(Resistance: Full)
 
 
 

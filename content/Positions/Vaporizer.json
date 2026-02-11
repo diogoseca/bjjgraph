@@ -285,19 +285,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "60-120 seconds to escape or be swept/submitted"
     },
@@ -558,19 +552,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "average_time": "45-90 seconds before transition"
     },

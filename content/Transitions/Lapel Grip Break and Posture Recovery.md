@@ -157,7 +157,7 @@ The fundamental challenge lies in the lapel wrap's function as a control lever t
 Strategically, this technique serves as the gateway to all other passing options against Ringworm Guard. Without successfully breaking the lapel configuration, standard guard passes become dangerous as the wrap creates predictable defensive patterns that skilled guard players exploit for sweeps and back takes. Mastering this grip break is essential for any serious competitor facing lapel guard systems in gi competition.
 
 **From Position**: [[Ringworm Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this technique serves as the gateway to all other passing options
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish base**: Widen your base by stepping your free leg outward and lowering your hips toward the mat. Distribute your weight primarily through your free leg to prevent the opponent from loading you for sweeps. (Timing: Immediately upon recognizing the Ringworm configuration)
-2. **Control grip-fighting hand**: Use your free hand to grip the opponent's wrist or sleeve on the hand holding the lapel tail. This prevents them from tightening the wrap or adjusting to maintain control while you work the break. (Timing: Before committing to grip break)
-3. **Strip the lapel grip**: Bring your second hand to assist with the grip break, peeling the opponent's fingers off the lapel tail using a two-on-one motion. Strip toward their thumb to exploit the weakest point of their grip configuration. (Timing: When opponent's grip-fighting hand is controlled)
-4. **Secure the lapel**: Once broken, immediately grab the lapel tail yourself to prevent the opponent from re-establishing the grip. Thread the lapel behind their back or tuck it into their belt to neutralize it as a weapon. (Timing: Immediately after grip breaks)
-5. **Extract trapped leg**: With the lapel tension eliminated, circle your trapped leg outward and backward to extract it from any remaining wrap. Use small circular movements rather than explosive pulling to prevent the opponent from trapping your leg with their hooks. (Timing: While maintaining lapel control)
-6. **Recover posture**: Stand up to combat base or full standing position, establishing distance and neutral grips on the opponent's legs or hips. You are now ready to engage standard open guard passing sequences without the lapel disadvantage. (Timing: Once leg is free)
+1. **Establish base**: Widen your base by stepping your free leg outward and lowering your hips toward the mat. Distribute your weight primarily through your free leg to prevent the opponent from loading you for sweeps.
+2. **Control grip-fighting hand**: Use your free hand to grip the opponent's wrist or sleeve on the hand holding the lapel tail. This prevents them from tightening the wrap or adjusting to maintain control while you work the break.
+3. **Strip the lapel grip**: Bring your second hand to assist with the grip break, peeling the opponent's fingers off the lapel tail using a two-on-one motion. Strip toward their thumb to exploit the weakest point of their grip configuration.
+4. **Secure the lapel**: Once broken, immediately grab the lapel tail yourself to prevent the opponent from re-establishing the grip. Thread the lapel behind their back or tuck it into their belt to neutralize it as a weapon.
+5. **Extract trapped leg**: With the lapel tension eliminated, circle your trapped leg outward and backward to extract it from any remaining wrap. Use small circular movements rather than explosive pulling to prevent the opponent from trapping your leg with their hooks.
+6. **Recover posture**: Stand up to combat base or full standing position, establishing distance and neutral grips on the opponent's legs or hips. You are now ready to engage standard open guard passing sequences without the lapel disadvantage.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, this technique serves as the gateway to all other passing options
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the two-on-one grip breaking motion against a static partner holding lapel configurations. Focus on hand positioning, stripping toward the thumb, and the feel of the grip releasing. No resistance from partner.
-(Resistance: None)
 
 **Week 3-4** - Full sequence drilling
 Partner establishes Ringworm Guard while you execute the complete sequence from base establishment through posture recovery. Partner provides consistent resistance (not increasing) to allow repetition and timing development.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to retain guard, switch configurations, and initiate sweeps during your extraction attempts. Work on recognizing counters and adjusting the sequence in real-time. Flow between multiple attempts if needed.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Include Ringworm Guard escape scenarios in regular sparring. Start rounds in the position or allow partner to pull you into it during live rolling. Track success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

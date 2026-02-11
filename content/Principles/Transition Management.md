@@ -355,13 +355,13 @@ Recording rolling sessions and analyzing transition attempts to evaluate timing 
 - **[[Creating Reactions]]** (Extension): Advanced transition management involves deliberately manipulating opponent's reactions to create timing windows, rather than passively waiting for naturally occurring opportunities.
 - **[[Base Maintenance]]** (Complementary): Maintaining stable base throughout transitions prevents overcommitment and preserves recovery options if transitional attempts are countered or fail.
 - **[[Frame Management]]** (Complementary): Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes.
-- **[[Position Transitions]]** (Extension): Position transitions represent the mechanical execution component, while transition management provides the strategic decision-making framework governing when and how to execute those movements.
+- **[[Transition Sequences]]** (Extension): Transition sequences represent the structured chaining of multiple position changes into coherent progressions, while transition management provides the strategic decision-making framework governing when and how to execute those linked movements.
 - **[[Guard Retention]]** (Complementary): Guard retention principles inform defensive transition management, determining when to change guard variations versus when to maintain current structure.
 - **[[Escape Hierarchy]]** (Complementary): Escape hierarchy provides the prioritization framework for transition management from inferior positions, determining which position changes represent meaningful improvement.
 
 
 ### Related Content
-- [[Position Transitions]] (Principle) - Closely related concept focusing on mechanical execution of position changes
+- [[Transition Sequences]] (Principle) - Focuses on the structured chaining of multiple position changes into coherent linked progressions
 - [[Positional Hierarchy]] (Principle) - Provides evaluative framework for assessing transition value and advancement potential
 - [[Timing and Rhythm]] (Principle) - Governs when to initiate transitions based on opponent's defensive state and movement patterns
 - [[Energy Management System]] (Principle) - Influences transition frequency and commitment levels based on energy conservation principles

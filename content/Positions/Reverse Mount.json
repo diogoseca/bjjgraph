@@ -244,19 +244,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "10-30 seconds (transitional position)"
     },
@@ -510,19 +504,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 8,
-        "advanced": 12
+        "value": 10
       },
       "average_time": "15-45 seconds before escape or opponent advancement"
     },

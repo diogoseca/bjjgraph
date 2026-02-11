@@ -157,7 +157,7 @@ The extraction sequence requires precise timing, explosive hip movement, and coo
 Strategically, this escape reflects modern competitive reality: when facing a superior leg lock practitioner, the intelligent choice is often disengagement rather than engagement. Standing up resets the exchange on neutral terms where takedown wrestling and guard passing become the primary battlegrounds instead of leg lock exchanges that favor your opponent.
 
 **From Position**: [[50-50 Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this escape reflects modern competitive reality: when facing a su
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect heel**: Rotate your knee inward toward your opposite hip to hide your heel from heel hook exposure. Maintain this protective knee angle throughout the entire extraction sequence. (Timing: Before any movement)
-2. **Break grips**: Use two-on-one grip fighting to strip opponent's control from your ankle and heel area. Prioritize breaking the cupping hand on your heel first, then the ankle control grip. (Timing: 1-2 seconds)
-3. **Create hip space**: Explosively shrimp your hips away from opponent while simultaneously pushing off with your free leg. Create 6-12 inches of hip separation to enable leg extraction. (Timing: Explosive movement)
-4. **Post and elevate**: Plant your posting hand firmly on the mat behind your hips with fingers pointing away. Use this post to elevate your hips and begin transferring weight toward standing position. (Timing: Immediately after hip escape)
-5. **Extract trapped leg**: Pull your trapped leg out of the entanglement by retracting your knee toward your chest while maintaining the protective inward rotation. Use your free leg to push off opponent's hip for additional extraction force. (Timing: Coordinated with hip elevation)
-6. **Technical stand up**: Complete the standing motion using technical stand up mechanics: posting hand stays planted, drive through your base leg, bring extracted leg underneath you, rise to athletic stance with hands ready to defend takedown. (Timing: 2-3 seconds)
+1. **Protect heel**: Rotate your knee inward toward your opposite hip to hide your heel from heel hook exposure. Maintain this protective knee angle throughout the entire extraction sequence.
+2. **Break grips**: Use two-on-one grip fighting to strip opponent's control from your ankle and heel area. Prioritize breaking the cupping hand on your heel first, then the ankle control grip.
+3. **Create hip space**: Explosively shrimp your hips away from opponent while simultaneously pushing off with your free leg. Create 6-12 inches of hip separation to enable leg extraction.
+4. **Post and elevate**: Plant your posting hand firmly on the mat behind your hips with fingers pointing away. Use this post to elevate your hips and begin transferring weight toward standing position.
+5. **Extract trapped leg**: Pull your trapped leg out of the entanglement by retracting your knee toward your chest while maintaining the protective inward rotation. Use your free leg to push off opponent's hip for additional extraction force.
+6. **Technical stand up**: Complete the standing motion using technical stand up mechanics: posting hand stays planted, drive through your base leg, bring extracted leg underneath you, rise to athletic stance with hands ready to defend takedown.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this escape reflects modern competitive reality: when facing a su
 ## Training Progressions
 **Week 1-2** - Grip breaking mechanics
 Practice two-on-one grip breaks from bottom 50-50 without attempting full extraction. Partner holds grips at 50% strength. Master the sequence of breaking heel cup first, then ankle control.
-(Resistance: None)
 
 **Week 3-4** - Extraction sequence
 Add hip escape, posting, and leg extraction after successful grip breaks. Partner allows grip breaks but provides light resistance during extraction phase. Focus on maintaining heel protection throughout.
-(Resistance: Light)
 
 **Week 5-6** - Complete standing sequence
 Execute full extraction to standing with partner providing medium resistance including attempting to re-grip during extraction and light takedown attempts as you stand.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique during positional sparring from bottom 50-50. Partner attacks with full intent to submit. Recognize when extraction is appropriate versus when reversal or counter-attack is better option.
-(Resistance: Full)
 
 
 

@@ -375,11 +375,11 @@ Partner has standing back control. Practice all major escape paths: hip escape t
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 30% | 5% |
-| Intermediate | 25% | 50% | 5% |
-| Advanced     | 40% | 65% | 5% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 32% |
+| Advancement Probability | 58% |
+| Submission Probability | 5% |
 
 **Average Time in Position**: 10-30 seconds (should be escaped quickly or becomes grounded back control)
 

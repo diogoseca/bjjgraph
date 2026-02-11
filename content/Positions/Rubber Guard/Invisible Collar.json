@@ -281,21 +281,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of maintaining position without opponent escaping"
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Probability of advancing to submission or better control"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 62,
-        "advanced": 78,
+        "value": 70,
         "description": "Probability of finishing submission from this position"
       },
       "average_time": "30-90 seconds from establishment to finish or transition"
@@ -526,21 +520,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35,
+        "value": 30,
         "description": "Probability of surviving without tapping"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 30,
-        "advanced": 40,
+        "value": 35,
         "description": "Probability of escaping to better position"
       },
       "submission_probability": {
-        "beginner": 75,
-        "intermediate": 65,
-        "advanced": 55,
+        "value": 60,
         "description": "Probability of being submitted from this position"
       },
       "average_time": "15-45 seconds from establishment to submission or escape"

@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The 50-50 Guard to Outside Ashi transition is a fundamental leg entanglement exchange that breaks the symmetrical stalemate inherent in 50-50 by extracting your trapped leg and repositioning to an asymmetrical outside ashi-garami configuration. This transition is essential for practitioners who find themselves stuck in the mutual leg entanglement of 50-50, where neither competitor has a clear advantage for heel hook or other leg lock finishes.\n\nFrom 50-50 top position, you release your inside control and use hip movement combined with leg threading to clear your leg from the entanglement while simultaneously establishing outside ashi control on your opponent's leg. The transition creates an attacking angle that did not exist in the 50-50 configuration, exposing your opponent's heel for outside heel hook attacks while removing your own leg from danger.\n\nThis technique is strategically critical in modern leg lock systems because 50-50 often becomes a positional stalemate where both practitioners defend each other's heels. The outside ashi transition breaks this symmetry, forcing your opponent into a defensive position while you gain offensive control. The transition also opens pathways to more dominant positions like saddle and inside ashi-garami, making it a gateway technique in the leg entanglement hierarchy.",
   "key_principles": [
     "Release your inside leg control before attempting extraction - fighting against the 50-50 structure wastes energy and strengthens opponent's grip",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Secure heel control",
-      "description": "Establish firm two-handed grip on opponent's heel with dominant hand cupping the Achilles and support hand controlling the ankle. This grip must be maintained throughout the entire transition sequence to prevent opponent from escaping or counter-transitioning.",
-      "timing": "Before initiating any leg movement"
+      "description": "Establish firm two-handed grip on opponent's heel with dominant hand cupping the Achilles and support hand controlling the ankle. This grip must be maintained throughout the entire transition sequence to prevent opponent from escaping or counter-transitioning."
     },
     {
       "step_number": 2,
       "action": "Release inside control",
-      "description": "Deliberately release your inside leg's control position by relaxing the triangle configuration. This feels counterintuitive but is necessary - fighting against the 50-50 structure wastes energy and makes extraction impossible.",
-      "timing": "Once heel grip is secure"
+      "description": "Deliberately release your inside leg's control position by relaxing the triangle configuration. This feels counterintuitive but is necessary - fighting against the 50-50 structure wastes energy and makes extraction impossible."
     },
     {
       "step_number": 3,
       "action": "Rotate hip internally",
-      "description": "Turn your hip inward by pointing your knee toward your opposite shoulder. This internal rotation creates the angle needed for your leg to thread through the entanglement rather than fighting against it. Your leg should begin moving in a circular path, not straight backward.",
-      "timing": "Immediately after releasing inside control"
+      "description": "Turn your hip inward by pointing your knee toward your opposite shoulder. This internal rotation creates the angle needed for your leg to thread through the entanglement rather than fighting against it. Your leg should begin moving in a circular path, not straight backward."
     },
     {
       "step_number": 4,
       "action": "Thread leg through",
-      "description": "Guide your leg through the opening created by the hip rotation, threading it between your opponent's legs and your own body. The movement follows a semicircular path - your foot travels up and over rather than directly backward. Keep your knee bent throughout to reduce the extraction angle.",
-      "timing": "Continuous with hip rotation"
+      "description": "Guide your leg through the opening created by the hip rotation, threading it between your opponent's legs and your own body. The movement follows a semicircular path - your foot travels up and over rather than directly backward. Keep your knee bent throughout to reduce the extraction angle."
     },
     {
       "step_number": 5,
       "action": "Establish outside hook",
-      "description": "As your leg clears the entanglement, immediately swing it over opponent's hip line with your shin or calf crossing their thigh. Your other leg triangles underneath their knee, creating the figure-4 outside ashi configuration. Do not pause between extraction and hook establishment.",
-      "timing": "Immediate upon leg clearing"
+      "description": "As your leg clears the entanglement, immediately swing it over opponent's hip line with your shin or calf crossing their thigh. Your other leg triangles underneath their knee, creating the figure-4 outside ashi configuration. Do not pause between extraction and hook establishment."
     },
     {
       "step_number": 6,
       "action": "Achieve perpendicular angle",
-      "description": "Rotate your entire body to achieve 45-90 degree angle to opponent's body line, facing their trapped leg. Tighten the figure-4 by pulling your inside foot toward your buttocks. Maintain heel grip throughout and immediately threaten outside heel hook to prevent opponent from recovering.",
-      "timing": "Final positioning phase"
+      "description": "Rotate your entire body to achieve 45-90 degree angle to opponent's body line, facing their trapped leg. Tighten the figure-4 by pulling your inside foot toward your buttocks. Maintain heel grip throughout and immediately threaten outside heel hook to prevent opponent from recovering."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice the hip rotation and leg threading motion with no resistance. Partner holds static 50-50 position while you execute 20-30 slow repetitions per side, focusing on the circular extraction path and continuous motion into outside ashi establishment.",
-      "resistance_level": "None"
+      "description": "Practice the hip rotation and leg threading motion with no resistance. Partner holds static 50-50 position while you execute 20-30 slow repetitions per side, focusing on the circular extraction path and continuous motion into outside ashi establishment."
     },
     {
       "phase": "Week 3-4",
       "focus": "Grip maintenance",
-      "description": "Add heel grip maintenance to the drill. Partner provides light pressure while you execute transition without releasing heel control. If grip is lost, reset and repeat. Goal is 10 consecutive successful transitions per side maintaining grip throughout.",
-      "resistance_level": "Light"
+      "description": "Add heel grip maintenance to the drill. Partner provides light pressure while you execute transition without releasing heel control. If grip is lost, reset and repeat. Goal is 10 consecutive successful transitions per side maintaining grip throughout."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter recognition",
-      "description": "Partner adds common counters (racing to outside ashi, stacking, grip stripping) at medium intensity. Practice recognizing counters and adjusting response. Include specific drilling of the your_response options for each counter.",
-      "resistance_level": "Medium"
+      "description": "Partner adds common counters (racing to outside ashi, stacking, grip stripping) at medium intensity. Practice recognizing counters and adjusting response. Include specific drilling of the your_response options for each counter."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Positional sparring from 50-50 with full resistance. Both partners work to establish advantageous leg entanglement. Track success rate and identify common failure points for additional drilling.",
-      "resistance_level": "Full"
+      "description": "Positional sparring from 50-50 with full resistance. Both partners work to establish advantageous leg entanglement. Track success rate and identify common failure points for additional drilling."
     }
   ],
   "variants_and_adaptations": [
@@ -182,53 +167,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the 50-50 Guard to Outside Ashi transition?",
-      "answer": "The primary goal is to break the symmetrical stalemate of 50-50 by extracting your trapped leg and establishing an asymmetrical outside ashi-garami configuration. This creates an attacking angle that exposes your opponent's heel for outside heel hook while removing your own leg from danger, transforming a mutual-threat position into one where you have offensive advantage.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to break the symmetrical stalemate of 50-50 by extracting your trapped leg and establishing an asymmetrical outside ashi-garami configuration. This creates an attacking angle that exposes your opponent's heel for outside heel hook while removing your own leg from danger, transforming a mutual-threat position into one where you have offensive advantage."
     },
     {
       "question": "What position do you start the 50-50 Guard to Outside Ashi transition from?",
-      "answer": "This transition starts from 50-50 Guard top position, where both practitioners have their legs entangled in a symmetrical configuration. You have achieved the top position through superior hip pressure or inside control, giving you slightly better leverage to initiate the transition.",
-      "difficulty": "Beginner"
+      "answer": "This transition starts from 50-50 Guard top position, where both practitioners have their legs entangled in a symmetrical configuration. You have achieved the top position through superior hip pressure or inside control, giving you slightly better leverage to initiate the transition."
     },
     {
       "question": "What are the key grips needed for the 50-50 Guard to Outside Ashi transition?",
-      "answer": "You need secure two-handed heel/ankle control on your opponent's trapped leg throughout the entire transition. The dominant hand cups the Achilles with fingers toward toes, while the support hand controls the ankle joint. This grip must be maintained without release during leg extraction to prevent opponent escape or counter-transition.",
-      "difficulty": "Intermediate"
+      "answer": "You need secure two-handed heel/ankle control on your opponent's trapped leg throughout the entire transition. The dominant hand cups the Achilles with fingers toward toes, while the support hand controls the ankle joint. This grip must be maintained without release during leg extraction to prevent opponent escape or counter-transition."
     },
     {
       "question": "How do you counter the 50-50 Guard to Outside Ashi transition when your opponent attempts it?",
-      "answer": "The most effective counter is to race to your own outside ashi by releasing your leg entanglement and establishing your figure-4 first. Alternatively, strip their heel grip during the transition moment when they are focused on leg extraction, or drive forward to stack them and disrupt their hip rotation mechanics. Following their extraction to enter your own inside ashi also creates mutual threat dynamics.",
-      "difficulty": "Advanced"
+      "answer": "The most effective counter is to race to your own outside ashi by releasing your leg entanglement and establishing your figure-4 first. Alternatively, strip their heel grip during the transition moment when they are focused on leg extraction, or drive forward to stack them and disrupt their hip rotation mechanics. Following their extraction to enter your own inside ashi also creates mutual threat dynamics."
     },
     {
       "question": "When is the optimal timing window to attempt this transition?",
-      "answer": "The optimal timing is when your opponent commits to defending their heel or maintaining static 50-50 structure rather than actively transitioning. Their defensive focus creates the moment where your extraction will meet minimal resistance. Also attempt when you have established superior heel grip and your inside leg has enough freedom to begin the rotation.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when your opponent commits to defending their heel or maintaining static 50-50 structure rather than actively transitioning. Their defensive focus creates the moment where your extraction will meet minimal resistance. Also attempt when you have established superior heel grip and your inside leg has enough freedom to begin the rotation."
     },
     {
       "question": "Why is internal hip rotation essential for successful leg extraction?",
-      "answer": "Internal hip rotation creates a circular extraction path that collapses the opponent's triangle structure rather than fighting against it. Straight backward pulling strengthens their grip and exposes your heel to counter heel hook. The rotation angles your leg to thread through the entanglement along the path of least resistance, making extraction possible even against tight control.",
-      "difficulty": "Intermediate"
+      "answer": "Internal hip rotation creates a circular extraction path that collapses the opponent's triangle structure rather than fighting against it. Straight backward pulling strengthens their grip and exposes your heel to counter heel hook. The rotation angles your leg to thread through the entanglement along the path of least resistance, making extraction possible even against tight control."
     },
     {
       "question": "Your opponent maintains extremely tight inside control - how do you adapt the transition?",
-      "answer": "When opponent has tight inside control, do not force the standard extraction. First create space through hip movement, grip fighting on their controlling leg, or small hip escapes that loosen their triangle. If space creation fails, consider alternative transitions like back take when they overcommit to inside control, or inside ashi entry that works with their grip rather than against it.",
-      "difficulty": "Advanced"
+      "answer": "When opponent has tight inside control, do not force the standard extraction. First create space through hip movement, grip fighting on their controlling leg, or small hip escapes that loosen their triangle. If space creation fails, consider alternative transitions like back take when they overcommit to inside control, or inside ashi entry that works with their grip rather than against it."
     },
     {
       "question": "What body angle should you achieve upon completing the transition and why?",
-      "answer": "You should achieve a 45-90 degree (perpendicular or diagonal) angle to your opponent's body, with your torso facing their trapped leg. This angle maximizes heel hook leverage, creates optimal control through the figure-4 configuration, and makes it difficult for opponent to escape or establish defensive frames. Parallel body position significantly reduces submission effectiveness.",
-      "difficulty": "Intermediate"
+      "answer": "You should achieve a 45-90 degree (perpendicular or diagonal) angle to your opponent's body, with your torso facing their trapped leg. This angle maximizes heel hook leverage, creates optimal control through the figure-4 configuration, and makes it difficult for opponent to escape or establish defensive frames. Parallel body position significantly reduces submission effectiveness."
     },
     {
       "question": "What is the biggest mistake practitioners make during the transition moment?",
-      "answer": "The biggest mistake is releasing heel grip to focus on leg extraction. Without heel control, the opponent escapes entirely or establishes their own superior entanglement. The grip is more important than perfect leg positioning - maintain at least one hand on their heel throughout and adjust your extraction path to accommodate the grip rather than releasing it.",
-      "difficulty": "Intermediate"
+      "answer": "The biggest mistake is releasing heel grip to focus on leg extraction. Without heel control, the opponent escapes entirely or establishes their own superior entanglement. The grip is more important than perfect leg positioning - maintain at least one hand on their heel throughout and adjust your extraction path to accommodate the grip rather than releasing it."
     },
     {
       "question": "How does this transition fit into the broader leg lock system hierarchy?",
-      "answer": "The 50-50 to outside ashi transition is a gateway movement that breaks positional stalemate and opens pathways to more dominant entanglements. Outside ashi itself is transitional, leading to saddle (highest control) or inside ashi (highest finish percentage). Understanding this transition is essential for practitioners who want to flow through the leg lock system rather than getting stuck in 50-50 exchanges.",
-      "difficulty": "Advanced"
+      "answer": "The 50-50 to outside ashi transition is a gateway movement that breaks positional stalemate and opens pathways to more dominant entanglements. Outside ashi itself is transitional, leading to saddle (highest control) or inside ashi (highest finish percentage). Understanding this transition is essential for practitioners who want to flow through the leg lock system rather than getting stuck in 50-50 exchanges."
     }
   ],
   "safety_considerations": "This transition involves leg entanglement positions where heel hooks become immediately available upon completion. Partners must understand that the outside ashi-garami configuration creates significant rotational force on the knee joint when heel hooks are applied. Always train with partners who understand leg lock tap protocols and respect immediate taps. The transition itself is relatively safe, but the resulting position demands caution. Avoid this transition entirely if either partner has existing knee injuries. During drilling, complete the transition without immediately attacking submissions - allow partner to recognize the position before adding submission threats. In competition, be aware that heel hooks are prohibited or restricted in many rulesets based on belt level.",
@@ -270,5 +245,6 @@
       "name": "Ashi Garami Escape",
       "relationship": "Opponent's defensive response to understand"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -174,19 +174,21 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 - **[[Guillotine Choke]]** (13% of attempts)
 
-- **[[High Elbow Guillotine]]** (12% of attempts)
+- **[[High Elbow Guillotine]]** (10% of attempts)
 
-- **[[Arm in Guillotine]]** (12% of attempts)
+- **[[Arm in Guillotine]]** (10% of attempts)
 
-- **[[Front Headlock to Anaconda]]** (11% of attempts)
+- **[[Front Headlock to Anaconda]]** (10% of attempts)
 
-- **[[Front Headlock to Darce]]** (11% of attempts)
+- **[[Front Headlock to Darce]]** (10% of attempts)
 
-- **[[Side Control to Mount]]** (13% of attempts)
+- **[[Side Control to Mount]]** (12% of attempts)
 
-- **[[Side Control to North-South]]** (15% of attempts)
+- **[[Side Control to North-South]]** (12% of attempts)
 
-- **[[Guard Pass]]** (13% of attempts)
+- **[[Guard Pass]]** (12% of attempts)
+
+- **[[Guillotine Counter]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -233,7 +235,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 - **[[Anaconda Control]]** - Alternative submission when opponent turns into guillotine defense
 
-- **[[D'arce Control]]** - Alternative submission when opponent rotates away from guillotine pressure
+- **[[Darce Control]]** - Alternative submission when opponent rotates away from guillotine pressure
 
 - **[[Closed Guard]]** - Common consolidation position from standing guillotine entry
 

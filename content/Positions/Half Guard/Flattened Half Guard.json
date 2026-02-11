@@ -205,21 +205,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Ability to maintain dominant position and prevent opponent's frame recovery"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Likelihood of completing pass to side control or superior position"
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 30,
+        "value": 25,
         "description": "Opportunity for submissions when opponent defends pass attempts"
       },
       "average_time": "20-60 seconds to complete pass or lose position"
@@ -447,21 +441,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Ability to maintain position and prevent pass to side control"
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Likelihood of recovering to functional half guard with frames"
       },
       "submission_probability": {
-        "beginner": 2,
-        "intermediate": 5,
-        "advanced": 10,
+        "value": 8,
         "description": "Extremely low submission rate from defensive position"
       },
       "average_time": "15-45 seconds before pass or recovery"

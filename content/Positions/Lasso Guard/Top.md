@@ -349,11 +349,11 @@ Start every round with partner in established lasso control. Full intensity spar
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 30% | 10% |
-| Intermediate | 55% | 50% | 20% |
-| Advanced     | 70% | 65% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 58% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 60-120 seconds typically required to systematically clear lasso and complete passing sequence
 

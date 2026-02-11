@@ -210,7 +210,7 @@ Submission Control Position represents the critical phase between achieving a su
 
 **Guillotine Control**: Secure the grip and establish guard or mount before applying finishing pressure, control opponent's posture to prevent them standing or creating space, adjust angle based on defensive reactions while maintaining the lock
 
-**D'arce Control**: Lock the D'arce grip and secure the position before squeezing, use body weight to prevent opponent rolling or standing, adjust shoulder positioning to tighten control, maintain connection throughout finishing sequence
+**Darce Control**: Lock the Darce grip and secure the position before squeezing, use body weight to prevent opponent rolling or standing, adjust shoulder positioning to tighten control, maintain connection throughout finishing sequence
 
 **Omoplata Control**: Establish leg control over the shoulder and secure the arm before attempting to finish, use hip pressure to prevent forward rolls, control opponent's base to stop them standing, maintain position while adjusting to sweep or submit
 

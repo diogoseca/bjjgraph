@@ -389,11 +389,11 @@ Start from turtle position. Practice taking back, establishing seat belt control
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 30% | 25% |
-| Intermediate | 55% | 50% | 45% |
-| Advanced     | 75% | 70% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 65% |
+| Advancement Probability | 60% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 1-3 minutes
 

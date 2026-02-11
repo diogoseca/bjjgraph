@@ -15,11 +15,6 @@
   "submission_type": "Groin Compression",
   "target_area": "Hip flexors, groin muscles, and inner thigh adductors",
   "starting_position": "Lockdown",
-  "success_rates": {
-    "beginner": 20,
-    "intermediate": 35,
-    "advanced": 50
-  },
   "overview": "The Crotch Ripper is a compression-based leg lock submission originating from the 10th Planet Jiu-Jitsu system, specifically designed to be executed from the lockdown position in half guard. This technique applies intense pressure to the opponent's groin, hip flexors, and inner thigh muscles through a combination of lockdown control and strategic knee positioning. Unlike traditional joint locks that target specific joints, the Crotch Ripper creates a painful compression that forces the opponent to tap due to muscular strain rather than joint damage. The submission is particularly effective in no-gi grappling where the lockdown can be secured without gi grips interfering with leg positioning. The Crotch Ripper represents the offensive potential of the lockdown system, transforming a traditionally defensive half guard position into a legitimate finishing threat. This technique requires excellent flexibility, hip control, and precise timing to execute effectively, making it a hallmark of the 10th Planet methodology's emphasis on unconventional attacks from bottom positions.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Secure the lockdown position",
       "description": "From half guard bottom, thread your inside leg underneath opponent's trapped leg and establish the lockdown figure-four by grabbing your own ankle or shin. Your outside leg wraps over their thigh while your inside leg hooks under their ankle, creating a tight figure-four configuration that prevents leg extraction.",
-      "timing": "Take 2-3 seconds to properly secure the lockdown before proceeding",
-      "pressure_level": "Moderate"
+      "timing": "Take 2-3 seconds to properly secure the lockdown before proceeding"
     },
     {
       "step_number": 2,
       "action": "Establish underhook control",
       "description": "Secure a deep underhook on the same side as your lockdown, driving your shoulder into opponent's armpit. This underhook is critical for creating the angle necessary for the submission and preventing opponent from flattening you completely. Your underhook hand should grip behind their back or their far lat muscle.",
-      "timing": "Maintain constant underhook pressure throughout",
-      "pressure_level": "Firm"
+      "timing": "Maintain constant underhook pressure throughout"
     },
     {
       "step_number": 3,
       "action": "Create the angle and turn to your side",
       "description": "Use your underhook to turn your body toward the underhook side, rotating onto your side rather than staying flat on your back. This angle is essential - you want to create approximately 45-90 degrees of rotation. Your lockdown should stretch opponent's trapped leg as you turn, and your hips should be mobile, not pinned flat.",
-      "timing": "Smooth rotation over 1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Smooth rotation over 1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Position attacking knee on groin",
       "description": "Your free leg (top leg, not the one in lockdown) now becomes the attacking tool. Bring your knee across and position it directly on opponent's groin area where their inner thigh meets their hip. The bony part of your knee creates the compression point. Your shin should be angled across their groin with your foot potentially hooking behind their far hip.",
-      "timing": "Place knee carefully over 1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "Place knee carefully over 1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Extend hips and apply compression",
       "description": "While maintaining lockdown control and underhook, extend your hips forward and slightly upward. This hip extension drives your knee deeper into opponent's groin while the lockdown prevents their leg from escaping. The compression comes from the combination of your knee pressure and their inability to move away due to the lockdown. Keep your chest connected to them via the underhook.",
-      "timing": "Progressive pressure application over 3-4 seconds minimum",
-      "pressure_level": "Moderate"
+      "timing": "Progressive pressure application over 3-4 seconds minimum"
     },
     {
       "step_number": 6,
       "action": "Adjust and finish with controlled pressure",
       "description": "Make micro-adjustments to your knee position to find the most sensitive area of opponent's groin and inner thigh. Increase pressure gradually by extending your hips more and pulling with your underhook. The submission creates intense muscular compression that becomes increasingly painful. Watch for the tap and release immediately when it occurs. If opponent tries to roll or escape, follow with your underhook while maintaining lockdown and knee pressure.",
-      "timing": "Hold pressure until tap, typically within 2-5 seconds of full application",
-      "pressure_level": "Firm"
+      "timing": "Hold pressure until tap, typically within 2-5 seconds of full application"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,44 +149,37 @@
     {
       "error": "Attempting submission without proper lockdown security first",
       "consequence": "Opponent easily escapes their leg and passes your guard, losing position control",
-      "correction": "Always establish tight lockdown with figure-four secured before attempting any compression. Test lockdown by trying to extend opponent's leg - if it moves easily, lockdown is not secure enough.",
-      "danger_level": "Low"
+      "correction": "Always establish tight lockdown with figure-four secured before attempting any compression. Test lockdown by trying to extend opponent's leg - if it moves easily, lockdown is not secure enough."
     },
     {
       "error": "Staying flat on your back instead of creating angle with underhook",
       "consequence": "No compression is generated because angle is wrong, and opponent easily flattens you to pass",
-      "correction": "Turn onto your side toward underhook, creating 45-90 degrees of rotation. Your shoulder should be off the mat, and you should be looking at opponent's far hip, not straight up at ceiling.",
-      "danger_level": "Low"
+      "correction": "Turn onto your side toward underhook, creating 45-90 degrees of rotation. Your shoulder should be off the mat, and you should be looking at opponent's far hip, not straight up at ceiling."
     },
     {
       "error": "Placing knee on opponent's thigh or hip bone instead of groin muscle",
       "consequence": "No pain compliance achieved, wasted energy, opponent is not threatened by submission",
-      "correction": "Position knee specifically on the soft tissue of groin where inner thigh meets hip. You should feel muscular tissue, not bone. Adjust position based on opponent's reaction - sensitive area will cause immediate discomfort.",
-      "danger_level": "Low"
+      "correction": "Position knee specifically on the soft tissue of groin where inner thigh meets hip. You should feel muscular tissue, not bone. Adjust position based on opponent's reaction - sensitive area will cause immediate discomfort."
     },
     {
       "error": "Applying pressure too quickly without allowing tap time",
       "consequence": "RISK OF MUSCLE TEAR OR GROIN STRAIN - muscular injuries can be severe and long-lasting",
-      "correction": "Apply pressure progressively over 4-6 seconds minimum. Watch opponent's face for signs of distress and listen for verbal tap. This is a pain compliance submission, not a joint lock, so speed is never necessary.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure progressively over 4-6 seconds minimum. Watch opponent's face for signs of distress and listen for verbal tap. This is a pain compliance submission, not a joint lock, so speed is never necessary."
     },
     {
       "error": "Losing underhook control during submission attempt",
       "consequence": "Opponent drives forward and flattens you, passing guard and establishing top pressure",
-      "correction": "Maintain constant underhook pressure throughout submission. Your underhook shoulder should stay connected to opponent's armpit, and your grip should be active. If underhook is lost, reset position before continuing submission attempt.",
-      "danger_level": "Medium"
+      "correction": "Maintain constant underhook pressure throughout submission. Your underhook shoulder should stay connected to opponent's armpit, and your grip should be active. If underhook is lost, reset position before continuing submission attempt."
     },
     {
       "error": "Releasing lockdown too early to adjust knee position",
       "consequence": "Opponent immediately escapes their leg and passes to side control or mount",
-      "correction": "Keep lockdown secured throughout entire submission attempt. Any knee position adjustments should be made while lockdown remains tight. Only release lockdown after successful submission or when deliberately transitioning to different technique.",
-      "danger_level": "Medium"
+      "correction": "Keep lockdown secured throughout entire submission attempt. Any knee position adjustments should be made while lockdown remains tight. Only release lockdown after successful submission or when deliberately transitioning to different technique."
     },
     {
       "error": "Forgetting to release pressure immediately when partner taps",
       "consequence": "RISK OF SERIOUS GROIN OR HIP FLEXOR INJURY requiring weeks of recovery",
-      "correction": "Watch for tap signals constantly during pressure application. The moment tap occurs, immediately release lockdown figure-four and remove knee pressure. Train this release protocol in every repetition until it becomes automatic reflex.",
-      "danger_level": "CRITICAL"
+      "correction": "Watch for tap signals constantly during pressure application. The moment tap occurs, immediately release lockdown figure-four and remove knee pressure. Train this release protocol in every repetition until it becomes automatic reflex."
     }
   ],
   "variations_and_setups": [
@@ -279,50 +261,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Week 1-2)",
-      "timeframe": "First two weeks",
-      "focus": "Learn lockdown mechanics, understand compression points, practice positioning without pressure",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner drills lockdown establishment and knee positioning with zero pressure application. Focus entirely on proper angle creation, underhook control, and finding compression point through partner feedback about position (not pain). No actual submission pressure applied."
-    },
-    {
-      "phase": "Slow Controlled Application (Week 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Practice progressive pressure application, develop sensitivity to partner's tap signals, perfect release protocol",
-      "resistance_level": "None",
-      "safety_emphasis": "Begin applying very light pressure (20-30% maximum) with mandatory 5-6 second progressive buildup. Partner taps early to practice release protocol. Focus on recognizing tap signals immediately and executing smooth release. Verbal communication required after each repetition to confirm pressure levels were safe."
-    },
-    {
-      "phase": "Positional Integration (Week 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Combine with other lockdown attacks, develop submission/sweep dilemmas, work entries from half guard",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner provides light resistance to lockdown and underhook but allows position to develop. Practice transitioning between Crotch Ripper threat and Electric Chair sweep. Pressure application remains controlled at 40-50% maximum. Emphasize creating dilemmas rather than forcing submission finish."
-    },
-    {
-      "phase": "Defensive Awareness (Week 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Learn to recognize and defend Crotch Ripper, understand opponent's defensive options, develop counters",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Switch roles - spend significant time defending Crotch Ripper to understand what tap-worthy pressure feels like and how to defend safely. Learn to communicate when pressure is approaching tap threshold. This defensive experience builds empathy and safety awareness for when you apply the technique."
-    },
-    {
-      "phase": "Live Integration (Week 13-16)",
-      "timeframe": "Weeks 13-16",
-      "focus": "Use in live rolling from half guard bottom, chain with other attacks, develop timing and setup",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Apply in live rolling but maintain training speed (never competition speed). Pressure application should still be progressive (4-5 seconds minimum). Partner should tap early rather than late. If you find yourself wanting to apply pressure faster, this indicates you should return to earlier drilling phases. Prioritize position control and threat creation over actual finishing."
-    },
-    {
-      "phase": "Ongoing Maintenance (Week 17+)",
-      "timeframe": "Ongoing",
-      "focus": "Maintain technique sharpness, continue safety emphasis, mentor newer students on proper application",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even with extensive experience, never abandon progressive pressure application in training. Use this submission as position control and sweep setup rather than primary finishing option in hard training. When teaching others, emphasize safety protocols first, technique second. Remember that compression submissions require more safety awareness than joint locks due to muscular injury potential."
-    }
-  ],
   "from_positions": [
     "Lockdown",
     "Half Guard",
@@ -377,5 +315,6 @@
       "name": "Twister Control",
       "relationship": "Advanced 10th Planet position accessible from lockdown system"
     }
-  ]
+  ],
+  "success_rate": 42
 }

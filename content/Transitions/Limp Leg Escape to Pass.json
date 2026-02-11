@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Limp Leg Escape is the fundamental defensive technique for escaping the Electric Chair position from top half guard. When caught in the opponent's lockdown with their hips extended and splitting pressure applied, the natural instinct is to pull the trapped leg out forcefully. This approach fails because muscular tension makes the leg rigid and more susceptible to the joint manipulation that defines the Electric Chair submission. The limp leg concept reverses this paradigm by deliberately relaxing the trapped leg, reducing its diameter and making extraction significantly easier.\n\nThis escape exemplifies the counter-intuitive nature of high-level grappling defense. By removing tension from the trapped leg, the practitioner eliminates the fulcrum that the bottom player needs to create splitting pressure. A relaxed leg is harder to control and manipulate because it provides no resistance point for the lockdown's leverage mechanics. Combined with proper upper body positioning and forward pressure, the limp leg creates space for systematic extraction while neutralizing the submission threat.\n\nThe technique integrates seamlessly with standard half guard passing strategies. Once the leg is extracted through the limp leg mechanics, the top player can immediately transition to knee slice, smash pass, or other high-percentage passing sequences. Understanding this escape is essential for any practitioner facing lockdown-based half guards, as it provides the primary pathway out of an otherwise dangerous position.",
   "key_principles": [
     "Completely relax the trapped leg to reduce its circumference and eliminate the resistance point that enables lockdown leverage",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Recognize position",
-      "description": "Identify that opponent has secured the Electric Chair configuration with lockdown engaged on your leg and their hips beginning to extend. Early recognition is critical as the submission becomes increasingly dangerous with greater extension.",
-      "timing": "Immediate upon feeling hip extension pressure"
+      "description": "Identify that opponent has secured the Electric Chair configuration with lockdown engaged on your leg and their hips beginning to extend. Early recognition is critical as the submission becomes increasingly dangerous with greater extension."
     },
     {
       "step_number": 2,
       "action": "Establish upper body control",
-      "description": "Drive your weight forward and establish strong crossface with your nearside arm, positioning your shoulder into opponent's jaw and chin. This prevents them from achieving the perpendicular angle needed for maximum submission pressure.",
-      "timing": "Before attempting any leg extraction"
+      "description": "Drive your weight forward and establish strong crossface with your nearside arm, positioning your shoulder into opponent's jaw and chin. This prevents them from achieving the perpendicular angle needed for maximum submission pressure."
     },
     {
       "step_number": 3,
       "action": "Relax trapped leg completely",
-      "description": "Consciously release all muscular tension in your trapped leg from hip to toes. Let the leg go completely limp rather than tensing against the lockdown. This reduces leg diameter and removes the resistance point the lockdown requires.",
-      "timing": "While maintaining forward pressure"
+      "description": "Consciously release all muscular tension in your trapped leg from hip to toes. Let the leg go completely limp rather than tensing against the lockdown. This reduces leg diameter and removes the resistance point the lockdown requires."
     },
     {
       "step_number": 4,
       "action": "Address foot triangle",
-      "description": "Use your free hand to reach down and separate opponent's feet that form the figure-four triangle of the lockdown. Apply knee pressure to the inside of their triangle to create space. The foot triangle must be compromised before extraction is possible.",
-      "timing": "After leg is fully relaxed"
+      "description": "Use your free hand to reach down and separate opponent's feet that form the figure-four triangle of the lockdown. Apply knee pressure to the inside of their triangle to create space. The foot triangle must be compromised before extraction is possible."
     },
     {
       "step_number": 5,
       "action": "Drive knee toward hip",
-      "description": "With the leg relaxed and triangle compromised, drive your knee directly toward opponent's hip in a circular motion. This shortens the path of extraction and reduces the angle that makes the lockdown effective. Maintain forward pressure throughout.",
-      "timing": "As you feel triangle loosen"
+      "description": "With the leg relaxed and triangle compromised, drive your knee directly toward opponent's hip in a circular motion. This shortens the path of extraction and reduces the angle that makes the lockdown effective. Maintain forward pressure throughout."
     },
     {
       "step_number": 6,
       "action": "Extract and establish pass",
-      "description": "Complete the leg extraction by pulling your knee through the compromised lockdown while keeping crossface pressure. Immediately transition to half guard passing position such as knee slice or smash pass before opponent can re-engage the lockdown.",
-      "timing": "Immediately chain to passing"
+      "description": "Complete the leg extraction by pulling your knee through the compromised lockdown while keeping crossface pressure. Immediately transition to half guard passing position such as knee slice or smash pass before opponent can re-engage the lockdown."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Limp leg mechanics",
-      "description": "Practice the sensation of completely relaxing the trapped leg while partner holds static lockdown. Focus on releasing all tension from hip to toes. Partner provides position but no active resistance. Drill 20-30 repetitions per session focusing on the mental component of relaxation.",
-      "resistance_level": "None"
+      "description": "Practice the sensation of completely relaxing the trapped leg while partner holds static lockdown. Focus on releasing all tension from hip to toes. Partner provides position but no active resistance. Drill 20-30 repetitions per session focusing on the mental component of relaxation."
     },
     {
       "phase": "Week 3-4",
       "focus": "Upper body control integration",
-      "description": "Combine limp leg with crossface establishment and forward pressure. Partner holds Electric Chair position with light resistance. Work the complete sequence: crossface, relax leg, break triangle, extract. Focus on maintaining forward pressure throughout the escape.",
-      "resistance_level": "Light"
+      "description": "Combine limp leg with crossface establishment and forward pressure. Partner holds Electric Chair position with light resistance. Work the complete sequence: crossface, relax leg, break triangle, extract. Focus on maintaining forward pressure throughout the escape."
     },
     {
       "phase": "Week 5-6",
       "focus": "Transition chaining",
-      "description": "Add immediate passing sequences after successful extraction. Partner provides medium resistance and may attempt counters. Practice knee slice and smash pass entries directly from the escape. Work counter-responses when partner transitions to Deep Half.",
-      "resistance_level": "Medium"
+      "description": "Add immediate passing sequences after successful extraction. Partner provides medium resistance and may attempt counters. Practice knee slice and smash pass entries directly from the escape. Work counter-responses when partner transitions to Deep Half."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Positional sparring starting in Electric Chair. Top player works complete escape and pass. Bottom player uses full resistance including transition attempts. Reset after successful pass or sweep. Track success rate and identify remaining technical gaps.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting in Electric Chair. Top player works complete escape and pass. Bottom player uses full resistance including transition attempts. Reset after successful pass or sweep. Track success rate and identify remaining technical gaps."
     }
   ],
   "variants_and_adaptations": [
@@ -182,53 +167,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Limp Leg Escape?",
-      "answer": "The primary goal is to extract your trapped leg from the opponent's lockdown and Electric Chair configuration by removing muscular tension from the leg. This neutralizes the submission threat and allows transition to half guard passing position.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to extract your trapped leg from the opponent's lockdown and Electric Chair configuration by removing muscular tension from the leg. This neutralizes the submission threat and allows transition to half guard passing position."
     },
     {
       "question": "Why does relaxing the trapped leg make escape easier rather than harder?",
-      "answer": "A tense leg provides a rigid fulcrum that the lockdown uses to create splitting pressure. By relaxing the leg completely, you reduce its diameter and eliminate the resistance point. The lockdown cannot generate submission pressure against a completely limp limb because there is nothing to lever against.",
-      "difficulty": "Intermediate"
+      "answer": "A tense leg provides a rigid fulcrum that the lockdown uses to create splitting pressure. By relaxing the leg completely, you reduce its diameter and eliminate the resistance point. The lockdown cannot generate submission pressure against a completely limp limb because there is nothing to lever against."
     },
     {
       "question": "Your opponent begins extending their hips aggressively for the submission - what immediate adjustment do you make?",
-      "answer": "Drive your chest weight forward into opponent while simultaneously relaxing your trapped leg. Use your free leg to push their hips flat to the mat, preventing them from achieving the perpendicular angle needed for maximum submission pressure. The forward pressure combined with limp leg nullifies their extension.",
-      "difficulty": "Intermediate"
+      "answer": "Drive your chest weight forward into opponent while simultaneously relaxing your trapped leg. Use your free leg to push their hips flat to the mat, preventing them from achieving the perpendicular angle needed for maximum submission pressure. The forward pressure combined with limp leg nullifies their extension."
     },
     {
       "question": "What upper body control must be established before attempting leg extraction?",
-      "answer": "Strong crossface control with your nearside arm positioned so your shoulder drives into opponent's jaw and chin. This limits their ability to adjust angle, prevents back take attempts, and maintains the forward pressure that makes limp leg effective.",
-      "difficulty": "Beginner"
+      "answer": "Strong crossface control with your nearside arm positioned so your shoulder drives into opponent's jaw and chin. This limits their ability to adjust angle, prevents back take attempts, and maintains the forward pressure that makes limp leg effective."
     },
     {
       "question": "How do you break the foot triangle that forms the lockdown before extraction?",
-      "answer": "Use your free hand to reach down and physically separate opponent's feet while applying knee pressure to the inside of their triangle. The figure-four must be compromised before any extraction attempt will succeed. Never try to pull through an intact lockdown triangle.",
-      "difficulty": "Intermediate"
+      "answer": "Use your free hand to reach down and physically separate opponent's feet while applying knee pressure to the inside of their triangle. The figure-four must be compromised before any extraction attempt will succeed. Never try to pull through an intact lockdown triangle."
     },
     {
       "question": "Your opponent releases the lockdown and attempts to roll backward for Old School sweep - how do you respond?",
-      "answer": "Immediately establish deep whizzer control on their underhooking arm and sprawl your hips away from their roll. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents sweep completion and can be used to counter directly to side control.",
-      "difficulty": "Advanced"
+      "answer": "Immediately establish deep whizzer control on their underhooking arm and sprawl your hips away from their roll. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents sweep completion and can be used to counter directly to side control."
     },
     {
       "question": "What is the correct direction to drive your knee during extraction?",
-      "answer": "Drive your knee directly toward opponent's hip in a circular motion. This shortens the extraction path and reduces the effective angle of the lockdown. Driving away from the hip or straight back increases the distance and makes extraction significantly harder.",
-      "difficulty": "Intermediate"
+      "answer": "Drive your knee directly toward opponent's hip in a circular motion. This shortens the extraction path and reduces the effective angle of the lockdown. Driving away from the hip or straight back increases the distance and makes extraction significantly harder."
     },
     {
       "question": "After successfully extracting your leg, what should you do immediately?",
-      "answer": "Immediately transition to a passing sequence such as knee slice or smash pass. Never pause in half guard top position after escaping. Any hesitation allows opponent to re-engage lockdown or transition to alternative guard positions like Deep Half.",
-      "difficulty": "Beginner"
+      "answer": "Immediately transition to a passing sequence such as knee slice or smash pass. Never pause in half guard top position after escaping. Any hesitation allows opponent to re-engage lockdown or transition to alternative guard positions like Deep Half."
     },
     {
       "question": "Your opponent transitions to Deep Half Guard as your lockdown breaks - what is your response?",
-      "answer": "Recognize the transition by feeling their hips drop underneath you. Immediately sprawl your hips low and establish strong head control or crossface to prevent them from completing the Deep Half entry. Use the momentum of their transition to drive forward and flatten them before they can establish hooks.",
-      "difficulty": "Advanced"
+      "answer": "Recognize the transition by feeling their hips drop underneath you. Immediately sprawl your hips low and establish strong head control or crossface to prevent them from completing the Deep Half entry. Use the momentum of their transition to drive forward and flatten them before they can establish hooks."
     },
     {
       "question": "How should you distribute your weight to minimize sweep and submission threats throughout the escape?",
-      "answer": "Keep approximately 70% of weight forward on chest and shoulder pressure against opponent. Never lean back or post hands behind you. Free leg should be posted wide at 45-degree angle for maximum base. Hips stay as low as possible while driving forward to prevent elevation.",
-      "difficulty": "Intermediate"
+      "answer": "Keep approximately 70% of weight forward on chest and shoulder pressure against opponent. Never lean back or post hands behind you. Free leg should be posted wide at 45-degree angle for maximum base. Hips stay as low as possible while driving forward to prevent elevation."
     }
   ],
   "safety_considerations": "The Limp Leg Escape carries lower injury risk than many techniques because it relies on relaxation rather than force. However, practitioners must be aware that forcing extraction through a tight lockdown with a tense leg can cause significant knee and ankle strain. Always relax the leg fully before attempting extraction. During training, communicate clearly with partners about the intensity of lockdown pressure. If you feel sharp pain in the knee or ankle during the escape attempt, tap immediately rather than forcing through. Partners should release lockdown pressure if the top player taps or indicates discomfort. Progressive resistance drilling allows the body to adapt to the position's demands safely.",
@@ -274,5 +249,6 @@
       "name": "Side Control",
       "relationship": "Ultimate destination - target position after passing from escaped half guard"
     }
-  ]
+  ],
+  "success_rate": 58
 }

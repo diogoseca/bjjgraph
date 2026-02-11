@@ -163,7 +163,7 @@ The technique follows the classical technical stand up pattern adapted specifica
 Strategically, this escape is most viable when grips are partially established but body pressure has not fully consolidated. The decision to attempt a technical stand up versus sitting to guard or accepting back control depends on reading the attacker's weight distribution and grip depth. When the attacker's hips are high or their weight is committed forward, the technical stand up becomes significantly more viable because the defender can use their hip escape motion to create the initial distance needed for the posting hand.
 
 **From Position**: [[Buggy Choke/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this escape is most viable when grips are partially established b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess grip depth**: Evaluate whether the opponent's threading arm has achieved deep collar access. If the second grip is not yet secured or body pressure is uncommitted, the technical stand up window is open. This assessment must happen in under one second. (Timing: Immediate upon recognizing buggy choke threat)
-2. **Post base hand**: Plant your far-side hand firmly on the mat behind your hip, fingers pointing away from the opponent. This hand becomes the structural foundation for the entire standing sequence and must be placed far enough back to allow full hip extension. (Timing: Simultaneously with step 3)
-3. **Address threading arm**: With your near-side hand, grip the opponent's threading arm at the wrist or forearm and pull it away from your collar. Do not try to fully strip the grip yet, just reduce depth enough to prevent the choke from tightening as you create distance. (Timing: Simultaneously with step 2)
-4. **Explosive hip escape**: Drive your hips away from the opponent in a powerful shrimping motion while keeping your base hand posted. Your hips should move laterally and slightly backward, creating enough space between your torso and the opponent to begin the standing motion. The near-side foot slides to a flat position on the mat. (Timing: Immediate explosive movement)
-5. **Rise to standing base**: Push off the posted hand and near-side foot simultaneously, driving your hips upward and forward. Bring the far-side foot underneath your center of gravity. Your spine should extend vertically, breaking the compressed turtle posture that enables the buggy choke mechanics. (Timing: Within 1-2 seconds of hip escape)
-6. **Complete standing posture**: Achieve full standing posture with weight balanced over both feet. Maintain grip control on the opponent's threading arm with your near hand, using a two-on-one or wrist control to prevent them from re-establishing the choke from standing. (Timing: Continuous motion from step 5)
-7. **Face opponent and disengage**: Immediately rotate to face the opponent, preventing them from circling to your back. Strip any remaining collar grips using circular motion against the thumb. Establish appropriate distance for either re-engaging on your terms or creating a full reset to standing position. (Timing: Immediately upon reaching standing)
+1. **Assess grip depth**: Evaluate whether the opponent's threading arm has achieved deep collar access. If the second grip is not yet secured or body pressure is uncommitted, the technical stand up window is open. This assessment must happen in under one second.
+2. **Post base hand**: Plant your far-side hand firmly on the mat behind your hip, fingers pointing away from the opponent. This hand becomes the structural foundation for the entire standing sequence and must be placed far enough back to allow full hip extension.
+3. **Address threading arm**: With your near-side hand, grip the opponent's threading arm at the wrist or forearm and pull it away from your collar. Do not try to fully strip the grip yet, just reduce depth enough to prevent the choke from tightening as you create distance.
+4. **Explosive hip escape**: Drive your hips away from the opponent in a powerful shrimping motion while keeping your base hand posted. Your hips should move laterally and slightly backward, creating enough space between your torso and the opponent to begin the standing motion. The near-side foot slides to a flat position on the mat.
+5. **Rise to standing base**: Push off the posted hand and near-side foot simultaneously, driving your hips upward and forward. Bring the far-side foot underneath your center of gravity. Your spine should extend vertically, breaking the compressed turtle posture that enables the buggy choke mechanics.
+6. **Complete standing posture**: Achieve full standing posture with weight balanced over both feet. Maintain grip control on the opponent's threading arm with your near hand, using a two-on-one or wrist control to prevent them from re-establishing the choke from standing.
+7. **Face opponent and disengage**: Immediately rotate to face the opponent, preventing them from circling to your back. Strip any remaining collar grips using circular motion against the thumb. Establish appropriate distance for either re-engaging on your terms or creating a full reset to standing position.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, this escape is most viable when grips are partially established b
 ## Training Progressions
 **Week 1-2** - Solo mechanics and posting pattern
 Practice the technical stand up sequence solo, focusing on proper base hand placement, hip escape motion, and the continuous rising pattern from turtle to standing. Perform 20 repetitions per side per session, emphasizing smooth transitions between each phase. Add a partner in passive turtle top position (no grips) to practice the movement with spatial awareness of another body.
-(Resistance: None)
 
 **Week 3-4** - Threading arm management under light resistance
 Partner establishes light buggy choke grips (threading arm at 25-50% depth) while you practice the full technical stand up with grip address. Focus on timing the simultaneous post-and-strip action. Partner provides feedback on whether the threading arm was adequately neutralized during the standing motion. Drill 10-15 repetitions with progressive grip depth.
-(Resistance: Light)
 
 **Week 5-6** - Window recognition and decision-making
 Partner varies between light and heavy pressure, shallow and deep grips. You must read the situation and decide whether the technical stand up window is open or whether an alternative escape is appropriate. If the window is open, execute the full stand up. If closed, transition to sitting to guard or accepting back control. Builds critical situational assessment under realistic conditions.
-(Resistance: Medium)
 
 **Week 7-8** - Full resistance positional sparring
 Start in buggy choke bottom with partner applying full competitive pressure. Attempt to escape using the technical stand up when appropriate, or choose alternative escapes when the window is closed. Score successful stand-ups and track the percentage of correct window assessments versus attempts against consolidated control. Integrate into regular sparring rounds from turtle bottom.
-(Resistance: Full)
 
 
 

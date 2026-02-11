@@ -159,7 +159,7 @@ description: "Master Uchi Mata in BJJ. Complete standing throw from Clinch to Mo
 The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile throwing techniques, highly effective in both gi and no-gi grappling. Translated as 'inner thigh reap,' this technique involves using your inner thigh to sweep your opponent's supporting leg while simultaneously rotating them over your hip. The Uchi Mata is particularly effective against taller opponents or those who stand upright in the clinch, as it exploits their high center of gravity. When executed properly, this throw generates tremendous force and typically results in a direct transition to side control or mount, making it one of the highest-percentage scoring techniques in BJJ competition. The technique requires precise timing, proper kuzushi (off-balancing), and coordinated hip and leg movement. Unlike some throws that rely purely on strength, Uchi Mata is a technical throw that uses rotational momentum and leverage to amplify your power. Its effectiveness has made it a staple in the arsenals of many high-level BJJ competitors who incorporate judo into their standing game.
 
 **From Position**: [[Clinch/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -207,13 +207,13 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw) and control the left sleeve or tricep. In no-gi, establish an over-under or underhook position. Your grips should be strong enough to control your opponent's upper body throughout the throw. (Timing: Before initiating movement)
-2. **Break opponent's posture**: Pull downward and forward with your collar grip while simultaneously pushing or pulling with your sleeve hand to break your opponent's upright posture. They should feel slightly off-balance forward and to their left side. This is the critical kuzushi phase that makes the throw possible. (Timing: 1-2 seconds before entry)
-3. **Step in with entry foot**: Step your right foot deep between your opponent's legs, placing it slightly to the outside of their right foot. Your foot should point in the direction you're throwing (toward their left side). This step should be explosive and committed, bringing your hip in close contact with their hip. (Timing: Immediately after kuzushi)
-4. **Rotate hips and load opponent**: Rotate your hips clockwise (for right-sided throw) while simultaneously pulling your opponent onto your right hip. Your right hip should make contact with their right hip area. As you rotate, lift your left leg and begin sweeping it backward and upward toward their right inner thigh. (Timing: Continuous motion from step)
-5. **Execute inner thigh sweep**: Drive your left leg upward and backward in a sweeping arc, making contact with the inside of your opponent's right thigh (their supporting leg). The sweep should be explosive and timed with your hip rotation. Your leg acts like a pendulum, combining with the rotational force to lift them off the ground. (Timing: Peak of rotation)
-6. **Complete rotation and control descent**: Continue rotating your upper body clockwise while pulling your opponent over your hip with your grips. As they go airborne, maintain grip control to guide their landing. Follow through with your rotation, turning your body to face the direction of the throw so you land in side control or north-south position. (Timing: As opponent becomes airborne)
-7. **Establish top position**: As your opponent lands on their back, immediately establish chest-to-chest pressure and secure side control or transition to mount. Use your grips to control their upper body and prevent them from turning to turtle or re-guarding. Consolidate your position before pursuing submissions. (Timing: Immediately upon landing)
+1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw) and control the left sleeve or tricep. In no-gi, establish an over-under or underhook position. Your grips should be strong enough to control your opponent's upper body throughout the throw.
+2. **Break opponent's posture**: Pull downward and forward with your collar grip while simultaneously pushing or pulling with your sleeve hand to break your opponent's upright posture. They should feel slightly off-balance forward and to their left side. This is the critical kuzushi phase that makes the throw possible.
+3. **Step in with entry foot**: Step your right foot deep between your opponent's legs, placing it slightly to the outside of their right foot. Your foot should point in the direction you're throwing (toward their left side). This step should be explosive and committed, bringing your hip in close contact with their hip.
+4. **Rotate hips and load opponent**: Rotate your hips clockwise (for right-sided throw) while simultaneously pulling your opponent onto your right hip. Your right hip should make contact with their right hip area. As you rotate, lift your left leg and begin sweeping it backward and upward toward their right inner thigh.
+5. **Execute inner thigh sweep**: Drive your left leg upward and backward in a sweeping arc, making contact with the inside of your opponent's right thigh (their supporting leg). The sweep should be explosive and timed with your hip rotation. Your leg acts like a pendulum, combining with the rotational force to lift them off the ground.
+6. **Complete rotation and control descent**: Continue rotating your upper body clockwise while pulling your opponent over your hip with your grips. As they go airborne, maintain grip control to guide their landing. Follow through with your rotation, turning your body to face the direction of the throw so you land in side control or north-south position.
+7. **Establish top position**: As your opponent lands on their back, immediately establish chest-to-chest pressure and secure side control or transition to mount. Use your grips to control their upper body and prevent them from turning to turtle or re-guarding. Consolidate your position before pursuing submissions.
 
 
 </section>
@@ -259,27 +259,21 @@ The Uchi Mata (inner thigh throw) is one of judo's most powerful and versatile t
 ## Training Progressions
 **Week 1-2: Entry mechanics** - Master the stepping and hip placement without resistance
 Practice the entry step repeatedly with a compliant partner. Focus on stepping deep, making hip contact, and proper foot placement. Drill kuzushi separately. Execute 20-30 entries per session without completing the throw. Partner should provide feedback on hip contact and positioning.
-(Resistance: None)
 
 **Week 3-4: Leg sweep timing** - Add the inner thigh sweeping motion to the entry
 Continue drilling entries but now add the leg sweep component. Partner remains compliant but provides slight resistance by maintaining base. Focus on timing the sweep with hip rotation. Practice 15-20 repetitions per session, gradually increasing sweep speed and power.
-(Resistance: Light)
 
 **Week 5-8: Complete throw with control** - Execute full throw and establish top position
 Perform complete throws with cooperative partner. Partner takes proper breakfalls. Focus on controlling the descent and immediately establishing side control or mount after the throw. Drill throw-to-submission sequences. Execute 10-15 full throws per session with emphasis on positional control.
-(Resistance: Light)
 
 **Week 9-12: Dynamic entries and setups** - Chain Uchi Mata with other techniques and add resistance
 Practice Uchi Mata combinations: fake Uchi Mata to Osoto Gari, Kouchi to Uchi Mata, grip fighting to Uchi Mata. Partner provides moderate resistance and movement. Work entries from different grip configurations. Begin implementing in positional sparring from standing.
-(Resistance: Medium)
 
 **Week 13+: Live application** - Execute against full resistance in sparring
 Attempt Uchi Mata during regular standing sparring and competition training. Focus on timing, setups, and capitalizing on opponent's movement. Analyze failed attempts and adjust technique. Begin incorporating no-gi variations and adapting to different body types and styles.
-(Resistance: Full)
 
 **Ongoing: Refinement and teaching** - Perfect technique and develop personal variations
 Continuously refine mechanics based on success rate in live training. Develop sensitivity to weight distribution and timing windows. Experiment with different grips, angles, and setups. Begin teaching the technique to junior students to deepen understanding. Study high-level competitors' applications of Uchi Mata.
-(Resistance: Full)
 
 
 
@@ -366,7 +360,7 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 - [[Side Control]] - Primary landing position - immediate follow-up after successful throw
 - [[Mount]] - Alternative landing position - transition here if opponent turns during throw
 - [[Kimura from Side Control]] - Follow-up submission - natural attack after establishing side control from throw
-- [[Seoi Nage]] - Alternative throw - use when opponent defends Uchi Mata by preventing hip contact
+- [[Ippon Seoi Nage]] - Alternative throw - use when opponent defends Uchi Mata by preventing hip contact
 - [[Single Leg Takedown]] - Alternative takedown - chain to this if Uchi Mata entry is defended
 - [[Front Headlock]] - Backup position - if throw fails, secure front headlock during scramble
 - [[Body Lock]] - Setup position - establish body lock as entry point for no-gi Uchi Mata variation

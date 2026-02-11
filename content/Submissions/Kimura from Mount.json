@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (glenohumeral joint, rotator cuff)",
   "starting_position": "Mount",
-  "success_rates": {
-    "beginner": 50,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Kimura from Mount represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, combining the dominant control of mount with the mechanical advantage of the double-wrist grip. This submission targets the shoulder joint through a figure-four grip configuration that isolates the opponent's arm while leveraging superior positional control. From mount, the attacking grappler can transition seamlessly between maintaining positional dominance and applying submission pressure, creating a strategic dilemma where defensive movements often expose additional attacks. The technique's effectiveness stems from the ability to use bodyweight, hip pressure, and precise angle creation to generate overwhelming torque on the shoulder capsule. Unlike Kimuras from other positions, the mount variation offers exceptional control over the opponent's ability to roll or escape, making it particularly reliable in both training and competition scenarios. The submission can be finished while maintaining mount or used as a transition mechanism to take the back or establish other dominant positions.",
   "safety_considerations": {
     "injury_risks": [
@@ -95,43 +90,37 @@
       "step_number": 1,
       "action": "Establish Mount Control and Isolate the Arm",
       "description": "From high mount, use your chest pressure and hip control to pin opponent flat. Bait or force their arm across their body by threatening attacks to the opposite side, or wait for them to frame against your chest. When the arm extends, immediately trap their wrist with your same-side hand (if attacking right arm, use your right hand). Pin their wrist to the mat or their chest to prevent retraction.",
-      "timing": "2-3 seconds to establish position",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to establish position"
     },
     {
       "step_number": 2,
       "action": "Feed the Wrist and Secure Figure-Four Grip",
       "description": "While maintaining wrist control, thread your opposite hand (left hand for right arm attack) underneath their elbow and grip your own wrist, creating the figure-four configuration. Your grip should be as deep as possible on your wrist - the further from their arm you grip, the more leverage you create. Keep their elbow bent at approximately 90 degrees and tight to their torso during this transition.",
-      "timing": "1-2 seconds for grip transition",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds for grip transition"
     },
     {
       "step_number": 3,
       "action": "Create Angle and Establish Base",
       "description": "Shift your hips and upper body toward the trapped arm side, creating a perpendicular angle to their body. Your chest should now be oriented toward their head rather than directly down on their torso. Maintain one knee tight against their ribs on the trapped arm side while extending the other leg for base. This angle is critical - it aligns your body mechanics for optimal torque application.",
-      "timing": "1-2 seconds for positional adjustment",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds for positional adjustment"
     },
     {
       "step_number": 4,
       "action": "Lift the Elbow and Control Height",
       "description": "Using your figure-four grip, lift their elbow off the mat while keeping their hand pinned toward their body or the mat. The elbow should rise to approximately the height of their ribcage or slightly higher. This creates the necessary leverage arm for the submission. Keep their wrist close to their body - if their hand moves too far from their torso, the submission loses effectiveness.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Walk Hands Toward Head",
       "description": "While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward their head. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes when their hand reaches ear level.",
-      "timing": "3-5 seconds progressive application",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive application"
     },
     {
       "step_number": 6,
       "action": "Finish or Transition",
       "description": "Continue the circular rotation until opponent taps. If they resist strongly or begin to roll, be prepared to transition: maintain your figure-four grip and follow their roll to take the back, or step over their head into an armbar position. Never release the grip prematurely - the Kimura control allows multiple submission and positional options even if the shoulder lock itself doesn't finish immediately.",
-      "timing": "Until tap or transition initiated",
-      "pressure_level": "Maximum"
+      "timing": "Until tap or transition initiated"
     }
   ],
   "opponent_defense_patterns": [
@@ -165,44 +154,37 @@
     {
       "error": "Releasing mount pressure while attempting the submission",
       "consequence": "Opponent escapes mount position, or successfully bridges and reverses position before submission can be secured",
-      "correction": "Keep your hips heavy and low throughout the entire sequence. Your weight should constantly pressure down through your knees and hips into opponent's torso. Never sacrifice positional control for submission speed.",
-      "danger_level": "Low"
+      "correction": "Keep your hips heavy and low throughout the entire sequence. Your weight should constantly pressure down through your knees and hips into opponent's torso. Never sacrifice positional control for submission speed."
     },
     {
       "error": "Gripping too close to opponent's arm on the figure-four (hands too close together)",
       "consequence": "Insufficient leverage to generate adequate shoulder torque - submission lacks power and opponent can easily defend",
-      "correction": "Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four.",
-      "danger_level": "Low"
+      "correction": "Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four."
     },
     {
       "error": "Lifting straight up instead of rotating in circular arc toward head",
       "consequence": "Incorrect pressure angle fails to engage shoulder joint properly - submission feels weak and opponent can resist indefinitely",
-      "correction": "The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.",
-      "danger_level": "Low"
+      "correction": "The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight."
     },
     {
       "error": "Allowing opponent's hand to move away from their body",
       "consequence": "Loss of mechanical advantage and submission pressure - arm position becomes too extended for effective shoulder lock",
-      "correction": "Keep their wrist pinned toward their body or chest throughout. The closer their hand stays to their torso, the more effective the rotational pressure on the shoulder joint.",
-      "danger_level": "Low"
+      "correction": "Keep their wrist pinned toward their body or chest throughout. The closer their hand stays to their torso, the more effective the rotational pressure on the shoulder joint."
     },
     {
       "error": "Failing to create proper perpendicular angle before applying pressure",
       "consequence": "Poor body positioning reduces leverage and allows opponent to defend easily or escape mount",
-      "correction": "Before attempting the finish, ensure your chest is perpendicular to their body, oriented toward their head. This angle alignment is essential for generating proper torque while maintaining mount control.",
-      "danger_level": "Medium"
+      "correction": "Before attempting the finish, ensure your chest is perpendicular to their body, oriented toward their head. This angle alignment is essential for generating proper torque while maintaining mount control."
     },
     {
       "error": "Applying explosive or jerking rotational pressure",
       "consequence": "CRITICAL SAFETY VIOLATION: Can cause immediate rotator cuff tear, shoulder dislocation, or labrum damage without giving opponent time to tap safely",
-      "correction": "ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum in training. The submission should build gradually, allowing clear opportunity to tap. Save competition speed for competition only.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum in training. The submission should build gradually, allowing clear opportunity to tap. Save competition speed for competition only."
     },
     {
       "error": "Continuing pressure after hearing popping or clicking sounds from shoulder",
       "consequence": "CRITICAL SAFETY VIOLATION: Joint sounds indicate structural damage is occurring - continued pressure causes severe injury requiring surgery",
-      "correction": "IMMEDIATELY release all pressure at first sign of joint noise. Follow release protocol and check partner's shoulder health before resuming. Joint sounds are not normal and indicate injury in progress.",
-      "danger_level": "CRITICAL"
+      "correction": "IMMEDIATELY release all pressure at first sign of joint noise. Follow release protocol and check partner's shoulder health before resuming. Joint sounds are not normal and indicate injury in progress."
     }
   ],
   "variations_and_setups": [
@@ -289,50 +271,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Grip Mechanics",
-      "timeframe": "1-2 weeks",
-      "focus": "Learn figure-four grip configuration, proper hand placement distance, and mount control fundamentals without applying submission pressure. Practice grip transitions and body positioning from mount.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand shoulder anatomy and injury mechanisms. Study proper tap signals and release protocol. Practice releasing the grip smoothly and controlling the arm during release."
-    },
-    {
-      "phase": "Positional Drilling Without Finish",
-      "timeframe": "2-3 weeks",
-      "focus": "From established mount, practice isolating the arm, establishing figure-four grip, creating angle, and lifting elbow to finishing position. Stop before applying rotational pressure. Partner remains passive but provides realistic body structure.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus on smooth, controlled movements. Practice stopping at the point where pressure would begin. Develop muscle memory for proper mechanics without risk."
-    },
-    {
-      "phase": "Slow Application with Communication",
-      "timeframe": "3-4 weeks",
-      "focus": "Execute complete technique including slow rotational pressure. Apply pressure over 5-7 seconds with constant verbal communication. Partner taps early when pressure begins, not when pain occurs.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Emphasize progressive pressure application and immediate response to taps. Partner should tap at first sensation of shoulder pressure, well before pain threshold. Practice release protocol after every repetition."
-    },
-    {
-      "phase": "Realistic Setup and Defense",
-      "timeframe": "4-6 weeks",
-      "focus": "Practice against realistic defensive frames and grips. Work on creating openings through threats, weight distribution, and timing. Partner defends mount and arm position but allows submission when properly executed.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner maintains safe defensive patterns - no explosive movements or sudden escapes. Continue slow application speed. Attacker recognizes when submission isn't available and maintains mount instead."
-    },
-    {
-      "phase": "Live Positional Sparring",
-      "timeframe": "6-8 weeks",
-      "focus": "Start from mount with goal of securing Kimura submission. Partner uses full defensive repertoire including frames, grips, bridges, and rolls. Reset after successful submission or position loss.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Both partners committed to slow application and early tapping. Attacker stops at tap or first sign of joint stress. Defender taps early, especially if shoulder has any pre-existing issues. No ego-driven resistance to technical submissions."
-    },
-    {
-      "phase": "Integration and Flow Rolling",
-      "timeframe": "Ongoing",
-      "focus": "Incorporate Kimura from mount into regular training flow, chain with other mount submissions and transitions, adapt to various body types and defensive styles. Develop sensitivity for when technique is available versus forcing it.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain training-speed application even with increased experience and confidence. Recognize that familiarity breeds complacency - renewed safety focus is essential for experienced practitioners. Monitor training partners for shoulder health and injury history."
-    }
-  ],
   "from_positions": [
     "Mount",
     "High Mount",
@@ -402,5 +340,6 @@
       "name": "Americana",
       "relationship": "Related shoulder lock submission sharing similar mechanics from mount"
     }
-  ]
+  ],
+  "success_rate": 72
 }

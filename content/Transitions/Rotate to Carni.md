@@ -157,7 +157,7 @@ The rotation occurs when the opponent widens their base or attempts to circle aw
 Strategically, Rotate to Carni represents the shoulder attack pathway from New York, complementing the head attack pathway (Invisible Collar/Zombie) and the leg attack pathway (Chill Dog). Understanding when to select the Carni rotation versus other options is essential for maximizing submission rate from the Rubber Guard system. The technique is particularly effective against opponents who recognize the triangle and gogoplata threats and attempt to create lateral space, as this exact defensive movement opens the Carni angle.
 
 **From Position**: [[New York/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, Rotate to Carni represents the shoulder attack pathway from New Y
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize rotation window**: Identify when opponent widens base laterally or begins circling away from overhook side, creating the space needed for hip rotation. This defensive movement is your trigger to initiate. (Timing: React within 1-2 seconds of opponent's base widening)
-2. **Tighten overhook grip**: Before initiating rotation, deepen overhook control by pulling elbow tighter to your body and ensuring shoulder-to-armpit connection. This prevents arm extraction during the transition. (Timing: Immediate - secure grip before moving)
-3. **Release shin grip**: Release your grip on your shin while maintaining the leg position across opponent's back momentarily. Your hand will need to be free to post and assist rotation. (Timing: Simultaneous with hip rotation initiation)
-4. **Initiate hip rotation**: Drive your hips in a 90-degree arc toward the overhook side, swinging your legs from behind opponent's back to perpendicular position. Use core engagement and the posting hand to power this movement. (Timing: Explosive movement taking 1-2 seconds)
-5. **Establish leg hook**: As rotation completes, hook your leg (the one previously across their back) over opponent's shoulder and behind their head, establishing the characteristic Carni leg position that threatens the omoplata. (Timing: Complete hook as hips reach perpendicular)
-6. **Consolidate Carni control**: Secure final Carni position by controlling opponent's trapped arm at the wrist with your free hand while your leg hook and overhook create the triangulated shoulder attack structure. (Timing: Immediate consolidation within 2 seconds of rotation)
+1. **Recognize rotation window**: Identify when opponent widens base laterally or begins circling away from overhook side, creating the space needed for hip rotation. This defensive movement is your trigger to initiate.
+2. **Tighten overhook grip**: Before initiating rotation, deepen overhook control by pulling elbow tighter to your body and ensuring shoulder-to-armpit connection. This prevents arm extraction during the transition.
+3. **Release shin grip**: Release your grip on your shin while maintaining the leg position across opponent's back momentarily. Your hand will need to be free to post and assist rotation.
+4. **Initiate hip rotation**: Drive your hips in a 90-degree arc toward the overhook side, swinging your legs from behind opponent's back to perpendicular position. Use core engagement and the posting hand to power this movement.
+5. **Establish leg hook**: As rotation completes, hook your leg (the one previously across their back) over opponent's shoulder and behind their head, establishing the characteristic Carni leg position that threatens the omoplata.
+6. **Consolidate Carni control**: Secure final Carni position by controlling opponent's trapped arm at the wrist with your free hand while your leg hook and overhook create the triangulated shoulder attack structure.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, Rotate to Carni represents the shoulder attack pathway from New Y
 ## Training Progressions
 **Week 1-2** - Rotation mechanics
 Practice rotation movement in isolation without partner. Focus on hip rotation path, core engagement, and maintaining simulated overhook position throughout movement. Drill 50 rotations per session building muscle memory.
-(Resistance: None)
 
 **Week 3-4** - Partner drilling
 Partner holds static New York top position while you execute rotation to Carni. Partner does not resist but maintains position. Focus on smooth transition, proper leg hook establishment, and timing of grip changes. 30 repetitions per session.
-(Resistance: Light)
 
 **Week 5-6** - Reaction timing
 Partner randomly chooses between widening base, driving forward, or maintaining static position from New York top. React appropriately - rotate to Carni when they widen, switch to Chill Dog when they drive, maintain New York when static. Build recognition patterns.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from New York. Attempt Rotate to Carni and complete omoplata attacks against fully resisting partner. Track success rate and identify failure patterns for targeted improvement.
-(Resistance: Full)
 
 
 

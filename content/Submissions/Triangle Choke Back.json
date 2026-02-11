@@ -13,11 +13,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Back Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Triangle Choke from Back Control represents an advanced finishing option that combines the control dominance of back position with the mechanical efficiency of the triangle. This submission emerges when the opponent begins defending the rear naked choke by protecting their neck, creating an opportunity to transition to a different strangling mechanism. Unlike the traditional front triangle from guard, the rear triangle utilizes the already-established back control framework, making it particularly effective when opponents successfully defend traditional back attacks.\n\nThis technique exemplifies the principle of submission chains and dilemma creation - as the opponent defends one attack, they inadvertently expose themselves to another. The rear triangle can be finished from various back control configurations including standard seat belt control, body triangle position, and even during transitions when losing back control. The choke functions through bilateral compression of the carotid arteries while simultaneously controlling the opponent's posture and preventing escape.\n\nThe Triangle Choke from Back Control requires precise leg positioning, hip mobility, and understanding of angle creation. Success depends on maintaining back control throughout the transition, controlling one of the opponent's arms inside the triangle, and applying proper finishing mechanics. This submission is particularly valuable in competition and no-gi scenarios where rear naked choke defenses are well-developed, providing an alternative finishing path that catches opponents by surprise.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,43 +86,37 @@
       "step_number": 1,
       "action": "Establish dominant back control position",
       "description": "Begin from standard back control with seat belt grip (one arm over shoulder, one under armpit) or body triangle. Ensure you have at least one hook in if not using body triangle. Your chest should be tight to opponent's back with your head positioned to one side of their head. Maintain constant forward pressure to keep opponent defensive.",
-      "timing": "Hold stable position for 2-3 seconds before initiating",
-      "pressure_level": "Firm"
+      "timing": "Hold stable position for 2-3 seconds before initiating"
     },
     {
       "step_number": 2,
       "action": "Attack rear naked choke to create defensive reaction",
       "description": "Slide your choking arm (typically the over-the-shoulder arm) toward opponent's neck as if attempting a standard rear naked choke. This forces opponent to bring their hands up to defend their neck, either by grabbing your choking arm or blocking under their chin. This defensive reaction is essential to create the space needed for the triangle setup.",
-      "timing": "Apply for 3-5 seconds until strong defensive reaction",
-      "pressure_level": "Moderate"
+      "timing": "Apply for 3-5 seconds until strong defensive reaction"
     },
     {
       "step_number": 3,
       "action": "Trap one arm inside triangle configuration",
       "description": "As opponent defends the choke with both hands near their neck, use your choking arm to control one of their arms (typically the arm on the same side as your choking arm). Pull this arm across their body and keep it tight to their neck. This arm will become trapped inside the triangle. The opposite arm should remain outside and can be controlled with your other hand or simply isolated.",
-      "timing": "Execute smoothly over 2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "Execute smoothly over 2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Shift hips to create angle for leg insertion",
       "description": "This is the critical transition moment. Shift your hips away from the side where you'll throw your leg (if attacking with right leg, shift hips left). Create approximately 45-90 degree angle with your body relative to opponent's spine. If using body triangle, open it temporarily. If using hooks, remove the hook on the leg side you'll use for the triangle while keeping the other hook or your other leg for base.",
-      "timing": "Controlled shift over 2-3 seconds while maintaining control",
-      "pressure_level": "Moderate"
+      "timing": "Controlled shift over 2-3 seconds while maintaining control"
     },
     {
       "step_number": 5,
       "action": "Thread leg over shoulder and lock triangle",
       "description": "Throw your top leg (the one on the side you've created space) over opponent's shoulder on the same side, bringing your knee toward their opposite ear. Your shin should be across the back of their neck. Immediately bring your other leg up and lock your ankle in the knee pit of your top leg (standard triangle lock). Alternatively, lock ankle over ankle in figure-four configuration. Ensure opponent's trapped arm and head are inside the triangle while other arm stays outside.",
-      "timing": "Quick but controlled insertion over 1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "Quick but controlled insertion over 1-2 seconds"
     },
     {
       "step_number": 6,
       "action": "Secure grips and cut angle for finish",
       "description": "With triangle locked, grab your own shin or foot to reinforce the lock. Use your free hand to grab opponent's trapped arm and pull it across their body, keeping it tight to their neck. Rotate your body further perpendicular to opponent (approaching 90 degrees), cutting the angle to their side. Squeeze your knees together while pulling down on their head/arm. The choke tightens as you cut the angle and compress.",
-      "timing": "Apply gradual pressure over 4-6 seconds minimum",
-      "pressure_level": "Moderate"
+      "timing": "Apply gradual pressure over 4-6 seconds minimum"
     }
   ],
   "opponent_defense_patterns": [
@@ -156,44 +145,37 @@
     {
       "error": "Applying full pressure immediately without giving partner time to tap",
       "consequence": "Risk of causing unconsciousness or serious injury before partner can signal tap",
-      "correction": "Always apply pressure slowly and progressively over minimum 4-6 seconds in training. Watch for tap signals continuously and release immediately upon any signal.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure slowly and progressively over minimum 4-6 seconds in training. Watch for tap signals continuously and release immediately upon any signal."
     },
     {
       "error": "Attempting triangle without first establishing strong back control",
       "consequence": "Losing dominant position entirely, allowing opponent to escape or reverse position",
-      "correction": "Ensure you have solid back control with hooks or body triangle before attempting the transition. If control is shaky, work to improve position first rather than hunting for the submission.",
-      "danger_level": "Medium"
+      "correction": "Ensure you have solid back control with hooks or body triangle before attempting the transition. If control is shaky, work to improve position first rather than hunting for the submission."
     },
     {
       "error": "Failing to create sufficient angle with hips before throwing leg over",
       "consequence": "Unable to complete triangle lock, awkward position that allows easy escape",
-      "correction": "Shift hips decisively to create 45-90 degree angle with opponent's spine before attempting to throw your leg over. The angle is what creates the space for your leg to enter.",
-      "danger_level": "Low"
+      "correction": "Shift hips decisively to create 45-90 degree angle with opponent's spine before attempting to throw your leg over. The angle is what creates the space for your leg to enter."
     },
     {
       "error": "Not controlling the trapped arm throughout the sequence",
       "consequence": "Opponent easily removes their arm from triangle, nullifying the submission",
-      "correction": "Maintain constant grip and tension on the trapped arm from the moment you isolate it until the finish. Use your choking arm or free hand to pull it tight across opponent's neck.",
-      "danger_level": "Low"
+      "correction": "Maintain constant grip and tension on the trapped arm from the moment you isolate it until the finish. Use your choking arm or free hand to pull it tight across opponent's neck."
     },
     {
       "error": "Locking the triangle too loosely without proper knee compression",
       "consequence": "Weak choke that opponent can easily defend or escape",
-      "correction": "Ensure tight ankle lock in knee pit, then actively squeeze knees together while cutting angle. The triangle should feel tight on your own legs before you even begin applying finishing pressure.",
-      "danger_level": "Low"
+      "correction": "Ensure tight ankle lock in knee pit, then actively squeeze knees together while cutting angle. The triangle should feel tight on your own legs before you even begin applying finishing pressure."
     },
     {
       "error": "Continuing to attack triangle after opponent begins escaping",
       "consequence": "Complete loss of back control and potentially ending up in bad position",
-      "correction": "Recognize when the triangle is lost and immediately flow to alternative attacks (rear naked choke, armbar, back take). Submission chains are about flowing between attacks, not forcing one submission.",
-      "danger_level": "Medium"
+      "correction": "Recognize when the triangle is lost and immediately flow to alternative attacks (rear naked choke, armbar, back take). Submission chains are about flowing between attacks, not forcing one submission."
     },
     {
       "error": "Neglecting to remove or adjust hooks/body triangle during transition",
       "consequence": "Legs get tangled, unable to create necessary angle or space for triangle",
-      "correction": "Temporarily open body triangle or remove the hook on the triangle-side leg while maintaining control with your other leg and upper body. Adjust your leg configuration to facilitate the technique.",
-      "danger_level": "Low"
+      "correction": "Temporarily open body triangle or remove the hook on the triangle-side leg while maintaining control with your other leg and upper body. Adjust your leg configuration to facilitate the technique."
     }
   ],
   "variations_and_setups": [
@@ -280,50 +262,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Week 1-2)",
-      "timeframe": "First 2 weeks",
-      "focus": "Learn the fundamental mechanics with zero resistance. Study the angle creation, leg positioning, and proper triangle lock formation. Practice the transition from back control to triangle setup repeatedly with compliant partner. Focus on smooth movement and understanding the sequence.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner remains completely still and allows full technique development. No pressure is applied to the neck at all during this phase - simply achieve the position and hold. Practice the release protocol repeatedly to build muscle memory for safety."
-    },
-    {
-      "phase": "Slow Technical Practice (Week 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Begin adding minimal resistance and practicing the actual choke application at very slow speed. Partner provides light resistance to the position but does not actively try to escape. Apply pressure very gradually over 10-15 seconds, then immediately release and reset. Focus on feeling the mechanics of the choke.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner must tap early and clearly at first sign of pressure. Practicing person must count to 10 before applying any significant pressure, giving partner extreme time to tap. Verbal communication throughout about comfort level and pressure."
-    },
-    {
-      "phase": "Position Entry Drilling (Week 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Practice entering the triangle from various back control positions (standard hooks, body triangle, during escapes). Partner provides realistic resistance to the position but taps immediately once triangle is locked. Build consistency in achieving the position under resistance without focusing on the finish.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner provides intelligent resistance to the setup but allows completion once position is achieved. No finishing pressure applied yet - just position achievement and immediate reset. This builds safety habits around position control separate from submission application."
-    },
-    {
-      "phase": "Defensive Training (Week 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Partner now actively defends the triangle using proper defensive techniques (posturing, arm extraction, turning). Practice maintaining the position, making adjustments, and flowing to alternative submissions when triangle is defended. Learn when to abandon the submission and return to back control.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "If triangle is successfully locked despite defenses, partner must tap immediately. Focus is on position maintenance and transitions, not on powering through defenses. Safety comes from recognizing when to switch attacks rather than forcing one submission."
-    },
-    {
-      "phase": "Live Integration (Week 13-20)",
-      "timeframe": "Weeks 13-20",
-      "focus": "Begin using the technique in controlled sparring from back control positions. Allow full resistance but maintain slow, controlled finishing speed (6-8 seconds to full pressure). Integrate into your back attack system along with rear naked choke and armbars. Track success rate and learn when the technique is available versus when other attacks are better options.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even with full resistance to the position, finishing pressure must still be applied slowly (minimum 6 seconds to full). Partner must have free hand available to tap at all times. Both practitioners must agree on intensity level before rolling. Never apply competition-speed finishing in regular training."
-    },
-    {
-      "phase": "Ongoing Refinement and Competition Preparation",
-      "timeframe": "Week 20+",
-      "focus": "Refine timing, setups, and chain combinations with the triangle. For competition preparation, practice the technique at increasing intensity but only with experienced, trusted partners. Study video of successful applications and failed attempts to improve recognition of opportunity. Develop strong ability to flow between triangle, rear naked choke, and armbars seamlessly.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "In regular training, maintain the same safety standards regardless of experience level. For competition-specific training with trusted partners, gradually increase finishing speed but never without explicit discussion and agreement beforehand. Always err on the side of safety. Many serious injuries occur with advanced practitioners who become complacent about safety protocols."
-    }
-  ],
   "from_positions": [
     "Back Control",
     "Body Triangle",
@@ -384,5 +322,6 @@
       "name": "Armbar from Back",
       "relationship": "Chain submission option when opponent defends the triangle"
     }
-  ]
+  ],
+  "success_rate": 58
 }

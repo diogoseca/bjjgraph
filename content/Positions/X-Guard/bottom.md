@@ -21,37 +21,37 @@ description: "Master X-Guard Bottom in BJJ. Complete guide covering sweeps, entr
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,17 +206,19 @@ X-Guard Bottom is a powerful open guard position where the bottom practitioner c
 
 ## Available Escapes
 
-### [[X-Guard Sweep]] (28% of attempts)
+### [[X-Guard Sweep]] (24% of attempts)
 
-### [[Single Leg X Entry]] (22% of attempts)
+### [[Single Leg X Entry]] (19% of attempts)
 
-### [[X-Guard to Ashi Transition]] (18% of attempts)
+### [[X-Guard to Ashi Transition]] (15% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (12% of attempts)
+### [[Technical Stand Up to Single Leg]] (10% of attempts)
 
-### [[Deep Half Entry]] (10% of attempts)
+### [[Deep Half Entry]] (9% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (10% of attempts)
+### [[Butterfly Guard to X-Guard]] (9% of attempts)
+
+### [[Tomahawk Sweep]] (14% of attempts)
 
 
 
@@ -330,11 +332,11 @@ Practice flowing from X-Guard to Single Leg X to Ashi Garami and back based on p
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 15% |
-| Intermediate | 60% | 55% | 30% |
-| Advanced     | 75% | 70% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 30-90 seconds
 

@@ -359,11 +359,11 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 15% | 5% |
-| Intermediate | 40% | 30% | 10% |
-| Advanced     | 60% | 50% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 50% |
+| Advancement Probability | 40% |
+| Submission Probability | 15% |
 
 **Average Time in Position**: 15-45 seconds before pass or escape
 

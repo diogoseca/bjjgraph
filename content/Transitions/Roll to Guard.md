@@ -163,7 +163,7 @@ The biomechanical foundation of this escape relies on timing the roll precisely 
 Strategically, Roll to Guard represents a high-risk, high-reward escape option that should be employed when more conservative escape methods have stalled or when the opponent presents a timing window. Unlike methodical escapes that chip away at control incrementally, this technique aims to completely reverse the positional hierarchy in a single explosive movement. It pairs particularly well with grip fighting that baits the opponent into adjusting their seat belt configuration.
 
 **From Position**: [[Harness/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -213,13 +213,13 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure choking arm**: Establish two-on-one control on opponent's choking arm by gripping their wrist with your same-side hand and controlling their elbow or tricep with your other hand. This prevents choke completion and sets up grip break. (Timing: Initiate when opponent attempts grip adjustment)
-2. **Create forward space**: Push opponent's controlled arm across your body toward your opposite hip while simultaneously tucking your chin tight to your chest. This action disrupts their harness structure and creates the angle needed for forward rotation. (Timing: Immediately after securing arm control)
-3. **Clear or trap hooks**: Use your legs to push opponent's hooks down toward your ankles or squeeze knees together to trap their feet. At minimum, create enough slack that hooks won't impede the rolling motion or allow opponent to follow your rotation. (Timing: Execute while maintaining upper body grip control)
-4. **Initiate forward roll**: Drive off your feet while pulling the controlled arm across your body, tucking your head, and rolling forward over your shoulder. Direct the roll diagonally toward the underhook side to maximize escape angle. Commit fully to the rotation. (Timing: Explosive movement when opponent's base shifts)
-5. **Maintain arm control through roll**: Keep grip on opponent's arm throughout the entire rotation to prevent them from disengaging and re-taking your back. The arm acts as an anchor point that pulls them into your guard recovery rather than allowing separation. (Timing: Continuous throughout rolling motion)
-6. **Establish guard immediately**: As the roll completes and you face your opponent, immediately close your guard by crossing ankles behind their back, or establish open guard frames with feet on hips. Use the controlled arm to pull them into your guard structure. (Timing: Within one second of roll completion)
-7. **Secure defensive posture**: Once guard is established, immediately break any remaining grips opponent has, establish your own collar and sleeve controls, and create proper guard alignment with hips underneath opponent to prevent immediate pass attempts. (Timing: Immediately after guard establishment)
+1. **Secure choking arm**: Establish two-on-one control on opponent's choking arm by gripping their wrist with your same-side hand and controlling their elbow or tricep with your other hand. This prevents choke completion and sets up grip break.
+2. **Create forward space**: Push opponent's controlled arm across your body toward your opposite hip while simultaneously tucking your chin tight to your chest. This action disrupts their harness structure and creates the angle needed for forward rotation.
+3. **Clear or trap hooks**: Use your legs to push opponent's hooks down toward your ankles or squeeze knees together to trap their feet. At minimum, create enough slack that hooks won't impede the rolling motion or allow opponent to follow your rotation.
+4. **Initiate forward roll**: Drive off your feet while pulling the controlled arm across your body, tucking your head, and rolling forward over your shoulder. Direct the roll diagonally toward the underhook side to maximize escape angle. Commit fully to the rotation.
+5. **Maintain arm control through roll**: Keep grip on opponent's arm throughout the entire rotation to prevent them from disengaging and re-taking your back. The arm acts as an anchor point that pulls them into your guard recovery rather than allowing separation.
+6. **Establish guard immediately**: As the roll completes and you face your opponent, immediately close your guard by crossing ankles behind their back, or establish open guard frames with feet on hips. Use the controlled arm to pull them into your guard structure.
+7. **Secure defensive posture**: Once guard is established, immediately break any remaining grips opponent has, establish your own collar and sleeve controls, and create proper guard alignment with hips underneath opponent to prevent immediate pass attempts.
 
 
 </section>
@@ -268,19 +268,15 @@ Strategically, Roll to Guard represents a high-risk, high-reward escape option t
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice forward rolls in isolation focusing on tucking chin, rounding spine, and smooth rotation. Add the diagonal angle component. Partner provides harness grip without resistance while you drill the rolling motion and timing.
-(Resistance: None)
 
 **Week 3-4** - Grip integration
 Combine grip fighting with roll timing. Practice securing two-on-one on choking arm then flowing into the roll. Partner provides moderate grip but allows the escape. Focus on maintaining arm control throughout rotation and immediate guard recovery.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner begins adding counters - following the roll, flattening before roll, transitioning to front headlock. Practice reading these reactions and either aborting appropriately or adjusting technique. Build decision-making for when to attempt versus when to use other escapes.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Implement in positional sparring from back control starting position. Partner works full back attack while you look for roll timing windows. Practice setting up the roll with grip fighting sequences. Evaluate success rate and adjust timing based on different opponent styles.
-(Resistance: Full)
 
 
 

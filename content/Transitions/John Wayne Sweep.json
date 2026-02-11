@@ -10,11 +10,6 @@
     "offensive",
     "guard"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The John Wayne Sweep is a powerful offensive technique from butterfly guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional butterfly mechanics with creative grip fighting. The technique exploits the moment when your opponent reaches for underhooks or attempts to pass, using their forward momentum against them. By establishing strong sleeve control, creating an angle with your hip movement, and utilizing butterfly hooks effectively, you can elevate your opponent and transition directly to mount. This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls.",
   "key_principles": [
     "Establish dominant sleeve control before initiating sweep momentum",
@@ -128,38 +123,32 @@
     {
       "phase": "Phase 1: Grip Control Fundamentals",
       "focus": "Establishing and maintaining two-on-one sleeve control from butterfly guard",
-      "description": "Partner offers static butterfly guard position. Practice securing two-on-one grips on sleeve, breaking opponent's centerline, and creating angular positioning. Focus on grip strength and control rather than completing sweeps. Drill pistol grip break motion repetitively.",
-      "resistance_level": "None"
+      "description": "Partner offers static butterfly guard position. Practice securing two-on-one grips on sleeve, breaking opponent's centerline, and creating angular positioning. Focus on grip strength and control rather than completing sweeps. Drill pistol grip break motion repetitively."
     },
     {
       "phase": "Phase 2: Coordinated Movement Drilling",
       "focus": "Synchronizing sleeve pull, hook extension, and rotation",
-      "description": "Partner allows sweep to develop slowly. Practice coordinating all three components of the sweep with emphasis on timing and technique. Partner should maintain light base to allow repetitions but provide feedback on technique gaps. Complete 10-15 repetitions per side.",
-      "resistance_level": "Light"
+      "description": "Partner allows sweep to develop slowly. Practice coordinating all three components of the sweep with emphasis on timing and technique. Partner should maintain light base to allow repetitions but provide feedback on technique gaps. Complete 10-15 repetitions per side."
     },
     {
       "phase": "Phase 3: Dynamic Entry and Timing",
       "focus": "Recognizing setup opportunities during live movement",
-      "description": "Start from standing and pull guard to butterfly, immediately looking for John Wayne Sweep opportunity. Partner applies forward pressure naturally. Practice reading their weight distribution and timing your angle creation with their commitment. Focus on reactive execution.",
-      "resistance_level": "Medium"
+      "description": "Start from standing and pull guard to butterfly, immediately looking for John Wayne Sweep opportunity. Partner applies forward pressure naturally. Practice reading their weight distribution and timing your angle creation with their commitment. Focus on reactive execution."
     },
     {
       "phase": "Phase 4: Countering Defensive Reactions",
       "focus": "Adapting to common counters and maintaining offensive initiative",
-      "description": "Partner actively defends the sweep using distance creation, underhooks, or strong posts. Practice recognizing when sweep is not available and transitioning smoothly to alternative attacks like X-guard, deep half guard, or kimura. Maintain offensive pressure throughout.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends the sweep using distance creation, underhooks, or strong posts. Practice recognizing when sweep is not available and transitioning smoothly to alternative attacks like X-guard, deep half guard, or kimura. Maintain offensive pressure throughout."
     },
     {
       "phase": "Phase 5: Competition Simulation",
       "focus": "Executing technique under full resistance with consequences",
-      "description": "Live rolling with specific goal of hitting John Wayne Sweep from butterfly guard. Partner uses full defensive tactics and counter-passing attempts. Practice chaining technique with other butterfly guard attacks and maintaining composure under pressure.",
-      "resistance_level": "Full"
+      "description": "Live rolling with specific goal of hitting John Wayne Sweep from butterfly guard. Partner uses full defensive tactics and counter-passing attempts. Practice chaining technique with other butterfly guard attacks and maintaining composure under pressure."
     },
     {
       "phase": "Phase 6: Integration and Flow Development",
       "focus": "Seamless integration with complete butterfly guard system",
-      "description": "Free rolling with emphasis on using John Wayne Sweep as part of larger guard retention and sweeping system. Combine with arm drags, back takes, and submission threats. Focus on reading opponent's defensive patterns and selecting optimal technique.",
-      "resistance_level": "Full"
+      "description": "Free rolling with emphasis on using John Wayne Sweep as part of larger guard retention and sweeping system. Combine with arm drags, back takes, and submission threats. Focus on reading opponent's defensive patterns and selecting optimal technique."
     }
   ],
   "variants_and_adaptations": [
@@ -187,33 +176,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is establishing two-on-one sleeve control essential before attempting the John Wayne Sweep?",
-      "answer": "Two-on-one sleeve control serves multiple critical functions: it breaks your opponent's ability to post on that side, creates an angle by pulling their arm across their centerline which disrupts their base, provides a steering mechanism to guide them through the sweep, and prevents them from establishing underhooks or grips on that side. Without this control, opponent can easily post and maintain their base throughout your sweep attempt.",
-      "difficulty": "Beginner"
+      "answer": "Two-on-one sleeve control serves multiple critical functions: it breaks your opponent's ability to post on that side, creates an angle by pulling their arm across their centerline which disrupts their base, provides a steering mechanism to guide them through the sweep, and prevents them from establishing underhooks or grips on that side. Without this control, opponent can easily post and maintain their base throughout your sweep attempt."
     },
     {
       "question": "What is the mechanical purpose of creating a 45-degree angle before executing the sweep?",
-      "answer": "The angular positioning serves to off-balance your opponent by moving their center of gravity outside their base of support. When you angle toward the controlled sleeve side, you create a rotational axis that your opponent cannot defend by simply widening their base. This angle also positions your body optimally to rotate underneath theirs during the sweep while maintaining leverage through the butterfly hooks. The angle essentially transforms a linear lifting motion into a circular sweeping motion.",
-      "difficulty": "Intermediate"
+      "answer": "The angular positioning serves to off-balance your opponent by moving their center of gravity outside their base of support. When you angle toward the controlled sleeve side, you create a rotational axis that your opponent cannot defend by simply widening their base. This angle also positions your body optimally to rotate underneath theirs during the sweep while maintaining leverage through the butterfly hooks. The angle essentially transforms a linear lifting motion into a circular sweeping motion."
     },
     {
       "question": "How should you adjust your strategy if your opponent successfully withdraws their hips backward as you create your angle?",
-      "answer": "When opponent withdraws hips, immediately follow their backward momentum by transitioning to X-guard or single leg X-guard. Keep your top butterfly hook active while inserting your bottom hook behind their knee as they move back. Alternatively, you can transition to seated guard with ankle pick entries or follow them to standing and attack with wrestling-based takedowns. The key is recognizing that their backward movement creates different opportunities rather than fighting against it.",
-      "difficulty": "Advanced"
+      "answer": "When opponent withdraws hips, immediately follow their backward momentum by transitioning to X-guard or single leg X-guard. Keep your top butterfly hook active while inserting your bottom hook behind their knee as they move back. Alternatively, you can transition to seated guard with ankle pick entries or follow them to standing and attack with wrestling-based takedowns. The key is recognizing that their backward movement creates different opportunities rather than fighting against it."
     },
     {
       "question": "What biomechanical principles make the butterfly hooks effective during the elevation phase of this sweep?",
-      "answer": "The butterfly hooks create leverage by positioning your feet under your opponent's center of gravity at their hip/thigh junction. When you extend your legs, you're effectively creating a first-class lever where your hips are the fulcrum, your extending legs are the effort arm, and your opponent's upper body is the resistance arm. The close proximity of your hips to theirs maximizes mechanical advantage. Additionally, the hooks prevent lateral escape by controlling the inside thigh position, forcing opponent's weight to rotate over you rather than stepping out.",
-      "difficulty": "Advanced"
+      "answer": "The butterfly hooks create leverage by positioning your feet under your opponent's center of gravity at their hip/thigh junction. When you extend your legs, you're effectively creating a first-class lever where your hips are the fulcrum, your extending legs are the effort arm, and your opponent's upper body is the resistance arm. The close proximity of your hips to theirs maximizes mechanical advantage. Additionally, the hooks prevent lateral escape by controlling the inside thigh position, forcing opponent's weight to rotate over you rather than stepping out."
     },
     {
       "question": "When should you release your butterfly hooks during the sweep rotation?",
-      "answer": "Release your butterfly hooks at the moment your opponent's hips pass the vertical plane above you and their weight begins falling to the opposite side. Releasing too early results in incomplete rotation and scrambles. Releasing too late causes your legs to become trapped underneath them, preventing you from establishing mount. The optimal timing is when you feel their weight commit past the tipping point, typically when their back is facing the ceiling and their momentum is irreversible.",
-      "difficulty": "Intermediate"
+      "answer": "Release your butterfly hooks at the moment your opponent's hips pass the vertical plane above you and their weight begins falling to the opposite side. Releasing too early results in incomplete rotation and scrambles. Releasing too late causes your legs to become trapped underneath them, preventing you from establishing mount. The optimal timing is when you feel their weight commit past the tipping point, typically when their back is facing the ceiling and their momentum is irreversible."
     },
     {
       "question": "How does the John Wayne Sweep integrate with other butterfly guard attacks to create a systematic approach?",
-      "answer": "The John Wayne Sweep works synergistically with arm drags, basic butterfly sweeps, and X-guard entries. If opponent defends the pistol break, you attack kimura. If they withdraw hips, you enter X-guard. If they drive forward with underhook, you execute basic butterfly sweep to that side. If they remain neutral, you arm drag to back take. This creates a decision tree where every defensive reaction opens a different offensive opportunity, embodying the principle of dilemma creation that defines effective guard systems.",
-      "difficulty": "Advanced"
+      "answer": "The John Wayne Sweep works synergistically with arm drags, basic butterfly sweeps, and X-guard entries. If opponent defends the pistol break, you attack kimura. If they withdraw hips, you enter X-guard. If they drive forward with underhook, you execute basic butterfly sweep to that side. If they remain neutral, you arm drag to back take. This creates a decision tree where every defensive reaction opens a different offensive opportunity, embodying the principle of dilemma creation that defines effective guard systems."
     }
   ],
   "safety_considerations": "The John Wayne Sweep is generally a low-risk technique for both practitioners when executed properly. The primary safety concern is ensuring sufficient mat space for the rotation, as the sweep involves rotating opponent over your body with momentum. Practice initially on soft surfaces and ensure no obstacles are nearby. Partners should be aware of the incoming sweep to avoid reflexively posting with their arm at dangerous angles, which can cause wrist or shoulder injuries. When drilling, the bottom practitioner should control the speed of rotation initially to prevent unexpected impacts. Advanced practitioners should be mindful of their partner's flexibility limitations when pulling the controlled arm across centerline, as excessive force can strain the shoulder. In competition settings, be aware of mat boundaries to avoid rotating your opponent off the mat.",
@@ -285,5 +268,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

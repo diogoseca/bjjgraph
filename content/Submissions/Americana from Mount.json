@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (rotator cuff)",
   "starting_position": "Mount",
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Americana from Mount is a fundamental shoulder lock that targets the rotator cuff by isolating the opponent's arm and applying a figure-four grip to force external rotation beyond the joint's natural range. This submission is one of the highest-percentage attacks from the mount position due to the superior control and weight distribution available from top position.\n\nThe technique's effectiveness stems from the combination of positional dominance and mechanical advantage. When executed properly from mount, the practitioner uses their body weight to pin the opponent's shoulder to the mat while simultaneously controlling the wrist and applying rotational pressure through the elbow. This creates a powerful lever system that attacks multiple points of the shoulder complex simultaneously.\n\nThe Americana from Mount serves as a cornerstone technique in any top game arsenal, functioning not only as a direct finishing option but also as a gateway to other submissions and positional advancements. Its reliability in both gi and no-gi competition, combined with its straightforward mechanics, makes it an essential submission for practitioners at all levels.",
   "safety_considerations": {
     "injury_risks": [
@@ -89,43 +84,37 @@
       "step_number": 1,
       "action": "Bait and Capture the Arm",
       "description": "From mount, allow the opponent to place their hand on your chest or hip in a defensive frame. As they extend their arm to create space, immediately capture their wrist with your same-side hand (right hand to their right wrist). Use a firm grip with your thumb on the inside of their wrist and fingers wrapping around the outside.",
-      "timing": "Immediate reaction to opponent's frame - within 0.5 seconds of arm extension",
-      "pressure_level": "Moderate"
+      "timing": "Immediate reaction to opponent's frame - within 0.5 seconds of arm extension"
     },
     {
       "step_number": 2,
       "action": "Pin the Shoulder",
       "description": "Shift your weight forward and slightly to the side of the controlled arm, driving your chest toward the mat near their shoulder. This pins their shoulder blade to the ground and prevents them from following their arm as you manipulate it. Your hips should remain heavy and connected to their torso.",
-      "timing": "Simultaneous with wrist capture",
-      "pressure_level": "Firm"
+      "timing": "Simultaneous with wrist capture"
     },
     {
       "step_number": 3,
       "action": "Walk the Arm to Position",
       "description": "Using your grip on their wrist, walk their arm across their body and toward the mat beside their head, creating a 90-degree angle at the elbow. Their palm should be facing up or toward their head. Post your opposite foot out wide for base if needed to maintain balance during this transition.",
-      "timing": "1-2 seconds with controlled movement",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds with controlled movement"
     },
     {
       "step_number": 4,
       "action": "Establish Figure-Four Grip",
       "description": "Thread your free hand under their elbow and grasp your own wrist, creating a figure-four configuration. Your forearm should be positioned across the back of their upper arm, just above the elbow. Ensure your grip is tight and your elbows are pulled toward your centerline for maximum control.",
-      "timing": "1-2 seconds to secure proper grip",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds to secure proper grip"
     },
     {
       "step_number": 5,
       "action": "Create Base and Alignment",
       "description": "Adjust your body position so that your chest is over their shoulder and your weight is distributed through their shoulder complex to the mat. Your hips should be heavy on their torso, and you may need to post your opposite leg out for balance. Ensure their elbow remains at or below shoulder level.",
-      "timing": "1 second positional adjustment",
-      "pressure_level": "Firm"
+      "timing": "1 second positional adjustment"
     },
     {
       "step_number": 6,
       "action": "Apply Rotational Pressure",
       "description": "Keeping their shoulder pinned, slowly rotate their wrist toward their head (external rotation of the shoulder) while maintaining the 90-degree elbow angle. The pressure should come from your entire upper body rotating as a unit, not just your arms. Move in a slow, controlled arc until they tap.",
-      "timing": "3-5 seconds from initial pressure to tap",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds from initial pressure to tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -159,8 +148,7 @@
     {
       "error": "Applying pressure too quickly or jerking the submission",
       "consequence": "High risk of causing serious shoulder injury to training partner, violates fundamental training safety protocols",
-      "correction": "Always apply pressure slowly over 3-5 seconds minimum. Focus on smooth, controlled rotation and wait for the tap. Training is about learning, not injuring partners",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure slowly over 3-5 seconds minimum. Focus on smooth, controlled rotation and wait for the tap. Training is about learning, not injuring partners"
     },
     {
       "error": "Failing to pin the shoulder adequately before applying rotation",
@@ -185,8 +173,7 @@
     {
       "error": "Continuing to apply pressure after opponent taps",
       "consequence": "Potential serious injury to training partner, violation of fundamental safety and respect principles",
-      "correction": "Release immediately upon feeling or hearing a tap. Always err on the side of caution - if you think they might be tapping, release and ask",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon feeling or hearing a tap. Always err on the side of caution - if you think they might be tapping, release and ask"
     }
   ],
   "variations_and_setups": [
@@ -278,50 +265,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "First 2 weeks",
-      "focus": "Learn proper mechanics, grip configurations, and body positioning without any resistance. Partner remains completely static while you practice the movement pattern and understand the leverage points.",
-      "resistance_level": "None",
-      "safety_emphasis": "Focus on slow, controlled movements. Practice the release protocol multiple times. Discuss and identify tap signals before beginning. Never apply any actual finishing pressure during this phase."
-    },
-    {
-      "phase": "Controlled Drilling (Weeks 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Partner provides mild, predictable resistance by maintaining defensive posture but allowing the technique to be completed. Practice identifying the correct arm position and completing full sequences from mount.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Begin applying light pressure but stop well before finish. Partner taps early (at 20-30% pressure) to build safety habits. Practice immediate release upon tap. Communication after each repetition is mandatory."
-    },
-    {
-      "phase": "Progressive Resistance (Weeks 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Partner provides realistic defensive reactions including hiding arms, attempting to escape, and creating frames. Practice countering common defenses and transitioning to other attacks when americana is not available.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Gradually increase finishing pressure to 50-60% over multiple weeks. Maintain 3-5 second application time minimum. Both partners should communicate comfort levels before and after each round."
-    },
-    {
-      "phase": "Positional Sparring (Weeks 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Start from mount position and work for americana against full resistance, with partner attempting all legal defenses and escapes. Integrate americana into your overall mount attack system with other submissions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Apply finishing pressure slowly even in live situations. Partner must tap early enough to prevent injury (at first sensation of joint stress). Both partners share responsibility for safety - defender taps early, attacker applies slowly."
-    },
-    {
-      "phase": "Competition Integration (Weeks 13+)",
-      "timeframe": "Week 13 onward",
-      "focus": "Incorporate americana as part of your complete mount attack system in full sparring scenarios. Develop ability to chain it with armbars, other shoulder locks, and positional transitions based on defensive reactions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain training room culture of early taps on joint locks. In actual competition, pressure can be applied faster, but training should always prioritize safety over winning. Never apply competition-speed pressure on training partners."
-    },
-    {
-      "phase": "Ongoing Refinement",
-      "timeframe": "Continuous",
-      "focus": "Refine details based on different body types, scenarios, and opponent responses. Study high-level applications and integrate feedback from training partners and instructors. Teach the technique to others to deepen understanding.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "As you become more skilled, take extra care with less experienced partners. Your increased leverage and technique makes you more dangerous. Always calibrate your pressure to your partner's experience level. Senior practitioners have special responsibility to maintain safety culture."
-    }
-  ],
   "from_positions": [
     "Mount",
     "High Mount",
@@ -395,5 +338,6 @@
       "name": "Modified Mount",
       "relationship": "Mount variation with posted leg providing base stability during americana"
     }
-  ]
+  ],
+  "success_rate": 68
 }

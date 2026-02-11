@@ -157,7 +157,7 @@ The technique operates on the principle that lapel configurations create directi
 Strategically, this pass is most effective when combined with systematic lapel clearing sequences. Rather than fighting directly against the lapel barrier, you partially clear the obstruction, initiate the knee slice during the transition window, and complete the pass before the opponent can re-establish their configuration. The timing window is narrow, making this a technically demanding but highly effective solution for gi competition where lapel guards are prevalent.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, this pass is most effective when combined with systematic lapel c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify configuration**: Assess whether opponent has worm guard (leg wrap), squid guard (arm wrap), or hybrid configuration. This determines which direction the lapel restricts your movement and informs your passing angle. (Timing: Before initiating pass)
-2. **Partial lapel clear**: Work the lapel fabric partially off the restricted body part using technical unwinding motion. You don't need complete clearing—just enough to create a passing window where the fabric no longer blocks your hip advancement. (Timing: 2-3 seconds)
-3. **Establish cross-face**: Secure deep underhook or cross-face grip on opponent's far side, driving your shoulder into their jaw line. This prevents them from sitting up to pursue back takes and creates the pressure foundation for the slice. (Timing: Immediately after partial clear)
-4. **Drop slicing knee**: Drive your lead knee across opponent's thigh toward the mat on their far hip side. The knee cuts at an angle tangent to the remaining lapel restriction rather than directly into it. Maintain heavy shoulder pressure throughout. (Timing: Decisive, committed motion)
-5. **Hip advancement**: As the knee clears their thigh, drive your hip forward and down to establish hip-to-hip contact. Your trailing leg backsteps to prevent them from recovering half guard while you consolidate the pass. (Timing: Continuous with knee slice)
-6. **Consolidate position**: Complete the pass by establishing side control or knee on belly. Strip any remaining lapel grips before they can be reconfigured. Secure your dominant position with standard controls before advancing to submissions. (Timing: 1-2 seconds after slice completion)
+1. **Identify configuration**: Assess whether opponent has worm guard (leg wrap), squid guard (arm wrap), or hybrid configuration. This determines which direction the lapel restricts your movement and informs your passing angle.
+2. **Partial lapel clear**: Work the lapel fabric partially off the restricted body part using technical unwinding motion. You don't need complete clearing—just enough to create a passing window where the fabric no longer blocks your hip advancement.
+3. **Establish cross-face**: Secure deep underhook or cross-face grip on opponent's far side, driving your shoulder into their jaw line. This prevents them from sitting up to pursue back takes and creates the pressure foundation for the slice.
+4. **Drop slicing knee**: Drive your lead knee across opponent's thigh toward the mat on their far hip side. The knee cuts at an angle tangent to the remaining lapel restriction rather than directly into it. Maintain heavy shoulder pressure throughout.
+5. **Hip advancement**: As the knee clears their thigh, drive your hip forward and down to establish hip-to-hip contact. Your trailing leg backsteps to prevent them from recovering half guard while you consolidate the pass.
+6. **Consolidate position**: Complete the pass by establishing side control or knee on belly. Strip any remaining lapel grips before they can be reconfigured. Secure your dominant position with standard controls before advancing to submissions.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, this pass is most effective when combined with systematic lapel c
 ## Training Progressions
 **Week 1-2** - Configuration recognition
 Partner establishes various lapel configurations while you practice identifying the type and determining which direction each restricts. No passing attempts—focus purely on reading the position and visualizing passing angles.
-(Resistance: None)
 
 **Week 3-4** - Partial clearing mechanics
 Practice technical lapel clearing sequences specific to each configuration type. Partner maintains moderate grip resistance while you work the fabric off systematically. Develop efficiency in clearing without excessive energy expenditure.
-(Resistance: Light)
 
 **Week 5-6** - Integrated slice timing
 Combine partial clearing with immediate knee slice initiation. Partner provides moderate passing resistance. Focus on finding the timing window where clearing creates sufficient space for slice completion.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance sparring starting from lapel guard. Partner actively reconfigures and counters while you apply the complete technique. Develop ability to chain to alternative passes when knee slice is blocked.
-(Resistance: Full)
 
 
 

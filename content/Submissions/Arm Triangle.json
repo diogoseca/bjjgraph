@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries (compressed by opponent's own shoulder and your arm)",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the opponent's own shoulder and arm to compress one carotid artery while your arm compresses the other. Unlike the rear naked choke which requires access to both sides of the neck, the arm triangle turns the opponent's defensive frame into an offensive weapon. This submission is particularly effective from side control and can be finished from multiple positions including modified mount, north-south transition, and even from turtle when the opponent is defending incorrectly. The mechanics rely on proper head positioning, shoulder pressure, and controlled weight distribution rather than pure strength. Understanding the anatomy of the choke—creating a triangle with your arms around the opponent's head and their own arm—is essential for consistent finishing. The arm triangle represents a perfect example of using an opponent's defensive structure against them, making it a high-percentage submission across all skill levels when the fundamental mechanics are properly applied.",
   "safety_considerations": {
     "injury_risks": [
@@ -83,43 +78,37 @@
       "step_number": 1,
       "action": "Isolate and trap the near arm",
       "description": "From side control with crossface pressure, use your chest and shoulder to drive opponent's near arm across their own neck. The key is making their defensive frame become the choking mechanism. Drive your weight through your shoulder while controlling their head, forcing their arm to cross their centerline. This arm will compress one carotid artery while your arm compresses the other.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 2,
       "action": "Thread the choking arm deep",
       "description": "Slide your near arm (the one closest to opponent's head) under their neck, reaching as deep as possible toward the far side of their neck. Your bicep should contact one side of their neck while their own trapped shoulder/arm contacts the other side. The deeper you can thread this arm, the tighter the eventual choke. Your forearm should emerge on the far side of their head with your hand reaching toward their far shoulder.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Lock the grip and create the triangle",
       "description": "Reach your free hand over opponent's back and grab your own bicep (gable grip) or clasp your hands together. This creates the triangle structure: your bicep on one side of their neck, their trapped arm/shoulder on the other side, and your forearm across the back of their head/neck. Ensure your head is positioned tight against opponent's head on the choke side—this is critical to prevent space and escape.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Adjust angle and position",
       "description": "Shift your body position slightly toward the trapped arm side (typically moving toward north-south or modified mount). This angle adjustment is what transforms the hold into a finishing choke. Your shoulder should be driving toward opponent's head, and your hips should be positioned to allow maximum shoulder pressure. Some practitioners prefer to step over into modified mount; others finish from a tight side control angle.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 5,
       "action": "Drive shoulder pressure and walk the choke tight",
       "description": "The finish comes from walking your shoulder toward opponent's head while simultaneously squeezing your elbows together and pulling your choking-side elbow to your ribcage. Your shoulder pressure combined with the squeeze closes the triangle and compresses both carotid arteries. Walk your knees forward incrementally (small steps) to increase shoulder pressure. Keep your head glued to opponent's head throughout.",
-      "timing": "3-5 seconds to tap",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds to tap"
     },
     {
       "step_number": 6,
       "action": "Maintain position and pressure until tap",
       "description": "Continue steady pressure with your shoulder driving forward and elbows tight to your body. Do not relax or adjust once the choke is locked—maintain consistent pressure. Watch for tap signals carefully as blood chokes can cause unconsciousness quickly. The moment you feel a tap or see any distress signal, release immediately by opening your arms and stepping back from opponent's head and shoulders.",
-      "timing": "1-3 seconds typically",
-      "pressure_level": "Maximum"
+      "timing": "1-3 seconds typically"
     }
   ],
   "opponent_defense_patterns": [
@@ -153,38 +142,32 @@
     {
       "error": "Squeezing with arm strength alone without shoulder pressure",
       "consequence": "Choke never tightens fully, opponent can defend indefinitely, you fatigue your arms quickly",
-      "correction": "Use your entire body weight driving through your shoulder toward opponent's head. The squeeze comes from structural pressure and body positioning, not bicep strength. Walk your knees forward to increase shoulder drive.",
-      "danger_level": "Low"
+      "correction": "Use your entire body weight driving through your shoulder toward opponent's head. The squeeze comes from structural pressure and body positioning, not bicep strength. Walk your knees forward to increase shoulder drive."
     },
     {
       "error": "Head position too far from opponent's head (space between heads)",
       "consequence": "Opponent can turn their head into the space and relieve pressure on carotid arteries, preventing the finish",
-      "correction": "Keep your head glued tight to opponent's head on the choke side throughout the entire sequence. Think of your head as a plug preventing their escape. No space should exist between your heads.",
-      "danger_level": "Low"
+      "correction": "Keep your head glued tight to opponent's head on the choke side throughout the entire sequence. Think of your head as a plug preventing their escape. No space should exist between your heads."
     },
     {
       "error": "Finishing from directly perpendicular side control position",
       "consequence": "Choke angle is inefficient, opponent can bridge or turn more easily, finish becomes strength-based",
-      "correction": "Always adjust your angle toward the trapped arm side before finishing. Move toward north-south or step into modified mount. The angle change is what makes the choke work with technique rather than strength.",
-      "danger_level": "Low"
+      "correction": "Always adjust your angle toward the trapped arm side before finishing. Move toward north-south or step into modified mount. The angle change is what makes the choke work with technique rather than strength."
     },
     {
       "error": "Not threading arm deep enough under opponent's neck",
       "consequence": "Insufficient control of one side of neck, choke becomes one-sided arm bar on neck rather than true blood choke",
-      "correction": "Before locking your grip, ensure your choking arm is as deep as possible with your bicep on the far side of their neck. Your hand should be reaching toward their far shoulder. Depth creates the proper triangle structure.",
-      "danger_level": "Medium"
+      "correction": "Before locking your grip, ensure your choking arm is as deep as possible with your bicep on the far side of their neck. Your hand should be reaching toward their far shoulder. Depth creates the proper triangle structure."
     },
     {
       "error": "Holding the choke after opponent taps or goes unconscious",
       "consequence": "Can cause loss of consciousness, potential brain damage from prolonged oxygen deprivation, or stroke in extreme cases",
-      "correction": "Release immediately upon any tap signal. Watch opponent's face color and resistance level. If they go limp or stop resisting, release instantly even without tap. Blood chokes work quickly—there is no benefit to holding pressure after tap.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon any tap signal. Watch opponent's face color and resistance level. If they go limp or stop resisting, release instantly even without tap. Blood chokes work quickly—there is no benefit to holding pressure after tap."
     },
     {
       "error": "Applying sudden jerking or spiking pressure to finish faster",
       "consequence": "Can cause neck strain, whiplash-type injury, or force unconsciousness before opponent can tap safely",
-      "correction": "Apply smooth, progressive pressure over 3-5 seconds minimum. The gradual increase allows opponent to recognize the danger and tap safely. Training is about control and learning, not speed finishes.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply smooth, progressive pressure over 3-5 seconds minimum. The gradual increase allows opponent to recognize the danger and tap safely. Training is about control and learning, not speed finishes."
     }
   ],
   "variations_and_setups": [
@@ -271,50 +254,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn triangle structure, head positioning, and basic mechanics without any finishing pressure. Partner remains completely safe while you practice grip, angle, and positioning.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand anatomy of choke (carotid compression) and practice finding the position without applying any pressure. Partner should feel position only, never discomfort."
-    },
-    {
-      "phase": "Slow Positional Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Practice full sequence from side control setup to locked position with very slow movement. Begin adding light pressure just to understand the mechanics, releasing well before any discomfort.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Apply minimal pressure (20% maximum) and hold for only 1-2 seconds before releasing. Focus on smooth transitions and proper angle adjustment. Partner should never feel threatened, only positioned."
-    },
-    {
-      "phase": "Progressive Pressure Control",
-      "timeframe": "Week 5-8",
-      "focus": "Gradually increase pressure application while maintaining 5-second minimum progression time. Partner begins light defensive frames and escapes. Emphasis on recognizing tap signals instantly.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Practice reading early tap signals and releasing immediately. Develop sensitivity to partner's stress levels. Never exceed 60% pressure in this phase. Communicate throughout the drill."
-    },
-    {
-      "phase": "Realistic Defensive Scenarios",
-      "timeframe": "Week 9-12",
-      "focus": "Partner provides realistic defensive frames, turns, and escapes. Practice maintaining position and control while facing common defenses. Introduce variations from mount and north-south.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain 3-5 second application window even with resistance. Practice finishing with technique and position rather than speed or strength. Review safety protocols before each session."
-    },
-    {
-      "phase": "Live Training Integration",
-      "timeframe": "Week 13+",
-      "focus": "Incorporate arm triangle into live rolling from various positions. Partner provides full resistance but both practitioners maintain safety-first mindset. Focus on high-percentage setups.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Both partners responsible for safety—attacker maintains controlled application, defender taps early rather than fighting until last second. Debrief after any close calls or mistakes."
-    },
-    {
-      "phase": "Competition Preparation (Advanced Only)",
-      "timeframe": "Ongoing",
-      "focus": "Refine finishing details, angle adjustments, and troubleshooting against elite-level defenses. Develop ability to recognize when choke is not available and transition to alternatives.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even in competition training, maintain respect for partner's safety. Practice fast recognition of setup but never sacrifice application safety for speed. Review competition vs training distinctions regularly."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Mount",
@@ -336,7 +275,7 @@
     "Clock Choke",
     "Brabo Choke",
     "Arm Triangle Progression",
-    "D'arce-Anaconda Connection"
+    "Darce-Anaconda Connection"
   ],
   "related_content": [
     {
@@ -356,7 +295,7 @@
       "relationship": "Body positioning allows similar mechanics"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "Finishing position variation with downward pressure"
     },
     {
@@ -387,5 +326,6 @@
       "name": "Back Control",
       "relationship": "Alternative target when opponent turns during arm triangle defense"
     }
-  ]
+  ],
+  "success_rate": 62
 }

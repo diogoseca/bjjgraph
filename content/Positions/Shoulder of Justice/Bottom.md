@@ -357,11 +357,11 @@ Partner increases shoulder pressure incrementally. You must avoid all reactive m
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 25% | 15% |
-| Intermediate | 62% | 38% | 28% |
-| Advanced     | 78% | 52% | 42% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 45% |
+| Submission Probability | 35% |
 
 **Average Time in Position**: 45 seconds to 2 minutes before escape or submission
 

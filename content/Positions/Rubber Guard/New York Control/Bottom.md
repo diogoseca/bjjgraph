@@ -387,11 +387,11 @@ Dedicated stretching routine focusing on hip external rotation, hamstring flexib
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 25% |
-| Intermediate | 65% | 60% | 45% |
-| Advanced     | 80% | 75% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 45-90 seconds before transition or submission attempt
 

@@ -157,7 +157,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 **Type**: Leg Lock
 **Target Area**: Ankle, knee ligaments, and surrounding connective tissue
 **Starting Position**: [[Inside Ashi-Garami]]
-**Success Rates**: Beginner 20%, Intermediate 40%, Advanced 65%
+**Success Rate**: 52%
 
 </section>
 
@@ -235,12 +235,12 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure inside ashi-garami control**: From leg entanglement or guard position, establish inside ashi-garami by placing your inside leg across opponent's hip (your left leg across their right hip if attacking their right leg) and hooking your outside leg over the back of their trapped leg. Ensure your outside leg hooks deeply, with your heel pulling their leg toward you while your inside leg prevents hip rotation. This configuration isolates the opponent's leg and creates the foundation for heel control. (Timing: 2-3 seconds to establish secure position) [Pressure: Moderate]
-2. **Attack the heel grip**: Reach across your body with both hands and establish a five-finger grip on opponent's heel. Your thumbs should be positioned on the Achilles tendon with fingers wrapped around the heel bone. The grip should be palm-to-palm with fingers interlaced for maximum strength, or cupping grip with one hand reinforcing the other. Pull the heel tightly to your chest or shoulder area, eliminating space between their heel and your body. This connection is the critical control point for the submission. (Timing: 1-2 seconds to secure grip before opponent defends) [Pressure: Firm]
-3. **Clear opponent's defensive grips**: Before beginning rotation, ensure opponent cannot strip your heel control by breaking any grips they have established on your hands, wrists, or arms. Use head position, shoulder pressure, or grip breaks to clear their defensive grips. If opponent has strong upper body control, you may need to adjust your angle or use your inside leg to create distance from their upper body attacks. Never begin rotation while opponent has strong grips on your controlling hands. (Timing: Varies based on opponent's defense, 1-4 seconds) [Pressure: Moderate]
-4. **Position hips for maximum leverage**: Adjust your hip position so your inside hip is tightly against opponent's hip or thigh, creating a fixed point that prevents their leg from rotating with your finishing motion. Your hips should be slightly back (not directly parallel to opponent), creating an angle that allows maximum rotation of their leg. The tighter your hip connection to their body, the more effective the leverage system becomes. This hip positioning transforms your body into a mechanical lever. (Timing: 1-2 seconds of adjustment) [Pressure: Firm]
-5. **Extend hips and begin external rotation**: Keeping the heel pulled tightly to your chest, extend your hips backward while simultaneously beginning external rotation of the heel (rotating away from your body and toward opponent's toes). The rotation should be smooth and progressive, never jerky or explosive. Your core and hips generate the rotation while your arms maintain the connection—this is not an arm-strength submission. Think of the motion as trying to show the sole of their foot to the ceiling while maintaining heel-to-chest connection. (Timing: SLOW progression over 3-5 seconds in training) [Pressure: Firm]
-6. **Control throughout finish or release**: Maintain constant awareness of partner's tap signals throughout the entire finishing sequence. In training, stop immediately at first sign of resistance or discomfort. Continue to control opponent's free leg with your leg entanglement to prevent them from creating escape angles. If opponent taps, immediately stop all rotational pressure and release heel control completely before releasing leg entanglement. In competition, continue applying pressure only until clear tap signal is given. Never add additional rotation after opponent begins tapping. (Timing: Continuous until tap or release decision) [Pressure: Firm]
+1. **Secure inside ashi-garami control**: From leg entanglement or guard position, establish inside ashi-garami by placing your inside leg across opponent's hip (your left leg across their right hip if attacking their right leg) and hooking your outside leg over the back of their trapped leg. Ensure your outside leg hooks deeply, with your heel pulling their leg toward you while your inside leg prevents hip rotation. This configuration isolates the opponent's leg and creates the foundation for heel control. (Timing: 2-3 seconds to establish secure position)
+2. **Attack the heel grip**: Reach across your body with both hands and establish a five-finger grip on opponent's heel. Your thumbs should be positioned on the Achilles tendon with fingers wrapped around the heel bone. The grip should be palm-to-palm with fingers interlaced for maximum strength, or cupping grip with one hand reinforcing the other. Pull the heel tightly to your chest or shoulder area, eliminating space between their heel and your body. This connection is the critical control point for the submission. (Timing: 1-2 seconds to secure grip before opponent defends)
+3. **Clear opponent's defensive grips**: Before beginning rotation, ensure opponent cannot strip your heel control by breaking any grips they have established on your hands, wrists, or arms. Use head position, shoulder pressure, or grip breaks to clear their defensive grips. If opponent has strong upper body control, you may need to adjust your angle or use your inside leg to create distance from their upper body attacks. Never begin rotation while opponent has strong grips on your controlling hands. (Timing: Varies based on opponent's defense, 1-4 seconds)
+4. **Position hips for maximum leverage**: Adjust your hip position so your inside hip is tightly against opponent's hip or thigh, creating a fixed point that prevents their leg from rotating with your finishing motion. Your hips should be slightly back (not directly parallel to opponent), creating an angle that allows maximum rotation of their leg. The tighter your hip connection to their body, the more effective the leverage system becomes. This hip positioning transforms your body into a mechanical lever. (Timing: 1-2 seconds of adjustment)
+5. **Extend hips and begin external rotation**: Keeping the heel pulled tightly to your chest, extend your hips backward while simultaneously beginning external rotation of the heel (rotating away from your body and toward opponent's toes). The rotation should be smooth and progressive, never jerky or explosive. Your core and hips generate the rotation while your arms maintain the connection—this is not an arm-strength submission. Think of the motion as trying to show the sole of their foot to the ceiling while maintaining heel-to-chest connection. (Timing: SLOW progression over 3-5 seconds in training)
+6. **Control throughout finish or release**: Maintain constant awareness of partner's tap signals throughout the entire finishing sequence. In training, stop immediately at first sign of resistance or discomfort. Continue to control opponent's free leg with your leg entanglement to prevent them from creating escape angles. If opponent taps, immediately stop all rotational pressure and release heel control completely before releasing leg entanglement. In competition, continue applying pressure only until clear tap signal is given. Never add additional rotation after opponent begins tapping. (Timing: Continuous until tap or release decision)
 
 
 </section>
@@ -260,28 +260,28 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Pulling heel straight back toward yourself instead of rotating externally [Low DANGER]
+- **Mistake**: Pulling heel straight back toward yourself instead of rotating externally
   - **Consequence**: Minimal pressure on knee joint, submission is ineffective, opponent easily defends
   - **Correction**: Focus on external rotation motion (turning heel away from your body) rather than pulling motion. The heel should move toward opponent's toes in an arc, not straight back toward your chest.
-- **Mistake**: Using arm strength instead of hip extension and rotation for finishing pressure [Low DANGER]
+- **Mistake**: Using arm strength instead of hip extension and rotation for finishing pressure
   - **Consequence**: Weak submission that fatigues your grip quickly, opponent has time to escape
   - **Correction**: Lock heel position to your chest/shoulder and generate all finishing pressure from hip extension and torso rotation. Your arms are connection points only, not the power source.
-- **Mistake**: Poor hip positioning with space between your hip and opponent's hip [Low DANGER]
+- **Mistake**: Poor hip positioning with space between your hip and opponent's hip
   - **Consequence**: Opponent can rotate their leg with your rotation, dissipating pressure and enabling escape
   - **Correction**: Ensure your inside hip is tightly connected to opponent's hip or thigh, creating fixed point that prevents their leg rotation. Eliminate all space in the system.
-- **Mistake**: Allowing slack in the outside leg hook, letting opponent's leg move freely [Medium DANGER]
+- **Mistake**: Allowing slack in the outside leg hook, letting opponent's leg move freely
   - **Consequence**: Opponent escapes leg entanglement by extending or withdrawing leg, losing submission entirely
   - **Correction**: Maintain constant tension with outside leg hook pulling opponent's leg toward you. Your heel should be actively pulling at all times, never passive.
-- **Mistake**: Neglecting to control opponent's free leg during finishing sequence [Medium DANGER]
+- **Mistake**: Neglecting to control opponent's free leg during finishing sequence
   - **Consequence**: Opponent creates powerful frames or escape angles using free leg, escapes submission or sweeps you
   - **Correction**: Use your inside leg positioning or ashi-garami configuration to monitor and neutralize opponent's free leg throughout submission attempt. Adjust position if free leg becomes threatening.
-- **Mistake**: Applying explosive rotational force in training without progressive pressure [CRITICAL DANGER]
+- **Mistake**: Applying explosive rotational force in training without progressive pressure
   - **Consequence**: CATASTROPHIC KNEE INJURY to training partner with ligament rupture requiring surgery
   - **Correction**: ALWAYS apply pressure slowly and progressively over minimum 5-7 seconds in training. Stop immediately at first sign of resistance. This is non-negotiable for training safety.
-- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress
   - **Consequence**: SEVERE INJURY including ACL tear, MCL tear, or combined ligament injury requiring surgical reconstruction
   - **Correction**: Develop conditioned response to release immediately upon any tap signal. Practice release protocol in every drilling session. Partner safety is absolute priority over finishing mechanics.
-- **Mistake**: Attempting inside heel hook before mastering positional control and entry mechanics [High DANGER]
+- **Mistake**: Attempting inside heel hook before mastering positional control and entry mechanics
   - **Consequence**: Poor control leads to dangerous situations, injury risk to both participants, and reinforcement of bad technical habits
   - **Correction**: Spend months mastering inside ashi-garami positional control before attempting submission finish. Work through proper progression: position, control, then submission in that specific order.
 
@@ -346,43 +346,6 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Positional Study** (2-4 weeks, 3-4 sessions per week)
-- Focus: Study leg entanglement theory, watch instructional content, understand anatomical targets and injury mechanisms without live practice. Learn inside ashi-garami position mechanics, entries, and positional control without submission attempts. Understand the injury risks and safety protocols before physical practice.
-- Resistance: None
-- Safety: Cognitive understanding of injury mechanisms and why slow application is mandatory. Study videos of proper technique and tap signals. Understand that ligaments fail before pain signals register.
-
-**Positional Control Development** (4-8 weeks, drilling 3-4 times per week)
-- Focus: Master inside ashi-garami position entries, maintenance, and transitions without attempting submission finish. Drill leg entanglement configurations, hip positioning, and controlling opponent's legs from various entries. Partner provides zero resistance initially, gradually adding mild movement to test positional maintenance. No heel grips or rotational pressure during this phase.
-- Resistance: Zero resistance
-- Safety: Establish fundamental position control before attempting submissions. Build muscle memory for leg configurations and hip positioning. Develop sensitivity to partner's leg position and movement.
-
-**Grip Mechanics and Heel Control** (3-4 weeks)
-- Focus: From established inside ashi-garami position, practice securing heel grips without applying rotational pressure. Focus on grip configurations, pulling heel to chest, and maintaining connection while partner provides zero resistance. Drill grip transitions and clearing defensive grips. Practice release protocols repeatedly—securing grip, holding for 3 seconds, then releasing completely.
-- Resistance: Zero resistance
-- Safety: Develop conditioned response for immediate release. Practice release protocol 10-15 times per session. Never apply any rotational pressure during this phase. Build confidence in grip strength and positioning.
-
-**Slow-Speed Finishing Mechanics** (4-6 weeks minimum)
-- Focus: Begin applying extremely slow rotational pressure (5-7 second application minimum) with fully cooperative partner. Partner taps early and often to establish safe communication patterns. Practice complete finishing sequence: establish position, secure grip, clear defenses, position hips, begin rotation, stop on tap, release immediately. Focus on hip extension and torso rotation mechanics rather than arm strength.
-- Resistance: Zero resistance
-- Safety: MANDATORY slow application speed. Partner must tap at first sensation of pressure (well before pain threshold). Practitioner must develop automatic release response to tap signals. This phase cannot be rushed—minimum 4-6 weeks required.
-
-**Progressive Resistance and Defensive Study** (2-3 months ongoing)
-- Focus: Partner gradually adds defensive grips, hip movement, and escape attempts while practitioner maintains control and applies submission safely. Continue slow application speed (5-7 seconds minimum). Study opponent defensive patterns and develop adjustments while maintaining absolute safety protocols. Drill transitions between different ashi-garami positions while maintaining heel control.
-- Resistance: Mild resistance
-- Safety: Maintain slow application speed even with increased resistance. Both partners communicate throughout. Stop and reset if position becomes scrambled or unsafe. Never increase speed to counter resistance—improve position first.
-
-**Situational Integration and Competition Preparation** (Ongoing, months to years)
-- Focus: Integrate inside heel hook into live positional sparring from specific starting positions (guard, leg entanglement, scrambles). Apply submission only against experienced training partners who understand the risks and tap early. Continue reinforcing safety protocols even at advanced skill levels. Study competition footage and high-level applications. For competition preparation, work with coach on responsible application speed decisions.
-- Resistance: Realistic resistance
-- Safety: Even at advanced levels, maintain communication and early tap culture. Never apply competition-speed finishes in regular training. Reserve faster applications for competition only after years of technical development. Respect that one mistake can end training partner's career.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -435,6 +398,7 @@ The Inside Heel Hook is one of the most powerful and dangerous leg locks in Braz
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

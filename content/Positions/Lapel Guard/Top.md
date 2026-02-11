@@ -374,11 +374,11 @@ Partner establishes lapel configuration of choice. Clear it using appropriate te
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 30% | 15% |
-| Intermediate | 55% | 50% | 30% |
-| Advanced     | 75% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 65% |
+| Advancement Probability | 60% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 3-5 minutes to successfully pass established lapel guard in competition
 

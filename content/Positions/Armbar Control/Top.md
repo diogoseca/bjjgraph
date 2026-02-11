@@ -375,11 +375,11 @@ Practice entering armbar control from five different starting positions: closed 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 40% |
-| Intermediate | 65% | 60% | 60% |
-| Advanced     | 80% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 65% |
 
 **Average Time in Position**: 15-45 seconds from control to finish or escape
 

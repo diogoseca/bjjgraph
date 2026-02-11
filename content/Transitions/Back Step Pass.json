@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Back Step Pass is a critical guard passing technique used to escape leg entanglement danger when facing inverted guards like Grasshopper Guard. Unlike forward-pressure passes that feed into the bottom player's sweeping and leg attack mechanics, the back step uses retrograde movement to extract your leg from entanglement while simultaneously creating a passing angle toward side control.\n\nThis technique operates on a fundamental principle: when your leg becomes endangered by hooks, threads, or rotational attacks, stepping backward removes the lever the opponent needs to complete their technique. The back step is not merely a defensive retreat—it's a positional repositioning that converts defensive necessity into passing opportunity. As your stepping leg clears the entanglement zone, your weight shifts forward over the opponent's torso, flattening their inverted posture and establishing the perpendicular alignment characteristic of side control.\n\nThe back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.",
   "key_principles": [
     "Initiate the back step before the opponent fully establishes leg control, not after",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Recognize entanglement",
-      "description": "Identify that opponent's legs are threatening to establish hooks behind your knee, thread between your legs, or initiate a rotational attack on your lower limb. This recognition must occur before full control is established.",
-      "timing": "Immediate upon feeling leg contact"
+      "description": "Identify that opponent's legs are threatening to establish hooks behind your knee, thread between your legs, or initiate a rotational attack on your lower limb. This recognition must occur before full control is established."
     },
     {
       "step_number": 2,
       "action": "Shift weight to base leg",
-      "description": "Transfer your weight to the non-endangered leg, creating a stable base point from which to extract the threatened leg. Lower your hips slightly to increase stability and prevent being swept during the transition.",
-      "timing": "Simultaneous with recognition"
+      "description": "Transfer your weight to the non-endangered leg, creating a stable base point from which to extract the threatened leg. Lower your hips slightly to increase stability and prevent being swept during the transition."
     },
     {
       "step_number": 3,
       "action": "Execute back step",
-      "description": "Step the endangered leg backward and away from the opponent's body in an arc motion, clearing their hooks and threading attempts. The step should move at a 45-degree angle behind you rather than straight back to maximize clearance distance.",
-      "timing": "Decisive single motion"
+      "description": "Step the endangered leg backward and away from the opponent's body in an arc motion, clearing their hooks and threading attempts. The step should move at a 45-degree angle behind you rather than straight back to maximize clearance distance."
     },
     {
       "step_number": 4,
       "action": "Clear opponent's legs",
-      "description": "As your leg extracts, use your hands to strip, redirect, or pin any remaining leg contact. Push their legs toward the mat or across their own body to prevent them from following your movement and reestablishing guard.",
-      "timing": "During back step motion"
+      "description": "As your leg extracts, use your hands to strip, redirect, or pin any remaining leg contact. Push their legs toward the mat or across their own body to prevent them from following your movement and reestablishing guard."
     },
     {
       "step_number": 5,
       "action": "Drive forward",
-      "description": "Immediately convert the backward momentum into forward pressure, driving your chest and shoulder toward the opponent's upper body. This collapses their inverted posture and prevents guard recovery attempts.",
-      "timing": "Immediately after leg clears"
+      "description": "Immediately convert the backward momentum into forward pressure, driving your chest and shoulder toward the opponent's upper body. This collapses their inverted posture and prevents guard recovery attempts."
     },
     {
       "step_number": 6,
       "action": "Establish crossface",
-      "description": "As you drive forward, establish crossface control with your forearm or bicep pressure across their neck and face. This prevents them from turning into you and cements the passing position as you settle into side control.",
-      "timing": "As you make chest contact"
+      "description": "As you drive forward, establish crossface control with your forearm or bicep pressure across their neck and face. This prevents them from turning into you and cements the passing position as you settle into side control."
     },
     {
       "step_number": 7,
       "action": "Consolidate side control",
-      "description": "Complete the pass by establishing perpendicular chest-to-chest positioning with your hips low against their hips. Block their far hip with your near hand to prevent knee insertion and guard recovery.",
-      "timing": "Final settling phase"
+      "description": "Complete the pass by establishing perpendicular chest-to-chest positioning with your hips low against their hips. Block their far hip with your near hand to prevent knee insertion and guard recovery."
     }
   ],
   "common_counters": [
@@ -146,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice the back step motion without resistance. Partner holds static grasshopper guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction.",
-      "resistance_level": "None"
+      "description": "Practice the back step motion without resistance. Partner holds static grasshopper guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner actively attempts leg entanglements at 30-50% speed. Practice recognizing the optimal moment to initiate back step based on their leg positioning and movement patterns. Develop anticipation skills.",
-      "resistance_level": "Light"
+      "description": "Partner actively attempts leg entanglements at 30-50% speed. Practice recognizing the optimal moment to initiate back step based on their leg positioning and movement patterns. Develop anticipation skills."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner attempts to counter your back step with following inversions, technical standups, and guard recovery. Practice adjusting your timing and forward drive to defeat these counters. Build problem-solving ability.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts to counter your back step with following inversions, technical standups, and guard recovery. Practice adjusting your timing and forward drive to defeat these counters. Build problem-solving ability."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Incorporate back step into live rolling and specific training. Start from grasshopper guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure.",
-      "resistance_level": "Full"
+      "description": "Incorporate back step into live rolling and specific training. Start from grasshopper guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure."
     }
   ],
   "variants_and_adaptations": [
@@ -188,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Back Step Pass?",
-      "answer": "The primary goal is to extract your leg from an impending or established leg entanglement while simultaneously creating a passing angle that allows you to advance to side control. It converts a defensive necessity into an offensive passing opportunity.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to extract your leg from an impending or established leg entanglement while simultaneously creating a passing angle that allows you to advance to side control. It converts a defensive necessity into an offensive passing opportunity."
     },
     {
       "question": "What position do you start Back Step Pass from?",
-      "answer": "This technique starts from Grasshopper Guard/Top, specifically when the bottom player's inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your lower limbs.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Grasshopper Guard/Top, specifically when the bottom player's inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your lower limbs."
     },
     {
       "question": "Why should you step at a 45-degree angle rather than straight backward?",
-      "answer": "Stepping at an angle creates lateral distance that prevents the opponent's legs from tracking your movement. A straight backward step allows their entanglement to follow and potentially tighten, while the angled step breaks their control angle.",
-      "difficulty": "Intermediate"
+      "answer": "Stepping at an angle creates lateral distance that prevents the opponent's legs from tracking your movement. A straight backward step allows their entanglement to follow and potentially tighten, while the angled step breaks their control angle."
     },
     {
       "question": "What are the critical grips or controls needed during the Back Step Pass?",
-      "answer": "During execution, hands are used to strip, redirect, or pin opponent's legs as they clear. After the step, crossface control with forearm or bicep pressure across the neck is essential for completing the pass. Near hand blocks far hip to prevent guard recovery.",
-      "difficulty": "Intermediate"
+      "answer": "During execution, hands are used to strip, redirect, or pin opponent's legs as they clear. After the step, crossface control with forearm or bicep pressure across the neck is essential for completing the pass. Near hand blocks far hip to prevent guard recovery."
     },
     {
       "question": "Your opponent begins rolling to follow your back step - how do you respond?",
-      "answer": "Accelerate your forward drive to beat their reinversion timing. Use their rolling momentum against them by driving your crossface as they rotate, flattening their inversion before they can reestablish the guard position.",
-      "difficulty": "Advanced"
+      "answer": "Accelerate your forward drive to beat their reinversion timing. Use their rolling momentum against them by driving your crossface as they rotate, flattening their inversion before they can reestablish the guard position."
     },
     {
       "question": "When is the optimal timing window to initiate the back step?",
-      "answer": "The optimal window is during the opponent's leg reconfiguration phase—when they are transitioning between hook placements or threading attempts. Their legs are temporarily in flux and cannot fully commit to entanglement, making extraction easier.",
-      "difficulty": "Advanced"
+      "answer": "The optimal window is during the opponent's leg reconfiguration phase—when they are transitioning between hook placements or threading attempts. Their legs are temporarily in flux and cannot fully commit to entanglement, making extraction easier."
     },
     {
       "question": "What hip position should you maintain during the back step movement?",
-      "answer": "Keep your hips low throughout the back step, almost in a sprawling position. High hips during the motion create elevation opportunities for the opponent and make you top-heavy and vulnerable to sweeping techniques.",
-      "difficulty": "Intermediate"
+      "answer": "Keep your hips low throughout the back step, almost in a sprawling position. High hips during the motion create elevation opportunities for the opponent and make you top-heavy and vulnerable to sweeping techniques."
     },
     {
       "question": "How do you prevent the opponent from recovering half guard as you complete the pass?",
-      "answer": "Block their far hip with your near hand immediately as you drive forward, preventing them from inserting their knee between your bodies. The combination of hip blocking and crossface pressure eliminates the space needed for half guard recovery.",
-      "difficulty": "Advanced"
+      "answer": "Block their far hip with your near hand immediately as you drive forward, preventing them from inserting their knee between your bodies. The combination of hip blocking and crossface pressure eliminates the space needed for half guard recovery."
     }
   ],
   "safety_considerations": "The Back Step Pass is generally a low-risk technique when executed with proper timing. The primary safety concern is attempting the back step too late when the opponent has already established deep leg control, as explosive extraction against locked entanglements can strain knee ligaments. If your leg is deeply entangled, prioritize controlled disengagement over forcing the back step. During training, partners should allow the back step to complete rather than cranking on partially cleared leg positions. Communicate immediately if knee discomfort occurs during the extraction phase. The forward drive portion carries minimal injury risk but be mindful of your partner's neck position when establishing crossface.",
@@ -262,5 +238,6 @@
       "name": "Combat Base",
       "relationship": "Starting posture often used before executing the pass"
     }
-  ]
+  ],
+  "success_rate": 58
 }

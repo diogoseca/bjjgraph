@@ -163,7 +163,7 @@ The strategic value of the kimura extends far beyond the submission itself. The 
 From a biomechanical perspective, the kimura works by isolating the shoulder joint and applying rotational force while the arm is bent at approximately 90 degrees. The figure-four grip creates exceptional mechanical advantage, allowing you to overcome significant strength differentials. The key to success lies in proper angle creation, hip positioning, and understanding the sequential stages of the attack from initial grip acquisition through final submission or positional advancement.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ From a biomechanical perspective, the kimura works by isolating the shoulder joi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Bait the arm**: From solid side control with crossface established, slightly lift pressure on opponent's near-side arm to invite them to push against your chest or frame against your hip - this creates the opening you need for grip acquisition. (Timing: When opponent begins active escape attempts)
-2. **Secure wrist control**: As their arm extends or reaches, your near-side hand shoots underneath their elbow and cups their wrist from below, palm up, ensuring their forearm is trapped against your forearm in a figure-four configuration. (Timing: Immediately when arm becomes accessible)
-3. **Complete figure-four grip**: Your far-side hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four lock. Squeeze your elbows together to cinch the grip tight against their body. (Timing: Within 1-2 seconds of initial wrist control)
-4. **Pin elbow to hip**: Pull their trapped elbow tight against your hip bone while keeping their wrist elevated. This 90-degree arm position is essential - a straight arm cannot be kimura'd effectively and indicates you should transition to armbar. (Timing: Simultaneously with grip completion)
-5. **Create angle toward head**: Walk your hips toward opponent's head in a north-south direction while maintaining the figure-four grip. Each step increases your mechanical advantage dramatically. Your chest should end up over their shoulder. (Timing: Gradual hip walk over 2-3 seconds)
-6. **Apply rotational pressure**: With angle established, drive their wrist toward the mat while keeping their elbow pinned. The rotation should come from your hip drive pushing their hand down, not from pulling with arm strength alone. (Timing: Controlled steady pressure)
-7. **Finish or transition**: Continue rotational pressure until tap. If opponent rolls to escape the shoulder lock, follow them maintaining the grip to take the back. If they straighten the arm, immediately transition to armbar by throwing your leg over their face. (Timing: Maintain pressure until resolution)
+1. **Bait the arm**: From solid side control with crossface established, slightly lift pressure on opponent's near-side arm to invite them to push against your chest or frame against your hip - this creates the opening you need for grip acquisition.
+2. **Secure wrist control**: As their arm extends or reaches, your near-side hand shoots underneath their elbow and cups their wrist from below, palm up, ensuring their forearm is trapped against your forearm in a figure-four configuration.
+3. **Complete figure-four grip**: Your far-side hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four lock. Squeeze your elbows together to cinch the grip tight against their body.
+4. **Pin elbow to hip**: Pull their trapped elbow tight against your hip bone while keeping their wrist elevated. This 90-degree arm position is essential - a straight arm cannot be kimura'd effectively and indicates you should transition to armbar.
+5. **Create angle toward head**: Walk your hips toward opponent's head in a north-south direction while maintaining the figure-four grip. Each step increases your mechanical advantage dramatically. Your chest should end up over their shoulder.
+6. **Apply rotational pressure**: With angle established, drive their wrist toward the mat while keeping their elbow pinned. The rotation should come from your hip drive pushing their hand down, not from pulling with arm strength alone.
+7. **Finish or transition**: Continue rotational pressure until tap. If opponent rolls to escape the shoulder lock, follow them maintaining the grip to take the back. If they straighten the arm, immediately transition to armbar by throwing your leg over their face.
 
 
 </section>
@@ -265,19 +265,15 @@ From a biomechanical perspective, the kimura works by isolating the shoulder joi
 ## Training Progressions
 **Week 1-2** - Grip mechanics and isolation
 Practice the figure-four grip mechanics from side control with a compliant partner. Focus on proper wrist cup position, elbow pinning, and grip tightness. Drill the initial arm isolation entry 50+ times per session without attempting the finish.
-(Resistance: None)
 
 **Week 3-4** - Angle creation and finishing
 Add the hip walk toward north-south and the finishing rotation. Partner provides light resistance to help you feel when angle is insufficient. Practice recognizing the tap window and applying controlled finishing pressure.
-(Resistance: Light)
 
 **Week 5-6** - Counter chains and transitions
 Partner actively defends with straightening, belt grip, and rolling escapes. Practice the armbar transition when they straighten, the back take when they roll, and the north-south shift when they grip. Build the full kimura trap system.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and timing
 Apply the kimura from side control in live rolling with full resistance. Focus on recognizing when the arm becomes available during natural exchanges. Chain with other side control attacks to create dilemma-based offense.
-(Resistance: Full)
 
 
 

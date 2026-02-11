@@ -159,7 +159,7 @@ description: "Learn Hitchhiker Escape in BJJ. Step-by-step execution from Armbar
 The Hitchhiker Escape is an advanced defensive technique used to escape from a fully extended armbar attack by exploiting rotational mechanics and timing. This escape requires exceptional flexibility, precise timing, and deep understanding of leverage principles. The technique involves rotating the thumb outward (the 'hitchhiker' motion) while simultaneously turning into the opponent and creating space to recover guard. While primarily associated with high-level competition and no-gi grappling, the Hitchhiker Escape represents a last-resort defensive option when positional escapes have failed and the armbar is nearly locked. The escape is particularly effective against opponents who rely purely on extension without proper shoulder control, as it exploits the natural weakness in the grip when the thumb is pointed away from the body. Success requires reading the opponent's finishing mechanics and executing the rotation at the precise moment before full extension is achieved.
 
 **From Position**: [[Armbar Control/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -209,13 +209,13 @@ The Hitchhiker Escape is an advanced defensive technique used to escape from a f
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the window**: Immediately assess the armbar position and identify if escape is viable. Your arm should still have a slight bend - if fully extended, tap immediately. Check opponent's hip position and leg pressure to determine if rotation space exists. (Timing: Within 1-2 seconds of armbar being applied)
-2. **Thumb rotation (hitchhiker)**: Rotate your trapped arm's thumb outward and away from your body, mimicking a hitchhiker's gesture. This rotation reduces direct pressure on the elbow joint by changing the angle of attack. The thumb should point toward the ceiling or away from opponent's body. (Timing: Immediate - before opponent can fully extend)
-3. **Turn into opponent**: Simultaneously turn your entire body toward the opponent, rotating your shoulders and hips in the direction of the trapped arm. This counter-intuitive movement actually reduces joint stress by changing the leverage angle. Your chest should turn to face opponent's legs. (Timing: Coordinated with thumb rotation in one fluid motion)
-4. **Create space with free hand**: Use your free hand to push against opponent's hip or thigh, creating separation between your body and their legs. This space prevents them from re-securing the armbar with better control and gives you room to continue rotating. (Timing: As you rotate, maintain constant pressure)
-5. **Complete the rotation**: Continue rotating your body until you've turned completely onto your side or stomach, with your trapped arm's palm now facing down. The rotation should bring you perpendicular or even past perpendicular to opponent's body alignment, effectively neutralizing the armbar's leverage. (Timing: Explosive but controlled - 1-2 seconds total)
-6. **Extract the arm**: Once rotated, pull your arm back toward your body while maintaining the thumb-out position. Opponent's grip should be weakened by the rotation, allowing you to slip your elbow free from their legs. Keep your arm bent and close to your body as you extract. (Timing: Immediately after completing rotation)
-7. **Establish guard recovery**: As your arm comes free, immediately work to recover guard position. Use your free leg to create a knee shield or hook opponent's leg, preventing them from advancing to mount or securing another submission. Establish closed guard, half guard, or turtle based on opponent's reaction. (Timing: Continuous movement - don't pause after escaping)
+1. **Recognize the window**: Immediately assess the armbar position and identify if escape is viable. Your arm should still have a slight bend - if fully extended, tap immediately. Check opponent's hip position and leg pressure to determine if rotation space exists.
+2. **Thumb rotation (hitchhiker)**: Rotate your trapped arm's thumb outward and away from your body, mimicking a hitchhiker's gesture. This rotation reduces direct pressure on the elbow joint by changing the angle of attack. The thumb should point toward the ceiling or away from opponent's body.
+3. **Turn into opponent**: Simultaneously turn your entire body toward the opponent, rotating your shoulders and hips in the direction of the trapped arm. This counter-intuitive movement actually reduces joint stress by changing the leverage angle. Your chest should turn to face opponent's legs.
+4. **Create space with free hand**: Use your free hand to push against opponent's hip or thigh, creating separation between your body and their legs. This space prevents them from re-securing the armbar with better control and gives you room to continue rotating.
+5. **Complete the rotation**: Continue rotating your body until you've turned completely onto your side or stomach, with your trapped arm's palm now facing down. The rotation should bring you perpendicular or even past perpendicular to opponent's body alignment, effectively neutralizing the armbar's leverage.
+6. **Extract the arm**: Once rotated, pull your arm back toward your body while maintaining the thumb-out position. Opponent's grip should be weakened by the rotation, allowing you to slip your elbow free from their legs. Keep your arm bent and close to your body as you extract.
+7. **Establish guard recovery**: As your arm comes free, immediately work to recover guard position. Use your free leg to create a knee shield or hook opponent's leg, preventing them from advancing to mount or securing another submission. Establish closed guard, half guard, or turtle based on opponent's reaction.
 
 
 </section>
@@ -261,23 +261,18 @@ The Hitchhiker Escape is an advanced defensive technique used to escape from a f
 ## Training Progressions
 **Phase 1: Understanding Mechanics (Weeks 1-2)** - Learn the rotation mechanics and develop shoulder flexibility
 Partner applies armbar slowly with minimal pressure while you practice the thumb rotation and body turn. Focus on understanding the movement pattern without resistance. Perform shoulder mobility exercises and specific flexibility work for the hitchhiker motion. Drill the rotation 20-30 times per session with cooperative partner.
-(Resistance: None)
 
 **Phase 2: Timing Recognition (Weeks 3-4)** - Develop ability to recognize the optimal timing window
 Partner applies armbar at varying speeds while you identify the moment when escape is viable versus when you should tap. Practice reading opponent's extension and recognizing the point of no return. Build sensitivity to joint pressure and learn your personal safety threshold.
-(Resistance: Light)
 
 **Phase 3: Dynamic Drilling (Weeks 5-8)** - Execute the escape with increased speed and resistance
 Partner applies armbar with moderate pressure and attempts to finish as you execute the escape. Practice the complete sequence including guard recovery. Begin incorporating opponent's counters (grip adjustments, hip extension) and develop responses. Drill 10-15 successful escapes per session.
-(Resistance: Medium)
 
 **Phase 4: Positional Sparring (Weeks 9-12)** - Test the escape in controlled sparring scenarios
 Start from various armbar positions in positional sparring. Partner has armbar but you attempt the escape while they try to finish. Develop ability to read opponent's finishing mechanics and time the escape accordingly. Begin recognizing when alternative escapes are more appropriate.
-(Resistance: Medium)
 
 **Phase 5: Competition Integration (Weeks 13+)** - Apply the escape in live rolling and competition
 Attempt the escape during regular sparring when opportunities arise. Develop judgment about when the escape is appropriate versus when positional defense or tapping is safer. Track success rate and refine timing based on partner skill level and body type.
-(Resistance: Full)
 
 
 

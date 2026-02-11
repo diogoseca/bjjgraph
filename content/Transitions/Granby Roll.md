@@ -159,7 +159,7 @@ description: "Master the Granby Roll escape technique in BJJ. Essential defensiv
 The Granby Roll is a fundamental defensive movement technique that allows a practitioner to escape from inferior positions by rolling over the shoulder and inverting the body. Named after the wrestling technique popularized at Granby High School, this movement has become essential in modern BJJ for escaping turtle position, preventing back takes, and recovering guard. The technique involves a coordinated shoulder roll combined with hip extension and leg drive to create space and change the orientation of your body relative to your opponent. The Granby Roll is particularly effective against opponents attempting to take the back from turtle or when trapped in side control variations. Its effectiveness comes from the explosive nature of the movement combined with the ability to create angles that disrupt opponent control. Modern no-gi practitioners have elevated this technique to an art form, using it not just as an escape but as a transition into offensive positions and guard pulls. The movement requires significant flexibility in the spine and shoulders, as well as the spatial awareness to roll into open space rather than into your opponent's control.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify escape direction**: From turtle position, quickly assess which side has more open space and where your opponent's weight is distributed. The optimal direction is typically away from where their chest is pressuring and toward the side where their grips are weakest. Look for the shoulder you will roll over. (Timing: Immediately when sensing back take attempt)
-2. **Tuck chin and position shoulder**: Tuck your chin tightly to your chest and angle the shoulder on your escape side downward toward the mat. Your ear should nearly touch your shoulder. This protects your neck and creates the proper angle for the roll. Keep your elbows tight to your ribs to prevent arm drags or kimura attacks. (Timing: Before initiating the roll)
-3. **Post opposite hand**: The hand opposite to your rolling direction posts firmly on the mat near your hip to provide base and prevent being flattened. This hand acts as a pivot point and helps generate rotational force. Keep this arm strong but ready to release as you commit to the roll. (Timing: Simultaneously with shoulder positioning)
-4. **Initiate explosive hip drive**: Explosively extend your hips and drive your legs, particularly the leg on the side you're rolling toward. This creates the momentum needed to overcome your opponent's weight. The movement should feel like a powerful thrust that lifts your hips off the mat momentarily while your shoulder stays connected. (Timing: Explosive initiation when opponent's weight shifts forward)
-5. **Roll over shoulder blade**: Roll diagonally across your back from one shoulder blade to the opposite hip. Maintain contact with the mat using your shoulder blade and upper back (never your neck). Your body should form a tight ball with knees pulled toward chest. The roll should be smooth and continuous, with your legs following over your head. (Timing: Continuous motion following hip drive)
-6. **Complete rotation and establish guard**: As you complete the 180-degree rotation, immediately extend your legs toward your opponent to establish frames or guard. Your hips should face them as you come out of the roll. Post on your hands if needed to prevent being driven back down. Look to insert hooks for butterfly guard, or frame and create distance for open guard. (Timing: Immediately upon completing the roll)
-7. **Secure guard position or scramble**: Based on your opponent's reaction, either establish a specific guard variation (closed, butterfly, half) or continue scrambling if they pursue. If they back away, pull them into guard. If they press forward, use your frames and leg positioning to prevent the pass while recovering full guard structure. (Timing: 1-2 seconds after completing the roll)
+1. **Identify escape direction**: From turtle position, quickly assess which side has more open space and where your opponent's weight is distributed. The optimal direction is typically away from where their chest is pressuring and toward the side where their grips are weakest. Look for the shoulder you will roll over.
+2. **Tuck chin and position shoulder**: Tuck your chin tightly to your chest and angle the shoulder on your escape side downward toward the mat. Your ear should nearly touch your shoulder. This protects your neck and creates the proper angle for the roll. Keep your elbows tight to your ribs to prevent arm drags or kimura attacks.
+3. **Post opposite hand**: The hand opposite to your rolling direction posts firmly on the mat near your hip to provide base and prevent being flattened. This hand acts as a pivot point and helps generate rotational force. Keep this arm strong but ready to release as you commit to the roll.
+4. **Initiate explosive hip drive**: Explosively extend your hips and drive your legs, particularly the leg on the side you're rolling toward. This creates the momentum needed to overcome your opponent's weight. The movement should feel like a powerful thrust that lifts your hips off the mat momentarily while your shoulder stays connected.
+5. **Roll over shoulder blade**: Roll diagonally across your back from one shoulder blade to the opposite hip. Maintain contact with the mat using your shoulder blade and upper back (never your neck). Your body should form a tight ball with knees pulled toward chest. The roll should be smooth and continuous, with your legs following over your head.
+6. **Complete rotation and establish guard**: As you complete the 180-degree rotation, immediately extend your legs toward your opponent to establish frames or guard. Your hips should face them as you come out of the roll. Post on your hands if needed to prevent being driven back down. Look to insert hooks for butterfly guard, or frame and create distance for open guard.
+7. **Secure guard position or scramble**: Based on your opponent's reaction, either establish a specific guard variation (closed, butterfly, half) or continue scrambling if they pursue. If they back away, pull them into guard. If they press forward, use your frames and leg positioning to prevent the pass while recovering full guard structure.
 
 
 </section>
@@ -261,27 +261,21 @@ The Granby Roll is a fundamental defensive movement technique that allows a prac
 ## Training Progressions
 **Week 1-2: Solo Movement Pattern** - Develop proper shoulder roll mechanics and spatial awareness
 Practice solo Granby Rolls focusing exclusively on rolling over the shoulder blade, not the neck. Start from hands and knees, tuck chin, and roll to back position. Perform 20 repetitions per training session, alternating directions. Focus on smooth rotation and maintaining shoulder contact with mat. No partner resistance.
-(Resistance: None)
 
 **Week 3-4: Partner-Assisted Drilling** - Add context of escaping from turtle with cooperative partner
 Partner establishes light control from turtle position (hands on hips, no seat belt). Execute Granby Roll with partner maintaining contact but not preventing the movement. Partner should follow lightly to help develop awareness of their position. Perform 15 repetitions per side per session. Focus on identifying the correct escape direction.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance** - Execute against increasing levels of back attack attempts
 Partner actively attempts to take the back or flatten you from turtle, but allows successful Granby Rolls when properly timed and executed. They should grip and pressure realistically but pause when you initiate the roll correctly. Emphasis on timing the roll when opponent's weight shifts forward. Perform 10-12 repetitions per session with increasing resistance each week.
-(Resistance: Medium)
 
 **Week 9-12: Positional Sparring** - Granby Roll within realistic escape scenarios
 Positional rounds starting from turtle position with opponent getting one back control grip. You must escape using Granby Roll or other turtle escapes. Partner provides full resistance but starts from disadvantaged position. 3-minute rounds focusing on successfully executing the technique under pressure. Begin to chain Granby Rolls with other escapes.
-(Resistance: Full)
 
 **Week 13+: Integration and Variation** - Apply Granby Roll from multiple positions and scenarios
 Incorporate Granby Roll into live rolling from various positions: bottom side control, failed guard retention, turtle after failed takedown. Practice chaining multiple Granby Rolls in succession. Develop ability to use the roll offensively to invert into guards. Focus on seamless integration with overall defensive game.
-(Resistance: Full)
 
 **Ongoing: Athletic Development** - Maintain and improve physical attributes for the technique
 Dedicated flexibility work for spine and shoulders including yoga, gymnastic bridging, and inversion exercises. Explosive power training with box jumps, medicine ball slams, and wrestling shots. Core stability work with hollow body holds and candlestick rolls. These physical attributes directly improve Granby Roll effectiveness and safety.
-(Resistance: None)
 
 
 

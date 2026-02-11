@@ -169,7 +169,7 @@ The technique is particularly effective in BJJ because it requires minimal stren
 In the BJJ context, Deashi Harai serves as both a scoring takedown and a strategic tool for controlling the pace of engagement. It works exceptionally well against opponents who use aggressive forward pressure or attempt to establish collar-and-sleeve grips, as these actions naturally create the weight transfer necessary for the sweep to succeed. The technique also chains effectively with other foot sweeps and throws, creating a comprehensive standup system that keeps opponents defensive and hesitant.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -218,14 +218,14 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish and test grips**: Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control. (Timing: Initial engagement phase)
-2. **Create forward movement**: Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious. (Timing: Setup phase, 1-2 seconds)
-3. **Position for sweep angle**: As opponent steps forward, pivot slightly on your rear foot to create a 45-degree angle to their centerline. Your body should be positioned so your sweeping leg (typically the leg on the same side as your collar grip) has a clear path to their advancing ankle. Maintain upright posture throughout this adjustment. (Timing: As opponent commits weight forward)
-4. **Execute coordinated sweep**: Simultaneously pull upward and backward with your collar grip while driving their sleeve grip across their body. At the exact moment their lead foot makes contact with the mat and begins accepting weight, sweep the sole or edge of your foot across their ankle or lower shin in an arc-like motion. The sweep should feel like brushing their leg away rather than kicking through it. (Timing: Moment of foot plant, explosive but controlled)
-5. **Break opponent's structure**: Continue the upward and backward pulling motion with your grips as your sweeping foot removes their base. Your collar hand should lift while your sleeve hand drives downward and across, creating a rotational force that prevents them from posting or recovering balance. Keep your own base solid by maintaining weight on your support leg. (Timing: Immediately following sweep contact)
-6. **Control the fall**: Maintain grip connection as opponent falls backward. Your grips allow you to control the speed and direction of their fall while positioning yourself to land in a dominant position. Keep your feet mobile and ready to adjust your base. (Timing: During opponent's fall)
-7. **Establish top position**: Follow opponent to the ground while using your grips to prevent them from recovering guard. As they land, immediately work to secure side control by driving your shoulder into their chest, controlling their near hip, and establishing crossface pressure. Your grips transition from standup controls to ground control points. (Timing: Landing phase, transition to ground)
-8. **Consolidate position**: Once on top, distribute your weight properly across their torso, secure your grips into side control configurations (crossface and hip control), and establish stable base with your legs spread wide. This completes the transition from standing to dominant ground position. (Timing: Immediate stabilization, 1-2 seconds)
+1. **Establish and test grips**: Secure a same-side sleeve grip with your lead hand and a collar or lapel grip with your rear hand. Apply light pulling pressure to test opponent's reaction and weight distribution. Your sleeve grip should be firm but not telegraphing, positioned near the elbow or mid-forearm for maximum control.
+2. **Create forward movement**: Use subtle pulling motions with both grips to encourage your opponent to step forward with their lead leg. This can be achieved through small circular movements or by taking a slight backstep yourself, inviting them to pursue. The goal is to get them to commit weight onto their advancing foot without making your intention obvious.
+3. **Position for sweep angle**: As opponent steps forward, pivot slightly on your rear foot to create a 45-degree angle to their centerline. Your body should be positioned so your sweeping leg (typically the leg on the same side as your collar grip) has a clear path to their advancing ankle. Maintain upright posture throughout this adjustment.
+4. **Execute coordinated sweep**: Simultaneously pull upward and backward with your collar grip while driving their sleeve grip across their body. At the exact moment their lead foot makes contact with the mat and begins accepting weight, sweep the sole or edge of your foot across their ankle or lower shin in an arc-like motion. The sweep should feel like brushing their leg away rather than kicking through it.
+5. **Break opponent's structure**: Continue the upward and backward pulling motion with your grips as your sweeping foot removes their base. Your collar hand should lift while your sleeve hand drives downward and across, creating a rotational force that prevents them from posting or recovering balance. Keep your own base solid by maintaining weight on your support leg.
+6. **Control the fall**: Maintain grip connection as opponent falls backward. Your grips allow you to control the speed and direction of their fall while positioning yourself to land in a dominant position. Keep your feet mobile and ready to adjust your base.
+7. **Establish top position**: Follow opponent to the ground while using your grips to prevent them from recovering guard. As they land, immediately work to secure side control by driving your shoulder into their chest, controlling their near hip, and establishing crossface pressure. Your grips transition from standup controls to ground control points.
+8. **Consolidate position**: Once on top, distribute your weight properly across their torso, secure your grips into side control configurations (crossface and hip control), and establish stable base with your legs spread wide. This completes the transition from standing to dominant ground position.
 
 
 </section>
@@ -275,23 +275,18 @@ In the BJJ context, Deashi Harai serves as both a scoring takedown and a strateg
 ## Training Progressions
 **Week 1-2: Static Drilling** - Basic mechanics and foot placement
 Partner stands in static position while you practice grip establishment, footwork pattern, and sweeping motion. Focus on finding correct angle, proper foot contact point, and coordination between upper and lower body. Repeat 20-30 repetitions per training session, alternating sides.
-(Resistance: None)
 
 **Week 3-4: Movement Drilling** - Timing the sweep with partner's steps
 Partner takes slow, deliberate forward steps while you practice timing your sweep to their weight transfer. Partner provides minimal resistance, allowing you to develop feel for when their weight commits. Focus on reading their movement and executing at optimal moment. Practice 15-20 successful repetitions per session.
-(Resistance: Light)
 
 **Week 5-6: Active Response Drilling** - Dealing with basic defensive reactions
 Partner now actively tries to maintain balance by pulling back leg or adjusting base, but doesn't counter-attack. Practice creating setups, feinting, and adjusting your timing based on their reactions. Begin chaining with other foot sweeps when primary attempt is defended. Execute 10-15 attempts with varied reactions.
-(Resistance: Medium)
 
 **Week 7-8: Live Stand-up Sparring** - Application in dynamic environment
 Attempt technique during positional sparring focused on takedowns (standup only, reset when someone goes to ground). Partner provides realistic resistance and attempts their own takedowns. Focus on recognizing opportunities, setting up technique through grip fighting, and maintaining safety. Success rate less important than recognition of proper moments.
-(Resistance: Full)
 
 **Month 3+: Competition Integration** - Combining with complete BJJ game
 Integrate Deashi Harai into your overall standup strategy, using it as part of combination attack with other throws and guard pulls. Practice transitioning smoothly from successful takedown into ground control and submission attacks. Use in regular sparring and eventually competition when opportunities arise naturally.
-(Resistance: Full)
 
 
 
@@ -360,7 +355,6 @@ Deashi Harai serves as a fundamental component of a complete BJJ standup system,
 - [[Kosoto Gari]] - Alternative sweep targeting rear leg when Deashi Harai is defended
 - [[Kouchi Gari]] - Combination technique that works inside while Deashi Harai works outside
 - [[Sasae Tsurikomi Ashi]] - Similar foot sweep with blocking action rather than sweeping motion
-- [[Foot Sweep Series]] - Comprehensive system that includes Deashi Harai as primary component
 - [[Osoto Gari]] - Follow-up technique when opponent steps back to defend Deashi Harai
 - [[Single Leg Takedown]] - Alternative takedown when foot sweeps are consistently defended
 - [[Snap Down]] - Setup technique that creates forward pressure for Deashi Harai opportunity

@@ -159,7 +159,7 @@ description: "Master Kosoto Gari (Minor Outer Reap) in BJJ. Step-by-step executi
 Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has become essential in modern BJJ's standing game. Unlike explosive forward throws, Kosoto Gari capitalizes on subtle weight distribution, timing, and off-balancing to sweep the opponent's weight-bearing leg from beneath them. The technique combines a pulling motion with upper body control while simultaneously reaping the opponent's heel backward and upward. This creates a powerful rotation that deposits the opponent on their back, allowing immediate transition to dominant positions like side control or knee on belly. The beauty of Kosoto Gari lies in its mechanical efficiency - it requires minimal strength when executed with proper timing, making it accessible to practitioners of all sizes. The technique is particularly effective against opponents who resist forward throws by posting their weight backward, as this natural defensive reaction places them perfectly into Kosoto Gari's zone of vulnerability. In competition, Kosoto Gari scores as a throw and frequently results in immediate positional dominance, making it a high-percentage technique for gi and no-gi contexts alike.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,13 +208,13 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: Secure deep collar grip with your right hand, fingers inside opponent's collar at neck level. Left hand controls opponent's right sleeve at elbow or tricep. Grips must be tight enough to control movement but relaxed enough to allow explosive pulling action. (Timing: During initial clinch engagement)
-2. **Create initial off-balance**: Pull opponent forward and slightly to their right front corner using both grips. This creates initial reaction where opponent posts weight backward to resist. Watch for their weight to shift predominantly to their right leg - this is your attack signal. (Timing: 1-2 seconds after grip establishment)
-3. **Step to optimal angle**: Step your left foot forward and outside opponent's right foot, positioning yourself at approximately 45-degree angle to their body. Your left foot should be toe-to-toe with their right foot, creating the geometric foundation for the sweep. (Timing: As opponent's weight commits backward)
-4. **Execute simultaneous pull and sweep**: Explosively pull opponent's upper body down and toward their right rear corner with both hands while simultaneously sweeping your right foot backward against the heel of their right foot. The sweep motion should be low to the ground, catching their heel and driving upward and backward. Your right leg acts like a hook pulling their support out from under them. (Timing: Single explosive motion - pull and sweep must be perfectly synchronized)
-5. **Maintain forward pressure**: As opponent falls backward, maintain constant forward pressure with your upper body, driving through their center line. Your chest should be pushing forward even as your sweeping leg pulls backward. This opposing force creates the rotation that puts opponent flat on their back. (Timing: Throughout the falling motion)
-6. **Follow to top position**: As opponent hits the mat, immediately step over or around their legs to establish side control or knee on belly. Do not let go of collar grip - use it to control their upper body and prevent escape attempts. Your left hand releases sleeve to post on mat for base. (Timing: Within 1 second of opponent hitting ground)
-7. **Consolidate position**: Settle your weight into side control, cross-facing with your right arm while establishing underhook or hip control with your left. Ensure your hips are heavy and your chest is driving into opponent's sternum. Immediately begin working toward submissions or advancing to mount. (Timing: 2-3 seconds after throw completion)
+1. **Establish grips**: Secure deep collar grip with your right hand, fingers inside opponent's collar at neck level. Left hand controls opponent's right sleeve at elbow or tricep. Grips must be tight enough to control movement but relaxed enough to allow explosive pulling action.
+2. **Create initial off-balance**: Pull opponent forward and slightly to their right front corner using both grips. This creates initial reaction where opponent posts weight backward to resist. Watch for their weight to shift predominantly to their right leg - this is your attack signal.
+3. **Step to optimal angle**: Step your left foot forward and outside opponent's right foot, positioning yourself at approximately 45-degree angle to their body. Your left foot should be toe-to-toe with their right foot, creating the geometric foundation for the sweep.
+4. **Execute simultaneous pull and sweep**: Explosively pull opponent's upper body down and toward their right rear corner with both hands while simultaneously sweeping your right foot backward against the heel of their right foot. The sweep motion should be low to the ground, catching their heel and driving upward and backward. Your right leg acts like a hook pulling their support out from under them.
+5. **Maintain forward pressure**: As opponent falls backward, maintain constant forward pressure with your upper body, driving through their center line. Your chest should be pushing forward even as your sweeping leg pulls backward. This opposing force creates the rotation that puts opponent flat on their back.
+6. **Follow to top position**: As opponent hits the mat, immediately step over or around their legs to establish side control or knee on belly. Do not let go of collar grip - use it to control their upper body and prevent escape attempts. Your left hand releases sleeve to post on mat for base.
+7. **Consolidate position**: Settle your weight into side control, cross-facing with your right arm while establishing underhook or hip control with your left. Ensure your hips are heavy and your chest is driving into opponent's sternum. Immediately begin working toward submissions or advancing to mount.
 
 
 </section>
@@ -260,27 +260,21 @@ Kosoto Gari (Minor Outer Reap) is a fundamental judo-derived foot sweep that has
 ## Training Progressions
 **Week 1-2: Static Drilling** - Mechanical understanding and grip establishment
 Partner stands with weight deliberately on rear leg. Practice grip placement, foot positioning, and coordinated pull-sweep motion at slow speed. Focus on feeling the correct body mechanics. Partner should fall gently and reset. Perform 20-30 repetitions per training session, alternating sides.
-(Resistance: None)
 
 **Week 3-4: Dynamic Entry** - Creating off-balance and timing
 Partner begins in neutral stance. Practice creating the initial forward push that causes backward weight shift. Execute throw only when partner's weight naturally loads rear leg. Partner provides light resistance but ultimately allows completion. Work on recognizing the perfect timing window. 15-20 successful repetitions per session.
-(Resistance: Light)
 
 **Week 5-8: Chaining Attacks** - Combination sequences and counters
 Partner actively defends by stepping back or widening stance. Practice chaining Kosoto Gari to other throws (Kouchi Gari, Deashi Harai, Tai Otoshi). Learn to flow between techniques as opponent presents different defensive reactions. Focus on maintaining collar grip throughout combinations. 10-15 minutes of continuous flow drilling.
-(Resistance: Medium)
 
 **Week 9-12: Live Takedown Sparring** - Competition application and follow-through
 Integrate Kosoto Gari into stand-up sparring rounds. Partner resists fully but both practitioners agree to remain standing until successful takedown. Practice following throw immediately into positional consolidation. Begin identifying personal setups and grip-fighting preferences. 5-minute rounds with 2-minute rest.
-(Resistance: Full)
 
 **Month 4-6: Competition Refinement** - Match-specific application and strategic deployment
 Use Kosoto Gari in full sparring rounds from standing. Focus on using technique when opponent is tired or defending other attacks. Work on setting up throw through grip-fighting strategies specific to your body type. Study video of successful competition applications. Track success rate in training.
-(Resistance: Full)
 
 **Ongoing: Maintenance and Evolution** - Technical refinement and personalization
 Continually refine technique based on body type and competition experience. Develop personal variations and setups. Study high-level judo and BJJ competitors who use Kosoto Gari successfully. Maintain technical sharpness through regular drilling even as skill advances. Teach technique to newer students to deepen understanding.
-(Resistance: Full)
 
 
 

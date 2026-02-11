@@ -157,7 +157,7 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Turtle]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -234,12 +234,12 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Initial Control**: From turtle or back position, secure control of opponent's hips with one arm or use knee pressure on their near hip. Your other hand reaches for the far collar, inserting four fingers deep inside the collar at the back of their neck. The thumb stays outside. This grip must be established before opponent recognizes the attack. (Timing: 2-3 seconds for grip establishment) [Pressure: Light]
-2. **Feed the Collar**: Pull the collar material across opponent's neck, feeding it deeply so your blade hand (pinky side) makes contact with the near side of their neck. The collar should cut diagonally across both carotid arteries. Maintain continuous pressure during this feed to prevent opponent from creating defensive frames. Your elbow drives toward the mat on the choking side. (Timing: 2-4 seconds for deep collar feed) [Pressure: Moderate]
-3. **Secure Far Side Control**: Your non-choking hand reaches across opponent's body to control their far shoulder, far collar, or posts on the mat for base. This prevents rolling escapes and adds rotational pressure to the choke. Some variations use this hand to grip the pants or belt on the far hip instead. The key is preventing their escape route. (Timing: 1-2 seconds) [Pressure: Moderate]
-4. **Adjust Hip Position**: Walk your hips toward the choking side, positioning your body at approximately 45-90 degrees to opponent's spine. Your chest should be heavy on their back, with your hips low and driving forward. This angle maximizes the cutting pressure of the collar across their neck while preventing back exposure during the finish. (Timing: 1-3 seconds for optimal positioning) [Pressure: Firm]
-5. **Drive the Finish**: Expand your chest while pulling the collar grip toward your own body, simultaneously driving your hips forward and down. The choking pressure comes from your body weight transmitted through the collar, not just arm strength. Your head should be positioned near opponent's far shoulder to prevent them rolling toward you. The blade of your forearm creates the primary cutting pressure. (Timing: 3-5 seconds progressive pressure) [Pressure: Firm]
-6. **Maintain Position Until Tap**: Continue steady pressure while monitoring opponent's tap signals. If they attempt to roll or escape, follow their movement while maintaining collar control and chest pressure. The choke typically finishes within 3-7 seconds of full application. Be prepared for immediate release upon any tap signal or distress indication. (Timing: 3-7 seconds to tap) [Pressure: Maximum]
+1. **Establish Initial Control**: From turtle or back position, secure control of opponent's hips with one arm or use knee pressure on their near hip. Your other hand reaches for the far collar, inserting four fingers deep inside the collar at the back of their neck. The thumb stays outside. This grip must be established before opponent recognizes the attack. (Timing: 2-3 seconds for grip establishment)
+2. **Feed the Collar**: Pull the collar material across opponent's neck, feeding it deeply so your blade hand (pinky side) makes contact with the near side of their neck. The collar should cut diagonally across both carotid arteries. Maintain continuous pressure during this feed to prevent opponent from creating defensive frames. Your elbow drives toward the mat on the choking side. (Timing: 2-4 seconds for deep collar feed)
+3. **Secure Far Side Control**: Your non-choking hand reaches across opponent's body to control their far shoulder, far collar, or posts on the mat for base. This prevents rolling escapes and adds rotational pressure to the choke. Some variations use this hand to grip the pants or belt on the far hip instead. The key is preventing their escape route. (Timing: 1-2 seconds)
+4. **Adjust Hip Position**: Walk your hips toward the choking side, positioning your body at approximately 45-90 degrees to opponent's spine. Your chest should be heavy on their back, with your hips low and driving forward. This angle maximizes the cutting pressure of the collar across their neck while preventing back exposure during the finish. (Timing: 1-3 seconds for optimal positioning)
+5. **Drive the Finish**: Expand your chest while pulling the collar grip toward your own body, simultaneously driving your hips forward and down. The choking pressure comes from your body weight transmitted through the collar, not just arm strength. Your head should be positioned near opponent's far shoulder to prevent them rolling toward you. The blade of your forearm creates the primary cutting pressure. (Timing: 3-5 seconds progressive pressure)
+6. **Maintain Position Until Tap**: Continue steady pressure while monitoring opponent's tap signals. If they attempt to roll or escape, follow their movement while maintaining collar control and chest pressure. The choke typically finishes within 3-7 seconds of full application. Be prepared for immediate release upon any tap signal or distress indication. (Timing: 3-7 seconds to tap)
 
 
 </section>
@@ -259,25 +259,25 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying sudden jerking or spiking motion with the collar [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking or spiking motion with the collar
   - **Consequence**: Severe tracheal damage, potential loss of consciousness without tap opportunity, dangerous training environment
   - **Correction**: Always apply progressive pressure over 3-5 seconds minimum in training; imagine tightening a screw rather than yanking; focus on body positioning and weight distribution rather than explosive arm strength
-- **Mistake**: Insufficient collar depth - grip too shallow at front of throat [High DANGER]
+- **Mistake**: Insufficient collar depth - grip too shallow at front of throat
   - **Consequence**: Choke targets trachea instead of carotid arteries, causing excessive pain without effective blood restriction, allows easy defensive hand insertion
   - **Correction**: Feed collar deeply across back of neck first, ensuring blade hand contacts near-side neck; four fingers must be inserted deep in collar at back/side of neck, not front of throat; check grip position before applying pressure
-- **Mistake**: Poor hip positioning - staying too square to opponent's back [Low DANGER]
+- **Mistake**: Poor hip positioning - staying too square to opponent's back
   - **Consequence**: Reduced choking pressure, easy escape via forward roll or sit-back, vulnerable to counter attacks, inefficient use of body weight
   - **Correction**: Walk hips to 45-90 degree angle relative to opponent's spine; keep hips low and driving forward; chest must be heavy on their back with weight distributed through collar grip, not just hanging on opponent
-- **Mistake**: Neglecting far side control with non-choking hand [Medium DANGER]
+- **Mistake**: Neglecting far side control with non-choking hand
   - **Consequence**: Opponent easily rolls toward you to escape, loss of position control, potential reversal to bottom position
   - **Correction**: Non-choking hand must actively control far shoulder, far collar, or post for base; this hand prevents rolling escapes and adds rotational force to choke; grip must be established before finishing pressure
-- **Mistake**: Releasing pressure too early when opponent struggles [Low DANGER]
+- **Mistake**: Releasing pressure too early when opponent struggles
   - **Consequence**: Loss of dominant position, allows opponent to escape and recover, wasted energy expenditure
   - **Correction**: Maintain steady pressure through opponent's initial defensive movements; only release upon clear tap signal or distress; if position is deteriorating, follow opponent's movement while maintaining collar control rather than abandoning completely
-- **Mistake**: Ignoring tap signals or continuing pressure after tap [CRITICAL DANGER]
+- **Mistake**: Ignoring tap signals or continuing pressure after tap
   - **Consequence**: Loss of consciousness, potential brain damage from prolonged restriction, severe injury to training partner, immediate removal from training environment
   - **Correction**: Actively monitor for all tap signals (verbal, hand, foot, body limpness); release immediately upon any indication of submission; establish pre-training agreement on tap signals with all partners; if in doubt, release pressure and ask partner
-- **Mistake**: Using only arm strength without body weight integration [Medium DANGER]
+- **Mistake**: Using only arm strength without body weight integration
   - **Consequence**: Muscular fatigue before finish, reduced choking effectiveness, increased risk of tracheal pressure from incorrect angle, allows opponent time to escape
   - **Correction**: Generate choking force from hip drive and chest weight transmitted through collar; arms should maintain grip structure while body weight creates pressure; focus on expanding chest and driving hips forward simultaneously
 
@@ -342,43 +342,6 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Grip Mechanics** (Week 1-2 (6-10 training sessions))
-- Focus: Learn proper collar grip depth, hand positioning, and body angle without any choking pressure. Practice grip insertion, collar feeding mechanics, and hip positioning on fully compliant partner. Understand anatomy of carotid arteries vs trachea. Review all tap signals and safety protocols. Shadow drill the movement pattern solo. Watch instructional footage and discuss safety considerations with coach.
-- Resistance: Zero resistance
-- Safety: Memorize all tap signals and practice immediate release response. Never apply any pressure during this phase - focus purely on positioning mechanics. Understand the injury risks associated with improper collar depth or sudden application.
-
-**Slow Practice with Minimal Pressure** (Week 3-4 (8-12 training sessions))
-- Focus: Execute full technique with cooperative partner who allows proper positioning. Apply very light pressure (10-20% maximum) over 7-10 seconds to feel proper collar angle and body weight distribution. Partner provides feedback on pressure location (should feel carotid pressure, not tracheal). Practice from static turtle position only. Count out loud during pressure application to ensure slow progression.
-- Resistance: Zero resistance
-- Safety: Partner must verbally confirm pressure location before increasing intensity. Stop immediately if partner reports throat discomfort rather than neck pressure. Both partners discuss sensations after each repetition. Apply pressure so slowly that partner can tap at any point with full awareness.
-
-**Progressive Resistance and Escape Recognition** (Week 5-8 (12-16 training sessions))
-- Focus: Partner provides mild defensive resistance - tucking chin, pulling collar, or attempting minor positional adjustments. Practice maintaining position and adjusting technique against these defenses. Increase pressure to 30-50% maximum over 5-7 seconds. Begin recognizing when choke is properly locked vs when defensive frames are effective. Drill transitions from other positions like back control or mount.
-- Resistance: Mild resistance
-- Safety: Partner provides verbal countdown during pressure application. Establish clear communication protocol before each repetition. Practice catching tap signals during dynamic movement. Neither partner should go to completion (tap should occur before maximum pressure).
-
-**Realistic Defense and Competition Timing** (Week 9-12 (12-16 training sessions))
-- Focus: Partner uses realistic defensive strategies including grip fighting, rolling attempts, and forward pressure. Practice following their escape attempts while maintaining collar control. Increase pressure application to 60-75% maximum over 4-5 seconds. Begin implementing against resisting opponents in specific training (start from turtle or back control positions). Drill variations including Clock Choke transitions.
-- Resistance: Realistic resistance
-- Safety: Partner still taps before completion to preserve training longevity. Both practitioners check in after each round about pressure levels and safety concerns. Ensure sufficient rest between high-intensity repetitions. Stop training this technique if experiencing any neck discomfort.
-
-**Dynamic Application and Chain Systems** (Month 4-6 (ongoing))
-- Focus: Implement Breadcutter during positional sparring from various starting points. Chain with other submissions like Clock Choke, Bow and Arrow, or Rear Naked Choke. Practice recognizing setup opportunities during live rolling without forcing the technique. Develop ability to abandon technique if position is compromised. Begin using in controlled sparring with trusted partners.
-- Resistance: Full resistance
-- Safety: In positional sparring, both partners should still be training safely - not competition intensity. Give partner opportunity to tap early without shame or pressure. If partner is less experienced, maintain training-speed application (4-5 seconds minimum). Check ego and prioritize partner safety over finish rate.
-
-**Competition Preparation and Full Integration** (Month 7+ (after successful integration in training))
-- Focus: Full-speed application during competition rounds or competition-simulation training. Integrate with overall game strategy and recognize when Breadcutter offers highest percentage option vs other attacks. Develop ability to finish efficiently under stress and time pressure. Refine technique against opponents of various sizes, strengths, and defensive styles. Maintain technical precision even at high intensity.
-- Resistance: Full resistance
-- Safety: Even in competition simulation, maintain awareness of tap signals and release immediately. In actual competition, you may apply faster (3-4 seconds), but never spike or jerk. If you injure training partners during this phase, return to previous phases to develop better control. Remember that even in competition, we are martial artists who respect opponent safety - apply with intention to win, not to injure.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -432,6 +395,7 @@ The Breadcutter Choke is a powerful gi-based blood choke that utilizes the oppon
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

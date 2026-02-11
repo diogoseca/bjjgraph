@@ -10,11 +10,6 @@
     "foot-sweep",
     "kuzushi"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.",
   "key_principles": [
     "Create circular movement through grip manipulation to generate rotational momentum",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Establish grips",
-      "description": "Secure a high collar grip with your right hand, controlling the opponent's left lapel near the collarbone. Your left hand grips their right sleeve at the elbow or just above. These grips provide the leverage needed for both off-balancing and the lifting action that follows.",
-      "timing": "Initial contact phase"
+      "description": "Secure a high collar grip with your right hand, controlling the opponent's left lapel near the collarbone. Your left hand grips their right sleeve at the elbow or just above. These grips provide the leverage needed for both off-balancing and the lifting action that follows."
     },
     {
       "step_number": 2,
       "action": "Create circular motion",
-      "description": "Pull with your left hand (sleeve grip) while pushing slightly with your right hand (collar grip), initiating a circular stepping pattern. Move to your right, encouraging the opponent to follow and step forward with their right foot. This circular movement is critical for generating the momentum that makes the sweep effective.",
-      "timing": "Setup phase, 1-2 seconds"
+      "description": "Pull with your left hand (sleeve grip) while pushing slightly with your right hand (collar grip), initiating a circular stepping pattern. Move to your right, encouraging the opponent to follow and step forward with their right foot. This circular movement is critical for generating the momentum that makes the sweep effective."
     },
     {
       "step_number": 3,
       "action": "Break balance forward",
-      "description": "As the opponent steps forward with their right foot, pull sharply upward and forward with both hands, breaking their balance toward their front right corner. Their weight should shift onto the balls of their feet, with their center of gravity moving beyond their base of support. This kuzushi moment is the key to the entire technique.",
-      "timing": "Just before foot placement"
+      "description": "As the opponent steps forward with their right foot, pull sharply upward and forward with both hands, breaking their balance toward their front right corner. Their weight should shift onto the balls of their feet, with their center of gravity moving beyond their base of support. This kuzushi moment is the key to the entire technique."
     },
     {
       "step_number": 4,
       "action": "Place blocking foot",
-      "description": "Step forward with your left foot, positioning it directly in front of the opponent's right ankle. Your foot should be placed with toes pointing upward, creating a solid barrier with the sole of your foot against their ankle. The placement must be precise - too high and they can step over, too low and they can step through.",
-      "timing": "Simultaneous with kuzushi"
+      "description": "Step forward with your left foot, positioning it directly in front of the opponent's right ankle. Your foot should be placed with toes pointing upward, creating a solid barrier with the sole of your foot against their ankle. The placement must be precise - too high and they can step over, too low and they can step through."
     },
     {
       "step_number": 5,
       "action": "Execute lifting pull",
-      "description": "Pull upward and around in a circular arc with both hands, lifting the opponent's upper body while their ankle is blocked. The collar hand pulls upward and across, while the sleeve hand pulls in a wide circular motion. This combined action rotates them around the blocked ankle, removing any remaining base.",
-      "timing": "Immediately after foot placement"
+      "description": "Pull upward and around in a circular arc with both hands, lifting the opponent's upper body while their ankle is blocked. The collar hand pulls upward and across, while the sleeve hand pulls in a wide circular motion. This combined action rotates them around the blocked ankle, removing any remaining base."
     },
     {
       "step_number": 6,
       "action": "Complete the throw",
-      "description": "Maintain your grips throughout the throw, controlling the opponent's descent to the mat. As they fall backward and to their left, pivot your body to face them, keeping your blocking leg stable. Your grip control allows you to determine landing position and immediately transition to top position or guard passing.",
-      "timing": "Through to completion"
+      "description": "Maintain your grips throughout the throw, controlling the opponent's descent to the mat. As they fall backward and to their left, pivot your body to face them, keeping your blocking leg stable. Your grip control allows you to determine landing position and immediately transition to top position or guard passing."
     },
     {
       "step_number": 7,
       "action": "Secure top position",
-      "description": "Follow the opponent down, using your grip control to establish side control, mount, or begin a guard pass depending on how they land. Maintain pressure and connection throughout the landing to prevent them from recovering guard or escaping. The transition from standing to top control should be seamless.",
-      "timing": "Immediate follow-up"
+      "description": "Follow the opponent down, using your grip control to establish side control, mount, or begin a guard pass depending on how they land. Maintain pressure and connection throughout the landing to prevent them from recovering guard or escaping. The transition from standing to top control should be seamless."
     }
   ],
   "common_counters": [
@@ -136,32 +124,27 @@
     {
       "phase": "Week 1-2: Static drilling",
       "focus": "Grip placement, foot positioning, and basic mechanics",
-      "description": "Partner stands statically while you practice proper grip establishment, circular stepping pattern, and placement of blocking foot. Focus on correct body positioning and hand action without resistance. Repeat 20-30 times per training session.",
-      "resistance_level": "None"
+      "description": "Partner stands statically while you practice proper grip establishment, circular stepping pattern, and placement of blocking foot. Focus on correct body positioning and hand action without resistance. Repeat 20-30 times per training session."
     },
     {
       "phase": "Week 3-4: Motion drilling",
       "focus": "Timing against forward steps",
-      "description": "Partner takes deliberate forward steps while you practice timing the sweep to their movement. Work on recognizing the moment of weight commitment. Partner offers minimal resistance, allowing completion of the throw. Progress from slow, predictable steps to faster, more varied stepping patterns.",
-      "resistance_level": "Light"
+      "description": "Partner takes deliberate forward steps while you practice timing the sweep to their movement. Work on recognizing the moment of weight commitment. Partner offers minimal resistance, allowing completion of the throw. Progress from slow, predictable steps to faster, more varied stepping patterns."
     },
     {
       "phase": "Week 5-8: Reactive drilling",
       "focus": "Kuzushi creation and combination work",
-      "description": "Practice creating the off-balance through grip manipulation rather than relying on partner's cooperation. Begin chaining with other techniques - if Sasae fails, immediately flow to Kouchi, Osoto, or snap down. Partner provides moderate resistance and actively defends some attempts.",
-      "resistance_level": "Medium"
+      "description": "Practice creating the off-balance through grip manipulation rather than relying on partner's cooperation. Begin chaining with other techniques - if Sasae fails, immediately flow to Kouchi, Osoto, or snap down. Partner provides moderate resistance and actively defends some attempts."
     },
     {
       "phase": "Week 9-12: Live scenarios",
       "focus": "Application in controlled sparring",
-      "description": "Attempt technique during positional sparring starting from standing. Partner provides full but controlled resistance. Focus on recognizing genuine opportunities rather than forcing the technique. Track success rate and analyze failed attempts to refine timing and setup.",
-      "resistance_level": "Full"
+      "description": "Attempt technique during positional sparring starting from standing. Partner provides full but controlled resistance. Focus on recognizing genuine opportunities rather than forcing the technique. Track success rate and analyze failed attempts to refine timing and setup."
     },
     {
       "phase": "Week 13+: Competition preparation",
       "focus": "Integration into complete standing game",
-      "description": "Use Sasae as part of complete takedown system during regular sparring. Combine with guard pulls, other throws, and wrestling entries. Practice against different body types and styles. Develop setups specific to common defensive reactions in your gym.",
-      "resistance_level": "Full"
+      "description": "Use Sasae as part of complete takedown system during regular sparring. Combine with guard pulls, other throws, and wrestling entries. Practice against different body types and styles. Develop setups specific to common defensive reactions in your gym."
     }
   ],
   "variants_and_adaptations": [
@@ -189,38 +172,31 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical timing element for Sasae Tsurikomi Ashi to be effective?",
-      "answer": "The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they've already established their new base.",
-      "difficulty": "Intermediate"
+      "answer": "The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they've already established their new base."
     },
     {
       "question": "Why is the circular movement pattern important in the setup for this technique?",
-      "answer": "The circular movement creates rotational momentum that makes the opponent naturally want to step forward to maintain balance. This momentum, combined with the foot block, makes the throw require minimal force. It also disguises the attack by making the setup look like normal grip fighting and movement.",
-      "difficulty": "Intermediate"
+      "answer": "The circular movement creates rotational momentum that makes the opponent naturally want to step forward to maintain balance. This momentum, combined with the foot block, makes the throw require minimal force. It also disguises the attack by making the setup look like normal grip fighting and movement."
     },
     {
       "question": "How should the blocking foot be positioned to create maximum effectiveness?",
-      "answer": "The toes should be pulled back toward the shin, creating a solid barrier with the sole of the foot against the opponent's ankle. The foot should be placed at approximately mid-ankle height, perpendicular to their leg's direction of movement, creating an immovable obstacle.",
-      "difficulty": "Beginner"
+      "answer": "The toes should be pulled back toward the shin, creating a solid barrier with the sole of the foot against the opponent's ankle. The foot should be placed at approximately mid-ankle height, perpendicular to their leg's direction of movement, creating an immovable obstacle."
     },
     {
       "question": "What is the primary difference between Sasae Tsurikomi Ashi and Deashi Harai in terms of mechanics?",
-      "answer": "Sasae uses a blocking action where your foot creates a stationary barrier, while Deashi uses a sweeping action where your foot actively sweeps their ankle. Sasae emphasizes the upward pulling action more, while Deashi emphasizes the sweeping timing. Sasae typically works better against forward movement, Deashi against lateral movement.",
-      "difficulty": "Advanced"
+      "answer": "Sasae uses a blocking action where your foot creates a stationary barrier, while Deashi uses a sweeping action where your foot actively sweeps their ankle. Sasae emphasizes the upward pulling action more, while Deashi emphasizes the sweeping timing. Sasae typically works better against forward movement, Deashi against lateral movement."
     },
     {
       "question": "If your opponent consistently steps over your blocking foot, what technical adjustments should you make?",
-      "answer": "First, ensure you're creating proper kuzushi before placing the foot - if they can step over, they're not truly off-balance. Second, place the block lower (closer to the floor). Third, consider switching to combination attacks, using their step-over as an entry for Kouchi Gari or switching to an upper body throw like Uchi Mata when they lift their leg high.",
-      "difficulty": "Advanced"
+      "answer": "First, ensure you're creating proper kuzushi before placing the foot - if they can step over, they're not truly off-balance. Second, place the block lower (closer to the floor). Third, consider switching to combination attacks, using their step-over as an entry for Kouchi Gari or switching to an upper body throw like Uchi Mata when they lift their leg high."
     },
     {
       "question": "What role do the hands play during the actual execution of the throw?",
-      "answer": "The hands perform a lifting and circular pulling action. The collar hand pulls upward and across, while the sleeve hand pulls in a wide arc. This combined action lifts the opponent's upper body and rotates them around the blocked ankle, completing the throw. The hands do most of the actual throwing work, while the foot simply blocks.",
-      "difficulty": "Beginner"
+      "answer": "The hands perform a lifting and circular pulling action. The collar hand pulls upward and across, while the sleeve hand pulls in a wide arc. This combined action lifts the opponent's upper body and rotates them around the blocked ankle, completing the throw. The hands do most of the actual throwing work, while the foot simply blocks."
     },
     {
       "question": "Why is it important to maintain grips through the landing phase of this technique?",
-      "answer": "Maintaining grips allows you to control how the opponent lands, preventing them from recovering guard or scrambling to safety. The grips enable you to immediately establish top position (side control, mount, or knee on belly) and begin passing or advancing position. Without grip control, the opponent can turtle, create distance, or pull guard during the landing.",
-      "difficulty": "Intermediate"
+      "answer": "Maintaining grips allows you to control how the opponent lands, preventing them from recovering guard or scrambling to safety. The grips enable you to immediately establish top position (side control, mount, or knee on belly) and begin passing or advancing position. Without grip control, the opponent can turtle, create distance, or pull guard during the landing."
     }
   ],
   "safety_considerations": "Controlled application is paramount when practicing Sasae Tsurikomi Ashi. The thrower must maintain grips throughout the technique to control the opponent's descent and prevent uncontrolled falls that could result in head, shoulder, or back injuries. During drilling, start with slow, cooperative repetitions to build proper mechanics before adding speed or resistance. Ensure adequate mat space is available in all directions, as the throw can create unexpected rotation. Partners should practice breakfall techniques (ukemi) before being thrown at full speed. When learning, the blocking foot should be placed gently at first to avoid ankle injuries to either person - the blocking leg can be vulnerable to knee torque if planted too rigidly. Never practice this technique near walls, equipment, or other practitioners. As with all standing techniques, both partners should be aware of their surroundings and communicate clearly about resistance levels. Gradually progress from static drilling to dynamic application over several weeks, allowing the body to adapt to the forces involved. If either partner feels uncomfortable with the speed or intensity, immediately reduce the pace and return to controlled drilling.",
@@ -292,5 +268,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

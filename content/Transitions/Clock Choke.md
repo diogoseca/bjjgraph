@@ -157,7 +157,7 @@ Strategically, the Clock Choke serves as a primary threat against turtle positio
 The rotational finishing mechanic distinguishes the Clock Choke from static collar chokes. Rather than simply pulling on the collar, the attacker creates pressure by walking their body perpendicular to the opponent while sprawling their hips down, using body weight and leverage rather than arm strength alone. This makes the technique sustainable and difficult to defend once properly established, as the defender must address both the grip and the positional pressure simultaneously.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish collar grip**: From turtle top, reach across opponent's neck and insert your thumb deep inside their far-side collar, fingers wrapping outside. Your knuckles should press directly against their neck with the gi material creating the choking surface between your thumb and their carotid artery. (Timing: Immediately when opponent turtles)
-2. **Secure hip control**: Place your non-choking hand on opponent's far hip, gripping the gi pants or belt. This anchor prevents them from rolling toward you to relieve pressure and gives you a reference point for your rotational movement around their body. (Timing: Before beginning rotation)
-3. **Position your body**: Bring your chest tight to their shoulder on the choking side, keeping your head low near their ear. Your hips should be on the same side as your choking arm initially, with both knees on the mat for base and mobility. (Timing: As you settle the grip)
-4. **Begin the clock rotation**: Start walking your body perpendicular to their spine, moving toward their head while maintaining collar grip tension. Take small steps with your knees, keeping your chest connected to their upper back throughout the movement. Your body traces an arc like clock hands moving. (Timing: Controlled, deliberate movement)
-5. **Sprawl and drive**: As you reach approximately 90 degrees to their spine, sprawl your hips back and down toward the mat while driving your shoulder and chest weight forward into their neck and shoulder. This creates tremendous pressure on the choke without requiring arm strength. (Timing: When perpendicular to spine)
-6. **Complete the finish**: Continue driving your hips to the mat while keeping your collar grip tight and your elbow pulling toward your own hip. The combination of downward body pressure and collar tension compresses both carotid arteries. Maintain until tap or opponent goes unconscious. (Timing: Hold pressure for submission)
+1. **Establish collar grip**: From turtle top, reach across opponent's neck and insert your thumb deep inside their far-side collar, fingers wrapping outside. Your knuckles should press directly against their neck with the gi material creating the choking surface between your thumb and their carotid artery.
+2. **Secure hip control**: Place your non-choking hand on opponent's far hip, gripping the gi pants or belt. This anchor prevents them from rolling toward you to relieve pressure and gives you a reference point for your rotational movement around their body.
+3. **Position your body**: Bring your chest tight to their shoulder on the choking side, keeping your head low near their ear. Your hips should be on the same side as your choking arm initially, with both knees on the mat for base and mobility.
+4. **Begin the clock rotation**: Start walking your body perpendicular to their spine, moving toward their head while maintaining collar grip tension. Take small steps with your knees, keeping your chest connected to their upper back throughout the movement. Your body traces an arc like clock hands moving.
+5. **Sprawl and drive**: As you reach approximately 90 degrees to their spine, sprawl your hips back and down toward the mat while driving your shoulder and chest weight forward into their neck and shoulder. This creates tremendous pressure on the choke without requiring arm strength.
+6. **Complete the finish**: Continue driving your hips to the mat while keeping your collar grip tight and your elbow pulling toward your own hip. The combination of downward body pressure and collar tension compresses both carotid arteries. Maintain until tap or opponent goes unconscious.
 
 
 </section>
@@ -252,19 +252,15 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 ## Training Progressions
 **Week 1-2** - Grip mechanics and positioning
 Practice establishing the deep collar grip with proper thumb placement on a compliant partner. Focus on the grip feel and learning to position your body correctly relative to the turtled opponent without any resistance. Drill the grip establishment and body positioning 20-30 times per session.
-(Resistance: None)
 
 **Week 3-4** - Rotation and pressure application
 Add the rotational movement and sprawling finish to your drilling. Partner provides light resistance by maintaining turtle position but not actively defending. Focus on maintaining connection throughout the rotation and feeling when proper pressure is achieved.
-(Resistance: Light)
 
 **Week 5-6** - Defensive recognition and counters
 Partner actively defends using common escapes: rolling, sitting back, and grip fighting. Practice recognizing these defenses and adjusting your technique or transitioning to alternative attacks. Begin chaining Clock Choke with back takes and other turtle attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application and integration
 Apply Clock Choke in positional sparring starting from turtle. Progress to full sparring where you must create the turtle situation and execute the technique against fully resisting opponents. Track success rate and identify patterns in failed attempts.
-(Resistance: Full)
 
 
 

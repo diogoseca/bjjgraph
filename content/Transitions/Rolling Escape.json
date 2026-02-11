@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Rolling Escape is a critical defensive technique used to escape the anaconda choke when trapped in bottom position. This escape exploits the inherent vulnerability in the anaconda control position—the attacker must commit to a specific angle to finish the choke, and that commitment creates predictable momentum that can be redirected. By rolling in the same direction as the attacker's choking pressure rather than fighting against it, the defender uses physics to their advantage.\n\nThe technique requires precise timing and coordination between upper body grip fighting and lower body rolling mechanics. The defender must simultaneously address the choking arm while initiating a forward roll that carries both practitioners through the rotation. When executed correctly, the defender emerges in open guard or turtle position while the attacker loses their choking configuration entirely. The key insight is that the anaconda grip relies on a perpendicular angle between the attacker's chest and the defender's shoulder—rolling disrupts this angle and loosens the choking mechanism.\n\nThis escape is particularly valuable because it works even when the choke is partially locked. Unlike static escapes that require catching the attack early, the rolling escape can be initiated at later stages of the submission sequence. However, timing remains critical—wait too long and the choke will be too tight to survive the roll. The technique integrates seamlessly with other front headlock defense principles and serves as a gateway to guard recovery or scramble positions.",
   "key_principles": [
     "Roll with the attacker's momentum rather than fighting against the choking pressure directly",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Secure wrist control",
-      "description": "Use your free hand to grip the opponent's choking wrist or forearm firmly. Pull outward to create a small pocket of space between their forearm and your neck. This grip must be maintained throughout the entire rolling sequence.",
-      "timing": "Immediately upon recognizing the anaconda grip"
+      "description": "Use your free hand to grip the opponent's choking wrist or forearm firmly. Pull outward to create a small pocket of space between their forearm and your neck. This grip must be maintained throughout the entire rolling sequence."
     },
     {
       "step_number": 2,
       "action": "Tuck chin and protect neck",
-      "description": "Drive your chin down toward your free shoulder, creating the smallest possible choking surface. Simultaneously turn your head slightly away from the trapped arm side to position bony structures rather than soft tissue against the choking arm.",
-      "timing": "Concurrent with wrist control"
+      "description": "Drive your chin down toward your free shoulder, creating the smallest possible choking surface. Simultaneously turn your head slightly away from the trapped arm side to position bony structures rather than soft tissue against the choking arm."
     },
     {
       "step_number": 3,
       "action": "Load hips for roll",
-      "description": "Shift your hips toward the direction you will roll (same direction as opponent's choking pressure). Bring your knees underneath you slightly to generate rolling momentum. Your body should form a slight diagonal angle preparing for the forward roll.",
-      "timing": "1-2 seconds after establishing wrist control"
+      "description": "Shift your hips toward the direction you will roll (same direction as opponent's choking pressure). Bring your knees underneath you slightly to generate rolling momentum. Your body should form a slight diagonal angle preparing for the forward roll."
     },
     {
       "step_number": 4,
       "action": "Initiate forward roll",
-      "description": "Drive explosively off your posting foot and roll forward over your shoulder on the trapped arm side. Lead with your hips and let momentum carry you through the rotation. Keep your wrist grip tight and continue pulling to maintain neck space throughout.",
-      "timing": "When opponent commits weight forward or attempts to step over"
+      "description": "Drive explosively off your posting foot and roll forward over your shoulder on the trapped arm side. Lead with your hips and let momentum carry you through the rotation. Keep your wrist grip tight and continue pulling to maintain neck space throughout."
     },
     {
       "step_number": 5,
       "action": "Complete rotation and extract",
-      "description": "As you roll through, use the momentum to pull your head and trapped arm free from the now-loosened grip. The rolling motion disrupts the perpendicular angle required for the anaconda, creating the space needed for extraction. Continue rolling until your back clears their control.",
-      "timing": "Continuous through the roll"
+      "description": "As you roll through, use the momentum to pull your head and trapped arm free from the now-loosened grip. The rolling motion disrupts the perpendicular angle required for the anaconda, creating the space needed for extraction. Continue rolling until your back clears their control."
     },
     {
       "step_number": 6,
       "action": "Establish guard position",
-      "description": "Immediately after extracting from the choke, hip escape away from opponent and establish open guard with feet on their hips or knees. Frame with your arms to prevent them from immediately re-establishing the front headlock position. Create distance before they can recover.",
-      "timing": "Immediately upon completing extraction"
+      "description": "Immediately after extracting from the choke, hip escape away from opponent and establish open guard with feet on their hips or knees. Frame with your arms to prevent them from immediately re-establishing the front headlock position. Create distance before they can recover."
     }
   ],
   "common_counters": [
@@ -145,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rolling mechanics isolation",
-      "description": "Practice the forward roll motion solo without partner. Focus on leading with hips, keeping chin tucked, and completing smooth rotations. Add imaginary wrist grip maintenance to build the neural pathway. Drill 20-30 rolls per session on each side.",
-      "resistance_level": "None"
+      "description": "Practice the forward roll motion solo without partner. Focus on leading with hips, keeping chin tucked, and completing smooth rotations. Add imaginary wrist grip maintenance to build the neural pathway. Drill 20-30 rolls per session on each side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Partner integration with compliant training",
-      "description": "Partner establishes loose anaconda grip. Practice the full escape sequence with partner allowing the roll to succeed. Focus on timing the roll initiation, maintaining wrist control, and finishing in guard position. 10-15 repetitions per side.",
-      "resistance_level": "Light"
+      "description": "Partner establishes loose anaconda grip. Practice the full escape sequence with partner allowing the roll to succeed. Focus on timing the roll initiation, maintaining wrist control, and finishing in guard position. 10-15 repetitions per side."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing against progressive resistance",
-      "description": "Partner applies 50-70% resistance on anaconda grip. Work on finding the optimal moment to initiate roll—when partner commits weight forward. Practice chaining to other escapes if roll is blocked. Include scramble recovery work.",
-      "resistance_level": "Medium"
+      "description": "Partner applies 50-70% resistance on anaconda grip. Work on finding the optimal moment to initiate roll—when partner commits weight forward. Practice chaining to other escapes if roll is blocked. Include scramble recovery work."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Full resistance positional sparring starting from anaconda control. Partner actively tries to finish while you work escape. Identify personal timing cues and develop sensitivity for when roll is available versus when alternative escapes are needed.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring starting from anaconda control. Partner actively tries to finish while you work escape. Identify personal timing cues and develop sensitivity for when roll is available versus when alternative escapes are needed."
     }
   ],
   "variants_and_adaptations": [
@@ -187,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Rolling Escape from anaconda control?",
-      "answer": "The primary goal is to disrupt the perpendicular angle between the attacker's chest and your trapped shoulder that the anaconda choke requires. By rolling in the same direction as the attacker's pressure, you loosen the choking configuration and create space to extract your head and arm from the grip, ultimately escaping to guard or turtle position.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to disrupt the perpendicular angle between the attacker's chest and your trapped shoulder that the anaconda choke requires. By rolling in the same direction as the attacker's pressure, you loosen the choking configuration and create space to extract your head and arm from the grip, ultimately escaping to guard or turtle position."
     },
     {
       "question": "Why do you roll WITH the attacker's pressure rather than against it?",
-      "answer": "Rolling with the attacker's momentum uses physics to your advantage—their committed weight becomes part of your escape rather than an obstacle. Rolling against their pressure tightens the choke by compressing you further into their grip. The anaconda relies on a specific angle, and rolling with their force disrupts this angle while fighting against it reinforces it.",
-      "difficulty": "Intermediate"
+      "answer": "Rolling with the attacker's momentum uses physics to your advantage—their committed weight becomes part of your escape rather than an obstacle. Rolling against their pressure tightens the choke by compressing you further into their grip. The anaconda relies on a specific angle, and rolling with their force disrupts this angle while fighting against it reinforces it."
     },
     {
       "question": "What grip must be maintained throughout the entire rolling sequence?",
-      "answer": "You must maintain grip control on the opponent's choking wrist or forearm throughout the entire roll. This grip serves two critical functions: it prevents them from retightening the choke during the rotation, and it creates the space at your neck needed to complete the extraction. Releasing this grip mid-roll is the most common cause of failed escape attempts.",
-      "difficulty": "Beginner"
+      "answer": "You must maintain grip control on the opponent's choking wrist or forearm throughout the entire roll. This grip serves two critical functions: it prevents them from retightening the choke during the rotation, and it creates the space at your neck needed to complete the extraction. Releasing this grip mid-roll is the most common cause of failed escape attempts."
     },
     {
       "question": "Your opponent sprawls back when you attempt to initiate the roll—what adjustment do you make?",
-      "answer": "When opponent sprawls, the rolling escape becomes unavailable because they have removed their forward commitment that powers the technique. Immediately transition to alternative escape: use hip escape to create space and establish turtle, or focus purely on grip fighting to prevent the choke finish while working to create frames. Do not force the roll against a sprawled opponent.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent sprawls, the rolling escape becomes unavailable because they have removed their forward commitment that powers the technique. Immediately transition to alternative escape: use hip escape to create space and establish turtle, or focus purely on grip fighting to prevent the choke finish while working to create frames. Do not force the roll against a sprawled opponent."
     },
     {
       "question": "When is the optimal moment to initiate the Rolling Escape?",
-      "answer": "The optimal moment is when the attacker commits their weight forward to finish the choke—typically when they begin stepping over your head or driving chest pressure into your shoulder. This forward commitment creates momentum you can redirect. Initiating too early when they are still controlling may allow them to counter; too late and the choke may be too tight to survive the roll.",
-      "difficulty": "Advanced"
+      "answer": "The optimal moment is when the attacker commits their weight forward to finish the choke—typically when they begin stepping over your head or driving chest pressure into your shoulder. This forward commitment creates momentum you can redirect. Initiating too early when they are still controlling may allow them to counter; too late and the choke may be too tight to survive the roll."
     },
     {
       "question": "What should your chin position be during the Rolling Escape?",
-      "answer": "Your chin must remain tucked tightly toward your free shoulder (the non-trapped side) throughout the entire escape. This creates the smallest possible choking surface, positions bony structures against the choking arm rather than soft tissue, and protects against the choke tightening during the rotation. Lifting or extending the chin at any point exposes vulnerable neck anatomy.",
-      "difficulty": "Beginner"
+      "answer": "Your chin must remain tucked tightly toward your free shoulder (the non-trapped side) throughout the entire escape. This creates the smallest possible choking surface, positions bony structures against the choking arm rather than soft tissue, and protects against the choke tightening during the rotation. Lifting or extending the chin at any point exposes vulnerable neck anatomy."
     },
     {
       "question": "How do you handle an opponent who transitions to a darce grip during your roll attempt?",
-      "answer": "Keep your chin tucked and continue the roll fully—the rotation makes it difficult for them to lock the darce properly. The rolling momentum disrupts their ability to establish the finishing angle for either choke. Upon completing the roll, immediately address the new grip configuration from the improved position you've created.",
-      "difficulty": "Advanced"
+      "answer": "Keep your chin tucked and continue the roll fully—the rotation makes it difficult for them to lock the darce properly. The rolling momentum disrupts their ability to establish the finishing angle for either choke. Upon completing the roll, immediately address the new grip configuration from the improved position you've created."
     },
     {
       "question": "What position should you establish immediately after completing the Rolling Escape?",
-      "answer": "Immediately establish open guard with feet framing on opponent's hips or knees and hands creating frames on their shoulders or chest. Hip escape away to create distance before they can re-establish front headlock control. The priority is preventing immediate re-attack—guard quality can be improved once you've created separation and broken their forward pressure.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately establish open guard with feet framing on opponent's hips or knees and hands creating frames on their shoulders or chest. Hip escape away to create distance before they can re-establish front headlock control. The priority is preventing immediate re-attack—guard quality can be improved once you've created separation and broken their forward pressure."
     }
   ],
   "safety_considerations": "The Rolling Escape is generally safe when practiced with proper technique and progressive resistance. Primary injury risks include neck strain from rolling with poor positioning, shoulder injury if the trapped arm catches during rotation, and potential collision injuries from uncontrolled rolling. Always practice on adequate mat space with awareness of surroundings. Partners should communicate clearly about choke tightness—tap immediately if the choke becomes too tight to safely attempt escape. When drilling, start with loose grips and gradually increase resistance. Avoid practicing this escape when fatigued as poor timing can result in completing the roll while the choke is still tight enough to cause unconsciousness. In competition, recognize when the choke is too locked to escape safely and tap rather than risking injury or unconsciousness from a failed attempt.",
@@ -266,8 +243,9 @@
       "relationship": "Follow-up system after successful escape"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Similar control position requiring comparable escape principles"
     }
-  ]
+  ],
+  "success_rate": 58
 }

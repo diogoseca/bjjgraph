@@ -161,7 +161,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotator cuff)
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -238,12 +238,12 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Bait and Capture the Arm**: From mount, allow the opponent to place their hand on your chest or hip in a defensive frame. As they extend their arm to create space, immediately capture their wrist with your same-side hand (right hand to their right wrist). Use a firm grip with your thumb on the inside of their wrist and fingers wrapping around the outside. (Timing: Immediate reaction to opponent's frame - within 0.5 seconds of arm extension) [Pressure: Moderate]
-2. **Pin the Shoulder**: Shift your weight forward and slightly to the side of the controlled arm, driving your chest toward the mat near their shoulder. This pins their shoulder blade to the ground and prevents them from following their arm as you manipulate it. Your hips should remain heavy and connected to their torso. (Timing: Simultaneous with wrist capture) [Pressure: Firm]
-3. **Walk the Arm to Position**: Using your grip on their wrist, walk their arm across their body and toward the mat beside their head, creating a 90-degree angle at the elbow. Their palm should be facing up or toward their head. Post your opposite foot out wide for base if needed to maintain balance during this transition. (Timing: 1-2 seconds with controlled movement) [Pressure: Moderate]
-4. **Establish Figure-Four Grip**: Thread your free hand under their elbow and grasp your own wrist, creating a figure-four configuration. Your forearm should be positioned across the back of their upper arm, just above the elbow. Ensure your grip is tight and your elbows are pulled toward your centerline for maximum control. (Timing: 1-2 seconds to secure proper grip) [Pressure: Firm]
-5. **Create Base and Alignment**: Adjust your body position so that your chest is over their shoulder and your weight is distributed through their shoulder complex to the mat. Your hips should be heavy on their torso, and you may need to post your opposite leg out for balance. Ensure their elbow remains at or below shoulder level. (Timing: 1 second positional adjustment) [Pressure: Firm]
-6. **Apply Rotational Pressure**: Keeping their shoulder pinned, slowly rotate their wrist toward their head (external rotation of the shoulder) while maintaining the 90-degree elbow angle. The pressure should come from your entire upper body rotating as a unit, not just your arms. Move in a slow, controlled arc until they tap. (Timing: 3-5 seconds from initial pressure to tap) [Pressure: Maximum]
+1. **Bait and Capture the Arm**: From mount, allow the opponent to place their hand on your chest or hip in a defensive frame. As they extend their arm to create space, immediately capture their wrist with your same-side hand (right hand to their right wrist). Use a firm grip with your thumb on the inside of their wrist and fingers wrapping around the outside. (Timing: Immediate reaction to opponent's frame - within 0.5 seconds of arm extension)
+2. **Pin the Shoulder**: Shift your weight forward and slightly to the side of the controlled arm, driving your chest toward the mat near their shoulder. This pins their shoulder blade to the ground and prevents them from following their arm as you manipulate it. Your hips should remain heavy and connected to their torso. (Timing: Simultaneous with wrist capture)
+3. **Walk the Arm to Position**: Using your grip on their wrist, walk their arm across their body and toward the mat beside their head, creating a 90-degree angle at the elbow. Their palm should be facing up or toward their head. Post your opposite foot out wide for base if needed to maintain balance during this transition. (Timing: 1-2 seconds with controlled movement)
+4. **Establish Figure-Four Grip**: Thread your free hand under their elbow and grasp your own wrist, creating a figure-four configuration. Your forearm should be positioned across the back of their upper arm, just above the elbow. Ensure your grip is tight and your elbows are pulled toward your centerline for maximum control. (Timing: 1-2 seconds to secure proper grip)
+5. **Create Base and Alignment**: Adjust your body position so that your chest is over their shoulder and your weight is distributed through their shoulder complex to the mat. Your hips should be heavy on their torso, and you may need to post your opposite leg out for balance. Ensure their elbow remains at or below shoulder level. (Timing: 1 second positional adjustment)
+6. **Apply Rotational Pressure**: Keeping their shoulder pinned, slowly rotate their wrist toward their head (external rotation of the shoulder) while maintaining the 90-degree elbow angle. The pressure should come from your entire upper body rotating as a unit, not just your arms. Move in a slow, controlled arc until they tap. (Timing: 3-5 seconds from initial pressure to tap)
 
 
 </section>
@@ -263,7 +263,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying pressure too quickly or jerking the submission [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly or jerking the submission
   - **Consequence**: High risk of causing serious shoulder injury to training partner, violates fundamental training safety protocols
   - **Correction**: Always apply pressure slowly over 3-5 seconds minimum. Focus on smooth, controlled rotation and wait for the tap. Training is about learning, not injuring partners
 - **Mistake**: Failing to pin the shoulder adequately before applying rotation
@@ -278,7 +278,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 - **Mistake**: Gripping only the wrist without establishing proper figure-four control
   - **Consequence**: Loss of control and reduced leverage, allowing opponent to pull their arm free
   - **Correction**: Always complete the figure-four grip before applying finishing pressure. Your grip on your own wrist creates the frame necessary for proper leverage
-- **Mistake**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps
   - **Consequence**: Potential serious injury to training partner, violation of fundamental safety and respect principles
   - **Correction**: Release immediately upon feeling or hearing a tap. Always err on the side of caution - if you think they might be tapping, release and ask
 
@@ -345,43 +345,6 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks)
-- Focus: Learn proper mechanics, grip configurations, and body positioning without any resistance. Partner remains completely static while you practice the movement pattern and understand the leverage points.
-- Resistance: None
-- Safety: Focus on slow, controlled movements. Practice the release protocol multiple times. Discuss and identify tap signals before beginning. Never apply any actual finishing pressure during this phase.
-
-**Controlled Drilling (Weeks 3-4)** (Weeks 3-4)
-- Focus: Partner provides mild, predictable resistance by maintaining defensive posture but allowing the technique to be completed. Practice identifying the correct arm position and completing full sequences from mount.
-- Resistance: Mild resistance
-- Safety: Begin applying light pressure but stop well before finish. Partner taps early (at 20-30% pressure) to build safety habits. Practice immediate release upon tap. Communication after each repetition is mandatory.
-
-**Progressive Resistance (Weeks 5-8)** (Weeks 5-8)
-- Focus: Partner provides realistic defensive reactions including hiding arms, attempting to escape, and creating frames. Practice countering common defenses and transitioning to other attacks when americana is not available.
-- Resistance: Realistic resistance
-- Safety: Gradually increase finishing pressure to 50-60% over multiple weeks. Maintain 3-5 second application time minimum. Both partners should communicate comfort levels before and after each round.
-
-**Positional Sparring (Weeks 9-12)** (Weeks 9-12)
-- Focus: Start from mount position and work for americana against full resistance, with partner attempting all legal defenses and escapes. Integrate americana into your overall mount attack system with other submissions.
-- Resistance: Full resistance
-- Safety: Apply finishing pressure slowly even in live situations. Partner must tap early enough to prevent injury (at first sensation of joint stress). Both partners share responsibility for safety - defender taps early, attacker applies slowly.
-
-**Competition Integration (Weeks 13+)** (Week 13 onward)
-- Focus: Incorporate americana as part of your complete mount attack system in full sparring scenarios. Develop ability to chain it with armbars, other shoulder locks, and positional transitions based on defensive reactions.
-- Resistance: Full resistance
-- Safety: Maintain training room culture of early taps on joint locks. In actual competition, pressure can be applied faster, but training should always prioritize safety over winning. Never apply competition-speed pressure on training partners.
-
-**Ongoing Refinement** (Continuous)
-- Focus: Refine details based on different body types, scenarios, and opponent responses. Study high-level applications and integrate feedback from training partners and instructors. Teach the technique to others to deepen understanding.
-- Resistance: Full resistance
-- Safety: As you become more skilled, take extra care with less experienced partners. Your increased leverage and technique makes you more dangerous. Always calibrate your pressure to your partner's experience level. Senior practitioners have special responsibility to maintain safety culture.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -437,6 +400,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

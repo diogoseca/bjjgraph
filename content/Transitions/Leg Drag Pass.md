@@ -153,7 +153,7 @@ description: "Master the Leg Drag Pass in BJJ. Dominant guard passing technique 
 The Leg Drag Pass is one of the most fundamental and high-percentage guard passing techniques in modern Brazilian Jiu-Jitsu. This pass works by controlling the opponent's legs and dragging them across their body, creating an angle that eliminates their guard retention capabilities while establishing dominant control. The technique is particularly effective against seated guards, butterfly guard, and various open guard positions where the opponent's legs are extended or not locked together. What makes the leg drag so powerful is its ability to simultaneously shut down the opponent's offensive options while creating a clear path to side control or back control. The pass requires precise timing, proper weight distribution, and the ability to anticipate and counter common guard retention tactics. When executed correctly, the leg drag creates a positional hierarchy shift where the passer moves from a neutral or slightly disadvantaged position directly into a dominant control position. This makes it a cornerstone technique for competitive grapplers at all levels.
 
 **From Position**: [[Open Guard/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -203,12 +203,12 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary grip control**: From standing or combat base position facing open guard, establish a strong grip on the opponent's near-side pant leg at the knee or just below. Your opposite hand should control their collar, sleeve, or establish a post on their hip to prevent them from sitting up or establishing strong grips on you. (Timing: Initial engagement phase - secure grips before opponent establishes dominant guard position)
-2. **Break guard structure**: Step your near-side leg forward and drive your knee to the mat near their hip, cutting the angle. Simultaneously pull their controlled leg across their body's centerline while using your collar/sleeve grip to break their posture and prevent them from framing against your chest or face. This creates the fundamental 'drag' motion that gives the pass its name. (Timing: Explosive initiation as opponent commits weight forward or extends legs)
-3. **Secure the drag position**: Transition your pant grip to trap their leg tightly against your body, pinning it between your chest and their body. Your near-side arm should wrap around and control their dragged leg while your opposite hand frames or controls their far shoulder to prevent them turning into you. Your chest should be heavy on their trapped leg, making it extremely difficult for them to recover guard. (Timing: Immediate follow-through after initial drag - no pause)
-4. **Circle to complete the pass**: Begin circling your hips and torso toward their back while maintaining tight control of the trapped leg. Your head should be positioned to block any hip escape attempts. As you circle, your inside knee should slide across the mat, maintaining base while your outside leg extends to counter any attempts to create space. Keep your weight distributed forward to prevent them from sitting back up. (Timing: Continuous circular motion - maintain momentum throughout)
-5. **Establish side control connection**: As you complete the circular motion, transition your leg control to establish standard side control grips. Your near-side arm should snake under their head for a cross-face or underhook their far arm, while your opposite hand controls their near hip or establishes an underhook. Your chest should settle heavy across their torso as your bottom leg extends back to establish strong base. (Timing: Smooth transition as their hip touches the mat)
-6. **Consolidate position**: Drive your cross-face pressure to turn their head away while using hip pressure to flatten them completely. Establish your preferred side control variation (cross-face, kesa gatame, or 100 kilos). Keep your hips low and connected to prevent any space creation. From here, you can transition to mount, north-south, or begin attacking for submissions depending on their defensive reactions. (Timing: Immediate consolidation - control before they can begin escape sequences)
+1. **Establish primary grip control**: From standing or combat base position facing open guard, establish a strong grip on the opponent's near-side pant leg at the knee or just below. Your opposite hand should control their collar, sleeve, or establish a post on their hip to prevent them from sitting up or establishing strong grips on you.
+2. **Break guard structure**: Step your near-side leg forward and drive your knee to the mat near their hip, cutting the angle. Simultaneously pull their controlled leg across their body's centerline while using your collar/sleeve grip to break their posture and prevent them from framing against your chest or face. This creates the fundamental 'drag' motion that gives the pass its name.
+3. **Secure the drag position**: Transition your pant grip to trap their leg tightly against your body, pinning it between your chest and their body. Your near-side arm should wrap around and control their dragged leg while your opposite hand frames or controls their far shoulder to prevent them turning into you. Your chest should be heavy on their trapped leg, making it extremely difficult for them to recover guard.
+4. **Circle to complete the pass**: Begin circling your hips and torso toward their back while maintaining tight control of the trapped leg. Your head should be positioned to block any hip escape attempts. As you circle, your inside knee should slide across the mat, maintaining base while your outside leg extends to counter any attempts to create space. Keep your weight distributed forward to prevent them from sitting back up.
+5. **Establish side control connection**: As you complete the circular motion, transition your leg control to establish standard side control grips. Your near-side arm should snake under their head for a cross-face or underhook their far arm, while your opposite hand controls their near hip or establishes an underhook. Your chest should settle heavy across their torso as your bottom leg extends back to establish strong base.
+6. **Consolidate position**: Drive your cross-face pressure to turn their head away while using hip pressure to flatten them completely. Establish your preferred side control variation (cross-face, kesa gatame, or 100 kilos). Keep your hips low and connected to prevent any space creation. From here, you can transition to mount, north-south, or begin attacking for submissions depending on their defensive reactions.
 
 
 </section>
@@ -255,23 +255,18 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic leg drag motion and body positioning
 Start from static positions with cooperative partner in seated guard. Practice the fundamental drag motion slowly, focusing on proper grip placement, chest pressure on the trapped leg, and the circular hip movement. Partner offers zero resistance. Drill 20-30 repetitions per side each session, emphasizing the feeling of pinning the leg with body weight rather than just holding with arms.
-(Resistance: None)
 
 **Week 3-4: Dynamic Entry** - Timing and grip fighting before the pass
 Partner now actively defends their guard with frames and grips but does not attempt to sweep or submit. Practice entering the leg drag from various open guard scenarios (seated, butterfly, combat base). Focus on winning the grip battle before initiating the pass and learning to recognize optimal timing windows when opponent's weight shifts forward or they reach for grips.
-(Resistance: Light)
 
 **Week 5-8: Counter Defense** - Dealing with common retention patterns
 Partner actively attempts to prevent the pass using the five most common counters: framing, butterfly hook insertion, turning away, locking legs, and grip fighting. Practice recognizing and immediately countering each defensive pattern. Start each rep by announcing which counter the partner will use, then progress to having them choose randomly. Drill counter-responses until they become automatic reflexes.
-(Resistance: Medium)
 
 **Week 9-12: Flow and Combination** - Integrating with other passes and back takes
 Partner offers full but controlled resistance (70-80% intensity). Practice chaining the leg drag with complementary techniques: transitioning to knee slice when they defend the drag, accepting back control when they turn away, or switching to toreando when they lock legs. Focus on maintaining passing pressure without forcing any single technique.
-(Resistance: Medium)
 
 **Month 4+: Competition Application** - Live rolling integration and position-specific sparring
 Incorporate the leg drag into full-resistance rolling. Use position-specific sparring starting from open guard with specific goals: passer must complete the leg drag to side control within 2 minutes, guard player must retain or sweep. Gradually reduce time limits to increase pressure and force quicker decision-making. Video review rolling footage to identify missed opportunities and technical breakdowns.
-(Resistance: Full)
 
 
 

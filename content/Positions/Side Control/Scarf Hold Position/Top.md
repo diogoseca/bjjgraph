@@ -349,11 +349,11 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 30% | 25% |
-| Intermediate | 65% | 45% | 40% |
-| Advanced     | 80% | 60% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 52% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 45-90 seconds
 

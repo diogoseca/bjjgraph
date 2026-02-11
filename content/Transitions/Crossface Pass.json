@@ -11,11 +11,6 @@
     "half-guard",
     "pressure-passing"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Crossface Pass is a fundamental pressure-passing technique used to pass the half guard by controlling the opponent's head and neck with the crossface while clearing the trapped leg. This technique exemplifies the principle of controlling the head to control the body, using heavy shoulder pressure to flatten the opponent and restrict their mobility. The crossface creates a powerful wedge that prevents the opponent from turning into you or creating effective defensive frames, while simultaneously setting up the leg extraction necessary to achieve side control. This pass is particularly effective against opponents who rely on the underhook battle in half guard, as the crossface neutralizes their framing attempts and creates a severe defensive dilemma. The technique requires proper weight distribution, precise timing, and the ability to maintain heavy pressure while systematically clearing the bottom leg. When executed correctly, the crossface pass is one of the highest percentage methods for passing half guard, especially in no-gi situations where lapel grips are unavailable.",
   "key_principles": [
     "Establish strong crossface connection with forearm across opponent's jaw and neck",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish crossface",
-      "description": "Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder. Simultaneously, position your head on the opposite side from your trapped leg, creating a wedge that prevents them from turning into you.",
-      "timing": "Immediately upon recognizing half guard position"
+      "description": "Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder. Simultaneously, position your head on the opposite side from your trapped leg, creating a wedge that prevents them from turning into you."
     },
     {
       "step_number": 2,
       "action": "Apply shoulder pressure",
-      "description": "Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body throughout.",
-      "timing": "Continuous throughout the pass"
+      "description": "Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body throughout."
     },
     {
       "step_number": 3,
       "action": "Control far arm",
-      "description": "With your free hand, either underhook the opponent's far arm (the arm away from your trapped leg) or pin it to the mat. This prevents them from creating frames or establishing defensive grips. If they're attempting to push your head away, swim your free arm over their arm and secure the underhook position.",
-      "timing": "As opponent attempts to create defensive frames"
+      "description": "With your free hand, either underhook the opponent's far arm (the arm away from your trapped leg) or pin it to the mat. This prevents them from creating frames or establishing defensive grips. If they're attempting to push your head away, swim your free arm over their arm and secure the underhook position."
     },
     {
       "step_number": 4,
       "action": "Create extraction angle",
-      "description": "Step your trapped leg slightly backward and outward, creating an angle of approximately 45 degrees from your opponent's hips. Simultaneously, walk your free leg forward toward their head, shifting your weight distribution while maintaining the crossface pressure. This angle makes it mechanically difficult for them to maintain their leg lock on your trapped leg.",
-      "timing": "Once upper body control is secured"
+      "description": "Step your trapped leg slightly backward and outward, creating an angle of approximately 45 degrees from your opponent's hips. Simultaneously, walk your free leg forward toward their head, shifting your weight distribution while maintaining the crossface pressure. This angle makes it mechanically difficult for them to maintain their leg lock on your trapped leg."
     },
     {
       "step_number": 5,
       "action": "Extract trapped leg",
-      "description": "Pull your trapped knee backward and upward, using a circular motion to clear it over the opponent's bottom leg. Keep your weight forward on the crossface so they cannot follow with their hips. If needed, use your free hand to push their bottom knee away as you extract. The key is maintaining heavy shoulder pressure so they cannot bridge or turn as you clear the leg.",
-      "timing": "Progressive extraction coordinated with pressure"
+      "description": "Pull your trapped knee backward and upward, using a circular motion to clear it over the opponent's bottom leg. Keep your weight forward on the crossface so they cannot follow with their hips. If needed, use your free hand to push their bottom knee away as you extract. The key is maintaining heavy shoulder pressure so they cannot bridge or turn as you clear the leg."
     },
     {
       "step_number": 6,
       "action": "Secure side control",
-      "description": "As your leg clears completely, immediately drop your hips to the mat on the far side of the opponent's body. Transition your crossface to a standard side control head position, securing the far side underhook with your previously free arm. Apply chest-to-chest pressure and establish your preferred side control grips, ensuring they cannot recover guard.",
-      "timing": "Immediately upon leg clearing"
+      "description": "As your leg clears completely, immediately drop your hips to the mat on the far side of the opponent's body. Transition your crossface to a standard side control head position, securing the far side underhook with your previously free arm. Apply chest-to-chest pressure and establish your preferred side control grips, ensuring they cannot recover guard."
     }
   ],
   "common_counters": [
@@ -135,38 +124,32 @@
     {
       "phase": "Phase 1: Positional Familiarization (Week 1-2)",
       "focus": "Understanding crossface mechanics and weight distribution",
-      "description": "Partner starts in half guard with light resistance. Practice establishing crossface position, proper shoulder pressure angle, and maintaining heavy weight while partner gives feedback on pressure points. Focus on feeling the correct body positioning and weight distribution without attempting full pass.",
-      "resistance_level": "None"
+      "description": "Partner starts in half guard with light resistance. Practice establishing crossface position, proper shoulder pressure angle, and maintaining heavy weight while partner gives feedback on pressure points. Focus on feeling the correct body positioning and weight distribution without attempting full pass."
     },
     {
       "phase": "Phase 2: Upper Body Control (Week 3-4)",
       "focus": "Mastering crossface and far arm control",
-      "description": "Partner provides 30% resistance, attempting basic frames and underhook attempts. Practice beating them to the crossface position, controlling their far arm, and maintaining pressure against their defensive efforts. Partner should not yet attempt sweeps, only defensive frames and position recovery.",
-      "resistance_level": "Light"
+      "description": "Partner provides 30% resistance, attempting basic frames and underhook attempts. Practice beating them to the crossface position, controlling their far arm, and maintaining pressure against their defensive efforts. Partner should not yet attempt sweeps, only defensive frames and position recovery."
     },
     {
       "phase": "Phase 3: Leg Extraction Drilling (Week 5-6)",
       "focus": "Developing proper leg extraction mechanics",
-      "description": "With upper body control established, partner maintains moderate leg grip (50% resistance) while you practice the circular extraction motion. Focus on creating proper angles, using weight distribution to prevent hip following, and timing the extraction with maintained crossface pressure.",
-      "resistance_level": "Medium"
+      "description": "With upper body control established, partner maintains moderate leg grip (50% resistance) while you practice the circular extraction motion. Focus on creating proper angles, using weight distribution to prevent hip following, and timing the extraction with maintained crossface pressure."
     },
     {
       "phase": "Phase 4: Full Sequence Integration (Week 7-10)",
       "focus": "Combining all elements with increasing resistance",
-      "description": "Partner provides 70% resistance including frames, underhook attempts, and basic sweep attempts. Practice the complete sequence from initial crossface establishment through to side control completion. Focus on smooth transitions between steps and maintaining pressure throughout.",
-      "resistance_level": "Medium"
+      "description": "Partner provides 70% resistance including frames, underhook attempts, and basic sweep attempts. Practice the complete sequence from initial crossface establishment through to side control completion. Focus on smooth transitions between steps and maintaining pressure throughout."
     },
     {
       "phase": "Phase 5: Competition Simulation (Week 11-16)",
       "focus": "Full resistance with common counters",
-      "description": "Partner uses full resistance with all common defensive responses: deep underhooks, knee shields, electric chair setups, and frame battles. Practice recognizing and countering each defensive attempt while maintaining technical precision. Begin timing the full sequence and aiming for completion under 10 seconds.",
-      "resistance_level": "Full"
+      "description": "Partner uses full resistance with all common defensive responses: deep underhooks, knee shields, electric chair setups, and frame battles. Practice recognizing and countering each defensive attempt while maintaining technical precision. Begin timing the full sequence and aiming for completion under 10 seconds."
     },
     {
       "phase": "Phase 6: Integration and Flow (Ongoing)",
       "focus": "Combining with other half guard passing options",
-      "description": "Practice transitioning between crossface pass and other half guard passes (knee slice, smash, underhook) based on opponent's defensive reactions. Develop the ability to chain techniques and recognize when crossface pass is highest percentage option versus when to switch strategies. Incorporate into live rolling.",
-      "resistance_level": "Full"
+      "description": "Practice transitioning between crossface pass and other half guard passes (knee slice, smash, underhook) based on opponent's defensive reactions. Develop the ability to chain techniques and recognize when crossface pass is highest percentage option versus when to switch strategies. Incorporate into live rolling."
     }
   ],
   "variants_and_adaptations": [
@@ -194,33 +177,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary purpose of the crossface in this passing technique?",
-      "answer": "The crossface serves to control the opponent's head and upper body, preventing them from turning into you or creating effective defensive frames. It creates a wedge that keeps them flattened to their back, restricts their mobility, and establishes the control necessary to safely extract your trapped leg without them following with their hips or recovering guard.",
-      "difficulty": "Beginner"
+      "answer": "The crossface serves to control the opponent's head and upper body, preventing them from turning into you or creating effective defensive frames. It creates a wedge that keeps them flattened to their back, restricts their mobility, and establishes the control necessary to safely extract your trapped leg without them following with their hips or recovering guard."
     },
     {
       "question": "Why must you control the opponent's far arm during the crossface pass?",
-      "answer": "Controlling the far arm prevents the opponent from creating frames against your head or establishing underhook position. Without this control, they can push your head away, create distance, recover full guard, or execute sweeps. The far arm control is essential for maintaining the dominant position and preventing effective defensive responses.",
-      "difficulty": "Beginner"
+      "answer": "Controlling the far arm prevents the opponent from creating frames against your head or establishing underhook position. Without this control, they can push your head away, create distance, recover full guard, or execute sweeps. The far arm control is essential for maintaining the dominant position and preventing effective defensive responses."
     },
     {
       "question": "What is the correct sequence for completing the crossface pass?",
-      "answer": "The proper sequence is: 1) Establish crossface connection, 2) Apply shoulder pressure to flatten opponent, 3) Control far arm to prevent frames, 4) Create extraction angle with body positioning, 5) Extract trapped leg while maintaining upper body pressure, 6) Secure side control immediately upon leg clearing. Upper body control must precede leg extraction.",
-      "difficulty": "Intermediate"
+      "answer": "The proper sequence is: 1) Establish crossface connection, 2) Apply shoulder pressure to flatten opponent, 3) Control far arm to prevent frames, 4) Create extraction angle with body positioning, 5) Extract trapped leg while maintaining upper body pressure, 6) Secure side control immediately upon leg clearing. Upper body control must precede leg extraction."
     },
     {
       "question": "How should you extract your trapped leg and why is the motion important?",
-      "answer": "Extract your leg using a circular motion: knee up and back, then down and out, rather than pulling straight backward. This circular path follows the natural anatomy of the opponent's leg lock and makes it mechanically difficult for them to maintain their grip. Pulling straight back creates a stronger lock and makes extraction harder. The circular motion also helps maintain your balance and forward pressure.",
-      "difficulty": "Intermediate"
+      "answer": "Extract your leg using a circular motion: knee up and back, then down and out, rather than pulling straight backward. This circular path follows the natural anatomy of the opponent's leg lock and makes it mechanically difficult for them to maintain their grip. Pulling straight back creates a stronger lock and makes extraction harder. The circular motion also helps maintain your balance and forward pressure."
     },
     {
       "question": "What are the key differences between the crossface pass and the knee slice pass from half guard?",
-      "answer": "The crossface pass emphasizes heavy shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward throughout. The knee slice pass focuses on creating an angle and cutting the knee across the opponent's legs, often with less emphasis on upper body pressure. Crossface pass is more linear and pressure-based, while knee slice involves more angular movement. Crossface is typically better when opponent lacks deep underhook, while knee slice can work even when they have some underhook control.",
-      "difficulty": "Advanced"
+      "answer": "The crossface pass emphasizes heavy shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward throughout. The knee slice pass focuses on creating an angle and cutting the knee across the opponent's legs, often with less emphasis on upper body pressure. Crossface pass is more linear and pressure-based, while knee slice involves more angular movement. Crossface is typically better when opponent lacks deep underhook, while knee slice can work even when they have some underhook control."
     },
     {
       "question": "How would you counter an opponent attempting to execute the crossface pass on you?",
-      "answer": "Primary defenses include: 1) Getting deep underhook before they establish crossface to create frames and prevent flattening, 2) Establishing strong knee shield or Z-guard before they can apply shoulder pressure, 3) Using near arm to frame on their face and create distance, 4) Locking down their trapped leg to prevent extraction and threaten electric chair sweep, 5) If crossface is established, immediately working to turn into them to recover full guard rather than fighting from flattened position. The key is preventing the initial crossface establishment through proactive defensive positioning.",
-      "difficulty": "Advanced"
+      "answer": "Primary defenses include: 1) Getting deep underhook before they establish crossface to create frames and prevent flattening, 2) Establishing strong knee shield or Z-guard before they can apply shoulder pressure, 3) Using near arm to frame on their face and create distance, 4) Locking down their trapped leg to prevent extraction and threaten electric chair sweep, 5) If crossface is established, immediately working to turn into them to recover full guard rather than fighting from flattened position. The key is preventing the initial crossface establishment through proactive defensive positioning."
     }
   ],
   "safety_considerations": "When practicing the crossface pass, apply shoulder and forearm pressure progressively to allow your partner to adjust to the sensation and tap if uncomfortable. The crossface creates significant pressure on the neck and jaw, so avoid sudden jerking movements that could cause neck injury. Partners should communicate clearly if the pressure becomes excessive or causes pain beyond normal discomfort. When drilling, the bottom person should tap if they experience sharp neck pain, difficulty breathing, or jaw discomfort. The top person must release pressure immediately upon feeling a tap. Ensure adequate mat space during practice as the technique involves significant movement and weight shifting. Build up to full pressure gradually over multiple training sessions rather than applying maximum force from the beginning. Partners with neck injuries or jaw problems should consult with instructors before practicing this technique.",
@@ -292,5 +269,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

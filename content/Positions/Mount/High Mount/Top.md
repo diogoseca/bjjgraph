@@ -21,37 +21,37 @@ description: "Master High Mount Top position in BJJ. Advanced mount control with
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Mount",
-      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Mount. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ezekiel from Mount",
-      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Ezekiel from Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Mount",
-      "text": "From this position, attempt Americana from Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle from Mount",
-      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle from Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Mount",
-      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Mount. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -213,21 +213,25 @@ From a biomechanical perspective, High Mount achieves dominance by positioning t
 
 ## Available Attacks
 
-### [[Armbar from Mount]] (18% of attempts)
+### [[Armbar from Mount]] (14% of attempts)
 
-### [[Ezekiel from Mount]] (14% of attempts)
+### [[Ezekiel from Mount]] (11% of attempts)
 
-### [[Cross Collar Choke]] (14% of attempts)
+### [[Cross Collar Choke]] (11% of attempts)
 
-### [[Americana from Mount]] (12% of attempts)
+### [[Americana from Mount]] (10% of attempts)
 
-### [[Triangle from Mount]] (10% of attempts)
+### [[Triangle from Mount]] (8% of attempts)
 
-### [[Kimura from Mount]] (12% of attempts)
+### [[Kimura from Mount]] (10% of attempts)
 
-### [[Arm Triangle]] (10% of attempts)
+### [[Arm Triangle]] (8% of attempts)
 
-### [[Gift Wrap Transition]] (10% of attempts)
+### [[Gift Wrap Transition]] (8% of attempts)
+
+### [[Loop Choke from Mount]] (10% of attempts)
+
+### [[Monoplata from Mount]] (10% of attempts)
 
 
 
@@ -390,11 +394,11 @@ Hold high mount position for extended periods while partner attempts to survive 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 20% |
-| Intermediate | 60% | 50% | 35% |
-| Advanced     | 80% | 70% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 60% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 45-90 seconds before submission or advancement
 

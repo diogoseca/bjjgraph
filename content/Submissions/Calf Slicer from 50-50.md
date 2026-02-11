@@ -157,7 +157,7 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 **Type**: Leg Compression Lock
 **Target Area**: Calf muscle, Achilles tendon, knee joint
 **Starting Position**: [[50-50 Guard]]
-**Success Rates**: Beginner 20%, Intermediate 35%, Advanced 50%
+**Success Rate**: 42%
 
 </section>
 
@@ -239,12 +239,12 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure 50-50 position and isolate target leg**: From established 50-50 guard, ensure your legs are fully entangled with your opponent's legs. Your bottom leg should already be underneath their trapped leg. Focus on controlling their ankle or foot with both hands, pulling it slightly toward your centerline. The opponent's heel should be positioned near your hip or lower ribcage. Verify that your shin is positioned across the meaty part of their calf muscle, not on their Achilles tendon or knee joint. (Timing: 2-3 seconds for position verification) [Pressure: Light]
-2. **Adjust shin blade placement for optimal compression**: Make micro-adjustments to place the blade of your shin (the sharp anterior ridge of your tibia) directly across the thickest part of the opponent's calf muscle, typically the upper third of the gastrocnemius. This precise placement is critical - too high attacks the knee joint dangerously, too low reduces compression effectiveness. Ensure your shin crosses perpendicular to the length of their leg for maximum surface area contact and even pressure distribution. (Timing: 1-2 seconds for positioning) [Pressure: Light]
-3. **Secure the ankle and foot with compound grip**: Establish a strong grip on the opponent's foot using both hands. One common grip is to cup the heel with one hand while the other controls the toes or ball of the foot. Alternatively, use a figure-four grip around the ankle. Pull the foot toward your shoulder on the same side as your trapping leg, beginning to create the angle necessary for compression. The foot should be moving toward you while your shin remains pressed against their calf. (Timing: 1-2 seconds) [Pressure: Moderate]
-4. **Initiate hip extension and begin compression**: Slowly begin extending your hips forward while simultaneously pulling the opponent's foot toward your upper body. This creates the scissoring action that generates compression force. The extension should be smooth and controlled, not explosive. Your shin drives into their calf muscle as the foot pulls in the opposite direction, creating the crushing pressure. Simultaneously, your top leg maintains downward pressure to prevent their leg from escaping upward. (Timing: 2-3 seconds progressive movement) [Pressure: Moderate]
-5. **Increase compression pressure while monitoring partner**: Continue extending your hips and pulling the foot with gradually increasing pressure. The compression should build progressively over several seconds. Watch your training partner's face and body language for signs of distress. Listen for verbal taps or pain indicators. The pressure should feel like a deep, intense squeeze on the calf muscle. If training, stop at 70% maximum pressure to allow partner to feel the submission without risking injury. (Timing: 3-4 seconds to reach submission pressure) [Pressure: Firm]
-6. **Maintain submission or release immediately upon tap**: In competition, hold the submission at full pressure until the referee stops the match or opponent taps. In training, release immediately at the first sign of tap or distress. To release, straighten your leg to remove shin pressure, release the grip on their foot, and allow their leg to extend naturally. Never maintain pressure after a tap signal. After release, allow partner 30-60 seconds to recover before continuing training, as calf compression can temporarily affect blood flow and mobility. (Timing: Immediate release upon tap signal) [Pressure: Firm]
+1. **Secure 50-50 position and isolate target leg**: From established 50-50 guard, ensure your legs are fully entangled with your opponent's legs. Your bottom leg should already be underneath their trapped leg. Focus on controlling their ankle or foot with both hands, pulling it slightly toward your centerline. The opponent's heel should be positioned near your hip or lower ribcage. Verify that your shin is positioned across the meaty part of their calf muscle, not on their Achilles tendon or knee joint. (Timing: 2-3 seconds for position verification)
+2. **Adjust shin blade placement for optimal compression**: Make micro-adjustments to place the blade of your shin (the sharp anterior ridge of your tibia) directly across the thickest part of the opponent's calf muscle, typically the upper third of the gastrocnemius. This precise placement is critical - too high attacks the knee joint dangerously, too low reduces compression effectiveness. Ensure your shin crosses perpendicular to the length of their leg for maximum surface area contact and even pressure distribution. (Timing: 1-2 seconds for positioning)
+3. **Secure the ankle and foot with compound grip**: Establish a strong grip on the opponent's foot using both hands. One common grip is to cup the heel with one hand while the other controls the toes or ball of the foot. Alternatively, use a figure-four grip around the ankle. Pull the foot toward your shoulder on the same side as your trapping leg, beginning to create the angle necessary for compression. The foot should be moving toward you while your shin remains pressed against their calf. (Timing: 1-2 seconds)
+4. **Initiate hip extension and begin compression**: Slowly begin extending your hips forward while simultaneously pulling the opponent's foot toward your upper body. This creates the scissoring action that generates compression force. The extension should be smooth and controlled, not explosive. Your shin drives into their calf muscle as the foot pulls in the opposite direction, creating the crushing pressure. Simultaneously, your top leg maintains downward pressure to prevent their leg from escaping upward. (Timing: 2-3 seconds progressive movement)
+5. **Increase compression pressure while monitoring partner**: Continue extending your hips and pulling the foot with gradually increasing pressure. The compression should build progressively over several seconds. Watch your training partner's face and body language for signs of distress. Listen for verbal taps or pain indicators. The pressure should feel like a deep, intense squeeze on the calf muscle. If training, stop at 70% maximum pressure to allow partner to feel the submission without risking injury. (Timing: 3-4 seconds to reach submission pressure)
+6. **Maintain submission or release immediately upon tap**: In competition, hold the submission at full pressure until the referee stops the match or opponent taps. In training, release immediately at the first sign of tap or distress. To release, straighten your leg to remove shin pressure, release the grip on their foot, and allow their leg to extend naturally. Never maintain pressure after a tap signal. After release, allow partner 30-60 seconds to recover before continuing training, as calf compression can temporarily affect blood flow and mobility. (Timing: Immediate release upon tap signal)
 
 
 </section>
@@ -264,28 +264,28 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying shin pressure to the Achilles tendon instead of calf muscle [CRITICAL DANGER]
+- **Mistake**: Applying shin pressure to the Achilles tendon instead of calf muscle
   - **Consequence**: Extremely high risk of Achilles rupture, one of the most serious non-spinal injuries in BJJ requiring surgical repair and 6-12 months recovery
   - **Correction**: Always position your shin across the upper portion of the calf muscle, several inches above the Achilles tendon insertion point. The shin blade should cross the thickest part of the gastrocnemius muscle belly, never near the ankle.
-- **Mistake**: Using explosive jerking motion to apply compression [CRITICAL DANGER]
+- **Mistake**: Using explosive jerking motion to apply compression
   - **Consequence**: Causes immediate muscle tears, prevents partner from tapping in time, violates fundamental training safety protocols, and will result in injury
   - **Correction**: Apply compression progressively over minimum 5-7 seconds in training. Build pressure smoothly and continuously, allowing partner to recognize the danger and tap safely. Save explosive finishes exclusively for competition if necessary.
-- **Mistake**: Failing to control the opponent's foot and ankle adequately [Low DANGER]
+- **Mistake**: Failing to control the opponent's foot and ankle adequately
   - **Consequence**: Opponent easily removes their leg from the submission by pulling their foot away, nullifying all compression pressure and wasting the position
   - **Correction**: Establish strong two-hand control on the opponent's foot before initiating hip extension. Use a heel cup or figure-four grip that prevents any possibility of their foot slipping free during compression.
-- **Mistake**: Positioning shin across the knee joint instead of calf [CRITICAL DANGER]
+- **Mistake**: Positioning shin across the knee joint instead of calf
   - **Consequence**: Creates dangerous hyperextension force on the knee joint, risks tearing knee ligaments (ACL/PCL/MCL), and represents a different submission with higher injury potential
   - **Correction**: Check your shin placement before applying pressure. The shin should be clearly in the middle third of the lower leg, crossing the calf muscle belly, nowhere near the knee joint. If uncertain, move your shin lower rather than higher.
-- **Mistake**: Neglecting to maintain the 50-50 leg entanglement during submission [Medium DANGER]
+- **Mistake**: Neglecting to maintain the 50-50 leg entanglement during submission
   - **Consequence**: Opponent easily extracts their leg, escapes the position entirely, and may counter-attack with their own leg locks or advance to superior position
   - **Correction**: Your top leg must maintain constant downward pressure throughout the submission sequence. Keep your knees relatively close together to trap their leg securely. If the entanglement feels loose, re-establish position before attempting compression.
-- **Mistake**: Leaning too far forward during compression application [Low DANGER]
+- **Mistake**: Leaning too far forward during compression application
   - **Consequence**: Reduces hip extension range, decreases compression force significantly, compromises balance, and allows opponent to push you backward easily
   - **Correction**: Maintain upright or slightly reclined torso position. The compression force comes from hip extension and foot pulling, not from leaning your body weight forward. Keep your spine relatively vertical.
-- **Mistake**: Ignoring opponent's counter-attacks on your exposed legs [High DANGER]
+- **Mistake**: Ignoring opponent's counter-attacks on your exposed legs
   - **Consequence**: You tap to opponent's heel hook or toe hold while attempting your own submission, losing the position and potentially suffering injury yourself
   - **Correction**: Before committing to the calf slicer, establish grips on opponent's upper body or control their hands. Monitor their hand position throughout the submission. If they secure your heel in heel hook configuration, immediately abandon your submission and defend.
-- **Mistake**: Attempting this submission without adequate technical knowledge [CRITICAL DANGER]
+- **Mistake**: Attempting this submission without adequate technical knowledge
   - **Consequence**: High probability of causing serious injury to training partners, damaging gym relationships, potential removal from training facility, and legal liability
   - **Correction**: This submission should only be practiced by purple belt and above with specific instruction from qualified instructors. Beginners should drill the position without applying finishing pressure. Always practice with experienced partners who understand the dangers.
 
@@ -350,43 +350,6 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Position Familiarization** (2-3 weeks, 15-20 minutes per session)
-- Focus: Study the anatomical targets, understand injury mechanisms, learn proper shin placement, and drill 50-50 position maintenance without any submission attempts. Focus entirely on position security and leg entanglement mechanics.
-- Resistance: Zero resistance
-- Safety: Learn to identify correct shin placement on calf muscle versus dangerous placement on Achilles or knee. Understand the injury risks before ever applying pressure. Partner remains completely passive while you practice positioning.
-
-**Slow Motion Setup Practice Without Compression** (3-4 weeks, 20 minutes per session)
-- Focus: Practice the full setup sequence including ankle grip, shin placement adjustment, and body positioning, but stop before applying any compression force. Partner provides feedback on shin placement accuracy. Emphasize smooth, controlled movement patterns.
-- Resistance: Zero resistance
-- Safety: Develop muscle memory for correct positioning without any pressure application. Partner actively monitors shin placement and immediately alerts you to any dangerous positioning. No compression force applied whatsoever during this phase.
-
-**Light Pressure Application with Continuous Communication** (4-6 weeks, 15-20 minutes per session)
-- Focus: Begin applying light compression pressure (20-30% maximum) with constant verbal communication. Partner provides real-time feedback about pressure location, intensity, and pain onset. Practice identifying the sensation difference between effective compression and dangerous placement.
-- Resistance: Mild resistance
-- Safety: Partner taps at first sensation of pressure, well before pain threshold. Practice immediate release protocol repeatedly. Focus is on developing sensitivity to partner's distress signals and building trust. Never exceed 30% pressure during this phase.
-
-**Progressive Pressure Increase with Controlled Timing** (6-8 weeks, 15-20 minutes per session)
-- Focus: Gradually increase compression pressure to 50-60% maximum over extended time frames (7-10 seconds minimum). Partner practices recognizing submission danger and tapping at appropriate threshold. Work on maintaining position while building pressure smoothly.
-- Resistance: Realistic resistance
-- Safety: Emphasize the 5-7 second minimum application time religiously. Partner taps before pain becomes intense. Practice release protocol after every repetition. Both partners monitor for any signs of excessive pressure, muscle strain, or dangerous positioning.
-
-**Full Resistance Drilling with Competition Simulation** (8-12 weeks ongoing, 10-15 minutes per session)
-- Focus: Practice against full defensive resistance including counter-submissions, escape attempts, and positional battles. Work on the complete sequence from 50-50 entry through submission finish or transition. Integrate into live training gradually.
-- Resistance: Full resistance
-- Safety: Even with full resistance, maintain slow progressive pressure application in training. Partner must have free access to tap with hands or feet at all times. Stop immediately if position becomes scrambled or shin placement shifts to dangerous areas. Competition-speed finishes are for competition only.
-
-**Advanced Applications and Submission Chains** (12+ weeks ongoing, integrated into regular training)
-- Focus: Develop submission chains linking calf slicer to heel hooks, toe holds, and other leg attacks. Practice reading opponent's defensive reactions and flowing between submissions seamlessly. Work on entries from various positions leading to 50-50.
-- Resistance: Full resistance
-- Safety: Maintain all safety protocols despite advanced technical level. Continue practicing on experienced partners who understand submission complexity. Always verify shin placement before applying pressure, regardless of experience level. Remember that training partner's safety always takes precedence over submission success.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -439,6 +402,7 @@ The Calf Slicer from 50-50 Guard represents one of the most devastating compress
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

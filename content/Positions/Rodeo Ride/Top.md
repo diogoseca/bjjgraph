@@ -382,11 +382,11 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 40% | 15% |
-| Intermediate | 65% | 60% | 30% |
-| Advanced     | 80% | 75% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 30-90 seconds before advancement or submission
 

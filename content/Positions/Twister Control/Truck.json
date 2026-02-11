@@ -277,19 +277,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
+        "value": 65
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
+        "value": 55
       },
       "average_time": "30-90 seconds before submission or transition"
     },
@@ -570,19 +564,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
+        "value": 40
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
+        "value": 50
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35
+        "value": 30
       },
       "average_time": "20-45 seconds (high urgency position requiring immediate action)"
     },

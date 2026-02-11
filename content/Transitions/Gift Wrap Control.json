@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Gift Wrap Control is a powerful arm-trapping technique that transforms the already dominant Kuzure Kesa-Gatame position into an even more controlling configuration. By wrapping the opponent's far arm across their own throat and securing it with your grip, you eliminate their primary defensive tool while creating multiple submission and transition opportunities. This technique represents a critical evolution in pinning control, moving beyond simple pressure maintenance to active limb immobilization.\n\nThe strategic value of the Gift Wrap lies in its dual function as both a control enhancement and a submission platform. Once established, the wrapped arm prevents effective framing, eliminates bridge power (since the opponent cannot post), and creates immediate access to chokes, back takes, and mounted attacks. The position exemplifies the principle of using the opponent's own body against them—their trapped arm becomes a lever that restricts their movement and breathing while exposing their neck and back.\n\nIn competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.",
   "key_principles": [
     "Control the wrist before attempting to wrap—premature wrapping allows arm recovery",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Control far wrist",
-      "description": "While maintaining hip pressure, reach across with your near-side hand to grip opponent's far wrist. This initial control prevents them from framing against your hip or posting to bridge.",
-      "timing": "Execute when opponent's far arm relaxes or reaches toward you"
+      "description": "While maintaining hip pressure, reach across with your near-side hand to grip opponent's far wrist. This initial control prevents them from framing against your hip or posting to bridge."
     },
     {
       "step_number": 2,
       "action": "Pin elbow with chest",
-      "description": "Shift your chest weight onto opponent's far-side elbow, pinning it to the mat. This creates the mechanical leverage needed to thread their arm across their body without resistance.",
-      "timing": "Immediately after securing wrist grip"
+      "description": "Shift your chest weight onto opponent's far-side elbow, pinning it to the mat. This creates the mechanical leverage needed to thread their arm across their body without resistance."
     },
     {
       "step_number": 3,
       "action": "Thread arm across throat",
-      "description": "Pull opponent's wrist toward their far shoulder while your chest pins their elbow. Their forearm should cross directly over their throat, with their elbow pointing toward their trapped-arm side.",
-      "timing": "Smooth continuous motion, no pausing"
+      "description": "Pull opponent's wrist toward their far shoulder while your chest pins their elbow. Their forearm should cross directly over their throat, with their elbow pointing toward their trapped-arm side."
     },
     {
       "step_number": 4,
       "action": "Secure the wrap",
-      "description": "Release the wrist grip and reach under opponent's wrapped arm to grab your own bicep (or their far shoulder for deeper control). Your arm threads under their tricep, locking their arm in place.",
-      "timing": "Transition grip quickly to prevent arm recovery"
+      "description": "Release the wrist grip and reach under opponent's wrapped arm to grab your own bicep (or their far shoulder for deeper control). Your arm threads under their tricep, locking their arm in place."
     },
     {
       "step_number": 5,
       "action": "Consolidate head position",
-      "description": "Drive your head past opponent's far shoulder, placing your ear against the mat on their far side. This prevents them from turning into you and adds pressure to the wrapped arm configuration.",
-      "timing": "As you secure the wrap grip"
+      "description": "Drive your head past opponent's far shoulder, placing your ear against the mat on their far side. This prevents them from turning into you and adds pressure to the wrapped arm configuration."
     },
     {
       "step_number": 6,
       "action": "Tighten and settle",
-      "description": "Squeeze your elbows together to compress the wrap while resettling your hip pressure. The opponent should feel significant pressure across their throat from their own arm, plus restricted breathing from your hip.",
-      "timing": "Hold for 2-3 seconds to confirm control before transitioning"
+      "description": "Squeeze your elbows together to compress the wrap while resettling your hip pressure. The opponent should feel significant pressure across their throat from their own arm, plus restricted breathing from your hip."
     }
   ],
   "common_counters": [
@@ -146,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice the wrist control to wrap sequence with compliant partner. Focus on threading the arm smoothly across the throat and securing your grip on your own bicep. No escape attempts—pure repetition of movement pattern.",
-      "resistance_level": "None"
+      "description": "Practice the wrist control to wrap sequence with compliant partner. Focus on threading the arm smoothly across the throat and securing your grip on your own bicep. No escape attempts—pure repetition of movement pattern."
     },
     {
       "phase": "Week 3-4",
       "focus": "Pressure maintenance",
-      "description": "Add light resistance where partner attempts to straighten arm or frame. Focus on maintaining hip pressure throughout wrap attempt. If pressure is lost, reset and restart rather than forcing completion.",
-      "resistance_level": "Light"
+      "description": "Add light resistance where partner attempts to straighten arm or frame. Focus on maintaining hip pressure throughout wrap attempt. If pressure is lost, reset and restart rather than forcing completion."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing and recognition",
-      "description": "Partner defends at 50% with realistic arm positioning. Practice recognizing when wrap is available versus when armbar or americana is better option. Chain between control attempts based on partner's defense.",
-      "resistance_level": "Medium"
+      "description": "Partner defends at 50% with realistic arm positioning. Practice recognizing when wrap is available versus when armbar or americana is better option. Chain between control attempts based on partner's defense."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition application",
-      "description": "Full positional sparring starting from Kuzure Kesa-Gatame. Partner escapes with full resistance while you work to establish Gift Wrap. Track success rate and adjust technique based on common failure points.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring starting from Kuzure Kesa-Gatame. Partner escapes with full resistance while you work to establish Gift Wrap. Track success rate and adjust technique based on common failure points."
     }
   ],
   "variants_and_adaptations": [
@@ -188,53 +173,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Gift Wrap Control?",
-      "answer": "The primary goal is to immobilize the opponent's far arm by wrapping it across their own throat, eliminating their ability to frame, post, or bridge effectively. This creates a control platform for advancing to mount, taking the back, or finishing with chokes and arm attacks.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to immobilize the opponent's far arm by wrapping it across their own throat, eliminating their ability to frame, post, or bridge effectively. This creates a control platform for advancing to mount, taking the back, or finishing with chokes and arm attacks."
     },
     {
       "question": "What grip do you secure after threading the opponent's arm across their throat?",
-      "answer": "After threading their arm, you reach under their tricep and grab your own bicep (creating a figure-four lock) or grip their far shoulder for deeper control. This secures the wrapped arm and prevents them from straightening or recovering it.",
-      "difficulty": "Beginner"
+      "answer": "After threading their arm, you reach under their tricep and grab your own bicep (creating a figure-four lock) or grip their far shoulder for deeper control. This secures the wrapped arm and prevents them from straightening or recovering it."
     },
     {
       "question": "Your opponent posts their far hand on your hip as you attempt the wrap—what adjustment do you make?",
-      "answer": "When they post on your hip, the wrap is not available. Maintain Kuzure Kesa-Gatame pressure and wait. Their posting arm will eventually tire or they will reach toward you to attempt an escape. That reaching motion creates the wrap opportunity. Alternatively, attack the posted arm with americana or kimura pressure.",
-      "difficulty": "Intermediate"
+      "answer": "When they post on your hip, the wrap is not available. Maintain Kuzure Kesa-Gatame pressure and wait. Their posting arm will eventually tire or they will reach toward you to attempt an escape. That reaching motion creates the wrap opportunity. Alternatively, attack the posted arm with americana or kimura pressure."
     },
     {
       "question": "Why must the wrapped arm cross the opponent's throat rather than their chest?",
-      "answer": "Crossing the throat maximizes control by restricting breathing and creating discomfort that limits defensive movement. Chest placement allows relatively free breathing and space to work frames. The throat position also sets up collar chokes and adds psychological pressure that makes opponents more likely to give up position.",
-      "difficulty": "Intermediate"
+      "answer": "Crossing the throat maximizes control by restricting breathing and creating discomfort that limits defensive movement. Chest placement allows relatively free breathing and space to work frames. The throat position also sets up collar chokes and adds psychological pressure that makes opponents more likely to give up position."
     },
     {
       "question": "What is the critical hip movement during the wrapping sequence?",
-      "answer": "There should be minimal hip movement—the hips stay heavy and pressed into opponent's ribs throughout. The common error is lifting hips to reach for the arm. Instead, use chest pressure on their elbow and arm mechanics to thread the wrap while hips maintain constant downward pressure.",
-      "difficulty": "Intermediate"
+      "answer": "There should be minimal hip movement—the hips stay heavy and pressed into opponent's ribs throughout. The common error is lifting hips to reach for the arm. Instead, use chest pressure on their elbow and arm mechanics to thread the wrap while hips maintain constant downward pressure."
     },
     {
       "question": "Your opponent straightens their far arm explosively as you begin the wrap—how do you respond?",
-      "answer": "Convert immediately to armbar or americana. Their defensive straightening exposes the arm for submission. Do not chase the wrap against an extended arm—the straightening is actually a mistake that creates a better opportunity. Secure the extended wrist and transition to the submission appropriate for their arm angle.",
-      "difficulty": "Intermediate"
+      "answer": "Convert immediately to armbar or americana. Their defensive straightening exposes the arm for submission. Do not chase the wrap against an extended arm—the straightening is actually a mistake that creates a better opportunity. Secure the extended wrist and transition to the submission appropriate for their arm angle."
     },
     {
       "question": "What head position prevents the opponent from turning into you during and after the wrap?",
-      "answer": "Your head must be past their far shoulder with your ear on the mat on their far side. This position redirects any turning force across your body harmlessly. Head positioned above them or on their near side creates a pivot point they can use to roll you over.",
-      "difficulty": "Intermediate"
+      "answer": "Your head must be past their far shoulder with your ear on the mat on their far side. This position redirects any turning force across your body harmlessly. Head positioned above them or on their near side creates a pivot point they can use to roll you over."
     },
     {
       "question": "How do you chain from Gift Wrap to back take when the opponent turns away?",
-      "answer": "As they turn away from you (exposing their back), maintain the wrap grip and follow their rotation. Your wrap arm becomes the seatbelt grip as you insert hooks. Their own turning motion combined with their trapped arm pulling across their body facilitates the back take—they essentially roll themselves into your back control.",
-      "difficulty": "Advanced"
+      "answer": "As they turn away from you (exposing their back), maintain the wrap grip and follow their rotation. Your wrap arm becomes the seatbelt grip as you insert hooks. Their own turning motion combined with their trapped arm pulling across their body facilitates the back take—they essentially roll themselves into your back control."
     },
     {
       "question": "What creates the mechanical leverage to fold a resistant opponent's arm across their body?",
-      "answer": "Pin their elbow to the mat using your chest weight before pulling on their wrist. This creates a lever where the pinned elbow is the fulcrum. Without elbow control, you're trying to muscle their entire arm—with elbow pinned, you only need to move their forearm, which requires far less force.",
-      "difficulty": "Advanced"
+      "answer": "Pin their elbow to the mat using your chest weight before pulling on their wrist. This creates a lever where the pinned elbow is the fulcrum. Without elbow control, you're trying to muscle their entire arm—with elbow pinned, you only need to move their forearm, which requires far less force."
     },
     {
       "question": "When transitioning from Gift Wrap to mount, what maintains arm control during the transition?",
-      "answer": "Keep the wrap grip secured on your bicep throughout the mount transition. Slide your knee across their belly while squeezing your elbows together to maintain arm immobilization. Only adjust your grip after mount is fully established and you've resettled your weight.",
-      "difficulty": "Advanced"
+      "answer": "Keep the wrap grip secured on your bicep throughout the mount transition. Slide your knee across their belly while squeezing your elbows together to maintain arm immobilization. Only adjust your grip after mount is fully established and you've resettled your weight."
     }
   ],
   "safety_considerations": "Gift Wrap Control applies pressure across the opponent's throat through their own arm, creating potential breathing restriction and neck strain. Always allow training partners to tap immediately when discomfort occurs. The shoulder of the wrapped arm experiences rotational stress—release pressure if partner indicates shoulder pain. In training, establish the wrap with controlled pressure rather than explosive force to avoid inadvertent throat compression. Partners with neck injuries or cervical spine issues should communicate before drilling this position. When transitioning from Gift Wrap to submissions, maintain awareness that the wrap itself may cause tap-worthy discomfort before the actual submission is locked.",
@@ -276,5 +251,6 @@
       "name": "Cross Collar Choke",
       "relationship": "Submission from Gift Wrap—wrapped arm assists collar control"
     }
-  ]
+  ],
+  "success_rate": 58
 }

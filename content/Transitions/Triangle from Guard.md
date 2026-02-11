@@ -163,7 +163,7 @@ The technique exploits a critical timing window when the opponent attempts to re
 Strategically, the Triangle from Guard serves as the cornerstone threat that makes the entire Mission Control system functional. Without a credible triangle threat, the top person can focus entirely on posture recovery without consequence. The threat of the triangle forces the opponent into defensive arm positioning that opens omoplata entries, and attempts to defend the omoplata reopen the triangle. This creates the dilemma-based offense that defines effective rubber guard play. Advanced practitioners chain the triangle threat with New York transitions, omoplata sweeps, and gogoplata entries, using the triangle as the hub of a submission web that forces opponents into increasingly compromised defensive positions.
 
 **From Position**: [[Mission Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -213,12 +213,12 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm Mission Control**: Verify full Mission Control is established: inside leg high across opponent's back with shin on shoulder blade, outside leg over far shoulder creating isolation, both hands pulling opponent's head down aggressively. Opponent's weight should be loaded onto their trapped shoulder with posture fully broken. (Timing: Maintain for 2-3 seconds to confirm structural integrity before initiating)
-2. **Bait postural recovery**: Slightly reduce pulling pressure on the opponent's head to create a subtle opening that invites them to attempt posture recovery. Do not release head control entirely; reduce just enough that the opponent senses an opportunity and begins driving backward or lifting their head. This movement is the trigger for the triangle entry. (Timing: Brief 1-second window, react immediately to opponent's upward drive)
-3. **Swing outside leg across neck**: As the opponent drives upward, use their momentum by simultaneously pulling their head back down with your hand grip while swinging the outside leg (the one controlling the far shoulder) across the opponent's face and onto the far side of their neck. The leg must travel over the trapped arm, keeping that arm isolated inside the triangle. Use a sharp hip pivot to create the perpendicular angle necessary for proper choking mechanics. (Timing: Must coincide exactly with opponent's postural recovery attempt for maximum efficiency)
-4. **Lock figure-four**: Once the outside leg crosses the opponent's neck, immediately tuck the ankle of the crossing leg behind the knee of the inside leg to form the figure-four lock. Squeeze knees together to close any remaining space. The lock must be tight enough that the opponent cannot create distance between their neck and your thigh. Use both hands to pull the opponent's head down into the triangle to deepen the lock. (Timing: Lock within 1-2 seconds of leg crossing to prevent opponent from creating defensive space)
-5. **Cut the angle**: Pivot your hips to a sharp perpendicular angle relative to the opponent's centerline by walking your shoulders away from the trapped arm side. This angle adjustment is critical for converting the position lock into an actual choking mechanism. Pull the opponent's head down with both hands while squeezing your knees together, directing choking pressure onto the carotid arteries on both sides of the neck. (Timing: Angle adjustment should be immediate and continuous until maximum choking pressure is achieved)
-6. **Control trapped arm**: Grab the opponent's trapped arm at the wrist with both hands and pull it across your centerline toward the opposite hip. This arm positioning eliminates their ability to create a frame inside the triangle and completes the choking structure by pressing their own shoulder into one side of their neck while your leg compresses the other side. Maintain hip elevation and continuous squeezing pressure through the legs. (Timing: Arm control refines the choke; hold position until opponent taps or you transition to follow-up)
+1. **Confirm Mission Control**: Verify full Mission Control is established: inside leg high across opponent's back with shin on shoulder blade, outside leg over far shoulder creating isolation, both hands pulling opponent's head down aggressively. Opponent's weight should be loaded onto their trapped shoulder with posture fully broken.
+2. **Bait postural recovery**: Slightly reduce pulling pressure on the opponent's head to create a subtle opening that invites them to attempt posture recovery. Do not release head control entirely; reduce just enough that the opponent senses an opportunity and begins driving backward or lifting their head. This movement is the trigger for the triangle entry.
+3. **Swing outside leg across neck**: As the opponent drives upward, use their momentum by simultaneously pulling their head back down with your hand grip while swinging the outside leg (the one controlling the far shoulder) across the opponent's face and onto the far side of their neck. The leg must travel over the trapped arm, keeping that arm isolated inside the triangle. Use a sharp hip pivot to create the perpendicular angle necessary for proper choking mechanics.
+4. **Lock figure-four**: Once the outside leg crosses the opponent's neck, immediately tuck the ankle of the crossing leg behind the knee of the inside leg to form the figure-four lock. Squeeze knees together to close any remaining space. The lock must be tight enough that the opponent cannot create distance between their neck and your thigh. Use both hands to pull the opponent's head down into the triangle to deepen the lock.
+5. **Cut the angle**: Pivot your hips to a sharp perpendicular angle relative to the opponent's centerline by walking your shoulders away from the trapped arm side. This angle adjustment is critical for converting the position lock into an actual choking mechanism. Pull the opponent's head down with both hands while squeezing your knees together, directing choking pressure onto the carotid arteries on both sides of the neck.
+6. **Control trapped arm**: Grab the opponent's trapped arm at the wrist with both hands and pull it across your centerline toward the opposite hip. This arm positioning eliminates their ability to create a frame inside the triangle and completes the choking structure by pressing their own shoulder into one side of their neck while your leg compresses the other side. Maintain hip elevation and continuous squeezing pressure through the legs.
 7. **Finish or transition**: Apply finishing pressure by elevating hips, pulling the head down, and squeezing knees together with maximum isometric force. If the opponent defends by stacking or posturing, maintain the triangle lock and adjust angle. If the choke is not progressing, transition to armbar by isolating the trapped arm overhead, or shift to omoplata by uncrossing the legs and rotating the hips. The triangle position creates a submission hub with multiple finishing options.
 
 
@@ -269,23 +269,18 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 ## Training Progressions
 **Week 1-2** - Leg transition mechanics
 Practice the leg swing across the opponent's face from Mission Control with a completely cooperative partner. Focus on the hip pivot, maintaining head control with one hand while transitioning, and the immediate figure-four lock. Repeat 20 times per side per session until the motion is fluid and automatic without any resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing and trigger recognition
 Partner provides light resistance and randomly attempts posture recovery from Mission Control. Practice recognizing the upward movement as the trigger and executing the triangle entry with correct timing. Emphasize using the opponent's momentum rather than forcing the leg across. Begin drilling the angle cut and arm control after locking.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and counter-recovery
 Partner provides medium resistance and begins using specific defenses: stacking, chin tucking, grip fighting. Practice transitioning between triangle, omoplata, and armbar based on which defense the opponent uses. Drill the full chain: Mission Control to triangle attempt, if defended to omoplata, if defended back to Mission Control. Build the dilemma-based attack system.
-(Resistance: Medium)
 
 **Week 7-8** - Finishing details and pressure
 Partner provides full resistance from Mission Control through the triangle lock. Focus on finishing mechanics: angle refinement, arm positioning, hip elevation under pressure. Practice maintaining the triangle against stacking and standing defenses. Begin integrating the triangle from Guard into positional sparring rounds starting from Mission Control.
-(Resistance: Full)
 
 **Week 9+** - Live integration
 Full sparring integration starting from closed guard. Practice the full sequence: establish high guard, enter Mission Control, create submission threat, enter triangle. Focus on reading opponents who know the system and finding creative timing windows. Develop the ability to hit the triangle from Guard against resisting opponents who are aware of the threat.
-(Resistance: Full)
 
 
 

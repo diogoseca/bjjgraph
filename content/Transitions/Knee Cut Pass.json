@@ -10,11 +10,6 @@
     "open-guard",
     "intermediate"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Knee Cut Pass (also known as Knee Slice Pass) is one of the most fundamental and high-percentage guard passes in Brazilian Jiu-Jitsu. This technique involves driving your knee across the opponent's thigh line while establishing control over their upper body, effectively bisecting their guard structure and creating a direct path to side control. The knee cut's effectiveness lies in its ability to combine forward pressure with perpendicular movement, making it difficult for the opponent to retain guard once the pass is properly initiated.\n\nWhat makes the knee cut particularly powerful is its versatility across all levels of competition and training. From white belt fundamentals to black belt world championships, this pass remains a staple because it creates multiple layers of control - hip pressure, shoulder pressure, and weight distribution - all working together to suppress the opponent's defensive frames. The technique also serves as an excellent entry point into other passing sequences, making it a cornerstone of modern passing systems.\n\nThe knee cut pass represents a perfect marriage of pressure passing and movement-based passing. Unlike purely smash passes that rely on static pressure, or purely speed passes that rely on rapid movement, the knee cut combines both elements. The passer must maintain constant forward pressure while simultaneously cutting their knee through the opponent's leg line, creating a dynamic pass that adapts to defensive reactions. This dual nature makes it both highly effective and highly technical, requiring practitioners to develop sensitivity to weight distribution and timing.",
   "key_principles": [
     "Establish dominant grips on collar and pants before initiating the pass",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Establish grips and posture",
-      "description": "From open guard, establish a dominant cross-collar grip with your lead hand (thumb inside) and control the opponent's same-side pants at the knee with your other hand. Maintain upright posture with your chest forward, preventing them from breaking your posture down. Your weight should be centered over your hips, ready to drive forward.",
-      "timing": "Begin with stable base before movement"
+      "description": "From open guard, establish a dominant cross-collar grip with your lead hand (thumb inside) and control the opponent's same-side pants at the knee with your other hand. Maintain upright posture with your chest forward, preventing them from breaking your posture down. Your weight should be centered over your hips, ready to drive forward."
     },
     {
       "step_number": 2,
       "action": "Step up to combat base",
-      "description": "Bring your passing-side leg up into combat base position (foot flat on the mat, knee up). Your other leg remains posted with knee down for stability. The standing leg should be positioned slightly wide for balance. Drive your hips forward slightly to begin pressuring their guard structure.",
-      "timing": "Transition smoothly to maintain balance"
+      "description": "Bring your passing-side leg up into combat base position (foot flat on the mat, knee up). Your other leg remains posted with knee down for stability. The standing leg should be positioned slightly wide for balance. Drive your hips forward slightly to begin pressuring their guard structure."
     },
     {
       "step_number": 3,
       "action": "Control far leg",
-      "description": "Using your pants grip, pull the opponent's far leg across their body and pin it to the mat. This grip prevents them from inserting hooks or creating defensive frames with that leg. Your grip should be firm on the pants material near the knee, controlling the leg without allowing it to escape or create space.",
-      "timing": "Secure control before cutting knee"
+      "description": "Using your pants grip, pull the opponent's far leg across their body and pin it to the mat. This grip prevents them from inserting hooks or creating defensive frames with that leg. Your grip should be firm on the pants material near the knee, controlling the leg without allowing it to escape or create space."
     },
     {
       "step_number": 4,
       "action": "Drive knee through thigh line",
-      "description": "Step your passing-side knee forward and across the opponent's near thigh, driving it perpendicular to their body. Your knee should cut between their legs, with your shin creating a wedge that separates their defensive structure. Keep your knee tight to their hip to prevent them from recovering guard. Your weight should begin shifting forward onto this cutting knee.",
-      "timing": "Cut knee as you control far leg"
+      "description": "Step your passing-side knee forward and across the opponent's near thigh, driving it perpendicular to their body. Your knee should cut between their legs, with your shin creating a wedge that separates their defensive structure. Keep your knee tight to their hip to prevent them from recovering guard. Your weight should begin shifting forward onto this cutting knee."
     },
     {
       "step_number": 5,
       "action": "Establish shoulder pressure",
-      "description": "As your knee cuts through, drive your shoulder forward into the opponent's chest, using your collar grip to pull them into your pressure. Your chest should be heavy on their upper body, creating a crossface-like pressure that turns their head away and suppresses their ability to frame. Your hips drive forward, collapsing the space between your bodies.",
-      "timing": "Pressure increases as knee advances"
+      "description": "As your knee cuts through, drive your shoulder forward into the opponent's chest, using your collar grip to pull them into your pressure. Your chest should be heavy on their upper body, creating a crossface-like pressure that turns their head away and suppresses their ability to frame. Your hips drive forward, collapsing the space between your bodies."
     },
     {
       "step_number": 6,
       "action": "Clear the far leg",
-      "description": "With your pants grip, actively push or pull the opponent's far leg away from your body and past your hips. This leg must clear your centerline completely to prevent them from recovering half guard. Some passers push it over their back, others swim it past their far hip. The key is complete clearance.",
-      "timing": "Clear leg before settling weight"
+      "description": "With your pants grip, actively push or pull the opponent's far leg away from your body and past your hips. This leg must clear your centerline completely to prevent them from recovering half guard. Some passers push it over their back, others swim it past their far hip. The key is complete clearance."
     },
     {
       "step_number": 7,
       "action": "Transition to side control",
-      "description": "Once the far leg is cleared, transition your weight from your knees to your chest, settling into side control. Your cutting knee can now extend back as you establish side control consolidation. Secure crossface control with your collar grip transitioning to an underhook or head control. Your hips should be heavy on the mat, perpendicular to the opponent's body.",
-      "timing": "Settle weight gradually for stability"
+      "description": "Once the far leg is cleared, transition your weight from your knees to your chest, settling into side control. Your cutting knee can now extend back as you establish side control consolidation. Secure crossface control with your collar grip transitioning to an underhook or head control. Your hips should be heavy on the mat, perpendicular to the opponent's body."
     }
   ],
   "common_counters": [
@@ -140,38 +128,32 @@
     {
       "phase": "Phase 1: Static Entry (Weeks 1-2)",
       "focus": "Grip establishment and knee positioning",
-      "description": "Partner maintains open guard with legs flat. Practice establishing collar and pants grips, stepping to combat base, and driving knee across thigh line. Focus on proper angle (perpendicular) and keeping knee tight to hip. No resistance from bottom player initially.",
-      "resistance_level": "None"
+      "description": "Partner maintains open guard with legs flat. Practice establishing collar and pants grips, stepping to combat base, and driving knee across thigh line. Focus on proper angle (perpendicular) and keeping knee tight to hip. No resistance from bottom player initially."
     },
     {
       "phase": "Phase 2: Controlled Movement (Weeks 3-4)",
       "focus": "Full passing sequence with light resistance",
-      "description": "Execute complete pass from setup to side control. Partner provides light resistance by maintaining frames but not actively preventing the pass. Emphasize weight transfer from knees to chest, far leg clearance timing, and smooth transitions. Repeat 10-15 times per training session.",
-      "resistance_level": "Light"
+      "description": "Execute complete pass from setup to side control. Partner provides light resistance by maintaining frames but not actively preventing the pass. Emphasize weight transfer from knees to chest, far leg clearance timing, and smooth transitions. Repeat 10-15 times per training session."
     },
     {
       "phase": "Phase 3: Defensive Frames (Weeks 5-6)",
       "focus": "Dealing with common defensive reactions",
-      "description": "Partner actively frames on your hips and shoulders during the pass. Practice maintaining pressure despite frames, transitioning grips to overcome resistance, and adjusting your angle when blocked. Learn to feel when frames are strongest and how to collapse them.",
-      "resistance_level": "Medium"
+      "description": "Partner actively frames on your hips and shoulders during the pass. Practice maintaining pressure despite frames, transitioning grips to overcome resistance, and adjusting your angle when blocked. Learn to feel when frames are strongest and how to collapse them."
     },
     {
       "phase": "Phase 4: Dynamic Counters (Weeks 7-8)",
       "focus": "Responding to specific counters",
-      "description": "Partner employs specific counters: knee shield blocks, turtle rolls, half guard recoveries, and back take attempts. Practice recognizing these counters early and transitioning to appropriate responses. Develop sensitivity to opponent's weight shifts that telegraph their defensive strategy.",
-      "resistance_level": "Medium"
+      "description": "Partner employs specific counters: knee shield blocks, turtle rolls, half guard recoveries, and back take attempts. Practice recognizing these counters early and transitioning to appropriate responses. Develop sensitivity to opponent's weight shifts that telegraph their defensive strategy."
     },
     {
       "phase": "Phase 5: Positional Sparring (Weeks 9-10)",
       "focus": "Live drilling with reset",
-      "description": "Start from open guard with full resistance. Attempt knee cut pass while partner uses any legal defense. If pass succeeds, reset to open guard. If defense succeeds, reset to open guard. Focus on high-volume repetitions (20-30 attempts per round) rather than extended sequences.",
-      "resistance_level": "Full"
+      "description": "Start from open guard with full resistance. Attempt knee cut pass while partner uses any legal defense. If pass succeeds, reset to open guard. If defense succeeds, reset to open guard. Focus on high-volume repetitions (20-30 attempts per round) rather than extended sequences."
     },
     {
       "phase": "Phase 6: Integration (Week 11+)",
       "focus": "Combining knee cut with passing system",
-      "description": "Practice transitioning between knee cut and other passes (leg drag, toreando, over-under) based on opponent's defensive reactions. Develop the ability to chain passes together, using failed knee cut attempts to set up other passing opportunities. Full resistance sparring from standing or open guard.",
-      "resistance_level": "Full"
+      "description": "Practice transitioning between knee cut and other passes (leg drag, toreando, over-under) based on opponent's defensive reactions. Develop the ability to chain passes together, using failed knee cut attempts to set up other passing opportunities. Full resistance sparring from standing or open guard."
     }
   ],
   "variants_and_adaptations": [
@@ -199,33 +181,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the correct angle for your cutting knee relative to the opponent's body during the knee cut pass?",
-      "answer": "The cutting knee should drive perpendicular (90 degrees) to the opponent's centerline, bisecting their guard structure. This perpendicular angle creates maximum separation between their legs and prevents them from closing their guard or creating effective frames. A parallel or shallow angle allows space for guard recovery.",
-      "difficulty": "Beginner"
+      "answer": "The cutting knee should drive perpendicular (90 degrees) to the opponent's centerline, bisecting their guard structure. This perpendicular angle creates maximum separation between their legs and prevents them from closing their guard or creating effective frames. A parallel or shallow angle allows space for guard recovery."
     },
     {
       "question": "Why is controlling the opponent's far leg critical to the success of the knee cut pass?",
-      "answer": "The far leg is the primary tool the opponent has to recover guard once you begin cutting your knee through. If uncontrolled, they can use this leg to establish half guard, create defensive hooks, insert butterfly hooks, or establish frames that prevent the pass. Controlling and clearing this leg past your hips is essential to completing the pass to side control.",
-      "difficulty": "Beginner"
+      "answer": "The far leg is the primary tool the opponent has to recover guard once you begin cutting your knee through. If uncontrolled, they can use this leg to establish half guard, create defensive hooks, insert butterfly hooks, or establish frames that prevent the pass. Controlling and clearing this leg past your hips is essential to completing the pass to side control."
     },
     {
       "question": "How should your weight distribution change throughout the knee cut pass from initiation to completion?",
-      "answer": "Initially, your weight is centered over your hips in combat base. As you cut your knee through, weight shifts forward onto the cutting knee while maintaining chest pressure. Finally, as the far leg clears, weight transitions from your knees to your chest, settling heavy into side control. The transition should be smooth and continuous, never lightening up or sitting back.",
-      "difficulty": "Intermediate"
+      "answer": "Initially, your weight is centered over your hips in combat base. As you cut your knee through, weight shifts forward onto the cutting knee while maintaining chest pressure. Finally, as the far leg clears, weight transitions from your knees to your chest, settling heavy into side control. The transition should be smooth and continuous, never lightening up or sitting back."
     },
     {
       "question": "What is the most common defensive response to the knee cut pass and how should you counter it?",
-      "answer": "The most common counter is the opponent establishing frames on your hips and shoulders to create space and prevent your forward pressure. Counter this by transitioning to underhook control before frames can fully extend, maintaining constant forward pressure so frames cannot lock out, or switching angles to long step or leg drag positions that circumvent the frames entirely.",
-      "difficulty": "Intermediate"
+      "answer": "The most common counter is the opponent establishing frames on your hips and shoulders to create space and prevent your forward pressure. Counter this by transitioning to underhook control before frames can fully extend, maintaining constant forward pressure so frames cannot lock out, or switching angles to long step or leg drag positions that circumvent the frames entirely."
     },
     {
       "question": "Explain the strategic advantage of the knee cut pass over purely pressure-based or purely movement-based passes?",
-      "answer": "The knee cut combines elements of both pressure and movement passing, making it adaptable to different defensive styles. The forward pressure component controls the opponent's upper body and prevents them from creating space, while the perpendicular knee movement bisects their guard structure and creates a path to pass. This dual nature means it works against both passive defenders (who rely on frames) and active defenders (who try to recover guard with movement), making it universally applicable across skill levels and body types.",
-      "difficulty": "Advanced"
+      "answer": "The knee cut combines elements of both pressure and movement passing, making it adaptable to different defensive styles. The forward pressure component controls the opponent's upper body and prevents them from creating space, while the perpendicular knee movement bisects their guard structure and creates a path to pass. This dual nature means it works against both passive defenders (who rely on frames) and active defenders (who try to recover guard with movement), making it universally applicable across skill levels and body types."
     },
     {
       "question": "How can you integrate the knee cut pass into a systematic passing approach that chains multiple techniques together?",
-      "answer": "The knee cut serves as an excellent hub technique in passing systems because failed attempts create specific opponent reactions that open other passes. If they block with knee shield, transition to over-under or leg drag. If they turtle, move to front headlock or back take. If they recover half guard, employ half guard passing sequences. If they frame heavily, switch to toreando or long step. By reading their defensive response to your knee cut attempt, you can systematically flow to the appropriate counter-pass, making your overall passing game more dynamic and difficult to defend.",
-      "difficulty": "Advanced"
+      "answer": "The knee cut serves as an excellent hub technique in passing systems because failed attempts create specific opponent reactions that open other passes. If they block with knee shield, transition to over-under or leg drag. If they turtle, move to front headlock or back take. If they recover half guard, employ half guard passing sequences. If they frame heavily, switch to toreando or long step. By reading their defensive response to your knee cut attempt, you can systematically flow to the appropriate counter-pass, making your overall passing game more dynamic and difficult to defend."
     }
   ],
   "safety_considerations": "The knee cut pass is generally a safe technique with minimal injury risk when practiced correctly. The primary safety concern involves knee pressure on the opponent's thigh - avoid driving your knee with excessive force into their thigh muscle, which can cause bruising or muscle strain. When receiving the knee cut, tap if you feel excessive pressure on your knee joints or hip joints, particularly if your leg is trapped in an awkward position. When drilling, start with light pressure and gradually increase resistance as both partners develop familiarity with the technique. Beginners should avoid forcing the pass when encountering strong resistance, as this can lead to loss of balance and potential injury. Always maintain control of your weight distribution to avoid collapsing onto your partner's legs or knees. When defending, do not explosively bridge or roll while your partner's weight is committed to the pass, as this can cause both partners to fall awkwardly.",
@@ -297,5 +273,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

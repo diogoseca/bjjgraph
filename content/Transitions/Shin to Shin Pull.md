@@ -157,7 +157,7 @@ Unlike traditional guard pulls that rely solely on grips, the shin-to-shin pull 
 The shin-to-shin pull has become increasingly popular in modern competition BJJ due to its versatility and the difficulty opponents face when trying to disengage. It forms the foundation of systematic guard-based games built around leg entanglement positions and provides a safe entry into offensive guard positions without giving up top position unnecessarily. When executed properly, it immediately places the opponent in a defensive posture while you maintain offensive initiative.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The shin-to-shin pull has become increasingly popular in modern competition BJJ 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary grip control**: From standing position, establish a strong grip on your opponent's same-side sleeve or wrist (if pulling with your right leg, grip their right arm). This grip prevents them from establishing strong posture and provides pulling power for off-balancing. In gi, you can also use a collar grip for additional control. Maintain tension in this grip throughout the entire pull sequence. (Timing: Initial setup phase, before weight commitment)
-2. **Sit to seated guard position**: While maintaining your grip, drop your hips to the mat and assume a seated position with your weight on your sitting bones. Keep your chest relatively upright and maintain visual contact with your opponent. This seated position should be active and ready to move, not passive or collapsed. Your non-gripping hand can post behind you for stability or grip opponent's other sleeve. (Timing: Smooth, controlled descent to avoid telegraphing)
-3. **Insert shin to shin connection**: Extend your same-side leg (the side where you have the grip) and place the blade of your shin directly against the inside of your opponent's shin, creating a frame from your knee to your ankle. Your shin should be perpendicular to their shin, creating maximum surface contact and control. Flex your foot and engage your hip flexors to maintain pressure and prevent their leg from sliding free. (Timing: As you settle into seated position)
-4. **Create off-balancing pull**: Using your grip, pull your opponent forward and slightly down while simultaneously extending your shin pressure into their shin. This creates a dilemma where they must either step forward (setting up sweeps), step back (allowing you to come up), or resist in place (allowing position consolidation). The pulling motion should be coordinated with your shin extension to maximize off-balancing effect. (Timing: Immediately after shin connection established)
-5. **Position free leg for control options**: Your opposite leg should be actively positioned based on opponent's reaction. Common options include posting the foot on the mat for base, hooking behind their far knee for X-guard entry, or elevating to create additional off-balancing. This leg is critical for maintaining mobility and threatening transitions, so keep it dynamic and ready to adjust. (Timing: Concurrent with off-balancing pull)
-6. **Establish shin-to-shin guard position**: Settle into a stable shin-to-shin guard position where you maintain constant pressure against opponent's shin, strong grip control, and active free leg positioning. From here you should immediately threaten sweeps, back takes, or transitions to prevent opponent from establishing passing grips. Your hips should be mobile and ready to adjust angles based on their reactions. Keep your core engaged and maintain the ability to invert or extend as needed. (Timing: Position consolidated within 2-3 seconds of initial pull)
+1. **Establish primary grip control**: From standing position, establish a strong grip on your opponent's same-side sleeve or wrist (if pulling with your right leg, grip their right arm). This grip prevents them from establishing strong posture and provides pulling power for off-balancing. In gi, you can also use a collar grip for additional control. Maintain tension in this grip throughout the entire pull sequence.
+2. **Sit to seated guard position**: While maintaining your grip, drop your hips to the mat and assume a seated position with your weight on your sitting bones. Keep your chest relatively upright and maintain visual contact with your opponent. This seated position should be active and ready to move, not passive or collapsed. Your non-gripping hand can post behind you for stability or grip opponent's other sleeve.
+3. **Insert shin to shin connection**: Extend your same-side leg (the side where you have the grip) and place the blade of your shin directly against the inside of your opponent's shin, creating a frame from your knee to your ankle. Your shin should be perpendicular to their shin, creating maximum surface contact and control. Flex your foot and engage your hip flexors to maintain pressure and prevent their leg from sliding free.
+4. **Create off-balancing pull**: Using your grip, pull your opponent forward and slightly down while simultaneously extending your shin pressure into their shin. This creates a dilemma where they must either step forward (setting up sweeps), step back (allowing you to come up), or resist in place (allowing position consolidation). The pulling motion should be coordinated with your shin extension to maximize off-balancing effect.
+5. **Position free leg for control options**: Your opposite leg should be actively positioned based on opponent's reaction. Common options include posting the foot on the mat for base, hooking behind their far knee for X-guard entry, or elevating to create additional off-balancing. This leg is critical for maintaining mobility and threatening transitions, so keep it dynamic and ready to adjust.
+6. **Establish shin-to-shin guard position**: Settle into a stable shin-to-shin guard position where you maintain constant pressure against opponent's shin, strong grip control, and active free leg positioning. From here you should immediately threaten sweeps, back takes, or transitions to prevent opponent from establishing passing grips. Your hips should be mobile and ready to adjust angles based on their reactions. Keep your core engaged and maintain the ability to invert or extend as needed.
 
 
 </section>
@@ -257,23 +257,18 @@ The shin-to-shin pull has become increasingly popular in modern competition BJJ 
 ## Training Progressions
 **Week 1-2: Technical Foundation** - Solo drilling and partner cooperation
 Practice the pull motion from standing with a fully cooperative partner. Focus on smooth hip descent, proper shin placement, and grip maintenance. Drill 20-30 repetitions per training session, alternating sides. Partner should stand still and allow you to establish position without resistance. Video record yourself to check for common technical errors.
-(Resistance: None)
 
 **Week 3-4: Timing and Off-Balancing** - Adding light resistance and reaction training
 Partner provides light resistance by maintaining their stance but not actively countering. Focus on timing the pull to create off-balancing effect. Practice reading partner's weight distribution and adjusting pulling direction accordingly. Begin drilling immediate sweep attempts after establishing shin-to-shin position. Perform 15-20 repetitions with increasing resistance throughout the week.
-(Resistance: Light)
 
 **Week 5-6: Counter Response Integration** - Dealing with common defensive reactions
 Partner actively attempts 2-3 specific counters (stepping back, driving forward, circling away). Practice recognizing and responding to each counter with appropriate adjustments. Drill transition chains: shin-to-shin to single leg X, shin-to-shin to X-guard, shin-to-shin to deep half. Perform 10-15 repetitions of each counter scenario.
-(Resistance: Medium)
 
 **Week 7-8: Positional Sparring** - Live situation training with resets
 Start from standing, execute pull, and play 30-60 seconds of guard retention or sweeping attempts. Partner attempts to pass with medium resistance. Reset and repeat 8-10 times per session. Focus on making pull successful even when partner knows it's coming. Alternate between gi and no-gi to understand grip variations.
-(Resistance: Medium)
 
 **Week 9-12: Competition Integration** - Full resistance and strategic application
 Incorporate pull into normal sparring rounds. Start standing and look for opportunities to execute shin-to-shin pull against resisting opponents. Practice setting up the pull with feints, grip fighting, and stance breaks. Work on chaining it with other guard pulls so opponent cannot predict your approach. Track success rate and identify patterns in when it works best.
-(Resistance: Full)
 
 
 

@@ -368,11 +368,11 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 5% |
-| Intermediate | 45% | 40% | 10% |
-| Advanced     | 60% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 48% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds before transition or advancement
 

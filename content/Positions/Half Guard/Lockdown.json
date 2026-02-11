@@ -284,19 +284,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35
+        "value": 28
       },
       "average_time": "2-4 minutes to extract leg and complete pass depending on opponent's lockdown skill"
     },
@@ -561,54 +555,52 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
+        "value": 58
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
+        "value": 45
       },
       "average_time": "1-3 minutes depending on activity level and opponent's passing pressure"
     },
     "transitions": [
       {
         "transition": "Whip-up Sweep",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Electric Chair Submission",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Lockdown Sweeps",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Rolling Back Take",
         "attempt_probability": 11
       },
       {
+        "transition": "Electric Chair Submission",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Lockdown Sweeps",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Rolling Back Take",
+        "attempt_probability": 10
+      },
+      {
         "transition": "Turtle to Truck",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Kimura from Half Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Electric Chair Transition",
+        "attempt_probability": 11
       }
     ]
   }

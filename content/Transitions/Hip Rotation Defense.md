@@ -157,7 +157,7 @@ The technique operates on the principle that ankle lock submissions require the 
 Strategically, hip rotation defense serves as both an immediate pressure relief mechanism and a gateway to multiple escape sequences. Successful rotation creates space to extract the trapped knee, establish defensive frames, or transition to counter-attacks. The technique must be executed with controlled precision rather than explosive panic, as wild rotation often opens pathways the attacker has specifically trained to exploit.
 
 **From Position**: [[Straight Ankle Lock Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, hip rotation defense serves as both an immediate pressure relief 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess attacker's configuration**: Quickly identify attacker's leg positioning around your trapped leg. Determine if they have inside position, outside position, or are attempting to establish a leg triangle. This assessment dictates rotation direction. (Timing: Immediate upon recognizing ankle control)
-2. **Bend trapped knee**: Pull your trapped knee toward your chest as much as the attacker's control allows. This shortens the lever arm, reduces submission pressure on your ankle, and prepares the leg for extraction during rotation. (Timing: Simultaneous with assessment)
-3. **Initiate hip rotation**: Begin rotating your hip in the direction that complicates the attacker's transition attempts. If rotating away would give them inside ashi, rotate toward them. If rotating toward would give outside ashi, rotate away. Move the hip as a unit with your torso. (Timing: Within 2-3 seconds of being controlled)
-4. **Create blocking frames**: Use your free leg to push against the attacker's hip or thigh, preventing them from following your rotation. Your hands should simultaneously fight their grip on your ankle, focusing on the thumb-line to break their control. (Timing: During rotation)
-5. **Extract trapped knee**: As rotation creates space between your ankle and attacker's body, pull your bent knee sharply toward your chest while continuing to push with frames. The combination of rotation and knee extraction loosens their ankle grip significantly. (Timing: Immediately following initial rotation)
-6. **Recover guard or stand**: Once the ankle is extracted or grip is broken, immediately establish defensive guard position by inserting your free leg as a hook or frame. Alternatively, if space permits, use the momentum to stand and disengage completely from the leg entanglement. (Timing: Immediately upon extraction)
+1. **Assess attacker's configuration**: Quickly identify attacker's leg positioning around your trapped leg. Determine if they have inside position, outside position, or are attempting to establish a leg triangle. This assessment dictates rotation direction.
+2. **Bend trapped knee**: Pull your trapped knee toward your chest as much as the attacker's control allows. This shortens the lever arm, reduces submission pressure on your ankle, and prepares the leg for extraction during rotation.
+3. **Initiate hip rotation**: Begin rotating your hip in the direction that complicates the attacker's transition attempts. If rotating away would give them inside ashi, rotate toward them. If rotating toward would give outside ashi, rotate away. Move the hip as a unit with your torso.
+4. **Create blocking frames**: Use your free leg to push against the attacker's hip or thigh, preventing them from following your rotation. Your hands should simultaneously fight their grip on your ankle, focusing on the thumb-line to break their control.
+5. **Extract trapped knee**: As rotation creates space between your ankle and attacker's body, pull your bent knee sharply toward your chest while continuing to push with frames. The combination of rotation and knee extraction loosens their ankle grip significantly.
+6. **Recover guard or stand**: Once the ankle is extracted or grip is broken, immediately establish defensive guard position by inserting your free leg as a hook or frame. Alternatively, if space permits, use the momentum to stand and disengage completely from the leg entanglement.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, hip rotation defense serves as both an immediate pressure relief 
 ## Training Progressions
 **Week 1-2** - Rotation direction recognition
 Partner establishes straight ankle lock control in various leg configurations. Defender identifies correct rotation direction without executing, verbally stating which way to rotate and why. Build pattern recognition before adding movement.
-(Resistance: None)
 
 **Week 3-4** - Rotation mechanics with light resistance
 Execute full hip rotation sequence with partner providing 30-40% resistance. Focus on maintaining bent knee throughout, combining rotation with grip fighting, and completing the sequence to guard recovery. Partner allows escape but requires correct technique.
-(Resistance: Light)
 
 **Week 5-6** - Counter-transition recognition and adjustment
 Partner attempts to follow rotation with transitions to inside or outside ashi. Defender must recognize the counter and adjust rotation direction or implement blocking frames. Emphasis on reading and reacting to attacker's movement.
-(Resistance: Medium)
 
 **Week 7+** - Full resistance integration
 Positional sparring starting from straight ankle lock control. Attacker attempts to finish or advance position while defender implements hip rotation defense under full competitive resistance. Track escape success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

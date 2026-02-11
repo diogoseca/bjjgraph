@@ -359,7 +359,7 @@ Practice flow rolling with explicit focus on smooth hierarchical transitions, mo
 - **[[Guard Passing]]** (Complementary): Guard Passing utilizes hierarchical framework to determine which passing positions to seek and which to avoid, ensuring passes lead to hierarchically superior positions rather than lateral movements.
 - **[[Defensive Strategy]]** (Complementary): Defensive Strategy incorporates hierarchical awareness to prioritize defensive actions based on positional danger, allocating defensive resources proportionally to hierarchical threat level.
 - **[[Control Maintenance]]** (Complementary): Control Maintenance emphasizes sustaining hierarchically superior positions once achieved, recognizing that maintaining high-value positions multiplies offensive opportunities while limiting opponent options.
-- **[[Position Transitions]]** (Extension): Position Transitions utilize hierarchical understanding to select optimal transitional paths, ensuring movements consistently advance up hierarchy rather than creating lateral or descending positional changes.
+- **[[Connection Principles]]** (Extension): Connection Principles utilize hierarchical understanding to select optimal transitional paths between positions, ensuring movements consistently advance up hierarchy rather than creating lateral or descending positional changes.
 - **[[Position Chains]]** (Extension): Position Chains apply hierarchical principles to construct multi-step sequences that systematically climb positional hierarchy through connected technical progressions.
 
 

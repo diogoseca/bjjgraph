@@ -378,11 +378,11 @@ Start in early side control with opponent maintaining defensive posture. Top par
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 40% | 25% |
-| Intermediate | 75% | 60% | 45% |
-| Advanced     | 85% | 75% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 68% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 30-90 seconds
 
@@ -402,7 +402,7 @@ Start in early side control with opponent maintaining defensive posture. Top par
 - **[[Kimura from Side Control]]** - Primary submission option from consolidated control
 - **[[Americana from Side Control]]** - High-percentage submission when near arm isolated
 - **[[Arm Triangle]]** - Choke attack when opponent brings arm across
-- **[[North South Control]]** - Control position accessible through pressure transition
+- **[[North-South]]** - Control position accessible through pressure transition
 
 
 </section>

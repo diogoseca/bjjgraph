@@ -163,7 +163,7 @@ The pass operates on the principle that stacking the bottom player's hips over t
 Strategically, this technique is most effective when the bottom player commits to an aggressive sweeping motion, because their own momentum can be redirected into the stack. It pairs naturally with other Ringworm Guard counters such as the Smash Pass Counter and Lapel Grip Break and Posture Recovery, creating a multi-threat passing system that forces the bottom player to choose between defending the stack and maintaining their lapel configuration. The pass requires significant forward pressure and hip drive, making it physically demanding but highly effective when the timing is correct.
 
 **From Position**: [[Ringworm Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this technique is most effective when the bottom player commits t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish base and grip**: Post your free leg wide with the foot flat on the mat at approximately 45 degrees to the opponent's body. Secure a grip on the opponent's far-side pants at the knee or hip with your near hand, establishing control of their lower body rotation. (Timing: Initiate when opponent begins a sweeping motion or shifts weight laterally)
-2. **Drive forward stack**: Drop your shoulder into the opponent's thigh on the trapped-leg side and drive your hips forward aggressively, folding their legs toward their chest. Your head should be tight against their thigh, and your chest should press their knee toward their face, compressing their entire guard structure. (Timing: Explosive forward drive within 1-2 seconds of establishing grip)
-3. **Compress and create lapel slack**: Continue driving forward until the opponent's hips are elevated over their shoulders and their spine is curled. At this point the lapel wrap loses tension because the distance between the wrap point on your leg and the opponent's gripping hand has shortened significantly. Maintain heavy downward pressure through your shoulder. (Timing: Hold compression for 2-3 seconds to fully load the stack)
-4. **Strip the lapel grip**: With your free hand, reach for the lapel tail near the opponent's gripping hand and peel it away from your leg using a wrist-to-wrist grip break motion. Pull the lapel material toward you and away from the opponent's fingers while maintaining stack pressure with your shoulder and hips to prevent them from re-tightening. (Timing: Strip at the moment of maximum slack, immediately after full compression)
-5. **Extract trapped leg**: Once the lapel grip is broken, immediately pull your trapped leg backward and out of the remaining lapel loop by externally rotating your hip and straightening your knee. Drive the extracted leg past the opponent's hip line while keeping your shoulder pressure locked against their legs to prevent them from following your movement. (Timing: Leg extraction must happen within 1-2 seconds of grip break before opponent re-grips)
-6. **Clear legs and begin pass**: Swing your now-free leg over the opponent's bottom leg and begin walking your hips around toward their head, transitioning from stacking position to passing angle. Use your near hand on their far hip to prevent them from turning into you or recovering any guard structure. (Timing: Smooth transition immediately after extraction)
-7. **Establish side control**: Drop your hips to the mat perpendicular to the opponent's torso, establishing crossface with your far arm across their neck and underhook or hip control with your near arm. Settle your weight across their chest and secure the side control position before the opponent can create frames or re-insert their knee for guard recovery. (Timing: Consolidate within 2-3 seconds of clearing the legs)
+1. **Establish base and grip**: Post your free leg wide with the foot flat on the mat at approximately 45 degrees to the opponent's body. Secure a grip on the opponent's far-side pants at the knee or hip with your near hand, establishing control of their lower body rotation.
+2. **Drive forward stack**: Drop your shoulder into the opponent's thigh on the trapped-leg side and drive your hips forward aggressively, folding their legs toward their chest. Your head should be tight against their thigh, and your chest should press their knee toward their face, compressing their entire guard structure.
+3. **Compress and create lapel slack**: Continue driving forward until the opponent's hips are elevated over their shoulders and their spine is curled. At this point the lapel wrap loses tension because the distance between the wrap point on your leg and the opponent's gripping hand has shortened significantly. Maintain heavy downward pressure through your shoulder.
+4. **Strip the lapel grip**: With your free hand, reach for the lapel tail near the opponent's gripping hand and peel it away from your leg using a wrist-to-wrist grip break motion. Pull the lapel material toward you and away from the opponent's fingers while maintaining stack pressure with your shoulder and hips to prevent them from re-tightening.
+5. **Extract trapped leg**: Once the lapel grip is broken, immediately pull your trapped leg backward and out of the remaining lapel loop by externally rotating your hip and straightening your knee. Drive the extracted leg past the opponent's hip line while keeping your shoulder pressure locked against their legs to prevent them from following your movement.
+6. **Clear legs and begin pass**: Swing your now-free leg over the opponent's bottom leg and begin walking your hips around toward their head, transitioning from stacking position to passing angle. Use your near hand on their far hip to prevent them from turning into you or recovering any guard structure.
+7. **Establish side control**: Drop your hips to the mat perpendicular to the opponent's torso, establishing crossface with your far arm across their neck and underhook or hip control with your near arm. Settle your weight across their chest and secure the side control position before the opponent can create frames or re-insert their knee for guard recovery.
 
 
 </section>
@@ -268,23 +268,18 @@ Strategically, this technique is most effective when the bottom player commits t
 ## Training Progressions
 **Week 1-2** - Stack mechanics and compression
 Drill the stacking motion against a partner in Ringworm Guard with no resistance. Focus on proper shoulder placement against the thigh, hip drive mechanics, and achieving full compression where the opponent's hips are elevated over their shoulders. Partner holds position and provides feedback on pressure quality. Repeat 20-30 reps per side to build the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Grip strip timing and leg extraction
 With a partner providing light resistance in Ringworm Guard, practice the full sequence from stack to grip strip to leg extraction. Focus on identifying the moment of maximum lapel slack and executing the strip-to-extraction as one fluid motion. Partner allows the pass but provides realistic lapel tension so you learn to feel the slack window.
-(Resistance: Light)
 
 **Week 5-6** - Chaining with related passes and counter responses
 Partner in Ringworm Guard provides medium resistance and actively counters with hip escapes, frame insertions, and re-gripping attempts. Practice transitioning between the stack pass, Smash Pass Counter, and Lapel Grip Break and Posture Recovery based on the opponent's defensive reactions. Develop the ability to read and react to which counter the opponent chooses.
-(Resistance: Medium)
 
 **Week 7-8** - Live application and competition simulation
 Start from standing or combat base against a fully resisting opponent who plays Ringworm Guard. Apply the stack pass in live rolling with full resistance, focusing on timing the entry when the opponent loads for sweeps. Track success rate and identify which counters give you the most trouble for targeted drilling in subsequent sessions.
-(Resistance: Full)
 
 **Week 9+** - Integration with complete passing system
 Incorporate the stack pass into your overall lapel guard passing game plan. Use it as one option within a system that includes Long Step Around Ringworm, Backstep Around Worm Guard, and standing extraction. Focus on reading which pass is highest percentage based on the opponent's weight distribution and grip configuration in real time.
-(Resistance: Full)
 
 
 

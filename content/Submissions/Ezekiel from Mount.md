@@ -167,7 +167,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and windpipe
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -247,13 +247,13 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Dominant Mount**: Begin in a solid mount position with your weight distributed forward toward the opponent's head. Your knees should be tight to their sides, and your hips should be low and heavy on their chest. Keep your base wide enough for stability but narrow enough to maintain control. Position your head over their head to prevent bridging escapes. (Timing: Establish within first 2-3 seconds of achieving mount) [Pressure: Moderate]
-2. **Grip Your Own Sleeve**: Reach across your body with your right hand (or left, depending on preference) and grip deep into your opposite sleeve, ideally 4-6 inches above your wrist. The grip should be a thumb-in grip that creates a solid anchor point. This sleeve will become the fulcrum for your choke. Ensure the grip is secure before proceeding, as losing this grip during execution will compromise the entire technique. (Timing: 1-2 seconds for secure grip establishment) [Pressure: Firm]
-3. **Insert Choking Arm Across Throat**: Slide your sleeve-gripped hand (still holding your opposite sleeve) underneath the opponent's head, threading it across their throat from one side to the other. The blade of your forearm should make contact with one side of their neck at approximately a 45-degree angle. Your hand will emerge on the opposite side of their neck. Keep your elbow tight to your body to maintain structure and prevent the opponent from controlling this arm. (Timing: 2-3 seconds, moving smoothly to avoid alerting opponent) [Pressure: Light]
-4. **Establish Second Hand Position**: With your free hand (the one whose sleeve you're gripping), reach behind the opponent's head and find the back of their neck or the base of their skull. This hand will provide the pulling force that completes the choke. Your palm should be facing down with fingers wrapped around toward the opposite side of their neck. Position this hand so you have maximum leverage for the pulling motion. (Timing: 1-2 seconds for optimal placement) [Pressure: Light]
-5. **Create the Choking Frame**: Begin tightening the choke by simultaneously pulling with the hand behind their head while maintaining the blade position across their throat with your forearm. Your elbows should come together, creating a scissoring action that compresses both carotid arteries. The hand gripping your sleeve acts as a fixed point while the hand behind the head pulls toward that point. Keep your weight forward and head down to prevent escapes. (Timing: Apply pressure over 3-4 seconds) [Pressure: Moderate]
-6. **Finish the Submission**: Complete the choke by drawing your elbows tightly together while driving your chest down toward the opponent. The pulling hand behind their head should move in a circular motion toward the sleeve grip, not straight back. Simultaneously, angle your blade-side forearm deeper across their throat to maximize compression. The finish should create bilateral pressure on both carotid arteries. Monitor for the tap and release immediately upon feeling or seeing any tap signal. (Timing: Final pressure applied over 2-3 seconds in training; immediate tap expected) [Pressure: Maximum]
-7. **Secure Position or Release**: If the opponent taps, immediately release the choke by opening your arms and removing pressure from the neck while maintaining mount position. If continuing positional control, transition to a different attack or maintain mount with hands posted for base. Never maintain choking pressure after a tap. Elevate your posture slightly to ensure the opponent can breathe freely while you maintain positional dominance. (Timing: Immediate release upon tap) [Pressure: Light]
+1. **Establish Dominant Mount**: Begin in a solid mount position with your weight distributed forward toward the opponent's head. Your knees should be tight to their sides, and your hips should be low and heavy on their chest. Keep your base wide enough for stability but narrow enough to maintain control. Position your head over their head to prevent bridging escapes. (Timing: Establish within first 2-3 seconds of achieving mount)
+2. **Grip Your Own Sleeve**: Reach across your body with your right hand (or left, depending on preference) and grip deep into your opposite sleeve, ideally 4-6 inches above your wrist. The grip should be a thumb-in grip that creates a solid anchor point. This sleeve will become the fulcrum for your choke. Ensure the grip is secure before proceeding, as losing this grip during execution will compromise the entire technique. (Timing: 1-2 seconds for secure grip establishment)
+3. **Insert Choking Arm Across Throat**: Slide your sleeve-gripped hand (still holding your opposite sleeve) underneath the opponent's head, threading it across their throat from one side to the other. The blade of your forearm should make contact with one side of their neck at approximately a 45-degree angle. Your hand will emerge on the opposite side of their neck. Keep your elbow tight to your body to maintain structure and prevent the opponent from controlling this arm. (Timing: 2-3 seconds, moving smoothly to avoid alerting opponent)
+4. **Establish Second Hand Position**: With your free hand (the one whose sleeve you're gripping), reach behind the opponent's head and find the back of their neck or the base of their skull. This hand will provide the pulling force that completes the choke. Your palm should be facing down with fingers wrapped around toward the opposite side of their neck. Position this hand so you have maximum leverage for the pulling motion. (Timing: 1-2 seconds for optimal placement)
+5. **Create the Choking Frame**: Begin tightening the choke by simultaneously pulling with the hand behind their head while maintaining the blade position across their throat with your forearm. Your elbows should come together, creating a scissoring action that compresses both carotid arteries. The hand gripping your sleeve acts as a fixed point while the hand behind the head pulls toward that point. Keep your weight forward and head down to prevent escapes. (Timing: Apply pressure over 3-4 seconds)
+6. **Finish the Submission**: Complete the choke by drawing your elbows tightly together while driving your chest down toward the opponent. The pulling hand behind their head should move in a circular motion toward the sleeve grip, not straight back. Simultaneously, angle your blade-side forearm deeper across their throat to maximize compression. The finish should create bilateral pressure on both carotid arteries. Monitor for the tap and release immediately upon feeling or seeing any tap signal. (Timing: Final pressure applied over 2-3 seconds in training; immediate tap expected)
+7. **Secure Position or Release**: If the opponent taps, immediately release the choke by opening your arms and removing pressure from the neck while maintaining mount position. If continuing positional control, transition to a different attack or maintain mount with hands posted for base. Never maintain choking pressure after a tap. Elevate your posture slightly to ensure the opponent can breathe freely while you maintain positional dominance. (Timing: Immediate release upon tap)
 
 
 </section>
@@ -273,25 +273,25 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying the choke with only arm strength instead of using body weight and structure [Low DANGER]
+- **Mistake**: Applying the choke with only arm strength instead of using body weight and structure
   - **Consequence**: Weak choke that burns out your arms and gives opponent time to escape or defend effectively
   - **Correction**: Drive your chest and shoulder into the choke while keeping elbows tight to your body. Use your entire upper body weight to create pressure, not just your biceps. The power comes from your posture and structure, not muscular force.
-- **Mistake**: Sitting up too high or back on the hips during the choke attempt [Medium DANGER]
+- **Mistake**: Sitting up too high or back on the hips during the choke attempt
   - **Consequence**: Creates space for opponent to bridge, trap an arm, and execute sweep or escape. Loss of dominant position entirely.
   - **Correction**: Keep your weight distributed forward with your chest over the opponent's chest and head low. Your hips should be heavy on their torso, preventing any bridging motion. Stay compact and tight throughout the entire submission sequence.
-- **Mistake**: Failing to control the opponent's head position before or during the choke [Low DANGER]
+- **Mistake**: Failing to control the opponent's head position before or during the choke
   - **Consequence**: Opponent can turn their head to relieve pressure or create angles for escape. Reduces choke effectiveness significantly.
   - **Correction**: Use your chest, shoulder, and head position to pin their head in place. Your body weight should prevent them from turning in any direction. Drive forward to lock their head between your arms and chest.
-- **Mistake**: Gripping the sleeve too shallow or losing the sleeve grip during execution [Low DANGER]
+- **Mistake**: Gripping the sleeve too shallow or losing the sleeve grip during execution
   - **Consequence**: Loss of leverage and structural integrity in the choke. The submission becomes weak or impossible to finish.
   - **Correction**: Grip deep into your sleeve (4-6 inches above the wrist) with a thumb-in grip before starting the choke sequence. Maintain this grip throughout the entire technique. If you lose it, reset the position rather than trying to finish with a compromised grip.
-- **Mistake**: Using explosive or jerking motions to apply the choke [CRITICAL DANGER]
+- **Mistake**: Using explosive or jerking motions to apply the choke
   - **Consequence**: High risk of neck or trachea injury to training partner. Can cause loss of consciousness without warning. Violates training safety protocols.
   - **Correction**: Apply the choke with smooth, progressive pressure over 3-5 seconds minimum in training. Allow your partner time to recognize the danger and tap. Competition finishing speed is only appropriate in competition, never in training.
-- **Mistake**: Continuing to apply pressure after feeling a tap or seeing loss of resistance [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling a tap or seeing loss of resistance
   - **Consequence**: Severe injury including unconsciousness, trachea damage, or prolonged oxygen deprivation. Potential permanent injury and violation of training partnership trust.
   - **Correction**: Release immediately upon any tap signal. If your partner goes limp or stops resisting, assume unconsciousness and release instantly. Monitor their breathing and consciousness. Never assume they're 'tough' and continue pressure.
-- **Mistake**: Placing the forearm blade directly on the trachea instead of targeting carotids [High DANGER]
+- **Mistake**: Placing the forearm blade directly on the trachea instead of targeting carotids
   - **Consequence**: Painful air choke instead of blood choke, increased risk of trachea injury, partner may panic instead of tap calmly
   - **Correction**: Angle your forearm at 45 degrees across the neck so the blade contacts the side of the neck (carotid) rather than the front (trachea). The choke should compress both sides of the neck bilaterally for a clean blood choke that produces unconsciousness in 5-10 seconds without pain.
 
@@ -358,43 +358,6 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Weeks 1-2)
-- Focus: Learn proper hand positioning, sleeve gripping mechanics, and basic body positioning without applying any choking pressure. Study anatomy of the neck and understand carotid vs trachea targeting. Shadow drill the movements in isolation.
-- Resistance: None
-- Safety: Understand all safety protocols before applying any pressure. Learn to recognize tap signals and practice immediate release protocols. Study the difference between blood chokes and air chokes. Understand injury mechanisms and prevention.
-
-**Positional Drilling** (Weeks 3-4)
-- Focus: Practice achieving proper mount position and maintaining it while threading the arm and establishing grips. Partner provides zero resistance. Focus on smooth movement and maintaining base. Drill entries from different mount variations (low, high, technical). No choking pressure applied - stop at the point of establishing both grips.
-- Resistance: Zero resistance
-- Safety: Practice releasing grips on verbal 'tap' command even though no pressure is applied. Build muscle memory for immediate release response. Monitor partner comfort with head control and arm positioning.
-
-**Light Pressure Application** (Weeks 5-8)
-- Focus: Begin applying light choking pressure (20-30% of maximum) with crystal clear communication. Partner should tap very early to familiarize both practitioners with the feeling of the choke at various stages. Practice recognizing when the choke is properly positioned vs when it's on the trachea. Drill various defensive scenarios with partner showing different reactions.
-- Resistance: Mild resistance
-- Safety: Apply pressure over minimum 5-7 seconds. Stop immediately at any tap signal. Partners should communicate verbally about pressure levels and comfort. Never apply surprise pressure. Begin drilling release protocols under various scenarios.
-
-**Progressive Resistance** (Weeks 9-12)
-- Focus: Partner provides realistic defensive resistance including frames, head movement, and bridge attempts. Practice maintaining mount and adapting the choke against common defenses. Begin integrating the Ezekiel into attacking chains with armbars and americanas. Apply moderate pressure (50-60% of maximum) with controlled timing.
-- Resistance: Realistic resistance
-- Safety: Maintain 3-5 second minimum application time even with resistance. Practice scenarios where partner defends and you must reset or transition rather than forcing the choke. Emphasize smooth pressure increase and monitoring partner's status throughout.
-
-**Live Rolling Integration** (Weeks 13-20)
-- Focus: Apply the Ezekiel during live rolling from mount positions. Practice recognizing the opportunity window for the choke during dynamic exchanges. Develop sensitivity for when the choke is available vs when to transition to other attacks. Begin developing personal variations and setups based on body type and style.
-- Resistance: Full resistance
-- Safety: Never exceed 70-80% pressure in training regardless of rolling intensity. Remember that competition-speed application is only for competition. Maintain communication with regular training partners about pressure preferences. Practice releasing even when you believe the choke isn't tight enough to be dangerous.
-
-**Advanced Application and Teaching** (Ongoing)
-- Focus: Develop high-level setups, combination attacks using the Ezekiel as a threat. Teach the technique to junior students with emphasis on safety. Explore no-gi variations and adaptations. Study competition footage of high-level Ezekiel applications. Develop counter strategies from the bottom to understand defensive nuances.
-- Resistance: Full resistance
-- Safety: As you become proficient, the danger actually increases because the choke becomes faster and more effective. Maintain strict discipline with safety protocols regardless of skill level. When teaching, emphasize safety first before effectiveness. Monitor junior students closely when they begin practicing this technique.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -455,6 +418,7 @@ Historically attributed to judoka Ezequiel Paraguassu who successfully used it i
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

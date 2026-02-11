@@ -93,21 +93,23 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 ### Available Transitions
 
 
-- **[[Triangle Setup]]** (12% of attempts)
+- **[[Triangle Setup]]** (11% of attempts)
 
-- **[[Omoplata Sweep]]** (13% of attempts)
+- **[[Omoplata Sweep]]** (10% of attempts)
 
-- **[[Spider Guard Sweeps]]** (12% of attempts)
+- **[[Spider Guard Sweeps]]** (11% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (13% of attempts)
+- **[[Lasso Guard Sweeps]]** (12% of attempts)
 
-- **[[De La Riva Sweep]]** (12% of attempts)
+- **[[De La Riva Sweep]]** (11% of attempts)
 
-- **[[Scissor Sweep]]** (14% of attempts)
+- **[[Scissor Sweep]]** (12% of attempts)
 
-- **[[Armbar from Guard]]** (11% of attempts)
+- **[[Armbar from Guard]]** (10% of attempts)
 
-- **[[Spider Guard to Omoplata]]** (13% of attempts)
+- **[[Spider Guard to Omoplata]]** (12% of attempts)
+
+- **[[Spider Guard Pass]]** (11% of attempts)
 
 
 ### Common Mistakes

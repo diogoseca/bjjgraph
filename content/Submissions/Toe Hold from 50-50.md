@@ -167,7 +167,7 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 **Type**: Leg Lock
 **Target Area**: Ankle, talocrural joint, and lateral ankle ligaments
 **Starting Position**: [[50-50 Guard]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -247,13 +247,13 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Initial Control**: From 50-50 position, use your inside leg to hook behind opponent's knee while your outside leg controls their hip. This creates the foundational structure that prevents them from escaping while you attack the foot. Ensure your hips are slightly elevated to create the angle needed for foot access. (Timing: 2-3 seconds for solid establishment) [Pressure: Moderate]
-2. **Access the Foot**: Reach across with your outside arm (arm furthest from their head) to grab the toes of their trapped foot. Your grip should be on the ball of the foot and toes, not just the toes alone. Simultaneously, use your inside arm to control their ankle or lower shin, creating a frame that prevents them from yanking their foot away. (Timing: 1-2 seconds) [Pressure: Light]
-3. **Establish Figure-Four Configuration**: Bring your inside arm underneath their foot and grab your own wrist or forearm, creating a figure-four grip structure. This configuration locks the foot in place and prevents rotation of their ankle relative to your body. Your outside hand should maintain control of the toes while your inside forearm creates a shelf under the heel and Achilles tendon area. (Timing: 2-3 seconds to secure properly) [Pressure: Moderate]
-4. **Adjust Foot Angle**: Before applying rotation, ensure the foot is positioned perpendicular to their leg. The toes should point toward the ceiling (if you're on bottom) or toward the mat (if you're on top). This perpendicular alignment is critical for proper joint mechanics and ensures the rotation attacks the lateral ligaments rather than hyperextending the ankle incorrectly. (Timing: 1-2 seconds for angle adjustment) [Pressure: Light]
-5. **Connect Chest to Foot**: Pull the foot toward your chest while simultaneously driving your chest toward the foot, eliminating all space between them. Your sternum should make contact with the top or inside blade of their foot. This connection is essential for controlled application and prevents the foot from slipping out during the finish. Maintain this connection throughout the submission. (Timing: 1-2 seconds) [Pressure: Moderate]
-6. **Apply Controlled Rotation**: Keeping the foot pinned to your chest, rotate your entire upper body inward (toward your opponent's midline) while maintaining the figure-four grip. The rotation should be smooth and progressive, not sudden. Your outside elbow drives down and inward while your inside arm pulls the heel toward you. The pressure builds gradually on the lateral ankle ligaments and talocrural joint. (Timing: 3-5 seconds minimum for safe application) [Pressure: Firm]
-7. **Finish with Hip Extension**: If needed to complete the submission, extend your hips slightly while maintaining the rotational pressure and chest-to-foot connection. This hip extension adds final torque to the ankle joint. However, this step should rarely be necessary in training if proper setup and rotation were achieved. Always apply this incrementally and be prepared for immediate tap. (Timing: 1-2 seconds if necessary) [Pressure: Maximum]
+1. **Establish Initial Control**: From 50-50 position, use your inside leg to hook behind opponent's knee while your outside leg controls their hip. This creates the foundational structure that prevents them from escaping while you attack the foot. Ensure your hips are slightly elevated to create the angle needed for foot access. (Timing: 2-3 seconds for solid establishment)
+2. **Access the Foot**: Reach across with your outside arm (arm furthest from their head) to grab the toes of their trapped foot. Your grip should be on the ball of the foot and toes, not just the toes alone. Simultaneously, use your inside arm to control their ankle or lower shin, creating a frame that prevents them from yanking their foot away. (Timing: 1-2 seconds)
+3. **Establish Figure-Four Configuration**: Bring your inside arm underneath their foot and grab your own wrist or forearm, creating a figure-four grip structure. This configuration locks the foot in place and prevents rotation of their ankle relative to your body. Your outside hand should maintain control of the toes while your inside forearm creates a shelf under the heel and Achilles tendon area. (Timing: 2-3 seconds to secure properly)
+4. **Adjust Foot Angle**: Before applying rotation, ensure the foot is positioned perpendicular to their leg. The toes should point toward the ceiling (if you're on bottom) or toward the mat (if you're on top). This perpendicular alignment is critical for proper joint mechanics and ensures the rotation attacks the lateral ligaments rather than hyperextending the ankle incorrectly. (Timing: 1-2 seconds for angle adjustment)
+5. **Connect Chest to Foot**: Pull the foot toward your chest while simultaneously driving your chest toward the foot, eliminating all space between them. Your sternum should make contact with the top or inside blade of their foot. This connection is essential for controlled application and prevents the foot from slipping out during the finish. Maintain this connection throughout the submission. (Timing: 1-2 seconds)
+6. **Apply Controlled Rotation**: Keeping the foot pinned to your chest, rotate your entire upper body inward (toward your opponent's midline) while maintaining the figure-four grip. The rotation should be smooth and progressive, not sudden. Your outside elbow drives down and inward while your inside arm pulls the heel toward you. The pressure builds gradually on the lateral ankle ligaments and talocrural joint. (Timing: 3-5 seconds minimum for safe application)
+7. **Finish with Hip Extension**: If needed to complete the submission, extend your hips slightly while maintaining the rotational pressure and chest-to-foot connection. This hip extension adds final torque to the ankle joint. However, this step should rarely be necessary in training if proper setup and rotation were achieved. Always apply this incrementally and be prepared for immediate tap. (Timing: 1-2 seconds if necessary)
 
 
 </section>
@@ -273,25 +273,25 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Gripping only the toes without controlling the ankle or foot blade [Low DANGER]
+- **Mistake**: Gripping only the toes without controlling the ankle or foot blade
   - **Consequence**: Opponent easily extracts their foot, and you lose control of the position entirely. Toes alone provide insufficient leverage for the submission.
   - **Correction**: Always establish a grip that encompasses the ball of the foot and toes together, and use your figure-four to create a shelf under the heel. Think of controlling the entire foot as a unit, not just the toes.
-- **Mistake**: Applying rotation before establishing chest-to-foot connection [Medium DANGER]
+- **Mistake**: Applying rotation before establishing chest-to-foot connection
   - **Consequence**: Foot slips out of your grip, or pressure is applied inefficiently, requiring excessive force that increases injury risk.
   - **Correction**: Follow the sequence strictly: grip, figure-four, angle adjustment, chest connection, then rotation. Each step must be completed before progressing to the next.
-- **Mistake**: Rotating the foot away from opponent's midline (outward rotation) [High DANGER]
+- **Mistake**: Rotating the foot away from opponent's midline (outward rotation)
   - **Consequence**: This attacks the wrong anatomical structures and is both less effective and potentially more dangerous, as it can hyperextend the ankle in an unnatural direction.
   - **Correction**: Always rotate inward toward opponent's centerline. Your outside elbow should drive down and in, not out. The opponent's pinky toe should move toward their opposite hip.
-- **Mistake**: Spiking or jerking the rotation instead of applying progressive pressure [CRITICAL DANGER]
+- **Mistake**: Spiking or jerking the rotation instead of applying progressive pressure
   - **Consequence**: CRITICAL INJURY RISK. Sudden application can cause severe ligament tears, joint dislocation, or capsule rupture before partner can tap safely.
   - **Correction**: Apply rotation slowly and progressively over minimum 3-5 seconds. Feel for resistance and stop immediately at any tap signal. In training, never apply maximum pressure.
-- **Mistake**: Neglecting hip and leg position maintenance during the finish [Medium DANGER]
+- **Mistake**: Neglecting hip and leg position maintenance during the finish
   - **Consequence**: Opponent escapes the 50-50 position entirely, or worse, establishes their own leg attack on you while you're focused on their foot.
   - **Correction**: Your legs must continue to control their hip and knee throughout the entire submission sequence. The toe hold is only safe to attempt when your positional control is rock solid.
-- **Mistake**: Failing to adjust foot angle to perpendicular before rotation [High DANGER]
+- **Mistake**: Failing to adjust foot angle to perpendicular before rotation
   - **Consequence**: Reduced effectiveness and increased risk of injuring wrong anatomical structures. The submission becomes a crude ankle crank rather than a technical toe hold.
   - **Correction**: Take the time to position the foot perpendicular to their leg. Toes should point toward ceiling (from bottom) or mat (from top) before any rotation begins.
-- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress
   - **Consequence**: CRITICAL INJURY RISK. This is the primary cause of serious ankle injuries in training. Permanent ligament damage can occur in under one second after a tap.
   - **Correction**: Release immediately upon any tap signal. There is never a reason to hold pressure for even a fraction of a second after tap. Practice release protocol regularly.
 
@@ -358,43 +358,6 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Week 1-2)** (2 weeks)
-- Focus: Learn the mechanical structure of the toe hold and proper grip configurations without applying any pressure. Study the anatomy of the ankle joint and understand which structures are being attacked. Practice establishing 50-50 position and accessing the foot with compliant partners.
-- Resistance: None
-- Safety: Partner must have full freedom to tap and extract their leg at any time. Focus is exclusively on understanding positioning, grip mechanics, and foot angle. No rotational pressure should be applied whatsoever. Instructor supervision is mandatory.
-
-**Slow Controlled Application (Week 3-4)** (2 weeks)
-- Focus: Begin applying very light rotational pressure with extremely slow progression over 7-10 seconds minimum. Partner should tap early—well before feeling significant discomfort—to build the habit of early tapping. Practice release protocol repeatedly to develop instant release reflexes.
-- Resistance: Zero resistance
-- Safety: Both partners must communicate verbally throughout. Applier asks 'okay?' before each pressure increase. Defender taps at first sensation of pressure, not waiting for pain. Practice release protocol after every repetition. Maximum 3-5 repetitions per training session to prevent cumulative stress on ankle tissues.
-
-**Positional Integration (Week 5-8)** (4 weeks)
-- Focus: Practice entering the toe hold from various 50-50 configurations (top, bottom, after scrambles) and combining it with other leg attacks like heel hooks and straight ankle locks. Learn to recognize when toe hold is available versus when other attacks are better options. Build the complete positional system.
-- Resistance: Mild resistance
-- Safety: Partner provides mild resistance to grips and positioning but still taps early once figure-four and chest connection are established. Focus on smooth entries rather than forcing the submission. Continue verbal communication and limit repetitions on same ankle (switch legs frequently).
-
-**Defense and Counter Development (Week 9-12)** (4 weeks)
-- Focus: Both partners learn proper defensive techniques including foot extraction, rotation with pressure, counter-attacks, and escape sequences. Understand what defenses work and why. Learn to recognize when you're caught and should tap versus when escape is still possible.
-- Resistance: Realistic resistance
-- Safety: This is the highest injury-risk phase as both partners are learning limits. Maintain slow application speed despite realistic defense. Defender must tap if escape attempt fails rather than enduring pressure. Attacker must release instantly at tap even if defense was almost successful. Instructor supervision recommended.
-
-**Live Training Integration (Week 13+)** (Ongoing)
-- Focus: Incorporate toe hold attempts into regular positional sparring from 50-50 and leg entanglement positions. Use the technique in live rolling with trusted partners who understand the safety protocols. Continue refining entries, timing, and combinations with other leg attacks.
-- Resistance: Full resistance
-- Safety: NEVER apply competition-speed finishing pressure in training, regardless of skill level. Always maintain 3-5 second minimum application time. Both partners must have established trust and communication. Avoid training toe holds when fatigued or with unknown partners. Respect all taps instantly without exception.
-
-**Advanced Application and Teaching (Ongoing)** (Ongoing after 6+ months)
-- Focus: Develop subtle variations, entries from unconventional positions, and dilemma creation by chaining toe hold with heel hook and other leg attacks. Begin teaching the technique to junior students under supervision, which deepens your understanding of safety protocols and mechanics.
-- Resistance: Full resistance
-- Safety: As an advanced practitioner, you have special responsibility for safety of training partners. Model perfect safety habits including slow application, instant releases, and early tapping when roles reverse. When teaching, emphasize safety over effectiveness. Never pressure students to train through discomfort or ignore early tap habits.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -447,6 +410,7 @@ The toe hold from 50-50 has gained significant prominence in modern no-gi compet
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

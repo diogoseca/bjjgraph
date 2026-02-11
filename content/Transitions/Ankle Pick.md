@@ -163,7 +163,7 @@ The effectiveness of the Ankle Pick lies in its ability to create a sudden level
 In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive takedown and an excellent setup for other attacks. When opponents defend the ankle grip, they often create opportunities for arm drags, snap downs, or transitions to the clinch. The ankle pick also integrates seamlessly with guard pulling strategies, as the same forward motion can be converted into a seated guard entry if the takedown is defended. This versatility makes it an essential tool for competitors who need reliable standing techniques that complement their ground game.
 
 **From Position**: [[Standing Position]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -214,13 +214,13 @@ In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish collar tie control**: Secure a collar tie on the back of opponent's neck with your lead hand, keeping your elbow tight to prevent them from breaking the connection. Simultaneously control their wrist or sleeve with your other hand. Apply forward pressure to load their weight onto their lead leg while maintaining your own balanced stance with your hips low and back straight. (Timing: Initial setup phase - establish before any level change)
-2. **Create angle and forward pressure**: Using the collar tie, pull opponent's head down and forward while circling to create a 45-degree angle to their lead leg. This angle is critical as it positions your body outside their centerline and makes their ankle accessible. Push their wrist away slightly to create space for your level change. The opponent should feel pressure to step forward onto their lead leg. (Timing: Setup phase - create opportunity for attack)
-3. **Execute explosive level change**: Drop your level by bending at the knees and hips while keeping your back straight and head up. Your drop should be explosive but controlled, bringing your chest down toward your lead knee. Maintain the collar tie throughout the level change to prevent opponent from backing away or sprawling. Your trailing leg should load like a spring, ready to drive forward. (Timing: Attack initiation - explosive but controlled drop)
-4. **Secure ankle with heel cup grip**: As you drop levels, reach your trail hand (the hand not controlling the collar tie) deep around opponent's lead ankle. Your hand should cup the back of their heel with your fingers wrapping around the Achilles tendon area. Your thumb should point toward their toes. This grip provides maximum control and prevents the foot from sliding out. Keep your elbow tight to your body. (Timing: Simultaneous with level change completion)
-5. **Drive and pull to break base**: Simultaneously execute two opposing forces: pull the ankle forward and up toward you with your cupped hand while driving your shoulder and collar tie hand backward into opponent's upper body. Your head should be pressed firmly against the outside of their hip or thigh for additional pressure. Drive off your back leg explosively, stepping forward as you execute these opposing forces to create rotational collapse. (Timing: Power phase - maximum explosive effort)
-6. **Follow through to top position**: As opponent falls backward, maintain control of the ankle and continue driving forward. Your head should slide from their hip to their chest as they fall. Once they hit the mat, immediately establish top position by driving your hips forward and sprawling your legs back. Release the ankle only when you've secured a dominant position (side control, mount preparation, or passing position). Keep your weight heavy on their upper body. (Timing: Finish phase - maintain pressure until position secured)
-7. **Consolidate top position control**: After the takedown completes, quickly assess opponent's guard reaction. If they attempt to close guard, work immediately to establish a passing position. If they remain flat, advance to side control or mount. Maintain heavy shoulder pressure on their chest and begin working your preferred passing strategy. Your goal is to prevent any guard establishment and immediately begin advancing position. (Timing: Post-takedown consolidation - first 2-3 seconds critical)
+1. **Establish collar tie control**: Secure a collar tie on the back of opponent's neck with your lead hand, keeping your elbow tight to prevent them from breaking the connection. Simultaneously control their wrist or sleeve with your other hand. Apply forward pressure to load their weight onto their lead leg while maintaining your own balanced stance with your hips low and back straight.
+2. **Create angle and forward pressure**: Using the collar tie, pull opponent's head down and forward while circling to create a 45-degree angle to their lead leg. This angle is critical as it positions your body outside their centerline and makes their ankle accessible. Push their wrist away slightly to create space for your level change. The opponent should feel pressure to step forward onto their lead leg.
+3. **Execute explosive level change**: Drop your level by bending at the knees and hips while keeping your back straight and head up. Your drop should be explosive but controlled, bringing your chest down toward your lead knee. Maintain the collar tie throughout the level change to prevent opponent from backing away or sprawling. Your trailing leg should load like a spring, ready to drive forward.
+4. **Secure ankle with heel cup grip**: As you drop levels, reach your trail hand (the hand not controlling the collar tie) deep around opponent's lead ankle. Your hand should cup the back of their heel with your fingers wrapping around the Achilles tendon area. Your thumb should point toward their toes. This grip provides maximum control and prevents the foot from sliding out. Keep your elbow tight to your body.
+5. **Drive and pull to break base**: Simultaneously execute two opposing forces: pull the ankle forward and up toward you with your cupped hand while driving your shoulder and collar tie hand backward into opponent's upper body. Your head should be pressed firmly against the outside of their hip or thigh for additional pressure. Drive off your back leg explosively, stepping forward as you execute these opposing forces to create rotational collapse.
+6. **Follow through to top position**: As opponent falls backward, maintain control of the ankle and continue driving forward. Your head should slide from their hip to their chest as they fall. Once they hit the mat, immediately establish top position by driving your hips forward and sprawling your legs back. Release the ankle only when you've secured a dominant position (side control, mount preparation, or passing position). Keep your weight heavy on their upper body.
+7. **Consolidate top position control**: After the takedown completes, quickly assess opponent's guard reaction. If they attempt to close guard, work immediately to establish a passing position. If they remain flat, advance to side control or mount. Maintain heavy shoulder pressure on their chest and begin working your preferred passing strategy. Your goal is to prevent any guard establishment and immediately begin advancing position.
 
 
 </section>
@@ -270,27 +270,21 @@ In the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive t
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Proper level change technique and ankle grip mechanics
 Practice level changes from standing without resistance, focusing on maintaining straight back, head position, and explosive drop. Drill heel cup grip on stationary partner. Work on angle creation through footwork drills. Partner provides zero resistance - just proper positioning.
-(Resistance: None)
 
 **Week 3-4: Upper Body Integration** - Combining collar tie control with level change
 Add collar tie establishment and maintenance throughout level change. Partner stands still but maintains posture. Practice creating forward pressure through collar tie before dropping. Work on timing of ankle grip with level change completion. Focus on keeping head outside partner's body.
-(Resistance: Light)
 
 **Week 5-8: Opposition Force Coordination** - Simultaneous pull and drive mechanics
 Partner provides moderate resistance by maintaining base. Practice the critical moment of pulling ankle forward while driving collar tie backward. Work on explosive drive off back leg. Partner can defend passively but should not counter. Focus on creating rotational collapse of opponent's base.
-(Resistance: Medium)
 
 **Week 9-12: Active Defense Integration** - Dealing with common counters and finishing strong
 Partner actively defends with sprawls, backward movement, and head control. Practice transitioning to alternative attacks when ankle pick is defended. Work on following through to establish top position after successful takedown. Begin situational sparring from standing with specific goal of hitting ankle pick.
-(Resistance: Medium)
 
 **Week 13-16: Competition Integration** - Setups, combinations, and live application
 Full resistance training with ankle pick as primary attack. Develop personal setups using feints and grip fighting. Chain ankle pick with other takedown attempts and guard pulls. Practice in context of full standing exchanges with all takedown options available. Work on reading opponent's weight distribution.
-(Resistance: Full)
 
 **Ongoing: Advanced Refinement** - Timing, feints, and high-level application
 Develop ankle pick as part of complete standing game. Work on subtle setups and disguised entries. Practice against opponents with strong sprawl defense. Study and drill specific situations where ankle pick is highest percentage. Film and analyze competition footage to refine technique.
-(Resistance: Full)
 
 
 

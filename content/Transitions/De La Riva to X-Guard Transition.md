@@ -159,7 +159,7 @@ description: "Master the De La Riva to X-Guard transition in BJJ. Convert DLR co
 The De La Riva to X-Guard Transition represents the systematic framework for converting the controlling mechanics of De La Riva Guard into the elevating and sweeping power of X-Guard position. Unlike isolated techniques, this concept encompasses the biomechanical principles, timing considerations, and strategic decision-making that enable seamless positional flow between these two fundamental guard systems. This transition serves as both an offensive adaptation when initial De La Riva attacks are defended and a proactive entry strategy that leverages opponent's posture and base positioning to create superior sweeping opportunities. The ability to flow between these positions transforms static guard retention into dynamic offensive pressure, making it one of the most powerful conceptual frameworks in modern guard play. Understanding this transition requires mastery of hook mechanics, grip control transitions, and the ability to read opponent weight distribution in real-time.
 
 **From Position**: [[De La Riva Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -208,13 +208,13 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess opponent's base and weight distribution**: From established De La Riva guard, evaluate opponent's stance. If they have weight forward on their DLR-hooked leg with wide base, this signals optimal transition timing. If they're leaning back or have narrow base, maintain DLR for sweeping opportunities. (Timing: Continuous assessment during guard engagement)
-2. **Create elevation angle with hip positioning**: Begin rotating your hips perpendicular to opponent's base line, moving from side-on DLR position to more underneath positioning. This rotation prepares the optimal angle for X-Guard elevation. Your shoulders should begin turning toward the mat as your hips elevate. (Timing: As opponent commits weight forward)
-3. **Transition grip control**: If holding collar and sleeve, transition to underhook on the DLR-hooked side while maintaining far-side grip control. Alternatively, secure a deep pant grip or belt grip that will facilitate elevation. The underhook is critical for preventing opponent from backing away during transition. (Timing: Before releasing DLR hook)
-4. **Insert bottom hook for X-Guard configuration**: Swing your non-DLR leg (typically your top leg) under and through opponent's legs, inserting it between their thighs from outside to inside. This hook will become your lower X-Guard hook. The insertion path goes behind the DLR-hooked knee, threading through to the inside. (Timing: Simultaneous with step 5)
-5. **Convert DLR hook to top X-Guard hook**: Release the De La Riva hook from behind opponent's knee and immediately reposition it as the top X-Guard hook across the front of their hips. This hook drives across their belt line or lower abdomen, creating the elevation point. The transition must be seamless to prevent loss of control. (Timing: Coordinated with bottom hook insertion)
-6. **Establish full X-Guard elevation structure**: With both hooks now configured in X-Guard formation (bottom hook behind near knee, top hook across hips), extend your legs to create elevation pressure. Your bottom hook pulls their knee toward you while your top hook drives their hips up and away. Your underhook pulls them forward into the elevation. (Timing: Immediately after hook configuration complete)
-7. **Complete position with sweeping angle**: Adjust final positioning by ensuring your hips are directly beneath opponent's center of mass, your hooks are creating opposing forces (one pulling, one pushing), and your upper body control (underhook and far grip) prevents their escape. You should feel opponent's weight suspended on your hook structure, ready for immediate sweeping attacks. (Timing: Final adjustment before sweep initiation)
+1. **Assess opponent's base and weight distribution**: From established De La Riva guard, evaluate opponent's stance. If they have weight forward on their DLR-hooked leg with wide base, this signals optimal transition timing. If they're leaning back or have narrow base, maintain DLR for sweeping opportunities.
+2. **Create elevation angle with hip positioning**: Begin rotating your hips perpendicular to opponent's base line, moving from side-on DLR position to more underneath positioning. This rotation prepares the optimal angle for X-Guard elevation. Your shoulders should begin turning toward the mat as your hips elevate.
+3. **Transition grip control**: If holding collar and sleeve, transition to underhook on the DLR-hooked side while maintaining far-side grip control. Alternatively, secure a deep pant grip or belt grip that will facilitate elevation. The underhook is critical for preventing opponent from backing away during transition.
+4. **Insert bottom hook for X-Guard configuration**: Swing your non-DLR leg (typically your top leg) under and through opponent's legs, inserting it between their thighs from outside to inside. This hook will become your lower X-Guard hook. The insertion path goes behind the DLR-hooked knee, threading through to the inside.
+5. **Convert DLR hook to top X-Guard hook**: Release the De La Riva hook from behind opponent's knee and immediately reposition it as the top X-Guard hook across the front of their hips. This hook drives across their belt line or lower abdomen, creating the elevation point. The transition must be seamless to prevent loss of control.
+6. **Establish full X-Guard elevation structure**: With both hooks now configured in X-Guard formation (bottom hook behind near knee, top hook across hips), extend your legs to create elevation pressure. Your bottom hook pulls their knee toward you while your top hook drives their hips up and away. Your underhook pulls them forward into the elevation.
+7. **Complete position with sweeping angle**: Adjust final positioning by ensuring your hips are directly beneath opponent's center of mass, your hooks are creating opposing forces (one pulling, one pushing), and your upper body control (underhook and far grip) prevents their escape. You should feel opponent's weight suspended on your hook structure, ready for immediate sweeping attacks.
 
 
 </section>
@@ -260,23 +260,18 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 ## Training Progressions
 **Week 1-2: Fundamental Hook Mechanics** - Understanding hook transitions without resistance
 Partner stands in DLR guard while you practice transitioning hooks from DLR to X-Guard configuration slowly. Focus on smooth coordination of releasing one hook while establishing another. No elevation or sweeping yet, just clean hook transitions.
-(Resistance: None)
 
 **Week 3-4: Coordinated Transitions with Grips** - Adding upper body control to hook transitions
 Practice full transition including grip changes from collar/sleeve to underhook while simultaneously transitioning hooks. Partner provides light positional resistance (slight backward pressure) but doesn't actively counter. Begin adding light elevation attempts.
-(Resistance: Light)
 
 **Week 5-8: Reactive Transitions** - Reading opponent reactions and timing transitions
 Partner actively defends DLR attacks with realistic movements (posting hands, stepping back, widening base). Practice recognizing transition triggers based on their defensive reactions. Execute full transition and attempt sweep immediately after establishing X-Guard.
-(Resistance: Medium)
 
 **Week 9-12: Flow Drilling Between Positions** - Bidirectional transitions and position combinations
 Flow between DLR, X-Guard, Single Leg X Guard, and Reverse De La Riva Guard based on partner's movements. Practice transitioning back to DLR if X-Guard is defended. Build muscle memory for seamless positional flow without conscious thought.
-(Resistance: Medium)
 
 **Month 4-6: Competition Simulation** - Full resistance with consequences
 Positional sparring starting from DLR guard with opponent trying to pass while you work transitions to X-Guard and immediate sweeping attacks. Add submission threats from X-Guard position. Track success rates and identify weak points.
-(Resistance: Full)
 
 
 
@@ -349,7 +344,7 @@ The De La Riva to X-Guard transition represents a critical connection in modern 
 - [[Berimbolo Entry]] - Related inversion-based transition from DLR guard system
 - [[Kneebar from Guard]] - Submission threat available from X-Guard after transition
 - [[Straight Ankle Lock]] - Leg attack option if opponent defends elevation poorly
-- [[De La Riva Sweep Variations]] - Alternative attacks when transition timing is not optimal
+- [[De La Riva Sweep]] - Alternative attacks when transition timing is not optimal
 
 
 </section>

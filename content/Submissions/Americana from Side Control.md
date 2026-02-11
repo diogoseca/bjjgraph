@@ -161,7 +161,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (specifically rotator cuff)
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -243,12 +243,12 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Side Control Foundation**: Secure dominant side control position with your chest driving across the opponent's sternum. Your head should be positioned on the far side with heavy cross-face pressure. Your hips should be low and tight to their body, preventing space for escape. Distribute your weight so that approximately 70% is on their chest and 30% on your base. (Timing: Maintain for 2-3 seconds to ensure stability) [Pressure: Firm]
-2. **Bait and Isolate the Near Arm**: Create a reaction by increasing pressure or threatening to advance to mount. When the opponent frames with their near arm (pushing against your shoulder or hip), this is your opportunity. Alternatively, if their arm is already positioned defensively near their body, slide your near-side hand underneath their elbow to begin isolation. (Timing: React immediately when arm extends or moves) [Pressure: Moderate]
-3. **Secure Wrist and Elbow Control**: Grip the opponent's wrist with your near-side hand using a palm-to-palm grip, with your thumb positioned on the back of their hand. Simultaneously bring your far-side arm over their arm and grip your own wrist, creating a figure-four configuration. Your forearm should slide under their elbow, capturing it securely. The opponent's elbow should now be trapped between your two arms. (Timing: Complete the grip connection within 1-2 seconds) [Pressure: Firm]
-4. **Create the 90-Degree Configuration**: Walk your hands (while maintaining the figure-four grip) toward the opponent's head, bringing their elbow in line with their shoulder. Simultaneously, keep their wrist pinned to the mat near their ribs or slightly above. This creates the critical 90-degree angle between their upper arm and forearm. Their elbow must stay close to their body and in front of their shoulder line. (Timing: Adjust position over 2-3 seconds) [Pressure: Moderate]
-5. **Drive the Elbow to the Mat**: Maintaining the wrist position, use your figure-four grip to drive their elbow down toward the mat. Keep your elbows tight to your body and use your core strength rather than arm strength. The opponent's hand should be moving toward their own hip while their elbow stays near their shoulder. This creates the beginning of external rotation in the shoulder joint. (Timing: Apply over 2-3 seconds progressively) [Pressure: Moderate]
-6. **Complete the Shoulder Lock Rotation**: Continue rotating the opponent's hand toward their hip while keeping their elbow stationary near their shoulder. The rotation occurs at the shoulder joint through external rotation. Maintain steady, progressive pressure - NEVER jerk or spike the submission. Keep your chest pressure on their torso to prevent them from rolling with the lock. The submission is complete when their hand approaches their hip and the shoulder reaches maximum safe rotation. (Timing: Apply final pressure over 3-5 seconds minimum, stopping immediately on tap) [Pressure: Maximum]
+1. **Establish Side Control Foundation**: Secure dominant side control position with your chest driving across the opponent's sternum. Your head should be positioned on the far side with heavy cross-face pressure. Your hips should be low and tight to their body, preventing space for escape. Distribute your weight so that approximately 70% is on their chest and 30% on your base. (Timing: Maintain for 2-3 seconds to ensure stability)
+2. **Bait and Isolate the Near Arm**: Create a reaction by increasing pressure or threatening to advance to mount. When the opponent frames with their near arm (pushing against your shoulder or hip), this is your opportunity. Alternatively, if their arm is already positioned defensively near their body, slide your near-side hand underneath their elbow to begin isolation. (Timing: React immediately when arm extends or moves)
+3. **Secure Wrist and Elbow Control**: Grip the opponent's wrist with your near-side hand using a palm-to-palm grip, with your thumb positioned on the back of their hand. Simultaneously bring your far-side arm over their arm and grip your own wrist, creating a figure-four configuration. Your forearm should slide under their elbow, capturing it securely. The opponent's elbow should now be trapped between your two arms. (Timing: Complete the grip connection within 1-2 seconds)
+4. **Create the 90-Degree Configuration**: Walk your hands (while maintaining the figure-four grip) toward the opponent's head, bringing their elbow in line with their shoulder. Simultaneously, keep their wrist pinned to the mat near their ribs or slightly above. This creates the critical 90-degree angle between their upper arm and forearm. Their elbow must stay close to their body and in front of their shoulder line. (Timing: Adjust position over 2-3 seconds)
+5. **Drive the Elbow to the Mat**: Maintaining the wrist position, use your figure-four grip to drive their elbow down toward the mat. Keep your elbows tight to your body and use your core strength rather than arm strength. The opponent's hand should be moving toward their own hip while their elbow stays near their shoulder. This creates the beginning of external rotation in the shoulder joint. (Timing: Apply over 2-3 seconds progressively)
+6. **Complete the Shoulder Lock Rotation**: Continue rotating the opponent's hand toward their hip while keeping their elbow stationary near their shoulder. The rotation occurs at the shoulder joint through external rotation. Maintain steady, progressive pressure - NEVER jerk or spike the submission. Keep your chest pressure on their torso to prevent them from rolling with the lock. The submission is complete when their hand approaches their hip and the shoulder reaches maximum safe rotation. (Timing: Apply final pressure over 3-5 seconds minimum, stopping immediately on tap)
 
 
 </section>
@@ -268,25 +268,25 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting the submission without first securing dominant side control [Medium DANGER]
+- **Mistake**: Attempting the submission without first securing dominant side control
   - **Consequence**: Opponent easily escapes or reverses position because you lack the necessary control and base
   - **Correction**: Always establish and maintain solid side control for at least 2-3 seconds before attacking the arm. Ensure heavy chest pressure, cross-face control, and hip control are in place.
-- **Mistake**: Pulling the wrist away from the opponent's body during rotation [Low DANGER]
+- **Mistake**: Pulling the wrist away from the opponent's body during rotation
   - **Consequence**: This removes pressure from the shoulder joint and allows the opponent to straighten their arm or escape the submission entirely
   - **Correction**: Keep the wrist pinned near their ribs or moving toward their hip. The rotation should occur at the shoulder through the elbow being driven down, not by pulling the wrist outward.
-- **Mistake**: Jerking or spiking the submission with sudden force [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission with sudden force
   - **Consequence**: High risk of serious shoulder injury including rotator cuff tears, labral damage, or dislocation
   - **Correction**: Apply all pressure slowly and progressively over 3-5 seconds minimum. The submission should feel like steady, increasing pressure, never a sudden spike. Partner safety is paramount.
-- **Mistake**: Losing the 90-degree angle by allowing the elbow to move away from the shoulder [Low DANGER]
+- **Mistake**: Losing the 90-degree angle by allowing the elbow to move away from the shoulder
   - **Consequence**: The submission loses effectiveness and the opponent can escape by circling their arm or straightening it completely
   - **Correction**: Constantly monitor that the elbow stays near their shoulder and in front of their shoulder line. The upper arm should remain relatively stationary while only the forearm rotates through the shoulder joint.
-- **Mistake**: Raising your hips or moving your weight backward during the finish [Medium DANGER]
+- **Mistake**: Raising your hips or moving your weight backward during the finish
   - **Consequence**: Creates space for the opponent to bridge, shrimp, or roll out of position, resulting in loss of control or position reversal
   - **Correction**: Keep your hips low and weight forward throughout the entire submission. Your chest should maintain constant pressure on their sternum even as you rotate their arm.
-- **Mistake**: Gripping with finger strength instead of structural positioning [Low DANGER]
+- **Mistake**: Gripping with finger strength instead of structural positioning
   - **Consequence**: Grip fails under pressure, especially against stronger opponents, and you waste energy maintaining inadequate control
   - **Correction**: Use the figure-four grip configuration where your arms create a locked structure. Your bottom arm captures their elbow while your top hand grips your own wrist, creating a frame that doesn't rely on finger strength.
-- **Mistake**: Continuing to apply pressure after partner taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps
   - **Consequence**: Serious shoulder injury to partner, violation of training safety, potential legal liability, and loss of training partners
   - **Correction**: Release immediately upon any tap signal - verbal, physical, or distress sound. Practice releasing quickly in drilling so it becomes automatic. Partner safety always supersedes finishing the submission.
 
@@ -353,43 +353,6 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding - Positional Control Foundation** (Week 1-2)
-- Focus: Master side control maintenance and weight distribution before attempting the submission. Practice establishing chest pressure, cross-face control, and hip control. Drill transitions into side control from various positions. Learn to recognize when your side control is secure enough to attack.
-- Resistance: None
-- Safety: Partner remains completely still. Focus on feeling what secure side control means. No submission attempts yet - only position holding and control. Practice maintaining position for 30-60 seconds continuously.
-
-**Slow Technical Drilling - Grip and Configuration** (Week 3-4)
-- Focus: Learn the proper grips, arm isolation, and 90-degree configuration. Practice securing the figure-four grip and positioning the opponent's arm correctly. Drill the sequence from side control to grip establishment repeatedly. Focus on precise hand positioning and structural mechanics.
-- Resistance: Zero resistance
-- Safety: Partner assists by positioning their arm cooperatively. Apply ZERO pressure to the shoulder - only practice positioning and grip. Repeat 20-30 times per session focusing on technical precision. Verify 90-degree angle each repetition.
-
-**Controlled Application - Light Pressure Introduction** (Week 5-8)
-- Focus: Begin applying very light rotational pressure, stopping well before discomfort. Practice the full sequence from side control through submission setup to early finishing pressure. Emphasis on smooth, progressive application over 5-7 seconds minimum. Partner taps early and often to develop release habits.
-- Resistance: Zero resistance
-- Safety: Apply only 20-30% of finishing pressure. Partner taps at first sign of pressure to train immediate release reflex. Practice releasing quickly and smoothly. Verbalize each step during execution. No strength, only technique.
-
-**Live Drilling - Defensive Responses** (Week 9-12)
-- Focus: Partner begins using realistic defensive movements - grabbing belt, straightening arm, attempting to roll. Practice maintaining control and adjusting technique against movement. Drill counters to common defenses. Continue emphasis on slow, controlled application.
-- Resistance: Mild resistance
-- Safety: Increase pressure to 40-50% maximum. Partner uses defensive movements but taps early. Practice problem-solving against defenses without rushing or forcing. Reset and restart whenever control is lost rather than muscling through.
-
-**Situational Sparring - Position to Submission** (Week 13-16)
-- Focus: Begin from side control against realistic resistance. Partner attempts genuine escapes and defenses. Practice recognizing opportunities and timing for the Americana attempt. Integrate with other submissions and position advances. Develop submission chains.
-- Resistance: Realistic resistance
-- Safety: Apply progressive pressure but maintain 3-5 second minimum application time. Partner gives realistic resistance but taps at 60-70% of their pain tolerance. Both partners communicate throughout. Focus on control over force.
-
-**Free Rolling Integration - Full Speed Application** (Week 17+)
-- Focus: Integrate the Americana into free rolling from all positions. Combine with positional transitions, submission chains, and strategic application. Recognize when opponents are vulnerable vs. when to abandon the attempt. Develop personal timing and setups.
-- Resistance: Full resistance
-- Safety: Maintain progressive application even at full speed - never spike or jerk. Both partners must have established trust and consistent tap discipline. Continue tapping early rather than testing flexibility. Respect that shoulder injuries can be career-ending. Prioritize longevity over tapping training partners.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -400,7 +363,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 - [[Modified Scarf Hold]]
 - [[Scarf Hold Position]]
 - [[North-South]]
-- [[North South Control]]
+- [[North-South]]
 - [[Knee on Belly]]
 - [[Side Control Consolidation]]
 - [[Reverse Kesa-Gatame]]
@@ -449,6 +412,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

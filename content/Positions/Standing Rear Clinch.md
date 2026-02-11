@@ -351,11 +351,11 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 48% | 20% |
-| Intermediate | 65% | 63% | 35% |
-| Advanced     | 80% | 78% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 70% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds before transition to ground position or submission attempt
 

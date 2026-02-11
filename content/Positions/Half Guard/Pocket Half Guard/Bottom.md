@@ -365,11 +365,11 @@ Start in Pocket Half Guard Bottom with deep underhook and pocket space establish
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 45% | 20% |
-| Intermediate | 70% | 60% | 35% |
-| Advanced     | 85% | 75% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 45-90 seconds before sweep attempt or transition
 

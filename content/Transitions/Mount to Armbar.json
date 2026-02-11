@@ -12,11 +12,6 @@
     "attack",
     "top-position"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Mount to Armbar transition is one of the most fundamental and high-percentage submission attacks in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and Ezekiel choke, making it an essential component of any complete mount attack system.",
   "key_principles": [
     "Maintain heavy chest pressure throughout the transition to prevent opponent escape",
@@ -40,44 +35,37 @@
     {
       "step_number": 1,
       "action": "Establish high mount control",
-      "description": "From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest.",
-      "timing": "Establish position before opponent can create significant frames"
+      "description": "From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest."
     },
     {
       "step_number": 2,
       "action": "Isolate the target arm",
-      "description": "As opponent pushes against your chest, choose one arm to attack (typically the arm on the side you feel most stable). Pin this arm to your chest by hugging it with your same-side arm, or grab their wrist with your opposite hand and pull it across your centerline. Ensure their elbow is above your belt line for proper armbar alignment.",
-      "timing": "Capture arm immediately when opponent extends it to frame"
+      "description": "As opponent pushes against your chest, choose one arm to attack (typically the arm on the side you feel most stable). Pin this arm to your chest by hugging it with your same-side arm, or grab their wrist with your opposite hand and pull it across your centerline. Ensure their elbow is above your belt line for proper armbar alignment."
     },
     {
       "step_number": 3,
       "action": "Control the opposite arm",
-      "description": "With your free hand, post on the mat near opponent's opposite shoulder or control their free arm by pinning it to the mat. This prevents them from turning into you or using that arm to defend the armbar. This control is critical for preventing the hitchhiker escape.",
-      "timing": "Simultaneous with arm isolation"
+      "description": "With your free hand, post on the mat near opponent's opposite shoulder or control their free arm by pinning it to the mat. This prevents them from turning into you or using that arm to defend the armbar. This control is critical for preventing the hitchhiker escape."
     },
     {
       "step_number": 4,
       "action": "Pivot and prepare leg position",
-      "description": "Maintaining control of the target arm, begin to pivot your body toward the opponent's head. Rotate your hips approximately 90 degrees while keeping the captured arm pinned to your chest. Your leg on the side of the attack should begin to post out, preparing to slide across the opponent's face.",
-      "timing": "Smooth rotation initiated once arm control is secure"
+      "description": "Maintaining control of the target arm, begin to pivot your body toward the opponent's head. Rotate your hips approximately 90 degrees while keeping the captured arm pinned to your chest. Your leg on the side of the attack should begin to post out, preparing to slide across the opponent's face."
     },
     {
       "step_number": 5,
       "action": "Slide leg across face",
-      "description": "Slide your leg across the opponent's face and neck, keeping your knee bent and your foot near their opposite shoulder. Do not step over their head - instead, slide the leg across while maintaining hip pressure against their shoulder. Your other leg should remain tight against their side to prevent them turning toward you.",
-      "timing": "Controlled slide with continuous pressure, approximately 1-2 seconds"
+      "description": "Slide your leg across the opponent's face and neck, keeping your knee bent and your foot near their opposite shoulder. Do not step over their head - instead, slide the leg across while maintaining hip pressure against their shoulder. Your other leg should remain tight against their side to prevent them turning toward you."
     },
     {
       "step_number": 6,
       "action": "Transition to armbar control",
-      "description": "Once your leg is across their face, sit back toward the mat while pulling the opponent's arm across your hips. Your knees should pinch together, trapping their arm between your legs. Your hips should be tight against their shoulder with your legs forming a strong figure-four position. The opponent's thumb should point toward the ceiling.",
-      "timing": "Immediate sit-back once leg position is secure"
+      "description": "Once your leg is across their face, sit back toward the mat while pulling the opponent's arm across your hips. Your knees should pinch together, trapping their arm between your legs. Your hips should be tight against their shoulder with your legs forming a strong figure-four position. The opponent's thumb should point toward the ceiling."
     },
     {
       "step_number": 7,
       "action": "Secure final armbar position",
-      "description": "Complete the transition by lying back fully, pulling the opponent's wrist toward your chest while driving your hips upward against their elbow. Both legs should be active - the leg across the face controlling their head, the other leg preventing them from turning into you. Maintain constant tension on the arm with two-handed control of their wrist.",
-      "timing": "Final position adjustment over 1-2 seconds"
+      "description": "Complete the transition by lying back fully, pulling the opponent's wrist toward your chest while driving your hips upward against their elbow. Both legs should be active - the leg across the face controlling their head, the other leg preventing them from turning into you. Maintain constant tension on the arm with two-handed control of their wrist."
     }
   ],
   "common_counters": [
@@ -133,32 +121,27 @@
     {
       "phase": "Week 1-2: Isolated Movement Pattern",
       "focus": "Learn the basic movement pattern without resistance",
-      "description": "Partner lies in bottom mount position and extends arms in a static frame. Practice the pivot, leg slide, and sit-back motion repeatedly, focusing on maintaining continuous control. Emphasis on smooth weight transfer and hip connection throughout the movement. Perform 20-30 repetitions per training session.",
-      "resistance_level": "None"
+      "description": "Partner lies in bottom mount position and extends arms in a static frame. Practice the pivot, leg slide, and sit-back motion repeatedly, focusing on maintaining continuous control. Emphasis on smooth weight transfer and hip connection throughout the movement. Perform 20-30 repetitions per training session."
     },
     {
       "phase": "Week 3-4: Controlled Resistance",
       "focus": "Execute against light defensive reactions",
-      "description": "Partner provides 25% resistance by attempting to pull their arm back when you begin the pivot. Practice reading the resistance and maintaining arm control through grip adjustment. Partner does not attempt to turn or bridge. Focus on problem-solving when they defend the arm withdrawal.",
-      "resistance_level": "Light"
+      "description": "Partner provides 25% resistance by attempting to pull their arm back when you begin the pivot. Practice reading the resistance and maintaining arm control through grip adjustment. Partner does not attempt to turn or bridge. Focus on problem-solving when they defend the arm withdrawal."
     },
     {
       "phase": "Week 5-8: Multiple Defense Scenarios",
       "focus": "Respond to various defensive reactions",
-      "description": "Partner alternates between different defenses: pulling elbow back, attempting to turn into you, grabbing their own gi. Practice recognizing each defense and applying the appropriate counter. Begin to chain to other submissions (triangle, Americana) when armbar is defended. Increase resistance to 50%.",
-      "resistance_level": "Medium"
+      "description": "Partner alternates between different defenses: pulling elbow back, attempting to turn into you, grabbing their own gi. Practice recognizing each defense and applying the appropriate counter. Begin to chain to other submissions (triangle, Americana) when armbar is defended. Increase resistance to 50%."
     },
     {
       "phase": "Week 9-12: Full Resistance Drilling",
       "focus": "Execute under full resistance and incorporate into positional sparring",
-      "description": "Start from mount position with partner using full defensive effort to prevent the armbar. Practice the technique in 3-minute rounds of positional sparring starting from mount. Success rate should improve as technical refinement increases. Begin to incorporate into regular sparring sessions.",
-      "resistance_level": "Full"
+      "description": "Start from mount position with partner using full defensive effort to prevent the armbar. Practice the technique in 3-minute rounds of positional sparring starting from mount. Success rate should improve as technical refinement increases. Begin to incorporate into regular sparring sessions."
     },
     {
       "phase": "Month 4+: Integration and Chaining",
       "focus": "Combine with mount attack system",
-      "description": "Integrate the Mount to Armbar into a complete attack system including transitions to triangle, Americana, Ezekiel, and back takes. Practice flowing between submissions based on defensive reactions. Develop the ability to create dilemmas where all defensive options lead to submission opportunities.",
-      "resistance_level": "Full"
+      "description": "Integrate the Mount to Armbar into a complete attack system including transitions to triangle, Americana, Ezekiel, and back takes. Practice flowing between submissions based on defensive reactions. Develop the ability to create dilemmas where all defensive options lead to submission opportunities."
     }
   ],
   "variants_and_adaptations": [
@@ -181,33 +164,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical control to establish before pivoting for the Mount to Armbar?",
-      "answer": "Control of the target arm is paramount - the arm must be pinned to your chest or securely gripped before initiating any pivot. Additionally, controlling or posting on the opposite arm prevents the hitchhiker escape. Without these controls established, the opponent can simply withdraw their arms defensively and the attack fails.",
-      "difficulty": "Beginner"
+      "answer": "Control of the target arm is paramount - the arm must be pinned to your chest or securely gripped before initiating any pivot. Additionally, controlling or posting on the opposite arm prevents the hitchhiker escape. Without these controls established, the opponent can simply withdraw their arms defensively and the attack fails."
     },
     {
       "question": "Why should you slide your leg across the opponent's face rather than stepping over their head?",
-      "answer": "Sliding the leg across maintains continuous hip pressure against the opponent's shoulder, eliminating escape space. Stepping over creates a moment where your weight lifts off the opponent, allowing them to turn into you or pull their arm free. The sliding motion also provides better base and balance throughout the transition, making the technique more secure and controllable.",
-      "difficulty": "Intermediate"
+      "answer": "Sliding the leg across maintains continuous hip pressure against the opponent's shoulder, eliminating escape space. Stepping over creates a moment where your weight lifts off the opponent, allowing them to turn into you or pull their arm free. The sliding motion also provides better base and balance throughout the transition, making the technique more secure and controllable."
     },
     {
       "question": "How do you counter the hitchhiker escape during the Mount to Armbar transition?",
-      "answer": "The hitchhiker escape is prevented through proper opposite-arm control - post on the mat near their shoulder or pin their free arm before pivoting. If they begin to turn despite this, you can transition to triangle choke by bringing your leg over their shoulder and across their back, or use their turning momentum to establish back control with a harness grip. The key is recognizing the turn early and having a planned response.",
-      "difficulty": "Advanced"
+      "answer": "The hitchhiker escape is prevented through proper opposite-arm control - post on the mat near their shoulder or pin their free arm before pivoting. If they begin to turn despite this, you can transition to triangle choke by bringing your leg over their shoulder and across their back, or use their turning momentum to establish back control with a harness grip. The key is recognizing the turn early and having a planned response."
     },
     {
       "question": "What creates the opportunity for the Mount to Armbar transition?",
-      "answer": "The opponent's defensive framing creates the opportunity. When mounted, opponents instinctively push against the top player's chest with straight arms to create space. This defensive reaction extends their arms into the perfect position for armbar attack. By driving chest pressure forward, you force this framing response and create your own attacking opportunities.",
-      "difficulty": "Beginner"
+      "answer": "The opponent's defensive framing creates the opportunity. When mounted, opponents instinctively push against the top player's chest with straight arms to create space. This defensive reaction extends their arms into the perfect position for armbar attack. By driving chest pressure forward, you force this framing response and create your own attacking opportunities."
     },
     {
       "question": "How does the Mount to Armbar exemplify the principle of position before submission?",
-      "answer": "The Mount to Armbar demonstrates position before submission because you maintain dominant top position throughout the entire transition. You never abandon mount control until the armbar position itself becomes the new dominant position. At each phase - high mount, pivot, leg slide, and sit-back - you retain superior positioning with escape prevention built into the technique. This ensures that even if the submission fails, you can recover to mount rather than losing position entirely. The technique teaches that submissions should flow from positions of control, not be desperate attacks that risk position loss.",
-      "difficulty": "Advanced"
+      "answer": "The Mount to Armbar demonstrates position before submission because you maintain dominant top position throughout the entire transition. You never abandon mount control until the armbar position itself becomes the new dominant position. At each phase - high mount, pivot, leg slide, and sit-back - you retain superior positioning with escape prevention built into the technique. This ensures that even if the submission fails, you can recover to mount rather than losing position entirely. The technique teaches that submissions should flow from positions of control, not be desperate attacks that risk position loss."
     },
     {
       "question": "What should you do if the opponent successfully defends by pulling their elbow back during your pivot?",
-      "answer": "If the opponent successfully withdraws their arm, immediately transition to an alternative attack rather than forcing a defended armbar. The best option is triangle choke - bring your leg over their shoulder and across their back, using your arm control to pull their head forward into the triangle. Alternatively, establish gift wrap position to attack their opposite arm or transition to back control. The key is treating the defense as an opportunity to attack elsewhere rather than insisting on a single technique.",
-      "difficulty": "Intermediate"
+      "answer": "If the opponent successfully withdraws their arm, immediately transition to an alternative attack rather than forcing a defended armbar. The best option is triangle choke - bring your leg over their shoulder and across their back, using your arm control to pull their head forward into the triangle. Alternatively, establish gift wrap position to attack their opposite arm or transition to back control. The key is treating the defense as an opportunity to attack elsewhere rather than insisting on a single technique."
     }
   ],
   "safety_considerations": "The Mount to Armbar transition is generally safe when practiced with control and awareness. However, several safety considerations must be observed. When drilling, the top person should never drop their full weight suddenly onto the arm - the sit-back should be controlled and progressive. During the transition, be aware of your partner's neck position when sliding your leg across their face, avoiding excessive pressure that could cause neck strain. When finishing the armbar, apply pressure gradually and stop immediately upon the tap. The bottom person should tap early and often during drilling to prevent elbow hyperextension. Never attempt to escape an established armbar by rolling or standing - this risks serious elbow injury. When learning the technique, use increased communication with your partner about pressure levels, and always start with zero resistance before progressing to live drilling. Instructors should emphasize tap safety and ensure students understand that protecting training partners is paramount to effective learning.",
@@ -271,5 +248,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

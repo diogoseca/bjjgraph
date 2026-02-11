@@ -367,11 +367,11 @@ Start in knee shield half guard top position with specific goal constraints. Top
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 10% |
-| Intermediate | 65% | 50% | 20% |
-| Advanced     | 75% | 65% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 58% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 45-90 seconds for experienced passers, 2-3 minutes for beginners
 

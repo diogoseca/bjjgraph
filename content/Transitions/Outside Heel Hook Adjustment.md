@@ -157,7 +157,7 @@ The technique involves transitioning from whatever grip configuration you mainta
 Strategically, the Outside Heel Hook Adjustment represents a commitment to finishing the submission rather than transitioning to higher-control positions like saddle or following to back control. This decision should be made when the opponent's heel is accessible, their defensive grips haven't fully established, and your body position allows for the necessary adjustments. The adjustment window is often brief—skilled defenders will use this transition time to improve their hand fighting or accelerate their escape rotation.
 
 **From Position**: [[Ushiro Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg control**: Tighten your figure-four leg configuration by squeezing your knees together and pulling your heels toward your hips, ensuring the opponent cannot extract their trapped leg during the grip transition. (Timing: Before releasing any existing grips)
-2. **Clear defensive grips**: Use your outside hand to strip or control the opponent's primary defensive grip on your attacking arm, creating the space needed to reposition your hands for the heel hook configuration. (Timing: Quick strip action, 1-2 seconds maximum)
-3. **Capture the heel**: Slide your primary attacking hand (typically the hand closest to their heel) underneath their Achilles tendon, cupping the heel bone in your palm with your forearm aligned along their calf muscle. (Timing: Immediately after clearing their defensive grip)
-4. **Establish figure-four lock**: Bring your secondary hand over the top of your primary wrist, interlocking to create the figure-four grip configuration that prevents the heel from slipping free during the finishing rotation. (Timing: Within 1-2 seconds of heel capture)
-5. **Adjust hip angle**: Rotate your hips toward the opponent's trapped knee, bringing your elbows tight to your ribs. This creates the mechanical advantage needed to rotate the heel despite their inverted position. (Timing: Simultaneous with grip consolidation)
-6. **Apply finishing rotation**: Drive your elbows toward your opposite hip while extending your hips away from the opponent, creating the rotational torque on the heel that attacks the knee ligaments. Control the speed to allow tap. (Timing: Controlled application, ready to release on tap)
+1. **Secure leg control**: Tighten your figure-four leg configuration by squeezing your knees together and pulling your heels toward your hips, ensuring the opponent cannot extract their trapped leg during the grip transition.
+2. **Clear defensive grips**: Use your outside hand to strip or control the opponent's primary defensive grip on your attacking arm, creating the space needed to reposition your hands for the heel hook configuration.
+3. **Capture the heel**: Slide your primary attacking hand (typically the hand closest to their heel) underneath their Achilles tendon, cupping the heel bone in your palm with your forearm aligned along their calf muscle.
+4. **Establish figure-four lock**: Bring your secondary hand over the top of your primary wrist, interlocking to create the figure-four grip configuration that prevents the heel from slipping free during the finishing rotation.
+5. **Adjust hip angle**: Rotate your hips toward the opponent's trapped knee, bringing your elbows tight to your ribs. This creates the mechanical advantage needed to rotate the heel despite their inverted position.
+6. **Apply finishing rotation**: Drive your elbows toward your opposite hip while extending your hips away from the opponent, creating the rotational torque on the heel that attacks the knee ligaments. Control the speed to allow tap.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, the Outside Heel Hook Adjustment represents a commitment to finis
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the figure-four heel hook grip in isolation. Partner provides stationary heel while you drill hand positioning, grip lock, and elbow-to-hip finishing motion. Focus on capturing the actual heel bone.
-(Resistance: None)
 
 **Week 3-4** - Position integration
 Start from established Ushiro Ashi-Garami and practice the full adjustment sequence. Partner maintains passive position while you work grip clearing, heel capture, and body angle adjustment.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner provides increasing defensive resistance including boot defense, grip fighting, and escape attempts. Practice identifying when to commit to finish versus when to transition to alternative attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate adjustment into live leg lock sparring from various entry points. Work on recognizing optimal timing windows and developing sensitivity for when adjustment will succeed versus when transition is better.
-(Resistance: Full)
 
 
 

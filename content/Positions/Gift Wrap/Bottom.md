@@ -374,11 +374,11 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 85% | 10% | 5% |
-| Intermediate | 70% | 25% | 12% |
-| Advanced     | 50% | 45% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 35% |
+| Submission Probability | 16% |
 
 
 

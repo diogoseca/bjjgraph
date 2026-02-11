@@ -153,7 +153,7 @@ description: "Master the Kimura to Back Take in BJJ. Complete transition from Ki
 The Kimura to Back Take is a fundamental transition that exemplifies the principle of using submission threats to advance position. When an opponent defends the Kimura finish by pulling their elbow tight to their body or rolling with the lock, this creates a predictable defensive pathway that can be exploited to transition to back control. This transition is particularly effective because the opponent's defensive instinct to protect their shoulder naturally exposes their back. The grip control established in the Kimura position provides exceptional leverage to maintain connection throughout the transition, making it one of the highest-percentage back take sequences available from side control or turtle positions. Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways.
 
 **From Position**: [[Kimura Trap/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -201,12 +201,12 @@ The Kimura to Back Take is a fundamental transition that exemplifies the princip
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Kimura grip**: Establish figure-four Kimura grip on opponent's arm with their elbow bent and hand behind their back. Your grip hand should feed through under their arm, meeting your other hand in a strong configuration. Apply initial shoulder lock pressure to create discomfort and force a defensive reaction. (Timing: Maintain constant pressure until opponent begins moving)
-2. **Pressure the submission**: Increase Kimura pressure by lifting opponent's hand toward their shoulder blade while driving their elbow toward their far hip. This creates the dilemma that forces their defensive response. Apply enough pressure that staying stationary becomes untenable, but maintain control rather than attempting to finish immediately. (Timing: Progressive pressure increase over 2-3 seconds)
-3. **Read defensive movement**: Recognize opponent's defensive pattern - typically rolling toward the trapped arm to relieve shoulder pressure or turtling to protect the submission. Their body rotation toward the Kimura is the primary back exposure opportunity. Stay alert to their hip direction and shoulder rotation. (Timing: React immediately when movement begins)
-4. **Follow the roll**: As opponent begins rolling, maintain your Kimura grip absolutely while using your body weight to follow their rotation. Keep your chest connected to their upper back throughout the roll. Allow them to roll underneath you while you maintain top position, riding their movement like a wave rather than fighting it. (Timing: Continuous smooth following motion)
-5. **Climb to back position**: As opponent completes their roll, use your Kimura grip as an anchor point while bringing your inside leg over their hip. Insert your bottom hook first, then follow with top hook. Your chest should remain heavy on their upper back, preventing them from turning back into you. The Kimura grip functions as both control and barrier to escape. (Timing: Hooks inserted within 1-2 seconds of position change)
-6. **Transition to seat belt control**: Once both hooks are secured and opponent cannot immediately escape, begin transitioning from Kimura grip to seat belt harness. Slide your top arm across opponent's neck or chest while bottom arm controls their opposite shoulder. Only release Kimura grip completely once seat belt configuration is established and hooks are deep. This final control transition must be smooth to prevent escape during grip change. (Timing: Grip transition takes 2-3 seconds with maintained pressure)
+1. **Secure Kimura grip**: Establish figure-four Kimura grip on opponent's arm with their elbow bent and hand behind their back. Your grip hand should feed through under their arm, meeting your other hand in a strong configuration. Apply initial shoulder lock pressure to create discomfort and force a defensive reaction.
+2. **Pressure the submission**: Increase Kimura pressure by lifting opponent's hand toward their shoulder blade while driving their elbow toward their far hip. This creates the dilemma that forces their defensive response. Apply enough pressure that staying stationary becomes untenable, but maintain control rather than attempting to finish immediately.
+3. **Read defensive movement**: Recognize opponent's defensive pattern - typically rolling toward the trapped arm to relieve shoulder pressure or turtling to protect the submission. Their body rotation toward the Kimura is the primary back exposure opportunity. Stay alert to their hip direction and shoulder rotation.
+4. **Follow the roll**: As opponent begins rolling, maintain your Kimura grip absolutely while using your body weight to follow their rotation. Keep your chest connected to their upper back throughout the roll. Allow them to roll underneath you while you maintain top position, riding their movement like a wave rather than fighting it.
+5. **Climb to back position**: As opponent completes their roll, use your Kimura grip as an anchor point while bringing your inside leg over their hip. Insert your bottom hook first, then follow with top hook. Your chest should remain heavy on their upper back, preventing them from turning back into you. The Kimura grip functions as both control and barrier to escape.
+6. **Transition to seat belt control**: Once both hooks are secured and opponent cannot immediately escape, begin transitioning from Kimura grip to seat belt harness. Slide your top arm across opponent's neck or chest while bottom arm controls their opposite shoulder. Only release Kimura grip completely once seat belt configuration is established and hooks are deep. This final control transition must be smooth to prevent escape during grip change.
 
 
 </section>
@@ -252,27 +252,21 @@ The Kimura to Back Take is a fundamental transition that exemplifies the princip
 ## Training Progressions
 **Week 1-2: Grip Retention** - Maintaining Kimura grip during partner movement
 Partner establishes Kimura from side control. Bottom person performs slow defensive rolls while top person focuses solely on maintaining grip integrity and following movement. No attempt to establish hooks yet. Build grip strength and movement coordination.
-(Resistance: Light)
 
 **Week 3-4: Hook Insertion Timing** - Recognizing back exposure and securing hooks
 Add hook insertion to the drill. As bottom person rolls, top person identifies the moment of back exposure and establishes bottom hook, then top hook. Practice proper sequencing and timing. Bottom person uses 25% resistance, holding position once hooks touch but not fighting vigorously.
-(Resistance: Light)
 
 **Week 5-6: Complete Sequence with Control** - Full transition including seat belt establishment
 Execute complete sequence from Kimura grip through back control with seat belt. Partner provides moderate resistance, attempting to prevent transition but not explosive escapes. Focus on smooth grip transition from Kimura to harness. Work on maintaining control throughout.
-(Resistance: Medium)
 
 **Week 7-8: Countering Defenses** - Reading and adapting to opponent's defensive choices
 Partner actively defends using various counters: posting to prevent roll, counter-rolling away, grip fighting, etc. Practitioner must read defense and adjust technique accordingly. Build problem-solving skills under realistic resistance.
-(Resistance: Medium)
 
 **Week 9-10: Multiple Entry Points** - Hitting transition from various Kimura setups
 Practice Kimura to back take from multiple starting positions: side control, turtle, north-south, guard, standing. Develop universal principles that apply regardless of specific context. Partner provides varied resistance levels randomly.
-(Resistance: Medium)
 
 **Week 11+: Live Integration** - Applying technique during positional and full sparring
 Use technique actively during live training sessions. Start from side control/turtle positions and work for Kimura opportunities with explicit goal of taking the back. Track success rates and identify personal sticking points for additional drilling.
-(Resistance: Full)
 
 
 

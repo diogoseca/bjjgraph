@@ -17,7 +17,7 @@ description: "Learn Switch to Darce Configuration from Buggy Choke in BJJ. Recon
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Switch to Darce Configuration in BJJ",
-  "description": "Step-by-step guide for Switch to Darce Configuration from Buggy Choke/Top. Possible outcomes: D'arce Control (55%), Buggy Choke (30%), Half Guard (15%).",
+  "description": "Step-by-step guide for Switch to Darce Configuration from Buggy Choke/Top. Possible outcomes: Darce Control (55%), Buggy Choke (30%), Half Guard (15%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -163,7 +163,7 @@ The darce configuration is mechanically distinct from the anaconda because the c
 This transition is a critical branch in the buggy choke attack tree. Opponents who turn in to defend the collar grip inadvertently create the head-and-arm angle required for both darce and anaconda attacks. Choosing the darce over the anaconda depends on arm positioning and the specific angle of the opponent's rotation. The darce configuration offers a powerful finishing position because the choking arm's blade sits directly across the carotid with the opponent's own trapped shoulder acting as the secondary compression point. Once the figure-four locks, the top player sprawls and walks hips toward the head to generate finishing pressure through body mechanics rather than arm strength.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -173,7 +173,7 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[D'arce Control]] | 55% |
+| Success | [[Darce Control]] | 55% |
 | Failure | [[Buggy Choke]] | 30% |
 | Counter | [[Half Guard]] | 15% |
 
@@ -211,13 +211,13 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize rotation trigger**: Feel the opponent begin rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, creating the head-and-arm channel. Simultaneously assess whether the far armpit is accessible for darce threading—if the far arm is posted or elevated, the darce angle is mechanically favored over the anaconda. (Timing: Within 1 second of feeling opponent's rotation)
-2. **Release collar and redirect arm path**: Release the far-side collar grip with your threading arm and begin redirecting it from the near-armpit channel toward the gap between the opponent's neck and far arm. The hand withdraws from the collar and travels across the opponent's upper back toward the far side, maintaining contact with their body throughout to prevent space creation. (Timing: Immediate and continuous—no pause between release and redirect)
-3. **Thread under far armpit**: Drive your choking arm under the opponent's far armpit from the back side, threading deep enough that your forearm emerges on the other side of their neck with the blade of your wrist settling against the near-side carotid artery. The palm should face down as you thread, allowing the forearm to seat across the throat once the arm is fully through the neck-armpit channel. (Timing: 1-2 seconds to achieve full threading depth)
-4. **Secure opponent's head position**: Use your support arm (the arm that was not threading) to cup the back of the opponent's head or press their trapped shoulder down, preventing them from posturing up or extracting their head from the darce channel. The opponent's near arm should be trapped between their own head and your choking arm, acting as the compression fulcrum. (Timing: Simultaneous with threading completion)
-5. **Lock figure-four grip**: Connect the figure-four by gripping your own bicep with the choking arm's hand while the support arm's hand presses the back of the opponent's head or their trapped shoulder firmly downward. Squeeze your elbows together to eliminate slack in the grip structure and begin applying bilateral carotid compression through the forearm-and-shoulder mechanics. (Timing: Secure grip before opponent can posture or strip)
-6. **Consolidate darce control position**: Walk your hips toward the opponent's head and sprawl your legs back to create a perpendicular angle between your body and theirs. Drop your weight low against the mat and let gravity drive the compression downward through the figure-four structure. The opponent's own trapped shoulder provides the secondary compression point against the opposite carotid. (Timing: 2-3 seconds to achieve optimal finishing angle)
-7. **Apply finishing pressure or transition**: Squeeze your elbows together while maintaining the sprawl and hip angle to finish the darce choke. If the opponent defends by rolling to their back, follow them and maintain the grip—the darce finishes effectively from this angle as well. If the grip is not deep enough to finish, maintain darce control and work to improve arm depth before re-attempting the squeeze. (Timing: Execute within 3-5 seconds of grip consolidation)
+1. **Recognize rotation trigger**: Feel the opponent begin rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, creating the head-and-arm channel. Simultaneously assess whether the far armpit is accessible for darce threading—if the far arm is posted or elevated, the darce angle is mechanically favored over the anaconda.
+2. **Release collar and redirect arm path**: Release the far-side collar grip with your threading arm and begin redirecting it from the near-armpit channel toward the gap between the opponent's neck and far arm. The hand withdraws from the collar and travels across the opponent's upper back toward the far side, maintaining contact with their body throughout to prevent space creation.
+3. **Thread under far armpit**: Drive your choking arm under the opponent's far armpit from the back side, threading deep enough that your forearm emerges on the other side of their neck with the blade of your wrist settling against the near-side carotid artery. The palm should face down as you thread, allowing the forearm to seat across the throat once the arm is fully through the neck-armpit channel.
+4. **Secure opponent's head position**: Use your support arm (the arm that was not threading) to cup the back of the opponent's head or press their trapped shoulder down, preventing them from posturing up or extracting their head from the darce channel. The opponent's near arm should be trapped between their own head and your choking arm, acting as the compression fulcrum.
+5. **Lock figure-four grip**: Connect the figure-four by gripping your own bicep with the choking arm's hand while the support arm's hand presses the back of the opponent's head or their trapped shoulder firmly downward. Squeeze your elbows together to eliminate slack in the grip structure and begin applying bilateral carotid compression through the forearm-and-shoulder mechanics.
+6. **Consolidate darce control position**: Walk your hips toward the opponent's head and sprawl your legs back to create a perpendicular angle between your body and theirs. Drop your weight low against the mat and let gravity drive the compression downward through the figure-four structure. The opponent's own trapped shoulder provides the secondary compression point against the opposite carotid.
+7. **Apply finishing pressure or transition**: Squeeze your elbows together while maintaining the sprawl and hip angle to finish the darce choke. If the opponent defends by rolling to their back, follow them and maintain the grip—the darce finishes effectively from this angle as well. If the grip is not deep enough to finish, maintain darce control and work to improve arm depth before re-attempting the squeeze.
 
 
 </section>
@@ -263,19 +263,15 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 ## Training Progressions
 **Week 1-2** - Grip mechanics isolation
 Practice the arm redirect from buggy choke collar grip to darce threading on a stationary partner in turtle. Focus on the hand path from collar release through the neck-armpit channel, achieving proper figure-four depth, and maintaining chest contact throughout. Drill 15-20 repetitions per side emphasizing the continuous motion and correct threading direction under the far armpit.
-(Resistance: None)
 
 **Week 3-4** - Rotation recognition and timing
 Partner provides light resistance and controlled rotational movements from turtle bottom. Practice reading the turning motion as the trigger for the darce switch versus maintaining the buggy choke when partner stays static. Develop sensitivity for distinguishing when the darce angle is favored over the anaconda based on the opponent's far arm position.
-(Resistance: Light)
 
 **Week 5-6** - Transition chains and decision tree
 Partner provides realistic defensive reactions including elbow clamping, sitting to guard, chin tucking, and forward driving. Practice flowing between buggy choke maintenance, darce switch, anaconda switch, and front headlock entries based on defensive responses. Develop the full branching decision tree from buggy choke top position with the darce as one primary branch.
-(Resistance: Medium)
 
 **Week 7-8** - Competition simulation and finishing
 Full resistance positional sparring starting from buggy choke top. Top player must read defenses and execute appropriate transitions including the darce switch with the full finishing sequence (sprawl, hip walk, squeeze). Bottom player uses full defensive arsenal. Score for successful transitions, submission finishes from darce control, and positional advancement.
-(Resistance: Full)
 
 
 
@@ -352,7 +348,7 @@ The Switch to Darce Configuration is a critical branch in the buggy choke attack
 ## Related Techniques
 
 - [[Buggy Choke]] - Starting position and control structure from which the darce switch initiates
-- [[D'arce Control]] - Target position achieved upon successful grip reconfiguration to darce
+- [[Darce Control]] - Target position achieved upon successful grip reconfiguration to darce
 - [[Darce Choke]] - Primary submission finish available from the darce control position
 - [[Switch to Anaconda Configuration]] - Mirror sibling transition using opposite threading direction from same starting position
 - [[Anaconda Control]] - Alternative control position when anaconda angle is favored over darce

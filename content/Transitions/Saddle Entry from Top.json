@@ -10,11 +10,6 @@
     "leg-entanglement",
     "top-position"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 75
-  },
   "overview": "The Saddle Entry from Top is a fundamental leg entanglement technique that allows the top player to transition from various passing positions into the Saddle (also known as Honey Hole or Inside Sankaku). This entry is critical for modern leg lock systems and represents one of the most direct paths to dominant leg attack positions. The technique exploits moments when the bottom player's legs are extended or when they attempt defensive movements that expose their leg positioning.\n\nThis entry serves as a cornerstone of modern leg lock methodology and has revolutionized competitive no-gi grappling. The saddle position provides maximum control over the opponent's hip and leg while creating immediate submission threats through inside heel hooks, toe holds, and kneebars. Understanding proper entry mechanics is essential for any practitioner looking to develop a comprehensive leg lock game.\n\nThe technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.",
   "key_principles": [
     "Control the opponent's near leg before attempting entry",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Secure near leg control",
-      "description": "From top position (headquarters, knee slice, or passing position), establish control of the opponent's near leg using both hands. Grip the ankle with your near hand and control the knee or thigh with your far hand. This prevents the opponent from retracting their leg and creates the foundation for entry.",
-      "timing": "Establish control when opponent extends leg defensively or during guard recovery"
+      "description": "From top position (headquarters, knee slice, or passing position), establish control of the opponent's near leg using both hands. Grip the ankle with your near hand and control the knee or thigh with your far hand. This prevents the opponent from retracting their leg and creates the foundation for entry."
     },
     {
       "step_number": 2,
       "action": "Create entry angle",
-      "description": "Step your outside leg (the leg furthest from opponent's hips) toward the opponent's hip line while maintaining leg control. Position your foot near their hip or on the mat beside their hip. This creates the proper angle for stepping over and prevents the opponent from rotating away.",
-      "timing": "Execute immediately after securing leg control"
+      "description": "Step your outside leg (the leg furthest from opponent's hips) toward the opponent's hip line while maintaining leg control. Position your foot near their hip or on the mat beside their hip. This creates the proper angle for stepping over and prevents the opponent from rotating away."
     },
     {
       "step_number": 3,
       "action": "Step over controlled leg",
-      "description": "Bring your inside leg (nearest to opponent's legs) over the opponent's controlled leg. Your inside knee should clear their leg and land on the opposite side. Maintain constant pressure on their leg throughout this movement to prevent escape. Keep your weight distributed to avoid being swept.",
-      "timing": "Smooth, controlled movement coordinated with hip positioning"
+      "description": "Bring your inside leg (nearest to opponent's legs) over the opponent's controlled leg. Your inside knee should clear their leg and land on the opposite side. Maintain constant pressure on their leg throughout this movement to prevent escape. Keep your weight distributed to avoid being swept."
     },
     {
       "step_number": 4,
       "action": "Thread inside leg",
-      "description": "Continue threading your inside leg under the opponent's controlled leg, bringing your inside thigh underneath their thigh. Your legs should now form a triangle configuration around their leg with your inside thigh positioned under their leg and your outside leg positioned over their leg.",
-      "timing": "Immediately following step-over before opponent can adjust"
+      "description": "Continue threading your inside leg under the opponent's controlled leg, bringing your inside thigh underneath their thigh. Your legs should now form a triangle configuration around their leg with your inside thigh positioned under their leg and your outside leg positioned over their leg."
     },
     {
       "step_number": 5,
       "action": "Secure saddle configuration",
-      "description": "Lock your feet together (inside foot over outside foot) to complete the saddle entanglement. Ensure the opponent's knee is trapped between your legs with their leg pulled across your body. Your inside thigh should be positioned high on their inner thigh, controlling their hip rotation. Adjust your position to face the opponent's leg rather than their body.",
-      "timing": "Lock configuration while pulling opponent's leg tightly into saddle"
+      "description": "Lock your feet together (inside foot over outside foot) to complete the saddle entanglement. Ensure the opponent's knee is trapped between your legs with their leg pulled across your body. Your inside thigh should be positioned high on their inner thigh, controlling their hip rotation. Adjust your position to face the opponent's leg rather than their body."
     },
     {
       "step_number": 6,
       "action": "Establish positional control",
-      "description": "Fall to your outside hip, bringing the opponent's leg with you. Control their far leg with your outside arm to prevent them from squaring up or clearing their knee line. Establish control of their heel/foot with your inside arm. Ensure your hips are connected to theirs and your legs maintain constant pressure on their trapped leg.",
-      "timing": "Smooth transition to bottom position while maintaining all controls"
+      "description": "Fall to your outside hip, bringing the opponent's leg with you. Control their far leg with your outside arm to prevent them from squaring up or clearing their knee line. Establish control of their heel/foot with your inside arm. Ensure your hips are connected to theirs and your legs maintain constant pressure on their trapped leg."
     },
     {
       "step_number": 7,
       "action": "Adjust to submission position",
-      "description": "Make final adjustments to optimize your saddle configuration: ensure their toes point away from you (externally rotated), verify your legs are creating maximum pressure on their knee joint, and position their heel close to your chest for finishing control. From here, you can attack inside heel hooks, toe holds, or transitions to other ashi garami variations.",
-      "timing": "Final adjustment before attacking submissions"
+      "description": "Make final adjustments to optimize your saddle configuration: ensure their toes point away from you (externally rotated), verify your legs are creating maximum pressure on their knee joint, and position their heel close to your chest for finishing control. From here, you can attack inside heel hooks, toe holds, or transitions to other ashi garami variations."
     }
   ],
   "common_counters": [
@@ -145,38 +133,32 @@
     {
       "phase": "Phase 1: Isolated Movement Pattern (Weeks 1-2)",
       "focus": "Learning the footwork and leg threading mechanics without resistance",
-      "description": "Practice the step-over and leg threading motion repeatedly with compliant partner who maintains static position. Focus on smooth execution and correct leg positioning. Drill from various top positions (headquarters, knee slice, float passing). Emphasize proper angle creation before committing to entry.",
-      "resistance_level": "None"
+      "description": "Practice the step-over and leg threading motion repeatedly with compliant partner who maintains static position. Focus on smooth execution and correct leg positioning. Drill from various top positions (headquarters, knee slice, float passing). Emphasize proper angle creation before committing to entry."
     },
     {
       "phase": "Phase 2: Controlled Entry Drilling (Weeks 3-4)",
       "focus": "Adding basic defensive reactions and maintaining control throughout entry",
-      "description": "Partner provides light resistance by attempting to retract leg or turn away. Practice maintaining leg control while executing entry. Work on recognizing optimal timing windows during passing attempts. Begin connecting entry to basic inside heel hook finishing mechanics.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by attempting to retract leg or turn away. Practice maintaining leg control while executing entry. Work on recognizing optimal timing windows during passing attempts. Begin connecting entry to basic inside heel hook finishing mechanics."
     },
     {
       "phase": "Phase 3: Situational Sparring (Weeks 5-8)",
       "focus": "Entering saddle from live passing scenarios with medium resistance",
-      "description": "Top player attempts to pass guard with saddle entry as primary objective when opportunities arise. Bottom player plays normal guard retention but allows entries to develop. Focus on transitioning smoothly from passing positions to saddle. Work counter responses to common defenses.",
-      "resistance_level": "Medium"
+      "description": "Top player attempts to pass guard with saddle entry as primary objective when opportunities arise. Bottom player plays normal guard retention but allows entries to develop. Focus on transitioning smoothly from passing positions to saddle. Work counter responses to common defenses."
     },
     {
       "phase": "Phase 4: Competition Timing (Weeks 9-12)",
       "focus": "Recognizing and capitalizing on entry opportunities during full resistance",
-      "description": "Live rolling with focus on saddle entries from top position. Work on chaining entries with passing attempts so opponent cannot predict your intentions. Practice entries against opponents familiar with the defense. Develop ability to recognize fleeting opportunities during scrambles.",
-      "resistance_level": "Full"
+      "description": "Live rolling with focus on saddle entries from top position. Work on chaining entries with passing attempts so opponent cannot predict your intentions. Practice entries against opponents familiar with the defense. Develop ability to recognize fleeting opportunities during scrambles."
     },
     {
       "phase": "Phase 5: System Integration (Months 4-6)",
       "focus": "Connecting saddle entry to complete leg lock system and submission chains",
-      "description": "Integrate saddle entry with multiple submission attacks, transitions to other ashi garami positions, and entry/re-entry sequences. Practice against high-level leg lock defenders. Develop entries from increasingly complex passing positions and scrambles. Work on maintaining saddle against escape attempts.",
-      "resistance_level": "Full"
+      "description": "Integrate saddle entry with multiple submission attacks, transitions to other ashi garami positions, and entry/re-entry sequences. Practice against high-level leg lock defenders. Develop entries from increasingly complex passing positions and scrambles. Work on maintaining saddle against escape attempts."
     },
     {
       "phase": "Phase 6: Ongoing Refinement",
       "focus": "Continuous improvement through competition testing and technical refinement",
-      "description": "Test entry against various body types and defensive styles. Analyze competition footage to identify new entry opportunities. Refine mechanics for efficiency and speed. Develop multiple entry paths to same position. Study high-level competitors' variations and incorporate effective elements.",
-      "resistance_level": "Full"
+      "description": "Test entry against various body types and defensive styles. Analyze competition footage to identify new entry opportunities. Refine mechanics for efficiency and speed. Develop multiple entry paths to same position. Study high-level competitors' variations and incorporate effective elements."
     }
   ],
   "variants_and_adaptations": [
@@ -209,38 +191,31 @@
   "knowledge_assessment": [
     {
       "question": "Which leg should step over first when entering saddle from top position, and why is this sequencing critical?",
-      "answer": "Your outside leg (furthest from opponent's hips) should step toward their hip first to create the proper entry angle. This positioning prevents opponent from rotating away and creates the geometric foundation for threading your inside leg over and under their controlled leg. Stepping with the wrong leg first creates poor angles and leaves you vulnerable to sweeps or makes the entanglement impossible to complete correctly.",
-      "difficulty": "Beginner"
+      "answer": "Your outside leg (furthest from opponent's hips) should step toward their hip first to create the proper entry angle. This positioning prevents opponent from rotating away and creates the geometric foundation for threading your inside leg over and under their controlled leg. Stepping with the wrong leg first creates poor angles and leaves you vulnerable to sweeps or makes the entanglement impossible to complete correctly."
     },
     {
       "question": "What is the most critical control to maintain throughout the saddle entry transition, and what happens if you lose it?",
-      "answer": "Maintaining constant hand control on the opponent's near leg (ankle and knee/thigh) throughout the entire entry sequence is most critical. If you release this control during the step-over or threading motion, the opponent will immediately retract their leg, escaping the entry entirely. This often leaves you in a vulnerable scramble position or causes complete loss of top position. The leg control should only be replaced by your leg entanglement, never released into empty space.",
-      "difficulty": "Intermediate"
+      "answer": "Maintaining constant hand control on the opponent's near leg (ankle and knee/thigh) throughout the entire entry sequence is most critical. If you release this control during the step-over or threading motion, the opponent will immediately retract their leg, escaping the entry entirely. This often leaves you in a vulnerable scramble position or causes complete loss of top position. The leg control should only be replaced by your leg entanglement, never released into empty space."
     },
     {
       "question": "How should you position your inside thigh relative to the opponent's leg in the final saddle configuration, and why does this positioning matter for submission effectiveness?",
-      "answer": "Your inside thigh should be positioned high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg from hip to knee. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish. The higher the position on their leg, the more control you have and the more effective your submissions become.",
-      "difficulty": "Advanced"
+      "answer": "Your inside thigh should be positioned high on the opponent's inner thigh, as close to their hip as possible, with your legs forming a tight triangle around their leg from hip to knee. This high positioning creates maximum control over their hip rotation and prevents them from squaring their hips or clearing their knee line. When positioned too low (near their ankle), the saddle lacks mechanical advantage, allows easier foot extraction, and makes submissions extremely difficult to finish. The higher the position on their leg, the more control you have and the more effective your submissions become."
     },
     {
       "question": "What should you do immediately after securing the saddle configuration to prevent the most common escape?",
-      "answer": "Immediately control the opponent's far leg with your outside arm by pinning it to your chest or controlling their knee. This prevents them from squaring their hips and clearing their knee line, which is the most high-percentage escape from saddle position. Without this control, even a well-executed entry can be escaped quickly by a knowledgeable opponent.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately control the opponent's far leg with your outside arm by pinning it to your chest or controlling their knee. This prevents them from squaring their hips and clearing their knee line, which is the most high-percentage escape from saddle position. Without this control, even a well-executed entry can be escaped quickly by a knowledgeable opponent."
     },
     {
       "question": "If the opponent retracts their near leg immediately upon contact during your entry attempt, what are two effective responses instead of forcing the original entry?",
-      "answer": "First option: Follow their leg retraction and transition to an alternative passing position or pursue different leg entanglement entries such as Outside Ashi or 50-50, using their defensive movement against them. Second option: Use their leg retraction to advance to a better passing position entirely, such as moving to side control or mount while they're focused on leg defense. The key principle is adaptability—when one entry path closes, immediately recognize and pursue the opened alternatives rather than forcing a defended technique.",
-      "difficulty": "Advanced"
+      "answer": "First option: Follow their leg retraction and transition to an alternative passing position or pursue different leg entanglement entries such as Outside Ashi or 50-50, using their defensive movement against them. Second option: Use their leg retraction to advance to a better passing position entirely, such as moving to side control or mount while they're focused on leg defense. The key principle is adaptability—when one entry path closes, immediately recognize and pursue the opened alternatives rather than forcing a defended technique."
     },
     {
       "question": "What body orientation must you achieve after entering saddle, and why is this different from typical top positions?",
-      "answer": "You must rotate your upper body to face the opponent's trapped leg rather than maintaining chest-to-chest orientation typical of most top positions. Your chest should face their knee, not their face. This orientation is critical because it prevents opponent from obtaining upper body control, optimizes your leverage for heel and toe attacks, and positions your hips correctly for maintaining the entanglement. Failing to rotate and remaining chest-to-chest gives the opponent paths to escape and prevents effective submission attacks.",
-      "difficulty": "Intermediate"
+      "answer": "You must rotate your upper body to face the opponent's trapped leg rather than maintaining chest-to-chest orientation typical of most top positions. Your chest should face their knee, not their face. This orientation is critical because it prevents opponent from obtaining upper body control, optimizes your leverage for heel and toe attacks, and positions your hips correctly for maintaining the entanglement. Failing to rotate and remaining chest-to-chest gives the opponent paths to escape and prevents effective submission attacks."
     },
     {
       "question": "During the step-over phase, what specific timing window provides the highest success rate for entry, and how do you recognize this window?",
-      "answer": "The highest success rate occurs when the opponent extends their leg defensively during guard recovery or to create framing distance against your passing pressure. You recognize this window by observing leg extension combined with their focus on upper body defense or attempts to create distance. Their leg is momentarily exposed because their attention is divided. Additionally, strong entry windows occur when opponent attempts to turn away during passing pressure, when they reach for your legs to defend, or during transitions between guard positions when their legs are in motion. The key is recognizing when their leg is extended AND their attention is elsewhere.",
-      "difficulty": "Advanced"
+      "answer": "The highest success rate occurs when the opponent extends their leg defensively during guard recovery or to create framing distance against your passing pressure. You recognize this window by observing leg extension combined with their focus on upper body defense or attempts to create distance. Their leg is momentarily exposed because their attention is divided. Additionally, strong entry windows occur when opponent attempts to turn away during passing pressure, when they reach for your legs to defend, or during transitions between guard positions when their legs are in motion. The key is recognizing when their leg is extended AND their attention is elsewhere."
     }
   ],
   "safety_considerations": "When practicing saddle entries, ensure controlled execution with clear communication between partners regarding resistance levels. The saddle position leads directly to inside heel hooks which can cause severe knee injuries if applied without control. During drilling, establish tap-early protocols and never apply sudden explosive force to leg locks. Partners should understand proper tapping procedures and recognize when they are caught in vulnerable positions. Instructors should ensure students have adequate experience with positional control before progressing to submission applications from saddle. Always practice on mats with sufficient padding, and beginners should master the entry mechanics with zero resistance before adding any defensive pressure. Avoid practicing this technique if either partner has existing knee or hip injuries without medical clearance. The rotation into saddle can place stress on the practitioner's own knees, so execute entries smoothly rather than explosively to protect your own joints.",
@@ -312,5 +287,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 65
 }

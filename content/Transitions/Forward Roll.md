@@ -159,7 +159,7 @@ description: "Master the Forward Roll in BJJ. Essential escape and movement tech
 The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that serves both defensive and offensive purposes. This dynamic rolling motion allows practitioners to escape dangerous positions, create distance from opponents, and transition into advantageous guard positions. The forward roll is particularly effective when combined with proper timing and spatial awareness, enabling practitioners to turn defensive situations into offensive opportunities. Understanding the biomechanics of rolling forward while maintaining control of your center of gravity is essential for smooth execution. This technique becomes increasingly valuable as practitioners develop their guard game, as it provides a reliable method for recovering guard position after being passed or during scrambles. The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ.
 
 **From Position**: [[Turtle/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish base position**: Begin from a seated or bottom position with your opponent applying forward pressure. Keep your knees bent and feet positioned to push off the mat. Your hands should be in front of you, ready to support your body weight as you initiate the roll. (Timing: As opponent commits weight forward)
-2. **Tuck chin to chest**: Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck and creates the proper curved surface for rolling. Your gaze should be directed at your belt or knees throughout the movement. (Timing: Immediately before initiating roll)
-3. **Position hands for support**: Place both hands on the mat shoulder-width apart in front of you, fingers pointing forward. Your hands will guide the roll and support your body weight during the initial phase. Keep elbows slightly bent to absorb impact as you transition onto your shoulder. (Timing: Simultaneous with chin tuck)
-4. **Drive forward with legs**: Push explosively off the mat with both feet, generating forward momentum. The power comes from your legs extending while your upper body begins to roll forward. Your hips should lift and move forward as you transfer weight onto your hands and then your shoulder. (Timing: Explosive push to initiate roll)
-5. **Roll over shoulder**: Allow your body to roll diagonally across your shoulder blade, moving from one shoulder across your back to the opposite hip. Keep your body in a tight ball with knees drawn toward chest. The roll should follow a diagonal line across your back rather than rolling straight down the spine. (Timing: Continuous fluid motion)
-6. **Maintain tucked position**: Keep your knees pulled tight to your chest and your chin tucked throughout the entire rolling motion. Your arms should wrap around your shins or be positioned to post as you complete the roll. This tight position maintains momentum and protects your body. (Timing: Throughout entire roll)
-7. **Complete roll to guard or standing**: As the roll completes and you return to your base, immediately establish either a seated guard position with feet on opponent's hips, or continue momentum to technical stand-up. Your hands should come up in defensive frames, and your hips should be mobile and ready to engage or create more distance. (Timing: As roll completes, immediate transition)
+1. **Establish base position**: Begin from a seated or bottom position with your opponent applying forward pressure. Keep your knees bent and feet positioned to push off the mat. Your hands should be in front of you, ready to support your body weight as you initiate the roll.
+2. **Tuck chin to chest**: Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck and creates the proper curved surface for rolling. Your gaze should be directed at your belt or knees throughout the movement.
+3. **Position hands for support**: Place both hands on the mat shoulder-width apart in front of you, fingers pointing forward. Your hands will guide the roll and support your body weight during the initial phase. Keep elbows slightly bent to absorb impact as you transition onto your shoulder.
+4. **Drive forward with legs**: Push explosively off the mat with both feet, generating forward momentum. The power comes from your legs extending while your upper body begins to roll forward. Your hips should lift and move forward as you transfer weight onto your hands and then your shoulder.
+5. **Roll over shoulder**: Allow your body to roll diagonally across your shoulder blade, moving from one shoulder across your back to the opposite hip. Keep your body in a tight ball with knees drawn toward chest. The roll should follow a diagonal line across your back rather than rolling straight down the spine.
+6. **Maintain tucked position**: Keep your knees pulled tight to your chest and your chin tucked throughout the entire rolling motion. Your arms should wrap around your shins or be positioned to post as you complete the roll. This tight position maintains momentum and protects your body.
+7. **Complete roll to guard or standing**: As the roll completes and you return to your base, immediately establish either a seated guard position with feet on opponent's hips, or continue momentum to technical stand-up. Your hands should come up in defensive frames, and your hips should be mobile and ready to engage or create more distance.
 
 
 </section>
@@ -260,27 +260,21 @@ The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that
 ## Training Progressions
 **Week 1-2: Solo Drilling** - Develop proper rolling mechanics and body awareness
 Practice forward rolls without a partner, focusing on chin tuck, diagonal rolling path, and maintaining tight body position. Start slowly and gradually increase speed as comfort improves. Perform 20-30 repetitions per training session.
-(Resistance: None)
 
 **Week 3-4: Positional Entry** - Integrate rolling from specific positions
 Practice forward roll from seated guard position with a cooperative partner applying light pressure. Focus on timing the roll with partner's forward movement. Partner should apply minimal resistance and allow completion of technique.
-(Resistance: Light)
 
 **Week 5-6: Adding Distance Management** - Create proper spacing after completing the roll
 After completing the forward roll, immediately establish guard position with feet on partner's hips or transition to standing. Partner begins to follow the roll, requiring faster recovery to guard. Practice re-establishing guard 10-15 times per session.
-(Resistance: Light)
 
 **Week 7-8: Combining with Guard Recovery** - Chain forward roll with other guard recovery techniques
 Combine forward roll with granby roll, technical stand-up, and shrimp escapes. Partner applies moderate pressure during guard passing attempts. Practice reading which movement is appropriate based on partner's pressure and position.
-(Resistance: Medium)
 
 **Week 9-12: Live Application** - Use forward roll during positional sparring
 Apply forward roll during live guard retention drills where partner actively attempts to pass guard. Focus on timing and distance management. Partner uses full resistance but agrees to positional reset after successful escapes.
-(Resistance: Full)
 
 **Month 4+: Competition Integration** - Deploy forward roll as part of complete defensive system
 Integrate forward roll seamlessly with entire guard game during free rolling and competition. Use as immediate response to specific guard passing attempts. Continue drilling solo rolls as warm-up to maintain mechanics.
-(Resistance: Full)
 
 
 

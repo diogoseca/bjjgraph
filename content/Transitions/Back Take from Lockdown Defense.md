@@ -163,7 +163,7 @@ This transition represents a paradigm shift in lockdown defense philosophy. Inst
 From a tactical perspective, this technique punishes overly aggressive lockdown attacks. When the bottom player fully commits to the Electric Chair extension, they sacrifice the ability to quickly recover guard position. The top player capitalizes on this commitment by timing the backstep precisely when the opponent's hips are maximally extended. This creates a powerful dilemma for lockdown players: commit fully and risk the back take, or hold back and reduce the effectiveness of their sweep and submission attempts.
 
 **From Position**: [[Electric Chair/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish upper body control**: Secure crossface with your nearside arm, driving your shoulder into opponent's jaw while your forearm controls their far shoulder. Your farside arm establishes whizzer or underhook depending on opponent's grip configuration. (Timing: Before opponent achieves maximum extension)
-2. **Load weight forward**: Drive your chest weight forward onto opponent, flattening them toward the mat and limiting their ability to continue hip extension. This forward pressure is essential to prevent them from completing the Electric Chair sweep while you prepare the backstep. (Timing: When opponent begins major hip extension)
-3. **Initiate backstep**: Using your free leg as the pivot point, begin circling your trapped leg backward in an arc motion. The movement is similar to a backstep pass but executed while opponent maintains lockdown. Your knee traces a path behind their body rather than toward their head. (Timing: As opponent fully commits to extension)
-4. **Clear the lockdown**: As you complete the backstep arc, your trapped leg clears the lockdown configuration. The circular motion combined with opponent's hip extension naturally opens the lockdown. Pull your knee through the gap created by their overextension while maintaining chest pressure. (Timing: During the backstep motion)
-5. **Insert first hook**: Immediately as your leg clears, insert your heel as a hook behind opponent's near thigh. Drive your instep into their inner thigh to establish first back control hook. This must happen simultaneously with clearing the lockdown to prevent opponent from recovering guard. (Timing: Immediately upon clearing lockdown)
-6. **Establish seatbelt control**: Transition your upper body control to seatbelt grip with overhook arm going over opponent's shoulder and underhook arm threading under their armpit. Hands connect at their sternum. Pull chest tight against their back. (Timing: As first hook is established)
-7. **Complete back control**: Insert your second hook on the far side while maintaining chest-to-back connection and seatbelt grip. Adjust hook depth so both heels are inside opponent's thighs near the groin. You are now in full back control from the former Electric Chair position. (Timing: Within 2 seconds of first hook)
+1. **Establish upper body control**: Secure crossface with your nearside arm, driving your shoulder into opponent's jaw while your forearm controls their far shoulder. Your farside arm establishes whizzer or underhook depending on opponent's grip configuration.
+2. **Load weight forward**: Drive your chest weight forward onto opponent, flattening them toward the mat and limiting their ability to continue hip extension. This forward pressure is essential to prevent them from completing the Electric Chair sweep while you prepare the backstep.
+3. **Initiate backstep**: Using your free leg as the pivot point, begin circling your trapped leg backward in an arc motion. The movement is similar to a backstep pass but executed while opponent maintains lockdown. Your knee traces a path behind their body rather than toward their head.
+4. **Clear the lockdown**: As you complete the backstep arc, your trapped leg clears the lockdown configuration. The circular motion combined with opponent's hip extension naturally opens the lockdown. Pull your knee through the gap created by their overextension while maintaining chest pressure.
+5. **Insert first hook**: Immediately as your leg clears, insert your heel as a hook behind opponent's near thigh. Drive your instep into their inner thigh to establish first back control hook. This must happen simultaneously with clearing the lockdown to prevent opponent from recovering guard.
+6. **Establish seatbelt control**: Transition your upper body control to seatbelt grip with overhook arm going over opponent's shoulder and underhook arm threading under their armpit. Hands connect at their sternum. Pull chest tight against their back.
+7. **Complete back control**: Insert your second hook on the far side while maintaining chest-to-back connection and seatbelt grip. Adjust hook depth so both heels are inside opponent's thighs near the groin. You are now in full back control from the former Electric Chair position.
 
 
 </section>
@@ -260,19 +260,15 @@ From a tactical perspective, this technique punishes overly aggressive lockdown 
 ## Training Progressions
 **Week 1-2** - Backstep mechanics
 Practice the backstep motion without resistance. Partner maintains static lockdown position while you drill the circular leg clearing motion and hook insertion. Focus on the arc of the backstep and maintaining upper body connection. Perform 20 repetitions per side each session.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner actively works the Electric Chair sequence while you identify the timing window for the backstep. Focus on recognizing when opponent's hips are maximally extended. Begin with light resistance where partner telegraphs their extension. Progress to normal speed Electric Chair attacks.
-(Resistance: Light)
 
 **Week 5-6** - Integration with lockdown defense
 Combine backstep back take with other lockdown defenses (limp leg escape, lockdown break and pass). Partner varies between different levels of Electric Chair commitment. You choose appropriate response based on their level of extension. Add common counters to your partner's repertoire.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from Electric Chair position. Both partners work with full resistance. Top player looks for backstep back take or other escapes. Bottom player attempts sweep or submission. Track success rate and identify patterns in timing and execution failures.
-(Resistance: Full)
 
 
 

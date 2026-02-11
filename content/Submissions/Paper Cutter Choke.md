@@ -157,7 +157,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 **Type**: Blood Choke
 **Target Area**: Carotid arteries (bilateral compression)
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -235,12 +235,12 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Side Control Dominance**: From standard side control, flatten opponent fully and establish chest-to-chest pressure. Your weight should be distributed across their torso, making it difficult for them to bridge or shrimp. Control the near arm with an underhook or by pinning it to their body. Your head should be positioned on the far side of their head, preventing them from turning into you. (Timing: Take 3-5 seconds to establish solid control before attacking) [Pressure: Firm]
-2. **Insert Collar Grip**: Slide your choking hand (typically your bottom hand when in side control) deep into the opponent's far collar. Your four fingers should penetrate at least to the second knuckle, ideally reaching all the way to the back of their neck. Your thumb stays outside the collar. The deeper the grip, the more effective the choke. Use your non-choking hand to pull their collar away from their neck slightly to create space for insertion. (Timing: 2-3 seconds to work the grip deep) [Pressure: Light]
-3. **Secure Head Control**: With your non-choking hand, reach around and cup the back of opponent's head or grab their far collar for additional control. This hand serves two purposes: it prevents them from turning their head away from the choke, and it can assist in pulling their head toward your choking arm. Your elbow should stay tight to their head, blocking any escape attempts. (Timing: 1-2 seconds simultaneous with collar grip) [Pressure: Moderate]
-4. **Create Choking Angle**: Shift your body position slightly toward opponent's head, creating approximately 45-degree angle from standard side control. This angle allows your forearm to cut across their neck properly. Your choking arm's forearm should now be positioned across the front of their neck, while your grip hand pulls the far collar. The scissoring action between your forearm and the collar creates bilateral carotid compression. (Timing: 1-2 seconds to adjust angle) [Pressure: Moderate]
-5. **Drive Shoulder and Pull Collar**: Drive your choking-side shoulder forward and down toward the mat while simultaneously pulling the collar grip toward yourself. This creates the cutting motion across their neck. Your forearm blade (the radius bone side) should press into one side of their neck while the pulled collar compresses the other side. Maintain tight connection with your chest to their upper body to prevent space creation. (Timing: Apply over 3-4 seconds progressively) [Pressure: Firm]
-6. **Finish with Hip Pressure**: As you feel the choke tightening, increase hip pressure to prevent any escape attempts and maintain your angle. Your non-choking hand continues controlling their head, preventing them from turning into you or away from the choke. Keep your elbows tight to your body and maintain the scissoring pressure. The opponent should tap within 3-5 seconds of proper application. Release immediately upon tap or any distress signal. (Timing: Hold for maximum 3-5 seconds once fully tight) [Pressure: Maximum]
+1. **Establish Side Control Dominance**: From standard side control, flatten opponent fully and establish chest-to-chest pressure. Your weight should be distributed across their torso, making it difficult for them to bridge or shrimp. Control the near arm with an underhook or by pinning it to their body. Your head should be positioned on the far side of their head, preventing them from turning into you. (Timing: Take 3-5 seconds to establish solid control before attacking)
+2. **Insert Collar Grip**: Slide your choking hand (typically your bottom hand when in side control) deep into the opponent's far collar. Your four fingers should penetrate at least to the second knuckle, ideally reaching all the way to the back of their neck. Your thumb stays outside the collar. The deeper the grip, the more effective the choke. Use your non-choking hand to pull their collar away from their neck slightly to create space for insertion. (Timing: 2-3 seconds to work the grip deep)
+3. **Secure Head Control**: With your non-choking hand, reach around and cup the back of opponent's head or grab their far collar for additional control. This hand serves two purposes: it prevents them from turning their head away from the choke, and it can assist in pulling their head toward your choking arm. Your elbow should stay tight to their head, blocking any escape attempts. (Timing: 1-2 seconds simultaneous with collar grip)
+4. **Create Choking Angle**: Shift your body position slightly toward opponent's head, creating approximately 45-degree angle from standard side control. This angle allows your forearm to cut across their neck properly. Your choking arm's forearm should now be positioned across the front of their neck, while your grip hand pulls the far collar. The scissoring action between your forearm and the collar creates bilateral carotid compression. (Timing: 1-2 seconds to adjust angle)
+5. **Drive Shoulder and Pull Collar**: Drive your choking-side shoulder forward and down toward the mat while simultaneously pulling the collar grip toward yourself. This creates the cutting motion across their neck. Your forearm blade (the radius bone side) should press into one side of their neck while the pulled collar compresses the other side. Maintain tight connection with your chest to their upper body to prevent space creation. (Timing: Apply over 3-4 seconds progressively)
+6. **Finish with Hip Pressure**: As you feel the choke tightening, increase hip pressure to prevent any escape attempts and maintain your angle. Your non-choking hand continues controlling their head, preventing them from turning into you or away from the choke. Keep your elbows tight to your body and maintain the scissoring pressure. The opponent should tap within 3-5 seconds of proper application. Release immediately upon tap or any distress signal. (Timing: Hold for maximum 3-5 seconds once fully tight)
 
 
 </section>
@@ -260,25 +260,25 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Gripping the collar too shallow, with only fingertips inside [Low DANGER]
+- **Mistake**: Gripping the collar too shallow, with only fingertips inside
   - **Consequence**: Insufficient leverage to compress carotid arteries; opponent can easily defend and escape; wasted energy with no threat
   - **Correction**: Take time to work your hand deep into the collar before committing to the finish. Your four fingers should be at least to the second knuckle, ideally reaching all the way behind their neck. Use your non-choking hand to create space in the collar if needed.
-- **Mistake**: Applying pressure too quickly without proper setup [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly without proper setup
   - **Consequence**: Partner cannot tap in time; risk of unconsciousness or injury; creates unsafe training environment
   - **Correction**: Apply the choke progressively over 3-5 seconds in training. Your partner should feel the danger building and have ample time to recognize the threat and tap. Save competition-speed finishes for competition only.
-- **Mistake**: Positioning forearm across the trachea instead of carotid arteries [CRITICAL DANGER]
+- **Mistake**: Positioning forearm across the trachea instead of carotid arteries
   - **Consequence**: Creates air choke instead of blood choke; causes unnecessary pain and potential trachea damage; less effective and more dangerous
   - **Correction**: Ensure your forearm blade is positioned on the side of the neck, not across the front of the throat. The pressure should be lateral (scissoring from both sides) rather than frontal. If opponent is coughing or their face is turning purple without loss of consciousness, adjust your angle immediately.
-- **Mistake**: Failing to control opponent's head with non-choking hand [Medium DANGER]
+- **Mistake**: Failing to control opponent's head with non-choking hand
   - **Consequence**: Opponent can turn their head away from the choke and escape; wasted energy; loss of position control
   - **Correction**: Your non-choking hand must actively control their head throughout the submission. Cup the back of their head, grab their far collar, or use your forearm across their face. This hand prevents escape and maintains proper angle for the choke.
-- **Mistake**: Lifting your chest off opponent to reach for the collar grip [Medium DANGER]
+- **Mistake**: Lifting your chest off opponent to reach for the collar grip
   - **Consequence**: Creates space for opponent to escape side control; allows them to frame and shrimp away; loss of dominant position
   - **Correction**: Maintain heavy chest pressure throughout the setup. Work your collar grip patiently without relieving pressure on their torso. If you must create slight space to insert your hand, do so momentarily and immediately return to chest-to-chest connection.
-- **Mistake**: Attempting the choke from poor angle without adjusting hips [Low DANGER]
+- **Mistake**: Attempting the choke from poor angle without adjusting hips
   - **Consequence**: Insufficient pressure on carotid arteries; opponent can defend easily; telegraphs your intention without threat
   - **Correction**: Shift your hips toward opponent's head to create the proper 45-degree angle before finishing. Your forearm must cut across their neck at the correct diagonal for the scissoring action to work. Take the time to adjust your position before pulling the collar.
-- **Mistake**: Continuing to apply pressure after partner goes limp or unresponsive [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner goes limp or unresponsive
   - **Consequence**: Severe neurological damage possible; brain damage from extended oxygen deprivation; potential death; permanent injury to training partner
   - **Correction**: Develop sensitivity to your partner's responsiveness. If they stop defending with their hands, go limp, or become unresponsive, release immediately. In training, never hold a blood choke beyond the tap. Your partner's safety is always the first priority.
 
@@ -343,43 +343,6 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper collar grip depth, body angle, and pressure points without any finishing pressure. Partner remains completely passive. Study anatomy of carotid compression versus trachea compression. Practice tap signals and release protocol repeatedly.
-- Resistance: Zero resistance
-- Safety: Understanding the difference between blood choke (correct) and air choke (dangerous). Partner should communicate throughout: 'I feel pressure on the sides of my neck' (correct) versus 'I'm choking/can't breathe' (incorrect—stop and adjust angle). Practice releasing immediately on tap 20+ times to build muscle memory.
-
-**Slow Grip Development** (Week 3-4)
-- Focus: Develop sensitivity for proper collar depth and head control. Work the complete setup sequence from side control with partner providing minimal movement but not actively defending. Focus on maintaining chest pressure while inserting collar grip without creating space.
-- Resistance: Mild resistance
-- Safety: Partner provides feedback on pressure application speed: 'too fast,' 'good pace,' 'can't tap in time.' Practicing tapping early before full pressure is applied. Building trust through consistent immediate releases. Never progress past 50% pressure during this phase.
-
-**Positional Drilling** (Week 5-8)
-- Focus: Partner defends side control and collar access moderately, requiring you to establish dominant position before attacking. Practice countering common defenses like framing, chin tucking, and wrist control. Begin recognizing proper timing windows for collar insertion.
-- Resistance: Realistic resistance
-- Safety: Partner actively taps when choke reaches 70% of full tightness. Both partners communicate clearly: 'That's too tight too fast' or 'Good progression.' If partner's face shows distress or they can't tap easily, release immediately even without tap. Building awareness of partner's responsiveness.
-
-**Dynamic Integration** (Month 3-4)
-- Focus: Integrate paper cutter into flowing sequences from side control, combining with other attacks like arm triangle, kimura, and far side armbar. Partner defends realistically, creating scenarios where you must choose between submissions based on their reactions.
-- Resistance: Realistic resistance
-- Safety: Maintain 3-5 second application minimum even during flowing combinations. Partner should still tap at 70-80% of maximum pressure. Focus on recognizing when to abandon the attempt rather than forcing from poor position. Distinguish between training pace and competition pace explicitly.
-
-**Situational Sparring** (Month 5-6)
-- Focus: Start in various positions (side control, north-south, turtle) and work to achieve paper cutter finish while partner uses full defensive effort. Include scenarios where you must transition from failed attempts to successful finishes. Time pressure scenarios where you must work efficiently.
-- Resistance: Full resistance
-- Safety: Both partners have extensive experience with the submission. Tap early and often—there's no shame in tapping to a well-executed choke. If choke is sunk deep, tap immediately rather than trying to escape. Monitor each other for signs of excessive fatigue or distress. Take breaks between rounds to discuss any safety concerns.
-
-**Live Application** (Month 6+)
-- Focus: Apply paper cutter during regular sparring from any position, combining it naturally with your overall game. Recognize opportunities during transitions and scrambles. Develop feel for when opponent is vulnerable versus when they've defended successfully.
-- Resistance: Full resistance
-- Safety: Even with experience, maintain progressive application in training—never use competition speed finishes against training partners. Be especially cautious with less experienced partners who may not recognize the danger as quickly. If you accidentally apply too fast, immediately release and apologize. Continue practicing immediate releases on every tap to maintain safe habits. Remember that protecting your partners is protecting your ability to train long-term.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -430,6 +393,7 @@ The Paper Cutter Choke is a highly effective blood choke executed primarily from
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

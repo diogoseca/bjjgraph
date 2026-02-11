@@ -157,7 +157,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Crucifix]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -233,12 +233,12 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure crucifix control fully**: Before thinking about the choke, establish complete crucifix dominance. Your top leg hooks over their far arm with your knee driving down for pressure. Your bottom leg controls their near arm, either in a figure-four configuration or with a leg weave. Both of their arms must be completely neutralized before proceeding. Your chest should be heavy on their back, and your hips should be glued to their shoulder line. This positional control is the foundation of everything that follows. (Timing: Take 5-10 seconds to perfect this control before advancing) [Pressure: Firm]
-2. **Flatten opponent to expose neck**: Use hip pressure and chest weight to roll opponent away from you slightly, flattening them onto their side or back. This opens up their neck and prevents them from turtling to defend. Drive your hips forward into their shoulder while pulling their trapped arms to create the rolling motion. Your goal is to have their head away from the mat with their neck completely exposed. If they resist, use small adjustments and wait for their muscle fatigue rather than forcing. (Timing: 2-4 seconds of gradual pressure) [Pressure: Moderate]
-3. **Insert choking arm carefully**: Snake your choking arm (typically your bottom arm, the one on the same side as your bottom leg) under their chin, approaching from the side rather than straight over their face. Your palm should be facing you, with the blade of your forearm positioning across their throat. The key is to establish the grip before they realize the danger. Keep your elbow tight and aim to get your bicep on one carotid artery and your forearm bone on the other. If executing a rear naked choke variation, reach for your opposite bicep. For a short choke, grip your own gi lapel or their collar. (Timing: 3-5 seconds - patience is critical here) [Pressure: Light]
-4. **Secure grip structure**: Complete your grip configuration based on your chosen variation. For rear naked choke: grip your opposite bicep and place your opposite hand behind their head. For short choke: grip high on your own gi lapel or their opposite collar and pull across. For arm-in variation: trap one of their arms inside the choke and apply pressure across the neck with your forearm. The critical element is that your choking structure must create bilateral pressure on both carotid arteries, not crush the trachea. Your forearm blade should be across the throat, not the flat of your arm. (Timing: 2-3 seconds to lock the grip) [Pressure: Light]
-5. **Adjust body position for leverage**: Before applying pressure, ensure your body positioning maximizes leverage. Your chest should be tight to their back, leaving no space for them to move. Your hips should be glued to their shoulders. Your head should be positioned to the side of theirs, not directly behind, which prevents them from driving backwards into your face. Your legs must maintain absolute control of their arms - any loosening here will allow defensive hand fighting. This positional refinement is what separates effective finishes from muscled attempts. (Timing: 1-2 seconds of micro-adjustments) [Pressure: Firm]
-6. **Apply finishing pressure progressively**: Slowly squeeze your choking arm while simultaneously expanding your chest and pulling your opponent's head back slightly with your secondary hand. The squeeze should come from your entire body structure, not just your arm muscles. Drive your hips forward slightly to add leverage. The pressure increases gradually over 3-5 seconds in training (faster in competition). Your forearm blade compresses both carotid arteries, cutting blood flow to the brain. Watch for the tap and release immediately. Never jerk or spike the choke - smooth, progressive pressure is both more effective and infinitely safer. (Timing: 3-5 seconds progressive squeeze) [Pressure: Maximum]
+1. **Secure crucifix control fully**: Before thinking about the choke, establish complete crucifix dominance. Your top leg hooks over their far arm with your knee driving down for pressure. Your bottom leg controls their near arm, either in a figure-four configuration or with a leg weave. Both of their arms must be completely neutralized before proceeding. Your chest should be heavy on their back, and your hips should be glued to their shoulder line. This positional control is the foundation of everything that follows. (Timing: Take 5-10 seconds to perfect this control before advancing)
+2. **Flatten opponent to expose neck**: Use hip pressure and chest weight to roll opponent away from you slightly, flattening them onto their side or back. This opens up their neck and prevents them from turtling to defend. Drive your hips forward into their shoulder while pulling their trapped arms to create the rolling motion. Your goal is to have their head away from the mat with their neck completely exposed. If they resist, use small adjustments and wait for their muscle fatigue rather than forcing. (Timing: 2-4 seconds of gradual pressure)
+3. **Insert choking arm carefully**: Snake your choking arm (typically your bottom arm, the one on the same side as your bottom leg) under their chin, approaching from the side rather than straight over their face. Your palm should be facing you, with the blade of your forearm positioning across their throat. The key is to establish the grip before they realize the danger. Keep your elbow tight and aim to get your bicep on one carotid artery and your forearm bone on the other. If executing a rear naked choke variation, reach for your opposite bicep. For a short choke, grip your own gi lapel or their collar. (Timing: 3-5 seconds - patience is critical here)
+4. **Secure grip structure**: Complete your grip configuration based on your chosen variation. For rear naked choke: grip your opposite bicep and place your opposite hand behind their head. For short choke: grip high on your own gi lapel or their opposite collar and pull across. For arm-in variation: trap one of their arms inside the choke and apply pressure across the neck with your forearm. The critical element is that your choking structure must create bilateral pressure on both carotid arteries, not crush the trachea. Your forearm blade should be across the throat, not the flat of your arm. (Timing: 2-3 seconds to lock the grip)
+5. **Adjust body position for leverage**: Before applying pressure, ensure your body positioning maximizes leverage. Your chest should be tight to their back, leaving no space for them to move. Your hips should be glued to their shoulders. Your head should be positioned to the side of theirs, not directly behind, which prevents them from driving backwards into your face. Your legs must maintain absolute control of their arms - any loosening here will allow defensive hand fighting. This positional refinement is what separates effective finishes from muscled attempts. (Timing: 1-2 seconds of micro-adjustments)
+6. **Apply finishing pressure progressively**: Slowly squeeze your choking arm while simultaneously expanding your chest and pulling your opponent's head back slightly with your secondary hand. The squeeze should come from your entire body structure, not just your arm muscles. Drive your hips forward slightly to add leverage. The pressure increases gradually over 3-5 seconds in training (faster in competition). Your forearm blade compresses both carotid arteries, cutting blood flow to the brain. Watch for the tap and release immediately. Never jerk or spike the choke - smooth, progressive pressure is both more effective and infinitely safer. (Timing: 3-5 seconds progressive squeeze)
 
 
 </section>
@@ -257,22 +257,22 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting choke before securing full crucifix control [Low DANGER]
+- **Mistake**: Attempting choke before securing full crucifix control
   - **Consequence**: Opponent escapes position entirely or frees hands to defend neck
   - **Correction**: Follow proper hierarchy: position first, submission second. Spend extra time ensuring both arms are completely trapped and your position is unshakeable before thinking about the finish. Rushing costs you the position.
-- **Mistake**: Crushing the trachea instead of targeting carotid arteries [CRITICAL DANGER]
+- **Mistake**: Crushing the trachea instead of targeting carotid arteries
   - **Consequence**: Causes unnecessary pain, potential trachea injury, and is less effective for finish
   - **Correction**: The blade of your forearm should be across the throat at an angle, with bicep on one side of neck and forearm on the other - creating a V-shape that compresses carotid arteries. If they can breathe but cannot think, your position is correct. Pain means wrong target.
-- **Mistake**: Using only arm strength to squeeze without body mechanics [Low DANGER]
+- **Mistake**: Using only arm strength to squeeze without body mechanics
   - **Consequence**: Ineffective choke that fatigues you rapidly and alerts opponent to danger
   - **Correction**: The squeeze comes from your entire body: expand your chest, drive your hips forward, use your back muscles, and let your arm be the point of contact rather than the source of power. Your whole body structure should create the pressure.
-- **Mistake**: Allowing space between your chest and opponent's back [Medium DANGER]
+- **Mistake**: Allowing space between your chest and opponent's back
   - **Consequence**: Opponent can shrimp, turn, or otherwise escape the position
   - **Correction**: Maintain constant heavy chest pressure on their back. There should be zero space. Think of gluing yourself to their back and moving as one unit. Any space is an escape route.
-- **Mistake**: Loosening leg control on arms while applying choke [Medium DANGER]
+- **Mistake**: Loosening leg control on arms while applying choke
   - **Consequence**: Opponent frees hands to defend neck or strip your grip
   - **Correction**: Your legs must maintain constant, firm pressure on their arms throughout the entire finish. The moment you relax your leg control to focus on the choke, they will free a hand. Dual-task: keep legs tight while arms work the choke.
-- **Mistake**: Continuing to apply pressure after tap or unconsciousness [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap or unconsciousness
   - **Consequence**: Severe injury to partner including brain damage or death
   - **Correction**: Release immediately upon any tap signal. Be hyperaware of your partner going limp or their resistance suddenly stopping. When in doubt, release and check. This is non-negotiable in training. Competition is different, but training partners must be protected absolutely.
 
@@ -337,43 +337,6 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Positional Study** (Week 1-2)
-- Focus: Learn crucifix control mechanics, arm trapping sequences, and positional maintenance. Study choke variations without applying any pressure. Partner remains fully conscious and resistant. Focus entirely on position.
-- Resistance: None
-- Safety: Understand tap signals, practice releasing immediately on any signal, learn proper choking mechanics without pressure. No finishing attempts - this phase is purely educational and positional.
-
-**Slow Entry Practice with Touch Pressure** (Week 3-4)
-- Focus: Practice entering crucifix from various positions, trapping arms, and establishing choke grip with touch pressure only. Partner taps as soon as choking arm is in position. Build muscle memory for correct movements without any danger.
-- Resistance: Zero resistance
-- Safety: Use only 10-20% pressure maximum, just enough to feel correct positioning. Partner should tap the moment they feel any pressure beginning. Practice immediate release response until it becomes automatic reflex.
-
-**Gradual Pressure Introduction** (Week 5-8)
-- Focus: Add progressive pressure to choke execution while maintaining safety. Increase from 20% to 40% pressure maximum over these weeks. Focus on body mechanics rather than force. Partner taps when discomfort begins, not when danger arrives.
-- Resistance: Mild resistance
-- Safety: Never exceed 40% pressure in this phase. Time your squeezes over full 5 seconds. Partner must tap early - this is not about testing toughness but about building safe habits. Practice communication after each attempt.
-
-**Realistic Pressure with Defensive Response** (Week 9-12)
-- Focus: Increase to 60-70% pressure while partner practices realistic defenses. Begin timing your execution and problem-solving against resistance. Partner should tap when they feel the choke is legitimately threatening, not waiting for last second.
-- Resistance: Realistic resistance
-- Safety: Both partners must maintain focus on safe execution. If either partner feels control is slipping or pressure is excessive, stop immediately and reset. This is still training, not competition. Pride has no place in the training room.
-
-**Competition Simulation** (Week 13-16)
-- Focus: Full resistance and full pressure in timed rounds, simulating competition conditions. Partner defends realistically but still taps when caught - this builds your finishing confidence and their defensive reflexes.
-- Resistance: Full resistance
-- Safety: Even at full intensity, maintain technical precision over force. Release instantly on tap without exception. If partner goes unconscious (rare but possible), release immediately, position them in recovery position, and check breathing and consciousness. Know basic first aid before this phase.
-
-**Advanced Integration and Flow Rolling** (Week 17+)
-- Focus: Integrate choke from crucifix into your overall game flow. Practice entering from various positions, chaining with other submissions, and adapting to different body types and defensive styles. This becomes part of your natural game.
-- Resistance: Realistic resistance
-- Safety: At this stage, you should be able to apply the technique with appropriate force automatically. Continue respecting tap signals instantly. Teach newer students the same safety protocols you learned. Safety culture is maintained by everyone enforcing standards, not just following them.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -421,6 +384,7 @@ The Choke from Crucifix is a devastating finishing technique that capitalizes on
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

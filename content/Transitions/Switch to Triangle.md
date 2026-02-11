@@ -159,7 +159,7 @@ description: "Master the Switch to Triangle in BJJ. Learn when and how to transi
 The Switch to Triangle represents a fundamental submission chain concept in Brazilian Jiu-Jitsu, allowing practitioners to seamlessly transition from failed or defended attacks into a high-percentage triangle choke. This transition is most commonly executed from closed guard when opponents defend against armbar attempts, kimura attacks, or other offensive techniques by pulling their arm free or posturing up. The beauty of this technique lies in its ability to capitalize on the opponent's defensive reactions - as they focus on escaping one submission, they often create the perfect opening for the triangle. Understanding this transition transforms individual techniques into a flowing attack system where every defense opens a new offensive opportunity. The switch to triangle exemplifies the principle of offensive combinations and submission chains, where skilled practitioners never rely on a single attack but instead link multiple threats together. This creates a dilemma-based game where the opponent must choose between defending the current attack and preventing the follow-up, rarely able to accomplish both simultaneously. Mastering this transition is essential for developing a dangerous closed guard game and represents a critical milestone in understanding how submissions work together as a system rather than as isolated techniques.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,13 +208,13 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize defensive reaction**: As opponent defends initial attack (typically by pulling arm free from armbar or resisting kimura), immediately identify the opening created by their defensive movement. Their focus on escaping the current submission creates a momentary lapse in posture control and positioning awareness. (Timing: Instant recognition as opponent begins defensive motion)
-2. **Secure control point**: Establish a critical control point during the transition - typically an overhook on the defending arm, head control with your hand behind their skull, or a strong collar grip. This control prevents the opponent from posturing up and provides the anchor point for your triangle entry. (Timing: Simultaneous with defensive recognition)
-3. **Create angle**: Shift your hips significantly to one side (typically 45-90 degrees off centerline) to create the necessary angle for triangle entry. This hip movement positions your body perpendicular to your opponent's torso, allowing your leg to come across their shoulder and neck effectively. (Timing: 0.5-1 second window as opponent focuses on arm defense)
-4. **Open guard and throw leg**: Release your closed guard by uncrossing your ankles and immediately throw your top leg across the back of opponent's neck and shoulder. The leg should come across high on their shoulder, with your knee pointing toward the ceiling and your shin crossing the back of their neck and trapping their defending arm on the far side. (Timing: Explosive movement before opponent can react)
-5. **Control opposite shoulder**: Use your bottom leg to push or hook behind the opponent's opposite shoulder (the shoulder not trapped by your top leg). This controls their posture and prevents them from turning away or escaping the triangle configuration. Your shin should create pressure across their back, driving them forward into the developing triangle. (Timing: Immediately after top leg crosses)
-6. **Lock triangle configuration**: Pull your top leg down while bringing your bottom leg up, threading your bottom ankle behind the knee of your top leg to create the figure-four lock. Ensure one of opponent's arms is trapped inside the triangle (across their own neck) while the other arm is outside. Squeeze your knees together while pulling their head down to secure the submission. (Timing: 2-3 seconds to secure proper lock and positioning)
-7. **Finish and adjust**: Cut the angle further by scooting your hips perpendicular to their body, grab your own shin to tighten the lock, and pull their head down while lifting your hips. Make micro-adjustments to the position of your legs, the angle of your hips, and the depth of their trapped arm until achieving maximum compression on the carotid arteries. (Timing: 3-5 seconds for proper finishing mechanics)
+1. **Recognize defensive reaction**: As opponent defends initial attack (typically by pulling arm free from armbar or resisting kimura), immediately identify the opening created by their defensive movement. Their focus on escaping the current submission creates a momentary lapse in posture control and positioning awareness.
+2. **Secure control point**: Establish a critical control point during the transition - typically an overhook on the defending arm, head control with your hand behind their skull, or a strong collar grip. This control prevents the opponent from posturing up and provides the anchor point for your triangle entry.
+3. **Create angle**: Shift your hips significantly to one side (typically 45-90 degrees off centerline) to create the necessary angle for triangle entry. This hip movement positions your body perpendicular to your opponent's torso, allowing your leg to come across their shoulder and neck effectively.
+4. **Open guard and throw leg**: Release your closed guard by uncrossing your ankles and immediately throw your top leg across the back of opponent's neck and shoulder. The leg should come across high on their shoulder, with your knee pointing toward the ceiling and your shin crossing the back of their neck and trapping their defending arm on the far side.
+5. **Control opposite shoulder**: Use your bottom leg to push or hook behind the opponent's opposite shoulder (the shoulder not trapped by your top leg). This controls their posture and prevents them from turning away or escaping the triangle configuration. Your shin should create pressure across their back, driving them forward into the developing triangle.
+6. **Lock triangle configuration**: Pull your top leg down while bringing your bottom leg up, threading your bottom ankle behind the knee of your top leg to create the figure-four lock. Ensure one of opponent's arms is trapped inside the triangle (across their own neck) while the other arm is outside. Squeeze your knees together while pulling their head down to secure the submission.
+7. **Finish and adjust**: Cut the angle further by scooting your hips perpendicular to their body, grab your own shin to tighten the lock, and pull their head down while lifting your hips. Make micro-adjustments to the position of your legs, the angle of your hips, and the depth of their trapped arm until achieving maximum compression on the carotid arteries.
 
 
 </section>
@@ -260,27 +260,21 @@ The Switch to Triangle represents a fundamental submission chain concept in Braz
 ## Training Progressions
 **Week 1-2: Isolation Drilling** - Solo movement and partner-assisted positioning
 Practice the hip angle creation and leg throw in isolation without resistance. Partner holds position while you work through the mechanical steps of switching from various guard attacks to triangle position. Focus on smooth, efficient movement and proper body positioning.
-(Resistance: None)
 
 **Week 3-4: Flow Drilling with Timing** - Reaction-based entries from specific setups
 Partner simulates specific defensive reactions (pulling arm from armbar, resisting kimura, defending collar choke) and you respond by switching to triangle. Emphasize recognizing the exact moment when the switch becomes available. Build muscle memory for the timing and recognition aspects.
-(Resistance: Light)
 
 **Week 5-8: Controlled Resistance** - Executing against moderate defense
 Partner provides 50-70% resistance, actively defending your initial attack and making you work for the triangle switch. They defend the triangle itself with basic escapes. Focus on maintaining control throughout the transition and troubleshooting common problems like posture, stacking, and escape attempts.
-(Resistance: Medium)
 
 **Week 9-12: Live Rolling Integration** - Applying switch in live training
 Attempt the switch to triangle during normal rolling sessions, starting from positions where you can control the pace (closed guard with cooperative training partners) and gradually increasing difficulty. Document what works, what doesn't, and which defensive reactions create the best entries.
-(Resistance: Full)
 
 **Month 4+: Competition Preparation** - High-percentage setups and combinations
 Develop specific attack sequences that reliably create triangle switch opportunities. Build chains like armbar attempt → triangle switch → armbar switch → triangle switch until one finishes. Practice against training partners who know your game and actively defend your favorite sequences.
-(Resistance: Full)
 
 **Ongoing: Refinement and Variation** - Advanced applications and situational adaptations
 Explore switching to triangle from increasingly diverse positions - failed sweeps, standing guard breaks, scrambles, and unorthodox situations. Develop ability to recognize and execute the switch in any context where the fundamental requirements are met (angle, control, trapped arm).
-(Resistance: Full)
 
 
 

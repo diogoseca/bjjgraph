@@ -21,37 +21,37 @@ description: "Master grasshopper guard from bottom. Complete guide to inversion 
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Grasshopper",
-      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Grasshopper. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Transition",
-      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Transition. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Ashi Entry",
-      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Inside Ashi Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Kneebar",
-      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Kneebar. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,25 +214,29 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Available Escapes
 
-### [[Kneebar from Grasshopper]] (9% of attempts)
+### [[Kneebar from Grasshopper]] (8% of attempts)
 
-### [[Straight Ankle Lock Entry]] (10% of attempts)
+### [[Straight Ankle Lock Entry]] (8% of attempts)
 
-### [[Single Leg X Transition]] (11% of attempts)
+### [[Single Leg X Transition]] (9% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[X-Guard Sweep]] (8% of attempts)
 
-### [[Inside Ashi Entry]] (10% of attempts)
+### [[Inside Ashi Entry]] (8% of attempts)
 
-### [[Rolling Kneebar]] (8% of attempts)
+### [[Rolling Kneebar]] (7% of attempts)
 
-### [[Grasshopper Sweep]] (10% of attempts)
+### [[Grasshopper Sweep]] (8% of attempts)
 
-### [[Technical Standup]] (13% of attempts)
+### [[Technical Standup]] (12% of attempts)
 
-### [[50-50 Entry]] (9% of attempts)
+### [[50-50 Entry]] (8% of attempts)
 
-### [[Reverse De La Riva Recovery]] (10% of attempts)
+### [[Reverse De La Riva Recovery]] (8% of attempts)
+
+### [[Technical Standup from Inversion]] (8% of attempts)
+
+### [[X-Guard Elevation Sweep]] (8% of attempts)
 
 
 
@@ -378,11 +382,11 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 35% | 20% |
-| Intermediate | 45% | 55% | 35% |
-| Advanced     | 65% | 75% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 65% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 8-15 seconds before transition
 

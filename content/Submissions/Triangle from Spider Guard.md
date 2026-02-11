@@ -163,7 +163,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Spider Guard]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -240,13 +240,13 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture and isolate arm**: From spider guard with feet on biceps and sleeve grips, use one foot to push opponent's arm across their centerline while pulling the sleeve grip. Simultaneously kick the other foot into their bicep to break their posture forward. The goal is to get one arm trapped across their neck while maintaining control of the other arm with your foot and grip. (Timing: 1-2 seconds to establish control) [Pressure: Moderate]
-2. **Pivot hips and throw leg over shoulder**: Release the foot from the bicep on the side where you want to throw your leg. Pivot your hips 30-45 degrees away from the trapped arm side, creating an angle. Throw your leg high over the opponent's shoulder and back, with your shin landing across the back of their neck. Keep your other foot controlling the free arm or posted on their hip for base. (Timing: Explosive movement, less than 1 second) [Pressure: Light]
-3. **Lock the triangle**: Bring your other leg up and lock it over the ankle of the leg across their back. Create a figure-four lock by flexing your foot and squeezing your knees together. At this point, one of opponent's arms should be trapped inside the triangle across their own neck, and their head should be controlled. Ensure the lock is behind their head, not on top of it. (Timing: 1-2 seconds to secure the lock) [Pressure: Moderate]
-4. **Adjust angle and pull down head**: Grip the back of opponent's head or their trapped arm and pull it down toward your chest. Simultaneously adjust your angle by pivoting your hips further (you should be almost perpendicular to opponent). The more angle you create, the tighter the choke. Your bottom leg should be cutting across the back of their neck at a diagonal. (Timing: Continuous adjustment, 2-3 seconds) [Pressure: Firm]
-5. **Lock arm across body**: Grab opponent's trapped arm (the one inside the triangle) and pull it across their body toward your opposite hip. This prevents them from creating a defensive frame and increases pressure on their carotid arteries. You can hug the arm to your chest or grip their wrist and pull it tight. (Timing: 1 second to secure arm control) [Pressure: Firm]
-6. **Squeeze and lift hips**: With everything locked in position, squeeze your knees together forcefully while simultaneously lifting your hips off the ground. Pull down on their head and trapped arm while lifting. This creates the compression on the carotid arteries that produces the choke. Apply pressure progressively over 3-5 seconds in training, monitoring for tap. (Timing: Progressive pressure over 3-5 seconds) [Pressure: Maximum]
-7. **Maintain and finish**: Continue squeezing knees, lifting hips, and pulling head down until opponent taps. If they attempt to posture up or stack you, bring your knees to your chest and pull their posture back down. Never release pressure until you feel the tap. In training, release immediately upon tap following the safety protocol. (Timing: Hold until tap, typically 2-5 seconds of maximum pressure) [Pressure: Maximum]
+1. **Break posture and isolate arm**: From spider guard with feet on biceps and sleeve grips, use one foot to push opponent's arm across their centerline while pulling the sleeve grip. Simultaneously kick the other foot into their bicep to break their posture forward. The goal is to get one arm trapped across their neck while maintaining control of the other arm with your foot and grip. (Timing: 1-2 seconds to establish control)
+2. **Pivot hips and throw leg over shoulder**: Release the foot from the bicep on the side where you want to throw your leg. Pivot your hips 30-45 degrees away from the trapped arm side, creating an angle. Throw your leg high over the opponent's shoulder and back, with your shin landing across the back of their neck. Keep your other foot controlling the free arm or posted on their hip for base. (Timing: Explosive movement, less than 1 second)
+3. **Lock the triangle**: Bring your other leg up and lock it over the ankle of the leg across their back. Create a figure-four lock by flexing your foot and squeezing your knees together. At this point, one of opponent's arms should be trapped inside the triangle across their own neck, and their head should be controlled. Ensure the lock is behind their head, not on top of it. (Timing: 1-2 seconds to secure the lock)
+4. **Adjust angle and pull down head**: Grip the back of opponent's head or their trapped arm and pull it down toward your chest. Simultaneously adjust your angle by pivoting your hips further (you should be almost perpendicular to opponent). The more angle you create, the tighter the choke. Your bottom leg should be cutting across the back of their neck at a diagonal. (Timing: Continuous adjustment, 2-3 seconds)
+5. **Lock arm across body**: Grab opponent's trapped arm (the one inside the triangle) and pull it across their body toward your opposite hip. This prevents them from creating a defensive frame and increases pressure on their carotid arteries. You can hug the arm to your chest or grip their wrist and pull it tight. (Timing: 1 second to secure arm control)
+6. **Squeeze and lift hips**: With everything locked in position, squeeze your knees together forcefully while simultaneously lifting your hips off the ground. Pull down on their head and trapped arm while lifting. This creates the compression on the carotid arteries that produces the choke. Apply pressure progressively over 3-5 seconds in training, monitoring for tap. (Timing: Progressive pressure over 3-5 seconds)
+7. **Maintain and finish**: Continue squeezing knees, lifting hips, and pulling head down until opponent taps. If they attempt to posture up or stack you, bring your knees to your chest and pull their posture back down. Never release pressure until you feel the tap. In training, release immediately upon tap following the safety protocol. (Timing: Hold until tap, typically 2-5 seconds of maximum pressure)
 
 
 </section>
@@ -266,25 +266,25 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Locking triangle without proper angle (straight-on instead of diagonal) [Low DANGER]
+- **Mistake**: Locking triangle without proper angle (straight-on instead of diagonal)
   - **Consequence**: No choking pressure on carotid arteries; opponent easily defends or escapes
   - **Correction**: Always pivot hips 30-45 degrees before locking triangle. Your body should form an 'L' or perpendicular angle to opponent, not be directly in front of them. The angle is what creates the choke.
-- **Mistake**: Locking triangle on top of head instead of behind neck [Low DANGER]
+- **Mistake**: Locking triangle on top of head instead of behind neck
   - **Consequence**: No choking pressure; opponent has easy posture and can stack or pass
   - **Correction**: Ensure your leg crosses the back of opponent's neck at the base of the skull, not over the crown of their head. Your shin should be cutting diagonally across the back of their neck.
-- **Mistake**: Not controlling the trapped arm [Low DANGER]
+- **Mistake**: Not controlling the trapped arm
   - **Consequence**: Opponent creates defensive frame and escapes triangle
   - **Correction**: Immediately after locking triangle, grab the trapped arm and pull it across opponent's body toward your opposite hip. This is not optional—it's a required component of a successful triangle.
-- **Mistake**: Locking ankles too loose or too far from body [Low DANGER]
+- **Mistake**: Locking ankles too loose or too far from body
   - **Consequence**: Opponent creates space and escapes; no finishing pressure
   - **Correction**: Lock your figure-four tight with your ankle in the crook of your other knee, and bring your knees together with maximum squeeze. The tighter the lock, the less space for escape.
-- **Mistake**: Applying choke too quickly without proper position (competition speed in training) [CRITICAL DANGER]
+- **Mistake**: Applying choke too quickly without proper position (competition speed in training)
   - **Consequence**: Risk of injuring training partner; creates unsafe training environment
   - **Correction**: Always apply progressive pressure over 3-5 seconds minimum in training. Get perfect position first, then slowly increase pressure. Your partner's safety is more important than getting the tap.
-- **Mistake**: Holding choke after partner taps or goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding choke after partner taps or goes unconscious
   - **Consequence**: Potential brain damage from prolonged unconsciousness; severe injury risk
   - **Correction**: Release IMMEDIATELY upon tap or any sign of unconsciousness. The tap ends the technique instantly—no exceptions. Practice the release protocol until it's automatic muscle memory.
-- **Mistake**: Using triangle to stall or rest without attempting finish [Low DANGER]
+- **Mistake**: Using triangle to stall or rest without attempting finish
   - **Consequence**: Poor training habits; doesn't develop finishing ability
   - **Correction**: If you have triangle locked, either finish it or transition to another attack. Don't use submissions as rest positions—this builds bad competition habits and wastes training time.
 
@@ -349,43 +349,6 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Week 1-2)** (First 2 weeks of learning)
-- Focus: Learn the step-by-step mechanics without any resistance. Practice spider guard grips, posture breaks, hip angles, leg throws, and figure-four locks in isolation. Understand the anatomy of the choke and where pressure should be felt (sides of neck, not throat or back of neck).
-- Resistance: None
-- Safety: Partner remains completely passive. Focus on slow, controlled movements. Practice the release protocol as many times as you practice the lock. No choking pressure applied—only positioning practice. Understand where carotid arteries are located and how triangle compresses them.
-
-**Slow Practice with Cooperative Partner (Week 3-4)** (Weeks 3-4)
-- Focus: Execute full triangle sequence from spider guard with cooperative but realistic partner. Partner maintains posture normally but doesn't resist triangle entry. Practice creating angle, locking triangle, controlling arm, and applying progressive pressure over 10+ seconds. Get feedback on position quality before adding pressure.
-- Resistance: Zero resistance
-- Safety: Partner gives continuous verbal feedback on pressure levels (1-10 scale). Apply pressure very slowly, increasing over 10+ seconds minimum. Partner taps early (at 40-50% pressure) so you never need to fully finish. Practice releasing immediately upon tap. No competition speed—focus on position perfection.
-
-**Defensive Reactions and Adjustments (Week 5-8)** (Weeks 5-8)
-- Focus: Partner begins adding realistic defensive reactions: posturing up, pulling arm out, creating frames, shifting weight. Learn to maintain triangle control and adjust angle during opponent movement. Practice transitioning to other attacks (omoplata, armbar, sweeps) when triangle is defended successfully.
-- Resistance: Mild resistance
-- Safety: Partner gives single specific defense per repetition. If you cannot adjust position within 3-5 seconds, release and restart—never force a bad position. Continue slow pressure application (5+ seconds minimum). Partner still taps early. No explosive movements—controlled adjustments only.
-
-**Realistic Rolling Integration (Week 9-12)** (Weeks 9-12)
-- Focus: Use triangle from spider guard during regular training rolls at 70% intensity. Combine with sweeps, transitions, and other submissions. Learn to recognize when triangle opportunity appears during live rolling versus forcing it. Develop timing and feel for the submission in dynamic situations.
-- Resistance: Realistic resistance
-- Safety: Still apply progressive pressure (3-5 seconds minimum) even in live rolling. Never use competition speed in training. If partner escapes, let them escape—don't force it. Respect all taps immediately. If you feel yourself rushing or forcing the submission, slow down and reset. Quality over speed.
-
-**Advanced Setups and Combinations (Week 13+)** (Week 13 and beyond)
-- Focus: Develop advanced variations: sweep setups, collar drag entries, omoplata baits, inverted triangles. Chain triangle with other spider guard attacks into seamless combinations. Learn to use triangle threat to set up sweeps and vice versa. Develop your personal spider guard game around triangle as a centerpiece.
-- Resistance: Full resistance
-- Safety: Maintain all safety protocols regardless of skill level advancement. Competition speed is for competition only—never in training. Monitor training partners' experience levels and adjust pressure/speed accordingly. More advanced practitioners have responsibility to protect less experienced partners. Continue practicing release protocol regularly.
-
-**Ongoing Safety and Refinement (Continuous)** (Continuous practice)
-- Focus: Regular technical review of mechanics and safety protocols. Teaching the technique to others to deepen understanding. Analyzing competition footage of high-level triangles from spider guard. Continuing to refine details like angle optimization, grip variations, and entry timing.
-- Resistance: Realistic resistance
-- Safety: Never become complacent with safety protocols. Review tap signals and release procedures monthly. If you ever hold a choke too long or injure a partner, stop and review all safety protocols immediately. Create a culture where safety is prioritized over ego. Senior practitioners model proper safety behavior for junior students.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -438,6 +401,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

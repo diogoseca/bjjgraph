@@ -153,7 +153,7 @@ description: "Master the Sit Through to Guard escape from turtle. Step-by-step e
 The Sit Through to Guard is a fundamental turtle escape that converts a vulnerable bottom position into an offensive guard. Unlike rolling escapes that rely on momentum, the sit through uses lateral hip movement and precise timing to thread one leg through while creating a frame against the opponent's advancing pressure. This technique excels when the opponent commits weight forward for front headlock attacks or back takes, as their forward pressure can be redirected into your guard recovery. The sit through creates a dilemma for the attacker: commit to following the movement and risk ending up in your closed guard, or disengage and allow a clean escape. For practitioners who prefer systematic, controlled escapes over explosive scrambles, the sit through offers a methodical path from turtle to a dominant guard position where you can begin attacking.
 
 **From Position**: [[Turtle/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Sit Through to Guard is a fundamental turtle escape that converts a vulnerab
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess weight distribution**: From turtle, feel where your opponent's weight is concentrated. The sit through works best when they commit forward for a front headlock or lean to one side for back take attempts. Wait for this commitment before initiating. (Timing: When opponent's chest pressure increases on your upper back)
-2. **Establish posting arm**: Plant your near-side hand firmly on the mat, fingers pointing away from your body. This arm becomes your pivot point and must bear your weight during the hip rotation. Position it slightly forward of your shoulder for maximum stability. (Timing: Immediately before initiating the sit through)
-3. **Create framing arm**: Use your far-side arm to frame against opponent's near shoulder, hip, or controlling arm. This frame prevents them from following your movement and creates the space necessary for your leg to thread through cleanly. (Timing: Simultaneous with posting arm establishment)
-4. **Thread the near leg**: Lift your near-side knee and thread that leg through the space between your posting arm and your opponent. Keep your foot tight to your body initially, then extend it as it clears. Your hips rotate toward your opponent as the leg passes through. (Timing: Explosive movement once frame is established)
-5. **Rotate hips to face opponent**: As your leg clears, accelerate the hip rotation to bring your chest facing your opponent. Your threading leg should end up as a hook against their hip or inside their thigh. Continue rotating until you can see their chest directly in front of you. (Timing: Continuous motion following leg thread)
-6. **Establish guard position**: Immediately close your guard by crossing your ankles behind their back, or establish half guard by trapping their near leg between yours. Secure wrist control or collar grips to prevent them from posturing up and passing. Pull them into your guard structure. (Timing: Within 1-2 seconds of completing rotation)
+1. **Assess weight distribution**: From turtle, feel where your opponent's weight is concentrated. The sit through works best when they commit forward for a front headlock or lean to one side for back take attempts. Wait for this commitment before initiating.
+2. **Establish posting arm**: Plant your near-side hand firmly on the mat, fingers pointing away from your body. This arm becomes your pivot point and must bear your weight during the hip rotation. Position it slightly forward of your shoulder for maximum stability.
+3. **Create framing arm**: Use your far-side arm to frame against opponent's near shoulder, hip, or controlling arm. This frame prevents them from following your movement and creates the space necessary for your leg to thread through cleanly.
+4. **Thread the near leg**: Lift your near-side knee and thread that leg through the space between your posting arm and your opponent. Keep your foot tight to your body initially, then extend it as it clears. Your hips rotate toward your opponent as the leg passes through.
+5. **Rotate hips to face opponent**: As your leg clears, accelerate the hip rotation to bring your chest facing your opponent. Your threading leg should end up as a hook against their hip or inside their thigh. Continue rotating until you can see their chest directly in front of you.
+6. **Establish guard position**: Immediately close your guard by crossing your ankles behind their back, or establish half guard by trapping their near leg between yours. Secure wrist control or collar grips to prevent them from posturing up and passing. Pull them into your guard structure.
 
 
 </section>
@@ -250,19 +250,15 @@ The Sit Through to Guard is a fundamental turtle escape that converts a vulnerab
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the sit through solo, focusing on posting arm strength, leg threading mechanics, and hip rotation. Partner provides no resistance, simply holding turtle position while you drill the movement pattern 20-30 repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies light forward pressure from turtle top. Focus on recognizing when their weight commits forward and timing your sit through to that moment. Drill chaining into closed guard and half guard establishment.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively attempts to follow your sit through and counter with front headlock or back take. Practice maintaining frames, keeping chin tucked, and completing the movement despite resistance. Chain sit through failures into granby rolls.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate sit through into live rolling from turtle bottom. Focus on recognizing opportunities during scrambles and pass attempts. Track success rate and identify which opponent reactions give you trouble.
-(Resistance: Full)
 
 
 

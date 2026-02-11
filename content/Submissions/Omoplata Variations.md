@@ -169,7 +169,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -246,14 +246,14 @@ The Omoplata family represents one of the most versatile submission systems in B
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture and secure grips**: From closed guard or open guard, break opponent's posture by pulling their head and upper body forward. Secure a strong grip on the arm you intend to attack (sleeve grip in gi, wrist control no-gi). Establish a secondary control point such as collar grip or head control to prevent them from posturing back up. (Timing: 2-3 seconds to establish controls) [Pressure: Moderate]
-2. **Create angle and swing leg over**: Pivot your hips approximately 90 degrees toward the trapped arm side, creating a perpendicular angle to your opponent's body. Swing your same-side leg (the leg on the side of the trapped arm) over their shoulder and behind their head. Your shin should cross their upper back with your foot positioned near their opposite shoulder blade. (Timing: 1-2 seconds for hip rotation and leg swing) [Pressure: Light]
-3. **Secure the triangle lock**: Bring your opposite leg over your shin to create a figure-four leg lock around their head and trapped arm. Lock your foot in the crook of your opposite knee or over your own shin, depending on the variation. This triangle configuration secures the position and prevents them from removing their arm from the entanglement. (Timing: 1-2 seconds to lock legs) [Pressure: Moderate]
-4. **Sit up and establish base**: Sit up tall on your outside elbow and hand, creating a stable posting base. Your hips should be elevated off the mat with your weight distributed through your posting arm. This upright posture is critical for generating the rotational pressure that attacks the shoulder joint. Control the trapped arm close to your body to prevent escape. (Timing: 2-3 seconds to establish stable position) [Pressure: Moderate]
-5. **Rotate hips and apply shoulder pressure**: Rotate your hips toward your opponent's head while simultaneously leaning your upper body toward their hips. This creates a scissoring action where your thigh drives into their shoulder blade while their arm is hyperextended forward. The pressure should be progressive and controlled, forcing internal rotation and extension of the shoulder joint. (Timing: 3-5 seconds progressive application) [Pressure: Firm]
-6. **Finish with controlled rotation**: Maintain hip pressure while continuing to rotate your torso toward their legs. Pull the trapped arm tight to your chest while driving your thigh into their scapula. The finish comes from the combination of shoulder rotation, extension, and the lever pressure of your leg against their back. Apply pressure slowly and progressively, waiting for the tap before increasing intensity. (Timing: Slow progressive pressure over 3-5 seconds) [Pressure: Maximum]
-7. **Variation adjustment - Rolling Omoplata**: If opponent grips your legs to prevent the standard finish, release your triangle lock and execute a forward roll over your shoulder on the trapped arm side. Maintain wrist control throughout the roll, ending in a seated position with their arm still trapped. Re-establish the omoplata configuration after the roll with their defensive grips broken. (Timing: Dynamic roll in 1-2 seconds) [Pressure: Light]
-8. **Variation adjustment - Baratoplata**: From the initial omoplata setup, instead of sitting up perpendicular, rotate your body toward your opponent's trapped arm. Thread your leg deeper around their neck while controlling their wrist. Your shin creates a figure-four around their neck and arm, with finishing pressure coming from pulling their wrist toward their opposite shoulder while your leg creates the fulcrum. (Timing: 2-3 seconds to reconfigure) [Pressure: Firm]
+1. **Break posture and secure grips**: From closed guard or open guard, break opponent's posture by pulling their head and upper body forward. Secure a strong grip on the arm you intend to attack (sleeve grip in gi, wrist control no-gi). Establish a secondary control point such as collar grip or head control to prevent them from posturing back up. (Timing: 2-3 seconds to establish controls)
+2. **Create angle and swing leg over**: Pivot your hips approximately 90 degrees toward the trapped arm side, creating a perpendicular angle to your opponent's body. Swing your same-side leg (the leg on the side of the trapped arm) over their shoulder and behind their head. Your shin should cross their upper back with your foot positioned near their opposite shoulder blade. (Timing: 1-2 seconds for hip rotation and leg swing)
+3. **Secure the triangle lock**: Bring your opposite leg over your shin to create a figure-four leg lock around their head and trapped arm. Lock your foot in the crook of your opposite knee or over your own shin, depending on the variation. This triangle configuration secures the position and prevents them from removing their arm from the entanglement. (Timing: 1-2 seconds to lock legs)
+4. **Sit up and establish base**: Sit up tall on your outside elbow and hand, creating a stable posting base. Your hips should be elevated off the mat with your weight distributed through your posting arm. This upright posture is critical for generating the rotational pressure that attacks the shoulder joint. Control the trapped arm close to your body to prevent escape. (Timing: 2-3 seconds to establish stable position)
+5. **Rotate hips and apply shoulder pressure**: Rotate your hips toward your opponent's head while simultaneously leaning your upper body toward their hips. This creates a scissoring action where your thigh drives into their shoulder blade while their arm is hyperextended forward. The pressure should be progressive and controlled, forcing internal rotation and extension of the shoulder joint. (Timing: 3-5 seconds progressive application)
+6. **Finish with controlled rotation**: Maintain hip pressure while continuing to rotate your torso toward their legs. Pull the trapped arm tight to your chest while driving your thigh into their scapula. The finish comes from the combination of shoulder rotation, extension, and the lever pressure of your leg against their back. Apply pressure slowly and progressively, waiting for the tap before increasing intensity. (Timing: Slow progressive pressure over 3-5 seconds)
+7. **Variation adjustment - Rolling Omoplata**: If opponent grips your legs to prevent the standard finish, release your triangle lock and execute a forward roll over your shoulder on the trapped arm side. Maintain wrist control throughout the roll, ending in a seated position with their arm still trapped. Re-establish the omoplata configuration after the roll with their defensive grips broken. (Timing: Dynamic roll in 1-2 seconds)
+8. **Variation adjustment - Baratoplata**: From the initial omoplata setup, instead of sitting up perpendicular, rotate your body toward your opponent's trapped arm. Thread your leg deeper around their neck while controlling their wrist. Your shin creates a figure-four around their neck and arm, with finishing pressure coming from pulling their wrist toward their opposite shoulder while your leg creates the fulcrum. (Timing: 2-3 seconds to reconfigure)
 
 
 </section>
@@ -273,25 +273,25 @@ The Omoplata family represents one of the most versatile submission systems in B
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting omoplata from square-on position without angle [Low DANGER]
+- **Mistake**: Attempting omoplata from square-on position without angle
   - **Consequence**: Opponent easily postures up and escapes; no leverage on shoulder joint; failure to complete the submission
   - **Correction**: Always create a 90-degree perpendicular angle with your hips before swinging your leg over. The angle is what creates the leverage and prevents them from using their base to posture out.
-- **Mistake**: Jerking or spiking the shoulder rotation quickly [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the shoulder rotation quickly
   - **Consequence**: CRITICAL INJURY RISK - rotator cuff tears, labral damage, AC joint separation
   - **Correction**: Apply all shoulder pressure slowly and progressively over 3-5 seconds minimum. The omoplata should build pressure gradually, giving your partner clear time to recognize and tap to the submission.
-- **Mistake**: Losing control of the trapped arm during setup [Low DANGER]
+- **Mistake**: Losing control of the trapped arm during setup
   - **Consequence**: Opponent extracts their arm before triangle lock is secured; position lost; must restart attack sequence
   - **Correction**: Maintain constant wrist or sleeve control from initial posture break through final leg triangle. The arm control is more important than leg position - never release it to adjust other grips.
-- **Mistake**: Failing to sit up and establish posting base [Low DANGER]
+- **Mistake**: Failing to sit up and establish posting base
   - **Consequence**: No rotational pressure on shoulder; opponent easily defends or escapes; submission has no finishing threat
   - **Correction**: After securing the triangle lock, immediately sit up on your outside arm creating an elevated base. Your hips should be off the mat with your torso upright. This position is essential for generating the rotation that attacks the shoulder.
-- **Mistake**: Triangle lock too loose or incorrectly configured [Medium DANGER]
+- **Mistake**: Triangle lock too loose or incorrectly configured
   - **Consequence**: Opponent pulls arm free; head escapes the leg control; entire position breaks down
   - **Correction**: Ensure your figure-four leg lock is tight with your top leg's foot secured in the crook of your bottom leg's knee. Squeeze your legs together and pull the triangle tight to your body before attempting to finish.
-- **Mistake**: Combining omoplata with neck cranking pressure [CRITICAL DANGER]
+- **Mistake**: Combining omoplata with neck cranking pressure
   - **Consequence**: INJURY RISK - cervical spine strain, potential neck injury, violation of training safety protocols
   - **Correction**: All pressure should be directed at the shoulder joint through hip rotation, not through cranking the neck with your legs. Keep your leg hook behind the head light - it's for control only, not for generating submission pressure.
-- **Mistake**: Ignoring sweep opportunities when submission is defended [Low DANGER]
+- **Mistake**: Ignoring sweep opportunities when submission is defended
   - **Consequence**: Missing high-percentage scoring opportunities; staying in bottom position unnecessarily; failing to capitalize on positional commitments
   - **Correction**: Recognize that omoplata creates excellent sweep mechanics. If the submission is defended, immediately transition to the sweep by elevating opponent's trapped arm side and using your leg leverage to roll them over.
 
@@ -360,43 +360,6 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn the mechanical principles of each omoplata variation without resistance. Study the anatomy of the shoulder joint, understand the angle creation requirements, and practice the leg configurations for standard, rolling, baratoplata, and tarikoplata variations. Emphasis on recognizing the setup cues and understanding which variation suits which defensive response.
-- Resistance: None
-- Safety: Study shoulder anatomy and injury mechanisms. Learn to identify the difference between effective pressure and dangerous cranking. Understand that all training applications must be slow and progressive to protect training partners.
-
-**Slow Positional Drilling** (Week 3-4)
-- Focus: Practice entries and setups from closed guard, open guard, and spider guard with cooperative partners. Focus on smooth angle creation, clean leg swings over the shoulder, and tight triangle locks. Partner provides zero resistance but maintains realistic posture and positioning. Drill the full sequence from initial grip to triangle configuration without finishing.
-- Resistance: Zero resistance
-- Safety: Never apply finishing pressure during this phase. Stop at the triangle lock configuration and reset. Partners practice recognizing the position and understanding when they would tap. Build muscle memory for smooth entries without any injury risk.
-
-**Controlled Finishing Practice** (Week 5-8)
-- Focus: Add finishing mechanics with extremely slow hip rotation and shoulder pressure. Partner provides minimal resistance and taps early to pressure. Focus on feeling the correct pressure direction (shoulder rotation, not neck cranking) and developing sensitivity to partner's tap signals. Practice all variations including transitions to sweeps and back takes when submission is defended.
-- Resistance: Mild resistance
-- Safety: Mandatory 3-5 second minimum application time. Both partners verbally communicate throughout - attacker describes pressure points, defender describes what they feel. Immediate release upon any tap signal. No finishing until both partners confirm understanding of the mechanics.
-
-**Flow Rolling Integration** (Week 9-12)
-- Focus: Integrate omoplata attacks into flow rolling with moderate resistance. Partners allow entries but defend intelligently, creating opportunities to practice reading defenses and selecting appropriate variations. Practice the decision tree: if they grip fight, go to rolling omoplata; if they posture, switch to triangle; if they roll forward, take the back. Build pattern recognition for which variation suits which situation.
-- Resistance: Realistic resistance
-- Safety: Maintain slow application speed even as resistance increases. Practice releasing submissions when partner doesn't tap, resetting, and re-attacking. Build the habit of controlled pressure regardless of rolling intensity.
-
-**Live Training Application** (Week 13-20)
-- Focus: Apply omoplata variations in live training against full resistance. Focus on setting up the position through grip fighting, posture breaking, and angle creation rather than forcing the finish. Emphasize the transitions and sweeps as much as the submissions. Develop timing for entries during scrambles and transitions. Practice all variations and develop preferences for specific body types and defensive styles.
-- Resistance: Full resistance
-- Safety: Even in live training, maintain 3-5 second application time. Never spike or jerk the shoulder rotation. If competing, understand that competition finishing speed is faster but training must always be controlled. Respect all tap signals immediately regardless of training intensity.
-
-**Advanced Integration and Teaching** (Month 6+)
-- Focus: Develop omoplata as a systematic attacking platform integrated with your overall guard game. Chain omoplata variations with triangles, armbars, and sweeps to create multi-layered offensive sequences. Begin teaching the techniques to newer students, which deepens your understanding of mechanics and safety protocols. Study high-level competition footage to understand modern applications and defensive innovations.
-- Resistance: Full resistance
-- Safety: As skill increases, responsibility increases. Model perfect safety protocols for students. Never demonstrate dangerous applications or quick finishing speed. Emphasize that omoplata's value lies in positional control and transitions as much as the finish. Teach students to respect the shoulder joint and prioritize partner safety over submission success.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -448,6 +411,7 @@ The Omoplata family represents one of the most versatile submission systems in B
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

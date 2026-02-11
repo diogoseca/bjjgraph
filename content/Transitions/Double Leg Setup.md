@@ -165,7 +165,7 @@ description: "Learn Double Leg Setup in BJJ. Step-by-step execution from Standin
 The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-Jitsu that creates the optimal conditions for executing a double leg takedown. This preparatory sequence focuses on controlling distance, manipulating opponent reactions, and establishing proper positioning before committing to the explosive penetration step. The setup phase is arguably more important than the finish itself, as it determines whether you'll achieve a clean takedown or expose yourself to sprawl defense and guillotine attacks. Effective setup work involves a combination of grip fighting, level changes, angle creation, and timing that forces your opponent into defensive postures while creating offensive opportunities. The modern approach to double leg setups emphasizes tactical entries over purely athletic explosiveness, making it accessible to practitioners of all physical abilities. Understanding the setup mechanics allows you to chain together multiple takedown attempts, use feints to create openings, and seamlessly transition between standing and ground techniques when opportunities arise.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -214,14 +214,14 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: Secure a collar tie with your lead hand, placing it behind opponent's neck with fingers interlaced. Simultaneously control their wrist or sleeve with your rear hand, creating a connected grip system that limits their defensive options and allows you to manipulate their posture. (Timing: Initial contact phase)
-2. **Create distance and angle**: Step your lead foot to the outside of opponent's lead foot, approximately 45 degrees off their centerline. This lateral positioning creates an angle that opens up the shooting lane while making it difficult for them to sprawl directly backward over your entry. (Timing: Setup positioning)
-3. **Execute upper body feint**: Push or pull with your collar tie to create a reactive response from your opponent. A forward push often causes them to push back, while a pull creates forward momentum. These reactions momentarily compromise their defensive readiness and weight distribution. (Timing: Reaction creation phase)
-4. **Perform level change**: Lower your hips by bending at the knees and waist while maintaining an upright back angle. The level change should be smooth and controlled, not telegraphed. Drop low enough that your shoulders align with opponent's hips, positioning yourself for the penetration step. (Timing: Pre-penetration preparation)
-5. **Release grips strategically**: As you drop your level, release the collar tie but maintain momentary wrist control to prevent them from creating distance. Your hands will transition from controlling grips to shooting positions, with arms driving forward and hands targeting behind their knees. (Timing: Transition to attack)
-6. **Step penetration foot forward**: Drive your lead foot deep between opponent's legs, landing with your knee pointing directly at their centerline. Your rear foot should follow in a powerful step, creating the momentum needed to drive through their base. Your head should be positioned tight to their hip, not floating in guillotine range. (Timing: Explosive entry phase)
-7. **Secure double leg grip**: As you penetrate, wrap both arms around the back of opponent's thighs, clasping your hands together behind their knees. Your shoulder pressure should drive into their hips while your arms pull their legs toward your chest, creating the classic double leg attacking position. (Timing: Completion of setup)
-8. **Maintain driving pressure**: Continue driving forward with your legs while keeping your hips low and back straight. This forward pressure prevents them from sprawling effectively and sets up your finishing options, whether that's a traditional double leg finish, transition to single leg, or mat return. (Timing: Setup to finish transition)
+1. **Establish grip control**: Secure a collar tie with your lead hand, placing it behind opponent's neck with fingers interlaced. Simultaneously control their wrist or sleeve with your rear hand, creating a connected grip system that limits their defensive options and allows you to manipulate their posture.
+2. **Create distance and angle**: Step your lead foot to the outside of opponent's lead foot, approximately 45 degrees off their centerline. This lateral positioning creates an angle that opens up the shooting lane while making it difficult for them to sprawl directly backward over your entry.
+3. **Execute upper body feint**: Push or pull with your collar tie to create a reactive response from your opponent. A forward push often causes them to push back, while a pull creates forward momentum. These reactions momentarily compromise their defensive readiness and weight distribution.
+4. **Perform level change**: Lower your hips by bending at the knees and waist while maintaining an upright back angle. The level change should be smooth and controlled, not telegraphed. Drop low enough that your shoulders align with opponent's hips, positioning yourself for the penetration step.
+5. **Release grips strategically**: As you drop your level, release the collar tie but maintain momentary wrist control to prevent them from creating distance. Your hands will transition from controlling grips to shooting positions, with arms driving forward and hands targeting behind their knees.
+6. **Step penetration foot forward**: Drive your lead foot deep between opponent's legs, landing with your knee pointing directly at their centerline. Your rear foot should follow in a powerful step, creating the momentum needed to drive through their base. Your head should be positioned tight to their hip, not floating in guillotine range.
+7. **Secure double leg grip**: As you penetrate, wrap both arms around the back of opponent's thighs, clasping your hands together behind their knees. Your shoulder pressure should drive into their hips while your arms pull their legs toward your chest, creating the classic double leg attacking position.
+8. **Maintain driving pressure**: Continue driving forward with your legs while keeping your hips low and back straight. This forward pressure prevents them from sprawling effectively and sets up your finishing options, whether that's a traditional double leg finish, transition to single leg, or mat return.
 
 
 </section>
@@ -268,23 +268,18 @@ The Double Leg Setup is a fundamental wrestling entry adapted for Brazilian Jiu-
 ## Training Progressions
 **Week 1-2: Technical Foundation** - Grip fighting and distance management fundamentals
 Practice establishing collar ties and wrist control from neutral standing position. Work on footwork patterns that create angles without committing to shots. Drill level changes in isolation, focusing on smooth hip movement while maintaining upright back position. Partner remains completely static to allow focus on technical positioning.
-(Resistance: None)
 
 **Week 3-4: Movement Integration** - Combining grips, angles, and level changes into fluid sequences
 Chain together grip establishment, angle creation, and level change into continuous movement patterns. Practice feints and reactions, learning to recognize when opponent's weight shifts create shooting opportunities. Begin timing shots based on partner's movement rather than static drilling. Partner provides light resistance by moving in predictable patterns.
-(Resistance: Light)
 
 **Week 5-8: Reactive Drilling** - Reading reactions and timing entries appropriately
 Partner actively moves and changes levels but does not attempt takedown defense. Focus on recognizing optimal shooting moments based on their posture breaks, weight transfers, and grip fighting patterns. Practice aborting bad shots and resetting to standing rather than forcing entries from poor positions. Develop ability to chain multiple setup attempts together.
-(Resistance: Medium)
 
 **Week 9-12: Defended Entries** - Executing setups against sprawl and guillotine defense
 Partner actively defends with sprawls, guillotines, and cross-faces at approximately 70% intensity. Practice maintaining proper head position to avoid guillotines, driving through sprawl attempts, and transitioning to alternatives when initial entry is defended. Develop problem-solving ability when facing common defensive reactions. Learn to recognize when to complete the shot versus when to bail out and reset.
-(Resistance: Full)
 
 **Month 4-6: Competition Simulation** - Applying setups in live standing grappling scenarios
 Engage in full-intensity standing-only rounds where both partners attempt takedowns. Focus on creating multiple setup opportunities through movement, grip fighting, and pressure. Chain double leg setups with other takedown attempts, using failed entries as setups for subsequent attacks. Develop strategic understanding of when to pull guard versus when to continue pursuing takedowns based on point scoring and match context.
-(Resistance: Full)
 
 
 

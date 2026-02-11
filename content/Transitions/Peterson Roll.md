@@ -153,7 +153,7 @@ description: "Master the Peterson Roll escape from turtle in BJJ. Step-by-step e
 The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that allows the bottom turtle player to reverse position and come out on top. Named after wrestler John Peterson, this technique exploits the opponent's weight commitment when they drive into you from behind. The roll uses the opponent's forward pressure against them, channeling their momentum into a rolling reversal that lands you in a dominant top position, typically side control or half guard top. The Peterson Roll is particularly effective against opponents who over-commit their weight forward while attempting to break down your turtle or establish back control. Unlike the granby roll which aims primarily for guard recovery, the Peterson Roll is an offensive reversal that puts you directly into a scoring position. The technique requires precise timing, proper arm positioning to capture the opponent's attacking limb, and explosive hip movement to generate the rotation needed to complete the roll. It forms an essential part of any complete turtle defense system, giving you a legitimate threatening option that forces opponents to respect your ability to reverse position rather than simply attacking freely.
 
 **From Position**: [[Turtle/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -201,12 +201,12 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify attacking arm**: From defensive turtle position, recognize when opponent reaches for underhook or harness control with their near arm. This reaching motion creates the opening you need for the reversal. (Timing: As opponent commits forward weight)
-2. **Capture the wrist**: Reach back with your near arm and grip opponent's attacking wrist firmly, pulling it tight to your hip. Maintain this grip throughout the entire roll - losing the wrist allows them to post and stop your reversal. (Timing: Before opponent secures grip)
-3. **Create posting arm**: Post your far arm firmly on the mat in front of you, creating a pivot point for the roll. Your posting hand should be positioned slightly forward and to the side, establishing the axis around which you will rotate. (Timing: Immediately after wrist capture)
-4. **Shoot hip through**: Explosively drive your near hip underneath your body and through to the far side, initiating the rolling motion. Your hips lead the technique while your trapped arm pulls opponent over with you. Think of threading your hip through a small gap. (Timing: Explosive, as opponent drives forward)
-5. **Complete the rotation**: Continue the rolling momentum as you invert and come over the top of opponent. Keep the captured wrist tight to your body throughout, preventing opponent from extracting their arm or posting to stop the roll. (Timing: Continuous fluid motion)
-6. **Establish top position**: As the roll completes, immediately establish chest-to-chest pressure in side control or secure half guard top position. Release the wrist grip and transition to standard top control grips (crossface, underhook) to consolidate the reversal. (Timing: As rotation finishes, before opponent can recover)
+1. **Identify attacking arm**: From defensive turtle position, recognize when opponent reaches for underhook or harness control with their near arm. This reaching motion creates the opening you need for the reversal.
+2. **Capture the wrist**: Reach back with your near arm and grip opponent's attacking wrist firmly, pulling it tight to your hip. Maintain this grip throughout the entire roll - losing the wrist allows them to post and stop your reversal.
+3. **Create posting arm**: Post your far arm firmly on the mat in front of you, creating a pivot point for the roll. Your posting hand should be positioned slightly forward and to the side, establishing the axis around which you will rotate.
+4. **Shoot hip through**: Explosively drive your near hip underneath your body and through to the far side, initiating the rolling motion. Your hips lead the technique while your trapped arm pulls opponent over with you. Think of threading your hip through a small gap.
+5. **Complete the rotation**: Continue the rolling momentum as you invert and come over the top of opponent. Keep the captured wrist tight to your body throughout, preventing opponent from extracting their arm or posting to stop the roll.
+6. **Establish top position**: As the roll completes, immediately establish chest-to-chest pressure in side control or secure half guard top position. Release the wrist grip and transition to standard top control grips (crossface, underhook) to consolidate the reversal.
 
 
 </section>
@@ -252,19 +252,15 @@ The Peterson Roll is a fundamental wrestling-based reversal adapted for BJJ that
 ## Training Progressions
 **Week 1-2** - Mechanics and hip movement
 Drill the rolling motion without partner resistance, focusing on hip threading mechanics and maintaining compact body position. Practice wrist capture timing with compliant partner who allows the grip. Execute 20-30 repetitions per session on each side.
-(Resistance: None)
 
 **Week 3-4** - Timing and pressure recognition
 Partner applies forward pressure from turtle top position. Practice recognizing the correct moment to initiate based on weight commitment. Partner provides light resistance but allows technique completion. Focus on reading pressure and explosive initiation.
-(Resistance: Light)
 
 **Week 5-6** - Chaining and combinations
 Combine Peterson Roll with other turtle escapes: if roll is defended, chain to granby roll, technical standup, or sit-through. Practice flowing between options based on opponent's defensive reactions. Partner increases resistance and begins defending actively.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Apply Peterson Roll in positional sparring starting from turtle. Identify personal timing preferences and failure points. Adjust technique based on different opponent body types and defensive styles. Full resistance with realistic competition timing.
-(Resistance: Full)
 
 
 

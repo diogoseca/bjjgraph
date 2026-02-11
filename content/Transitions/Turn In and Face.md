@@ -163,7 +163,7 @@ The escape works because the buggy choke's power comes from the threading arm wr
 Strategically, Turn In and Face is the preferred escape when the defender still has sufficient posture and mobility to execute a rotation. It creates direct pathways to open guard, closed guard, or half guard depending on how the attacker reacts. Compared to alternatives like granby rolls or sitting to half guard, this escape keeps the defender facing the opponent from the outset, reducing the risk of exposing the back during the escape sequence. For practitioners who play guard-centric games, this transition provides the most direct route back to their preferred positions.
 
 **From Position**: [[Buggy Choke/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure threading arm**: With your near-side hand, grip the opponent's threading wrist or forearm firmly, pinning it against your chest and ribs to limit its depth and prevent further collar access during the turn (Timing: Immediately upon recognizing the threading attempt or as first defensive action)
-2. **Post far-side arm**: Plant your far-side hand firmly on the mat at shoulder width, creating a pivot point for the rotation. Position the hand so your elbow faces outward, generating a strong base to drive the turning motion (Timing: Simultaneous with or immediately after securing the threading arm)
-3. **Drive rotation with near knee**: Swing your near-side knee underneath your body toward the far side, using the knee as the primary driver of rotational momentum. The knee travels in an arc beneath your hips, pulling your torso around to face the opponent (Timing: Explosive initiation — commit fully to the rotation without hesitation)
-4. **Square hips to opponent**: Complete the rotation by bringing both hips square to the opponent's torso, eliminating the perpendicular angle that powered the buggy choke. Your chest should now face the opponent's chest directly, collapsing the choking geometry entirely (Timing: Continuous motion from the knee drive — do not pause mid-rotation)
-5. **Establish inside frames**: Immediately place both forearms against the opponent's chest, biceps, and shoulder line to create a defensive structure that prevents them from closing distance, re-establishing side control, or converting to a front headlock or guillotine (Timing: The instant your hips are squared — frames must beat their re-attachment attempt)
-6. **Hip escape and insert legs**: Execute a sharp hip escape away from the opponent while maintaining frame contact, creating enough space to insert your knees and shins between your body and the opponent's torso to begin establishing an open guard configuration (Timing: Immediately after frames are set — do not rest in the facing position)
-7. **Recover guard position**: Insert both feet onto the opponent's hips or hook behind their thighs to establish open guard, butterfly guard, or close your ankles behind their back for closed guard depending on distance and opponent's posture. Secure sleeve or collar grips to complete the guard recovery (Timing: Within 2-3 seconds of facing — extended delay allows opponent to re-pass)
+1. **Secure threading arm**: With your near-side hand, grip the opponent's threading wrist or forearm firmly, pinning it against your chest and ribs to limit its depth and prevent further collar access during the turn
+2. **Post far-side arm**: Plant your far-side hand firmly on the mat at shoulder width, creating a pivot point for the rotation. Position the hand so your elbow faces outward, generating a strong base to drive the turning motion
+3. **Drive rotation with near knee**: Swing your near-side knee underneath your body toward the far side, using the knee as the primary driver of rotational momentum. The knee travels in an arc beneath your hips, pulling your torso around to face the opponent
+4. **Square hips to opponent**: Complete the rotation by bringing both hips square to the opponent's torso, eliminating the perpendicular angle that powered the buggy choke. Your chest should now face the opponent's chest directly, collapsing the choking geometry entirely
+5. **Establish inside frames**: Immediately place both forearms against the opponent's chest, biceps, and shoulder line to create a defensive structure that prevents them from closing distance, re-establishing side control, or converting to a front headlock or guillotine
+6. **Hip escape and insert legs**: Execute a sharp hip escape away from the opponent while maintaining frame contact, creating enough space to insert your knees and shins between your body and the opponent's torso to begin establishing an open guard configuration
+7. **Recover guard position**: Insert both feet onto the opponent's hips or hook behind their thighs to establish open guard, butterfly guard, or close your ankles behind their back for closed guard depending on distance and opponent's posture. Secure sleeve or collar grips to complete the guard recovery
 
 
 </section>
@@ -260,19 +260,15 @@ Strategically, Turn In and Face is the preferred escape when the defender still 
 ## Training Progressions
 **Week 1-2** - Rotation mechanics and direction
 Practice the turning motion from turtle with a cooperative partner who holds light buggy choke grips. Focus on identifying the correct rotation direction (toward the choking arm), developing the knee-drive rotation, and completing the full turn to a squared position. Repeat 15-20 reps per side focusing on smooth continuous motion without pausing mid-turn.
-(Resistance: None)
 
 **Week 3-4** - Threading arm control and framing
 Add the wrist control component while turning, then immediately establish inside frames upon completion. Partner provides light resistance, attempting to maintain grip depth during the turn. Focus on keeping control of the threading arm throughout the rotation and the speed of frame establishment after facing. Drill the full sequence: grip control, rotation, frame, hip escape.
-(Resistance: Light)
 
 **Week 5-6** - Guard recovery chains and counter-defense
 Extend the drill through full guard recovery after the turn. Partner provides moderate resistance and begins attempting front headlock and back take counters during the rotation. Practice recognizing which guard type to establish based on distance and opponent reaction. Include guillotine defense and underhook work during the turn.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and decision-making
 Full positional sparring starting from buggy choke bottom. Bottom player chooses between Turn In and Face, granby roll, sit to half guard, and other escapes based on opponent's pressure level and grip depth. Top player attacks with full resistance. Develop real-time recognition of when the turn is available versus when alternative escapes are necessary.
-(Resistance: Full)
 
 
 

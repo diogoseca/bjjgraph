@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Passing to Side Control from 50-50 Guard represents a strategic decision to abandon leg lock exchanges in favor of establishing a dominant pinning position. This transition is particularly valuable when your opponent has effectively hidden their heel, when you lack the control needed for leg attacks, or when competing under rulesets that restrict heel hooks. The pass requires systematic leg extraction while maintaining pressure to prevent your opponent from following or re-establishing the entanglement.\n\nThe fundamental challenge of this pass is extracting your legs from the symmetrical entanglement without creating space that allows your opponent to recover guard or sweep. Success depends on controlling the hip line throughout the transition and using your weight to pin their lower body while your legs disengage. The pass typically flows through a brief knee-on-belly or headquarters position before settling into side control.\n\nThis transition exemplifies the principle that positional dominance sometimes outweighs submission hunting. Against defensive opponents who excel at heel protection, repeatedly attacking leg locks may waste energy with diminishing returns. Recognizing when to abandon the entanglement and advance position separates intermediate practitioners from advanced ones. The 3 points earned for the pass often proves more valuable than continued position-neutral leg lock exchanges.",
   "key_principles": [
     "Control opponent's hip line throughout the extraction to prevent guard recovery or sweep attempts during transition",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Strip ankle control",
-      "description": "Use both hands to break opponent's grip on your ankle or foot. Two-on-one grip fighting targeting their controlling hand first eliminates their ability to prevent your leg extraction.",
-      "timing": "When opponent commits both hands to heel defense"
+      "description": "Use both hands to break opponent's grip on your ankle or foot. Two-on-one grip fighting targeting their controlling hand first eliminates their ability to prevent your leg extraction."
     },
     {
       "step_number": 2,
       "action": "Drive chest forward",
-      "description": "Immediately after breaking grips, drive your chest weight forward onto opponent's torso while keeping hips low. This pressure prevents them from sitting up or following your movement during extraction.",
-      "timing": "Simultaneously with grip break"
+      "description": "Immediately after breaking grips, drive your chest weight forward onto opponent's torso while keeping hips low. This pressure prevents them from sitting up or following your movement during extraction."
     },
     {
       "step_number": 3,
       "action": "Extract inside leg",
-      "description": "Pull your inside leg free from the entanglement by straightening it and sliding it between your bodies. Keep constant chest pressure to prevent opponent from re-capturing as the leg clears.",
-      "timing": "While maintaining forward pressure"
+      "description": "Pull your inside leg free from the entanglement by straightening it and sliding it between your bodies. Keep constant chest pressure to prevent opponent from re-capturing as the leg clears."
     },
     {
       "step_number": 4,
       "action": "Establish knee position",
-      "description": "Plant your freed leg's knee on opponent's hip or in their hip crease. This blocks guard recovery while your outside leg remains temporarily in the entanglement.",
-      "timing": "Immediately upon inside leg clearing"
+      "description": "Plant your freed leg's knee on opponent's hip or in their hip crease. This blocks guard recovery while your outside leg remains temporarily in the entanglement."
     },
     {
       "step_number": 5,
       "action": "Extract outside leg",
-      "description": "Circle your outside leg free from behind opponent's legs, keeping your knee driving into their hip throughout. Use a windshield wiper motion to clear their leg hook.",
-      "timing": "Once inside leg is securely planted"
+      "description": "Circle your outside leg free from behind opponent's legs, keeping your knee driving into their hip throughout. Use a windshield wiper motion to clear their leg hook."
     },
     {
       "step_number": 6,
       "action": "Establish crossface",
-      "description": "Drive your shoulder into opponent's jaw while sliding your arm under their head. Create uncomfortable pressure across their face to prevent them from turning toward you.",
-      "timing": "As outside leg clears"
+      "description": "Drive your shoulder into opponent's jaw while sliding your arm under their head. Create uncomfortable pressure across their face to prevent them from turning toward you."
     },
     {
       "step_number": 7,
       "action": "Settle side control",
-      "description": "Drop your hips low and heavy against opponent's hips, eliminating all space. Position chest perpendicular to their torso with constant chest-to-chest contact. Block far hip with near hand.",
-      "timing": "Final phase of pass completion"
+      "description": "Drop your hips low and heavy against opponent's hips, eliminating all space. Position chest perpendicular to their torso with constant chest-to-chest contact. Block far hip with near hand."
     }
   ],
   "common_counters": [
@@ -146,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamentals",
-      "description": "Practice grip breaking and chest pressure maintenance from 50-50 top. Partner provides no resistance. Focus on the sequential leg extraction mechanics - inside leg first, plant knee, then outside leg. Drill each step in isolation before combining.",
-      "resistance_level": "None"
+      "description": "Practice grip breaking and chest pressure maintenance from 50-50 top. Partner provides no resistance. Focus on the sequential leg extraction mechanics - inside leg first, plant knee, then outside leg. Drill each step in isolation before combining."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing",
-      "description": "Partner defends with light re-capturing attempts and hip escapes. Learn to recognize when opponent's focus on heel defense creates passing opportunity. Practice aborting pass and returning to 50-50 when timing is wrong.",
-      "resistance_level": "Light"
+      "description": "Partner defends with light re-capturing attempts and hip escapes. Learn to recognize when opponent's focus on heel defense creates passing opportunity. Practice aborting pass and returning to 50-50 when timing is wrong."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations",
-      "description": "Chain pass attempts with leg lock threats. When opponent over-defends heel, pass. When opponent over-defends pass, attack heel hook. Develop ability to switch between attack modes based on opponent reaction.",
-      "resistance_level": "Medium"
+      "description": "Chain pass attempts with leg lock threats. When opponent over-defends heel, pass. When opponent over-defends pass, attack heel hook. Develop ability to switch between attack modes based on opponent reaction."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement in positional sparring starting from 50-50. Partner provides full resistance with all counters available. Track success rate and identify which situations favor passing versus continued leg attacks. Refine decision-making process.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring starting from 50-50. Partner provides full resistance with all counters available. Track success rate and identify which situations favor passing versus continued leg attacks. Refine decision-making process."
     }
   ],
   "variants_and_adaptations": [
@@ -188,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Pass to Side Control from 50-50?",
-      "answer": "The primary goal is to abandon the leg entanglement exchange in favor of establishing a dominant pinning position. This is strategic when leg attacks are defended well (opponent hiding heel), when ruleset restricts heel hooks, or when positional points outweigh continued leg lock hunting. Success yields 3 points for passing.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to abandon the leg entanglement exchange in favor of establishing a dominant pinning position. This is strategic when leg attacks are defended well (opponent hiding heel), when ruleset restricts heel hooks, or when positional points outweigh continued leg lock hunting. Success yields 3 points for passing."
     },
     {
       "question": "What must you accomplish before attempting to extract your legs from 50-50?",
-      "answer": "You must break opponent's grip control on your ankle or foot using two-on-one grip fighting. Attempting extraction while they control your leg allows immediate re-capture. After breaking grips, immediately drive chest pressure forward to prevent re-gripping.",
-      "difficulty": "Beginner"
+      "answer": "You must break opponent's grip control on your ankle or foot using two-on-one grip fighting. Attempting extraction while they control your leg allows immediate re-capture. After breaking grips, immediately drive chest pressure forward to prevent re-gripping."
     },
     {
       "question": "Your opponent begins hip escaping as soon as you start extracting your inside leg - what adjustment prevents guard recovery?",
-      "answer": "Drive forward pressure more aggressively with your chest and immediately plant your freed knee on their hip or in their hip crease. This blocks their knee insertion path. If their hip escape is faster than your knee plant, accelerate the entire sequence rather than slowing down - speed beats their recovery timing.",
-      "difficulty": "Intermediate"
+      "answer": "Drive forward pressure more aggressively with your chest and immediately plant your freed knee on their hip or in their hip crease. This blocks their knee insertion path. If their hip escape is faster than your knee plant, accelerate the entire sequence rather than slowing down - speed beats their recovery timing."
     },
     {
       "question": "Why is sequential leg extraction (inside first, then outside) critical rather than extracting both simultaneously?",
-      "answer": "Extracting both legs simultaneously removes all control points from opponent's hip line, creating space for them to bump, roll, or recover guard. Sequential extraction maintains constant pressure - inside leg extracts and knee immediately plants on hip, then outside leg clears while that knee blocks. Always maintain at least one control point.",
-      "difficulty": "Intermediate"
+      "answer": "Extracting both legs simultaneously removes all control points from opponent's hip line, creating space for them to bump, roll, or recover guard. Sequential extraction maintains constant pressure - inside leg extracts and knee immediately plants on hip, then outside leg clears while that knee blocks. Always maintain at least one control point."
     },
     {
       "question": "What signals indicate that passing to side control is a better option than continuing leg attacks?",
-      "answer": "Key signals include: opponent consistently hiding heel successfully making heel hook low percentage, opponent matching your inside position control creating stalemate, time running low in competition and needing points, opponent's leg lock defense superior to yours, or opponent becoming predictable in heel defense creating passing windows. Recognize when leg lock hunting yields diminishing returns.",
-      "difficulty": "Advanced"
+      "answer": "Key signals include: opponent consistently hiding heel successfully making heel hook low percentage, opponent matching your inside position control creating stalemate, time running low in competition and needing points, opponent's leg lock defense superior to yours, or opponent becoming predictable in heel defense creating passing windows. Recognize when leg lock hunting yields diminishing returns."
     },
     {
       "question": "Your opponent inverts and granby rolls as you begin extracting legs - how do you capitalize?",
-      "answer": "Their inversion exposes their back. Instead of completing the side control pass, follow their rotation with your pressure and circle toward their back as they roll. Their defensive movement becomes your entry to back control, which is superior to side control. Stay heavy on their upper body throughout their rotation.",
-      "difficulty": "Advanced"
+      "answer": "Their inversion exposes their back. Instead of completing the side control pass, follow their rotation with your pressure and circle toward their back as they roll. Their defensive movement becomes your entry to back control, which is superior to side control. Stay heavy on their upper body throughout their rotation."
     },
     {
       "question": "What is the correct direction of force when establishing crossface after legs clear?",
-      "answer": "Drive shoulder pressure diagonally across opponent's face toward the mat on the far side. The force direction should prevent them from turning their head toward you. Your shoulder blade or deltoid creates pressure on their jaw/cheek. Simultaneously slide your arm under their head to lock the crossface position.",
-      "difficulty": "Intermediate"
+      "answer": "Drive shoulder pressure diagonally across opponent's face toward the mat on the far side. The force direction should prevent them from turning their head toward you. Your shoulder blade or deltoid creates pressure on their jaw/cheek. Simultaneously slide your arm under their head to lock the crossface position."
     },
     {
       "question": "When should you abort the pass attempt and return to 50-50 leg attacks?",
-      "answer": "Abort if: opponent successfully re-hooks your leg before it clears (restart grip fighting), opponent sits up and threatens your partially extracted leg, or you lose chest pressure and they create significant space. Forcing a failed pass often results in worse position than controlled return to 50-50. Recognize when pass timing is wrong early.",
-      "difficulty": "Advanced"
+      "answer": "Abort if: opponent successfully re-hooks your leg before it clears (restart grip fighting), opponent sits up and threatens your partially extracted leg, or you lose chest pressure and they create significant space. Forcing a failed pass often results in worse position than controlled return to 50-50. Recognize when pass timing is wrong early."
     }
   ],
   "safety_considerations": "Pass to Side Control from 50-50 is generally low-risk for both practitioners when executed properly. The primary injury concern is knee torque if your extracting leg gets caught at an awkward angle while you drive forward pressure. If you feel your knee binding during extraction, release pressure and restart rather than forcing through resistance. When drilling, partners should allow clean extraction initially before adding resistance to prevent knee tweaks. Avoid this pass if you have existing knee injuries as the rotational extraction motion can aggravate medial collateral ligament issues. Communication during training prevents accidental injury when partner's grip on your ankle remains tight during extraction.",
@@ -266,5 +242,6 @@
       "name": "50-50 Guard to Inside Ashi",
       "relationship": "Alternative transition to different leg entanglement"
     }
-  ]
+  ],
+  "success_rate": 58
 }

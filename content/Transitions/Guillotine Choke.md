@@ -163,7 +163,7 @@ From Guillotine Control Bottom, the finish requires precise coordination between
 Strategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.
 
 **From Position**: [[Guillotine Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify grip depth**: Confirm the blade of your choking wrist crosses directly over the front of the opponent's throat, with your forearm contacting the trachea and carotid structures. If grip is shallow (across jaw or chin), adjust by pulling the head deeper before proceeding. (Timing: Before initiating finish sequence)
-2. **Secure hand clasp**: Connect your hands using a gable grip (palm-to-palm), S-grip, or figure-four configuration behind the opponent's head. Ensure the grip is tight with no slack—your non-choking hand should pull the choking wrist firmly into the neck. (Timing: Immediately after verifying depth)
-3. **Close guard high**: Lock your legs in closed guard positioned high on the opponent's back, near their shoulders. This positioning prevents them from posturing up or driving forward. Pull your heels toward your glutes to compress their upper body downward. (Timing: Concurrent with grip establishment)
-4. **Angle hips toward choking side**: Hip escape slightly toward the side of your choking arm while maintaining guard lock. This angle creates a fulcrum effect that dramatically increases choking pressure without requiring additional arm strength. Your hip becomes the lever point. (Timing: As you begin finish sequence)
-5. **Elevate choking elbow**: Drive your choking elbow toward the ceiling while keeping it tight to your ribs. This motion lifts the forearm into the throat structures and closes the choking angle. Think of pointing your elbow at a spot on the ceiling above the opponent's far shoulder. (Timing: Primary finishing action)
-6. **Pull head down and curl**: Simultaneously pull the opponent's head down toward your chest using your clasped hands while curling your choking arm upward. This creates compression from two directions—head going down, forearm coming up—completing the choke mechanism. (Timing: Final finishing pressure)
-7. **Bridge and squeeze**: Bridge your hips upward into the opponent while maintaining the curling pressure. This bridge amplifies the compression and prevents them from creating any space. Hold the position until you feel the tap or the opponent goes limp. (Timing: Sustain until submission)
+1. **Verify grip depth**: Confirm the blade of your choking wrist crosses directly over the front of the opponent's throat, with your forearm contacting the trachea and carotid structures. If grip is shallow (across jaw or chin), adjust by pulling the head deeper before proceeding.
+2. **Secure hand clasp**: Connect your hands using a gable grip (palm-to-palm), S-grip, or figure-four configuration behind the opponent's head. Ensure the grip is tight with no slack—your non-choking hand should pull the choking wrist firmly into the neck.
+3. **Close guard high**: Lock your legs in closed guard positioned high on the opponent's back, near their shoulders. This positioning prevents them from posturing up or driving forward. Pull your heels toward your glutes to compress their upper body downward.
+4. **Angle hips toward choking side**: Hip escape slightly toward the side of your choking arm while maintaining guard lock. This angle creates a fulcrum effect that dramatically increases choking pressure without requiring additional arm strength. Your hip becomes the lever point.
+5. **Elevate choking elbow**: Drive your choking elbow toward the ceiling while keeping it tight to your ribs. This motion lifts the forearm into the throat structures and closes the choking angle. Think of pointing your elbow at a spot on the ceiling above the opponent's far shoulder.
+6. **Pull head down and curl**: Simultaneously pull the opponent's head down toward your chest using your clasped hands while curling your choking arm upward. This creates compression from two directions—head going down, forearm coming up—completing the choke mechanism.
+7. **Bridge and squeeze**: Bridge your hips upward into the opponent while maintaining the curling pressure. This bridge amplifies the compression and prevents them from creating any space. Hold the position until you feel the tap or the opponent goes limp.
 
 
 </section>
@@ -263,19 +263,15 @@ Strategically, the Guillotine Choke creates a powerful dilemma for defenders: pr
 ## Training Progressions
 **Week 1-2** - Grip mechanics and depth
 Practice establishing proper guillotine grip depth from various entries (sprawl, guard pull, shot defense). Focus on wrist blade placement and hand clasp configurations. Partner remains static, allowing you to find correct positioning repeatedly.
-(Resistance: None)
 
 **Week 3-4** - Finishing angle and hip engagement
 With grip established, practice the finishing sequence: angling hips, elevating elbow, pulling head down, and bridging. Partner provides light postural resistance to help you understand proper leverage and timing of each component.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and adjustment
 Partner begins using specific defenses (posturing, driving forward, chin tuck, turning). Practice recognizing each defense and applying appropriate counter-technique or transitioning to alternative attacks. Develop pattern recognition for defensive tells.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and timing
 Positional sparring starting from guillotine control. Win by submission or sweep; opponent wins by escape or pass. Full resistance with focus on reading opponent's reactions in real-time and selecting appropriate finishing path or transition.
-(Resistance: Full)
 
 
 

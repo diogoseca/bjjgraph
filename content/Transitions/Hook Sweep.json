@@ -8,11 +8,6 @@
     "butterfly_guard",
     "fundamental"
   ],
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Hook Sweep is a fundamental butterfly guard technique that leverages proper hook placement, angle creation, and weight manipulation to off-balance and sweep an opponent. This sweep is particularly effective when the opponent's weight is distributed forward or when they're attempting to pass your guard. The technique relies on elevating the opponent using butterfly hooks while simultaneously pulling them off-balance, creating a sweeping motion that results in a dominant top position. The Hook Sweep is one of the most high-percentage sweeps from butterfly guard due to its mechanical efficiency and the difficulty opponents face in defending once proper grips and hooks are established. This technique forms the foundation of the butterfly guard system and connects seamlessly with other butterfly guard attacks, making it essential for any practitioner looking to develop a comprehensive guard game. The sweep can be executed from both seated and combat base butterfly positions, and its success depends on timing, proper hook placement, and the ability to create and exploit angles.",
   "key_principles": [
     "Establish strong butterfly hooks with feet positioned deep under opponent's thighs",
@@ -35,38 +30,32 @@
     {
       "step_number": 1,
       "action": "Establish butterfly guard position",
-      "description": "Sit with both butterfly hooks inserted deep under opponent's thighs, feet flexed and pulling upward. Establish strong grips on opponent's collar with one hand and sleeve or tricep with the other. Maintain upright posture with chest connected to opponent's upper body.",
-      "timing": "Pre-sweep positioning phase"
+      "description": "Sit with both butterfly hooks inserted deep under opponent's thighs, feet flexed and pulling upward. Establish strong grips on opponent's collar with one hand and sleeve or tricep with the other. Maintain upright posture with chest connected to opponent's upper body."
     },
     {
       "step_number": 2,
       "action": "Create angle and off-balance",
-      "description": "Shift your hips approximately 45 degrees to the side you intend to sweep (typically to the side of your collar grip hand). Simultaneously pull opponent forward and slightly to that side using your grips, breaking their base and forcing their weight forward over their knees.",
-      "timing": "Initial off-balancing motion"
+      "description": "Shift your hips approximately 45 degrees to the side you intend to sweep (typically to the side of your collar grip hand). Simultaneously pull opponent forward and slightly to that side using your grips, breaking their base and forcing their weight forward over their knees."
     },
     {
       "step_number": 3,
       "action": "Load the sweeping hook",
-      "description": "Transfer your weight slightly to the non-sweeping side while maintaining the angle. Drive the sweeping-side butterfly hook deep under opponent's thigh, foot flexed and ready to elevate. Your opposite hook maintains base and prevents opponent from posting.",
-      "timing": "Loading phase before explosive action"
+      "description": "Transfer your weight slightly to the non-sweeping side while maintaining the angle. Drive the sweeping-side butterfly hook deep under opponent's thigh, foot flexed and ready to elevate. Your opposite hook maintains base and prevents opponent from posting."
     },
     {
       "step_number": 4,
       "action": "Execute simultaneous lift and pull",
-      "description": "Explosively extend your sweeping-side leg, lifting opponent's near leg off the mat while simultaneously pulling their upper body toward you and down with your grips. The lifting motion should be directed upward and across your body. Your chest should remain connected to theirs throughout.",
-      "timing": "Primary sweeping motion - explosive but controlled"
+      "description": "Explosively extend your sweeping-side leg, lifting opponent's near leg off the mat while simultaneously pulling their upper body toward you and down with your grips. The lifting motion should be directed upward and across your body. Your chest should remain connected to theirs throughout."
     },
     {
       "step_number": 5,
       "action": "Drive through and establish top position",
-      "description": "As opponent begins to fall, continue driving your hook upward and rolling your body weight forward and over them. Use your grips to control their upper body and prevent them from recovering. Begin transitioning your hips forward to establish side control or knee on belly position.",
-      "timing": "Completion phase as opponent is swept"
+      "description": "As opponent begins to fall, continue driving your hook upward and rolling your body weight forward and over them. Use your grips to control their upper body and prevent them from recovering. Begin transitioning your hips forward to establish side control or knee on belly position."
     },
     {
       "step_number": 6,
       "action": "Secure dominant position",
-      "description": "Land in side control with your chest pressure on opponent's torso, establishing crossface with your near arm and controlling their far hip or underhook with your other arm. Ensure your base is wide with knees spread, hips low, and weight distributed to prevent immediate escape attempts.",
-      "timing": "Final stabilization after sweep completion"
+      "description": "Land in side control with your chest pressure on opponent's torso, establishing crossface with your near arm and controlling their far hip or underhook with your other arm. Ensure your base is wide with knees spread, hips low, and weight distributed to prevent immediate escape attempts."
     }
   ],
   "common_counters": [
@@ -122,32 +111,27 @@
     {
       "phase": "Phase 1: Weeks 1-2",
       "focus": "Basic mechanics and hook placement",
-      "description": "Practice hook insertion and maintenance with stationary partner. Focus on proper foot placement, angle creation, and grip establishment. Partner remains static while you drill setup position and basic lifting motion without resistance.",
-      "resistance_level": "None"
+      "description": "Practice hook insertion and maintenance with stationary partner. Focus on proper foot placement, angle creation, and grip establishment. Partner remains static while you drill setup position and basic lifting motion without resistance."
     },
     {
       "phase": "Phase 2: Weeks 3-4",
       "focus": "Coordinated sweep motion with cooperative partner",
-      "description": "Execute complete sweep with partner allowing technique to work. Emphasize simultaneous pull-and-lift timing, proper angle maintenance, and smooth follow-through to top position. Partner provides minimal resistance, allowing focus on technical details and body mechanics.",
-      "resistance_level": "Light"
+      "description": "Execute complete sweep with partner allowing technique to work. Emphasize simultaneous pull-and-lift timing, proper angle maintenance, and smooth follow-through to top position. Partner provides minimal resistance, allowing focus on technical details and body mechanics."
     },
     {
       "phase": "Phase 3: Weeks 5-8",
       "focus": "Sweep against moderate resistance and counter responses",
-      "description": "Partner begins defending with common counters like posting, base widening, and hip sprawling. Practice recognizing and responding to different defensive reactions. Develop ability to chain to alternative techniques when primary sweep is blocked.",
-      "resistance_level": "Medium"
+      "description": "Partner begins defending with common counters like posting, base widening, and hip sprawling. Practice recognizing and responding to different defensive reactions. Develop ability to chain to alternative techniques when primary sweep is blocked."
     },
     {
       "phase": "Phase 4: Months 3-6",
       "focus": "Live application and integration with butterfly guard system",
-      "description": "Incorporate hook sweep into positional sparring from butterfly guard. Practice setting up sweep from various grip configurations and against different opponent postures. Develop ability to create sweep opportunities through feints and combinations.",
-      "resistance_level": "Full"
+      "description": "Incorporate hook sweep into positional sparring from butterfly guard. Practice setting up sweep from various grip configurations and against different opponent postures. Develop ability to create sweep opportunities through feints and combinations."
     },
     {
       "phase": "Phase 5: Months 6+",
       "focus": "Competition refinement and situational mastery",
-      "description": "Apply technique in live rolling and competition scenarios. Develop timing to capitalize on opponent movements and weight shifts. Master variations and adaptations based on opponent size, style, and defensive patterns.",
-      "resistance_level": "Full"
+      "description": "Apply technique in live rolling and competition scenarios. Develop timing to capitalize on opponent movements and weight shifts. Master variations and adaptations based on opponent size, style, and defensive patterns."
     }
   ],
   "variants_and_adaptations": [
@@ -175,33 +159,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is creating a 45-degree angle essential before executing the hook sweep?",
-      "answer": "Creating a 45-degree angle before the sweep serves multiple critical functions. First, it removes one of the opponent's base points (the leg on the sweeping side), making them vulnerable to off-balancing. Second, the angle allows your lifting hook to have maximum mechanical advantage, as you're pushing perpendicular to their remaining base rather than directly into their strength. Third, the angle positions your body to follow through and establish top position naturally as the sweep completes. Without this angle, the opponent can simply post to the sweeping side or maintain their base through their legs, making the sweep ineffective regardless of how much force is applied.",
-      "difficulty": "Intermediate"
+      "answer": "Creating a 45-degree angle before the sweep serves multiple critical functions. First, it removes one of the opponent's base points (the leg on the sweeping side), making them vulnerable to off-balancing. Second, the angle allows your lifting hook to have maximum mechanical advantage, as you're pushing perpendicular to their remaining base rather than directly into their strength. Third, the angle positions your body to follow through and establish top position naturally as the sweep completes. Without this angle, the opponent can simply post to the sweeping side or maintain their base through their legs, making the sweep ineffective regardless of how much force is applied."
     },
     {
       "question": "What is the correct timing sequence for the pull and lift components of the hook sweep?",
-      "answer": "The correct sequence begins with the pulling motion slightly before the lifting motion, though they should feel nearly simultaneous once proficiency is developed. First, your grips pull the opponent forward and off-balance, breaking their base and loading their weight over their forward knee. Then, as their weight commits forward, the hook lifts explosively. This sequence ensures the opponent has no base to defend against when the lift occurs. Beginners often make the error of lifting before pulling, which allows the opponent to maintain their base and simply resist the upward force. The pull must compromise their structure before the lift can be effective.",
-      "difficulty": "Beginner"
+      "answer": "The correct sequence begins with the pulling motion slightly before the lifting motion, though they should feel nearly simultaneous once proficiency is developed. First, your grips pull the opponent forward and off-balance, breaking their base and loading their weight over their forward knee. Then, as their weight commits forward, the hook lifts explosively. This sequence ensures the opponent has no base to defend against when the lift occurs. Beginners often make the error of lifting before pulling, which allows the opponent to maintain their base and simply resist the upward force. The pull must compromise their structure before the lift can be effective."
     },
     {
       "question": "How should you respond if your opponent posts their hand to prevent the hook sweep?",
-      "answer": "When the opponent posts their hand to prevent the sweep, you have several high-percentage options. First, you can switch to sweeping the opposite direction, as their posted hand has compromised their base on that side. Second, you can attack the posted arm with a kimura, as the posting action extends their arm into a vulnerable position. Third, you can use their posted position to facilitate an arm drag to their back, since the post prevents them from defending the drag effectively. Fourth, you can transition to a different guard like X-guard or single-leg X, using their committed post as an entry point. The key is recognizing the post as an opportunity rather than a complete defensive success.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent posts their hand to prevent the sweep, you have several high-percentage options. First, you can switch to sweeping the opposite direction, as their posted hand has compromised their base on that side. Second, you can attack the posted arm with a kimura, as the posting action extends their arm into a vulnerable position. Third, you can use their posted position to facilitate an arm drag to their back, since the post prevents them from defending the drag effectively. Fourth, you can transition to a different guard like X-guard or single-leg X, using their committed post as an entry point. The key is recognizing the post as an opportunity rather than a complete defensive success."
     },
     {
       "question": "What role does chest-to-chest connection play in the hook sweep's effectiveness?",
-      "answer": "Maintaining chest-to-chest connection throughout the hook sweep is crucial for multiple reasons. First, it prevents the opponent from creating space to post, base out, or otherwise defend the sweep. Second, the connection allows you to feel their weight distribution and reactions, providing crucial timing information. Third, keeping them close maximizes the effectiveness of your grips and upper body control, making it easier to break their posture and pull them off-balance. Fourth, the tight connection ensures that as you sweep, you maintain control into the top position rather than sweeping them away where they might recover. Finally, the connection prevents them from using their superior reach or leg length to establish defensive frames.",
-      "difficulty": "Intermediate"
+      "answer": "Maintaining chest-to-chest connection throughout the hook sweep is crucial for multiple reasons. First, it prevents the opponent from creating space to post, base out, or otherwise defend the sweep. Second, the connection allows you to feel their weight distribution and reactions, providing crucial timing information. Third, keeping them close maximizes the effectiveness of your grips and upper body control, making it easier to break their posture and pull them off-balance. Fourth, the tight connection ensures that as you sweep, you maintain control into the top position rather than sweeping them away where they might recover. Finally, the connection prevents them from using their superior reach or leg length to establish defensive frames."
     },
     {
       "question": "Why is deep hook placement more effective than shallow hook placement for this sweep?",
-      "answer": "Deep hook placement, where your feet are inserted well under the opponent's thighs near their hips, provides superior mechanical leverage compared to shallow placement. Deep hooks give you a longer lever arm and position your lifting force closer to the opponent's center of gravity, making it easier to elevate them. Shallow hooks, positioned near the opponent's knees, create a shorter lever arm and position your force far from their center of mass, requiring significantly more strength and making the sweep easier to defend. Additionally, deep hooks are harder for the opponent to strip or escape, while shallow hooks can slip out during the sweep attempt. Deep placement also prevents the opponent from easily sprawling their hips backward, as your hooks trap their legs and control their hip mobility.",
-      "difficulty": "Beginner"
+      "answer": "Deep hook placement, where your feet are inserted well under the opponent's thighs near their hips, provides superior mechanical leverage compared to shallow placement. Deep hooks give you a longer lever arm and position your lifting force closer to the opponent's center of gravity, making it easier to elevate them. Shallow hooks, positioned near the opponent's knees, create a shorter lever arm and position your force far from their center of mass, requiring significantly more strength and making the sweep easier to defend. Additionally, deep hooks are harder for the opponent to strip or escape, while shallow hooks can slip out during the sweep attempt. Deep placement also prevents the opponent from easily sprawling their hips backward, as your hooks trap their legs and control their hip mobility."
     },
     {
       "question": "How does the hook sweep integrate with other butterfly guard attacks to create a systematic offense?",
-      "answer": "The hook sweep forms the foundation of a comprehensive butterfly guard system by creating a hub from which multiple attacks branch. When opponents defend the hook sweep by posting, this opens kimura attacks and arm drags. When they sprawl backward, this facilitates transitions to deep half guard, X-guard, or single-leg X. When they attempt to pass to either side, this creates opportunities for elevator sweeps or opposite-side hook sweeps. The threat of the hook sweep forces opponents to make defensive choices, and each choice opens different offensive opportunities. This systematic approach, where one technique's defense creates entries for others, is fundamental to high-level butterfly guard play. Additionally, the hook sweep can be combined with submission threats like guillotines or arm attacks, creating true dilemmas where the opponent must choose which threat to defend.",
-      "difficulty": "Advanced"
+      "answer": "The hook sweep forms the foundation of a comprehensive butterfly guard system by creating a hub from which multiple attacks branch. When opponents defend the hook sweep by posting, this opens kimura attacks and arm drags. When they sprawl backward, this facilitates transitions to deep half guard, X-guard, or single-leg X. When they attempt to pass to either side, this creates opportunities for elevator sweeps or opposite-side hook sweeps. The threat of the hook sweep forces opponents to make defensive choices, and each choice opens different offensive opportunities. This systematic approach, where one technique's defense creates entries for others, is fundamental to high-level butterfly guard play. Additionally, the hook sweep can be combined with submission threats like guillotines or arm attacks, creating true dilemmas where the opponent must choose which threat to defend."
     }
   ],
   "safety_considerations": "The hook sweep is generally one of the safer techniques in BJJ when practiced correctly, but several important safety considerations must be observed. First, ensure controlled execution during drilling, avoiding explosive force until both partners are comfortable with the mechanics. The partner being swept should be prepared to breakfall safely, keeping their chin tucked and using proper rolling mechanics to avoid head or neck impact. Second, maintain awareness of training space boundaries, as the sweep creates lateral movement that can carry both practitioners several feet from the starting position. Third, the sweeping practitioner must control their follow-through to avoid landing heavily on their partner or driving excessive pressure. Fourth, when drilling with significant size mismatches, the larger practitioner should moderate their force to prevent injury. Finally, partners should communicate clearly about resistance levels during drilling progression, ensuring both parties are ready for increased intensity before advancing to live resistance. Proper warm-up of hips and legs is essential, as the hook sweep requires significant hip flexibility and leg strength.",
@@ -273,5 +251,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

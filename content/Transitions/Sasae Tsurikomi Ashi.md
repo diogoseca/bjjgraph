@@ -159,7 +159,7 @@ description: "Learn Sasae Tsurikomi Ashi in BJJ. Step-by-step execution from Sta
 Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep technique that has been successfully adapted into modern Brazilian Jiu-Jitsu for standing exchanges. This technique exploits forward momentum and circular movement, using precise timing to block the opponent's ankle while simultaneously lifting and pulling their upper body. The beauty of Sasae Tsurikomi Ashi lies in its minimal force requirement - when executed with proper timing, the opponent's own movement and weight distribution do most of the work. Unlike power-based takedowns, this technique relies on kuzushi (off-balancing) and precise placement of the blocking foot. The throw is particularly effective against opponents who step forward aggressively or maintain an upright, forward-leaning posture. In BJJ competition, this technique offers a clean takedown that can lead directly to dominant positions, making it valuable for competitors who prefer technical entries over wrestling-heavy approaches.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: Secure a high collar grip with your right hand, controlling the opponent's left lapel near the collarbone. Your left hand grips their right sleeve at the elbow or just above. These grips provide the leverage needed for both off-balancing and the lifting action that follows. (Timing: Initial contact phase)
-2. **Create circular motion**: Pull with your left hand (sleeve grip) while pushing slightly with your right hand (collar grip), initiating a circular stepping pattern. Move to your right, encouraging the opponent to follow and step forward with their right foot. This circular movement is critical for generating the momentum that makes the sweep effective. (Timing: Setup phase, 1-2 seconds)
-3. **Break balance forward**: As the opponent steps forward with their right foot, pull sharply upward and forward with both hands, breaking their balance toward their front right corner. Their weight should shift onto the balls of their feet, with their center of gravity moving beyond their base of support. This kuzushi moment is the key to the entire technique. (Timing: Just before foot placement)
-4. **Place blocking foot**: Step forward with your left foot, positioning it directly in front of the opponent's right ankle. Your foot should be placed with toes pointing upward, creating a solid barrier with the sole of your foot against their ankle. The placement must be precise - too high and they can step over, too low and they can step through. (Timing: Simultaneous with kuzushi)
-5. **Execute lifting pull**: Pull upward and around in a circular arc with both hands, lifting the opponent's upper body while their ankle is blocked. The collar hand pulls upward and across, while the sleeve hand pulls in a wide circular motion. This combined action rotates them around the blocked ankle, removing any remaining base. (Timing: Immediately after foot placement)
-6. **Complete the throw**: Maintain your grips throughout the throw, controlling the opponent's descent to the mat. As they fall backward and to their left, pivot your body to face them, keeping your blocking leg stable. Your grip control allows you to determine landing position and immediately transition to top position or guard passing. (Timing: Through to completion)
-7. **Secure top position**: Follow the opponent down, using your grip control to establish side control, mount, or begin a guard pass depending on how they land. Maintain pressure and connection throughout the landing to prevent them from recovering guard or escaping. The transition from standing to top control should be seamless. (Timing: Immediate follow-up)
+1. **Establish grips**: Secure a high collar grip with your right hand, controlling the opponent's left lapel near the collarbone. Your left hand grips their right sleeve at the elbow or just above. These grips provide the leverage needed for both off-balancing and the lifting action that follows.
+2. **Create circular motion**: Pull with your left hand (sleeve grip) while pushing slightly with your right hand (collar grip), initiating a circular stepping pattern. Move to your right, encouraging the opponent to follow and step forward with their right foot. This circular movement is critical for generating the momentum that makes the sweep effective.
+3. **Break balance forward**: As the opponent steps forward with their right foot, pull sharply upward and forward with both hands, breaking their balance toward their front right corner. Their weight should shift onto the balls of their feet, with their center of gravity moving beyond their base of support. This kuzushi moment is the key to the entire technique.
+4. **Place blocking foot**: Step forward with your left foot, positioning it directly in front of the opponent's right ankle. Your foot should be placed with toes pointing upward, creating a solid barrier with the sole of your foot against their ankle. The placement must be precise - too high and they can step over, too low and they can step through.
+5. **Execute lifting pull**: Pull upward and around in a circular arc with both hands, lifting the opponent's upper body while their ankle is blocked. The collar hand pulls upward and across, while the sleeve hand pulls in a wide circular motion. This combined action rotates them around the blocked ankle, removing any remaining base.
+6. **Complete the throw**: Maintain your grips throughout the throw, controlling the opponent's descent to the mat. As they fall backward and to their left, pivot your body to face them, keeping your blocking leg stable. Your grip control allows you to determine landing position and immediately transition to top position or guard passing.
+7. **Secure top position**: Follow the opponent down, using your grip control to establish side control, mount, or begin a guard pass depending on how they land. Maintain pressure and connection throughout the landing to prevent them from recovering guard or escaping. The transition from standing to top control should be seamless.
 
 
 </section>
@@ -261,23 +261,18 @@ Sasae Tsurikomi Ashi (propping drawing ankle throw) is a classic judo foot sweep
 ## Training Progressions
 **Week 1-2: Static drilling** - Grip placement, foot positioning, and basic mechanics
 Partner stands statically while you practice proper grip establishment, circular stepping pattern, and placement of blocking foot. Focus on correct body positioning and hand action without resistance. Repeat 20-30 times per training session.
-(Resistance: None)
 
 **Week 3-4: Motion drilling** - Timing against forward steps
 Partner takes deliberate forward steps while you practice timing the sweep to their movement. Work on recognizing the moment of weight commitment. Partner offers minimal resistance, allowing completion of the throw. Progress from slow, predictable steps to faster, more varied stepping patterns.
-(Resistance: Light)
 
 **Week 5-8: Reactive drilling** - Kuzushi creation and combination work
 Practice creating the off-balance through grip manipulation rather than relying on partner's cooperation. Begin chaining with other techniques - if Sasae fails, immediately flow to Kouchi, Osoto, or snap down. Partner provides moderate resistance and actively defends some attempts.
-(Resistance: Medium)
 
 **Week 9-12: Live scenarios** - Application in controlled sparring
 Attempt technique during positional sparring starting from standing. Partner provides full but controlled resistance. Focus on recognizing genuine opportunities rather than forcing the technique. Track success rate and analyze failed attempts to refine timing and setup.
-(Resistance: Full)
 
 **Week 13+: Competition preparation** - Integration into complete standing game
 Use Sasae as part of complete takedown system during regular sparring. Combine with guard pulls, other throws, and wrestling entries. Practice against different body types and styles. Develop setups specific to common defensive reactions in your gym.
-(Resistance: Full)
 
 
 

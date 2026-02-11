@@ -157,7 +157,7 @@ Unlike the standard Mount transition from Knee on Belly, the S Mount entry maint
 Competition applications favor this transition against opponents who react predictably to Knee on Belly pressure. The technique appears frequently in high-level matches where submission specialists exploit the natural defensive instinct to push against uncomfortable pressure. Understanding this transition unlocks a direct path from a scoring position to a submission-oriented control that offers armbars, triangles, and mounted crucifix options.
 
 **From Position**: [[Knee on Belly/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Competition applications favor this transition against opponents who react predi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify arm target**: From established Knee on Belly, observe opponent's arm positioning. The ideal target is an arm that reaches up to push your knee or frames against your hip—this extended arm becomes vulnerable to isolation. (Timing: Immediate recognition)
-2. **Secure wrist control**: Grip the opponent's wrist with your near-side hand, pulling their arm across your centerline. Simultaneously drive your hip weight into their shoulder to pin it to the mat and prevent them from pulling the arm back. (Timing: Before any leg movement)
-3. **Adjust hip angle**: Shift your hips slightly toward the opponent's head while maintaining knee pressure. Your body begins rotating perpendicular to their torso, aligning for the leg swing. Keep weight committed forward through the knee connection. (Timing: 1-2 seconds)
-4. **Swing leg over head**: In one fluid motion, swing your far leg over the opponent's face and head, planting your foot firmly on the mat beyond their far shoulder. Your shin should cross over their face and neck, not stopping short at their chest. (Timing: Single explosive motion)
-5. **Establish S Mount base**: Drop your near leg across their torso at chest level as you complete the perpendicular position. Your weight settles through your hips into their shoulder, with the isolated arm now trapped between your legs and controlled at the wrist. (Timing: Immediate after leg swing)
-6. **Consolidate control**: Secure final S Mount position by tightening hip-to-shoulder connection, confirming wrist grip, and establishing secondary control with your free hand on their elbow or mat for base. Prepare immediate submission attack or positional maintenance. (Timing: 1-2 seconds to settle)
+1. **Identify arm target**: From established Knee on Belly, observe opponent's arm positioning. The ideal target is an arm that reaches up to push your knee or frames against your hip—this extended arm becomes vulnerable to isolation.
+2. **Secure wrist control**: Grip the opponent's wrist with your near-side hand, pulling their arm across your centerline. Simultaneously drive your hip weight into their shoulder to pin it to the mat and prevent them from pulling the arm back.
+3. **Adjust hip angle**: Shift your hips slightly toward the opponent's head while maintaining knee pressure. Your body begins rotating perpendicular to their torso, aligning for the leg swing. Keep weight committed forward through the knee connection.
+4. **Swing leg over head**: In one fluid motion, swing your far leg over the opponent's face and head, planting your foot firmly on the mat beyond their far shoulder. Your shin should cross over their face and neck, not stopping short at their chest.
+5. **Establish S Mount base**: Drop your near leg across their torso at chest level as you complete the perpendicular position. Your weight settles through your hips into their shoulder, with the isolated arm now trapped between your legs and controlled at the wrist.
+6. **Consolidate control**: Secure final S Mount position by tightening hip-to-shoulder connection, confirming wrist grip, and establishing secondary control with your free hand on their elbow or mat for base. Prepare immediate submission attack or positional maintenance.
 
 
 </section>
@@ -252,19 +252,15 @@ Competition applications favor this transition against opponents who react predi
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the leg swing and hip adjustment on a compliant partner. Focus on the path of the leg, proper foot placement, and maintaining wrist control throughout. No resistance—emphasize muscle memory for the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides light defensive reactions from Knee on Belly bottom. Identify the moment when their arm becomes available for isolation, and practice triggering the transition off their defensive push. Build recognition of the optimal entry window.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively defends with hip escapes, arm retractions, and bridges. Practice adapting to these counters—following with side control when S Mount fails, attacking alternative submissions when arm escapes, and riding bridges. Develop contingency responses.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Full resistance rounds starting from Knee on Belly. Top player attempts S Mount transition and subsequent submission. Bottom player defends freely. Track success rate and identify patterns in when the transition succeeds versus fails.
-(Resistance: Full)
 
 
 

@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The 50-50 Entry from Standing is a modern leg entanglement technique that allows you to establish the 50-50 Guard position directly from a standing engagement. This entry is particularly effective in no-gi competition where traditional guard pulls may be penalized or less effective. The technique involves controlling your opponent's leg while simultaneously sitting to the mat, creating a symmetrical leg entanglement that offers both offensive and defensive advantages.\n\nThis entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.",
   "key_principles": [
     "Control opponent's leg before committing to the entry",
@@ -54,44 +49,37 @@
     {
       "step_number": 1,
       "action": "Establish grip control",
-      "description": "Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance.",
-      "timing": "Pre-entry positioning phase"
+      "description": "Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance."
     },
     {
       "step_number": 2,
       "action": "Target the lead leg",
-      "description": "Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter.",
-      "timing": "Initial commitment phase, 0.5-1 seconds"
+      "description": "Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter."
     },
     {
       "step_number": 3,
       "action": "Drop to seated position",
-      "description": "Once you have secured the ankle or shin grip, quickly drop your hips to the mat in a controlled sitting motion. Your inside leg (the leg closest to your opponent) should extend and hook behind their knee, while your outside leg begins to thread inside their leg. Keep your upper body grip active to prevent them from backing away or creating distance. The descent should be smooth and controlled, not a sudden drop.",
-      "timing": "Entry phase, 1-1.5 seconds"
+      "description": "Once you have secured the ankle or shin grip, quickly drop your hips to the mat in a controlled sitting motion. Your inside leg (the leg closest to your opponent) should extend and hook behind their knee, while your outside leg begins to thread inside their leg. Keep your upper body grip active to prevent them from backing away or creating distance. The descent should be smooth and controlled, not a sudden drop."
     },
     {
       "step_number": 4,
       "action": "Establish outside leg position",
-      "description": "As you sit, thread your outside leg (the leg farther from your opponent) inside their thigh, positioning your shin across their hip. Your foot should be placed on their far hip or slightly behind it, creating a barrier that prevents them from passing to your outside. This leg acts as a frame and control point for the entire position.",
-      "timing": "Simultaneous with sitting motion"
+      "description": "As you sit, thread your outside leg (the leg farther from your opponent) inside their thigh, positioning your shin across their hip. Your foot should be placed on their far hip or slightly behind it, creating a barrier that prevents them from passing to your outside. This leg acts as a frame and control point for the entire position."
     },
     {
       "step_number": 5,
       "action": "Configure inside leg hook",
-      "description": "Your inside leg wraps around the outside of their leg, with your instep or shin hooking behind their knee. This creates the characteristic leg entanglement of the 50-50 position. Your knee should be pointing upward and outward, creating pressure against their hip and preventing them from extracting their leg. Flex your foot to maintain a strong hook.",
-      "timing": "Immediately after establishing seated position"
+      "description": "Your inside leg wraps around the outside of their leg, with your instep or shin hooking behind their knee. This creates the characteristic leg entanglement of the 50-50 position. Your knee should be pointing upward and outward, creating pressure against their hip and preventing them from extracting their leg. Flex your foot to maintain a strong hook."
     },
     {
       "step_number": 6,
       "action": "Square up your hips",
-      "description": "Adjust your hip position so that your body is facing your opponent squarely, creating the symmetrical entanglement. Your hips should be close to theirs, with minimal space between your bodies. This proximity is critical for controlling their movement and preventing them from creating the angles needed to escape or pass. Your back should be relatively upright, not flat on the mat.",
-      "timing": "Final adjustment, 0.5 seconds"
+      "description": "Adjust your hip position so that your body is facing your opponent squarely, creating the symmetrical entanglement. Your hips should be close to theirs, with minimal space between your bodies. This proximity is critical for controlling their movement and preventing them from creating the angles needed to escape or pass. Your back should be relatively upright, not flat on the mat."
     },
     {
       "step_number": 7,
       "action": "Establish upper body control",
-      "description": "Once the leg entanglement is secure, adjust your upper body grips. In gi, you might control their collar or lapel. In no-gi, you can use an underhook, overhook, or grip on their wrist or tricep. These grips serve to control distance, prevent them from postured up and creating advantageous angles, and set up transitions to submissions or sweeps. Keep your chest up and maintain an active posture.",
-      "timing": "Consolidation phase, 1-2 seconds after entry"
+      "description": "Once the leg entanglement is secure, adjust your upper body grips. In gi, you might control their collar or lapel. In no-gi, you can use an underhook, overhook, or grip on their wrist or tricep. These grips serve to control distance, prevent them from postured up and creating advantageous angles, and set up transitions to submissions or sweeps. Keep your chest up and maintain an active posture."
     }
   ],
   "common_counters": [
@@ -162,38 +150,32 @@
     {
       "phase": "Phase 1 (Weeks 1-2): Static Entry Drilling",
       "focus": "Learning the basic mechanics without resistance",
-      "description": "Practice the entry from standing with a compliant partner. Focus on coordinating the sitting motion with the leg configuration. Partner should remain stationary and allow you to establish the position. Drill 10-15 repetitions per training session, alternating sides. Focus on smooth, controlled movement rather than speed.",
-      "resistance_level": "None"
+      "description": "Practice the entry from standing with a compliant partner. Focus on coordinating the sitting motion with the leg configuration. Partner should remain stationary and allow you to establish the position. Drill 10-15 repetitions per training session, alternating sides. Focus on smooth, controlled movement rather than speed."
     },
     {
       "phase": "Phase 2 (Weeks 3-4): Entry with Light Movement",
       "focus": "Timing the entry against a moving opponent",
-      "description": "Partner provides light resistance by moving around in standing position. Practice timing your entry as they step forward or laterally. Partner should not actively counter, but should move naturally. Begin to add grip fighting before the entry. Drill 15-20 repetitions, focusing on recognizing the right moment to enter.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by moving around in standing position. Practice timing your entry as they step forward or laterally. Partner should not actively counter, but should move naturally. Begin to add grip fighting before the entry. Drill 15-20 repetitions, focusing on recognizing the right moment to enter."
     },
     {
       "phase": "Phase 3 (Weeks 5-8): Entry Against Specific Counters",
       "focus": "Defending against common counters while establishing position",
-      "description": "Partner provides specific counters: sprawl, backward step, forward pressure. Practice maintaining grips and adjusting your entry to succeed despite these counters. Work on backup options if the entry fails (single leg, standing reset, alternative guard pulls). Drill 20-30 repetitions with different counter scenarios.",
-      "resistance_level": "Medium"
+      "description": "Partner provides specific counters: sprawl, backward step, forward pressure. Practice maintaining grips and adjusting your entry to succeed despite these counters. Work on backup options if the entry fails (single leg, standing reset, alternative guard pulls). Drill 20-30 repetitions with different counter scenarios."
     },
     {
       "phase": "Phase 4 (Weeks 9-12): Flow Drilling from Standing",
       "focus": "Integrating the entry into a broader standing game",
-      "description": "Start from standing position and flow drill various guard pull options, including 50-50 entry. Partner provides moderate resistance and tries different defenses. You should be able to recognize when 50-50 entry is available versus when to choose a different option. Include grip fighting and movement patterns. Drill 5-10 minute rounds.",
-      "resistance_level": "Medium"
+      "description": "Start from standing position and flow drill various guard pull options, including 50-50 entry. Partner provides moderate resistance and tries different defenses. You should be able to recognize when 50-50 entry is available versus when to choose a different option. Include grip fighting and movement patterns. Drill 5-10 minute rounds."
     },
     {
       "phase": "Phase 5 (Week 13+): Positional Sparring",
       "focus": "Testing the entry against full resistance",
-      "description": "Start from standing and attempt to establish 50-50 position against a fully resisting opponent. Partner's goal is to prevent the entry using any legal means. Your goal is to successfully establish 50-50 or adapt to alternative entries. This phase reveals which details need refinement. 5 minute rounds, multiple partners.",
-      "resistance_level": "Full"
+      "description": "Start from standing and attempt to establish 50-50 position against a fully resisting opponent. Partner's goal is to prevent the entry using any legal means. Your goal is to successfully establish 50-50 or adapt to alternative entries. This phase reveals which details need refinement. 5 minute rounds, multiple partners."
     },
     {
       "phase": "Phase 6 (Ongoing): Live Rolling Integration",
       "focus": "Using the entry in live rolling and competition",
-      "description": "Actively look for opportunities to enter 50-50 from standing during regular sparring. Start to develop a sense of when this entry is the best option versus other guard pulls or takedown attempts. Track success rate and common failures to guide your continued training focus. Continue drilling fundamentals regularly to maintain proficiency.",
-      "resistance_level": "Full"
+      "description": "Actively look for opportunities to enter 50-50 from standing during regular sparring. Start to develop a sense of when this entry is the best option versus other guard pulls or takedown attempts. Track success rate and common failures to guide your continued training focus. Continue drilling fundamentals regularly to maintain proficiency."
     }
   ],
   "variants_and_adaptations": [
@@ -221,63 +203,51 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary purpose of the upper body grip when entering 50-50 from standing?",
-      "answer": "The upper body grip serves two critical purposes: first, it prevents the opponent from creating distance and sprawling away during your entry; second, it helps control your descent to the mat and allows you to pull yourself into the proper position. Without this grip, opponents can easily avoid the entry by stepping back or sprawling.",
-      "difficulty": "Beginner"
+      "answer": "The upper body grip serves two critical purposes: first, it prevents the opponent from creating distance and sprawling away during your entry; second, it helps control your descent to the mat and allows you to pull yourself into the proper position. Without this grip, opponents can easily avoid the entry by stepping back or sprawling."
     },
     {
       "question": "Why is it important to keep your hips close to your opponent's hips in the 50-50 position?",
-      "answer": "Keeping your hips close to your opponent's hips eliminates the space they need to create angles for escapes or passes. This proximity is fundamental to the position's effectiveness - it prevents them from clearing your legs, makes it difficult for them to posture up, and allows you to better control their movement. Distance is your enemy in 50-50.",
-      "difficulty": "Beginner"
+      "answer": "Keeping your hips close to your opponent's hips eliminates the space they need to create angles for escapes or passes. This proximity is fundamental to the position's effectiveness - it prevents them from clearing your legs, makes it difficult for them to posture up, and allows you to better control their movement. Distance is your enemy in 50-50."
     },
     {
       "question": "How should you respond if your opponent begins to sprawl as you attempt the entry?",
-      "answer": "If your opponent sprawls, maintain your ankle or shin grip and use it to pull yourself into position despite their defensive posture. If they create significant distance, you should abandon the 50-50 entry and transition to an alternative attack such as a single leg takedown or reset to standing. Forcing a failed entry will leave you in a poor position.",
-      "difficulty": "Intermediate"
+      "answer": "If your opponent sprawls, maintain your ankle or shin grip and use it to pull yourself into position despite their defensive posture. If they create significant distance, you should abandon the 50-50 entry and transition to an alternative attack such as a single leg takedown or reset to standing. Forcing a failed entry will leave you in a poor position."
     },
     {
       "question": "What is the correct configuration of your outside leg in the 50-50 position and why is this positioning critical?",
-      "answer": "Your outside leg should thread inside your opponent's thigh with your shin across their hip and your foot placed on or behind their far hip. This leg acts as a critical frame that prevents your opponent from passing around to your outside. Without this barrier properly positioned, they can easily circle to side control or disengage from the position entirely. This is the primary defensive structure of the position.",
-      "difficulty": "Intermediate"
+      "answer": "Your outside leg should thread inside your opponent's thigh with your shin across their hip and your foot placed on or behind their far hip. This leg acts as a critical frame that prevents your opponent from passing around to your outside. Without this barrier properly positioned, they can easily circle to side control or disengage from the position entirely. This is the primary defensive structure of the position."
     },
     {
       "question": "Why is maintaining an upright or semi-reclined posture superior to lying flat on your back in 50-50?",
-      "answer": "An upright posture provides several advantages: it gives you better control over your opponent's movement and posture, makes it easier to attack submissions (particularly heel hooks), prevents your opponent from achieving a dominant top position, and allows you to generate more power in your leg entanglement. Lying flat gives your opponent a positional advantage and makes it easier for them to create pressure and passing opportunities. The upright posture also allows for better hip mobility to adjust your position.",
-      "difficulty": "Advanced"
+      "answer": "An upright posture provides several advantages: it gives you better control over your opponent's movement and posture, makes it easier to attack submissions (particularly heel hooks), prevents your opponent from achieving a dominant top position, and allows you to generate more power in your leg entanglement. Lying flat gives your opponent a positional advantage and makes it easier for them to create pressure and passing opportunities. The upright posture also allows for better hip mobility to adjust your position."
     },
     {
       "question": "How does timing your entry when your opponent is moving forward differ strategically from entering when they are stationary?",
-      "answer": "Entering as your opponent moves forward uses their momentum against them - they are less able to sprawl or create distance because they are already committed to forward movement. This makes the entry higher percentage. When they are stationary, they have more options to defend and can more easily react to your entry attempt. However, entering against a stationary opponent allows for more control and precision in establishing the position. Advanced practitioners learn to recognize both opportunities and choose based on the specific situation and opponent's defensive tendencies.",
-      "difficulty": "Advanced"
+      "answer": "Entering as your opponent moves forward uses their momentum against them - they are less able to sprawl or create distance because they are already committed to forward movement. This makes the entry higher percentage. When they are stationary, they have more options to defend and can more easily react to your entry attempt. However, entering against a stationary opponent allows for more control and precision in establishing the position. Advanced practitioners learn to recognize both opportunities and choose based on the specific situation and opponent's defensive tendencies."
     },
     {
       "question": "What are the backup options if your 50-50 entry is successfully defended, and how do you transition to them?",
-      "answer": "If the 50-50 entry fails, your primary backup options depend on how it was defended: (1) If opponent sprawls but you maintain leg control, transition to single leg takedown; (2) If opponent steps back, follow with outside ashi garami or shin-to-shin guard; (3) If opponent drives forward with pressure, establish X-guard or single leg X; (4) If completely stuffed, stand back up and reset to neutral standing position. The key is maintaining your grips and staying connected to your opponent rather than remaining in a failed position. Recognition of which backup to use comes from understanding which direction your opponent's defense took them.",
-      "difficulty": "Advanced"
+      "answer": "If the 50-50 entry fails, your primary backup options depend on how it was defended: (1) If opponent sprawls but you maintain leg control, transition to single leg takedown; (2) If opponent steps back, follow with outside ashi garami or shin-to-shin guard; (3) If opponent drives forward with pressure, establish X-guard or single leg X; (4) If completely stuffed, stand back up and reset to neutral standing position. The key is maintaining your grips and staying connected to your opponent rather than remaining in a failed position. Recognition of which backup to use comes from understanding which direction your opponent's defense took them."
     },
     {
       "question": "Your opponent posts their hand on your shoulder as you begin the entry - how do you adjust?",
-      "answer": "When an opponent posts on your shoulder during entry, they are attempting to create a frame that blocks your descent and maintains distance. You should immediately secure their posting arm with your free hand by gripping the wrist or sleeve, pulling it across your body to collapse the frame. This arm drag motion simultaneously removes their defensive structure and creates an angle advantage. Continue your entry once the post is cleared, using the trapped arm as additional control.",
-      "difficulty": "Intermediate"
+      "answer": "When an opponent posts on your shoulder during entry, they are attempting to create a frame that blocks your descent and maintains distance. You should immediately secure their posting arm with your free hand by gripping the wrist or sleeve, pulling it across your body to collapse the frame. This arm drag motion simultaneously removes their defensive structure and creates an angle advantage. Continue your entry once the post is cleared, using the trapped arm as additional control."
     },
     {
       "question": "What is the optimal timing window for committing to the 50-50 entry from standing?",
-      "answer": "The optimal timing window occurs when your opponent's weight shifts forward onto their lead leg, typically during their offensive movement or when they reach to establish grips. This forward commitment makes sprawling mechanically difficult since their weight must reverse direction. A secondary window exists immediately after you break their grip or collar tie, during the momentary distraction of the grip break. The worst timing is when they are retreating or have their weight on their back foot, as they can easily continue backward movement to avoid your entry.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing window occurs when your opponent's weight shifts forward onto their lead leg, typically during their offensive movement or when they reach to establish grips. This forward commitment makes sprawling mechanically difficult since their weight must reverse direction. A secondary window exists immediately after you break their grip or collar tie, during the momentary distraction of the grip break. The worst timing is when they are retreating or have their weight on their back foot, as they can easily continue backward movement to avoid your entry."
     },
     {
       "question": "What grip is most critical during the sitting phase of the entry, and why?",
-      "answer": "The ankle or lower shin grip on their lead leg is most critical during the sitting phase. This grip serves as your anchor point that prevents them from simply stepping back out of range. It allows you to pull yourself into proper hip proximity rather than sitting down at distance. Even if your upper body grip is broken, maintaining the ankle grip enables you to continue the entry by following their leg. The upper body grip is important for control, but the ankle grip is what physically connects you to your target limb for the entanglement.",
-      "difficulty": "Intermediate"
+      "answer": "The ankle or lower shin grip on their lead leg is most critical during the sitting phase. This grip serves as your anchor point that prevents them from simply stepping back out of range. It allows you to pull yourself into proper hip proximity rather than sitting down at distance. Even if your upper body grip is broken, maintaining the ankle grip enables you to continue the entry by following their leg. The upper body grip is important for control, but the ankle grip is what physically connects you to your target limb for the entanglement."
     },
     {
       "question": "What direction of force should you apply through your hips during the transition to 50-50?",
-      "answer": "Your hips should drive forward and slightly upward toward your opponent's hips during the transition. This forward hip drive accomplishes several things: it closes the distance that would allow them to escape, it loads your weight into the entanglement creating immediate control, and it prevents you from sitting back at distance where they could easily disengage. Think of driving your hips into theirs rather than simply dropping your seat to the mat. The forward vector is more important than the downward vector.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips should drive forward and slightly upward toward your opponent's hips during the transition. This forward hip drive accomplishes several things: it closes the distance that would allow them to escape, it loads your weight into the entanglement creating immediate control, and it prevents you from sitting back at distance where they could easily disengage. Think of driving your hips into theirs rather than simply dropping your seat to the mat. The forward vector is more important than the downward vector."
     },
     {
       "question": "If your opponent successfully defends your initial 50-50 entry by stepping back, what chain attack should you immediately threaten?",
-      "answer": "When your opponent steps back to defend the 50-50 entry, immediately threaten the single leg takedown by maintaining your ankle grip and transitioning your weight forward onto your lead knee. This creates a dilemma: if they continue backing away, you follow with the single leg; if they stop their backward movement to address the single leg threat, you have recreated the opportunity to re-enter 50-50. The key is staying connected and threatening offense rather than accepting a failed entry. Many practitioners find the single leg threat opens the 50-50 entry on the second attempt as opponents freeze to defend the takedown.",
-      "difficulty": "Advanced"
+      "answer": "When your opponent steps back to defend the 50-50 entry, immediately threaten the single leg takedown by maintaining your ankle grip and transitioning your weight forward onto your lead knee. This creates a dilemma: if they continue backing away, you follow with the single leg; if they stop their backward movement to address the single leg threat, you have recreated the opportunity to re-enter 50-50. The key is staying connected and threatening offense rather than accepting a failed entry. Many practitioners find the single leg threat opens the 50-50 entry on the second attempt as opponents freeze to defend the takedown."
     }
   ],
   "safety_considerations": "The 50-50 Entry from Standing carries moderate injury risk, primarily to the knees and ankles during the sitting motion and entanglement phase. When practicing this technique, always ensure you have adequate mat space to sit without obstacles. Control your descent to the mat - dropping too quickly or from too high can cause knee or tailbone injuries. When your partner is learning to defend, they may attempt to remain standing while you pull them down, which can create dangerous torque on the entangled leg. Both partners should agree on whether to follow to the ground or to reset if the entry is defended. In competition scenarios, be aware of potential slam counters if you maintain the position while being lifted - it's safer to release and reset than to risk injury. During the learning phases, practice slowly and ensure both partners understand the mechanics before adding speed or resistance. The 50-50 position itself can place significant stress on the knee joint, so both participants should tap early to any leg lock threats and communicate clearly about their comfort level with the pressure being applied.",
@@ -331,5 +301,6 @@
       "name": "Shin-to-Shin Guard",
       "relationship": "Alternative entry path with more control before committing"
     }
-  ]
+  ],
+  "success_rate": 52
 }

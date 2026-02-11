@@ -157,7 +157,7 @@ Strategically, the Americana functions as both a finishing submission and a posi
 The mechanical efficiency of the Americana makes it particularly effective from mount because gravity assists the attack. Your body weight pins the opponent's shoulder while both hands work together to rotate the arm past its natural range of motion. Unlike submissions requiring speed or explosive movement, the Americana rewards patient, incremental pressure that gradually compromises the joint until the opponent must submit or face serious injury.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The mechanical efficiency of the Americana makes it particularly effective from 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate the arm**: From mount, identify the target arm—typically the one opponent uses to frame against your hip. Push their elbow to the mat and trap it between your hip and their body, ensuring the elbow stays bent and below shoulder level. (Timing: Opportunistic—wait for opponent to frame or push)
-2. **Secure wrist control**: Grip their wrist with your same-side hand (right hand to their right wrist), keeping your thumb pointing toward their fingers. Pin the wrist to the mat near their head while maintaining chest pressure on their shoulder. (Timing: Immediately after elbow isolation)
-3. **Thread for figure-four**: Slide your opposite hand under their tricep from the outside, reaching toward your wrist-gripping hand. Your arm should pass behind their elbow, with your forearm pressing against their tricep. (Timing: Maintain constant wrist pressure while threading)
-4. **Establish figure-four grip**: Grip your own wrist with your threading hand, creating a figure-four lock. Your wrist should be directly behind their wrist, and your other hand grips your wrist palm-to-palm or with an S-grip for maximum control. (Timing: Quick connection to prevent arm extraction)
-5. **Position for finish**: Adjust your chest pressure to pin their shoulder firmly to the mat. Keep your elbows tight to your body. Sprawl your hips back slightly to add downward pressure on their trapped elbow while maintaining mount stability. (Timing: Settle position before applying submission pressure)
-6. **Paint and finish**: Lift their elbow slightly off the mat while simultaneously painting their wrist in an arc toward their hip. The motion creates rotational pressure on the shoulder joint. Apply gradually increasing pressure until opponent taps or you feel the joint approaching its limit. (Timing: Slow, controlled arc—never explosive)
+1. **Isolate the arm**: From mount, identify the target arm—typically the one opponent uses to frame against your hip. Push their elbow to the mat and trap it between your hip and their body, ensuring the elbow stays bent and below shoulder level.
+2. **Secure wrist control**: Grip their wrist with your same-side hand (right hand to their right wrist), keeping your thumb pointing toward their fingers. Pin the wrist to the mat near their head while maintaining chest pressure on their shoulder.
+3. **Thread for figure-four**: Slide your opposite hand under their tricep from the outside, reaching toward your wrist-gripping hand. Your arm should pass behind their elbow, with your forearm pressing against their tricep.
+4. **Establish figure-four grip**: Grip your own wrist with your threading hand, creating a figure-four lock. Your wrist should be directly behind their wrist, and your other hand grips your wrist palm-to-palm or with an S-grip for maximum control.
+5. **Position for finish**: Adjust your chest pressure to pin their shoulder firmly to the mat. Keep your elbows tight to your body. Sprawl your hips back slightly to add downward pressure on their trapped elbow while maintaining mount stability.
+6. **Paint and finish**: Lift their elbow slightly off the mat while simultaneously painting their wrist in an arc toward their hip. The motion creates rotational pressure on the shoulder joint. Apply gradually increasing pressure until opponent taps or you feel the joint approaching its limit.
 
 
 </section>
@@ -257,19 +257,15 @@ The mechanical efficiency of the Americana makes it particularly effective from 
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice figure-four grip configuration in isolation. Partner lies still while you establish and maintain the grip from mount. Focus on wrist-behind-wrist positioning and comfortable grip that allows sustained control. Drill grip entry from both sides.
-(Resistance: None)
 
 **Week 3-4** - Positional integration
 Combine grip mechanics with mount maintenance. Partner provides light frames and movement while you maintain mount and establish Americana grips without finishing. Focus on recognizing when opponent's arm is positioned for the attack and transitioning smoothly from control to submission setup.
-(Resistance: Light)
 
 **Week 5-6** - Finishing mechanics
 Practice complete submission sequence with partner defending at 50% intensity. Focus on the painting arc motion and proper elbow control during the finish. Drill transitioning to armbar when opponent straightens arm and to Kimura when they turn toward trapped side.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate Americana attacks into positional sparring from mount. Partner defends with full resistance. Focus on chaining with other mount attacks, timing entries against defensive movements, and recognizing when to abandon the attack and maintain position instead.
-(Resistance: Full)
 
 
 

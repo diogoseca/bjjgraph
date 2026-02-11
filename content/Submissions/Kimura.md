@@ -163,7 +163,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and shoulder capsule
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -240,13 +240,13 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control position and arm isolation**: From dominant position (side control, mount, or guard), identify the near arm you will attack. Control opponent's wrist with your same-side hand, preventing them from framing or defending. Use your body weight and positioning to prevent their escape while isolating this arm from their other defensive tools. (Timing: Take 2-3 seconds to establish solid control) [Pressure: Moderate]
-2. **Thread your other arm under opponent's isolated arm**: Slide your opposite hand under their tricep area, threading it through the space between their arm and body. Your hand should emerge on the far side of their arm, reaching toward where you will establish the grip. Keep their elbow close to your body during this threading motion to prevent them from straightening their arm as a defense. (Timing: 1-2 seconds for threading motion) [Pressure: Light]
-3. **Complete the figure-four grip**: Grab your own wrist with the hand that threaded under their arm, creating a figure-four configuration. The grip should be palm-to-palm or palm-to-wrist - never grip your own gi or their gi. Ensure the grip is tight and secure before applying any pressure. Their arm should be bent at approximately 90 degrees with their hand pointed toward their own head or shoulder. (Timing: 1-2 seconds to secure grip properly) [Pressure: Firm]
-4. **Establish proper angle and elbow control**: Adjust your body position to create perpendicular alignment to their shoulder joint. Pinch their elbow tight to your body or pin it to the mat using your chest and shoulder. This elbow control is critical - if they can straighten their arm, the Kimura becomes ineffective. Your hips should be connected to their body to prevent rolling escapes. (Timing: 2-3 seconds to optimize positioning) [Pressure: Firm]
-5. **Begin controlled rotation toward their back**: Slowly rotate their hand toward their back, moving perpendicular to their arm rather than pulling it. The rotation should be smooth and progressive, not jerky. Maintain elbow control throughout - the elbow should not move away from the pinning position. Keep your elbows tight to your body to maximize leverage and control. (Timing: 3-5 seconds of progressive rotation) [Pressure: Moderate]
-6. **Increase rotation pressure until tap**: Continue rotating their hand toward their opposite hip or toward the ceiling (depending on position and angle). Maintain constant elbow pinning - the shoulder will rotate further as you lift or rotate their hand. Stop immediately upon any tap signal. The finish requires only 3-5 inches of additional rotation once proper position is achieved. Never force or spike the finish. (Timing: 2-4 seconds to finish, stop immediately on tap) [Pressure: Firm]
-7. **Control and transition options**: If opponent defends by grabbing their own belt or gi, do not force the submission. Instead, use the Kimura grip to control their posture and threaten transitions to back take, mount advancement, or alternative submissions. The grip itself is a powerful control position even without finishing. Maintain connection and base throughout any transition. (Timing: Continuous control until transition or release) [Pressure: Moderate]
+1. **Establish control position and arm isolation**: From dominant position (side control, mount, or guard), identify the near arm you will attack. Control opponent's wrist with your same-side hand, preventing them from framing or defending. Use your body weight and positioning to prevent their escape while isolating this arm from their other defensive tools. (Timing: Take 2-3 seconds to establish solid control)
+2. **Thread your other arm under opponent's isolated arm**: Slide your opposite hand under their tricep area, threading it through the space between their arm and body. Your hand should emerge on the far side of their arm, reaching toward where you will establish the grip. Keep their elbow close to your body during this threading motion to prevent them from straightening their arm as a defense. (Timing: 1-2 seconds for threading motion)
+3. **Complete the figure-four grip**: Grab your own wrist with the hand that threaded under their arm, creating a figure-four configuration. The grip should be palm-to-palm or palm-to-wrist - never grip your own gi or their gi. Ensure the grip is tight and secure before applying any pressure. Their arm should be bent at approximately 90 degrees with their hand pointed toward their own head or shoulder. (Timing: 1-2 seconds to secure grip properly)
+4. **Establish proper angle and elbow control**: Adjust your body position to create perpendicular alignment to their shoulder joint. Pinch their elbow tight to your body or pin it to the mat using your chest and shoulder. This elbow control is critical - if they can straighten their arm, the Kimura becomes ineffective. Your hips should be connected to their body to prevent rolling escapes. (Timing: 2-3 seconds to optimize positioning)
+5. **Begin controlled rotation toward their back**: Slowly rotate their hand toward their back, moving perpendicular to their arm rather than pulling it. The rotation should be smooth and progressive, not jerky. Maintain elbow control throughout - the elbow should not move away from the pinning position. Keep your elbows tight to your body to maximize leverage and control. (Timing: 3-5 seconds of progressive rotation)
+6. **Increase rotation pressure until tap**: Continue rotating their hand toward their opposite hip or toward the ceiling (depending on position and angle). Maintain constant elbow pinning - the shoulder will rotate further as you lift or rotate their hand. Stop immediately upon any tap signal. The finish requires only 3-5 inches of additional rotation once proper position is achieved. Never force or spike the finish. (Timing: 2-4 seconds to finish, stop immediately on tap)
+7. **Control and transition options**: If opponent defends by grabbing their own belt or gi, do not force the submission. Instead, use the Kimura grip to control their posture and threaten transitions to back take, mount advancement, or alternative submissions. The grip itself is a powerful control position even without finishing. Maintain connection and base throughout any transition. (Timing: Continuous control until transition or release)
 
 
 </section>
@@ -266,25 +266,25 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Yanking or spiking the submission quickly without progressive pressure [CRITICAL DANGER]
+- **Mistake**: Yanking or spiking the submission quickly without progressive pressure
   - **Consequence**: Severe shoulder injury to partner, potential rotator cuff tear or dislocation without time to tap
   - **Correction**: Always apply rotation slowly over 3-5 seconds minimum in training. The submission should feel like inevitable increasing pressure, not a sudden spike. Partner must have time to recognize danger and tap safely.
-- **Mistake**: Failing to control the elbow, allowing opponent to straighten arm [Low DANGER]
+- **Mistake**: Failing to control the elbow, allowing opponent to straighten arm
   - **Consequence**: Complete loss of submission leverage as the arm-straightening defense neutralizes the shoulder rotation
   - **Correction**: Pin the elbow tight to your body or to the mat using your chest. The elbow must remain bent and immobilized for the Kimura to function. Treat elbow control as equally important as the grip itself.
-- **Mistake**: Using incorrect grip: grabbing your own gi, their gi, or interlocking fingers [Low DANGER]
+- **Mistake**: Using incorrect grip: grabbing your own gi, their gi, or interlocking fingers
   - **Consequence**: Weak control that can be broken through hand fighting, loss of leverage and pressure
   - **Correction**: Always use palm-to-palm or palm-to-wrist grip on your own wrist. This creates a frame that cannot be broken by hand fighting. Practice the grip in isolation until it becomes automatic.
-- **Mistake**: Pulling the arm away from their body instead of rotating the shoulder [Medium DANGER]
+- **Mistake**: Pulling the arm away from their body instead of rotating the shoulder
   - **Consequence**: Ineffective pressure on shoulder joint, easily defended, and potential for you to lose position
   - **Correction**: The submission comes from rotation perpendicular to their arm, not from pulling it. Keep their elbow close and rotate their hand toward their back or opposite hip. Think circular motion, not linear pulling.
-- **Mistake**: Losing hip connection, allowing opponent to create space and roll [Low DANGER]
+- **Mistake**: Losing hip connection, allowing opponent to create space and roll
   - **Consequence**: Opponent escapes via forward roll or creates enough space to remove your grips
   - **Correction**: Maintain constant hip pressure against opponent's body. Your weight should prevent them from creating the space needed to roll or escape. Keep your base wide and hips heavy throughout the finish.
-- **Mistake**: Applying submission while opponent cannot tap (both hands trapped) [CRITICAL DANGER]
+- **Mistake**: Applying submission while opponent cannot tap (both hands trapped)
   - **Consequence**: Partner suffers injury because they physically cannot signal submission even if they want to
   - **Correction**: Always ensure opponent has at least one hand free to tap before applying finishing pressure. This is a fundamental safety principle. If both arms are trapped, establish control but do not finish until they can tap.
-- **Mistake**: Forcing the finish against belt or gi grip defense [Low DANGER]
+- **Mistake**: Forcing the finish against belt or gi grip defense
   - **Consequence**: Frustration, wasted energy, and missed opportunities for better positions or transitions
   - **Correction**: Recognize when opponent has successfully defended the finish. Use the Kimura grip for control and transition to back takes, sweeps, or alternative submissions. The grip is valuable even without the finish.
 
@@ -359,43 +359,6 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Grip Mastery** (Weeks 1-2)
-- Focus: Learn proper figure-four grip, hand positioning, and basic body mechanics without any shoulder rotation. Practice threading the arm and establishing grips on compliant partners. Study shoulder anatomy and injury mechanisms. Understand all tap signals and release protocols.
-- Resistance: Zero resistance
-- Safety: Focus entirely on grip mechanics and body positioning. No pressure application. Study the anatomy of shoulder injuries to understand why slow application is critical.
-
-**Slow Practice with Verbal Communication** (Weeks 3-4)
-- Focus: Execute complete technique with ultra-slow rotation over 7-10 seconds. Partner provides constant verbal feedback about pressure levels. Practice from side control only initially. Drill tap recognition and immediate release protocols repeatedly.
-- Resistance: Zero resistance
-- Safety: Partner should tap early at first sign of any discomfort. Practice emergency tap recognition including verbal, hand, and foot taps. Drill release protocol until automatic.
-
-**Position Variation Introduction** (Weeks 5-8)
-- Focus: Begin practicing Kimura from multiple positions: closed guard, half guard, mount, turtle. Each position requires different body mechanics. Continue ultra-slow application with 5-7 second minimum. Partner maintains ability to tap freely from all positions.
-- Resistance: Mild resistance
-- Safety: Ensure partner has free hand to tap from every position before applying pressure. Some positions trap both arms - modify these for training safety.
-
-**Defense Integration and Flow Drilling** (Weeks 9-12)
-- Focus: Practice against common defenses: belt grabs, arm straightening, rolling escapes. Learn to transition to other techniques when Kimura is defended. Develop recognition of when to abandon the submission versus when to continue. Maintain slow application throughout.
-- Resistance: Realistic resistance
-- Safety: Increased resistance must not increase application speed. Partner practices defending and recognizing when to tap despite wanting to escape. Discuss safe tap timing.
-
-**Live Positional Sparring** (Months 4-6)
-- Focus: Apply Kimura during positional sparring from specific positions. Begin recognizing opportunities during live rolling. Develop strategic understanding of when Kimura is available versus when to choose different attacks. Practice grip fighting to establish the position.
-- Resistance: Full resistance
-- Safety: Training partners must have established trust. Both practitioners understand tap protocols. Continue 3-5 second minimum application. Respect taps immediately without testing limits.
-
-**Advanced Integration and Chain Development** (Months 6+)
-- Focus: Chain Kimura with other submissions and positions. Use Kimura grip for back takes and sweeps. Develop personal variations based on body type and game style. Apply during full sparring with technical precision. Recognize subtle setup opportunities.
-- Resistance: Full resistance
-- Safety: Advanced practitioners must model perfect safety for lower belts. Never increase application speed despite technical proficiency. Understand that experienced partners may have previous shoulder injuries requiring extra caution.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -455,6 +418,7 @@ The Kimura is one of the most versatile and high-percentage shoulder locks in Br
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

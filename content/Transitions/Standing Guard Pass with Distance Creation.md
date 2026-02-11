@@ -169,7 +169,7 @@ The core strategic principle is that the lapel wrap loses much of its sweeping a
 This pass is particularly effective against opponents who rely heavily on Keenan Cornelius-style lapel guard systems, as it addresses the root mechanical problem rather than trying to muscle through the wrap from a compromised kneeling position. The technique demands patience and disciplined posture maintenance, as premature passing attempts before the lapel is fully cleared will result in sweeps or re-entanglement. When executed correctly, the distance created during extraction leaves the bottom player in a weakened open guard with no grips, making the subsequent toreando or leg drag pass high-percentage.
 
 **From Position**: [[Ringworm Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -218,14 +218,14 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish combat base**: From kneeling in Ringworm Guard, post your free leg (non-wrapped) wide to the side with foot flat on the mat, keeping your hips heavy and center of gravity low. Control the opponent's nearest sleeve or wrist with your free hand to limit their grip-fighting ability during the transition to standing. (Timing: Initiate when opponent pauses between attack attempts)
-2. **Stand to full height**: Drive upward through your free leg to a full standing position while keeping your wrapped leg slightly forward and bent. Keep your hips back and chest upright to prevent the opponent from using the lapel tension to pull you forward and off-balance. Maintain the sleeve grip throughout the elevation. (Timing: Explosive upward drive in one motion to prevent opponent from adjusting)
-3. **Secure two-handed grip on lapel**: Release the sleeve grip and bring both hands to the lapel wrap around your leg. One hand grips the lapel tail near the opponent's controlling hand to prevent re-securing, while the other hand works underneath the wrap at the point where it contacts your knee or thigh, creating leverage for extraction. (Timing: Transition grips quickly to minimize time with no upper body control)
-4. **Circle and extract**: Step your free leg laterally away from the opponent's strong side while peeling the lapel wrap off your trapped leg using both hands in a coordinated stripping motion. Push the lapel tail downward and away from your body while simultaneously stepping your trapped leg backward out of the loosened configuration. Keep your hips back to resist any pulling forces. (Timing: Circular footwork concurrent with the stripping action)
-5. **Clear the lapel completely**: Once the wrap is loosened, step your previously trapped leg completely free of the lapel and push the loose lapel fabric toward the opponent's body or to the mat, ensuring they cannot re-thread it. Verify full clearance by checking that no fabric remains looped around your knee, shin, or ankle before proceeding. (Timing: Verify clearance before transitioning to passing grips)
-6. **Establish passing grips**: Immediately secure passing grips before the opponent can establish a new guard configuration. Grip the pants at both knees or one knee and one collar for a toreando-style pass, or secure a pant grip and collar grip for a leg drag entry. The opponent is momentarily grip-less and in a weakened open guard. (Timing: Immediate grip transition with no pause after lapel clearance)
-7. **Execute the pass**: Drive laterally with a toreando, leg drag, or bullfighter pass motion while the opponent is still recovering from the loss of their lapel control system. Push both knees to one side while stepping your hips past their legs, or execute a leg drag by pulling one leg across their body. Maintain forward pressure and a low center of gravity throughout the passing action. (Timing: Explosive lateral movement before opponent re-establishes guard grips)
-8. **Consolidate side control**: As you clear the opponent's legs, drop your chest perpendicular across their torso and establish crossface pressure with your forearm driving across their jaw. Secure an underhook on their far arm and drop your hips heavy against their near hip to prevent any guard recovery. Settle your weight and establish full side control. (Timing: Immediate chest-to-chest contact upon clearing the legs)
+1. **Establish combat base**: From kneeling in Ringworm Guard, post your free leg (non-wrapped) wide to the side with foot flat on the mat, keeping your hips heavy and center of gravity low. Control the opponent's nearest sleeve or wrist with your free hand to limit their grip-fighting ability during the transition to standing.
+2. **Stand to full height**: Drive upward through your free leg to a full standing position while keeping your wrapped leg slightly forward and bent. Keep your hips back and chest upright to prevent the opponent from using the lapel tension to pull you forward and off-balance. Maintain the sleeve grip throughout the elevation.
+3. **Secure two-handed grip on lapel**: Release the sleeve grip and bring both hands to the lapel wrap around your leg. One hand grips the lapel tail near the opponent's controlling hand to prevent re-securing, while the other hand works underneath the wrap at the point where it contacts your knee or thigh, creating leverage for extraction.
+4. **Circle and extract**: Step your free leg laterally away from the opponent's strong side while peeling the lapel wrap off your trapped leg using both hands in a coordinated stripping motion. Push the lapel tail downward and away from your body while simultaneously stepping your trapped leg backward out of the loosened configuration. Keep your hips back to resist any pulling forces.
+5. **Clear the lapel completely**: Once the wrap is loosened, step your previously trapped leg completely free of the lapel and push the loose lapel fabric toward the opponent's body or to the mat, ensuring they cannot re-thread it. Verify full clearance by checking that no fabric remains looped around your knee, shin, or ankle before proceeding.
+6. **Establish passing grips**: Immediately secure passing grips before the opponent can establish a new guard configuration. Grip the pants at both knees or one knee and one collar for a toreando-style pass, or secure a pant grip and collar grip for a leg drag entry. The opponent is momentarily grip-less and in a weakened open guard.
+7. **Execute the pass**: Drive laterally with a toreando, leg drag, or bullfighter pass motion while the opponent is still recovering from the loss of their lapel control system. Push both knees to one side while stepping your hips past their legs, or execute a leg drag by pulling one leg across their body. Maintain forward pressure and a low center of gravity throughout the passing action.
+8. **Consolidate side control**: As you clear the opponent's legs, drop your chest perpendicular across their torso and establish crossface pressure with your forearm driving across their jaw. Secure an underhook on their far arm and drop your hips heavy against their near hip to prevent any guard recovery. Settle your weight and establish full side control.
 
 
 </section>
@@ -271,23 +271,18 @@ This pass is particularly effective against opponents who rely heavily on Keenan
 ## Training Progressions
 **Week 1-2** - Standing mechanics from Ringworm Guard
 Practice the combat base to standing sequence with a cooperative partner holding a loose Ringworm configuration. Focus on maintaining posture during the stand, keeping hips back, and proper weight distribution through the free leg. Repeat the standing motion 20-30 times per side without any extraction attempt, building the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Lapel extraction timing and grip mechanics
 Partner maintains moderate lapel tension while you practice the two-handed extraction sequence from standing. Focus on hand positioning, the peeling motion, and circling footwork. Partner holds the lapel at 50% grip strength and does not attempt sweeps, allowing you to refine the stripping mechanics and verify complete clearance.
-(Resistance: Light)
 
 **Week 5-6** - Extraction-to-pass chain drilling
 Combine the full sequence from combat base through standing, extraction, and immediate pass to side control. Partner provides moderate resistance including some sweep attempts and reguarding. Work the transition from lapel clearance to passing grips as a seamless chain. Include toreando and leg drag finishes.
-(Resistance: Medium)
 
 **Week 7-8** - Counter recognition and troubleshooting
 Partner actively defends with full Ringworm Guard attacks including sweeps, inversions, and back take attempts during your standing and extraction sequence. Practice recognizing when to abort and reset versus when to push through the extraction. Include scenarios where the partner transitions to other guards mid-sequence.
-(Resistance: Full)
 
 **Week 9+** - Live integration and competition drilling
 Start from full Ringworm Guard in live rolling situations with the specific goal of executing the standing pass. Track success rates and identify recurring failure points. Film training rounds to analyze posture breakdowns and timing errors. Adjust technique based on individual body mechanics and common opponent reactions.
-(Resistance: Full)
 
 
 

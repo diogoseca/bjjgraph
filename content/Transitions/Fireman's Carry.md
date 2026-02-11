@@ -159,7 +159,7 @@ description: "Master the Fireman's Carry takedown in BJJ. Complete step-by-step 
 The Fireman's Carry is a classical wrestling takedown that has found valuable application in Brazilian Jiu-Jitsu, particularly in no-gi and MMA contexts. This technique involves using a combination of off-balancing, level change, and explosive lifting to elevate your opponent onto your shoulders before driving them to the mat. The Fireman's Carry is particularly effective against opponents who maintain an upright posture in the clinch, as it exploits their high center of gravity and creates a sudden positional reversal. Unlike many BJJ takedowns that rely on pulling or tripping, the Fireman's Carry demonstrates the principle of lifting and redirecting an opponent's weight, making it an excellent complement to guard pulling and other ground-focused entries. The technique requires precise timing, proper body mechanics, and the ability to coordinate multiple movements simultaneously - the level change, arm control, penetration step, and lifting motion must all flow together seamlessly. When executed correctly, the Fireman's Carry not only achieves the takedown but also places you in an advantageous top position, often side control or modified mount, allowing for immediate passing or submission attempts. This makes it a high-percentage technique for competitors who want to establish top control early in a match.
 
 **From Position**: [[Clinch/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: Begin from a standing clinch position, typically with collar ties or underhooks. Secure a firm grip on your opponent's lead arm, controlling either the wrist or the triceps area. Your opposite hand should be positioned on the opponent's shoulder, neck, or opposite arm to maintain connection and prevent them from creating distance. (Timing: Initial setup phase)
-2. **Execute level change**: Drop your level rapidly by bending at the knees and hips, lowering your center of gravity significantly below your opponent's. As you drop, pull the controlled arm downward and across your body. Your head should drive toward the opponent's far hip while your shoulders remain square. This sudden level change disrupts their balance and creates the opening for penetration. (Timing: Explosive initiation - 0.5 seconds)
-3. **Penetration step**: Step your lead leg deep between your opponent's legs, positioning your foot past their centerline. Your hips should now be underneath theirs, with your shoulder making contact with their midsection. The penetration step is critical - shallow penetration will result in a failed lift. Your back should be straight and strong, ready to support their weight. (Timing: Immediately following level change)
-4. **Secure the carry position**: While maintaining control of the opponent's arm, thread your head under their armpit and position their torso across your shoulders. Your shoulder closest to them should be pressing into their abdomen or lower ribs. Your controlled arm should now be pulled tightly across your chest. Your free arm reaches behind their near leg, gripping behind the knee or upper thigh. The opponent should be draped across your shoulders like a fireman carrying someone. (Timing: Setup for lift - 1 second)
-5. **Execute the lift**: Drive explosively upward using your legs, keeping your back straight and core tight. Lift the opponent off the ground by straightening your legs while pulling down on their arm and behind their knee. Your shoulders should rise together, maintaining the opponent's weight balanced across your upper back. The lifting motion should be smooth and powerful, not jerky. At the peak of the lift, the opponent's feet should be completely off the ground and their weight fully committed to your shoulders. (Timing: Explosive lift - 1 second)
-6. **Rotate and descend**: Once the opponent is elevated, rotate your body in the direction of their head (usually toward your controlled arm side). As you rotate, begin to lower your level again, using the rotational momentum to swing the opponent off your shoulders. Guide their descent by maintaining control of the arm and leg. Your goal is to place them on the mat with their back down while you maintain top position. (Timing: Controlled descent - 1-1.5 seconds)
-7. **Land in top position**: As the opponent lands on their back or side, follow through with your body weight, landing in side control or a modified mount position. Immediately establish crossface control with your near arm and secure hip pressure to prevent them from recovering guard. Your far hand should control their far hip or establish an underhook. Maintain heavy shoulder pressure and consolidate your position before attempting passes or submissions. (Timing: Landing and stabilization - 2 seconds)
+1. **Establish grip control**: Begin from a standing clinch position, typically with collar ties or underhooks. Secure a firm grip on your opponent's lead arm, controlling either the wrist or the triceps area. Your opposite hand should be positioned on the opponent's shoulder, neck, or opposite arm to maintain connection and prevent them from creating distance.
+2. **Execute level change**: Drop your level rapidly by bending at the knees and hips, lowering your center of gravity significantly below your opponent's. As you drop, pull the controlled arm downward and across your body. Your head should drive toward the opponent's far hip while your shoulders remain square. This sudden level change disrupts their balance and creates the opening for penetration.
+3. **Penetration step**: Step your lead leg deep between your opponent's legs, positioning your foot past their centerline. Your hips should now be underneath theirs, with your shoulder making contact with their midsection. The penetration step is critical - shallow penetration will result in a failed lift. Your back should be straight and strong, ready to support their weight.
+4. **Secure the carry position**: While maintaining control of the opponent's arm, thread your head under their armpit and position their torso across your shoulders. Your shoulder closest to them should be pressing into their abdomen or lower ribs. Your controlled arm should now be pulled tightly across your chest. Your free arm reaches behind their near leg, gripping behind the knee or upper thigh. The opponent should be draped across your shoulders like a fireman carrying someone.
+5. **Execute the lift**: Drive explosively upward using your legs, keeping your back straight and core tight. Lift the opponent off the ground by straightening your legs while pulling down on their arm and behind their knee. Your shoulders should rise together, maintaining the opponent's weight balanced across your upper back. The lifting motion should be smooth and powerful, not jerky. At the peak of the lift, the opponent's feet should be completely off the ground and their weight fully committed to your shoulders.
+6. **Rotate and descend**: Once the opponent is elevated, rotate your body in the direction of their head (usually toward your controlled arm side). As you rotate, begin to lower your level again, using the rotational momentum to swing the opponent off your shoulders. Guide their descent by maintaining control of the arm and leg. Your goal is to place them on the mat with their back down while you maintain top position.
+7. **Land in top position**: As the opponent lands on their back or side, follow through with your body weight, landing in side control or a modified mount position. Immediately establish crossface control with your near arm and secure hip pressure to prevent them from recovering guard. Your far hand should control their far hip or establish an underhook. Maintain heavy shoulder pressure and consolidate your position before attempting passes or submissions.
 
 
 </section>
@@ -265,27 +265,21 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 ## Training Progressions
 **Week 1-2: Technical Foundation** - Drilling the mechanical sequence without resistance
 Practice the individual components separately: level change mechanics, penetration step depth, carry position setup, and lifting technique with proper leg drive. Partner remains upright and cooperative. Focus on achieving deep penetration and maintaining straight back during lift. Perform 20-30 repetitions per session emphasizing technical precision over speed.
-(Resistance: None)
 
 **Week 3-4: Integration and Timing** - Combining all phases into smooth flowing technique
 Practice the complete sequence from standing clinch through landing in top position. Partner provides minimal resistance but maintains active posture. Work on timing the level change with grip adjustments to avoid telegraphing. Begin adding rotational component during descent. Focus on smooth transitions between each phase without pausing. Include 15-20 repetitions with alternating sides.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Application** - Executing against moderate resistance and movement
 Partner provides active resistance including subtle sprawl attempts, hip movement, and defensive framing. Practice recognizing optimal timing windows during hand fighting. Work on adapting depth of penetration based on opponent's stance and posture. Include counters to common defenses. Incorporate technique into light positional sparring from standing. Perform 10-15 quality repetitions focusing on successful completion.
-(Resistance: Medium)
 
 **Week 9-12: Competition Application** - Full resistance and strategic implementation
 Execute technique during live standing wrestling/takedown sparring. Work on setups that create openings for the Fireman's Carry, such as collar tie pumps, snap downs, and level changes. Practice recognizing when opponent's posture and positioning are vulnerable. Develop backup options when initial attempt is defended. Include conditioning element by performing technique explosively after short bursts of movement.
-(Resistance: Full)
 
 **Month 4-6: Advanced Variations** - Developing variations and combinations
 Learn to hit Fireman's Carry from various grips including underhook, front headlock, and single collar tie. Practice transitioning to the technique from failed shot attempts. Develop combinations with other takedowns, using Fireman's Carry as follow-up when initial takedown is defended. Work on immediate submission and passing sequences after landing in top position.
-(Resistance: Full)
 
 **Ongoing: Refinement and Maintenance** - Continuous technical improvement and adaptation
 Regularly drill technique to maintain muscle memory and explosive power. Study high-level wrestling and BJJ competition footage to see variations and applications. Work with training partners of different body types to adapt technique for various sizes and styles. Film your execution to identify technical flaws. Include Fireman's Carry in regular takedown drilling rotation.
-(Resistance: Full)
 
 
 

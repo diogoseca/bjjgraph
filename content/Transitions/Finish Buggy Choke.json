@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Finish Buggy Choke represents the culmination of the buggy choke attack sequence from turtle top position. This blood choke targets the carotid arteries using collar grip pressure combined with perpendicular body mechanics to create strangulation. Unlike arm-in chokes that require specific arm positioning, the buggy choke finish relies on deep collar penetration and coordinated pressure application through chest weight and hip drive.\n\nThe finishing mechanics distinguish this technique from the positional control phase. While establishing buggy choke control focuses on grip depth and preventing escape, the finish emphasizes progressive pressure escalation through body weight transfer and grip consolidation. The choking hand must achieve palm-up orientation with fingers deep in the collar, allowing the radius bone to press directly into the carotid artery when combined with perpendicular body positioning.\n\nStrategically, committing to the finish requires reading opponent defensive reactions. Static opponents who focus purely on grip fighting without movement create ideal finishing opportunities. However, opponents who move aggressively toward back escapes or sitting to guard may offer better positional advancement opportunities than forcing a contested choke. The finish should be executed with progressive pressure rather than explosive yanking, maximizing technical efficiency while minimizing energy expenditure and reducing injury risk to training partners.",
   "key_principles": [
     "Achieve maximum grip depth with palm-up orientation before initiating finishing pressure",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Confirm grip depth",
-      "description": "Verify threading arm has achieved maximum depth with palm-up hand securing far-side collar material deep enough that your wrist contacts opponent's neck, not your forearm",
-      "timing": "Before initiating pressure"
+      "description": "Verify threading arm has achieved maximum depth with palm-up hand securing far-side collar material deep enough that your wrist contacts opponent's neck, not your forearm"
     },
     {
       "step_number": 2,
       "action": "Consolidate secondary grip",
-      "description": "Secure opposite hand on collar material adjacent to primary grip in gi, or gable grip hands together in no-gi, creating unified choking structure without gaps",
-      "timing": "Immediately after confirming primary depth"
+      "description": "Secure opposite hand on collar material adjacent to primary grip in gi, or gable grip hands together in no-gi, creating unified choking structure without gaps"
     },
     {
       "step_number": 3,
       "action": "Transfer body weight",
-      "description": "Drive chest weight downward onto opponent's back and shoulder complex while simultaneously dropping hips heavy onto their near hip to flatten their turtle structure completely",
-      "timing": "As grips consolidate"
+      "description": "Drive chest weight downward onto opponent's back and shoulder complex while simultaneously dropping hips heavy onto their near hip to flatten their turtle structure completely"
     },
     {
       "step_number": 4,
       "action": "Establish perpendicular angle",
-      "description": "Position your body perpendicular to opponent's spine with head tight to their far shoulder, creating optimal geometry for carotid compression rather than tracheal pressure",
-      "timing": "During weight transfer"
+      "description": "Position your body perpendicular to opponent's spine with head tight to their far shoulder, creating optimal geometry for carotid compression rather than tracheal pressure"
     },
     {
       "step_number": 5,
       "action": "Initiate progressive pressure",
-      "description": "Begin choking pressure by rotating your radius bone into the carotid artery while pulling collar material toward your own chest, using body mechanics rather than arm strength",
-      "timing": "After perpendicular angle established"
+      "description": "Begin choking pressure by rotating your radius bone into the carotid artery while pulling collar material toward your own chest, using body mechanics rather than arm strength"
     },
     {
       "step_number": 6,
       "action": "Escalate to finish",
-      "description": "Progressively increase pressure by driving your shoulder toward the mat while maintaining grip depth and body weight, compressing both carotid arteries until opponent taps or goes unconscious",
-      "timing": "Final phase until tap"
+      "description": "Progressively increase pressure by driving your shoulder toward the mat while maintaining grip depth and body weight, compressing both carotid arteries until opponent taps or goes unconscious"
     }
   ],
   "common_counters": [
@@ -142,26 +131,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and depth",
-      "description": "Practice threading arm penetration and grip establishment on cooperative partner. Focus on achieving palm-up orientation with maximum collar depth. Drill grip placement 50+ repetitions per session without resistance to build muscle memory for proper finishing structure.",
-      "resistance_level": "None"
+      "description": "Practice threading arm penetration and grip establishment on cooperative partner. Focus on achieving palm-up orientation with maximum collar depth. Drill grip placement 50+ repetitions per session without resistance to build muscle memory for proper finishing structure."
     },
     {
       "phase": "Week 3-4",
       "focus": "Pressure application timing",
-      "description": "Add light defensive movement from partner. Practice coordinating body weight transfer with grip consolidation. Develop feel for optimal perpendicular positioning and progressive pressure escalation. Partner provides feedback on pressure quality and choking effectiveness.",
-      "resistance_level": "Light"
+      "description": "Add light defensive movement from partner. Practice coordinating body weight transfer with grip consolidation. Develop feel for optimal perpendicular positioning and progressive pressure escalation. Partner provides feedback on pressure quality and choking effectiveness."
     },
     {
       "phase": "Week 5-6",
       "focus": "Defensive reaction reading",
-      "description": "Partner provides medium resistance with varied defensive responses: grip fighting, sitting to guard, arm extension for base. Practice recognizing when to commit to finish versus transition to alternative attacks. Build decision-making under moderate pressure.",
-      "resistance_level": "Medium"
+      "description": "Partner provides medium resistance with varied defensive responses: grip fighting, sitting to guard, arm extension for base. Practice recognizing when to commit to finish versus transition to alternative attacks. Build decision-making under moderate pressure."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition simulation",
-      "description": "Full resistance positional sparring starting from buggy choke control. Top player attempts finish or positional advancement while bottom player uses complete defensive arsenal. Score based on submissions, escapes, and positional transitions. Develop finishing instincts under realistic competition pressure.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring starting from buggy choke control. Top player attempts finish or positional advancement while bottom player uses complete defensive arsenal. Score based on submissions, escapes, and positional transitions. Develop finishing instincts under realistic competition pressure."
     }
   ],
   "variants_and_adaptations": [
@@ -184,43 +169,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Finish Buggy Choke?",
-      "answer": "The primary goal is to complete the strangulation by compressing both carotid arteries using progressive collar pressure and body mechanics, forcing the opponent to tap or rendering them unconscious. This represents the final phase of the buggy choke attack sequence.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to complete the strangulation by compressing both carotid arteries using progressive collar pressure and body mechanics, forcing the opponent to tap or rendering them unconscious. This represents the final phase of the buggy choke attack sequence."
     },
     {
       "question": "What grip depth indicator confirms readiness to initiate finishing pressure?",
-      "answer": "Your wrist should contact the opponent's neck, not your forearm. This palm-up orientation with maximum depth positions your radius bone directly against the carotid artery and ensures sufficient collar material for leverage. Shallow grips where the forearm contacts neck create ineffective airway pressure rather than blood choke.",
-      "difficulty": "Intermediate"
+      "answer": "Your wrist should contact the opponent's neck, not your forearm. This palm-up orientation with maximum depth positions your radius bone directly against the carotid artery and ensures sufficient collar material for leverage. Shallow grips where the forearm contacts neck create ineffective airway pressure rather than blood choke."
     },
     {
       "question": "Your opponent starts sitting to guard while you attempt the finish - what is your immediate response?",
-      "answer": "Hook their near leg immediately with your leg and follow their sitting motion to convert to back control. Maintain your collar grip throughout the transition. Their hip exposure during the sit creates the perfect opportunity to insert hooks. This reactive transition is often higher percentage than forcing a contested choke.",
-      "difficulty": "Intermediate"
+      "answer": "Hook their near leg immediately with your leg and follow their sitting motion to convert to back control. Maintain your collar grip throughout the transition. Their hip exposure during the sit creates the perfect opportunity to insert hooks. This reactive transition is often higher percentage than forcing a contested choke."
     },
     {
       "question": "How does body positioning contribute to finishing pressure beyond grip strength?",
-      "answer": "Perpendicular body angle creates optimal geometry for carotid compression. Chest weight on the opponent's back flattens their defensive posture. Hips heavy on their near hip prevent rolling escapes. Head tight to far shoulder blocks rotation. These combined body mechanics multiply choking pressure without requiring muscular arm strength.",
-      "difficulty": "Intermediate"
+      "answer": "Perpendicular body angle creates optimal geometry for carotid compression. Chest weight on the opponent's back flattens their defensive posture. Hips heavy on their near hip prevent rolling escapes. Head tight to far shoulder blocks rotation. These combined body mechanics multiply choking pressure without requiring muscular arm strength."
     },
     {
       "question": "What differentiates effective blood choke pressure from ineffective tracheal pressure?",
-      "answer": "Blood chokes compress the carotid arteries on the sides of the neck using the radius bone, causing unconsciousness in seconds. Tracheal pressure crushes the airway in front, causing pain and panic but much slower submission. Proper palm-up grip orientation with perpendicular angle ensures carotid targeting over tracheal crushing.",
-      "difficulty": "Intermediate"
+      "answer": "Blood chokes compress the carotid arteries on the sides of the neck using the radius bone, causing unconsciousness in seconds. Tracheal pressure crushes the airway in front, causing pain and panic but much slower submission. Proper palm-up grip orientation with perpendicular angle ensures carotid targeting over tracheal crushing."
     },
     {
       "question": "When should you abandon the finish attempt and transition to alternative attacks?",
-      "answer": "Abandon finish when: opponent successfully strips primary grip depth, they create significant defensive space through movement, they extend far arm creating crucifix opportunity, or they turn into position creating darce/anaconda angles. Continued force on low-percentage finish wastes energy and misses better opportunities.",
-      "difficulty": "Advanced"
+      "answer": "Abandon finish when: opponent successfully strips primary grip depth, they create significant defensive space through movement, they extend far arm creating crucifix opportunity, or they turn into position creating darce/anaconda angles. Continued force on low-percentage finish wastes energy and misses better opportunities."
     },
     {
       "question": "What is the progressive pressure escalation sequence for the finish?",
-      "answer": "First consolidate grips with confirmed depth. Then transfer body weight through chest onto their back while dropping hips heavy. Establish perpendicular angle with head tight to far shoulder. Initiate radius bone rotation into carotid while pulling collar toward your chest. Finally, drive shoulder toward mat to compound pressure until tap.",
-      "difficulty": "Advanced"
+      "answer": "First consolidate grips with confirmed depth. Then transfer body weight through chest onto their back while dropping hips heavy. Establish perpendicular angle with head tight to far shoulder. Initiate radius bone rotation into carotid while pulling collar toward your chest. Finally, drive shoulder toward mat to compound pressure until tap."
     },
     {
       "question": "How do you modify the finish technique for no-gi application?",
-      "answer": "Without collar grips, connect hands in gable grip or rear naked choke configuration around the neck. The choking arm threading mechanics remain similar, but pressure comes from direct forearm contact rather than collar leverage. Requires deeper threading and tighter body connection to compensate for lost gi friction and leverage.",
-      "difficulty": "Advanced"
+      "answer": "Without collar grips, connect hands in gable grip or rear naked choke configuration around the neck. The choking arm threading mechanics remain similar, but pressure comes from direct forearm contact rather than collar leverage. Requires deeper threading and tighter body connection to compensate for lost gi friction and leverage."
     }
   ],
   "safety_considerations": "The buggy choke is a blood choke that can cause unconsciousness rapidly when applied correctly. Training partners should tap early when pressure is felt on the carotid arteries rather than waiting for vision changes or lightheadedness. Apply progressive pressure gradually rather than explosive yanking to give partners adequate time to tap and reduce cervical spine stress. Release immediately upon tap and support unconscious partners into recovery position if they go out. Avoid this technique on partners with neck injuries, cardiovascular conditions, or when either person is exhausted and reaction times are compromised. Never practice finish attempts without qualified supervision during initial learning phases.",
@@ -262,5 +239,6 @@
       "name": "Front Headlock",
       "relationship": "Related control position for turtle attacks"
     }
-  ]
+  ],
+  "success_rate": 58
 }

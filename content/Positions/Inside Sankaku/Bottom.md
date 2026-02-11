@@ -367,11 +367,11 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 10% | 15% | 5% |
-| Intermediate | 20% | 25% | 10% |
-| Advanced     | 35% | 40% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 28% |
+| Advancement Probability | 32% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 15-45 seconds before submission or escape
 

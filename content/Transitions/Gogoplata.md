@@ -159,7 +159,7 @@ From Mission Control, the Gogoplata setup requires bringing your attacking foot 
 Competition footage shows the Gogoplata succeeding primarily when opponents are unfamiliar with the position's danger or when they're already compromised in their posture from preceding Rubber Guard attacks. The submission's unconventional appearance often causes defenders to misjudge the threat level, creating windows for finish that more traditional attacks might not generate. However, the flexibility requirements mean this technique suits certain body types better than others, and practitioners should honestly assess their physical attributes before investing heavily in Gogoplata development.
 
 **From Position**: [[Mission Control/Bottom]]
-**Success Rates**: Beginner 20%, Intermediate 40%, Advanced 60%
+**Success Rate**: 50%
 
 </section>
 
@@ -207,12 +207,12 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Mission Control**: From closed guard or rubber guard, establish Mission Control with your same-side hand reaching over opponent's shoulder and grabbing your own shin. Your shin should be pressed across their upper back and shoulder blade area. Break their posture completely by pulling with your overhook grip while driving your shin down. (Timing: Before opponent can establish posture)
-2. **Release shin grip**: Release your grip on your shin while maintaining the overhook control on their arm. Your attacking leg remains high across their shoulder. Use your free hand to push on the back of their head, driving it toward the mat and further breaking posture. This creates the angle needed for the foot to travel behind their head. (Timing: When posture is fully broken)
-3. **Thread the attacking foot**: Circle your attacking foot up and over their shoulder, threading it behind their head. Your shin bone should be positioned to cross their throat at the trachea level. The foot travels in an arc motion, coming from outside their shoulder and curling behind their head. Keep your hip elevated to create the necessary range of motion. (Timing: Immediately after hand releases shin)
-4. **Secure head control**: Both hands now reach behind opponent's head, interlocking your fingers or grabbing wrist-to-wrist at the back of their skull. Your grip should be directly on the occipital bone area, not on the neck. This creates the pulling mechanism that drives their throat into your shin. (Timing: As soon as foot clears behind head)
-5. **Create finishing angle**: Hip out slightly to the side opposite your attacking leg, creating an angle that prevents opponent from stacking directly over you. Your non-attacking leg can hook their hip or post on the mat for additional control. Keep your hips elevated off the mat - flat hips equal failed submission. (Timing: Simultaneously with head grip)
-6. **Apply finishing pressure**: Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap or unconsciousness. (Timing: Controlled, steady pressure increase)
+1. **Secure Mission Control**: From closed guard or rubber guard, establish Mission Control with your same-side hand reaching over opponent's shoulder and grabbing your own shin. Your shin should be pressed across their upper back and shoulder blade area. Break their posture completely by pulling with your overhook grip while driving your shin down.
+2. **Release shin grip**: Release your grip on your shin while maintaining the overhook control on their arm. Your attacking leg remains high across their shoulder. Use your free hand to push on the back of their head, driving it toward the mat and further breaking posture. This creates the angle needed for the foot to travel behind their head.
+3. **Thread the attacking foot**: Circle your attacking foot up and over their shoulder, threading it behind their head. Your shin bone should be positioned to cross their throat at the trachea level. The foot travels in an arc motion, coming from outside their shoulder and curling behind their head. Keep your hip elevated to create the necessary range of motion.
+4. **Secure head control**: Both hands now reach behind opponent's head, interlocking your fingers or grabbing wrist-to-wrist at the back of their skull. Your grip should be directly on the occipital bone area, not on the neck. This creates the pulling mechanism that drives their throat into your shin.
+5. **Create finishing angle**: Hip out slightly to the side opposite your attacking leg, creating an angle that prevents opponent from stacking directly over you. Your non-attacking leg can hook their hip or post on the mat for additional control. Keep your hips elevated off the mat - flat hips equal failed submission.
+6. **Apply finishing pressure**: Pull opponent's head forcefully down into your shin using your grip behind their head while simultaneously extending your hip to drive your shin into their throat. The finish combines pulling and pressing - your arms pull the head while your hip extension drives the shin. Maintain constant pressure until tap or unconsciousness.
 
 
 </section>
@@ -258,19 +258,15 @@ Competition footage shows the Gogoplata succeeding primarily when opponents are 
 ## Training Progressions
 **Week 1-2** - Hip flexibility and foot placement
 Solo drilling focused on developing the hip flexibility to bring your foot behind a training dummy or cooperative partner's head. Practice the motion of threading the foot from Mission Control position without resistance. Include hip stretching and mobility work specifically targeting external rotation and flexion.
-(Resistance: None)
 
 **Week 3-4** - Position assembly with partner
 Work with a cooperative partner to assemble the full Gogoplata position, focusing on proper shin placement across the throat, correct head grip positioning, and hip elevation maintenance. Partner provides verbal feedback on pressure location and intensity without active resistance.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and transitions
 Practice transitioning between Gogoplata, omoplata, and triangle based on partner's defensive reactions. When they posture, switch to omoplata. When they turn their chin, switch to triangle. Develop recognition of which attack is available based on opponent's defensive choice.
-(Resistance: Medium)
 
 **Week 7+** - Live application and timing
 Implement Gogoplata in positional sparring starting from Mission Control. Focus on recognizing genuine finishing opportunities versus positions where transition is more appropriate. Track success rate and adjust technique based on common failure patterns encountered.
-(Resistance: Full)
 
 
 

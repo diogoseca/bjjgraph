@@ -157,7 +157,7 @@ The technique becomes particularly viable when the opponent commits to heel hook
 Strategically, the kneebar from ushiro functions as a chain attack within the leg entanglement system, forcing opponents to defend multiple threat vectors simultaneously. Defenders who focus exclusively on heel hook prevention often neglect proper knee alignment, creating windows for kneebar entry. This dilemma-based approach maximizes offensive efficiency from positions that might otherwise become defensive stalemates when facing sophisticated heel hook defense.
 
 **From Position**: [[Ushiro Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the kneebar from ushiro functions as a chain attack within the le
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize entry window**: Identify when opponent straightens their leg during heel hook defense. Their flexed foot pulling heel away creates the straight leg alignment needed for kneebar mechanics. (Timing: Immediately when opponent commits to heel protection)
-2. **Secure ankle control**: Grip opponent's ankle firmly with both hands, pulling it tight against your chest. The wrist-to-wrist grip (Gable grip) behind their Achilles provides maximum control for the transition. (Timing: Before releasing any leg control)
-3. **Pivot your hips**: Rotate your hips to position them perpendicular to opponent's thigh. Your inside leg swings across their hip line while maintaining the figure-four configuration around their trapped leg. (Timing: Smooth continuous motion)
-4. **Position the knee joint**: Align opponent's knee joint directly over your hip crease. Their kneecap should face the ceiling with your body positioned at a 90-degree angle to their femur for optimal hyperextension leverage. (Timing: Adjust before applying pressure)
-5. **Pinch knees and secure**: Squeeze your knees together tightly, one above and one below their knee joint. This creates a fulcrum point and prevents them from rotating their leg to relieve pressure on the joint. (Timing: Establish before bridging)
-6. **Apply finishing pressure**: Bridge your hips upward while pulling their ankle toward your chest and keeping their toes pointed at the ceiling. The opposing forces hyperextend the knee joint for the tap. (Timing: Controlled progressive pressure)
+1. **Recognize entry window**: Identify when opponent straightens their leg during heel hook defense. Their flexed foot pulling heel away creates the straight leg alignment needed for kneebar mechanics.
+2. **Secure ankle control**: Grip opponent's ankle firmly with both hands, pulling it tight against your chest. The wrist-to-wrist grip (Gable grip) behind their Achilles provides maximum control for the transition.
+3. **Pivot your hips**: Rotate your hips to position them perpendicular to opponent's thigh. Your inside leg swings across their hip line while maintaining the figure-four configuration around their trapped leg.
+4. **Position the knee joint**: Align opponent's knee joint directly over your hip crease. Their kneecap should face the ceiling with your body positioned at a 90-degree angle to their femur for optimal hyperextension leverage.
+5. **Pinch knees and secure**: Squeeze your knees together tightly, one above and one below their knee joint. This creates a fulcrum point and prevents them from rotating their leg to relieve pressure on the joint.
+6. **Apply finishing pressure**: Bridge your hips upward while pulling their ankle toward your chest and keeping their toes pointed at the ceiling. The opposing forces hyperextend the knee joint for the tap.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, the kneebar from ushiro functions as a chain attack within the le
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Drill the hip pivot mechanics from static ushiro position. Partner provides no resistance while you practice grip transitions, hip rotation, and kneebar alignment. Focus on smooth, controlled movement patterns.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner defends heel hook by straightening leg on cue. Practice recognizing the entry window and timing the transition. Add light resistance to grip fighting while maintaining technical precision.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain heel hook and kneebar attacks based on partner's defensive reactions. Practice transitioning between both submissions fluidly. Partner provides realistic defense forcing you to read and react.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in specific sparring from ushiro ashi-garami. Full resistance with partner attempting all escapes and counters. Develop ability to hit the kneebar under competition conditions.
-(Resistance: Full)
 
 
 

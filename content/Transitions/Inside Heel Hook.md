@@ -157,7 +157,7 @@ From 50-50 Guard Top, the inside heel hook becomes available when you establish 
 This submission has revolutionized modern leg lock systems and is a cornerstone of contemporary no-gi grappling strategy. Its effectiveness stems from the difficulty of defending once proper control is established—the rotational force can cause immediate joint damage before the defender can react. This potency makes the inside heel hook both highly effective and requiring exceptional responsibility regarding partner safety and tap recognition.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This submission has revolutionized modern leg lock systems and is a cornerstone 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure inside position**: Confirm your inside leg maintains the dominant angle against opponent's leg structure. Your shin or calf should create inside pressure that prevents them from gaining inside control. This is the fundamental requirement before any heel hook attempt. (Timing: Before initiating grip sequence)
-2. **Establish heel cup grip**: Reach across opponent's leg with your primary hand, cupping their heel with fingers wrapped around the heel bone. Your wrist should lock against their Achilles tendon, creating a secure anchor point that prevents heel extraction. (Timing: Immediately after confirming inside position)
-3. **Create figure-four lock**: Bring your secondary hand to grip your own wrist or forearm, creating a figure-four configuration around the heel. Your elbows should squeeze together, keeping the grip structure tight against your chest with no space for heel escape. (Timing: 1-2 seconds after initial heel cup)
-4. **Control the knee line**: Pull opponent's leg tight to your body so their knee sits below your armpit. Clamp down with your elbow and upper arm to prevent their knee from rotating to relieve pressure. This knee control is essential for the finish. (Timing: Concurrent with figure-four establishment)
-5. **Begin rotational pressure**: Initiate hip extension while simultaneously rotating your shoulders toward opponent's opposite hip. The heel should travel in an arc toward your shoulder as you extend. Keep elbows squeezed tight to transmit force efficiently. (Timing: Smooth acceleration over 2-3 seconds)
-6. **Complete the finish**: Continue hip extension and shoulder rotation until opponent taps or you feel the submission is secure. Your hips drive forward, chest stays up, and the heel rotates toward opponent's centerline. Release immediately upon tap—there is minimal warning before joint damage. (Timing: Stop immediately upon tap)
+1. **Secure inside position**: Confirm your inside leg maintains the dominant angle against opponent's leg structure. Your shin or calf should create inside pressure that prevents them from gaining inside control. This is the fundamental requirement before any heel hook attempt.
+2. **Establish heel cup grip**: Reach across opponent's leg with your primary hand, cupping their heel with fingers wrapped around the heel bone. Your wrist should lock against their Achilles tendon, creating a secure anchor point that prevents heel extraction.
+3. **Create figure-four lock**: Bring your secondary hand to grip your own wrist or forearm, creating a figure-four configuration around the heel. Your elbows should squeeze together, keeping the grip structure tight against your chest with no space for heel escape.
+4. **Control the knee line**: Pull opponent's leg tight to your body so their knee sits below your armpit. Clamp down with your elbow and upper arm to prevent their knee from rotating to relieve pressure. This knee control is essential for the finish.
+5. **Begin rotational pressure**: Initiate hip extension while simultaneously rotating your shoulders toward opponent's opposite hip. The heel should travel in an arc toward your shoulder as you extend. Keep elbows squeezed tight to transmit force efficiently.
+6. **Complete the finish**: Continue hip extension and shoulder rotation until opponent taps or you feel the submission is secure. Your hips drive forward, chest stays up, and the heel rotates toward opponent's centerline. Release immediately upon tap—there is minimal warning before joint damage.
 
 
 </section>
@@ -253,19 +253,15 @@ This submission has revolutionized modern leg lock systems and is a cornerstone 
 ## Training Progressions
 **Week 1-2** - Grip mechanics and positioning
 Practice heel cup grip and figure-four configuration on a compliant partner. Focus on proper hand placement, elbow squeeze, and pulling heel tight to chest. No finishing pressure—just grip establishment and release.
-(Resistance: None)
 
 **Week 3-4** - Rotational mechanics
 Add hip extension and shoulder rotation to the finish with partner who taps immediately upon any pressure. Develop coordination between grip squeeze, hip drive, and rotation. Partner provides light positional resistance but taps at first hint of pressure.
-(Resistance: Light)
 
 **Week 5-6** - Entry chains and counters
 Practice entering heel hook from various 50-50 scrambles. Partner defends with heel hiding and grip fighting. Work counter-sequences: heel hook to kneebar, heel hook to back take. Medium resistance on entries, immediate tap on submissions.
-(Resistance: Medium)
 
 **Week 7+** - Live application with responsible partners
 Apply heel hook in positional sparring starting from 50-50. Both partners must have mature understanding of tap timing and injury risk. Focus on entry timing, recognizing when to attack versus transition, and developing submission chain mentality.
-(Resistance: Full)
 
 
 

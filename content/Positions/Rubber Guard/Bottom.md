@@ -332,11 +332,11 @@ Start in established Rubber Guard position. Flow between triangle, omoplata, and
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 20% |
-| Intermediate | 50% | 50% | 35% |
-| Advanced     | 70% | 70% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 45-90 seconds in active control before transition or submission attempt
 

@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Ankle Lock Finish from Ushiro Ashi-Garami represents a critical submission pathway within the modern leg lock system. When the opponent inverts to escape standard ashi-garami positions but remains partially entangled, the reversed configuration creates unique finishing opportunities that differ mechanically from standard ankle lock applications.\n\nThis transition capitalizes on the opponent's compromised defensive position during their inversion attempt. The reversed hip orientation changes the angles available for breaking mechanics, requiring specific grip adjustments and body positioning to generate effective submission pressure. The attacker must recognize the optimal moment to commit to the finish versus continuing to follow positional transitions.\n\nStrategically, the Ankle Lock Finish serves as a high-percentage option when heel hook access is compromised by the opponent's defensive hand fighting or when ruleset restrictions limit heel hook application. The straight ankle lock provides a legal submission across all major competition formats while maintaining offensive pressure that prevents the opponent from completing their escape sequence. Success requires precise timing, proper grip establishment, and coordinated breaking mechanics that account for the reversed entanglement geometry.",
   "key_principles": [
     "Secure ankle control before committing to finishing mechanics - position precedes submission",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Secure grip position",
-      "description": "Position your forearm directly against the opponent's Achilles tendon with the blade of your wrist bone pressing into the tendon. Cup the heel with your opposite hand, palm across the back of the heel and fingers pointing toward the toes.",
-      "timing": "When opponent's defensive hands are occupied with escape attempt"
+      "description": "Position your forearm directly against the opponent's Achilles tendon with the blade of your wrist bone pressing into the tendon. Cup the heel with your opposite hand, palm across the back of the heel and fingers pointing toward the toes."
     },
     {
       "step_number": 2,
       "action": "Consolidate leg control",
-      "description": "Tighten your figure-four leg configuration around the opponent's trapped leg, using your outside leg to press their knee line while your inside leg maintains underneath control. This prevents the hip rotation that would relieve ankle pressure.",
-      "timing": "Immediately after establishing grip"
+      "description": "Tighten your figure-four leg configuration around the opponent's trapped leg, using your outside leg to press their knee line while your inside leg maintains underneath control. This prevents the hip rotation that would relieve ankle pressure."
     },
     {
       "step_number": 3,
       "action": "Create initial tension",
-      "description": "Pull the opponent's heel tight to your chest while slightly elevating your hips. This removes slack from the system and establishes the connection needed for effective breaking mechanics. Feel for the opponent's resistance level.",
-      "timing": "Within 1-2 seconds of grip establishment"
+      "description": "Pull the opponent's heel tight to your chest while slightly elevating your hips. This removes slack from the system and establishes the connection needed for effective breaking mechanics. Feel for the opponent's resistance level."
     },
     {
       "step_number": 4,
       "action": "Position hips for extension",
-      "description": "Adjust your hip angle to allow full back arch and extension. Your hips should be positioned underneath the opponent's lower leg with your body perpendicular to their trapped limb. This alignment maximizes mechanical advantage.",
-      "timing": "Continuous adjustment during grip consolidation"
+      "description": "Adjust your hip angle to allow full back arch and extension. Your hips should be positioned underneath the opponent's lower leg with your body perpendicular to their trapped limb. This alignment maximizes mechanical advantage."
     },
     {
       "step_number": 5,
       "action": "Apply breaking pressure",
-      "description": "Simultaneously arch your back strongly, extend your hips upward, and pull the heel toward your shoulder. The pressure comes from your entire body coordination, not arm strength alone. Dorsiflex the ankle by driving toes toward shin.",
-      "timing": "Explosive application when control is complete"
+      "description": "Simultaneously arch your back strongly, extend your hips upward, and pull the heel toward your shoulder. The pressure comes from your entire body coordination, not arm strength alone. Dorsiflex the ankle by driving toes toward shin."
     },
     {
       "step_number": 6,
       "action": "Finish or transition",
-      "description": "If the opponent taps, release immediately. If they begin escaping before the finish, maintain ankle grip and follow their movement to re-establish control or transition to Straight Ankle Lock Control position for continued attack.",
-      "timing": "Within 3-5 seconds of pressure application"
+      "description": "If the opponent taps, release immediately. If they begin escaping before the finish, maintain ankle grip and follow their movement to re-establish control or transition to Straight Ankle Lock Control position for continued attack."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamentals",
-      "description": "Practice grip establishment and body positioning with fully compliant partner. Focus on forearm placement against Achilles, heel cupping, and leg configuration around trapped limb. No resistance, stop at first sign of pressure.",
-      "resistance_level": "None"
+      "description": "Practice grip establishment and body positioning with fully compliant partner. Focus on forearm placement against Achilles, heel cupping, and leg configuration around trapped limb. No resistance, stop at first sign of pressure."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing",
-      "description": "Partner provides light escape attempts while you work to establish grip and apply controlled pressure. Focus on recognizing the moment when their defensive hands are occupied and grip can be secured.",
-      "resistance_level": "Light"
+      "description": "Partner provides light escape attempts while you work to establish grip and apply controlled pressure. Focus on recognizing the moment when their defensive hands are occupied and grip can be secured."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations",
-      "description": "Chain the Ankle Lock Finish with other attacks from Ushiro Ashi-Garami. When finish fails, transition to heel hook, kneebar, or follow to back control. Partner provides realistic defensive responses.",
-      "resistance_level": "Medium"
+      "description": "Chain the Ankle Lock Finish with other attacks from Ushiro Ashi-Garami. When finish fails, transition to heel hook, kneebar, or follow to back control. Partner provides realistic defensive responses."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Incorporate into positional sparring from leg entanglement positions. Work entries into Ushiro Ashi-Garami and finish attempts against fully resisting partners with appropriate safety protocols.",
-      "resistance_level": "Full"
+      "description": "Incorporate into positional sparring from leg entanglement positions. Work entries into Ushiro Ashi-Garami and finish attempts against fully resisting partners with appropriate safety protocols."
     }
   ],
   "variants_and_adaptations": [
@@ -183,53 +168,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Ankle Lock Finish from Ushiro Ashi-Garami?",
-      "answer": "The primary goal is to capitalize on the opponent's compromised defensive position during their inversion escape attempt by securing an ankle lock submission. The reversed hip orientation creates unique finishing opportunities where the opponent's attention is divided between escaping and defending, making it an optimal moment to apply breaking pressure.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to capitalize on the opponent's compromised defensive position during their inversion escape attempt by securing an ankle lock submission. The reversed hip orientation creates unique finishing opportunities where the opponent's attention is divided between escaping and defending, making it an optimal moment to apply breaking pressure."
     },
     {
       "question": "What position do you start Ankle Lock Finish from?",
-      "answer": "This technique starts from Ushiro Ashi-Garami position, which occurs when you've maintained leg entanglement after your opponent inverted to escape a standard ashi-garami. You have a figure-four leg configuration with your outside leg crossing over their trapped knee.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Ushiro Ashi-Garami position, which occurs when you've maintained leg entanglement after your opponent inverted to escape a standard ashi-garami. You have a figure-four leg configuration with your outside leg crossing over their trapped knee."
     },
     {
       "question": "What are the key grips needed for the Ankle Lock Finish?",
-      "answer": "The primary grip positions your forearm blade directly against the opponent's Achilles tendon with the wrist bone pressing into the tendon. Your opposite hand cups the heel with palm across the back of the heel and fingers pointing toward the toes. This configuration creates the pocket needed for submission leverage while controlling heel rotation.",
-      "difficulty": "Intermediate"
+      "answer": "The primary grip positions your forearm blade directly against the opponent's Achilles tendon with the wrist bone pressing into the tendon. Your opposite hand cups the heel with palm across the back of the heel and fingers pointing toward the toes. This configuration creates the pocket needed for submission leverage while controlling heel rotation."
     },
     {
       "question": "Your opponent defends by strongly flexing their foot and pointing their toes - how do you adapt?",
-      "answer": "When the opponent employs boot defense, switch to an Estima Lock grip where your hands clasp on top of their foot rather than the heel. Alternatively, if rules permit, transition to a heel hook attack since their flexed foot creates heel exposure from a different angle. The key is recognizing that continued pressure on the same configuration will be ineffective.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent employs boot defense, switch to an Estima Lock grip where your hands clasp on top of their foot rather than the heel. Alternatively, if rules permit, transition to a heel hook attack since their flexed foot creates heel exposure from a different angle. The key is recognizing that continued pressure on the same configuration will be ineffective."
     },
     {
       "question": "What breaking mechanics generate effective pressure for the finish?",
-      "answer": "Effective breaking mechanics require coordinated full-body movement: arch your back strongly while pulling the heel tight to your chest, simultaneously extend your hips upward to generate downward pressure on the ankle, and dorsiflex the ankle by driving toes toward the shin. The finish comes from hip extension and back arch working together, not arm strength alone.",
-      "difficulty": "Intermediate"
+      "answer": "Effective breaking mechanics require coordinated full-body movement: arch your back strongly while pulling the heel tight to your chest, simultaneously extend your hips upward to generate downward pressure on the ankle, and dorsiflex the ankle by driving toes toward the shin. The finish comes from hip extension and back arch working together, not arm strength alone."
     },
     {
       "question": "When is the optimal timing window to secure your grip for the finish?",
-      "answer": "The optimal timing is when the opponent's defensive hands are occupied with their escape attempt rather than defending their heel. During their inversion, they're focused on clearing your legs and rotating their hips - this divided attention creates a 2-3 second window where grip establishment faces minimal hand fighting resistance.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is when the opponent's defensive hands are occupied with their escape attempt rather than defending their heel. During their inversion, they're focused on clearing your legs and rotating their hips - this divided attention creates a 2-3 second window where grip establishment faces minimal hand fighting resistance."
     },
     {
       "question": "Your initial finish attempt fails but you still have ankle control - what are your options?",
-      "answer": "Maintain your ankle grip while adjusting body position. Options include: follow their escape movement to re-establish Ushiro control and attempt again, transition to Straight Ankle Lock Control for continued attack, switch to heel hook if their defensive position exposes the heel, or pursue a kneebar if their leg straightens during escape.",
-      "difficulty": "Advanced"
+      "answer": "Maintain your ankle grip while adjusting body position. Options include: follow their escape movement to re-establish Ushiro control and attempt again, transition to Straight Ankle Lock Control for continued attack, switch to heel hook if their defensive position exposes the heel, or pursue a kneebar if their leg straightens during escape."
     },
     {
       "question": "How do you prevent the opponent from rotating their hip to relieve pressure?",
-      "answer": "Maintain tight leg control with your figure-four configuration around their trapped leg. Your outside leg should press their knee line preventing outward rotation while your inside leg stays underneath maintaining the entanglement. If they begin rotating, follow the movement rather than fighting it, adjusting your angle while keeping leg control intact.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain tight leg control with your figure-four configuration around their trapped leg. Your outside leg should press their knee line preventing outward rotation while your inside leg stays underneath maintaining the entanglement. If they begin rotating, follow the movement rather than fighting it, adjusting your angle while keeping leg control intact."
     },
     {
       "question": "What indicates that you should transition to a different attack rather than continuing the ankle lock attempt?",
-      "answer": "Transition when: the opponent has successfully stripped your grip and their hands are now defending the ankle, their hip rotation has progressed to the point where your leg control is compromised, more than 5 seconds have passed without submission imminent, or their defensive position exposes a higher-percentage attack like the heel hook.",
-      "difficulty": "Advanced"
+      "answer": "Transition when: the opponent has successfully stripped your grip and their hands are now defending the ankle, their hip rotation has progressed to the point where your leg control is compromised, more than 5 seconds have passed without submission imminent, or their defensive position exposes a higher-percentage attack like the heel hook."
     },
     {
       "question": "Why is the Ankle Lock Finish valuable when heel hooks are available?",
-      "answer": "The Ankle Lock Finish provides a legal submission option across all rulesets including those restricting heel hooks. It also works when the opponent's hand fighting has successfully prevented heel exposure, or when the reversed configuration makes heel hook mechanics less favorable. Having both options creates offensive diversity that complicates the opponent's defensive priorities.",
-      "difficulty": "Intermediate"
+      "answer": "The Ankle Lock Finish provides a legal submission option across all rulesets including those restricting heel hooks. It also works when the opponent's hand fighting has successfully prevented heel exposure, or when the reversed configuration makes heel hook mechanics less favorable. Having both options creates offensive diversity that complicates the opponent's defensive priorities."
     }
   ],
   "safety_considerations": "The Ankle Lock Finish attacks the ankle joint and Achilles tendon, which can sustain serious injury if pressure is applied too quickly or without proper control. Always apply submission pressure gradually and tap immediately when caught - the ankle provides less warning before injury than larger joints. During training, stop at the first sign of discomfort from your partner and never 'crank' the finish. Be especially cautious with training partners who have previous ankle injuries. When drilling, practice the motion without pressure until mechanics are smooth, then add controlled pressure progressively. In competition, maintain awareness that the finishing pressure point arrives quickly - release immediately upon tap to prevent injury to your opponent.",
@@ -275,5 +250,6 @@
       "name": "Straight Ankle Lock",
       "relationship": "Related submission with similar mechanics"
     }
-  ]
+  ],
+  "success_rate": 58
 }

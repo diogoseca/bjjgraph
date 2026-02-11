@@ -157,7 +157,7 @@ This pass requires precise timing, as attempting to stack against a fully establ
 Strategically, the stack pass represents a commitment - once you drive forward, you cannot easily disengage without giving up position. This makes it critical to secure adequate leg control before initiating the stack. The technique works best as part of a pressure passing system where you've already forced the opponent to work hard maintaining their inversion, creating the fatigue that opens the stacking opportunity.
 
 **From Position**: [[Grasshopper Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg control**: Pin opponent's legs together by gripping behind both knees or controlling their ankles, preventing them from separating legs to create hooks or entanglements (Timing: Before initiating any forward pressure)
-2. **Lower your level**: Drop your hips and chest toward opponent, bringing your center of gravity low to generate maximum forward pressure while maintaining a stable, sprawled base (Timing: Immediately after securing leg control)
-3. **Drive forward**: Push your hips and chest forward into opponent's legs, beginning to fold their hips toward their face while walking your feet forward to maintain driving pressure (Timing: Continuous once initiated)
-4. **Stack the hips**: Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck (Timing: When you feel their resistance collapse)
-5. **Pin and redirect**: Use your shoulder pressure on their thighs or hips to pin them in the stacked position while you begin walking your hips to one side to clear their legs (Timing: Once stack is established)
-6. **Complete the pass**: Slide your hips past their legs to one side, transitioning to side control by establishing crossface and hip-to-hip contact as their legs fall away (Timing: When path to side control opens)
+1. **Secure leg control**: Pin opponent's legs together by gripping behind both knees or controlling their ankles, preventing them from separating legs to create hooks or entanglements
+2. **Lower your level**: Drop your hips and chest toward opponent, bringing your center of gravity low to generate maximum forward pressure while maintaining a stable, sprawled base
+3. **Drive forward**: Push your hips and chest forward into opponent's legs, beginning to fold their hips toward their face while walking your feet forward to maintain driving pressure
+4. **Stack the hips**: Continue driving until opponent's hips pass over their shoulders, compressing their spine into a folded position with their weight resting on their upper back and neck
+5. **Pin and redirect**: Use your shoulder pressure on their thighs or hips to pin them in the stacked position while you begin walking your hips to one side to clear their legs
+6. **Complete the pass**: Slide your hips past their legs to one side, transitioning to side control by establishing crossface and hip-to-hip contact as their legs fall away
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 ## Training Progressions
 **Week 1-2** - Stacking mechanics
 Practice the folding motion against a compliant partner, learning proper body positioning to drive hips over shoulders without relying on arm strength
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner holds grasshopper guard with 50% intensity, randomly allowing hip drops. Practice recognizing the window and initiating stack at the right moment
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts counters including leg threading and Granby rolls. Learn to maintain leg control through counters and adjust pass direction
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting with partner in grasshopper guard. Integrate stack pass into complete passing game with chain attacks
-(Resistance: Full)
 
 
 

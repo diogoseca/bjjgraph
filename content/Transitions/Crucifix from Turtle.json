@@ -11,11 +11,6 @@
     "crucifix",
     "arm_trap"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Crucifix from Turtle is a sophisticated back attack transition that capitalizes on your opponent's defensive turtle position. This technique involves controlling both of your opponent's arms while establishing back control, creating one of the most dominant positions in Brazilian Jiu-Jitsu. The crucifix offers exceptional control with minimal energy expenditure while presenting multiple submission opportunities including chokes, armbars, and joint locks. The transition requires precise timing and coordination, as you must simultaneously secure arm control while establishing your hooks. This position is particularly valuable in both gi and no-gi competition, as it effectively neutralizes your opponent's defensive capabilities while maximizing your offensive options. The crucifix from turtle represents a fundamental component of modern back attack systems.",
   "key_principles": [
     "Control one arm before attempting the transition to prevent defensive frames",
@@ -39,38 +34,32 @@
     {
       "step_number": 1,
       "action": "Establish initial arm control",
-      "description": "From turtle top position, secure control of your opponent's near-side arm by grabbing their wrist or triceps with your same-side hand. Drive your chest into their back while using your opposite hand to control their far shoulder or establish a cross-face. This initial control prevents them from posting and creates the foundation for your attack.",
-      "timing": "Execute when opponent commits weight forward onto their hands"
+      "description": "From turtle top position, secure control of your opponent's near-side arm by grabbing their wrist or triceps with your same-side hand. Drive your chest into their back while using your opposite hand to control their far shoulder or establish a cross-face. This initial control prevents them from posting and creates the foundation for your attack."
     },
     {
       "step_number": 2,
       "action": "Insert near-side hook",
-      "description": "While maintaining arm control, swing your near-side leg underneath their body and insert your foot as a hook on their near-side hip. Keep your knee tight to their ribs and use this hook to control their hip movement. Your hook should be deep enough to prevent them from sitting back but not so deep that you lose base for the subsequent steps.",
-      "timing": "Insert hook as opponent's weight shifts away from near side"
+      "description": "While maintaining arm control, swing your near-side leg underneath their body and insert your foot as a hook on their near-side hip. Keep your knee tight to their ribs and use this hook to control their hip movement. Your hook should be deep enough to prevent them from sitting back but not so deep that you lose base for the subsequent steps."
     },
     {
       "step_number": 3,
       "action": "Swim for far-side arm control",
-      "description": "Release your cross-face and immediately swim your free arm underneath their far armpit, catching their wrist or forearm. Pull this arm across their body toward you while maintaining pressure with your chest. This creates the characteristic crucifix arm trap where both arms are controlled and extended away from their body's centerline.",
-      "timing": "Swim for far arm immediately after establishing near hook"
+      "description": "Release your cross-face and immediately swim your free arm underneath their far armpit, catching their wrist or forearm. Pull this arm across their body toward you while maintaining pressure with your chest. This creates the characteristic crucifix arm trap where both arms are controlled and extended away from their body's centerline."
     },
     {
       "step_number": 4,
       "action": "Thread leg over shoulder",
-      "description": "Carefully bring your far-side leg over their far shoulder, threading it between their head and trapped far arm. Your shin should press against the back of their shoulder while your foot reaches toward their opposite hip. Maintain constant backward pressure to prevent them from pulling their arm free during this critical step.",
-      "timing": "Thread leg while pulling their far arm toward you for maximum extension"
+      "description": "Carefully bring your far-side leg over their far shoulder, threading it between their head and trapped far arm. Your shin should press against the back of their shoulder while your foot reaches toward their opposite hip. Maintain constant backward pressure to prevent them from pulling their arm free during this critical step."
     },
     {
       "step_number": 5,
       "action": "Establish perpendicular angle",
-      "description": "Adjust your body angle to become perpendicular to your opponent's spine, creating a 'T' shape when viewed from above. Your hips should be positioned alongside their ribs with your legs forming the crucifix configuration - one hook controlling the near hip and one leg trapping the far shoulder. This angle maximizes control while minimizing the opponent's escape options.",
-      "timing": "Establish angle before opponent can recover defensive posture"
+      "description": "Adjust your body angle to become perpendicular to your opponent's spine, creating a 'T' shape when viewed from above. Your hips should be positioned alongside their ribs with your legs forming the crucifix configuration - one hook controlling the near hip and one leg trapping the far shoulder. This angle maximizes control while minimizing the opponent's escape options."
     },
     {
       "step_number": 6,
       "action": "Consolidate control and attack",
-      "description": "Secure both arms by gripping their wrists or controlling their hands. Your bodyweight should be distributed to prevent rolling while maintaining the perpendicular angle. From here, you can attack with various submissions including the rear naked choke, armbar from crucifix, or wrist locks. Keep your hips heavy and maintain constant tension on both trapped arms throughout your attack sequence.",
-      "timing": "Attack submissions once position is fully stabilized"
+      "description": "Secure both arms by gripping their wrists or controlling their hands. Your bodyweight should be distributed to prevent rolling while maintaining the perpendicular angle. From here, you can attack with various submissions including the rear naked choke, armbar from crucifix, or wrist locks. Keep your hips heavy and maintain constant tension on both trapped arms throughout your attack sequence."
     }
   ],
   "common_counters": [
@@ -126,32 +115,27 @@
     {
       "phase": "Week 1-2: Position Familiarization",
       "focus": "Understanding the basic mechanics and body positioning",
-      "description": "Practice the transition in slow motion with a cooperative partner from static turtle position. Focus on the proper sequence of arm control, hook insertion, and leg threading. Partner should remain stationary to allow you to develop muscle memory for the correct angles and grips.",
-      "resistance_level": "None"
+      "description": "Practice the transition in slow motion with a cooperative partner from static turtle position. Focus on the proper sequence of arm control, hook insertion, and leg threading. Partner should remain stationary to allow you to develop muscle memory for the correct angles and grips."
     },
     {
       "phase": "Week 3-4: Dynamic Entry",
       "focus": "Executing the transition with movement and timing",
-      "description": "Partner begins adding small movements in turtle, requiring you to time your entry. Practice catching the position as they shift weight or attempt to stand. Work on maintaining control through their minor defensive movements while establishing the crucifix.",
-      "resistance_level": "Light"
+      "description": "Partner begins adding small movements in turtle, requiring you to time your entry. Practice catching the position as they shift weight or attempt to stand. Work on maintaining control through their minor defensive movements while establishing the crucifix."
     },
     {
       "phase": "Week 5-8: Counter Defense",
       "focus": "Maintaining position against common escape attempts",
-      "description": "Partner actively attempts to prevent the crucifix using common defenses such as sitting back, rolling forward, or pulling arms free. Learn to recognize and counter each defense while maintaining progression toward the crucifix position.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to prevent the crucifix using common defenses such as sitting back, rolling forward, or pulling arms free. Learn to recognize and counter each defense while maintaining progression toward the crucifix position."
     },
     {
       "phase": "Week 9-12: Submission Integration",
       "focus": "Attacking from established crucifix position",
-      "description": "Once crucifix control is established, practice transitioning to various submissions including rear naked choke, armbar, and wrist locks. Learn to maintain position stability while executing submissions and recover position if submission attempts fail.",
-      "resistance_level": "Medium"
+      "description": "Once crucifix control is established, practice transitioning to various submissions including rear naked choke, armbar, and wrist locks. Learn to maintain position stability while executing submissions and recover position if submission attempts fail."
     },
     {
       "phase": "Month 4+: Live Training",
       "focus": "Application against fully resisting opponents",
-      "description": "Implement the crucifix from turtle in live rolling scenarios. Start from turtle position with specific goal of achieving crucifix. Partner uses full resistance and all available escapes. Focus on timing, efficiency, and capitalizing on opponent's defensive reactions.",
-      "resistance_level": "Full"
+      "description": "Implement the crucifix from turtle in live rolling scenarios. Start from turtle position with specific goal of achieving crucifix. Partner uses full resistance and all available escapes. Focus on timing, efficiency, and capitalizing on opponent's defensive reactions."
     }
   ],
   "variants_and_adaptations": [
@@ -174,33 +158,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical element to establish before attempting to thread your leg over the opponent's shoulder in the crucifix from turtle?",
-      "answer": "Firm control of both of the opponent's arms is the most critical element. You must secure the near-side arm and swim for the far-side arm control before threading your leg. Attempting to thread the leg without controlling both arms will result in the opponent pulling their far arm free and escaping the position entirely.",
-      "difficulty": "Intermediate"
+      "answer": "Firm control of both of the opponent's arms is the most critical element. You must secure the near-side arm and swim for the far-side arm control before threading your leg. Attempting to thread the leg without controlling both arms will result in the opponent pulling their far arm free and escaping the position entirely."
     },
     {
       "question": "Why is establishing a perpendicular angle to your opponent's spine important in the crucifix position?",
-      "answer": "The perpendicular angle creates maximum leverage and control while minimizing the opponent's escape options. This 'T' shaped configuration prevents the opponent from rolling in either direction, makes it difficult for them to bridge, and distributes your weight optimally across their body. Staying parallel to their spine allows them to roll and potentially escape.",
-      "difficulty": "Advanced"
+      "answer": "The perpendicular angle creates maximum leverage and control while minimizing the opponent's escape options. This 'T' shaped configuration prevents the opponent from rolling in either direction, makes it difficult for them to bridge, and distributes your weight optimally across their body. Staying parallel to their spine allows them to roll and potentially escape."
     },
     {
       "question": "What should you do if your opponent begins to sit back to guard before you can establish your first hook?",
-      "answer": "You should follow them to seated guard while maintaining your initial arm control, then immediately work for back control or transition to a front headlock position. Use the arm control you've already established to prevent them from setting up effective guard grips. Do not try to force the crucifix against their momentum.",
-      "difficulty": "Intermediate"
+      "answer": "You should follow them to seated guard while maintaining your initial arm control, then immediately work for back control or transition to a front headlock position. Use the arm control you've already established to prevent them from setting up effective guard grips. Do not try to force the crucifix against their momentum."
     },
     {
       "question": "Which hook should typically be established first when executing the crucifix from turtle, and why?",
-      "answer": "The near-side hook should be established first because it provides the foundational control needed to stabilize your position while you work on controlling the far arm and threading your leg. The near-side hook prevents the opponent from sitting back to guard and gives you a stable base from which to execute the remaining steps of the technique.",
-      "difficulty": "Beginner"
+      "answer": "The near-side hook should be established first because it provides the foundational control needed to stabilize your position while you work on controlling the far arm and threading your leg. The near-side hook prevents the opponent from sitting back to guard and gives you a stable base from which to execute the remaining steps of the technique."
     },
     {
       "question": "What is the correct placement for your leg when threading over the opponent's shoulder in the crucifix position?",
-      "answer": "Your shin should press against the back of the opponent's shoulder blade, not over their head. Threading the leg over the shoulder joint rather than the head provides much more stable control and makes it significantly more difficult for the opponent to pull their trapped arm free. The leg should extend toward the opposite hip while maintaining constant pressure on the shoulder.",
-      "difficulty": "Intermediate"
+      "answer": "Your shin should press against the back of the opponent's shoulder blade, not over their head. Threading the leg over the shoulder joint rather than the head provides much more stable control and makes it significantly more difficult for the opponent to pull their trapped arm free. The leg should extend toward the opposite hip while maintaining constant pressure on the shoulder."
     },
     {
       "question": "Why is it important to consolidate the crucifix position fully before attempting submissions?",
-      "answer": "A properly established crucifix is one of the most dominant control positions in BJJ and is nearly inescapable when done correctly. Rushing to submissions before the position is fully consolidated often results in losing the position entirely during the submission attempt. Taking time to establish proper angles, arm control, and leg positioning ensures the opponent cannot escape, allowing you to attack submissions with minimal risk of losing position.",
-      "difficulty": "Advanced"
+      "answer": "A properly established crucifix is one of the most dominant control positions in BJJ and is nearly inescapable when done correctly. Rushing to submissions before the position is fully consolidated often results in losing the position entirely during the submission attempt. Taking time to establish proper angles, arm control, and leg positioning ensures the opponent cannot escape, allowing you to attack submissions with minimal risk of losing position."
     }
   ],
   "safety_considerations": "When practicing the crucifix from turtle, execute all movements with control and awareness of your partner's safety. The arm positions in crucifix place significant stress on the shoulder joints, so avoid yanking or jerking the trapped arms. When threading your leg over the partner's shoulder, do so slowly to prevent neck strain or sudden shoulder hyperextension. During submission attempts from crucifix, apply techniques progressively and release immediately upon tap. Partners should communicate clearly about discomfort in the shoulders or neck even before reaching the point of tapping. When drilling, start with zero resistance and gradually increase intensity over multiple training sessions. Be particularly cautious with wrist locks and shoulder attacks from this position, as the trapped arm position makes injuries more likely if techniques are applied explosively.",
@@ -284,5 +262,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

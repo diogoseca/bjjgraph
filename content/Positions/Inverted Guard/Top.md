@@ -382,11 +382,11 @@ Partner actively attempts single leg X, X-guard, and ashi garami entries from in
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 20% |
-| Intermediate | 60% | 55% | 35% |
-| Advanced     | 80% | 75% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 65% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 10-30 seconds to pass or opponent transitions out
 

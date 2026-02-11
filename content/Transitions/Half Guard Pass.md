@@ -157,7 +157,7 @@ The effectiveness of the half guard pass lies in understanding the bottom player
 Successful half guard passing requires a combination of technical precision, pressure application, and strategic decision-making. The passer must recognize which variation of half guard they're facing (traditional half guard, lockdown, knee shield, deep half, etc.) and adapt their passing strategy accordingly. This technique forms the foundation for more advanced passing systems and represents a critical skill progression from beginner to advanced levels, with success rates improving dramatically as practitioners develop better pressure, timing, and recognition of defensive reactions.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 80%
+**Success Rate**: 70%
 
 </section>
 
@@ -207,12 +207,12 @@ Successful half guard passing requires a combination of technical precision, pre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish upper body control**: From half guard top, immediately work to establish a strong crossface by driving your shoulder across opponent's face toward the far side of the mat. Alternatively, secure an underhook on the far side by swimming your arm underneath their arm and connecting your hands in a gable grip or seat belt configuration. Your chest should be heavy on their chest, limiting their ability to create frames or recover guard. (Timing: Initial setup - first 2-3 seconds of engagement)
-2. **Win the underhook battle**: If opponent has an underhook on your near side, address this immediately by either whizzering over their arm (overhooking) and driving your weight onto their shoulder, or by stripping their underhook using your crossface-side hand to peel their grip from your body. The underhook battle is critical - if opponent maintains the underhook, they can execute sweeps and back takes. Your goal is either to remove their underhook or neutralize its effectiveness through superior shoulder pressure. (Timing: Continuous battle throughout the pass)
-3. **Clear the knee shield (if present)**: If opponent establishes a knee shield frame with their top leg, use your crossface-side hand to control their knee, pushing it down toward the mat while simultaneously driving your hips forward. Alternatively, step your outside leg over their knee shield to establish a headquarters or knee slice position. Some advanced passers choose to go under the knee shield by lowering their hips and driving forward, but this requires excellent pressure and timing to avoid being swept. (Timing: Mid-pass, after establishing upper body dominance)
-4. **Attack the trapped leg**: Once upper body control is established and knee shield is addressed, focus on freeing your trapped leg. Drive your trapped leg's knee toward the mat while simultaneously using hip pressure to flatten opponent's bottom leg. Your trapped leg should begin to extract by pulling the knee up and back while keeping your heel tight to your buttocks. Maintain forward pressure with your chest to prevent opponent from following your hips as you extract. (Timing: After knee shield is cleared and upper body is secured)
-5. **Control the hips and prevent recovery**: As your leg begins to free, use your free hand to control opponent's far hip or pants, preventing them from following your movement or recovering full guard. Your crossface should intensify, driving their head away from you. Your hips should stay low and heavy, sprawling slightly to maintain downward pressure. This prevents opponent from sitting up or creating the angle needed for guard recovery. (Timing: During leg extraction)
-6. **Complete the pass to side control**: Once your leg is completely free from the half guard, immediately step it across to the far side of opponent's body, establishing side control position. Do not allow any space between your chest and their chest during this transition. Secure standard side control grips (underhook and crossface, or double underhooks, or head and arm position) and distribute your weight across their torso. Your hips should be heavy on their hip line, preventing them from recovering guard or creating frames. (Timing: Final phase - smooth transition to maintain control)
+1. **Establish upper body control**: From half guard top, immediately work to establish a strong crossface by driving your shoulder across opponent's face toward the far side of the mat. Alternatively, secure an underhook on the far side by swimming your arm underneath their arm and connecting your hands in a gable grip or seat belt configuration. Your chest should be heavy on their chest, limiting their ability to create frames or recover guard.
+2. **Win the underhook battle**: If opponent has an underhook on your near side, address this immediately by either whizzering over their arm (overhooking) and driving your weight onto their shoulder, or by stripping their underhook using your crossface-side hand to peel their grip from your body. The underhook battle is critical - if opponent maintains the underhook, they can execute sweeps and back takes. Your goal is either to remove their underhook or neutralize its effectiveness through superior shoulder pressure.
+3. **Clear the knee shield (if present)**: If opponent establishes a knee shield frame with their top leg, use your crossface-side hand to control their knee, pushing it down toward the mat while simultaneously driving your hips forward. Alternatively, step your outside leg over their knee shield to establish a headquarters or knee slice position. Some advanced passers choose to go under the knee shield by lowering their hips and driving forward, but this requires excellent pressure and timing to avoid being swept.
+4. **Attack the trapped leg**: Once upper body control is established and knee shield is addressed, focus on freeing your trapped leg. Drive your trapped leg's knee toward the mat while simultaneously using hip pressure to flatten opponent's bottom leg. Your trapped leg should begin to extract by pulling the knee up and back while keeping your heel tight to your buttocks. Maintain forward pressure with your chest to prevent opponent from following your hips as you extract.
+5. **Control the hips and prevent recovery**: As your leg begins to free, use your free hand to control opponent's far hip or pants, preventing them from following your movement or recovering full guard. Your crossface should intensify, driving their head away from you. Your hips should stay low and heavy, sprawling slightly to maintain downward pressure. This prevents opponent from sitting up or creating the angle needed for guard recovery.
+6. **Complete the pass to side control**: Once your leg is completely free from the half guard, immediately step it across to the far side of opponent's body, establishing side control position. Do not allow any space between your chest and their chest during this transition. Secure standard side control grips (underhook and crossface, or double underhooks, or head and arm position) and distribute your weight across their torso. Your hips should be heavy on their hip line, preventing them from recovering guard or creating frames.
 
 
 </section>
@@ -259,27 +259,21 @@ Successful half guard passing requires a combination of technical precision, pre
 ## Training Progressions
 **Week 1-2: Fundamental mechanics** - Learning basic crossface and underhook control from half guard top
 Begin with compliant partner allowing you to establish position. Practice achieving crossface and controlling opponent's head, then work on securing underhook on far side. Drill the feeling of proper chest pressure and hip positioning. Partner should remain relatively static, allowing you to develop muscle memory for correct body positioning. Focus on one detail at a time rather than trying to complete full passes.
-(Resistance: None)
 
 **Week 3-4: Leg extraction mechanics** - Developing proper technique for freeing trapped leg
 With partner maintaining passive half guard, practice the mechanics of leg extraction while maintaining upper body control. Focus on hip positioning, knee angle, and timing of leg withdrawal. Partner should hold half guard but not actively defend or attempt sweeps. Learn to feel when your leg is positioned correctly to slide free versus when you're trapped and need to adjust your hips.
-(Resistance: Light)
 
 **Week 5-8: Defending common counters** - Learning to recognize and address underhook battles, knee shields, and lockdowns
 Partner now actively uses defensive frames including knee shield, underhook attempts, and lockdown control. Practice recognizing each defensive structure and applying appropriate counter-techniques. Begin to understand which passing variations work best against each type of half guard. Partner uses defense but does not attempt sweeps or submissions.
-(Resistance: Medium)
 
 **Week 9-12: Dealing with sweep attempts** - Maintaining base and pressure while partner attempts sweeps
 Partner now actively attempts to sweep from half guard using various techniques. Practice maintaining your base, recognizing sweep attempts early, and adjusting your pressure and positioning to defend while continuing your pass. Learn to time your passing sequences between opponent's offensive attempts. Develop sensitivity to when you're vulnerable versus when you can push forward with the pass.
-(Resistance: Medium)
 
 **Month 4-6: Competition-level passing** - Completing passes against full resistance and chaining multiple passing sequences
 Partner uses full resistance including all defensive techniques, sweeps, and submission attempts from bottom half guard. Practice completing the pass while defending everything opponent throws at you. Develop the ability to chain multiple passing approaches together - if one is defended, flow immediately to another. Work on timing, pressure adjustment, and reading opponent's weight distribution to find passing opportunities.
-(Resistance: Full)
 
 **Ongoing: Situational sparring** - Starting every roll from half guard top position
 Regularly practice specific sparring starting from half guard top with various partners of different skill levels, body types, and half guard specialties. This develops your ability to adapt your passing to different opponents and styles. Track which passing sequences work best for you against different defensive styles and continue refining your highest-percentage techniques while developing backup options.
-(Resistance: Full)
 
 
 

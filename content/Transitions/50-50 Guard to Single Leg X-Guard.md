@@ -157,7 +157,7 @@ This transition is particularly valuable when facing opponents with superior hee
 Timing is critical for this transition. The optimal window occurs when opponent focuses on attacking your heel or when they momentarily release hip pressure to adjust their position. The movement requires coordinated leg extraction, hip repositioning, and immediate hook establishment to prevent opponent from following into your new position or returning to neutral.
 
 **From Position**: [[50-50 Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Timing is critical for this transition. The optimal window occurs when opponent 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Defend heel and control ankle**: Ensure your heel is hidden by rotating knee inward. Establish two-handed grip on opponent's ankle or Achilles area to control their leg throughout the transition. (Timing: Before initiating any movement)
-2. **Hip escape to create angle**: Execute a strong hip escape away from opponent, driving your hips toward their trapped foot side. This creates the space needed to begin extracting your outside leg from the entanglement. (Timing: When opponent reaches for heel or shifts weight)
-3. **Extract outside leg**: While maintaining hip escape angle, pull your outside leg free from the 50-50 configuration by straightening it and sliding it underneath opponent's trapped leg. (Timing: Immediately following hip escape)
-4. **Establish butterfly hook**: As your leg clears, immediately position your foot as a butterfly hook behind opponent's knee on their trapped leg side. This hook becomes your primary control point. (Timing: Before opponent can react to leg extraction)
-5. **Position inside leg as X-hook**: Your inside leg (previously in 50-50 configuration) transitions to cross behind opponent's heel, creating the characteristic X-Guard hook configuration with foot on hip or inner thigh. (Timing: Coordinated with butterfly hook establishment)
-6. **Secure Single Leg X-Guard**: Finalize the position by ensuring both hooks are secure, ankle grip is maintained, and your hips are positioned underneath opponent's base. You should now be in a strong Single Leg X-Guard ready to sweep. (Timing: Complete within 2-3 seconds of initial movement)
+1. **Defend heel and control ankle**: Ensure your heel is hidden by rotating knee inward. Establish two-handed grip on opponent's ankle or Achilles area to control their leg throughout the transition.
+2. **Hip escape to create angle**: Execute a strong hip escape away from opponent, driving your hips toward their trapped foot side. This creates the space needed to begin extracting your outside leg from the entanglement.
+3. **Extract outside leg**: While maintaining hip escape angle, pull your outside leg free from the 50-50 configuration by straightening it and sliding it underneath opponent's trapped leg.
+4. **Establish butterfly hook**: As your leg clears, immediately position your foot as a butterfly hook behind opponent's knee on their trapped leg side. This hook becomes your primary control point.
+5. **Position inside leg as X-hook**: Your inside leg (previously in 50-50 configuration) transitions to cross behind opponent's heel, creating the characteristic X-Guard hook configuration with foot on hip or inner thigh.
+6. **Secure Single Leg X-Guard**: Finalize the position by ensuring both hooks are secure, ankle grip is maintained, and your hips are positioned underneath opponent's base. You should now be in a strong Single Leg X-Guard ready to sweep.
 
 
 </section>
@@ -252,19 +252,15 @@ Timing is critical for this transition. The optimal window occurs when opponent 
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice leg extraction and hook placement mechanics from static 50-50 position. Partner provides no resistance. Focus on understanding the hip escape angle and hook placement sequence.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner simulates reaching for heel attacks while you identify timing windows. Practice recognizing when opponent commits to attack and executing transition in that moment.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the transition with Single Leg X-Guard sweeps and technical stand-ups. Add contingencies for when transition fails and you must return to 50-50 defense.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate into live rolling starting from 50-50 bottom. Test against training partners with strong leg lock games. Develop intuitive timing recognition.
-(Resistance: Full)
 
 
 

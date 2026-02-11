@@ -367,11 +367,11 @@ Start in truck bottom with partner providing light control (25% resistance). Pra
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 15% |
-| Intermediate | 30% | 40% | 25% |
-| Advanced     | 50% | 60% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 50% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 20-45 seconds (high urgency position requiring immediate action)
 

@@ -157,7 +157,7 @@ The Arm Extraction serves as a critical gateway technique connecting bottom side
 This escape is particularly effective against pressure-based top players who prioritize chest pressure over weight distribution. The technique's success depends on proper frame placement, shoulder rotation mechanics, and the ability to maintain defensive posture throughout the extraction sequence. Mastery of arm extraction fundamentally improves survival rates under side control and provides essential defensive foundations for all skill levels.
 
 **From Position**: [[Side Control/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -207,12 +207,12 @@ This escape is particularly effective against pressure-based top players who pri
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frames**: From bottom side control, immediately establish frames using the near-side arm against opponent's hip or shoulder. Place the far-side hand on the opponent's near-side shoulder or bicep. Create maximum distance between your shoulder and the mat by using these frames to prevent opponent from settling their full weight. Your elbows should be tight to your body, creating a structural frame rather than extended arms that can be collapsed. (Timing: Immediately upon being taken to side control)
-2. **Identify the trapped arm**: Determine which arm is most compromised—typically the arm caught in an underhook or trapped by a crossface. This is your primary extraction target. The trapped arm is usually on the side where opponent's chest makes contact with yours. Assess whether you're dealing with an underhook (opponent's arm under yours) or crossface (opponent's arm across your face). This determines your extraction angle. (Timing: During initial defensive assessment)
-3. **Create shoulder rotation space**: Using your frames, push and create a small gap between your shoulder and the mat. Simultaneously turn your shoulders toward the opponent, rotating your trapped-side shoulder upward and away from the mat. This rotation is subtle—only 2-3 inches of movement—but critical for creating extraction space. Maintain constant frame pressure throughout this rotation to prevent opponent from following your movement and closing the gap. (Timing: As opponent commits pressure forward)
-4. **Extract the trapped arm**: Pull your elbow tight to your ribs and rotate your forearm to create a wedge. Drive your forearm across your centerline, threading it between your chest and opponent's chest. As the elbow clears, immediately bring your hand to your opposite shoulder, creating a strong defensive frame across your chest. Your extracted arm should move in a circular motion—elbow in first, then forearm and hand. Do not attempt to push opponent away with this arm; instead, use it to create a barrier. (Timing: Immediately after shoulder rotation creates space)
-5. **Insert knee shield or frame**: With the arm now extracted and framing across your chest, use this structure to create more space for hip escape. Simultaneously shrimp your hips away from opponent and work to insert your bottom knee between your bodies. If the knee insertion is blocked, use the newly created arm frame to maintain distance while you continue working for guard recovery position. Your goal is to get either a knee shield or full guard closure. (Timing: Continuously throughout the escape sequence)
-6. **Recover guard position**: Once the knee is inserted, immediately work to establish a guard position—either closed guard, knee shield, or butterfly guard depending on opponent's response. Use your frames to prevent opponent from driving forward and re-establishing side control. Connect your hands to control opponent's collar, sleeves, or head position. Secure your guard by either closing it fully or establishing hook/knee shield retention. Do not release defensive frames until your guard structure is completely established. (Timing: As soon as knee creates sufficient barrier)
+1. **Establish defensive frames**: From bottom side control, immediately establish frames using the near-side arm against opponent's hip or shoulder. Place the far-side hand on the opponent's near-side shoulder or bicep. Create maximum distance between your shoulder and the mat by using these frames to prevent opponent from settling their full weight. Your elbows should be tight to your body, creating a structural frame rather than extended arms that can be collapsed.
+2. **Identify the trapped arm**: Determine which arm is most compromised—typically the arm caught in an underhook or trapped by a crossface. This is your primary extraction target. The trapped arm is usually on the side where opponent's chest makes contact with yours. Assess whether you're dealing with an underhook (opponent's arm under yours) or crossface (opponent's arm across your face). This determines your extraction angle.
+3. **Create shoulder rotation space**: Using your frames, push and create a small gap between your shoulder and the mat. Simultaneously turn your shoulders toward the opponent, rotating your trapped-side shoulder upward and away from the mat. This rotation is subtle—only 2-3 inches of movement—but critical for creating extraction space. Maintain constant frame pressure throughout this rotation to prevent opponent from following your movement and closing the gap.
+4. **Extract the trapped arm**: Pull your elbow tight to your ribs and rotate your forearm to create a wedge. Drive your forearm across your centerline, threading it between your chest and opponent's chest. As the elbow clears, immediately bring your hand to your opposite shoulder, creating a strong defensive frame across your chest. Your extracted arm should move in a circular motion—elbow in first, then forearm and hand. Do not attempt to push opponent away with this arm; instead, use it to create a barrier.
+5. **Insert knee shield or frame**: With the arm now extracted and framing across your chest, use this structure to create more space for hip escape. Simultaneously shrimp your hips away from opponent and work to insert your bottom knee between your bodies. If the knee insertion is blocked, use the newly created arm frame to maintain distance while you continue working for guard recovery position. Your goal is to get either a knee shield or full guard closure.
+6. **Recover guard position**: Once the knee is inserted, immediately work to establish a guard position—either closed guard, knee shield, or butterfly guard depending on opponent's response. Use your frames to prevent opponent from driving forward and re-establishing side control. Connect your hands to control opponent's collar, sleeves, or head position. Secure your guard by either closing it fully or establishing hook/knee shield retention. Do not release defensive frames until your guard structure is completely established.
 
 
 </section>
@@ -258,27 +258,21 @@ This escape is particularly effective against pressure-based top players who pri
 ## Training Progressions
 **Week 1-2: Frame Establishment and Shoulder Rotation** - Developing proper defensive frames and understanding shoulder rotation mechanics
 Partner begins in side control with moderate pressure. Bottom person practices establishing frames and creating shoulder rotation without attempting full extraction. Focus on maintaining elbow-knee connection and turning shoulders toward opponent. Partner provides steady pressure but does not actively counter. Drill 10 repetitions per side, holding each frame position for 5 seconds.
-(Resistance: Light)
 
 **Week 3-4: Arm Extraction Mechanics** - Learning the precise movement pattern of arm extraction with minimal resistance
 From established side control, practice the full arm extraction sequence with cooperative partner. Partner maintains position but does not increase pressure or counter the escape. Focus on the circular motion of the elbow, proper threading angle, and immediate frame establishment after extraction. Complete 15 repetitions per side, emphasizing technical precision over speed.
-(Resistance: Light)
 
 **Week 5-8: Integration with Guard Recovery** - Connecting arm extraction to complete guard recovery sequence
 Practice the full escape from side control to closed guard or knee shield position. Partner provides moderate resistance and attempts to maintain side control but does not counter-attack with submissions or transitions. Bottom person must successfully extract arm, create frames, shrimp hips, insert knee, and establish guard. Perform 20 repetitions per side, alternating between closed guard and knee shield recovery targets.
-(Resistance: Medium)
 
 **Week 9-12: Countering Opponent Responses** - Dealing with common counters and maintaining technique under pressure
 Partner now actively attempts to counter the escape using the common counters listed in this technique. Bottom person must recognize the counter and apply appropriate response. Include drilling against north-south transitions, increased pressure, underhook establishment, and attempts to take mount. Each training session should focus on 2-3 specific counters. Perform 5-minute rounds of positional sparring from side control.
-(Resistance: Medium)
 
 **Week 13-16: Live Application and Timing Development** - Executing the technique during live rolling with proper timing recognition
 Incorporate the arm extraction into regular sparring sessions. Focus on recognizing when opponent's pressure creates the optimal window for extraction versus when alternative escapes are more appropriate. Practice making real-time decisions about which escape pathway to use. Begin rounds from side control bottom position with full resistance for 3-minute rounds. Track success rate and identify situations where the technique succeeds or fails.
-(Resistance: Full)
 
 **Ongoing: Advanced Applications and Chain Escapes** - Combining arm extraction with other escapes and developing adaptive responses
 Practice flowing between arm extraction and other side control escapes (bridge and roll, elbow-knee escape, ghost escape) based on opponent's reactions. Develop the ability to start one escape, recognize it's being countered, and immediately switch to another pathway. This phase never ends—continue refining the technique and expanding your defensive vocabulary. Focus on making escapes more efficient, reducing energy expenditure, and increasing success rate against increasingly skilled opponents.
-(Resistance: Full)
 
 
 

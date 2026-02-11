@@ -163,7 +163,7 @@ The effectiveness of the double leg finish lies in its directness and mechanical
 Mastery of the double leg finish is essential for any grappler's takedown game, as the entry without a solid finish leaves the practitioner vulnerable to guillotine chokes, sprawls, and scrambles. The finish must be practiced with emphasis on maintaining connection throughout the motion, controlling the opponent's landing, and immediately transitioning to dominant position without allowing guard establishment or re-guarding opportunities.
 
 **From Position**: [[Clinch/Top]]
-**Success Rates**: Beginner 55%, Intermediate 75%, Advanced 88%
+**Success Rate**: 82%
 
 </section>
 
@@ -212,13 +212,13 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the grip connection**: Ensure your hands are tightly clasped behind both of the opponent's knees with your forearms pressing into the back of their legs. Your head should be positioned firmly against their torso, typically at hip level, creating a strong structural connection. Verify that your shoulders are lower than their hips and your spine maintains proper alignment for the upcoming explosive movement. (Timing: Immediately following successful penetration)
-2. **Initiate hip extension drive**: Begin explosive hip extension by driving forcefully through your legs while simultaneously lifting with your arms. Your hips should thrust forward and upward, transferring energy through your torso into the opponent's legs. Maintain constant pressure with your head against their body to prevent space creation. The power comes from your legs driving into the mat, not from pulling with your arms alone. (Timing: Explosive movement coordinated with breath)
-3. **Angle and elevate**: As you drive forward, angle your trajectory to move the opponent's hips backward while their shoulders move toward the mat. Continue lifting their legs higher while your head drives into their torso, creating the falling motion. Your feet should step forward in short, powerful steps maintaining base and drive rather than standing fully upright which compromises leverage. (Timing: Continuous motion from step 2)
-4. **Control the rotation**: As the opponent begins to fall, control their rotation to ensure they land on their back or side rather than their knees. Adjust your grip and head pressure to guide the landing - if they land toward their side, you're already positioned for side control; if they land flat on their back, you can choose mount or side control. Avoid releasing your grip prematurely which allows escape opportunities. (Timing: As opponent's weight passes the tipping point)
-5. **Manage the landing**: Control the opponent's descent to the mat by maintaining your grip and adjusting your body position. Step your legs wide around their body as they land to prevent guard closure. Keep your weight distributed to control their hips and shoulders simultaneously. If finishing to side control, immediately shift your weight to establish crossface and hip control. If finishing to mount, step over as they land and establish hooks. (Timing: Coordinated with opponent's landing)
-6. **Establish dominant position**: Immediately upon landing, release the leg grip and transition to position-specific controls. For side control, establish crossface with one arm, control the far hip with the other, and distribute your weight across their chest and hips. For mount, secure hooks and establish posture control. Do not pause or hesitate - continuous motion prevents opponent from establishing defensive frames or initiating guard recovery sequences. (Timing: Immediate transition without pause)
-7. **Consolidate position**: Settle your weight and refine your controls to eliminate any space or movement opportunities. In side control, ensure proper weight distribution, head control, and hip pressure. From mount, establish strong base with knees tight, posture controlled, and weight properly distributed. Be prepared to counter immediate escape attempts with appropriate position maintenance techniques. Your goal is complete positional control within 2-3 seconds of landing. (Timing: Within 2-3 seconds of landing)
+1. **Secure the grip connection**: Ensure your hands are tightly clasped behind both of the opponent's knees with your forearms pressing into the back of their legs. Your head should be positioned firmly against their torso, typically at hip level, creating a strong structural connection. Verify that your shoulders are lower than their hips and your spine maintains proper alignment for the upcoming explosive movement.
+2. **Initiate hip extension drive**: Begin explosive hip extension by driving forcefully through your legs while simultaneously lifting with your arms. Your hips should thrust forward and upward, transferring energy through your torso into the opponent's legs. Maintain constant pressure with your head against their body to prevent space creation. The power comes from your legs driving into the mat, not from pulling with your arms alone.
+3. **Angle and elevate**: As you drive forward, angle your trajectory to move the opponent's hips backward while their shoulders move toward the mat. Continue lifting their legs higher while your head drives into their torso, creating the falling motion. Your feet should step forward in short, powerful steps maintaining base and drive rather than standing fully upright which compromises leverage.
+4. **Control the rotation**: As the opponent begins to fall, control their rotation to ensure they land on their back or side rather than their knees. Adjust your grip and head pressure to guide the landing - if they land toward their side, you're already positioned for side control; if they land flat on their back, you can choose mount or side control. Avoid releasing your grip prematurely which allows escape opportunities.
+5. **Manage the landing**: Control the opponent's descent to the mat by maintaining your grip and adjusting your body position. Step your legs wide around their body as they land to prevent guard closure. Keep your weight distributed to control their hips and shoulders simultaneously. If finishing to side control, immediately shift your weight to establish crossface and hip control. If finishing to mount, step over as they land and establish hooks.
+6. **Establish dominant position**: Immediately upon landing, release the leg grip and transition to position-specific controls. For side control, establish crossface with one arm, control the far hip with the other, and distribute your weight across their chest and hips. For mount, secure hooks and establish posture control. Do not pause or hesitate - continuous motion prevents opponent from establishing defensive frames or initiating guard recovery sequences.
+7. **Consolidate position**: Settle your weight and refine your controls to eliminate any space or movement opportunities. In side control, ensure proper weight distribution, head control, and hip pressure. From mount, establish strong base with knees tight, posture controlled, and weight properly distributed. Be prepared to counter immediate escape attempts with appropriate position maintenance techniques. Your goal is complete positional control within 2-3 seconds of landing.
 
 
 </section>
@@ -268,27 +268,21 @@ Mastery of the double leg finish is essential for any grappler's takedown game, 
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic motion patterns and body mechanics without resistance
 Practice the finish motion with compliant partner starting from established penetration position. Focus on proper trajectory angle, hip extension timing, and controlled landing. Partner should allow the technique to complete while you develop muscle memory for the movement pattern. Emphasize quality of motion over speed or power.
-(Resistance: None)
 
 **Week 3-4: Controlled Resistance** - Executing finish against light defensive reactions
 Partner provides 25-30% resistance including light sprawl attempts, hand posting, and base maintenance. Practice adjusting technique based on defensive reactions while maintaining technical principles. Begin incorporating the full sequence from penetration through position establishment. Increase repetitions to build conditioning specific to the movement.
-(Resistance: Light)
 
 **Week 5-8: Situational Drilling** - Finish variations and counter responses
 Train different finish variations (lift-and-dump, drive-through, trip finish) based on partner's weight and defensive structure. Partner provides 50% resistance with specific defensive scenarios: guillotine attempts, whizzer control, sprawl defense. Practice appropriate adjustments and counters to each defense. Begin live finishing from established penetration position.
-(Resistance: Medium)
 
 **Week 9-12: Integration and Timing** - Complete takedown sequence from entry to position
 Practice entire double leg sequence from setup through entry, penetration, finish, and position establishment. Partner provides realistic but controlled resistance (70-80%) allowing technique refinement under pressure. Focus on timing of finish relative to entry, maintaining connection throughout transition, and immediate position consolidation. Include common scramble situations and recovery options.
-(Resistance: Medium)
 
 **Week 13+: Live Application** - Full resistance integration into sparring
 Execute double leg finishes during live wrestling and BJJ sparring sessions. Start from standing position with full resistance, competing for grips, entries, and finishes. Develop timing, setup variations, and chain wrestling connections. Track success rate and identify specific situations where finish fails to address in future training. Video review recommended for technical refinement.
-(Resistance: Full)
 
 **Ongoing: Specialization and Refinement** - Advanced variations and high-level troubleshooting
 Develop personal preferences for finish variations based on body type and style. Work on specialized scenarios: finishing against larger opponents, finishing in gi vs no-gi, finishing against specific defensive structures. Incorporate double leg finish as part of broader takedown system with seamless transitions to other techniques. Study high-level competition footage for technical nuances and situational applications.
-(Resistance: Full)
 
 
 
@@ -362,7 +356,7 @@ The double leg finish also integrates defensively within the scrambling system. 
 
 - [[Double Leg Entry]] - Prerequisite technique - establishes the penetration position from which the finish is executed
 - [[Double Leg Setup]] - Prerequisite setup phase - creates the opportunity for entry and finish through grip fighting and angle creation
-- [[Single Leg Finish]] - Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure
+- [[Single Leg Takedown]] - Alternative finishing technique - shares similar mechanical principles but from single leg rather than double leg structure
 - [[High Crotch]] - Related entry variation - can transition to double leg finish mechanics with modified grip structure
 - [[Body Lock Pass]] - Similar driving mechanics - uses comparable hip extension and forward pressure principles in different context
 - [[Side Control to Mount]] - Follow-up transition - alternative positional outcome after successful double leg finish

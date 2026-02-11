@@ -363,11 +363,11 @@ From established cross ashi bottom position, partner deliberately creates openin
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 5% |
-| Intermediate | 45% | 40% | 15% |
-| Advanced     | 60% | 55% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 48% |
+| Submission Probability | 22% |
 
 **Average Time in Position**: 20-45 seconds
 

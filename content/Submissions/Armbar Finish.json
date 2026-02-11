@@ -13,11 +13,6 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint (hyperextension)",
   "starting_position": "Armbar Control",
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Armbar Finish represents the critical final phase of any armbar variation, where positional control transitions into submission completion. This fundamental finishing sequence applies across all armbar positions—from mount, guard, side control, or back control. The finish itself is remarkably simple mechanically: isolate the arm, control the shoulder, elevate the hips, and apply rotational pressure to hyperextend the elbow joint. However, achieving a clean finish requires precise technical execution and deep understanding of leverage mechanics. The difference between beginners who allow escapes and advanced practitioners who finish consistently lies not in strength, but in control point management, timing, and systematic application of pressure. A proper armbar finish creates an inescapable dilemma where the opponent must tap or risk serious injury to their elbow ligaments and connective tissue.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Secure wrist control with both hands",
       "description": "Grip opponent's wrist with both hands, pulling it tight to your chest. Your grip should position their thumb pointing upward (palm facing away from you). This supinated position aligns the elbow joint for maximum vulnerability to hyperextension. Keep constant pulling pressure toward your sternum.",
-      "timing": "Establish immediately upon arm isolation",
-      "pressure_level": "Firm"
+      "timing": "Establish immediately upon arm isolation"
     },
     {
       "step_number": 2,
       "action": "Pinch knees together to trap arm",
       "description": "Squeeze your knees together powerfully, creating a vice-like trap around opponent's isolated arm. This knee pinch prevents them from pulling their elbow back to their centerline. The leg across their chest should apply downward pressure while the leg over their face controls head position and prevents forward rolling escapes.",
-      "timing": "Continuous throughout finish",
-      "pressure_level": "Maximum"
+      "timing": "Continuous throughout finish"
     },
     {
       "step_number": 3,
       "action": "Position wrist at your centerline",
       "description": "Pull opponent's wrist directly to the center of your chest, creating a straight line from their shoulder through their elbow to your hips. This alignment maximizes leverage and prevents them from creating angles that reduce pressure. Keep their arm as straight as possible with constant pulling pressure.",
-      "timing": "Before hip elevation begins",
-      "pressure_level": "Firm"
+      "timing": "Before hip elevation begins"
     },
     {
       "step_number": 4,
       "action": "Bridge hips upward toward ceiling",
       "description": "Drive your hips explosively upward while keeping their wrist locked to your chest. The hip elevation creates a fulcrum at their elbow joint—your hips become the lever arm while their shoulder serves as the anchor point. Focus on vertical lift, not lateral movement. The higher your hips, the greater the mechanical advantage.",
-      "timing": "Progressive increase over 3-5 seconds in training",
-      "pressure_level": "Moderate"
+      "timing": "Progressive increase over 3-5 seconds in training"
     },
     {
       "step_number": 5,
       "action": "Rotate hips slightly toward opponent's head",
       "description": "After achieving hip elevation, add a subtle rotational component by turning your hips slightly toward their head. This rotation increases pressure on the elbow joint while simultaneously preventing them from hitchhiker escaping (rotating their thumb down). The combination of elevation and rotation creates inescapable mechanical pressure.",
-      "timing": "Final adjustment as pressure builds",
-      "pressure_level": "Moderate"
+      "timing": "Final adjustment as pressure builds"
     },
     {
       "step_number": 6,
       "action": "Maintain control until tap",
       "description": "Hold this position with steady pressure until you receive a clear tap signal. In training, apply pressure gradually over 3-5 seconds. In competition, you may accelerate the finish but never spike or jerk the submission. Keep your head up and eyes on opponent to immediately recognize tap signals. Release instantly upon any tap.",
-      "timing": "Hold until tap or release signal",
-      "pressure_level": "Firm"
+      "timing": "Hold until tap or release signal"
     }
   ],
   "opponent_defense_patterns": [
@@ -155,38 +144,32 @@
     {
       "error": "Jerking or spiking the armbar explosively",
       "consequence": "Causes immediate elbow injury to training partner, destroys training culture, results in no training partners willing to roll with you",
-      "correction": "Always apply armbar pressure progressively over 3-5 seconds minimum in training. Build pressure gradually, allowing partner to tap before injury occurs. Save explosive finishes for competition only.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply armbar pressure progressively over 3-5 seconds minimum in training. Build pressure gradually, allowing partner to tap before injury occurs. Save explosive finishes for competition only."
     },
     {
       "error": "Failing to control opponent's shoulder with legs",
       "consequence": "Opponent rotates their shoulder away, creating angle that reduces pressure and enables escape",
-      "correction": "Keep leg across chest applying constant downward pressure. This pins their shoulder to the mat and prevents rotation. Your knee should be tight to their armpit, creating a seal that prevents shoulder movement.",
-      "danger_level": "Medium"
+      "correction": "Keep leg across chest applying constant downward pressure. This pins their shoulder to the mat and prevents rotation. Your knee should be tight to their armpit, creating a seal that prevents shoulder movement."
     },
     {
       "error": "Positioning wrist too far from centerline",
       "consequence": "Creates angles that reduce leverage advantage, allows opponent to generate escape momentum",
-      "correction": "Pull wrist directly to the center of your chest, not off to one side. Imagine a straight line from their shoulder through their elbow to your sternum. This alignment maximizes mechanical advantage.",
-      "danger_level": "Low"
+      "correction": "Pull wrist directly to the center of your chest, not off to one side. Imagine a straight line from their shoulder through their elbow to your sternum. This alignment maximizes mechanical advantage."
     },
     {
       "error": "Failing to elevate hips high enough",
       "consequence": "Insufficient pressure on elbow joint, allows opponent to maintain defensive posture and potentially escape",
-      "correction": "Drive hips as high as possible toward the ceiling. Think about trying to touch your hips to the ceiling—this maximizes the fulcrum effect at their elbow. The higher your hips, the less they can resist.",
-      "danger_level": "Medium"
+      "correction": "Drive hips as high as possible toward the ceiling. Think about trying to touch your hips to the ceiling—this maximizes the fulcrum effect at their elbow. The higher your hips, the less they can resist."
     },
     {
       "error": "Releasing wrist control during finish",
       "consequence": "Opponent immediately pulls arm free and escapes, all positional control is lost",
-      "correction": "Maintain death grip on their wrist throughout the entire finish. Your hands should be the last thing to release, and only after receiving a clear tap signal. Wrist control is non-negotiable.",
-      "danger_level": "Medium"
+      "correction": "Maintain death grip on their wrist throughout the entire finish. Your hands should be the last thing to release, and only after receiving a clear tap signal. Wrist control is non-negotiable."
     },
     {
       "error": "Allowing opponent's thumb to rotate downward (hitchhiker)",
       "consequence": "Opponent creates angle that reduces elbow pressure and enables escape or reversal",
-      "correction": "Keep opponent's thumb pointing toward ceiling at all times. If they begin rotating, immediately rotate your hips in the same direction to counter. Or transition to belly-down armbar where thumb position is irrelevant.",
-      "danger_level": "High"
+      "correction": "Keep opponent's thumb pointing toward ceiling at all times. If they begin rotating, immediately rotate your hips in the same direction to counter. Or transition to belly-down armbar where thumb position is irrelevant."
     }
   ],
   "variations_and_setups": [
@@ -273,50 +256,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Week 1-2)",
-      "timeframe": "First 2 weeks",
-      "focus": "Understanding mechanics, leverage points, and safety protocols without any resistance",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner remains completely passive. Focus on slow-motion execution, identifying control points (wrist, shoulder, hips), and practicing progressive pressure application. Drill tap recognition by having partner tap at various points. Emphasize that this is joint lock training requiring maximum care."
-    },
-    {
-      "phase": "Positional Control Development (Week 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Establishing armbar control position from various setups (mount, guard, side control) before attempting finish",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner provides mild resistance during setup only, becoming passive once armbar position is achieved. Practice establishing all control points before attempting finish. Drill release protocol repeatedly. Maintain 5-second minimum application time."
-    },
-    {
-      "phase": "Finish Mechanics with Control (Week 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Perfecting hip elevation, wrist position, and knee pinch during finish phase",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner may defend initial setup but allows controlled finish. Practice countering common defenses (hitchhiker, elbow pull) with proper technical adjustments rather than force. Continue 5-second application minimum. Partner must have clear tap access at all times."
-    },
-    {
-      "phase": "Defense Recognition and Counters (Week 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Recognizing and countering defensive patterns while maintaining finish safety",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner provides realistic defensive resistance including hitchhiker, stacking, and grip fighting. Practice transitioning between armbar variations when primary finish is defended. Maintain communication throughout—partner should call out when pressure approaches tap threshold. Reduce application time to 3-4 seconds as control improves."
-    },
-    {
-      "phase": "Live Integration (Week 13+)",
-      "timeframe": "Week 13 and beyond",
-      "focus": "Incorporating armbar finish into live rolling with awareness of skill differential",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Use appropriate finishing speed based on partner's skill level. Against lower belts, maintain longer application time and clearer communication. Against equal or higher belts, you may reduce application time but never spike or jerk. Always maintain awareness of partner's tap signals. If partner has elbow injury history, avoid armbar attacks entirely or use zero-resistance demonstration only."
-    },
-    {
-      "phase": "Ongoing Safety Culture (Continuous)",
-      "timeframe": "Continuous practice",
-      "focus": "Maintaining safety-first mindset regardless of experience level",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never use competition speed in training. Communicate with new partners about armbar safety expectations. If teaching, emphasize safety protocols before technical instruction. Stop immediately if partner makes distress sounds. Build reputation as safe training partner who protects partners' long-term health. Remember: injured training partners cannot train."
-    }
-  ],
   "from_positions": [
     "Mount",
     "Closed Guard",
@@ -391,6 +330,20 @@
     {
       "name": "Back Control",
       "relationship": "Dominant position with armbar finish opportunities via arm exposure"
+    }
+  ],
+  "success_rate": 62,
+  "from_position": "Armbar Control/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 62,
+      "result": "success"
+    },
+    {
+      "to": "Armbar Control",
+      "probability": 38,
+      "result": "failure"
     }
   ]
 }

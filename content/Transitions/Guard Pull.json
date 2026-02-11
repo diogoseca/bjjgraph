@@ -11,11 +11,6 @@
     "grip-fighting",
     "standing"
   ],
-  "success_rates": {
-    "beginner": 65,
-    "intermediate": 75,
-    "advanced": 85
-  },
   "overview": "The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips. The technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Understanding when and how to pull guard effectively is essential for building a complete competition game.",
   "key_principles": [
     "Establish strong grips before committing to the pull",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish primary grips",
-      "description": "Secure strong grips on opponent's collar and sleeve, or body and head in no-gi. Focus on controlling their posture and preventing them from establishing dominant grips first. The grip establishment phase is critical as these connections will control the entire transition.",
-      "timing": "Before initiating any downward movement"
+      "description": "Secure strong grips on opponent's collar and sleeve, or body and head in no-gi. Focus on controlling their posture and preventing them from establishing dominant grips first. The grip establishment phase is critical as these connections will control the entire transition."
     },
     {
       "step_number": 2,
       "action": "Break opponent's posture",
-      "description": "Pull opponent slightly forward and off-balance using your grips, disrupting their base and making it difficult for them to sprawl or disengage. This subtle off-balancing creates the timing window for your pull. A well-postured opponent can easily defend the guard pull by stepping back or sprawling.",
-      "timing": "Immediately before sitting"
+      "description": "Pull opponent slightly forward and off-balance using your grips, disrupting their base and making it difficult for them to sprawl or disengage. This subtle off-balancing creates the timing window for your pull. A well-postured opponent can easily defend the guard pull by stepping back or sprawling."
     },
     {
       "step_number": 3,
       "action": "Sit to seated position",
-      "description": "Drop your hips straight down or slightly back while maintaining strong grip tension. Keep your upper body upright and engaged rather than falling backward completely. Your sitting motion should be controlled and maintain connection to your opponent throughout. Avoid simply falling to your back which gives opponent passing opportunities.",
-      "timing": "As opponent's weight shifts forward"
+      "description": "Drop your hips straight down or slightly back while maintaining strong grip tension. Keep your upper body upright and engaged rather than falling backward completely. Your sitting motion should be controlled and maintain connection to your opponent throughout. Avoid simply falling to your back which gives opponent passing opportunities."
     },
     {
       "step_number": 4,
       "action": "Establish leg positioning",
-      "description": "As you sit, immediately engage your legs by placing feet on opponent's hips, wrapping closed guard, or establishing specific guard position hooks. Your leg engagement must happen simultaneously with sitting to prevent opponent from simply stepping around. The specific leg positioning depends on your intended guard position and grip configuration.",
-      "timing": "Simultaneously with sitting motion"
+      "description": "As you sit, immediately engage your legs by placing feet on opponent's hips, wrapping closed guard, or establishing specific guard position hooks. Your leg engagement must happen simultaneously with sitting to prevent opponent from simply stepping around. The specific leg positioning depends on your intended guard position and grip configuration."
     },
     {
       "step_number": 5,
       "action": "Secure guard position",
-      "description": "Lock in your chosen guard configuration by closing your legs around opponent's body for closed guard, or establishing hook and grip control for open guard variations. Ensure your hips are mobile and not flat on the mat. Pull opponent into your guard structure rather than allowing distance to form between you.",
-      "timing": "Immediately after leg engagement"
+      "description": "Lock in your chosen guard configuration by closing your legs around opponent's body for closed guard, or establishing hook and grip control for open guard variations. Ensure your hips are mobile and not flat on the mat. Pull opponent into your guard structure rather than allowing distance to form between you."
     },
     {
       "step_number": 6,
       "action": "Control posture and initiate attacks",
-      "description": "Use your grips and leg position to break opponent's posture down into your guard, preventing them from establishing strong passing position. Immediately begin implementing your guard strategy by setting up sweeps, submissions, or guard position improvements. The transition into guard should flow directly into your offensive game without pause.",
-      "timing": "Within 1-2 seconds of landing"
+      "description": "Use your grips and leg position to break opponent's posture down into your guard, preventing them from establishing strong passing position. Immediately begin implementing your guard strategy by setting up sweeps, submissions, or guard position improvements. The transition into guard should flow directly into your offensive game without pause."
     }
   ],
   "common_counters": [
@@ -130,32 +119,27 @@
     {
       "phase": "Week 1-2: Basic Mechanics",
       "focus": "Grip establishment and sitting motion with control",
-      "description": "Practice establishing grips from standing and sitting to closed guard with cooperative partner. Focus on maintaining connection and landing with mobile hips. Partner allows guard to be established without resistance.",
-      "resistance_level": "None"
+      "description": "Practice establishing grips from standing and sitting to closed guard with cooperative partner. Focus on maintaining connection and landing with mobile hips. Partner allows guard to be established without resistance."
     },
     {
       "phase": "Week 3-4: Guard Position Integration",
       "focus": "Pulling to specific guard positions",
-      "description": "Practice pulling to various guard positions (closed, open, De La Riva, butterfly) from standing. Partner provides light resistance by maintaining posture but not actively countering. Work on smooth transition from standing grips directly into each guard structure.",
-      "resistance_level": "Light"
+      "description": "Practice pulling to various guard positions (closed, open, De La Riva, butterfly) from standing. Partner provides light resistance by maintaining posture but not actively countering. Work on smooth transition from standing grips directly into each guard structure."
     },
     {
       "phase": "Week 5-6: Timing and Off-Balancing",
       "focus": "Creating optimal timing windows",
-      "description": "Partner actively maintains posture and may attempt to step back or create distance. Practice using grip fighting to create off-balancing moments that open opportunities for effective guard pull. Develop feel for when opponent is vulnerable versus when they are strongly postured.",
-      "resistance_level": "Medium"
+      "description": "Partner actively maintains posture and may attempt to step back or create distance. Practice using grip fighting to create off-balancing moments that open opportunities for effective guard pull. Develop feel for when opponent is vulnerable versus when they are strongly postured."
     },
     {
       "phase": "Week 7-8: Counter Defense",
       "focus": "Defending common counters",
-      "description": "Partner attempts basic counters like stepping back, sprawling, or immediate passing. Practice maintaining connection, adapting grip strategy, and technical stand-up when guard pull fails. Develop ability to complete pull even against defensive reaction.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts basic counters like stepping back, sprawling, or immediate passing. Practice maintaining connection, adapting grip strategy, and technical stand-up when guard pull fails. Develop ability to complete pull even against defensive reaction."
     },
     {
       "phase": "Month 3+: Competition Integration",
       "focus": "Guard pull under full resistance",
-      "description": "Partner provides full resistance including grip fighting, counter attempts, and immediate passing pressure. Practice completing guard pull from realistic standing exchanges including grip breaks, re-grips, and feints. Integrate guard pull into overall competition strategy.",
-      "resistance_level": "Full"
+      "description": "Partner provides full resistance including grip fighting, counter attempts, and immediate passing pressure. Practice completing guard pull from realistic standing exchanges including grip breaks, re-grips, and feints. Integrate guard pull into overall competition strategy."
     }
   ],
   "variants_and_adaptations": [
@@ -193,33 +177,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is grip establishment critical before initiating a guard pull?",
-      "answer": "Grips provide the connection and control necessary to pull opponent into your guard structure and prevent them from disengaging or immediately passing. Without grips, opponent can simply step back, sprawl, or walk around your legs as you sit, leaving you in defensive bottom position with no guard established. Strong grips allow you to control their posture and distance throughout the entire transition.",
-      "difficulty": "Beginner"
+      "answer": "Grips provide the connection and control necessary to pull opponent into your guard structure and prevent them from disengaging or immediately passing. Without grips, opponent can simply step back, sprawl, or walk around your legs as you sit, leaving you in defensive bottom position with no guard established. Strong grips allow you to control their posture and distance throughout the entire transition."
     },
     {
       "question": "What is the most common error that leads to failed guard pulls?",
-      "answer": "Falling straight to the back with legs extended creates a large gap between practitioner and opponent. This allows opponent to easily disengage, maintain distance, or immediately begin passing. The pull must be executed by sitting while pulling opponent close and immediately engaging legs to maintain connection. Hip mobility and connection are more important than the sitting motion itself.",
-      "difficulty": "Beginner"
+      "answer": "Falling straight to the back with legs extended creates a large gap between practitioner and opponent. This allows opponent to easily disengage, maintain distance, or immediately begin passing. The pull must be executed by sitting while pulling opponent close and immediately engaging legs to maintain connection. Hip mobility and connection are more important than the sitting motion itself."
     },
     {
       "question": "How does timing affect guard pull success rates?",
-      "answer": "Pulling guard against a well-postured, balanced opponent allows them to easily sprawl, step back, or pass. Creating an off-balancing moment through grip manipulation causes opponent to adjust their stance, which opens a timing window where they cannot effectively counter. The pull should occur when opponent is moving, adjusting, or slightly off-balance rather than when they are statically stable.",
-      "difficulty": "Intermediate"
+      "answer": "Pulling guard against a well-postured, balanced opponent allows them to easily sprawl, step back, or pass. Creating an off-balancing moment through grip manipulation causes opponent to adjust their stance, which opens a timing window where they cannot effectively counter. The pull should occur when opponent is moving, adjusting, or slightly off-balance rather than when they are statically stable."
     },
     {
       "question": "What should you do if an opponent successfully creates distance during your guard pull attempt?",
-      "answer": "Immediately execute a technical stand-up to return to standing rather than remaining in bottom position without guard established. Chasing on your back or trying to re-establish guard from disadvantaged position typically leads to guard passing. Technical stand-up resets the position to neutral standing and allows you to attempt the guard pull again with better setup.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately execute a technical stand-up to return to standing rather than remaining in bottom position without guard established. Chasing on your back or trying to re-establish guard from disadvantaged position typically leads to guard passing. Technical stand-up resets the position to neutral standing and allows you to attempt the guard pull again with better setup."
     },
     {
       "question": "How does landing position affect your guard retention after the pull?",
-      "answer": "Landing flat on your back with hips on the mat immobilizes your hip movement and makes guard retention extremely difficult. Landing on your side or with hips elevated and weight on upper back and shoulders maintains hip mobility necessary for guard retention. Mobile hips allow you to adjust position, create angles, and move with opponent's passing attempts. The guard pull should land you in optimal guard playing position, not defensive survival mode.",
-      "difficulty": "Advanced"
+      "answer": "Landing flat on your back with hips on the mat immobilizes your hip movement and makes guard retention extremely difficult. Landing on your side or with hips elevated and weight on upper back and shoulders maintains hip mobility necessary for guard retention. Mobile hips allow you to adjust position, create angles, and move with opponent's passing attempts. The guard pull should land you in optimal guard playing position, not defensive survival mode."
     },
     {
       "question": "Why is it important to have a specific guard position in mind before pulling?",
-      "answer": "Pulling to a generic seated position without structure makes you vulnerable to immediate passing attempts as you scramble to establish guard. Having a specific target position (closed guard, De La Riva, butterfly, etc.) allows you to configure your grips, body position, and leg placement during the pull to land directly in that guard structure. This eliminates the vulnerable transition period and allows you to immediately begin implementing your guard strategy rather than playing defense.",
-      "difficulty": "Advanced"
+      "answer": "Pulling to a generic seated position without structure makes you vulnerable to immediate passing attempts as you scramble to establish guard. Having a specific target position (closed guard, De La Riva, butterfly, etc.) allows you to configure your grips, body position, and leg placement during the pull to land directly in that guard structure. This eliminates the vulnerable transition period and allows you to immediately begin implementing your guard strategy rather than playing defense."
     }
   ],
   "safety_considerations": "Guard pulling is generally a safe technique when executed properly, but several precautions ensure training safety. Always check surroundings before pulling to ensure adequate mat space behind you, as landing near walls or other training pairs can cause collisions. When drilling, communicate with partner about resistance level to prevent unexpected reactions. Maintain grip control throughout to prevent partner from falling awkwardly if they lose balance. For newer practitioners, practice on softer surfaces initially and avoid pulling with momentum until mechanics are solid. In competition settings, be aware of mat boundaries to avoid pulling near edges. Never pull guard if opponent is not engaged and prepared, as this can cause them to fall awkwardly. When learning sacrifice pull variations, ensure you can safely break-fall and that partner understands the dynamic nature of the technique.",
@@ -303,5 +281,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 80
 }

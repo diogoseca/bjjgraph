@@ -249,21 +249,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Success rate maintaining Modified Mount until submission or advancement"
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Likelihood of advancing to more dominant position or achieving submission"
       },
       "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Success rate finishing submissions from Modified Mount position"
       },
       "average_time": "90 seconds to 2 minutes to submission at intermediate level with active attacks"
@@ -524,21 +518,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 70,
+        "value": 58,
         "description": "Success rate escaping Modified Mount before submission or position advancement"
       },
       "advancement_probability": {
-        "beginner": 65,
-        "intermediate": 45,
-        "advanced": 20,
+        "value": 32,
         "description": "Likelihood opponent advances to more dominant position or achieves submission"
       },
       "submission_probability": {
-        "beginner": 55,
-        "intermediate": 30,
-        "advanced": 10,
+        "value": 20,
         "description": "Risk of being submitted from bottom Modified Mount position"
       },
       "average_time": "30-60 seconds before escape or submission at intermediate level"

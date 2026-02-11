@@ -157,7 +157,7 @@ The technique requires precise timing and commitment. Unlike incremental escapes
 From a strategic perspective, this escape is most effective against aggressive opponents who overcommit to submission attacks or positional advancement. The technique capitalizes on the temporary weight distribution changes that occur when the top player shifts to attack the neck, transition to mount, or secure a tighter arm trap. Understanding these windows is essential for successful execution.
 
 **From Position**: [[Gift Wrap/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ From a strategic perspective, this escape is most effective against aggressive o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify timing window**: Wait for opponent to commit weight forward, typically when attacking neck, transitioning to mount, or tightening arm trap. The weight shift creates the opportunity for reversal. (Timing: When opponent's weight shifts forward or laterally)
-2. **Secure grip on controlling arm**: With your free hand, grip the arm that is threading under your armpit controlling your trapped arm. Secure a firm grip on their wrist or forearm to maintain connection throughout the roll. (Timing: Immediately before initiating bridge)
-3. **Explosive bridge toward trapped arm**: Bridge powerfully toward the side of your trapped arm, driving off your feet and rotating your hips explosively. The bridge should lift opponent's weight and create rotational momentum in their direction of imbalance. (Timing: During opponent's weight commitment)
-4. **Continue rotation over shoulder**: Follow through with the bridge by rolling over your shoulder on the trapped arm side. Maintain grip on opponent's controlling arm throughout the rotation to keep them connected and prevent escape. (Timing: Continuous momentum from bridge)
-5. **Post and stabilize on top**: As you complete the rotation, post your free hand on the mat to stabilize your top position. Your weight should now be on top of the opponent with their back exposed to the mat. (Timing: Upon completing 180-degree rotation)
-6. **Establish Gift Wrap control**: Immediately work to establish your own Gift Wrap control by threading your arm under opponent's armpit and controlling their wrist. Secure hooks or establish dominant back control to capitalize on the reversal. (Timing: Within 2 seconds of completing roll)
+1. **Identify timing window**: Wait for opponent to commit weight forward, typically when attacking neck, transitioning to mount, or tightening arm trap. The weight shift creates the opportunity for reversal.
+2. **Secure grip on controlling arm**: With your free hand, grip the arm that is threading under your armpit controlling your trapped arm. Secure a firm grip on their wrist or forearm to maintain connection throughout the roll.
+3. **Explosive bridge toward trapped arm**: Bridge powerfully toward the side of your trapped arm, driving off your feet and rotating your hips explosively. The bridge should lift opponent's weight and create rotational momentum in their direction of imbalance.
+4. **Continue rotation over shoulder**: Follow through with the bridge by rolling over your shoulder on the trapped arm side. Maintain grip on opponent's controlling arm throughout the rotation to keep them connected and prevent escape.
+5. **Post and stabilize on top**: As you complete the rotation, post your free hand on the mat to stabilize your top position. Your weight should now be on top of the opponent with their back exposed to the mat.
+6. **Establish Gift Wrap control**: Immediately work to establish your own Gift Wrap control by threading your arm under opponent's armpit and controlling their wrist. Secure hooks or establish dominant back control to capitalize on the reversal.
 
 
 </section>
@@ -253,19 +253,15 @@ From a strategic perspective, this escape is most effective against aggressive o
 ## Training Progressions
 **Week 1-2** - Roll mechanics isolation
 Practice the bridging and rolling mechanics without resistance. Partner maintains Gift Wrap position statically while you drill the timing of gripping their controlling arm, executing the bridge, and completing the full rotation. Focus on smooth continuous motion.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides 30% resistance and initiates attacks from Gift Wrap (choke attempts, mount transitions). Defender identifies timing windows and executes roll when appropriate. Develops pattern recognition for when the technique is viable.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner counters roll attempts with 60% resistance using realistic defensive responses (posting, weight drop, crucifix entries). Defender practices recognizing when roll will fail and transitioning to backup escapes. Develops ability to abandon technique safely.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring from Gift Wrap Bottom with full resistance. Defender attempts Counter Roll when windows appear, executes backup escapes when they don't, and practices establishing control after successful reversals. Test success rate against progressive skill levels.
-(Resistance: Full)
 
 
 

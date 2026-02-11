@@ -373,11 +373,11 @@ Hold Squid Guard position with partner attempting to extract threading leg and c
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 15% |
-| Intermediate | 50% | 55% | 30% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 62% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 30-90 seconds
 

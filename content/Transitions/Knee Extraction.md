@@ -163,7 +163,7 @@ This escape relies on precise timing and coordinated movement rather than explos
 Strategically, knee extraction serves as the first-line defense before the attacker consolidates position. The optimal window for this escape is within the first 5-10 seconds of ankle lock control being established. Beyond this timeframe, the attacker typically secures tighter leg control, making extraction progressively more difficult. Understanding this temporal pressure drives the need for immediate recognition and rapid technical execution rather than waiting passively and hoping for escape opportunities.
 
 **From Position**: [[Straight Ankle Lock Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, knee extraction serves as the first-line defense before the attac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize threat**: Immediately identify that your ankle has been captured and assess the attacker's leg positioning around your trapped leg - determine if their leg triangle is incomplete (Timing: Within 1-2 seconds of ankle control)
-2. **Bend knee aggressively**: Pull your trapped knee toward your chest with maximum effort, bending at the hip and knee simultaneously to prevent the attacker from straightening your leg and increasing submission leverage (Timing: Immediately upon recognition)
-3. **Break heel grip**: Use both hands in a two-on-one configuration to attack the attacker's grip on your heel, targeting the thumb line and peeling fingers away while maintaining your bent knee position (Timing: Concurrent with knee bend)
-4. **Push on attacker's legs**: Use your free leg to kick or push down on the attacker's bottom leg, preventing them from completing the leg triangle while creating space for your trapped knee to clear (Timing: As grip weakens)
-5. **Hip rotation**: Rotate your hip away from the attacker's intended leg triangle direction, creating an angle that reduces their control leverage and facilitates knee extraction through the gap you've created (Timing: Coordinated with leg push)
-6. **Extract and distance**: Once the knee clears their leg control, immediately create distance by scooting your hips away and establishing frames on the attacker's upper body to prevent re-engagement (Timing: As knee clears)
-7. **Recover position**: Stand up to base if possible, or recover to open guard with feet on hips to establish defensive barriers against further leg attack attempts (Timing: Immediately after extraction)
+1. **Recognize threat**: Immediately identify that your ankle has been captured and assess the attacker's leg positioning around your trapped leg - determine if their leg triangle is incomplete
+2. **Bend knee aggressively**: Pull your trapped knee toward your chest with maximum effort, bending at the hip and knee simultaneously to prevent the attacker from straightening your leg and increasing submission leverage
+3. **Break heel grip**: Use both hands in a two-on-one configuration to attack the attacker's grip on your heel, targeting the thumb line and peeling fingers away while maintaining your bent knee position
+4. **Push on attacker's legs**: Use your free leg to kick or push down on the attacker's bottom leg, preventing them from completing the leg triangle while creating space for your trapped knee to clear
+5. **Hip rotation**: Rotate your hip away from the attacker's intended leg triangle direction, creating an angle that reduces their control leverage and facilitates knee extraction through the gap you've created
+6. **Extract and distance**: Once the knee clears their leg control, immediately create distance by scooting your hips away and establishing frames on the attacker's upper body to prevent re-engagement
+7. **Recover position**: Stand up to base if possible, or recover to open guard with feet on hips to establish defensive barriers against further leg attack attempts
 
 
 </section>
@@ -263,19 +263,15 @@ Strategically, knee extraction serves as the first-line defense before the attac
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the knee bend and grip break sequence against a stationary partner who holds ankle control without resistance. Focus on proper hand positioning for two-on-one grip attack and coordinating knee bend with grip break timing.
-(Resistance: None)
 
 **Week 3-4** - Adding leg control element
 Partner establishes ankle control with partial leg wrapping. Practice using free leg to push on their controlling legs while executing knee extraction. Develop awareness of when leg triangle is completing versus still open.
-(Resistance: Light)
 
 **Week 5-6** - Timing under pressure
 Partner attempts to complete leg triangle and finish ankle lock at moderate intensity. Practice recognizing optimal escape window and executing full extraction sequence with hip rotation and distance creation.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Full resistance positional sparring starting from straight ankle lock control. Partner uses full technical repertoire including transitions to inside ashi if extraction attempts create openings. Develop ability to chain into secondary escapes when extraction fails.
-(Resistance: Full)
 
 
 

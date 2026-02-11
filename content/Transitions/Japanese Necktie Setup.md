@@ -17,7 +17,7 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Japanese Necktie Setup in BJJ",
-  "description": "Step-by-step guide for Japanese Necktie Setup from Front Headlock/Top. Possible outcomes: D'arce Control (60%), Front Headlock (30%), Turtle (10%).",
+  "description": "Step-by-step guide for Japanese Necktie Setup from Front Headlock/Top. Possible outcomes: Darce Control (60%), Front Headlock (30%), Turtle (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -153,7 +153,7 @@ description: "Master the Japanese Necktie Setup from Front Headlock in BJJ. Step
 The Japanese Necktie Setup is a sophisticated transition from Front Headlock control that capitalizes on the opponent's defensive turtle position. This technique creates a powerful blood choke by threading the arm under the opponent's neck while establishing a specific body configuration that amplifies pressure. Unlike traditional front chokes that rely purely on arm strength, the Japanese Necktie uses body positioning and weight distribution to generate overwhelming force. The setup phase is critical—proper arm threading, head positioning, and hip placement determine whether the submission becomes viable. When executed correctly, this transition catches opponents off-guard because it appears to be a standard front headlock attack until the choking mechanism suddenly materializes. The technique gained prominence in modern no-gi competition due to its effectiveness against defensive turtling and its ability to finish from seemingly neutral scramble positions.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -163,7 +163,7 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[D'arce Control]] | 60% |
+| Success | [[Darce Control]] | 60% |
 | Failure | [[Front Headlock]] | 30% |
 | Counter | [[Turtle]] | 10% |
 
@@ -203,12 +203,12 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish front headlock control**: From turtle or scramble position, secure a tight front headlock with your right arm wrapped around opponent's neck. Your chest should be heavy on their upper back, and your left hand should control their far arm or shoulder to prevent defensive movements. Ensure your head is positioned on their back, not beside their head. (Timing: Wait until opponent commits weight forward or attempts to stand)
-2. **Thread choking arm deep**: Release your headlock grip and immediately thread your right arm deep under opponent's neck from their left side. Your palm should face up with elbow pointing down toward the mat. Drive the arm as deep as possible—your bicep should be against the side of their neck and your forearm across their throat. This depth is critical for choking leverage. (Timing: Thread quickly to prevent opponent from blocking with their hand)
-3. **Capture opponent's far arm**: With your left hand, reach across and grab opponent's right wrist or forearm, pulling it tight against their body. This prevents them from creating defensive frames or hand fighting to clear your choking arm. Keep this grip tight throughout the entire transition—if they free this arm, the submission becomes significantly harder to finish. (Timing: Secure this control immediately after threading arm)
-4. **Lock hands and adjust head position**: Bring your left hand to meet your right hand near your own chest. Lock them together using either a gable grip (palm to palm, fingers interlaced) or S-grip depending on your preference. Simultaneously, position your head firmly on opponent's upper back between their shoulder blades, creating downward pressure. Your chin should be tucked to protect your own neck during the roll. (Timing: Lock hands before initiating roll)
-5. **Initiate controlled roll to side**: Step your left leg (far leg) over opponent's back and begin rolling to your right side, pulling opponent with you. Use your body weight rather than arm strength to force the roll. Keep your grips extremely tight and maintain head pressure on their back throughout. Roll through your shoulder, not flat onto your back, to maintain control and leverage. (Timing: Roll explosively before opponent can establish base)
-6. **Establish finishing position**: Complete the roll so you land on your right side with opponent on their back above you. Your right arm should still be threaded deep under their neck, your hands locked at your chest level, and your head driving their shoulder downward. Extend your hips forward and arch slightly to increase choking pressure. Your top leg (left) can hook over opponent's body for additional control. From here, squeeze your elbows together and drive with your head to finish the choke. (Timing: Finish immediately upon completing roll)
+1. **Establish front headlock control**: From turtle or scramble position, secure a tight front headlock with your right arm wrapped around opponent's neck. Your chest should be heavy on their upper back, and your left hand should control their far arm or shoulder to prevent defensive movements. Ensure your head is positioned on their back, not beside their head.
+2. **Thread choking arm deep**: Release your headlock grip and immediately thread your right arm deep under opponent's neck from their left side. Your palm should face up with elbow pointing down toward the mat. Drive the arm as deep as possible—your bicep should be against the side of their neck and your forearm across their throat. This depth is critical for choking leverage.
+3. **Capture opponent's far arm**: With your left hand, reach across and grab opponent's right wrist or forearm, pulling it tight against their body. This prevents them from creating defensive frames or hand fighting to clear your choking arm. Keep this grip tight throughout the entire transition—if they free this arm, the submission becomes significantly harder to finish.
+4. **Lock hands and adjust head position**: Bring your left hand to meet your right hand near your own chest. Lock them together using either a gable grip (palm to palm, fingers interlaced) or S-grip depending on your preference. Simultaneously, position your head firmly on opponent's upper back between their shoulder blades, creating downward pressure. Your chin should be tucked to protect your own neck during the roll.
+5. **Initiate controlled roll to side**: Step your left leg (far leg) over opponent's back and begin rolling to your right side, pulling opponent with you. Use your body weight rather than arm strength to force the roll. Keep your grips extremely tight and maintain head pressure on their back throughout. Roll through your shoulder, not flat onto your back, to maintain control and leverage.
+6. **Establish finishing position**: Complete the roll so you land on your right side with opponent on their back above you. Your right arm should still be threaded deep under their neck, your hands locked at your chest level, and your head driving their shoulder downward. Extend your hips forward and arch slightly to increase choking pressure. Your top leg (left) can hook over opponent's body for additional control. From here, squeeze your elbows together and drive with your head to finish the choke.
 
 
 </section>
@@ -255,27 +255,21 @@ The Japanese Necktie Setup is a sophisticated transition from Front Headlock con
 ## Training Progressions
 **Phase 1: Static Positioning (Week 1-2)** - Master proper arm threading depth and hand locks
 Partner starts in turtle. Practice threading arm under neck and locking hands correctly without rolling. Focus on getting bicep against neck and forearm across throat. Drill hand lock variations (gable, S-grip) to find preference. Partner remains stationary.
-(Resistance: None)
 
 **Phase 2: Controlled Roll (Week 2-3)** - Rolling mechanics and maintaining connection
 From proper setup position, practice the roll to side with compliant partner. Focus on staying on shoulder (not flat back), maintaining head pressure on back, and keeping grips locked throughout. Complete 10-15 repetitions each side per session focusing on smooth technique over speed.
-(Resistance: None)
 
 **Phase 3: Light Resistance (Week 3-4)** - Timing and dealing with basic defensive frames
 Partner provides 30% resistance by attempting to keep base and block far arm capture. Practice timing arm thread when they move or shift weight. Work on controlling far arm against light hand fighting. Partner may post hand but not aggressively counter roll.
-(Resistance: Light)
 
 **Phase 4: Moderate Counters (Week 4-6)** - Dealing with common defensive reactions
 Partner actively defends with chin tucks, posting arms, and turning motions at 50-60% intensity. Practice recognizing when technique is available versus when to switch to alternatives (Darce, Anaconda, Guillotine). Develop reaction speed and technical adjustments mid-execution.
-(Resistance: Medium)
 
 **Phase 5: Situational Sparring (Week 6-8)** - Integration from live scrambles and front headlock battles
 Start from neutral or standing position. Partner fights to avoid front headlock control. When you achieve position, attempt Japanese Necktie against 70% resistance. Partner attempts realistic escapes and counters. Work technique in 3-5 minute rounds, resetting when position is lost or gained.
-(Resistance: Medium)
 
 **Phase 6: Live Competition Application (Week 8+)** - Full resistance integration with backup options
 Attempt technique during free rolling against all body types and skill levels. Focus on recognizing optimal setups (turtle, snap-down, scramble positions). Develop seamless transitions to alternative attacks when countered. Track success rate and identify patterns where technique works best.
-(Resistance: Full)
 
 
 
@@ -358,7 +352,7 @@ The Japanese Necktie Setup is a crucial component of the front headlock attack s
 ## Related Techniques
 
 - [[Front Headlock]] - Starting position for setup
-- [[D'arce Control]] - Finishing control position reached on success
+- [[Darce Control]] - Finishing control position reached on success
 - [[Darce Setup]] - Alternative attack from same position
 - [[Anaconda Setup]] - Alternative attack from same position
 - [[Guillotine Setup]] - Alternative attack from same position

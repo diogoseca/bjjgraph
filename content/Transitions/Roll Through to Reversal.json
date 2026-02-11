@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Roll Through to Reversal is a dynamic escape technique executed when trapped in front headlock bottom that uses your opponent's forward pressure and commitment against them. Rather than fighting against their weight and control, this technique redirects their momentum by rolling forward and through, inverting the positional hierarchy to end with you in the controlling position.\n\nThis reversal exploits a fundamental vulnerability in front headlock control: when the top player commits their weight forward to maintain pressure or set up submissions, they become susceptible to being rolled. The technique requires precise timing—executed too early when opponent's base is solid, and you'll simply expose your back; executed at the perfect moment when they're overcommitted forward, and their own momentum carries them into the reversal.\n\nThe roll through represents a calculated risk within the front headlock escape system. While other escapes like technical standups or circling away are generally safer, the roll through offers a higher reward by achieving complete positional reversal rather than merely escaping to neutral. This makes it particularly valuable when you need to shift match momentum or when other escape routes are blocked. Advanced practitioners integrate this technique as part of their reactive defense, reading opponent's weight distribution to determine whether to stand, circle, or roll through.",
   "key_principles": [
     "Timing is everything—execute when opponent commits weight forward, not when they're settled with wide base",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Secure choking arm control",
-      "description": "Grip opponent's choking arm at the wrist or elbow with your outside hand, pulling it tight to your body to limit their ability to tighten the choke during the roll and maintaining control throughout the technique.",
-      "timing": "Before initiating any rolling motion"
+      "description": "Grip opponent's choking arm at the wrist or elbow with your outside hand, pulling it tight to your body to limit their ability to tighten the choke during the roll and maintaining control throughout the technique."
     },
     {
       "step_number": 2,
       "action": "Post inside arm",
-      "description": "Plant your inside hand firmly on the mat in front of you, fingers pointing toward opponent's posting foot. This arm will serve as the pivot point for your rotation and help direct the roll trajectory.",
-      "timing": "Immediately after securing arm control"
+      "description": "Plant your inside hand firmly on the mat in front of you, fingers pointing toward opponent's posting foot. This arm will serve as the pivot point for your rotation and help direct the roll trajectory."
     },
     {
       "step_number": 3,
       "action": "Load hips under",
-      "description": "Tuck your chin tight to your chest while bringing your hips underneath you in a curled position. Your body should form a compact ball shape that can rotate smoothly rather than a flat extended position.",
-      "timing": "As you feel opponent's weight fully committed forward"
+      "description": "Tuck your chin tight to your chest while bringing your hips underneath you in a curled position. Your body should form a compact ball shape that can rotate smoothly rather than a flat extended position."
     },
     {
       "step_number": 4,
       "action": "Initiate forward roll",
-      "description": "Drive off your toes while simultaneously pulling opponent's arm toward you and tucking your head. Roll forward over your shoulder, not straight over your head, using the momentum their forward pressure creates.",
-      "timing": "Explosive initiation when opponent is overbalanced"
+      "description": "Drive off your toes while simultaneously pulling opponent's arm toward you and tucking your head. Roll forward over your shoulder, not straight over your head, using the momentum their forward pressure creates."
     },
     {
       "step_number": 5,
       "action": "Maintain arm connection",
-      "description": "Throughout the rotation, keep pulling their choking arm to your body. This control prevents them from posting to stop the roll and ensures you maintain connection to establish top position as the roll completes.",
-      "timing": "Continuous throughout roll"
+      "description": "Throughout the rotation, keep pulling their choking arm to your body. This control prevents them from posting to stop the roll and ensures you maintain connection to establish top position as the roll completes."
     },
     {
       "step_number": 6,
       "action": "Complete rotation and establish control",
-      "description": "As the roll completes, immediately drive your chest into their upper back and sprawl your hips to prevent their escape. Transition your arm control into front headlock grips, securing their head with your arm.",
-      "timing": "Immediately upon roll completion"
+      "description": "As the roll completes, immediately drive your chest into their upper back and sprawl your hips to prevent their escape. Transition your arm control into front headlock grips, securing their head with your arm."
     },
     {
       "step_number": 7,
       "action": "Consolidate top position",
-      "description": "Drive downward pressure through your chest, control their far shoulder or arm, and establish dominant front headlock top position. Work to prevent any immediate escape attempts with heavy pressure and proper weight distribution.",
-      "timing": "Within 1-2 seconds of roll completion"
+      "description": "Drive downward pressure through your chest, control their far shoulder or arm, and establish dominant front headlock top position. Work to prevent any immediate escape attempts with heavy pressure and proper weight distribution."
     }
   ],
   "common_counters": [
@@ -146,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rolling mechanics",
-      "description": "Practice forward shoulder rolls without partner focusing on smooth rotation, chin protection throughout, and landing in ready position. Then add static partner in front headlock position to develop proper trajectory and arm control without resistance.",
-      "resistance_level": "None"
+      "description": "Practice forward shoulder rolls without partner focusing on smooth rotation, chin protection throughout, and landing in ready position. Then add static partner in front headlock position to develop proper trajectory and arm control without resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner applies varying levels of forward pressure. Focus on recognizing when weight is sufficiently committed forward to make roll viable versus when to abort and use alternative escapes. Develop sensitivity to weight distribution.",
-      "resistance_level": "Light"
+      "description": "Partner applies varying levels of forward pressure. Focus on recognizing when weight is sufficiently committed forward to make roll viable versus when to abort and use alternative escapes. Develop sensitivity to weight distribution."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain integration",
-      "description": "Combine roll through with other front headlock escapes. If roll is countered, immediately transition to standup or circle away. Practice reading opponent reactions and selecting appropriate escape. Add consolidation drilling after successful rolls.",
-      "resistance_level": "Medium"
+      "description": "Combine roll through with other front headlock escapes. If roll is countered, immediately transition to standup or circle away. Practice reading opponent reactions and selecting appropriate escape. Add consolidation drilling after successful rolls."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement in positional sparring from front headlock bottom. Partner actively works submissions and position improvement while you work full escape system including roll through. Focus on real-time decision making under pressure.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring from front headlock bottom. Partner actively works submissions and position improvement while you work full escape system including roll through. Focus on real-time decision making under pressure."
     }
   ],
   "variants_and_adaptations": [
@@ -188,53 +172,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Roll Through to Reversal?",
-      "answer": "The primary goal is to completely reverse the positional hierarchy—transitioning from the defensive front headlock bottom position to the offensive front headlock top position. Unlike escapes that merely create distance or recover guard, this technique achieves full reversal, putting you in control with access to submissions and further advancement.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to completely reverse the positional hierarchy—transitioning from the defensive front headlock bottom position to the offensive front headlock top position. Unlike escapes that merely create distance or recover guard, this technique achieves full reversal, putting you in control with access to submissions and further advancement."
     },
     {
       "question": "What position do you start Roll Through to Reversal from?",
-      "answer": "This technique starts from Front Headlock Bottom, where your opponent has control of your head and neck while you are in a bent-forward position, typically on hands and knees or in compromised standing posture.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Front Headlock Bottom, where your opponent has control of your head and neck while you are in a bent-forward position, typically on hands and knees or in compromised standing posture."
     },
     {
       "question": "What is the critical weight distribution you must feel from opponent before attempting this roll?",
-      "answer": "You must feel opponent's weight committed forward with their chest driving heavily into your upper back. Their center of gravity needs to be forward of their base. If they're sprawled back with hips low and weight centered, the roll will fail. The forward commitment is what allows their momentum to carry them through the reversal.",
-      "difficulty": "Intermediate"
+      "answer": "You must feel opponent's weight committed forward with their chest driving heavily into your upper back. Their center of gravity needs to be forward of their base. If they're sprawled back with hips low and weight centered, the roll will fail. The forward commitment is what allows their momentum to carry them through the reversal."
     },
     {
       "question": "Your opponent senses the roll and begins to sprawl—what is your immediate adjustment?",
-      "answer": "Abort the roll attempt immediately and transition to a technical standup escape. Their sprawling motion moves their weight backward and creates space in front of you—exactly the conditions that favor standing up. Trying to force the roll against a sprawled opponent wastes energy and fails. The sprawl response actually opens a different, safer escape route.",
-      "difficulty": "Intermediate"
+      "answer": "Abort the roll attempt immediately and transition to a technical standup escape. Their sprawling motion moves their weight backward and creates space in front of you—exactly the conditions that favor standing up. Trying to force the roll against a sprawled opponent wastes energy and fails. The sprawl response actually opens a different, safer escape route."
     },
     {
       "question": "What grip must you maintain throughout the entire roll and why?",
-      "answer": "You must maintain control of opponent's choking arm at the wrist or elbow throughout the roll. This grip serves three functions: it prevents them from posting to stop your roll, it limits their ability to tighten any choke during the transition, and it ensures you maintain connection so you can establish control when the roll completes. Releasing this grip mid-roll typically results in technique failure.",
-      "difficulty": "Intermediate"
+      "answer": "You must maintain control of opponent's choking arm at the wrist or elbow throughout the roll. This grip serves three functions: it prevents them from posting to stop your roll, it limits their ability to tighten any choke during the transition, and it ensures you maintain connection so you can establish control when the roll completes. Releasing this grip mid-roll typically results in technique failure."
     },
     {
       "question": "How do you protect your neck during the forward rolling motion?",
-      "answer": "Maintain a tight chin-to-chest tuck throughout the entire roll. This defensive posture prevents neck extension which is required for guillotine and other front headlock chokes to finish. The rolling motion itself could tighten a choke if your neck extends, so the chin tuck is non-negotiable. Additionally, controlling their choking arm reduces their ability to adjust the choke angle during the transition.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain a tight chin-to-chest tuck throughout the entire roll. This defensive posture prevents neck extension which is required for guillotine and other front headlock chokes to finish. The rolling motion itself could tighten a choke if your neck extends, so the chin tuck is non-negotiable. Additionally, controlling their choking arm reduces their ability to adjust the choke angle during the transition."
     },
     {
       "question": "Why is rolling over your shoulder preferable to rolling straight over your head?",
-      "answer": "Rolling diagonally over your shoulder creates a more stable rotation axis and smoother path of travel compared to rolling straight over your head. The shoulder roll keeps you more compact and controlled, allows better trajectory adjustment, and results in more consistent landing position. Straight head rolls often stall mid-rotation or land in awkward positions that make consolidation difficult.",
-      "difficulty": "Advanced"
+      "answer": "Rolling diagonally over your shoulder creates a more stable rotation axis and smoother path of travel compared to rolling straight over your head. The shoulder roll keeps you more compact and controlled, allows better trajectory adjustment, and results in more consistent landing position. Straight head rolls often stall mid-rotation or land in awkward positions that make consolidation difficult."
     },
     {
       "question": "What must you do immediately upon completing the roll and why is speed critical?",
-      "answer": "You must immediately drive your chest into opponent's upper back and sprawl your hips to establish top pressure and control. Speed is critical because you only have a 1-2 second window before opponent can recover their base, scramble away, or begin working their own escapes. The reversal isn't complete until you've consolidated the dominant position—the roll alone just creates the opportunity.",
-      "difficulty": "Advanced"
+      "answer": "You must immediately drive your chest into opponent's upper back and sprawl your hips to establish top pressure and control. Speed is critical because you only have a 1-2 second window before opponent can recover their base, scramble away, or begin working their own escapes. The reversal isn't complete until you've consolidated the dominant position—the roll alone just creates the opportunity."
     },
     {
       "question": "If opponent maintains tight guillotine grip as you initiate the roll, should you continue or abort?",
-      "answer": "Continue the roll while maintaining your chin tuck and arm control. The rolling motion itself actually helps break the guillotine angle by changing the pressure vectors and disrupting their grip mechanics. Aborting mid-roll often leaves you in a worse position. The key is ensuring your chin stays tucked and you complete the roll quickly—hesitation is more dangerous than commitment in this scenario.",
-      "difficulty": "Advanced"
+      "answer": "Continue the roll while maintaining your chin tuck and arm control. The rolling motion itself actually helps break the guillotine angle by changing the pressure vectors and disrupting their grip mechanics. Aborting mid-roll often leaves you in a worse position. The key is ensuring your chin stays tucked and you complete the roll quickly—hesitation is more dangerous than commitment in this scenario."
     },
     {
       "question": "How does this roll through fit strategically with other front headlock escapes?",
-      "answer": "The roll through is one option within a complete front headlock escape system that includes technical standups, circling away, and granby rolls. You read opponent's weight distribution and defensive reactions to select the optimal escape. Forward committed weight favors roll through, weight back favors standup, tight arm control favors circling away. The techniques chain together—if roll is countered by sprawl, immediately transition to standup. This systematic approach prevents opponents from shutting down all your options.",
-      "difficulty": "Advanced"
+      "answer": "The roll through is one option within a complete front headlock escape system that includes technical standups, circling away, and granby rolls. You read opponent's weight distribution and defensive reactions to select the optimal escape. Forward committed weight favors roll through, weight back favors standup, tight arm control favors circling away. The techniques chain together—if roll is countered by sprawl, immediately transition to standup. This systematic approach prevents opponents from shutting down all your options."
     }
   ],
   "safety_considerations": "The roll through to reversal is generally safe when executed with proper mechanics but requires attention to neck protection. Maintain chin-to-chest tuck throughout the entire roll to prevent neck strain or exposure to chokes. Avoid forcing the roll when opponent has solid sprawled base—this leads to failed attempts that waste energy and potentially compromise position. Practice on soft mats initially to develop rolling mechanics before adding resistance. If you feel any neck strain during training, stop immediately and reassess your technique. The roll should feel smooth and controlled, not forced or jarring. Partners should release choke pressure once they feel the reversal succeeding to allow safe completion.",
@@ -276,5 +250,6 @@
       "name": "Turtle",
       "relationship": "Related defensive position with similar escapes"
     }
-  ]
+  ],
+  "success_rate": 58
 }

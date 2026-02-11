@@ -163,7 +163,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -242,13 +242,13 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Front Headlock with Arm Trap**: From front headlock position with opponent in turtle, swim your near arm deep around opponent's neck, achieving a front headlock grip. Simultaneously establish a deep overhook on their near arm with your far arm, pinching their arm tightly to their body. This trapped arm will become part of the choking mechanism. Your chest should be heavy on their shoulder, preventing them from sitting back or standing up. (Timing: 2-3 seconds to establish secure grips) [Pressure: Moderate]
-2. **Create Perpendicular Angle**: Begin rotating your body perpendicular to opponent's spine by stepping your far leg over their back and toward their far hip. As you rotate, maintain the tight overhook on their trapped arm while your choking arm stays deep around their neck. Your goal is to position your torso at approximately 90 degrees to their spine, with your hips facing their far side. This angle is critical for the choke's effectiveness. (Timing: 2-3 seconds for rotation) [Pressure: Moderate]
-3. **Lock the Grip Configuration**: With your choking arm deep around their neck, reach for your own leg (typically grabbing your shin or foot) or clasp your hands together in a gable grip behind their head. The exact grip varies by body type and flexibility, but the key is creating a closed loop that prevents your arm from sliding out. Some variations involve gripping your own lapel in gi, or grabbing your ankle in no-gi. Ensure the lock is tight before applying pressure. (Timing: 1-2 seconds to secure grip) [Pressure: Light]
-4. **Position Your Shoulder as Choking Surface**: Adjust your body so your near shoulder (the one on the same side as your choking arm) is pressed firmly against the far side of opponent's neck. This shoulder acts as a rigid surface that compresses the far carotid artery. Your choking arm, combined with their own trapped shoulder, will compress the near side. Your chest should be tight against their trapped shoulder, using it as a fulcrum point. (Timing: 1-2 seconds for positioning) [Pressure: Moderate]
-5. **Extend Hips and Arch Back**: With grips secured and shoulder positioned, begin extending your hips forward while simultaneously arching your back and driving your shoulder into their neck. This creates a powerful scissoring action where your shoulder compresses one side while their own shoulder (held by your overhook) compresses the other side. Your choking arm functions primarily as a restraint rather than the main source of pressure. Extend your legs fully and drive your hips toward the ceiling. (Timing: 3-5 seconds gradual pressure increase) [Pressure: Firm]
-6. **Maintain Position Through Tap**: Continue driving your hips forward and shoulder into their neck while keeping their arm trapped. The choke should tighten progressively as you increase hip extension. Monitor your partner closely for tap signals, as this choke can render opponents unconscious rapidly once fully locked. In training, maintain steady pressure rather than explosive force. Release immediately upon any tap signal. The finish position should have your legs fully extended, hips high, back arched, and shoulder driving into their neck. (Timing: 2-4 seconds until tap in training) [Pressure: Maximum]
-7. **Alternative Finish - Rolling Variation**: If the standard finish doesn't produce immediate pressure, you can enhance the choke by rolling over your far shoulder, inverting yourself while maintaining all grips. This rolling motion often tightens the choke dramatically by changing the angle of pressure on the neck. As you roll, keep the overhook tight and your choking arm locked. You may end up on your back or side with opponent's weight falling into the choke. This variation is particularly effective when opponent has good base. (Timing: 2-3 seconds for roll execution) [Pressure: Maximum]
+1. **Secure Front Headlock with Arm Trap**: From front headlock position with opponent in turtle, swim your near arm deep around opponent's neck, achieving a front headlock grip. Simultaneously establish a deep overhook on their near arm with your far arm, pinching their arm tightly to their body. This trapped arm will become part of the choking mechanism. Your chest should be heavy on their shoulder, preventing them from sitting back or standing up. (Timing: 2-3 seconds to establish secure grips)
+2. **Create Perpendicular Angle**: Begin rotating your body perpendicular to opponent's spine by stepping your far leg over their back and toward their far hip. As you rotate, maintain the tight overhook on their trapped arm while your choking arm stays deep around their neck. Your goal is to position your torso at approximately 90 degrees to their spine, with your hips facing their far side. This angle is critical for the choke's effectiveness. (Timing: 2-3 seconds for rotation)
+3. **Lock the Grip Configuration**: With your choking arm deep around their neck, reach for your own leg (typically grabbing your shin or foot) or clasp your hands together in a gable grip behind their head. The exact grip varies by body type and flexibility, but the key is creating a closed loop that prevents your arm from sliding out. Some variations involve gripping your own lapel in gi, or grabbing your ankle in no-gi. Ensure the lock is tight before applying pressure. (Timing: 1-2 seconds to secure grip)
+4. **Position Your Shoulder as Choking Surface**: Adjust your body so your near shoulder (the one on the same side as your choking arm) is pressed firmly against the far side of opponent's neck. This shoulder acts as a rigid surface that compresses the far carotid artery. Your choking arm, combined with their own trapped shoulder, will compress the near side. Your chest should be tight against their trapped shoulder, using it as a fulcrum point. (Timing: 1-2 seconds for positioning)
+5. **Extend Hips and Arch Back**: With grips secured and shoulder positioned, begin extending your hips forward while simultaneously arching your back and driving your shoulder into their neck. This creates a powerful scissoring action where your shoulder compresses one side while their own shoulder (held by your overhook) compresses the other side. Your choking arm functions primarily as a restraint rather than the main source of pressure. Extend your legs fully and drive your hips toward the ceiling. (Timing: 3-5 seconds gradual pressure increase)
+6. **Maintain Position Through Tap**: Continue driving your hips forward and shoulder into their neck while keeping their arm trapped. The choke should tighten progressively as you increase hip extension. Monitor your partner closely for tap signals, as this choke can render opponents unconscious rapidly once fully locked. In training, maintain steady pressure rather than explosive force. Release immediately upon any tap signal. The finish position should have your legs fully extended, hips high, back arched, and shoulder driving into their neck. (Timing: 2-4 seconds until tap in training)
+7. **Alternative Finish - Rolling Variation**: If the standard finish doesn't produce immediate pressure, you can enhance the choke by rolling over your far shoulder, inverting yourself while maintaining all grips. This rolling motion often tightens the choke dramatically by changing the angle of pressure on the neck. As you roll, keep the overhook tight and your choking arm locked. You may end up on your back or side with opponent's weight falling into the choke. This variation is particularly effective when opponent has good base. (Timing: 2-3 seconds for roll execution)
 
 
 </section>
@@ -268,25 +268,25 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting to choke with arm strength instead of shoulder pressure and hip extension [Low DANGER]
+- **Mistake**: Attempting to choke with arm strength instead of shoulder pressure and hip extension
   - **Consequence**: Choke fails to compress carotid arteries effectively, allows opponent to escape, causes fatigue in your arms
   - **Correction**: Focus on positioning your shoulder as the primary choking surface. Your arm serves mainly to control their head position. Generate pressure through hip extension and back arch, not bicep flexion.
-- **Mistake**: Failing to trap opponent's arm securely before rotating [Medium DANGER]
+- **Mistake**: Failing to trap opponent's arm securely before rotating
   - **Consequence**: Opponent extracts their arm and easily escapes, or worse, takes your back as you overcommit to rotation
   - **Correction**: Establish a deep, tight overhook on their near arm before beginning your rotation. Their arm should be pinned to their body, unable to post or create frames. Test the trap by attempting small rotations before fully committing.
-- **Mistake**: Positioning at incorrect angle (too parallel or too perpendicular) [Low DANGER]
+- **Mistake**: Positioning at incorrect angle (too parallel or too perpendicular)
   - **Consequence**: Choke mechanics fail completely, leaving you vulnerable to opponent's counter-attacks and escapes
   - **Correction**: Your torso should be approximately 90 degrees to opponent's spine. If too parallel, your shoulder won't engage the neck properly. If too perpendicular (past 90 degrees), you lose leverage and they can easily turn into you.
-- **Mistake**: Maintaining choke after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Maintaining choke after partner taps or goes limp
   - **Consequence**: Serious injury including prolonged unconsciousness, brain damage from oxygen deprivation, or death in extreme cases
   - **Correction**: IMMEDIATELY release all grips and pressure the instant you feel a tap or notice your partner's resistance disappearing. Better to release too early than too late. Monitor your partner's consciousness throughout the application.
-- **Mistake**: Applying explosive, jerking pressure instead of gradual compression [CRITICAL DANGER]
+- **Mistake**: Applying explosive, jerking pressure instead of gradual compression
   - **Consequence**: Risk of trachea damage, neck injury, or causing partner to panic and sustain injury while attempting escape
   - **Correction**: In training, apply pressure gradually over 5-7 seconds. Use smooth, controlled hip extension. Save explosive application only for competition scenarios. Your training partner should have time to recognize the choke and tap safely.
-- **Mistake**: Raising your head higher than opponent's head during setup [Low DANGER]
+- **Mistake**: Raising your head higher than opponent's head during setup
   - **Consequence**: Opponent easily sits back or stands up, completely nullifying your position and potentially leading to you being guillotined
   - **Correction**: Keep your head lower than opponent's throughout the setup and finish. Drive your forehead into the mat or their far shoulder. This low head position prevents them from creating the space needed to escape.
-- **Mistake**: Losing the overhook during the rotation to perpendicular position [Medium DANGER]
+- **Mistake**: Losing the overhook during the rotation to perpendicular position
   - **Consequence**: Choke becomes ineffective as opponent's shoulder is no longer part of the choking mechanism, easy escape follows
   - **Correction**: Maintain constant tension on the overhook throughout your entire rotation. Your overhook elbow should stay pinched to your ribs, keeping their arm trapped against their body. Practice the rotation slowly to develop the coordination needed.
 
@@ -351,43 +351,6 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding - Static Drilling** (Week 1-2)
-- Focus: Learn proper grip configuration, arm trap mechanics, and body positioning with zero resistance. Partner remains completely still in turtle position while you practice the entry, rotation, and grip lock. Focus on understanding the perpendicular angle requirement and where your shoulder should contact their neck. Practice release protocol repeatedly.
-- Resistance: None
-- Safety: Memorize tap signals and release protocol before applying any pressure. Practice releasing immediately when partner taps. Understand that this choke can cause unconsciousness rapidly and must never be held after a tap.
-
-**Slow Motion Application** (Week 3-4)
-- Focus: Begin applying light pressure with cooperative partner who provides feedback on pressure levels. Practice the complete sequence from turtle position through to grip lock and finish, but apply pressure over 10-15 seconds. Partner taps early to ensure you develop habit of immediate release. Work on feeling the difference between arm squeeze (incorrect) and shoulder/hip pressure (correct).
-- Resistance: Zero resistance
-- Safety: Apply pressure extremely gradually. Partner should tap at approximately 30-40% of maximum pressure to build safe release habits. Discuss pressure levels after each repetition. Never attempt to finish the choke to unconsciousness.
-
-**Controlled Flow Rolling** (Week 5-8)
-- Focus: Practice recognizing Japanese Necktie opportunities during light flow rolling from turtle and front headlock positions. Partner provides mild resistance but allows you to complete the technique when setup is correct. Work on transitioning from other front headlock attacks (guillotine, anaconda, darce) to Japanese Necktie when opportunities arise. Develop sensitivity to grip fighting and angle creation.
-- Resistance: Mild resistance
-- Safety: Maintain 5-7 second minimum application time even when partner isn't defending hard. Partner should tap when they feel carotid compression beginning, well before any danger of unconsciousness. Focus on control and technique precision rather than submission success rate.
-
-**Progressive Resistance Drilling** (Week 9-12)
-- Focus: Partner provides realistic defensive resistance including arm extraction attempts, base posting, and escape efforts. Learn to recognize when the setup is wrong and transition to alternatives rather than forcing a low-percentage finish. Develop the overhook control and shoulder positioning needed to maintain the submission against intelligent defense. Practice both the standard and rolling variations.
-- Resistance: Realistic resistance
-- Safety: Even with full defensive resistance, maintain controlled pressure application. Partner should still tap early rather than testing their escape ability against a locked submission. Understand that training is not competition - the goal is skill refinement, not proving dominance.
-
-**Situational Sparring Integration** (Week 13-16)
-- Focus: Start from various positions (standing, turtle, sprawl, scramble) and work to recognize and capitalize on Japanese Necktie opportunities in live but controlled sparring. Partner provides full resistance. Develop the ability to chain this submission with other front headlock attacks. Learn when to abandon the attempt and maintain position instead of overcommitting to a failing submission.
-- Resistance: Full resistance
-- Safety: Application speed should still be controlled (3-5 seconds) even in live sparring. Both partners must maintain tap discipline - tapping early and releasing immediately. If training for competition, designate specific competition prep rounds where faster application is allowed, separate from regular training rounds.
-
-**Competition Application and Refinement** (Week 17+)
-- Focus: Refine the technique based on success and failure in competitive sparring and actual competition. Develop personal variations based on your body type, strength, and flexibility. Learn to read opponent's defensive patterns and adjust your attack accordingly. Study competition footage of high-level practitioners using Japanese Necktie successfully.
-- Resistance: Full resistance
-- Safety: In competition, understand that faster application is acceptable, but never hold after tap or unconsciousness. If opponent goes unconscious, release immediately and signal referee. Maintain training discipline of controlled application during regular practice, reserving competition-speed technique only for actual competitions or designated competition prep rounds with experienced partners.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -418,7 +381,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 - [[Arm in Guillotine]]
 - [[North-South Choke]]
 - [[Baseball Bat Choke]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 - [[Brabo Choke]]
 
 
@@ -441,6 +404,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

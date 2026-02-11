@@ -254,7 +254,7 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 
 **If opponent creates defensive frames with arms while defending neck:**
-- Execute **[[Hindulotine to Darce Choke]]** → [[D'arce Control]] (Probability: 65%)
+- Execute **[[Hindulotine to Darce Choke]]** → [[Darce Control]] (Probability: 65%)
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 55%)
 
 
@@ -369,11 +369,11 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 35% |
-| Intermediate | 70% | 60% | 55% |
-| Advanced     | 85% | 80% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 70% |
+| Submission Probability | 65% |
 
 **Average Time in Position**: 15-40 seconds
 
@@ -386,7 +386,7 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 - **[[Front Headlock]]** - Primary entry position and control base
 - **[[Guillotine Control]]** - Parent position with standard mechanics
-- **[[D'arce Control]]** - Common transition when opponent defends
+- **[[Darce Control]]** - Common transition when opponent defends
 - **[[Anaconda Control]]** - Alternative finish from same control position
 - **[[Back Control]]** - High-percentage transition when opponent turns away
 - **[[Mount]]** - Transition option when opponent flattens

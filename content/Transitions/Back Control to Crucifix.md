@@ -153,7 +153,7 @@ description: "Learn Back Control to Crucifix in BJJ. Step-by-step execution from
 The Back Control to Crucifix transition represents a critical advancement in back attack systems, converting standard rear mount dominance into an even more controlling and submission-rich position. This transition capitalizes on the opponent's defensive hand fighting and arm positioning, transforming their defensive frames into liabilities. When executed properly, the crucifix provides superior control over both of the opponent's arms while maintaining back exposure, creating a near-inescapable submission platform. The transition typically occurs when the bottom player attempts to defend the rear naked choke by gripping their own collar or creating defensive frames with their arms. Understanding this positional flow is essential for any serious back attack specialist, as it represents the logical evolution from basic back control to a more sophisticated control position that dramatically increases submission percentages while minimizing escape opportunities.
 
 **From Position**: [[Back Control/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ The Back Control to Crucifix transition represents a critical advancement in bac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the choking arm**: From back control with seatbelt grip, thread your choking-side hand deep across opponent's neck while maintaining your other hook. The choking hand should be palm-down with your forearm cutting across the front of their throat, establishing the foundation for rear naked choke threat that will force defensive reactions. (Timing: Execute when opponent is not actively turning or escaping)
-2. **Bait the defensive grip**: Apply moderate pressure with your choking arm to force opponent to commit both hands to defending their neck. They will typically grab your choking wrist with both hands or grip their own collar defensively, which exposes both arms away from their body and creates the window for crucifix entry. (Timing: Wait for both opponent's hands to elevate toward neck defense)
-3. **Remove the top hook**: Extract your top-side hook (same side as your choking arm) while maintaining bottom hook deeply inserted. This hook removal is critical - your knee will replace this hook's function by coming over the top of opponent's trapped arm. Keep your chest pressure tight to their back during this adjustment. (Timing: Remove hook smoothly when opponent is focused on hand fighting)
-4. **Thread the knee over trapped arm**: Bring your top-side knee over and across the opponent's near-side arm (same side as your choking arm), inserting your shin across their upper back while your knee comes to the mat on the far side of their body. Your shin should pin their arm to their own body, with your knee creating a wedge that prevents arm extraction. (Timing: Move knee over immediately after hook removal)
-5. **Secure the second arm**: Release your bottom-side underhook and reach across to control opponent's far-side wrist or forearm. Pull this arm across their body while your shin pressure maintains control of the near arm. You are now controlling both arms - one pinned under your shin, one controlled by your grip. (Timing: Grip far arm before opponent recognizes the transition)
-6. **Complete crucifix position**: Pull the far arm underneath your bottom-side armpit while maintaining shin pressure on near arm. Your bottom hook remains inserted for stability. Both opponent's arms are now immobilized - near arm trapped under your leg, far arm controlled under your armpit. Adjust your body angle to face more toward opponent's head for optimal submission angles. (Timing: Finalize position with controlled pressure, no rushing)
+1. **Secure the choking arm**: From back control with seatbelt grip, thread your choking-side hand deep across opponent's neck while maintaining your other hook. The choking hand should be palm-down with your forearm cutting across the front of their throat, establishing the foundation for rear naked choke threat that will force defensive reactions.
+2. **Bait the defensive grip**: Apply moderate pressure with your choking arm to force opponent to commit both hands to defending their neck. They will typically grab your choking wrist with both hands or grip their own collar defensively, which exposes both arms away from their body and creates the window for crucifix entry.
+3. **Remove the top hook**: Extract your top-side hook (same side as your choking arm) while maintaining bottom hook deeply inserted. This hook removal is critical - your knee will replace this hook's function by coming over the top of opponent's trapped arm. Keep your chest pressure tight to their back during this adjustment.
+4. **Thread the knee over trapped arm**: Bring your top-side knee over and across the opponent's near-side arm (same side as your choking arm), inserting your shin across their upper back while your knee comes to the mat on the far side of their body. Your shin should pin their arm to their own body, with your knee creating a wedge that prevents arm extraction.
+5. **Secure the second arm**: Release your bottom-side underhook and reach across to control opponent's far-side wrist or forearm. Pull this arm across their body while your shin pressure maintains control of the near arm. You are now controlling both arms - one pinned under your shin, one controlled by your grip.
+6. **Complete crucifix position**: Pull the far arm underneath your bottom-side armpit while maintaining shin pressure on near arm. Your bottom hook remains inserted for stability. Both opponent's arms are now immobilized - near arm trapped under your leg, far arm controlled under your armpit. Adjust your body angle to face more toward opponent's head for optimal submission angles.
 
 
 </section>
@@ -254,23 +254,18 @@ The Back Control to Crucifix transition represents a critical advancement in bac
 ## Training Progressions
 **Week 1-2: Positional Understanding** - Static position recognition and entry mechanics
 Start from established back control with partner's arms in defensive position. Practice removing top hook and threading knee over near arm slowly and deliberately. Partner remains static, allowing you to feel proper shin placement and body angles. Focus on maintaining bottom hook throughout.
-(Resistance: None)
 
 **Week 3-4: Dynamic Entry** - Transitioning from live back control scenarios
 Partner begins with back control defense (gripping collar, hand fighting). Practice baiting the defensive reaction with choke threats, then executing the transition at medium speed. Partner provides light resistance by attempting to keep arms tight when they recognize the attempt.
-(Resistance: Light)
 
 **Week 5-8: Submission Integration** - Completing attacks from crucifix position
 Execute full transition from back control to crucifix, then practice finishing with armbars, chokes from crucifix, or returning to back control if opponent defends. Partner provides moderate resistance throughout transition and submission attempts.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Maintaining position against common escapes
 Partner actively attempts to prevent crucifix entry by keeping arms tight, rolling, or bridging. Practice reading defensive patterns and timing your entry when openings appear. Develop backup plans when transition is denied.
-(Resistance: Medium)
 
 **Week 13+: Competition Drilling** - High-pressure execution and positional flow
 Full resistance back attack scenarios where partner defends intelligently. Practice flowing between back control, crucifix, and mounted crucifix variations. Integrate into sparring as high-percentage back attack option.
-(Resistance: Full)
 
 
 

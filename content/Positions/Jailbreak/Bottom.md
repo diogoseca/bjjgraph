@@ -366,11 +366,11 @@ Bottom player executes jailbreak while top player intentionally follows the roll
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 10% |
-| Intermediate | 60% | 50% | 25% |
-| Advanced     | 75% | 70% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 60% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 5-15 seconds
 

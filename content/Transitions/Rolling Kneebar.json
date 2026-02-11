@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Rolling Kneebar is a dynamic leg attack initiated from Grasshopper Guard that uses rotational momentum to capture and hyperextend the opponent's knee. This technique leverages the inverted positioning inherent to grasshopper guard, converting the guard player's elevated hips and leg entanglement into an aggressive rolling submission entry.\n\nThe attack works by using the bottom player's existing leg contact as an anchor point while rolling underneath and through the opponent's base. As you roll, your legs trap the opponent's leg while your hips rotate to create the breaking angle across their knee joint. The momentum of the roll makes this attack difficult to defend once initiated properly, as the opponent must deal with both the rotational force and the sudden positional change.\n\nStrategically, the Rolling Kneebar excels when opponents attempt to back step away from grasshopper guard. Their retreating motion actually facilitates the roll by creating space and providing directional momentum. The technique also works when opponents freeze against your leg engagement, as their static positioning gives you time to set the roll. However, against opponents who drive forward aggressively, the roll becomes harder to execute and other attacks like X-Guard sweeps become preferable.\n\nThis submission requires significant timing and body coordination, as the roll must be executed smoothly while maintaining leg control throughout. Rushing the roll or losing hip connection mid-technique typically results in the opponent extracting their leg and passing. Mastery requires understanding the precise moment when your hip elevation, leg grip, and opponent's positioning align to create the ideal rolling window.",
   "key_principles": [
     "Maintain leg contact throughout the entire rolling motion to prevent escape",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Secure leg control",
-      "description": "From grasshopper guard, ensure your inside leg hooks firmly behind opponent's knee while your outside leg controls their hip or far leg. This dual contact prevents them from stepping away during the roll.",
-      "timing": "Before initiating any movement"
+      "description": "From grasshopper guard, ensure your inside leg hooks firmly behind opponent's knee while your outside leg controls their hip or far leg. This dual contact prevents them from stepping away during the roll."
     },
     {
       "step_number": 2,
       "action": "Load hips toward target",
-      "description": "Shift your hip angle to face the trapped leg directly, loading your weight onto the shoulder on the rolling side. Your body should form a diagonal line pointing at their knee.",
-      "timing": "1-2 seconds before roll"
+      "description": "Shift your hip angle to face the trapped leg directly, loading your weight onto the shoulder on the rolling side. Your body should form a diagonal line pointing at their knee."
     },
     {
       "step_number": 3,
       "action": "Initiate roll",
-      "description": "Push off with your hands and shoulder, rolling underneath the opponent toward their trapped leg. Drive your hips through the roll rather than just spinning on your back - the hip drive creates the momentum needed to carry their leg with you.",
-      "timing": "Explosive initiation"
+      "description": "Push off with your hands and shoulder, rolling underneath the opponent toward their trapped leg. Drive your hips through the roll rather than just spinning on your back - the hip drive creates the momentum needed to carry their leg with you."
     },
     {
       "step_number": 4,
       "action": "Thread legs during rotation",
-      "description": "As you roll, thread your legs into figure-four configuration around their trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock around their leg.",
-      "timing": "Mid-roll"
+      "description": "As you roll, thread your legs into figure-four configuration around their trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock around their leg."
     },
     {
       "step_number": 5,
       "action": "Complete rotation to belly-down",
-      "description": "Continue rolling until you achieve belly-down position perpendicular to opponent. Your hips should now be positioned directly over their knee joint with their foot trapped between your arm and body.",
-      "timing": "Complete roll in one motion"
+      "description": "Continue rolling until you achieve belly-down position perpendicular to opponent. Your hips should now be positioned directly over their knee joint with their foot trapped between your arm and body."
     },
     {
       "step_number": 6,
       "action": "Secure finishing position",
-      "description": "Pull their foot tight to your chest, pinch your knees together to prevent rotation, and bridge your hips forward to apply hyperextension pressure to the knee. Keep their toes pointed toward ceiling for optimal breaking angle.",
-      "timing": "Immediate upon completing roll"
+      "description": "Pull their foot tight to your chest, pinch your knees together to prevent rotation, and bridge your hips forward to apply hyperextension pressure to the knee. Keep their toes pointed toward ceiling for optimal breaking angle."
     }
   ],
   "common_counters": [
@@ -147,26 +136,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rolling mechanics",
-      "description": "Practice the roll without resistance, focusing on maintaining hip elevation throughout rotation. Partner stands still while you drill the movement pattern from grasshopper to belly-down kneebar position. Emphasize smooth continuous motion over speed.",
-      "resistance_level": "None"
+      "description": "Practice the roll without resistance, focusing on maintaining hip elevation throughout rotation. Partner stands still while you drill the movement pattern from grasshopper to belly-down kneebar position. Emphasize smooth continuous motion over speed."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and entry",
-      "description": "Partner provides light resistance and attempts basic escapes. Focus on identifying the correct moment to initiate roll based on partner's weight distribution and base width. Begin linking the roll to specific triggers like back stepping or freezing.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance and attempts basic escapes. Focus on identifying the correct moment to initiate roll based on partner's weight distribution and base width. Begin linking the roll to specific triggers like back stepping or freezing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Practice converting to alternative attacks when rolling kneebar is defended. Partner uses medium resistance and specific counters. Develop muscle memory for transitioning to heel hooks, ankle locks, and sweeps when primary attack fails.",
-      "resistance_level": "Medium"
+      "description": "Practice converting to alternative attacks when rolling kneebar is defended. Partner uses medium resistance and specific counters. Develop muscle memory for transitioning to heel hooks, ankle locks, and sweeps when primary attack fails."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Integrate rolling kneebar into full sparring from grasshopper guard. Focus on recognizing opportunities in live exchanges and executing with appropriate timing against resisting opponents. Develop competition-ready reliability.",
-      "resistance_level": "Full"
+      "description": "Integrate rolling kneebar into full sparring from grasshopper guard. Focus on recognizing opportunities in live exchanges and executing with appropriate timing against resisting opponents. Develop competition-ready reliability."
     }
   ],
   "variants_and_adaptations": [
@@ -189,53 +174,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Rolling Kneebar from Grasshopper Guard?",
-      "answer": "The primary goal is to use rotational momentum from the inverted grasshopper position to capture the opponent's leg and transition into a belly-down kneebar control position where hyperextension pressure can be applied to the knee joint.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to use rotational momentum from the inverted grasshopper position to capture the opponent's leg and transition into a belly-down kneebar control position where hyperextension pressure can be applied to the knee joint."
     },
     {
       "question": "Your opponent begins back stepping away from your grasshopper guard - how does this affect your Rolling Kneebar timing?",
-      "answer": "The back step actually creates the ideal moment to initiate the Rolling Kneebar. Their retreating motion creates space for your roll and provides directional momentum that facilitates the technique. Initiate the roll immediately as they commit to the back step, using their movement to carry your rotation.",
-      "difficulty": "Intermediate"
+      "answer": "The back step actually creates the ideal moment to initiate the Rolling Kneebar. Their retreating motion creates space for your roll and provides directional momentum that facilitates the technique. Initiate the roll immediately as they commit to the back step, using their movement to carry your rotation."
     },
     {
       "question": "What leg configuration must you achieve during the roll to secure the kneebar?",
-      "answer": "You must thread your legs into a figure-four configuration around the trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock that prevents leg extraction and provides the base for finishing pressure.",
-      "difficulty": "Beginner"
+      "answer": "You must thread your legs into a figure-four configuration around the trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock that prevents leg extraction and provides the base for finishing pressure."
     },
     {
       "question": "Your opponent posts their hand and sprawls as you initiate the roll - what adjustment should you make?",
-      "answer": "When the sprawl stops your roll, immediately convert to an inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position. The sprawl often exposes their heel for this counter-attack while their posted hand prevents them from defending the new submission angle.",
-      "difficulty": "Advanced"
+      "answer": "When the sprawl stops your roll, immediately convert to an inside heel hook by retracting the trapped leg toward your hips and rotating to outside ashi position. The sprawl often exposes their heel for this counter-attack while their posted hand prevents them from defending the new submission angle."
     },
     {
       "question": "What is the critical hip movement during the Rolling Kneebar execution?",
-      "answer": "The hips must drive directly toward the opponent's trapped knee during the roll, not just rotate around them. This hip drive creates the momentum needed to carry their leg into finishing position and keeps your body tight to their base, preventing the distance that would allow leg extraction.",
-      "difficulty": "Intermediate"
+      "answer": "The hips must drive directly toward the opponent's trapped knee during the roll, not just rotate around them. This hip drive creates the momentum needed to carry their leg into finishing position and keeps your body tight to their base, preventing the distance that would allow leg extraction."
     },
     {
       "question": "Why is completing the positional roll before attempting the finish so important?",
-      "answer": "Attempting to finish before completing the roll allows the opponent to easily defend the half-completed attack, often leading to guard pass or back take. The full rotation to belly-down position is necessary to establish the control and angle required for effective knee hyperextension pressure.",
-      "difficulty": "Beginner"
+      "answer": "Attempting to finish before completing the roll allows the opponent to easily defend the half-completed attack, often leading to guard pass or back take. The full rotation to belly-down position is necessary to establish the control and angle required for effective knee hyperextension pressure."
     },
     {
       "question": "What grip and body positioning is required to finish the kneebar after completing the roll?",
-      "answer": "Pull their foot tight to your chest with their toes pointed toward the ceiling, pinch your knees together to prevent rotation of their leg, then bridge your hips forward to apply hyperextension pressure. The combination of foot control, leg pinch, and hip bridge creates the optimal breaking mechanics.",
-      "difficulty": "Intermediate"
+      "answer": "Pull their foot tight to your chest with their toes pointed toward the ceiling, pinch your knees together to prevent rotation of their leg, then bridge your hips forward to apply hyperextension pressure. The combination of foot control, leg pinch, and hip bridge creates the optimal breaking mechanics."
     },
     {
       "question": "Your opponent straightens their leg and pulls their knee away before you complete the figure-four - what alternative attack opens up?",
-      "answer": "Transition immediately to a straight ankle lock on the same leg by switching your grip from their knee area to their heel. Their straightened leg actually makes the ankle lock easier to finish, as the extended position exposes the Achilles tendon for compression.",
-      "difficulty": "Advanced"
+      "answer": "Transition immediately to a straight ankle lock on the same leg by switching your grip from their knee area to their heel. Their straightened leg actually makes the ankle lock easier to finish, as the extended position exposes the Achilles tendon for compression."
     },
     {
       "question": "How should you position your arms during the rolling phase?",
-      "answer": "Keep elbows tight to your ribs throughout the rotation to prevent them from getting trapped under the opponent. Only extend arms to grip the leg after the roll is complete. Extended arms during the roll create entanglement risk and can cause shoulder injuries if caught under the opponent's weight.",
-      "difficulty": "Intermediate"
+      "answer": "Keep elbows tight to your ribs throughout the rotation to prevent them from getting trapped under the opponent. Only extend arms to grip the leg after the roll is complete. Extended arms during the roll create entanglement risk and can cause shoulder injuries if caught under the opponent's weight."
     },
     {
       "question": "When facing an opponent who drives forward aggressively from standing, is the Rolling Kneebar the optimal attack choice?",
-      "answer": "No, the Rolling Kneebar becomes significantly harder against forward-driving opponents because their pressure flattens your inversion and denies the space needed for the roll. Against aggressive forward pressure, X-Guard elevation sweeps or single leg X transitions are preferable, as they convert the opponent's momentum into sweeping leverage.",
-      "difficulty": "Advanced"
+      "answer": "No, the Rolling Kneebar becomes significantly harder against forward-driving opponents because their pressure flattens your inversion and denies the space needed for the roll. Against aggressive forward pressure, X-Guard elevation sweeps or single leg X transitions are preferable, as they convert the opponent's momentum into sweeping leverage."
     }
   ],
   "safety_considerations": "The Rolling Kneebar attacks the knee joint, which has limited range of motion and no pain warning before injury occurs. Always apply pressure gradually and progressively, never explosively. Partners must tap early when hyperextension begins - the knee can be damaged before significant pain is felt. During training, communicate clearly before drilling and establish tap protocols. Avoid this technique if either partner has existing knee injuries. The rolling motion can also cause shoulder and neck strain if executed incorrectly - ensure proper technique before adding resistance. In competition, be prepared to release immediately upon tap as the position makes verbal taps difficult to hear.",
@@ -281,5 +256,6 @@
       "name": "Straight Ankle Lock Entry",
       "relationship": "Chain attack when leg straightens"
     }
-  ]
+  ],
+  "success_rate": 58
 }

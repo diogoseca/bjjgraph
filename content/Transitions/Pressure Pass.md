@@ -159,7 +159,7 @@ description: "Master the Pressure Pass in BJJ. Complete guide to heavy pressure 
 The Pressure Pass is a fundamental guard passing technique that relies on controlled, heavy pressure to pin the opponent's hips and progressively advance past their legs. Unlike speed-based passes that seek to quickly bypass the guard, pressure passing emphasizes control, weight distribution, and methodical advancement. This approach is particularly effective against flexible opponents or those with strong retention, as it limits their mobility and forces them to carry your weight while you systematically break down their defensive structure. The Pressure Pass can be initiated from various guard positions including closed guard, half guard, and open guard variations. The key principle is establishing chest-to-chest or chest-to-hip pressure while controlling the opponent's hips and preventing them from creating space or recovering their guard. This pass is highly effective in gi and no-gi contexts and forms the foundation of many modern guard passing systems. The technique requires patience, proper weight distribution, and the ability to maintain pressure while advancing position incrementally.
 
 **From Position**: [[Combat Base/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -208,13 +208,13 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish combat base position**: From inside opponent's guard, posture up and establish combat base with one knee up and one knee down. Your lead knee should be between opponent's legs while your back foot is planted flat for base. Grip opponent's pants at both knees or one knee and one belt/hip area. (Timing: Initial positioning phase)
-2. **Open and pin opponent's legs**: Use your grips to push opponent's knees apart and down toward the mat. As you create this opening, begin to drive your chest forward and down toward opponent's hips or lower chest. Your head should be positioned on one side (typically the side you'll pass toward). (Timing: Coordinated with hip pressure)
-3. **Apply chest-to-chest or chest-to-hip pressure**: Drive your chest heavily into opponent's body, making them carry your weight. Keep your hips low and drive them forward to maximize pressure. Your chest should create a crushing sensation that limits opponent's ability to move their hips or create frames. (Timing: Continuous throughout the pass)
-4. **Establish crossface or underhook control**: As you maintain pressure, secure either a crossface (forearm across opponent's face driving to far side) or an underhook on the near side. The crossface prevents them from turning toward you while the underhook controls their shoulder and prevents defensive frames. (Timing: As opponent tries to defend)
-5. **Clear the near leg**: While maintaining upper body pressure and control, use your free hand to clear opponent's near leg away from your body. Push the knee down toward the mat or hook it with your elbow to prevent it from blocking your advancement. (Timing: Progressive clearing motion)
-6. **Step over and consolidate hip control**: Step your outside leg over opponent's cleared leg while maintaining heavy chest pressure. Your knee should land on the mat near their hip. Keep driving pressure through your chest to prevent them from recovering guard. (Timing: Smooth stepping motion)
-7. **Secure side control position**: Bring your trailing leg through to establish full side control. Ensure your chest remains heavy on opponent's chest, your hips are low and perpendicular to their body, and you maintain crossface or underhook control. Your head should be tight to their far shoulder. (Timing: Final consolidation)
+1. **Establish combat base position**: From inside opponent's guard, posture up and establish combat base with one knee up and one knee down. Your lead knee should be between opponent's legs while your back foot is planted flat for base. Grip opponent's pants at both knees or one knee and one belt/hip area.
+2. **Open and pin opponent's legs**: Use your grips to push opponent's knees apart and down toward the mat. As you create this opening, begin to drive your chest forward and down toward opponent's hips or lower chest. Your head should be positioned on one side (typically the side you'll pass toward).
+3. **Apply chest-to-chest or chest-to-hip pressure**: Drive your chest heavily into opponent's body, making them carry your weight. Keep your hips low and drive them forward to maximize pressure. Your chest should create a crushing sensation that limits opponent's ability to move their hips or create frames.
+4. **Establish crossface or underhook control**: As you maintain pressure, secure either a crossface (forearm across opponent's face driving to far side) or an underhook on the near side. The crossface prevents them from turning toward you while the underhook controls their shoulder and prevents defensive frames.
+5. **Clear the near leg**: While maintaining upper body pressure and control, use your free hand to clear opponent's near leg away from your body. Push the knee down toward the mat or hook it with your elbow to prevent it from blocking your advancement.
+6. **Step over and consolidate hip control**: Step your outside leg over opponent's cleared leg while maintaining heavy chest pressure. Your knee should land on the mat near their hip. Keep driving pressure through your chest to prevent them from recovering guard.
+7. **Secure side control position**: Bring your trailing leg through to establish full side control. Ensure your chest remains heavy on opponent's chest, your hips are low and perpendicular to their body, and you maintain crossface or underhook control. Your head should be tight to their far shoulder.
 
 
 </section>
@@ -260,23 +260,18 @@ The Pressure Pass is a fundamental guard passing technique that relies on contro
 ## Training Progressions
 **Week 1-2: Pressure Mechanics** - Establishing proper pressure and weight distribution
 Practice maintaining heavy chest pressure from combat base against stationary opponent. Focus on hip positioning, chest contact, and making partner carry your weight. Partner provides no resistance, allowing you to feel proper pressure mechanics.
-(Resistance: None)
 
 **Week 3-4: Basic Pass with Light Resistance** - Completing full pressure pass sequence with minimal counters
 Execute complete pressure pass from combat base to side control with partner offering light resistance. Partner may attempt to create frames but doesn't actively recover guard. Focus on maintaining pressure throughout the movement.
-(Resistance: Light)
 
 **Week 5-8: Dealing with Common Frames and Resistance** - Passing against frames, hip escapes, and guard recovery attempts
 Partner actively attempts to frame, create distance, and recover guard. Practice collapsing frames, maintaining pressure during hip movement, and dealing with common defensive reactions. Work both gi and no-gi variations.
-(Resistance: Medium)
 
 **Week 9-12: Dynamic Passing and Counter Responses** - Chaining pressure pass with other passing options and countering advanced defenses
 Partner uses full defensive toolkit including deep half attempts, underhooks, and dynamic guard recovery. Practice recognizing when to continue pressure pass versus transitioning to knee slice, leg drag, or other complementary passes.
-(Resistance: Medium)
 
 **Month 4+: Full Resistance and Competition Application** - Applying pressure passing in live rolling and competition scenarios
 Use pressure passing as primary passing method during positional sparring from various guard positions. Integrate with your overall passing system and develop ability to maintain pressure against fully resisting opponents of various sizes and skill levels.
-(Resistance: Full)
 
 
 

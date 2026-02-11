@@ -354,11 +354,11 @@ Partner establishes Russian Cowboy then periodically loosens control. Practice r
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 15% |
-| Intermediate | 45% | 40% | 25% |
-| Advanced     | 65% | 60% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 50% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 20-45 seconds before escape or submission
 

@@ -361,11 +361,11 @@ Bottom player in worm guard attempts to off-balance top player using lapel mecha
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 20% | 5% |
-| Intermediate | 55% | 42% | 12% |
-| Advanced     | 70% | 60% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 51% |
+| Submission Probability | 16% |
 
 **Average Time in Position**: 45-90 seconds for successful pass
 

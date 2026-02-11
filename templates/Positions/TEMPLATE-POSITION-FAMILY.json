@@ -379,91 +379,28 @@
           "properties": {
             "retention_rate": {
               "type": "object",
-              "required": [
-                "beginner",
-                "intermediate",
-                "advanced"
-              ],
+              "required": ["value"],
               "properties": {
-                "beginner": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "intermediate": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "advanced": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "description": {
-                  "type": "string",
-                  "minLength": 10
-                }
+                "value": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "description": { "type": "string", "minLength": 10 }
               },
               "additionalProperties": false
             },
             "advancement_probability": {
               "type": "object",
-              "required": [
-                "beginner",
-                "intermediate",
-                "advanced"
-              ],
+              "required": ["value"],
               "properties": {
-                "beginner": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "intermediate": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "advanced": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "description": {
-                  "type": "string",
-                  "minLength": 10
-                }
+                "value": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "description": { "type": "string", "minLength": 10 }
               },
               "additionalProperties": false
             },
             "submission_probability": {
               "type": "object",
-              "required": [
-                "beginner",
-                "intermediate",
-                "advanced"
-              ],
+              "required": ["value"],
               "properties": {
-                "beginner": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "intermediate": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "advanced": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "description": {
-                  "type": "string",
-                  "minLength": 10
-                }
+                "value": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "description": { "type": "string", "minLength": 10 }
               },
               "additionalProperties": false
             },
@@ -765,91 +702,28 @@
           "properties": {
             "retention_rate": {
               "type": "object",
-              "required": [
-                "beginner",
-                "intermediate",
-                "advanced"
-              ],
+              "required": ["value"],
               "properties": {
-                "beginner": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "intermediate": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "advanced": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "description": {
-                  "type": "string",
-                  "minLength": 10
-                }
+                "value": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "description": { "type": "string", "minLength": 10 }
               },
               "additionalProperties": false
             },
             "advancement_probability": {
               "type": "object",
-              "required": [
-                "beginner",
-                "intermediate",
-                "advanced"
-              ],
+              "required": ["value"],
               "properties": {
-                "beginner": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "intermediate": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "advanced": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "description": {
-                  "type": "string",
-                  "minLength": 10
-                }
+                "value": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "description": { "type": "string", "minLength": 10 }
               },
               "additionalProperties": false
             },
             "submission_probability": {
               "type": "object",
-              "required": [
-                "beginner",
-                "intermediate",
-                "advanced"
-              ],
+              "required": ["value"],
               "properties": {
-                "beginner": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "intermediate": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "advanced": {
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 100
-                },
-                "description": {
-                  "type": "string",
-                  "minLength": 10
-                }
+                "value": { "type": "integer", "minimum": 0, "maximum": 100 },
+                "description": { "type": "string", "minLength": 10 }
               },
               "additionalProperties": false
             },

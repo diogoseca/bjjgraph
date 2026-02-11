@@ -259,19 +259,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "average_time": "45-90 seconds in competitive scenarios, longer in training"
     },
@@ -573,46 +567,64 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 25
+        "value": 20
       },
       "average_time": "20-60 seconds"
     },
     "transitions": [
       {
         "transition": "50-50 Entry",
-        "attempt_probability": 16
+        "attempt_probability": 8
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 17
+        "attempt_probability": 9
       },
       {
         "transition": "Granby Roll Escape",
-        "attempt_probability": 14
+        "attempt_probability": 7
       },
       {
         "transition": "Reverse X-Guard Entry",
-        "attempt_probability": 16
+        "attempt_probability": 8
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
-        "attempt_probability": 17
+        "attempt_probability": 9
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 20
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Clear leg and transition to X-Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Extract leg and establish Single Leg X",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Granby roll to reverse position",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Limp leg extraction to Half Guard",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Reverse the entanglement to Outside Ashi",
+        "attempt_probability": 8
       }
     ],
     "knowledge_assessment": [

@@ -159,7 +159,7 @@ description: "Master the Knee Slice Pass in BJJ. High-percentage guard passing t
 The Knee Slice Pass is one of the most fundamental and high-percentage guard passing techniques in Brazilian Jiu-Jitsu. This pass involves cutting through the opponent's guard by driving your knee across their thighs while controlling their upper body, effectively bisecting their defensive structure. The technique is particularly effective from half guard and open guard positions, where the passer can establish strong control points before initiating the slice. The knee slice creates a powerful combination of forward pressure and lateral movement that makes it extremely difficult for the bottom player to retain guard. The pass works across all levels of competition and remains a staple in modern BJJ due to its mechanical efficiency and adaptability to both gi and no-gi contexts. Understanding the knee slice is essential for developing a complete passing game, as it serves as a gateway to numerous other passing sequences and submissions.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -209,13 +209,13 @@ The Knee Slice Pass is one of the most fundamental and high-percentage guard pas
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control points**: Secure a strong collar grip with your lead hand and control the opponent's far sleeve or wrist. Your other hand should control their near hip or pants to prevent them from turning into you. Ensure your head is positioned on the opposite side of where your knee will slice. (Timing: Initial setup phase)
-2. **Clear the bottom leg**: If passing from half guard, use your free leg to backstep and clear the bottom hook. Drive your shin across the opponent's thigh to create separation. If passing from open guard, establish your knee position on top of their thigh, preparing to slice. (Timing: Pre-slice preparation)
-3. **Begin the knee slice**: Drive your knee across the opponent's thighs at approximately a 45-degree angle, slicing from outside to inside. Your knee should cut through the space between their legs while your shin creates a barrier. Keep your hips low and weight driving forward into their center. (Timing: Active slicing phase)
-4. **Control the far hip**: As your knee slices through, use your grip on their far hip or pants to prevent them from turning into you or recovering guard. This control is critical - your hand should be glued to their hip, feeling for any attempt to escape or re-guard. (Timing: Mid-slice control)
-5. **Drive head and shoulder pressure**: Apply significant pressure with your head on the opposite side of the slice, driving into their chest or shoulder. Your shoulder should follow, creating a crossface that controls their upper body and prevents them from coming up to their side. This pressure is essential for completing the pass. (Timing: Pressure application phase)
-6. **Complete the pass**: As your knee clears their legs completely, swing your slicing leg back and establish side control. Your hips should drop to the mat, and you should immediately secure standard side control grips - one underhook or head control, one controlling the far hip. Ensure your chest pressure is heavy and your base is wide. (Timing: Completion and consolidation)
-7. **Consolidate position**: Settle your weight, ensuring your opponent is flat on their back with no frames between you. Establish a strong crossface, control their hips, and position your body perpendicular to theirs. Make micro-adjustments to eliminate any space they might use to escape or re-guard. (Timing: Post-pass stabilization)
+1. **Establish control points**: Secure a strong collar grip with your lead hand and control the opponent's far sleeve or wrist. Your other hand should control their near hip or pants to prevent them from turning into you. Ensure your head is positioned on the opposite side of where your knee will slice.
+2. **Clear the bottom leg**: If passing from half guard, use your free leg to backstep and clear the bottom hook. Drive your shin across the opponent's thigh to create separation. If passing from open guard, establish your knee position on top of their thigh, preparing to slice.
+3. **Begin the knee slice**: Drive your knee across the opponent's thighs at approximately a 45-degree angle, slicing from outside to inside. Your knee should cut through the space between their legs while your shin creates a barrier. Keep your hips low and weight driving forward into their center.
+4. **Control the far hip**: As your knee slices through, use your grip on their far hip or pants to prevent them from turning into you or recovering guard. This control is critical - your hand should be glued to their hip, feeling for any attempt to escape or re-guard.
+5. **Drive head and shoulder pressure**: Apply significant pressure with your head on the opposite side of the slice, driving into their chest or shoulder. Your shoulder should follow, creating a crossface that controls their upper body and prevents them from coming up to their side. This pressure is essential for completing the pass.
+6. **Complete the pass**: As your knee clears their legs completely, swing your slicing leg back and establish side control. Your hips should drop to the mat, and you should immediately secure standard side control grips - one underhook or head control, one controlling the far hip. Ensure your chest pressure is heavy and your base is wide.
+7. **Consolidate position**: Settle your weight, ensuring your opponent is flat on their back with no frames between you. Establish a strong crossface, control their hips, and position your body perpendicular to theirs. Make micro-adjustments to eliminate any space they might use to escape or re-guard.
 
 
 </section>
@@ -261,27 +261,21 @@ The Knee Slice Pass is one of the most fundamental and high-percentage guard pas
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic knee slice motion and body positioning
 Practice the slicing motion with a completely stationary partner. Focus on proper knee angle, hip position, and maintaining low posture. Drill the movement slowly, emphasizing proper mechanics over speed. Partner provides zero resistance, allowing you to develop muscle memory for the correct movement pattern.
-(Resistance: None)
 
 **Week 3-4: Control Point Integration** - Adding grips and pressure during the slice
 Partner now holds static guard position but doesn't actively defend. Practice establishing your grips (collar, far sleeve, far hip) before initiating the slice. Focus on maintaining these control points throughout the entire pass. Begin incorporating head pressure and crossface during the slice.
-(Resistance: Light)
 
 **Week 5-6: Dealing with Frames** - Passing against knee shield and other defensive frames
 Partner now uses defensive frames (knee shield, collar ties, pushing on hips) but doesn't actively try to sweep or submit. Learn to feel frames, break them down systematically, and continue your pass. This phase teaches you to maintain forward pressure while dealing with common defensive structures.
-(Resistance: Medium)
 
 **Week 7-8: Dynamic Passing** - Passing against active guard retention and recovery
 Partner actively tries to prevent the pass by recovering guard, turning away, or establishing strong frames. You must now combine all previous elements while reading and reacting to their defensive movements. Begin chaining the knee slice with other passes (long step, leg drag) when countered.
-(Resistance: Full)
 
 **Week 9-10: Transition to Submissions** - Attacking from the knee slice position
 Learn to recognize submission opportunities during the pass. Practice transitioning to kimura, darce, or arm triangle when opponent defends the pass in specific ways. This phase connects passing to submission chains, making your knee slice more dangerous overall.
-(Resistance: Full)
 
 **Week 11+: Competition Integration** - Using knee slice in full sparring and competition scenarios
 Integrate the knee slice into your regular rolling sessions. Focus on recognizing when the knee slice is the highest percentage option versus other passes. Develop the ability to chain it with your other passes seamlessly. Begin using it in competition or competition-style sparring.
-(Resistance: Full)
 
 
 

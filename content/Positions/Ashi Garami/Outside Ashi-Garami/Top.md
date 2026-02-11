@@ -375,11 +375,11 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 40% | 20% |
-| Intermediate | 50% | 55% | 35% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 15-30 seconds (immediate escape required)
 

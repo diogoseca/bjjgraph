@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Grasshopper Sweep is a dynamic elevation sweep executed from the inverted Grasshopper Guard position, designed to off-balance a standing or kneeling opponent and transition directly to Mount. This technique leverages the unique mechanics of inverted guards where the bottom practitioner uses their shoulders as a base while driving their hips upward into the opponent's center of mass.\n\nThe sweep capitalizes on the opponent's forward commitment or narrow base, using leg hooks behind their knees combined with explosive hip elevation to lift and dump them backward. Unlike traditional sweeps that rely on lateral off-balancing, the Grasshopper Sweep works primarily in the vertical plane, making it particularly effective when opponents attempt to pressure forward into the guard.\n\nStrategically, this sweep functions as a high-reward option within the Grasshopper Guard system. When opponents recognize the leg entanglement threats from grasshopper and begin backing away or widening their base defensively, they often create the exact conditions needed for this sweep. The technique requires precise timing and substantial core strength to execute, but when landed correctly, it bypasses the half guard and side control positions entirely, placing you directly in mount with significant momentum advantage.",
   "key_principles": [
     "Hip elevation must precede the sweep motion - drive hips toward ceiling before attempting to tip opponent",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Establish inversion",
-      "description": "From seated or open guard, invert your body placing weight on shoulder blades with hips elevated above torso level. Maintain strong core engagement to keep hips high.",
-      "timing": "2-3 seconds to establish stable inverted base"
+      "description": "From seated or open guard, invert your body placing weight on shoulder blades with hips elevated above torso level. Maintain strong core engagement to keep hips high."
     },
     {
       "step_number": 2,
       "action": "Insert leg hooks",
-      "description": "Thread both legs behind opponent's knees, creating hooks with your feet curling around the back of their thighs. The hooks should be deep enough to control their base.",
-      "timing": "As opponent steps into range or commits weight forward"
+      "description": "Thread both legs behind opponent's knees, creating hooks with your feet curling around the back of their thighs. The hooks should be deep enough to control their base."
     },
     {
       "step_number": 3,
       "action": "Control grips",
-      "description": "Establish grips on opponent's ankles, heels, or pants near the ankle area. These grips prevent them from stepping back and provide additional control for the elevation.",
-      "timing": "Immediately after hooks are established"
+      "description": "Establish grips on opponent's ankles, heels, or pants near the ankle area. These grips prevent them from stepping back and provide additional control for the elevation."
     },
     {
       "step_number": 4,
       "action": "Explosive hip drive",
-      "description": "Drive hips explosively toward the ceiling while simultaneously pulling opponent's ankles toward you and extending your legs. Your hip elevation lifts them off the ground.",
-      "timing": "When opponent's weight shifts forward or they attempt to pressure"
+      "description": "Drive hips explosively toward the ceiling while simultaneously pulling opponent's ankles toward you and extending your legs. Your hip elevation lifts them off the ground."
     },
     {
       "step_number": 5,
       "action": "Guide the fall",
-      "description": "As opponent tips backward, continue extending your legs and driving your hips upward. Follow their falling motion with your body, beginning to rotate from inverted to upright.",
-      "timing": "Immediately following successful elevation"
+      "description": "As opponent tips backward, continue extending your legs and driving your hips upward. Follow their falling motion with your body, beginning to rotate from inverted to upright."
     },
     {
       "step_number": 6,
       "action": "Establish mount",
-      "description": "As opponent lands on their back, complete your rotation and land in mount position. Immediately establish base with hands posted and hips heavy on their torso.",
-      "timing": "0.5-1 second after opponent contacts the mat"
+      "description": "As opponent lands on their back, complete your rotation and land in mount position. Immediately establish base with hands posted and hips heavy on their torso."
     }
   ],
   "common_counters": [
@@ -145,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Inversion mechanics",
-      "description": "Practice establishing and holding the inverted grasshopper position with proper shoulder base and hip elevation. Work on maintaining the position for 20-30 second intervals without partner resistance.",
-      "resistance_level": "None"
+      "description": "Practice establishing and holding the inverted grasshopper position with proper shoulder base and hip elevation. Work on maintaining the position for 20-30 second intervals without partner resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Hook and grip establishment",
-      "description": "With compliant partner, practice inserting leg hooks and establishing ankle grips. Focus on hook depth and maintaining connection as partner makes small movements. No sweep attempts yet.",
-      "resistance_level": "Light"
+      "description": "With compliant partner, practice inserting leg hooks and establishing ankle grips. Focus on hook depth and maintaining connection as partner makes small movements. No sweep attempts yet."
     },
     {
       "phase": "Week 5-6",
       "focus": "Sweep timing and execution",
-      "description": "Execute full sweep against partner giving 50% resistance. Partner provides forward pressure cues for timing. Focus on explosive hip drive and following through to mount position.",
-      "resistance_level": "Medium"
+      "description": "Execute full sweep against partner giving 50% resistance. Partner provides forward pressure cues for timing. Focus on explosive hip drive and following through to mount position."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Incorporate sweep into live rolling from grasshopper guard. Work on recognizing sweep opportunities versus when to transition to leg attacks or other options. Full resistance with training partners.",
-      "resistance_level": "Full"
+      "description": "Incorporate sweep into live rolling from grasshopper guard. Work on recognizing sweep opportunities versus when to transition to leg attacks or other options. Full resistance with training partners."
     }
   ],
   "variants_and_adaptations": [
@@ -187,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Grasshopper Sweep?",
-      "answer": "The primary goal is to use hip elevation and leg hooks from the inverted Grasshopper Guard position to sweep the opponent directly to Mount, bypassing intermediate positions like Half Guard or Side Control entirely.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to use hip elevation and leg hooks from the inverted Grasshopper Guard position to sweep the opponent directly to Mount, bypassing intermediate positions like Half Guard or Side Control entirely."
     },
     {
       "question": "What position do you start Grasshopper Sweep from?",
-      "answer": "This technique starts from Grasshopper Guard Bottom, an inverted open guard position where your shoulders rest on the mat with hips elevated and legs engaged with the opponent's lower body.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Grasshopper Guard Bottom, an inverted open guard position where your shoulders rest on the mat with hips elevated and legs engaged with the opponent's lower body."
     },
     {
       "question": "What grips are most effective for controlling the Grasshopper Sweep?",
-      "answer": "The most effective grips are on the opponent's ankles, heels, or pants near the ankle area. These grips prevent the opponent from stepping back to recover base and provide additional pulling leverage during the hip elevation phase.",
-      "difficulty": "Intermediate"
+      "answer": "The most effective grips are on the opponent's ankles, heels, or pants near the ankle area. These grips prevent the opponent from stepping back to recover base and provide additional pulling leverage during the hip elevation phase."
     },
     {
       "question": "Your opponent widens their base and keeps their hips back when you establish Grasshopper Guard - how do you adjust?",
-      "answer": "When an opponent adopts this defensive posture, the Grasshopper Sweep becomes low percentage. Transition to leg entanglement attacks like Inside Ashi entry, or move to Single Leg X Guard where their wide base actually becomes a vulnerability rather than a strength.",
-      "difficulty": "Intermediate"
+      "answer": "When an opponent adopts this defensive posture, the Grasshopper Sweep becomes low percentage. Transition to leg entanglement attacks like Inside Ashi entry, or move to Single Leg X Guard where their wide base actually becomes a vulnerability rather than a strength."
     },
     {
       "question": "When is the optimal timing window to attempt the Grasshopper Sweep?",
-      "answer": "The optimal timing is when the opponent commits their weight forward, either by pressuring into the guard or attempting to establish grips on your legs. Their forward weight commitment provides the momentum needed for successful elevation and makes it difficult for them to base out backward.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent commits their weight forward, either by pressuring into the guard or attempting to establish grips on your legs. Their forward weight commitment provides the momentum needed for successful elevation and makes it difficult for them to base out backward."
     },
     {
       "question": "What is the most critical mechanical element that determines sweep success?",
-      "answer": "Maximum hip elevation before initiating the pulling motion is the most critical element. The hips must drive toward the ceiling first to create the upward force that lifts the opponent. Attempting to pull the opponent over without sufficient elevation results in failed sweeps and potential guard passes.",
-      "difficulty": "Advanced"
+      "answer": "Maximum hip elevation before initiating the pulling motion is the most critical element. The hips must drive toward the ceiling first to create the upward force that lifts the opponent. Attempting to pull the opponent over without sufficient elevation results in failed sweeps and potential guard passes."
     },
     {
       "question": "How should you adjust if your leg hooks start slipping during the sweep attempt?",
-      "answer": "If hooks begin slipping, immediately abort the sweep attempt and reset your leg position. Attempting to complete a sweep with compromised hooks typically fails and leaves you in a vulnerable inverted position. Reset by re-curling your feet deeply around the back of their thighs before attempting again.",
-      "difficulty": "Intermediate"
+      "answer": "If hooks begin slipping, immediately abort the sweep attempt and reset your leg position. Attempting to complete a sweep with compromised hooks typically fails and leaves you in a vulnerable inverted position. Reset by re-curling your feet deeply around the back of their thighs before attempting again."
     },
     {
       "question": "What are the follow-up options if the Grasshopper Sweep is partially blocked but you maintain leg contact?",
-      "answer": "If the sweep is blocked but you maintain leg contact, immediately transition to leg attacks (kneebar entries or ankle lock attempts), recover to Single Leg X or X-Guard for alternative sweeps, or use the opponent's defensive reaction to re-invert and reset Grasshopper Guard for another attempt.",
-      "difficulty": "Advanced"
+      "answer": "If the sweep is blocked but you maintain leg contact, immediately transition to leg attacks (kneebar entries or ankle lock attempts), recover to Single Leg X or X-Guard for alternative sweeps, or use the opponent's defensive reaction to re-invert and reset Grasshopper Guard for another attempt."
     }
   ],
   "safety_considerations": "The Grasshopper Sweep involves inverted positioning which places stress on the cervical spine and neck. Never attempt this technique with a stiff neck or existing cervical issues. During practice, partners should fall in a controlled manner rather than posting arms awkwardly which can cause wrist injuries. The rapid transition from inverted to mount creates momentum that must be controlled to avoid landing too heavily on training partners. Build inverted guard comfort gradually before attempting full speed sweeps. If you feel your neck taking weight during the technique, release and reset rather than forcing through the position.",
@@ -261,5 +238,6 @@
       "name": "Technical Standup",
       "relationship": "Alternative when opponent fully disengages"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -51,7 +51,7 @@
       "relationship": "Submission control accessible from consolidation"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "High-control position accessible through transition"
     }
   ],
@@ -306,25 +306,19 @@
         "relationship": "Choke attack when opponent brings arm across"
       },
       {
-        "name": "North South Control",
+        "name": "North-South",
         "relationship": "Control position accessible through pressure transition"
       }
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85
+        "value": 80
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "average_time": "30-90 seconds"
     },
@@ -605,19 +599,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 32,
-        "advanced": 45
+        "value": 38
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 28,
-        "advanced": 40
+        "value": 34
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 12,
-        "advanced": 20
+        "value": 16
       },
       "average_time": "45-120 seconds under pressure"
     },

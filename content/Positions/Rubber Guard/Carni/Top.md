@@ -380,11 +380,11 @@ Start with bottom player in established Carni position. Top player attempts safe
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 15% | 65% |
-| Intermediate | 35% | 30% | 45% |
-| Advanced     | 50% | 45% | 25% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 42% |
+| Advancement Probability | 38% |
+| Submission Probability | 35% |
 
 **Average Time in Position**: 10-30 seconds
 

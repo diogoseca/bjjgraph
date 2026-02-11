@@ -155,7 +155,7 @@ The Berimbolo Entry is a revolutionary back-taking technique that emerged from t
 The berimbolo represents a paradigm shift in guard play, prioritizing movement and angles over traditional sweeping mechanics. By inverting underneath the opponent, the practitioner creates a unique angle of attack that bypasses conventional passing defenses. The technique requires excellent hip mobility, timing, and spatial awareness, but when executed properly, it offers one of the highest percentage paths to back control in modern jiu-jitsu. The entry phase is crucial - proper De La Riva hook placement and grip control determine whether the inversion will be successful or if the opponent can counter-rotate to prevent the back take.
 
 **From Position**: [[De La Riva Guard/Bottom]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -204,12 +204,12 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish De La Riva control**: From De La Riva guard, secure a deep hook with your outside leg behind opponent's near knee. Your inside foot should be on their far hip. Grip their far hip, belt, or gi material firmly with your bottom hand while maintaining collar or sleeve control with your top hand. (Timing: Hold position until opponent commits weight forward)
-2. **Break opponent's base**: Pull opponent's far hip toward you while simultaneously pushing with your inside foot on their hip and pulling with your De La Riva hook. This off-balances them forward and to the side, creating the opening for your inversion. Their weight should be distributed over their hands or forward knee. (Timing: Execute as opponent steps forward or reaches for controls)
-3. **Initiate the inversion**: Release your collar/sleeve grip and post your top hand on the mat beside your head. Simultaneously pull your body underneath the opponent using your belt/hip grip while maintaining your De La Riva hook. Your head and shoulders should begin rotating toward the mat as your hips elevate. (Timing: Smooth continuous motion, do not pause mid-rotation)
-4. **Complete the rotation**: Continue rotating underneath the opponent by pulling forcefully on their far hip while driving through with your De La Riva hook. Your body should spin 180-270 degrees, bringing you from underneath them to behind their back. Keep your head tucked and close to the mat throughout the spin to maintain balance and momentum. (Timing: Full rotation should take 1-2 seconds)
-5. **Establish back control**: As you complete the rotation and emerge behind opponent, immediately secure seatbelt control by threading your top arm under their near armpit and your bottom arm over their far shoulder. Your chest should be tight to their back with your De La Riva hook now transformed into a first back control hook. (Timing: Secure grips immediately upon completing rotation)
-6. **Insert second hook**: With seatbelt control established, insert your second hook on the opposite side while controlling their hips with your grips. Maintain constant pressure with your chest against their back to prevent them from turning into you. Adjust your position to achieve full back mount with both hooks in and hands locked for control. (Timing: Insert second hook within 2-3 seconds of establishing first hook)
+1. **Establish De La Riva control**: From De La Riva guard, secure a deep hook with your outside leg behind opponent's near knee. Your inside foot should be on their far hip. Grip their far hip, belt, or gi material firmly with your bottom hand while maintaining collar or sleeve control with your top hand.
+2. **Break opponent's base**: Pull opponent's far hip toward you while simultaneously pushing with your inside foot on their hip and pulling with your De La Riva hook. This off-balances them forward and to the side, creating the opening for your inversion. Their weight should be distributed over their hands or forward knee.
+3. **Initiate the inversion**: Release your collar/sleeve grip and post your top hand on the mat beside your head. Simultaneously pull your body underneath the opponent using your belt/hip grip while maintaining your De La Riva hook. Your head and shoulders should begin rotating toward the mat as your hips elevate.
+4. **Complete the rotation**: Continue rotating underneath the opponent by pulling forcefully on their far hip while driving through with your De La Riva hook. Your body should spin 180-270 degrees, bringing you from underneath them to behind their back. Keep your head tucked and close to the mat throughout the spin to maintain balance and momentum.
+5. **Establish back control**: As you complete the rotation and emerge behind opponent, immediately secure seatbelt control by threading your top arm under their near armpit and your bottom arm over their far shoulder. Your chest should be tight to their back with your De La Riva hook now transformed into a first back control hook.
+6. **Insert second hook**: With seatbelt control established, insert your second hook on the opposite side while controlling their hips with your grips. Maintain constant pressure with your chest against their back to prevent them from turning into you. Adjust your position to achieve full back mount with both hooks in and hands locked for control.
 
 
 </section>
@@ -252,27 +252,21 @@ The berimbolo represents a paradigm shift in guard play, prioritizing movement a
 ## Training Progressions
 **Week 1-2: Basic Inversion Mechanics** - Develop inversion movement and spatial awareness
 Practice inverting from De La Riva guard without opposition, focusing on smooth rotation and maintaining hook throughout. Partner remains stationary on knees. Drill 10-15 repetitions per side, emphasizing head position and continuous rotation. Work on emerging to kneeling position behind partner.
-(Resistance: None)
 
 **Week 3-4: Controlled Rotation with Light Resistance** - Add timing and grip control elements
 Partner provides light resistance by maintaining base but not actively countering. Practice off-balancing before inversion and maintaining hip control throughout rotation. Partner can post hands but should not sprawl or grab. Drill 8-10 successful repetitions per side. Begin working on emerging directly to back control rather than kneeling position.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance and Counter Defense** - Respond to common defensive reactions
 Partner introduces specific counters one at a time: sitting back, grabbing inverting leg, counter-rotating. Practice recognizing and responding to each counter. Drill 5-8 repetitions per counter type. Begin chaining berimbolo entries with alternative attacks when countered. Introduce positional sparring from De La Riva guard.
-(Resistance: Medium)
 
 **Week 9-12: High-Speed Execution and Competition Timing** - Explosive execution and opportunistic timing
 Partner provides realistic resistance with full defensive awareness. Practice recognizing optimal timing windows based on opponent's weight distribution and movement. Drill 10-15 minute positional rounds from De La Riva guard with goal of achieving berimbolo entries. Focus on finishing the back-take and maintaining control once achieved.
-(Resistance: Medium)
 
 **Week 13+: Advanced Variations and Combinations** - Chain attacks and alternative entries
 Integrate Kiss of the Dragon, rolling back-takes, and transition to other positions when berimbolo is countered. Practice from standing guard pulls, reverse De La Riva, and X-guard variations. Work against opponents who are familiar with berimbolo defenses. Include live sparring with focus on implementing berimbolo system under resistance.
-(Resistance: Full)
 
 **Ongoing: Refinement and Style Development** - Personal variation and system integration
 Develop your own grip preferences, timing cues, and counter-responses. Experiment with shallow vs. deep inversions, different hip control grips, and alternative finishing positions. Study high-level competition footage and identify successful entry mechanics. Continue drilling fundamentals weekly while expanding system depth.
-(Resistance: Full)
 
 
 

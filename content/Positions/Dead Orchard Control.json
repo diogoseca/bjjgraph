@@ -19,7 +19,7 @@
       "relationship": "Parent technique - standard anaconda without dead orchard control emphasis"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Sister position - alternative arm-in choke with similar control mechanics"
     },
     {
@@ -151,7 +151,7 @@
         "actions": [
           {
             "technique": "Darce from Turtle",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 65
           },
           {
@@ -237,7 +237,7 @@
         "relationship": "Parent position - standard anaconda configuration without dead orchard specific mechanics"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Sister technique - alternative arm-in choke control from similar entries"
       },
       {
@@ -275,19 +275,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "average_time": "45-90 seconds"
     },
@@ -520,7 +514,7 @@
         "relationship": "Common transition - dead orchard often becomes full anaconda control"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Similar defensive challenges - same escape principles apply"
       },
       {
@@ -558,19 +552,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 40
+        "value": 32
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "30-90 seconds before submission or escape"
     },

@@ -157,7 +157,7 @@ The strategic value of squid guard lies in its ability to shut down pressure pas
 From a systems perspective, squid guard serves as both an offensive platform and a defensive refuge. When worm guard configurations are being cleared, transitioning to squid guard maintains lapel control while changing the control point. The arm wrap also opens unique submission pathways including omoplata entries and triangle setups that exploit the opponent's compromised posture. Mastery of squid guard entry dramatically expands your lapel guard game by adding a complementary configuration that addresses worm guard's weaknesses.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ From a systems perspective, squid guard serves as both an offensive platform and
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize trigger**: Identify when opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder—this forward commitment is the essential trigger for squid guard entry. (Timing: As opponent initiates forward pressure)
-2. **Feed lapel under arm**: Thread the lapel fabric under opponent's posting arm from inside to outside, passing the fabric beneath their tricep while maintaining your grip on the lapel end—use your elbow to create space for the feed. (Timing: During opponent's forward drive)
-3. **Secure arm wrap**: Complete the wrap by pulling the lapel over opponent's arm and securing a deep grip on the fabric behind their shoulder, creating a figure-four configuration around their tricep and shoulder joint. (Timing: Before opponent can retract arm)
-4. **Establish collar control**: With free hand, secure cross collar grip or same-side collar grip to control opponent's posture and prevent them from creating distance or changing angle to escape the arm wrap. (Timing: Immediately after securing arm wrap)
-5. **Set leg frames**: Position your outside leg as a frame against opponent's hip while your inside leg hooks behind their knee or establishes lasso-style control, creating redundant defensive barriers. (Timing: Concurrent with collar control)
-6. **Angle hips**: Rotate your hips to face the trapped arm side at approximately 45 degrees, loading sweeping mechanics and preventing opponent from simply driving straight through the guard despite the arm entanglement. (Timing: To complete entry)
+1. **Recognize trigger**: Identify when opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder—this forward commitment is the essential trigger for squid guard entry.
+2. **Feed lapel under arm**: Thread the lapel fabric under opponent's posting arm from inside to outside, passing the fabric beneath their tricep while maintaining your grip on the lapel end—use your elbow to create space for the feed.
+3. **Secure arm wrap**: Complete the wrap by pulling the lapel over opponent's arm and securing a deep grip on the fabric behind their shoulder, creating a figure-four configuration around their tricep and shoulder joint.
+4. **Establish collar control**: With free hand, secure cross collar grip or same-side collar grip to control opponent's posture and prevent them from creating distance or changing angle to escape the arm wrap.
+5. **Set leg frames**: Position your outside leg as a frame against opponent's hip while your inside leg hooks behind their knee or establishes lasso-style control, creating redundant defensive barriers.
+6. **Angle hips**: Rotate your hips to face the trapped arm side at approximately 45 degrees, loading sweeping mechanics and preventing opponent from simply driving straight through the guard despite the arm entanglement.
 
 
 </section>
@@ -252,19 +252,15 @@ From a systems perspective, squid guard serves as both an offensive platform and
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice lapel feeding mechanics with compliant partner. Focus on threading lapel under arm from inside to outside, securing deep grip, and establishing basic hip angle. No resistance—emphasize smooth, efficient motion.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner applies light forward pressure while you time the entry. Recognize the trigger of their posting arm extending forward and execute entry during their commitment. Practice transitioning between worm and squid guard based on opponent's posture.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain squid guard entry with follow-up attacks. Partner defends with moderate resistance. Practice sweep entries, omoplata setups, and triangle transitions from established squid guard. Work recovery when entry fails.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate squid guard entry into full sparring. Start from open guard and work to establish lapel configurations against fully resisting opponents. Track success rate and identify patterns where entry succeeds or fails.
-(Resistance: Full)
 
 
 

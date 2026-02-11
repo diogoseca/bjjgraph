@@ -81,28 +81,28 @@
     ],
     "transitions": [
       {
-        "transition": "Twister Finish",
-        "attempt_probability": 25
-      },
-      {
         "transition": "Guillotine Choke",
         "attempt_probability": 15
       },
       {
         "transition": "Calf Slicer from Truck",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 25
+        "attempt_probability": 23
       },
       {
         "transition": "Neck Crank",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Banana Split",
-        "attempt_probability": 15
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Twister",
+        "attempt_probability": 30
       }
     ],
     "decision_tree": [
@@ -252,21 +252,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Ability to maintain Twister Control position against progressive escape attempts"
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 78,
+        "value": 72,
         "description": "Probability of finishing submission or advancing to better control position"
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60,
+        "value": 52,
         "description": "Probability of finishing submission from Twister Control including all attack options"
       },
       "average_time": "20-45 seconds to submission or position change"
@@ -310,26 +304,42 @@
     "transitions": [
       {
         "transition": "Hip Escape to Guard Recovery",
-        "attempt_probability": 25
+        "attempt_probability": 15
       },
       {
         "transition": "Roll Through Escape",
-        "attempt_probability": 15
+        "attempt_probability": 9
       },
       {
         "transition": "Bridge and Turn to Turtle",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Granby Roll Escape",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Guard Replacement",
         "attempt_probability": 15
       },
       {
+        "transition": "Granby Roll Escape",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Guard Replacement",
+        "attempt_probability": 9
+      },
+      {
         "transition": "Shrimp Escape",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Address Leg Control",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Defensive Roll",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Frame and Turn",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Scramble to Guard",
         "attempt_probability": 10
       }
     ],
@@ -485,21 +495,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Ability to prevent opponent from finishing submission while maintaining defensive structure"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 52,
+        "value": 44,
         "description": "Probability of escaping to neutral or better position through systematic defense"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 8,
-        "advanced": 12,
+        "value": 10,
         "description": "Virtually no submission options from bottom - focus is pure survival and escape"
       },
       "average_time": "15-30 seconds before submission or escape"

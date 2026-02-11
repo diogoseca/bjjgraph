@@ -157,7 +157,7 @@ Strategically, this transition capitalizes on the opponent's defensive focus on 
 The transition also serves as a psychological tool—opponents who know you will advance to side control when they successfully defend the choke face a dilemma where both accepting the choke and defending it lead to disadvantageous outcomes. This dilemma creation is fundamental to high-level attacking systems and makes the buggy choke position significantly more threatening than if the choke were the only available attack.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The transition also serves as a psychological tool—opponents who know you will
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess choke viability**: Evaluate opponent's defensive success—if they have stripped grips to shallow depth, recovered significant posture, or created defensive frames that prevent choking pressure progression, begin transition sequence (Timing: Decision point: 2-3 seconds of ineffective grip fighting)
-2. **Maintain chest pressure**: Before releasing any grips, drive chest weight heavily onto opponent's back and shoulder complex to prevent them from creating space or recovering guard position during grip transition (Timing: Simultaneous with grip release preparation)
-3. **Release and convert near-side arm**: Extract threading arm from under armpit and immediately establish deep underhook on opponent's far-side hip, controlling their ability to turn into you or recover guard (Timing: Quick extraction and immediate hip control)
-4. **Establish crossface control**: Convert far-side collar grip to deep crossface position, driving shoulder blade against opponent's jaw and chin to turn their head away and establish face-down control (Timing: Immediately following underhook establishment)
-5. **Clear legs and flatten opponent**: Walk hips perpendicular to opponent's spine while driving chest pressure downward, clearing any leg entanglements and flattening opponent from turtle to side control position (Timing: Controlled walking movement over 2-3 seconds)
-6. **Consolidate side control**: Settle weight into dominant side control position with chest-to-chest connection, near-side knee blocking hip escape, and far-side leg sprawled for base while maintaining crossface and underhook controls (Timing: Final positioning and weight distribution)
+1. **Assess choke viability**: Evaluate opponent's defensive success—if they have stripped grips to shallow depth, recovered significant posture, or created defensive frames that prevent choking pressure progression, begin transition sequence
+2. **Maintain chest pressure**: Before releasing any grips, drive chest weight heavily onto opponent's back and shoulder complex to prevent them from creating space or recovering guard position during grip transition
+3. **Release and convert near-side arm**: Extract threading arm from under armpit and immediately establish deep underhook on opponent's far-side hip, controlling their ability to turn into you or recover guard
+4. **Establish crossface control**: Convert far-side collar grip to deep crossface position, driving shoulder blade against opponent's jaw and chin to turn their head away and establish face-down control
+5. **Clear legs and flatten opponent**: Walk hips perpendicular to opponent's spine while driving chest pressure downward, clearing any leg entanglements and flattening opponent from turtle to side control position
+6. **Consolidate side control**: Settle weight into dominant side control position with chest-to-chest connection, near-side knee blocking hip escape, and far-side leg sprawled for base while maintaining crossface and underhook controls
 
 
 </section>
@@ -253,19 +253,15 @@ The transition also serves as a psychological tool—opponents who know you will
 ## Training Progressions
 **Week 1-2** - Grip conversion mechanics
 Practice the isolated movement of releasing buggy choke grips and immediately establishing underhook and crossface controls. Partner remains static in turtle while you focus on smooth grip transitions without position loss. Drill 20-30 repetitions per session emphasizing speed and precision of grip exchange.
-(Resistance: None)
 
 **Week 3-4** - Pressure maintenance
 Add focus on maintaining chest pressure throughout transition. Partner provides light movement and tries to create space during grip changes. Practice adjusting pressure points as you transition while never allowing opponent to significantly change position. Monitor how pressure shifts from back to shoulder complex.
-(Resistance: Light)
 
 **Week 5-6** - Defensive reactions
 Partner implements common defensive reactions during transition—sitting to guard, granby rolling, framing on hip. Practice reading defensive movement and adjusting transition accordingly. Learn when to complete side control versus converting to back take or other positions based on opponent's defensive choice.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate transition into full positional sparring from turtle. Start in buggy choke position with options to finish choke or transition based on defense. Track success rate of transitions completed versus opponent escapes. Develop real-time decision making between choke completion and positional advancement.
-(Resistance: Full)
 
 
 

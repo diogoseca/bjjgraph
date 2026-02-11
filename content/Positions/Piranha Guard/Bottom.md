@@ -380,11 +380,11 @@ Partner attempts various guard passes (knee slice, toreando, long step, stack pa
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 20% |
-| Intermediate | 60% | 55% | 35% |
-| Advanced     | 75% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds before sweep or pass attempt
 

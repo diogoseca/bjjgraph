@@ -163,7 +163,7 @@ Strategically, this entry represents a commitment point in the back attack seque
 The transition demands precise coordination between maintaining upper body pressure and executing lower body mechanics. Releasing too much chest pressure to thread the hook allows the opponent to turn in or recover guard, while insufficient hip drive prevents the hook from penetrating deep enough to establish the figure-four. Mastering this timing window is what separates practitioners who can reliably access the Twister system from those who lose position attempting it.
 
 **From Position**: [[Cross Body Ride/Top]]
-**Success Rates**: Beginner 20%, Intermediate 40%, Advanced 60%
+**Success Rate**: 50%
 
 </section>
 
@@ -211,13 +211,13 @@ The transition demands precise coordination between maintaining upper body press
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate cross body pressure**: From established cross body ride, deepen your seatbelt grip and drive your chest weight downward into the opponent's upper back. Walk your hips slightly toward their legs to position your near-side knee behind their hip line. Confirm your shoulder pressure is collapsing their turtle structure and they cannot create space or rotate away from you. (Timing: 3-5 seconds to verify control stability before initiating)
-2. **Identify hook threading window**: Read the opponent's hip and leg position to identify the optimal entry angle. Look for gaps between their inner thighs created by flattened hips, a wide turtle base, or a sit-through attempt toward your legs. Your near-side knee should be positioned behind their hip crease where you can thread between their thighs from the rear. Do not force the entry against tightly closed legs. (Timing: Continuous assessment, commit when gap appears)
-3. **Thread near-side hook between thighs**: Drive your near-side leg forward between the opponent's inner thighs, threading your instep across their far-side thigh so your heel emerges on the opposite side of their body. Simultaneously increase chest pressure to compensate for the temporary base reduction as your leg moves. Your hook must penetrate deep enough that your shin crosses their centerline, not just the surface of their near-side thigh. (Timing: 1-3 seconds of decisive penetration with maintained pressure)
-4. **Anchor the initial hook**: Once your instep crosses to the far side, pull your heel back toward your buttock to lock the hook against their inner thigh. Drive your knee across and down to create pinching pressure that traps their leg between your shin and thigh. This initial hook must be deep and tight before you proceed. Test it by attempting to pull their hips toward you with your leg alone — if their hips move, the hook is set. (Timing: 2-3 seconds to verify hook depth and stability)
-5. **Thread free leg for figure-four completion**: Swing your far-side leg over the opponent's body, crossing it over their hip line to meet your hooking leg. Lock your ankles together or establish shin-on-shin contact to complete the figure-four configuration around the opponent's hips and near-side thigh. Maintain chest-to-back contact throughout this leg threading by driving your upper body weight forward as counterbalance to the lower body movement. (Timing: 2-4 seconds while maintaining upper body control)
-6. **Secure figure-four and verify Twister Control**: Pinch the figure-four tight by driving your top leg down while pulling your bottom hook up, creating opposed forces that immobilize the opponent's hips. Test the lock by attempting to rotate their hips — they should be fully anchored. Adjust your chest pressure and seatbelt grip to establish complete Twister Control with both hip immobilization via legs and upper body control via harness. You are now in position to attack with Twister Finish, Calf Slicer, or Banana Split. (Timing: 3-5 seconds to consolidate full Twister Control)
-7. **Transition to preferred attack angle**: From established Twister Control, adjust your body angle relative to the opponent based on your intended attack. For Twister Finish, begin working your bottom arm under their head while pulling the far shoulder across their body. For Calf Slicer, reposition your figure-four to isolate the calf. For back take, use the figure-four as a platform to insert hooks. The figure-four provides a stable base for any of these offensive transitions. (Timing: Immediate offensive progression once control is verified)
+1. **Consolidate cross body pressure**: From established cross body ride, deepen your seatbelt grip and drive your chest weight downward into the opponent's upper back. Walk your hips slightly toward their legs to position your near-side knee behind their hip line. Confirm your shoulder pressure is collapsing their turtle structure and they cannot create space or rotate away from you.
+2. **Identify hook threading window**: Read the opponent's hip and leg position to identify the optimal entry angle. Look for gaps between their inner thighs created by flattened hips, a wide turtle base, or a sit-through attempt toward your legs. Your near-side knee should be positioned behind their hip crease where you can thread between their thighs from the rear. Do not force the entry against tightly closed legs.
+3. **Thread near-side hook between thighs**: Drive your near-side leg forward between the opponent's inner thighs, threading your instep across their far-side thigh so your heel emerges on the opposite side of their body. Simultaneously increase chest pressure to compensate for the temporary base reduction as your leg moves. Your hook must penetrate deep enough that your shin crosses their centerline, not just the surface of their near-side thigh.
+4. **Anchor the initial hook**: Once your instep crosses to the far side, pull your heel back toward your buttock to lock the hook against their inner thigh. Drive your knee across and down to create pinching pressure that traps their leg between your shin and thigh. This initial hook must be deep and tight before you proceed. Test it by attempting to pull their hips toward you with your leg alone — if their hips move, the hook is set.
+5. **Thread free leg for figure-four completion**: Swing your far-side leg over the opponent's body, crossing it over their hip line to meet your hooking leg. Lock your ankles together or establish shin-on-shin contact to complete the figure-four configuration around the opponent's hips and near-side thigh. Maintain chest-to-back contact throughout this leg threading by driving your upper body weight forward as counterbalance to the lower body movement.
+6. **Secure figure-four and verify Twister Control**: Pinch the figure-four tight by driving your top leg down while pulling your bottom hook up, creating opposed forces that immobilize the opponent's hips. Test the lock by attempting to rotate their hips — they should be fully anchored. Adjust your chest pressure and seatbelt grip to establish complete Twister Control with both hip immobilization via legs and upper body control via harness. You are now in position to attack with Twister Finish, Calf Slicer, or Banana Split.
+7. **Transition to preferred attack angle**: From established Twister Control, adjust your body angle relative to the opponent based on your intended attack. For Twister Finish, begin working your bottom arm under their head while pulling the far shoulder across their body. For Calf Slicer, reposition your figure-four to isolate the calf. For back take, use the figure-four as a platform to insert hooks. The figure-four provides a stable base for any of these offensive transitions.
 
 
 </section>
@@ -263,19 +263,15 @@ The transition demands precise coordination between maintaining upper body press
 ## Training Progressions
 **Week 1-2** - Hook threading mechanics from cross body ride
 Practice threading the near-side hook between the opponent's thighs from established cross body ride with zero resistance. Partner maintains relaxed turtle with knees slightly open. Focus on hip drive, hook depth, and maintaining chest contact throughout. Drill twenty repetitions per side each session, building muscle memory for the threading angle and anchor point. Partner provides feedback on pressure quality.
-(Resistance: None)
 
 **Week 3-4** - Figure-four completion and timing
 Chain the full sequence from cross body ride through hook threading to figure-four completion with light resistance. Partner provides gentle leg clamping defense and occasional hip movement but allows the position to develop. Focus on timing the entry to coincide with partner's hip shifts and maintaining seatbelt throughout the transition. Begin recognizing the defensive postures that create entry opportunities versus those that require waiting.
-(Resistance: Light)
 
 **Week 5-6** - Entry against defensive reactions and chain attacks
 Drill the Twister entry against moderate defensive resistance including clamped knees, sit-throughs, and granby attempts. Practice adjusting strategy based on opponent reaction — switching between Twister entry, back take, and crucifix threats to force defensive openings. Begin chaining from Twister Control into submission attacks including Calf Slicer and Banana Split setups. Positional sparring starting from cross body ride with Twister entry as primary objective.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and decision-making
 Incorporate the Twister entry into live rolling from any position that leads to cross body ride, including turtle top, back control transitions, and scramble situations. Practice the full decision tree: when to attempt Twister entry versus alternative attacks based on opponent's defensive posture and energy level. Full resistance rolling with experienced partners only. Focus on patience in cross body ride and committing to the entry only when conditions are optimal.
-(Resistance: Full)
 
 
 

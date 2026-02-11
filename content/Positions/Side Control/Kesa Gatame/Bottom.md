@@ -374,11 +374,11 @@ Bottom player cycles through multiple escape attempts in sequence: attempt elbow
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 25% | 5% |
-| Intermediate | 35% | 40% | 10% |
-| Advanced     | 55% | 60% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 45% |
+| Advancement Probability | 50% |
+| Submission Probability | 15% |
 
 **Average Time in Position**: 45-90 seconds before escape or submission
 

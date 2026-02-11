@@ -157,7 +157,7 @@ The mechanics of the Short Choke differ from traditional rear naked chokes in th
 Strategically, the Short Choke represents the most direct submission threat from Gift Wrap and should be viewed as the primary attack from this position. When the opponent defends the Short Choke by tucking their chin or using their free hand, this creates openings for secondary attacks including armbar on the free arm, transition to crucifix, or advancement to mounted positions. Understanding this attack tree transforms the Gift Wrap into a systematic submission hunting position rather than a static control.
 
 **From Position**: [[Gift Wrap/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the Short Choke represents the most direct submission threat from
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate Gift Wrap**: Ensure the trapped arm is pulled high across opponent's chest toward their opposite shoulder. Verify your threading arm maintains wrist or forearm control with elbow tight to their body. (Timing: Before initiating any choke attack)
-2. **Flatten opponent**: Drive your hips forward into opponent's lower back while pulling their trapped arm tight. This flattens them toward the mat and compromises their ability to create defensive angles or use explosive bridging. (Timing: As you begin transitioning to choke)
-3. **Clear chin access**: If opponent's chin is tucked, use your free hand to push against their forehead or pull on their hair (in training, use skull friction). Create angle by rotating your body slightly to access the space under their chin. (Timing: May require several attempts against tight chin tuck)
-4. **Thread choking arm**: Slide your free arm under opponent's chin from the side closest to their trapped arm. Your forearm should contact the front of their throat with your elbow positioned directly under their chin for maximum choking leverage. (Timing: Move quickly once chin access is achieved)
-5. **Connect figure-four**: Grip your Gift Wrap controlling arm's bicep or forearm with your choking hand. The exact grip depends on arm length and positioning, but the connection should create a closed loop around opponent's neck using their own trapped arm as part of the structure. (Timing: Secure grip before opponent can insert defensive hand)
-6. **Apply finishing pressure**: Squeeze elbows together while expanding your chest and arching slightly backward. The compression comes from all directions simultaneously - your forearm on the front of the neck and the figure-four configuration creating lateral pressure on both carotid arteries. (Timing: Gradual pressure increase gives opponent opportunity to tap)
+1. **Consolidate Gift Wrap**: Ensure the trapped arm is pulled high across opponent's chest toward their opposite shoulder. Verify your threading arm maintains wrist or forearm control with elbow tight to their body.
+2. **Flatten opponent**: Drive your hips forward into opponent's lower back while pulling their trapped arm tight. This flattens them toward the mat and compromises their ability to create defensive angles or use explosive bridging.
+3. **Clear chin access**: If opponent's chin is tucked, use your free hand to push against their forehead or pull on their hair (in training, use skull friction). Create angle by rotating your body slightly to access the space under their chin.
+4. **Thread choking arm**: Slide your free arm under opponent's chin from the side closest to their trapped arm. Your forearm should contact the front of their throat with your elbow positioned directly under their chin for maximum choking leverage.
+5. **Connect figure-four**: Grip your Gift Wrap controlling arm's bicep or forearm with your choking hand. The exact grip depends on arm length and positioning, but the connection should create a closed loop around opponent's neck using their own trapped arm as part of the structure.
+6. **Apply finishing pressure**: Squeeze elbows together while expanding your chest and arching slightly backward. The compression comes from all directions simultaneously - your forearm on the front of the neck and the figure-four configuration creating lateral pressure on both carotid arteries.
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, the Short Choke represents the most direct submission threat from
 ## Training Progressions
 **Week 1-2** - Choke mechanics isolation
 Practice the figure-four grip configuration and finishing squeeze on a cooperative partner from an already-established Gift Wrap position. Focus on arm threading path, grip connection points, and pressure direction without any resistance.
-(Resistance: None)
 
 **Week 3-4** - Entry timing and chin access
 Partner provides light chin tuck defense while you practice creating angles and clearing access to the throat. Develop sensitivity to when chin access opens and practice quick arm threading timing.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner defends actively with chin tucks, hand fighting, and bridging. Practice recognizing when to persist with choke versus when to transition to secondary attacks (armbar, crucifix). Develop ability to flow between threats.
-(Resistance: Medium)
 
 **Week 7+** - Full chain application
 Start from back control without Gift Wrap and work the complete sequence: establish Gift Wrap, attack Short Choke, handle defensive reactions, chain to secondary attacks. Partner resists fully throughout entire sequence.
-(Resistance: Full)
 
 
 

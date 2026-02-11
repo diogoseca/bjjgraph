@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (rotation and elevation)",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Kimura from Side Control is one of the most fundamental and high-percentage shoulder locks in Brazilian Jiu-Jitsu, offering exceptional control and finishing potential from a dominant top position. This submission targets the shoulder joint through figure-four grip mechanics, creating rotational and elevational stress that forces the tap. From side control, the attacker has superior positioning, weight distribution, and multiple angles to establish the lock while the opponent's mobility is severely restricted. The technique's versatility allows for seamless transitions to other submissions, back takes, or positional advancements if the opponent defends. The Kimura grip itself becomes a powerful control mechanism, enabling the top player to manipulate the opponent's posture, break their defensive frames, and create submission opportunities even when the finish isn't immediately available. This makes it an essential tool for maintaining offensive pressure from side control while constantly threatening the finish.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,50 +83,43 @@
       "step_number": 1,
       "action": "Establish Dominant Side Control",
       "description": "From side control, drive your chest weight into the opponent's chest and shoulder area, eliminating all space. Your near-side arm should control their head or far shoulder while your hips stay heavy on their torso. Ensure your base is wide with your far leg posted out for stability.",
-      "timing": "2-3 seconds to establish solid pressure",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to establish solid pressure"
     },
     {
       "step_number": 2,
       "action": "Isolate the Near Arm",
       "description": "Using your near-side hand, reach under the opponent's near arm (the arm closest to you) and grip their wrist. Simultaneously use your head and shoulder pressure to pin their upper body and prevent them from pulling the arm back to their body. The goal is to create separation between their elbow and their ribs.",
-      "timing": "1-2 seconds once pressure is established",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds once pressure is established"
     },
     {
       "step_number": 3,
       "action": "Thread Your Arm for Figure-Four Grip",
       "description": "While maintaining wrist control with your near hand, thread your far arm over their arm and reach for your own wrist to establish the figure-four lock. Your forearm should be perpendicular to their forearm, creating the leverage structure. Keep your elbows tight together and close to their body to prevent them from straightening their arm.",
-      "timing": "2-3 seconds to secure proper grip alignment",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds to secure proper grip alignment"
     },
     {
       "step_number": 4,
       "action": "Control the Hip and Establish Base",
       "description": "Post your near-side knee tight against the opponent's near hip to prevent them from turning into you. Your far leg should be posted wide and back for base. This hip control is critical - if they can turn toward you, they escape the submission. Maintain chest pressure throughout this adjustment.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Elevate the Elbow",
       "description": "With the figure-four grip secured, begin lifting their elbow toward the ceiling while keeping it close to their body. The elevation should be smooth and controlled, not sudden. As you lift, maintain downward pressure with your chest to keep their shoulder pinned to the mat. This creates the initial stretch on the shoulder.",
-      "timing": "2-3 seconds gradual elevation",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds gradual elevation"
     },
     {
       "step_number": 6,
       "action": "Rotate the Arm Behind the Back",
       "description": "Once the elbow is elevated to approximately 90 degrees from their body, begin rotating their hand toward their back (like a hammerlock position). The rotation should be slow and progressive. The combination of elevation and rotation creates the shoulder lock. Stop immediately upon feeling tap or resistance.",
-      "timing": "3-5 seconds progressive rotation",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive rotation"
     },
     {
       "step_number": 7,
       "action": "Finish with Walking Motion",
       "description": "If needed for the finish, walk your hips toward their head while maintaining the figure-four grip and continuing the rotation. This walking motion increases the angle and pressure on the shoulder joint. Continue applying slow, steady pressure until the tap, never jerking or spiking the submission.",
-      "timing": "2-4 seconds if additional pressure needed",
-      "pressure_level": "Maximum"
+      "timing": "2-4 seconds if additional pressure needed"
     }
   ],
   "opponent_defense_patterns": [
@@ -165,44 +153,37 @@
     {
       "error": "Attempting the Kimura grip before establishing solid side control pressure",
       "consequence": "Opponent easily escapes their hips or turns into you, nullifying the submission attempt and potentially losing top position",
-      "correction": "Always establish dominant side control first with chest pressure and hip control. Only attack the arm once your weight is settled and their movement is restricted.",
-      "danger_level": "Low"
+      "correction": "Always establish dominant side control first with chest pressure and hip control. Only attack the arm once your weight is settled and their movement is restricted."
     },
     {
       "error": "Allowing space between your elbow and their body during the figure-four grip",
       "consequence": "Opponent can straighten their arm and break the submission structure, escaping the lock completely",
-      "correction": "Keep both elbows tight and close to their torso throughout the entire sequence. Your forearms should form a tight loop around their arm with no gaps.",
-      "danger_level": "Low"
+      "correction": "Keep both elbows tight and close to their torso throughout the entire sequence. Your forearms should form a tight loop around their arm with no gaps."
     },
     {
       "error": "Forgetting to control the opponent's hip with your knee",
       "consequence": "Opponent turns into you and escapes the submission, potentially reversing position or taking your back",
-      "correction": "Post your near knee tight against their near hip before elevating the arm. This blocks their primary escape route and maintains your dominant angle.",
-      "danger_level": "Medium"
+      "correction": "Post your near knee tight against their near hip before elevating the arm. This blocks their primary escape route and maintains your dominant angle."
     },
     {
       "error": "Using jerking or explosive motions to finish the submission",
       "consequence": "Severe shoulder injuries including dislocation, rotator cuff tears, or labrum damage before partner can tap",
-      "correction": "Apply pressure slowly and progressively over 3-5 seconds minimum. The shoulder is extremely vulnerable - control and patience are essential for training safety.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure slowly and progressively over 3-5 seconds minimum. The shoulder is extremely vulnerable - control and patience are essential for training safety."
     },
     {
       "error": "Lifting the elbow too high (over 90 degrees) before rotating",
       "consequence": "Risk of shoulder dislocation and severe injury, especially if opponent is inflexible or has prior shoulder issues",
-      "correction": "Keep elevation moderate (approximately 90 degrees from body) and focus on the rotational component. The combination creates the lock without dangerous elevation.",
-      "danger_level": "CRITICAL"
+      "correction": "Keep elevation moderate (approximately 90 degrees from body) and focus on the rotational component. The combination creates the lock without dangerous elevation."
     },
     {
       "error": "Gripping your own wrist incorrectly in the figure-four (thumb orientation wrong)",
       "consequence": "Weak grip structure that allows opponent to escape and reduced leverage for finishing",
-      "correction": "Ensure your top hand grips your bottom wrist with four fingers, creating a strong bracket. Your bottom hand controls their wrist with proper alignment for maximum leverage.",
-      "danger_level": "Low"
+      "correction": "Ensure your top hand grips your bottom wrist with four fingers, creating a strong bracket. Your bottom hand controls their wrist with proper alignment for maximum leverage."
     },
     {
       "error": "Losing chest pressure while setting up the grip",
       "consequence": "Opponent creates space and escapes their hips or replaces guard before submission is secured",
-      "correction": "Maintain constant chest-to-chest pressure throughout the entire setup. Your weight should never come off their torso until the submission is locked in place.",
-      "danger_level": "Medium"
+      "correction": "Maintain constant chest-to-chest pressure throughout the entire setup. Your weight should never come off their torso until the submission is locked in place."
     }
   ],
   "variations_and_setups": [
@@ -289,50 +270,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn proper side control position, figure-four grip mechanics, and body positioning without any submission pressure. Practice grip establishment and releases repeatedly.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understanding proper grip structure and release protocol. Partner remains completely passive while you drill the mechanics of grip placement and arm positioning. Focus on body weight distribution and maintaining safe shoulder angles."
-    },
-    {
-      "phase": "Slow Cooperative Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Execute full technique sequence with cooperative partner who provides zero resistance. Practice the entire submission chain from side control to finish at 25% speed. Emphasize tap recognition and immediate release.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Develop muscle memory for progressive pressure application over 5-7 seconds. Practice stopping at multiple points in the sequence. Partner taps early and practitioner releases immediately every repetition. No actual finishing pressure applied."
-    },
-    {
-      "phase": "Controlled Resistance Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Partner provides mild, predictable resistance such as gripping their own gi, maintaining arm position, or attempting to turn. Practitioner learns to maintain control while applying slow, progressive pressure. Speed increases to 50% of full speed.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner signals tap at first feeling of discomfort (well before pain threshold). Practitioner maintains 3-5 second minimum application time even with resistance. Both partners communicate throughout about pressure levels and comfort."
-    },
-    {
-      "phase": "Realistic Defense Patterns",
-      "timeframe": "Week 9-12",
-      "focus": "Partner uses realistic defensive strategies including hip movement, grip fighting, arm positioning, and turning defenses. Practitioner must secure position, establish controls, and apply submission against movement at 70% speed.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Practitioner stops at 60-70% of finishing pressure to allow tap response. Focus shifts to recognizing submission security versus continuing to force against strong defense. Partner maintains awareness of escape options and taps when escapes are exhausted."
-    },
-    {
-      "phase": "Dynamic Sparring Integration",
-      "timeframe": "Week 13-20",
-      "focus": "Attempt Kimura from side control during positional sparring (starting from side control) and light rolling. Integrate the technique into flowing sequences with other submissions and positions. Work on timing and recognition of opportunities.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Both partners trust each other's control. Practitioner maintains progressive application even under pressure. Tap early and often when caught. Never force submissions against determined resistance - transition to other attacks instead. Communicate about intensity levels before rolling."
-    },
-    {
-      "phase": "Competition Simulation",
-      "timeframe": "Week 21+",
-      "focus": "Execute Kimura from side control during hard sparring with trusted, experienced partners. Develop the timing, pressure, and control necessary to finish against fully resisting opponents. Work submission chains and positional transitions when Kimura is defended.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Only practice at this level with experienced partners who have excellent tap discipline. Even in competition simulation, maintain controlled application over 2-3 seconds minimum. Stop immediately on any tap. Regular communication about training intensity and any shoulder discomfort or injury history. If partner has shoulder issues, avoid this technique entirely."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Kesa Gatame",
@@ -409,5 +346,6 @@
       "name": "Americana",
       "relationship": "Related shoulder lock attacking the same joint from opposite direction"
     }
-  ]
+  ],
+  "success_rate": 62
 }

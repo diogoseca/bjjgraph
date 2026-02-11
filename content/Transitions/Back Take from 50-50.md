@@ -157,7 +157,7 @@ From the 50-50 position, the back take becomes available when your opponent succ
 This technique has become increasingly important in high-level competition as leg lock defense has improved. Rather than engaging in prolonged heel hook battles, skilled practitioners use the back take threat to create a dilemma: defend your heel aggressively and expose your back, or maintain back defense and risk the leg attack. This strategic layer makes the back take from 50-50 essential knowledge for anyone serious about leg lock systems.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique has become increasingly important in high-level competition as le
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure upper body connection**: While maintaining 50-50 position, reach your near-side arm over opponent's shoulder blade and begin establishing harness grip by threading under their far armpit. This initial connection must be secured before releasing any leg control. (Timing: Begin when opponent commits to heel defense)
-2. **Control near-side hip**: Use your far-side hand to control opponent's near-side hip, gripping their belt, pants, or hip bone directly. This prevents them from rotating toward you during the transition and creates an anchor point for your movement. (Timing: Simultaneous with upper body connection)
-3. **Release leg entanglement**: Extract your legs from the 50-50 configuration by straightening and pulling them free while maintaining upper body control. Your legs should clear completely before opponent can re-establish any leg entanglement or attack. (Timing: Quick, decisive movement)
-4. **Circle to back angle**: Immediately after leg extraction, use your hip control to rotate around opponent's body toward their back. Drive your chest into their shoulder blade while your legs begin positioning for hook insertion. (Timing: No pause after leg extraction)
-5. **Insert first hook**: As you achieve chest-to-back connection, insert your inside hook by threading your foot between opponent's legs and hooking inside their thigh. This hook prevents them from escaping by turning away from you. (Timing: As chest connects to back)
-6. **Complete back control**: Finish the harness grip by connecting your hands in seatbelt configuration while inserting your second hook. Establish full back control with both hooks in and harness secured before opponent can defend or escape. (Timing: Complete within 2-3 seconds of leg extraction)
+1. **Secure upper body connection**: While maintaining 50-50 position, reach your near-side arm over opponent's shoulder blade and begin establishing harness grip by threading under their far armpit. This initial connection must be secured before releasing any leg control.
+2. **Control near-side hip**: Use your far-side hand to control opponent's near-side hip, gripping their belt, pants, or hip bone directly. This prevents them from rotating toward you during the transition and creates an anchor point for your movement.
+3. **Release leg entanglement**: Extract your legs from the 50-50 configuration by straightening and pulling them free while maintaining upper body control. Your legs should clear completely before opponent can re-establish any leg entanglement or attack.
+4. **Circle to back angle**: Immediately after leg extraction, use your hip control to rotate around opponent's body toward their back. Drive your chest into their shoulder blade while your legs begin positioning for hook insertion.
+5. **Insert first hook**: As you achieve chest-to-back connection, insert your inside hook by threading your foot between opponent's legs and hooking inside their thigh. This hook prevents them from escaping by turning away from you.
+6. **Complete back control**: Finish the harness grip by connecting your hands in seatbelt configuration while inserting your second hook. Establish full back control with both hooks in and harness secured before opponent can defend or escape.
 
 
 </section>
@@ -252,19 +252,15 @@ This technique has become increasingly important in high-level competition as le
 ## Training Progressions
 **Week 1-2** - Movement pattern isolation
 Practice the leg extraction to back take motion without resistance. Focus on the timing of upper body connection before leg release. Partner remains static in 50-50 bottom. Drill 50 repetitions per training session to develop muscle memory.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides light heel hook defense by hiding their heel. Practice recognizing the moment when back take becomes available and executing transition with correct timing. Partner gives 30% resistance and occasional counters.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively counters with turning, sitting up, and re-attacking legs at 50-60% intensity. Practice adapting your back take to their specific defensive reactions. Integrate follow-up attacks from back control.
-(Resistance: Medium)
 
 **Week 7+** - Live competition application
 Include back take attempts in live rolling from 50-50 positions. Track success rates against training partners of various skill levels. Refine timing and execution based on real resistance patterns.
-(Resistance: Full)
 
 
 

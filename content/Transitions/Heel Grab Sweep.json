@@ -11,11 +11,6 @@
     "x_guard",
     "off_balancing"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Heel Grab Sweep is a fundamental off-balancing technique from Single Leg X Guard that exploits your opponent's compromised base by controlling their trapped leg and manipulating their heel. This sweep creates a powerful lever system where you use your legs to elevate and extend the opponent's trapped leg while simultaneously pulling their heel backward, disrupting their balance and forcing them to the mat. The technique is particularly effective against standing opponents who attempt to maintain a squared stance or those who fail to properly address the Single Leg X position. The Heel Grab Sweep serves as a primary attacking option from Single Leg X Guard, working in concert with other sweeps and leg entanglements to create a comprehensive guard system. Its effectiveness stems from the biomechanical advantage created by controlling both the opponent's heel and knee simultaneously, making it extremely difficult for them to maintain balance or counter effectively. This sweep is applicable in both gi and no-gi contexts, though the grip variations differ slightly between the two formats.",
   "key_principles": [
     "Maintain tight connection between your legs and opponent's trapped leg throughout the sweep",
@@ -39,44 +34,37 @@
     {
       "step_number": 1,
       "action": "Secure heel control",
-      "description": "From Single Leg X Guard, grip the opponent's heel with both hands, palms facing each other. Your top hand should grip over the top of the heel while your bottom hand cups underneath. Ensure your grips are tight and positioned on the actual heel bone, not the ankle or Achilles tendon. This dual grip creates a strong control point that prevents the opponent from stepping back or posting their foot.",
-      "timing": "Establish grips as soon as Single Leg X Guard is secured"
+      "description": "From Single Leg X Guard, grip the opponent's heel with both hands, palms facing each other. Your top hand should grip over the top of the heel while your bottom hand cups underneath. Ensure your grips are tight and positioned on the actual heel bone, not the ankle or Achilles tendon. This dual grip creates a strong control point that prevents the opponent from stepping back or posting their foot."
     },
     {
       "step_number": 2,
       "action": "Adjust leg positioning",
-      "description": "Verify that your X-hook (inside leg) is deep behind the opponent's knee with your foot firmly across their opposite hip. Your outside leg should be positioned with your shin or foot controlling the front of their trapped shin. This creates a frame that prevents them from stepping forward while your X-hook prevents them from stepping back. Ensure your legs create a scissoring pressure that keeps their leg extended and controlled.",
-      "timing": "Simultaneous with heel grip, before initiating sweep"
+      "description": "Verify that your X-hook (inside leg) is deep behind the opponent's knee with your foot firmly across their opposite hip. Your outside leg should be positioned with your shin or foot controlling the front of their trapped shin. This creates a frame that prevents them from stepping forward while your X-hook prevents them from stepping back. Ensure your legs create a scissoring pressure that keeps their leg extended and controlled."
     },
     {
       "step_number": 3,
       "action": "Create the angle",
-      "description": "Shift your hips slightly to the side opposite your X-hook, creating an angle rather than staying directly underneath the opponent. This angle is crucial as it allows you to pull the heel in a diagonal direction that maximizes off-balancing. Your shoulders should rotate slightly in the same direction as your hip movement, setting up the sweeping trajectory.",
-      "timing": "Immediately before executing the sweep"
+      "description": "Shift your hips slightly to the side opposite your X-hook, creating an angle rather than staying directly underneath the opponent. This angle is crucial as it allows you to pull the heel in a diagonal direction that maximizes off-balancing. Your shoulders should rotate slightly in the same direction as your hip movement, setting up the sweeping trajectory."
     },
     {
       "step_number": 4,
       "action": "Extend legs explosively",
-      "description": "Simultaneously extend both legs powerfully, driving your X-hook backward and downward while your outside leg pushes forward and upward against their shin. This scissoring action elevates their trapped leg off the mat while extending it away from their body. The extension should be explosive but controlled, creating a sudden change in their leg position that compromises their balance.",
-      "timing": "Execute when opponent's weight shifts forward or as they attempt to pull free"
+      "description": "Simultaneously extend both legs powerfully, driving your X-hook backward and downward while your outside leg pushes forward and upward against their shin. This scissoring action elevates their trapped leg off the mat while extending it away from their body. The extension should be explosive but controlled, creating a sudden change in their leg position that compromises their balance."
     },
     {
       "step_number": 5,
       "action": "Pull heel and rotate",
-      "description": "As you extend your legs, pull the opponent's heel forcefully backward and slightly toward you, rotating it in the direction opposite their stance. This heel manipulation combined with the leg extension creates an irresistible off-balancing effect. The pulling motion should arc the heel backward and down, forcing their body to follow and preventing any possibility of posting or maintaining balance.",
-      "timing": "Coordinated precisely with leg extension for maximum effect"
+      "description": "As you extend your legs, pull the opponent's heel forcefully backward and slightly toward you, rotating it in the direction opposite their stance. This heel manipulation combined with the leg extension creates an irresistible off-balancing effect. The pulling motion should arc the heel backward and down, forcing their body to follow and preventing any possibility of posting or maintaining balance."
     },
     {
       "step_number": 6,
       "action": "Follow to top position",
-      "description": "As the opponent falls backward, release the heel control and immediately begin tracking their body. Use your hands to push off the mat or grab their gi/body as you rotate your hips and follow through. Come up on top into a dominant position, typically landing in a modified knee slice, headquarters, or directly in their guard. Maintain pressure and connection throughout the follow-through to prevent them from recovering guard or escaping.",
-      "timing": "Immediately as opponent begins falling, before they can post or recover"
+      "description": "As the opponent falls backward, release the heel control and immediately begin tracking their body. Use your hands to push off the mat or grab their gi/body as you rotate your hips and follow through. Come up on top into a dominant position, typically landing in a modified knee slice, headquarters, or directly in their guard. Maintain pressure and connection throughout the follow-through to prevent them from recovering guard or escaping."
     },
     {
       "step_number": 7,
       "action": "Consolidate top position",
-      "description": "Once on top, immediately establish control by securing grips, controlling their hips, and establishing a strong base. If you landed in their guard, begin your guard passing sequence immediately. If you achieved a more advanced position like knee slice or headquarters, work to consolidate and advance. Be aware that the opponent may attempt to recover guard or create a scramble, so maintain constant forward pressure and connection.",
-      "timing": "Continuous action immediately after achieving top position"
+      "description": "Once on top, immediately establish control by securing grips, controlling their hips, and establishing a strong base. If you landed in their guard, begin your guard passing sequence immediately. If you achieved a more advanced position like knee slice or headquarters, work to consolidate and advance. Be aware that the opponent may attempt to recover guard or create a scramble, so maintain constant forward pressure and connection."
     }
   ],
   "common_counters": [
@@ -147,38 +135,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Establishing proper grips, leg positioning, and basic sweeping motion",
-      "description": "Partner allows you to establish Single Leg X Guard and offers no resistance. Practice securing heel grips with both hands, checking leg positioning, and executing the sweep motion slowly. Focus on feeling the correct angle, the coordination of leg extension with heel pull, and the follow-through to top position. Repeat 20-30 times per training session to build muscle memory.",
-      "resistance_level": "None"
+      "description": "Partner allows you to establish Single Leg X Guard and offers no resistance. Practice securing heel grips with both hands, checking leg positioning, and executing the sweep motion slowly. Focus on feeling the correct angle, the coordination of leg extension with heel pull, and the follow-through to top position. Repeat 20-30 times per training session to build muscle memory."
     },
     {
       "phase": "Week 3-4: Timing and Coordination",
       "focus": "Developing explosive coordination between leg extension and heel pull",
-      "description": "Partner provides light resistance by maintaining base but not actively defending. Practice timing the sweep for when partner's weight shifts. Focus on making the leg extension and heel pull one simultaneous explosive motion rather than two separate actions. Begin recognizing the optimal moment to execute based on partner's weight distribution. Drill 15-20 repetitions with increasing speed.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by maintaining base but not actively defending. Practice timing the sweep for when partner's weight shifts. Focus on making the leg extension and heel pull one simultaneous explosive motion rather than two separate actions. Begin recognizing the optimal moment to execute based on partner's weight distribution. Drill 15-20 repetitions with increasing speed."
     },
     {
       "phase": "Week 5-8: Counter Awareness",
       "focus": "Recognizing and responding to common defensive reactions",
-      "description": "Partner actively defends using one counter at a time (wide base, sitting, posting). Practice identifying which counter they're using and executing the appropriate response. Develop the ability to transition smoothly to alternative attacks or positions when the primary sweep is countered. Drill each counter response 10 times before moving to the next.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends using one counter at a time (wide base, sitting, posting). Practice identifying which counter they're using and executing the appropriate response. Develop the ability to transition smoothly to alternative attacks or positions when the primary sweep is countered. Drill each counter response 10 times before moving to the next."
     },
     {
       "phase": "Week 9-12: Dynamic Application",
       "focus": "Executing against full resistance and in combination with other techniques",
-      "description": "Partner provides full defensive resistance, using any counter available. Practice setting up the Heel Grab Sweep with feints and combinations, using it in conjunction with other Single Leg X attacks. Develop the ability to chain this sweep with leg entanglements and alternative sweeps based on opponent reactions. Include live positional sparring from Single Leg X Guard.",
-      "resistance_level": "Full"
+      "description": "Partner provides full defensive resistance, using any counter available. Practice setting up the Heel Grab Sweep with feints and combinations, using it in conjunction with other Single Leg X attacks. Develop the ability to chain this sweep with leg entanglements and alternative sweeps based on opponent reactions. Include live positional sparring from Single Leg X Guard."
     },
     {
       "phase": "Month 4+: Competition Integration",
       "focus": "Applying the technique in live rolling and competition scenarios",
-      "description": "Incorporate the Heel Grab Sweep into your active guard game during live rolling. Practice entering Single Leg X Guard from various positions and immediately threatening the sweep. Develop the ability to recognize when opponents are vulnerable to this specific sweep versus when alternative attacks are more appropriate. Begin tracking success rates and analyzing video footage to refine execution.",
-      "resistance_level": "Full"
+      "description": "Incorporate the Heel Grab Sweep into your active guard game during live rolling. Practice entering Single Leg X Guard from various positions and immediately threatening the sweep. Develop the ability to recognize when opponents are vulnerable to this specific sweep versus when alternative attacks are more appropriate. Begin tracking success rates and analyzing video footage to refine execution."
     },
     {
       "phase": "Ongoing: System Development",
       "focus": "Building a comprehensive Single Leg X Guard system around this sweep",
-      "description": "Develop a complete attack system from Single Leg X Guard that includes the Heel Grab Sweep as a primary option alongside leg locks, transitions to other guards, and alternative sweeps. Practice flowing between techniques based on opponent reactions, creating dilemmas where defending one attack opens another. Study high-level competitors who utilize this position effectively and incorporate their strategies.",
-      "resistance_level": "Full"
+      "description": "Develop a complete attack system from Single Leg X Guard that includes the Heel Grab Sweep as a primary option alongside leg locks, transitions to other guards, and alternative sweeps. Practice flowing between techniques based on opponent reactions, creating dilemmas where defending one attack opens another. Study high-level competitors who utilize this position effectively and incorporate their strategies."
     }
   ],
   "variants_and_adaptations": [
@@ -211,38 +193,31 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical component that makes the Heel Grab Sweep effective?",
-      "answer": "The simultaneous coordination of leg extension and heel pull creates the most effective sweep. The leg extension elevates and extends the opponent's trapped leg while the heel pull rotates and pulls it backward, creating an irresistible off-balancing effect. Doing these movements separately significantly reduces the sweep's effectiveness because the opponent can counter or post when only one force is applied.",
-      "difficulty": "Intermediate"
+      "answer": "The simultaneous coordination of leg extension and heel pull creates the most effective sweep. The leg extension elevates and extends the opponent's trapped leg while the heel pull rotates and pulls it backward, creating an irresistible off-balancing effect. Doing these movements separately significantly reduces the sweep's effectiveness because the opponent can counter or post when only one force is applied."
     },
     {
       "question": "Why is creating an angle with your hips important for this sweep?",
-      "answer": "Creating an angle by shifting your hips to the side allows you to sweep the opponent diagonally rather than straight backward. This diagonal sweeping motion makes it much more difficult for the opponent to post with their free leg or hands because they must defend in multiple directions simultaneously. A straight backward sweep is easier to counter because the opponent can simply step back or post directly behind themselves.",
-      "difficulty": "Advanced"
+      "answer": "Creating an angle by shifting your hips to the side allows you to sweep the opponent diagonally rather than straight backward. This diagonal sweeping motion makes it much more difficult for the opponent to post with their free leg or hands because they must defend in multiple directions simultaneously. A straight backward sweep is easier to counter because the opponent can simply step back or post directly behind themselves."
     },
     {
       "question": "What should you do if your opponent sits to the mat to counter your Heel Grab Sweep?",
-      "answer": "Immediately transition to a leg entanglement position such as Ashi Garami or Outside Ashi-Garami, maintaining control of their trapped leg throughout. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks and alternative sweeping mechanics from the seated entanglement position. This transition should be smooth and immediate, keeping constant pressure on their leg.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately transition to a leg entanglement position such as Ashi Garami or Outside Ashi-Garami, maintaining control of their trapped leg throughout. When the opponent sits, they eliminate the sweeping opportunity but expose themselves to leg lock attacks and alternative sweeping mechanics from the seated entanglement position. This transition should be smooth and immediate, keeping constant pressure on their leg."
     },
     {
       "question": "How does proper heel control differ from ankle control in executing this sweep?",
-      "answer": "Heel control targets the actual heel bone with both hands, creating a short lever arm that allows you to rotate and manipulate the opponent's entire leg position. Ankle control provides less rotational control because the ankle joint allows more movement, and gripping the soft tissue of the Achilles area provides less structural control than gripping the heel bone. Proper heel grips use both hands with thumbs on top and fingers cupping underneath the heel bone specifically.",
-      "difficulty": "Beginner"
+      "answer": "Heel control targets the actual heel bone with both hands, creating a short lever arm that allows you to rotate and manipulate the opponent's entire leg position. Ankle control provides less rotational control because the ankle joint allows more movement, and gripping the soft tissue of the Achilles area provides less structural control than gripping the heel bone. Proper heel grips use both hands with thumbs on top and fingers cupping underneath the heel bone specifically."
     },
     {
       "question": "What is the optimal timing for executing the Heel Grab Sweep?",
-      "answer": "The optimal timing is when the opponent's weight shifts forward onto the trapped leg or when they attempt to pull their leg free from your control. In both scenarios, their base is compromised and they are already in motion, making it much harder to recover balance when you execute the sweep. Attempting the sweep when their weight is back or when they have established a wide base significantly reduces success rates.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is when the opponent's weight shifts forward onto the trapped leg or when they attempt to pull their leg free from your control. In both scenarios, their base is compromised and they are already in motion, making it much harder to recover balance when you execute the sweep. Attempting the sweep when their weight is back or when they have established a wide base significantly reduces success rates."
     },
     {
       "question": "Why must you follow through to top position immediately after sweeping?",
-      "answer": "Immediately following through to top position prevents the opponent from recovering guard, initiating a scramble, or using the momentum to create their own offensive opportunity. The sweep creates a temporary advantage, but without following through, the opponent has time to post, turn toward you, or reestablish their base. Maintaining connection and tracking their body as you come up ensures you capitalize on the sweep by achieving a dominant top position.",
-      "difficulty": "Beginner"
+      "answer": "Immediately following through to top position prevents the opponent from recovering guard, initiating a scramble, or using the momentum to create their own offensive opportunity. The sweep creates a temporary advantage, but without following through, the opponent has time to post, turn toward you, or reestablish their base. Maintaining connection and tracking their body as you come up ensures you capitalize on the sweep by achieving a dominant top position."
     },
     {
       "question": "How should the X-hook function during the sweep execution?",
-      "answer": "The X-hook must maintain constant pressure throughout the entire sweep, preventing the opponent from extracting their leg or stepping back. The foot should stay firmly across the opponent's opposite hip with the knee bent, creating a scissoring pressure against your outside leg. If the X-hook pressure is lost during the sweep, the opponent can simply extract their leg or step back, completely negating the sweeping motion regardless of how well you execute the heel pull.",
-      "difficulty": "Intermediate"
+      "answer": "The X-hook must maintain constant pressure throughout the entire sweep, preventing the opponent from extracting their leg or stepping back. The foot should stay firmly across the opponent's opposite hip with the knee bent, creating a scissoring pressure against your outside leg. If the X-hook pressure is lost during the sweep, the opponent can simply extract their leg or step back, completely negating the sweeping motion regardless of how well you execute the heel pull."
     }
   ],
   "safety_considerations": "When practicing the Heel Grab Sweep, execute the technique with controlled speed to avoid injuring your training partner's knee or ankle joints. The sudden rotational and pulling forces on the heel can stress these joints if applied too explosively in drilling situations. Always communicate with your partner and gradually increase intensity as both practitioners become comfortable with the mechanics. In competition or live rolling, ensure you maintain control throughout the sweep to avoid having your partner land awkwardly or with excessive force. Be particularly cautious when transitioning to leg entanglements if the sweep is countered, as this can create dangerous rotational forces on the knee if done carelessly. Use proper mats and training environment to ensure safe practice. Partners should tap early if they feel excessive pressure on their joints during the learning phase.",
@@ -306,5 +281,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

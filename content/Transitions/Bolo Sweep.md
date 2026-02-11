@@ -153,7 +153,7 @@ description: "Master the Bolo Sweep from De La Riva Guard. Learn setup, executio
 The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken. What makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized.
 
 **From Position**: [[De La Riva Guard/Bottom]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -203,12 +203,12 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish De La Riva control**: Secure De La Riva hook on opponent's far leg with your outside leg, threading it deep behind their knee. Simultaneously grip their collar or same-side sleeve with your hand, creating a strong connection that prevents them from easily disengaging or circling away from your guard. (Timing: Initial setup phase)
-2. **Create angle and off-balance**: Pull opponent forward and slightly to the side using your collar or sleeve grip while simultaneously extending your De La Riva hook. This forces their weight onto the hooked leg and creates the foundational angle needed for your inversion. Your free leg should be framing against their near hip or controlling their other leg. (Timing: As opponent begins to pass or stand)
-3. **Begin inversion**: Release your frame leg and begin rotating your hips underneath your body, turning your shoulders toward the mat. Your De La Riva hook remains active throughout this movement. Start threading your head and shoulders under the opponent's posted leg, creating a corkscrew-like rotation that takes you beneath their base. (Timing: Explosive movement as you feel opponent's weight shift)
-4. **Thread under opponent's leg**: Continue your rotation, threading your entire upper body under the opponent's De La Riva-hooked leg. Your shoulders should pass completely underneath their thigh as you maintain the hook. Pull strongly with your grip to bring opponent's upper body forward and down, compromising their posture and balance. (Timing: Mid-rotation, continuous fluid motion)
-5. **Secure back exposure**: As you complete the rotation and your shoulders emerge on the other side of their leg, you'll find yourself positioned behind or beside the opponent. Your De La Riva hook naturally transitions to control their far leg or hip. Immediately begin establishing back control grips or consolidating top position depending on how opponent reacts. (Timing: As rotation completes)
-6. **Finish sweep or take back**: Complete the technique by either sweeping opponent to their back (if they base heavily) or climbing onto their back for back control (if they turn away to defend). Secure seat belt grip and both hooks if taking the back, or establish side control or mount if completing as a traditional sweep. Maintain aggressive forward pressure to prevent re-guard. (Timing: Immediate transition to dominant position)
+1. **Establish De La Riva control**: Secure De La Riva hook on opponent's far leg with your outside leg, threading it deep behind their knee. Simultaneously grip their collar or same-side sleeve with your hand, creating a strong connection that prevents them from easily disengaging or circling away from your guard.
+2. **Create angle and off-balance**: Pull opponent forward and slightly to the side using your collar or sleeve grip while simultaneously extending your De La Riva hook. This forces their weight onto the hooked leg and creates the foundational angle needed for your inversion. Your free leg should be framing against their near hip or controlling their other leg.
+3. **Begin inversion**: Release your frame leg and begin rotating your hips underneath your body, turning your shoulders toward the mat. Your De La Riva hook remains active throughout this movement. Start threading your head and shoulders under the opponent's posted leg, creating a corkscrew-like rotation that takes you beneath their base.
+4. **Thread under opponent's leg**: Continue your rotation, threading your entire upper body under the opponent's De La Riva-hooked leg. Your shoulders should pass completely underneath their thigh as you maintain the hook. Pull strongly with your grip to bring opponent's upper body forward and down, compromising their posture and balance.
+5. **Secure back exposure**: As you complete the rotation and your shoulders emerge on the other side of their leg, you'll find yourself positioned behind or beside the opponent. Your De La Riva hook naturally transitions to control their far leg or hip. Immediately begin establishing back control grips or consolidating top position depending on how opponent reacts.
+6. **Finish sweep or take back**: Complete the technique by either sweeping opponent to their back (if they base heavily) or climbing onto their back for back control (if they turn away to defend). Secure seat belt grip and both hooks if taking the back, or establish side control or mount if completing as a traditional sweep. Maintain aggressive forward pressure to prevent re-guard.
 
 
 </section>
@@ -251,19 +251,15 @@ The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques
 ## Training Progressions
 **Week 1-2: Static Drilling** - Basic inversion mechanics and body awareness
 Practice the inversion movement in isolation with no resistance. Partner remains stationary in De La Riva position. Focus on smooth rotation, maintaining hook connection, and proper threading of shoulders under opponent's leg. Repeat 20-30 repetitions per training session to build muscle memory.
-(Resistance: None)
 
 **Week 3-4: Cooperative Movement** - Timing and grip coordination
 Partner provides light resistance by maintaining base but not actively countering. Practice coordinating your grip pulls with your rotation. Work on creating the initial angle before inverting. Begin recognizing when opponent's weight is properly positioned for the technique. Add finishing sequences - either sweep completion or back-take.
-(Resistance: Light)
 
 **Week 5-8: Active Counters** - Problem-solving against common defenses
 Partner provides specific counters - stepping over, posting hands, pulling leg back, sprawling. Practice recognizing and responding to each counter appropriately. Develop decision-making skills for when to continue Bolo versus when to transition to alternative attacks. Begin chaining Bolo attempts with other De La Riva attacks.
-(Resistance: Medium)
 
 **Week 9-12: Live Integration** - Competition timing and positioning
 Execute Bolo attempts during live positional sparring from De La Riva guard. Partner uses full resistance and all available defenses. Focus on setting up the technique from realistic guard situations. Work on combinations - Bolo to X-Guard, Bolo to Kiss of the Dragon, Bolo to Triangle. Begin using technique in full sparring rounds.
-(Resistance: Full)
 
 
 

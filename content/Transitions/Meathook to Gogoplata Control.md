@@ -159,7 +159,7 @@ Technically, the transition requires precise timing and hip angle adjustment. As
 Strategically, this transition exemplifies the dilemma-creation philosophy central to advanced guard play. From Meathook, opponents face impossible choices: driving forward walks into gogoplata, pulling arm upward opens triangle, spinning the arm enables omoplata. There is no safe defensive response, only selections of which submission they prefer to defend against.
 
 **From Position**: [[Meathook/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize trigger**: Identify opponent's forward pressure commitment—their head drops and shoulders drive toward your chest, weight shifting forward off their knees into their hands and your body (Timing: The moment you feel sustained forward pressure)
-2. **Release arm hook**: Withdraw shin from opponent's tricep by pulling your knee toward your chest, freeing the leg to travel across their body while maintaining collar or head grip with opposite hand (Timing: As opponent commits weight forward)
-3. **Rotate hips**: Turn your hips toward your hooking leg side, creating the angle necessary to thread your shin across opponent's throat rather than their shoulder or face (Timing: Simultaneously with shin release)
-4. **Thread shin to throat**: Guide your shin across opponent's throat at a diagonal angle, with your instep contacting the side of their neck and your shin bone pressing against the front of their trachea (Timing: Immediately following hip rotation)
-5. **Secure head control**: Both hands now grip opponent's head—typically one behind the head pulling down, one controlling the crown—driving their throat into your shin while preventing posture recovery (Timing: As shin makes throat contact)
-6. **Establish Gogoplata Control**: Lock the position by extending your hips slightly, driving the shin deeper into throat contact while pulling head down with both hands to maximize choking compression pressure (Timing: Complete within 2 seconds of initial shin contact)
+1. **Recognize trigger**: Identify opponent's forward pressure commitment—their head drops and shoulders drive toward your chest, weight shifting forward off their knees into their hands and your body
+2. **Release arm hook**: Withdraw shin from opponent's tricep by pulling your knee toward your chest, freeing the leg to travel across their body while maintaining collar or head grip with opposite hand
+3. **Rotate hips**: Turn your hips toward your hooking leg side, creating the angle necessary to thread your shin across opponent's throat rather than their shoulder or face
+4. **Thread shin to throat**: Guide your shin across opponent's throat at a diagonal angle, with your instep contacting the side of their neck and your shin bone pressing against the front of their trachea
+5. **Secure head control**: Both hands now grip opponent's head—typically one behind the head pulling down, one controlling the crown—driving their throat into your shin while preventing posture recovery
+6. **Establish Gogoplata Control**: Lock the position by extending your hips slightly, driving the shin deeper into throat contact while pulling head down with both hands to maximize choking compression pressure
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice shin path from tricep to throat position against stationary partner. Focus on hip rotation timing and hand position transition. Partner provides no resistance, simply maintaining forward-leaning posture. 50 repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner alternates between forward pressure and backward retreat from Meathook. You must correctly identify forward pressure and only attempt transition during appropriate trigger. Partner provides feedback on timing accuracy.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner attempts posture recovery and head extraction counters at 50% resistance. Practice adjusting transition speed and backup options when primary transition fails. Include omoplata and triangle follow-ups.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from Meathook. Partner attempts all viable escapes while you work transition timing and backup attacks. Track success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

@@ -13,11 +13,6 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Back Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Armbar from Back Control represents one of the most devastating finishing sequences in Brazilian Jiu-Jitsu, combining positional dominance with precise joint manipulation. From the back mount position, where you already control the most advantageous position in grappling, the armbar becomes available when the opponent defends the rear naked choke by gripping their hands together or tucking their chin. This submission targets the elbow joint through hip extension and leg control, creating a mechanical advantage that makes escape nearly impossible once properly locked. The transition from back control to armbar requires careful weight distribution and timing, as abandoning the back position prematurely can result in losing dominant control. Elite grapplers use this technique as part of a systematic attack chain, forcing opponents into defensive dilemmas where defending the choke opens the arm, and protecting the arm exposes the neck. The armbar from back is particularly effective in competition because it maintains control throughout the transition, preventing opponents from improving position even if they defend the initial submission attempt.",
   "safety_considerations": {
     "injury_risks": [
@@ -85,43 +80,37 @@
       "step_number": 1,
       "action": "Secure back control and establish dominant grips",
       "description": "From back mount position, establish seat belt control with one arm over the shoulder and one arm under the armpit. Insert both hooks deep, with your heels inside opponent's thighs. Alternatively, secure a body triangle for even tighter control. Your chest should be heavy on opponent's upper back, breaking their posture forward.",
-      "timing": "Take 2-3 seconds to ensure hooks and grips are solid",
-      "pressure_level": "Firm"
+      "timing": "Take 2-3 seconds to ensure hooks and grips are solid"
     },
     {
       "step_number": 2,
       "action": "Threaten the rear naked choke to elicit defensive response",
       "description": "Slide your choking arm's hand toward opponent's opposite collar or position your forearm across their throat. This forces opponent to defend by either gripping their hands together, tucking their chin, or grabbing your choking arm with both hands. This defensive reaction is what opens the armbar opportunity by extending their arms away from their body.",
-      "timing": "1-2 seconds to establish choke threat",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds to establish choke threat"
     },
     {
       "step_number": 3,
       "action": "Isolate the defending arm",
       "description": "As opponent grips their hands together or grabs your choking arm, use your non-choking hand to grip their defending wrist. If they're using a grip break defense, wait for the moment when one arm extends slightly. Cup their wrist from underneath with your palm up, thumb on the inside of their wrist. Your choking arm wraps over their shoulder to help control the isolated arm.",
-      "timing": "1-2 seconds to establish wrist control",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds to establish wrist control"
     },
     {
       "step_number": 4,
       "action": "Transition leg position while maintaining back control",
       "description": "Remove the top hook (the hook on the same side as the arm you're attacking) and swing that leg over opponent's head, placing the shin across their face and upper chest. Keep your bottom hook in and hip glued to opponent's back to prevent them from rolling away. Your body should rotate slightly, but your hips stay heavy on their back.",
-      "timing": "2-3 seconds for smooth leg transition",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds for smooth leg transition"
     },
     {
       "step_number": 5,
       "action": "Secure arm position with both hands and proper alignment",
       "description": "Grip opponent's wrist with both hands in a C-grip configuration (thumbs together, fingers wrapped around their wrist). Pull the arm tight to your chest, ensuring their thumb points upward toward the ceiling. This alignment is critical—if their thumb points down, the elbow won't properly extend. Keep the arm tight across your chest, with their tricep in contact with your sternum.",
-      "timing": "1-2 seconds to establish two-handed wrist control",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds to establish two-handed wrist control"
     },
     {
       "step_number": 6,
       "action": "Complete the finish with hip extension",
       "description": "Pinch your knees together to prevent opponent from pulling their arm out. Keep your feet crossed or ankles locked for maximum control. Lift your hips upward in a controlled manner, creating extension at opponent's elbow joint. The pressure should be perpendicular to their arm, not pulling toward your head. Your lower back should arch upward while keeping the arm pinned to your chest. Apply pressure slowly and progressively until opponent taps.",
-      "timing": "3-5 seconds minimum for safe application",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds minimum for safe application"
     }
   ],
   "opponent_defense_patterns": [
@@ -155,44 +144,37 @@
     {
       "error": "Releasing back control too early before securing the arm",
       "consequence": "Opponent escapes by rolling forward or turning into guard, resulting in complete loss of positional dominance",
-      "correction": "Maintain at least one hook and hip connection throughout the entire transition. Only swing the leg over once you have absolute control of the isolated wrist with both hands.",
-      "danger_level": "Low"
+      "correction": "Maintain at least one hook and hip connection throughout the entire transition. Only swing the leg over once you have absolute control of the isolated wrist with both hands."
     },
     {
       "error": "Opponent's thumb pointing downward instead of upward",
       "consequence": "Armbar won't finish properly because the elbow joint is in the wrong alignment. Opponent can resist indefinitely or you may injure the shoulder instead of elbow.",
-      "correction": "Before extending hips, check that opponent's thumb points to the ceiling. Adjust wrist control by rotating their arm if needed. This alignment is non-negotiable for proper armbar mechanics.",
-      "danger_level": "High"
+      "correction": "Before extending hips, check that opponent's thumb points to the ceiling. Adjust wrist control by rotating their arm if needed. This alignment is non-negotiable for proper armbar mechanics."
     },
     {
       "error": "Pulling the arm toward your head instead of extending hips upward",
       "consequence": "Creates space for opponent to pull arm free. Reduces leverage and makes submission ineffective. Can cause neck and shoulder strain for you.",
-      "correction": "Keep the arm pinned tight to your chest and drive your hips upward, perpendicular to their arm. Think about pushing your lower back toward the ceiling, not pulling their hand toward your head.",
-      "danger_level": "Medium"
+      "correction": "Keep the arm pinned tight to your chest and drive your hips upward, perpendicular to their arm. Think about pushing your lower back toward the ceiling, not pulling their hand toward your head."
     },
     {
       "error": "Jerking or spiking the armbar explosively in training",
       "consequence": "CRITICAL INJURY RISK: Can cause immediate elbow dislocation, ligament rupture, or permanent joint damage to training partner",
-      "correction": "ALWAYS apply armbars slowly and progressively in training, taking minimum 3-5 seconds to reach full extension. Save explosive finishes for competition only. Your training partner's safety is paramount.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply armbars slowly and progressively in training, taking minimum 3-5 seconds to reach full extension. Save explosive finishes for competition only. Your training partner's safety is paramount."
     },
     {
       "error": "Knees too far apart, allowing opponent to pull arm free",
       "consequence": "Opponent extracts their arm by pulling it between your legs, escaping the submission and potentially passing to top position",
-      "correction": "Pinch your knees together tightly, trapping opponent's shoulder between your thighs. Imagine trying to crush their arm with your knees. This prevents any possibility of arm extraction.",
-      "danger_level": "Medium"
+      "correction": "Pinch your knees together tightly, trapping opponent's shoulder between your thighs. Imagine trying to crush their arm with your knees. This prevents any possibility of arm extraction."
     },
     {
       "error": "Failing to control the wrist with both hands",
       "consequence": "Opponent can turn their arm, change the angle, or pull it free. Significantly reduces finishing percentage and control.",
-      "correction": "Always use both hands in a C-grip on the wrist. Your hands should be close to their hand, not halfway up their forearm. Two-hand control is mandatory for high-level armbar finishing.",
-      "danger_level": "Medium"
+      "correction": "Always use both hands in a C-grip on the wrist. Your hands should be close to their hand, not halfway up their forearm. Two-hand control is mandatory for high-level armbar finishing."
     },
     {
       "error": "Continuing to apply pressure after training partner taps",
       "consequence": "CRITICAL INJURY RISK: Guaranteed injury, potential career-ending damage, and complete breach of training ethics and safety",
-      "correction": "Release immediately upon any tap signal. Develop the discipline to stop all pressure the instant you feel or hear a tap. This is the most fundamental rule of safe grappling.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon any tap signal. Develop the discipline to stop all pressure the instant you feel or hear a tap. This is the most fundamental rule of safe grappling."
     }
   ],
   "variations_and_setups": [
@@ -279,50 +261,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn proper positioning, alignment, and safety protocols without resistance. Study anatomy of elbow joint and understand injury mechanisms.",
-      "resistance_level": "None",
-      "safety_emphasis": "Partner remains completely passive. Practice slow transitions and proper thumb-up alignment. Discuss tap signals and emergency release protocols before every drill."
-    },
-    {
-      "phase": "Controlled Drilling",
-      "timeframe": "Week 3-4",
-      "focus": "Repetition of the technique from established back control position. Partner allows clean execution but doesn't actively help. Focus on smooth weight transitions.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Maintain 5-second minimum application time. Stop well before full extension. Partners communicate verbally about pressure levels. Practice releasing immediately on tap."
-    },
-    {
-      "phase": "Light Resistance Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Partner provides 30% resistance through grip fighting and basic defensive postures. Practitioner learns to create openings and isolate the arm against mild opposition.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Both partners agree on maximum pressure levels before drilling. Use verbal communication throughout. Partner taps early as a safety measure. No explosive movements permitted."
-    },
-    {
-      "phase": "Moderate Resistance Integration",
-      "timeframe": "Week 9-12",
-      "focus": "Partner uses realistic defensive techniques (grip fighting, arm protection, rolling attempts) at 60% intensity. Practitioner chains armbar with other back attacks.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partners should be matched in experience and size. Mandatory warm-up and joint mobility work before drilling. Tap immediately when feeling elbow pressure. Debrief after each round about safety."
-    },
-    {
-      "phase": "Live Integration",
-      "timeframe": "Week 13+",
-      "focus": "Apply armbar from back during positional sparring and live rolling. Partner defends fully but both partners maintain training safety mindset.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Absolutely no explosive finishes in training. When armbar is locked, apply pressure incrementally over 3-5 seconds. Advanced practitioners can use controlled 'catch and release' - secure position, feel control, then release without full extension. This develops finishing sensitivity without injury risk."
-    },
-    {
-      "phase": "Ongoing Refinement and Safety Culture",
-      "timeframe": "Ongoing",
-      "focus": "Continuous improvement of technique efficiency, transition speed, and finishing precision. Study competition footage and learn from higher belts. Develop instinctive safety habits.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never compromise training partner safety for ego or submission count. Experienced practitioners should model safe application for beginners. Regular review of safety protocols in gym. Competition-speed finishes reserved exclusively for competition. Foster culture where tapping early is respected and encouraged."
-    }
-  ],
   "from_positions": [
     "Back Control",
     "Body Triangle",
@@ -387,5 +325,6 @@
       "name": "Seat Belt Control Back",
       "relationship": "Standard grip configuration for back control armbar setup"
     }
-  ]
+  ],
+  "success_rate": 60
 }

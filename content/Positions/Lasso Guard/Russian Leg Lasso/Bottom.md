@@ -364,11 +364,11 @@ Russian Leg Lasso established, but top player actively works to break collar and
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 25% |
-| Intermediate | 50% | 55% | 40% |
-| Advanced     | 65% | 70% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 62% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 30-60 seconds before transition
 

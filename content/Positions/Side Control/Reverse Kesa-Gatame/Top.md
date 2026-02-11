@@ -363,11 +363,11 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 25% |
-| Intermediate | 55% | 50% | 40% |
-| Advanced     | 70% | 65% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 58% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 45-90 seconds before transition or submission
 

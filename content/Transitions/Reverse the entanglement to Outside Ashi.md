@@ -157,7 +157,7 @@ The reversal mechanics rely on exploiting the transitional nature of Leg Knot po
 Strategic timing is paramount for this technique. The optimal window occurs when the opponent commits weight forward for a submission attempt or during their transition between leg lock setups. Attempting the reversal while the opponent maintains neutral balance significantly reduces success probability. Advanced practitioners recognize micro-transitions in the opponent's weight distribution and capitalize on these brief windows to execute the reversal with maximum efficiency.
 
 **From Position**: [[Leg Knot/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure far leg control**: While defending in Leg Knot Bottom, reach across and grip opponent's far leg at the knee or lower thigh. This grip prevents them from counter-rotating when you initiate the reversal and is essential for controlling their base throughout the technique. (Timing: During opponent's grip adjustment or transition)
-2. **Establish hip angle**: Turn your hips toward the opponent while keeping your heel protected by pointing toes toward their hip. Create approximately 45-degree angle that positions your hips for the upcoming rotation while maintaining defensive integrity. (Timing: Immediately after securing grip)
-3. **Clear trapped leg**: Using the angle created, pump your knee toward your chest while rotating hips further into opponent. The goal is to extract your leg from their entanglement without exposing heel. Use limp leg mechanics rather than muscling through the entanglement. (Timing: During opponent's forward weight commitment)
-4. **Hip switch rotation**: Execute a decisive hip switch that rotates your body 180 degrees, bringing your hips underneath opponent's trapped leg. Your outside leg (previously free leg) now hooks behind their knee while your inside leg clears to outside position. (Timing: Single fluid motion with leg extraction)
-5. **Establish outside hook**: As rotation completes, secure your outside leg hook behind opponent's knee, triangling if possible. Your hips should now be positioned with their leg between your legs in classic Outside Ashi configuration with your outside hip controlling their knee line. (Timing: Immediately following hip switch)
-6. **Consolidate attacking position**: Secure grips on opponent's foot and ankle, controlling heel exposure. Pinch knees together to prevent their leg extraction. Establish upper body posture to prevent their sitting up and counter-attack attempts. You are now in Outside Ashi-Garami with attacking initiative. (Timing: Within 2 seconds of completing rotation)
+1. **Secure far leg control**: While defending in Leg Knot Bottom, reach across and grip opponent's far leg at the knee or lower thigh. This grip prevents them from counter-rotating when you initiate the reversal and is essential for controlling their base throughout the technique.
+2. **Establish hip angle**: Turn your hips toward the opponent while keeping your heel protected by pointing toes toward their hip. Create approximately 45-degree angle that positions your hips for the upcoming rotation while maintaining defensive integrity.
+3. **Clear trapped leg**: Using the angle created, pump your knee toward your chest while rotating hips further into opponent. The goal is to extract your leg from their entanglement without exposing heel. Use limp leg mechanics rather than muscling through the entanglement.
+4. **Hip switch rotation**: Execute a decisive hip switch that rotates your body 180 degrees, bringing your hips underneath opponent's trapped leg. Your outside leg (previously free leg) now hooks behind their knee while your inside leg clears to outside position.
+5. **Establish outside hook**: As rotation completes, secure your outside leg hook behind opponent's knee, triangling if possible. Your hips should now be positioned with their leg between your legs in classic Outside Ashi configuration with your outside hip controlling their knee line.
+6. **Consolidate attacking position**: Secure grips on opponent's foot and ankle, controlling heel exposure. Pinch knees together to prevent their leg extraction. Establish upper body posture to prevent their sitting up and counter-attack attempts. You are now in Outside Ashi-Garami with attacking initiative.
 
 
 </section>
@@ -257,19 +257,15 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 ## Training Progressions
 **Week 1-2** - Reversal mechanics isolation
 Partner holds static Leg Knot Top position with minimal resistance. Focus on proper sequencing: far leg grip, hip angle, leg extraction, rotation, hook establishment. Drill each component separately then combine into full movement. Emphasis on protecting heel throughout.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides light movement and transitions between positions. Practice recognizing optimal reversal windows: weight shifts, grip adjustments, submission setups. Execute reversal only when window appears. Develop sensitivity to opponent's weight distribution.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively defends reversal attempts with realistic counters. Practice adjusting technique based on opponent's defensive response. Integrate chain attacks: if reversal blocked, transition to 50-50 or defensive guard recovery. Build troubleshooting abilities.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring starting from Leg Knot Bottom. Bottom player attempts reversal while top player attacks with full submission intent. Track success rate and identify remaining technical gaps. Competition simulation with time pressure and fatigue.
-(Resistance: Full)
 
 
 

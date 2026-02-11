@@ -350,11 +350,11 @@ Partner cycles through hierarchy advancement attempts (Outside to Inside, Inside
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 20% | 10% |
-| Intermediate | 50% | 35% | 20% |
-| Advanced     | 70% | 55% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 45% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 30-60 seconds before defensive resolution through escape, submission, or opponent advancement
 

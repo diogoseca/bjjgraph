@@ -163,7 +163,7 @@ The fundamental challenge of this pass is extracting your legs from the symmetri
 This transition exemplifies the principle that positional dominance sometimes outweighs submission hunting. Against defensive opponents who excel at heel protection, repeatedly attacking leg locks may waste energy with diminishing returns. Recognizing when to abandon the entanglement and advance position separates intermediate practitioners from advanced ones. The 3 points earned for the pass often proves more valuable than continued position-neutral leg lock exchanges.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ This transition exemplifies the principle that positional dominance sometimes ou
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Strip ankle control**: Use both hands to break opponent's grip on your ankle or foot. Two-on-one grip fighting targeting their controlling hand first eliminates their ability to prevent your leg extraction. (Timing: When opponent commits both hands to heel defense)
-2. **Drive chest forward**: Immediately after breaking grips, drive your chest weight forward onto opponent's torso while keeping hips low. This pressure prevents them from sitting up or following your movement during extraction. (Timing: Simultaneously with grip break)
-3. **Extract inside leg**: Pull your inside leg free from the entanglement by straightening it and sliding it between your bodies. Keep constant chest pressure to prevent opponent from re-capturing as the leg clears. (Timing: While maintaining forward pressure)
-4. **Establish knee position**: Plant your freed leg's knee on opponent's hip or in their hip crease. This blocks guard recovery while your outside leg remains temporarily in the entanglement. (Timing: Immediately upon inside leg clearing)
-5. **Extract outside leg**: Circle your outside leg free from behind opponent's legs, keeping your knee driving into their hip throughout. Use a windshield wiper motion to clear their leg hook. (Timing: Once inside leg is securely planted)
-6. **Establish crossface**: Drive your shoulder into opponent's jaw while sliding your arm under their head. Create uncomfortable pressure across their face to prevent them from turning toward you. (Timing: As outside leg clears)
-7. **Settle side control**: Drop your hips low and heavy against opponent's hips, eliminating all space. Position chest perpendicular to their torso with constant chest-to-chest contact. Block far hip with near hand. (Timing: Final phase of pass completion)
+1. **Strip ankle control**: Use both hands to break opponent's grip on your ankle or foot. Two-on-one grip fighting targeting their controlling hand first eliminates their ability to prevent your leg extraction.
+2. **Drive chest forward**: Immediately after breaking grips, drive your chest weight forward onto opponent's torso while keeping hips low. This pressure prevents them from sitting up or following your movement during extraction.
+3. **Extract inside leg**: Pull your inside leg free from the entanglement by straightening it and sliding it between your bodies. Keep constant chest pressure to prevent opponent from re-capturing as the leg clears.
+4. **Establish knee position**: Plant your freed leg's knee on opponent's hip or in their hip crease. This blocks guard recovery while your outside leg remains temporarily in the entanglement.
+5. **Extract outside leg**: Circle your outside leg free from behind opponent's legs, keeping your knee driving into their hip throughout. Use a windshield wiper motion to clear their leg hook.
+6. **Establish crossface**: Drive your shoulder into opponent's jaw while sliding your arm under their head. Create uncomfortable pressure across their face to prevent them from turning toward you.
+7. **Settle side control**: Drop your hips low and heavy against opponent's hips, eliminating all space. Position chest perpendicular to their torso with constant chest-to-chest contact. Block far hip with near hand.
 
 
 </section>
@@ -259,19 +259,15 @@ This transition exemplifies the principle that positional dominance sometimes ou
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice grip breaking and chest pressure maintenance from 50-50 top. Partner provides no resistance. Focus on the sequential leg extraction mechanics - inside leg first, plant knee, then outside leg. Drill each step in isolation before combining.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner defends with light re-capturing attempts and hip escapes. Learn to recognize when opponent's focus on heel defense creates passing opportunity. Practice aborting pass and returning to 50-50 when timing is wrong.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain pass attempts with leg lock threats. When opponent over-defends heel, pass. When opponent over-defends pass, attack heel hook. Develop ability to switch between attack modes based on opponent reaction.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from 50-50. Partner provides full resistance with all counters available. Track success rate and identify which situations favor passing versus continued leg attacks. Refine decision-making process.
-(Resistance: Full)
 
 
 

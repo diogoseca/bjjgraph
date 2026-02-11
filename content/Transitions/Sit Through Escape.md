@@ -157,7 +157,7 @@ The escape works by combining a strategic weight shift with explosive hip rotati
 Strategically, the Sit Through Escape represents a high-percentage option when the opponent has established only the initial hook and has not yet secured deep upper body control. It is particularly effective against opponents who over-commit to the hooking leg or who extend too far forward in pursuit of back control. The escape transitions naturally into various open guard variations and can be chained with technical stand-ups when the opponent's reaction creates additional space.
 
 **From Position**: [[Crab Ride/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the Sit Through Escape represents a high-percentage option when t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish hand position**: Plant both hands firmly on the mat slightly wider than shoulder width, fingers pointing forward. Bend elbows slightly to create a spring-loaded base that can generate explosive push-off force. (Timing: During opponent's grip adjustment)
-2. **Load far-side knee**: Shift your weight onto your far-side knee (the knee away from opponent's hook), bringing it underneath your body to serve as the primary pivot point for the upcoming rotation. (Timing: Immediately after hand positioning)
-3. **Clear the hook**: Drive your near-side hip down toward the mat while simultaneously pulling your near-side knee toward your chest, creating the initial clearance to slip past the opponent's hooking leg. (Timing: As opponent shifts weight forward)
-4. **Rotate through**: Explosively swing your near-side leg through the gap between opponent's hook and their base leg, using your posted hands and far knee as the pivot structure. Your hips should rotate approximately 180 degrees. (Timing: Explosive, continuous motion)
-5. **Face opponent**: Complete the rotation until you are facing your opponent directly, with your back now toward the mat rather than exposed to their control. Your previously hooked leg should now be positioned between you and your opponent. (Timing: Follow through rotation momentum)
-6. **Establish guard**: Immediately engage open guard by placing feet on opponent's hips, establishing sleeve or collar grips, and creating the distance management structure necessary to prevent immediate re-passing. (Timing: Within 1-2 seconds of completing rotation)
+1. **Establish hand position**: Plant both hands firmly on the mat slightly wider than shoulder width, fingers pointing forward. Bend elbows slightly to create a spring-loaded base that can generate explosive push-off force.
+2. **Load far-side knee**: Shift your weight onto your far-side knee (the knee away from opponent's hook), bringing it underneath your body to serve as the primary pivot point for the upcoming rotation.
+3. **Clear the hook**: Drive your near-side hip down toward the mat while simultaneously pulling your near-side knee toward your chest, creating the initial clearance to slip past the opponent's hooking leg.
+4. **Rotate through**: Explosively swing your near-side leg through the gap between opponent's hook and their base leg, using your posted hands and far knee as the pivot structure. Your hips should rotate approximately 180 degrees.
+5. **Face opponent**: Complete the rotation until you are facing your opponent directly, with your back now toward the mat rather than exposed to their control. Your previously hooked leg should now be positioned between you and your opponent.
+6. **Establish guard**: Immediately engage open guard by placing feet on opponent's hips, establishing sleeve or collar grips, and creating the distance management structure necessary to prevent immediate re-passing.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, the Sit Through Escape represents a high-percentage option when t
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the rotation mechanics solo and with a stationary partner. Focus on proper hand placement, weight loading sequence, and completing full 180-degree rotation. Partner holds crab ride position without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies light crab ride control and periodically adjusts grips or shifts weight. Practice recognizing the timing windows and executing the escape when opportunities present. Partner does not actively counter.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner applies moderate resistance and attempts basic counters (following rotation, deepening hook). Practice adapting escape based on opponent reactions and chaining with alternative escapes when sit through is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring from crab ride bottom. Partner works to maintain control and advance to back while you work all escape options including sit through. Track success rates and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

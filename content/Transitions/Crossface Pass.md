@@ -153,7 +153,7 @@ description: "Learn Crossface Pass in BJJ. Step-by-step execution from half guar
 The Crossface Pass is a fundamental pressure-passing technique used to pass the half guard by controlling the opponent's head and neck with the crossface while clearing the trapped leg. This technique exemplifies the principle of controlling the head to control the body, using heavy shoulder pressure to flatten the opponent and restrict their mobility. The crossface creates a powerful wedge that prevents the opponent from turning into you or creating effective defensive frames, while simultaneously setting up the leg extraction necessary to achieve side control. This pass is particularly effective against opponents who rely on the underhook battle in half guard, as the crossface neutralizes their framing attempts and creates a severe defensive dilemma. The technique requires proper weight distribution, precise timing, and the ability to maintain heavy pressure while systematically clearing the bottom leg. When executed correctly, the crossface pass is one of the highest percentage methods for passing half guard, especially in no-gi situations where lapel grips are unavailable.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish crossface**: Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder. Simultaneously, position your head on the opposite side from your trapped leg, creating a wedge that prevents them from turning into you. (Timing: Immediately upon recognizing half guard position)
-2. **Apply shoulder pressure**: Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body throughout. (Timing: Continuous throughout the pass)
-3. **Control far arm**: With your free hand, either underhook the opponent's far arm (the arm away from your trapped leg) or pin it to the mat. This prevents them from creating frames or establishing defensive grips. If they're attempting to push your head away, swim your free arm over their arm and secure the underhook position. (Timing: As opponent attempts to create defensive frames)
-4. **Create extraction angle**: Step your trapped leg slightly backward and outward, creating an angle of approximately 45 degrees from your opponent's hips. Simultaneously, walk your free leg forward toward their head, shifting your weight distribution while maintaining the crossface pressure. This angle makes it mechanically difficult for them to maintain their leg lock on your trapped leg. (Timing: Once upper body control is secured)
-5. **Extract trapped leg**: Pull your trapped knee backward and upward, using a circular motion to clear it over the opponent's bottom leg. Keep your weight forward on the crossface so they cannot follow with their hips. If needed, use your free hand to push their bottom knee away as you extract. The key is maintaining heavy shoulder pressure so they cannot bridge or turn as you clear the leg. (Timing: Progressive extraction coordinated with pressure)
-6. **Secure side control**: As your leg clears completely, immediately drop your hips to the mat on the far side of the opponent's body. Transition your crossface to a standard side control head position, securing the far side underhook with your previously free arm. Apply chest-to-chest pressure and establish your preferred side control grips, ensuring they cannot recover guard. (Timing: Immediately upon leg clearing)
+1. **Establish crossface**: Drive your forearm across the opponent's face and neck, positioning the blade of your forearm firmly against their jaw. Your hand should reach toward their far shoulder. Simultaneously, position your head on the opposite side from your trapped leg, creating a wedge that prevents them from turning into you.
+2. **Apply shoulder pressure**: Drop your shoulder weight directly onto the opponent's face and neck, driving downward and slightly forward. This pressure should flatten them to their back and make it difficult for them to breathe or frame effectively. Keep your chest heavy and connected to their upper body throughout.
+3. **Control far arm**: With your free hand, either underhook the opponent's far arm (the arm away from your trapped leg) or pin it to the mat. This prevents them from creating frames or establishing defensive grips. If they're attempting to push your head away, swim your free arm over their arm and secure the underhook position.
+4. **Create extraction angle**: Step your trapped leg slightly backward and outward, creating an angle of approximately 45 degrees from your opponent's hips. Simultaneously, walk your free leg forward toward their head, shifting your weight distribution while maintaining the crossface pressure. This angle makes it mechanically difficult for them to maintain their leg lock on your trapped leg.
+5. **Extract trapped leg**: Pull your trapped knee backward and upward, using a circular motion to clear it over the opponent's bottom leg. Keep your weight forward on the crossface so they cannot follow with their hips. If needed, use your free hand to push their bottom knee away as you extract. The key is maintaining heavy shoulder pressure so they cannot bridge or turn as you clear the leg.
+6. **Secure side control**: As your leg clears completely, immediately drop your hips to the mat on the far side of the opponent's body. Transition your crossface to a standard side control head position, securing the far side underhook with your previously free arm. Apply chest-to-chest pressure and establish your preferred side control grips, ensuring they cannot recover guard.
 
 
 </section>
@@ -254,27 +254,21 @@ The Crossface Pass is a fundamental pressure-passing technique used to pass the 
 ## Training Progressions
 **Phase 1: Positional Familiarization (Week 1-2)** - Understanding crossface mechanics and weight distribution
 Partner starts in half guard with light resistance. Practice establishing crossface position, proper shoulder pressure angle, and maintaining heavy weight while partner gives feedback on pressure points. Focus on feeling the correct body positioning and weight distribution without attempting full pass.
-(Resistance: None)
 
 **Phase 2: Upper Body Control (Week 3-4)** - Mastering crossface and far arm control
 Partner provides 30% resistance, attempting basic frames and underhook attempts. Practice beating them to the crossface position, controlling their far arm, and maintaining pressure against their defensive efforts. Partner should not yet attempt sweeps, only defensive frames and position recovery.
-(Resistance: Light)
 
 **Phase 3: Leg Extraction Drilling (Week 5-6)** - Developing proper leg extraction mechanics
 With upper body control established, partner maintains moderate leg grip (50% resistance) while you practice the circular extraction motion. Focus on creating proper angles, using weight distribution to prevent hip following, and timing the extraction with maintained crossface pressure.
-(Resistance: Medium)
 
 **Phase 4: Full Sequence Integration (Week 7-10)** - Combining all elements with increasing resistance
 Partner provides 70% resistance including frames, underhook attempts, and basic sweep attempts. Practice the complete sequence from initial crossface establishment through to side control completion. Focus on smooth transitions between steps and maintaining pressure throughout.
-(Resistance: Medium)
 
 **Phase 5: Competition Simulation (Week 11-16)** - Full resistance with common counters
 Partner uses full resistance with all common defensive responses: deep underhooks, knee shields, electric chair setups, and frame battles. Practice recognizing and countering each defensive attempt while maintaining technical precision. Begin timing the full sequence and aiming for completion under 10 seconds.
-(Resistance: Full)
 
 **Phase 6: Integration and Flow (Ongoing)** - Combining with other half guard passing options
 Practice transitioning between crossface pass and other half guard passes (knee slice, smash, underhook) based on opponent's defensive reactions. Develop the ability to chain techniques and recognize when crossface pass is highest percentage option versus when to switch strategies. Incorporate into live rolling.
-(Resistance: Full)
 
 
 

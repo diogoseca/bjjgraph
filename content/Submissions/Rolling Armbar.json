@@ -15,11 +15,6 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Rolling Armbar represents one of the most dynamic and technically sophisticated submissions in Brazilian Jiu-Jitsu, combining rotational movement with precise joint control to attack the elbow. Unlike static armbars from established positions, the rolling variation capitalizes on momentum and timing, making it particularly effective during transitions and scrambles. This technique requires excellent body coordination, spatial awareness, and the ability to maintain arm control while rotating through space. The rolling armbar is most commonly executed from guard positions when the opponent attempts to posture or stack, though advanced practitioners can hit it from standing, during takedown attempts, or even as a counter to passing attempts. The technique's effectiveness lies in its ability to surprise opponents who are focused on other objectives, making it a high-percentage finish for those who master the rolling mechanics. The continuous rotation creates tremendous leverage on the elbow joint while limiting the opponent's defensive options, as they must defend the submission while managing their own balance during the roll.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,43 +86,37 @@
       "step_number": 1,
       "action": "Secure the arm and establish control",
       "description": "From closed guard or during a scramble, secure a two-on-one grip on the opponent's arm. Your outside hand grips their wrist while your inside hand controls above the elbow or grips the bicep. Pull the arm across your centerline and tight to your chest, isolating it from their body. This initial control is critical - without it, the entire technique fails.",
-      "timing": "0-1 seconds",
-      "pressure_level": "Firm"
+      "timing": "0-1 seconds"
     },
     {
       "step_number": 2,
       "action": "Break posture and create the angle",
       "description": "Pull the controlled arm down and across your body while simultaneously using your legs to break their posture forward. Open your guard if closed, and swing your outside leg (same side as the controlled arm) over their shoulder and behind their head. Create a 45-degree angle off center by hip escaping slightly to the opposite side. This angle is essential for the rolling mechanics to work properly.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Initiate the rolling motion",
       "description": "Maintaining tight arm control, tuck your chin to your chest and look toward the direction you'll roll. Drive your shoulder to the mat on the same side as the controlled arm. Use your free leg to push off the mat and generate rotational momentum. The roll should feel like a smooth backwards somersault over your shoulder. Keep the opponent's arm glued to your chest throughout - any separation here allows escape.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Complete the rotation while maintaining arm connection",
       "description": "As you roll through, keep your hips connected to the controlled arm and continue pulling it tight to your center. Your body should rotate 180-270 degrees depending on the setup. Land with your back or side on the mat, with the opponent's arm still trapped between your legs. The leg that was over their shoulder should now be across their chest or face, while your other leg comes over their body to establish leg control.",
-      "timing": "3-4 seconds",
-      "pressure_level": "Firm"
+      "timing": "3-4 seconds"
     },
     {
       "step_number": 5,
       "action": "Establish finishing position",
       "description": "After completing the roll, immediately adjust to the standard armbar finishing position. Position the opponent's thumb pointing upward and their arm straight. Cross your ankles over their torso or face, with your knees pinched together. Scoot your hips as close to their shoulder as possible to remove any slack. Your legs should be perpendicular to their body, creating a strong structural frame.",
-      "timing": "4-5 seconds",
-      "pressure_level": "Firm"
+      "timing": "4-5 seconds"
     },
     {
       "step_number": 6,
       "action": "Apply controlled extension",
       "description": "With your hips positioned tight to their shoulder, pull their wrist toward your chest while simultaneously elevating your hips. The extension should be slow and controlled - imagine trying to make their arm straight rather than trying to break it. Pull their wrist down past your chest while lifting your hips up toward the ceiling. Apply pressure progressively over 2-3 seconds, watching for the tap. The moment they tap, immediately release hip pressure and open your legs.",
-      "timing": "5-8 seconds",
-      "pressure_level": "Moderate"
+      "timing": "5-8 seconds"
     }
   ],
   "opponent_defense_patterns": [
@@ -161,44 +150,37 @@
     {
       "error": "Rolling with the arm away from your body instead of maintaining tight connection",
       "consequence": "Opponent easily slips their arm free during the roll, completely negating the submission attempt and potentially giving them top position",
-      "correction": "Throughout the entire rolling sequence, pull the controlled arm across your chest and keep it glued to your body. Think of trying to touch their wrist to your opposite shoulder. Use both hands to maintain this connection.",
-      "danger_level": "Low"
+      "correction": "Throughout the entire rolling sequence, pull the controlled arm across your chest and keep it glued to your body. Think of trying to touch their wrist to your opposite shoulder. Use both hands to maintain this connection."
     },
     {
       "error": "Jerking or spiking the submission during or after the roll",
       "consequence": "High risk of elbow dislocation, ligament tears, or complete rupture of the joint capsule requiring surgical repair",
-      "correction": "Apply the finishing extension slowly and progressively over 3-5 seconds minimum. The roll creates momentum and surprise - you don't need speed on the finish. Watch for the tap and release immediately.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply the finishing extension slowly and progressively over 3-5 seconds minimum. The roll creates momentum and surprise - you don't need speed on the finish. Watch for the tap and release immediately."
     },
     {
       "error": "Rolling over your neck instead of your shoulder",
       "consequence": "Severe neck strain, potential cervical spine injury, and loss of control during the technique, allowing opponent to escape or counter",
-      "correction": "Tuck your chin and look at your hip on the rolling side. Drive your shoulder to the mat first, not the top of your head. The roll should go diagonally across your back from shoulder to opposite hip, never over your neck.",
-      "danger_level": "CRITICAL"
+      "correction": "Tuck your chin and look at your hip on the rolling side. Drive your shoulder to the mat first, not the top of your head. The roll should go diagonally across your back from shoulder to opposite hip, never over your neck."
     },
     {
       "error": "Attempting the roll without proper angle or space",
       "consequence": "Getting stuck mid-roll, losing the arm, or ending up in a worse position with opponent achieving top control or mount",
-      "correction": "Before initiating the roll, create a 45-degree angle by hip escaping away from the controlled arm. Ensure you have at least 2-3 feet of clear mat space behind you. If space is limited, choose a different attack.",
-      "danger_level": "Medium"
+      "correction": "Before initiating the roll, create a 45-degree angle by hip escaping away from the controlled arm. Ensure you have at least 2-3 feet of clear mat space behind you. If space is limited, choose a different attack."
     },
     {
       "error": "Not controlling the opponent's head or upper body with your legs during the roll",
       "consequence": "Opponent follows your roll and maintains top pressure, potentially passing to side control or mount while you're vulnerable",
-      "correction": "As you swing your leg over their shoulder, actively pull their head down and forward with your leg. Keep this leg heavy on their head/shoulder throughout the entire roll to prevent them from following your rotation.",
-      "danger_level": "Medium"
+      "correction": "As you swing your leg over their shoulder, actively pull their head down and forward with your leg. Keep this leg heavy on their head/shoulder throughout the entire roll to prevent them from following your rotation."
     },
     {
       "error": "Finishing with legs uncrossed or knees spread apart",
       "consequence": "Significant loss of control and leverage, allowing opponent to escape by pulling their arm free or stacking you",
-      "correction": "After completing the roll, immediately cross your ankles over their torso and pinch your knees together tightly. Your legs should be actively squeezing their body, not just resting on them. This creates the structural integrity needed for the finish.",
-      "danger_level": "Low"
+      "correction": "After completing the roll, immediately cross your ankles over their torso and pinch your knees together tightly. Your legs should be actively squeezing their body, not just resting on them. This creates the structural integrity needed for the finish."
     },
     {
       "error": "Releasing hand control to adjust position after the roll",
       "consequence": "Opponent immediately pulls their arm free and escapes, wasting the entire setup and potentially giving them top position",
-      "correction": "Never release your two-handed grip on their arm until the submission is fully locked or you're transitioning to another technique. Keep constant tension on the arm throughout. Position adjustments should be made with leg movement and hip positioning only.",
-      "danger_level": "Low"
+      "correction": "Never release your two-handed grip on their arm until the submission is fully locked or you're transitioning to another technique. Keep constant tension on the arm throughout. Position adjustments should be made with leg movement and hip positioning only."
     }
   ],
   "variations_and_setups": [
@@ -290,50 +272,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Mechanics Drilling",
-      "timeframe": "Weeks 1-2",
-      "focus": "Learn the rolling mechanics separately from the submission. Practice the shoulder roll movement pattern without a partner, focusing on protecting your neck and completing smooth rotations. Then add static arm control drills where partner gives zero resistance.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Master the neck-safe rolling mechanics before adding any partner interaction. Practice tapping early and often when serving as the defender. Never attempt the technique at speed until the rolling pattern is ingrained."
-    },
-    {
-      "phase": "Positional Drilling with Cooperative Partner",
-      "timeframe": "Weeks 3-4",
-      "focus": "Practice the complete sequence from setup to finish with a fully cooperative partner who maintains their arm extended and helps facilitate the roll. Focus on maintaining arm connection throughout the roll and finishing with proper leg position. No extension pressure applied.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner should tap preemptively before any extension is applied. Attacker practices stopping at the finishing position without applying pressure. Build muscle memory for the release protocol."
-    },
-    {
-      "phase": "Adding Mild Defensive Resistance",
-      "timeframe": "Weeks 5-6",
-      "focus": "Partner begins to add light resistance - keeping their elbow bent, maintaining light posture, or providing mild stacking pressure. Attacker learns to time the roll and overcome basic defensive reactions. Begin applying very light finishing pressure (20-30% intensity maximum).",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Introduce the 3-5 second minimum extension rule. Partner taps well before pain threshold. Attacker must demonstrate consistent slow application before progressing to next phase."
-    },
-    {
-      "phase": "Realistic Defensive Scenarios",
-      "timeframe": "Weeks 7-10",
-      "focus": "Partner uses realistic defensive tactics - gripping their gi, stacking, pulling their arm back, and attempting to prevent the roll. Attacker develops timing, feints, and setups to overcome these defenses. Apply finishing pressure at 50-60% intensity.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners must be comfortable with tap signals and immediate release. Never attempt the technique if you feel out of control during the roll. Check partner's elbow condition regularly."
-    },
-    {
-      "phase": "Integration into Live Rolling",
-      "timeframe": "Weeks 11-14",
-      "focus": "Begin attempting the rolling armbar during controlled sparring rounds with trusted partners. Focus on recognizing setup opportunities and flowing between this and other attacks. Start from positions where you have initial arm control established.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Only attempt with partners who know the technique and will tap appropriately. Maintain the slow application standard even during live rolling. If you feel your control slipping during the roll, abandon the attempt immediately rather than forcing it."
-    },
-    {
-      "phase": "Competition Application and Advanced Variations",
-      "timeframe": "Months 4-6",
-      "focus": "Develop competition-level timing and setups. Practice the technique during competition simulation rounds. Explore advanced entries from standing, scrambles, and combination attacks. Begin integrating variations based on opponent's defensive tendencies.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even in competition, maintain controlled application - the tap comes from position and leverage, not speed. Be especially careful with less experienced opponents who may not recognize the danger. Continue practicing the release protocol regularly to maintain muscle memory for emergency situations."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Open Guard",
@@ -411,5 +349,6 @@
       "name": "Half Guard",
       "relationship": "Positional option for setting up rolling armbar when opponent attempts to pass"
     }
-  ]
+  ],
+  "success_rate": 60
 }

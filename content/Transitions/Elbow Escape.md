@@ -153,7 +153,7 @@ description: "Master the Elbow Escape from side control in BJJ. Step-by-step exe
 The Elbow Escape, also known as the shrimp escape or hip escape, is the most fundamental and essential defensive technique in Brazilian Jiu-Jitsu for escaping from side control. This technique involves creating space through hip movement and frame construction, allowing the bottom practitioner to insert their knee shield and recover guard position. The elbow escape is built on the principle of using your skeletal structure to create frames that prevent your opponent from closing distance while simultaneously using hip movement to generate space. This is the first escape taught to beginners and remains relevant at the highest levels of competition, as it forms the foundation for all pin escapes. The technique's effectiveness lies in its systematic approach to creating and maintaining space, using the combination of proper framing, hip escape mechanics, and timing to neutralize the top player's control. Understanding this escape is critical because side control is one of the most common pins in BJJ, and the ability to escape efficiently conserves energy and prevents further positional deterioration.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Place your far-side hand on opponent's near shoulder or neck, creating your primary pushing frame. Position your near-side elbow on opponent's hip bone, creating a secondary frame. These frames work together to create distance between your chest and theirs. Your near elbow should be tight to your ribs, creating a strong structural frame rather than pushing with arm strength. Keep your forearm perpendicular to opponent's body for maximum structural integrity. (Timing: Establish frames immediately when recognizing stable side control)
-2. **Bridge and turn into opponent**: Explosively bridge your hips off the mat, driving through your feet while turning slightly toward your opponent. This creates momentary weight redistribution and forces them to post their hands or adjust their base. The bridge should be directed at a 45-degree angle toward your opponent's head, not straight up. This motion creates the initial space needed for the hip escape and disrupts their pressure. (Timing: Bridge explosively as opponent settles their weight or attempts to improve position)
-3. **Hip escape (shrimp away)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling your near knee up toward your chest and explosively pushing your hips backward along the mat. Your far leg should be bent with foot flat on the mat, providing the pushing power. Drive through this foot while simultaneously pulling with your frames. This creates 4-6 inches of space between your hip and opponent's body. Your head should move in the opposite direction of your hips. (Timing: Execute shrimp immediately upon landing from bridge, using the momentum)
-4. **Insert knee shield**: The instant space is created, drive your near knee between your body and opponent's torso, establishing a knee shield. Your shin should be perpendicular to opponent's chest, with your knee at their sternum and your foot near their far hip. This knee shield is your primary defensive barrier that prevents them from reclosing the distance. Keep your foot active and ready to push off their hip. (Timing: Insert knee immediately as space opens, before opponent can close distance)
-5. **Establish underhook or collar grip**: With the knee shield in place, work to secure an underhook on the near side by swimming your arm under opponent's armpit, or establish a collar grip with your far hand. The underhook prevents them from flattening you back down and gives you offensive opportunities. If underhook is not available, maintain collar control with your far hand while keeping your near-side frame on their hip. (Timing: Secure grips once knee shield is stable)
-6. **Complete guard recovery**: From the knee shield position, recover full half guard by bringing your far leg around opponent's trapped leg and locking your feet together, or transition to full closed guard if their trapped leg is completely free. Maintain your frames and continue controlling distance. If necessary, perform additional shrimps to create more space before completing the guard recovery. Your goal is to establish a stable guard position with proper connection points and distance management. (Timing: Complete recovery once knee shield is secure and opponent's forward pressure is controlled)
+1. **Establish frames**: Place your far-side hand on opponent's near shoulder or neck, creating your primary pushing frame. Position your near-side elbow on opponent's hip bone, creating a secondary frame. These frames work together to create distance between your chest and theirs. Your near elbow should be tight to your ribs, creating a strong structural frame rather than pushing with arm strength. Keep your forearm perpendicular to opponent's body for maximum structural integrity.
+2. **Bridge and turn into opponent**: Explosively bridge your hips off the mat, driving through your feet while turning slightly toward your opponent. This creates momentary weight redistribution and forces them to post their hands or adjust their base. The bridge should be directed at a 45-degree angle toward your opponent's head, not straight up. This motion creates the initial space needed for the hip escape and disrupts their pressure.
+3. **Hip escape (shrimp away)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling your near knee up toward your chest and explosively pushing your hips backward along the mat. Your far leg should be bent with foot flat on the mat, providing the pushing power. Drive through this foot while simultaneously pulling with your frames. This creates 4-6 inches of space between your hip and opponent's body. Your head should move in the opposite direction of your hips.
+4. **Insert knee shield**: The instant space is created, drive your near knee between your body and opponent's torso, establishing a knee shield. Your shin should be perpendicular to opponent's chest, with your knee at their sternum and your foot near their far hip. This knee shield is your primary defensive barrier that prevents them from reclosing the distance. Keep your foot active and ready to push off their hip.
+5. **Establish underhook or collar grip**: With the knee shield in place, work to secure an underhook on the near side by swimming your arm under opponent's armpit, or establish a collar grip with your far hand. The underhook prevents them from flattening you back down and gives you offensive opportunities. If underhook is not available, maintain collar control with your far hand while keeping your near-side frame on their hip.
+6. **Complete guard recovery**: From the knee shield position, recover full half guard by bringing your far leg around opponent's trapped leg and locking your feet together, or transition to full closed guard if their trapped leg is completely free. Maintain your frames and continue controlling distance. If necessary, perform additional shrimps to create more space before completing the guard recovery. Your goal is to establish a stable guard position with proper connection points and distance management.
 
 
 </section>
@@ -257,27 +257,21 @@ The Elbow Escape, also known as the shrimp escape or hip escape, is the most fun
 ## Training Progressions
 **Phase 1: Solo Movement (Week 1-2)** - Hip escape mechanics and framing structure
 Practice shrimping movement solo on mat, focusing on proper hip mechanics, head movement opposite direction of hips, and explosive power generation. Practice establishing frames against wall or with partner holding pads. Perform 3 sets of 10 shrimps each direction daily. Focus on quality of movement, not speed. Learn to chain multiple shrimps together smoothly.
-(Resistance: None)
 
 **Phase 2: Cooperative Drilling (Week 3-4)** - Full technique execution with compliant partner
 Partner holds light side control and allows escape when proper technique is executed. Focus on bridge-shrimp timing, frame creation, and knee insertion. Partner should maintain light pressure but not resist the escape. Perform 20-30 repetitions per session. Practice from both sides. Partner provides feedback on frame quality and hip escape depth.
-(Resistance: Light)
 
 **Phase 3: Progressive Resistance (Week 5-8)** - Escaping against medium resistance and common counters
 Partner applies moderate pressure and introduces common counters (crossface, hip control, weight drops). Practitioner must time escapes and address counters. Include scenarios where first escape attempt fails and must chain additional shrimps. Practice recognizing opponent's weight shifts as escape opportunities. 15-20 repetitions per session with increasing resistance.
-(Resistance: Medium)
 
 **Phase 4: Competition Simulation (Week 9-12)** - Full resistance escape execution
 Start in side control with opponent using full defensive pressure. Execute escape against full resistance, incorporating combinations with other escapes if elbow escape is defended. Practice from various side control variations (standard, reverse kesa, knee-on-belly transitions). Time limits of 30-60 seconds per rep to simulate match pressure. 10-15 repetitions per session.
-(Resistance: Full)
 
 **Phase 5: Advanced Integration (Month 4+)** - Combining escape with guard retention and attacks
 Practice transitioning from successful escape directly into guard attacks (sweeps, submissions). Include scenarios where escape is partially successful and must adapt mid-technique. Practice escaping from top competitors' side control variations. Incorporate into positional sparring starting from side control bottom. 5-10 minutes of positional rounds per session.
-(Resistance: Full)
 
 **Phase 6: Maintenance and Refinement (Ongoing)** - Technique refinement and adaptation to individual body type
 Regular drilling to maintain muscle memory and timing. Experiment with personal variations based on body type, flexibility, and preferred guard styles. Analyze escapes from video of training/competition. Address specific problems that arise against different opponent types (heavy, flexible, long-limbed). Maintain as part of regular warm-up routine.
-(Resistance: Full)
 
 
 

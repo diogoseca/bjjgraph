@@ -15,11 +15,6 @@
   "submission_type": "Leg Compression Lock",
   "target_area": "Calf muscle, Achilles tendon, knee joint",
   "starting_position": "50-50 Guard",
-  "success_rates": {
-    "beginner": 20,
-    "intermediate": 35,
-    "advanced": 50
-  },
   "overview": "The Calf Slicer from 50-50 Guard represents one of the most devastating compression submissions available from leg entanglement positions. This technique applies crushing pressure to the calf muscle by trapping the opponent's leg between your shin and thigh, creating a biomechanical vice that attacks multiple structures simultaneously. From the 50-50 position, where both practitioners have their legs entangled symmetrically, the calf slicer emerges when one player establishes superior control of the opponent's trapped leg and applies their shin blade across the calf muscle while pulling the foot toward their own body. The submission creates intense pressure on the gastrocnemius and soleus muscles, places dangerous strain on the Achilles tendon, and can hyperextend the knee joint if applied with excessive force. The 50-50 guard provides an ideal platform for this submission because the position naturally creates the leg entanglement required, both legs are already positioned close to the target area, and the symmetrical nature makes it difficult for opponents to recognize the submission setup until it's fully locked. This technique requires exceptional technical precision, careful control during application, and comprehensive understanding of the anatomical vulnerabilities being exploited. Due to its compression nature and potential for rapid onset injury, the calf slicer from 50-50 demands the highest level of training discipline and safety awareness.",
   "safety_considerations": {
     "injury_risks": [
@@ -95,43 +90,37 @@
       "step_number": 1,
       "action": "Secure 50-50 position and isolate target leg",
       "description": "From established 50-50 guard, ensure your legs are fully entangled with your opponent's legs. Your bottom leg should already be underneath their trapped leg. Focus on controlling their ankle or foot with both hands, pulling it slightly toward your centerline. The opponent's heel should be positioned near your hip or lower ribcage. Verify that your shin is positioned across the meaty part of their calf muscle, not on their Achilles tendon or knee joint.",
-      "timing": "2-3 seconds for position verification",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds for position verification"
     },
     {
       "step_number": 2,
       "action": "Adjust shin blade placement for optimal compression",
       "description": "Make micro-adjustments to place the blade of your shin (the sharp anterior ridge of your tibia) directly across the thickest part of the opponent's calf muscle, typically the upper third of the gastrocnemius. This precise placement is critical - too high attacks the knee joint dangerously, too low reduces compression effectiveness. Ensure your shin crosses perpendicular to the length of their leg for maximum surface area contact and even pressure distribution.",
-      "timing": "1-2 seconds for positioning",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds for positioning"
     },
     {
       "step_number": 3,
       "action": "Secure the ankle and foot with compound grip",
       "description": "Establish a strong grip on the opponent's foot using both hands. One common grip is to cup the heel with one hand while the other controls the toes or ball of the foot. Alternatively, use a figure-four grip around the ankle. Pull the foot toward your shoulder on the same side as your trapping leg, beginning to create the angle necessary for compression. The foot should be moving toward you while your shin remains pressed against their calf.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Initiate hip extension and begin compression",
       "description": "Slowly begin extending your hips forward while simultaneously pulling the opponent's foot toward your upper body. This creates the scissoring action that generates compression force. The extension should be smooth and controlled, not explosive. Your shin drives into their calf muscle as the foot pulls in the opposite direction, creating the crushing pressure. Simultaneously, your top leg maintains downward pressure to prevent their leg from escaping upward.",
-      "timing": "2-3 seconds progressive movement",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds progressive movement"
     },
     {
       "step_number": 5,
       "action": "Increase compression pressure while monitoring partner",
       "description": "Continue extending your hips and pulling the foot with gradually increasing pressure. The compression should build progressively over several seconds. Watch your training partner's face and body language for signs of distress. Listen for verbal taps or pain indicators. The pressure should feel like a deep, intense squeeze on the calf muscle. If training, stop at 70% maximum pressure to allow partner to feel the submission without risking injury.",
-      "timing": "3-4 seconds to reach submission pressure",
-      "pressure_level": "Firm"
+      "timing": "3-4 seconds to reach submission pressure"
     },
     {
       "step_number": 6,
       "action": "Maintain submission or release immediately upon tap",
       "description": "In competition, hold the submission at full pressure until the referee stops the match or opponent taps. In training, release immediately at the first sign of tap or distress. To release, straighten your leg to remove shin pressure, release the grip on their foot, and allow their leg to extend naturally. Never maintain pressure after a tap signal. After release, allow partner 30-60 seconds to recover before continuing training, as calf compression can temporarily affect blood flow and mobility.",
-      "timing": "Immediate release upon tap signal",
-      "pressure_level": "Firm"
+      "timing": "Immediate release upon tap signal"
     }
   ],
   "opponent_defense_patterns": [
@@ -165,50 +154,42 @@
     {
       "error": "Applying shin pressure to the Achilles tendon instead of calf muscle",
       "consequence": "Extremely high risk of Achilles rupture, one of the most serious non-spinal injuries in BJJ requiring surgical repair and 6-12 months recovery",
-      "correction": "Always position your shin across the upper portion of the calf muscle, several inches above the Achilles tendon insertion point. The shin blade should cross the thickest part of the gastrocnemius muscle belly, never near the ankle.",
-      "danger_level": "CRITICAL"
+      "correction": "Always position your shin across the upper portion of the calf muscle, several inches above the Achilles tendon insertion point. The shin blade should cross the thickest part of the gastrocnemius muscle belly, never near the ankle."
     },
     {
       "error": "Using explosive jerking motion to apply compression",
       "consequence": "Causes immediate muscle tears, prevents partner from tapping in time, violates fundamental training safety protocols, and will result in injury",
-      "correction": "Apply compression progressively over minimum 5-7 seconds in training. Build pressure smoothly and continuously, allowing partner to recognize the danger and tap safely. Save explosive finishes exclusively for competition if necessary.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply compression progressively over minimum 5-7 seconds in training. Build pressure smoothly and continuously, allowing partner to recognize the danger and tap safely. Save explosive finishes exclusively for competition if necessary."
     },
     {
       "error": "Failing to control the opponent's foot and ankle adequately",
       "consequence": "Opponent easily removes their leg from the submission by pulling their foot away, nullifying all compression pressure and wasting the position",
-      "correction": "Establish strong two-hand control on the opponent's foot before initiating hip extension. Use a heel cup or figure-four grip that prevents any possibility of their foot slipping free during compression.",
-      "danger_level": "Low"
+      "correction": "Establish strong two-hand control on the opponent's foot before initiating hip extension. Use a heel cup or figure-four grip that prevents any possibility of their foot slipping free during compression."
     },
     {
       "error": "Positioning shin across the knee joint instead of calf",
       "consequence": "Creates dangerous hyperextension force on the knee joint, risks tearing knee ligaments (ACL/PCL/MCL), and represents a different submission with higher injury potential",
-      "correction": "Check your shin placement before applying pressure. The shin should be clearly in the middle third of the lower leg, crossing the calf muscle belly, nowhere near the knee joint. If uncertain, move your shin lower rather than higher.",
-      "danger_level": "CRITICAL"
+      "correction": "Check your shin placement before applying pressure. The shin should be clearly in the middle third of the lower leg, crossing the calf muscle belly, nowhere near the knee joint. If uncertain, move your shin lower rather than higher."
     },
     {
       "error": "Neglecting to maintain the 50-50 leg entanglement during submission",
       "consequence": "Opponent easily extracts their leg, escapes the position entirely, and may counter-attack with their own leg locks or advance to superior position",
-      "correction": "Your top leg must maintain constant downward pressure throughout the submission sequence. Keep your knees relatively close together to trap their leg securely. If the entanglement feels loose, re-establish position before attempting compression.",
-      "danger_level": "Medium"
+      "correction": "Your top leg must maintain constant downward pressure throughout the submission sequence. Keep your knees relatively close together to trap their leg securely. If the entanglement feels loose, re-establish position before attempting compression."
     },
     {
       "error": "Leaning too far forward during compression application",
       "consequence": "Reduces hip extension range, decreases compression force significantly, compromises balance, and allows opponent to push you backward easily",
-      "correction": "Maintain upright or slightly reclined torso position. The compression force comes from hip extension and foot pulling, not from leaning your body weight forward. Keep your spine relatively vertical.",
-      "danger_level": "Low"
+      "correction": "Maintain upright or slightly reclined torso position. The compression force comes from hip extension and foot pulling, not from leaning your body weight forward. Keep your spine relatively vertical."
     },
     {
       "error": "Ignoring opponent's counter-attacks on your exposed legs",
       "consequence": "You tap to opponent's heel hook or toe hold while attempting your own submission, losing the position and potentially suffering injury yourself",
-      "correction": "Before committing to the calf slicer, establish grips on opponent's upper body or control their hands. Monitor their hand position throughout the submission. If they secure your heel in heel hook configuration, immediately abandon your submission and defend.",
-      "danger_level": "High"
+      "correction": "Before committing to the calf slicer, establish grips on opponent's upper body or control their hands. Monitor their hand position throughout the submission. If they secure your heel in heel hook configuration, immediately abandon your submission and defend."
     },
     {
       "error": "Attempting this submission without adequate technical knowledge",
       "consequence": "High probability of causing serious injury to training partners, damaging gym relationships, potential removal from training facility, and legal liability",
-      "correction": "This submission should only be practiced by purple belt and above with specific instruction from qualified instructors. Beginners should drill the position without applying finishing pressure. Always practice with experienced partners who understand the dangers.",
-      "danger_level": "CRITICAL"
+      "correction": "This submission should only be practiced by purple belt and above with specific instruction from qualified instructors. Beginners should drill the position without applying finishing pressure. Always practice with experienced partners who understand the dangers."
     }
   ],
   "variations_and_setups": [
@@ -295,50 +276,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Position Familiarization",
-      "timeframe": "2-3 weeks, 15-20 minutes per session",
-      "focus": "Study the anatomical targets, understand injury mechanisms, learn proper shin placement, and drill 50-50 position maintenance without any submission attempts. Focus entirely on position security and leg entanglement mechanics.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Learn to identify correct shin placement on calf muscle versus dangerous placement on Achilles or knee. Understand the injury risks before ever applying pressure. Partner remains completely passive while you practice positioning."
-    },
-    {
-      "phase": "Slow Motion Setup Practice Without Compression",
-      "timeframe": "3-4 weeks, 20 minutes per session",
-      "focus": "Practice the full setup sequence including ankle grip, shin placement adjustment, and body positioning, but stop before applying any compression force. Partner provides feedback on shin placement accuracy. Emphasize smooth, controlled movement patterns.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Develop muscle memory for correct positioning without any pressure application. Partner actively monitors shin placement and immediately alerts you to any dangerous positioning. No compression force applied whatsoever during this phase."
-    },
-    {
-      "phase": "Light Pressure Application with Continuous Communication",
-      "timeframe": "4-6 weeks, 15-20 minutes per session",
-      "focus": "Begin applying light compression pressure (20-30% maximum) with constant verbal communication. Partner provides real-time feedback about pressure location, intensity, and pain onset. Practice identifying the sensation difference between effective compression and dangerous placement.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner taps at first sensation of pressure, well before pain threshold. Practice immediate release protocol repeatedly. Focus is on developing sensitivity to partner's distress signals and building trust. Never exceed 30% pressure during this phase."
-    },
-    {
-      "phase": "Progressive Pressure Increase with Controlled Timing",
-      "timeframe": "6-8 weeks, 15-20 minutes per session",
-      "focus": "Gradually increase compression pressure to 50-60% maximum over extended time frames (7-10 seconds minimum). Partner practices recognizing submission danger and tapping at appropriate threshold. Work on maintaining position while building pressure smoothly.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Emphasize the 5-7 second minimum application time religiously. Partner taps before pain becomes intense. Practice release protocol after every repetition. Both partners monitor for any signs of excessive pressure, muscle strain, or dangerous positioning."
-    },
-    {
-      "phase": "Full Resistance Drilling with Competition Simulation",
-      "timeframe": "8-12 weeks ongoing, 10-15 minutes per session",
-      "focus": "Practice against full defensive resistance including counter-submissions, escape attempts, and positional battles. Work on the complete sequence from 50-50 entry through submission finish or transition. Integrate into live training gradually.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even with full resistance, maintain slow progressive pressure application in training. Partner must have free access to tap with hands or feet at all times. Stop immediately if position becomes scrambled or shin placement shifts to dangerous areas. Competition-speed finishes are for competition only."
-    },
-    {
-      "phase": "Advanced Applications and Submission Chains",
-      "timeframe": "12+ weeks ongoing, integrated into regular training",
-      "focus": "Develop submission chains linking calf slicer to heel hooks, toe holds, and other leg attacks. Practice reading opponent's defensive reactions and flowing between submissions seamlessly. Work on entries from various positions leading to 50-50.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain all safety protocols despite advanced technical level. Continue practicing on experienced partners who understand submission complexity. Always verify shin placement before applying pressure, regardless of experience level. Remember that training partner's safety always takes precedence over submission success."
-    }
-  ],
   "from_positions": [
     "50-50 Guard",
     "Inside Ashi-Garami",
@@ -397,5 +334,6 @@
       "name": "Backside 50-50",
       "relationship": "Variation position enabling different angles for calf compression"
     }
-  ]
+  ],
+  "success_rate": 42
 }

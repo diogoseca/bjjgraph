@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Butterfly Sweep with Guillotine represents one of the most powerful combinations in bottom guard attacking, merging a high-percentage sweep with continuous submission pressure. This technique exploits a fundamental defensive dilemma: when an opponent drives forward to relieve guillotine pressure, they provide the exact energy needed for a butterfly sweep. The sweep uses their forward momentum against them while the guillotine grip maintains constant threat throughout the transition.\n\nFrom the Hindulotine bottom position, the practitioner establishes butterfly hooks inside the opponent's thighs while maintaining the guillotine grip. When the opponent attempts to pressure forward to flatten the bottom player and neutralize the choke, the butterfly hooks catch their weight. A coordinated hip elevation and directional pull on the neck redirects their forward momentum into a sweeping arc, landing the attacker in mount with the guillotine still locked.\n\nThe strategic brilliance of this combination lies in its offensive layering. The opponent faces a no-win scenario: defending the sweep by posting wide opens the guillotine finish, while driving forward to escape the choke enables the sweep. This dilemma-based approach represents modern submission grappling at its highest level, where every defensive action opens a new offensive opportunity.",
   "key_principles": [
     "Use opponent's forward pressure as the primary energy source for the sweep rather than muscular effort",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Establish grip and hooks",
-      "description": "From Hindulotine bottom, ensure your guillotine grip is locked tight with forearm blade positioned high under opponent's chin. Insert both butterfly hooks inside their thighs with your feet actively hooked around their legs.",
-      "timing": "Before opponent pressures forward"
+      "description": "From Hindulotine bottom, ensure your guillotine grip is locked tight with forearm blade positioned high under opponent's chin. Insert both butterfly hooks inside their thighs with your feet actively hooked around their legs."
     },
     {
       "step_number": 2,
       "action": "Angle your hips",
-      "description": "Rotate your hips approximately 45 degrees toward your choking arm side, creating the angle necessary for sweep trajectory. This positioning loads your hooks to catch their weight when they drive forward.",
-      "timing": "As opponent begins forward pressure"
+      "description": "Rotate your hips approximately 45 degrees toward your choking arm side, creating the angle necessary for sweep trajectory. This positioning loads your hooks to catch their weight when they drive forward."
     },
     {
       "step_number": 3,
       "action": "Absorb forward pressure",
-      "description": "Allow opponent's forward drive to load onto your butterfly hooks rather than resisting directly. Keep your elbows tight and pull their head toward your chest while their weight settles onto your legs.",
-      "timing": "As opponent commits weight forward"
+      "description": "Allow opponent's forward drive to load onto your butterfly hooks rather than resisting directly. Keep your elbows tight and pull their head toward your chest while their weight settles onto your legs."
     },
     {
       "step_number": 4,
       "action": "Elevate and pull",
-      "description": "Explosively extend your butterfly hooks upward while simultaneously pulling opponent's head toward your choking arm side hip. Your legs lift their hips while your arms guide their upper body in a sweeping arc.",
-      "timing": "Peak of their forward commitment"
+      "description": "Explosively extend your butterfly hooks upward while simultaneously pulling opponent's head toward your choking arm side hip. Your legs lift their hips while your arms guide their upper body in a sweeping arc."
     },
     {
       "step_number": 5,
       "action": "Follow through rotation",
-      "description": "Continue the sweeping motion by following your opponent over, keeping your hips connected to theirs throughout the transition. Do not release guillotine pressure during the roll.",
-      "timing": "Immediately after elevation"
+      "description": "Continue the sweeping motion by following your opponent over, keeping your hips connected to theirs throughout the transition. Do not release guillotine pressure during the roll."
     },
     {
       "step_number": 6,
       "action": "Land and finish",
-      "description": "Land in mount position with your hips settling onto opponent's solar plexus, guillotine grip still locked. Immediately adjust your angle and apply finishing pressure by driving hips toward choking arm side while maintaining mount control.",
-      "timing": "Upon landing in mount"
+      "description": "Land in mount position with your hips settling onto opponent's solar plexus, guillotine grip still locked. Immediately adjust your angle and apply finishing pressure by driving hips toward choking arm side while maintaining mount control."
     }
   ],
   "common_counters": [
@@ -142,26 +131,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip and hook coordination",
-      "description": "Practice maintaining guillotine grip while inserting and positioning butterfly hooks. Partner provides no resistance. Focus on keeping constant grip pressure while manipulating leg position. Drill the hip angle positioning that creates optimal sweep trajectory.",
-      "resistance_level": "None"
+      "description": "Practice maintaining guillotine grip while inserting and positioning butterfly hooks. Partner provides no resistance. Focus on keeping constant grip pressure while manipulating leg position. Drill the hip angle positioning that creates optimal sweep trajectory."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and pressure recognition",
-      "description": "Partner provides light forward pressure at varying intervals. Practice recognizing the moment of commitment and timing your sweep initiation. Focus on using their energy rather than generating your own. Maintain grip throughout but allow sweep failures to reset.",
-      "resistance_level": "Light"
+      "description": "Partner provides light forward pressure at varying intervals. Practice recognizing the moment of commitment and timing your sweep initiation. Focus on using their energy rather than generating your own. Maintain grip throughout but allow sweep failures to reset."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combination attacks",
-      "description": "Partner defends sweep by posting or retreating. Practice flowing between guillotine finish attempts and sweep attempts based on their defensive reactions. Develop the instinct to attack whichever option their defense opens.",
-      "resistance_level": "Medium"
+      "description": "Partner defends sweep by posting or retreating. Practice flowing between guillotine finish attempts and sweep attempts based on their defensive reactions. Develop the instinct to attack whichever option their defense opens."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Full resistance sparring with specific goal of achieving this sweep. Partner actively counters all options. Develop real-time problem solving for failed attempts and chain to alternative attacks when sweep is effectively defended.",
-      "resistance_level": "Full"
+      "description": "Full resistance sparring with specific goal of achieving this sweep. Partner actively counters all options. Develop real-time problem solving for failed attempts and chain to alternative attacks when sweep is effectively defended."
     }
   ],
   "variants_and_adaptations": [
@@ -184,43 +169,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Butterfly Sweep with Guillotine?",
-      "answer": "The primary goal is to convert the opponent's forward pressure into a sweep that lands you in mount while maintaining continuous guillotine choke pressure throughout the transition, creating a submission threat immediately upon landing in the dominant position.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert the opponent's forward pressure into a sweep that lands you in mount while maintaining continuous guillotine choke pressure throughout the transition, creating a submission threat immediately upon landing in the dominant position."
     },
     {
       "question": "What defensive dilemma does this technique create for the opponent?",
-      "answer": "The opponent faces a no-win scenario: if they post wide to prevent the sweep, they create the space and broken posture needed for the guillotine finish. If they drive forward to flatten you and escape the choke, they provide the exact energy needed for the butterfly sweep. Either defensive choice benefits the attacker.",
-      "difficulty": "Intermediate"
+      "answer": "The opponent faces a no-win scenario: if they post wide to prevent the sweep, they create the space and broken posture needed for the guillotine finish. If they drive forward to flatten you and escape the choke, they provide the exact energy needed for the butterfly sweep. Either defensive choice benefits the attacker."
     },
     {
       "question": "Why must the sweep trajectory be angled at 45 degrees toward the choking arm side?",
-      "answer": "The 45-degree angle toward your choking arm side maintains optimal guillotine grip mechanics throughout the sweep and ensures you land directly in mount rather than beside your opponent. This trajectory keeps your forearm blade properly positioned under their chin and prevents grip slippage during the rotational movement.",
-      "difficulty": "Intermediate"
+      "answer": "The 45-degree angle toward your choking arm side maintains optimal guillotine grip mechanics throughout the sweep and ensures you land directly in mount rather than beside your opponent. This trajectory keeps your forearm blade properly positioned under their chin and prevents grip slippage during the rotational movement."
     },
     {
       "question": "Your opponent posts their hand wide to stop the sweep - how do you capitalize?",
-      "answer": "When they post wide, their posture breaks and they create space between your bodies. Immediately stop the sweep attempt, adjust your hip angle to optimize choking pressure, and finish the guillotine. Their wide post eliminates their ability to defend the choke effectively while removing the weight that was pressuring you.",
-      "difficulty": "Intermediate"
+      "answer": "When they post wide, their posture breaks and they create space between your bodies. Immediately stop the sweep attempt, adjust your hip angle to optimize choking pressure, and finish the guillotine. Their wide post eliminates their ability to defend the choke effectively while removing the weight that was pressuring you."
     },
     {
       "question": "What is the critical timing window for initiating this sweep?",
-      "answer": "The sweep must be initiated at the peak of opponent's forward commitment, when their weight is fully loaded onto your butterfly hooks. Initiating too early means insufficient weight to elevate. Initiating too late means they have already flattened you and removed your hook leverage. The ideal moment is when you feel maximum pressure on your hooks.",
-      "difficulty": "Advanced"
+      "answer": "The sweep must be initiated at the peak of opponent's forward commitment, when their weight is fully loaded onto your butterfly hooks. Initiating too early means insufficient weight to elevate. Initiating too late means they have already flattened you and removed your hook leverage. The ideal moment is when you feel maximum pressure on your hooks."
     },
     {
       "question": "How do you adjust if only one butterfly hook is engaged when the sweep opportunity appears?",
-      "answer": "Use the single hook variant with the hook on your choking arm side. The sweep becomes more of an elevating hip bump that rolls opponent over your shoulder rather than a traditional butterfly elevation. Execute immediately before they clear the remaining hook, using the guillotine pull to guide their trajectory.",
-      "difficulty": "Advanced"
+      "answer": "Use the single hook variant with the hook on your choking arm side. The sweep becomes more of an elevating hip bump that rolls opponent over your shoulder rather than a traditional butterfly elevation. Execute immediately before they clear the remaining hook, using the guillotine pull to guide their trajectory."
     },
     {
       "question": "What grip adjustment maximizes finish rate when landing in mount after the sweep?",
-      "answer": "Upon landing in mount, immediately drive your hips toward your choking arm side while pulling your elbow toward your opposite hip. This creates rotational torque on the neck that finishes the submission. Your mount position allows you to use body weight and hip angle rather than arm strength to complete the choke.",
-      "difficulty": "Advanced"
+      "answer": "Upon landing in mount, immediately drive your hips toward your choking arm side while pulling your elbow toward your opposite hip. This creates rotational torque on the neck that finishes the submission. Your mount position allows you to use body weight and hip angle rather than arm strength to complete the choke."
     },
     {
       "question": "Your opponent turns their head away during the sweep to escape the choke - what transition opens up?",
-      "answer": "Their turn exposes their back for a back take. Instead of fighting to maintain the guillotine angle, use the momentum to complete the sweep but flow to back control rather than mount. The guillotine grip transitions to a seat belt as you establish hooks, trading the choke for a superior control position.",
-      "difficulty": "Advanced"
+      "answer": "Their turn exposes their back for a back take. Instead of fighting to maintain the guillotine angle, use the momentum to complete the sweep but flow to back control rather than mount. The guillotine grip transitions to a seat belt as you establish hooks, trading the choke for a superior control position."
     }
   ],
   "safety_considerations": "This technique involves significant rotational force on the cervical spine during the sweep transition. Practice with controlled speed initially, ensuring your partner can tap at any point during the movement. The guillotine component requires immediate release upon tap, which can be challenging during the sweep motion, so develop the habit of releasing grip instantly regardless of sweep progress. Avoid jerking or explosive neck cranking during the finishing phase. Partners should tap early when caught in the sweep-to-mount guillotine sequence rather than defending through uncomfortable positions. Practitioners with prior neck injuries should approach this technique with extra caution and possibly modify the grip pressure during training.",
@@ -258,5 +235,6 @@
       "name": "Closed Guard",
       "relationship": "Recovery option - available if opponent retreats from sweep threat"
     }
-  ]
+  ],
+  "success_rate": 58
 }

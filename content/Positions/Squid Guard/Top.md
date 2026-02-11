@@ -364,11 +364,11 @@ Isolated drill focusing on preventing bottom player from deepening lapel grips w
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 50% | 15% |
-| Intermediate | 55% | 65% | 25% |
-| Advanced     | 70% | 78% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 72% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds
 

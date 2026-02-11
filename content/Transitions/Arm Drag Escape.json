@@ -34,11 +34,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Arm Drag Escape is a high-percentage defensive technique used to escape front headlock control by redirecting the opponent's controlling arm across your body, creating the space needed to clear your head and recover to open guard. Unlike many front headlock escapes that rely on explosive movement or rolling mechanics, the arm drag escape uses precise grip work and angular movement to systematically dismantle your opponent's control structure.\n\nThe technique exploits a fundamental vulnerability in front headlock control: the opponent's choking arm must stay wrapped around your head to maintain the position, but this creates an accessible limb that can be dragged across your centerline. By securing a two-on-one grip on the choking arm and pulling it across your body while simultaneously circling your head free, you convert a dangerous defensive position into an opportunity to recover guard or even create offensive scramble opportunities.\n\nStrategically, the arm drag escape is most effective when your opponent commits their weight forward into head control rather than sprawling back. This forward commitment gives you the leverage needed to redirect their arm. The technique pairs naturally with other front headlock escapes—if you threaten the arm drag, your opponent must adjust their arm position, which can open pathways for technical standup or granby roll escapes. This makes it an essential component of a complete front headlock defense system.",
   "key_principles": [
     "Secure two-on-one control on the opponent's choking arm before initiating the drag—one hand on the wrist and one on the tricep or elbow",
@@ -60,44 +55,37 @@
     {
       "step_number": 1,
       "action": "Secure chin tuck and hand position",
-      "description": "From front headlock bottom, immediately tuck your chin tightly to your chest to prevent choke threats. Locate the opponent's choking arm and begin working your near hand to their wrist while your far hand reaches for their tricep or elbow area. This two-on-one acquisition is the foundation of the entire escape.",
-      "timing": "Within first 2-3 seconds of recognizing arm drag opportunity"
+      "description": "From front headlock bottom, immediately tuck your chin tightly to your chest to prevent choke threats. Locate the opponent's choking arm and begin working your near hand to their wrist while your far hand reaches for their tricep or elbow area. This two-on-one acquisition is the foundation of the entire escape."
     },
     {
       "step_number": 2,
       "action": "Establish two-on-one grip",
-      "description": "Secure a firm C-grip on the opponent's wrist with your near hand, thumb on top of their forearm. Your far hand grips their tricep just above the elbow, creating a two-on-one lever system. Squeeze your elbows tight to your body to prevent them from pulling their arm free before you initiate the drag.",
-      "timing": "Grip must be established before any lateral movement begins"
+      "description": "Secure a firm C-grip on the opponent's wrist with your near hand, thumb on top of their forearm. Your far hand grips their tricep just above the elbow, creating a two-on-one lever system. Squeeze your elbows tight to your body to prevent them from pulling their arm free before you initiate the drag."
     },
     {
       "step_number": 3,
       "action": "Initiate the arm drag across centerline",
-      "description": "Pull the opponent's choking arm forcefully across your centerline toward the far side of your body using both hands in unison. The wrist hand pulls laterally while the tricep hand drives the elbow past your face. Your elbows drive toward your far hip, using your entire torso rotation to power the drag rather than relying solely on arm strength.",
-      "timing": "Explosive pull timed with opponent's forward weight shift or grip adjustment"
+      "description": "Pull the opponent's choking arm forcefully across your centerline toward the far side of your body using both hands in unison. The wrist hand pulls laterally while the tricep hand drives the elbow past your face. Your elbows drive toward your far hip, using your entire torso rotation to power the drag rather than relying solely on arm strength."
     },
     {
       "step_number": 4,
       "action": "Circle head free",
-      "description": "As you drag their arm across, simultaneously duck your head in the opposite direction—toward the same side as the drag. Your head circles underneath and away from their control, passing through the gap created by redirecting their arm. Keep chin tucked and lead with the crown of your head to minimize the profile they can catch.",
-      "timing": "Head movement must be simultaneous with the arm drag, not sequential"
+      "description": "As you drag their arm across, simultaneously duck your head in the opposite direction—toward the same side as the drag. Your head circles underneath and away from their control, passing through the gap created by redirecting their arm. Keep chin tucked and lead with the crown of your head to minimize the profile they can catch."
     },
     {
       "step_number": 5,
       "action": "Hip switch and angle creation",
-      "description": "As your head clears their control, execute a sharp hip switch by turning your hips toward the opponent and bringing your inside knee across to create a frame. This angular movement prevents them from simply re-acquiring head control and begins establishing the distance needed to recover guard. Your body should rotate approximately 90 degrees from the starting turtle-like position to facing the opponent.",
-      "timing": "Immediately upon head clearing opponent's arm control"
+      "description": "As your head clears their control, execute a sharp hip switch by turning your hips toward the opponent and bringing your inside knee across to create a frame. This angular movement prevents them from simply re-acquiring head control and begins establishing the distance needed to recover guard. Your body should rotate approximately 90 degrees from the starting turtle-like position to facing the opponent."
     },
     {
       "step_number": 6,
       "action": "Establish leg frames and recover guard",
-      "description": "Drive your inside knee into the opponent's hip or chest as a primary frame while your outside foot plants on their far hip. This double-leg frame structure creates the distance barrier characteristic of open guard. Release the arm drag grips and transition to standard open guard grips—collar and sleeve in gi, or wrist and elbow control in no-gi. Maintain active feet to prevent immediate re-passing.",
-      "timing": "Guard frames must be established within 1-2 seconds of head clearing"
+      "description": "Drive your inside knee into the opponent's hip or chest as a primary frame while your outside foot plants on their far hip. This double-leg frame structure creates the distance barrier characteristic of open guard. Release the arm drag grips and transition to standard open guard grips—collar and sleeve in gi, or wrist and elbow control in no-gi. Maintain active feet to prevent immediate re-passing."
     },
     {
       "step_number": 7,
       "action": "Consolidate open guard position",
-      "description": "Once leg frames are in place, adjust your hip angle to face the opponent squarely from open guard bottom. Establish your preferred guard variation based on their posture—butterfly hooks if they drive forward, feet on hips if they stand tall, or de la riva if they remain in combat base. The transition from escape to established guard must be seamless to prevent any passing opportunity.",
-      "timing": "Complete guard establishment before opponent can reset their passing posture"
+      "description": "Once leg frames are in place, adjust your hip angle to face the opponent squarely from open guard bottom. Establish your preferred guard variation based on their posture—butterfly hooks if they drive forward, feet on hips if they stand tall, or de la riva if they remain in combat base. The transition from escape to established guard must be seamless to prevent any passing opportunity."
     }
   ],
   "common_counters": [
@@ -158,26 +146,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip acquisition and mechanics",
-      "description": "Practice establishing the two-on-one grip from front headlock bottom with a cooperative partner. Focus on locating the choking arm by feel, securing wrist and tricep grips, and performing the drag-and-circle motion at slow speed. Partner holds static front headlock without resisting. Drill 20-30 repetitions per side per session, emphasizing the simultaneous arm drag and head circle coordination.",
-      "resistance_level": "None"
+      "description": "Practice establishing the two-on-one grip from front headlock bottom with a cooperative partner. Focus on locating the choking arm by feel, securing wrist and tricep grips, and performing the drag-and-circle motion at slow speed. Partner holds static front headlock without resisting. Drill 20-30 repetitions per side per session, emphasizing the simultaneous arm drag and head circle coordination."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and guard recovery integration",
-      "description": "Partner applies light forward pressure from front headlock while you practice timing the arm drag with their weight shifts. Add the full guard recovery sequence—head clear to knee frame to open guard establishment. Partner begins offering mild resistance to the drag and light scrambling after the head clears. Focus on seamless flow from escape to guard position.",
-      "resistance_level": "Light"
+      "description": "Partner applies light forward pressure from front headlock while you practice timing the arm drag with their weight shifts. Add the full guard recovery sequence—head clear to knee frame to open guard establishment. Partner begins offering mild resistance to the drag and light scrambling after the head clears. Focus on seamless flow from escape to guard position."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter-awareness and chain escapes",
-      "description": "Partner actively defends the arm drag by sprawling, switching to guillotine, or spinning to back. Practice recognizing when to commit to the arm drag versus abandoning it for technical standup or granby roll. Drill escape chains: arm drag attempt fails, transition to standup, opponent re-catches, switch to granby roll. Build decision-making under moderate resistance.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends the arm drag by sprawling, switching to guillotine, or spinning to back. Practice recognizing when to commit to the arm drag versus abandoning it for technical standup or granby roll. Drill escape chains: arm drag attempt fails, transition to standup, opponent re-catches, switch to granby roll. Build decision-making under moderate resistance."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and competition scenarios",
-      "description": "Incorporate arm drag escape into positional sparring rounds starting from front headlock. Full resistance with the goal of escaping to guard within 15 seconds. Track success rate across sessions and identify patterns in which situations the arm drag works versus when alternative escapes are needed. Work arm drag escape into live rolling whenever caught in front headlock.",
-      "resistance_level": "Full"
+      "description": "Incorporate arm drag escape into positional sparring rounds starting from front headlock. Full resistance with the goal of escaping to guard within 15 seconds. Track success rate across sessions and identify patterns in which situations the arm drag works versus when alternative escapes are needed. Work arm drag escape into live rolling whenever caught in front headlock."
     }
   ],
   "variants_and_adaptations": [
@@ -200,58 +184,47 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Arm Drag Escape from front headlock?",
-      "answer": "The primary goal is to redirect the opponent's choking arm across your centerline using a two-on-one grip, simultaneously circling your head free from their control, and recovering to open guard. The technique converts a dangerous defensive position into a neutral or advantageous one by dismantling the opponent's head control structure through precise grip work and angular movement rather than explosive power.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to redirect the opponent's choking arm across your centerline using a two-on-one grip, simultaneously circling your head free from their control, and recovering to open guard. The technique converts a dangerous defensive position into a neutral or advantageous one by dismantling the opponent's head control structure through precise grip work and angular movement rather than explosive power."
     },
     {
       "question": "What position do you start Arm Drag Escape from?",
-      "answer": "This technique starts from Front Headlock/Bottom, where your opponent has secured control of your head and neck with at least one arm wrapped around your head, their chest driving pressure into your upper back. You are typically on your hands and knees or in a compromised bent-forward posture. The front headlock threatens guillotine, anaconda, darce chokes, and back takes, making escape urgent.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Front Headlock/Bottom, where your opponent has secured control of your head and neck with at least one arm wrapped around your head, their chest driving pressure into your upper back. You are typically on your hands and knees or in a compromised bent-forward posture. The front headlock threatens guillotine, anaconda, darce chokes, and back takes, making escape urgent."
     },
     {
       "question": "What are the key grips needed for Arm Drag Escape?",
-      "answer": "You need a two-on-one grip on the opponent's choking arm: your near hand secures a C-grip on their wrist with thumb on top of the forearm, while your far hand grips their tricep just above the elbow. Both grips must be established before initiating any lateral movement. The wrist grip controls direction while the tricep grip provides the leverage to drive their elbow past your face during the drag. Elbows stay tight to your body to prevent the opponent from pulling their arm free.",
-      "difficulty": "Beginner"
+      "answer": "You need a two-on-one grip on the opponent's choking arm: your near hand secures a C-grip on their wrist with thumb on top of the forearm, while your far hand grips their tricep just above the elbow. Both grips must be established before initiating any lateral movement. The wrist grip controls direction while the tricep grip provides the leverage to drive their elbow past your face during the drag. Elbows stay tight to your body to prevent the opponent from pulling their arm free."
     },
     {
       "question": "Your opponent sprawls their hips back hard when they feel you establishing the two-on-one grip. How do you adjust?",
-      "answer": "When the opponent sprawls back, they reduce the forward pressure that makes the arm drag effective, but they also reduce their ability to finish front headlock submissions. Abandon the arm drag and switch to a technical standup or granby roll escape, both of which work better against a sprawled opponent. The arm drag threat served its purpose by forcing them to change their positioning—now exploit the new position with the appropriate alternative escape. This is why having multiple front headlock escapes is essential.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent sprawls back, they reduce the forward pressure that makes the arm drag effective, but they also reduce their ability to finish front headlock submissions. Abandon the arm drag and switch to a technical standup or granby roll escape, both of which work better against a sprawled opponent. The arm drag threat served its purpose by forcing them to change their positioning—now exploit the new position with the appropriate alternative escape. This is why having multiple front headlock escapes is essential."
     },
     {
       "question": "How do you counter the opponent switching to a guillotine grip during your arm drag attempt?",
-      "answer": "If you feel them tightening a guillotine as you begin the drag, immediately prioritize neck defense over completing the escape. Stop the lateral movement, tuck your chin deeper, and drive your shoulder into their chest to create posture pressure. Work standard guillotine defense by fighting the choking hand at the wrist and walking your body to the non-choking side. Only reattempt the arm drag once you have neutralized the guillotine threat. Never sacrifice neck safety to complete an escape.",
-      "difficulty": "Intermediate"
+      "answer": "If you feel them tightening a guillotine as you begin the drag, immediately prioritize neck defense over completing the escape. Stop the lateral movement, tuck your chin deeper, and drive your shoulder into their chest to create posture pressure. Work standard guillotine defense by fighting the choking hand at the wrist and walking your body to the non-choking side. Only reattempt the arm drag once you have neutralized the guillotine threat. Never sacrifice neck safety to complete an escape."
     },
     {
       "question": "What is the most critical timing window for initiating the arm drag?",
-      "answer": "The optimal moment is when the opponent shifts their weight forward—typically when they are adjusting their grip to deepen a choke setup, driving forward pressure to flatten you, or transitioning between submission attacks. This forward weight commitment reduces their ability to sprawl away from the drag and provides the leverage your pull needs. Attempting the drag when they are settled with hips back and wide base will fail because their weight distribution resists the lateral redirection. Developing sensitivity to these weight shifts through drilling is essential.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal moment is when the opponent shifts their weight forward—typically when they are adjusting their grip to deepen a choke setup, driving forward pressure to flatten you, or transitioning between submission attacks. This forward weight commitment reduces their ability to sprawl away from the drag and provides the leverage your pull needs. Attempting the drag when they are settled with hips back and wide base will fail because their weight distribution resists the lateral redirection. Developing sensitivity to these weight shifts through drilling is essential."
     },
     {
       "question": "Why must the arm drag and head circle be simultaneous rather than sequential?",
-      "answer": "If you drag the arm first and then try to circle your head, the opponent has time to recognize the escape and either retighten their control with the other arm, switch to a guillotine, or adjust their hips to maintain the headlock. The simultaneous movement creates a single explosive action where the arm clears your head's escape path at the exact moment your head moves through it. Sequential movement gives the opponent two separate windows to counter rather than one, cutting your success rate dramatically. This coordination is the technique's core skill.",
-      "difficulty": "Advanced"
+      "answer": "If you drag the arm first and then try to circle your head, the opponent has time to recognize the escape and either retighten their control with the other arm, switch to a guillotine, or adjust their hips to maintain the headlock. The simultaneous movement creates a single explosive action where the arm clears your head's escape path at the exact moment your head moves through it. Sequential movement gives the opponent two separate windows to counter rather than one, cutting your success rate dramatically. This coordination is the technique's core skill."
     },
     {
       "question": "After clearing your head, what immediate actions prevent the opponent from re-establishing control or taking your back?",
-      "answer": "The instant your head clears, drive your inside knee into the opponent's hip or chest as a primary frame while executing a sharp hip switch to face them. This knee frame creates an immediate physical barrier. Then establish your outside foot on their far hip for a double-leg frame structure. These frames must be in place within one to two seconds of the head clearing. Without immediate frames, the opponent will either re-acquire head control by reaching back for your neck or spin behind you to take back control. The escape is not complete until guard frames are established.",
-      "difficulty": "Intermediate"
+      "answer": "The instant your head clears, drive your inside knee into the opponent's hip or chest as a primary frame while executing a sharp hip switch to face them. This knee frame creates an immediate physical barrier. Then establish your outside foot on their far hip for a double-leg frame structure. These frames must be in place within one to two seconds of the head clearing. Without immediate frames, the opponent will either re-acquire head control by reaching back for your neck or spin behind you to take back control. The escape is not complete until guard frames are established."
     },
     {
       "question": "How does the direction of force in the arm drag relate to the direction of your head movement?",
-      "answer": "The arm drag pulls the opponent's choking arm laterally across your centerline toward your far hip, while your head circles in the same lateral direction but underneath the arm. Both movements go toward the same side—the drag-side. Your head passes under and through the gap created by the arm being redirected. This same-direction movement is counterintuitive because many escapes involve moving opposite to the force direction, but the arm drag works by clearing the barrier (their arm) and escaping through the opened space simultaneously.",
-      "difficulty": "Advanced"
+      "answer": "The arm drag pulls the opponent's choking arm laterally across your centerline toward your far hip, while your head circles in the same lateral direction but underneath the arm. Both movements go toward the same side—the drag-side. Your head passes under and through the gap created by the arm being redirected. This same-direction movement is counterintuitive because many escapes involve moving opposite to the force direction, but the arm drag works by clearing the barrier (their arm) and escaping through the opened space simultaneously."
     },
     {
       "question": "What body mechanic multiplies the power of the arm drag against a stronger opponent?",
-      "answer": "Torso rotation rather than isolated arm pulling. Instead of using only your biceps and grip to drag the arm, rotate your entire torso toward the drag side while pulling your elbows toward your far hip. This engages your core, lats, and the rotational force of your body weight, dramatically multiplying the pulling force. A practitioner who relies solely on arm strength will struggle against a larger opponent, but one who uses full torso rotation can redirect even a significantly stronger opponent's arm because the mechanical advantage of body rotation exceeds static arm strength.",
-      "difficulty": "Advanced"
+      "answer": "Torso rotation rather than isolated arm pulling. Instead of using only your biceps and grip to drag the arm, rotate your entire torso toward the drag side while pulling your elbows toward your far hip. This engages your core, lats, and the rotational force of your body weight, dramatically multiplying the pulling force. A practitioner who relies solely on arm strength will struggle against a larger opponent, but one who uses full torso rotation can redirect even a significantly stronger opponent's arm because the mechanical advantage of body rotation exceeds static arm strength."
     },
     {
       "question": "When should you choose the arm drag escape versus a granby roll or technical standup from front headlock?",
-      "answer": "Choose the arm drag when the opponent's weight is committed forward with pressure into your upper back—this provides the leverage conditions the drag needs. Choose a technical standup when the opponent's control is loose and you have space to post and stand. Choose a granby roll when the opponent is overcommitting to one side or when you need a fast, explosive escape from a tight position. The arm drag works best as a calculated technical escape against forward pressure, while the other options suit different opponent weight distributions and urgency levels.",
-      "difficulty": "Advanced"
+      "answer": "Choose the arm drag when the opponent's weight is committed forward with pressure into your upper back—this provides the leverage conditions the drag needs. Choose a technical standup when the opponent's control is loose and you have space to post and stand. Choose a granby roll when the opponent is overcommitting to one side or when you need a fast, explosive escape from a tight position. The arm drag works best as a calculated technical escape against forward pressure, while the other options suit different opponent weight distributions and urgency levels."
     }
   ],
   "safety_considerations": "The arm drag escape from front headlock is generally low-risk compared to other front headlock escapes, but practitioners should be aware of several safety concerns. The primary risk is exposing your neck during the transition—if the arm drag fails halfway through, your head may be in a compromised position vulnerable to guillotine or anaconda attacks. Always maintain a tight chin tuck throughout the entire escape. During drilling, communicate with your partner about the speed of the drag to prevent wrist or shoulder strain from sudden jerking movements. Avoid forcing the technique against a fully locked guillotine grip, as this can tighten the choke dangerously. If you feel any choking pressure increase during the escape attempt, immediately abandon the arm drag and prioritize neck defense. Partners applying front headlock during drilling should avoid cranking the neck and should release immediately when tapped.",
@@ -297,5 +270,6 @@
       "name": "Arm Drag Sweep",
       "relationship": "Related technique - arm drag mechanics applied offensively from guard"
     }
-  ]
+  ],
+  "success_rate": 58
 }

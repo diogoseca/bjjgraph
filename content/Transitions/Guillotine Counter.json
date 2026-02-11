@@ -11,11 +11,6 @@
     "scramble",
     "guard-passing"
   ],
-  "success_rates": {
-    "beginner": 50,
-    "intermediate": 70,
-    "advanced": 85
-  },
   "overview": "The Guillotine Counter is a critical defensive technique that transforms a dangerous submission threat into a dominant top position. When caught in a guillotine choke, whether standing or on the ground, understanding proper defensive mechanics can mean the difference between tapping and establishing control. This counter relies on fundamental principles of posture management, pressure application, and strategic hand positioning to neutralize the choking threat while simultaneously advancing position. The technique is particularly valuable in both gi and no-gi contexts, as guillotine attempts are common across all levels of competition. By mastering this counter, practitioners develop confidence in scramble situations and learn to remain calm under submission pressure. The guillotine counter exemplifies the BJJ principle that every offensive technique has a systematic defense, and that proper technique overcomes strength and panic.",
   "key_principles": [
     "Maintain strong posture with chin tucked to prevent deep choke penetration",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Recognize and posture",
-      "description": "The moment you feel the guillotine being applied, tuck your chin tightly to your chest and drive your head toward the non-choking side. Maintain a strong, upright posture with your hips forward and shoulders back. Do not allow opponent to break you down or pull your head below their chest level.",
-      "timing": "Immediate - within 1 second of feeling the choke"
+      "description": "The moment you feel the guillotine being applied, tuck your chin tightly to your chest and drive your head toward the non-choking side. Maintain a strong, upright posture with your hips forward and shoulders back. Do not allow opponent to break you down or pull your head below their chest level."
     },
     {
       "step_number": 2,
       "action": "Establish hand control",
-      "description": "Your arm on the choking side reaches across your body to grip opponent's choking wrist or forearm. Your opposite hand posts on the mat or grips opponent's hip for base. This hand control is critical to prevent opponent from tightening the choke or adjusting their grip.",
-      "timing": "Simultaneous with posture establishment"
+      "description": "Your arm on the choking side reaches across your body to grip opponent's choking wrist or forearm. Your opposite hand posts on the mat or grips opponent's hip for base. This hand control is critical to prevent opponent from tightening the choke or adjusting their grip."
     },
     {
       "step_number": 3,
       "action": "Drive forward pressure",
-      "description": "Using your legs and core, drive your weight forward and down through opponent's chest. Your shoulder on the non-choking side drives into their sternum, flattening their posture and reducing their ability to lift or arch. This pressure makes it difficult for them to generate choking force.",
-      "timing": "Continuous pressure - 2-3 seconds"
+      "description": "Using your legs and core, drive your weight forward and down through opponent's chest. Your shoulder on the non-choking side drives into their sternum, flattening their posture and reducing their ability to lift or arch. This pressure makes it difficult for them to generate choking force."
     },
     {
       "step_number": 4,
       "action": "Break guard or base",
-      "description": "If opponent has closed guard, use your free hand to push on their hip while driving your weight forward to break the guard open. If they're attempting to jump guard or are on their back, establish strong base with your legs wide and hips low.",
-      "timing": "As soon as forward pressure is established"
+      "description": "If opponent has closed guard, use your free hand to push on their hip while driving your weight forward to break the guard open. If they're attempting to jump guard or are on their back, establish strong base with your legs wide and hips low."
     },
     {
       "step_number": 5,
       "action": "Circle to safe side",
-      "description": "Keeping your head on the non-choking side, begin to circle your body away from the choking arm. Your hips rotate toward the side of their body opposite from the choking arm. Maintain downward pressure throughout this circular movement.",
-      "timing": "3-5 seconds of controlled movement"
+      "description": "Keeping your head on the non-choking side, begin to circle your body away from the choking arm. Your hips rotate toward the side of their body opposite from the choking arm. Maintain downward pressure throughout this circular movement."
     },
     {
       "step_number": 6,
       "action": "Extract head and establish position",
-      "description": "As you circle and drive pressure, pull your head back and out of the guillotine grip. Immediately establish side control by bringing your chest across opponent's torso, controlling their far arm, and securing crossface position. Your head should now be completely free of any choking threat.",
-      "timing": "Final 2-3 seconds of the sequence"
+      "description": "As you circle and drive pressure, pull your head back and out of the guillotine grip. Immediately establish side control by bringing your chest across opponent's torso, controlling their far arm, and securing crossface position. Your head should now be completely free of any choking threat."
     },
     {
       "step_number": 7,
       "action": "Consolidate control",
-      "description": "Once in side control, immediately establish strong control points: crossface with one arm, underhook or control of far arm with the other, chest pressure on opponent's sternum, and hips low. Do not allow opponent to recover guard or re-establish any offensive threats.",
-      "timing": "Immediate upon achieving side control"
+      "description": "Once in side control, immediately establish strong control points: crossface with one arm, underhook or control of far arm with the other, chest pressure on opponent's sternum, and hips low. Do not allow opponent to recover guard or re-establish any offensive threats."
     }
   ],
   "common_counters": [
@@ -136,38 +124,32 @@
     {
       "phase": "Week 1-2: Recognition and Posture",
       "focus": "Developing immediate recognition of guillotine threats and proper postural response",
-      "description": "Partner applies light guillotine grip from various positions. Practice immediate chin tuck, posture maintenance, and hand control. Focus on feeling the difference between proper and compromised posture. No resistance from partner.",
-      "resistance_level": "None"
+      "description": "Partner applies light guillotine grip from various positions. Practice immediate chin tuck, posture maintenance, and hand control. Focus on feeling the difference between proper and compromised posture. No resistance from partner."
     },
     {
       "phase": "Week 3-4: Pressure and Movement",
       "focus": "Adding forward pressure and learning the circular escape pattern",
-      "description": "Partner applies moderate guillotine grip. Practice driving forward pressure while circling to the safe side. Partner provides light resistance but allows escape. Emphasis on maintaining pressure throughout the movement.",
-      "resistance_level": "Light"
+      "description": "Partner applies moderate guillotine grip. Practice driving forward pressure while circling to the safe side. Partner provides light resistance but allows escape. Emphasis on maintaining pressure throughout the movement."
     },
     {
       "phase": "Week 5-8: Guard Breaking Integration",
       "focus": "Combining guillotine defense with guard breaking and position advancement",
-      "description": "Partner applies guillotine and closes guard or jumps to guard. Practice complete sequence from recognition through guard break to side control establishment. Partner resists at 50-60% intensity.",
-      "resistance_level": "Medium"
+      "description": "Partner applies guillotine and closes guard or jumps to guard. Practice complete sequence from recognition through guard break to side control establishment. Partner resists at 50-60% intensity."
     },
     {
       "phase": "Week 9-12: Variation Defense",
       "focus": "Defending against different guillotine variations (high elbow, arm-in, ten finger)",
-      "description": "Partner randomly applies different guillotine variations. Practice identifying variation and applying appropriate defensive modifications. Partner provides realistic resistance while allowing successful escapes.",
-      "resistance_level": "Medium"
+      "description": "Partner randomly applies different guillotine variations. Practice identifying variation and applying appropriate defensive modifications. Partner provides realistic resistance while allowing successful escapes."
     },
     {
       "phase": "Month 4-6: Live Situational Sparring",
       "focus": "Defending guillotines in live rolling with reset",
-      "description": "Partner actively seeks guillotines during positional sparring. Each time they secure grip, attempt defense at full speed. Reset if defense fails or succeeds. Build confidence under real pressure.",
-      "resistance_level": "Full"
+      "description": "Partner actively seeks guillotines during positional sparring. Each time they secure grip, attempt defense at full speed. Reset if defense fails or succeeds. Build confidence under real pressure."
     },
     {
       "phase": "Ongoing: Competition Integration",
       "focus": "Maintaining defensive awareness in all scrambles and transitions",
-      "description": "Incorporate guillotine defense into regular training without specific setup. Develop automatic defensive responses during takedown attempts, guard pulls, and scrambles where guillotines commonly occur.",
-      "resistance_level": "Full"
+      "description": "Incorporate guillotine defense into regular training without specific setup. Develop automatic defensive responses during takedown attempts, guard pulls, and scrambles where guillotines commonly occur."
     }
   ],
   "variants_and_adaptations": [
@@ -195,33 +177,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is it critical to keep your head on the non-choking side during the guillotine counter?",
-      "answer": "Keeping your head on the non-choking side creates the proper angle for escape and prevents opponent from tightening the choke. If your head moves toward the choking arm side, you are pulling directly into their leverage, which makes the choke tighter and nearly impossible to escape. The circular escape pattern away from the choking arm is what creates the space needed to extract your head safely.",
-      "difficulty": "Beginner"
+      "answer": "Keeping your head on the non-choking side creates the proper angle for escape and prevents opponent from tightening the choke. If your head moves toward the choking arm side, you are pulling directly into their leverage, which makes the choke tighter and nearly impossible to escape. The circular escape pattern away from the choking arm is what creates the space needed to extract your head safely."
     },
     {
       "question": "What is the primary purpose of driving forward pressure during the guillotine counter?",
-      "answer": "Forward pressure serves multiple critical functions: it flattens opponent's posture making it difficult for them to generate upward lift needed for the choke, it reduces their ability to arch their back and create the angle that makes guillotines effective, it breaks their structure and prevents them from tightening their grip, and it sets up the positional advancement to side control. Without forward pressure, the escape becomes much more difficult.",
-      "difficulty": "Beginner"
+      "answer": "Forward pressure serves multiple critical functions: it flattens opponent's posture making it difficult for them to generate upward lift needed for the choke, it reduces their ability to arch their back and create the angle that makes guillotines effective, it breaks their structure and prevents them from tightening their grip, and it sets up the positional advancement to side control. Without forward pressure, the escape becomes much more difficult."
     },
     {
       "question": "How should you modify your defense if opponent converts to an arm-in guillotine variation?",
-      "answer": "The arm-in guillotine actually becomes less dangerous if you maintain proper posture and forward pressure. Accept the arm-in position rather than fighting to extract your arm immediately. Continue driving pressure through their chest and maintaining head on the safe side. The arm-in variation requires very specific positioning to finish, and your forward pressure disrupts this positioning. Once pressure is established, you can systematically extract your arm while completing the circular escape.",
-      "difficulty": "Intermediate"
+      "answer": "The arm-in guillotine actually becomes less dangerous if you maintain proper posture and forward pressure. Accept the arm-in position rather than fighting to extract your arm immediately. Continue driving pressure through their chest and maintaining head on the safe side. The arm-in variation requires very specific positioning to finish, and your forward pressure disrupts this positioning. Once pressure is established, you can systematically extract your arm while completing the circular escape."
     },
     {
       "question": "What are the key differences between defending a standing guillotine versus a guillotine from guard?",
-      "answer": "Standing guillotine defense emphasizes maintaining base and posture while driving opponent backward to take them down, finishing in top position as they fall. Guard guillotine defense requires breaking the closed guard first while maintaining posture, then executing the standard circular escape. Standing defense often involves more aggressive forward drive to force opponent down, while guard defense requires more technical guard-breaking before the escape can be completed. Both require same fundamental principles of posture, hand control, and pressure.",
-      "difficulty": "Intermediate"
+      "answer": "Standing guillotine defense emphasizes maintaining base and posture while driving opponent backward to take them down, finishing in top position as they fall. Guard guillotine defense requires breaking the closed guard first while maintaining posture, then executing the standard circular escape. Standing defense often involves more aggressive forward drive to force opponent down, while guard defense requires more technical guard-breaking before the escape can be completed. Both require same fundamental principles of posture, hand control, and pressure."
     },
     {
       "question": "Why is hand control on the choking wrist or forearm essential, and what happens if this control is neglected?",
-      "answer": "Hand control on the choking arm prevents opponent from making micro-adjustments to their grip that could dramatically increase the choke's effectiveness. Without this control, opponent can transition between guillotine variations (standard to high elbow to arm-in), adjust the angle of their forearm against your neck, or use their free hand to assist the choke. The choking arm control also provides you with feedback about their intentions and creates a physical barrier that limits how much they can tighten the submission. This control is established early and maintained throughout the entire defensive sequence.",
-      "difficulty": "Advanced"
+      "answer": "Hand control on the choking arm prevents opponent from making micro-adjustments to their grip that could dramatically increase the choke's effectiveness. Without this control, opponent can transition between guillotine variations (standard to high elbow to arm-in), adjust the angle of their forearm against your neck, or use their free hand to assist the choke. The choking arm control also provides you with feedback about their intentions and creates a physical barrier that limits how much they can tighten the submission. This control is established early and maintained throughout the entire defensive sequence."
     },
     {
       "question": "Explain the biomechanical relationship between your forward pressure and the opponent's ability to generate choking force?",
-      "answer": "The guillotine choke requires opponent to create a lifting or arching motion with their torso to generate the upward pressure that closes your windpipe against their forearm. Forward pressure directly opposes this motion by driving their chest and shoulders flat to the mat, preventing them from achieving the arch. Additionally, forward pressure shifts your body weight through their core, making it mechanically difficult for them to lift or create the specific angle needed. The more vertical and flat their torso becomes, the less leverage they have on the choke. This is why maintaining continuous, heavy pressure is more effective than explosive bursts of pressure.",
-      "difficulty": "Advanced"
+      "answer": "The guillotine choke requires opponent to create a lifting or arching motion with their torso to generate the upward pressure that closes your windpipe against their forearm. Forward pressure directly opposes this motion by driving their chest and shoulders flat to the mat, preventing them from achieving the arch. Additionally, forward pressure shifts your body weight through their core, making it mechanically difficult for them to lift or create the specific angle needed. The more vertical and flat their torso becomes, the less leverage they have on the choke. This is why maintaining continuous, heavy pressure is more effective than explosive bursts of pressure."
     }
   ],
   "safety_considerations": "When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap.",
@@ -285,5 +261,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 78
 }

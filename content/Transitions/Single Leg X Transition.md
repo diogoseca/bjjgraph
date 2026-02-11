@@ -159,7 +159,7 @@ Strategically, the Single Leg X Transition serves as a crucial link in the leg e
 The timing window for this transition typically opens when the opponent shifts their weight toward your trapped leg or attempts to step over your guard. Their forward pressure actually assists the entry by loading weight onto the leg you're attacking. Advanced practitioners learn to bait this pressure through feinting other attacks, then capitalizing on the reaction to secure the transition.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,12 +208,12 @@ The timing window for this transition typically opens when the opponent shifts t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure ankle control**: From Grasshopper Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb. (Timing: As opponent's weight shifts forward)
-2. **Thread outside leg**: Shoot your outside leg (the one furthest from their controlled leg) around and behind their trapped leg, aiming to hook behind their knee. Your calf should make contact with their hamstring as you spiral your leg around. (Timing: Immediately after securing ankle grip)
-3. **Position hip connection**: Pull your hips tight against opponent's trapped leg by contracting your core and pulling with the ankle grip. Your hip bone should be pressing firmly against the back of their thigh, eliminating any space between your body and their leg. (Timing: Simultaneous with leg threading)
-4. **Establish hip foot**: Place your inside foot (same side as the trapped leg) firmly on opponent's far hip. The ball of your foot creates a pushing point that controls their posture and prevents them from stepping over or around your guard. (Timing: As hip connection completes)
-5. **Cross legs behind thigh**: Complete the X configuration by crossing your outside ankle over your inside shin behind opponent's trapped thigh. This creates the mechanical lock that defines Single Leg X-Guard and prevents leg extraction. (Timing: Once hip foot is established)
-6. **Adjust angle and grips**: Fine-tune your position by angling your body perpendicular to opponent's centerline. Transfer grips as needed - typically moving from ankle control to heel control or establishing sleeve/collar grips for sweep setup. (Timing: Final positioning phase)
+1. **Secure ankle control**: From Grasshopper Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb.
+2. **Thread outside leg**: Shoot your outside leg (the one furthest from their controlled leg) around and behind their trapped leg, aiming to hook behind their knee. Your calf should make contact with their hamstring as you spiral your leg around.
+3. **Position hip connection**: Pull your hips tight against opponent's trapped leg by contracting your core and pulling with the ankle grip. Your hip bone should be pressing firmly against the back of their thigh, eliminating any space between your body and their leg.
+4. **Establish hip foot**: Place your inside foot (same side as the trapped leg) firmly on opponent's far hip. The ball of your foot creates a pushing point that controls their posture and prevents them from stepping over or around your guard.
+5. **Cross legs behind thigh**: Complete the X configuration by crossing your outside ankle over your inside shin behind opponent's trapped thigh. This creates the mechanical lock that defines Single Leg X-Guard and prevents leg extraction.
+6. **Adjust angle and grips**: Fine-tune your position by angling your body perpendicular to opponent's centerline. Transfer grips as needed - typically moving from ankle control to heel control or establishing sleeve/collar grips for sweep setup.
 
 
 </section>
@@ -256,19 +256,15 @@ The timing window for this transition typically opens when the opponent shifts t
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Drill the basic motion from static Grasshopper Guard position. Partner remains stationary while you practice ankle grip establishment, leg threading sequence, and X configuration. Focus on smoothness and proper hip positioning without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner begins adding light movement - stepping, shifting weight, attempting to disengage. Practice recognizing the timing windows when their weight shifts forward or they narrow their base. Emphasis on entering during opponent's movement rather than forcing against resistance.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Integrate the transition into attack sequences. Practice flowing from Grasshopper Guard to Single Leg X, then immediately threatening sweeps or submission entries. Partner provides moderate resistance and begins using basic counters. Develop ability to adjust when initial entry is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply transition in live rolling situations with full resistance. Focus on creating the entry opportunities through feints and pressure, then executing under competition-like conditions. Analyze failures to refine timing and technique selection.
-(Resistance: Full)
 
 
 

@@ -225,7 +225,7 @@ From this position, the top player enjoys significant control advantages, includ
 
 
 **If opponent turns into underhook to defend:**
-- Execute **[[Darce Choke]]** → [[D'arce Control]] (Probability: 60%)
+- Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 60%)
 - Execute **[[Back Step Pass]]** → [[Back Control]] (Probability: 55%)
 - Execute **[[North-South Transition]]** → [[North-South]] (Probability: 65%)
 
@@ -356,11 +356,11 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 15% |
-| Intermediate | 65% | 60% | 25% |
-| Advanced     | 75% | 75% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 68% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds before completing pass or losing position
 
@@ -375,7 +375,7 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 - **[[Side Control]]** - Common transition target - primary passing option
 - **[[Deep Half Guard]]** - Common defensive response - bottom player's primary escape
 - **[[Underhook Pass]]** - Primary offensive technique - key passing method
-- **[[D'arce Control]]** - Opportunistic submission position - when opponent turns in
+- **[[Darce Control]]** - Opportunistic submission position - when opponent turns in
 - **[[Kimura Trap]]** - Submission option - attacking the defending arm
 - **[[Mount]]** - Advanced position target - highest point advancement
 - **[[Knee Shield Half Guard]]** - Common recovery position for bottom player

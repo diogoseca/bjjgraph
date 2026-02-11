@@ -239,7 +239,7 @@ Advanced practitioners understand that crackhead control is not a static positio
 
 **If opponent attempts to sit through to guard or turn into you:**
 - Execute **[[Turtle to Back Take]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 50%)
+- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 50%)
 
 
 **If opponent rolls forward or attempts granby escape:**
@@ -368,11 +368,11 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 25% |
-| Intermediate | 65% | 60% | 40% |
-| Advanced     | 85% | 75% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 75% |
+| Advancement Probability | 68% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 30-90 seconds before advancement or escape
 
@@ -389,7 +389,7 @@ Partner in bottom turtle attempts specific escapes in sequence (sit through, gra
 - **[[Crab Ride]]** - Similar control mechanics - alternative chair sit control position
 - **[[Crucifix]]** - Submission position - accessible when opponent extends arms
 - **[[Turtle to Back Take]]** - Primary technique - most direct path from position
-- **[[D'arce Control]]** - Submission control - available when opponent turns in
+- **[[Darce Control]]** - Submission control - available when opponent turns in
 - **[[Anaconda Control]]** - Submission control - available from front headlock transitions
 - **[[Turtle to Truck]]** - Key transition for leg attack and twister system entries
 

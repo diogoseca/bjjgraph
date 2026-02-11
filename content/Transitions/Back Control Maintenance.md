@@ -163,7 +163,7 @@ The fundamental concept driving back control maintenance is the understanding th
 Advanced back control maintenance integrates threat cycling—the continuous rotation between rear naked choke setups, collar chokes, armbars, and crucifix transitions—that keeps the defender perpetually reactive. By threatening submissions without fully committing, the attacking practitioner forces defensive movements that can be exploited to tighten positional control. This creates a feedback loop where defensive effort leads to tighter control, which creates more submission threats, requiring more defensive effort. Understanding and executing this cycle separates practitioners who occasionally get the back from those who systematically finish from back control.
 
 **From Position**: [[Back Control/Top]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 80%
+**Success Rate**: 70%
 
 </section>
 
@@ -211,13 +211,13 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify hook security**: Check both hooks are inserted deeply with your heels driving toward opponent's hips, not floating near their knees. The hooks should create a figure-four like structure that limits their hip mobility in all directions. (Timing: Continuous monitoring)
-2. **Tighten chest connection**: Drive your chest forward into opponent's upper back, eliminating any gap between your torso and their shoulder blades. This connection serves as the anchor for all control—if they create space here, all other elements become vulnerable. (Timing: Immediate and sustained)
-3. **Cycle submission threats**: Begin threatening the rear naked choke by walking your choking hand toward their neck. This forces them to bring hands up to defend, which removes their ability to address your hooks or create hip movement for escape. (Timing: Every 3-5 seconds)
-4. **Adjust to escape attempts**: When opponent attempts to remove a hook by straightening their leg, immediately drive that hook deeper and switch your hips to follow their movement. Use their escape energy against them by riding the movement rather than fighting it. (Timing: Reactive within 1 second)
-5. **Switch grip configurations**: Rotate between standard seatbelt, gift wrap control, and collar grip setups based on which defensive structure opponent presents. Each grip change creates a new threat that requires different defensive response. (Timing: Every 5-10 seconds)
-6. **Lower hip positioning**: If opponent begins creating space, drop your hips lower than theirs and increase forward chest pressure. This removes their ability to sit back into you while maintaining the compression that limits their movement options. (Timing: As needed during defense)
-7. **Integrate body triangle option**: When opponent's escape attempts become predictable, transition to body triangle by bringing one leg over their hip and locking your feet together. This adds a new layer of control that is extremely difficult to remove while maintaining all upper body threats. (Timing: Opportunistic)
+1. **Verify hook security**: Check both hooks are inserted deeply with your heels driving toward opponent's hips, not floating near their knees. The hooks should create a figure-four like structure that limits their hip mobility in all directions.
+2. **Tighten chest connection**: Drive your chest forward into opponent's upper back, eliminating any gap between your torso and their shoulder blades. This connection serves as the anchor for all control—if they create space here, all other elements become vulnerable.
+3. **Cycle submission threats**: Begin threatening the rear naked choke by walking your choking hand toward their neck. This forces them to bring hands up to defend, which removes their ability to address your hooks or create hip movement for escape.
+4. **Adjust to escape attempts**: When opponent attempts to remove a hook by straightening their leg, immediately drive that hook deeper and switch your hips to follow their movement. Use their escape energy against them by riding the movement rather than fighting it.
+5. **Switch grip configurations**: Rotate between standard seatbelt, gift wrap control, and collar grip setups based on which defensive structure opponent presents. Each grip change creates a new threat that requires different defensive response.
+6. **Lower hip positioning**: If opponent begins creating space, drop your hips lower than theirs and increase forward chest pressure. This removes their ability to sit back into you while maintaining the compression that limits their movement options.
+7. **Integrate body triangle option**: When opponent's escape attempts become predictable, transition to body triangle by bringing one leg over their hip and locking your feet together. This adds a new layer of control that is extremely difficult to remove while maintaining all upper body threats.
 
 
 </section>
@@ -260,19 +260,15 @@ Advanced back control maintenance integrates threat cycling—the continuous rot
 ## Training Progressions
 **Week 1-2** - Static position holding
 Practice maintaining back control against completely passive partner for 2-minute rounds. Focus exclusively on proper hook depth, chest connection, and seatbelt grip structure. No submissions attempted—pure positional discipline.
-(Resistance: None)
 
 **Week 3-4** - Adjustment reactions
 Partner provides specific escape attempts at 30% intensity on coach's command. Practice recognizing each escape type and executing appropriate maintenance adjustment. Build pattern recognition for common escape sequences.
-(Resistance: Light)
 
 **Week 5-6** - Threat cycling integration
 Maintain back control while continuously cycling between RNC threat, collar grip, and armbar setup. Partner defends at 50% resistance. Goal is smooth transitions between threats while never compromising positional integrity.
-(Resistance: Medium)
 
 **Week 7+** - Competitive maintenance sparring
 Positional sparring starting from back control against fully resisting opponent. 3-minute rounds where maintaining position counts as win, escape counts as opponent win. Track success rate to measure improvement over time.
-(Resistance: Full)
 
 
 

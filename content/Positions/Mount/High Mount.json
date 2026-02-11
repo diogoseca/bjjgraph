@@ -323,53 +323,55 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
+        "value": 70
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
+        "value": 45
       },
       "average_time": "45-90 seconds before submission or advancement"
     },
     "transitions": [
       {
         "transition": "Armbar from Mount",
-        "attempt_probability": 18
+        "attempt_probability": 14
       },
       {
         "transition": "Ezekiel from Mount",
-        "attempt_probability": 14
+        "attempt_probability": 11
       },
       {
         "transition": "Cross Collar Choke",
-        "attempt_probability": 14
+        "attempt_probability": 11
       },
       {
         "transition": "Americana from Mount",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Kimura from Mount",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Arm Triangle",
         "attempt_probability": 10
       },
       {
+        "transition": "Arm Triangle",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Gift Wrap Transition",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Loop Choke from Mount",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Monoplata from Mount",
         "attempt_probability": 10
       }
     ]
@@ -614,21 +616,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 85,
-        "intermediate": 75,
-        "advanced": 60,
+        "value": 68,
         "description": "Opponent's ability to maintain high mount position"
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Bottom player's chance of improving position"
       },
       "submission_probability": {
-        "beginner": 60,
-        "intermediate": 45,
-        "advanced": 30,
+        "value": 38,
         "description": "Risk of being submitted from this position"
       },
       "average_time": "30-60 seconds before submission or escape attempt"
@@ -636,23 +632,27 @@
     "transitions": [
       {
         "transition": "Upa Escape",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Elbow Escape",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Bridge and Roll",
         "attempt_probability": 15
       },
       {
+        "transition": "Elbow Escape",
+        "attempt_probability": 21
+      },
+      {
+        "transition": "Bridge and Roll",
+        "attempt_probability": 12
+      },
+      {
         "transition": "Shrimp Escape",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Hip Escape",
-        "attempt_probability": 24
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Frame Creation",
+        "attempt_probability": 17
       }
     ]
   }

@@ -157,7 +157,7 @@ The North-South to Kimura represents a highly effective transitional submission 
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (rotator cuff and ligaments)
 **Starting Position**: [[North-South]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -236,12 +236,12 @@ The North-South to Kimura represents a highly effective transitional submission 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure North-South Control**: Establish dominant north-south position with your chest driving into opponent's chest. Your hips should be low and heavy, preventing their bridging or hip escape. Control the near arm by gripping their wrist with your same-side hand. Apply steady chest pressure to restrict their breathing and movement while keeping your base wide and stable. (Timing: 2-3 seconds to establish solid control) [Pressure: Firm]
-2. **Isolate the Near Arm**: Pull the opponent's near arm away from their body by lifting their wrist while maintaining wrist control. Their natural reaction will be to push or frame against your hips. Use this reaction to your advantage by allowing slight extension of their arm while preventing them from pulling the elbow back to their body. Your grip on their wrist should be firm but not squeezing excessively. (Timing: 1-2 seconds) [Pressure: Moderate]
-3. **Thread for Figure-Four Grip**: While maintaining wrist control with your near hand, thread your far arm under their trapped arm, reaching across to grab your own wrist. Form the characteristic kimura figure-four grip with your wrists connecting. Your controlling hand should grip your opposite wrist from above, creating maximum structural strength. Ensure your forearm is positioned against their elbow, creating the fulcrum point for the leverage. (Timing: 2-3 seconds to secure proper grip) [Pressure: Moderate]
-4. **Adjust Body Position**: Shift your hips slightly toward the trapped arm side while keeping chest pressure on opponent. Your body should form a perpendicular angle to their torso. Keep your near knee posted on the mat for base, and your far leg extended for stability. This positioning maximizes your leverage while preventing opponent's rotation or escape. Maintain constant pressure to keep them flat on their back. (Timing: 1-2 seconds) [Pressure: Firm]
-5. **Initiate Controlled Rotation**: Begin rotating the opponent's arm by lifting their wrist toward their head while simultaneously pushing their elbow away from their body. The motion should be smooth and progressive, not sudden or jerking. Drive your hips forward slightly to increase pressure while rotating. Their hand should move in an arc motion toward their own head and away from their body. Watch for the tap signal continuously during this phase. (Timing: 3-4 seconds of progressive pressure) [Pressure: Firm]
-6. **Finish with Hip Pressure**: Complete the submission by driving your hips forward and down while maintaining the rotational pressure on the shoulder. Your chest should remain heavy on their torso, preventing any escape movement. Continue the controlled rotation until opponent taps. The finishing pressure comes from hip drive and body positioning, not from pulling with your arms. Maintain awareness of their tap signals and release immediately upon submission. (Timing: 2-3 seconds to finish) [Pressure: Maximum]
+1. **Secure North-South Control**: Establish dominant north-south position with your chest driving into opponent's chest. Your hips should be low and heavy, preventing their bridging or hip escape. Control the near arm by gripping their wrist with your same-side hand. Apply steady chest pressure to restrict their breathing and movement while keeping your base wide and stable. (Timing: 2-3 seconds to establish solid control)
+2. **Isolate the Near Arm**: Pull the opponent's near arm away from their body by lifting their wrist while maintaining wrist control. Their natural reaction will be to push or frame against your hips. Use this reaction to your advantage by allowing slight extension of their arm while preventing them from pulling the elbow back to their body. Your grip on their wrist should be firm but not squeezing excessively. (Timing: 1-2 seconds)
+3. **Thread for Figure-Four Grip**: While maintaining wrist control with your near hand, thread your far arm under their trapped arm, reaching across to grab your own wrist. Form the characteristic kimura figure-four grip with your wrists connecting. Your controlling hand should grip your opposite wrist from above, creating maximum structural strength. Ensure your forearm is positioned against their elbow, creating the fulcrum point for the leverage. (Timing: 2-3 seconds to secure proper grip)
+4. **Adjust Body Position**: Shift your hips slightly toward the trapped arm side while keeping chest pressure on opponent. Your body should form a perpendicular angle to their torso. Keep your near knee posted on the mat for base, and your far leg extended for stability. This positioning maximizes your leverage while preventing opponent's rotation or escape. Maintain constant pressure to keep them flat on their back. (Timing: 1-2 seconds)
+5. **Initiate Controlled Rotation**: Begin rotating the opponent's arm by lifting their wrist toward their head while simultaneously pushing their elbow away from their body. The motion should be smooth and progressive, not sudden or jerking. Drive your hips forward slightly to increase pressure while rotating. Their hand should move in an arc motion toward their own head and away from their body. Watch for the tap signal continuously during this phase. (Timing: 3-4 seconds of progressive pressure)
+6. **Finish with Hip Pressure**: Complete the submission by driving your hips forward and down while maintaining the rotational pressure on the shoulder. Your chest should remain heavy on their torso, preventing any escape movement. Continue the controlled rotation until opponent taps. The finishing pressure comes from hip drive and body positioning, not from pulling with your arms. Maintain awareness of their tap signals and release immediately upon submission. (Timing: 2-3 seconds to finish)
 
 
 </section>
@@ -261,13 +261,13 @@ The North-South to Kimura represents a highly effective transitional submission 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying submission too quickly without progressive pressure [CRITICAL DANGER]
+- **Mistake**: Applying submission too quickly without progressive pressure
   - **Consequence**: High risk of serious shoulder injury including rotator cuff tear or dislocation
   - **Correction**: Always apply the kimura with slow, controlled rotation taking minimum 3-5 seconds from initial pressure to finish. Allow training partner time to recognize the danger and tap safely.
 - **Mistake**: Losing north-south control before securing figure-four grip
   - **Consequence**: Opponent escapes to side control or guard, submission attempt fails completely
   - **Correction**: Maintain constant chest pressure and hip weight throughout the transition. Only commit to the kimura grip once you have established dominant control and isolated the target arm. Do not rush the setup phase.
-- **Mistake**: Pulling with arms instead of using hip pressure for finishing [High DANGER]
+- **Mistake**: Pulling with arms instead of using hip pressure for finishing
   - **Consequence**: Reduced leverage, muscling the submission, and increased injury risk from jerky movement
   - **Correction**: Generate finishing pressure through forward hip drive and body positioning. Your arms should maintain the grip structure while your hips and torso create the rotational force. This provides smoother, safer, more effective pressure.
 - **Mistake**: Allowing opponent's elbow to get close to their body
@@ -276,7 +276,7 @@ The North-South to Kimura represents a highly effective transitional submission 
 - **Mistake**: Failing to control opponent's far arm during transition
   - **Consequence**: Opponent can frame against your head or body, potentially creating escape opportunities or counter-attacks
   - **Correction**: Use your head position and shoulder pressure to pin or control the opponent's far arm. Alternatively, trap it against the mat with your head weight or use your body positioning to limit its mobility during the submission sequence.
-- **Mistake**: Incorrect body angle - staying parallel to opponent instead of perpendicular [Medium DANGER]
+- **Mistake**: Incorrect body angle - staying parallel to opponent instead of perpendicular
   - **Consequence**: Reduced leverage for finishing, opponent can more easily bridge or roll to escape
   - **Correction**: Position your body perpendicular to opponent's torso with hips angled toward the trapped arm. This maximizes leverage while preventing their rotational escapes. Keep near knee posted for base and far leg extended for stability.
 - **Mistake**: Releasing pressure prematurely or between grip adjustments
@@ -342,49 +342,12 @@ The North-South to Kimura represents a highly effective transitional submission 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn grip mechanics, body positioning, and proper angles without any finishing pressure. Study the anatomy of the shoulder joint and understand injury mechanisms. Practice grip transitions slowly with compliant partner.
-- Resistance: Zero resistance
-- Safety: Focus exclusively on understanding the submission mechanics and injury risks. No rotational pressure applied to the shoulder. Partner remains completely compliant. Study tap signals and release protocols thoroughly.
-
-**Slow Controlled Practice** (Week 3-4)
-- Focus: Practice the complete sequence from north-south control to kimura setup with slow, deliberate movements. Begin applying very light rotational pressure and stop well before the finish. Partner taps early at first sensation of pressure.
-- Resistance: Zero resistance
-- Safety: Introduce minimal pressure with 5-7 second application time. Partner taps at 20-30% of finishing pressure. Practice immediate release protocol repeatedly. Emphasize communication between training partners throughout.
-
-**Position Recognition** (Week 5-6)
-- Focus: Learn to recognize when the north-south position presents the kimura opportunity. Practice isolating the arm against various defensive frames. Work on maintaining control while transitioning to the submission grip.
-- Resistance: Mild resistance
-- Safety: Partner provides light resistance to grips and positioning but remains safe. Continue slow application (4-5 seconds minimum). Tap early and often. Focus on control over finishing.
-
-**Defensive Integration** (Week 7-10)
-- Focus: Practice against common defenses including elbow retraction, grip fighting, and bridging attempts. Learn to maintain control and adjust positioning while keeping the submission threat active. Begin recognizing when to transition to alternative submissions.
-- Resistance: Realistic resistance
-- Safety: Partner defends intelligently but taps immediately when position is secured. Application time still 3-5 seconds minimum. No explosive movements from either partner. Practice countering defenses with control, not force.
-
-**Live Application** (Week 11-16)
-- Focus: Apply the north-south kimura during positional sparring from north-south top. Work on chaining with other submissions and maintaining pressure throughout sequences. Begin recognizing optimal timing for the attack.
-- Resistance: Realistic resistance
-- Safety: Both partners understand the submission thoroughly. Taps occur at 70-80% of finishing pressure. Maintain 3-4 second application time even under pressure. Communication remains key. Stop immediately if position feels unsafe.
-
-**Competition Integration** (Week 17+)
-- Focus: Integrate the technique into full sparring and competition preparation. Recognize setups from various positions leading to north-south. Chain with other north-south attacks. Develop timing and feel for high-percentage opportunities.
-- Resistance: Full resistance
-- Safety: In training, still apply slower than competition speed (3 seconds minimum). Partner taps early rather than late. Save competition-speed applications for actual competition only. Never practice finishing speed on lower belts or unfamiliar training partners. Maintain culture of safety even at advanced levels.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
 
 - [[North-South]]
-- [[North South Control]]
+- [[North-South]]
 - [[Side Control]]
 - [[Kesa Gatame]]
 - [[Kuzure Kesa-Gatame]]
@@ -438,6 +401,7 @@ The North-South to Kimura represents a highly effective transitional submission 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

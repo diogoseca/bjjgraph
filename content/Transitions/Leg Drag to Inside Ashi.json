@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Leg Drag to Inside Ashi transition represents a sophisticated pathway from a dominant passing position into the leg attack game. When your opponent defends the leg drag by posting strongly on their far hip or fighting your upper body control, they often inadvertently expose their legs to entanglement attacks. Rather than forcing the pass against heavy resistance, you redirect your energy into securing inside ashi-garami—a position that offers immediate heel hook opportunities while maintaining strong control.\n\nThis transition exemplifies the modern approach to grappling where positional passing and leg attacks form an integrated system rather than separate disciplines. The leg drag creates natural hip exposure and limits your opponent's defensive mobility, making the entry to inside ashi particularly accessible. Your existing leg control serves as the foundation—you simply need to adjust your body position and secure the appropriate hooks to complete the transition.\n\nStrategically, this option expands your threat matrix significantly. Opponents who successfully defend traditional leg drag follow-ups (back take, mount, side control) by staying heavy on their hips suddenly face a different category of danger. The psychological pressure of knowing that strong positional defense opens leg attack vulnerabilities creates hesitation and uncertainty, making all your attacks more effective.",
   "key_principles": [
     "Recognize when upper body passing is meeting strong resistance and redirect to legs",
@@ -51,38 +46,32 @@
     {
       "step_number": 1,
       "action": "Assess resistance",
-      "description": "Recognize that opponent is strongly defending your passing progression by keeping heavy base and framing against your upper body. Their focus on stopping the pass creates the opening for leg entry.",
-      "timing": "When upper body control becomes difficult to advance"
+      "description": "Recognize that opponent is strongly defending your passing progression by keeping heavy base and framing against your upper body. Their focus on stopping the pass creates the opening for leg entry."
     },
     {
       "step_number": 2,
       "action": "Secure leg control",
-      "description": "Reinforce your grip on opponent's dragged leg, controlling at the knee or above. This leg will remain your primary control point throughout the transition. Use both hands momentarily if needed.",
-      "timing": "Immediately before changing direction"
+      "description": "Reinforce your grip on opponent's dragged leg, controlling at the knee or above. This leg will remain your primary control point throughout the transition. Use both hands momentarily if needed."
     },
     {
       "step_number": 3,
       "action": "Drop hip level",
-      "description": "Lower your hips and begin sitting back rather than driving forward. Your chest comes off their shoulder as you start transitioning your weight toward their legs rather than their upper body.",
-      "timing": "Smooth transition, no explosive movement needed"
+      "description": "Lower your hips and begin sitting back rather than driving forward. Your chest comes off their shoulder as you start transitioning your weight toward their legs rather than their upper body."
     },
     {
       "step_number": 4,
       "action": "Thread inside leg",
-      "description": "Slide your inside leg (the one closest to their hips) between their legs, aiming to position your foot on their far hip. Your knee should clear their hip line and begin establishing the ashi-garami hook.",
-      "timing": "As your hips lower and create the angle"
+      "description": "Slide your inside leg (the one closest to their hips) between their legs, aiming to position your foot on their far hip. Your knee should clear their hip line and begin establishing the ashi-garami hook."
     },
     {
       "step_number": 5,
       "action": "Establish outside control",
-      "description": "Your outside leg triangles or hooks over their trapped leg, securing control of their knee line. This prevents them from straightening their leg to escape and begins exposing the heel.",
-      "timing": "Immediately after inside leg is positioned"
+      "description": "Your outside leg triangles or hooks over their trapped leg, securing control of their knee line. This prevents them from straightening their leg to escape and begins exposing the heel."
     },
     {
       "step_number": 6,
       "action": "Consolidate inside ashi",
-      "description": "Pull their leg tight to your chest, ensure hip-to-hip connection, and establish the proper inside ashi-garami configuration with their heel exposed toward your far armpit. Control the knee line with your legs.",
-      "timing": "Complete within 2 seconds of initial entry"
+      "description": "Pull their leg tight to your chest, ensure hip-to-hip connection, and establish the proper inside ashi-garami configuration with their heel exposed toward your far armpit. Control the knee line with your legs."
     }
   ],
   "common_counters": [
@@ -138,26 +127,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Entry mechanics",
-      "description": "Practice the basic transition from static leg drag position. Partner offers no resistance, allowing you to develop the proper sequencing of leg placement and body position. Focus on smooth, connected movement without gaps in control.",
-      "resistance_level": "None"
+      "description": "Practice the basic transition from static leg drag position. Partner offers no resistance, allowing you to develop the proper sequencing of leg placement and body position. Focus on smooth, connected movement without gaps in control."
     },
     {
       "phase": "Week 3-4",
       "focus": "Recognition and timing",
-      "description": "Partner provides light resistance to your leg drag passing attempts. Learn to recognize when the pass is being shut down and when the ashi entry becomes available. Practice the decision point of continuing to pass versus transitioning to legs.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance to your leg drag passing attempts. Learn to recognize when the pass is being shut down and when the ashi entry becomes available. Practice the decision point of continuing to pass versus transitioning to legs."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner actively defends both the pass and the leg entry. Practice adjusting to common counters and maintaining control throughout. Begin chaining the entry with heel hook attacks and sweep threats from inside ashi.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends both the pass and the leg entry. Practice adjusting to common counters and maintaining control throughout. Begin chaining the entry with heel hook attacks and sweep threats from inside ashi."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Incorporate the transition into your full leg drag passing game. Focus on seamless switching between passing and leg attacks based on opponent reactions. Develop sensitivity to the optimal moment for transition.",
-      "resistance_level": "Full"
+      "description": "Incorporate the transition into your full leg drag passing game. Focus on seamless switching between passing and leg attacks based on opponent reactions. Develop sensitivity to the optimal moment for transition."
     }
   ],
   "variants_and_adaptations": [
@@ -180,53 +165,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Leg Drag to Inside Ashi?",
-      "answer": "The primary goal is to redirect energy from a stalled passing attempt into a high-percentage leg entanglement. When opponents successfully defend the leg drag pass by posting heavily and framing, you transition to inside ashi-garami which offers immediate heel hook opportunities while maintaining strong positional control.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to redirect energy from a stalled passing attempt into a high-percentage leg entanglement. When opponents successfully defend the leg drag pass by posting heavily and framing, you transition to inside ashi-garami which offers immediate heel hook opportunities while maintaining strong positional control."
     },
     {
       "question": "What position do you start Leg Drag to Inside Ashi from?",
-      "answer": "This technique starts from Leg Drag Control/Top, specifically when you have pulled the opponent's leg across their body and are controlling their hip, but they are successfully defending your upper body advancement toward mount, back, or side control.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Leg Drag Control/Top, specifically when you have pulled the opponent's leg across their body and are controlling their hip, but they are successfully defending your upper body advancement toward mount, back, or side control."
     },
     {
       "question": "What are the key grips needed for Leg Drag to Inside Ashi?",
-      "answer": "The critical grip is maintaining control of the dragged leg, typically at the knee or pants above the knee. During transition, you reinforce this with both hands before releasing one to base. Once in inside ashi, your primary controls become positional—inside leg hooking their far hip, outside leg triangled over their knee to control the knee line.",
-      "difficulty": "Intermediate"
+      "answer": "The critical grip is maintaining control of the dragged leg, typically at the knee or pants above the knee. During transition, you reinforce this with both hands before releasing one to base. Once in inside ashi, your primary controls become positional—inside leg hooking their far hip, outside leg triangled over their knee to control the knee line."
     },
     {
       "question": "How do you counter Leg Drag to Inside Ashi as the defender?",
-      "answer": "The highest-percentage counter is to immediately straighten your trapped leg and kick through before the attacker establishes leg control. If caught, fight the knee line control with your hands while turning into them to prevent heel exposure. Creating space at the hip connection allows leg extraction.",
-      "difficulty": "Intermediate"
+      "answer": "The highest-percentage counter is to immediately straighten your trapped leg and kick through before the attacker establishes leg control. If caught, fight the knee line control with your hands while turning into them to prevent heel exposure. Creating space at the hip connection allows leg extraction."
     },
     {
       "question": "When is the best time to attempt Leg Drag to Inside Ashi?",
-      "answer": "The optimal timing is when your opponent successfully defends your upper body advancement from leg drag by posting on their far hip and framing against your shoulder or head. Their defensive posture that prevents passing simultaneously exposes their legs and limits their ability to defend the ashi entry.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when your opponent successfully defends your upper body advancement from leg drag by posting on their far hip and framing against your shoulder or head. Their defensive posture that prevents passing simultaneously exposes their legs and limits their ability to defend the ashi entry."
     },
     {
       "question": "Your opponent posts their far hand on the mat as you begin the transition—how do you adjust?",
-      "answer": "The far hand post indicates they are defending the back take, which actually facilitates your leg entry. Continue with the transition as their posted arm is occupied. Once in inside ashi, their arm position becomes irrelevant to your leg control and may even compromise their ability to fight your grips.",
-      "difficulty": "Advanced"
+      "answer": "The far hand post indicates they are defending the back take, which actually facilitates your leg entry. Continue with the transition as their posted arm is occupied. Once in inside ashi, their arm position becomes irrelevant to your leg control and may even compromise their ability to fight your grips."
     },
     {
       "question": "What is the critical mechanical detail that distinguishes inside ashi from outside ashi in this entry?",
-      "answer": "The defining detail is whether your inside leg (the one threading between their legs) clears their hip line. For inside ashi, your knee must pass their centerline with your foot hooking their far hip. If your knee stays on their near side, you have outside ashi instead, which requires different finishing mechanics.",
-      "difficulty": "Intermediate"
+      "answer": "The defining detail is whether your inside leg (the one threading between their legs) clears their hip line. For inside ashi, your knee must pass their centerline with your foot hooking their far hip. If your knee stays on their near side, you have outside ashi instead, which requires different finishing mechanics."
     },
     {
       "question": "If your opponent straightens their leg during your entry, what chain attack becomes available?",
-      "answer": "A straightened leg opens the ankle lock immediately—their heel is exposed and their knee is extended, making the achilles attack accessible. You can also transition to outside ashi or single leg X with the extended leg, or pursue kneebar entries depending on their defensive reaction.",
-      "difficulty": "Advanced"
+      "answer": "A straightened leg opens the ankle lock immediately—their heel is exposed and their knee is extended, making the achilles attack accessible. You can also transition to outside ashi or single leg X with the extended leg, or pursue kneebar entries depending on their defensive reaction."
     },
     {
       "question": "What are the opponent's likely defenses once you establish inside ashi, and how do you maintain control?",
-      "answer": "Opponents will primarily try to straighten their leg to escape, fight your knee line control with their hands, or sit up to address your grips. Maintain control by keeping your outside leg locked over their knee, staying hip-to-hip, and keeping their heel pulled tight to your chest. Hand fighting from them creates openings for your heel grip.",
-      "difficulty": "Advanced"
+      "answer": "Opponents will primarily try to straighten their leg to escape, fight your knee line control with their hands, or sit up to address your grips. Maintain control by keeping your outside leg locked over their knee, staying hip-to-hip, and keeping their heel pulled tight to your chest. Hand fighting from them creates openings for your heel grip."
     },
     {
       "question": "How does the direction of force differ between continuing the leg drag pass versus transitioning to inside ashi?",
-      "answer": "The leg drag pass drives forward and diagonally across the opponent's body, pressuring their shoulder and hip simultaneously. The ashi transition reverses this—you sit back and pull the leg toward you rather than driving forward. The force becomes rotational around their trapped leg rather than linear pressure through it.",
-      "difficulty": "Intermediate"
+      "answer": "The leg drag pass drives forward and diagonally across the opponent's body, pressuring their shoulder and hip simultaneously. The ashi transition reverses this—you sit back and pull the leg toward you rather than driving forward. The force becomes rotational around their trapped leg rather than linear pressure through it."
     }
   ],
   "safety_considerations": "This transition involves entry to leg entanglement positions that can result in knee ligament damage if attacks are applied without proper control. When training, establish the inside ashi position completely before attempting any heel hook attacks, and always give training partners time to tap. The transition itself is relatively safe, but practitioners should be aware that entering leg entanglements creates immediate submission danger. Never crank heel hooks in training—apply controlled pressure and release immediately on tap. Avoid this transition if you have existing knee injuries, and be cautious with training partners who may not recognize the danger of inside ashi position.",
@@ -272,5 +247,6 @@
       "name": "Single Leg X-Guard",
       "relationship": "Transitional position during scrambles"
     }
-  ]
+  ],
+  "success_rate": 58
 }

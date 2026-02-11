@@ -157,7 +157,7 @@ The beauty of the front headlock series lies in its systematic nature—each def
 Developed and refined by high-level competitors including Marcelo Garcia, systematic Death Squad, and countless others, the front headlock series has proven itself in the highest levels of competition. Understanding this series requires not just technical proficiency in individual techniques, but also the strategic awareness to recognize which branch to follow based on opponent reactions. Mastery of this series transforms the front headlock from a simple control position into a complete submission system.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -207,12 +207,12 @@ Developed and refined by high-level competitors including Marcelo Garcia, system
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish front headlock control**: As opponent assumes turtle position or bends forward, immediately secure head control by threading your arm around their neck with your forearm positioned across the front of their throat. Your bicep should be on one side of their neck and your forearm on the other, creating a vice-like grip. Simultaneously control their near arm by either overhooking it or pinning it to their body. (Timing: Immediate as opportunity presents)
-2. **Secure proper angle and base**: Position your body at roughly a 45-degree angle to your opponent's body—never directly behind them where they can back into you. Establish a wide, stable base with your feet, keeping your weight forward over their shoulders. Your chest should be heavy on their upper back, preventing them from elevating their posture. Lock your hands in your preferred grip (gable grip, palm-to-palm, or guillotine grip). (Timing: Within 1-2 seconds of initial control)
-3. **Apply initial control pressure**: Drive your weight downward through your chest into their shoulders while maintaining the headlock. Your forearm should create light pressure across their throat (not yet choking), and your near-arm control should prevent them from posting or framing. This pressure keeps them defensive and prevents immediate escape attempts while you assess their reactions. (Timing: Continuous throughout control phase)
-4. **Read opponent's defensive reaction**: Observe how your opponent responds to the control. Are they trying to turn into you (exposing anaconda)? Are they attempting to turn away (opening darce)? Are they staying stationary and defending their neck (allowing back take setup)? Are they trying to stand or roll (guillotine opportunity)? This reading phase determines which branch of the series you'll pursue. (Timing: 1-3 seconds of active assessment)
-5. **Transition to selected attack**: Based on their reaction, seamlessly flow into your chosen technique. For guillotine: adjust your angle and sit back. For anaconda: thread your choking arm deeper and lock around their shoulder. For darce: shift your hips to the opposite side and lock the figure-four. For back take: release the headlock grip, secure seat belt control, and insert your hooks. The transition should maintain constant control without giving opponent any breathing room. (Timing: Immediate upon reading their reaction)
-6. **Finish or continue chain**: Complete your selected technique with proper finishing mechanics. If the opponent defends successfully, immediately recognize the new defensive posture and flow to the next appropriate technique in the series. The front headlock series is circular—failed guillotine opens anaconda, defended anaconda reveals darce, blocked darce exposes back take opportunities. Continue flowing until you achieve submission or dominant position. (Timing: Until submission or position secured)
+1. **Establish front headlock control**: As opponent assumes turtle position or bends forward, immediately secure head control by threading your arm around their neck with your forearm positioned across the front of their throat. Your bicep should be on one side of their neck and your forearm on the other, creating a vice-like grip. Simultaneously control their near arm by either overhooking it or pinning it to their body.
+2. **Secure proper angle and base**: Position your body at roughly a 45-degree angle to your opponent's body—never directly behind them where they can back into you. Establish a wide, stable base with your feet, keeping your weight forward over their shoulders. Your chest should be heavy on their upper back, preventing them from elevating their posture. Lock your hands in your preferred grip (gable grip, palm-to-palm, or guillotine grip).
+3. **Apply initial control pressure**: Drive your weight downward through your chest into their shoulders while maintaining the headlock. Your forearm should create light pressure across their throat (not yet choking), and your near-arm control should prevent them from posting or framing. This pressure keeps them defensive and prevents immediate escape attempts while you assess their reactions.
+4. **Read opponent's defensive reaction**: Observe how your opponent responds to the control. Are they trying to turn into you (exposing anaconda)? Are they attempting to turn away (opening darce)? Are they staying stationary and defending their neck (allowing back take setup)? Are they trying to stand or roll (guillotine opportunity)? This reading phase determines which branch of the series you'll pursue.
+5. **Transition to selected attack**: Based on their reaction, seamlessly flow into your chosen technique. For guillotine: adjust your angle and sit back. For anaconda: thread your choking arm deeper and lock around their shoulder. For darce: shift your hips to the opposite side and lock the figure-four. For back take: release the headlock grip, secure seat belt control, and insert your hooks. The transition should maintain constant control without giving opponent any breathing room.
+6. **Finish or continue chain**: Complete your selected technique with proper finishing mechanics. If the opponent defends successfully, immediately recognize the new defensive posture and flow to the next appropriate technique in the series. The front headlock series is circular—failed guillotine opens anaconda, defended anaconda reveals darce, blocked darce exposes back take opportunities. Continue flowing until you achieve submission or dominant position.
 
 
 </section>
@@ -262,27 +262,21 @@ Developed and refined by high-level competitors including Marcelo Garcia, system
 ## Training Progressions
 **Phase 1: Control Foundation (Weeks 1-2)** - Establishing and maintaining front headlock control position
 Partner starts in turtle position. Practice obtaining head control, securing near arm, and establishing proper angle and base. Hold position for 30-60 seconds while partner remains relatively stationary. Focus on grip strength, weight distribution, and maintaining connection.
-(Resistance: Light)
 
 **Phase 2: Dynamic Control (Weeks 3-4)** - Maintaining control against movement
 Partner actively tries to move within turtle position—scooting backward, turning side to side, attempting to stand—but not yet escaping. Practice maintaining your control while adjusting base and position. Develop the ability to follow their movement without losing connection to head and arm.
-(Resistance: Medium)
 
 **Phase 3: Individual Technique Entry (Weeks 5-8)** - Learning each submission and transition individually
 From established front headlock control, practice entering each technique in the series: guillotine, anaconda, darce, and back take. Partner provides light resistance but allows technique completion. Drill each technique 10-15 repetitions daily, focusing on proper mechanics and timing for each individual option.
-(Resistance: Light)
 
 **Phase 4: Reactive Chaining (Weeks 9-12)** - Flowing between techniques based on partner's defense
 Partner defends specific techniques as instructed (block guillotine, defend anaconda, etc.), and you practice flowing to the appropriate counter-technique. Build pattern recognition for common defensive reactions and automatic responses. Practice two-technique chains (guillotine to anaconda, darce to back take, etc.).
-(Resistance: Medium)
 
 **Phase 5: Full Series Integration (Weeks 13-20)** - Executing complete series against full resistance
 Partner provides full resistance from turtle position. You must establish front headlock control, read their reactions, and flow through the series until achieving submission or dominant position. Practice maintaining offensive pressure through multiple technique attempts and transitions.
-(Resistance: Full)
 
 **Phase 6: Competitive Application (Week 21+)** - Applying series in live rolling and competition
 Actively seek front headlock opportunities during free training. Work on obtaining the position from various setups (failed takedowns, guard passes, opponent's turtle, etc.). Develop the ability to recognize and capitalize on front headlock openings in real-time, against resisting opponents of all skill levels.
-(Resistance: Full)
 
 
 

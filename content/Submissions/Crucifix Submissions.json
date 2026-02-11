@@ -14,11 +14,6 @@
   "submission_type": "Multiple Submissions",
   "target_area": "Neck and isolated arm",
   "starting_position": "Crucifix",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 75
-  },
   "overview": "The Crucifix position represents one of the most dominant control positions in Brazilian Jiu-Jitsu, offering multiple high-percentage submission opportunities while maintaining exceptional control. From the crucifix, both arms of the opponent are trapped and isolated - one arm controlled between your legs while the other is trapped by your body weight and positioning. This dual arm isolation creates a unique submission environment where the opponent has severely limited defensive capacity. The position derives its name from the cross-like configuration of the opponent's trapped arms, reminiscent of crucifixion imagery. From this superior control position, you can attack with chokes targeting the neck and carotid arteries, or joint locks attacking the isolated arm. The crucifix is most commonly entered from back control, turtle position, or during scrambles where you can capture and isolate the opponent's arms. Understanding the fundamental mechanics of arm isolation and maintaining the crucifix structure is essential before attempting submissions, as losing the position often results in the opponent escaping to a more favorable position.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,43 +86,37 @@
       "step_number": 1,
       "action": "Establish crucifix control",
       "description": "From back control or turtle, secure one opponent arm between your legs while trapping the other arm with your upper body. Your legs should form a tight figure-four or similar configuration around the trapped arm, with your hips tight to the opponent's back. The opponent's free arm should be controlled with your hands or trapped under your body weight.",
-      "timing": "Initial setup phase - establish before attacking",
-      "pressure_level": "Firm"
+      "timing": "Initial setup phase - establish before attacking"
     },
     {
       "step_number": 2,
       "action": "Flatten opponent and consolidate position",
       "description": "Drive your hips forward into the opponent's back while distributing your weight across their upper back and shoulders. This flattens the opponent to the mat and eliminates their ability to create space or posture. Keep constant pressure with your legs on the trapped arm while maintaining control of the free arm. Your chest should be heavy on their shoulder area.",
-      "timing": "2-3 seconds to consolidate control",
-      "pressure_level": "Maximum"
+      "timing": "2-3 seconds to consolidate control"
     },
     {
       "step_number": 3,
       "action": "Secure head or collar control for choke",
       "description": "With the opponent flattened and both arms controlled, use your hands to establish a collar grip or direct head control. For gi training, feed a lapel across the neck or establish a deep collar grip. For no-gi, slide your forearm under the chin or around the neck. Maintain all existing controls while establishing this grip - do not sacrifice arm isolation for the choke.",
-      "timing": "1-2 seconds to establish grip",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds to establish grip"
     },
     {
       "step_number": 4,
       "action": "Apply choke or transition to armlock",
       "description": "Execute your chosen submission: For collar chokes, pull the collar tight across the carotid arteries while maintaining body pressure. For rear naked choke variations, slide your choking arm deep under the chin and secure with your other hand. For armlocks, shift your leg position on the trapped arm to create extension pressure on the elbow joint. Apply pressure slowly and progressively over 3-5 seconds minimum.",
-      "timing": "3-5 seconds progressive application",
-      "pressure_level": "Moderate"
+      "timing": "3-5 seconds progressive application"
     },
     {
       "step_number": 5,
       "action": "Maintain position while increasing submission pressure",
       "description": "As you apply the submission, maintain all positional controls. Your hips stay tight to their back, your weight stays distributed across their shoulders, and both arms remain isolated. For chokes, gradually tighten the collar or arm pressure while keeping your body structure solid. For armlocks, incrementally extend the arm while controlling rotation with your legs.",
-      "timing": "2-4 seconds to full submission",
-      "pressure_level": "Maximum"
+      "timing": "2-4 seconds to full submission"
     },
     {
       "step_number": 6,
       "action": "Finish submission or switch attacks",
       "description": "Complete the submission by maintaining maximum pressure until tap, or if the opponent defends successfully, immediately switch to an alternative attack. Common switches include transitioning from choke to armlock, or from one choke variation to another. Never release all controls when switching - maintain at least the leg isolation on the trapped arm throughout all transitions.",
-      "timing": "Finish within 5-7 seconds or switch attacks",
-      "pressure_level": "Maximum"
+      "timing": "Finish within 5-7 seconds or switch attacks"
     }
   ],
   "opponent_defense_patterns": [
@@ -156,38 +145,32 @@
     {
       "error": "Releasing leg control on trapped arm to adjust choke grip",
       "consequence": "Opponent immediately frees their arm and can begin defending or escaping the position",
-      "correction": "Maintain leg pressure on trapped arm as your primary control. Adjust your upper body grips while keeping lower body structure intact. The arm isolation is the foundation of the entire position.",
-      "danger_level": "Medium"
+      "correction": "Maintain leg pressure on trapped arm as your primary control. Adjust your upper body grips while keeping lower body structure intact. The arm isolation is the foundation of the entire position."
     },
     {
       "error": "Cranking or jerking choke submissions without progressive pressure",
       "consequence": "Neck injury to training partner, potential trachea damage, loss of training partners",
-      "correction": "Apply all choking pressure slowly and progressively over 5-7 seconds minimum. Allow time for your partner to recognize the submission and tap safely. Speed in training creates injuries.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply all choking pressure slowly and progressively over 5-7 seconds minimum. Allow time for your partner to recognize the submission and tap safely. Speed in training creates injuries."
     },
     {
       "error": "Lifting hips away from opponent's back during submission attempts",
       "consequence": "Creates space for opponent to escape, lose positional control, opponent can roll or turn into guard",
-      "correction": "Keep constant hip pressure into opponent's back throughout all submission attempts. Your hips should feel glued to their back. Attack with upper body while maintaining lower body connection.",
-      "danger_level": "Medium"
+      "correction": "Keep constant hip pressure into opponent's back throughout all submission attempts. Your hips should feel glued to their back. Attack with upper body while maintaining lower body connection."
     },
     {
       "error": "Attempting armlock without proper leg configuration on trapped arm",
       "consequence": "Insufficient control leads to escape, potential injury from improper leverage, submission failure",
-      "correction": "Ensure your legs form a proper figure-four or similar tight configuration before extending the arm. Control rotation and movement before applying extension pressure. Structure before submission.",
-      "danger_level": "High"
+      "correction": "Ensure your legs form a proper figure-four or similar tight configuration before extending the arm. Control rotation and movement before applying extension pressure. Structure before submission."
     },
     {
       "error": "Focusing on one submission while opponent escapes free arm",
       "consequence": "Opponent can defend with free arm, push your head, frame and create space, eventual escape",
-      "correction": "Maintain constant awareness and control of both arms. If the free arm begins to escape, immediately switch your submission attack or reestablish control. Never tunnel vision on one attack.",
-      "danger_level": "Medium"
+      "correction": "Maintain constant awareness and control of both arms. If the free arm begins to escape, immediately switch your submission attack or reestablish control. Never tunnel vision on one attack."
     },
     {
       "error": "Applying submissions before fully consolidating crucifix position",
       "consequence": "Weak position leads to easy escapes, failed submission attempts, energy waste",
-      "correction": "Take 2-3 seconds to fully flatten opponent, secure both arm controls, and establish solid structure before attempting any submissions. Position before submission is fundamental.",
-      "danger_level": "Low"
+      "correction": "Take 2-3 seconds to fully flatten opponent, secure both arm controls, and establish solid structure before attempting any submissions. Position before submission is fundamental."
     }
   ],
   "variations_and_setups": [
@@ -284,50 +267,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn crucifix structure and arm isolation mechanics through static drilling. Practice entering from back control and turtle. No submission attempts, only position establishment and maintenance.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner remains completely passive to allow learner to understand proper arm trapping configuration, hip pressure, and weight distribution without any time pressure or resistance."
-    },
-    {
-      "phase": "Position Retention Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Maintain crucifix position against mild escape attempts. Partner uses slow, telegraphed escapes. Practice weight distribution and adjusting controls when opponent moves. Still no submission attempts.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Focus on maintaining position without submissions. Partner taps if they feel uncomfortable pressure on trapped arm. Emphasis on control before submissions."
-    },
-    {
-      "phase": "Slow Submission Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Begin practicing collar chokes and armlocks from established crucifix position. Apply all submissions over 7-10 seconds with clear verbal counting. Partner taps early to practice release protocols.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "All submissions applied extremely slowly with verbal counting. Partner taps immediately upon feeling any pressure. Practice proper release protocol more than finishing submissions. Safety over completion."
-    },
-    {
-      "phase": "Defensive Response Integration",
-      "timeframe": "Week 9-12",
-      "focus": "Practice maintaining crucifix against more realistic defensive responses. Partner defends neck and attempts arm escapes. Apply submissions at moderate speed (5-7 seconds) when opportunity arises.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner gives resistance but taps early before reaching dangerous pressure levels. Focus on recognizing when submission is secured versus when you need to adjust. Communication between partners essential."
-    },
-    {
-      "phase": "Dynamic Application",
-      "timeframe": "Week 13+",
-      "focus": "Practice entering crucifix from various positions during live rolling. Apply submissions at training pace (3-5 seconds) while maintaining all safety protocols. Switch between submission options.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain slow progressive pressure even during full resistance training. Never spike or crank submissions. Both partners responsible for safety - attacker applies slowly, defender taps early. Training is not competition."
-    },
-    {
-      "phase": "Ongoing Safety Maintenance",
-      "timeframe": "Ongoing",
-      "focus": "Regular review of safety protocols, especially when teaching new partners. Periodic drilling of release protocols. Discussion of any close calls or safety concerns.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Continuous emphasis that training partners are not opponents. Develop reputation as safe training partner who protects teammates. Slow is smooth, smooth is fast. Position establishment more important than submission completion."
-    }
-  ],
   "from_positions": [
     "Crucifix",
     "Back Control",
@@ -386,5 +325,6 @@
       "name": "Back Control",
       "relationship": "Primary entry position for establishing crucifix"
     }
-  ]
+  ],
+  "success_rate": 65
 }

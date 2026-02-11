@@ -249,7 +249,7 @@ From a technical perspective, the buggy choke teaches important principles about
 
 
 **If opponent turns into the choke to defend neck:**
-- Execute **[[Switch to darce configuration]]** → [[D'arce Control]] (Probability: 50%)
+- Execute **[[Switch to darce configuration]]** → [[Darce Control]] (Probability: 50%)
 - Execute **[[Switch to anaconda configuration]]** → [[Anaconda Control]] (Probability: 35%)
 - Execute **[[Transition to front headlock control]]** → [[Front Headlock]] (Probability: 15%)
 
@@ -386,11 +386,11 @@ Begin from turtle top without grips. Partner provides graduated resistance: Roun
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 55% | 45% |
-| Intermediate | 65% | 70% | 65% |
-| Advanced     | 75% | 80% | 80% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 75% |
+| Submission Probability | 72% |
 
 **Average Time in Position**: 20-45 seconds
 
@@ -406,7 +406,7 @@ Begin from turtle top without grips. Partner provides graduated resistance: Roun
 - **[[Back Control]]** - High-percentage transition when opponent sits to guard defending choke
 - **[[Crucifix]]** - Alternative attack when opponent extends far arm defensively
 - **[[Truck]]** - Transition target when opponent granby rolls to escape pressure
-- **[[D'arce Control]]** - Switch option when opponent turns into buggy choke attack
+- **[[Darce Control]]** - Switch option when opponent turns into buggy choke attack
 - **[[Anaconda Control]]** - Alternative front headlock finish from similar control
 - **[[Side Control]]** - Fallback position when grips are stripped but opponent remains flattened
 - **[[Front Headlock]]** - Related turtle attack with similar control and submission principles

@@ -18,7 +18,7 @@
       "relationship": "Primary entry position for anaconda grip establishment"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Sister submission with similar arm-in mechanics but different hand positioning"
     },
     {
@@ -170,7 +170,7 @@
         "actions": [
           {
             "technique": "Front Headlock to Darce",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 70
           },
           {
@@ -231,7 +231,7 @@
         "relationship": "Primary entry position - anaconda grip often secured from front headlock situations"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Sister position - similar arm-in configuration with different hand positioning and mechanics"
       },
       {
@@ -251,7 +251,7 @@
         "relationship": "Key transition - technical sequence for entering anaconda control from headlock"
       },
       {
-        "name": "D'arce-Anaconda Connection",
+        "name": "Darce-Anaconda Connection",
         "relationship": "System relationship - understanding the interchange between these arm-in positions"
       },
       {
@@ -261,21 +261,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Percentage of time maintaining anaconda control position"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Probability of advancing to back control or mount"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Probability of finishing anaconda choke from this position"
       },
       "average_time": "15-45 seconds (transitional position - should advance quickly)"
@@ -283,27 +277,19 @@
     "transitions": [
       {
         "transition": "Anaconda Choke",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Anaconda from Turtle",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Front Headlock to Darce",
-        "attempt_probability": 16
+        "attempt_probability": 50
       },
       {
         "transition": "Back Take Generic",
+        "attempt_probability": 25
+      },
+      {
+        "transition": "Switch to Darce Configuration",
         "attempt_probability": 15
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 14
+        "transition": "Front Headlock to Guillotine",
+        "attempt_probability": 10
       }
     ]
   },
@@ -529,7 +515,7 @@
         "relationship": "Precursor position - preventing anaconda grip from this position"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Similar front headlock choke control requiring similar defensive concepts"
       },
       {
@@ -555,49 +541,31 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Percentage of time surviving without being submitted"
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 45,
+        "value": 35,
         "description": "Probability of escaping to guard or neutral position"
       },
       "submission_probability": {
-        "beginner": 0,
-        "intermediate": 0,
-        "advanced": 5,
+        "value": 2,
         "description": "Probability of submitting opponent from bottom (extremely rare)"
       },
       "average_time": "10-30 seconds (escape or submit quickly)"
     },
     "transitions": [
       {
-        "transition": "Hip Escape",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 20
-      },
-      {
         "transition": "Rolling to Guard",
         "attempt_probability": 15
       },
       {
-        "transition": "Frame and Shrimp",
-        "attempt_probability": 18
-      },
-      {
         "transition": "Rolling Escape",
-        "attempt_probability": 16
+        "attempt_probability": 65
       },
       {
         "transition": "Hip Movement",
-        "attempt_probability": 14
+        "attempt_probability": 20
       }
     ]
   }

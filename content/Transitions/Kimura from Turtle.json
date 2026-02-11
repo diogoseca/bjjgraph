@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from Turtle is a powerful arm attack that capitalizes on one of turtle position's inherent weaknesses - the opponent's need to post their hands for stability and escape attempts. When attacking turtle, most practitioners focus exclusively on back takes or front headlock entries, but the kimura represents a high-percentage alternative that punishes extended arms and creates a systematic control position. The attack transforms what could be a grinding battle for hooks into an immediate submission threat that forces urgent defensive reactions.\n\nThe strategic value of the kimura from turtle extends beyond the immediate shoulder lock threat. The figure-four grip creates exceptional control over the opponent's upper body, often making it easier to transition to back control than direct hook insertion. When the bottom player defends the kimura by turning into you, they expose their back. When they try to flatten to the mat, the grip becomes even tighter. When they attempt to stand, you can drag them back down using the trapped arm. This creates a dilemma-based offense where every defensive reaction opens another attacking pathway.\n\nFrom a positional standpoint, the kimura from turtle is particularly effective against opponents who have strong turtle defense with tight elbows and good rolling mechanics. Rather than engaging in the timing battle required for back takes against a skilled turtle player, the kimura attack forces them to extend an arm to defend, which paradoxically creates the very opening you need. The technique integrates seamlessly with the broader turtle attack system, serving as both a primary finish and a forcing function that opens other techniques.",
   "key_principles": [
     "Wait for arm extension before attacking - never reach under a tight defensive turtle to hunt for the arm",
@@ -55,44 +50,37 @@
     {
       "step_number": 1,
       "action": "Bait arm extension",
-      "description": "From turtle top with chest pressure on opponent's back, threaten a front headlock or back take attempt to force them to post a hand for defense or attempt a standup - this creates the arm extension needed for grip acquisition.",
-      "timing": "When opponent shows defensive reaction"
+      "description": "From turtle top with chest pressure on opponent's back, threaten a front headlock or back take attempt to force them to post a hand for defense or attempt a standup - this creates the arm extension needed for grip acquisition."
     },
     {
       "step_number": 2,
       "action": "Thread arm under tricep",
-      "description": "As their arm extends, your near arm shoots underneath their tricep from the outside, palm facing up, threading deep until your forearm contacts their upper arm near the elbow. Maintain chest pressure throughout.",
-      "timing": "Immediately when arm extends"
+      "description": "As their arm extends, your near arm shoots underneath their tricep from the outside, palm facing up, threading deep until your forearm contacts their upper arm near the elbow. Maintain chest pressure throughout."
     },
     {
       "step_number": 3,
       "action": "Complete figure-four grip",
-      "description": "Your far hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four configuration. Squeeze elbows tight together to prevent any gap that would allow arm extraction.",
-      "timing": "Within 1-2 seconds of initial thread"
+      "description": "Your far hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four configuration. Squeeze elbows tight together to prevent any gap that would allow arm extraction."
     },
     {
       "step_number": 4,
       "action": "Establish chest pressure control",
-      "description": "Drive your chest down onto their shoulder blade and upper back while maintaining the grip. This flattens their turtle structure and prevents explosive standup or rolling escape attempts during transition.",
-      "timing": "Simultaneous with grip completion"
+      "description": "Drive your chest down onto their shoulder blade and upper back while maintaining the grip. This flattens their turtle structure and prevents explosive standup or rolling escape attempts during transition."
     },
     {
       "step_number": 5,
       "action": "Circle toward head",
-      "description": "Walk your feet in an arc toward opponent's head while maintaining the figure-four grip and chest pressure. Each step increases your mechanical advantage on the shoulder. Aim to reach perpendicular position with your chest over their shoulder.",
-      "timing": "Gradual hip walk over 2-3 seconds"
+      "description": "Walk your feet in an arc toward opponent's head while maintaining the figure-four grip and chest pressure. Each step increases your mechanical advantage on the shoulder. Aim to reach perpendicular position with your chest over their shoulder."
     },
     {
       "step_number": 6,
       "action": "Pin elbow and create angle",
-      "description": "Pull their trapped elbow tight against your hip while keeping their wrist elevated. Their arm should be bent at 90 degrees. Use your body positioning to create maximum rotational leverage on the shoulder joint.",
-      "timing": "After establishing perpendicular angle"
+      "description": "Pull their trapped elbow tight against your hip while keeping their wrist elevated. Their arm should be bent at 90 degrees. Use your body positioning to create maximum rotational leverage on the shoulder joint."
     },
     {
       "step_number": 7,
       "action": "Apply rotational finish",
-      "description": "Drive their wrist toward the mat using hip rotation while maintaining elbow pin. The shoulder lock pressure increases progressively. If they roll to escape, follow to back control. If they flatten, continue to Kimura Trap for finish.",
-      "timing": "Controlled steady pressure until tap or transition"
+      "description": "Drive their wrist toward the mat using hip rotation while maintaining elbow pin. The shoulder lock pressure increases progressively. If they roll to escape, follow to back control. If they flatten, continue to Kimura Trap for finish."
     }
   ],
   "common_counters": [
@@ -158,26 +146,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics from turtle top",
-      "description": "Practice figure-four grip establishment from turtle top position with compliant partner. Focus on threading under the arm without losing chest pressure, proper wrist cup position, and squeezing elbows tight. Drill 50+ grip entries per session.",
-      "resistance_level": "None"
+      "description": "Practice figure-four grip establishment from turtle top position with compliant partner. Focus on threading under the arm without losing chest pressure, proper wrist cup position, and squeezing elbows tight. Drill 50+ grip entries per session."
     },
     {
       "phase": "Week 3-4",
       "focus": "Angle creation and finishing mechanics",
-      "description": "Add the hip walk toward opponent's head and practice the finishing rotation. Partner provides light resistance. Focus on recognizing when angle is sufficient for finish and applying controlled progressive pressure.",
-      "resistance_level": "Light"
+      "description": "Add the hip walk toward opponent's head and practice the finishing rotation. Partner provides light resistance. Focus on recognizing when angle is sufficient for finish and applying controlled progressive pressure."
     },
     {
       "phase": "Week 5-6",
       "focus": "Transition chains and reactions",
-      "description": "Partner actively defends with rolling, flattening, and arm straightening. Practice following rolls to back control, transitioning to side control kimura trap when they flatten, and armbar transition when they straighten. Build complete system.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends with rolling, flattening, and arm straightening. Practice following rolls to back control, transitioning to side control kimura trap when they flatten, and armbar transition when they straighten. Build complete system."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration from turtle attacks",
-      "description": "Apply the kimura from turtle in live rolling starting from turtle top position. Focus on recognizing when arm becomes available during natural turtle defense and escape attempts. Chain with back takes and front headlock attacks.",
-      "resistance_level": "Full"
+      "description": "Apply the kimura from turtle in live rolling starting from turtle top position. Focus on recognizing when arm becomes available during natural turtle defense and escape attempts. Chain with back takes and front headlock attacks."
     }
   ],
   "variants_and_adaptations": [
@@ -200,53 +184,43 @@
   "knowledge_assessment": [
     {
       "question": "What creates the opening for the kimura attack from turtle top position?",
-      "answer": "The opening is created when the bottom player extends their arm for posting during standup attempts, defending a front headlock threat, or bracing against pressure. You should never hunt for the arm under a tight defensive turtle - instead, create situations that force arm extension through threatening other attacks or applying pressure that requires them to post for stability.",
-      "difficulty": "Beginner"
+      "answer": "The opening is created when the bottom player extends their arm for posting during standup attempts, defending a front headlock threat, or bracing against pressure. You should never hunt for the arm under a tight defensive turtle - instead, create situations that force arm extension through threatening other attacks or applying pressure that requires them to post for stability."
     },
     {
       "question": "Your opponent keeps their elbows glued to their knees in a tight turtle shell. How do you create the arm extension needed for the kimura?",
-      "answer": "Threaten a back take by inserting your first hook, which forces them to react. Alternatively, begin circling toward their head for a front headlock, which makes them post to prevent the choke. You can also apply spiraling pressure on their hips that destabilizes their base and forces a posting hand. The key is creating a threat they must defend with arm extension.",
-      "difficulty": "Intermediate"
+      "answer": "Threaten a back take by inserting your first hook, which forces them to react. Alternatively, begin circling toward their head for a front headlock, which makes them post to prevent the choke. You can also apply spiraling pressure on their hips that destabilizes their base and forces a posting hand. The key is creating a threat they must defend with arm extension."
     },
     {
       "question": "Why must chest pressure be maintained throughout the kimura grip establishment from turtle?",
-      "answer": "Chest pressure prevents the opponent from creating explosive movement during the transition - they cannot stand up, roll, or granby effectively when flattened by your weight. Releasing pressure to hunt for the grip creates windows for escape. The grip should be established one arm at a time while maintaining body weight control throughout.",
-      "difficulty": "Intermediate"
+      "answer": "Chest pressure prevents the opponent from creating explosive movement during the transition - they cannot stand up, roll, or granby effectively when flattened by your weight. Releasing pressure to hunt for the grip creates windows for escape. The grip should be established one arm at a time while maintaining body weight control throughout."
     },
     {
       "question": "What body positioning creates maximum mechanical advantage for finishing the kimura from turtle?",
-      "answer": "Perpendicular positioning with your chest over their shoulder creates maximum leverage. After securing the grip, walk your feet in an arc toward their head until you achieve this angle. Staying directly behind them provides insufficient rotational force. The finishing power comes from hip drive in this perpendicular position, not arm strength.",
-      "difficulty": "Beginner"
+      "answer": "Perpendicular positioning with your chest over their shoulder creates maximum leverage. After securing the grip, walk your feet in an arc toward their head until you achieve this angle. Staying directly behind them provides insufficient rotational force. The finishing power comes from hip drive in this perpendicular position, not arm strength."
     },
     {
       "question": "Your opponent rolls toward their trapped arm side to escape the kimura. What is the correct response?",
-      "answer": "Maintain the kimura grip and follow their roll. As they rotate, you end up on their back with the grip intact - this is actually a better position than you started with. From back control, you can continue the shoulder lock attack or transition to rear naked choke using the arm control. The roll escape gifts you the back.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain the kimura grip and follow their roll. As they rotate, you end up on their back with the grip intact - this is actually a better position than you started with. From back control, you can continue the shoulder lock attack or transition to rear naked choke using the arm control. The roll escape gifts you the back."
     },
     {
       "question": "Your opponent straightens their arm to prevent the kimura rotation. What immediate transition should you make?",
-      "answer": "Release the figure-four grip, maintain wrist control with your gripping hand, and immediately throw your leg over their shoulder to transition to armbar. The straight arm that defeats the kimura is exactly what you need for the armbar. This is the fundamental kimura-to-armbar chain that makes the attack system so dangerous.",
-      "difficulty": "Intermediate"
+      "answer": "Release the figure-four grip, maintain wrist control with your gripping hand, and immediately throw your leg over their shoulder to transition to armbar. The straight arm that defeats the kimura is exactly what you need for the armbar. This is the fundamental kimura-to-armbar chain that makes the attack system so dangerous."
     },
     {
       "question": "How does the kimura from turtle integrate with the broader turtle attack system?",
-      "answer": "The kimura serves as both a primary finish and a forcing function. When you threaten back takes, opponents often post hands creating kimura opportunities. When you threaten kimura, they often roll giving up their back. Combined with front headlock attacks, this creates a triangle of threats where defending one opens another. The techniques work together systematically rather than as isolated attacks.",
-      "difficulty": "Advanced"
+      "answer": "The kimura serves as both a primary finish and a forcing function. When you threaten back takes, opponents often post hands creating kimura opportunities. When you threaten kimura, they often roll giving up their back. Combined with front headlock attacks, this creates a triangle of threats where defending one opens another. The techniques work together systematically rather than as isolated attacks."
     },
     {
       "question": "Your opponent flattens to the mat and turns onto their side facing you during the kimura attack. How do you continue?",
-      "answer": "Follow them to side control while maintaining the kimura grip, establishing Kimura Trap position. From here you have even better finishing mechanics with their back on the mat. Walk your hips toward their head to create the finishing angle, or use the grip to transition to mount or north-south. Their flattening defense actually improves your position.",
-      "difficulty": "Intermediate"
+      "answer": "Follow them to side control while maintaining the kimura grip, establishing Kimura Trap position. From here you have even better finishing mechanics with their back on the mat. Walk your hips toward their head to create the finishing angle, or use the grip to transition to mount or north-south. Their flattening defense actually improves your position."
     },
     {
       "question": "What role does the elbow position play in the kimura from turtle?",
-      "answer": "The elbow must remain bent at approximately 90 degrees for the kimura to work - this angle allows rotational force on the shoulder joint. Pin their elbow against your hip throughout the attack to maintain this bend. If they straighten the arm, the kimura becomes ineffective but the armbar becomes available. Monitor elbow angle constantly and transition accordingly.",
-      "difficulty": "Beginner"
+      "answer": "The elbow must remain bent at approximately 90 degrees for the kimura to work - this angle allows rotational force on the shoulder joint. Pin their elbow against your hip throughout the attack to maintain this bend. If they straighten the arm, the kimura becomes ineffective but the armbar becomes available. Monitor elbow angle constantly and transition accordingly."
     },
     {
       "question": "When is the kimura from turtle preferable to pursuing the back take directly?",
-      "answer": "The kimura is preferable when: the opponent has excellent turtle defense with good rolling mechanics and tight elbows; when they extend an arm giving you a clear opportunity; when you want to force reactions that open back take opportunities; or when you need a submission threat to break a stalemate. Against opponents who turtle well, the kimura often opens the back take more easily than direct hook insertion.",
-      "difficulty": "Advanced"
+      "answer": "The kimura is preferable when: the opponent has excellent turtle defense with good rolling mechanics and tight elbows; when they extend an arm giving you a clear opportunity; when you want to force reactions that open back take opportunities; or when you need a submission threat to break a stalemate. Against opponents who turtle well, the kimura often opens the back take more easily than direct hook insertion."
     }
   ],
   "safety_considerations": "The kimura attacks the shoulder joint through external rotation and can cause serious injury including rotator cuff tears, labrum damage, and shoulder dislocation if applied too quickly or without control. From turtle position, there is additional risk because the opponent may roll unexpectedly during the attack, potentially compromising their shoulder during transition. Always apply pressure slowly and progressively, establishing proper angle before any rotation. Be especially careful when following rolls, as the shoulder can be compromised during rapid position changes. In training, release immediately upon any tap and never maintain the position after submission. Shoulder flexibility varies significantly between individuals - communicate with partners about their mobility limitations and adjust intensity accordingly. The turtle position can also stress the opponent's neck if you drive too much weight forward while securing the grip.",
@@ -292,5 +266,6 @@
       "name": "Crucifix from Turtle",
       "relationship": "Related arm control attack from turtle top"
     }
-  ]
+  ],
+  "success_rate": 58
 }

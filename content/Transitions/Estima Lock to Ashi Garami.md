@@ -157,7 +157,7 @@ This technique capitalizes on the leg control already established in the Estima 
 Strategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.
 
 **From Position**: [[Estima Lock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize transition window**: Identify that the Estima Lock finish is compromised—opponent has counter-rotated their ankle, hidden their heel, or established frames that prevent submission completion. This recognition must happen before you waste energy forcing an incomplete lock. (Timing: Within 2-3 seconds of defensive success)
-2. **Maintain leg control**: While still holding the Estima Lock grip, shift your hips toward the opponent's trapped leg. Your inside hip drives into their thigh while your outside leg begins circling to establish the ashi garami triangle. Do not release hand grips yet. (Timing: Immediately following recognition)
-3. **Thread inside leg**: Insert your inside leg between the opponent's legs, threading it behind their trapped leg's knee. Your foot should hook around their far hip or thigh. This creates the foundational leg triangle of standard ashi garami control. (Timing: Fluid motion, 1-2 seconds)
-4. **Establish outside leg position**: Bring your outside leg over the opponent's trapped leg, positioning your foot against their hip or across their waist. This completes the leg triangle and prevents them from pulling their knee to their chest to escape. (Timing: Immediately after inside leg threads)
-5. **Release and re-grip**: Only now release the Estima Lock figure-four grip. Immediately secure standard ashi garami grips—one hand controlling the heel, other hand on the toes or ankle. Ensure the outside heel is exposed for heel hook access. (Timing: Smooth grip transition, under 1 second)
-6. **Consolidate ashi garami**: Pull opponent's leg tight to your chest while squeezing your leg triangle. Angle your hips to maximize heel exposure and kneeline control. Verify your inside leg prevents knee extraction and your outside leg blocks hip escape before attacking. (Timing: 2-3 seconds to full consolidation)
+1. **Recognize transition window**: Identify that the Estima Lock finish is compromised—opponent has counter-rotated their ankle, hidden their heel, or established frames that prevent submission completion. This recognition must happen before you waste energy forcing an incomplete lock.
+2. **Maintain leg control**: While still holding the Estima Lock grip, shift your hips toward the opponent's trapped leg. Your inside hip drives into their thigh while your outside leg begins circling to establish the ashi garami triangle. Do not release hand grips yet.
+3. **Thread inside leg**: Insert your inside leg between the opponent's legs, threading it behind their trapped leg's knee. Your foot should hook around their far hip or thigh. This creates the foundational leg triangle of standard ashi garami control.
+4. **Establish outside leg position**: Bring your outside leg over the opponent's trapped leg, positioning your foot against their hip or across their waist. This completes the leg triangle and prevents them from pulling their knee to their chest to escape.
+5. **Release and re-grip**: Only now release the Estima Lock figure-four grip. Immediately secure standard ashi garami grips—one hand controlling the heel, other hand on the toes or ankle. Ensure the outside heel is exposed for heel hook access.
+6. **Consolidate ashi garami**: Pull opponent's leg tight to your chest while squeezing your leg triangle. Angle your hips to maximize heel exposure and kneeline control. Verify your inside leg prevents knee extraction and your outside leg blocks hip escape before attacking.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the leg threading sequence from static Estima Lock position with no resistance. Focus on maintaining grips until leg triangle is complete. Partner remains completely passive while you develop muscle memory for the six-step sequence. Drill 20-30 repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Timing and recognition
 Partner begins defending Estima Lock at 30% intensity, creating the defensive signals that trigger transition. Practice recognizing when the Estima Lock finish is compromised and executing transition smoothly. Partner allows transition but creates realistic defensive movement patterns.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts counters during transition—leg extraction, sitting up, rolling through. Practice maintaining leg control through defensive movement and adapting transition to counter their responses. Begin chaining to heel hook attacks after successful transitions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from Estima Lock position. Both players pursue their objectives—top player works Estima Lock finish or transition to ashi garami, bottom player defends and escapes. Track success rate and identify patterns that lead to successful transitions.
-(Resistance: Full)
 
 
 

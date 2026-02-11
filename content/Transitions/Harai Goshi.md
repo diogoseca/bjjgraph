@@ -153,7 +153,7 @@ description: "Learn Harai Goshi in BJJ. Step-by-step judo throw execution from s
 Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective techniques that has found significant application in Brazilian Jiu-Jitsu's standing game. This throw combines precise footwork, hip placement, and leg sweeping action to generate tremendous off-balancing force while maintaining control throughout the opponent's descent. Unlike pure forward throws, Harai Goshi creates a unique rotational motion that allows the thrower to follow smoothly into dominant ground positions. The technique's effectiveness in BJJ competition stems from its versatility in both gi and no-gi contexts, its ability to score significant points, and its natural transition into side control or mount. When executed properly, Harai Goshi demonstrates the fundamental principle that technical precision and timing can overcome significant strength advantages, making it particularly valuable for smaller practitioners against larger opponents.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -203,12 +203,12 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips and break balance**: Secure a strong collar grip with your right hand (or overhook in no-gi) and sleeve grip with your left hand. Pull opponent forward and slightly to their right side, breaking their balance onto their toes while maintaining your own upright posture. Your goal is to feel their weight committed forward before initiating the throw. (Timing: Initial setup phase - 1-2 seconds of grip fighting and balance breaking)
-2. **Step in with lead foot**: Step your right foot deep across your opponent's body, placing it slightly in front of and outside their right foot. Your foot should point in the direction you intend to throw. This step creates the angle necessary for hip placement and positions your sweeping leg for the critical action. (Timing: Execute as opponent steps forward - capitalize on their movement)
-3. **Rotate hips and lower center of gravity**: Pivot on your right foot while rotating your hips 180 degrees to face the same direction as your opponent. Simultaneously drop your hips below their center of gravity by bending your knees. Your back should make contact with their front torso, and your hips should be positioned lower than theirs to create the lifting platform. (Timing: Immediate continuation from step entry - one fluid motion)
-4. **Execute sweeping action**: Sweep your left leg in a wide, powerful arc backward and upward, targeting your opponent's right leg (the leg bearing their weight). The sweeping motion should be more of a reaping action that removes their base rather than a kick. Your leg should make contact from their ankle through their thigh, depending on the exact variation. (Timing: Coordinate with hip rotation - sweep begins as hips make contact)
-5. **Complete rotation and lift**: Pull strongly with both hands (especially the collar/overhook grip) while extending your legs slightly to lift opponent onto your hips. Continue rotating your upper body in the throwing direction. The combination of the leg sweep removing their base and the hip lift elevates them completely off the ground in a controlled arc. (Timing: Peak throwing action - 0.5 seconds of maximum power application)
-6. **Control descent and follow to ground**: Maintain grip control as opponent rotates over your hip and descends to the mat. Guide their landing to prevent injury while positioning yourself to land in side control or knee-on-belly position. Your top hand (collar/overhook) controls their upper body while your bottom hand controls their far arm, preventing them from establishing guard. (Timing: Continuous control from throw completion through ground establishment)
+1. **Establish grips and break balance**: Secure a strong collar grip with your right hand (or overhook in no-gi) and sleeve grip with your left hand. Pull opponent forward and slightly to their right side, breaking their balance onto their toes while maintaining your own upright posture. Your goal is to feel their weight committed forward before initiating the throw.
+2. **Step in with lead foot**: Step your right foot deep across your opponent's body, placing it slightly in front of and outside their right foot. Your foot should point in the direction you intend to throw. This step creates the angle necessary for hip placement and positions your sweeping leg for the critical action.
+3. **Rotate hips and lower center of gravity**: Pivot on your right foot while rotating your hips 180 degrees to face the same direction as your opponent. Simultaneously drop your hips below their center of gravity by bending your knees. Your back should make contact with their front torso, and your hips should be positioned lower than theirs to create the lifting platform.
+4. **Execute sweeping action**: Sweep your left leg in a wide, powerful arc backward and upward, targeting your opponent's right leg (the leg bearing their weight). The sweeping motion should be more of a reaping action that removes their base rather than a kick. Your leg should make contact from their ankle through their thigh, depending on the exact variation.
+5. **Complete rotation and lift**: Pull strongly with both hands (especially the collar/overhook grip) while extending your legs slightly to lift opponent onto your hips. Continue rotating your upper body in the throwing direction. The combination of the leg sweep removing their base and the hip lift elevates them completely off the ground in a controlled arc.
+6. **Control descent and follow to ground**: Maintain grip control as opponent rotates over your hip and descends to the mat. Guide their landing to prevent injury while positioning yourself to land in side control or knee-on-belly position. Your top hand (collar/overhook) controls their upper body while your bottom hand controls their far arm, preventing them from establishing guard.
 
 
 </section>
@@ -254,27 +254,21 @@ Harai Goshi, the sweeping hip throw, is one of judo's most elegant and effective
 ## Training Progressions
 **Phase 1: Static Entry (Weeks 1-2)** - Hip placement and rotation mechanics
 Partner stands completely still while you practice stepping in, rotating hips, and achieving proper depth. Focus on getting your hips lower than partner's with correct foot placement. No sweeping action or completion yet - purely entry mechanics. Perform 20-30 repetitions per training session on each side.
-(Resistance: None)
 
 **Phase 2: Cooperative Sweeping (Weeks 3-4)** - Adding leg sweep to established hip position
 Partner remains cooperative but you now add the sweeping leg action. Partner should allow themselves to be swept but maintain light resistance to ensure proper technique. Focus on coordinating hip rotation with leg sweep timing. Practice both completed throws (with controlled falls) and catches at the peak of the throw. 15-20 repetitions per session.
-(Resistance: Light)
 
 **Phase 3: Kuzushi Integration (Weeks 5-6)** - Balance breaking and timing with opponent movement
 Partner now walks around naturally while maintaining grips. Practice breaking their balance with pulling and pushing actions, then executing throw when you feel their weight commit forward. Partner should defend passively (maintaining base) but not actively countering. 10-15 attempts per session.
-(Resistance: Medium)
 
 **Phase 4: Combination Attacks (Weeks 7-8)** - Setting up Harai Goshi with other techniques
 Practice throw as part of attack combinations: Osoto Gari to Harai Goshi, Kouchi Gari to Harai Goshi, foot sweeps to Harai Goshi. Partner resists first technique moderately, creating opening for Harai Goshi. Learn to recognize when opponent's defense creates throwing opportunity. 8-12 combination sequences per session.
-(Resistance: Medium)
 
 **Phase 5: Live Standup Sparring (Weeks 9-12)** - Application against progressive resistance
 Incorporate technique into standup sparring rounds starting at 50% resistance and gradually increasing to 75%. Partner actively defends and attempts their own takedowns but does not specifically counter your Harai Goshi attempts. Focus on creating opportunities through grip fighting and movement. 5-8 minutes of standup sparring per session.
-(Resistance: Full)
 
 **Phase 6: Competition Simulation (Ongoing)** - Full resistance with throw-to-submission chains
 Full-intensity standup sparring where you must hit Harai Goshi and follow to submission or dominant position. Partner can counter with their own throws. Practice under competition conditions including time pressure and point-scoring scenarios. Film and review footage to identify technical breakdown under pressure. 3-5 minute rounds with specific goals.
-(Resistance: Full)
 
 
 

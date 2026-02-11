@@ -157,7 +157,7 @@ The modern approach to guard passing encompasses multiple philosophies: pressure
 Mastering guard passing fundamentals creates the foundation for all top game development in BJJ. Whether passing closed guard, open guard variations, or modern leg entanglement guards, the core principles remain consistent: establish dominant grips, control distance and angles, break the opponent's structure, and advance through stages of control before settling into a dominant position. This systematic approach, combined with the ability to read and counter opponent reactions, separates effective guard passers from those who struggle to advance position.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant grips**: Secure control of opponent's collar, sleeves, or pants depending on guard type. For closed guard, control the collar and break posture. For open guard, control sleeves or pants to limit mobility. Grip fighting is essential - deny opponent their preferred grips while establishing your own control points. (Timing: Initial contact - spend 2-5 seconds establishing grip dominance before advancing)
-2. **Break opponent's guard structure**: Disrupt the opponent's base and alignment. For closed guard, stand up to open the guard. For open guard, address the specific retention mechanism (hooks, frames, or leg entanglements). Use a combination of grip control, weight distribution, and angle changes to compromise their structure. (Timing: 3-8 seconds - patience here prevents rushing into bad positions)
-3. **Control opponent's hips and legs**: Pin the opponent's hips to the mat or control their legs to prevent guard retention. This may involve stapling the knee, controlling the shin, or using heavy pressure to limit hip mobility. The specific control depends on the guard type being passed. (Timing: Simultaneous with structure breaking - 2-4 seconds to establish control)
-4. **Create passing angle**: Move off the centerline to one side, creating an angle that allows you to navigate around the opponent's legs. The angle prevents them from using frames effectively and positions you to advance. Keep your head on the side you're passing to for better pressure and control. (Timing: Quick transition - 1-2 seconds to establish angle once control is secured)
-5. **Advance position through stages**: Progress through control points: from guard to knee slice position or headquarters, then to a transitional position where opponent's near leg is controlled, finally settling into side control or other dominant position. Each stage should be consolidated before advancing. (Timing: Variable 5-15 seconds total - rushing causes re-guard)
-6. **Secure dominant position**: Establish side control, mount, knee on belly, or north-south with proper weight distribution and control points. Immediately address any remaining guard retention attempts by controlling the far hip, establishing crossface pressure, and securing underhooks. Consolidate position before looking for submissions or further advancement. (Timing: 3-5 seconds to fully stabilize the position)
+1. **Establish dominant grips**: Secure control of opponent's collar, sleeves, or pants depending on guard type. For closed guard, control the collar and break posture. For open guard, control sleeves or pants to limit mobility. Grip fighting is essential - deny opponent their preferred grips while establishing your own control points.
+2. **Break opponent's guard structure**: Disrupt the opponent's base and alignment. For closed guard, stand up to open the guard. For open guard, address the specific retention mechanism (hooks, frames, or leg entanglements). Use a combination of grip control, weight distribution, and angle changes to compromise their structure.
+3. **Control opponent's hips and legs**: Pin the opponent's hips to the mat or control their legs to prevent guard retention. This may involve stapling the knee, controlling the shin, or using heavy pressure to limit hip mobility. The specific control depends on the guard type being passed.
+4. **Create passing angle**: Move off the centerline to one side, creating an angle that allows you to navigate around the opponent's legs. The angle prevents them from using frames effectively and positions you to advance. Keep your head on the side you're passing to for better pressure and control.
+5. **Advance position through stages**: Progress through control points: from guard to knee slice position or headquarters, then to a transitional position where opponent's near leg is controlled, finally settling into side control or other dominant position. Each stage should be consolidated before advancing.
+6. **Secure dominant position**: Establish side control, mount, knee on belly, or north-south with proper weight distribution and control points. Immediately address any remaining guard retention attempts by controlling the far hip, establishing crossface pressure, and securing underhooks. Consolidate position before looking for submissions or further advancement.
 
 
 </section>
@@ -258,27 +258,21 @@ Mastering guard passing fundamentals creates the foundation for all top game dev
 ## Training Progressions
 **Week 1-2: Foundational Mechanics** - Basic passing principles and positional understanding
 Practice guard passing against cooperative partner who maintains guard structure but doesn't actively resist. Focus on proper grips, posture, base, and moving through stages slowly. Drill individual components: grip establishment, posture breaking, hip control, and position advancement separately before combining.
-(Resistance: None)
 
 **Week 3-4: Progressive Resistance** - Passing against basic guard retention
 Partner begins using frames, hip escapes, and basic retention but does not attempt sweeps or submissions. Passer works on maintaining control through opponent's defensive movements. Start recognizing when to use pressure vs. speed passing based on opponent's reactions.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Passing** - Passing against active guard retention with submission threats
 Partner actively tries to retain guard using full range of defensive techniques including frames, hip escapes, re-guarding, and submission attempts. Passer must recognize submission threats, defend appropriately, and continue passing sequence. Introduce multiple passing styles and learn to switch between them.
-(Resistance: Medium)
 
 **Week 9-12: Specialized Guard Passing** - Passing specific guard types (closed, open, half, butterfly, leg entanglement)
 Deep dive into passing strategies for each major guard category. Learn guard-specific grips, breaking mechanisms, and common traps. Practice recognizing guard types quickly and selecting appropriate passing approach. Develop counters to guard-specific sweeps and submissions.
-(Resistance: Medium)
 
 **Month 4-6: Competition Application** - Guard passing under full resistance and time pressure
 Full resistance guard passing with emphasis on efficiency and control. Practice passing chains where failed passes lead to alternative passing approaches. Develop ability to pass while managing fatigue. Simulate competition scenarios with time limits and point scoring.
-(Resistance: Full)
 
 **Ongoing: Refinement and Specialization** - Developing personal passing style and high-level details
 Refine timing, pressure application, and grip fighting nuances. Develop signature passing sequences that fit your body type and style. Study high-level competition footage and integrate advanced concepts. Continue drilling fundamentals while exploring new passing innovations.
-(Resistance: Full)
 
 
 

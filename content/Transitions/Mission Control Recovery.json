@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Mission Control Recovery is an essential transitional technique within the rubber guard system that allows practitioners to return to a dominant control position when a gogoplata attempt fails or becomes compromised. When the opponent successfully defends the shin-across-throat configuration or the bottom player loses optimal angle, this recovery movement preserves the positional investment by returning to Mission Control rather than conceding the entire guard position.\n\nThe technique addresses a critical problem in the rubber guard attack chain: what happens when high-risk submissions fail. Without a systematic recovery option, a defended gogoplata often results in complete guard loss as the opponent uses the defensive momentum to pass. Mission Control Recovery intercepts this sequence by immediately re-establishing the overhook control and leg positioning that defines Mission Control before the opponent can capitalize.\n\nStrategically, this recovery transforms the rubber guard system from a single-attempt attack chain into a cyclical threat matrix. Practitioners can attack gogoplata, recover to Mission Control if defended, threaten alternative attacks like omoplata or triangle, return to gogoplata attempts, and repeat. This cycling creates accumulating fatigue in the defender while the attacker maintains positional dominance. The recovery is particularly valuable in competition where point preservation matters alongside submission attempts.\n\nThe execution requires precise timing and understanding of weight distribution. The bottom player must recognize when the gogoplata is failing before fully committing, withdraw the shin from the throat while maintaining hip control, and immediately secure the overhook that defines Mission Control. This sequence must happen faster than the opponent can exploit the transition.",
   "key_principles": [
     "Recognize gogoplata failure early before opponent fully escapes the shin position",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Recognize failure point",
-      "description": "Identify that the gogoplata is compromised before fully losing position. Warning signs include opponent successfully hand-fighting the foot behind their head, loss of perpendicular shin angle, or hip elevation dropping significantly.",
-      "timing": "Must recognize within 1-2 seconds of compromise"
+      "description": "Identify that the gogoplata is compromised before fully losing position. Warning signs include opponent successfully hand-fighting the foot behind their head, loss of perpendicular shin angle, or hip elevation dropping significantly."
     },
     {
       "step_number": 2,
       "action": "Secure overhook",
-      "description": "Before withdrawing the attacking leg, ensure your overhook control on the opponent's far arm is tight. Thread your arm deep over their tricep and grip your own wrist or lapel. This prevents them from posturing when you remove the shin.",
-      "timing": "Immediately upon recognition"
+      "description": "Before withdrawing the attacking leg, ensure your overhook control on the opponent's far arm is tight. Thread your arm deep over their tricep and grip your own wrist or lapel. This prevents them from posturing when you remove the shin."
     },
     {
       "step_number": 3,
       "action": "Hip adjustment",
-      "description": "Slightly lower your hips while maintaining connection with your opponent. This creates the space needed to withdraw your shin from their throat while keeping your legs in position to re-establish Mission Control configuration.",
-      "timing": "Subtle movement during overhook securing"
+      "description": "Slightly lower your hips while maintaining connection with your opponent. This creates the space needed to withdraw your shin from their throat while keeping your legs in position to re-establish Mission Control configuration."
     },
     {
       "step_number": 4,
       "action": "Withdraw attacking leg",
-      "description": "Smoothly slide your shin back from the opponent's throat, keeping the leg bent and your foot near their shoulder. Do not fully extend the leg or allow it to drop to the mat. The leg should move from throat position to shoulder-hook position.",
-      "timing": "Controlled 1-second withdrawal"
+      "description": "Smoothly slide your shin back from the opponent's throat, keeping the leg bent and your foot near their shoulder. Do not fully extend the leg or allow it to drop to the mat. The leg should move from throat position to shoulder-hook position."
     },
     {
       "step_number": 5,
       "action": "Re-establish rubber guard",
-      "description": "Place your foot behind your opponent's shoulder blade while pulling down on their head with your same-side hand. Your shin should now be across their upper back and shoulder rather than their throat, creating the classic Mission Control configuration.",
-      "timing": "Immediately after shin withdrawal"
+      "description": "Place your foot behind your opponent's shoulder blade while pulling down on their head with your same-side hand. Your shin should now be across their upper back and shoulder rather than their throat, creating the classic Mission Control configuration."
     },
     {
       "step_number": 6,
       "action": "Consolidate Mission Control",
-      "description": "Grab your own shin with your free hand to lock the Mission Control position. Pull your knee toward your chest while pushing their head down with the overhook arm. Establish proper hip angle for subsequent attack options.",
-      "timing": "Within 2 seconds of foot placement"
+      "description": "Grab your own shin with your free hand to lock the Mission Control position. Pull your knee toward your chest while pushing their head down with the overhook arm. Establish proper hip angle for subsequent attack options."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Isolation mechanics",
-      "description": "Practice the leg withdrawal and Mission Control re-establishment in isolation without resistance. Focus on smooth shin movement from throat to shoulder position while maintaining overhook. Partner remains completely passive.",
-      "resistance_level": "None"
+      "description": "Practice the leg withdrawal and Mission Control re-establishment in isolation without resistance. Focus on smooth shin movement from throat to shoulder position while maintaining overhook. Partner remains completely passive."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner provides light hand fighting during gogoplata. Practice recognizing the moment when gogoplata becomes compromised and initiating recovery at the correct timing. Partner gradually increases defensive activity.",
-      "resistance_level": "Light"
+      "description": "Partner provides light hand fighting during gogoplata. Practice recognizing the moment when gogoplata becomes compromised and initiating recovery at the correct timing. Partner gradually increases defensive activity."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain integration",
-      "description": "Work gogoplata to Mission Control Recovery to alternative attacks in flowing sequences. Partner provides moderate resistance throughout. Focus on maintaining continuous threat rather than isolated techniques.",
-      "resistance_level": "Medium"
+      "description": "Work gogoplata to Mission Control Recovery to alternative attacks in flowing sequences. Partner provides moderate resistance throughout. Focus on maintaining continuous threat rather than isolated techniques."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement Mission Control Recovery in live rolling with full resistance. Track success rate and identify failure patterns. Refine timing and execution based on live feedback from resisting opponents.",
-      "resistance_level": "Full"
+      "description": "Implement Mission Control Recovery in live rolling with full resistance. Track success rate and identify failure patterns. Refine timing and execution based on live feedback from resisting opponents."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Mission Control Recovery?",
-      "answer": "The primary goal is to return to Mission Control position when a gogoplata attempt fails, preserving positional advantage and attack options rather than conceding the entire guard position. This transforms a failed submission into continued offensive pressure.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to return to Mission Control position when a gogoplata attempt fails, preserving positional advantage and attack options rather than conceding the entire guard position. This transforms a failed submission into continued offensive pressure."
     },
     {
       "question": "What grip must be secured before withdrawing the shin from the opponent's throat?",
-      "answer": "The overhook on the opponent's far arm must be secured tightly before any leg movement. This overhook prevents them from posturing up when you remove the shin and provides control throughout the transition. Without it, the recovery will fail.",
-      "difficulty": "Beginner"
+      "answer": "The overhook on the opponent's far arm must be secured tightly before any leg movement. This overhook prevents them from posturing up when you remove the shin and provides control throughout the transition. Without it, the recovery will fail."
     },
     {
       "question": "Your opponent begins hand-fighting your foot behind their head - how do you decide between continuing gogoplata and initiating recovery?",
-      "answer": "Evaluate shin angle and hip elevation. If your shin is still perpendicular to their throat and your hips are elevated, continue the gogoplata attempt by pulling your foot deeper. If shin angle has become parallel or hips have dropped significantly, initiate recovery immediately before they fully escape.",
-      "difficulty": "Intermediate"
+      "answer": "Evaluate shin angle and hip elevation. If your shin is still perpendicular to their throat and your hips are elevated, continue the gogoplata attempt by pulling your foot deeper. If shin angle has become parallel or hips have dropped significantly, initiate recovery immediately before they fully escape."
     },
     {
       "question": "What is the critical hip positioning requirement during the transition from gogoplata to Mission Control?",
-      "answer": "Hips must remain elevated throughout the transition, never dropping flat to the mat. This maintains the angle needed for Mission Control to be effective and prevents the opponent from driving forward during the recovery. Core engagement keeps the pelvis tilted toward the ceiling.",
-      "difficulty": "Intermediate"
+      "answer": "Hips must remain elevated throughout the transition, never dropping flat to the mat. This maintains the angle needed for Mission Control to be effective and prevents the opponent from driving forward during the recovery. Core engagement keeps the pelvis tilted toward the ceiling."
     },
     {
       "question": "Your opponent drives forward aggressively as you withdraw your shin - what immediate adjustment should you make?",
-      "answer": "Use the overhook to redirect their forward momentum laterally rather than absorbing it directly. As they drive forward, angle your hips and use the overhook to guide them past you, transitioning to omoplata setup. Their aggression provides the rotation needed for the omoplata angle.",
-      "difficulty": "Advanced"
+      "answer": "Use the overhook to redirect their forward momentum laterally rather than absorbing it directly. As they drive forward, angle your hips and use the overhook to guide them past you, transitioning to omoplata setup. Their aggression provides the rotation needed for the omoplata angle."
     },
     {
       "question": "How does Mission Control Recovery change the strategic value of gogoplata attempts?",
-      "answer": "It transforms gogoplata from a high-risk single-attempt technique into part of a cyclical attack system. Practitioners can attack gogoplata knowing that failure leads to Mission Control rather than guard loss, allowing repeated attempts and creating cumulative defensive fatigue in the opponent.",
-      "difficulty": "Advanced"
+      "answer": "It transforms gogoplata from a high-risk single-attempt technique into part of a cyclical attack system. Practitioners can attack gogoplata knowing that failure leads to Mission Control rather than guard loss, allowing repeated attempts and creating cumulative defensive fatigue in the opponent."
     },
     {
       "question": "What distinguishes proper shin withdrawal from the common error of jerking the leg back?",
-      "answer": "Proper withdrawal is smooth and controlled, maintaining hip connection with the opponent throughout. The shin slides back while the leg stays bent with foot near the shoulder. Jerking creates momentary space that opponents exploit for frames and posture. The movement should take about one second with no sudden acceleration.",
-      "difficulty": "Intermediate"
+      "answer": "Proper withdrawal is smooth and controlled, maintaining hip connection with the opponent throughout. The shin slides back while the leg stays bent with foot near the shoulder. Jerking creates momentary space that opponents exploit for frames and posture. The movement should take about one second with no sudden acceleration."
     },
     {
       "question": "After placing your foot behind the opponent's shoulder blade, what must happen immediately to consolidate Mission Control?",
-      "answer": "You must grab your own shin with your free hand to lock the position. Simultaneously pull your knee toward your chest while using the overhook arm to push the opponent's head down. This creates the stable Mission Control configuration that enables subsequent attack chains.",
-      "difficulty": "Beginner"
+      "answer": "You must grab your own shin with your free hand to lock the position. Simultaneously pull your knee toward your chest while using the overhook arm to push the opponent's head down. This creates the stable Mission Control configuration that enables subsequent attack chains."
     }
   ],
   "safety_considerations": "Mission Control Recovery is generally safe as a transitional technique since it does not involve joint locks or chokes directly. The primary safety concern is hip and hamstring flexibility - practitioners without adequate flexibility attempting rubber guard positions risk hip flexor or hamstring strains. Always warm up thoroughly before drilling. During recovery attempts, avoid jerking leg movements that could strain the groin. If you feel joint discomfort in the hip during the transition, release the position entirely rather than forcing the recovery. Partners should avoid explosive passing attempts during early drilling phases to allow proper technique development. In live training, tap immediately if you feel your hip being forced past its comfortable range during the recovery movement.",
@@ -256,5 +233,6 @@
       "name": "Back Take from Bottom",
       "relationship": "Transition option if opponent turtles during recovery"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -163,7 +163,7 @@ This reversal exploits a fundamental vulnerability in front headlock control: wh
 The roll through represents a calculated risk within the front headlock escape system. While other escapes like technical standups or circling away are generally safer, the roll through offers a higher reward by achieving complete positional reversal rather than merely escaping to neutral. This makes it particularly valuable when you need to shift match momentum or when other escape routes are blocked. Advanced practitioners integrate this technique as part of their reactive defense, reading opponent's weight distribution to determine whether to stand, circle, or roll through.
 
 **From Position**: [[Front Headlock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The roll through represents a calculated risk within the front headlock escape s
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure choking arm control**: Grip opponent's choking arm at the wrist or elbow with your outside hand, pulling it tight to your body to limit their ability to tighten the choke during the roll and maintaining control throughout the technique. (Timing: Before initiating any rolling motion)
-2. **Post inside arm**: Plant your inside hand firmly on the mat in front of you, fingers pointing toward opponent's posting foot. This arm will serve as the pivot point for your rotation and help direct the roll trajectory. (Timing: Immediately after securing arm control)
-3. **Load hips under**: Tuck your chin tight to your chest while bringing your hips underneath you in a curled position. Your body should form a compact ball shape that can rotate smoothly rather than a flat extended position. (Timing: As you feel opponent's weight fully committed forward)
-4. **Initiate forward roll**: Drive off your toes while simultaneously pulling opponent's arm toward you and tucking your head. Roll forward over your shoulder, not straight over your head, using the momentum their forward pressure creates. (Timing: Explosive initiation when opponent is overbalanced)
-5. **Maintain arm connection**: Throughout the rotation, keep pulling their choking arm to your body. This control prevents them from posting to stop the roll and ensures you maintain connection to establish top position as the roll completes. (Timing: Continuous throughout roll)
-6. **Complete rotation and establish control**: As the roll completes, immediately drive your chest into their upper back and sprawl your hips to prevent their escape. Transition your arm control into front headlock grips, securing their head with your arm. (Timing: Immediately upon roll completion)
-7. **Consolidate top position**: Drive downward pressure through your chest, control their far shoulder or arm, and establish dominant front headlock top position. Work to prevent any immediate escape attempts with heavy pressure and proper weight distribution. (Timing: Within 1-2 seconds of roll completion)
+1. **Secure choking arm control**: Grip opponent's choking arm at the wrist or elbow with your outside hand, pulling it tight to your body to limit their ability to tighten the choke during the roll and maintaining control throughout the technique.
+2. **Post inside arm**: Plant your inside hand firmly on the mat in front of you, fingers pointing toward opponent's posting foot. This arm will serve as the pivot point for your rotation and help direct the roll trajectory.
+3. **Load hips under**: Tuck your chin tight to your chest while bringing your hips underneath you in a curled position. Your body should form a compact ball shape that can rotate smoothly rather than a flat extended position.
+4. **Initiate forward roll**: Drive off your toes while simultaneously pulling opponent's arm toward you and tucking your head. Roll forward over your shoulder, not straight over your head, using the momentum their forward pressure creates.
+5. **Maintain arm connection**: Throughout the rotation, keep pulling their choking arm to your body. This control prevents them from posting to stop the roll and ensures you maintain connection to establish top position as the roll completes.
+6. **Complete rotation and establish control**: As the roll completes, immediately drive your chest into their upper back and sprawl your hips to prevent their escape. Transition your arm control into front headlock grips, securing their head with your arm.
+7. **Consolidate top position**: Drive downward pressure through your chest, control their far shoulder or arm, and establish dominant front headlock top position. Work to prevent any immediate escape attempts with heavy pressure and proper weight distribution.
 
 
 </section>
@@ -260,19 +260,15 @@ The roll through represents a calculated risk within the front headlock escape s
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice forward shoulder rolls without partner focusing on smooth rotation, chin protection throughout, and landing in ready position. Then add static partner in front headlock position to develop proper trajectory and arm control without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies varying levels of forward pressure. Focus on recognizing when weight is sufficiently committed forward to make roll viable versus when to abort and use alternative escapes. Develop sensitivity to weight distribution.
-(Resistance: Light)
 
 **Week 5-6** - Chain integration
 Combine roll through with other front headlock escapes. If roll is countered, immediately transition to standup or circle away. Practice reading opponent reactions and selecting appropriate escape. Add consolidation drilling after successful rolls.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring from front headlock bottom. Partner actively works submissions and position improvement while you work full escape system including roll through. Focus on real-time decision making under pressure.
-(Resistance: Full)
 
 
 

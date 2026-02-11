@@ -157,7 +157,7 @@ The strategic importance of hand fighting cannot be overstated - it transforms b
 Advanced practitioners use hand fighting not merely as passive defense but as an active system that creates dilemmas for the attacking opponent. When executed with proper timing and pressure, hand fighting forces the attacker to choose between maintaining back control and pursuing submissions - a choice that creates windows for escape. This technique serves as the gateway to all other back escapes, making it essential foundational knowledge for any serious practitioner.
 
 **From Position**: [[Back Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Advanced practitioners use hand fighting not merely as passive defense but as an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Tuck chin**: Immediately drive chin down toward chest, creating first defensive barrier against choke. Turn head slightly toward opponent's choking arm side to reduce neck exposure angle. (Timing: Within first second of back control establishment)
-2. **Identify choking arm**: Determine which arm opponent is using to attack neck versus which arm controls your body. The choking arm typically comes over your shoulder toward your throat while control arm wraps under opposite armpit. (Timing: Immediately after chin tuck)
-3. **Establish two-on-one**: Bring both hands to opponent's choking arm, gripping their wrist with one hand and forearm or elbow with other hand. Create strong pulling connection that prevents their arm from advancing toward your throat. (Timing: Within 2-3 seconds of back control)
-4. **Strip toward elbow**: Use your grip on opponent's wrist to pull their hand away from your neck, directing the force toward their elbow crease. Simultaneously push their elbow away using your other hand creating opposing forces. (Timing: Continuous pressure once two-on-one established)
-5. **Clear arm across**: Once you've created separation, drive opponent's choking arm across your body toward their control arm side. This stacks both their arms on one side creating escape angle opportunity. (Timing: When wrist clears your chin line)
-6. **Transition to escape**: With opponent's choking arm neutralized and potentially cleared across, immediately begin hip escape sequence toward the cleared side. Maintain hand control during transition to prevent opponent from re-establishing choking position. (Timing: Immediately after clearing arm)
+1. **Tuck chin**: Immediately drive chin down toward chest, creating first defensive barrier against choke. Turn head slightly toward opponent's choking arm side to reduce neck exposure angle.
+2. **Identify choking arm**: Determine which arm opponent is using to attack neck versus which arm controls your body. The choking arm typically comes over your shoulder toward your throat while control arm wraps under opposite armpit.
+3. **Establish two-on-one**: Bring both hands to opponent's choking arm, gripping their wrist with one hand and forearm or elbow with other hand. Create strong pulling connection that prevents their arm from advancing toward your throat.
+4. **Strip toward elbow**: Use your grip on opponent's wrist to pull their hand away from your neck, directing the force toward their elbow crease. Simultaneously push their elbow away using your other hand creating opposing forces.
+5. **Clear arm across**: Once you've created separation, drive opponent's choking arm across your body toward their control arm side. This stacks both their arms on one side creating escape angle opportunity.
+6. **Transition to escape**: With opponent's choking arm neutralized and potentially cleared across, immediately begin hip escape sequence toward the cleared side. Maintain hand control during transition to prevent opponent from re-establishing choking position.
 
 
 </section>
@@ -254,19 +254,15 @@ Advanced practitioners use hand fighting not merely as passive defense but as an
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice two-on-one grip positioning with partner holding static back control. Focus on hand placement, chin tuck reflex, and understanding which arm is the choking arm. No escape attempts yet.
-(Resistance: None)
 
 **Week 3-4** - Grip stripping sequence
 Partner slowly attacks with rear naked choke while you practice the full stripping sequence. Learn to clear arm across body and feel transition timing. Partner provides light resistance to grip strips.
-(Resistance: Light)
 
 **Week 5-6** - Integration with escape
 Combine hand fighting with hip escape sequences. Partner attacks with moderate intensity while you practice clearing arm and immediately transitioning to escape. Develop timing between hand control and movement.
-(Resistance: Medium)
 
 **Week 7+** - Live survival rounds
 Full resistance back survival rounds where partner actively hunts submissions. Practice sustained hand fighting under pressure, adapting to opponent's switches and attacks. Build mental composure through extended survival.
-(Resistance: Full)
 
 
 

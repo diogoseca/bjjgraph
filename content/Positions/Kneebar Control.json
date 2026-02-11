@@ -273,61 +273,55 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Ability to maintain top position during kneebar attempt or transition"
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Likelihood of finishing submission or advancing to superior position"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Probability of finishing kneebar from top position within 30 seconds"
       },
       "average_time": "20-40 seconds before finish or positional transition"
     },
     "transitions": [
       {
-        "transition": "Kneebar Finish",
-        "attempt_probability": 9
-      },
-      {
         "transition": "Knee Cut Pass",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "Toe Hold",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Half Guard Pass",
-        "attempt_probability": 12
+        "attempt_probability": 9
       },
       {
         "transition": "Knee on Belly",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "Armbar from Mount",
-        "attempt_probability": 11
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kneebar",
+        "attempt_probability": 30
       }
     ],
     "knowledge_assessment": [
@@ -583,21 +577,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Ability to maintain kneebar control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of transitioning to superior leg attack or finishing submission"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Probability of finishing from this position within 60 seconds"
       },
       "average_time": "15-45 seconds before finish or transition required"

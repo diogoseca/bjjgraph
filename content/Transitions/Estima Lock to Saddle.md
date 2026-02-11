@@ -157,7 +157,7 @@ The mechanical foundation of this transition relies on the backstep—a rotation
 Timing is critical for this transition. Executing too early abandons a potentially viable Estima Lock finish, while executing too late allows the opponent to extract their leg entirely or establish strong defensive frames. The optimal window occurs when you recognize the opponent's defense is working—their ankle rotation reduces your footlock pressure, their free leg threatens your balance, or their hip escape begins creating dangerous space. Reading these signals and immediately initiating the backstep preserves offensive momentum rather than losing the position entirely.
 
 **From Position**: [[Estima Lock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Timing is critical for this transition. Executing too early abandons a potential
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Read defensive indicators**: Identify that opponent's Estima Lock defense is succeeding—their ankle counter-rotation reduces pressure, their free leg begins posting, or their hips start escaping. This recognition triggers the transition rather than continuing a failing attack. (Timing: Immediately upon sensing diminished lock effectiveness)
-2. **Maintain leg control**: Shift your grip from the footlock configuration to controlling the opponent's leg above the ankle, typically gripping around their calf or controlling the knee line. This preserves the leg entanglement while freeing your hands for the positional change. (Timing: 0.5 seconds after decision to transition)
-3. **Initiate backstep rotation**: Rotate your hips in a circular motion toward the outside of the opponent's trapped leg, carrying your body weight behind their knee line. Your inside leg (closer to their hip) begins threading between their legs while maintaining pressure. (Timing: Smooth continuous motion following grip adjustment)
-4. **Thread the inside leg**: Drive your inside leg through the gap between opponent's legs, positioning your foot past their far hip. This leg will become the bottom of your triangle configuration. Keep your knee bent and active to prevent them from clearing your leg. (Timing: Mid-rotation as hips clear their knee)
-5. **Establish triangle lock**: Bring your outside leg over your inside ankle, creating the figure-four triangle around opponent's thigh. Their knee should be trapped between your hip and the mat, with your legs squeezing together to lock the Saddle position. (Timing: Immediately upon completing hip rotation)
-6. **Secure finishing grip**: Once Saddle is established, secure the opponent's heel with both hands—typically in a cup grip for inside heel hook or cross grip for outside heel hook. Control their knee line with your legs to prevent rotation escape while setting up the finish. (Timing: Within 1-2 seconds of triangle establishment)
+1. **Read defensive indicators**: Identify that opponent's Estima Lock defense is succeeding—their ankle counter-rotation reduces pressure, their free leg begins posting, or their hips start escaping. This recognition triggers the transition rather than continuing a failing attack.
+2. **Maintain leg control**: Shift your grip from the footlock configuration to controlling the opponent's leg above the ankle, typically gripping around their calf or controlling the knee line. This preserves the leg entanglement while freeing your hands for the positional change.
+3. **Initiate backstep rotation**: Rotate your hips in a circular motion toward the outside of the opponent's trapped leg, carrying your body weight behind their knee line. Your inside leg (closer to their hip) begins threading between their legs while maintaining pressure.
+4. **Thread the inside leg**: Drive your inside leg through the gap between opponent's legs, positioning your foot past their far hip. This leg will become the bottom of your triangle configuration. Keep your knee bent and active to prevent them from clearing your leg.
+5. **Establish triangle lock**: Bring your outside leg over your inside ankle, creating the figure-four triangle around opponent's thigh. Their knee should be trapped between your hip and the mat, with your legs squeezing together to lock the Saddle position.
+6. **Secure finishing grip**: Once Saddle is established, secure the opponent's heel with both hands—typically in a cup grip for inside heel hook or cross grip for outside heel hook. Control their knee line with your legs to prevent rotation escape while setting up the finish.
 
 
 </section>
@@ -252,19 +252,15 @@ Timing is critical for this transition. Executing too early abandons a potential
 ## Training Progressions
 **Week 1-2** - Backstep mechanics isolation
 Practice the backstep rotation without resistance, focusing on hip movement pathway, maintaining leg contact throughout, and achieving proper triangle position. Partner remains static while you drill the movement pattern 20-30 repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner applies progressive Estima Lock defenses (counter-rotation, posting, hip escape) at 30% resistance while you identify defensive success indicators and initiate transition at appropriate timing windows. Focus on reading resistance rather than forcing position.
-(Resistance: Light)
 
 **Week 5-6** - Chain completion
 Begin from Estima Lock attempt, transition to Saddle when partner defends, then immediately pursue heel hook or kneebar finish. Partner provides 50-60% resistance throughout the chain. Practice both completing the Saddle and recognizing when to abort for alternative positions.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Start from Estima Lock position with full resistance. Top player attempts footlock or transitions to Saddle based on partner's defense. Bottom player works legitimate escapes. Track success rates for both Estima Lock finishes and successful Saddle transitions.
-(Resistance: Full)
 
 
 

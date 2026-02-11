@@ -157,7 +157,7 @@ The technique requires understanding how the reversed orientation changes both s
 Strategically, this escape represents the completion phase of a defensive inversion sequence. Practitioners who stall halfway through inversion find themselves in the worst possible configuration—inverted yet fully entangled. The escape must be executed with commitment and proper sequencing: protect the heel first, control the opponent's inside knee second, clear the outside leg third, and extract the trapped leg last. Understanding when to accept transitional positions like turtle or deep half guard rather than forcing complete extraction against deep control is equally important for defensive success across all skill levels.
 
 **From Position**: [[Ushiro Ashi-Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ Strategically, this escape represents the completion phase of a defensive invers
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect the heel**: Immediately establish dorsiflexion on the trapped foot by pulling toes toward your shin and activating the anterior tibialis. This closes the heel exposure gap that the attacker needs for heel hook finishing grips. Maintain this foot position throughout the entire escape sequence without relaxation. (Timing: Immediate upon recognizing reversed entanglement)
-2. **Control inside knee**: Use both hands to grip the opponent's inside knee, which is the primary control point preventing saddle transition. Push this knee away from your centerline to create separation between their inside leg and your trapped thigh. This grip also prevents them from deepening the figure-four configuration around your leg. (Timing: Within 1-2 seconds of heel protection)
-3. **Establish free leg frame**: Place the sole of your free foot against the opponent's near hip or inner thigh to create a pushing frame. This foot-on-hip position generates the space needed for leg extraction by driving their lower body away from yours. Keep the free leg bent with knee pointed outward to maximize pushing leverage. (Timing: Simultaneously with inside knee control)
-4. **Clear outside leg**: Use your free leg's pushing frame combined with hip rotation to peel the opponent's outside leg off your trapped knee. Push their hip away while rotating your trapped leg's knee inward toward your own centerline. The combination of distance creation and knee angle change releases the crossing pressure of their outside leg. (Timing: Once pushing frame is established)
-5. **Extract trapped leg**: With the outside leg cleared, pull your trapped leg toward your body using hip flexion while continuing to push the opponent's hips away with your free foot. Retract the knee first, then slide the foot free by pulling it through the remaining inside leg control. Maintain dorsiflexion throughout extraction to prevent last-second heel hook catches. (Timing: Immediately after clearing outside leg)
-6. **Establish guard position**: As the trapped leg clears, immediately insert both feet on the opponent's hips or establish shin frames across their thighs to create open guard structure. Grip their sleeves, wrists, or collar to establish upper body connection points. Do not rest after extraction—transition directly to active guard to prevent immediate re-entanglement or passing attempts. (Timing: Continuous flow from extraction)
+1. **Protect the heel**: Immediately establish dorsiflexion on the trapped foot by pulling toes toward your shin and activating the anterior tibialis. This closes the heel exposure gap that the attacker needs for heel hook finishing grips. Maintain this foot position throughout the entire escape sequence without relaxation.
+2. **Control inside knee**: Use both hands to grip the opponent's inside knee, which is the primary control point preventing saddle transition. Push this knee away from your centerline to create separation between their inside leg and your trapped thigh. This grip also prevents them from deepening the figure-four configuration around your leg.
+3. **Establish free leg frame**: Place the sole of your free foot against the opponent's near hip or inner thigh to create a pushing frame. This foot-on-hip position generates the space needed for leg extraction by driving their lower body away from yours. Keep the free leg bent with knee pointed outward to maximize pushing leverage.
+4. **Clear outside leg**: Use your free leg's pushing frame combined with hip rotation to peel the opponent's outside leg off your trapped knee. Push their hip away while rotating your trapped leg's knee inward toward your own centerline. The combination of distance creation and knee angle change releases the crossing pressure of their outside leg.
+5. **Extract trapped leg**: With the outside leg cleared, pull your trapped leg toward your body using hip flexion while continuing to push the opponent's hips away with your free foot. Retract the knee first, then slide the foot free by pulling it through the remaining inside leg control. Maintain dorsiflexion throughout extraction to prevent last-second heel hook catches.
+6. **Establish guard position**: As the trapped leg clears, immediately insert both feet on the opponent's hips or establish shin frames across their thighs to create open guard structure. Grip their sleeves, wrists, or collar to establish upper body connection points. Do not rest after extraction—transition directly to active guard to prevent immediate re-entanglement or passing attempts.
 
 
 </section>
@@ -258,19 +258,15 @@ Strategically, this escape represents the completion phase of a defensive invers
 ## Training Progressions
 **Week 1-2** - Heel protection and body mechanics
 Drill dorsiflexion maintenance under simulated pressure. Practice the six-step sequence as isolated movements with a compliant partner. Focus on inside knee control grips, free leg pushing frame placement, and sequential leg clearing mechanics without resistance. Build muscle memory for each step before combining them.
-(Resistance: None)
 
 **Week 3-4** - Timing and grip fighting integration
 Partner applies light grip fighting resistance on the trapped leg while you execute the escape sequence. Practice recognizing the timing windows created by opponent's grip adjustments. Introduce decision-making between full extraction to open guard versus accepting turtle when control is too deep.
-(Resistance: Light)
 
 **Week 5-6** - Counter-response combinations
 Partner attempts realistic counters including saddle transitions, heel hook acceleration, and re-entanglement. Practice chaining the escape with Granby roll to turtle when primary extraction is blocked. Develop the ability to switch between escape paths based on opponent's defensive reactions mid-sequence.
-(Resistance: Medium)
 
 **Week 7+** - Live application and scramble integration
 Full resistance positional sparring starting from ushiro ashi-garami bottom. Train escape success rate tracking across rounds. Integrate the escape into complete leg lock defense systems including initial ashi-garami defense, inversion, ushiro escape, and guard recovery as one continuous defensive chain.
-(Resistance: Full)
 
 
 

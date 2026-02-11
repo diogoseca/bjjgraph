@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Aoki Lock to Crucifix transition represents a high-level positional advancement that converts unilateral shoulder lock control into the devastatingly dominant bilateral arm trap of the crucifix. This transition capitalizes on the opponent's defensive responses to the Aoki Lock—when they focus on protecting their trapped shoulder and preventing the finish, they often expose their far arm, creating the opportunity to capture both limbs and achieve complete weapons denial.\n\nFrom a strategic perspective, this transition follows the principle of using submission threats as positional leverage. The Aoki Lock's shoulder pressure forces the opponent to commit defensive resources, frequently requiring them to post or frame with their free arm. This defensive commitment creates the entry window for crucifix capture. The transition requires precise timing, reading the opponent's weight distribution, and the technical ability to maintain control of the initially trapped arm while securing the second.\n\nThe crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.",
   "key_principles": [
     "Use the Aoki Lock shoulder pressure as bait to force opponent's far arm into a catchable position",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Increase shoulder pressure",
-      "description": "Drive your hips forward and down into opponent's trapped shoulder, intensifying the Aoki Lock threat. This forces them to react defensively, typically by posting their free hand or attempting to roll.",
-      "timing": "Maintain pressure for 2-3 seconds to force defensive commitment"
+      "description": "Drive your hips forward and down into opponent's trapped shoulder, intensifying the Aoki Lock threat. This forces them to react defensively, typically by posting their free hand or attempting to roll."
     },
     {
       "step_number": 2,
       "action": "Identify far arm position",
-      "description": "While maintaining shoulder pressure, observe where opponent's free arm has moved in response to your attack. Look for posting on the mat, reaching across to defend, or framing against your body.",
-      "timing": "Immediately upon seeing arm commitment"
+      "description": "While maintaining shoulder pressure, observe where opponent's free arm has moved in response to your attack. Look for posting on the mat, reaching across to defend, or framing against your body."
     },
     {
       "step_number": 3,
       "action": "Secure far arm control",
-      "description": "Release one hand from hip control and capture opponent's far arm using overhook, wrist control, or kimura grip configuration. Maintain leg entanglement on near arm throughout this capture.",
-      "timing": "Execute quickly before opponent retracts arm"
+      "description": "Release one hand from hip control and capture opponent's far arm using overhook, wrist control, or kimura grip configuration. Maintain leg entanglement on near arm throughout this capture."
     },
     {
       "step_number": 4,
       "action": "Transition hip position",
-      "description": "Rotate your hips from the Aoki Lock angle (angled for shoulder pressure) to perpendicular alignment behind opponent's shoulders. This repositions you for crucifix control rather than shoulder lock finish.",
-      "timing": "Smooth rotation during arm control"
+      "description": "Rotate your hips from the Aoki Lock angle (angled for shoulder pressure) to perpendicular alignment behind opponent's shoulders. This repositions you for crucifix control rather than shoulder lock finish."
     },
     {
       "step_number": 5,
       "action": "Establish leg triangle",
-      "description": "Adjust your leg entanglement from Aoki Lock configuration to crucifix figure-four: position one leg over opponent's shoulder and the other leg threading under their armpit, locking your legs together.",
-      "timing": "Complete before opponent attempts arm extraction"
+      "description": "Adjust your leg entanglement from Aoki Lock configuration to crucifix figure-four: position one leg over opponent's shoulder and the other leg threading under their armpit, locking your legs together."
     },
     {
       "step_number": 6,
       "action": "Consolidate crucifix control",
-      "description": "Settle your weight onto opponent's upper back and shoulders, maintaining tight leg squeeze on trapped arm and secure grip on far arm. Ensure both arms are completely isolated before threatening submissions.",
-      "timing": "Take 2-3 seconds to fully establish control"
+      "description": "Settle your weight onto opponent's upper back and shoulders, maintaining tight leg squeeze on trapped arm and secure grip on far arm. Ensure both arms are completely isolated before threatening submissions."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Transition mechanics",
-      "description": "Practice the physical movement pattern with compliant partner. Focus on maintaining leg entanglement while capturing far arm and transitioning hip position. No resistance, emphasize smooth execution and proper final position.",
-      "resistance_level": "None"
+      "description": "Practice the physical movement pattern with compliant partner. Focus on maintaining leg entanglement while capturing far arm and transitioning hip position. No resistance, emphasize smooth execution and proper final position."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and recognition",
-      "description": "Partner provides specific defensive reactions (posting, framing, rolling). Practice recognizing which reaction creates the transition opportunity and timing the capture appropriately. Light resistance on arm capture.",
-      "resistance_level": "Light"
+      "description": "Partner provides specific defensive reactions (posting, framing, rolling). Practice recognizing which reaction creates the transition opportunity and timing the capture appropriately. Light resistance on arm capture."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter and re-counter",
-      "description": "Partner actively attempts to prevent crucifix by extracting arm or blocking far arm capture. Practice adjusting to resistance, chaining with alternative transitions (back control, truck) when crucifix is blocked.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to prevent crucifix by extracting arm or blocking far arm capture. Practice adjusting to resistance, chaining with alternative transitions (back control, truck) when crucifix is blocked."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Apply transition in live rolling from Aoki Lock top position. Focus on recognizing genuine opportunities versus forcing transition when opponent is defended. Develop sense of when to commit versus when to maintain Aoki Lock or seek alternative paths.",
-      "resistance_level": "Full"
+      "description": "Apply transition in live rolling from Aoki Lock top position. Focus on recognizing genuine opportunities versus forcing transition when opponent is defended. Develop sense of when to commit versus when to maintain Aoki Lock or seek alternative paths."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Aoki Lock to Crucifix transition?",
-      "answer": "The primary goal is to convert unilateral arm control (Aoki Lock's shoulder isolation) into bilateral arm control (crucifix's complete weapons denial). This positional upgrade eliminates virtually all defensive options and opens multiple high-percentage submission paths including chokes and armbars. The transition uses the submission threat as positional leverage rather than just a finishing mechanism.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert unilateral arm control (Aoki Lock's shoulder isolation) into bilateral arm control (crucifix's complete weapons denial). This positional upgrade eliminates virtually all defensive options and opens multiple high-percentage submission paths including chokes and armbars. The transition uses the submission threat as positional leverage rather than just a finishing mechanism."
     },
     {
       "question": "Why must you maintain leg entanglement on the near arm throughout the entire transition sequence?",
-      "answer": "The leg entanglement on the near arm is your primary control point that allows everything else to happen. If you release this before securing the far arm, opponent immediately extracts their shoulder and escapes to turtle or guard, losing all positional advantage. The near arm control must persist until both arms are trapped in crucifix configuration. It is the anchor that permits the transition.",
-      "difficulty": "Intermediate"
+      "answer": "The leg entanglement on the near arm is your primary control point that allows everything else to happen. If you release this before securing the far arm, opponent immediately extracts their shoulder and escapes to turtle or guard, losing all positional advantage. The near arm control must persist until both arms are trapped in crucifix configuration. It is the anchor that permits the transition."
     },
     {
       "question": "Your opponent keeps their far arm tucked tight against their body—how do you force it into a catchable position?",
-      "answer": "Intensify Aoki Lock shoulder pressure until the pain or danger forces a reaction. Continue threatening the finish while controlling their hips to prevent escape. Eventually they must either use the arm to defend, post to create movement, or accept the submission. If they are extremely disciplined in keeping the arm protected, transition to back control or truck instead, which remain available from Aoki Lock top.",
-      "difficulty": "Intermediate"
+      "answer": "Intensify Aoki Lock shoulder pressure until the pain or danger forces a reaction. Continue threatening the finish while controlling their hips to prevent escape. Eventually they must either use the arm to defend, post to create movement, or accept the submission. If they are extremely disciplined in keeping the arm protected, transition to back control or truck instead, which remain available from Aoki Lock top."
     },
     {
       "question": "What defensive reaction from the opponent creates the optimal window for crucifix entry?",
-      "answer": "The optimal window occurs when opponent posts their free hand on the mat or reaches across their body to defend the shoulder lock. This committed arm position takes the limb away from body protection and places it in a catchable location. The posting arm particularly creates opportunity because it is weight-bearing and cannot be quickly retracted without destabilizing the opponent.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal window occurs when opponent posts their free hand on the mat or reaches across their body to defend the shoulder lock. This committed arm position takes the limb away from body protection and places it in a catchable location. The posting arm particularly creates opportunity because it is weight-bearing and cannot be quickly retracted without destabilizing the opponent."
     },
     {
       "question": "How do you establish proper figure-four leg configuration when transitioning from Aoki Lock to crucifix?",
-      "answer": "The Aoki Lock leg position must be adjusted: transition from the shoulder pressure angle to threading one leg over opponent's shoulder and the other under their armpit. Lock your legs together in figure-four configuration with constant inward squeeze. This creates the characteristic crucifix arm trap. The key is smooth transition without creating slack—adjust leg position while maintaining pressure throughout.",
-      "difficulty": "Advanced"
+      "answer": "The Aoki Lock leg position must be adjusted: transition from the shoulder pressure angle to threading one leg over opponent's shoulder and the other under their armpit. Lock your legs together in figure-four configuration with constant inward squeeze. This creates the characteristic crucifix arm trap. The key is smooth transition without creating slack—adjust leg position while maintaining pressure throughout."
     },
     {
       "question": "Your opponent rolls forward as you attempt the crucifix transition—how do you capitalize on this movement?",
-      "answer": "Follow the roll rather than fighting it, maintaining whatever arm control exists. The roll often converts directly to back control with seatbelt if you stay connected to their upper body. From back control you can then work toward crucifix. Alternatively, if you maintained leg control on near arm during roll, you may end up in crucifix on the opposite side. The key is staying tight and using their momentum.",
-      "difficulty": "Advanced"
+      "answer": "Follow the roll rather than fighting it, maintaining whatever arm control exists. The roll often converts directly to back control with seatbelt if you stay connected to their upper body. From back control you can then work toward crucifix. Alternatively, if you maintained leg control on near arm during roll, you may end up in crucifix on the opposite side. The key is staying tight and using their momentum."
     },
     {
       "question": "What grip should you prioritize when capturing the far arm, and why?",
-      "answer": "Overhook or kimura grip provide the most secure control during the hip transition phase. Wrist grip alone may be stripped during the position change. The kimura grip particularly offers dual benefits: secure arm control and immediate submission threat once crucifix is established. Prioritize grip security over speed—a broken grip during transition means failed attempt and potential escape.",
-      "difficulty": "Advanced"
+      "answer": "Overhook or kimura grip provide the most secure control during the hip transition phase. Wrist grip alone may be stripped during the position change. The kimura grip particularly offers dual benefits: secure arm control and immediate submission threat once crucifix is established. Prioritize grip security over speed—a broken grip during transition means failed attempt and potential escape."
     },
     {
       "question": "How do you determine when to abandon the crucifix attempt and return to Aoki Lock or seek alternative transition?",
-      "answer": "Abandon the attempt if: near arm begins extracting from leg entanglement, far arm remains protected despite multiple pressure cycles, or opponent creates significant base that prevents hip transition. Return to Aoki Lock if shoulder control remains solid. Transition to back control if rolling creates opportunity. Transition to truck if leg positioning allows. The crucifix transition should not be forced when conditions are unfavorable.",
-      "difficulty": "Advanced"
+      "answer": "Abandon the attempt if: near arm begins extracting from leg entanglement, far arm remains protected despite multiple pressure cycles, or opponent creates significant base that prevents hip transition. Return to Aoki Lock if shoulder control remains solid. Transition to back control if rolling creates opportunity. Transition to truck if leg positioning allows. The crucifix transition should not be forced when conditions are unfavorable."
     }
   ],
   "safety_considerations": "This transition involves shoulder joint manipulation from the initial Aoki Lock position. While the crucifix destination is primarily a control position, the path through Aoki Lock involves rotational stress on the shoulder capsule. Always use progressive pressure rather than explosive movements. Partners should communicate clearly and tap immediately if shoulder pressure becomes dangerous during the transition. Training partners must be familiar with Aoki Lock dangers before practicing this transition. Avoid applying full pressure during transition drilling—focus on mechanics and timing rather than submission threat.",
@@ -260,5 +237,6 @@
       "name": "Kimura Trap",
       "relationship": "Related shoulder control system with transition options"
     }
-  ]
+  ],
+  "success_rate": 58
 }

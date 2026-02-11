@@ -9,11 +9,6 @@
     "headquarters",
     "half_guard"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.",
   "key_principles": [
     "Establish crossface control to prevent opponent's head movement and frame creation",
@@ -36,38 +31,32 @@
     {
       "step_number": 1,
       "action": "Establish crossface control",
-      "description": "From top half guard, drive your shoulder across the opponent's face while securing an underhook or crossface grip. Your weight should be forward on your opponent's chest, preventing them from creating frames or sitting up. Keep your hips heavy and connected to their bottom hip.",
-      "timing": "Initial control phase"
+      "description": "From top half guard, drive your shoulder across the opponent's face while securing an underhook or crossface grip. Your weight should be forward on your opponent's chest, preventing them from creating frames or sitting up. Keep your hips heavy and connected to their bottom hip."
     },
     {
       "step_number": 2,
       "action": "Control the near leg",
-      "description": "Use your trapped leg to apply pressure on the opponent's bottom hip while simultaneously working to control their near leg (the leg closest to you). This can be done by cupping under their knee or using your free hand to control their thigh, preventing deep half guard entries.",
-      "timing": "Simultaneous with crossface establishment"
+      "description": "Use your trapped leg to apply pressure on the opponent's bottom hip while simultaneously working to control their near leg (the leg closest to you). This can be done by cupping under their knee or using your free hand to control their thigh, preventing deep half guard entries."
     },
     {
       "step_number": 3,
       "action": "Establish headquarters position",
-      "description": "Position your free leg (the one not trapped) into a headquarters stance - knee up, foot planted near opponent's hip. Your shin may rest on their bottom thigh, creating a barrier. Your chest remains heavy on their chest with constant crossface pressure. This is the stable headquarters platform.",
-      "timing": "Hold this position for 1-2 seconds to assess"
+      "description": "Position your free leg (the one not trapped) into a headquarters stance - knee up, foot planted near opponent's hip. Your shin may rest on their bottom thigh, creating a barrier. Your chest remains heavy on their chest with constant crossface pressure. This is the stable headquarters platform."
     },
     {
       "step_number": 4,
       "action": "Clear the far leg",
-      "description": "While maintaining crossface and near leg control, use your free hand or knee to clear the opponent's far leg (top leg). This may involve pushing their knee down, stepping over it, or using a knee slice motion to move it away from your hip. Prevent them from establishing a knee shield.",
-      "timing": "Deliberate clearing motion"
+      "description": "While maintaining crossface and near leg control, use your free hand or knee to clear the opponent's far leg (top leg). This may involve pushing their knee down, stepping over it, or using a knee slice motion to move it away from your hip. Prevent them from establishing a knee shield."
     },
     {
       "step_number": 5,
       "action": "Extract trapped leg",
-      "description": "Once the far leg is cleared and controlled, focus on extracting your trapped leg from the half guard. Keep your weight forward while pulling your knee through the gap. You may need to angle your hips slightly or use a small hop to fully clear the legs.",
-      "timing": "Quick extraction once space is created"
+      "description": "Once the far leg is cleared and controlled, focus on extracting your trapped leg from the half guard. Keep your weight forward while pulling your knee through the gap. You may need to angle your hips slightly or use a small hop to fully clear the legs."
     },
     {
       "step_number": 6,
       "action": "Transition to side control",
-      "description": "As your leg clears, immediately transition your hips to a perpendicular position relative to your opponent's body. Maintain the crossface, establish chest-to-chest pressure, and secure a strong side control position. Your near arm should control the far hip while your far arm maintains head control.",
-      "timing": "Immediate transition upon leg extraction"
+      "description": "As your leg clears, immediately transition your hips to a perpendicular position relative to your opponent's body. Maintain the crossface, establish chest-to-chest pressure, and secure a strong side control position. Your near arm should control the far hip while your far arm maintains head control."
     }
   ],
   "common_counters": [
@@ -128,32 +117,27 @@
     {
       "phase": "Week 1-2: Position Establishment",
       "focus": "Learning to establish and maintain headquarters position",
-      "description": "Partner starts in half guard, you work solely on achieving headquarters position with proper crossface, near leg control, and shoulder pressure. Hold position for 10-15 seconds. Partner provides no resistance.",
-      "resistance_level": "None"
+      "description": "Partner starts in half guard, you work solely on achieving headquarters position with proper crossface, near leg control, and shoulder pressure. Hold position for 10-15 seconds. Partner provides no resistance."
     },
     {
       "phase": "Week 3-4: Leg Clearing Mechanics",
       "focus": "Developing the far leg clearing and trapped leg extraction sequence",
-      "description": "From established headquarters, practice the clearing and extraction movements in isolation. Partner provides light resistance to leg clearing but allows completion. Focus on maintaining crossface throughout.",
-      "resistance_level": "Light"
+      "description": "From established headquarters, practice the clearing and extraction movements in isolation. Partner provides light resistance to leg clearing but allows completion. Focus on maintaining crossface throughout."
     },
     {
       "phase": "Week 5-8: Integrated Passing",
       "focus": "Complete headquarters pass with moderate resistance",
-      "description": "Execute full pass sequence from half guard to side control. Partner actively defends with frames and attempts to retain guard but does not attempt sweeps. Work on timing and pressure maintenance.",
-      "resistance_level": "Medium"
+      "description": "Execute full pass sequence from half guard to side control. Partner actively defends with frames and attempts to retain guard but does not attempt sweeps. Work on timing and pressure maintenance."
     },
     {
       "phase": "Week 9-12: Counter Response",
       "focus": "Dealing with common defensive reactions",
-      "description": "Partner specifically works underhooks, knee shields, and deep half attempts. Practice recognizing and responding to these counters while maintaining passing momentum.",
-      "resistance_level": "Medium"
+      "description": "Partner specifically works underhooks, knee shields, and deep half attempts. Practice recognizing and responding to these counters while maintaining passing momentum."
     },
     {
       "phase": "Month 4+: Live Training",
       "focus": "Full resistance application",
-      "description": "Execute headquarters pass during positional sparring and live rolling. Start from half guard top position and work to complete pass against fully resisting opponents.",
-      "resistance_level": "Full"
+      "description": "Execute headquarters pass during positional sparring and live rolling. Start from half guard top position and work to complete pass against fully resisting opponents."
     }
   ],
   "variants_and_adaptations": [
@@ -176,33 +160,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary control point that must be maintained throughout the entire headquarters pass sequence?",
-      "answer": "The crossface or shoulder pressure across the opponent's face/chest is the primary control point. This prevents the opponent from sitting up, creating frames, or establishing defensive posture. Without constant upper body control, the opponent can recover guard or create sweeping opportunities regardless of leg positioning.",
-      "difficulty": "Beginner"
+      "answer": "The crossface or shoulder pressure across the opponent's face/chest is the primary control point. This prevents the opponent from sitting up, creating frames, or establishing defensive posture. Without constant upper body control, the opponent can recover guard or create sweeping opportunities regardless of leg positioning."
     },
     {
       "question": "Why must the far leg be cleared before attempting to extract the trapped leg?",
-      "answer": "Clearing the far leg first prevents the opponent from re-establishing a knee shield or recovering full guard during your extraction. If you attempt to extract your trapped leg while the opponent's far leg is still active, they can use that leg to create frames, block your movement, or immediately recover half guard position. Proper sequencing ensures minimal risk of re-guard.",
-      "difficulty": "Intermediate"
+      "answer": "Clearing the far leg first prevents the opponent from re-establishing a knee shield or recovering full guard during your extraction. If you attempt to extract your trapped leg while the opponent's far leg is still active, they can use that leg to create frames, block your movement, or immediately recover half guard position. Proper sequencing ensures minimal risk of re-guard."
     },
     {
       "question": "How should you respond if your opponent establishes a strong underhook while you are in headquarters position?",
-      "answer": "If the opponent secures a strong underhook, you should immediately circle your hips away from the underhook direction to prevent them from coming up or creating sweeping angles. Maintain your crossface pressure while either establishing a whizzer on their underhooking arm or transitioning to a different passing angle such as backstep or long step. Never allow them to use the underhook to sit up or square their hips to you.",
-      "difficulty": "Advanced"
+      "answer": "If the opponent secures a strong underhook, you should immediately circle your hips away from the underhook direction to prevent them from coming up or creating sweeping angles. Maintain your crossface pressure while either establishing a whizzer on their underhooking arm or transitioning to a different passing angle such as backstep or long step. Never allow them to use the underhook to sit up or square their hips to you."
     },
     {
       "question": "What is the key difference between headquarters position and standard half guard top position?",
-      "answer": "Headquarters position is a specific controlling position within half guard top where the passer has established crossface control, near leg control, and has positioned their free leg in a headquarters stance (knee up, shin potentially blocking). Standard half guard top can be any position where you are on top in half guard, but headquarters is a specific, more controlled platform that neutralizes most half guard attacks and sets up high-percentage passing sequences.",
-      "difficulty": "Intermediate"
+      "answer": "Headquarters position is a specific controlling position within half guard top where the passer has established crossface control, near leg control, and has positioned their free leg in a headquarters stance (knee up, shin potentially blocking). Standard half guard top can be any position where you are on top in half guard, but headquarters is a specific, more controlled platform that neutralizes most half guard attacks and sets up high-percentage passing sequences."
     },
     {
       "question": "What are the most common mistakes that cause headquarters passes to fail?",
-      "answer": "The most common mistakes include: losing crossface pressure which allows opponent to create frames or sit up; standing too upright which reduces control and allows guard recovery; attempting to extract the trapped leg before clearing the far leg; leaving space at the hips during transition which enables re-guard; and rushing the position without establishing proper controls. Each of these errors gives the opponent opportunities to defend, retain guard, or even sweep.",
-      "difficulty": "Beginner"
+      "answer": "The most common mistakes include: losing crossface pressure which allows opponent to create frames or sit up; standing too upright which reduces control and allows guard recovery; attempting to extract the trapped leg before clearing the far leg; leaving space at the hips during transition which enables re-guard; and rushing the position without establishing proper controls. Each of these errors gives the opponent opportunities to defend, retain guard, or even sweep."
     },
     {
       "question": "How does weight distribution change throughout the headquarters pass sequence and why is this important?",
-      "answer": "Weight distribution should remain primarily forward throughout the sequence, with your chest pressure on the opponent's torso. During leg extraction, there may be a momentary shift, but you must immediately return pressure forward as you transition to side control. This constant forward pressure prevents the opponent from sitting up, creating space, or establishing defensive frames. If you shift your weight backward or upward during any phase, you give the opponent the space they need to recover guard or initiate defensive tactics.",
-      "difficulty": "Advanced"
+      "answer": "Weight distribution should remain primarily forward throughout the sequence, with your chest pressure on the opponent's torso. During leg extraction, there may be a momentary shift, but you must immediately return pressure forward as you transition to side control. This constant forward pressure prevents the opponent from sitting up, creating space, or establishing defensive frames. If you shift your weight backward or upward during any phase, you give the opponent the space they need to recover guard or initiate defensive tactics."
     }
   ],
   "safety_considerations": "The headquarters pass is generally a safe technique for both practitioners when executed with proper control. The passer should be mindful of maintaining shoulder pressure without driving their shoulder point directly into the opponent's face or throat, which can cause discomfort or injury. When extracting the trapped leg, avoid explosive or jerking motions that could strain your own knee or the opponent's leg if they are holding tight grips. During training, both partners should communicate if grips or pressure become uncomfortable. The bottom player should tap if they feel their neck is being cranked or if they experience any joint discomfort from leg entanglement. Practice this technique progressively with cooperative partners before attempting it at full intensity to develop proper mechanics and avoid injury during the learning phase.",
@@ -266,5 +244,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

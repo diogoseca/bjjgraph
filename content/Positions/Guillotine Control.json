@@ -23,7 +23,7 @@
       "relationship": "Alternative submission when opponent turns into guillotine defense"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Alternative submission when opponent rotates away from guillotine pressure"
     },
     {
@@ -177,7 +177,7 @@
           },
           {
             "technique": "Front Headlock to Darce",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 63
           }
         ]
@@ -287,7 +287,7 @@
         "relationship": "Transition target - common alternative when guillotine is defended"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Transition target - alternative choke when opponent turns into guillotine"
       },
       {
@@ -317,19 +317,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 68,
-        "advanced": 78
+        "value": 73
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 62,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "average_time": "30-90 seconds"
     },
@@ -340,31 +334,35 @@
       },
       {
         "transition": "High Elbow Guillotine",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Arm in Guillotine",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 13
+        "attempt_probability": 12
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Guard Pass",
-        "attempt_probability": 13
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Guillotine Counter",
+        "attempt_probability": 11
       }
     ]
   },
@@ -630,19 +628,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
+        "value": 55
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 65
+        "value": 52
       },
       "average_time": "20-45 seconds before resolution (finish or position change)"
     },

@@ -157,7 +157,7 @@ The technique requires understanding the mechanical principles of how the lapel 
 Strategically, this extraction must be completed before attempting any guard passing sequences. The lapel wrap converts your forward pressure and explosive movements into sweeping momentum for the bottom player, making aggressive passing attempts counterproductive. Master this extraction to neutralize modern lapel guard systems and restore your ability to implement your preferred passing game.
 
 **From Position**: [[Ringworm Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this extraction must be completed before attempting any guard pas
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess the wrap configuration**: Identify exactly how the lapel is threaded around your leg and where the opponent's grip is securing the tail. Note their secondary grips on your sleeves, collar, or pants that will interfere with extraction. (Timing: Before committing to extraction)
-2. **Control the grip-fighting hand**: Use your lead hand to control the opponent's wrist or sleeve on their non-lapel hand. This prevents them from establishing additional control points or re-gripping while you work the extraction. (Timing: Immediately upon deciding to extract)
-3. **Create slack in the system**: Step your trapped leg slightly toward the opponent and angle your hip inward. This creates momentary slack in the lapel wrap by reducing the tension between their grip and your leg position. (Timing: Coordinate with next grip break)
-4. **Strip the lapel grip**: While maintaining the slack, use your free hand to peel the lapel material away from your leg starting at the point furthest from their grip. Work the material off systematically rather than yanking directly against their grip strength. (Timing: During the slack window)
-5. **Extract the leg through the opening**: As the lapel loosens, step your leg backward and outward in a circular motion to extract it from the wrap completely. Keep your weight back and hips heavy to prevent being pulled forward into a sweep. (Timing: As soon as sufficient slack exists)
-6. **Establish neutral position**: Immediately widen your base, square your hips to the opponent, and establish combat base or headquarters position. Discard the loose lapel to prevent re-threading and begin your preferred guard passing sequence. (Timing: Immediately upon extraction)
+1. **Assess the wrap configuration**: Identify exactly how the lapel is threaded around your leg and where the opponent's grip is securing the tail. Note their secondary grips on your sleeves, collar, or pants that will interfere with extraction.
+2. **Control the grip-fighting hand**: Use your lead hand to control the opponent's wrist or sleeve on their non-lapel hand. This prevents them from establishing additional control points or re-gripping while you work the extraction.
+3. **Create slack in the system**: Step your trapped leg slightly toward the opponent and angle your hip inward. This creates momentary slack in the lapel wrap by reducing the tension between their grip and your leg position.
+4. **Strip the lapel grip**: While maintaining the slack, use your free hand to peel the lapel material away from your leg starting at the point furthest from their grip. Work the material off systematically rather than yanking directly against their grip strength.
+5. **Extract the leg through the opening**: As the lapel loosens, step your leg backward and outward in a circular motion to extract it from the wrap completely. Keep your weight back and hips heavy to prevent being pulled forward into a sweep.
+6. **Establish neutral position**: Immediately widen your base, square your hips to the opponent, and establish combat base or headquarters position. Discard the loose lapel to prevent re-threading and begin your preferred guard passing sequence.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this extraction must be completed before attempting any guard pas
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the grip-stripping motion with a compliant partner. Focus on hand placement, the peeling motion, and creating slack through hip position. Partner maintains static grip without resistance.
-(Resistance: None)
 
 **Week 3-4** - Coordination and timing
 Add the full extraction sequence with light resistance. Partner attempts to retighten the wrap, requiring you to time the slack creation with the grip strip. Begin integrating base defense.
-(Resistance: Light)
 
 **Week 5-6** - Defense integration
 Partner actively threatens sweeps and back takes during extraction attempts. Focus on maintaining squared shoulders, recognizing sweep attempts, and aborting when necessary to reset.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance rolling with specific entry from Ringworm Guard. Partner uses full variety of attacks while you implement extraction. Track success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

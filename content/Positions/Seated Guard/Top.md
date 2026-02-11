@@ -381,11 +381,11 @@ Start with you standing/kneeling and partner in seated guard. Attempt to pass. P
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 15% |
-| Intermediate | 60% | 55% | 25% |
-| Advanced     | 75% | 70% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 30-90 seconds
 

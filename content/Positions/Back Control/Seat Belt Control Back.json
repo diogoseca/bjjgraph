@@ -280,21 +280,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Ability to maintain seat belt control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Likelihood of advancing to submission or superior control position"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Probability of finishing opponent with submission from this position"
       },
       "average_time": "1-3 minutes"
@@ -302,15 +296,15 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 14
+        "attempt_probability": 22
       },
       {
         "transition": "Armbar from Back with Legs",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Armbar from Back",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "Bow and Arrow Choke",
@@ -318,7 +312,7 @@
       },
       {
         "transition": "Back Control to Crucifix",
-        "attempt_probability": 11
+        "attempt_probability": 8
       },
       {
         "transition": "Triangle from Back",
@@ -326,15 +320,15 @@
       },
       {
         "transition": "Short Choke",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Back Control Maintenance",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Body Triangle Lock",
         "attempt_probability": 8
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Turtle to Truck",
-        "attempt_probability": 12
       }
     ],
     "knowledge_assessment": [
@@ -568,49 +562,39 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Ability to survive and maintain defensive position without being submitted"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
+        "value": 48,
         "description": "Likelihood of successfully escaping to neutral or better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Probability of counter-attacking from this defensive position"
       },
       "average_time": "30-90 seconds before escape or submission"
     },
     "transitions": [
       {
-        "transition": "Elbow Escape",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Hip Escape",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Rolling Escape",
-        "attempt_probability": 16
-      },
-      {
         "transition": "Back Escape Series",
-        "attempt_probability": 14
+        "attempt_probability": 18
       },
       {
         "transition": "Hand Fighting",
-        "attempt_probability": 21
+        "attempt_probability": 34
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 13
+        "transition": "Granby Roll Escape",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Elbow Escape to Remove Hooks",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Hand Fighting from Back",
+        "attempt_probability": 18
       }
     ],
     "knowledge_assessment": [

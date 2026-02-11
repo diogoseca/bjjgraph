@@ -163,7 +163,7 @@ The Long Step Pass exemplifies the principle of pressure over speed, using super
 What makes the Long Step Pass particularly effective is its ability to shut down the opponent's ability to create space or re-guard. The combination of grip control, strategic stepping, and pressure application forces the bottom player into increasingly defensive positions until the pass is complete. This makes it one of the highest-percentage passes in both gi and no-gi grappling.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -213,13 +213,13 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Control Grips**: From standing or combat base position, establish strong grips on the opponent's pants at the knees or belt. In gi, you can also control the collar with one hand while controlling the near leg with the other. Your posture should be upright with hips pushed forward to create pressure and prevent the opponent from off-balancing you backward. Your weight distribution should favor your lead leg, allowing the back leg to step freely. (Timing: Initial setup phase - take time to establish dominant grips)
-2. **Create Passing Angle**: Begin to angle your body approximately 45 degrees to the side you intend to pass. Push the opponent's knees down and away while maintaining your upright posture. This creates the initial angle and begins to flatten the opponent's guard structure. Your head should stay over your hips to maintain balance and prevent being pulled forward into closed guard or triangles. (Timing: Continuous pressure - don't allow opponent to recover guard structure)
-3. **Execute Long Step**: Take a large step with your outside leg, placing your foot near the opponent's hip on the side you're passing. This is the defining characteristic of the Long Step Pass - the step should be deep enough to put your knee past the opponent's hip line. As you step, drive your weight forward and down, using your chest to create heavy pressure on the opponent's torso. Your hips should remain low and mobile. (Timing: Explosive step combined with weight commitment - full commitment to the pass)
-4. **Control Near Leg**: With your near-side hand, secure control of the opponent's near leg, typically by cupping behind the knee or controlling the ankle. This prevents the opponent from inserting the knee shield or recovering guard. Your opposite hand should now move to control the upper body, either with a crossface, underhook, or collar grip. The combination of upper and lower body control creates a powerful passing frame. (Timing: Immediate after the long step - don't allow time for opponent to create frames)
-5. **Apply Crossface Pressure**: Drive your shoulder across the opponent's face while maintaining control of the near leg. This crossface pressure serves multiple purposes: it prevents the opponent from turning into you, controls their head position, and creates significant discomfort that encourages defensive reactions. Your chest should be heavy on the opponent's chest, making it difficult for them to breathe or create space. (Timing: Sustained pressure throughout the pass completion)
-6. **Circle to Side Control**: While maintaining crossface and leg control, circle your hips around the opponent's guard until you achieve side control position. Your inside leg should slide back as you rotate, allowing your hips to settle next to the opponent's hips. Keep constant pressure throughout this movement - any space you allow gives the opponent opportunity to re-guard or escape. (Timing: Smooth circular motion - no pauses or hesitation)
-7. **Consolidate Side Control**: Establish proper side control position with chest-to-chest pressure, underhook or crossface control, and hip placement that prevents the opponent from turning in or creating space. Your weight should be distributed across the opponent's chest and your base should be wide enough to prevent being rolled. Secure your grips and prepare for submission attacks or positional advancement. (Timing: Final consolidation - ensure position is secured before attacking)
+1. **Establish Control Grips**: From standing or combat base position, establish strong grips on the opponent's pants at the knees or belt. In gi, you can also control the collar with one hand while controlling the near leg with the other. Your posture should be upright with hips pushed forward to create pressure and prevent the opponent from off-balancing you backward. Your weight distribution should favor your lead leg, allowing the back leg to step freely.
+2. **Create Passing Angle**: Begin to angle your body approximately 45 degrees to the side you intend to pass. Push the opponent's knees down and away while maintaining your upright posture. This creates the initial angle and begins to flatten the opponent's guard structure. Your head should stay over your hips to maintain balance and prevent being pulled forward into closed guard or triangles.
+3. **Execute Long Step**: Take a large step with your outside leg, placing your foot near the opponent's hip on the side you're passing. This is the defining characteristic of the Long Step Pass - the step should be deep enough to put your knee past the opponent's hip line. As you step, drive your weight forward and down, using your chest to create heavy pressure on the opponent's torso. Your hips should remain low and mobile.
+4. **Control Near Leg**: With your near-side hand, secure control of the opponent's near leg, typically by cupping behind the knee or controlling the ankle. This prevents the opponent from inserting the knee shield or recovering guard. Your opposite hand should now move to control the upper body, either with a crossface, underhook, or collar grip. The combination of upper and lower body control creates a powerful passing frame.
+5. **Apply Crossface Pressure**: Drive your shoulder across the opponent's face while maintaining control of the near leg. This crossface pressure serves multiple purposes: it prevents the opponent from turning into you, controls their head position, and creates significant discomfort that encourages defensive reactions. Your chest should be heavy on the opponent's chest, making it difficult for them to breathe or create space.
+6. **Circle to Side Control**: While maintaining crossface and leg control, circle your hips around the opponent's guard until you achieve side control position. Your inside leg should slide back as you rotate, allowing your hips to settle next to the opponent's hips. Keep constant pressure throughout this movement - any space you allow gives the opponent opportunity to re-guard or escape.
+7. **Consolidate Side Control**: Establish proper side control position with chest-to-chest pressure, underhook or crossface control, and hip placement that prevents the opponent from turning in or creating space. Your weight should be distributed across the opponent's chest and your base should be wide enough to prevent being rolled. Secure your grips and prepare for submission attacks or positional advancement.
 
 
 </section>
@@ -269,27 +269,21 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Long step movement pattern and basic pressure application
 Practice the long step motion in isolation without resistance. Partner remains in seated guard while you drill the stepping pattern, ensuring deep placement past the hip line. Focus on maintaining low hips, forward weight distribution, and proper angle creation. Drill should be slow and deliberate with emphasis on correct form over speed. Include grip fighting and basic pressure application.
-(Resistance: None)
 
 **Week 3-4: Adding Control Elements** - Integrating leg control and crossface pressure
 Begin adding defensive frames from the bottom player at 30% resistance. Practice coordinating leg control with crossface pressure while maintaining the long step position. Partner should provide light resistance by attempting to create frames and recover guard. Focus on grip transitions and maintaining constant pressure throughout the passing sequence. Drill completion to side control consolidation.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Passing Sequences** - Dealing with common counters and guard retention attempts
 Increase resistance to 60% with partner actively attempting to prevent the pass using knee shields, butterfly hooks, and framing. Practice reading opponent's defensive patterns and adjusting the pass accordingly. Include transitions to related passes (Knee Slice, Toreando) when the Long Step is countered. Develop flow between different passing options based on opponent's reactions.
-(Resistance: Medium)
 
 **Week 9-12: Competition Simulation** - Full resistance application and timing development
 Live rolling with specific focus on Long Step Pass opportunities. Partner uses full resistance and all available guard retention techniques. Practice recognizing optimal timing for the pass during live movement. Include grip fighting, angle creation under pressure, and maintaining composure when the initial pass attempt is defended. Emphasize completing the pass even when opponent is defending intelligently.
-(Resistance: Full)
 
 **Month 4+: Advanced Applications** - Gi and no-gi variations, combination passing systems
 Refine the Long Step Pass for both gi and no-gi contexts with grip variations appropriate to each. Develop seamless transitions between Long Step and other pressure passes. Practice against different guard styles (De La Riva, Lasso, Butterfly, Seated) adapting the technique to each context. Include study of high-level competitors using this technique and analyze their timing and setup patterns.
-(Resistance: Full)
 
 **Ongoing: Maintenance and Refinement** - Technical precision and problem-solving against specific guards
 Continue drilling the fundamental movement pattern regularly to maintain muscle memory. Film yourself executing the pass during live training and analyze technical details. Identify specific guards or defensive patterns that give you difficulty and develop targeted training protocols. Study instructional content from passing specialists and integrate their concepts into your Long Step Pass.
-(Resistance: Full)
 
 
 

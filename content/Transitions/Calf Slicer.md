@@ -157,7 +157,7 @@ Strategically, the Calf Slicer functions as an excellent secondary attack in the
 The finish requires precise angle control and understanding that the submission works through compression rather than rotation. Your shin must wedge deeply behind their knee joint while you control their ankle and drive your hips forward. The tap typically comes quickly once the position is properly established, as the pain is immediate and attempting to fight through risks muscle damage.
 
 **From Position**: [[Inside Sankaku/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The finish requires precise angle control and understanding that the submission 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the opening**: Identify when opponent straightens their trapped leg, either defensively to hide heel or attempting to create escape space. This extended leg position exposes the calf for compression attack. (Timing: As opponent extends leg)
-2. **Position shin wedge**: Adjust your inside leg so your shin bone sits perpendicular to the back of their knee joint. The blade of your shin should wedge into the soft tissue behind their knee, creating the fulcrum point for compression. (Timing: Immediately after recognizing opening)
-3. **Secure ankle control**: Grab their ankle or foot with both hands, trapping it against your chest or under your armpit. This grip prevents them from bending their knee to relieve pressure and gives you control of the finish. (Timing: Simultaneous with shin positioning)
-4. **Triangle your legs**: Maintain or re-establish your figure-four leg configuration around their thigh, ensuring your outside leg crosses over your inside leg to lock the position and prevent any escape attempt during the finish. (Timing: Before applying finishing pressure)
-5. **Drive hips forward**: Extend your hips forward while pulling their ankle toward your body. This creates the opposing forces that compress their calf muscle against your shin wedge, generating intense pressure. (Timing: Controlled, progressive pressure)
-6. **Complete the compression**: Continue hip extension while maintaining ankle control until opponent taps. The pressure should feel like their calf is being crushed between your shin and their own leg. Hold briefly after tap and release smoothly. (Timing: Maintain until tap)
+1. **Recognize the opening**: Identify when opponent straightens their trapped leg, either defensively to hide heel or attempting to create escape space. This extended leg position exposes the calf for compression attack.
+2. **Position shin wedge**: Adjust your inside leg so your shin bone sits perpendicular to the back of their knee joint. The blade of your shin should wedge into the soft tissue behind their knee, creating the fulcrum point for compression.
+3. **Secure ankle control**: Grab their ankle or foot with both hands, trapping it against your chest or under your armpit. This grip prevents them from bending their knee to relieve pressure and gives you control of the finish.
+4. **Triangle your legs**: Maintain or re-establish your figure-four leg configuration around their thigh, ensuring your outside leg crosses over your inside leg to lock the position and prevent any escape attempt during the finish.
+5. **Drive hips forward**: Extend your hips forward while pulling their ankle toward your body. This creates the opposing forces that compress their calf muscle against your shin wedge, generating intense pressure.
+6. **Complete the compression**: Continue hip extension while maintaining ankle control until opponent taps. The pressure should feel like their calf is being crushed between your shin and their own leg. Hold briefly after tap and release smoothly.
 
 
 </section>
@@ -257,19 +257,15 @@ The finish requires precise angle control and understanding that the submission 
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice shin wedge placement from static Inside Sankaku position. Partner keeps leg extended while you drill positioning your shin perpendicular to their knee joint. Focus on finding the optimal wedge angle and ankle grip without applying pressure.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light heel hook defense by hiding heel and straightening leg. Recognize the calf slicer opening when they extend, and practice the transition from heel hook threat to calf compression. Work on smooth movement between attacks.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain heel hook attempts with calf slicer attacks. When partner defends heel hook by straightening leg, immediately transition to calf compression. When they bend knee to escape calf slicer, return to heel hook. Build the dilemma system.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring from Inside Sankaku with full resistance. Work on recognizing openings, executing calf slicer against defensive opponents, and managing the position when opponents counter. Integrate into full rolling sessions.
-(Resistance: Full)
 
 
 

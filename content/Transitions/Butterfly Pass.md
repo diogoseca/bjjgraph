@@ -159,7 +159,7 @@ description: "Master the Butterfly Pass in BJJ. Complete guide to neutralizing b
 The Butterfly Pass is a fundamental guard passing technique designed to neutralize and overcome the butterfly guard's sweeping threats. This pass relies on superior base, weight distribution, and methodical pressure application to eliminate your opponent's hooks while advancing to a dominant position. The technique represents the essential answer to butterfly guard retention, combining defensive posture with offensive advancement. Understanding this pass is critical because butterfly guard is one of the most dynamic and threatening guard positions in modern BJJ. The passer must simultaneously defend against powerful sweeps while creating angles to pass. Success depends on recognizing when butterfly hooks are vulnerable, maintaining proper base through strategic weight shifting, and exploiting the opponent's reactions to secure dominant control. This pass serves as the foundation for all butterfly guard passing strategies.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -264,27 +264,21 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Establishing proper base, posture, and hook removal mechanics
 Begin with stationary drills focusing on wide base positioning and proper posture from butterfly guard. Practice systematic hook removal on cooperative partners who maintain butterfly position without resistance. Emphasize feeling how hip pressure neutralizes hook leverage. Drill 20-30 repetitions per session focusing on mechanical precision rather than speed.
-(Resistance: None)
 
 **Week 3-4: Pressure Application** - Adding forward pressure and upper body control
 Partner provides light resistance by attempting to maintain hooks and posture. Practice maintaining heavy chest pressure while systematically removing hooks. Begin incorporating collar grips and head control. Work on feeling the timing of when hooks lose mechanical advantage. Drill sequences of hook removal to side control completion with light resistance.
-(Resistance: Light)
 
 **Week 5-8: Counter Defense** - Defending common sweeps and transitions during pass
 Partner actively attempts butterfly sweeps and transitions to deep half or alternative guards. Practice recognizing and countering these attempts while maintaining passing progression. Focus on base maintenance under sweep pressure and preventing common guard transitions. Begin working at moderate speed with realistic resistance levels.
-(Resistance: Medium)
 
 **Week 9-12: Grip Fighting Integration** - Dealing with opponent's grips and upper body defense
 Partner uses full grip fighting and posture maintenance while attempting to prevent the pass. Practice breaking grips, establishing your own controls, and maintaining forward pressure against active resistance. Work on recognizing when opponent's defensive posture creates passing opportunities. Increase intensity to near-competition levels.
-(Resistance: Medium)
 
 **Month 4-6: Competition Application** - Full resistance with strategic decision-making
 Practice against partners who use their best butterfly guard retention and sweeps. Focus on reading opponent's weight distribution and timing hook removal attempts perfectly. Work on chaining this pass with alternative butterfly passing strategies. Include positional sparring starting from butterfly guard with full resistance and competition mindsets.
-(Resistance: Full)
 
 **Ongoing: Variation and Adaptation** - Adapting to different body types and styles
 Practice against various opponents with different butterfly guard styles (aggressive sweepers, technical retainers, transition specialists). Work on adapting your base width, pressure application, and timing based on opponent characteristics. Continue refining technique against increasingly sophisticated butterfly guard players.
-(Resistance: Full)
 
 
 

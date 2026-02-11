@@ -159,7 +159,7 @@ Biomechanically, the move requires threading the shin that was across the oppone
 From a game theory perspective, Advance to Chill Dog forces the opponent into increasingly desperate defensive decisions. Once the leg begins threading deeper, they must choose between accepting the deeper control or attempting explosive escapes that often expose them to armbar, triangle, or omoplata attacks. This dilemma-based approach exemplifies the 10th Planet philosophy of creating no-win situations through systematic positional advancement.
 
 **From Position**: [[New York/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,12 +208,12 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm New York control**: Verify deep overhook with shoulder tight to opponent's armpit, shin across their upper back, and same-side hand gripping your shin near the ankle. Opponent's posture must be fully broken forward. (Timing: Before initiating any movement)
-2. **Rotate hips toward overhook**: Turn your hips slightly toward the overhook side, creating the angle needed for your leg to travel deeper. This rotation loads your weight onto the hip opposite the attacking leg and opens the pathway for the shin to advance. (Timing: As opponent drives forward or attempts posture recovery)
-3. **Release shin grip and guide foot**: Release your grip on your own shin and immediately use that hand to guide your foot around the opponent's neck. The hand transitions from gripping the ankle to cupping under your instep, directing it toward the far side of their neck. (Timing: During hip rotation, in one fluid motion)
-4. **Thread instep around neck**: Drive your instep across the back of opponent's neck, hooking it on the far side. Your shin should now be positioned diagonally across their neck and shoulder rather than across their back. The foot hooks behind their far ear or shoulder. (Timing: Immediately following hand guidance)
-5. **Secure Chill Dog configuration**: Once the foot hooks around, use your hand to grab your own shin or ankle to lock the position. Your leg should form a figure-four style lock with the instep hooked and your hand reinforcing the position. The overhook remains deep throughout. (Timing: As soon as instep clears the neck)
-6. **Adjust angle for attacks**: Fine-tune your hip angle and leg position to maximize pressure on opponent's neck. Pull with your overhook while driving your shin across their throat. This creates the strangling pressure that threatens the gogoplata finish. (Timing: Immediately after securing the position)
+1. **Confirm New York control**: Verify deep overhook with shoulder tight to opponent's armpit, shin across their upper back, and same-side hand gripping your shin near the ankle. Opponent's posture must be fully broken forward.
+2. **Rotate hips toward overhook**: Turn your hips slightly toward the overhook side, creating the angle needed for your leg to travel deeper. This rotation loads your weight onto the hip opposite the attacking leg and opens the pathway for the shin to advance.
+3. **Release shin grip and guide foot**: Release your grip on your own shin and immediately use that hand to guide your foot around the opponent's neck. The hand transitions from gripping the ankle to cupping under your instep, directing it toward the far side of their neck.
+4. **Thread instep around neck**: Drive your instep across the back of opponent's neck, hooking it on the far side. Your shin should now be positioned diagonally across their neck and shoulder rather than across their back. The foot hooks behind their far ear or shoulder.
+5. **Secure Chill Dog configuration**: Once the foot hooks around, use your hand to grab your own shin or ankle to lock the position. Your leg should form a figure-four style lock with the instep hooked and your hand reinforcing the position. The overhook remains deep throughout.
+6. **Adjust angle for attacks**: Fine-tune your hip angle and leg position to maximize pressure on opponent's neck. Pull with your overhook while driving your shin across their throat. This creates the strangling pressure that threatens the gogoplata finish.
 
 
 </section>
@@ -259,19 +259,15 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the leg threading motion with no resistance. Partner holds static New York position while you slowly execute the thread multiple times, focusing on hip rotation and hand guidance. Build muscle memory for the pathway your leg must travel.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light forward pressure while you time the thread to coincide with their drive. Practice recognizing when opponent's weight is forward (optimal timing) versus back (poor timing). Develop sensitivity to weight distribution cues.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the Chill Dog advancement with follow-up attacks. Practice: New York → Chill Dog → gogoplata attempt. Also drill the contingency attacks when Chill Dog is defended: triangle, omoplata, and back take options.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from New York. Partner defends with full resistance. Track success rate and identify your most common failure points. Refine timing and adjust technique based on live feedback.
-(Resistance: Full)
 
 
 

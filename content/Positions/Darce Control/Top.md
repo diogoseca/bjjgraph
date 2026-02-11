@@ -3,8 +3,8 @@
 
 
 ---
-title: "D'arce Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master D'arce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies."
+title: "Darce Control Top | BJJ Position Guide | BJJ Graph"
+description: "Master Darce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies."
 ---
 
 
@@ -15,13 +15,13 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Attack from D'arce Control Top",
-  "description": "Step-by-step guide to attacking and submitting from D'arce Control position in BJJ.",
+  "name": "How to Attack from Darce Control Top",
+  "description": "Step-by-step guide to attacking and submitting from Darce Control position in BJJ.",
   "step": [
     {
       "@type": "HowToStep",
       "name": "Execute Darce Choke",
-      "text": "From this position, attempt Darce Choke. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Darce Choke. This technique is attempted in 26% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda from Turtle",
-      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda from Turtle. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
@@ -108,8 +108,8 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "D'arce Control Top",
-  "description": "Master D'arce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
+  "name": "Darce Control Top",
+  "description": "Master Darce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -139,8 +139,8 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "D'arce Control Top",
-      "item": "https://bjjgraph.org/Positions/D'arce-Control-Top"
+      "name": "Darce Control Top",
+      "item": "https://bjjgraph.org/Positions/Darce-Control-Top"
     }
   ]
 }
@@ -151,11 +151,11 @@ description: "Master D'arce Control Top in BJJ. Dominant front headlock variatio
 
 <section id="overview" class="content-section">
 
-D'arce Control Top represents one of the highest-percentage submission positions in modern Brazilian Jiu-Jitsu, functioning as both a controlling position and a direct pathway to match-ending chokes. The position is characterized by the top practitioner establishing a deep darce grip (also called the brabo choke configuration) around the opponent's head and trapped arm while maintaining superior position from the top. This configuration creates immediate submission pressure while simultaneously controlling the opponent's movement and posture.
+Darce Control Top represents one of the highest-percentage submission positions in modern Brazilian Jiu-Jitsu, functioning as both a controlling position and a direct pathway to match-ending chokes. The position is characterized by the top practitioner establishing a deep darce grip (also called the brabo choke configuration) around the opponent's head and trapped arm while maintaining superior position from the top. This configuration creates immediate submission pressure while simultaneously controlling the opponent's movement and posture.
 
-The D'arce Control Top position emerged from wrestling's front headlock series and was refined through no-gi grappling competition. It represents the perfect intersection of control and submission threat, where the grip itself creates constant pressure that degrades the opponent's defensive capabilities over time. The position is particularly effective because it forces opponents into a defensive shell while the top player maintains multiple finishing options and positional advances.
+The Darce Control Top position emerged from wrestling's front headlock series and was refined through no-gi grappling competition. It represents the perfect intersection of control and submission threat, where the grip itself creates constant pressure that degrades the opponent's defensive capabilities over time. The position is particularly effective because it forces opponents into a defensive shell while the top player maintains multiple finishing options and positional advances.
 
-From a strategic perspective, D'arce Control Top exemplifies the modern submission-hunting approach where positions blur the line between control and finish. The grip configuration allows for immediate submission attempts while maintaining the option to transition to mount, back control, or other dominant positions if the choke is defended. This versatility makes it one of the most feared positions in contemporary BJJ competition.
+From a strategic perspective, Darce Control Top exemplifies the modern submission-hunting approach where positions blur the line between control and finish. The grip configuration allows for immediate submission attempts while maintaining the option to transition to mount, back control, or other dominant positions if the choke is defended. This versatility makes it one of the most feared positions in contemporary BJJ competition.
 
 </section>
 
@@ -202,13 +202,13 @@ From a strategic perspective, D'arce Control Top exemplifies the modern submissi
 
 ## Available Attacks
 
-### [[Darce Choke]] (25% of attempts)
+### [[Darce Choke]] (26% of attempts)
 
 ### [[Side Control to Mount]] (20% of attempts)
 
 ### [[Turtle to Back Take]] (20% of attempts)
 
-### [[Anaconda from Turtle]] (15% of attempts)
+### [[Anaconda from Turtle]] (14% of attempts)
 
 ### [[Side Control to North-South]] (20% of attempts)
 
@@ -313,28 +313,28 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 ## Test Your Knowledge
 
-**Q1**: What adjustment should you make when your opponent starts turning their shoulders toward you while you have D'arce control?
+**Q1**: What adjustment should you make when your opponent starts turning their shoulders toward you while you have Darce control?
 **A**: When the opponent begins turning their shoulders toward you, immediately sprawl your hips back and increase shoulder pressure into the side of their head to prevent the turn from completing. If they continue turning, transition to mount by stepping your leg over their body or take the back if they fully commit to the turn. Never allow them to establish inside position by getting their chest to face yours, as this compromises the arm-in choke structure.
 
-**Q2**: What are the essential grip configurations for maintaining D'arce control position?
+**Q2**: What are the essential grip configurations for maintaining Darce control position?
 **A**: The primary grip is a figure-four lock where your choking arm threads under opponent's armpit, around their neck, and your hand grabs your own bicep while your free hand controls opponent's shoulder or head. Alternative grips include gable grip (palm-to-palm) for maximum squeezing power and S-grip for faster transitions. The key is keeping elbows pinched tight to eliminate any gaps that would allow arm extraction.
 
 **Q3**: Your opponent tucks their chin and brings their elbows tight to their body - what is your best response?
 **A**: When the opponent establishes a strong defensive shell with chin tucked and elbows tight, you have two high-percentage options: transition to mount by driving your hips around and stepping over, using their defensive posture against them since they cannot frame effectively; or advance to north-south to establish new attacking angles. Trying to force the choke against a committed chin tuck wastes energy and time - positional advancement creates new opportunities.
 
-**Q4**: How should your weight be distributed to maintain D'arce control position effectively?
+**Q4**: How should your weight be distributed to maintain Darce control position effectively?
 **A**: Weight should be distributed primarily through your shoulder and chest driving into the side of opponent's head and trapped shoulder, creating a wedge effect. Your hips stay mobile and positioned perpendicular to opponent's spine rather than directly on top of them. Approximately 70% of your weight should be on the choking side through shoulder pressure, with 30% distributed through your base leg and posting arm for mobility and adjustment capability.
 
 **Q5**: What is the primary escape your opponent will attempt and how do you shut it down?
 **A**: The primary escape is arm extraction where the opponent works to pull their trapped arm free from the choke configuration. Shut this down by maintaining constant inward pressure with your choking arm's bicep against their neck, keeping your elbow past their spine with your hand reaching toward their far hip. If they begin extracting, immediately drive your shoulder deeper and increase chest pressure to eliminate the space they need to complete the extraction.
 
-**Q6**: How do you apply shoulder pressure correctly from D'arce control top?
+**Q6**: How do you apply shoulder pressure correctly from Darce control top?
 **A**: Correct shoulder pressure comes from driving your shoulder blade into the side of opponent's head and neck while keeping your head down next to theirs. The pressure vector should be perpendicular to their spine, pushing their head toward the mat. Use your entire upper body weight by keeping arms tight rather than extended. The shoulder acts as a wedge that prevents posture recovery and simultaneously tightens the choking mechanism through compression.
 
 **Q7**: Your opponent explosively bridges to create space - what adjustment should you make?
 **A**: When opponent bridges, maintain your chest connection and seatbelt-style grip configuration while riding the bridge by keeping your hips mobile and base wide. Do not post your hands out as this releases pressure. As they return from the bridge, immediately re-apply heavy shoulder pressure and advance your grip deeper if any space was created. Use their landing moment to tighten your position since they momentarily lose defensive tension.
 
-**Q8**: How do you manage energy expenditure while maintaining D'arce control for extended periods?
+**Q8**: How do you manage energy expenditure while maintaining Darce control for extended periods?
 **A**: Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission.
 
 
@@ -346,11 +346,11 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 55% | 45% |
-| Intermediate | 75% | 70% | 60% |
-| Advanced     | 85% | 80% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 75% |
+| Submission Probability | 68% |
 
 **Average Time in Position**: 45-90 seconds
 
@@ -361,7 +361,7 @@ Start from front headlock or turtle positions and work to establish darce contro
 
 ## Related Positions and Techniques
 
-- **[[D'arce Control]]** - Hub position - both perspectives
+- **[[Darce Control]]** - Hub position - both perspectives
 - **[[Front Headlock]]** - Precursor position - common entry point
 - **[[Anaconda Control]]** - Similar position - alternative front headlock choke
 - **[[Darce Choke]]** - Primary submission - main finishing technique

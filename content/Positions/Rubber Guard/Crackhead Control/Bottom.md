@@ -368,11 +368,11 @@ Begin in standard closed guard with broken posture. Partner provides specific re
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 35% | 20% |
-| Intermediate | 45% | 55% | 35% |
-| Advanced     | 65% | 75% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 65% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 15-30 seconds before submission attempt or transition
 

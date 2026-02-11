@@ -163,7 +163,7 @@ From an established lapel guard position, the practitioner uses the wrapped lape
 Strategically, this setup creates a powerful dilemma system. Opponents who posture aggressively to avoid the triangle expose themselves to sweeps from the lapel configuration. Those who stay low and heavy to prevent sweeping find their arm increasingly isolated and vulnerable to the triangle threat. This forced-choice dynamic makes the Lapel Triangle Setup a high-percentage attack against experienced practitioners who understand they cannot defend both options simultaneously.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm arm isolation**: Verify your lapel configuration has created clear arm isolation—one arm trapped inside the lapel wrap, the other arm blocked from entering by the fabric barrier. If both arms are inside or outside the configuration, adjust the wrap before proceeding. (Timing: Before initiating any triangle mechanics)
-2. **Break posture**: Use your lapel grip combined with collar control to pull opponent's head and shoulders down toward your chest. Their forward weight distribution is essential for the hip movement that follows. If they resist, use small pumping pulls rather than one sustained effort. (Timing: When opponent's base begins to compromise)
-3. **Create hip angle**: Shrimp your hips out to a perpendicular angle relative to opponent's centerline, pivoting on the shoulder opposite your triangle leg. Your trapped-arm-side hip should move away from opponent while maintaining lapel tension. This angle is critical—without it, the leg cannot clear their shoulder. (Timing: Immediately after breaking posture)
-4. **Elevate attacking leg**: Raise your leg on the trapped-arm side, bringing your knee toward your own shoulder initially. Keep the leg chambered rather than immediately swinging it over—premature extension allows escape. The lapel maintains arm control while you position the leg. (Timing: While maintaining broken posture)
-5. **Swing leg over shoulder**: In one fluid motion, swing your elevated leg over opponent's shoulder and across the back of their neck. Your hamstring should contact the side of their neck while your ankle hooks behind their far shoulder. The lapel grip prevents them from pulling the trapped arm free during this transition. (Timing: When angle and posture break are established)
-6. **Lock triangle position**: Bring your opposite leg up to meet your attacking leg, tucking the ankle of your attacking leg behind the knee of your locking leg. Pull your own shin down while squeezing knees together. Release lapel grip only after triangle is fully locked—the fabric control ensures arm stays trapped until the legs take over. (Timing: Immediately after leg clears shoulder)
-7. **Adjust angle for finish**: With triangle locked, cut your hips at a sharper angle if needed to bring opponent's trapped shoulder across their own neck. The trapped arm should be diagonal across your body. Maintain the lock while making small angle adjustments—the finish comes from perpendicular positioning, not raw squeeze pressure. (Timing: After lock is secure)
+1. **Confirm arm isolation**: Verify your lapel configuration has created clear arm isolation—one arm trapped inside the lapel wrap, the other arm blocked from entering by the fabric barrier. If both arms are inside or outside the configuration, adjust the wrap before proceeding.
+2. **Break posture**: Use your lapel grip combined with collar control to pull opponent's head and shoulders down toward your chest. Their forward weight distribution is essential for the hip movement that follows. If they resist, use small pumping pulls rather than one sustained effort.
+3. **Create hip angle**: Shrimp your hips out to a perpendicular angle relative to opponent's centerline, pivoting on the shoulder opposite your triangle leg. Your trapped-arm-side hip should move away from opponent while maintaining lapel tension. This angle is critical—without it, the leg cannot clear their shoulder.
+4. **Elevate attacking leg**: Raise your leg on the trapped-arm side, bringing your knee toward your own shoulder initially. Keep the leg chambered rather than immediately swinging it over—premature extension allows escape. The lapel maintains arm control while you position the leg.
+5. **Swing leg over shoulder**: In one fluid motion, swing your elevated leg over opponent's shoulder and across the back of their neck. Your hamstring should contact the side of their neck while your ankle hooks behind their far shoulder. The lapel grip prevents them from pulling the trapped arm free during this transition.
+6. **Lock triangle position**: Bring your opposite leg up to meet your attacking leg, tucking the ankle of your attacking leg behind the knee of your locking leg. Pull your own shin down while squeezing knees together. Release lapel grip only after triangle is fully locked—the fabric control ensures arm stays trapped until the legs take over.
+7. **Adjust angle for finish**: With triangle locked, cut your hips at a sharper angle if needed to bring opponent's trapped shoulder across their own neck. The trapped arm should be diagonal across your body. Maintain the lock while making small angle adjustments—the finish comes from perpendicular positioning, not raw squeeze pressure.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, this setup creates a powerful dilemma system. Opponents who postu
 ## Training Progressions
 **Week 1-2** - Arm isolation mechanics
 Practice establishing lapel configurations that create clear arm isolation with partner offering no resistance. Focus on identifying the correct arm positioning (one in, one out) before any triangle mechanics. Drill the hip angle creation movement as a separate skill.
-(Resistance: None)
 
 **Week 3-4** - Posture break and leg swing timing
 Add light resistance where partner maintains moderate posture. Practice breaking posture using combined lapel and collar pressure. Once posture breaks consistently, add the leg swing. Partner allows completion but provides enough resistance to require proper technique.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chain attacks
 Partner actively defends using the common counters (posturing, grip stripping, circling). Practice recognizing which counter is being applied and flowing to appropriate backup attacks—omoplata when they stack, sweeps when they circle, guard transitions when grip is stripped.
-(Resistance: Medium)
 
 **Week 7+** - Live application and dilemma creation
 Full resistance sparring starting from lapel guard. Focus on creating genuine sweep/submission dilemmas where defending the triangle opens sweeps and vice versa. Track success rate and identify which counters are giving you the most trouble for targeted drilling.
-(Resistance: Full)
 
 
 

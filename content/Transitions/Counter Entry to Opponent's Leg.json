@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Counter Entry to Opponent's Leg represents a critical defensive-offensive transition that transforms a disadvantageous position into a symmetrical leg entanglement. When caught in straight ankle lock control, rather than simply defending the submission threat, this technique allows the defender to establish their own attack on the opponent's far leg, creating a 50-50 Guard situation where both practitioners face equal threats.\n\nThis counter exemplifies the modern leg lock philosophy of fighting fire with fire. Instead of accepting a purely defensive posture and hoping to escape, the practitioner recognizes that the opponent's commitment to their ankle lock attack necessarily exposes their own legs. By threading through to control the opponent's far leg while managing the immediate submission threat, you neutralize their positional advantage and create mutual danger.\n\nThe strategic value extends beyond mere survival. Entering 50-50 from a defensive position often catches opponents off-guard, as their focus on finishing their attack blinds them to your counter-entry. This creates opportunities where your subsequent attack sequence may be several steps ahead of an opponent who must now shift from offensive to defensive mindset. Understanding this transition is essential for anyone training leg locks, as it represents one of the primary equalizers in asymmetrical leg entanglement exchanges.",
   "key_principles": [
     "Address the immediate submission threat before attempting counter-entry - you cannot attack while being finished",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Neutralize immediate threat",
-      "description": "Before attempting any counter-entry, address the submission danger by bending your trapped knee and rotating your hip slightly away to reduce ankle lock leverage. Grip fight to prevent opponent from deepening their control on your heel.",
-      "timing": "Immediately upon recognizing you are caught"
+      "description": "Before attempting any counter-entry, address the submission danger by bending your trapped knee and rotating your hip slightly away to reduce ankle lock leverage. Grip fight to prevent opponent from deepening their control on your heel."
     },
     {
       "step_number": 2,
       "action": "Clear inside leg",
-      "description": "Use your free leg to push down on opponent's bottom leg (the leg closest to your hips), creating space and preventing them from establishing a complete leg triangle around your trapped leg. This clears the pathway for your entry.",
-      "timing": "1-2 seconds after stabilizing"
+      "description": "Use your free leg to push down on opponent's bottom leg (the leg closest to your hips), creating space and preventing them from establishing a complete leg triangle around your trapped leg. This clears the pathway for your entry."
     },
     {
       "step_number": 3,
       "action": "Rotate hips toward opponent",
-      "description": "Turn your hips toward the opponent rather than away, which seems counterintuitive but opens the angle to reach their far leg. Your hip rotation should bring your free leg across their centerline.",
-      "timing": "Immediately after clearing their inside leg"
+      "description": "Turn your hips toward the opponent rather than away, which seems counterintuitive but opens the angle to reach their far leg. Your hip rotation should bring your free leg across their centerline."
     },
     {
       "step_number": 4,
       "action": "Thread leg through",
-      "description": "Insert your free leg between opponent's legs, threading your foot through to hook behind their far knee. Your shin should contact their inner thigh as you establish inside position on their far leg.",
-      "timing": "Fluid motion with hip rotation"
+      "description": "Insert your free leg between opponent's legs, threading your foot through to hook behind their far knee. Your shin should contact their inner thigh as you establish inside position on their far leg."
     },
     {
       "step_number": 5,
       "action": "Secure far leg control",
-      "description": "Once your leg is threaded through, use your hands to grab their far ankle while your legs establish the figure-four or cross-body control characteristic of 50-50 position. Your formerly trapped leg now becomes part of the mutual entanglement.",
-      "timing": "Within 2 seconds of threading"
+      "description": "Once your leg is threaded through, use your hands to grab their far ankle while your legs establish the figure-four or cross-body control characteristic of 50-50 position. Your formerly trapped leg now becomes part of the mutual entanglement."
     },
     {
       "step_number": 6,
       "action": "Consolidate 50-50 position",
-      "description": "Complete the transition by fully entering 50-50 Guard with proper heel exposure on their leg while protecting your own heel. Both practitioners now face symmetrical leg lock threats, but you have initiative from executing the transition.",
-      "timing": "Immediately secure position"
+      "description": "Complete the transition by fully entering 50-50 Guard with proper heel exposure on their leg while protecting your own heel. Both practitioners now face symmetrical leg lock threats, but you have initiative from executing the transition."
     }
   ],
   "common_counters": [
@@ -134,26 +123,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Entry mechanics",
-      "description": "Practice the threading motion and hip rotation with a compliant partner who holds static ankle lock position. Focus on the pathway your leg takes and the grips needed to secure 50-50. No resistance, pure technical repetition.",
-      "resistance_level": "None"
+      "description": "Practice the threading motion and hip rotation with a compliant partner who holds static ankle lock position. Focus on the pathway your leg takes and the grips needed to secure 50-50. No resistance, pure technical repetition."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner applies light ankle lock pressure and attempts basic finishes. Practice recognizing the window for counter-entry - after neutralizing immediate threat but before opponent consolidates control. Learn to feel when entry is available.",
-      "resistance_level": "Light"
+      "description": "Partner applies light ankle lock pressure and attempts basic finishes. Practice recognizing the window for counter-entry - after neutralizing immediate threat but before opponent consolidates control. Learn to feel when entry is available."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter to counter chains",
-      "description": "Partner actively resists entry by withdrawing far leg or transitioning to other positions. Practice recognizing when to abort entry and take escape, versus when to persist through resistance. Add subsequent attacks from 50-50 once entry succeeds.",
-      "resistance_level": "Medium"
+      "description": "Partner actively resists entry by withdrawing far leg or transitioning to other positions. Practice recognizing when to abort entry and take escape, versus when to persist through resistance. Add subsequent attacks from 50-50 once entry succeeds."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Incorporate counter-entry into live specific training from leg entanglement positions. Practice recognizing opportunities in real-time scrambles and executing under full resistance. Develop automatic recognition of entry windows.",
-      "resistance_level": "Full"
+      "description": "Incorporate counter-entry into live specific training from leg entanglement positions. Practice recognizing opportunities in real-time scrambles and executing under full resistance. Develop automatic recognition of entry windows."
     }
   ],
   "variants_and_adaptations": [
@@ -176,43 +161,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Counter Entry to Opponent's Leg?",
-      "answer": "The primary goal is to transform a disadvantageous defensive position into a symmetrical leg entanglement (50-50 Guard) where both practitioners face equal threats. Rather than simply escaping, you establish your own attack on opponent's far leg, neutralizing their positional advantage and creating mutual danger while gaining initiative.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transform a disadvantageous defensive position into a symmetrical leg entanglement (50-50 Guard) where both practitioners face equal threats. Rather than simply escaping, you establish your own attack on opponent's far leg, neutralizing their positional advantage and creating mutual danger while gaining initiative."
     },
     {
       "question": "What position do you start Counter Entry to Opponent's Leg from?",
-      "answer": "This technique starts from the defensive top position in Straight Ankle Lock Control, where your ankle is being attacked by an opponent who has established perpendicular positioning with their legs wrapped around your trapped leg.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from the defensive top position in Straight Ankle Lock Control, where your ankle is being attacked by an opponent who has established perpendicular positioning with their legs wrapped around your trapped leg."
     },
     {
       "question": "Why must you address the submission threat before attempting counter-entry?",
-      "answer": "The counter-entry requires hip rotation and temporary release of defensive positioning that can expose your ankle to finishing pressure. If opponent has a strong finishing grip and angle, they will complete the submission during your transition. You must first neutralize immediate danger by bending knee, rotating hip away momentarily, and grip fighting to prevent deep heel control.",
-      "difficulty": "Intermediate"
+      "answer": "The counter-entry requires hip rotation and temporary release of defensive positioning that can expose your ankle to finishing pressure. If opponent has a strong finishing grip and angle, they will complete the submission during your transition. You must first neutralize immediate danger by bending knee, rotating hip away momentarily, and grip fighting to prevent deep heel control."
     },
     {
       "question": "Your opponent posts their far leg wide as you begin your entry - how do you adjust?",
-      "answer": "When opponent withdraws their far leg, the direct 50-50 entry becomes difficult. Recognize this as an escape opportunity - their withdrawal creates space to extract your trapped leg. Alternatively, switch to same-side entry targeting outside ashi-garami on your originally trapped leg if leg lock exchange is preferred.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent withdraws their far leg, the direct 50-50 entry becomes difficult. Recognize this as an escape opportunity - their withdrawal creates space to extract your trapped leg. Alternatively, switch to same-side entry targeting outside ashi-garami on your originally trapped leg if leg lock exchange is preferred."
     },
     {
       "question": "What hip rotation direction is required and why does it seem counterintuitive?",
-      "answer": "You must rotate your hips toward the opponent, not away. This seems counterintuitive because rotating away feels safer from the ankle lock. However, rotating toward opens the angle needed to reach their far leg with your threading leg. Rotating away actually facilitates their transition to inside ashi-garami and closes your entry pathway.",
-      "difficulty": "Intermediate"
+      "answer": "You must rotate your hips toward the opponent, not away. This seems counterintuitive because rotating away feels safer from the ankle lock. However, rotating toward opens the angle needed to reach their far leg with your threading leg. Rotating away actually facilitates their transition to inside ashi-garami and closes your entry pathway."
     },
     {
       "question": "What is the critical mechanical detail for clearing the entry pathway?",
-      "answer": "You must actively push down on opponent's bottom leg (the leg closest to your hips) with your free leg before attempting to thread through. This prevents them from establishing a complete leg triangle and creates the space needed for your leg to pass between theirs. Without clearing this leg, your entry attempt stalls.",
-      "difficulty": "Intermediate"
+      "answer": "You must actively push down on opponent's bottom leg (the leg closest to your hips) with your free leg before attempting to thread through. This prevents them from establishing a complete leg triangle and creates the space needed for your leg to pass between theirs. Without clearing this leg, your entry attempt stalls."
     },
     {
       "question": "How does an advanced practitioner use opponent's finishing commitment against them?",
-      "answer": "When opponent commits heavily to finishing the ankle lock, they often sacrifice leg positioning and upper body control to maximize breaking pressure. This over-commitment opens the counter-entry window because their legs loosen to generate extension force. Advanced practitioners bait this commitment, absorb the pressure while maintaining defensive structure, then exploit the loosened leg control to execute counter-entry.",
-      "difficulty": "Advanced"
+      "answer": "When opponent commits heavily to finishing the ankle lock, they often sacrifice leg positioning and upper body control to maximize breaking pressure. This over-commitment opens the counter-entry window because their legs loosen to generate extension force. Advanced practitioners bait this commitment, absorb the pressure while maintaining defensive structure, then exploit the loosened leg control to execute counter-entry."
     },
     {
       "question": "What grip must you maintain throughout the transition and why?",
-      "answer": "Maintain at least one controlling grip on opponent's hands or wrists throughout the entire entry sequence. This prevents them from finishing the ankle lock as your defensive structure temporarily opens during hip rotation and leg threading. Many failed counter-entries result from releasing defensive grips too early, allowing opponent to finish mid-transition.",
-      "difficulty": "Advanced"
+      "answer": "Maintain at least one controlling grip on opponent's hands or wrists throughout the entire entry sequence. This prevents them from finishing the ankle lock as your defensive structure temporarily opens during hip rotation and leg threading. Many failed counter-entries result from releasing defensive grips too early, allowing opponent to finish mid-transition."
     }
   ],
   "safety_considerations": "This technique involves transitioning between leg entanglement positions where both ankles and knees face potential injury risk. Always maintain communication with training partners and tap immediately if caught in any compromising position during the transition. The counter-entry requires temporarily opening your defensive structure, creating windows where submission pressure can spike dangerously. Never attempt this technique if opponent has deep heel control or strong finishing position - address submission defense first. Practice slowly until mechanics are automatic before adding speed or resistance. Both practitioners should be experienced with leg lock safety protocols before drilling this transition.",
@@ -250,5 +227,6 @@
       "name": "Heel Hook",
       "relationship": "Primary submission threat available after successful entry"
     }
-  ]
+  ],
+  "success_rate": 58
 }

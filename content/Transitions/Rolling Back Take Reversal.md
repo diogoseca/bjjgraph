@@ -157,7 +157,7 @@ This reversal represents a high-risk, high-reward option in the back defense hie
 Strategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.
 
 **From Position**: [[Body Triangle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this escape works best against opponents who squeeze aggressively
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess triangle configuration**: Identify which leg crosses over in the body triangle lock - you will roll toward the side where their foot is locked behind their knee. This determines your entire rolling direction and posting arm. (Timing: During initial defensive positioning)
-2. **Control the choking arm**: Secure two-on-one grip on opponent's choking arm (the arm threatening your neck), pulling it across your body toward the rolling direction. This prevents them from posting and adds rotational momentum. (Timing: When opponent commits to choke attempt)
-3. **Create hip angle**: Turn your hips slightly toward the triangle leg side, reducing the direct squeezing pressure and positioning your body to rotate around your shoulder as the axis point. Your far hip should lift slightly off the mat. (Timing: Immediately after securing arm control)
-4. **Post and initiate roll**: Plant your far-side hand on the mat as a posting point, then drive your hips over your shoulder in a committed rolling motion toward the locked triangle side. Use your controlled arm grip to pull opponent with you through the rotation. (Timing: Explosive initiation when opponent's weight shifts)
-5. **Complete the rotation**: Continue the rolling momentum fully through 180 degrees until you land with your back on opponent's chest. Maintain the arm control throughout to prevent them from recovering position or posting to stop the roll. (Timing: Continuous motion without pause)
-6. **Establish back control**: As you complete the roll and land on top, immediately insert your hooks inside opponent's thighs and establish harness grip with your arms. The body triangle may still be partially locked but is now ineffective with you on top. Work to clear it while maintaining your new dominant position. (Timing: Immediately upon completing roll)
+1. **Assess triangle configuration**: Identify which leg crosses over in the body triangle lock - you will roll toward the side where their foot is locked behind their knee. This determines your entire rolling direction and posting arm.
+2. **Control the choking arm**: Secure two-on-one grip on opponent's choking arm (the arm threatening your neck), pulling it across your body toward the rolling direction. This prevents them from posting and adds rotational momentum.
+3. **Create hip angle**: Turn your hips slightly toward the triangle leg side, reducing the direct squeezing pressure and positioning your body to rotate around your shoulder as the axis point. Your far hip should lift slightly off the mat.
+4. **Post and initiate roll**: Plant your far-side hand on the mat as a posting point, then drive your hips over your shoulder in a committed rolling motion toward the locked triangle side. Use your controlled arm grip to pull opponent with you through the rotation.
+5. **Complete the rotation**: Continue the rolling momentum fully through 180 degrees until you land with your back on opponent's chest. Maintain the arm control throughout to prevent them from recovering position or posting to stop the roll.
+6. **Establish back control**: As you complete the roll and land on top, immediately insert your hooks inside opponent's thighs and establish harness grip with your arms. The body triangle may still be partially locked but is now ineffective with you on top. Work to clear it while maintaining your new dominant position.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, this escape works best against opponents who squeeze aggressively
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion without resistance. Partner maintains loose body triangle while you drill the arm control, hip angle creation, and rolling motion. Focus on smooth technique and proper direction (toward locked leg). 50 repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Timing windows
 Partner applies moderate body triangle pressure and simulates choke attempts. Practice recognizing the timing windows when their commitment to the choke creates the opportunity for the roll. Partner provides feedback on timing quality.
-(Resistance: Light)
 
 **Week 5-6** - Completion and control
 Full technique sequences with partner providing realistic resistance. Focus on completing the roll AND immediately establishing back control with hooks and harness. Partner attempts to scramble after the roll to test your follow-through.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Implement in positional sparring starting from body triangle. Partner uses full resistance and counters. Develop ability to recognize when the technique is available versus when standard escapes are better options. Track success rate and adjust timing.
-(Resistance: Full)
 
 
 

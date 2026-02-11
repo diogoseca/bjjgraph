@@ -21,49 +21,49 @@ description: "Master the clinch position in BJJ with comprehensive grip fighting
     {
       "@type": "HowToStep",
       "name": "Execute Double Leg Entry",
-      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Double Leg Entry. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg Takedown",
-      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg Takedown. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Body Lock Pass",
-      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Body Lock Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Snap Down",
-      "text": "From this position, attempt Snap Down. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Snap Down. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Pull",
-      "text": "From this position, attempt Guard Pull. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Guard Pull. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ankle Pick",
-      "text": "From this position, attempt Ankle Pick. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Ankle Pick. This technique is attempted in 5% of exchanges from this position.",
       "position": 7
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Crotch",
-      "text": "From this position, attempt High Crotch. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt High Crotch. This technique is attempted in 5% of exchanges from this position.",
       "position": 8
     }
   ],
@@ -230,23 +230,31 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 ## Available Techniques and Transitions
 
-### [[Double Leg Entry]] (15% of attempts)
+### [[Double Leg Entry]] (11% of attempts)
 
-### [[Single Leg Takedown]] (15% of attempts)
+### [[Single Leg Takedown]] (10% of attempts)
 
-### [[Body Lock Pass]] (10% of attempts)
+### [[Body Lock Pass]] (7% of attempts)
 
-### [[Snap Down]] (12% of attempts)
+### [[Snap Down]] (8% of attempts)
 
-### [[Guard Pull]] (15% of attempts)
+### [[Guard Pull]] (10% of attempts)
 
-### [[Arm Drag to Back]] (10% of attempts)
+### [[Arm Drag to Back]] (7% of attempts)
 
-### [[Ankle Pick]] (8% of attempts)
+### [[Ankle Pick]] (5% of attempts)
 
-### [[High Crotch]] (8% of attempts)
+### [[High Crotch]] (5% of attempts)
 
-### [[Collar Drag]] (7% of attempts)
+### [[Collar Drag]] (5% of attempts)
+
+### [[Duck Under]] (8% of attempts)
+
+### [[Fireman's Carry]] (8% of attempts)
+
+### [[Kouchi Gari]] (8% of attempts)
+
+### [[Uchi Mata]] (8% of attempts)
 
 
 
@@ -380,11 +388,11 @@ Focused drill exclusively on establishing and maintaining dominant head position
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 15% |
-| Intermediate | 50% | 50% | 25% |
-| Advanced     | 70% | 70% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 15-45 seconds before resolution to ground or separation
 

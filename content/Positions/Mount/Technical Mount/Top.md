@@ -355,11 +355,11 @@ Partner defends armbar by turning away (specific instruction to expose back). Pr
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 55% | 40% |
-| Intermediate | 50% | 70% | 60% |
-| Advanced     | 70% | 85% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 78% |
+| Submission Probability | 68% |
 
 **Average Time in Position**: 3-8 seconds (highly transitional)
 

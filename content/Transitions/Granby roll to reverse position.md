@@ -157,7 +157,7 @@ Strategically, the Granby roll serves as both an escape mechanism when facing le
 The key to success lies in precise timing and commitment to the rotation. Attempting the Granby roll against a fully consolidated opponent will fail, but executing it during transitions or grip adjustments can catch even experienced leg lockers off guard. The movement requires significant shoulder flexibility and core strength, making it a higher-level technique that rewards practitioners who invest in athletic development alongside technical study.
 
 **From Position**: [[Leg Knot/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The key to success lies in precise timing and commitment to the rotation. Attemp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess grip status**: Identify the moment when opponent's control on your trapped leg weakens, typically during their transition attempts or grip adjustments. Confirm your shoulder has clearance to initiate rotation. (Timing: Execute during opponent's positional adjustment)
-2. **Create posting base**: Plant your free hand and the same-side shoulder firmly on the mat, creating a stable rotation axis. Your free leg posts wide to generate rotational momentum and control direction. (Timing: Immediately before rotation begins)
-3. **Initiate shoulder rotation**: Drive your posted shoulder into the mat and begin rotating your body over that shoulder. Keep your trapped leg completely relaxed and limp to minimize friction and allow it to slide through the entanglement. (Timing: Explosive and committed movement)
-4. **Complete inversion**: Continue the rotation until your hips pass over your shoulders, using core tension to maintain a tight ball position. Your head should pass underneath your body as you rotate through the inverted position. (Timing: Continuous motion without pause)
-5. **Extract trapped leg**: As you complete the rotation, explosively straighten your previously trapped leg to clear it from the entanglement. The rotational momentum combined with leg extension frees the leg from opponent's control. (Timing: Timed with rotation completion)
-6. **Secure top position**: Land with your hips facing opponent and immediately establish control grips on their legs. Transition to your preferred leg entanglement configuration or begin passing sequence before opponent can recover guard. (Timing: No pause between extraction and control)
+1. **Assess grip status**: Identify the moment when opponent's control on your trapped leg weakens, typically during their transition attempts or grip adjustments. Confirm your shoulder has clearance to initiate rotation.
+2. **Create posting base**: Plant your free hand and the same-side shoulder firmly on the mat, creating a stable rotation axis. Your free leg posts wide to generate rotational momentum and control direction.
+3. **Initiate shoulder rotation**: Drive your posted shoulder into the mat and begin rotating your body over that shoulder. Keep your trapped leg completely relaxed and limp to minimize friction and allow it to slide through the entanglement.
+4. **Complete inversion**: Continue the rotation until your hips pass over your shoulders, using core tension to maintain a tight ball position. Your head should pass underneath your body as you rotate through the inverted position.
+5. **Extract trapped leg**: As you complete the rotation, explosively straighten your previously trapped leg to clear it from the entanglement. The rotational momentum combined with leg extension frees the leg from opponent's control.
+6. **Secure top position**: Land with your hips facing opponent and immediately establish control grips on their legs. Transition to your preferred leg entanglement configuration or begin passing sequence before opponent can recover guard.
 
 
 </section>
@@ -252,19 +252,15 @@ The key to success lies in precise timing and commitment to the rotation. Attemp
 ## Training Progressions
 **Week 1-2** - Solo Granby mechanics
 Practice Granby rolls on open mat without partner. Focus on smooth shoulder rotation, maintaining tight body position, and landing in base. Perform 20 repetitions each direction daily to develop the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Partner timing recognition
 Partner establishes loose Leg Knot position and signals when to attempt roll. Focus on recognizing the correct moment to initiate and completing extraction smoothly. Partner provides no resistance but maintains position.
-(Resistance: Light)
 
 **Week 5-6** - Resistance integration
 Partner maintains active Leg Knot position with moderate grip pressure. Practice identifying genuine windows for the Granby versus situations requiring alternative escapes. Begin connecting successful rolls to immediate top control.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Full resistance positional sparring starting from Leg Knot Bottom. Granby becomes one option in your escape toolkit. Track success rate and adjust timing based on live feedback. Integration with other escapes and reversals.
-(Resistance: Full)
 
 
 

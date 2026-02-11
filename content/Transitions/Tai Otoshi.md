@@ -159,7 +159,7 @@ description: "Master Tai Otoshi (body drop) in BJJ and Judo. Complete execution 
 Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that has been seamlessly integrated into modern Brazilian Jiu-Jitsu as a high-percentage standing technique. This throw exemplifies the principle of maximum efficiency with minimum effort, using timing, off-balancing, and mechanical advantage to project an opponent to the mat. Unlike many judo throws that rely heavily on hip positioning, Tai Otoshi uses the practitioner's leg as a blocking point while pulling the opponent forward and downward in a circular motion. The technique is particularly effective in no-gi grappling due to its reliance on body mechanics rather than gi grips, though traditional sleeve and lapel controls make it even more powerful in the gi. When executed correctly, Tai Otoshi allows a smaller practitioner to throw a significantly larger opponent by exploiting their forward momentum and breaking their base at precisely the right moment. The throw creates immediate scoring opportunities in competition and transitions naturally into dominant positions such as side control, knee on belly, or back control, making it a complete technique that bridges the standing and ground phases of combat.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: In gi, secure traditional sleeve grip with your right hand on opponent's left sleeve near the elbow, and lapel grip with your left hand high on their right collar. In no-gi, establish collar tie with left hand behind opponent's neck and wrist control with right hand. Pull grips tightly to your centerline to begin breaking their posture. (Timing: Initial engagement phase)
-2. **Break opponent's balance forward**: Execute strong kuzushi (off-balancing) by pulling opponent forward and slightly to their right front corner using both grips simultaneously. Your left hand pulls high and forward while right hand pulls down and toward you. Opponent should feel themselves being pulled onto their toes with weight shifting forward. (Timing: 0.5-1 second before throw initiation)
-3. **Step in with pivot**: Step your right foot deeply across and in front of opponent's right foot, positioning it approximately 6-8 inches in front of their toes. Simultaneously begin rotating your hips counterclockwise, turning your back toward opponent's chest. Your shoulders should become perpendicular to their shoulders. (Timing: As opponent's weight commits forward)
-4. **Place blocking leg**: Extend your left leg across opponent's shins at a 45-degree angle, with your left foot landing just outside their right foot. Your left leg should be relatively straight but not locked, creating a blocking point that prevents them from stepping forward. Your right knee should be slightly bent with weight centered over your right foot. (Timing: Immediately after right foot placement)
-5. **Execute the throw**: Explosively pull downward and in a circular arc with both arms while rotating your upper body further to the left. Your left arm (lapel/collar grip) pulls in a wheel-like motion over your left shoulder. Your right arm pulls opponent's sleeve/wrist across their body. Your hips drive slightly backward as you pull, creating a powerful lever action over your extended left leg. (Timing: Continuous motion from leg placement)
-6. **Complete rotation and follow**: Continue pulling through the throw as opponent's body rotates over your blocking leg and impacts the mat. Maintain grip control throughout their descent. As they land, immediately step over with your left leg and transition your weight onto them, establishing side control or knee on belly position. (Timing: Within 1 second of throw completion)
-7. **Secure dominant position**: Land with chest pressure on opponent's torso, establishing crossface with your left arm while controlling their far hip with your right hand. Drive your weight forward and consolidate side control, or transition to mount if opponent turns to their side. Maintain constant pressure to prevent guard recovery. (Timing: Immediate follow-through)
+1. **Establish grip control**: In gi, secure traditional sleeve grip with your right hand on opponent's left sleeve near the elbow, and lapel grip with your left hand high on their right collar. In no-gi, establish collar tie with left hand behind opponent's neck and wrist control with right hand. Pull grips tightly to your centerline to begin breaking their posture.
+2. **Break opponent's balance forward**: Execute strong kuzushi (off-balancing) by pulling opponent forward and slightly to their right front corner using both grips simultaneously. Your left hand pulls high and forward while right hand pulls down and toward you. Opponent should feel themselves being pulled onto their toes with weight shifting forward.
+3. **Step in with pivot**: Step your right foot deeply across and in front of opponent's right foot, positioning it approximately 6-8 inches in front of their toes. Simultaneously begin rotating your hips counterclockwise, turning your back toward opponent's chest. Your shoulders should become perpendicular to their shoulders.
+4. **Place blocking leg**: Extend your left leg across opponent's shins at a 45-degree angle, with your left foot landing just outside their right foot. Your left leg should be relatively straight but not locked, creating a blocking point that prevents them from stepping forward. Your right knee should be slightly bent with weight centered over your right foot.
+5. **Execute the throw**: Explosively pull downward and in a circular arc with both arms while rotating your upper body further to the left. Your left arm (lapel/collar grip) pulls in a wheel-like motion over your left shoulder. Your right arm pulls opponent's sleeve/wrist across their body. Your hips drive slightly backward as you pull, creating a powerful lever action over your extended left leg.
+6. **Complete rotation and follow**: Continue pulling through the throw as opponent's body rotates over your blocking leg and impacts the mat. Maintain grip control throughout their descent. As they land, immediately step over with your left leg and transition your weight onto them, establishing side control or knee on belly position.
+7. **Secure dominant position**: Land with chest pressure on opponent's torso, establishing crossface with your left arm while controlling their far hip with your right hand. Drive your weight forward and consolidate side control, or transition to mount if opponent turns to their side. Maintain constant pressure to prevent guard recovery.
 
 
 </section>
@@ -264,27 +264,21 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 ## Training Progressions
 **Week 1-2: Static Drilling** - Fundamental mechanics and positioning
 Partner assumes forward-leaning posture with grips already established. Practice entry footwork, hip rotation, and blocking leg placement in slow motion. Focus on achieving proper perpendicular alignment and full extension of blocking leg. Repeat 20-30 repetitions per training session focusing purely on technical precision.
-(Resistance: None)
 
 **Week 3-4: Kuzushi Integration** - Off-balancing and timing
 Partner stands in normal posture requiring you to break their balance before throw. Practice grip fighting to establish dominant control, then execute proper pulling kuzushi to get them onto their toes before entering. Partner provides minimal resistance but maintains natural weight distribution. Focus on feeling when their weight commits forward.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Movement** - Timing with opponent movement and combinations
 Partner moves naturally in standing position, creating realistic angles and distances. Practice setting up Tai Otoshi from various grips, catching it when opponent steps forward or reacts to feints. Begin chaining with other techniques when opponent counters. Partner resists moderately but allows successful executions when timing is correct.
-(Resistance: Medium)
 
 **Week 9-12: Competitive Resistance** - Against active defense and counter-attacks
 Full-speed standing grappling where partner actively attempts to prevent the throw using all legal defensive measures. Practice recognizing and creating proper opportunities, dealing with grip fighting, and successfully executing against genuine resistance. Focus on entries from realistic positions and transitions when throw is countered.
-(Resistance: Full)
 
 **Months 4-6: Positional Follow-Ups** - Throw-to-submission integration
 Execute Tai Otoshi in live training with specific follow-up goals: maintaining top control, transitioning to mount, securing immediate submissions. Practice the entire sequence from standing engagement through throw to submission finish. Partner resists fully both standing and on ground.
-(Resistance: Full)
 
 **Ongoing: Competition Application** - High-pressure execution and strategic application
 Utilize Tai Otoshi in competition-style rounds with points, time limits, and strategic considerations. Practice setting up the technique through grip fighting sequences, using it to score takedown points, and immediately capitalizing on top position. Focus on executing under fatigue and stress.
-(Resistance: Full)
 
 
 
@@ -368,7 +362,7 @@ Tai Otoshi serves as a crucial bridge technique in BJJ that connects the standin
 
 ## Related Techniques
 
-- [[Seoi Nage]] - Related shoulder throw sharing similar kuzushi and rotation mechanics
+- [[Ippon Seoi Nage]] - Related shoulder throw sharing similar kuzushi and rotation mechanics
 - [[Ippon Seoi Nage]] - Alternative throwing technique with similar entry but different blocking point
 - [[Osoto Gari]] - Common combination when opponent defends by pulling back
 - [[Kouchi Gari]] - Chain technique capitalizing on opponent's backward defensive movement
@@ -378,7 +372,6 @@ Tai Otoshi serves as a crucial bridge technique in BJJ that connects the standin
 - [[Knee on Belly]] - Alternative dominant position to transition into after throw
 - [[Clinch]] - Starting position for establishing throw grips and collar tie control
 - [[Standing Position]] - Initial engagement phase before throw execution
-- [[Foot Sweep Series]] - Complementary standing attacks that set up Tai Otoshi
 - [[Deashi Harai]] - Forward foot sweep that creates similar kuzushi direction
 - [[Single Leg Entry]] - Alternative takedown when opponent sprawls against Tai Otoshi
 - [[Snap Down]] - Setup technique that breaks opponent's posture for throw entry

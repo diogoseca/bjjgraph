@@ -357,11 +357,11 @@ Bottom player in Estima Lock position focuses exclusively on using free leg for 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 5% |
-| Intermediate | 25% | 35% | 10% |
-| Advanced     | 35% | 50% | 18% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 30% |
+| Advancement Probability | 42% |
+| Submission Probability | 14% |
 
 **Average Time in Position**: 15-45 seconds before tap or escape
 

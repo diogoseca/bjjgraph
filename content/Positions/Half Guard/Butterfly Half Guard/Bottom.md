@@ -395,11 +395,11 @@ Isolated drill focusing exclusively on hip angle adjustments to optimize sweep m
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 15% |
-| Intermediate | 65% | 60% | 25% |
-| Advanced     | 80% | 75% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 30-90 seconds before sweep attempt or transition occurs
 

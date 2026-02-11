@@ -21,37 +21,37 @@ description: "Master defending and escaping gogoplata control from top position 
     {
       "@type": "HowToStep",
       "name": "Execute Head Extraction to Posture",
-      "text": "From this position, attempt Head Extraction to Posture. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Head Extraction to Posture. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shin Removal to Pass",
-      "text": "From this position, attempt Shin Removal to Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Shin Removal to Pass. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Extraction Escape",
-      "text": "From this position, attempt Leg Extraction Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Leg Extraction Escape. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
-      "text": "From this position, attempt Stack Defense. This technique is attempted in 19% of exchanges from this position.",
+      "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Angle Change Escape",
-      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Angle Change Escape. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hand Control to Extract",
-      "text": "From this position, attempt Hand Control to Extract. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hand Control to Extract. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -214,17 +214,19 @@ The position also provides important lessons about submission defense principles
 
 ## Available Attacks
 
-### [[Head Extraction to Posture]] (17% of attempts)
+### [[Head Extraction to Posture]] (12% of attempts)
 
-### [[Shin Removal to Pass]] (15% of attempts)
+### [[Shin Removal to Pass]] (10% of attempts)
 
-### [[Leg Extraction Escape]] (14% of attempts)
+### [[Leg Extraction Escape]] (10% of attempts)
 
-### [[Stack Defense]] (19% of attempts)
+### [[Stack Defense]] (13% of attempts)
 
-### [[Angle Change Escape]] (18% of attempts)
+### [[Angle Change Escape]] (13% of attempts)
 
-### [[Hand Control to Extract]] (17% of attempts)
+### [[Hand Control to Extract]] (12% of attempts)
+
+### [[Gogoplata]] (30% of attempts)
 
 
 
@@ -370,11 +372,11 @@ Partner locks gogoplata at 80% tightness requiring immediate explosive escape at
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 50% |
-| Intermediate | 50% | 40% | 35% |
-| Advanced     | 70% | 60% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 50% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 15-30 seconds from recognizing danger to complete escape or submission
 

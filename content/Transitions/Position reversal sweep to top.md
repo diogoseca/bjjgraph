@@ -157,7 +157,7 @@ From the bottom 50-50 position, you face significant disadvantage due to your op
 This sweep integrates into the modern leg lock game as an essential defensive tool. Rather than simply extracting legs and disengaging, the reversal allows you to turn a bad position into an attacking platform. Once on top, you inherit all the offensive opportunities of top 50-50 including heel hooks, kneebars, and back takes. The sweep represents the principle that every defensive position should contain offensive counter-opportunities.
 
 **From Position**: [[50-50 Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish inside control**: Fight to position your inside leg (typically left leg) with shin or calf pressing inside opponent's leg structure, creating the inside control angle that is prerequisite for successful reversal (Timing: Before initiating sweep)
-2. **Control opponent's hands**: Use two-on-one grip fighting to break opponent's heel control attempts while establishing your own grip on their ankle or heel area, preventing their submission threat while creating sweep anchor (Timing: Continuous throughout)
-3. **Create hip angle**: Shrimp your hips slightly to the outside, creating an angle that enables explosive hip elevation while preventing opponent from flattening you with direct downward pressure (Timing: Immediately before elevation)
-4. **Elevate hips explosively**: Drive your hips upward toward the ceiling while pressing your inside leg firmly against opponent's leg structure, lifting their weight off your torso and breaking their base stability (Timing: When opponent reaches forward)
-5. **Rotate and follow**: As opponent's weight lifts, rotate your body in the direction of your inside leg control, using the momentum to sweep them sideways while you follow their movement to come on top (Timing: Immediately after elevation)
-6. **Secure top position**: As you complete the rotation to top position, immediately drive your hips forward and down to establish top 50-50 control, preventing opponent from re-reversing with the same technique (Timing: Complete without pause)
+1. **Establish inside control**: Fight to position your inside leg (typically left leg) with shin or calf pressing inside opponent's leg structure, creating the inside control angle that is prerequisite for successful reversal
+2. **Control opponent's hands**: Use two-on-one grip fighting to break opponent's heel control attempts while establishing your own grip on their ankle or heel area, preventing their submission threat while creating sweep anchor
+3. **Create hip angle**: Shrimp your hips slightly to the outside, creating an angle that enables explosive hip elevation while preventing opponent from flattening you with direct downward pressure
+4. **Elevate hips explosively**: Drive your hips upward toward the ceiling while pressing your inside leg firmly against opponent's leg structure, lifting their weight off your torso and breaking their base stability
+5. **Rotate and follow**: As opponent's weight lifts, rotate your body in the direction of your inside leg control, using the momentum to sweep them sideways while you follow their movement to come on top
+6. **Secure top position**: As you complete the rotation to top position, immediately drive your hips forward and down to establish top 50-50 control, preventing opponent from re-reversing with the same technique
 
 
 </section>
@@ -251,19 +251,15 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice inside position control mechanics and hip elevation without resistance. Focus on feeling the correct angle for hip drive and understanding how inside control creates sweep direction.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light top pressure while you identify optimal timing windows. Practice recognizing when opponent reaches forward and their base becomes vulnerable to sweep.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Integrate sweep with heel hook defense chain. Practice flowing between sweep attempt, counter heel hook when they overreach, and leg extraction when sweep is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply sweep in live rolling from bottom 50-50. Focus on recognizing real-time opportunities and executing under full resistance and time pressure.
-(Resistance: Full)
 
 
 

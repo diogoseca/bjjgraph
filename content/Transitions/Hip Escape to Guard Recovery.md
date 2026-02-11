@@ -163,7 +163,7 @@ The technique exploits a fundamental principle: when opponent's control relies o
 Strategically, this escape represents the moderate-risk path between the more aggressive rolling escapes and simply tapping to the submission. It preserves defensive positioning while creating guard recovery opportunity, making it the preferred escape when opponent's control is established but not yet finishing-tight. Success requires coordination between hip movement, arm extraction timing, and immediate guard establishment upon escape.
 
 **From Position**: [[Aoki Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, this escape represents the moderate-risk path between the more ag
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess shoulder safety**: Before initiating escape, evaluate current shoulder pressure level. If shoulder is already at dangerous rotation angle with significant pain, tap immediately rather than risking injury during escape attempt. Only proceed if shoulder has buffer room for movement. (Timing: Immediate upon position recognition)
-2. **Establish free hand post**: Plant your free hand firmly on the mat near your hip on the escape side. This post creates the anchor point for generating hip escape power and prevents you from being flattened further during the movement sequence. (Timing: 0.5-1 second)
-3. **Execute initial hip escape**: Drive off your posted hand and free foot simultaneously, moving your hips away from opponent perpendicular to their pressure direction. Keep your trapped elbow bent to protect shoulder joint. This movement should create initial slack in opponent's leg entanglement. (Timing: Coordinate with opponent's breath or adjustment)
-4. **Begin arm extraction**: As hip escape creates slack, start extracting your trapped arm by bringing your elbow toward your hip rather than pulling straight out. The bent-arm extraction protects your shoulder and uses the space more efficiently than extended-arm pulling. (Timing: Immediately following hip movement)
-5. **Execute secondary hip escape**: Perform a second hip escape in the same direction to create additional space for complete arm extraction. Your trapped arm should now be significantly looser from opponent's leg control. Continue keeping elbow bent throughout. (Timing: Chain immediately without pause)
-6. **Complete extraction and insert guard**: Fully extract your arm from opponent's leg entanglement while simultaneously inserting your knee and shin between you and opponent. Establish immediate foot-on-hip or knee shield to prevent them from following into a passing position. (Timing: Smooth transition, 1-2 seconds total)
-7. **Consolidate open guard**: Once arm is free and initial guard frame is established, quickly establish proper open guard grips - sleeve or wrist control combined with foot positioning on opponent's hips. Create enough distance to prevent immediate re-attack while maintaining offensive guard position. (Timing: Within 2 seconds of extraction)
+1. **Assess shoulder safety**: Before initiating escape, evaluate current shoulder pressure level. If shoulder is already at dangerous rotation angle with significant pain, tap immediately rather than risking injury during escape attempt. Only proceed if shoulder has buffer room for movement.
+2. **Establish free hand post**: Plant your free hand firmly on the mat near your hip on the escape side. This post creates the anchor point for generating hip escape power and prevents you from being flattened further during the movement sequence.
+3. **Execute initial hip escape**: Drive off your posted hand and free foot simultaneously, moving your hips away from opponent perpendicular to their pressure direction. Keep your trapped elbow bent to protect shoulder joint. This movement should create initial slack in opponent's leg entanglement.
+4. **Begin arm extraction**: As hip escape creates slack, start extracting your trapped arm by bringing your elbow toward your hip rather than pulling straight out. The bent-arm extraction protects your shoulder and uses the space more efficiently than extended-arm pulling.
+5. **Execute secondary hip escape**: Perform a second hip escape in the same direction to create additional space for complete arm extraction. Your trapped arm should now be significantly looser from opponent's leg control. Continue keeping elbow bent throughout.
+6. **Complete extraction and insert guard**: Fully extract your arm from opponent's leg entanglement while simultaneously inserting your knee and shin between you and opponent. Establish immediate foot-on-hip or knee shield to prevent them from following into a passing position.
+7. **Consolidate open guard**: Once arm is free and initial guard frame is established, quickly establish proper open guard grips - sleeve or wrist control combined with foot positioning on opponent's hips. Create enough distance to prevent immediate re-attack while maintaining offensive guard position.
 
 
 </section>
@@ -262,19 +262,15 @@ Strategically, this escape represents the moderate-risk path between the more ag
 ## Training Progressions
 **Week 1-2** - Movement mechanics without pressure
 Partner establishes Aoki Lock position without applying shoulder pressure. Practice hip escape mechanics, posting hand placement, and bent-arm extraction pathway. Focus on movement sequencing and body coordination. 20-30 repetitions per side per session.
-(Resistance: None)
 
 **Week 3-4** - Timing with light leg control
 Partner maintains leg entanglement with 30-40% tightness but no shoulder pressure. Practice identifying moments when leg control loosens and timing escape attempts to these windows. Develop sensitivity to opponent's adjustment patterns.
-(Resistance: Light)
 
 **Week 5-6** - Escape to guard establishment
 Partner adds moderate resistance (50-60%) including some hip pressure. Focus on complete sequence from escape initiation through guard establishment. Practice inserting guard frames during arm extraction rather than after.
-(Resistance: Medium)
 
 **Week 7+** - Live situational drilling
 Full resistance positional sparring starting from Aoki Lock bottom. Partner applies realistic pressure and counters escape attempts. Develop ability to recognize when escape is available versus when tapping is appropriate. Build competition-applicable timing and execution.
-(Resistance: Full)
 
 
 

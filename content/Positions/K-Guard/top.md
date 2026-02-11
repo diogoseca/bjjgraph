@@ -382,11 +382,11 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 15% |
-| Intermediate | 65% | 55% | 25% |
-| Advanced     | 80% | 70% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 62% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds for experienced players to pass or reset
 

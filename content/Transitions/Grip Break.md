@@ -157,7 +157,7 @@ The effectiveness of grip breaking lies in understanding leverage principles and
 Mastery of grip breaking transcends the physical technique itself and becomes a chess match of grip fighting sequences. Advanced practitioners anticipate their opponent's re-gripping attempts and chain multiple grip breaks together, creating sustained periods of grip dominance that translate directly to positional and tactical advantages throughout the match.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 60%, Intermediate 75%, Advanced 90%
+**Success Rate**: 82%
 
 </section>
 
@@ -206,12 +206,12 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify priority grip**: Assess which of your opponent's grips poses the greatest immediate threat to your position. Collar grips typically threaten posture control and chokes, sleeve grips limit your arm mobility and framing ability, and pant grips control your hip movement and leg positioning. Prioritize breaking grips that directly prevent your intended technique or allow opponent advancement. (Timing: Immediately upon opponent establishing grip)
-2. **Establish two-on-one control**: Bring both of your hands to control the single gripping hand of your opponent. Your first hand should grip their wrist while your second hand grips their sleeve or gi material near the elbow. This creates a fundamental mechanical advantage where you're using two limbs against their one, making the break significantly easier and more reliable. (Timing: Before opponent consolidates their grip into a strong control position)
-3. **Create breaking angle**: Adjust your body position to create the optimal angle for breaking the specific grip. For collar grips, this often means creating space by framing with your legs or hips. For sleeve grips, angle your body to add rotational force to the break. The key is to position yourself so you're breaking in the direction that naturally opens the grip rather than fighting against the strongest part of their grip structure. (Timing: Simultaneous with establishing two-on-one control)
-4. **Apply directional force**: Execute the break by pushing against the thumb side of the grip or pulling against the finger side, depending on which is more accessible. For collar grips, push the gripping hand down and away from your collar while pulling your collar in the opposite direction. For sleeve grips, circle their hand away while pulling your sleeve back. For pant grips, push their hand toward their fingers while moving your leg in a circular motion. The force should be sharp and decisive rather than slow and grinding. (Timing: Explosive application once angle is established)
-5. **Create distance or establish counter-grip**: The moment the grip breaks, immediately create distance with frames or hip movement to prevent re-gripping, or immediately establish your own superior grip on their sleeve, collar, or pants. This follow-up is crucial because breaking a grip without capitalizing on the momentary advantage wastes the effort. Use the broken grip as an opportunity to improve your position or initiate your attack sequence. (Timing: Within 1 second of successful grip break)
-6. **Maintain grip fighting dominance**: Continue active hand fighting to prevent your opponent from re-establishing the broken grip or finding alternative grips. Keep your hands moving, use feints to draw their grips to less threatening positions, and maintain constant pressure on their grips before they become consolidated. This sustained grip fighting superiority creates the foundation for successful guard retention or passing sequences. (Timing: Continuous throughout the engagement)
+1. **Identify priority grip**: Assess which of your opponent's grips poses the greatest immediate threat to your position. Collar grips typically threaten posture control and chokes, sleeve grips limit your arm mobility and framing ability, and pant grips control your hip movement and leg positioning. Prioritize breaking grips that directly prevent your intended technique or allow opponent advancement.
+2. **Establish two-on-one control**: Bring both of your hands to control the single gripping hand of your opponent. Your first hand should grip their wrist while your second hand grips their sleeve or gi material near the elbow. This creates a fundamental mechanical advantage where you're using two limbs against their one, making the break significantly easier and more reliable.
+3. **Create breaking angle**: Adjust your body position to create the optimal angle for breaking the specific grip. For collar grips, this often means creating space by framing with your legs or hips. For sleeve grips, angle your body to add rotational force to the break. The key is to position yourself so you're breaking in the direction that naturally opens the grip rather than fighting against the strongest part of their grip structure.
+4. **Apply directional force**: Execute the break by pushing against the thumb side of the grip or pulling against the finger side, depending on which is more accessible. For collar grips, push the gripping hand down and away from your collar while pulling your collar in the opposite direction. For sleeve grips, circle their hand away while pulling your sleeve back. For pant grips, push their hand toward their fingers while moving your leg in a circular motion. The force should be sharp and decisive rather than slow and grinding.
+5. **Create distance or establish counter-grip**: The moment the grip breaks, immediately create distance with frames or hip movement to prevent re-gripping, or immediately establish your own superior grip on their sleeve, collar, or pants. This follow-up is crucial because breaking a grip without capitalizing on the momentary advantage wastes the effort. Use the broken grip as an opportunity to improve your position or initiate your attack sequence.
+6. **Maintain grip fighting dominance**: Continue active hand fighting to prevent your opponent from re-establishing the broken grip or finding alternative grips. Keep your hands moving, use feints to draw their grips to less threatening positions, and maintain constant pressure on their grips before they become consolidated. This sustained grip fighting superiority creates the foundation for successful guard retention or passing sequences.
 
 
 </section>
@@ -257,19 +257,15 @@ Mastery of grip breaking transcends the physical technique itself and becomes a 
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Learn basic grip breaking mechanics on stationary partner
 Practice breaking collar grips, sleeve grips, and pant grips with a cooperative partner who maintains the grip but doesn't resist the break. Focus on proper hand placement, two-on-one control, and breaking in the correct direction. Drill each type of grip break 20-30 repetitions per session until the movements become automatic.
-(Resistance: None)
 
 **Week 3-4: Light Resistance** - Add moderate resistance and re-gripping attempts
 Partner now maintains their grips with moderate strength and attempts to re-grip after breaks. Practice chaining multiple grip breaks together and establishing your own grips after successful breaks. Begin incorporating hip movement and angle changes while breaking. Drill 5-minute rounds of continuous grip fighting with breaks every minute.
-(Resistance: Light)
 
 **Week 5-8: Positional Integration** - Break grips while maintaining guard position
 Drill grip breaking from various guard positions (closed, open, spider, lasso, De La Riva) with partner actively trying to pass while establishing grips. Focus on breaking grips without compromising your positional frames or base. Partner uses medium resistance and actively seeks new grips. Practice identifying priority grips based on their passing strategy.
-(Resistance: Medium)
 
 **Week 9-12: Dynamic Application** - Grip fighting in live guard retention and passing scenarios
 Full-resistance positional sparring where successful grip fighting directly determines success in guard retention or passing. Partner actively attempts to establish dominant grips, advance position, and capitalize on any grip fighting mistakes. Focus on maintaining grip fighting dominance throughout extended exchanges. Include scenarios starting with opponent having established grips.
-(Resistance: Full)
 
 
 

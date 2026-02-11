@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Leg Drag to Back Take represents one of the highest-percentage transitions in modern Brazilian Jiu-Jitsu, capitalizing on the positional dominance already established through leg drag control. When you have successfully dragged your opponent's leg across their body and established hip control, the natural defensive reaction of turning away to protect their guard creates the perfect opportunity for back exposure. This transition exploits fundamental biomechanics: the crossed leg limits hip mobility while your pressure forces a choice between staying flat and giving up side control, or turning away and exposing the back.\n\nThe strategic value of this technique lies in its reliability and the dominant position it achieves. Back control scores 4 points in IBJJF competition and provides the highest submission percentage of any position. Unlike many back take attempts that involve scrambles or uncertain exchanges, the leg drag to back take follows a predictable pattern based on your opponent's defensive reactions. When they turn away to prevent you from advancing to mount or side control, you simply follow their rotation with your hooks and upper body control.\n\nExecution requires maintaining constant pressure and connection throughout the transition. The moment you feel your opponent begin to rotate away, you must immediately abandon your leg drag grip priorities and shift to back control grips. Your underhook on the near side becomes your seatbelt grip, while your other arm reaches over their back for the far hip or establishes harness control. The bottom hook inserts first as their hip turns, followed by the top hook once you have secured upper body control. Timing is critical—hesitation allows them to complete their escape to turtle, while premature movement telegraphs your intention.",
   "key_principles": [
     "Maintain constant chest-to-hip pressure throughout the transition to prevent opponent from creating separation space",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Recognize the turn",
-      "description": "Feel for your opponent beginning to rotate away from you by monitoring their shoulder and hip movement. Their instinct to protect their back from mount or side control creates the back exposure opportunity.",
-      "timing": "As soon as opponent's far shoulder begins dropping toward the mat"
+      "description": "Feel for your opponent beginning to rotate away from you by monitoring their shoulder and hip movement. Their instinct to protect their back from mount or side control creates the back exposure opportunity."
     },
     {
       "step_number": 2,
       "action": "Release leg control",
-      "description": "Immediately release your grip on the dragged leg as you feel the turn begin. This frees your arm to transition to back control grips. Maintaining the leg grip too long slows your follow and allows escape.",
-      "timing": "Simultaneously with recognizing the turn"
+      "description": "Immediately release your grip on the dragged leg as you feel the turn begin. This frees your arm to transition to back control grips. Maintaining the leg grip too long slows your follow and allows escape."
     },
     {
       "step_number": 3,
       "action": "Establish seatbelt",
-      "description": "Your arm that was controlling the shoulder slides under their armpit while your other arm reaches over their far shoulder. Clasp your hands together in the seatbelt configuration with the choking arm on top.",
-      "timing": "Within 1 second of releasing leg control"
+      "description": "Your arm that was controlling the shoulder slides under their armpit while your other arm reaches over their far shoulder. Clasp your hands together in the seatbelt configuration with the choking arm on top."
     },
     {
       "step_number": 4,
       "action": "Insert bottom hook",
-      "description": "As their hip rotates and exposes the space, immediately insert your bottom leg hook inside their thigh. Your foot should be active with toes pointed outward, not crossed or passive.",
-      "timing": "As soon as hip space opens during their rotation"
+      "description": "As their hip rotates and exposes the space, immediately insert your bottom leg hook inside their thigh. Your foot should be active with toes pointed outward, not crossed or passive."
     },
     {
       "step_number": 5,
       "action": "Follow with chest",
-      "description": "Drive your chest into their upper back while pulling them into you with the seatbelt grip. Maintain constant forward pressure to prevent them from flattening or creating distance.",
-      "timing": "Continuous pressure throughout the transition"
+      "description": "Drive your chest into their upper back while pulling them into you with the seatbelt grip. Maintain constant forward pressure to prevent them from flattening or creating distance."
     },
     {
       "step_number": 6,
       "action": "Secure second hook",
-      "description": "Once upper body control is established with seatbelt and first hook is secure, insert your top hook by threading your leg over their hip and into their thigh. Both hooks should now control their hip movement.",
-      "timing": "After seatbelt and first hook are secured"
+      "description": "Once upper body control is established with seatbelt and first hook is secure, insert your top hook by threading your leg over their hip and into their thigh. Both hooks should now control their hip movement."
     },
     {
       "step_number": 7,
       "action": "Consolidate position",
-      "description": "Adjust your body angle to achieve optimal back control position with chest-to-back connection, both hooks deep inside their thighs, and seatbelt secured. Begin hand fighting to prevent their defensive grips.",
-      "timing": "Immediately after both hooks are established"
+      "description": "Adjust your body angle to achieve optimal back control position with chest-to-back connection, both hooks deep inside their thighs, and seatbelt secured. Begin hand fighting to prevent their defensive grips."
     }
   ],
   "common_counters": [
@@ -151,26 +139,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamentals",
-      "description": "Practice the mechanics of releasing leg drag and transitioning to seatbelt with compliant partner. Focus on the arm movement pattern and hook insertion sequence without resistance. Drill 50+ repetitions per session.",
-      "resistance_level": "None"
+      "description": "Practice the mechanics of releasing leg drag and transitioning to seatbelt with compliant partner. Focus on the arm movement pattern and hook insertion sequence without resistance. Drill 50+ repetitions per session."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing",
-      "description": "Partner provides light defensive reactions, sometimes turning away, sometimes turning in, sometimes staying flat. Develop recognition of when to follow for back take versus when to secure side control or mount.",
-      "resistance_level": "Light"
+      "description": "Partner provides light defensive reactions, sometimes turning away, sometimes turning in, sometimes staying flat. Develop recognition of when to follow for back take versus when to secure side control or mount."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations",
-      "description": "Chain the leg drag to back take with other leg drag options. Practice recognizing and countering opponent's defensive reactions. Work the transition against progressive resistance with focus on maintaining connection.",
-      "resistance_level": "Medium"
+      "description": "Chain the leg drag to back take with other leg drag options. Practice recognizing and countering opponent's defensive reactions. Work the transition against progressive resistance with focus on maintaining connection."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply the technique in live sparring from established leg drag positions. Track success rate and identify specific failure points. Refine timing and execution based on resistance patterns encountered.",
-      "resistance_level": "Full"
+      "description": "Apply the technique in live sparring from established leg drag positions. Track success rate and identify specific failure points. Refine timing and execution based on resistance patterns encountered."
     }
   ],
   "variants_and_adaptations": [
@@ -193,53 +177,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Leg Drag to Back Take?",
-      "answer": "The primary goal is to capitalize on the opponent's defensive reaction of turning away from leg drag pressure to establish back control, the most dominant position in BJJ scoring 4 points with highest submission percentage.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to capitalize on the opponent's defensive reaction of turning away from leg drag pressure to establish back control, the most dominant position in BJJ scoring 4 points with highest submission percentage."
     },
     {
       "question": "What position do you start Leg Drag to Back Take from?",
-      "answer": "This technique starts from Leg Drag Control/Top, where you have pulled the opponent's leg across their body and established hip dominance with shoulder or head control.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Leg Drag Control/Top, where you have pulled the opponent's leg across their body and established hip dominance with shoulder or head control."
     },
     {
       "question": "What are the key grips needed for Leg Drag to Back Take?",
-      "answer": "You transition from leg drag grips to seatbelt configuration with one arm under the armpit and one over the far shoulder, hands clasped together. The arm that was controlling their shoulder becomes your underhook for the seatbelt.",
-      "difficulty": "Intermediate"
+      "answer": "You transition from leg drag grips to seatbelt configuration with one arm under the armpit and one over the far shoulder, hands clasped together. The arm that was controlling their shoulder becomes your underhook for the seatbelt."
     },
     {
       "question": "Your opponent posts their far hand and begins sitting up during your back take attempt - how do you respond?",
-      "answer": "Increase forward pressure with your shoulder driving into their back. Control their posting arm by including it in your seatbelt grip or transition to crucifix if they extend it. Do not allow them to create the posture needed for technical standup.",
-      "difficulty": "Intermediate"
+      "answer": "Increase forward pressure with your shoulder driving into their back. Control their posting arm by including it in your seatbelt grip or transition to crucifix if they extend it. Do not allow them to create the posture needed for technical standup."
     },
     {
       "question": "When is the best time to attempt Leg Drag to Back Take?",
-      "answer": "The optimal moment is when you feel the opponent beginning to rotate away from your leg drag pressure. This defensive reaction exposes their back and creates the window for following their movement with hooks and seatbelt.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal moment is when you feel the opponent beginning to rotate away from your leg drag pressure. This defensive reaction exposes their back and creates the window for following their movement with hooks and seatbelt."
     },
     {
       "question": "Which hook should be inserted first during the transition and why?",
-      "answer": "The bottom hook (the leg closer to the mat) should be inserted first because the opponent's hip rotation naturally creates space for this hook. Inserting it first provides the control foundation needed before reaching for seatbelt and second hook.",
-      "difficulty": "Intermediate"
+      "answer": "The bottom hook (the leg closer to the mat) should be inserted first because the opponent's hip rotation naturally creates space for this hook. Inserting it first provides the control foundation needed before reaching for seatbelt and second hook."
     },
     {
       "question": "Your opponent turns toward you instead of away when you attempt the back take - what adjustment do you make?",
-      "answer": "Abandon the back take attempt and capitalize on their rotation by driving them flat to secure side control or mount. Their attempt to face you creates opportunity to consolidate a different dominant position rather than fighting for the back.",
-      "difficulty": "Advanced"
+      "answer": "Abandon the back take attempt and capitalize on their rotation by driving them flat to secure side control or mount. Their attempt to face you creates opportunity to consolidate a different dominant position rather than fighting for the back."
     },
     {
       "question": "How do you maintain connection if the opponent turtles before you can secure hooks?",
-      "answer": "Keep chest-to-back pressure on their turtle position and transition to standard turtle attacks. Establish seat belt control and work spiral riding or patience-based hook insertion. The back take remains available through turtle attack sequences.",
-      "difficulty": "Advanced"
+      "answer": "Keep chest-to-back pressure on their turtle position and transition to standard turtle attacks. Establish seat belt control and work spiral riding or patience-based hook insertion. The back take remains available through turtle attack sequences."
     },
     {
       "question": "What is the critical difference between releasing leg drag grip too early versus at the right moment?",
-      "answer": "Releasing too early telegraphs your intention before the opponent commits to turning, allowing them to recover guard or establish frames. The correct moment is when you feel definite rotation beginning, then you release and follow immediately without gap.",
-      "difficulty": "Advanced"
+      "answer": "Releasing too early telegraphs your intention before the opponent commits to turning, allowing them to recover guard or establish frames. The correct moment is when you feel definite rotation beginning, then you release and follow immediately without gap."
     },
     {
       "question": "How does the direction of your pressure change during the transition from leg drag to back control?",
-      "answer": "In leg drag, pressure is diagonal across their body toward their far hip. During the back take, pressure shifts to follow their rotation, driving forward into their back. Your chest must maintain contact throughout, adjusting angle to match their movement.",
-      "difficulty": "Advanced"
+      "answer": "In leg drag, pressure is diagonal across their body toward their far hip. During the back take, pressure shifts to follow their rotation, driving forward into their back. Your chest must maintain contact throughout, adjusting angle to match their movement."
     }
   ],
   "safety_considerations": "The Leg Drag to Back Take is a relatively safe transition with low injury risk when performed correctly. Primary safety concerns involve neck strain if the opponent resists the rotation aggressively, and potential knee stress on the trapped leg if excessive force is applied during the leg drag phase. Always ensure smooth transitions rather than forcing positions. During training, communicate with your partner about the pace of rotation and avoid jerking movements. If your partner indicates discomfort in their knee or hip from the leg drag position, release pressure immediately. Be particularly careful when inserting hooks to avoid knee-on-knee contact that could cause injury to either practitioner.",
@@ -293,5 +267,6 @@
       "name": "Crucifix",
       "relationship": "Alternative attack if opponent reaches back during transition"
     }
-  ]
+  ],
+  "success_rate": 58
 }

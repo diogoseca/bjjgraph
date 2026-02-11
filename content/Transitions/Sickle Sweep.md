@@ -157,7 +157,7 @@ This sweep is particularly effective against opponents who are standing or have 
 The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard systems and chains naturally with other attacks including back takes, leg entanglements, and submission attempts. Understanding this sweep provides essential insight into how the De La Riva hook functions as an offensive weapon rather than just a defensive control mechanism.
 
 **From Position**: [[De La Riva Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish De La Riva control**: Secure your De La Riva hook by threading your right leg behind opponent's left leg with your foot hooking around their thigh. Pull your toes toward your body to tighten the hook. Simultaneously, place your left foot on their right hip or thigh for distance management and establish a strong collar grip with your right hand. (Timing: Setup phase - maintain until opponent commits weight forward)
-2. **Grip the collar and control posture**: Establish a deep collar grip with your right hand, getting as far behind the neck as possible. Your left hand should control the opponent's left sleeve at the wrist or elbow. These grips work together to prevent your opponent from posting their hands when swept and keep their posture broken forward. (Timing: Continuous control throughout technique)
-3. **Create the sweeping angle**: Shift your hips to your right side to create an angle approximately 45 degrees from the opponent's centerline. This angle is critical as it allows your De La Riva hook to function as a powerful lever. Your body should form a 'C' shape with your head moving away from the opponent's hooking leg. (Timing: Immediately before initiating sweep motion)
-4. **Execute the sickle motion**: Simultaneously perform three coordinated actions: (1) Extend and scythe your De La Riva hook in a wide arc away from the opponent's base, (2) Push strongly with your left foot on their far hip to drive them backward and across, (3) Pull down and toward you with your collar grip to break their posture completely. The hooking leg should sweep in a motion that resembles a sickle cutting through grass. (Timing: Explosive execution when opponent steps or shifts weight forward)
-5. **Drive opponent backward**: As the opponent begins to fall backward, maintain strong pulling pressure with your collar grip while continuing to extend your De La Riva hook. Your hip push leg should fully extend, creating maximum distance and preventing any last-moment posting attempts. Keep your hips elevated off the mat to maintain sweeping pressure. (Timing: Continuous pressure throughout sweeping motion)
-6. **Come up on top**: As the opponent hits the mat, immediately release your hook and use the momentum to come up into mount or side control. Your collar grip helps pull you forward as you establish top position. Drive your chest forward and establish heavy shoulder pressure immediately to consolidate your position before the opponent can recover their guard. (Timing: Immediate follow-through as opponent lands)
+1. **Establish De La Riva control**: Secure your De La Riva hook by threading your right leg behind opponent's left leg with your foot hooking around their thigh. Pull your toes toward your body to tighten the hook. Simultaneously, place your left foot on their right hip or thigh for distance management and establish a strong collar grip with your right hand.
+2. **Grip the collar and control posture**: Establish a deep collar grip with your right hand, getting as far behind the neck as possible. Your left hand should control the opponent's left sleeve at the wrist or elbow. These grips work together to prevent your opponent from posting their hands when swept and keep their posture broken forward.
+3. **Create the sweeping angle**: Shift your hips to your right side to create an angle approximately 45 degrees from the opponent's centerline. This angle is critical as it allows your De La Riva hook to function as a powerful lever. Your body should form a 'C' shape with your head moving away from the opponent's hooking leg.
+4. **Execute the sickle motion**: Simultaneously perform three coordinated actions: (1) Extend and scythe your De La Riva hook in a wide arc away from the opponent's base, (2) Push strongly with your left foot on their far hip to drive them backward and across, (3) Pull down and toward you with your collar grip to break their posture completely. The hooking leg should sweep in a motion that resembles a sickle cutting through grass.
+5. **Drive opponent backward**: As the opponent begins to fall backward, maintain strong pulling pressure with your collar grip while continuing to extend your De La Riva hook. Your hip push leg should fully extend, creating maximum distance and preventing any last-moment posting attempts. Keep your hips elevated off the mat to maintain sweeping pressure.
+6. **Come up on top**: As the opponent hits the mat, immediately release your hook and use the momentum to come up into mount or side control. Your collar grip helps pull you forward as you establish top position. Drive your chest forward and establish heavy shoulder pressure immediately to consolidate your position before the opponent can recover their guard.
 
 
 </section>
@@ -257,27 +257,21 @@ The Sickle Sweep serves as a cornerstone technique in modern De La Riva Guard sy
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Hook positioning and sweeping angle
 Partner starts in standing De La Riva position with no resistance. Practice establishing the hook, creating the angle, and executing the sickle motion slowly. Focus on feeling the correct leg extension path and coordination between hook and hip push. Repeat 20 reps per side per session.
-(Resistance: None)
 
 **Week 3-4: Grip Integration** - Upper body control and coordination
 Add collar and sleeve grips to the drill. Partner provides light resistance by maintaining upright posture but not actively defending the sweep. Work on timing the grip pull with the leg extension. Practice coming up to top position after successful sweep.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Entry** - Setting up the sweep from live guard play
 Start in open guard and work to establish De La Riva position against moderate resistance before executing sweep. Partner can attempt basic passes but should allow you to establish position. Focus on recognizing correct timing windows when opponent shifts weight or steps.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Dealing with common counters and maintaining sweep
 Partner actively defends with posting, base widening, and weight drops. Practice recognizing when sweep isn't available and smoothly transitioning to back takes, leg entanglements, or alternative sweeps. Develop decision-making skills under pressure.
-(Resistance: Medium)
 
 **Week 13+: Competition Integration** - Full resistance and chain attacks
 Incorporate sickle sweep into live rolling and positional sparring. Practice the technique against fully resisting opponents who know it's coming. Develop seamless combinations with berimbolo, single leg X entries, and back takes. Focus on percentage-based decision making.
-(Resistance: Full)
 
 **Ongoing: Refinement** - Technique optimization and variation development
 Continue drilling specific scenarios that arise in competition or sparring. Work on micro-adjustments for different opponent body types and defensive strategies. Film your attempts and analyze timing, angle creation, and follow-through quality. Develop personalized variations based on your physical attributes.
-(Resistance: Full)
 
 
 

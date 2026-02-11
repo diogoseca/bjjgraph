@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Reverse X to Single Leg X Entry is a fundamental transition within the modern leg entanglement system that converts the inverted hook configuration of Reverse X-Guard into the more linear control of Single Leg X-Guard. This transition is essential when your opponent begins to address your Reverse X hooks or when you need a more stable platform for leg attacks or sweeps. The movement capitalizes on the opponent's attempts to clear your inverted hooks by following their leg extraction with a simplified but equally powerful control position.\n\nStrategically, this transition serves as a bail-out option when Reverse X-Guard becomes compromised, but more importantly, it functions as a deliberate positional upgrade in many scenarios. Single Leg X offers superior heel hook entries and more direct sweeping mechanics against certain defensive postures. The transition is particularly effective when the opponent steps back or attempts to disengage, as their movement provides the momentum needed to reconfigure your hooks into the Single Leg X structure.\n\nThe key to success lies in timing the hook reconfiguration precisely as the opponent moves. Rather than fighting to maintain deteriorating Reverse X control, skilled practitioners flow into Single Leg X before losing connection entirely. This proactive approach maintains constant leg entanglement pressure and prevents the opponent from establishing a neutral passing position.",
   "key_principles": [
     "Maintain constant connection with at least one hook throughout the transition to prevent opponent from completely disengaging",
@@ -52,44 +47,37 @@
     {
       "step_number": 1,
       "action": "Recognize trigger",
-      "description": "Identify when opponent begins stepping back, widening base, or attempting to clear your far hook from behind their knee - this is your cue to initiate transition",
-      "timing": "As opponent begins leg extraction movement"
+      "description": "Identify when opponent begins stepping back, widening base, or attempting to clear your far hook from behind their knee - this is your cue to initiate transition"
     },
     {
       "step_number": 2,
       "action": "Secure ankle control",
-      "description": "Reinforce your grip on opponent's ankle or heel with both hands, creating an anchor point that prevents them from completely extracting their leg during the hook reconfiguration",
-      "timing": "Immediately upon recognizing transition opportunity"
+      "description": "Reinforce your grip on opponent's ankle or heel with both hands, creating an anchor point that prevents them from completely extracting their leg during the hook reconfiguration"
     },
     {
       "step_number": 3,
       "action": "Release far hook",
-      "description": "Remove your far leg (the hook behind their knee) from its current position while maintaining strong ankle grip - this hook will become your cross-body hook in Single Leg X",
-      "timing": "Coordinated with hip rotation"
+      "description": "Remove your far leg (the hook behind their knee) from its current position while maintaining strong ankle grip - this hook will become your cross-body hook in Single Leg X"
     },
     {
       "step_number": 4,
       "action": "Rotate hips toward leg",
-      "description": "Turn your hips to face the controlled leg directly, positioning your body perpendicular to your opponent rather than inverted - this creates the proper angle for Single Leg X structure",
-      "timing": "During hook transition"
+      "description": "Turn your hips to face the controlled leg directly, positioning your body perpendicular to your opponent rather than inverted - this creates the proper angle for Single Leg X structure"
     },
     {
       "step_number": 5,
       "action": "Establish outside hook",
-      "description": "Place your former far leg across opponent's hip with your foot hooking their far hip, creating the signature cross-body control of Single Leg X-Guard position",
-      "timing": "As hips complete rotation"
+      "description": "Place your former far leg across opponent's hip with your foot hooking their far hip, creating the signature cross-body control of Single Leg X-Guard position"
     },
     {
       "step_number": 6,
       "action": "Secure inside hook",
-      "description": "Position your near leg with foot on opponent's near hip, completing the Single Leg X configuration with both feet controlling their hips and your body extended along their trapped leg",
-      "timing": "Immediately following outside hook placement"
+      "description": "Position your near leg with foot on opponent's near hip, completing the Single Leg X configuration with both feet controlling their hips and your body extended along their trapped leg"
     },
     {
       "step_number": 7,
       "action": "Consolidate position",
-      "description": "Squeeze your knees together to clamp the controlled leg, extend your hips for tension, and adjust ankle grip to optimal position for subsequent sweeps or leg attacks",
-      "timing": "Within 1-2 seconds of completing hook placement"
+      "description": "Squeeze your knees together to clamp the controlled leg, extend your hips for tension, and adjust ankle grip to optimal position for subsequent sweeps or leg attacks"
     }
   ],
   "common_counters": [
@@ -140,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Hook mechanics",
-      "description": "Practice the hook reconfiguration movement in isolation with a compliant partner. Focus on maintaining ankle grip while smoothly transitioning from Reverse X hooks to Single Leg X hooks. Drill 50 repetitions per side daily.",
-      "resistance_level": "None"
+      "description": "Practice the hook reconfiguration movement in isolation with a compliant partner. Focus on maintaining ankle grip while smoothly transitioning from Reverse X hooks to Single Leg X hooks. Drill 50 repetitions per side daily."
     },
     {
       "phase": "Week 3-4",
       "focus": "Trigger recognition",
-      "description": "Partner provides specific movements (stepping back, clearing hooks, widening base) that serve as triggers for the transition. Practice recognizing and responding to each trigger with appropriate timing.",
-      "resistance_level": "Light"
+      "description": "Partner provides specific movements (stepping back, clearing hooks, widening base) that serve as triggers for the transition. Practice recognizing and responding to each trigger with appropriate timing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain integration",
-      "description": "Connect the transition with follow-up attacks from Single Leg X including sweeps, heel hooks, and knee bars. Also practice chaining back to Reverse X or Ashi Garami when transition is blocked.",
-      "resistance_level": "Medium"
+      "description": "Connect the transition with follow-up attacks from Single Leg X including sweeps, heel hooks, and knee bars. Also practice chaining back to Reverse X or Ashi Garami when transition is blocked."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement transition in positional sparring starting from Reverse X-Guard. Partner attempts realistic passing and disengagement. Focus on reading when to transition versus when to maintain or sweep from Reverse X.",
-      "resistance_level": "Full"
+      "description": "Implement transition in positional sparring starting from Reverse X-Guard. Partner attempts realistic passing and disengagement. Focus on reading when to transition versus when to maintain or sweep from Reverse X."
     }
   ],
   "variants_and_adaptations": [
@@ -177,53 +161,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Reverse X to Single Leg X Entry?",
-      "answer": "The primary goal is to convert deteriorating Reverse X-Guard control into Single Leg X-Guard before losing leg entanglement entirely. This maintains continuous pressure on the opponent's leg while transitioning to a position that offers different sweeping angles and direct leg attack entries. It's both a defensive bail-out when Reverse X is compromised and an offensive positional upgrade when Single Leg X offers better attacking options.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert deteriorating Reverse X-Guard control into Single Leg X-Guard before losing leg entanglement entirely. This maintains continuous pressure on the opponent's leg while transitioning to a position that offers different sweeping angles and direct leg attack entries. It's both a defensive bail-out when Reverse X is compromised and an offensive positional upgrade when Single Leg X offers better attacking options."
     },
     {
       "question": "What position do you start Reverse X to Single Leg X Entry from?",
-      "answer": "This technique starts from Reverse X-Guard Bottom, where you have both hooks on the same side of your opponent's leg - one behind their knee and one controlling their hip - while your body is inverted (facing away from them). You must have strong ankle or heel grip control established before initiating the transition.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Reverse X-Guard Bottom, where you have both hooks on the same side of your opponent's leg - one behind their knee and one controlling their hip - while your body is inverted (facing away from them). You must have strong ankle or heel grip control established before initiating the transition."
     },
     {
       "question": "What are the key grips needed for Reverse X to Single Leg X Entry?",
-      "answer": "The essential grip is two-handed control on the opponent's ankle or heel - this anchors the entire transition and prevents leg extraction during hook reconfiguration. Secondary grips can include sleeve control on the same side to prevent posting, or belt/waist control to limit their ability to sprawl. The ankle grip must be maintained throughout the entire transition; releasing it even momentarily typically results in failed entry.",
-      "difficulty": "Intermediate"
+      "answer": "The essential grip is two-handed control on the opponent's ankle or heel - this anchors the entire transition and prevents leg extraction during hook reconfiguration. Secondary grips can include sleeve control on the same side to prevent posting, or belt/waist control to limit their ability to sprawl. The ankle grip must be maintained throughout the entire transition; releasing it even momentarily typically results in failed entry."
     },
     {
       "question": "How do you counter Reverse X to Single Leg X Entry?",
-      "answer": "The most effective counter is driving weight forward and sprawling during the hook reconfiguration window when the guard player's defensive structure is weakest. Rapid leg extraction before they establish Single Leg X hooks also works. From the top player's perspective, recognizing the transition early and either driving forward or rapidly disengaging prevents the guard player from establishing the new position.",
-      "difficulty": "Intermediate"
+      "answer": "The most effective counter is driving weight forward and sprawling during the hook reconfiguration window when the guard player's defensive structure is weakest. Rapid leg extraction before they establish Single Leg X hooks also works. From the top player's perspective, recognizing the transition early and either driving forward or rapidly disengaging prevents the guard player from establishing the new position."
     },
     {
       "question": "When is the best time to attempt Reverse X to Single Leg X Entry?",
-      "answer": "The optimal timing is when your opponent begins stepping back, widening their base, or actively working to clear your far hook from behind their knee. Their backward or lateral movement provides the momentum and space needed to reconfigure your hooks. Avoid attempting this transition when the opponent is driving forward aggressively - instead use their forward pressure for elevation sweeps or Deep Half entry.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when your opponent begins stepping back, widening their base, or actively working to clear your far hook from behind their knee. Their backward or lateral movement provides the momentum and space needed to reconfigure your hooks. Avoid attempting this transition when the opponent is driving forward aggressively - instead use their forward pressure for elevation sweeps or Deep Half entry."
     },
     {
       "question": "Your opponent posts their hand on your hip to create distance - how do you adjust the transition?",
-      "answer": "The hip post actually assists your transition by providing a reference point and preventing them from sprawling. Maintain your ankle grip and proceed with the hook reconfiguration. As you rotate your hips toward their leg, their posting arm becomes trapped between your body and their leg, often forcing them to remove it. If they commit heavily to the post, use it as a base to drive your Single Leg X hooks deeper.",
-      "difficulty": "Advanced"
+      "answer": "The hip post actually assists your transition by providing a reference point and preventing them from sprawling. Maintain your ankle grip and proceed with the hook reconfiguration. As you rotate your hips toward their leg, their posting arm becomes trapped between your body and their leg, often forcing them to remove it. If they commit heavily to the post, use it as a base to drive your Single Leg X hooks deeper."
     },
     {
       "question": "What is the critical hip movement during this transition and why?",
-      "answer": "The critical movement is rotating your hips from the inverted Reverse X angle (facing away from opponent) to facing directly toward their controlled leg (perpendicular to their body). This rotation repositions your legs from the inverted hook configuration to the linear Single Leg X structure. Without this rotation, your hooks cannot achieve proper depth and you end up in a compromised hybrid position easily passed.",
-      "difficulty": "Intermediate"
+      "answer": "The critical movement is rotating your hips from the inverted Reverse X angle (facing away from opponent) to facing directly toward their controlled leg (perpendicular to their body). This rotation repositions your legs from the inverted hook configuration to the linear Single Leg X structure. Without this rotation, your hooks cannot achieve proper depth and you end up in a compromised hybrid position easily passed."
     },
     {
       "question": "If the opponent begins extracting their leg faster than you can transition, what are your chain attack options?",
-      "answer": "If they extract faster than expected, follow their retreating leg with your hips while maintaining ankle grip and transition to Outside Ashi-Garami or standard Ashi Garami for immediate heel hook threat. Alternatively, use the momentum to come up to seated guard and re-engage with butterfly hooks or shin-to-shin control. The key is maintaining some form of leg connection rather than accepting complete disengagement.",
-      "difficulty": "Advanced"
+      "answer": "If they extract faster than expected, follow their retreating leg with your hips while maintaining ankle grip and transition to Outside Ashi-Garami or standard Ashi Garami for immediate heel hook threat. Alternatively, use the momentum to come up to seated guard and re-engage with butterfly hooks or shin-to-shin control. The key is maintaining some form of leg connection rather than accepting complete disengagement."
     },
     {
       "question": "How does the cross-body hook position differ between Reverse X and Single Leg X, and why does this matter?",
-      "answer": "In Reverse X, your far hook sits behind the opponent's knee creating a scissoring action with your near hook on their hip. In Single Leg X, your outside leg crosses their body with your foot hooking their far hip, while your inside foot pushes on their near hip. This linear configuration in Single Leg X provides more direct sweeping leverage and cleaner entries to heel hooks compared to the rotational mechanics of Reverse X.",
-      "difficulty": "Advanced"
+      "answer": "In Reverse X, your far hook sits behind the opponent's knee creating a scissoring action with your near hook on their hip. In Single Leg X, your outside leg crosses their body with your foot hooking their far hip, while your inside foot pushes on their near hip. This linear configuration in Single Leg X provides more direct sweeping leverage and cleaner entries to heel hooks compared to the rotational mechanics of Reverse X."
     },
     {
       "question": "What should you do if your opponent drives their knee through immediately as you release your far hook?",
-      "answer": "Abort the Single Leg X entry and use their knee drive momentum to enter Deep Half Guard by threading your near arm under their driving leg and bringing your hips underneath them. Alternatively, if the knee drive is shallow, frame with your near arm, hip escape to create angle, and either re-establish Reverse X or transition to De La Riva Guard. Never fight the knee drive while in the vulnerable hook reconfiguration position.",
-      "difficulty": "Advanced"
+      "answer": "Abort the Single Leg X entry and use their knee drive momentum to enter Deep Half Guard by threading your near arm under their driving leg and bringing your hips underneath them. Alternatively, if the knee drive is shallow, frame with your near arm, hip escape to create angle, and either re-establish Reverse X or transition to De La Riva Guard. Never fight the knee drive while in the vulnerable hook reconfiguration position."
     }
   ],
   "safety_considerations": "This transition involves rapid hook reconfiguration that can expose your legs to counter-attacks if performed carelessly. Avoid forcing the transition against heavy forward pressure, as this can result in knee strain from your hooks being compressed awkwardly. During training, communicate with partners about the speed of their reactions to allow proper technical development. The ankle grip required throughout the transition should be firm but controlled - excessive twisting or cranking on the ankle is unnecessary and risks injury to training partners. When drilling at higher resistance levels, both practitioners should be aware of leg lock entries that may become available during failed transitions.",
@@ -261,5 +235,6 @@
       "name": "Butterfly Guard",
       "relationship": "Recovery position if leg control is lost entirely"
     }
-  ]
+  ],
+  "success_rate": 58
 }

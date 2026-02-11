@@ -157,7 +157,7 @@ The technique exploits the transitional nature of leg drag control. While the pa
 Strategically, this counter represents the middle path between complete guard recovery and accepting an inferior position. Rather than fighting for closed guard (often impossible from leg drag bottom) or conceding to turtle (giving up initiative), recovering half guard maintains your offensive potential while immediately neutralizing the back take threat. From half guard, you have sweeps, back takes, and leg lock entries available—making this counter a crucial bridge technique in any comprehensive guard retention system.
 
 **From Position**: [[Leg Drag Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this counter represents the middle path between complete guard re
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Create structural frames with your near-side elbow against their shoulder or bicep and your far arm controlling their head or crossfacing back. These frames generate the space needed for hip movement and prevent them from settling their full weight. (Timing: Immediately upon recognizing leg drag control)
-2. **Hip escape away**: Execute a shrimping motion away from the opponent while keeping your shoulders relatively flat. This creates diagonal space between your hips and their pressure point. Do not turn onto your side—stay flat to prevent back exposure. (Timing: When you feel their weight shift or grip loosen)
-3. **Free trapped knee**: As space opens from your hip escape, pull your trapped knee toward your chest in a circular motion rather than straight back. The circular path bypasses their grip control and creates the angle needed for leg insertion. (Timing: During the hip escape motion)
-4. **Thread outside leg**: Your outside leg (the one not being dragged) shoots through the space you created and wraps around their near-side leg. Hook behind their knee or thigh with your instep or heel, establishing the fundamental half guard leg configuration. (Timing: Immediately after freeing trapped knee)
-5. **Lock half guard**: Triangle your legs together by crossing your ankles or locking figure-four around their trapped leg. Pull their leg tight between your thighs to prevent them from extracting it. Your hips should now be perpendicular to their body. (Timing: Within one second of leg insertion)
-6. **Secure upper body control**: Fight for an underhook on the side of their trapped leg or establish a strong knee shield if underhook is unavailable. Control their crossface arm to prevent flattening. You are now in a defensible half guard position with offensive options. (Timing: Immediately after locking legs)
+1. **Establish frames**: Create structural frames with your near-side elbow against their shoulder or bicep and your far arm controlling their head or crossfacing back. These frames generate the space needed for hip movement and prevent them from settling their full weight.
+2. **Hip escape away**: Execute a shrimping motion away from the opponent while keeping your shoulders relatively flat. This creates diagonal space between your hips and their pressure point. Do not turn onto your side—stay flat to prevent back exposure.
+3. **Free trapped knee**: As space opens from your hip escape, pull your trapped knee toward your chest in a circular motion rather than straight back. The circular path bypasses their grip control and creates the angle needed for leg insertion.
+4. **Thread outside leg**: Your outside leg (the one not being dragged) shoots through the space you created and wraps around their near-side leg. Hook behind their knee or thigh with your instep or heel, establishing the fundamental half guard leg configuration.
+5. **Lock half guard**: Triangle your legs together by crossing your ankles or locking figure-four around their trapped leg. Pull their leg tight between your thighs to prevent them from extracting it. Your hips should now be perpendicular to their body.
+6. **Secure upper body control**: Fight for an underhook on the side of their trapped leg or establish a strong knee shield if underhook is unavailable. Control their crossface arm to prevent flattening. You are now in a defensible half guard position with offensive options.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this counter represents the middle path between complete guard re
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Partner holds static leg drag control. Practice hip escape motion while maintaining flat shoulders, then drill circular knee extraction and leg threading in isolation. No resistance—focus on correct movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner slowly transitions between positions (leg drag to side control, leg drag to back attempt). Practice recognizing escape windows and executing the counter during their movement. Light resistance on the technique.
-(Resistance: Light)
 
 **Week 5-6** - Chain to half guard game
 After achieving half guard, immediately chain into your offensive options (underhook to back take, lockdown, sweeps). Partner provides medium resistance to passing. Integrate the counter into your overall defensive system.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from leg drag control. Rotate partners with varying body types and passing styles. Track success rate and identify common failure points for refinement.
-(Resistance: Full)
 
 
 

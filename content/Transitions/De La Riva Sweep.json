@@ -10,11 +10,6 @@
     "de_la_riva",
     "advanced_guard"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The De La Riva Sweep is a fundamental attacking technique from the De La Riva Guard position that allows the bottom player to off-balance and sweep their opponent to achieve top position. This sweep exploits the mechanical disadvantage created when the opponent's weight is distributed across a compromised base, using the De La Riva hook and strategic grips to control and manipulate their center of gravity. The technique is highly effective in gi-based Brazilian Jiu-Jitsu and forms the foundation of an entire guard system.\n\nThe De La Riva Sweep works by creating a powerful lever system using the De La Riva hook (leg wrapped around opponent's leg from outside), combined with strategic sleeve and collar grips. By extending the hooked leg while pulling with the grips, the practitioner generates rotational force that disrupts the opponent's base and drives them to the mat. The sweep can lead to various dominant positions including side control, mount, or back control, depending on how the opponent reacts and falls.\n\nThis technique represents a cornerstone of modern sport jiu-jitsu, particularly in IBJJF competition formats where the De La Riva guard is extensively used. Mastering the De La Riva Sweep requires understanding timing, grip fighting, hip movement, and the ability to chain multiple attacks together. The sweep becomes increasingly effective as practitioners develop sensitivity to weight distribution and learn to capitalize on their opponent's forward pressure or attempts to pass the guard.",
   "key_principles": [
     "Maintain strong De La Riva hook with foot positioned deep behind opponent's knee",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Establish De La Riva Guard",
-      "description": "From open guard, insert your right leg behind opponent's left leg with your foot hooking deep behind their knee. Your shin should be tight against the back of their leg. Simultaneously grab their left sleeve with your left hand and establish a collar or belt grip with your right hand.",
-      "timing": "Initial guard establishment phase"
+      "description": "From open guard, insert your right leg behind opponent's left leg with your foot hooking deep behind their knee. Your shin should be tight against the back of their leg. Simultaneously grab their left sleeve with your left hand and establish a collar or belt grip with your right hand."
     },
     {
       "step_number": 2,
       "action": "Control opponent's posture",
-      "description": "Pull down on the collar or belt grip to break opponent's posture forward while maintaining tight sleeve control. Your left foot should be on their right hip creating a frame. This creates the foundational control structure necessary for the sweep.",
-      "timing": "As opponent attempts to establish passing pressure"
+      "description": "Pull down on the collar or belt grip to break opponent's posture forward while maintaining tight sleeve control. Your left foot should be on their right hip creating a frame. This creates the foundational control structure necessary for the sweep."
     },
     {
       "step_number": 3,
       "action": "Off-balance opponent laterally",
-      "description": "Pull strongly with your left hand on their sleeve toward your left side while simultaneously extending your De La Riva hook. This combination creates a circular motion that compromises their base and shifts their weight onto their left side.",
-      "timing": "When opponent's weight shifts forward or they step with far leg"
+      "description": "Pull strongly with your left hand on their sleeve toward your left side while simultaneously extending your De La Riva hook. This combination creates a circular motion that compromises their base and shifts their weight onto their left side."
     },
     {
       "step_number": 4,
       "action": "Extend De La Riva hook explosively",
-      "description": "Drive your right leg straight, extending the De La Riva hook powerfully while maintaining the hook position behind their knee. This extension acts as the primary lever that elevates their leg and disrupts their base completely.",
-      "timing": "Immediately after off-balancing begins"
+      "description": "Drive your right leg straight, extending the De La Riva hook powerfully while maintaining the hook position behind their knee. This extension acts as the primary lever that elevates their leg and disrupts their base completely."
     },
     {
       "step_number": 5,
       "action": "Pull with grips and rotate",
-      "description": "Pull hard with both grips in a coordinated motion—sleeve grip pulling toward your hip, collar/belt grip pulling downward. Rotate your hips slightly toward the sweeping direction to add rotational force. Your left foot pushes their far hip away to prevent them from posting.",
-      "timing": "Simultaneous with hook extension"
+      "description": "Pull hard with both grips in a coordinated motion—sleeve grip pulling toward your hip, collar/belt grip pulling downward. Rotate your hips slightly toward the sweeping direction to add rotational force. Your left foot pushes their far hip away to prevent them from posting."
     },
     {
       "step_number": 6,
       "action": "Complete sweep and establish top position",
-      "description": "As opponent falls to their side or back, follow through by coming up on your knees or directly into side control. Release the De La Riva hook as you transition to top position. Maintain grip control throughout the transition to prevent opponent from recovering guard or escaping.",
-      "timing": "As opponent's shoulder approaches the mat"
+      "description": "As opponent falls to their side or back, follow through by coming up on your knees or directly into side control. Release the De La Riva hook as you transition to top position. Maintain grip control throughout the transition to prevent opponent from recovering guard or escaping."
     }
   ],
   "common_counters": [
@@ -129,38 +118,32 @@
     {
       "phase": "Week 1-2: Guard Establishment",
       "focus": "Developing proper De La Riva Guard structure and grip control",
-      "description": "Practice establishing the De La Riva hook position from various open guard scenarios. Drill grip fighting sequences to secure sleeve and collar controls. Work on maintaining the guard against light pressure without attempting sweeps yet.",
-      "resistance_level": "None"
+      "description": "Practice establishing the De La Riva hook position from various open guard scenarios. Drill grip fighting sequences to secure sleeve and collar controls. Work on maintaining the guard against light pressure without attempting sweeps yet."
     },
     {
       "phase": "Week 3-4: Isolated Sweep Mechanics",
       "focus": "Learning the mechanical components of the sweep",
-      "description": "Partner remains stationary on knees while you practice the sweeping motion slowly. Focus on hook extension, grip coordination, and hip rotation. Perform 20-30 repetitions per training session to develop muscle memory.",
-      "resistance_level": "None"
+      "description": "Partner remains stationary on knees while you practice the sweeping motion slowly. Focus on hook extension, grip coordination, and hip rotation. Perform 20-30 repetitions per training session to develop muscle memory."
     },
     {
       "phase": "Week 5-8: Dynamic Drilling",
       "focus": "Executing sweep against moving opponent with light resistance",
-      "description": "Partner maintains base but doesn't actively prevent sweep. Practice timing the sweep when they shift weight or move. Begin chaining the sweep with other De La Riva attacks. Perform positional sparring from De La Riva Guard.",
-      "resistance_level": "Light"
+      "description": "Partner maintains base but doesn't actively prevent sweep. Practice timing the sweep when they shift weight or move. Begin chaining the sweep with other De La Riva attacks. Perform positional sparring from De La Riva Guard."
     },
     {
       "phase": "Week 9-12: Countering Defenses",
       "focus": "Learning to adapt when opponent defends or counters",
-      "description": "Partner actively defends sweep using common counters. Practice recognizing when to abandon sweep attempt and transition to alternatives. Develop sensitivity to weight distribution and timing windows. Include competition-style positional rounds.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends sweep using common counters. Practice recognizing when to abandon sweep attempt and transition to alternatives. Develop sensitivity to weight distribution and timing windows. Include competition-style positional rounds."
     },
     {
       "phase": "Week 13+: Competition Implementation",
       "focus": "Integrating sweep into full sparring and competition scenarios",
-      "description": "Use De La Riva Sweep during regular sparring rounds. Develop setup entries from standing or other guards. Chain with submissions and back takes. Analyze video footage to identify improvement areas.",
-      "resistance_level": "Full"
+      "description": "Use De La Riva Sweep during regular sparring rounds. Develop setup entries from standing or other guards. Chain with submissions and back takes. Analyze video footage to identify improvement areas."
     },
     {
       "phase": "Ongoing: System Development",
       "focus": "Building complete De La Riva Guard system",
-      "description": "Integrate multiple sweep variations, submission attacks, and back take options from De La Riva. Study high-level competitors known for De La Riva game. Develop personal style and preferred sequences based on body type and game.",
-      "resistance_level": "Full"
+      "description": "Integrate multiple sweep variations, submission attacks, and back take options from De La Riva. Study high-level competitors known for De La Riva game. Develop personal style and preferred sequences based on body type and game."
     }
   ],
   "variants_and_adaptations": [
@@ -188,33 +171,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical lever that generates sweeping force in the De La Riva Sweep?",
-      "answer": "The De La Riva hook (leg wrapped behind opponent's knee from outside) acts as the primary lever. When extended forcefully while maintaining the hook position, it elevates the opponent's leg and disrupts their base, creating the sweeping motion when combined with strategic grip pulls.",
-      "difficulty": "Beginner"
+      "answer": "The De La Riva hook (leg wrapped behind opponent's knee from outside) acts as the primary lever. When extended forcefully while maintaining the hook position, it elevates the opponent's leg and disrupts their base, creating the sweeping motion when combined with strategic grip pulls."
     },
     {
       "question": "Why is controlling the opponent's sleeve on the same side as the De La Riva hook essential for sweep success?",
-      "answer": "Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance.",
-      "difficulty": "Intermediate"
+      "answer": "Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance."
     },
     {
       "question": "How should you respond if your opponent steps back with their hooked leg to defend the De La Riva Sweep?",
-      "answer": "When opponent steps back, you should follow their movement by extending your body forward and transition to alternative attacks such as X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Attempting to force the original sweep against this counter is ineffective and wastes energy.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent steps back, you should follow their movement by extending your body forward and transition to alternative attacks such as X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Attempting to force the original sweep against this counter is ineffective and wastes energy."
     },
     {
       "question": "What role does the opposite leg (non-hook leg) play in executing an effective De La Riva Sweep?",
-      "answer": "The opposite leg creates crucial framing pressure on the opponent's far hip or knee, preventing them from posting wide with that leg to maintain base. It also controls their rotational movement and can push to enhance the off-balancing effect, working in coordination with the hook and grips to complete the sweep.",
-      "difficulty": "Advanced"
+      "answer": "The opposite leg creates crucial framing pressure on the opponent's far hip or knee, preventing them from posting wide with that leg to maintain base. It also controls their rotational movement and can push to enhance the off-balancing effect, working in coordination with the hook and grips to complete the sweep."
     },
     {
       "question": "Explain the optimal timing window for initiating the De La Riva Sweep?",
-      "answer": "The optimal timing is when the opponent commits weight forward while attempting to pass, or when they step with their far leg creating momentary base compromise. Attempting the sweep when opponent's weight is back or they maintain heavy static pressure results in low success rates. Reading weight distribution and capitalizing on movement transitions is key.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is when the opponent commits weight forward while attempting to pass, or when they step with their far leg creating momentary base compromise. Attempting the sweep when opponent's weight is back or they maintain heavy static pressure results in low success rates. Reading weight distribution and capitalizing on movement transitions is key."
     },
     {
       "question": "What are three common transitions if the De La Riva Sweep attempt is countered or fails?",
-      "answer": "Three effective transitions include: (1) Kiss of the Dragon back take when opponent steps back, (2) Omoplata when opponent posts their arm to defend, and (3) X-Guard or Single Leg X-Guard when opponent creates distance. Maintaining attacking pressure through transitions prevents opponent from consolidating passing position.",
-      "difficulty": "Advanced"
+      "answer": "Three effective transitions include: (1) Kiss of the Dragon back take when opponent steps back, (2) Omoplata when opponent posts their arm to defend, and (3) X-Guard or Single Leg X-Guard when opponent creates distance. Maintaining attacking pressure through transitions prevents opponent from consolidating passing position."
     }
   ],
   "safety_considerations": "The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.",
@@ -225,7 +202,7 @@
       "relationship": "Starting position - foundational guard from which this sweep is executed"
     },
     {
-      "name": "De La Riva Sweep Variations",
+      "name": "De La Riva Sweep",
       "relationship": "Alternative techniques - related sweeping options from same guard position"
     },
     {
@@ -286,5 +263,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

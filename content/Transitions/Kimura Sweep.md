@@ -157,7 +157,7 @@ Strategically, the Kimura Sweep creates a dilemma for the opponent: defend the K
 At higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ At higher levels, the Kimura Sweep integrates into broader attacking systems whe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Kimura Grip**: From Closed Guard, control opponent's wrist with your same-side hand while threading your opposite arm under their tricep to grab your own wrist, creating the figure-four lock (Timing: When opponent posts hand on mat or your hip)
-2. **Break Posture**: Pull opponent's trapped elbow across your centerline while using your legs to break their posture forward, bringing their weight over your body (Timing: Immediately after securing grip)
-3. **Create Angle**: Hip escape to the side opposite the trapped arm, loading your weight onto one hip while maintaining the Kimura grip tight to your chest (Timing: As opponent resists the pull)
-4. **Open Guard**: Unlock your ankles and place your foot on the mat on the side you're hip escaping toward, keeping the opposite leg as a hook on opponent's hip (Timing: Once angle is established)
-5. **Execute Sweep**: Drive through opponent's shoulder using the Kimura grip as a steering wheel while simultaneously pushing off your posted foot and pulling with your hook leg (Timing: When opponent's base is compromised)
-6. **Consolidate Mount**: Follow the momentum of the sweep to land in Mount position, immediately establishing base with your knees wide while maintaining grip control on the arm (Timing: As opponent rolls to their back)
+1. **Secure Kimura Grip**: From Closed Guard, control opponent's wrist with your same-side hand while threading your opposite arm under their tricep to grab your own wrist, creating the figure-four lock
+2. **Break Posture**: Pull opponent's trapped elbow across your centerline while using your legs to break their posture forward, bringing their weight over your body
+3. **Create Angle**: Hip escape to the side opposite the trapped arm, loading your weight onto one hip while maintaining the Kimura grip tight to your chest
+4. **Open Guard**: Unlock your ankles and place your foot on the mat on the side you're hip escaping toward, keeping the opposite leg as a hook on opponent's hip
+5. **Execute Sweep**: Drive through opponent's shoulder using the Kimura grip as a steering wheel while simultaneously pushing off your posted foot and pulling with your hook leg
+6. **Consolidate Mount**: Follow the momentum of the sweep to land in Mount position, immediately establishing base with your knees wide while maintaining grip control on the arm
 
 
 </section>
@@ -253,19 +253,15 @@ At higher levels, the Kimura Sweep integrates into broader attacking systems whe
 ## Training Progressions
 **Week 1-2** - Grip Mechanics
 Practice securing the figure-four Kimura grip from Closed Guard against a stationary partner. Focus on proper wrist positioning, elbow threading, and keeping the grip tight to chest. Drill grip acquisition 50 times per session.
-(Resistance: None)
 
 **Week 3-4** - Sweep Motion
 Add the hip escape and sweep motion with compliant partner. Focus on timing the guard opening, foot posting, and hip drive. Partner allows sweep completion to build muscle memory for the full sequence.
-(Resistance: Light)
 
 **Week 5-6** - Timing and Reactions
 Partner provides moderate resistance and common defensive reactions. Practice recognizing when to commit to sweep versus transition to submission. Introduce chain attacks when sweep is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live Integration
 Apply Kimura Sweep in positional sparring starting from Closed Guard. Work on setting up the grip naturally during live rolls and recognizing optimal sweep timing against resisting opponents.
-(Resistance: Full)
 
 
 

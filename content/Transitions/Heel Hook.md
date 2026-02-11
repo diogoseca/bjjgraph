@@ -157,7 +157,7 @@ The technique exists in two primary variations: the inside heel hook (attacking 
 Strategically, the heel hook represents the finishing sequence of the modern leg lock game. Practitioners must first establish dominant leg entanglement positions (Saddle, Inside Ashi, or Cross Ashi) before attempting the finish. The submission's effectiveness at competition's highest levels has made leg lock defense and Ashi Garami understanding mandatory skills for serious practitioners.
 
 **From Position**: [[Ashi Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the heel hook represents the finishing sequence of the modern leg
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Position**: Establish dominant Ashi Garami position with inside space control. Your legs should create a figure-four or triangle configuration around opponent's leg, preventing hip rotation and escape. (Timing: Before any heel attack attempt)
-2. **Control Knee Line**: Use your legs and hips to control opponent's knee, preventing them from straightening their leg (the boot defense). Your inside leg should cross over their thigh, pinning the knee bent. (Timing: Immediately after position establishment)
-3. **Expose the Heel**: Strip any protective grips on opponent's foot. Use your hands to peel their toes toward their shin (dorsiflexion) which rotates the heel outward and makes it accessible for gripping. (Timing: Once knee control is secure)
-4. **Secure Heel Grip**: Thread your attacking arm around their heel with the blade of your wrist pressing into the Achilles tendon. Your forearm wraps the heel and your hand grips your own chest or lapel, trapping the heel deep. (Timing: When heel is exposed)
-5. **Create Breaking Angle**: Position your shoulder and elbow to create rotation perpendicular to opponent's knee's natural bending plane. For inside heel hook, rotate toward their centerline. For outside heel hook, rotate away. (Timing: Once grip is secured)
-6. **Apply Rotational Force**: Drive your shoulder toward the mat while pulling your elbow toward your hip, creating a twisting motion on the heel. Simultaneously extend your hips to increase pressure. Apply gradually—this submission attacks ligaments. (Timing: After positioning is optimal)
+1. **Secure Position**: Establish dominant Ashi Garami position with inside space control. Your legs should create a figure-four or triangle configuration around opponent's leg, preventing hip rotation and escape.
+2. **Control Knee Line**: Use your legs and hips to control opponent's knee, preventing them from straightening their leg (the boot defense). Your inside leg should cross over their thigh, pinning the knee bent.
+3. **Expose the Heel**: Strip any protective grips on opponent's foot. Use your hands to peel their toes toward their shin (dorsiflexion) which rotates the heel outward and makes it accessible for gripping.
+4. **Secure Heel Grip**: Thread your attacking arm around their heel with the blade of your wrist pressing into the Achilles tendon. Your forearm wraps the heel and your hand grips your own chest or lapel, trapping the heel deep.
+5. **Create Breaking Angle**: Position your shoulder and elbow to create rotation perpendicular to opponent's knee's natural bending plane. For inside heel hook, rotate toward their centerline. For outside heel hook, rotate away.
+6. **Apply Rotational Force**: Drive your shoulder toward the mat while pulling your elbow toward your hip, creating a twisting motion on the heel. Simultaneously extend your hips to increase pressure. Apply gradually—this submission attacks ligaments.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the heel hook represents the finishing sequence of the modern leg
 ## Training Progressions
 **Week 1-2** - Grip Mechanics and Safety
 Learn proper heel hook grip positioning, wrist blade placement on Achilles, and catch-and-release protocol. Practice on compliant partners with zero resistance. Emphasize tap recognition and immediate release.
-(Resistance: None)
 
 **Week 3-4** - Position to Submission Connection
 Drill transitioning from various Ashi Garami positions directly into heel hook grip. Focus on knee-line control maintenance and heel exposure sequences. Partner provides light defensive movement.
-(Resistance: Light)
 
 **Week 5-6** - Counter Recognition and Chain Attacks
 Practice heel hook attempts against common defenses (boot, hip rotation, counter-attack). Develop transitions to alternative attacks when heel hook is defended. Partner provides realistic resistance.
-(Resistance: Medium)
 
 **Week 7+** - Positional Sparring Integration
 Incorporate heel hooks into live positional sparring from Ashi Garami positions. Focus on timing, setup creation, and reading opponent reactions. Maintain safety protocols even at competition intensity.
-(Resistance: Full)
 
 
 

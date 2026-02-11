@@ -369,11 +369,11 @@ Start with partner achieving initial passing pressure. Practice recovering half 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 15% |
-| Intermediate | 60% | 50% | 25% |
-| Advanced     | 75% | 65% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 58% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds in competitive scenarios
 

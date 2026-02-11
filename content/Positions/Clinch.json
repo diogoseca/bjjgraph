@@ -48,39 +48,55 @@
   "transitions": [
     {
       "transition": "Double Leg Entry",
-      "attempt_probability": 15
+      "attempt_probability": 11
     },
     {
       "transition": "Single Leg Takedown",
-      "attempt_probability": 15
+      "attempt_probability": 10
     },
     {
       "transition": "Body Lock Pass",
-      "attempt_probability": 10
+      "attempt_probability": 7
     },
     {
       "transition": "Snap Down",
-      "attempt_probability": 12
+      "attempt_probability": 8
     },
     {
       "transition": "Guard Pull",
-      "attempt_probability": 15
-    },
-    {
-      "transition": "Arm Drag to Back",
       "attempt_probability": 10
     },
     {
+      "transition": "Arm Drag to Back",
+      "attempt_probability": 7
+    },
+    {
       "transition": "Ankle Pick",
-      "attempt_probability": 8
+      "attempt_probability": 5
     },
     {
       "transition": "High Crotch",
-      "attempt_probability": 8
+      "attempt_probability": 5
     },
     {
       "transition": "Collar Drag",
-      "attempt_probability": 7
+      "attempt_probability": 5
+    },
+    {
+      "transition": "Duck Under",
+      "attempt_probability": 8
+    },
+    {
+      "transition": "Fireman's Carry",
+      "attempt_probability": 8
+    },
+    {
+      "transition": "Kouchi Gari",
+      "attempt_probability": 8
+    },
+    {
+      "transition": "Uchi Mata",
+      "attempt_probability": 8
     }
   ],
   "decision_tree": [
@@ -287,19 +303,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
+      "value": 60
     },
     "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
+      "value": 60
     },
     "submission_probability": {
-      "beginner": 15,
-      "intermediate": 25,
-      "advanced": 40
+      "value": 32
     },
     "average_time": "15-45 seconds before resolution to ground or separation"
   },

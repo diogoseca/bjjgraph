@@ -157,7 +157,7 @@ This transition exploits a fundamental positional reality: when opponents focus 
 From a systematic perspective, the leg drag to north-south fills an essential gap in the leg drag passing system. Without this option, determined defenders can effectively stall the leg drag position by maintaining strong shoulder frames and preventing the standard consolidation pathways. Adding north-south as a tertiary option creates a complete dilemma system: defend the back take, defend the mount, or defend north-south—but defending all three simultaneously becomes mechanically impossible. This transition is particularly effective against opponents who have strong frames but less mobile hips, as it punishes static defensive structures.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess defensive structure**: From leg drag control, recognize when opponent has committed strong frames at your shoulder and hip preventing direct mount or side control entry. Their energy is directed laterally. (Timing: Immediate recognition)
-2. **Secure arm control**: Control opponent's near-side arm by pinning it to the mat with your hand or trapping it against their body with your shoulder pressure. This arm becomes the anchor for your transition. (Timing: Before movement begins)
-3. **Release leg control**: Let go of the dragged leg grip while maintaining upper body pressure. Your chest weight transfers fully to their shoulder and upper chest area to prevent them from turning toward you. (Timing: Smooth transition)
-4. **Circle toward head**: Walk your feet in an arc toward opponent's head while keeping your chest glued to their upper body. Your hips stay low, sliding across the mat rather than lifting. Do not create space. (Timing: Continuous pressure)
-5. **Clear the shoulder line**: Continue circling until your body crosses perpendicular to their spine. Your chest transitions from their shoulder to directly over their sternum. Control their far arm as it becomes accessible. (Timing: 2-3 seconds)
-6. **Establish north-south control**: Complete the transition by settling chest-to-chest with your hips low and spread wide for base. Control both arms by pinning them with your armpits or gripping their elbows. Your head should be at their hip level. (Timing: Settle and consolidate)
+1. **Assess defensive structure**: From leg drag control, recognize when opponent has committed strong frames at your shoulder and hip preventing direct mount or side control entry. Their energy is directed laterally.
+2. **Secure arm control**: Control opponent's near-side arm by pinning it to the mat with your hand or trapping it against their body with your shoulder pressure. This arm becomes the anchor for your transition.
+3. **Release leg control**: Let go of the dragged leg grip while maintaining upper body pressure. Your chest weight transfers fully to their shoulder and upper chest area to prevent them from turning toward you.
+4. **Circle toward head**: Walk your feet in an arc toward opponent's head while keeping your chest glued to their upper body. Your hips stay low, sliding across the mat rather than lifting. Do not create space.
+5. **Clear the shoulder line**: Continue circling until your body crosses perpendicular to their spine. Your chest transitions from their shoulder to directly over their sternum. Control their far arm as it becomes accessible.
+6. **Establish north-south control**: Complete the transition by settling chest-to-chest with your hips low and spread wide for base. Control both arms by pinning them with your armpits or gripping their elbows. Your head should be at their hip level.
 
 
 </section>
@@ -251,19 +251,15 @@ From a systematic perspective, the leg drag to north-south fills an essential ga
 ## Training Progressions
 **Week 1-2** - Transition mechanics
 Practice the basic circular movement from leg drag to north-south with a compliant partner. Focus on maintaining constant chest pressure throughout the arc and proper final alignment. No resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides standard frames against mount and side control. Work on recognizing when the north-south pathway is optimal versus continuing to fight for other positions. Light resistance on frames.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner attempts common counters (turning in, framing hips, sitting up). Practice adjusting your transition or aborting to alternative attacks based on their defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate the leg drag to north-south into your full passing game. Work positional sparring from leg drag with all consolidation options available. Focus on reading opponent's defensive priorities.
-(Resistance: Full)
 
 
 

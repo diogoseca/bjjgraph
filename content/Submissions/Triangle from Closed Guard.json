@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 75
-  },
   "overview": "The Triangle Choke from Closed Guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu, representing the perfect marriage of control and finishing mechanics from the guard position. This blood choke uses your legs to create a triangular configuration around the opponent's neck and their own shoulder, compressing the carotid arteries and jugular veins to induce unconsciousness if not defended or escaped. The beauty of the triangle lies in its structural efficiency - once properly locked, the opponent's own posture and trapped arm work against them, making escape increasingly difficult as they tire.\n\nWhat makes the triangle from closed guard particularly powerful is its accessibility from the most fundamental guard position in BJJ. Unlike submissions that require specific grips or advanced positioning, the triangle can be attacked whenever the opponent posts a hand inside your guard or breaks their posture forward. This makes it an essential weapon for guard players at all levels, from white belts learning fundamental attacks to black belts using it as a high-percentage finishing option in competition. The triangle also serves as the gateway to an entire attack system, seamlessly connecting to armbars, omoplatas, and sweep options that create true dilemmas for the opponent.\n\nThe technical execution of the triangle from closed guard requires precise angle creation, hip mobility, and an understanding of how to break the opponent's defensive posture while maintaining control throughout the transition. Success depends not on strength or speed, but on proper positioning of the legs, correct angle relative to the opponent, and the ability to control their posture and arm placement. When executed with proper technique, the triangle becomes nearly unstoppable, which is why it remains a cornerstone submission across all levels of competition from local tournaments to the highest levels of professional grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -92,43 +87,37 @@
       "step_number": 1,
       "action": "Control and Angle Creation",
       "description": "From closed guard, control opponent's posture with collar grip or hand behind their head. Simultaneously control one arm (typically the one you'll trap inside) with your opposite hand gripping their wrist or sleeve. Begin opening your guard while immediately pivoting your hips to create approximately 45-90 degrees of angle relative to opponent's centerline. This angle is critical - if you stay directly underneath them, they can stack you and defend.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 2,
       "action": "Leg Swing and Initial Triangle Frame",
       "description": "While maintaining wrist/sleeve control of the arm you're trapping inside, swing your same-side leg high over opponent's shoulder and across their back. Your shin should land across their upper back/shoulder blades. The key is to get your leg high on their shoulder, near their neck, not down on their mid-back. Simultaneously use your other leg to create a frame against their far hip to maintain the angle and prevent them from following your movement or stacking you.",
-      "timing": "1 second - must be quick but controlled",
-      "pressure_level": "Moderate"
+      "timing": "1 second - must be quick but controlled"
     },
     {
       "step_number": 3,
       "action": "Lock the Triangle Configuration",
       "description": "Bring your shin down in front of opponent's face while maintaining the high position on their shoulder. Your ankle should cross behind your opposite knee to create the triangle lock. The critical detail is that your knee (the choking leg) must be tight against the side of their neck - this creates the choking corner. Pull their trapped arm across their centerline if needed to ensure it's truly isolated inside the triangle. At this point, the triangle is structurally locked but not yet tight.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Angle Adjustment and Posture Control",
       "description": "Before finishing, ensure your angle is correct - your spine should be perpendicular to opponent's centerline (forming a 'T' shape from above). If you're not at this angle, walk your shoulders and hips to adjust. Simultaneously break opponent's posture by pulling their head down with both hands - grip behind their head, their collar, or control their far arm and pull it across. Their face should be looking at your belly button, not up toward the ceiling. This posture break is essential for the finish.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Hip Extension and Triangle Tightening",
       "description": "With opponent's posture broken and your angle correct, elevate your hips by driving them toward the ceiling while simultaneously pulling their head down. The choking pressure comes from this hip extension, not from squeezing your legs together laterally. Think about extending your legs straight rather than squeezing them closed. Your choking knee should drive into one side of their neck while their own trapped shoulder drives into the other side, compressing both carotid arteries.",
-      "timing": "3-5 seconds progressive pressure in training",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive pressure in training"
     },
     {
       "step_number": 6,
       "action": "Final Adjustments and Submission",
       "description": "If opponent is not tapping, make micro-adjustments: ensure your ankle lock is tight behind your knee, adjust your angle slightly if needed, pull their head lower, or grab your own shin to add more pulling power. Some positions allow you to underhook their far leg to prevent them from standing and to add control. Continue extending your hips and pulling their head until they tap. In training, apply pressure progressively over 5-7 seconds minimum to allow safe tapping. Release immediately upon tap.",
-      "timing": "2-5 seconds of sustained pressure",
-      "pressure_level": "Maximum"
+      "timing": "2-5 seconds of sustained pressure"
     }
   ],
   "opponent_defense_patterns": [
@@ -162,44 +151,37 @@
     {
       "error": "Staying directly underneath opponent instead of creating angle",
       "consequence": "Opponent can easily stack you and drive forward, making the triangle ineffective and putting you at risk of being passed or slammed",
-      "correction": "Always pivot hips to create 90-degree angle relative to opponent's centerline before locking triangle; your spine should be perpendicular to theirs when viewed from above",
-      "danger_level": "High"
+      "correction": "Always pivot hips to create 90-degree angle relative to opponent's centerline before locking triangle; your spine should be perpendicular to theirs when viewed from above"
     },
     {
       "error": "Locking triangle with knee too low on opponent's back/shoulder",
       "consequence": "Triangle is loose, opponent has more space to escape, and choking pressure cannot be properly generated regardless of how hard you squeeze",
-      "correction": "Ensure your leg swings high over their shoulder, with your shin landing near their neck level, not mid-back; the higher your leg, the tighter the initial lock",
-      "danger_level": "Low"
+      "correction": "Ensure your leg swings high over their shoulder, with your shin landing near their neck level, not mid-back; the higher your leg, the tighter the initial lock"
     },
     {
       "error": "Squeezing legs together laterally instead of extending hips",
       "consequence": "Exhausts your leg muscles quickly without creating proper choking pressure; opponent can often survive by tucking chin or hand-fighting",
-      "correction": "Focus on elevating hips toward ceiling and extending legs straight while pulling opponent's head down; pressure comes from hip extension, not adduction",
-      "danger_level": "Low"
+      "correction": "Focus on elevating hips toward ceiling and extending legs straight while pulling opponent's head down; pressure comes from hip extension, not adduction"
     },
     {
       "error": "Allowing opponent to maintain upright posture during finish",
       "consequence": "Triangle cannot function with opponent postured up; they will eventually escape or pass your guard",
-      "correction": "Constantly pull opponent's head down using grips behind head, collar, or far arm; their face should point at your belly button throughout the finish",
-      "danger_level": "Medium"
+      "correction": "Constantly pull opponent's head down using grips behind head, collar, or far arm; their face should point at your belly button throughout the finish"
     },
     {
       "error": "Not controlling opponent's posture before attempting leg swing",
       "consequence": "Opponent sees triangle coming and defends by posturing up or blocking your leg, resulting in failed attempt and possible pass",
-      "correction": "Always establish posture control (collar grip, head control, or wrist control) before opening guard and attempting triangle; break their posture first",
-      "danger_level": "Medium"
+      "correction": "Always establish posture control (collar grip, head control, or wrist control) before opening guard and attempting triangle; break their posture first"
     },
     {
       "error": "Holding choke after tap or continuing pressure when partner goes limp",
       "consequence": "Partner can lose consciousness leading to potential brain injury, or sustain neck/cervical spine injury from excessive pressure",
-      "correction": "Release triangle immediately upon any tap signal or if partner goes limp/stops resisting; check partner's awareness before continuing training",
-      "danger_level": "CRITICAL"
+      "correction": "Release triangle immediately upon any tap signal or if partner goes limp/stops resisting; check partner's awareness before continuing training"
     },
     {
       "error": "Jerking or spiking the triangle finish at full speed in training",
       "consequence": "Can cause neck strain, cervical spine injury, or sudden loss of consciousness without warning",
-      "correction": "Always apply pressure progressively over 5-7 seconds minimum in training; partner needs time to recognize pressure and tap safely",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure progressively over 5-7 seconds minimum in training; partner needs time to recognize pressure and tap safely"
     }
   ],
   "variations_and_setups": [
@@ -291,50 +273,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "2 weeks",
-      "focus": "Learn triangle mechanics, leg positioning, and angle creation with completely cooperative partner. Practice locking triangle configuration slowly with partner in static position. Emphasis on understanding where choking knee should be, how ankle locks behind opposite knee, and importance of angle.",
-      "resistance_level": "None",
-      "safety_emphasis": "Partner stays completely still. No pressure applied to neck - just practice the positions and movements. Focus on understanding structure before adding any dynamic movement or pressure."
-    },
-    {
-      "phase": "Slow Positional Practice (Weeks 3-4)",
-      "timeframe": "2 weeks",
-      "focus": "Practice full sequence from closed guard to locked triangle with partner providing zero resistance. Work on smooth transitions: posture breaking, angle creation, leg swing, locking configuration. Partner gives feedback on positioning. Begin adding very light finishing pressure (10-20%) to feel the mechanics.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner can tap at any time with zero pressure. Practice release protocol after every repetition. Begin learning to recognize what proper pressure feels like with 5-7 second progressive application."
-    },
-    {
-      "phase": "Progressive Resistance Introduction (Weeks 5-8)",
-      "timeframe": "4 weeks",
-      "focus": "Partner provides mild resistance - maintaining moderate posture, some arm positioning defense, but allowing technique to work. Practice dealing with basic defensive movements like posture recovery and arm positioning. Begin working on posture breaking against resistance. Increase finishing pressure to 40-50% maximum.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Clear communication about pressure levels. Partner taps earlier rather than later. Practice recognizing early pressure and tapping before choke is deep. Continue 5-7 second progressive application."
-    },
-    {
-      "phase": "Realistic Defense Patterns (Weeks 9-12)",
-      "timeframe": "4 weeks",
-      "focus": "Partner uses realistic defensive patterns: posturing strongly, attempting to extract trapped arm, hand fighting, turning toward choking leg. Practice countering specific defenses and transitioning to armbar/omoplata when appropriate. Work on maintaining triangle through defensive movement. Increase pressure to 60-70% maximum.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners aware of stack/slam dangers. Bottom player ready to release if opponent stands aggressively. Partner continues tapping early as proper defense is learned. No ego - focus on technical problem-solving."
-    },
-    {
-      "phase": "Live Positional Training (Weeks 13+)",
-      "timeframe": "Ongoing",
-      "focus": "Positional sparring from closed guard with goal of achieving triangle or defending it. Partner provides full resistance within safety parameters (no slams, no dangerous stacking). Work on achieving triangle against resistant opponent and finishing with control. Begin integrating triangle into complete guard game with sweeps and other submissions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never slam or spike submissions. Both partners can use 80% finishing pressure maximum in training. Tap immediately when caught. No 'tough guy' mentality - preserving training partners' safety is paramount. Agree on intensity level before starting."
-    },
-    {
-      "phase": "Competition Integration (Advanced - Ongoing)",
-      "timeframe": "Ongoing for advanced practitioners",
-      "focus": "Integrate triangle into complete competitive game plan. Practice entries from various guards (closed, open, spider, etc.). Work on disguising setups and creating triangle opportunities from failed techniques. Study competition footage of high-level triangle attacks. Develop triangle-armbar-omoplata system.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even at competition intensity, maintain safety awareness in training room. Reserve 100% finishing pressure only for actual competition. Training partners are your most valuable resource - never injure them. Practice tap-and-release protocol religiously so it's automatic in competition stress."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Rubber Guard",
@@ -402,5 +340,6 @@
       "name": "Collar Sleeve Guard",
       "relationship": "Guard variation providing excellent triangle setups through sleeve control and collar grip posture breaking"
     }
-  ]
+  ],
+  "success_rate": 65
 }

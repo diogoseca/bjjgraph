@@ -349,11 +349,11 @@ Partner establishes body lock and begins driving or lifting. Practice recognizin
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 10% |
-| Intermediate | 30% | 40% | 20% |
-| Advanced     | 45% | 55% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 48% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 3-8 seconds before opponent transitions to next position
 

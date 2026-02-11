@@ -307,21 +307,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Ability to maintain top position without being swept"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Likelihood of opening guard and advancing to passing"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 20,
+        "value": 15,
         "description": "Probability of finishing submission from top position"
       },
       "average_time": "1-3 minutes depending on skill level and guard opening strategy"
@@ -625,21 +619,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Ability to maintain closed guard against opening attempts"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of advancing to sweep or dominant position"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Probability of finishing submission directly from position"
       },
       "average_time": "1-3 minutes depending on skill differential and guard breaking proficiency"
@@ -647,47 +635,55 @@
     "transitions": [
       {
         "transition": "Hip Bump Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Pendulum Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Flower Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Kimura to Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Omoplata Sweep",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Closed Guard to Triangle",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Omoplata to Back",
         "attempt_probability": 7
       },
       {
+        "transition": "Triangle Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Closed Guard to Triangle",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Omoplata to Back",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Elevator Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 9
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kimura Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Muscle Sweep",
+        "attempt_probability": 8
       }
     ],
     "knowledge_assessment": [

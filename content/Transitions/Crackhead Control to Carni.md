@@ -163,7 +163,7 @@ The mechanical foundation of this transition relies on recognizing when the top 
 This transition is particularly effective in no-gi competition where the top player lacks gi grips to anchor their position during the bottom player's explosive movement. The technique exemplifies the 10th Planet philosophy of turning defensive positions into immediate offensive threats. Success requires excellent timing, hip mobility, and the ability to maintain hand fighting intensity while simultaneously setting up the leg capture. Advanced practitioners can chain this transition with the standard Carni attack tree including heel hooks, saddle entries, and back takes.
 
 **From Position**: [[Crackhead Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ This transition is particularly effective in no-gi competition where the top pla
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive rhythm**: Maintain constant hip movement and active hand fighting characteristic of crackhead control defense. Create unpredictability in your movement patterns to make the top player reactive rather than proactive. (Timing: Continuous until opportunity presents)
-2. **Recognize weight commitment**: Feel for the moment when the top player commits their weight forward over your lower back in their chair-sit position. This forward commitment creates space underneath their body and compromises their ability to react to your movement. (Timing: When opponent drives forward or reaches for grip)
-3. **Clear inside arm**: Use your inside hand to strip any controlling grip on that arm while simultaneously beginning to turn your hips toward the opponent's near leg. This arm will assist in capturing their leg and establishing the carni configuration. (Timing: Immediately upon recognizing opportunity)
-4. **Invert and thread legs**: Explosively rotate your hips underneath the opponent while threading your inside leg between their legs to hook over their hip. Your outside leg follows to complete the carni leg entanglement around their near leg. (Timing: Single explosive motion)
-5. **Establish leg triangle**: Lock your legs in the carni configuration with your inside leg hooking over opponent's hip and outside leg creating the figure-four entanglement around their captured leg. Ensure inside positioning is secured to prevent step-over escape. (Timing: Immediately after inversion)
-6. **Secure heel control**: Immediately grip the opponent's heel and ankle with both hands to establish submission threat. The inside hand controls the heel pulling toward your chest while outside hand controls ankle position. (Timing: As soon as leg entanglement is established)
-7. **Establish attack angle**: Adjust your hip angle relative to opponent's hip line to create optimal heel hook leverage. Your hips should be angled across their leg rather than parallel to maximize rotational force on their knee. (Timing: Final positional adjustment)
+1. **Establish defensive rhythm**: Maintain constant hip movement and active hand fighting characteristic of crackhead control defense. Create unpredictability in your movement patterns to make the top player reactive rather than proactive.
+2. **Recognize weight commitment**: Feel for the moment when the top player commits their weight forward over your lower back in their chair-sit position. This forward commitment creates space underneath their body and compromises their ability to react to your movement.
+3. **Clear inside arm**: Use your inside hand to strip any controlling grip on that arm while simultaneously beginning to turn your hips toward the opponent's near leg. This arm will assist in capturing their leg and establishing the carni configuration.
+4. **Invert and thread legs**: Explosively rotate your hips underneath the opponent while threading your inside leg between their legs to hook over their hip. Your outside leg follows to complete the carni leg entanglement around their near leg.
+5. **Establish leg triangle**: Lock your legs in the carni configuration with your inside leg hooking over opponent's hip and outside leg creating the figure-four entanglement around their captured leg. Ensure inside positioning is secured to prevent step-over escape.
+6. **Secure heel control**: Immediately grip the opponent's heel and ankle with both hands to establish submission threat. The inside hand controls the heel pulling toward your chest while outside hand controls ankle position.
+7. **Establish attack angle**: Adjust your hip angle relative to opponent's hip line to create optimal heel hook leverage. Your hips should be angled across their leg rather than parallel to maximize rotational force on their knee.
 
 
 </section>
@@ -264,19 +264,15 @@ This transition is particularly effective in no-gi competition where the top pla
 ## Training Progressions
 **Week 1-2** - Inversion mechanics
 Practice solo inversion drills focusing on hip mobility and the threading motion required for carni entry. Work the mechanical movement without partner first, then add stationary partner in crackhead control position. Focus on proper leg sequence: inside leg first, then outside leg to complete entanglement.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides realistic crackhead control pressure while you practice recognizing the weight commitment window. Partner signals when they commit forward, then you execute the transition. Build sensitivity to feeling the correct timing through the pressure patterns.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner provides medium resistance and attempts basic counters (step-over, sprawl, flatten). Practice maintaining transition despite resistance and adjusting to alternative positions (half guard, guard recovery) when carni is not achievable. Chain with carni attack sequences.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring from crackhead control bottom. Partner uses full crackhead control offense including back take and submission attempts. Focus on choosing correct moments to attempt transition versus maintaining defensive position. Track success rate to calibrate timing.
-(Resistance: Full)
 
 
 

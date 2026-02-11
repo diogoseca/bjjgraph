@@ -108,7 +108,7 @@
         "actions": [
           {
             "technique": "Leg Drag Pass",
-            "target": "Leg Drag Position",
+            "target": "Leg Drag Control",
             "probability": 75
           },
           {
@@ -242,7 +242,7 @@
         "relationship": "Transition target - intermediate control position during passing sequence"
       },
       {
-        "name": "Leg Drag Position",
+        "name": "Leg Drag Control",
         "relationship": "Transition target - primary passing destination from RDLR top"
       },
       {
@@ -272,19 +272,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
+        "value": 32
       },
       "average_time": "45-90 seconds for experienced passers, 2-3 minutes for beginners"
     },
@@ -570,19 +564,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
+        "value": 65
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-90 seconds before transition to sweep or back take"
     },

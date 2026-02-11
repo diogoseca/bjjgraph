@@ -157,7 +157,7 @@ This sweep represents one of the primary offensive weapons from Reverse X-Guard,
 Success with the Reverse X-Guard Sweep requires understanding the relationship between hook placement, hip elevation, and grip control. The bottom practitioner must maintain constant elevating pressure while timing the sweep to coincide with the opponent's weight shift or base adjustment. Advanced practitioners chain this sweep with transitions to Single Leg X-Guard or Ashi Garami when the primary sweep is defended, creating a systematic attacking approach from the position.
 
 **From Position**: [[Reverse X-Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Success with the Reverse X-Guard Sweep requires understanding the relationship b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm hook placement**: Verify your primary hook is securely positioned behind the opponent's near knee with your heel curled tightly. Your secondary hook should be pressing into their hip or upper thigh on the same side, creating a scissoring structure. (Timing: Setup phase - before initiating sweep)
-2. **Establish grip control**: Secure a strong grip on the opponent's near sleeve or wrist, pulling it toward your chest to break their posture and prevent them from establishing defensive frames. Your secondary hand controls their far collar, belt, or far sleeve. (Timing: Immediately after hook confirmation)
-3. **Elevate hips explosively**: Drive your hips upward powerfully while extending both legs, lifting the opponent's base off the mat. Your primary hook behind the knee provides the main lifting force while your secondary hook controls their hip angle and prevents lateral escape. (Timing: When opponent's weight shifts forward or they attempt to adjust base)
-4. **Pull and rotate**: Simultaneously pull sharply on your sleeve grip while rotating your hips toward the direction you want to sweep. This combination of elevation and rotation creates an unstoppable off-balancing force that tips them over your leg structure. (Timing: Immediately following hip elevation - one fluid motion)
-5. **Clear hooks and follow**: As the opponent falls, retract your hooks from their legs and immediately begin your ascent. Use your pulling grip to maintain connection and control throughout the transition, preventing them from establishing frames or recovering guard. (Timing: As opponent begins falling - do not wait until they are flat)
-6. **Secure Mount**: Drive forward over the falling opponent, establishing your knees on either side of their torso before they can recover. Maintain grip control and settle your hips to establish heavy pressure in the Mount position. (Timing: Immediately after clearing hooks - continuous motion)
+1. **Confirm hook placement**: Verify your primary hook is securely positioned behind the opponent's near knee with your heel curled tightly. Your secondary hook should be pressing into their hip or upper thigh on the same side, creating a scissoring structure.
+2. **Establish grip control**: Secure a strong grip on the opponent's near sleeve or wrist, pulling it toward your chest to break their posture and prevent them from establishing defensive frames. Your secondary hand controls their far collar, belt, or far sleeve.
+3. **Elevate hips explosively**: Drive your hips upward powerfully while extending both legs, lifting the opponent's base off the mat. Your primary hook behind the knee provides the main lifting force while your secondary hook controls their hip angle and prevents lateral escape.
+4. **Pull and rotate**: Simultaneously pull sharply on your sleeve grip while rotating your hips toward the direction you want to sweep. This combination of elevation and rotation creates an unstoppable off-balancing force that tips them over your leg structure.
+5. **Clear hooks and follow**: As the opponent falls, retract your hooks from their legs and immediately begin your ascent. Use your pulling grip to maintain connection and control throughout the transition, preventing them from establishing frames or recovering guard.
+6. **Secure Mount**: Drive forward over the falling opponent, establishing your knees on either side of their torso before they can recover. Maintain grip control and settle your hips to establish heavy pressure in the Mount position.
 
 
 </section>
@@ -256,19 +256,15 @@ Success with the Reverse X-Guard Sweep requires understanding the relationship b
 ## Training Progressions
 **Week 1-2** - Hook placement and elevation mechanics
 Practice establishing proper Reverse X-Guard hook configuration with a compliant partner. Focus on getting primary hook behind knee and secondary hook on hip. Drill hip elevation without attempting full sweep, building the lifting strength and body awareness needed for the technique.
-(Resistance: None)
 
 **Week 3-4** - Full sweep mechanics with timing
 Execute complete sweep sequence with partner providing light resistance. Focus on coordinating grip pull with leg extension, timing the sweep to coincide with partner's simulated weight shifts. Work on immediate follow-through to Mount position.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chain attacks
 Partner begins defending sweep attempts with various counters (widening base, backstep, smash pass). Practice recognizing each defensive reaction and executing appropriate follow-up technique. Develop flow between Reverse X sweep and transitions to Single Leg X, Ashi Garami, and Deep Half.
-(Resistance: Medium)
 
 **Week 7+** - Live application and combination drilling
 Apply technique in positional sparring starting from Reverse X-Guard. Focus on creating sweep opportunities through constant pressure and grip fighting. Integrate technique into your full guard game, entering from De La Riva, butterfly, and other open guard positions.
-(Resistance: Full)
 
 
 

@@ -159,7 +159,7 @@ description: "Master the technical standup from bottom position in BJJ. Step-by-
 The technical standup from base is a fundamental defensive movement that allows a grounded fighter to safely return to standing position while maintaining defensive posture and base. This essential skill bridges the gap between ground-based positions and standing engagement, providing both escape utility and offensive opportunity. The technique emphasizes proper weight distribution, frame creation, and sequential base-building to prevent opponent interference during the standup process. Understanding this movement is critical for guard retention, scramble navigation, and preventing opponents from consolidating top position control. The standup sequence involves establishing a stable posting base, creating distance through frames, and executing a coordinated hip elevation that brings you to your feet while maintaining defensive awareness. This technique serves as a gateway movement that connects various bottom positions to standing engagements, making it indispensable for complete positional fluency in Brazilian Jiu-Jitsu.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
+**Success Rate**: 78%
 
 </section>
 
@@ -208,13 +208,13 @@ The technical standup from base is a fundamental defensive movement that allows 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish posting hand**: From turtle or seated position, post your lead hand firmly on the mat with fingers spread wide, arm positioned slightly in front of your shoulder line. This creates your primary base point and structural support for the entire standup sequence. (Timing: Initial setup phase)
-2. **Create defensive frame**: Extend your non-posting arm to create a frame against opponent's chest or shoulder, establishing distance and preventing them from collapsing their weight onto you during the standup. Keep elbow tight and forearm positioned to redirect pressure. (Timing: Simultaneous with posting hand establishment)
-3. **Position lead foot**: Plant your lead foot flat on the mat with knee bent approximately 90 degrees, positioning it forward and slightly outside your posting hand. This creates your second base point and prepares for hip elevation. Ensure full foot contact with the mat for maximum stability. (Timing: 0.5-1 second after frame creation)
-4. **Elevate hips**: Drive through your posted foot and hand simultaneously, elevating your hips off the mat while maintaining your defensive frame. Your trailing leg should extend backward for balance while your posted hand and lead foot bear your weight. Keep your head up and eyes on opponent. (Timing: Explosive but controlled movement)
-5. **Step trailing leg through**: Once hips are elevated and weight is balanced on posting hand and lead foot, step your trailing leg through and underneath your body, bringing your trailing foot to the mat in a wide base position. This creates a stable tripod base with both feet and one hand. (Timing: 1-1.5 seconds after hip elevation)
-6. **Rise to standing position**: Push through both legs while maintaining your defensive frame with the free arm. Remove your posting hand from the mat as you rise to full standing position, immediately establishing guard stance with hands up and knees bent. Keep weight distributed evenly on balls of both feet. (Timing: Final 0.5-1 second of sequence)
-7. **Establish standing guard**: Upon reaching standing position, immediately establish proper guard posture with hands raised defensively, feet shoulder-width apart, knees slightly bent, and weight on balls of feet. Assess opponent's position and prepare for engagement or distance management. (Timing: Immediate upon standing)
+1. **Establish posting hand**: From turtle or seated position, post your lead hand firmly on the mat with fingers spread wide, arm positioned slightly in front of your shoulder line. This creates your primary base point and structural support for the entire standup sequence.
+2. **Create defensive frame**: Extend your non-posting arm to create a frame against opponent's chest or shoulder, establishing distance and preventing them from collapsing their weight onto you during the standup. Keep elbow tight and forearm positioned to redirect pressure.
+3. **Position lead foot**: Plant your lead foot flat on the mat with knee bent approximately 90 degrees, positioning it forward and slightly outside your posting hand. This creates your second base point and prepares for hip elevation. Ensure full foot contact with the mat for maximum stability.
+4. **Elevate hips**: Drive through your posted foot and hand simultaneously, elevating your hips off the mat while maintaining your defensive frame. Your trailing leg should extend backward for balance while your posted hand and lead foot bear your weight. Keep your head up and eyes on opponent.
+5. **Step trailing leg through**: Once hips are elevated and weight is balanced on posting hand and lead foot, step your trailing leg through and underneath your body, bringing your trailing foot to the mat in a wide base position. This creates a stable tripod base with both feet and one hand.
+6. **Rise to standing position**: Push through both legs while maintaining your defensive frame with the free arm. Remove your posting hand from the mat as you rise to full standing position, immediately establishing guard stance with hands up and knees bent. Keep weight distributed evenly on balls of both feet.
+7. **Establish standing guard**: Upon reaching standing position, immediately establish proper guard posture with hands raised defensively, feet shoulder-width apart, knees slightly bent, and weight on balls of feet. Assess opponent's position and prepare for engagement or distance management.
 
 
 </section>
@@ -264,27 +264,21 @@ The technical standup from base is a fundamental defensive movement that allows 
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Solo drilling of technical standup sequence without resistance
 Practice the movement pattern repeatedly from turtle position, focusing on proper hand posting, frame creation, foot placement, and sequential base-building. Perform 20-30 repetitions per session, alternating sides. Video record to check posture, base width, and head position. Emphasize smooth, controlled movement rather than speed.
-(Resistance: None)
 
 **Week 3-4: Partner Awareness Drilling** - Standup execution with stationary partner presence
 Partner assumes turtle top position with hands on your hips but provides no active resistance. Practice creating frames, establishing distance, and completing standup while maintaining awareness of partner's position. Partner calls out errors in base, head position, or frame quality. Perform 15-20 repetitions per session with role switching.
-(Resistance: None)
 
 **Week 5-8: Progressive Resistance** - Technical standup against increasing pressure and interference
 Partner provides light to medium resistance, attempting to maintain turtle top position but allowing successful completion when technique is correct. Partner specifically targets common errors: collapsing frames, attacking posting hand, preventing hip elevation. Build from 30% resistance to 60% resistance over this phase. Perform 10-15 repetitions per session.
-(Resistance: Medium)
 
 **Week 9-12: Positional Sparring Integration** - Standup execution from turtle during live positional rounds
 Five-minute positional rounds starting from turtle with partner attempting to advance position or attack submissions. Focus exclusively on creating opportunities for technical standup rather than other escapes. Partner uses full resistance. Success measured by completion rate and quality of standing position established. Perform 4-6 rounds per session.
-(Resistance: Full)
 
 **Week 13+: Scramble Application** - Using technical standup during live scrambles and transitions
 During free rolling, actively seek opportunities to apply technical standup from various bottom positions including failed guard pulls, sweep attempts, and scramble situations. Focus on timing recognition and adaptation of base-building principles to dynamic circumstances. Receive feedback from training partners on standup quality.
-(Resistance: Full)
 
 **Ongoing: Combination Drilling** - Chaining technical standup with other defensive movements
 Practice flowing between technical standup, hip escapes, granby rolls, and guard recovery based on opponent's pressure and position. Develop recognition skills for when standup is optimal choice versus alternative escapes. Perform 10-minute flow drilling sessions with cooperative partner.
-(Resistance: Light)
 
 
 

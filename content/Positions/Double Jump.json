@@ -262,19 +262,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
+        "value": 55
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35
+        "value": 28
       },
       "average_time": "8-15 seconds before transition to back control, truck, or escape"
     },
@@ -570,19 +564,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
+        "value": 40
       },
       "average_time": "3-8 seconds (transition position)"
     },

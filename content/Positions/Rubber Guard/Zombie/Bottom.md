@@ -373,11 +373,11 @@ Practice Granby Roll specifically from Zombie position when opponent applies hea
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 5% |
-| Intermediate | 55% | 50% | 12% |
-| Advanced     | 70% | 65% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 58% |
+| Submission Probability | 16% |
 
 **Average Time in Position**: 30-90 seconds
 

@@ -157,7 +157,7 @@ This transition is particularly valuable in no-gi grappling and MMA contexts whe
 Successful execution requires strong positional awareness, quick hip movement, and the ability to maintain connection throughout the transition. The technique exemplifies the wrestling principle of "chain wrestling"—linking attacks together so that defending one creates vulnerability to another. For competitive grapplers, this represents a high-percentage path to back control, which scores maximum points in most rule sets and provides the best submission opportunities.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ Successful execution requires strong positional awareness, quick hip movement, a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure single leg position**: Establish a strong single leg control with your head on the outside of the opponent's leg. Your arms should be locked around their thigh, with your inside shoulder pressed tightly against their hip. Maintain a strong base with your knees wide and hips low to the mat. (Timing: Initial control phase)
-2. **Read opponent's defensive turn**: As your opponent attempts to defend the takedown, they will typically turn their hips away from you and post their far hand on the mat. This defensive reaction creates the opportunity for the back take. Stay alert and connected as they begin this rotation. (Timing: Recognition phase - 1-2 seconds after initial attack)
-3. **Release leg and insert near hook**: As the opponent commits to their turn, release your grip on their leg and immediately swing your inside leg (the leg closest to their hips) forward to insert the first hook. Your knee should slide between their legs as your foot hooks around their inner thigh. Keep your chest pressed against their back to maintain connection. (Timing: Immediate - as opponent begins rotation)
-4. **Climb to opponent's back**: Using the momentum of their turn, climb up onto their back by driving your hips forward and upward. Your outside arm should reach over their far shoulder to begin establishing seat belt control (one arm over shoulder, one under armpit). Keep your weight centered on their back to prevent them from rolling or sitting back. (Timing: Continuous motion from step 3)
-5. **Establish seat belt control**: Lock your hands together in a seat belt configuration with your top arm over their shoulder and your bottom arm under their far armpit. Your palms should meet at their chest with fingers interlaced or in a gable grip. This control prevents them from turning into you or escaping forward. (Timing: As you settle on their back)
-6. **Insert second hook and secure position**: Insert your second hook by threading your free leg around their opposite thigh. Both feet should now be hooked inside their legs with your heels pulling toward their centerline. Sit your hips back slightly and lean your chest against their upper back to flatten them out. Maintain tight seat belt control while keeping your hooks active to prevent escape. (Timing: Final consolidation - 2-3 seconds after initial climb)
+1. **Secure single leg position**: Establish a strong single leg control with your head on the outside of the opponent's leg. Your arms should be locked around their thigh, with your inside shoulder pressed tightly against their hip. Maintain a strong base with your knees wide and hips low to the mat.
+2. **Read opponent's defensive turn**: As your opponent attempts to defend the takedown, they will typically turn their hips away from you and post their far hand on the mat. This defensive reaction creates the opportunity for the back take. Stay alert and connected as they begin this rotation.
+3. **Release leg and insert near hook**: As the opponent commits to their turn, release your grip on their leg and immediately swing your inside leg (the leg closest to their hips) forward to insert the first hook. Your knee should slide between their legs as your foot hooks around their inner thigh. Keep your chest pressed against their back to maintain connection.
+4. **Climb to opponent's back**: Using the momentum of their turn, climb up onto their back by driving your hips forward and upward. Your outside arm should reach over their far shoulder to begin establishing seat belt control (one arm over shoulder, one under armpit). Keep your weight centered on their back to prevent them from rolling or sitting back.
+5. **Establish seat belt control**: Lock your hands together in a seat belt configuration with your top arm over their shoulder and your bottom arm under their far armpit. Your palms should meet at their chest with fingers interlaced or in a gable grip. This control prevents them from turning into you or escaping forward.
+6. **Insert second hook and secure position**: Insert your second hook by threading your free leg around their opposite thigh. Both feet should now be hooked inside their legs with your heels pulling toward their centerline. Sit your hips back slightly and lean your chest against their upper back to flatten them out. Maintain tight seat belt control while keeping your hooks active to prevent escape.
 
 
 </section>
@@ -254,27 +254,21 @@ Successful execution requires strong positional awareness, quick hip movement, a
 ## Training Progressions
 **Week 1-2: Fundamental Recognition** - Learning to recognize the back take opportunity from single leg position
 Partner starts in single leg defense position (turned away, posted hand). Practice the climb to back without resistance. Focus on smooth transition from leg control to back attachment. Partner remains relatively static to allow repetition of movement pattern. Drill 20-30 repetitions per session.
-(Resistance: None)
 
 **Week 3-4: Adding Defensive Movement** - Timing the transition against opponent's defensive turn
 Start from live single leg attack. Partner actively defends with realistic turning and posting. Practice reading their movement and timing your release and climb. Partner provides light resistance but allows completion of the technique once you commit. Begin to develop sensitivity to when the opportunity presents itself.
-(Resistance: Light)
 
 **Week 5-8: Grip Fighting Integration** - Establishing controls while opponent hand fights
 Partner now actively prevents seat belt and hooks while you attempt back take. Learn to establish first hook immediately, then work through grip fighting to secure upper body control. Partner gives medium resistance and occasionally allows escape to force problem-solving. Add finishing sequences from back control.
-(Resistance: Medium)
 
 **Week 9-12: Countering Common Defenses** - Responding to sit-backs, rolls, and squared defenses
 Partner uses all common counters (sitting back, grabbing head, squaring up, rolling). Practice your responses to each defensive option. Learn to chain this technique with other single leg finishes when back take is not available. Increase resistance to near-competition levels for short 30-second bursts.
-(Resistance: Medium)
 
 **Week 13+: Competition Integration** - Live drilling from standing with full resistance
 Begin all repetitions from standing neutral position. Secure single leg against resisting opponent and look for back take opportunity within live wrestling sequences. Partner defends at full competition intensity. Successfully complete technique against progressively skilled training partners. Integrate into positional sparring and competition preparation.
-(Resistance: Full)
 
 **Ongoing: Chain Wrestling Development** - Combining with full single leg attack system
 Practice seamless transitions between traditional single leg finish, back take, ankle pick variations, and other single leg options. Develop the ability to read opponent's defense and automatically select the highest-percentage option. Use in live rolls and competition regularly. Review video of your execution to refine timing and recognition.
-(Resistance: Full)
 
 
 

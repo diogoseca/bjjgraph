@@ -378,11 +378,11 @@ From established lapel guard, partner defends first submission attempt (triangle
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 20% |
-| Intermediate | 70% | 55% | 40% |
-| Advanced     | 85% | 75% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 65% |
+| Submission Probability | 50% |
 
 **Average Time in Position**: 2-4 minutes in competition exchanges with experienced practitioners
 

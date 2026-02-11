@@ -366,11 +366,11 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 10% | 5% |
-| Intermediate | 70% | 20% | 10% |
-| Advanced     | 85% | 30% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 25% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 45-90 seconds before escape or submission
 

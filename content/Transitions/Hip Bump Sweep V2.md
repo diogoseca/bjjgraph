@@ -157,7 +157,7 @@ The Hip Bump Sweep serves as a cornerstone technique in closed guard offense, te
 This sweep is considered essential curriculum for white and blue belts, as it develops fundamental skills in breaking posture, creating angles, and understanding weight distribution. The Hip Bump Sweep integrates seamlessly into closed guard attack systems and creates multiple offensive opportunities through the reactions it generates from opponents.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture and establish grips**: From closed guard, use collar or head control to break opponent's posture forward. Simultaneously grip their right wrist or sleeve with your left hand. Pull opponent's head down toward your chest while maintaining tight guard closure. (Timing: Initial setup, no time pressure)
-2. **Open guard and post your right hand**: Release your ankle lock and bring your right leg out from around opponent's back. Plant your right hand on the mat approximately 12 inches from your hip at a 45-degree angle, creating a strong posting base. (Timing: Smooth transition, 1-2 seconds)
-3. **Sit up and create angle**: Using your posted right hand, sit up into your opponent while simultaneously rotating your hips to the left. Your chest should come up to meet opponent's right shoulder. Your left arm maintains control of their right wrist, pinning it to your chest. (Timing: Explosive sit-up, immediate)
-4. **Elevate hips and bump opponent**: Drive your hips upward and to the left in a sweeping motion, using your posted hand for leverage. Your head should drive into opponent's right shoulder or armpit while your left hook remains tight around their back. This hip bump should lift opponent's base off the mat. (Timing: Explosive movement, 0.5 seconds)
-5. **Drive through and come up**: Continue driving through opponent's shoulder line, using the momentum of the hip bump to bring yourself up and over. Your right leg should swing through as you rotate your body. Keep constant pressure driving into opponent throughout the rotation. (Timing: Continuous with step 4, 1 second)
-6. **Establish mount position**: As opponent falls to their back, swing your right leg over their body to establish mount. Release the wrist control and immediately establish mount control with hands on opponent's biceps or collar grips. Settle your weight and establish base in the mount position. (Timing: Completion, 1-2 seconds)
+1. **Break posture and establish grips**: From closed guard, use collar or head control to break opponent's posture forward. Simultaneously grip their right wrist or sleeve with your left hand. Pull opponent's head down toward your chest while maintaining tight guard closure.
+2. **Open guard and post your right hand**: Release your ankle lock and bring your right leg out from around opponent's back. Plant your right hand on the mat approximately 12 inches from your hip at a 45-degree angle, creating a strong posting base.
+3. **Sit up and create angle**: Using your posted right hand, sit up into your opponent while simultaneously rotating your hips to the left. Your chest should come up to meet opponent's right shoulder. Your left arm maintains control of their right wrist, pinning it to your chest.
+4. **Elevate hips and bump opponent**: Drive your hips upward and to the left in a sweeping motion, using your posted hand for leverage. Your head should drive into opponent's right shoulder or armpit while your left hook remains tight around their back. This hip bump should lift opponent's base off the mat.
+5. **Drive through and come up**: Continue driving through opponent's shoulder line, using the momentum of the hip bump to bring yourself up and over. Your right leg should swing through as you rotate your body. Keep constant pressure driving into opponent throughout the rotation.
+6. **Establish mount position**: As opponent falls to their back, swing your right leg over their body to establish mount. Release the wrist control and immediately establish mount control with hands on opponent's biceps or collar grips. Settle your weight and establish base in the mount position.
 
 
 </section>
@@ -260,23 +260,18 @@ This sweep is considered essential curriculum for white and blue belts, as it de
 ## Training Progressions
 **Week 1-2: Static Drilling** - Perfect the movement pattern without resistance
 Partner holds broken posture position while you practice sitting up, posting, and executing hip bump motion. Focus on proper angle creation, hand placement, and hip elevation. Perform 10-15 repetitions per side per training session.
-(Resistance: None)
 
 **Week 3-4: Progressive Resistance** - Add light defensive posting
 Partner provides light resistance by attempting to post their free hand. Practice countering with proper angle and timing. Begin integrating grip fighting to maintain arm control. Increase to 20 repetitions per side with gradual resistance increase.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Drilling** - Execute against moderate resistance and defensive movement
 Partner actively defends with moderate intensity, posting hands and attempting to maintain posture. Practice full technique from posture break through mount establishment. Include transitions to triangle and armbar when sweep is defended. Perform 5-minute rounds of repetitive drilling.
-(Resistance: Medium)
 
 **Week 9-12: Positional Sparring** - Integration with closed guard attack system
 Start in closed guard with partner attempting to maintain posture and pass. Execute hip bump sweep in combination with other attacks (triangle, armbar, kimura). Partner uses full defensive strategy. Work 5-7 minute rounds focusing on sweep timing and setup.
-(Resistance: Full)
 
 **Month 4+: Competition Integration** - Refine timing and integrate into overall game
 Use hip bump sweep during regular sparring and competition training. Focus on recognizing optimal timing windows and creating setups through grip fighting. Develop personal variations based on body type and game style. Continue drilling 10-15 reps per session for maintenance.
-(Resistance: Full)
 
 
 

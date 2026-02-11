@@ -157,7 +157,8 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 **Type**: Leg Lock
 **Target Area**: Knee joint (primarily posterior cruciate ligament, medial collateral ligament, and joint capsule)
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**From Position**: [[Kneebar Control]] (Top)
+**Success Rate**: 60%
 
 </section>
 
@@ -233,12 +234,12 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the leg entanglement**: From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs with your inside leg hooking behind their knee and your outside leg controlling across their hip or thigh. Your legs should create a scissor-like control that prevents the opponent from simply pulling their leg free. (Timing: Establish control before attempting finish) [Pressure: Moderate]
-2. **Grip the ankle and pull toward your chest**: Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tight to your chest, eliminating any space between your torso and their leg. This connection is critical - any gap allows the opponent to create defensive frames or rotate their leg to relieve pressure. Your elbows should squeeze together, trapping the leg securely. (Timing: Before applying hip pressure) [Pressure: Firm]
-3. **Adjust angle and hip position**: Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be positioned so that your pubic bone or lower abdomen makes contact with the back of opponent's knee. The angle should be perpendicular to their leg - your spine should form roughly a 90-degree angle with their femur. This perpendicular alignment is essential for proper force application. (Timing: Positioning phase before pressure) [Pressure: Light]
-4. **Clear the free leg**: Use your outside leg and hip positioning to clear or block opponent's free leg. They will attempt to use this leg to create frames on your hips or to post and extract their trapped leg. Your outside leg can hook over theirs, or you can use hip pressure to pin it. This step is often the difference between a successful finish and an escaped position. (Timing: Before final squeeze) [Pressure: Moderate]
-5. **Engage posterior chain and extend hips**: Activate your glutes and hamstrings to drive your hips upward while simultaneously pulling the ankle toward your chest. This creates the hyperextension force on opponent's knee joint. The movement should be controlled and progressive - think of slowly arching your back rather than explosive bridging. Your shoulder blades should press into the mat as your hips rise, creating a smooth arc of pressure. (Timing: 3-5 seconds progressive pressure in training) [Pressure: Firm]
-6. **Maintain control through finish or release**: Continue the controlled hip extension until opponent taps, maintaining all grips and controls throughout. The finish position has your hips fully extended, ankle pulled tight to chest, and opponent's knee hyperextended across your hips. Upon receiving tap signal, immediately stop hip pressure and carefully release as described in safety protocols. If opponent defends successfully, maintain the position and reassess rather than forcing the finish. (Timing: Until tap or position change) [Pressure: Maximum]
+1. **Secure the leg entanglement**: From ashi garami or similar leg entanglement, ensure opponent's leg is trapped between your legs with your inside leg hooking behind their knee and your outside leg controlling across their hip or thigh. Your legs should create a scissor-like control that prevents the opponent from simply pulling their leg free. (Timing: Establish control before attempting finish)
+2. **Grip the ankle and pull toward your chest**: Cup your hands around opponent's ankle or lower shin, creating a strong connection. Pull the leg tight to your chest, eliminating any space between your torso and their leg. This connection is critical - any gap allows the opponent to create defensive frames or rotate their leg to relieve pressure. Your elbows should squeeze together, trapping the leg securely. (Timing: Before applying hip pressure)
+3. **Adjust angle and hip position**: Scoot your hips toward opponent's body while maintaining the tight ankle grip. Your hips should be positioned so that your pubic bone or lower abdomen makes contact with the back of opponent's knee. The angle should be perpendicular to their leg - your spine should form roughly a 90-degree angle with their femur. This perpendicular alignment is essential for proper force application. (Timing: Positioning phase before pressure)
+4. **Clear the free leg**: Use your outside leg and hip positioning to clear or block opponent's free leg. They will attempt to use this leg to create frames on your hips or to post and extract their trapped leg. Your outside leg can hook over theirs, or you can use hip pressure to pin it. This step is often the difference between a successful finish and an escaped position. (Timing: Before final squeeze)
+5. **Engage posterior chain and extend hips**: Activate your glutes and hamstrings to drive your hips upward while simultaneously pulling the ankle toward your chest. This creates the hyperextension force on opponent's knee joint. The movement should be controlled and progressive - think of slowly arching your back rather than explosive bridging. Your shoulder blades should press into the mat as your hips rise, creating a smooth arc of pressure. (Timing: 3-5 seconds progressive pressure in training)
+6. **Maintain control through finish or release**: Continue the controlled hip extension until opponent taps, maintaining all grips and controls throughout. The finish position has your hips fully extended, ankle pulled tight to chest, and opponent's knee hyperextended across your hips. Upon receiving tap signal, immediately stop hip pressure and carefully release as described in safety protocols. If opponent defends successfully, maintain the position and reassess rather than forcing the finish. (Timing: Until tap or position change)
 
 
 </section>
@@ -258,25 +259,25 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting to finish before establishing proper angle and control [Low DANGER]
+- **Mistake**: Attempting to finish before establishing proper angle and control
   - **Consequence**: Opponent easily escapes, and you waste energy on ineffective pressure
   - **Correction**: Be patient with your positioning. Ensure your hips are perpendicular to their leg and all controls are tight before applying finishing pressure. The setup is more important than the finish.
-- **Mistake**: Allowing space between ankle and chest [Low DANGER]
+- **Mistake**: Allowing space between ankle and chest
   - **Consequence**: Opponent can flex their knee and rotate their leg to escape or relieve pressure
   - **Correction**: Maintain constant tension pulling the ankle to your chest throughout the entire sequence. Your elbows should squeeze together, and there should be no visible gap between their shin and your torso.
-- **Mistake**: Using explosive jerking motion instead of controlled pressure [CRITICAL DANGER]
+- **Mistake**: Using explosive jerking motion instead of controlled pressure
   - **Consequence**: Severe knee injury to training partner, unsafe training environment, potential ligament rupture before partner can tap
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum in training. Engage your posterior chain smoothly rather than explosively bridging. Your partner's safety depends on controlled application.
-- **Mistake**: Ignoring opponent's free leg [Medium DANGER]
+- **Mistake**: Ignoring opponent's free leg
   - **Consequence**: Opponent creates defensive frames that prevent finish or allows them to extract trapped leg
   - **Correction**: Always address the free leg before committing to finish. Use your outside leg to control it, or position your body to neutralize its defensive capability. This is a prerequisite, not an optional detail.
-- **Mistake**: Finishing with hips parallel to opponent's leg rather than perpendicular [Medium DANGER]
+- **Mistake**: Finishing with hips parallel to opponent's leg rather than perpendicular
   - **Consequence**: Poor leverage, ineffective pressure, increased risk of opponent's leg slipping out or rotating
   - **Correction**: Check your angle before applying pressure. Your spine should be roughly perpendicular to their femur. Scoot your hips toward them and adjust your angle until the alignment is correct. This geometric principle is non-negotiable.
-- **Mistake**: Releasing controls prematurely upon feeling tap [High DANGER]
+- **Mistake**: Releasing controls prematurely upon feeling tap
   - **Consequence**: Loss of position, allows opponent to escape before acknowledging submission
   - **Correction**: Upon receiving tap, stop pressure immediately but maintain positional control while carefully releasing the leg. Follow the release protocol exactly - stop hip extension, lower hips, then allow them to extract their leg safely.
-- **Mistake**: Continuing to apply pressure after tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap signal
   - **Consequence**: Serious injury to training partner, broken trust, unsafe training environment, potential career-ending knee damage
   - **Correction**: Develop acute awareness of all tap signals - verbal, hand, foot, or distress sounds. The instant you perceive any tap signal, stop all pressure immediately. This is absolute and non-negotiable in training. There are no exceptions.
 
@@ -343,43 +344,6 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks of learning)
-- Focus: Learn proper positioning, angle, hip alignment, and safety protocols through demonstration and slow drilling without any resistance
-- Resistance: Zero resistance
-- Safety: Partner remains completely passive. Focus on memorizing release protocol and tap recognition. Practice stopping on command before any pressure is applied. Discuss injury risks and recovery times to build respect for the technique.
-
-**Positional Drilling (Weeks 3-4)** (Weeks 3-4)
-- Focus: Practice entries from various positions with compliant partner. Emphasize grip acquisition, angle creation, and free leg clearing without applying finishing pressure
-- Resistance: Zero resistance
-- Safety: Still no actual finishing pressure - stop at the point where you would begin hip extension. Practice recognizing proper vs improper positioning. Partner provides feedback on control tightness and angle accuracy.
-
-**Slow Application Practice (Weeks 5-6)** (Weeks 5-6)
-- Focus: Begin applying very light finishing pressure over 5-7 seconds, stopping well before tap would be necessary. Focus on smooth posterior chain engagement rather than explosive bridging
-- Resistance: Mild resistance
-- Safety: Partner taps early to signal pressure is felt, not because submission is locked. Practice immediate pressure cessation upon tap. Discuss sensations and danger signals after each repetition. Maximum 5 repetitions per training session to prevent accumulated stress on knee.
-
-**Controlled Resistance (Weeks 7-10)** (Weeks 7-10)
-- Focus: Partner begins using basic defenses like pulling knee inward or framing with free leg. Practice adjustments and maintaining control through defensive movements
-- Resistance: Mild resistance
-- Safety: Still applying pressure slowly over 3-5 seconds. Partner uses defenses but taps early if defenses fail. Focus on recognizing when finish is available vs when position must be maintained or abandoned. No finishing to 100% pressure yet.
-
-**Realistic Drilling (Weeks 11-16)** (Weeks 11-16)
-- Focus: Partner uses full defensive toolkit including frames, rolls, and counter-attacks. Practice transitioning between leg attacks and dealing with defensive scrambles
-- Resistance: Realistic resistance
-- Safety: Can now apply finish to tap, but always over minimum 3-5 seconds. Partner still taps early rather than testing their flexibility limits. Communication remains constant. If either person feels unsafe, stop immediately and discuss. Begin to recognize individual partner's flexibility and knee strength differences.
-
-**Live Rolling Integration (Week 17+)** (After 4 months minimum)
-- Focus: Incorporate kneebar into live rolling with agreed-upon rules (e.g., leg locks allowed at certain belt levels). Emphasize position over submission mentality
-- Resistance: Full resistance
-- Safety: Maintain all safety protocols from drilling - never spike the submission even in competition-style rolls. Agree before rolling whether leg locks are allowed and at what intensity. Experienced partners may explore the submission further, but new partners always receive extra caution. Tap early yourself to experience the sensation and build empathy. Regular partners should discuss their knee health and any concerns openly.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -394,6 +358,7 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 - [[Deep Half Guard]]
 - [[Butterfly Guard]]
 - [[Turtle]]
+- [[Kneebar Control]]
 
 
 </section>
@@ -432,6 +397,20 @@ The Kneebar is a fundamental leg lock submission that attacks the knee joint thr
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 50% |
+| Failure | [[Kneebar Control]] | 50% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

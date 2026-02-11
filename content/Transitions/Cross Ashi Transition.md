@@ -163,7 +163,7 @@ The technique involves reconfiguring your leg position while maintaining continu
 Strategically, this transition serves as an essential tool when Ushiro Ashi-Garami attacks stall or when the opponent's defensive positioning creates better finishing angles from Cross Ashi. Advanced practitioners use this transition fluidly within leg lock scrambles, recognizing that different entanglement configurations offer different submission opportunities based on the opponent's hip orientation and defensive reactions.
 
 **From Position**: [[Ushiro Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, this transition serves as an essential tool when Ushiro Ashi-Gara
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess position**: Evaluate opponent's hip orientation and heel exposure. Confirm that Cross Ashi configuration will provide better finishing angles than current Ushiro position. Check that your inside hook is secure. (Timing: 1-2 seconds)
-2. **Secure heel grip**: Establish firm two-hand grip on opponent's heel with cup configuration before initiating any leg movement. This grip maintains control and submission threat throughout the transition sequence. (Timing: Immediate)
-3. **Retract outside leg**: Begin retracting your outside leg from the Ushiro configuration while maintaining strong inside hook pressure. Pull your outside knee toward your chest to create space for repositioning. (Timing: 0.5 seconds)
-4. **Hip adjustment**: Rotate your hips to face more directly toward opponent's trapped leg. This hip repositioning creates the angle necessary for the cross configuration and improves your finishing leverage. (Timing: Simultaneous with step 3)
-5. **Cross outside leg**: Thread your outside leg across opponent's trapped leg at shin level, positioning your shin or calf against the outside of their lower leg. The cross should be tight with no space between your leg and theirs. (Timing: 0.5-1 second)
-6. **Adjust inside hook**: Reposition your inside hook to optimal depth behind opponent's hip, ensuring the hook provides backward tension that prevents them from sitting up or turning into the new configuration. (Timing: Immediate)
-7. **Settle and attack**: Consolidate the Cross Ashi-Garami position by tightening all points of control. Verify perpendicular hip alignment and assess heel exposure for immediate submission attempt or transition to Saddle. (Timing: 1-2 seconds)
+1. **Assess position**: Evaluate opponent's hip orientation and heel exposure. Confirm that Cross Ashi configuration will provide better finishing angles than current Ushiro position. Check that your inside hook is secure.
+2. **Secure heel grip**: Establish firm two-hand grip on opponent's heel with cup configuration before initiating any leg movement. This grip maintains control and submission threat throughout the transition sequence.
+3. **Retract outside leg**: Begin retracting your outside leg from the Ushiro configuration while maintaining strong inside hook pressure. Pull your outside knee toward your chest to create space for repositioning.
+4. **Hip adjustment**: Rotate your hips to face more directly toward opponent's trapped leg. This hip repositioning creates the angle necessary for the cross configuration and improves your finishing leverage.
+5. **Cross outside leg**: Thread your outside leg across opponent's trapped leg at shin level, positioning your shin or calf against the outside of their lower leg. The cross should be tight with no space between your leg and theirs.
+6. **Adjust inside hook**: Reposition your inside hook to optimal depth behind opponent's hip, ensuring the hook provides backward tension that prevents them from sitting up or turning into the new configuration.
+7. **Settle and attack**: Consolidate the Cross Ashi-Garami position by tightening all points of control. Verify perpendicular hip alignment and assess heel exposure for immediate submission attempt or transition to Saddle.
 
 
 </section>
@@ -263,19 +263,15 @@ Strategically, this transition serves as an essential tool when Ushiro Ashi-Gara
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the leg reconfiguration movement pattern without resistance. Partner holds static Ushiro position while you drill switching to Cross Ashi configuration. Focus on maintaining inside hook anchor and hip rotation. Perform 30 repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Grip maintenance
 Add heel grip retention requirement throughout transition. Partner provides light defensive reactions (minor leg retraction, slight hip movement). Focus on never releasing heel control during the switch. Drill 20 transitions per session with grip verification.
-(Resistance: Light)
 
 **Week 5-6** - Timing and recognition
 Practice recognizing when Cross Ashi offers better finishing angles than Ushiro. Partner varies hip positioning and heel exposure. Execute transition only when appropriate, staying in Ushiro when it offers better attacks. Add medium defensive resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate transition into full leg lock flow training. Start from various leg entanglements with full resistance. Practice transitioning between Ushiro, Cross Ashi, Saddle, and Inside Ashi based on opponent's defensive reactions. Include counter-defense against escape attempts during switch.
-(Resistance: Full)
 
 
 

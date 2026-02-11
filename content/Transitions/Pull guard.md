@@ -153,7 +153,7 @@ description: "Master Pull Guard in BJJ. Learn proper execution from standing to 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: Secure dominant grips on opponent's sleeves, collar, or both. For closed guard pull, typical grips include two sleeve grips or collar and sleeve. For open guards, establish grips specific to that guard system (spider, DLR, lasso, etc.). Ensure grips are tight and controlling before proceeding. (Timing: Before any weight shift)
-2. **Break opponent's posture**: Pull opponent's weight slightly forward using your established grips. This prevents them from sprawling backward or establishing heavy top pressure as you descend. Keep their head and shoulders moving toward you, disrupting their base. (Timing: Immediately before sitting)
-3. **Step in close**: Take a small step forward with one foot to close distance, bringing your hips within range of opponent's center line. This proximity is essential for maintaining connection as you sit and prevents opponent from creating separation during your descent. (Timing: As posture breaks)
-4. **Sit back with control**: Lower your hips smoothly to the mat by sitting back, keeping your back rounded and core engaged. Do not drop straight down or jump backward. Maintain constant tension on your grips throughout the descent. Land on your tailbone and immediately begin establishing your guard position. (Timing: Continuous smooth motion, 1-2 seconds)
-5. **Establish guard position**: As you land, immediately establish your chosen guard: for closed guard, wrap legs around opponent's waist and lock ankles; for open guard, place feet on hips, biceps, or establish hooks depending on guard type. Create frames and connections that prevent opponent from simply stepping back or passing. (Timing: Within 1 second of landing)
-6. **Begin offensive sequence**: Transition immediately into your attacking sequences from the established guard position. Do not allow opponent time to settle into defensive posture. Use the momentum of the pull to create off-balancing opportunities for sweeps or submission setups. (Timing: Immediately after guard establishment)
+1. **Establish grip control**: Secure dominant grips on opponent's sleeves, collar, or both. For closed guard pull, typical grips include two sleeve grips or collar and sleeve. For open guards, establish grips specific to that guard system (spider, DLR, lasso, etc.). Ensure grips are tight and controlling before proceeding.
+2. **Break opponent's posture**: Pull opponent's weight slightly forward using your established grips. This prevents them from sprawling backward or establishing heavy top pressure as you descend. Keep their head and shoulders moving toward you, disrupting their base.
+3. **Step in close**: Take a small step forward with one foot to close distance, bringing your hips within range of opponent's center line. This proximity is essential for maintaining connection as you sit and prevents opponent from creating separation during your descent.
+4. **Sit back with control**: Lower your hips smoothly to the mat by sitting back, keeping your back rounded and core engaged. Do not drop straight down or jump backward. Maintain constant tension on your grips throughout the descent. Land on your tailbone and immediately begin establishing your guard position.
+5. **Establish guard position**: As you land, immediately establish your chosen guard: for closed guard, wrap legs around opponent's waist and lock ankles; for open guard, place feet on hips, biceps, or establish hooks depending on guard type. Create frames and connections that prevent opponent from simply stepping back or passing.
+6. **Begin offensive sequence**: Transition immediately into your attacking sequences from the established guard position. Do not allow opponent time to settle into defensive posture. Use the momentum of the pull to create off-balancing opportunities for sweeps or submission setups.
 
 
 </section>
@@ -253,23 +253,18 @@ Pulling guard is a strategic defensive maneuver that transitions from standing t
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Safe descent and basic closed guard pull
 Practice sitting back motion without partner, focusing on smooth controlled descent. Progress to pulling with compliant partner into closed guard only. Emphasize grip control and safe landing mechanics. No resistance.
-(Resistance: None)
 
 **Week 3-4: Guard Type Variations** - Different guard pulls (closed, open, DLR, spider)
 Learn specific grip configurations for different guards. Practice pulling into various guard types with light resistance. Partner provides slight backward pressure but allows completion. Build muscle memory for different guard setups.
-(Resistance: Light)
 
 **Week 5-8: Timing and Opposition** - Pulling against moderate resistance and opponent movement
 Partner actively tries to maintain standing position but doesn't aggressively counter. Practice recognizing timing windows during grip fighting exchanges. Learn to pull when opponent's weight is forward or neutral. Develop sensitivity to opponent's balance.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Defending common counters to guard pull
 Partner uses realistic counters including backing away, sprawling, and immediate passing attempts. Practice maintaining connection and establishing guard despite opposition. Develop recovery skills when pull isn't perfect. Build competitive timing.
-(Resistance: Full)
 
 **Week 13+: Competition Integration** - Pulling into immediate offensive sequences
 Full resistance training where guard pull flows directly into sweep or submission attempts. Partner actively defends and attempts to pass. Practice pulling specifically to set up your highest percentage attacks. Refine timing for competition scenarios.
-(Resistance: Full)
 
 
 

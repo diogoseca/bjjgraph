@@ -373,11 +373,11 @@ Top player establishes knee on belly and actively hunts for submissions (armbar,
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 5% |
-| Intermediate | 30% | 35% | 10% |
-| Advanced     | 50% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 45% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 15-45 seconds before escape or further deterioration
 

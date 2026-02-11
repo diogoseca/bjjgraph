@@ -157,7 +157,7 @@ From 50-50 top position, you release your inside control and use hip movement co
 This technique is strategically critical in modern leg lock systems because 50-50 often becomes a positional stalemate where both practitioners defend each other's heels. The outside ashi transition breaks this symmetry, forcing your opponent into a defensive position while you gain offensive control. The transition also opens pathways to more dominant positions like saddle and inside ashi-garami, making it a gateway technique in the leg entanglement hierarchy.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique is strategically critical in modern leg lock systems because 50-5
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure heel control**: Establish firm two-handed grip on opponent's heel with dominant hand cupping the Achilles and support hand controlling the ankle. This grip must be maintained throughout the entire transition sequence to prevent opponent from escaping or counter-transitioning. (Timing: Before initiating any leg movement)
-2. **Release inside control**: Deliberately release your inside leg's control position by relaxing the triangle configuration. This feels counterintuitive but is necessary - fighting against the 50-50 structure wastes energy and makes extraction impossible. (Timing: Once heel grip is secure)
-3. **Rotate hip internally**: Turn your hip inward by pointing your knee toward your opposite shoulder. This internal rotation creates the angle needed for your leg to thread through the entanglement rather than fighting against it. Your leg should begin moving in a circular path, not straight backward. (Timing: Immediately after releasing inside control)
-4. **Thread leg through**: Guide your leg through the opening created by the hip rotation, threading it between your opponent's legs and your own body. The movement follows a semicircular path - your foot travels up and over rather than directly backward. Keep your knee bent throughout to reduce the extraction angle. (Timing: Continuous with hip rotation)
-5. **Establish outside hook**: As your leg clears the entanglement, immediately swing it over opponent's hip line with your shin or calf crossing their thigh. Your other leg triangles underneath their knee, creating the figure-4 outside ashi configuration. Do not pause between extraction and hook establishment. (Timing: Immediate upon leg clearing)
-6. **Achieve perpendicular angle**: Rotate your entire body to achieve 45-90 degree angle to opponent's body line, facing their trapped leg. Tighten the figure-4 by pulling your inside foot toward your buttocks. Maintain heel grip throughout and immediately threaten outside heel hook to prevent opponent from recovering. (Timing: Final positioning phase)
+1. **Secure heel control**: Establish firm two-handed grip on opponent's heel with dominant hand cupping the Achilles and support hand controlling the ankle. This grip must be maintained throughout the entire transition sequence to prevent opponent from escaping or counter-transitioning.
+2. **Release inside control**: Deliberately release your inside leg's control position by relaxing the triangle configuration. This feels counterintuitive but is necessary - fighting against the 50-50 structure wastes energy and makes extraction impossible.
+3. **Rotate hip internally**: Turn your hip inward by pointing your knee toward your opposite shoulder. This internal rotation creates the angle needed for your leg to thread through the entanglement rather than fighting against it. Your leg should begin moving in a circular path, not straight backward.
+4. **Thread leg through**: Guide your leg through the opening created by the hip rotation, threading it between your opponent's legs and your own body. The movement follows a semicircular path - your foot travels up and over rather than directly backward. Keep your knee bent throughout to reduce the extraction angle.
+5. **Establish outside hook**: As your leg clears the entanglement, immediately swing it over opponent's hip line with your shin or calf crossing their thigh. Your other leg triangles underneath their knee, creating the figure-4 outside ashi configuration. Do not pause between extraction and hook establishment.
+6. **Achieve perpendicular angle**: Rotate your entire body to achieve 45-90 degree angle to opponent's body line, facing their trapped leg. Tighten the figure-4 by pulling your inside foot toward your buttocks. Maintain heel grip throughout and immediately threaten outside heel hook to prevent opponent from recovering.
 
 
 </section>
@@ -252,19 +252,15 @@ This technique is strategically critical in modern leg lock systems because 50-5
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the hip rotation and leg threading motion with no resistance. Partner holds static 50-50 position while you execute 20-30 slow repetitions per side, focusing on the circular extraction path and continuous motion into outside ashi establishment.
-(Resistance: None)
 
 **Week 3-4** - Grip maintenance
 Add heel grip maintenance to the drill. Partner provides light pressure while you execute transition without releasing heel control. If grip is lost, reset and repeat. Goal is 10 consecutive successful transitions per side maintaining grip throughout.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner adds common counters (racing to outside ashi, stacking, grip stripping) at medium intensity. Practice recognizing counters and adjusting response. Include specific drilling of the your_response options for each counter.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Positional sparring from 50-50 with full resistance. Both partners work to establish advantageous leg entanglement. Track success rate and identify common failure points for additional drilling.
-(Resistance: Full)
 
 
 

@@ -367,11 +367,11 @@ Both partners start in half guard with one attempting underhook, other attemptin
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 32% | 18% |
-| Intermediate | 52% | 48% | 32% |
-| Advanced     | 70% | 66% | 52% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 61% |
+| Advancement Probability | 57% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 8-20 seconds (transitional guard control)
 

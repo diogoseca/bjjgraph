@@ -11,11 +11,6 @@
     "standing",
     "grips"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.",
   "key_principles": [
     "Establish dominant grips before initiating the pull to maintain control throughout transition",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish grip control",
-      "description": "Secure dominant grips on opponent's sleeves, collar, or both. For closed guard pull, typical grips include two sleeve grips or collar and sleeve. For open guards, establish grips specific to that guard system (spider, DLR, lasso, etc.). Ensure grips are tight and controlling before proceeding.",
-      "timing": "Before any weight shift"
+      "description": "Secure dominant grips on opponent's sleeves, collar, or both. For closed guard pull, typical grips include two sleeve grips or collar and sleeve. For open guards, establish grips specific to that guard system (spider, DLR, lasso, etc.). Ensure grips are tight and controlling before proceeding."
     },
     {
       "step_number": 2,
       "action": "Break opponent's posture",
-      "description": "Pull opponent's weight slightly forward using your established grips. This prevents them from sprawling backward or establishing heavy top pressure as you descend. Keep their head and shoulders moving toward you, disrupting their base.",
-      "timing": "Immediately before sitting"
+      "description": "Pull opponent's weight slightly forward using your established grips. This prevents them from sprawling backward or establishing heavy top pressure as you descend. Keep their head and shoulders moving toward you, disrupting their base."
     },
     {
       "step_number": 3,
       "action": "Step in close",
-      "description": "Take a small step forward with one foot to close distance, bringing your hips within range of opponent's center line. This proximity is essential for maintaining connection as you sit and prevents opponent from creating separation during your descent.",
-      "timing": "As posture breaks"
+      "description": "Take a small step forward with one foot to close distance, bringing your hips within range of opponent's center line. This proximity is essential for maintaining connection as you sit and prevents opponent from creating separation during your descent."
     },
     {
       "step_number": 4,
       "action": "Sit back with control",
-      "description": "Lower your hips smoothly to the mat by sitting back, keeping your back rounded and core engaged. Do not drop straight down or jump backward. Maintain constant tension on your grips throughout the descent. Land on your tailbone and immediately begin establishing your guard position.",
-      "timing": "Continuous smooth motion, 1-2 seconds"
+      "description": "Lower your hips smoothly to the mat by sitting back, keeping your back rounded and core engaged. Do not drop straight down or jump backward. Maintain constant tension on your grips throughout the descent. Land on your tailbone and immediately begin establishing your guard position."
     },
     {
       "step_number": 5,
       "action": "Establish guard position",
-      "description": "As you land, immediately establish your chosen guard: for closed guard, wrap legs around opponent's waist and lock ankles; for open guard, place feet on hips, biceps, or establish hooks depending on guard type. Create frames and connections that prevent opponent from simply stepping back or passing.",
-      "timing": "Within 1 second of landing"
+      "description": "As you land, immediately establish your chosen guard: for closed guard, wrap legs around opponent's waist and lock ankles; for open guard, place feet on hips, biceps, or establish hooks depending on guard type. Create frames and connections that prevent opponent from simply stepping back or passing."
     },
     {
       "step_number": 6,
       "action": "Begin offensive sequence",
-      "description": "Transition immediately into your attacking sequences from the established guard position. Do not allow opponent time to settle into defensive posture. Use the momentum of the pull to create off-balancing opportunities for sweeps or submission setups.",
-      "timing": "Immediately after guard establishment"
+      "description": "Transition immediately into your attacking sequences from the established guard position. Do not allow opponent time to settle into defensive posture. Use the momentum of the pull to create off-balancing opportunities for sweeps or submission setups."
     }
   ],
   "common_counters": [
@@ -130,32 +119,27 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Safe descent and basic closed guard pull",
-      "description": "Practice sitting back motion without partner, focusing on smooth controlled descent. Progress to pulling with compliant partner into closed guard only. Emphasize grip control and safe landing mechanics. No resistance.",
-      "resistance_level": "None"
+      "description": "Practice sitting back motion without partner, focusing on smooth controlled descent. Progress to pulling with compliant partner into closed guard only. Emphasize grip control and safe landing mechanics. No resistance."
     },
     {
       "phase": "Week 3-4: Guard Type Variations",
       "focus": "Different guard pulls (closed, open, DLR, spider)",
-      "description": "Learn specific grip configurations for different guards. Practice pulling into various guard types with light resistance. Partner provides slight backward pressure but allows completion. Build muscle memory for different guard setups.",
-      "resistance_level": "Light"
+      "description": "Learn specific grip configurations for different guards. Practice pulling into various guard types with light resistance. Partner provides slight backward pressure but allows completion. Build muscle memory for different guard setups."
     },
     {
       "phase": "Week 5-8: Timing and Opposition",
       "focus": "Pulling against moderate resistance and opponent movement",
-      "description": "Partner actively tries to maintain standing position but doesn't aggressively counter. Practice recognizing timing windows during grip fighting exchanges. Learn to pull when opponent's weight is forward or neutral. Develop sensitivity to opponent's balance.",
-      "resistance_level": "Medium"
+      "description": "Partner actively tries to maintain standing position but doesn't aggressively counter. Practice recognizing timing windows during grip fighting exchanges. Learn to pull when opponent's weight is forward or neutral. Develop sensitivity to opponent's balance."
     },
     {
       "phase": "Week 9-12: Counter Defense",
       "focus": "Defending common counters to guard pull",
-      "description": "Partner uses realistic counters including backing away, sprawling, and immediate passing attempts. Practice maintaining connection and establishing guard despite opposition. Develop recovery skills when pull isn't perfect. Build competitive timing.",
-      "resistance_level": "Full"
+      "description": "Partner uses realistic counters including backing away, sprawling, and immediate passing attempts. Practice maintaining connection and establishing guard despite opposition. Develop recovery skills when pull isn't perfect. Build competitive timing."
     },
     {
       "phase": "Week 13+: Competition Integration",
       "focus": "Pulling into immediate offensive sequences",
-      "description": "Full resistance training where guard pull flows directly into sweep or submission attempts. Partner actively defends and attempts to pass. Practice pulling specifically to set up your highest percentage attacks. Refine timing for competition scenarios.",
-      "resistance_level": "Full"
+      "description": "Full resistance training where guard pull flows directly into sweep or submission attempts. Partner actively defends and attempts to pass. Practice pulling specifically to set up your highest percentage attacks. Refine timing for competition scenarios."
     }
   ],
   "variants_and_adaptations": [
@@ -188,33 +172,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is establishing grips before pulling guard critically important?",
-      "answer": "Grips provide the essential connection and control that prevents opponent from simply backing away or establishing dominant top position as you descend. Without grips, you lose all control during the transition and may end up in a defensive scramble or with opponent completely disengaged. Grips allow you to break opponent's posture, maintain connection throughout the pull, and ensure you can establish your chosen guard position rather than landing in a neutral or disadvantaged position.",
-      "difficulty": "Beginner"
+      "answer": "Grips provide the essential connection and control that prevents opponent from simply backing away or establishing dominant top position as you descend. Without grips, you lose all control during the transition and may end up in a defensive scramble or with opponent completely disengaged. Grips allow you to break opponent's posture, maintain connection throughout the pull, and ensure you can establish your chosen guard position rather than landing in a neutral or disadvantaged position."
     },
     {
       "question": "What is the most common mistake that leads to hard impact when pulling guard?",
-      "answer": "Dropping straight down rather than sitting back is the primary cause of hard impacts. Practitioners who fall or jump straight down land heavily on their tailbone, risking injury and losing control. The correct technique involves sitting back smoothly as if sitting into a chair behind you, keeping the back rounded and core engaged to control the descent. This distributes impact across a larger surface area and maintains body control throughout the movement.",
-      "difficulty": "Beginner"
+      "answer": "Dropping straight down rather than sitting back is the primary cause of hard impacts. Practitioners who fall or jump straight down land heavily on their tailbone, risking injury and losing control. The correct technique involves sitting back smoothly as if sitting into a chair behind you, keeping the back rounded and core engaged to control the descent. This distributes impact across a larger surface area and maintains body control throughout the movement."
     },
     {
       "question": "How do you prevent opponent from backing away and disengaging during a guard pull?",
-      "answer": "Prevention requires three key elements: strong grip control established before sitting, breaking opponent's posture forward as you initiate the pull, and stepping in close to reduce distance. The grips must be maintained with constant tension throughout the descent. Breaking posture forward prevents them from pulling their weight back. Close proximity ensures your legs can immediately establish hooks, wraps, or frames that prevent separation. If they do back away, you must aggressively scoot hips forward while maintaining grips and re-establish guard connections quickly.",
-      "difficulty": "Intermediate"
+      "answer": "Prevention requires three key elements: strong grip control established before sitting, breaking opponent's posture forward as you initiate the pull, and stepping in close to reduce distance. The grips must be maintained with constant tension throughout the descent. Breaking posture forward prevents them from pulling their weight back. Close proximity ensures your legs can immediately establish hooks, wraps, or frames that prevent separation. If they do back away, you must aggressively scoot hips forward while maintaining grips and re-establish guard connections quickly."
     },
     {
       "question": "What are the key differences between pulling to closed guard versus open guard positions?",
-      "answer": "Closed guard pull prioritizes immediate control and posture breaking, using leg wrap around waist to create a closed system that prevents opponent movement. Open guard pulls establish distance control points with feet on hips, biceps, or establishing specific hooks (DLR, spider, etc.), maintaining connection while allowing more mobility. Closed guard requires closer proximity and works well against pressure passers. Open guards require more precise positioning and grip configurations specific to each guard type, but offer better options for creating angles and off-balancing. Open guards also transition more easily between different guard variations based on opponent's reactions.",
-      "difficulty": "Intermediate"
+      "answer": "Closed guard pull prioritizes immediate control and posture breaking, using leg wrap around waist to create a closed system that prevents opponent movement. Open guard pulls establish distance control points with feet on hips, biceps, or establishing specific hooks (DLR, spider, etc.), maintaining connection while allowing more mobility. Closed guard requires closer proximity and works well against pressure passers. Open guards require more precise positioning and grip configurations specific to each guard type, but offer better options for creating angles and off-balancing. Open guards also transition more easily between different guard variations based on opponent's reactions."
     },
     {
       "question": "How should you respond when opponent sprawls forward with heavy pressure immediately after you pull guard?",
-      "answer": "Rather than fighting the pressure directly, use it to your advantage by creating angles and establishing underhooks or deep positions. As they sprawl forward, rotate your hips to the side to prevent being flattened, and look for entries to butterfly hooks, deep half guard, or X-guard positions. The forward pressure can be redirected into sweep opportunities since their weight is already committed forward. You can also use the pressure to establish lockdown or deep half positions that nullify their passing pressure and create offensive opportunities. The key is accepting the pressure and using it rather than trying to push it away, which typically fails against heavier opponents.",
-      "difficulty": "Advanced"
+      "answer": "Rather than fighting the pressure directly, use it to your advantage by creating angles and establishing underhooks or deep positions. As they sprawl forward, rotate your hips to the side to prevent being flattened, and look for entries to butterfly hooks, deep half guard, or X-guard positions. The forward pressure can be redirected into sweep opportunities since their weight is already committed forward. You can also use the pressure to establish lockdown or deep half positions that nullify their passing pressure and create offensive opportunities. The key is accepting the pressure and using it rather than trying to push it away, which typically fails against heavier opponents."
     },
     {
       "question": "What grip configurations are most effective for pulling to different guard types, and why?",
-      "answer": "For closed guard, two sleeve grips or collar-and-sleeve provide strong posture breaking control. Spider guard requires two sleeve grips to establish bicep control points. De La Riva pull needs cross-collar grip and same-side sleeve to set up the hook properly. Lasso guard requires deep collar grip and opposite sleeve. Butterfly guard pull works well with double underhooks or overhook-underhook combinations. Each configuration serves the specific mechanical requirements of that guard: sleeve grips extend distance control, collar grips break posture and create off-balancing, underhooks enable close-range control and lift mechanics. The grips must facilitate both the pulling motion and the immediate establishment of the target guard position without requiring grip changes during transition.",
-      "difficulty": "Advanced"
+      "answer": "For closed guard, two sleeve grips or collar-and-sleeve provide strong posture breaking control. Spider guard requires two sleeve grips to establish bicep control points. De La Riva pull needs cross-collar grip and same-side sleeve to set up the hook properly. Lasso guard requires deep collar grip and opposite sleeve. Butterfly guard pull works well with double underhooks or overhook-underhook combinations. Each configuration serves the specific mechanical requirements of that guard: sleeve grips extend distance control, collar grips break posture and create off-balancing, underhooks enable close-range control and lift mechanics. The grips must facilitate both the pulling motion and the immediate establishment of the target guard position without requiring grip changes during transition."
     }
   ],
   "safety_considerations": "When pulling guard, descend with control to avoid hard impact on your tailbone or spine, which can cause acute injury or cumulative damage over time. Always ensure adequate mat space behind you before initiating the pull to prevent collisions with walls or other practitioners. Communicate with training partners when practicing guard pulls, especially when learning new variations, as unexpected movements can cause both partners to lose balance. Release grips immediately if you feel yourself falling in an uncontrolled manner to prevent wrist, finger, or elbow injuries. Never pull guard on hard surfaces or inadequate mats. Be aware that pulling guard in self-defense situations may be inappropriate as it concedes top position and may involve landing on concrete or other dangerous surfaces. In competition, understand the rules regarding guard pulling and whether penalties apply for immediate disengagement attempts. Warm up properly before drilling guard pulls as the hip and back movements require flexibility and core strength.",
@@ -286,5 +264,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

@@ -165,7 +165,7 @@ Strategically, this transition serves as a positional reset that maintains offen
 Energy management considerations make this transition particularly valuable during extended guard exchanges. Crackhead Control's aggressive positioning requires significant hip flexor engagement and core tension, leading to fatigue over time. New York offers a more sustainable control structure that allows brief recovery periods while maintaining offensive threat. Experienced rubber guard players cycle between these positions strategically, using Crackhead Control for submission bursts and New York for positional consolidation.
 
 **From Position**: [[Crackhead Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -213,13 +213,13 @@ Energy management considerations make this transition particularly valuable duri
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure overhook anchor**: Confirm your deep overhook is locked with hand gripping behind opponent's shoulder blade or lat, elbow pointing toward ceiling. This grip must remain constant throughout the entire transition. (Timing: Before initiating any movement)
-2. **Engage free leg**: Establish strong butterfly hook or hip post with your non-controlling leg to maintain hip connection and prevent back exposure during the transitional moment when your primary leg repositions. (Timing: Immediately after confirming overhook)
-3. **Release shin grip**: While maintaining overhook pressure, release the hand gripping your own shin near the ankle. Keep your core engaged and use the leg's natural elasticity to maintain some pressure during this brief release. (Timing: When opponent's weight shifts forward)
-4. **Reposition controlling leg**: Slide your controlling leg from its position across opponent's neck or upper back down to the standard New York position with shin across the shoulder blades. The leg should not swing wide but rather slide along their back maintaining contact. (Timing: Within 1-2 seconds of releasing grip)
-5. **Re-establish shin grip**: Immediately grip your own shin near the ankle with the same hand that released it, positioning your hand between ankle and lower calf for maximum leverage. This completes the New York control structure. (Timing: As soon as leg reaches New York position)
-6. **Adjust hip angle**: Rotate your hips slightly toward the overhook side to establish the characteristic New York angle that opens pathways to Invisible Collar, Zombie, and Carni transitions. Verify all control points are secure. (Timing: Immediately after shin grip established)
-7. **Consolidate control**: Apply downward pressure with the repositioned leg while maintaining deep overhook. Verify opponent's posture remains broken and their trapped arm cannot establish defensive frames. Begin assessing which attack pathway is optimal from the new angle. (Timing: 2-3 seconds after completing transition)
+1. **Secure overhook anchor**: Confirm your deep overhook is locked with hand gripping behind opponent's shoulder blade or lat, elbow pointing toward ceiling. This grip must remain constant throughout the entire transition.
+2. **Engage free leg**: Establish strong butterfly hook or hip post with your non-controlling leg to maintain hip connection and prevent back exposure during the transitional moment when your primary leg repositions.
+3. **Release shin grip**: While maintaining overhook pressure, release the hand gripping your own shin near the ankle. Keep your core engaged and use the leg's natural elasticity to maintain some pressure during this brief release.
+4. **Reposition controlling leg**: Slide your controlling leg from its position across opponent's neck or upper back down to the standard New York position with shin across the shoulder blades. The leg should not swing wide but rather slide along their back maintaining contact.
+5. **Re-establish shin grip**: Immediately grip your own shin near the ankle with the same hand that released it, positioning your hand between ankle and lower calf for maximum leverage. This completes the New York control structure.
+6. **Adjust hip angle**: Rotate your hips slightly toward the overhook side to establish the characteristic New York angle that opens pathways to Invisible Collar, Zombie, and Carni transitions. Verify all control points are secure.
+7. **Consolidate control**: Apply downward pressure with the repositioned leg while maintaining deep overhook. Verify opponent's posture remains broken and their trapped arm cannot establish defensive frames. Begin assessing which attack pathway is optimal from the new angle.
 
 
 </section>
@@ -265,19 +265,15 @@ Energy management considerations make this transition particularly valuable duri
 ## Training Progressions
 **Week 1-2** - Isolated mechanics
 Practice the leg repositioning motion with compliant partner in static position. Focus on maintaining overhook depth while sliding leg from Crackhead position to New York position. No resistance - develop smooth movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Timing and coordination
 Partner provides light movement and occasional posture attempts. Practice timing the transition when opponent drives forward, using their momentum to assist leg repositioning. Introduce free leg hip connection as conscious element.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to prevent transition through posture recovery, forward driving, and grip stripping. Practice recognizing when to complete transition versus abandon to alternative position. Chain transition with immediate New York attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring starting from Crackhead Control. Partner defends with realistic intensity. Practice cycling between Crackhead and New York based on opponent reactions, using transitions to maintain offensive pressure and disrupt defensive timing.
-(Resistance: Full)
 
 
 

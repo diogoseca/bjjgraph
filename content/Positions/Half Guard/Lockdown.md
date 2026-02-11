@@ -89,21 +89,23 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 ### Available Transitions
 
 
-- **[[Whip-up Sweep]]** (13% of attempts)
+- **[[Whip-up Sweep]]** (12% of attempts)
 
-- **[[Old School Sweep]]** (15% of attempts)
+- **[[Old School Sweep]]** (11% of attempts)
 
-- **[[Electric Chair Submission]]** (12% of attempts)
+- **[[Electric Chair Submission]]** (11% of attempts)
 
-- **[[Lockdown Sweeps]]** (12% of attempts)
+- **[[Lockdown Sweeps]]** (11% of attempts)
 
-- **[[Rolling Back Take]]** (11% of attempts)
+- **[[Rolling Back Take]]** (10% of attempts)
 
-- **[[Turtle to Truck]]** (12% of attempts)
+- **[[Turtle to Truck]]** (11% of attempts)
 
-- **[[Deep Half Entry]]** (13% of attempts)
+- **[[Deep Half Entry]]** (12% of attempts)
 
-- **[[Kimura from Half Guard]]** (12% of attempts)
+- **[[Kimura from Half Guard]]** (11% of attempts)
+
+- **[[Electric Chair Transition]]** (11% of attempts)
 
 
 ### Common Mistakes

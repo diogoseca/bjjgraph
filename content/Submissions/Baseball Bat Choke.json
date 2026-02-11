@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Baseball Bat Choke is a powerful collar-based blood choke executed primarily from top control positions. Named for the grip configuration that resembles holding a baseball bat, this technique creates a highly effective compression of the carotid arteries through crossed collar grips. The Baseball Bat Choke is particularly effective because it allows the attacker to maintain superior position while applying the submission, making it difficult for opponents to escape once the grips are secured. The technique works by using one hand deep in the collar near the opponent's far shoulder while the other hand grips high on the near collar, creating a scissoring action that cuts off blood flow to the brain. Unlike many collar chokes that require specific positioning, the Baseball Bat Choke can be applied from multiple top positions including side control, north-south, turtle, and transitional scrambles. The crossed-hands configuration generates tremendous pressure with relatively little effort, making it accessible to practitioners of all sizes and strength levels. The submission is highly reliable in gi competition and represents a fundamental finishing option that every BJJ practitioner should master as part of their attacking arsenal from dominant positions.",
   "safety_considerations": {
     "injury_risks": [
@@ -83,43 +78,37 @@
       "step_number": 1,
       "action": "Establish Far Collar Grip",
       "description": "From side control or turtle top position, reach across opponent's neck and feed your hand deep into the far collar. Your thumb should be inside the collar, with your grip as deep as possible near the opponent's far shoulder. This is your primary choking hand and must be secured before proceeding. The deeper the grip, the more effective the choke will be.",
-      "timing": "Take 2-3 seconds to work the grip as deep as possible",
-      "pressure_level": "Moderate"
+      "timing": "Take 2-3 seconds to work the grip as deep as possible"
     },
     {
       "step_number": 2,
       "action": "Secure Near Collar Grip",
       "description": "With your opposite hand, grip high on the near collar with your palm facing down. This grip should be at or above the opponent's jaw line, creating the top portion of the baseball bat configuration. Your hands should now be crossed with the far-side grip deep and the near-side grip high, resembling the hand position on a baseball bat.",
-      "timing": "1-2 seconds after securing far grip",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds after securing far grip"
     },
     {
       "step_number": 3,
       "action": "Position Hips and Weight",
       "description": "Drive your hips forward and down, placing your weight on the opponent's upper body and shoulder. Your chest should be heavy on their shoulder, preventing them from turning toward you or creating space. This weight distribution is critical as it immobilizes the opponent while you apply the choke. Keep your base wide with your legs sprawled to prevent being rolled.",
-      "timing": "Simultaneous with grip securing",
-      "pressure_level": "Firm"
+      "timing": "Simultaneous with grip securing"
     },
     {
       "step_number": 4,
       "action": "Pull Elbows Together",
       "description": "Begin drawing your elbows toward each other in a scissoring motion. The far elbow (deep grip) pulls toward your centerline while the near elbow (high grip) pulls in the opposite direction. This creates the choking pressure by tightening the collar around the carotid arteries. Focus on the direction of your elbows rather than just pulling with your hands - the elbows create the mechanical advantage.",
-      "timing": "Apply over 3-5 seconds progressively",
-      "pressure_level": "Moderate"
+      "timing": "Apply over 3-5 seconds progressively"
     },
     {
       "step_number": 5,
       "action": "Expand Chest and Shoulder Pressure",
       "description": "As you pull your elbows together, simultaneously expand your chest and drive your shoulder into the opponent's neck. This creates additional compression and makes the choke more effective. Your body position should feel like you're hugging a heavy object to your chest while pressing it away with your shoulder. This body mechanics multiplies the choking pressure without requiring excessive grip strength.",
-      "timing": "Continuous pressure building over 2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "Continuous pressure building over 2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Adjust Angle and Finish",
       "description": "Make micro-adjustments to your angle and grip depth based on opponent's response. If they turn toward you, maintain pressure and potentially transition to modified mount. If they turn away, follow and maintain the choke. Continue steady, progressive pressure until the tap comes. The finish should feel inevitable as the opponent has no escape route while you maintain superior position and tight collar control.",
-      "timing": "Hold steady pressure until tap (typically 2-5 seconds)",
-      "pressure_level": "Maximum"
+      "timing": "Hold steady pressure until tap (typically 2-5 seconds)"
     }
   ],
   "opponent_defense_patterns": [
@@ -153,44 +142,37 @@
     {
       "error": "Gripping too shallow in the far collar",
       "consequence": "Choke lacks power and opponent can defend by tucking chin or turning",
-      "correction": "Feed your hand as deep as possible until your thumb reaches near their far shoulder. Take time to establish depth before securing second grip.",
-      "danger_level": "Low"
+      "correction": "Feed your hand as deep as possible until your thumb reaches near their far shoulder. Take time to establish depth before securing second grip."
     },
     {
       "error": "Pulling with hands instead of driving elbows together",
       "consequence": "Wastes grip strength and creates arm choke instead of effective collar choke",
-      "correction": "Focus on elbow direction and position. Think about pulling elbows to your centerline in scissoring motion rather than hand grips pulling apart.",
-      "danger_level": "Low"
+      "correction": "Focus on elbow direction and position. Think about pulling elbows to your centerline in scissoring motion rather than hand grips pulling apart."
     },
     {
       "error": "Not controlling opponent's near arm",
       "consequence": "Opponent can frame against your neck or face and create escape space",
-      "correction": "Pin their near arm with your body position or control it with your weight before committing fully to the choke.",
-      "danger_level": "Low"
+      "correction": "Pin their near arm with your body position or control it with your weight before committing fully to the choke."
     },
     {
       "error": "Leaving hips high without weight on opponent",
       "consequence": "Opponent can shrimp away, roll, or recover guard while you focus on choke",
-      "correction": "Drive hips down and forward, making your chest heavy on their shoulder. Control position first, then finish submission.",
-      "danger_level": "Medium"
+      "correction": "Drive hips down and forward, making your chest heavy on their shoulder. Control position first, then finish submission."
     },
     {
       "error": "Applying choke too explosively or spiking it",
       "consequence": "Risk of injury to training partner, including unconsciousness without tap opportunity",
-      "correction": "Apply progressive pressure over 3-5 seconds in training. Partner safety is more important than submission speed.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply progressive pressure over 3-5 seconds in training. Partner safety is more important than submission speed."
     },
     {
       "error": "Crossing wrists instead of forearms when gripping",
       "consequence": "Weak structure that opponent can break, loss of choking leverage",
-      "correction": "Ensure your forearms cross in baseball bat configuration with elbows able to drive toward centerline. Wrists should not touch.",
-      "danger_level": "Medium"
+      "correction": "Ensure your forearms cross in baseball bat configuration with elbows able to drive toward centerline. Wrists should not touch."
     },
     {
       "error": "Abandoning position to chase the finish",
       "consequence": "Opponent escapes and you lose dominant position for uncertain submission",
-      "correction": "If choke is not tight, maintain top position and reset grips. Never sacrifice positional dominance for low-percentage submission attempt.",
-      "danger_level": "Low"
+      "correction": "If choke is not tight, maintain top position and reset grips. Never sacrifice positional dominance for low-percentage submission attempt."
     }
   ],
   "variations_and_setups": [
@@ -277,50 +259,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "1-2 weeks",
-      "focus": "Learn proper grip configuration, hand positioning, and body mechanics without applying any choking pressure. Practice establishing grips from various positions while partner remains relaxed.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus on grip depth and collar control without any pressure to neck. Partner should provide feedback on grip placement only."
-    },
-    {
-      "phase": "Positional Entry Drilling",
-      "timeframe": "2-3 weeks",
-      "focus": "Practice establishing baseball bat grips from side control, turtle top, and north-south positions. Work on combining position maintenance with grip acquisition. Partner provides light defensive framing.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Still no choking pressure applied. Focus on controlling position safely while establishing grips. Partner should defend grips only, not position."
-    },
-    {
-      "phase": "Slow Application Practice",
-      "timeframe": "3-4 weeks",
-      "focus": "Begin applying light progressive pressure over 5-7 seconds, stopping well before a tap would be necessary. Partner should tap early to establish safety habits. Practice immediate release upon tap.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Establish tap-and-release protocol. Both partners verbally confirm awareness before and after each repetition. Stop at first sign of discomfort."
-    },
-    {
-      "phase": "Realistic Drilling",
-      "timeframe": "1-2 months",
-      "focus": "Apply technique with realistic defensive reactions. Partner defends grips, attempts to escape position, and forces you to maintain control while working toward submission. Build to finish with 3-5 second progressive pressure.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain slow progressive pressure even against resistance. Never spike or jerk the choke. Both partners should communicate clearly about pressure levels."
-    },
-    {
-      "phase": "Positional Sparring Integration",
-      "timeframe": "Ongoing",
-      "focus": "Practice baseball bat choke during positional sparring from top positions. Work on recognizing opportunities, establishing grips under pressure, and finishing safely. Include submission chains and transitions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Apply training-speed pressure only. Both partners must respect taps immediately. Discuss any safety concerns between rounds."
-    },
-    {
-      "phase": "Live Rolling Application",
-      "timeframe": "Ongoing after 3+ months experience",
-      "focus": "Integrate baseball bat choke into your submission arsenal during live rolling. Focus on high-percentage setups from dominant positions and maintaining positional hierarchy. Only attempt when grips are properly established.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never apply competition-speed chokes in training. Always give partner opportunity to tap. Release immediately upon any tap signal. Check partner awareness after each successful submission."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "North-South",
@@ -392,5 +330,6 @@
       "name": "Scarf Hold Position",
       "relationship": "Transitional position that can lead to baseball bat setup"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura Sweep is a powerful positional advancement technique that leverages the figure-four grip control to off-balance and sweep the opponent from Closed Guard directly to Mount. This sweep capitalizes on the mechanical advantage created when you secure the Kimura grip on the opponent's arm, using their trapped limb as a lever to disrupt their base and facilitate the reversal. The technique represents a fundamental concept in guard work where grip fighting transitions directly into sweeping opportunities rather than remaining as isolated submission attempts.\n\nStrategically, the Kimura Sweep creates a dilemma for the opponent: defend the Kimura grip and become vulnerable to the sweep, or post their hand to maintain base and risk the submission. This attack-sweep duality makes the Kimura grip one of the most versatile tools from Closed Guard. The sweep works particularly well against opponents who attempt to posture up or establish a strong base, as their weight distribution makes them susceptible to being rolled.\n\nAt higher levels, the Kimura Sweep integrates into broader attacking systems where the initial grip threat forces reactions that open pathways to back takes, hip bumps, or direct submission finishes. Understanding when to commit to the sweep versus when to maintain grip pressure for other attacks distinguishes intermediate from advanced practitioners.",
   "key_principles": [
     "Secure the figure-four grip before attempting any sweep motion to ensure mechanical control",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Secure Kimura Grip",
-      "description": "From Closed Guard, control opponent's wrist with your same-side hand while threading your opposite arm under their tricep to grab your own wrist, creating the figure-four lock",
-      "timing": "When opponent posts hand on mat or your hip"
+      "description": "From Closed Guard, control opponent's wrist with your same-side hand while threading your opposite arm under their tricep to grab your own wrist, creating the figure-four lock"
     },
     {
       "step_number": 2,
       "action": "Break Posture",
-      "description": "Pull opponent's trapped elbow across your centerline while using your legs to break their posture forward, bringing their weight over your body",
-      "timing": "Immediately after securing grip"
+      "description": "Pull opponent's trapped elbow across your centerline while using your legs to break their posture forward, bringing their weight over your body"
     },
     {
       "step_number": 3,
       "action": "Create Angle",
-      "description": "Hip escape to the side opposite the trapped arm, loading your weight onto one hip while maintaining the Kimura grip tight to your chest",
-      "timing": "As opponent resists the pull"
+      "description": "Hip escape to the side opposite the trapped arm, loading your weight onto one hip while maintaining the Kimura grip tight to your chest"
     },
     {
       "step_number": 4,
       "action": "Open Guard",
-      "description": "Unlock your ankles and place your foot on the mat on the side you're hip escaping toward, keeping the opposite leg as a hook on opponent's hip",
-      "timing": "Once angle is established"
+      "description": "Unlock your ankles and place your foot on the mat on the side you're hip escaping toward, keeping the opposite leg as a hook on opponent's hip"
     },
     {
       "step_number": 5,
       "action": "Execute Sweep",
-      "description": "Drive through opponent's shoulder using the Kimura grip as a steering wheel while simultaneously pushing off your posted foot and pulling with your hook leg",
-      "timing": "When opponent's base is compromised"
+      "description": "Drive through opponent's shoulder using the Kimura grip as a steering wheel while simultaneously pushing off your posted foot and pulling with your hook leg"
     },
     {
       "step_number": 6,
       "action": "Consolidate Mount",
-      "description": "Follow the momentum of the sweep to land in Mount position, immediately establishing base with your knees wide while maintaining grip control on the arm",
-      "timing": "As opponent rolls to their back"
+      "description": "Follow the momentum of the sweep to land in Mount position, immediately establishing base with your knees wide while maintaining grip control on the arm"
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip Mechanics",
-      "description": "Practice securing the figure-four Kimura grip from Closed Guard against a stationary partner. Focus on proper wrist positioning, elbow threading, and keeping the grip tight to chest. Drill grip acquisition 50 times per session.",
-      "resistance_level": "None"
+      "description": "Practice securing the figure-four Kimura grip from Closed Guard against a stationary partner. Focus on proper wrist positioning, elbow threading, and keeping the grip tight to chest. Drill grip acquisition 50 times per session."
     },
     {
       "phase": "Week 3-4",
       "focus": "Sweep Motion",
-      "description": "Add the hip escape and sweep motion with compliant partner. Focus on timing the guard opening, foot posting, and hip drive. Partner allows sweep completion to build muscle memory for the full sequence.",
-      "resistance_level": "Light"
+      "description": "Add the hip escape and sweep motion with compliant partner. Focus on timing the guard opening, foot posting, and hip drive. Partner allows sweep completion to build muscle memory for the full sequence."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing and Reactions",
-      "description": "Partner provides moderate resistance and common defensive reactions. Practice recognizing when to commit to sweep versus transition to submission. Introduce chain attacks when sweep is defended.",
-      "resistance_level": "Medium"
+      "description": "Partner provides moderate resistance and common defensive reactions. Practice recognizing when to commit to sweep versus transition to submission. Introduce chain attacks when sweep is defended."
     },
     {
       "phase": "Week 7+",
       "focus": "Live Integration",
-      "description": "Apply Kimura Sweep in positional sparring starting from Closed Guard. Work on setting up the grip naturally during live rolls and recognizing optimal sweep timing against resisting opponents.",
-      "resistance_level": "Full"
+      "description": "Apply Kimura Sweep in positional sparring starting from Closed Guard. Work on setting up the grip naturally during live rolls and recognizing optimal sweep timing against resisting opponents."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical advantage that makes the Kimura Sweep effective?",
-      "answer": "The figure-four grip creates a lever system where your entire arm strength controls opponent's shoulder joint, allowing you to use their trapped limb to disrupt their base and create the rotational force needed for the sweep.",
-      "difficulty": "Beginner"
+      "answer": "The figure-four grip creates a lever system where your entire arm strength controls opponent's shoulder joint, allowing you to use their trapped limb to disrupt their base and create the rotational force needed for the sweep."
     },
     {
       "question": "Why must you hip escape before attempting the sweep motion?",
-      "answer": "The hip escape creates the angular leverage necessary to load your weight onto one hip, which generates the rotational force to roll the opponent. Without the angle, you're pushing directly into their base rather than around it.",
-      "difficulty": "Beginner"
+      "answer": "The hip escape creates the angular leverage necessary to load your weight onto one hip, which generates the rotational force to roll the opponent. Without the angle, you're pushing directly into their base rather than around it."
     },
     {
       "question": "Your opponent straightens their trapped arm when you secure the Kimura grip. How do you adjust?",
-      "answer": "Transition immediately to a straight armlock attack on the extended arm, or use their focus on the arm to switch to a hip bump sweep while their attention is diverted from base maintenance.",
-      "difficulty": "Intermediate"
+      "answer": "Transition immediately to a straight armlock attack on the extended arm, or use their focus on the arm to switch to a hip bump sweep while their attention is diverted from base maintenance."
     },
     {
       "question": "What distinguishes when to finish the Kimura submission versus executing the sweep?",
-      "answer": "Finish the submission when opponent's weight drops and they flatten to defend. Execute the sweep when opponent maintains posture or shifts weight backward to create base, as this weight distribution makes them vulnerable to being rolled.",
-      "difficulty": "Intermediate"
+      "answer": "Finish the submission when opponent's weight drops and they flatten to defend. Execute the sweep when opponent maintains posture or shifts weight backward to create base, as this weight distribution makes them vulnerable to being rolled."
     },
     {
       "question": "Why is it critical to keep the trapped arm pinned to your chest throughout the sweep?",
-      "answer": "Keeping the arm tight prevents opponent from straightening to break the grip, maintains your mechanical advantage, and ensures the lever system stays intact so your hip drive translates directly into rotational force on their body.",
-      "difficulty": "Beginner"
+      "answer": "Keeping the arm tight prevents opponent from straightening to break the grip, maintains your mechanical advantage, and ensures the lever system stays intact so your hip drive translates directly into rotational force on their body."
     },
     {
       "question": "Your opponent posts their free hand wide to resist the sweep. How do you capitalize on this?",
-      "answer": "The posted hand creates an armbar opportunity on that extended arm, or you can increase hip drive explosiveness to power through their weakened base since weight is now distributed across a wider, less stable platform.",
-      "difficulty": "Intermediate"
+      "answer": "The posted hand creates an armbar opportunity on that extended arm, or you can increase hip drive explosiveness to power through their weakened base since weight is now distributed across a wider, less stable platform."
     },
     {
       "question": "What leg positioning optimizes the sweep power during execution?",
-      "answer": "Post one foot on the mat on the side you're hip escaping toward for driving power, while keeping the opposite leg as an active hook on opponent's hip to pull them into the rotation and prevent them from stepping around.",
-      "difficulty": "Intermediate"
+      "answer": "Post one foot on the mat on the side you're hip escaping toward for driving power, while keeping the opposite leg as an active hook on opponent's hip to pull them into the rotation and prevent them from stepping around."
     },
     {
       "question": "How does the Kimura Sweep integrate with the hip bump sweep as a combination attack?",
-      "answer": "Attempt hip bump first to force opponent to post their hand for base. The posting hand becomes the target for Kimura grip, and the sweep executes in the opposite direction from the hip bump, catching opponent in transition between defensive positions.",
-      "difficulty": "Advanced"
+      "answer": "Attempt hip bump first to force opponent to post their hand for base. The posting hand becomes the target for Kimura grip, and the sweep executes in the opposite direction from the hip bump, catching opponent in transition between defensive positions."
     }
   ],
   "safety_considerations": "The Kimura Sweep is relatively low-risk compared to submission techniques, but attention to shoulder safety remains important. During drilling, avoid cranking the Kimura grip aggressively as the sweep completes, as landing momentum can add unexpected force to the shoulder joint. Partners should tap immediately if shoulder pressure becomes uncomfortable during sweep practice. When learning, focus on smooth technique rather than explosive power to prevent accidental joint strain. Avoid this sweep if you have existing wrist or elbow injuries, as the gripping demands can aggravate these conditions.",
@@ -256,5 +233,6 @@
       "name": "Scissor Sweep",
       "relationship": "Alternative sweep from similar grip position"
     }
-  ]
+  ],
+  "success_rate": 58
 }

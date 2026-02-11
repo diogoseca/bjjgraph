@@ -366,11 +366,11 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 5% |
-| Intermediate | 30% | 40% | 10% |
-| Advanced     | 50% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 48% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 

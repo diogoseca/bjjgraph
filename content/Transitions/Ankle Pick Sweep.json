@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Ankle Pick Sweep is a fundamental technique from seated guard that exploits the opponent's standing posture through precise grip control and off-balancing mechanics. This sweep targets the opponent's base by controlling their ankle while simultaneously disrupting their upper body balance, creating a powerful lever system that dumps them to the mat.\n\nThe technique is particularly effective against opponents who maintain an upright, standing posture while attempting to pass seated guard. By combining a strong collar or wrist grip with a well-timed ankle grab, the practitioner creates a mechanical disadvantage that makes it extremely difficult for the opponent to maintain their base. The sweep works on the principle of removing support from one leg while pulling the upper body in the opposite direction, creating a rotational force that the opponent cannot resist.\n\nThis sweep serves as a cornerstone technique in modern no-gi grappling and has been refined by competitive grapplers who utilize seated guard as a primary defensive and offensive position. The Ankle Pick Sweep can be executed with minimal energy expenditure when timed correctly, making it an excellent option for practitioners of all sizes and strength levels. Its effectiveness lies in the mechanical advantage created rather than relying on superior strength or athleticism.",
   "key_principles": [
     "Control opponent's upper body before attacking the ankle to prevent them from posting their hands",
@@ -55,44 +50,37 @@
     {
       "step_number": 1,
       "action": "Establish upper body control",
-      "description": "From seated guard, secure a dominant grip on the opponent's collar, wrist, or sleeve. Your grip should be on the same side as the ankle you intend to attack. Pull this grip slightly to get the opponent leaning forward and to test their balance. Keep your chest up and maintain an active seated posture with your free hand ready to post behind you if needed.",
-      "timing": "Initial setup - establish before opponent begins their passing attempt"
+      "description": "From seated guard, secure a dominant grip on the opponent's collar, wrist, or sleeve. Your grip should be on the same side as the ankle you intend to attack. Pull this grip slightly to get the opponent leaning forward and to test their balance. Keep your chest up and maintain an active seated posture with your free hand ready to post behind you if needed."
     },
     {
       "step_number": 2,
       "action": "Create angular movement",
-      "description": "Shift your hips at an angle away from the leg you're attacking while maintaining your upper body grip. This lateral hip movement serves two purposes: it creates space for your attacking hand to reach the ankle, and it begins to off-balance the opponent by pulling them in one direction while you move in another. Your shoulders should rotate with your hips to maintain pulling tension.",
-      "timing": "As opponent steps forward or shifts weight"
+      "description": "Shift your hips at an angle away from the leg you're attacking while maintaining your upper body grip. This lateral hip movement serves two purposes: it creates space for your attacking hand to reach the ankle, and it begins to off-balance the opponent by pulling them in one direction while you move in another. Your shoulders should rotate with your hips to maintain pulling tension."
     },
     {
       "step_number": 3,
       "action": "Secure ankle grip",
-      "description": "Reach your free hand to grip the opponent's ankle on the opposite side from your upper body control. Use a cupping grip with your palm on the Achilles tendon and your fingers wrapped around the front of the ankle. The grip should be firm and positioned as low on the ankle as possible, near the heel, to maximize leverage. Your thumb should point downward toward the mat.",
-      "timing": "When opponent's weight shifts onto the target leg"
+      "description": "Reach your free hand to grip the opponent's ankle on the opposite side from your upper body control. Use a cupping grip with your palm on the Achilles tendon and your fingers wrapped around the front of the ankle. The grip should be firm and positioned as low on the ankle as possible, near the heel, to maximize leverage. Your thumb should point downward toward the mat."
     },
     {
       "step_number": 4,
       "action": "Pull upper body grip",
-      "description": "Aggressively pull the upper body grip across your body and slightly downward, directing the opponent's torso toward the mat on the opposite side from their trapped ankle. This pull should be explosive and committed, using your lats and core rotation rather than just your biceps. The pulling direction should be diagonal - both across and down - to prevent the opponent from posting their hands effectively.",
-      "timing": "Simultaneously with ankle sweep initiation"
+      "description": "Aggressively pull the upper body grip across your body and slightly downward, directing the opponent's torso toward the mat on the opposite side from their trapped ankle. This pull should be explosive and committed, using your lats and core rotation rather than just your biceps. The pulling direction should be diagonal - both across and down - to prevent the opponent from posting their hands effectively."
     },
     {
       "step_number": 5,
       "action": "Sweep the ankle",
-      "description": "While pulling the upper body, drive the ankle grip in a scooping motion toward you and across your body. The motion is similar to sweeping dirt with your hand - you're not just lifting the ankle, but pulling it across and toward you while rotating your torso. This creates a circular sweeping path that removes the opponent's base completely. Keep your elbow tight to your body for maximum power transfer.",
-      "timing": "Coordinated with upper body pull - both motions happen together"
+      "description": "While pulling the upper body, drive the ankle grip in a scooping motion toward you and across your body. The motion is similar to sweeping dirt with your hand - you're not just lifting the ankle, but pulling it across and toward you while rotating your torso. This creates a circular sweeping path that removes the opponent's base completely. Keep your elbow tight to your body for maximum power transfer."
     },
     {
       "step_number": 6,
       "action": "Rotate through the sweep",
-      "description": "As the opponent begins to fall, continue rotating your upper body in the direction of the sweep. Your pulling hand should maintain tension throughout the fall, and your sweeping hand should follow through completely. Begin transitioning your hips from seated position toward your knees, preparing to come up on top. Don't release either grip until you've established top position.",
-      "timing": "As opponent loses balance and begins to fall"
+      "description": "As the opponent begins to fall, continue rotating your upper body in the direction of the sweep. Your pulling hand should maintain tension throughout the fall, and your sweeping hand should follow through completely. Begin transitioning your hips from seated position toward your knees, preparing to come up on top. Don't release either grip until you've established top position."
     },
     {
       "step_number": 7,
       "action": "Secure top position",
-      "description": "As the opponent hits the mat, immediately come up on your knees and establish top position. Keep the collar or wrist grip to control their upper body and prevent them from recovering guard. You can transition to side control, headquarters position, or begin advancing toward mount depending on how they land. Release the ankle grip once you've established stable top pressure.",
-      "timing": "Immediately after opponent lands on the mat"
+      "description": "As the opponent hits the mat, immediately come up on your knees and establish top position. Keep the collar or wrist grip to control their upper body and prevent them from recovering guard. You can transition to side control, headquarters position, or begin advancing toward mount depending on how they land. Release the ankle grip once you've established stable top pressure."
     }
   ],
   "common_counters": [
@@ -163,32 +151,27 @@
     {
       "phase": "Week 1-2: Fundamental mechanics",
       "focus": "Grip placement and basic sweeping motion",
-      "description": "Partner stands in front while you sit. Practice establishing collar/wrist grip and ankle grip with no resistance. Focus on correct hand positioning and pulling angles. Drill the sweeping motion slowly with cooperative partner, emphasizing diagonal pulling direction and following through to top position. Complete 10-15 repetitions per session.",
-      "resistance_level": "None"
+      "description": "Partner stands in front while you sit. Practice establishing collar/wrist grip and ankle grip with no resistance. Focus on correct hand positioning and pulling angles. Drill the sweeping motion slowly with cooperative partner, emphasizing diagonal pulling direction and following through to top position. Complete 10-15 repetitions per session."
     },
     {
       "phase": "Week 3-4: Timing and coordination",
       "focus": "Coordinating upper and lower body movements",
-      "description": "Partner provides light resistance by maintaining balance but not actively defending. Practice timing the ankle sweep with the upper body pull so both actions happen simultaneously. Work on recognizing when opponent's weight is on one leg versus the other. Begin adding hip movement and angular adjustments. Complete 15-20 repetitions per side.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by maintaining balance but not actively defending. Practice timing the ankle sweep with the upper body pull so both actions happen simultaneously. Work on recognizing when opponent's weight is on one leg versus the other. Begin adding hip movement and angular adjustments. Complete 15-20 repetitions per side."
     },
     {
       "phase": "Week 5-8: Counter resistance",
       "focus": "Executing against defending opponents",
-      "description": "Partner actively tries to maintain base but allows successful sweeps occasionally. Practice dealing with common counters like posting hands or hopping. Work on maintaining grips under pressure and adjusting technique when initial attempt is defended. Begin chaining ankle pick sweep with other attacks. Complete 20-30 attempts per session.",
-      "resistance_level": "Medium"
+      "description": "Partner actively tries to maintain base but allows successful sweeps occasionally. Practice dealing with common counters like posting hands or hopping. Work on maintaining grips under pressure and adjusting technique when initial attempt is defended. Begin chaining ankle pick sweep with other attacks. Complete 20-30 attempts per session."
     },
     {
       "phase": "Week 9-12: Positional sparring",
       "focus": "Live execution from seated guard",
-      "description": "Start in seated guard bottom with partner standing and trying to pass. Execute ankle pick sweep under full resistance, working to finish with successful top position. Partner uses all available counters and defenses. Practice recognizing optimal timing windows and creating setups. Complete 5-minute rounds of seated guard vs standing pass.",
-      "resistance_level": "Full"
+      "description": "Start in seated guard bottom with partner standing and trying to pass. Execute ankle pick sweep under full resistance, working to finish with successful top position. Partner uses all available counters and defenses. Practice recognizing optimal timing windows and creating setups. Complete 5-minute rounds of seated guard vs standing pass."
     },
     {
       "phase": "Week 13+: Integration and variations",
       "focus": "Combining with other seated guard attacks",
-      "description": "Incorporate ankle pick sweep into your overall seated guard system. Practice switching between ankle pick, single leg X entries, butterfly sweeps, and other attacks. Use ankle pick sweep setups to create openings for submissions. Begin experimenting with variations like switch ankle picks and opposite-side attacks. Apply in competition-style sparring.",
-      "resistance_level": "Full"
+      "description": "Incorporate ankle pick sweep into your overall seated guard system. Practice switching between ankle pick, single leg X entries, butterfly sweeps, and other attacks. Use ankle pick sweep setups to create openings for submissions. Begin experimenting with variations like switch ankle picks and opposite-side attacks. Apply in competition-style sparring."
     }
   ],
   "variants_and_adaptations": [
@@ -221,63 +204,51 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical principle that makes the ankle pick sweep effective?",
-      "answer": "The ankle pick sweep works by creating opposing forces - pulling the upper body in one direction while sweeping the ankle in the opposite direction. This creates a diagonal, rotational force that removes the opponent's base and makes it mechanically impossible to resist the sweep without posting hands or moving their feet, both of which create openings for follow-up attacks.",
-      "difficulty": "Beginner"
+      "answer": "The ankle pick sweep works by creating opposing forces - pulling the upper body in one direction while sweeping the ankle in the opposite direction. This creates a diagonal, rotational force that removes the opponent's base and makes it mechanically impossible to resist the sweep without posting hands or moving their feet, both of which create openings for follow-up attacks."
     },
     {
       "question": "Why must you establish upper body control before attacking the ankle?",
-      "answer": "Upper body control prevents the opponent from posting their hands to defend the sweep and creates the first half of the opposing force system. Without upper body control, the opponent can simply sprawl backward, post their hands, or step away. The upper body grip also allows you to manipulate their weight distribution and create timing windows where their weight is loaded onto one leg.",
-      "difficulty": "Beginner"
+      "answer": "Upper body control prevents the opponent from posting their hands to defend the sweep and creates the first half of the opposing force system. Without upper body control, the opponent can simply sprawl backward, post their hands, or step away. The upper body grip also allows you to manipulate their weight distribution and create timing windows where their weight is loaded onto one leg."
     },
     {
       "question": "Where should you grip the ankle for maximum leverage, and why?",
-      "answer": "The grip should be as low on the ankle as possible, near the heel, with your palm cupping the Achilles tendon and fingers wrapped around the front. This low grip position maximizes the length of the lever arm, making the sweep much more powerful. Gripping higher on the shin or calf reduces leverage and makes it easier for the opponent to pull their leg free.",
-      "difficulty": "Intermediate"
+      "answer": "The grip should be as low on the ankle as possible, near the heel, with your palm cupping the Achilles tendon and fingers wrapped around the front. This low grip position maximizes the length of the lever arm, making the sweep much more powerful. Gripping higher on the shin or calf reduces leverage and makes it easier for the opponent to pull their leg free."
     },
     {
       "question": "How do you counter an opponent who posts their hand during the ankle pick sweep?",
-      "answer": "When the opponent posts their hand, you have multiple options: transition to attacking the posted arm with a kimura grip, use an arm drag to take the back, convert to a single leg takedown by maintaining the ankle and coming up on your knees, or switch to attacking the opposite ankle if their weight shifts. The key is to recognize the post early and fluidly transition to the counter-attack without releasing your existing controls.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent posts their hand, you have multiple options: transition to attacking the posted arm with a kimura grip, use an arm drag to take the back, convert to a single leg takedown by maintaining the ankle and coming up on your knees, or switch to attacking the opposite ankle if their weight shifts. The key is to recognize the post early and fluidly transition to the counter-attack without releasing your existing controls."
     },
     {
       "question": "What is the optimal timing for executing the ankle pick sweep?",
-      "answer": "The optimal timing is when the opponent's weight is transitioning between their feet or when they commit their weight onto one leg while stepping. This can occur when they step forward to pass, when they shift to adjust their base, or when you create movement with your grips that forces a weight shift. You can also create this timing by using your collar grip to pull them slightly off-balance, forcing them to step and reload their weight onto one leg.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is when the opponent's weight is transitioning between their feet or when they commit their weight onto one leg while stepping. This can occur when they step forward to pass, when they shift to adjust their base, or when you create movement with your grips that forces a weight shift. You can also create this timing by using your collar grip to pull them slightly off-balance, forcing them to step and reload their weight onto one leg."
     },
     {
       "question": "How should you integrate the ankle pick sweep into a comprehensive seated guard system?",
-      "answer": "The ankle pick sweep should be part of a system that includes single leg X entries, butterfly guard transitions, and arm drags. Use the ankle pick as your primary sweep when opponent is standing with exposed ankles, but be ready to chain it with single leg attacks when they defend by stepping back, or transition to butterfly hooks when they drop their level. The threat of the ankle pick also makes opponents more defensive, which opens up opportunities for arm drags and back takes. In competition, alternating between these attacks prevents opponents from developing a consistent defense.",
-      "difficulty": "Advanced"
+      "answer": "The ankle pick sweep should be part of a system that includes single leg X entries, butterfly guard transitions, and arm drags. Use the ankle pick as your primary sweep when opponent is standing with exposed ankles, but be ready to chain it with single leg attacks when they defend by stepping back, or transition to butterfly hooks when they drop their level. The threat of the ankle pick also makes opponents more defensive, which opens up opportunities for arm drags and back takes. In competition, alternating between these attacks prevents opponents from developing a consistent defense."
     },
     {
       "question": "What body mechanics generate the most power in the ankle pick sweep?",
-      "answer": "Maximum power comes from full-body rotation using your core, lats, and back muscles rather than relying on arm strength alone. The pulling motion should originate from your torso rotation, with your arms serving as connectors rather than primary movers. Engage your obliques to create rotational force, and use your lats to generate pulling power on the upper body grip. The ankle sweep should be driven by your torso rotation and hip movement, creating a whipping motion that multiplies the force applied to the opponent's base.",
-      "difficulty": "Advanced"
+      "answer": "Maximum power comes from full-body rotation using your core, lats, and back muscles rather than relying on arm strength alone. The pulling motion should originate from your torso rotation, with your arms serving as connectors rather than primary movers. Engage your obliques to create rotational force, and use your lats to generate pulling power on the upper body grip. The ankle sweep should be driven by your torso rotation and hip movement, creating a whipping motion that multiplies the force applied to the opponent's base."
     },
     {
       "question": "Your opponent begins sprawling backward as you reach for the ankle - what is your immediate tactical response?",
-      "answer": "When the opponent sprawls backward, follow their momentum rather than fighting it. Use their backward motion to transition into Single Leg X-Guard by sliding your near leg under and hooking their retreating leg, or come up to your knees immediately and pursue with a wrestling-style single leg attack. Alternatively, if you maintain the ankle grip, continue pulling while coming up to standing to convert to a single leg takedown finish. The worst response is to stay seated and try to pull them back toward you.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent sprawls backward, follow their momentum rather than fighting it. Use their backward motion to transition into Single Leg X-Guard by sliding your near leg under and hooking their retreating leg, or come up to your knees immediately and pursue with a wrestling-style single leg attack. Alternatively, if you maintain the ankle grip, continue pulling while coming up to standing to convert to a single leg takedown finish. The worst response is to stay seated and try to pull them back toward you."
     },
     {
       "question": "What specific grip adjustments are required when executing the ankle pick in no-gi compared to gi?",
-      "answer": "In no-gi, replace the collar grip with wrist control, tricep control, or a collar tie behind the head. The wrist grip must be secured with more active hand positioning since there's no fabric to grip. For the ankle, use the same cupping grip on the Achilles but expect more slippage from sweat, so position your grip lower near the heel where the ankle narrows. The sweep timing becomes more critical in no-gi because grips can slip, so execute with more explosive commitment rather than controlled pulling.",
-      "difficulty": "Intermediate"
+      "answer": "In no-gi, replace the collar grip with wrist control, tricep control, or a collar tie behind the head. The wrist grip must be secured with more active hand positioning since there's no fabric to grip. For the ankle, use the same cupping grip on the Achilles but expect more slippage from sweat, so position your grip lower near the heel where the ankle narrows. The sweep timing becomes more critical in no-gi because grips can slip, so execute with more explosive commitment rather than controlled pulling."
     },
     {
       "question": "What visual cues indicate an opponent is vulnerable to the ankle pick sweep?",
-      "answer": "Key visual cues include: the opponent's weight visibly loaded onto one leg (hip drops toward that side), stepping forward with a narrow base, looking away or distracted by grip fighting, attempting to establish their own grips which compromises their base, rising up onto the balls of their feet suggesting forward weight commitment, or any lateral weight shift while adjusting stance. The ideal moment is when they commit weight to step and haven't yet completed the weight transfer to their other leg.",
-      "difficulty": "Advanced"
+      "answer": "Key visual cues include: the opponent's weight visibly loaded onto one leg (hip drops toward that side), stepping forward with a narrow base, looking away or distracted by grip fighting, attempting to establish their own grips which compromises their base, rising up onto the balls of their feet suggesting forward weight commitment, or any lateral weight shift while adjusting stance. The ideal moment is when they commit weight to step and haven't yet completed the weight transfer to their other leg."
     },
     {
       "question": "How does the direction of your pulling force affect sweep success rate?",
-      "answer": "The pulling direction must be diagonal - across your body and slightly downward - rather than straight back. Pulling straight back allows the opponent to simply step backward with minimal resistance. The diagonal pull creates a rotational vector that spins their upper body toward the mat on the opposite side from the trapped ankle, loading all their weight onto that single point of contact. This diagonal force also makes it difficult for them to post effectively because their hands are being pulled away from the posting line.",
-      "difficulty": "Advanced"
+      "answer": "The pulling direction must be diagonal - across your body and slightly downward - rather than straight back. Pulling straight back allows the opponent to simply step backward with minimal resistance. The diagonal pull creates a rotational vector that spins their upper body toward the mat on the opposite side from the trapped ankle, loading all their weight onto that single point of contact. This diagonal force also makes it difficult for them to post effectively because their hands are being pulled away from the posting line."
     },
     {
       "question": "After successfully completing the ankle pick sweep, what immediate positional priorities should you focus on?",
-      "answer": "Immediately after the sweep, your priorities are: first, maintain upper body control throughout the transition to prevent guard recovery; second, come up on your knees explosively rather than staying seated; third, establish headquarters position or side control by getting your hips perpendicular to your opponent; fourth, secure head control with a crossface or underhook to prevent them from turning toward you; and fifth, begin advancing toward mount or working to pass any remaining leg frames. The first three seconds after a sweep are critical for consolidating position.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately after the sweep, your priorities are: first, maintain upper body control throughout the transition to prevent guard recovery; second, come up on your knees explosively rather than staying seated; third, establish headquarters position or side control by getting your hips perpendicular to your opponent; fourth, secure head control with a crossface or underhook to prevent them from turning toward you; and fifth, begin advancing toward mount or working to pass any remaining leg frames. The first three seconds after a sweep are critical for consolidating position."
     }
   ],
   "safety_considerations": "The ankle pick sweep is generally a low-risk technique with minimal injury potential when executed properly. The primary safety concern is ensuring controlled execution during training to avoid torquing the opponent's ankle excessively. When drilling, gradually increase intensity rather than immediately going at full speed, and communicate with your training partner about appropriate resistance levels. For the person being swept, practice safe falling techniques and avoid posting with a stiff arm, which can lead to wrist or shoulder injuries. Instead, use proper breakfall mechanics when landing. When applying the sweep in competition or higher-intensity training, be aware of the mat boundaries to avoid sweeping your opponent off the mat or into obstacles. Beginners should focus on technical precision rather than speed or power until the movement pattern is well established.",
@@ -331,5 +302,6 @@
       "name": "Seated Guard",
       "relationship": "Starting position - where this technique is executed from"
     }
-  ]
+  ],
+  "success_rate": 58
 }

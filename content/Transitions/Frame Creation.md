@@ -159,7 +159,7 @@ Strategically, Frame Creation must be timed with the opponent's movements rather
 Advanced practitioners understand that Frame Creation is not an end goal but rather a transitional tool that enables other escapes. The frames themselves do not escape mount; they create the conditions under which hip escapes, bridges, and guard recovery become mechanically possible. This distinction separates effective defensive play from futile struggling.
 
 **From Position**: [[High Mount/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -209,12 +209,12 @@ Advanced practitioners understand that Frame Creation is not an end goal but rat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess timing window**: Wait for opponent to shift weight or reach for grips - do not attempt frames against a fully settled, heavy opponent as this wastes energy and likely fails. Watch for hand movement toward your collar, lapel, or head as the trigger. (Timing: When opponent reaches or transitions)
-2. **Establish primary frame**: Insert your forearm across opponent's hip line with elbow connected to your own hip or ribs. The frame should create a diagonal barrier from your hip to their hip, using bone alignment to resist their downward pressure. (Timing: During opponent's weight shift)
-3. **Protect secondary targets**: While one arm frames on the hip, position the other arm to protect your neck and collar area. Hand should be near your chin with elbow tight to prevent collar grip access and choke setups. (Timing: Simultaneously with primary frame)
-4. **Create hip space**: Use the frame to create 2-3 inches of space between your hip and the mat. This slight elevation is the gateway to hip escape - without this space, shrimping is mechanically impossible. (Timing: Immediately after frame establishment)
-5. **Execute hip escape**: Shrimp your hips away from the framing side while maintaining the frame structure. Your goal is to insert your knee into the space created between your body and the opponent's leg, beginning guard recovery. (Timing: Within 1-2 seconds of creating space)
-6. **Recover guard position**: As your knee enters the space, convert the frame into a push while threading your leg to half guard or butterfly hook. Continue shrimping until you establish a recognized guard position with your legs between bodies. (Timing: Continuous flow from hip escape)
+1. **Assess timing window**: Wait for opponent to shift weight or reach for grips - do not attempt frames against a fully settled, heavy opponent as this wastes energy and likely fails. Watch for hand movement toward your collar, lapel, or head as the trigger.
+2. **Establish primary frame**: Insert your forearm across opponent's hip line with elbow connected to your own hip or ribs. The frame should create a diagonal barrier from your hip to their hip, using bone alignment to resist their downward pressure.
+3. **Protect secondary targets**: While one arm frames on the hip, position the other arm to protect your neck and collar area. Hand should be near your chin with elbow tight to prevent collar grip access and choke setups.
+4. **Create hip space**: Use the frame to create 2-3 inches of space between your hip and the mat. This slight elevation is the gateway to hip escape - without this space, shrimping is mechanically impossible.
+5. **Execute hip escape**: Shrimp your hips away from the framing side while maintaining the frame structure. Your goal is to insert your knee into the space created between your body and the opponent's leg, beginning guard recovery.
+6. **Recover guard position**: As your knee enters the space, convert the frame into a push while threading your leg to half guard or butterfly hook. Continue shrimping until you establish a recognized guard position with your legs between bodies.
 
 
 </section>
@@ -260,19 +260,15 @@ Advanced practitioners understand that Frame Creation is not an end goal but rat
 ## Training Progressions
 **Week 1-2** - Frame structure mechanics
 Practice frame positioning without resistance. Partner in mount maintains position without pressure while you drill correct bone alignment, elbow connection, and hand positioning. Focus on building muscle memory for proper frame architecture.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner begins reaching for grips and shifting weight while you identify and exploit timing windows for frame insertion. Learn to recognize the weight shift patterns that signal frame opportunities. Partner provides feedback on timing accuracy.
-(Resistance: Light)
 
 **Week 5-6** - Frame-to-escape chains
 Drill complete sequences from frame creation through hip escape to guard recovery against moderate resistance. Partner maintains mount but allows escapes when technique is correct. Focus on eliminating pauses between frame and escape.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply Frame Creation in live rolling situations starting from High Mount Bottom. Partner maintains full resistance. Track success rate and identify patterns in failures for continued refinement.
-(Resistance: Full)
 
 
 

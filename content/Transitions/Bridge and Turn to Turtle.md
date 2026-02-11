@@ -17,7 +17,7 @@ description: "Master the Bridge and Turn to Turtle escape from North-South. Step
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Bridge and Turn to Turtle in BJJ",
-  "description": "Step-by-step guide for Bridge and Turn to Turtle from North South Control/Bottom. Possible outcomes: Turtle (65%), North South Control (25%), Back Control (10%).",
+  "description": "Step-by-step guide for Bridge and Turn to Turtle from North-South/Bottom. Possible outcomes: Turtle (65%), North-South (25%), Back Control (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -156,8 +156,8 @@ Strategically, the Bridge and Turn serves as the primary escape pathway from one
 
 The technique's effectiveness relies on understanding the relationship between explosive power and precise timing. A powerful bridge executed at the wrong moment accomplishes nothing against a settled opponent. However, when timed to coincide with the opponent's transition attempts, submission setups, or weight adjustments, even a moderate bridge can create sufficient space for the turn. Advanced practitioners develop sensitivity to these weight shifts, allowing them to escape with seemingly minimal effort.
 
-**From Position**: [[North South Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[North-South/Bottom]]
+**Success Rate**: 58%
 
 </section>
 
@@ -168,7 +168,7 @@ The technique's effectiveness relies on understanding the relationship between e
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Turtle]] | 65% |
-| Failure | [[North South Control]] | 25% |
+| Failure | [[North-South]] | 25% |
 | Counter | [[Back Control]] | 10% |
 
 
@@ -205,12 +205,12 @@ The technique's effectiveness relies on understanding the relationship between e
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish base position**: Plant both feet flat on the mat with knees bent at approximately 90 degrees, positioning heels close to your glutes. Turn your head to one side to create an airway and establish the direction you will turn. Keep elbows tight against your ribcage. (Timing: Prepare during opponent's settling phase)
-2. **Identify timing window**: Feel for opponent's weight shift—this occurs when they transition toward mount, reach for a submission grip, or adjust their base position. The momentary lightening of chest pressure signals the optimal moment to initiate your bridge. (Timing: Wait for weight shift)
-3. **Execute explosive bridge**: Drive powerfully through your heels, extending your hips toward the ceiling at a 45-degree angle toward your opponent's far knee. The angle is critical—bridging straight up allows them to ride the bridge without losing balance. (Timing: Immediate upon weight shift detection)
-4. **Initiate rotation toward opponent**: As your hips reach maximum extension, begin rotating your entire body toward the opponent by driving your near-side shoulder underneath your body. Your elbow on the turning side should lead the movement, sweeping under your torso. (Timing: Peak of bridge)
-5. **Complete the turn to all fours**: Continue the rotation until you achieve a position on your hands and knees facing away from the opponent. Your back should be toward them but protected by your proximity—turning toward them rather than away prevents easy hook insertion. (Timing: Continuous motion from bridge)
-6. **Establish defensive turtle**: Immediately drop your hips low, tuck your chin, and position your hands to protect your neck from choke attempts. Create a tight, compact shell with elbows inside your knees and head protected between your arms. (Timing: Immediate upon completing turn)
+1. **Establish base position**: Plant both feet flat on the mat with knees bent at approximately 90 degrees, positioning heels close to your glutes. Turn your head to one side to create an airway and establish the direction you will turn. Keep elbows tight against your ribcage.
+2. **Identify timing window**: Feel for opponent's weight shift—this occurs when they transition toward mount, reach for a submission grip, or adjust their base position. The momentary lightening of chest pressure signals the optimal moment to initiate your bridge.
+3. **Execute explosive bridge**: Drive powerfully through your heels, extending your hips toward the ceiling at a 45-degree angle toward your opponent's far knee. The angle is critical—bridging straight up allows them to ride the bridge without losing balance.
+4. **Initiate rotation toward opponent**: As your hips reach maximum extension, begin rotating your entire body toward the opponent by driving your near-side shoulder underneath your body. Your elbow on the turning side should lead the movement, sweeping under your torso.
+5. **Complete the turn to all fours**: Continue the rotation until you achieve a position on your hands and knees facing away from the opponent. Your back should be toward them but protected by your proximity—turning toward them rather than away prevents easy hook insertion.
+6. **Establish defensive turtle**: Immediately drop your hips low, tuck your chin, and position your hands to protect your neck from choke attempts. Create a tight, compact shell with elbows inside your knees and head protected between your arms.
 
 
 </section>
@@ -253,19 +253,15 @@ The technique's effectiveness relies on understanding the relationship between e
 ## Training Progressions
 **Week 1-2** - Bridge mechanics
 Practice explosive hip bridges from flat position without partner, focusing on driving through heels and achieving maximum hip extension at 45-degree angles. Build the muscle memory for angled rather than vertical bridges.
-(Resistance: None)
 
 **Week 3-4** - Turn mechanics and timing
 Partner holds light North-South pressure while you practice the full bridge-and-turn sequence. Partner provides verbal cues to simulate weight shifts, allowing you to develop timing recognition without full resistance.
-(Resistance: Light)
 
 **Week 5-6** - Escape under pressure
 Partner applies realistic North-South pressure but allows escape when proper technique is executed. Focus on maintaining composure under chest pressure and finding timing windows during partner's simulated transitions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from North-South. Partner actively counters escape attempts while you work to identify genuine timing windows and execute technically sound escapes.
-(Resistance: Full)
 
 
 
@@ -341,7 +337,7 @@ The Bridge and Turn to Turtle occupies a critical role in the North-South escape
 
 ## Related Techniques
 
-- [[North South Control]] - Starting position
+- [[North-South]] - Starting position
 - [[Turtle]] - Target escape position
 - [[Back Control]] - Position opponent may achieve if turn is executed incorrectly
 - [[Granby Roll]] - Alternative escape using similar bridging mechanics

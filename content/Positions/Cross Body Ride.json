@@ -307,19 +307,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
+        "value": 40
       },
       "average_time": "30-90 seconds before transition to back control or escape"
     },
@@ -589,19 +583,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 8,
-        "advanced": 12
+        "value": 10
       },
       "average_time": "15-45 seconds before position change or escape attempt"
     },

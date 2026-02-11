@@ -157,7 +157,7 @@ The backstep works by changing the vector of your passing approach entirely. Rat
 Strategically, this pass is most effective when opponent has committed heavily to the worm guard configuration but hasn't yet loaded offensive attacks. The timing window opens when they're focused on maintaining the wrap rather than attacking. The backstep creates a race condition: you're attempting to navigate around their guard faster than they can adjust the lapel configuration to follow your movement. Understanding this dynamic is essential for both execution timing and recognizing when opponents are setting traps by appearing committed to static worm guard while actually waiting to take your back.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, this pass is most effective when opponent has committed heavily t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control grips**: Secure cross-collar grip with your lead hand and far sleeve control with your rear hand. These grips prevent opponent from adjusting their position or taking your back during the backstep. (Timing: Before initiating any movement)
-2. **Lower your base**: Drop your hips and widen your stance to create a stable platform for rotation. Your center of gravity must be low enough that the backstep doesn't compromise your balance. (Timing: Immediately after establishing grips)
-3. **Apply shoulder pressure**: Drive your shoulder into opponent's chest or shoulder on the side of their lapel grip. This pressure prevents them from sitting up to follow your movement and loads their back flat to the mat. (Timing: Continuous throughout the pass)
-4. **Initiate backstep rotation**: Step your trapped leg backward in an arc behind your body while pivoting on your free foot. The lapel remains wrapped around your leg during this motion but loses its effectiveness as you change the angle. (Timing: Explosive single motion)
-5. **Circle to turtle position**: Continue the rotation until you've cleared the lapel barrier entirely, ending perpendicular or behind opponent. Your shoulder pressure should turn them toward turtle as you complete the arc. (Timing: Immediately following backstep)
-6. **Secure dominant position**: Consolidate either turtle control with seatbelt grip or transition to side control if opponent remains flat. Clear any remaining lapel entanglement and establish your preferred control configuration. (Timing: Within 1-2 seconds of clearing guard)
+1. **Establish control grips**: Secure cross-collar grip with your lead hand and far sleeve control with your rear hand. These grips prevent opponent from adjusting their position or taking your back during the backstep.
+2. **Lower your base**: Drop your hips and widen your stance to create a stable platform for rotation. Your center of gravity must be low enough that the backstep doesn't compromise your balance.
+3. **Apply shoulder pressure**: Drive your shoulder into opponent's chest or shoulder on the side of their lapel grip. This pressure prevents them from sitting up to follow your movement and loads their back flat to the mat.
+4. **Initiate backstep rotation**: Step your trapped leg backward in an arc behind your body while pivoting on your free foot. The lapel remains wrapped around your leg during this motion but loses its effectiveness as you change the angle.
+5. **Circle to turtle position**: Continue the rotation until you've cleared the lapel barrier entirely, ending perpendicular or behind opponent. Your shoulder pressure should turn them toward turtle as you complete the arc.
+6. **Secure dominant position**: Consolidate either turtle control with seatbelt grip or transition to side control if opponent remains flat. Clear any remaining lapel entanglement and establish your preferred control configuration.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this pass is most effective when opponent has committed heavily t
 ## Training Progressions
 **Week 1-2** - Movement pattern isolation
 Practice the backstep rotation without resistance, focusing on the arc of movement and maintaining low base throughout. Partner holds static worm guard position without actively attacking or defending.
-(Resistance: None)
 
 **Week 3-4** - Grip integration and timing
 Add proper grip sequencing before backstep and shoulder pressure maintenance during rotation. Partner provides light resistance and attempts basic re-guarding after you complete the movement.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and response
 Partner actively attempts sit-up back takes and guard recovery during your backstep. Practice recognizing these counters and adjusting mid-technique. Include position consolidation drilling.
-(Resistance: Medium)
 
 **Week 7+** - Live application and chain passing
 Full resistance sparring starting from worm guard position. Integrate backstep with other passing options based on opponent reactions. Develop feel for optimal timing windows.
-(Resistance: Full)
 
 
 
@@ -346,7 +342,7 @@ The backstep around worm guard occupies a critical role in modern gi passing str
 - [[Side Control]] - Alternative destination when opponent stays flat
 - [[Back Control]] - Position opponent attempts to reach if they counter with sit-up
 - [[Front Headlock]] - Alternative control when backstep is countered by opponent sitting up
-- [[Leg Drag Position]] - Follow-up position from backstep to leg drag variant
+- [[Leg Drag Control]] - Follow-up position from backstep to leg drag variant
 - [[De La Riva Guard]] - Related guard that opponent may transition to if backstep partially fails
 - [[Back Step Pass]] - Related passing technique using similar rotational mechanics
 - [[Toreando Pass]] - Complementary pass that may combine with backstep movement

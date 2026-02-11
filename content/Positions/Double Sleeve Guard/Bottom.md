@@ -370,11 +370,11 @@ Start from double sleeve guard and transition to spider guard, lasso guard, or D
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 30% | 15% |
-| Intermediate | 65% | 45% | 25% |
-| Advanced     | 80% | 60% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 52% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 45-90 seconds before transition or pass attempt
 

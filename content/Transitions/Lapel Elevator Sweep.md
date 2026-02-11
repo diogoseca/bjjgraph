@@ -157,7 +157,7 @@ The sweep works by combining a butterfly hook elevation with the pulling tension
 Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish lapel configuration**: Secure the lapel grip with your primary hand, threading the fabric around opponent's thigh or through your guard structure. Maintain constant tension on the lapel to keep them connected to your control system. (Timing: Before initiating any sweeping motion)
-2. **Set butterfly hook**: Position your butterfly hook on the inner thigh of the opponent's lead leg, same side as your lapel grip. Your foot should be active with toes pointed toward their hip, not passive on the mat. (Timing: While opponent is focused on clearing lapel grips)
-3. **Control posting hand**: Use your secondary grip to control their sleeve or wrist on the side you intend to sweep. This prevents them from posting their hand to base out during the sweep execution. (Timing: Essential before committing to the sweep)
-4. **Break posture forward**: Pull sharply on the lapel grip while simultaneously pulling their controlled arm toward you. This loads their weight onto your butterfly hook and breaks their posture forward. (Timing: Immediately before elevation)
-5. **Elevate and turn**: Drive your butterfly hook upward while simultaneously turning your body toward the sweep side. Your hip rotation and hook elevation work together—don't try to lift them straight up, angle them over your body. (Timing: As their weight commits forward)
-6. **Follow to mount**: As opponent tips over, maintain your lapel grip and immediately follow their falling body. Release the butterfly hook and transition your hips over their torso, establishing mount before they can recover guard. (Timing: Continuous motion without pausing)
+1. **Establish lapel configuration**: Secure the lapel grip with your primary hand, threading the fabric around opponent's thigh or through your guard structure. Maintain constant tension on the lapel to keep them connected to your control system.
+2. **Set butterfly hook**: Position your butterfly hook on the inner thigh of the opponent's lead leg, same side as your lapel grip. Your foot should be active with toes pointed toward their hip, not passive on the mat.
+3. **Control posting hand**: Use your secondary grip to control their sleeve or wrist on the side you intend to sweep. This prevents them from posting their hand to base out during the sweep execution.
+4. **Break posture forward**: Pull sharply on the lapel grip while simultaneously pulling their controlled arm toward you. This loads their weight onto your butterfly hook and breaks their posture forward.
+5. **Elevate and turn**: Drive your butterfly hook upward while simultaneously turning your body toward the sweep side. Your hip rotation and hook elevation work together—don't try to lift them straight up, angle them over your body.
+6. **Follow to mount**: As opponent tips over, maintain your lapel grip and immediately follow their falling body. Release the butterfly hook and transition your hips over their torso, establishing mount before they can recover guard.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, the Lapel Elevator Sweep fits into the broader lapel guard attack
 ## Training Progressions
 **Week 1-2** - Grip mechanics and body positioning
 Practice lapel extraction and configuration without resistance. Focus on finding the correct depth for the lapel wrap and establishing proper butterfly hook placement. Partner remains stationary while you drill the setup repeatedly.
-(Resistance: None)
 
 **Week 3-4** - Sweep timing and coordination
 Partner provides light forward pressure. Practice timing the sweep to catch their weight shift. Focus on coordinating the lapel pull, sleeve control, and hook elevation as one fluid motion.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration and chains
 Partner provides moderate resistance and occasionally defends the sweep. Practice transitioning to omoplata when they post, or following with back take when they posture away. Develop reactions to common counters.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Apply the sweep in positional sparring and full rolls. Identify which opponents and body types respond best to this sweep. Refine timing based on real resistance and develop setup combinations.
-(Resistance: Full)
 
 
 

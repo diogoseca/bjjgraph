@@ -86,17 +86,19 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[X-Guard Sweep]]** (28% of attempts)
+- **[[X-Guard Sweep]]** (24% of attempts)
 
-- **[[Single Leg X Entry]]** (22% of attempts)
+- **[[Single Leg X Entry]]** (19% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (18% of attempts)
+- **[[X-Guard to Ashi Transition]]** (15% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (12% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
 
-- **[[Deep Half Entry]]** (10% of attempts)
+- **[[Deep Half Entry]]** (9% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (10% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (9% of attempts)
+
+- **[[Tomahawk Sweep]]** (14% of attempts)
 
 
 ### Common Mistakes

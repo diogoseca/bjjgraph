@@ -9,11 +9,6 @@
     "guard-retention",
     "framing"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Shin Shield Recovery is a fundamental defensive technique used to re-establish guard retention from compromised half guard positions. When an opponent is pressuring to pass your half guard, the shin shield creates a strong frame that prevents forward pressure while creating the space necessary to recover full guard structure. This technique is essential for maintaining defensive integrity when your knee shield has been flattened or your frames have been broken.\n\nThe shin shield works by using your inside leg to create a barrier across the opponent's torso, transforming your leg into a structural frame that manages distance and prevents the opponent from consolidating control. Unlike passive defensive positions, the shin shield is an active recovery position that allows you to control distance, create angles, and launch counter-offensive techniques. The position is particularly effective against pressure passers who rely on chest-to-chest contact and weight distribution.\n\nMastering shin shield recovery is critical for developing a robust half guard game. It serves as the foundation for numerous sweeps, back takes, and submissions while simultaneously providing a reliable defensive structure. The technique requires precise hip positioning, proper angle creation, and understanding of weight distribution to maximize effectiveness against various passing attempts.",
   "key_principles": [
     "Create maximum distance between your upper body and opponent's chest using shin across torso",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Recognize passing pressure",
-      "description": "Identify when your half guard knee shield has been compromised or flattened. Feel opponent's weight driving forward toward your chest, indicating imminent passing danger. Assess which direction they are pressuring (toward your head or toward your legs) to determine optimal recovery angle.",
-      "timing": "Immediate recognition at first sign of frame collapse"
+      "description": "Identify when your half guard knee shield has been compromised or flattened. Feel opponent's weight driving forward toward your chest, indicating imminent passing danger. Assess which direction they are pressuring (toward your head or toward your legs) to determine optimal recovery angle."
     },
     {
       "step_number": 2,
       "action": "Create initial space",
-      "description": "Use your bottom arm to create a strong frame against opponent's shoulder or neck. Simultaneously shrimp your hips away from the opponent, moving your body at a 45-degree angle to create the space necessary for shin insertion. Keep your outside leg actively posting on the mat for additional leverage during the shrimp.",
-      "timing": "Explosive hip movement coordinated with frame"
+      "description": "Use your bottom arm to create a strong frame against opponent's shoulder or neck. Simultaneously shrimp your hips away from the opponent, moving your body at a 45-degree angle to create the space necessary for shin insertion. Keep your outside leg actively posting on the mat for additional leverage during the shrimp."
     },
     {
       "step_number": 3,
       "action": "Insert shin shield",
-      "description": "Thread your inside leg (the leg controlling half guard) up and across the opponent's torso, placing your shin bone horizontally across their chest or stomach. Your knee should be pointing toward their opposite shoulder while your foot hooks near their far hip. The shin creates a rigid barrier preventing forward pressure.",
-      "timing": "Insert during the space created by shrimp"
+      "description": "Thread your inside leg (the leg controlling half guard) up and across the opponent's torso, placing your shin bone horizontally across their chest or stomach. Your knee should be pointing toward their opposite shoulder while your foot hooks near their far hip. The shin creates a rigid barrier preventing forward pressure."
     },
     {
       "step_number": 4,
       "action": "Establish proper angle",
-      "description": "Adjust your hip angle so you are facing toward the opponent at approximately 45 degrees rather than flat on your back. Your shield leg's knee should be at chest height or higher, creating maximum distance. Your bottom shoulder should be off the mat, preventing the opponent from flattening you. Maintain tension through the shield leg by actively extending at the knee.",
-      "timing": "Continuous adjustment as position stabilizes"
+      "description": "Adjust your hip angle so you are facing toward the opponent at approximately 45 degrees rather than flat on your back. Your shield leg's knee should be at chest height or higher, creating maximum distance. Your bottom shoulder should be off the mat, preventing the opponent from flattening you. Maintain tension through the shield leg by actively extending at the knee."
     },
     {
       "step_number": 5,
       "action": "Secure upper body control",
-      "description": "Establish critical upper body connections using inside underhook, cross-face prevention, or collar/sleeve grips. The underhook is ideal as it prevents opponent from driving their weight forward. If underhook is unavailable, use your bottom arm to prevent cross-face by framing against their neck or controlling their far sleeve. Top arm controls their near arm or collar.",
-      "timing": "Establish immediately after shin shield insertion"
+      "description": "Establish critical upper body connections using inside underhook, cross-face prevention, or collar/sleeve grips. The underhook is ideal as it prevents opponent from driving their weight forward. If underhook is unavailable, use your bottom arm to prevent cross-face by framing against their neck or controlling their far sleeve. Top arm controls their near arm or collar."
     },
     {
       "step_number": 6,
       "action": "Control opponent's leg",
-      "description": "Maintain control of opponent's trapped leg using your outside leg (bottom leg). Hook your foot behind their knee or calf to prevent them from extracting their leg. This control, combined with the shin shield, creates a complete defensive structure that prevents both leg extraction and forward pressure.",
-      "timing": "Maintain throughout position"
+      "description": "Maintain control of opponent's trapped leg using your outside leg (bottom leg). Hook your foot behind their knee or calf to prevent them from extracting their leg. This control, combined with the shin shield, creates a complete defensive structure that prevents both leg extraction and forward pressure."
     },
     {
       "step_number": 7,
       "action": "Transition to full knee shield",
-      "description": "Once shin shield is stable and opponent's pressure is managed, enhance the position by sliding your shin higher toward their shoulder, transitioning into full knee shield half guard. Simultaneously improve your angle and grips, preparing for offensive techniques such as sweeps or back takes.",
-      "timing": "When opponent's forward pressure is neutralized"
+      "description": "Once shin shield is stable and opponent's pressure is managed, enhance the position by sliding your shin higher toward their shoulder, transitioning into full knee shield half guard. Simultaneously improve your angle and grips, preparing for offensive techniques such as sweeps or back takes."
     }
   ],
   "common_counters": [
@@ -139,38 +127,32 @@
     {
       "phase": "Phase 1: Fundamental Mechanics (Weeks 1-2)",
       "focus": "Isolated shin shield insertion and framing structure",
-      "description": "Practice inserting shin shield from static half guard with compliant partner. Focus on proper shin placement across chest, hip angle maintenance, and creating maximum distance. Drill the shrimping motion required to create space for insertion. Partner provides light pressure to help you feel proper frame tension. Perform 20-30 repetitions per side each session.",
-      "resistance_level": "None"
+      "description": "Practice inserting shin shield from static half guard with compliant partner. Focus on proper shin placement across chest, hip angle maintenance, and creating maximum distance. Drill the shrimping motion required to create space for insertion. Partner provides light pressure to help you feel proper frame tension. Perform 20-30 repetitions per side each session."
     },
     {
       "phase": "Phase 2: Dynamic Recovery (Weeks 3-4)",
       "focus": "Recovering shin shield from compromised positions",
-      "description": "Start from flattened half guard with partner applying moderate forward pressure. Practice creating space through frames and shrimps, then inserting shin shield while partner maintains consistent pressure. Focus on timing and explosive hip movement. Combine upper body control (underhook) with shin shield recovery. Perform 15-20 successful recoveries per side.",
-      "resistance_level": "Light"
+      "description": "Start from flattened half guard with partner applying moderate forward pressure. Practice creating space through frames and shrimps, then inserting shin shield while partner maintains consistent pressure. Focus on timing and explosive hip movement. Combine upper body control (underhook) with shin shield recovery. Perform 15-20 successful recoveries per side."
     },
     {
       "phase": "Phase 3: Counter Pressure Responses (Weeks 5-8)",
       "focus": "Maintaining shin shield against common counters",
-      "description": "Partner actively attempts to defeat your shin shield using specific counters: smashing down, ankle gripping, crossface attempts. Practice appropriate responses to each counter while maintaining or re-establishing shin shield. Drill transitions to alternative guards when shin shield is compromised. Include hand-fighting to prevent grips on shield leg. Perform 10-15 successful defenses against each counter type.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to defeat your shin shield using specific counters: smashing down, ankle gripping, crossface attempts. Practice appropriate responses to each counter while maintaining or re-establishing shin shield. Drill transitions to alternative guards when shin shield is compromised. Include hand-fighting to prevent grips on shield leg. Perform 10-15 successful defenses against each counter type."
     },
     {
       "phase": "Phase 4: Integration with Attacks (Weeks 9-12)",
       "focus": "Transitioning from shin shield recovery to offensive techniques",
-      "description": "After successfully establishing shin shield, immediately flow into sweeps, back takes, or submission setups. Practice common sequences: shin shield to Old School Sweep, shin shield to back take, shin shield to triangle setup. Partner provides realistic resistance to passing while allowing successful technique completion. Focus on seamless transitions that capitalize on the space and structure shin shield provides.",
-      "resistance_level": "Medium"
+      "description": "After successfully establishing shin shield, immediately flow into sweeps, back takes, or submission setups. Practice common sequences: shin shield to Old School Sweep, shin shield to back take, shin shield to triangle setup. Partner provides realistic resistance to passing while allowing successful technique completion. Focus on seamless transitions that capitalize on the space and structure shin shield provides."
     },
     {
       "phase": "Phase 5: Live Situational Sparring (Months 4-6)",
       "focus": "Shin shield recovery against live passing attempts",
-      "description": "Start in compromised half guard with partner attempting their preferred passing sequences at 70-80% intensity. Your goal is to recover shin shield and either maintain guard or advance position. Partner tries to prevent recovery and complete pass. Reset when pass is completed or you establish stable guard position. 5-minute rounds, 4-6 rounds per session.",
-      "resistance_level": "Full"
+      "description": "Start in compromised half guard with partner attempting their preferred passing sequences at 70-80% intensity. Your goal is to recover shin shield and either maintain guard or advance position. Partner tries to prevent recovery and complete pass. Reset when pass is completed or you establish stable guard position. 5-minute rounds, 4-6 rounds per session."
     },
     {
       "phase": "Phase 6: Competition Integration (Ongoing)",
       "focus": "Shin shield as automatic defensive response",
-      "description": "Incorporate shin shield recovery into regular sparring without preset scenarios. Focus on recognizing passing pressure early and automatically deploying shin shield recovery. Develop ability to assess when shin shield is appropriate versus when alternative defenses are better. Track success rate in preventing passes and generating counter-offense from shin shield position.",
-      "resistance_level": "Full"
+      "description": "Incorporate shin shield recovery into regular sparring without preset scenarios. Focus on recognizing passing pressure early and automatically deploying shin shield recovery. Develop ability to assess when shin shield is appropriate versus when alternative defenses are better. Track success rate in preventing passes and generating counter-offense from shin shield position."
     }
   ],
   "variants_and_adaptations": [
@@ -203,63 +185,51 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary purpose of the shin shield in half guard recovery?",
-      "answer": "The shin shield creates a strong structural frame that prevents the opponent from driving forward pressure while creating the necessary space to recover proper guard structure. It transforms the leg into an active barrier that manages distance and prevents the opponent from achieving chest-to-chest contact, which is essential for most passing sequences. The shin shield also maintains your ability to create angles and launch counter-offensive techniques.",
-      "difficulty": "Beginner"
+      "answer": "The shin shield creates a strong structural frame that prevents the opponent from driving forward pressure while creating the necessary space to recover proper guard structure. It transforms the leg into an active barrier that manages distance and prevents the opponent from achieving chest-to-chest contact, which is essential for most passing sequences. The shin shield also maintains your ability to create angles and launch counter-offensive techniques."
     },
     {
       "question": "Why is maintaining a 45-degree hip angle critical when using shin shield recovery?",
-      "answer": "The 45-degree angle prevents the opponent from flattening you to your back, which would eliminate hip mobility and make effective framing impossible. This angle keeps your bottom shoulder off the mat, maintains structural integrity of your shin shield frame, and provides the mobility needed to adjust position, create additional angles, and transition to offensive techniques. Being flat on your back compromises all defensive and offensive capabilities from half guard.",
-      "difficulty": "Intermediate"
+      "answer": "The 45-degree angle prevents the opponent from flattening you to your back, which would eliminate hip mobility and make effective framing impossible. This angle keeps your bottom shoulder off the mat, maintains structural integrity of your shin shield frame, and provides the mobility needed to adjust position, create additional angles, and transition to offensive techniques. Being flat on your back compromises all defensive and offensive capabilities from half guard."
     },
     {
       "question": "What should you do if an opponent successfully smashes down your shin shield by driving their shoulder over your knee?",
-      "answer": "Immediately transition to alternative guard recovery options rather than fighting to re-establish the compromised shin shield. Best options include inverting underneath their pressure to enter deep half guard, switching to reverse half guard, or using their downward pressure to facilitate an Old School Sweep by sitting up and capturing their far arm. Attempting to maintain a collapsed shin shield is ineffective and wastes energy.",
-      "difficulty": "Advanced"
+      "answer": "Immediately transition to alternative guard recovery options rather than fighting to re-establish the compromised shin shield. Best options include inverting underneath their pressure to enter deep half guard, switching to reverse half guard, or using their downward pressure to facilitate an Old School Sweep by sitting up and capturing their far arm. Attempting to maintain a collapsed shin shield is ineffective and wastes energy."
     },
     {
       "question": "Which upper body controls work best in combination with shin shield recovery?",
-      "answer": "The inside underhook is the highest-priority upper body control as it prevents the opponent from driving forward pressure and facilitates back-take opportunities. If underhook is unavailable, cross-face prevention through neck framing or far sleeve control is critical to prevent opponent from consolidating passing position. The combination of inside underhook plus shin shield creates the most complete defensive structure from half guard.",
-      "difficulty": "Intermediate"
+      "answer": "The inside underhook is the highest-priority upper body control as it prevents the opponent from driving forward pressure and facilitates back-take opportunities. If underhook is unavailable, cross-face prevention through neck framing or far sleeve control is critical to prevent opponent from consolidating passing position. The combination of inside underhook plus shin shield creates the most complete defensive structure from half guard."
     },
     {
       "question": "How do you maintain control of the opponent's trapped leg while recovering shin shield?",
-      "answer": "Use your outside leg (bottom leg) to maintain a hook behind the opponent's knee or calf throughout the recovery process. This hook prevents them from extracting their trapped leg while you're establishing the shin shield. The combination of leg control via the bottom leg plus distance management via the shin shield creates a complete defensive system that addresses both leg extraction and forward pressure passing threats simultaneously.",
-      "difficulty": "Intermediate"
+      "answer": "Use your outside leg (bottom leg) to maintain a hook behind the opponent's knee or calf throughout the recovery process. This hook prevents them from extracting their trapped leg while you're establishing the shin shield. The combination of leg control via the bottom leg plus distance management via the shin shield creates a complete defensive system that addresses both leg extraction and forward pressure passing threats simultaneously."
     },
     {
       "question": "What are the key differences between high shin shield and low shin shield variations?",
-      "answer": "High shin shield (shoulder/chest level) creates maximum vertical distance and is ideal for preventing forward pressure, setting up triangles, and defending against heavy pressure passers. Low shin shield (hip level) provides less distance but offers superior control for sweeps, prevents opponent from lowering their base, and facilitates transitions to lockdown or deep half guard. High shield prioritizes defense and submission setups; low shield prioritizes sweeping mechanics and positional transitions. Choice depends on opponent's passing style and your offensive goals.",
-      "difficulty": "Advanced"
+      "answer": "High shin shield (shoulder/chest level) creates maximum vertical distance and is ideal for preventing forward pressure, setting up triangles, and defending against heavy pressure passers. Low shin shield (hip level) provides less distance but offers superior control for sweeps, prevents opponent from lowering their base, and facilitates transitions to lockdown or deep half guard. High shield prioritizes defense and submission setups; low shield prioritizes sweeping mechanics and positional transitions. Choice depends on opponent's passing style and your offensive goals."
     },
     {
       "question": "Why is active pressure through the shin shield more effective than passive framing?",
-      "answer": "Active pressure creates constant outward force that the opponent must continuously fight against, making it much harder to collapse the frame. Passive shin shields can be easily manipulated, controlled, or collapsed because they don't generate defensive energy—they only respond to opponent's force. Active pressure also allows you to dictate distance, control the timing of transitions, and create offensive opportunities by disrupting opponent's balance and posture. Think of active shin shield as a piston constantly extending rather than a static barrier.",
-      "difficulty": "Advanced"
+      "answer": "Active pressure creates constant outward force that the opponent must continuously fight against, making it much harder to collapse the frame. Passive shin shields can be easily manipulated, controlled, or collapsed because they don't generate defensive energy—they only respond to opponent's force. Active pressure also allows you to dictate distance, control the timing of transitions, and create offensive opportunities by disrupting opponent's balance and posture. Think of active shin shield as a piston constantly extending rather than a static barrier."
     },
     {
       "question": "Your opponent begins a knee slice pass while you have shin shield established - how do you adjust your frame?",
-      "answer": "Lower your shin shield from chest level to hip level to block the slicing knee's path directly. Angle your shield knee toward their slicing hip rather than across their centerline. Simultaneously hip escape away from the direction of their slice while maintaining your bottom leg hook to prevent leg extraction. If they commit heavily to the slice, use their momentum to enter deep half guard by inverting under their pressure as they drive forward.",
-      "difficulty": "Intermediate"
+      "answer": "Lower your shin shield from chest level to hip level to block the slicing knee's path directly. Angle your shield knee toward their slicing hip rather than across their centerline. Simultaneously hip escape away from the direction of their slice while maintaining your bottom leg hook to prevent leg extraction. If they commit heavily to the slice, use their momentum to enter deep half guard by inverting under their pressure as they drive forward."
     },
     {
       "question": "What is the optimal timing window for inserting the shin shield during guard recovery?",
-      "answer": "The optimal timing is immediately after creating space with your initial hip escape, before the opponent can re-consolidate their pressure. The window opens when you complete your shrimp and closes when the opponent drives their weight back into you. You must coordinate the frame insertion with the moment of maximum separation created by your explosive hip movement. Waiting too long allows them to flatten you again; inserting too early without adequate space results in a weak, easily collapsed frame.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is immediately after creating space with your initial hip escape, before the opponent can re-consolidate their pressure. The window opens when you complete your shrimp and closes when the opponent drives their weight back into you. You must coordinate the frame insertion with the moment of maximum separation created by your explosive hip movement. Waiting too long allows them to flatten you again; inserting too early without adequate space results in a weak, easily collapsed frame."
     },
     {
       "question": "What grip requirements must be satisfied before attempting to transition from shin shield to a sweep?",
-      "answer": "You need at minimum an inside underhook or wrist/sleeve control on their near arm to control their upper body and prevent them from posting. Additionally, collar grip (gi) or head control (no-gi) provides posture control essential for sweep mechanics. Your bottom leg hook must be secure behind their knee to serve as the sweep fulcrum. Without these grip prerequisites, sweep attempts will fail and potentially compromise your shin shield defensive structure, leading to pass completion.",
-      "difficulty": "Advanced"
+      "answer": "You need at minimum an inside underhook or wrist/sleeve control on their near arm to control their upper body and prevent them from posting. Additionally, collar grip (gi) or head control (no-gi) provides posture control essential for sweep mechanics. Your bottom leg hook must be secure behind their knee to serve as the sweep fulcrum. Without these grip prerequisites, sweep attempts will fail and potentially compromise your shin shield defensive structure, leading to pass completion."
     },
     {
       "question": "How should you direct force through the shin shield to maximize defensive effectiveness?",
-      "answer": "Direct force outward and slightly upward at approximately 45 degrees toward opponent's far shoulder, not straight into their chest. This angle creates a wedge effect that redirects their forward pressure away from your centerline rather than absorbing it directly. The force should originate from hip extension combined with knee extension, using your skeletal structure rather than relying solely on muscular effort. This allows sustained defensive pressure without rapid fatigue.",
-      "difficulty": "Intermediate"
+      "answer": "Direct force outward and slightly upward at approximately 45 degrees toward opponent's far shoulder, not straight into their chest. This angle creates a wedge effect that redirects their forward pressure away from your centerline rather than absorbing it directly. The force should originate from hip extension combined with knee extension, using your skeletal structure rather than relying solely on muscular effort. This allows sustained defensive pressure without rapid fatigue."
     },
     {
       "question": "Your opponent posts their hand on the mat next to your hip while pressuring your shin shield - how do you exploit this?",
-      "answer": "Their posted hand indicates weight commitment that creates sweep opportunity. Immediately attack with an underhook sweep by swimming your inside arm under their posted-side armpit while driving your shin shield into their chest to off-balance them toward the post. Alternatively, use the opening to enter deep half by diving under their elevated arm and positioning your head beneath their hips. The posted arm cannot defend both attacks simultaneously, creating a sweep dilemma.",
-      "difficulty": "Advanced"
+      "answer": "Their posted hand indicates weight commitment that creates sweep opportunity. Immediately attack with an underhook sweep by swimming your inside arm under their posted-side armpit while driving your shin shield into their chest to off-balance them toward the post. Alternatively, use the opening to enter deep half by diving under their elevated arm and positioning your head beneath their hips. The posted arm cannot defend both attacks simultaneously, creating a sweep dilemma."
     }
   ],
   "safety_considerations": "Shin shield recovery is a relatively safe defensive technique with minimal injury risk when practiced correctly. The primary safety concern involves protecting your shield leg's knee from hyperextension or lateral stress. Never lock your knee completely straight during shin shield application; maintain a slight bend to allow shock absorption if opponent drives forward suddenly. When drilling with resistance, communicate with your partner about pressure levels to prevent knee injuries during the learning phase.\n\nBe cautious of your own neck position when creating frames and shrimping to insert shin shield. Avoid hyperextending your neck when framing against opponent's pressure. If practicing shin shield recovery against very heavy opponents or those applying maximum pressure, ensure proper warm-up and gradual intensity increase to prevent lower back strain from explosive shrimping movements. Partners should avoid intentionally cranking or twisting the shield leg when countering the technique during drilling phases.",
@@ -323,5 +293,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

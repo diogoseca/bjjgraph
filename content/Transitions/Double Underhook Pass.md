@@ -157,7 +157,7 @@ Strategically, this pass exploits the defensive limitations created when an oppo
 The technique represents an evolution in turtle passing methodology, moving away from traditional approaches that emphasized riding the back toward modern systems that prioritize flattening and immediate dominant position acquisition. When executed with proper timing and hip pressure coordination, the Double Underhook Pass creates a direct pathway to Side Control while eliminating the scramble opportunities that make turtle attacks risky.
 
 **From Position**: [[Crackhead Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The technique represents an evolution in turtle passing methodology, moving away
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish first underhook**: From Crackhead Control, thread your dominant-side arm under opponent's near armpit, driving your hand toward their far shoulder. Keep your elbow tight to their ribs throughout the entry to prevent them from trapping your arm. (Timing: When opponent's defensive focus shifts to protecting their neck)
-2. **Secure the grip**: Once the first underhook is deep, lock your hand on their far shoulder or clasp their gi lapel in gi training. Your palm should face down with fingers wrapped over the trapezius muscle for maximum control. (Timing: Immediately after clearing their armpit with your arm)
-3. **Thread second underhook**: While maintaining the first underhook and hip pressure, swim your opposite arm under their far armpit. This may require a slight hip shift to create the angle, but never fully release your chair-sit weight during this transition. (Timing: When opponent reacts to first underhook by tightening that side)
-4. **Lock the Gable grip**: Connect both hands in a Gable grip (palm-to-palm, no thumb) at the center of opponent's chest. Position your locked hands at their sternum level, not too high toward neck or too low toward belly. (Timing: Once both underhooks reach full depth)
-5. **Drive and flatten**: Using chest pressure against their upper back combined with your locked grip pulling toward you, drive opponent's shoulders to the mat. Push forward with your hips while pulling with your arms, creating a scooping action that collapses their turtle. (Timing: Explosive movement immediately after securing the grip)
-6. **Transition to Side Control**: As opponent flattens, release the Gable grip and immediately establish crossface with near arm while your far arm controls their hip. Sprawl your legs back and settle your weight perpendicular across their torso in classic Side Control position. (Timing: As their chest touches the mat)
+1. **Establish first underhook**: From Crackhead Control, thread your dominant-side arm under opponent's near armpit, driving your hand toward their far shoulder. Keep your elbow tight to their ribs throughout the entry to prevent them from trapping your arm.
+2. **Secure the grip**: Once the first underhook is deep, lock your hand on their far shoulder or clasp their gi lapel in gi training. Your palm should face down with fingers wrapped over the trapezius muscle for maximum control.
+3. **Thread second underhook**: While maintaining the first underhook and hip pressure, swim your opposite arm under their far armpit. This may require a slight hip shift to create the angle, but never fully release your chair-sit weight during this transition.
+4. **Lock the Gable grip**: Connect both hands in a Gable grip (palm-to-palm, no thumb) at the center of opponent's chest. Position your locked hands at their sternum level, not too high toward neck or too low toward belly.
+5. **Drive and flatten**: Using chest pressure against their upper back combined with your locked grip pulling toward you, drive opponent's shoulders to the mat. Push forward with your hips while pulling with your arms, creating a scooping action that collapses their turtle.
+6. **Transition to Side Control**: As opponent flattens, release the Gable grip and immediately establish crossface with near arm while your far arm controls their hip. Sprawl your legs back and settle your weight perpendicular across their torso in classic Side Control position.
 
 
 </section>
@@ -253,19 +253,15 @@ The technique represents an evolution in turtle passing methodology, moving away
 ## Training Progressions
 **Week 1-2** - Underhook entry mechanics
 Practice threading single underhooks from Crackhead Control with cooperative partner. Focus on depth of underhook and maintaining hip pressure during entry. Drill 50 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Chaining to double underhook
 Add the second underhook and Gable grip sequence. Partner provides light resistance by adjusting arm position. Work on timing the second underhook entry based on partner's defensive reactions.
-(Resistance: Light)
 
 **Week 5-6** - Drive and flatten completion
 Complete full pass sequences with partner resisting the flattening phase. Practice recognizing when partner commits to defense versus counter-attack. Add the Side Control consolidation to each repetition.
-(Resistance: Medium)
 
 **Week 7+** - Live situational sparring
 Begin rounds from Crackhead Control with full resistance. Track pass completion percentage and identify most common failure points. Integrate pass into turtle attack game alongside back takes and truck entries.
-(Resistance: Full)
 
 
 

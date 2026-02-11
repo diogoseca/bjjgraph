@@ -157,7 +157,7 @@ Strategically, this escape should be initiated when you recognize the Aoki Lock 
 The Rolling Escape represents the primary high-percentage escape from Aoki Lock, particularly effective when the opponent commits heavily to the shoulder pressure. Success depends on coordinating the roll direction, maintaining internal shoulder rotation throughout, and immediately establishing guard frames upon completing the escape. This technique appears regularly in no-gi competition where shoulder locks from leg entanglements are common finishing positions.
 
 **From Position**: [[Aoki Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The Rolling Escape represents the primary high-percentage escape from Aoki Lock,
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify roll direction**: Locate your trapped arm and commit to rolling toward that direction. The roll must go toward the trapped arm to follow the path of least resistance on your shoulder joint. (Timing: Immediately upon recognizing Aoki Lock establishment)
-2. **Internal shoulder rotation**: Rotate your trapped shoulder internally by turning your palm toward the floor and pulling your elbow toward your hip. This protects the shoulder from the dangerous external rotation that causes injury. (Timing: Before initiating any forward movement)
-3. **Post free hand**: Plant your free hand firmly on the mat beside your hip on the trapped arm side. This post provides the base and leverage needed to initiate the forward roll and control its trajectory. (Timing: Simultaneously with shoulder rotation)
-4. **Initiate forward roll**: Drive your hips up and forward toward your trapped arm while tucking your chin. Use opponent's hip pressure against them by converting their forward drive into roll momentum. The roll goes over your shoulder on the trapped side. (Timing: When opponent commits to hip pressure for the finish)
-5. **Extract arm during roll**: As you complete the forward roll, pull your trapped arm free from the loosened leg entanglement. The rolling motion creates space between opponent's legs that allows arm extraction. (Timing: Mid-roll when leg entanglement naturally loosens)
-6. **Establish guard frames**: Upon completing the roll facing your opponent, immediately establish foot on hip or knee shield frame to prevent them from immediately closing distance. Your free hand controls their collar or sleeve to complete guard recovery. (Timing: Immediately upon completing roll)
+1. **Identify roll direction**: Locate your trapped arm and commit to rolling toward that direction. The roll must go toward the trapped arm to follow the path of least resistance on your shoulder joint.
+2. **Internal shoulder rotation**: Rotate your trapped shoulder internally by turning your palm toward the floor and pulling your elbow toward your hip. This protects the shoulder from the dangerous external rotation that causes injury.
+3. **Post free hand**: Plant your free hand firmly on the mat beside your hip on the trapped arm side. This post provides the base and leverage needed to initiate the forward roll and control its trajectory.
+4. **Initiate forward roll**: Drive your hips up and forward toward your trapped arm while tucking your chin. Use opponent's hip pressure against them by converting their forward drive into roll momentum. The roll goes over your shoulder on the trapped side.
+5. **Extract arm during roll**: As you complete the forward roll, pull your trapped arm free from the loosened leg entanglement. The rolling motion creates space between opponent's legs that allows arm extraction.
+6. **Establish guard frames**: Upon completing the roll facing your opponent, immediately establish foot on hip or knee shield frame to prevent them from immediately closing distance. Your free hand controls their collar or sleeve to complete guard recovery.
 
 
 </section>
@@ -257,19 +257,15 @@ The Rolling Escape represents the primary high-percentage escape from Aoki Lock,
 ## Training Progressions
 **Week 1-2** - Roll mechanics without resistance
 Practice forward roll mechanics from Aoki Lock position with compliant partner. Focus on roll direction toward trapped arm, internal shoulder rotation, and proper posting with free hand. 20+ repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies 30% pressure while you identify optimal roll timing windows. Focus on recognizing when opponent commits to hip drive vs adjusting position. Develop sensitivity to pressure changes that signal roll opportunities.
-(Resistance: Light)
 
 **Week 5-6** - Complete sequence with guard recovery
 Chain the roll with immediate guard frame establishment against 50% resistance. Partner attempts to follow roll or re-attack. Focus on smooth transition from roll completion to functional guard position.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Live positional sparring starting in Aoki Lock bottom. Partner attempts legitimate finish while you escape and recover guard. Test escape under realistic pressure and time constraints. Integrate with overall Aoki Lock defense system.
-(Resistance: Full)
 
 
 

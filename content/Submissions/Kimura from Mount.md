@@ -157,7 +157,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral joint, rotator cuff)
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 50%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -236,12 +236,12 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Mount Control and Isolate the Arm**: From high mount, use your chest pressure and hip control to pin opponent flat. Bait or force their arm across their body by threatening attacks to the opposite side, or wait for them to frame against your chest. When the arm extends, immediately trap their wrist with your same-side hand (if attacking right arm, use your right hand). Pin their wrist to the mat or their chest to prevent retraction. (Timing: 2-3 seconds to establish position) [Pressure: Firm]
-2. **Feed the Wrist and Secure Figure-Four Grip**: While maintaining wrist control, thread your opposite hand (left hand for right arm attack) underneath their elbow and grip your own wrist, creating the figure-four configuration. Your grip should be as deep as possible on your wrist - the further from their arm you grip, the more leverage you create. Keep their elbow bent at approximately 90 degrees and tight to their torso during this transition. (Timing: 1-2 seconds for grip transition) [Pressure: Moderate]
-3. **Create Angle and Establish Base**: Shift your hips and upper body toward the trapped arm side, creating a perpendicular angle to their body. Your chest should now be oriented toward their head rather than directly down on their torso. Maintain one knee tight against their ribs on the trapped arm side while extending the other leg for base. This angle is critical - it aligns your body mechanics for optimal torque application. (Timing: 1-2 seconds for positional adjustment) [Pressure: Firm]
-4. **Lift the Elbow and Control Height**: Using your figure-four grip, lift their elbow off the mat while keeping their hand pinned toward their body or the mat. The elbow should rise to approximately the height of their ribcage or slightly higher. This creates the necessary leverage arm for the submission. Keep their wrist close to their body - if their hand moves too far from their torso, the submission loses effectiveness. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Walk Hands Toward Head**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward their head. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes when their hand reaches ear level. (Timing: 3-5 seconds progressive application) [Pressure: Firm]
-6. **Finish or Transition**: Continue the circular rotation until opponent taps. If they resist strongly or begin to roll, be prepared to transition: maintain your figure-four grip and follow their roll to take the back, or step over their head into an armbar position. Never release the grip prematurely - the Kimura control allows multiple submission and positional options even if the shoulder lock itself doesn't finish immediately. (Timing: Until tap or transition initiated) [Pressure: Maximum]
+1. **Establish Mount Control and Isolate the Arm**: From high mount, use your chest pressure and hip control to pin opponent flat. Bait or force their arm across their body by threatening attacks to the opposite side, or wait for them to frame against your chest. When the arm extends, immediately trap their wrist with your same-side hand (if attacking right arm, use your right hand). Pin their wrist to the mat or their chest to prevent retraction. (Timing: 2-3 seconds to establish position)
+2. **Feed the Wrist and Secure Figure-Four Grip**: While maintaining wrist control, thread your opposite hand (left hand for right arm attack) underneath their elbow and grip your own wrist, creating the figure-four configuration. Your grip should be as deep as possible on your wrist - the further from their arm you grip, the more leverage you create. Keep their elbow bent at approximately 90 degrees and tight to their torso during this transition. (Timing: 1-2 seconds for grip transition)
+3. **Create Angle and Establish Base**: Shift your hips and upper body toward the trapped arm side, creating a perpendicular angle to their body. Your chest should now be oriented toward their head rather than directly down on their torso. Maintain one knee tight against their ribs on the trapped arm side while extending the other leg for base. This angle is critical - it aligns your body mechanics for optimal torque application. (Timing: 1-2 seconds for positional adjustment)
+4. **Lift the Elbow and Control Height**: Using your figure-four grip, lift their elbow off the mat while keeping their hand pinned toward their body or the mat. The elbow should rise to approximately the height of their ribcage or slightly higher. This creates the necessary leverage arm for the submission. Keep their wrist close to their body - if their hand moves too far from their torso, the submission loses effectiveness. (Timing: 1-2 seconds)
+5. **Walk Hands Toward Head**: While maintaining elbow height and grip integrity, begin moving their hand in a circular arc toward their head. The motion should be smooth and controlled, rotating the shoulder internally. Your hands move together as a unit - do not pull with one hand more than the other. The pressure increases progressively as you move through the arc. Watch for the tap, which typically comes when their hand reaches ear level. (Timing: 3-5 seconds progressive application)
+6. **Finish or Transition**: Continue the circular rotation until opponent taps. If they resist strongly or begin to roll, be prepared to transition: maintain your figure-four grip and follow their roll to take the back, or step over their head into an armbar position. Never release the grip prematurely - the Kimura control allows multiple submission and positional options even if the shoulder lock itself doesn't finish immediately. (Timing: Until tap or transition initiated)
 
 
 </section>
@@ -261,25 +261,25 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing mount pressure while attempting the submission [Low DANGER]
+- **Mistake**: Releasing mount pressure while attempting the submission
   - **Consequence**: Opponent escapes mount position, or successfully bridges and reverses position before submission can be secured
   - **Correction**: Keep your hips heavy and low throughout the entire sequence. Your weight should constantly pressure down through your knees and hips into opponent's torso. Never sacrifice positional control for submission speed.
-- **Mistake**: Gripping too close to opponent's arm on the figure-four (hands too close together) [Low DANGER]
+- **Mistake**: Gripping too close to opponent's arm on the figure-four (hands too close together)
   - **Consequence**: Insufficient leverage to generate adequate shoulder torque - submission lacks power and opponent can easily defend
   - **Correction**: Grip your own wrist as far from opponent's arm as possible. Maximum distance between your hands creates maximum leverage. Extend your bottom arm fully when establishing the figure-four.
-- **Mistake**: Lifting straight up instead of rotating in circular arc toward head [Low DANGER]
+- **Mistake**: Lifting straight up instead of rotating in circular arc toward head
   - **Consequence**: Incorrect pressure angle fails to engage shoulder joint properly - submission feels weak and opponent can resist indefinitely
   - **Correction**: The motion must be circular and rotational, not linear. Move their hand in an arc toward their head while maintaining elbow height. Think of stirring a large pot rather than lifting a weight.
-- **Mistake**: Allowing opponent's hand to move away from their body [Low DANGER]
+- **Mistake**: Allowing opponent's hand to move away from their body
   - **Consequence**: Loss of mechanical advantage and submission pressure - arm position becomes too extended for effective shoulder lock
   - **Correction**: Keep their wrist pinned toward their body or chest throughout. The closer their hand stays to their torso, the more effective the rotational pressure on the shoulder joint.
-- **Mistake**: Failing to create proper perpendicular angle before applying pressure [Medium DANGER]
+- **Mistake**: Failing to create proper perpendicular angle before applying pressure
   - **Consequence**: Poor body positioning reduces leverage and allows opponent to defend easily or escape mount
   - **Correction**: Before attempting the finish, ensure your chest is perpendicular to their body, oriented toward their head. This angle alignment is essential for generating proper torque while maintaining mount control.
-- **Mistake**: Applying explosive or jerking rotational pressure [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking rotational pressure
   - **Consequence**: CRITICAL SAFETY VIOLATION: Can cause immediate rotator cuff tear, shoulder dislocation, or labrum damage without giving opponent time to tap safely
   - **Correction**: ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum in training. The submission should build gradually, allowing clear opportunity to tap. Save competition speed for competition only.
-- **Mistake**: Continuing pressure after hearing popping or clicking sounds from shoulder [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after hearing popping or clicking sounds from shoulder
   - **Consequence**: CRITICAL SAFETY VIOLATION: Joint sounds indicate structural damage is occurring - continued pressure causes severe injury requiring surgery
   - **Correction**: IMMEDIATELY release all pressure at first sign of joint noise. Follow release protocol and check partner's shoulder health before resuming. Joint sounds are not normal and indicate injury in progress.
 
@@ -344,43 +344,6 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Grip Mechanics** (1-2 weeks)
-- Focus: Learn figure-four grip configuration, proper hand placement distance, and mount control fundamentals without applying submission pressure. Practice grip transitions and body positioning from mount.
-- Resistance: None
-- Safety: Understand shoulder anatomy and injury mechanisms. Study proper tap signals and release protocol. Practice releasing the grip smoothly and controlling the arm during release.
-
-**Positional Drilling Without Finish** (2-3 weeks)
-- Focus: From established mount, practice isolating the arm, establishing figure-four grip, creating angle, and lifting elbow to finishing position. Stop before applying rotational pressure. Partner remains passive but provides realistic body structure.
-- Resistance: Zero resistance
-- Safety: Focus on smooth, controlled movements. Practice stopping at the point where pressure would begin. Develop muscle memory for proper mechanics without risk.
-
-**Slow Application with Communication** (3-4 weeks)
-- Focus: Execute complete technique including slow rotational pressure. Apply pressure over 5-7 seconds with constant verbal communication. Partner taps early when pressure begins, not when pain occurs.
-- Resistance: Mild resistance
-- Safety: Emphasize progressive pressure application and immediate response to taps. Partner should tap at first sensation of shoulder pressure, well before pain threshold. Practice release protocol after every repetition.
-
-**Realistic Setup and Defense** (4-6 weeks)
-- Focus: Practice against realistic defensive frames and grips. Work on creating openings through threats, weight distribution, and timing. Partner defends mount and arm position but allows submission when properly executed.
-- Resistance: Realistic resistance
-- Safety: Partner maintains safe defensive patterns - no explosive movements or sudden escapes. Continue slow application speed. Attacker recognizes when submission isn't available and maintains mount instead.
-
-**Live Positional Sparring** (6-8 weeks)
-- Focus: Start from mount with goal of securing Kimura submission. Partner uses full defensive repertoire including frames, grips, bridges, and rolls. Reset after successful submission or position loss.
-- Resistance: Full resistance
-- Safety: Both partners committed to slow application and early tapping. Attacker stops at tap or first sign of joint stress. Defender taps early, especially if shoulder has any pre-existing issues. No ego-driven resistance to technical submissions.
-
-**Integration and Flow Rolling** (Ongoing)
-- Focus: Incorporate Kimura from mount into regular training flow, chain with other mount submissions and transitions, adapt to various body types and defensive styles. Develop sensitivity for when technique is available versus forcing it.
-- Resistance: Full resistance
-- Safety: Maintain training-speed application even with increased experience and confidence. Recognize that familiarity breeds complacency - renewed safety focus is essential for experienced practitioners. Monitor training partners for shoulder health and injury history.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -435,6 +398,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

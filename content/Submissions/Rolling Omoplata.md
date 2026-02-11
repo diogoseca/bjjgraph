@@ -157,7 +157,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Scramble Position]]
-**Success Rates**: Beginner 25%, Intermediate 40%, Advanced 60%
+**Success Rate**: 50%
 
 </section>
 
@@ -236,12 +236,12 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Arm isolation and initial control**: During a scramble, failed sweep, or transition, identify when opponent posts their arm or extends it for base. Secure control of this arm by gripping the wrist or controlling it with your legs. Your opponent should be slightly off-balance with their weight forward or lateral. This is often available when they're defending a sweep or trying to pass your guard. (Timing: Opportunistic - requires reading the scramble) [Pressure: Light]
-2. **Hip positioning for the roll**: Position your hips near the opponent's trapped shoulder while maintaining arm control. Your body should be oriented perpendicular or angled to your opponent. Begin to load your weight onto your shoulders and upper back in preparation for the rolling motion. Your free leg should be positioned to hook over the opponent's back or shoulder during the roll. (Timing: 1-2 seconds - establish position) [Pressure: Light]
-3. **Initiate the rolling motion**: Execute a smooth backward roll over your shoulder, similar to a granby roll, while maintaining control of the isolated arm. As you roll, your hips should rotate toward the opponent's head, and your legs should begin to position around their shoulder and head. The roll should be fluid and controlled, not explosive or sudden. Use your momentum to swing your legs into position. (Timing: 2-3 seconds - complete the roll) [Pressure: Moderate]
-4. **Leg positioning and shoulder isolation**: As you complete the roll and come up on your side or belly, thread one leg over the opponent's back and the other leg across their head/neck area. The leg over the back should sit deep on their shoulder blade, while the leg across the head controls their posture. Their trapped arm should be fully extended with your hip positioned directly against their shoulder joint. Your hips should be slightly elevated above their shoulder level. (Timing: 1-2 seconds - secure position) [Pressure: Moderate]
-5. **Lock the triangle and adjust angle**: Lock your legs together in a figure-four configuration if possible, though this is optional depending on your flexibility and the angle. More importantly, adjust your body angle so you're perpendicular to your opponent's spine with your hips directly pressuring their shoulder joint. Your weight should be distributed to prevent them from rolling through or backward. Their arm should be straight and immobilized. (Timing: 1-2 seconds - secure configuration) [Pressure: Firm]
-6. **Apply controlled shoulder pressure**: Drive your hips forward and slightly downward into the opponent's shoulder joint while simultaneously pulling their wrist or controlling their arm extension. The pressure should be gradual and progressive, applied through hip extension rather than jerking movements. Watch for the tap signal carefully as the opponent may have limited ability to tap with the trapped arm. Maintain control of their head with your leg to prevent them from turning into the submission and escaping. (Timing: 2-4 seconds - gradual pressure application) [Pressure: Maximum]
+1. **Arm isolation and initial control**: During a scramble, failed sweep, or transition, identify when opponent posts their arm or extends it for base. Secure control of this arm by gripping the wrist or controlling it with your legs. Your opponent should be slightly off-balance with their weight forward or lateral. This is often available when they're defending a sweep or trying to pass your guard. (Timing: Opportunistic - requires reading the scramble)
+2. **Hip positioning for the roll**: Position your hips near the opponent's trapped shoulder while maintaining arm control. Your body should be oriented perpendicular or angled to your opponent. Begin to load your weight onto your shoulders and upper back in preparation for the rolling motion. Your free leg should be positioned to hook over the opponent's back or shoulder during the roll. (Timing: 1-2 seconds - establish position)
+3. **Initiate the rolling motion**: Execute a smooth backward roll over your shoulder, similar to a granby roll, while maintaining control of the isolated arm. As you roll, your hips should rotate toward the opponent's head, and your legs should begin to position around their shoulder and head. The roll should be fluid and controlled, not explosive or sudden. Use your momentum to swing your legs into position. (Timing: 2-3 seconds - complete the roll)
+4. **Leg positioning and shoulder isolation**: As you complete the roll and come up on your side or belly, thread one leg over the opponent's back and the other leg across their head/neck area. The leg over the back should sit deep on their shoulder blade, while the leg across the head controls their posture. Their trapped arm should be fully extended with your hip positioned directly against their shoulder joint. Your hips should be slightly elevated above their shoulder level. (Timing: 1-2 seconds - secure position)
+5. **Lock the triangle and adjust angle**: Lock your legs together in a figure-four configuration if possible, though this is optional depending on your flexibility and the angle. More importantly, adjust your body angle so you're perpendicular to your opponent's spine with your hips directly pressuring their shoulder joint. Your weight should be distributed to prevent them from rolling through or backward. Their arm should be straight and immobilized. (Timing: 1-2 seconds - secure configuration)
+6. **Apply controlled shoulder pressure**: Drive your hips forward and slightly downward into the opponent's shoulder joint while simultaneously pulling their wrist or controlling their arm extension. The pressure should be gradual and progressive, applied through hip extension rather than jerking movements. Watch for the tap signal carefully as the opponent may have limited ability to tap with the trapped arm. Maintain control of their head with your leg to prevent them from turning into the submission and escaping. (Timing: 2-4 seconds - gradual pressure application)
 
 
 </section>
@@ -261,7 +261,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Rolling too explosively or with excessive speed [CRITICAL DANGER]
+- **Mistake**: Rolling too explosively or with excessive speed
   - **Consequence**: Partner cannot tap in time, leading to serious shoulder injuries; also causes loss of control during the roll
   - **Correction**: Practice the rolling motion slowly in isolation. Focus on smooth, controlled movement with gradual acceleration. Always telegraph the technique in training and give your partner time to recognize the position.
 - **Mistake**: Failing to maintain arm control during the roll
@@ -276,7 +276,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 - **Mistake**: Not controlling opponent's head with the leg
   - **Consequence**: Opponent turns into the submission and escapes, or rolls through completely
   - **Correction**: The leg across the head is critical for controlling their posture and preventing rotation. Keep this leg tight and active, using it to break their posture downward while applying the shoulder lock.
-- **Mistake**: Applying the submission with cranking or jerking motions [CRITICAL DANGER]
+- **Mistake**: Applying the submission with cranking or jerking motions
   - **Consequence**: Sudden shoulder dislocation, rotator cuff tear, or other severe injuries requiring medical intervention
   - **Correction**: Always apply pressure gradually through hip extension, never through jerking or explosive movements. In training, aim for 4-6 seconds of progressive pressure application. Develop sensitivity to feel resistance and stop immediately if partner shows distress.
 - **Mistake**: Attempting the technique without sufficient hip mobility
@@ -346,43 +346,6 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding - Solo Movement** (Week 1-2)
-- Focus: Practice granby rolls, hip inversions, and rolling motions without a partner. Develop the rolling mechanics and body awareness needed for the technique. Work on hip mobility and inverted positioning.
-- Resistance: None
-- Safety: Build foundational movement patterns safely. No injury risk in solo drilling. Focus on smooth, controlled rolling motion and spatial awareness.
-
-**Positional Introduction - Cooperative Partner** (Week 3-4)
-- Focus: With a fully cooperative partner, practice the complete rolling motion while they present a posted arm. Go slowly through each step, focusing on maintaining arm control throughout the roll. Partner should offer zero resistance and clearly tap early.
-- Resistance: Zero resistance
-- Safety: Partner must tap immediately when pressure begins. Practice tap signals and release protocols. Never apply finishing pressure - focus only on achieving the position. Minimum 6-second application if any pressure is used.
-
-**Positional Recognition - Flow Rolling** (Week 5-8)
-- Focus: During light flow rolling, begin to recognize moments when the rolling omoplata is available (posted arms during scrambles). Telegraph the technique clearly to your partner and execute at 30-40% speed. Focus on reading the opportunities rather than finishing.
-- Resistance: Mild resistance
-- Safety: Always announce the technique before attempting it in flow. Partner should be prepared and tap early. Focus on entry mechanics rather than finishing. If partner shows any discomfort, release immediately.
-
-**Integration - Situational Drilling** (Month 3-4)
-- Focus: Set up specific scenarios (failed scissor sweep, spider guard passing defense, RDLR transitions) and practice the rolling omoplata from these common setups. Partner offers realistic but controlled resistance up to the point of the roll.
-- Resistance: Realistic resistance
-- Safety: Partner still taps early once position is achieved. No finishing pressure in drilling. Practice the transition chains if the submission fails. Communicate throughout the drill about comfort and pressure levels.
-
-**Live Application - Controlled Sparring** (Month 5-6)
-- Focus: Attempt the technique during regular sparring rounds, but continue to apply submissions slowly and progressively. Focus on catching the opportunities during live scrambles while maintaining safety protocols.
-- Resistance: Full resistance
-- Safety: Maintain 4-6 second minimum application time even during competition-style rolls. Watch carefully for taps as partner may have limited tap access. Never attempt the technique on partners with shoulder injuries or significantly less experience.
-
-**Refinement - Competition Preparation** (Month 6+)
-- Focus: Fine-tune the technique for competition application. Practice recognizing setup opportunities at higher speeds and transitioning smoothly when the submission isn't available. Develop the technique as part of a broader offensive system.
-- Resistance: Full resistance
-- Safety: Understand the distinction between training and competition application speeds. In training, always maintain safety margins. Drilling the release protocol should be as common as drilling the technique itself. Continue respecting partner safety regardless of skill level.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -438,6 +401,7 @@ The Rolling Omoplata is a dynamic shoulder lock submission that capitalizes on m
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

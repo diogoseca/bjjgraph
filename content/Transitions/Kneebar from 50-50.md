@@ -157,7 +157,7 @@ From the top position in 50-50, you control the opponent's leg with both legs wr
 This technique is particularly effective in no-gi competition where leg locks are permitted, and serves as an essential chain attack with heel hooks. The transition window is narrow - you must recognize when the heel hook is sufficiently defended and redirect within 2-3 seconds before opponent can adjust their defensive posture. Delayed commitment results in a scramble where neither attack succeeds.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique is particularly effective in no-gi competition where leg locks ar
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize heel defense**: Identify that opponent has successfully hidden their heel by tucking it close to their body, rotating their knee inward, or establishing defensive grips that prevent heel exposure. This recognition window is 2-3 seconds of attempted heel hook. (Timing: Within 3 seconds of heel hook attempt)
-2. **Release heel grip**: Release your two-handed grip on opponent's heel and redirect your hands toward controlling above their knee. Maintain leg entanglement throughout this transition - your legs keep them trapped while hands reposition. (Timing: Immediate upon recognition)
-3. **Secure knee control**: Clasp hands together above opponent's knee cap using a gable grip (palm-to-palm) or figure-four configuration. Pull the leg tight against your chest with their knee positioned at your hip-to-armpit line. (Timing: 0.5-1 second transition)
-4. **Triangle legs**: Adjust your leg entanglement to triangle around opponent's upper thigh. Your inside leg crosses over your outside leg's ankle, creating a figure-four lock that controls their hip and prevents rotation escape. (Timing: Simultaneous with knee control)
-5. **Align fulcrum**: Position opponent's knee joint directly at your hip crease where hip meets torso. Their shin should extend along your centerline with their ankle near your shoulder. This alignment maximizes hyperextension leverage. (Timing: Adjustment phase)
-6. **Apply breaking pressure**: Simultaneously extend your hips forward and upward while pulling their leg toward your chest with your gripped hands. Keep their toes pointed and leg straight - any knee bend reduces pressure. Control hip rotation with your leg triangle. (Timing: Controlled application)
+1. **Recognize heel defense**: Identify that opponent has successfully hidden their heel by tucking it close to their body, rotating their knee inward, or establishing defensive grips that prevent heel exposure. This recognition window is 2-3 seconds of attempted heel hook.
+2. **Release heel grip**: Release your two-handed grip on opponent's heel and redirect your hands toward controlling above their knee. Maintain leg entanglement throughout this transition - your legs keep them trapped while hands reposition.
+3. **Secure knee control**: Clasp hands together above opponent's knee cap using a gable grip (palm-to-palm) or figure-four configuration. Pull the leg tight against your chest with their knee positioned at your hip-to-armpit line.
+4. **Triangle legs**: Adjust your leg entanglement to triangle around opponent's upper thigh. Your inside leg crosses over your outside leg's ankle, creating a figure-four lock that controls their hip and prevents rotation escape.
+5. **Align fulcrum**: Position opponent's knee joint directly at your hip crease where hip meets torso. Their shin should extend along your centerline with their ankle near your shoulder. This alignment maximizes hyperextension leverage.
+6. **Apply breaking pressure**: Simultaneously extend your hips forward and upward while pulling their leg toward your chest with your gripped hands. Keep their toes pointed and leg straight - any knee bend reduces pressure. Control hip rotation with your leg triangle.
 
 
 </section>
@@ -252,19 +252,15 @@ This technique is particularly effective in no-gi competition where leg locks ar
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice kneebar finishing mechanics from static kneebar control position. Focus on hip-to-knee alignment, leg triangle configuration, and coordinated hip extension with arm pull. Partner provides no resistance.
-(Resistance: None)
 
 **Week 3-4** - Transition drilling
 Start from 50-50 top position. Partner hides heel on command. Practice releasing heel grip and transitioning to kneebar control. Focus on maintaining leg entanglement throughout transition. Partner provides light defensive movement.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Flow between heel hook attempts and kneebar based on partner's defense. When they hide heel, attack kneebar. When they straighten leg to defend kneebar, return to heel hook. Partner defends one attack at a time with medium resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in live rolling from 50-50 positions. Focus on recognition timing and commitment speed. Integrate with full leg lock game including back takes when both attacks are defended. Full resistance sparring.
-(Resistance: Full)
 
 
 

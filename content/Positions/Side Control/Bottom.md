@@ -334,11 +334,11 @@ Partner transitions between side control variations and mount attempts. Practice
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 5% |
-| Intermediate | 30% | 35% | 10% |
-| Advanced     | 50% | 50% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 42% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds for competent players attempting systematic escape
 

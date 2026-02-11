@@ -368,11 +368,11 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 40% | 30% |
-| Intermediate | 70% | 55% | 45% |
-| Advanced     | 85% | 70% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 62% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 1-3 minutes
 

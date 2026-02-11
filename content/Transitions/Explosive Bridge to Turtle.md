@@ -157,7 +157,7 @@ Strategically, this escape prioritizes extracting yourself from immediate submis
 The technique requires precise timing and total commitment - half-hearted attempts fail and waste energy. Ideally executed when the opponent shifts weight to set up submissions, the explosive bridge catches them off-balance and creates the rotational momentum needed to free trapped arms and complete the turn to turtle. Understanding this escape's place in the defensive hierarchy is crucial: it represents a calculated retreat to a recoverable position rather than a reversal attempt.
 
 **From Position**: [[Mounted Crucifix/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The technique requires precise timing and total commitment - half-hearted attemp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Plant feet**: Drive both heels as close to your buttocks as possible, digging toes into the mat to create maximum leverage for the bridge. Keep knees bent at sharp angles to generate explosive hip drive. (Timing: Setup phase before explosion)
-2. **Protect neck**: Tuck chin tightly to chest and elevate shoulders toward ears, creating defensive barriers against choke attempts during the transitional moment when you'll be most vulnerable. (Timing: Immediately before bridge)
-3. **Explosive bridge**: Drive hips violently upward and toward the side of your trapped arm, generating maximum vertical and lateral force through full hip extension. The bridge must be committed and explosive - aim to throw opponent off balance. (Timing: When opponent shifts weight for attack)
-4. **Extract arm**: As the bridge creates space and disrupts opponent's leg control, immediately pull your trapped arm free by sliding it toward your body. The hip movement creates the gap - your arm slides through it. (Timing: Simultaneous with bridge peak)
-5. **Turn to belly**: Continue the rotational momentum from the bridge to turn your body toward the mat, facing away from opponent. Use your freed arm to post on the mat and assist the turning motion into turtle position. (Timing: Immediately following arm extraction)
-6. **Establish turtle**: Complete the turn to turtle position by bringing knees underneath your body, posting on elbows and hands with head protected. Immediately begin working to either recover guard, stand up, or execute turtle-specific escapes. (Timing: Final phase - secure position)
+1. **Plant feet**: Drive both heels as close to your buttocks as possible, digging toes into the mat to create maximum leverage for the bridge. Keep knees bent at sharp angles to generate explosive hip drive.
+2. **Protect neck**: Tuck chin tightly to chest and elevate shoulders toward ears, creating defensive barriers against choke attempts during the transitional moment when you'll be most vulnerable.
+3. **Explosive bridge**: Drive hips violently upward and toward the side of your trapped arm, generating maximum vertical and lateral force through full hip extension. The bridge must be committed and explosive - aim to throw opponent off balance.
+4. **Extract arm**: As the bridge creates space and disrupts opponent's leg control, immediately pull your trapped arm free by sliding it toward your body. The hip movement creates the gap - your arm slides through it.
+5. **Turn to belly**: Continue the rotational momentum from the bridge to turn your body toward the mat, facing away from opponent. Use your freed arm to post on the mat and assist the turning motion into turtle position.
+6. **Establish turtle**: Complete the turn to turtle position by bringing knees underneath your body, posting on elbows and hands with head protected. Immediately begin working to either recover guard, stand up, or execute turtle-specific escapes.
 
 
 </section>
@@ -257,19 +257,15 @@ The technique requires precise timing and total commitment - half-hearted attemp
 ## Training Progressions
 **Week 1-2** - Bridge mechanics
 Practice explosive bridging motion solo and with cooperative partner. Focus on driving hips high, directing bridge laterally, and generating maximum power from leg drive. Build the specific explosive capacity needed for this escape.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 With partner in mounted crucifix, identify when their weight shifts during submission setups. Practice recognizing the optimal moment for escape attempt. Partner provides light resistance and verbal cues about their balance state.
-(Resistance: Light)
 
 **Week 5-6** - Complete sequence integration
 Execute full escape sequence against moderate resistance - bridge, arm extraction, turn to turtle. Partner attempts to maintain position and counter but allows completion when timing and execution are correct. Chain into turtle escapes.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in specific sparring from mounted crucifix position against fully resisting opponent. Develop ability to execute under pressure and integrate with overall bottom game. Track success rate and refine timing.
-(Resistance: Full)
 
 
 

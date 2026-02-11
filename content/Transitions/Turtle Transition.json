@@ -10,11 +10,6 @@
     "wrestling",
     "positional-escape"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Turtle position represents a critical transitional state in BJJ where the bottom player assumes a quadruped defensive posture to protect against back exposure and submission attacks. While traditionally viewed as a defensive position, modern grapplers have transformed Turtle into an active launching point for sweeps, guard recoveries, and scrambles. The position creates a unique tactical battleground where the top player seeks back control, front headlock positions, or submission entries, while the bottom player works to return to guard, execute reversals, or escape to standing. Understanding Turtle transitions is essential for both attacking opportunities from top position and defensive survival from bottom. The position's dynamic nature creates constant momentum shifts, requiring practitioners to develop sharp awareness of weight distribution, grip fighting, and timing. Mastery of Turtle transitions distinguishes intermediate from advanced competitors, as it demonstrates the ability to maintain composure during scrambles and capitalize on fleeting opportunities during position changes.",
   "key_principles": [
     "Maintain strong base with elbows tight to knees to prevent easy back takes",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Assess opponent's attack angle",
-      "description": "Quickly determine if opponent is attacking from front headlock position, attempting back take via hooks, or seeking crucifix control. This assessment dictates your defensive priority and escape route selection.",
-      "timing": "Immediate upon entering turtle position"
+      "description": "Quickly determine if opponent is attacking from front headlock position, attempting back take via hooks, or seeking crucifix control. This assessment dictates your defensive priority and escape route selection."
     },
     {
       "step_number": 2,
       "action": "Establish defensive base",
-      "description": "Place hands shoulder-width apart with elbows inside knees, creating a tight defensive box. Tuck chin to chest to protect neck from guillotine and front headlock attacks while maintaining ability to look laterally at opponent's position.",
-      "timing": "Within first second of turtle entry"
+      "description": "Place hands shoulder-width apart with elbows inside knees, creating a tight defensive box. Tuck chin to chest to protect neck from guillotine and front headlock attacks while maintaining ability to look laterally at opponent's position."
     },
     {
       "step_number": 3,
       "action": "Fight critical grips",
-      "description": "Prevent opponent from establishing seat belt grip, harness control, or deep front headlock. Use explosive shoulder shrugs and arm movements to strip grips before they become consolidated. Priority is preventing the far side underhook and seat belt completion.",
-      "timing": "Continuous grip fighting throughout position"
+      "description": "Prevent opponent from establishing seat belt grip, harness control, or deep front headlock. Use explosive shoulder shrugs and arm movements to strip grips before they become consolidated. Priority is preventing the far side underhook and seat belt completion."
     },
     {
       "step_number": 4,
       "action": "Create dynamic movement",
-      "description": "Shift weight from side to side, perform small base adjustments, and change angles to prevent opponent from settling their weight. Static turtle is vulnerable; movement creates opportunities for escape and makes back take attempts more difficult.",
-      "timing": "Constant subtle movement"
+      "description": "Shift weight from side to side, perform small base adjustments, and change angles to prevent opponent from settling their weight. Static turtle is vulnerable; movement creates opportunities for escape and makes back take attempts more difficult."
     },
     {
       "step_number": 5,
       "action": "Choose escape direction",
-      "description": "Based on opponent's weight distribution, select between granby roll to guard recovery, sit-through to butterfly or half guard, technical standup, or forward roll escape. Each option depends on where opponent has committed their weight and which grips they've established.",
-      "timing": "When opponent commits weight or adjusts grips"
+      "description": "Based on opponent's weight distribution, select between granby roll to guard recovery, sit-through to butterfly or half guard, technical standup, or forward roll escape. Each option depends on where opponent has committed their weight and which grips they've established."
     },
     {
       "step_number": 6,
       "action": "Execute explosive transition",
-      "description": "Commit fully to chosen escape with explosive hip movement and coordinated upper body action. Half-committed escapes from turtle commonly fail; decisive execution with proper timing creates successful transitions to superior positions.",
-      "timing": "Explosive execution during opponent's weight shift"
+      "description": "Commit fully to chosen escape with explosive hip movement and coordinated upper body action. Half-committed escapes from turtle commonly fail; decisive execution with proper timing creates successful transitions to superior positions."
     },
     {
       "step_number": 7,
       "action": "Establish new position",
-      "description": "Upon successful escape, immediately establish frames, grips, and positional controls in the new position. Whether returning to guard, achieving standing position, or reversing to top position, consolidate controls before opponent can counter-attack.",
-      "timing": "Immediately following escape movement"
+      "description": "Upon successful escape, immediately establish frames, grips, and positional controls in the new position. Whether returning to guard, achieving standing position, or reversing to top position, consolidate controls before opponent can counter-attack."
     }
   ],
   "common_counters": [
@@ -141,38 +129,32 @@
     {
       "phase": "Phase 1: Defensive Fundamentals (Weeks 1-2)",
       "focus": "Establishing and maintaining safe turtle posture",
-      "description": "Partner begins in turtle with proper defensive frame—elbows inside knees, head tucked, tight base. Top player applies light pressure without attacking. Bottom player holds position for 30-second intervals, focusing on maintaining proper structure. Progress to top player adding weight and attempting basic grip establishment while bottom player maintains defensive posture.",
-      "resistance_level": "Light"
+      "description": "Partner begins in turtle with proper defensive frame—elbows inside knees, head tucked, tight base. Top player applies light pressure without attacking. Bottom player holds position for 30-second intervals, focusing on maintaining proper structure. Progress to top player adding weight and attempting basic grip establishment while bottom player maintains defensive posture."
     },
     {
       "phase": "Phase 2: Grip Fighting Drills (Weeks 2-4)",
       "focus": "Preventing critical grip and control establishments",
-      "description": "Bottom player in turtle defends against specific attacks: seat belt establishment, front headlock control, cross-face positioning. Top player attempts to establish one specific control at 50% intensity. Bottom player strips grips and maintains defensive frame. Drill each control scenario separately before combining. Emphasize explosive grip breaks and immediate frame recovery.",
-      "resistance_level": "Medium"
+      "description": "Bottom player in turtle defends against specific attacks: seat belt establishment, front headlock control, cross-face positioning. Top player attempts to establish one specific control at 50% intensity. Bottom player strips grips and maintains defensive frame. Drill each control scenario separately before combining. Emphasize explosive grip breaks and immediate frame recovery."
     },
     {
       "phase": "Phase 3: Escape Technique Development (Weeks 4-6)",
       "focus": "Learning and drilling specific escape sequences",
-      "description": "Isolate individual escape techniques: granby roll to guard, sit-through to butterfly, technical standup sequence. Partner provides moderate resistance while bottom player executes each escape 10-15 repetitions. Focus on proper mechanics before adding speed. Top player gradually increases resistance as bottom player's technique improves. End each successful escape by establishing new position controls.",
-      "resistance_level": "Medium"
+      "description": "Isolate individual escape techniques: granby roll to guard, sit-through to butterfly, technical standup sequence. Partner provides moderate resistance while bottom player executes each escape 10-15 repetitions. Focus on proper mechanics before adding speed. Top player gradually increases resistance as bottom player's technique improves. End each successful escape by establishing new position controls."
     },
     {
       "phase": "Phase 4: Decision-Making Under Pressure (Weeks 6-8)",
       "focus": "Reading opponent's position and selecting appropriate escape",
-      "description": "Top player randomly selects attack angle—front headlock, back take, or flattening pressure. Bottom player must quickly assess situation and choose appropriate escape within 3-5 seconds. Top player provides 70% resistance. Emphasize decision speed and commitment to chosen escape rather than hesitation or mid-sequence changes. Include consequence scenarios where wrong choice leads to position loss.",
-      "resistance_level": "Medium"
+      "description": "Top player randomly selects attack angle—front headlock, back take, or flattening pressure. Bottom player must quickly assess situation and choose appropriate escape within 3-5 seconds. Top player provides 70% resistance. Emphasize decision speed and commitment to chosen escape rather than hesitation or mid-sequence changes. Include consequence scenarios where wrong choice leads to position loss."
     },
     {
       "phase": "Phase 5: Dynamic Scrambling Practice (Weeks 8-10)",
       "focus": "Maintaining composure and technique during fast-paced transitions",
-      "description": "Begin in turtle with top player free to attack any available position. Bottom player defends and escapes at full speed. If escape succeeds, reset to turtle. If top player achieves control (back mount, side control), complete the transition then reset. Five-minute rounds focusing on volume of successful escapes. Track success rate of escape attempts to measure progress.",
-      "resistance_level": "Full"
+      "description": "Begin in turtle with top player free to attack any available position. Bottom player defends and escapes at full speed. If escape succeeds, reset to turtle. If top player achieves control (back mount, side control), complete the transition then reset. Five-minute rounds focusing on volume of successful escapes. Track success rate of escape attempts to measure progress."
     },
     {
       "phase": "Phase 6: Competition Simulation (Weeks 10-12)",
       "focus": "Applying turtle transitions during live rolling",
-      "description": "During regular sparring rounds, intentionally enter turtle position from guard or after failed takedown attempts. Practice transitioning through turtle to superior positions rather than accepting position as endpoint. Partner rolls at full competition intensity. Post-round analysis of what escapes worked, which grips were most dangerous, and timing opportunities. Video review recommended for advanced practitioners.",
-      "resistance_level": "Full"
+      "description": "During regular sparring rounds, intentionally enter turtle position from guard or after failed takedown attempts. Practice transitioning through turtle to superior positions rather than accepting position as endpoint. Partner rolls at full competition intensity. Post-round analysis of what escapes worked, which grips were most dangerous, and timing opportunities. Video review recommended for advanced practitioners."
     }
   ],
   "variants_and_adaptations": [
@@ -205,38 +187,31 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary defensive priority when first entering turtle position?",
-      "answer": "The primary priority is establishing a strong defensive frame with elbows inside knees, head tucked to protect the neck, and maintaining active grip fighting to prevent opponent from establishing seat belt control or front headlock position. This defensive structure prevents immediate back takes and submission setups while buying time to assess escape opportunities.",
-      "difficulty": "Beginner"
+      "answer": "The primary priority is establishing a strong defensive frame with elbows inside knees, head tucked to protect the neck, and maintaining active grip fighting to prevent opponent from establishing seat belt control or front headlock position. This defensive structure prevents immediate back takes and submission setups while buying time to assess escape opportunities."
     },
     {
       "question": "Why is remaining static in turtle position considered a critical error?",
-      "answer": "Static turtle allows the top player time to methodically establish dominant grips, set up attacks systematically, and consolidate control without resistance. Movement prevents the opponent from settling their weight, creates grip-fighting opportunities, and generates windows for escape attempts. Turtle should be viewed as a brief transitional state rather than a sustainable defensive position.",
-      "difficulty": "Beginner"
+      "answer": "Static turtle allows the top player time to methodically establish dominant grips, set up attacks systematically, and consolidate control without resistance. Movement prevents the opponent from settling their weight, creates grip-fighting opportunities, and generates windows for escape attempts. Turtle should be viewed as a brief transitional state rather than a sustainable defensive position."
     },
     {
       "question": "How should you determine which escape direction to choose from turtle position?",
-      "answer": "Escape direction should be determined by reading the opponent's weight distribution and grip commitments. Escape away from where opponent has concentrated their weight and time the escape during their weight shifts or grip adjustments. If opponent is heavy on front headlock, granby roll away; if driving hooks for back take, sit through to guard; if weight is high and loose, technical standup becomes viable.",
-      "difficulty": "Intermediate"
+      "answer": "Escape direction should be determined by reading the opponent's weight distribution and grip commitments. Escape away from where opponent has concentrated their weight and time the escape during their weight shifts or grip adjustments. If opponent is heavy on front headlock, granby roll away; if driving hooks for back take, sit through to guard; if weight is high and loose, technical standup becomes viable."
     },
     {
       "question": "What specific grips must be prevented to avoid back control from turtle?",
-      "answer": "The critical grips to prevent are the seat belt configuration, specifically the far-side underhook and choking-side overhook. Once both grips are established, the opponent has the mechanical advantage for back take. Priority is fighting the choking arm grip and preventing the far underhook from becoming deep. Secondary concerns include preventing harness grips across the upper back and defending against front headlock control.",
-      "difficulty": "Intermediate"
+      "answer": "The critical grips to prevent are the seat belt configuration, specifically the far-side underhook and choking-side overhook. Once both grips are established, the opponent has the mechanical advantage for back take. Priority is fighting the choking arm grip and preventing the far underhook from becoming deep. Secondary concerns include preventing harness grips across the upper back and defending against front headlock control."
     },
     {
       "question": "What is the biomechanical principle behind timing granby rolls from turtle position?",
-      "answer": "The granby roll succeeds when executed during opponent's forward weight commitment or grip adjustments because their base is compromised and they cannot effectively counter the rotational movement. Creating initial movement in the opposite direction loads their weight forward, then explosively reversing direction with the granby catches them off-balance. The shoulder roll inverts your position while their forward momentum prevents them from following, allowing guard recovery. Timing the roll when they're statically positioned or weight back results in easy counters and back exposure.",
-      "difficulty": "Advanced"
+      "answer": "The granby roll succeeds when executed during opponent's forward weight commitment or grip adjustments because their base is compromised and they cannot effectively counter the rotational movement. Creating initial movement in the opposite direction loads their weight forward, then explosively reversing direction with the granby catches them off-balance. The shoulder roll inverts your position while their forward momentum prevents them from following, allowing guard recovery. Timing the roll when they're statically positioned or weight back results in easy counters and back exposure."
     },
     {
       "question": "What are the key differences between turtle transition strategies in gi versus no-gi contexts?",
-      "answer": "In gi, grips are more secure and harder to strip, making grip fighting more critical and static turtle more dangerous. Granby rolls and technical standups face more resistance due to collar and sleeve grips. No-gi allows more explosive escape attempts due to grip insecurity, making technical standups and Peterson rolls more viable. Wrestling-based escapes become higher percentage in no-gi, while gi favors guard recovery techniques. Grip fighting in gi must address specific sleeve and collar controls, whereas no-gi focuses on body position and overhook/underhook battles.",
-      "difficulty": "Advanced"
+      "answer": "In gi, grips are more secure and harder to strip, making grip fighting more critical and static turtle more dangerous. Granby rolls and technical standups face more resistance due to collar and sleeve grips. No-gi allows more explosive escape attempts due to grip insecurity, making technical standups and Peterson rolls more viable. Wrestling-based escapes become higher percentage in no-gi, while gi favors guard recovery techniques. Grip fighting in gi must address specific sleeve and collar controls, whereas no-gi focuses on body position and overhook/underhook battles."
     },
     {
       "question": "How does turtle position function differently in modern sport BJJ compared to traditional self-defense contexts?",
-      "answer": "In sport BJJ, turtle has evolved into an active transitional position with offensive capabilities like granby rolls to guard, technical standups, and even turtle-based attacks. Competitors intentionally enter turtle as a strategic choice during scrambles or guard passing exchanges. In self-defense contexts, turtle is primarily a last-resort defensive posture to protect vital areas while working to escape, with emphasis on preventing strikes to the head and returning to standing or guard as quickly as possible. Sport BJJ allows more time to work from turtle, while self-defense demands immediate explosive escape due to striking vulnerabilities.",
-      "difficulty": "Advanced"
+      "answer": "In sport BJJ, turtle has evolved into an active transitional position with offensive capabilities like granby rolls to guard, technical standups, and even turtle-based attacks. Competitors intentionally enter turtle as a strategic choice during scrambles or guard passing exchanges. In self-defense contexts, turtle is primarily a last-resort defensive posture to protect vital areas while working to escape, with emphasis on preventing strikes to the head and returning to standing or guard as quickly as possible. Sport BJJ allows more time to work from turtle, while self-defense demands immediate explosive escape due to striking vulnerabilities."
     }
   ],
   "safety_considerations": "Turtle transitions involve dynamic movements and scrambles where both practitioners are moving explosively with compromised base and balance. Primary injury risks include neck strain from improper granby roll execution, shoulder injuries from posted arms being driven into, and knee stress from sudden weight changes during sit-through escapes. When drilling turtle escapes, start at reduced speed to develop proper mechanics before adding explosive power. Top players should avoid driving excessive weight onto bottom player's neck during front headlock positions and should release pressure if bottom player's base collapses unexpectedly. Bottom players must protect neck by keeping chin tucked and should tap immediately if caught in neck cranks or dangerous positions. During granby rolls, ensure adequate mat space exists behind you to complete the roll safely. Communicate with training partners about intensity levels and stop immediately if either person experiences joint pain or positional entrapment.",
@@ -320,5 +295,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

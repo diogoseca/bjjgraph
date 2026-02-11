@@ -23,7 +23,7 @@
       "relationship": "Primary entry position for Hindulotine setup"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Alternative finish when opponent creates near-side space"
     },
     {
@@ -140,7 +140,7 @@
         "actions": [
           {
             "technique": "Hindulotine to Darce Choke",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 65
           },
           {
@@ -210,7 +210,7 @@
         "relationship": "Parent position with standard mechanics"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Common transition when opponent defends"
       },
       {
@@ -236,19 +236,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80
+        "value": 70
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
+        "value": 65
       },
       "average_time": "15-40 seconds"
     },
@@ -417,7 +411,7 @@
         "actions": [
           {
             "technique": "Hindulotine to Darce Choke",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 60
           },
           {
@@ -491,7 +485,7 @@
         "relationship": "Alternative leg configuration for angle adjustments"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Transition option when opponent defends with frames"
       },
       {
@@ -509,19 +503,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
+        "value": 65
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "average_time": "20-45 seconds"
     },

@@ -157,7 +157,7 @@ Unlike standard inside ashi-garami heel hooks, the ushiro configuration presents
 Strategically, this submission capitalizes on opponents who have partially escaped standard leg entanglements through inversion but remain trapped in the reversed configuration. The window for finishing is often narrow—advanced defenders will continue their rotation toward turtle or counter-attack with their own leg entanglement if given time. Understanding the biomechanical differences between ushiro and standard ashi-garami heel hooks is essential for consistent finishing success.
 
 **From Position**: [[Ushiro Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this submission capitalizes on opponents who have partially escap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg entanglement**: Confirm your inside leg is deeply controlling opponent's thigh while your outside leg crosses over their knee line. Your hips should be close to their trapped leg with no space for them to extract. (Timing: Before attempting any grip work)
-2. **Control opponent's free leg**: Use your outside leg to actively press their free leg away from your center line. This prevents them from using it as a lever to complete rotation or enter counter-entanglement on your legs. (Timing: Simultaneously with step 1)
-3. **Establish heel grip**: Reach for their heel with both hands, positioning your grip closer to your own hip line than in standard heel hooks. Cup the heel with your bottom hand while your top hand controls the toes/foot for rotational leverage. (Timing: When heel becomes exposed during opponent's movement)
-4. **Trap heel against torso**: Pull opponent's heel tight against your chest or ribs, creating a fixed fulcrum point. Your forearms should clamp around their ankle with elbows squeezed together to prevent heel slippage during rotation. (Timing: Immediately after grip establishment)
-5. **Create rotational angle**: Angle your torso and shoulders away from the direction you want to rotate the heel. The reversed configuration requires rotating away from opponent rather than driving into them as with standard ashi variations. (Timing: Before applying breaking force)
-6. **Apply rotational force**: Rotate your entire upper body while maintaining the heel trapped against your torso. The rotation should come from your shoulders and hips moving as a unit, not from arm strength alone. The opponent's knee rotates against its natural range of motion. (Timing: Controlled, steady pressure until tap)
+1. **Secure leg entanglement**: Confirm your inside leg is deeply controlling opponent's thigh while your outside leg crosses over their knee line. Your hips should be close to their trapped leg with no space for them to extract.
+2. **Control opponent's free leg**: Use your outside leg to actively press their free leg away from your center line. This prevents them from using it as a lever to complete rotation or enter counter-entanglement on your legs.
+3. **Establish heel grip**: Reach for their heel with both hands, positioning your grip closer to your own hip line than in standard heel hooks. Cup the heel with your bottom hand while your top hand controls the toes/foot for rotational leverage.
+4. **Trap heel against torso**: Pull opponent's heel tight against your chest or ribs, creating a fixed fulcrum point. Your forearms should clamp around their ankle with elbows squeezed together to prevent heel slippage during rotation.
+5. **Create rotational angle**: Angle your torso and shoulders away from the direction you want to rotate the heel. The reversed configuration requires rotating away from opponent rather than driving into them as with standard ashi variations.
+6. **Apply rotational force**: Rotate your entire upper body while maintaining the heel trapped against your torso. The rotation should come from your shoulders and hips moving as a unit, not from arm strength alone. The opponent's knee rotates against its natural range of motion.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this submission capitalizes on opponents who have partially escap
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the adjusted grip positioning specific to ushiro configuration without partner resistance. Focus on understanding how the reversed position changes optimal hand placement and the direction of rotational force. Drill the heel trap against your torso repeatedly.
-(Resistance: None)
 
 **Week 3-4** - Position maintenance
 Work with a partner who provides light resistance to escape. Focus on maintaining ushiro position while establishing the heel hook grip. Partner should attempt slow escapes to turtle so you learn to balance finishing attempts with position retention.
-(Resistance: Light)
 
 **Week 5-6** - Timing and transitions
 Partner provides medium resistance including hand fighting and escape attempts. Practice recognizing when to finish versus when to transition to saddle or follow to back control. Develop sensitivity for the optimal finishing window.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from ushiro ashi-garami. Partner attempts all realistic escapes and counter-attacks. Focus on completing the finish under competition conditions while managing energy and adapting to opponent's defensive reactions.
-(Resistance: Full)
 
 
 

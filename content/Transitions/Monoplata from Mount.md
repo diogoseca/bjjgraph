@@ -157,7 +157,7 @@ This technique exploits a common defensive posture where the bottom player tucks
 Strategically, the monoplata serves as an excellent secondary attack when opponents successfully defend traditional mount submissions. The setup can be disguised within armbar or americana attempts, creating a multi-threat attack sequence that overwhelms defensive focus. Elite practitioners use this technique to punish defensive postures that would otherwise stall submission progress from mount, transforming the opponent's defensive success into a new vulnerability.
 
 **From Position**: [[High Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the monoplata serves as an excellent secondary attack when oppone
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate target arm**: From high mount, identify the arm that is tucked defensively against the opponent's body. Use your same-side hand to control their wrist, pinning it to their chest or hip while maintaining forward pressure with your chest. (Timing: When opponent tucks elbow to defend americana or armbar)
-2. **Establish head control**: Place your opposite arm behind the opponent's head in a cross-face position, pulling their face toward the trapped arm side. This eliminates their ability to turn away and create defensive angles while maintaining your base. (Timing: Immediately after securing wrist control)
-3. **Create hip angle**: Shift your hips toward the trapped arm side, creating approximately a 45-degree angle to your opponent's body. This positioning allows your leg to clear their shoulder without losing mount control or base stability. (Timing: Smoothly transition as you maintain arm and head control)
-4. **Thread leg over shoulder**: Lift your leg on the trapped arm side and thread it over the opponent's shoulder, hooking your instep behind their neck or upper back. Your thigh should press against the back of their trapped arm near the tricep. (Timing: Execute when hip angle is established and arm is secured)
-5. **Secure figure-four leg position**: Cross your opposite leg over the ankle of your hooked leg, creating a figure-four configuration. This locks the submission structure in place and prevents the opponent from pulling their arm free through the leg opening. (Timing: Immediately after threading the first leg)
-6. **Apply rotational pressure**: Rotate your hips away from the opponent while simultaneously pulling your legs toward your chest. This action hyperrotates the opponent's shoulder internally, creating intense pressure on the glenohumeral joint until they tap. (Timing: Apply gradually to allow tap, increase pressure if no submission)
+1. **Isolate target arm**: From high mount, identify the arm that is tucked defensively against the opponent's body. Use your same-side hand to control their wrist, pinning it to their chest or hip while maintaining forward pressure with your chest.
+2. **Establish head control**: Place your opposite arm behind the opponent's head in a cross-face position, pulling their face toward the trapped arm side. This eliminates their ability to turn away and create defensive angles while maintaining your base.
+3. **Create hip angle**: Shift your hips toward the trapped arm side, creating approximately a 45-degree angle to your opponent's body. This positioning allows your leg to clear their shoulder without losing mount control or base stability.
+4. **Thread leg over shoulder**: Lift your leg on the trapped arm side and thread it over the opponent's shoulder, hooking your instep behind their neck or upper back. Your thigh should press against the back of their trapped arm near the tricep.
+5. **Secure figure-four leg position**: Cross your opposite leg over the ankle of your hooked leg, creating a figure-four configuration. This locks the submission structure in place and prevents the opponent from pulling their arm free through the leg opening.
+6. **Apply rotational pressure**: Rotate your hips away from the opponent while simultaneously pulling your legs toward your chest. This action hyperrotates the opponent's shoulder internally, creating intense pressure on the glenohumeral joint until they tap.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, the monoplata serves as an excellent secondary attack when oppone
 ## Training Progressions
 **Week 1-2** - Leg threading mechanics
 Practice the leg threading motion from high mount with a compliant partner. Focus on maintaining mount control while developing hip mobility to clear the shoulder smoothly. Drill the figure-four leg configuration repeatedly until it becomes automatic.
-(Resistance: None)
 
 **Week 3-4** - Setup recognition and arm isolation
 Work on identifying when opponents tuck their arms defensively. Practice transitioning from americana or armbar attempts into monoplata setup when the arm is bent. Develop sensitivity to the defensive posture that opens this attack.
-(Resistance: Light)
 
 **Week 5-6** - Combination attacks and counters
 Chain the monoplata with traditional mount attacks. Practice flowing from armbar to monoplata when arm bends, and from monoplata back to armbar when arm straightens. Drill responses to common counters including bridging and arm extension.
-(Resistance: Medium)
 
 **Week 7+** - Live application and finishing
 Implement the technique in positional sparring from mount. Focus on completing the submission against resisting opponents while maintaining position when the attempt fails. Refine timing and pressure application through repetition.
-(Resistance: Full)
 
 
 

@@ -288,21 +288,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Success rate maintaining top position without being swept from lapel guard"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Likelihood of successfully passing guard against established lapel configuration"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Probability of completing pass and achieving submission after clearing lapel guard"
       },
       "average_time": "3-5 minutes to successfully pass established lapel guard in competition"
@@ -576,21 +570,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Success rate maintaining guard against passing attempts once lapel configuration established"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Likelihood of achieving sweep or back take from established lapel guard"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Probability of finishing submission directly from lapel guard position"
       },
       "average_time": "2-4 minutes in competition exchanges with experienced practitioners"

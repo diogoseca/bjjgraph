@@ -21,7 +21,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata",
-      "text": "From this position, attempt Omoplata. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
@@ -39,7 +39,7 @@ description: "Master Omoplata Control Top in BJJ. Dominant shoulder lock control
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
@@ -207,13 +207,13 @@ Omoplata Control Top represents a dominant shoulder lock position where the top 
 
 ## Available Attacks
 
-### [[Omoplata]] (18% of attempts)
+### [[Omoplata]] (19% of attempts)
 
 ### [[Omoplata to Back]] (19% of attempts)
 
 ### [[Omoplata Sweep]] (17% of attempts)
 
-### [[Triangle Setup]] (15% of attempts)
+### [[Triangle Setup]] (14% of attempts)
 
 ### [[Armbar from Guard]] (17% of attempts)
 
@@ -363,11 +363,11 @@ Partner in omoplata control position attempts forward roll escape. Practice timi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 35% |
-| Intermediate | 65% | 60% | 55% |
-| Advanced     | 78% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 62% |
 
 **Average Time in Position**: 45-90 seconds
 

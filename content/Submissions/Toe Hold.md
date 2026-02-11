@@ -167,7 +167,8 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 **Type**: Leg Lock
 **Target Area**: Ankle, toes, and foot ligaments
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**From Position**: [[Toe Hold Control]] (Top)
+**Success Rate**: 60%
 
 </section>
 
@@ -248,13 +249,13 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish heel control**: From your leg entanglement position, use both hands to grip the opponent's heel firmly. Pull the heel tight against your chest or shoulder, creating a secure anchor point. The heel should be trapped between your forearm and torso, making it impossible for the opponent to pull their foot away. This is your primary control and must be established before proceeding. (Timing: 2-3 seconds to secure firmly) [Pressure: Firm]
-2. **Transition to toe grip**: Maintaining heel control with one arm, reach your other hand across your body to grip the opponent's toes and ball of the foot. Your grip should encompass all the toes - use a cupping grip with your palm on the ball of the foot and fingers wrapping around the toes. Never grip individual toes as this can cause fractures. The blade of your forearm should now run along the bottom of their foot. (Timing: 1-2 seconds for grip transition) [Pressure: Light]
-3. **Adjust your torso angle**: Lean slightly back and angle your upper body so that the opponent's heel is pinned securely against your shoulder or upper chest. This creates the fulcrum point for the submission. Your body angle should be approximately 45 degrees from vertical. The heel must stay completely immobile against this point - any movement here compromises the submission. (Timing: 1 second to adjust position) [Pressure: Moderate]
-4. **Begin internal rotation**: With your toe grip secure, start rotating the foot inward (toward the opponent's centerline) very slowly and progressively. This internal rotation is what creates the primary stress on the ankle ligaments. The rotation should be smooth and continuous, not jerky or sudden. You should feel resistance building as the ankle reaches its natural range of motion. IN TRAINING, this is where you stop and wait for the tap. (Timing: 3-5 seconds of progressive rotation) [Pressure: Moderate]
-5. **Add extension component**: While maintaining the rotational pressure, begin to extend the ankle by pulling the toes back toward the opponent's shin. This is done by pulling with your toe grip while the heel remains pinned. The combination of rotation and extension attacks multiple structures simultaneously. This should be added gradually, not explosively. Your elbows should stay tight to your body for maximum control. (Timing: 2-3 seconds of gradual extension) [Pressure: Firm]
-6. **Final pressure adjustment**: If the tap has not occurred, make a final small adjustment by slightly falling back (this increases extension) while maintaining the rotational torque. Your legs should be actively controlling the opponent's leg and hip to prevent escapes. The pressure should be distributed across the entire ankle and foot complex. At this point, the submission should be complete. IN TRAINING, never reach this point - tap should occur during steps 4-5. (Timing: 1-2 seconds maximum) [Pressure: Maximum]
-7. **Immediate release on tap**: The instant you feel or hear the tap, release the rotational pressure completely and let the toe grip go. Maintain gentle heel control briefly to support the foot as it returns to neutral position, then release completely. Ask your partner if they are okay before continuing. This immediate release is critical to preventing injury. (Timing: Immediate - less than 1 second) [Pressure: Light]
+1. **Establish heel control**: From your leg entanglement position, use both hands to grip the opponent's heel firmly. Pull the heel tight against your chest or shoulder, creating a secure anchor point. The heel should be trapped between your forearm and torso, making it impossible for the opponent to pull their foot away. This is your primary control and must be established before proceeding. (Timing: 2-3 seconds to secure firmly)
+2. **Transition to toe grip**: Maintaining heel control with one arm, reach your other hand across your body to grip the opponent's toes and ball of the foot. Your grip should encompass all the toes - use a cupping grip with your palm on the ball of the foot and fingers wrapping around the toes. Never grip individual toes as this can cause fractures. The blade of your forearm should now run along the bottom of their foot. (Timing: 1-2 seconds for grip transition)
+3. **Adjust your torso angle**: Lean slightly back and angle your upper body so that the opponent's heel is pinned securely against your shoulder or upper chest. This creates the fulcrum point for the submission. Your body angle should be approximately 45 degrees from vertical. The heel must stay completely immobile against this point - any movement here compromises the submission. (Timing: 1 second to adjust position)
+4. **Begin internal rotation**: With your toe grip secure, start rotating the foot inward (toward the opponent's centerline) very slowly and progressively. This internal rotation is what creates the primary stress on the ankle ligaments. The rotation should be smooth and continuous, not jerky or sudden. You should feel resistance building as the ankle reaches its natural range of motion. IN TRAINING, this is where you stop and wait for the tap. (Timing: 3-5 seconds of progressive rotation)
+5. **Add extension component**: While maintaining the rotational pressure, begin to extend the ankle by pulling the toes back toward the opponent's shin. This is done by pulling with your toe grip while the heel remains pinned. The combination of rotation and extension attacks multiple structures simultaneously. This should be added gradually, not explosively. Your elbows should stay tight to your body for maximum control. (Timing: 2-3 seconds of gradual extension)
+6. **Final pressure adjustment**: If the tap has not occurred, make a final small adjustment by slightly falling back (this increases extension) while maintaining the rotational torque. Your legs should be actively controlling the opponent's leg and hip to prevent escapes. The pressure should be distributed across the entire ankle and foot complex. At this point, the submission should be complete. IN TRAINING, never reach this point - tap should occur during steps 4-5. (Timing: 1-2 seconds maximum)
+7. **Immediate release on tap**: The instant you feel or hear the tap, release the rotational pressure completely and let the toe grip go. Maintain gentle heel control briefly to support the foot as it returns to neutral position, then release completely. Ask your partner if they are okay before continuing. This immediate release is critical to preventing injury. (Timing: Immediate - less than 1 second)
 
 
 </section>
@@ -274,13 +275,13 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Gripping individual toes instead of the entire forefoot [CRITICAL DANGER]
+- **Mistake**: Gripping individual toes instead of the entire forefoot
   - **Consequence**: High risk of breaking toes, loss of rotational control, ineffective submission
   - **Correction**: Always use a cupping grip that encompasses all toes and the ball of the foot. Your palm should be on the ball of the foot with fingers wrapping around from the inside.
 - **Mistake**: Attempting the submission before heel control is fully established
   - **Consequence**: Opponent escapes easily by pulling foot away, you lose the position entirely
   - **Correction**: Heel control is non-negotiable. The heel must be locked against your torso before you even think about gripping the toes. Test your heel control by pulling - if the heel moves at all, it's not secure enough.
-- **Mistake**: Applying rotation too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying rotation too quickly or explosively
   - **Consequence**: Severe ankle ligament damage, toe fractures, broken training partnerships
   - **Correction**: Rotation must be smooth, progressive, and take a minimum of 3-5 seconds. In training, apply even slower. Speed is only acceptable in competition and even then must be controlled.
 - **Mistake**: Neglecting to control opponent's knee position
@@ -292,7 +293,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 - **Mistake**: Poor hip position allowing opponent to come up on top
   - **Consequence**: Complete position reversal, potential injury to yourself if they sit up explosively
   - **Correction**: Your hips must stay active and mobile. If they start to come up, immediately scoot your hips away while maintaining leg control. Keep them flat on their back.
-- **Mistake**: Releasing pressure gradually after the tap [CRITICAL DANGER]
+- **Mistake**: Releasing pressure gradually after the tap
   - **Consequence**: Unnecessary injury risk, damage to training partner's trust
   - **Correction**: Release must be immediate and complete the instant you recognize the tap. There is zero benefit to maintaining pressure after tap and significant injury risk.
 - **Mistake**: Attempting from positions without proper leg entanglement
@@ -362,43 +363,6 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper grips, heel control mechanics, and fulcrum principles. Understand injury risks and safety protocols. Practice positioning without any pressure application. Study ankle anatomy and understand what structures are being stressed.
-- Resistance: None
-- Safety: Focus exclusively on grip mechanics and body positioning. No actual submission pressure should be applied. Partner remains completely passive. Emphasis on understanding why safety protocols exist and what injuries can occur.
-
-**Slow Controlled Practice** (Week 3-4)
-- Focus: Practice the complete sequence from position establishment through submission setup with cooperative partner. Apply very light rotational pressure (20-30% maximum) and immediately release. Partner gives verbal feedback on pressure levels and body positioning.
-- Resistance: Zero resistance
-- Safety: All rotational pressure must take 7-10 seconds minimum. Partner taps early at first sign of pressure. Practice immediate release on tap. Focus on smooth, progressive pressure application. No sudden movements whatsoever.
-
-**Progressive Pressure Development** (Week 5-8)
-- Focus: Gradually increase pressure levels to 50-60% while maintaining slow application speed (5-7 seconds minimum). Begin working the submission from different leg entanglement positions. Partner provides feedback on pressure progression and timing.
-- Resistance: Mild resistance
-- Safety: Maintain strict application time minimums. Partner still taps early, before real discomfort. Practice releasing immediately at tap. Begin recognizing proper body positioning that allows control without excessive pressure. Focus on efficiency over force.
-
-**Positional Integration** (Week 9-12)
-- Focus: Work the Toe Hold as part of a complete leg attack system, transitioning between different leg locks and positions. Begin chaining Toe Hold with heel hooks and ankle locks. Pressure can increase to 70% but application speed remains slow and controlled.
-- Resistance: Realistic resistance
-- Safety: Partner gives realistic resistance to test position but still taps early. Never exceed 70% pressure in training. Continue practicing immediate releases. Begin developing feel for when submission is locked and tap is imminent.
-
-**Live Training Application** (Week 13+)
-- Focus: Apply Toe Hold during live positional sparring from leg entanglements. Work against fully resisting opponents who are protecting their legs. Application speed can decrease slightly (3-5 seconds) but safety remains paramount. Maximum pressure only when certain of control.
-- Resistance: Full resistance
-- Safety: Even in live training, never snap on submissions. Partner must always have opportunity to tap. Apply progressively even when opponent is resisting. Release immediately at tap. Communicate about pressure levels afterward. Maintain training partner safety above finishing submissions.
-
-**Ongoing Mastery and Safety Culture** (Ongoing)
-- Focus: Continue refining technique for maximum efficiency with minimum force. Develop ability to control position so completely that submission application can be slow and controlled even against elite resistance. Mentor newer students on safety protocols. Study competition footage to see high-level applications.
-- Resistance: Full resistance
-- Safety: Model perfect safety behavior for all students. Never allow ego to override safety. Tap early when caught yourself. Apply submissions slowly even when you could finish quickly. Maintain culture of safety and mutual respect. Remember that training partners enable your growth - protect them accordingly.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -411,6 +375,7 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 - [[Cross Ashi-Garami]]
 - [[Single Leg X-Guard]]
 - [[Headquarters Position]]
+- [[Toe Hold Control]]
 
 
 </section>
@@ -453,6 +418,20 @@ What makes the Toe Hold particularly dangerous and effective is the speed at whi
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 48% |
+| Failure | [[Toe Hold Control]] | 52% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

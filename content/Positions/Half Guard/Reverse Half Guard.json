@@ -244,7 +244,7 @@
         "relationship": "Primary passing completion target when opponent flattens defensively"
       },
       {
-        "name": "Leg Drag Position",
+        "name": "Leg Drag Control",
         "relationship": "Common passing variation from reverse half guard"
       },
       {
@@ -262,19 +262,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "10-20 seconds"
     },
@@ -541,19 +535,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "15-30 seconds (transitional position)"
     },

@@ -157,7 +157,7 @@ The technique exploits a fundamental vulnerability in the Aoki Lock: the attacke
 This escape is essential for any practitioner facing advanced no-gi competitors who utilize leg entanglement shoulder locks. The turtle destination, while not ideal, represents a significant improvement from the submission danger of Aoki Lock bottom. From turtle, you have multiple recovery options including guard pull, stand-up, and rolling back attacks. Understanding proper execution prevents the catastrophic shoulder injuries that can result from defending this position incorrectly.
 
 **From Position**: [[Aoki Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This escape is essential for any practitioner facing advanced no-gi competitors 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess pressure level**: Immediately evaluate the shoulder pressure and leg entanglement tightness. If pressure is approaching dangerous levels, tap rather than attempt extraction. Confirm your shoulder is internally rotated to resist external rotation stress from opponent's hip drive. (Timing: Within first 2-3 seconds of position establishment)
-2. **Attack posted leg**: Use your free hand to grip behind opponent's posted knee or attack their ankle. Push or pull their posted leg to destabilize their base and reduce the hip pressure they can generate. This creates the first opening in their control system. (Timing: Immediately after position assessment)
-3. **Create hip angle**: Drive your hips away from opponent while maintaining shoulder internal rotation. This angular movement loosens the leg entanglement around your arm without fighting directly against the grip. Think of sliding your shoulder out of the leg triangle rather than pulling. (Timing: Coordinate with base attack in step 2)
-4. **Extract elbow first**: As the leg entanglement loosens, begin extracting your elbow by sliding it toward your hip. Keep your arm close to your body throughout extraction. Do not extend your arm outward as this creates leverage for opponent to re-establish control. (Timing: When leg pressure noticeably decreases)
-5. **Complete arm extraction**: Continue sliding your arm free while simultaneously beginning to turtle. Pull your extracted arm tight to your chest and begin posting on your knees and opposite hand. Your shoulder should clear opponent's leg control completely before committing to turtle. (Timing: Continuous motion from step 4)
-6. **Establish turtle position**: Complete the transition to turtle by posting on both knees with elbows tight to your body, chin tucked, and hips low. Immediately begin addressing opponent's potential back control attacks by protecting your neck and preparing for guard recovery or stand-up sequence. (Timing: Immediately upon arm clearing)
+1. **Assess pressure level**: Immediately evaluate the shoulder pressure and leg entanglement tightness. If pressure is approaching dangerous levels, tap rather than attempt extraction. Confirm your shoulder is internally rotated to resist external rotation stress from opponent's hip drive.
+2. **Attack posted leg**: Use your free hand to grip behind opponent's posted knee or attack their ankle. Push or pull their posted leg to destabilize their base and reduce the hip pressure they can generate. This creates the first opening in their control system.
+3. **Create hip angle**: Drive your hips away from opponent while maintaining shoulder internal rotation. This angular movement loosens the leg entanglement around your arm without fighting directly against the grip. Think of sliding your shoulder out of the leg triangle rather than pulling.
+4. **Extract elbow first**: As the leg entanglement loosens, begin extracting your elbow by sliding it toward your hip. Keep your arm close to your body throughout extraction. Do not extend your arm outward as this creates leverage for opponent to re-establish control.
+5. **Complete arm extraction**: Continue sliding your arm free while simultaneously beginning to turtle. Pull your extracted arm tight to your chest and begin posting on your knees and opposite hand. Your shoulder should clear opponent's leg control completely before committing to turtle.
+6. **Establish turtle position**: Complete the transition to turtle by posting on both knees with elbows tight to your body, chin tucked, and hips low. Immediately begin addressing opponent's potential back control attacks by protecting your neck and preparing for guard recovery or stand-up sequence.
 
 
 </section>
@@ -256,19 +256,15 @@ This escape is essential for any practitioner facing advanced no-gi competitors 
 ## Training Progressions
 **Week 1-2** - Extraction mechanics
 Partner establishes loose Aoki Lock control with minimal pressure. Practice hip angle creation, base attacks, and arm extraction pathway. Focus on keeping arm tight to body and maintaining shoulder internal rotation. No resistance on extraction.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies 30-40% pressure and makes periodic adjustments. Practice recognizing extraction windows when leg entanglement loosens. Develop sensitivity to opponent's pressure changes. Begin chaining extraction with turtle establishment.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner applies 50-60% pressure and actively attempts to prevent extraction through leg tightening and pressure increases. Practice aborting failed attempts and resetting. Develop ability to chain multiple extraction attempts with base attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring starting from Aoki Lock bottom. Partner works to finish submission while you work to extract. Integrate with full turtle recovery and subsequent guard pull or stand-up. Emphasis on safety and tap recognition.
-(Resistance: Full)
 
 
 

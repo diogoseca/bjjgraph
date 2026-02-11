@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The S-Mount Transition represents a critical positional advancement from Modified Mount that positions the attacker for high-percentage armbar finishes. This technique involves sliding the posted leg underneath the opponent's far shoulder while the other leg swings over their head, creating the distinctive S-shaped body configuration that gives the position its name. The transition capitalizes on the natural armbar-focused structure of Modified Mount, taking it to its logical conclusion by fully committing the hips perpendicular to the opponent's body axis. S-Mount provides superior control for arm isolation compared to Modified Mount because both legs now actively contribute to pinning the opponent rather than one leg posting for stability. The position creates tremendous pressure on the opponent's ribcage and shoulder line, making defensive movements extremely difficult while the attacker maintains dominant hip position for armbar execution. Strategic timing involves transitioning to S-Mount when the opponent's near-side arm becomes isolated or when they attempt to turn away, as both reactions facilitate the leg-over-head movement. The transition requires committing fully to the armbar position, meaning escape to Modified Mount or standard mount becomes the fallback if the opponent defends successfully. Understanding S-Mount Transition as a commitment point rather than a reversible movement is essential for proper tactical deployment.",
   "key_principles": [
     "Hip perpendicularity - Rotate hips 90 degrees to opponent's body axis for optimal armbar mechanics",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Secure arm control",
-      "description": "Grip the opponent's near-side wrist with your far hand and their elbow or tricep with your near hand, pinning the arm diagonally across their chest toward your hip.",
-      "timing": "Before any leg movement begins"
+      "description": "Grip the opponent's near-side wrist with your far hand and their elbow or tricep with your near hand, pinning the arm diagonally across their chest toward your hip."
     },
     {
       "step_number": 2,
       "action": "Shift weight forward",
-      "description": "Transfer your weight onto your hands and the opponent's chest, loading pressure forward to prevent any bridging attempt during the transition phase.",
-      "timing": "Immediately after securing arm"
+      "description": "Transfer your weight onto your hands and the opponent's chest, loading pressure forward to prevent any bridging attempt during the transition phase."
     },
     {
       "step_number": 3,
       "action": "Slide posted leg under shoulder",
-      "description": "Your posted leg slides underneath the opponent's far shoulder, knee driving toward the mat on the opposite side of their head while maintaining constant chest pressure.",
-      "timing": "Smooth continuous motion"
+      "description": "Your posted leg slides underneath the opponent's far shoulder, knee driving toward the mat on the opposite side of their head while maintaining constant chest pressure."
     },
     {
       "step_number": 4,
       "action": "Swing top leg over head",
-      "description": "As the bottom leg establishes position, swing your top leg over the opponent's face and head, bringing your calf across their neck and face to complete the S configuration.",
-      "timing": "Immediately following step 3"
+      "description": "As the bottom leg establishes position, swing your top leg over the opponent's face and head, bringing your calf across their neck and face to complete the S configuration."
     },
     {
       "step_number": 5,
       "action": "Pinch knees together",
-      "description": "Squeeze both knees tightly together, trapping the opponent's shoulder between your thighs and their head between your leg and hip, eliminating escape space.",
-      "timing": "As legs complete positioning"
+      "description": "Squeeze both knees tightly together, trapping the opponent's shoulder between your thighs and their head between your leg and hip, eliminating escape space."
     },
     {
       "step_number": 6,
       "action": "Secure hip position",
-      "description": "Settle your hips perpendicular to the opponent's body axis, keeping them heavy on their ribcage while maintaining the arm grip to prevent any guard recovery attempts.",
-      "timing": "Final stabilization"
+      "description": "Settle your hips perpendicular to the opponent's body axis, keeping them heavy on their ribcage while maintaining the arm grip to prevent any guard recovery attempts."
     }
   ],
   "common_counters": [
@@ -146,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamental mechanics",
-      "description": "Practice the leg positioning sequence slowly with a compliant partner. Focus on proper sequencing: arm control, weight shift, bottom leg slide, top leg swing. Drill 20+ repetitions per side until movement becomes fluid.",
-      "resistance_level": "None"
+      "description": "Practice the leg positioning sequence slowly with a compliant partner. Focus on proper sequencing: arm control, weight shift, bottom leg slide, top leg swing. Drill 20+ repetitions per side until movement becomes fluid."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and recognition",
-      "description": "Partner gives varied defensive reactions from Modified Mount. Practice recognizing the optimal moment to initiate S-Mount Transition versus when to stay in Modified Mount. Develop sensitivity to opponent's arm position and weight distribution.",
-      "resistance_level": "Light"
+      "description": "Partner gives varied defensive reactions from Modified Mount. Practice recognizing the optimal moment to initiate S-Mount Transition versus when to stay in Modified Mount. Develop sensitivity to opponent's arm position and weight distribution."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations and counters",
-      "description": "Chain S-Mount Transition with armbar finishes. Practice counter-responses when opponent defends. Develop the fallback to Modified Mount or technical mount when S-Mount is blocked. Include mounted triangle as alternative when arm escapes.",
-      "resistance_level": "Medium"
+      "description": "Chain S-Mount Transition with armbar finishes. Practice counter-responses when opponent defends. Develop the fallback to Modified Mount or technical mount when S-Mount is blocked. Include mounted triangle as alternative when arm escapes."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Integrate S-Mount Transition into rolling starting from mount position. Track success rate and identify common failure points. Refine timing based on live resistance feedback. Test against varying body types and skill levels.",
-      "resistance_level": "Full"
+      "description": "Integrate S-Mount Transition into rolling starting from mount position. Track success rate and identify common failure points. Refine timing based on live resistance feedback. Test against varying body types and skill levels."
     }
   ],
   "variants_and_adaptations": [
@@ -188,53 +173,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of S-Mount Transition?",
-      "answer": "The primary goal is to advance from Modified Mount to S-Mount position, which provides superior arm isolation and hip positioning for high-percentage armbar finishes. S-Mount offers more control than Modified Mount because both legs actively contribute to pinning the opponent rather than one leg posting for stability.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to advance from Modified Mount to S-Mount position, which provides superior arm isolation and hip positioning for high-percentage armbar finishes. S-Mount offers more control than Modified Mount because both legs actively contribute to pinning the opponent rather than one leg posting for stability."
     },
     {
       "question": "What position do you start S-Mount Transition from?",
-      "answer": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Modified Mount Top, where you have one leg posted to the side for stability and your other knee crosses the opponent's torso. The posted leg configuration naturally facilitates the S-Mount entry by already having one leg partially positioned for the transition."
     },
     {
       "question": "What are the key grips needed for S-Mount Transition?",
-      "answer": "You need to secure wrist control with your far hand and elbow or tricep control with your near hand on the target arm. In gi, you can also grip the sleeve. These grips must be established before initiating any leg movement to prevent the opponent from framing or recovering guard during the transition.",
-      "difficulty": "Intermediate"
+      "answer": "You need to secure wrist control with your far hand and elbow or tricep control with your near hand on the target arm. In gi, you can also grip the sleeve. These grips must be established before initiating any leg movement to prevent the opponent from framing or recovering guard during the transition."
     },
     {
       "question": "Your opponent posts their free hand on your hip as you begin transitioning - how do you respond?",
-      "answer": "Strip the posting hand by using your near-side hand to peel it off your hip, or accept the post and use it offensively by transitioning the defending arm into a kimura grip. The posting arm is now extended and vulnerable. You can also increase forward pressure to make their post ineffective before continuing the transition.",
-      "difficulty": "Intermediate"
+      "answer": "Strip the posting hand by using your near-side hand to peel it off your hip, or accept the post and use it offensively by transitioning the defending arm into a kimura grip. The posting arm is now extended and vulnerable. You can also increase forward pressure to make their post ineffective before continuing the transition."
     },
     {
       "question": "When is the best time to attempt S-Mount Transition?",
-      "answer": "The best timing is when the opponent's near-side arm becomes isolated (extended to push or frame), when they attempt to turn away exposing their shoulder line, or when they've stopped actively defending and you have secure arm control. Avoid attempting when they have strong frames on your hips or are actively bridging.",
-      "difficulty": "Intermediate"
+      "answer": "The best timing is when the opponent's near-side arm becomes isolated (extended to push or frame), when they attempt to turn away exposing their shoulder line, or when they've stopped actively defending and you have secure arm control. Avoid attempting when they have strong frames on your hips or are actively bridging."
     },
     {
       "question": "Why must the posted leg slide under the shoulder before the top leg swings over?",
-      "answer": "The posted leg sliding first creates the base that supports the transition and begins trapping the opponent's shoulder. If you swing the top leg first without the base leg positioned, you create space for the opponent to turn into you or recover guard. The proper sequence ensures continuous control throughout the movement.",
-      "difficulty": "Intermediate"
+      "answer": "The posted leg sliding first creates the base that supports the transition and begins trapping the opponent's shoulder. If you swing the top leg first without the base leg positioned, you create space for the opponent to turn into you or recover guard. The proper sequence ensures continuous control throughout the movement."
     },
     {
       "question": "What should you do if your opponent bridges explosively as your leg is swinging over their head?",
-      "answer": "Keep your head low toward their hip and weight forward on your hands to absorb the bridge. If the bridge succeeds in moving you, roll through in the direction of the bridge while maintaining arm control - you can often finish the armbar from your back or side position. The key is never releasing the arm grip during the bridge.",
-      "difficulty": "Advanced"
+      "answer": "Keep your head low toward their hip and weight forward on your hands to absorb the bridge. If the bridge succeeds in moving you, roll through in the direction of the bridge while maintaining arm control - you can often finish the armbar from your back or side position. The key is never releasing the arm grip during the bridge."
     },
     {
       "question": "How do you counter an opponent who turns toward you during the S-Mount Transition?",
-      "answer": "Abort the S-Mount attempt and capitalize on their turning motion by transitioning to technical mount or pursuing back control. When they turn toward you, they expose their back and create the hook insertion angle. This is actually a favorable defensive reaction to exploit rather than fight against.",
-      "difficulty": "Advanced"
+      "answer": "Abort the S-Mount attempt and capitalize on their turning motion by transitioning to technical mount or pursuing back control. When they turn toward you, they expose their back and create the hook insertion angle. This is actually a favorable defensive reaction to exploit rather than fight against."
     },
     {
       "question": "What are the consequences of hesitating midway through the S-Mount Transition?",
-      "answer": "Hesitating creates a vulnerable position with your legs split and minimal control over the opponent. You lose the benefits of both Modified Mount (stability) and S-Mount (arm isolation). The opponent can capitalize by turning, bridging, or framing effectively. Once initiated, commit fully to completing the transition or return cleanly to Modified Mount.",
-      "difficulty": "Advanced"
+      "answer": "Hesitating creates a vulnerable position with your legs split and minimal control over the opponent. You lose the benefits of both Modified Mount (stability) and S-Mount (arm isolation). The opponent can capitalize by turning, bridging, or framing effectively. Once initiated, commit fully to completing the transition or return cleanly to Modified Mount."
     },
     {
       "question": "How does the S-Mount Transition differ in no-gi compared to gi?",
-      "answer": "In no-gi, you must rely on a two-on-one wrist grip rather than sleeve control, which provides less security. Compensate by increasing chest pressure and completing the transition faster before the grip can slip. The lack of friction also means you may need tighter knee pinching once S-Mount is established to prevent the opponent from slipping out.",
-      "difficulty": "Advanced"
+      "answer": "In no-gi, you must rely on a two-on-one wrist grip rather than sleeve control, which provides less security. Compensate by increasing chest pressure and completing the transition faster before the grip can slip. The lack of friction also means you may need tighter knee pinching once S-Mount is established to prevent the opponent from slipping out."
     }
   ],
   "safety_considerations": "The S-Mount Transition itself carries minimal injury risk as it is a positional movement rather than a joint attack. However, be aware that completing this transition sets up immediate armbar threats, so training partners should be prepared to tap quickly once S-Mount is established. During drilling, perform the transition at controlled speed to avoid accidentally kneeing your partner in the face during the leg swing. When receiving this technique, avoid explosive escapes that could result in your arm being hyperextended if the attacker maintains grip during your escape attempt. Ensure adequate mat space as the transition can cause both practitioners to move significantly. Practitioners with neck issues should communicate before drilling, as the leg over the head can create pressure on the cervical spine.",
@@ -280,5 +255,6 @@
       "name": "Armbar Finish",
       "relationship": "Primary finishing technique from S-Mount"
     }
-  ]
+  ],
+  "success_rate": 58
 }

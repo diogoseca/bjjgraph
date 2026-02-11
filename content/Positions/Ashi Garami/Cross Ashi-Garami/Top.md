@@ -375,11 +375,11 @@ Practice transitioning from Cross Ashi-Garami Top to other leg entanglement posi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 30% |
-| Intermediate | 65% | 55% | 50% |
-| Advanced     | 80% | 70% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 62% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: 30-90 seconds before submission or transition
 

@@ -163,7 +163,7 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 **Type**: Blood Choke
 **Target Area**: Carotid arteries
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -237,13 +237,13 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure dominant side control position**: Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts. (Timing: Take 5-10 seconds to establish solid control before proceeding) [Pressure: Firm]
-2. **Feed lapel behind opponent's neck**: Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle. (Timing: 3-5 seconds for lapel placement) [Pressure: Moderate]
-3. **Secure lapel grip on opposite side**: Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control. (Timing: 2-3 seconds to establish secure grip) [Pressure: Moderate]
-4. **Consolidate position and remove slack**: Before applying finishing pressure, ensure your body position is optimized. Your chest should remain heavy on opponent's torso, your hips should be positioned to prevent them from turning, and both hands should have secure grips on the lapel. Slowly remove any slack in the lapel material by pulling your grips in opposite directions. The lapel should now form a tight band across the side of opponent's neck. (Timing: 2-4 seconds to remove slack) [Pressure: Moderate]
-5. **Apply rotational choking pressure**: The finish comes from rotating your wrists and forearms in opposite directions while maintaining downward pressure with your shoulder into opponent's jaw. The hand holding your lapel (or their collar) rotates palm-up, while the other hand pulls the threaded lapel tight. Simultaneously, drive your shoulder into the side of their jaw, which both creates additional choking pressure and prevents them from turning their head. The combination of lapel tightness and shoulder pressure compresses the carotid artery. (Timing: Apply pressure slowly over 3-5 seconds in training) [Pressure: Firm]
-6. **Adjust angle if needed and maintain until tap**: If opponent attempts to defend by tucking their chin or creating frames, make micro-adjustments to your shoulder angle and lapel positioning. Small changes in your body angle can dramatically increase effectiveness. Once proper compression is achieved, maintain consistent pressure until tap. Never increase pressure suddenly or jerk the lapel. If no tap occurs within 5-7 seconds of firm pressure, the setup likely needs adjustment rather than more force. (Timing: Hold finishing pressure for 3-7 seconds maximum in training) [Pressure: Maximum]
-7. **Release immediately upon tap**: The moment you feel or see the tap signal, immediately release all choking pressure by opening your grips and removing lapel tension. Maintain top position briefly to ensure partner is conscious and recovering normally. If practicing with a new partner, verbally confirm they are okay before continuing training. [Pressure: Light]
+1. **Secure dominant side control position**: Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts. (Timing: Take 5-10 seconds to establish solid control before proceeding)
+2. **Feed lapel behind opponent's neck**: Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle. (Timing: 3-5 seconds for lapel placement)
+3. **Secure lapel grip on opposite side**: Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control. (Timing: 2-3 seconds to establish secure grip)
+4. **Consolidate position and remove slack**: Before applying finishing pressure, ensure your body position is optimized. Your chest should remain heavy on opponent's torso, your hips should be positioned to prevent them from turning, and both hands should have secure grips on the lapel. Slowly remove any slack in the lapel material by pulling your grips in opposite directions. The lapel should now form a tight band across the side of opponent's neck. (Timing: 2-4 seconds to remove slack)
+5. **Apply rotational choking pressure**: The finish comes from rotating your wrists and forearms in opposite directions while maintaining downward pressure with your shoulder into opponent's jaw. The hand holding your lapel (or their collar) rotates palm-up, while the other hand pulls the threaded lapel tight. Simultaneously, drive your shoulder into the side of their jaw, which both creates additional choking pressure and prevents them from turning their head. The combination of lapel tightness and shoulder pressure compresses the carotid artery. (Timing: Apply pressure slowly over 3-5 seconds in training)
+6. **Adjust angle if needed and maintain until tap**: If opponent attempts to defend by tucking their chin or creating frames, make micro-adjustments to your shoulder angle and lapel positioning. Small changes in your body angle can dramatically increase effectiveness. Once proper compression is achieved, maintain consistent pressure until tap. Never increase pressure suddenly or jerk the lapel. If no tap occurs within 5-7 seconds of firm pressure, the setup likely needs adjustment rather than more force. (Timing: Hold finishing pressure for 3-7 seconds maximum in training)
+7. **Release immediately upon tap**: The moment you feel or see the tap signal, immediately release all choking pressure by opening your grips and removing lapel tension. Maintain top position briefly to ensure partner is conscious and recovering normally. If practicing with a new partner, verbally confirm they are okay before continuing training.
 
 
 </section>
@@ -263,22 +263,22 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying choking pressure before properly positioning the lapel behind the neck [CRITICAL DANGER]
+- **Mistake**: Applying choking pressure before properly positioning the lapel behind the neck
   - **Consequence**: Creates a crushing pressure on the trachea instead of blood choke on carotid arteries, causing pain rather than effective submission and potential injury
   - **Correction**: Take time to properly thread lapel behind neck, ensuring material sits on the side of the neck. Feel for the carotid pulse point with your hand before applying pressure.
-- **Mistake**: Losing top position control while focusing on lapel manipulation [Medium DANGER]
+- **Mistake**: Losing top position control while focusing on lapel manipulation
   - **Consequence**: Opponent escapes to guard or worse position before choke can be finished
   - **Correction**: Maintain heavy chest pressure and crossface throughout entire setup. If you feel opponent creating space, pause lapel work and re-establish positional control first.
-- **Mistake**: Using excessive pulling strength rather than proper rotation mechanics [Low DANGER]
+- **Mistake**: Using excessive pulling strength rather than proper rotation mechanics
   - **Consequence**: Fatigues your arms, telegraphs the submission, and reduces effectiveness of the choke
   - **Correction**: Focus on wrist rotation and shoulder pressure rather than pulling the lapel. The choke should feel effortless when properly positioned.
-- **Mistake**: Allowing too much slack in the lapel material [Medium DANGER]
+- **Mistake**: Allowing too much slack in the lapel material
   - **Consequence**: Opponent has time to defend, insert hands, or escape before choke takes effect
   - **Correction**: Before applying finishing pressure, ensure lapel is snug around neck with minimal slack. Take up all slack first, then apply rotational pressure.
-- **Mistake**: Positioning your head too high or too low relative to opponent [Low DANGER]
+- **Mistake**: Positioning your head too high or too low relative to opponent
   - **Consequence**: Reduces shoulder pressure and gives opponent ability to turn their head away from the choke
   - **Correction**: Keep your head near opponent's far shoulder, creating downward angle with your shoulder into their near-side jaw. This prevents head movement and increases choke effectiveness.
-- **Mistake**: Continuing to apply pressure after feeling tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling tap signal
   - **Consequence**: Risk of causing unconsciousness or injury to training partner; builds dangerous training habits
   - **Correction**: Develop instant release reflex when feeling tap. Practice releasing immediately even in drilling scenarios to build muscle memory.
 
@@ -343,50 +343,13 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper lapel threading mechanics and body positioning without applying any choking pressure. Practice on compliant partners focusing solely on proper positioning.
-- Resistance: Zero resistance
-- Safety: Understand anatomy of carotid vs trachea compression. Learn to recognize proper lapel placement by feel. Practice immediate release on command.
-
-**Slow Positional Practice** (Week 3-4)
-- Focus: Execute complete technique from side control against zero resistance, including very light finishing pressure (maximum 20% intensity). Partner taps immediately when feeling any pressure to build release reflexes.
-- Resistance: Zero resistance
-- Safety: Develop muscle memory for immediate release upon tap. Practice communication with partner about pressure levels. Never exceed light pressure during this phase.
-
-**Defensive Awareness** (Week 5-6)
-- Focus: Partner begins adding realistic defensive reactions (framing, bridging, turning). Practice maintaining position and adjusting lapel placement without applying full finishing pressure.
-- Resistance: Mild resistance
-- Safety: Learn to differentiate between positional control pressure and choking pressure. Ensure partner can always signal tap with hands or feet. Pause and reset if position becomes scrambled.
-
-**Progressive Resistance Application** (Week 7-10)
-- Focus: Increase finishing pressure to 50-70% while partner provides realistic escape attempts. Begin timing practice - if choke is not effective within 5 seconds of firm pressure, recognize the need for position adjustment rather than force increase.
-- Resistance: Realistic resistance
-- Safety: Both partners monitor for proper blood choke sensations (pressure on sides of neck) versus air choke (pressure on throat). Immediate tap and release if anything feels wrong.
-
-**Full Speed Integration** (Week 11-14)
-- Focus: Incorporate Short Choke attempts during live rolling at full resistance. Practice recognizing setup opportunities from side control and north-south transitions. Begin chaining with other submissions.
-- Resistance: Full resistance
-- Safety: Never apply competition-speed finishing in training. Always allow 3-5 second minimum application time. Both partners should be experienced enough to recognize blood choke sensations and tap appropriately early.
-
-**Advanced Application and Competition Preparation** (Month 4+)
-- Focus: Use Short Choke as part of submission chain system. Practice concealing setup within normal top pressure. Develop variations and counters to common defenses. Competition simulation with strict time limits.
-- Resistance: Full resistance
-- Safety: In competition simulation, apply finishing pressure quickly but never violently. Develop awareness of when opponent is about to go unconscious (body goes limp, resistance stops) and release if no tap occurs. Understand that competition application differs from training application.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
-- [[North South Control]]
+- [[North-South]]
 - [[Kesa Gatame]]
 - [[Scarf Hold Position]]
 - [[Modified Scarf Hold]]
@@ -432,13 +395,14 @@ The Short Choke is a highly effective gi-based blood choke executed from top pos
 - [[Ezekiel Choke]] - Similar lapel-based choke with different mechanics
 - [[Paper Cutter Choke]] - Closely related technique using opponent's collar instead of own lapel
 - [[Back Control]] - Position to transition to when opponent turns away from Short Choke pressure
-- [[North South Control]] - Alternate top control position for Short Choke setup
+- [[North-South]] - Alternate top control position for Short Choke setup
 - [[Kimura from Side Control]] - Complementary submission that opens Short Choke opportunities when defended
 - [[Breadcutter Choke]] - Related lapel choke with similar pressure mechanics
 - [[High Mount]] - Superior mounted position for Short Choke variation
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

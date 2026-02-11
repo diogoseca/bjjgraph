@@ -157,7 +157,7 @@ From Guillotine Control Bottom, the high elbow finish becomes available when the
 Strategically, the high elbow guillotine creates a powerful decision tree for opponents. If they keep their chin up and posture normally, the standard guillotine threatens. If they tuck the chin to defend, you transition to high elbow mechanics. If they try to pass to escape, maintaining the grip while adjusting angle often results in an even tighter finish. This multi-threat nature makes Guillotine Control with high elbow capability one of the most dangerous positions in submission grappling.
 
 **From Position**: [[Guillotine Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the high elbow guillotine creates a powerful decision tree for op
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure anchor point**: Ensure the blade of your wrist on the choking arm is positioned firmly against the lateral side of opponent's neck, just below the jaw. This becomes the fixed pivot point around which all finishing pressure rotates. (Timing: Before initiating elbow drive)
-2. **Adjust grip angle**: Rotate your clasped hands so the choking arm's elbow can travel upward freely. Palm-to-palm grip works well, but gable grip allows even more elbow mobility. Your supporting hand should pull inward while the choking elbow prepares to rise. (Timing: Immediately after anchor confirmation)
-3. **Elevate the elbow**: Drive your choking arm's elbow directly toward the ceiling in a smooth, controlled arc. The wrist stays fixed against the neck while the elbow rises, creating rotational pressure that attacks behind the opponent's chin rather than against it. (Timing: Begin as opponent commits to chin-tuck defense)
-4. **Extend hips and arch back**: Simultaneously arch your back and extend your hips away from the opponent while maintaining leg control. This hip extension adds torque to the elbow elevation, dramatically increasing finishing pressure on the carotid arteries. (Timing: Coordinate with elbow elevation)
-5. **Close guard high**: If in closed guard, climb your legs higher on opponent's back to prevent them from posturing up or driving forward. High guard position amplifies the extension force by giving you a stable platform to push against. (Timing: Throughout finish sequence)
-6. **Apply finishing squeeze**: With elbow elevated and hips extended, squeeze the choking arm toward your chest while pulling the supporting grip inward. The combination of rotational pressure from elbow elevation and compression from the squeeze creates blood choke pressure on both carotid arteries. (Timing: Final 2-3 seconds to tap)
+1. **Secure anchor point**: Ensure the blade of your wrist on the choking arm is positioned firmly against the lateral side of opponent's neck, just below the jaw. This becomes the fixed pivot point around which all finishing pressure rotates.
+2. **Adjust grip angle**: Rotate your clasped hands so the choking arm's elbow can travel upward freely. Palm-to-palm grip works well, but gable grip allows even more elbow mobility. Your supporting hand should pull inward while the choking elbow prepares to rise.
+3. **Elevate the elbow**: Drive your choking arm's elbow directly toward the ceiling in a smooth, controlled arc. The wrist stays fixed against the neck while the elbow rises, creating rotational pressure that attacks behind the opponent's chin rather than against it.
+4. **Extend hips and arch back**: Simultaneously arch your back and extend your hips away from the opponent while maintaining leg control. This hip extension adds torque to the elbow elevation, dramatically increasing finishing pressure on the carotid arteries.
+5. **Close guard high**: If in closed guard, climb your legs higher on opponent's back to prevent them from posturing up or driving forward. High guard position amplifies the extension force by giving you a stable platform to push against.
+6. **Apply finishing squeeze**: With elbow elevated and hips extended, squeeze the choking arm toward your chest while pulling the supporting grip inward. The combination of rotational pressure from elbow elevation and compression from the squeeze creates blood choke pressure on both carotid arteries.
 
 
 </section>
@@ -257,19 +257,15 @@ Strategically, the high elbow guillotine creates a powerful decision tree for op
 ## Training Progressions
 **Week 1-2** - Grip mechanics and elbow path
 Practice the elbow elevation movement without resistance. Focus on keeping wrist anchored while driving elbow upward. Partner holds static guillotine control position and provides feedback on pressure angle. Develop muscle memory for the rotational finishing motion.
-(Resistance: None)
 
 **Week 3-4** - Timing against chin-tuck defense
 Partner actively tucks chin to defend standard guillotine. Practice recognizing the moment to transition to high elbow mechanics. Work on smooth transition between standard and high elbow variations. Partner provides light resistance to head positioning.
-(Resistance: Light)
 
 **Week 5-6** - Integration with hip extension
 Combine elbow elevation with coordinated hip extension and back arch. Practice finishing while partner attempts moderate escape movements. Develop timing of guard position adjustments during finish. Add positional sparring from guillotine control starting position.
-(Resistance: Medium)
 
 **Week 7+** - Live application and chain attacks
 Apply high elbow guillotine during live rolling from any position where guillotine control is achieved. Chain with sweeps when finish is defended. Transition to anaconda or darce when opponent turns. Develop instinctive recognition of high elbow opportunities in scrambles.
-(Resistance: Full)
 
 
 

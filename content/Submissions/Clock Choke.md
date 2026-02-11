@@ -157,7 +157,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Turtle]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -229,12 +229,12 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish collar grip**: From turtle position or while opponent is defending back control, feed your hand deep into opponent's near side collar, getting at least four fingers inside. Your grip should be palm-down with the blade of your forearm positioned against the side of their neck. This initial grip is crucial - without depth, the choke will not be effective regardless of your subsequent positioning. (Timing: 2-3 seconds to establish proper depth) [Pressure: Light]
-2. **Control far side**: With your free hand, reach over opponent's back and establish control of their far side hip, belt, or far side collar. This control prevents them from rolling away from you during the choke sequence. Maintain heavy chest pressure on their back. Your body weight should be distributed to make escape difficult while maintaining your own base. (Timing: 1-2 seconds) [Pressure: Moderate]
-3. **Begin walking motion**: Start walking your feet in a circular path around opponent's head, moving in the direction of your choking arm (if gripping right collar, walk clockwise). Keep your steps small and controlled, maintaining constant pressure throughout. Your hips should stay low and close to opponent's body. Think of your body as a lever rotating around your collar grip as the pivot point. (Timing: 2-4 seconds for initial quarter circle) [Pressure: Moderate]
-4. **Increase rotational pressure**: As you continue walking, your body rotation creates increasing pressure on opponent's neck. The combination of your collar grip, their own shoulder, and the rotational force compresses the carotid arteries. Continue walking until you are nearly perpendicular to opponent's body or past that point. Your chest should be pressing against the back of their head, adding additional pressure. (Timing: 2-3 seconds of progressive walking) [Pressure: Firm]
-5. **Final adjustment and squeeze**: Once you've achieved maximum rotation (typically when you're past perpendicular to opponent's body), make final adjustments. Drive your chest into the back of opponent's head while pulling with your collar grip. Your free arm can now reinforce the choke by grabbing your own wrist or by continuing to control opponent's far side. The pressure should increase gradually and progressively. (Timing: 1-2 seconds for final positioning) [Pressure: Firm]
-6. **Secure the finish**: Maintain all pressure points: collar grip, chest pressure against their head, hip pressure against their body, and rotational tension. Your body should be configured so that any attempt by opponent to turn or roll only tightens the choke. Wait for the tap, applying pressure progressively and never explosively. If opponent attempts to roll, maintain your grips and continue your circular motion to stay on top. (Timing: 3-5 seconds until tap) [Pressure: Maximum]
+1. **Establish collar grip**: From turtle position or while opponent is defending back control, feed your hand deep into opponent's near side collar, getting at least four fingers inside. Your grip should be palm-down with the blade of your forearm positioned against the side of their neck. This initial grip is crucial - without depth, the choke will not be effective regardless of your subsequent positioning. (Timing: 2-3 seconds to establish proper depth)
+2. **Control far side**: With your free hand, reach over opponent's back and establish control of their far side hip, belt, or far side collar. This control prevents them from rolling away from you during the choke sequence. Maintain heavy chest pressure on their back. Your body weight should be distributed to make escape difficult while maintaining your own base. (Timing: 1-2 seconds)
+3. **Begin walking motion**: Start walking your feet in a circular path around opponent's head, moving in the direction of your choking arm (if gripping right collar, walk clockwise). Keep your steps small and controlled, maintaining constant pressure throughout. Your hips should stay low and close to opponent's body. Think of your body as a lever rotating around your collar grip as the pivot point. (Timing: 2-4 seconds for initial quarter circle)
+4. **Increase rotational pressure**: As you continue walking, your body rotation creates increasing pressure on opponent's neck. The combination of your collar grip, their own shoulder, and the rotational force compresses the carotid arteries. Continue walking until you are nearly perpendicular to opponent's body or past that point. Your chest should be pressing against the back of their head, adding additional pressure. (Timing: 2-3 seconds of progressive walking)
+5. **Final adjustment and squeeze**: Once you've achieved maximum rotation (typically when you're past perpendicular to opponent's body), make final adjustments. Drive your chest into the back of opponent's head while pulling with your collar grip. Your free arm can now reinforce the choke by grabbing your own wrist or by continuing to control opponent's far side. The pressure should increase gradually and progressively. (Timing: 1-2 seconds for final positioning)
+6. **Secure the finish**: Maintain all pressure points: collar grip, chest pressure against their head, hip pressure against their body, and rotational tension. Your body should be configured so that any attempt by opponent to turn or roll only tightens the choke. Wait for the tap, applying pressure progressively and never explosively. If opponent attempts to roll, maintain your grips and continue your circular motion to stay on top. (Timing: 3-5 seconds until tap)
 
 
 </section>
@@ -254,22 +254,22 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Insufficient collar grip depth before beginning the walking motion [Low DANGER]
+- **Mistake**: Insufficient collar grip depth before beginning the walking motion
   - **Consequence**: The choke has no structural foundation and opponent can easily defend or escape regardless of your body positioning
   - **Correction**: Always prioritize getting a deep four-finger collar grip before attempting to walk. Your hand should be fed so deep that your forearm is across the side of opponent's neck. If you cannot achieve this depth, use collar grips or hand fighting to create the opening.
-- **Mistake**: Walking too quickly or taking large steps around opponent's head [Low DANGER]
+- **Mistake**: Walking too quickly or taking large steps around opponent's head
   - **Consequence**: You lose base and balance, allowing opponent to counter-sweep or escape. Rapid movement also prevents smooth pressure application.
   - **Correction**: Take small, controlled steps maintaining constant contact with opponent's body. Your movement should be smooth and deliberate, like a controlled rotation rather than scrambling. Keep your center of gravity low and over opponent throughout the motion.
-- **Mistake**: Failing to control opponent's far side during the rotation [Low DANGER]
+- **Mistake**: Failing to control opponent's far side during the rotation
   - **Consequence**: Opponent can roll away from the pressure, escaping the submission entirely and potentially sweeping you in the process
   - **Correction**: Always maintain control of opponent's far hip, belt, or far collar with your free hand. This connection is crucial for preventing the roll escape. Your chest pressure on their back also helps prevent rolling.
-- **Mistake**: Lifting your chest away from opponent's head during the finish [Medium DANGER]
+- **Mistake**: Lifting your chest away from opponent's head during the finish
   - **Consequence**: You lose critical pressure that seals the choke, allowing opponent to turn their head and relieve arterial compression
   - **Correction**: Keep your chest heavy and connected to the back of opponent's head throughout the entire sequence, especially during the finish. Your chest and body weight are essential components of the choking mechanism, not just the collar grip.
-- **Mistake**: Applying the choke explosively or cranking the neck violently [CRITICAL DANGER]
+- **Mistake**: Applying the choke explosively or cranking the neck violently
   - **Consequence**: Risk of serious neck injury, particularly to cervical spine from excessive rotational force. This is especially dangerous in training contexts.
   - **Correction**: ALWAYS apply the Clock Choke progressively and smoothly. The submission should tighten gradually as you walk and adjust position. In training, give partner minimum 3-5 seconds to recognize and tap to the choke. Never spike or jerk the position.
-- **Mistake**: Continuing pressure after partner has tapped or shown distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner has tapped or shown distress signals
   - **Consequence**: Can cause loss of consciousness, potential brain damage from prolonged blood flow restriction, or serious neck injury
   - **Correction**: Release immediately upon any tap signal - hand tap, foot tap, verbal tap, or distress movements. Develop the habit of immediately releasing the collar grip and moving your weight off partner the instant you feel or hear a tap. In competition this is your responsibility even with a referee present.
 
@@ -334,43 +334,6 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Phase 1: Technical Understanding and Collar Grips** (Week 1-2, 10-15 minutes per session)
-- Focus: Learn proper collar grip depth and feeding technique from turtle position. Practice establishing deep four-finger grip without any choking pressure. Partner remains completely static in turtle position. Emphasis on hand positioning, grip mechanics, and understanding the geometry of the collar path across the neck.
-- Resistance: Zero resistance
-- Safety: Understanding that grip depth is foundational. Partner provides feedback on grip comfort. No pressure application at this stage - purely mechanical practice of collar control.
-
-**Phase 2: Walking Motion Without Pressure** (Week 2-3, 15-20 minutes per session)
-- Focus: Practice the circular walking motion while maintaining collar grip but without applying choking pressure. Partner remains in static turtle. Focus on small, controlled steps, maintaining base, and keeping chest connection to partner's back. Practice walking in both directions (clockwise and counter-clockwise). Develop smooth, flowing movement.
-- Resistance: Zero resistance
-- Safety: Movement quality over speed. Partner should feel no discomfort during the walking motion. Practice maintaining balance and base throughout circular motion to prevent future falls during live training.
-
-**Phase 3: Progressive Pressure Introduction** (Week 3-5, 15-20 minutes per session)
-- Focus: Begin applying light pressure during the walking motion, increasing gradually to 30-40% intensity. Partner remains relatively static but provides constant feedback on pressure levels. Practice recognizing when the choke is properly positioned and when it's not. Partner should tap early at first sensation of pressure to build good training habits.
-- Resistance: Mild resistance
-- Safety: Strict 3-5 second application minimum. Partner must tap early and clearly. Practitioner must release immediately and completely upon any tap signal. No finishing or holding pressure. Focus is on recognizing proper positioning, not testing partner's tolerance.
-
-**Phase 4: Defense Integration and Counter Practice** (Week 5-8, 20-25 minutes per session)
-- Focus: Partner begins actively defending with appropriate responses: tucking chin, rolling away, posting to prevent rotation, and hand fighting collar grips. Practitioner learns to maintain control and adjust to defensive movements. Practice recognizing when choke is properly secured versus when defense has negated it. Begin to understand timing windows and setup opportunities.
-- Resistance: Realistic resistance
-- Safety: Both partners must maintain conservative pressure levels (50-60% maximum). Taps must still come early. Practitioner focuses on position maintenance rather than forcing the finish. Partner should practice multiple defense types across different rounds.
-
-**Phase 5: Live Training Integration** (Week 8-12, ongoing practice)
-- Focus: Incorporate Clock Choke into live positional sparring from turtle and back control positions. Begin from various realistic scenarios: opponent recovering guard, defending back takes, or transitioning positions. Practice recognizing setup opportunities naturally. Start and reset from multiple positions.
-- Resistance: Full resistance
-- Safety: Maintain slow, progressive application even under full resistance. Never compromise safety for the tap. Practice good tap habits - when you feel the choke is properly locked, understand partner may need several seconds to assess and tap. Communicate openly with training partners about pressure levels and any discomfort.
-
-**Phase 6: Variation Exploration and Competition Preparation** (Month 3+, advanced practice)
-- Focus: Explore all variations: rolling clock choke, from north-south, from back control, two-on-one grips. Chain Clock Choke with other turtle attacks and back takes. Practice rapid setup when opportunities arise. Develop personal timing and setups that work with your game. For competition preparation, drill transitions between attempts.
-- Resistance: Full resistance
-- Safety: Differentiate between training and competition intensity. Even in competition preparation rounds, maintain safety protocols with training partners. Understand that training partners are not opponents - their safety enables your development. Build reputation as safe training partner to ensure quality partners long-term.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -423,6 +386,7 @@ The Clock Choke is a highly effective gi-based blood choke primarily executed fr
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

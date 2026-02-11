@@ -381,11 +381,11 @@ Start from various positions (truck, side control, failed back take). Partner pr
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 25% |
-| Intermediate | 65% | 50% | 40% |
-| Advanced     | 80% | 70% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 60% |
+| Submission Probability | 50% |
 
 **Average Time in Position**: 45-120 seconds before submission or position change
 

@@ -352,11 +352,11 @@ Practice smooth transitions from butterfly guard to various X-Guard positions as
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 15% |
-| Intermediate | 50% | 55% | 28% |
-| Advanced     | 70% | 72% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 64% |
+| Submission Probability | 36% |
 
 **Average Time in Position**: 20-45 seconds before sweep or transition
 

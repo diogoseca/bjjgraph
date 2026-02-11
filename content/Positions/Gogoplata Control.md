@@ -176,17 +176,19 @@ The position also demonstrates important principles about submission-based contr
 ### Available Transitions
 
 
-- **[[Head Extraction to Posture]]** (17% of attempts)
+- **[[Head Extraction to Posture]]** (12% of attempts)
 
-- **[[Shin Removal to Pass]]** (15% of attempts)
+- **[[Shin Removal to Pass]]** (10% of attempts)
 
-- **[[Leg Extraction Escape]]** (14% of attempts)
+- **[[Leg Extraction Escape]]** (10% of attempts)
 
-- **[[Stack Defense]]** (19% of attempts)
+- **[[Stack Defense]]** (13% of attempts)
 
-- **[[Angle Change Escape]]** (18% of attempts)
+- **[[Angle Change Escape]]** (13% of attempts)
 
-- **[[Hand Control to Extract]]** (17% of attempts)
+- **[[Hand Control to Extract]]** (12% of attempts)
+
+- **[[Gogoplata]]** (30% of attempts)
 
 
 ### Common Mistakes

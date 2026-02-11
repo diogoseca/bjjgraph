@@ -282,19 +282,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 70,
-        "advanced": 80
+        "value": 75
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
+        "value": 58
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "30-90 seconds before passing attempt or guard pull"
     },
@@ -614,19 +608,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
+        "value": 32
       },
       "average_time": "15-45 seconds before guard pull or takedown"
     },

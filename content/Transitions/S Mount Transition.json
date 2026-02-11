@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The S Mount Transition represents one of the most powerful positional advancements in top game Brazilian Jiu-Jitsu, converting the mobile pressure of Knee on Belly into the submission-oriented control of S Mount. This transition exploits the perpendicular angle already established in Knee on Belly, requiring only precise leg movement and hip adjustment to achieve the dominant armbar-ready position. The strategic value lies in capitalizing on the opponent's defensive reactions to Knee on Belly pressure—when they reach to push the knee or protect their neck, their arms become exposed for the isolation that S Mount provides.\n\nUnlike the standard Mount transition from Knee on Belly, the S Mount entry maintains the perpendicular body angle and specifically targets arm isolation rather than chest-to-chest control. This makes the transition particularly effective against opponents who present strong frames or actively push against knee pressure. The leg swing over the head must be timed precisely with arm control, as premature movement creates escape opportunities while delayed action allows the opponent to establish defensive posture.\n\nCompetition applications favor this transition against opponents who react predictably to Knee on Belly pressure. The technique appears frequently in high-level matches where submission specialists exploit the natural defensive instinct to push against uncomfortable pressure. Understanding this transition unlocks a direct path from a scoring position to a submission-oriented control that offers armbars, triangles, and mounted crucifix options.",
   "key_principles": [
     "Isolate the near arm before initiating the leg swing—arm control precedes body movement",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Identify arm target",
-      "description": "From established Knee on Belly, observe opponent's arm positioning. The ideal target is an arm that reaches up to push your knee or frames against your hip—this extended arm becomes vulnerable to isolation.",
-      "timing": "Immediate recognition"
+      "description": "From established Knee on Belly, observe opponent's arm positioning. The ideal target is an arm that reaches up to push your knee or frames against your hip—this extended arm becomes vulnerable to isolation."
     },
     {
       "step_number": 2,
       "action": "Secure wrist control",
-      "description": "Grip the opponent's wrist with your near-side hand, pulling their arm across your centerline. Simultaneously drive your hip weight into their shoulder to pin it to the mat and prevent them from pulling the arm back.",
-      "timing": "Before any leg movement"
+      "description": "Grip the opponent's wrist with your near-side hand, pulling their arm across your centerline. Simultaneously drive your hip weight into their shoulder to pin it to the mat and prevent them from pulling the arm back."
     },
     {
       "step_number": 3,
       "action": "Adjust hip angle",
-      "description": "Shift your hips slightly toward the opponent's head while maintaining knee pressure. Your body begins rotating perpendicular to their torso, aligning for the leg swing. Keep weight committed forward through the knee connection.",
-      "timing": "1-2 seconds"
+      "description": "Shift your hips slightly toward the opponent's head while maintaining knee pressure. Your body begins rotating perpendicular to their torso, aligning for the leg swing. Keep weight committed forward through the knee connection."
     },
     {
       "step_number": 4,
       "action": "Swing leg over head",
-      "description": "In one fluid motion, swing your far leg over the opponent's face and head, planting your foot firmly on the mat beyond their far shoulder. Your shin should cross over their face and neck, not stopping short at their chest.",
-      "timing": "Single explosive motion"
+      "description": "In one fluid motion, swing your far leg over the opponent's face and head, planting your foot firmly on the mat beyond their far shoulder. Your shin should cross over their face and neck, not stopping short at their chest."
     },
     {
       "step_number": 5,
       "action": "Establish S Mount base",
-      "description": "Drop your near leg across their torso at chest level as you complete the perpendicular position. Your weight settles through your hips into their shoulder, with the isolated arm now trapped between your legs and controlled at the wrist.",
-      "timing": "Immediate after leg swing"
+      "description": "Drop your near leg across their torso at chest level as you complete the perpendicular position. Your weight settles through your hips into their shoulder, with the isolated arm now trapped between your legs and controlled at the wrist."
     },
     {
       "step_number": 6,
       "action": "Consolidate control",
-      "description": "Secure final S Mount position by tightening hip-to-shoulder connection, confirming wrist grip, and establishing secondary control with your free hand on their elbow or mat for base. Prepare immediate submission attack or positional maintenance.",
-      "timing": "1-2 seconds to settle"
+      "description": "Secure final S Mount position by tightening hip-to-shoulder connection, confirming wrist grip, and establishing secondary control with your free hand on their elbow or mat for base. Prepare immediate submission attack or positional maintenance."
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice the leg swing and hip adjustment on a compliant partner. Focus on the path of the leg, proper foot placement, and maintaining wrist control throughout. No resistance—emphasize muscle memory for the movement pattern.",
-      "resistance_level": "None"
+      "description": "Practice the leg swing and hip adjustment on a compliant partner. Focus on the path of the leg, proper foot placement, and maintaining wrist control throughout. No resistance—emphasize muscle memory for the movement pattern."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner provides light defensive reactions from Knee on Belly bottom. Identify the moment when their arm becomes available for isolation, and practice triggering the transition off their defensive push. Build recognition of the optimal entry window.",
-      "resistance_level": "Light"
+      "description": "Partner provides light defensive reactions from Knee on Belly bottom. Identify the moment when their arm becomes available for isolation, and practice triggering the transition off their defensive push. Build recognition of the optimal entry window."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner actively defends with hip escapes, arm retractions, and bridges. Practice adapting to these counters—following with side control when S Mount fails, attacking alternative submissions when arm escapes, and riding bridges. Develop contingency responses.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends with hip escapes, arm retractions, and bridges. Practice adapting to these counters—following with side control when S Mount fails, attacking alternative submissions when arm escapes, and riding bridges. Develop contingency responses."
     },
     {
       "phase": "Week 7+",
       "focus": "Live positional sparring",
-      "description": "Full resistance rounds starting from Knee on Belly. Top player attempts S Mount transition and subsequent submission. Bottom player defends freely. Track success rate and identify patterns in when the transition succeeds versus fails.",
-      "resistance_level": "Full"
+      "description": "Full resistance rounds starting from Knee on Belly. Top player attempts S Mount transition and subsequent submission. Bottom player defends freely. Track success rate and identify patterns in when the transition succeeds versus fails."
     }
   ],
   "variants_and_adaptations": [
@@ -181,53 +166,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the S Mount Transition from Knee on Belly?",
-      "answer": "The primary goal is to convert the mobile pressure position of Knee on Belly into the submission-oriented S Mount control, specifically isolating the opponent's near arm for armbar attack while maintaining dominant top position. The transition capitalizes on the perpendicular angle already present in Knee on Belly.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert the mobile pressure position of Knee on Belly into the submission-oriented S Mount control, specifically isolating the opponent's near arm for armbar attack while maintaining dominant top position. The transition capitalizes on the perpendicular angle already present in Knee on Belly."
     },
     {
       "question": "What triggers should you look for before initiating the S Mount Transition?",
-      "answer": "The optimal trigger is when the opponent extends their arm to push against your knee or reaches across to frame against your hip. This arm extension creates the isolation opportunity. Secondary triggers include the opponent relaxing their defensive posture or failing to establish adequate frames after you settle Knee on Belly pressure.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal trigger is when the opponent extends their arm to push against your knee or reaches across to frame against your hip. This arm extension creates the isolation opportunity. Secondary triggers include the opponent relaxing their defensive posture or failing to establish adequate frames after you settle Knee on Belly pressure."
     },
     {
       "question": "What are the essential grips needed before swinging your leg over?",
-      "answer": "You must secure wrist control on the target arm with your near-side hand, pulling the arm across your centerline. Your far-side hand should maintain collar grip or cross-face control to prevent the opponent from sitting up. Hip pressure into their shoulder pins the arm in place. The wrist grip is non-negotiable—never swing the leg without arm control.",
-      "difficulty": "Beginner"
+      "answer": "You must secure wrist control on the target arm with your near-side hand, pulling the arm across your centerline. Your far-side hand should maintain collar grip or cross-face control to prevent the opponent from sitting up. Hip pressure into their shoulder pins the arm in place. The wrist grip is non-negotiable—never swing the leg without arm control."
     },
     {
       "question": "Your opponent begins to hip escape as you start the leg swing—how do you respond?",
-      "answer": "If the hip escape is early and significant, abort the S Mount attempt and follow their movement with side control consolidation. Do not force the S Mount against significant space. If the hip escape is minor, accelerate your transition, drive your hip weight into their shoulder harder, and complete the position before they can create more space.",
-      "difficulty": "Intermediate"
+      "answer": "If the hip escape is early and significant, abort the S Mount attempt and follow their movement with side control consolidation. Do not force the S Mount against significant space. If the hip escape is minor, accelerate your transition, drive your hip weight into their shoulder harder, and complete the position before they can create more space."
     },
     {
       "question": "Why must you keep your hips low throughout the transition rather than rising up?",
-      "answer": "Rising hips create space between your body and the opponent, which they can exploit to bridge, hip escape, or roll you off mid-transition. Low hips maintain pressure and connection throughout the movement, making the transition much harder to disrupt. The weight commitment forward through your hips is what prevents the opponent from creating escape opportunities.",
-      "difficulty": "Intermediate"
+      "answer": "Rising hips create space between your body and the opponent, which they can exploit to bridge, hip escape, or roll you off mid-transition. Low hips maintain pressure and connection throughout the movement, making the transition much harder to disrupt. The weight commitment forward through your hips is what prevents the opponent from creating escape opportunities."
     },
     {
       "question": "Where exactly should your foot land when you swing your leg over the opponent's head?",
-      "answer": "Your foot should plant firmly on the mat beyond the opponent's far shoulder, with your shin crossing over their face and neck. Stopping short at chest level fails to establish proper S Mount configuration and allows defensive opportunities. The committed leg swing that clears their head completely is essential for the position to function.",
-      "difficulty": "Beginner"
+      "answer": "Your foot should plant firmly on the mat beyond the opponent's far shoulder, with your shin crossing over their face and neck. Stopping short at chest level fails to establish proper S Mount configuration and allows defensive opportunities. The committed leg swing that clears their head completely is essential for the position to function."
     },
     {
       "question": "What do you do if the opponent successfully retracts their arm during the transition?",
-      "answer": "Complete the leg swing and establish S Mount position anyway. Once in S Mount, you can attack the other arm, transition to mounted triangle by threatening the neck, or use the position to advance to mount. The S Mount position itself has value beyond the specific arm you initially targeted.",
-      "difficulty": "Advanced"
+      "answer": "Complete the leg swing and establish S Mount position anyway. Once in S Mount, you can attack the other arm, transition to mounted triangle by threatening the neck, or use the position to advance to mount. The S Mount position itself has value beyond the specific arm you initially targeted."
     },
     {
       "question": "When should you abandon the S Mount attempt and take a different path?",
-      "answer": "Abandon when the opponent creates significant space through early hip escape, when you've lost wrist control and cannot reestablish it quickly, or when they turn away offering their back. In these cases, follow to side control, re-establish Knee on Belly, or take the back gift. Forcing a compromised S Mount usually results in losing position entirely.",
-      "difficulty": "Advanced"
+      "answer": "Abandon when the opponent creates significant space through early hip escape, when you've lost wrist control and cannot reestablish it quickly, or when they turn away offering their back. In these cases, follow to side control, re-establish Knee on Belly, or take the back gift. Forcing a compromised S Mount usually results in losing position entirely."
     },
     {
       "question": "How does the direction of force change between Knee on Belly and S Mount?",
-      "answer": "In Knee on Belly, force is directed downward through the knee into the opponent's diaphragm, creating respiratory pressure. In S Mount, force transitions to horizontal pressure through the hips into their shoulder, creating arm isolation and pinning mechanics. The transition involves rotating your pressure angle from vertical to horizontal while maintaining continuous control.",
-      "difficulty": "Advanced"
+      "answer": "In Knee on Belly, force is directed downward through the knee into the opponent's diaphragm, creating respiratory pressure. In S Mount, force transitions to horizontal pressure through the hips into their shoulder, creating arm isolation and pinning mechanics. The transition involves rotating your pressure angle from vertical to horizontal while maintaining continuous control."
     },
     {
       "question": "What is your immediate priority after establishing S Mount position?",
-      "answer": "Immediately attack the submission or return to mount. S Mount is an attacking position, not a holding position. Check arm control, verify hip-to-shoulder connection, then begin armbar extension or triangle transition within seconds. Waiting in S Mount without attacking allows the opponent to develop escape timing and defensive structure.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately attack the submission or return to mount. S Mount is an attacking position, not a holding position. Check arm control, verify hip-to-shoulder connection, then begin armbar extension or triangle transition within seconds. Waiting in S Mount without attacking allows the opponent to develop escape timing and defensive structure."
     }
   ],
   "safety_considerations": "The S Mount Transition is a positional advancement technique with moderate physical demands. Primary safety concerns involve the opponent's potential arm injury if they resist the armbar that follows S Mount establishment—practitioners must recognize when to release pressure if the opponent is not tapping appropriately. During training, communicate with partners about arm extension limits before drilling. The leg swing can inadvertently strike the opponent's face if performed carelessly; practice with control until the movement pattern is smooth. Avoid forcing the transition against significant resistance as this can compromise your base and lead to awkward falls. If practicing rapid transitions, ensure adequate space and warm up the hip flexors and groin properly before high-repetition drilling.",
@@ -273,5 +248,6 @@
       "name": "Mounted Crucifix Entry",
       "relationship": "Alternative control—similar arm isolation concept with different configuration"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -250,7 +250,7 @@ The learning progression for Modified Scarf Hold top follows predictable stages.
 
 **If opponent turns into you to escape chest pressure:**
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 75%)
-- Execute **[[North-South Choke]]** → [[North South Control]] (Probability: 50%)
+- Execute **[[North-South Choke]]** → [[North-South]] (Probability: 50%)
 
 
 
@@ -357,11 +357,11 @@ Partner attempts specific escape (bridge, turtle, turn-in) and you counter with 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 45% | 30% |
-| Intermediate | 70% | 60% | 50% |
-| Advanced     | 85% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: 60-120 seconds to submission or advancement
 

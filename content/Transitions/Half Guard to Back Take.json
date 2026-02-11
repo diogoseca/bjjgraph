@@ -10,11 +10,6 @@
     "sweep",
     "back-control"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 70,
-    "advanced": 85
-  },
   "overview": "Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.",
   "key_principles": [
     "Underhook Control: Deep underhook acts as primary control point for rotation and prevents opponent's crossface",
@@ -37,50 +32,42 @@
     {
       "step_number": 1,
       "action": "Establish underhook control",
-      "description": "From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder.",
-      "timing": "Establish during initial half guard engagement"
+      "description": "From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder."
     },
     {
       "step_number": 2,
       "action": "Create perpendicular angle",
-      "description": "Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock.",
-      "timing": "Execute as opponent drives forward pressure"
+      "description": "Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock."
     },
     {
       "step_number": 3,
       "action": "Block bottom hip",
-      "description": "As you create the angle, bring your top knee across to block opponent's bottom hip, preventing them from turning into you or recovering their base. This knee acts as a critical control point that maintains your perpendicular position.",
-      "timing": "Simultaneous with angle creation"
+      "description": "As you create the angle, bring your top knee across to block opponent's bottom hip, preventing them from turning into you or recovering their base. This knee acts as a critical control point that maintains your perpendicular position."
     },
     {
       "step_number": 4,
       "action": "Release half guard lock",
-      "description": "Once your perpendicular angle is secure and hip is blocked, release your half guard leg lock. Your freed inside leg will be used to begin climbing to the back, starting with the bottom hook insertion.",
-      "timing": "Only after angle and hip block are secure"
+      "description": "Once your perpendicular angle is secure and hip is blocked, release your half guard leg lock. Your freed inside leg will be used to begin climbing to the back, starting with the bottom hook insertion."
     },
     {
       "step_number": 5,
       "action": "Insert bottom hook",
-      "description": "Thread your inside leg (the one that was previously locking half guard) across opponent's bottom hip and insert it as your first back control hook. The hook should go deep, with your heel pulling into their hip crease while your knee drives into their thigh.",
-      "timing": "Immediately after releasing half guard"
+      "description": "Thread your inside leg (the one that was previously locking half guard) across opponent's bottom hip and insert it as your first back control hook. The hook should go deep, with your heel pulling into their hip crease while your knee drives into their thigh."
     },
     {
       "step_number": 6,
       "action": "Climb to back",
-      "description": "Using your underhook and bottom hook as anchors, elevate your hips and climb onto opponent's back. Your chest should make contact with their back, and your head should position behind their far shoulder. Maintain constant pressure to prevent them from turning into you.",
-      "timing": "Fluid motion following bottom hook insertion"
+      "description": "Using your underhook and bottom hook as anchors, elevate your hips and climb onto opponent's back. Your chest should make contact with their back, and your head should position behind their far shoulder. Maintain constant pressure to prevent them from turning into you."
     },
     {
       "step_number": 7,
       "action": "Insert top hook",
-      "description": "Once your body weight is on their back, insert your top leg as the second hook, threading it over their top hip and securing it deep. Both hooks should now be pulling their hips toward you while your chest drives into their back, creating the characteristic sandwich pressure of back control.",
-      "timing": "Within 1-2 seconds of climbing to back"
+      "description": "Once your body weight is on their back, insert your top leg as the second hook, threading it over their top hip and securing it deep. Both hooks should now be pulling their hips toward you while your chest drives into their back, creating the characteristic sandwich pressure of back control."
     },
     {
       "step_number": 8,
       "action": "Establish final control",
-      "description": "Secure your preferred back control grip configuration (seatbelt, harness, or collar grips in gi). Ensure both hooks are deep, your chest is tight to their back, and your head is positioned defensively behind their shoulder to prevent them from rolling you off.",
-      "timing": "Immediately after second hook insertion"
+      "description": "Secure your preferred back control grip configuration (seatbelt, harness, or collar grips in gi). Ensure both hooks are deep, your chest is tight to their back, and your head is positioned defensively behind their shoulder to prevent them from rolling you off."
     }
   ],
   "common_counters": [
@@ -146,38 +133,32 @@
     {
       "phase": "Week 1-2: Underhook mechanics foundation",
       "focus": "Establishing and maintaining underhook control",
-      "description": "Partner remains relatively stationary in top half guard while you practice securing deep underhook, preventing crossface, and maintaining connection. Focus on grip strength and positional awareness without attempting full technique.",
-      "resistance_level": "None"
+      "description": "Partner remains relatively stationary in top half guard while you practice securing deep underhook, preventing crossface, and maintaining connection. Focus on grip strength and positional awareness without attempting full technique."
     },
     {
       "phase": "Week 3-4: Angle creation and hip blocking",
       "focus": "Creating perpendicular position and blocking bottom hip",
-      "description": "Partner provides light resistance, allowing you to practice rotating to perpendicular angle while maintaining underhook. Emphasize proper hip blocking with top knee and feeling the correct body alignment before proceeding.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance, allowing you to practice rotating to perpendicular angle while maintaining underhook. Emphasize proper hip blocking with top knee and feeling the correct body alignment before proceeding."
     },
     {
       "phase": "Week 5-6: Hook insertion mechanics",
       "focus": "Proper sequence of releasing guard and inserting hooks",
-      "description": "Practice full sequence with partner giving moderate resistance. Focus on timing of half guard release, bottom hook insertion, climb mechanics, and top hook insertion. Drill until movement becomes fluid and natural.",
-      "resistance_level": "Medium"
+      "description": "Practice full sequence with partner giving moderate resistance. Focus on timing of half guard release, bottom hook insertion, climb mechanics, and top hook insertion. Drill until movement becomes fluid and natural."
     },
     {
       "phase": "Week 7-8: Countering common defenses",
       "focus": "Dealing with crossface, base widening, and turn-ins",
-      "description": "Partner actively employs common defensive responses while you maintain technique execution. Learn to recognize and counter each defensive pattern while preserving your back take opportunity.",
-      "resistance_level": "Medium"
+      "description": "Partner actively employs common defensive responses while you maintain technique execution. Learn to recognize and counter each defensive pattern while preserving your back take opportunity."
     },
     {
       "phase": "Week 9-12: Live positional sparring",
       "focus": "Executing technique against full resistance",
-      "description": "Start from bottom half guard position with partner using full defensive capabilities. Successfully complete back takes in positional rounds, gradually increasing round duration from 2 to 5 minutes.",
-      "resistance_level": "Full"
+      "description": "Start from bottom half guard position with partner using full defensive capabilities. Successfully complete back takes in positional rounds, gradually increasing round duration from 2 to 5 minutes."
     },
     {
       "phase": "Week 13+: Integration and variation development",
       "focus": "Combining with other half guard attacks and developing personal variations",
-      "description": "Use technique seamlessly during regular rolling, chaining it with other half guard sweeps and submissions. Develop your own timing preferences and setups based on your body type and style.",
-      "resistance_level": "Full"
+      "description": "Use technique seamlessly during regular rolling, chaining it with other half guard sweeps and submissions. Develop your own timing preferences and setups based on your body type and style."
     }
   ],
   "variants_and_adaptations": [
@@ -205,38 +186,31 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary control point that enables the half guard to back take transition?",
-      "answer": "The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control.",
-      "difficulty": "Beginner"
+      "answer": "The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control."
     },
     {
       "question": "When is the optimal timing to execute the climb to back control?",
-      "answer": "You should climb to back control after creating a perpendicular angle with the underhook, specifically when opponent's weight commits forward and their bottom hip is blocked by your knee, preventing their defensive turn-in or base recovery.",
-      "difficulty": "Intermediate"
+      "answer": "You should climb to back control after creating a perpendicular angle with the underhook, specifically when opponent's weight commits forward and their bottom hip is blocked by your knee, preventing their defensive turn-in or base recovery."
     },
     {
       "question": "What is the most common technical error when attempting this transition and how is it corrected?",
-      "answer": "The most common error is releasing the underhook too early during the transition, which results in loss of control and allows opponent to establish crossface and flatten you. The correction is to maintain underhook connection throughout the entire sequence until back control is fully established with both hooks inserted and secured.",
-      "difficulty": "Intermediate"
+      "answer": "The most common error is releasing the underhook too early during the transition, which results in loss of control and allows opponent to establish crossface and flatten you. The correction is to maintain underhook connection throughout the entire sequence until back control is fully established with both hooks inserted and secured."
     },
     {
       "question": "How do you effectively counter an opponent's crossface pressure when attempting the back take?",
-      "answer": "Counter crossface pressure by using your inside arm to create a defensive frame against their neck or shoulder while simultaneously using the underhook to create the perpendicular angle anyway. If crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage.",
-      "difficulty": "Advanced"
+      "answer": "Counter crossface pressure by using your inside arm to create a defensive frame against their neck or shoulder while simultaneously using the underhook to create the perpendicular angle anyway. If crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage."
     },
     {
       "question": "What resistance level is recommended during week 3-4 of the training progression?",
-      "answer": "For weeks 3-4 of training progression, use light resistance level to develop timing and angle creation mechanics while maintaining technical precision. This allows practitioners to feel the correct perpendicular body alignment and hip blocking without the complications of heavy defensive pressure.",
-      "difficulty": "Beginner"
+      "answer": "For weeks 3-4 of training progression, use light resistance level to develop timing and angle creation mechanics while maintaining technical precision. This allows practitioners to feel the correct perpendicular body alignment and hip blocking without the complications of heavy defensive pressure."
     },
     {
       "question": "Why is blocking the opponent's bottom hip critical to the success of this technique?",
-      "answer": "Blocking opponent's bottom hip with your top knee is critical because it prevents them from turning into you to recover guard and maintains your perpendicular angle during the climb. Without this hip block, opponents can easily rotate toward you and nullify the back take attempt, recovering to standard half guard or even passing to top position.",
-      "difficulty": "Advanced"
+      "answer": "Blocking opponent's bottom hip with your top knee is critical because it prevents them from turning into you to recover guard and maintains your perpendicular angle during the climb. Without this hip block, opponents can easily rotate toward you and nullify the back take attempt, recovering to standard half guard or even passing to top position."
     },
     {
       "question": "How does the Kimura Grip variation differ from the standard underhook approach?",
-      "answer": "The Kimura Grip variation uses a kimura grip on opponent's near arm instead of the traditional far side underhook, creating back exposure through submission threat rather than positional leverage. This forces opponent to defend by turning away from the kimura, which exposes their back for the take, making it effective when traditional underhook is well-defended.",
-      "difficulty": "Advanced"
+      "answer": "The Kimura Grip variation uses a kimura grip on opponent's near arm instead of the traditional far side underhook, creating back exposure through submission threat rather than positional leverage. This forces opponent to defend by turning away from the kimura, which exposes their back for the take, making it effective when traditional underhook is well-defended."
     }
   ],
   "safety_considerations": "Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury.",
@@ -296,5 +270,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 78
 }

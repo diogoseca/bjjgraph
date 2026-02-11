@@ -159,7 +159,7 @@ description: "Master the Mount to Armbar transition in BJJ. Complete step-by-ste
 The Mount to Armbar transition is one of the most fundamental and high-percentage submission attacks in Brazilian Jiu-Jitsu, representing a cornerstone technique that every practitioner must master. From the dominant Mount position, this technique capitalizes on the opponent's natural defensive reactions by converting their arm-framing attempts into submission opportunities. The transition requires precise weight distribution, controlled movement sequencing, and the ability to maintain dominant positioning throughout the execution. This technique exemplifies the principle of position before submission, as maintaining mount control throughout the transition is critical to success. The Mount to Armbar serves as a gateway technique that opens pathways to other submissions including the triangle choke, Americana, and Ezekiel choke, making it an essential component of any complete mount attack system.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish high mount control**: From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest. (Timing: Establish position before opponent can create significant frames)
-2. **Isolate the target arm**: As opponent pushes against your chest, choose one arm to attack (typically the arm on the side you feel most stable). Pin this arm to your chest by hugging it with your same-side arm, or grab their wrist with your opposite hand and pull it across your centerline. Ensure their elbow is above your belt line for proper armbar alignment. (Timing: Capture arm immediately when opponent extends it to frame)
-3. **Control the opposite arm**: With your free hand, post on the mat near opponent's opposite shoulder or control their free arm by pinning it to the mat. This prevents them from turning into you or using that arm to defend the armbar. This control is critical for preventing the hitchhiker escape. (Timing: Simultaneous with arm isolation)
-4. **Pivot and prepare leg position**: Maintaining control of the target arm, begin to pivot your body toward the opponent's head. Rotate your hips approximately 90 degrees while keeping the captured arm pinned to your chest. Your leg on the side of the attack should begin to post out, preparing to slide across the opponent's face. (Timing: Smooth rotation initiated once arm control is secure)
-5. **Slide leg across face**: Slide your leg across the opponent's face and neck, keeping your knee bent and your foot near their opposite shoulder. Do not step over their head - instead, slide the leg across while maintaining hip pressure against their shoulder. Your other leg should remain tight against their side to prevent them turning toward you. (Timing: Controlled slide with continuous pressure, approximately 1-2 seconds)
-6. **Transition to armbar control**: Once your leg is across their face, sit back toward the mat while pulling the opponent's arm across your hips. Your knees should pinch together, trapping their arm between your legs. Your hips should be tight against their shoulder with your legs forming a strong figure-four position. The opponent's thumb should point toward the ceiling. (Timing: Immediate sit-back once leg position is secure)
-7. **Secure final armbar position**: Complete the transition by lying back fully, pulling the opponent's wrist toward your chest while driving your hips upward against their elbow. Both legs should be active - the leg across the face controlling their head, the other leg preventing them from turning into you. Maintain constant tension on the arm with two-handed control of their wrist. (Timing: Final position adjustment over 1-2 seconds)
+1. **Establish high mount control**: From Mount, walk your knees forward toward the opponent's armpits to establish high mount position. Drive your chest forward and down, forcing your opponent to frame against your chest with their arms. This defensive reaction creates the opportunity for the armbar attack. Keep your hips heavy and maintain connection through your chest.
+2. **Isolate the target arm**: As opponent pushes against your chest, choose one arm to attack (typically the arm on the side you feel most stable). Pin this arm to your chest by hugging it with your same-side arm, or grab their wrist with your opposite hand and pull it across your centerline. Ensure their elbow is above your belt line for proper armbar alignment.
+3. **Control the opposite arm**: With your free hand, post on the mat near opponent's opposite shoulder or control their free arm by pinning it to the mat. This prevents them from turning into you or using that arm to defend the armbar. This control is critical for preventing the hitchhiker escape.
+4. **Pivot and prepare leg position**: Maintaining control of the target arm, begin to pivot your body toward the opponent's head. Rotate your hips approximately 90 degrees while keeping the captured arm pinned to your chest. Your leg on the side of the attack should begin to post out, preparing to slide across the opponent's face.
+5. **Slide leg across face**: Slide your leg across the opponent's face and neck, keeping your knee bent and your foot near their opposite shoulder. Do not step over their head - instead, slide the leg across while maintaining hip pressure against their shoulder. Your other leg should remain tight against their side to prevent them turning toward you.
+6. **Transition to armbar control**: Once your leg is across their face, sit back toward the mat while pulling the opponent's arm across your hips. Your knees should pinch together, trapping their arm between your legs. Your hips should be tight against their shoulder with your legs forming a strong figure-four position. The opponent's thumb should point toward the ceiling.
+7. **Secure final armbar position**: Complete the transition by lying back fully, pulling the opponent's wrist toward your chest while driving your hips upward against their elbow. Both legs should be active - the leg across the face controlling their head, the other leg preventing them from turning into you. Maintain constant tension on the arm with two-handed control of their wrist.
 
 
 </section>
@@ -258,23 +258,18 @@ The Mount to Armbar transition is one of the most fundamental and high-percentag
 ## Training Progressions
 **Week 1-2: Isolated Movement Pattern** - Learn the basic movement pattern without resistance
 Partner lies in bottom mount position and extends arms in a static frame. Practice the pivot, leg slide, and sit-back motion repeatedly, focusing on maintaining continuous control. Emphasis on smooth weight transfer and hip connection throughout the movement. Perform 20-30 repetitions per training session.
-(Resistance: None)
 
 **Week 3-4: Controlled Resistance** - Execute against light defensive reactions
 Partner provides 25% resistance by attempting to pull their arm back when you begin the pivot. Practice reading the resistance and maintaining arm control through grip adjustment. Partner does not attempt to turn or bridge. Focus on problem-solving when they defend the arm withdrawal.
-(Resistance: Light)
 
 **Week 5-8: Multiple Defense Scenarios** - Respond to various defensive reactions
 Partner alternates between different defenses: pulling elbow back, attempting to turn into you, grabbing their own gi. Practice recognizing each defense and applying the appropriate counter. Begin to chain to other submissions (triangle, Americana) when armbar is defended. Increase resistance to 50%.
-(Resistance: Medium)
 
 **Week 9-12: Full Resistance Drilling** - Execute under full resistance and incorporate into positional sparring
 Start from mount position with partner using full defensive effort to prevent the armbar. Practice the technique in 3-minute rounds of positional sparring starting from mount. Success rate should improve as technical refinement increases. Begin to incorporate into regular sparring sessions.
-(Resistance: Full)
 
 **Month 4+: Integration and Chaining** - Combine with mount attack system
 Integrate the Mount to Armbar into a complete attack system including transitions to triangle, Americana, Ezekiel, and back takes. Practice flowing between submissions based on defensive reactions. Develop the ability to create dilemmas where all defensive options lead to submission opportunities.
-(Resistance: Full)
 
 
 

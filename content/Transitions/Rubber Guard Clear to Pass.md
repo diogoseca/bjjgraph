@@ -169,7 +169,7 @@ Success depends on understanding that aggressive pulling of the trapped arm trig
 This technique is essential for any practitioner facing opponents with flexible guard systems, particularly in no-gi and MMA contexts where the Rubber Guard system has proven highly effective.
 
 **From Position**: [[Rubber Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -217,14 +217,14 @@ This technique is essential for any practitioner facing opponents with flexible 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frame**: Place your free hand on opponent's far hip, creating a structural frame that prevents them from pulling you deeper into the Rubber Guard configuration and establishes your first control point for the escape sequence. (Timing: Immediately upon recognizing trapped position)
-2. **Redirect pressure**: Shift your weight onto the hip frame while angling your shoulders away from the trapped side, reducing the effectiveness of their leg pressure and creating the first increment of space needed for posture recovery. (Timing: As soon as frame is established)
-3. **Address leg control**: Use your free hand to push down on opponent's controlling leg near the knee while maintaining hip pressure, working to break the shin-to-back configuration that anchors the Rubber Guard without creating space for triangle entry. (Timing: Before attempting any arm extraction)
-4. **Extract trapped arm**: As leg control loosens, rotate your trapped arm in a circular motion toward your body rather than pulling straight back, keeping elbow tight to ribs while using the newly created space to slide the arm free from the chest trap. (Timing: Only after leg pressure is reduced)
-5. **Recover posture**: With arm freed, immediately post both hands on opponent's hips and drive your hips back while straightening your spine, using leg drive to create distance and establish tall posture before they can re-engage Rubber Guard grips. (Timing: Immediately following arm extraction)
-6. **Open the guard**: From recovered posture, address any remaining closed guard by wedging your elbow into opponent's inner thigh while maintaining hip control, creating the opening needed to begin passing sequence. (Timing: While maintaining posture pressure)
-7. **Clear legs and establish pass**: Drive through the opened guard using your shoulder against their hip, clearing their legs to one side while establishing crossface control and hip-to-hip pressure to complete the pass to Side Control. (Timing: Upon successful guard opening)
-8. **Consolidate Side Control**: Settle your weight across opponent's torso with chest perpendicular to their body, crossface pressure driving their head away, and near hip blocked to prevent any guard recovery or re-engagement of Rubber Guard. (Timing: Immediately upon clearing legs)
+1. **Establish frame**: Place your free hand on opponent's far hip, creating a structural frame that prevents them from pulling you deeper into the Rubber Guard configuration and establishes your first control point for the escape sequence.
+2. **Redirect pressure**: Shift your weight onto the hip frame while angling your shoulders away from the trapped side, reducing the effectiveness of their leg pressure and creating the first increment of space needed for posture recovery.
+3. **Address leg control**: Use your free hand to push down on opponent's controlling leg near the knee while maintaining hip pressure, working to break the shin-to-back configuration that anchors the Rubber Guard without creating space for triangle entry.
+4. **Extract trapped arm**: As leg control loosens, rotate your trapped arm in a circular motion toward your body rather than pulling straight back, keeping elbow tight to ribs while using the newly created space to slide the arm free from the chest trap.
+5. **Recover posture**: With arm freed, immediately post both hands on opponent's hips and drive your hips back while straightening your spine, using leg drive to create distance and establish tall posture before they can re-engage Rubber Guard grips.
+6. **Open the guard**: From recovered posture, address any remaining closed guard by wedging your elbow into opponent's inner thigh while maintaining hip control, creating the opening needed to begin passing sequence.
+7. **Clear legs and establish pass**: Drive through the opened guard using your shoulder against their hip, clearing their legs to one side while establishing crossface control and hip-to-hip pressure to complete the pass to Side Control.
+8. **Consolidate Side Control**: Settle your weight across opponent's torso with chest perpendicular to their body, crossface pressure driving their head away, and near hip blocked to prevent any guard recovery or re-engagement of Rubber Guard.
 
 
 </section>
@@ -270,19 +270,15 @@ This technique is essential for any practitioner facing opponents with flexible 
 ## Training Progressions
 **Week 1-2** - Rubber Guard recognition and frame establishment
 Practice identifying when trapped in Rubber Guard variations and establishing proper frame with free hand on opponent's hip. Work on maintaining base while creating defensive structure. Partner holds static position without advancing.
-(Resistance: None)
 
 **Week 3-4** - Leg control and arm extraction mechanics
 Drill the sequence of addressing leg control before arm extraction. Practice circular arm extraction motion keeping elbow tight to body. Partner provides light resistance and allows escape when technique is correct.
-(Resistance: Light)
 
 **Week 5-6** - Complete escape to pass sequence
 Chain the full sequence from trapped position through posture recovery to Side Control finish. Work on timing transitions and maintaining pressure throughout. Partner attempts specific submissions if openings are created.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Implement in positional sparring starting from Rubber Guard. Partner uses full resistance and all available submissions. Develop ability to recognize and counter submission attempts while maintaining escape progression.
-(Resistance: Full)
 
 
 

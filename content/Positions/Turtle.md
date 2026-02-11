@@ -160,21 +160,25 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 ### Available Transitions
 
 
-- **[[Turtle to Back Control]]** (16% of attempts)
+- **[[Turtle to Back Control]]** (13% of attempts)
 
-- **[[Front Headlock to Anaconda]]** (13% of attempts)
+- **[[Front Headlock to Anaconda]]** (10% of attempts)
 
-- **[[Front Headlock to Darce]]** (13% of attempts)
+- **[[Front Headlock to Darce]]** (10% of attempts)
 
-- **[[Crucifix from Turtle]]** (11% of attempts)
+- **[[Crucifix from Turtle]]** (9% of attempts)
 
-- **[[Turtle Flatten to Side Control]]** (15% of attempts)
+- **[[Turtle Flatten to Side Control]]** (12% of attempts)
 
-- **[[Turtle to Truck Entry]]** (9% of attempts)
+- **[[Turtle to Truck Entry]]** (7% of attempts)
 
-- **[[Front Headlock to Guillotine]]** (12% of attempts)
+- **[[Front Headlock to Guillotine]]** (10% of attempts)
 
-- **[[Kimura from Turtle]]** (11% of attempts)
+- **[[Kimura from Turtle]]** (9% of attempts)
+
+- **[[Arm Triangle from Turtle]]** (10% of attempts)
+
+- **[[Turtle to Standing]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -229,7 +233,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Anaconda Control]]** - Front headlock submission option from turtle top
 
-- **[[D'arce Control]]** - Alternative front headlock attack from turtle top
+- **[[Darce Control]]** - Alternative front headlock attack from turtle top
 
 - **[[Deep Half Guard]]** - Recovery option via sit-through from turtle bottom
 

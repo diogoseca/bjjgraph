@@ -295,30 +295,24 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-90 seconds before submission attempt or advancement"
     },
     "transitions": [
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 13
+        "attempt_probability": 9
       },
       {
         "transition": "Inside Heel Hook",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Toe Hold",
@@ -333,20 +327,24 @@
         "attempt_probability": 11
       },
       {
-        "transition": "50-50 Guard to Outside Ashi",
-        "attempt_probability": 13
-      },
-      {
         "transition": "Back Take from Ashi",
         "attempt_probability": 8
       },
       {
         "transition": "Sweep to Top Position",
-        "attempt_probability": 10
+        "attempt_probability": 7
       },
       {
         "transition": "Inside Ashi-Garami to Cross Ashi",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 12
       }
     ]
   },
@@ -604,54 +602,52 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "20-45 seconds before submission or position change"
     },
     "transitions": [
       {
         "transition": "Inside Heel Hook",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "50-50 Entry from Standing",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Kneebar Finish",
         "attempt_probability": 11
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Saddle Entry from Top",
+        "attempt_probability": 21
+      },
+      {
+        "transition": "Outside Ashi Entry",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Kneebar Finish",
         "attempt_probability": 10
       },
       {
-        "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 13
+        "transition": "Toe Hold",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Inside Ashi-Garami to Honey Hole",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Inside Ashi-Garami to Cross Ashi",
+        "attempt_probability": 8
       }
     ]
   }

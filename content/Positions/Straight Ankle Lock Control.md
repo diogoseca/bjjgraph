@@ -178,19 +178,21 @@ The position also serves an important pedagogical function in teaching fundament
 ### Available Transitions
 
 
-- **[[Ashi Garami Escape]]** (15% of attempts)
+- **[[Ashi Garami Escape]]** (12% of attempts)
 
-- **[[Counter Entry to Opponent's Leg]]** (14% of attempts)
+- **[[Counter Entry to Opponent's Leg]]** (10% of attempts)
 
-- **[[Standing Escape]]** (15% of attempts)
+- **[[Standing Escape]]** (10% of attempts)
 
-- **[[Hip Rotation Defense]]** (15% of attempts)
+- **[[Hip Rotation Defense]]** (10% of attempts)
 
-- **[[Knee Extraction]]** (14% of attempts)
+- **[[Knee Extraction]]** (10% of attempts)
 
-- **[[Frame and Distance Creation]]** (15% of attempts)
+- **[[Frame and Distance Creation]]** (10% of attempts)
 
-- **[[Pass to Top Control]]** (12% of attempts)
+- **[[Pass to Top Control]]** (8% of attempts)
+
+- **[[Straight Ankle Lock]]** (30% of attempts)
 
 
 ### Common Mistakes

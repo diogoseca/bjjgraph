@@ -277,7 +277,7 @@
       "relationship": "Secondary target position for mount transition pathway"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "content_type": "Position",
       "relationship": "Transitional position offering kimura opportunities during passing"
     },
@@ -297,7 +297,7 @@
       "relationship": "Core philosophy of creating multiple bad choices for opponent"
     },
     {
-      "name": "Position Transitions",
+      "name": "Transition Management",
       "content_type": "Principle",
       "relationship": "Guides smooth movement between positions while maintaining control"
     },

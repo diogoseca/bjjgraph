@@ -166,23 +166,19 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 ### Available Transitions
 
 
-- **[[Kimura from Side Control]]** (12% of attempts)
+- **[[Kimura from Side Control]]** (16% of attempts)
 
-- **[[Americana from Side Control]]** (11% of attempts)
+- **[[Americana from Side Control]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** (12% of attempts)
+- **[[Side Control to Mount]]** (15% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Side Control to North-South]]** (15% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Arm Triangle]]** (13% of attempts)
 
-- **[[Arm Triangle]]** (10% of attempts)
+- **[[North-South Choke]]** (12% of attempts)
 
-- **[[North-South Choke]]** (9% of attempts)
-
-- **[[Position Change]]** (12% of attempts)
-
-- **[[Side Control to North-South]]** (11% of attempts)
+- **[[Position Change]]** (15% of attempts)
 
 
 ### Common Mistakes

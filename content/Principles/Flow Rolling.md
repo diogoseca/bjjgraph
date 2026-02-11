@@ -217,9 +217,9 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 **De La Riva Guard**: Flow rolling from DLR guard facilitates exploration of various sweep angles and back-take entries, with top partner providing calibrated resistance that simulates real passing attempts without preventing bottom's technical development
 
-**Spider Guard**: Spider guard flow allows experimentation with different grip configurations and sweep mechanics, with top partner maintaining enough structure to create realistic scenarios while avoiding explosive passing attempts that would end technical exchange
+**Lasso Guard**: Lasso guard flow allows experimentation with different grip configurations and sweep mechanics, with top partner maintaining enough structure to create realistic scenarios while avoiding explosive passing attempts that would end technical exchange
 
-**X-Guard**: X-guard position in flow context enables exploration of various sweep variations and transitions to other leg entanglement positions, with top partner allowing appropriate off-balancing while maintaining realistic balance challenges
+**Reverse De La Riva Guard**: Reverse DLR in flow context enables exploration of various sweep variations and transitions to other leg entanglement positions, with top partner allowing appropriate off-balancing while maintaining realistic balance challenges
 
 **Guard Recovery**: Flow rolling emphasizes guard recovery mechanics through allowing bottom partner multiple attempts at re-establishing guard from various disadvantaged positions, with top partner providing realistic pressure without shutting down all recovery options
 
@@ -227,7 +227,7 @@ Flow Rolling represents the cooperative movement practice methodology where part
 
 **Scramble Position**: Scramble scenarios in flow rolling occur at reduced speed allowing both partners to develop transitional awareness and recognize positional opportunities that would be difficult to perceive at competitive intensity
 
-**Standing Position**: Flow rolling from standing emphasizes smooth takedown entries and guard pulls without competitive resistance, allowing exploration of various gripping strategies and entry mechanics
+**Clinch**: Flow rolling from standing clinch emphasizes smooth takedown entries and guard pulls without competitive resistance, allowing exploration of various gripping strategies and entry mechanics
 
 
 
@@ -348,8 +348,8 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 - **[[Risk Assessment]]** (Prerequisite): Proper risk assessment skills enable practitioners to recognize when resistance levels are appropriate versus when they risk injury, essential for maintaining cooperative training environment
 - **[[Competition Training]]** (Alternative): Flow rolling serves as alternative training methodology to high-intensity competition preparation, providing skill maintenance and technical exploration without competitive stress and injury accumulation
 - **[[Progressive Resistance Training]]** (Complementary): Flow rolling implements progressive resistance principles by allowing gradual intensity increases as technical proficiency develops, creating structured skill advancement pathway
-- **[[Guard Retention]]** (Extension): Flow rolling provides ideal environment for developing guard retention mechanics through repeated exposure to passing attempts at manageable intensity
-- **[[Position Transitions]]** (Extension): Smooth position transitions represent core element of flow rolling practice, with cooperative resistance enabling extensive repetition of transitional movements
+- **[[Guard Recovery]]** (Extension): Flow rolling provides ideal environment for developing guard retention mechanics through repeated exposure to passing attempts at manageable intensity
+- **[[Transition Sequences]]** (Extension): Smooth position transitions represent core element of flow rolling practice, with cooperative resistance enabling extensive repetition of transitional movements and sequenced positional chains
 
 
 ### Related Content
@@ -358,7 +358,7 @@ Advanced practitioners flow with beginners at appropriate intensity, providing r
 - [[Energy Management System]] (Principle) - Underlying principle system governing intensity calibration and recovery optimization in flow rolling
 - [[Timing and Rhythm]] (Principle) - Movement attribute developed through continuous exposure in flow rolling environment
 - [[Competition Training]] (Principle) - Alternative training approach with different objectives and intensity levels
-- [[Position Transitions]] (Principle) - Core technical element emphasized and developed through flow rolling practice
+- [[Transition Sequences]] (Principle) - Core technical element emphasizing smooth positional chains developed through flow rolling practice
 - [[Risk Assessment]] (Principle) - Critical skill for maintaining appropriate intensity and preventing injury during flow sessions
 - [[Guard Recovery]] (Principle) - Position frequently practiced during flow rolling through multiple exposure opportunities
 - [[Progressive Resistance Training]] (Principle) - Training methodology that flow rolling implements through calibrated intensity progression

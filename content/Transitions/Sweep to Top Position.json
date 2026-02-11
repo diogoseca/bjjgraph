@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Sweep to Top Position from Inside Ashi-Garami is a positional advancement technique that converts a leg entanglement into a standing position with superior tactical options. When the bottom player in Inside Ashi-Garami sits up aggressively to address the leg attack, the top player uses the entanglement as a lever to elevate and come to their feet, disengaging the leg lock exchange in favor of a passing or takedown-based game.\n\nThis transition is strategically valuable because it allows the top player to dictate the pace of engagement. Rather than committing to a leg lock battle where the bottom player may have equal or superior heel exposure, sweeping to standing resets the positional hierarchy in the top player's favor. The technique exploits the opponent's forward weight distribution when they sit up, using their own momentum combined with the mechanical leverage of the ashi garami configuration to generate the elevation needed to stand.\n\nThe sweep works best as a reactive technique triggered by the opponent's aggressive posture recovery. Attempting it against a flat or reclined opponent yields poor results because the necessary momentum vectors are absent. Timing the elevation to coincide with the opponent's upward drive is the critical skill that separates successful execution from wasted effort.",
   "key_principles": [
     "Use opponent's sit-up momentum as the primary energy source for your elevation rather than muscling to standing against a flat opponent",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Recognize the trigger",
-      "description": "Identify the moment opponent begins sitting up or driving forward aggressively to address your leg entanglement. Their forward weight commitment is the essential trigger for initiating this sweep.",
-      "timing": "Initiate as opponent's shoulders come forward past their hips"
+      "description": "Identify the moment opponent begins sitting up or driving forward aggressively to address your leg entanglement. Their forward weight commitment is the essential trigger for initiating this sweep."
     },
     {
       "step_number": 2,
       "action": "Post the free hand",
-      "description": "Plant your free hand (opposite side from the trapped leg) firmly on the mat behind your hip with fingers pointing away from opponent. This creates the structural post needed to support your body weight during elevation.",
-      "timing": "Simultaneously with recognizing the trigger"
+      "description": "Plant your free hand (opposite side from the trapped leg) firmly on the mat behind your hip with fingers pointing away from opponent. This creates the structural post needed to support your body weight during elevation."
     },
     {
       "step_number": 3,
       "action": "Load the hips",
-      "description": "Drive your hips upward and forward using the posted hand and your inside leg across opponent's hip as the two base points. Your outside leg maintains the hook behind their knee to prevent them from disengaging during your elevation.",
-      "timing": "As opponent's momentum carries them forward"
+      "description": "Drive your hips upward and forward using the posted hand and your inside leg across opponent's hip as the two base points. Your outside leg maintains the hook behind their knee to prevent them from disengaging during your elevation."
     },
     {
       "step_number": 4,
       "action": "Step the posting foot",
-      "description": "Bring your posting-side foot underneath your body and plant it flat on the mat with knee bent at approximately 90 degrees. This foot becomes your primary standing base and must be placed directly under your center of gravity for stability.",
-      "timing": "Immediately after hip elevation begins"
+      "description": "Bring your posting-side foot underneath your body and plant it flat on the mat with knee bent at approximately 90 degrees. This foot becomes your primary standing base and must be placed directly under your center of gravity for stability."
     },
     {
       "step_number": 5,
       "action": "Drive to standing",
-      "description": "Push through the planted foot to drive upward to a full standing position. Maintain your inside leg pressure across opponent's hip throughout this phase to keep them from immediately re-entering guard. Your outside leg can release the knee hook as you reach full height.",
-      "timing": "One fluid motion from the hip load"
+      "description": "Push through the planted foot to drive upward to a full standing position. Maintain your inside leg pressure across opponent's hip throughout this phase to keep them from immediately re-entering guard. Your outside leg can release the knee hook as you reach full height."
     },
     {
       "step_number": 6,
       "action": "Disengage and establish position",
-      "description": "Extract your legs from the entanglement in a controlled sequence: release outside hook first, then withdraw inside leg from across their hip. Step back to create distance while immediately addressing grips to prevent opponent from pulling you back into guard.",
-      "timing": "Once standing balance is secure with both feet under hips"
+      "description": "Extract your legs from the entanglement in a controlled sequence: release outside hook first, then withdraw inside leg from across their hip. Step back to create distance while immediately addressing grips to prevent opponent from pulling you back into guard."
     },
     {
       "step_number": 7,
       "action": "Secure standing advantage",
-      "description": "Establish dominant grips or frames from standing position. Control opponent's ankles or knees to prevent them from re-establishing guard hooks. Position feet outside their hip width to create passing angles and begin addressing their guard from a top position.",
-      "timing": "Within 1-2 seconds of reaching standing"
+      "description": "Establish dominant grips or frames from standing position. Control opponent's ankles or knees to prevent them from re-establishing guard hooks. Position feet outside their hip width to create passing angles and begin addressing their guard from a top position."
     }
   ],
   "common_counters": [
@@ -151,26 +139,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Elevation mechanics",
-      "description": "Practice the hand post to hip drive to standing sequence without a partner. Focus on the coordination of posting, loading hips, stepping the foot under your body, and driving to standing. Repeat 20 times per side until the movement pattern is smooth and automatic. Add a light resistance band around hips to simulate opponent connection.",
-      "resistance_level": "None"
+      "description": "Practice the hand post to hip drive to standing sequence without a partner. Focus on the coordination of posting, loading hips, stepping the foot under your body, and driving to standing. Repeat 20 times per side until the movement pattern is smooth and automatic. Add a light resistance band around hips to simulate opponent connection."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing the trigger",
-      "description": "With a cooperative partner in Inside Ashi-Garami, practice recognizing the sit-up trigger and initiating the sweep. Partner sits up on a verbal cue initially, then on their own timing. Focus on matching your elevation to their forward momentum. 10-15 reps per round, 3 rounds per session.",
-      "resistance_level": "Light"
+      "description": "With a cooperative partner in Inside Ashi-Garami, practice recognizing the sit-up trigger and initiating the sweep. Partner sits up on a verbal cue initially, then on their own timing. Focus on matching your elevation to their forward momentum. 10-15 reps per round, 3 rounds per session."
     },
     {
       "phase": "Week 5-6",
       "focus": "Entanglement management and follow-ups",
-      "description": "Partner provides moderate resistance including attempting to re-guard after the sweep. Practice maintaining leg control throughout the elevation and immediately establishing passing grips upon reaching standing. Chain the sweep into toreando or leg drag passing sequences. Work both the sweep and the abort-to-leg-attack option when opponent stays flat.",
-      "resistance_level": "Medium"
+      "description": "Partner provides moderate resistance including attempting to re-guard after the sweep. Practice maintaining leg control throughout the elevation and immediately establishing passing grips upon reaching standing. Chain the sweep into toreando or leg drag passing sequences. Work both the sweep and the abort-to-leg-attack option when opponent stays flat."
     },
     {
       "phase": "Week 7-8",
       "focus": "Decision-making under pressure",
-      "description": "Full positional sparring from Inside Ashi-Garami. Decide in real-time whether to pursue leg attacks or sweep to standing based on opponent's reactions. Partner uses all available counters including pulling flat, grabbing the post arm, and hip escaping. Track success rate and identify which triggers you consistently misread.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring from Inside Ashi-Garami. Decide in real-time whether to pursue leg attacks or sweep to standing based on opponent's reactions. Partner uses all available counters including pulling flat, grabbing the post arm, and hip escaping. Track success rate and identify which triggers you consistently misread."
     }
   ],
   "variants_and_adaptations": [
@@ -193,53 +177,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary trigger that makes the Sweep to Top Position viable from Inside Ashi-Garami?",
-      "answer": "The opponent sitting up aggressively or driving forward to address the leg entanglement. Their forward weight commitment provides the momentum needed to fuel the elevation. Without this trigger, the sweep requires too much muscular effort and has a low success rate because you are fighting gravity and the opponent's base simultaneously.",
-      "difficulty": "Beginner"
+      "answer": "The opponent sitting up aggressively or driving forward to address the leg entanglement. Their forward weight commitment provides the momentum needed to fuel the elevation. Without this trigger, the sweep requires too much muscular effort and has a low success rate because you are fighting gravity and the opponent's base simultaneously."
     },
     {
       "question": "Why must you maintain the inside leg across the opponent's hip throughout the elevation phase?",
-      "answer": "The inside leg across the hip serves dual purposes during the sweep: it prevents the opponent from immediately re-establishing guard hooks by blocking their hip rotation, and it provides a structural connection point that transfers your upward drive through their body. Releasing it early allows the opponent to collapse your elevation by pulling your legs into closed guard or re-entering the leg entanglement before you reach standing.",
-      "difficulty": "Intermediate"
+      "answer": "The inside leg across the hip serves dual purposes during the sweep: it prevents the opponent from immediately re-establishing guard hooks by blocking their hip rotation, and it provides a structural connection point that transfers your upward drive through their body. Releasing it early allows the opponent to collapse your elevation by pulling your legs into closed guard or re-entering the leg entanglement before you reach standing."
     },
     {
       "question": "Your opponent recognizes the sweep attempt and immediately pulls back to a flat position - how do you adjust?",
-      "answer": "Abort the sweep and immediately transition back to leg attack threats. Their pull-back motion often extends their leg, which exposes the ankle for a straight ankle lock or creates the space needed for a kneebar entry. The key insight is that the sweep attempt forces a reaction, and both reactions (sitting up or pulling flat) create different offensive opportunities. You should never force the sweep against a flat opponent.",
-      "difficulty": "Intermediate"
+      "answer": "Abort the sweep and immediately transition back to leg attack threats. Their pull-back motion often extends their leg, which exposes the ankle for a straight ankle lock or creates the space needed for a kneebar entry. The key insight is that the sweep attempt forces a reaction, and both reactions (sitting up or pulling flat) create different offensive opportunities. You should never force the sweep against a flat opponent."
     },
     {
       "question": "What is the correct direction of force during the elevation - straight up or forward through the opponent?",
-      "answer": "Forward and up at approximately 45 degrees through the opponent's centerline. Driving straight up creates a tug-of-war where the opponent can easily pull you back down because your momentum is vertical. Driving forward through their center uses the same mechanical principle as a wrestling standup - your momentum carries you past their guard retention rather than directly above it, making it much harder for them to re-hook your legs.",
-      "difficulty": "Beginner"
+      "answer": "Forward and up at approximately 45 degrees through the opponent's centerline. Driving straight up creates a tug-of-war where the opponent can easily pull you back down because your momentum is vertical. Driving forward through their center uses the same mechanical principle as a wrestling standup - your momentum carries you past their guard retention rather than directly above it, making it much harder for them to re-hook your legs."
     },
     {
       "question": "Your opponent grabs your posting arm as you begin the elevation - what are your options?",
-      "answer": "You have two primary responses. First, switch to posting on the opposite hand or drop to an elbow post, which is harder for them to control. Second, recognize that if they commit both hands to your arm, their trapped leg is now completely undefended - immediately abandon the sweep and attack the exposed heel hook or ankle lock. Their arm grab is actually a positional concession in the leg lock exchange.",
-      "difficulty": "Advanced"
+      "answer": "You have two primary responses. First, switch to posting on the opposite hand or drop to an elbow post, which is harder for them to control. Second, recognize that if they commit both hands to your arm, their trapped leg is now completely undefended - immediately abandon the sweep and attack the exposed heel hook or ankle lock. Their arm grab is actually a positional concession in the leg lock exchange."
     },
     {
       "question": "What grip or control must you establish within the first two seconds of reaching standing position?",
-      "answer": "Control of the opponent's ankles or knees to prevent immediate guard re-establishment. If you reach standing without addressing their legs, they will pull you into closed guard, re-establish butterfly hooks, or re-enter the leg entanglement within seconds, completely negating the positional gain. The sweep is only complete when you have standing control over their legs and can begin your passing sequence.",
-      "difficulty": "Beginner"
+      "answer": "Control of the opponent's ankles or knees to prevent immediate guard re-establishment. If you reach standing without addressing their legs, they will pull you into closed guard, re-establish butterfly hooks, or re-enter the leg entanglement within seconds, completely negating the positional gain. The sweep is only complete when you have standing control over their legs and can begin your passing sequence."
     },
     {
       "question": "How does the placement of your stepping foot affect the success of the elevation phase?",
-      "answer": "The stepping foot must be planted directly under your center of gravity with the knee tracking over the toes. Placing it too narrow causes balance failure at the critical transition point when all your weight transfers to that single leg. Placing it too wide slows the standing motion because you must shift laterally before driving up, and it creates a window where the opponent can attack your extended leg. Shoulder-width placement relative to your other support points provides maximum stability.",
-      "difficulty": "Intermediate"
+      "answer": "The stepping foot must be planted directly under your center of gravity with the knee tracking over the toes. Placing it too narrow causes balance failure at the critical transition point when all your weight transfers to that single leg. Placing it too wide slows the standing motion because you must shift laterally before driving up, and it creates a window where the opponent can attack your extended leg. Shoulder-width placement relative to your other support points provides maximum stability."
     },
     {
       "question": "Your opponent hip-escapes laterally as you begin to elevate - should you continue the sweep or abort?",
-      "answer": "It depends on the severity of the angle change. A minor hip escape can be followed by adjusting your posting angle. However, if they create a significant lateral angle, abort the standing attempt and follow their hip movement into Outside Ashi-Garami, which is now the higher-percentage position because their lateral escape has realigned your legs relative to theirs. Forcing the standup against a strong angle leads to a compromised standing position where they have an advantageous angle for attacks.",
-      "difficulty": "Advanced"
+      "answer": "It depends on the severity of the angle change. A minor hip escape can be followed by adjusting your posting angle. However, if they create a significant lateral angle, abort the standing attempt and follow their hip movement into Outside Ashi-Garami, which is now the higher-percentage position because their lateral escape has realigned your legs relative to theirs. Forcing the standup against a strong angle leads to a compromised standing position where they have an advantageous angle for attacks."
     },
     {
       "question": "When would you choose this sweep over continuing with leg lock attacks from Inside Ashi-Garami?",
-      "answer": "Choose the sweep when: the opponent has strong heel defense and you cannot expose their heel for attacks, when the opponent's aggressive sit-up creates the perfect momentum window, when you have a strategic advantage in the standing or passing game over the leg lock game, or when the leg lock exchange is stalling and you need to change the dynamic. Continue with leg attacks when: the opponent stays flat (no sweep trigger), when you have a clear heel exposure, or when your leg lock system is more developed than your passing game.",
-      "difficulty": "Advanced"
+      "answer": "Choose the sweep when: the opponent has strong heel defense and you cannot expose their heel for attacks, when the opponent's aggressive sit-up creates the perfect momentum window, when you have a strategic advantage in the standing or passing game over the leg lock game, or when the leg lock exchange is stalling and you need to change the dynamic. Continue with leg attacks when: the opponent stays flat (no sweep trigger), when you have a clear heel exposure, or when your leg lock system is more developed than your passing game."
     },
     {
       "question": "What is the most critical mechanical detail in the hand post that supports the elevation?",
-      "answer": "The hand must be posted close to your hip rather than far behind your body. A close post creates a strong structural base where your arm acts as a short lever supporting your bodyweight efficiently. A far post overextends the lever arm, making it weak under load and positioning your torso too far from the opponent to maintain entanglement control. The fingers should point away from the opponent to allow your shoulder to stack over the wrist for maximum structural integrity.",
-      "difficulty": "Intermediate"
+      "answer": "The hand must be posted close to your hip rather than far behind your body. A close post creates a strong structural base where your arm acts as a short lever supporting your bodyweight efficiently. A far post overextends the lever arm, making it weak under load and positioning your torso too far from the opponent to maintain entanglement control. The fingers should point away from the opponent to allow your shoulder to stack over the wrist for maximum structural integrity."
     }
   ],
   "safety_considerations": "The Sweep to Top Position is relatively low-risk compared to submission techniques, but care must be taken during the elevation phase where balance is compromised. Avoid explosive standing attempts on slippery mats as foot placement failures during the transition can cause ankle or knee injuries. When training, ensure adequate mat space behind you for the standing motion. Partners should release entanglement grips cooperatively during drilling phases to prevent knee torque during the transition. The sweep should not be forced when the opponent has a deep heel hook grip, as standing into an active heel hook dramatically increases injury risk to your own knee ligaments.",
@@ -285,5 +259,6 @@
       "name": "Ashi Garami",
       "relationship": "Parent position family providing systemic context"
     }
-  ]
+  ],
+  "success_rate": 58
 }

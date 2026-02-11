@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Leg Drag Pass to Side Control represents the critical consolidation phase of the leg drag passing sequence, where you convert the transitional leg drag control into a stable, scoring side control position. This technique addresses the fundamental challenge every passer faces: maintaining positional advantage while moving through the transition period when the opponent has their best opportunity to recover guard or escape. The leg drag itself is dynamic and temporary—you cannot hold it indefinitely without advancing or losing the position.\n\nThe mechanical principle underlying this consolidation is the progressive transfer of control points from the dragged leg to the upper body. In leg drag control, your primary control comes from the crossed leg and hip pressure. During the transition to side control, you must establish crossface, underhook, or chest-to-chest connection before releasing the leg control. Attempting to release the leg grip before establishing upper body control is the most common failure point, as it creates a window where the opponent has enough mobility to insert a knee or turn into you.\n\nStrategically, this pass should be executed when the opponent flattens out rather than turning away or attempting to sit up. If they turn away, the back take becomes the higher-percentage option. If they turn toward you aggressively, north-south or crucifix transitions may be more appropriate. The side control consolidation is optimal against opponents who accept the bottom position and focus on frame-based defense rather than dynamic escape attempts.",
   "key_principles": [
     "Maintain leg control until upper body control is established—never release both controls simultaneously",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Secure crossface",
-      "description": "Before releasing any leg control, drive your free arm across opponent's face and neck, establishing heavy crossface pressure that turns their head away from you and prevents them from facing into you or sitting up.",
-      "timing": "As opponent's resistance momentarily decreases"
+      "description": "Before releasing any leg control, drive your free arm across opponent's face and neck, establishing heavy crossface pressure that turns their head away from you and prevents them from facing into you or sitting up."
     },
     {
       "step_number": 2,
       "action": "Drive hip forward",
-      "description": "Increase hip pressure against opponent's near hip while maintaining the dragged leg position. Your chest should begin moving forward across their torso as you slide your hips closer to their centerline.",
-      "timing": "Immediately after crossface establishment"
+      "description": "Increase hip pressure against opponent's near hip while maintaining the dragged leg position. Your chest should begin moving forward across their torso as you slide your hips closer to their centerline."
     },
     {
       "step_number": 3,
       "action": "Block far hip",
-      "description": "Your leg-control hand now transitions to blocking opponent's far hip, preventing them from inserting their knee between your bodies. Press firmly down on their hip bone with your palm or forearm.",
-      "timing": "Simultaneously with hip drive"
+      "description": "Your leg-control hand now transitions to blocking opponent's far hip, preventing them from inserting their knee between your bodies. Press firmly down on their hip bone with your palm or forearm."
     },
     {
       "step_number": 4,
       "action": "Clear the leg",
-      "description": "Push opponent's dragged leg down toward the mat using your hip pressure and leg positioning. Your near knee slides forward past their hip as the leg clears, cutting off any guard recovery angle.",
-      "timing": "Once hip block is secure"
+      "description": "Push opponent's dragged leg down toward the mat using your hip pressure and leg positioning. Your near knee slides forward past their hip as the leg clears, cutting off any guard recovery angle."
     },
     {
       "step_number": 5,
       "action": "Establish perpendicular position",
-      "description": "Rotate your body to achieve the classic perpendicular side control alignment—your chest directly across opponent's sternum with your hips pressed into their side hip. Sprawl your legs back for base.",
-      "timing": "Flowing from leg clear"
+      "description": "Rotate your body to achieve the classic perpendicular side control alignment—your chest directly across opponent's sternum with your hips pressed into their side hip. Sprawl your legs back for base."
     },
     {
       "step_number": 6,
       "action": "Settle and consolidate",
-      "description": "Drop your weight fully onto opponent, establishing maximum chest-to-chest contact. Adjust crossface angle and hip pressure to eliminate any remaining space. Your near underhook can now work under their far shoulder.",
-      "timing": "Final position establishment"
+      "description": "Drop your weight fully onto opponent, establishing maximum chest-to-chest contact. Adjust crossface angle and hip pressure to eliminate any remaining space. Your near underhook can now work under their far shoulder."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Control point sequencing",
-      "description": "Practice the handoff from leg control to crossface to hip block with a cooperative partner. Focus on never having both control points released simultaneously. Drill the exact grip and body position changes in isolation.",
-      "resistance_level": "None"
+      "description": "Practice the handoff from leg control to crossface to hip block with a cooperative partner. Focus on never having both control points released simultaneously. Drill the exact grip and body position changes in isolation."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and weight transfer",
-      "description": "Partner provides light framing and knee insertion attempts. Practice timing your crossface establishment with their defensive movements. Develop sensitivity to when opponent is loading a bridge versus accepting the pass.",
-      "resistance_level": "Light"
+      "description": "Partner provides light framing and knee insertion attempts. Practice timing your crossface establishment with their defensive movements. Develop sensitivity to when opponent is loading a bridge versus accepting the pass."
     },
     {
       "phase": "Week 5-6",
       "focus": "Decision making and combinations",
-      "description": "Partner randomly chooses defensive response—turn away, turn in, stay flat, or attempt explosive escape. Practice reading their choice and selecting appropriate transition: side control, back take, north-south, or mount.",
-      "resistance_level": "Medium"
+      "description": "Partner randomly chooses defensive response—turn away, turn in, stay flat, or attempt explosive escape. Practice reading their choice and selecting appropriate transition: side control, back take, north-south, or mount."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Incorporate into full sparring from leg drag entries. Track success rate and identify failure patterns. Pressure test against training partners who specialize in guard retention and recovery.",
-      "resistance_level": "Full"
+      "description": "Incorporate into full sparring from leg drag entries. Track success rate and identify failure patterns. Pressure test against training partners who specialize in guard retention and recovery."
     }
   ],
   "variants_and_adaptations": [
@@ -183,53 +168,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Leg Drag Pass to Side Control?",
-      "answer": "The primary goal is to convert the transitional leg drag control position into a stable, scoring side control position by establishing upper body control (crossface) before releasing leg control, then completing the consolidation with proper hip pressure and perpendicular body alignment.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert the transitional leg drag control position into a stable, scoring side control position by establishing upper body control (crossface) before releasing leg control, then completing the consolidation with proper hip pressure and perpendicular body alignment."
     },
     {
       "question": "What position do you start Leg Drag Pass to Side Control from?",
-      "answer": "This technique starts from Leg Drag Control top position, where you have already pulled opponent's leg across their body and established hip control, but have not yet achieved a consolidated scoring position.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Leg Drag Control top position, where you have already pulled opponent's leg across their body and established hip control, but have not yet achieved a consolidated scoring position."
     },
     {
       "question": "What are the key grips needed for Leg Drag Pass to Side Control?",
-      "answer": "The essential grips progress through the technique: initially the leg grip (hip, pants, or belt) combined with shoulder/head control, then crossface establishment with forearm across neck and jaw, then hip-blocking grip on opponent's far hip, finally settling into standard side control grips with crossface and underhook or hip control.",
-      "difficulty": "Intermediate"
+      "answer": "The essential grips progress through the technique: initially the leg grip (hip, pants, or belt) combined with shoulder/head control, then crossface establishment with forearm across neck and jaw, then hip-blocking grip on opponent's far hip, finally settling into standard side control grips with crossface and underhook or hip control."
     },
     {
       "question": "Your opponent starts inserting their knee as you release the leg grip—how do you adjust?",
-      "answer": "If the knee enters during transition, immediately switch to knee slice finishing mechanics by dropping your hip onto their thigh and driving through, or backstep to leg entanglement entries. Never try to force the original pass once the knee is in—adapt to the new situation.",
-      "difficulty": "Intermediate"
+      "answer": "If the knee enters during transition, immediately switch to knee slice finishing mechanics by dropping your hip onto their thigh and driving through, or backstep to leg entanglement entries. Never try to force the original pass once the knee is in—adapt to the new situation."
     },
     {
       "question": "When is the best time to attempt Leg Drag Pass to Side Control?",
-      "answer": "The optimal timing is when opponent flattens out and accepts the bottom position rather than actively trying to turn away or into you. If they turn away, take the back. If they turn aggressively into you, consider north-south. The side control consolidation is best against passive, frame-based defense.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent flattens out and accepts the bottom position rather than actively trying to turn away or into you. If they turn away, take the back. If they turn aggressively into you, consider north-south. The side control consolidation is best against passive, frame-based defense."
     },
     {
       "question": "Why must you establish crossface before releasing leg control?",
-      "answer": "The crossface prevents opponent from facing you, sitting up, or creating the angle needed for guard recovery. Without crossface, releasing the leg grip creates a window where opponent has enough mobility to insert a knee, turn into you, or execute a scramble escape. The crossface is your insurance policy during the transition.",
-      "difficulty": "Intermediate"
+      "answer": "The crossface prevents opponent from facing you, sitting up, or creating the angle needed for guard recovery. Without crossface, releasing the leg grip creates a window where opponent has enough mobility to insert a knee, turn into you, or execute a scramble escape. The crossface is your insurance policy during the transition."
     },
     {
       "question": "Your opponent frames strongly against your shoulder as you attempt to establish crossface—what is your response?",
-      "answer": "You have two primary options: swim your crossface arm inside their frame using shoulder pressure to collapse it, or accept their frame as an americana opportunity and attack the extended arm. Alternatively, use their resistance to redirect into north-south by sliding around their head.",
-      "difficulty": "Advanced"
+      "answer": "You have two primary options: swim your crossface arm inside their frame using shoulder pressure to collapse it, or accept their frame as an americana opportunity and attack the extended arm. Alternatively, use their resistance to redirect into north-south by sliding around their head."
     },
     {
       "question": "How does the direction of your hip pressure change through the leg drag to side control sequence?",
-      "answer": "Initially hip pressure is directed into opponent's near hip to maintain the leg drag. As you transition, pressure shifts forward and down across their pelvis. Finally, in side control, pressure becomes perpendicular with your hip driving into their side hip. The direction progressively rotates from lateral to perpendicular as you consolidate.",
-      "difficulty": "Advanced"
+      "answer": "Initially hip pressure is directed into opponent's near hip to maintain the leg drag. As you transition, pressure shifts forward and down across their pelvis. Finally, in side control, pressure becomes perpendicular with your hip driving into their side hip. The direction progressively rotates from lateral to perpendicular as you consolidate."
     },
     {
       "question": "What determines whether you should consolidate to side control versus taking the back from leg drag?",
-      "answer": "Opponent's reaction determines the correct choice. If they stay flat or turn toward you, side control is appropriate. If they turn away to protect their guard or turtle, the back take becomes higher percentage. Read their defensive choice and follow the path of least resistance rather than forcing your preferred outcome.",
-      "difficulty": "Advanced"
+      "answer": "Opponent's reaction determines the correct choice. If they stay flat or turn toward you, side control is appropriate. If they turn away to protect their guard or turtle, the back take becomes higher percentage. Read their defensive choice and follow the path of least resistance rather than forcing your preferred outcome."
     },
     {
       "question": "How do you manage the transition when your opponent loads an explosive bridge as you shift weight?",
-      "answer": "Anticipate the bridge by keeping hips low and posting your free hand wide for base. When you feel them load the bridge, ride it by following their movement rather than fighting it statically. Keep chest contact and crossface pressure, then re-settle your weight as they return to the mat. The key is staying connected rather than getting bucked off.",
-      "difficulty": "Advanced"
+      "answer": "Anticipate the bridge by keeping hips low and posting your free hand wide for base. When you feel them load the bridge, ride it by following their movement rather than fighting it statically. Keep chest contact and crossface pressure, then re-settle your weight as they return to the mat. The key is staying connected rather than getting bucked off."
     }
   ],
   "safety_considerations": "This technique is generally low-risk for both practitioners when executed correctly. The primary safety concern is maintaining control during the transition to prevent scrambles where limbs can get caught in awkward positions. Avoid placing excessive neck pressure with the crossface—the goal is positional control, not cranking the neck. When drilling, communicate with your partner about crossface pressure intensity. Be aware of your training partner's flexibility when controlling the dragged leg, as some practitioners have limited hip mobility. If practicing repeatedly, switch sides to avoid overuse strain on the crossface arm and shoulder.",
@@ -279,5 +254,6 @@
       "name": "De La Riva Guard",
       "relationship": "Common guard leading to leg drag entry"
     }
-  ]
+  ],
+  "success_rate": 58
 }

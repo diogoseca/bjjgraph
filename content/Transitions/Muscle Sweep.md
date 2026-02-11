@@ -153,7 +153,7 @@ description: "Master the Muscle Sweep from Closed Guard to Mount. Success rates:
 The Muscle Sweep is a fundamental attacking technique from Closed Guard that exploits the opponent's forward pressure and broken posture. Unlike more technical sweeps that rely on precise leverage points, the Muscle Sweep uses a combination of hip movement, upper body control, and explosive power to drive the opponent backward and sweep them to Mount position. This sweep is particularly effective when the opponent is defending other attacks and their weight is distributed forward, or when they attempt to posture up from a broken-down position. The technique requires good timing and the ability to coordinate upper body pulling with lower body hip elevation. While often considered a 'strength-based' technique by its name, proper execution relies more on timing the opponent's weight distribution and creating the correct angle of attack. The Muscle Sweep serves as an excellent foundational sweep for beginners while remaining effective at advanced levels when combined with other guard attacks.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -203,12 +203,12 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control grips**: From closed guard, secure a deep collar grip with your right hand, pulling the opponent's head down and breaking their posture forward. Simultaneously grip their left sleeve or wrist with your left hand, preventing them from posting to that side. (Timing: Initial setup phase - control before movement)
-2. **Create hip angle**: Shift your hips approximately 45 degrees to your left, moving your body off-center relative to the opponent. This angle is critical as it allows your right shoulder to get under their centerline while creating space for the sweep. Keep your guard closed throughout this movement. (Timing: Preparatory positioning - smooth weight shift)
-3. **Break opponent's base**: Pull strongly on the collar grip, driving the opponent's head down and across toward your left hip. Simultaneously pull their controlled arm across their body, eliminating their left-side post and compromising their base structure. (Timing: Base-breaking phase - strong directional pull)
-4. **Open guard and hip escape**: Momentarily open your closed guard while performing a small hip escape to your left, creating additional space and improving your angle. Your right shoulder should now be positioned under the opponent's chest, with their weight loaded forward. (Timing: Dynamic movement - quick guard opening)
-5. **Execute explosive sweep**: Drive your hips upward and to the right while simultaneously pulling the opponent's upper body down and across with your grips. Your right arm pulls the collar toward your left hip while your left hand prevents any posting attempt. The combination of hip elevation and upper body control sweeps the opponent backward over your body. (Timing: Explosive execution - coordinate hip drive with arm pull)
-6. **Follow through to mount**: As the opponent rolls over, immediately follow their momentum by coming up onto your knees and establishing mount position. Keep your grips throughout the transition to prevent them from turning or escaping. Drive your weight forward to consolidate the mount position. (Timing: Immediate follow-up - no hesitation)
+1. **Establish control grips**: From closed guard, secure a deep collar grip with your right hand, pulling the opponent's head down and breaking their posture forward. Simultaneously grip their left sleeve or wrist with your left hand, preventing them from posting to that side.
+2. **Create hip angle**: Shift your hips approximately 45 degrees to your left, moving your body off-center relative to the opponent. This angle is critical as it allows your right shoulder to get under their centerline while creating space for the sweep. Keep your guard closed throughout this movement.
+3. **Break opponent's base**: Pull strongly on the collar grip, driving the opponent's head down and across toward your left hip. Simultaneously pull their controlled arm across their body, eliminating their left-side post and compromising their base structure.
+4. **Open guard and hip escape**: Momentarily open your closed guard while performing a small hip escape to your left, creating additional space and improving your angle. Your right shoulder should now be positioned under the opponent's chest, with their weight loaded forward.
+5. **Execute explosive sweep**: Drive your hips upward and to the right while simultaneously pulling the opponent's upper body down and across with your grips. Your right arm pulls the collar toward your left hip while your left hand prevents any posting attempt. The combination of hip elevation and upper body control sweeps the opponent backward over your body.
+6. **Follow through to mount**: As the opponent rolls over, immediately follow their momentum by coming up onto your knees and establishing mount position. Keep your grips throughout the transition to prevent them from turning or escaping. Drive your weight forward to consolidate the mount position.
 
 
 </section>
@@ -255,23 +255,18 @@ The Muscle Sweep is a fundamental attacking technique from Closed Guard that exp
 ## Training Progressions
 **Week 1-2: Foundational Movement** - Learn basic mechanics and hip angle creation
 Practice creating 45-degree angle from closed guard and understanding grip positions. Drill hip escape movement while maintaining guard. Partner provides zero resistance, focusing on smooth positional changes and proper angle creation.
-(Resistance: None)
 
 **Week 3-4: Sweep Mechanics** - Coordinate upper body control with hip elevation
 Add the actual sweeping motion, combining collar/sleeve control with hip drive. Partner maintains broken posture but does not actively resist the sweep. Focus on timing of guard opening and explosive hip movement coordinated with arm pulls.
-(Resistance: Light)
 
 **Week 5-8: Timing and Base Breaking** - Learn to break opponent's base before sweep attempt
 Partner begins with good posture - practitioner must break it down and create proper conditions before sweeping. Partner provides moderate resistance to posture breaking but allows sweep once conditions are met. Emphasize recognizing when opponent's weight is properly distributed for sweep success.
-(Resistance: Medium)
 
 **Week 9-12: Counter Recognition** - Respond to common defensive reactions
 Partner uses standard counters like posting or maintaining posture. Practitioner learns to recognize blocked sweep attempts and transition to alternative attacks or adjustments. Develop ability to chain techniques when primary sweep is defended.
-(Resistance: Medium)
 
 **Week 13+: Full Resistance Integration** - Execute sweep against active resistance in sparring context
 Apply technique during positional sparring from closed guard and eventually free rolling. Partner uses full defensive arsenal. Focus on setting up sweep within sequences and combinations, using feints and other attacks to create opening for muscle sweep.
-(Resistance: Full)
 
 
 

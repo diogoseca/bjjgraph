@@ -386,11 +386,11 @@ Start with practitioner in bottom kneebar control against defending partner. Pra
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 15% |
-| Intermediate | 50% | 55% | 30% |
-| Advanced     | 65% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 62% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 15-45 seconds before finish or transition required
 

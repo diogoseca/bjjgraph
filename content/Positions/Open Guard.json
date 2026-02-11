@@ -237,7 +237,7 @@
         "relationship": "Fundamental posture variation within open guard top"
       },
       {
-        "name": "Leg Drag Position",
+        "name": "Leg Drag Control",
         "relationship": "Controlling position during leg drag passing"
       },
       {
@@ -259,19 +259,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
+        "value": 32
       },
       "average_time": "2-4 minutes per passing sequence"
     },
@@ -595,19 +589,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-90 seconds in competition, 2-5 minutes in training"
     },
@@ -626,51 +614,59 @@
     "transitions": [
       {
         "transition": "Scissor Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Hip Bump Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Butterfly Sweep",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "De La Riva Sweep",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "X-Guard Sweep",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Spider Guard Sweeps",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Lasso Guard Sweeps",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Omoplata Sweep",
         "attempt_probability": 8
       },
       {
-        "transition": "Triangle from Guard",
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Butterfly Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "De La Riva Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Spider Guard Sweeps",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Lasso Guard Sweeps",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Omoplata Sweep",
         "attempt_probability": 7
+      },
+      {
+        "transition": "Triangle from Guard",
+        "attempt_probability": 6
       },
       {
         "transition": "Armbar from Guard",
-        "attempt_probability": 6
+        "attempt_probability": 5
       },
       {
         "transition": "Kimura from Guard",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Omoplata from Guard",
-        "attempt_probability": 6
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Float Passing",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Open Guard to Deep Half",
+        "attempt_probability": 7
       }
     ],
     "knowledge_assessment": [

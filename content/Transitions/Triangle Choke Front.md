@@ -163,7 +163,7 @@ Strategically, the Triangle Choke Front functions as the terminal threat in the 
 The biomechanical advantage is substantial. The legs and hip extensors generate far more force than the neck muscles and single free arm the opponent uses to defend. Proper finishing mechanics emphasize a downward pressure vector created by hip elevation combined with head pulling, rather than a purely lateral squeeze. This distinction separates high-percentage finishers from practitioners who burn out their legs without achieving the tap. The technique is effective across all body types when the angle and elevation principles are respected, making it one of the most reliable submissions in competitive grappling.
 
 **From Position**: [[Triangle Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The biomechanical advantage is substantial. The legs and hip extensors generate 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify lock tightness**: Confirm the triangle lock is secured high behind the opponent's neck with your locking ankle deep in the crook of your choking knee. Squeeze your knees together to eliminate any slack in the configuration. If the lock feels loose, re-cross your ankles higher before proceeding. (Timing: Immediate check before committing to finish)
-2. **Adjust cutting angle**: Hip escape slightly to angle your body 30-45 degrees relative to the opponent's torso. Your choking leg's knee should point directly at the trapped shoulder. Use your free hand on the mat behind you or on their leg to pivot your hips into the correct angle without losing the lock. (Timing: 1-2 seconds after confirming lock)
-3. **Control trapped arm**: Grip the opponent's trapped wrist or sleeve with both hands and pull the arm diagonally across their own neck toward the choking-leg side. This positions their shoulder blade and upper arm as a compression surface against their far-side carotid artery, doubling the choking effect. (Timing: Simultaneously with angle adjustment)
-4. **Pull head down**: Transfer one hand to the back of the opponent's head or grab behind their neck. Pull their head firmly downward toward your chest while maintaining the other hand on their trapped wrist. This eliminates the vertical space they need to relieve arterial pressure and collapses their defensive posture. (Timing: Immediately after arm control is established)
-5. **Elevate hips**: Bridge your hips upward off the mat, driving them toward the ceiling while keeping your upper back and shoulders planted as a base. This creates a downward pressure vector into the opponent's neck and amplifies the compression beyond what horizontal squeezing alone can achieve. Keep your core engaged to sustain the elevation. (Timing: Coordinated with head pull for maximum effect)
-6. **Squeeze and sustain**: Contract your adductors to squeeze your knees together while maintaining hip elevation and head control simultaneously. Apply steady, progressive pressure rather than pulsing bursts. The arterial compression accumulates over several seconds—maintain all control points until the opponent taps or goes unconscious. Be ready to release immediately on tap. (Timing: Sustained 5-15 seconds for finish)
-7. **Monitor and adjust**: If the opponent begins defensive movement—turning their chin, walking their hips, or attempting to posture—respond by tightening your angle, re-pulling the head, or increasing hip elevation. Do not release any control point to chase adjustments. If the choke is not materializing after sustained effort, consider transitioning to armbar or omoplata. (Timing: Continuous throughout finishing sequence)
+1. **Verify lock tightness**: Confirm the triangle lock is secured high behind the opponent's neck with your locking ankle deep in the crook of your choking knee. Squeeze your knees together to eliminate any slack in the configuration. If the lock feels loose, re-cross your ankles higher before proceeding.
+2. **Adjust cutting angle**: Hip escape slightly to angle your body 30-45 degrees relative to the opponent's torso. Your choking leg's knee should point directly at the trapped shoulder. Use your free hand on the mat behind you or on their leg to pivot your hips into the correct angle without losing the lock.
+3. **Control trapped arm**: Grip the opponent's trapped wrist or sleeve with both hands and pull the arm diagonally across their own neck toward the choking-leg side. This positions their shoulder blade and upper arm as a compression surface against their far-side carotid artery, doubling the choking effect.
+4. **Pull head down**: Transfer one hand to the back of the opponent's head or grab behind their neck. Pull their head firmly downward toward your chest while maintaining the other hand on their trapped wrist. This eliminates the vertical space they need to relieve arterial pressure and collapses their defensive posture.
+5. **Elevate hips**: Bridge your hips upward off the mat, driving them toward the ceiling while keeping your upper back and shoulders planted as a base. This creates a downward pressure vector into the opponent's neck and amplifies the compression beyond what horizontal squeezing alone can achieve. Keep your core engaged to sustain the elevation.
+6. **Squeeze and sustain**: Contract your adductors to squeeze your knees together while maintaining hip elevation and head control simultaneously. Apply steady, progressive pressure rather than pulsing bursts. The arterial compression accumulates over several seconds—maintain all control points until the opponent taps or goes unconscious. Be ready to release immediately on tap.
+7. **Monitor and adjust**: If the opponent begins defensive movement—turning their chin, walking their hips, or attempting to posture—respond by tightening your angle, re-pulling the head, or increasing hip elevation. Do not release any control point to chase adjustments. If the choke is not materializing after sustained effort, consider transitioning to armbar or omoplata.
 
 
 </section>
@@ -262,19 +262,15 @@ The biomechanical advantage is substantial. The legs and hip extensors generate 
 ## Training Progressions
 **Week 1-2** - Lock mechanics and angle
 Drill the triangle lock and angle adjustment as isolated movements. Partner provides no resistance. Focus on speed of locking, depth of ankle placement in knee crook, and hip escape to achieve correct 30-45 degree angle. Complete 20 repetitions per side per session, emphasizing consistent ankle positioning and angle geometry.
-(Resistance: None)
 
 **Week 3-4** - Finishing sequence integration
 Chain the complete finishing sequence: lock verification, angle adjustment, arm pull, head control, hip elevation, squeeze. Partner provides light defensive movement (slight posture attempts, gentle arm extraction). Focus on maintaining all control points simultaneously without releasing any single element to chase another.
-(Resistance: Light)
 
 **Week 5-6** - Defense recognition and chain attacks
 Partner actively defends with stacking, posturing, arm extraction, and grip fighting at moderate intensity. Practice recognizing which defense is being attempted and either adjusting the finish or transitioning to the appropriate chain attack (armbar for posture, omoplata for stack, back take for arm extraction). Begin timed rounds.
-(Resistance: Medium)
 
 **Week 7+** - Live finishing under full resistance
 Positional sparring starting from triangle control. Both practitioners go at full competition intensity. Track finish rate versus escape rate over multiple rounds. Identify personal weak points in the finishing sequence and drill corrections. Integrate the triangle finish into full rolling sessions from guard entries.
-(Resistance: Full)
 
 
 

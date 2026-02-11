@@ -157,7 +157,7 @@ The technique operates on the principle that the arm trap relies on specific ang
 Strategically, Gift Wrap Arm Recovery represents the critical first step in any escape sequence from this position. Without recovering the arm, all other escape attempts become significantly more difficult. The technique must be executed while maintaining neck defense with the free hand, as opponents often attack the rear naked choke when they sense the arm recovery attempt. Timing the recovery when the opponent shifts weight for a submission attempt creates the optimal window for success.
 
 **From Position**: [[Gift Wrap/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, Gift Wrap Arm Recovery represents the critical first step in any 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive posture**: Position your free hand in front of your neck with elbow tight to your body, creating a barrier against rear naked choke attacks while you work the arm recovery (Timing: Continuous throughout technique)
-2. **Relax trapped arm**: Consciously release all tension in your trapped arm - let it go completely limp rather than pushing against the control, which only reinforces opponent's grip strength (Timing: 2-3 seconds of conscious relaxation)
-3. **Initiate hip escape**: Shrimp your hips away from your opponent's body, creating distance between your back and their chest while maintaining side positioning on the mat (Timing: Coordinate with opponent's weight shift)
-4. **Rotate trapped shoulder**: Turn your trapped shoulder forward and down toward the mat in the same direction as your hip escape, creating a rotational angle that reduces the trap's mechanical advantage (Timing: Simultaneous with hip movement)
-5. **Withdraw arm along escape angle**: With the angle established, withdraw your trapped arm by pulling the elbow toward your ribs while continuing the shoulder rotation, following the path created by your body movement (Timing: Quick withdrawal once angle is established)
-6. **Secure recovered arm position**: Once the arm is free, immediately bring both hands to neck defense position and reassess your escape options from standard back control (Timing: Immediate transition to two-hand defense)
+1. **Establish defensive posture**: Position your free hand in front of your neck with elbow tight to your body, creating a barrier against rear naked choke attacks while you work the arm recovery
+2. **Relax trapped arm**: Consciously release all tension in your trapped arm - let it go completely limp rather than pushing against the control, which only reinforces opponent's grip strength
+3. **Initiate hip escape**: Shrimp your hips away from your opponent's body, creating distance between your back and their chest while maintaining side positioning on the mat
+4. **Rotate trapped shoulder**: Turn your trapped shoulder forward and down toward the mat in the same direction as your hip escape, creating a rotational angle that reduces the trap's mechanical advantage
+5. **Withdraw arm along escape angle**: With the angle established, withdraw your trapped arm by pulling the elbow toward your ribs while continuing the shoulder rotation, following the path created by your body movement
+6. **Secure recovered arm position**: Once the arm is free, immediately bring both hands to neck defense position and reassess your escape options from standard back control
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, Gift Wrap Arm Recovery represents the critical first step in any 
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the coordinated hip escape and shoulder rotation with no resistance. Partner holds Gift Wrap loosely while you develop the movement pattern. Focus on keeping trapped arm relaxed and moving through the extraction angle smoothly.
-(Resistance: None)
 
 **Week 3-4** - Timing and reaction
 Partner applies moderate Gift Wrap control and occasionally shifts weight or attacks. Practice recognizing the timing windows for recovery and maintaining neck defense throughout. Add repetitions from both left and right side traps.
-(Resistance: Light)
 
 **Week 5-6** - Chain defense integration
 Combine arm recovery with follow-up escapes from back control. Partner responds to your recovery with continued attacks. Practice transitioning immediately from recovered arm to two-handed defense and hip escapes.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Start rounds from Gift Wrap Bottom position. Partner applies full resistance and realistic submissions while you work to recover arm and escape. Track success rate and identify where technique breaks down under pressure.
-(Resistance: Full)
 
 
 

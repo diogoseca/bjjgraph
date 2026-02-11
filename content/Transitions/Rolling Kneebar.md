@@ -159,7 +159,7 @@ Strategically, the Rolling Kneebar excels when opponents attempt to back step aw
 This submission requires significant timing and body coordination, as the roll must be executed smoothly while maintaining leg control throughout. Rushing the roll or losing hip connection mid-technique typically results in the opponent extracting their leg and passing. Mastery requires understanding the precise moment when your hip elevation, leg grip, and opponent's positioning align to create the ideal rolling window.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,12 +208,12 @@ This submission requires significant timing and body coordination, as the roll m
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg control**: From grasshopper guard, ensure your inside leg hooks firmly behind opponent's knee while your outside leg controls their hip or far leg. This dual contact prevents them from stepping away during the roll. (Timing: Before initiating any movement)
-2. **Load hips toward target**: Shift your hip angle to face the trapped leg directly, loading your weight onto the shoulder on the rolling side. Your body should form a diagonal line pointing at their knee. (Timing: 1-2 seconds before roll)
-3. **Initiate roll**: Push off with your hands and shoulder, rolling underneath the opponent toward their trapped leg. Drive your hips through the roll rather than just spinning on your back - the hip drive creates the momentum needed to carry their leg with you. (Timing: Explosive initiation)
-4. **Thread legs during rotation**: As you roll, thread your legs into figure-four configuration around their trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock around their leg. (Timing: Mid-roll)
-5. **Complete rotation to belly-down**: Continue rolling until you achieve belly-down position perpendicular to opponent. Your hips should now be positioned directly over their knee joint with their foot trapped between your arm and body. (Timing: Complete roll in one motion)
-6. **Secure finishing position**: Pull their foot tight to your chest, pinch your knees together to prevent rotation, and bridge your hips forward to apply hyperextension pressure to the knee. Keep their toes pointed toward ceiling for optimal breaking angle. (Timing: Immediate upon completing roll)
+1. **Secure leg control**: From grasshopper guard, ensure your inside leg hooks firmly behind opponent's knee while your outside leg controls their hip or far leg. This dual contact prevents them from stepping away during the roll.
+2. **Load hips toward target**: Shift your hip angle to face the trapped leg directly, loading your weight onto the shoulder on the rolling side. Your body should form a diagonal line pointing at their knee.
+3. **Initiate roll**: Push off with your hands and shoulder, rolling underneath the opponent toward their trapped leg. Drive your hips through the roll rather than just spinning on your back - the hip drive creates the momentum needed to carry their leg with you.
+4. **Thread legs during rotation**: As you roll, thread your legs into figure-four configuration around their trapped leg. Your outside leg crosses over their thigh while your inside leg maintains the knee hook, creating a triangle lock around their leg.
+5. **Complete rotation to belly-down**: Continue rolling until you achieve belly-down position perpendicular to opponent. Your hips should now be positioned directly over their knee joint with their foot trapped between your arm and body.
+6. **Secure finishing position**: Pull their foot tight to your chest, pinch your knees together to prevent rotation, and bridge your hips forward to apply hyperextension pressure to the knee. Keep their toes pointed toward ceiling for optimal breaking angle.
 
 
 </section>
@@ -259,19 +259,15 @@ This submission requires significant timing and body coordination, as the roll m
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the roll without resistance, focusing on maintaining hip elevation throughout rotation. Partner stands still while you drill the movement pattern from grasshopper to belly-down kneebar position. Emphasize smooth continuous motion over speed.
-(Resistance: None)
 
 **Week 3-4** - Timing and entry
 Partner provides light resistance and attempts basic escapes. Focus on identifying the correct moment to initiate roll based on partner's weight distribution and base width. Begin linking the roll to specific triggers like back stepping or freezing.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Practice converting to alternative attacks when rolling kneebar is defended. Partner uses medium resistance and specific counters. Develop muscle memory for transitioning to heel hooks, ankle locks, and sweeps when primary attack fails.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate rolling kneebar into full sparring from grasshopper guard. Focus on recognizing opportunities in live exchanges and executing with appropriate timing against resisting opponents. Develop competition-ready reliability.
-(Resistance: Full)
 
 
 

@@ -163,7 +163,7 @@ The technique operates on the principle that scrambles favor the person who init
 From a strategic perspective, this technique should be attempted before Twister Control is fully locked in or during the opponent's submission attempts when their focus shifts from control to finishing. The window for this escape narrows significantly once deep rotation is established, making timing recognition essential. Success requires maintaining composure despite the discomfort of the twisted position while waiting for or creating the optimal moment to explode into the scramble sequence.
 
 **From Position**: [[Twister Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ From a strategic perspective, this technique should be attempted before Twister 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect the neck**: Before initiating any escape movement, tuck your chin firmly to your chest and use your hands to create a defensive frame protecting your throat from opportunistic guillotine or neck crank attempts that may occur during the scramble. (Timing: Immediately upon recognizing you are in Twister Control)
-2. **Fight the leg control**: Begin working to free your trapped leg by pushing on the opponent's knee or ankle with your free hand while simultaneously using your free leg to kick and create separation. Focus on extracting your heel from their leg entanglement. (Timing: As opponent adjusts grip or position)
-3. **Identify rotation direction**: Determine which direction will reduce your spinal rotation. Generally, you want to turn your hips to face the same direction as your shoulders, which typically means turning into your opponent rather than away from them. (Timing: During leg fighting phase)
-4. **Explosive hip turn**: As soon as you feel any loosening of the leg control, explosively turn your hips in the identified direction. Drive hard off your free leg and use your arms to push off the opponent's body, creating rotational momentum to reduce the spinal twist. (Timing: Moment of loosened leg control)
-5. **Create guard frames**: As rotation decreases and you begin facing your opponent, immediately establish defensive frames with your forearms against their chest and hips. Get your knee between your bodies to begin creating the space needed for guard recovery. (Timing: As soon as you achieve partial facing position)
-6. **Recover guard position**: Use hip escape movements to create distance while maintaining your frames. Thread your legs between your bodies and establish either closed guard by locking your ankles behind their back, or half guard by triangling their leg. (Timing: Immediately following frame establishment)
-7. **Consolidate guard**: Once in guard, break any remaining grips from your opponent, establish your own control grips, and reset your breathing. Avoid immediately attacking - focus on establishing a stable defensive position first. (Timing: Final phase of recovery)
+1. **Protect the neck**: Before initiating any escape movement, tuck your chin firmly to your chest and use your hands to create a defensive frame protecting your throat from opportunistic guillotine or neck crank attempts that may occur during the scramble.
+2. **Fight the leg control**: Begin working to free your trapped leg by pushing on the opponent's knee or ankle with your free hand while simultaneously using your free leg to kick and create separation. Focus on extracting your heel from their leg entanglement.
+3. **Identify rotation direction**: Determine which direction will reduce your spinal rotation. Generally, you want to turn your hips to face the same direction as your shoulders, which typically means turning into your opponent rather than away from them.
+4. **Explosive hip turn**: As soon as you feel any loosening of the leg control, explosively turn your hips in the identified direction. Drive hard off your free leg and use your arms to push off the opponent's body, creating rotational momentum to reduce the spinal twist.
+5. **Create guard frames**: As rotation decreases and you begin facing your opponent, immediately establish defensive frames with your forearms against their chest and hips. Get your knee between your bodies to begin creating the space needed for guard recovery.
+6. **Recover guard position**: Use hip escape movements to create distance while maintaining your frames. Thread your legs between your bodies and establish either closed guard by locking your ankles behind their back, or half guard by triangling their leg.
+7. **Consolidate guard**: Once in guard, break any remaining grips from your opponent, establish your own control grips, and reset your breathing. Avoid immediately attacking - focus on establishing a stable defensive position first.
 
 
 </section>
@@ -264,19 +264,15 @@ From a strategic perspective, this technique should be attempted before Twister 
 ## Training Progressions
 **Week 1-2** - Position recognition and basic mechanics
 Start from static Twister Control with cooperative partner. Practice identifying rotation direction, fighting leg control with proper hand placement, and understanding the hip turn mechanics without resistance. Focus on the sequence of movements rather than speed or power.
-(Resistance: None)
 
 **Week 3-4** - Timing and entry recognition
 Partner provides light resistance and occasionally adjusts position or attempts submissions. Practice recognizing windows for escape initiation - when partner loosens leg control, when they reach for submissions, when they adjust weight. Begin connecting individual movements into fluid sequence.
-(Resistance: Light)
 
 **Week 5-6** - Chain escapes and counter-responses
 Partner provides moderate resistance and actively counters your escape attempts. Practice adjusting your escape when initial attempt is blocked - transitioning to turtle, fighting guillotine during scramble, dealing with opponent following to back control. Develop contingency responses.
-(Resistance: Medium)
 
 **Week 7+** - Live application and stress testing
 Full resistance positional sparring starting from Twister Control. Partner actively hunts submissions while you work the escape. Track success rate and identify personal weaknesses. Integrate escape into full rolling sessions when caught in Twister positions.
-(Resistance: Full)
 
 
 

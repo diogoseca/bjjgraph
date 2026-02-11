@@ -366,11 +366,11 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 15% |
-| Intermediate | 65% | 50% | 28% |
-| Advanced     | 78% | 65% | 42% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 58% |
+| Submission Probability | 35% |
 
 **Average Time in Position**: 45-90 seconds
 

@@ -157,7 +157,7 @@ The technique exploits the geometric relationship between the defender's inverte
 Strategically, Single Leg X Recovery represents the preferred escape path when the opponent's inside leg control is not deep enough to prevent leg threading. Unlike turtle recovery which merely neutralizes position, or counter-heel hooks which require specific grip availability, this technique creates immediate offensive opportunities while completing the escape in one fluid motion. Advanced practitioners chain this recovery directly into sweep and submission sequences.
 
 **From Position**: [[Ushiro Ashi-Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, Single Leg X Recovery represents the preferred escape path when t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect the heel**: Maintain strong dorsiflexion with toes pulled toward shin, keeping ankle tight to prevent opponent from establishing heel hook finishing grip during the entire recovery sequence (Timing: Continuous throughout technique)
-2. **Control inside knee**: Use both hands to grip opponent's inside knee, pushing it away from your centerline to create space and prevent them from deepening entanglement or transitioning to saddle position (Timing: Immediately after recognizing recovery opportunity)
-3. **Create hip angle**: Rotate hips toward the opponent's far leg, creating diagonal angle that allows trapped leg to thread through the entanglement rather than pulling straight back against resistance (Timing: As hands establish knee control)
-4. **Thread trapped leg**: Pull trapped leg through the space created by hip rotation and knee control, keeping foot flexed and sliding shin across opponent's thigh while maintaining constant pressure pushing their knee away (Timing: During opponent's grip adjustment)
-5. **Establish outside foot**: Place outside foot on opponent's far hip as leg clears entanglement, establishing the critical control point for Single Leg X structure that prevents opponent from simply standing or circling away (Timing: Immediately as leg clears)
-6. **Complete Single Leg X**: Bring inside leg across opponent's thigh to hook behind their knee, clasp hands around their ankle, and elevate hips to establish full Single Leg X-Guard control with immediate sweep and submission threats (Timing: Within 1-2 seconds of foot placement)
+1. **Protect the heel**: Maintain strong dorsiflexion with toes pulled toward shin, keeping ankle tight to prevent opponent from establishing heel hook finishing grip during the entire recovery sequence
+2. **Control inside knee**: Use both hands to grip opponent's inside knee, pushing it away from your centerline to create space and prevent them from deepening entanglement or transitioning to saddle position
+3. **Create hip angle**: Rotate hips toward the opponent's far leg, creating diagonal angle that allows trapped leg to thread through the entanglement rather than pulling straight back against resistance
+4. **Thread trapped leg**: Pull trapped leg through the space created by hip rotation and knee control, keeping foot flexed and sliding shin across opponent's thigh while maintaining constant pressure pushing their knee away
+5. **Establish outside foot**: Place outside foot on opponent's far hip as leg clears entanglement, establishing the critical control point for Single Leg X structure that prevents opponent from simply standing or circling away
+6. **Complete Single Leg X**: Bring inside leg across opponent's thigh to hook behind their knee, clasp hands around their ankle, and elevate hips to establish full Single Leg X-Guard control with immediate sweep and submission threats
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, Single Leg X Recovery represents the preferred escape path when t
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice leg threading mechanics with partner providing static entanglement. Focus on hip rotation angle, dorsiflexion maintenance, and inside knee control sequence without time pressure.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light resistance and moves to attack heel hook. Practice recognizing recovery windows during grip changes and weight shifts, aborting when entanglement is too deep.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain Single Leg X Recovery with immediate sweep attempts and submission entries. Practice transitioning to X-Guard, technical standup, and heel hook attacks from completed recovery.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in live rolling and positional sparring. Start from Ushiro Ashi-Garami bottom with partner working genuine submissions, using recovery against realistic offensive pressure.
-(Resistance: Full)
 
 
 

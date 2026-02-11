@@ -505,50 +505,7 @@
       }
     },
     "position_metrics": {
-      "type": "object",
-      "description": "Success rates, retention rates, probabilities",
-      "additionalProperties": false,
-      "required": [
-        "retention_rate",
-        "advancement_probability",
-        "submission_probability"
-      ],
-      "properties": {
-        "retention_rate": {
-          "allOf": [
-            {
-              "$ref": "#/$defs/skill_level_success_rates"
-            },
-            {
-              "description": "Position retention by skill level"
-            }
-          ]
-        },
-        "advancement_probability": {
-          "allOf": [
-            {
-              "$ref": "#/$defs/skill_level_success_rates"
-            },
-            {
-              "description": "Probability of advancing to better position"
-            }
-          ]
-        },
-        "submission_probability": {
-          "allOf": [
-            {
-              "$ref": "#/$defs/skill_level_success_rates"
-            },
-            {
-              "description": "Probability of finishing from this position"
-            }
-          ]
-        },
-        "average_time": {
-          "type": "string",
-          "description": "Average time spent in position (optional)"
-        }
-      }
+      "$ref": "#/$defs/position_metrics"
     },
     "knowledge_assessment": {
       "type": "array",
@@ -573,37 +530,55 @@
         }
       }
     },
-    "skill_level_success_rates": {
+    "value_with_description": {
       "type": "object",
-      "description": "Success rates by skill level - REQUIRED with validation (beginner ≤ intermediate ≤ advanced)",
+      "description": "A metric value with optional description",
       "additionalProperties": false,
-      "required": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
+      "required": ["value"],
       "properties": {
-        "beginner": {
+        "value": {
           "type": "integer",
           "minimum": 0,
           "maximum": 100,
-          "description": "Success rate for beginner practitioners"
-        },
-        "intermediate": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100,
-          "description": "Success rate for intermediate practitioners"
-        },
-        "advanced": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100,
-          "description": "Success rate for advanced practitioners"
+          "description": "Percentage value (0-100)"
         },
         "description": {
           "type": "string",
           "description": "Optional description of this metric"
+        }
+      }
+    },
+    "position_metrics": {
+      "type": "object",
+      "description": "Success rates, retention rates, probabilities",
+      "additionalProperties": false,
+      "required": [
+        "retention_rate",
+        "advancement_probability",
+        "submission_probability"
+      ],
+      "properties": {
+        "retention_rate": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Position retention rate" }
+          ]
+        },
+        "advancement_probability": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Probability of advancing to better position" }
+          ]
+        },
+        "submission_probability": {
+          "allOf": [
+            { "$ref": "#/$defs/value_with_description" },
+            { "description": "Probability of finishing from this position" }
+          ]
+        },
+        "average_time": {
+          "type": "string",
+          "description": "Average time spent in position (optional)"
         }
       }
     }

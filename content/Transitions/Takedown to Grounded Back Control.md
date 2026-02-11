@@ -163,7 +163,7 @@ The technique operates on a simple mechanical principle: gravity is your ally wh
 Strategically, this transition should be attempted when the opponent demonstrates strong upright posture, active grip fighting that threatens your harness, or when they begin loading weight to attempt a throw or reversal. The decision to take the fight down rather than pursue standing submissions reflects a positional-dominance philosophy: grounded back control with hooks is statistically the highest-percentage finishing position in competition grappling. Converting standing back exposure to grounded back control is not merely a positional improvement; it is the single most important conversion in the back attack system.
 
 **From Position**: [[Standing Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this transition should be attempted when the opponent demonstrate
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure harness and assess base**: Confirm your seatbelt grip is tight with the choking arm over the opponent's shoulder and the control arm under their armpit, hands clasped. Press your chest firmly into their back and assess their stance width and weight distribution to select your takedown angle. (Timing: Continuous assessment while maintaining control)
-2. **Break opponent's base**: Shift your hips laterally to one side while pulling the opponent's upper body in the opposite direction using your harness grip. This creates a rotational force that disrupts their stance. Alternatively, step your lead foot behind their heel to block their posting ability while driving rearward pressure through your chest. (Timing: Execute immediately when opponent's weight shifts or they lift a foot)
-3. **Initiate the descent**: Sit your hips down and to the side while maintaining absolute chest-to-back pressure. Your hips should drop below the opponent's hips, using gravity and your body weight to pull them down. Do not pull with your arms alone; drive the takedown through your hip drop and leg positioning. (Timing: Immediately after base is broken, before opponent can re-establish footing)
-4. **Insert first hook during fall**: As the opponent begins falling, thread your bottom leg (the side closest to the ground) inside their thigh and hook with your instep. This hook must be inserted during the transition itself, not after landing, because the descent creates a natural opening as their legs separate for balance. (Timing: During the descent, before impact with the ground)
-5. **Control the landing angle**: Guide the opponent to land on their side rather than flat on their stomach by maintaining lateral pressure through your harness grip and hips. Landing them on their side exposes both thighs for hook insertion and prevents them from immediately turtling or flattening to defend. (Timing: Final phase of descent, controlling impact position)
-6. **Insert second hook and consolidate**: Immediately upon landing, thread your second leg inside the opponent's top thigh, hooking with your instep behind their knee. Lock both hooks deep with toes pointed outward and squeeze your knees together to clamp their hips. Tighten your seatbelt grip and drive your chest forward into their back. (Timing: Within 1-2 seconds of landing)
-7. **Establish dominant ground control**: Adjust your weight distribution so your hips are glued to the opponent's hips and your chest maintains constant forward pressure. Begin transitioning to your preferred attacking configuration: maintain hooks for mobility, switch to body triangle for pressure, or start hand fighting toward rear naked choke entry. (Timing: Immediately after both hooks are secured)
+1. **Secure harness and assess base**: Confirm your seatbelt grip is tight with the choking arm over the opponent's shoulder and the control arm under their armpit, hands clasped. Press your chest firmly into their back and assess their stance width and weight distribution to select your takedown angle.
+2. **Break opponent's base**: Shift your hips laterally to one side while pulling the opponent's upper body in the opposite direction using your harness grip. This creates a rotational force that disrupts their stance. Alternatively, step your lead foot behind their heel to block their posting ability while driving rearward pressure through your chest.
+3. **Initiate the descent**: Sit your hips down and to the side while maintaining absolute chest-to-back pressure. Your hips should drop below the opponent's hips, using gravity and your body weight to pull them down. Do not pull with your arms alone; drive the takedown through your hip drop and leg positioning.
+4. **Insert first hook during fall**: As the opponent begins falling, thread your bottom leg (the side closest to the ground) inside their thigh and hook with your instep. This hook must be inserted during the transition itself, not after landing, because the descent creates a natural opening as their legs separate for balance.
+5. **Control the landing angle**: Guide the opponent to land on their side rather than flat on their stomach by maintaining lateral pressure through your harness grip and hips. Landing them on their side exposes both thighs for hook insertion and prevents them from immediately turtling or flattening to defend.
+6. **Insert second hook and consolidate**: Immediately upon landing, thread your second leg inside the opponent's top thigh, hooking with your instep behind their knee. Lock both hooks deep with toes pointed outward and squeeze your knees together to clamp their hips. Tighten your seatbelt grip and drive your chest forward into their back.
+7. **Establish dominant ground control**: Adjust your weight distribution so your hips are glued to the opponent's hips and your chest maintains constant forward pressure. Begin transitioning to your preferred attacking configuration: maintain hooks for mobility, switch to body triangle for pressure, or start hand fighting toward rear naked choke entry.
 
 
 </section>
@@ -265,19 +265,15 @@ Strategically, this transition should be attempted when the opponent demonstrate
 ## Training Progressions
 **Week 1-2** - Descent mechanics and hook insertion timing
 Practice the hip drop and lateral displacement with a fully cooperative partner. Focus on maintaining chest-to-back connection throughout the fall and inserting the first hook during the descent. Drill the landing angle to get the opponent on their side. Perform 20-30 repetitions per side, emphasizing smooth mechanics over speed.
-(Resistance: None)
 
 **Week 3-4** - Base-breaking entries and grip maintenance
 Partner provides light resistance by widening stance and shifting weight. Practice recognizing weight distribution patterns and selecting appropriate base-breaking methods: trip, lateral pull, or diagonal drive. Partner tests your seatbelt grip during the descent to ensure you maintain connection under pressure.
-(Resistance: Light)
 
 **Week 5-6** - Countering defensive reactions
 Partner actively resists with specific counters: turning into you, dropping to knees, widening base, or grabbing your legs. Practice adjusting your takedown entry in real time based on their reactions. Chain the mat return with immediate submission threats upon landing. Drill the transition from standing back control to rear naked choke setup in one continuous sequence.
-(Resistance: Medium)
 
 **Week 7-8** - Live integration and competition scenarios
 Begin from neutral standing position, work back take to mat return to submission finish as a complete sequence under full resistance. Practice in positional sparring rounds starting from standing back control with opponent trying to escape while you attempt the mat return. Develop the ability to choose between standing submissions and mat return based on live opponent reactions.
-(Resistance: Full)
 
 
 

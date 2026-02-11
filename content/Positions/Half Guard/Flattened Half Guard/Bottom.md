@@ -347,11 +347,11 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 15% | 2% |
-| Intermediate | 50% | 35% | 5% |
-| Advanced     | 65% | 50% | 10% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 42% |
+| Submission Probability | 8% |
 
 **Average Time in Position**: 15-45 seconds before pass or recovery
 

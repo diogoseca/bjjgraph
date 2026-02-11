@@ -9,11 +9,6 @@
     "transition",
     "advanced"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Matrix Back Take is an advanced transition from turtle position that exploits the opponent's defensive posture to establish back control. This technique derives its name from the fluid, evasive movements required to navigate around the opponent's defensive frames while maintaining constant pressure and connection. The Matrix Back Take is particularly effective when the opponent is tightly defending their turtle position with good base and posture, making traditional back take entries difficult. By using dynamic movement and precise weight distribution, the attacker can bypass the opponent's defenses and secure the coveted back control position.\n\nThis technique requires excellent body awareness, timing, and the ability to read the opponent's defensive reactions. The Matrix Back Take involves a series of coordinated movements that flow together seamlessly, creating a path to the back even when the opponent is actively defending. The key to success lies in maintaining constant connection to the opponent while continuously adjusting pressure and angles to prevent them from recovering guard or escaping to a better position. When executed properly, the Matrix Back Take feels effortless and creates minimal opportunity for the opponent to counter or escape.\n\nThe Matrix Back Take has become increasingly popular in modern no-gi grappling, where traditional gi-based controls are unavailable. It represents a sophisticated understanding of positional transitions and demonstrates the importance of movement quality over static pressure. This technique is commonly seen in high-level competition and is a staple in many contemporary back attack systems.",
   "key_principles": [
     "Maintain constant connection to opponent's hips and upper body throughout the transition",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Establish initial control from turtle top",
-      "description": "Begin from a strong turtle top position with your chest heavy on the opponent's upper back. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Your weight should be distributed to prevent the opponent from sitting back or turning into you, while your knees maintain a wide base for stability.",
-      "timing": "Establish solid control before beginning the transition"
+      "description": "Begin from a strong turtle top position with your chest heavy on the opponent's upper back. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Your weight should be distributed to prevent the opponent from sitting back or turning into you, while your knees maintain a wide base for stability."
     },
     {
       "step_number": 2,
       "action": "Create angle and insert near-side arm",
-      "description": "Begin to circle your body toward the opponent's far side while maintaining pressure on their upper back. As you create this angle, thread your near-side arm deep under the opponent's near-side armpit, reaching toward their far-side shoulder. This arm should be inserted deeply enough that your shoulder is pressed against their ribs, creating a strong connection point.",
-      "timing": "Coordinate angle creation with arm insertion in one smooth motion"
+      "description": "Begin to circle your body toward the opponent's far side while maintaining pressure on their upper back. As you create this angle, thread your near-side arm deep under the opponent's near-side armpit, reaching toward their far-side shoulder. This arm should be inserted deeply enough that your shoulder is pressed against their ribs, creating a strong connection point."
     },
     {
       "step_number": 3,
       "action": "Step near-side leg through",
-      "description": "With your near-side arm deeply inserted, swing your near-side leg through the space between the opponent's elbow and knee on the near side. Your foot should end up on the mat near the opponent's far-side hip, with your knee maintaining connection to their near-side hip. This creates the beginning of the 'matrix' position where your body is perpendicular to the opponent's torso.",
-      "timing": "Execute leg insertion while opponent is still processing arm control"
+      "description": "With your near-side arm deeply inserted, swing your near-side leg through the space between the opponent's elbow and knee on the near side. Your foot should end up on the mat near the opponent's far-side hip, with your knee maintaining connection to their near-side hip. This creates the beginning of the 'matrix' position where your body is perpendicular to the opponent's torso."
     },
     {
       "step_number": 4,
       "action": "Slide hips under opponent's center line",
-      "description": "Now perform the signature 'matrix' movement by sliding your hips underneath the opponent's center of gravity while maintaining your arm and leg connections. Your back may briefly contact the mat as you slide through, resembling the backward lean from the movie Matrix. Keep your head and shoulders elevated to maintain pressure on the opponent's upper body.",
-      "timing": "Smooth, continuous slide without pausing mid-transition"
+      "description": "Now perform the signature 'matrix' movement by sliding your hips underneath the opponent's center of gravity while maintaining your arm and leg connections. Your back may briefly contact the mat as you slide through, resembling the backward lean from the movie Matrix. Keep your head and shoulders elevated to maintain pressure on the opponent's upper body."
     },
     {
       "step_number": 5,
       "action": "Establish bottom hook",
-      "description": "As you emerge on the opponent's far side with your hips underneath them, immediately insert your far-side leg as a bottom hook, curling it around the opponent's near-side thigh. This hook should be deep, with your heel pulling toward the opponent's groin area. The bottom hook is critical for preventing the opponent from turning into you or recovering guard.",
-      "timing": "Insert bottom hook immediately upon reaching the far side"
+      "description": "As you emerge on the opponent's far side with your hips underneath them, immediately insert your far-side leg as a bottom hook, curling it around the opponent's near-side thigh. This hook should be deep, with your heel pulling toward the opponent's groin area. The bottom hook is critical for preventing the opponent from turning into you or recovering guard."
     },
     {
       "step_number": 6,
       "action": "Secure top hook and seatbelt control",
-      "description": "With the bottom hook established, bring your near-side leg over the opponent's far-side hip to establish the top hook. Simultaneously, adjust your arm position to achieve seatbelt control, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together on their chest. Apply back pressure by pulling with your hooks and squeezing your knees together.",
-      "timing": "Establish both hooks before opponent realizes they've lost the position"
+      "description": "With the bottom hook established, bring your near-side leg over the opponent's far-side hip to establish the top hook. Simultaneously, adjust your arm position to achieve seatbelt control, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together on their chest. Apply back pressure by pulling with your hooks and squeezing your knees together."
     },
     {
       "step_number": 7,
       "action": "Flatten opponent and consolidate back control",
-      "description": "Once both hooks are established with seatbelt control, work to flatten the opponent by pulling them backward with your hooks while driving your chest into their upper back. Break down their turtle structure completely and transition them to a fully supine position where you have dominant back control. Adjust your hooks as needed to maintain control and begin attacking for submissions.",
-      "timing": "Gradual pressure to break down structure without losing hooks"
+      "description": "Once both hooks are established with seatbelt control, work to flatten the opponent by pulling them backward with your hooks while driving your chest into their upper back. Break down their turtle structure completely and transition them to a fully supine position where you have dominant back control. Adjust your hooks as needed to maintain control and begin attacking for submissions."
     }
   ],
   "common_counters": [
@@ -129,32 +117,27 @@
     {
       "phase": "Week 1-2: Isolated Movement Drilling",
       "focus": "Master the matrix slide movement pattern without resistance",
-      "description": "Practice the hip slide motion in isolation, focusing on smooth weight transfer and maintaining connection points. Partner remains stationary in turtle while you drill the movement of inserting your arm, stepping the leg through, and sliding your hips underneath. Emphasis should be on developing the motor pattern and body awareness.",
-      "resistance_level": "None"
+      "description": "Practice the hip slide motion in isolation, focusing on smooth weight transfer and maintaining connection points. Partner remains stationary in turtle while you drill the movement of inserting your arm, stepping the leg through, and sliding your hips underneath. Emphasis should be on developing the motor pattern and body awareness."
     },
     {
       "phase": "Week 3-4: Progressive Resistance",
       "focus": "Execute the technique against light defensive movement",
-      "description": "Partner begins adding realistic defensive posture in turtle, maintaining base and protecting their neck, but not actively countering your entries. Work on reading their body position and timing your entries appropriately. Focus on maintaining connection throughout the transition even as they shift their weight.",
-      "resistance_level": "Light"
+      "description": "Partner begins adding realistic defensive posture in turtle, maintaining base and protecting their neck, but not actively countering your entries. Work on reading their body position and timing your entries appropriately. Focus on maintaining connection throughout the transition even as they shift their weight."
     },
     {
       "phase": "Week 5-8: Active Defense Integration",
       "focus": "Successfully complete the technique against common counters",
-      "description": "Partner now actively defends using the common counters outlined above, forcing you to problem-solve in real-time. Practice recognizing which counter they're employing and implementing the appropriate response. Begin chaining the matrix back take with alternative entries and transitions.",
-      "resistance_level": "Medium"
+      "description": "Partner now actively defends using the common counters outlined above, forcing you to problem-solve in real-time. Practice recognizing which counter they're employing and implementing the appropriate response. Begin chaining the matrix back take with alternative entries and transitions."
     },
     {
       "phase": "Week 9-12: Competition Simulation",
       "focus": "Apply technique in live positional sparring from turtle",
-      "description": "Integrate the matrix back take into live positional sparring sessions starting from turtle top position. Partner uses full resistance and all available defensive options. Focus on recognizing the optimal moments to attempt the technique and developing backup options when it's not available. Begin tracking success rates and identifying personal sticking points.",
-      "resistance_level": "Full"
+      "description": "Integrate the matrix back take into live positional sparring sessions starting from turtle top position. Partner uses full resistance and all available defensive options. Focus on recognizing the optimal moments to attempt the technique and developing backup options when it's not available. Begin tracking success rates and identifying personal sticking points."
     },
     {
       "phase": "Week 13+: System Integration and Refinement",
       "focus": "Seamlessly integrate into complete back attack system",
-      "description": "Work on flowing between the matrix back take and other back take options from turtle, creating a comprehensive turtle top system. Develop the ability to chain multiple attempts together and capitalize on defensive reactions. Continue refining technique details based on video review and sparring feedback.",
-      "resistance_level": "Full"
+      "description": "Work on flowing between the matrix back take and other back take options from turtle, creating a comprehensive turtle top system. Develop the ability to chain multiple attempts together and capitalize on defensive reactions. Continue refining technique details based on video review and sparring feedback."
     }
   ],
   "variants_and_adaptations": [
@@ -182,33 +165,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical connection point to maintain throughout the entire matrix back take transition?",
-      "answer": "The near-side arm control on the opponent's shoulder or lat is the most critical connection point. This arm acts as an anchor that prevents the opponent from turning into you while your body moves around them during the hip slide. Without maintaining this connection, the opponent can easily rotate toward you and eliminate your back take opportunity, potentially recovering guard or achieving a better position.",
-      "difficulty": "Intermediate"
+      "answer": "The near-side arm control on the opponent's shoulder or lat is the most critical connection point. This arm acts as an anchor that prevents the opponent from turning into you while your body moves around them during the hip slide. Without maintaining this connection, the opponent can easily rotate toward you and eliminate your back take opportunity, potentially recovering guard or achieving a better position."
     },
     {
       "question": "Why is it important to establish the bottom hook before attempting to secure the top hook?",
-      "answer": "The bottom hook is your primary control point that prevents the opponent from turning into you or recovering guard. Attempting to establish both hooks simultaneously creates instability and gives the opponent the opportunity to sit back onto their heels or rotate away. By securing the bottom hook first, you create a stable base from which to safely establish the top hook without risking the entire position.",
-      "difficulty": "Beginner"
+      "answer": "The bottom hook is your primary control point that prevents the opponent from turning into you or recovering guard. Attempting to establish both hooks simultaneously creates instability and gives the opponent the opportunity to sit back onto their heels or rotate away. By securing the bottom hook first, you create a stable base from which to safely establish the top hook without risking the entire position."
     },
     {
       "question": "How should you respond if the opponent sits back heavily onto their heels as you attempt to insert your leg during the matrix entry?",
-      "answer": "You should immediately switch to a traditional seat belt back take or truck entry rather than forcing the matrix slide. Use your near-side arm control to pull the opponent forward and off their base, which will create the space needed to either re-attempt the matrix entry from a better angle or transition to an alternative back take method. Forcing the technique when the opponent has countered effectively will result in loss of position.",
-      "difficulty": "Advanced"
+      "answer": "You should immediately switch to a traditional seat belt back take or truck entry rather than forcing the matrix slide. Use your near-side arm control to pull the opponent forward and off their base, which will create the space needed to either re-attempt the matrix entry from a better angle or transition to an alternative back take method. Forcing the technique when the opponent has countered effectively will result in loss of position."
     },
     {
       "question": "What makes the matrix back take particularly effective against experienced turtle defenders?",
-      "answer": "The matrix back take bypasses traditional defensive frames through dynamic movement rather than attempting to fight through them with static pressure. Experienced turtle defenders are very good at maintaining base and protecting against direct back take attempts, but the matrix slide creates an unexpected angle of attack that circumvents their usual defensive structures. The fluid, continuous movement of the technique makes it difficult for opponents to effectively counter once the sequence has begun.",
-      "difficulty": "Intermediate"
+      "answer": "The matrix back take bypasses traditional defensive frames through dynamic movement rather than attempting to fight through them with static pressure. Experienced turtle defenders are very good at maintaining base and protecting against direct back take attempts, but the matrix slide creates an unexpected angle of attack that circumvents their usual defensive structures. The fluid, continuous movement of the technique makes it difficult for opponents to effectively counter once the sequence has begun."
     },
     {
       "question": "Describe the proper weight distribution during the matrix hip slide phase and explain why it matters?",
-      "answer": "During the hip slide, your weight should transfer smoothly from pressure on the opponent's upper back to controlled pressure that maintains connection without crushing your own mobility. Your chest should remain heavy enough on their upper back to prevent them from posturing up, while your hips stay mobile and light enough to slide smoothly underneath their center of gravity. Proper weight distribution allows you to maintain control throughout the transition while preserving the movement quality necessary to complete the technique. Too much weight makes you slow and stuck; too little weight allows the opponent to escape or counter.",
-      "difficulty": "Advanced"
+      "answer": "During the hip slide, your weight should transfer smoothly from pressure on the opponent's upper back to controlled pressure that maintains connection without crushing your own mobility. Your chest should remain heavy enough on their upper back to prevent them from posturing up, while your hips stay mobile and light enough to slide smoothly underneath their center of gravity. Proper weight distribution allows you to maintain control throughout the transition while preserving the movement quality necessary to complete the technique. Too much weight makes you slow and stuck; too little weight allows the opponent to escape or counter."
     },
     {
       "question": "What is the purpose of controlling the opponent's far-side hip during the matrix back take?",
-      "answer": "Controlling the far-side hip serves multiple purposes: it prevents the opponent from rotating their hips away during your entry, it guides your own movement as you circle around their body, and it helps you maintain awareness of their body orientation throughout the transition. This grip limits the opponent's defensive options by controlling their hip movement, which is essential for maintaining the proper angles needed to successfully slide underneath and establish back control.",
-      "difficulty": "Beginner"
+      "answer": "Controlling the far-side hip serves multiple purposes: it prevents the opponent from rotating their hips away during your entry, it guides your own movement as you circle around their body, and it helps you maintain awareness of their body orientation throughout the transition. This grip limits the opponent's defensive options by controlling their hip movement, which is essential for maintaining the proper angles needed to successfully slide underneath and establish back control."
     }
   ],
   "safety_considerations": "The matrix back take is generally a safe technique when practiced with proper control and awareness. The primary safety concern is during the hip slide phase, where both practitioners are in somewhat vulnerable positions if coordination is lost. Always ensure your partner is comfortable with the movement before adding speed or resistance. When drilling, communicate clearly if you feel off-balance or unstable during the transition. Avoid slamming or dropping your weight suddenly during the slide, as this can cause neck or shoulder injuries to your partner. For the person in turtle, be aware that the matrix entry can feel disorienting the first few times, so tap early if you feel your balance compromised or if pressure on your neck becomes uncomfortable. When the technique is completed and back control is established, both practitioners should be mindful of proper hook placement to avoid knee or ankle injuries. The person on bottom should never explosively bridge or roll if hooks are deep, as this can strain joints. Progress slowly through the resistance levels in training progressions to allow both practitioners to develop the necessary body awareness and control.",
@@ -272,5 +249,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

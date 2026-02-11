@@ -21,7 +21,7 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Choke",
-      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Choke. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
@@ -45,7 +45,7 @@ description: "Master offensive control from Anaconda Control Top position. Learn
     {
       "@type": "HowToStep",
       "name": "Execute Back Take Generic",
-      "text": "From this position, attempt Back Take Generic. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Take Generic. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
@@ -211,7 +211,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Available Attacks
 
-### [[Anaconda Choke]] (18% of attempts)
+### [[Anaconda Choke]] (19% of attempts)
 
 ### [[Anaconda from Turtle]] (20% of attempts)
 
@@ -219,7 +219,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ### [[Front Headlock to Darce]] (16% of attempts)
 
-### [[Back Take Generic]] (15% of attempts)
+### [[Back Take Generic]] (14% of attempts)
 
 ### [[Side Control to Mount]] (14% of attempts)
 
@@ -247,7 +247,7 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 
 **If opponent straightens their trapped arm in defense:**
-- Execute **[[Front Headlock to Darce]]** → [[D'arce Control]] (Probability: 70%)
+- Execute **[[Front Headlock to Darce]]** → [[Darce Control]] (Probability: 70%)
 - Execute **[[Anaconda Choke]]** → [[game-over]] (Probability: 65%)
 
 
@@ -355,11 +355,11 @@ Start with anaconda grip established, bottom player works to escape while top pl
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 45% |
-| Intermediate | 70% | 60% | 65% |
-| Advanced     | 85% | 75% | 80% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 72% |
 
 **Average Time in Position**: 15-45 seconds (transitional position - should advance quickly)
 
@@ -371,12 +371,12 @@ Start with anaconda grip established, bottom player works to escape while top pl
 ## Related Positions and Techniques
 
 - **[[Front Headlock]]** - Primary entry position - anaconda grip often secured from front headlock situations
-- **[[D'arce Control]]** - Sister position - similar arm-in configuration with different hand positioning and mechanics
+- **[[Darce Control]]** - Sister position - similar arm-in configuration with different hand positioning and mechanics
 - **[[Turtle]]** - Common entry position - opponent's turtle creates ideal circumstances for anaconda grip
 - **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position
 - **[[Anaconda Variations]]** - Related techniques - different finishing mechanics and setups for anaconda system
 - **[[Front Headlock to Anaconda]]** - Key transition - technical sequence for entering anaconda control from headlock
-- **[[D'arce-Anaconda Connection]]** - System relationship - understanding the interchange between these arm-in positions
+- **[[Darce-Anaconda Connection]]** - System relationship - understanding the interchange between these arm-in positions
 - **[[Side Control]]** - Advancement target - position gained after successful roll-through from anaconda
 
 

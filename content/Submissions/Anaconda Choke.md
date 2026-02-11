@@ -163,7 +163,8 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**From Position**: [[Anaconda Control]] (Top)
+**Success Rate**: 65%
 
 </section>
 
@@ -241,13 +242,13 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish front headlock control**: From opponent's turtle position or as they shoot a takedown, secure your arm around their neck in a front headlock position. Your chest should be heavy on their upper back/neck area, preventing them from posturing up. Control their near arm with your free hand, either gripping their wrist or tricep, or trap it against their body. Keep your hips low and weight distributed forward to maintain control. (Timing: Initial control phase: 1-2 seconds) [Pressure: Moderate]
-2. **Thread choking arm deep under neck**: With your controlling arm already around their neck, begin threading it deeper, aiming to get your forearm across their far-side carotid artery. Your hand should emerge on the opposite side of their body, past their shoulder. The key is depth - shallow placement will not create sufficient pressure. As you thread, use your other hand to help guide your choking arm deeper by pushing your own elbow or pulling your wrist through. (Timing: Threading phase: 2-3 seconds) [Pressure: Light]
-3. **Trap opponent's arm against their neck**: As your choking arm threads through, ensure the opponent's near-side arm is trapped tightly against their own neck and shoulder. This arm becomes part of the choking mechanism - their own shoulder will compress their opposite carotid artery. If their arm is not trapped, reach across with your free hand and pull their wrist toward their opposite shoulder, folding the arm against their neck. This creates the essential dual-sided pressure. (Timing: Arm trapping: 1-2 seconds) [Pressure: Moderate]
-4. **Complete figure-four grip**: Once your choking arm has threaded through and their arm is trapped, bring your free hand to meet your choking hand. Establish a Gable grip (palm to palm with fingers interlocked) or a rear naked choke grip (hand to bicep). The grip should be tight and close to your chest. Your choking-side elbow should be underneath their neck/throat area, while your other elbow hooks over their trapped arm and shoulder. This creates the figure-four configuration. (Timing: Grip completion: 1-2 seconds) [Pressure: Moderate]
-5. **Roll to side and bring knees to chest**: With the figure-four established, perform a controlled roll to your side (the side of your choking arm), bringing the opponent with you. As you roll, pull your knees up toward your chest in a ball position. This accomplishes two critical elements: it removes your weight from blocking their escape path, and it allows you to use hip pressure to drive the choke. Your back should be on the mat with opponent on their side facing away from you. (Timing: Rolling phase: 1-2 seconds) [Pressure: Firm]
-6. **Apply finishing pressure with hip extension and elbow squeeze**: From the rolled position, apply the finish by doing three simultaneous actions: (1) Squeeze your elbows together toward each other, tightening the figure-four noose; (2) Expand your chest by arching your back slightly, which pulls your arms tighter; (3) Drive your hips forward toward opponent's body, using hip pressure to compress the choke deeper. The pressure should be applied progressively over 3-5 seconds, allowing time for tap. Focus on steady constriction rather than explosive cranking. (Timing: Finishing phase: 3-5 seconds progressive pressure) [Pressure: Maximum]
-7. **Maintain control and monitor for tap**: As you apply finishing pressure, keep your body tight and compact. Your knees should stay near your chest to maintain hip pressure. Monitor your partner constantly for tap signals - watch their free hand, listen for verbal tap, feel for tapping on your body. If they attempt to defend by pushing your head or grabbing your arms, maintain your grip and pressure. If no tap comes within 3-5 seconds of full pressure, they are likely defending effectively - reassess position or release and restart. (Timing: Sustained pressure: 3-5 seconds maximum before release or reassessment) [Pressure: Maximum]
+1. **Establish front headlock control**: From opponent's turtle position or as they shoot a takedown, secure your arm around their neck in a front headlock position. Your chest should be heavy on their upper back/neck area, preventing them from posturing up. Control their near arm with your free hand, either gripping their wrist or tricep, or trap it against their body. Keep your hips low and weight distributed forward to maintain control. (Timing: Initial control phase: 1-2 seconds)
+2. **Thread choking arm deep under neck**: With your controlling arm already around their neck, begin threading it deeper, aiming to get your forearm across their far-side carotid artery. Your hand should emerge on the opposite side of their body, past their shoulder. The key is depth - shallow placement will not create sufficient pressure. As you thread, use your other hand to help guide your choking arm deeper by pushing your own elbow or pulling your wrist through. (Timing: Threading phase: 2-3 seconds)
+3. **Trap opponent's arm against their neck**: As your choking arm threads through, ensure the opponent's near-side arm is trapped tightly against their own neck and shoulder. This arm becomes part of the choking mechanism - their own shoulder will compress their opposite carotid artery. If their arm is not trapped, reach across with your free hand and pull their wrist toward their opposite shoulder, folding the arm against their neck. This creates the essential dual-sided pressure. (Timing: Arm trapping: 1-2 seconds)
+4. **Complete figure-four grip**: Once your choking arm has threaded through and their arm is trapped, bring your free hand to meet your choking hand. Establish a Gable grip (palm to palm with fingers interlocked) or a rear naked choke grip (hand to bicep). The grip should be tight and close to your chest. Your choking-side elbow should be underneath their neck/throat area, while your other elbow hooks over their trapped arm and shoulder. This creates the figure-four configuration. (Timing: Grip completion: 1-2 seconds)
+5. **Roll to side and bring knees to chest**: With the figure-four established, perform a controlled roll to your side (the side of your choking arm), bringing the opponent with you. As you roll, pull your knees up toward your chest in a ball position. This accomplishes two critical elements: it removes your weight from blocking their escape path, and it allows you to use hip pressure to drive the choke. Your back should be on the mat with opponent on their side facing away from you. (Timing: Rolling phase: 1-2 seconds)
+6. **Apply finishing pressure with hip extension and elbow squeeze**: From the rolled position, apply the finish by doing three simultaneous actions: (1) Squeeze your elbows together toward each other, tightening the figure-four noose; (2) Expand your chest by arching your back slightly, which pulls your arms tighter; (3) Drive your hips forward toward opponent's body, using hip pressure to compress the choke deeper. The pressure should be applied progressively over 3-5 seconds, allowing time for tap. Focus on steady constriction rather than explosive cranking. (Timing: Finishing phase: 3-5 seconds progressive pressure)
+7. **Maintain control and monitor for tap**: As you apply finishing pressure, keep your body tight and compact. Your knees should stay near your chest to maintain hip pressure. Monitor your partner constantly for tap signals - watch their free hand, listen for verbal tap, feel for tapping on your body. If they attempt to defend by pushing your head or grabbing your arms, maintain your grip and pressure. If no tap comes within 3-5 seconds of full pressure, they are likely defending effectively - reassess position or release and restart. (Timing: Sustained pressure: 3-5 seconds maximum before release or reassessment)
 
 
 </section>
@@ -267,28 +268,28 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying the choke from top position without rolling to side [Low DANGER]
+- **Mistake**: Applying the choke from top position without rolling to side
   - **Consequence**: From top position, your body weight blocks the opponent's rolling escape path, but you cannot generate the hip pressure needed to finish. Opponent can often hand fight effectively and escape the choke.
   - **Correction**: After establishing the figure-four grip, commit to the roll to your side. Bring knees to chest immediately and use hip pressure to drive the choke. The roll is not optional - it's essential to the finish.
-- **Mistake**: Shallow threading of choking arm under opponent's neck [Low DANGER]
+- **Mistake**: Shallow threading of choking arm under opponent's neck
   - **Consequence**: Shallow arm position fails to reach the far-side carotid artery and creates a weak, ineffective choke that opponent can defend easily. Results in wasted energy and lost submission opportunity.
   - **Correction**: Thread your arm as deep as possible, aiming to get your entire forearm across their neck with your hand emerging well past their far shoulder. Use your free hand to guide your elbow deeper during the threading phase.
-- **Mistake**: Failing to trap opponent's arm against their neck [Low DANGER]
+- **Mistake**: Failing to trap opponent's arm against their neck
   - **Consequence**: Without their trapped arm creating pressure on their opposite carotid, you only have single-sided pressure which is insufficient for a clean finish. Opponent can also use their free arm to defend and create space.
   - **Correction**: Before completing figure-four, ensure opponent's near arm is tightly folded against their neck and shoulder. Pull their wrist toward opposite shoulder if needed. Their arm should be immobilized and contributing to the choke.
-- **Mistake**: Jerking or cranking the choke with explosive force [CRITICAL DANGER]
+- **Mistake**: Jerking or cranking the choke with explosive force
   - **Consequence**: Explosive application can cause neck injury, tracheal damage, and creates dangerous situation where opponent cannot tap in time. Can result in loss of consciousness without warning.
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum. Squeeze smoothly and steadily, allowing time for tap. In training, never use explosive finishing pressure - smooth and controlled always.
-- **Mistake**: Continuing pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner taps or shows distress
   - **Consequence**: Continuing after tap can cause loss of consciousness, neck injury, or tracheal damage. This is a serious safety violation that can result in injury and should never occur in training.
   - **Correction**: Release immediately upon any tap signal - verbal, physical, or loss of resistance. Monitor your partner constantly during application. If in doubt about their condition, release the pressure. Safety always takes priority over submission.
-- **Mistake**: Using palm-to-palm grip instead of Gable or RNC grip [Low DANGER]
+- **Mistake**: Using palm-to-palm grip instead of Gable or RNC grip
   - **Consequence**: Palm-to-palm grip is weaker and more likely to slip during finishing pressure, especially in no-gi. Reduces effectiveness and allows opponent to escape more easily.
   - **Correction**: Use Gable grip (palms together with fingers interlocked) or rear naked choke grip (hand to bicep) for maximum connection strength. These grips cannot slip and transfer hip pressure more effectively.
-- **Mistake**: Extending hips away from opponent during finish [Low DANGER]
+- **Mistake**: Extending hips away from opponent during finish
   - **Consequence**: Hip extension away from opponent reduces pressure and allows them to create space and escape. Removes the driving force that makes the Anaconda effective.
   - **Correction**: After rolling to side, drive hips forward toward opponent's body. Your knees should be near your chest with hips pushing into their back/side. Hip pressure is what finishes the choke.
-- **Mistake**: Forgetting to monitor partner for consciousness during finish [CRITICAL DANGER]
+- **Mistake**: Forgetting to monitor partner for consciousness during finish
   - **Consequence**: Partner may go unconscious without your awareness, leading to prolonged oxygen deprivation and potential injury. Blood chokes can cause loss of consciousness in 3-5 seconds.
   - **Correction**: Maintain constant awareness of partner's condition. Watch their free hand for taps, listen for verbal signals, feel for body tapping. If they go limp or stop resisting, release immediately and check consciousness.
 
@@ -355,43 +356,6 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper threading mechanics, figure-four grip establishment, and body positioning without applying finishing pressure. Understand anatomical targets and safety requirements.
-- Resistance: Zero resistance
-- Safety: Partner remains completely still. Practice threading depth and grip completion. No finishing pressure applied - stop at grip establishment. Focus on smooth, controlled movement and proper body positioning.
-
-**Slow Application Practice** (Week 3-4)
-- Focus: Practice complete technique from setup to finish with slow, progressive pressure. Partner provides zero resistance but gives feedback on pressure location and speed. Emphasis on 5-7 second application minimum.
-- Resistance: Zero resistance
-- Safety: Apply finishing pressure extremely slowly over 5-7 seconds minimum. Partner taps early (at 30-40% pressure) to practice release protocol. Practitioner must release instantly. Focus on smooth pressure application and immediate tap response.
-
-**Positional Entry Drilling** (Week 5-8)
-- Focus: Practice entries from turtle, front headlock, and sprawl positions. Partner begins adding mild defensive movements (posture attempts, hand fighting) but does not prevent submission.
-- Resistance: Mild resistance
-- Safety: Partner defends entry but allows finish once position is established. Continue 5-second minimum application. Partner taps at 50-60% pressure. Focus on recognizing when position is secure enough to apply pressure.
-
-**Active Defense Drilling** (Week 9-12)
-- Focus: Partner actively defends with realistic hand fighting, chin protection, and escape attempts. Practitioner must overcome defenses while maintaining safety. Introduction to Anaconda-Darce transitions when defenses succeed.
-- Resistance: Realistic resistance
-- Safety: Application time reduces to 3-5 seconds as technique improves. Partner taps at 70-80% pressure. Practitioner must distinguish between tight control and dangerous cranking. No explosive applications allowed.
-
-**Competition Simulation** (Week 13+)
-- Focus: Full-speed situational training from various positions. Integrate Anaconda attempts into live rolling. Partner uses full defensive knowledge. Emphasis on recognizing when to abandon attempt versus when to transition to related attacks.
-- Resistance: Full resistance
-- Safety: Training partner taps at 80-90% pressure (earlier than competition). Maintain 3-5 second progressive application - never explosive finishing. Both partners responsible for safety. Stop immediately on any tap or distress signal.
-
-**Ongoing Mastery** (Ongoing)
-- Focus: Refine timing, setups from dynamic situations, and seamless transitions between Anaconda, Darce, and other front headlock attacks. Develop sensitivity to opponent's defense patterns and appropriate counter-adjustments.
-- Resistance: Full resistance
-- Safety: Maintain safety standards regardless of skill level. Experienced practitioners have responsibility to protect less experienced partners. Never use competition-speed finishes in training. Continue progressive pressure application and instant release on tap.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -417,7 +381,7 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 - [[Arm Triangle]]
 - [[Rear Naked Choke]]
 - [[Anaconda Variations]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 - [[Brabo Choke]]
 - [[Arm in Guillotine]]
 - [[Guillotine Variations]]
@@ -439,11 +403,25 @@ The Anaconda Choke is a front headlock blood choke that targets the carotid arte
 - [[Turtle]] - Primary attacking position for Anaconda setups
 - [[Side Control]] - Position you can transition to if Anaconda attempt fails
 - [[North-South]] - Alternative finishing position for Marce variation
-- [[D'arce Control]] - Control position closely related to Anaconda mechanics
+- [[Darce Control]] - Control position closely related to Anaconda mechanics
 - [[Anaconda Control]] - Specific control position for setting up the Anaconda finish
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 55% |
+| Failure | [[Anaconda Control]] | 45% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

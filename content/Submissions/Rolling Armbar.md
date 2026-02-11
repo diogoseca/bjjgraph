@@ -157,7 +157,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 **Type**: Arm Lock
 **Target Area**: Elbow joint
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -235,12 +235,12 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the arm and establish control**: From closed guard or during a scramble, secure a two-on-one grip on the opponent's arm. Your outside hand grips their wrist while your inside hand controls above the elbow or grips the bicep. Pull the arm across your centerline and tight to your chest, isolating it from their body. This initial control is critical - without it, the entire technique fails. (Timing: 0-1 seconds) [Pressure: Firm]
-2. **Break posture and create the angle**: Pull the controlled arm down and across your body while simultaneously using your legs to break their posture forward. Open your guard if closed, and swing your outside leg (same side as the controlled arm) over their shoulder and behind their head. Create a 45-degree angle off center by hip escaping slightly to the opposite side. This angle is essential for the rolling mechanics to work properly. (Timing: 1-2 seconds) [Pressure: Firm]
-3. **Initiate the rolling motion**: Maintaining tight arm control, tuck your chin to your chest and look toward the direction you'll roll. Drive your shoulder to the mat on the same side as the controlled arm. Use your free leg to push off the mat and generate rotational momentum. The roll should feel like a smooth backwards somersault over your shoulder. Keep the opponent's arm glued to your chest throughout - any separation here allows escape. (Timing: 2-3 seconds) [Pressure: Moderate]
-4. **Complete the rotation while maintaining arm connection**: As you roll through, keep your hips connected to the controlled arm and continue pulling it tight to your center. Your body should rotate 180-270 degrees depending on the setup. Land with your back or side on the mat, with the opponent's arm still trapped between your legs. The leg that was over their shoulder should now be across their chest or face, while your other leg comes over their body to establish leg control. (Timing: 3-4 seconds) [Pressure: Firm]
-5. **Establish finishing position**: After completing the roll, immediately adjust to the standard armbar finishing position. Position the opponent's thumb pointing upward and their arm straight. Cross your ankles over their torso or face, with your knees pinched together. Scoot your hips as close to their shoulder as possible to remove any slack. Your legs should be perpendicular to their body, creating a strong structural frame. (Timing: 4-5 seconds) [Pressure: Firm]
-6. **Apply controlled extension**: With your hips positioned tight to their shoulder, pull their wrist toward your chest while simultaneously elevating your hips. The extension should be slow and controlled - imagine trying to make their arm straight rather than trying to break it. Pull their wrist down past your chest while lifting your hips up toward the ceiling. Apply pressure progressively over 2-3 seconds, watching for the tap. The moment they tap, immediately release hip pressure and open your legs. (Timing: 5-8 seconds) [Pressure: Moderate]
+1. **Secure the arm and establish control**: From closed guard or during a scramble, secure a two-on-one grip on the opponent's arm. Your outside hand grips their wrist while your inside hand controls above the elbow or grips the bicep. Pull the arm across your centerline and tight to your chest, isolating it from their body. This initial control is critical - without it, the entire technique fails. (Timing: 0-1 seconds)
+2. **Break posture and create the angle**: Pull the controlled arm down and across your body while simultaneously using your legs to break their posture forward. Open your guard if closed, and swing your outside leg (same side as the controlled arm) over their shoulder and behind their head. Create a 45-degree angle off center by hip escaping slightly to the opposite side. This angle is essential for the rolling mechanics to work properly. (Timing: 1-2 seconds)
+3. **Initiate the rolling motion**: Maintaining tight arm control, tuck your chin to your chest and look toward the direction you'll roll. Drive your shoulder to the mat on the same side as the controlled arm. Use your free leg to push off the mat and generate rotational momentum. The roll should feel like a smooth backwards somersault over your shoulder. Keep the opponent's arm glued to your chest throughout - any separation here allows escape. (Timing: 2-3 seconds)
+4. **Complete the rotation while maintaining arm connection**: As you roll through, keep your hips connected to the controlled arm and continue pulling it tight to your center. Your body should rotate 180-270 degrees depending on the setup. Land with your back or side on the mat, with the opponent's arm still trapped between your legs. The leg that was over their shoulder should now be across their chest or face, while your other leg comes over their body to establish leg control. (Timing: 3-4 seconds)
+5. **Establish finishing position**: After completing the roll, immediately adjust to the standard armbar finishing position. Position the opponent's thumb pointing upward and their arm straight. Cross your ankles over their torso or face, with your knees pinched together. Scoot your hips as close to their shoulder as possible to remove any slack. Your legs should be perpendicular to their body, creating a strong structural frame. (Timing: 4-5 seconds)
+6. **Apply controlled extension**: With your hips positioned tight to their shoulder, pull their wrist toward your chest while simultaneously elevating your hips. The extension should be slow and controlled - imagine trying to make their arm straight rather than trying to break it. Pull their wrist down past your chest while lifting your hips up toward the ceiling. Apply pressure progressively over 2-3 seconds, watching for the tap. The moment they tap, immediately release hip pressure and open your legs. (Timing: 5-8 seconds)
 
 
 </section>
@@ -260,25 +260,25 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Rolling with the arm away from your body instead of maintaining tight connection [Low DANGER]
+- **Mistake**: Rolling with the arm away from your body instead of maintaining tight connection
   - **Consequence**: Opponent easily slips their arm free during the roll, completely negating the submission attempt and potentially giving them top position
   - **Correction**: Throughout the entire rolling sequence, pull the controlled arm across your chest and keep it glued to your body. Think of trying to touch their wrist to your opposite shoulder. Use both hands to maintain this connection.
-- **Mistake**: Jerking or spiking the submission during or after the roll [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission during or after the roll
   - **Consequence**: High risk of elbow dislocation, ligament tears, or complete rupture of the joint capsule requiring surgical repair
   - **Correction**: Apply the finishing extension slowly and progressively over 3-5 seconds minimum. The roll creates momentum and surprise - you don't need speed on the finish. Watch for the tap and release immediately.
-- **Mistake**: Rolling over your neck instead of your shoulder [CRITICAL DANGER]
+- **Mistake**: Rolling over your neck instead of your shoulder
   - **Consequence**: Severe neck strain, potential cervical spine injury, and loss of control during the technique, allowing opponent to escape or counter
   - **Correction**: Tuck your chin and look at your hip on the rolling side. Drive your shoulder to the mat first, not the top of your head. The roll should go diagonally across your back from shoulder to opposite hip, never over your neck.
-- **Mistake**: Attempting the roll without proper angle or space [Medium DANGER]
+- **Mistake**: Attempting the roll without proper angle or space
   - **Consequence**: Getting stuck mid-roll, losing the arm, or ending up in a worse position with opponent achieving top control or mount
   - **Correction**: Before initiating the roll, create a 45-degree angle by hip escaping away from the controlled arm. Ensure you have at least 2-3 feet of clear mat space behind you. If space is limited, choose a different attack.
-- **Mistake**: Not controlling the opponent's head or upper body with your legs during the roll [Medium DANGER]
+- **Mistake**: Not controlling the opponent's head or upper body with your legs during the roll
   - **Consequence**: Opponent follows your roll and maintains top pressure, potentially passing to side control or mount while you're vulnerable
   - **Correction**: As you swing your leg over their shoulder, actively pull their head down and forward with your leg. Keep this leg heavy on their head/shoulder throughout the entire roll to prevent them from following your rotation.
-- **Mistake**: Finishing with legs uncrossed or knees spread apart [Low DANGER]
+- **Mistake**: Finishing with legs uncrossed or knees spread apart
   - **Consequence**: Significant loss of control and leverage, allowing opponent to escape by pulling their arm free or stacking you
   - **Correction**: After completing the roll, immediately cross your ankles over their torso and pinch your knees together tightly. Your legs should be actively squeezing their body, not just resting on them. This creates the structural integrity needed for the finish.
-- **Mistake**: Releasing hand control to adjust position after the roll [Low DANGER]
+- **Mistake**: Releasing hand control to adjust position after the roll
   - **Consequence**: Opponent immediately pulls their arm free and escapes, wasting the entire setup and potentially giving them top position
   - **Correction**: Never release your two-handed grip on their arm until the submission is fully locked or you're transitioning to another technique. Keep constant tension on the arm throughout. Position adjustments should be made with leg movement and hip positioning only.
 
@@ -345,43 +345,6 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Mechanics Drilling** (Weeks 1-2)
-- Focus: Learn the rolling mechanics separately from the submission. Practice the shoulder roll movement pattern without a partner, focusing on protecting your neck and completing smooth rotations. Then add static arm control drills where partner gives zero resistance.
-- Resistance: Zero resistance
-- Safety: Master the neck-safe rolling mechanics before adding any partner interaction. Practice tapping early and often when serving as the defender. Never attempt the technique at speed until the rolling pattern is ingrained.
-
-**Positional Drilling with Cooperative Partner** (Weeks 3-4)
-- Focus: Practice the complete sequence from setup to finish with a fully cooperative partner who maintains their arm extended and helps facilitate the roll. Focus on maintaining arm connection throughout the roll and finishing with proper leg position. No extension pressure applied.
-- Resistance: Zero resistance
-- Safety: Partner should tap preemptively before any extension is applied. Attacker practices stopping at the finishing position without applying pressure. Build muscle memory for the release protocol.
-
-**Adding Mild Defensive Resistance** (Weeks 5-6)
-- Focus: Partner begins to add light resistance - keeping their elbow bent, maintaining light posture, or providing mild stacking pressure. Attacker learns to time the roll and overcome basic defensive reactions. Begin applying very light finishing pressure (20-30% intensity maximum).
-- Resistance: Mild resistance
-- Safety: Introduce the 3-5 second minimum extension rule. Partner taps well before pain threshold. Attacker must demonstrate consistent slow application before progressing to next phase.
-
-**Realistic Defensive Scenarios** (Weeks 7-10)
-- Focus: Partner uses realistic defensive tactics - gripping their gi, stacking, pulling their arm back, and attempting to prevent the roll. Attacker develops timing, feints, and setups to overcome these defenses. Apply finishing pressure at 50-60% intensity.
-- Resistance: Realistic resistance
-- Safety: Both partners must be comfortable with tap signals and immediate release. Never attempt the technique if you feel out of control during the roll. Check partner's elbow condition regularly.
-
-**Integration into Live Rolling** (Weeks 11-14)
-- Focus: Begin attempting the rolling armbar during controlled sparring rounds with trusted partners. Focus on recognizing setup opportunities and flowing between this and other attacks. Start from positions where you have initial arm control established.
-- Resistance: Full resistance
-- Safety: Only attempt with partners who know the technique and will tap appropriately. Maintain the slow application standard even during live rolling. If you feel your control slipping during the roll, abandon the attempt immediately rather than forcing it.
-
-**Competition Application and Advanced Variations** (Months 4-6)
-- Focus: Develop competition-level timing and setups. Practice the technique during competition simulation rounds. Explore advanced entries from standing, scrambles, and combination attacks. Begin integrating variations based on opponent's defensive tendencies.
-- Resistance: Full resistance
-- Safety: Even in competition, maintain controlled application - the tap comes from position and leverage, not speed. Be especially careful with less experienced opponents who may not recognize the danger. Continue practicing the release protocol regularly to maintain muscle memory for emergency situations.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -441,6 +404,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

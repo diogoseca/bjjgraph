@@ -157,7 +157,7 @@ The transition requires precise timing and mechanical understanding of how to cr
 Strategically, this transition is essential because it transforms a position where you face constant back attack threats into one where you control distance and have access to sweeps, submissions, and positional improvements. The key insight is that posture recovery precedes guard recovery - attempting to close guard without first establishing proper spinal alignment and hip positioning leads to failed attempts and often accelerates back exposure.
 
 **From Position**: [[Crackhead Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this transition is essential because it transforms a position whe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Post your near-side hand against opponent's hip or shoulder while keeping elbow tight to your body. This frame creates the initial barrier preventing them from flattening you. (Timing: Immediately when sensing opportunity)
-2. **Strip controlling grip**: Use your far hand to strip any collar tie or seatbelt grip on your near side. Peel their grip from wrist to elbow in one smooth motion while maintaining your frame. (Timing: Within 1-2 seconds of establishing frame)
-3. **Hip escape toward frame**: Execute a small hip escape movement toward your posting hand side, creating angle and preventing opponent from following your hips. Your hip should move toward the mat on the frame side. (Timing: As grip breaks or loosens)
-4. **Insert knee shield**: Bring your inside knee across your body as a secondary frame, placing your shin across opponent's hip line. This prevents them from smashing back down and creates guard insertion angle. (Timing: Immediately following hip escape)
-5. **Rotate hips to mat**: Complete the hip rotation so your back begins to reach the mat. Pull your far leg through as you rotate, preparing to wrap around opponent's torso for guard closure. (Timing: Fluid continuation of knee shield insertion)
-6. **Close guard**: Cross your ankles behind opponent's back as your hips settle to the mat. Immediately break their posture by pulling them down with overhooks or collar ties to consolidate the closed guard position. (Timing: Within 1-2 seconds of hip rotation completion)
+1. **Establish frames**: Post your near-side hand against opponent's hip or shoulder while keeping elbow tight to your body. This frame creates the initial barrier preventing them from flattening you.
+2. **Strip controlling grip**: Use your far hand to strip any collar tie or seatbelt grip on your near side. Peel their grip from wrist to elbow in one smooth motion while maintaining your frame.
+3. **Hip escape toward frame**: Execute a small hip escape movement toward your posting hand side, creating angle and preventing opponent from following your hips. Your hip should move toward the mat on the frame side.
+4. **Insert knee shield**: Bring your inside knee across your body as a secondary frame, placing your shin across opponent's hip line. This prevents them from smashing back down and creates guard insertion angle.
+5. **Rotate hips to mat**: Complete the hip rotation so your back begins to reach the mat. Pull your far leg through as you rotate, preparing to wrap around opponent's torso for guard closure.
+6. **Close guard**: Cross your ankles behind opponent's back as your hips settle to the mat. Immediately break their posture by pulling them down with overhooks or collar ties to consolidate the closed guard position.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this transition is essential because it transforms a position whe
 ## Training Progressions
 **Week 1-2** - Frame establishment mechanics
 Practice establishing frames from turtle bottom against non-resisting partner. Focus on hand placement, elbow positioning, and creating space. Drill hip escape motion in isolation before combining with frames.
-(Resistance: None)
 
 **Week 3-4** - Timing and coordination
 Partner applies light pressure from top turtle while you execute full sequence. Focus on timing frame establishment with opponent's movement. Introduce grip stripping with live resistance on grips only.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively tries to prevent guard recovery with moderate resistance. Practice recognizing and countering common defensive reactions. Chain with alternative escapes when primary path is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring starting from Crackhead Control bottom. Work on recognizing optimal timing windows in live scrambles. Integrate with complete turtle defense system including granby rolls and sit-outs.
-(Resistance: Full)
 
 
 

@@ -153,7 +153,7 @@ description: "Master S-Mount Transition in BJJ. Step-by-step execution from Modi
 The S-Mount Transition represents a critical positional advancement from Modified Mount that positions the attacker for high-percentage armbar finishes. This technique involves sliding the posted leg underneath the opponent's far shoulder while the other leg swings over their head, creating the distinctive S-shaped body configuration that gives the position its name. The transition capitalizes on the natural armbar-focused structure of Modified Mount, taking it to its logical conclusion by fully committing the hips perpendicular to the opponent's body axis. S-Mount provides superior control for arm isolation compared to Modified Mount because both legs now actively contribute to pinning the opponent rather than one leg posting for stability. The position creates tremendous pressure on the opponent's ribcage and shoulder line, making defensive movements extremely difficult while the attacker maintains dominant hip position for armbar execution. Strategic timing involves transitioning to S-Mount when the opponent's near-side arm becomes isolated or when they attempt to turn away, as both reactions facilitate the leg-over-head movement. The transition requires committing fully to the armbar position, meaning escape to Modified Mount or standard mount becomes the fallback if the opponent defends successfully. Understanding S-Mount Transition as a commitment point rather than a reversible movement is essential for proper tactical deployment.
 
 **From Position**: [[Modified Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The S-Mount Transition represents a critical positional advancement from Modifie
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure arm control**: Grip the opponent's near-side wrist with your far hand and their elbow or tricep with your near hand, pinning the arm diagonally across their chest toward your hip. (Timing: Before any leg movement begins)
-2. **Shift weight forward**: Transfer your weight onto your hands and the opponent's chest, loading pressure forward to prevent any bridging attempt during the transition phase. (Timing: Immediately after securing arm)
-3. **Slide posted leg under shoulder**: Your posted leg slides underneath the opponent's far shoulder, knee driving toward the mat on the opposite side of their head while maintaining constant chest pressure. (Timing: Smooth continuous motion)
-4. **Swing top leg over head**: As the bottom leg establishes position, swing your top leg over the opponent's face and head, bringing your calf across their neck and face to complete the S configuration. (Timing: Immediately following step 3)
-5. **Pinch knees together**: Squeeze both knees tightly together, trapping the opponent's shoulder between your thighs and their head between your leg and hip, eliminating escape space. (Timing: As legs complete positioning)
-6. **Secure hip position**: Settle your hips perpendicular to the opponent's body axis, keeping them heavy on their ribcage while maintaining the arm grip to prevent any guard recovery attempts. (Timing: Final stabilization)
+1. **Secure arm control**: Grip the opponent's near-side wrist with your far hand and their elbow or tricep with your near hand, pinning the arm diagonally across their chest toward your hip.
+2. **Shift weight forward**: Transfer your weight onto your hands and the opponent's chest, loading pressure forward to prevent any bridging attempt during the transition phase.
+3. **Slide posted leg under shoulder**: Your posted leg slides underneath the opponent's far shoulder, knee driving toward the mat on the opposite side of their head while maintaining constant chest pressure.
+4. **Swing top leg over head**: As the bottom leg establishes position, swing your top leg over the opponent's face and head, bringing your calf across their neck and face to complete the S configuration.
+5. **Pinch knees together**: Squeeze both knees tightly together, trapping the opponent's shoulder between your thighs and their head between your leg and hip, eliminating escape space.
+6. **Secure hip position**: Settle your hips perpendicular to the opponent's body axis, keeping them heavy on their ribcage while maintaining the arm grip to prevent any guard recovery attempts.
 
 
 </section>
@@ -253,19 +253,15 @@ The S-Mount Transition represents a critical positional advancement from Modifie
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the leg positioning sequence slowly with a compliant partner. Focus on proper sequencing: arm control, weight shift, bottom leg slide, top leg swing. Drill 20+ repetitions per side until movement becomes fluid.
-(Resistance: None)
 
 **Week 3-4** - Timing and recognition
 Partner gives varied defensive reactions from Modified Mount. Practice recognizing the optimal moment to initiate S-Mount Transition versus when to stay in Modified Mount. Develop sensitivity to opponent's arm position and weight distribution.
-(Resistance: Light)
 
 **Week 5-6** - Combinations and counters
 Chain S-Mount Transition with armbar finishes. Practice counter-responses when opponent defends. Develop the fallback to Modified Mount or technical mount when S-Mount is blocked. Include mounted triangle as alternative when arm escapes.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate S-Mount Transition into rolling starting from mount position. Track success rate and identify common failure points. Refine timing based on live resistance feedback. Test against varying body types and skill levels.
-(Resistance: Full)
 
 
 

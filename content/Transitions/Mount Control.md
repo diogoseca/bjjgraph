@@ -153,7 +153,7 @@ description: "Master mount control in BJJ. Maintain dominant position against es
 Mount Control represents the ongoing process of maintaining dominant position against an actively escaping opponent. Unlike initial consolidation which establishes the mount, Mount Control addresses the dynamic battle that continues throughout the position - reading escape attempts, adjusting base in real-time, and using pressure to drain defensive resources. The fundamental principle is that mount maintenance is not passive holding but active control through constant micro-adjustments. Every time your opponent creates a frame, you eliminate it. Every bridge attempt requires base adjustment. Every hip escape must be blocked before it generates momentum. This constant responsiveness transforms mount from a position that can be escaped with patience into an inescapable cage that progressively worsens for the defender. The strategic goal of Mount Control extends beyond simply staying on top - it involves systematically degrading your opponent's defensive capacity through sustained pressure while preserving your energy and creating submission opportunities. Skilled practitioners use Mount Control to create dilemmas: the opponent's attempts to escape actually open them to attacks, while staying still allows you to advance position. This creates a lose-lose scenario for the defender where their best option becomes surrendering to a submission rather than continuing to fight the mount.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 55%, Intermediate 70%, Advanced 85%
+**Success Rate**: 78%
 
 </section>
 
@@ -199,12 +199,12 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Read escape direction**: Feel through your hips and chest which direction your opponent is loading weight - toward bridge, hip escape, or creating upward frames. This early recognition allows proactive rather than reactive responses. (Timing: Continuous throughout mount)
-2. **Counter bridge attempts**: When opponent bridges, immediately post your hand wide on the side they're driving toward while sprawling your hips back and down. Ride the bridge rather than fighting it, letting their energy dissipate before re-establishing heavy pressure. (Timing: As bridge initiates)
-3. **Block hip escapes**: As opponent begins shrimping, drive your knee into their hip on the escape side to block the movement. Increase chest pressure and walk your hips in the direction they're escaping to close any space they create. (Timing: Before hip escape gains momentum)
-4. **Eliminate frames**: Swim your elbows inside any frames your opponent creates on your hips or chest, using elbow-to-elbow connection to pin their arms. Control their wrists or use cross-face pressure to prevent frame re-establishment. (Timing: Immediately when frames appear)
-5. **Maintain grapevines**: Keep your feet hooked inside your opponent's thighs, actively squeezing and extending to control their leg movement. Adjust hook depth based on their escape attempts - deeper for bridges, shallower when transitioning to attacks. (Timing: Continuous leg control)
-6. **Re-center after adjustments**: After countering each escape attempt, immediately return to optimal mount position with hips centered on opponent's solar plexus, chest pressure maintained, and base ready for the next escape attempt. (Timing: After each counter)
+1. **Read escape direction**: Feel through your hips and chest which direction your opponent is loading weight - toward bridge, hip escape, or creating upward frames. This early recognition allows proactive rather than reactive responses.
+2. **Counter bridge attempts**: When opponent bridges, immediately post your hand wide on the side they're driving toward while sprawling your hips back and down. Ride the bridge rather than fighting it, letting their energy dissipate before re-establishing heavy pressure.
+3. **Block hip escapes**: As opponent begins shrimping, drive your knee into their hip on the escape side to block the movement. Increase chest pressure and walk your hips in the direction they're escaping to close any space they create.
+4. **Eliminate frames**: Swim your elbows inside any frames your opponent creates on your hips or chest, using elbow-to-elbow connection to pin their arms. Control their wrists or use cross-face pressure to prevent frame re-establishment.
+5. **Maintain grapevines**: Keep your feet hooked inside your opponent's thighs, actively squeezing and extending to control their leg movement. Adjust hook depth based on their escape attempts - deeper for bridges, shallower when transitioning to attacks.
+6. **Re-center after adjustments**: After countering each escape attempt, immediately return to optimal mount position with hips centered on opponent's solar plexus, chest pressure maintained, and base ready for the next escape attempt.
 
 
 </section>
@@ -246,19 +246,15 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 ## Training Progressions
 **Week 1-2** - Base adjustment recognition
 Partner attempts slow bridges and hip escapes while you practice reading direction and posting appropriately without resistance
-(Resistance: None)
 
 **Week 3-4** - Counter timing development
 Partner increases escape speed and power while you develop automatic responses to bridges, hip escapes, and frames
-(Resistance: Light)
 
 **Week 5-6** - Chain escape defense
 Partner chains multiple escape attempts together while you maintain control through continuous adjustment sequences
-(Resistance: Medium)
 
 **Week 7+** - Competition-pace maintenance
 Full resistance drilling where partner uses all escapes with competition intensity while you maintain mount and set up attacks
-(Resistance: Full)
 
 
 

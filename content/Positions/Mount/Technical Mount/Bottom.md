@@ -342,11 +342,11 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 10% | 15% | 0% |
-| Intermediate | 25% | 30% | 0% |
-| Advanced     | 40% | 50% | 0% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 32% |
+| Advancement Probability | 40% |
+| Submission Probability | 0% |
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 

@@ -27,7 +27,7 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Outside Ashi Entry",
-      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Outside Ashi Entry. This technique is attempted in 19% of exchanges from this position.",
       "position": 2
     },
     {
@@ -51,7 +51,7 @@ description: "Master Toe Hold Control Top position in BJJ. Complete guide coveri
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Top",
-      "text": "From this position, attempt Kneebar from Top. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Top. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,7 +208,7 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 ### [[Toe Hold]] (17% of attempts)
 
-### [[Outside Ashi Entry]] (18% of attempts)
+### [[Outside Ashi Entry]] (19% of attempts)
 
 ### [[Inside Ashi Entry]] (17% of attempts)
 
@@ -216,7 +216,7 @@ Toe Hold Control Top is an advanced leg entanglement position where the top prac
 
 ### [[Straight Ankle Lock]] (17% of attempts)
 
-### [[Kneebar from Top]] (15% of attempts)
+### [[Kneebar from Top]] (14% of attempts)
 
 
 
@@ -362,11 +362,11 @@ Partner in bottom position performs specific escape attempts including hip escap
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 30% |
-| Intermediate | 60% | 55% | 50% |
-| Advanced     | 75% | 70% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 58% |
 
 **Average Time in Position**: 20-45 seconds
 

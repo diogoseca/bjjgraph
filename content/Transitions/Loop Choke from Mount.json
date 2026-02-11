@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Loop Choke from Mount is a highly deceptive gi submission that exploits defensive reactions from an opponent trapped under high mount. Unlike traditional collar chokes that telegraph intent through obvious grip fighting, the loop choke disguises itself as a standard collar control until the finishing sequence activates the strangle. This choke derives its name from the characteristic loop created by threading the lapel around the opponent's neck.\n\nStrategically, the loop choke capitalizes on the opponent's natural defensive posture when mounted. Defenders instinctively tuck their chin and bring hands to their neck, which actually facilitates the loop choke grip sequence. The technique requires precise collar manipulation and an understanding of how to use the gi material as a lever system against the carotid arteries. When properly applied, the choke creates bilateral pressure that rapidly induces unconsciousness.\n\nFrom high mount, the loop choke becomes available when the opponent turns their head to one side or attempts to create frames. The top player feeds their own lapel around the opponent's neck, creating a closed loop that tightens with forward pressure. This submission pairs exceptionally well with armbar threats, as defending the arm often exposes the neck, and vice versa.",
   "key_principles": [
     "Disguise your grip intentions by establishing collar control before revealing choke threat",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Establish collar grip",
-      "description": "From high mount, reach across with your dominant hand and secure a deep four-fingers-in grip on the opponent's far-side collar, thumb outside. This grip should be positioned at collar bone level, not near the neck yet.",
-      "timing": "When opponent is defending arms or has head turned"
+      "description": "From high mount, reach across with your dominant hand and secure a deep four-fingers-in grip on the opponent's far-side collar, thumb outside. This grip should be positioned at collar bone level, not near the neck yet."
     },
     {
       "step_number": 2,
       "action": "Feed the lapel",
-      "description": "Pull the collar material across the opponent's neck, threading it underneath their chin. Your grip hand travels from one side of their neck to the other, wrapping the lapel around the front of their throat like a scarf.",
-      "timing": "Smooth continuous motion without hesitation"
+      "description": "Pull the collar material across the opponent's neck, threading it underneath their chin. Your grip hand travels from one side of their neck to the other, wrapping the lapel around the front of their throat like a scarf."
     },
     {
       "step_number": 3,
       "action": "Secure the loop",
-      "description": "Once the lapel crosses the opponent's neck, your gripping hand should end up on the same side it started. The lapel now forms a complete loop around their neck. Ensure the material sits flat against their throat without bunching.",
-      "timing": "Before opponent realizes the choke threat"
+      "description": "Once the lapel crosses the opponent's neck, your gripping hand should end up on the same side it started. The lapel now forms a complete loop around their neck. Ensure the material sits flat against their throat without bunching."
     },
     {
       "step_number": 4,
       "action": "Control the head",
-      "description": "Use your free hand to cup behind the opponent's head or post on the mat near their ear. This hand prevents them from turning away and helps maintain the loop integrity. Drive your forehead toward the mat beside their head.",
-      "timing": "Immediately after securing the loop"
+      "description": "Use your free hand to cup behind the opponent's head or post on the mat near their ear. This hand prevents them from turning away and helps maintain the loop integrity. Drive your forehead toward the mat beside their head."
     },
     {
       "step_number": 5,
       "action": "Tighten the loop",
-      "description": "Pull your gripping hand toward your own hip while simultaneously driving your chest forward and down. The loop tightens around the opponent's neck as you create opposing forces between your grip and forward weight.",
-      "timing": "Steady increasing pressure"
+      "description": "Pull your gripping hand toward your own hip while simultaneously driving your chest forward and down. The loop tightens around the opponent's neck as you create opposing forces between your grip and forward weight."
     },
     {
       "step_number": 6,
       "action": "Finish the choke",
-      "description": "Continue driving your weight forward while pulling the lapel tight. Keep your elbows close to your body for maximum mechanical advantage. The choke compresses both carotid arteries, creating rapid unconsciousness if opponent does not tap.",
-      "timing": "Maintain pressure until tap or unconsciousness"
+      "description": "Continue driving your weight forward while pulling the lapel tight. Keep your elbows close to your body for maximum mechanical advantage. The choke compresses both carotid arteries, creating rapid unconsciousness if opponent does not tap."
     }
   ],
   "common_counters": [
@@ -147,26 +136,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and lapel threading",
-      "description": "Practice the collar grip depth and lapel feeding motion with a compliant partner. Focus on smooth, continuous motion when threading the lapel around the neck. Drill the loop formation without resistance until the movement becomes natural.",
-      "resistance_level": "None"
+      "description": "Practice the collar grip depth and lapel feeding motion with a compliant partner. Focus on smooth, continuous motion when threading the lapel around the neck. Drill the loop formation without resistance until the movement becomes natural."
     },
     {
       "phase": "Week 3-4",
       "focus": "Weight distribution and finishing pressure",
-      "description": "Add the forward chest drive and pulling mechanics. Partner provides light frames to test your ability to maintain pressure. Practice finishing against a defending chin tuck by adjusting angle and weight placement.",
-      "resistance_level": "Light"
+      "description": "Add the forward chest drive and pulling mechanics. Partner provides light frames to test your ability to maintain pressure. Practice finishing against a defending chin tuck by adjusting angle and weight placement."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing and setup chains",
-      "description": "Integrate the loop choke with armbar threats. Practice recognizing when opponents expose their neck while defending arms. Partner defends realistically, forcing you to chain between submissions based on their reactions.",
-      "resistance_level": "Medium"
+      "description": "Integrate the loop choke with armbar threats. Practice recognizing when opponents expose their neck while defending arms. Partner defends realistically, forcing you to chain between submissions based on their reactions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Attempt the loop choke in live rolling from mount position. Identify common defensive patterns and develop counters. Focus on finishing rate and timing recognition under full resistance conditions.",
-      "resistance_level": "Full"
+      "description": "Attempt the loop choke in live rolling from mount position. Identify common defensive patterns and develop counters. Focus on finishing rate and timing recognition under full resistance conditions."
     }
   ],
   "variants_and_adaptations": [
@@ -189,43 +174,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Loop Choke from Mount?",
-      "answer": "The primary goal is to create a blood choke by wrapping the opponent's own gi lapel around their neck, compressing both carotid arteries simultaneously. The loop formation creates a noose-like structure that tightens with forward pressure, inducing unconsciousness rapidly if the opponent does not tap.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to create a blood choke by wrapping the opponent's own gi lapel around their neck, compressing both carotid arteries simultaneously. The loop formation creates a noose-like structure that tightens with forward pressure, inducing unconsciousness rapidly if the opponent does not tap."
     },
     {
       "question": "What position do you start the Loop Choke from Mount from?",
-      "answer": "This technique starts from High Mount, with knees positioned near the opponent's armpits and weight distributed forward on their upper chest. The high mount position is essential because it restricts the opponent's defensive options and keeps your hips close enough to maintain the loop while finishing.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from High Mount, with knees positioned near the opponent's armpits and weight distributed forward on their upper chest. The high mount position is essential because it restricts the opponent's defensive options and keeps your hips close enough to maintain the loop while finishing."
     },
     {
       "question": "What are the key grips needed for the Loop Choke from Mount?",
-      "answer": "The primary grip is a deep four-fingers-in cross-collar grip at collar bone level on the opponent's far-side lapel. This grip must be deep enough to allow the material to be fed completely around the neck. A secondary grip or post with the free hand controls the opponent's head or maintains base on the mat.",
-      "difficulty": "Beginner"
+      "answer": "The primary grip is a deep four-fingers-in cross-collar grip at collar bone level on the opponent's far-side lapel. This grip must be deep enough to allow the material to be fed completely around the neck. A secondary grip or post with the free hand controls the opponent's head or maintains base on the mat."
     },
     {
       "question": "How should you counter if the opponent tucks their chin to defend the loop?",
-      "answer": "When the opponent tucks their chin, threaten an armbar on their exposed arm. As they move to defend the armbar, their head position typically changes, creating the opening to complete the loop. Alternatively, use your free hand to lift their chin before feeding the lapel, or switch to a cross collar choke that works around the chin tuck.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent tucks their chin, threaten an armbar on their exposed arm. As they move to defend the armbar, their head position typically changes, creating the opening to complete the loop. Alternatively, use your free hand to lift their chin before feeding the lapel, or switch to a cross collar choke that works around the chin tuck."
     },
     {
       "question": "When is the optimal timing window to attempt the Loop Choke from Mount?",
-      "answer": "The optimal timing is when the opponent turns their head to one side, focuses on defending an armbar threat, or attempts to create frames with their arms. These defensive actions naturally expose the neck and distract from collar defense. Avoid attempting when the opponent has both hands protecting their neck and chin tucked.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent turns their head to one side, focuses on defending an armbar threat, or attempts to create frames with their arms. These defensive actions naturally expose the neck and distract from collar defense. Avoid attempting when the opponent has both hands protecting their neck and chin tucked."
     },
     {
       "question": "Why is forward weight distribution critical for finishing the Loop Choke?",
-      "answer": "Forward weight distribution serves multiple purposes: it prevents the opponent from bridging effectively, it adds pressure to the choke through body weight rather than arm strength alone, and it keeps the loop tight by creating opposing forces between your grip pulling back and your chest driving forward. Sitting upright removes this mechanical advantage.",
-      "difficulty": "Intermediate"
+      "answer": "Forward weight distribution serves multiple purposes: it prevents the opponent from bridging effectively, it adds pressure to the choke through body weight rather than arm strength alone, and it keeps the loop tight by creating opposing forces between your grip pulling back and your chest driving forward. Sitting upright removes this mechanical advantage."
     },
     {
       "question": "What submission chains effectively with the Loop Choke from Mount?",
-      "answer": "The armbar chains most effectively with the loop choke because defending one attack exposes the other. When opponents bring hands to defend the collar grip, their elbows flare and create armbar opportunities. When they tuck elbows to defend armbars, their neck becomes accessible for the loop. This creates a dilemma that forces errors.",
-      "difficulty": "Advanced"
+      "answer": "The armbar chains most effectively with the loop choke because defending one attack exposes the other. When opponents bring hands to defend the collar grip, their elbows flare and create armbar opportunities. When they tuck elbows to defend armbars, their neck becomes accessible for the loop. This creates a dilemma that forces errors."
     },
     {
       "question": "How do you adjust if the gi material bunches up instead of laying flat around the neck?",
-      "answer": "Stop and reset the grip rather than trying to finish with bunched material. Release slight pressure, smooth the lapel with your gripping hand, and re-establish the flat loop before continuing. Alternatively, use your free hand to adjust the material while maintaining the primary grip. A bunched loop will not finish effectively regardless of pressure applied.",
-      "difficulty": "Advanced"
+      "answer": "Stop and reset the grip rather than trying to finish with bunched material. Release slight pressure, smooth the lapel with your gripping hand, and re-establish the flat loop before continuing. Alternatively, use your free hand to adjust the material while maintaining the primary grip. A bunched loop will not finish effectively regardless of pressure applied."
     }
   ],
   "safety_considerations": "The Loop Choke is a blood choke that can cause unconsciousness in 6-10 seconds when applied correctly. Always release immediately upon feeling a tap and remain aware of verbal taps. Training partners should tap early when the choke is locked in rather than waiting until unconsciousness approaches. Practitioners with neck injuries or carotid artery conditions should avoid this technique. When drilling, apply pressure gradually and communicate constantly with your training partner. If a partner becomes unconscious, release immediately, place them in recovery position, and elevate their legs. Never practice this choke on unwilling partners or outside controlled training environments.",
@@ -263,5 +240,6 @@
       "name": "Technical Mount",
       "relationship": "Alternative platform - loop choke can be attempted from this variation as well"
     }
-  ]
+  ],
+  "success_rate": 58
 }

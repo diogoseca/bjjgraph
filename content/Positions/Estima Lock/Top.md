@@ -365,11 +365,11 @@ Start from established Estima Lock Top Position. Bottom player works to escape u
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 25% | 20% |
-| Intermediate | 50% | 40% | 35% |
-| Advanced     | 65% | 55% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 48% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-60 seconds
 

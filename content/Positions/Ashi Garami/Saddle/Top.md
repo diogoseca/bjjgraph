@@ -372,11 +372,11 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 40% |
-| Intermediate | 70% | 65% | 60% |
-| Advanced     | 85% | 85% | 80% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 75% |
+| Submission Probability | 70% |
 
 **Average Time in Position**: 30-90 seconds from entry to finish or opponent escape
 

@@ -376,11 +376,11 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 40% | 15% |
-| Intermediate | 75% | 60% | 25% |
-| Advanced     | 85% | 75% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 68% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 15-30 seconds to passing opportunity
 

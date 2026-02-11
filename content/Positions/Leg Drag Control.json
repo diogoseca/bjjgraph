@@ -170,7 +170,7 @@
         "actions": [
           {
             "technique": "Leg Drag to Darce Setup",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 55
           },
           {
@@ -280,7 +280,7 @@
         "relationship": "Leg entanglement option when opponent defends upper body"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Choking position available when opponent turtles"
       },
       {
@@ -294,21 +294,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of maintaining control and advancing to consolidated position"
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 75,
-        "advanced": 90,
+        "value": 82,
         "description": "Probability of successfully transitioning to dominant position within 10 seconds"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of finishing submission from position or immediate transitions"
       },
       "average_time": "3-7 seconds before transition to side control, back control, mount, or opponent escape"
@@ -576,21 +570,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 70,
-        "intermediate": 50,
-        "advanced": 30,
+        "value": 40,
         "description": "Probability opponent advances to side control or back within 10 seconds"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Probability of successfully recovering guard or escaping to neutral"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 3,
-        "advanced": 2,
+        "value": 2,
         "description": "Probability of being submitted directly from this position"
       },
       "average_time": "3-8 seconds before position transitions to side control, back control, or guard recovery"
@@ -598,35 +586,39 @@
     "transitions": [
       {
         "transition": "Leg Drag Escape to Closed Guard",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Leg Drag Counter to Half Guard",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Roll to Turtle",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Inside Position Recovery",
         "attempt_probability": 11
       },
       {
+        "transition": "Technical Standup",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Leg Drag Counter to Half Guard",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Roll to Turtle",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Inside Position Recovery",
+        "attempt_probability": 10
+      },
+      {
         "transition": "Granby Roll Escape",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Leg Recovery to De La Riva",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Half Guard Recovery",
+        "attempt_probability": 11
       }
     ]
   }

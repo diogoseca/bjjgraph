@@ -5,7 +5,7 @@
 
 ---
 title: "Back Door Escape | BJJ Technique | BJJ Graph"
-description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-step technique for escaping chokes by exiting behind opponent. Success: Beginner 30%, Advanced 65%."
+description: "Master the Back Door Escape from Darce Control in BJJ. Step-by-step technique for escaping chokes by exiting behind opponent. Success: Beginner 30%, Advanced 65%."
 ---
 
 
@@ -17,7 +17,7 @@ description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-st
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Back Door Escape in BJJ",
-  "description": "Step-by-step guide for Back Door Escape from D'arce Control/Bottom. Possible outcomes: Open Guard (55%), Turtle (15%), D'arce Control (20%), North-South (10%).",
+  "description": "Step-by-step guide for Back Door Escape from Darce Control/Bottom. Possible outcomes: Open Guard (55%), Turtle (15%), Darce Control (20%), North-South (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -71,7 +71,7 @@ description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-st
       "name": "What is the primary goal of Back Door Escape?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to exit the D'arce choke by moving backward through the gap behind the attacker's choking arm, eliminating the choking angle and recovering to a defensible position like open guard or turtle. This escape exploits the weakness in D'arce control when the defender moves toward the attacker's back rather than away from them."
+        "text": "The primary goal is to exit the Darce choke by moving backward through the gap behind the attacker's choking arm, eliminating the choking angle and recovering to a defensible position like open guard or turtle. This escape exploits the weakness in Darce control when the defender moves toward the attacker's back rather than away from them."
       }
     },
     {
@@ -79,7 +79,7 @@ description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-st
       "name": "What position do you start Back Door Escape from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from D'arce Control Bottom, where the attacker has established the arm-in choke configuration with their arm threaded under your armpit and around your neck. The escape is executed when the attacker's weight is committed forward and there is space behind their controlling arm."
+        "text": "This technique starts from Darce Control Bottom, where the attacker has established the arm-in choke configuration with their arm threaded under your armpit and around your neck. The escape is executed when the attacker's weight is committed forward and there is space behind their controlling arm."
       }
     },
     {
@@ -108,7 +108,7 @@ description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-st
     },
     {
       "@type": "Question",
-      "name": "Your opponent tightens their D'arce as you begin the escape—should you continue?",
+      "name": "Your opponent tightens their Darce as you begin the escape—should you continue?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "If the choke tightens significantly during your escape attempt, immediately reassess. A partially executed back door that stalls puts you in worse position than the starting point. If you cannot complete the rotation and head extraction within 2-3 seconds, abandon the attempt and either return to arm extraction defense or tap if the choke is dangerously tight."
@@ -123,7 +123,7 @@ description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-st
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Back Door Escape",
-  "description": "Master the Back Door Escape from D'arce Control in BJJ. Step-by-step technique for escaping chokes by exiting behind opponent. Success: Beginner 30%, Advanced 65%.",
+  "description": "Master the Back Door Escape from Darce Control in BJJ. Step-by-step technique for escaping chokes by exiting behind opponent. Success: Beginner 30%, Advanced 65%.",
   "url": "https://bjjgraph.org/Transitions/Back-Door-Escape",
   "isPartOf": {
     "@type": "WebSite",
@@ -150,14 +150,14 @@ description: "Master the Back Door Escape from D'arce Control in BJJ. Step-by-st
 
 <section id="overview" class="content-section">
 
-The Back Door Escape is a critical defensive technique used to escape from D'arce Control by moving backward and around the opponent rather than attempting to fight forward through the choke. This counterintuitive escape exploits a fundamental weakness in the D'arce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back.
+The Back Door Escape is a critical defensive technique used to escape from Darce Control by moving backward and around the opponent rather than attempting to fight forward through the choke. This counterintuitive escape exploits a fundamental weakness in the Darce grip structure—the attacker's control is strongest when the defender moves forward or laterally, but significantly weaker when the defender retreats toward the attacker's back.
 
-The technique works by recognizing that the D'arce choke requires the attacker to maintain pressure perpendicular to the defender's spine. By stepping or rolling backward through the gap behind the attacker's controlling arm, the defender eliminates the choking angle and creates space to recover guard or establish turtle position. This escape is particularly effective when the D'arce is being applied from a perpendicular angle rather than directly in front.
+The technique works by recognizing that the Darce choke requires the attacker to maintain pressure perpendicular to the defender's spine. By stepping or rolling backward through the gap behind the attacker's controlling arm, the defender eliminates the choking angle and creates space to recover guard or establish turtle position. This escape is particularly effective when the Darce is being applied from a perpendicular angle rather than directly in front.
 
 Strategically, the Back Door Escape represents a last-resort option when arm extraction and other primary escapes have failed. Its success depends heavily on timing—attempting this escape too early wastes energy on a complex movement when simpler options remain, while attempting it too late puts you in an even worse position as the choke tightens. Advanced practitioners develop sensitivity to the precise moment when the back door becomes the highest-percentage option based on the attacker's grip depth and hip position.
 
-**From Position**: [[D'arce Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[Darce Control/Bottom]]
+**Success Rate**: 58%
 
 </section>
 
@@ -169,7 +169,7 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 |--------|----------|-------------|
 | Success | [[Open Guard]] | 55% |
 | Success | [[Turtle]] | 15% |
-| Failure | [[D'arce Control]] | 20% |
+| Failure | [[Darce Control]] | 20% |
 | Counter | [[North-South]] | 10% |
 
 
@@ -205,12 +205,12 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess the gap**: Identify the space behind the attacker's choking arm where your body will exit. This gap exists between their elbow and hip on the choking side. (Timing: Before choke fully tightens)
-2. **Frame on hip**: Place your free hand (the arm not trapped in the choke) firmly on the attacker's near hip. This frame will create the rotation and push needed to move your body through the back door. (Timing: Immediately after identifying escape path)
-3. **Create initial movement**: Push hard off the attacker's hip while simultaneously turning your shoulders toward them. This counterintuitive movement creates slack in the choke and positions your body to exit. (Timing: When attacker drives forward)
-4. **Thread head through**: Tuck your chin tight to your chest and drive your head and shoulders backward through the gap behind their choking arm. Your head exits first, followed by your trapped shoulder. (Timing: Continuous with rotation)
-5. **Extract trapped arm**: As your head clears the choking structure, continue rotating and pull your trapped arm free by driving your elbow toward your own hip. The rotation naturally loosens the arm-in configuration. (Timing: As head clears)
-6. **Recover position**: Complete the escape by either establishing turtle position facing away from opponent, or continuing the rotation to recover open guard with frames established. Immediately create distance and defensive structure. (Timing: Upon arm extraction)
+1. **Assess the gap**: Identify the space behind the attacker's choking arm where your body will exit. This gap exists between their elbow and hip on the choking side.
+2. **Frame on hip**: Place your free hand (the arm not trapped in the choke) firmly on the attacker's near hip. This frame will create the rotation and push needed to move your body through the back door.
+3. **Create initial movement**: Push hard off the attacker's hip while simultaneously turning your shoulders toward them. This counterintuitive movement creates slack in the choke and positions your body to exit.
+4. **Thread head through**: Tuck your chin tight to your chest and drive your head and shoulders backward through the gap behind their choking arm. Your head exits first, followed by your trapped shoulder.
+5. **Extract trapped arm**: As your head clears the choking structure, continue rotating and pull your trapped arm free by driving your elbow toward your own hip. The rotation naturally loosens the arm-in configuration.
+6. **Recover position**: Complete the escape by either establishing turtle position facing away from opponent, or continuing the rotation to recover open guard with frames established. Immediately create distance and defensive structure.
 
 
 </section>
@@ -230,7 +230,7 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 
 ## Common Mistakes
 - **Mistake**: Attempting escape with head extended away from opponent
-  - **Consequence**: Creates more choking pressure and tightens the D'arce as you move
+  - **Consequence**: Creates more choking pressure and tightens the Darce as you move
   - **Correction**: Keep chin tucked tight to chest throughout entire escape sequence
 - **Mistake**: Trying to exit straight backward instead of at an angle
   - **Consequence**: Body gets stuck against attacker's hip and choke tightens
@@ -252,20 +252,16 @@ Strategically, the Back Door Escape represents a last-resort option when arm ext
 
 ## Training Progressions
 **Week 1-2** - Movement pattern
-Practice the rotation and threading movement with no resistance. Partner holds D'arce grip loosely while you drill the hip frame, rotation, and head extraction sequence. Focus on body mechanics and the counterintuitive direction change.
-(Resistance: None)
+Practice the rotation and threading movement with no resistance. Partner holds Darce grip loosely while you drill the hip frame, rotation, and head extraction sequence. Focus on body mechanics and the counterintuitive direction change.
 
 **Week 3-4** - Timing recognition
-Partner applies light D'arce control and varies their hip position. Practice recognizing when the back door is available versus when arm extraction is better. Develop sensitivity to the gap size and attacker weight distribution.
-(Resistance: Light)
+Partner applies light Darce control and varies their hip position. Practice recognizing when the back door is available versus when arm extraction is better. Develop sensitivity to the gap size and attacker weight distribution.
 
 **Week 5-6** - Chain with other escapes
 Combine back door escape with arm extraction and granby roll options. Partner defends one escape to force transition to another. Practice flowing between escape options based on attacker's defensive adjustments.
-(Resistance: Medium)
 
 **Week 7+** - Competition scenarios
-Full resistance D'arce defense rounds where partner attempts to finish the choke. Apply all escape options including back door in realistic scenarios. Develop ability to select correct escape under pressure.
-(Resistance: Full)
+Full resistance Darce defense rounds where partner attempts to finish the choke. Apply all escape options including back door in realistic scenarios. Develop ability to select correct escape under pressure.
 
 
 
@@ -276,7 +272,7 @@ Full resistance D'arce defense rounds where partner attempts to finish the choke
 ## Variations
 **Rolling Back Door**: Instead of threading through while on your side, initiate a granby-style roll toward the back door gap. This creates more momentum but requires more space and is higher risk if the choke is tight. (When to use: When attacker's hips are higher and there is significant space behind their arm)
 
-**Sit-through Back Door**: From a more kneeling position in the D'arce, sit through toward the attacker's back while posting on your free hand. This variation works when you have more base established. (When to use: When caught in D'arce while still on your knees from turtle)
+**Sit-through Back Door**: From a more kneeling position in the Darce, sit through toward the attacker's back while posting on your free hand. This variation works when you have more base established. (When to use: When caught in Darce while still on your knees from turtle)
 
 **Bridge and Rotate**: Combine a strong bridge into the attacker with the rotation, using the bridge to create space and momentum simultaneously. More explosive but requires good timing. (When to use: When attacker is heavy on top and you need to create space first)
 
@@ -288,10 +284,10 @@ Full resistance D'arce defense rounds where partner attempts to finish the choke
 
 ## Test Your Knowledge
 **Q1**: What is the primary goal of Back Door Escape?
-**A**: The primary goal is to exit the D'arce choke by moving backward through the gap behind the attacker's choking arm, eliminating the choking angle and recovering to a defensible position like open guard or turtle. This escape exploits the weakness in D'arce control when the defender moves toward the attacker's back rather than away from them.
+**A**: The primary goal is to exit the Darce choke by moving backward through the gap behind the attacker's choking arm, eliminating the choking angle and recovering to a defensible position like open guard or turtle. This escape exploits the weakness in Darce control when the defender moves toward the attacker's back rather than away from them.
 
 **Q2**: What position do you start Back Door Escape from?
-**A**: This technique starts from D'arce Control Bottom, where the attacker has established the arm-in choke configuration with their arm threaded under your armpit and around your neck. The escape is executed when the attacker's weight is committed forward and there is space behind their controlling arm.
+**A**: This technique starts from Darce Control Bottom, where the attacker has established the arm-in choke configuration with their arm threaded under your armpit and around your neck. The escape is executed when the attacker's weight is committed forward and there is space behind their controlling arm.
 
 **Q3**: What are the key grips and frames needed for Back Door Escape?
 **A**: The primary frame is your free hand (not trapped in the choke) placed firmly on the attacker's near hip. This frame creates the push needed to generate rotation momentum. No specific grips are required—the free hand frames rather than grips to allow pushing motion. The trapped arm remains passive until head extraction is complete.
@@ -302,7 +298,7 @@ Full resistance D'arce defense rounds where partner attempts to finish the choke
 **Q5**: When is the best time to attempt Back Door Escape?
 **A**: The optimal time is when the attacker commits their weight forward to finish the choke, creating a gap behind their control arm, but before the choke is fully locked. The escape should be attempted after recognizing that primary escapes like arm extraction are being shut down. Attempting too early wastes the option, too late risks tightening a dangerous choke.
 
-**Q6**: Your opponent tightens their D'arce as you begin the escape—should you continue?
+**Q6**: Your opponent tightens their Darce as you begin the escape—should you continue?
 **A**: If the choke tightens significantly during your escape attempt, immediately reassess. A partially executed back door that stalls puts you in worse position than the starting point. If you cannot complete the rotation and head extraction within 2-3 seconds, abandon the attempt and either return to arm extraction defense or tap if the choke is dangerously tight.
 
 **Q7**: What body mechanics create the rotation needed for successful escape?
@@ -325,7 +321,7 @@ Full resistance D'arce defense rounds where partner attempts to finish the choke
 
 ## Safety Considerations
 
-The Back Door Escape involves rotating while partially in a choke, which carries inherent risk if executed incorrectly or too late. Never attempt this escape when the D'arce is fully locked and blood flow restriction is occurring—the rotation can accelerate unconsciousness. Keep chin tucked throughout to protect the airway. In training, communicate with your partner about pressure levels and ensure the choker maintains awareness of your escape attempts to prevent inadvertent tightening during rotation. If you feel significant choking pressure increase during the escape attempt, tap immediately rather than forcing completion. This escape should be drilled extensively at low resistance before attempting in live sparring.
+The Back Door Escape involves rotating while partially in a choke, which carries inherent risk if executed incorrectly or too late. Never attempt this escape when the Darce is fully locked and blood flow restriction is occurring—the rotation can accelerate unconsciousness. Keep chin tucked throughout to protect the airway. In training, communicate with your partner about pressure levels and ensure the choker maintains awareness of your escape attempts to prevent inadvertent tightening during rotation. If you feel significant choking pressure increase during the escape attempt, tap immediately rather than forcing completion. This escape should be drilled extensively at low resistance before attempting in live sparring.
 
 </section>
 
@@ -333,7 +329,7 @@ The Back Door Escape involves rotating while partially in a choke, which carries
 
 ## Position Integration
 
-The Back Door Escape fits into the D'arce defense system as a secondary option after arm extraction proves unsuccessful. It represents the counterintuitive principle that moving toward the attacker can create escape opportunities. This escape connects to turtle position recovery and open guard establishment, fitting within the broader defensive framework of surviving front headlock and choke attacks. Understanding this escape develops the defensive sensitivity needed for all arm-in choke variations including anaconda and arm triangle. The back door concept also applies to other grappling situations where the attacker's control is directionally limited.
+The Back Door Escape fits into the Darce defense system as a secondary option after arm extraction proves unsuccessful. It represents the counterintuitive principle that moving toward the attacker can create escape opportunities. This escape connects to turtle position recovery and open guard establishment, fitting within the broader defensive framework of surviving front headlock and choke attacks. Understanding this escape develops the defensive sensitivity needed for all arm-in choke variations including anaconda and arm triangle. The back door concept also applies to other grappling situations where the attacker's control is directionally limited.
 
 </section>
 
@@ -341,7 +337,7 @@ The Back Door Escape fits into the D'arce defense system as a secondary option a
 
 ## Related Techniques
 
-- [[D'arce Control]] - Starting position
+- [[Darce Control]] - Starting position
 - [[Arm Extraction]] - Primary alternative escape
 - [[Granby Roll]] - Related escape movement pattern
 - [[Open Guard]] - Primary recovery position

@@ -30,11 +30,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The 50-50 Pass is a critical escape and passing sequence from one of Brazilian Jiu-Jitsu's most complex entanglement positions. When trapped in the 50-50 Guard, both practitioners have mirrored leg entanglements with similar attacking opportunities, creating a symmetrical dilemma. The pass requires systematic leg extraction, hip control, and pressure application to break the entanglement and establish top position. This technique is essential for modern no-gi competition where 50-50 entries are common from various guard positions. The 50-50 Pass emphasizes defensive leg lock awareness while simultaneously creating passing opportunities. Understanding this sequence is crucial because remaining static in 50-50 Guard exposes you to heel hooks, toe holds, and other leg attacks. The pass transitions you from a dangerous entanglement to a dominant passing position where you can attack or consolidate control.",
   "key_principles": [
     "Protect your own heel from inside heel hook by controlling opponent's grip",
@@ -57,38 +52,32 @@
     {
       "step_number": 1,
       "action": "Establish defensive heel protection",
-      "description": "Immediately secure your trapped heel by controlling opponent's grip hand or pushing their leg away from your heel. This prevents inside heel hook attacks during your escape. Keep your knee line tight to your chest to reduce the available space for heel exposure.",
-      "timing": "Immediate priority before any passing attempts"
+      "description": "Immediately secure your trapped heel by controlling opponent's grip hand or pushing their leg away from your heel. This prevents inside heel hook attacks during your escape. Keep your knee line tight to your chest to reduce the available space for heel exposure."
     },
     {
       "step_number": 2,
       "action": "Create upper body control",
-      "description": "Drive your shoulder into opponent's chest and establish a crossface with your near-side arm. This prevents them from sitting up and attacking or re-establishing guard. Your weight should be heavy and forward, making it difficult for them to create angles.",
-      "timing": "Concurrent with heel protection"
+      "description": "Drive your shoulder into opponent's chest and establish a crossface with your near-side arm. This prevents them from sitting up and attacking or re-establishing guard. Your weight should be heavy and forward, making it difficult for them to create angles."
     },
     {
       "step_number": 3,
       "action": "Create space at hip connection",
-      "description": "Use your free hand to push against opponent's hip or thigh, creating separation between your hips. Alternatively, shift your weight slightly to one side to create a small gap. This space is essential for extracting your bottom leg from the entanglement.",
-      "timing": "Once upper body control is established"
+      "description": "Use your free hand to push against opponent's hip or thigh, creating separation between your hips. Alternatively, shift your weight slightly to one side to create a small gap. This space is essential for extracting your bottom leg from the entanglement."
     },
     {
       "step_number": 4,
       "action": "Extract bottom leg",
-      "description": "Pull your bottom leg (the one underneath opponent's leg) backward and out of the entanglement. Use a circular motion, bringing your knee toward your chest first, then extending the leg back. Maintain hip pressure throughout to prevent opponent from following your movement.",
-      "timing": "2-3 seconds of controlled extraction"
+      "description": "Pull your bottom leg (the one underneath opponent's leg) backward and out of the entanglement. Use a circular motion, bringing your knee toward your chest first, then extending the leg back. Maintain hip pressure throughout to prevent opponent from following your movement."
     },
     {
       "step_number": 5,
       "action": "Step top leg over opponent's body",
-      "description": "Once your bottom leg is free, immediately step your top leg over opponent's hip or torso. Place your foot on the mat beyond their far hip. This establishes a passing position and prevents re-entanglement. Keep your weight heavy and your base wide.",
-      "timing": "Immediate follow-up to bottom leg extraction"
+      "description": "Once your bottom leg is free, immediately step your top leg over opponent's hip or torso. Place your foot on the mat beyond their far hip. This establishes a passing position and prevents re-entanglement. Keep your weight heavy and your base wide."
     },
     {
       "step_number": 6,
       "action": "Consolidate side control position",
-      "description": "Slide your knee across opponent's belly toward their far hip while maintaining shoulder pressure. Secure an underhook with your bottom arm and crossface with your top arm. Flatten your chest onto theirs and establish full side control with hip-to-hip pressure.",
-      "timing": "Final consolidation phase, 3-4 seconds"
+      "description": "Slide your knee across opponent's belly toward their far hip while maintaining shoulder pressure. Secure an underhook with your bottom arm and crossface with your top arm. Flatten your chest onto theirs and establish full side control with hip-to-hip pressure."
     }
   ],
   "common_counters": [
@@ -154,38 +143,32 @@
     {
       "phase": "Week 1-2: Positional Understanding",
       "focus": "Understanding 50-50 entanglement structure and defensive priorities",
-      "description": "Start in 50-50 Guard with partner applying light pressure. Practice identifying which leg is trapped, where heel exposure exists, and how to establish basic upper body control. Partner remains passive. Focus on defensive awareness and body positioning.",
-      "resistance_level": "None"
+      "description": "Start in 50-50 Guard with partner applying light pressure. Practice identifying which leg is trapped, where heel exposure exists, and how to establish basic upper body control. Partner remains passive. Focus on defensive awareness and body positioning."
     },
     {
       "phase": "Week 3-4: Isolated Leg Extraction",
       "focus": "Drilling leg extraction mechanics without submission threat",
-      "description": "Partner maintains 50-50 structure but does not attack submissions. Practice creating hip space and extracting bottom leg using proper mechanics. Repeat 10-15 times per round, focusing on smooth, controlled movement. Partner provides light resistance to entanglement.",
-      "resistance_level": "Light"
+      "description": "Partner maintains 50-50 structure but does not attack submissions. Practice creating hip space and extracting bottom leg using proper mechanics. Repeat 10-15 times per round, focusing on smooth, controlled movement. Partner provides light resistance to entanglement."
     },
     {
       "phase": "Week 5-6: Defensive Passing Under Threat",
       "focus": "Passing while defending against heel hook attempts",
-      "description": "Partner actively threatens inside heel hook grip but releases if secured (safety drill). Practice passing sequence while maintaining heel protection. Develop ability to defend and pass simultaneously. Partner applies moderate resistance to passing attempts.",
-      "resistance_level": "Medium"
+      "description": "Partner actively threatens inside heel hook grip but releases if secured (safety drill). Practice passing sequence while maintaining heel protection. Develop ability to defend and pass simultaneously. Partner applies moderate resistance to passing attempts."
     },
     {
       "phase": "Week 7-8: Dynamic Passing Against Active Defense",
       "focus": "Completing pass against opponent attempting to maintain guard",
-      "description": "Partner actively defends the pass by maintaining entanglement, sitting up, and threatening attacks (controlled intensity). Practice reading opponent's defensive reactions and adjusting passing strategy. Focus on timing and pressure application. Build conditioning for the position.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends the pass by maintaining entanglement, sitting up, and threatening attacks (controlled intensity). Practice reading opponent's defensive reactions and adjusting passing strategy. Focus on timing and pressure application. Build conditioning for the position."
     },
     {
       "phase": "Week 9-12: Competition-Level Passing",
       "focus": "Full resistance passing with submission threat awareness",
-      "description": "Live training from 50-50 position with both partners working at high intensity. Practice passing against various defensive strategies and submission attacks. Develop timing for recognizing when to pass versus when to maintain position. Build mental toughness for this demanding position.",
-      "resistance_level": "Full"
+      "description": "Live training from 50-50 position with both partners working at high intensity. Practice passing against various defensive strategies and submission attacks. Develop timing for recognizing when to pass versus when to maintain position. Build mental toughness for this demanding position."
     },
     {
       "phase": "Month 4+: Integration and Refinement",
       "focus": "Connecting 50-50 pass to overall passing system",
-      "description": "Practice entering 50-50 from various positions and immediately executing pass. Chain 50-50 pass with other leg entanglement escapes. Develop recognition patterns for when opponent is vulnerable to the pass. Refine timing and pressure control for highest success rate.",
-      "resistance_level": "Full"
+      "description": "Practice entering 50-50 from various positions and immediately executing pass. Chain 50-50 pass with other leg entanglement escapes. Develop recognition patterns for when opponent is vulnerable to the pass. Refine timing and pressure control for highest success rate."
     }
   ],
   "variants_and_adaptations": [
@@ -213,63 +196,51 @@
   "knowledge_assessment": [
     {
       "question": "What is the absolute first priority when attempting to pass from 50-50 Guard?",
-      "answer": "Protecting your heel from inside heel hook attacks. You must control opponent's grip hand or hide your heel by keeping your knee line tight before attempting any passing movements. Heel safety always comes before offensive action in leg entanglements.",
-      "difficulty": "Beginner"
+      "answer": "Protecting your heel from inside heel hook attacks. You must control opponent's grip hand or hide your heel by keeping your knee line tight before attempting any passing movements. Heel safety always comes before offensive action in leg entanglements."
     },
     {
       "question": "Why must you create space at the hip connection before extracting your bottom leg?",
-      "answer": "The hip connection is where the entanglement is tightest. Without creating space first, your leg cannot physically move free from the entanglement. Attempting to extract without space wastes energy and keeps you trapped. The space allows your knee to move in a circular path out of the entanglement.",
-      "difficulty": "Beginner"
+      "answer": "The hip connection is where the entanglement is tightest. Without creating space first, your leg cannot physically move free from the entanglement. Attempting to extract without space wastes energy and keeps you trapped. The space allows your knee to move in a circular path out of the entanglement."
     },
     {
       "question": "Which leg do you extract first in the 50-50 pass and why?",
-      "answer": "You extract the bottom leg first (the leg that is underneath opponent's leg). This leg is more deeply entangled and its extraction creates the freedom needed to step your top leg over. Attempting to step over while bottom leg is trapped keeps you stuck in the entanglement.",
-      "difficulty": "Intermediate"
+      "answer": "You extract the bottom leg first (the leg that is underneath opponent's leg). This leg is more deeply entangled and its extraction creates the freedom needed to step your top leg over. Attempting to step over while bottom leg is trapped keeps you stuck in the entanglement."
     },
     {
       "question": "How do you maintain passing pressure while extracting your legs from the entanglement?",
-      "answer": "By keeping heavy shoulder pressure on opponent's chest with a strong crossface throughout the entire sequence. Your upper body remains in constant contact and creates downward pressure while your lower body extracts. This prevents opponent from sitting up or creating angles to defend.",
-      "difficulty": "Intermediate"
+      "answer": "By keeping heavy shoulder pressure on opponent's chest with a strong crossface throughout the entire sequence. Your upper body remains in constant contact and creates downward pressure while your lower body extracts. This prevents opponent from sitting up or creating angles to defend."
     },
     {
       "question": "What is the most common mistake that allows opponent to maintain 50-50 guard during a passing attempt?",
-      "answer": "Rising up too high and losing upper body control while extracting legs. When passers stand or elevate their hips excessively, opponent can sit up underneath them and re-establish the entanglement or recover different guard positions. The pass requires low, heavy pressure maintained throughout.",
-      "difficulty": "Intermediate"
+      "answer": "Rising up too high and losing upper body control while extracting legs. When passers stand or elevate their hips excessively, opponent can sit up underneath them and re-establish the entanglement or recover different guard positions. The pass requires low, heavy pressure maintained throughout."
     },
     {
       "question": "Your opponent establishes a strong two-handed grip on your heel during the pass attempt - what immediate action should you take?",
-      "answer": "Immediately abandon the pass and address the heel hook threat. Use both hands to break their grip on your heel, starting with the hand cupping your heel. Only after successfully breaking their grips should you resume the passing sequence. Forcing the pass with a heel hook grip secured will result in submission or serious injury.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately abandon the pass and address the heel hook threat. Use both hands to break their grip on your heel, starting with the hand cupping your heel. Only after successfully breaking their grips should you resume the passing sequence. Forcing the pass with a heel hook grip secured will result in submission or serious injury."
     },
     {
       "question": "What direction should you rotate your knee when opponent threatens an inside heel hook during extraction?",
-      "answer": "Rotate your knee inward toward your opposite hip. This takes tension off the heel hook mechanism by aligning your knee and heel, reducing the rotational torque that causes injury. The inward knee rotation is the primary defensive mechanism against inside heel hooks throughout the passing sequence.",
-      "difficulty": "Intermediate"
+      "answer": "Rotate your knee inward toward your opposite hip. This takes tension off the heel hook mechanism by aligning your knee and heel, reducing the rotational torque that causes injury. The inward knee rotation is the primary defensive mechanism against inside heel hooks throughout the passing sequence."
     },
     {
       "question": "How does the 50-50 pass integrate into modern leg lock meta-game strategy?",
-      "answer": "The 50-50 pass is essential defensive knowledge in modern no-gi grappling where leg entanglements are common. It allows you to escape a dangerous attacking position (50-50) while transitioning to a dominant passing position. Understanding this pass also teaches leg lock defense principles that apply to other entanglements like ashi garami and saddle. In competition, the ability to pass from 50-50 prevents your opponent from stalling in the position while threatening submissions.",
-      "difficulty": "Advanced"
+      "answer": "The 50-50 pass is essential defensive knowledge in modern no-gi grappling where leg entanglements are common. It allows you to escape a dangerous attacking position (50-50) while transitioning to a dominant passing position. Understanding this pass also teaches leg lock defense principles that apply to other entanglements like ashi garami and saddle. In competition, the ability to pass from 50-50 prevents your opponent from stalling in the position while threatening submissions."
     },
     {
       "question": "When should you abandon the 50-50 pass and return to defensive positioning?",
-      "answer": "If opponent secures a strong inside heel hook grip that you cannot break, or if they successfully sit up and break your upper body control. In these situations, forcing the pass increases injury risk or allows sweeps. Return to neutral 50-50, re-establish defensive priorities, and wait for a better opportunity to pass. Patience and safety are more important than forcing a dangerous pass.",
-      "difficulty": "Advanced"
+      "answer": "If opponent secures a strong inside heel hook grip that you cannot break, or if they successfully sit up and break your upper body control. In these situations, forcing the pass increases injury risk or allows sweeps. Return to neutral 50-50, re-establish defensive priorities, and wait for a better opportunity to pass. Patience and safety are more important than forcing a dangerous pass."
     },
     {
       "question": "Your opponent attempts to re-entangle by threading their leg back between yours after you extract your bottom leg - how do you prevent this?",
-      "answer": "Immediately step your top leg over their body as one continuous motion with the bottom leg extraction. Do not pause between movements. Additionally, drive your crossface pressure harder to flatten them on their back, reducing their hip mobility. Keep your extracted leg wide and away from re-entanglement range while your top leg steps over.",
-      "difficulty": "Advanced"
+      "answer": "Immediately step your top leg over their body as one continuous motion with the bottom leg extraction. Do not pause between movements. Additionally, drive your crossface pressure harder to flatten them on their back, reducing their hip mobility. Keep your extracted leg wide and away from re-entanglement range while your top leg steps over."
     },
     {
       "question": "What grip adjustments are necessary when transitioning from leg extraction to side control consolidation?",
-      "answer": "During extraction, your hands control opponent's hips and grips. As you step over, your near-side arm transitions to an underhook position on their far side while your crossface arm maintains head and shoulder control. Never release both grips simultaneously - one hand maintains control while the other transitions. This ensures continuous pressure throughout the passing sequence.",
-      "difficulty": "Advanced"
+      "answer": "During extraction, your hands control opponent's hips and grips. As you step over, your near-side arm transitions to an underhook position on their far side while your crossface arm maintains head and shoulder control. Never release both grips simultaneously - one hand maintains control while the other transitions. This ensures continuous pressure throughout the passing sequence."
     },
     {
       "question": "How do you recognize the optimal timing window to initiate the 50-50 pass?",
-      "answer": "The optimal window occurs when opponent is focused on their own offense rather than guard retention. Watch for them reaching for heel grips, adjusting their position, or transitioning between attack setups. These moments create brief lapses in their defensive frame. Additionally, when opponent's hip pressure lightens as they reset or adjust, immediately begin your extraction sequence.",
-      "difficulty": "Advanced"
+      "answer": "The optimal window occurs when opponent is focused on their own offense rather than guard retention. Watch for them reaching for heel grips, adjusting their position, or transitioning between attack setups. These moments create brief lapses in their defensive frame. Additionally, when opponent's hip pressure lightens as they reset or adjust, immediately begin your extraction sequence."
     }
   ],
   "safety_considerations": "The 50-50 Pass is performed from one of BJJ's most dangerous positions for leg injuries. Always protect your heel before attempting to pass - inside heel hooks can cause catastrophic knee and ankle damage if applied suddenly. When training this technique, partners must agree on submission threat levels and tap immediately to any heel pressure. Never force the pass if opponent has secured a heel hook grip; break the grip first or abandon the pass. During extraction, move smoothly without jerking motions that could damage your own knee. Build conditioning gradually as the position is physically demanding. In competition, be aware that some 50-50 positions may result in referee resets if neither player advances position. Practice with experienced leg lock practitioners who understand safety protocols.",
@@ -323,5 +294,6 @@
       "name": "Kneebar Control",
       "relationship": "Threat Position - opponent may transition here during pass attempt"
     }
-  ]
+  ],
+  "success_rate": 58
 }

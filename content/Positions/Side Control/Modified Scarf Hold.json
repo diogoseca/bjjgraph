@@ -161,7 +161,7 @@
           },
           {
             "technique": "North-South Choke",
-            "target": "North South Control",
+            "target": "North-South",
             "probability": 50
           }
         ]
@@ -247,21 +247,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Ability to maintain position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Probability of advancing to mount or back control"
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Probability of finishing submission from this position"
       },
       "average_time": "60-120 seconds to submission or advancement"
@@ -496,21 +490,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 85,
-        "intermediate": 70,
-        "advanced": 55,
+        "value": 62,
         "description": "Opponent's ability to maintain position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 40,
+        "value": 32,
         "description": "Probability of escaping to better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 3,
-        "advanced": 2,
+        "value": 2,
         "description": "Probability of submitting opponent from bottom (extremely low)"
       },
       "average_time": "45-90 seconds before escape or submission"

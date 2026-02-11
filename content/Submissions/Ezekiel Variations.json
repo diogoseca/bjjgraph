@@ -16,11 +16,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Mount",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Ezekiel Choke is a highly versatile gi-based blood choke that can be applied from multiple dominant positions, making it one of the most adaptable submissions in Brazilian Jiu-Jitsu. Named after Brazilian judoka Ezequiel Paraguassu who popularized it in BJJ, this technique uses the practitioner's own sleeve as a choking mechanism combined with the forearm to compress the carotid arteries. What makes the Ezekiel Choke particularly dangerous is its ability to be executed from positions where opponents typically feel safe, including mount, side control, closed guard top, and even unconventional positions like inside the opponent's closed guard. The fundamental mechanism involves threading one hand inside the opponent's collar or using your own gi sleeve, while the other arm wraps around the neck to create a scissoring pressure that cuts off blood flow to the brain.\n\nThe variations of the Ezekiel Choke demonstrate the technique's tactical flexibility across different scenarios and positions. From mount, it serves as a high-percentage finishing option when opponents defend their neck tightly. From side control, it provides an alternative attack when the opponent frames effectively against traditional north-south chokes. The most audacious variation involves executing the choke from within the opponent's closed guard, turning a defensive position into an offensive submission opportunity. Each variation requires specific grip configurations, angle adjustments, and pressure applications, but all share the fundamental principle of using the gi and forearm to create bilateral compression of the neck. Understanding these variations allows practitioners to maintain submission threats regardless of positional changes, creating a seamless offensive system that keeps opponents constantly defending.",
   "safety_considerations": {
     "injury_risks": [
@@ -92,43 +87,37 @@
       "step_number": 1,
       "action": "Establish dominant position and control",
       "description": "From mount, side control, or closed guard top, establish heavy chest pressure and control the opponent's head using your own head position. Your weight should make the opponent uncomfortable and focused on breathing rather than hand fighting. Ensure your base is solid - in mount, your knees should be tight to their sides; in side control, your hips should be low; in closed guard top, your posture should be controlled but not broken.",
-      "timing": "2-3 seconds to settle weight",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to settle weight"
     },
     {
       "step_number": 2,
       "action": "Grip your own sleeve",
       "description": "With your choking hand (typically the hand closer to the opponent's head), reach across and grip your opposite sleeve at the wrist or forearm. This grip should be deep - your thumb should be inside the sleeve creating a pocket for the opponent's neck. The fabric of your gi becomes the primary choking surface. This grip must be secure before proceeding as it's the foundation of the submission.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Thread the choking hand across the neck",
       "description": "Slide your sleeve-gripped hand blade-side first across the opponent's neck, threading it deep until your thumb passes the centerline of their throat. The movement should be smooth and deliberate - imagine sliding your hand between their neck and the mat. Your knuckles should be against one side of their neck while the gi fabric wrapped around your palm contacts the other side. Maintain downward pressure with your chest throughout this movement to prevent them from creating space.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Position the assisting arm",
       "description": "Your non-choking arm (the free arm) now becomes the pressure arm. Place your forearm blade across the opposite side of the opponent's neck, creating a scissoring effect with your sleeve-wrapped hand. The bony part of your forearm should contact the side of the neck, while your bicep may rest against their face. This arm should be positioned perpendicular to your choking hand, creating a cross formation.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Secure your hand position behind the head",
       "description": "Clasp your hands together behind the opponent's head, or secure your choking hand's grip on your sleeve with your free hand. Some variations involve the free hand grabbing the mat, your own collar, or creating a frame. The key is that both arms now work together - one hand pulls while the other pushes, creating bilateral compression. Your elbows should be tight to your sides for maximum leverage.",
-      "timing": "1 second",
-      "pressure_level": "Moderate"
+      "timing": "1 second"
     },
     {
       "step_number": 6,
       "action": "Apply the choke with coordinated pressure",
       "description": "Squeeze your elbows together while expanding your chest forward, creating a scissoring compression on both carotid arteries. The pressure comes from bringing your forearms together like closing a book, not from pulling or pushing in one direction. Your chest should remain heavy on the opponent, preventing them from turning into you or creating space. The choke should tighten progressively - in training, apply pressure slowly over 3-5 seconds to allow your partner time to recognize the threat and tap. The finish is achieved through coordinated bilateral compression, not through crushing the trachea with downward force.",
-      "timing": "3-5 seconds in training; 1-2 seconds in competition",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds in training; 1-2 seconds in competition"
     }
   ],
   "opponent_defense_patterns": [
@@ -162,38 +151,32 @@
     {
       "error": "Trying to finish with downward crushing pressure instead of bilateral compression",
       "consequence": "This crushes the trachea causing pain but doesn't effectively compress the carotid arteries, resulting in a painful but ineffective choke that damages the throat",
-      "correction": "Focus on squeezing your elbows together horizontally rather than pushing down. The choke works through bilateral compression of the arteries on both sides of the neck, not through crushing the windpipe.",
-      "danger_level": "CRITICAL"
+      "correction": "Focus on squeezing your elbows together horizontally rather than pushing down. The choke works through bilateral compression of the arteries on both sides of the neck, not through crushing the windpipe."
     },
     {
       "error": "Failing to thread the hand deep enough across the neck",
       "consequence": "The choke lacks depth and only creates superficial pressure that the opponent can defend by tucking their chin or turning their head",
-      "correction": "Ensure your thumb passes the centerline of the opponent's throat before applying pressure. Your hand should be deep enough that the opponent cannot create space by turning their head.",
-      "danger_level": "Low"
+      "correction": "Ensure your thumb passes the centerline of the opponent's throat before applying pressure. Your hand should be deep enough that the opponent cannot create space by turning their head."
     },
     {
       "error": "Lifting your chest off the opponent while applying the choke",
       "consequence": "The opponent gains space to turn, bridge, or escape the position entirely, nullifying the submission attempt",
-      "correction": "Keep your chest heavy on the opponent throughout the entire sequence. Your weight should remain constant even as your arms work to finish the choke.",
-      "danger_level": "Low"
+      "correction": "Keep your chest heavy on the opponent throughout the entire sequence. Your weight should remain constant even as your arms work to finish the choke."
     },
     {
       "error": "Telegraphing the choke by obviously reaching for your sleeve before establishing control",
       "consequence": "Opponent recognizes the threat early and defends their neck preemptively, tucking their chin and framing to prevent the setup",
-      "correction": "Establish dominant pressure first, then grip your sleeve in one smooth motion while maintaining chest pressure. Use feints or secondary threats to occupy the opponent's defensive attention.",
-      "danger_level": "Low"
+      "correction": "Establish dominant pressure first, then grip your sleeve in one smooth motion while maintaining chest pressure. Use feints or secondary threats to occupy the opponent's defensive attention."
     },
     {
       "error": "Keeping elbows flared away from your body during the finish",
       "consequence": "Loss of mechanical advantage and leverage, resulting in weak pressure that the opponent can endure or escape",
-      "correction": "Actively squeeze your elbows to your ribcage throughout the finish. Your arms should feel like they're hugging your own body while the opponent's neck is caught between your forearms.",
-      "danger_level": "Medium"
+      "correction": "Actively squeeze your elbows to your ribcage throughout the finish. Your arms should feel like they're hugging your own body while the opponent's neck is caught between your forearms."
     },
     {
       "error": "Continuing to apply pressure after partner taps or goes unconscious",
       "consequence": "Potential brain damage, trachea injury, or death if choke is held after unconsciousness",
-      "correction": "Release immediately upon tap. Watch for signs of unconsciousness (body going limp, unusual breathing sounds) and release instantly. Never hold blood chokes after tap under any circumstances.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon tap. Watch for signs of unconsciousness (body going limp, unusual breathing sounds) and release instantly. Never hold blood chokes after tap under any circumstances."
     }
   ],
   "variations_and_setups": [
@@ -290,50 +273,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "First 2 weeks of learning",
-      "focus": "Learn the grip mechanics, hand threading, and arm positioning without applying any choking pressure. Practice the sleeve grip and understand the bilateral compression concept through demonstration and slow motion drilling.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner remains completely relaxed. Focus is entirely on grip mechanics and body positioning. No pressure is applied to the neck - simply achieve the position and release. Instructor supervision required for all drilling."
-    },
-    {
-      "phase": "Slow Application Practice (Weeks 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Begin applying light pressure (10-20% maximum) while partner provides feedback on pressure direction and location. Partner should communicate when they feel any pressure on their carotid arteries versus their trachea. Learn to differentiate between safe compression and dangerous crushing.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Constant communication between partners. Use verbal feedback: 'I feel pressure on the right side' or 'That's on my throat, not the arteries.' Apply pressure very slowly over 5-7 seconds minimum. Partner should tap early and often to establish safety habits."
-    },
-    {
-      "phase": "Position-Specific Drilling (Weeks 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Practice each variation (mount, side control, closed guard top) separately with gradual pressure increase to 30-40% maximum. Learn the specific angle adjustments and base requirements for each position. Begin to recognize the different feel of each variation.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner can use basic defensive movements like tucking chin or turning head, but should not attempt to escape the position. Continue slow application over 4-5 seconds. Emphasize immediate release upon tap. Practice the full release protocol including checking partner's consciousness."
-    },
-    {
-      "phase": "Defensive Integration (Weeks 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Partner begins applying common defenses (chin tuck, wrist control, bridging) while you learn to maintain position and adjust your technique. Practice recognizing when to abandon the attempt versus when to persist. Learn to flow between variations when one is defended.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners take equal responsibility for safety. Defender should tap as soon as they feel significant carotid compression, not testing their limits. Attacker must recognize that higher resistance requires more careful pressure application. Maximum 50-60% pressure even against full resistance. Both partners should communicate after each repetition about pressure levels."
-    },
-    {
-      "phase": "Live Sparring Integration (Weeks 13+)",
-      "timeframe": "Week 13 onwards",
-      "focus": "Attempt the Ezekiel variations during normal positional sparring and eventually during full sparring rounds. Learn to recognize opportunities and set up the choke within the flow of live rolling. Develop the ability to transition between Ezekiel variations and other submissions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "In live sparring, apply the choke at 70-80% maximum speed and pressure. Save competition-level application for competition or supervised advanced sparring. Always release immediately upon tap. Be especially cautious with training partners who are new or significantly less experienced. Never 'test' how long someone can last in a choke. Monitor your partner's breathing and awareness throughout."
-    },
-    {
-      "phase": "Advanced Application and Teaching (Ongoing)",
-      "timeframe": "Ongoing after blue belt level",
-      "focus": "Refine the subtle details of each variation, develop your own timing and setups, and begin teaching the technique to others. Work on chaining the Ezekiel with other submissions and positions. Develop situational awareness for when each variation is most effective versus other submission options.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "As a more advanced practitioner, you have increased responsibility for your training partners' safety. When working with less experienced partners, apply even lighter pressure and release earlier. When teaching, emphasize safety protocols before technique. Always demonstrate proper release protocol. Develop the wisdom to know when to finish a submission versus when to let it go in training to preserve your partner's health and trust."
-    }
-  ],
   "from_positions": [
     "Mount",
     "High Mount",
@@ -412,5 +351,6 @@
       "name": "Cross Collar Choke",
       "relationship": "Related gi choke utilizing collar control for bilateral compression"
     }
-  ]
+  ],
+  "success_rate": 58
 }

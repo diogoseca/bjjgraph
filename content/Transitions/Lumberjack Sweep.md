@@ -153,7 +153,7 @@ description: "Master the Lumberjack Sweep from half guard in BJJ. Step-by-step e
 The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on underhook control to off-balance and sweep an opponent who is attempting to pass. Named for the chopping motion used to break down the opponent's base, this technique is particularly effective against opponents who overcommit their weight forward or fail to establish proper crossface control. The sweep combines hip movement, underhook leverage, and precise timing to elevate the opponent and transition to a dominant top position. This technique serves as a cornerstone of modern half guard systems, providing a reliable option when the opponent is pressuring into your half guard. The Lumberjack Sweep's effectiveness lies in its ability to exploit the opponent's forward momentum, turning their pressure into a liability. By controlling the underhook and creating the proper angle, the bottom player can generate significant leverage despite being in an inferior position. This sweep integrates seamlessly with other half guard attacks, forming part of a comprehensive sweeping system that keeps opponents defensive and hesitant to engage.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -201,12 +201,12 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish underhook control**: From half guard bottom, swim your inside arm deep under opponent's armpit on the far side. Your hand should emerge near their far shoulder blade. Simultaneously cup your free hand around their near side wrist or grab their belt to prevent posting. Keep your head pressed against their ribs on the underhook side to block crossface attempts. (Timing: Execute immediately when opponent lacks crossface control)
-2. **Create angle and hip out**: Turn your entire body toward the underhook side, creating a 45-degree angle relative to your opponent. Hip out away from them by pushing with your outside leg and pulling with your inside hook. This angle is critical as it positions your hips beneath theirs and sets up the sweeping leverage. Your shoulders should now be perpendicular to theirs. (Timing: Movement should be one fluid motion with underhook establishment)
-3. **Secure opponent's base leg**: Your inside leg (the one in half guard) should hook deep around opponent's trapped leg, with your foot positioned behind their knee. Squeeze your knees together to control their leg completely. Your outside leg posts on the mat for base. This prevents them from extracting their leg or posting to defend the sweep. (Timing: Maintain constant squeeze throughout sweep execution)
-4. **Generate sweeping momentum**: Explosively extend your hips upward and toward the underhook side while pulling hard with your underhook arm. Simultaneously push your head into their ribs and use your free hand to prevent them from posting. The motion resembles chopping down a tree - hence the name Lumberjack Sweep. Drive your hips high to elevate their base leg completely off the mat. (Timing: Execute when opponent's weight shifts forward or commits to passing)
-5. **Complete rotation and sweep**: Continue the rotational momentum, rolling your opponent over your body toward the underhook side. Keep your underhook tight and control their trapped leg throughout. Your body should rotate 180 degrees, bringing you from bottom to top position. Maintain constant pressure and connection to prevent them from turtling or rolling through. (Timing: Maintain smooth, continuous motion without pausing mid-sweep)
-6. **Establish top control**: As you complete the sweep, land in side control or knee on belly position. Keep your underhook deep and immediately work to secure crossface control with your free hand. Pin their hips with your weight and establish strong shoulder pressure. If opponent attempts to recover guard, use your underhook to control their shoulder and prevent them from turning in. (Timing: Transition immediately to prevent guard recovery)
+1. **Establish underhook control**: From half guard bottom, swim your inside arm deep under opponent's armpit on the far side. Your hand should emerge near their far shoulder blade. Simultaneously cup your free hand around their near side wrist or grab their belt to prevent posting. Keep your head pressed against their ribs on the underhook side to block crossface attempts.
+2. **Create angle and hip out**: Turn your entire body toward the underhook side, creating a 45-degree angle relative to your opponent. Hip out away from them by pushing with your outside leg and pulling with your inside hook. This angle is critical as it positions your hips beneath theirs and sets up the sweeping leverage. Your shoulders should now be perpendicular to theirs.
+3. **Secure opponent's base leg**: Your inside leg (the one in half guard) should hook deep around opponent's trapped leg, with your foot positioned behind their knee. Squeeze your knees together to control their leg completely. Your outside leg posts on the mat for base. This prevents them from extracting their leg or posting to defend the sweep.
+4. **Generate sweeping momentum**: Explosively extend your hips upward and toward the underhook side while pulling hard with your underhook arm. Simultaneously push your head into their ribs and use your free hand to prevent them from posting. The motion resembles chopping down a tree - hence the name Lumberjack Sweep. Drive your hips high to elevate their base leg completely off the mat.
+5. **Complete rotation and sweep**: Continue the rotational momentum, rolling your opponent over your body toward the underhook side. Keep your underhook tight and control their trapped leg throughout. Your body should rotate 180 degrees, bringing you from bottom to top position. Maintain constant pressure and connection to prevent them from turtling or rolling through.
+6. **Establish top control**: As you complete the sweep, land in side control or knee on belly position. Keep your underhook deep and immediately work to secure crossface control with your free hand. Pin their hips with your weight and establish strong shoulder pressure. If opponent attempts to recover guard, use your underhook to control their shoulder and prevent them from turning in.
 
 
 </section>
@@ -252,27 +252,21 @@ The Lumberjack Sweep is a fundamental half guard sweep that capitalizes on under
 ## Training Progressions
 **Week 1-2: Foundation and Positioning** - Underhook establishment and angle creation
 Practice establishing deep underhook from various half guard positions. Drill the hip out movement to create proper angle repeatedly. Partner remains passive, allowing you to feel correct positioning. Focus on achieving 45-degree angle and deep underhook connection before attempting any sweeping motion.
-(Resistance: None)
 
 **Week 3-4: Basic Sweep Mechanics** - Sweeping motion and hip extension
 Add the sweeping motion with partner offering minimal resistance. Practice explosive hip extension and rotational momentum. Partner allows themselves to be swept but maintains awareness to prevent injury. Focus on smooth, continuous motion from angle creation through to sweep completion. Perform 20-30 repetitions per session.
-(Resistance: Light)
 
 **Week 5-8: Timing and Entry Development** - Recognizing sweep opportunities and timing execution
 Partner now actively attempts to pass half guard using basic passing techniques. Execute sweep when they commit weight forward or create opening. Learn to recognize windows of opportunity and chain to other half guard attacks when sweep is not available. Begin developing feel for when sweep will succeed versus when to abandon.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense and Transitions** - Defending common counters and linking techniques
 Partner actively defends sweep using crossface, posting, and leg extraction. Practice stripping posted arms, maintaining underhook against crossface attempts, and transitioning to deep half or kimura when sweep is blocked. Develop complete half guard system where lumberjack sweep is one option among many.
-(Resistance: Medium)
 
 **Week 13+: Competition Application** - Full resistance application in live training
 Incorporate lumberjack sweep into positional sparring and live rolling. Partner uses full resistance and all available defenses. Focus on chaining techniques smoothly and recognizing which situations favor the lumberjack sweep versus other half guard attacks. Track success rate and identify patterns in when sweep succeeds.
-(Resistance: Full)
 
 **Ongoing: Advanced Variations and Combinations** - Developing personal style and high-level execution
 Experiment with grip variations, timing adjustments, and combinations with submission attacks. Study video of high-level competitors using lumberjack sweep and identify details that enhance effectiveness. Develop ability to execute sweep against opponents who specifically know and defend against it.
-(Resistance: Full)
 
 
 

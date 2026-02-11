@@ -157,7 +157,7 @@ The technique's effectiveness stems from its mechanical simplicity combined with
 Strategically, the rear naked choke serves as the primary threat from back control, forcing opponents to defend their neck continuously. This defensive commitment creates opportunities for alternative attacks including armbar variations, bow and arrow choke, and crucifix transitions. The submission's reliability across all experience levels makes it a foundational technique that every practitioner must master both offensively and defensively.
 
 **From Position**: [[Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the rear naked choke serves as the primary threat from back contr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure seatbelt control**: From back control, establish harness grip with one arm over opponent's shoulder and one under their armpit, hands clasped together on their chest. This controls their upper body and positions your choking arm. (Timing: Before initiating choke sequence)
-2. **Clear the chin**: Use your hand fighting techniques to create an opening past opponent's chin. Walk your fingers up their chest, use misdirection attacks, or time their defensive hand movement to slide your forearm under their chin toward their neck. (Timing: When opponent's hands are occupied or out of position)
-3. **Set the choking arm**: Slide your forearm across the throat until the blade of your forearm (radius bone) contacts the trachea and your bicep and forearm create a V-shape around the neck. Your elbow should be directly under their chin. (Timing: Immediately after clearing chin line)
-4. **Position your head**: Place your head tight behind opponent's head on the choking arm side, using your temple against the back of their skull. This prevents them from turning into you and creates a wedge that amplifies squeeze pressure. (Timing: As choking arm sets in position)
-5. **Secure the grip**: Bring your non-choking hand to your bicep of the choking arm, gripping tightly. Place the choking hand behind opponent's head or on your own shoulder, completing the figure-four lock around their neck. (Timing: Once forearm position is established)
-6. **Apply the squeeze**: Expand your chest, pull your elbows back toward your body, and squeeze your shoulders together while driving your head forward into theirs. The pressure comes from your back muscles and chest expansion, compressing both carotid arteries simultaneously. (Timing: Once grip is locked - finish within 3-5 seconds)
+1. **Secure seatbelt control**: From back control, establish harness grip with one arm over opponent's shoulder and one under their armpit, hands clasped together on their chest. This controls their upper body and positions your choking arm.
+2. **Clear the chin**: Use your hand fighting techniques to create an opening past opponent's chin. Walk your fingers up their chest, use misdirection attacks, or time their defensive hand movement to slide your forearm under their chin toward their neck.
+3. **Set the choking arm**: Slide your forearm across the throat until the blade of your forearm (radius bone) contacts the trachea and your bicep and forearm create a V-shape around the neck. Your elbow should be directly under their chin.
+4. **Position your head**: Place your head tight behind opponent's head on the choking arm side, using your temple against the back of their skull. This prevents them from turning into you and creates a wedge that amplifies squeeze pressure.
+5. **Secure the grip**: Bring your non-choking hand to your bicep of the choking arm, gripping tightly. Place the choking hand behind opponent's head or on your own shoulder, completing the figure-four lock around their neck.
+6. **Apply the squeeze**: Expand your chest, pull your elbows back toward your body, and squeeze your shoulders together while driving your head forward into theirs. The pressure comes from your back muscles and chest expansion, compressing both carotid arteries simultaneously.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, the rear naked choke serves as the primary threat from back contr
 ## Training Progressions
 **Week 1-2** - Arm placement mechanics
 Practice the choking arm position and figure-four grip on compliant partners. Focus on forearm blade placement, elbow position under chin, and proper head positioning. Drill entry from static harness position without resistance.
-(Resistance: None)
 
 **Week 3-4** - Hand fighting and chin clearance
 Add light defensive resistance to practice clearing the chin against two-on-one defense and chin tuck. Develop multiple entry paths including finger walking, misdirection, and timing their hand movement.
-(Resistance: Light)
 
 **Week 5-6** - Submission chains and combinations
 Practice transitioning between RNC attempts, armbar attacks, bow and arrow choke, and crucifix when opponent defends. Develop the ability to attack continuously from back control using the choke threat to create other openings.
-(Resistance: Medium)
 
 **Week 7+** - Live application and timing
 Full resistance positional sparring from back control with the goal of finishing the rear naked choke. Focus on recognizing the optimal moment to attack, managing defensive resistance, and maintaining position throughout attempts.
-(Resistance: Full)
 
 
 

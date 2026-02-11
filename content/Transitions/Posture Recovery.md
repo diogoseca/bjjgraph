@@ -159,7 +159,7 @@ description: "Learn Posture Recovery in BJJ. Defensive technique for regaining u
 Posture Recovery is a fundamental defensive technique used when your posture has been broken while inside an opponent's guard. This critical skill allows you to regain an upright, stable position from which you can effectively pass or defend against submissions and sweeps. Breaking an opponent's posture is one of the primary objectives from guard positions, making posture recovery an essential skill for any top player. The technique involves a systematic approach to creating space, establishing proper base, and using controlled movements to return to an advantageous position. Mastering posture recovery is crucial because it represents the difference between maintaining offensive potential and being swept or submitted. When executed properly, it neutralizes the guard player's attacks while preserving your energy and positioning for continued passing attempts.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 55%, Intermediate 70%, Advanced 85%
+**Success Rate**: 78%
 
 </section>
 
@@ -208,13 +208,13 @@ Posture Recovery is a fundamental defensive technique used when your posture has
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess threats**: Before initiating recovery, quickly identify immediate submission threats such as collar chokes, armbars, or triangle setups. Check hand positions, collar grips, and hip angle. This assessment determines your recovery path and urgency level. (Timing: Immediate upon posture break)
-2. **Establish hand frames**: Place hands on opponent's hips, biceps, or chest to create initial frames. If they have collar grips, prioritize breaking or controlling these first. Your hands should be positioned to push while protecting your own neck and arms from isolation. (Timing: Within 1-2 seconds of assessment)
-3. **Widen base**: Spread your knees outward to create a wider, more stable base. This prevents easy sweeps and provides the foundation for driving your hips backward. Your feet should be positioned to allow backward movement while maintaining balance. (Timing: Simultaneous with hand frames)
-4. **Drive hips back**: Using your leg strength, drive your hips backward and downward away from the opponent. This is the primary movement that creates distance. Keep your core engaged and back straight during this movement to avoid compromising your spine. (Timing: Explosive 1-second burst)
-5. **Straighten spine progressively**: As distance increases, begin straightening your spine from the hips upward. Engage your core muscles to support this movement. Avoid leading with your head or jerking upward, which can strain your neck and telegraph your intention. (Timing: Progressive over 2-3 seconds)
-6. **Reset combat base**: Once upright, immediately establish combat base position with one knee up, proper weight distribution, and defensive hand positioning. Maintain pressure downward to prevent opponent from sitting up while you consolidate your recovered posture. (Timing: Immediate upon reaching upright position)
-7. **Secure grips**: With posture recovered, establish or re-establish your preferred passing grips. Control the opponent's hips, legs, or collar to prevent them from immediately breaking your posture again. This completes the recovery and positions you for passing attempts. (Timing: Within 2-3 seconds of base establishment)
+1. **Assess threats**: Before initiating recovery, quickly identify immediate submission threats such as collar chokes, armbars, or triangle setups. Check hand positions, collar grips, and hip angle. This assessment determines your recovery path and urgency level.
+2. **Establish hand frames**: Place hands on opponent's hips, biceps, or chest to create initial frames. If they have collar grips, prioritize breaking or controlling these first. Your hands should be positioned to push while protecting your own neck and arms from isolation.
+3. **Widen base**: Spread your knees outward to create a wider, more stable base. This prevents easy sweeps and provides the foundation for driving your hips backward. Your feet should be positioned to allow backward movement while maintaining balance.
+4. **Drive hips back**: Using your leg strength, drive your hips backward and downward away from the opponent. This is the primary movement that creates distance. Keep your core engaged and back straight during this movement to avoid compromising your spine.
+5. **Straighten spine progressively**: As distance increases, begin straightening your spine from the hips upward. Engage your core muscles to support this movement. Avoid leading with your head or jerking upward, which can strain your neck and telegraph your intention.
+6. **Reset combat base**: Once upright, immediately establish combat base position with one knee up, proper weight distribution, and defensive hand positioning. Maintain pressure downward to prevent opponent from sitting up while you consolidate your recovered posture.
+7. **Secure grips**: With posture recovered, establish or re-establish your preferred passing grips. Control the opponent's hips, legs, or collar to prevent them from immediately breaking your posture again. This completes the recovery and positions you for passing attempts.
 
 
 </section>
@@ -261,27 +261,21 @@ Posture Recovery is a fundamental defensive technique used when your posture has
 ## Training Progressions
 **Week 1-2: Mechanics Introduction** - Basic movement patterns and body awareness
 Partner allows posture to be broken from closed guard with basic grips. Practice hip drive and progressive spinal straightening with no resistance. Focus on proper sequencing and avoiding head-first recovery. Partner provides verbal feedback on technique.
-(Resistance: None)
 
 **Week 3-4: Light Resistance** - Recovering against maintained grips
 Partner maintains grips but doesn't actively pull or submit. Practice creating frames, driving hips back, and recovering despite grip pressure. Begin recognizing submission threats and addressing them during recovery. Partner increases grip strength gradually.
-(Resistance: Light)
 
 **Week 5-8: Moderate Resistance with Threats** - Recovery under submission pressure
 Partner actively attempts to maintain broken posture and threatens submissions (armbar, triangle, collar chokes). Practice recognizing threats early and modifying recovery path accordingly. Develop timing and feel for when to commit to recovery versus when to defend first.
-(Resistance: Medium)
 
 **Week 9-12: Full Resistance Integration** - Recovery in live situations
 Incorporate posture recovery into regular guard passing practice. Partner uses full resistance and all available attacks. Practice recovery from various guard types (closed, open, spider, etc.). Develop automatic response to posture breaks.
-(Resistance: Full)
 
 **Month 4-6: Advanced Scenarios** - Recovery against advanced guard players
 Practice against skilled guard players who actively hunt submissions and sweeps. Develop multiple recovery paths based on opponent's style. Learn to chain recovery with immediate passing attacks. Train recovery under fatigue conditions.
-(Resistance: Full)
 
 **Ongoing: Maintenance and Refinement** - Continuous improvement and adaptation
 Regularly drill posture recovery as part of warm-ups and technique sessions. Video review to identify subtle errors. Practice recovery from new guard variations as they emerge in the meta-game. Teach the technique to others to deepen understanding.
-(Resistance: Full)
 
 
 

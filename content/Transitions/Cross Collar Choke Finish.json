@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Cross Collar Choke Finish represents the culmination of the invisible collar attack system from back control. This technique transforms the deceptive collar grip into a blood choke that compresses both carotid arteries simultaneously. Unlike standard collar chokes that telegraph intent, the invisible collar setup allows practitioners to achieve optimal finishing position before opponents recognize the threat.\n\nThe finishing mechanics differ fundamentally from mounted cross collar variations because the back position provides superior structural leverage. The choking arm rotates toward the attacker's own chest while the secondary grip controls opponent posture, creating a scissoring action that tightens progressively. This biomechanical advantage explains why the technique succeeds at higher rates from back control compared to front-facing positions.\n\nStrategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.",
   "key_principles": [
     "Achieve maximum collar depth with all four fingers inside before initiating finish",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Confirm grip depth",
-      "description": "Verify all four fingers are deep inside the collar with knuckles pressed firmly against opponent's neck and thumb positioned on the outside of the collar material creating the proper choking structure",
-      "timing": "Before initiating any finishing pressure"
+      "description": "Verify all four fingers are deep inside the collar with knuckles pressed firmly against opponent's neck and thumb positioned on the outside of the collar material creating the proper choking structure"
     },
     {
       "step_number": 2,
       "action": "Secure secondary control",
-      "description": "Ensure your seatbelt arm is firmly controlling opponent's far shoulder, preventing them from turning toward you or creating rotation that would loosen the collar grip's effectiveness",
-      "timing": "Simultaneous with grip confirmation"
+      "description": "Ensure your seatbelt arm is firmly controlling opponent's far shoulder, preventing them from turning toward you or creating rotation that would loosen the collar grip's effectiveness"
     },
     {
       "step_number": 3,
       "action": "Tighten body connection",
-      "description": "Drive your chest firmly into opponent's upper back and sink your hips lower than theirs, creating maximum body-to-body pressure that eliminates escape space and stabilizes finishing position",
-      "timing": "1-2 seconds before pressure application"
+      "description": "Drive your chest firmly into opponent's upper back and sink your hips lower than theirs, creating maximum body-to-body pressure that eliminates escape space and stabilizes finishing position"
     },
     {
       "step_number": 4,
       "action": "Activate hooks",
-      "description": "Drive your heels toward opponent's hips to prevent any forward escape or hip movement that could create space, keeping lower body control active throughout the entire finishing sequence",
-      "timing": "Continuous throughout finish"
+      "description": "Drive your heels toward opponent's hips to prevent any forward escape or hip movement that could create space, keeping lower body control active throughout the entire finishing sequence"
     },
     {
       "step_number": 5,
       "action": "Initiate rotation",
-      "description": "Begin rotating your choking forearm toward your own chest while pulling your elbow down toward your hip, folding the gi material against opponent's neck rather than pulling it away from the body",
-      "timing": "Gradual increasing pressure over 2-3 seconds"
+      "description": "Begin rotating your choking forearm toward your own chest while pulling your elbow down toward your hip, folding the gi material against opponent's neck rather than pulling it away from the body"
     },
     {
       "step_number": 6,
       "action": "Complete the choke",
-      "description": "Continue the rotation and elbow pull until you feel opponent tap or go unconscious, maintaining all control points throughout and being prepared to release immediately upon tap signal",
-      "timing": "Until submission achieved"
+      "description": "Continue the rotation and elbow pull until you feel opponent tap or go unconscious, maintaining all control points throughout and being prepared to release immediately upon tap signal"
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice establishing deep collar grip and correct finishing rotation on compliant partner. Focus on hand positioning, forearm rotation direction, and elbow path without any resistance. Build muscle memory for proper choking mechanics.",
-      "resistance_level": "None"
+      "description": "Practice establishing deep collar grip and correct finishing rotation on compliant partner. Focus on hand positioning, forearm rotation direction, and elbow path without any resistance. Build muscle memory for proper choking mechanics."
     },
     {
       "phase": "Week 3-4",
       "focus": "Coordination",
-      "description": "Add light resistance focusing on maintaining hooks while executing finish. Partner provides 25-50% resistance on hand fighting only. Develop ability to coordinate upper and lower body control simultaneously during submission.",
-      "resistance_level": "Light"
+      "description": "Add light resistance focusing on maintaining hooks while executing finish. Partner provides 25-50% resistance on hand fighting only. Develop ability to coordinate upper and lower body control simultaneously during submission."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing and transitions",
-      "description": "Practice recognizing optimal finishing windows with partner providing moderate resistance and common defenses. Work on transitioning to rear naked choke when collar is defended. Build submission chain fluency.",
-      "resistance_level": "Medium"
+      "description": "Practice recognizing optimal finishing windows with partner providing moderate resistance and common defenses. Work on transitioning to rear naked choke when collar is defended. Build submission chain fluency."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement in positional sparring from back control starting position. Partner uses full defensive arsenal. Focus on concealing setup, timing finish correctly, and transitioning when defended. Track success rates to identify improvement areas.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring from back control starting position. Partner uses full defensive arsenal. Focus on concealing setup, timing finish correctly, and transitioning when defended. Track success rates to identify improvement areas."
     }
   ],
   "variants_and_adaptations": [
@@ -183,53 +168,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Cross Collar Choke Finish?",
-      "answer": "The primary goal is to compress both carotid arteries using the gi collar material, causing unconsciousness through blood choke mechanics. The technique transforms the deceptive invisible collar grip into a fight-ending submission by applying proper rotational pressure.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to compress both carotid arteries using the gi collar material, causing unconsciousness through blood choke mechanics. The technique transforms the deceptive invisible collar grip into a fight-ending submission by applying proper rotational pressure."
     },
     {
       "question": "What position do you start Cross Collar Choke Finish from?",
-      "answer": "This technique starts from Invisible Collar position on the back with at least one hook inserted. The invisible collar grip must already be established with fingers deep inside the opponent's collar before initiating the finishing sequence.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Invisible Collar position on the back with at least one hook inserted. The invisible collar grip must already be established with fingers deep inside the opponent's collar before initiating the finishing sequence."
     },
     {
       "question": "What direction should your forearm rotate when applying finishing pressure?",
-      "answer": "Your choking forearm should rotate toward your own chest while your elbow pulls down toward your hip. This folds the gi material against the opponent's neck rather than pulling it away, creating the mechanical advantage needed for an efficient blood choke that doesn't rely on strength alone.",
-      "difficulty": "Intermediate"
+      "answer": "Your choking forearm should rotate toward your own chest while your elbow pulls down toward your hip. This folds the gi material against the opponent's neck rather than pulling it away, creating the mechanical advantage needed for an efficient blood choke that doesn't rely on strength alone."
     },
     {
       "question": "Your opponent commits both hands to stripping your collar grip—what opportunity does this create?",
-      "answer": "When opponent commits both hands to grip removal, they cannot defend rear naked choke or armbar attacks. You should immediately transition to rear naked choke setup since their arms are occupied, or threaten armbar on their now-extended arms. This creates the submission dilemma that makes back attacks so effective.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent commits both hands to grip removal, they cannot defend rear naked choke or armbar attacks. You should immediately transition to rear naked choke setup since their arms are occupied, or threaten armbar on their now-extended arms. This creates the submission dilemma that makes back attacks so effective."
     },
     {
       "question": "Why must you maintain hook control throughout the finishing sequence?",
-      "answer": "Hooks prevent opponent's hip movement and escape attempts during the finish. Without hook control, opponents can turn into guard, stand up, or create space that loosens the choking grip. Maintaining hooks ensures they cannot convert defensive movement into positional escape even as the choke tightens.",
-      "difficulty": "Intermediate"
+      "answer": "Hooks prevent opponent's hip movement and escape attempts during the finish. Without hook control, opponents can turn into guard, stand up, or create space that loosens the choking grip. Maintaining hooks ensures they cannot convert defensive movement into positional escape even as the choke tightens."
     },
     {
       "question": "What is the most common error that transforms this choke into a strength contest?",
-      "answer": "Pulling the collar away from the neck rather than rotating the forearm inward is the most common error. This removes mechanical advantage and requires excessive grip strength to maintain pressure. Proper technique folds the gi against the neck using rotation, which is biomechanically efficient and sustainable.",
-      "difficulty": "Intermediate"
+      "answer": "Pulling the collar away from the neck rather than rotating the forearm inward is the most common error. This removes mechanical advantage and requires excessive grip strength to maintain pressure. Proper technique folds the gi against the neck using rotation, which is biomechanically efficient and sustainable."
     },
     {
       "question": "How should you respond when your opponent tucks their chin extremely tight?",
-      "answer": "A committed chin tuck is exhausting to maintain and opens armbar opportunities since defending arms must extend. Wait patiently while maintaining position—the chin tuck will eventually fatigue. Alternatively, threaten armbar on their extended defending arms, which often opens the neck when they retract to protect the arm.",
-      "difficulty": "Advanced"
+      "answer": "A committed chin tuck is exhausting to maintain and opens armbar opportunities since defending arms must extend. Wait patiently while maintaining position—the chin tuck will eventually fatigue. Alternatively, threaten armbar on their extended defending arms, which often opens the neck when they retract to protect the arm."
     },
     {
       "question": "What makes the invisible collar finish higher percentage than mounted cross collar choke?",
-      "answer": "Back position provides superior structural leverage because opponent cannot bridge, push, or create distance effectively. The chest-to-back connection maintains pressure continuously, and hooks prevent the hip movement that mounted opponents use to escape. The angle of attack on the carotid arteries is also more direct from behind.",
-      "difficulty": "Advanced"
+      "answer": "Back position provides superior structural leverage because opponent cannot bridge, push, or create distance effectively. The chest-to-back connection maintains pressure continuously, and hooks prevent the hip movement that mounted opponents use to escape. The angle of attack on the carotid arteries is also more direct from behind."
     },
     {
       "question": "When should you apply finishing pressure—gradually or explosively?",
-      "answer": "Apply pressure gradually over 2-3 seconds with progressively increasing tightness. Explosive application alerts opponents and triggers defensive reactions that can outpace your choking mechanics. Gradual pressure gives opponents less time to react effectively and creates a tightening trap they often don't recognize until too late.",
-      "difficulty": "Intermediate"
+      "answer": "Apply pressure gradually over 2-3 seconds with progressively increasing tightness. Explosive application alerts opponents and triggers defensive reactions that can outpace your choking mechanics. Gradual pressure gives opponents less time to react effectively and creates a tightening trap they often don't recognize until too late."
     },
     {
       "question": "How do you adjust if the opponent begins turning toward your collar grip side?",
-      "answer": "Follow their turn by driving your chest weight over their rotating shoulder, which can actually tighten the choke angle. Alternatively, use their turn to enter crucifix position, trapping their turning arm and creating additional submission threats. The turn into you is often worse for them than staying flat.",
-      "difficulty": "Advanced"
+      "answer": "Follow their turn by driving your chest weight over their rotating shoulder, which can actually tighten the choke angle. Alternatively, use their turn to enter crucifix position, trapping their turning arm and creating additional submission threats. The turn into you is often worse for them than staying flat."
     }
   ],
   "safety_considerations": "The Cross Collar Choke Finish is a blood choke that can cause unconsciousness within seconds when properly applied. Always train with attentive partners who understand tap signals. Release pressure immediately upon tap—continuing after tap risks brain damage from oxygen deprivation. Partners should tap early when learning, before the choke becomes fully tight. Ensure training partners know both hand tap and verbal tap options. Never apply this technique to unconscious opponents. If partner goes unconscious, release immediately, place them in recovery position, and seek medical attention if they don't regain consciousness within 20 seconds. Avoid training this technique when fatigued, as diminished awareness increases accident risk for both partners.",
@@ -267,5 +242,6 @@
       "name": "Cross Collar Choke",
       "relationship": "Related front-facing collar choke submission"
     }
-  ]
+  ],
+  "success_rate": 58
 }

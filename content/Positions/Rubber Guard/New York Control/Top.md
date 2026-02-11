@@ -353,11 +353,11 @@ Begin in New York Control with top player working to escape or pass while bottom
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 15% |
-| Intermediate | 50% | 45% | 25% |
-| Advanced     | 65% | 60% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 52% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 60-120 seconds to achieve escape or fall to submission
 

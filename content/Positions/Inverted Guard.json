@@ -311,21 +311,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Rate of successfully maintaining top position without being swept or submitted"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Probability of successfully passing to side control or more dominant position"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Probability of achieving submission after successful pass"
       },
       "average_time": "10-30 seconds to pass or opponent transitions out"
@@ -632,19 +626,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50
+        "value": 40
       },
       "average_time": "5-15 seconds (transitional position)"
     },

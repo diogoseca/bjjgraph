@@ -101,19 +101,23 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 ### Available Transitions
 
 
-- **[[Meathook to Gogoplata Control]]** (15% of attempts)
+- **[[Meathook to Gogoplata Control]]** (12% of attempts)
 
-- **[[Triangle Setup]]** (18% of attempts)
+- **[[Triangle Setup]]** (14% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (16% of attempts)
+- **[[Closed Guard to Omoplata]]** (12% of attempts)
 
-- **[[Crackhead Control to Carni]]** (14% of attempts)
+- **[[Crackhead Control to Carni]]** (11% of attempts)
 
-- **[[Armbar from Guard]]** (12% of attempts)
+- **[[Armbar from Guard]]** (9% of attempts)
 
-- **[[Omoplata to Back]]** (10% of attempts)
+- **[[Omoplata to Back]]** (8% of attempts)
 
-- **[[Crackhead Control to Mission Control]]** (15% of attempts)
+- **[[Crackhead Control to Mission Control]]** (12% of attempts)
+
+- **[[Baratoplata Setup]]** (11% of attempts)
+
+- **[[Tarikoplata Setup]]** (11% of attempts)
 
 
 ### Common Mistakes

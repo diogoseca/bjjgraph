@@ -382,11 +382,11 @@ Partner establishes Mission Control. Top person practices standing to break cont
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 20% | 60% |
-| Intermediate | 45% | 38% | 40% |
-| Advanced     | 65% | 58% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 48% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 90-180 seconds to escape or be submitted at intermediate level
 

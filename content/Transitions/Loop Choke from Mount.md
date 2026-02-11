@@ -157,7 +157,7 @@ Strategically, the loop choke capitalizes on the opponent's natural defensive po
 From high mount, the loop choke becomes available when the opponent turns their head to one side or attempts to create frames. The top player feeds their own lapel around the opponent's neck, creating a closed loop that tightens with forward pressure. This submission pairs exceptionally well with armbar threats, as defending the arm often exposes the neck, and vice versa.
 
 **From Position**: [[High Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ From high mount, the loop choke becomes available when the opponent turns their 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish collar grip**: From high mount, reach across with your dominant hand and secure a deep four-fingers-in grip on the opponent's far-side collar, thumb outside. This grip should be positioned at collar bone level, not near the neck yet. (Timing: When opponent is defending arms or has head turned)
-2. **Feed the lapel**: Pull the collar material across the opponent's neck, threading it underneath their chin. Your grip hand travels from one side of their neck to the other, wrapping the lapel around the front of their throat like a scarf. (Timing: Smooth continuous motion without hesitation)
-3. **Secure the loop**: Once the lapel crosses the opponent's neck, your gripping hand should end up on the same side it started. The lapel now forms a complete loop around their neck. Ensure the material sits flat against their throat without bunching. (Timing: Before opponent realizes the choke threat)
-4. **Control the head**: Use your free hand to cup behind the opponent's head or post on the mat near their ear. This hand prevents them from turning away and helps maintain the loop integrity. Drive your forehead toward the mat beside their head. (Timing: Immediately after securing the loop)
-5. **Tighten the loop**: Pull your gripping hand toward your own hip while simultaneously driving your chest forward and down. The loop tightens around the opponent's neck as you create opposing forces between your grip and forward weight. (Timing: Steady increasing pressure)
-6. **Finish the choke**: Continue driving your weight forward while pulling the lapel tight. Keep your elbows close to your body for maximum mechanical advantage. The choke compresses both carotid arteries, creating rapid unconsciousness if opponent does not tap. (Timing: Maintain pressure until tap or unconsciousness)
+1. **Establish collar grip**: From high mount, reach across with your dominant hand and secure a deep four-fingers-in grip on the opponent's far-side collar, thumb outside. This grip should be positioned at collar bone level, not near the neck yet.
+2. **Feed the lapel**: Pull the collar material across the opponent's neck, threading it underneath their chin. Your grip hand travels from one side of their neck to the other, wrapping the lapel around the front of their throat like a scarf.
+3. **Secure the loop**: Once the lapel crosses the opponent's neck, your gripping hand should end up on the same side it started. The lapel now forms a complete loop around their neck. Ensure the material sits flat against their throat without bunching.
+4. **Control the head**: Use your free hand to cup behind the opponent's head or post on the mat near their ear. This hand prevents them from turning away and helps maintain the loop integrity. Drive your forehead toward the mat beside their head.
+5. **Tighten the loop**: Pull your gripping hand toward your own hip while simultaneously driving your chest forward and down. The loop tightens around the opponent's neck as you create opposing forces between your grip and forward weight.
+6. **Finish the choke**: Continue driving your weight forward while pulling the lapel tight. Keep your elbows close to your body for maximum mechanical advantage. The choke compresses both carotid arteries, creating rapid unconsciousness if opponent does not tap.
 
 
 </section>
@@ -256,19 +256,15 @@ From high mount, the loop choke becomes available when the opponent turns their 
 ## Training Progressions
 **Week 1-2** - Grip mechanics and lapel threading
 Practice the collar grip depth and lapel feeding motion with a compliant partner. Focus on smooth, continuous motion when threading the lapel around the neck. Drill the loop formation without resistance until the movement becomes natural.
-(Resistance: None)
 
 **Week 3-4** - Weight distribution and finishing pressure
 Add the forward chest drive and pulling mechanics. Partner provides light frames to test your ability to maintain pressure. Practice finishing against a defending chin tuck by adjusting angle and weight placement.
-(Resistance: Light)
 
 **Week 5-6** - Timing and setup chains
 Integrate the loop choke with armbar threats. Practice recognizing when opponents expose their neck while defending arms. Partner defends realistically, forcing you to chain between submissions based on their reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Attempt the loop choke in live rolling from mount position. Identify common defensive patterns and develop counters. Focus on finishing rate and timing recognition under full resistance conditions.
-(Resistance: Full)
 
 
 

@@ -13,11 +13,6 @@
   "submission_type": "Leg Compression",
   "target_area": "Calf muscle and Achilles tendon",
   "starting_position": "50-50 Guard",
-  "success_rates": {
-    "beginner": 25,
-    "intermediate": 40,
-    "advanced": 60
-  },
   "overview": "The Calf Slicer is a compression-based leg submission that targets the calf muscle and Achilles tendon by creating a wedge with your shin bone against the opponent's lower leg. This submission applies tremendous pressure to the muscle belly and can cause severe muscle damage if applied too quickly or aggressively. The technique is most commonly executed from the Truck position, 50-50 Guard, and various scrambles where leg entanglement creates the opportunity. Unlike joint locks that target ligaments and tendons, the Calf Slicer creates a crushing pressure that can cause muscle tears, nerve damage, and extensive bruising. The submission is particularly dangerous because the pain can be delayed, meaning injury may occur before the opponent recognizes the need to tap. In competition, this technique is generally restricted to brown and black belt levels due to its injury potential. The mechanical principle relies on using your shin as a fulcrum while pulling the opponent's foot and applying pressure with your hips, creating a scissors-like compression that becomes unbearable rapidly.",
   "safety_considerations": {
     "injury_risks": [
@@ -89,50 +84,43 @@
       "step_number": 1,
       "action": "Establish leg entanglement",
       "description": "From the Truck or 50-50 position, ensure your legs are wrapped around one of your opponent's legs. Your top leg should be positioned so your shin can cross their calf, while your bottom leg hooks behind their knee or over their thigh to prevent them from straightening their leg.",
-      "timing": "Initial setup, 2-3 seconds",
-      "pressure_level": "Light"
+      "timing": "Initial setup, 2-3 seconds"
     },
     {
       "step_number": 2,
       "action": "Insert shin across calf",
       "description": "Slide your shin bone across the back of your opponent's calf muscle, positioning it as deep as possible into the pocket behind their knee. The bony part of your shin should make contact with the soft tissue of their calf. This is the critical placement that determines submission effectiveness.",
-      "timing": "Precise placement, 1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "Precise placement, 1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Secure foot control",
       "description": "Grip your opponent's foot or ankle with both hands, or trap it in the crook of your arm or armpit. This control prevents them from rotating their leg to relieve pressure and is essential for maintaining the submission. Consider using a figure-four grip around their ankle for maximum control.",
-      "timing": "Immediate after shin insertion",
-      "pressure_level": "Moderate"
+      "timing": "Immediate after shin insertion"
     },
     {
       "step_number": 4,
       "action": "Lock bottom leg hook",
       "description": "Ensure your bottom leg is firmly hooked over your opponent's thigh or behind their knee, creating a triangle-like structure with your legs. This prevents them from straightening their leg, which would relieve all pressure. Your legs should form a tight scissor configuration.",
-      "timing": "Simultaneous with foot control",
-      "pressure_level": "Moderate"
+      "timing": "Simultaneous with foot control"
     },
     {
       "step_number": 5,
       "action": "Extend hips progressively",
       "description": "Begin extending your hips away from your opponent while maintaining all controls. This hip extension is what drives your shin deeper into their calf muscle. The movement should be slow and progressive in training, allowing your partner ample time to recognize the submission and tap.",
-      "timing": "SLOW progression, 3-5 seconds minimum",
-      "pressure_level": "Firm"
+      "timing": "SLOW progression, 3-5 seconds minimum"
     },
     {
       "step_number": 6,
       "action": "Pull foot while extending",
       "description": "As you extend your hips, simultaneously pull their foot toward you and potentially rotate it slightly to increase the compression. The combination of hip extension, shin pressure, and foot manipulation creates the unbearable crushing sensation. Maintain smooth, controlled pressure throughout.",
-      "timing": "Synchronized with hip extension",
-      "pressure_level": "Maximum"
+      "timing": "Synchronized with hip extension"
     },
     {
       "step_number": 7,
       "action": "Maintain position until tap",
       "description": "Hold the position with steady pressure without jerking or spiking. The submission should feel like gradually tightening vice grips. Be prepared to release immediately upon any tap signal, as muscle damage can occur rapidly once pain threshold is reached.",
-      "timing": "1-2 seconds at full pressure before tap",
-      "pressure_level": "Maximum"
+      "timing": "1-2 seconds at full pressure before tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -166,44 +154,37 @@
     {
       "error": "Applying pressure too quickly or explosively",
       "consequence": "Causes immediate muscle tear or Achilles rupture before partner can tap safely",
-      "correction": "Always apply pressure slowly and progressively over 5-7 seconds in training, giving partner clear opportunity to recognize and tap to the submission",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure slowly and progressively over 5-7 seconds in training, giving partner clear opportunity to recognize and tap to the submission"
     },
     {
       "error": "Shin positioned too high on the leg (near knee joint)",
       "consequence": "Reduces effectiveness and may inadvertently create a kneebar, changing the submission entirely",
-      "correction": "Ensure your shin crosses the meaty part of the calf muscle, typically 2-4 inches below the knee crease. The shin should bisect the calf belly.",
-      "danger_level": "Medium"
+      "correction": "Ensure your shin crosses the meaty part of the calf muscle, typically 2-4 inches below the knee crease. The shin should bisect the calf belly."
     },
     {
       "error": "Failing to control the opponent's foot",
       "consequence": "Opponent rotates their leg to escape, completely neutralizing the submission and potentially allowing them to counter-attack",
-      "correction": "Establish secure two-handed control of the foot or ankle before extending hips. Use figure-four grips or trap the foot in your armpit for maximum security.",
-      "danger_level": "Low"
+      "correction": "Establish secure two-handed control of the foot or ankle before extending hips. Use figure-four grips or trap the foot in your armpit for maximum security."
     },
     {
       "error": "Not securing the bottom leg hook properly",
       "consequence": "Opponent straightens their leg, eliminating all compression and escaping the submission easily",
-      "correction": "Hook your bottom leg deeply over their thigh or behind their knee, creating a locked triangle structure with your legs that prevents extension.",
-      "danger_level": "Medium"
+      "correction": "Hook your bottom leg deeply over their thigh or behind their knee, creating a locked triangle structure with your legs that prevents extension."
     },
     {
       "error": "Hips positioned too far from opponent",
       "consequence": "Cannot generate sufficient leverage for effective compression, submission feels weak and easily defended",
-      "correction": "Keep your hips close to your opponent's body throughout the submission. Hip extension should be a controlled push, not creating distance.",
-      "danger_level": "Low"
+      "correction": "Keep your hips close to your opponent's body throughout the submission. Hip extension should be a controlled push, not creating distance."
     },
     {
       "error": "Releasing pressure before securing tap",
       "consequence": "Opponent escapes and may gain superior position during your transition",
-      "correction": "Maintain steady pressure once applied until you receive a clear tap signal. Don't prematurely abandon the submission when it's locked correctly.",
-      "danger_level": "Low"
+      "correction": "Maintain steady pressure once applied until you receive a clear tap signal. Don't prematurely abandon the submission when it's locked correctly."
     },
     {
       "error": "Ignoring delayed tap signals due to leg entanglement",
       "consequence": "Partner suffers injury because you didn't notice tap or verbal submission",
-      "correction": "Constantly monitor your partner for any tap signals (verbal or physical) and maintain awareness of their free hand. Be extra vigilant with leg locks.",
-      "danger_level": "CRITICAL"
+      "correction": "Constantly monitor your partner for any tap signals (verbal or physical) and maintain awareness of their free hand. Be extra vigilant with leg locks."
     }
   ],
   "variations_and_setups": [
@@ -290,50 +271,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "2 weeks",
-      "focus": "Study the mechanics without applying pressure. Understand shin placement, foot control, and leg configuration. Watch instructional videos and take detailed notes on safety protocols.",
-      "resistance_level": "None",
-      "safety_emphasis": "Learn to identify the exact shin position on the calf and understand the injury mechanisms. No pressure application during this phase."
-    },
-    {
-      "phase": "Positional Drilling (Weeks 3-4)",
-      "timeframe": "2 weeks",
-      "focus": "Partner gives you the position (Truck or 50-50). Practice inserting your shin, controlling the foot, and establishing the configuration. Stop before applying any extension pressure. Partner provides feedback on control tightness.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner taps immediately when shin is positioned correctly across calf. Practice release protocol after every repetition. No hip extension yet."
-    },
-    {
-      "phase": "Controlled Pressure Introduction (Weeks 5-6)",
-      "timeframe": "2 weeks",
-      "focus": "Begin applying very light pressure (20-30% maximum) with 7-10 second application time. Partner taps at first sensation of pressure. Focus on smooth, progressive pressure increase rather than explosive application.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner must tap at FIRST sensation of discomfort. Immediately release all controls upon tap. Discuss pressure levels after each repetition to calibrate appropriate training intensity."
-    },
-    {
-      "phase": "Entry Drilling with Resistance (Weeks 7-10)",
-      "timeframe": "4 weeks",
-      "focus": "Partner begins defending the position. Practice entering the Calf Slicer from scrambles, failed attacks, and transitions. Opponent defends by hiding the leg, straightening, or rotating. Apply moderate pressure (40-50%) when position is secure.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Only apply pressure when position is fully controlled. If partner defends successfully, reset and restart. Never force the submission against active defense."
-    },
-    {
-      "phase": "Situational Sparring (Weeks 11-16)",
-      "timeframe": "6 weeks",
-      "focus": "Start from positions where Calf Slicer is available (Truck, 50-50, scrambles). Both partners work realistically, but attacker applies only 60-70% pressure. Defender practices recognizing when to tap and uses legitimate defensive techniques.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners agree on pressure limits before starting. Defender must tap early rather than late. Attacker releases immediately and checks partner's leg mobility after each submission."
-    },
-    {
-      "phase": "Live Application (Week 17+)",
-      "timeframe": "Ongoing",
-      "focus": "Full resistance rolling where Calf Slicer is one tool in your leg lock system. Maintain training-safe pressure (70-80% maximum) even with full resistance. Chain with other leg locks like heel hooks and kneebars.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "NEVER apply competition-speed pressure in training. Always maintain 5-7 second application time. Partners should have pre-established communication about leg lock comfort levels. Stop immediately if partner shows any signs of injury or excessive discomfort."
-    }
-  ],
   "from_positions": [
     "50-50 Guard",
     "Truck",
@@ -403,5 +340,6 @@
       "name": "Deep Half Guard",
       "relationship": "Guard position offering opportunistic Calf Slicer entries"
     }
-  ]
+  ],
+  "success_rate": 50
 }

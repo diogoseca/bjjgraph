@@ -163,7 +163,7 @@ Strategically, the Duck Under serves as a high-percentage back take option that 
 The technique integrates seamlessly with other clinch attacks, creating a systematic approach to standing exchanges. Practitioners who threaten the Duck Under force opponents into defensive postures that open opportunities for snap downs, arm drags, and shot takedowns. Conversely, defending against these other attacks often creates the exact arm positioning that makes Duck Unders available. This interconnected relationship between clinch techniques makes the Duck Under essential knowledge for any complete standing game.
 
 **From Position**: [[Clinch]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The technique integrates seamlessly with other clinch attacks, creating a system
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish collar tie**: Secure a strong collar tie or head control on one side while your opposite hand controls opponent's elbow or tricep. This setup creates the pressure that forces their defensive arm into position. (Timing: During active grip fighting when opponent is focused on their own offense)
-2. **Create reaction**: Pull down and across with your collar tie while simultaneously pushing their elbow toward your ducking side. This manipulation elevates their arm and creates the opening you need to pass underneath. (Timing: As opponent pushes back against your collar tie pressure)
-3. **Drop level**: Bend your knees deeply and lower your hips while maintaining chest contact with opponent. Your level change should bring your head to approximately their sternum height while keeping your back straight. (Timing: Immediately as their arm begins to elevate in response to your pressure)
-4. **Thread through**: Release your collar tie and bring that hand to their far hip or waist as you duck your head underneath their elevated arm. Keep your head tight to their torso throughout the threading motion to prevent space creation. (Timing: In one fluid motion following the level change)
-5. **Circle behind**: Step through with your near-side leg while keeping your chest connected to their back. Your head should track along their ribcage as you circle, maintaining constant pressure that prevents them from turning. (Timing: Continuous motion without pausing in the vulnerable threading position)
-6. **Secure rear clinch**: Establish chest-to-back connection and immediately lock a seatbelt grip or body lock around opponent's torso. Your hips should be offset slightly to one side rather than directly behind to prevent them from sitting back. (Timing: Within one second of completing the circle to prevent escape)
-7. **Control posture**: Drive forward pressure through your chest while pulling opponent's hips toward you with your grip. Keep them bent forward at the waist to eliminate their base and prepare for takedown or back control transitions. (Timing: Immediately upon securing grips before opponent can establish defensive posture)
+1. **Establish collar tie**: Secure a strong collar tie or head control on one side while your opposite hand controls opponent's elbow or tricep. This setup creates the pressure that forces their defensive arm into position.
+2. **Create reaction**: Pull down and across with your collar tie while simultaneously pushing their elbow toward your ducking side. This manipulation elevates their arm and creates the opening you need to pass underneath.
+3. **Drop level**: Bend your knees deeply and lower your hips while maintaining chest contact with opponent. Your level change should bring your head to approximately their sternum height while keeping your back straight.
+4. **Thread through**: Release your collar tie and bring that hand to their far hip or waist as you duck your head underneath their elevated arm. Keep your head tight to their torso throughout the threading motion to prevent space creation.
+5. **Circle behind**: Step through with your near-side leg while keeping your chest connected to their back. Your head should track along their ribcage as you circle, maintaining constant pressure that prevents them from turning.
+6. **Secure rear clinch**: Establish chest-to-back connection and immediately lock a seatbelt grip or body lock around opponent's torso. Your hips should be offset slightly to one side rather than directly behind to prevent them from sitting back.
+7. **Control posture**: Drive forward pressure through your chest while pulling opponent's hips toward you with your grip. Keep them bent forward at the waist to eliminate their base and prepare for takedown or back control transitions.
 
 
 </section>
@@ -264,23 +264,18 @@ The technique integrates seamlessly with other clinch attacks, creating a system
 ## Training Progressions
 **Week 1-2** - Movement mechanics
 Practice the level change and threading motion without a partner, focusing on keeping your back straight and head position during the duck. Then drill against a stationary partner who maintains collar tie position without resisting. Emphasize the continuous nature of the movement.
-(Resistance: None)
 
 **Week 3-4** - Setup and timing
 Partner provides light collar tie pressure and you practice creating the reaction with your own collar tie before executing the duck under. Focus on feeling when opponent's arm elevates in response to your pressure. Partner allows technique completion but doesn't feed it artificially.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner adds common defensive reactions including whizzer attempts, sprawling, and turning to face. Practice recognizing each counter and executing appropriate responses. Chain the duck under with other clinch attacks when initial attempt is defended.
-(Resistance: Medium)
 
 **Week 7-8** - Competitive integration
 Incorporate duck under into live clinch sparring with full resistance. Work on hitting the technique against active grip fighting and defensive movement. Focus on completing the technique to rear clinch against increasingly skilled training partners.
-(Resistance: Full)
 
 **Ongoing** - System development
 Integrate duck under as part of your complete clinch game, combining it with snap downs, arm drags, and shot takedowns. Work on using the threat of duck under to create openings for other techniques and vice versa.
-(Resistance: Full)
 
 
 

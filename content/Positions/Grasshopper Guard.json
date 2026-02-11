@@ -275,19 +275,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85
+        "value": 80
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
+        "value": 32
       },
       "average_time": "15-30 seconds to passing opportunity"
     },
@@ -559,62 +553,64 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
+        "value": 55
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
+        "value": 65
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55
+        "value": 45
       },
       "average_time": "8-15 seconds before transition"
     },
     "transitions": [
       {
         "transition": "Kneebar from Grasshopper",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Straight Ankle Lock Entry",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Single Leg X Transition",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "X-Guard Sweep",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Rolling Kneebar",
         "attempt_probability": 8
       },
       {
-        "transition": "Grasshopper Sweep",
-        "attempt_probability": 10
+        "transition": "Straight Ankle Lock Entry",
+        "attempt_probability": 8
       },
       {
-        "transition": "Technical Standup",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "50-50 Entry",
+        "transition": "Single Leg X Transition",
         "attempt_probability": 9
       },
       {
+        "transition": "X-Guard Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Rolling Kneebar",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Grasshopper Sweep",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Technical Standup",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "50-50 Entry",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Reverse De La Riva Recovery",
-        "attempt_probability": 10
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Technical Standup from Inversion",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "X-Guard Elevation Sweep",
+        "attempt_probability": 8
       }
     ]
   }

@@ -370,11 +370,11 @@ From established crucifix, bottom player works specific pathway to turtle positi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 5% | 15% | 5% |
-| Intermediate | 15% | 30% | 8% |
-| Advanced     | 30% | 50% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 22% |
+| Advancement Probability | 40% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 20-45 seconds before submission or escape
 

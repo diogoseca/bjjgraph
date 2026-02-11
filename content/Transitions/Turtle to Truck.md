@@ -159,7 +159,7 @@ description: "Master the Turtle to Truck transition in BJJ. Step-by-step executi
 The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jitsu system and modern no-gi grappling. When an opponent assumes the turtle position, the Truck offers a devastating alternative to traditional back takes, providing access to the Twister submission, various calf slicers, and back control options. The Truck position involves controlling the opponent's leg while maintaining a specific body configuration that creates the signature "truck" shape - hence the name. This transition is particularly effective because it exploits the turtle position's inherent vulnerability to leg attacks while the opponent focuses on defending their neck and preventing traditional back takes. The Truck serves as a gateway position within the larger Twister system, allowing the attacker to create multiple submission threats simultaneously. What makes this transition especially valuable is its ability to bypass traditional back defense protocols, as most practitioners are conditioned to defend against seat belt control rather than leg-based attacks from turtle. The success of this transition relies on timing, understanding weight distribution, and the ability to coordinate upper and lower body control simultaneously.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish side position**: From turtle, position yourself perpendicular to your opponent's body, chest to their ribs. Establish a cross face or collar tie with your near arm while maintaining tight chest-to-back pressure. Your hips should be lower than theirs to prevent them from sitting back into you. (Timing: Initial control phase - focus on preventing forward movement)
-2. **Secure the far leg**: Reach your far arm under their body and grip their far knee or shin from the inside. This grip is critical - you're controlling the leg that will become trapped in the Truck. Pull this leg slightly toward you while maintaining upper body control to prevent them from sprawling away. (Timing: Coordinate with opponent's weight shift - grab when they're heavy on their hands)
-3. **Insert your leg hook**: Thread your near leg (the leg closest to their hips) under their far leg, inserting your shin behind their thigh. Your foot should emerge on the far side of their body. This creates the fundamental structure of the Truck - your leg becomes a barrier preventing their escape. (Timing: Insert smoothly as you pull their leg with your grip)
-4. **Triangle your legs**: Bring your far leg over and lock it with your near leg, creating a figure-four or triangle configuration around their trapped leg. Your near foot should be in your far leg's knee pit. This lockdown-style control immobilizes their leg completely and gives you powerful leverage. (Timing: Lock immediately after insertion - don't allow them time to extract their leg)
-5. **Adjust body position**: Roll slightly onto your side, facing the same direction as your opponent while maintaining the leg triangle. Your upper body should be positioned near their hips, with your chest against their side or lower back. This creates the characteristic Truck position where you're perpendicular to their body. (Timing: Smooth transition - maintain pressure throughout the positional adjustment)
-6. **Establish boot pressure**: Press your free foot firmly against the opponent's hip or upper thigh, creating the boot pressure that is the engine of the Truck position. This boot acts as a fulcrum generating lateral torque through their spine and lower body, preventing them from squaring up or rolling through. (Timing: Establish boot immediately after body adjustment - this anchors the entire position)
-7. **Consolidate Truck control**: Secure upper body control by gripping their far arm or controlling their shoulder. Your leg triangle should be locked tight with active pressure pulling their trapped leg away from their body. You're now in full Truck position with access to Twister, calf slicers, and back takes. (Timing: Final consolidation - ensure all control points are secure before attacking)
+1. **Establish side position**: From turtle, position yourself perpendicular to your opponent's body, chest to their ribs. Establish a cross face or collar tie with your near arm while maintaining tight chest-to-back pressure. Your hips should be lower than theirs to prevent them from sitting back into you.
+2. **Secure the far leg**: Reach your far arm under their body and grip their far knee or shin from the inside. This grip is critical - you're controlling the leg that will become trapped in the Truck. Pull this leg slightly toward you while maintaining upper body control to prevent them from sprawling away.
+3. **Insert your leg hook**: Thread your near leg (the leg closest to their hips) under their far leg, inserting your shin behind their thigh. Your foot should emerge on the far side of their body. This creates the fundamental structure of the Truck - your leg becomes a barrier preventing their escape.
+4. **Triangle your legs**: Bring your far leg over and lock it with your near leg, creating a figure-four or triangle configuration around their trapped leg. Your near foot should be in your far leg's knee pit. This lockdown-style control immobilizes their leg completely and gives you powerful leverage.
+5. **Adjust body position**: Roll slightly onto your side, facing the same direction as your opponent while maintaining the leg triangle. Your upper body should be positioned near their hips, with your chest against their side or lower back. This creates the characteristic Truck position where you're perpendicular to their body.
+6. **Establish boot pressure**: Press your free foot firmly against the opponent's hip or upper thigh, creating the boot pressure that is the engine of the Truck position. This boot acts as a fulcrum generating lateral torque through their spine and lower body, preventing them from squaring up or rolling through.
+7. **Consolidate Truck control**: Secure upper body control by gripping their far arm or controlling their shoulder. Your leg triangle should be locked tight with active pressure pulling their trapped leg away from their body. You're now in full Truck position with access to Twister, calf slicers, and back takes.
 
 
 </section>
@@ -262,27 +262,21 @@ The transition to Truck is a fundamental movement within the 10th Planet Jiu-Jit
 ## Training Progressions
 **Week 1-2: Fundamental mechanics** - Understanding the leg triangle configuration and basic positioning
 Practice the leg triangle lock in isolation with a stationary partner. Focus on proper leg insertion, triangle formation, and maintaining the lock. Partner remains passive in turtle. Drill 20 repetitions per session, alternating sides. Emphasis on understanding which leg goes where and why.
-(Resistance: None)
 
 **Week 3-4: Entry timing** - Coordinating leg insertion with grip control
 Partner in active turtle but moving slowly. Practice gripping the far leg and inserting your hook while they shift weight. Focus on timing the entry when they're heavy on their hands. Partner provides 25% resistance, occasionally pulling their leg away. 15 repetitions per side with reset between attempts.
-(Resistance: Light)
 
 **Week 5-6: Counter responses** - Dealing with common defensive reactions
 Partner actively defends using specific counters: sitting back, standing up, or rolling. Practice recognizing their defense and either completing the Truck or transitioning to alternative attacks like back control. Each 5-minute round focuses on one specific counter. Build problem-solving skills.
-(Resistance: Medium)
 
 **Week 7-8: Submission integration** - Transitioning from Truck entry to finish positions
 After achieving Truck position, immediately work to Twister control, calf slicer setups, or back takes. Partner defends at 50-75% intensity. Focus on maintaining Truck control while advancing position. Chain multiple submission attempts together. 3-minute positional rounds starting from successful Truck entry.
-(Resistance: Medium)
 
 **Week 9-10: Full resistance drilling** - Live situational training from turtle position
 Start from turtle position with you attacking. Partner defends fully, trying to prevent Truck entry and escape. You must create the opportunity through setups, fakes, and combinations. 5-minute rounds with emphasis on creating the conditions necessary for successful entry rather than forcing it.
-(Resistance: Full)
 
 **Week 11+: Competition integration** - Implementing during live rolling and sparring
 Hunt for the Truck entry during regular training rolls. Focus on recognizing turtle position opportunities and smoothly transitioning to Truck without telegraphing. Track success rate over multiple sessions. Combine with other back attack systems for a comprehensive turtle attacking game. Minimum 3 attempts per rolling session.
-(Resistance: Full)
 
 
 

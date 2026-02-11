@@ -153,7 +153,7 @@ description: "Master the Two-on-One to Back Take in BJJ. Step-by-step execution 
 The Two-on-One to Back Take is a fundamental wrestling-based transition that exploits control of a single arm to access the opponent's back from standing positions. This technique leverages the asymmetrical control created when both hands control one of the opponent's arms, creating a mechanical disadvantage that prevents effective defense while opening pathways to superior positioning. The two-on-one grip, also known as a Russian tie in wrestling, is one of the most dominant control positions in standing grappling because it simultaneously neutralizes one of the opponent's primary defensive tools while creating clear paths to the back. The transition capitalizes on the opponent's inability to effectively defend their back when one arm is compromised and their body rotation is controlled. This technique represents a bridge between wrestling and Brazilian Jiu-Jitsu methodologies, combining upper body control with positional advancement principles. The back take can be executed through multiple pathways depending on opponent reactions, including stepping behind, duck-under variations, or arm drag mechanics, making it a versatile addition to any standing game.
 
 **From Position**: [[Clinch/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish two-on-one control**: Secure opponent's wrist with your lead hand using a pistol grip (thumb inside their wrist). Your trailing hand grabs their tricep just above the elbow or controls the elbow joint itself. Both grips work together to immobilize the entire arm structure. (Timing: Initial engagement or transition from collar tie)
-2. **Break posture and create angle**: Pull the controlled arm forcefully across the opponent's centerline while simultaneously stepping laterally off the line of attack. This pulling motion should stretch their arm and rotate their shoulders, compromising their base and preventing them from squaring their hips to you. (Timing: Immediately after securing grips)
-3. **Clear head position**: Drive your head past the controlled arm toward their far shoulder or place it tight against their near shoulder depending on your chosen pathway. This head pressure prevents them from turning into you while creating a barrier they cannot easily bypass. (Timing: As posture breaks and angle is created)
-4. **Step behind or duck under**: Execute your chosen pathway: either step your outside foot behind their hips while maintaining arm control (step-behind variation), or duck your head under the controlled arm while rotating around their back (duck-under variation). Both options end with you facing the same direction as your opponent. (Timing: When opponent's structure is compromised)
-5. **Secure seat belt control**: As you reach their back, release the wrist grip and thread your lead arm under their near armpit to establish the first seat belt hook. Your trailing arm goes over their far shoulder. Lock your hands together in a gable grip or rear naked choke configuration across their chest. (Timing: As you complete rotation to their back)
-6. **Establish hooks and consolidate**: Insert your near-side hook (foot inside their thigh) first for stability, then work to insert your far-side hook. If standing, you may drive them forward to break them down to the mat or establish body triangle if flexibility allows. Maintain tight chest-to-back connection throughout. (Timing: Immediately after securing seat belt)
+1. **Establish two-on-one control**: Secure opponent's wrist with your lead hand using a pistol grip (thumb inside their wrist). Your trailing hand grabs their tricep just above the elbow or controls the elbow joint itself. Both grips work together to immobilize the entire arm structure.
+2. **Break posture and create angle**: Pull the controlled arm forcefully across the opponent's centerline while simultaneously stepping laterally off the line of attack. This pulling motion should stretch their arm and rotate their shoulders, compromising their base and preventing them from squaring their hips to you.
+3. **Clear head position**: Drive your head past the controlled arm toward their far shoulder or place it tight against their near shoulder depending on your chosen pathway. This head pressure prevents them from turning into you while creating a barrier they cannot easily bypass.
+4. **Step behind or duck under**: Execute your chosen pathway: either step your outside foot behind their hips while maintaining arm control (step-behind variation), or duck your head under the controlled arm while rotating around their back (duck-under variation). Both options end with you facing the same direction as your opponent.
+5. **Secure seat belt control**: As you reach their back, release the wrist grip and thread your lead arm under their near armpit to establish the first seat belt hook. Your trailing arm goes over their far shoulder. Lock your hands together in a gable grip or rear naked choke configuration across their chest.
+6. **Establish hooks and consolidate**: Insert your near-side hook (foot inside their thigh) first for stability, then work to insert your far-side hook. If standing, you may drive them forward to break them down to the mat or establish body triangle if flexibility allows. Maintain tight chest-to-back connection throughout.
 
 
 </section>
@@ -250,27 +250,21 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 ## Training Progressions
 **Week 1-2: Grip Fundamentals** - Establishing and maintaining two-on-one control
 Partner stands static while you practice securing proper hand positions (wrist and tricep grips), pulling across centerline, and maintaining control pressure. Focus on grip endurance and proper hand positioning without attempting full transition.
-(Resistance: None)
 
 **Week 3-4: Angle Creation and Footwork** - Movement patterns and positioning
 With two-on-one established, practice stepping off centerline at 45-degree angles while maintaining control. Partner provides light resistance by attempting to square up. Emphasize proper foot placement and hip positioning without completing the back take.
-(Resistance: Light)
 
 **Week 5-6: Pathway Selection Drills** - Choosing between step-behind and duck-under variations
 Partner provides moderate resistance and varies their defensive reactions. Practice reading their movement and selecting appropriate back access pathway. Complete transitions slowly focusing on technical precision and maintaining control throughout.
-(Resistance: Medium)
 
 **Week 7-8: Back Consolidation** - Securing hooks and completing position
 Full-speed transitions with partner attempting realistic defensive responses including grip stripping, turning in, and hip movement. Emphasis on maintaining control during the critical moment of seat belt establishment and hook insertion.
-(Resistance: Full)
 
 **Week 9-10: Counter Sequences** - Responding to defensive reactions
 Partner employs specific counters (pulling arm back, turning in, sprawling) and you practice appropriate responses and chains to alternative techniques. Build decision tree for real-time adaptation based on opponent's defense.
-(Resistance: Full)
 
 **Week 11+: Competition Application** - Live implementation and timing
 Incorporate into positional sparring from standing, then into full rolling. Focus on creating opportunities for two-on-one control from various clinch positions and executing back takes with proper timing during dynamic exchanges.
-(Resistance: Full)
 
 
 

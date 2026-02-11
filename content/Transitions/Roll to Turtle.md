@@ -157,7 +157,7 @@ The strategic value of this escape lies in its reliability when the opponent has
 Timing is critical for this technique - the roll must be explosive enough to create separation but controlled enough to immediately establish the tight defensive turtle structure with elbows to knees and chin tucked. Executing this escape too slowly allows the opponent to follow and establish back control with hooks, negating the escape entirely.
 
 **From Position**: [[Side Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Create frames with your forearms against the opponent's near hip and shoulder to prevent them from following your movement immediately during the transition (Timing: When opponent commits weight forward)
-2. **Tuck near elbow**: Bring your near-side elbow tight to your body and begin turning your shoulders toward the mat, initiating the roll away from the opponent (Timing: Immediately after frame establishment)
-3. **Drive with hips**: Explosively drive your hips up and away from the opponent while continuing the shoulder rotation, using your frame to push off their body (Timing: Explosive movement during weight shift)
-4. **Thread near knee**: Bring your near knee underneath your body as you rotate, establishing the first point of contact for your turtle base structure (Timing: As shoulders pass vertical)
-5. **Establish four-point base**: Complete the rotation onto hands and knees with weight distributed evenly, immediately bringing elbows tight to knees to prevent underhook penetration (Timing: Rapid completion of rotation)
-6. **Secure defensive posture**: Tuck chin to chest, round your back, and begin hand fighting or movement to prevent opponent from settling control while planning your next escape sequence (Timing: Immediately upon reaching turtle)
+1. **Establish frames**: Create frames with your forearms against the opponent's near hip and shoulder to prevent them from following your movement immediately during the transition
+2. **Tuck near elbow**: Bring your near-side elbow tight to your body and begin turning your shoulders toward the mat, initiating the roll away from the opponent
+3. **Drive with hips**: Explosively drive your hips up and away from the opponent while continuing the shoulder rotation, using your frame to push off their body
+4. **Thread near knee**: Bring your near knee underneath your body as you rotate, establishing the first point of contact for your turtle base structure
+5. **Establish four-point base**: Complete the rotation onto hands and knees with weight distributed evenly, immediately bringing elbows tight to knees to prevent underhook penetration
+6. **Secure defensive posture**: Tuck chin to chest, round your back, and begin hand fighting or movement to prevent opponent from settling control while planning your next escape sequence
 
 
 </section>
@@ -257,19 +257,15 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 ## Training Progressions
 **Week 1-2** - Solo drilling mechanics
 Practice the rolling motion and turtle establishment from lying flat on your back. Focus on the hip drive, shoulder rotation, and immediate defensive structure. Develop muscle memory for elbow-to-knee positioning.
-(Resistance: None)
 
 **Week 3-4** - Partner drilling with compliance
 Partner holds side control with moderate pressure. Practice the complete escape sequence with partner allowing the movement but maintaining contact. Focus on timing the roll with frame establishment.
-(Resistance: Light)
 
 **Week 5-6** - Progressive resistance and chaining
 Partner provides increasing resistance and attempts to follow the roll. Practice chaining into granby rolls, sit-outs, or technical standups from turtle. Develop recognition of which follow-up is appropriate.
-(Resistance: Medium)
 
 **Week 7+** - Live application and situational sparring
 Positional sparring from side control bottom. Partner attempts full resistance and counters. Focus on timing recognition and executing the escape during optimal windows while defending submissions.
-(Resistance: Full)
 
 
 

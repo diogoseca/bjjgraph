@@ -163,7 +163,7 @@ The transition exploits the mechanical advantage created by the lockdown's leg e
 Strategically, the Electric Chair Transition creates an immediate dilemma for the top player. Defending the elevation exposes them to the Old School sweep, while allowing the transition subjects them to the Electric Chair submission threat. This dual-threat nature makes the transition exceptionally difficult to stop once initiated with proper timing and control.
 
 **From Position**: [[Lockdown/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Tighten Lockdown Control**: From lockdown half guard, confirm your figure-four leg configuration is secure with your outside leg threading under opponent's trapped leg. Pull your heel firmly against their thigh while your instep hooks behind their calf. This creates the foundational control for all subsequent mechanics. (Timing: 1-2 seconds to verify and tighten lockdown configuration)
-2. **Establish Deep Underhook**: Drive your underhooking arm deep across opponent's back until your hand reaches their far lat or belt area. Your shoulder should be wedged into their armpit, creating a strong connection that prevents them from posturing away or establishing crossface control. (Timing: 2-3 seconds to secure deep underhook position)
-3. **Control Near Ankle**: Release your near hand from any upper body control and reach to grip opponent's near ankle or foot. Pull this ankle toward your hip, beginning to create the splitting action that characterizes the Electric Chair. Maintain lockdown tension during this grip change. (Timing: 1-2 seconds for grip transfer and ankle control)
-4. **Initiate Hip Elevation**: Begin extending your hips forward and upward while maintaining tight lockdown pressure. Use the lockdown as a lever, driving your knee toward opponent's hip while your hips elevate. This creates the initial compression on opponent's trapped leg and begins off-balancing them. (Timing: 2-3 seconds for controlled hip elevation)
-5. **Pull and Extend Simultaneously**: Coordinate three actions: pull with your underhook to stretch opponent's upper body, extend your lockdown to elevate their trapped leg, and pull their ankle toward your hip. This creates the characteristic Electric Chair splitting pressure attacking knee, hip, and groin simultaneously. (Timing: 2-3 seconds for coordinated extension)
-6. **Angle Your Body**: As you achieve full extension, angle your body approximately 45 degrees relative to opponent. This perpendicular positioning maximizes the mechanical advantage of your lockdown lever and increases the effectiveness of the splitting pressure on their trapped leg. (Timing: 1-2 seconds to establish optimal angle)
-7. **Consolidate Electric Chair Position**: Once opponent's leg is fully elevated and you've achieved the characteristic splitting angle, consolidate control by maintaining all three control points: lockdown tension, deep underhook, and ankle grip. From here you can pursue the submission, Old School sweep, or Truck transition. (Timing: 1-2 seconds to confirm position established)
+1. **Tighten Lockdown Control**: From lockdown half guard, confirm your figure-four leg configuration is secure with your outside leg threading under opponent's trapped leg. Pull your heel firmly against their thigh while your instep hooks behind their calf. This creates the foundational control for all subsequent mechanics.
+2. **Establish Deep Underhook**: Drive your underhooking arm deep across opponent's back until your hand reaches their far lat or belt area. Your shoulder should be wedged into their armpit, creating a strong connection that prevents them from posturing away or establishing crossface control.
+3. **Control Near Ankle**: Release your near hand from any upper body control and reach to grip opponent's near ankle or foot. Pull this ankle toward your hip, beginning to create the splitting action that characterizes the Electric Chair. Maintain lockdown tension during this grip change.
+4. **Initiate Hip Elevation**: Begin extending your hips forward and upward while maintaining tight lockdown pressure. Use the lockdown as a lever, driving your knee toward opponent's hip while your hips elevate. This creates the initial compression on opponent's trapped leg and begins off-balancing them.
+5. **Pull and Extend Simultaneously**: Coordinate three actions: pull with your underhook to stretch opponent's upper body, extend your lockdown to elevate their trapped leg, and pull their ankle toward your hip. This creates the characteristic Electric Chair splitting pressure attacking knee, hip, and groin simultaneously.
+6. **Angle Your Body**: As you achieve full extension, angle your body approximately 45 degrees relative to opponent. This perpendicular positioning maximizes the mechanical advantage of your lockdown lever and increases the effectiveness of the splitting pressure on their trapped leg.
+7. **Consolidate Electric Chair Position**: Once opponent's leg is fully elevated and you've achieved the characteristic splitting angle, consolidate control by maintaining all three control points: lockdown tension, deep underhook, and ankle grip. From here you can pursue the submission, Old School sweep, or Truck transition.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, the Electric Chair Transition creates an immediate dilemma for th
 ## Training Progressions
 **Week 1-2** - Grip Sequencing
 Practice the technical sequence without resistance: establish lockdown, secure underhook, control ankle, begin elevation. Focus on maintaining lockdown tension throughout all grip changes. Drill 20-30 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Hip Mechanics
 Add focus on hip extension as primary driver of transition. Partner provides positional resistance but doesn't actively defend. Develop smooth coordination between lockdown extension, underhook pull, and ankle control.
-(Resistance: Light)
 
 **Week 5-6** - Defensive Reactions
 Partner begins providing realistic defensive reactions: posting, sprawling, attempting leg extraction. Practice recognizing these reactions and making appropriate adjustments. Begin integrating Old School sweep as backup when Electric Chair is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live Application
 Integrate into live rolling with full resistance. Focus on identifying correct timing for transition attempt. Practice chaining with Truck entry, Old School sweep, and Electric Chair submission based on opponent's defensive choices.
-(Resistance: Full)
 
 
 

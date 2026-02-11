@@ -159,7 +159,7 @@ description: "Learn Peruvian Necktie Setup in BJJ. Step-by-step execution from F
 The Peruvian Necktie Setup is an advanced submission transition that exploits opponent's defensive turtle position or failed takedown attempts. This technique combines elements of front headlock control with creative body positioning to establish a powerful choking mechanism. The setup requires precise timing and exceptional understanding of weight distribution, as the practitioner must maintain control while transitioning their body underneath the opponent. Unlike traditional front headlock attacks, the Peruvian Necktie utilizes the opponent's own shoulder as a fulcrum point, creating a unique choking mechanism that attacks both the carotid arteries and applies pressure to the neck. The technique gained prominence in modern no-gi competition and represents the evolution of front headlock finishing sequences. Success with this setup demands strong grip control, flexibility to maneuver underneath the opponent, and the ability to recognize the precise moment when defensive posture creates the necessary opening for entry.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 20%, Intermediate 35%, Advanced 50%
+**Success Rate**: 42%
 
 </section>
 
@@ -208,13 +208,13 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish front headlock control**: From standing or scramble position, secure a tight front headlock with your arm wrapped around opponent's head and neck. Your chest should be heavy on their upper back, forcing their head down. Grip your hands together in a gable grip or secure a deep overhook on their near arm. (Timing: Control must be established before opponent can posture up)
-2. **Secure deep overhook**: Release the gable grip and thread your near arm deep underneath opponent's armpit, securing a tight overhook. Your hand should reach across their back, gripping their far lat or shoulder. This overhook prevents them from pulling their arm free and creates the structural foundation for the choke. (Timing: Transition smoothly from gable grip to overhook before opponent recognizes the setup)
-3. **Drop to outside hip**: While maintaining head and overhook control, drop your weight to your outside hip (same side as the overhook). Your free hand maintains pressure on opponent's head, keeping it trapped. Position your body at approximately 90 degrees to opponent's body alignment. (Timing: Drop weight suddenly to prevent opponent from following you down)
-4. **Thread leg underneath**: Begin threading your outside leg underneath opponent's chest and body. Your shin should slide across the mat underneath their torso. Maintain constant downward pressure on their head with your choking arm while the overhook prevents them from sprawling away. Your body begins to invert underneath theirs. (Timing: Leg insertion must be quick and smooth while opponent is still processing the position change)
-5. **Secure leg triangle**: As your leg threads through, lock a triangle configuration with your legs around opponent's body. Your outside leg hooks over your inside leg's ankle or shin. This leg triangle creates a frame that traps opponent's body and prevents them from rolling through or escaping laterally. (Timing: Lock triangle before opponent can turn into you)
-6. **Adjust choking arm position**: Fine-tune your choking arm so opponent's own shoulder becomes the fulcrum point pressing into their neck. Your forearm wraps tightly around their neck with their shoulder blade wedged against their carotid artery. Maintain the overhook to keep their arm trapped and prevent hand fighting. (Timing: Make adjustments while controlling with leg triangle)
-7. **Complete body positioning and finish**: Your body should now be fully underneath opponent with your back on the mat, legs locked in triangle around their torso, overhook secured, and choking arm tight around neck. Arch your hips upward to increase pressure on the choke. Keep opponent's head pulled tight to your chest to prevent them from creating space. Apply finishing pressure by extending hips and squeezing. (Timing: Final position should feel locked and controlled before applying finishing pressure)
+1. **Establish front headlock control**: From standing or scramble position, secure a tight front headlock with your arm wrapped around opponent's head and neck. Your chest should be heavy on their upper back, forcing their head down. Grip your hands together in a gable grip or secure a deep overhook on their near arm.
+2. **Secure deep overhook**: Release the gable grip and thread your near arm deep underneath opponent's armpit, securing a tight overhook. Your hand should reach across their back, gripping their far lat or shoulder. This overhook prevents them from pulling their arm free and creates the structural foundation for the choke.
+3. **Drop to outside hip**: While maintaining head and overhook control, drop your weight to your outside hip (same side as the overhook). Your free hand maintains pressure on opponent's head, keeping it trapped. Position your body at approximately 90 degrees to opponent's body alignment.
+4. **Thread leg underneath**: Begin threading your outside leg underneath opponent's chest and body. Your shin should slide across the mat underneath their torso. Maintain constant downward pressure on their head with your choking arm while the overhook prevents them from sprawling away. Your body begins to invert underneath theirs.
+5. **Secure leg triangle**: As your leg threads through, lock a triangle configuration with your legs around opponent's body. Your outside leg hooks over your inside leg's ankle or shin. This leg triangle creates a frame that traps opponent's body and prevents them from rolling through or escaping laterally.
+6. **Adjust choking arm position**: Fine-tune your choking arm so opponent's own shoulder becomes the fulcrum point pressing into their neck. Your forearm wraps tightly around their neck with their shoulder blade wedged against their carotid artery. Maintain the overhook to keep their arm trapped and prevent hand fighting.
+7. **Complete body positioning and finish**: Your body should now be fully underneath opponent with your back on the mat, legs locked in triangle around their torso, overhook secured, and choking arm tight around neck. Arch your hips upward to increase pressure on the choke. Keep opponent's head pulled tight to your chest to prevent them from creating space. Apply finishing pressure by extending hips and squeezing.
 
 
 </section>
@@ -261,27 +261,21 @@ The Peruvian Necktie Setup is an advanced submission transition that exploits op
 ## Training Progressions
 **Week 1-2: Fundamentals** - Front headlock control and overhook establishment
 Practice securing tight front headlock control from various entries (failed shots, turtle, scrambles). Drill transitioning from gable grip to deep overhook while maintaining head control. Partner offers no resistance. Focus on grip placement and body positioning.
-(Resistance: None)
 
 **Week 3-4: Movement patterns** - Hip drop and leg threading mechanics
 Add the movement of dropping to outside hip and threading leg underneath partner's body. Practice the inversion movement slowly to develop body awareness and coordination. Partner remains stationary in turtle position. Work on smooth, flowing movement between all positions.
-(Resistance: Light)
 
 **Week 5-8: Position completion** - Full setup sequence with leg triangle lock
 Execute complete setup from front headlock to finished Peruvian Necktie position. Partner provides light resistance by trying to maintain turtle posture. Practice locking the leg triangle and adjusting choking arm position. Work on recognizing proper finishing position.
-(Resistance: Medium)
 
 **Week 9-12: Timing and counters** - Setup timing and defending common counters
 Partner actively attempts to prevent setup using common defensive strategies (pulling arm free, sprawling, rolling). Practice recognizing optimal timing windows and adjusting when opponent counters. Develop backup options when primary setup is denied.
-(Resistance: Medium)
 
 **Week 13+: Live integration** - Setup from live scrambles and transitions
 Attempt Peruvian Necktie setup during live positional sparring from front headlock position. Partner uses full defensive strategies. Work on chaining this setup with other front headlock attacks to create submission threat sequences. Develop ability to recognize setup opportunities in real time.
-(Resistance: Full)
 
 **Ongoing: Competition refinement** - Advanced setups and entries from various positions
 Refine setup timing for competition scenarios. Develop multiple entry pathways (from standing, from guard passing attempts, from takedown defense). Work on explosive execution and maintaining control through opponent's maximum resistance efforts. Study film of successful competition applications.
-(Resistance: Full)
 
 
 

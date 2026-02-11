@@ -21,37 +21,37 @@ description: "Master closed guard bottom position with comprehensive offensive t
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Flower Sweep",
-      "text": "From this position, attempt Flower Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Flower Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
-      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -208,27 +208,31 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Available Escapes
 
-### [[Hip Bump Sweep]] (10% of attempts)
+### [[Hip Bump Sweep]] (8% of attempts)
 
-### [[Scissor Sweep]] (10% of attempts)
+### [[Scissor Sweep]] (8% of attempts)
 
-### [[Pendulum Sweep]] (10% of attempts)
+### [[Pendulum Sweep]] (8% of attempts)
 
-### [[Flower Sweep]] (9% of attempts)
+### [[Flower Sweep]] (8% of attempts)
 
-### [[Kimura to Back Take]] (10% of attempts)
+### [[Kimura to Back Take]] (8% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Omoplata Sweep]] (7% of attempts)
 
-### [[Triangle Setup]] (9% of attempts)
+### [[Triangle Setup]] (8% of attempts)
 
-### [[Closed Guard to Triangle]] (8% of attempts)
+### [[Closed Guard to Triangle]] (7% of attempts)
 
-### [[Omoplata to Back]] (7% of attempts)
+### [[Omoplata to Back]] (6% of attempts)
 
-### [[Elevator Sweep]] (10% of attempts)
+### [[Elevator Sweep]] (8% of attempts)
 
-### [[Overhook Sweep]] (9% of attempts)
+### [[Overhook Sweep]] (8% of attempts)
+
+### [[Kimura Sweep]] (8% of attempts)
+
+### [[Muscle Sweep]] (8% of attempts)
 
 
 
@@ -386,11 +390,11 @@ Partner attempts to break and pass closed guard using any legal methods while yo
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 20% |
-| Intermediate | 60% | 55% | 35% |
-| Advanced     | 75% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 1-3 minutes depending on skill differential and guard breaking proficiency
 

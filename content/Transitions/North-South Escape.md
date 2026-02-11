@@ -153,7 +153,7 @@ description: "Learn North-South Escape in BJJ. Step-by-step execution from North
 The North-South Escape is a fundamental defensive technique designed to recover guard from one of the most dominant pinning positions in Brazilian Jiu-Jitsu. When trapped in north-south position, the top player maintains heavy chest pressure and controls your movement with their hips and arms, making escape extremely difficult without proper technique. This escape relies on precise hip movement, frame creation, and timing to create the space necessary to recover to a safer bottom position. The technique emphasizes the principle of creating distance through bridging and shrimping mechanics while preventing your opponent from transitioning to more dangerous positions like mount or side control. Success requires understanding weight distribution, maintaining defensive posture throughout the escape sequence, and capitalizing on small windows of opportunity when the top player adjusts their position. The north-south escape is essential for any practitioner's defensive arsenal, as it addresses a common scenario where opponents achieve dominant control through passing or transitioning from other top positions.
 
 **From Position**: [[North-South/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frames**: Immediately bring both hands to opponent's hips or lower torso, creating strong frames with your forearms against their body. Keep your elbows tight to your sides and hands positioned to push away from their center of mass. This prevents them from settling their full weight onto your chest and gives you the structural foundation to begin creating space. (Timing: Execute immediately upon recognizing north-south control)
-2. **Protect neck and create initial space**: Tuck your chin to your chest to defend against choke attempts while simultaneously pushing with your frames to create a few inches of space between your chest and opponent's chest. Focus on creating vertical space first by pushing their torso away from yours, rather than trying to turn or twist at this stage. (Timing: Coordinate push with opponent's exhale or weight adjustment)
-3. **Bridge and turn to side**: Execute a powerful bridge by driving through your feet and elevating your hips off the mat while maintaining your frames. As you reach the apex of the bridge, turn your body to one side (typically away from their head) to get onto your shoulder. This rotation converts the vertical space into lateral space and begins to change the angle of control. (Timing: Bridge explosively but controlled, turning at peak height)
-4. **Insert knee shield or frame**: As you turn to your side, immediately work to insert your bottom knee between your body and opponent's torso, creating a knee shield. Simultaneously, use your top arm to frame across their neck or shoulder. This establishes a barrier that prevents them from flattening you back down or transitioning to side control. (Timing: Insert knee during the bridge rotation, before settling)
-5. **Shrimp and recover guard structure**: Perform a strong shrimping motion by pushing off your planted foot and sliding your hips away from opponent while maintaining your knee shield. Create enough distance to bring your bottom leg through and establish a guard frame. Your goal is to get both legs between you and your opponent, transitioning through a transitional guard position. (Timing: Continuous shrimping motion until guard structure established)
-6. **Secure guard recovery**: Complete the escape by establishing closed guard, open guard, or half guard depending on opponent's positioning and your grips. Secure control of their sleeves, collar, or posture to prevent immediate passing attempts. Ensure your defensive posture is sound before beginning offensive attacks, with proper distance management and frame control maintained. (Timing: Secure grips immediately upon achieving guard position)
+1. **Establish defensive frames**: Immediately bring both hands to opponent's hips or lower torso, creating strong frames with your forearms against their body. Keep your elbows tight to your sides and hands positioned to push away from their center of mass. This prevents them from settling their full weight onto your chest and gives you the structural foundation to begin creating space.
+2. **Protect neck and create initial space**: Tuck your chin to your chest to defend against choke attempts while simultaneously pushing with your frames to create a few inches of space between your chest and opponent's chest. Focus on creating vertical space first by pushing their torso away from yours, rather than trying to turn or twist at this stage.
+3. **Bridge and turn to side**: Execute a powerful bridge by driving through your feet and elevating your hips off the mat while maintaining your frames. As you reach the apex of the bridge, turn your body to one side (typically away from their head) to get onto your shoulder. This rotation converts the vertical space into lateral space and begins to change the angle of control.
+4. **Insert knee shield or frame**: As you turn to your side, immediately work to insert your bottom knee between your body and opponent's torso, creating a knee shield. Simultaneously, use your top arm to frame across their neck or shoulder. This establishes a barrier that prevents them from flattening you back down or transitioning to side control.
+5. **Shrimp and recover guard structure**: Perform a strong shrimping motion by pushing off your planted foot and sliding your hips away from opponent while maintaining your knee shield. Create enough distance to bring your bottom leg through and establish a guard frame. Your goal is to get both legs between you and your opponent, transitioning through a transitional guard position.
+6. **Secure guard recovery**: Complete the escape by establishing closed guard, open guard, or half guard depending on opponent's positioning and your grips. Secure control of their sleeves, collar, or posture to prevent immediate passing attempts. Ensure your defensive posture is sound before beginning offensive attacks, with proper distance management and frame control maintained.
 
 
 </section>
@@ -256,27 +256,21 @@ The North-South Escape is a fundamental defensive technique designed to recover 
 ## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Master bridging and shrimping mechanics in isolation
 Practice bridging and turning movements without resistance, focusing on proper foot positioning, hip elevation, and rotation mechanics. Partner provides light north-south position without resistance. Drill the frame creation and space generation repeatedly until movements become automatic.
-(Resistance: None)
 
 **Phase 2: Positional Drilling (Weeks 3-4)** - Execute complete escape sequence with cooperative partner
 Partner establishes north-south position and maintains moderate pressure while allowing you to work through the full escape sequence. Focus on proper sequencing: frames, space creation, bridge, turn, knee insertion, shrimp, guard recovery. Perform 10-15 repetitions per training session from each side.
-(Resistance: Light)
 
 **Phase 3: Timing and Reaction (Weeks 5-6)** - Recognize and capitalize on weight shift opportunities
 Partner begins making small adjustments in north-south position (shifting weight, changing grips, attempting submissions). Practice timing your escape attempts with their movements. Learn to feel when their weight distribution creates optimal escape windows. Develop sensitivity to pressure changes.
-(Resistance: Medium)
 
 **Phase 4: Counter Defense (Weeks 7-8)** - Handle common defensive responses from top player
 Partner actively attempts to counter your escapes by sprawling, transitioning to side control, or attacking submissions. Practice adjusting your escape paths based on their reactions. Develop backup options and combination escape sequences. Begin incorporating this into positional sparring rounds.
-(Resistance: Medium)
 
 **Phase 5: Live Application (Weeks 9-12)** - Execute escapes during full resistance training
 Incorporate the north-south escape into regular sparring sessions. Start from north-south bottom position during positional sparring rounds with full resistance. Partner attempts to maintain position and advance using all available tools. Track success rate and identify areas needing refinement.
-(Resistance: Full)
 
 **Phase 6: Advanced Integration (Ongoing)** - Chain escapes with other defensive systems
 Develop the ability to flow between north-south escape and related escapes (side control, mount, turtle). Practice reading opponent's reactions and selecting optimal escape paths based on their positioning and tendencies. Integrate submissions and sweeps from transitional positions during escape sequences.
-(Resistance: Full)
 
 
 

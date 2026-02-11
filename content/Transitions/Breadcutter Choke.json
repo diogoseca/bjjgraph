@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Breadcutter Choke is a devastating gi-based blood choke executed from Kuzure Kesa-Gatame (modified scarf hold). This technique uses the opponent's own lapel as a lever to compress both carotid arteries simultaneously, creating rapid unconsciousness when properly applied. The choke derives its name from the sawing motion of the forearm across the neck, reminiscent of cutting bread.\n\nFrom a strategic perspective, the Breadcutter Choke capitalizes on the unique control dynamics of Kuzure Kesa-Gatame. Unlike chokes from standard side control that require significant repositioning, this submission flows naturally from the existing arm isolation and hip pressure. When the opponent focuses on defending the trapped arm from shoulder locks, they often neglect their collar, creating the perfect entry window. The choke also serves as an excellent follow-up when americana or kimura attempts stall—opponents defending those attacks frequently expose their neck.\n\nThe mechanical efficiency of this choke makes it particularly effective against larger opponents. Rather than relying on arm strength to compress the neck, the Breadcutter uses body positioning and the gi material to create a mechanical stranglehold. Your forearm acts as a blade, your grip on the lapel provides the anchor point, and your body weight drives the cutting pressure. This makes the technique sustainable even against significant size differentials, as structural alignment rather than muscular strength creates the finishing pressure.",
   "key_principles": [
     "Feed the lapel deep across the neck before applying any choking pressure to maximize arterial compression",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Secure lapel grip",
-      "description": "While maintaining hip pressure and arm isolation, use your free hand to grip the opponent's near-side lapel at collar level. Pull the lapel loose from their belt line to create slack for feeding across their neck.",
-      "timing": "During stable control phase"
+      "description": "While maintaining hip pressure and arm isolation, use your free hand to grip the opponent's near-side lapel at collar level. Pull the lapel loose from their belt line to create slack for feeding across their neck."
     },
     {
       "step_number": 2,
       "action": "Feed lapel across neck",
-      "description": "Thread the lapel behind the opponent's neck, feeding it deep toward the far side. The material should cross directly over the carotid arteries on both sides. Aim to get four fingers of slack past the centerline of their throat.",
-      "timing": "When opponent is focused on arm defense"
+      "description": "Thread the lapel behind the opponent's neck, feeding it deep toward the far side. The material should cross directly over the carotid arteries on both sides. Aim to get four fingers of slack past the centerline of their throat."
     },
     {
       "step_number": 3,
       "action": "Establish choking grip",
-      "description": "Transfer the fed lapel to your choking hand (typically the hand nearest the opponent's head). Grip the lapel palm-down with your wrist positioned against the side of their neck, thumb pointing toward their feet.",
-      "timing": "Immediately after successful lapel feed"
+      "description": "Transfer the fed lapel to your choking hand (typically the hand nearest the opponent's head). Grip the lapel palm-down with your wrist positioned against the side of their neck, thumb pointing toward their feet."
     },
     {
       "step_number": 4,
       "action": "Position forearm blade",
-      "description": "Rotate your forearm so the bony edge (radius bone) presses directly into the carotid artery on the near side of their neck. Your forearm should be perpendicular to their spine, not angled along it.",
-      "timing": "Before applying pressure"
+      "description": "Rotate your forearm so the bony edge (radius bone) presses directly into the carotid artery on the near side of their neck. Your forearm should be perpendicular to their spine, not angled along it."
     },
     {
       "step_number": 5,
       "action": "Anchor and stabilize",
-      "description": "Plant your non-choking hand on the mat near the opponent's far hip or grip their belt/pants to prevent any hip escape. Maintain heavy hip pressure into their ribs to anchor your entire body structure.",
-      "timing": "Simultaneous with forearm positioning"
+      "description": "Plant your non-choking hand on the mat near the opponent's far hip or grip their belt/pants to prevent any hip escape. Maintain heavy hip pressure into their ribs to anchor your entire body structure."
     },
     {
       "step_number": 6,
       "action": "Apply cutting pressure",
-      "description": "Pull the lapel grip toward your hip while simultaneously dropping your shoulder weight into the forearm blade. The motion should feel like sawing across bread—not squeezing, but cutting with body weight and leverage.",
-      "timing": "Final execution"
+      "description": "Pull the lapel grip toward your hip while simultaneously dropping your shoulder weight into the forearm blade. The motion should feel like sawing across bread—not squeezing, but cutting with body weight and leverage."
     },
     {
       "step_number": 7,
       "action": "Complete the choke",
-      "description": "Continue driving your forearm across while pulling the lapel until the opponent taps or goes unconscious. Maintain hip pressure throughout to prevent any late escape. Be prepared for rapid tap as this choke compresses both arteries simultaneously.",
-      "timing": "3-8 seconds until tap/unconsciousness"
+      "description": "Continue driving your forearm across while pulling the lapel until the opponent taps or goes unconscious. Maintain hip pressure throughout to prevent any late escape. Be prepared for rapid tap as this choke compresses both arteries simultaneously."
     }
   ],
   "common_counters": [
@@ -151,26 +139,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice lapel feeding from static Kuzure Kesa-Gatame. Focus on finding slack, threading behind the neck, and establishing palm-down grip. Partner remains passive. Drill 50 repetitions per side to develop muscle memory for the feeding motion.",
-      "resistance_level": "None"
+      "description": "Practice lapel feeding from static Kuzure Kesa-Gatame. Focus on finding slack, threading behind the neck, and establishing palm-down grip. Partner remains passive. Drill 50 repetitions per side to develop muscle memory for the feeding motion."
     },
     {
       "phase": "Week 3-4",
       "focus": "Pressure application",
-      "description": "Add the cutting motion with controlled pressure. Partner provides feedback on choke tightness and tap timing. Focus on maintaining hip pressure while executing the finish. Begin recognizing the difference between neck crank and blood choke sensations.",
-      "resistance_level": "Light"
+      "description": "Add the cutting motion with controlled pressure. Partner provides feedback on choke tightness and tap timing. Focus on maintaining hip pressure while executing the finish. Begin recognizing the difference between neck crank and blood choke sensations."
     },
     {
       "phase": "Week 5-6",
       "focus": "Entry timing",
-      "description": "Partner defends trapped arm with moderate resistance, creating openings for choke entry. Practice recognizing when opponent's defense creates collar vulnerability. Chain Breadcutter with americana feints and vice versa.",
-      "resistance_level": "Medium"
+      "description": "Partner defends trapped arm with moderate resistance, creating openings for choke entry. Practice recognizing when opponent's defense creates collar vulnerability. Chain Breadcutter with americana feints and vice versa."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Apply in positional sparring from Kuzure Kesa-Gatame. Full resistance with all counters available. Focus on completing the choke despite active defense and maintaining position when choke is defended. Track success rate and identify patterns in failed attempts.",
-      "resistance_level": "Full"
+      "description": "Apply in positional sparring from Kuzure Kesa-Gatame. Full resistance with all counters available. Focus on completing the choke despite active defense and maintaining position when choke is defended. Track success rate and identify patterns in failed attempts."
     }
   ],
   "variants_and_adaptations": [
@@ -193,53 +177,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Breadcutter Choke?",
-      "answer": "The primary goal is to compress both carotid arteries simultaneously using the opponent's lapel and your forearm blade, restricting blood flow to the brain and forcing a submission. Unlike air chokes that cause discomfort and panic, blood chokes create rapid unconsciousness (typically 3-8 seconds) when properly applied, making them highly efficient finishes.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to compress both carotid arteries simultaneously using the opponent's lapel and your forearm blade, restricting blood flow to the brain and forcing a submission. Unlike air chokes that cause discomfort and panic, blood chokes create rapid unconsciousness (typically 3-8 seconds) when properly applied, making them highly efficient finishes."
     },
     {
       "question": "Why must the forearm be positioned perpendicular to the spine rather than parallel?",
-      "answer": "The perpendicular position concentrates pressure directly on the carotid arteries located on both sides of the neck. A parallel forearm disperses pressure across the shoulder and chest muscles, which are far more resilient than blood vessels. The perpendicular angle creates a focused 'cutting' effect that maximizes arterial compression with minimal force.",
-      "difficulty": "Intermediate"
+      "answer": "The perpendicular position concentrates pressure directly on the carotid arteries located on both sides of the neck. A parallel forearm disperses pressure across the shoulder and chest muscles, which are far more resilient than blood vessels. The perpendicular angle creates a focused 'cutting' effect that maximizes arterial compression with minimal force."
     },
     {
       "question": "Your opponent begins turning into you as you feed the lapel - how do you adjust?",
-      "answer": "Maintain your head position past their far shoulder to redirect their turning force harmlessly. Increase hip pressure to limit their mobility. If they commit heavily to the turn, abandon the choke and transition to mount—their turning motion assists your advancement. Never sacrifice positional control to force a stalled choke attempt.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain your head position past their far shoulder to redirect their turning force harmlessly. Increase hip pressure to limit their mobility. If they commit heavily to the turn, abandon the choke and transition to mount—their turning motion assists your advancement. Never sacrifice positional control to force a stalled choke attempt."
     },
     {
       "question": "What grip configuration optimizes the cutting mechanics of this choke?",
-      "answer": "Grip the lapel palm-down with your thumb pointing toward the opponent's feet. This configuration allows natural supination of the forearm during the pulling motion, which enhances the cutting pressure. Palm-up grips reverse the mechanical advantage and create an awkward, weaker pulling angle that reduces finishing power significantly.",
-      "difficulty": "Intermediate"
+      "answer": "Grip the lapel palm-down with your thumb pointing toward the opponent's feet. This configuration allows natural supination of the forearm during the pulling motion, which enhances the cutting pressure. Palm-up grips reverse the mechanical advantage and create an awkward, weaker pulling angle that reduces finishing power significantly."
     },
     {
       "question": "How do you differentiate between a properly applied blood choke and an ineffective neck crank?",
-      "answer": "A blood choke creates pressure on both sides of the neck over the arteries, producing a distinct head-pressure sensation and rapid approach of unconsciousness. A neck crank creates pain along the spine or jaw without the head-pressure feeling. If your partner reports pain without lightheadedness, your forearm blade is likely misaligned—reposition to target the arteries.",
-      "difficulty": "Beginner"
+      "answer": "A blood choke creates pressure on both sides of the neck over the arteries, producing a distinct head-pressure sensation and rapid approach of unconsciousness. A neck crank creates pain along the spine or jaw without the head-pressure feeling. If your partner reports pain without lightheadedness, your forearm blade is likely misaligned—reposition to target the arteries."
     },
     {
       "question": "Your opponent grabs your choking wrist with their free hand - what is your response?",
-      "answer": "First attempt to peel their grip by pulling your elbow toward their head, using leverage rather than strength. If the grip fight stalls, you have two options: transition to an armbar on their defending arm (their grip extension creates vulnerability), or switch to a paper cutter variation that attacks from a different angle. Never engage in prolonged strength battles.",
-      "difficulty": "Advanced"
+      "answer": "First attempt to peel their grip by pulling your elbow toward their head, using leverage rather than strength. If the grip fight stalls, you have two options: transition to an armbar on their defending arm (their grip extension creates vulnerability), or switch to a paper cutter variation that attacks from a different angle. Never engage in prolonged strength battles."
     },
     {
       "question": "Why is maintaining hip pressure essential even during the final execution phase?",
-      "answer": "Hip pressure serves as the anchor point that prevents escape and provides the structural foundation for the choke. Without it, opponents can hip escape to create angle, bridge to disrupt your position, or simply squirm away from the choking pressure. The hip pressure also contributes to overall control that makes the opponent feel trapped, often accelerating their decision to tap.",
-      "difficulty": "Intermediate"
+      "answer": "Hip pressure serves as the anchor point that prevents escape and provides the structural foundation for the choke. Without it, opponents can hip escape to create angle, bridge to disrupt your position, or simply squirm away from the choking pressure. The hip pressure also contributes to overall control that makes the opponent feel trapped, often accelerating their decision to tap."
     },
     {
       "question": "When does attempting the Breadcutter Choke create risk of losing position?",
-      "answer": "The highest risk occurs when abandoning hip pressure to use both hands for the choke, when attempting the choke before proper control is established, or when tunnel-visioning on the choke while the opponent creates frames and space. If the opponent begins successful escapes, immediately abort the choke and re-consolidate Kuzure Kesa-Gatame control before attempting again.",
-      "difficulty": "Advanced"
+      "answer": "The highest risk occurs when abandoning hip pressure to use both hands for the choke, when attempting the choke before proper control is established, or when tunnel-visioning on the choke while the opponent creates frames and space. If the opponent begins successful escapes, immediately abort the choke and re-consolidate Kuzure Kesa-Gatame control before attempting again."
     },
     {
       "question": "What is the ideal scenario for transitioning from americana defense to Breadcutter Choke?",
-      "answer": "When the opponent defends the americana by hiding their arm or pressing their elbow tight to their body, their mental focus shifts to arm protection. This defensive posture often leaves their collar undefended and their neck exposed. Feed the lapel during this window when their attention is divided between arm defense and positional escape.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent defends the americana by hiding their arm or pressing their elbow tight to their body, their mental focus shifts to arm protection. This defensive posture often leaves their collar undefended and their neck exposed. Feed the lapel during this window when their attention is divided between arm defense and positional escape."
     },
     {
       "question": "How deep should the lapel be fed before applying pressure, and why?",
-      "answer": "Feed at least four fingers worth of lapel material past the centerline of the throat. This depth ensures the gi material wraps around the far-side carotid artery, creating bilateral compression when combined with your forearm on the near side. Insufficient depth results in one-sided pressure that can be endured or creates a crank rather than a choke.",
-      "difficulty": "Beginner"
+      "answer": "Feed at least four fingers worth of lapel material past the centerline of the throat. This depth ensures the gi material wraps around the far-side carotid artery, creating bilateral compression when combined with your forearm on the near side. Insufficient depth results in one-sided pressure that can be endured or creates a crank rather than a choke."
     }
   ],
   "safety_considerations": "The Breadcutter Choke is a blood choke that can cause unconsciousness in 3-8 seconds when properly applied. Training partners must tap early and clearly—do not try to tough out blood chokes. The choking practitioner must release pressure immediately upon tap, as even brief continued pressure after submission can cause harm. When drilling, communicate clearly about pressure levels and never apply full finishing pressure without explicit consent. If a training partner goes unconscious, release the choke immediately, position them on their side, and monitor breathing. The choke should not be practiced on anyone with cardiovascular conditions, neck injuries, or who has recently consumed alcohol. Always distinguish between neck crank discomfort (spine/jaw pain) and choke pressure (head-pressure sensation)—if your partner reports pain without lightheadedness, reposition your forearm blade. Never use this technique outside of consensual training or competition settings.",
@@ -277,5 +251,6 @@
       "name": "Arm Triangle",
       "relationship": "Alternative choke option when opponent's arm positioning creates triangle entry"
     }
-  ]
+  ],
+  "success_rate": 58
 }

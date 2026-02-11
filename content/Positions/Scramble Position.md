@@ -260,7 +260,7 @@ The Scramble Position refers to a highly dynamic transitional state in BJJ where
 **If opponent drops head forward or shoots takedown unsuccessfully:**
 - Execute **[[Front Headlock Series]]** → [[Front Headlock]] (Probability: 60%)
 - Execute **[[Guillotine Setup]]** → [[Guillotine Control]] (Probability: 55%)
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 50%)
+- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 50%)
 
 
 **If opponent attempts to establish top position with poor base:**
@@ -360,11 +360,11 @@ Live scrambling with one arm behind back to develop reliance on positioning, wei
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 30% | 15% |
-| Intermediate | 35% | 50% | 30% |
-| Advanced     | 55% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 45% |
+| Advancement Probability | 60% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 3-8 seconds before resolution to established position or reversal
 

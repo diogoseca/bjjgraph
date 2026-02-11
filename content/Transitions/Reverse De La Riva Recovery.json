@@ -8,11 +8,6 @@
     "defensive-transition",
     "guard-retention"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "Reverse De La Riva Recovery is a critical defensive transition that allows practitioners to re-establish proper Reverse De La Riva guard structure when the opponent has begun to compromise the position. This technique is essential for maintaining guard retention when facing pressure passing attacks or when hooks and grips have been partially cleared. The recovery sequence focuses on hip movement, hook retention, and grip fighting to restore the fundamental control elements of RDLR guard.\n\nThe technique becomes necessary when opponents successfully clear the primary hook, establish strong shoulder pressure, or begin advancing their base to initiate a pass. Unlike static guard maintenance, recovery requires dynamic hip escape mechanics combined with strategic re-gripping to prevent the pass while simultaneously rebuilding guard structure. Understanding recovery sequences is often what separates intermediate practitioners who lose position from advanced players who can maintain guard under pressure.\n\nMastering RDLR recovery creates a safety net that allows more aggressive guard play. When you know you can recover the position even when partially compromised, you can take calculated risks with sweeps and submissions without fear of immediate guard passage. This recovery sequence integrates seamlessly with other guard retention concepts, making it a fundamental component of any complete bottom game.",
   "key_principles": [
     "Maintain at least one point of contact (hook or grip) at all times during recovery",
@@ -34,38 +29,32 @@
     {
       "step_number": 1,
       "action": "Establish emergency frames",
-      "description": "As soon as you recognize the RDLR position is compromised, immediately establish defensive frames using your arms to create distance. Place your bottom arm frame against opponent's hip or knee, and your top arm frame against their shoulder or crossface attempt. These frames prevent them from consolidating pressure while you work to recover.",
-      "timing": "Immediate upon recognizing position compromise"
+      "description": "As soon as you recognize the RDLR position is compromised, immediately establish defensive frames using your arms to create distance. Place your bottom arm frame against opponent's hip or knee, and your top arm frame against their shoulder or crossface attempt. These frames prevent them from consolidating pressure while you work to recover."
     },
     {
       "step_number": 2,
       "action": "Execute hip escape",
-      "description": "Perform a strong hip escape (shrimp) away from the opponent while maintaining your frames. Push off your outside foot to generate power and create the angle necessary for hook recovery. Your hips should rotate approximately 45-90 degrees away from the opponent, creating space for your RDLR leg to function.",
-      "timing": "Explosive movement coordinated with frame extension"
+      "description": "Perform a strong hip escape (shrimp) away from the opponent while maintaining your frames. Push off your outside foot to generate power and create the angle necessary for hook recovery. Your hips should rotate approximately 45-90 degrees away from the opponent, creating space for your RDLR leg to function."
     },
     {
       "step_number": 3,
       "action": "Recover RDLR hook",
-      "description": "As you create space with the hip escape, thread your inside leg back underneath opponent's near leg to re-establish the reverse De La Riva hook. Your foot should curve around their thigh with your heel pulling toward their far hip. The hook must be deep enough to control their leg and prevent forward pressure.",
-      "timing": "During or immediately after hip escape"
+      "description": "As you create space with the hip escape, thread your inside leg back underneath opponent's near leg to re-establish the reverse De La Riva hook. Your foot should curve around their thigh with your heel pulling toward their far hip. The hook must be deep enough to control their leg and prevent forward pressure."
     },
     {
       "step_number": 4,
       "action": "Control opponent's near leg",
-      "description": "With your outside hand, establish a strong grip on opponent's near leg pants at the knee or lower thigh. This grip prevents them from stepping over your guard and helps control their base. Pull this leg slightly toward you while pushing with your frames to create opposing forces.",
-      "timing": "As soon as RDLR hook begins to engage"
+      "description": "With your outside hand, establish a strong grip on opponent's near leg pants at the knee or lower thigh. This grip prevents them from stepping over your guard and helps control their base. Pull this leg slightly toward you while pushing with your frames to create opposing forces."
     },
     {
       "step_number": 5,
       "action": "Re-establish secondary controls",
-      "description": "Once the primary RDLR hook is secure, work to recover your secondary controls. This typically means getting a sleeve grip with your bottom hand or establishing a collar grip. Your top leg can either post on the hip as a defensive frame or begin working toward a secondary hook position depending on opponent's reaction.",
-      "timing": "After primary hook is secured and stable"
+      "description": "Once the primary RDLR hook is secure, work to recover your secondary controls. This typically means getting a sleeve grip with your bottom hand or establishing a collar grip. Your top leg can either post on the hip as a defensive frame or begin working toward a secondary hook position depending on opponent's reaction."
     },
     {
       "step_number": 6,
       "action": "Reset guard structure",
-      "description": "With hooks and grips re-established, adjust your body position to return to proper RDLR guard alignment. Your shoulders should be perpendicular to opponent, your RDLR hook should be controlling their base, and your grips should prevent them from posturing or initiating new passing sequences. From here, you can transition back to offensive attacks or continue playing defensive guard retention.",
-      "timing": "Final adjustment once all controls are re-established"
+      "description": "With hooks and grips re-established, adjust your body position to return to proper RDLR guard alignment. Your shoulders should be perpendicular to opponent, your RDLR hook should be controlling their base, and your grips should prevent them from posturing or initiating new passing sequences. From here, you can transition back to offensive attacks or continue playing defensive guard retention."
     }
   ],
   "common_counters": [
@@ -126,38 +115,32 @@
     {
       "phase": "Week 1-2: Fundamental Movement Patterns",
       "focus": "Solo drilling of hip escape mechanics and hook reinsertion",
-      "description": "Practice hip escapes from bottom position without a partner, focusing on creating proper angles. Then add solo practice of threading the RDLR leg back to hook position from various compromised angles. Develop muscle memory for the core movements.",
-      "resistance_level": "None"
+      "description": "Practice hip escapes from bottom position without a partner, focusing on creating proper angles. Then add solo practice of threading the RDLR leg back to hook position from various compromised angles. Develop muscle memory for the core movements."
     },
     {
       "phase": "Week 3-4: Positional Flow Drilling",
       "focus": "Partner flow drilling with cooperative recovery sequences",
-      "description": "Partner establishes RDLR guard, then allows you to compromise it slightly by clearing one grip or hook. Practice recovery sequence slowly, focusing on maintaining at least one connection point throughout. Partner provides light resistance but allows successful recovery.",
-      "resistance_level": "Light"
+      "description": "Partner establishes RDLR guard, then allows you to compromise it slightly by clearing one grip or hook. Practice recovery sequence slowly, focusing on maintaining at least one connection point throughout. Partner provides light resistance but allows successful recovery."
     },
     {
       "phase": "Week 5-6: Specific Scenario Training",
       "focus": "Recovery against common passing attacks",
-      "description": "Partner attempts specific RDLR passes (knee cut, leg drag, over-under) and you practice identifying the moment of compromise and executing recovery. Partner gives 50% resistance, gradually increasing as your timing improves. Focus on early recognition and rapid response.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts specific RDLR passes (knee cut, leg drag, over-under) and you practice identifying the moment of compromise and executing recovery. Partner gives 50% resistance, gradually increasing as your timing improves. Focus on early recognition and rapid response."
     },
     {
       "phase": "Week 7-8: Positional Sparring",
       "focus": "Live resistance RDLR recovery scenarios",
-      "description": "Start in partially compromised RDLR positions with partner attempting to complete the pass at full intensity. You work to recover full guard structure or transition to alternative guards. 3-5 minute rounds with position reset after each successful pass or recovery.",
-      "resistance_level": "Full"
+      "description": "Start in partially compromised RDLR positions with partner attempting to complete the pass at full intensity. You work to recover full guard structure or transition to alternative guards. 3-5 minute rounds with position reset after each successful pass or recovery."
     },
     {
       "phase": "Week 9-12: Integration and Chain Development",
       "focus": "Connecting recovery to sweep and submission sequences",
-      "description": "Practice recovering RDLR guard and immediately flowing to offensive attacks like the Kiss of the Dragon, RDLR sweeps, or transitions to X-guard. Develop the ability to use recovery momentum to create attacking opportunities rather than just defensive survival.",
-      "resistance_level": "Full"
+      "description": "Practice recovering RDLR guard and immediately flowing to offensive attacks like the Kiss of the Dragon, RDLR sweeps, or transitions to X-guard. Develop the ability to use recovery momentum to create attacking opportunities rather than just defensive survival."
     },
     {
       "phase": "Month 4+: Competition Application",
       "focus": "Recovery under maximum pressure with consequences",
-      "description": "Full positional sparring where partner scores points for successful passes and you score for successful recoveries or sweeps. This creates realistic pressure where recovery must work under fatigue and stress. Integrate recovery sequences into your overall guard retention system.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring where partner scores points for successful passes and you score for successful recoveries or sweeps. This creates realistic pressure where recovery must work under fatigue and stress. Integrate recovery sequences into your overall guard retention system."
     }
   ],
   "variants_and_adaptations": [
@@ -185,33 +168,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is maintaining at least one connection point critical during RDLR recovery?",
-      "answer": "Maintaining at least one connection point (grip or hook) prevents complete guard passage and gives you a reference point to work from during recovery. Once all connections are lost, the opponent can establish passing position more easily and you lose the ability to influence their movement. That single connection allows you to maintain enough control to create the space and angles needed for full recovery.",
-      "difficulty": "Beginner"
+      "answer": "Maintaining at least one connection point (grip or hook) prevents complete guard passage and gives you a reference point to work from during recovery. Once all connections are lost, the opponent can establish passing position more easily and you lose the ability to influence their movement. That single connection allows you to maintain enough control to create the space and angles needed for full recovery."
     },
     {
       "question": "What is the proper direction for hip escape during RDLR recovery and why?",
-      "answer": "You should always hip escape away from the opponent, not toward them. Escaping away creates the angle and distance necessary for reinserting the RDLR hook and prevents you from moving into the direction of their pass. Moving toward them actually helps consolidate their position and makes your guard easier to pass. The escape should create approximately 45-90 degrees of rotation.",
-      "difficulty": "Intermediate"
+      "answer": "You should always hip escape away from the opponent, not toward them. Escaping away creates the angle and distance necessary for reinserting the RDLR hook and prevents you from moving into the direction of their pass. Moving toward them actually helps consolidate their position and makes your guard easier to pass. The escape should create approximately 45-90 degrees of rotation."
     },
     {
       "question": "When should you prioritize transitioning to a different guard rather than forcing RDLR recovery?",
-      "answer": "You should consider transitioning to alternative guards when the opponent has established strong controls that prevent hip movement (like heavy crossface with leg control), when they've cleared the RDLR hook completely and are driving forward, or when forcing the recovery would require so much energy that you'd be exhausted even if successful. Sometimes accepting a position change to butterfly, seated guard, or technical standup is more efficient than fighting for a severely compromised RDLR recovery.",
-      "difficulty": "Advanced"
+      "answer": "You should consider transitioning to alternative guards when the opponent has established strong controls that prevent hip movement (like heavy crossface with leg control), when they've cleared the RDLR hook completely and are driving forward, or when forcing the recovery would require so much energy that you'd be exhausted even if successful. Sometimes accepting a position change to butterfly, seated guard, or technical standup is more efficient than fighting for a severely compromised RDLR recovery."
     },
     {
       "question": "How do frames function differently in RDLR recovery compared to static guard maintenance?",
-      "answer": "In recovery situations, frames must be active and dynamic rather than passive barriers. They need to create genuine distance and movement rather than just preventing collapse. During recovery, you use frames to push opponent away while simultaneously executing hip escape, creating the space needed for hook reinsertion. Static frames without accompanying movement are insufficient for recovery situations where opponent already has forward momentum.",
-      "difficulty": "Intermediate"
+      "answer": "In recovery situations, frames must be active and dynamic rather than passive barriers. They need to create genuine distance and movement rather than just preventing collapse. During recovery, you use frames to push opponent away while simultaneously executing hip escape, creating the space needed for hook reinsertion. Static frames without accompanying movement are insufficient for recovery situations where opponent already has forward momentum."
     },
     {
       "question": "What is the relationship between RDLR recovery timing and overall guard retention success?",
-      "answer": "Early recognition and immediate response are critical - the moment you recognize position compromise, you must begin recovery sequences. Waiting until the position is completely lost makes recovery exponentially more difficult. Advanced practitioners develop sensitivity to feel when hooks are weakening or grips are being cleared, allowing them to begin recovery movements preemptively. This early timing is often what separates those who maintain guard under pressure from those who get passed repeatedly.",
-      "difficulty": "Advanced"
+      "answer": "Early recognition and immediate response are critical - the moment you recognize position compromise, you must begin recovery sequences. Waiting until the position is completely lost makes recovery exponentially more difficult. Advanced practitioners develop sensitivity to feel when hooks are weakening or grips are being cleared, allowing them to begin recovery movements preemptively. This early timing is often what separates those who maintain guard under pressure from those who get passed repeatedly."
     },
     {
       "question": "Why is hook depth important even when recovering to a temporarily defensive position?",
-      "answer": "Even during recovery, establishing a deep, functional RDLR hook is more valuable than quickly getting a shallow hook. A shallow hook will be immediately cleared again, wasting your energy and allowing opponent to continue their pass. A deep hook actually controls opponent's leg and base, giving you a true platform to work from. It's better to take slightly more time to recover a functional position than to rush into a non-functional one.",
-      "difficulty": "Intermediate"
+      "answer": "Even during recovery, establishing a deep, functional RDLR hook is more valuable than quickly getting a shallow hook. A shallow hook will be immediately cleared again, wasting your energy and allowing opponent to continue their pass. A deep hook actually controls opponent's leg and base, giving you a true platform to work from. It's better to take slightly more time to recover a functional position than to rush into a non-functional one."
     }
   ],
   "safety_considerations": "RDLR recovery techniques are generally low-risk but practitioners should be aware of potential knee and ankle stress. During hip escape movements, avoid explosive rotations that could strain the RDLR hook knee, especially if the opponent has significant weight on your leg. When reinserting the hook, ensure your ankle has flexibility to curve around opponent's leg without forcing the position - tight ankles attempting deep hooks can result in ankle sprains. During training, communicate with partners about pressure levels, particularly when they're driving forward during your recovery attempts. Partners should recognize taps or verbal cues if pressure becomes uncomfortable on the bottom player's joints. As the bottom player, don't sacrifice joint health to retain position - if recovery isn't working, it's better to accept the pass and reset than to force movements that could cause injury. Beginners should focus on technique and positioning rather than speed and power during initial learning phases.",
@@ -283,5 +260,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

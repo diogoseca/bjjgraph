@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Choke from Crucifix represents one of the highest-percentage submission opportunities in Brazilian Jiu-Jitsu, executed from the dominant crucifix control position where both of the opponent's arms are systematically trapped. This choke exploits the complete elimination of defensive barriers—with one arm trapped behind your legs and the other controlled by your hands, the opponent cannot protect their neck or create meaningful defensive structures. The technique functions as a rear strangle, applying pressure to the carotid arteries using your forearm while the opponent's isolation prevents any effective counter.\n\nFrom a strategic perspective, the Choke from Crucifix capitalizes on the positional dominance already established through crucifix control. Unlike standard rear naked chokes where the opponent can use both hands to fight grips, the crucifix configuration eliminates this defensive option entirely. The choking arm slides under the chin with minimal resistance, and the finishing mechanics mirror traditional rear strangles but with dramatically reduced defensive capability from the bottom player. Competition statistics consistently show submission rates exceeding 80% when the choke is properly applied from consolidated crucifix.\n\nThe technique requires precise timing and grip sequencing—releasing arm control prematurely to attack the neck allows escape opportunities, while maintaining control too long may allow the opponent to adjust their defensive posture. Advanced practitioners develop the ability to transition smoothly from arm control to choke application, creating a seamless attack that the opponent cannot adequately defend. The Choke from Crucifix serves as the primary finishing technique from crucifix position, making it essential knowledge for any practitioner who regularly attacks or defends back positions.",
   "key_principles": [
     "Maintain leg triangle control on trapped arm throughout the choke application—releasing this trap eliminates your positional advantage",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Secure leg triangle",
-      "description": "Verify your leg triangle is locked tight around opponent's near arm with one leg over their shoulder and the other under their armpit, maintaining constant inward pressure that prevents any arm extraction attempt during the choke application.",
-      "timing": "Continuous throughout technique"
+      "description": "Verify your leg triangle is locked tight around opponent's near arm with one leg over their shoulder and the other under their armpit, maintaining constant inward pressure that prevents any arm extraction attempt during the choke application."
     },
     {
       "step_number": 2,
       "action": "Control far arm",
-      "description": "Establish dominant control on opponent's far arm using your choking-side hand, gripping the wrist firmly and pulling it across their body or pinning it against their chest to eliminate any possibility of defensive hand fighting.",
-      "timing": "2-3 seconds to secure"
+      "description": "Establish dominant control on opponent's far arm using your choking-side hand, gripping the wrist firmly and pulling it across their body or pinning it against their chest to eliminate any possibility of defensive hand fighting."
     },
     {
       "step_number": 3,
       "action": "Position choking arm",
-      "description": "Release the far arm control only when ready to attack, immediately sliding your forearm under opponent's chin with the blade of the forearm positioned across their throat, angling toward the carotid arteries on both sides of the neck.",
-      "timing": "Smooth 1-second transition"
+      "description": "Release the far arm control only when ready to attack, immediately sliding your forearm under opponent's chin with the blade of the forearm positioned across their throat, angling toward the carotid arteries on both sides of the neck."
     },
     {
       "step_number": 4,
       "action": "Secure head control",
-      "description": "Bring your supporting hand behind opponent's head, either clasping your own bicep (figure-four configuration) or grabbing their shoulder, creating the structure necessary to prevent them from escaping the choke by turning their head.",
-      "timing": "Immediately after forearm placement"
+      "description": "Bring your supporting hand behind opponent's head, either clasping your own bicep (figure-four configuration) or grabbing their shoulder, creating the structure necessary to prevent them from escaping the choke by turning their head."
     },
     {
       "step_number": 5,
       "action": "Close the structure",
-      "description": "Squeeze your elbows together while expanding your chest, creating compression on both carotid arteries simultaneously. The trapped arm prevents them from inserting their hand to relieve pressure, accelerating unconsciousness.",
-      "timing": "3-8 seconds to finish"
+      "description": "Squeeze your elbows together while expanding your chest, creating compression on both carotid arteries simultaneously. The trapped arm prevents them from inserting their hand to relieve pressure, accelerating unconsciousness."
     },
     {
       "step_number": 6,
       "action": "Complete the strangle",
-      "description": "Maintain steady pressure while pulling your choking elbow toward your own hip and driving your head forward, maximizing the compression angle. Continue until opponent taps or goes unconscious, then release immediately.",
-      "timing": "Tap typically occurs within 5-10 seconds"
+      "description": "Maintain steady pressure while pulling your choking elbow toward your own hip and driving your head forward, maximizing the compression angle. Continue until opponent taps or goes unconscious, then release immediately."
     }
   ],
   "common_counters": [
@@ -145,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics and positioning",
-      "description": "Practice the choke mechanics from static crucifix position with cooperative partner. Focus on correct forearm placement across carotid arteries, proper supporting hand position behind head, and maintaining leg triangle throughout. Partner provides feedback on choke depth and positioning. 50+ repetitions per session.",
-      "resistance_level": "None"
+      "description": "Practice the choke mechanics from static crucifix position with cooperative partner. Focus on correct forearm placement across carotid arteries, proper supporting hand position behind head, and maintaining leg triangle throughout. Partner provides feedback on choke depth and positioning. 50+ repetitions per session."
     },
     {
       "phase": "Week 3-4",
       "focus": "Transition timing",
-      "description": "Practice the timing of releasing arm control to apply the choke. Partner provides light chin defense requiring you to adjust timing and angle. Focus on seamless transition from arm control to choke application with no gaps. Partner escapes if timing is poor, providing immediate feedback.",
-      "resistance_level": "Light"
+      "description": "Practice the timing of releasing arm control to apply the choke. Partner provides light chin defense requiring you to adjust timing and angle. Focus on seamless transition from arm control to choke application with no gaps. Partner escapes if timing is poor, providing immediate feedback."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter-to-counter chains",
-      "description": "Partner actively defends using chin tuck, arm extraction attempts, and grip fighting. Practice adjusting to each defense—pulling chin, tightening legs, transitioning to armbar when choke is blocked. Develop the ability to chain between crucifix attacks based on opponent's defensive choices.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends using chin tuck, arm extraction attempts, and grip fighting. Practice adjusting to each defense—pulling chin, tightening legs, transitioning to armbar when choke is blocked. Develop the ability to chain between crucifix attacks based on opponent's defensive choices."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply choke from crucifix in positional sparring starting from back control or turtle scenarios. Full resistance with partner actively seeking to prevent crucifix establishment and escape once trapped. Track success rates and identify patterns in failed attempts for targeted improvement.",
-      "resistance_level": "Full"
+      "description": "Apply choke from crucifix in positional sparring starting from back control or turtle scenarios. Full resistance with partner actively seeking to prevent crucifix establishment and escape once trapped. Track success rates and identify patterns in failed attempts for targeted improvement."
     }
   ],
   "variants_and_adaptations": [
@@ -187,53 +172,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Choke from Crucifix?",
-      "answer": "The primary goal is to apply a rear strangle that restricts blood flow through the carotid arteries, causing unconsciousness or forcing a tap. The technique exploits the complete elimination of defensive capability created by crucifix position—with both arms trapped, the opponent cannot protect their neck or fight grips effectively, making this one of the highest-percentage submissions in BJJ.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to apply a rear strangle that restricts blood flow through the carotid arteries, causing unconsciousness or forcing a tap. The technique exploits the complete elimination of defensive capability created by crucifix position—with both arms trapped, the opponent cannot protect their neck or fight grips effectively, making this one of the highest-percentage submissions in BJJ."
     },
     {
       "question": "What position do you start Choke from Crucifix from?",
-      "answer": "This technique starts from Crucifix Top position, where you have consolidated control with opponent's near arm trapped in your leg triangle and their far arm controlled by your hands. The crucifix must be established before attempting the choke—the bilateral arm isolation is what makes this choke so effective.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Crucifix Top position, where you have consolidated control with opponent's near arm trapped in your leg triangle and their far arm controlled by your hands. The crucifix must be established before attempting the choke—the bilateral arm isolation is what makes this choke so effective."
     },
     {
       "question": "What are the key grips needed for Choke from Crucifix?",
-      "answer": "The key grips are: (1) leg triangle lock on opponent's near arm with one leg over shoulder and one under armpit, (2) wrist or overhook control on far arm until ready to choke, (3) choking arm positioned with forearm blade across carotid arteries, and (4) supporting hand behind opponent's head clasping your own bicep or grabbing their shoulder to complete the strangle structure.",
-      "difficulty": "Intermediate"
+      "answer": "The key grips are: (1) leg triangle lock on opponent's near arm with one leg over shoulder and one under armpit, (2) wrist or overhook control on far arm until ready to choke, (3) choking arm positioned with forearm blade across carotid arteries, and (4) supporting hand behind opponent's head clasping your own bicep or grabbing their shoulder to complete the strangle structure."
     },
     {
       "question": "How do you counter an opponent who tucks their chin aggressively during the choke attempt?",
-      "answer": "Use your free hand to address the chin defense directly—either push their forehead back to create angle for forearm insertion, or use fingers to pull their chin up and away. If chin defense remains impenetrable, transition to armbar attack on the trapped arm, which often causes them to release chin defense to protect the arm. Alternatively, the arm-in choke variation can be effective against strong chin defense.",
-      "difficulty": "Intermediate"
+      "answer": "Use your free hand to address the chin defense directly—either push their forehead back to create angle for forearm insertion, or use fingers to pull their chin up and away. If chin defense remains impenetrable, transition to armbar attack on the trapped arm, which often causes them to release chin defense to protect the arm. Alternatively, the arm-in choke variation can be effective against strong chin defense."
     },
     {
       "question": "When is the best time to attempt Choke from Crucifix?",
-      "answer": "The optimal timing is immediately after establishing consolidated crucifix control, before opponent can develop defensive strategies. The choke should be attempted when: (1) both arms are fully controlled with no slack, (2) opponent's neck is exposed with chin accessible, (3) your chest is tight to their back preventing escape angles, and (4) your weight is properly distributed preventing bridges. Waiting too long allows opponent to find defensive angles.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is immediately after establishing consolidated crucifix control, before opponent can develop defensive strategies. The choke should be attempted when: (1) both arms are fully controlled with no slack, (2) opponent's neck is exposed with chin accessible, (3) your chest is tight to their back preventing escape angles, and (4) your weight is properly distributed preventing bridges. Waiting too long allows opponent to find defensive angles."
     },
     {
       "question": "What should you do if the opponent begins extracting their arm from the leg triangle during your choke attempt?",
-      "answer": "Immediately increase your leg squeeze and accelerate the choke completion. Their focus on arm extraction often creates a window where they neglect neck defense, making the choke easier to finish. If the arm fully escapes but you have the choke locked, continue—you now have standard rear naked choke from back control. If neither is secured, abandon the choke and re-establish crucifix or transition to back control.",
-      "difficulty": "Advanced"
+      "answer": "Immediately increase your leg squeeze and accelerate the choke completion. Their focus on arm extraction often creates a window where they neglect neck defense, making the choke easier to finish. If the arm fully escapes but you have the choke locked, continue—you now have standard rear naked choke from back control. If neither is secured, abandon the choke and re-establish crucifix or transition to back control."
     },
     {
       "question": "Why is maintaining chest-to-back connection critical during the choke application?",
-      "answer": "Chest-to-back connection serves multiple purposes: it prevents opponent from creating space to turn into you, it uses your body weight as an anchor point for the choke rather than relying solely on arm strength, and it maintains the control structures that make crucifix effective. If you separate from their back, they can turn their shoulders, change the choke angle, and potentially escape the crucifix entirely.",
-      "difficulty": "Intermediate"
+      "answer": "Chest-to-back connection serves multiple purposes: it prevents opponent from creating space to turn into you, it uses your body weight as an anchor point for the choke rather than relying solely on arm strength, and it maintains the control structures that make crucifix effective. If you separate from their back, they can turn their shoulders, change the choke angle, and potentially escape the crucifix entirely."
     },
     {
       "question": "What is the correct forearm position for maximum choke effectiveness?",
-      "answer": "Position the blade of your forearm (the bony edge, not the soft inner forearm or bicep) across the sides of opponent's neck, targeting both carotid arteries simultaneously. The forearm should be angled so pressure is applied laterally to the neck, not against the trachea. This creates a blood choke rather than an air choke—blood chokes are faster, cause less distress, and are more effective against determined opponents.",
-      "difficulty": "Intermediate"
+      "answer": "Position the blade of your forearm (the bony edge, not the soft inner forearm or bicep) across the sides of opponent's neck, targeting both carotid arteries simultaneously. The forearm should be angled so pressure is applied laterally to the neck, not against the trachea. This creates a blood choke rather than an air choke—blood chokes are faster, cause less distress, and are more effective against determined opponents."
     },
     {
       "question": "How do you sequence the release of arm control into choke application without creating escape opportunities?",
-      "answer": "The transition must be seamless—release the far arm control only at the exact moment you are ready to slide your forearm under their chin. Your choking arm should already be positioned near their neck before releasing. As one hand releases the arm, the other immediately secures the choke position. There should be zero gap where they have both a free arm and an unattacked neck. Practice this timing extensively until the movement is fluid.",
-      "difficulty": "Advanced"
+      "answer": "The transition must be seamless—release the far arm control only at the exact moment you are ready to slide your forearm under their chin. Your choking arm should already be positioned near their neck before releasing. As one hand releases the arm, the other immediately secures the choke position. There should be zero gap where they have both a free arm and an unattacked neck. Practice this timing extensively until the movement is fluid."
     },
     {
       "question": "If your initial choke attempt fails and opponent escapes to back control bottom, what should be your immediate response?",
-      "answer": "Do not chase the crucifix if it has dissolved—accept back control and work from that position. Attempt to re-establish harness grip and hooks, then look for opportunity to return to crucifix if opponent defends poorly. Alternatively, continue attacking from back control with rear naked choke, bow and arrow, or armbar. Forcing the crucifix when it's not available often results in losing back control entirely.",
-      "difficulty": "Advanced"
+      "answer": "Do not chase the crucifix if it has dissolved—accept back control and work from that position. Attempt to re-establish harness grip and hooks, then look for opportunity to return to crucifix if opponent defends poorly. Alternatively, continue attacking from back control with rear naked choke, bow and arrow, or armbar. Forcing the crucifix when it's not available often results in losing back control entirely."
     }
   ],
   "safety_considerations": "The Choke from Crucifix is a blood choke that can cause unconsciousness within seconds when properly applied. Training partners must tap early and clearly, and the person applying the choke must release immediately upon feeling the tap—never hold the choke to 'make a point' or test partner's toughness. When training, apply the choke with gradual pressure rather than explosively snapping it on. Be aware that unconsciousness can occur without a tap if the choke is deep enough; watch for partner going limp and release immediately. Never practice this technique on partners who are already fatigued or have cardiovascular conditions. If a partner loses consciousness, release immediately, place them on their back, elevate their legs slightly, and they will typically regain consciousness within seconds. Seek medical attention if consciousness does not return quickly or if there are any concerning symptoms.",
@@ -271,5 +246,6 @@
       "name": "Gift Wrap",
       "relationship": "Related arm control concept that can transition to crucifix"
     }
-  ]
+  ],
+  "success_rate": 58
 }

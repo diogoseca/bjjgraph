@@ -163,7 +163,7 @@ The technique is most effective when the opponent's triangle is positioned on th
 Strategically, this escape pairs with neck defense as a dual-priority system. You must protect your neck from rear naked choke and collar attacks throughout the clearing process while simultaneously working the leg configuration. Successful execution lands you in side-facing position where you can establish frames, recover guard, or work to a more neutral engagement. The technique is a high-value skill for anyone competing against back-attack specialists who favor the body triangle over traditional hooks.
 
 **From Position**: [[Body Triangle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, this escape pairs with neck defense as a dual-priority system. Yo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure neck defense**: Tuck your chin deeply into your chest and position your hands to protect your throat from rear naked choke or collar attacks. Establish controlled breathing rhythm despite ribcage compression. One hand cups your own jaw while the other grips opponent's choking arm at the wrist. (Timing: Immediately upon recognizing body triangle is locked)
-2. **Identify triangle side**: Determine which direction the opponent's top leg crosses your body and which foot is locked behind their knee. Turn your shoulders and torso toward the side where the triangle leg crosses, reducing the effective squeezing angle and positioning yourself for the clearing sequence. (Timing: Within first few seconds of establishing defense)
-3. **Bridge to create space**: Execute a controlled bridge by driving your hips upward off the mat, creating a gap between your torso and the opponent's locked legs. This momentary space reduces compression on your ribs and allows your hand to access the foot behind their knee. Bridge toward the triangle side to maximize space on that flank. (Timing: When breathing allows a strong bridge effort)
-4. **Attack the locked foot**: While maintaining the bridge, use your free hand to locate the foot tucked behind your opponent's knee. Push the ankle outward and downward, peeling it away from the figure-four lock position. Use your forearm as a wedge if grip alone is insufficient, levering the foot out of the locked configuration behind the knee. (Timing: During the peak of your bridge when space is maximum)
-5. **Rotate hips laterally**: As the triangle lock loosens or breaks, immediately rotate your hips toward the mat on the triangle side. Drive your near-side elbow to the floor and shrimp your hips away from your opponent, inserting your elbow and forearm as a frame between your body and their legs to prevent the triangle from re-locking around your torso. (Timing: Immediately when lock begins to give way)
-6. **Extract torso and face opponent**: Continue rotating until you are side-facing relative to your opponent. Use your frames to push their legs away from your torso completely. Establish a strong frame with your near-side arm on their hip and far-side hand controlling their knee or thigh, then work to face them and begin guard recovery or establish top position. (Timing: Continuous motion without pausing after hip rotation)
-7. **Establish side control or guard**: Once fully extracted from the body triangle, immediately establish a dominant or neutral position. If opponent is still on their back, drive into side control with crossface pressure and underhook. If they have turned to face you, insert knee shield or recover to half guard to prevent them from re-taking your back. (Timing: Within 1-2 seconds of clearing the triangle)
+1. **Secure neck defense**: Tuck your chin deeply into your chest and position your hands to protect your throat from rear naked choke or collar attacks. Establish controlled breathing rhythm despite ribcage compression. One hand cups your own jaw while the other grips opponent's choking arm at the wrist.
+2. **Identify triangle side**: Determine which direction the opponent's top leg crosses your body and which foot is locked behind their knee. Turn your shoulders and torso toward the side where the triangle leg crosses, reducing the effective squeezing angle and positioning yourself for the clearing sequence.
+3. **Bridge to create space**: Execute a controlled bridge by driving your hips upward off the mat, creating a gap between your torso and the opponent's locked legs. This momentary space reduces compression on your ribs and allows your hand to access the foot behind their knee. Bridge toward the triangle side to maximize space on that flank.
+4. **Attack the locked foot**: While maintaining the bridge, use your free hand to locate the foot tucked behind your opponent's knee. Push the ankle outward and downward, peeling it away from the figure-four lock position. Use your forearm as a wedge if grip alone is insufficient, levering the foot out of the locked configuration behind the knee.
+5. **Rotate hips laterally**: As the triangle lock loosens or breaks, immediately rotate your hips toward the mat on the triangle side. Drive your near-side elbow to the floor and shrimp your hips away from your opponent, inserting your elbow and forearm as a frame between your body and their legs to prevent the triangle from re-locking around your torso.
+6. **Extract torso and face opponent**: Continue rotating until you are side-facing relative to your opponent. Use your frames to push their legs away from your torso completely. Establish a strong frame with your near-side arm on their hip and far-side hand controlling their knee or thigh, then work to face them and begin guard recovery or establish top position.
+7. **Establish side control or guard**: Once fully extracted from the body triangle, immediately establish a dominant or neutral position. If opponent is still on their back, drive into side control with crossface pressure and underhook. If they have turned to face you, insert knee shield or recover to half guard to prevent them from re-taking your back.
 
 
 </section>
@@ -262,19 +262,15 @@ Strategically, this escape pairs with neck defense as a dual-priority system. Yo
 ## Training Progressions
 **Week 1-2** - Lock identification and bridging mechanics
 Practice identifying which side the triangle crosses and executing directional bridges toward the triangle side from a static body triangle position. Partner locks triangle at moderate pressure while you drill the bridge direction and hand placement on the ankle. Focus on breathing management under light compression. No clearing attempts yet, only positional awareness and bridging reps.
-(Resistance: None)
 
 **Week 3-4** - Clearing sequence with cooperative partner
 Partner locks body triangle and allows clearing attempts with light resistance. Practice the full sequence: bridge, attack ankle, rotate hips, insert frame, extract. Partner re-locks triangle after each successful clear so you can repeat. Emphasize maintaining neck defense throughout and developing the timing between bridge and hand attack on the lock.
-(Resistance: Light)
 
 **Week 5-6** - Clearing against active defense and choke threats
 Partner locks body triangle and actively re-locks when you attempt to clear, requiring multiple attempts per escape. Partner also threatens rear naked choke at moderate intensity, forcing you to manage dual priorities of neck defense and triangle clearing. Practice transitioning to side control or half guard after successful clearing under pressure.
-(Resistance: Medium)
 
 **Week 7+** - Full resistance live integration
 Start from body triangle position with partner using full resistance. Partner attacks neck aggressively, adjusts triangle angle, and fights to maintain position. Practice escape in live rolling scenarios where the body triangle is established organically. Track success rate and identify patterns in what conditions make clearing easier or harder against different body types.
-(Resistance: Full)
 
 
 

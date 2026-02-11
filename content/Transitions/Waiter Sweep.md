@@ -153,7 +153,7 @@ description: "Master the Waiter Sweep from Butterfly Guard in BJJ. High-percenta
 The Waiter Sweep is a fundamental butterfly guard technique that derives its name from the characteristic hand position resembling a waiter carrying a tray. This sweep is highly effective because it capitalizes on creating an asymmetrical control structure—combining an underhook on one side with an overhook or collar grip on the other—that severely compromises your opponent's base and posture. The technique works by using your butterfly hooks to elevate your opponent while simultaneously using your grips to break their posting ability, creating a clean sweep to side control or mount. Unlike pure lifting sweeps that rely heavily on strength, the Waiter Sweep uses leverage and timing to redirect your opponent's weight, making it accessible to practitioners of all sizes and strength levels. The sweep is particularly effective in both gi and no-gi contexts, though the grip variations differ slightly between formats. Its high success rate across skill levels stems from its fundamental reliance on destroying base and creating directional momentum rather than explosive power.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish asymmetrical grips**: Secure a deep underhook on one side, pulling opponent's armpit tight to your shoulder. On the opposite side, establish an overhook, collar grip (gi), or lat grip (no-gi). Your underhook arm should be the 'waiter' arm that will lift like carrying a tray. (Timing: Setup during initial butterfly guard engagement)
-2. **Break opponent's posture**: Pull opponent forward and down using your overhook/collar grip while maintaining the underhook connection. Your opponent's chest should be brought close to yours, preventing them from establishing strong base with their arms. This forward break is critical for preventing defensive posts. (Timing: As opponent attempts to establish distance or begin passing)
-3. **Load opponent's weight**: Using your butterfly hooks, lift your opponent's hips slightly off the mat while pulling them further onto you with your grips. Your underhook-side hook is primary for elevation. Rock back slightly to load their weight onto your body, creating the feeling that they're falling forward. (Timing: Immediately after posture break)
-4. **Create directional momentum**: Rotate your torso toward your underhook side while simultaneously lifting explosively with your underhook-side butterfly hook. Your 'waiter' arm extends upward as if lifting a tray overhead. The overhook arm pulls across your body to prevent posting. This creates a circular sweeping motion. (Timing: As soon as opponent's weight is loaded)
-5. **Complete the sweep**: Continue the rotation while driving through with your hips. Your underhook-side leg extends fully to elevate opponent over your body. Your top leg may step over or post to complete rotation. Maintain tight connection throughout to prevent opponent from rolling through or posting. (Timing: Maintain momentum until opponent is fully swept)
-6. **Secure top position**: As opponent lands on their back, immediately transition your underhook to control their far hip or establish crossface. Your body should land in side control position with chest pressure. Maintain the overhook or transition to standard side control grips. Establish your base before opponent can recover guard. (Timing: Immediately as sweep completes)
+1. **Establish asymmetrical grips**: Secure a deep underhook on one side, pulling opponent's armpit tight to your shoulder. On the opposite side, establish an overhook, collar grip (gi), or lat grip (no-gi). Your underhook arm should be the 'waiter' arm that will lift like carrying a tray.
+2. **Break opponent's posture**: Pull opponent forward and down using your overhook/collar grip while maintaining the underhook connection. Your opponent's chest should be brought close to yours, preventing them from establishing strong base with their arms. This forward break is critical for preventing defensive posts.
+3. **Load opponent's weight**: Using your butterfly hooks, lift your opponent's hips slightly off the mat while pulling them further onto you with your grips. Your underhook-side hook is primary for elevation. Rock back slightly to load their weight onto your body, creating the feeling that they're falling forward.
+4. **Create directional momentum**: Rotate your torso toward your underhook side while simultaneously lifting explosively with your underhook-side butterfly hook. Your 'waiter' arm extends upward as if lifting a tray overhead. The overhook arm pulls across your body to prevent posting. This creates a circular sweeping motion.
+5. **Complete the sweep**: Continue the rotation while driving through with your hips. Your underhook-side leg extends fully to elevate opponent over your body. Your top leg may step over or post to complete rotation. Maintain tight connection throughout to prevent opponent from rolling through or posting.
+6. **Secure top position**: As opponent lands on their back, immediately transition your underhook to control their far hip or establish crossface. Your body should land in side control position with chest pressure. Maintain the overhook or transition to standard side control grips. Establish your base before opponent can recover guard.
 
 
 </section>
@@ -253,27 +253,21 @@ The Waiter Sweep is a fundamental butterfly guard technique that derives its nam
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip establishment and posture breaking
 Practice achieving proper underhook and overhook positions from butterfly guard. Partner offers no resistance. Focus on pulling opponent's posture down and loading their weight onto you. Drill 10-15 repetitions per side focusing on grip security and connection.
-(Resistance: None)
 
 **Week 3-4: Coordinated Lifting** - Integrating hooks with grip control
 Add butterfly hook elevation to the posture break. Partner remains passive but maintains posture. Practice the complete circular rotation while maintaining all connections. Focus on timing—lift with hooks while pulling with grips simultaneously. 20 repetitions per training session.
-(Resistance: Light)
 
 **Week 5-6: Sweep Completion** - Full technique execution with follow-through
 Execute complete sweep from setup to secured side control. Partner offers light resistance by maintaining moderate base but allows sweep. Emphasize smooth transition to top position without losing control. 15-20 repetitions with position consolidation.
-(Resistance: Light)
 
 **Week 7-8: Counter Defense** - Dealing with common defensive reactions
 Partner begins countering with specific defenses—posting far arm, sprawling, whizzer. Practice recognizing and countering each defense. Introduce backup options like back takes and guard transitions. 10 repetitions per defensive scenario.
-(Resistance: Medium)
 
 **Week 9-10: Timing Development** - Sweep execution during dynamic guard play
 Partner actively attempts to pass butterfly guard with moderate intensity. Execute waiter sweep when opportunities arise—forward pressure, passing attempts, or weight shifts. Focus on recognizing optimal timing windows. 5-minute rounds.
-(Resistance: Medium)
 
 **Month 3+: Competition Application** - Full resistance integration
 Apply waiter sweep during live rolling with no restrictions. Partner actively defends and counters at full intensity. Integrate with your complete butterfly guard system. Focus on high-percentage setups and smooth transitions to alternative attacks when sweep is defended.
-(Resistance: Full)
 
 
 

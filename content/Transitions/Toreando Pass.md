@@ -159,7 +159,7 @@ description: "Master the Toreando Pass in BJJ. Control opponent's legs, create a
 The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard passing technique that exploits superior grips and angular movement to control and redirect the opponent's legs. Named after the bullfighter's movements when evading a charging bull, this pass emphasizes controlling the opponent's knees or pant legs while stepping laterally to create passing angles. The technique is particularly effective against players who rely on open guard systems like De La Riva, Spider Guard, or Collar Sleeve Guard. By dominating the leg grips and using explosive lateral movement, the passer forces the guard player's legs to one side while their upper body remains stationary, creating a clear path to side control or knee on belly. The Toreando Pass is a cornerstone of modern guard passing systems, valued for its versatility across gi and no-gi contexts, its effectiveness against multiple guard styles, and its ability to chain seamlessly with other passing sequences. When executed correctly, it creates immense pressure on the opponent's defensive structure while maintaining the passer's balance and base throughout the movement.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,13 +208,13 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: From standing or combat base, secure strong grips on both of opponent's knees or pant legs. Your grip should be firm but allow for dynamic movement. Keep elbows tight and maintain upright posture to prevent opponent from breaking your posture or sweeping. (Timing: Take 1-2 seconds to establish secure grips)
-2. **Create initial pressure**: Drive both hands forward and slightly downward, pushing opponent's knees toward their chest. This initial pressure breaks their guard structure and prevents them from establishing strong frames or hooks. Keep your weight centered over your hips. (Timing: Immediate pressure upon securing grips)
-3. **Step laterally to passing side**: Take a large lateral step to one side (typically your stronger side first) while maintaining grip pressure on the knees. Your step should be explosive and create approximately 45-90 degrees of angle relative to your starting position. Keep your head and chest forward. (Timing: Explosive lateral movement in one motion)
-4. **Redirect opponent's legs**: As you step, use your grips to forcefully redirect both of opponent's legs to the opposite side of your movement. If stepping right, push their legs to your left. This creates the 'bullfighter' motion where you move one direction while their legs go the other, clearing your passing path. (Timing: Simultaneous with lateral step)
-5. **Drive hips past guard line**: Immediately after redirecting the legs, drive your hips forward and past the opponent's hip line. Your body should now be perpendicular to your opponent. Release the leg grips as you transition to upper body control, preventing them from re-establishing guard. (Timing: Continuous motion following leg redirection)
-6. **Establish side control**: Drop your chest and shoulder pressure onto opponent's torso as you secure side control grips. Control their far shoulder with one hand and use crossface or underhook with the other. Your hips should be heavy on their midsection, preventing guard recovery or escape. (Timing: Immediate consolidation upon passing)
-7. **Consolidate position**: Adjust your base by spreading your legs wide for stability. Maintain heavy shoulder pressure on opponent's chest while controlling their head and far arm. Be prepared to transition to knee on belly or mount if opponent creates space. (Timing: 1-2 seconds to establish stable control)
+1. **Establish grip control**: From standing or combat base, secure strong grips on both of opponent's knees or pant legs. Your grip should be firm but allow for dynamic movement. Keep elbows tight and maintain upright posture to prevent opponent from breaking your posture or sweeping.
+2. **Create initial pressure**: Drive both hands forward and slightly downward, pushing opponent's knees toward their chest. This initial pressure breaks their guard structure and prevents them from establishing strong frames or hooks. Keep your weight centered over your hips.
+3. **Step laterally to passing side**: Take a large lateral step to one side (typically your stronger side first) while maintaining grip pressure on the knees. Your step should be explosive and create approximately 45-90 degrees of angle relative to your starting position. Keep your head and chest forward.
+4. **Redirect opponent's legs**: As you step, use your grips to forcefully redirect both of opponent's legs to the opposite side of your movement. If stepping right, push their legs to your left. This creates the 'bullfighter' motion where you move one direction while their legs go the other, clearing your passing path.
+5. **Drive hips past guard line**: Immediately after redirecting the legs, drive your hips forward and past the opponent's hip line. Your body should now be perpendicular to your opponent. Release the leg grips as you transition to upper body control, preventing them from re-establishing guard.
+6. **Establish side control**: Drop your chest and shoulder pressure onto opponent's torso as you secure side control grips. Control their far shoulder with one hand and use crossface or underhook with the other. Your hips should be heavy on their midsection, preventing guard recovery or escape.
+7. **Consolidate position**: Adjust your base by spreading your legs wide for stability. Maintain heavy shoulder pressure on opponent's chest while controlling their head and far arm. Be prepared to transition to knee on belly or mount if opponent creates space.
 
 
 </section>
@@ -261,27 +261,21 @@ The Toreando Pass, also known as the Bullfighter Pass, is a fundamental guard pa
 ## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Develop proper lateral stepping and leg redirection mechanics without resistance
 Practice the basic motion of Toreando Pass with compliant partner. Focus on grip establishment, lateral step angle (45-90 degrees), simultaneous leg redirection, and hip advancement past guard line. Perform 20-30 repetitions per training session, alternating sides. Partner remains passive and allows successful passes to build muscle memory.
-(Resistance: None)
 
 **Week 3-4: Timing and Coordination** - Integrate explosive timing and coordinate grip-step-redirection as single movement
 Partner provides light resistance by maintaining guard structure but not actively defending. Practice explosive lateral steps with proper timing. Emphasize the coordination of all elements happening simultaneously. Work from various open guard configurations (Spider, Collar Sleeve, etc.). Perform 15-20 repetitions with focus on speed and precision.
-(Resistance: Light)
 
 **Week 5-8: Active Defense Integration** - Pass against opponent who uses frames, grips, and basic guard retention
 Partner actively defends with frames on hips, collar grips, and attempts to follow your movement. Practice grip fighting, clearing defensive frames, and executing pass despite resistance. Learn to recognize when to switch to alternative passes. Perform positional sparring from standing in guard, attempting Toreando with increasing resistance. 10-15 minute rounds.
-(Resistance: Medium)
 
 **Week 9-12: Combining with Guard Passing System** - Chain Toreando Pass with complementary passes and develop passing sequences
 Integrate Toreando into complete guard passing system. When Toreando is countered, flow to Knee Cut, Double Under, or Stack Pass. Practice reading opponent's defensive patterns and selecting appropriate passing option. Perform king of the mat style drilling where passer must pass multiple opponents consecutively. Develop strategic decision-making under pressure.
-(Resistance: Medium)
 
 **Week 13+: Live Application and Refinement** - Execute Toreando Pass during live sparring against fully resisting opponents
 Implement Toreando Pass in regular sparring rounds. Focus on recognizing optimal timing windows and guard configurations that favor this pass. Film sparring and review technical execution. Identify personal tendencies and defensive patterns you face most often. Continue refinement based on success/failure analysis. Develop individual variations based on body type and athletic attributes.
-(Resistance: Full)
 
 **Ongoing: Advanced Variations and Adaptations** - Develop personal style and master advanced variations for specific situations
 Explore Toreando variations including grip variations (sleeve/collar/ankle), different step patterns (single step vs multiple steps), and combinations with leg drags. Practice against high-level guard players who specifically defend the Toreando. Study competition footage of elite passers like Leandro Lo, Rafael Mendes, and elite competitors'. Develop counter-strategies for all common defensive responses.
-(Resistance: Full)
 
 
 

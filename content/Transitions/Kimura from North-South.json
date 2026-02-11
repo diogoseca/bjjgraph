@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from North-South exploits the exceptional leverage created by perpendicular body alignment to attack the shoulder joint. This submission represents a high-percentage finishing option from one of BJJ's most stable top positions, where heavy chest pressure pins the opponent while the figure-four grip isolates and rotates the near-side arm. The mechanical advantage differs significantly from side control or guard-based Kimuras—the perpendicular angle generates extreme torque with minimal effort, making application speed critical for training safety.\n\nFrom North-South, the Kimura opportunity typically arises when opponents frame or push to create breathing room, exposing their near-side arm. The attacker threads underneath this arm to establish the figure-four configuration while maintaining crushing chest pressure. The finishing sequence combines upward elbow pressure with rotation away from the opponent's head, creating the characteristic double-stress that forces the tap.\n\nStrategically, this submission creates a powerful dilemma system—opponents defending the Kimura by keeping arms tight become vulnerable to the North-South choke, while those defending the choke by framing expose the arm for Kimura attacks. This complementary threat pairing makes North-South one of the most submission-rich top positions available.",
   "key_principles": [
     "Maintain heavy chest pressure throughout the attack to prevent hip escape and positional recovery",
@@ -56,44 +51,37 @@
     {
       "step_number": 1,
       "action": "Secure North-South Control",
-      "description": "From north-south position, distribute your weight heavily across opponent's chest and upper torso with your head pressuring their far shoulder to prevent rotation. Spread knees wide for stable base with hips perpendicular to their body.",
-      "timing": "2-3 seconds to establish stable control"
+      "description": "From north-south position, distribute your weight heavily across opponent's chest and upper torso with your head pressuring their far shoulder to prevent rotation. Spread knees wide for stable base with hips perpendicular to their body."
     },
     {
       "step_number": 2,
       "action": "Isolate and Control Wrist",
-      "description": "As opponent extends near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture wrist firmly with palm-to-palm grip, thumb toward their thumb, pulling slightly away from their body.",
-      "timing": "1-2 seconds to secure wrist control"
+      "description": "As opponent extends near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture wrist firmly with palm-to-palm grip, thumb toward their thumb, pulling slightly away from their body."
     },
     {
       "step_number": 3,
       "action": "Establish Figure-Four Grip",
-      "description": "While maintaining wrist control, reach your upper arm over the top of their arm and grab your own wrist to complete the figure-four configuration. Position your upper arm's elbow directly over their elbow creating a solid structural frame.",
-      "timing": "2-3 seconds to establish secure grip"
+      "description": "While maintaining wrist control, reach your upper arm over the top of their arm and grab your own wrist to complete the figure-four configuration. Position your upper arm's elbow directly over their elbow creating a solid structural frame."
     },
     {
       "step_number": 4,
       "action": "Adjust Hip Position for Leverage",
-      "description": "With figure-four secured, ensure hips remain perpendicular to opponent's body. Consider stepping your leg closest to opponent's head across for additional base. Maintain chest pressure while creating slight space for arm mechanics.",
-      "timing": "1-2 seconds for positioning adjustment"
+      "description": "With figure-four secured, ensure hips remain perpendicular to opponent's body. Consider stepping your leg closest to opponent's head across for additional base. Maintain chest pressure while creating slight space for arm mechanics."
     },
     {
       "step_number": 5,
       "action": "Apply Upward Elbow Pressure",
-      "description": "Begin submission by lifting opponent's elbow toward ceiling while maintaining figure-four grip. Your upper arm controlling the elbow does most work. Keep elbows tight to body for mechanical efficiency. Apply pressure SLOWLY over 2-3 seconds.",
-      "timing": "2-3 seconds progressive pressure"
+      "description": "Begin submission by lifting opponent's elbow toward ceiling while maintaining figure-four grip. Your upper arm controlling the elbow does most work. Keep elbows tight to body for mechanical efficiency. Apply pressure SLOWLY over 2-3 seconds."
     },
     {
       "step_number": 6,
       "action": "Rotate Arm Away from Head",
-      "description": "While maintaining upward elbow pressure, rotate their entire arm away from their head toward their legs. This combination creates extreme shoulder torque. Apply EXTREMELY SLOWLY—north-south angle creates deceptive leverage that can injure before partner recognizes danger.",
-      "timing": "3-4 seconds with progressive pressure"
+      "description": "While maintaining upward elbow pressure, rotate their entire arm away from their head toward their legs. This combination creates extreme shoulder torque. Apply EXTREMELY SLOWLY—north-south angle creates deceptive leverage that can injure before partner recognizes danger."
     },
     {
       "step_number": 7,
       "action": "Control and Complete Finish",
-      "description": "Continue controlled rotation while maintaining all pressure points—chest weight, head pressure on far shoulder, figure-four grip integrity. If opponent rolls toward submission, follow their movement. Stop immediately at any tap signal and release following proper protocol.",
-      "timing": "Variable—always controlled application"
+      "description": "Continue controlled rotation while maintaining all pressure points—chest weight, head pressure on far shoulder, figure-four grip integrity. If opponent rolls toward submission, follow their movement. Stop immediately at any tap signal and release following proper protocol."
     }
   ],
   "common_counters": [
@@ -154,32 +142,27 @@
     {
       "phase": "Week 1-2",
       "focus": "Technical Understanding",
-      "description": "Learn proper grip mechanics, body positioning, and safety protocols through demonstration and slow-motion practice. Study shoulder anatomy to understand injury mechanisms. Practice release protocol until automatic.",
-      "resistance_level": "None"
+      "description": "Learn proper grip mechanics, body positioning, and safety protocols through demonstration and slow-motion practice. Study shoulder anatomy to understand injury mechanisms. Practice release protocol until automatic."
     },
     {
       "phase": "Week 3-4",
       "focus": "Isolated Positional Drilling",
-      "description": "Practice entering North-South and isolating the arm without applying submission pressure. Develop muscle memory for figure-four grip establishment and hip positioning. Partner provides zero resistance.",
-      "resistance_level": "None"
+      "description": "Practice entering North-South and isolating the arm without applying submission pressure. Develop muscle memory for figure-four grip establishment and hip positioning. Partner provides zero resistance."
     },
     {
       "phase": "Week 5-8",
       "focus": "Controlled Application",
-      "description": "Begin applying light submission pressure with fully cooperative partner. Develop feel for leverage and understand how little pressure is required. Application speed 7-10 seconds minimum. Partner taps at 30% pressure.",
-      "resistance_level": "Light"
+      "description": "Begin applying light submission pressure with fully cooperative partner. Develop feel for leverage and understand how little pressure is required. Application speed 7-10 seconds minimum. Partner taps at 30% pressure."
     },
     {
       "phase": "Week 9-12",
       "focus": "Progressive Resistance",
-      "description": "Partner provides mild defensive resistance—hiding arm, attempting retraction, defending figure-four grip. Practice countering defenses while maintaining safety. Application 5-7 seconds. Partner taps at 40-50% pressure.",
-      "resistance_level": "Medium"
+      "description": "Partner provides mild defensive resistance—hiding arm, attempting retraction, defending figure-four grip. Practice countering defenses while maintaining safety. Application 5-7 seconds. Partner taps at 40-50% pressure."
     },
     {
       "phase": "Month 4+",
       "focus": "Live Integration",
-      "description": "Integrate into positional sparring from North-South. Partner provides realistic but controlled resistance. Practice recognizing when to abandon submission and transition. Application remains deliberate 5-7 seconds minimum.",
-      "resistance_level": "Full"
+      "description": "Integrate into positional sparring from North-South. Partner provides realistic but controlled resistance. Practice recognizing when to abandon submission and transition. Application remains deliberate 5-7 seconds minimum."
     }
   ],
   "variants_and_adaptations": [
@@ -202,53 +185,43 @@
   "knowledge_assessment": [
     {
       "question": "Why is application speed more critical for the Kimura from North-South compared to Kimuras from other positions?",
-      "answer": "The north-south angle creates significantly more leverage on the shoulder joint than side control or guard-based Kimuras. The perpendicular body position combined with lifting and rotating generates extreme torque with minimal effort. This deceptive leverage means moderate pressure from you feels like intense joint stress to your partner, who may not have sufficient time to recognize danger and tap before injury. Apply over minimum 5-7 seconds.",
-      "difficulty": "Beginner"
+      "answer": "The north-south angle creates significantly more leverage on the shoulder joint than side control or guard-based Kimuras. The perpendicular body position combined with lifting and rotating generates extreme torque with minimal effort. This deceptive leverage means moderate pressure from you feels like intense joint stress to your partner, who may not have sufficient time to recognize danger and tap before injury. Apply over minimum 5-7 seconds."
     },
     {
       "question": "What is the optimal hip positioning and why does perpendicular alignment matter for this submission?",
-      "answer": "Hips must be perpendicular (90-degree angle) to opponent's body to create optimal leverage. When perpendicular, rotating your upper body naturally creates torque on their shoulder without requiring significant strength. This angle also prevents opponent from following the rotation—their hips are pinned by chest pressure while your perpendicular positioning allows freedom of movement. Parallel hips would eliminate this mechanical advantage.",
-      "difficulty": "Intermediate"
+      "answer": "Hips must be perpendicular (90-degree angle) to opponent's body to create optimal leverage. When perpendicular, rotating your upper body naturally creates torque on their shoulder without requiring significant strength. This angle also prevents opponent from following the rotation—their hips are pinned by chest pressure while your perpendicular positioning allows freedom of movement. Parallel hips would eliminate this mechanical advantage."
     },
     {
       "question": "Your opponent starts pulling their elbow tight to their body before you can establish the figure-four grip—how do you adjust?",
-      "answer": "Use heavy chest pressure to bait them into re-extending the arm to create breathing room. Alternatively, threaten the North-South choke by positioning for the neck attack—this forces them to frame with the arm to create space, which exposes it for the Kimura. The choke-Kimura dilemma forces them to choose which threat to defend, creating openings for the other.",
-      "difficulty": "Intermediate"
+      "answer": "Use heavy chest pressure to bait them into re-extending the arm to create breathing room. Alternatively, threaten the North-South choke by positioning for the neck attack—this forces them to frame with the arm to create space, which exposes it for the Kimura. The choke-Kimura dilemma forces them to choose which threat to defend, creating openings for the other."
     },
     {
       "question": "What are the essential tap signals you must monitor, and why is constant vigilance critical from this position?",
-      "answer": "Monitor verbal tap, hand tap on body or mat, foot tap on mat, distress vocalizations, and rapid head movement. Constant vigilance is critical because north-south covers much of opponent's upper body, potentially limiting their ability to tap clearly. Combined with rapid onset of joint stress from favorable leverage angle, watch for any indication of submission and release immediately.",
-      "difficulty": "Beginner"
+      "answer": "Monitor verbal tap, hand tap on body or mat, foot tap on mat, distress vocalizations, and rapid head movement. Constant vigilance is critical because north-south covers much of opponent's upper body, potentially limiting their ability to tap clearly. Combined with rapid onset of joint stress from favorable leverage angle, watch for any indication of submission and release immediately."
     },
     {
       "question": "Your opponent rolls toward the submission to relieve shoulder pressure—what is your immediate response?",
-      "answer": "Follow their roll while maintaining figure-four grip initially. As they turn into you, their back becomes exposed. You have two options: maintain Kimura grip and continue pressure from new angle, or release wrist control and transition to Back Control by establishing seat belt grip. Back control is often higher value as it offers multiple submissions and maximum competition points.",
-      "difficulty": "Intermediate"
+      "answer": "Follow their roll while maintaining figure-four grip initially. As they turn into you, their back becomes exposed. You have two options: maintain Kimura grip and continue pressure from new angle, or release wrist control and transition to Back Control by establishing seat belt grip. Back control is often higher value as it offers multiple submissions and maximum competition points."
     },
     {
       "question": "How do you combine the upward elbow lift with rotation to complete the submission mechanics?",
-      "answer": "First apply upward lifting pressure on the elbow toward the ceiling—this creates initial stress on the shoulder joint. Your upper arm controlling the elbow does most work here. Then while maintaining upward pressure, begin rotating their entire arm away from their head toward their legs. The combination of lifting AND rotating creates the full submission. Either component alone is significantly less effective.",
-      "difficulty": "Beginner"
+      "answer": "First apply upward lifting pressure on the elbow toward the ceiling—this creates initial stress on the shoulder joint. Your upper arm controlling the elbow does most work here. Then while maintaining upward pressure, begin rotating their entire arm away from their head toward their legs. The combination of lifting AND rotating creates the full submission. Either component alone is significantly less effective."
     },
     {
       "question": "What determines whether you should abandon the Kimura and transition to an alternative attack?",
-      "answer": "Abandon when: opponent successfully hides arm tight for more than 3-4 seconds despite extraction attempts; your base becomes significantly compromised risking sweep; opponent rolls away (not into you) breaking chest pressure; you've lost figure-four grip and cannot quickly reestablish; or time pressure requires faster scoring. Transition to North-South choke if framing, take mount if turning toward you, or secure Back Control if back exposed.",
-      "difficulty": "Advanced"
+      "answer": "Abandon when: opponent successfully hides arm tight for more than 3-4 seconds despite extraction attempts; your base becomes significantly compromised risking sweep; opponent rolls away (not into you) breaking chest pressure; you've lost figure-four grip and cannot quickly reestablish; or time pressure requires faster scoring. Transition to North-South choke if framing, take mount if turning toward you, or secure Back Control if back exposed."
     },
     {
       "question": "What is the correct release protocol when your opponent taps?",
-      "answer": "Immediately cease all rotational pressure on shoulder. Release wrist control grip first to eliminate tension while keeping arm safe. Gently guide arm back to neutral position alongside body without dropping suddenly. Gradually reduce chest pressure to allow breathing recovery. Check verbally with partner before continuing training to ensure no injury occurred.",
-      "difficulty": "Beginner"
+      "answer": "Immediately cease all rotational pressure on shoulder. Release wrist control grip first to eliminate tension while keeping arm safe. Gently guide arm back to neutral position alongside body without dropping suddenly. Gradually reduce chest pressure to allow breathing recovery. Check verbally with partner before continuing training to ensure no injury occurred."
     },
     {
       "question": "Your opponent begins straightening their arm to slip out of the figure-four—what grip adjustments prevent the escape?",
-      "answer": "Immediately tighten figure-four by pulling wrist grip closer to your chest and driving controlling elbow downward toward mat. This creates a barrier preventing full arm extension. Simultaneously increase upward lifting pressure on their elbow to maintain bent-arm position. If they've already significantly straightened, consider transitioning to armbar by stepping over their head while maintaining wrist control.",
-      "difficulty": "Advanced"
+      "answer": "Immediately tighten figure-four by pulling wrist grip closer to your chest and driving controlling elbow downward toward mat. This creates a barrier preventing full arm extension. Simultaneously increase upward lifting pressure on their elbow to maintain bent-arm position. If they've already significantly straightened, consider transitioning to armbar by stepping over their head while maintaining wrist control."
     },
     {
       "question": "How does the Kimura-choke dilemma system work from North-South, and why is it strategically valuable?",
-      "answer": "Opponents defending Kimura by keeping arms tight become vulnerable to North-South choke because they cannot frame. Those defending choke by framing expose the arm for Kimura attacks. This complementary threat pairing forces opponents into lose-lose decisions—defending one attack opens the other. Show one threat to get the reaction that exposes the other, then attack the opening they create.",
-      "difficulty": "Advanced"
+      "answer": "Opponents defending Kimura by keeping arms tight become vulnerable to North-South choke because they cannot frame. Those defending choke by framing expose the arm for Kimura attacks. This complementary threat pairing forces opponents into lose-lose decisions—defending one attack opens the other. Show one threat to get the reaction that exposes the other, then attack the opening they create."
     }
   ],
   "safety_considerations": "The Kimura from North-South carries significant injury risk due to deceptive leverage from the perpendicular angle. The shoulder joint (rotator cuff, labrum, anterior capsule) can be damaged before partners recognize danger. Always apply submission extremely slowly over minimum 5-7 seconds. Monitor constantly for tap signals—verbal, hand tap, foot tap, or any distress indication. Release immediately upon tap following proper protocol: cease rotation first, release wrist grip, guide arm to neutral, reduce chest pressure gradually. Never train this submission with partners recovering from shoulder injuries. In training, always stop well before maximum pressure.",
@@ -294,5 +267,6 @@
       "name": "Armbar from North-South",
       "relationship": "Alternative submission when Kimura grip cannot be established"
     }
-  ]
+  ],
+  "success_rate": 58
 }

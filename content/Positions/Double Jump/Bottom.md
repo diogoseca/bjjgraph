@@ -388,11 +388,11 @@ Partner starts with zero resistance, allowing perfect execution of double jump t
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 30% | 15% |
-| Intermediate | 65% | 50% | 30% |
-| Advanced     | 80% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 60% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 3-8 seconds (transition position)
 

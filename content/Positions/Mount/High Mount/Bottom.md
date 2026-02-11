@@ -21,32 +21,38 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape",
-      "text": "From this position, attempt Elbow Escape. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape",
-      "text": "From this position, attempt Hip Escape. This technique is attempted in 24% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape. This technique is attempted in 20% of exchanges from this position.",
       "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Frame Creation",
+      "text": "From this position, attempt Frame Creation. This technique is attempted in 17% of exchanges from this position.",
+      "position": 6
     }
   ],
   "totalTime": "PT2M"
@@ -207,15 +213,17 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Available Escapes
 
-### [[Upa Escape]] (18% of attempts)
+### [[Upa Escape]] (15% of attempts)
 
-### [[Elbow Escape]] (25% of attempts)
+### [[Elbow Escape]] (21% of attempts)
 
-### [[Bridge and Roll]] (15% of attempts)
+### [[Bridge and Roll]] (12% of attempts)
 
-### [[Shrimp Escape]] (18% of attempts)
+### [[Shrimp Escape]] (15% of attempts)
 
-### [[Hip Escape]] (24% of attempts)
+### [[Hip Escape]] (20% of attempts)
+
+### [[Frame Creation]] (17% of attempts)
 
 
 
@@ -373,11 +381,11 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 85% | 10% | 60% |
-| Intermediate | 75% | 20% | 45% |
-| Advanced     | 60% | 35% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 28% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 30-60 seconds before submission or escape attempt
 

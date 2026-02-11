@@ -157,7 +157,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -230,12 +230,12 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish mount control and isolate near arm**: From solid mount position, use your weight to pin opponent's hips while simultaneously controlling or trapping their near-side arm. This can be accomplished by pinning their wrist to the mat with your knee, catching their elbow with your hand, or using your weight to limit their defensive frames. The goal is to remove their ability to defend their collar on the side you'll attack. (Timing: 2-3 seconds) [Pressure: Moderate]
-2. **Feed deep collar grip on far side**: Reach across with your same-side hand (right hand to opponent's left collar) and feed your hand deep into their far collar, getting at least four fingers inside with your thumb against their neck. The deeper the grip, the more effective the choke. Use your opposite hand to pull their collar away from their neck to create space for insertion. Your elbow should be high and your grip should reach past their trachea toward the back of their neck. (Timing: 3-4 seconds) [Pressure: Light]
-3. **Secure opposite side lapel grip**: While maintaining the deep collar grip, use your free hand to grab the opponent's near-side lapel or collar, creating the loop configuration. This grip should be positioned near their shoulder or upper chest area. The two grips now form opposing vectors - one deep in the collar, one controlling the near lapel. (Timing: 2-3 seconds) [Pressure: Light]
-4. **Adjust base and posture for finishing mechanics**: Shift your weight slightly toward the side of your deep collar grip while maintaining mount control. Your knee on the deep-grip side should post out for base, while your opposite knee stays tight to their body. Lower your chest toward their head while keeping your elbows tight and grips secure. This positioning creates the proper angle for the choking mechanism. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Create diagonal pulling vectors**: The finish involves pulling your deep collar grip toward your same-side hip while simultaneously pulling the near lapel grip across their neck toward your opposite shoulder. This creates crossing diagonal forces that tighten the collar loop around their neck. Think of it as making an 'X' with your forearms across their throat, with the collar acting as the strangling mechanism. (Timing: 2-3 seconds) [Pressure: Firm]
-6. **Apply controlled finishing pressure**: Gradually increase pressure by pulling your grips in opposite diagonal directions while lowering your chest weight onto their upper body. The choke should tighten progressively over 3-5 seconds. Monitor your partner closely for tap signals. The proper choke attacks the carotid arteries bilaterally and should create an immediate tapping response when applied correctly. If the choke doesn't work within 5-6 seconds, the setup is likely incorrect and you should reset rather than forcing it. (Timing: 3-5 seconds) [Pressure: Maximum]
+1. **Establish mount control and isolate near arm**: From solid mount position, use your weight to pin opponent's hips while simultaneously controlling or trapping their near-side arm. This can be accomplished by pinning their wrist to the mat with your knee, catching their elbow with your hand, or using your weight to limit their defensive frames. The goal is to remove their ability to defend their collar on the side you'll attack. (Timing: 2-3 seconds)
+2. **Feed deep collar grip on far side**: Reach across with your same-side hand (right hand to opponent's left collar) and feed your hand deep into their far collar, getting at least four fingers inside with your thumb against their neck. The deeper the grip, the more effective the choke. Use your opposite hand to pull their collar away from their neck to create space for insertion. Your elbow should be high and your grip should reach past their trachea toward the back of their neck. (Timing: 3-4 seconds)
+3. **Secure opposite side lapel grip**: While maintaining the deep collar grip, use your free hand to grab the opponent's near-side lapel or collar, creating the loop configuration. This grip should be positioned near their shoulder or upper chest area. The two grips now form opposing vectors - one deep in the collar, one controlling the near lapel. (Timing: 2-3 seconds)
+4. **Adjust base and posture for finishing mechanics**: Shift your weight slightly toward the side of your deep collar grip while maintaining mount control. Your knee on the deep-grip side should post out for base, while your opposite knee stays tight to their body. Lower your chest toward their head while keeping your elbows tight and grips secure. This positioning creates the proper angle for the choking mechanism. (Timing: 1-2 seconds)
+5. **Create diagonal pulling vectors**: The finish involves pulling your deep collar grip toward your same-side hip while simultaneously pulling the near lapel grip across their neck toward your opposite shoulder. This creates crossing diagonal forces that tighten the collar loop around their neck. Think of it as making an 'X' with your forearms across their throat, with the collar acting as the strangling mechanism. (Timing: 2-3 seconds)
+6. **Apply controlled finishing pressure**: Gradually increase pressure by pulling your grips in opposite diagonal directions while lowering your chest weight onto their upper body. The choke should tighten progressively over 3-5 seconds. Monitor your partner closely for tap signals. The proper choke attacks the carotid arteries bilaterally and should create an immediate tapping response when applied correctly. If the choke doesn't work within 5-6 seconds, the setup is likely incorrect and you should reset rather than forcing it. (Timing: 3-5 seconds)
 
 
 </section>
@@ -255,25 +255,25 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Shallow collar grip that only reaches the front of the neck [Medium DANGER]
+- **Mistake**: Shallow collar grip that only reaches the front of the neck
   - **Consequence**: Creates an ineffective air choke that takes much longer to work and causes unnecessary discomfort without proper blood choke mechanics
   - **Correction**: Take time to feed the grip deep into the collar, getting your hand all the way past the trachea toward the back of the neck. Use your free hand to create space by pulling the collar away from their neck as you insert your choking hand.
-- **Mistake**: Rising too high in mount while attempting the choke, sacrificing base and stability [Low DANGER]
+- **Mistake**: Rising too high in mount while attempting the choke, sacrificing base and stability
   - **Consequence**: Opponent can easily bridge and roll, escaping mount and potentially reversing position
   - **Correction**: Maintain low center of gravity with hips heavy on opponent's torso. Your chest should lower toward their head as you finish, not rise away from them. Think of driving your weight through the choke rather than pulling upward.
-- **Mistake**: Pulling both grips in the same direction or straight down rather than creating diagonal opposing vectors [Low DANGER]
+- **Mistake**: Pulling both grips in the same direction or straight down rather than creating diagonal opposing vectors
   - **Consequence**: Choke doesn't tighten properly and opponent can defend or escape
   - **Correction**: Visualize making an 'X' with your forearms - one grip pulls toward your hip, the other pulls across their neck toward your opposite shoulder. The diagonal crossing motion is what creates the loop tightening mechanism.
-- **Mistake**: Applying sudden, jerking pressure to force a quick tap [CRITICAL DANGER]
+- **Mistake**: Applying sudden, jerking pressure to force a quick tap
   - **Consequence**: Risk of injuring training partner's neck or trachea, creating a dangerous training environment
   - **Correction**: Always apply choking pressure progressively over 3-5 seconds minimum in training. Competition speed is never appropriate for practice. Your training partner should have time to recognize the choke and tap safely.
-- **Mistake**: Neglecting to control opponent's near arm, allowing them to defend the collar effectively [Low DANGER]
+- **Mistake**: Neglecting to control opponent's near arm, allowing them to defend the collar effectively
   - **Consequence**: Opponent uses frames to prevent collar grips or pushes your weight off to escape mount
   - **Correction**: Before attempting collar grips, trap or control the near-side arm using your knee, hand, or weight distribution. This isolation is a prerequisite for successful setup.
-- **Mistake**: Continuing to apply pressure after partner taps or shows distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress signals
   - **Consequence**: Risk of causing unconsciousness or injury to training partner, violation of fundamental training safety
   - **Correction**: Develop sensitivity to tap signals including hand taps, foot taps, verbal taps, and changes in partner's resistance. Release immediately upon any tap signal without hesitation or delay.
-- **Mistake**: Attempting the choke without proper mount stability, leading to position loss [Low DANGER]
+- **Mistake**: Attempting the choke without proper mount stability, leading to position loss
   - **Consequence**: Opponent escapes mount during setup attempt, losing dominant position for a failed submission
   - **Correction**: Ensure mount is fully consolidated before attempting submission attacks. If opponent is actively bridging and escaping, focus on maintaining position before threatening submissions. Position before submission.
 
@@ -338,43 +338,6 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper collar grip depth, hand positioning, and loop configuration mechanics without any resistance. Practice mount stability and arm control prerequisites. Study the diagonal vector mechanics that create the choking pressure.
-- Resistance: None
-- Safety: Emphasize extremely slow application even with compliant partner. Practice tap recognition and immediate release protocol. Never apply any actual choking pressure during this phase - focus only on positioning.
-
-**Slow Cooperative Practice** (Week 3-4)
-- Focus: Execute full technique with cooperative partner who provides positional resistance but allows collar grips. Practice establishing deep collar grips against light hand fighting. Begin to understand proper pressure application at extremely slow speed.
-- Resistance: Mild resistance
-- Safety: Introduce very light pressure application over 5-7 seconds minimum. Partner should tap early to practice release protocol. Focus on recognizing the difference between blood choke and air choke sensation.
-
-**Progressive Resistance** (Week 5-8)
-- Focus: Partner provides realistic collar defense and attempts to prevent grips while remaining in mount bottom position. Practice setting up the choke against opponents who protect their collar. Begin chaining with other mount attacks when loop choke is defended.
-- Resistance: Realistic resistance
-- Safety: Maintain 3-5 second minimum application time. Practice reading partner's defensive signals. If unable to get proper depth, release and reset rather than forcing shallow grip.
-
-**Dynamic Sparring Integration** (Week 9-12)
-- Focus: Attempt loop choke from mount during positional sparring (starting from mount). Learn to recognize when collar is available versus when to choose other attacks. Develop timing for setting up grips during opponent's defensive movements.
-- Resistance: Full resistance
-- Safety: Never use sudden or jerking motions even in live sparring. Develop automatic release response to any tap signal. Respect partner's tap even if you believe the choke wasn't tight yet.
-
-**Combination and Counter** (Month 4-6)
-- Focus: Integrate loop choke with other mount attacks (armbar, Americana, cross collar). Use loop choke attempts to create reactions for other submissions. Develop ability to recognize when loop choke is available during transitions to mount from other positions.
-- Resistance: Full resistance
-- Safety: Monitor partner's fatigue levels as combinations can compound stress. Maintain safety standards even when chaining multiple attacks. Ensure partner can tap clearly during all phases of combination sequences.
-
-**Refinement and Competition Application** (Month 6+)
-- Focus: Develop personal variations and setups based on individual body type and game. Practice against opponents of varying skill levels and body types. Refine timing and grip fighting for competition scenarios. Understand when to abandon submission attempt to maintain position.
-- Resistance: Full resistance
-- Safety: Remember that training room safety protocols always apply regardless of skill level. Competition-speed application is only for competition. Maintain progressive pressure application and immediate release response in all training contexts.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -426,6 +389,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

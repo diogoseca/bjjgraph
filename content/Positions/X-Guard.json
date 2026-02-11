@@ -276,21 +276,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Ability to maintain top control and prevent being swept from X-Guard Top position"
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Likelihood of successfully passing guard or entering leg entanglement from X-Guard Top"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Probability of finishing submission through leg attacks or after passing from X-Guard Top"
       },
       "average_time": "30-90 seconds depending on skill differential and grip fighting success"
@@ -338,27 +332,31 @@
     "transitions": [
       {
         "transition": "X-Guard Sweep",
-        "attempt_probability": 28
+        "attempt_probability": 24
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 22
+        "attempt_probability": 19
       },
       {
         "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Technical Stand Up to Single Leg",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Tomahawk Sweep",
+        "attempt_probability": 14
       }
     ],
     "decision_tree": [
@@ -517,21 +515,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Ability to maintain X-Guard configuration against passing attempts before transitioning or being passed"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of successfully sweeping or advancing position from X-Guard Bottom"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of finishing submission directly or through transition from X-Guard Bottom"
       },
       "average_time": "30-90 seconds"

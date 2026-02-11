@@ -97,21 +97,23 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 ### Available Transitions
 
 
-- **[[Leg Drag Escape to Closed Guard]]** (12% of attempts)
+- **[[Leg Drag Escape to Closed Guard]]** (11% of attempts)
 
-- **[[Technical Standup]]** (13% of attempts)
+- **[[Technical Standup]]** (12% of attempts)
 
-- **[[Leg Drag Counter to Half Guard]]** (18% of attempts)
+- **[[Leg Drag Counter to Half Guard]]** (15% of attempts)
 
-- **[[Roll to Turtle]]** (17% of attempts)
+- **[[Roll to Turtle]]** (15% of attempts)
 
-- **[[Inside Position Recovery]]** (11% of attempts)
+- **[[Inside Position Recovery]]** (10% of attempts)
 
-- **[[Granby Roll Escape]]** (9% of attempts)
+- **[[Granby Roll Escape]]** (8% of attempts)
 
-- **[[Leg Recovery to De La Riva]]** (10% of attempts)
+- **[[Leg Recovery to De La Riva]]** (9% of attempts)
 
-- **[[Frame and Shrimp to Guard]]** (10% of attempts)
+- **[[Frame and Shrimp to Guard]]** (9% of attempts)
+
+- **[[Half Guard Recovery]]** (11% of attempts)
 
 
 ### Common Mistakes

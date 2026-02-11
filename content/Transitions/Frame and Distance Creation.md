@@ -157,7 +157,7 @@ The technique operates on the principle that leg lock control depends heavily on
 Strategically, Frame and Distance Creation serves as both a standalone escape and a preparatory action for other defensive sequences. The distance created provides the mobility needed to rotate hips, extract the trapped knee, or transition to standing. Against aggressive leg lockers who commit heavily to finishing, the framing action often creates windows where passing to top position becomes viable. This technique is particularly valuable because it addresses multiple control points simultaneously rather than fighting each grip individually.
 
 **From Position**: [[Straight Ankle Lock Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure knee position**: Pull your trapped knee toward your chest as much as possible, fighting against the attacker's extension attempts. Keep the knee bent at approximately 90 degrees or tighter to maintain structural integrity and reduce ankle lock leverage. (Timing: Immediately upon recognizing ankle lock control)
-2. **Establish primary frame**: Place your palm or forearm on the attacker's chest or shoulder on the same side as your trapped leg. Use skeletal alignment by keeping your elbow tight and directing force through your shoulder structure rather than arm muscles. (Timing: Within 2-3 seconds of securing knee position)
-3. **Add secondary frame**: Bring your other hand to frame on the attacker's opposite shoulder or their head if accessible. Creating two contact points prevents them from simply circling around a single frame and maintains consistent distance. (Timing: Immediately after primary frame)
-4. **Extend and create distance**: Push through both frames simultaneously while straightening your arms, driving the attacker's upper body away from you. Use your core and hip to add power to the extension rather than relying solely on arm strength. (Timing: Controlled steady pressure, not explosive)
-5. **Engage free leg**: Use your free leg to push against the attacker's hip, thigh, or the inside of their knee. This leg push amplifies the distance created by arm frames and begins destabilizing their leg configuration around your trapped leg. (Timing: Coordinated with arm extension)
-6. **Rotate and extract**: As distance increases and the attacker's grip loosens, rotate your hip in the direction that facilitates knee extraction. Pull your knee sharply toward your chest and extract your foot from their control to establish open guard position. (Timing: When grip loosens noticeably)
+1. **Secure knee position**: Pull your trapped knee toward your chest as much as possible, fighting against the attacker's extension attempts. Keep the knee bent at approximately 90 degrees or tighter to maintain structural integrity and reduce ankle lock leverage.
+2. **Establish primary frame**: Place your palm or forearm on the attacker's chest or shoulder on the same side as your trapped leg. Use skeletal alignment by keeping your elbow tight and directing force through your shoulder structure rather than arm muscles.
+3. **Add secondary frame**: Bring your other hand to frame on the attacker's opposite shoulder or their head if accessible. Creating two contact points prevents them from simply circling around a single frame and maintains consistent distance.
+4. **Extend and create distance**: Push through both frames simultaneously while straightening your arms, driving the attacker's upper body away from you. Use your core and hip to add power to the extension rather than relying solely on arm strength.
+5. **Engage free leg**: Use your free leg to push against the attacker's hip, thigh, or the inside of their knee. This leg push amplifies the distance created by arm frames and begins destabilizing their leg configuration around your trapped leg.
+6. **Rotate and extract**: As distance increases and the attacker's grip loosens, rotate your hip in the direction that facilitates knee extraction. Pull your knee sharply toward your chest and extract your foot from their control to establish open guard position.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 ## Training Progressions
 **Week 1-2** - Frame mechanics
 Practice establishing structural frames from various positions without resistance. Focus on skeletal alignment, proper hand placement on chest and shoulders, and coordinating arm extension with core engagement. Partner holds position statically.
-(Resistance: None)
 
 **Week 3-4** - Coordination with leg work
 Add free leg pushing to the frame sequence. Practice coordinating arm frames with leg pushes against partner's hip. Partner provides light resistance and occasionally clears frames to test reset speed.
-(Resistance: Light)
 
 **Week 5-6** - Extraction timing
 Work on recognizing when sufficient distance exists for foot extraction. Partner provides moderate resistance and actively adjusts grips. Practice the full sequence from initial control through open guard recovery.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement Frame and Distance Creation in live sparring from straight ankle lock scenarios. Partner attacks with full intention to finish or transition. Focus on reading attacker's adjustments and timing frames appropriately.
-(Resistance: Full)
 
 
 

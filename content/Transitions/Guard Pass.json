@@ -10,11 +10,6 @@
     "top-game",
     "position-advancement"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "Guard passing represents one of the fundamental challenges in Brazilian Jiu-Jitsu - the art of moving from an opponent's guard position to a dominant top position. The guard pass is not a single technique but rather a category of movements that share the common goal of safely navigating past the opponent's legs while maintaining control and balance. Successful guard passing requires a combination of technical precision, timing, pressure management, and strategic decision-making based on the opponent's guard type and defensive responses.\n\nThe modern approach to guard passing encompasses multiple philosophies: pressure passing prioritizes weight distribution and grinding control, speed passing emphasizes quick footwork and timing, and systematic passing combines both elements based on opponent reactions. Elite competitors like elite competitors' have demonstrated that understanding when to apply each passing style - and smoothly transitioning between them - creates an unstoppable passing game. The guard passer must simultaneously break the opponent's grips, neutralize their hip movement, control their legs, and advance position while defending submission attempts and sweep threats.\n\nMastering guard passing fundamentals creates the foundation for all top game development in BJJ. Whether passing closed guard, open guard variations, or modern leg entanglement guards, the core principles remain consistent: establish dominant grips, control distance and angles, break the opponent's structure, and advance through stages of control before settling into a dominant position. This systematic approach, combined with the ability to read and counter opponent reactions, separates effective guard passers from those who struggle to advance position.",
   "key_principles": [
     "Establish dominant grips before attempting to pass - control of sleeves, collar, or pants prevents opponent from establishing strong guard retention frames",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Establish dominant grips",
-      "description": "Secure control of opponent's collar, sleeves, or pants depending on guard type. For closed guard, control the collar and break posture. For open guard, control sleeves or pants to limit mobility. Grip fighting is essential - deny opponent their preferred grips while establishing your own control points.",
-      "timing": "Initial contact - spend 2-5 seconds establishing grip dominance before advancing"
+      "description": "Secure control of opponent's collar, sleeves, or pants depending on guard type. For closed guard, control the collar and break posture. For open guard, control sleeves or pants to limit mobility. Grip fighting is essential - deny opponent their preferred grips while establishing your own control points."
     },
     {
       "step_number": 2,
       "action": "Break opponent's guard structure",
-      "description": "Disrupt the opponent's base and alignment. For closed guard, stand up to open the guard. For open guard, address the specific retention mechanism (hooks, frames, or leg entanglements). Use a combination of grip control, weight distribution, and angle changes to compromise their structure.",
-      "timing": "3-8 seconds - patience here prevents rushing into bad positions"
+      "description": "Disrupt the opponent's base and alignment. For closed guard, stand up to open the guard. For open guard, address the specific retention mechanism (hooks, frames, or leg entanglements). Use a combination of grip control, weight distribution, and angle changes to compromise their structure."
     },
     {
       "step_number": 3,
       "action": "Control opponent's hips and legs",
-      "description": "Pin the opponent's hips to the mat or control their legs to prevent guard retention. This may involve stapling the knee, controlling the shin, or using heavy pressure to limit hip mobility. The specific control depends on the guard type being passed.",
-      "timing": "Simultaneous with structure breaking - 2-4 seconds to establish control"
+      "description": "Pin the opponent's hips to the mat or control their legs to prevent guard retention. This may involve stapling the knee, controlling the shin, or using heavy pressure to limit hip mobility. The specific control depends on the guard type being passed."
     },
     {
       "step_number": 4,
       "action": "Create passing angle",
-      "description": "Move off the centerline to one side, creating an angle that allows you to navigate around the opponent's legs. The angle prevents them from using frames effectively and positions you to advance. Keep your head on the side you're passing to for better pressure and control.",
-      "timing": "Quick transition - 1-2 seconds to establish angle once control is secured"
+      "description": "Move off the centerline to one side, creating an angle that allows you to navigate around the opponent's legs. The angle prevents them from using frames effectively and positions you to advance. Keep your head on the side you're passing to for better pressure and control."
     },
     {
       "step_number": 5,
       "action": "Advance position through stages",
-      "description": "Progress through control points: from guard to knee slice position or headquarters, then to a transitional position where opponent's near leg is controlled, finally settling into side control or other dominant position. Each stage should be consolidated before advancing.",
-      "timing": "Variable 5-15 seconds total - rushing causes re-guard"
+      "description": "Progress through control points: from guard to knee slice position or headquarters, then to a transitional position where opponent's near leg is controlled, finally settling into side control or other dominant position. Each stage should be consolidated before advancing."
     },
     {
       "step_number": 6,
       "action": "Secure dominant position",
-      "description": "Establish side control, mount, knee on belly, or north-south with proper weight distribution and control points. Immediately address any remaining guard retention attempts by controlling the far hip, establishing crossface pressure, and securing underhooks. Consolidate position before looking for submissions or further advancement.",
-      "timing": "3-5 seconds to fully stabilize the position"
+      "description": "Establish side control, mount, knee on belly, or north-south with proper weight distribution and control points. Immediately address any remaining guard retention attempts by controlling the far hip, establishing crossface pressure, and securing underhooks. Consolidate position before looking for submissions or further advancement."
     }
   ],
   "common_counters": [
@@ -134,38 +123,32 @@
     {
       "phase": "Week 1-2: Foundational Mechanics",
       "focus": "Basic passing principles and positional understanding",
-      "description": "Practice guard passing against cooperative partner who maintains guard structure but doesn't actively resist. Focus on proper grips, posture, base, and moving through stages slowly. Drill individual components: grip establishment, posture breaking, hip control, and position advancement separately before combining.",
-      "resistance_level": "None"
+      "description": "Practice guard passing against cooperative partner who maintains guard structure but doesn't actively resist. Focus on proper grips, posture, base, and moving through stages slowly. Drill individual components: grip establishment, posture breaking, hip control, and position advancement separately before combining."
     },
     {
       "phase": "Week 3-4: Progressive Resistance",
       "focus": "Passing against basic guard retention",
-      "description": "Partner begins using frames, hip escapes, and basic retention but does not attempt sweeps or submissions. Passer works on maintaining control through opponent's defensive movements. Start recognizing when to use pressure vs. speed passing based on opponent's reactions.",
-      "resistance_level": "Light"
+      "description": "Partner begins using frames, hip escapes, and basic retention but does not attempt sweeps or submissions. Passer works on maintaining control through opponent's defensive movements. Start recognizing when to use pressure vs. speed passing based on opponent's reactions."
     },
     {
       "phase": "Week 5-8: Dynamic Passing",
       "focus": "Passing against active guard retention with submission threats",
-      "description": "Partner actively tries to retain guard using full range of defensive techniques including frames, hip escapes, re-guarding, and submission attempts. Passer must recognize submission threats, defend appropriately, and continue passing sequence. Introduce multiple passing styles and learn to switch between them.",
-      "resistance_level": "Medium"
+      "description": "Partner actively tries to retain guard using full range of defensive techniques including frames, hip escapes, re-guarding, and submission attempts. Passer must recognize submission threats, defend appropriately, and continue passing sequence. Introduce multiple passing styles and learn to switch between them."
     },
     {
       "phase": "Week 9-12: Specialized Guard Passing",
       "focus": "Passing specific guard types (closed, open, half, butterfly, leg entanglement)",
-      "description": "Deep dive into passing strategies for each major guard category. Learn guard-specific grips, breaking mechanisms, and common traps. Practice recognizing guard types quickly and selecting appropriate passing approach. Develop counters to guard-specific sweeps and submissions.",
-      "resistance_level": "Medium"
+      "description": "Deep dive into passing strategies for each major guard category. Learn guard-specific grips, breaking mechanisms, and common traps. Practice recognizing guard types quickly and selecting appropriate passing approach. Develop counters to guard-specific sweeps and submissions."
     },
     {
       "phase": "Month 4-6: Competition Application",
       "focus": "Guard passing under full resistance and time pressure",
-      "description": "Full resistance guard passing with emphasis on efficiency and control. Practice passing chains where failed passes lead to alternative passing approaches. Develop ability to pass while managing fatigue. Simulate competition scenarios with time limits and point scoring.",
-      "resistance_level": "Full"
+      "description": "Full resistance guard passing with emphasis on efficiency and control. Practice passing chains where failed passes lead to alternative passing approaches. Develop ability to pass while managing fatigue. Simulate competition scenarios with time limits and point scoring."
     },
     {
       "phase": "Ongoing: Refinement and Specialization",
       "focus": "Developing personal passing style and high-level details",
-      "description": "Refine timing, pressure application, and grip fighting nuances. Develop signature passing sequences that fit your body type and style. Study high-level competition footage and integrate advanced concepts. Continue drilling fundamentals while exploring new passing innovations.",
-      "resistance_level": "Full"
+      "description": "Refine timing, pressure application, and grip fighting nuances. Develop signature passing sequences that fit your body type and style. Study high-level competition footage and integrate advanced concepts. Continue drilling fundamentals while exploring new passing innovations."
     }
   ],
   "variants_and_adaptations": [
@@ -203,38 +186,31 @@
   "knowledge_assessment": [
     {
       "question": "What are the three main categories of guard passing and when should each be applied?",
-      "answer": "The three main categories are pressure passing (using weight and grinding control, effective against flexible opponents), speed passing (using footwork and rapid movements, effective against larger opponents or strong pressure defenders), and systematic/combination passing (switching between pressure and speed based on opponent reactions, most effective at high levels). The best passers recognize which style to use based on opponent's body type, guard type, and defensive responses.",
-      "difficulty": "Intermediate"
+      "answer": "The three main categories are pressure passing (using weight and grinding control, effective against flexible opponents), speed passing (using footwork and rapid movements, effective against larger opponents or strong pressure defenders), and systematic/combination passing (switching between pressure and speed based on opponent reactions, most effective at high levels). The best passers recognize which style to use based on opponent's body type, guard type, and defensive responses."
     },
     {
       "question": "Why is it critical to pass in stages rather than rushing directly to side control?",
-      "answer": "Passing in stages allows you to consolidate control at each checkpoint, making it much harder for opponent to recover guard. Each stage (breaking guard structure, controlling hips, creating angle, advancing position, securing dominant position) addresses specific defensive mechanisms. Rushing causes you to skip critical control points, allowing opponent to use hip escapes, frames, or re-guarding techniques to nullify your passing attempt. Staged passing also allows you to defend submission attempts and adjust to opponent's reactions at each checkpoint.",
-      "difficulty": "Beginner"
+      "answer": "Passing in stages allows you to consolidate control at each checkpoint, making it much harder for opponent to recover guard. Each stage (breaking guard structure, controlling hips, creating angle, advancing position, securing dominant position) addresses specific defensive mechanisms. Rushing causes you to skip critical control points, allowing opponent to use hip escapes, frames, or re-guarding techniques to nullify your passing attempt. Staged passing also allows you to defend submission attempts and adjust to opponent's reactions at each checkpoint."
     },
     {
       "question": "How should grip fighting be prioritized during the guard passing sequence?",
-      "answer": "Grip fighting should be addressed immediately at the beginning of the passing sequence before attempting to advance position. The passer must break opponent's grips on collar, sleeves, and pants while establishing their own dominant grips. Allowing opponent to maintain their preferred grips gives them distance control, sweep setups, and submission opportunities. Effective grip fighting creates a significant advantage in the passing exchange and should be revisited throughout the pass if opponent re-establishes problematic grips.",
-      "difficulty": "Intermediate"
+      "answer": "Grip fighting should be addressed immediately at the beginning of the passing sequence before attempting to advance position. The passer must break opponent's grips on collar, sleeves, and pants while establishing their own dominant grips. Allowing opponent to maintain their preferred grips gives them distance control, sweep setups, and submission opportunities. Effective grip fighting creates a significant advantage in the passing exchange and should be revisited throughout the pass if opponent re-establishes problematic grips."
     },
     {
       "question": "What is the relationship between hip control and successful guard passing?",
-      "answer": "Hip control is fundamental to guard passing because the opponent's hips are their primary tool for guard retention, re-guarding, and creating angles. By pinning, controlling, or limiting hip mobility, the passer removes the guard player's ability to follow the pass, execute hip escapes, or use shrimping to recover guard. Every effective guard pass incorporates some method of hip control - whether through pressure, grips, knee positioning, or weight distribution - before advancing to the dominant position.",
-      "difficulty": "Beginner"
+      "answer": "Hip control is fundamental to guard passing because the opponent's hips are their primary tool for guard retention, re-guarding, and creating angles. By pinning, controlling, or limiting hip mobility, the passer removes the guard player's ability to follow the pass, execute hip escapes, or use shrimping to recover guard. Every effective guard pass incorporates some method of hip control - whether through pressure, grips, knee positioning, or weight distribution - before advancing to the dominant position."
     },
     {
       "question": "How does base width affect guard passing success and what common mistake do beginners make?",
-      "answer": "Wide base is essential for guard passing as it provides stability against sweeps, allows weight distribution without overcommitting, and enables mobility for angle changes. Beginners commonly bring their knees together or cross their feet during passing, creating a narrow base that makes them highly susceptible to elevation sweeps (especially butterfly sweeps), off-balancing, and being swept. Maintaining knees apart and feet properly positioned throughout the pass is a fundamental principle that prevents many common passing failures.",
-      "difficulty": "Beginner"
+      "answer": "Wide base is essential for guard passing as it provides stability against sweeps, allows weight distribution without overcommitting, and enables mobility for angle changes. Beginners commonly bring their knees together or cross their feet during passing, creating a narrow base that makes them highly susceptible to elevation sweeps (especially butterfly sweeps), off-balancing, and being swept. Maintaining knees apart and feet properly positioned throughout the pass is a fundamental principle that prevents many common passing failures."
     },
     {
       "question": "What should a passer do when their guard passing attempt triggers a submission attack from the guard player?",
-      "answer": "The passer must immediately address the submission threat before continuing the pass. This typically involves posturing up, extracting any trapped limbs, breaking opponent's grips related to the submission, and resetting to a safer position. Trying to complete the pass while defending a submission usually results in getting submitted. Once the submission threat is neutralized, the passer can re-establish grips and either continue the original passing approach or select a different passing strategy that avoids the submission threat. Sometimes the best response is to fully disengage and reset rather than forcing a compromised pass.",
-      "difficulty": "Advanced"
+      "answer": "The passer must immediately address the submission threat before continuing the pass. This typically involves posturing up, extracting any trapped limbs, breaking opponent's grips related to the submission, and resetting to a safer position. Trying to complete the pass while defending a submission usually results in getting submitted. Once the submission threat is neutralized, the passer can re-establish grips and either continue the original passing approach or select a different passing strategy that avoids the submission threat. Sometimes the best response is to fully disengage and reset rather than forcing a compromised pass."
     },
     {
       "question": "How does passing strategy differ between gi and no-gi guard passing?",
-      "answer": "Gi passing allows for more grip-based control using collar and sleeve grips, enabling slower pressure passing with strong controls. No-gi passing requires more emphasis on body positioning, underhooks, and overhooks since grip options are limited. No-gi passing typically involves more speed passing and leg control since opponents can't use gi grips for retention. However, the fundamental principles (control hips, break structure, pass in stages) remain the same regardless of gi or no-gi - only the specific grips and techniques used to implement these principles change.",
-      "difficulty": "Advanced"
+      "answer": "Gi passing allows for more grip-based control using collar and sleeve grips, enabling slower pressure passing with strong controls. No-gi passing requires more emphasis on body positioning, underhooks, and overhooks since grip options are limited. No-gi passing typically involves more speed passing and leg control since opponents can't use gi grips for retention. However, the fundamental principles (control hips, break structure, pass in stages) remain the same regardless of gi or no-gi - only the specific grips and techniques used to implement these principles change."
     }
   ],
   "safety_considerations": "Guard passing is generally one of the safer aspects of BJJ training when practiced with control. However, several safety concerns should be addressed: avoid slamming or dropping weight suddenly onto opponent's chest or ribs as this can cause injury; be careful when stacking opponent to not drive excessive pressure onto their neck or spine; when passing near the legs, be aware of potential leg entanglement submission positions and tap if caught; maintain awareness of training space to avoid passing out of bounds and into walls or other practitioners; communicate with partner during drilling if pressure is too intense or if any discomfort occurs; progress resistance gradually rather than jumping immediately to full-speed, full-resistance passing which increases injury risk; finally, when opponent is attempting submission during your pass, respect the submission and tap rather than forcing through the position and risking injury to prove a point in training.",
@@ -318,5 +294,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

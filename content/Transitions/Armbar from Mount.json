@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Armbar from Mount is one of Brazilian Jiu-Jitsu's highest-percentage submissions, combining the dominant mount position with precise arm isolation mechanics. This transition exploits the natural defensive reactions of a mounted opponent—when they push on your chest or extend their arms to create space, you capitalize by isolating the arm and rotating into the finishing position. The technique requires understanding weight distribution, grip sequencing, and the critical moment when hip elevation creates the angle needed for arm isolation.\n\nFrom mount, the attacking sequence begins with identifying which arm the opponent exposes. The high mount or S-mount variations facilitate armbar attacks by positioning your knees near the opponent's armpits, reducing their defensive options. The pivot from mount to armbar control involves a coordinated series of movements: securing the target arm, posting your hand near their head, swinging your leg over their face, and sitting back while maintaining arm control throughout the transition.\n\nThis technique represents a cornerstone of mount offense because it creates submission chains—defending the armbar often exposes the opponent to cross chokes, Americanas, or back takes. Understanding when to commit to the armbar versus when to threaten it as a positional advancement tool separates intermediate practitioners from advanced competitors.",
   "key_principles": [
     "Isolate the arm before committing to the spin—secure wrist control and clear the elbow before rotating",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Isolate target arm",
-      "description": "From mount, identify the opponent's extended or pushing arm. Secure a two-on-one grip by controlling their wrist with your same-side hand while your opposite hand cups their triceps above the elbow, pinning the arm to your chest.",
-      "timing": "When opponent pushes on your chest or frames"
+      "description": "From mount, identify the opponent's extended or pushing arm. Secure a two-on-one grip by controlling their wrist with your same-side hand while your opposite hand cups their triceps above the elbow, pinning the arm to your chest."
     },
     {
       "step_number": 2,
       "action": "Establish high mount",
-      "description": "Walk your knees toward their armpits while maintaining arm control. Your weight shifts forward onto their upper chest, limiting their hip escape options and positioning you for the rotation.",
-      "timing": "Immediately after securing arm control"
+      "description": "Walk your knees toward their armpits while maintaining arm control. Your weight shifts forward onto their upper chest, limiting their hip escape options and positioning you for the rotation."
     },
     {
       "step_number": 3,
       "action": "Post controlling hand",
-      "description": "Place your hand (same side as the trapped arm) near their ear or on the mat beside their head. This post controls their head position and provides the pivot point for your body rotation.",
-      "timing": "Before lifting your leg"
+      "description": "Place your hand (same side as the trapped arm) near their ear or on the mat beside their head. This post controls their head position and provides the pivot point for your body rotation."
     },
     {
       "step_number": 4,
       "action": "Swing leg over face",
-      "description": "Lift your leg on the trapped arm side and swing it in a wide arc over their face. Your heel should clear their head and land with your hamstring pressing against their cheek, immediately controlling their ability to sit up.",
-      "timing": "Explosive movement once post is secure"
+      "description": "Lift your leg on the trapped arm side and swing it in a wide arc over their face. Your heel should clear their head and land with your hamstring pressing against their cheek, immediately controlling their ability to sit up."
     },
     {
       "step_number": 5,
       "action": "Rotate hips perpendicular",
-      "description": "As your leg clears their head, rotate your entire body so your hips face perpendicular to their body. Your hips should end up as close to their shoulder as possible while both legs work to control their upper body.",
-      "timing": "Simultaneous with leg clearing head"
+      "description": "As your leg clears their head, rotate your entire body so your hips face perpendicular to their body. Your hips should end up as close to their shoulder as possible while both legs work to control their upper body."
     },
     {
       "step_number": 6,
       "action": "Secure armbar control",
-      "description": "Squeeze your knees together, pinning their head and chest. Pull the trapped arm tight to your chest with their thumb pointing upward. Your hips should be glued to their shoulder with zero space between hip bone and shoulder joint.",
-      "timing": "Immediately upon completing rotation"
+      "description": "Squeeze your knees together, pinning their head and chest. Pull the trapped arm tight to your chest with their thumb pointing upward. Your hips should be glued to their shoulder with zero space between hip bone and shoulder joint."
     },
     {
       "step_number": 7,
       "action": "Establish finish position",
-      "description": "Sit back at a slight angle toward their trapped arm side while elevating your hips. Both hands control the wrist area, pulling toward your centerline. The arm should be straight with elbow joint exposed across your hip line.",
-      "timing": "Once control is fully established"
+      "description": "Sit back at a slight angle toward their trapped arm side while elevating your hips. Both hands control the wrist area, pulling toward your centerline. The arm should be straight with elbow joint exposed across your hip line."
     }
   ],
   "common_counters": [
@@ -156,32 +144,27 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice the spinning motion without resistance. Focus on arm isolation, posting position, leg swing arc, and hip placement. Perform 20-30 repetitions per side with compliant partner.",
-      "resistance_level": "None"
+      "description": "Practice the spinning motion without resistance. Focus on arm isolation, posting position, leg swing arc, and hip placement. Perform 20-30 repetitions per side with compliant partner."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and entries",
-      "description": "Partner provides light defensive reactions (pushing, framing). Practice recognizing opportunities and timing the spin when arms extend. Focus on maintaining control through the transition.",
-      "resistance_level": "Light"
+      "description": "Partner provides light defensive reactions (pushing, framing). Practice recognizing opportunities and timing the spin when arms extend. Focus on maintaining control through the transition."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks",
-      "description": "Partner defends armbar with common counters (clasping hands, sitting up, stacking). Practice flowing to alternative attacks: triangle, back take, return to mount. Develop automatic responses to defensive reactions.",
-      "resistance_level": "Medium"
+      "description": "Partner defends armbar with common counters (clasping hands, sitting up, stacking). Practice flowing to alternative attacks: triangle, back take, return to mount. Develop automatic responses to defensive reactions."
     },
     {
       "phase": "Week 7-8",
       "focus": "Live application",
-      "description": "Apply technique in positional sparring from mount. Start with specific goals (achieve armbar control), progress to full submission attempts. Analyze which setups create reliable entries against resisting opponents.",
-      "resistance_level": "Full"
+      "description": "Apply technique in positional sparring from mount. Start with specific goals (achieve armbar control), progress to full submission attempts. Analyze which setups create reliable entries against resisting opponents."
     },
     {
       "phase": "Ongoing",
       "focus": "Competition refinement",
-      "description": "Drill high-percentage entries based on tournament footage analysis. Time armbar attempts and work on explosive transitions. Practice finishing under fatigue conditions.",
-      "resistance_level": "Full"
+      "description": "Drill high-percentage entries based on tournament footage analysis. Time armbar attempts and work on explosive transitions. Practice finishing under fatigue conditions."
     }
   ],
   "variants_and_adaptations": [
@@ -204,53 +187,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the optimal moment to initiate the armbar spin from mount?",
-      "answer": "The optimal moment is when the opponent extends an arm to push on your chest, frame on your hips, or reaches toward your head. This arm extension provides the isolation opportunity needed for the attack. Forcing this reaction through pressure, choke threats, or Americana setups creates consistent entry opportunities rather than waiting passively.",
-      "difficulty": "Beginner"
+      "answer": "The optimal moment is when the opponent extends an arm to push on your chest, frame on your hips, or reaches toward your head. This arm extension provides the isolation opportunity needed for the attack. Forcing this reaction through pressure, choke threats, or Americana setups creates consistent entry opportunities rather than waiting passively."
     },
     {
       "question": "Where should you post your hand before swinging your leg over the opponent's face?",
-      "answer": "Post your hand directly beside the opponent's ear, not on the mat away from their head. This position serves two purposes: it provides a pivot point for your rotation, and your forearm controls their head position, preventing them from turning to follow your movement. Posting too far away creates space that facilitates escape.",
-      "difficulty": "Beginner"
+      "answer": "Post your hand directly beside the opponent's ear, not on the mat away from their head. This position serves two purposes: it provides a pivot point for your rotation, and your forearm controls their head position, preventing them from turning to follow your movement. Posting too far away creates space that facilitates escape."
     },
     {
       "question": "Your opponent clasps their hands together as you establish armbar control—what are your immediate options?",
-      "answer": "You have three primary options: (1) Attack the grip by inserting your fingers and prying apart, focusing on the weaker bottom hand. (2) Transition to a wrist lock on the defending hand by isolating and rotating it against the joint. (3) Maintain tight control, squeeze your knees, and apply slow hip pressure while waiting for grip fatigue—their arms will tire before your legs.",
-      "difficulty": "Intermediate"
+      "answer": "You have three primary options: (1) Attack the grip by inserting your fingers and prying apart, focusing on the weaker bottom hand. (2) Transition to a wrist lock on the defending hand by isolating and rotating it against the joint. (3) Maintain tight control, squeeze your knees, and apply slow hip pressure while waiting for grip fatigue—their arms will tire before your legs."
     },
     {
       "question": "How should your hips be positioned relative to the opponent's shoulder in armbar control?",
-      "answer": "Your hips should be as close to the opponent's shoulder as physically possible, ideally with zero gap between your hip bone and their shoulder joint. This proximity maximizes leverage—any distance between your hips and their shoulder reduces the mechanical advantage of your hip elevation. Constantly scoot your hips tighter throughout the finish.",
-      "difficulty": "Beginner"
+      "answer": "Your hips should be as close to the opponent's shoulder as physically possible, ideally with zero gap between your hip bone and their shoulder joint. This proximity maximizes leverage—any distance between your hips and their shoulder reduces the mechanical advantage of your hip elevation. Constantly scoot your hips tighter throughout the finish."
     },
     {
       "question": "The opponent bridges explosively and rolls toward the trapped arm—how do you maintain control?",
-      "answer": "Follow the roll while maintaining your grip on their wrist and keeping your legs wrapped around their arm. You will end up in a belly-down armbar position with them face-down on the mat. This position is equally effective for finishing—maintain wrist control, keep their thumb pointed away from the mat, and lift your hips to apply extension pressure.",
-      "difficulty": "Intermediate"
+      "answer": "Follow the roll while maintaining your grip on their wrist and keeping your legs wrapped around their arm. You will end up in a belly-down armbar position with them face-down on the mat. This position is equally effective for finishing—maintain wrist control, keep their thumb pointed away from the mat, and lift your hips to apply extension pressure."
     },
     {
       "question": "What determines whether you should commit to the armbar or use it as a positional threat?",
-      "answer": "Commit to the armbar when you have secured wrist control before beginning the spin and the opponent's defensive arm is controlled or occupied. Use it as a threat when the opponent has both arms available for defense—the armbar attempt forces them to defend, which opens opportunities for cross choke, Americana, or back take based on their reaction.",
-      "difficulty": "Advanced"
+      "answer": "Commit to the armbar when you have secured wrist control before beginning the spin and the opponent's defensive arm is controlled or occupied. Use it as a threat when the opponent has both arms available for defense—the armbar attempt forces them to defend, which opens opportunities for cross choke, Americana, or back take based on their reaction."
     },
     {
       "question": "Why should you avoid crossing your feet after establishing armbar control?",
-      "answer": "Crossing your feet restricts hip mobility, reducing the power of your hip elevation during the finish. It also creates a vulnerability—some practitioners can attack ankle locks or toe holds on crossed feet. Instead, keep feet uncrossed with knees pinched together, which allows full hip extension power while maintaining leg control over the opponent's upper body.",
-      "difficulty": "Beginner"
+      "answer": "Crossing your feet restricts hip mobility, reducing the power of your hip elevation during the finish. It also creates a vulnerability—some practitioners can attack ankle locks or toe holds on crossed feet. Instead, keep feet uncrossed with knees pinched together, which allows full hip extension power while maintaining leg control over the opponent's upper body."
     },
     {
       "question": "Your opponent starts sitting up and turning toward you during the spin—what is your immediate response?",
-      "answer": "Use your leg across their face to drive them back down by pressing your hamstring into their cheek and extending your hip. If they continue fighting to sit up despite this pressure, flow directly to triangle by bringing your other leg around their neck—their sitting motion actually facilitates the triangle entry. Their attempted escape becomes your next attack.",
-      "difficulty": "Intermediate"
+      "answer": "Use your leg across their face to drive them back down by pressing your hamstring into their cheek and extending your hip. If they continue fighting to sit up despite this pressure, flow directly to triangle by bringing your other leg around their neck—their sitting motion actually facilitates the triangle entry. Their attempted escape becomes your next attack."
     },
     {
       "question": "What grip configuration provides the most secure arm control during the transition?",
-      "answer": "The most secure configuration is a two-on-one control: your same-side hand grips their wrist while your opposite hand cups their triceps above the elbow. Pull the arm tight against your chest and maintain this position throughout the entire spin. Never release wrist control during the transition—the grip is your lifeline to the submission.",
-      "difficulty": "Beginner"
+      "answer": "The most secure configuration is a two-on-one control: your same-side hand grips their wrist while your opposite hand cups their triceps above the elbow. Pull the arm tight against your chest and maintain this position throughout the entire spin. Never release wrist control during the transition—the grip is your lifeline to the submission."
     },
     {
       "question": "How do you create arm extension opportunities against an opponent keeping elbows tight to their body?",
-      "answer": "Threaten attacks that require arm defense: set up cross collar choke grips forcing them to defend their neck, attack Americana on their posted arm making them straighten to defend, or apply heavy forward pressure that naturally causes defensive pushing. Each threat creates a reaction that exposes an arm for the armbar attack.",
-      "difficulty": "Advanced"
+      "answer": "Threaten attacks that require arm defense: set up cross collar choke grips forcing them to defend their neck, attack Americana on their posted arm making them straighten to defend, or apply heavy forward pressure that naturally causes defensive pushing. Each threat creates a reaction that exposes an arm for the armbar attack."
     }
   ],
   "safety_considerations": "The armbar attacks the elbow joint, which can suffer ligament damage or dislocation if hyperextended. During training, apply the finish slowly and give your partner time to tap—the joint can be damaged before pain registers. When drilling, use controlled hip elevation rather than explosive finishing motion. If your partner clasps their hands in defense, do not crank aggressively as this can injure shoulders and elbows. Always establish clear tap signals before training and release immediately upon any tap, verbal or physical. Beginners should focus on positional control before attempting submissions. Avoid this technique if you or your partner has existing elbow injuries.",
@@ -296,5 +269,6 @@
       "name": "Armbar from Guard",
       "relationship": "Related armbar entry from bottom position"
     }
-  ]
+  ],
+  "success_rate": 58
 }

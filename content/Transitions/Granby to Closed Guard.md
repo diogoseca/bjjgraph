@@ -157,7 +157,7 @@ The technique is particularly valuable because it works against forward pressure
 Mastery of the Granby to Closed Guard provides practitioners with a reliable escape route from dangerous positions, reducing the effectiveness of common pinning attacks and creating opportunities to return to offensive guard play. The technique requires good body awareness, hip mobility, and timing, but once developed becomes an instinctive defensive reaction that can save matches.
 
 **From Position**: [[Turtle/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create initial space**: From bottom turtle or defensive position, explosively extend your hips backward while posting your outside hand on the mat. This hip extension creates the critical space needed to begin your roll and forces your opponent to adjust their base. Your inside arm should be protecting your neck, with your elbow tight to your ribs to prevent opponent from establishing control. (Timing: Execute during opponent's forward pressure)
-2. **Initiate shoulder roll**: Drop your inside shoulder toward the mat while tucking your chin tightly to your chest. Begin rolling over this shoulder in a diagonal direction, away from your opponent's pressure. Your head should never touch the mat - the roll occurs across your upper back and shoulders. Keep your body compact by bringing your knees toward your chest as you begin the rotation. (Timing: Immediate follow-up to space creation)
-3. **Complete the rotation**: Continue the rolling motion by driving your outside hip over your body, using momentum to complete the rotation. Your knees should remain tucked toward your chest throughout this phase. As you roll, your outside leg will naturally sweep in an arc over your body. Focus on maintaining a tight, compact body position to prevent your back from being exposed during the vulnerable rotation phase. (Timing: Smooth continuation of the roll)
-4. **Thread the inside leg**: As your rotation brings you toward a supine position, actively extend your inside leg (the one closest to your opponent) between your body and your opponent's torso. This leg becomes your first guard frame. Your knee should be bent with your foot placed on their hip or inside their thigh, creating an immediate barrier that prevents them from following you through the roll. (Timing: During final phase of rotation)
-5. **Insert the outside leg**: Immediately after threading your inside leg, bring your outside leg over and around your opponent's back. This leg will hook around their lower back or hip, while your inside leg maintains the hip frame. The combination of these two leg positions creates the foundation for closed guard. Your hands should be actively working to control their collar, sleeve, or posture during this insertion. (Timing: Immediately following inside leg insertion)
-6. **Close the guard and establish control**: Lock your ankles behind your opponent's back to complete the closed guard. Simultaneously pull them into your guard using collar and sleeve grips, or break their posture by pulling their head down toward your chest. Adjust your hips to center yourself beneath them, ensuring your closed guard is tight and your opponent is within your offensive range. From here you can immediately begin working your guard attacks or sweeps. (Timing: Final securing movement)
+1. **Create initial space**: From bottom turtle or defensive position, explosively extend your hips backward while posting your outside hand on the mat. This hip extension creates the critical space needed to begin your roll and forces your opponent to adjust their base. Your inside arm should be protecting your neck, with your elbow tight to your ribs to prevent opponent from establishing control.
+2. **Initiate shoulder roll**: Drop your inside shoulder toward the mat while tucking your chin tightly to your chest. Begin rolling over this shoulder in a diagonal direction, away from your opponent's pressure. Your head should never touch the mat - the roll occurs across your upper back and shoulders. Keep your body compact by bringing your knees toward your chest as you begin the rotation.
+3. **Complete the rotation**: Continue the rolling motion by driving your outside hip over your body, using momentum to complete the rotation. Your knees should remain tucked toward your chest throughout this phase. As you roll, your outside leg will naturally sweep in an arc over your body. Focus on maintaining a tight, compact body position to prevent your back from being exposed during the vulnerable rotation phase.
+4. **Thread the inside leg**: As your rotation brings you toward a supine position, actively extend your inside leg (the one closest to your opponent) between your body and your opponent's torso. This leg becomes your first guard frame. Your knee should be bent with your foot placed on their hip or inside their thigh, creating an immediate barrier that prevents them from following you through the roll.
+5. **Insert the outside leg**: Immediately after threading your inside leg, bring your outside leg over and around your opponent's back. This leg will hook around their lower back or hip, while your inside leg maintains the hip frame. The combination of these two leg positions creates the foundation for closed guard. Your hands should be actively working to control their collar, sleeve, or posture during this insertion.
+6. **Close the guard and establish control**: Lock your ankles behind your opponent's back to complete the closed guard. Simultaneously pull them into your guard using collar and sleeve grips, or break their posture by pulling their head down toward your chest. Adjust your hips to center yourself beneath them, ensuring your closed guard is tight and your opponent is within your offensive range. From here you can immediately begin working your guard attacks or sweeps.
 
 
 </section>
@@ -256,27 +256,21 @@ Mastery of the Granby to Closed Guard provides practitioners with a reliable esc
 ## Training Progressions
 **Phase 1: Week 1-2 - Movement Mechanics** - Learning proper Granby roll mechanics in isolation
 Practice Granby rolls solo across the mat, focusing on shoulder positioning, head protection, and compact body shape. Start from hands and knees, then progress to rolling from seated and standing positions. Drill 20-30 repetitions daily until the movement becomes natural and smooth. Partner can provide light resistance by placing hand on your hip to simulate pressure.
-(Resistance: None)
 
 **Phase 2: Week 3-4 - Guard Threading** - Adding leg insertion mechanics to the roll
 With a static partner in top position, practice completing the Granby roll and immediately threading your legs to establish guard. Partner remains stationary, allowing you to focus on timing and leg placement. Emphasis on sequential leg threading (inside first, outside second) and immediate guard closure. Drill 15-20 repetitions per training session.
-(Resistance: Light)
 
 **Phase 3: Week 5-8 - Dynamic Application** - Executing the technique against moving opponents with moderate resistance
 Partner applies controlled forward pressure from turtle or side control positions. Practice recognizing the correct timing window and executing the full sequence against their movement. Partner gradually increases pressure and begins attempting basic counters. Focus on creating space, completing the roll, and establishing guard despite their resistance. 10-15 successful repetitions per session.
-(Resistance: Medium)
 
 **Phase 4: Week 9-12 - Counter Recognition** - Learning to adapt when opponents counter the technique
 Partner actively attempts to counter your Granby roll using sprawls, forward drives, and grip control. Practice recognizing which counter they're using and adapting appropriately (switching to open guard, changing roll direction, etc.). Begin integrating the technique into positional sparring scenarios. 8-10 repetitions against varying counters.
-(Resistance: Medium)
 
 **Phase 5: Month 4+ - Live Integration** - Applying the technique in full resistance sparring
 Use the Granby to Closed Guard in live rolling situations whenever appropriate defensive scenarios arise. Focus on recognizing the correct timing and executing under pressure. Partner offers full resistance and actively works to prevent or counter the technique. Success rate should gradually increase as muscle memory and timing improve through repetition.
-(Resistance: Full)
 
 **Phase 6: Ongoing - Refinement and Variation** - Developing variations and improving efficiency
 Experiment with different entry points (from various bottom positions), develop combination sequences (linking with other escapes), and improve technique efficiency (reducing energy expenditure, increasing speed). Study high-level practitioners executing the technique and identify subtle details that improve success rate. Continue drilling basic mechanics monthly to maintain sharp execution.
-(Resistance: Full)
 
 
 

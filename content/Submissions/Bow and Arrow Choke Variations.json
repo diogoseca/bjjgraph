@@ -16,11 +16,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Back Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Bow and Arrow Choke variations represent a family of highly effective finishing techniques from back control that combine lapel manipulation with lower body control to create an inescapable strangle. Unlike the standard Bow and Arrow which relies on a single configuration, these variations adapt to different defensive responses, body types, and positional contexts. The fundamental principle remains constant across all variations: using the opponent's lapel as a primary choking mechanism while the legs create extension and angle to tighten the strangle. What makes these variations particularly dangerous is their ability to transition seamlessly between different configurations based on the opponent's defensive reactions. Each variation addresses specific scenarios - whether the opponent is defending the lapel grip, fighting the leg position, or attempting to relieve pressure through posture changes. The technical diversity within this system allows practitioners to maintain offensive pressure even as opponents attempt standard defenses. These variations are especially valued in gi competition where lapel control provides mechanical advantages unavailable in no-gi grappling.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,50 +86,43 @@
       "step_number": 1,
       "action": "Secure deep lapel grip",
       "description": "From back control with seat belt established, use your choking side hand (typically the hand that is under their armpit) to reach across and grip the far side of their collar as deeply as possible. The thumb should be inside the collar, and you want your fingers to reach past their carotid artery on the far side. This grip is fundamental - insufficient depth here compromises the entire technique. If the opponent is defending the collar, use your body weight to post them forward momentarily or use your non-choking hand to clear their defensive grips before establishing your deep collar hold.",
-      "timing": "3-5 seconds to establish without rushing",
-      "pressure_level": "Moderate"
+      "timing": "3-5 seconds to establish without rushing"
     },
     {
       "step_number": 2,
       "action": "Control the opposite lapel",
       "description": "With your non-choking hand, reach over their shoulder and grip their near-side lapel at approximately chest level. This grip serves multiple purposes: it prevents them from turning into you, controls their posture, and provides a handle to manipulate their upper body as you transition. The grip should be firm but not your primary focus - your choking hand grip is more important. Some variations feed this lapel across for the choke, while others use it purely for control. Maintain constant tension on both lapels to limit their defensive options.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 3,
       "action": "Secure leg position variation",
       "description": "This is where variations diverge significantly. Classic variation: insert your top leg (away from their head) across their hip/thigh while keeping your bottom hook in place. High variation: bring your top leg higher across their shoulder/neck area to create additional downward pressure. Low variation: keep both legs hooking their hips but prepare to extend. Truck variation: if they turn into you, transition to truck position with both legs controlling their lower body. The leg positioning determines which variation you're executing - choose based on their defensive posture and body position.",
-      "timing": "2-4 seconds for position establishment",
-      "pressure_level": "Light"
+      "timing": "2-4 seconds for position establishment"
     },
     {
       "step_number": 4,
       "action": "Hip escape and angle creation",
       "description": "Begin moving your hips away from their back toward a perpendicular angle. This hip escape is crucial - it transforms the position from back control into the bow and arrow configuration. As you escape your hips, maintain constant tension on your choking grip while using your legs to control their hip/shoulder position. Your body should end up at roughly 90 degrees to their spine. The angle variation you choose depends on their defense: standard angle (perpendicular), high angle (toward their head), or low angle (toward their hips). Each angle addresses different defensive postures.",
-      "timing": "3-5 seconds for complete angle adjustment",
-      "pressure_level": "Moderate"
+      "timing": "3-5 seconds for complete angle adjustment"
     },
     {
       "step_number": 5,
       "action": "Extend legs for tightening mechanism",
       "description": "Begin straightening your legs to create extension force. The top leg pushes against their shoulder/hip while the bottom leg pulls in the opposite direction, creating a bow-like tension in their body. This extension is what transforms a loose collar grip into a tight choke. Extension variation: some practitioners prefer explosive extension, others use progressive pressure. The speed and force of extension should match your training context - slow and controlled in practice, more dynamic in competition. As you extend, monitor your partner's tap signals constantly.",
-      "timing": "2-4 seconds from start of extension to full pressure",
-      "pressure_level": "Firm"
+      "timing": "2-4 seconds from start of extension to full pressure"
     },
     {
       "step_number": 6,
       "action": "Final adjustments and pressure maintenance",
       "description": "With legs extended, make micro-adjustments to maximize pressure. Pull your choking elbow toward your ribs to tighten the collar around their neck. Adjust your body angle slightly if needed - small changes in hip position can significantly affect choking pressure. Ensure your shoulder is driving into the back of their head to prevent them from relieving pressure by chin tucking. Maintain all grips and pressure consistently until the tap comes. If the choke isn't working after 3-5 seconds of full pressure, there's a technical error - don't simply squeeze harder, reassess your grip depth and body angle.",
-      "timing": "1-3 seconds for adjustments",
-      "pressure_level": "Maximum"
+      "timing": "1-3 seconds for adjustments"
     },
     {
       "step_number": 7,
       "action": "Variation transitions based on defense",
       "description": "If the initial variation is defended, seamlessly transition to alternative configurations. If they defend by grabbing your choking hand, switch to a two-handed lapel feed variation. If they turn into you, transition to truck-based bow and arrow. If they push your leg off their shoulder, adjust to the hip-based variation. The key to variation mastery is recognizing defensive patterns and having prepared responses. Each defensive action opens a different variation pathway. Maintain constant pressure throughout transitions - never fully release control while switching between variations.",
-      "timing": "Variable based on opponent response",
-      "pressure_level": "Moderate"
+      "timing": "Variable based on opponent response"
     }
   ],
   "opponent_defense_patterns": [
@@ -168,44 +156,37 @@
     {
       "error": "Releasing back control prematurely before establishing the lapel grip securely",
       "consequence": "Opponent escapes completely as you have neither back control nor a functional choke setup, losing the dominant position entirely",
-      "correction": "Maintain at least one hook and your seat belt until your choking hand has achieved a deep lapel grip that cannot be easily broken. Only then begin the transition to bow and arrow position.",
-      "danger_level": "Low"
+      "correction": "Maintain at least one hook and your seat belt until your choking hand has achieved a deep lapel grip that cannot be easily broken. Only then begin the transition to bow and arrow position."
     },
     {
       "error": "Shallow lapel grip that doesn't reach past the opponent's carotid artery",
       "consequence": "No blood choke develops even with full leg extension - results in ineffective air choke or pure neck crank that causes discomfort without finishing",
-      "correction": "Establish grip depth before everything else. Your fingers should be able to touch the opposite side of their neck through the collar. If you cannot get depth, use your non-choking hand to open space or choose a different submission.",
-      "danger_level": "Medium"
+      "correction": "Establish grip depth before everything else. Your fingers should be able to touch the opposite side of their neck through the collar. If you cannot get depth, use your non-choking hand to open space or choose a different submission."
     },
     {
       "error": "Insufficient hip angle - staying too close to parallel with opponent's spine",
       "consequence": "Leg extension creates pushing force rather than bow-shaped tension, allowing opponent to posture and escape while the choke never tightens properly",
-      "correction": "Escape your hips until you are approximately 90 degrees to their spine. Your shoulders should be positioned perpendicular to their back. The angle is as important as the grip for choking mechanics.",
-      "danger_level": "Low"
+      "correction": "Escape your hips until you are approximately 90 degrees to their spine. Your shoulders should be positioned perpendicular to their back. The angle is as important as the grip for choking mechanics."
     },
     {
       "error": "Extending legs explosively without building progressive pressure",
       "consequence": "Risk of neck injury to training partner and development of poor technique that won't work against experienced opponents who will defend the explosion",
-      "correction": "Build pressure gradually over 3-5 seconds, especially in training. Progressive pressure allows partner to tap safely and develops the sensitivity needed to finish against resistant opponents.",
-      "danger_level": "CRITICAL"
+      "correction": "Build pressure gradually over 3-5 seconds, especially in training. Progressive pressure allows partner to tap safely and develops the sensitivity needed to finish against resistant opponents."
     },
     {
       "error": "Focusing entirely on leg extension while neglecting hand/arm mechanics",
       "consequence": "The collar loosens as you extend your legs, creating space that eliminates choking pressure despite proper body positioning",
-      "correction": "As you extend your legs, simultaneously pull your choking elbow toward your ribs and drive your shoulder into their head. Hand, leg, and shoulder actions must coordinate - any single element alone is insufficient.",
-      "danger_level": "Low"
+      "correction": "As you extend your legs, simultaneously pull your choking elbow toward your ribs and drive your shoulder into their head. Hand, leg, and shoulder actions must coordinate - any single element alone is insufficient."
     },
     {
       "error": "Not monitoring tap signals during the finishing sequence",
       "consequence": "Partner loses consciousness or suffers neck injury because taps were missed during the intense focus on technique execution",
-      "correction": "Maintain constant awareness of your partner's tapping throughout the submission. If you cannot see their hands, feel for taps on your body. If they go limp or stop resisting suddenly, release immediately even without a tap.",
-      "danger_level": "CRITICAL"
+      "correction": "Maintain constant awareness of your partner's tapping throughout the submission. If you cannot see their hands, feel for taps on your body. If they go limp or stop resisting suddenly, release immediately even without a tap."
     },
     {
       "error": "Using only neck cranking pressure without proper collar positioning",
       "consequence": "Creates painful cervical spine stress without functional blood choke, leading to injury risk and developing ineffective submission mechanics",
-      "correction": "Ensure your lapel is positioned over the carotid arteries, not just wrapped around the neck. The finish should come from circulation restriction, not pure cranking. If it feels like a neck crank, adjust your collar position.",
-      "danger_level": "High"
+      "correction": "Ensure your lapel is positioned over the carotid arteries, not just wrapped around the neck. The finish should come from circulation restriction, not pure cranking. If it feels like a neck crank, adjust your collar position."
     }
   ],
   "variations_and_setups": [
@@ -302,50 +283,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn grip mechanics, body positioning, and variation differences through demonstration and solo drilling. Practice lapel feeding on stationary partner. Understand anatomical targets and safety requirements before any live practice.",
-      "resistance_level": "None",
-      "safety_emphasis": "Study tap signals, release protocols, and difference between blood choke versus neck crank. Understand that this phase involves zero pressure - only positioning."
-    },
-    {
-      "phase": "Slow Cooperative Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Practice all variations from established back control with fully cooperative partner. Stop at control position without applying finishing pressure. Partner provides feedback on grip depth and body angle. Rotate through all major variations to understand their differences.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Apply no choking pressure - stop when collar grip is deep and legs are positioned. Partner verbally indicates when collar position feels correct. Practice release protocol multiple times."
-    },
-    {
-      "phase": "Light Resistance Drilling",
-      "timeframe": "Week 5-8",
-      "focus": "Partner provides mild defensive resistance - light grip fighting, postural defense, and basic escape attempts. Practice reading which variation is most appropriate based on their defense. Begin applying very light pressure (20-30% intensity) to understand feedback, stopping well before any discomfort.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Application takes minimum 5-7 seconds. Partner taps early to indicate proper pressure development. Emphasize technical precision over force."
-    },
-    {
-      "phase": "Moderate Resistance with Variation Selection",
-      "timeframe": "Week 9-16",
-      "focus": "Partner provides realistic but not maximal defensive resistance. Practice seamlessly transitioning between variations based on their defensive patterns. Begin applying moderate pressure (50-60% intensity) that creates genuine choking sensation but with slow progressive build-up.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Minimum 4-5 second application time from start of pressure to full intensity. Both practitioners monitor tap signals constantly. Discuss technique after each repetition to ensure safety."
-    },
-    {
-      "phase": "Live Situational Sparring",
-      "timeframe": "Week 17-24",
-      "focus": "Start from back control with live resistance - partner attempts realistic escapes while you work to establish and finish bow and arrow variations. Apply competition-style pressure but in training context with safety priority. Practice the complete chain from back control maintenance through variation selection to finish.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Apply progressive pressure over 3-4 seconds minimum. Release immediately at tap with no delay. Never hold choke after tap to 'teach a lesson' or prove the technique works. Partner must have clear tap access at all times."
-    },
-    {
-      "phase": "Competition Preparation",
-      "timeframe": "Week 25+",
-      "focus": "Integrate bow and arrow variations into full positional sparring from all positions. Practice transitions from various back takes into immediate bow and arrow setups. Develop automatic variation selection based on opponent defensive patterns. Train both tournament pacing and application timing.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain 3-second minimum application even in competition simulation. Develop habit of immediate release at tap that will carry over to competition. Practice situational awareness to ensure referee can see tap signals in competition context."
-    }
-  ],
   "from_positions": [
     "Back Control",
     "Seat Belt Control Back",
@@ -406,5 +343,6 @@
       "name": "Loop Choke",
       "relationship": "Alternative lapel-based choke system with similar grip and angle requirements"
     }
-  ]
+  ],
+  "success_rate": 58
 }

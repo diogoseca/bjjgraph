@@ -10,11 +10,6 @@
     "back-take",
     "inversion"
   ],
-  "success_rates": {
-    "beginner": 25,
-    "intermediate": 45,
-    "advanced": 65
-  },
   "overview": "The Bolo Sweep, short for Berimbolo, is one of the most revolutionary techniques in modern Brazilian Jiu-Jitsu, fundamentally transforming how practitioners approach the De La Riva guard. This dynamic sweeping technique utilizes rotation and inversion to destabilize opponents while simultaneously creating opportunities to take the back. The movement combines elements of traditional sweeping mechanics with gymnastic-style inversion, making it particularly effective against standing opponents who base heavily on their De La Riva-hooked leg. The technique's effectiveness lies in its ability to create a rotational force that opponents cannot easily counter without risking being swept or having their back taken. What makes the Bolo particularly powerful is its scalability - it can be executed as a pure sweep to off-balance and reverse positions, or it can seamlessly transition into back-taking sequences when the opponent attempts to defend the initial sweep. The technique has become a cornerstone of modern sport BJJ competition, particularly in the lighter weight divisions where flexibility and speed can be maximized.",
   "key_principles": [
     "Control opponent's far leg with De La Riva hook throughout the rotation",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish De La Riva control",
-      "description": "Secure De La Riva hook on opponent's far leg with your outside leg, threading it deep behind their knee. Simultaneously grip their collar or same-side sleeve with your hand, creating a strong connection that prevents them from easily disengaging or circling away from your guard.",
-      "timing": "Initial setup phase"
+      "description": "Secure De La Riva hook on opponent's far leg with your outside leg, threading it deep behind their knee. Simultaneously grip their collar or same-side sleeve with your hand, creating a strong connection that prevents them from easily disengaging or circling away from your guard."
     },
     {
       "step_number": 2,
       "action": "Create angle and off-balance",
-      "description": "Pull opponent forward and slightly to the side using your collar or sleeve grip while simultaneously extending your De La Riva hook. This forces their weight onto the hooked leg and creates the foundational angle needed for your inversion. Your free leg should be framing against their near hip or controlling their other leg.",
-      "timing": "As opponent begins to pass or stand"
+      "description": "Pull opponent forward and slightly to the side using your collar or sleeve grip while simultaneously extending your De La Riva hook. This forces their weight onto the hooked leg and creates the foundational angle needed for your inversion. Your free leg should be framing against their near hip or controlling their other leg."
     },
     {
       "step_number": 3,
       "action": "Begin inversion",
-      "description": "Release your frame leg and begin rotating your hips underneath your body, turning your shoulders toward the mat. Your De La Riva hook remains active throughout this movement. Start threading your head and shoulders under the opponent's posted leg, creating a corkscrew-like rotation that takes you beneath their base.",
-      "timing": "Explosive movement as you feel opponent's weight shift"
+      "description": "Release your frame leg and begin rotating your hips underneath your body, turning your shoulders toward the mat. Your De La Riva hook remains active throughout this movement. Start threading your head and shoulders under the opponent's posted leg, creating a corkscrew-like rotation that takes you beneath their base."
     },
     {
       "step_number": 4,
       "action": "Thread under opponent's leg",
-      "description": "Continue your rotation, threading your entire upper body under the opponent's De La Riva-hooked leg. Your shoulders should pass completely underneath their thigh as you maintain the hook. Pull strongly with your grip to bring opponent's upper body forward and down, compromising their posture and balance.",
-      "timing": "Mid-rotation, continuous fluid motion"
+      "description": "Continue your rotation, threading your entire upper body under the opponent's De La Riva-hooked leg. Your shoulders should pass completely underneath their thigh as you maintain the hook. Pull strongly with your grip to bring opponent's upper body forward and down, compromising their posture and balance."
     },
     {
       "step_number": 5,
       "action": "Secure back exposure",
-      "description": "As you complete the rotation and your shoulders emerge on the other side of their leg, you'll find yourself positioned behind or beside the opponent. Your De La Riva hook naturally transitions to control their far leg or hip. Immediately begin establishing back control grips or consolidating top position depending on how opponent reacts.",
-      "timing": "As rotation completes"
+      "description": "As you complete the rotation and your shoulders emerge on the other side of their leg, you'll find yourself positioned behind or beside the opponent. Your De La Riva hook naturally transitions to control their far leg or hip. Immediately begin establishing back control grips or consolidating top position depending on how opponent reacts."
     },
     {
       "step_number": 6,
       "action": "Finish sweep or take back",
-      "description": "Complete the technique by either sweeping opponent to their back (if they base heavily) or climbing onto their back for back control (if they turn away to defend). Secure seat belt grip and both hooks if taking the back, or establish side control or mount if completing as a traditional sweep. Maintain aggressive forward pressure to prevent re-guard.",
-      "timing": "Immediate transition to dominant position"
+      "description": "Complete the technique by either sweeping opponent to their back (if they base heavily) or climbing onto their back for back control (if they turn away to defend). Secure seat belt grip and both hooks if taking the back, or establish side control or mount if completing as a traditional sweep. Maintain aggressive forward pressure to prevent re-guard."
     }
   ],
   "common_counters": [
@@ -125,26 +114,22 @@
     {
       "phase": "Week 1-2: Static Drilling",
       "focus": "Basic inversion mechanics and body awareness",
-      "description": "Practice the inversion movement in isolation with no resistance. Partner remains stationary in De La Riva position. Focus on smooth rotation, maintaining hook connection, and proper threading of shoulders under opponent's leg. Repeat 20-30 repetitions per training session to build muscle memory.",
-      "resistance_level": "None"
+      "description": "Practice the inversion movement in isolation with no resistance. Partner remains stationary in De La Riva position. Focus on smooth rotation, maintaining hook connection, and proper threading of shoulders under opponent's leg. Repeat 20-30 repetitions per training session to build muscle memory."
     },
     {
       "phase": "Week 3-4: Cooperative Movement",
       "focus": "Timing and grip coordination",
-      "description": "Partner provides light resistance by maintaining base but not actively countering. Practice coordinating your grip pulls with your rotation. Work on creating the initial angle before inverting. Begin recognizing when opponent's weight is properly positioned for the technique. Add finishing sequences - either sweep completion or back-take.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by maintaining base but not actively countering. Practice coordinating your grip pulls with your rotation. Work on creating the initial angle before inverting. Begin recognizing when opponent's weight is properly positioned for the technique. Add finishing sequences - either sweep completion or back-take."
     },
     {
       "phase": "Week 5-8: Active Counters",
       "focus": "Problem-solving against common defenses",
-      "description": "Partner provides specific counters - stepping over, posting hands, pulling leg back, sprawling. Practice recognizing and responding to each counter appropriately. Develop decision-making skills for when to continue Bolo versus when to transition to alternative attacks. Begin chaining Bolo attempts with other De La Riva attacks.",
-      "resistance_level": "Medium"
+      "description": "Partner provides specific counters - stepping over, posting hands, pulling leg back, sprawling. Practice recognizing and responding to each counter appropriately. Develop decision-making skills for when to continue Bolo versus when to transition to alternative attacks. Begin chaining Bolo attempts with other De La Riva attacks."
     },
     {
       "phase": "Week 9-12: Live Integration",
       "focus": "Competition timing and positioning",
-      "description": "Execute Bolo attempts during live positional sparring from De La Riva guard. Partner uses full resistance and all available defenses. Focus on setting up the technique from realistic guard situations. Work on combinations - Bolo to X-Guard, Bolo to Kiss of the Dragon, Bolo to Triangle. Begin using technique in full sparring rounds.",
-      "resistance_level": "Full"
+      "description": "Execute Bolo attempts during live positional sparring from De La Riva guard. Partner uses full resistance and all available defenses. Focus on setting up the technique from realistic guard situations. Work on combinations - Bolo to X-Guard, Bolo to Kiss of the Dragon, Bolo to Triangle. Begin using technique in full sparring rounds."
     }
   ],
   "variants_and_adaptations": [
@@ -167,33 +152,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary control mechanism that must be maintained throughout the Bolo rotation?",
-      "answer": "The De La Riva hook on the opponent's far leg must be maintained throughout the entire rotation. This hook is the foundational control that prevents the opponent from stepping away, creates the leverage for the sweep, and guides your body through the proper rotational path. Releasing this hook prematurely is one of the most common errors that causes the technique to fail.",
-      "difficulty": "Beginner"
+      "answer": "The De La Riva hook on the opponent's far leg must be maintained throughout the entire rotation. This hook is the foundational control that prevents the opponent from stepping away, creates the leverage for the sweep, and guides your body through the proper rotational path. Releasing this hook prematurely is one of the most common errors that causes the technique to fail."
     },
     {
       "question": "How should you respond if your opponent steps over your inverting body with their free leg during the Bolo?",
-      "answer": "When the opponent steps over with their free leg, immediately hook that stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard position. This counter uses their defensive stepping motion against them, turning their escape attempt into an opportunity for a different guard position with strong sweeping options. The key is recognizing the step early and reacting immediately rather than trying to force the original Bolo.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent steps over with their free leg, immediately hook that stepping leg with your free leg and transition to X-Guard or Single Leg X-Guard position. This counter uses their defensive stepping motion against them, turning their escape attempt into an opportunity for a different guard position with strong sweeping options. The key is recognizing the step early and reacting immediately rather than trying to force the original Bolo."
     },
     {
       "question": "What angle must be created before initiating the inversion, and how is it established?",
-      "answer": "Before inverting, you must create a 30-45 degree angle by pulling the opponent forward and to the side using your collar or sleeve grip while extending your De La Riva hook. This angle is critical because it off-balances the opponent onto their hooked leg and creates the spatial opening for your rotation. Attempting to invert without this angle results in your rotation being blocked by the opponent's base, leaving you stuck underneath with no leverage.",
-      "difficulty": "Intermediate"
+      "answer": "Before inverting, you must create a 30-45 degree angle by pulling the opponent forward and to the side using your collar or sleeve grip while extending your De La Riva hook. This angle is critical because it off-balances the opponent onto their hooked leg and creates the spatial opening for your rotation. Attempting to invert without this angle results in your rotation being blocked by the opponent's base, leaving you stuck underneath with no leverage."
     },
     {
       "question": "What are the two primary finishing options after completing the Bolo rotation, and how do you decide between them?",
-      "answer": "The two primary finishes are: (1) completing a traditional sweep to top position, and (2) taking the back with seat belt control and hooks. The decision depends on the opponent's defensive reaction. If they base heavily with their hands or turn toward you to defend, complete the sweep to establish top position (side control or mount). If they turn away or turtle to defend the sweep, climb onto their back and establish back control with seat belt grip and hooks. Advanced practitioners make this decision mid-rotation based on real-time feedback from the opponent's weight distribution and defensive movements.",
-      "difficulty": "Advanced"
+      "answer": "The two primary finishes are: (1) completing a traditional sweep to top position, and (2) taking the back with seat belt control and hooks. The decision depends on the opponent's defensive reaction. If they base heavily with their hands or turn toward you to defend, complete the sweep to establish top position (side control or mount). If they turn away or turtle to defend the sweep, climb onto their back and establish back control with seat belt grip and hooks. Advanced practitioners make this decision mid-rotation based on real-time feedback from the opponent's weight distribution and defensive movements."
     },
     {
       "question": "Why is the Bolo particularly effective against opponents who base heavily on their De La Riva-hooked leg?",
-      "answer": "When an opponent bases heavily on their De La Riva-hooked leg, they concentrate their weight and structural support on that single point of contact. The Bolo's rotational mechanics create a circular force that attacks perpendicular to this linear base structure. As you rotate underneath, your De La Riva hook pulls their base leg in a direction they cannot effectively resist without losing balance entirely. Their heavy weight commitment, which would normally make them more stable, actually works against them by creating momentum that accelerates their fall once the rotational sweep mechanics overcome their base. This is a perfect example of using opponent's strength and weight commitment against them through superior positioning and leverage.",
-      "difficulty": "Advanced"
+      "answer": "When an opponent bases heavily on their De La Riva-hooked leg, they concentrate their weight and structural support on that single point of contact. The Bolo's rotational mechanics create a circular force that attacks perpendicular to this linear base structure. As you rotate underneath, your De La Riva hook pulls their base leg in a direction they cannot effectively resist without losing balance entirely. Their heavy weight commitment, which would normally make them more stable, actually works against them by creating momentum that accelerates their fall once the rotational sweep mechanics overcome their base. This is a perfect example of using opponent's strength and weight commitment against them through superior positioning and leverage."
     },
     {
       "question": "How does the Bolo exemplify modern sport BJJ's evolution beyond traditional sweeping mechanics?",
-      "answer": "The Bolo represents a paradigm shift in guard play by incorporating gymnastic-style inversion and three-dimensional rotation into traditional sweeping concepts. Unlike classical sweeps that primarily use linear or two-dimensional leverage to off-balance opponents, the Bolo creates rotational momentum through space underneath the opponent's base. This evolution reflects modern sport BJJ's acceptance of highly athletic, dynamic movements that would be impractical in self-defense contexts but are devastatingly effective in competition settings. The technique also demonstrates how modern practitioners have developed systematic approaches to back-taking directly from guard positions, bypassing traditional positional hierarchies. The Bolo's success has influenced training methodology across the art, with increased emphasis on flexibility, inversion drills, and rotational awareness becoming standard in competition-focused academies.",
-      "difficulty": "Advanced"
+      "answer": "The Bolo represents a paradigm shift in guard play by incorporating gymnastic-style inversion and three-dimensional rotation into traditional sweeping concepts. Unlike classical sweeps that primarily use linear or two-dimensional leverage to off-balance opponents, the Bolo creates rotational momentum through space underneath the opponent's base. This evolution reflects modern sport BJJ's acceptance of highly athletic, dynamic movements that would be impractical in self-defense contexts but are devastatingly effective in competition settings. The technique also demonstrates how modern practitioners have developed systematic approaches to back-taking directly from guard positions, bypassing traditional positional hierarchies. The Bolo's success has influenced training methodology across the art, with increased emphasis on flexibility, inversion drills, and rotational awareness becoming standard in competition-focused academies."
     }
   ],
   "safety_considerations": "The Bolo requires significant spinal flexibility and inversion ability, making proper warm-up essential to prevent neck and back injuries. Practitioners should develop neck strength and flexibility through progressive drilling before attempting the technique at full speed. When practicing, ensure adequate mat space is available since the rotation can carry practitioners several feet from starting position. Partners should avoid posting hands directly on the inverting practitioner's head or neck, and both participants should be aware of potential collision with other training pairs. Beginners should practice the inversion mechanics slowly with cooperative partners before adding resistance. Those with pre-existing neck, back, or shoulder injuries should consult medical professionals before training this technique. In competition, be aware of legal vs illegal variations under IBJJF rules, particularly regarding the direction of opponent's forced rotation.",
@@ -265,5 +244,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 55
 }

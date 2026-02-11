@@ -167,7 +167,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -244,13 +244,13 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Dominant Mount Position**: Secure high mount position with hips heavy on opponent's chest and knees tight to their ribcage. Your weight should be distributed forward, making bridging difficult while maintaining balance. Control opponent's frames by either riding very high (chest-to-face pressure) or controlling their elbows with underhooks. (Timing: Initial position establishment: 2-3 seconds) [Pressure: Moderate]
-2. **Grip Own Sleeve**: With your non-dominant hand, reach across and grip your dominant hand's sleeve at the wrist or slightly above. This grip should be deep (four fingers inside the sleeve) to create a rigid lever for the choke. Keep this gripping hand close to your body initially to hide your intention. (Timing: Grip establishment: 1-2 seconds) [Pressure: Light]
-3. **Thread Choking Arm Behind Head**: Feed your dominant hand (the one whose sleeve you're gripping) behind the opponent's head, aiming to position your forearm across the far side of their neck. Your elbow should pass close to their ear. Thread deeply enough that your wrist bone (blade) makes contact with the far side carotid artery. Maintain mount stability by keeping weight forward. (Timing: Threading motion: 2-3 seconds) [Pressure: Light]
-4. **Establish Blade Position**: Position the blade of your wrist (thumb-side) against the far carotid artery. Your hand should be relaxed, not making a fist. The proper angle targets the side of the neck, not the front (trachea). Your palm should generally face toward their far shoulder. Ensure your elbow is tight to their head to prevent them from inserting defensive hands. (Timing: Blade positioning: 1-2 seconds) [Pressure: Light]
-5. **Create Choking Frame**: Your non-dominant forearm (the one gripping your sleeve) now crosses over the front of the opponent's neck/chin area. This arm doesn't apply direct choking pressure but provides the frame that your blade arm works against. Pull your sleeve-gripping hand toward your own chest while maintaining the blade position on the far side. (Timing: Frame creation: 1-2 seconds) [Pressure: Moderate]
-6. **Apply Bilateral Pressure**: Squeeze your elbows together as if trying to touch them behind the opponent's head. Your blade arm presses into the far carotid while your frame arm creates opposing pressure on the near side. The squeeze should be progressive and steady, not sudden. Most submissions occur within 3-5 seconds of proper bilateral pressure. Monitor partner closely for tap signals. (Timing: Final squeeze: 3-5 seconds progressive pressure) [Pressure: Firm]
-7. **Maintain Position Through Completion**: Keep your hips heavy and base wide to prevent bridging escapes during the choke. Your chest should stay low and close to the opponent to eliminate space. If they attempt to bridge, post with your head on the mat and maintain elbow pressure. Release immediately upon tap signal by opening your arms and removing pressure from the neck. (Timing: Position maintenance: Throughout choke application) [Pressure: Moderate]
+1. **Establish Dominant Mount Position**: Secure high mount position with hips heavy on opponent's chest and knees tight to their ribcage. Your weight should be distributed forward, making bridging difficult while maintaining balance. Control opponent's frames by either riding very high (chest-to-face pressure) or controlling their elbows with underhooks. (Timing: Initial position establishment: 2-3 seconds)
+2. **Grip Own Sleeve**: With your non-dominant hand, reach across and grip your dominant hand's sleeve at the wrist or slightly above. This grip should be deep (four fingers inside the sleeve) to create a rigid lever for the choke. Keep this gripping hand close to your body initially to hide your intention. (Timing: Grip establishment: 1-2 seconds)
+3. **Thread Choking Arm Behind Head**: Feed your dominant hand (the one whose sleeve you're gripping) behind the opponent's head, aiming to position your forearm across the far side of their neck. Your elbow should pass close to their ear. Thread deeply enough that your wrist bone (blade) makes contact with the far side carotid artery. Maintain mount stability by keeping weight forward. (Timing: Threading motion: 2-3 seconds)
+4. **Establish Blade Position**: Position the blade of your wrist (thumb-side) against the far carotid artery. Your hand should be relaxed, not making a fist. The proper angle targets the side of the neck, not the front (trachea). Your palm should generally face toward their far shoulder. Ensure your elbow is tight to their head to prevent them from inserting defensive hands. (Timing: Blade positioning: 1-2 seconds)
+5. **Create Choking Frame**: Your non-dominant forearm (the one gripping your sleeve) now crosses over the front of the opponent's neck/chin area. This arm doesn't apply direct choking pressure but provides the frame that your blade arm works against. Pull your sleeve-gripping hand toward your own chest while maintaining the blade position on the far side. (Timing: Frame creation: 1-2 seconds)
+6. **Apply Bilateral Pressure**: Squeeze your elbows together as if trying to touch them behind the opponent's head. Your blade arm presses into the far carotid while your frame arm creates opposing pressure on the near side. The squeeze should be progressive and steady, not sudden. Most submissions occur within 3-5 seconds of proper bilateral pressure. Monitor partner closely for tap signals. (Timing: Final squeeze: 3-5 seconds progressive pressure)
+7. **Maintain Position Through Completion**: Keep your hips heavy and base wide to prevent bridging escapes during the choke. Your chest should stay low and close to the opponent to eliminate space. If they attempt to bridge, post with your head on the mat and maintain elbow pressure. Release immediately upon tap signal by opening your arms and removing pressure from the neck. (Timing: Position maintenance: Throughout choke application)
 
 
 </section>
@@ -270,7 +270,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying pressure to trachea/windpipe instead of carotid arteries [High DANGER]
+- **Mistake**: Applying pressure to trachea/windpipe instead of carotid arteries
   - **Consequence**: Causes pain and coughing but no submission, damages trachea, creates bad training environment
   - **Correction**: Ensure blade of wrist targets the side of the neck, not the front. Your wrist bone should be against their carotid artery. Proper angle often feels like your hand is reaching toward their far shoulder.
 - **Mistake**: Sitting up too high in mount, losing hip pressure during choke setup
@@ -279,7 +279,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 - **Mistake**: Leaving elbow gaps that allow opponent to insert defensive hands
   - **Consequence**: Opponent blocks the choke before it's established, forcing you to start over or abandon the attempt
   - **Correction**: Keep your choking arm elbow tight to their head as you thread it through. Think of wrapping your arm around their head, not just sliding it behind. The elbow should never lift away from their skull during setup.
-- **Mistake**: Jerking or spiking the choke application instead of progressive pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke application instead of progressive pressure
   - **Consequence**: Risk of neck injury, potential loss of consciousness without warning, violates training safety protocols
   - **Correction**: Apply the squeeze gradually over 3-5 seconds, giving your partner ample time to recognize the submission and tap. Progressive pressure is both safer and more effective than explosive force.
 - **Mistake**: Shallow sleeve grip providing insufficient leverage
@@ -288,7 +288,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 - **Mistake**: Focusing entirely on choke while ignoring positional maintenance
   - **Consequence**: Opponent escapes mount during submission attempt, position is lost, submission fails
   - **Correction**: Maintain mount fundamentals throughout the technique - wide base, heavy hips, chest pressure. If you feel the mount becoming unstable, pause the choke and re-establish position. Position before submission always.
-- **Mistake**: Using the technique against partners with neck injuries or continuing past tap [CRITICAL DANGER]
+- **Mistake**: Using the technique against partners with neck injuries or continuing past tap
   - **Consequence**: Serious injury potential, violation of training ethics, possible long-term damage to partner
   - **Correction**: Always ask partners about injuries before training, release immediately on any tap signal, and apply minimal pressure during learning phases. Safety is always the top priority in training.
 
@@ -357,43 +357,6 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks)
-- Focus: Learn proper hand positioning, blade angle, and safety protocols without any resistance. Partner remains completely still while you practice threading, grip establishment, and proper elbow positioning. Emphasis on understanding carotid artery targets versus trachea.
-- Resistance: None
-- Safety: Study anatomy of the neck and understand carotid artery locations. Practice proper blade angle with zero pressure. Learn all tap signals and release protocols. Maximum pressure during this phase should be 10-20% of finishing pressure.
-
-**Slow Practice with Communication (Weeks 3-4)** (Weeks 3-4)
-- Focus: Execute complete technique slowly with partner providing verbal feedback on pressure and positioning. Partner should verbally indicate when they feel proper pressure on carotid arteries versus trachea. Practice progressive pressure application over 5-7 seconds.
-- Resistance: Zero resistance
-- Safety: Partner verbal feedback is mandatory - they must tell you if pressure is on trachea versus carotid arteries. Practice immediate release upon any tap signal. Pressure should reach 30-40% maximum. Both partners monitor for proper application speed.
-
-**Mild Defensive Movement (Weeks 5-8)** (Weeks 5-8)
-- Focus: Partner begins adding basic defensive movements like head turning and hand framing, but not full resistance. Practice maintaining proper position and choke mechanics while adapting to movement. Work on timing the choke during opponent's positional adjustments.
-- Resistance: Mild resistance
-- Safety: Maintain 3-5 second application speed even with movement. Release immediately if position becomes unstable. Partner should still provide feedback on pressure location. Maximum pressure 50-60% of finishing force.
-
-**Realistic Defense Practice (Weeks 9-12)** (Weeks 9-12)
-- Focus: Partner uses realistic defensive techniques including bridge and roll attempts, aggressive hand fighting, and head turning. Practice problem-solving when opponents defend properly. Integrate Ezekiel with other mount attacks to create dilemmas.
-- Resistance: Realistic resistance
-- Safety: Both partners must maintain safety awareness despite increased intensity. Tap early if choke is properly applied. Continue progressive pressure application. Understand that training partners deserve protection even during realistic practice.
-
-**Live Rolling Integration (Weeks 13+)** (Week 13 onwards)
-- Focus: Attempt Ezekiel during live rolling from appropriate positions. Learn to recognize setup opportunities and combine with other attacks. Develop timing for when opponent is most vulnerable. Practice maintaining position even when submission fails.
-- Resistance: Full resistance
-- Safety: Apply submission at appropriate speed for training context (3-5 seconds minimum). Tap early to protect training partners even in competitive rolling. Monitor partner fatigue and stress levels. Release immediately on tap regardless of rolling intensity.
-
-**Ongoing Refinement and Teaching** (Ongoing)
-- Focus: Continue refining technique details, teach to less experienced practitioners, study high-level competition applications, and develop personal variations. Maintain safety standards even as technique becomes automatic.
-- Resistance: Full resistance
-- Safety: Model proper safety protocols when teaching others. Share safety lessons learned from training. Protect all partners regardless of their experience level. Understand that technique mastery includes safety mastery.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -450,6 +413,7 @@ Strategically, the Ezekiel serves multiple purposes beyond just finishing the su
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

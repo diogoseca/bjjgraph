@@ -157,7 +157,7 @@ This pass represents a critical skill for anyone competing in gi BJJ where moder
 Strategically, this technique should be deployed when you recognize squid guard early and before the bottom player establishes secondary grips or leg entanglements that would compound the problem. The pressure pass works best against opponents who rely primarily on the lapel configuration without developing complementary guard retention skills. Against experienced lapel players who chain multiple configurations together, combining pressure with technical lapel clearing produces superior results.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this technique should be deployed when you recognize squid guard 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure collar control**: With your free hand (not wrapped in lapel), establish a deep cross-collar grip on the same side as your trapped arm. This grip prevents opponent from sitting up and provides anchor point for pressure. (Timing: Immediately upon recognizing squid guard configuration)
-2. **Lower level and drive forward**: Drop your hips low and begin driving your chest forward into opponent's chest. Your trapped arm will pull tight against the lapel wrap—accept this and continue forward pressure. Head drives into opponent's far shoulder. (Timing: Smooth continuous motion, not explosive)
-3. **Eliminate hip space**: As you drive forward, your hips should follow your chest, closing all space between your hips and opponent's hips. The squid guard loses effectiveness when there's no space for the bottom player to create angles. (Timing: Continuous pressure without pausing)
-4. **Walk legs around**: While maintaining heavy chest pressure, begin walking your legs around toward opponent's head. Your trapped arm will naturally begin to extract from the lapel wrap as you change angles. Keep hips heavy throughout. (Timing: Methodical steps, maintaining pressure)
-5. **Establish crossface**: As your angle changes and arm begins freeing from the wrap, switch your now-free arm to establish crossface control. Drive your forearm across opponent's face, turning their head away and preventing them from following your movement. (Timing: As soon as arm clears lapel)
-6. **Complete to side control**: Finish walking your legs perpendicular to opponent's body while maintaining crossface and chest pressure. Secure hip control with your near arm blocking their far hip. Settle your weight and establish consolidated side control position. (Timing: Smooth transition without lifting pressure)
+1. **Secure collar control**: With your free hand (not wrapped in lapel), establish a deep cross-collar grip on the same side as your trapped arm. This grip prevents opponent from sitting up and provides anchor point for pressure.
+2. **Lower level and drive forward**: Drop your hips low and begin driving your chest forward into opponent's chest. Your trapped arm will pull tight against the lapel wrap—accept this and continue forward pressure. Head drives into opponent's far shoulder.
+3. **Eliminate hip space**: As you drive forward, your hips should follow your chest, closing all space between your hips and opponent's hips. The squid guard loses effectiveness when there's no space for the bottom player to create angles.
+4. **Walk legs around**: While maintaining heavy chest pressure, begin walking your legs around toward opponent's head. Your trapped arm will naturally begin to extract from the lapel wrap as you change angles. Keep hips heavy throughout.
+5. **Establish crossface**: As your angle changes and arm begins freeing from the wrap, switch your now-free arm to establish crossface control. Drive your forearm across opponent's face, turning their head away and preventing them from following your movement.
+6. **Complete to side control**: Finish walking your legs perpendicular to opponent's body while maintaining crossface and chest pressure. Secure hip control with your near arm blocking their far hip. Settle your weight and establish consolidated side control position.
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, this technique should be deployed when you recognize squid guard 
 ## Training Progressions
 **Week 1-2** - Pressure mechanics
 Practice driving heavy forward pressure from squid guard position without attempting to complete the pass. Partner holds squid guard configuration while you focus on proper weight distribution, hip position, and maintaining chest contact despite the arm wrap.
-(Resistance: None)
 
 **Week 3-4** - Pass completion
 Add the leg walking sequence and side control finish. Partner provides light resistance and allows pass completion. Focus on maintaining continuous pressure throughout the transition and proper crossface establishment.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner attempts specific counters including sit-up back take attempts and guard reconfiguration. Practice recognizing counter timing and adjusting pressure accordingly. Develop ability to complete pass despite active resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply pressure pass in live rolling starting from squid guard position. Partner uses full resistance and any counter available. Develop timing for when pressure pass is appropriate versus when technical clearing is better option.
-(Resistance: Full)
 
 
 

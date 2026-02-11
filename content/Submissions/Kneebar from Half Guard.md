@@ -157,7 +157,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 **Type**: Leg Lock
 **Target Area**: Knee joint and posterior cruciate ligament
 **Starting Position**: [[Half Guard]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -230,12 +230,12 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure underhook and create off-balancing angle**: From bottom half guard, establish a deep underhook on the trapped leg side. Drive your underhook hand toward the opponent's far shoulder while using your bottom leg hook to elevate their trapped leg. This off-balances them forward and loads their weight onto their hands, preventing them from sitting back to defend the leg attack. Your free hand should control their wrist or tricep to prevent them from posting and creating base. (Timing: 1-2 seconds) [Pressure: Moderate]
-2. **Transition hips to perpendicular angle**: Shrimp your hips out toward the trapped leg side while maintaining your leg entanglement. Your goal is to create a 90-degree angle between your torso and the opponent's body. As you shrimp, begin to swing your top leg (the leg not in the half guard lockdown) over the opponent's back or shoulder. This rotation is critical—you must achieve perpendicular alignment to create proper kneebar mechanics. Keep the bottom leg (half guard hook) tight to prevent them from pulling their leg free during the transition. (Timing: 2-3 seconds) [Pressure: Moderate]
-3. **Establish leg isolation with both legs**: Complete your hip rotation so your body is perpendicular to your opponent. Your bottom leg (the original half guard hook) should now be positioned behind their knee, while your top leg swings over their hip or back to prevent them from rolling forward or standing. Create a figure-four position with your legs if possible—bottom leg behind their knee, top leg crossed over, locking at the ankles. This isolation is crucial: their trapped leg should be completely immobilized between your legs with no ability to rotate or pull free. (Timing: 1-2 seconds) [Pressure: Firm]
-4. **Control opponent's hip and secure position**: With your legs controlling the knee and preventing rotation, immediately address their hip with your hands. Your primary objective is to prevent them from rotating toward you (which would relieve pressure on the knee) or away from you (which could allow them to roll out). Cup their hip or belt with both hands, or use one hand on the hip and one controlling their far leg. Pull their hip toward you slightly to flatten them and eliminate rotation potential. This hip control is often the difference between a successful finish and a failed attempt. (Timing: 1 second) [Pressure: Firm]
-5. **Position the knee joint on your centerline**: Adjust your body so the opponent's knee joint sits directly on your body's centerline—typically this means their knee is positioned between your chest and hip. The back of their knee should be pressed against your torso, creating the fulcrum point for the submission. Your legs should be squeezing their lower leg toward your hips, creating tension on the joint. Ensure their toes are pointed away from you (preventing knee rotation) and their leg is straight or slightly bent. Curl their foot toward their shin using your arm if needed to increase pressure. (Timing: 1-2 seconds) [Pressure: Moderate]
-6. **Apply progressive hip extension to finish**: With all controls in place, initiate the finish by arching your hips upward while maintaining the opponent's leg position. Drive your hips up toward the ceiling while simultaneously pulling their ankle or foot toward your chest. The combination creates hyperextension at the knee joint across the fulcrum point of your body. Apply pressure SLOWLY and progressively—this is not a sudden jerk but a steady increase in tension. Watch for the tap signal and be prepared to release immediately. The finish comes from hip thrust, not from pulling the leg down with your arms. (Timing: 3-5 seconds progressive application) [Pressure: Maximum]
+1. **Secure underhook and create off-balancing angle**: From bottom half guard, establish a deep underhook on the trapped leg side. Drive your underhook hand toward the opponent's far shoulder while using your bottom leg hook to elevate their trapped leg. This off-balances them forward and loads their weight onto their hands, preventing them from sitting back to defend the leg attack. Your free hand should control their wrist or tricep to prevent them from posting and creating base. (Timing: 1-2 seconds)
+2. **Transition hips to perpendicular angle**: Shrimp your hips out toward the trapped leg side while maintaining your leg entanglement. Your goal is to create a 90-degree angle between your torso and the opponent's body. As you shrimp, begin to swing your top leg (the leg not in the half guard lockdown) over the opponent's back or shoulder. This rotation is critical—you must achieve perpendicular alignment to create proper kneebar mechanics. Keep the bottom leg (half guard hook) tight to prevent them from pulling their leg free during the transition. (Timing: 2-3 seconds)
+3. **Establish leg isolation with both legs**: Complete your hip rotation so your body is perpendicular to your opponent. Your bottom leg (the original half guard hook) should now be positioned behind their knee, while your top leg swings over their hip or back to prevent them from rolling forward or standing. Create a figure-four position with your legs if possible—bottom leg behind their knee, top leg crossed over, locking at the ankles. This isolation is crucial: their trapped leg should be completely immobilized between your legs with no ability to rotate or pull free. (Timing: 1-2 seconds)
+4. **Control opponent's hip and secure position**: With your legs controlling the knee and preventing rotation, immediately address their hip with your hands. Your primary objective is to prevent them from rotating toward you (which would relieve pressure on the knee) or away from you (which could allow them to roll out). Cup their hip or belt with both hands, or use one hand on the hip and one controlling their far leg. Pull their hip toward you slightly to flatten them and eliminate rotation potential. This hip control is often the difference between a successful finish and a failed attempt. (Timing: 1 second)
+5. **Position the knee joint on your centerline**: Adjust your body so the opponent's knee joint sits directly on your body's centerline—typically this means their knee is positioned between your chest and hip. The back of their knee should be pressed against your torso, creating the fulcrum point for the submission. Your legs should be squeezing their lower leg toward your hips, creating tension on the joint. Ensure their toes are pointed away from you (preventing knee rotation) and their leg is straight or slightly bent. Curl their foot toward their shin using your arm if needed to increase pressure. (Timing: 1-2 seconds)
+6. **Apply progressive hip extension to finish**: With all controls in place, initiate the finish by arching your hips upward while maintaining the opponent's leg position. Drive your hips up toward the ceiling while simultaneously pulling their ankle or foot toward your chest. The combination creates hyperextension at the knee joint across the fulcrum point of your body. Apply pressure SLOWLY and progressively—this is not a sudden jerk but a steady increase in tension. Watch for the tap signal and be prepared to release immediately. The finish comes from hip thrust, not from pulling the leg down with your arms. (Timing: 3-5 seconds progressive application)
 
 
 </section>
@@ -255,25 +255,25 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attacking the leg before controlling the hip [Low DANGER]
+- **Mistake**: Attacking the leg before controlling the hip
   - **Consequence**: Opponent easily rotates their body to escape, spinning into top position or extracting their leg completely
   - **Correction**: Always establish hip control first—cup the hip or belt with your hands before initiating the finish. The hip control prevents rotation, which is the primary escape mechanism.
-- **Mistake**: Pulling the leg down with arms instead of driving hips up [Medium DANGER]
+- **Mistake**: Pulling the leg down with arms instead of driving hips up
   - **Consequence**: Insufficient pressure on the knee joint, wasted energy, and increased injury risk from improper mechanics
   - **Correction**: The submission comes from hip extension (arching your back), not arm strength. Your arms hold position while your hips create the force. Think 'push hips to ceiling' not 'pull leg to floor.'
-- **Mistake**: Allowing the knee joint to slip off your centerline [Low DANGER]
+- **Mistake**: Allowing the knee joint to slip off your centerline
   - **Consequence**: Loss of the fulcrum point, failed submission, and potential for opponent to escape or counter
   - **Correction**: Keep the back of their knee pinned to your torso centerline throughout the finish. Adjust your body position, not just their leg position, to maintain alignment.
-- **Mistake**: Jerking or spiking the submission rapidly in training [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the submission rapidly in training
   - **Consequence**: High risk of severe knee injury including PCL tears, meniscus damage, or patellar tendon rupture requiring surgery
   - **Correction**: ALWAYS apply progressive pressure over 3-5 seconds minimum in training. Save explosive finishes for competition only. Your training partner's safety is more important than the tap.
-- **Mistake**: Failing to secure leg isolation before finishing [Low DANGER]
+- **Mistake**: Failing to secure leg isolation before finishing
   - **Consequence**: Opponent easily extracts their leg, passes your guard, or counters with their own submission
   - **Correction**: Establish complete leg control with both of your legs (figure-four if possible) before attempting the finish. Their leg should have zero mobility before you apply pressure.
-- **Mistake**: Losing connection during transition from half guard to kneebar position [Low DANGER]
+- **Mistake**: Losing connection during transition from half guard to kneebar position
   - **Consequence**: Opponent pulls their leg free during the transition, passes to dominant position
   - **Correction**: Maintain constant tension with your bottom leg hook throughout the entire hip rotation. Never release the half guard until your perpendicular position is fully established and your top leg is in place.
-- **Mistake**: Attempting kneebar when opponent has strong whizzer or overhook [Medium DANGER]
+- **Mistake**: Attempting kneebar when opponent has strong whizzer or overhook
   - **Consequence**: Opponent uses the overhook to roll you into bad position, or uses it to base and stand up
   - **Correction**: Before transitioning to kneebar, strip the whizzer/overhook or use it against them by rolling them forward. Never attempt this submission when opponent has strong upper body control.
 
@@ -336,43 +336,6 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (2 weeks)
-- Focus: Learn the positional mechanics, hip rotation, leg isolation, and proper fulcrum point placement without any submission pressure. Practice the transition from half guard to kneebar position repeatedly.
-- Resistance: Zero resistance
-- Safety: Study knee anatomy and understand injury mechanisms. Learn to identify proper tap signals. Practice release protocol multiple times.
-
-**Slow Controlled Application (Weeks 3-4)** (2 weeks)
-- Focus: Begin applying light pressure to understand the submission mechanics. Partner taps early at first sensation of pressure. Emphasis on smooth, progressive pressure application taking 5-7 seconds minimum.
-- Resistance: Zero resistance
-- Safety: Practice immediate release upon tap. Develop communication protocols with partner. Never increase pressure speed—maintain slow, controlled application throughout this phase.
-
-**Positional Resistance (Weeks 5-8)** (4 weeks)
-- Focus: Partner begins providing mild resistance to the position setup but allows the submission once position is achieved. Practice maintaining controls and completing the submission against someone trying to prevent the initial entry.
-- Resistance: Mild resistance
-- Safety: Partner must still allow finish once position is locked. Continue 5-second minimum application time. Focus on position control before submission.
-
-**Defense Integration (Weeks 9-12)** (4 weeks)
-- Focus: Partner provides realistic defensive responses including knee rotation, hip escape attempts, and grip fighting. Practice adjustments and maintaining position against common defenses. Begin to recognize when to abandon attempt versus when to adjust.
-- Resistance: Realistic resistance
-- Safety: Reduce application time to 3-5 seconds but maintain progressive pressure. Both partners responsible for safety—defender taps early, attacker applies slowly.
-
-**Live Rolling Integration (Weeks 13-16)** (4 weeks)
-- Focus: Attempt the technique during live training with trusted partners who understand leg lock safety protocols. Begin from half guard and look for natural opportunities to enter the position. Accept when the technique isn't available rather than forcing it.
-- Resistance: Full resistance
-- Safety: Training room culture critical—both partners prioritize safety over taps. Never use competition speed. Tap early to submissions, apply slowly when attacking.
-
-**Competition Application (Month 4+)** (Ongoing)
-- Focus: Technique becomes part of your competition game. Understand rule sets (some organizations ban kneebars at lower belt levels). Develop ability to recognize high-percentage opportunities versus low-percentage attempts.
-- Resistance: Full resistance
-- Safety: In competition, faster application is acceptable but must be legal per rules. In training, ALWAYS maintain slow application regardless of experience level. Respect tap immediately even in competition.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -417,6 +380,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

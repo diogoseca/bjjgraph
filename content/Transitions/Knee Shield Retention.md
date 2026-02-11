@@ -159,7 +159,7 @@ description: "Master Knee Shield Retention in BJJ. Essential defensive framework
 Knee Shield Retention is the fundamental defensive framework for maintaining half guard structure against passing attempts. This technical system focuses on using the top leg as a dynamic barrier to create distance, manage angles, and prevent the opponent from consolidating chest-to-chest pressure. The knee shield creates a structural frame that allows the bottom player to control distance while maintaining offensive and defensive options. Unlike passive defensive positions, knee shield retention is an active management system that requires constant adjustment of angles, frames, and connection points based on the opponent's pressure and passing tactics. The effectiveness of knee shield retention lies in understanding it as a dynamic system rather than a static position - the shield must constantly adapt to maintain optimal distance and angle control. This technique serves as the foundation for modern half guard systems, providing a platform for sweeps, back takes, and submissions while simultaneously defending against the most common passing sequences.
 
 **From Position**: [[Knee Shield Half Guard/Bottom]]
-**Success Rates**: Beginner 50%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -208,13 +208,13 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish knee shield structure**: Position your top leg with shin perpendicular to opponent's torso, creating a barrier between their chest and your hips. The foot of your shield leg should be active and engaged on their hip or thigh, ready to extend and create distance. Your knee should be at approximately shoulder height on their body. (Timing: Establish immediately when entering half guard or when opponent begins passing pressure)
-2. **Secure bottom leg lockdown**: Wrap your bottom leg around opponent's trapped leg with your foot hooking behind their knee or controlling their ankle. This creates the retention system that prevents leg extraction while your shield manages upper body pressure. Maintain constant tension on this connection. (Timing: Maintain throughout entire retention sequence)
-3. **Control opponent's arms**: Establish grip control on opponent's far sleeve or wrist with your bottom arm, preventing them from establishing an underhook or crossface. Your top arm creates an additional frame on their shoulder, bicep, or hip depending on their pressure angle. These grips work together with your shield to create a complete defensive structure. (Timing: Control arms before opponent can establish dominant grips)
-4. **Manage pressure angles**: As opponent drives forward, adjust your shield angle by rotating your hips and changing the direction of your knee pressure. If they drive straight, angle your knee across their chest. If they angle around your shield, redirect your knee to intercept their new line of attack. Stay proactive rather than reactive. (Timing: Continuously adjust as opponent changes pressure direction)
-5. **Create dynamic distance**: Use your shield leg to actively extend and push opponent's upper body away when they attempt to close distance. Combine this extension with hip movement away from pressure, creating space to re-establish frames if they begin collapsing your structure. The shield should feel like an active barrier, not a passive post. (Timing: Extend explosively when opponent commits weight forward)
-6. **Prevent flattening**: Maintain your body position on your side facing the opponent at all times. If they begin to flatten you to your back, use your shield to create an angle by pushing their upper body while you hip escape back to your side. Being flat on your back eliminates your mobility and makes the position indefensible. (Timing: React immediately at first sign of back exposure)
-7. **Transition to offense**: Once you have successfully stalled opponent's initial passing pressure with your retention framework, look for offensive opportunities. The knee shield creates natural entries to Old School Sweep, Deep Half Guard, or back take depending on how they are pressuring. Retention should seamlessly flow into attacks. (Timing: Transition when opponent's forward pressure stalls or they attempt to reset)
+1. **Establish knee shield structure**: Position your top leg with shin perpendicular to opponent's torso, creating a barrier between their chest and your hips. The foot of your shield leg should be active and engaged on their hip or thigh, ready to extend and create distance. Your knee should be at approximately shoulder height on their body.
+2. **Secure bottom leg lockdown**: Wrap your bottom leg around opponent's trapped leg with your foot hooking behind their knee or controlling their ankle. This creates the retention system that prevents leg extraction while your shield manages upper body pressure. Maintain constant tension on this connection.
+3. **Control opponent's arms**: Establish grip control on opponent's far sleeve or wrist with your bottom arm, preventing them from establishing an underhook or crossface. Your top arm creates an additional frame on their shoulder, bicep, or hip depending on their pressure angle. These grips work together with your shield to create a complete defensive structure.
+4. **Manage pressure angles**: As opponent drives forward, adjust your shield angle by rotating your hips and changing the direction of your knee pressure. If they drive straight, angle your knee across their chest. If they angle around your shield, redirect your knee to intercept their new line of attack. Stay proactive rather than reactive.
+5. **Create dynamic distance**: Use your shield leg to actively extend and push opponent's upper body away when they attempt to close distance. Combine this extension with hip movement away from pressure, creating space to re-establish frames if they begin collapsing your structure. The shield should feel like an active barrier, not a passive post.
+6. **Prevent flattening**: Maintain your body position on your side facing the opponent at all times. If they begin to flatten you to your back, use your shield to create an angle by pushing their upper body while you hip escape back to your side. Being flat on your back eliminates your mobility and makes the position indefensible.
+7. **Transition to offense**: Once you have successfully stalled opponent's initial passing pressure with your retention framework, look for offensive opportunities. The knee shield creates natural entries to Old School Sweep, Deep Half Guard, or back take depending on how they are pressuring. Retention should seamlessly flow into attacks.
 
 
 </section>
@@ -261,27 +261,21 @@ Knee Shield Retention is the fundamental defensive framework for maintaining hal
 ## Training Progressions
 **Week 1-2: Static Structure** - Building proper knee shield frame and understanding positioning
 Partner establishes light pressure from top half guard while you focus solely on maintaining proper shield structure, staying on side, and keeping bottom leg locked. No passing attempts yet. Focus on feeling what correct positioning feels like.
-(Resistance: Light)
 
 **Week 3-4: Dynamic Adjustment** - Adjusting shield angle against movement
 Partner slowly circles and changes pressure angles while you practice redirecting your shield to maintain the barrier. Partner still not attempting full passes, just creating pressure from different angles. Develop ability to track opponent's movement with your shield.
-(Resistance: Light)
 
 **Week 5-6: Grip Fighting Integration** - Adding arm control to shield structure
 Partner attempts to establish crossface and underhook at medium intensity while you maintain shield and actively fight to control their arms. Learn to coordinate upper body defensive grips with lower body shield structure.
-(Resistance: Medium)
 
 **Week 7-8: Pass Defense Drills** - Defending specific passing attacks with retention system
 Partner attempts specific passes (knee cut, underhook pass, back step) at 70% speed while you use complete retention system to defend. Focus on recognizing pass type early and adjusting retention strategy accordingly.
-(Resistance: Medium)
 
 **Week 9-10: Retention to Offense** - Transitioning from defensive retention to offensive attacks
 Practice flowing from successful retention directly into sweeps or back takes. Partner provides medium resistance to both your retention and your offensive transitions. Learn to recognize when opponent's pressure creates offensive opportunities.
-(Resistance: Medium)
 
 **Week 11+: Live Sparring Application** - Implementing retention system against full resistance
 Use knee shield retention during regular sparring rounds, starting from half guard position. Partner uses full effort to pass. Focus on maintaining structure under pressure and finding opportunities to attack when retention is successful.
-(Resistance: Full)
 
 
 

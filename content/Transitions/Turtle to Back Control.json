@@ -9,11 +9,6 @@
     "back-control",
     "pinning"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Turtle to Back Control transition is a fundamental back-taking sequence that exploits the defensive turtle position's inherent vulnerability. When an opponent assumes turtle position to protect against pins or submissions, they expose their back - creating a high-percentage opportunity for positional advancement. This transition involves systematically breaking down the turtle structure through strategic grip placement, hip control, and body positioning to achieve the dominant back control position. The key to successful execution lies in understanding weight distribution, preventing defensive escapes, and methodically establishing control points before fully transitioning to back mount. This technique forms the cornerstone of effective top turtle work and is essential for competitors at all levels, offering direct pathways to both dominant positioning and submission attacks.",
   "key_principles": [
     "Establish chest-to-back connection before attempting hooks",
@@ -36,38 +31,32 @@
     {
       "step_number": 1,
       "action": "Establish chest pressure",
-      "description": "Place your chest directly on opponent's upper back with your sternum between their shoulder blades. Drive your weight forward and slightly downward to break their postural integrity and prevent them from exploding forward or standing up. Your head should be positioned to one side of their head, close to their ear.",
-      "timing": "Initial contact phase"
+      "description": "Place your chest directly on opponent's upper back with your sternum between their shoulder blades. Drive your weight forward and slightly downward to break their postural integrity and prevent them from exploding forward or standing up. Your head should be positioned to one side of their head, close to their ear."
     },
     {
       "step_number": 2,
       "action": "Secure seatbelt control",
-      "description": "Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking arm on top. Your hands can interlock with a gable grip, S-grip, or grab your own wrist depending on opponent size and your preference.",
-      "timing": "Before hip movement"
+      "description": "Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking arm on top. Your hands can interlock with a gable grip, S-grip, or grab your own wrist depending on opponent size and your preference."
     },
     {
       "step_number": 3,
       "action": "Control near hip",
-      "description": "While maintaining upper body control, position your near-side knee against their near hip. This blocking position prevents them from sitting back to guard, rolling forward, or executing defensive granby rolls. Your shin should be tight to their hip bone, creating a barrier to their escape routes.",
-      "timing": "Simultaneous with seatbelt establishment"
+      "description": "While maintaining upper body control, position your near-side knee against their near hip. This blocking position prevents them from sitting back to guard, rolling forward, or executing defensive granby rolls. Your shin should be tight to their hip bone, creating a barrier to their escape routes."
     },
     {
       "step_number": 4,
       "action": "Flatten opponent's posture",
-      "description": "Pull backward with your seatbelt grip while driving your chest weight forward and down. This opposing force breaks their turtle structure and begins flattening them toward the mat. Your goal is to reduce the space under their torso and eliminate their ability to create explosive movement from their base.",
-      "timing": "Before inserting hooks"
+      "description": "Pull backward with your seatbelt grip while driving your chest weight forward and down. This opposing force breaks their turtle structure and begins flattening them toward the mat. Your goal is to reduce the space under their torso and eliminate their ability to create explosive movement from their base."
     },
     {
       "step_number": 5,
       "action": "Insert near-side hook",
-      "description": "Swing your near-side leg around their near hip, threading your foot inside their thigh. Your instep should hook around their inner thigh with your heel pulling toward their center line. Maintain seatbelt control throughout this movement and keep your chest tight to their back to prevent them from rolling away or turning into you.",
-      "timing": "As opponent begins to flatten"
+      "description": "Swing your near-side leg around their near hip, threading your foot inside their thigh. Your instep should hook around their inner thigh with your heel pulling toward their center line. Maintain seatbelt control throughout this movement and keep your chest tight to their back to prevent them from rolling away or turning into you."
     },
     {
       "step_number": 6,
       "action": "Complete back control position",
-      "description": "With first hook secured, adjust your hips to align behind opponent's hips. Insert your second hook on the far side, establishing full back control with both hooks inside their thighs. Fall to your hip on the side of your choking arm, pulling opponent onto their side while maintaining seatbelt control. Secure body triangle or maintain double hooks for positional dominance.",
-      "timing": "Final consolidation phase"
+      "description": "With first hook secured, adjust your hips to align behind opponent's hips. Insert your second hook on the far side, establishing full back control with both hooks inside their thighs. Fall to your hip on the side of your choking arm, pulling opponent onto their side while maintaining seatbelt control. Secure body triangle or maintain double hooks for positional dominance."
     }
   ],
   "common_counters": [
@@ -133,32 +122,27 @@
     {
       "phase": "Week 1-2: Static Control Development",
       "focus": "Establishing proper body positioning and weight distribution from top turtle",
-      "description": "Partner maintains static turtle position while you practice establishing chest pressure, seatbelt control, and hip blocking. Focus on feeling proper weight distribution and connection points. Drill transitioning from various turtle approach angles (side, rear, front). Partner provides verbal feedback on pressure quality.",
-      "resistance_level": "None"
+      "description": "Partner maintains static turtle position while you practice establishing chest pressure, seatbelt control, and hip blocking. Focus on feeling proper weight distribution and connection points. Drill transitioning from various turtle approach angles (side, rear, front). Partner provides verbal feedback on pressure quality."
     },
     {
       "phase": "Week 3-4: Sequential Hook Insertion",
       "focus": "Systematic progression from control to back mount",
-      "description": "Partner maintains turtle with light defensive frames but doesn't actively escape. Practice the complete sequence: chest pressure, seatbelt, hip control, flatten posture, near hook, far hook, fall to side. Emphasis on smooth transitions between steps without gaps. Count to three between each major step to build muscle memory.",
-      "resistance_level": "Light"
+      "description": "Partner maintains turtle with light defensive frames but doesn't actively escape. Practice the complete sequence: chest pressure, seatbelt, hip control, flatten posture, near hook, far hook, fall to side. Emphasis on smooth transitions between steps without gaps. Count to three between each major step to build muscle memory."
     },
     {
       "phase": "Week 5-6: Defensive Response Drilling",
       "focus": "Countering common turtle escapes during transition",
-      "description": "Partner executes specific defensive movements on cue: sitting to guard, granby roll, forward drive, turning into you. Practice your systematic responses to each counter while maintaining connection and control. Drill 10 repetitions of each defensive scenario per training session.",
-      "resistance_level": "Medium"
+      "description": "Partner executes specific defensive movements on cue: sitting to guard, granby roll, forward drive, turning into you. Practice your systematic responses to each counter while maintaining connection and control. Drill 10 repetitions of each defensive scenario per training session."
     },
     {
       "phase": "Week 7-8: Live Situational Rolling",
       "focus": "Completing transition against full resistance",
-      "description": "Start from top turtle position with partner using all defensive tools to prevent back take. 3-minute rounds where you must complete transition to back control with both hooks. Partner scores point for each successful escape. Focus on problem-solving and maintaining composure under resistance.",
-      "resistance_level": "Full"
+      "description": "Start from top turtle position with partner using all defensive tools to prevent back take. 3-minute rounds where you must complete transition to back control with both hooks. Partner scores point for each successful escape. Focus on problem-solving and maintaining composure under resistance."
     },
     {
       "phase": "Month 3+: Integration and Combination Work",
       "focus": "Chaining turtle attacks and reading defensive reactions",
-      "description": "Practice flowing between turtle to back, truck entries, crucifix, and submission attacks based on partner's defensive choices. Develop ability to recognize escape attempts early and transition seamlessly to appropriate counters. Include this position in regular rolling starting from turtle reset.",
-      "resistance_level": "Full"
+      "description": "Practice flowing between turtle to back, truck entries, crucifix, and submission attacks based on partner's defensive choices. Develop ability to recognize escape attempts early and transition seamlessly to appropriate counters. Include this position in regular rolling starting from turtle reset."
     }
   ],
   "variants_and_adaptations": [
@@ -186,38 +170,31 @@
   "knowledge_assessment": [
     {
       "question": "Why must seatbelt control be established before attempting to insert hooks during the turtle to back transition?",
-      "answer": "Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes.",
-      "difficulty": "Beginner"
+      "answer": "Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes."
     },
     {
       "question": "What is the primary purpose of blocking opponent's near hip with your knee during the turtle to back transition?",
-      "answer": "Blocking the near hip prevents the two highest-percentage turtle escapes: sitting back to guard and executing granby rolls toward your grip. The hip is the center of rotational movement - by controlling this point with your knee, you eliminate opponent's ability to generate the hip momentum necessary for these defensive movements. This single point of control dramatically increases your success rate by removing escape options before they can be executed.",
-      "difficulty": "Intermediate"
+      "answer": "Blocking the near hip prevents the two highest-percentage turtle escapes: sitting back to guard and executing granby rolls toward your grip. The hip is the center of rotational movement - by controlling this point with your knee, you eliminate opponent's ability to generate the hip momentum necessary for these defensive movements. This single point of control dramatically increases your success rate by removing escape options before they can be executed."
     },
     {
       "question": "How should you adjust your approach if opponent begins standing up from turtle before you secure hooks?",
-      "answer": "Maintain your seatbelt grip and allow them to carry your weight upward rather than fighting their standing motion. As they stand, immediately work to insert your hooks while standing or transition to body lock position for a mat return. You can also drag them backward using your weight or transition to standing back control. The key is maintaining upper body connection through the seatbelt - never release this grip as it's your primary control point regardless of whether you're on the ground or standing.",
-      "difficulty": "Advanced"
+      "answer": "Maintain your seatbelt grip and allow them to carry your weight upward rather than fighting their standing motion. As they stand, immediately work to insert your hooks while standing or transition to body lock position for a mat return. You can also drag them backward using your weight or transition to standing back control. The key is maintaining upper body connection through the seatbelt - never release this grip as it's your primary control point regardless of whether you're on the ground or standing."
     },
     {
       "question": "What is the proper sequence for inserting hooks during the turtle to back transition and why?",
-      "answer": "Insert the near-side hook first, followed by the far-side hook, while maintaining seatbelt control and chest pressure throughout. The near-side hook is inserted first because your knee is already controlling that hip, making insertion easier and more stable. This sequential approach maintains your base and prevents giving opponent space to escape. Attempting both hooks simultaneously compromises your stability and often results in losing position. The systematic near-then-far progression ensures positional security at each step.",
-      "difficulty": "Intermediate"
+      "answer": "Insert the near-side hook first, followed by the far-side hook, while maintaining seatbelt control and chest pressure throughout. The near-side hook is inserted first because your knee is already controlling that hip, making insertion easier and more stable. This sequential approach maintains your base and prevents giving opponent space to escape. Attempting both hooks simultaneously compromises your stability and often results in losing position. The systematic near-then-far progression ensures positional security at each step."
     },
     {
       "question": "If opponent successfully executes a granby roll toward your grip during the turtle to back transition, what is your optimal response?",
-      "answer": "Follow their rolling motion while maintaining your seatbelt grip, allowing yourself to roll with them rather than resisting. As you complete the rotation together, you'll often end up in truck position or can continue the roll to complete the back take from a new angle. The key is maintaining connection through your grips and staying heavy on their back. Your hip control with your knee should prevent this roll entirely, but if it occurs, using their momentum rather than fighting it often leads to even better positional outcomes like truck or maintaining back control through the rotation.",
-      "difficulty": "Advanced"
+      "answer": "Follow their rolling motion while maintaining your seatbelt grip, allowing yourself to roll with them rather than resisting. As you complete the rotation together, you'll often end up in truck position or can continue the roll to complete the back take from a new angle. The key is maintaining connection through your grips and staying heavy on their back. Your hip control with your knee should prevent this roll entirely, but if it occurs, using their momentum rather than fighting it often leads to even better positional outcomes like truck or maintaining back control through the rotation."
     },
     {
       "question": "What weight distribution principle makes the difference between successful and unsuccessful turtle breakdown?",
-      "answer": "Your weight must be distributed forward and downward through your chest onto their upper back, not sitting back on their hips or butt. The pressure point is between their shoulder blades with your sternum, creating a collapsing force on their postural structure. This forward weight distribution breaks their turtle frame and prevents explosive forward or upward movement. Sitting too far back allows them to maintain their base and creates space for escapes. The angle of pressure should be approximately 45 degrees forward and down, combining horizontal and vertical force.",
-      "difficulty": "Advanced"
+      "answer": "Your weight must be distributed forward and downward through your chest onto their upper back, not sitting back on their hips or butt. The pressure point is between their shoulder blades with your sternum, creating a collapsing force on their postural structure. This forward weight distribution breaks their turtle frame and prevents explosive forward or upward movement. Sitting too far back allows them to maintain their base and creates space for escapes. The angle of pressure should be approximately 45 degrees forward and down, combining horizontal and vertical force."
     },
     {
       "question": "Why is the turtle position particularly vulnerable to back takes compared to other defensive positions?",
-      "answer": "Turtle position exposes the back by design - it's a defensive structure that protects against pins and certain submissions but inherently surrenders back exposure. The opponent cannot see or effectively defend against attacks from behind, their hands are occupied maintaining base rather than defending grips, and their hip mobility is limited by the need to stay on their knees. While turtle prevents immediate pin danger, it creates optimal conditions for systematic back attacks. This is why turtle should be considered a transitional rather than sustainable defensive position.",
-      "difficulty": "Beginner"
+      "answer": "Turtle position exposes the back by design - it's a defensive structure that protects against pins and certain submissions but inherently surrenders back exposure. The opponent cannot see or effectively defend against attacks from behind, their hands are occupied maintaining base rather than defending grips, and their hip mobility is limited by the need to stay on their knees. While turtle prevents immediate pin danger, it creates optimal conditions for systematic back attacks. This is why turtle should be considered a transitional rather than sustainable defensive position."
     }
   ],
   "safety_considerations": "The turtle to back transition is generally safe for training at all levels as it involves positional control rather than submissions. However, practitioners should be mindful of knee pressure when blocking opponent's hip - excessive outward pressure can stress knee ligaments. When falling to your side with hooks secured, control your descent to avoid dropping full body weight suddenly on opponent. Communication is important if opponent feels compressed or cannot breathe due to chest pressure. For training partners with shoulder or back injuries, modify chest pressure intensity and ensure they can tap if experiencing discomfort. During the learning phase, avoid explosive movements that could cause both practitioners to roll uncontrollably. If opponent attempts desperate escape by rolling, maintain control of the roll to prevent awkward landings.",
@@ -289,5 +266,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

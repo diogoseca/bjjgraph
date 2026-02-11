@@ -157,7 +157,7 @@ Strategically, the Kimura from Guard serves multiple purposes beyond the submiss
 The technique requires precise timing and grip placement. The attacking arm must thread under the opponent's triceps while the other hand secures their wrist, creating the characteristic figure-four configuration. Hip movement and angle creation are essential for generating the leverage needed to either finish the submission or use the control to advance position. This attack represents a cornerstone of guard offense that connects to numerous other techniques in the BJJ system.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -204,12 +204,12 @@ The technique requires precise timing and grip placement. The attacking arm must
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Control the wrist**: When opponent posts their hand on the mat or your hip, immediately grip their wrist with your same-side hand using a firm C-grip with your thumb on top. Pull their wrist toward your centerline to prevent them from retracting the arm. (Timing: The instant they post their hand)
-2. **Hip escape to create angle**: Unlock your guard and hip escape away from the trapped arm side, creating a 45-degree angle to your opponent. This angle is essential for generating the rotational leverage needed for the submission and prevents them from simply pulling their arm back. (Timing: Immediately after securing wrist control)
-3. **Thread the arm**: Bring your opposite arm over their trapped arm and thread it underneath their triceps, reaching toward your own controlling hand. Your forearm should rest against the back of their triceps with your elbow tight to their elbow. (Timing: While maintaining strong wrist control)
-4. **Establish figure-four grip**: Grip your own wrist with the arm that threaded under their triceps, creating the classic Kimura figure-four configuration. Your palm grabs your wrist with fingers wrapping around. Squeeze your elbows together to eliminate any slack in the grip. (Timing: Before opponent can straighten their arm)
-5. **Relock guard and create pressure**: Reestablish your closed guard by crossing your ankles behind their back. Pull them down with your legs while sitting up slightly to compress the space and prevent them from posturing up or stacking. (Timing: Once figure-four is secured)
-6. **Apply rotational torque**: Keep their elbow pinned to your chest and drive their wrist toward the mat in an arc motion while simultaneously lifting their elbow upward. The rotation occurs at the shoulder joint. Continue until you achieve the submission or transition to Kimura Trap control. (Timing: Controlled application with constant pressure)
+1. **Control the wrist**: When opponent posts their hand on the mat or your hip, immediately grip their wrist with your same-side hand using a firm C-grip with your thumb on top. Pull their wrist toward your centerline to prevent them from retracting the arm.
+2. **Hip escape to create angle**: Unlock your guard and hip escape away from the trapped arm side, creating a 45-degree angle to your opponent. This angle is essential for generating the rotational leverage needed for the submission and prevents them from simply pulling their arm back.
+3. **Thread the arm**: Bring your opposite arm over their trapped arm and thread it underneath their triceps, reaching toward your own controlling hand. Your forearm should rest against the back of their triceps with your elbow tight to their elbow.
+4. **Establish figure-four grip**: Grip your own wrist with the arm that threaded under their triceps, creating the classic Kimura figure-four configuration. Your palm grabs your wrist with fingers wrapping around. Squeeze your elbows together to eliminate any slack in the grip.
+5. **Relock guard and create pressure**: Reestablish your closed guard by crossing your ankles behind their back. Pull them down with your legs while sitting up slightly to compress the space and prevent them from posturing up or stacking.
+6. **Apply rotational torque**: Keep their elbow pinned to your chest and drive their wrist toward the mat in an arc motion while simultaneously lifting their elbow upward. The rotation occurs at the shoulder joint. Continue until you achieve the submission or transition to Kimura Trap control.
 
 
 </section>
@@ -252,19 +252,15 @@ The technique requires precise timing and grip placement. The attacking arm must
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the wrist control to figure-four sequence in isolation. Partner offers their arm in posting position, you execute grip sequence 20 times per side focusing on hand placement, threading under triceps, and creating zero-slack grip configuration.
-(Resistance: None)
 
 **Week 3-4** - Angle creation
 Add the hip escape component. Start from closed guard, partner posts hand, execute hip escape while maintaining wrist control, then complete figure-four. Emphasis on timing the hip escape with grip establishment. Partner provides light defensive movement.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Practice the Kimura to sweep and Kimura to back take transitions. Partner defends the initial submission by straightening arm or turning away, you flow to the appropriate follow-up attack. Develop recognition of which defense leads to which counter.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from closed guard. Partner works to pass or submit, you hunt for Kimura entries and complete the submission or chain to sweeps and back takes. Full resistance with submission-only rounds.
-(Resistance: Full)
 
 
 

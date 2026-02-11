@@ -157,7 +157,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 **Type**: Blood Choke
 **Target Area**: Carotid arteries (compressed by opponent's own shoulder and your arm)
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -232,12 +232,12 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate and trap the near arm**: From side control with crossface pressure, use your chest and shoulder to drive opponent's near arm across their own neck. The key is making their defensive frame become the choking mechanism. Drive your weight through your shoulder while controlling their head, forcing their arm to cross their centerline. This arm will compress one carotid artery while your arm compresses the other. (Timing: 2-3 seconds) [Pressure: Moderate]
-2. **Thread the choking arm deep**: Slide your near arm (the one closest to opponent's head) under their neck, reaching as deep as possible toward the far side of their neck. Your bicep should contact one side of their neck while their own trapped shoulder/arm contacts the other side. The deeper you can thread this arm, the tighter the eventual choke. Your forearm should emerge on the far side of their head with your hand reaching toward their far shoulder. (Timing: 1-2 seconds) [Pressure: Light]
-3. **Lock the grip and create the triangle**: Reach your free hand over opponent's back and grab your own bicep (gable grip) or clasp your hands together. This creates the triangle structure: your bicep on one side of their neck, their trapped arm/shoulder on the other side, and your forearm across the back of their head/neck. Ensure your head is positioned tight against opponent's head on the choke side—this is critical to prevent space and escape. (Timing: 1-2 seconds) [Pressure: Moderate]
-4. **Adjust angle and position**: Shift your body position slightly toward the trapped arm side (typically moving toward north-south or modified mount). This angle adjustment is what transforms the hold into a finishing choke. Your shoulder should be driving toward opponent's head, and your hips should be positioned to allow maximum shoulder pressure. Some practitioners prefer to step over into modified mount; others finish from a tight side control angle. (Timing: 2-3 seconds) [Pressure: Moderate]
-5. **Drive shoulder pressure and walk the choke tight**: The finish comes from walking your shoulder toward opponent's head while simultaneously squeezing your elbows together and pulling your choking-side elbow to your ribcage. Your shoulder pressure combined with the squeeze closes the triangle and compresses both carotid arteries. Walk your knees forward incrementally (small steps) to increase shoulder pressure. Keep your head glued to opponent's head throughout. (Timing: 3-5 seconds to tap) [Pressure: Firm]
-6. **Maintain position and pressure until tap**: Continue steady pressure with your shoulder driving forward and elbows tight to your body. Do not relax or adjust once the choke is locked—maintain consistent pressure. Watch for tap signals carefully as blood chokes can cause unconsciousness quickly. The moment you feel a tap or see any distress signal, release immediately by opening your arms and stepping back from opponent's head and shoulders. (Timing: 1-3 seconds typically) [Pressure: Maximum]
+1. **Isolate and trap the near arm**: From side control with crossface pressure, use your chest and shoulder to drive opponent's near arm across their own neck. The key is making their defensive frame become the choking mechanism. Drive your weight through your shoulder while controlling their head, forcing their arm to cross their centerline. This arm will compress one carotid artery while your arm compresses the other. (Timing: 2-3 seconds)
+2. **Thread the choking arm deep**: Slide your near arm (the one closest to opponent's head) under their neck, reaching as deep as possible toward the far side of their neck. Your bicep should contact one side of their neck while their own trapped shoulder/arm contacts the other side. The deeper you can thread this arm, the tighter the eventual choke. Your forearm should emerge on the far side of their head with your hand reaching toward their far shoulder. (Timing: 1-2 seconds)
+3. **Lock the grip and create the triangle**: Reach your free hand over opponent's back and grab your own bicep (gable grip) or clasp your hands together. This creates the triangle structure: your bicep on one side of their neck, their trapped arm/shoulder on the other side, and your forearm across the back of their head/neck. Ensure your head is positioned tight against opponent's head on the choke side—this is critical to prevent space and escape. (Timing: 1-2 seconds)
+4. **Adjust angle and position**: Shift your body position slightly toward the trapped arm side (typically moving toward north-south or modified mount). This angle adjustment is what transforms the hold into a finishing choke. Your shoulder should be driving toward opponent's head, and your hips should be positioned to allow maximum shoulder pressure. Some practitioners prefer to step over into modified mount; others finish from a tight side control angle. (Timing: 2-3 seconds)
+5. **Drive shoulder pressure and walk the choke tight**: The finish comes from walking your shoulder toward opponent's head while simultaneously squeezing your elbows together and pulling your choking-side elbow to your ribcage. Your shoulder pressure combined with the squeeze closes the triangle and compresses both carotid arteries. Walk your knees forward incrementally (small steps) to increase shoulder pressure. Keep your head glued to opponent's head throughout. (Timing: 3-5 seconds to tap)
+6. **Maintain position and pressure until tap**: Continue steady pressure with your shoulder driving forward and elbows tight to your body. Do not relax or adjust once the choke is locked—maintain consistent pressure. Watch for tap signals carefully as blood chokes can cause unconsciousness quickly. The moment you feel a tap or see any distress signal, release immediately by opening your arms and stepping back from opponent's head and shoulders. (Timing: 1-3 seconds typically)
 
 
 </section>
@@ -257,22 +257,22 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Squeezing with arm strength alone without shoulder pressure [Low DANGER]
+- **Mistake**: Squeezing with arm strength alone without shoulder pressure
   - **Consequence**: Choke never tightens fully, opponent can defend indefinitely, you fatigue your arms quickly
   - **Correction**: Use your entire body weight driving through your shoulder toward opponent's head. The squeeze comes from structural pressure and body positioning, not bicep strength. Walk your knees forward to increase shoulder drive.
-- **Mistake**: Head position too far from opponent's head (space between heads) [Low DANGER]
+- **Mistake**: Head position too far from opponent's head (space between heads)
   - **Consequence**: Opponent can turn their head into the space and relieve pressure on carotid arteries, preventing the finish
   - **Correction**: Keep your head glued tight to opponent's head on the choke side throughout the entire sequence. Think of your head as a plug preventing their escape. No space should exist between your heads.
-- **Mistake**: Finishing from directly perpendicular side control position [Low DANGER]
+- **Mistake**: Finishing from directly perpendicular side control position
   - **Consequence**: Choke angle is inefficient, opponent can bridge or turn more easily, finish becomes strength-based
   - **Correction**: Always adjust your angle toward the trapped arm side before finishing. Move toward north-south or step into modified mount. The angle change is what makes the choke work with technique rather than strength.
-- **Mistake**: Not threading arm deep enough under opponent's neck [Medium DANGER]
+- **Mistake**: Not threading arm deep enough under opponent's neck
   - **Consequence**: Insufficient control of one side of neck, choke becomes one-sided arm bar on neck rather than true blood choke
   - **Correction**: Before locking your grip, ensure your choking arm is as deep as possible with your bicep on the far side of their neck. Your hand should be reaching toward their far shoulder. Depth creates the proper triangle structure.
-- **Mistake**: Holding the choke after opponent taps or goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding the choke after opponent taps or goes unconscious
   - **Consequence**: Can cause loss of consciousness, potential brain damage from prolonged oxygen deprivation, or stroke in extreme cases
   - **Correction**: Release immediately upon any tap signal. Watch opponent's face color and resistance level. If they go limp or stop resisting, release instantly even without tap. Blood chokes work quickly—there is no benefit to holding pressure after tap.
-- **Mistake**: Applying sudden jerking or spiking pressure to finish faster [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking or spiking pressure to finish faster
   - **Consequence**: Can cause neck strain, whiplash-type injury, or force unconsciousness before opponent can tap safely
   - **Correction**: Apply smooth, progressive pressure over 3-5 seconds minimum. The gradual increase allows opponent to recognize the danger and tap safely. Training is about control and learning, not speed finishes.
 
@@ -337,43 +337,6 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn triangle structure, head positioning, and basic mechanics without any finishing pressure. Partner remains completely safe while you practice grip, angle, and positioning.
-- Resistance: None
-- Safety: Understand anatomy of choke (carotid compression) and practice finding the position without applying any pressure. Partner should feel position only, never discomfort.
-
-**Slow Positional Practice** (Week 3-4)
-- Focus: Practice full sequence from side control setup to locked position with very slow movement. Begin adding light pressure just to understand the mechanics, releasing well before any discomfort.
-- Resistance: Zero resistance
-- Safety: Apply minimal pressure (20% maximum) and hold for only 1-2 seconds before releasing. Focus on smooth transitions and proper angle adjustment. Partner should never feel threatened, only positioned.
-
-**Progressive Pressure Control** (Week 5-8)
-- Focus: Gradually increase pressure application while maintaining 5-second minimum progression time. Partner begins light defensive frames and escapes. Emphasis on recognizing tap signals instantly.
-- Resistance: Mild resistance
-- Safety: Practice reading early tap signals and releasing immediately. Develop sensitivity to partner's stress levels. Never exceed 60% pressure in this phase. Communicate throughout the drill.
-
-**Realistic Defensive Scenarios** (Week 9-12)
-- Focus: Partner provides realistic defensive frames, turns, and escapes. Practice maintaining position and control while facing common defenses. Introduce variations from mount and north-south.
-- Resistance: Realistic resistance
-- Safety: Maintain 3-5 second application window even with resistance. Practice finishing with technique and position rather than speed or strength. Review safety protocols before each session.
-
-**Live Training Integration** (Week 13+)
-- Focus: Incorporate arm triangle into live rolling from various positions. Partner provides full resistance but both practitioners maintain safety-first mindset. Focus on high-percentage setups.
-- Resistance: Full resistance
-- Safety: Both partners responsible for safety—attacker maintains controlled application, defender taps early rather than fighting until last second. Debrief after any close calls or mistakes.
-
-**Competition Preparation (Advanced Only)** (Ongoing)
-- Focus: Refine finishing details, angle adjustments, and troubleshooting against elite-level defenses. Develop ability to recognize when choke is not available and transition to alternatives.
-- Resistance: Full resistance
-- Safety: Even in competition training, maintain respect for partner's safety. Practice fast recognition of setup but never sacrifice application safety for speed. Review competition vs training distinctions regularly.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -404,7 +367,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 - [[Clock Choke]]
 - [[Brabo Choke]]
 - [[Arm Triangle Progression]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 
 
 </section>
@@ -417,7 +380,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 - [[Mount]] - Alternative setup position when opponent frames
 - [[Kuzure Kesa-Gatame]] - Modified scarf hold position allows similar setup
 - [[Modified Scarf Hold]] - Body positioning allows similar mechanics
-- [[North South Control]] - Finishing position variation with downward pressure
+- [[North-South]] - Finishing position variation with downward pressure
 - [[Technical Mount]] - Alternative finishing position with leg control
 - [[S Mount]] - Modified mount finish provides excellent angle
 - [[Darce Choke]] - Related head and arm choke with similar mechanics
@@ -428,6 +391,7 @@ The Arm Triangle (Kata Gatame) is a fundamental blood choke that uses the oppone
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

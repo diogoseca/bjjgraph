@@ -157,7 +157,7 @@ The escape works by accepting and accelerating the rotation your opponent has es
 Strategically, this escape requires precise timing and commitment. Attempting it too early when controls are fully established results in simply tightening the Twister. Waiting too long allows the opponent to secure finishing grips. The optimal window occurs when the opponent transitions their grips or adjusts their position, momentarily weakening their leg control. Reading these transitions and exploding through the roll creates the highest success probability while minimizing the risk of accelerating into a worse position.
 
 **From Position**: [[Twister Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, this escape requires precise timing and commitment. Attempting it
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create leg slack**: Use hip movement and small wiggles to create any slack in the trapped leg configuration. Even minimal looseness provides the foundation for the roll by reducing the resistance you must overcome during rotation. (Timing: Before opponent secures finishing grips)
-2. **Establish frames**: Position both arms with elbows tight to your body, forearms creating barriers against opponent's upper body. These frames prevent them from following you through the roll and maintain separation throughout the escape. (Timing: Immediately after creating leg slack)
-3. **Post with free leg**: Plant your free leg firmly on the mat behind you at approximately a 45-degree angle. This posting leg generates the initial rotational force and provides the leverage needed to overcome the trapped leg resistance. (Timing: Coordinate with frame establishment)
-4. **Initiate rotation**: Drive off your posting leg while simultaneously pushing with your frames, rolling in the same direction as opponent's established rotation. Accept and accelerate the twist rather than fighting it, tucking your chin to protect your neck. (Timing: When opponent adjusts grips or position)
-5. **Complete the roll**: Continue the rotation through a full revolution, keeping your arms tight and chin tucked. Your trapped leg naturally extracts as you roll through due to the rotational momentum overcoming the static leg control. (Timing: Continuous motion without pause)
-6. **Establish guard**: As you complete the roll, immediately establish distance with your feet on opponent's hips and hands controlling their arms or collar. Create open guard structure before opponent can re-engage or transition to a new control position. (Timing: Immediately upon completing rotation)
+1. **Create leg slack**: Use hip movement and small wiggles to create any slack in the trapped leg configuration. Even minimal looseness provides the foundation for the roll by reducing the resistance you must overcome during rotation.
+2. **Establish frames**: Position both arms with elbows tight to your body, forearms creating barriers against opponent's upper body. These frames prevent them from following you through the roll and maintain separation throughout the escape.
+3. **Post with free leg**: Plant your free leg firmly on the mat behind you at approximately a 45-degree angle. This posting leg generates the initial rotational force and provides the leverage needed to overcome the trapped leg resistance.
+4. **Initiate rotation**: Drive off your posting leg while simultaneously pushing with your frames, rolling in the same direction as opponent's established rotation. Accept and accelerate the twist rather than fighting it, tucking your chin to protect your neck.
+5. **Complete the roll**: Continue the rotation through a full revolution, keeping your arms tight and chin tucked. Your trapped leg naturally extracts as you roll through due to the rotational momentum overcoming the static leg control.
+6. **Establish guard**: As you complete the roll, immediately establish distance with your feet on opponent's hips and hands controlling their arms or collar. Create open guard structure before opponent can re-engage or transition to a new control position.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this escape requires precise timing and commitment. Attempting it
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion without resistance, focusing on smooth rotation while maintaining chin tuck and arm frames. Drill solo rolls and partner-assisted rolls from static Twister Control position.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies light Twister Control and makes deliberate grip transitions. Practice recognizing the optimal escape window and initiating the roll during these transitions. Focus on reading opponent movement.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner applies moderate resistance and attempts to counter the escape by following the roll or deepening controls. Practice adjusting timing and speed to overcome counters. Integrate immediate guard establishment.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from Twister Control. Partner hunts submissions while you work escapes. Develop ability to chain Roll Through Escape with other escape options based on opponent reactions.
-(Resistance: Full)
 
 
 

@@ -262,26 +262,20 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-90 seconds in competition, 1-3 minutes in training"
     },
     "transitions": [
       {
         "transition": "Inside Heel Hook",
-        "attempt_probability": 11
+        "attempt_probability": 15
       },
       {
         "transition": "Kneebar from 50-50",
@@ -289,27 +283,35 @@
       },
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 11
+        "attempt_probability": 7
       },
       {
         "transition": "Calf Slicer from 50-50",
-        "attempt_probability": 8
+        "attempt_probability": 5
       },
       {
         "transition": "Back Take from 50-50",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "50-50 Guard to Outside Ashi",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "50-50 Guard to Inside Ashi",
         "attempt_probability": 15
       },
       {
-        "transition": "Pass to Side Control",
+        "transition": "50-50 Guard to Outside Ashi",
         "attempt_probability": 12
+      },
+      {
+        "transition": "50-50 Guard to Inside Ashi",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Outside Heel Hook",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "50-50 Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 6
       }
     ]
   },
@@ -512,46 +514,44 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
+        "value": 55
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-90 seconds before reversal, escape, or submission"
     },
     "transitions": [
       {
         "transition": "Position reversal sweep to top",
-        "attempt_probability": 18
+        "attempt_probability": 16
       },
       {
         "transition": "Counter heel hook",
-        "attempt_probability": 14
+        "attempt_probability": 16
       },
       {
         "transition": "50-50 Guard to Single Leg X-Guard",
-        "attempt_probability": 19
+        "attempt_probability": 17
       },
       {
         "transition": "Extract legs and stand up",
-        "attempt_probability": 20
+        "attempt_probability": 16
       },
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Kneebar entry",
-        "attempt_probability": 14
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 10
       }
     ]
   }

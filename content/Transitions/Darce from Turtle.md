@@ -17,7 +17,7 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Darce from Turtle in BJJ",
-  "description": "Step-by-step guide for Darce from Turtle from Turtle/Top. Possible outcomes: D'arce Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
+  "description": "Step-by-step guide for Darce from Turtle from Turtle/Top. Possible outcomes: Darce Control/Top (70%), Turtle/Top (20%), Turtle/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -153,7 +153,7 @@ description: "Learn Darce from Turtle in BJJ. Step-by-step execution from Turtle
 The Darce choke from turtle position is one of the most high-percentage submissions in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique capitalizes on the opponent's defensive turtle posture by attacking the exposed neck and far-side arm, creating a powerful blood choke that can force a tap within seconds when properly executed. The Darce from turtle is especially effective because opponents often feel safe in the turtle position, making them less defensive against this attack. The technique requires precise arm positioning, shoulder pressure, and an understanding of how to create the necessary space to thread your choking arm through. When executed correctly, the Darce choke cuts off blood flow to both carotid arteries while simultaneously creating structural pressure on the neck, making it extremely difficult to defend once locked in. This submission has become a staple in the arsenals of high-level competitors due to its effectiveness against various turtle defensive strategies and its ability to transition seamlessly from other front headlock attacks.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -163,7 +163,7 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[D'arce Control/Top]] | 70% |
+| Success | [[Darce Control/Top]] | 70% |
 | Failure | [[Turtle/Top]] | 20% |
 | Counter | [[Turtle/Bottom]] | 10% |
 
@@ -202,12 +202,12 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish front headlock control**: From turtle top position, secure front headlock control by wrapping your arm around opponent's neck. Your chest should be heavy on their back, flattening them and preventing them from sitting through to guard. Control their far shoulder with your free hand, using an overhook or grip on their lat muscle. Your weight distribution should be forward, making it difficult for them to move or escape. (Timing: Initial control phase - be patient and heavy)
-2. **Swim your choking arm across the neck**: Begin threading your choking arm (the arm that was controlling the neck) across opponent's throat and toward their far-side armpit. Your forearm should slide across the front of their neck with your bicep on one side of their neck and your forearm on the other. Keep your elbow tight and pointed downward as you swim through. The key is to get as deep as possible - your hand should emerge near their opposite lat muscle. (Timing: Execute when opponent is flat and unable to create space)
-3. **Trap the far-side arm**: As your choking arm threads through, ensure opponent's far-side arm becomes trapped between your bicep and their own neck. This is crucial - the Darce choke works by compressing one side of the neck with your arm and the other side with their own trapped shoulder. Use your free hand to guide their arm into the trap if necessary, or prevent them from pulling it free. (Timing: Simultaneous with threading - don't allow arm to escape)
-4. **Secure the grip**: Once your choking arm is deep, bring your free hand underneath opponent's body to meet your choking hand. Lock your hands together using either a palm-to-palm grip (preferred for finishing) or a gable grip. Your choking arm's hand should be palm-down, and your securing hand should grab it from underneath. Ensure the grip is tight and your elbows are close together to maximize pressure. (Timing: Lock grip as soon as both hands can connect)
-5. **Adjust body position for finish**: Once hands are locked, adjust your body position by moving your head to opponent's far hip (away from the choking arm). Your chest should remain heavy on their back. Swing your legs to the side opposite your head, creating an angle that allows you to drive your shoulder pressure into their neck while pulling with your arms. Your body should form roughly a 90-degree angle with opponent's spine. (Timing: Smooth transition - maintain pressure throughout)
-6. **Apply finishing pressure**: To finish the choke, drive your choking-side shoulder forward and down into opponent's neck while simultaneously pulling your grips toward your own chest. Your forearm should be creating pressure on the near-side carotid while their own trapped shoulder compresses the far-side carotid. Pull your elbows tight together to maximize compression. Expand your chest and arch your back slightly to increase pressure. The tap should come within 2-3 seconds of proper finishing pressure. (Timing: Progressive pressure over 2-3 seconds - monitor partner response)
+1. **Establish front headlock control**: From turtle top position, secure front headlock control by wrapping your arm around opponent's neck. Your chest should be heavy on their back, flattening them and preventing them from sitting through to guard. Control their far shoulder with your free hand, using an overhook or grip on their lat muscle. Your weight distribution should be forward, making it difficult for them to move or escape.
+2. **Swim your choking arm across the neck**: Begin threading your choking arm (the arm that was controlling the neck) across opponent's throat and toward their far-side armpit. Your forearm should slide across the front of their neck with your bicep on one side of their neck and your forearm on the other. Keep your elbow tight and pointed downward as you swim through. The key is to get as deep as possible - your hand should emerge near their opposite lat muscle.
+3. **Trap the far-side arm**: As your choking arm threads through, ensure opponent's far-side arm becomes trapped between your bicep and their own neck. This is crucial - the Darce choke works by compressing one side of the neck with your arm and the other side with their own trapped shoulder. Use your free hand to guide their arm into the trap if necessary, or prevent them from pulling it free.
+4. **Secure the grip**: Once your choking arm is deep, bring your free hand underneath opponent's body to meet your choking hand. Lock your hands together using either a palm-to-palm grip (preferred for finishing) or a gable grip. Your choking arm's hand should be palm-down, and your securing hand should grab it from underneath. Ensure the grip is tight and your elbows are close together to maximize pressure.
+5. **Adjust body position for finish**: Once hands are locked, adjust your body position by moving your head to opponent's far hip (away from the choking arm). Your chest should remain heavy on their back. Swing your legs to the side opposite your head, creating an angle that allows you to drive your shoulder pressure into their neck while pulling with your arms. Your body should form roughly a 90-degree angle with opponent's spine.
+6. **Apply finishing pressure**: To finish the choke, drive your choking-side shoulder forward and down into opponent's neck while simultaneously pulling your grips toward your own chest. Your forearm should be creating pressure on the near-side carotid while their own trapped shoulder compresses the far-side carotid. Pull your elbows tight together to maximize compression. Expand your chest and arch your back slightly to increase pressure. The tap should come within 2-3 seconds of proper finishing pressure.
 
 
 </section>
@@ -254,23 +254,18 @@ The Darce choke from turtle position is one of the most high-percentage submissi
 ## Training Progressions
 **Week 1-2: Positional Understanding** - Entry mechanics and arm threading
 Begin with cooperative partner in turtle position. Practice the movement pattern of threading your arm across the neck 20-30 times per session, focusing on achieving maximum depth. Partner provides zero resistance. Emphasize feeling where your hand should emerge (near far-side lat). Work on maintaining chest pressure while threading. No finishing pressure - just setup repetitions.
-(Resistance: None)
 
 **Week 3-4: Grip Establishment** - Hand connection and grip security
 Partner remains cooperative but you now complete the full sequence including locking the grip. Practice different grip variations (palm-to-palm, gable grip) to find what works best for your body type. Partner begins providing light resistance by trying to pull far arm free, forcing you to time your threading properly. Complete 15-20 successful grip locks per session. Begin adding body positioning adjustment after grip is secured.
-(Resistance: Light)
 
 **Week 5-8: Controlled Finishing** - Applying progressive pressure and recognizing the tap
 Now add the finishing mechanics with progressive pressure. Partner allows setup but defends the finish moderately, requiring you to use proper shoulder pressure and body angle. Practice bringing pressure up from 0% to 100% over 5-6 seconds, learning to feel the difference between proper technique and muscle. Partner taps when pressure becomes uncomfortable. Work on immediate release upon tap. 10-15 controlled finishes per session.
-(Resistance: Medium)
 
 **Week 9-12: Dynamic Application** - Countering defensive reactions
 Partner now actively defends by pulling arm free, sitting through, or granby rolling. You must recognize which defense they're using and either complete the Darce or transition to alternatives (anaconda, guillotine, back take). Success rate should be 50-60% at this stage. Begin working the sequence from live rolling when opponent turtles. 8-12 live attempts per session with various defensive reactions.
-(Resistance: Medium)
 
 **Week 13+: Competition Integration** - High-pressure application and transition flow
 Use in full resistance positional sparring (start in turtle top position) and regular rolling. Work on recognizing the Darce opportunity from various turtle attacks (clock choke attempts, crucifix setups, etc.). Success rate should be 60-70% against partners of similar skill level. Focus on speed of execution while maintaining control and safety. Chain with other turtle attacks to create submission dilemmas.
-(Resistance: Full)
 
 
 
@@ -342,7 +337,7 @@ The Darce from turtle is a cornerstone technique in the modern front headlock su
 - [[Guillotine from Turtle]] - Alternative - transition option when opponent sits through
 - [[Crucifix from Turtle]] - Position chain - alternative attack from same turtle top control
 - [[Turtle to Back Take]] - Position alternative - used when submission attacks are defended
-- [[D'arce-Anaconda Connection]] - System integration - understanding how these techniques flow together
+- [[Darce-Anaconda Connection]] - System integration - understanding how these techniques flow together
 - [[Front Headlock Series]] - Parent system - Darce from turtle is part of this comprehensive attack system
 - [[Arm Triangle from Turtle]] - Alternative - different submission from similar control position
 - [[Darce Variations]] - Technical expansion - different methods and adjustments for the finish

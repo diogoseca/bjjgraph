@@ -323,21 +323,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Percentage of time Gift Wrap control is maintained against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Probability of advancing to better position or submission"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Probability of achieving submission finish from Gift Wrap"
       }
     },
@@ -626,21 +620,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 85,
-        "intermediate": 70,
-        "advanced": 50,
+        "value": 60,
         "description": "Percentage of time opponent maintains Gift Wrap control"
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 45,
+        "value": 35,
         "description": "Probability of escaping to better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 12,
-        "advanced": 20,
+        "value": 16,
         "description": "Probability of successfully escaping without being submitted"
       }
     },

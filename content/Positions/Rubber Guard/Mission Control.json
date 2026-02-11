@@ -301,21 +301,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Ability to defend submissions and eventually escape Mission Control"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 38,
-        "advanced": 58,
+        "value": 48,
         "description": "Probability of escaping to neutral or dominant position"
       },
       "submission_probability": {
-        "beginner": 60,
-        "intermediate": 40,
-        "advanced": 20,
+        "value": 30,
         "description": "Probability of being submitted while trapped in Mission Control"
       },
       "average_time": "90-180 seconds to escape or be submitted at intermediate level"
@@ -609,21 +603,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 65,
-        "advanced": 85,
+        "value": 75,
         "description": "Ability to maintain Mission Control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 58,
-        "advanced": 78,
+        "value": 68,
         "description": "Probability of advancing to submission or improved position"
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 52,
-        "advanced": 72,
+        "value": 62,
         "description": "Probability of finishing submission directly from Mission Control"
       },
       "average_time": "45-90 seconds before submission attempt or position change"

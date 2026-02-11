@@ -157,7 +157,7 @@ What makes the Scissor Sweep particularly effective is its reliance on timing an
 The Scissor Sweep integrates seamlessly into the closed guard attack system, working in combination with other sweeps like the Hip Bump and Pendulum Sweep. When opponents defend one sweep, they often create the opening for another, establishing a systematic approach to attacking from guard. Mastering this technique provides practitioners with a cornerstone skill that remains effective throughout their BJJ journey.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 55%, Intermediate 75%, Advanced 90%
+**Success Rate**: 82%
 
 </section>
 
@@ -206,12 +206,12 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips and break posture**: From closed guard, secure a strong grip on opponent's same-side sleeve with your same-side hand. With your opposite hand, grip deep into their collar. Use both grips simultaneously to break their posture forward, pulling them down and disrupting their base. Their head should be pulled down toward your chest, preventing them from establishing strong posture. (Timing: Initial setup - take time to establish solid grips before proceeding)
-2. **Open guard and create angle**: Release your closed guard by uncrossing your ankles. Simultaneously, use your grips to angle your body approximately 45-90 degrees to your opponent. Your shoulders should rotate toward the side where you have the collar grip. This angle is critical for creating the leverage needed for the scissor motion. (Timing: Execute smoothly as one continuous motion with step 3)
-3. **Position scissor legs**: Place your bottom leg (the leg on the collar grip side) across opponent's lower abdomen or belt line with your shin making contact. Your top leg (sleeve grip side) bends at the knee and places the back of your knee/calf behind opponent's same-side shoulder or across their back. Your feet should be flexed, creating tension in both legs. (Timing: Legs must be positioned before opponent can react and establish base)
-4. **Pull opponent forward with grips**: Using your collar and sleeve grips, pull the opponent's upper body strongly toward the mat on your collar grip side. This breaks their base by shifting their center of gravity forward and to the side. The sleeve grip prevents them from posting with that arm, while the collar grip controls their upper body rotation. (Timing: Pull as you initiate the scissor motion - coordination is essential)
-5. **Execute scissor motion**: Simultaneously extend your bottom leg straight, pushing into opponent's abdomen to drive them backward, while pulling your top leg sharply toward your chest. This scissoring motion creates opposing forces that sweep the opponent backward and to the side. Your hips should come off the mat slightly to generate maximum power. (Timing: Explosive motion - complete the scissor in one smooth, powerful action)
-6. **Follow through to mount**: As opponent falls backward, immediately come up on your knees while maintaining your grips. Follow their falling motion by posting your inside knee next to their ribs and bringing your outside leg over their body. Establish mount position by settling your hips down and controlling their upper body with your grips. (Timing: Immediate follow-up - don't pause between sweep and mount transition)
+1. **Establish grips and break posture**: From closed guard, secure a strong grip on opponent's same-side sleeve with your same-side hand. With your opposite hand, grip deep into their collar. Use both grips simultaneously to break their posture forward, pulling them down and disrupting their base. Their head should be pulled down toward your chest, preventing them from establishing strong posture.
+2. **Open guard and create angle**: Release your closed guard by uncrossing your ankles. Simultaneously, use your grips to angle your body approximately 45-90 degrees to your opponent. Your shoulders should rotate toward the side where you have the collar grip. This angle is critical for creating the leverage needed for the scissor motion.
+3. **Position scissor legs**: Place your bottom leg (the leg on the collar grip side) across opponent's lower abdomen or belt line with your shin making contact. Your top leg (sleeve grip side) bends at the knee and places the back of your knee/calf behind opponent's same-side shoulder or across their back. Your feet should be flexed, creating tension in both legs.
+4. **Pull opponent forward with grips**: Using your collar and sleeve grips, pull the opponent's upper body strongly toward the mat on your collar grip side. This breaks their base by shifting their center of gravity forward and to the side. The sleeve grip prevents them from posting with that arm, while the collar grip controls their upper body rotation.
+5. **Execute scissor motion**: Simultaneously extend your bottom leg straight, pushing into opponent's abdomen to drive them backward, while pulling your top leg sharply toward your chest. This scissoring motion creates opposing forces that sweep the opponent backward and to the side. Your hips should come off the mat slightly to generate maximum power.
+6. **Follow through to mount**: As opponent falls backward, immediately come up on your knees while maintaining your grips. Follow their falling motion by posting your inside knee next to their ribs and bringing your outside leg over their body. Establish mount position by settling your hips down and controlling their upper body with your grips.
 
 
 </section>
@@ -257,23 +257,18 @@ The Scissor Sweep integrates seamlessly into the closed guard attack system, wor
 ## Training Progressions
 **Week 1-2: Technical Foundation** - Grip establishment, angle creation, and leg positioning
 Practice with a completely cooperative partner who maintains broken posture. Focus solely on establishing proper grips, creating the correct angle, and positioning both legs accurately. Drill 20-30 repetitions daily, emphasizing the setup rather than the sweep itself.
-(Resistance: None)
 
 **Week 3-4: Coordinated Motion** - Synchronizing grip pull with scissor leg action
 Add the actual sweeping motion while partner remains cooperative. Practice coordinating the upper body pull with the lower body scissor, feeling how the forces work together. Gradually increase speed while maintaining technical precision. Include multiple repetitions on both sides.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Response** - Timing and reaction to opponent's weight shifts
 Partner begins offering light resistance and slight variations in posture. Practice recognizing the optimal moment to execute the sweep based on opponent's weight distribution. Work on adjusting angle and grip pressure dynamically in response to partner's movements.
-(Resistance: Medium)
 
 **Week 9-12: Positional Integration** - Combining with other closed guard attacks
 Train the Scissor Sweep as part of a complete closed guard system. Practice flowing between Scissor, Hip Bump, and Pendulum Sweeps based on opponent's defensive reactions. Partner provides realistic resistance and attempts common counters.
-(Resistance: Full)
 
 **Month 4+: Competition Application** - Live training and situational sparring
 Execute the sweep during positional sparring from closed guard with full resistance. Practice against opponents of various sizes and skill levels. Focus on recognizing opportunities and maintaining composure under pressure.
-(Resistance: Full)
 
 
 

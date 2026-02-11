@@ -153,7 +153,7 @@ description: "Learn the Triangle setup from Closed Guard in BJJ. Complete execut
 The transition from Closed Guard to Triangle represents one of the most fundamental and high-percentage attacks in Brazilian Jiu-Jitsu. This technique exploits the opponent's defensive posturing by converting arm positioning into a powerful strangulation threat. The beauty of this transition lies in its ability to capitalize on the opponent's natural defensive reactions—whether they maintain their base or attempt to posture, the guard player can manipulate limb placement to secure the triangle lock. The closed guard provides an ideal launching platform because it offers control of distance, hip mobility, and the ability to break posture repeatedly until the optimal angle presents itself. This transition teaches fundamental principles of angle creation, hip movement, and limb isolation that apply throughout guard-based submissions. Mastery of this sequence provides a reliable pathway to finish matches while simultaneously opening opportunities for sweeps and back takes when opponents defend the primary threat.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 25%, Intermediate 40%, Advanced 60%
+**Success Rate**: 50%
 
 </section>
 
@@ -201,12 +201,12 @@ The transition from Closed Guard to Triangle represents one of the most fundamen
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture and control**: From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs. (Timing: Initiate when opponent attempts to establish their grips or begins to posture)
-2. **Isolate the arm**: Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard while the other is positioned outside. (Timing: Pull the arm across as you feel their weight shift forward)
-3. **Open guard and create angle**: Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a slight hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics. (Timing: Execute the angle creation as one fluid motion immediately after isolating the arm)
-4. **Throw leg over shoulder**: Drive your left leg up and over the opponent's right shoulder, bringing your shin across the back of their neck. Your left knee should be positioned near your own centerline while your foot extends past their left shoulder. Maintain downward pressure on their head with your collar grip to prevent them from posturing up. (Timing: Throw the leg as soon as the angle is created, before opponent can recover posture)
-5. **Lock the triangle**: Pull your right leg out from behind the opponent's back and place your right ankle behind your left knee, forming the triangle lock. Your left leg should maintain pressure across the back of their neck while your right leg secures the lock. Ensure the opponent's trapped arm remains across their centerline and their head is pulled down toward your chest. (Timing: Lock the triangle immediately after leg is over shoulder to prevent escape)
-6. **Adjust angle and finish**: Grab your own shin (left leg) with both hands and pull it down toward your chest while simultaneously angling your hips further away from the trapped arm side. This adjustment tightens the triangle and positions the opponent's carotid arteries directly against your thigh and calf. Elevate your hips slightly to increase pressure and secure the submission. (Timing: Make final adjustments until you feel the choke tightening properly)
+1. **Break posture and control**: From closed guard, establish a deep collar grip with your left hand and secure the opponent's right sleeve with your right hand. Pull down forcefully on the collar to break their posture forward while maintaining tight guard closure with your legs.
+2. **Isolate the arm**: Using your sleeve grip, pull the opponent's right arm across their centerline toward your left side while simultaneously using your collar grip to prevent them from basing out with their left arm. The goal is to create a situation where one arm is trapped inside your guard while the other is positioned outside.
+3. **Open guard and create angle**: Release your ankle lock and place your left foot on the opponent's right hip while keeping your right leg hooked behind their back. Simultaneously perform a slight hip escape to your right side, creating approximately 45 degrees of angle relative to your opponent's centerline. This angle is critical for proper triangle mechanics.
+4. **Throw leg over shoulder**: Drive your left leg up and over the opponent's right shoulder, bringing your shin across the back of their neck. Your left knee should be positioned near your own centerline while your foot extends past their left shoulder. Maintain downward pressure on their head with your collar grip to prevent them from posturing up.
+5. **Lock the triangle**: Pull your right leg out from behind the opponent's back and place your right ankle behind your left knee, forming the triangle lock. Your left leg should maintain pressure across the back of their neck while your right leg secures the lock. Ensure the opponent's trapped arm remains across their centerline and their head is pulled down toward your chest.
+6. **Adjust angle and finish**: Grab your own shin (left leg) with both hands and pull it down toward your chest while simultaneously angling your hips further away from the trapped arm side. This adjustment tightens the triangle and positions the opponent's carotid arteries directly against your thigh and calf. Elevate your hips slightly to increase pressure and secure the submission.
 
 
 </section>
@@ -252,27 +252,21 @@ The transition from Closed Guard to Triangle represents one of the most fundamen
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Arm isolation and angle creation
 Practice breaking posture, isolating the arm across centerline, and creating proper angles from closed guard. Partner remains stationary while you develop muscle memory for hip movement and arm control. Focus on consistent angle creation of approximately 45 degrees.
-(Resistance: None)
 
 **Week 3-4: Entry Drilling** - Complete transition sequence
 Drill the entire sequence from closed guard to locked triangle position. Partner provides light resistance by maintaining basic posture but allows technique to complete. Emphasize smooth transitions between steps and proper timing of guard opening, angle creation, and leg placement over shoulder.
-(Resistance: Light)
 
 **Week 5-6: Position Retention** - Maintaining triangle against defensive movements
 Partner attempts basic escapes such as posturing up and pulling arm back. Practice maintaining triangle lock, adjusting angle, and following opponent's movement. Begin recognizing when to transition to alternative submissions like armbar or omoplata.
-(Resistance: Medium)
 
 **Week 7-8: Counter Responses** - Dealing with common defenses
 Partner employs realistic defensive tactics including standing to stack, circling away from angle, and driving forward pressure. Develop ability to maintain control and finish triangle despite resistance, or smoothly transition to backup attacks when primary finish is defended.
-(Resistance: Medium)
 
 **Week 9-10: Live Application** - Integration into positional sparring
 Apply triangle entries during positional sparring from closed guard with full resistance. Partner knows you're hunting for triangle but defends realistically. Focus on creating setups, recognizing optimal timing, and chaining together multiple attack attempts.
-(Resistance: Full)
 
 **Week 11+: Competition Refinement** - High-percentage finishing under pressure
 Implement triangle attacks during full sparring sessions. Develop recognition of optimal moments to attack based on opponent's grip fighting, posture, and defensive patterns. Refine ability to finish quickly or transition to alternative attacks without losing advantageous position.
-(Resistance: Full)
 
 
 

@@ -365,11 +365,11 @@ Timed rounds starting from 3-4 mount bottom position. Bottom player scores point
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 0% |
-| Intermediate | 30% | 40% | 0% |
-| Advanced     | 45% | 55% | 5% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 48% |
+| Submission Probability | 2% |
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 

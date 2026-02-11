@@ -163,7 +163,7 @@ This technique addresses a critical gap in many practitioners' defensive games. 
 Strategically, this protocol is highest percentage when the opponent is actively attacking submissions from Gift Wrap rather than maintaining static control. Submission attempts create weight shifts, grip changes, and positional adjustments that open escape windows. The defender exploits these windows by committing fully to the complete escape sequence rather than settling for partial defensive improvements. The technique demands decisiveness and commitment - hesitation at any stage allows the opponent to re-establish the Gift Wrap or advance to mount.
 
 **From Position**: [[Gift Wrap/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, this protocol is highest percentage when the opponent is actively
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Defend immediate submission threat**: Use your free hand to address the active submission attempt. If opponent is attacking the rear naked choke, grip fight the choking hand. If attacking the armbar, retract the free arm tight to your ribs. This defensive action buys the window needed for the escape sequence. (Timing: Immediate response to opponent's attack)
-2. **Initiate arm recovery with hip escape**: Relax the trapped arm completely and shrimp your hips away from the opponent while rotating your trapped shoulder forward and toward the mat, creating a rotational extraction angle that frees the arm along the path of least resistance. (Timing: Coordinate with opponent's weight shift during their submission attempt)
-3. **Establish double arm frames**: The moment the trapped arm is free, immediately bring both hands to frame against the opponent's upper body. Place one forearm across their neck or collarbone and the other against their hip or shoulder to create a structural barrier preventing chest-to-back reconnection. (Timing: Within one second of arm recovery - speed is critical here)
-4. **Clear the bottom hook**: With frames established, use your bottom leg to stomp down on the opponent's bottom hook, straightening your leg forcefully to strip their hook from inside your thigh. Keep your hips moving away from their body throughout the hook removal to maintain the distance your frames created. (Timing: Immediately following frame establishment)
-5. **Clear the top hook and rotate hips**: Push against the opponent's top hook with your knee or shin while simultaneously rotating your hips to face them. Use a pummel action with your top leg to clear their remaining hook and begin inserting your own legs between your bodies as defensive barriers. (Timing: Chain directly from bottom hook clearance)
-6. **Insert shin frames and establish distance**: Drive both shins across the opponent's hips or thighs as you complete the hip rotation to face them. Push with your feet on their hips to create maximum distance while your hands fight for controlling grips on their sleeves, collar, or wrists. (Timing: Final phase - transition from escape to guard)
-7. **Compose open guard structure**: With distance established and legs between you and the opponent, set your feet on their hips, establish at least two controlling grips, and begin active open guard management. Immediately threaten sweeps or submissions to prevent them from re-initiating a passing sequence. (Timing: Stabilize within 2-3 seconds of facing opponent)
+1. **Defend immediate submission threat**: Use your free hand to address the active submission attempt. If opponent is attacking the rear naked choke, grip fight the choking hand. If attacking the armbar, retract the free arm tight to your ribs. This defensive action buys the window needed for the escape sequence.
+2. **Initiate arm recovery with hip escape**: Relax the trapped arm completely and shrimp your hips away from the opponent while rotating your trapped shoulder forward and toward the mat, creating a rotational extraction angle that frees the arm along the path of least resistance.
+3. **Establish double arm frames**: The moment the trapped arm is free, immediately bring both hands to frame against the opponent's upper body. Place one forearm across their neck or collarbone and the other against their hip or shoulder to create a structural barrier preventing chest-to-back reconnection.
+4. **Clear the bottom hook**: With frames established, use your bottom leg to stomp down on the opponent's bottom hook, straightening your leg forcefully to strip their hook from inside your thigh. Keep your hips moving away from their body throughout the hook removal to maintain the distance your frames created.
+5. **Clear the top hook and rotate hips**: Push against the opponent's top hook with your knee or shin while simultaneously rotating your hips to face them. Use a pummel action with your top leg to clear their remaining hook and begin inserting your own legs between your bodies as defensive barriers.
+6. **Insert shin frames and establish distance**: Drive both shins across the opponent's hips or thighs as you complete the hip rotation to face them. Push with your feet on their hips to create maximum distance while your hands fight for controlling grips on their sleeves, collar, or wrists.
+7. **Compose open guard structure**: With distance established and legs between you and the opponent, set your feet on their hips, establish at least two controlling grips, and begin active open guard management. Immediately threaten sweeps or submissions to prevent them from re-initiating a passing sequence.
 
 
 </section>
@@ -259,19 +259,15 @@ Strategically, this protocol is highest percentage when the opponent is actively
 ## Training Progressions
 **Week 1-2** - Full sequence mechanics
 Walk through the entire chain from arm recovery to open guard establishment with a cooperative partner. Focus on the transition points between each phase: arm free to frames, frames to hook clearing, hook clearing to guard composition. Drill each sub-sequence in isolation, then combine into the full chain with zero resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing and windows
 Partner applies moderate Gift Wrap control and initiates submission attacks at 40% speed. Practice recognizing the weight shift windows and initiating the full escape chain during those openings. Partner allows the escape when timing is correct but resets when timing is poor.
-(Resistance: Light)
 
 **Week 5-6** - Chain defense and counter-recovery
 Partner actively resists the escape at 70% intensity, including re-capturing arms, following hip escapes, and attempting to transition to mount. Practice adapting the protocol when opponent counters specific phases - switching to half guard recovery when mount is threatened, re-initiating when Gift Wrap is re-established.
-(Resistance: Medium)
 
 **Week 7+** - Live application and pressure testing
 Begin rounds from Gift Wrap Bottom with partner applying full competition-level resistance and submissions. Measure success rate of reaching open guard versus being submitted or having escape stuffed. Identify which phase breaks down most frequently under pressure and isolate that sub-sequence for additional drilling.
-(Resistance: Full)
 
 
 

@@ -159,7 +159,7 @@ description: "Learn Guillotine Defense in BJJ. Step-by-step escape from Guilloti
 The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jitsu, addressing one of the most common and dangerous submission threats across all levels of competition. When caught in a guillotine choke, whether standing or on the ground, understanding the proper defensive mechanics can mean the difference between tapping and escaping to a superior position. This defensive sequence focuses on alleviating pressure from the carotid arteries while simultaneously creating escape pathways that neutralize the submission threat. The defense must be executed with precise timing and technical understanding, as improper attempts can actually tighten the choke and accelerate the need to tap. Modern guillotine defense emphasizes posture management, hand fighting, and strategic movement patterns that exploit the mechanical weaknesses inherent in the attacking position. Success requires both preventative awareness to avoid deep guillotine positions and reactive technical skills to escape when caught. The technique serves as a fundamental component of any complete defensive system, particularly relevant in no-gi grappling where guillotine attacks are statistically among the most successful submissions.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure chin protection**: Immediately tuck your chin to your chest and insert your near-side hand (same side as their choking arm) between your neck and their forearm. Create a protective frame by pressing your palm against their wrist or forearm, establishing a barrier between their choking pressure and your carotid arteries. This initial frame is critical for buying time to execute subsequent defensive steps. (Timing: Immediate reaction upon recognizing guillotine threat)
-2. **Address the fulcrum**: Use your framing hand to push down on opponent's wrist while simultaneously pulling your head backward and upward. The guillotine choke relies on a fulcrum point where their wrist contacts your neck - by controlling this point and changing the angle, you significantly reduce choking pressure. Focus on moving their wrist away from the center of your throat toward the side of your neck where the choke is less effective. (Timing: Within 1-2 seconds of initial frame)
-3. **Create hip distance**: Step your legs away from opponent's hips, creating maximum distance between your body and theirs. If standing, step backward while maintaining low posture. If on ground, extend your hips away and sprawl your legs back. This distance prevents them from using their hip as an additional fulcrum point and reduces their mechanical advantage significantly. Keep your weight on your toes if standing, ready to continue circling away. (Timing: Simultaneous with addressing the fulcrum)
-4. **Control the free hand**: With your far-side hand (opposite the choke), grip opponent's free wrist or forearm to prevent them from adjusting their grip or securing a tighter configuration. This hand control is essential because many guillotine escapes fail when opponents switch to more effective grip variations mid-defense. Maintain constant pressure controlling this arm throughout your escape sequence. (Timing: As soon as initial pressure is alleviated)
-5. **Posture and circle**: Maintain rigid posture through your spine while circling your body toward the side of the choking arm (not away from it). Drive your shoulder forward and down toward their hip on the choking side. This circular motion combined with forward pressure creates angles where the guillotine loses structural integrity. Keep your head looking up and forward, never allowing your chin to rise which would expose your neck. (Timing: Once hip distance is established)
-6. **Extract the head**: As you circle toward the choking side, use your framing hand to push their wrist across your face toward the opposite side while pulling your head out and through. Think of swimming your head out of a tight opening - stay compact, keep chin tucked, and move with controlled determination. Your head should emerge on the outside of their choking arm. (Timing: As pressure decreases from previous steps)
-7. **Secure top position**: Once your head is free, immediately establish dominant position by driving forward into side control, mount, or back control depending on opponent's body position. Never allow space for them to re-attack with the guillotine. Drive your weight through your shoulder into their torso, establish cross-face control, and begin working for positional advancement. Your successful defense should transition seamlessly into offense. (Timing: Immediately upon head extraction)
+1. **Secure chin protection**: Immediately tuck your chin to your chest and insert your near-side hand (same side as their choking arm) between your neck and their forearm. Create a protective frame by pressing your palm against their wrist or forearm, establishing a barrier between their choking pressure and your carotid arteries. This initial frame is critical for buying time to execute subsequent defensive steps.
+2. **Address the fulcrum**: Use your framing hand to push down on opponent's wrist while simultaneously pulling your head backward and upward. The guillotine choke relies on a fulcrum point where their wrist contacts your neck - by controlling this point and changing the angle, you significantly reduce choking pressure. Focus on moving their wrist away from the center of your throat toward the side of your neck where the choke is less effective.
+3. **Create hip distance**: Step your legs away from opponent's hips, creating maximum distance between your body and theirs. If standing, step backward while maintaining low posture. If on ground, extend your hips away and sprawl your legs back. This distance prevents them from using their hip as an additional fulcrum point and reduces their mechanical advantage significantly. Keep your weight on your toes if standing, ready to continue circling away.
+4. **Control the free hand**: With your far-side hand (opposite the choke), grip opponent's free wrist or forearm to prevent them from adjusting their grip or securing a tighter configuration. This hand control is essential because many guillotine escapes fail when opponents switch to more effective grip variations mid-defense. Maintain constant pressure controlling this arm throughout your escape sequence.
+5. **Posture and circle**: Maintain rigid posture through your spine while circling your body toward the side of the choking arm (not away from it). Drive your shoulder forward and down toward their hip on the choking side. This circular motion combined with forward pressure creates angles where the guillotine loses structural integrity. Keep your head looking up and forward, never allowing your chin to rise which would expose your neck.
+6. **Extract the head**: As you circle toward the choking side, use your framing hand to push their wrist across your face toward the opposite side while pulling your head out and through. Think of swimming your head out of a tight opening - stay compact, keep chin tucked, and move with controlled determination. Your head should emerge on the outside of their choking arm.
+7. **Secure top position**: Once your head is free, immediately establish dominant position by driving forward into side control, mount, or back control depending on opponent's body position. Never allow space for them to re-attack with the guillotine. Drive your weight through your shoulder into their torso, establish cross-face control, and begin working for positional advancement. Your successful defense should transition seamlessly into offense.
 
 
 </section>
@@ -261,27 +261,21 @@ The Guillotine Defense represents a critical survival skill in Brazilian Jiu-Jit
 ## Training Progressions
 **Week 1-2: Positional Awareness** - Recognition and framing fundamentals
 Partner applies guillotine at 30% pressure from various positions (standing, guard, half guard). Practice immediate chin tuck and hand frame insertion without any escape attempt. Focus solely on recognition speed and initial protective reaction. Hold defensive frame for 10 seconds, then reset. Goal is building muscle memory for immediate protective response.
-(Resistance: Light)
 
 **Week 3-4: Fulcrum Control** - Addressing choking pressure mechanics
 Partner applies guillotine at 50% pressure. Practice pushing down on wrist/forearm while maintaining chin protection. Work on changing angle of choke by controlling fulcrum point. Partner provides feedback on when pressure is effectively reduced. No full escape yet - focus is entirely on pressure management through technical hand positioning.
-(Resistance: Light)
 
 **Week 5-6: Distance Creation** - Hip distance and posture maintenance
 Add hip distance creation to the defensive sequence. Partner applies guillotine at 60% pressure. Practice stepping away (if standing) or extending hips (if grounded) while maintaining frames and fulcrum control. Partner attempts to follow and close distance. Work until you can consistently maintain 12-18 inches of hip separation while managing neck pressure.
-(Resistance: Medium)
 
 **Week 7-8: Complete Sequence** - Full escape to top position
 Execute entire defensive sequence from frame to escape to positional dominance. Partner applies guillotine at 70% pressure and attempts to counter your escape attempts. Practice from standing, closed guard, and half guard scenarios. Begin tracking success rate. Goal is 60%+ escape rate against training partners of similar skill level.
-(Resistance: Medium)
 
 **Week 9-12: Variation Defense** - Defending different guillotine types
 Partner randomizes guillotine attacks using high-elbow, arm-in, ten-finger, and standard variations. Must identify grip type and adjust defense accordingly. Train at 80-90% intensity. Include scenarios where partner transitions between grip types mid-defense. Develop adaptability and recognition skills under pressure.
-(Resistance: Full)
 
 **Month 4+: Competition Simulation** - Defense under maximum stress
 Full resistance guillotine defense during live rolling. Partner actively attempts to finish guillotine using any variation and any counter to your defense. Practice defending while fatigued, from inferior positions, and against larger opponents. Video review your escapes to identify technical breakdown points. Goal is 70%+ escape rate in live training.
-(Resistance: Full)
 
 
 

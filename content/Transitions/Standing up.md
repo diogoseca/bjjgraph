@@ -159,7 +159,7 @@ description: "Master the Technical Standup in BJJ. Learn proper base mechanics, 
 The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jitsu that allows a grounded practitioner to safely return to their feet while maintaining defensive frames and preventing takedowns. This transition represents a critical bridge between ground and standing combat, serving as both an escape mechanism from inferior positions and a method of disengagement when desired. The technical standup is essential for maintaining distance management, creating space, and resetting the engagement to a more favorable position. It is particularly crucial in self-defense scenarios, MMA contexts, and competitive situations where standing offers strategic advantages. The position requires precise weight distribution, balance, timing, and spatial awareness to execute safely without compromising defensive integrity. Mastery of the standing up sequence provides practitioners with autonomy over engagement range and the ability to dictate whether the match remains on the ground or returns to standing combat. The transition involves posting a base hand, elevating the hips, loading the near leg, and driving explosively to standing while maintaining the far leg as a defensive barrier throughout the sequence.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
+**Success Rate**: 78%
 
 </section>
 
@@ -208,13 +208,13 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create distance and space**: Use frames, shrimping, or leg extensions to create sufficient space between you and opponent. Push away with feet on hips or use defensive frames to prevent opponent from closing distance while you prepare to post base hand. (Timing: Before opponent can establish controlling grips or advance position)
-2. **Post base hand**: Rotate body slightly to side and post base hand approximately 12-18 inches behind hips with palm flat on mat, fingers pointed away from body. Fully extend and lock arm with scapula depressed and stable, creating first point of triangular base structure. (Timing: As soon as sufficient space is created)
-3. **Elevate hips immediately**: Drive hips upward off mat by pushing through posted hand and beginning to load near leg. Elevate hips high enough that only base hand, near foot, and far heel remain in contact with mat, creating mobile defensive structure. (Timing: Immediately after base hand posts)
-4. **Position near leg**: Bend near leg (same side as posted hand) with foot flat on ground and knee pointed upward, positioned close to hips. This leg will provide explosive drive when transitioning to standing. Distribute weight between base hand and near foot. (Timing: Simultaneous with hip elevation)
-5. **Extend far leg as barrier**: Extend far leg forward with heel on ground, creating defensive barrier that prevents opponent from closing distance or driving forward. Actively pump and reposition this leg to maintain distance and track opponent's movement. (Timing: Maintain throughout entire standup sequence)
-6. **Maintain visual contact**: Keep head up with eyes locked on opponent at all times. Chest should face toward opponent throughout entire sequence. Track opponent's movement and position to time explosive drive to standing. (Timing: Constant throughout sequence)
-7. **Drive to standing**: When opponent creates distance or commits to forward pressure, explosively drive through near leg while pushing off base hand. Bring far leg back and plant both feet, rising to standing position while maintaining defensive posture with hands ready to defend takedowns. (Timing: When window opens (opponent distance or commitment))
+1. **Create distance and space**: Use frames, shrimping, or leg extensions to create sufficient space between you and opponent. Push away with feet on hips or use defensive frames to prevent opponent from closing distance while you prepare to post base hand.
+2. **Post base hand**: Rotate body slightly to side and post base hand approximately 12-18 inches behind hips with palm flat on mat, fingers pointed away from body. Fully extend and lock arm with scapula depressed and stable, creating first point of triangular base structure.
+3. **Elevate hips immediately**: Drive hips upward off mat by pushing through posted hand and beginning to load near leg. Elevate hips high enough that only base hand, near foot, and far heel remain in contact with mat, creating mobile defensive structure.
+4. **Position near leg**: Bend near leg (same side as posted hand) with foot flat on ground and knee pointed upward, positioned close to hips. This leg will provide explosive drive when transitioning to standing. Distribute weight between base hand and near foot.
+5. **Extend far leg as barrier**: Extend far leg forward with heel on ground, creating defensive barrier that prevents opponent from closing distance or driving forward. Actively pump and reposition this leg to maintain distance and track opponent's movement.
+6. **Maintain visual contact**: Keep head up with eyes locked on opponent at all times. Chest should face toward opponent throughout entire sequence. Track opponent's movement and position to time explosive drive to standing.
+7. **Drive to standing**: When opponent creates distance or commits to forward pressure, explosively drive through near leg while pushing off base hand. Bring far leg back and plant both feet, rising to standing position while maintaining defensive posture with hands ready to defend takedowns.
 
 
 </section>
@@ -264,27 +264,21 @@ The Technical Standup is a fundamental defensive transition in Brazilian Jiu-Jit
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic standup sequence without resistance
 Practice technical standup from both sides (left and right hand posts) with emphasis on proper base positioning, hip elevation, and smooth transition to standing. Start slowly focusing on correct mechanics, then gradually increase speed while maintaining quality of movement. No partner resistance.
-(Resistance: None)
 
 **Week 3-4: Light Resistance Introduction** - Standup against controlled pressure
 Partner applies light forward pressure while bottom practitioner executes technical standup, working on maintaining base integrity under pressure. Partner provides feedback on base structure and timing. Introduce guard recovery as alternative when standup is prevented.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Decision Making** - Standup to guard recovery flow drilling
 Flow drill alternating between technical standup attempts and guard recovery when partner prevents standup. Partner increases resistance gradually, forcing decision-making based on opponent's reactions. Develop smooth transitions between standing and re-guarding options.
-(Resistance: Medium)
 
 **Week 9-12: Positional Integration** - Standup from inferior positions
 Start from side control bottom, mount bottom, or other inferior positions. Escape to create space, then immediately transition to technical standup. Partner provides realistic resistance attempting to prevent both escape and standup. Develop complete sequence from worst case to standing.
-(Resistance: Medium)
 
 **Week 13+: Competition Application** - Standup to takedown defense integration
 Bottom practitioner stands up while partner immediately attempts realistic takedown attacks (single leg, double leg, snap down). Focus on maintaining defensive posture and balance immediately after achieving standing position. Full resistance standup attempts during positional sparring.
-(Resistance: Full)
 
 **Ongoing: Advanced Variations** - Standup to offensive entries
 Integrate standup position with offensive entries to leg entanglement systems, guard pulls to preferred positions, and counter-attacks against opponent's takedown attempts. Use standup as strategic tool for controlling engagement range and creating offensive opportunities.
-(Resistance: Full)
 
 
 

@@ -14,11 +14,6 @@
   "submission_type": "Lapel Choke",
   "target_area": "Carotid arteries and trachea via lapel compression",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effective gi-specific submission that combines elements of the loop choke and cross collar choke mechanics. Named after multiple-time world champion Marcelo Garcia, this technique leverages the opponent's own lapel to create a powerful blood choke from dominant top positions, particularly side control and north-south. The Marce Choke is particularly effective because it uses the mechanical advantage of the lapel wrapped around the opponent's neck, creating compression on both carotid arteries simultaneously while controlling the opponent's upper body. Unlike traditional collar chokes that require both hands on the lapel, the Marce Choke uses one hand on the lapel and your body weight to apply pressure, making it extremely difficult to defend once properly set. The technique excels in gi competition because it can be applied from multiple top positions and often catches opponents by surprise as they focus on defending more common submissions. The choke works on a fundamental principle: using the lapel as a ligature around the neck while your body weight and positioning create the constricting force. This makes it a high-percentage technique for practitioners who master the proper setup and understand the mechanics of lapel manipulation.",
   "safety_considerations": {
     "injury_risks": [
@@ -83,43 +78,37 @@
       "step_number": 1,
       "action": "Secure side control position",
       "description": "Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat.",
-      "timing": "Take 2-3 seconds to ensure solid control",
-      "pressure_level": "Firm"
+      "timing": "Take 2-3 seconds to ensure solid control"
     },
     {
       "step_number": 2,
       "action": "Access the far lapel",
       "description": "Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be.",
-      "timing": "1-2 seconds while maintaining pressure",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds while maintaining pressure"
     },
     {
       "step_number": 3,
       "action": "Feed the lapel across the neck",
       "description": "Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space.",
-      "timing": "2-3 seconds with controlled movement",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds with controlled movement"
     },
     {
       "step_number": 4,
       "action": "Secure the lapel grip",
       "description": "Once the lapel is fed across their neck, adjust your grip to ensure maximum control. Your gripping hand should now be positioned near their opposite shoulder with the lapel tight. The lapel should form a 'V' shape across their neck, with the apex of the V directly under their chin. This positioning ensures bilateral carotid compression.",
-      "timing": "1-2 seconds for grip adjustment",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds for grip adjustment"
     },
     {
       "step_number": 5,
       "action": "Transition body position for pressure",
       "description": "Shift your body weight toward north-south position while maintaining your lapel grip. Your chest should drive into their face/neck area, and your hips should be positioned to prevent their hip escape. Some variations involve moving fully to north-south, while others maintain a modified side control. The key is that your body weight drives perpendicular pressure into their neck through the lapel.",
-      "timing": "2-3 seconds for smooth transition",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds for smooth transition"
     },
     {
       "step_number": 6,
       "action": "Apply choking pressure",
       "description": "Drive your chest downward into their face and neck area while maintaining the tight lapel grip. Your body weight should push down through the lapel, creating a noose effect that constricts around both carotid arteries. Pull your gripping hand slightly toward you while driving your chest down - this creates opposing forces that tighten the choke. The opponent should tap within 3-5 seconds if properly applied. Monitor constantly for the tap.",
-      "timing": "3-5 seconds maximum before expecting tap",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds maximum before expecting tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -153,38 +142,32 @@
     {
       "error": "Failing to feed the lapel deep enough across the neck",
       "consequence": "The choke targets the front of the throat instead of the carotid arteries, making it painful but not a true blood choke, giving the opponent time to escape",
-      "correction": "Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission.",
-      "danger_level": "Medium"
+      "correction": "Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission."
     },
     {
       "error": "Releasing chest pressure while setting up the lapel",
       "consequence": "Opponent gains space to turn, escape, or defend the choke effectively",
-      "correction": "Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission.",
-      "danger_level": "Low"
+      "correction": "Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission."
     },
     {
       "error": "Relying solely on arm strength instead of body weight",
       "consequence": "The choke lacks power and your arms fatigue quickly, allowing the opponent to outlast your attempt",
-      "correction": "Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms.",
-      "danger_level": "Low"
+      "correction": "Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms."
     },
     {
       "error": "Applying excessive pressure too quickly in training",
       "consequence": "Risk of causing unconsciousness before partner can tap, potential injury, and breakdown of training trust",
-      "correction": "Always apply progressive pressure in training, taking 3-5 seconds minimum. Give your partner clear opportunity to recognize the danger and tap. Save competition-speed application for competition only.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply progressive pressure in training, taking 3-5 seconds minimum. Give your partner clear opportunity to recognize the danger and tap. Save competition-speed application for competition only."
     },
     {
       "error": "Failing to control the near-side arm during setup",
       "consequence": "Opponent creates effective frames that prevent you from establishing the choke or escape the position entirely",
-      "correction": "Pin or trap their near arm before attempting to access the lapel. Use your hip, knee, or own arm to neutralize their defensive frames. Never give them free use of the near arm.",
-      "danger_level": "Medium"
+      "correction": "Pin or trap their near arm before attempting to access the lapel. Use your hip, knee, or own arm to neutralize their defensive frames. Never give them free use of the near arm."
     },
     {
       "error": "Continuing to apply pressure after tap or loss of consciousness",
       "consequence": "Serious injury including brain damage from prolonged oxygen deprivation, potential death, and criminal liability",
-      "correction": "Release immediately upon any tap signal. If opponent goes limp or unresponsive, release instantly and check their condition. This is non-negotiable in training.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon any tap signal. If opponent goes limp or unresponsive, release instantly and check their condition. This is non-negotiable in training."
     }
   ],
   "variations_and_setups": [
@@ -266,50 +249,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn the mechanics of lapel feeding, body positioning, and anatomical targets. Practice on a cooperative partner who maintains side control bottom position. Focus entirely on the setup without applying any choking pressure.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Understand the difference between blood chokes (carotid compression) and air chokes (tracheal compression). Learn to recognize tap signals immediately. Practice releasing the position instantly on command."
-    },
-    {
-      "phase": "Slow Positional Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Execute the complete technique at slow speed with cooperative partner. Begin applying very light pressure - just enough for partner to feel the choke position but nowhere near finishing pressure. Partner should tap early to practice the release protocol.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Practice immediate release upon tap. Begin developing sensitivity for proper lapel depth and body positioning. Partner provides feedback on pressure location (should feel on sides of neck, not front of throat)."
-    },
-    {
-      "phase": "Controlled Resistance Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Partner provides mild defensive frames and attempts to prevent the lapel grip. Practice maintaining position while setting up the choke against light resistance. Apply moderate pressure - approximately 50% - allowing partner to experience the choke more realistically while maintaining safety.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Continue practicing immediate release. Both partners communicate about pressure levels. Bottom partner should tap as soon as they feel the choke tightening, not waiting until it's fully locked. Develop awareness of the timeline from setup to finish."
-    },
-    {
-      "phase": "Realistic Defense Practice",
-      "timeframe": "Week 9-12",
-      "focus": "Partner uses realistic defenses including framing, turning, bridging, and grip fighting. Practice problem-solving against these defenses while maintaining control. Apply 70-80% pressure, stopping just before the finish in most repetitions to build control and precision.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners should clearly understand the point of no return - when the choke is locked and tap is imminent. Practice recognizing this point and either tapping immediately (bottom) or releasing smoothly (top). Reinforce that training is not competition - tap early and often."
-    },
-    {
-      "phase": "Positional Sparring Integration",
-      "timeframe": "Month 4-6",
-      "focus": "Integrate the Marce Choke into positional sparring from side control and north-south. Begin from established positions and work the technique against full resistance. Occasionally finish the choke completely (with proper progressive pressure) to build confidence, but most repetitions should focus on the setup and control phases.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "This phase requires mature training partners who understand tapping culture. Bottom player must tap at the first sign of true danger, not trying to tough it out. Top player must apply pressure progressively even in high-intensity sparring. Both partners watch for signs of distress beyond normal discomfort."
-    },
-    {
-      "phase": "Live Rolling Application",
-      "timeframe": "Month 6+",
-      "focus": "Use the Marce Choke during live rolling, setting it up from scrambles and transitions. At this phase, you should have developed the sensitivity and control to apply the technique safely even at high intensity. Continue to apply progressive pressure in training, reserving maximum speed application only for competition.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even at this advanced phase, maintain safety protocols. Never hold a choke after tap or unconsciousness. Be especially careful with less experienced partners who may not recognize the danger as quickly. Continue tapping early yourself when caught to maintain good training culture. Remember that training partners are helping you improve - protect them."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "North-South",
@@ -364,5 +303,6 @@
       "name": "Breadcutter Choke",
       "relationship": "Alternative lapel choke from similar positions with different finishing mechanics"
     }
-  ]
+  ],
+  "success_rate": 58
 }

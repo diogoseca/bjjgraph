@@ -260,7 +260,7 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 **If opponent exposes arm attempting to frame or recover guard structure:**
 - Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 40%)
+- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 40%)
 
 
 
@@ -386,11 +386,11 @@ Flow rolling from quarter guard top where partner randomly varies their defensiv
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 55% | 15% |
-| Intermediate | 60% | 70% | 30% |
-| Advanced     | 75% | 85% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 78% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 5-15 seconds (should be transitional, not sustained control position)
 

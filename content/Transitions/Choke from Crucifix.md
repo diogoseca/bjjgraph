@@ -157,7 +157,7 @@ From a strategic perspective, the Choke from Crucifix capitalizes on the positio
 The technique requires precise timing and grip sequencing—releasing arm control prematurely to attack the neck allows escape opportunities, while maintaining control too long may allow the opponent to adjust their defensive posture. Advanced practitioners develop the ability to transition smoothly from arm control to choke application, creating a seamless attack that the opponent cannot adequately defend. The Choke from Crucifix serves as the primary finishing technique from crucifix position, making it essential knowledge for any practitioner who regularly attacks or defends back positions.
 
 **From Position**: [[Crucifix/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The technique requires precise timing and grip sequencing—releasing arm contro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg triangle**: Verify your leg triangle is locked tight around opponent's near arm with one leg over their shoulder and the other under their armpit, maintaining constant inward pressure that prevents any arm extraction attempt during the choke application. (Timing: Continuous throughout technique)
-2. **Control far arm**: Establish dominant control on opponent's far arm using your choking-side hand, gripping the wrist firmly and pulling it across their body or pinning it against their chest to eliminate any possibility of defensive hand fighting. (Timing: 2-3 seconds to secure)
-3. **Position choking arm**: Release the far arm control only when ready to attack, immediately sliding your forearm under opponent's chin with the blade of the forearm positioned across their throat, angling toward the carotid arteries on both sides of the neck. (Timing: Smooth 1-second transition)
-4. **Secure head control**: Bring your supporting hand behind opponent's head, either clasping your own bicep (figure-four configuration) or grabbing their shoulder, creating the structure necessary to prevent them from escaping the choke by turning their head. (Timing: Immediately after forearm placement)
-5. **Close the structure**: Squeeze your elbows together while expanding your chest, creating compression on both carotid arteries simultaneously. The trapped arm prevents them from inserting their hand to relieve pressure, accelerating unconsciousness. (Timing: 3-8 seconds to finish)
-6. **Complete the strangle**: Maintain steady pressure while pulling your choking elbow toward your own hip and driving your head forward, maximizing the compression angle. Continue until opponent taps or goes unconscious, then release immediately. (Timing: Tap typically occurs within 5-10 seconds)
+1. **Secure leg triangle**: Verify your leg triangle is locked tight around opponent's near arm with one leg over their shoulder and the other under their armpit, maintaining constant inward pressure that prevents any arm extraction attempt during the choke application.
+2. **Control far arm**: Establish dominant control on opponent's far arm using your choking-side hand, gripping the wrist firmly and pulling it across their body or pinning it against their chest to eliminate any possibility of defensive hand fighting.
+3. **Position choking arm**: Release the far arm control only when ready to attack, immediately sliding your forearm under opponent's chin with the blade of the forearm positioned across their throat, angling toward the carotid arteries on both sides of the neck.
+4. **Secure head control**: Bring your supporting hand behind opponent's head, either clasping your own bicep (figure-four configuration) or grabbing their shoulder, creating the structure necessary to prevent them from escaping the choke by turning their head.
+5. **Close the structure**: Squeeze your elbows together while expanding your chest, creating compression on both carotid arteries simultaneously. The trapped arm prevents them from inserting their hand to relieve pressure, accelerating unconsciousness.
+6. **Complete the strangle**: Maintain steady pressure while pulling your choking elbow toward your own hip and driving your head forward, maximizing the compression angle. Continue until opponent taps or goes unconscious, then release immediately.
 
 
 </section>
@@ -255,19 +255,15 @@ The technique requires precise timing and grip sequencing—releasing arm contro
 ## Training Progressions
 **Week 1-2** - Mechanics and positioning
 Practice the choke mechanics from static crucifix position with cooperative partner. Focus on correct forearm placement across carotid arteries, proper supporting hand position behind head, and maintaining leg triangle throughout. Partner provides feedback on choke depth and positioning. 50+ repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Transition timing
 Practice the timing of releasing arm control to apply the choke. Partner provides light chin defense requiring you to adjust timing and angle. Focus on seamless transition from arm control to choke application with no gaps. Partner escapes if timing is poor, providing immediate feedback.
-(Resistance: Light)
 
 **Week 5-6** - Counter-to-counter chains
 Partner actively defends using chin tuck, arm extraction attempts, and grip fighting. Practice adjusting to each defense—pulling chin, tightening legs, transitioning to armbar when choke is blocked. Develop the ability to chain between crucifix attacks based on opponent's defensive choices.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply choke from crucifix in positional sparring starting from back control or turtle scenarios. Full resistance with partner actively seeking to prevent crucifix establishment and escape once trapped. Track success rates and identify patterns in failed attempts for targeted improvement.
-(Resistance: Full)
 
 
 

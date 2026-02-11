@@ -157,7 +157,7 @@ This technique becomes particularly effective when the opponent has established 
 Strategically, the stack pass works best against opponents who rely heavily on the technical advantages of their lapel configuration without adequate upper body frames. The forward drive nullifies the pull of the lapel while your weight distribution prevents sweep attempts. Success requires committing fully to the pressure rather than hesitating in a compromised standing position where the lapel player has maximum leverage.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: Secure a deep collar grip with your lead hand while your trailing hand controls opponent's pants at the knee or their belt. These grips provide the anchor points needed to drive forward pressure without slipping off. (Timing: Before committing weight forward)
-2. **Lower level**: Drop your hips and drive your shoulder into opponent's thigh or hip area. Your chest should make contact with their legs, beginning the compression that will neutralize their guard mechanics. (Timing: Immediately after grips secured)
-3. **Drive forward**: Walk your feet forward while maintaining shoulder pressure, driving opponent's knees toward their face. Keep your hips low throughout—raising your hips allows them to create angles and recover guard structure. (Timing: Continuous pressure, 3-5 seconds)
-4. **Control head**: As you achieve compression, switch your collar grip hand to control opponent's head with a crossface or by cupping behind their neck. Head control prevents them from turning away and escaping the pressure. (Timing: When opponent's knees reach their chest)
-5. **Clear hips**: With opponent fully compressed, walk your hips around their legs to the side. The lapel configuration loses effectiveness because their hip mobility is eliminated. Extract your trapped leg last, not first. (Timing: Once compression is complete)
-6. **Consolidate position**: Establish side control by bringing your knee to their hip and settling your weight across their torso. Only now address any remaining lapel grip by unwinding or stripping it while maintaining dominant position. (Timing: Immediately after clearing hips)
+1. **Establish grips**: Secure a deep collar grip with your lead hand while your trailing hand controls opponent's pants at the knee or their belt. These grips provide the anchor points needed to drive forward pressure without slipping off.
+2. **Lower level**: Drop your hips and drive your shoulder into opponent's thigh or hip area. Your chest should make contact with their legs, beginning the compression that will neutralize their guard mechanics.
+3. **Drive forward**: Walk your feet forward while maintaining shoulder pressure, driving opponent's knees toward their face. Keep your hips low throughout—raising your hips allows them to create angles and recover guard structure.
+4. **Control head**: As you achieve compression, switch your collar grip hand to control opponent's head with a crossface or by cupping behind their neck. Head control prevents them from turning away and escaping the pressure.
+5. **Clear hips**: With opponent fully compressed, walk your hips around their legs to the side. The lapel configuration loses effectiveness because their hip mobility is eliminated. Extract your trapped leg last, not first.
+6. **Consolidate position**: Establish side control by bringing your knee to their hip and settling your weight across their torso. Only now address any remaining lapel grip by unwinding or stripping it while maintaining dominant position.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the stack pass works best against opponents who rely heavily on t
 ## Training Progressions
 **Week 1-2** - Stack mechanics without lapel
 Practice basic stack pass against open guard without lapel involvement. Focus on driving shoulder pressure, keeping hips low, walking feet forward, and establishing head control during compression. Build the muscle memory for the movement pattern before adding complexity.
-(Resistance: None)
 
 **Week 3-4** - Stack against static lapel configurations
 Partner establishes worm guard or squid guard and holds position without actively attacking. Practice committing to forward pressure despite the lapel, learning to accept the entanglement and pass through compression rather than clearing first.
-(Resistance: Light)
 
 **Week 5-6** - Counter-timing with active resistance
 Partner actively defends with frames and angle creation while you time your compression around their defensive movements. Learn to recognize when frames are weak and when to accelerate the stack versus when to adjust grip positioning.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and chain passing
 Integrate stack pass into full guard passing sequences during sparring. Recognize when stack is appropriate versus when to use other lapel guard solutions like backstep or long step. Develop ability to transition between passing methods fluidly based on opponent reactions.
-(Resistance: Full)
 
 
 

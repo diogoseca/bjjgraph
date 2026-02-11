@@ -157,7 +157,7 @@ The strategic value of this transition lies in recognizing when continued engage
 This approach requires precise timing and grip sequencing. Premature disengagement exposes you to sweeps and back takes, while delayed attempts face increasingly complex lapel entanglements. The key is identifying the optimal window—when you've neutralized immediate threats but before the bottom player deepens their configuration. Executed properly, distance creation transforms a losing positional battle into a neutral restart where your passing skills can be applied fresh.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess Configuration**: Identify exactly which lapel configuration opponent has established—worm (leg wrap), squid (arm wrap), or ringworm (multiple wraps). This determines the specific clearing sequence required before distance can be safely created. (Timing: Before initiating any movement)
-2. **Control Gripping Hand**: Secure opponent's hand that maintains primary lapel grip using wrist control or sleeve grip. This prevents them from tightening the configuration or adjusting the wrap as you begin clearing. Use same-side or cross grip depending on their grip location. (Timing: Immediately after assessment)
-3. **Establish Posture**: Drive hips forward and shoulders back to create upright posture. This reduces leverage opponent gains from lapel configuration and loads your legs for the backward step. Avoid pulling with arms—use skeletal structure to resist their pull. (Timing: 1-2 seconds)
-4. **Clear Primary Wrap**: With gripping hand controlled, use free hand to systematically unwind the lapel from your leg or arm. Work the fabric over the obstacle (knee, elbow) using technical unwinding rather than forceful pulling. Maintain posture throughout. (Timing: 2-4 seconds depending on wrap complexity)
-5. **Step Back Explosively**: Once primary wrap is cleared, immediately step back with your lead leg while extending hips. The movement must be decisive—hesitation allows opponent to re-establish configuration. Maintain grip on their controlling hand throughout the step. (Timing: Explosive, under 1 second)
-6. **Establish Standing Position**: Complete the distance creation by bringing feet together in balanced stance outside opponent's leg range. Release their wrist and immediately establish passing grips (pants, collar) before they can sit up and re-engage with fresh lapel extraction. (Timing: Immediately after backstep)
+1. **Assess Configuration**: Identify exactly which lapel configuration opponent has established—worm (leg wrap), squid (arm wrap), or ringworm (multiple wraps). This determines the specific clearing sequence required before distance can be safely created.
+2. **Control Gripping Hand**: Secure opponent's hand that maintains primary lapel grip using wrist control or sleeve grip. This prevents them from tightening the configuration or adjusting the wrap as you begin clearing. Use same-side or cross grip depending on their grip location.
+3. **Establish Posture**: Drive hips forward and shoulders back to create upright posture. This reduces leverage opponent gains from lapel configuration and loads your legs for the backward step. Avoid pulling with arms—use skeletal structure to resist their pull.
+4. **Clear Primary Wrap**: With gripping hand controlled, use free hand to systematically unwind the lapel from your leg or arm. Work the fabric over the obstacle (knee, elbow) using technical unwinding rather than forceful pulling. Maintain posture throughout.
+5. **Step Back Explosively**: Once primary wrap is cleared, immediately step back with your lead leg while extending hips. The movement must be decisive—hesitation allows opponent to re-establish configuration. Maintain grip on their controlling hand throughout the step.
+6. **Establish Standing Position**: Complete the distance creation by bringing feet together in balanced stance outside opponent's leg range. Release their wrist and immediately establish passing grips (pants, collar) before they can sit up and re-engage with fresh lapel extraction.
 
 
 </section>
@@ -252,19 +252,15 @@ This approach requires precise timing and grip sequencing. Premature disengageme
 ## Training Progressions
 **Week 1-2** - Configuration Recognition
 Partner establishes various lapel configurations (worm, squid, ringworm) in sequence. Practice identifying each type without attempting to clear. Focus on understanding which wrap is around which body part and where opponent's controlling grip is located.
-(Resistance: None)
 
 **Week 3-4** - Systematic Clearing
 Partner maintains single lapel configuration with light resistance. Practice the grip sequence: control their gripping hand, establish posture, unwind fabric technically. Emphasize economy of movement over speed. Reset after each successful clear.
-(Resistance: Light)
 
 **Week 5-6** - Complete Sequence
 Combine clearing with backstep and immediate re-engagement. Partner increases resistance and begins threatening sweeps if you pause. Focus on continuous motion from configuration through reset to passing grip establishment.
-(Resistance: Medium)
 
 **Week 7+** - Live Decision Making
 Situational sparring starting in lapel guard. Choose whether to clear directly, pass around, or create distance based on configuration complexity. Partner plays full resistance lapel game. Develop intuition for when reset is optimal solution.
-(Resistance: Full)
 
 
 

@@ -163,7 +163,7 @@ Strategically, this transition serves as a bail-out option when Reverse X-Guard 
 The key to success lies in timing the hook reconfiguration precisely as the opponent moves. Rather than fighting to maintain deteriorating Reverse X control, skilled practitioners flow into Single Leg X before losing connection entirely. This proactive approach maintains constant leg entanglement pressure and prevents the opponent from establishing a neutral passing position.
 
 **From Position**: [[Reverse X-Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -209,13 +209,13 @@ The key to success lies in timing the hook reconfiguration precisely as the oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize trigger**: Identify when opponent begins stepping back, widening base, or attempting to clear your far hook from behind their knee - this is your cue to initiate transition (Timing: As opponent begins leg extraction movement)
-2. **Secure ankle control**: Reinforce your grip on opponent's ankle or heel with both hands, creating an anchor point that prevents them from completely extracting their leg during the hook reconfiguration (Timing: Immediately upon recognizing transition opportunity)
-3. **Release far hook**: Remove your far leg (the hook behind their knee) from its current position while maintaining strong ankle grip - this hook will become your cross-body hook in Single Leg X (Timing: Coordinated with hip rotation)
-4. **Rotate hips toward leg**: Turn your hips to face the controlled leg directly, positioning your body perpendicular to your opponent rather than inverted - this creates the proper angle for Single Leg X structure (Timing: During hook transition)
-5. **Establish outside hook**: Place your former far leg across opponent's hip with your foot hooking their far hip, creating the signature cross-body control of Single Leg X-Guard position (Timing: As hips complete rotation)
-6. **Secure inside hook**: Position your near leg with foot on opponent's near hip, completing the Single Leg X configuration with both feet controlling their hips and your body extended along their trapped leg (Timing: Immediately following outside hook placement)
-7. **Consolidate position**: Squeeze your knees together to clamp the controlled leg, extend your hips for tension, and adjust ankle grip to optimal position for subsequent sweeps or leg attacks (Timing: Within 1-2 seconds of completing hook placement)
+1. **Recognize trigger**: Identify when opponent begins stepping back, widening base, or attempting to clear your far hook from behind their knee - this is your cue to initiate transition
+2. **Secure ankle control**: Reinforce your grip on opponent's ankle or heel with both hands, creating an anchor point that prevents them from completely extracting their leg during the hook reconfiguration
+3. **Release far hook**: Remove your far leg (the hook behind their knee) from its current position while maintaining strong ankle grip - this hook will become your cross-body hook in Single Leg X
+4. **Rotate hips toward leg**: Turn your hips to face the controlled leg directly, positioning your body perpendicular to your opponent rather than inverted - this creates the proper angle for Single Leg X structure
+5. **Establish outside hook**: Place your former far leg across opponent's hip with your foot hooking their far hip, creating the signature cross-body control of Single Leg X-Guard position
+6. **Secure inside hook**: Position your near leg with foot on opponent's near hip, completing the Single Leg X configuration with both feet controlling their hips and your body extended along their trapped leg
+7. **Consolidate position**: Squeeze your knees together to clamp the controlled leg, extend your hips for tension, and adjust ankle grip to optimal position for subsequent sweeps or leg attacks
 
 
 </section>
@@ -257,19 +257,15 @@ The key to success lies in timing the hook reconfiguration precisely as the oppo
 ## Training Progressions
 **Week 1-2** - Hook mechanics
 Practice the hook reconfiguration movement in isolation with a compliant partner. Focus on maintaining ankle grip while smoothly transitioning from Reverse X hooks to Single Leg X hooks. Drill 50 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner provides specific movements (stepping back, clearing hooks, widening base) that serve as triggers for the transition. Practice recognizing and responding to each trigger with appropriate timing.
-(Resistance: Light)
 
 **Week 5-6** - Chain integration
 Connect the transition with follow-up attacks from Single Leg X including sweeps, heel hooks, and knee bars. Also practice chaining back to Reverse X or Ashi Garami when transition is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement transition in positional sparring starting from Reverse X-Guard. Partner attempts realistic passing and disengagement. Focus on reading when to transition versus when to maintain or sweep from Reverse X.
-(Resistance: Full)
 
 
 

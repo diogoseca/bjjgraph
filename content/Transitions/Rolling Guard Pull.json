@@ -10,11 +10,6 @@
     "rolling",
     "momentum"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Rolling Guard Pull is a dynamic guard entry technique that utilizes rotational momentum to transition from standing to a guard position. Unlike static guard pulls that rely on grips and weight distribution, the rolling guard pull creates a sweeping motion that can catch opponents off-guard and establish multiple guard variations. This technique is particularly effective in competition scenarios where aggressive guard pulling is rewarded, and it allows the practitioner to maintain offensive initiative while transitioning to the ground.\n\nThe rolling guard pull works by combining forward momentum with a controlled backward roll, using the opponent's reactive pressure to complete the rotation and establish guard retention. The technique can transition into closed guard, De La Riva guard, X-guard, or single leg X-guard depending on how the practitioner catches the opponent's legs during the roll. This versatility makes it a valuable tool for guard players who want to dictate the pace and position from the opening exchange.\n\nMastery of the rolling guard pull requires excellent body awareness, timing, and the ability to read opponent reactions. When executed properly, it creates immediate offensive opportunities and bypasses traditional guard passing attempts. The technique is commonly seen in sport jiu-jitsu and has become a staple among modern guard players who emphasize dynamic entries and constant movement.",
   "key_principles": [
     "Maintain forward momentum before initiating the roll to create rotational energy",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Establish primary grip",
-      "description": "Secure a strong grip on the opponent's sleeve, collar, or belt with your lead hand. This grip will serve as your anchor point throughout the rolling motion and help you pull the opponent into your guard. Position your body at a slight angle to create space for the rolling motion.",
-      "timing": "During initial engagement"
+      "description": "Secure a strong grip on the opponent's sleeve, collar, or belt with your lead hand. This grip will serve as your anchor point throughout the rolling motion and help you pull the opponent into your guard. Position your body at a slight angle to create space for the rolling motion."
     },
     {
       "step_number": 2,
       "action": "Create forward momentum",
-      "description": "Step forward with your lead foot while pulling the opponent slightly toward you with your grip. This creates the forward momentum necessary for a smooth roll. Your body should be moving toward the opponent as you begin to lower your center of gravity.",
-      "timing": "1-2 seconds before initiating roll"
+      "description": "Step forward with your lead foot while pulling the opponent slightly toward you with your grip. This creates the forward momentum necessary for a smooth roll. Your body should be moving toward the opponent as you begin to lower your center of gravity."
     },
     {
       "step_number": 3,
       "action": "Drop hips and initiate roll",
-      "description": "Lower your hips rapidly by bending your knees and sitting back onto your rear while maintaining your grip. As your hips drop, tuck your chin to your chest and round your spine into a ball position. Begin the backward roll by allowing your momentum to carry your hips over your shoulders.",
-      "timing": "Immediate transition from forward step"
+      "description": "Lower your hips rapidly by bending your knees and sitting back onto your rear while maintaining your grip. As your hips drop, tuck your chin to your chest and round your spine into a ball position. Begin the backward roll by allowing your momentum to carry your hips over your shoulders."
     },
     {
       "step_number": 4,
       "action": "Execute controlled roll",
-      "description": "Roll smoothly backward over your shoulder blade, keeping your head tucked and spine rounded. As you roll, pull the opponent toward you with your grip while using your free hand to push off the mat if needed for additional rotation. Your goal is to complete a full rotation that brings you back to a seated or supine position facing the opponent.",
-      "timing": "0.5-1 second rolling motion"
+      "description": "Roll smoothly backward over your shoulder blade, keeping your head tucked and spine rounded. As you roll, pull the opponent toward you with your grip while using your free hand to push off the mat if needed for additional rotation. Your goal is to complete a full rotation that brings you back to a seated or supine position facing the opponent."
     },
     {
       "step_number": 5,
       "action": "Capture opponent's leg or base",
-      "description": "As you complete the roll and face the opponent, immediately use your legs to hook or frame against the opponent's legs or hips. Depending on their position, secure a closed guard by crossing your ankles, establish De La Riva hooks, or set up X-guard or single leg X-guard positions. Your grips should transition to support the guard position you're establishing.",
-      "timing": "Immediately upon completing rotation"
+      "description": "As you complete the roll and face the opponent, immediately use your legs to hook or frame against the opponent's legs or hips. Depending on their position, secure a closed guard by crossing your ankles, establish De La Riva hooks, or set up X-guard or single leg X-guard positions. Your grips should transition to support the guard position you're establishing."
     },
     {
       "step_number": 6,
       "action": "Establish guard retention",
-      "description": "Once your legs are engaged with the opponent's lower body, actively work your guard retention by creating angles, off-balancing the opponent, and preventing them from establishing posture or beginning a pass. Use your grips to break their posture forward if in closed guard, or create distance and control if in an open guard variation.",
-      "timing": "Continuous from leg engagement"
+      "description": "Once your legs are engaged with the opponent's lower body, actively work your guard retention by creating angles, off-balancing the opponent, and preventing them from establishing posture or beginning a pass. Use your grips to break their posture forward if in closed guard, or create distance and control if in an open guard variation."
     },
     {
       "step_number": 7,
       "action": "Transition to offensive attack",
-      "description": "Immediately begin working your preferred guard attacks based on the position established. If in closed guard, break posture and set up sweeps or submissions. If in open guard variations, begin working specific attacks for that position such as sweeps, back takes, or leg entanglements.",
-      "timing": "Within 2-3 seconds of guard establishment"
+      "description": "Immediately begin working your preferred guard attacks based on the position established. If in closed guard, break posture and set up sweeps or submissions. If in open guard variations, begin working specific attacks for that position such as sweeps, back takes, or leg entanglements."
     }
   ],
   "common_counters": [
@@ -135,38 +123,32 @@
     {
       "phase": "Week 1-2: Solo Rolling Mechanics",
       "focus": "Develop smooth rolling technique without a partner",
-      "description": "Practice backward rolls from standing position, focusing on tucking the chin, rounding the spine, and completing smooth rotations. Start from kneeling, progress to crouching, then finally from standing. Work on rolling both directions (over both shoulders) to develop ambidextrous capability.",
-      "resistance_level": "None"
+      "description": "Practice backward rolls from standing position, focusing on tucking the chin, rounding the spine, and completing smooth rotations. Start from kneeling, progress to crouching, then finally from standing. Work on rolling both directions (over both shoulders) to develop ambidextrous capability."
     },
     {
       "phase": "Week 3-4: Rolling with Grip Retention",
       "focus": "Add grip control to rolling motion using stationary object",
-      "description": "Hold a belt, gi, or towel anchored to a post or held by a partner. Practice rolling while maintaining grip throughout the motion. This develops grip strength and teaches you to roll without releasing your anchor point. Progress to partner holding your grips while you roll.",
-      "resistance_level": "Light"
+      "description": "Hold a belt, gi, or towel anchored to a post or held by a partner. Practice rolling while maintaining grip throughout the motion. This develops grip strength and teaches you to roll without releasing your anchor point. Progress to partner holding your grips while you roll."
     },
     {
       "phase": "Week 5-6: Rolling to Guard Position",
       "focus": "Complete the technique with cooperative partner",
-      "description": "Partner allows you to execute the rolling guard pull with minimal resistance. Focus on completing the roll and immediately establishing closed guard, De La Riva guard, or X-guard. Partner should maintain light forward pressure but not actively counter. Repeat 10-15 times per training session.",
-      "resistance_level": "Light"
+      "description": "Partner allows you to execute the rolling guard pull with minimal resistance. Focus on completing the roll and immediately establishing closed guard, De La Riva guard, or X-guard. Partner should maintain light forward pressure but not actively counter. Repeat 10-15 times per training session."
     },
     {
       "phase": "Week 7-8: Adding Timing and Reaction",
       "focus": "Execute against partner with moderate resistance",
-      "description": "Partner can attempt to step back or disengage, requiring you to time the entry properly and maintain grip control. Practice reading opponent reactions and adjusting your rolling angle accordingly. Begin to chain this technique with other guard pulls if the first attempt is countered.",
-      "resistance_level": "Medium"
+      "description": "Partner can attempt to step back or disengage, requiring you to time the entry properly and maintain grip control. Practice reading opponent reactions and adjusting your rolling angle accordingly. Begin to chain this technique with other guard pulls if the first attempt is countered."
     },
     {
       "phase": "Week 9-12: Competition Application",
       "focus": "Full resistance drilling and live rolling integration",
-      "description": "Attempt the rolling guard pull during live rolling sessions and specific sparring from standing. Partner provides full resistance and actively tries to counter. Focus on success rate, proper positioning upon guard establishment, and immediate transition to attacks. Track successful completions and identify common failure points.",
-      "resistance_level": "Full"
+      "description": "Attempt the rolling guard pull during live rolling sessions and specific sparring from standing. Partner provides full resistance and actively tries to counter. Focus on success rate, proper positioning upon guard establishment, and immediate transition to attacks. Track successful completions and identify common failure points."
     },
     {
       "phase": "Ongoing: Variation Development",
       "focus": "Develop multiple guard options from the rolling entry",
-      "description": "Master the ability to transition to different guard types based on opponent's reaction: closed guard for square stance, De La Riva for staggered stance, X-guard when opponent's weight is forward, single leg X when one leg is isolated. Practice reading these positions mid-roll and adjusting leg placement accordingly.",
-      "resistance_level": "Full"
+      "description": "Master the ability to transition to different guard types based on opponent's reaction: closed guard for square stance, De La Riva for staggered stance, X-guard when opponent's weight is forward, single leg X when one leg is isolated. Practice reading these positions mid-roll and adjusting leg placement accordingly."
     }
   ],
   "variants_and_adaptations": [
@@ -199,33 +181,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary purpose of creating forward momentum before initiating the rolling guard pull?",
-      "answer": "Forward momentum serves multiple purposes: it creates the rotational energy needed to complete the roll smoothly, it prevents the opponent from simply stepping back to disengage, and it helps you maintain grip control throughout the movement. The momentum carries you through the rotation and makes it more difficult for the opponent to counter mid-technique. Without proper forward momentum, the roll becomes incomplete or sluggish, allowing the opponent to escape or apply heavy pressure during your vulnerable rolling phase.",
-      "difficulty": "Intermediate"
+      "answer": "Forward momentum serves multiple purposes: it creates the rotational energy needed to complete the roll smoothly, it prevents the opponent from simply stepping back to disengage, and it helps you maintain grip control throughout the movement. The momentum carries you through the rotation and makes it more difficult for the opponent to counter mid-technique. Without proper forward momentum, the roll becomes incomplete or sluggish, allowing the opponent to escape or apply heavy pressure during your vulnerable rolling phase."
     },
     {
       "question": "Why is it critical to maintain at least one grip throughout the entire rolling motion?",
-      "answer": "Maintaining grip control throughout the roll serves as your anchor point to the opponent, preventing them from disengaging and walking away while you're on your back. The grip also allows you to pull the opponent into your guard as you complete the rotation, ensuring guard establishment rather than ending up isolated on your back. Additionally, the grip helps you control the opponent's posture and position, making it easier to transition immediately into attacks. Without grip retention, the opponent can simply step back and you lose all offensive advantages.",
-      "difficulty": "Beginner"
+      "answer": "Maintaining grip control throughout the roll serves as your anchor point to the opponent, preventing them from disengaging and walking away while you're on your back. The grip also allows you to pull the opponent into your guard as you complete the rotation, ensuring guard establishment rather than ending up isolated on your back. Additionally, the grip helps you control the opponent's posture and position, making it easier to transition immediately into attacks. Without grip retention, the opponent can simply step back and you lose all offensive advantages."
     },
     {
       "question": "How should you adjust your guard establishment based on the opponent's stance and reaction during the roll?",
-      "answer": "Your guard choice should be dynamic based on the opponent's position: If they're square and balanced, establish closed guard or X-guard. If they have a staggered stance with one leg forward, transition to De La Riva guard. If they're heavily weighted on one leg, secure single leg X-guard. If they're attempting to back away, use your grips to prevent escape and establish the highest-percentage guard available. Advanced practitioners read these positions mid-roll and pre-position their legs accordingly, making the transition seamless. The key is having multiple guard options and the ability to recognize which is most appropriate in real-time.",
-      "difficulty": "Advanced"
+      "answer": "Your guard choice should be dynamic based on the opponent's position: If they're square and balanced, establish closed guard or X-guard. If they have a staggered stance with one leg forward, transition to De La Riva guard. If they're heavily weighted on one leg, secure single leg X-guard. If they're attempting to back away, use your grips to prevent escape and establish the highest-percentage guard available. Advanced practitioners read these positions mid-roll and pre-position their legs accordingly, making the transition seamless. The key is having multiple guard options and the ability to recognize which is most appropriate in real-time."
     },
     {
       "question": "What is the most common error that leads to neck injury during the rolling guard pull, and how do you prevent it?",
-      "answer": "The most common error is failing to tuck the chin properly and keep the head off the mat during the roll. When practitioners look up or keep their head extended, they risk landing on the back of their head or having their neck compressed during the rotation. To prevent this, always tuck your chin tightly to your chest before initiating the roll, keep your spine rounded in a ball shape, and roll over your shoulder blade rather than directly over your spine. Practice solo rolls slowly at first to develop the muscle memory for proper head positioning. Never execute this technique if you have existing neck issues without consulting a medical professional.",
-      "difficulty": "Beginner"
+      "answer": "The most common error is failing to tuck the chin properly and keep the head off the mat during the roll. When practitioners look up or keep their head extended, they risk landing on the back of their head or having their neck compressed during the rotation. To prevent this, always tuck your chin tightly to your chest before initiating the roll, keep your spine rounded in a ball shape, and roll over your shoulder blade rather than directly over your spine. Practice solo rolls slowly at first to develop the muscle memory for proper head positioning. Never execute this technique if you have existing neck issues without consulting a medical professional."
     },
     {
       "question": "What should you do if the opponent successfully disengages and backs away as you're completing the roll?",
-      "answer": "If the opponent successfully disengages, immediately recover to a defensive position rather than remaining flat on your back. Options include: technical stand up to re-engage from standing, transition to seated guard and pursue with shin-to-shin or butterfly hooks, or if you maintained a grip, use it to pull yourself back to seated position and re-establish guard. The key is to never remain static on your back - you must immediately create frames, establish hooks, or return to standing. Drilling guard recovery from this position should be part of your training progression. Also analyze why the disengage was successful (weak grips, poor timing, telegraphed movement) to improve future attempts.",
-      "difficulty": "Intermediate"
+      "answer": "If the opponent successfully disengages, immediately recover to a defensive position rather than remaining flat on your back. Options include: technical stand up to re-engage from standing, transition to seated guard and pursue with shin-to-shin or butterfly hooks, or if you maintained a grip, use it to pull yourself back to seated position and re-establish guard. The key is to never remain static on your back - you must immediately create frames, establish hooks, or return to standing. Drilling guard recovery from this position should be part of your training progression. Also analyze why the disengage was successful (weak grips, poor timing, telegraphed movement) to improve future attempts."
     },
     {
       "question": "How does the rolling guard pull create offensive opportunities that static guard pulls do not?",
-      "answer": "The rolling guard pull creates momentum and rotational energy that can be used for immediate sweeps and off-balancing, whereas static guard pulls rely solely on grips and weight distribution. The rolling motion often catches opponents off-guard and prevents them from establishing a solid base, making them more vulnerable to attacks. Additionally, the dynamic nature of the entry means you're already in motion when guard is established, making it easier to chain into sweeps, inversions, or leg attacks. The opponent must react to both your movement and position simultaneously, creating decision-making pressure. Static guard pulls give the opponent time to establish posture and base before you begin attacking.",
-      "difficulty": "Advanced"
+      "answer": "The rolling guard pull creates momentum and rotational energy that can be used for immediate sweeps and off-balancing, whereas static guard pulls rely solely on grips and weight distribution. The rolling motion often catches opponents off-guard and prevents them from establishing a solid base, making them more vulnerable to attacks. Additionally, the dynamic nature of the entry means you're already in motion when guard is established, making it easier to chain into sweeps, inversions, or leg attacks. The opponent must react to both your movement and position simultaneously, creating decision-making pressure. Static guard pulls give the opponent time to establish posture and base before you begin attacking."
     }
   ],
   "safety_considerations": "The rolling guard pull requires proper neck protection throughout the movement. Always tuck your chin tightly to your chest and roll over your shoulder blade rather than directly over your spine or head. Practitioners with neck, shoulder, or back injuries should consult with medical professionals before attempting this technique. When learning, practice on appropriate matting that provides adequate cushioning, and progress slowly from kneeling to standing positions. Never execute this technique near the edge of the mat or in areas with obstacles. Partners should be aware that this is a dynamic movement and should not apply heavy downward pressure during the opponent's roll. Beginners should master basic backward rolling mechanics through solo drills before attempting with a partner. If you feel any sharp pain in your neck, shoulders, or spine during execution, stop immediately and reassess your technique. The rolling motion should be smooth and controlled - never forced or jerky. Regular neck strengthening exercises can help reduce injury risk for practitioners who frequently use rolling entries.",
@@ -297,5 +273,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

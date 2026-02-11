@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Underhook Sweep from Half Guard is a fundamental attacking technique that exploits the power of the underhook control to off-balance and sweep opponents from bottom half guard. This sweep represents one of the highest percentage attacks available from half guard, combining proper angle creation, hip movement, and timing to reverse position. The technique capitalizes on the underhook's ability to control the opponent's posture and weight distribution, creating the mechanical advantage necessary to complete the reversal. By establishing the underhook on the trapped leg side, you create a powerful lever that disrupts your opponent's base while simultaneously generating the momentum needed for the sweep. This technique serves as a cornerstone of modern half guard systems, offering a reliable pathway from defensive bottom position to dominant top control.",
   "key_principles": [
     "Secure deep underhook control before initiating sweep",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Secure the underhook",
-      "description": "Drive your arm deep under opponent's armpit on the trapped leg side, wrapping around their back. Your shoulder should connect tightly to their ribs, with your hand gripping their far lat or back of the gi. This underhook becomes your primary sweeping lever.",
-      "timing": "Establish during initial half guard engagement"
+      "description": "Drive your arm deep under opponent's armpit on the trapped leg side, wrapping around their back. Your shoulder should connect tightly to their ribs, with your hand gripping their far lat or back of the gi. This underhook becomes your primary sweeping lever."
     },
     {
       "step_number": 2,
       "action": "Create the angle",
-      "description": "Shift your hips out and away from your opponent at approximately 45 degrees, moving your shoulders toward the mat on the underhook side. This angle is critical as it creates the mechanical advantage for the sweep and prevents you from lifting dead weight directly underneath the opponent.",
-      "timing": "Immediately after securing underhook"
+      "description": "Shift your hips out and away from your opponent at approximately 45 degrees, moving your shoulders toward the mat on the underhook side. This angle is critical as it creates the mechanical advantage for the sweep and prevents you from lifting dead weight directly underneath the opponent."
     },
     {
       "step_number": 3,
       "action": "Control the far hip",
-      "description": "With your free hand, establish a strong grip on opponent's far hip, belt, or pants. This grip prevents them from posting their leg out for base and helps control their weight distribution. Pull this hip toward you while maintaining your angle.",
-      "timing": "Simultaneous with angle creation"
+      "description": "With your free hand, establish a strong grip on opponent's far hip, belt, or pants. This grip prevents them from posting their leg out for base and helps control their weight distribution. Pull this hip toward you while maintaining your angle."
     },
     {
       "step_number": 4,
       "action": "Load and bridge",
-      "description": "Come up onto your shoulder on the underhook side, creating a strong bridge position. Your head should be tight to opponent's ribs, and your underhook arm should be driving their weight up and over. This loading phase prepares the explosive component of the sweep.",
-      "timing": "As opponent commits weight forward"
+      "description": "Come up onto your shoulder on the underhook side, creating a strong bridge position. Your head should be tight to opponent's ribs, and your underhook arm should be driving their weight up and over. This loading phase prepares the explosive component of the sweep."
     },
     {
       "step_number": 5,
       "action": "Drive the sweep",
-      "description": "Explosively drive your underhook arm upward and forward while simultaneously pulling their far hip with your grip hand. Your hips should elevate and rotate toward the underhook side, using your bridge and the trapped leg as a fulcrum. Drive your shoulder into their torso as you sweep them over.",
-      "timing": "Coordinate with opponent's forward pressure"
+      "description": "Explosively drive your underhook arm upward and forward while simultaneously pulling their far hip with your grip hand. Your hips should elevate and rotate toward the underhook side, using your bridge and the trapped leg as a fulcrum. Drive your shoulder into their torso as you sweep them over."
     },
     {
       "step_number": 6,
       "action": "Complete the reversal",
-      "description": "As opponent rolls over, maintain your underhook control and come up on top, transitioning into side control or knee on belly. Keep your weight distributed forward and chest pressure heavy to prevent re-guard. Secure the position before hunting submissions or advancing further.",
-      "timing": "Follow through momentum to top position"
+      "description": "As opponent rolls over, maintain your underhook control and come up on top, transitioning into side control or knee on belly. Keep your weight distributed forward and chest pressure heavy to prevent re-guard. Secure the position before hunting submissions or advancing further."
     }
   ],
   "common_counters": [
@@ -152,38 +141,32 @@
     {
       "phase": "Phase 1: Static Drilling (Weeks 1-2)",
       "focus": "Underhook mechanics and angle creation",
-      "description": "Partner starts in stationary half guard top position. Practice securing deep underhook, creating proper angle, and establishing far hip control. Drill the bridge and load position repeatedly. Focus on body positioning and leverage points rather than completion.",
-      "resistance_level": "None"
+      "description": "Partner starts in stationary half guard top position. Practice securing deep underhook, creating proper angle, and establishing far hip control. Drill the bridge and load position repeatedly. Focus on body positioning and leverage points rather than completion."
     },
     {
       "phase": "Phase 2: Cooperative Sweep (Weeks 2-3)",
       "focus": "Full sweep execution with timing",
-      "description": "Partner provides light forward pressure. Execute complete sweep from setup to top position, emphasizing smooth transitions between steps. Partner allows sweep to complete but maintains realistic body weight. Repeat 10-15 times per session focusing on technical precision.",
-      "resistance_level": "Light"
+      "description": "Partner provides light forward pressure. Execute complete sweep from setup to top position, emphasizing smooth transitions between steps. Partner allows sweep to complete but maintains realistic body weight. Repeat 10-15 times per session focusing on technical precision."
     },
     {
       "phase": "Phase 3: Progressive Resistance (Weeks 3-5)",
       "focus": "Dealing with common counters",
-      "description": "Partner introduces specific defensive reactions (whizzer, far leg post, flattening). Practice recognizing and countering each defense. Start with partner announcing which defense they will use, then progress to random selection. Develop adaptive responses to each counter.",
-      "resistance_level": "Medium"
+      "description": "Partner introduces specific defensive reactions (whizzer, far leg post, flattening). Practice recognizing and countering each defense. Start with partner announcing which defense they will use, then progress to random selection. Develop adaptive responses to each counter."
     },
     {
       "phase": "Phase 4: Live Drilling (Weeks 5-8)",
       "focus": "Sweep chains and position maintenance",
-      "description": "Start from half guard bottom with partner defending intelligently. Must successfully sweep or transition within 60 seconds. Reset if opponent passes. Focus on chaining to other sweeps when underhook sweep is defended. Track success rates and identify patterns in failures.",
-      "resistance_level": "Full"
+      "description": "Start from half guard bottom with partner defending intelligently. Must successfully sweep or transition within 60 seconds. Reset if opponent passes. Focus on chaining to other sweeps when underhook sweep is defended. Track success rates and identify patterns in failures."
     },
     {
       "phase": "Phase 5: Positional Sparring (Weeks 8-12)",
       "focus": "Integration with complete half guard system",
-      "description": "Five-minute rounds starting from half guard bottom. Partner can attempt passes while you work sweeps and submissions. Develop ability to create underhook opportunities from various half guard variations. Emphasize smooth transitions between offensive options.",
-      "resistance_level": "Full"
+      "description": "Five-minute rounds starting from half guard bottom. Partner can attempt passes while you work sweeps and submissions. Develop ability to create underhook opportunities from various half guard variations. Emphasize smooth transitions between offensive options."
     },
     {
       "phase": "Phase 6: Open Sparring Application (Ongoing)",
       "focus": "Timing and opportunity recognition in live rolling",
-      "description": "Actively seek half guard positions during normal sparring sessions. Practice recognizing optimal timing for underhook sweep versus other options. Develop intuitive feel for when opponent's weight and position create sweep opportunities. Track success rates against various skill levels and body types.",
-      "resistance_level": "Full"
+      "description": "Actively seek half guard positions during normal sparring sessions. Practice recognizing optimal timing for underhook sweep versus other options. Develop intuitive feel for when opponent's weight and position create sweep opportunities. Track success rates against various skill levels and body types."
     }
   ],
   "variants_and_adaptations": [
@@ -211,53 +194,43 @@
   "knowledge_assessment": [
     {
       "question": "Why is creating a 45-degree angle essential before executing the underhook sweep?",
-      "answer": "The angle creates mechanical advantage by positioning your body perpendicular to your opponent's center of gravity rather than directly underneath them. This allows you to sweep them over your body using leverage instead of attempting to lift their full weight vertically, which would be inefficient and require excessive strength. The angle also positions your underhook arm at the optimal trajectory for driving upward and forward.",
-      "difficulty": "Intermediate"
+      "answer": "The angle creates mechanical advantage by positioning your body perpendicular to your opponent's center of gravity rather than directly underneath them. This allows you to sweep them over your body using leverage instead of attempting to lift their full weight vertically, which would be inefficient and require excessive strength. The angle also positions your underhook arm at the optimal trajectory for driving upward and forward."
     },
     {
       "question": "What is the primary purpose of controlling your opponent's far hip during the underhook sweep?",
-      "answer": "Controlling the far hip prevents your opponent from posting their far leg out for base, which is one of the most common and effective defenses against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it.",
-      "difficulty": "Beginner"
+      "answer": "Controlling the far hip prevents your opponent from posting their far leg out for base, which is one of the most common and effective defenses against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it."
     },
     {
       "question": "Your opponent whizzers hard over your underhook arm and starts driving you flat - what adjustments should you make?",
-      "answer": "When caught in a strong whizzer that is flattening you, you should not fight the whizzer with strength. Instead, redirect to techniques where the whizzer becomes a liability: transition to the Old School Sweep by posting on your free hand and extending the trapped leg outward, enter deep half guard by sliding your head under their hips where the whizzer loses leverage, or use the whizzer pressure itself to climb up their back for a back take by maintaining your underhook and inserting your bottom hook as they overcommit to the overhook.",
-      "difficulty": "Advanced"
+      "answer": "When caught in a strong whizzer that is flattening you, you should not fight the whizzer with strength. Instead, redirect to techniques where the whizzer becomes a liability: transition to the Old School Sweep by posting on your free hand and extending the trapped leg outward, enter deep half guard by sliding your head under their hips where the whizzer loses leverage, or use the whizzer pressure itself to climb up their back for a back take by maintaining your underhook and inserting your bottom hook as they overcommit to the overhook."
     },
     {
       "question": "What timing principle makes the underhook sweep most effective?",
-      "answer": "The sweep is most effective when executed as your opponent commits their weight forward with pressure. By using their forward momentum and pressure against them, you reduce the amount of force needed to complete the sweep and catch them with their weight already moving in a vulnerable direction. Attempting the sweep when they are postured up or sitting back requires you to generate all the movement yourself, making it much less efficient.",
-      "difficulty": "Intermediate"
+      "answer": "The sweep is most effective when executed as your opponent commits their weight forward with pressure. By using their forward momentum and pressure against them, you reduce the amount of force needed to complete the sweep and catch them with their weight already moving in a vulnerable direction. Attempting the sweep when they are postured up or sitting back requires you to generate all the movement yourself, making it much less efficient."
     },
     {
       "question": "Why must the underhook be maintained throughout the entire sweep and into top position?",
-      "answer": "Maintaining the underhook throughout ensures continuous control of your opponent's upper body, preventing them from creating frames, turning away, or escaping during the transition. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position.",
-      "difficulty": "Advanced"
+      "answer": "Maintaining the underhook throughout ensures continuous control of your opponent's upper body, preventing them from creating frames, turning away, or escaping during the transition. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position."
     },
     {
       "question": "What role does hip elevation play in generating sweeping power?",
-      "answer": "Hip elevation through bridging creates the primary power source for the sweep, allowing you to use your entire lower body musculature rather than just arm strength. By elevating your hips and rotating them toward the underhook side, you create a lever effect with your body serving as the fulcrum and your opponent being lifted over the top. This biomechanical principle allows smaller practitioners to sweep larger opponents by maximizing leverage and minimizing reliance on upper body strength alone.",
-      "difficulty": "Intermediate"
+      "answer": "Hip elevation through bridging creates the primary power source for the sweep, allowing you to use your entire lower body musculature rather than just arm strength. By elevating your hips and rotating them toward the underhook side, you create a lever effect with your body serving as the fulcrum and your opponent being lifted over the top. This biomechanical principle allows smaller practitioners to sweep larger opponents by maximizing leverage and minimizing reliance on upper body strength alone."
     },
     {
       "question": "What specific grip placement and depth is required for the underhook to function as an effective sweeping lever?",
-      "answer": "The underhook arm must drive deep under the opponent's armpit so that your shoulder connects tightly to their ribs, not just your hand or forearm entering the space. Your hand should grip their far lat muscle, opposite shoulder, or back of the gi to create a complete wraparound connection. The elbow must stay close to your own body to maintain structural integrity. A shallow underhook where only the hand reaches under allows the opponent to easily strip it with a whizzer, while a deep underhook with shoulder-to-rib contact creates a structural lever they cannot easily remove.",
-      "difficulty": "Beginner"
+      "answer": "The underhook arm must drive deep under the opponent's armpit so that your shoulder connects tightly to their ribs, not just your hand or forearm entering the space. Your hand should grip their far lat muscle, opposite shoulder, or back of the gi to create a complete wraparound connection. The elbow must stay close to your own body to maintain structural integrity. A shallow underhook where only the hand reaches under allows the opponent to easily strip it with a whizzer, while a deep underhook with shoulder-to-rib contact creates a structural lever they cannot easily remove."
     },
     {
       "question": "In which direction should the primary sweeping force be applied relative to your opponent's body?",
-      "answer": "The sweeping force should be directed diagonally upward and over your body toward the underhook side, not straight upward or directly to the side. The underhook arm drives upward and forward while the far hip grip pulls laterally, creating a combined rotational force that tips the opponent over your body along the path of least resistance. This diagonal force vector exploits the angle you created during setup, ensuring the opponent's weight travels over your shoulder line rather than being lifted against gravity. Driving purely upward wastes energy, while driving purely sideways lacks the elevation needed to break their base.",
-      "difficulty": "Intermediate"
+      "answer": "The sweeping force should be directed diagonally upward and over your body toward the underhook side, not straight upward or directly to the side. The underhook arm drives upward and forward while the far hip grip pulls laterally, creating a combined rotational force that tips the opponent over your body along the path of least resistance. This diagonal force vector exploits the angle you created during setup, ensuring the opponent's weight travels over your shoulder line rather than being lifted against gravity. Driving purely upward wastes energy, while driving purely sideways lacks the elevation needed to break their base."
     },
     {
       "question": "Your opponent posts their far hand on the mat to prevent the sweep - how do you adjust mid-technique?",
-      "answer": "When the opponent posts their hand instead of their leg, their upper body is momentarily committed to the mat-side, leaving their back exposed. Use this opportunity to switch from the sweep to a back take: maintain your underhook and use it to climb up their back as their hand post prevents them from turning back toward you. Insert your bottom hook first, then fight for the second hook or seat belt control. Alternatively, if the hand post is weak, increase your hip drive and far hip pull simultaneously to overwhelm the post, as a single hand provides far less base than a posted leg.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent posts their hand instead of their leg, their upper body is momentarily committed to the mat-side, leaving their back exposed. Use this opportunity to switch from the sweep to a back take: maintain your underhook and use it to climb up their back as their hand post prevents them from turning back toward you. Insert your bottom hook first, then fight for the second hook or seat belt control. Alternatively, if the hand post is weak, increase your hip drive and far hip pull simultaneously to overwhelm the post, as a single hand provides far less base than a posted leg."
     },
     {
       "question": "How does the underhook sweep connect to other half guard attacks in a systematic approach?",
-      "answer": "The underhook sweep serves as a central technique that connects to multiple other attacks: when defended with a whizzer it opens back takes; when opponent sits back it transitions to waiter sweep; when they flatten you it allows entry to deep half; when the far leg posts it can chain to butterfly sweeps or single leg attacks. This interconnected system means that every defense your opponent makes to the underhook sweep creates an opportunity for a different attack, embodying the principle of creating dilemmas from bottom position.",
-      "difficulty": "Advanced"
+      "answer": "The underhook sweep serves as a central technique that connects to multiple other attacks: when defended with a whizzer it opens back takes; when opponent sits back it transitions to waiter sweep; when they flatten you it allows entry to deep half; when the far leg posts it can chain to butterfly sweeps or single leg attacks. This interconnected system means that every defense your opponent makes to the underhook sweep creates an opportunity for a different attack, embodying the principle of creating dilemmas from bottom position."
     }
   ],
   "safety_considerations": "The underhook sweep is generally one of the safer techniques in Brazilian Jiu-Jitsu, with minimal injury risk when executed properly. However, practitioners should be aware that explosive bridging can strain the neck if head position is incorrect - always keep your head tight to opponent's body rather than bridging with an extended neck. When coming up on top, control your weight distribution to avoid driving knees into opponent's ribs or face during the scramble. Training partners should tap the mat if they feel themselves being swept too aggressively and are unable to breakfall safely, particularly on hard surfaces. Beginners should practice breakfalls separately before drilling this sweep at full speed. As with all sweeps, be conscious of the training space and ensure sufficient room to complete the technique without rolling into walls, equipment, or other practitioners.",
@@ -296,10 +269,6 @@
       "relationship": "Alternative leg control method in half guard system"
     },
     {
-      "name": "Underhook Recovery",
-      "relationship": "Fundamental technique for re-establishing underhook control when lost"
-    },
-    {
       "name": "Side Control",
       "relationship": "Ending position after successful sweep"
     },
@@ -311,5 +280,6 @@
       "name": "Dogfight Position",
       "relationship": "Intermediate position arising from contested underhook battles"
     }
-  ]
+  ],
+  "success_rate": 58
 }

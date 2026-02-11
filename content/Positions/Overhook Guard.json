@@ -253,19 +253,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 68,
-        "advanced": 78
+        "value": 73
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 72
+        "value": 66
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35
+        "value": 30
       },
       "average_time": "45-90 seconds before pass or guard recovery"
     },
@@ -526,54 +520,44 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 80
+        "value": 75
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 65
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "average_time": "45-90 seconds before sweep or submission attempt"
     },
     "transitions": [
       {
         "transition": "Overhook Sweep",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Hip Bump Sweep",
         "attempt_probability": 15
       },
       {
+        "transition": "Hip Bump Sweep",
+        "attempt_probability": 17
+      },
+      {
         "transition": "Omoplata from Guard",
-        "attempt_probability": 12
+        "attempt_probability": 13
       },
       {
         "transition": "Arm Drag to Back",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Triangle Setup",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Kimura from Guard",
         "attempt_probability": 12
       },
       {
-        "transition": "Omoplata from Guard",
-        "attempt_probability": 11
+        "transition": "Triangle Setup",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Kimura from Guard",
+        "attempt_probability": 13
       },
       {
         "transition": "Armbar from Guard",
-        "attempt_probability": 13
+        "attempt_probability": 15
       }
     ],
     "knowledge_assessment": [

@@ -157,7 +157,7 @@ The sweep functions by using the lapel wrap as a lever to prevent the opponent f
 Strategically, this sweep is most effective when the opponent attempts to stand and create distance from Ringworm Guard, as their elevated center of gravity makes them more susceptible to rotational sweeps. The back take variation is particularly valuable because it bypasses the typical guard passing battle that follows a sweep to mount, immediately establishing the most dominant control position in Brazilian Jiu-Jitsu.
 
 **From Position**: [[Ringworm Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm lapel tension**: Verify the lapel wrap is secure around opponent's leg with no slack in the grip. Pull the lapel tail firmly toward your hip to create maximum restriction on their wrapped leg, preventing any posting ability. (Timing: Before initiating any sweep motion)
-2. **Establish secondary grip**: Secure a collar grip with your free hand on the same side as the wrapped leg, or alternatively grip the far sleeve. This grip prevents opponent from posturing and assists with the rotational pull during the sweep. (Timing: Immediately after confirming lapel tension)
-3. **Create angle and load**: Hip escape away from the wrapped leg side while keeping the lapel tension constant. This creates the angular loading necessary for sweep momentum and positions your body to follow through to the back. (Timing: When opponent's weight shifts forward or they attempt to stand)
-4. **Execute sweep motion**: Explosively drive your hips upward and toward the wrapped leg side while pulling down on your secondary grip. The combination of hip drive and pulling creates rotational momentum that topples the opponent laterally over their trapped leg. (Timing: Immediately upon detecting forward weight commitment)
-5. **Follow to back exposure**: As the opponent falls, follow the sweep motion by continuing your rotation rather than settling into top position. Your momentum should carry you behind them as they try to base, creating immediate back exposure. (Timing: Continuous motion without pause at sweep completion)
-6. **Insert hooks and establish seatbelt**: Thread your near-side hook first as the opponent lands on their side, then immediately establish seatbelt control (over-under grip across their chest). Complete back control by inserting the second hook and adjusting hip positioning behind their centerline. (Timing: Within 1-2 seconds of opponent landing)
+1. **Confirm lapel tension**: Verify the lapel wrap is secure around opponent's leg with no slack in the grip. Pull the lapel tail firmly toward your hip to create maximum restriction on their wrapped leg, preventing any posting ability.
+2. **Establish secondary grip**: Secure a collar grip with your free hand on the same side as the wrapped leg, or alternatively grip the far sleeve. This grip prevents opponent from posturing and assists with the rotational pull during the sweep.
+3. **Create angle and load**: Hip escape away from the wrapped leg side while keeping the lapel tension constant. This creates the angular loading necessary for sweep momentum and positions your body to follow through to the back.
+4. **Execute sweep motion**: Explosively drive your hips upward and toward the wrapped leg side while pulling down on your secondary grip. The combination of hip drive and pulling creates rotational momentum that topples the opponent laterally over their trapped leg.
+5. **Follow to back exposure**: As the opponent falls, follow the sweep motion by continuing your rotation rather than settling into top position. Your momentum should carry you behind them as they try to base, creating immediate back exposure.
+6. **Insert hooks and establish seatbelt**: Thread your near-side hook first as the opponent lands on their side, then immediately establish seatbelt control (over-under grip across their chest). Complete back control by inserting the second hook and adjusting hip positioning behind their centerline.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 ## Training Progressions
 **Week 1-2** - Lapel mechanics and sweep timing
 Practice maintaining lapel tension while partner provides no resistance. Focus on the hip drive mechanics and understanding the rotational angle needed for the sweep. Drill the sweep motion in isolation without attempting the back take follow-through.
-(Resistance: None)
 
 **Week 3-4** - Back take follow-through
 Add the back control transition to the sweep with light resistance. Partner allows the sweep but provides mild scrambling to practice timing on hook insertion. Focus on making the sweep and back take one continuous motion.
-(Resistance: Light)
 
 **Week 5-6** - Reaction-based execution
 Partner provides moderate resistance and chooses between different defensive reactions (posting, dropping weight, spinning). Train recognizing which reaction is occurring and adjusting technique accordingly, including transitioning to alternative attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application and chain attacks
 Integrate the technique into live rolling from Ringworm Guard. Practice setting up the sweep with complementary attacks and recognizing optimal timing windows against fully resisting opponents. Include recovery options when sweep fails.
-(Resistance: Full)
 
 
 

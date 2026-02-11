@@ -157,7 +157,7 @@ The technique operates on the principle that standing back control is transition
 Strategically, this escape is preferred when you have sufficient space to rotate and the opponent has not yet secured hooks or body triangle. It requires less energy than dropping to turtle and allows you to immediately threaten offensive positions from the resulting clinch. Advanced practitioners chain this with immediate underhooks or collar ties to gain clinch advantage after completing the rotation.
 
 **From Position**: [[Standing Back Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this escape is preferred when you have sufficient space to rotate
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure defensive posture**: Tuck chin tightly to chest and bring your leading hand to control the opponent's choking arm wrist. Establish wide base with feet shoulder-width apart for stability during the upcoming rotation. (Timing: Immediate upon recognizing back control)
-2. **Two-on-one grip control**: Bring your second hand to join the first, creating two-on-one control on the opponent's choking arm wrist. Both hands grip firmly around their wrist while maintaining chin protection through shoulder positioning. (Timing: 1-2 seconds after establishing initial control)
-3. **Strip the choking arm**: Pull opponent's choking arm across your body using both hands, peeling their grip away from the harness configuration. Drive their arm toward your opposite hip while keeping your elbows tight to prevent them from re-establishing grip. (Timing: Explosive movement, under 1 second)
-4. **Explosive hip rotation**: Immediately upon breaking the grip, explosively rotate your hips toward the side where you pulled their arm. Turn your entire body as a unit, pivoting on your lead foot while driving your rear hip through to face the opponent. (Timing: Must begin within half-second of grip break)
-5. **Complete the turn**: Continue rotation until your chest faces opponent's chest. Your shoulders should square up with theirs, eliminating all back exposure. Keep hands active during rotation to prevent opponent from catching your neck as you turn. (Timing: Complete rotation in under 1 second)
-6. **Establish clinch control**: Immediately upon facing opponent, establish clinch control through underhooks, collar tie, or wrist control. Do not pause in neutral - secure controlling grips to prevent opponent from circling back to your back or shooting for takedown. (Timing: Immediate upon completing rotation)
+1. **Secure defensive posture**: Tuck chin tightly to chest and bring your leading hand to control the opponent's choking arm wrist. Establish wide base with feet shoulder-width apart for stability during the upcoming rotation.
+2. **Two-on-one grip control**: Bring your second hand to join the first, creating two-on-one control on the opponent's choking arm wrist. Both hands grip firmly around their wrist while maintaining chin protection through shoulder positioning.
+3. **Strip the choking arm**: Pull opponent's choking arm across your body using both hands, peeling their grip away from the harness configuration. Drive their arm toward your opposite hip while keeping your elbows tight to prevent them from re-establishing grip.
+4. **Explosive hip rotation**: Immediately upon breaking the grip, explosively rotate your hips toward the side where you pulled their arm. Turn your entire body as a unit, pivoting on your lead foot while driving your rear hip through to face the opponent.
+5. **Complete the turn**: Continue rotation until your chest faces opponent's chest. Your shoulders should square up with theirs, eliminating all back exposure. Keep hands active during rotation to prevent opponent from catching your neck as you turn.
+6. **Establish clinch control**: Immediately upon facing opponent, establish clinch control through underhooks, collar tie, or wrist control. Do not pause in neutral - secure controlling grips to prevent opponent from circling back to your back or shooting for takedown.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this escape is preferred when you have sufficient space to rotate
 ## Training Progressions
 **Week 1-2** - Grip breaking mechanics
 Practice two-on-one grip control and harness strip against static partner. Focus on proper hand placement, elbow position, and pulling mechanics. Drill 50 repetitions per side per session without rotation.
-(Resistance: None)
 
 **Week 3-4** - Rotation timing
 Add rotation after grip break with compliant partner. Focus on seamless transition from grip strip to hip rotation. Partner provides feedback on timing - rotation should begin within half-second of grip break.
-(Resistance: Light)
 
 **Week 5-6** - Clinch establishment
 Complete full sequence including clinch control after rotation. Partner begins adding light resistance, attempting to circle with rotation. Practice establishing underhooks and collar ties immediately upon facing.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Progressive sparring from standing back control position. Partner attempts to maintain control, finish chokes, or counter your rotation. Focus on reading when to attempt grip break versus other escapes based on opponent's control configuration.
-(Resistance: Full)
 
 
 

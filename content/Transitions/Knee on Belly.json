@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "Knee on Belly represents one of the most dynamic and high-pressure positions in Brazilian Jiu-Jitsu, serving as both a scoring position worth two or three points in competition and a launching platform for devastating submissions. The transition from Side Control to Knee on Belly requires precise timing, proper weight distribution, and strategic grip selection to prevent the bottom player from capitalizing on the momentary reduction in chest pressure during the transition.\n\nThe position's effectiveness stems from the concentrated pressure of your entire body weight driving through a single knee into the opponent's solar plexus or lower ribs. This creates immediate discomfort that forces defensive reactions, opening submission opportunities. Unlike Side Control where pressure is distributed across the chest, Knee on Belly creates a focused point of pressure that compromises breathing and generates psychological distress. The elevation of your hips above the opponent also provides superior mobility for transitioning to submissions or following their escape attempts.\n\nFrom a strategic perspective, Knee on Belly functions as a pressure multiplier that accelerates the pace of the match. The discomfort forces the bottom player to react rather than methodically defend, creating predictable movement patterns you can exploit. Common defensive reactions - pushing the knee, turning away, bridging - each open specific submission or positional advancement opportunities. Understanding this action-reaction dynamic transforms Knee on Belly from a static scoring position into an active hunting ground for finishing the match.",
   "key_principles": [
     "Drive weight through the knee into the solar plexus or lower rib area for maximum pressure effect",
@@ -51,38 +46,32 @@
     {
       "step_number": 1,
       "action": "Secure grips",
-      "description": "From Side Control, establish your primary control grip - far lapel grip with your nearside hand or collar tie behind the head. Your far hand posts on the mat or controls the near hip to prevent bridging and turning motions.",
-      "timing": "Before any weight shift"
+      "description": "From Side Control, establish your primary control grip - far lapel grip with your nearside hand or collar tie behind the head. Your far hand posts on the mat or controls the near hip to prevent bridging and turning motions."
     },
     {
       "step_number": 2,
       "action": "Hip elevation",
-      "description": "Begin shifting your hips upward while maintaining chest connection. Your weight transfers from distributed chest pressure toward your posting hand and the knee that will establish position. This is the vulnerable moment - move decisively.",
-      "timing": "1-2 seconds, continuous motion"
+      "description": "Begin shifting your hips upward while maintaining chest connection. Your weight transfers from distributed chest pressure toward your posting hand and the knee that will establish position. This is the vulnerable moment - move decisively."
     },
     {
       "step_number": 3,
       "action": "Knee placement",
-      "description": "Drive your nearside knee across the opponent's midsection, placing the kneecap into the solar plexus or lower rib area. The shin crosses the body at approximately 45 degrees. Point the toes to create a sharp pressure point with the bony knee surface.",
-      "timing": "Immediate after hip elevation"
+      "description": "Drive your nearside knee across the opponent's midsection, placing the kneecap into the solar plexus or lower rib area. The shin crosses the body at approximately 45 degrees. Point the toes to create a sharp pressure point with the bony knee surface."
     },
     {
       "step_number": 4,
       "action": "Base establishment",
-      "description": "Plant your far foot wide and flat on the mat, toes pointing outward at 45 degrees from the opponent's body. This foot provides your primary base and balance point. The distance should allow you to drive pressure downward while maintaining mobility.",
-      "timing": "Simultaneous with knee placement"
+      "description": "Plant your far foot wide and flat on the mat, toes pointing outward at 45 degrees from the opponent's body. This foot provides your primary base and balance point. The distance should allow you to drive pressure downward while maintaining mobility."
     },
     {
       "step_number": 5,
       "action": "Weight distribution",
-      "description": "Drop your hips and drive bodyweight through the posted knee into the opponent's torso. Your weight should feel like it's drilling downward through the knee. Shoulders remain above hips, not leaning forward which would compromise balance.",
-      "timing": "Immediately upon base establishment"
+      "description": "Drop your hips and drive bodyweight through the posted knee into the opponent's torso. Your weight should feel like it's drilling downward through the knee. Shoulders remain above hips, not leaning forward which would compromise balance."
     },
     {
       "step_number": 6,
       "action": "Grip adjustment",
-      "description": "Finalize your control grips based on opponent's initial reaction. If they push the knee, threaten armbar. If they turn away, follow to back take. If they remain static, escalate pressure and threaten chokes. Your grips should facilitate your planned attack sequence.",
-      "timing": "Within 2-3 seconds of establishing position"
+      "description": "Finalize your control grips based on opponent's initial reaction. If they push the knee, threaten armbar. If they turn away, follow to back take. If they remain static, escalate pressure and threaten chokes. Your grips should facilitate your planned attack sequence."
     }
   ],
   "common_counters": [
@@ -138,26 +127,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Position mechanics",
-      "description": "Practice the transition from Side Control with a compliant partner, focusing on proper knee placement, foot positioning, and weight distribution. Drill entering and holding the position for 10-second intervals before returning to Side Control.",
-      "resistance_level": "None"
+      "description": "Practice the transition from Side Control with a compliant partner, focusing on proper knee placement, foot positioning, and weight distribution. Drill entering and holding the position for 10-second intervals before returning to Side Control."
     },
     {
       "phase": "Week 3-4",
       "focus": "Balance and adjustment",
-      "description": "Partner provides light escape attempts (bridging, shrimping, pushing knee). Focus on making micro-adjustments to maintain position while preserving balance. Develop sensitivity to weight shifts and timing of adjustments.",
-      "resistance_level": "Light"
+      "description": "Partner provides light escape attempts (bridging, shrimping, pushing knee). Focus on making micro-adjustments to maintain position while preserving balance. Develop sensitivity to weight shifts and timing of adjustments."
     },
     {
       "phase": "Week 5-6",
       "focus": "Submission chains",
-      "description": "Add submission attacks when partner defends. Practice armbar when they push the knee, baseball bat choke when they turn away, and mount transition when they bridge. Chain between Side Control, Knee on Belly, and attacks fluidly.",
-      "resistance_level": "Medium"
+      "description": "Add submission attacks when partner defends. Practice armbar when they push the knee, baseball bat choke when they turn away, and mount transition when they bridge. Chain between Side Control, Knee on Belly, and attacks fluidly."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Implement Knee on Belly in positional sparring starting from Side Control. Focus on recognizing opportunities to transition and executing submission chains under full resistance. Track success rate and adjust technique based on failures.",
-      "resistance_level": "Full"
+      "description": "Implement Knee on Belly in positional sparring starting from Side Control. Focus on recognizing opportunities to transition and executing submission chains under full resistance. Track success rate and adjust technique based on failures."
     }
   ],
   "variants_and_adaptations": [
@@ -180,53 +165,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of establishing Knee on Belly from Side Control?",
-      "answer": "The primary goal is to create concentrated pressure through the knee that forces defensive reactions from the opponent. This accomplishes two objectives: scoring points in competition (2-3 points depending on ruleset) and creating submission opportunities when the opponent reacts predictably to escape the discomfort. The position transforms static control into dynamic attacking.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to create concentrated pressure through the knee that forces defensive reactions from the opponent. This accomplishes two objectives: scoring points in competition (2-3 points depending on ruleset) and creating submission opportunities when the opponent reacts predictably to escape the discomfort. The position transforms static control into dynamic attacking."
     },
     {
       "question": "Where exactly should you place your knee for maximum effectiveness?",
-      "answer": "The knee should be placed in the solar plexus or lower rib area, just below where the ribs meet at the sternum. This location creates maximum breathing restriction and pain compliance. Placing the knee on the stomach or hip dramatically reduces effectiveness because these areas lack the bone structure that amplifies pressure.",
-      "difficulty": "Beginner"
+      "answer": "The knee should be placed in the solar plexus or lower rib area, just below where the ribs meet at the sternum. This location creates maximum breathing restriction and pain compliance. Placing the knee on the stomach or hip dramatically reduces effectiveness because these areas lack the bone structure that amplifies pressure."
     },
     {
       "question": "Your opponent pushes against your knee with both hands - what submission opportunity does this create?",
-      "answer": "When the opponent pushes your knee with both hands, their arms extend and become vulnerable. This creates an immediate armbar opportunity on the near arm. You can also attack with a Kimura by circling to the exposed arm. The key recognition is that hands occupied pushing the knee cannot defend submissions, making this defense self-defeating.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent pushes your knee with both hands, their arms extend and become vulnerable. This creates an immediate armbar opportunity on the near arm. You can also attack with a Kimura by circling to the exposed arm. The key recognition is that hands occupied pushing the knee cannot defend submissions, making this defense self-defeating."
     },
     {
       "question": "How should your weight distribution differ between leaning forward and sitting down through the knee?",
-      "answer": "Weight should be distributed vertically downward through the knee, not horizontally forward by leaning. Keep shoulders stacked directly above hips and drive pressure down like drilling into the mat. Leaning forward feels heavy but creates an unstable position easily disrupted by bridges and actually reduces effective pressure on the opponent's torso.",
-      "difficulty": "Intermediate"
+      "answer": "Weight should be distributed vertically downward through the knee, not horizontally forward by leaning. Keep shoulders stacked directly above hips and drive pressure down like drilling into the mat. Leaning forward feels heavy but creates an unstable position easily disrupted by bridges and actually reduces effective pressure on the opponent's torso."
     },
     {
       "question": "Your opponent explosively bridges while you're in Knee on Belly - what is the correct response?",
-      "answer": "Post firmly with your far foot while maintaining knee connection to ride the bridge. Do not fight the upward momentum directly. As the opponent returns to the mat, immediately increase pressure or transition to mount while they're recovering from the exertion. Their bridge creates space that facilitates your mount transition.",
-      "difficulty": "Intermediate"
+      "answer": "Post firmly with your far foot while maintaining knee connection to ride the bridge. Do not fight the upward momentum directly. As the opponent returns to the mat, immediately increase pressure or transition to mount while they're recovering from the exertion. Their bridge creates space that facilitates your mount transition."
     },
     {
       "question": "Why is it critical to clear frames before transitioning from Side Control to Knee on Belly?",
-      "answer": "The transition requires lifting your chest off the opponent, creating a momentary reduction in pressure. If frames exist, the opponent will immediately use this window to insert a knee shield or recover guard. Clearing frames while in Side Control ensures the opponent cannot capitalize on the brief pressure reduction during your transition.",
-      "difficulty": "Advanced"
+      "answer": "The transition requires lifting your chest off the opponent, creating a momentary reduction in pressure. If frames exist, the opponent will immediately use this window to insert a knee shield or recover guard. Clearing frames while in Side Control ensures the opponent cannot capitalize on the brief pressure reduction during your transition."
     },
     {
       "question": "What angle should your posting foot be positioned at, and why does this matter?",
-      "answer": "The posting foot should be planted wide with toes pointing outward at approximately 45 degrees from the opponent's body. This creates a triangular base that provides stability against bridges, shrimps, and turning motions from multiple directions. A narrow base or straight foot alignment makes you vulnerable to being swept when the opponent moves laterally.",
-      "difficulty": "Intermediate"
+      "answer": "The posting foot should be planted wide with toes pointing outward at approximately 45 degrees from the opponent's body. This creates a triangular base that provides stability against bridges, shrimps, and turning motions from multiple directions. A narrow base or straight foot alignment makes you vulnerable to being swept when the opponent moves laterally."
     },
     {
       "question": "When is the optimal timing window to transition from Side Control to Knee on Belly?",
-      "answer": "The optimal timing is immediately after neutralizing the opponent's last escape attempt when they are recovering energy and mentally resetting. Also effective is during their exhale when breathing is compromised by your chest pressure. Avoid transitioning when they are actively framing, have just gained an underhook, or are gathering energy for an escape attempt.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is immediately after neutralizing the opponent's last escape attempt when they are recovering energy and mentally resetting. Also effective is during their exhale when breathing is compromised by your chest pressure. Avoid transitioning when they are actively framing, have just gained an underhook, or are gathering energy for an escape attempt."
     },
     {
       "question": "Your opponent turns away from you in Knee on Belly - what chain attacks become available?",
-      "answer": "When the opponent turns away, their back becomes exposed for back takes by following their rotation. Additionally, baseball bat choke becomes available as their collar is exposed, and far-side armbar opportunities open as they extend to turn. The turning motion also creates space to transition to mount by stepping over their hip as they rotate.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent turns away, their back becomes exposed for back takes by following their rotation. Additionally, baseball bat choke becomes available as their collar is exposed, and far-side armbar opportunities open as they extend to turn. The turning motion also creates space to transition to mount by stepping over their hip as they rotate."
     },
     {
       "question": "How does the Floating Knee on Belly variant differ in application from the standard position?",
-      "answer": "Floating Knee on Belly uses lighter knee pressure with greater mobility, treating the position as a transition platform rather than a holding position. The knee hovers rather than driving, allowing rapid transitions to mount, back takes, or submissions. This variant is effective against opponents who time escapes well because the mobility allows you to follow their movement continuously.",
-      "difficulty": "Advanced"
+      "answer": "Floating Knee on Belly uses lighter knee pressure with greater mobility, treating the position as a transition platform rather than a holding position. The knee hovers rather than driving, allowing rapid transitions to mount, back takes, or submissions. This variant is effective against opponents who time escapes well because the mobility allows you to follow their movement continuously."
     }
   ],
   "safety_considerations": "Knee on Belly creates significant pressure on the rib cage and solar plexus that can cause injury if applied recklessly. When training, build pressure gradually rather than dropping full weight immediately, especially with newer training partners who may not know how to tap or signal discomfort appropriately. Be aware that direct pressure to the solar plexus can cause temporary breathing difficulty and nausea. Partners with rib injuries, recent abdominal surgery, or respiratory conditions should communicate these issues before drilling. During competition, the position is legal and expected, but training should emphasize controlled application to prevent rib fractures or cartilage damage that can occur from sudden, full-force knee placement.",
@@ -264,5 +239,6 @@
       "name": "Kesa Gatame",
       "relationship": "Alternative control position when Knee on Belly cannot be maintained"
     }
-  ]
+  ],
+  "success_rate": 68
 }

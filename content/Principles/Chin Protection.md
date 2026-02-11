@@ -233,7 +233,7 @@ Chin Protection represents the fundamental defensive principle of maintaining pr
 
 **Deep Half Guard**: Protect exposed neck when inverted under opponent in deep half guard, keeping chin tucked to prevent guillotine and front headlock attacks while maintaining position and working for sweeps.
 
-**D'arce Control**: Defend against d'arce choke completion by tucking chin toward the trapped shoulder and applying downward head pressure, preventing arm advancement while working to clear the choking arm.
+**Darce Control**: Defend against d'arce choke completion by tucking chin toward the trapped shoulder and applying downward head pressure, preventing arm advancement while working to clear the choking arm.
 
 **Anaconda Control**: Counter anaconda choke by maintaining chin protection and preventing opponent from rolling to finishing position, using head positioning to create defensive barrier while escaping the control.
 

@@ -365,11 +365,11 @@ Establish Z-lock position. Partner attempts to create frames, recover underhooks
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 40% | 15% |
-| Intermediate | 75% | 55% | 25% |
-| Advanced     | 85% | 70% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 62% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds before passing or submission attempt
 

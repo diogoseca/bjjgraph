@@ -157,7 +157,7 @@ This choke works by applying pressure to the carotid arteries through the gi col
 Strategically, the Bow and Arrow Choke represents the primary collar attack from back control in gi grappling. It chains naturally with other back attacks—opponents defending the Bow and Arrow often expose their arms for armbar attacks or create space that allows transition to rear naked choke attempts. Understanding this submission's mechanics and entries is essential for any serious gi competitor, as it accounts for a significant percentage of submission victories at the highest levels of competition.
 
 **From Position**: [[Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the Bow and Arrow Choke represents the primary collar attack from
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure collar grip**: From back control with seatbelt, release your over-the-shoulder arm and reach across opponent's neck to grab their far-side collar. Insert four fingers deep inside the collar, knuckles against their neck, gripping at or below the level of their ear. (Timing: When opponent is focused on defending hooks or RNC)
-2. **Control far leg**: With your free hand (same side as your choking arm), reach down and grab opponent's far-side pants at the knee or shin. This grip prevents hip rotation and will provide the 'arrow' extension in the finish. (Timing: Immediately after collar grip is secured)
-3. **Shift to choking hip**: Begin falling to your choking-side hip while maintaining chest-to-back connection. Your bottom leg should slide to block opponent's near-side hip, preventing them from turning toward you during the transition. (Timing: Smooth continuous motion after grips established)
-4. **Extend and separate**: Continue falling to your side while pulling the collar grip toward your chest and extending opponent's far leg away from their body. Your body should begin straightening as you create separation between their head and trapped leg. (Timing: As you hit your side, begin extending)
-5. **Secure hip block**: Your bottom leg hooks over opponent's near-side hip or thigh, creating a frame that prevents them from turning into you. This leg acts as an anchor point while your upper body creates the choking pressure. (Timing: Establish before full extension)
-6. **Finish the choke**: Simultaneously pull the collar toward your chest while driving your hips away and extending your legs. The combination of pulling with the collar grip and pushing with your leg on their far leg creates the bow-and-arrow tension that completes the blood choke. Keep your elbow tight and chin tucked over your choking arm. (Timing: Apply steady increasing pressure until tap)
+1. **Secure collar grip**: From back control with seatbelt, release your over-the-shoulder arm and reach across opponent's neck to grab their far-side collar. Insert four fingers deep inside the collar, knuckles against their neck, gripping at or below the level of their ear.
+2. **Control far leg**: With your free hand (same side as your choking arm), reach down and grab opponent's far-side pants at the knee or shin. This grip prevents hip rotation and will provide the 'arrow' extension in the finish.
+3. **Shift to choking hip**: Begin falling to your choking-side hip while maintaining chest-to-back connection. Your bottom leg should slide to block opponent's near-side hip, preventing them from turning toward you during the transition.
+4. **Extend and separate**: Continue falling to your side while pulling the collar grip toward your chest and extending opponent's far leg away from their body. Your body should begin straightening as you create separation between their head and trapped leg.
+5. **Secure hip block**: Your bottom leg hooks over opponent's near-side hip or thigh, creating a frame that prevents them from turning into you. This leg acts as an anchor point while your upper body creates the choking pressure.
+6. **Finish the choke**: Simultaneously pull the collar toward your chest while driving your hips away and extending your legs. The combination of pulling with the collar grip and pushing with your leg on their far leg creates the bow-and-arrow tension that completes the blood choke. Keep your elbow tight and chin tucked over your choking arm.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, the Bow and Arrow Choke represents the primary collar attack from
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice collar grip insertion from back control with no resistance. Focus on getting four fingers deep, knuckles against neck, at proper depth. Drill the grip-to-leg-control sequence repeatedly until smooth. Partner remains passive.
-(Resistance: None)
 
 **Week 3-4** - Transition mechanics
 Add the falling-to-hip transition with light resistance. Partner allows grips but provides light frames. Focus on maintaining chest connection during transition and establishing bottom leg hip block. Drill complete technique slowly.
-(Resistance: Light)
 
 **Week 5-6** - Finishing mechanics and counters
 Partner provides moderate defensive resistance including grip fighting and attempted rotations. Practice recognizing and defeating common counters. Chain to armbar when opponent over-defends collar. Apply finish with controlled pressure.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance specific sparring from back control. Partner attempts all escapes and defenses. Work on recognizing optimal timing windows for entry. Chain with rear naked choke and armbar threats. Test under fatigue and pressure.
-(Resistance: Full)
 
 
 

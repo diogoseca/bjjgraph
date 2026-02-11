@@ -157,7 +157,7 @@ Strategically, the Inversion Escape represents a high-risk, high-reward defensiv
 This technique requires significant hip mobility, spatial awareness while inverted, and precise timing. The inversion must be committed and explosive - half-measures result in wasted energy and improved position for the attacker. When executed correctly, you can escape to open guard or even counter-entangle into 50-50 guard, neutralizing the positional disadvantage.
 
 **From Position**: [[Honey Hole/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ This technique requires significant hip mobility, spatial awareness while invert
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess and prepare**: Immediately upon feeling the inside leg triangle form, assess whether opponent has heel grip. If no heel grip, prepare for explosive inversion by gripping opponent's pants at knee with both hands. (Timing: Within first second of entanglement)
-2. **Post free leg**: Plant your free foot firmly on the mat outside your hip, toes pointed outward. This leg provides the primary drive for your inversion. Bend your knee to approximately 90 degrees for maximum explosive potential. (Timing: Immediate)
-3. **Initiate rotation**: Explosively drive off your posted foot while simultaneously rotating your hips toward your trapped leg. Your body should begin inverting over your shoulder on the same side as your trapped leg. Maintain pant grips throughout. (Timing: Explosive, no hesitation)
-4. **Complete inversion**: Continue the rotational momentum, allowing your body to roll over your shoulder. As you invert, your trapped leg rotates with you, changing the angle relative to opponent's triangle. Keep your knee and foot aligned to protect your knee. (Timing: Fluid continuation)
-5. **Extract heel**: During the inverted position, your heel passes through the space created by the angle change. Pull your knee toward your chest while continuing rotation. Your foot should clear opponent's grip zone during this phase. (Timing: Peak of inversion)
-6. **Establish guard**: As you complete the rotation and your leg extracts, immediately establish open guard frames with both feet on opponent's hips. Create distance with active pushing while transitioning to seated or supine guard position. (Timing: Immediate upon extraction)
+1. **Assess and prepare**: Immediately upon feeling the inside leg triangle form, assess whether opponent has heel grip. If no heel grip, prepare for explosive inversion by gripping opponent's pants at knee with both hands.
+2. **Post free leg**: Plant your free foot firmly on the mat outside your hip, toes pointed outward. This leg provides the primary drive for your inversion. Bend your knee to approximately 90 degrees for maximum explosive potential.
+3. **Initiate rotation**: Explosively drive off your posted foot while simultaneously rotating your hips toward your trapped leg. Your body should begin inverting over your shoulder on the same side as your trapped leg. Maintain pant grips throughout.
+4. **Complete inversion**: Continue the rotational momentum, allowing your body to roll over your shoulder. As you invert, your trapped leg rotates with you, changing the angle relative to opponent's triangle. Keep your knee and foot aligned to protect your knee.
+5. **Extract heel**: During the inverted position, your heel passes through the space created by the angle change. Pull your knee toward your chest while continuing rotation. Your foot should clear opponent's grip zone during this phase.
+6. **Establish guard**: As you complete the rotation and your leg extracts, immediately establish open guard frames with both feet on opponent's hips. Create distance with active pushing while transitioning to seated or supine guard position.
 
 
 </section>
@@ -257,19 +257,15 @@ This technique requires significant hip mobility, spatial awareness while invert
 ## Training Progressions
 **Week 1-2** - Inversion mechanics
 Practice solo inversion drills without partner. Focus on smooth shoulder roll mechanics, hip rotation, and return to guard position. Build comfort with inverted position and directional awareness. 50+ repetitions daily.
-(Resistance: None)
 
 **Week 3-4** - Partner drilling with positioning
 Partner establishes Honey Hole position slowly without attacking. Practice full escape sequence with emphasis on timing the inversion before heel grip. Partner provides minimal resistance. Reset and repeat 20-30 times per session.
-(Resistance: Light)
 
 **Week 5-6** - Timing against progressive attacks
 Partner actively attempts to secure heel hook grip while you practice recognizing and executing escape within timing window. Increase resistance to 50-70%. Practice transitioning to 50-50 when opponent follows rotation.
-(Resistance: Medium)
 
 **Week 7+** - Live situational sparring
 Positional sparring starting from Honey Hole position with full resistance. Goal is successful escape or proper tap recognition when escape window closes. Integrate escape into full rolling sessions with leg lock exchanges.
-(Resistance: Full)
 
 
 

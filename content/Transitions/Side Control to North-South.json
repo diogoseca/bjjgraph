@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 55,
-    "intermediate": 70,
-    "advanced": 85
-  },
   "overview": "The transition from Side Control to North-South is a fundamental positional advancement that creates new submission opportunities and eliminates defensive frames. This movement maintains maximum pressure while switching your position perpendicular to your opponent, placing your head near their hips and your hips near their head. The North-South position offers unique attacking angles for chokes, kimuras, and armbars while severely limiting your opponent's escape options. Unlike Side Control where opponents can create frames with their near-side arm, North-South removes this defensive tool entirely. The transition is highest percentage when executed as a response to specific defensive movements, particularly when opponents turn into you or attempt to recover guard. Understanding when to transition versus when to maintain Side Control is critical for strategic positional flow.",
   "key_principles": [
     "Maintain chest-to-chest pressure throughout the entire transition",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Secure near arm control",
-      "description": "Establish dominant control of opponent's near arm through crossface pressure or underhook grip. This prevents them from creating frames as you transition. Your weight should drive through their shoulder into the mat.",
-      "timing": "Before initiating movement"
+      "description": "Establish dominant control of opponent's near arm through crossface pressure or underhook grip. This prevents them from creating frames as you transition. Your weight should drive through their shoulder into the mat."
     },
     {
       "step_number": 2,
       "action": "Walk feet toward opponent's head",
-      "description": "Begin walking your feet in a semicircular path toward opponent's head while maintaining chest-to-chest contact. Your steps should be small and controlled, never breaking pressure. Keep your hips low and connected throughout the entire walking motion.",
-      "timing": "Smooth continuous motion"
+      "description": "Begin walking your feet in a semicircular path toward opponent's head while maintaining chest-to-chest contact. Your steps should be small and controlled, never breaking pressure. Keep your hips low and connected throughout the entire walking motion."
     },
     {
       "step_number": 3,
       "action": "Slide your head across",
-      "description": "As your feet walk around, slide your head and chest across opponent's torso toward their far hip. Maintain constant downward pressure - imagine trying to drive your sternum through their sternum into the mat. Your chin should stay tight to their body.",
-      "timing": "Synchronized with foot movement"
+      "description": "As your feet walk around, slide your head and chest across opponent's torso toward their far hip. Maintain constant downward pressure - imagine trying to drive your sternum through their sternum into the mat. Your chin should stay tight to their body."
     },
     {
       "step_number": 4,
       "action": "Establish North-South position",
-      "description": "Complete the circular walk until you are perpendicular to your opponent with your head near their hips and your hips near their head. Your chest should be directly over their chest, creating maximum crushing pressure. Both your feet should be wide and stable.",
-      "timing": "Completion of circular path"
+      "description": "Complete the circular walk until you are perpendicular to your opponent with your head near their hips and your hips near their head. Your chest should be directly over their chest, creating maximum crushing pressure. Both your feet should be wide and stable."
     },
     {
       "step_number": 5,
       "action": "Secure arm control",
-      "description": "Immediately secure control of one or both arms in North-South. Common grips include double underhooks, kimura grip on near arm, or hugging their far arm to your chest. This prevents them from creating frames or beginning their escape sequence.",
-      "timing": "Immediately upon arrival"
+      "description": "Immediately secure control of one or both arms in North-South. Common grips include double underhooks, kimura grip on near arm, or hugging their far arm to your chest. This prevents them from creating frames or beginning their escape sequence."
     },
     {
       "step_number": 6,
       "action": "Consolidate pressure",
-      "description": "Drop your full body weight onto opponent's chest while expanding your base with wide knees. Your head should be heavy on their abdomen, your chest crushing their sternum. Adjust your position to maximize discomfort and control while eliminating any space between your bodies.",
-      "timing": "Final position refinement"
+      "description": "Drop your full body weight onto opponent's chest while expanding your base with wide knees. Your head should be heavy on their abdomen, your chest crushing their sternum. Adjust your position to maximize discomfort and control while eliminating any space between your bodies."
     }
   ],
   "common_counters": [
@@ -142,32 +131,27 @@
     {
       "phase": "Phase 1: Static Position Familiarization",
       "focus": "Understanding start and end positions",
-      "description": "Start in Side Control, partner passive. Practice walking feet around their head while maintaining chest pressure. Focus on keeping hips low and connected. Repeat 10 times per side.",
-      "resistance_level": "None"
+      "description": "Start in Side Control, partner passive. Practice walking feet around their head while maintaining chest pressure. Focus on keeping hips low and connected. Repeat 10 times per side."
     },
     {
       "phase": "Phase 2: Controlled Movement Drilling",
       "focus": "Smooth transition mechanics",
-      "description": "Partner provides light resistance by maintaining frames. Practice timing your movement with proper pressure maintenance. Partner provides feedback on pressure consistency. Perform 5-minute continuous drilling alternating roles.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by maintaining frames. Practice timing your movement with proper pressure maintenance. Partner provides feedback on pressure consistency. Perform 5-minute continuous drilling alternating roles."
     },
     {
       "phase": "Phase 3: Reactive Drilling",
       "focus": "Reading defensive reactions",
-      "description": "Partner actively defends Side Control with specific movements (turning in, framing, bridge attempts). Practice recognizing when to transition versus maintain position. Partner increases intensity gradually over 3-week period.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends Side Control with specific movements (turning in, framing, bridge attempts). Practice recognizing when to transition versus maintain position. Partner increases intensity gradually over 3-week period."
     },
     {
       "phase": "Phase 4: Live Situational Sparring",
       "focus": "Integration into flowing grappling",
-      "description": "Start from Side Control, both partners working 100%. Top player attempts transitions to North-South, Mount, and other positions. Bottom player attempts escapes. Reset when position changes significantly. 5-minute rounds.",
-      "resistance_level": "Full"
+      "description": "Start from Side Control, both partners working 100%. Top player attempts transitions to North-South, Mount, and other positions. Bottom player attempts escapes. Reset when position changes significantly. 5-minute rounds."
     },
     {
       "phase": "Phase 5: Competition Simulation",
       "focus": "Decision making under fatigue",
-      "description": "Full positional sparring starting from Side Control. Top player must decide when to transition versus consolidate. Bottom player uses competition-level defensive strategies. Focus on timing and energy efficiency. 6-8 minute rounds.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring starting from Side Control. Top player must decide when to transition versus consolidate. Bottom player uses competition-level defensive strategies. Focus on timing and energy efficiency. 6-8 minute rounds."
     }
   ],
   "variants_and_adaptations": [
@@ -190,53 +174,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary control point that must be maintained throughout the transition to North-South?",
-      "answer": "Chest-to-chest pressure must be maintained throughout the entire transition. Breaking this connection creates space for opponent to insert frames, recover guard, or escape. Your sternum should remain heavy on their torso from start to finish of the movement.",
-      "difficulty": "Beginner"
+      "answer": "Chest-to-chest pressure must be maintained throughout the entire transition. Breaking this connection creates space for opponent to insert frames, recover guard, or escape. Your sternum should remain heavy on their torso from start to finish of the movement."
     },
     {
       "question": "Why is the transition to North-South more effective when opponent attempts to turn into you?",
-      "answer": "When opponents turn into you from Side Control, they shift their weight and remove their defensive frames momentarily. This movement creates the perfect timing window for transition because they cannot simultaneously defend the position change and complete their escape attempt. Their turning motion actually helps you complete the circular path to North-South faster.",
-      "difficulty": "Intermediate"
+      "answer": "When opponents turn into you from Side Control, they shift their weight and remove their defensive frames momentarily. This movement creates the perfect timing window for transition because they cannot simultaneously defend the position change and complete their escape attempt. Their turning motion actually helps you complete the circular path to North-South faster."
     },
     {
       "question": "What is the correct path your feet should take during the transition?",
-      "answer": "Your feet should walk in a tight semicircular arc around opponent's head, moving from the Side Control position to perpendicular North-South alignment. The path should be small steps keeping your hips low and connected. Walking too wide creates space; walking too tight may cause you to trip or lose balance.",
-      "difficulty": "Beginner"
+      "answer": "Your feet should walk in a tight semicircular arc around opponent's head, moving from the Side Control position to perpendicular North-South alignment. The path should be small steps keeping your hips low and connected. Walking too wide creates space; walking too tight may cause you to trip or lose balance."
     },
     {
       "question": "How should you adjust your strategy if opponent secures an underhook on your far leg during transition?",
-      "answer": "If opponent secures an underhook on your far leg, the North-South transition is compromised. You should immediately abandon it and either return to Side Control, transition to mount by stepping over their head with your hooked leg, or attack the underhook arm with kimura. Forcing the transition gives opponent leverage to recover guard or sweep.",
-      "difficulty": "Advanced"
+      "answer": "If opponent secures an underhook on your far leg, the North-South transition is compromised. You should immediately abandon it and either return to Side Control, transition to mount by stepping over their head with your hooked leg, or attack the underhook arm with kimura. Forcing the transition gives opponent leverage to recover guard or sweep."
     },
     {
       "question": "What new submission opportunities become available in North-South that were difficult from Side Control?",
-      "answer": "North-South position offers superior access to kimura on the far arm (by reaching under their body), North-South choke (hugging the head), and arm attacks on both arms simultaneously. The perpendicular angle eliminates many defensive frames that work in Side Control and allows you to isolate limbs more effectively. The position also sets up transitions to mounted triangle and crucifix.",
-      "difficulty": "Intermediate"
+      "answer": "North-South position offers superior access to kimura on the far arm (by reaching under their body), North-South choke (hugging the head), and arm attacks on both arms simultaneously. The perpendicular angle eliminates many defensive frames that work in Side Control and allows you to isolate limbs more effectively. The position also sets up transitions to mounted triangle and crucifix."
     },
     {
       "question": "Why must you establish new grips immediately upon reaching North-South position?",
-      "answer": "The moment you complete the transition is when opponent has the best opportunity to begin their escape sequence. If you don't immediately secure arm controls (double underhooks, kimura grip, or hugging far arm), they can create frames, bridge, or start rolling to turtle. The first 1-2 seconds after transition are critical for establishing dominant grips that prevent all escape attempts.",
-      "difficulty": "Advanced"
+      "answer": "The moment you complete the transition is when opponent has the best opportunity to begin their escape sequence. If you don't immediately secure arm controls (double underhooks, kimura grip, or hugging far arm), they can create frames, bridge, or start rolling to turtle. The first 1-2 seconds after transition are critical for establishing dominant grips that prevent all escape attempts."
     },
     {
       "question": "Your opponent frames against your hip during the transition - how do you continue the movement?",
-      "answer": "When opponent frames your hip, use your chest pressure to drive forward and collapse the frame by angling your body. Simultaneously accelerate your foot walk to stay ahead of their defensive structure. If the frame is strong, switch to attacking the extended arm with a kimura grip rather than fighting through the frame. The frame exposes the arm, creating an offensive opportunity from what was a defensive action.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent frames your hip, use your chest pressure to drive forward and collapse the frame by angling your body. Simultaneously accelerate your foot walk to stay ahead of their defensive structure. If the frame is strong, switch to attacking the extended arm with a kimura grip rather than fighting through the frame. The frame exposes the arm, creating an offensive opportunity from what was a defensive action."
     },
     {
       "question": "What grip should you prioritize securing first upon reaching North-South position?",
-      "answer": "Prioritize double underhooks on both arms, scooping underneath their triceps to pin their arms to their sides. This eliminates all framing ability and sets up multiple submission pathways. If double underhooks aren't available, secure control of the near arm with a kimura grip or hug the far arm tight to your chest. The key is denying them any arm mobility in the first 1-2 seconds after arrival.",
-      "difficulty": "Intermediate"
+      "answer": "Prioritize double underhooks on both arms, scooping underneath their triceps to pin their arms to their sides. This eliminates all framing ability and sets up multiple submission pathways. If double underhooks aren't available, secure control of the near arm with a kimura grip or hug the far arm tight to your chest. The key is denying them any arm mobility in the first 1-2 seconds after arrival."
     },
     {
       "question": "How does the direction of force change between Side Control and North-South positions?",
-      "answer": "In Side Control, your pressure drives laterally across opponent's body from shoulder to hip. In North-South, the pressure drives vertically downward through your chest into their sternum. This perpendicular force direction compresses their rib cage and restricts breathing more effectively. The transition requires smoothly shifting from lateral to vertical pressure without creating gaps during the movement.",
-      "difficulty": "Advanced"
+      "answer": "In Side Control, your pressure drives laterally across opponent's body from shoulder to hip. In North-South, the pressure drives vertically downward through your chest into their sternum. This perpendicular force direction compresses their rib cage and restricts breathing more effectively. The transition requires smoothly shifting from lateral to vertical pressure without creating gaps during the movement."
     },
     {
       "question": "Your opponent begins turning to turtle as you initiate the transition - should you continue or abort?",
-      "answer": "Continue the transition but modify your objective. As they turn, accelerate your movement and transition past North-South directly to front headlock or turtle top position. Their turning motion actually assists your circular path around their head. Rather than fighting to keep them flat, use their movement to advance to a position where you threaten chokes or back takes from their turtle.",
-      "difficulty": "Advanced"
+      "answer": "Continue the transition but modify your objective. As they turn, accelerate your movement and transition past North-South directly to front headlock or turtle top position. Their turning motion actually assists your circular path around their head. Rather than fighting to keep them flat, use their movement to advance to a position where you threaten chokes or back takes from their turtle."
     }
   ],
   "safety_considerations": "The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you've transitioned to submission attempts from North-South.",
@@ -251,7 +225,7 @@
       "relationship": "Ending position - destination of this technique"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "Control refinement after transition"
     },
     {
@@ -290,5 +264,6 @@
       "name": "Reverse Kesa-Gatame",
       "relationship": "Alternative pinning angle from similar position"
     }
-  ]
+  ],
+  "success_rate": 78
 }

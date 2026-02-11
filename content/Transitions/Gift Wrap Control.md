@@ -157,7 +157,7 @@ The strategic value of the Gift Wrap lies in its dual function as both a control
 In competition and training contexts, the Gift Wrap serves as a transitional hub position. From here, you can advance to mount with virtually no resistance, take the back by rolling the opponent toward their trapped arm, or finish with collar chokes and arm attacks. Understanding when and how to establish this control—particularly reading the opponent's defensive arm positioning—separates intermediate practitioners from advanced ones who can systematically shut down escape attempts.
 
 **From Position**: [[Kuzure Kesa-Gatame/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Control far wrist**: While maintaining hip pressure, reach across with your near-side hand to grip opponent's far wrist. This initial control prevents them from framing against your hip or posting to bridge. (Timing: Execute when opponent's far arm relaxes or reaches toward you)
-2. **Pin elbow with chest**: Shift your chest weight onto opponent's far-side elbow, pinning it to the mat. This creates the mechanical leverage needed to thread their arm across their body without resistance. (Timing: Immediately after securing wrist grip)
-3. **Thread arm across throat**: Pull opponent's wrist toward their far shoulder while your chest pins their elbow. Their forearm should cross directly over their throat, with their elbow pointing toward their trapped-arm side. (Timing: Smooth continuous motion, no pausing)
-4. **Secure the wrap**: Release the wrist grip and reach under opponent's wrapped arm to grab your own bicep (or their far shoulder for deeper control). Your arm threads under their tricep, locking their arm in place. (Timing: Transition grip quickly to prevent arm recovery)
-5. **Consolidate head position**: Drive your head past opponent's far shoulder, placing your ear against the mat on their far side. This prevents them from turning into you and adds pressure to the wrapped arm configuration. (Timing: As you secure the wrap grip)
-6. **Tighten and settle**: Squeeze your elbows together to compress the wrap while resettling your hip pressure. The opponent should feel significant pressure across their throat from their own arm, plus restricted breathing from your hip. (Timing: Hold for 2-3 seconds to confirm control before transitioning)
+1. **Control far wrist**: While maintaining hip pressure, reach across with your near-side hand to grip opponent's far wrist. This initial control prevents them from framing against your hip or posting to bridge.
+2. **Pin elbow with chest**: Shift your chest weight onto opponent's far-side elbow, pinning it to the mat. This creates the mechanical leverage needed to thread their arm across their body without resistance.
+3. **Thread arm across throat**: Pull opponent's wrist toward their far shoulder while your chest pins their elbow. Their forearm should cross directly over their throat, with their elbow pointing toward their trapped-arm side.
+4. **Secure the wrap**: Release the wrist grip and reach under opponent's wrapped arm to grab your own bicep (or their far shoulder for deeper control). Your arm threads under their tricep, locking their arm in place.
+5. **Consolidate head position**: Drive your head past opponent's far shoulder, placing your ear against the mat on their far side. This prevents them from turning into you and adds pressure to the wrapped arm configuration.
+6. **Tighten and settle**: Squeeze your elbows together to compress the wrap while resettling your hip pressure. The opponent should feel significant pressure across their throat from their own arm, plus restricted breathing from your hip.
 
 
 </section>
@@ -257,19 +257,15 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the wrist control to wrap sequence with compliant partner. Focus on threading the arm smoothly across the throat and securing your grip on your own bicep. No escape attempts—pure repetition of movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Pressure maintenance
 Add light resistance where partner attempts to straighten arm or frame. Focus on maintaining hip pressure throughout wrap attempt. If pressure is lost, reset and restart rather than forcing completion.
-(Resistance: Light)
 
 **Week 5-6** - Timing and recognition
 Partner defends at 50% with realistic arm positioning. Practice recognizing when wrap is available versus when armbar or americana is better option. Chain between control attempts based on partner's defense.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full positional sparring starting from Kuzure Kesa-Gatame. Partner escapes with full resistance while you work to establish Gift Wrap. Track success rate and adjust technique based on common failure points.
-(Resistance: Full)
 
 
 

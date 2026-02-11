@@ -163,7 +163,7 @@ Strategically, the Toe Hold from Top fills a crucial gap in the Honey Hole attac
 The technique demands precise grip placement and controlled rotational force. Unlike heel hooks which attack primarily through rotational torque on the knee, the toe hold distributes force across the ankle, foot, and knee simultaneously. This makes it particularly effective against opponents who have conditioned themselves to defend rotational knee attacks but may underestimate the ankle threat. In competition, the toe hold from Honey Hole has become a staple of elite leg lockers who use it to create submission dilemmas that force opponents into impossible defensive choices.
 
 **From Position**: [[Honey Hole/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The technique demands precise grip placement and controlled rotational force. Un
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify heel defense**: Recognize that opponent has successfully hidden their heel by tucking their foot inward toward your hip or burying it in your armpit, making heel hook grip establishment impossible with current hand positioning (Timing: Immediately upon recognizing failed heel hook attempt)
-2. **Secure the foot**: With your outside hand (the one closest to opponent's toes), reach over the top of their foot and cup the ball of the foot with your palm wrapping around the lateral edge of the foot near the toes, fingers gripping the sole (Timing: Within 1-2 seconds of abandoning heel hook grip)
-3. **Establish kimura grip**: Thread your inside arm underneath their foot from the ankle side, then grip your own wrist with a figure-four configuration identical to a kimura grip, creating a closed-loop control system around the foot and ankle joint (Timing: Immediately after securing foot control)
-4. **Tighten leg triangle**: Before applying any rotational pressure, re-confirm your inside leg triangle is locked tight around their thigh and your outside leg is driving across their hip, preventing any rotation or hip movement that would dissipate the toe hold force (Timing: Brief positional check before applying pressure)
-5. **Pin elbow to hip**: Draw your elbows tight to your ribcage and pin the grip configuration against your torso, eliminating any slack in the system and ensuring that all rotational force transfers directly from your body mechanics through the grip into the foot (Timing: Immediately before initiating rotation)
-6. **Apply controlled rotation**: Rotate the foot inward toward opponent's centerline using your entire upper body, not just arm strength, twisting the foot medially while your hips drive forward to prevent their hip from following the rotation, creating progressive torque on the ankle and knee joint (Timing: Steady progressive pressure over 2-4 seconds)
-7. **Drive hips forward for finish**: Simultaneously drive your hips forward into opponent's trapped leg while maintaining the inward foot rotation, creating a compound force that attacks both the ankle through rotation and the knee through hyperextension, completing the submission (Timing: Final phase - stop immediately upon tap)
+1. **Identify heel defense**: Recognize that opponent has successfully hidden their heel by tucking their foot inward toward your hip or burying it in your armpit, making heel hook grip establishment impossible with current hand positioning
+2. **Secure the foot**: With your outside hand (the one closest to opponent's toes), reach over the top of their foot and cup the ball of the foot with your palm wrapping around the lateral edge of the foot near the toes, fingers gripping the sole
+3. **Establish kimura grip**: Thread your inside arm underneath their foot from the ankle side, then grip your own wrist with a figure-four configuration identical to a kimura grip, creating a closed-loop control system around the foot and ankle joint
+4. **Tighten leg triangle**: Before applying any rotational pressure, re-confirm your inside leg triangle is locked tight around their thigh and your outside leg is driving across their hip, preventing any rotation or hip movement that would dissipate the toe hold force
+5. **Pin elbow to hip**: Draw your elbows tight to your ribcage and pin the grip configuration against your torso, eliminating any slack in the system and ensuring that all rotational force transfers directly from your body mechanics through the grip into the foot
+6. **Apply controlled rotation**: Rotate the foot inward toward opponent's centerline using your entire upper body, not just arm strength, twisting the foot medially while your hips drive forward to prevent their hip from following the rotation, creating progressive torque on the ankle and knee joint
+7. **Drive hips forward for finish**: Simultaneously drive your hips forward into opponent's trapped leg while maintaining the inward foot rotation, creating a compound force that attacks both the ankle through rotation and the knee through hyperextension, completing the submission
 
 
 </section>
@@ -263,19 +263,15 @@ The technique demands precise grip placement and controlled rotational force. Un
 ## Training Progressions
 **Week 1-2** - Grip mechanics and foot positioning
 Practice the kimura grip configuration on a compliant partner's foot from established Honey Hole. Focus on correct hand placement cupping the ball of the foot, figure-four lock, and elbow-to-rib pinning. No rotation applied - just grip establishment 20-30 repetitions per session on each side.
-(Resistance: None)
 
 **Week 3-4** - Grip transition from heel hook to toe hold
 From Honey Hole with partner providing light resistance, practice the hand transition from heel hook hunting grip to toe hold kimura grip while maintaining triangle control. Partner hides heel on cue, you switch to toe hold. Apply gentle rotation to feel the mechanics. 15-20 transitions per round.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and submission dilemmas
 Practice heel hook to toe hold to heel hook chains with partner defending at medium resistance. When partner hides heel, transition to toe hold. When partner rotates to relieve toe hold, transition back to heel hook on exposed heel. Build the attack chain that creates defensive dilemmas.
-(Resistance: Medium)
 
 **Week 7-8** - Live positional sparring
 Full positional sparring starting from Honey Hole. Attempt toe hold when heel hook is defended, using all chain attacks available. Partner defends at full resistance. Track success rate and identify which defensive reactions you struggle to counter. Aim for 3-minute rounds with resets.
-(Resistance: Full)
 
 
 

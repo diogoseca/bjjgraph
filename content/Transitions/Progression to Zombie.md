@@ -157,7 +157,7 @@ Strategically, this transition exploits the opponent's compromised posture in Ne
 The biomechanical advantage of Zombie over New York lies in the increased leverage created by the higher leg position. By bringing the shin from across the back to wrapping around the shoulder and neck region, the bottom player gains mechanical advantage that makes posture recovery nearly impossible. This deeper control also opens direct pathways to high-percentage submissions including the gogoplata, omoplata, and various choke combinations that are less accessible from standard New York control.
 
 **From Position**: [[New York/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm control**: Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your shin-gripping hand has solid purchase near the ankle. Ensure opponent's posture remains broken before initiating transition. (Timing: 1-2 seconds)
-2. **Engage core**: Tighten your abdominal muscles and hip flexors to create a stable platform. This increased tension prevents the opponent from driving forward during the transition and maintains downward pressure on their upper body. (Timing: Simultaneous with step 3)
-3. **Initiate hip rotation**: Begin rotating your hips toward the overhook side while simultaneously pulling your knee toward your same-side shoulder. This rotation is the primary driver of leg elevation, not arm strength pulling the shin. (Timing: 2-3 seconds)
-4. **Guide shin higher**: Use your shin-gripping hand to guide your leg from across the opponent's back to around their shoulder. The shin should now wrap around the junction where neck meets shoulder, creating deeper control than standard New York. (Timing: 1-2 seconds)
-5. **Secure Zombie grip**: Once shin is positioned around the shoulder, adjust your grip to control the shin at this new angle. Your hand may need to shift position slightly to maintain control at the higher elevation while keeping pressure constant. (Timing: 1 second)
-6. **Consolidate position**: Pull opponent's head down with the overhook while using the new leg position to trap their shoulder completely. Adjust hip angle to load their weight onto the trapped arm side. Begin assessing submission and sweep opportunities. (Timing: 2-3 seconds)
+1. **Confirm control**: Verify your overhook depth is secure with shoulder tight against opponent's armpit. Check that your shin-gripping hand has solid purchase near the ankle. Ensure opponent's posture remains broken before initiating transition.
+2. **Engage core**: Tighten your abdominal muscles and hip flexors to create a stable platform. This increased tension prevents the opponent from driving forward during the transition and maintains downward pressure on their upper body.
+3. **Initiate hip rotation**: Begin rotating your hips toward the overhook side while simultaneously pulling your knee toward your same-side shoulder. This rotation is the primary driver of leg elevation, not arm strength pulling the shin.
+4. **Guide shin higher**: Use your shin-gripping hand to guide your leg from across the opponent's back to around their shoulder. The shin should now wrap around the junction where neck meets shoulder, creating deeper control than standard New York.
+5. **Secure Zombie grip**: Once shin is positioned around the shoulder, adjust your grip to control the shin at this new angle. Your hand may need to shift position slightly to maintain control at the higher elevation while keeping pressure constant.
+6. **Consolidate position**: Pull opponent's head down with the overhook while using the new leg position to trap their shoulder completely. Adjust hip angle to load their weight onto the trapped arm side. Begin assessing submission and sweep opportunities.
 
 
 </section>
@@ -256,19 +256,15 @@ The biomechanical advantage of Zombie over New York lies in the increased levera
 ## Training Progressions
 **Week 1-2** - Flexibility and position recognition
 Practice hip flexibility drills specifically targeting the range needed for Zombie position. Work static holds in New York, then Zombie, without opponent resistance. Focus on understanding the structural differences between positions and building comfort with high leg elevation.
-(Resistance: None)
 
 **Week 3-4** - Transition mechanics
 Practice the full transition sequence with compliant partner. Partner maintains New York position while you execute 20-30 repetitions per session. Focus on hip rotation as primary driver and maintaining overhook throughout. Partner provides feedback on pressure consistency.
-(Resistance: Light)
 
 **Week 5-6** - Timing and resistance
 Partner begins offering moderate defensive reactions during transition. Practice recognizing optimal timing windows when opponent adjusts position. Work counter-responses to common defenses. Build reaction speed and ability to abandon transition when countered.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate transition into positional sparring from closed guard and rubber guard positions. Track success rate and identify personal failure patterns. Work chains from Zombie to submissions. Practice recognizing when Zombie is appropriate versus other New York progressions.
-(Resistance: Full)
 
 
 

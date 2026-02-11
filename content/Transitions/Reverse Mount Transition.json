@@ -9,7 +9,7 @@
     "reverse-mount",
     "positional-advancement"
   ],
-  "from_position": "North South Control/Top",
+  "from_position": "North-South/Top",
   "outcomes": [
     {
       "to": "Reverse Mount",
@@ -17,7 +17,7 @@
       "result": "success"
     },
     {
-      "to": "North South Control",
+      "to": "North-South",
       "probability": 25,
       "result": "failure"
     },
@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Reverse Mount Transition is a strategic positional advancement that converts North-South control into reverse mount, positioning you facing your opponent's legs while seated on their torso. This transition creates immediate access to armbar attacks on both arms and offers superior control of the opponent's lower body movements compared to standard mount. The position is particularly valuable when the opponent defends North-South submissions effectively, as it shifts the attack angle entirely.\n\nFrom a tactical standpoint, reverse mount offers a unique combination of control and submission opportunity. Your weight pins the opponent's hips and lower torso while your legs frame against their head and shoulders, preventing the standard bridge-and-roll escapes that threaten regular mount. The position naturally isolates the opponent's arms, which must reach toward you to defend, creating immediate armbar entries on either side.\n\nThe transition requires precise weight management and timing. Moving from North-South chest pressure to a seated position creates a vulnerability window where the opponent can escape if the transition is executed poorly. Success depends on maintaining continuous pressure throughout the movement, securing hip control before releasing chest pressure, and establishing the mounted position before the opponent can create defensive frames or hip escape.",
   "key_principles": [
     "Maintain continuous pressure throughout the transition—never create space by lifting completely off the opponent",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Consolidate North-South",
-      "description": "Ensure your North-South control is fully established with heavy chest pressure on the opponent's sternum. Your hips should be near their head, your head near their hips, with a wide base from your knees. Secure control of at least one arm through underhook or wrist control.",
-      "timing": "Confirm stable position before initiating"
+      "description": "Ensure your North-South control is fully established with heavy chest pressure on the opponent's sternum. Your hips should be near their head, your head near their hips, with a wide base from your knees. Secure control of at least one arm through underhook or wrist control."
     },
     {
       "step_number": 2,
       "action": "Shift weight to hips",
-      "description": "Begin transferring your weight from your chest toward your hips by sliding your body toward the opponent's waist. Maintain downward pressure throughout this shift—do not lift up. Your chest slides across their torso as you move toward their hip line.",
-      "timing": "Smooth, continuous motion"
+      "description": "Begin transferring your weight from your chest toward your hips by sliding your body toward the opponent's waist. Maintain downward pressure throughout this shift—do not lift up. Your chest slides across their torso as you move toward their hip line."
     },
     {
       "step_number": 3,
       "action": "Establish hip control",
-      "description": "As your hips reach the opponent's waist level, begin bringing your legs around to frame against their shoulders and head. Your knees should pinch against their body while your feet hook near their armpits or shoulders to prevent them from sitting up.",
-      "timing": "Legs move as hips settle"
+      "description": "As your hips reach the opponent's waist level, begin bringing your legs around to frame against their shoulders and head. Your knees should pinch against their body while your feet hook near their armpits or shoulders to prevent them from sitting up."
     },
     {
       "step_number": 4,
       "action": "Complete the spin",
-      "description": "Execute a spinning motion to fully rotate your body 180 degrees from the original North-South orientation. Your seat should land on the opponent's lower abdomen or hip area. Keep your weight heavy throughout the rotation, never allowing space beneath you.",
-      "timing": "Single smooth rotation"
+      "description": "Execute a spinning motion to fully rotate your body 180 degrees from the original North-South orientation. Your seat should land on the opponent's lower abdomen or hip area. Keep your weight heavy throughout the rotation, never allowing space beneath you."
     },
     {
       "step_number": 5,
       "action": "Secure arm control",
-      "description": "Immediately upon achieving the seated reverse mount position, locate and control both of the opponent's arms. They will naturally reach toward you to create frames or attempt escapes—trap these arms by pinning them with your hands or legs to set up armbar attacks.",
-      "timing": "Immediate upon landing"
+      "description": "Immediately upon achieving the seated reverse mount position, locate and control both of the opponent's arms. They will naturally reach toward you to create frames or attempt escapes—trap these arms by pinning them with your hands or legs to set up armbar attacks."
     },
     {
       "step_number": 6,
       "action": "Establish final position",
-      "description": "Settle your weight low on the opponent's hips with your legs framing their upper body. Your posture should be slightly forward to prevent them from sitting up, with your hands controlling their wrists or elbows. From here, you can attack armbars on either arm or transition to other positions as needed.",
-      "timing": "Stabilize before attacking"
+      "description": "Settle your weight low on the opponent's hips with your legs framing their upper body. Your posture should be slightly forward to prevent them from sitting up, with your hands controlling their wrists or elbows. From here, you can attack armbars on either arm or transition to other positions as needed."
     }
   ],
   "common_counters": [
@@ -135,26 +124,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Movement mechanics",
-      "description": "Practice the spinning transition from North-South to reverse mount with a non-resisting partner. Focus on maintaining continuous pressure throughout the movement and landing in the correct position on the opponent's hips. Drill both directions of the spin.",
-      "resistance_level": "None"
+      "description": "Practice the spinning transition from North-South to reverse mount with a non-resisting partner. Focus on maintaining continuous pressure throughout the movement and landing in the correct position on the opponent's hips. Drill both directions of the spin."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and entry recognition",
-      "description": "Partner provides light defensive reactions during the transition. Practice recognizing when North-South control is sufficiently established to initiate the spin, and timing the transition to avoid bridge attempts.",
-      "resistance_level": "Light"
+      "description": "Partner provides light defensive reactions during the transition. Practice recognizing when North-South control is sufficiently established to initiate the spin, and timing the transition to avoid bridge attempts."
     },
     {
       "phase": "Week 5-6",
       "focus": "Submission combinations",
-      "description": "Chain the reverse mount transition into armbar attacks on both arms. Practice the full sequence from North-South through reverse mount to submission finish. Partner provides moderate resistance and defensive reactions.",
-      "resistance_level": "Medium"
+      "description": "Chain the reverse mount transition into armbar attacks on both arms. Practice the full sequence from North-South through reverse mount to submission finish. Partner provides moderate resistance and defensive reactions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live sparring integration",
-      "description": "Incorporate the transition into live rolling situations. Focus on recognizing opportunities from North-South when submissions are defended, and executing the transition under full resistance with follow-up attacks.",
-      "resistance_level": "Full"
+      "description": "Incorporate the transition into live rolling situations. Focus on recognizing opportunities from North-South when submissions are defended, and executing the transition under full resistance with follow-up attacks."
     }
   ],
   "variants_and_adaptations": [
@@ -177,60 +162,50 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Reverse Mount Transition?",
-      "answer": "The primary goal is to advance from North-South control to reverse mount, a position where you sit on the opponent's torso facing their legs. This provides immediate access to armbar attacks on both arms while maintaining superior hip control that prevents standard bridge-and-roll escapes.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to advance from North-South control to reverse mount, a position where you sit on the opponent's torso facing their legs. This provides immediate access to armbar attacks on both arms while maintaining superior hip control that prevents standard bridge-and-roll escapes."
     },
     {
       "question": "What position do you start the Reverse Mount Transition from?",
-      "answer": "This technique starts from North-South control with top position. You must have established chest pressure and a stable base before initiating the transition. At least one of the opponent's arms should be controlled or isolated.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from North-South control with top position. You must have established chest pressure and a stable base before initiating the transition. At least one of the opponent's arms should be controlled or isolated."
     },
     {
       "question": "What is the critical mechanical principle during the spinning motion?",
-      "answer": "The critical principle is maintaining continuous pressure throughout the transition without ever lifting off the opponent. Your weight should transfer from chest pressure to hip pressure as you spin, sliding across their body rather than creating space. Any lift allows the opponent to bridge, frame, or escape.",
-      "difficulty": "Intermediate"
+      "answer": "The critical principle is maintaining continuous pressure throughout the transition without ever lifting off the opponent. Your weight should transfer from chest pressure to hip pressure as you spin, sliding across their body rather than creating space. Any lift allows the opponent to bridge, frame, or escape."
     },
     {
       "question": "Where exactly should you land when completing the transition to reverse mount?",
-      "answer": "You should land on the opponent's lower abdomen or hip line, not high on their chest. Landing low provides stability against forward rolls where they could dump you over their head. Your legs frame against their shoulders and head while your weight pins their hips.",
-      "difficulty": "Intermediate"
+      "answer": "You should land on the opponent's lower abdomen or hip line, not high on their chest. Landing low provides stability against forward rolls where they could dump you over their head. Your legs frame against their shoulders and head while your weight pins their hips."
     },
     {
       "question": "Your opponent begins bridging as you initiate the spin—how do you respond?",
-      "answer": "Pause the transition immediately and re-consolidate your North-South control. Do not try to force through a bridge. Alternatively, if their bridge creates enough momentum, follow their movement and transition to standard mount instead of reverse mount, then return to North-South or attempt the reverse mount entry again when stable.",
-      "difficulty": "Intermediate"
+      "answer": "Pause the transition immediately and re-consolidate your North-South control. Do not try to force through a bridge. Alternatively, if their bridge creates enough momentum, follow their movement and transition to standard mount instead of reverse mount, then return to North-South or attempt the reverse mount entry again when stable."
     },
     {
       "question": "What are the key grips or control points needed before initiating the transition?",
-      "answer": "Before initiating, you need stable North-South chest pressure with a wide base from your knees. Control of at least one arm through underhook, overhook, or wrist control is essential to prevent immediate frames during the transition. If both arms are free and active, establish arm control first before attempting the spin.",
-      "difficulty": "Intermediate"
+      "answer": "Before initiating, you need stable North-South chest pressure with a wide base from your knees. Control of at least one arm through underhook, overhook, or wrist control is essential to prevent immediate frames during the transition. If both arms are free and active, establish arm control first before attempting the spin."
     },
     {
       "question": "How do you prevent the opponent from sitting up once you achieve reverse mount?",
-      "answer": "Keep your legs tight against their shoulders and head to create a frame that blocks their sit-up. Maintain a slight forward lean with your weight over your hips rather than leaning back. If they begin sitting up, use your hands to push their chest back down while keeping your leg frames active.",
-      "difficulty": "Advanced"
+      "answer": "Keep your legs tight against their shoulders and head to create a frame that blocks their sit-up. Maintain a slight forward lean with your weight over your hips rather than leaning back. If they begin sitting up, use your hands to push their chest back down while keeping your leg frames active."
     },
     {
       "question": "When is the best time to attempt the Reverse Mount Transition from North-South?",
-      "answer": "The best time is when the opponent has stopped actively defending North-South submissions like the kimura or North-South choke and is simply trying to survive the pressure. Also effective when they are exhausted from defending and their arms are weakened from frame attempts. The transition capitalizes on their passivity by changing the attack angle entirely.",
-      "difficulty": "Advanced"
+      "answer": "The best time is when the opponent has stopped actively defending North-South submissions like the kimura or North-South choke and is simply trying to survive the pressure. Also effective when they are exhausted from defending and their arms are weakened from frame attempts. The transition capitalizes on their passivity by changing the attack angle entirely."
     },
     {
       "question": "What are the primary submission options available immediately after achieving reverse mount?",
-      "answer": "The primary submissions are armbars on either arm—the opponent's arms naturally reach toward you to defend, creating immediate armbar opportunities. You can attack the near arm by falling to that side, or the far arm by transitioning across. Secondary options include transitioning to S-mount for belly-down armbar variations.",
-      "difficulty": "Intermediate"
+      "answer": "The primary submissions are armbars on either arm—the opponent's arms naturally reach toward you to defend, creating immediate armbar opportunities. You can attack the near arm by falling to that side, or the far arm by transitioning across. Secondary options include transitioning to S-mount for belly-down armbar variations."
     },
     {
       "question": "How do you counter an opponent who establishes strong frames against your hips during the transition?",
-      "answer": "Address frames before they become established by controlling arms prior to initiating the spin. During the transition, use your hands actively to strip frames by pinning their wrists or elbows to the mat as you move. If strong frames are already in place, abort the transition and return to North-South to re-establish control and isolate an arm before attempting again.",
-      "difficulty": "Advanced"
+      "answer": "Address frames before they become established by controlling arms prior to initiating the spin. During the transition, use your hands actively to strip frames by pinning their wrists or elbows to the mat as you move. If strong frames are already in place, abort the transition and return to North-South to re-establish control and isolate an arm before attempting again."
     }
   ],
   "safety_considerations": "The Reverse Mount Transition is generally low-risk for both practitioners when performed with control. The primary safety concern is ensuring the spinning motion is controlled to avoid accidentally striking the opponent with knees during the transition. When drilling, communicate with your partner about the pace of the spin. Once in reverse mount, be mindful that armbar attacks can develop quickly—maintain control and give partners time to tap. Avoid dropping your full weight suddenly when landing in the position, as this can wind an unprepared training partner.",
   "position_integration": "The Reverse Mount Transition expands your North-South attack options by providing an alternative when standard submissions like the kimura and North-South choke are well-defended. It creates a systematic flow from top control through positional advancement to submission. Reverse mount connects to the broader armbar system, offering entries to standard armbar, belly-down armbar via S-mount, and back-take opportunities if the opponent turns away. The transition also teaches essential concepts about maintaining pressure during positional changes—skills that transfer to all transitions from pinning positions. In a complete game, reverse mount serves as both a destination position for submission attacks and a waypoint for accessing mount, S-mount, or back control depending on opponent reactions.",
   "related_content": [
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "Starting position for this transition"
     },
     {
@@ -261,5 +236,6 @@
       "name": "Side Control to Mount",
       "relationship": "Related positional advancement technique"
     }
-  ]
+  ],
+  "success_rate": 58
 }

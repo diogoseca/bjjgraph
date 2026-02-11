@@ -153,7 +153,7 @@ description: "Master the Butterfly Guard to X-Guard transition in BJJ. Learn set
 The Butterfly Guard to X-Guard transition represents a fundamental evolution in modern guard play, connecting dynamic elevation mechanics with sophisticated off-balancing systems. This transition capitalizes on the opponent's forward pressure and posture, using butterfly hooks as launching mechanisms to establish the powerful X-Guard position. The technique exploits the natural reaction of opponents who base wide or post their weight forward while defending butterfly sweeps, creating the perfect opportunity to slide underneath and capture the standing leg. This transition is particularly effective against pressure passers who commit their weight forward, as their defensive posture naturally sets up the mechanics required for X-Guard entry. The movement requires precise timing, active hip mobility, and the ability to maintain connection throughout the transition, making it a cornerstone technique for guard players at all levels who want to develop a dynamic, flowing guard game.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Butterfly Guard to X-Guard transition represents a fundamental evolution in 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish butterfly control**: Begin in butterfly guard with both hooks actively engaged under opponent's thighs, feet pulling inward. Secure strong grips on opponent's sleeves or collar, maintaining one underhook when possible. Keep your hips active and mobile, shoulders off the mat, creating constant elevation threat that prevents opponent from settling their weight. (Timing: Initial setup phase)
-2. **Create elevation and forward pressure**: Lift forcefully with both butterfly hooks while pulling opponent's upper body forward with your grips. This creates the crucial off-balance moment where opponent must post their hands or feet to prevent being swept. Focus on making opponent's base widen and weight shift forward onto their posted leg, which becomes your target for X-Guard capture. (Timing: Explosive elevation moment)
-3. **Identify target leg and begin hip slide**: As opponent posts their leg forward to defend the sweep, immediately identify this as your target leg. Begin sliding your hips toward that side, angling your body to position yourself perpendicular to their leg. Release the butterfly hook on the opposite side while maintaining the hook on the target leg side to control their balance. (Timing: Immediate reaction to opponent's post)
-4. **Insert first X-Guard hook**: Slide your inside leg (the one on the same side as the target leg) across opponent's hip, hooking behind their near thigh with your instep. Your shin should be cutting across their hip line, foot pulling their leg toward you. This first hook begins establishing the X-Guard frame and prevents opponent from stepping back or clearing their leg. (Timing: Continuous motion from hip slide)
-5. **Complete X-Guard structure**: Thread your outside leg underneath opponent's target leg, placing your foot on their opposite hip with toes pointing away. Your inside leg hooks behind their near knee or upper thigh, creating the 'X' configuration. Both legs should be actively controlling - the top leg pushing away at the hip while the bottom leg pulls the knee toward you, creating opposing forces that off-balance opponent. (Timing: Secure completion)
-6. **Secure grips and establish control**: Adjust your upper body grips to control opponent's posture and prepare for sweeps. Common grip configurations include ankle and sleeve control, or pants and belt grips. Keep your hips active and mobile underneath opponent, constantly adjusting your angle and hook tension to prevent them from clearing the position or establishing a strong base. (Timing: Final positioning)
+1. **Establish butterfly control**: Begin in butterfly guard with both hooks actively engaged under opponent's thighs, feet pulling inward. Secure strong grips on opponent's sleeves or collar, maintaining one underhook when possible. Keep your hips active and mobile, shoulders off the mat, creating constant elevation threat that prevents opponent from settling their weight.
+2. **Create elevation and forward pressure**: Lift forcefully with both butterfly hooks while pulling opponent's upper body forward with your grips. This creates the crucial off-balance moment where opponent must post their hands or feet to prevent being swept. Focus on making opponent's base widen and weight shift forward onto their posted leg, which becomes your target for X-Guard capture.
+3. **Identify target leg and begin hip slide**: As opponent posts their leg forward to defend the sweep, immediately identify this as your target leg. Begin sliding your hips toward that side, angling your body to position yourself perpendicular to their leg. Release the butterfly hook on the opposite side while maintaining the hook on the target leg side to control their balance.
+4. **Insert first X-Guard hook**: Slide your inside leg (the one on the same side as the target leg) across opponent's hip, hooking behind their near thigh with your instep. Your shin should be cutting across their hip line, foot pulling their leg toward you. This first hook begins establishing the X-Guard frame and prevents opponent from stepping back or clearing their leg.
+5. **Complete X-Guard structure**: Thread your outside leg underneath opponent's target leg, placing your foot on their opposite hip with toes pointing away. Your inside leg hooks behind their near knee or upper thigh, creating the 'X' configuration. Both legs should be actively controlling - the top leg pushing away at the hip while the bottom leg pulls the knee toward you, creating opposing forces that off-balance opponent.
+6. **Secure grips and establish control**: Adjust your upper body grips to control opponent's posture and prepare for sweeps. Common grip configurations include ankle and sleeve control, or pants and belt grips. Keep your hips active and mobile underneath opponent, constantly adjusting your angle and hook tension to prevent them from clearing the position or establishing a strong base.
 
 
 </section>
@@ -253,23 +253,18 @@ The Butterfly Guard to X-Guard transition represents a fundamental evolution in 
 ## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Butterfly guard control and basic elevation principles
 Begin with stationary butterfly guard position drills, focusing on maintaining active hooks and elevation pressure. Practice the feeling of lifting opponent's weight while keeping your own hips mobile. Partner remains passive, allowing you to explore the mechanics of creating elevation and controlling posture from butterfly guard. Emphasis on developing comfortable, sustainable butterfly position.
-(Resistance: None)
 
 **Phase 2: Hip Sliding Mechanics (Weeks 3-4)** - Directional hip movement and angle creation
 Practice the hip slide motion independently, learning to move your hips underneath partner's posted leg. Partner maintains static forward position with one leg posted. Focus on sliding to the correct angle, positioning body perpendicular to target leg. Drill should develop smooth, continuous sliding motion without stopping or adjusting mid-movement. Add basic grip retention during hip slides.
-(Resistance: Light)
 
 **Phase 3: Hook Sequencing (Weeks 5-8)** - Proper hook placement and X-Guard completion
 Combine elevation, hip slide, and hook placement into flowing sequence. Partner provides light forward pressure and maintains posted position. Emphasis on maintaining one butterfly hook until first X-Guard hook is secure, then smoothly completing the X structure. Practice both sides equally to develop ambidextrous proficiency. Add grip adjustments and posture control as hooks are established.
-(Resistance: Medium)
 
 **Phase 4: Dynamic Integration (Weeks 9-12)** - Timing, reaction to resistance, and sweep follow-ups
 Partner now actively defends butterfly sweeps, creating realistic resistance and backward pressure. Practice recognizing the moment when opponent posts forward, immediately capitalizing with X-Guard transition. Include common defensive reactions like leg withdrawal and smash attempts. Begin chaining X-Guard sweeps immediately after transition. Develop ability to flow between butterfly and X-Guard based on opponent's reactions.
-(Resistance: Full)
 
 **Phase 5: Competition Application (Weeks 13+)** - Live sparring integration and system building
 Implement transition during positional sparring from butterfly guard. Partner uses full resistance and attempts to pass or counter. Focus on recognizing optimal moments for transition based on opponent's pressure patterns and grip fighting. Develop backup options when transition is defended, creating complete guard retention system. Track success rates and identify personal timing patterns.
-(Resistance: Full)
 
 
 

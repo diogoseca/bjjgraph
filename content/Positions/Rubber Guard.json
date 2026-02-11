@@ -273,21 +273,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Ability to maintain top position against Rubber Guard attacks improves significantly with system knowledge and defensive protocol understanding"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Likelihood of escaping to superior positions increases dramatically with proper defensive technique and recognition of submission threats"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 30,
-        "advanced": 15,
+        "value": 22,
         "description": "Risk of submission from Rubber Guard decreases substantially as practitioners learn systematic defensive responses and positional awareness"
       },
       "average_time": "60-120 seconds defensive time before achieving escape or succumbing to submission"
@@ -530,21 +524,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Ability to maintain Rubber Guard control against escape attempts varies significantly with flexibility and system knowledge"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Likelihood of advancing to superior positions or submissions increases dramatically with systematic understanding of progressions"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Submission success from Rubber Guard depends heavily on flexibility, technical precision, and opponent's familiarity with defense protocols"
       },
       "average_time": "45-90 seconds in active control before transition or submission attempt"

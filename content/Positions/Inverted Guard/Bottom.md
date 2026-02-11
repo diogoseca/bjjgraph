@@ -386,11 +386,11 @@ Focus specifically on berimbolo entries and rolling back takes from inverted gua
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 15% |
-| Intermediate | 50% | 50% | 30% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 5-15 seconds (transitional position)
 

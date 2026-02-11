@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Arm Extraction to Turtle is a critical defensive escape executed when caught in the Aoki Lock bottom position, where your opponent has secured leg entanglement control over your shoulder with omoplata-style pressure. This escape addresses one of the most dangerous submission control positions by systematically addressing the leg entanglement before extracting the trapped arm, ultimately recovering to turtle position where you can work toward guard recovery or standing.\n\nThe technique exploits a fundamental vulnerability in the Aoki Lock: the attacker must maintain both leg entanglement tightness and hip pressure simultaneously. By creating angles through hip movement and attacking the opponent's base stability, you generate windows where the leg entanglement loosens enough to permit arm extraction. The key insight is that you must address the leg control first rather than attempting to muscle your arm free against the entanglement.\n\nThis escape is essential for any practitioner facing advanced no-gi competitors who utilize leg entanglement shoulder locks. The turtle destination, while not ideal, represents a significant improvement from the submission danger of Aoki Lock bottom. From turtle, you have multiple recovery options including guard pull, stand-up, and rolling back attacks. Understanding proper execution prevents the catastrophic shoulder injuries that can result from defending this position incorrectly.",
   "key_principles": [
     "Address leg entanglement control before attempting arm extraction to avoid increased shoulder torque",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Assess pressure level",
-      "description": "Immediately evaluate the shoulder pressure and leg entanglement tightness. If pressure is approaching dangerous levels, tap rather than attempt extraction. Confirm your shoulder is internally rotated to resist external rotation stress from opponent's hip drive.",
-      "timing": "Within first 2-3 seconds of position establishment"
+      "description": "Immediately evaluate the shoulder pressure and leg entanglement tightness. If pressure is approaching dangerous levels, tap rather than attempt extraction. Confirm your shoulder is internally rotated to resist external rotation stress from opponent's hip drive."
     },
     {
       "step_number": 2,
       "action": "Attack posted leg",
-      "description": "Use your free hand to grip behind opponent's posted knee or attack their ankle. Push or pull their posted leg to destabilize their base and reduce the hip pressure they can generate. This creates the first opening in their control system.",
-      "timing": "Immediately after position assessment"
+      "description": "Use your free hand to grip behind opponent's posted knee or attack their ankle. Push or pull their posted leg to destabilize their base and reduce the hip pressure they can generate. This creates the first opening in their control system."
     },
     {
       "step_number": 3,
       "action": "Create hip angle",
-      "description": "Drive your hips away from opponent while maintaining shoulder internal rotation. This angular movement loosens the leg entanglement around your arm without fighting directly against the grip. Think of sliding your shoulder out of the leg triangle rather than pulling.",
-      "timing": "Coordinate with base attack in step 2"
+      "description": "Drive your hips away from opponent while maintaining shoulder internal rotation. This angular movement loosens the leg entanglement around your arm without fighting directly against the grip. Think of sliding your shoulder out of the leg triangle rather than pulling."
     },
     {
       "step_number": 4,
       "action": "Extract elbow first",
-      "description": "As the leg entanglement loosens, begin extracting your elbow by sliding it toward your hip. Keep your arm close to your body throughout extraction. Do not extend your arm outward as this creates leverage for opponent to re-establish control.",
-      "timing": "When leg pressure noticeably decreases"
+      "description": "As the leg entanglement loosens, begin extracting your elbow by sliding it toward your hip. Keep your arm close to your body throughout extraction. Do not extend your arm outward as this creates leverage for opponent to re-establish control."
     },
     {
       "step_number": 5,
       "action": "Complete arm extraction",
-      "description": "Continue sliding your arm free while simultaneously beginning to turtle. Pull your extracted arm tight to your chest and begin posting on your knees and opposite hand. Your shoulder should clear opponent's leg control completely before committing to turtle.",
-      "timing": "Continuous motion from step 4"
+      "description": "Continue sliding your arm free while simultaneously beginning to turtle. Pull your extracted arm tight to your chest and begin posting on your knees and opposite hand. Your shoulder should clear opponent's leg control completely before committing to turtle."
     },
     {
       "step_number": 6,
       "action": "Establish turtle position",
-      "description": "Complete the transition to turtle by posting on both knees with elbows tight to your body, chin tucked, and hips low. Immediately begin addressing opponent's potential back control attacks by protecting your neck and preparing for guard recovery or stand-up sequence.",
-      "timing": "Immediately upon arm clearing"
+      "description": "Complete the transition to turtle by posting on both knees with elbows tight to your body, chin tucked, and hips low. Immediately begin addressing opponent's potential back control attacks by protecting your neck and preparing for guard recovery or stand-up sequence."
     }
   ],
   "common_counters": [
@@ -146,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Extraction mechanics",
-      "description": "Partner establishes loose Aoki Lock control with minimal pressure. Practice hip angle creation, base attacks, and arm extraction pathway. Focus on keeping arm tight to body and maintaining shoulder internal rotation. No resistance on extraction.",
-      "resistance_level": "None"
+      "description": "Partner establishes loose Aoki Lock control with minimal pressure. Practice hip angle creation, base attacks, and arm extraction pathway. Focus on keeping arm tight to body and maintaining shoulder internal rotation. No resistance on extraction."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner applies 30-40% pressure and makes periodic adjustments. Practice recognizing extraction windows when leg entanglement loosens. Develop sensitivity to opponent's pressure changes. Begin chaining extraction with turtle establishment.",
-      "resistance_level": "Light"
+      "description": "Partner applies 30-40% pressure and makes periodic adjustments. Practice recognizing extraction windows when leg entanglement loosens. Develop sensitivity to opponent's pressure changes. Begin chaining extraction with turtle establishment."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner applies 50-60% pressure and actively attempts to prevent extraction through leg tightening and pressure increases. Practice aborting failed attempts and resetting. Develop ability to chain multiple extraction attempts with base attacks.",
-      "resistance_level": "Medium"
+      "description": "Partner applies 50-60% pressure and actively attempts to prevent extraction through leg tightening and pressure increases. Practice aborting failed attempts and resetting. Develop ability to chain multiple extraction attempts with base attacks."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Full positional sparring starting from Aoki Lock bottom. Partner works to finish submission while you work to extract. Integrate with full turtle recovery and subsequent guard pull or stand-up. Emphasis on safety and tap recognition.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring starting from Aoki Lock bottom. Partner works to finish submission while you work to extract. Integrate with full turtle recovery and subsequent guard pull or stand-up. Emphasis on safety and tap recognition."
     }
   ],
   "variants_and_adaptations": [
@@ -188,53 +173,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Arm Extraction to Turtle?",
-      "answer": "The primary goal is to escape the dangerous Aoki Lock submission threat by systematically freeing your trapped arm from opponent's leg entanglement and recovering to turtle position. While turtle is not an ideal position, it represents significant improvement from the immediate submission danger of Aoki Lock bottom, providing options for guard recovery or standing.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to escape the dangerous Aoki Lock submission threat by systematically freeing your trapped arm from opponent's leg entanglement and recovering to turtle position. While turtle is not an ideal position, it represents significant improvement from the immediate submission danger of Aoki Lock bottom, providing options for guard recovery or standing."
     },
     {
       "question": "Why must you address leg entanglement before attempting arm extraction?",
-      "answer": "Attempting to muscle your arm free against tight leg entanglement dramatically increases shoulder torque and injury risk while exhausting your energy. The leg control creates mechanical advantage that prevents extraction through strength alone. By loosening the entanglement first through hip angles and base attacks, you create windows where extraction becomes mechanically possible without dangerous joint stress.",
-      "difficulty": "Intermediate"
+      "answer": "Attempting to muscle your arm free against tight leg entanglement dramatically increases shoulder torque and injury risk while exhausting your energy. The leg control creates mechanical advantage that prevents extraction through strength alone. By loosening the entanglement first through hip angles and base attacks, you create windows where extraction becomes mechanically possible without dangerous joint stress."
     },
     {
       "question": "Your opponent tightens their leg entanglement as you begin extraction - how should you respond?",
-      "answer": "Stop the extraction attempt immediately and return to attacking their posted leg base. Do not force through tight entanglement as this causes shoulder injury. Wait for the next adjustment window when their leg control loosens, which often occurs as they reposition to address your base attacks. Patience and timing are essential.",
-      "difficulty": "Intermediate"
+      "answer": "Stop the extraction attempt immediately and return to attacking their posted leg base. Do not force through tight entanglement as this causes shoulder injury. Wait for the next adjustment window when their leg control loosens, which often occurs as they reposition to address your base attacks. Patience and timing are essential."
     },
     {
       "question": "What grip priorities should your free hand maintain during this escape?",
-      "answer": "Your free hand should focus offensively on attacking opponent's posted leg base by gripping behind their knee or attacking their ankle. This destabilizes their pressure generation platform. Do not use your free hand to grip your trapped arm attempting to pull it free, as this wastes energy and does not address the fundamental problem of leg entanglement.",
-      "difficulty": "Intermediate"
+      "answer": "Your free hand should focus offensively on attacking opponent's posted leg base by gripping behind their knee or attacking their ankle. This destabilizes their pressure generation platform. Do not use your free hand to grip your trapped arm attempting to pull it free, as this wastes energy and does not address the fundamental problem of leg entanglement."
     },
     {
       "question": "How should you position your arm during the extraction pathway?",
-      "answer": "Keep your elbow sliding tight along your ribcage toward your hip throughout extraction. Never extend your arm outward as this creates leverage for opponent to re-establish control. The arm should clear the leg entanglement by moving close to your body, essentially sliding out of the triangle rather than pulling against it.",
-      "difficulty": "Intermediate"
+      "answer": "Keep your elbow sliding tight along your ribcage toward your hip throughout extraction. Never extend your arm outward as this creates leverage for opponent to re-establish control. The arm should clear the leg entanglement by moving close to your body, essentially sliding out of the triangle rather than pulling against it."
     },
     {
       "question": "When should you tap rather than attempt extraction?",
-      "answer": "Tap immediately when shoulder pressure reaches discomfort threshold, when you cannot maintain shoulder internal rotation, when your arm is being extended against your resistance, or when opponent's pressure is increasing with no extraction window available. Shoulder injuries from Aoki Lock include rotator cuff tears, labrum damage, and dislocation. No escape attempt is worth permanent injury.",
-      "difficulty": "Advanced"
+      "answer": "Tap immediately when shoulder pressure reaches discomfort threshold, when you cannot maintain shoulder internal rotation, when your arm is being extended against your resistance, or when opponent's pressure is increasing with no extraction window available. Shoulder injuries from Aoki Lock include rotator cuff tears, labrum damage, and dislocation. No escape attempt is worth permanent injury."
     },
     {
       "question": "What is the optimal timing window for initiating extraction?",
-      "answer": "The optimal window occurs when opponent adjusts their position, repositions their posted leg, or releases leg entanglement pressure momentarily. These adjustment moments create brief loosening of the leg triangle around your arm. You can create these windows by attacking their base aggressively, forcing them to choose between maintaining leg control or maintaining base stability.",
-      "difficulty": "Advanced"
+      "answer": "The optimal window occurs when opponent adjusts their position, repositions their posted leg, or releases leg entanglement pressure momentarily. These adjustment moments create brief loosening of the leg triangle around your arm. You can create these windows by attacking their base aggressively, forcing them to choose between maintaining leg control or maintaining base stability."
     },
     {
       "question": "How does the rolling extraction variant differ from standard extraction?",
-      "answer": "Rolling extraction uses the momentum of rolling toward your trapped arm direction rather than hip escaping away. This converts opponent's forward pressure into escape energy, making it particularly effective when they commit heavily to hip drive. The roll follows the path of least resistance rather than fighting against their pressure vector, often surprising opponents who expect resistance-based escape.",
-      "difficulty": "Advanced"
+      "answer": "Rolling extraction uses the momentum of rolling toward your trapped arm direction rather than hip escaping away. This converts opponent's forward pressure into escape energy, making it particularly effective when they commit heavily to hip drive. The roll follows the path of least resistance rather than fighting against their pressure vector, often surprising opponents who expect resistance-based escape."
     },
     {
       "question": "What should you do immediately after completing arm extraction?",
-      "answer": "Establish turtle position immediately as continuous motion without pausing. Post on both knees with elbows tight, chin tucked, and hips low. Begin addressing opponent's back control threats immediately by protecting your neck and preparing guard recovery or stand-up. Any pause gives opponent time to transition to back control or re-establish shoulder lock from a new angle.",
-      "difficulty": "Intermediate"
+      "answer": "Establish turtle position immediately as continuous motion without pausing. Post on both knees with elbows tight, chin tucked, and hips low. Begin addressing opponent's back control threats immediately by protecting your neck and preparing guard recovery or stand-up. Any pause gives opponent time to transition to back control or re-establish shoulder lock from a new angle."
     },
     {
       "question": "Why is accepting back control exposure sometimes correct during this escape?",
-      "answer": "Back control exposure during extraction represents a significant positional improvement compared to Aoki Lock submission danger. While turtle with back exposure is not ideal, it provides defensive options that Aoki Lock bottom does not. You can address back control defense from turtle whereas continued Aoki Lock bottom leads to shoulder injury or submission. Accepting the lesser danger to escape the greater threat is strategically sound.",
-      "difficulty": "Advanced"
+      "answer": "Back control exposure during extraction represents a significant positional improvement compared to Aoki Lock submission danger. While turtle with back exposure is not ideal, it provides defensive options that Aoki Lock bottom does not. You can address back control defense from turtle whereas continued Aoki Lock bottom leads to shoulder injury or submission. Accepting the lesser danger to escape the greater threat is strategically sound."
     }
   ],
   "safety_considerations": "Arm Extraction to Turtle involves escaping from a position with significant shoulder injury potential. The Aoki Lock applies rotational stress to the shoulder capsule that can cause rotator cuff tears, labrum damage, and shoulder dislocation if defended improperly. Always maintain shoulder internal rotation throughout the escape to protect joint integrity. Never attempt to muscle through tight leg entanglement, as this dramatically increases injury risk. Tap immediately if pressure reaches dangerous levels - no training escape is worth permanent shoulder damage. When drilling, partners should apply progressive pressure slowly and release immediately upon any tap signal. Avoid this escape attempt if you have pre-existing shoulder injuries or reduced shoulder mobility. In competition, prioritize safety over position - accepting a submission loss is preferable to career-ending shoulder injury.",
@@ -272,5 +247,6 @@
       "name": "Granby Roll Escape",
       "relationship": "Alternative technique - different rolling escape pathway"
     }
-  ]
+  ],
+  "success_rate": 58
 }

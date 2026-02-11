@@ -219,7 +219,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 - **[[Front Headlock]]** - Primary entry position for Hindulotine setup
 
-- **[[D'arce Control]]** - Alternative finish when opponent creates near-side space
+- **[[Darce Control]]** - Alternative finish when opponent creates near-side space
 
 - **[[Anaconda Control]]** - Alternative finish when opponent creates defensive frames
 

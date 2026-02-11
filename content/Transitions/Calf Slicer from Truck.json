@@ -30,11 +30,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Calf Slicer from Truck is a devastating compression submission that attacks the opponent's trapped leg while maintaining the truck position's back-exposure control. This technique exploits the inherent leg entanglement of the truck by wedging your shin across the back of their calf while extending their leg, creating intense pressure on the soft tissue and threatening the knee joint.\n\nThe submission works within the truck's dilemma system: when opponents defend upper body attacks like the twister by protecting their neck and hiding their arms, they often neglect their lower body. The calf slicer capitalizes on this defensive gap. The trapped leg configuration that makes the truck powerful for control also creates the perfect setup for this compression attack.\n\nStrategically, the calf slicer serves multiple purposes. As a standalone finish, it generates rapid tap-outs due to the pain and knee threat. As a positional tool, threatening the calf slicer forces opponents to address their leg position, which often opens up twister entries or back control transitions. Advanced practitioners use the calf slicer threat to manipulate opponent reactions rather than always seeking the finish itself.",
   "key_principles": [
     "Maintain boot pressure on opponent's hip throughout the submission setup to prevent escape and maintain torque",
@@ -57,38 +52,32 @@
     {
       "step_number": 1,
       "action": "Confirm truck control",
-      "description": "Verify boot pressure is solid against opponent's hip and leg entanglement is secure. Your shin should be positioned behind their trapped leg's calf muscle. Maintain upper body connection to prevent rolling escapes.",
-      "timing": "Before initiating submission sequence"
+      "description": "Verify boot pressure is solid against opponent's hip and leg entanglement is secure. Your shin should be positioned behind their trapped leg's calf muscle. Maintain upper body connection to prevent rolling escapes."
     },
     {
       "step_number": 2,
       "action": "Control ankle and foot",
-      "description": "Secure grip on opponent's ankle or foot with your hands, preventing them from bending their knee to escape the compression. Cup their heel or grip the ankle joint directly for maximum control over leg extension.",
-      "timing": "Immediately upon deciding to attack calf slicer"
+      "description": "Secure grip on opponent's ankle or foot with your hands, preventing them from bending their knee to escape the compression. Cup their heel or grip the ankle joint directly for maximum control over leg extension."
     },
     {
       "step_number": 3,
       "action": "Position shin across calf",
-      "description": "Ensure your shin bone is wedged directly across the back of their calf muscle, perpendicular to their leg. The bony edge of your shin should press into the soft tissue of their calf, not against their Achilles or behind the knee.",
-      "timing": "While maintaining foot control"
+      "description": "Ensure your shin bone is wedged directly across the back of their calf muscle, perpendicular to their leg. The bony edge of your shin should press into the soft tissue of their calf, not against their Achilles or behind the knee."
     },
     {
       "step_number": 4,
       "action": "Begin leg extension",
-      "description": "Start extending their trapped leg by pushing their foot away from their buttocks while simultaneously pulling their ankle toward you. Use hip movement and leg drive rather than arm strength to generate the extension force.",
-      "timing": "Controlled, gradual application"
+      "description": "Start extending their trapped leg by pushing their foot away from their buttocks while simultaneously pulling their ankle toward you. Use hip movement and leg drive rather than arm strength to generate the extension force."
     },
     {
       "step_number": 5,
       "action": "Drive hips forward",
-      "description": "Push your hips forward and extend your body to amplify the compression pressure on their calf. Your hip drive creates a scissoring action between your shin and the ground, dramatically increasing submission pressure.",
-      "timing": "As extension reaches moderate resistance"
+      "description": "Push your hips forward and extend your body to amplify the compression pressure on their calf. Your hip drive creates a scissoring action between your shin and the ground, dramatically increasing submission pressure."
     },
     {
       "step_number": 6,
       "action": "Finish or transition",
-      "description": "Continue extending and driving until opponent taps or submission pressure is maximized. If opponent successfully defends by bending knee or extracting leg, immediately transition to twister setup, banana split, or back control rather than forcing the finish.",
-      "timing": "Upon achieving full extension or recognizing defensive success"
+      "description": "Continue extending and driving until opponent taps or submission pressure is maximized. If opponent successfully defends by bending knee or extracting leg, immediately transition to twister setup, banana split, or back control rather than forcing the finish."
     }
   ],
   "common_counters": [
@@ -154,26 +143,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics and positioning",
-      "description": "Learn proper shin placement across calf muscle, ankle control grips, and body positioning for extension. Practice on non-resisting partner, focusing on finding the correct compression angle and understanding pressure generation through hip drive.",
-      "resistance_level": "None"
+      "description": "Learn proper shin placement across calf muscle, ankle control grips, and body positioning for extension. Practice on non-resisting partner, focusing on finding the correct compression angle and understanding pressure generation through hip drive."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and entry recognition",
-      "description": "Practice recognizing when opponent defends upper body (twister), creating calf slicer opportunity. Partner provides light resistance and specific defensive reactions. Develop sensitivity to when calf slicer is available versus when other attacks are better options.",
-      "resistance_level": "Light"
+      "description": "Practice recognizing when opponent defends upper body (twister), creating calf slicer opportunity. Partner provides light resistance and specific defensive reactions. Develop sensitivity to when calf slicer is available versus when other attacks are better options."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks and transitions",
-      "description": "Integrate calf slicer into truck submission system, flowing between twister threat, calf slicer, banana split, and back control based on partner's defensive reactions. Practice abandoning calf slicer when defended and transitioning to alternative attacks.",
-      "resistance_level": "Medium"
+      "description": "Integrate calf slicer into truck submission system, flowing between twister threat, calf slicer, banana split, and back control based on partner's defensive reactions. Practice abandoning calf slicer when defended and transitioning to alternative attacks."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and competition scenarios",
-      "description": "Apply calf slicer in positional sparring from truck position against fully resisting partners. Develop finishing ability under pressure while maintaining safety awareness. Refine timing of attack initiation and transition decisions.",
-      "resistance_level": "Full"
+      "description": "Apply calf slicer in positional sparring from truck position against fully resisting partners. Develop finishing ability under pressure while maintaining safety awareness. Refine timing of attack initiation and transition decisions."
     }
   ],
   "variants_and_adaptations": [
@@ -196,53 +181,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Calf Slicer from Truck?",
-      "answer": "The primary goal is to compress the opponent's calf muscle between your shin bone and their thigh bone by extending their trapped leg, creating intense pain and threatening the knee joint. This forces a tap from the compression pressure on soft tissue and the danger of knee hyperextension if they refuse to submit.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to compress the opponent's calf muscle between your shin bone and their thigh bone by extending their trapped leg, creating intense pain and threatening the knee joint. This forces a tap from the compression pressure on soft tissue and the danger of knee hyperextension if they refuse to submit."
     },
     {
       "question": "Where exactly should your shin be positioned for maximum calf slicer effectiveness?",
-      "answer": "Your shin should be positioned perpendicular across the thickest part of the opponent's calf muscle belly, with the bony edge of your shin pressing into the soft tissue. Avoid positioning against the ankle (too low) or behind the knee (too high). The meaty center of the calf provides optimal compression surface.",
-      "difficulty": "Beginner"
+      "answer": "Your shin should be positioned perpendicular across the thickest part of the opponent's calf muscle belly, with the bony edge of your shin pressing into the soft tissue. Avoid positioning against the ankle (too low) or behind the knee (too high). The meaty center of the calf provides optimal compression surface."
     },
     {
       "question": "What are the key grips needed for executing the Calf Slicer from Truck?",
-      "answer": "The essential grips include: controlling the opponent's ankle or foot with your hands to prevent knee bending, maintaining boot pressure on their hip with your foot, and keeping upper body connection through your arm or shoulder across their back. The ankle grip prevents their primary defense (knee bend) while other controls maintain truck position.",
-      "difficulty": "Intermediate"
+      "answer": "The essential grips include: controlling the opponent's ankle or foot with your hands to prevent knee bending, maintaining boot pressure on their hip with your foot, and keeping upper body connection through your arm or shoulder across their back. The ankle grip prevents their primary defense (knee bend) while other controls maintain truck position."
     },
     {
       "question": "Your opponent bends their knee sharply to defend the calf slicer - how do you adjust?",
-      "answer": "When opponent successfully bends their knee, immediately transition to alternative attacks rather than forcing the defended calf slicer. Options include: grabbing their other leg for banana split attack, releasing leg control to secure their far arm for twister, or transitioning to traditional back control. Their defensive movement often creates openings for other attacks in the truck system.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent successfully bends their knee, immediately transition to alternative attacks rather than forcing the defended calf slicer. Options include: grabbing their other leg for banana split attack, releasing leg control to secure their far arm for twister, or transitioning to traditional back control. Their defensive movement often creates openings for other attacks in the truck system."
     },
     {
       "question": "How do you generate sufficient extension force for the calf slicer finish?",
-      "answer": "Extension force should come primarily from hip drive and body positioning rather than arm strength alone. Push your hips forward while extending your body to create a scissoring action. Your arms control the direction of their foot while your hips and legs provide the power. This approach generates sustainable pressure without rapid forearm fatigue.",
-      "difficulty": "Intermediate"
+      "answer": "Extension force should come primarily from hip drive and body positioning rather than arm strength alone. Push your hips forward while extending your body to create a scissoring action. Your arms control the direction of their foot while your hips and legs provide the power. This approach generates sustainable pressure without rapid forearm fatigue."
     },
     {
       "question": "When is the optimal timing window to attack the calf slicer from truck position?",
-      "answer": "The optimal timing is when opponent commits to defending upper body attacks (twister) by hiding their arms and protecting their neck. This defensive focus on the upper body leaves their trapped leg vulnerable. Also attack when you've just established strong boot pressure and they haven't yet begun systematic escape, giving you time to set up the compression correctly.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is when opponent commits to defending upper body attacks (twister) by hiding their arms and protecting their neck. This defensive focus on the upper body leaves their trapped leg vulnerable. Also attack when you've just established strong boot pressure and they haven't yet begun systematic escape, giving you time to set up the compression correctly."
     },
     {
       "question": "How do you prevent your opponent from rolling forward to escape during the calf slicer attempt?",
-      "answer": "Maintain upper body connection through shoulder or chest pressure against their back throughout the submission attempt. If they initiate a forward roll, follow with your upper body control while maintaining boot pressure. Their roll often exposes their back more completely, allowing transition to traditional back control with hooks as a better outcome than forcing the now-defended calf slicer.",
-      "difficulty": "Advanced"
+      "answer": "Maintain upper body connection through shoulder or chest pressure against their back throughout the submission attempt. If they initiate a forward roll, follow with your upper body control while maintaining boot pressure. Their roll often exposes their back more completely, allowing transition to traditional back control with hooks as a better outcome than forcing the now-defended calf slicer."
     },
     {
       "question": "What safety considerations are critical when applying the calf slicer?",
-      "answer": "Apply pressure gradually rather than explosively to give training partners time to tap. The calf slicer threatens the knee joint through hyperextension, which can cause serious ligament damage without warning. In training, establish the position fully before adding significant pressure, and release immediately upon tap. Competition application can be faster but training should always prioritize partner safety.",
-      "difficulty": "Beginner"
+      "answer": "Apply pressure gradually rather than explosively to give training partners time to tap. The calf slicer threatens the knee joint through hyperextension, which can cause serious ligament damage without warning. In training, establish the position fully before adding significant pressure, and release immediately upon tap. Competition application can be faster but training should always prioritize partner safety."
     },
     {
       "question": "How does the calf slicer fit into the truck position's submission system?",
-      "answer": "The calf slicer is part of the truck's upper-lower body dilemma system. When opponents defend the twister by protecting their neck and hiding arms, the calf slicer attacks their neglected lower body. When they defend the calf slicer by using their hands to prevent leg extension, they expose their upper body for twister or back control. This creates a systematic attack flow rather than isolated submission attempts.",
-      "difficulty": "Advanced"
+      "answer": "The calf slicer is part of the truck's upper-lower body dilemma system. When opponents defend the twister by protecting their neck and hiding arms, the calf slicer attacks their neglected lower body. When they defend the calf slicer by using their hands to prevent leg extension, they expose their upper body for twister or back control. This creates a systematic attack flow rather than isolated submission attempts."
     },
     {
       "question": "What determines whether you should finish the calf slicer or transition to another attack?",
-      "answer": "Finish the calf slicer when your shin is properly positioned across their calf, you control their ankle preventing knee bend, and they haven't established effective defense. Transition when they successfully bend their knee, begin extracting their leg, or when your boot pressure is compromised. The calf slicer threat is also valuable as a positional tool to create reactions exploitable by other attacks.",
-      "difficulty": "Advanced"
+      "answer": "Finish the calf slicer when your shin is properly positioned across their calf, you control their ankle preventing knee bend, and they haven't established effective defense. Transition when they successfully bend their knee, begin extracting their leg, or when your boot pressure is compromised. The calf slicer threat is also valuable as a positional tool to create reactions exploitable by other attacks."
     }
   ],
   "safety_considerations": "The Calf Slicer from Truck requires careful attention to training safety due to the knee joint threat involved in the technique. The compression against the calf combined with leg extension creates hyperextension pressure on the knee that can damage ligaments (particularly the MCL and meniscus) with little warning. Always apply the submission gradually, establishing position before adding pressure, and release immediately upon tap. Training partners should tap early when they feel significant knee pressure rather than testing their pain tolerance. Avoid this technique entirely on training partners with known knee injuries or those recovering from knee surgery. In competition, be prepared for opponents who don't tap early and apply the finish with controlled acceleration rather than explosive force. The calf compression itself is painful but generally safe; the knee threat is the primary injury concern requiring careful management.",
@@ -296,5 +271,6 @@
       "name": "Electric Chair",
       "relationship": "Related attack - similar leg control principles"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -21,37 +21,37 @@ description: "Master front headlock control in BJJ. Complete offensive system fo
     {
       "@type": "HowToStep",
       "name": "Execute Guillotine Setup",
-      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Anaconda Setup",
-      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Anaconda Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Darce Setup",
-      "text": "From this position, attempt Darce Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Darce Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Back",
-      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Buggy Choke to Side Control",
-      "text": "From this position, attempt Buggy Choke to Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Buggy Choke to Side Control. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,29 @@ Mastering front headlock top requires understanding both the technical details o
 
 ## Available Attacks
 
-### [[Guillotine Setup]] (12% of attempts)
+### [[Guillotine Setup]] (9% of attempts)
 
-### [[Anaconda Setup]] (12% of attempts)
+### [[Anaconda Setup]] (9% of attempts)
 
-### [[Darce Setup]] (12% of attempts)
+### [[Darce Setup]] (9% of attempts)
 
-### [[Front Headlock to Back]] (12% of attempts)
+### [[Front Headlock to Back]] (9% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Side Control to Mount]] (8% of attempts)
 
-### [[Buggy Choke to Side Control]] (12% of attempts)
+### [[Buggy Choke to Side Control]] (9% of attempts)
 
-### [[Aoki Lock to Crucifix]] (9% of attempts)
+### [[Aoki Lock to Crucifix]] (7% of attempts)
 
-### [[Front Headlock Series Transition]] (10% of attempts)
+### [[Front Headlock Series Transition]] (8% of attempts)
 
-### [[Arm Triangle from Front Headlock]] (10% of attempts)
+### [[Arm Triangle from Front Headlock]] (8% of attempts)
+
+### [[Guillotine Defense]] (8% of attempts)
+
+### [[Japanese Necktie Setup]] (8% of attempts)
+
+### [[Peruvian Necktie Setup]] (8% of attempts)
 
 
 
@@ -240,7 +246,7 @@ Mastering front headlock top requires understanding both the technical details o
 
 **If opponent keeps head low and stays tight in turtle with arms protected:**
 - Execute **[[Anaconda Setup]]** → [[Anaconda Control]] (Probability: 60%)
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 55%)
+- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 55%)
 - Execute **[[Force Flatten to Side Control]]** → [[Side Control]] (Probability: 50%)
 
 
@@ -392,11 +398,11 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 50% | 35% |
-| Intermediate | 70% | 65% | 50% |
-| Advanced     | 85% | 80% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 58% |
 
 **Average Time in Position**: 30-90 seconds (position to submission or transition)
 
@@ -410,7 +416,7 @@ Establish front headlock, partner attempts to circle away to escape. You practic
 - **[[Turtle]]** - Primary attack target - front headlock is main offensive position against turtle
 - **[[Guillotine Control]]** - Primary submission option - front headlock naturally transitions to guillotine
 - **[[Anaconda Control]]** - Arm-in submission option - front headlock converts to anaconda with arm trap
-- **[[D'arce Control]]** - Arm-in submission option - front headlock converts to darce with underhook
+- **[[Darce Control]]** - Arm-in submission option - front headlock converts to darce with underhook
 - **[[Back Control]]** - Positional advancement - front headlock transitions to back when opponent circles
 - **[[Front Headlock Series Transition]]** - Complete systematic approach to front headlock attacks and transitions
 - **[[Snap Down to Front Headlock]]** - Primary entry method from standing - snap opponent's head down to establish control

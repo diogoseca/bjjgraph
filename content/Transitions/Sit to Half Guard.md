@@ -163,7 +163,7 @@ This escape operates on the principle that Half Guard, while still a bottom posi
 Strategically, this technique is most valuable when grip prevention has failed and the opponent has begun establishing deep collar access. Rather than continuing a losing grip fight from turtle, the proactive sit creates immediate positional change that forces the top player to abandon their choking mechanics and address the new guard configuration. The timing window is critical—execute too early and you create unnecessary back exposure, too late and the choke is already locked.
 
 **From Position**: [[Buggy Choke/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, this technique is most valuable when grip prevention has failed a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess and commit**: Recognize that continued turtle defense is failing as opponent establishes deep collar access. Make the mental commitment to execute the full sitting motion without hesitation or partial attempts. (Timing: Before choke is fully locked)
-2. **Post and prepare**: Plant your near hand firmly on the mat beside your hip with fingers pointing toward your feet. This post will guide and support the sitting motion while creating the pivot point for hip rotation. (Timing: Immediately after commitment)
-3. **Drop hip to mat**: Drop your near hip to the mat explosively while simultaneously driving your far hip under your body toward the posting hand. This creates the sitting base while displacing opponent's perpendicular pressure angle. (Timing: Explosive, 0.5 seconds)
-4. **Insert knee shield**: As your hip contacts the mat, immediately insert your inside knee across opponent's torso with shin angled to create the shield frame. This prevents them from immediately consolidating side control or mount. (Timing: Simultaneous with hip landing)
-5. **Hook far leg**: Reach your outside leg to hook opponent's far leg at the knee or thigh, establishing the Half Guard entanglement that prevents them from simply stepping over your guard recovery attempt. (Timing: Within 1 second of knee shield)
-6. **Face and frame**: Turn your upper body to face opponent squarely while establishing defensive frames with your arms. Create an underhook with your near arm if possible, or establish collar and sleeve control to complete Half Guard structure. (Timing: Completing the transition)
-7. **Consolidate position**: Adjust hip angle to create proper Half Guard positioning with your head toward opponent's trapped leg side. Establish your preferred Half Guard variation (knee shield, lockdown, or underhook) based on opponent's reactions. (Timing: 2-3 seconds to stabilize)
+1. **Assess and commit**: Recognize that continued turtle defense is failing as opponent establishes deep collar access. Make the mental commitment to execute the full sitting motion without hesitation or partial attempts.
+2. **Post and prepare**: Plant your near hand firmly on the mat beside your hip with fingers pointing toward your feet. This post will guide and support the sitting motion while creating the pivot point for hip rotation.
+3. **Drop hip to mat**: Drop your near hip to the mat explosively while simultaneously driving your far hip under your body toward the posting hand. This creates the sitting base while displacing opponent's perpendicular pressure angle.
+4. **Insert knee shield**: As your hip contacts the mat, immediately insert your inside knee across opponent's torso with shin angled to create the shield frame. This prevents them from immediately consolidating side control or mount.
+5. **Hook far leg**: Reach your outside leg to hook opponent's far leg at the knee or thigh, establishing the Half Guard entanglement that prevents them from simply stepping over your guard recovery attempt.
+6. **Face and frame**: Turn your upper body to face opponent squarely while establishing defensive frames with your arms. Create an underhook with your near arm if possible, or establish collar and sleeve control to complete Half Guard structure.
+7. **Consolidate position**: Adjust hip angle to create proper Half Guard positioning with your head toward opponent's trapped leg side. Establish your preferred Half Guard variation (knee shield, lockdown, or underhook) based on opponent's reactions.
 
 
 </section>
@@ -263,19 +263,15 @@ Strategically, this technique is most valuable when grip prevention has failed a
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the sitting motion from turtle without resistance, focusing on hip drop timing, knee shield insertion, and far leg hook. Partner provides static buggy choke position without resistance. Repeat 20-30 times per session until movement becomes fluid.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies buggy choke grips with light resistance. Practice recognizing the optimal timing window for the sit—after grip establishment but before full body pressure. Partner varies timing of pressure application to build recognition skills.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner follows the sit with realistic counters: back take attempts, collar grip maintenance, sprawling. Practice immediate responses to each counter while maintaining escape commitment. Focus on completing to Half Guard despite resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from buggy choke position. Top player works to finish choke or take back; bottom player works to recover Half Guard. Full resistance with reset after position change or submission. Track success rate to measure progression.
-(Resistance: Full)
 
 
 

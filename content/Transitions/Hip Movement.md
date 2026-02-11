@@ -157,7 +157,7 @@ The mechanics of hip movement escape rely on understanding how the anaconda chok
 This technique represents one of the primary escape options from anaconda control and should be drilled extensively as part of any comprehensive front headlock defense system. The escape works in both gi and no-gi contexts, though timing and grip fighting details may vary. Success depends on early recognition of the anaconda threat, immediate defensive hand positioning, and explosive hip movement before the position becomes fully locked.
 
 **From Position**: [[Anaconda Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This technique represents one of the primary escape options from anaconda contro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure defensive hand position**: Immediately grip opponent's choking wrist or forearm with your free hand, pulling it away from your neck to create initial space and prevent the choke from tightening further (Timing: Within first 2 seconds of control being established)
-2. **Tuck chin and turn head**: Tuck your chin tightly toward your free-side shoulder, rotating your head to present the smallest possible choking surface and protect the carotid arteries from compression (Timing: Simultaneous with hand fighting)
-3. **Plant posting foot**: Bring your free-side foot up with knee bent and foot flat on the mat, positioning it to generate explosive hip movement away from the opponent's chest pressure (Timing: Immediately after establishing defensive posture)
-4. **Execute hip escape**: Drive off your posting foot to explosively move your hips away from opponent's chest, creating distance and changing the angle of their pressure while maintaining grip fight at the neck (Timing: When opponent shifts weight or adjusts grip)
-5. **Create secondary escape angle**: Perform a second hip escape in the same direction to further increase distance, using the momentum to either begin extracting your head or transitioning toward turtle position (Timing: Immediately following first hip escape)
-6. **Extract head or transition**: Either pull your head free through the space created by combining hip movement and grip fighting, or complete the transition to turtle by turning your back and recovering base (Timing: When sufficient space exists at neck)
+1. **Secure defensive hand position**: Immediately grip opponent's choking wrist or forearm with your free hand, pulling it away from your neck to create initial space and prevent the choke from tightening further
+2. **Tuck chin and turn head**: Tuck your chin tightly toward your free-side shoulder, rotating your head to present the smallest possible choking surface and protect the carotid arteries from compression
+3. **Plant posting foot**: Bring your free-side foot up with knee bent and foot flat on the mat, positioning it to generate explosive hip movement away from the opponent's chest pressure
+4. **Execute hip escape**: Drive off your posting foot to explosively move your hips away from opponent's chest, creating distance and changing the angle of their pressure while maintaining grip fight at the neck
+5. **Create secondary escape angle**: Perform a second hip escape in the same direction to further increase distance, using the momentum to either begin extracting your head or transitioning toward turtle position
+6. **Extract head or transition**: Either pull your head free through the space created by combining hip movement and grip fighting, or complete the transition to turtle by turning your back and recovering base
 
 
 </section>
@@ -253,19 +253,15 @@ This technique represents one of the primary escape options from anaconda contro
 ## Training Progressions
 **Week 1-2** - Hip escape mechanics
 Practice hip escape movement pattern without opponent resistance. Focus on proper foot placement, hip displacement direction, and maintaining chin tuck throughout movement. Drill solo hip escapes focusing on distance generation.
-(Resistance: None)
 
 **Week 3-4** - Grip fighting integration
 Add light resistance with partner holding anaconda grip. Practice coordinating defensive hand position with hip movement, developing timing for when to explode versus when to maintain space. Partner provides minimal chase.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively attempts to follow hip escapes and transition between anaconda, darce, and guillotine threats. Practice recognizing which submission they're transitioning to and adjusting escape direction accordingly.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from anaconda control. Bottom player works to escape, top player works to finish. Track success rate and identify patterns in successful escapes versus submissions.
-(Resistance: Full)
 
 
 
@@ -347,7 +343,7 @@ Hip Movement from Anaconda Control is a foundational defensive technique within 
 - [[Half Guard]] - Alternative escape destination - guard recovery option after creating space
 - [[Front Headlock]] - Related position - hip movement principles apply to broader front headlock escape system
 - [[Anaconda Choke]] - Submission being defended - understanding the finish helps with defensive timing
-- [[D'arce Control]] - Related threat - opponent may transition to darce during escape attempt
+- [[Darce Control]] - Related threat - opponent may transition to darce during escape attempt
 - [[Granby Roll to Guard]] - Follow-up option - can chain granby roll from hip escape momentum
 
 

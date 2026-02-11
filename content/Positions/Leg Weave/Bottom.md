@@ -363,11 +363,11 @@ Top player alternates between forward pressure and backward weight shifts. Botto
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 15% | 5% |
-| Intermediate | 35% | 30% | 10% |
-| Advanced     | 50% | 45% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 42% |
+| Advancement Probability | 38% |
+| Submission Probability | 15% |
 
 **Average Time in Position**: 30-90 seconds before pass or escape
 

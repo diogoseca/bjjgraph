@@ -372,11 +372,11 @@ Flow between butterfly guard and related positions: X-Guard, Deep Half, Back Tak
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 15% |
-| Intermediate | 60% | 55% | 30% |
-| Advanced     | 75% | 70% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 30-90 seconds before sweep attempt or position change
 

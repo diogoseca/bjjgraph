@@ -157,7 +157,7 @@ This technique employs an exaggerated long step to change the passing angle dram
 Strategically, this pass is most effective when you recognize that direct clearing of the ringworm configuration would require excessive energy expenditure. Rather than engaging in a prolonged grip-fighting battle to remove multiple lapel wraps, the long step accepts the configuration's existence and navigates around it. This approach preserves energy and catches opponents who have invested heavily in establishing complex lapel systems, as they often don't anticipate passes that simply bypass their control structure.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ Strategically, this pass is most effective when you recognize that direct cleari
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess configuration**: Identify all lapel wraps and determine which passing lanes are blocked. Recognize that the ringworm has created multiple barriers making direct passing inefficient. This assessment determines whether long step is appropriate versus other solutions. (Timing: 1-2 seconds of recognition)
-2. **Establish hip control**: Place your lead hand on opponent's far hip, using a cupping grip to prevent them from following your movement. This grip is critical—without it, the opponent can rotate their hips to maintain guard as you step around. (Timing: Simultaneous with step initiation)
-3. **Initiate long step**: Take an exaggerated step with your outside leg, arcing wide around the lapel configuration. The step should be significantly wider than a normal passing step—your foot should land past the plane of their hip on the far side. (Timing: Explosive initial movement)
-4. **Drive forward pressure**: As your stepping foot lands, immediately drive your shoulder into their torso while maintaining the hip grip. This forward pressure prevents them from sitting up to pursue back control and begins flattening their guard structure. (Timing: Immediate upon foot landing)
-5. **Extract trailing leg**: Pull your trailing leg free from any remaining lapel entanglement by using your forward momentum. The lapel wrap loses much of its mechanical advantage once you've changed the passing angle so dramatically. (Timing: Continuous with forward pressure)
-6. **Consolidate position**: Complete the pass by establishing side control or knee on belly. Use your chest pressure to pin their shoulders while your arms establish standard control grips. Clear any remaining lapel fabric to prevent guard recovery attempts. (Timing: 2-3 seconds to full consolidation)
+1. **Assess configuration**: Identify all lapel wraps and determine which passing lanes are blocked. Recognize that the ringworm has created multiple barriers making direct passing inefficient. This assessment determines whether long step is appropriate versus other solutions.
+2. **Establish hip control**: Place your lead hand on opponent's far hip, using a cupping grip to prevent them from following your movement. This grip is critical—without it, the opponent can rotate their hips to maintain guard as you step around.
+3. **Initiate long step**: Take an exaggerated step with your outside leg, arcing wide around the lapel configuration. The step should be significantly wider than a normal passing step—your foot should land past the plane of their hip on the far side.
+4. **Drive forward pressure**: As your stepping foot lands, immediately drive your shoulder into their torso while maintaining the hip grip. This forward pressure prevents them from sitting up to pursue back control and begins flattening their guard structure.
+5. **Extract trailing leg**: Pull your trailing leg free from any remaining lapel entanglement by using your forward momentum. The lapel wrap loses much of its mechanical advantage once you've changed the passing angle so dramatically.
+6. **Consolidate position**: Complete the pass by establishing side control or knee on belly. Use your chest pressure to pin their shoulders while your arms establish standard control grips. Clear any remaining lapel fabric to prevent guard recovery attempts.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, this pass is most effective when you recognize that direct cleari
 ## Training Progressions
 **Week 1-2** - Movement pattern isolation
 Practice the long step footwork without a partner, emphasizing the exaggerated arc and low hip position. Then drill against a stationary partner in ringworm position, focusing purely on the stepping mechanics without resistance.
-(Resistance: None)
 
 **Week 3-4** - Hip control integration
 Add the far hip grip to the movement, drilling the coordination between hand placement and step initiation. Partner provides light resistance by attempting to follow your movement with their hips.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and response
 Partner adds common counters (hip chase, sit-up, leg pummel) at medium resistance. Focus on reading their reactions and adjusting your timing and pressure accordingly. Drill specific counter-to-counter sequences.
-(Resistance: Medium)
 
 **Week 7+** - Live situational sparring
 Begin rounds in ringworm guard with full resistance. Both partners compete—bottom tries to sweep or submit, top tries to pass. Integrate long step as one option within your complete passing game rather than forcing it.
-(Resistance: Full)
 
 
 

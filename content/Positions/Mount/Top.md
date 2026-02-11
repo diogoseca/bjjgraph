@@ -360,11 +360,11 @@ Partner gives specific defensive reactions in sequence: frames, arm extensions, 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 35% |
-| Intermediate | 70% | 60% | 55% |
-| Advanced     | 85% | 80% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 70% |
+| Submission Probability | 65% |
 
 **Average Time in Position**: 2-4 minutes to submission at intermediate level with active attacks
 

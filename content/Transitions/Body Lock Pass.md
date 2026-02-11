@@ -157,7 +157,7 @@ The pass works by creating a connection that removes the bottom player's ability
 This pass is especially valuable against opponents with strong half guard retention, as the body lock neutralizes many common defensive reactions. It's a staple in modern no-gi competition and forms a cornerstone of systematic pressure passing approaches used by elite competitors.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -206,12 +206,12 @@ This pass is especially valuable against opponents with strong half guard retent
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish upper body control**: From top half guard, secure a body lock by threading one arm under the opponent's near armpit and the other over their far shoulder, clasping your hands together behind their back. Your chest should be tight to theirs with no space between your bodies. (Timing: As opponent attempts to create frames or distance)
-2. **Create head control**: Drive your head to the mat on the opposite side of where your leg is trapped, positioning your forehead or temple against the mat. This prevents the opponent from turning into you and creates a heavy crossface pressure on their jaw and neck. (Timing: Immediately after securing body lock)
-3. **Flatten the opponent**: Using your chest-to-chest connection and head pressure, drive your weight forward and down, forcing the opponent's back flat to the mat. Simultaneously sprawl your hips back slightly to create downward pressure through your torso while maintaining the tight body lock. (Timing: Maintain steady pressure for 2-3 seconds)
-4. **Clear the trapped knee**: With the opponent flattened, begin walking your hips toward the trapped leg side. Use small, controlled steps to methodically move your knee line past the opponent's knee shield or lockdown. Keep constant pressure throughout - don't give space. (Timing: Progress gradually, resetting pressure after each hip movement)
-5. **Extract the trapped leg**: Once your knee is past the opponent's knee line, use a combination of hip pressure and leg movement to free your trapped foot. You may need to adjust your angle slightly or use a small hop to clear the leg completely. Maintain upper body connection throughout. (Timing: Execute with smooth, controlled motion)
-6. **Establish side control**: As your leg clears, immediately transition your body weight to consolidate side control. Release the body lock and establish proper side control positioning with cross-face, near-side underhook, and chest pressure. Secure your position before pursuing further attacks. (Timing: Transition smoothly without giving opponent recovery time)
+1. **Establish upper body control**: From top half guard, secure a body lock by threading one arm under the opponent's near armpit and the other over their far shoulder, clasping your hands together behind their back. Your chest should be tight to theirs with no space between your bodies.
+2. **Create head control**: Drive your head to the mat on the opposite side of where your leg is trapped, positioning your forehead or temple against the mat. This prevents the opponent from turning into you and creates a heavy crossface pressure on their jaw and neck.
+3. **Flatten the opponent**: Using your chest-to-chest connection and head pressure, drive your weight forward and down, forcing the opponent's back flat to the mat. Simultaneously sprawl your hips back slightly to create downward pressure through your torso while maintaining the tight body lock.
+4. **Clear the trapped knee**: With the opponent flattened, begin walking your hips toward the trapped leg side. Use small, controlled steps to methodically move your knee line past the opponent's knee shield or lockdown. Keep constant pressure throughout - don't give space.
+5. **Extract the trapped leg**: Once your knee is past the opponent's knee line, use a combination of hip pressure and leg movement to free your trapped foot. You may need to adjust your angle slightly or use a small hop to clear the leg completely. Maintain upper body connection throughout.
+6. **Establish side control**: As your leg clears, immediately transition your body weight to consolidate side control. Release the body lock and establish proper side control positioning with cross-face, near-side underhook, and chest pressure. Secure your position before pursuing further attacks.
 
 
 </section>
@@ -254,27 +254,21 @@ This pass is especially valuable against opponents with strong half guard retent
 ## Training Progressions
 **Week 1-2: Connection Mastery** - Establishing and maintaining tight body lock connection
 Practice securing the body lock from various half guard positions with no resistance. Focus on eliminating all space and maintaining connection while moving. Partner should be compliant, allowing you to develop feel for proper tightness and positioning.
-(Resistance: None)
 
 **Week 3-4: Pressure Application** - Learning to flatten opponent with systematic pressure
 Partner provides light resistance by maintaining frames but not actively preventing being flattened. Practice using head control and chest pressure to methodically flatten the bottom player. Develop understanding of weight distribution and pressure angles.
-(Resistance: Light)
 
 **Week 5-8: Leg Clearing Mechanics** - Methodical clearing of trapped leg while maintaining pressure
 Partner maintains moderate resistance through knee shield and attempts to prevent leg clearing. Practice the hip walking progression and timing of leg extraction. Learn to maintain connection throughout clearing sequence.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Dealing with common defensive reactions and counters
 Partner actively uses frames, lockdown, whizzer, and attempts to turn into you. Practice recognizing and countering each defensive response. Develop ability to maintain dominant position despite opponent's best defensive efforts.
-(Resistance: Medium)
 
 **Month 4-6: Competition Integration** - Executing technique against full resistance in live rolling
 Implement the body lock pass during positional sparring and live rolling. Partner uses full resistance and all defensive techniques. Focus on recognizing optimal timing for the pass and chaining it with other passing approaches.
-(Resistance: Full)
 
 **Ongoing Refinement** - Advanced details, pressure refinement, and situational adaptation
 Continuously refine pressure application, timing, and transitions. Develop ability to adjust technique based on opponent size, flexibility, and defensive style. Practice flowing between body lock pass and complementary passing systems.
-(Resistance: Full)
 
 
 

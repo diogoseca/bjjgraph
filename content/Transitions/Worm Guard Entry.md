@@ -163,7 +163,7 @@ The entry requires precise timing and lapel management. The bottom player must m
 Strategically, completing the Worm Guard Entry represents a significant positional upgrade. While basic Lapel Guard offers control, the Worm Guard configuration locks the opponent's lead leg in place, severely limiting their passing options and loading powerful sweep mechanics. The position creates true dilemmas where defending the sweep exposes the back, and defending the back take opens sweep opportunities. For gi competitors, this entry is a gateway to an entire attacking subsystem that rewards technical precision over athleticism.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, completing the Worm Guard Entry represents a significant position
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure grips and extract lapel**: From Lapel Guard bottom, confirm your lapel grip has sufficient free material by pulling additional fabric from the opponent's belt line if needed. Establish a secondary grip on the far sleeve or collar with your non-lapel hand to prevent the opponent from disengaging or posturing. (Timing: Before initiating the threading sequence)
-2. **Frame and control distance**: Place your far-side foot on the opponent's hip or bicep to create a frame that controls distance. Your near-side foot hooks behind the opponent's lead knee or calf. This dual-leg configuration maintains the spacing needed for threading while preventing the opponent from smashing forward. (Timing: Immediately after confirming grips)
-3. **Create threading window with hip escape**: Execute a slight hip escape away from the opponent to angle your body perpendicular to theirs. This movement opens the channel underneath the opponent's lead thigh where the lapel must travel, while your framing leg prevents them from following your hip movement. (Timing: When opponent shifts weight backward or steps their lead leg forward)
-4. **Thread lapel under opponent's thigh**: Feed the extracted lapel under the opponent's lead thigh from the outside to the inside, passing the fabric beneath their leg in one continuous motion. Keep your hand in contact with the lapel throughout—never release it into free space where it can be intercepted or lost. (Timing: Within 1-2 seconds of creating the space)
-5. **Connect lapel to your shin**: Once the lapel emerges on the inside of the opponent's thigh, wrap it around your near-side shin or hook it over your foot on the same side. This creates the mechanical bridge between the opponent's trapped leg and your lower body, establishing the characteristic Worm Guard configuration. (Timing: Immediately after threading is complete)
-6. **Eliminate slack and establish tension**: Pull the lapel tight against your shin to remove all slack from the configuration. Angle your hips perpendicular to the opponent and engage your free leg on their far hip or shoulder. The lapel should now be taut enough that any forward movement by the opponent pulls them off-balance toward you. (Timing: Immediately upon completing the wrap)
-7. **Confirm control and begin attacking**: Test the configuration by pulling gently with your lapel grip to confirm the opponent's lead leg is structurally pinned. Adjust hip angle and secondary grips as needed. From complete Worm Guard, begin loading sweep mechanics or threatening back take entries based on the opponent's weight distribution. (Timing: Once full tension is established)
+1. **Secure grips and extract lapel**: From Lapel Guard bottom, confirm your lapel grip has sufficient free material by pulling additional fabric from the opponent's belt line if needed. Establish a secondary grip on the far sleeve or collar with your non-lapel hand to prevent the opponent from disengaging or posturing.
+2. **Frame and control distance**: Place your far-side foot on the opponent's hip or bicep to create a frame that controls distance. Your near-side foot hooks behind the opponent's lead knee or calf. This dual-leg configuration maintains the spacing needed for threading while preventing the opponent from smashing forward.
+3. **Create threading window with hip escape**: Execute a slight hip escape away from the opponent to angle your body perpendicular to theirs. This movement opens the channel underneath the opponent's lead thigh where the lapel must travel, while your framing leg prevents them from following your hip movement.
+4. **Thread lapel under opponent's thigh**: Feed the extracted lapel under the opponent's lead thigh from the outside to the inside, passing the fabric beneath their leg in one continuous motion. Keep your hand in contact with the lapel throughout—never release it into free space where it can be intercepted or lost.
+5. **Connect lapel to your shin**: Once the lapel emerges on the inside of the opponent's thigh, wrap it around your near-side shin or hook it over your foot on the same side. This creates the mechanical bridge between the opponent's trapped leg and your lower body, establishing the characteristic Worm Guard configuration.
+6. **Eliminate slack and establish tension**: Pull the lapel tight against your shin to remove all slack from the configuration. Angle your hips perpendicular to the opponent and engage your free leg on their far hip or shoulder. The lapel should now be taut enough that any forward movement by the opponent pulls them off-balance toward you.
+7. **Confirm control and begin attacking**: Test the configuration by pulling gently with your lapel grip to confirm the opponent's lead leg is structurally pinned. Adjust hip angle and secondary grips as needed. From complete Worm Guard, begin loading sweep mechanics or threatening back take entries based on the opponent's weight distribution.
 
 
 </section>
@@ -262,19 +262,15 @@ Strategically, completing the Worm Guard Entry represents a significant position
 ## Training Progressions
 **Week 1-2** - Lapel extraction and threading mechanics
 Solo and cooperative drilling focused on reliably extracting sufficient lapel material and threading it under the opponent's thigh. Partner kneels statically while you practice the feed-through motion from various hip angles. Emphasize maintaining hand contact with the lapel throughout and achieving deep threading beneath the thigh. Repeat 20-30 times per side until the motion is fluid.
-(Resistance: None)
 
 **Week 3-4** - Timing entries against movement
 Partner alternates between standing, kneeling, and shifting their weight in a guard passing stance. Practice identifying the threading window that opens with each weight shift and executing the full entry sequence. Partner provides light resistance by moving their leg but does not actively strip grips. Focus on connecting the hip escape timing to the threading motion.
-(Resistance: Light)
 
 **Week 5-6** - Entry to attack chains
 Partner attempts moderate guard passing while you work the Worm Guard Entry. Upon successful establishment, immediately chain into a sweep or back take attempt. Partner resists the initial entry and provides resistance to follow-up attacks. Drill recovering when the entry fails and transitioning to Spider Guard or De La Riva Guard as backup.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and counter-recovery
 Full-resistance positional sparring starting from Lapel Guard bottom. Work the entry against fully resisting opponents who use all available counters including grip stripping, backsteps, and pressure passing. Develop the ability to chain entry attempts with other lapel configurations (Squid Guard, Ringworm Guard) and traditional guards when the Worm Guard Entry is denied.
-(Resistance: Full)
 
 
 

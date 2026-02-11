@@ -157,7 +157,7 @@ The fundamental challenge lies in the mechanical reality that the overhook creat
 Timing proves critical to successful execution. The optimal window for escape occurs when the bottom player adjusts their grip, transitions between positions, or commits to a submission setup that temporarily reduces their overhook pressure. Attempting the escape against a fully consolidated New York Control position with maximum overhook depth yields significantly lower success rates. Advanced practitioners develop sensitivity to these transitional moments, executing the extraction during the brief mechanical windows rather than fighting against established control.
 
 **From Position**: [[New York Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Timing proves critical to successful execution. The optimal window for escape oc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive base**: Widen your knees and lower your hips close to the mat, distributing weight laterally rather than forward. Keep your free hand protecting your neck with elbow tight to your body to prevent triangle entry during the escape attempt. (Timing: Before initiating extraction)
-2. **Identify extraction window**: Wait for the moment when opponent adjusts their overhook grip, attempts to transition to another position, or begins setting up a submission. These transitional moments create brief reductions in overhook pressure that significantly increase extraction success rates. (Timing: Opponent's grip adjustment)
-3. **Initiate shoulder rotation**: Begin rotating your trapped shoulder forward toward the mat while keeping your elbow connected to your ribcage. This creates the initial spiral motion that attacks the weakest angle of their overhook grip structure rather than fighting directly against the pull. (Timing: Immediately at window opening)
-4. **Drive elbow to hip**: Simultaneously with the shoulder rotation, actively drive your elbow downward toward your own hip. This combined spiral motion compresses the space their arm occupies while directing your extraction along the path of least resistance through their grip. (Timing: Continuous with step 3)
-5. **Extract arm completely**: Continue the spiraling motion until your entire arm clears their grip. Do not stop halfway or attempt to hold a partially extracted position. Pull your arm completely free and immediately bring your elbow tight to your body to prevent re-establishment. (Timing: Complete extraction in one motion)
-6. **Establish defensive posture**: Immediately after extraction, bring both hands to protect your neck with elbows tight to your body. Maintain low base and begin addressing the leg control across your back. Your primary threat is now the remaining leg position, not the overhook. (Timing: Immediately post-extraction)
+1. **Establish defensive base**: Widen your knees and lower your hips close to the mat, distributing weight laterally rather than forward. Keep your free hand protecting your neck with elbow tight to your body to prevent triangle entry during the escape attempt.
+2. **Identify extraction window**: Wait for the moment when opponent adjusts their overhook grip, attempts to transition to another position, or begins setting up a submission. These transitional moments create brief reductions in overhook pressure that significantly increase extraction success rates.
+3. **Initiate shoulder rotation**: Begin rotating your trapped shoulder forward toward the mat while keeping your elbow connected to your ribcage. This creates the initial spiral motion that attacks the weakest angle of their overhook grip structure rather than fighting directly against the pull.
+4. **Drive elbow to hip**: Simultaneously with the shoulder rotation, actively drive your elbow downward toward your own hip. This combined spiral motion compresses the space their arm occupies while directing your extraction along the path of least resistance through their grip.
+5. **Extract arm completely**: Continue the spiraling motion until your entire arm clears their grip. Do not stop halfway or attempt to hold a partially extracted position. Pull your arm completely free and immediately bring your elbow tight to your body to prevent re-establishment.
+6. **Establish defensive posture**: Immediately after extraction, bring both hands to protect your neck with elbows tight to your body. Maintain low base and begin addressing the leg control across your back. Your primary threat is now the remaining leg position, not the overhook.
 
 
 </section>
@@ -254,19 +254,15 @@ Timing proves critical to successful execution. The optimal window for escape oc
 ## Training Progressions
 **Week 1-2** - Spiral mechanics
 Practice the shoulder-forward, elbow-to-hip spiral motion against a stationary partner holding overhook position. Focus on understanding the correct angle of extraction without resistance. Repeat 20-30 times per side to develop muscle memory for the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner maintains New York Control and periodically adjusts grip or transitions. Practice identifying these windows and executing extraction during the transition moments. Partner provides light resistance to validate timing but allows successful extractions with correct technique.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to counter extraction with triangle entries and grip deepening. Practice recognizing when to abort and reset versus when to commit. Develop ability to maintain defensive structure throughout extraction attempts while preventing counter-submissions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from New York Control. Top player works to escape while bottom player works to finish or maintain position. Reset to starting position after escape or submission. Full resistance develops real-time decision making and timing under pressure.
-(Resistance: Full)
 
 
 

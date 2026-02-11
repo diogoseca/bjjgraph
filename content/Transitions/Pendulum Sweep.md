@@ -153,7 +153,7 @@ description: "Master the Pendulum Sweep from Closed Guard to Mount. Learn proper
 The Pendulum Sweep is a fundamental and highly effective attack from closed guard that exploits the opponent's defensive posture when they post their hand to the mat. Named for the pendulum-like leg motion that generates sweeping momentum, this technique is one of the first sweeps taught to beginners due to its mechanical efficiency and high success rate. The sweep works by creating a powerful lever system using your legs while controlling the opponent's upper body, making it extremely difficult to defend once properly initiated. Unlike many sweeps that require breaking the opponent's posture forward, the Pendulum Sweep actually works best when the opponent maintains upright posture or even leans back, making it an ideal complement to other closed guard attacks. The technique's effectiveness comes from the combination of hip movement, proper gripping, and the pendulum motion of the outside leg, which creates overwhelming rotational force that dumps the opponent directly into mount position. Mastering this sweep provides practitioners with a reliable path from defensive bottom position to dominant top position.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: Secure a firm grip on the opponent's same-side sleeve with your hand, controlling at the wrist or elbow. With your other hand, grip the opposite collar deep, or alternatively grip the opposite lapel. These grips will break the opponent's posting ability and provide leverage for the sweep. (Timing: Initial setup phase)
-2. **Open guard and create angle**: Uncross your ankles and open your closed guard. Immediately place your same-side foot on the opponent's hip (the side where you're gripping their sleeve) while keeping your other leg wrapped around their back. Begin shifting your hips out to the side, creating a 45-90 degree angle with your body perpendicular to the opponent's centerline. (Timing: 0.5-1 second transition)
-3. **Extend and chamber the pendulum leg**: Fully extend your outside leg (opposite side from sleeve grip) straight up toward the ceiling, keeping it close to the opponent's shoulder. This leg will become the pendulum. Simultaneously, use your foot on the hip to push and create more angle while pulling with your grips to off-balance the opponent to their posting side. (Timing: Synchronize with hip movement)
-4. **Execute pendulum swing**: With explosive force, swing your extended leg down in an arc like a pendulum, driving it toward the mat on the opposite side of the opponent's body. The leg should pass close to the opponent's head and shoulder, creating rotational momentum. Keep the leg straight and maintain speed throughout the arc. (Timing: 1-1.5 second explosive motion)
-5. **Pull and drive through**: As your pendulum leg swings down, simultaneously pull hard with both grips, especially the sleeve grip, to break the opponent's base. Your hip-side foot pushes off the opponent's hip while you crunch your core and pull them over your body. The combination of pendulum force, grip pulls, and hip drive creates overwhelming sweeping power. (Timing: Coordinate all forces simultaneously)
-6. **Complete sweep to mount**: Continue the rotational motion until the opponent fully rotates over your body and lands on their back. As they fall, follow through with your momentum, keeping your grips and immediately moving into mount position. Your pendulum leg comes over their body as you establish mount, and your other leg follows to complete the position. (Timing: Smooth continuous motion to completion)
+1. **Establish grips**: Secure a firm grip on the opponent's same-side sleeve with your hand, controlling at the wrist or elbow. With your other hand, grip the opposite collar deep, or alternatively grip the opposite lapel. These grips will break the opponent's posting ability and provide leverage for the sweep.
+2. **Open guard and create angle**: Uncross your ankles and open your closed guard. Immediately place your same-side foot on the opponent's hip (the side where you're gripping their sleeve) while keeping your other leg wrapped around their back. Begin shifting your hips out to the side, creating a 45-90 degree angle with your body perpendicular to the opponent's centerline.
+3. **Extend and chamber the pendulum leg**: Fully extend your outside leg (opposite side from sleeve grip) straight up toward the ceiling, keeping it close to the opponent's shoulder. This leg will become the pendulum. Simultaneously, use your foot on the hip to push and create more angle while pulling with your grips to off-balance the opponent to their posting side.
+4. **Execute pendulum swing**: With explosive force, swing your extended leg down in an arc like a pendulum, driving it toward the mat on the opposite side of the opponent's body. The leg should pass close to the opponent's head and shoulder, creating rotational momentum. Keep the leg straight and maintain speed throughout the arc.
+5. **Pull and drive through**: As your pendulum leg swings down, simultaneously pull hard with both grips, especially the sleeve grip, to break the opponent's base. Your hip-side foot pushes off the opponent's hip while you crunch your core and pull them over your body. The combination of pendulum force, grip pulls, and hip drive creates overwhelming sweeping power.
+6. **Complete sweep to mount**: Continue the rotational motion until the opponent fully rotates over your body and lands on their back. As they fall, follow through with your momentum, keeping your grips and immediately moving into mount position. Your pendulum leg comes over their body as you establish mount, and your other leg follows to complete the position.
 
 
 </section>
@@ -253,27 +253,21 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 ## Training Progressions
 **Week 1-2: Foundation Mechanics** - Hip movement and pendulum leg motion
 Practice opening guard, creating angle with hips, and swinging pendulum leg in proper arc without a partner. Focus on the biomechanics of the movement. With compliant partner, drill the complete motion slowly, emphasizing proper angle creation and leg extension.
-(Resistance: None)
 
 **Week 3-4: Grip Integration** - Coordinating grips with sweeping motion
 Add proper sleeve and collar grips to the drill. Practice timing the pull with the pendulum swing. Partner provides light resistance by maintaining base but not actively defending. Work on feeling when opponent's weight shifts to posting side.
-(Resistance: Light)
 
 **Week 5-8: Timing and Setup** - Reading opponent's reactions and creating sweep opportunities
 Practice setting up the sweep from closed guard by threatening other attacks (Triangle, Kimura) to provoke posting response. Partner provides moderate resistance. Work on recognizing the moment when opponent posts and immediately transitioning to pendulum sweep.
-(Resistance: Medium)
 
 **Week 9-12: Follow-through to Mount** - Completing the sweep and securing dominant position
 Emphasize the transition from sweep completion to mount establishment. Partner may attempt to prevent mount after being swept. Practice maintaining grips and using momentum to secure mount despite resistance. Add multiple repetitions with reset.
-(Resistance: Medium)
 
 **Month 4+: Countering Defenses** - Adapting to opponent's defensive reactions
 Partner actively defends with various counters (wide base, standing, grip stripping). Practice recognizing and countering each defense, including transitions to Triangle, Omoplata, or alternative sweeps. Work on maintaining attacking initiative even when initial sweep is defended.
-(Resistance: Full)
 
 **Ongoing: Live Training Integration** - Application during positional and free sparring
 Incorporate Pendulum Sweep into regular positional sparring from closed guard. Set goals for successful sweep execution during live rolling. Focus on setting up the sweep through combinations rather than relying on the technique in isolation.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ The entry requires precise timing and hip mobility, as you must thread your legs
 This technique represents a sophisticated evolution in modern guard play, bridging inverted guard mobility with the powerful mechanical advantages of X-Guard systems. Practitioners who develop proficiency find it becomes a reliable pathway when standard berimbolo or back take entries are blocked.
 
 **From Position**: [[Inverted Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: From inverted guard, secure a strong grip on opponent's near-side pants at the ankle or cuff with your same-side hand. Establish a secondary grip on their sleeve or collar with your other hand to prevent them from posting or disengaging. (Timing: When opponent is upright with weight neutral)
-2. **Create threading angle**: Hip escape slightly toward your pants-grip side to create an angle that allows your outside leg to thread beneath their hips. Your shoulder blades remain anchored while your hips rotate approximately 45 degrees. (Timing: Immediately after establishing grips)
-3. **Thread outside leg**: Shoot your outside leg (the leg furthest from the pants grip) deep beneath opponent's hips, threading between their legs. Your shin should travel past their far hip, positioning your foot to hook behind their far thigh. (Timing: As you complete the hip escape motion)
-4. **Establish crossing hook**: Curl your threading leg to establish a strong hook behind opponent's far hip or thigh. This crossing hook is the primary control point that prevents them from stepping over or disengaging. Lock your ankle behind their hip crease. (Timing: Before releasing any upper body grips)
-5. **Insert inside hook**: With the crossing hook secured, bring your near-side leg up and hook it behind opponent's near-side knee or thigh. This creates the characteristic X configuration with your legs controlling their base from opposite sides. (Timing: After crossing hook is locked)
-6. **Consolidate position**: Release upper body grips and transition your hands to control opponent's far ankle and near knee. Extend your hips to elevate them and complete the Reverse X-Guard position with full mechanical control. (Timing: Once both hooks are secure)
+1. **Establish grip control**: From inverted guard, secure a strong grip on opponent's near-side pants at the ankle or cuff with your same-side hand. Establish a secondary grip on their sleeve or collar with your other hand to prevent them from posting or disengaging.
+2. **Create threading angle**: Hip escape slightly toward your pants-grip side to create an angle that allows your outside leg to thread beneath their hips. Your shoulder blades remain anchored while your hips rotate approximately 45 degrees.
+3. **Thread outside leg**: Shoot your outside leg (the leg furthest from the pants grip) deep beneath opponent's hips, threading between their legs. Your shin should travel past their far hip, positioning your foot to hook behind their far thigh.
+4. **Establish crossing hook**: Curl your threading leg to establish a strong hook behind opponent's far hip or thigh. This crossing hook is the primary control point that prevents them from stepping over or disengaging. Lock your ankle behind their hip crease.
+5. **Insert inside hook**: With the crossing hook secured, bring your near-side leg up and hook it behind opponent's near-side knee or thigh. This creates the characteristic X configuration with your legs controlling their base from opposite sides.
+6. **Consolidate position**: Release upper body grips and transition your hands to control opponent's far ankle and near knee. Extend your hips to elevate them and complete the Reverse X-Guard position with full mechanical control.
 
 
 </section>
@@ -252,19 +252,15 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 ## Training Progressions
 **Week 1-2** - Solo movement mechanics
 Practice inverted hip rotation and leg threading movements without a partner. Focus on maintaining shoulder contact while rotating hips 45 degrees, then threading and curling each leg individually. Develop the hip mobility required for clean entries.
-(Resistance: None)
 
 **Week 3-4** - Cooperative entry drilling
 Partner holds static upright position from inverted guard while you practice the complete entry sequence. Focus on grip establishment, threading angle, and hook placement. Partner provides feedback on hook depth and position security.
-(Resistance: Light)
 
 **Week 5-6** - Timing against movement
 Partner moves naturally from inverted guard top position while you identify windows for entry. Practice recognizing when opponent's posture creates the opening versus when they're applying pressure that requires defensive response.
-(Resistance: Medium)
 
 **Week 7+** - Integration with guard system
 Full positional sparring from inverted guard with all options available. Chain Reverse X-Guard Entry with berimbolo attempts, back takes, and other X-Guard entries. Partner defends realistically while you develop pattern recognition for optimal entry timing.
-(Resistance: Full)
 
 
 

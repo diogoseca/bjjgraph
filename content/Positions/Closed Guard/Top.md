@@ -402,11 +402,11 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 5% |
-| Intermediate | 50% | 50% | 10% |
-| Advanced     | 70% | 70% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 15% |
 
 **Average Time in Position**: 1-3 minutes depending on skill level and guard opening strategy
 

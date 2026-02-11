@@ -163,7 +163,7 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -241,13 +241,13 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure front headlock position**: Establish solid front headlock with your chest heavy on opponent's upper back, head controlled under your armpit. Use non-choking arm to secure opponent's near arm (overhook, underhook, or controlling their wrist). Angle your body 45 degrees to their spine to create space for arm threading. (Timing: Initial control - establish before opponent can defend) [Pressure: Moderate]
-2. **Thread choking arm under near shoulder**: Slide your choking-side arm (palm down) under opponent's near shoulder and deep across their throat. Your bicep should pass under their shoulder while your forearm crosses the front of their neck. Drive your shoulder forward and down to create initial compression. The deeper you thread, the tighter the finish. (Timing: Quick threading before opponent tucks arm) [Pressure: Light]
-3. **Lock figure-four grip**: Bring your non-choking hand to meet your choking hand on the far side of opponent's neck. Lock hands in figure-four configuration: choking hand grabs your non-choking bicep, non-choking hand grabs behind your choking tricep. Pull grip tight to eliminate slack. Your choking forearm should now be directly across opponent's throat. (Timing: Immediate - before opponent can defend hands) [Pressure: Moderate]
-4. **Adjust body position for optimal angle**: Step over with your choking-side leg if standing, or sprawl hips back if on ground. Your chest should be heavy on opponent's upper back/shoulder, creating downward pressure. Ensure your body forms straight line from hips through shoulders to prevent opponent from rolling underneath you. Keep hips forward to maintain weight distribution. (Timing: Simultaneous with grip lock) [Pressure: Firm]
-5. **Create shoulder pressure and compression**: Drive the shoulder of your choking arm into the side of opponent's neck while pulling your elbows together. Your choking-side shoulder becomes a wedge that compresses one carotid while your forearm compresses the other. Expand your chest while maintaining tight elbows to create circumferential pressure around their neck. This 'bite down' motion is the finishing mechanism. (Timing: Progressive pressure over 3-5 seconds) [Pressure: Firm]
-6. **Secure position and prevent escapes**: Keep opponent's near arm controlled and head down throughout finish. If opponent attempts to roll to choking side, follow the roll while maintaining shoulder pressure. If they attempt to sit back, sprawl harder and drive forward. Monitor for tap constantly. Maintain position without increasing pressure after feeling tap signal. (Timing: Continuous throughout submission) [Pressure: Maximum]
-7. **Recognize specific variation context**: Identify which brabo variation you're executing: standard brabo (front headlock), rolling brabo (from scramble), shallow brabo (when arm threading is limited), or marce variation (when opponent's arm is more extended). Each requires slight adjustment in grip, angle, or finishing mechanics while maintaining core principles of shoulder pressure and figure-four compression. (Timing: Throughout setup and execution) [Pressure: Light]
+1. **Secure front headlock position**: Establish solid front headlock with your chest heavy on opponent's upper back, head controlled under your armpit. Use non-choking arm to secure opponent's near arm (overhook, underhook, or controlling their wrist). Angle your body 45 degrees to their spine to create space for arm threading. (Timing: Initial control - establish before opponent can defend)
+2. **Thread choking arm under near shoulder**: Slide your choking-side arm (palm down) under opponent's near shoulder and deep across their throat. Your bicep should pass under their shoulder while your forearm crosses the front of their neck. Drive your shoulder forward and down to create initial compression. The deeper you thread, the tighter the finish. (Timing: Quick threading before opponent tucks arm)
+3. **Lock figure-four grip**: Bring your non-choking hand to meet your choking hand on the far side of opponent's neck. Lock hands in figure-four configuration: choking hand grabs your non-choking bicep, non-choking hand grabs behind your choking tricep. Pull grip tight to eliminate slack. Your choking forearm should now be directly across opponent's throat. (Timing: Immediate - before opponent can defend hands)
+4. **Adjust body position for optimal angle**: Step over with your choking-side leg if standing, or sprawl hips back if on ground. Your chest should be heavy on opponent's upper back/shoulder, creating downward pressure. Ensure your body forms straight line from hips through shoulders to prevent opponent from rolling underneath you. Keep hips forward to maintain weight distribution. (Timing: Simultaneous with grip lock)
+5. **Create shoulder pressure and compression**: Drive the shoulder of your choking arm into the side of opponent's neck while pulling your elbows together. Your choking-side shoulder becomes a wedge that compresses one carotid while your forearm compresses the other. Expand your chest while maintaining tight elbows to create circumferential pressure around their neck. This 'bite down' motion is the finishing mechanism. (Timing: Progressive pressure over 3-5 seconds)
+6. **Secure position and prevent escapes**: Keep opponent's near arm controlled and head down throughout finish. If opponent attempts to roll to choking side, follow the roll while maintaining shoulder pressure. If they attempt to sit back, sprawl harder and drive forward. Monitor for tap constantly. Maintain position without increasing pressure after feeling tap signal. (Timing: Continuous throughout submission)
+7. **Recognize specific variation context**: Identify which brabo variation you're executing: standard brabo (front headlock), rolling brabo (from scramble), shallow brabo (when arm threading is limited), or marce variation (when opponent's arm is more extended). Each requires slight adjustment in grip, angle, or finishing mechanics while maintaining core principles of shoulder pressure and figure-four compression. (Timing: Throughout setup and execution)
 
 
 </section>
@@ -268,28 +268,28 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Threading arm too shallow under opponent's shoulder [Low DANGER]
+- **Mistake**: Threading arm too shallow under opponent's shoulder
   - **Consequence**: Insufficient compression on carotid arteries, allowing opponent to defend hand grip and escape
   - **Correction**: Drive arm deeper under shoulder until your bicep is past their shoulder joint and forearm crosses directly across throat. Use head and shoulder pressure to create space for threading.
-- **Mistake**: Leaving slack in figure-four grip when locking hands [Low DANGER]
+- **Mistake**: Leaving slack in figure-four grip when locking hands
   - **Consequence**: Opponent can create space to turn head, defend neck, or slip arm out before finish
   - **Correction**: Pull elbows together immediately when locking grip to remove all slack. Your choking forearm should be in direct contact with their throat before applying pressure.
-- **Mistake**: Positioning body directly behind opponent instead of at angle [Low DANGER]
+- **Mistake**: Positioning body directly behind opponent instead of at angle
   - **Consequence**: Poor leverage for arm threading and shoulder pressure, easier for opponent to roll or sit back
   - **Correction**: Maintain 45-degree angle to opponent's spine on choking side. Your body should form 'L' shape with opponent's body, not straight line behind them.
-- **Mistake**: Applying excessive pressure too quickly without allowing tap opportunity [CRITICAL DANGER]
+- **Mistake**: Applying excessive pressure too quickly without allowing tap opportunity
   - **Consequence**: Risk of unconsciousness without warning, potential injury to training partner
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum. Give partner clear opportunity to recognize choke and tap. Stop immediately upon any tap signal.
-- **Mistake**: Pulling opponent's head sideways or cranking neck instead of using shoulder pressure [CRITICAL DANGER]
+- **Mistake**: Pulling opponent's head sideways or cranking neck instead of using shoulder pressure
   - **Consequence**: Ineffective choke that becomes painful neck crank, risk of cervical spine injury
   - **Correction**: Focus compression on throat via shoulder wedge and forearm, not torque on neck. Opponent's head should stay relatively neutral, not twisted or bent laterally.
-- **Mistake**: Allowing hips to drift backward or weight to shift off opponent [Medium DANGER]
+- **Mistake**: Allowing hips to drift backward or weight to shift off opponent
   - **Consequence**: Opponent easily rolls underneath or sits back to escape, losing control and submission
   - **Correction**: Keep hips forward and weight heavy on opponent's upper back throughout finish. Sprawl harder if opponent attempts to create space.
-- **Mistake**: Continuing to apply pressure after feeling tap or seeing distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling tap or seeing distress signals
   - **Consequence**: Serious injury risk including unconsciousness, stroke, or death if prolonged
   - **Correction**: Immediately release grip and pressure upon any tap signal or if opponent goes limp. Safety takes absolute priority over finishing submissions in training.
-- **Mistake**: Failing to control opponent's near arm during setup [Low DANGER]
+- **Mistake**: Failing to control opponent's near arm during setup
   - **Consequence**: Opponent uses free arm to frame, create space, or defend neck before threading
   - **Correction**: Secure overhook, underhook, or wrist control on opponent's near arm before attempting to thread choking arm. Their arm should be trapped or controlled throughout setup.
 
@@ -358,43 +358,6 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Mechanics** (Week 1-2)
-- Focus: Learn anatomy of blood chokes, proper arm threading mechanics, figure-four grip structure, and body positioning without any pressure application. Study differences between brabo, anaconda, and guillotine configurations.
-- Resistance: None
-- Safety: Understand carotid artery location and compression mechanisms. Practice grip and position with zero pressure. Partner remains fully conscious and comfortable throughout all drilling.
-
-**Slow Motion Setup Practice** (Week 3-4)
-- Focus: Practice threading arm, securing grip, and establishing body position from cooperative front headlock. Focus on smooth entry and control maintenance. No finishing pressure applied. Develop muscle memory for proper angles and depth.
-- Resistance: Zero resistance
-- Safety: Maintain constant communication with partner. Practice tap recognition and immediate release protocol. Never apply finishing pressure—focus solely on achieving proper structure and position.
-
-**Light Pressure Familiarization** (Week 5-6)
-- Focus: Begin applying very light finishing pressure (10-20% maximum) to understand compression feeling. Partner taps immediately when feeling any throat compression. Practice progressive pressure application over 5-7 seconds. Emphasize shoulder pressure over arm squeeze.
-- Resistance: Mild resistance
-- Safety: Partner taps early and often. Immediately release all pressure upon tap. Practice release protocol repeatedly. Never exceed light pressure threshold. Develop sensitivity to proper compression vs neck cranking.
-
-**Variation Recognition and Setup** (Week 7-10)
-- Focus: Learn different brabo variations (standard, rolling, shallow, standing) and when each applies. Practice recognizing which variation fits defensive posture. Drill transitions between brabo, anaconda, and guillotine based on opponent reactions.
-- Resistance: Mild resistance
-- Safety: Continue light pressure protocols. Focus on position recognition over submission completion. Practice aborting technique when setup isn't optimal rather than forcing poor positions.
-
-**Dynamic Application with Realistic Resistance** (Week 11-16)
-- Focus: Apply brabo variations during positional sparring from front headlock, turtle, and scramble positions. Partner provides realistic defensive reactions. Increase pressure to moderate levels (40-60%) while maintaining safety protocols. Chain with other submissions.
-- Resistance: Realistic resistance
-- Safety: Apply pressure progressively over minimum 3-5 seconds. Partner must have clear tap access at all times. Release immediately upon tap. Never use competition speed. Monitor partner throughout finish.
-
-**Full Integration and Competition Preparation** (Week 17+)
-- Focus: Incorporate brabo system into full rolling with all resistance levels. Practice against opponents actively defending and countering. Develop timing for dynamic entries. Understand when to transition to other attacks when brabo isn't available. Prepare for competition application.
-- Resistance: Full resistance
-- Safety: Maintain progressive pressure application even at full resistance. Distinguish between training and competition application speeds. Train partners should still tap earlier than competition. Never compromise safety for submission completion. Regularly review tap signal protocols.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -418,7 +381,7 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 - [[Darce Choke]]
 - [[Anaconda Choke]]
 - [[Guillotine Choke]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 - [[Arm Triangle]]
 - [[Darce Variations]]
 - [[Anaconda Variations]]
@@ -439,12 +402,13 @@ The Brabo Choke, commonly known as the no-gi darce choke, represents a family of
 - [[Turtle]] - Common position where opponent exposes neck for brabo entry while attempting to recover guard
 - [[Back Control]] - Superior position to transition to when opponent defends brabo by rolling
 - [[Guillotine Control]] - Alternative choke option when opponent postures up during brabo attempt
-- [[D'arce Control]] - Control position sharing fundamental mechanics with brabo variations
+- [[Darce Control]] - Control position sharing fundamental mechanics with brabo variations
 - [[Anaconda Control]] - Alternative arm-in control position accessible when brabo threading fails
 - [[North-South]] - Transitional position offering north-south brabo adjustment opportunity
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

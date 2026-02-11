@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The guillotine choke represents one of the most versatile submission families in Brazilian Jiu-Jitsu, with numerous grip variations that fundamentally change the mechanics and effectiveness of the finish. While the basic guillotine is effective, understanding the full spectrum of variations—from the high elbow guillotine that maximizes shoulder pressure to the arm-in configuration that prevents defensive hand fighting—allows practitioners to adapt to different body types, positions, and defensive responses. Each variation serves a specific strategic purpose: the chin strap guillotine controls opponents who tuck their chin, the ten finger guillotine provides maximum squeeze for shorter arms, and the marce variation creates a devastating choke from front headlock positions. Mastery of these variations transforms the guillotine from a single technique into a complete submission system that can be applied from standing, guard, half guard, or scrambles, making it one of the highest percentage finishes across all skill levels and competition formats.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,50 +85,43 @@
       "step_number": 1,
       "action": "Establish front headlock control and break opponent's posture",
       "description": "From standing, guard, or scramble position, secure a strong collar tie or head control that breaks opponent's posture forward. Your goal is to get their head below hip level while controlling their movement. Use your free hand to control their far shoulder or establish an overhook preventing them from circling away. This positional control is critical before attempting any guillotine variation.",
-      "timing": "Take 2-3 seconds to establish solid positional control",
-      "pressure_level": "Moderate"
+      "timing": "Take 2-3 seconds to establish solid positional control"
     },
     {
       "step_number": 2,
       "action": "Thread choking arm deep around opponent's neck",
       "description": "Slide your choking arm around opponent's neck, aiming to get the blade of your wrist as deep as possible against the far side of their neck. The depth of this initial threading determines the effectiveness of all guillotine variations. Your elbow should be positioned on the near side of their neck, creating the choking mechanism. Maintain downward pressure on their head with your non-choking hand to prevent them from pulling their head free during this threading motion.",
-      "timing": "1-2 seconds for deep threading",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds for deep threading"
     },
     {
       "step_number": 3,
       "action": "Select and establish grip variation based on position and opponent's defense",
       "description": "Choose your grip variation based on the tactical situation: High elbow guillotine (palm-to-palm grip with high elbow) for maximum shoulder pressure when opponent's chin is up; Arm-in guillotine when opponent gets their defensive hand inside; Chin strap when opponent tucks chin defensively; Ten finger guillotine (gable grip) for maximum squeeze with shorter arms. Each grip fundamentally changes the finishing mechanics, so this selection point is critical for success.",
-      "timing": "1 second for grip transition",
-      "pressure_level": "Light"
+      "timing": "1 second for grip transition"
     },
     {
       "step_number": 4,
       "action": "Establish body position appropriate for chosen variation",
       "description": "High elbow variation: Pull guard or establish closed guard with hips loaded under opponent. Arm-in variation: Can finish from standing, closed guard, or half guard bottom. Chin strap: Typically most effective from closed guard with strong hip extension. Ten finger: Works from any position but requires very tight body connection. Your body position must create the lever arm that allows the choke to finish—the arm alone cannot generate sufficient pressure.",
-      "timing": "1-2 seconds to establish position",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds to establish position"
     },
     {
       "step_number": 5,
       "action": "Engage hip movement to create choking leverage",
       "description": "This is the key mechanical element that separates effective from ineffective guillotines across all variations. From guard: Extend your hips upward while pulling opponent's head downward, creating opposing forces. From standing: Sit back and down while maintaining head control. The choking pressure comes from this hip extension combined with arm compression, not from arm strength alone. Your chest should drive into opponent's trapped shoulder while your hips create rotational torque on their neck.",
-      "timing": "Apply over 3-5 seconds progressively",
-      "pressure_level": "Firm"
+      "timing": "Apply over 3-5 seconds progressively"
     },
     {
       "step_number": 6,
       "action": "Add variation-specific finishing details",
       "description": "High elbow: Raise your choking elbow while squeezing your shoulder to your ear, maximizing the guillotine plane angle. Arm-in: Pull opponent's trapped arm across their own neck while extending hips. Chin strap: Maintain grip on opponent's chin while creating downward and rotational pressure. Ten finger: Focus on maximum squeeze with forearms while maintaining hip extension. The specific finishing details vary by variation but all require the fundamental hip extension and shoulder connection established in previous steps.",
-      "timing": "3-5 seconds progressive squeeze",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds progressive squeeze"
     },
     {
       "step_number": 7,
       "action": "Make micro-adjustments based on opponent's defensive response",
       "description": "If opponent attempts to posture up: Increase hip extension and use your legs to prevent their base. If they try to turn away: Follow their movement while maintaining grip and hip pressure. If they attempt to create space at your hips: Squeeze your knees together and maintain tight connection. The ability to maintain the submission through opponent's defensive attempts separates high-level execution from beginner attempts. Always be prepared to transition to different guillotine variations if opponent's defense makes your current variation less effective.",
-      "timing": "Continuous adjustment until tap",
-      "pressure_level": "Maximum"
+      "timing": "Continuous adjustment until tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -167,44 +155,37 @@
     {
       "error": "Using only arm strength without engaging hips for leverage",
       "consequence": "Choke feels tight but doesn't finish, wasted energy, opponent easily defends by posturing",
-      "correction": "Focus on hip extension as the primary pressure source; your arms hold the position while your hips create the actual choking force through leverage",
-      "danger_level": "Low"
+      "correction": "Focus on hip extension as the primary pressure source; your arms hold the position while your hips create the actual choking force through leverage"
     },
     {
       "error": "Shallow arm position around neck without deep threading",
       "consequence": "Choke has no effectiveness, opponent easily pulls head free, you lose dominant position",
-      "correction": "Ensure blade of wrist is positioned deep on far side of opponent's neck before attempting finish; take extra time during setup to achieve proper depth",
-      "danger_level": "Low"
+      "correction": "Ensure blade of wrist is positioned deep on far side of opponent's neck before attempting finish; take extra time during setup to achieve proper depth"
     },
     {
       "error": "Jerking or spiking opponent's head downward during finish",
       "consequence": "CRITICAL SAFETY VIOLATION: Risk of cervical spine injury, trachea damage, immediate training partner injury",
-      "correction": "Apply all pressure progressively over minimum 3-5 seconds; focus on smooth hip extension and controlled squeeze, never sudden jerking motions",
-      "danger_level": "CRITICAL"
+      "correction": "Apply all pressure progressively over minimum 3-5 seconds; focus on smooth hip extension and controlled squeeze, never sudden jerking motions"
     },
     {
       "error": "Not controlling opponent's far shoulder allowing them to circle away",
       "consequence": "Opponent escapes to side control or takes your back, you lose submission opportunity and superior position",
-      "correction": "Maintain strong connection between your chest and opponent's trapped shoulder throughout; use free hand to control far shoulder or establish overhook",
-      "danger_level": "Low"
+      "correction": "Maintain strong connection between your chest and opponent's trapped shoulder throughout; use free hand to control far shoulder or establish overhook"
     },
     {
       "error": "Continuing to apply pressure after opponent taps or shows distress",
       "consequence": "CRITICAL SAFETY VIOLATION: Risk of unconsciousness, trachea crush, airway damage, potential permanent injury to training partner",
-      "correction": "Develop immediate tap recognition and release protocol; safety is always more important than finishing the submission; release completely within 1 second of tap signal",
-      "danger_level": "CRITICAL"
+      "correction": "Develop immediate tap recognition and release protocol; safety is always more important than finishing the submission; release completely within 1 second of tap signal"
     },
     {
       "error": "Choosing wrong variation for opponent's defensive posture",
       "consequence": "Wasted energy on low-percentage finish, opponent defends easily, loss of position",
-      "correction": "Read opponent's defense: chin up = high elbow variation, chin tucked = chin strap, hand inside = arm-in variation; adapt grip selection to tactical situation",
-      "danger_level": "Low"
+      "correction": "Read opponent's defense: chin up = high elbow variation, chin tucked = chin strap, hand inside = arm-in variation; adapt grip selection to tactical situation"
     },
     {
       "error": "Releasing head control to adjust grip during finish sequence",
       "consequence": "Opponent postures out and escapes, you lose submission and often lose positional control",
-      "correction": "Establish your grip variation completely before committing to finish; once finishing sequence begins, maintain all controls without adjustment",
-      "danger_level": "Medium"
+      "correction": "Establish your grip variation completely before committing to finish; once finishing sequence begins, maintain all controls without adjustment"
     }
   ],
   "variations_and_setups": [
@@ -296,50 +277,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Variation Recognition",
-      "timeframe": "Week 1-2",
-      "focus": "Study each guillotine variation's grip mechanics, understand when each variation is appropriate based on opponent's defense, practice arm threading depth without applying any pressure, learn to recognize defensive patterns that indicate variation selection",
-      "resistance_level": "None",
-      "safety_emphasis": "Zero pressure application during this phase; focus entirely on grip positions and body mechanics without any choking action; partner should be completely comfortable throughout"
-    },
-    {
-      "phase": "Slow Application with Cooperative Partner",
-      "timeframe": "Week 3-4",
-      "focus": "Practice each variation with extremely slow application (5-7 seconds minimum), focus on hip extension mechanics rather than arm pressure, partner provides zero resistance but gives feedback on pressure points and comfort level, emphasis on smooth progressive pressure",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner taps early and often to test your release protocol; practice immediate release upon tap; establish clear communication signals; stop completely if any discomfort beyond normal pressure"
-    },
-    {
-      "phase": "Positional Drilling with Mild Resistance",
-      "timeframe": "Week 5-8",
-      "focus": "Partner provides mild defensive pressure including posturing attempts and hand fighting, practice reading defenses and selecting appropriate variation, work on maintaining depth and hip connection through defensive movements, still using slow progressive application",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Maintain 3-5 second minimum application time even with resistance; develop ability to finish with technique rather than speed; partner must maintain tap access throughout"
-    },
-    {
-      "phase": "Live Positional Sparring from Setup Positions",
-      "timeframe": "Week 9-12",
-      "focus": "Start from front headlock, guard, or scramble positions with partner providing realistic resistance, practice variation selection under pressure, chain different guillotine variations as partner defends, work on transitions to other submissions when guillotine is defended",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners must respect tap signals immediately; no jerking or spiking head position; maintain slower application speed than competition even with full resistance; monitor partner post-tap for any distress"
-    },
-    {
-      "phase": "Integration into Full Sparring",
-      "timeframe": "Week 13+",
-      "focus": "Incorporate guillotine variations into regular rolling, recognize setup opportunities from standing exchanges and guard pulls, practice catching guillotines during scrambles, develop sensitivity for when to abandon attempt if setup isn't optimal",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Competition speed is still inappropriate even in hard sparring; maintain clear communication with regular training partners; newer partners require extra caution and slower application; always prioritize partner safety over finishing submission"
-    },
-    {
-      "phase": "Ongoing Refinement and Safety Review",
-      "timeframe": "Ongoing",
-      "focus": "Continue refining variation selection, work on grip transitions between variations, study high-level competition footage for tactical applications, regularly review safety protocols with training partners, maintain technical precision even as skill level increases",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Periodic safety protocol review with training partners; never become complacent about tap recognition; monitor for any signs of training partners developing neck injuries; immediately report any safety concerns to instructor"
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Front Headlock",
@@ -360,7 +297,7 @@
     "Ten Finger Guillotine",
     "Darce Choke",
     "Anaconda Choke",
-    "D'arce-Anaconda Connection",
+    "Darce-Anaconda Connection",
     "Guillotine Sequence",
     "Rear Naked Choke",
     "Arm Triangle",
@@ -376,7 +313,7 @@
       "relationship": "Control position that leads to guillotine variations"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Alternative choke from similar positions when guillotine is defended"
     },
     {
@@ -407,5 +344,6 @@
       "name": "North-South",
       "relationship": "Transitional position when guillotine is defended by circling"
     }
-  ]
+  ],
+  "success_rate": 62
 }

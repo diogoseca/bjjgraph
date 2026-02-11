@@ -157,7 +157,7 @@ The technique becomes available when the opponent defends heel hook attempts by 
 Strategically, the kneebar from cross ashi serves as both a primary attack and a transition tool. When fully locked, it creates immediate tap-or-break pressure. When partially applied, it can be used to manipulate the opponent's position and open up other attacks including returns to heel hook attempts or transitions to saddle position. The technique requires precise hip positioning and leg configuration to generate maximum leverage while preventing the opponent from rotating out of danger.
 
 **From Position**: [[Cross Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the kneebar from cross ashi serves as both a primary attack and a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize opportunity**: Identify when opponent flexes their knee strongly to hide their heel or attempts to retract their leg from your cross ashi control, creating the opening for kneebar transition (Timing: Immediate upon heel hook defense)
-2. **Secure ankle control**: Establish a figure-four grip on the opponent's ankle by threading your top arm under their ankle and locking hands together, creating unbreakable control of the lower leg (Timing: Before releasing leg position)
-3. **Hip transition**: Rotate your hips so they face the opponent's leg directly, positioning your pelvis perpendicular to their thigh with your hip bone creating a fulcrum point behind their knee joint (Timing: Smooth continuous motion)
-4. **Triangle legs**: Bring your legs together in a triangle configuration around the opponent's thigh, with your top leg crossing over your bottom leg's ankle to lock the position and trap their leg completely (Timing: As hips settle into position)
-5. **Pin opponent's hip**: Use your bottom leg to hook and pin the opponent's far hip, preventing them from sitting up, rotating toward you, or creating the space needed for standard kneebar escapes (Timing: Continuous pressure throughout)
-6. **Apply extension**: Arch your hips forward while pulling the ankle tight to your chest, creating hyperextension pressure on the knee joint by driving your pelvis against the back of their knee while controlling foot position (Timing: Controlled progressive pressure)
+1. **Recognize opportunity**: Identify when opponent flexes their knee strongly to hide their heel or attempts to retract their leg from your cross ashi control, creating the opening for kneebar transition
+2. **Secure ankle control**: Establish a figure-four grip on the opponent's ankle by threading your top arm under their ankle and locking hands together, creating unbreakable control of the lower leg
+3. **Hip transition**: Rotate your hips so they face the opponent's leg directly, positioning your pelvis perpendicular to their thigh with your hip bone creating a fulcrum point behind their knee joint
+4. **Triangle legs**: Bring your legs together in a triangle configuration around the opponent's thigh, with your top leg crossing over your bottom leg's ankle to lock the position and trap their leg completely
+5. **Pin opponent's hip**: Use your bottom leg to hook and pin the opponent's far hip, preventing them from sitting up, rotating toward you, or creating the space needed for standard kneebar escapes
+6. **Apply extension**: Arch your hips forward while pulling the ankle tight to your chest, creating hyperextension pressure on the knee joint by driving your pelvis against the back of their knee while controlling foot position
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the kneebar from cross ashi serves as both a primary attack and a
 ## Training Progressions
 **Week 1-2** - Hip positioning mechanics
 Practice the transition from cross ashi to kneebar position with no resistance, focusing on precise hip placement and triangle leg configuration. Drill 50 repetitions daily emphasizing the hip-behind-knee fulcrum concept.
-(Resistance: None)
 
 **Week 3-4** - Grip and control integration
 Add figure-four ankle grip and hip hook control to the drill. Partner provides light resistance to test grip security. Focus on maintaining ankle control throughout the entire transition without gaps.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chains
 Partner defends with common counters (sitting up, kicking free, posting). Practice adjusting to their defense and chaining to calf slicer or returning to heel hook. Build the submission chain recognition.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate kneebar transitions into live rolling from cross ashi. Focus on recognizing optimal timing when opponent defends heel hooks. Apply controlled pressure respecting partner's tap timing.
-(Resistance: Full)
 
 
 

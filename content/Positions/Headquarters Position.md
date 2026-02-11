@@ -341,11 +341,11 @@ Start from compromised positions where opponent has frames, partial guard recove
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 70% | 45% | 15% |
-| Intermediate | 85% | 65% | 30% |
-| Advanced     | 95% | 80% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 90% |
+| Advancement Probability | 72% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 30-90 seconds before advancing to side control or mount, or returning to guard configurations
 

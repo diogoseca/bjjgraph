@@ -157,7 +157,7 @@ This technique becomes particularly viable when opponents successfully defend he
 Strategically, the calf slicer forces opponents into a defensive dilemma - if they straighten their leg to relieve calf pressure, they expose the heel for heel hook attacks. If they keep the leg bent to protect the heel, the calf slicer becomes increasingly dangerous. This creates the systematic pressure cascades that define high-level leg lock offense.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the calf slicer forces opponents into a defensive dilemma - if th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg control**: From 50-50 top position, establish strong two-handed control on opponent's foot and ankle. Cup the heel with one hand while the other grips the ankle or Achilles area to prevent leg straightening. (Timing: Before opponent can extract or straighten leg)
-2. **Position shin as fulcrum**: Thread your inside leg deeper into the entanglement, positioning your shin bone directly behind the crease of opponent's knee. The bony edge of your shin should contact the soft tissue behind their knee joint. (Timing: While maintaining foot control)
-3. **Establish figure-four**: Triangle your legs by placing your outside foot behind your inside knee, creating a figure-four lock around opponent's trapped leg. This prevents extraction and amplifies compression force. (Timing: Immediately after shin placement)
-4. **Create perpendicular angle**: Rotate your upper body perpendicular to opponent's leg line by turning toward your inside shoulder. This angle maximizes mechanical advantage for the compression and prevents them from rolling to escape. (Timing: As you establish the figure-four)
-5. **Pull foot to chest**: Draw opponent's foot toward your chest using your grip on their ankle/heel. This bends their leg further around your shin fulcrum, increasing calf compression. Keep elbows tight to body for maximum pulling power. (Timing: Continuous throughout finish)
-6. **Extend hips for finish**: Drive your hips forward and upward while maintaining the foot pull toward your chest. This hip extension creates the crushing pressure that compresses the calf muscle against your shin bone, forcing the tap. (Timing: Final finishing movement)
+1. **Secure leg control**: From 50-50 top position, establish strong two-handed control on opponent's foot and ankle. Cup the heel with one hand while the other grips the ankle or Achilles area to prevent leg straightening.
+2. **Position shin as fulcrum**: Thread your inside leg deeper into the entanglement, positioning your shin bone directly behind the crease of opponent's knee. The bony edge of your shin should contact the soft tissue behind their knee joint.
+3. **Establish figure-four**: Triangle your legs by placing your outside foot behind your inside knee, creating a figure-four lock around opponent's trapped leg. This prevents extraction and amplifies compression force.
+4. **Create perpendicular angle**: Rotate your upper body perpendicular to opponent's leg line by turning toward your inside shoulder. This angle maximizes mechanical advantage for the compression and prevents them from rolling to escape.
+5. **Pull foot to chest**: Draw opponent's foot toward your chest using your grip on their ankle/heel. This bends their leg further around your shin fulcrum, increasing calf compression. Keep elbows tight to body for maximum pulling power.
+6. **Extend hips for finish**: Drive your hips forward and upward while maintaining the foot pull toward your chest. This hip extension creates the crushing pressure that compresses the calf muscle against your shin bone, forcing the tap.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the calf slicer forces opponents into a defensive dilemma - if th
 ## Training Progressions
 **Week 1-2** - Shin placement fundamentals
 Practice positioning your shin behind partner's knee crease from static 50-50 position. Partner remains passive while you develop feel for correct fulcrum placement. Drill figure-four leg configuration repeatedly.
-(Resistance: None)
 
 **Week 3-4** - Mechanics and finishing
 Add controlled hip extension and foot-pull mechanics to static drilling. Partner signals pressure level so you develop finishing sensitivity. Practice body angle rotation for maximum leverage.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and transitions
 Partner begins defending by straightening leg or rolling. Practice transitioning to heel hook when leg straightens and maintaining position through rolls. Develop timing for when to commit versus transition.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate into live rolling from 50-50 positions. Practice recognizing calf slicer opportunities during scrambles and heel hook exchanges. Develop competition timing and finishing under resistance.
-(Resistance: Full)
 
 
 

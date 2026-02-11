@@ -163,7 +163,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 **Type**: Spinal Compression
 **Target Area**: Lumbar spine and hip flexors
 **Starting Position**: [[Turtle]]
-**Success Rates**: Beginner 20%, Intermediate 35%, Advanced 50%
+**Success Rate**: 42%
 
 </section>
 
@@ -241,13 +241,13 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish leg control from turtle**: From opponent's turtle position or back control, secure grips on both of their ankles or lower legs. The grip should be firm but allow you to manipulate their legs. Ensure opponent is flattened or unable to effectively post with their hands. Your position should be behind or to the side of the opponent with clear access to both legs. (Timing: 2-3 seconds for secure grips) [Pressure: Light]
-2. **Step over opponent's body**: While maintaining ankle control, step one leg over the opponent's back so you are standing over them facing their legs. Your feet should be positioned on either side of their torso. This positioning allows you to control their leg position while preparing for the sit-back motion. Keep your weight distributed to maintain balance. (Timing: 2-3 seconds) [Pressure: Light]
-3. **Turn and position legs**: Turn your body 180 degrees so you are now facing away from the opponent's head while maintaining ankle grips. Position opponent's legs so their shins are controlled against your hips or lower back area. Their knees should be relatively close together. This alignment is critical for proper spinal mechanics when you sit back. (Timing: 3-4 seconds) [Pressure: Moderate]
-4. **Begin sitting back slowly**: SLOWLY begin to sit your hips back and down, which will naturally elevate the opponent's hips and create extension in their lower back. Keep opponent's ankles controlled close to your body. The further you sit back, the more their spine extends. THIS MUST BE DONE GRADUALLY. Watch for tap signals constantly as opponent may have limited defensive options. (Timing: 4-5 seconds minimum) [Pressure: Moderate]
-5. **Establish seated control position**: Continue sitting back until you reach a seated position with your weight posted back on your hands or full seated posture. Opponent's legs should be elevated and their lower back creating an arch. Their hips are off the mat and spine is in hyperextension. Maintain steady pressure without increasing - at this point pressure is already significant. (Timing: 3-4 seconds) [Pressure: Firm]
-6. **Maintain finishing position with communication**: Hold the finishing position while monitoring opponent closely for tap signals. The submission pressure comes from the sustained spinal extension, not from increasing pressure. Keep opponent's ankles controlled and your hips back. Be prepared for immediate release on any tap signal. In training, hold position briefly only and release proactively before maximum pressure. (Timing: Hold until tap or 2-3 seconds in training) [Pressure: Firm]
-7. **Controlled release**: On tap signal or when appropriate in training, immediately release ankle grips and sit forward to remove spinal extension. Lower opponent's hips gently back to mat and allow them to flatten out completely. Check that training partner is okay before continuing. Never release explosively or allow opponent to drop suddenly. (Timing: 3-4 seconds for complete release) [Pressure: Light]
+1. **Establish leg control from turtle**: From opponent's turtle position or back control, secure grips on both of their ankles or lower legs. The grip should be firm but allow you to manipulate their legs. Ensure opponent is flattened or unable to effectively post with their hands. Your position should be behind or to the side of the opponent with clear access to both legs. (Timing: 2-3 seconds for secure grips)
+2. **Step over opponent's body**: While maintaining ankle control, step one leg over the opponent's back so you are standing over them facing their legs. Your feet should be positioned on either side of their torso. This positioning allows you to control their leg position while preparing for the sit-back motion. Keep your weight distributed to maintain balance. (Timing: 2-3 seconds)
+3. **Turn and position legs**: Turn your body 180 degrees so you are now facing away from the opponent's head while maintaining ankle grips. Position opponent's legs so their shins are controlled against your hips or lower back area. Their knees should be relatively close together. This alignment is critical for proper spinal mechanics when you sit back. (Timing: 3-4 seconds)
+4. **Begin sitting back slowly**: SLOWLY begin to sit your hips back and down, which will naturally elevate the opponent's hips and create extension in their lower back. Keep opponent's ankles controlled close to your body. The further you sit back, the more their spine extends. THIS MUST BE DONE GRADUALLY. Watch for tap signals constantly as opponent may have limited defensive options. (Timing: 4-5 seconds minimum)
+5. **Establish seated control position**: Continue sitting back until you reach a seated position with your weight posted back on your hands or full seated posture. Opponent's legs should be elevated and their lower back creating an arch. Their hips are off the mat and spine is in hyperextension. Maintain steady pressure without increasing - at this point pressure is already significant. (Timing: 3-4 seconds)
+6. **Maintain finishing position with communication**: Hold the finishing position while monitoring opponent closely for tap signals. The submission pressure comes from the sustained spinal extension, not from increasing pressure. Keep opponent's ankles controlled and your hips back. Be prepared for immediate release on any tap signal. In training, hold position briefly only and release proactively before maximum pressure. (Timing: Hold until tap or 2-3 seconds in training)
+7. **Controlled release**: On tap signal or when appropriate in training, immediately release ankle grips and sit forward to remove spinal extension. Lower opponent's hips gently back to mat and allow them to flatten out completely. Check that training partner is okay before continuing. Never release explosively or allow opponent to drop suddenly. (Timing: 3-4 seconds for complete release)
 
 
 </section>
@@ -266,25 +266,25 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying pressure too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly or explosively
   - **Consequence**: Severe spinal injury risk, training partner unable to tap safely, potential long-term damage to opponent's lower back
   - **Correction**: Always apply pressure gradually over 5-7 seconds minimum. Pause at each phase to ensure opponent is not in distress. Remember this is a training tool, not a competition finishing technique in most contexts.
-- **Mistake**: Failing to control both legs securely [Low DANGER]
+- **Mistake**: Failing to control both legs securely
   - **Consequence**: Opponent easily escapes by extracting one leg, submission has no finishing pressure, position becomes scramble
   - **Correction**: Ensure both ankle grips are secure before stepping over opponent's body. Test grips by slightly manipulating legs before committing to the position. If one leg feels loose, reset and re-establish control.
-- **Mistake**: Sitting back too far or leaning too far backward [CRITICAL DANGER]
+- **Mistake**: Sitting back too far or leaning too far backward
   - **Consequence**: Excessive spinal hyperextension beyond safe limits, increased injury risk, loss of control if you lose balance
   - **Correction**: Sit back only until opponent shows submission pressure. You do not need to lean all the way back. Maintain a sustainable seated posture where you can control the pressure level and respond to tap signals immediately.
-- **Mistake**: Attempting from positions without proper leg control [Low DANGER]
+- **Mistake**: Attempting from positions without proper leg control
   - **Consequence**: Failed technique, wasted energy, opponent escapes easily, exposure to opponent's counters
   - **Correction**: Only attempt Boston Crab when opponent is flattened or in turtle with both legs accessible. From standing or open guard, pursue other submission chains. Proper position before technique.
-- **Mistake**: Not monitoring opponent for tap signals [CRITICAL DANGER]
+- **Mistake**: Not monitoring opponent for tap signals
   - **Consequence**: Serious injury to training partner, spinal damage that could be permanent, breakdown of training trust
   - **Correction**: Maintain constant awareness of opponent's tap signals. Since their hands may be posted, be especially attentive to verbal taps and distress sounds. When in doubt, release pressure and check in with training partner.
-- **Mistake**: Using in competitions where rules prohibit spinal locks [Medium DANGER]
+- **Mistake**: Using in competitions where rules prohibit spinal locks
   - **Consequence**: Immediate disqualification, potential point deductions or loss, violation of competition rules
   - **Correction**: Verify competition rules before attempting. IBJJF and many other organizations prohibit spinal compression submissions. Save this technique for no-gi competitions, catch wrestling, or MMA contexts where legal.
-- **Mistake**: Dropping opponent or releasing explosively [High DANGER]
+- **Mistake**: Dropping opponent or releasing explosively
   - **Consequence**: Spinal whiplash injury, sudden decompression damage, loss of training partner trust
   - **Correction**: Always release by sitting forward and lowering opponent's hips gently back to mat. Control the descent completely. Think of the release as important as the application for safety.
 
@@ -349,43 +349,6 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Demonstration** (Week 1-2)
-- Focus: Learn anatomy, mechanics, and safety protocols through demonstration and discussion only. Understand spinal hyperextension mechanics, injury risks, and rule restrictions. Watch instructional footage and discuss proper application with instructor supervision.
-- Resistance: None
-- Safety: Complete understanding of spinal anatomy, injury mechanisms, and safety requirements before any physical practice. Review tap signals and release protocols extensively. Confirm competition rule legality for intended use cases.
-
-**Positional Flow Drilling** (Week 2-3)
-- Focus: Practice leg control grips, step-over mechanics, and body positioning without applying any backward pressure. Focus on the entry sequence and establishing position only. Partner remains flat with no spinal extension. Drill the release protocol repeatedly.
-- Resistance: Zero resistance
-- Safety: No spinal pressure applied whatsoever. Practice only the setup and positioning. Both partners practice communication and tap signal recognition. Drill release protocol after every positional setup.
-
-**Minimal Pressure Introduction** (Week 4-6)
-- Focus: Begin applying very light backward pressure just to the point where partner feels slight lower back engagement. Sit back only a few inches. Focus on extremely slow, controlled pressure application taking 7-10 seconds. Stop well before any discomfort level.
-- Resistance: Zero resistance
-- Safety: Partner taps immediately when feeling any pressure to establish comfort with tap signals. Attacker practices stopping at minimal pressure levels. Constant verbal communication throughout. Multiple repetitions with immediate release after brief pressure.
-
-**Progressive Pressure with Communication** (Week 7-10)
-- Focus: Gradually increase sitting-back depth while maintaining slow application (5-7 seconds). Partner provides verbal feedback about pressure levels. Practice at 40-50% of submission pressure only. Focus on recognizing the point where submission becomes threatening and stopping before that threshold.
-- Resistance: Mild resistance
-- Safety: Partner maintains constant verbal communication about pressure levels. Practice tapping at appropriate times before pressure becomes concerning. Never approach maximum pressure in this phase. Both partners develop sensitivity to appropriate pressure thresholds.
-
-**Realistic Drilling with Safety Parameters** (Week 11-16)
-- Focus: Apply realistic submission pressure (70-80% maximum) with proper technique from various setups. Partner may attempt realistic defenses. Practice full sequences including defense, adjustment, and proper release protocols. Begin integrating into rolling scenarios with clear safety agreements.
-- Resistance: Realistic resistance
-- Safety: Both partners must be experienced grapplers who understand spinal lock safety. Mandatory tap at first sign of discomfort rather than testing limits. Practice only with trusted training partners. Instructor supervision recommended for initial realistic-pressure attempts.
-
-**Competition Application (If Legal)** (Month 5+)
-- Focus: Full-speed application in competition contexts where legal (catch wrestling, submission-only, MMA). Apply maximum pressure when appropriate but still maintain controlled application. Integrate into overall back attack and turtle attack systems. Develop timing for entries during transitions.
-- Resistance: Full resistance
-- Safety: Only apply in competitions where spinal locks are legal. Verify rules beforehand. Release immediately on tap - no exceptions. Understand that even in competition, spinal safety is paramount. Be prepared to defend technique to referees if questioned about legality.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -436,6 +399,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

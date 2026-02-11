@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Follow to Back Control represents a critical transitional technique from the Ushiro Ashi-Garami position when an opponent commits fully to inverting and turning away from leg entanglement attacks. Rather than forcing low-percentage heel hook attempts on a rapidly rotating opponent, this technique capitalizes on their defensive momentum by abandoning the leg attack and securing the superior back control position.\n\nThe fundamental premise is recognizing when an opponent's inversion has progressed beyond the point where leg attacks remain viable. When the opponent commits to turtle rotation to escape leg entanglements, they necessarily expose their back. The skilled practitioner reads this commitment and transitions from leg hunter to back taker, following the opponent's rotation while establishing upper body control and hook placement.\n\nThis technique embodies a core principle of positional BJJ: accepting what the opponent gives rather than forcing techniques against strong defensive structures. An opponent who commits fully to escaping leg entanglements via inversion makes a calculated trade—they accept back exposure to eliminate leg attack danger. The practitioner who can smoothly transition to back control punishes this defensive choice with a dominant position offering numerous submission threats including rear naked choke, bow and arrow variations, and armbar attacks.",
   "key_principles": [
     "Recognize when opponent's inversion momentum makes leg attacks low-percentage and back take becomes optimal",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Read the rotation",
-      "description": "Identify when opponent's inversion has crossed the commitment threshold—their hips have rotated past 90 degrees and they are actively turning toward turtle rather than defending the heel. This is your trigger to abandon leg attacks.",
-      "timing": "When opponent's rotation accelerates"
+      "description": "Identify when opponent's inversion has crossed the commitment threshold—their hips have rotated past 90 degrees and they are actively turning toward turtle rather than defending the heel. This is your trigger to abandon leg attacks."
     },
     {
       "step_number": 2,
       "action": "Release leg entanglement",
-      "description": "Uncross your legs and release the figure-four configuration. Do not simply let go—actively push off their trapped leg with your feet to generate momentum toward their upper body. Your legs should clear their hips.",
-      "timing": "Immediately after recognizing commitment"
+      "description": "Uncross your legs and release the figure-four configuration. Do not simply let go—actively push off their trapped leg with your feet to generate momentum toward their upper body. Your legs should clear their hips."
     },
     {
       "step_number": 3,
       "action": "Follow with hips",
-      "description": "Drive your hips forward and around to follow opponent's rotation. Your pelvis should track their hip movement, staying connected to their body rather than reaching with your arms. Hip-to-hip connection prevents space creation.",
-      "timing": "Continuous motion with their rotation"
+      "description": "Drive your hips forward and around to follow opponent's rotation. Your pelvis should track their hip movement, staying connected to their body rather than reaching with your arms. Hip-to-hip connection prevents space creation."
     },
     {
       "step_number": 4,
       "action": "Establish seat belt",
-      "description": "As your chest arrives at their upper back, immediately secure the seat belt grip with one arm over their shoulder and one under their opposite armpit. Clasp hands together tightly at their sternum level. Over-arm should be on the choking side.",
-      "timing": "As chest contacts upper back"
+      "description": "As your chest arrives at their upper back, immediately secure the seat belt grip with one arm over their shoulder and one under their opposite armpit. Clasp hands together tightly at their sternum level. Over-arm should be on the choking side."
     },
     {
       "step_number": 5,
       "action": "Insert bottom hook",
-      "description": "With seat belt secured, insert your bottom hook (the leg closest to the mat) by threading your instep inside their bottom thigh. This hook controls their hip rotation and prevents them from completing a granby roll to escape.",
-      "timing": "Within 1-2 seconds of seat belt"
+      "description": "With seat belt secured, insert your bottom hook (the leg closest to the mat) by threading your instep inside their bottom thigh. This hook controls their hip rotation and prevents them from completing a granby roll to escape."
     },
     {
       "step_number": 6,
       "action": "Flatten and insert top hook",
-      "description": "Use chest pressure and the bottom hook to flatten opponent onto their side or belly. As they flatten, thread your top hook inside their top thigh. Lock both ankles together or triangle your legs for maximum control consolidation.",
-      "timing": "Once opponent begins flattening"
+      "description": "Use chest pressure and the bottom hook to flatten opponent onto their side or belly. As they flatten, thread your top hook inside their top thigh. Lock both ankles together or triangle your legs for maximum control consolidation."
     }
   ],
   "common_counters": [
@@ -134,26 +123,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rotation recognition and release timing",
-      "description": "Partner performs slow inversion escapes from Ushiro Ashi-Garami. Practice identifying the commitment point and releasing leg entanglement at the correct moment. No resistance—focus purely on reading the rotation trigger.",
-      "resistance_level": "None"
+      "description": "Partner performs slow inversion escapes from Ushiro Ashi-Garami. Practice identifying the commitment point and releasing leg entanglement at the correct moment. No resistance—focus purely on reading the rotation trigger."
     },
     {
       "phase": "Week 3-4",
       "focus": "Hip following and seat belt establishment",
-      "description": "Partner inverts at moderate speed. Practice following with your hips and establishing the seat belt grip quickly upon arrival. Partner provides light defensive hand fighting to develop grip breaking skills.",
-      "resistance_level": "Light"
+      "description": "Partner inverts at moderate speed. Practice following with your hips and establishing the seat belt grip quickly upon arrival. Partner provides light defensive hand fighting to develop grip breaking skills."
     },
     {
       "phase": "Week 5-6",
       "focus": "Hook insertion under pressure",
-      "description": "Partner actively defends by attempting to re-guard or complete turtle escape. Develop ability to insert hooks while maintaining seat belt against defensive movement. Drill both hook insertion orders to understand why bottom-first is superior.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends by attempting to re-guard or complete turtle escape. Develop ability to insert hooks while maintaining seat belt against defensive movement. Drill both hook insertion orders to understand why bottom-first is superior."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration and chain attacks",
-      "description": "Positional sparring from Ushiro Ashi-Garami where attacker must choose between leg attacks and back take based on opponent's defensive reactions. Develop real-time decision-making and smooth transitions between leg game and back control systems.",
-      "resistance_level": "Full"
+      "description": "Positional sparring from Ushiro Ashi-Garami where attacker must choose between leg attacks and back take based on opponent's defensive reactions. Develop real-time decision-making and smooth transitions between leg game and back control systems."
     }
   ],
   "variants_and_adaptations": [
@@ -171,53 +156,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Follow to Back Control?",
-      "answer": "The primary goal is to capitalize on an opponent's committed inversion escape by abandoning low-percentage leg attacks and transitioning to the dominant back control position. Rather than forcing heel hooks against a rapidly rotating opponent, you follow their defensive momentum to secure a position with multiple high-percentage submission threats.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to capitalize on an opponent's committed inversion escape by abandoning low-percentage leg attacks and transitioning to the dominant back control position. Rather than forcing heel hooks against a rapidly rotating opponent, you follow their defensive momentum to secure a position with multiple high-percentage submission threats."
     },
     {
       "question": "What position do you start Follow to Back Control from?",
-      "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where you have maintained control despite the opponent's inversion attempt. The position is characterized by your outside leg crossing over their knee line with inside leg underneath, creating a figure-four from a reversed angle.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Ushiro Ashi-Garami/Top, the reversed leg entanglement position where you have maintained control despite the opponent's inversion attempt. The position is characterized by your outside leg crossing over their knee line with inside leg underneath, creating a figure-four from a reversed angle."
     },
     {
       "question": "Your opponent's hips have rotated 45 degrees and they are hand fighting—should you release the leg entanglement?",
-      "answer": "No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing.",
-      "difficulty": "Intermediate"
+      "answer": "No, this is too early. At 45 degrees with active hand fighting, the opponent has not fully committed to inversion escape. They may reverse direction if you release, potentially entering their own leg entanglement. Wait until their hip rotation exceeds 90 degrees and they have clearly abandoned heel hook defense in favor of turtle escape before releasing."
     },
     {
       "question": "What are the key grips needed for Follow to Back Control?",
-      "answer": "The critical grip is the seat belt (over-under): one arm over the opponent's shoulder with hand reaching toward opposite pectoral, one arm under their opposite armpit with hand clasping the over-arm hand at sternum level. The underhook must be deep with elbow tight to ribcage to prevent peeling.",
-      "difficulty": "Beginner"
+      "answer": "The critical grip is the seat belt (over-under): one arm over the opponent's shoulder with hand reaching toward opposite pectoral, one arm under their opposite armpit with hand clasping the over-arm hand at sternum level. The underhook must be deep with elbow tight to ribcage to prevent peeling."
     },
     {
       "question": "Why must the bottom hook be inserted before the top hook?",
-      "answer": "The bottom hook controls the opponent's hip movement and prevents granby roll escapes. Without bottom hook control, the opponent can granby roll over the attempted top hook insertion, escaping back control entirely. The bottom hook anchors your position, making top hook insertion safe.",
-      "difficulty": "Intermediate"
+      "answer": "The bottom hook controls the opponent's hip movement and prevents granby roll escapes. Without bottom hook control, the opponent can granby roll over the attempted top hook insertion, escaping back control entirely. The bottom hook anchors your position, making top hook insertion safe."
     },
     {
       "question": "How do you counter an opponent who reaches back to block your underhook?",
-      "answer": "Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm laterally, exposing their back on the cleared side. Once the arm is controlled, establish the seat belt grip before they can retract the arm for another defensive attempt.",
-      "difficulty": "Intermediate"
+      "answer": "Switch to a two-on-one arm drag grip on their defending arm. Use this grip to clear the arm laterally, exposing their back on the cleared side. Once the arm is controlled, establish the seat belt grip before they can retract the arm for another defensive attempt."
     },
     {
       "question": "When is the best time to attempt Follow to Back Control?",
-      "answer": "The optimal timing is when the opponent's hip rotation has crossed the commitment threshold (past 90 degrees) and they are actively rotating toward turtle position. Their defensive attention is focused on clearing the leg entanglement rather than defending upper body control, creating a window for back access.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent's hip rotation has crossed the commitment threshold (past 90 degrees) and they are actively rotating toward turtle position. Their defensive attention is focused on clearing the leg entanglement rather than defending upper body control, creating a window for back access."
     },
     {
       "question": "Your opponent is faster than you and always reaches turtle before you establish grips—how do you adjust?",
-      "answer": "Release the leg entanglement earlier, before their rotation reaches peak acceleration. Anticipate the commitment rather than reacting to it. If they consistently reach turtle despite earlier release, accept this outcome and transition to turtle attack series—front headlock, clock choke, or spiral ride—rather than forcing a compromised back take.",
-      "difficulty": "Advanced"
+      "answer": "Release the leg entanglement earlier, before their rotation reaches peak acceleration. Anticipate the commitment rather than reacting to it. If they consistently reach turtle despite earlier release, accept this outcome and transition to turtle attack series—front headlock, clock choke, or spiral ride—rather than forcing a compromised back take."
     },
     {
       "question": "What indicates the opponent may be baiting the back take to re-guard?",
-      "answer": "Watch for opponents who rotate past 90 degrees but keep their elbows connected to their knees, maintain strong frames with their hands, or rotate without urgency. These signs suggest they are creating false commitment to draw you off the legs, then will shoot their hips back as you release to re-establish guard. Maintain leg control longer against these opponents.",
-      "difficulty": "Advanced"
+      "answer": "Watch for opponents who rotate past 90 degrees but keep their elbows connected to their knees, maintain strong frames with their hands, or rotate without urgency. These signs suggest they are creating false commitment to draw you off the legs, then will shoot their hips back as you release to re-establish guard. Maintain leg control longer against these opponents."
     },
     {
       "question": "You have seat belt but cannot flatten your opponent to insert hooks—what options do you have?",
-      "answer": "If the opponent maintains a strong turtle, shift to turtle attack variations: attempt clock choke, transition to crucifix by threading over their near arm, or insert a single hook and work for body triangle from three-quarter back. Alternatively, maintain seat belt and hip pressure until they fatigue and flatten naturally.",
-      "difficulty": "Advanced"
+      "answer": "If the opponent maintains a strong turtle, shift to turtle attack variations: attempt clock choke, transition to crucifix by threading over their near arm, or insert a single hook and work for body triangle from three-quarter back. Alternatively, maintain seat belt and hip pressure until they fatigue and flatten naturally."
     }
   ],
   "safety_considerations": "Follow to Back Control is a relatively safe transition with low injury risk when practiced correctly. The primary safety concern is avoiding neck cranking during seat belt establishment—apply chest pressure to opponent's upper back rather than pulling backward on their neck. During training, allow partners to tap early if the transition traps their arm in an uncomfortable position. Beginners should avoid explosive hip driving that could cause training partner's face to contact the mat. When drilling at high speeds, communicate clearly about commitment levels to prevent collisions during the rotation phase.",
@@ -255,5 +230,6 @@
       "name": "Body Triangle Lock",
       "relationship": "Control consolidation option after establishing back control"
     }
-  ]
+  ],
+  "success_rate": 58
 }

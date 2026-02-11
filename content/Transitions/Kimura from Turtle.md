@@ -163,7 +163,7 @@ The strategic value of the kimura from turtle extends beyond the immediate shoul
 From a positional standpoint, the kimura from turtle is particularly effective against opponents who have strong turtle defense with tight elbows and good rolling mechanics. Rather than engaging in the timing battle required for back takes against a skilled turtle player, the kimura attack forces them to extend an arm to defend, which paradoxically creates the very opening you need. The technique integrates seamlessly with the broader turtle attack system, serving as both a primary finish and a forcing function that opens other techniques.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ From a positional standpoint, the kimura from turtle is particularly effective a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Bait arm extension**: From turtle top with chest pressure on opponent's back, threaten a front headlock or back take attempt to force them to post a hand for defense or attempt a standup - this creates the arm extension needed for grip acquisition. (Timing: When opponent shows defensive reaction)
-2. **Thread arm under tricep**: As their arm extends, your near arm shoots underneath their tricep from the outside, palm facing up, threading deep until your forearm contacts their upper arm near the elbow. Maintain chest pressure throughout. (Timing: Immediately when arm extends)
-3. **Complete figure-four grip**: Your far hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four configuration. Squeeze elbows tight together to prevent any gap that would allow arm extraction. (Timing: Within 1-2 seconds of initial thread)
-4. **Establish chest pressure control**: Drive your chest down onto their shoulder blade and upper back while maintaining the grip. This flattens their turtle structure and prevents explosive standup or rolling escape attempts during transition. (Timing: Simultaneous with grip completion)
-5. **Circle toward head**: Walk your feet in an arc toward opponent's head while maintaining the figure-four grip and chest pressure. Each step increases your mechanical advantage on the shoulder. Aim to reach perpendicular position with your chest over their shoulder. (Timing: Gradual hip walk over 2-3 seconds)
-6. **Pin elbow and create angle**: Pull their trapped elbow tight against your hip while keeping their wrist elevated. Their arm should be bent at 90 degrees. Use your body positioning to create maximum rotational leverage on the shoulder joint. (Timing: After establishing perpendicular angle)
-7. **Apply rotational finish**: Drive their wrist toward the mat using hip rotation while maintaining elbow pin. The shoulder lock pressure increases progressively. If they roll to escape, follow to back control. If they flatten, continue to Kimura Trap for finish. (Timing: Controlled steady pressure until tap or transition)
+1. **Bait arm extension**: From turtle top with chest pressure on opponent's back, threaten a front headlock or back take attempt to force them to post a hand for defense or attempt a standup - this creates the arm extension needed for grip acquisition.
+2. **Thread arm under tricep**: As their arm extends, your near arm shoots underneath their tricep from the outside, palm facing up, threading deep until your forearm contacts their upper arm near the elbow. Maintain chest pressure throughout.
+3. **Complete figure-four grip**: Your far hand reaches over their trapped arm and grips your own wrist firmly, creating the classic figure-four configuration. Squeeze elbows tight together to prevent any gap that would allow arm extraction.
+4. **Establish chest pressure control**: Drive your chest down onto their shoulder blade and upper back while maintaining the grip. This flattens their turtle structure and prevents explosive standup or rolling escape attempts during transition.
+5. **Circle toward head**: Walk your feet in an arc toward opponent's head while maintaining the figure-four grip and chest pressure. Each step increases your mechanical advantage on the shoulder. Aim to reach perpendicular position with your chest over their shoulder.
+6. **Pin elbow and create angle**: Pull their trapped elbow tight against your hip while keeping their wrist elevated. Their arm should be bent at 90 degrees. Use your body positioning to create maximum rotational leverage on the shoulder joint.
+7. **Apply rotational finish**: Drive their wrist toward the mat using hip rotation while maintaining elbow pin. The shoulder lock pressure increases progressively. If they roll to escape, follow to back control. If they flatten, continue to Kimura Trap for finish.
 
 
 </section>
@@ -265,19 +265,15 @@ From a positional standpoint, the kimura from turtle is particularly effective a
 ## Training Progressions
 **Week 1-2** - Grip mechanics from turtle top
 Practice figure-four grip establishment from turtle top position with compliant partner. Focus on threading under the arm without losing chest pressure, proper wrist cup position, and squeezing elbows tight. Drill 50+ grip entries per session.
-(Resistance: None)
 
 **Week 3-4** - Angle creation and finishing mechanics
 Add the hip walk toward opponent's head and practice the finishing rotation. Partner provides light resistance. Focus on recognizing when angle is sufficient for finish and applying controlled progressive pressure.
-(Resistance: Light)
 
 **Week 5-6** - Transition chains and reactions
 Partner actively defends with rolling, flattening, and arm straightening. Practice following rolls to back control, transitioning to side control kimura trap when they flatten, and armbar transition when they straighten. Build complete system.
-(Resistance: Medium)
 
 **Week 7+** - Live integration from turtle attacks
 Apply the kimura from turtle in live rolling starting from turtle top position. Focus on recognizing when arm becomes available during natural turtle defense and escape attempts. Chain with back takes and front headlock attacks.
-(Resistance: Full)
 
 
 

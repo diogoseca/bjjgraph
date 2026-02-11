@@ -11,11 +11,6 @@
     "sweep",
     "recovery"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies. This transition emphasizes proper hip movement, head positioning, and timing to safely navigate underneath the opponent's base. Modern practitioners have refined this entry to work against various passing styles, making it an essential component of comprehensive guard retention systems. The technique demonstrates the principle of using depth and angle changes to create defensive depth while maintaining offensive threats.",
   "key_principles": [
     "Create angle with hip escape before diving underneath opponent's base",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish inside positioning",
-      "description": "From open guard, use your inside leg to create a butterfly hook or shin shield against your opponent's near leg. Simultaneously grip their pants at the knee or ankle with your near-side hand while your far hand controls their belt or far hip. This creates the necessary frame and angle for entry.",
-      "timing": "As opponent begins forward pressure or prepares to initiate pass"
+      "description": "From open guard, use your inside leg to create a butterfly hook or shin shield against your opponent's near leg. Simultaneously grip their pants at the knee or ankle with your near-side hand while your far hand controls their belt or far hip. This creates the necessary frame and angle for entry."
     },
     {
       "step_number": 2,
       "action": "Create angle with hip escape",
-      "description": "Execute a strong hip escape away from your opponent, rotating your hips approximately 45 degrees to create the angle needed to dive underneath. Your shoulders should turn toward the mat while maintaining your grips. This hip movement opens the pathway under your opponent's leg while protecting your back exposure.",
-      "timing": "Immediately following inside leg establishment"
+      "description": "Execute a strong hip escape away from your opponent, rotating your hips approximately 45 degrees to create the angle needed to dive underneath. Your shoulders should turn toward the mat while maintaining your grips. This hip movement opens the pathway under your opponent's leg while protecting your back exposure."
     },
     {
       "step_number": 3,
       "action": "Dive underneath near leg",
-      "description": "Drive your head and shoulders underneath your opponent's near leg, threading your body through the space between their legs. Your head must pass to the outside of their leg, never between their legs. Keep your chin tucked and neck protected as you slide underneath, using your grips to pull yourself through while your legs follow.",
-      "timing": "As opponent's weight shifts forward onto their hands or begins lateral movement"
+      "description": "Drive your head and shoulders underneath your opponent's near leg, threading your body through the space between their legs. Your head must pass to the outside of their leg, never between their legs. Keep your chin tucked and neck protected as you slide underneath, using your grips to pull yourself through while your legs follow."
     },
     {
       "step_number": 4,
       "action": "Secure first connection point",
-      "description": "As your torso passes underneath, immediately wrap your near arm around the back of your opponent's near leg, securing it to your chest. Your head should be positioned on the outside of this leg, creating a barrier against crossface attempts. This first connection point is critical for structural integrity of the position.",
-      "timing": "Immediately upon clearing opponent's knee with your shoulder"
+      "description": "As your torso passes underneath, immediately wrap your near arm around the back of your opponent's near leg, securing it to your chest. Your head should be positioned on the outside of this leg, creating a barrier against crossface attempts. This first connection point is critical for structural integrity of the position."
     },
     {
       "step_number": 5,
       "action": "Complete deep half structure",
-      "description": "Bring your bottom leg (the one closest to the mat) across your opponent's far hip as a deep underhook, creating the characteristic deep half structure. Your top leg should hook over their near leg, establishing the lockdown or maintaining mobility for sweeps. Ensure your body is perpendicular to your opponent's, maximizing your leverage advantage.",
-      "timing": "Within 1-2 seconds of securing arm wrap around near leg"
+      "description": "Bring your bottom leg (the one closest to the mat) across your opponent's far hip as a deep underhook, creating the characteristic deep half structure. Your top leg should hook over their near leg, establishing the lockdown or maintaining mobility for sweeps. Ensure your body is perpendicular to your opponent's, maximizing your leverage advantage."
     },
     {
       "step_number": 6,
       "action": "Establish immediate sweeping threat",
-      "description": "Without pausing, immediately begin your preferred sweep sequence - whether old school sweep, waiter sweep, or Homer Simpson sweep. The transition is not complete until offensive action begins. Use your grips and leg positioning to off-balance your opponent, preventing them from establishing defensive posture in response to your entry.",
-      "timing": "Immediately upon completing deep half structure"
+      "description": "Without pausing, immediately begin your preferred sweep sequence - whether old school sweep, waiter sweep, or Homer Simpson sweep. The transition is not complete until offensive action begins. Use your grips and leg positioning to off-balance your opponent, preventing them from establishing defensive posture in response to your entry."
     }
   ],
   "common_counters": [
@@ -130,32 +119,27 @@
     {
       "phase": "Week 1-2: Static Entry Drilling",
       "focus": "Basic movement pattern and proper head positioning",
-      "description": "Partner maintains static standing position while you drill the entry sequence slowly. Focus exclusively on correct head position (outside the leg), hip escape angle, and grip maintenance. Repeat 20-30 times per training session, alternating sides. Partner provides zero resistance.",
-      "resistance_level": "None"
+      "description": "Partner maintains static standing position while you drill the entry sequence slowly. Focus exclusively on correct head position (outside the leg), hip escape angle, and grip maintenance. Repeat 20-30 times per training session, alternating sides. Partner provides zero resistance."
     },
     {
       "phase": "Week 3-4: Progressive Resistance Entry",
       "focus": "Entry timing against light movement",
-      "description": "Partner begins adding light resistance and movement, attempting to step back or circle away at 30% intensity. Practice following their movement and adjusting entry angle accordingly. Begin linking entry directly to old school or waiter sweep. 15-20 repetitions per side per session.",
-      "resistance_level": "Light"
+      "description": "Partner begins adding light resistance and movement, attempting to step back or circle away at 30% intensity. Practice following their movement and adjusting entry angle accordingly. Begin linking entry directly to old school or waiter sweep. 15-20 repetitions per side per session."
     },
     {
       "phase": "Week 5-8: Dynamic Drilling with Counters",
       "focus": "Problem-solving against common defensive reactions",
-      "description": "Partner actively attempts to prevent entry using sprawl, crossface, or disengagement at 50-60% intensity. Practice all counter-responses from common counters section. If entry fails, flow to alternative guards (butterfly, reverse De La Riva, seated guard). 10-15 quality repetitions per side, emphasizing decision-making.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to prevent entry using sprawl, crossface, or disengagement at 50-60% intensity. Practice all counter-responses from common counters section. If entry fails, flow to alternative guards (butterfly, reverse De La Riva, seated guard). 10-15 quality repetitions per side, emphasizing decision-making."
     },
     {
       "phase": "Week 9-12: Positional Sparring Integration",
       "focus": "Entry from live guard retention scenarios",
-      "description": "Start from open guard with partner attempting realistic passing sequences. Execute entry when tactical opportunities arise against standing or combat base passing. Partner uses full resistance but resets if successful sweep occurs. 5-minute rounds, 4-6 rounds per session. Focus on recognizing optimal entry timing.",
-      "resistance_level": "Full"
+      "description": "Start from open guard with partner attempting realistic passing sequences. Execute entry when tactical opportunities arise against standing or combat base passing. Partner uses full resistance but resets if successful sweep occurs. 5-minute rounds, 4-6 rounds per session. Focus on recognizing optimal entry timing."
     },
     {
       "phase": "Week 13+: Competition Simulation",
       "focus": "Entry under pressure with consequences",
-      "description": "Full positional sparring from open guard with scoring. Points awarded for successful entries that lead to sweeps, deductions for failed entries that result in guard passes. Partner uses competition-level intensity and strategy. Emphasize risk assessment and entry selection based on opponent's passing style.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring from open guard with scoring. Points awarded for successful entries that lead to sweeps, deductions for failed entries that result in guard passes. Partner uses competition-level intensity and strategy. Emphasize risk assessment and entry selection based on opponent's passing style."
     }
   ],
   "variants_and_adaptations": [
@@ -183,33 +167,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical safety consideration when entering deep half guard from open guard?",
-      "answer": "The most critical safety consideration is ensuring your head passes to the outside of your opponent's near leg, never between their legs. Diving with your head between the legs creates extreme vulnerability to guillotine chokes and front headlock positions that can result in immediate submission. Your head must always be positioned outside the leg to maintain defensive integrity while completing the transition. Additionally, maintaining a tucked chin throughout the entry protects against crossface attempts and maintains proper neck alignment.",
-      "difficulty": "Beginner"
+      "answer": "The most critical safety consideration is ensuring your head passes to the outside of your opponent's near leg, never between their legs. Diving with your head between the legs creates extreme vulnerability to guillotine chokes and front headlock positions that can result in immediate submission. Your head must always be positioned outside the leg to maintain defensive integrity while completing the transition. Additionally, maintaining a tucked chin throughout the entry protects against crossface attempts and maintains proper neck alignment."
     },
     {
       "question": "Why is the hip escape step essential before diving underneath your opponent's leg?",
-      "answer": "The hip escape creates the necessary angle to safely and efficiently dive underneath your opponent's base. Without this angle creation, the entry becomes linear and predictable, making it easy for the opponent to stuff the attempt by simply driving their weight forward or sprawling. The hip escape opens the pathway underneath the near leg by rotating your body approximately 45 degrees, creating space and a clear entry route. This angular approach also protects your back from exposure during the transition, as your shoulders rotate toward the mat rather than remaining flat. The angle makes the difference between a smooth, fast entry and a slow, easily defended attempt.",
-      "difficulty": "Intermediate"
+      "answer": "The hip escape creates the necessary angle to safely and efficiently dive underneath your opponent's base. Without this angle creation, the entry becomes linear and predictable, making it easy for the opponent to stuff the attempt by simply driving their weight forward or sprawling. The hip escape opens the pathway underneath the near leg by rotating your body approximately 45 degrees, creating space and a clear entry route. This angular approach also protects your back from exposure during the transition, as your shoulders rotate toward the mat rather than remaining flat. The angle makes the difference between a smooth, fast entry and a slow, easily defended attempt."
     },
     {
       "question": "What should you do immediately upon completing the deep half structure, and why is this timing critical?",
-      "answer": "Immediately upon completing the deep half structure, you must begin your sweeping sequence without any pause. This timing is critical because it prevents your opponent from establishing defensive posture in response to your entry. The transition and sweep should be treated as one continuous motion - the offensive advantage of deep half comes from the dynamic entry that immediately converts to attacking pressure. If you pause after achieving the position, you give your opponent time to base out, establish grips, and neutralize your sweeping mechanics. The most successful deep half entries flow seamlessly into old school sweep, waiter sweep, or Homer Simpson sweep variations, maintaining constant pressure and initiative.",
-      "difficulty": "Advanced"
+      "answer": "Immediately upon completing the deep half structure, you must begin your sweeping sequence without any pause. This timing is critical because it prevents your opponent from establishing defensive posture in response to your entry. The transition and sweep should be treated as one continuous motion - the offensive advantage of deep half comes from the dynamic entry that immediately converts to attacking pressure. If you pause after achieving the position, you give your opponent time to base out, establish grips, and neutralize your sweeping mechanics. The most successful deep half entries flow seamlessly into old school sweep, waiter sweep, or Homer Simpson sweep variations, maintaining constant pressure and initiative."
     },
     {
       "question": "How should your body be aligned relative to your opponent's body in proper deep half guard structure?",
-      "answer": "Your body should be positioned perpendicular to your opponent's body, forming a 'T' shape when viewed from above. This perpendicular alignment is fundamental to deep half guard mechanics because it maximizes your leverage advantage for sweeps while minimizing your opponent's ability to use their weight against you. If your body remains parallel to your opponent, you lose the mechanical advantage that makes deep half effective, and sweeps become exponentially more difficult. The perpendicular position allows you to use your entire body structure against a portion of your opponent's base, creating the leverage differential that powers successful sweeps from this position.",
-      "difficulty": "Intermediate"
+      "answer": "Your body should be positioned perpendicular to your opponent's body, forming a 'T' shape when viewed from above. This perpendicular alignment is fundamental to deep half guard mechanics because it maximizes your leverage advantage for sweeps while minimizing your opponent's ability to use their weight against you. If your body remains parallel to your opponent, you lose the mechanical advantage that makes deep half effective, and sweeps become exponentially more difficult. The perpendicular position allows you to use your entire body structure against a portion of your opponent's base, creating the leverage differential that powers successful sweeps from this position."
     },
     {
       "question": "What are the three most important connection points to establish during the deep half entry, and in what order?",
-      "answer": "The three most important connection points are: (1) Grips on opponent's pants/belt before initiating the dive - these provide the pulling power to thread your body underneath; (2) Near arm wrap around the back of opponent's near leg immediately upon clearing their knee with your shoulder - this secures your position and creates structural integrity; (3) Bottom leg underhook across opponent's far hip to complete the deep half structure - this establishes your sweeping mechanics. The order is critical because each connection point builds on the previous one. Without initial grips, you cannot effectively dive underneath. Without the immediate arm wrap, opponent can establish crossface or disengage. Without the leg underhook, you cannot generate sweeping leverage. These three connections work together to create the complete deep half structure.",
-      "difficulty": "Advanced"
+      "answer": "The three most important connection points are: (1) Grips on opponent's pants/belt before initiating the dive - these provide the pulling power to thread your body underneath; (2) Near arm wrap around the back of opponent's near leg immediately upon clearing their knee with your shoulder - this secures your position and creates structural integrity; (3) Bottom leg underhook across opponent's far hip to complete the deep half structure - this establishes your sweeping mechanics. The order is critical because each connection point builds on the previous one. Without initial grips, you cannot effectively dive underneath. Without the immediate arm wrap, opponent can establish crossface or disengage. Without the leg underhook, you cannot generate sweeping leverage. These three connections work together to create the complete deep half structure."
     },
     {
       "question": "If your opponent sprawls back and attempts a crossface as you enter deep half, what is the correct defensive response?",
-      "answer": "If your opponent sprawls back and attempts crossface pressure, your first priority is maintaining your head position outside their leg rather than between their legs. Use your near arm to create a strong frame against their hip, preventing them from driving their weight directly onto your head and neck. Continue your hip movement to complete the entry before the crossface can be fully established - speed is essential here. If the crossface successfully establishes before you complete the entry, you must immediately transition to a safer position such as turtle or reverse De La Riva guard recovery rather than fighting from a compromised deep half position. The key is recognizing when to complete the entry and when to abort to a safer alternative based on the opponent's defensive success.",
-      "difficulty": "Advanced"
+      "answer": "If your opponent sprawls back and attempts crossface pressure, your first priority is maintaining your head position outside their leg rather than between their legs. Use your near arm to create a strong frame against their hip, preventing them from driving their weight directly onto your head and neck. Continue your hip movement to complete the entry before the crossface can be fully established - speed is essential here. If the crossface successfully establishes before you complete the entry, you must immediately transition to a safer position such as turtle or reverse De La Riva guard recovery rather than fighting from a compromised deep half position. The key is recognizing when to complete the entry and when to abort to a safer alternative based on the opponent's defensive success."
     }
   ],
   "safety_considerations": "When practicing the open guard to deep half transition, practitioners must prioritize proper head positioning throughout the entry sequence. Never allow your head to dive between your opponent's legs, as this creates immediate vulnerability to guillotine chokes and can result in serious neck injuries if the submission is applied aggressively. Always maintain a tucked chin position to protect against crossface pressure and potential neck cranks. During drilling, partners should use controlled movements and avoid explosive counter-pressure until proper technique is established. Beginners should practice this entry exclusively with cooperative partners who understand the safety requirements and will not apply sudden pressure that could compress the neck. As with all inverted or underneath positions, practitioners with neck injuries or restrictions should consult with medical professionals before attempting this technique. The transition should be trained progressively, starting with zero resistance and gradually increasing intensity only after demonstrating consistent proper form. Partners should communicate clearly about resistance levels and immediately stop if either person feels uncomfortable or unsafe during the entry sequence.",
@@ -281,5 +259,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

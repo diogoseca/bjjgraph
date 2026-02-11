@@ -21,37 +21,37 @@ description: "Master Overhook Guard Bottom in BJJ. Complete guide covering contr
     {
       "@type": "HowToStep",
       "name": "Execute Overhook Sweep",
-      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Overhook Sweep. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata from Guard",
-      "text": "From this position, attempt Omoplata from Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata from Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Drag to Back",
-      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Arm Drag to Back. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 15% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Guard",
-      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,21 +210,19 @@ Overhook Guard is particularly effective against opponents who attempt to establ
 
 ## Available Escapes
 
-### [[Overhook Sweep]] (13% of attempts)
+### [[Overhook Sweep]] (15% of attempts)
 
-### [[Hip Bump Sweep]] (15% of attempts)
+### [[Hip Bump Sweep]] (17% of attempts)
 
-### [[Omoplata from Guard]] (12% of attempts)
+### [[Omoplata from Guard]] (13% of attempts)
 
-### [[Arm Drag to Back]] (11% of attempts)
+### [[Arm Drag to Back]] (12% of attempts)
 
-### [[Triangle Setup]] (13% of attempts)
+### [[Triangle Setup]] (15% of attempts)
 
-### [[Kimura from Guard]] (12% of attempts)
+### [[Kimura from Guard]] (13% of attempts)
 
-### [[Omoplata from Guard]] (11% of attempts)
-
-### [[Armbar from Guard]] (13% of attempts)
+### [[Armbar from Guard]] (15% of attempts)
 
 
 
@@ -370,11 +368,11 @@ Bottom player maintains overhook guard while top player attempts to flatten them
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 40% | 25% |
-| Intermediate | 70% | 55% | 40% |
-| Advanced     | 80% | 65% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 75% |
+| Advancement Probability | 60% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 45-90 seconds before sweep or submission attempt
 

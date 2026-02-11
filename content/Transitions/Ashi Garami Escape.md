@@ -159,7 +159,7 @@ description: "Master Ashi Garami escape techniques in BJJ. Learn systematic defe
 The Ashi Garami escape is a fundamental defensive skill in modern leg lock grappling, requiring precise understanding of leg entanglement mechanics and systematic approach to extracting the trapped leg. This escape addresses one of the most common leg entanglement positions in no-gi competition, where the opponent controls your leg while maintaining inside position. The primary goal is to extract the trapped leg while preventing the opponent from advancing to more dangerous positions like the saddle or securing submission attacks. Success depends on understanding the hierarchical nature of leg entanglements and systematically clearing control points before attempting full extraction. The escape emphasizes hip positioning, frame management, and timing to create space for leg removal while maintaining defensive awareness of submission threats. This technique is essential for anyone training in modern submission grappling, as leg entanglements have become increasingly prevalent in contemporary competition.
 
 **From Position**: [[Ashi Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ The Ashi Garami escape is a fundamental defensive skill in modern leg lock grapp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive posture**: Immediately sit up and create upper body frames using both hands posted on opponent's hips or knees. Keep your trapped leg's toes pointed away from opponent and maintain foot flexion to protect against immediate submission. Control the distance to prevent opponent from securing tighter grips or advancing position. (Timing: Immediate upon recognizing entanglement)
-2. **Address grip fighting**: Use your hands to fight opponent's grips on your trapped leg. If opponent has heel control, use both hands to break the grip by pulling opponent's hands apart at the thumbs. Maintain constant pressure against opponent's grips while establishing your own control on their legs or gi. (Timing: Before attempting positional changes)
-3. **Create hip angle**: Rotate your hips away from the opponent while maintaining upper body frames. This hip rotation reduces the opponent's leverage for leg attacks and creates space for your trapped leg to move. Keep your free leg positioned to post and generate additional space if needed. (Timing: After establishing frames and grip control)
-4. **Clear the bottom leg**: Use your free leg to step over or push down on opponent's bottom leg (the leg that is under your trapped leg). This is critical as the bottom leg provides the foundation for their ashi garami control. Push or kick the bottom leg away while maintaining hip angle and frames to prevent opponent from recomposing. (Timing: Once sufficient space is created)
-5. **Clear the top leg**: After removing the bottom leg threat, address the top leg by either pushing it down toward the mat or stepping over it with your free leg. Maintain constant pressure and control as you clear this second leg, ensuring opponent cannot re-establish the entanglement or triangle their legs around yours. (Timing: Immediately after clearing bottom leg)
-6. **Extract trapped leg**: With both of opponent's legs cleared, pull your trapped leg straight back and away from opponent's control. Keep your knee pointing upward and foot flexed as you extract. Immediately establish distance by creating space between you and opponent, either coming to standing position or establishing a guard position. (Timing: Final extraction after both legs cleared)
-7. **Secure safe position**: Once leg is extracted, immediately stand up or establish a defensive guard position. Do not remain in range where opponent can re-enter on the legs. Create distance using frames and footwork, then reassess and decide whether to re-engage or maintain distance. (Timing: Immediately post-extraction)
+1. **Establish defensive posture**: Immediately sit up and create upper body frames using both hands posted on opponent's hips or knees. Keep your trapped leg's toes pointed away from opponent and maintain foot flexion to protect against immediate submission. Control the distance to prevent opponent from securing tighter grips or advancing position.
+2. **Address grip fighting**: Use your hands to fight opponent's grips on your trapped leg. If opponent has heel control, use both hands to break the grip by pulling opponent's hands apart at the thumbs. Maintain constant pressure against opponent's grips while establishing your own control on their legs or gi.
+3. **Create hip angle**: Rotate your hips away from the opponent while maintaining upper body frames. This hip rotation reduces the opponent's leverage for leg attacks and creates space for your trapped leg to move. Keep your free leg positioned to post and generate additional space if needed.
+4. **Clear the bottom leg**: Use your free leg to step over or push down on opponent's bottom leg (the leg that is under your trapped leg). This is critical as the bottom leg provides the foundation for their ashi garami control. Push or kick the bottom leg away while maintaining hip angle and frames to prevent opponent from recomposing.
+5. **Clear the top leg**: After removing the bottom leg threat, address the top leg by either pushing it down toward the mat or stepping over it with your free leg. Maintain constant pressure and control as you clear this second leg, ensuring opponent cannot re-establish the entanglement or triangle their legs around yours.
+6. **Extract trapped leg**: With both of opponent's legs cleared, pull your trapped leg straight back and away from opponent's control. Keep your knee pointing upward and foot flexed as you extract. Immediately establish distance by creating space between you and opponent, either coming to standing position or establishing a guard position.
+7. **Secure safe position**: Once leg is extracted, immediately stand up or establish a defensive guard position. Do not remain in range where opponent can re-enter on the legs. Create distance using frames and footwork, then reassess and decide whether to re-engage or maintain distance.
 
 
 </section>
@@ -261,27 +261,21 @@ The Ashi Garami escape is a fundamental defensive skill in modern leg lock grapp
 ## Training Progressions
 **Week 1-2: Fundamental Understanding** - Recognition and defensive positioning
 Partner establishes light ashi garami control. Practice identifying the position, establishing frames, and understanding which leg is bottom versus top. Work on maintaining defensive posture and foot positioning. No resistance from partner during these drills.
-(Resistance: None)
 
 **Week 3-4: Systematic Clearing** - Individual step drilling
 Break down the escape into individual components. Practice clearing bottom leg in isolation, then top leg in isolation, then combining both. Partner provides light resistance to grips but allows clearing to succeed. Focus on technique over speed.
-(Resistance: Light)
 
 **Week 5-8: Full Escape Integration** - Complete escape sequence with moderate resistance
 Partner establishes ashi garami and maintains moderate grip strength and leg position. Practice full escape sequence from initial recognition through final extraction and standing. Partner may attempt basic counters but allows escape with good technique. Begin timing the escape attempts.
-(Resistance: Medium)
 
 **Week 9-12: Countering Common Attacks** - Defensive awareness and problem solving
 Partner actively attempts to advance position or secure submissions during escape attempts. Practice recognizing and defending transitions to saddle, inside sankaku, and submission attacks. Develop ability to pause escape and address threats before continuing.
-(Resistance: Full)
 
 **Month 4+: Competition Simulation** - Live situational training
 Start in ashi garami with partner using full resistance and all available options. Escape must be completed against opponent trying to finish or advance. Include conditioning elements and time pressure. Practice from both fresh and fatigued states.
-(Resistance: Full)
 
 **Ongoing: Variation Training** - Adapting to different ashi garami variations
 Practice escaping from inside ashi, outside ashi, cross ashi, and 50-50 variations. Understand how the fundamental principles apply with slight modifications to each variation. Train against different body types and grip strategies.
-(Resistance: Full)
 
 
 

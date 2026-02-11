@@ -163,7 +163,7 @@ The strategic value of this pass lies in its direct problem-solving approach. La
 This technique rewards patience and technical precision over athleticism. The clearing sequence requires understanding how the lapel is wrapped and systematically unwinding it rather than ripping against the fabric. The subsequent toreando must be immediate and committed, as any hesitation allows the opponent to recover guard or re-establish lapel grips. The combination of methodical clearing and explosive passing creates an effective solution to one of modern gi grappling's most challenging guard systems.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ This technique rewards patience and technical precision over athleticism. The cl
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify configuration**: Recognize whether the opponent has worm guard (lapel around your leg), squid guard (lapel around your arm), or a hybrid configuration. This determines your clearing approach and which grips take priority. (Timing: Before initiating any movement)
-2. **Control gripping hand**: Establish control of the opponent's hand that maintains the lapel grip. Pin their wrist to their body or strip their grip on the fabric itself. Without this control, they will simply deepen or adjust the wrap as you attempt to clear. (Timing: While maintaining stable base)
-3. **Create clearing angle**: Step back with the leg that has the lapel wrapped around it (for worm guard) or rotate the trapped arm outward (for squid guard). This creates slack in the fabric and exposes the unwinding path. Do not pull directly against the wrap. (Timing: After securing hand control)
-4. **Unwind the lapel**: Use your free hand to systematically thread the lapel off your trapped limb, working with the wrap rather than against it. For leg wraps, step your foot through the created slack. For arm wraps, rotate and extract. Maintain grip on their controlling hand throughout. (Timing: Smooth continuous motion)
-5. **Establish toreando grips**: As the lapel clears, immediately transition your hands to pants grips at the opponent's knees or shin level. Grip the fabric firmly with thumbs inside, fingers outside. Your posture should be slightly broken forward with elbows tight. (Timing: Instant transition as lapel clears)
-6. **Execute toreando**: Drive both of the opponent's legs to one side while stepping laterally in the opposite direction. Keep their legs pinned to the mat as you circle. Drive your near shoulder into their hip to prevent them from following your movement. (Timing: Explosive movement, no hesitation)
-7. **Secure side control**: Complete the pass by driving your chest perpendicular to the opponent's torso. Establish crossface pressure immediately, blocking their far hip with your near hand. Settle your weight through your hips onto their body to prevent guard recovery. (Timing: Within 1-2 seconds of initiating toreando)
+1. **Identify configuration**: Recognize whether the opponent has worm guard (lapel around your leg), squid guard (lapel around your arm), or a hybrid configuration. This determines your clearing approach and which grips take priority.
+2. **Control gripping hand**: Establish control of the opponent's hand that maintains the lapel grip. Pin their wrist to their body or strip their grip on the fabric itself. Without this control, they will simply deepen or adjust the wrap as you attempt to clear.
+3. **Create clearing angle**: Step back with the leg that has the lapel wrapped around it (for worm guard) or rotate the trapped arm outward (for squid guard). This creates slack in the fabric and exposes the unwinding path. Do not pull directly against the wrap.
+4. **Unwind the lapel**: Use your free hand to systematically thread the lapel off your trapped limb, working with the wrap rather than against it. For leg wraps, step your foot through the created slack. For arm wraps, rotate and extract. Maintain grip on their controlling hand throughout.
+5. **Establish toreando grips**: As the lapel clears, immediately transition your hands to pants grips at the opponent's knees or shin level. Grip the fabric firmly with thumbs inside, fingers outside. Your posture should be slightly broken forward with elbows tight.
+6. **Execute toreando**: Drive both of the opponent's legs to one side while stepping laterally in the opposite direction. Keep their legs pinned to the mat as you circle. Drive your near shoulder into their hip to prevent them from following your movement.
+7. **Secure side control**: Complete the pass by driving your chest perpendicular to the opponent's torso. Establish crossface pressure immediately, blocking their far hip with your near hand. Settle your weight through your hips onto their body to prevent guard recovery.
 
 
 </section>
@@ -259,19 +259,15 @@ This technique rewards patience and technical precision over athleticism. The cl
 ## Training Progressions
 **Week 1-2** - Lapel clearing mechanics
 Partner establishes various lapel configurations while you practice systematic clearing without attempting to pass. Focus on hand control, creating slack, and technical unwinding. Reset after each successful clear. No time pressure.
-(Resistance: None)
 
 **Week 3-4** - Clearing to toreando connection
 Practice the full sequence from established lapel guard through clearing to completed toreando pass. Partner provides light resistance to lapel clearing but minimal passing resistance. Emphasize seamless transition between clearing and passing phases.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to re-establish lapel grip during clearing and uses defensive movements (inversion, sit-up, knee shield) during toreando. Develop recognition of counters and appropriate responses while maintaining technique quality.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance specific training starting from lapel guard. Partner uses complete lapel guard game including sweeps and submissions while you work to clear and pass. Progress to including this sequence in regular rolling.
-(Resistance: Full)
 
 
 

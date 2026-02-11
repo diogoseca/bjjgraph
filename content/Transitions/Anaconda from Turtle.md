@@ -34,7 +34,7 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
     {
       "@type": "HowToStep",
       "name": "Trap Near Arm",
-      "text": "Ensure opponent's near arm is trapped between your choking arm and their neck - this is the critical element that distinguishes anaconda from D'arce. The near arm creates pressure on one carotid while your bicep targets the other side. Verify the arm is fully trapped before proceeding to next step.",
+      "text": "Ensure opponent's near arm is trapped between your choking arm and their neck - this is the critical element that distinguishes anaconda from Darce. The near arm creates pressure on one carotid while your bicep targets the other side. Verify the arm is fully trapped before proceeding to next step.",
       "position": 3
     },
     {
@@ -93,7 +93,7 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
       "name": "Which arm should be trapped for the anaconda from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The near arm (closest to you) must be trapped for the anaconda. This is what distinguishes anaconda from D'arce choke, which traps the far arm. The near arm trap is essential for creating proper pressure angle after the roll, as it positions the opponent's own arm to compress their carotid artery."
+        "text": "The near arm (closest to you) must be trapped for the anaconda. This is what distinguishes anaconda from Darce choke, which traps the far arm. The near arm trap is essential for creating proper pressure angle after the roll, as it positions the opponent's own arm to compress their carotid artery."
       }
     },
     {
@@ -114,10 +114,10 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
     },
     {
       "@type": "Question",
-      "name": "What is the main difference between anaconda and D'arce chokes from turtle?",
+      "name": "What is the main difference between anaconda and Darce chokes from turtle?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The anaconda traps the near arm (closest to you) between your choking arm and opponent's neck, while the D'arce traps the far arm. This fundamental difference changes the pressure mechanics, rolling direction, and finishing angle. Anaconda typically requires more commitment to the roll while D'arce can sometimes finish from top position."
+        "text": "The anaconda traps the near arm (closest to you) between your choking arm and opponent's neck, while the Darce traps the far arm. This fundamental difference changes the pressure mechanics, rolling direction, and finishing angle. Anaconda typically requires more commitment to the roll while Darce can sometimes finish from top position."
       }
     }
   ]
@@ -156,10 +156,10 @@ description: "Learn Anaconda from Turtle in BJJ. Step-by-step execution from Tur
 
 <section id="overview" class="content-section">
 
-The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a rolling motion. This technique is technically similar to the D'arce choke but requires trapping the near arm instead of the far arm, and involves rolling to your side or back rather than maintaining top position. The anaconda exploits opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure optimal choking angle. The execution requires precise timing - threading the arm deep with palm-down orientation, ensuring the near arm is trapped between your choking arm and their neck, locking the grip tight, and committing to the roll before opponent can defend. Your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other, creating bilateral pressure. The rolling momentum is not just a finishing detail but essential for creating the proper choking angle. This technique has become a staple of modern no-gi grappling, particularly effective because the dynamic roll is unexpected and often secures the finish before opponents can defend properly. It represents a high-level understanding of front headlock mechanics combined with dynamic movement principles.
+The Anaconda from Turtle is a dynamic submission setup that transitions from turtle top position to anaconda control through a rolling motion. This technique is technically similar to the Darce choke but requires trapping the near arm instead of the far arm, and involves rolling to your side or back rather than maintaining top position. The anaconda exploits opponent's defensive turtle posture by threading your arm under their neck while trapping their near arm, then using a figure-four grip and rolling motion to secure optimal choking angle. The execution requires precise timing - threading the arm deep with palm-down orientation, ensuring the near arm is trapped between your choking arm and their neck, locking the grip tight, and committing to the roll before opponent can defend. Your bicep compresses one carotid artery while their own trapped arm and shoulder compress the other, creating bilateral pressure. The rolling momentum is not just a finishing detail but essential for creating the proper choking angle. This technique has become a staple of modern no-gi grappling, particularly effective because the dynamic roll is unexpected and often secures the finish before opponents can defend properly. It represents a high-level understanding of front headlock mechanics combined with dynamic movement principles.
 
 **From Position**: [[Turtle]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,10 +211,10 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 ## Execution Steps
 1. **Establish Position**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side arm with your hand. Maintain tight top pressure to prevent them from standing or rolling before you're ready to attack. Your weight should be distributed forward to keep them flattened and unable to create defensive space.
 2. **Arm Threading**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down position throughout. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be.
-3. **Trap Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck - this is the critical element that distinguishes anaconda from D'arce. The near arm creates pressure on one carotid while your bicep targets the other side. Verify the arm is fully trapped before proceeding to next step.
+3. **Trap Near Arm**: Ensure opponent's near arm is trapped between your choking arm and their neck - this is the critical element that distinguishes anaconda from Darce. The near arm creates pressure on one carotid while your bicep targets the other side. Verify the arm is fully trapped before proceeding to next step.
 4. **Lock Grip**: Secure figure-four grip by grabbing your own bicep with your opposite hand, eliminating all space in the lock. Pull your elbows together to tighten the grip maximally. Grip must be extremely tight before initiating roll to prevent escape during the transition. This is the point of no return - once locked, commit to the finish.
-5. **Roll to Side**: Roll decisively to your side or onto your back, bringing opponent with you using the momentum. Roll toward the side that brings opponent over their trapped arm for optimal pressure angle. Commit fully to the roll without hesitation - use your legs to generate rotational force. The roll should be smooth but explosive. (Timing: Initiate within 1 second of locking grip)
-6. **Apply Pressure**: Squeeze with your bicep while engaging lat muscles to create anaconda choke compression. Your bicep compresses one carotid artery while their trapped arm and shoulder compress the other side, creating bilateral pressure for the finish. Pull your elbows together and expand your chest to maximize pressure. Maintain squeeze until tap. (Timing: 3-5 seconds for complete pressure application)
+5. **Roll to Side**: Roll decisively to your side or onto your back, bringing opponent with you using the momentum. Roll toward the side that brings opponent over their trapped arm for optimal pressure angle. Commit fully to the roll without hesitation - use your legs to generate rotational force. The roll should be smooth but explosive.
+6. **Apply Pressure**: Squeeze with your bicep while engaging lat muscles to create anaconda choke compression. Your bicep compresses one carotid artery while their trapped arm and shoulder compress the other side, creating bilateral pressure for the finish. Pull your elbows together and expand your chest to maximize pressure. Maintain squeeze until tap.
 7. **Adjust Position**: If initial pressure is insufficient, adjust your body angle by walking your hips away from opponent's head or adjusting the depth of your squeeze. Small positional adjustments can dramatically increase choking effectiveness. Maintain grip integrity throughout all adjustments.
 
 
@@ -236,8 +236,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 ## Common Mistakes
 - **Mistake**: Trapping far arm instead of near arm
-  - **Consequence**: Changes technique to D'arce instead of anaconda, requires different finishing angle and mechanics, cannot generate effective pressure even with correct roll
-  - **Correction**: Identify which arm is closest to you (near arm) and trap that one specifically for anaconda mechanics. Near arm trap is what defines the anaconda. If you have far arm, commit to D'arce instead.
+  - **Consequence**: Changes technique to Darce instead of anaconda, requires different finishing angle and mechanics, cannot generate effective pressure even with correct roll
+  - **Correction**: Identify which arm is closest to you (near arm) and trap that one specifically for anaconda mechanics. Near arm trap is what defines the anaconda. If you have far arm, commit to Darce instead.
 - **Mistake**: Hesitating or delaying the roll after securing grip
   - **Consequence**: Gives opponent time to base out with free arm and prevent roll completion, losing the momentum advantage that makes this technique effective
   - **Correction**: Commit immediately to roll once figure-four grip is locked tight. Speed and decisiveness are critical - the roll must happen within 1 second before they can react defensively.
@@ -262,27 +262,21 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 ## Training Progressions
 **Solo Practice (Week 1-2)** - Rolling motion and arm threading mechanics
 Practice rolling motion with grappling dummy to develop coordination and muscle memory. Work arm threading depth and palm-down positioning without resistance. Focus on smooth, controlled rolls that end in proper finishing position. Develop comfort with the inverted positions created by rolling motion.
-(Resistance: None)
 
 **Cooperative Drilling (Week 3-4)** - Timing development with compliant partner
 Partner allows trap and roll so you can develop smooth timing between grip lock and roll initiation. Focus on feeling proper depth and tight grip before rolling. Practice identifying which arm is 'near arm' from various turtle angles. Build confidence in committing to the roll.
-(Resistance: None)
 
 **Light Resistance (Week 5-8)** - Dealing with basic defensive reactions
 Partner provides light resistance by attempting to pull arm free or base out slowly. Learn to secure arm control earlier and recognize when roll must be accelerated. Develop sensitivity to opponent's defensive timing.
-(Resistance: Light)
 
 **Positional Resistance (Week 9-12)** - Defending against base-out and counter-rolls
 Partner actively defends with base-out attempts, counter-roll defense, and explosive movements. Learn to commit to roll decisively and adjust to defensive reactions in real-time. Practice transitioning to alternative attacks when anaconda is defended.
-(Resistance: Medium)
 
 **Sparring Integration (Month 4+)** - Recognizing opportunities during scrambles
 Identify near-arm trap opportunities when opponent turtles during live rolling. Develop ability to recognize setup windows and commit to technique under pressure. Integrate with your existing turtle attack system.
-(Resistance: Full)
 
 **Advanced Troubleshooting (Ongoing)** - Adjusting for different defensive reactions
 Work with advanced partners who defend with various reactions and counter-techniques. Learn to adjust roll direction, maintain control during scrambles, and finish from different angles. Develop ability to chain anaconda with other front headlock attacks.
-(Resistance: Full)
 
 
 
@@ -315,7 +309,7 @@ Work with advanced partners who defend with various reactions and counter-techni
 **A**: You should initiate the roll immediately after locking the figure-four grip while opponent is still adjusting - within approximately 1 second of securing the grip. Hesitation gives them time to base out and prevent the roll. Speed and commitment are critical - the roll must happen before they can react defensively with posting or counter-rolling.
 
 **Q3**: Which arm should be trapped for the anaconda from turtle?
-**A**: The near arm (closest to you) must be trapped for the anaconda. This is what distinguishes anaconda from D'arce choke, which traps the far arm. The near arm trap is essential for creating proper pressure angle after the roll, as it positions the opponent's own arm to compress their carotid artery.
+**A**: The near arm (closest to you) must be trapped for the anaconda. This is what distinguishes anaconda from Darce choke, which traps the far arm. The near arm trap is essential for creating proper pressure angle after the roll, as it positions the opponent's own arm to compress their carotid artery.
 
 **Q4**: What must be accomplished before rolling in the anaconda setup?
 **A**: Before rolling you must achieve three critical elements: (1) near arm trapped between your choking arm and their neck, (2) deep arm threading with wrist past near shoulder, and (3) tight figure-four grip secured with elbows pulled together. All three elements must be in place or the roll will fail and opponent will escape during transition.
@@ -323,8 +317,8 @@ Work with advanced partners who defend with various reactions and counter-techni
 **Q5**: How do you adjust if opponent bases out during your roll attempt?
 **A**: If opponent bases out, maintain pressure and grip while walking your body around their posted base to find a new rolling angle. Alternatively, transition to side control while maintaining front headlock control, or attack different submission from the modified position such as guillotine. The key is maintaining grip integrity and not forcing a compromised roll.
 
-**Q6**: What is the main difference between anaconda and D'arce chokes from turtle?
-**A**: The anaconda traps the near arm (closest to you) between your choking arm and opponent's neck, while the D'arce traps the far arm. This fundamental difference changes the pressure mechanics, rolling direction, and finishing angle. Anaconda typically requires more commitment to the roll while D'arce can sometimes finish from top position.
+**Q6**: What is the main difference between anaconda and Darce chokes from turtle?
+**A**: The anaconda traps the near arm (closest to you) between your choking arm and opponent's neck, while the Darce traps the far arm. This fundamental difference changes the pressure mechanics, rolling direction, and finishing angle. Anaconda typically requires more commitment to the roll while Darce can sometimes finish from top position.
 
 **Q7**: Why is the rolling motion essential rather than optional in the anaconda?
 **A**: The rolling motion is essential because it creates the proper choking angle for bilateral carotid compression. Unlike some chokes that can finish from multiple angles, the anaconda specifically requires the inverted angle created by rolling to position your bicep and their trapped arm optimally against both carotid arteries. Without the roll, pressure is insufficient for a finish.
@@ -360,7 +354,7 @@ When practicing the anaconda from turtle, execute the rolling motion smoothly an
 
 ## Position Integration
 
-The anaconda from turtle is part of the front headlock family and represents a high-level submission setup from turtle top control. It connects to the broader turtle attack system where you have options including back takes, guillotines, D'arce chokes, and now the anaconda. The technique is particularly valuable because turtle is a common defensive position in both gi and no-gi grappling - opponents frequently turtle to defend guard passes or back attacks, making the anaconda readily available. It integrates with modern no-gi systems emphasizing front headlock control, submission wrestling, and dynamic transitions. The rolling element makes it especially effective in scramble situations where momentum can be used to your advantage. In competition, it serves as both a submission threat and position improvement tool - even if the choke doesn't finish, you often establish dominant side control or back position. The anaconda has become fundamental in modern submission grappling as well as in ADCC where turtle attacks are heavily rewarded. It fits within the broader front headlock series alongside guillotine, D'arce, Japanese necktie, and marce variations, creating a complete attacking system from this control position. Understanding anaconda mechanics also improves your overall front headlock game and teaches important principles about bilateral pressure, arm trapping, and dynamic movement.
+The anaconda from turtle is part of the front headlock family and represents a high-level submission setup from turtle top control. It connects to the broader turtle attack system where you have options including back takes, guillotines, Darce chokes, and now the anaconda. The technique is particularly valuable because turtle is a common defensive position in both gi and no-gi grappling - opponents frequently turtle to defend guard passes or back attacks, making the anaconda readily available. It integrates with modern no-gi systems emphasizing front headlock control, submission wrestling, and dynamic transitions. The rolling element makes it especially effective in scramble situations where momentum can be used to your advantage. In competition, it serves as both a submission threat and position improvement tool - even if the choke doesn't finish, you often establish dominant side control or back position. The anaconda has become fundamental in modern submission grappling as well as in ADCC where turtle attacks are heavily rewarded. It fits within the broader front headlock series alongside guillotine, Darce, Japanese necktie, and marce variations, creating a complete attacking system from this control position. Understanding anaconda mechanics also improves your overall front headlock game and teaches important principles about bilateral pressure, arm trapping, and dynamic movement.
 
 </section>
 
@@ -377,7 +371,7 @@ The anaconda from turtle is part of the front headlock family and represents a h
 - [[Front Headlock to Anaconda]] - Related setup - alternative entry to anaconda position from standing or scrambling
 - [[Crucifix from Turtle]] - Alternative - different control and submission option from turtle top
 - [[Arm Triangle from Turtle]] - Alternative - another choke option from turtle using different mechanics
-- [[D'arce-Anaconda Connection]] - System connection - understanding relationship between these similar techniques
+- [[Darce-Anaconda Connection]] - System connection - understanding relationship between these similar techniques
 - [[Darce Choke]] - Related submission - closely related technique with similar grip but different arm trap
 - [[Front Headlock Series]] - System integration - anaconda as part of comprehensive front headlock attack system
 

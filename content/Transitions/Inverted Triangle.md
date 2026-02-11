@@ -169,7 +169,7 @@ Strategically, the inverted triangle serves as a critical tool in the triangle a
 The biomechanics of the inverted triangle differ significantly from the standard variation. The choking pressure comes from the opposite angle, with your legs positioned to compress the carotid arteries from behind rather than in front. This requires adjusting your hip angle, leg positioning, and grip placement to accommodate the reversed geometry. The inverted triangle also opens up different transition options, including back takes and armbar variations that aren't available from the standard triangle position.
 
 **From Position**: [[Triangle Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -216,14 +216,14 @@ The biomechanics of the inverted triangle differ significantly from the standard
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize trigger**: Identify when opponent turns their trapped shoulder inward toward your hip to defend the standard triangle—this rotation is your entry signal for the inverted attack (Timing: Immediately upon opponent's defensive shoulder rotation)
-2. **Secure leg control**: Tighten your triangle lock by squeezing knees together and pulling your top foot deeper behind opponent's neck to prevent them from escaping during your rotation (Timing: Before initiating any body movement)
-3. **Release and regrip**: Release your head control grip and reach across to grab opponent's far hip or belt line—this grip becomes your anchor point for the body rotation that follows (Timing: Quick hand transition while legs maintain control)
-4. **Hip rotation**: Use your shoulder as a pivot point and rotate your hips 180 degrees toward opponent's back, keeping legs locked while your body swings underneath to the opposite side (Timing: Smooth continuous motion without pausing)
-5. **Reestablish triangle**: As you complete the rotation, reconfigure your legs into the inverted triangle position with the choking leg now attacking from behind opponent's neck at the reverse angle (Timing: Immediately upon completing hip rotation)
-6. **Control head position**: Reach around and control opponent's head by pulling it toward your hip, breaking their posture and preventing any escape attempts while you settle into the inverted position (Timing: Simultaneous with leg reconfiguration)
-7. **Angle adjustment**: Fine-tune your hip angle to approximately 30-45 degrees off opponent's centerline, ensuring your choking leg's knee points toward their trapped shoulder for maximum arterial compression (Timing: Before attempting to finish)
-8. **Finish submission**: Squeeze knees together while extending hips upward, pull opponent's head down into the choke, and maintain the trapped arm across their neck to complete the inverted triangle submission (Timing: Steady pressure until tap or unconsciousness)
+1. **Recognize trigger**: Identify when opponent turns their trapped shoulder inward toward your hip to defend the standard triangle—this rotation is your entry signal for the inverted attack
+2. **Secure leg control**: Tighten your triangle lock by squeezing knees together and pulling your top foot deeper behind opponent's neck to prevent them from escaping during your rotation
+3. **Release and regrip**: Release your head control grip and reach across to grab opponent's far hip or belt line—this grip becomes your anchor point for the body rotation that follows
+4. **Hip rotation**: Use your shoulder as a pivot point and rotate your hips 180 degrees toward opponent's back, keeping legs locked while your body swings underneath to the opposite side
+5. **Reestablish triangle**: As you complete the rotation, reconfigure your legs into the inverted triangle position with the choking leg now attacking from behind opponent's neck at the reverse angle
+6. **Control head position**: Reach around and control opponent's head by pulling it toward your hip, breaking their posture and preventing any escape attempts while you settle into the inverted position
+7. **Angle adjustment**: Fine-tune your hip angle to approximately 30-45 degrees off opponent's centerline, ensuring your choking leg's knee points toward their trapped shoulder for maximum arterial compression
+8. **Finish submission**: Squeeze knees together while extending hips upward, pull opponent's head down into the choke, and maintain the trapped arm across their neck to complete the inverted triangle submission
 
 
 </section>
@@ -269,19 +269,15 @@ The biomechanics of the inverted triangle differ significantly from the standard
 ## Training Progressions
 **Week 1-2** - Hip mobility and rotation mechanics
 Practice the body rotation movement without resistance—partner holds standard triangle position while you drill the 180-degree hip rotation repeatedly. Focus on maintaining leg connection throughout movement and landing in proper inverted position. 20-30 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition and timing
 Partner provides specific shoulder-turn defense from triangle control. Practice recognizing the entry window and initiating rotation at correct moment. Partner gives light resistance to build timing awareness. Add grip transitions and head control after rotation.
-(Resistance: Light)
 
 **Week 5-6** - Counter defense integration
 Partner adds progressive resistance including posture recovery attempts, stacking, and arm extraction during transition. Practice maintaining control and completing submission despite defensive reactions. Work on abort options when inversion fails.
-(Resistance: Medium)
 
 **Week 7+** - Live application and chain attacks
 Integrate inverted triangle into regular triangle attack sequences during positional sparring and live rolling. Focus on reading opponent's defense patterns and selecting appropriate response—standard finish, armbar, omoplata, or inverted triangle. Test against fully resisting opponents.
-(Resistance: Full)
 
 
 

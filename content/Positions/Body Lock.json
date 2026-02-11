@@ -253,50 +253,44 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
+        "value": 50
       },
       "average_time": "2-6 seconds before transition to next position"
     },
     "transitions": [
       {
         "transition": "Back Take Generic",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Turtle to Back Take",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Body Lock Pass",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Double Leg Entry",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Snap Down",
         "attempt_probability": 14
       },
       {
-        "transition": "Turtle to Back Control",
+        "transition": "Body Lock Pass",
+        "attempt_probability": 26
+      },
+      {
+        "transition": "Snap Down",
         "attempt_probability": 12
       },
       {
         "transition": "Rolling Back Take",
-        "attempt_probability": 10
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Tani Otoshi",
+        "attempt_probability": 14
+      },
+      {
+        "transition": "Kosoto Gake",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Mat Return to Back Mount",
+        "attempt_probability": 14
       }
     ],
     "knowledge_assessment": [
@@ -499,46 +493,44 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35
+        "value": 28
       },
       "average_time": "3-8 seconds before opponent transitions to next position"
     },
     "transitions": [
       {
         "transition": "Hip Escape",
-        "attempt_probability": 17
+        "attempt_probability": 12
       },
       {
         "transition": "Grip Break",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Sitting Guard Pull",
-        "attempt_probability": 21
-      },
-      {
-        "transition": "Technical Standup",
         "attempt_probability": 14
       },
       {
-        "transition": "Sprawl Defense",
-        "attempt_probability": 15
+        "transition": "Sitting Guard Pull",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Technical Standup",
+        "attempt_probability": 13
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 18
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Whizzer",
+        "attempt_probability": 16
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": 10
       }
     ],
     "knowledge_assessment": [

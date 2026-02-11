@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 25,
-    "intermediate": 45,
-    "advanced": 65
-  },
   "overview": "The Tarikoplata Setup is an advanced shoulder lock entry executed from Meathook that transforms the position's arm isolation into a compound submission attack combining omoplata mechanics with wrist control. Named after Tarik Hopstock, this technique exploits the trapped arm configuration of Meathook by threading the bottom player's leg over the opponent's shoulder into a modified omoplata position while simultaneously securing a wrist grip that adds rotational torque to the shoulder attack.\n\nStrategically, the Tarikoplata Setup occupies a unique position in the Meathook attack hierarchy. While the Gogoplata punishes forward pressure and the Baratoplata punishes backward arm extraction, the Tarikoplata is most effective when the opponent attempts a controlled, static defense—neither driving forward nor pulling back, but simply trying to wait out the position. The wrist control component distinguishes this from a standard omoplata transition by preventing the rolling escape that experienced grapplers use to defeat traditional omoplata attacks. Once the wrist is secured and rotated, every defensive option accelerates the shoulder lock.\n\nThe technique requires precise sequencing: the shin must clear the shoulder line, the hip pivot must create omoplata angle, and the wrist grip must be established before releasing any Meathook control. Rushing any phase collapses the attack. For purple and brown belt practitioners, the Tarikoplata represents the deeper submission layer of Rubber Guard—where basic position chains evolve into compound locks that attack multiple joint structures simultaneously.",
   "key_principles": [
     "Maintain shin hook pressure on the tricep throughout the entire transition until omoplata angle is fully established",
@@ -55,50 +50,42 @@
     {
       "step_number": 1,
       "action": "Confirm Meathook control",
-      "description": "Verify your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your collar grip or overhook on the non-trapped side to keep their posture broken forward. Closed guard must remain connected with ankles crossed.",
-      "timing": "Before initiating any transition"
+      "description": "Verify your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your collar grip or overhook on the non-trapped side to keep their posture broken forward. Closed guard must remain connected with ankles crossed."
     },
     {
       "step_number": 2,
       "action": "Initiate hip pivot",
-      "description": "Begin rotating your hips toward the trapped arm side while keeping your guard closed. This rotation shifts your body perpendicular to the opponent's spine and begins creating the omoplata angle. Your shin transitions from a horizontal hook across the tricep to a diagonal position over the shoulder.",
-      "timing": "1-2 seconds, smooth rotation"
+      "description": "Begin rotating your hips toward the trapped arm side while keeping your guard closed. This rotation shifts your body perpendicular to the opponent's spine and begins creating the omoplata angle. Your shin transitions from a horizontal hook across the tricep to a diagonal position over the shoulder."
     },
     {
       "step_number": 3,
       "action": "Thread leg over shoulder",
-      "description": "As your hips rotate, guide your hooking leg over the opponent's shoulder so that your shin crosses their upper back and your hamstring presses against the back of their shoulder. This is the omoplata leg configuration. Maintain your opposite leg's guard connection to prevent them from disengaging their hips.",
-      "timing": "Continuous with hip pivot"
+      "description": "As your hips rotate, guide your hooking leg over the opponent's shoulder so that your shin crosses their upper back and your hamstring presses against the back of their shoulder. This is the omoplata leg configuration. Maintain your opposite leg's guard connection to prevent them from disengaging their hips."
     },
     {
       "step_number": 4,
       "action": "Secure wrist grip",
-      "description": "With your same-side hand, reach down and grip the opponent's wrist of the trapped arm using a four-finger grip on the back of their hand with your thumb on their palm. This grip allows rotational manipulation. Your opposite hand maintains the collar or overhook grip to prevent posture recovery.",
-      "timing": "Immediately after leg is positioned"
+      "description": "With your same-side hand, reach down and grip the opponent's wrist of the trapped arm using a four-finger grip on the back of their hand with your thumb on their palm. This grip allows rotational manipulation. Your opposite hand maintains the collar or overhook grip to prevent posture recovery."
     },
     {
       "step_number": 5,
       "action": "Establish perpendicular angle",
-      "description": "Complete your hip rotation to achieve a 90-degree angle relative to the opponent's spine. Your body should be perpendicular to theirs with the trapped arm fully captured between your leg over their shoulder and your wrist grip below. This geometry maximizes both omoplata pressure and wrist rotation leverage.",
-      "timing": "1-2 seconds to finalize angle"
+      "description": "Complete your hip rotation to achieve a 90-degree angle relative to the opponent's spine. Your body should be perpendicular to theirs with the trapped arm fully captured between your leg over their shoulder and your wrist grip below. This geometry maximizes both omoplata pressure and wrist rotation leverage."
     },
     {
       "step_number": 6,
       "action": "Begin wrist rotation",
-      "description": "Start rotating the opponent's wrist to turn their palm toward their own head. This rotation pre-loads internal rotation stress on the shoulder joint. Apply rotation progressively over 2-3 seconds—never jerk or crank. The opponent should feel increasing pressure as the rotation compounds with the omoplata angle.",
-      "timing": "2-3 seconds progressive rotation"
+      "description": "Start rotating the opponent's wrist to turn their palm toward their own head. This rotation pre-loads internal rotation stress on the shoulder joint. Apply rotation progressively over 2-3 seconds—never jerk or crank. The opponent should feel increasing pressure as the rotation compounds with the omoplata angle."
     },
     {
       "step_number": 7,
       "action": "Drive hips forward",
-      "description": "Extend your hips forward and upward, driving into the opponent's shoulder while maintaining wrist rotation. Your shin across their upper back acts as a fulcrum while your hip extension creates the primary submission force. The wrist rotation prevents the rolling escape that would defeat a standard omoplata.",
-      "timing": "3-4 seconds controlled extension"
+      "description": "Extend your hips forward and upward, driving into the opponent's shoulder while maintaining wrist rotation. Your shin across their upper back acts as a fulcrum while your hip extension creates the primary submission force. The wrist rotation prevents the rolling escape that would defeat a standard omoplata."
     },
     {
       "step_number": 8,
       "action": "Consolidate control position",
-      "description": "Once hip extension and wrist rotation are engaged, you have established Tarikoplata control within the Omoplata Control framework. Maintain both pressures while controlling the opponent's far hip with your free hand to prevent rolling. From here, progressive pressure application produces the tap or forces transition to mounted finish.",
-      "timing": "Hold and apply progressive pressure"
+      "description": "Once hip extension and wrist rotation are engaged, you have established Tarikoplata control within the Omoplata Control framework. Maintain both pressures while controlling the opponent's far hip with your free hand to prevent rolling. From here, progressive pressure application produces the tap or forces transition to mounted finish."
     }
   ],
   "common_counters": [
@@ -154,26 +141,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Leg transition mechanics",
-      "description": "From static Meathook, practice transitioning the shin hook from tricep control to over-shoulder omoplata configuration. Focus on maintaining control throughout the transition without releasing pressure. Partner offers zero resistance. Drill 15 repetitions per side, emphasizing smooth hip rotation.",
-      "resistance_level": "None"
+      "description": "From static Meathook, practice transitioning the shin hook from tricep control to over-shoulder omoplata configuration. Focus on maintaining control throughout the transition without releasing pressure. Partner offers zero resistance. Drill 15 repetitions per side, emphasizing smooth hip rotation."
     },
     {
       "phase": "Week 3-4",
       "focus": "Wrist grip timing and coordination",
-      "description": "Add the wrist grip establishment to the leg transition. Partner provides light resistance by slowly attempting arm extraction. Practice securing the four-finger wrist grip at the correct moment—after leg position but before releasing any Meathook control. Emphasize the overlap between control phases.",
-      "resistance_level": "Light"
+      "description": "Add the wrist grip establishment to the leg transition. Partner provides light resistance by slowly attempting arm extraction. Practice securing the four-finger wrist grip at the correct moment—after leg position but before releasing any Meathook control. Emphasize the overlap between control phases."
     },
     {
       "phase": "Week 5-6",
       "focus": "Submission pressure and chain attacks",
-      "description": "Execute the complete technique with moderate resistance. Partner defends with various responses: posturing, straightening arm, stacking. Practice reading their defense and flowing to appropriate alternative (Triangle, Armbar, Gogoplata). Apply submission pressure progressively with constant verbal communication.",
-      "resistance_level": "Medium"
+      "description": "Execute the complete technique with moderate resistance. Partner defends with various responses: posturing, straightening arm, stacking. Practice reading their defense and flowing to appropriate alternative (Triangle, Armbar, Gogoplata). Apply submission pressure progressively with constant verbal communication."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application from Meathook",
-      "description": "Integrate Tarikoplata Setup into positional sparring from Meathook. Track success rate and identify which opponent responses trigger the Tarikoplata versus Baratoplata or Gogoplata. Develop the ability to select the correct Meathook attack based on real-time defensive reads.",
-      "resistance_level": "Full"
+      "description": "Integrate Tarikoplata Setup into positional sparring from Meathook. Track success rate and identify which opponent responses trigger the Tarikoplata versus Baratoplata or Gogoplata. Develop the ability to select the correct Meathook attack based on real-time defensive reads."
     }
   ],
   "variants_and_adaptations": [
@@ -196,53 +179,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Tarikoplata Setup from Meathook?",
-      "answer": "The primary goal is to transition the Meathook's arm isolation into a compound shoulder lock by establishing an omoplata position with additional wrist control. The wrist grip adds rotational torque that prevents the rolling escape and creates a dual-lever attack on the shoulder joint, making the submission significantly harder to defend than a standard omoplata.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition the Meathook's arm isolation into a compound shoulder lock by establishing an omoplata position with additional wrist control. The wrist grip adds rotational torque that prevents the rolling escape and creates a dual-lever attack on the shoulder joint, making the submission significantly harder to defend than a standard omoplata."
     },
     {
       "question": "What distinguishes the Tarikoplata from a standard omoplata entry from Meathook?",
-      "answer": "The Tarikoplata adds a wrist grip and rotation component to the omoplata mechanics. While a standard omoplata relies solely on hip extension against the shoulder, the Tarikoplata secures the opponent's wrist and rotates their palm toward their head, creating compound rotational stress. This second lever prevents the rolling escape and allows the submission to finish with less hip extension force.",
-      "difficulty": "Beginner"
+      "answer": "The Tarikoplata adds a wrist grip and rotation component to the omoplata mechanics. While a standard omoplata relies solely on hip extension against the shoulder, the Tarikoplata secures the opponent's wrist and rotates their palm toward their head, creating compound rotational stress. This second lever prevents the rolling escape and allows the submission to finish with less hip extension force."
     },
     {
       "question": "What is the most critical grip in the Tarikoplata Setup and how should it be configured?",
-      "answer": "The wrist grip is the technique's defining element. Use a four-finger grip wrapped around the ulnar side of the opponent's wrist with your thumb pressing into the radial side. This configuration creates maximum rotational leverage. Grip with your same-side hand—the side where your leg crosses their shoulder—while your opposite hand maintains the collar or overhook that prevents posture recovery.",
-      "difficulty": "Intermediate"
+      "answer": "The wrist grip is the technique's defining element. Use a four-finger grip wrapped around the ulnar side of the opponent's wrist with your thumb pressing into the radial side. This configuration creates maximum rotational leverage. Grip with your same-side hand—the side where your leg crosses their shoulder—while your opposite hand maintains the collar or overhook that prevents posture recovery."
     },
     {
       "question": "Your opponent maintains a completely static defense in Meathook, neither pressing forward nor pulling back—why is this the optimal timing for the Tarikoplata?",
-      "answer": "A static defense eliminates the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). The opponent thinks they are denying you both attacks by staying still. But static defense leaves their arm in the exact position needed for the omoplata leg transition—bent at 90 degrees, shoulder loaded, posture broken. Their immobility gives you time to execute the multi-step Tarikoplata entry without defensive interruption.",
-      "difficulty": "Intermediate"
+      "answer": "A static defense eliminates the Gogoplata trigger (forward pressure) and the Baratoplata trigger (backward extraction). The opponent thinks they are denying you both attacks by staying still. But static defense leaves their arm in the exact position needed for the omoplata leg transition—bent at 90 degrees, shoulder loaded, posture broken. Their immobility gives you time to execute the multi-step Tarikoplata entry without defensive interruption."
     },
     {
       "question": "During the leg transition from Meathook to omoplata angle, what is the most common failure point and how do you prevent it?",
-      "answer": "The most common failure is releasing shin hook pressure too early during the transition, creating a control gap where the opponent extracts their arm. The solution is overlapping control phases: maintain the shin hook against the tricep until your leg has fully cleared the shoulder and reached the omoplata position. Your wrist grip should be established before the final release of hook pressure. Never create a moment where the arm is uncontrolled.",
-      "difficulty": "Intermediate"
+      "answer": "The most common failure is releasing shin hook pressure too early during the transition, creating a control gap where the opponent extracts their arm. The solution is overlapping control phases: maintain the shin hook against the tricep until your leg has fully cleared the shoulder and reached the omoplata position. Your wrist grip should be established before the final release of hook pressure. Never create a moment where the arm is uncontrolled."
     },
     {
       "question": "What direction should you rotate the opponent's wrist and why does this specific direction matter?",
-      "answer": "Rotate the wrist to turn the opponent's palm toward their own head. This direction creates internal rotation stress on the shoulder—the same rotation vector as the omoplata but amplified by the distal lever of the wrist grip. Rotating the opposite direction would create external rotation, which works against the omoplata mechanics and reduces submission effectiveness. The palm-toward-head rotation coordinates both levers in the same force direction.",
-      "difficulty": "Intermediate"
+      "answer": "Rotate the wrist to turn the opponent's palm toward their own head. This direction creates internal rotation stress on the shoulder—the same rotation vector as the omoplata but amplified by the distal lever of the wrist grip. Rotating the opposite direction would create external rotation, which works against the omoplata mechanics and reduces submission effectiveness. The palm-toward-head rotation coordinates both levers in the same force direction."
     },
     {
       "question": "Your opponent explosively postures up just as you begin threading your leg over their shoulder—what is the correct response?",
-      "answer": "Immediately transition to Triangle Setup. Their upward posture movement creates the exact angle needed for your leg to cross their neck instead of their shoulder. The omoplata leg position is already halfway to triangle configuration. Abandon the Tarikoplata attempt and capitalize on their postural escape—the Meathook system chains attacks so that every defensive direction opens a different submission.",
-      "difficulty": "Advanced"
+      "answer": "Immediately transition to Triangle Setup. Their upward posture movement creates the exact angle needed for your leg to cross their neck instead of their shoulder. The omoplata leg position is already halfway to triangle configuration. Abandon the Tarikoplata attempt and capitalize on their postural escape—the Meathook system chains attacks so that every defensive direction opens a different submission."
     },
     {
       "question": "How does the Tarikoplata Setup fit into the Meathook attack hierarchy relative to the Gogoplata and Baratoplata?",
-      "answer": "The three attacks create a complete dilemma system from Meathook. The Gogoplata punishes forward pressure (opponent drives into your shin at their throat), the Baratoplata punishes backward arm extraction (opponent creates threading space by pulling), and the Tarikoplata exploits static defense (opponent freezes, giving you time for the multi-step entry). Together they eliminate all safe defensive options from Meathook.",
-      "difficulty": "Advanced"
+      "answer": "The three attacks create a complete dilemma system from Meathook. The Gogoplata punishes forward pressure (opponent drives into your shin at their throat), the Baratoplata punishes backward arm extraction (opponent creates threading space by pulling), and the Tarikoplata exploits static defense (opponent freezes, giving you time for the multi-step entry). Together they eliminate all safe defensive options from Meathook."
     },
     {
       "question": "Your opponent successfully straightens their trapped arm during your Tarikoplata attempt—what chain attack becomes available?",
-      "answer": "A straightened arm opens the Armbar from Guard. Your leg is already positioned over their shoulder from the omoplata entry, which is the starting configuration for an armbar. Swing your opposite leg over their face while controlling their straightened arm at the wrist, and finish with standard armbar hip extension. Their Tarikoplata defense creates the armbar entry—each failed attack feeds the next.",
-      "difficulty": "Advanced"
+      "answer": "A straightened arm opens the Armbar from Guard. Your leg is already positioned over their shoulder from the omoplata entry, which is the starting configuration for an armbar. Swing your opposite leg over their face while controlling their straightened arm at the wrist, and finish with standard armbar hip extension. Their Tarikoplata defense creates the armbar entry—each failed attack feeds the next."
     },
     {
       "question": "Why must wrist rotation be applied slowly during Tarikoplata finishing and what injury risks exist from explosive application?",
-      "answer": "The Tarikoplata creates compound stress from two simultaneous vectors: omoplata hip extension on the shoulder plus wrist rotation adding internal rotation torque. This compound loading damages tissue faster than single-joint attacks—the rotator cuff, labrum, and glenohumeral ligaments can fail before the opponent perceives sufficient pain to tap. Explosive wrist rotation can cause rotator cuff tears, shoulder dislocation, and labrum damage. Progressive application over 3-5 seconds is mandatory to allow safe tapping.",
-      "difficulty": "Advanced"
+      "answer": "The Tarikoplata creates compound stress from two simultaneous vectors: omoplata hip extension on the shoulder plus wrist rotation adding internal rotation torque. This compound loading damages tissue faster than single-joint attacks—the rotator cuff, labrum, and glenohumeral ligaments can fail before the opponent perceives sufficient pain to tap. Explosive wrist rotation can cause rotator cuff tears, shoulder dislocation, and labrum damage. Progressive application over 3-5 seconds is mandatory to allow safe tapping."
     }
   ],
   "safety_considerations": "The Tarikoplata attacks the shoulder joint through compound loading—omoplata hip extension combined with wrist rotation creates dual-vector stress that damages tissue faster than single-joint submissions. Rotator cuff tears, labrum damage, and shoulder dislocation are all possible from improperly applied Tarikoplata. Apply wrist rotation progressively over 3-5 seconds minimum and never spike or jerk the grip. Maintain constant verbal communication during drilling. Release the wrist grip first upon any tap signal, then gradually remove the leg. Avoid this technique entirely with training partners who have existing shoulder injuries. Minimum purple belt experience is recommended before live application. During training, apply at reduced speed and pressure even when the position is fully secured.",
@@ -284,5 +257,6 @@
       "name": "Mission Control",
       "relationship": "Prerequisite Rubber Guard position that precedes Meathook in the system progression"
     }
-  ]
+  ],
+  "success_rate": 55
 }

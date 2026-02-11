@@ -89,23 +89,25 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 ### Available Transitions
 
 
-- **[[Single Leg X Sweep]]** (11% of attempts)
+- **[[Single Leg X Sweep]]** (10% of attempts)
 
-- **[[X-Guard to Ashi Transition]]** (12% of attempts)
+- **[[X-Guard to Ashi Transition]]** (10% of attempts)
 
-- **[[Single Leg X Entry]]** (11% of attempts)
+- **[[Single Leg X Entry]]** (10% of attempts)
 
-- **[[Technical Stand Up to Single Leg]]** (10% of attempts)
+- **[[Technical Stand Up to Single Leg]]** (9% of attempts)
 
-- **[[Butterfly Guard to X-Guard]]** (12% of attempts)
+- **[[Butterfly Guard to X-Guard]]** (11% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (11% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (10% of attempts)
 
-- **[[Ankle Pick Sweep]]** (12% of attempts)
+- **[[Ankle Pick Sweep]]** (11% of attempts)
 
-- **[[Inside Ashi Entry]]** (10% of attempts)
+- **[[Inside Ashi Entry]]** (9% of attempts)
 
-- **[[Standing to Single Leg X]]** (11% of attempts)
+- **[[Standing to Single Leg X]]** (10% of attempts)
+
+- **[[Heel Grab Sweep]]** (10% of attempts)
 
 
 ### Common Mistakes

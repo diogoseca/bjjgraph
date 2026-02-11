@@ -1,6 +1,6 @@
 {
   "name": "Counter Roll",
-  "description": "Master Counter Roll escape from D'arce Control. Reverse the position by rolling through your opponent. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master Counter Roll escape from Darce Control. Reverse the position by rolling through your opponent. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "tags": [
     "bjj",
     "transition",
@@ -9,7 +9,7 @@
     "darce-defense",
     "counter-technique"
   ],
-  "from_position": "D'arce Control/Bottom",
+  "from_position": "Darce Control/Bottom",
   "outcomes": [
     {
       "to": "Side Control",
@@ -22,7 +22,7 @@
       "result": "success"
     },
     {
-      "to": "D'arce Control",
+      "to": "Darce Control",
       "probability": 25,
       "result": "failure"
     },
@@ -32,12 +32,7 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
-  "overview": "The Counter Roll is a high-risk, high-reward escape technique executed when caught in D'arce Control from the bottom position. Rather than fighting the choke directly or attempting to extract the trapped arm, this technique uses the opponent's committed choking pressure against them by rolling through their position. The defender initiates a rolling motion toward the choking arm, using the opponent's own forward pressure and grip commitment as momentum to complete the reversal.\n\nThis technique exemplifies the principle that sometimes the best defense is to move with the attack rather than against it. When an opponent commits heavily to finishing the D'arce choke, they often sacrifice positional stability. The Counter Roll exploits this vulnerability by timing the roll precisely when the opponent drives their weight forward. The rolling motion carries the opponent over and lands the defender in top position, typically side control or a scramble situation.\n\nThe Counter Roll requires precise timing, understanding of weight distribution, and the courage to commit fully to the movement despite being in a compromised choking position. It is most effective when executed before the choke is fully locked, during the transition phase when the opponent is adjusting their grip or position. Advanced practitioners use this technique as a calculated risk when other escapes have failed or when they recognize the opponent's positional commitment creates an opening.",
+  "overview": "The Counter Roll is a high-risk, high-reward escape technique executed when caught in Darce Control from the bottom position. Rather than fighting the choke directly or attempting to extract the trapped arm, this technique uses the opponent's committed choking pressure against them by rolling through their position. The defender initiates a rolling motion toward the choking arm, using the opponent's own forward pressure and grip commitment as momentum to complete the reversal.\n\nThis technique exemplifies the principle that sometimes the best defense is to move with the attack rather than against it. When an opponent commits heavily to finishing the Darce choke, they often sacrifice positional stability. The Counter Roll exploits this vulnerability by timing the roll precisely when the opponent drives their weight forward. The rolling motion carries the opponent over and lands the defender in top position, typically side control or a scramble situation.\n\nThe Counter Roll requires precise timing, understanding of weight distribution, and the courage to commit fully to the movement despite being in a compromised choking position. It is most effective when executed before the choke is fully locked, during the transition phase when the opponent is adjusting their grip or position. Advanced practitioners use this technique as a calculated risk when other escapes have failed or when they recognize the opponent's positional commitment creates an opening.",
   "key_principles": [
     "Time the roll during opponent's forward pressure or grip adjustment rather than when they are settled and stable",
     "Commit fully to the rolling motion once initiated as partial attempts leave you in worse position",
@@ -47,7 +42,7 @@
     "Accelerate through the middle of the roll where you are most vulnerable to maximize momentum"
   ],
   "setup_requirements": [
-    "Caught in D'arce Control with opponent's arm threaded under your armpit and around your neck",
+    "Caught in Darce Control with opponent's arm threaded under your armpit and around your neck",
     "Opponent is driving forward with their weight committed to finishing the choke",
     "Your free arm is available to post and initiate the rolling motion",
     "The choke is not yet fully locked allowing some movement and neck protection",
@@ -57,38 +52,32 @@
     {
       "step_number": 1,
       "action": "Assess choke depth",
-      "description": "Evaluate how deep the D'arce grip is locked. This technique works best when the choke is not yet fully tight and you still have ability to tuck your chin and move your body.",
-      "timing": "Immediately upon recognizing the D'arce grip"
+      "description": "Evaluate how deep the Darce grip is locked. This technique works best when the choke is not yet fully tight and you still have ability to tuck your chin and move your body."
     },
     {
       "step_number": 2,
       "action": "Position free arm",
-      "description": "Place your free hand (the arm not trapped in the choke) on the mat beside your hip on the side you will roll toward. This arm will post and guide the rolling direction.",
-      "timing": "As opponent adjusts grip or drives forward"
+      "description": "Place your free hand (the arm not trapped in the choke) on the mat beside your hip on the side you will roll toward. This arm will post and guide the rolling direction."
     },
     {
       "step_number": 3,
       "action": "Load hips",
-      "description": "Shift your hips toward the direction of the roll by bridging slightly and angling your pelvis. This creates the rotational momentum needed to carry your body and your opponent over.",
-      "timing": "When opponent commits weight forward"
+      "description": "Shift your hips toward the direction of the roll by bridging slightly and angling your pelvis. This creates the rotational momentum needed to carry your body and your opponent over."
     },
     {
       "step_number": 4,
       "action": "Initiate roll",
-      "description": "Push off your posting arm while simultaneously driving your hips over in the rolling direction. Turn your head into the roll and use your entire body to generate rotational force.",
-      "timing": "At peak of opponent's forward pressure"
+      "description": "Push off your posting arm while simultaneously driving your hips over in the rolling direction. Turn your head into the roll and use your entire body to generate rotational force."
     },
     {
       "step_number": 5,
       "action": "Accelerate through",
-      "description": "Commit fully to the roll by continuing the rotation even as you feel resistance. Pull your trapped arm tight to your body and keep chin tucked as you pass through the vulnerable mid-roll position.",
-      "timing": "Continuously through the rotation"
+      "description": "Commit fully to the roll by continuing the rotation even as you feel resistance. Pull your trapped arm tight to your body and keep chin tucked as you pass through the vulnerable mid-roll position."
     },
     {
       "step_number": 6,
       "action": "Establish top position",
-      "description": "As the roll completes, immediately work to establish side control or mount by driving your weight into opponent's chest and securing an underhook or crossface before they can re-establish the choke grip.",
-      "timing": "Immediately upon completing rotation"
+      "description": "As the roll completes, immediately work to establish side control or mount by driving your weight into opponent's chest and securing an underhook or crossface before they can re-establish the choke grip."
     }
   ],
   "common_counters": [
@@ -144,26 +133,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rolling mechanics",
-      "description": "Practice the rolling motion without any choke threat. Partner holds light head and arm control while you drill the posting arm position, hip loading, and roll direction. Focus on smooth, complete rotations ending in top position.",
-      "resistance_level": "None"
+      "description": "Practice the rolling motion without any choke threat. Partner holds light head and arm control while you drill the posting arm position, hip loading, and roll direction. Focus on smooth, complete rotations ending in top position."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner applies D'arce grip at 30% pressure. Practice identifying the optimal timing window when they drive forward. Drill reading their weight shift and initiating the roll at the right moment. Partner provides feedback on timing.",
-      "resistance_level": "Light"
+      "description": "Partner applies Darce grip at 30% pressure. Practice identifying the optimal timing window when they drive forward. Drill reading their weight shift and initiating the roll at the right moment. Partner provides feedback on timing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Pressure adaptation",
-      "description": "Partner increases D'arce pressure to 60%. Work on maintaining composure while identifying timing windows. Practice aborting when timing is wrong and switching to alternative escapes. Develop decision-making under realistic pressure.",
-      "resistance_level": "Medium"
+      "description": "Partner increases Darce pressure to 60%. Work on maintaining composure while identifying timing windows. Practice aborting when timing is wrong and switching to alternative escapes. Develop decision-making under realistic pressure."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Incorporate counter roll into positional sparring from D'arce Control scenarios. Partner attacks at full resistance while you choose between counter roll, arm extraction, or other escapes based on their pressure and grip depth. Refine success rate through repetition.",
-      "resistance_level": "Full"
+      "description": "Incorporate counter roll into positional sparring from Darce Control scenarios. Partner attacks at full resistance while you choose between counter roll, arm extraction, or other escapes based on their pressure and grip depth. Refine success rate through repetition."
     }
   ],
   "variants_and_adaptations": [
@@ -186,60 +171,50 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Counter Roll?",
-      "answer": "The primary goal is to reverse the position when caught in D'arce Control by rolling through your opponent's committed pressure, ending in top position such as side control. It uses their weight and grip commitment against them rather than fighting the choke directly.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to reverse the position when caught in Darce Control by rolling through your opponent's committed pressure, ending in top position such as side control. It uses their weight and grip commitment against them rather than fighting the choke directly."
     },
     {
       "question": "What position do you start Counter Roll from?",
-      "answer": "Counter Roll is executed from D'arce Control Bottom, when your opponent has threaded their arm under your armpit and around your neck in the D'arce choke configuration. You are typically on your side or in turtle with the choking arm locked.",
-      "difficulty": "Beginner"
+      "answer": "Counter Roll is executed from Darce Control Bottom, when your opponent has threaded their arm under your armpit and around your neck in the Darce choke configuration. You are typically on your side or in turtle with the choking arm locked."
     },
     {
       "question": "Why must you roll toward the choking arm rather than away from it?",
-      "answer": "Rolling toward the choking arm uses your opponent's grip commitment and forward pressure as momentum for the reversal. Rolling away creates space that allows them to tighten the choke and follow your movement. The direction into the choke keeps you moving against their base while their grip actually assists the rotation.",
-      "difficulty": "Intermediate"
+      "answer": "Rolling toward the choking arm uses your opponent's grip commitment and forward pressure as momentum for the reversal. Rolling away creates space that allows them to tighten the choke and follow your movement. The direction into the choke keeps you moving against their base while their grip actually assists the rotation."
     },
     {
       "question": "Your opponent sits back and tightens the choke instead of driving forward - should you attempt the counter roll?",
-      "answer": "No, abort the counter roll attempt. This technique requires opponent's forward weight commitment to generate the momentum needed for reversal. When they sit back, switch to arm extraction, granby roll, or other escapes that do not depend on their forward pressure. Attempting counter roll against a seated opponent results in failed rotation with a tighter choke.",
-      "difficulty": "Intermediate"
+      "answer": "No, abort the counter roll attempt. This technique requires opponent's forward weight commitment to generate the momentum needed for reversal. When they sit back, switch to arm extraction, granby roll, or other escapes that do not depend on their forward pressure. Attempting counter roll against a seated opponent results in failed rotation with a tighter choke."
     },
     {
       "question": "What is the function of your free arm in the Counter Roll?",
-      "answer": "The free arm posts on the mat to generate and direct rotational force. It acts as a pivot point and push-off surface that initiates the rolling motion. Without the posting arm, you rely only on hip movement which is insufficient to complete the roll, especially against heavier opponents. Plant it firmly beside your hip on the side you will roll toward.",
-      "difficulty": "Intermediate"
+      "answer": "The free arm posts on the mat to generate and direct rotational force. It acts as a pivot point and push-off surface that initiates the rolling motion. Without the posting arm, you rely only on hip movement which is insufficient to complete the roll, especially against heavier opponents. Plant it firmly beside your hip on the side you will roll toward."
     },
     {
       "question": "How do you manage the choke threat during the roll itself?",
-      "answer": "Maintain strict chin tuck throughout the entire rotation to prevent the choking arm from sinking deeper under your jaw. Pull your trapped arm tight to your body during the roll. The mid-roll position is most vulnerable, so accelerate through this phase rather than hesitating. The roll should be fast enough that the choke does not have time to fully lock during the transition.",
-      "difficulty": "Advanced"
+      "answer": "Maintain strict chin tuck throughout the entire rotation to prevent the choking arm from sinking deeper under your jaw. Pull your trapped arm tight to your body during the roll. The mid-roll position is most vulnerable, so accelerate through this phase rather than hesitating. The roll should be fast enough that the choke does not have time to fully lock during the transition."
     },
     {
       "question": "What timing cue indicates the optimal moment to initiate the counter roll?",
-      "answer": "The optimal moment is when your opponent drives their weight forward aggressively, commits to tightening the choke by adjusting their grip, or walks their hips around to improve their finishing angle. These movements shift their balance and base forward, creating the unstable platform needed for the reversal. Initiating during their adjustment phase catches them mid-transition.",
-      "difficulty": "Advanced"
+      "answer": "The optimal moment is when your opponent drives their weight forward aggressively, commits to tightening the choke by adjusting their grip, or walks their hips around to improve their finishing angle. These movements shift their balance and base forward, creating the unstable platform needed for the reversal. Initiating during their adjustment phase catches them mid-transition."
     },
     {
       "question": "What should you do immediately after completing the roll?",
-      "answer": "Immediately establish top position control before opponent can re-establish the choke grip. Drive your weight into their chest, secure an underhook or crossface, and work to consolidate side control or advance to mount. Do not pause after the roll completes - the transition is not finished until you have secured dominant position and eliminated the submission threat.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately establish top position control before opponent can re-establish the choke grip. Drive your weight into their chest, secure an underhook or crossface, and work to consolidate side control or advance to mount. Do not pause after the roll completes - the transition is not finished until you have secured dominant position and eliminated the submission threat."
     },
     {
       "question": "When should you abort a counter roll attempt and what alternatives should you use?",
-      "answer": "Abort when: the choke is fully locked with no space remaining, opponent sits back instead of driving forward, or opponent sprawls and removes their weight commitment. Alternatives include arm extraction to eliminate the arm-in configuration, granby roll to recover guard, back door escape to turtle, or simply tapping if the choke is past the point of safe escape.",
-      "difficulty": "Advanced"
+      "answer": "Abort when: the choke is fully locked with no space remaining, opponent sits back instead of driving forward, or opponent sprawls and removes their weight commitment. Alternatives include arm extraction to eliminate the arm-in configuration, granby roll to recover guard, back door escape to turtle, or simply tapping if the choke is past the point of safe escape."
     },
     {
       "question": "How does the leg hook variant improve counter roll success rate?",
-      "answer": "Hooking your inside leg behind opponent's near leg anchors their lower body and prevents them from stepping around to maintain base or posting to block the roll direction. This removes their primary defensive option against the reversal. Use this variant when opponent has a wide base that would otherwise allow them to adjust and stop your rotation.",
-      "difficulty": "Advanced"
+      "answer": "Hooking your inside leg behind opponent's near leg anchors their lower body and prevents them from stepping around to maintain base or posting to block the roll direction. This removes their primary defensive option against the reversal. Use this variant when opponent has a wide base that would otherwise allow them to adjust and stop your rotation."
     }
   ],
-  "safety_considerations": "Counter Roll carries significant risk because it is performed while already caught in a choke. Never attempt this technique when the D'arce is fully locked with no space remaining between your neck and opponent's arm. Tap immediately if you feel lightheadedness, vision changes, or loss of strength during the attempt. In training, communicate with your partner about the pressure level and have them release if you tap during the roll. Avoid training this technique when fatigued as compromised judgment increases the risk of waiting too long to tap. Beginners should drill the mechanics extensively with zero resistance before adding any choke pressure. The technique should be considered a calculated risk option, not a primary escape.",
-  "position_integration": "Counter Roll fits into the D'arce defense system as a high-risk option when standard escapes have failed or are unavailable. It integrates with other front headlock defenses and represents the aggressive end of the escape spectrum. The technique connects D'arce Control Bottom to various top positions including Side Control, Mount, and scramble scenarios. Practitioners should develop this alongside arm extraction, granby roll, and back door escape to have a complete defensive toolbox. Counter Roll is most valuable in competition contexts where the alternative is losing by submission, making the risk-reward calculation favorable. It chains naturally into top position attacks once the reversal is complete.",
+  "safety_considerations": "Counter Roll carries significant risk because it is performed while already caught in a choke. Never attempt this technique when the Darce is fully locked with no space remaining between your neck and opponent's arm. Tap immediately if you feel lightheadedness, vision changes, or loss of strength during the attempt. In training, communicate with your partner about the pressure level and have them release if you tap during the roll. Avoid training this technique when fatigued as compromised judgment increases the risk of waiting too long to tap. Beginners should drill the mechanics extensively with zero resistance before adding any choke pressure. The technique should be considered a calculated risk option, not a primary escape.",
+  "position_integration": "Counter Roll fits into the Darce defense system as a high-risk option when standard escapes have failed or are unavailable. It integrates with other front headlock defenses and represents the aggressive end of the escape spectrum. The technique connects Darce Control Bottom to various top positions including Side Control, Mount, and scramble scenarios. Practitioners should develop this alongside arm extraction, granby roll, and back door escape to have a complete defensive toolbox. Counter Roll is most valuable in competition contexts where the alternative is losing by submission, making the risk-reward calculation favorable. It chains naturally into top position attacks once the reversal is complete.",
   "related_content": [
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Starting position - the control you are escaping from"
     },
     {
@@ -272,7 +247,8 @@
     },
     {
       "name": "Front Headlock",
-      "relationship": "Related position - parent position of D'arce Control"
+      "relationship": "Related position - parent position of Darce Control"
     }
-  ]
+  ],
+  "success_rate": 58
 }

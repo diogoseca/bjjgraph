@@ -21,37 +21,37 @@ description: "Master Leg Knot Bottom in BJJ. Defensive leg entanglement with sys
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Entry",
-      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Reverse X-Guard Entry",
-      "text": "From this position, attempt Reverse X-Guard Entry. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Reverse X-Guard Entry. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute 50-50 Guard to Single Leg X-Guard",
-      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt 50-50 Guard to Single Leg X-Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,17 +210,29 @@ Success in Leg Knot Bottom requires understanding the hierarchical threat assess
 
 ## Available Escapes
 
-### [[50-50 Entry]] (16% of attempts)
+### [[50-50 Entry]] (8% of attempts)
 
-### [[Single Leg X Entry]] (17% of attempts)
+### [[Single Leg X Entry]] (9% of attempts)
 
-### [[Granby Roll Escape]] (14% of attempts)
+### [[Granby Roll Escape]] (7% of attempts)
 
-### [[Reverse X-Guard Entry]] (16% of attempts)
+### [[Reverse X-Guard Entry]] (8% of attempts)
 
-### [[50-50 Guard to Single Leg X-Guard]] (17% of attempts)
+### [[50-50 Guard to Single Leg X-Guard]] (9% of attempts)
 
-### [[Hip Escape to Guard]] (20% of attempts)
+### [[Hip Escape to Guard]] (11% of attempts)
+
+### [[Clear leg and transition to X-Guard]] (8% of attempts)
+
+### [[Counter-entangle to 50-50 Guard]] (8% of attempts)
+
+### [[Extract leg and establish Single Leg X]] (8% of attempts)
+
+### [[Granby roll to reverse position]] (8% of attempts)
+
+### [[Limp leg extraction to Half Guard]] (8% of attempts)
+
+### [[Reverse the entanglement to Outside Ashi]] (8% of attempts)
 
 
 
@@ -383,11 +395,11 @@ Start in Leg Knot Bottom position with specific goals: bottom player escapes to 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 20% | 5% |
-| Intermediate | 45% | 35% | 15% |
-| Advanced     | 60% | 50% | 25% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 42% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 20-60 seconds
 

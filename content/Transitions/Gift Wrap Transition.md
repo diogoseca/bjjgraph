@@ -163,7 +163,7 @@ Strategically, the Gift Wrap Transition serves as a gateway to multiple high-per
 The transition rewards patience and methodical execution. Rushing the arm isolation typically results in the opponent recovering their defensive posture, while careful setup and precise mechanics create an inescapable trap. Advanced practitioners use feints toward other submissions to bait defensive arm movements that facilitate the Gift Wrap entry, turning the opponent's defensive reactions into the mechanism of their own entrapment.
 
 **From Position**: [[High Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target arm**: From High Mount, identify which arm is most isolated or exposed through opponent's defensive positioning. Look for the arm that is furthest from their centerline or that they are using to push on your hips or chest. (Timing: Opportunistic - when opponent creates opening through defensive movement)
-2. **Control the wrist**: Secure grip control on the target arm's wrist or lower forearm using your same-side hand. This grip prevents the opponent from retracting the arm while you establish the threading position. (Timing: Immediate upon identifying target arm)
-3. **Thread under armpit**: Drive your opposite arm under the opponent's armpit from the outside, reaching across their chest toward the trapped wrist. Your arm should travel diagonally from their armpit toward their opposite shoulder area. (Timing: While maintaining wrist control)
-4. **Connect grips**: Transfer wrist control to your threading arm by gripping the opponent's wrist or forearm with the hand that traveled under their armpit. Your original controlling hand is now free to establish secondary control. (Timing: As threading arm reaches target)
-5. **Pull arm across chest**: Pull the trapped arm high across the opponent's chest toward their opposite shoulder using your threading arm. The higher you position the trapped arm, the more difficult recovery becomes. Maintain constant pulling pressure. (Timing: Immediately after grip transfer)
-6. **Establish secondary control**: Use your free hand to control the opponent's head, neck, or reinforce the arm trap. This secondary control prevents them from creating the rotation needed to recover the trapped arm. Maintain mount base throughout. (Timing: As arm trap is secured)
-7. **Consolidate Gift Wrap**: Settle your weight, ensure the trapped arm remains high across their chest, and verify your mount control remains intact. The Gift Wrap is now established - you can maintain control or transition to attacks. (Timing: 2-3 seconds to consolidate before attacking)
+1. **Identify target arm**: From High Mount, identify which arm is most isolated or exposed through opponent's defensive positioning. Look for the arm that is furthest from their centerline or that they are using to push on your hips or chest.
+2. **Control the wrist**: Secure grip control on the target arm's wrist or lower forearm using your same-side hand. This grip prevents the opponent from retracting the arm while you establish the threading position.
+3. **Thread under armpit**: Drive your opposite arm under the opponent's armpit from the outside, reaching across their chest toward the trapped wrist. Your arm should travel diagonally from their armpit toward their opposite shoulder area.
+4. **Connect grips**: Transfer wrist control to your threading arm by gripping the opponent's wrist or forearm with the hand that traveled under their armpit. Your original controlling hand is now free to establish secondary control.
+5. **Pull arm across chest**: Pull the trapped arm high across the opponent's chest toward their opposite shoulder using your threading arm. The higher you position the trapped arm, the more difficult recovery becomes. Maintain constant pulling pressure.
+6. **Establish secondary control**: Use your free hand to control the opponent's head, neck, or reinforce the arm trap. This secondary control prevents them from creating the rotation needed to recover the trapped arm. Maintain mount base throughout.
+7. **Consolidate Gift Wrap**: Settle your weight, ensure the trapped arm remains high across their chest, and verify your mount control remains intact. The Gift Wrap is now established - you can maintain control or transition to attacks.
 
 
 </section>
@@ -261,19 +261,15 @@ The transition rewards patience and methodical execution. Rushing the arm isolat
 ## Training Progressions
 **Week 1-2** - Arm threading mechanics
 Practice the arm threading motion with cooperative partner. Focus on the path from outside the armpit to gripping the opposite wrist. Drill grip transfers between hands. Partner offers no resistance, allowing focus on proper mechanics and arm positioning.
-(Resistance: None)
 
 **Week 3-4** - Mount maintenance during transition
 Add light resistance as partner attempts minor bridging and arm recovery. Focus on maintaining mount control while executing the transition. Practice recovering when wrap fails and immediately re-attempting.
-(Resistance: Light)
 
 **Week 5-6** - Entry timing and setup creation
 Partner defends realistically. Practice creating Gift Wrap entries through submission feints - threaten collar choke or armbar to force defensive arm positioning that facilitates the wrap. Chain failed entries into immediate re-attacks.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance positional sparring starting from High Mount. Execute Gift Wrap Transition against realistic defense and immediately chain to follow-up attacks or back take. Develop ability to recognize and capitalize on entry opportunities in scrambles.
-(Resistance: Full)
 
 
 

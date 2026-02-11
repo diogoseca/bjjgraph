@@ -234,7 +234,7 @@ Dead Orchard Control Top is an advanced anaconda choke variation developed withi
 
 
 **If opponent creates space on the trapped arm side:**
-- Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 65%)
+- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 65%)
 - Execute **[[Side Control to North-South]]** → [[North-South]] (Probability: 35%)
 
 
@@ -359,11 +359,11 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 35% |
-| Intermediate | 65% | 60% | 55% |
-| Advanced     | 80% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 62% |
 
 **Average Time in Position**: 45-90 seconds
 
@@ -375,7 +375,7 @@ Partner executes specific escape sequences from dead orchard control (hip escape
 ## Related Positions and Techniques
 
 - **[[Anaconda Control]]** - Parent position - standard anaconda configuration without dead orchard specific mechanics
-- **[[D'arce Control]]** - Sister technique - alternative arm-in choke control from similar entries
+- **[[Darce Control]]** - Sister technique - alternative arm-in choke control from similar entries
 - **[[Front Headlock]]** - Entry position - primary setup position for dead orchard control establishment
 - **[[Guillotine Control]]** - Alternative control - different front headlock choke configuration
 - **[[Anaconda Choke]]** - Primary submission - main finishing technique from this control position

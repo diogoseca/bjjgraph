@@ -157,7 +157,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 **Type**: Arm Lock
 **Target Area**: Elbow joint
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -234,12 +234,12 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish tight side control**: Begin in standard side control with your chest heavy on the opponent's chest. Secure a strong cross face with your near arm, driving your shoulder into their jaw while your far arm controls their far hip. Your weight should be distributed to prevent any bridging or shrimping movement. Ensure your hips are low and your knees are wide for maximum base. (Timing: Establish control for 3-5 seconds before transitioning) [Pressure: Firm]
-2. **Isolate the near arm**: Transition your cross face arm to control the opponent's near arm at the wrist or forearm. Use your chest pressure to pin their arm across their body or bring it slightly away from their torso. Your other hand maintains control of the far hip. The goal is to make the near arm completely isolated and unable to defend. If the opponent grips their own belt or gi, use your weight to break the grip before proceeding. (Timing: 2-3 seconds to break grips and isolate) [Pressure: Firm]
-3. **Step over the head**: While maintaining control of the isolated arm, step your leg nearest to the opponent's head over their face. Your shin should rest across their forehead or neck area, with your knee pointing toward their far shoulder. This step must be deliberate and controlled - do not jump or rush. Keep constant downward pressure with your chest to prevent them from following you or sitting up. Your other leg may post out temporarily for base during this transition. (Timing: 1-2 seconds for controlled transition) [Pressure: Moderate]
-4. **Secure the arm across your hips**: Bring the opponent's arm across your lower abdomen/hips with their thumb pointing upward. Grip their wrist with both hands, pulling it tight to your body. Your legs should now be in position with one leg across their face and the other leg positioned to control their far side or torso. Ensure the arm is positioned so the back of their elbow (tricep side) is against your hips, not the front. Pinch your knees together to control their head and prevent them from turning into you. (Timing: 1-2 seconds to secure proper position) [Pressure: Firm]
-5. **Position hips perpendicular**: Adjust your body position so your hips are perpendicular to the opponent's torso, forming a 'T' shape. Your back should be near or on the mat with the opponent's arm extended across your hips. Ensure your hips are as high on their shoulder as possible while maintaining control. The opponent's elbow should be positioned directly over your hip bones, creating the fulcrum point for the submission. Keep their wrist pulled tight to your chest. (Timing: 1 second adjustment) [Pressure: Firm]
-6. **Extend hips for the finish**: With the arm secured and thumb pointing up, initiate the finish by lifting your hips smoothly upward while pulling their wrist toward your chest. The extension should come primarily from hip elevation, not from pulling with your arms. Apply pressure gradually and progressively, giving your training partner ample time to tap. Squeeze your knees together to prevent them from rolling or extracting their arm. The moment you feel resistance or the elbow begins to straighten, slow your application and be ready to release immediately upon the tap. (Timing: 3-5 seconds of progressive pressure) [Pressure: Maximum]
+1. **Establish tight side control**: Begin in standard side control with your chest heavy on the opponent's chest. Secure a strong cross face with your near arm, driving your shoulder into their jaw while your far arm controls their far hip. Your weight should be distributed to prevent any bridging or shrimping movement. Ensure your hips are low and your knees are wide for maximum base. (Timing: Establish control for 3-5 seconds before transitioning)
+2. **Isolate the near arm**: Transition your cross face arm to control the opponent's near arm at the wrist or forearm. Use your chest pressure to pin their arm across their body or bring it slightly away from their torso. Your other hand maintains control of the far hip. The goal is to make the near arm completely isolated and unable to defend. If the opponent grips their own belt or gi, use your weight to break the grip before proceeding. (Timing: 2-3 seconds to break grips and isolate)
+3. **Step over the head**: While maintaining control of the isolated arm, step your leg nearest to the opponent's head over their face. Your shin should rest across their forehead or neck area, with your knee pointing toward their far shoulder. This step must be deliberate and controlled - do not jump or rush. Keep constant downward pressure with your chest to prevent them from following you or sitting up. Your other leg may post out temporarily for base during this transition. (Timing: 1-2 seconds for controlled transition)
+4. **Secure the arm across your hips**: Bring the opponent's arm across your lower abdomen/hips with their thumb pointing upward. Grip their wrist with both hands, pulling it tight to your body. Your legs should now be in position with one leg across their face and the other leg positioned to control their far side or torso. Ensure the arm is positioned so the back of their elbow (tricep side) is against your hips, not the front. Pinch your knees together to control their head and prevent them from turning into you. (Timing: 1-2 seconds to secure proper position)
+5. **Position hips perpendicular**: Adjust your body position so your hips are perpendicular to the opponent's torso, forming a 'T' shape. Your back should be near or on the mat with the opponent's arm extended across your hips. Ensure your hips are as high on their shoulder as possible while maintaining control. The opponent's elbow should be positioned directly over your hip bones, creating the fulcrum point for the submission. Keep their wrist pulled tight to your chest. (Timing: 1 second adjustment)
+6. **Extend hips for the finish**: With the arm secured and thumb pointing up, initiate the finish by lifting your hips smoothly upward while pulling their wrist toward your chest. The extension should come primarily from hip elevation, not from pulling with your arms. Apply pressure gradually and progressively, giving your training partner ample time to tap. Squeeze your knees together to prevent them from rolling or extracting their arm. The moment you feel resistance or the elbow begins to straighten, slow your application and be ready to release immediately upon the tap. (Timing: 3-5 seconds of progressive pressure)
 
 
 </section>
@@ -259,7 +259,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Spiking or jerking the armbar finish [CRITICAL DANGER]
+- **Mistake**: Spiking or jerking the armbar finish
   - **Consequence**: Severe elbow injury to training partner, potential ligament tears or dislocation
   - **Correction**: Always apply smooth, progressive pressure over 3-5 seconds minimum. Lift hips gradually and maintain constant communication with training partners about application speed.
 - **Mistake**: Transitioning too quickly without establishing control
@@ -268,7 +268,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 - **Mistake**: Failing to keep hips close to opponent's shoulder
   - **Consequence**: Creates space for arm extraction and reduces finishing pressure
   - **Correction**: Scoot your hips as high onto their shoulder as possible. Pull their wrist to your chest and actively pinch your knees together to eliminate space.
-- **Mistake**: Positioning opponent's thumb down instead of up [Medium DANGER]
+- **Mistake**: Positioning opponent's thumb down instead of up
   - **Consequence**: Reduces effectiveness of armbar and applies pressure to wrong part of elbow joint
   - **Correction**: Always ensure the thumb points toward the ceiling before finishing. The back of their elbow (tricep) should face your hips, not the front (bicep). Rotate the arm if necessary before securing final position.
 - **Mistake**: Pulling with arms instead of extending with hips
@@ -277,7 +277,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 - **Mistake**: Not controlling the head with your leg
   - **Consequence**: Opponent can turn into you and escape or defend the submission
   - **Correction**: Keep your leg tight across their face or neck. Squeeze your knees together actively. Use the leg pressure to prevent any rotation of their body.
-- **Mistake**: Releasing control too early in training [High DANGER]
+- **Mistake**: Releasing control too early in training
   - **Consequence**: Creates unsafe training habits and potential for injury if timing is misjudged
   - **Correction**: Maintain all control positions and pressure until the tap is complete and acknowledged. Only then release in the prescribed protocol. Never rush the release.
 
@@ -342,43 +342,6 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Week 1-2)** (First 2 weeks)
-- Focus: Learn proper body positioning, arm isolation, and step-over mechanics without resistance. Study the safety protocols and release procedures thoroughly. Understand the anatomical mechanics of elbow hyperextension.
-- Resistance: None
-- Safety: Instructor demonstrates proper tap protocols and release procedures. Practice the release protocol multiple times before attempting the submission. Learn to recognize proper vs improper arm positioning.
-
-**Controlled Drilling (Week 3-4)** (Weeks 3-4)
-- Focus: Practice the full technique from side control to finish with compliant partner. Focus on maintaining control points and smooth transitions. Partner should tap early and often. Emphasize 5+ second application time.
-- Resistance: Zero resistance
-- Safety: Both partners practice tapping early - well before pain. Establish communication about pressure levels. Practice the complete release protocol after every repetition. No finishing the submission - stop at control position.
-
-**Progressive Resistance (Week 5-8)** (Weeks 5-8)
-- Focus: Partner provides mild resistance to grips and position but allows the technique to complete. Work on breaking defensive grips and maintaining control during movement. Begin recognizing when setup conditions are not met.
-- Resistance: Mild resistance
-- Safety: Increase application time to account for movement. Partner taps at first sign of pressure. Practice abandoning technique if control is lost rather than forcing it. Discuss what resistance levels are appropriate.
-
-**Situational Training (Week 9-12)** (Weeks 9-12)
-- Focus: Start from side control with partner defending normally. Work on timing, setup recognition, and chaining with other submissions. Partner defends the armbar but taps when caught. Learn to recognize low vs high percentage opportunities.
-- Resistance: Realistic resistance
-- Safety: Maintain slow application speed despite realistic resistance. Learn the difference between training and competition finishing speeds. Never spike the submission even when partner defends well. Accept when the technique fails rather than forcing it.
-
-**Integration and Competition Training (Week 13+)** (Week 13 onward)
-- Focus: Incorporate armbar from side control into positional sparring and live rolling. Recognize setup opportunities from other positions. Chain with other submissions and positions. Understand positional hierarchy and risk assessment.
-- Resistance: Full resistance
-- Safety: Differentiate training vs competition application speeds - always slower in training. Be especially careful with less experienced partners. Regularly review release protocols with new training partners. Accept taps instantly without additional pressure.
-
-**Teaching and Refinement (Ongoing)** (Ongoing)
-- Focus: Help newer students learn the technique with emphasis on safety. Refine details based on body types and situations. Develop sensitivity to submission depth and timing. Study variations and high-level applications.
-- Resistance: Full resistance
-- Safety: Model perfect safety protocols when teaching. Never demonstrate on an unwilling or unprepared partner. Emphasize that safety is more important than successful technique execution. Create a culture where tapping early is encouraged and respected.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -429,6 +392,7 @@ The Armbar from Side Control is a fundamental finishing technique that targets t
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -13,11 +13,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Back Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Triangle from Back is an advanced blood choke that represents a sophisticated evolution of traditional back control submissions. This technique combines the positional dominance of back control with the mechanical efficiency of the triangle choke, creating a submission that attacks the carotid arteries while maintaining superior position. Unlike the standard rear naked choke, the triangle from back uses leg configuration to create the choking pressure, freeing the hands for positional control and defense nullification.\n\nThis submission is particularly effective when the opponent successfully defends the traditional rear naked choke by protecting their neck with their hands or maintaining proper chin position. By transitioning to the triangle configuration, you can bypass many common rear naked choke defenses while simultaneously threatening to return to traditional back attacks. The technique requires exceptional flexibility, timing, and positional awareness, making it a hallmark of advanced no-gi grappling.\n\nThe triangle from back also serves as a critical component of modern back attack systems, creating dilemmas where defending one submission opens pathways to others. When properly integrated into a systematic approach to back control, this submission significantly increases your finishing rate from the most dominant position in Brazilian Jiu-Jitsu.",
   "safety_considerations": {
     "injury_risks": [
@@ -82,57 +77,49 @@
       "step_number": 1,
       "action": "Secure traditional back control foundation",
       "description": "Begin from standard back control with both hooks in or body triangle secured. Establish seat belt grip (one arm over shoulder, one under armpit) and ensure your chest is tight to opponent's back. Your goal is complete positional dominance before attempting the triangle transition.",
-      "timing": "Maintain for 5-10 seconds minimum",
-      "pressure_level": "Firm"
+      "timing": "Maintain for 5-10 seconds minimum"
     },
     {
       "step_number": 2,
       "action": "Bait and assess rear naked choke defense",
       "description": "Attempt a traditional rear naked choke setup by bringing your choking arm across opponent's throat. Observe their defensive reaction - most will tuck their chin hard and grab your choking arm with both hands. This defensive commitment creates the opening for triangle transition.",
-      "timing": "3-5 seconds to assess defense pattern",
-      "pressure_level": "Light"
+      "timing": "3-5 seconds to assess defense pattern"
     },
     {
       "step_number": 3,
       "action": "Trap defensive arm on choking side",
       "description": "With your non-choking hand, swim over the top and grab opponent's wrist or forearm on the same side as your choking arm. Pull this arm tightly across their body, isolating it. This trapped arm will become part of the triangle choke structure.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Create perpendicular angle and remove bottom hook",
       "description": "Slide your body toward the side where you've trapped the arm, creating a 90-degree angle to opponent's spine. Remove your bottom hook on the same side, preparing to bring your leg over their shoulder. Maintain top hook and upper body control throughout this transition.",
-      "timing": "2-4 seconds - smooth, controlled movement",
-      "pressure_level": "Moderate"
+      "timing": "2-4 seconds - smooth, controlled movement"
     },
     {
       "step_number": 5,
       "action": "Thread leg over shoulder into triangle position",
       "description": "Bring your bottom leg over opponent's shoulder on the side where you've trapped their arm. Your calf should rest across their throat while your foot reaches toward your opposite hip. Maintain perpendicular angle - your body should form a T-shape with theirs.",
-      "timing": "3-5 seconds - flexibility dependent",
-      "pressure_level": "Light"
+      "timing": "3-5 seconds - flexibility dependent"
     },
     {
       "step_number": 6,
       "action": "Lock triangle and establish figure-four configuration",
       "description": "Bring your opposite leg over your ankle to lock the triangle. Your locked legs should create a figure-four around opponent's neck and their own trapped arm. Ensure the bony part of your shin is across their carotid artery on the non-trapped side.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 7,
       "action": "Angle optimization and squeeze initiation",
       "description": "Pull opponent's head down with your choking arm while simultaneously pulling your knees together and extending your hips. The squeeze should come from your entire leg structure, not just calf pressure. Angle your body to increase the perpendicular angle if needed.",
-      "timing": "5-7 seconds progressive pressure increase",
-      "pressure_level": "Firm"
+      "timing": "5-7 seconds progressive pressure increase"
     },
     {
       "step_number": 8,
       "action": "Maintain control and secure tap or transition",
       "description": "Keep your upper body control throughout the finish. If opponent defends successfully by posturing or hand fighting, be prepared to transition back to rear naked choke or other back attacks. Never fully commit to triangle if it sacrifices back control completely.",
-      "timing": "Hold until tap or defensive escape requires transition",
-      "pressure_level": "Maximum"
+      "timing": "Hold until tap or defensive escape requires transition"
     }
   ],
   "opponent_defense_patterns": [
@@ -161,38 +148,32 @@
     {
       "error": "Losing back control entirely during triangle transition",
       "consequence": "Opponent escapes to neutral or advantageous position, negating all positional work",
-      "correction": "Maintain at least one hook and upper body control throughout transition. If you can't secure triangle while keeping back control, abandon the attempt and return to standard back attacks.",
-      "danger_level": "Medium"
+      "correction": "Maintain at least one hook and upper body control throughout transition. If you can't secure triangle while keeping back control, abandon the attempt and return to standard back attacks."
     },
     {
       "error": "Applying triangle with wrong leg (crossing over opposite shoulder from trapped arm)",
       "consequence": "Triangle geometry fails, no choking pressure achieved, opponent can easily defend or escape",
-      "correction": "Always bring your leg over the shoulder on the SAME side as the trapped arm. The triangle should incorporate their arm into the choke structure.",
-      "danger_level": "Low"
+      "correction": "Always bring your leg over the shoulder on the SAME side as the trapped arm. The triangle should incorporate their arm into the choke structure."
     },
     {
       "error": "Using only calf squeeze without hip extension",
       "consequence": "Ineffective choke that relies on pain rather than blood flow restriction, easy to defend",
-      "correction": "The finishing pressure comes from pulling knees together WHILE extending hips. Think of it as making your legs straighter while simultaneously closing the triangle.",
-      "danger_level": "Low"
+      "correction": "The finishing pressure comes from pulling knees together WHILE extending hips. Think of it as making your legs straighter while simultaneously closing the triangle."
     },
     {
       "error": "Failing to create perpendicular angle to opponent's body",
       "consequence": "Poor triangle geometry, minimal carotid compression, opponent can defend with posture",
-      "correction": "Your torso should form a T or L shape with opponent's spine. Slide your entire body to the side to create this angle before locking the triangle.",
-      "danger_level": "Low"
+      "correction": "Your torso should form a T or L shape with opponent's spine. Slide your entire body to the side to create this angle before locking the triangle."
     },
     {
       "error": "Applying explosive, jerking motion to finish the choke",
       "consequence": "High risk of neck injury, trachea damage, or loss of consciousness without tap opportunity",
-      "correction": "SLOW, progressive pressure over 5-7 seconds minimum. The choke should tighten gradually, giving partner ample opportunity to recognize pressure and tap.",
-      "danger_level": "CRITICAL"
+      "correction": "SLOW, progressive pressure over 5-7 seconds minimum. The choke should tighten gradually, giving partner ample opportunity to recognize pressure and tap."
     },
     {
       "error": "Continuing to squeeze after opponent taps or goes limp",
       "consequence": "Severe injury risk including brain damage from prolonged blood restriction",
-      "correction": "Immediately release all pressure upon ANY tap signal. If opponent goes limp without tapping, release instantly and begin recovery protocol.",
-      "danger_level": "CRITICAL"
+      "correction": "Immediately release all pressure upon ANY tap signal. If opponent goes limp without tapping, release instantly and begin recovery protocol."
     }
   ],
   "variations_and_setups": [
@@ -279,50 +260,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Positional Drilling)",
-      "timeframe": "Weeks 1-2",
-      "focus": "Learn the transition mechanics from back control to triangle position without any pressure. Focus on maintaining back control throughout transition, creating perpendicular angle, and achieving proper triangle lock. Practice entry and exit repeatedly.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner remains completely passive. Focus on smooth transitions and position retention. No choking pressure applied - simply achieve positions and release."
-    },
-    {
-      "phase": "Slow Practice with Light Pressure",
-      "timeframe": "Weeks 3-4",
-      "focus": "Add minimal choking pressure to understand finish mechanics. Practice the progressive squeeze from triangle lock. Emphasize 7-10 second minimum from lock to pressure. Communication between partners is constant.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Stop at first sign of pressure on carotid arteries. Partner should tap early and often. Focus is on feeling the position, not achieving taps. Maximum 10% pressure intensity."
-    },
-    {
-      "phase": "Mild Resistance and Defense Recognition",
-      "timeframe": "Weeks 5-8",
-      "focus": "Partner adds basic defensive movements (hand fighting, posture attempts). Practice maintaining triangle and back control against these defenses. Begin recognizing when to transition back to rear naked choke.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner uses resistance to improve your position, not to completely escape. Continue slow pressure application (5-7 seconds minimum). Tap early to avoid any loss of consciousness."
-    },
-    {
-      "phase": "Realistic Defense Integration",
-      "timeframe": "Weeks 9-12",
-      "focus": "Partner employs full defensive knowledge (grip fighting, angle changes, turning into you). Practice all variations and transitions. Begin integrating into your back attack system with decision trees.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners must know all tap signals. Agree on maximum pressure level before round. Never exceed 70% intensity in training. Monitor partner's face for color changes or signs of distress."
-    },
-    {
-      "phase": "Sparring Integration",
-      "timeframe": "Weeks 13-16",
-      "focus": "Apply triangle from back during positional sparring (back control only) and eventually full sparring. Focus on decision-making about when to attempt triangle versus other back attacks. Develop timing and setup recognition.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "NEVER use competition intensity for the finish. Even at full resistance, the final squeeze must be progressive and controlled. Both partners responsible for safety - if you feel distress, tap immediately."
-    },
-    {
-      "phase": "Ongoing Refinement and Safety Culture",
-      "timeframe": "Months 5+",
-      "focus": "Continue developing setups, timing, and integration with overall back attack system. Teach the technique to newer students with emphasis on safety protocols. Regularly review safety procedures and tap protocols.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain culture of early tapping and controlled finishing. Never allow ego to override safety. Regular discussions about close calls or safety concerns. Zero tolerance for dangerous application."
-    }
-  ],
   "from_positions": [
     "Back Control",
     "Body Triangle",
@@ -394,5 +331,6 @@
       "name": "Harness",
       "relationship": "Upper body control grip used to maintain back position during triangle setup"
     }
-  ]
+  ],
+  "success_rate": 58
 }

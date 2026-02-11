@@ -34,11 +34,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 55,
-    "intermediate": 75,
-    "advanced": 90
-  },
   "overview": "Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from an inferior bottom position back to a guard position using dynamic movement and hip rotation. This technique is essential for escaping bad positions, recovering guard after a scramble, or regaining a defensive frame when an opponent attempts to establish control. The rolling motion creates space, disrupts opponent positioning, and allows the practitioner to reestablish their legs as a barrier between themselves and their opponent. This movement is particularly effective when combined with proper framing and timing, as it converts defensive desperation into offensive opportunity. The technique requires coordination, body awareness, and understanding of when to commit to the roll versus when to use alternative escapes. Mastery of rolling to guard is a hallmark of effective guard retention and defensive grappling.",
   "key_principles": [
     "Create initial space with frames before committing to the roll",
@@ -61,44 +56,37 @@
     {
       "step_number": 1,
       "action": "Establish frames",
-      "description": "Create initial space by placing frames on opponent's hips, shoulders, or biceps. Push away to generate enough distance for the rolling motion to begin. Your frames should be strong but not rigid, allowing you to feel opponent's pressure and reactions.",
-      "timing": "Immediately when opponent attempts to close distance"
+      "description": "Create initial space by placing frames on opponent's hips, shoulders, or biceps. Push away to generate enough distance for the rolling motion to begin. Your frames should be strong but not rigid, allowing you to feel opponent's pressure and reactions."
     },
     {
       "step_number": 2,
       "action": "Turn to side",
-      "description": "Rotate your body onto your side, positioning your shoulder toward the mat. This creates the initial angle necessary for the roll and prevents you from being flattened. Your bottom arm should be ready to post on the mat for support.",
-      "timing": "As frames create initial space"
+      "description": "Rotate your body onto your side, positioning your shoulder toward the mat. This creates the initial angle necessary for the roll and prevents you from being flattened. Your bottom arm should be ready to post on the mat for support."
     },
     {
       "step_number": 3,
       "action": "Tuck chin and initiate roll",
-      "description": "Tuck your chin to your chest to protect your neck and initiate the backward roll by driving off your shoulder. Your head should never touch the mat directly - the roll should go across the upper back and shoulders. Begin rotating your hips backward and overhead.",
-      "timing": "When opponent's pressure shifts or weight commits forward"
+      "description": "Tuck your chin to your chest to protect your neck and initiate the backward roll by driving off your shoulder. Your head should never touch the mat directly - the roll should go across the upper back and shoulders. Begin rotating your hips backward and overhead."
     },
     {
       "step_number": 4,
       "action": "Drive hips overhead",
-      "description": "Continue the rolling motion by driving your hips up and over your shoulders. Your legs should swing overhead in a controlled arc. Keep your body compact and maintain rotational momentum. Your bottom hand can post on the mat to control the speed of rotation.",
-      "timing": "Maintain continuous motion from step 3"
+      "description": "Continue the rolling motion by driving your hips up and over your shoulders. Your legs should swing overhead in a controlled arc. Keep your body compact and maintain rotational momentum. Your bottom hand can post on the mat to control the speed of rotation."
     },
     {
       "step_number": 5,
       "action": "Track opponent's position",
-      "description": "As you roll, maintain visual contact with your opponent or awareness of their position. Adjust the direction of your roll if needed to face them upon completion. Your goal is to emerge facing your opponent, not with your back exposed.",
-      "timing": "Throughout the rolling motion"
+      "description": "As you roll, maintain visual contact with your opponent or awareness of their position. Adjust the direction of your roll if needed to face them upon completion. Your goal is to emerge facing your opponent, not with your back exposed."
     },
     {
       "step_number": 6,
       "action": "Establish guard position",
-      "description": "As your hips return to the mat, immediately get your legs between yourself and your opponent. Establish closed guard by wrapping legs around opponent's waist, or establish an open guard variation depending on distance and opponent position. Secure grips immediately to prevent passing.",
-      "timing": "Immediately upon completing rotation"
+      "description": "As your hips return to the mat, immediately get your legs between yourself and your opponent. Establish closed guard by wrapping legs around opponent's waist, or establish an open guard variation depending on distance and opponent position. Secure grips immediately to prevent passing."
     },
     {
       "step_number": 7,
       "action": "Secure control",
-      "description": "Solidify your guard by securing collar and sleeve grips, establishing hooks, or creating appropriate frames. Break opponent's posture if possible and begin working your guard game. Do not remain passive after completing the roll.",
-      "timing": "Within 1-2 seconds of establishing guard"
+      "description": "Solidify your guard by securing collar and sleeve grips, establishing hooks, or creating appropriate frames. Break opponent's posture if possible and begin working your guard game. Do not remain passive after completing the roll."
     }
   ],
   "common_counters": [
@@ -159,32 +147,27 @@
     {
       "phase": "Week 1-2: Solo Drilling",
       "focus": "Building basic rolling mechanics and body awareness",
-      "description": "Practice backward rolls without partner, focusing on smooth motion, neck protection, and controlled rotation. Start from seated position, progress to rolls from knees, then from standing. Emphasize chin tuck and shoulder positioning. Perform 20-30 repetitions daily.",
-      "resistance_level": "None"
+      "description": "Practice backward rolls without partner, focusing on smooth motion, neck protection, and controlled rotation. Start from seated position, progress to rolls from knees, then from standing. Emphasize chin tuck and shoulder positioning. Perform 20-30 repetitions daily."
     },
     {
       "phase": "Week 3-4: Partner Drilling",
       "focus": "Timing and spatial awareness with cooperative partner",
-      "description": "Partner assumes top position with minimal pressure. Practitioner creates frames, initiates roll, and reestablishes guard while partner remains relatively stationary. Focus on smooth transitions and proper guard establishment. Partner gradually adds light movement to create realistic scenarios.",
-      "resistance_level": "Light"
+      "description": "Partner assumes top position with minimal pressure. Practitioner creates frames, initiates roll, and reestablishes guard while partner remains relatively stationary. Focus on smooth transitions and proper guard establishment. Partner gradually adds light movement to create realistic scenarios."
     },
     {
       "phase": "Week 5-8: Progressive Resistance",
       "focus": "Executing against increasing pressure and opponent movement",
-      "description": "Partner applies moderate pressure and attempts to follow the roll or prevent guard recovery. Practitioner must time frames, execute roll explosively, and quickly establish strong guard position. Work on variations based on opponent reactions. Add grip fighting elements.",
-      "resistance_level": "Medium"
+      "description": "Partner applies moderate pressure and attempts to follow the roll or prevent guard recovery. Practitioner must time frames, execute roll explosively, and quickly establish strong guard position. Work on variations based on opponent reactions. Add grip fighting elements."
     },
     {
       "phase": "Week 9-12: Situational Sparring",
       "focus": "Integration into live training scenarios",
-      "description": "Begin from bad positions (opponent in side control, half mount, or transitioning to mount) and use rolling to guard as primary escape option. Partner applies full pressure and attempts to maintain position or advance. Practice decision-making about when to roll versus using alternative escapes. Track success rate.",
-      "resistance_level": "Full"
+      "description": "Begin from bad positions (opponent in side control, half mount, or transitioning to mount) and use rolling to guard as primary escape option. Partner applies full pressure and attempts to maintain position or advance. Practice decision-making about when to roll versus using alternative escapes. Track success rate."
     },
     {
       "phase": "Month 4+: Competition Integration",
       "focus": "Seamless execution under stress with chaining options",
-      "description": "Incorporate rolling to guard into full sparring rounds, using it reactively based on opponent pressure and position. Chain with other guard retention techniques and sweeps. Practice from various angles and starting positions. Develop ability to read when roll is optimal versus other options.",
-      "resistance_level": "Full"
+      "description": "Incorporate rolling to guard into full sparring rounds, using it reactively based on opponent pressure and position. Chain with other guard retention techniques and sweeps. Practice from various angles and starting positions. Develop ability to read when roll is optimal versus other options."
     }
   ],
   "variants_and_adaptations": [
@@ -212,63 +195,51 @@
   "knowledge_assessment": [
     {
       "question": "Why is it critical to tuck your chin during a rolling to guard movement?",
-      "answer": "Tucking the chin protects the cervical spine and prevents neck injury by ensuring the roll occurs across the upper back and shoulders rather than directly on the head or neck. This creates a safer, more controlled rolling surface and prevents compression injuries that could occur if the head contacts the mat with your body weight. Additionally, a tucked chin maintains better positional awareness as you can track your opponent throughout the movement.",
-      "difficulty": "Beginner"
+      "answer": "Tucking the chin protects the cervical spine and prevents neck injury by ensuring the roll occurs across the upper back and shoulders rather than directly on the head or neck. This creates a safer, more controlled rolling surface and prevents compression injuries that could occur if the head contacts the mat with your body weight. Additionally, a tucked chin maintains better positional awareness as you can track your opponent throughout the movement."
     },
     {
       "question": "What is the primary timing consideration when initiating a roll to guard?",
-      "answer": "The optimal timing is when the opponent's weight shifts forward or when they are transitioning between positions. This is when they are least stable and least able to follow your movement or counter effectively. Additionally, you should initiate when you have created sufficient space through frames - attempting to roll without space results in the opponent easily following and maintaining control. The timing must balance having enough space with not waiting so long that the opponent fully settles their weight.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent's weight shifts forward or when they are transitioning between positions. This is when they are least stable and least able to follow your movement or counter effectively. Additionally, you should initiate when you have created sufficient space through frames - attempting to roll without space results in the opponent easily following and maintaining control. The timing must balance having enough space with not waiting so long that the opponent fully settles their weight."
     },
     {
       "question": "How do you prevent an opponent from taking your back during a rolling to guard movement?",
-      "answer": "The key is to roll at an angle rather than straight backward, and to maintain constant awareness of the opponent's position throughout the movement. Roll toward your shoulder at approximately 45 degrees, which creates separation from the opponent's centerline. Keep your eyes tracking the opponent so you can adjust the roll direction if they attempt to circle to your back. Upon completing the roll, immediately establish leg positioning between yourself and the opponent, using frames and grips to prevent them from circling behind you.",
-      "difficulty": "Advanced"
+      "answer": "The key is to roll at an angle rather than straight backward, and to maintain constant awareness of the opponent's position throughout the movement. Roll toward your shoulder at approximately 45 degrees, which creates separation from the opponent's centerline. Keep your eyes tracking the opponent so you can adjust the roll direction if they attempt to circle to your back. Upon completing the roll, immediately establish leg positioning between yourself and the opponent, using frames and grips to prevent them from circling behind you."
     },
     {
       "question": "What should you do immediately after completing the roll to guard?",
-      "answer": "Immediately establish a strong guard structure by getting your legs between yourself and your opponent, securing appropriate grips (collar, sleeve, or pants depending on the guard type), and either closing the guard or establishing hooks. You must act quickly and decisively because there is a brief window where the opponent can capitalize on your transition. Breaking the opponent's posture and creating frames prevents them from immediately beginning their passing sequence. Do not remain passive or assume the guard is secure simply because you completed the roll.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately establish a strong guard structure by getting your legs between yourself and your opponent, securing appropriate grips (collar, sleeve, or pants depending on the guard type), and either closing the guard or establishing hooks. You must act quickly and decisively because there is a brief window where the opponent can capitalize on your transition. Breaking the opponent's posture and creating frames prevents them from immediately beginning their passing sequence. Do not remain passive or assume the guard is secure simply because you completed the roll."
     },
     {
       "question": "When should you choose rolling to guard over other escape options like the elbow escape?",
-      "answer": "Rolling to guard is optimal when you have already created significant space through frames, when the opponent is moving or transitioning rather than settled in control, when you have good body awareness and rolling mechanics, and when the opponent's weight distribution allows for the rotational movement. It's less effective when the opponent has very heavy, settled pressure (elbow escape better), when space is minimal (hip escape better), or when you're very close to the mat boundaries. Rolling to guard excels in scramble situations and when the opponent is moving forward aggressively, as you can use their momentum against them.",
-      "difficulty": "Advanced"
+      "answer": "Rolling to guard is optimal when you have already created significant space through frames, when the opponent is moving or transitioning rather than settled in control, when you have good body awareness and rolling mechanics, and when the opponent's weight distribution allows for the rotational movement. It's less effective when the opponent has very heavy, settled pressure (elbow escape better), when space is minimal (hip escape better), or when you're very close to the mat boundaries. Rolling to guard excels in scramble situations and when the opponent is moving forward aggressively, as you can use their momentum against them."
     },
     {
       "question": "What role do frames play in the setup for rolling to guard?",
-      "answer": "Frames are essential for creating the initial space necessary to execute the roll successfully. Without adequate space (typically 6-12 inches), the opponent can easily follow your movement and maintain pressure. Frames should be placed on opponent's hips, shoulders, or biceps and used to push them away while simultaneously initiating your body rotation. The frames also provide feedback about the opponent's pressure and reactions, helping you time the roll optimally. Strong frames at the beginning of the movement allow for explosive rolling motion once committed.",
-      "difficulty": "Beginner"
+      "answer": "Frames are essential for creating the initial space necessary to execute the roll successfully. Without adequate space (typically 6-12 inches), the opponent can easily follow your movement and maintain pressure. Frames should be placed on opponent's hips, shoulders, or biceps and used to push them away while simultaneously initiating your body rotation. The frames also provide feedback about the opponent's pressure and reactions, helping you time the roll optimally. Strong frames at the beginning of the movement allow for explosive rolling motion once committed."
     },
     {
       "question": "Your opponent posts their hand on the mat as you initiate the roll - how do you adjust?",
-      "answer": "When an opponent posts their hand, they create a structural anchor that limits your rolling options in that direction. Immediately adjust your rolling angle away from the posted hand, typically rolling toward the opposite shoulder. The post also temporarily removes that hand from controlling you, creating a window to accelerate your roll before they can recover. If they post on your near side, roll sharply to your far shoulder. If they post wide, you may be able to roll underneath their posted arm. Use their committed post as an anchor point to lever off while changing direction.",
-      "difficulty": "Intermediate"
+      "answer": "When an opponent posts their hand, they create a structural anchor that limits your rolling options in that direction. Immediately adjust your rolling angle away from the posted hand, typically rolling toward the opposite shoulder. The post also temporarily removes that hand from controlling you, creating a window to accelerate your roll before they can recover. If they post on your near side, roll sharply to your far shoulder. If they post wide, you may be able to roll underneath their posted arm. Use their committed post as an anchor point to lever off while changing direction."
     },
     {
       "question": "What is the critical hip movement that determines the success of the rolling escape?",
-      "answer": "The hip drive up and over your shoulders is the critical movement that powers the entire roll. Your hips must generate enough upward momentum to carry your legs through the rotation arc. The movement initiates from the core and glutes, driving your pelvis toward the ceiling before directing the momentum over your shoulder. Weak hip drive results in incomplete rolls where you get stuck on your shoulders or neck. The hip movement should be explosive and committed - half-measures result in getting stuck mid-roll where the opponent can easily capitalize.",
-      "difficulty": "Intermediate"
+      "answer": "The hip drive up and over your shoulders is the critical movement that powers the entire roll. Your hips must generate enough upward momentum to carry your legs through the rotation arc. The movement initiates from the core and glutes, driving your pelvis toward the ceiling before directing the momentum over your shoulder. Weak hip drive results in incomplete rolls where you get stuck on your shoulders or neck. The hip movement should be explosive and committed - half-measures result in getting stuck mid-roll where the opponent can easily capitalize."
     },
     {
       "question": "How do you chain rolling to guard with other escapes when the initial roll is blocked?",
-      "answer": "If the roll is blocked, immediately transition to complementary escapes based on how it was stopped. If blocked by hip pressure, use the space created by your initial roll attempt to shrimp and re-guard with hip escape mechanics. If they load forward to stop your roll, the momentum change opens hip bump or elevator sweep opportunities. If they grab your legs, transition to seated guard or technical standup. The key is recognizing the block early and flowing into the next technique rather than forcing the roll. Each escape attempt should load the next option - never restart from neutral.",
-      "difficulty": "Advanced"
+      "answer": "If the roll is blocked, immediately transition to complementary escapes based on how it was stopped. If blocked by hip pressure, use the space created by your initial roll attempt to shrimp and re-guard with hip escape mechanics. If they load forward to stop your roll, the momentum change opens hip bump or elevator sweep opportunities. If they grab your legs, transition to seated guard or technical standup. The key is recognizing the block early and flowing into the next technique rather than forcing the roll. Each escape attempt should load the next option - never restart from neutral."
     },
     {
       "question": "What are the grip requirements before initiating the roll, and when should you release them?",
-      "answer": "Optimal grip setup involves controlling the opponent's sleeves, collar, or wrists to prevent them from posting and following your movement. Collar grip on the same side you're rolling toward pulls them off-balance. Sleeve grip on the opposite side prevents them from basing out. Release grips at the moment of roll initiation - holding too long inhibits your rotation and can result in getting tangled. The grip release should be explosive, converting the pulling energy into rotational momentum. Immediately seek new grips on completion to establish guard control.",
-      "difficulty": "Advanced"
+      "answer": "Optimal grip setup involves controlling the opponent's sleeves, collar, or wrists to prevent them from posting and following your movement. Collar grip on the same side you're rolling toward pulls them off-balance. Sleeve grip on the opposite side prevents them from basing out. Release grips at the moment of roll initiation - holding too long inhibits your rotation and can result in getting tangled. The grip release should be explosive, converting the pulling energy into rotational momentum. Immediately seek new grips on completion to establish guard control."
     },
     {
       "question": "Your opponent is driving forward aggressively - how does this affect your rolling timing?",
-      "answer": "Aggressive forward pressure is actually optimal timing for the roll because you can redirect their momentum. As they drive forward, their weight commits past their base, making them vulnerable to being rolled over. Time your roll initiation at the peak of their forward drive, using their momentum to accelerate your rotation. Your frames absorb the initial pressure, then convert to pushing them over your shoulder as you roll. This is the martial arts principle of using the opponent's force against them - less effort required when you work with their energy rather than against it.",
-      "difficulty": "Intermediate"
+      "answer": "Aggressive forward pressure is actually optimal timing for the roll because you can redirect their momentum. As they drive forward, their weight commits past their base, making them vulnerable to being rolled over. Time your roll initiation at the peak of their forward drive, using their momentum to accelerate your rotation. Your frames absorb the initial pressure, then convert to pushing them over your shoulder as you roll. This is the martial arts principle of using the opponent's force against them - less effort required when you work with their energy rather than against it."
     },
     {
       "question": "What distinguishes successful practitioners at this technique from those who struggle with it?",
-      "answer": "Successful practitioners demonstrate three key differentiators: First, they maintain constant motion rather than stopping between steps, flowing from frame creation through roll completion to guard establishment as one continuous action. Second, they have superior spatial awareness, always knowing where their opponent is throughout the roll and adjusting direction accordingly. Third, they read timing accurately, initiating when opponents are transitioning or off-balance rather than when they're settled. Struggling practitioners often pause between phases, roll blindly without tracking the opponent, or attempt the technique against settled pressure where other escapes would be more appropriate.",
-      "difficulty": "Advanced"
+      "answer": "Successful practitioners demonstrate three key differentiators: First, they maintain constant motion rather than stopping between steps, flowing from frame creation through roll completion to guard establishment as one continuous action. Second, they have superior spatial awareness, always knowing where their opponent is throughout the roll and adjusting direction accordingly. Third, they read timing accurately, initiating when opponents are transitioning or off-balance rather than when they're settled. Struggling practitioners often pause between phases, roll blindly without tracking the opponent, or attempt the technique against settled pressure where other escapes would be more appropriate."
     }
   ],
   "safety_considerations": "When practicing rolling to guard, controlled execution is paramount to prevent neck and spine injuries. Always tuck your chin tightly to your chest and ensure the roll occurs across the upper back and shoulders, never directly on the head or neck. Begin practice on soft surfaces and progress gradually to standard mats. Avoid explosive or uncontrolled rolling during initial learning phases, building speed only as mechanics become consistent. Be aware of training partners during the dynamic movement and ensure adequate space for the roll. Partners should provide progressive resistance rather than attempting to spike or compress during the learning phase. Stop immediately if any neck discomfort occurs. Practitioners with existing neck or back injuries should consult medical professionals before practicing this technique.",
@@ -322,5 +293,6 @@
       "name": "Elbow Escape",
       "relationship": "Complementary escape from pinned positions"
     }
-  ]
+  ],
+  "success_rate": 82
 }

@@ -17,7 +17,7 @@ description: "Master the Armbar from North-South in BJJ. Step-by-step technique 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Armbar from North-South in BJJ",
-  "description": "Step-by-step guide for Armbar from North-South from North South Control/Top. Possible outcomes: Armbar Control (65%), North South Control (25%), Half Guard (10%).",
+  "description": "Step-by-step guide for Armbar from North-South from North-South/Top. Possible outcomes: Armbar Control (65%), North-South (25%), Half Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -79,7 +79,7 @@ description: "Master the Armbar from North-South in BJJ. Step-by-step technique 
       "name": "What position do you start Armbar from North-South from?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from North South Control/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins."
+        "text": "This technique starts from North-South/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins."
       }
     },
     {
@@ -156,8 +156,8 @@ Strategically, this armbar setup serves as a primary offensive option when the o
 
 The mechanical foundation relies on pivoting your body perpendicular to the opponent's arm while maintaining control of their wrist and elbow. Your legs create the fulcrum for the hyperextension by clamping across their chest and shoulder line. Success depends on controlling the arm throughout the transition—any slack allows defensive hitchhiker escapes or guard recovery attempts.
 
-**From Position**: [[North South Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[North-South/Top]]
+**Success Rate**: 58%
 
 </section>
 
@@ -168,7 +168,7 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Armbar Control]] | 65% |
-| Failure | [[North South Control]] | 25% |
+| Failure | [[North-South]] | 25% |
 | Counter | [[Half Guard]] | 10% |
 
 
@@ -205,12 +205,12 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: From North-South, control the near-side wrist with your same-side hand using a pistol grip. Your thumb wraps around the radial side while fingers secure the ulnar side of their wrist. (Timing: When opponent's arm drifts away from their body)
-2. **Establish elbow control**: Use your opposite arm to underhook their elbow, pulling it tight against your ribs. This two-on-one control prevents them from bending their arm or pulling it back to their body. (Timing: Immediately after wrist control)
-3. **Begin hip rotation**: Pivot your hips explosively toward their arm, swinging your far-side leg over their face. Your hip bone should move toward their shoulder as you rotate perpendicular to their body. (Timing: One fluid motion)
-4. **Position legs for control**: Land with your near-side leg across their chest below the armpit and far-side leg over their face. Pinch knees together tightly to clamp their shoulder and prevent sitting up. (Timing: As rotation completes)
-5. **Secure arm position**: Pull their wrist to your chest with their thumb pointing up toward the ceiling. Their elbow should rest on your hip bone or lower abdomen, creating the fulcrum for hyperextension. (Timing: Before extending hips)
-6. **Apply breaking pressure**: Elevate your hips while pulling their wrist toward your chest and driving heels downward. The extension should be controlled and progressive, allowing time for the tap. (Timing: Controlled, progressive extension)
+1. **Secure wrist control**: From North-South, control the near-side wrist with your same-side hand using a pistol grip. Your thumb wraps around the radial side while fingers secure the ulnar side of their wrist.
+2. **Establish elbow control**: Use your opposite arm to underhook their elbow, pulling it tight against your ribs. This two-on-one control prevents them from bending their arm or pulling it back to their body.
+3. **Begin hip rotation**: Pivot your hips explosively toward their arm, swinging your far-side leg over their face. Your hip bone should move toward their shoulder as you rotate perpendicular to their body.
+4. **Position legs for control**: Land with your near-side leg across their chest below the armpit and far-side leg over their face. Pinch knees together tightly to clamp their shoulder and prevent sitting up.
+5. **Secure arm position**: Pull their wrist to your chest with their thumb pointing up toward the ceiling. Their elbow should rest on your hip bone or lower abdomen, creating the fulcrum for hyperextension.
+6. **Apply breaking pressure**: Elevate your hips while pulling their wrist toward your chest and driving heels downward. The extension should be controlled and progressive, allowing time for the tap.
 
 
 </section>
@@ -253,19 +253,15 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 ## Training Progressions
 **Week 1-2** - Positional mechanics
 Practice arm isolation from North-South against a non-resisting partner. Focus on the wrist grip, elbow underhook, and feeling the correct arm position before any rotation. Drill the hip rotation movement without the arm to build muscle memory for the pivot.
-(Resistance: None)
 
 **Week 3-4** - Transition timing
 Partner provides light defensive movement during North-South. Practice recognizing when the arm becomes available and timing the rotation. Work on leg positioning and knee pinch in the finishing position.
-(Resistance: Light)
 
 **Week 5-6** - Defense and counter integration
 Partner attempts common defenses including hitchhiker, stacking, and grip fighting. Learn to adjust and maintain control despite resistance. Chain to alternative submissions when armbar is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in positional sparring starting from North-South. Work on creating the arm isolation organically from the flow of live rolling. Test against training partners of various skill levels.
-(Resistance: Full)
 
 
 
@@ -291,7 +287,7 @@ Apply technique in positional sparring starting from North-South. Work on creati
 **A**: The primary goal is to transition from the pinning control of North-South into a submission control position (Armbar Control) by isolating the opponent's arm and rotating your body to create a hyperextension angle on their elbow joint. This converts positional dominance into a submission threat.
 
 **Q2**: What position do you start Armbar from North-South from?
-**A**: This technique starts from North South Control/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins.
+**A**: This technique starts from North-South/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins.
 
 **Q3**: What are the key grips needed for Armbar from North-South?
 **A**: The essential grips are a pistol grip on the wrist (thumb wrapping the radial side, fingers on ulnar side) and an elbow underhook that pulls their arm tight to your ribs. This two-on-one control prevents arm extraction and maintains connection throughout the rotation. The wrist grip is the primary anchor that must never release.
@@ -341,7 +337,7 @@ The Armbar from North-South is a cornerstone attack within the North-South contr
 
 ## Related Techniques
 
-- [[North South Control]] - Starting position
+- [[North-South]] - Starting position
 - [[Armbar Control]] - Primary success outcome
 - [[Armbar Finish]] - Follow-up submission from Armbar Control
 - [[Kimura from North-South]] - Complementary attack creating dilemma

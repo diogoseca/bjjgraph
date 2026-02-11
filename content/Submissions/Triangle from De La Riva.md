@@ -157,7 +157,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[De La Riva Guard]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -229,12 +229,12 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant De La Riva control**: Secure classic De La Riva position with hook deep behind opponent's knee, opposite foot on hip or bicep, and strong collar-sleeve grips. Break opponent's posture forward using collar grip while preventing them from standing tall. This foundational control is essential before attempting any offensive transition. (Timing: Initial position establishment - hold until opponent commits weight forward) [Pressure: Moderate]
-2. **Break opponent's defensive grips and posture**: Use collar grip to pull opponent's head down while simultaneously pushing their far arm across your centerline with your sleeve grip. The De La Riva hook prevents them from stepping back to recover posture. This creates the broken posture necessary for triangle entry and begins isolating one arm. (Timing: 1-2 seconds as opponent attempts to maintain base) [Pressure: Firm]
-3. **Pivot on De La Riva hook and swim leg over shoulder**: Maintain the De La Riva hook as a pivot point while releasing the hip control with your opposite leg. Swing this free leg high and over the opponent's shoulder on the side of your collar grip. The De La Riva hook prevents them from backing away during this transition. Aim to place your shin across the back of their neck. (Timing: Quick transition - 0.5-1 second window as opponent is off-balanced) [Pressure: Light]
-4. **Lock triangle configuration**: Release De La Riva hook and bring that leg across your opposite ankle to create the triangle lock. Ensure your knee is positioned behind opponent's head, not on top of their shoulder. The trapped arm should be across their own neck, not outside your legs. Lock your legs in figure-four configuration with flexed feet for maximum security. (Timing: Immediate lock as shin clears shoulder - 1 second) [Pressure: Moderate]
-5. **Control posture and create finishing angle**: Grip behind opponent's head with both hands and pull them down while simultaneously rotating your hips perpendicular to their body. This angle is critical - your spine should form roughly 90-degree angle with theirs. Pull their trapped arm across their neck to tighten the choke. Your knees should point away from opponent's body. (Timing: 2-3 seconds to establish optimal angle) [Pressure: Firm]
-6. **Finish with leg extension and hip pressure**: Extend your locking leg while simultaneously squeezing your knees together and arching your hips upward. The choking pressure comes from the combination of their trapped arm against one carotid and your leg against the other. Maintain head control and optimal angle throughout. Apply pressure progressively, never explosively, monitoring for tap constantly. (Timing: 3-5 seconds progressive tightening) [Pressure: Maximum]
+1. **Establish dominant De La Riva control**: Secure classic De La Riva position with hook deep behind opponent's knee, opposite foot on hip or bicep, and strong collar-sleeve grips. Break opponent's posture forward using collar grip while preventing them from standing tall. This foundational control is essential before attempting any offensive transition. (Timing: Initial position establishment - hold until opponent commits weight forward)
+2. **Break opponent's defensive grips and posture**: Use collar grip to pull opponent's head down while simultaneously pushing their far arm across your centerline with your sleeve grip. The De La Riva hook prevents them from stepping back to recover posture. This creates the broken posture necessary for triangle entry and begins isolating one arm. (Timing: 1-2 seconds as opponent attempts to maintain base)
+3. **Pivot on De La Riva hook and swim leg over shoulder**: Maintain the De La Riva hook as a pivot point while releasing the hip control with your opposite leg. Swing this free leg high and over the opponent's shoulder on the side of your collar grip. The De La Riva hook prevents them from backing away during this transition. Aim to place your shin across the back of their neck. (Timing: Quick transition - 0.5-1 second window as opponent is off-balanced)
+4. **Lock triangle configuration**: Release De La Riva hook and bring that leg across your opposite ankle to create the triangle lock. Ensure your knee is positioned behind opponent's head, not on top of their shoulder. The trapped arm should be across their own neck, not outside your legs. Lock your legs in figure-four configuration with flexed feet for maximum security. (Timing: Immediate lock as shin clears shoulder - 1 second)
+5. **Control posture and create finishing angle**: Grip behind opponent's head with both hands and pull them down while simultaneously rotating your hips perpendicular to their body. This angle is critical - your spine should form roughly 90-degree angle with theirs. Pull their trapped arm across their neck to tighten the choke. Your knees should point away from opponent's body. (Timing: 2-3 seconds to establish optimal angle)
+6. **Finish with leg extension and hip pressure**: Extend your locking leg while simultaneously squeezing your knees together and arching your hips upward. The choking pressure comes from the combination of their trapped arm against one carotid and your leg against the other. Maintain head control and optimal angle throughout. Apply pressure progressively, never explosively, monitoring for tap constantly. (Timing: 3-5 seconds progressive tightening)
 
 
 </section>
@@ -253,22 +253,22 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing De La Riva hook too early in transition [Low DANGER]
+- **Mistake**: Releasing De La Riva hook too early in transition
   - **Consequence**: Opponent backs away or stands up before triangle can be locked
   - **Correction**: Maintain De La Riva hook until your opposite leg has fully cleared their shoulder and is positioned across back of neck
-- **Mistake**: Locking triangle with knee on top of shoulder instead of behind head [Low DANGER]
+- **Mistake**: Locking triangle with knee on top of shoulder instead of behind head
   - **Consequence**: Triangle is loose and easily defended, providing no choking pressure
   - **Correction**: Ensure shin crosses high on opponent's back with knee positioned behind their head in the 'high triangle' configuration
-- **Mistake**: Failing to control trapped arm across opponent's body [Low DANGER]
+- **Mistake**: Failing to control trapped arm across opponent's body
   - **Consequence**: Opponent can use free arm to create space and defend their neck
   - **Correction**: Immediately after locking triangle, secure trapped arm with grip and pull it across their centerline
-- **Mistake**: Remaining parallel with opponent instead of creating angle [Low DANGER]
+- **Mistake**: Remaining parallel with opponent instead of creating angle
   - **Consequence**: No effective choking pressure despite locked triangle
   - **Correction**: Rotate hips to create perpendicular angle - your spine should be roughly 90 degrees to theirs
-- **Mistake**: Applying explosive jerking pressure to finish choke [CRITICAL DANGER]
+- **Mistake**: Applying explosive jerking pressure to finish choke
   - **Consequence**: Risk of neck injury, loss of control, and dangerous training environment
   - **Correction**: Apply progressive, steady pressure over 3-5 seconds, monitoring partner constantly for tap signals
-- **Mistake**: Holding choke after tap or after partner goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding choke after tap or after partner goes unconscious
   - **Consequence**: Serious injury including brain damage from prolonged oxygen deprivation
   - **Correction**: Release immediately upon any tap signal or if partner's body goes limp - never test your partner's toughness
 
@@ -331,43 +331,6 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks)
-- Focus: Learn proper De La Riva guard mechanics, triangle entry mechanics, and safety protocols without any resistance. Study the transition from linear guard position to circular triangle configuration.
-- Resistance: None
-- Safety: Partner remains completely passive, focusing on learning proper shin placement across back, knee position behind head, and recognizing when triangle is anatomically impossible due to opponent's defense
-
-**Slow Repetition (Weeks 3-4)** (Weeks 3-4)
-- Focus: Drill full sequence from established De La Riva to finished triangle at slow, controlled pace. Emphasize maintaining De La Riva hook until optimal timing, achieving high triangle position, and creating perpendicular finishing angle.
-- Resistance: Zero resistance
-- Safety: Both partners communicate throughout drill, tap early and often, apply zero choking pressure - only position the triangle structure without finishing
-
-**Positional Sparring (Weeks 5-8)** (Weeks 5-8)
-- Focus: Start from De La Riva guard with partner providing mild resistance to grips and posture breaking. Work transition timing and reading opponent's weight distribution. Practice recognizing when triangle is available versus when sweep or other attack is better option.
-- Resistance: Mild resistance
-- Safety: Attacker applies triangle structure only, never finishing pressure. Defender provides realistic movement but allows technique completion to build muscle memory and timing awareness
-
-**Defensive Recognition (Weeks 9-12)** (Weeks 9-12)
-- Focus: Partner actively defends triangle attempts using proper defensive techniques (posture, arm positioning, standing). Practice reading defenses and flowing to appropriate counter-attacks like omoplata, sweep, or back take.
-- Resistance: Realistic resistance
-- Safety: Begin applying light finishing pressure (20-30% maximum) to develop feel for when choke is properly aligned. Defender taps early when pressure begins, not when uncomfortable
-
-**Combination Integration (Weeks 13+)** (Week 13 onward)
-- Focus: Integrate triangle into complete De La Riva guard system with sweeps, back takes, and other submissions. Practice switching between attacks based on opponent's defensive reactions. Develop complete guard game rather than single-technique focus.
-- Resistance: Full resistance
-- Safety: Apply controlled finishing pressure (40-60% maximum in training), never full competition pressure. Always allow partner time to tap and recognize the submission is more important than finishing it
-
-**Ongoing Safety Culture** (Continuous)
-- Focus: Maintain safety-first mindset in all training. Recognize that blood chokes can cause unconsciousness quickly. Build reputation as safe training partner who prioritizes long-term training relationships over short-term submission success.
-- Resistance: Full resistance
-- Safety: Never hold choke after tap, never test partner's toughness, release immediately if body goes limp, and communicate openly about pressure levels and comfort during training
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -416,6 +379,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

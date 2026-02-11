@@ -157,7 +157,7 @@ Strategically, the Mat Return addresses the key limitation of standing back cont
 The mat return requires precise timing and coordinated movement between upper and lower body. The harness or seat belt grip must remain locked throughout the descent, while the legs work to break the opponent's base and guide them to the mat. Successful execution depends on maintaining chest-to-back connection, choosing the correct direction for the takedown based on opponent's stance and balance, and immediately establishing hooks upon landing to prevent scrambles.
 
 **From Position**: [[Standing Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The mat return requires precise timing and coordinated movement between upper an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Tighten harness control**: Secure your harness grip by pulling your choking arm elbow tight to your body while your control arm grips your own bicep or wrist, eliminating any slack in the seatbelt configuration (Timing: Before initiating any takedown movement)
-2. **Assess balance and choose direction**: Feel opponent's weight distribution through your chest connection and determine whether to take them backward, to the side of your choking arm, or diagonally based on where their balance is weakest (Timing: 1-2 seconds of assessment)
-3. **Break opponent's base**: Use your hooks or leg positioning to kick out or lift opponent's near leg while simultaneously pulling their upper body in the direction of the takedown, destroying their ability to post or recover balance (Timing: Explosive movement)
-4. **Drive through the takedown**: Commit your body weight into the takedown direction, keeping your chest glued to their back as you drive them toward the mat, using your hips and legs to generate power rather than just arm pulling (Timing: Continuous motion with step 3)
-5. **Control the landing**: As you descend to the mat, position your body to land with your back against the ground and opponent on top of you in classic back mount configuration, or to the side in a controlled manner (Timing: During descent)
-6. **Establish hooks immediately**: The moment you contact the mat, drive your heels inside opponent's thighs to establish both hooks, preventing any turtle or hip escape attempt before they can organize their defense (Timing: Within 1 second of landing)
+1. **Tighten harness control**: Secure your harness grip by pulling your choking arm elbow tight to your body while your control arm grips your own bicep or wrist, eliminating any slack in the seatbelt configuration
+2. **Assess balance and choose direction**: Feel opponent's weight distribution through your chest connection and determine whether to take them backward, to the side of your choking arm, or diagonally based on where their balance is weakest
+3. **Break opponent's base**: Use your hooks or leg positioning to kick out or lift opponent's near leg while simultaneously pulling their upper body in the direction of the takedown, destroying their ability to post or recover balance
+4. **Drive through the takedown**: Commit your body weight into the takedown direction, keeping your chest glued to their back as you drive them toward the mat, using your hips and legs to generate power rather than just arm pulling
+5. **Control the landing**: As you descend to the mat, position your body to land with your back against the ground and opponent on top of you in classic back mount configuration, or to the side in a controlled manner
+6. **Establish hooks immediately**: The moment you contact the mat, drive your heels inside opponent's thighs to establish both hooks, preventing any turtle or hip escape attempt before they can organize their defense
 
 
 </section>
@@ -252,19 +252,15 @@ The mat return requires precise timing and coordinated movement between upper an
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the mat return against a completely compliant partner, focusing on maintaining harness connection throughout the descent, controlling the landing, and immediately establishing hooks. Drill 20-30 repetitions per session emphasizing proper mechanics over speed.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light resistance and movement, shifting weight and attempting mild defensive postures. Practice reading balance and choosing optimal takedown direction based on opponent's weight distribution. Add timing element by taking them down when they shift weight.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the mat return with standing back control entries and ground submission finishes. Practice taking the back from standing positions, executing mat return, and immediately attacking rear naked choke or bow and arrow. Partner provides moderate defensive resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement mat return in live rolling and sparring, working to recognize opportunities and execute against fully resisting opponents. Focus on maintaining position when opponent counters and adapting to different body types and defensive styles.
-(Resistance: Full)
 
 
 

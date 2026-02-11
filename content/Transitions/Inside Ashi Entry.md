@@ -153,7 +153,7 @@ description: "Master Inside Ashi Entry in BJJ. Systematic leg entanglement entry
 Inside Ashi Entry is a fundamental transition in modern leg lock systems that establishes the inside position on your opponent's leg. This entry creates immediate offensive opportunities for inside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The inside position refers to having your outside leg positioned between your opponent's legs, creating a wedge that controls their hip and prevents escape. This entry is particularly effective from seated guard, single leg X-guard, or when your opponent is standing in your open guard. The key to successful execution lies in proper angle creation, hip control, and timing the entry when your opponent's weight is committed forward. Inside Ashi is considered one of the safest leg entanglements to enter because it offers strong control while maintaining defensive integrity against counter leg attacks.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish leg control**: From open guard, secure a two-on-one grip on your opponent's near leg, with one hand controlling the ankle and the other hand gripping behind the knee or on the calf. Pull this leg slightly toward you to break their base and prevent them from stepping back. (Timing: Execute when opponent steps forward or posts their weight)
-2. **Thread inside leg**: Simultaneously as you pull their leg, thread your inside leg (the leg on the same side as the leg you're attacking) between their legs, driving your knee and shin through the gap between their thighs. Your shin should end up across their far hip, creating a wedge that prevents hip rotation. (Timing: Thread leg immediately upon securing grips before opponent can react)
-3. **Hook outside leg**: Swing your outside leg over and around their near hip, hooking your foot behind their thigh or calf. This leg acts as a secondary control mechanism that prevents them from circling away or extracting their trapped leg. Keep this leg active with constant backward pressure. (Timing: Hook should occur as inside leg wedge is establishing)
-4. **Break posture and create angle**: Pull down on the trapped leg while simultaneously scooting your hips away at a 45-90 degree angle relative to your opponent's leg line. This off-angle position is critical for control and prevents your opponent from jumping over your guard or driving forward with pressure. (Timing: Create angle immediately after both legs are positioned)
-5. **Secure heel grip**: Transition your ankle grip to a heel control, cupping the heel with your near-side hand with fingers pointing toward the toes. Your far-side hand should maintain control of their knee line or transition to a cross grip on the heel, creating a pocket for potential heel hook attacks. (Timing: Grip transition occurs once positional control is established)
-6. **Consolidate position**: Pull the heel tight to your chest while extending your hips slightly to create tension on the trapped leg. Ensure your inside leg is firmly wedged across their hip and your outside leg is actively pulling. Your upper body should be slightly elevated, not flat on your back, to maintain control and offensive posture. (Timing: Final consolidation before attacking or transitioning)
+1. **Establish leg control**: From open guard, secure a two-on-one grip on your opponent's near leg, with one hand controlling the ankle and the other hand gripping behind the knee or on the calf. Pull this leg slightly toward you to break their base and prevent them from stepping back.
+2. **Thread inside leg**: Simultaneously as you pull their leg, thread your inside leg (the leg on the same side as the leg you're attacking) between their legs, driving your knee and shin through the gap between their thighs. Your shin should end up across their far hip, creating a wedge that prevents hip rotation.
+3. **Hook outside leg**: Swing your outside leg over and around their near hip, hooking your foot behind their thigh or calf. This leg acts as a secondary control mechanism that prevents them from circling away or extracting their trapped leg. Keep this leg active with constant backward pressure.
+4. **Break posture and create angle**: Pull down on the trapped leg while simultaneously scooting your hips away at a 45-90 degree angle relative to your opponent's leg line. This off-angle position is critical for control and prevents your opponent from jumping over your guard or driving forward with pressure.
+5. **Secure heel grip**: Transition your ankle grip to a heel control, cupping the heel with your near-side hand with fingers pointing toward the toes. Your far-side hand should maintain control of their knee line or transition to a cross grip on the heel, creating a pocket for potential heel hook attacks.
+6. **Consolidate position**: Pull the heel tight to your chest while extending your hips slightly to create tension on the trapped leg. Ensure your inside leg is firmly wedged across their hip and your outside leg is actively pulling. Your upper body should be slightly elevated, not flat on your back, to maintain control and offensive posture.
 
 
 </section>
@@ -255,27 +255,21 @@ Inside Ashi Entry is a fundamental transition in modern leg lock systems that es
 ## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Learn basic leg threading and inside position establishment
 Practice the inside leg threading motion in isolation with a static partner. Focus on getting your shin fully across their far hip and creating the wedge. Partner offers no resistance but maintains standing posture. Drill 20-30 repetitions per side daily, emphasizing proper leg placement and angle creation.
-(Resistance: None)
 
 **Phase 2: Grip and Control Integration (Weeks 3-4)** - Add proper gripping sequences and heel control to positional entry
 Partner adds light resistance by attempting to step back when you thread your leg. Practice securing grips on ankle and knee, transitioning to heel control, and establishing the outside leg hook. Work on smooth coordination between leg positioning and grip transitions. Drill entries from various open guard configurations.
-(Resistance: Light)
 
 **Phase 3: Timing and Reactive Entries (Weeks 5-6)** - Develop timing against movement and basic defensive reactions
 Partner actively moves in standing position, stepping forward and backward naturally. Practice recognizing optimal entry timing when their weight commits forward. Partner may attempt to step back or sprawl with moderate resistance. Focus on following their movement and maintaining grips through their initial defensive reactions.
-(Resistance: Medium)
 
 **Phase 4: Entry Against Counters (Weeks 7-8)** - Handle common defensive responses and counter-entanglements
 Partner actively defends with specific counters: stepping back, sprawling, or attempting counter leg entanglements. Practice problem-solving during entry, including abandoning bad entries, transitioning to alternative positions, and clearing your own leg from danger. Introduce positional sparring starting from open guard.
-(Resistance: Medium)
 
 **Phase 5: Advanced Entries and Chains (Weeks 9-12)** - Link inside ashi entry to complete leg lock system and transitions
 Practice entering inside ashi from various positions: single leg X, butterfly guard, seated guard, de la riva. Chain entries together with submission attempts and transitions to saddle, outside ashi, and 50-50. Partner uses full defensive resistance and counter-attacks. Introduce consequence by allowing partner to pass if entry fails.
-(Resistance: Full)
 
 **Phase 6: Live Application and Refinement (Ongoing)** - Integrate entry into live rolling with positional emphasis
 Use inside ashi entry during regular sparring sessions, starting from standing or open guard situations. Focus on high-percentage entries against different opponent body types and skill levels. Review footage of failed entries to identify technical breakdowns. Develop personal variations and setups that work with your game.
-(Resistance: Full)
 
 
 

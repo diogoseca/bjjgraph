@@ -163,7 +163,7 @@ Strategically, this attack serves multiple purposes within your guard passing ga
 The standing variation offers distinct mechanical advantages over seated or ground-based Kimura attacks. Your elevated position allows gravity to assist the rotational pressure, and your legs remain free to adjust base and prevent sweeps. However, this also means you must be vigilant about the opponent pulling you down into their guard or using your extended position to create sweep opportunities. Timing the attack when the opponent is most committed to their lasso extension is critical for success.
 
 **From Position**: [[Lasso Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The standing variation offers distinct mechanical advantages over seated or grou
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify the opening**: Recognize when the opponent's non-lasso arm extends for grips, creating vulnerability at the wrist and elbow. Their focus on lasso maintenance leaves this arm exposed. (Timing: When opponent reaches for collar or lapel grip)
-2. **Secure wrist control**: With your free hand (non-lassoed arm), grip the opponent's exposed wrist firmly using a C-grip or pistol grip. Your thumb should wrap around their wrist with fingers on top. (Timing: Before they can retract their arm)
-3. **Thread your arm**: Drive your lassoed arm underneath their captured arm, threading between their elbow and body. Despite the lasso constraint, create enough space to get your forearm under their tricep. (Timing: Immediately after securing wrist)
-4. **Establish figure-four**: Connect your hands by gripping your own wrist with the threading arm, creating the classic Kimura figure-four configuration. Your grip should be palm-to-palm with their arm trapped in the bend of your elbow. (Timing: Ensure grip is locked before applying pressure)
-5. **Adjust your base**: Widen your stance and lower your hips slightly to create a stable platform. Position your feet outside shoulder width with knees bent to prevent being swept during the attack. (Timing: Before beginning rotation)
-6. **Apply rotational pressure**: Rotate their arm toward their back using your entire body, not just arm strength. Keep their elbow pinned to your chest while rotating their wrist toward their shoulder blade, creating torque on the shoulder joint. (Timing: Controlled rotation with consistent pressure)
-7. **Transition or finish**: If opponent defends by grabbing their own belt or gi, step back and pull them up toward you to break their grip. If they release the lasso to defend, capitalize by transitioning to Kimura Trap or completing the submission. (Timing: Adjust based on opponent's defensive reaction)
+1. **Identify the opening**: Recognize when the opponent's non-lasso arm extends for grips, creating vulnerability at the wrist and elbow. Their focus on lasso maintenance leaves this arm exposed.
+2. **Secure wrist control**: With your free hand (non-lassoed arm), grip the opponent's exposed wrist firmly using a C-grip or pistol grip. Your thumb should wrap around their wrist with fingers on top.
+3. **Thread your arm**: Drive your lassoed arm underneath their captured arm, threading between their elbow and body. Despite the lasso constraint, create enough space to get your forearm under their tricep.
+4. **Establish figure-four**: Connect your hands by gripping your own wrist with the threading arm, creating the classic Kimura figure-four configuration. Your grip should be palm-to-palm with their arm trapped in the bend of your elbow.
+5. **Adjust your base**: Widen your stance and lower your hips slightly to create a stable platform. Position your feet outside shoulder width with knees bent to prevent being swept during the attack.
+6. **Apply rotational pressure**: Rotate their arm toward their back using your entire body, not just arm strength. Keep their elbow pinned to your chest while rotating their wrist toward their shoulder blade, creating torque on the shoulder joint.
+7. **Transition or finish**: If opponent defends by grabbing their own belt or gi, step back and pull them up toward you to break their grip. If they release the lasso to defend, capitalize by transitioning to Kimura Trap or completing the submission.
 
 
 </section>
@@ -259,19 +259,15 @@ The standing variation offers distinct mechanical advantages over seated or grou
 ## Training Progressions
 **Week 1-2** - Grip mechanics and recognition
 Practice the figure-four grip configuration from standing position. Partner offers their arm statically while you drill establishing the grip correctly. Focus on hand placement, elbow position, and the connection between your arms. Practice recognizing when the non-lasso arm is exposed.
-(Resistance: None)
 
 **Week 3-4** - Base and rotation
 Add movement and base work. Partner creates light lasso guard while you practice maintaining base and applying rotational pressure. Focus on the body mechanics of the finish - rotation should come from your core and legs, not just arms. Partner gives 30% resistance.
-(Resistance: Light)
 
 **Week 5-6** - Timing and counter response
 Partner actively plays lasso guard and randomly exposes their arm. Practice recognizing the opening and attacking with proper timing. When partner defends, drill the appropriate responses: breaking belt grips, transitioning to Kimura Trap, or adjusting to armbar.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Full sparring from lasso guard top position. Look for Kimura opportunities within your regular passing game. Track success rate and identify patterns in when the attack lands versus when it fails. Integrate with your complete guard passing system.
-(Resistance: Full)
 
 
 

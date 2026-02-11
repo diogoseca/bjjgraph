@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Omoplata from Guard is a powerful shoulder lock attack initiated from open guard that uses your legs to isolate and control the opponent's arm while applying rotational pressure to their shoulder joint. This technique transforms your guard into an offensive weapon by threading your leg over the opponent's shoulder and behind their head, creating a figure-four configuration with your legs that traps their arm against your hip. The omoplata serves as both a submission threat and a positional control tool, making it one of the most versatile attacks in modern BJJ.\n\nStrategically, the omoplata excels when opponents overcommit their posture or leave their arms vulnerable while attempting to pass. The attack creates a cascading series of problems for the defender - they must simultaneously prevent the shoulder lock finish, avoid being swept, and defend against follow-up attacks like triangles and armbars. This multi-threat nature makes the omoplata a cornerstone of systematic guard play.\n\nThe technique requires significant hip mobility and the ability to create angles quickly. Unlike attacks that rely primarily on grip strength, the omoplata leverages your entire leg structure against their shoulder, making it effective even against larger opponents. The setup typically begins from overhook control, spider guard, or when opponent reaches forward, allowing you to swing your leg over their trapped arm and establish the controlling position.",
   "key_principles": [
     "Control the wrist before initiating the leg swing to prevent arm extraction during the setup phase",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Establish wrist control",
-      "description": "Secure a same-side grip on opponent's wrist or sleeve with your hand, pulling their arm across your centerline. This grip prevents them from retracting their arm during the setup and creates the angle needed for your leg to pass over their shoulder.",
-      "timing": "When opponent reaches forward or posts their hand"
+      "description": "Secure a same-side grip on opponent's wrist or sleeve with your hand, pulling their arm across your centerline. This grip prevents them from retracting their arm during the setup and creates the angle needed for your leg to pass over their shoulder."
     },
     {
       "step_number": 2,
       "action": "Hip escape and create angle",
-      "description": "Execute a strong hip escape away from the controlled arm, turning your body perpendicular to your opponent. Your hips should move at least 45 degrees from square, creating the space and angle necessary for your leg to clear their shoulder without obstruction.",
-      "timing": "Immediately after securing wrist control"
+      "description": "Execute a strong hip escape away from the controlled arm, turning your body perpendicular to your opponent. Your hips should move at least 45 degrees from square, creating the space and angle necessary for your leg to clear their shoulder without obstruction."
     },
     {
       "step_number": 3,
       "action": "Swing leg over shoulder",
-      "description": "Bring your same-side leg up and over opponent's shoulder, threading it behind their head so your hamstring contacts the back of their neck. Your foot should end up near their opposite hip, with your calf pressing down on their shoulder blade.",
-      "timing": "As your hips clear to the angle"
+      "description": "Bring your same-side leg up and over opponent's shoulder, threading it behind their head so your hamstring contacts the back of their neck. Your foot should end up near their opposite hip, with your calf pressing down on their shoulder blade."
     },
     {
       "step_number": 4,
       "action": "Triangle your legs",
-      "description": "Lock your legs in a figure-four configuration by placing your top ankle behind your bottom knee. Your bottom leg should hook behind opponent's far armpit, creating a bracket that prevents forward rolls and controls their posture.",
-      "timing": "Once leg clears their shoulder"
+      "description": "Lock your legs in a figure-four configuration by placing your top ankle behind your bottom knee. Your bottom leg should hook behind opponent's far armpit, creating a bracket that prevents forward rolls and controls their posture."
     },
     {
       "step_number": 5,
       "action": "Sit up toward opponent",
-      "description": "Use your free arm to post behind you and sit up, rotating your torso to face toward opponent's hips. This sitting motion increases the rotational pressure on their shoulder and gives you control of their belt or hip with your near hand.",
-      "timing": "After legs are locked"
+      "description": "Use your free arm to post behind you and sit up, rotating your torso to face toward opponent's hips. This sitting motion increases the rotational pressure on their shoulder and gives you control of their belt or hip with your near hand."
     },
     {
       "step_number": 6,
       "action": "Control hip and finish position",
-      "description": "Grab opponent's belt, pants, or hip with your near-side hand to prevent them from rolling forward. Your far hand maintains wrist control. From here you have established Omoplata Control and can work toward the finish or sweep.",
-      "timing": "As you complete the sit-up motion"
+      "description": "Grab opponent's belt, pants, or hip with your near-side hand to prevent them from rolling forward. Your far hand maintains wrist control. From here you have established Omoplata Control and can work toward the finish or sweep."
     }
   ],
   "common_counters": [
@@ -145,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamental mechanics",
-      "description": "Practice the hip escape angle and leg swing motion with a stationary partner. Focus on proper wrist control grip, clearing the shoulder smoothly, and locking the legs correctly. Drill sitting up motion and hip control grab separately.",
-      "resistance_level": "None"
+      "description": "Practice the hip escape angle and leg swing motion with a stationary partner. Focus on proper wrist control grip, clearing the shoulder smoothly, and locking the legs correctly. Drill sitting up motion and hip control grab separately."
     },
     {
       "phase": "Week 3-4",
       "focus": "Entry timing",
-      "description": "Partner provides basic posture and arm positioning while you identify windows for omoplata entry. Work entries from overhook, collar-sleeve, and spider guard. Partner gives light resistance to arm extraction attempts.",
-      "resistance_level": "Light"
+      "description": "Partner provides basic posture and arm positioning while you identify windows for omoplata entry. Work entries from overhook, collar-sleeve, and spider guard. Partner gives light resistance to arm extraction attempts."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter defense",
-      "description": "Partner actively attempts forward roll escape and posturing defenses. Practice following their roll to mount, switching to triangle when they posture, and maintaining position against stacking. Chain with sweeps and alternative submissions.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts forward roll escape and posturing defenses. Practice following their roll to mount, switching to triangle when they posture, and maintaining position against stacking. Chain with sweeps and alternative submissions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Incorporate omoplata into full guard sparring rounds. Focus on recognizing entry opportunities in real-time, chaining with triangle and armbar when omoplata is defended, and finishing or sweeping from omoplata control.",
-      "resistance_level": "Full"
+      "description": "Incorporate omoplata into full guard sparring rounds. Focus on recognizing entry opportunities in real-time, chaining with triangle and armbar when omoplata is defended, and finishing or sweeping from omoplata control."
     }
   ],
   "variants_and_adaptations": [
@@ -187,53 +172,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Omoplata from Guard?",
-      "answer": "The primary goal is to isolate opponent's arm using your legs and establish Omoplata Control, a position that threatens shoulder lock submission while also providing sweep opportunities and follow-up attacks. The omoplata creates a dilemma where defending the submission often opens escape routes that you can capitalize on.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to isolate opponent's arm using your legs and establish Omoplata Control, a position that threatens shoulder lock submission while also providing sweep opportunities and follow-up attacks. The omoplata creates a dilemma where defending the submission often opens escape routes that you can capitalize on."
     },
     {
       "question": "What grip must you maintain throughout the entire omoplata setup sequence?",
-      "answer": "Wrist or sleeve control on the arm you are attacking must be maintained throughout the entire setup until your legs are fully locked and you have achieved the sit-up position with hip control. Releasing this grip prematurely allows arm extraction and escape.",
-      "difficulty": "Beginner"
+      "answer": "Wrist or sleeve control on the arm you are attacking must be maintained throughout the entire setup until your legs are fully locked and you have achieved the sit-up position with hip control. Releasing this grip prematurely allows arm extraction and escape."
     },
     {
       "question": "What is the minimum hip escape angle required for a successful omoplata entry?",
-      "answer": "Your hips must escape at least 45 degrees perpendicular to your opponent's centerline. This angle is critical because it creates the space for your leg to clear their shoulder without obstruction. Insufficient angle results in your leg getting stuck on their shoulder or head.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips must escape at least 45 degrees perpendicular to your opponent's centerline. This angle is critical because it creates the space for your leg to clear their shoulder without obstruction. Insufficient angle results in your leg getting stuck on their shoulder or head."
     },
     {
       "question": "Your opponent begins rolling forward as you secure the omoplata - how do you respond?",
-      "answer": "Maintain your hip grip and follow their roll, using their momentum to come up to mount or take their back. Do not try to stop the roll by pulling backward - this often fails against committed rolls. Instead, stay connected and transition to dominant position as they complete the rotation.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain your hip grip and follow their roll, using their momentum to come up to mount or take their back. Do not try to stop the roll by pulling backward - this often fails against committed rolls. Instead, stay connected and transition to dominant position as they complete the rotation."
     },
     {
       "question": "What should you do if opponent postures strongly before your leg clears their shoulder?",
-      "answer": "Transition immediately to triangle or armbar on the same trapped arm. Their posturing creates the angle for these submissions. Do not force the omoplata against strong posture - the posturing motion often brings their head into triangle range or extends their arm for armbar.",
-      "difficulty": "Intermediate"
+      "answer": "Transition immediately to triangle or armbar on the same trapped arm. Their posturing creates the angle for these submissions. Do not force the omoplata against strong posture - the posturing motion often brings their head into triangle range or extends their arm for armbar."
     },
     {
       "question": "How does the leg triangle configuration prevent opponent's escape?",
-      "answer": "The figure-four leg lock with ankle behind opposite knee combined with bottom leg hooked behind opponent's far armpit creates a bracket system. The top leg controls the shoulder, the bottom leg prevents forward roll, and the tight triangle prevents head extraction. All three functions must work together.",
-      "difficulty": "Intermediate"
+      "answer": "The figure-four leg lock with ankle behind opposite knee combined with bottom leg hooked behind opponent's far armpit creates a bracket system. The top leg controls the shoulder, the bottom leg prevents forward roll, and the tight triangle prevents head extraction. All three functions must work together."
     },
     {
       "question": "Why is sitting up toward opponent's hips critical for omoplata control?",
-      "answer": "Sitting up accomplishes three essential functions: it increases rotational torque on the shoulder joint by changing the angle of pressure, it allows you to grab their hip or belt to prevent forward rolls, and it takes away the space they need to posture up and escape. Staying flat eliminates all three advantages.",
-      "difficulty": "Advanced"
+      "answer": "Sitting up accomplishes three essential functions: it increases rotational torque on the shoulder joint by changing the angle of pressure, it allows you to grab their hip or belt to prevent forward rolls, and it takes away the space they need to posture up and escape. Staying flat eliminates all three advantages."
     },
     {
       "question": "What determines whether you should finish the omoplata submission versus use it to sweep?",
-      "answer": "If opponent's shoulder is flat and they cannot post their free hand, finish the submission. If they are defending well with their free arm posted or they begin rolling, use the sweep option by following their movement to mount or back control. The omoplata is a control position first - take the finish when available, take the sweep when they defend.",
-      "difficulty": "Advanced"
+      "answer": "If opponent's shoulder is flat and they cannot post their free hand, finish the submission. If they are defending well with their free arm posted or they begin rolling, use the sweep option by following their movement to mount or back control. The omoplata is a control position first - take the finish when available, take the sweep when they defend."
     },
     {
       "question": "How do you set up the omoplata when opponent has strong inside arm control preventing overhook?",
-      "answer": "Use collar drags, arm drags, or two-on-one grip breaks to clear their inside control first. Alternatively, attack from spider guard where distance prevents inside control. You cannot force omoplata against established inside control - you must first eliminate that control through grip fighting or guard transitions.",
-      "difficulty": "Advanced"
+      "answer": "Use collar drags, arm drags, or two-on-one grip breaks to clear their inside control first. Alternatively, attack from spider guard where distance prevents inside control. You cannot force omoplata against established inside control - you must first eliminate that control through grip fighting or guard transitions."
     },
     {
       "question": "What follow-up attack should you chain to if opponent successfully extracts their arm during omoplata setup?",
-      "answer": "Transition immediately to triangle attempt as their arm extraction often brings their posture forward into triangle range. If they posture away during extraction, switch to collar drag or arm drag to re-establish offensive position. Never chase the escaping arm - transition to the next attack in the chain.",
-      "difficulty": "Advanced"
+      "answer": "Transition immediately to triangle attempt as their arm extraction often brings their posture forward into triangle range. If they posture away during extraction, switch to collar drag or arm drag to re-establish offensive position. Never chase the escaping arm - transition to the next attack in the chain."
     }
   ],
   "safety_considerations": "The omoplata applies significant rotational stress to the shoulder joint, particularly the rotator cuff complex. When training, always apply the finishing pressure gradually and respect your partner's tap immediately - shoulder injuries from omoplatas can be severe and slow to heal. Avoid jerky or explosive finishing motions. Partners should tap early when they feel the rotation beginning, not when pain becomes severe. Practitioners with existing shoulder injuries or limited shoulder mobility should approach this technique with caution and communicate clearly with training partners about their limitations.",
@@ -279,5 +254,6 @@
       "name": "Mount",
       "relationship": "Position achieved after following opponent's omoplata roll escape"
     }
-  ]
+  ],
+  "success_rate": 58
 }

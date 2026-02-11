@@ -33,11 +33,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Explosive Forward Roll is a high-commitment escape from standing back control that uses momentum and inversion to break the opponent's grip structure and recover to a guard position. Unlike slower, grip-fighting based escapes, this technique relies on explosive timing and full body commitment to create a scramble situation where you can recover facing your opponent. The roll must be executed with sufficient forward drive to carry your opponent over you or force them to release their grips to avoid being swept.\n\nThis escape is particularly effective when the opponent has consolidated harness control but hasn't yet secured hooks or a body triangle. The standing position creates inherent instability that you exploit by suddenly changing levels and rolling forward, using the opponent's own weight against them. The technique requires courage to commit fully, as half-hearted attempts result in worse positions. When executed with proper timing and mechanics, you can transition directly to half guard or open guard, immediately reversing the dynamic from defensive survival to offensive guard play.\n\nStrategically, the explosive forward roll serves as an alternative when traditional standing escapes have failed or when the opponent is dragging you backward toward a takedown. Rather than fighting the backward pull, you redirect the energy forward and down, creating separation through inversion. This technique is seen frequently in no-gi competition where grip control is more difficult to maintain, making explosive escapes more viable than systematic grip breaks.",
   "key_principles": [
     "Full commitment is essential - half-measures result in being taken down with back still exposed or ending in worse positions",
@@ -58,38 +53,32 @@
     {
       "step_number": 1,
       "action": "Secure wrist control",
-      "description": "Grip the opponent's choking arm wrist with your same-side hand and their underhook arm with your opposite hand, creating two-on-one control that prevents them from posting during the roll",
-      "timing": "Immediately upon feeling opponent begin to pull backward"
+      "description": "Grip the opponent's choking arm wrist with your same-side hand and their underhook arm with your opposite hand, creating two-on-one control that prevents them from posting during the roll"
     },
     {
       "step_number": 2,
       "action": "Break posture forward",
-      "description": "Bend forward explosively at the waist while tucking your chin tightly to your chest, pulling the opponent's controlled arm across your body and loading their weight onto your back",
-      "timing": "As opponent's pull creates backward momentum"
+      "description": "Bend forward explosively at the waist while tucking your chin tightly to your chest, pulling the opponent's controlled arm across your body and loading their weight onto your back"
     },
     {
       "step_number": 3,
       "action": "Drop level and dive",
-      "description": "Bend your knees deeply while driving your hips forward and down, positioning your head toward the mat at a diagonal angle away from the choking arm side",
-      "timing": "Immediately following forward break"
+      "description": "Bend your knees deeply while driving your hips forward and down, positioning your head toward the mat at a diagonal angle away from the choking arm side"
     },
     {
       "step_number": 4,
       "action": "Execute forward roll",
-      "description": "Roll forward over your shoulder in a diagonal direction, using the momentum to carry both you and your opponent over, maintaining wrist control throughout the rolling motion",
-      "timing": "One continuous motion from the dive"
+      "description": "Roll forward over your shoulder in a diagonal direction, using the momentum to carry both you and your opponent over, maintaining wrist control throughout the rolling motion"
     },
     {
       "step_number": 5,
       "action": "Clear hips through",
-      "description": "As you complete the roll, drive your hips through and away from the opponent, creating space and breaking any remaining grip connection on your torso",
-      "timing": "As your back touches the mat"
+      "description": "As you complete the roll, drive your hips through and away from the opponent, creating space and breaking any remaining grip connection on your torso"
     },
     {
       "step_number": 6,
       "action": "Recover guard position",
-      "description": "Immediately insert your legs between you and the opponent, establishing half guard by hooking their leg or framing to open guard with feet on hips, facing your opponent",
-      "timing": "Within one second of completing roll"
+      "description": "Immediately insert your legs between you and the opponent, establishing half guard by hooking their leg or framing to open guard with feet on hips, facing your opponent"
     }
   ],
   "common_counters": [
@@ -145,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Solo rolling mechanics",
-      "description": "Practice forward rolls from standing position, focusing on diagonal direction, chin tuck, and smooth shoulder-to-hip flow. Build comfort with inversion and rolling mechanics without partner.",
-      "resistance_level": "None"
+      "description": "Practice forward rolls from standing position, focusing on diagonal direction, chin tuck, and smooth shoulder-to-hip flow. Build comfort with inversion and rolling mechanics without partner."
     },
     {
       "phase": "Week 3-4",
       "focus": "Partner drilling with cooperation",
-      "description": "Partner establishes loose standing back control. Practice full technique with compliant partner who allows the roll. Focus on wrist control maintenance and guard recovery timing.",
-      "resistance_level": "Light"
+      "description": "Partner establishes loose standing back control. Practice full technique with compliant partner who allows the roll. Focus on wrist control maintenance and guard recovery timing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing and reaction drilling",
-      "description": "Partner applies standing back control with moderate resistance. Practice recognizing timing windows - when opponent pulls backward, when grips are loose. Add guard recovery variations.",
-      "resistance_level": "Medium"
+      "description": "Partner applies standing back control with moderate resistance. Practice recognizing timing windows - when opponent pulls backward, when grips are loose. Add guard recovery variations."
     },
     {
       "phase": "Week 7+",
       "focus": "Live positional sparring",
-      "description": "Start in standing back control bottom position with full resistance. Attempt escape including explosive forward roll as one option among multiple escape paths. Test under competition-like intensity.",
-      "resistance_level": "Full"
+      "description": "Start in standing back control bottom position with full resistance. Attempt escape including explosive forward roll as one option among multiple escape paths. Test under competition-like intensity."
     }
   ],
   "variants_and_adaptations": [
@@ -187,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Explosive Forward Roll escape?",
-      "answer": "The primary goal is to break the opponent's back control grip structure through explosive forward momentum and inversion, ultimately recovering to a guard position where you face your opponent. This converts a highly vulnerable defensive position into an offensive guard situation.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to break the opponent's back control grip structure through explosive forward momentum and inversion, ultimately recovering to a guard position where you face your opponent. This converts a highly vulnerable defensive position into an offensive guard situation."
     },
     {
       "question": "Why must you roll diagonally rather than straight forward?",
-      "answer": "Rolling diagonally toward your non-choking arm side creates separation that makes it difficult for the opponent to follow and maintain back position. A straight forward roll allows them to simply follow your momentum and land in mount or re-establish back control. The diagonal angle is essential for successful separation.",
-      "difficulty": "Intermediate"
+      "answer": "Rolling diagonally toward your non-choking arm side creates separation that makes it difficult for the opponent to follow and maintain back position. A straight forward roll allows them to simply follow your momentum and land in mount or re-establish back control. The diagonal angle is essential for successful separation."
     },
     {
       "question": "What grip control is critical to maintain throughout the roll and why?",
-      "answer": "Maintaining at least one wrist grip, preferably on the opponent's choking arm, is critical because it prevents them from posting their hand on the mat to stop your roll or to recover position during the scramble. This wrist control is your insurance against the most common counters to this technique.",
-      "difficulty": "Intermediate"
+      "answer": "Maintaining at least one wrist grip, preferably on the opponent's choking arm, is critical because it prevents them from posting their hand on the mat to stop your roll or to recover position during the scramble. This wrist control is your insurance against the most common counters to this technique."
     },
     {
       "question": "When is the optimal timing window to initiate the explosive forward roll?",
-      "answer": "The optimal timing is when the opponent begins pulling you backward, attempting to drag you down or off-balance. At this moment, you redirect their pulling energy forward and down instead of fighting against it. This uses their momentum to power your escape rather than working against superior positioning.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is when the opponent begins pulling you backward, attempting to drag you down or off-balance. At this moment, you redirect their pulling energy forward and down instead of fighting against it. This uses their momentum to power your escape rather than working against superior positioning."
     },
     {
       "question": "What should you do if you feel the opponent sprawl as you initiate the roll?",
-      "answer": "If you feel the opponent sprawling and sitting their hips back as you begin the roll, abort the technique immediately and transition to an alternative escape - either a technical standup if their grips have loosened, or drop to turtle position to establish a more stable defensive platform. Continuing a roll against a sprawl results in worse positioning.",
-      "difficulty": "Advanced"
+      "answer": "If you feel the opponent sprawling and sitting their hips back as you begin the roll, abort the technique immediately and transition to an alternative escape - either a technical standup if their grips have loosened, or drop to turtle position to establish a more stable defensive platform. Continuing a roll against a sprawl results in worse positioning."
     },
     {
       "question": "Why is this escape contraindicated when the opponent has a body triangle secured?",
-      "answer": "The body triangle locks your hips in place and prevents the inversion necessary for the forward roll. Attempting to roll against a body triangle either fails completely or can result in injury to your ribs or spine. The body triangle must be addressed through other escapes before any rolling technique becomes viable.",
-      "difficulty": "Intermediate"
+      "answer": "The body triangle locks your hips in place and prevents the inversion necessary for the forward roll. Attempting to roll against a body triangle either fails completely or can result in injury to your ribs or spine. The body triangle must be addressed through other escapes before any rolling technique becomes viable."
     },
     {
       "question": "What is the consequence of lifting your chin during the roll execution?",
-      "answer": "Lifting your chin during the roll creates an opening for the opponent to finish a rear naked choke mid-transition. The roll itself exposes your neck momentarily, and if your chin rises, the opponent can lock the choke and finish you during or immediately after the roll. Chin stays glued to chest throughout.",
-      "difficulty": "Beginner"
+      "answer": "Lifting your chin during the roll creates an opening for the opponent to finish a rear naked choke mid-transition. The roll itself exposes your neck momentarily, and if your chin rises, the opponent can lock the choke and finish you during or immediately after the roll. Chin stays glued to chest throughout."
     },
     {
       "question": "How quickly must you establish guard after completing the roll?",
-      "answer": "Guard recovery must happen within approximately one second of completing the roll. Any delay allows the opponent to scramble to mount or side control before you can establish defensive structure. The roll and guard recovery should feel like one continuous motion, not two separate techniques.",
-      "difficulty": "Intermediate"
+      "answer": "Guard recovery must happen within approximately one second of completing the roll. Any delay allows the opponent to scramble to mount or side control before you can establish defensive structure. The roll and guard recovery should feel like one continuous motion, not two separate techniques."
     }
   ],
   "safety_considerations": "This technique involves significant spinal loading during the forward roll and carries inherent risk of neck injury if executed improperly. Never practice on hard surfaces - always use proper mats. Beginners should build comfort with basic forward rolls before attempting this technique with a partner. The chin must remain tucked throughout to protect the cervical spine and prevent choke finishing during transition. Do not attempt this escape if you have any existing neck, shoulder, or spine injuries. Partners should initially allow the technique to flow rather than aggressively countering, as resisting mid-roll can cause both practitioners to land awkwardly. In competition, assess the surface and ensure adequate mat space before committing to rolling escapes.",
@@ -265,5 +242,6 @@
       "name": "Rear Naked Choke",
       "relationship": "Primary threat - the submission you must defend throughout the escape"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -11,11 +11,6 @@
     "distance-control",
     "sleeve-control"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Spider Guard variations represent a comprehensive system of distance management and sleeve control techniques that transform basic spider guard into a dynamic attacking platform. These variations exploit different grips, foot positions, and angles to create sweeping opportunities while maintaining optimal defensive distance. The fundamental principle underlying all spider guard variations is the use of your feet on the opponent's biceps or hips to control distance while your hands control their sleeves, creating a mechanical advantage that prevents them from establishing passing pressure. Understanding when to transition between variations based on your opponent's base, posture, and passing strategy is essential for developing a complete spider guard game that can adapt to different body types and grappling styles.",
   "key_principles": [
     "Maintain constant sleeve control with strong grip fundamentals",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish sleeve control",
-      "description": "From open guard, secure deep four-finger grips on both of your opponent's sleeves at the wrists. Pull their hands toward your hips to straighten their arms and prevent them from getting heavy grips on your legs or collar.",
-      "timing": "As opponent opens your closed guard or as you open to transition"
+      "description": "From open guard, secure deep four-finger grips on both of your opponent's sleeves at the wrists. Pull their hands toward your hips to straighten their arms and prevent them from getting heavy grips on your legs or collar."
     },
     {
       "step_number": 2,
       "action": "Place feet on biceps",
-      "description": "Lift your hips off the mat and place the balls of both feet on your opponent's biceps, creating a pushing frame. Keep your knees slightly bent to maintain spring-loaded pressure that prevents them from driving forward into your guard.",
-      "timing": "Immediately after securing sleeve grips"
+      "description": "Lift your hips off the mat and place the balls of both feet on your opponent's biceps, creating a pushing frame. Keep your knees slightly bent to maintain spring-loaded pressure that prevents them from driving forward into your guard."
     },
     {
       "step_number": 3,
       "action": "Create distance and posture",
-      "description": "Extend your legs to push your opponent's arms away while maintaining strong sleeve grips. This creates maximum distance and forces them into an extended posture where their base is compromised. Your arms should be pulling while your legs push, creating opposing forces.",
-      "timing": "Once both feet are established on biceps"
+      "description": "Extend your legs to push your opponent's arms away while maintaining strong sleeve grips. This creates maximum distance and forces them into an extended posture where their base is compromised. Your arms should be pulling while your legs push, creating opposing forces."
     },
     {
       "step_number": 4,
       "action": "Transition to chosen variation",
-      "description": "Based on your opponent's reaction and base, transition to specific spider guard variations: remove one foot to collar sleeve guard for triangle setups, add lasso control for stronger immobilization, transition to single spider for mobility, or move to omoplata control when they lean forward.",
-      "timing": "When opponent commits to a passing direction or stance"
+      "description": "Based on your opponent's reaction and base, transition to specific spider guard variations: remove one foot to collar sleeve guard for triangle setups, add lasso control for stronger immobilization, transition to single spider for mobility, or move to omoplata control when they lean forward."
     },
     {
       "step_number": 5,
       "action": "Execute sweep or submission",
-      "description": "Time your attack when opponent's weight shifts forward or their base narrows. Common attacks include: flower sweep when they stand, scissor sweep when they're low, triangle when they lean forward, omoplata when they posture hard, or bicep slicer from lasso control.",
-      "timing": "When opponent's weight distribution creates vulnerability"
+      "description": "Time your attack when opponent's weight shifts forward or their base narrows. Common attacks include: flower sweep when they stand, scissor sweep when they're low, triangle when they lean forward, omoplata when they posture hard, or bicep slicer from lasso control."
     },
     {
       "step_number": 6,
       "action": "Complete transition or recover",
-      "description": "Follow through to the dominant position (mount, side control, or back control) or immediately recover your guard structure if the technique is defended. Maintain sleeve control throughout transitions to prevent opponent from establishing top pressure.",
-      "timing": "Immediately after sweep initiation or when technique is countered"
+      "description": "Follow through to the dominant position (mount, side control, or back control) or immediately recover your guard structure if the technique is defended. Maintain sleeve control throughout transitions to prevent opponent from establishing top pressure."
     }
   ],
   "common_counters": [
@@ -135,38 +124,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Grip establishment and basic distance control",
-      "description": "Drill establishing spider guard from closed guard break and open guard scenarios. Focus on securing proper wrist grips and placing feet on biceps with good pressure. Partner remains passive while you practice extending and retracting legs while maintaining sleeve control. Emphasis on feeling the push-pull relationship between hands and feet.",
-      "resistance_level": "None"
+      "description": "Drill establishing spider guard from closed guard break and open guard scenarios. Focus on securing proper wrist grips and placing feet on biceps with good pressure. Partner remains passive while you practice extending and retracting legs while maintaining sleeve control. Emphasis on feeling the push-pull relationship between hands and feet."
     },
     {
       "phase": "Week 3-4: Basic Variations",
       "focus": "Transitioning between spider guard variations",
-      "description": "Practice flowing between double spider, collar sleeve, single spider, and lasso variations. Partner provides light movement and base adjustments while you maintain control and switch variations. Focus on smooth transitions without losing grip or distance control. Begin recognizing which variation works best against different postures.",
-      "resistance_level": "Light"
+      "description": "Practice flowing between double spider, collar sleeve, single spider, and lasso variations. Partner provides light movement and base adjustments while you maintain control and switch variations. Focus on smooth transitions without losing grip or distance control. Begin recognizing which variation works best against different postures."
     },
     {
       "phase": "Week 5-8: Sweep Integration",
       "focus": "Adding sweeps from each variation",
-      "description": "Integrate fundamental sweeps (flower sweep, scissor sweep, elevator sweep) from different spider guard variations. Partner provides moderate resistance to passing but allows sweeps when properly set up. Emphasis on timing sweeps when opponent's weight shifts and following through to dominant positions.",
-      "resistance_level": "Medium"
+      "description": "Integrate fundamental sweeps (flower sweep, scissor sweep, elevator sweep) from different spider guard variations. Partner provides moderate resistance to passing but allows sweeps when properly set up. Emphasis on timing sweeps when opponent's weight shifts and following through to dominant positions."
     },
     {
       "phase": "Week 9-12: Submission Chains",
       "focus": "Adding triangles, omoplatas, and armbars from spider variations",
-      "description": "Layer submission attacks onto your spider guard system. Practice transitioning from sweep attempts to submissions when opponent defends. Partner provides realistic defensive reactions. Focus on maintaining control throughout transitions and recognizing when to switch between sweep and submission attacks based on opponent's defensive commitments.",
-      "resistance_level": "Medium"
+      "description": "Layer submission attacks onto your spider guard system. Practice transitioning from sweep attempts to submissions when opponent defends. Partner provides realistic defensive reactions. Focus on maintaining control throughout transitions and recognizing when to switch between sweep and submission attacks based on opponent's defensive commitments."
     },
     {
       "phase": "Week 13+: Dynamic Retention",
       "focus": "Maintaining spider variations against active passing",
-      "description": "Partner actively attempts to pass your guard using various passing styles (toreando, knee slice, pressure passing, leg drags). You maintain spider guard variations, transitioning between them as needed for retention. Emphasis on recovering positions when grips are partially broken and chaining variations together for comprehensive guard retention.",
-      "resistance_level": "Full"
+      "description": "Partner actively attempts to pass your guard using various passing styles (toreando, knee slice, pressure passing, leg drags). You maintain spider guard variations, transitioning between them as needed for retention. Emphasis on recovering positions when grips are partially broken and chaining variations together for comprehensive guard retention."
     },
     {
       "phase": "Ongoing: Competition Application",
       "focus": "Integrating spider variations into complete guard system",
-      "description": "Free rolling with emphasis on entering spider guard from different scenarios, maintaining it against diverse passing styles, and finishing with sweeps or submissions. Focus on strategic variation selection based on opponent's body type, grips, and passing preferences. Film rolls to analyze decision-making and variation effectiveness.",
-      "resistance_level": "Full"
+      "description": "Free rolling with emphasis on entering spider guard from different scenarios, maintaining it against diverse passing styles, and finishing with sweeps or submissions. Focus on strategic variation selection based on opponent's body type, grips, and passing preferences. Film rolls to analyze decision-making and variation effectiveness."
     }
   ],
   "variants_and_adaptations": [
@@ -199,33 +182,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the fundamental push-pull relationship that makes spider guard control effective?",
-      "answer": "Your hands pull the opponent's sleeves toward your hips while your feet push their biceps away from your body. This creates opposing forces that straighten their arms, compromise their base, and prevent them from establishing forward pressure or heavy grips on your legs. The tension between pushing and pulling is what maintains distance and creates the mechanical advantage for sweeps and submissions.",
-      "difficulty": "Beginner"
+      "answer": "Your hands pull the opponent's sleeves toward your hips while your feet push their biceps away from your body. This creates opposing forces that straighten their arms, compromise their base, and prevent them from establishing forward pressure or heavy grips on your legs. The tension between pushing and pulling is what maintains distance and creates the mechanical advantage for sweeps and submissions."
     },
     {
       "question": "How should you adjust your spider guard when your opponent stands up versus when they stay on their knees?",
-      "answer": "When opponent stands, extend your legs more to maintain distance, often transitioning to single spider or standing spider guard variations for mobility. Consider flower sweep or single leg X-guard entries. When they're on knees, you can maintain tighter spider with more bent legs, focusing on collar sleeve variations, triangles, and scissor sweeps. Standing opponents require more dynamic hip movement to track their motion.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent stands, extend your legs more to maintain distance, often transitioning to single spider or standing spider guard variations for mobility. Consider flower sweep or single leg X-guard entries. When they're on knees, you can maintain tighter spider with more bent legs, focusing on collar sleeve variations, triangles, and scissor sweeps. Standing opponents require more dynamic hip movement to track their motion."
     },
     {
       "question": "What are the key indicators that tell you when to transition from spider guard to lasso guard?",
-      "answer": "Transition to lasso when opponent drops their weight and tries to pressure pass, when they're attempting to strip your grips by driving elbows down, or when you want to completely immobilize one arm for omoplata or sweep setups. The lasso provides stronger retention against pressure but sacrifices some mobility. Also transition to lasso when opponent is larger and maintaining full spider distance becomes fatiguing.",
-      "difficulty": "Intermediate"
+      "answer": "Transition to lasso when opponent drops their weight and tries to pressure pass, when they're attempting to strip your grips by driving elbows down, or when you want to completely immobilize one arm for omoplata or sweep setups. The lasso provides stronger retention against pressure but sacrifices some mobility. Also transition to lasso when opponent is larger and maintaining full spider distance becomes fatiguing."
     },
     {
       "question": "Why is it critical to maintain sleeve control all the way to the wrist rather than gripping higher on the forearm or elbow?",
-      "answer": "Wrist control gives you maximum leverage over their entire arm and prevents them from rotating their grip to break your control. Higher grips allow them to circle their hand and strip your grip more easily. Wrist control also allows you to manipulate their posture more effectively, creates better angles for sweeps, and prevents them from establishing strong grips on your pants or belt. The further from their center of mass you control, the more leverage you have.",
-      "difficulty": "Beginner"
+      "answer": "Wrist control gives you maximum leverage over their entire arm and prevents them from rotating their grip to break your control. Higher grips allow them to circle their hand and strip your grip more easily. Wrist control also allows you to manipulate their posture more effectively, creates better angles for sweeps, and prevents them from establishing strong grips on your pants or belt. The further from their center of mass you control, the more leverage you have."
     },
     {
       "question": "How do you chain together sweep attempts and submission attacks from spider guard variations to create a complete offensive system?",
-      "answer": "Use failed sweep attempts to set up submissions and vice versa. For example, when opponent defends flower sweep by sitting back, transition to triangle or omoplata. When they defend triangle by posturing hard, return to sweep attacks. If scissor sweep is defended, switch to collar drag or arm drag. The key is recognizing that every defensive commitment creates another opportunity. Advanced practitioners create false attacks to provoke specific reactions that set up their primary technique. Flow between collar sleeve for triangles, lasso for omoplatas, and double spider for sweeps based on opponent's defensive choices.",
-      "difficulty": "Advanced"
+      "answer": "Use failed sweep attempts to set up submissions and vice versa. For example, when opponent defends flower sweep by sitting back, transition to triangle or omoplata. When they defend triangle by posturing hard, return to sweep attacks. If scissor sweep is defended, switch to collar drag or arm drag. The key is recognizing that every defensive commitment creates another opportunity. Advanced practitioners create false attacks to provoke specific reactions that set up their primary technique. Flow between collar sleeve for triangles, lasso for omoplatas, and double spider for sweeps based on opponent's defensive choices."
     },
     {
       "question": "What are the biomechanical principles that make spider guard more effective against certain body types and passing styles?",
-      "answer": "Spider guard excels against upright, athletic passers who prefer speed over pressure because it maintains distance and controls their arms. It's particularly effective against taller opponents because extended arms give you more leverage. Less effective against heavy pressure passers who can collapse the distance or extremely flexible opponents who can circle around the control. Against short, stocky opponents, the angles are harder to create. Knowing these matchup dynamics allows you to either adapt your variation selection or transition to more suitable guards like closed guard, half guard, or butterfly against unfavorable matchups.",
-      "difficulty": "Advanced"
+      "answer": "Spider guard excels against upright, athletic passers who prefer speed over pressure because it maintains distance and controls their arms. It's particularly effective against taller opponents because extended arms give you more leverage. Less effective against heavy pressure passers who can collapse the distance or extremely flexible opponents who can circle around the control. Against short, stocky opponents, the angles are harder to create. Knowing these matchup dynamics allows you to either adapt your variation selection or transition to more suitable guards like closed guard, half guard, or butterfly against unfavorable matchups."
     }
   ],
   "safety_considerations": "Spider guard places significant stress on finger joints and grip strength, so warm up hands thoroughly and develop grip strength progressively. Avoid maintaining maximum leg extension continuously as this can fatigue hip flexors and lower back; instead use dynamic extension for attacks. When drilling with partners, communicate about grip intensity to prevent finger injuries. Be cautious when inverting from spider guard as this can strain neck and shoulders if done without proper preparation. If you feel sharp pain in fingers, release grips immediately to prevent tendon damage. Partners should avoid yanking arms violently to break spider grips as this can injure both parties' fingers and wrists.",
@@ -309,5 +286,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -242,12 +242,12 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 **Else if bottom player extends arms to push or frame:**
 - Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 50%)
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 45%)
+- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 45%)
 
 
 **Else if bottom player attempts to turn away or go to turtle:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
-- Execute **[[Darce Setup]]** → [[D'arce Control]] (Probability: 55%)
+- Execute **[[Darce Setup]]** → [[Darce Control]] (Probability: 55%)
 
 
 **Else if bottom player is actively trying to recover full guard:**
@@ -383,11 +383,11 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 50% | 15% |
-| Intermediate | 70% | 65% | 25% |
-| Advanced     | 80% | 75% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 75% |
+| Advancement Probability | 70% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 15-45 seconds
 

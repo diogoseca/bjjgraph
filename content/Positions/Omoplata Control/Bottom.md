@@ -344,11 +344,11 @@ Bottom practitioner establishes omoplata control. Top practitioner attempts vari
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 50% | 30% |
-| Intermediate | 60% | 65% | 45% |
-| Advanced     | 75% | 80% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 72% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 20-45 seconds
 

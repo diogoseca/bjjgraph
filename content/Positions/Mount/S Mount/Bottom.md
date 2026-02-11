@@ -364,11 +364,11 @@ Partner establishes S Mount, timer starts. Race to execute complete escape to gu
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 85% | 10% | 75% |
-| Intermediate | 70% | 20% | 55% |
-| Advanced     | 50% | 35% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 28% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 15-45 seconds before submission or escape
 

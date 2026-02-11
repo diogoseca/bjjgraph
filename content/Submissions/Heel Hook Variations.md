@@ -163,7 +163,7 @@ The heel hook represents one of the most devastating and dangerous submissions i
 **Type**: Leg Lock
 **Target Area**: Knee ligaments, ankle joint, and heel structure
 **Starting Position**: [[Saddle]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -246,13 +246,13 @@ The heel hook represents one of the most devastating and dangerous submissions i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure heel control grip**: From established ashi-garami position, reach across your body and grab opponent's heel. For inside heel hook, your arm reaches across to grab their heel on the side away from you. Configure your grip (figure-four, Gable grip, or palm-to-palm depending on preference) so the heel is pulled tight to your chest/armpit area. The heel should be anchored against your body, not just held in your hands. Your forearm creates a lever across the back of their ankle and Achilles. (Timing: Establish grip during initial leg entanglement or transition) [Pressure: Light]
-2. **Tighten leg entanglement and control knee line**: Ensure your legs are properly configured around their trapped leg. Your outside leg should hook across their hip (for saddle) or their thigh (for inside ashi), while your inside leg triangles under their knee or controls their far leg. The key is preventing them from turning their knee away from danger or toward their chest. Their knee must remain pointing in the vulnerable direction. Squeeze your knees together to increase control. Pull their leg tight to your body with your entangling legs. (Timing: Simultaneous with heel grip establishment) [Pressure: Moderate]
-3. **Break defensive hand grips**: Opponent will almost certainly grip their own leg, grabbing their shin or knee to prevent rotation. You must break this grip before finishing. Use your free hand to strip their grip away - grab their wrist or forearm and pull/peel it off their leg. Alternatively, use your free hand to post on their chest or face to create distance and break their defensive posture. Some variations involve using your free hand to control their far leg or opposite ankle. Once their grip is broken, immediately proceed to the finish before they can re-establish defense. (Timing: Before applying finishing rotation) [Pressure: Firm]
-4. **Position hips for rotational force**: Adjust your hip position relative to their trapped leg. For inside heel hook, your hips should be positioned so that when you rotate your torso, it generates external rotation on their lower leg. The opponent's knee should remain relatively stable while their foot rotates outward. Your body should be perpendicular or at an angle to their leg, not parallel. Some practitioners prefer to get their hips very close to their opponent's knee (saddle position provides optimal hip placement). Test your position by making small rotational movements - if the heel moves but the knee doesn't rotate, your position is wrong. (Timing: Adjustment made just before finishing rotation) [Pressure: Moderate]
-5. **Generate rotational force through hip movement**: The finish comes from rotating your entire torso/hips while keeping the heel anchored to your body, NOT from twisting with your arms. Think of your upper body and the opponent's heel as one unit - when you rotate your torso externally (away from their leg), their heel rotates with you while their knee remains trapped. The rotation should be smooth and controlled, especially in training. Your arms simply maintain the connection between heel and torso; your hips do all the work. Rotate your shoulders and chest toward the mat on the heel side. In training, this rotation should take 5-7 seconds minimum with constant communication. (Timing: Final finishing movement, applied SLOWLY in training) [Pressure: Maximum]
-6. **Maintain control and release properly upon tap**: As you apply rotational pressure, maintain all control points - heel grip, leg entanglement, hip position. The submission is complete when opponent taps or when you feel the ligaments begin to strain (in competition). In training, STOP at the first sign of resistance or discomfort - NEVER push through to the injury point. The instant your partner taps (by any method - verbal, hand, foot, or distress signal), immediately reverse the rotation to neutral, release the heel grip gently, and slowly release the leg entanglement. Do not jerk or drop the leg suddenly. Ask your partner verbally if they are okay before resetting. (Timing: Throughout finish and especially during release) [Pressure: Light]
-7. **Variation adaptation for outside and reverse heel hooks**: For outside heel hook from outside ashi-garami, the mechanics are similar but mirrored - you attack the heel that is on your side, and the rotation direction is opposite (internal rotation of your torso generates the breaking force). The outside variation often requires more arm strength and is generally less secure. For reverse heel hook, the grip is inverted (your palm faces opposite direction), changing the leverage and finishing mechanics. Regardless of variation, the principles remain: control the knee line, secure the heel to your body, generate force with hip rotation (not arm twisting), and apply EXTREMELY slowly in training. (Timing: Variation selection based on leg entanglement position) [Pressure: Moderate]
+1. **Secure heel control grip**: From established ashi-garami position, reach across your body and grab opponent's heel. For inside heel hook, your arm reaches across to grab their heel on the side away from you. Configure your grip (figure-four, Gable grip, or palm-to-palm depending on preference) so the heel is pulled tight to your chest/armpit area. The heel should be anchored against your body, not just held in your hands. Your forearm creates a lever across the back of their ankle and Achilles. (Timing: Establish grip during initial leg entanglement or transition)
+2. **Tighten leg entanglement and control knee line**: Ensure your legs are properly configured around their trapped leg. Your outside leg should hook across their hip (for saddle) or their thigh (for inside ashi), while your inside leg triangles under their knee or controls their far leg. The key is preventing them from turning their knee away from danger or toward their chest. Their knee must remain pointing in the vulnerable direction. Squeeze your knees together to increase control. Pull their leg tight to your body with your entangling legs. (Timing: Simultaneous with heel grip establishment)
+3. **Break defensive hand grips**: Opponent will almost certainly grip their own leg, grabbing their shin or knee to prevent rotation. You must break this grip before finishing. Use your free hand to strip their grip away - grab their wrist or forearm and pull/peel it off their leg. Alternatively, use your free hand to post on their chest or face to create distance and break their defensive posture. Some variations involve using your free hand to control their far leg or opposite ankle. Once their grip is broken, immediately proceed to the finish before they can re-establish defense. (Timing: Before applying finishing rotation)
+4. **Position hips for rotational force**: Adjust your hip position relative to their trapped leg. For inside heel hook, your hips should be positioned so that when you rotate your torso, it generates external rotation on their lower leg. The opponent's knee should remain relatively stable while their foot rotates outward. Your body should be perpendicular or at an angle to their leg, not parallel. Some practitioners prefer to get their hips very close to their opponent's knee (saddle position provides optimal hip placement). Test your position by making small rotational movements - if the heel moves but the knee doesn't rotate, your position is wrong. (Timing: Adjustment made just before finishing rotation)
+5. **Generate rotational force through hip movement**: The finish comes from rotating your entire torso/hips while keeping the heel anchored to your body, NOT from twisting with your arms. Think of your upper body and the opponent's heel as one unit - when you rotate your torso externally (away from their leg), their heel rotates with you while their knee remains trapped. The rotation should be smooth and controlled, especially in training. Your arms simply maintain the connection between heel and torso; your hips do all the work. Rotate your shoulders and chest toward the mat on the heel side. In training, this rotation should take 5-7 seconds minimum with constant communication. (Timing: Final finishing movement, applied SLOWLY in training)
+6. **Maintain control and release properly upon tap**: As you apply rotational pressure, maintain all control points - heel grip, leg entanglement, hip position. The submission is complete when opponent taps or when you feel the ligaments begin to strain (in competition). In training, STOP at the first sign of resistance or discomfort - NEVER push through to the injury point. The instant your partner taps (by any method - verbal, hand, foot, or distress signal), immediately reverse the rotation to neutral, release the heel grip gently, and slowly release the leg entanglement. Do not jerk or drop the leg suddenly. Ask your partner verbally if they are okay before resetting. (Timing: Throughout finish and especially during release)
+7. **Variation adaptation for outside and reverse heel hooks**: For outside heel hook from outside ashi-garami, the mechanics are similar but mirrored - you attack the heel that is on your side, and the rotation direction is opposite (internal rotation of your torso generates the breaking force). The outside variation often requires more arm strength and is generally less secure. For reverse heel hook, the grip is inverted (your palm faces opposite direction), changing the leverage and finishing mechanics. Regardless of variation, the principles remain: control the knee line, secure the heel to your body, generate force with hip rotation (not arm twisting), and apply EXTREMELY slowly in training. (Timing: Variation selection based on leg entanglement position)
 
 
 </section>
@@ -272,28 +272,28 @@ The heel hook represents one of the most devastating and dangerous submissions i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Using arm strength to twist the heel instead of hip rotation [Medium DANGER]
+- **Mistake**: Using arm strength to twist the heel instead of hip rotation
   - **Consequence**: Ineffective submission with high risk of losing position; opponent can easily defend when force comes from arms alone. Also greatly increases risk of tearing your own bicep tendon from strain.
   - **Correction**: Anchor the heel firmly to your chest/armpit so it cannot move relative to your torso. Generate all rotational force by turning your hips and shoulders - your arms are merely the connection point. Think 'rotate your whole body' not 'twist the heel.' Practice this mechanic slowly with cooperative partner to develop proper muscle memory.
-- **Mistake**: Applying the heel hook with speed or explosive force in training [CRITICAL DANGER]
+- **Mistake**: Applying the heel hook with speed or explosive force in training
   - **Consequence**: CATASTROPHIC KNEE INJURY to training partner - ACL, MCL, LCL, PCL tears possible, career-ending damage, requires surgery and 6-12 months recovery. Loss of training partners and potential expulsion from academy.
   - **Correction**: In training, ALWAYS apply heel hooks with SLOW, progressive pressure over minimum 5-7 seconds. Communicate constantly with partner. Stop at first resistance. Remember: heel hooks cause structural damage BEFORE pain - your partner may not realize they're injured until it's too late. Save speed for competition only, if allowed by ruleset.
-- **Mistake**: Poor knee line control allowing opponent to rotate knee away from danger [Low DANGER]
+- **Mistake**: Poor knee line control allowing opponent to rotate knee away from danger
   - **Consequence**: Submission fails completely as opponent escapes breaking mechanics; opponent may even reverse position or pass your guard if your legs become disengaged trying to chase the heel hook.
   - **Correction**: Before applying finish, ensure leg entanglement is tight and opponent's knee is trapped in vulnerable position. Squeeze knees together, pull their leg close with your inside leg triangle or saddle configuration. Their knee should not be able to rotate toward their chest or away from your body. If they're escaping the knee line, tighten entanglement first, finish second.
-- **Mistake**: Failing to break opponent's defensive hand grips before finishing [Low DANGER]
+- **Mistake**: Failing to break opponent's defensive hand grips before finishing
   - **Consequence**: Submission is stalled; opponent maintains defensive position indefinitely; you may exhaust yourself trying to finish against their grip strength; opponent may escape or even counter-attack if you commit too much to a failed finish.
   - **Correction**: Systematically remove their defensive grips with your free hand before attempting the finish rotation. Grab their wrist and pull it off their leg, or post on their chest to create distance. Some practitioners use their free hand to control opponent's far leg, making it harder for them to grip defensively. Don't try to power through their grip - break it methodically.
-- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress
   - **Consequence**: SEVERE INJURY to training partner - multiple ligament tears, possible career-ending knee damage, surgery required, loss of trust and training partners, potential legal liability, academy disciplinary action or expulsion.
   - **Correction**: Develop immediate tap recognition and release reflex. The INSTANT you feel/hear a tap or any distress signal, immediately reverse rotation to neutral and release heel grip. Practice this release protocol every single repetition. If unsure whether they tapped, RELEASE and ask verbally. Better to let go of 100 submissions unnecessarily than to injure one training partner. This is non-negotiable training etiquette.
-- **Mistake**: Improper heel grip positioning with heel not secured against torso [Low DANGER]
+- **Mistake**: Improper heel grip positioning with heel not secured against torso
   - **Consequence**: Heel slips out during finish attempt, submission fails, opponent escapes; alternatively, creates cranking motion that causes pain without effective breaking mechanics (pain without progress).
   - **Correction**: The heel must be anchored tightly to your chest or armpit area, not floating in space held only by hand strength. Your forearm should cross the back of their Achilles/ankle. Configure your grip (figure-four, Gable, or palm-to-palm) so that your body and their heel move as one unit. Test the connection before rotating - if the heel can slip within your grip, it's not secure enough.
-- **Mistake**: Wrong variation for the leg entanglement position [Low DANGER]
+- **Mistake**: Wrong variation for the leg entanglement position
   - **Consequence**: Biomechanically inefficient finish that is easy to defend; you may even expose yourself to counters or sweeps if you're trying to force the wrong angle.
   - **Correction**: Inside ashi and saddle positions typically require inside heel hook (attacking far heel). Outside ashi typically requires outside heel hook (attacking near heel). 50-50 can use either depending on configuration. Learn to recognize which variation matches your entanglement position. If the mechanics feel wrong or weak, check whether you're using the correct variation for your position.
-- **Mistake**: Neglecting to control opponent's upper body during finish [Medium DANGER]
+- **Mistake**: Neglecting to control opponent's upper body during finish
   - **Consequence**: Opponent sits up, establishes base, and escapes the submission; they may even pass your guard or establish top position if you're overextended trying to hold the heel hook.
   - **Correction**: Use your free hand to control opponent's upper body throughout the submission. Post on their chest, grab their collar, or control their head/shoulder to prevent them from fully sitting up. Your leg entanglement also helps control their hips. Maintain this control especially during the finishing rotation - don't become so focused on the heel that you forget positional control.
 
@@ -362,43 +362,6 @@ The heel hook represents one of the most devastating and dangerous submissions i
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding Phase** (Weeks 1-2)
-- Focus: Learn biomechanics, positions, and safety protocols without live resistance. Study differences between inside, outside, and reverse variations. Understand injury mechanisms and why heel hooks are dangerous.
-- Resistance: None
-- Safety: Memorize release protocol, tap signals, and application speed requirements. Practice finding saddle/ashi positions without finishing. Watch instructional content on injury prevention. Understand that heel hooks should not be practiced until instructor approves readiness.
-
-**Slow Cooperative Practice Phase** (Weeks 3-4)
-- Focus: Practice entering positions (saddle, inside ashi) and establishing heel control with fully cooperative partner. Execute finish rotation EXTREMELY slowly (10+ seconds) with constant verbal communication. Focus on proper hip position and rotational mechanics, not finishing.
-- Resistance: Zero resistance
-- Safety: Both partners communicate constantly ('pressure okay?', 'feel that?'). Attacker stops at 20% pressure maximum. Defender taps early and often. Practice release protocol every repetition. Both partners monitor each other for proper technique and safety.
-
-**Positional Control Development Phase** (Weeks 5-8)
-- Focus: Develop entries to leg entanglement positions from guards, transitions, and scrambles. Practice maintaining saddle/ashi positions against mild resistance. Work on breaking defensive grips and controlling knee line. Still no fast or forceful finishes.
-- Resistance: Mild resistance
-- Safety: Partner provides enough resistance to challenge control but not enough to require forceful finishing. Continue extremely slow application (7+ seconds). Emphasis on control positions and setups rather than explosive finishes. Instructor supervision required for all training.
-
-**Defensive Skills Development Phase** (Weeks 9-12)
-- Focus: Learn and practice escapes from leg entanglements, knee line defense, and proper defensive grips. Understand positional hierarchy in leg entanglement game. Practice recognizing when to tap preventatively before pressure becomes dangerous.
-- Resistance: Realistic resistance
-- Safety: Learn to tap early based on position recognition, not pain. Understand that heel hooks can injure before pain warning. Practice defensive grips and escapes that prevent opponent from completing setup. Develop awareness of when you're in danger vs. relatively safe within the position.
-
-**System Integration Phase** (Weeks 13-24)
-- Focus: Integrate heel hook attacks and defenses into full rolling with specific restrictions: heel hooks allowed only from established positions, with mandatory slow application, and between approved training partners of similar skill level. Begin to understand strategic decision-making in leg entanglement game.
-- Resistance: Full resistance
-- Safety: Both partners must explicitly agree before rolling with heel hooks allowed. Continue slow application requirement (5-7 seconds minimum). Tap early based on position, not waiting for pressure. Track any close calls or dangerous moments and discuss with instructor. Build culture of mutual safety and trust.
-
-**Advanced Application and Teaching Phase** (Months 6+ (ongoing))
-- Focus: Refine finishing details, chain heel hooks with other leg attacks, develop high-level entries and transitions. Begin teaching heel hook safety to junior students under instructor supervision. Study competition footage and modern meta-game developments.
-- Resistance: Full resistance
-- Safety: Maintain training safety protocols regardless of skill level - NEVER become complacent. Model excellent safety behavior for junior students. Understand competition vs. training distinction clearly. Continue to emphasize preventative tapping and slow application. Recognize that safety culture must be constantly reinforced, not assumed.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -458,6 +421,7 @@ The heel hook represents one of the most devastating and dangerous submissions i
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

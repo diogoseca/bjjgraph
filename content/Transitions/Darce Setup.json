@@ -11,11 +11,6 @@
     "darce",
     "no-gi"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Darce Setup is a crucial transitional technique that transforms front headlock control into one of Brazilian Jiu-Jitsu's most effective submission positions. Named after Joe D'Arce, this setup exploits opponent posture and creates the distinctive arm-in configuration that defines the Darce choke system. The technique is particularly effective when opponents attempt to defend turtle position or when transitioning from scrambles, making it an essential weapon for modern grapplers. Understanding proper hand positioning, angle creation, and body weight distribution during the setup phase dramatically increases finishing rates. The Darce setup requires precise timing and technical execution rather than pure strength, making it accessible to practitioners of all sizes when properly understood. This technique serves as a gateway to multiple submission opportunities including the Darce choke, Anaconda choke, and various transitions to back control or mount positions.",
   "key_principles": [
     "Control opponent's far arm to create the arm-in configuration",
@@ -39,38 +34,32 @@
     {
       "step_number": 1,
       "action": "Establish front headlock control",
-      "description": "From standing or ground position, secure front headlock with strong crossface using your near arm wrapped around opponent's head. Your chest should be heavy on their neck and upper back, forcing their posture down. Control their far shoulder with your other hand to prevent them turning away.",
-      "timing": "Initial control phase - take 2-3 seconds to solidify position"
+      "description": "From standing or ground position, secure front headlock with strong crossface using your near arm wrapped around opponent's head. Your chest should be heavy on their neck and upper back, forcing their posture down. Control their far shoulder with your other hand to prevent them turning away."
     },
     {
       "step_number": 2,
       "action": "Create proper angle",
-      "description": "Step your near leg forward and across opponent's centerline while driving your shoulder into their neck. Your body should form approximately 90-degree angle to their spine. This angle is critical - too shallow and they escape, too deep and you lose leverage. Your hips should be close to their body.",
-      "timing": "Angle creation - 1-2 seconds of adjustment"
+      "description": "Step your near leg forward and across opponent's centerline while driving your shoulder into their neck. Your body should form approximately 90-degree angle to their spine. This angle is critical - too shallow and they escape, too deep and you lose leverage. Your hips should be close to their body."
     },
     {
       "step_number": 3,
       "action": "Trap the far arm",
-      "description": "Use your chest pressure and near arm to pin opponent's far arm against their body. Their bicep should be trapped against their ribs or lat muscle. This creates the essential 'arm-in' configuration that makes the Darce effective. Without this trap, opponent can defend by framing.",
-      "timing": "Arm trap - must be secured before proceeding"
+      "description": "Use your chest pressure and near arm to pin opponent's far arm against their body. Their bicep should be trapped against their ribs or lat muscle. This creates the essential 'arm-in' configuration that makes the Darce effective. Without this trap, opponent can defend by framing."
     },
     {
       "step_number": 4,
       "action": "Thread the choking arm",
-      "description": "Release your far hand from shoulder control and thread it deep under opponent's near armpit, reaching toward their far shoulder. Your forearm should slide across their carotid artery on the near side. Drive this arm as deep as possible - shallow placement results in ineffective choke attempts.",
-      "timing": "Threading motion - smooth and deliberate, 2-3 seconds"
+      "description": "Release your far hand from shoulder control and thread it deep under opponent's near armpit, reaching toward their far shoulder. Your forearm should slide across their carotid artery on the near side. Drive this arm as deep as possible - shallow placement results in ineffective choke attempts."
     },
     {
       "step_number": 5,
       "action": "Secure the grip",
-      "description": "Grab your own bicep with your threading arm, creating the Darce grip configuration. Your non-choking arm should cup the back of opponent's head, driving it forward and down. The grip should feel tight immediately - if loose, adjust depth of threading arm before proceeding.",
-      "timing": "Grip completion - 1-2 seconds"
+      "description": "Grab your own bicep with your threading arm, creating the Darce grip configuration. Your non-choking arm should cup the back of opponent's head, driving it forward and down. The grip should feel tight immediately - if loose, adjust depth of threading arm before proceeding."
     },
     {
       "step_number": 6,
       "action": "Adjust body position for control",
-      "description": "Drop your near hip to the mat while maintaining pressure through your shoulder and chest. Your body should be perpendicular to opponent with strong connection throughout. This position establishes Darce Control, from which you can execute the finishing sequence. Maintain heavy pressure to prevent opponent's movement.",
-      "timing": "Final position adjustment - control established within 1-2 seconds"
+      "description": "Drop your near hip to the mat while maintaining pressure through your shoulder and chest. Your body should be perpendicular to opponent with strong connection throughout. This position establishes Darce Control, from which you can execute the finishing sequence. Maintain heavy pressure to prevent opponent's movement."
     }
   ],
   "common_counters": [
@@ -136,38 +125,32 @@
     {
       "phase": "Phase 1: Fundamental Control (Weeks 1-2)",
       "focus": "Front headlock mastery and angle creation",
-      "description": "Drill establishing front headlock from various positions. Practice creating proper angle repeatedly until body positioning becomes automatic. Partner offers no resistance, focusing on your movement mechanics and weight distribution.",
-      "resistance_level": "None"
+      "description": "Drill establishing front headlock from various positions. Practice creating proper angle repeatedly until body positioning becomes automatic. Partner offers no resistance, focusing on your movement mechanics and weight distribution."
     },
     {
       "phase": "Phase 2: Arm Trap Mechanics (Weeks 3-4)",
       "focus": "Controlling opponent's far arm and maintaining pressure",
-      "description": "Partner maintains turtle position while you practice trapping far arm using various chest and shoulder pressure techniques. Work on keeping arm pinned while transitioning weight. Partner offers light defensive movement.",
-      "resistance_level": "Light"
+      "description": "Partner maintains turtle position while you practice trapping far arm using various chest and shoulder pressure techniques. Work on keeping arm pinned while transitioning weight. Partner offers light defensive movement."
     },
     {
       "phase": "Phase 3: Threading and Grip Formation (Weeks 5-6)",
       "focus": "Deep arm penetration and proper grip configuration",
-      "description": "Complete full setup sequence from front headlock to established Darce grip. Partner allows threading but maintains turtle structure. Focus on depth of penetration and tightness of grip. Repeat until muscle memory develops.",
-      "resistance_level": "Light"
+      "description": "Complete full setup sequence from front headlock to established Darce grip. Partner allows threading but maintains turtle structure. Focus on depth of penetration and tightness of grip. Repeat until muscle memory develops."
     },
     {
       "phase": "Phase 4: Defensive Responses (Weeks 7-9)",
       "focus": "Maintaining control against common escapes",
-      "description": "Partner executes specific defensive movements (turning in, rolling through, posting) while you maintain position and complete setup. Practice counter-responses to each defensive attempt. Build problem-solving skills against resistance.",
-      "resistance_level": "Medium"
+      "description": "Partner executes specific defensive movements (turning in, rolling through, posting) while you maintain position and complete setup. Practice counter-responses to each defensive attempt. Build problem-solving skills against resistance."
     },
     {
       "phase": "Phase 5: Flow Rolling Integration (Weeks 10-12)",
       "focus": "Finding setup opportunities from scrambles and transitions",
-      "description": "Flow roll with emphasis on front headlock positions. Recognize setup opportunities from various entries including snap downs, failed takedowns, and guard passing sequences. Partner provides progressive resistance.",
-      "resistance_level": "Medium"
+      "description": "Flow roll with emphasis on front headlock positions. Recognize setup opportunities from various entries including snap downs, failed takedowns, and guard passing sequences. Partner provides progressive resistance."
     },
     {
       "phase": "Phase 6: Competition Application (Week 13+)",
       "focus": "Setup execution under full resistance",
-      "description": "Implement Darce setup during regular sparring with no special rules or accommodations. Focus on timing, entry recognition, and finishing rate. Analyze unsuccessful attempts to identify technical gaps requiring refinement.",
-      "resistance_level": "Full"
+      "description": "Implement Darce setup during regular sparring with no special rules or accommodations. Focus on timing, entry recognition, and finishing rate. Analyze unsuccessful attempts to identify technical gaps requiring refinement."
     }
   ],
   "variants_and_adaptations": [
@@ -195,33 +178,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical requirement for a successful Darce setup?",
-      "answer": "Trapping the opponent's far arm against their body to create the arm-in configuration. Without this trap, the opponent can use their free arm to frame and defend, making the choke ineffective. The trapped arm creates the necessary anatomical positioning for the choke to work properly.",
-      "difficulty": "Beginner"
+      "answer": "Trapping the opponent's far arm against their body to create the arm-in configuration. Without this trap, the opponent can use their free arm to frame and defend, making the choke ineffective. The trapped arm creates the necessary anatomical positioning for the choke to work properly."
     },
     {
       "question": "What angle should your body create relative to your opponent's spine during the Darce setup?",
-      "answer": "Your body should be approximately perpendicular (90 degrees) to your opponent's spine. This angle maximizes leverage, prevents escape pathways, and creates the optimal position for threading your arm deep around their neck. Too shallow allows turning away; too deep loses control.",
-      "difficulty": "Intermediate"
+      "answer": "Your body should be approximately perpendicular (90 degrees) to your opponent's spine. This angle maximizes leverage, prevents escape pathways, and creates the optimal position for threading your arm deep around their neck. Too shallow allows turning away; too deep loses control."
     },
     {
       "question": "How do you respond if your opponent grabs your threading arm and prevents deep penetration?",
-      "answer": "You have several options: switch to an Anaconda setup by adjusting your grip configuration, transition to a crucifix position by controlling their defending arm, or use their grip as an opportunity to transition to back control. The key is not to fight their grip but rather to flow to an alternative attack.",
-      "difficulty": "Advanced"
+      "answer": "You have several options: switch to an Anaconda setup by adjusting your grip configuration, transition to a crucifix position by controlling their defending arm, or use their grip as an opportunity to transition to back control. The key is not to fight their grip but rather to flow to an alternative attack."
     },
     {
       "question": "Why is shoulder pressure important during the Darce setup sequence?",
-      "answer": "Constant shoulder pressure keeps opponent's posture broken, prevents them from regaining defensive structure, and maintains control of their head and upper body. This pressure also keeps their weight distributed poorly, making movement difficult and escape pathways limited. Without consistent pressure, opponents can create space and escape.",
-      "difficulty": "Beginner"
+      "answer": "Constant shoulder pressure keeps opponent's posture broken, prevents them from regaining defensive structure, and maintains control of their head and upper body. This pressure also keeps their weight distributed poorly, making movement difficult and escape pathways limited. Without consistent pressure, opponents can create space and escape."
     },
     {
       "question": "What is the relationship between the Darce setup and the Anaconda choke?",
-      "answer": "Both setups emerge from front headlock control and share similar initial positioning, but differ in grip configuration and arm threading direction. If the Darce setup is defended or the angle isn't optimal, switching to Anaconda configuration often provides an alternative finishing opportunity. Understanding both allows fluid transitions based on opponent reaction.",
-      "difficulty": "Intermediate"
+      "answer": "Both setups emerge from front headlock control and share similar initial positioning, but differ in grip configuration and arm threading direction. If the Darce setup is defended or the angle isn't optimal, switching to Anaconda configuration often provides an alternative finishing opportunity. Understanding both allows fluid transitions based on opponent reaction."
     },
     {
       "question": "How deep should your threading arm penetrate during the setup phase?",
-      "answer": "Your threading arm should penetrate until your shoulder is tight against the opponent's neck, ideally reaching toward their far shoulder blade. The forearm should cross their carotid artery with maximum surface contact. Shallow penetration is the most common error and results in weak control that opponents easily defend. Deep penetration creates immediate pressure and control.",
-      "difficulty": "Advanced"
+      "answer": "Your threading arm should penetrate until your shoulder is tight against the opponent's neck, ideally reaching toward their far shoulder blade. The forearm should cross their carotid artery with maximum surface contact. Shallow penetration is the most common error and results in weak control that opponents easily defend. Deep penetration creates immediate pressure and control."
     }
   ],
   "safety_considerations": "Practice Darce setups with controlled pressure and clear communication with training partners. When drilling the setup phase, focus on positional control rather than applying choking pressure until both partners understand the mechanics. The threading motion should be deliberate and smooth to avoid injury to shoulders or neck. Partners should maintain open communication about pressure levels, especially when adding resistance during training progressions. When transitioning from setup to finish, always release immediately when partner taps. Beginners should work under supervision of experienced practitioners or instructors who can correct technical errors before they become dangerous habits. The neck and cervical spine are vulnerable during front headlock positions, so avoid excessive cranking or twisting motions. Always ensure training partner understands how to tap from various positions before applying any submission setup.",
@@ -248,7 +225,7 @@
       "relationship": "Related setup"
     },
     {
-      "name": "D'arce-Anaconda Connection",
+      "name": "Darce-Anaconda Connection",
       "relationship": "System integration"
     },
     {
@@ -279,7 +256,7 @@
   "from_position": "Front Headlock/Top",
   "outcomes": [
     {
-      "to": "D'arce Control/Top",
+      "to": "Darce Control/Top",
       "probability": 60,
       "result": "success"
     },
@@ -293,5 +270,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 52
 }

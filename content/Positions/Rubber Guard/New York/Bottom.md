@@ -386,11 +386,11 @@ Partner chooses randomly between three escape attempts (overhook extraction, pos
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 25% |
-| Intermediate | 60% | 55% | 40% |
-| Advanced     | 80% | 75% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 65% |
+| Submission Probability | 50% |
 
 **Average Time in Position**: 20-40 seconds before transitioning to next position
 

@@ -17,7 +17,7 @@ description: "Master the Leg Drag While Clearing Lapel pass in BJJ. Simultaneous
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Leg Drag While Clearing Lapel in BJJ",
-  "description": "Step-by-step guide for Leg Drag While Clearing Lapel from Lapel Guard/Top. Possible outcomes: Leg Drag Position (65%), Lapel Guard (25%), Half Guard (10%).",
+  "description": "Step-by-step guide for Leg Drag While Clearing Lapel from Lapel Guard/Top. Possible outcomes: Leg Drag Control (65%), Lapel Guard (25%), Half Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -157,7 +157,7 @@ The fundamental insight is that the leg drag motion naturally creates the angle 
 Strategically, this technique excels against opponents who rely heavily on lapel guard systems. Rather than engaging in extended grip battles that favor the bottom player's energy efficiency, you convert directly to a passing position. The leg drag position achieved offers immediate submission threats including leg attacks and back exposure, making this a high-value transition that changes the entire complexion of the exchange.
 
 **From Position**: [[Lapel Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -167,7 +167,7 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Leg Drag Position]] | 65% |
+| Success | [[Leg Drag Control]] | 65% |
 | Failure | [[Lapel Guard]] | 25% |
 | Counter | [[Half Guard]] | 10% |
 
@@ -204,12 +204,12 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Control gripping hand**: Secure sleeve or wrist control on the hand maintaining the lapel configuration, preventing them from adjusting or tightening the wrap as you begin your pass. (Timing: Before initiating any passing motion)
-2. **Establish pant grip**: With your free hand, grip low on the opponent's pants at the shin or ankle on the same side as the lapel wrap, creating the anchor point for the drag. (Timing: Immediately after controlling their grip hand)
-3. **Create passing angle**: Step laterally and begin pulling their legs across your body toward your hip while simultaneously working to strip the lapel configuration using the rotational force. (Timing: Single explosive motion)
-4. **Strip lapel wrap**: As the leg drag motion continues, use your controlled hand position and body rotation to unwrap or disengage the lapel from around your limb, letting momentum assist the clearing. (Timing: During the drag motion)
-5. **Complete the drag**: Pull their legs fully across your body until their knees point away from you, achieving the leg drag control position with their hips exposed and mobility compromised. (Timing: Continuous motion from step 3)
-6. **Consolidate position**: Drive your shoulder into their near hip, establish crossface or underhook control, and prepare to advance to side control or attack submissions from leg drag position. (Timing: Immediately upon completing drag)
+1. **Control gripping hand**: Secure sleeve or wrist control on the hand maintaining the lapel configuration, preventing them from adjusting or tightening the wrap as you begin your pass.
+2. **Establish pant grip**: With your free hand, grip low on the opponent's pants at the shin or ankle on the same side as the lapel wrap, creating the anchor point for the drag.
+3. **Create passing angle**: Step laterally and begin pulling their legs across your body toward your hip while simultaneously working to strip the lapel configuration using the rotational force.
+4. **Strip lapel wrap**: As the leg drag motion continues, use your controlled hand position and body rotation to unwrap or disengage the lapel from around your limb, letting momentum assist the clearing.
+5. **Complete the drag**: Pull their legs fully across your body until their knees point away from you, achieving the leg drag control position with their hips exposed and mobility compromised.
+6. **Consolidate position**: Drive your shoulder into their near hip, establish crossface or underhook control, and prepare to advance to side control or attack submissions from leg drag position.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this technique excels against opponents who rely heavily on lapel
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the leg drag motion without lapel involvement. Partner holds passive guard while you drill the grip, step, and drag sequence. Focus on smooth execution and proper body positioning.
-(Resistance: None)
 
 **Week 3-4** - Lapel clearing integration
 Partner establishes basic worm guard configuration. Practice combining the lapel clearing motion with the drag in one sequence. Light resistance on lapel retention only.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner applies progressively increasing resistance and attempts counters (framing, hip escape, re-gripping). Develop ability to read and adjust to opponent reactions mid-technique.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply technique in positional sparring starting from lapel guard. Develop timing for when to attempt this pass versus other options. Full resistance with complete guard retention and counter attacks.
-(Resistance: Full)
 
 
 
@@ -341,7 +337,7 @@ The Leg Drag While Clearing Lapel functions as a critical bridge technique in th
 ## Related Techniques
 
 - [[Lapel Guard]] - Starting position
-- [[Leg Drag Position]] - Primary success outcome
+- [[Leg Drag Control]] - Primary success outcome
 - [[Leg Drag Pass]] - Complementary technique from leg drag position
 - [[Knee Slice from Half]] - Alternative if drag stalls
 - [[Back Step Pass]] - Alternative approach to lapel guard

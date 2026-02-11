@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Monoplata from Mount is an advanced shoulder lock attack that capitalizes on the dominant high mount position to isolate and hyperrotate the opponent's shoulder using leg pressure. Unlike traditional arm attacks from mount that require significant positional transitions, the monoplata allows the attacker to maintain mount control throughout the submission attempt while applying devastating rotational force to the glenohumeral joint.\n\nThis technique exploits a common defensive posture where the bottom player tucks their elbow tight to defend against armbars and americanas. By threading the leg over the trapped arm and using hip rotation combined with figure-four leg positioning, the attacker creates a mechanical advantage that exponentially multiplies the force applied to the shoulder. The geometry of the attack makes it extremely difficult to defend once the leg has cleared the arm, as the opponent cannot generate sufficient counter-force against the attacker's entire leg structure.\n\nStrategically, the monoplata serves as an excellent secondary attack when opponents successfully defend traditional mount submissions. The setup can be disguised within armbar or americana attempts, creating a multi-threat attack sequence that overwhelms defensive focus. Elite practitioners use this technique to punish defensive postures that would otherwise stall submission progress from mount, transforming the opponent's defensive success into a new vulnerability.",
   "key_principles": [
     "Maintain forward pressure and chest-to-chest contact throughout the setup to prevent escape space",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Isolate target arm",
-      "description": "From high mount, identify the arm that is tucked defensively against the opponent's body. Use your same-side hand to control their wrist, pinning it to their chest or hip while maintaining forward pressure with your chest.",
-      "timing": "When opponent tucks elbow to defend americana or armbar"
+      "description": "From high mount, identify the arm that is tucked defensively against the opponent's body. Use your same-side hand to control their wrist, pinning it to their chest or hip while maintaining forward pressure with your chest."
     },
     {
       "step_number": 2,
       "action": "Establish head control",
-      "description": "Place your opposite arm behind the opponent's head in a cross-face position, pulling their face toward the trapped arm side. This eliminates their ability to turn away and create defensive angles while maintaining your base.",
-      "timing": "Immediately after securing wrist control"
+      "description": "Place your opposite arm behind the opponent's head in a cross-face position, pulling their face toward the trapped arm side. This eliminates their ability to turn away and create defensive angles while maintaining your base."
     },
     {
       "step_number": 3,
       "action": "Create hip angle",
-      "description": "Shift your hips toward the trapped arm side, creating approximately a 45-degree angle to your opponent's body. This positioning allows your leg to clear their shoulder without losing mount control or base stability.",
-      "timing": "Smoothly transition as you maintain arm and head control"
+      "description": "Shift your hips toward the trapped arm side, creating approximately a 45-degree angle to your opponent's body. This positioning allows your leg to clear their shoulder without losing mount control or base stability."
     },
     {
       "step_number": 4,
       "action": "Thread leg over shoulder",
-      "description": "Lift your leg on the trapped arm side and thread it over the opponent's shoulder, hooking your instep behind their neck or upper back. Your thigh should press against the back of their trapped arm near the tricep.",
-      "timing": "Execute when hip angle is established and arm is secured"
+      "description": "Lift your leg on the trapped arm side and thread it over the opponent's shoulder, hooking your instep behind their neck or upper back. Your thigh should press against the back of their trapped arm near the tricep."
     },
     {
       "step_number": 5,
       "action": "Secure figure-four leg position",
-      "description": "Cross your opposite leg over the ankle of your hooked leg, creating a figure-four configuration. This locks the submission structure in place and prevents the opponent from pulling their arm free through the leg opening.",
-      "timing": "Immediately after threading the first leg"
+      "description": "Cross your opposite leg over the ankle of your hooked leg, creating a figure-four configuration. This locks the submission structure in place and prevents the opponent from pulling their arm free through the leg opening."
     },
     {
       "step_number": 6,
       "action": "Apply rotational pressure",
-      "description": "Rotate your hips away from the opponent while simultaneously pulling your legs toward your chest. This action hyperrotates the opponent's shoulder internally, creating intense pressure on the glenohumeral joint until they tap.",
-      "timing": "Apply gradually to allow tap, increase pressure if no submission"
+      "description": "Rotate your hips away from the opponent while simultaneously pulling your legs toward your chest. This action hyperrotates the opponent's shoulder internally, creating intense pressure on the glenohumeral joint until they tap."
     }
   ],
   "common_counters": [
@@ -142,26 +131,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Leg threading mechanics",
-      "description": "Practice the leg threading motion from high mount with a compliant partner. Focus on maintaining mount control while developing hip mobility to clear the shoulder smoothly. Drill the figure-four leg configuration repeatedly until it becomes automatic.",
-      "resistance_level": "None"
+      "description": "Practice the leg threading motion from high mount with a compliant partner. Focus on maintaining mount control while developing hip mobility to clear the shoulder smoothly. Drill the figure-four leg configuration repeatedly until it becomes automatic."
     },
     {
       "phase": "Week 3-4",
       "focus": "Setup recognition and arm isolation",
-      "description": "Work on identifying when opponents tuck their arms defensively. Practice transitioning from americana or armbar attempts into monoplata setup when the arm is bent. Develop sensitivity to the defensive posture that opens this attack.",
-      "resistance_level": "Light"
+      "description": "Work on identifying when opponents tuck their arms defensively. Practice transitioning from americana or armbar attempts into monoplata setup when the arm is bent. Develop sensitivity to the defensive posture that opens this attack."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combination attacks and counters",
-      "description": "Chain the monoplata with traditional mount attacks. Practice flowing from armbar to monoplata when arm bends, and from monoplata back to armbar when arm straightens. Drill responses to common counters including bridging and arm extension.",
-      "resistance_level": "Medium"
+      "description": "Chain the monoplata with traditional mount attacks. Practice flowing from armbar to monoplata when arm bends, and from monoplata back to armbar when arm straightens. Drill responses to common counters including bridging and arm extension."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and finishing",
-      "description": "Implement the technique in positional sparring from mount. Focus on completing the submission against resisting opponents while maintaining position when the attempt fails. Refine timing and pressure application through repetition.",
-      "resistance_level": "Full"
+      "description": "Implement the technique in positional sparring from mount. Focus on completing the submission against resisting opponents while maintaining position when the attempt fails. Refine timing and pressure application through repetition."
     }
   ],
   "variants_and_adaptations": [
@@ -184,53 +169,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Monoplata from Mount?",
-      "answer": "The primary goal is to submit the opponent via shoulder lock by hyperrotating their glenohumeral joint using leg pressure. The technique exploits the defensive arm position that opponents use to defend traditional mount attacks, transforming their defense into a submission opportunity.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to submit the opponent via shoulder lock by hyperrotating their glenohumeral joint using leg pressure. The technique exploits the defensive arm position that opponents use to defend traditional mount attacks, transforming their defense into a submission opportunity."
     },
     {
       "question": "What position do you start Monoplata from Mount from?",
-      "answer": "This technique starts from High Mount Top position, where your knees are positioned high near the opponent's armpits and your weight is distributed forward on their upper chest. The high mount provides the necessary control and positioning to thread your leg over their shoulder.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from High Mount Top position, where your knees are positioned high near the opponent's armpits and your weight is distributed forward on their upper chest. The high mount provides the necessary control and positioning to thread your leg over their shoulder."
     },
     {
       "question": "What are the key grips needed for Monoplata from Mount?",
-      "answer": "The primary grip is wrist control on the target arm, pinning it to the opponent's body. Secondary control comes from cross-face positioning with the opposite arm behind their head. In gi, you may additionally use collar or sleeve grips to enhance arm isolation and prevent defensive movement.",
-      "difficulty": "Beginner"
+      "answer": "The primary grip is wrist control on the target arm, pinning it to the opponent's body. Secondary control comes from cross-face positioning with the opposite arm behind their head. In gi, you may additionally use collar or sleeve grips to enhance arm isolation and prevent defensive movement."
     },
     {
       "question": "How do you counter Monoplata from Mount as the defender?",
-      "answer": "The most effective counter is straightening the trapped arm before the attacker can thread their leg over the shoulder, which prevents the submission lock but may expose you to armbar. Early detection and keeping the elbow away from your body reduces vulnerability. Explosive bridging during the leg threading phase can also create escape opportunities.",
-      "difficulty": "Intermediate"
+      "answer": "The most effective counter is straightening the trapped arm before the attacker can thread their leg over the shoulder, which prevents the submission lock but may expose you to armbar. Early detection and keeping the elbow away from your body reduces vulnerability. Explosive bridging during the leg threading phase can also create escape opportunities."
     },
     {
       "question": "When is the best time to attempt Monoplata from Mount?",
-      "answer": "The optimal timing is when the opponent tucks their elbow tight to their body to defend americana or armbar attempts. This defensive posture, while effective against traditional attacks, creates the exact arm position needed for monoplata entry. Also effective when opponents are fatigued and maintaining static defensive positions.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent tucks their elbow tight to their body to defend americana or armbar attempts. This defensive posture, while effective against traditional attacks, creates the exact arm position needed for monoplata entry. Also effective when opponents are fatigued and maintaining static defensive positions."
     },
     {
       "question": "What hip movement generates the finishing pressure in the monoplata?",
-      "answer": "The finishing pressure comes from hip rotation away from the opponent combined with pulling the legs toward your chest. This rotational movement hyperrotates the shoulder internally. Using hip mechanics rather than leg strength creates a much stronger mechanical advantage and more efficient submission.",
-      "difficulty": "Intermediate"
+      "answer": "The finishing pressure comes from hip rotation away from the opponent combined with pulling the legs toward your chest. This rotational movement hyperrotates the shoulder internally. Using hip mechanics rather than leg strength creates a much stronger mechanical advantage and more efficient submission."
     },
     {
       "question": "Your opponent begins straightening their arm as you thread your leg - how do you adjust?",
-      "answer": "This is a transition opportunity, not a failed attack. As they straighten the arm, immediately pivot to a standard armbar. Your leg is already partially over their arm, making the transition efficient. The arm extension that defeats the monoplata creates perfect conditions for armbar completion.",
-      "difficulty": "Advanced"
+      "answer": "This is a transition opportunity, not a failed attack. As they straighten the arm, immediately pivot to a standard armbar. Your leg is already partially over their arm, making the transition efficient. The arm extension that defeats the monoplata creates perfect conditions for armbar completion."
     },
     {
       "question": "What is the critical difference between using leg strength versus hip rotation for the finish?",
-      "answer": "Hip rotation uses your entire core and skeletal structure to generate rotational force at the optimal angle for shoulder submission. Leg strength alone applies force at a suboptimal angle, requires significant muscular effort, and often fails to generate sufficient pressure. Hip rotation is sustainable and mechanically superior, creating submission pressure through body positioning rather than exertion.",
-      "difficulty": "Advanced"
+      "answer": "Hip rotation uses your entire core and skeletal structure to generate rotational force at the optimal angle for shoulder submission. Leg strength alone applies force at a suboptimal angle, requires significant muscular effort, and often fails to generate sufficient pressure. Hip rotation is sustainable and mechanically superior, creating submission pressure through body positioning rather than exertion."
     },
     {
       "question": "How does the figure-four leg configuration affect submission security?",
-      "answer": "The figure-four locks the submission structure by eliminating the gap between your legs through which the opponent could extract their arm. Without the figure-four, the opponent can simply pull their arm straight through the opening. The configuration also creates a closed kinetic chain that transfers hip rotation more efficiently to shoulder pressure.",
-      "difficulty": "Intermediate"
+      "answer": "The figure-four locks the submission structure by eliminating the gap between your legs through which the opponent could extract their arm. Without the figure-four, the opponent can simply pull their arm straight through the opening. The configuration also creates a closed kinetic chain that transfers hip rotation more efficiently to shoulder pressure."
     },
     {
       "question": "Why is head control essential during the monoplata setup?",
-      "answer": "Head control prevents the opponent from turning toward the trapped arm, which would reduce the rotational angle available for the shoulder lock. Cross-face pressure keeps their head turned away, maximizing shoulder rotation potential. Without head control, opponents can follow the direction of force and significantly reduce submission effectiveness.",
-      "difficulty": "Advanced"
+      "answer": "Head control prevents the opponent from turning toward the trapped arm, which would reduce the rotational angle available for the shoulder lock. Cross-face pressure keeps their head turned away, maximizing shoulder rotation potential. Without head control, opponents can follow the direction of force and significantly reduce submission effectiveness."
     }
   ],
   "safety_considerations": "The monoplata applies intense rotational force to the shoulder joint and can cause serious injury if applied too quickly or without proper control. In training, always apply the submission gradually and with controlled pressure, giving your partner adequate time to recognize the submission and tap. The shoulder joint is vulnerable to dislocation and ligament damage from this type of rotational attack. Beginners should drill the mechanics at slow speeds before attempting with any resistance. If your partner does not tap and you feel significant resistance in the joint, release pressure immediately rather than forcing the submission. Never attempt this technique on training partners with existing shoulder injuries. During competition, maintain awareness that even experienced opponents may not recognize this less common submission in time to tap, requiring you to apply pressure progressively rather than explosively.",
@@ -268,5 +243,6 @@
       "name": "Mount",
       "relationship": "Recovery position - where you return if the monoplata attempt is defended"
     }
-  ]
+  ],
+  "success_rate": 58
 }

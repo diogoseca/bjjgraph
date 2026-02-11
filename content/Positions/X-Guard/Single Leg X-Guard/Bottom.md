@@ -21,37 +21,37 @@ description: "Master Single Leg X-Guard Bottom in BJJ. Complete guide covering s
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Sweep",
-      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard to Ashi Transition",
-      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard to Ashi Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Stand Up to Single Leg",
-      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Technical Stand Up to Single Leg. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Guard to X-Guard",
-      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Guard to X-Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,23 +205,25 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Available Escapes
 
-### [[Single Leg X Sweep]] (11% of attempts)
+### [[Single Leg X Sweep]] (10% of attempts)
 
-### [[X-Guard to Ashi Transition]] (12% of attempts)
+### [[X-Guard to Ashi Transition]] (10% of attempts)
 
-### [[Single Leg X Entry]] (11% of attempts)
+### [[Single Leg X Entry]] (10% of attempts)
 
-### [[Technical Stand Up to Single Leg]] (10% of attempts)
+### [[Technical Stand Up to Single Leg]] (9% of attempts)
 
-### [[Butterfly Guard to X-Guard]] (12% of attempts)
+### [[Butterfly Guard to X-Guard]] (11% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (11% of attempts)
+### [[De La Riva to X-Guard Transition]] (10% of attempts)
 
-### [[Ankle Pick Sweep]] (12% of attempts)
+### [[Ankle Pick Sweep]] (11% of attempts)
 
-### [[Inside Ashi Entry]] (10% of attempts)
+### [[Inside Ashi Entry]] (9% of attempts)
 
-### [[Standing to Single Leg X]] (11% of attempts)
+### [[Standing to Single Leg X]] (10% of attempts)
+
+### [[Heel Grab Sweep]] (10% of attempts)
 
 
 
@@ -384,11 +386,11 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 45% | 25% |
-| Intermediate | 60% | 65% | 40% |
-| Advanced     | 75% | 80% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 72% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 30-90 seconds depending on skill level and opponent's defensive knowledge
 

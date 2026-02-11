@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Lapel Elevator Sweep is a powerful off-balancing technique from lapel guard that uses the opponent's own gi fabric as a mechanical lever to execute a clean reversal to mount. This sweep capitalizes on the unique control properties of lapel guards, where the extracted lapel wrapped around the opponent's leg or torso creates persistent connection points that amplify your hip movement into dramatic off-balancing force.\n\nThe sweep works by combining a butterfly hook elevation with the pulling tension of the lapel grip to create a compound lever system. As you elevate with your hook, the lapel prevents the opponent from posting their hand or stepping out, channeling all their momentum into the sweep direction. The result is a sweep that feels almost effortless when timed correctly, as you're leveraging mechanical advantage rather than fighting strength against strength.\n\nStrategically, the Lapel Elevator Sweep fits into the broader lapel guard attack system as a primary sweeping threat that creates dilemmas. Opponents who defend the sweep by keeping heavy base expose themselves to back takes and omoplata entries. Those who try to clear the lapel configuration first open windows for the sweep execution. This technique rewards patience and positional awareness over explosive athleticism.",
   "key_principles": [
     "The lapel grip creates a persistent connection that prevents opponent from posting or basing out during the sweep",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Establish lapel configuration",
-      "description": "Secure the lapel grip with your primary hand, threading the fabric around opponent's thigh or through your guard structure. Maintain constant tension on the lapel to keep them connected to your control system.",
-      "timing": "Before initiating any sweeping motion"
+      "description": "Secure the lapel grip with your primary hand, threading the fabric around opponent's thigh or through your guard structure. Maintain constant tension on the lapel to keep them connected to your control system."
     },
     {
       "step_number": 2,
       "action": "Set butterfly hook",
-      "description": "Position your butterfly hook on the inner thigh of the opponent's lead leg, same side as your lapel grip. Your foot should be active with toes pointed toward their hip, not passive on the mat.",
-      "timing": "While opponent is focused on clearing lapel grips"
+      "description": "Position your butterfly hook on the inner thigh of the opponent's lead leg, same side as your lapel grip. Your foot should be active with toes pointed toward their hip, not passive on the mat."
     },
     {
       "step_number": 3,
       "action": "Control posting hand",
-      "description": "Use your secondary grip to control their sleeve or wrist on the side you intend to sweep. This prevents them from posting their hand to base out during the sweep execution.",
-      "timing": "Essential before committing to the sweep"
+      "description": "Use your secondary grip to control their sleeve or wrist on the side you intend to sweep. This prevents them from posting their hand to base out during the sweep execution."
     },
     {
       "step_number": 4,
       "action": "Break posture forward",
-      "description": "Pull sharply on the lapel grip while simultaneously pulling their controlled arm toward you. This loads their weight onto your butterfly hook and breaks their posture forward.",
-      "timing": "Immediately before elevation"
+      "description": "Pull sharply on the lapel grip while simultaneously pulling their controlled arm toward you. This loads their weight onto your butterfly hook and breaks their posture forward."
     },
     {
       "step_number": 5,
       "action": "Elevate and turn",
-      "description": "Drive your butterfly hook upward while simultaneously turning your body toward the sweep side. Your hip rotation and hook elevation work together—don't try to lift them straight up, angle them over your body.",
-      "timing": "As their weight commits forward"
+      "description": "Drive your butterfly hook upward while simultaneously turning your body toward the sweep side. Your hip rotation and hook elevation work together—don't try to lift them straight up, angle them over your body."
     },
     {
       "step_number": 6,
       "action": "Follow to mount",
-      "description": "As opponent tips over, maintain your lapel grip and immediately follow their falling body. Release the butterfly hook and transition your hips over their torso, establishing mount before they can recover guard.",
-      "timing": "Continuous motion without pausing"
+      "description": "As opponent tips over, maintain your lapel grip and immediately follow their falling body. Release the butterfly hook and transition your hips over their torso, establishing mount before they can recover guard."
     }
   ],
   "common_counters": [
@@ -144,26 +133,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and body positioning",
-      "description": "Practice lapel extraction and configuration without resistance. Focus on finding the correct depth for the lapel wrap and establishing proper butterfly hook placement. Partner remains stationary while you drill the setup repeatedly.",
-      "resistance_level": "None"
+      "description": "Practice lapel extraction and configuration without resistance. Focus on finding the correct depth for the lapel wrap and establishing proper butterfly hook placement. Partner remains stationary while you drill the setup repeatedly."
     },
     {
       "phase": "Week 3-4",
       "focus": "Sweep timing and coordination",
-      "description": "Partner provides light forward pressure. Practice timing the sweep to catch their weight shift. Focus on coordinating the lapel pull, sleeve control, and hook elevation as one fluid motion.",
-      "resistance_level": "Light"
+      "description": "Partner provides light forward pressure. Practice timing the sweep to catch their weight shift. Focus on coordinating the lapel pull, sleeve control, and hook elevation as one fluid motion."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration and chains",
-      "description": "Partner provides moderate resistance and occasionally defends the sweep. Practice transitioning to omoplata when they post, or following with back take when they posture away. Develop reactions to common counters.",
-      "resistance_level": "Medium"
+      "description": "Partner provides moderate resistance and occasionally defends the sweep. Practice transitioning to omoplata when they post, or following with back take when they posture away. Develop reactions to common counters."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Apply the sweep in positional sparring and full rolls. Identify which opponents and body types respond best to this sweep. Refine timing based on real resistance and develop setup combinations.",
-      "resistance_level": "Full"
+      "description": "Apply the sweep in positional sparring and full rolls. Identify which opponents and body types respond best to this sweep. Refine timing based on real resistance and develop setup combinations."
     }
   ],
   "variants_and_adaptations": [
@@ -186,43 +171,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Lapel Elevator Sweep?",
-      "answer": "The primary goal is to use the lapel grip as a mechanical lever that prevents opponent from posting or basing out, allowing your butterfly hook elevation to sweep them directly to mount position with minimal strength required.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to use the lapel grip as a mechanical lever that prevents opponent from posting or basing out, allowing your butterfly hook elevation to sweep them directly to mount position with minimal strength required."
     },
     {
       "question": "What position do you start the Lapel Elevator Sweep from?",
-      "answer": "This technique starts from Lapel Guard bottom position, specifically with a lapel configuration already established where you've fed opponent's lapel around their leg or through your guard structure.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Lapel Guard bottom position, specifically with a lapel configuration already established where you've fed opponent's lapel around their leg or through your guard structure."
     },
     {
       "question": "What are the key grips needed for the Lapel Elevator Sweep?",
-      "answer": "You need a primary grip on the lapel fabric (pistol grip or four-finger hook) maintaining constant tension, plus a secondary grip on opponent's sleeve or wrist on the sweep side to prevent them from posting their hand to base out.",
-      "difficulty": "Beginner"
+      "answer": "You need a primary grip on the lapel fabric (pistol grip or four-finger hook) maintaining constant tension, plus a secondary grip on opponent's sleeve or wrist on the sweep side to prevent them from posting their hand to base out."
     },
     {
       "question": "Your opponent posts their hand to prevent the sweep—what submission opportunity does this create?",
-      "answer": "Their posted arm becomes vulnerable to omoplata. As they post to defend the sweep, rotate your hips under their posting arm and thread your leg over their shoulder. The defensive post becomes your shoulder lock setup—this is a classic lapel guard dilemma.",
-      "difficulty": "Intermediate"
+      "answer": "Their posted arm becomes vulnerable to omoplata. As they post to defend the sweep, rotate your hips under their posting arm and thread your leg over their shoulder. The defensive post becomes your shoulder lock setup—this is a classic lapel guard dilemma."
     },
     {
       "question": "When is the optimal timing window to execute the Lapel Elevator Sweep?",
-      "answer": "Execute when opponent drives forward to pressure pass or when they commit weight forward while attempting to clear your lapel configuration. Their forward momentum loads the sweep and makes it nearly impossible for them to change direction in time.",
-      "difficulty": "Intermediate"
+      "answer": "Execute when opponent drives forward to pressure pass or when they commit weight forward while attempting to clear your lapel configuration. Their forward momentum loads the sweep and makes it nearly impossible for them to change direction in time."
     },
     {
       "question": "How do you adjust if opponent postures up and creates distance to reduce your lapel tension?",
-      "answer": "Follow their posture by sitting up aggressively with your hips, maintaining lapel tension throughout. Their attempt to create distance opens them to back take threats if they turn, or collar drag entries if they stay square. Don't let them escape the lapel connection.",
-      "difficulty": "Intermediate"
+      "answer": "Follow their posture by sitting up aggressively with your hips, maintaining lapel tension throughout. Their attempt to create distance opens them to back take threats if they turn, or collar drag entries if they stay square. Don't let them escape the lapel connection."
     },
     {
       "question": "What is the critical hip mechanic that differentiates a successful elevator sweep from a failed attempt?",
-      "answer": "The hip rotation combined with hook elevation creates a diagonal lifting vector rather than straight up. You're not trying to overhead press your opponent—you're angling them over your body as you turn. The rotation generates the power while the hook provides the lift point.",
-      "difficulty": "Advanced"
+      "answer": "The hip rotation combined with hook elevation creates a diagonal lifting vector rather than straight up. You're not trying to overhead press your opponent—you're angling them over your body as you turn. The rotation generates the power while the hook provides the lift point."
     },
     {
       "question": "How should your butterfly hook be positioned for maximum sweep effectiveness?",
-      "answer": "The butterfly hook should be high on the opponent's inner thigh with your foot actively pressing toward their hip, toes pointed up and in. A hook positioned too low on the calf reduces leverage significantly and allows them to step over your leg to neutralize the sweep.",
-      "difficulty": "Intermediate"
+      "answer": "The butterfly hook should be high on the opponent's inner thigh with your foot actively pressing toward their hip, toes pointed up and in. A hook positioned too low on the calf reduces leverage significantly and allows them to step over your leg to neutralize the sweep."
     }
   ],
   "safety_considerations": "The Lapel Elevator Sweep is generally low-risk when practiced with proper control. Primary safety concerns involve protecting training partners during the sweep execution—maintain control throughout so they don't land awkwardly or with excessive force. When following to mount, be mindful of not posting hands on partner's face or driving knees into ribs. The lapel grip itself can cause friction burns on partner's neck if fabric is yanked aggressively, so use controlled pulling tension rather than jerky movements. Avoid this technique if you have wrist or grip injuries, as the lapel grip requires sustained tension. Partners with shoulder issues should tap early if they feel uncomfortable in the swept position.",
@@ -264,5 +241,6 @@
       "name": "De La Riva Guard",
       "relationship": "Entry position - common guard for initiating lapel extractions"
     }
-  ]
+  ],
+  "success_rate": 58
 }

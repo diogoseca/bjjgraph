@@ -9,11 +9,6 @@
     "fundamental",
     "positional defense"
   ],
-  "success_rates": {
-    "beginner": 65,
-    "intermediate": 80,
-    "advanced": 90
-  },
   "overview": "Base Widening is a fundamental defensive technique that involves expanding your stance and lowering your center of gravity to recover stability when your base is threatened. This technique is essential across all grappling positions, from standing to ground fighting, and represents one of the most important defensive reflexes in Brazilian Jiu-Jitsu. The principle is rooted in basic physics: a wider base creates a more stable platform that is significantly harder to destabilize or sweep. When executed properly, base widening allows you to resist sweeps, prevent takedowns, and maintain control even when your opponent is actively trying to off-balance you. The technique involves spreading your weight-bearing points farther apart while simultaneously lowering your hips, creating a pyramid-like structure that distributes force more effectively. This defensive movement is often combined with other defensive principles such as posting hands, head positioning, and weight distribution to create a comprehensive defensive framework. Mastery of base widening is crucial for all belt levels, as it forms the foundation for defending against attacks from nearly every position in BJJ.",
   "key_principles": [
     "Spread legs wider than shoulder-width to increase stability zone",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Recognize threat",
-      "description": "Immediately identify when your opponent is attempting to compromise your base through grips, off-balancing, or positional pressure. Common indicators include pulling grips on your upper body, attacks on your posting arms, or attempts to control your hips.",
-      "timing": "Instant recognition - 0.2-0.5 seconds reaction window"
+      "description": "Immediately identify when your opponent is attempting to compromise your base through grips, off-balancing, or positional pressure. Common indicators include pulling grips on your upper body, attacks on your posting arms, or attempts to control your hips."
     },
     {
       "step_number": 2,
       "action": "Spread legs wider",
-      "description": "Explosively drive your feet outward, spreading your legs significantly wider than shoulder-width apart. The wider stance increases the area of your base, making it geometrically more difficult for your opponent to create enough angular momentum to sweep you.",
-      "timing": "Execute simultaneously with threat recognition"
+      "description": "Explosively drive your feet outward, spreading your legs significantly wider than shoulder-width apart. The wider stance increases the area of your base, making it geometrically more difficult for your opponent to create enough angular momentum to sweep you."
     },
     {
       "step_number": 3,
       "action": "Lower center of gravity",
-      "description": "Drop your hips downward toward the mat while maintaining upright posture in your upper body. This lowering creates a more stable pyramid structure where force vectors must travel through a lower, more stable center of mass.",
-      "timing": "0.3-0.5 seconds after initial spread"
+      "description": "Drop your hips downward toward the mat while maintaining upright posture in your upper body. This lowering creates a more stable pyramid structure where force vectors must travel through a lower, more stable center of mass."
     },
     {
       "step_number": 4,
       "action": "Adjust weight distribution",
-      "description": "Actively shift your weight to distribute evenly across both legs and any hand posts. Avoid loading all weight on one side, as this creates an easy vector for your opponent to attack. Feel equal pressure through both legs and adjust micro-movements to maintain balance.",
-      "timing": "Continuous adjustment throughout the technique"
+      "description": "Actively shift your weight to distribute evenly across both legs and any hand posts. Avoid loading all weight on one side, as this creates an easy vector for your opponent to attack. Feel equal pressure through both legs and adjust micro-movements to maintain balance."
     },
     {
       "step_number": 5,
       "action": "Post hands strategically",
-      "description": "If in a position where hand posting is available, place one or both hands on the mat or your opponent's body to create additional points of contact. These posts serve as supplementary base points that further increase your stability triangle.",
-      "timing": "Within 0.5 seconds of lowering hips"
+      "description": "If in a position where hand posting is available, place one or both hands on the mat or your opponent's body to create additional points of contact. These posts serve as supplementary base points that further increase your stability triangle."
     },
     {
       "step_number": 6,
       "action": "Position head correctly",
-      "description": "Keep your head over your center of mass or slightly forward. Avoid letting your head drift too far back or to the side, as your head represents significant weight that can be used to create leverage against you.",
-      "timing": "Maintain throughout entire defensive sequence"
+      "description": "Keep your head over your center of mass or slightly forward. Avoid letting your head drift too far back or to the side, as your head represents significant weight that can be used to create leverage against you."
     },
     {
       "step_number": 7,
       "action": "Prepare counter-movement",
-      "description": "Once base is stabilized, immediately begin planning your next move - whether that's improving position, escaping, or launching a counter-attack. Base widening is a temporary defensive measure, not a final position.",
-      "timing": "1-2 seconds after achieving stable base"
+      "description": "Once base is stabilized, immediately begin planning your next move - whether that's improving position, escaping, or launching a counter-attack. Base widening is a temporary defensive measure, not a final position."
     }
   ],
   "common_counters": [
@@ -134,38 +122,32 @@
     {
       "phase": "Week 1-2: Fundamental Recognition",
       "focus": "Developing threat recognition and basic execution",
-      "description": "Partner applies slow, telegraphed sweep attempts from various positions while you practice identifying the threat and executing base widening. Focus on the feeling of stability versus instability.",
-      "resistance_level": "None"
+      "description": "Partner applies slow, telegraphed sweep attempts from various positions while you practice identifying the threat and executing base widening. Focus on the feeling of stability versus instability."
     },
     {
       "phase": "Week 3-4: Timing Development",
       "focus": "Reducing reaction time and improving coordination",
-      "description": "Partner increases speed of sweep attempts. Practice widening base at the earliest possible moment - ideally before the sweep motion begins. Work on simultaneous leg spreading and hip lowering.",
-      "resistance_level": "Light"
+      "description": "Partner increases speed of sweep attempts. Practice widening base at the earliest possible moment - ideally before the sweep motion begins. Work on simultaneous leg spreading and hip lowering."
     },
     {
       "phase": "Week 5-8: Dynamic Application",
       "focus": "Maintaining base during continuous pressure and movement",
-      "description": "Partner applies sustained pressure from multiple angles, forcing you to continuously adjust your base. Practice small shuffle steps to reorient while maintaining width and low center of gravity.",
-      "resistance_level": "Medium"
+      "description": "Partner applies sustained pressure from multiple angles, forcing you to continuously adjust your base. Practice small shuffle steps to reorient while maintaining width and low center of gravity."
     },
     {
       "phase": "Week 9-12: Integration with Transitions",
       "focus": "Using base widening as a bridge to better positions",
-      "description": "After successfully defending with base widening, immediately transition to improved positions or submissions. Practice the full sequence: defend, stabilize, counter-attack.",
-      "resistance_level": "Medium"
+      "description": "After successfully defending with base widening, immediately transition to improved positions or submissions. Practice the full sequence: defend, stabilize, counter-attack."
     },
     {
       "phase": "Week 13+: Competition Pressure",
       "focus": "Base widening under explosive, unpredictable attacks",
-      "description": "Partner uses full-speed, high-intensity sweep attempts with feints and combinations. You must identify and defend real threats while avoiding over-committing to feints.",
-      "resistance_level": "Full"
+      "description": "Partner uses full-speed, high-intensity sweep attempts with feints and combinations. You must identify and defend real threats while avoiding over-committing to feints."
     },
     {
       "phase": "Ongoing: Positional Specialization",
       "focus": "Applying base widening principles to specific positions",
-      "description": "Dedicated training for base widening from guard passing positions, turtle defense, scrambles, and standing situations. Each position has unique spatial constraints that modify the technique.",
-      "resistance_level": "Full"
+      "description": "Dedicated training for base widening from guard passing positions, turtle defense, scrambles, and standing situations. Each position has unique spatial constraints that modify the technique."
     }
   ],
   "variants_and_adaptations": [
@@ -193,33 +175,27 @@
   "knowledge_assessment": [
     {
       "question": "Why does widening your base increase stability, and what physical principle makes this effective?",
-      "answer": "Widening your base increases stability because it expands the area of your base of support, which is the polygon formed by your contact points with the ground. According to physics principles of leverage and torque, the farther apart your support points are, the more force is required to tip you over because the opponent must create enough torque to overcome the increased moment arm. Additionally, a wider base lowers your center of gravity relative to your base width, creating a more favorable ratio that resists tipping forces.",
-      "difficulty": "Intermediate"
+      "answer": "Widening your base increases stability because it expands the area of your base of support, which is the polygon formed by your contact points with the ground. According to physics principles of leverage and torque, the farther apart your support points are, the more force is required to tip you over because the opponent must create enough torque to overcome the increased moment arm. Additionally, a wider base lowers your center of gravity relative to your base width, creating a more favorable ratio that resists tipping forces."
     },
     {
       "question": "When should you NOT use base widening as a defensive strategy?",
-      "answer": "Base widening should be avoided when mobility and distance creation are more important than stability. For example, when trapped under side control or mount, widening your base actually makes it harder to escape because you need to create space and movement, not stability. Similarly, when facing leg lock attacks, widening your base can expose your legs to further entanglement. In these situations, creating distance, elevating hips, or completely changing positions is more effective than trying to establish a stable base.",
-      "difficulty": "Advanced"
+      "answer": "Base widening should be avoided when mobility and distance creation are more important than stability. For example, when trapped under side control or mount, widening your base actually makes it harder to escape because you need to create space and movement, not stability. Similarly, when facing leg lock attacks, widening your base can expose your legs to further entanglement. In these situations, creating distance, elevating hips, or completely changing positions is more effective than trying to establish a stable base."
     },
     {
       "question": "How does base widening differ between gi and no-gi grappling?",
-      "answer": "In gi grappling, base widening must account for the opponent's ability to use strong grips on your collar and sleeves, which can create leverage points that work around your base. The gi allows opponents to maintain control even when you establish a wide base, so grip breaking must be integrated with base widening. In no-gi, the lack of grips means base widening is more immediately effective, but opponents can more easily change angles and attack different vectors since they're not committed to specific grips. No-gi base widening often needs to be more dynamic and mobile.",
-      "difficulty": "Intermediate"
+      "answer": "In gi grappling, base widening must account for the opponent's ability to use strong grips on your collar and sleeves, which can create leverage points that work around your base. The gi allows opponents to maintain control even when you establish a wide base, so grip breaking must be integrated with base widening. In no-gi, the lack of grips means base widening is more immediately effective, but opponents can more easily change angles and attack different vectors since they're not committed to specific grips. No-gi base widening often needs to be more dynamic and mobile."
     },
     {
       "question": "What is the relationship between base widening and weight distribution, and why does this matter?",
-      "answer": "Base widening creates multiple support points, but effectiveness depends entirely on proper weight distribution across those points. If you widen your base but load most of your weight on one leg, you've actually created a vulnerability - the opponent can attack the weighted leg knowing you can't quickly shift weight away. Optimal base widening requires constantly adjusting weight distribution to maintain roughly equal loading across support points, or intentionally shifting weight to facilitate movements. This dynamic weight management is what separates effective base widening from merely spreading your legs wider.",
-      "difficulty": "Advanced"
+      "answer": "Base widening creates multiple support points, but effectiveness depends entirely on proper weight distribution across those points. If you widen your base but load most of your weight on one leg, you've actually created a vulnerability - the opponent can attack the weighted leg knowing you can't quickly shift weight away. Optimal base widening requires constantly adjusting weight distribution to maintain roughly equal loading across support points, or intentionally shifting weight to facilitate movements. This dynamic weight management is what separates effective base widening from merely spreading your legs wider."
     },
     {
       "question": "How should beginners practice recognizing when base widening is needed?",
-      "answer": "Beginners should focus on identifying three key indicators: pulling or pushing pressure on their upper body, attempts to control or move their hips, and loss of contact points with the ground. Practice with a cooperative partner who clearly telegraphs these actions, then gradually increase speed and subtlety. The goal is to develop proprioceptive awareness - feeling when your center of gravity is moving outside your base before you've actually lost balance. Start in static positions, then progress to dynamic situations where you're already moving when the threat occurs.",
-      "difficulty": "Beginner"
+      "answer": "Beginners should focus on identifying three key indicators: pulling or pushing pressure on their upper body, attempts to control or move their hips, and loss of contact points with the ground. Practice with a cooperative partner who clearly telegraphs these actions, then gradually increase speed and subtlety. The goal is to develop proprioceptive awareness - feeling when your center of gravity is moving outside your base before you've actually lost balance. Start in static positions, then progress to dynamic situations where you're already moving when the threat occurs."
     },
     {
       "question": "What role does flexibility play in effective base widening?",
-      "answer": "Flexibility, particularly in the hips and adductors, directly determines how wide you can spread your base and how low you can drop your hips while maintaining that width. Limited flexibility forces you to choose between width and depth - you can spread wide OR drop low, but not both simultaneously. This compromises the effectiveness of the technique. Adequate flexibility allows you to achieve a low, wide stance that creates maximum stability. Additionally, tight hips can cause compensatory movements in the lower back that compromise posture and create new vulnerabilities. Regular hip flexibility training is essential for optimizing base widening mechanics.",
-      "difficulty": "Intermediate"
+      "answer": "Flexibility, particularly in the hips and adductors, directly determines how wide you can spread your base and how low you can drop your hips while maintaining that width. Limited flexibility forces you to choose between width and depth - you can spread wide OR drop low, but not both simultaneously. This compromises the effectiveness of the technique. Adequate flexibility allows you to achieve a low, wide stance that creates maximum stability. Additionally, tight hips can cause compensatory movements in the lower back that compromise posture and create new vulnerabilities. Regular hip flexibility training is essential for optimizing base widening mechanics."
     }
   ],
   "safety_considerations": "Base widening is generally one of the safest defensive techniques in BJJ, but practitioners should be aware of several considerations. Avoid explosively dropping into an extremely wide stance without proper warm-up, as this can strain the adductor muscles or groin area, particularly if you lack flexibility. When widening base on hard surfaces during drilling, be mindful of knee positioning - knees should track over toes to avoid medial or lateral stress on the knee joint. If you have existing knee injuries, consult with your instructor about modified stances that provide stability without aggravating your condition. During live training, be aware that rapidly widening your base can inadvertently create space for your opponent to attack your legs with leg locks or foot sweeps - maintain awareness of leg positioning. When practicing with less experienced partners, ensure they understand that base widening is a defensive technique, not an invitation to increase force to overcome your defense.",
@@ -291,5 +267,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 85
 }

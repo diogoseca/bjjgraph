@@ -351,11 +351,11 @@ Partner in mount, bottom practitioner practices explosive bridges with proper sa
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 70% | 60% |
-| Intermediate | 40% | 50% | 35% |
-| Advanced     | 65% | 25% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 38% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 45-90 seconds before escape or submission at intermediate level
 

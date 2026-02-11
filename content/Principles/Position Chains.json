@@ -68,9 +68,9 @@
       "description": "Understanding relative value of positions is essential foundation for constructing effective chains, as chains must progress toward increasingly dominant positions to be strategically sound."
     },
     {
-      "principle_name": "Position Transitions",
+      "principle_name": "Transition Sequences",
       "relationship_type": "Prerequisite",
-      "description": "Technical proficiency in individual transitions forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence."
+      "description": "Technical proficiency in linking individual transitions into sequences forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence."
     },
     {
       "principle_name": "Submission Chains",
@@ -335,9 +335,9 @@
       "relationship": "Essential prerequisite understanding relative position values that determines which chains represent genuine advancement versus lateral movements"
     },
     {
-      "name": "Position Transitions",
+      "name": "Transition Sequences",
       "content_type": "Principle",
-      "relationship": "Foundational technical elements that form building blocks of chains, with reliable transitions enabling construction of high-percentage sequences"
+      "relationship": "Foundational sequencing concepts that form building blocks of chains, with reliable transition sequences enabling construction of high-percentage positional progressions"
     },
     {
       "name": "Submission Chains",

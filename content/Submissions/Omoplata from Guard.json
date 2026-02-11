@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's rotator cuff and shoulder joint through hip extension and shoulder rotation. This submission originated from Brazilian Jiu-Jitsu's guard-playing traditions and has evolved into a central hub technique that connects sweeps, back takes, and other submissions. The Omoplata creates a mechanical advantage by using the legs to control the opponent's arm while the hips generate rotational pressure on the shoulder. Unlike many submissions that finish quickly, the Omoplata is often used as a position to create movement and opportunity - sweeps when opponent defends by rolling, back takes when they turn away, or transitions to triangles and armbars when they posture. The technique requires excellent hip mobility, timing, and understanding of how to maintain control throughout the finish. As a fundamental guard submission, the Omoplata teaches important principles about using legs for control, creating angles, and maintaining offensive pressure from bottom positions.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,50 +83,43 @@
       "step_number": 1,
       "action": "Establish initial control and break posture",
       "description": "From closed guard or open guard, secure a same-side sleeve grip (right hand to opponent's right wrist) and use your legs or opposite hand to break their posture forward. Pull their head down or use your legs to prevent them from sitting back. The goal is to get their weight forward and their arm isolated.",
-      "timing": "2-3 seconds to establish solid control",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds to establish solid control"
     },
     {
       "step_number": 2,
       "action": "Swim arm under for overhook control",
       "description": "Release or adjust your gripping hand and swim your same-side arm underneath their controlled arm to establish a deep overhook. Your armpit should be tight to their tricep with your hand reaching toward their opposite lat or belt. This overhook prevents them from extracting their arm during the leg swing.",
-      "timing": "1-2 seconds, must be quick before they posture",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds, must be quick before they posture"
     },
     {
       "step_number": 3,
       "action": "Create angle and swing leg over shoulder",
       "description": "Shift your hips significantly to the side opposite the controlled arm (if controlling their right arm, shift hips to your left). Open your guard and swing your same-side leg (right leg for right-side Omoplata) over their shoulder and neck, with your calf landing across their upper back. Keep your overhook tight as you swing to prevent arm extraction.",
-      "timing": "One fluid motion, 2-3 seconds",
-      "pressure_level": "Light"
+      "timing": "One fluid motion, 2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Establish leg triangle and hip connection",
       "description": "Bring your opposite leg (left leg for right-side Omoplata) up and triangle your legs by placing your left ankle behind your right knee or by crossing your feet. Simultaneously, ensure your hips are tight to their back with no space. This connection prevents them from rolling forward to escape and creates the control frame for finishing.",
-      "timing": "2-3 seconds to secure triangle",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds to secure triangle"
     },
     {
       "step_number": 5,
       "action": "Adjust base and sit up for finishing position",
       "description": "Post your far hand on the mat for base and sit up perpendicular to your opponent. Walk your hips closer to their back if needed. Your leg over their shoulder should maintain downward pressure while your hips stay glued to their back. Break their opposite arm grip on the mat if they're posting, or control their far hip to prevent rolling.",
-      "timing": "3-4 seconds to establish stable position",
-      "pressure_level": "Moderate"
+      "timing": "3-4 seconds to establish stable position"
     },
     {
       "step_number": 6,
       "action": "Extend hips forward to apply shoulder lock",
       "description": "With your base established and hips connected to their back, slowly extend your hips forward (not upward) while maintaining the leg triangle. This creates external rotation and extension pressure on their shoulder joint. The finish is progressive - extend only until you feel resistance, then pause for the tap. Keep their arm trapped with your leg controlling above the elbow.",
-      "timing": "3-5 seconds SLOW progressive pressure",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds SLOW progressive pressure"
     },
     {
       "step_number": 7,
       "action": "Control far arm and prevent escape adjustments",
       "description": "Throughout the finish, use your free hand to control their far arm at the wrist or grabbing their belt/pants at the far hip. This prevents them from posting or rolling forward to escape. If they attempt to roll, you can ride the roll to sweep to mount or take their back. Maintain constant connection between your hips and their back.",
-      "timing": "Continuous throughout finish",
-      "pressure_level": "Moderate"
+      "timing": "Continuous throughout finish"
     }
   ],
   "opponent_defense_patterns": [
@@ -165,44 +153,37 @@
     {
       "error": "Attempting to finish by lifting hips upward instead of extending forward",
       "consequence": "This reduces pressure on the shoulder, allows opponent to roll or escape, and can hyperextend your own lower back",
-      "correction": "Focus on pushing your hips horizontally toward opponent's head while keeping your chest low. Think of extending through them rather than lifting above them. Your hips should move in the same direction as their arm.",
-      "danger_level": "Low"
+      "correction": "Focus on pushing your hips horizontally toward opponent's head while keeping your chest low. Think of extending through them rather than lifting above them. Your hips should move in the same direction as their arm."
     },
     {
       "error": "Failing to establish hip connection to opponent's back before attempting finish",
       "consequence": "Opponent easily rolls forward to escape, and you lose position without securing sweep or submission",
-      "correction": "Before extending hips, ensure your glutes and lower back are flush against their back with zero space. Walk your hips closer if needed. This connection is mandatory for both finishing and preventing the roll escape.",
-      "danger_level": "Low"
+      "correction": "Before extending hips, ensure your glutes and lower back are flush against their back with zero space. Walk your hips closer if needed. This connection is mandatory for both finishing and preventing the roll escape."
     },
     {
       "error": "Not controlling opponent's far arm during the finish sequence",
       "consequence": "They post their hand and create base, preventing the finish and potentially escaping by standing or rolling backward",
-      "correction": "Your free hand must actively control their far wrist, grab their far hip, or control their belt throughout the finish. Never allow both their arms to be free to post. This control is what prevents their escape options.",
-      "danger_level": "Low"
+      "correction": "Your free hand must actively control their far wrist, grab their far hip, or control their belt throughout the finish. Never allow both their arms to be free to post. This control is what prevents their escape options."
     },
     {
       "error": "Losing the overhook grip during leg swing, allowing arm extraction",
       "consequence": "Opponent pulls their arm free before position is established, escaping the submission entirely and often passing your guard",
-      "correction": "Maintain tight overhook with your armpit sealed to their tricep throughout the entire leg swing. Only release the overhook once your leg triangle is fully locked and their arm is secured. The overhook is your insurance during the transition.",
-      "danger_level": "Medium"
+      "correction": "Maintain tight overhook with your armpit sealed to their tricep throughout the entire leg swing. Only release the overhook once your leg triangle is fully locked and their arm is secured. The overhook is your insurance during the transition."
     },
     {
       "error": "Swinging leg too high over opponent's head instead of across shoulder",
       "consequence": "You lose balance, cannot establish proper angle, and your leg position is too high to create effective shoulder pressure",
-      "correction": "Your leg should swing over the meat of their shoulder with your calf across their upper back, not over their head. The contact point is their shoulder, not their neck. This lower position gives you better leverage and control.",
-      "danger_level": "Low"
+      "correction": "Your leg should swing over the meat of their shoulder with your calf across their upper back, not over their head. The contact point is their shoulder, not their neck. This lower position gives you better leverage and control."
     },
     {
       "error": "Applying explosive or jerking motion during the finish in training",
       "consequence": "SEVERE RISK: Immediate rotator cuff tear, shoulder dislocation, or labrum damage without warning",
-      "correction": "CRITICAL SAFETY: Apply pressure slowly over 3-5 seconds minimum. Extend hips in smooth, controlled motion and stop immediately at first resistance. In training, apply only enough pressure for partner to recognize the position - never finish fully. Competition finishing speed is never appropriate for training.",
-      "danger_level": "CRITICAL"
+      "correction": "CRITICAL SAFETY: Apply pressure slowly over 3-5 seconds minimum. Extend hips in smooth, controlled motion and stop immediately at first resistance. In training, apply only enough pressure for partner to recognize the position - never finish fully. Competition finishing speed is never appropriate for training."
     },
     {
       "error": "Not recognizing opponent's defensive roll and attempting to force finish",
       "consequence": "Missing the sweep opportunity and potentially allowing opponent to escape back to guard or gain top position",
-      "correction": "When you feel opponent's weight shifting forward to roll, immediately ride the motion while maintaining your leg triangle. Let them roll and follow to mount or back position. The Omoplata sweep is often higher percentage than the submission finish.",
-      "danger_level": "Low"
+      "correction": "When you feel opponent's weight shifting forward to roll, immediately ride the motion while maintaining your leg triangle. Let them roll and follow to mount or back position. The Omoplata sweep is often higher percentage than the submission finish."
     }
   ],
   "variations_and_setups": [
@@ -294,50 +275,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Entry Mechanics",
-      "timeframe": "Weeks 1-2, 10-15 repetitions per session",
-      "focus": "Learn the entry mechanics, leg swing technique, and establishing the position without applying any finishing pressure. Partner remains stationary with zero resistance. Focus on hip angle creation, overhook maintenance, and leg triangle formation.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner should allow complete position establishment. No finishing pressure whatsoever - stop once leg triangle is secured. Focus entirely on movement quality and understanding control points. This phase builds muscle memory for safe entry mechanics."
-    },
-    {
-      "phase": "Position Maintenance and Control Development",
-      "timeframe": "Weeks 3-4, 8-12 repetitions per session",
-      "focus": "Develop ability to maintain established Omoplata position while partner attempts gentle positional escapes (not explosive). Practice maintaining hip connection, leg triangle, and far-side control. No finishing pressure - focus is purely on control.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner uses slow, controlled escape attempts at 30-40% intensity. Still no finishing pressure - position maintenance only. If you lose position, restart from guard. This phase teaches position integrity without injury risk."
-    },
-    {
-      "phase": "Sweep Recognition and Transition Practice",
-      "timeframe": "Weeks 5-6, 6-10 repetitions per session",
-      "focus": "Learn to recognize and capitalize on opponent's defensive reactions. Practice riding the forward roll to mount, transitioning to back when they turn, and switching to triangle when they stack. These transitions are the primary value of the Omoplata.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner gives realistic defensive reactions so you learn to recognize the transitions. No finishing pressure on shoulders - all work is on sweeps and position changes. This phase emphasizes that Omoplata success doesn't require finishing the submission."
-    },
-    {
-      "phase": "Controlled Pressure Introduction",
-      "timeframe": "Weeks 7-9, 5-8 repetitions per session",
-      "focus": "Begin introducing very light finishing pressure - extend hips slowly over 5+ seconds and stop at first hint of resistance. Partner taps early and verbally communicates when they feel pressure beginning. Develop feel for the submission mechanics at minimal intensity.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "CRITICAL PHASE: This is where injuries occur if rushed. Apply pressure extremely slowly - count to 5 minimum. Partner must tap early and practitioner must stop instantly. Never extend hips past initial resistance. Build trust and safety habits that will last your entire career."
-    },
-    {
-      "phase": "Positional Sparring Integration",
-      "timeframe": "Weeks 10-14, 4-6 repetitions per session",
-      "focus": "Integrate Omoplata into guard-playing positional sparring. Start from guard with goal of establishing Omoplata position against realistic resistance. Emphasis remains on sweeps and transitions rather than finishing the submission. Build the technique into your guard game.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner resists entry and position but allows control once established. If applying finishing pressure, use only light pressure for positional acknowledgment. Most finishes should be sweeps or back takes, not shoulder locks. Maintain training safety standards even in competitive positional sparring."
-    },
-    {
-      "phase": "Advanced Application and Live Rolling",
-      "timeframe": "Month 4+, frequency based on opportunities",
-      "focus": "Apply Omoplata organically during live rolling, utilizing entries from various guards and recognizing setup opportunities. Finish primarily through sweeps and transitions. Only apply shoulder pressure on partners with whom you have established trust and clear communication.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain training standards permanently: slow application (3-5 seconds minimum), stop at light pressure, prioritize sweeps over submission finishes. Reserve full finishing pressure exclusively for competition. Communicate with all partners about shoulder health and injury history before attempting Omoplatas. Advanced practitioners have responsibility to protect training partners."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Open Guard",
@@ -409,5 +346,6 @@
       "name": "Mount",
       "relationship": "Sweep destination when opponent rolls forward to escape"
     }
-  ]
+  ],
+  "success_rate": 60
 }

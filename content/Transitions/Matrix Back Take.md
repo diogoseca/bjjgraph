@@ -163,7 +163,7 @@ This technique requires excellent body awareness, timing, and the ability to rea
 The Matrix Back Take has become increasingly popular in modern no-gi grappling, where traditional gi-based controls are unavailable. It represents a sophisticated understanding of positional transitions and demonstrates the importance of movement quality over static pressure. This technique is commonly seen in high-level competition and is a staple in many contemporary back attack systems.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -212,13 +212,13 @@ The Matrix Back Take has become increasingly popular in modern no-gi grappling, 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish initial control from turtle top**: Begin from a strong turtle top position with your chest heavy on the opponent's upper back. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Your weight should be distributed to prevent the opponent from sitting back or turning into you, while your knees maintain a wide base for stability. (Timing: Establish solid control before beginning the transition)
-2. **Create angle and insert near-side arm**: Begin to circle your body toward the opponent's far side while maintaining pressure on their upper back. As you create this angle, thread your near-side arm deep under the opponent's near-side armpit, reaching toward their far-side shoulder. This arm should be inserted deeply enough that your shoulder is pressed against their ribs, creating a strong connection point. (Timing: Coordinate angle creation with arm insertion in one smooth motion)
-3. **Step near-side leg through**: With your near-side arm deeply inserted, swing your near-side leg through the space between the opponent's elbow and knee on the near side. Your foot should end up on the mat near the opponent's far-side hip, with your knee maintaining connection to their near-side hip. This creates the beginning of the 'matrix' position where your body is perpendicular to the opponent's torso. (Timing: Execute leg insertion while opponent is still processing arm control)
-4. **Slide hips under opponent's center line**: Now perform the signature 'matrix' movement by sliding your hips underneath the opponent's center of gravity while maintaining your arm and leg connections. Your back may briefly contact the mat as you slide through, resembling the backward lean from the movie Matrix. Keep your head and shoulders elevated to maintain pressure on the opponent's upper body. (Timing: Smooth, continuous slide without pausing mid-transition)
-5. **Establish bottom hook**: As you emerge on the opponent's far side with your hips underneath them, immediately insert your far-side leg as a bottom hook, curling it around the opponent's near-side thigh. This hook should be deep, with your heel pulling toward the opponent's groin area. The bottom hook is critical for preventing the opponent from turning into you or recovering guard. (Timing: Insert bottom hook immediately upon reaching the far side)
-6. **Secure top hook and seatbelt control**: With the bottom hook established, bring your near-side leg over the opponent's far-side hip to establish the top hook. Simultaneously, adjust your arm position to achieve seatbelt control, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together on their chest. Apply back pressure by pulling with your hooks and squeezing your knees together. (Timing: Establish both hooks before opponent realizes they've lost the position)
-7. **Flatten opponent and consolidate back control**: Once both hooks are established with seatbelt control, work to flatten the opponent by pulling them backward with your hooks while driving your chest into their upper back. Break down their turtle structure completely and transition them to a fully supine position where you have dominant back control. Adjust your hooks as needed to maintain control and begin attacking for submissions. (Timing: Gradual pressure to break down structure without losing hooks)
+1. **Establish initial control from turtle top**: Begin from a strong turtle top position with your chest heavy on the opponent's upper back. Secure a grip on the far-side hip with your far hand and control the near-side shoulder or lat with your near hand. Your weight should be distributed to prevent the opponent from sitting back or turning into you, while your knees maintain a wide base for stability.
+2. **Create angle and insert near-side arm**: Begin to circle your body toward the opponent's far side while maintaining pressure on their upper back. As you create this angle, thread your near-side arm deep under the opponent's near-side armpit, reaching toward their far-side shoulder. This arm should be inserted deeply enough that your shoulder is pressed against their ribs, creating a strong connection point.
+3. **Step near-side leg through**: With your near-side arm deeply inserted, swing your near-side leg through the space between the opponent's elbow and knee on the near side. Your foot should end up on the mat near the opponent's far-side hip, with your knee maintaining connection to their near-side hip. This creates the beginning of the 'matrix' position where your body is perpendicular to the opponent's torso.
+4. **Slide hips under opponent's center line**: Now perform the signature 'matrix' movement by sliding your hips underneath the opponent's center of gravity while maintaining your arm and leg connections. Your back may briefly contact the mat as you slide through, resembling the backward lean from the movie Matrix. Keep your head and shoulders elevated to maintain pressure on the opponent's upper body.
+5. **Establish bottom hook**: As you emerge on the opponent's far side with your hips underneath them, immediately insert your far-side leg as a bottom hook, curling it around the opponent's near-side thigh. This hook should be deep, with your heel pulling toward the opponent's groin area. The bottom hook is critical for preventing the opponent from turning into you or recovering guard.
+6. **Secure top hook and seatbelt control**: With the bottom hook established, bring your near-side leg over the opponent's far-side hip to establish the top hook. Simultaneously, adjust your arm position to achieve seatbelt control, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together on their chest. Apply back pressure by pulling with your hooks and squeezing your knees together.
+7. **Flatten opponent and consolidate back control**: Once both hooks are established with seatbelt control, work to flatten the opponent by pulling them backward with your hooks while driving your chest into their upper back. Break down their turtle structure completely and transition them to a fully supine position where you have dominant back control. Adjust your hooks as needed to maintain control and begin attacking for submissions.
 
 
 </section>
@@ -261,23 +261,18 @@ The Matrix Back Take has become increasingly popular in modern no-gi grappling, 
 ## Training Progressions
 **Week 1-2: Isolated Movement Drilling** - Master the matrix slide movement pattern without resistance
 Practice the hip slide motion in isolation, focusing on smooth weight transfer and maintaining connection points. Partner remains stationary in turtle while you drill the movement of inserting your arm, stepping the leg through, and sliding your hips underneath. Emphasis should be on developing the motor pattern and body awareness.
-(Resistance: None)
 
 **Week 3-4: Progressive Resistance** - Execute the technique against light defensive movement
 Partner begins adding realistic defensive posture in turtle, maintaining base and protecting their neck, but not actively countering your entries. Work on reading their body position and timing your entries appropriately. Focus on maintaining connection throughout the transition even as they shift their weight.
-(Resistance: Light)
 
 **Week 5-8: Active Defense Integration** - Successfully complete the technique against common counters
 Partner now actively defends using the common counters outlined above, forcing you to problem-solve in real-time. Practice recognizing which counter they're employing and implementing the appropriate response. Begin chaining the matrix back take with alternative entries and transitions.
-(Resistance: Medium)
 
 **Week 9-12: Competition Simulation** - Apply technique in live positional sparring from turtle
 Integrate the matrix back take into live positional sparring sessions starting from turtle top position. Partner uses full resistance and all available defensive options. Focus on recognizing the optimal moments to attempt the technique and developing backup options when it's not available. Begin tracking success rates and identifying personal sticking points.
-(Resistance: Full)
 
 **Week 13+: System Integration and Refinement** - Seamlessly integrate into complete back attack system
 Work on flowing between the matrix back take and other back take options from turtle, creating a comprehensive turtle top system. Develop the ability to chain multiple attempts together and capitalize on defensive reactions. Continue refining technique details based on video review and sparring feedback.
-(Resistance: Full)
 
 
 

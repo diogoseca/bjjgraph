@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (specifically rotator cuff)",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Americana from Side Control is one of the most fundamental shoulder lock submissions in Brazilian Jiu-Jitsu, representing a cornerstone technique for controlling and finishing opponents from top positions. This submission attacks the shoulder joint through external rotation, creating tremendous pressure on the rotator cuff and surrounding ligaments when applied correctly. The technique's effectiveness stems from the superior control afforded by side control, where the practitioner can isolate the opponent's arm while maintaining heavy pressure and preventing escape.\n\nHistorically known as the \"key lock\" or \"bent armlock,\" the Americana earned its name from its prevalence in American catch wrestling before being integrated into Brazilian Jiu-Jitsu. From side control, the submission is particularly high-percentage because the top player can use their entire body weight to control the opponent's torso while simultaneously attacking the isolated arm. The position allows for excellent control of the opponent's hips and shoulders, making defensive movements extremely difficult once the lock is properly secured.\n\nThe Americana from Side Control exemplifies the principle of positional dominance before submission, as proper side control maintenance is essential for successful execution. The technique serves as both a finishing mechanism and a powerful tool for advancing position, as opponents often expose their backs or give up mount while defending the lock. Understanding this submission provides practitioners with a reliable pathway from control to finish while maintaining dominant position throughout the sequence.",
   "safety_considerations": {
     "injury_risks": [
@@ -98,43 +93,37 @@
       "step_number": 1,
       "action": "Establish Side Control Foundation",
       "description": "Secure dominant side control position with your chest driving across the opponent's sternum. Your head should be positioned on the far side with heavy cross-face pressure. Your hips should be low and tight to their body, preventing space for escape. Distribute your weight so that approximately 70% is on their chest and 30% on your base.",
-      "timing": "Maintain for 2-3 seconds to ensure stability",
-      "pressure_level": "Firm"
+      "timing": "Maintain for 2-3 seconds to ensure stability"
     },
     {
       "step_number": 2,
       "action": "Bait and Isolate the Near Arm",
       "description": "Create a reaction by increasing pressure or threatening to advance to mount. When the opponent frames with their near arm (pushing against your shoulder or hip), this is your opportunity. Alternatively, if their arm is already positioned defensively near their body, slide your near-side hand underneath their elbow to begin isolation.",
-      "timing": "React immediately when arm extends or moves",
-      "pressure_level": "Moderate"
+      "timing": "React immediately when arm extends or moves"
     },
     {
       "step_number": 3,
       "action": "Secure Wrist and Elbow Control",
       "description": "Grip the opponent's wrist with your near-side hand using a palm-to-palm grip, with your thumb positioned on the back of their hand. Simultaneously bring your far-side arm over their arm and grip your own wrist, creating a figure-four configuration. Your forearm should slide under their elbow, capturing it securely. The opponent's elbow should now be trapped between your two arms.",
-      "timing": "Complete the grip connection within 1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "Complete the grip connection within 1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Create the 90-Degree Configuration",
       "description": "Walk your hands (while maintaining the figure-four grip) toward the opponent's head, bringing their elbow in line with their shoulder. Simultaneously, keep their wrist pinned to the mat near their ribs or slightly above. This creates the critical 90-degree angle between their upper arm and forearm. Their elbow must stay close to their body and in front of their shoulder line.",
-      "timing": "Adjust position over 2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Adjust position over 2-3 seconds"
     },
     {
       "step_number": 5,
       "action": "Drive the Elbow to the Mat",
       "description": "Maintaining the wrist position, use your figure-four grip to drive their elbow down toward the mat. Keep your elbows tight to your body and use your core strength rather than arm strength. The opponent's hand should be moving toward their own hip while their elbow stays near their shoulder. This creates the beginning of external rotation in the shoulder joint.",
-      "timing": "Apply over 2-3 seconds progressively",
-      "pressure_level": "Moderate"
+      "timing": "Apply over 2-3 seconds progressively"
     },
     {
       "step_number": 6,
       "action": "Complete the Shoulder Lock Rotation",
       "description": "Continue rotating the opponent's hand toward their hip while keeping their elbow stationary near their shoulder. The rotation occurs at the shoulder joint through external rotation. Maintain steady, progressive pressure - NEVER jerk or spike the submission. Keep your chest pressure on their torso to prevent them from rolling with the lock. The submission is complete when their hand approaches their hip and the shoulder reaches maximum safe rotation.",
-      "timing": "Apply final pressure over 3-5 seconds minimum, stopping immediately on tap",
-      "pressure_level": "Maximum"
+      "timing": "Apply final pressure over 3-5 seconds minimum, stopping immediately on tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -168,44 +157,37 @@
     {
       "error": "Attempting the submission without first securing dominant side control",
       "consequence": "Opponent easily escapes or reverses position because you lack the necessary control and base",
-      "correction": "Always establish and maintain solid side control for at least 2-3 seconds before attacking the arm. Ensure heavy chest pressure, cross-face control, and hip control are in place.",
-      "danger_level": "Medium"
+      "correction": "Always establish and maintain solid side control for at least 2-3 seconds before attacking the arm. Ensure heavy chest pressure, cross-face control, and hip control are in place."
     },
     {
       "error": "Pulling the wrist away from the opponent's body during rotation",
       "consequence": "This removes pressure from the shoulder joint and allows the opponent to straighten their arm or escape the submission entirely",
-      "correction": "Keep the wrist pinned near their ribs or moving toward their hip. The rotation should occur at the shoulder through the elbow being driven down, not by pulling the wrist outward.",
-      "danger_level": "Low"
+      "correction": "Keep the wrist pinned near their ribs or moving toward their hip. The rotation should occur at the shoulder through the elbow being driven down, not by pulling the wrist outward."
     },
     {
       "error": "Jerking or spiking the submission with sudden force",
       "consequence": "High risk of serious shoulder injury including rotator cuff tears, labral damage, or dislocation",
-      "correction": "Apply all pressure slowly and progressively over 3-5 seconds minimum. The submission should feel like steady, increasing pressure, never a sudden spike. Partner safety is paramount.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply all pressure slowly and progressively over 3-5 seconds minimum. The submission should feel like steady, increasing pressure, never a sudden spike. Partner safety is paramount."
     },
     {
       "error": "Losing the 90-degree angle by allowing the elbow to move away from the shoulder",
       "consequence": "The submission loses effectiveness and the opponent can escape by circling their arm or straightening it completely",
-      "correction": "Constantly monitor that the elbow stays near their shoulder and in front of their shoulder line. The upper arm should remain relatively stationary while only the forearm rotates through the shoulder joint.",
-      "danger_level": "Low"
+      "correction": "Constantly monitor that the elbow stays near their shoulder and in front of their shoulder line. The upper arm should remain relatively stationary while only the forearm rotates through the shoulder joint."
     },
     {
       "error": "Raising your hips or moving your weight backward during the finish",
       "consequence": "Creates space for the opponent to bridge, shrimp, or roll out of position, resulting in loss of control or position reversal",
-      "correction": "Keep your hips low and weight forward throughout the entire submission. Your chest should maintain constant pressure on their sternum even as you rotate their arm.",
-      "danger_level": "Medium"
+      "correction": "Keep your hips low and weight forward throughout the entire submission. Your chest should maintain constant pressure on their sternum even as you rotate their arm."
     },
     {
       "error": "Gripping with finger strength instead of structural positioning",
       "consequence": "Grip fails under pressure, especially against stronger opponents, and you waste energy maintaining inadequate control",
-      "correction": "Use the figure-four grip configuration where your arms create a locked structure. Your bottom arm captures their elbow while your top hand grips your own wrist, creating a frame that doesn't rely on finger strength.",
-      "danger_level": "Low"
+      "correction": "Use the figure-four grip configuration where your arms create a locked structure. Your bottom arm captures their elbow while your top hand grips your own wrist, creating a frame that doesn't rely on finger strength."
     },
     {
       "error": "Continuing to apply pressure after partner taps",
       "consequence": "Serious shoulder injury to partner, violation of training safety, potential legal liability, and loss of training partners",
-      "correction": "Release immediately upon any tap signal - verbal, physical, or distress sound. Practice releasing quickly in drilling so it becomes automatic. Partner safety always supersedes finishing the submission.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately upon any tap signal - verbal, physical, or distress sound. Practice releasing quickly in drilling so it becomes automatic. Partner safety always supersedes finishing the submission."
     }
   ],
   "variations_and_setups": [
@@ -297,50 +279,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding - Positional Control Foundation",
-      "timeframe": "Week 1-2",
-      "focus": "Master side control maintenance and weight distribution before attempting the submission. Practice establishing chest pressure, cross-face control, and hip control. Drill transitions into side control from various positions. Learn to recognize when your side control is secure enough to attack.",
-      "resistance_level": "None",
-      "safety_emphasis": "Partner remains completely still. Focus on feeling what secure side control means. No submission attempts yet - only position holding and control. Practice maintaining position for 30-60 seconds continuously."
-    },
-    {
-      "phase": "Slow Technical Drilling - Grip and Configuration",
-      "timeframe": "Week 3-4",
-      "focus": "Learn the proper grips, arm isolation, and 90-degree configuration. Practice securing the figure-four grip and positioning the opponent's arm correctly. Drill the sequence from side control to grip establishment repeatedly. Focus on precise hand positioning and structural mechanics.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner assists by positioning their arm cooperatively. Apply ZERO pressure to the shoulder - only practice positioning and grip. Repeat 20-30 times per session focusing on technical precision. Verify 90-degree angle each repetition."
-    },
-    {
-      "phase": "Controlled Application - Light Pressure Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Begin applying very light rotational pressure, stopping well before discomfort. Practice the full sequence from side control through submission setup to early finishing pressure. Emphasis on smooth, progressive application over 5-7 seconds minimum. Partner taps early and often to develop release habits.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Apply only 20-30% of finishing pressure. Partner taps at first sign of pressure to train immediate release reflex. Practice releasing quickly and smoothly. Verbalize each step during execution. No strength, only technique."
-    },
-    {
-      "phase": "Live Drilling - Defensive Responses",
-      "timeframe": "Week 9-12",
-      "focus": "Partner begins using realistic defensive movements - grabbing belt, straightening arm, attempting to roll. Practice maintaining control and adjusting technique against movement. Drill counters to common defenses. Continue emphasis on slow, controlled application.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Increase pressure to 40-50% maximum. Partner uses defensive movements but taps early. Practice problem-solving against defenses without rushing or forcing. Reset and restart whenever control is lost rather than muscling through."
-    },
-    {
-      "phase": "Situational Sparring - Position to Submission",
-      "timeframe": "Week 13-16",
-      "focus": "Begin from side control against realistic resistance. Partner attempts genuine escapes and defenses. Practice recognizing opportunities and timing for the Americana attempt. Integrate with other submissions and position advances. Develop submission chains.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Apply progressive pressure but maintain 3-5 second minimum application time. Partner gives realistic resistance but taps at 60-70% of their pain tolerance. Both partners communicate throughout. Focus on control over force."
-    },
-    {
-      "phase": "Free Rolling Integration - Full Speed Application",
-      "timeframe": "Week 17+",
-      "focus": "Integrate the Americana into free rolling from all positions. Combine with positional transitions, submission chains, and strategic application. Recognize when opponents are vulnerable vs. when to abandon the attempt. Develop personal timing and setups.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain progressive application even at full speed - never spike or jerk. Both partners must have established trust and consistent tap discipline. Continue tapping early rather than testing flexibility. Respect that shoulder injuries can be career-ending. Prioritize longevity over tapping training partners."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Kesa Gatame",
@@ -348,7 +286,7 @@
     "Modified Scarf Hold",
     "Scarf Hold Position",
     "North-South",
-    "North South Control",
+    "North-South",
     "Knee on Belly",
     "Side Control Consolidation",
     "Reverse Kesa-Gatame"
@@ -418,5 +356,6 @@
       "name": "Arm Triangle",
       "relationship": "Head and arm choke available when opponent defends Americana incorrectly"
     }
-  ]
+  ],
+  "success_rate": 68
 }

@@ -368,11 +368,11 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 70% | 15% | 5% |
-| Intermediate | 55% | 30% | 10% |
-| Advanced     | 40% | 45% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 48% |
+| Advancement Probability | 38% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds before escape or submission
 

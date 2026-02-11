@@ -163,7 +163,7 @@ The technique exploits a mechanical weakness in the body triangle: the attacker'
 This escape is particularly effective because turtle, while not an ideal position, offers significantly more mobility and escape options than remaining trapped in body triangle. From turtle, you can work toward guard recovery, technical standup, or granby roll sequences. The transition also temporarily removes the neck attack threat, giving you breathing room to reassess and continue your escape sequence.
 
 **From Position**: [[Body Triangle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ This escape is particularly effective because turtle, while not an ideal positio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect neck and assess**: Tuck your chin deep and use one hand to defend against the choking arm. Identify which direction the triangle is locked - note which leg crosses over. Take controlled breaths to stabilize before initiating escape sequence. (Timing: 2-5 seconds for assessment)
-2. **Turn toward triangle leg**: Rotate your shoulders and hips toward the side where the triangle leg crosses over your body. This reduces the squeezing surface area and begins positioning you to attack the lock. Use your elbow to post and create the turning angle. (Timing: As opponent adjusts grips)
-3. **Hip escape to create space**: Execute a hip escape (shrimp) movement to create space between your body and their locked legs. Push your hips away while keeping shoulders turned. The goal is to reduce pressure enough to work on the lock itself. (Timing: Coordinate with their breathing)
-4. **Attack the figure-four lock**: With the space created, use your free hand to push against their ankle or foot that is tucked behind their knee. Push their foot out of the locked position while maintaining your turned angle to prevent them from simply re-squeezing. (Timing: When you feel the lock loosening)
-5. **Insert elbow to prevent re-lock**: As soon as you break the figure-four configuration, immediately insert your elbow or forearm into the space between your body and their legs. This frame prevents them from re-establishing the triangle lock. (Timing: Immediately as lock breaks)
-6. **Continue hip escape to turtle**: With the triangle broken and your frame in place, continue your hip escape movement while rotating your body to face the mat. Bring your knees underneath you to establish turtle position. Keep elbows tight to defend against choke attempts. (Timing: Continuous movement)
-7. **Stabilize turtle position**: Once in turtle, immediately establish defensive posture: knees and elbows tight, chin tucked, hands protecting your collar or neck. Begin planning your next escape sequence - guard recovery, standup, or granby roll. (Timing: Upon reaching turtle)
+1. **Protect neck and assess**: Tuck your chin deep and use one hand to defend against the choking arm. Identify which direction the triangle is locked - note which leg crosses over. Take controlled breaths to stabilize before initiating escape sequence.
+2. **Turn toward triangle leg**: Rotate your shoulders and hips toward the side where the triangle leg crosses over your body. This reduces the squeezing surface area and begins positioning you to attack the lock. Use your elbow to post and create the turning angle.
+3. **Hip escape to create space**: Execute a hip escape (shrimp) movement to create space between your body and their locked legs. Push your hips away while keeping shoulders turned. The goal is to reduce pressure enough to work on the lock itself.
+4. **Attack the figure-four lock**: With the space created, use your free hand to push against their ankle or foot that is tucked behind their knee. Push their foot out of the locked position while maintaining your turned angle to prevent them from simply re-squeezing.
+5. **Insert elbow to prevent re-lock**: As soon as you break the figure-four configuration, immediately insert your elbow or forearm into the space between your body and their legs. This frame prevents them from re-establishing the triangle lock.
+6. **Continue hip escape to turtle**: With the triangle broken and your frame in place, continue your hip escape movement while rotating your body to face the mat. Bring your knees underneath you to establish turtle position. Keep elbows tight to defend against choke attempts.
+7. **Stabilize turtle position**: Once in turtle, immediately establish defensive posture: knees and elbows tight, chin tucked, hands protecting your collar or neck. Begin planning your next escape sequence - guard recovery, standup, or granby roll.
 
 
 </section>
@@ -263,19 +263,15 @@ This escape is particularly effective because turtle, while not an ideal positio
 ## Training Progressions
 **Week 1-2** - Breathing and body positioning
 Partner locks body triangle with light pressure. Practice maintaining calm breathing, identifying triangle orientation, and executing turning movement toward triangle leg. No resistance on escape attempts - focus purely on mechanics and breathing management.
-(Resistance: None)
 
 **Week 3-4** - Lock clearing mechanics
 Partner maintains body triangle with moderate pressure. Practice full escape sequence from assessment through turtle position. Partner allows successful technique but maintains position until proper mechanics are applied. Focus on attacking the figure-four lock correctly.
-(Resistance: Light)
 
 **Week 5-6** - Integrating neck defense
 Partner applies body triangle and occasionally attacks neck to test defensive awareness. Practice alternating between neck defense and triangle clearing. Partner increases resistance and attempts to re-establish lock when broken. Begin chaining multiple escape attempts.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting in body triangle. Partner uses all available attacks and counters. Practice escape under realistic pressure with breathing restriction. Continue into turtle escape sequences upon successful body triangle escape.
-(Resistance: Full)
 
 
 

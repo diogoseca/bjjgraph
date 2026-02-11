@@ -27,31 +27,31 @@ description: "Master Guillotine Control Top position in BJJ. Dominant control wi
     {
       "@type": "HowToStep",
       "name": "Execute High Elbow Guillotine",
-      "text": "From this position, attempt High Elbow Guillotine. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt High Elbow Guillotine. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm in Guillotine",
-      "text": "From this position, attempt Arm in Guillotine. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Arm in Guillotine. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -210,19 +210,21 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 ### [[Guillotine Choke]] (13% of attempts)
 
-### [[High Elbow Guillotine]] (12% of attempts)
+### [[High Elbow Guillotine]] (10% of attempts)
 
-### [[Arm in Guillotine]] (12% of attempts)
+### [[Arm in Guillotine]] (10% of attempts)
 
-### [[Front Headlock to Anaconda]] (11% of attempts)
+### [[Front Headlock to Anaconda]] (10% of attempts)
 
-### [[Front Headlock to Darce]] (11% of attempts)
+### [[Front Headlock to Darce]] (10% of attempts)
 
-### [[Side Control to Mount]] (13% of attempts)
+### [[Side Control to Mount]] (12% of attempts)
 
-### [[Side Control to North-South]] (15% of attempts)
+### [[Side Control to North-South]] (12% of attempts)
 
-### [[Guard Pass]] (13% of attempts)
+### [[Guard Pass]] (12% of attempts)
+
+### [[Guillotine Counter]] (11% of attempts)
 
 
 
@@ -244,7 +246,7 @@ The strategic value of Guillotine Control Top lies in its versatility—the top 
 
 **If opponent turns into you to defend:**
 - Execute **[[Front Headlock to Anaconda]]** → [[Anaconda Control]] (Probability: 65%)
-- Execute **[[Front Headlock to Darce]]** → [[D'arce Control]] (Probability: 63%)
+- Execute **[[Front Headlock to Darce]]** → [[Darce Control]] (Probability: 63%)
 
 
 **If opponent has arm trapped inside the guillotine:**
@@ -385,11 +387,11 @@ Start in guillotine control with partner attempting to close guard, you must mai
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 45% | 40% |
-| Intermediate | 68% | 62% | 60% |
-| Advanced     | 78% | 75% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 73% |
+| Advancement Probability | 68% |
+| Submission Probability | 68% |
 
 **Average Time in Position**: 30-90 seconds
 
@@ -402,7 +404,7 @@ Start in guillotine control with partner attempting to close guard, you must mai
 
 - **[[Front Headlock]]** - Similar position - precursor position before securing guillotine grip
 - **[[Anaconda Control]]** - Transition target - common alternative when guillotine is defended
-- **[[D'arce Control]]** - Transition target - alternative choke when opponent turns into guillotine
+- **[[Darce Control]]** - Transition target - alternative choke when opponent turns into guillotine
 - **[[Mount]]** - Transition target - position advancement using guillotine threat
 - **[[North-South]]** - Transition target - alternative advancement path
 - **[[Guillotine Choke]]** - Primary submission - main finishing technique from this position

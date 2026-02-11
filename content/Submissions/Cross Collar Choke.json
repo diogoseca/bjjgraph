@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Cross Collar Choke represents one of the most fundamental and effective gi submissions in Brazilian Jiu-Jitsu, targeting the carotid arteries through precise collar grip manipulation. This technique leverages the opponent's own gi against them, creating a constriction that cuts blood flow to the brain when executed properly. The cross grip configuration—where your right hand grips their left collar and vice versa—generates tremendous mechanical advantage through the twisting action of your forearms. This submission is particularly valuable because it can be applied from multiple positions, most commonly from closed guard bottom, mount top, and side control. The technique's effectiveness stems from its ability to disguise the setup within normal grip fighting exchanges, making it difficult for opponents to recognize the threat until the choke is already deep. When executed with proper depth and angle, the Cross Collar Choke creates an inescapable situation that forces immediate submission, often within 3-5 seconds of full application. Its versatility across skill levels and positions makes it an essential component of any gi practitioner's submission arsenal.",
   "safety_considerations": {
     "injury_risks": [
@@ -80,43 +75,37 @@
       "step_number": 1,
       "action": "Establish First Deep Grip",
       "description": "Secure your first grip deep in the opponent's collar, driving your hand across their neck with your palm facing you and your knuckles against their carotid artery. Aim for second knuckle depth at minimum, ideally getting your entire hand past the collar seam. The thumb should be inside the collar while four fingers grip outside. This first grip is typically established on the opposite side collar (right hand to their left collar for orthodox grip).",
-      "timing": "Take 2-3 seconds to work the grip deep without rushing",
-      "pressure_level": "Light"
+      "timing": "Take 2-3 seconds to work the grip deep without rushing"
     },
     {
       "step_number": 2,
       "action": "Break Posture and Control Head",
       "description": "Using your first collar grip, pull the opponent's head down toward your chest while simultaneously using your legs (if in guard) or body position (if in mount/top position) to prevent them from creating distance. Breaking their posture is critical because an upright posture gives them defensive leverage and the ability to hand fight effectively. Pull them into a compromised position where their head is lower than their hips.",
-      "timing": "Continuous pressure over 3-5 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Continuous pressure over 3-5 seconds"
     },
     {
       "step_number": 3,
       "action": "Secure Second Cross Collar Grip",
       "description": "While maintaining the first grip and broken posture, snake your second hand underneath their defending arm to grab the opposite collar in a cross configuration. Your second hand should mirror the first—palm facing you, knuckles against their neck, achieving deep penetration. This is often the most technical step because you must thread past their defensive frames without losing the first grip. Use subtle movements and patience to work this grip into position.",
-      "timing": "Take 4-6 seconds to secure properly without forcing",
-      "pressure_level": "Light"
+      "timing": "Take 4-6 seconds to secure properly without forcing"
     },
     {
       "step_number": 4,
       "action": "Adjust Hand Position for Optimal Choking Angle",
       "description": "With both grips established, make micro-adjustments to ensure your knuckles are positioned directly against the sides of their neck where the carotid arteries run. Your thumbs should be inside the collar pointing down toward their chest, and your knuckles should form a 'V' shape pointing toward their neck. The blade edge of your wrists (pinky side) should be what creates the primary choking pressure. Ensure you're attacking the arteries, not the trachea.",
-      "timing": "1-2 seconds for final positioning",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds for final positioning"
     },
     {
       "step_number": 5,
       "action": "Execute Scissoring Finish",
       "description": "Drive your elbows outward and downward while simultaneously pulling your hands in opposite directions—one hand pulls toward your same-side shoulder while the other pulls toward the opposite shoulder. This scissoring action creates the compression on both carotid arteries. The key is not pulling straight back, but creating a rotational torque through your forearms. Your chest should drive forward as your hands pull apart, creating maximum pressure through the collar fabric against their neck.",
-      "timing": "Apply pressure progressively over 3-5 seconds",
-      "pressure_level": "Firm"
+      "timing": "Apply pressure progressively over 3-5 seconds"
     },
     {
       "step_number": 6,
       "action": "Maintain Control Until Submission",
       "description": "Hold the finishing position with consistent pressure, ensuring your grips don't slip and your body position remains tight. In training, maintain the pressure only until you feel the tap, then release immediately. The choke should force submission within 5-7 seconds of full application if properly executed. If the opponent doesn't tap after reasonable time, reassess your hand positioning and angle rather than increasing force. Never hold past the tap signal or past loss of consciousness.",
-      "timing": "Hold for tap or maximum 5-7 seconds in training",
-      "pressure_level": "Maximum"
+      "timing": "Hold for tap or maximum 5-7 seconds in training"
     }
   ],
   "opponent_defense_patterns": [
@@ -150,44 +139,37 @@
     {
       "error": "Gripping too shallow on the collar",
       "consequence": "Insufficient leverage to complete the choke; opponent easily escapes by posturing up or stripping weak grips",
-      "correction": "Work your hands deep into the collar before attempting the finish—aim for second knuckle depth minimum. Take time during setup phase to achieve proper depth rather than rushing to the finish.",
-      "danger_level": "Low"
+      "correction": "Work your hands deep into the collar before attempting the finish—aim for second knuckle depth minimum. Take time during setup phase to achieve proper depth rather than rushing to the finish."
     },
     {
       "error": "Attacking the trachea instead of carotid arteries",
       "consequence": "Creates painful but ineffective air choke that won't force submission from skilled opponents; risks serious trachea injury to training partners",
-      "correction": "Ensure your knuckles and the blade of your wrists target the sides of the neck where arteries run, not the front of the throat. Proper blood choke should cause minimal pain but rapid loss of consciousness if held.",
-      "danger_level": "CRITICAL"
+      "correction": "Ensure your knuckles and the blade of your wrists target the sides of the neck where arteries run, not the front of the throat. Proper blood choke should cause minimal pain but rapid loss of consciousness if held."
     },
     {
       "error": "Telegraphing the second grip too obviously",
       "consequence": "Opponent easily defends by framing and preventing the cross collar configuration from being established",
-      "correction": "Disguise your second grip within normal grip fighting exchanges. Threaten other attacks like sweeps or different submissions to occupy their defensive attention, then slip the second grip when they're focused elsewhere.",
-      "danger_level": "Low"
+      "correction": "Disguise your second grip within normal grip fighting exchanges. Threaten other attacks like sweeps or different submissions to occupy their defensive attention, then slip the second grip when they're focused elsewhere."
     },
     {
       "error": "Pulling straight back instead of scissoring",
       "consequence": "Weak choking pressure that opponent can defend by tucking chin or posturing; wastes energy without threatening submission",
-      "correction": "Focus on the scissoring action—elbows go out and down while hands pull in opposite diagonal directions. The rotational torque through your forearms creates the effective choking pressure, not raw pulling strength.",
-      "danger_level": "Low"
+      "correction": "Focus on the scissoring action—elbows go out and down while hands pull in opposite diagonal directions. The rotational torque through your forearms creates the effective choking pressure, not raw pulling strength."
     },
     {
       "error": "Losing positional control while focusing on grips",
       "consequence": "Opponent escapes position entirely, rendering the collar grips useless; reversal of position or loss of dominant position",
-      "correction": "Maintain guard control with your legs or mount control with your hips while establishing grips. Never sacrifice positional control for grips—if necessary, abandon the choke attempt and re-establish position first.",
-      "danger_level": "Medium"
+      "correction": "Maintain guard control with your legs or mount control with your hips while establishing grips. Never sacrifice positional control for grips—if necessary, abandon the choke attempt and re-establish position first."
     },
     {
       "error": "Holding the choke past the tap signal",
       "consequence": "Serious risk of causing unconsciousness or injury to training partner; creates unsafe training environment and loss of trust",
-      "correction": "Develop conditioned response to release immediately upon any tap signal. In training, err on the side of releasing too early rather than too late. Never test how long partner can last—this is dangerous and unethical.",
-      "danger_level": "CRITICAL"
+      "correction": "Develop conditioned response to release immediately upon any tap signal. In training, err on the side of releasing too early rather than too late. Never test how long partner can last—this is dangerous and unethical."
     },
     {
       "error": "Using arms only without engaging full body",
       "consequence": "Weak finishing pressure that fatigues your arms quickly; skilled opponent easily outlasts your strength and escapes",
-      "correction": "Engage your entire upper body in the finish—chest drives forward, shoulders rotate, core engages to support arm action. The choke should feel effortless when your body mechanics are correct.",
-      "danger_level": "Low"
+      "correction": "Engage your entire upper body in the finish—chest drives forward, shoulders rotate, core engages to support arm action. The choke should feel effortless when your body mechanics are correct."
     }
   ],
   "variations_and_setups": [
@@ -274,50 +256,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Safety Education",
-      "timeframe": "Week 1-2: 4-6 training sessions",
-      "focus": "Learn proper grip placement, hand positioning, and understand blood choke versus air choke mechanics. Study anatomy of carotid arteries and proper target areas. Memorize tap protocols and release procedures. Practice grips on stationary partner who is sitting relaxed.",
-      "resistance_level": "None",
-      "safety_emphasis": "Instructor demonstrates on multiple body types to show proper hand placement for different neck sizes. Students must demonstrate understanding of tap signals and immediate release protocols before progressing. No choking pressure applied in this phase—focus entirely on grip mechanics and positioning."
-    },
-    {
-      "phase": "Slow Motion Application with Zero Pressure",
-      "timeframe": "Week 2-4: 6-8 training sessions",
-      "focus": "Practice complete technique sequence from establishing first grip through final position, moving in slow motion with cooperative partner. Focus on economy of motion and proper body mechanics. Partner provides feedback on grip depth and angle but offers no resistance.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Execute all motions at 25% speed with zero choking pressure. Partner must communicate throughout: 'Too shallow,' 'Wrong angle,' 'Feels right.' Build muscle memory for correct hand paths and body positioning before introducing any pressure. Instructor circulates to ensure no pressure is being applied."
-    },
-    {
-      "phase": "Light Pressure Application with Communication",
-      "timeframe": "Week 4-8: 8-12 training sessions",
-      "focus": "Begin applying light choking pressure with constant verbal communication. Partner says 'stop' before reaching discomfort level. Practice recognizing what proper blood choke pressure feels like versus air choke. Develop sensitivity to partner's comfort level.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Apply pressure progressively over 5-7 seconds, stopping at 30-40% of maximum pressure. Partner verbally confirms comfort level every 2-3 seconds. Focus on feeling the correct pressure against carotid arteries. Any choking pressure on trachea requires immediate stop and hand position correction. Build trust between partners through controlled, safe application."
-    },
-    {
-      "phase": "Moderate Pressure with Realistic Defense",
-      "timeframe": "Week 8-16: 12-16 training sessions",
-      "focus": "Increase pressure to 60-70% while partner provides realistic but measured defensive reactions such as posture maintenance, grip fighting, and chin tucking. Practice completing the choke through defense while maintaining safety protocols.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Establish clear tap signal procedures before each repetition. Apply pressure progressively—never spike the choke. Partner taps when pressure reaches 70% of their tolerance, not at maximum. Both practitioners focus on developing sensitivity to the transition from 'uncomfortable' to 'must tap.' Build conditioned response to release immediately upon tap."
-    },
-    {
-      "phase": "Full Speed Setup with Controlled Finish",
-      "timeframe": "Week 16-24: 16+ training sessions",
-      "focus": "Practice full speed grip fighting, posture breaking, and setup sequences, but slow down for the actual finishing pressure application. Integrate the choke into positional sparring from closed guard, mount, and other applicable positions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Competition-level intensity for setup phases but maintain training-safe application speed for finishing pressure. Never spike the choke even in intense training. Partner should tap early rather than testing their limits. Emphasize that tapping is a sign of technique respect, not weakness. Any ego-driven behavior (late taps, refusing to tap, holding past tap) results in immediate cessation and discussion with instructor."
-    },
-    {
-      "phase": "Competition Simulation and Advanced Applications",
-      "timeframe": "Month 6+: Ongoing practice",
-      "focus": "Apply technique in live sparring with full resistance. Practice recognizing opportunities mid-roll and chaining from other attacks. Develop variations and personal style. Compete in controlled tournament settings under supervision.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "In competition training, both partners must have demonstrated consistent safe application over months of training. Establish pre-roll agreement about intensity levels. Continue immediate release upon tap—no exceptions even in competition simulation. Monitor partner for any signs of distress beyond normal exertion. After any close call or late tap, take break to discuss and reset safety protocols. Instructor approval required before attempting in actual competition."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Mount",
@@ -385,5 +323,6 @@
       "name": "Bow and Arrow Choke",
       "relationship": "Related collar choke requiring similar grip depth and positioning"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -163,7 +163,7 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 **Type**: Leg Compression
 **Target Area**: Calf muscle and knee joint
 **Starting Position**: [[50-50 Guard]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -240,13 +240,13 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish leg entanglement control**: From 50-50, truck, or deep half position, secure complete control of opponent's trapped leg using your legs and hips. Ensure their knee is bent and their leg cannot be extracted easily. Establish grips or frames on their upper body to prevent posturing. (Timing: 2-3 seconds for secure control) [Pressure: Moderate]
-2. **Insert attacking shin behind opponent's knee**: Thread your shin behind the opponent's knee joint, positioning the bone of your shin directly against their calf muscle. Your shin should be perpendicular to their leg, with your foot pointing away from their body. This creates the compression surface for the submission. (Timing: 1-2 seconds to position correctly) [Pressure: Light]
-3. **Secure figure-four grip configuration**: Establish a figure-four lock with your legs by grabbing your own foot or ankle, creating a closed system. Alternatively, use your hands to grab your shin or foot to reinforce the compression structure. This configuration prevents the opponent from opening the submission and escaping. (Timing: 1 second to lock configuration) [Pressure: Moderate]
-4. **Create initial compression angle**: Adjust your hip position to create the optimal angle for compression. Your shin should be driving into their calf muscle at approximately 90 degrees to the muscle fibers. Pull their leg slightly toward you while maintaining the perpendicular pressure point. Begin to feel resistance but do not apply significant pressure yet. (Timing: 2 seconds to establish proper angle) [Pressure: Moderate]
-5. **Control upper body and prevent posture**: Use your hands to control their upper body (collar grips, overhooks, or pushing their chest) to prevent them from sitting up and relieving pressure. If they can achieve strong posture, they may be able to slide their leg out. Maintain connection between your chest and their leg. (Timing: Continuous throughout submission) [Pressure: Moderate]
-6. **Apply progressive compression**: Slowly pull your foot toward your body while driving your shin deeper into their calf muscle. The compression should increase gradually over 3-5 seconds minimum. Listen for tap signals and watch for distress. The pain from calf compression is intense and immediate when applied correctly. (Timing: 3-5 seconds progressive increase) [Pressure: Firm]
-7. **Maintain compression and adjust angle**: If opponent does not tap immediately, maintain pressure without increasing it further while micro-adjusting the angle of your shin for optimal compression. Small angle changes can significantly increase effectiveness. Be extremely sensitive to tap signals as muscle damage can occur rapidly. (Timing: 1-2 seconds maximum hold time) [Pressure: Firm]
+1. **Establish leg entanglement control**: From 50-50, truck, or deep half position, secure complete control of opponent's trapped leg using your legs and hips. Ensure their knee is bent and their leg cannot be extracted easily. Establish grips or frames on their upper body to prevent posturing. (Timing: 2-3 seconds for secure control)
+2. **Insert attacking shin behind opponent's knee**: Thread your shin behind the opponent's knee joint, positioning the bone of your shin directly against their calf muscle. Your shin should be perpendicular to their leg, with your foot pointing away from their body. This creates the compression surface for the submission. (Timing: 1-2 seconds to position correctly)
+3. **Secure figure-four grip configuration**: Establish a figure-four lock with your legs by grabbing your own foot or ankle, creating a closed system. Alternatively, use your hands to grab your shin or foot to reinforce the compression structure. This configuration prevents the opponent from opening the submission and escaping. (Timing: 1 second to lock configuration)
+4. **Create initial compression angle**: Adjust your hip position to create the optimal angle for compression. Your shin should be driving into their calf muscle at approximately 90 degrees to the muscle fibers. Pull their leg slightly toward you while maintaining the perpendicular pressure point. Begin to feel resistance but do not apply significant pressure yet. (Timing: 2 seconds to establish proper angle)
+5. **Control upper body and prevent posture**: Use your hands to control their upper body (collar grips, overhooks, or pushing their chest) to prevent them from sitting up and relieving pressure. If they can achieve strong posture, they may be able to slide their leg out. Maintain connection between your chest and their leg. (Timing: Continuous throughout submission)
+6. **Apply progressive compression**: Slowly pull your foot toward your body while driving your shin deeper into their calf muscle. The compression should increase gradually over 3-5 seconds minimum. Listen for tap signals and watch for distress. The pain from calf compression is intense and immediate when applied correctly. (Timing: 3-5 seconds progressive increase)
+7. **Maintain compression and adjust angle**: If opponent does not tap immediately, maintain pressure without increasing it further while micro-adjusting the angle of your shin for optimal compression. Small angle changes can significantly increase effectiveness. Be extremely sensitive to tap signals as muscle damage can occur rapidly. (Timing: 1-2 seconds maximum hold time)
 
 
 </section>
@@ -266,25 +266,25 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting calf slicer without proper leg isolation [Low DANGER]
+- **Mistake**: Attempting calf slicer without proper leg isolation
   - **Consequence**: Opponent easily extracts leg and escapes, wasting energy and position
   - **Correction**: Always establish complete leg entanglement control first with hip connection and foot control before attempting compression
-- **Mistake**: Applying compression too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying compression too quickly or explosively
   - **Consequence**: Serious muscle tear, compartment syndrome, or nerve damage to training partner
   - **Correction**: ALWAYS apply pressure progressively over minimum 5 seconds. This is a compression submission that requires slow, controlled application in training
-- **Mistake**: Using top of foot instead of shin bone for compression [Medium DANGER]
+- **Mistake**: Using top of foot instead of shin bone for compression
   - **Consequence**: Ineffective pressure, easy escape for opponent, and potential injury to your own foot/ankle
   - **Correction**: Ensure the hard surface of your shin bone is the compression point, not your foot. Shin provides concentrated pressure necessary for submission
-- **Mistake**: Neglecting upper body control [Low DANGER]
+- **Mistake**: Neglecting upper body control
   - **Consequence**: Opponent postures up, creates space, and slides leg out easily
   - **Correction**: Establish and maintain upper body control throughout the submission using grips, frames, or body positioning to prevent posture
-- **Mistake**: Incorrect compression angle (shin parallel to leg instead of perpendicular) [Low DANGER]
+- **Mistake**: Incorrect compression angle (shin parallel to leg instead of perpendicular)
   - **Consequence**: No effective pressure on calf, submission fails, position may be lost
   - **Correction**: Position shin perpendicular to opponent's leg so bone drives directly into calf muscle fibers. Check angle before applying pressure
-- **Mistake**: Maintaining pressure after tap signal [CRITICAL DANGER]
+- **Mistake**: Maintaining pressure after tap signal
   - **Consequence**: Severe muscle damage, potential compartment syndrome requiring medical intervention
   - **Correction**: Release ALL pressure immediately upon any tap signal. Remove shin from calf completely and allow leg to extend naturally
-- **Mistake**: Combining calf slicer with twisting knee pressure [CRITICAL DANGER]
+- **Mistake**: Combining calf slicer with twisting knee pressure
   - **Consequence**: MCL/LCL ligament damage and serious knee injury
   - **Correction**: Apply pure compression along the line of the leg. Never add rotational or torquing pressure to the knee joint simultaneously
 
@@ -351,43 +351,6 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (2-3 weeks)
-- Focus: Learn calf slicer mechanics, entry points, and safety protocols through demonstration and theory study. Understand compression vs joint lock differences.
-- Resistance: None
-- Safety: Memorize tap protocols, release procedures, and injury risks before any physical practice. Watch instructional videos showing correct and incorrect technique.
-
-**Static Position Practice** (3-4 weeks)
-- Focus: Practice achieving proper leg entanglement, shin insertion, and body positioning from static starting positions (50-50, truck). No compression applied.
-- Resistance: Zero resistance
-- Safety: Focus entirely on positioning and control requirements. Partner remains completely passive. No pressure applied to calf at this stage.
-
-**Controlled Light Compression** (4-6 weeks)
-- Focus: Begin applying very light compression (10-20% of maximum) over 10+ seconds. Partner taps early to test release protocols.
-- Resistance: Zero resistance
-- Safety: Emphasize slow progressive application and immediate release on tap. Practice tap recognition from every possible tap signal. Limit to 2-3 repetitions per session to prevent cumulative muscle fatigue.
-
-**Entry Practice with Mild Resistance** (4-6 weeks)
-- Focus: Practice entering calf slicer positions from live leg entanglement scenarios with cooperative partner providing mild defensive movement.
-- Resistance: Mild resistance
-- Safety: Still no significant compression applied - focus is on achieving control requirements against movement. Partner taps when position is secured, before compression phase.
-
-**Progressive Compression Training** (6-8 weeks)
-- Focus: Gradually increase compression pressure to realistic levels (40-60%) over minimum 5-7 seconds. Partner provides feedback on pressure and taps before pain becomes significant.
-- Resistance: Realistic resistance
-- Safety: Never exceed 60% compression in training. Maintain strict 5-7 second minimum application time. Verbal communication between partners is mandatory. Limit to once per training session per partner to prevent cumulative tissue stress.
-
-**Competition Simulation** (Ongoing)
-- Focus: Full-resistance positional sparring from leg entanglement positions where calf slicer is available. Focus on achieving position rather than finish.
-- Resistance: Full resistance
-- Safety: In competition-style training, partner taps when proper positioning is achieved rather than waiting for compression. Actual finishing compression is practiced only occasionally with trusted partners using strict safety protocols. Advanced practitioners only.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -442,6 +405,7 @@ The Calf Slicer represents a sophisticated compression submission that targets t
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

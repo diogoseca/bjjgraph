@@ -240,19 +240,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 78
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "average_time": "45-90 seconds"
     },
@@ -269,7 +263,7 @@
     "transitions": [
       {
         "transition": "Omoplata",
-        "attempt_probability": 18
+        "attempt_probability": 19
       },
       {
         "transition": "Omoplata to Back",
@@ -281,7 +275,7 @@
       },
       {
         "transition": "Triangle Setup",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Armbar from Guard",
@@ -485,19 +479,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "average_time": "20-45 seconds"
     },

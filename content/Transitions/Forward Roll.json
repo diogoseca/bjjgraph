@@ -10,11 +10,6 @@
     "guard recovery",
     "rolling"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Forward Roll is a fundamental movement technique in Brazilian Jiu-Jitsu that serves both defensive and offensive purposes. This dynamic rolling motion allows practitioners to escape dangerous positions, create distance from opponents, and transition into advantageous guard positions. The forward roll is particularly effective when combined with proper timing and spatial awareness, enabling practitioners to turn defensive situations into offensive opportunities. Understanding the biomechanics of rolling forward while maintaining control of your center of gravity is essential for smooth execution. This technique becomes increasingly valuable as practitioners develop their guard game, as it provides a reliable method for recovering guard position after being passed or during scrambles. The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ.",
   "key_principles": [
     "Tuck chin to chest to protect the neck and create a smooth rolling surface",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Establish base position",
-      "description": "Begin from a seated or bottom position with your opponent applying forward pressure. Keep your knees bent and feet positioned to push off the mat. Your hands should be in front of you, ready to support your body weight as you initiate the roll.",
-      "timing": "As opponent commits weight forward"
+      "description": "Begin from a seated or bottom position with your opponent applying forward pressure. Keep your knees bent and feet positioned to push off the mat. Your hands should be in front of you, ready to support your body weight as you initiate the roll."
     },
     {
       "step_number": 2,
       "action": "Tuck chin to chest",
-      "description": "Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck and creates the proper curved surface for rolling. Your gaze should be directed at your belt or knees throughout the movement.",
-      "timing": "Immediately before initiating roll"
+      "description": "Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck and creates the proper curved surface for rolling. Your gaze should be directed at your belt or knees throughout the movement."
     },
     {
       "step_number": 3,
       "action": "Position hands for support",
-      "description": "Place both hands on the mat shoulder-width apart in front of you, fingers pointing forward. Your hands will guide the roll and support your body weight during the initial phase. Keep elbows slightly bent to absorb impact as you transition onto your shoulder.",
-      "timing": "Simultaneous with chin tuck"
+      "description": "Place both hands on the mat shoulder-width apart in front of you, fingers pointing forward. Your hands will guide the roll and support your body weight during the initial phase. Keep elbows slightly bent to absorb impact as you transition onto your shoulder."
     },
     {
       "step_number": 4,
       "action": "Drive forward with legs",
-      "description": "Push explosively off the mat with both feet, generating forward momentum. The power comes from your legs extending while your upper body begins to roll forward. Your hips should lift and move forward as you transfer weight onto your hands and then your shoulder.",
-      "timing": "Explosive push to initiate roll"
+      "description": "Push explosively off the mat with both feet, generating forward momentum. The power comes from your legs extending while your upper body begins to roll forward. Your hips should lift and move forward as you transfer weight onto your hands and then your shoulder."
     },
     {
       "step_number": 5,
       "action": "Roll over shoulder",
-      "description": "Allow your body to roll diagonally across your shoulder blade, moving from one shoulder across your back to the opposite hip. Keep your body in a tight ball with knees drawn toward chest. The roll should follow a diagonal line across your back rather than rolling straight down the spine.",
-      "timing": "Continuous fluid motion"
+      "description": "Allow your body to roll diagonally across your shoulder blade, moving from one shoulder across your back to the opposite hip. Keep your body in a tight ball with knees drawn toward chest. The roll should follow a diagonal line across your back rather than rolling straight down the spine."
     },
     {
       "step_number": 6,
       "action": "Maintain tucked position",
-      "description": "Keep your knees pulled tight to your chest and your chin tucked throughout the entire rolling motion. Your arms should wrap around your shins or be positioned to post as you complete the roll. This tight position maintains momentum and protects your body.",
-      "timing": "Throughout entire roll"
+      "description": "Keep your knees pulled tight to your chest and your chin tucked throughout the entire rolling motion. Your arms should wrap around your shins or be positioned to post as you complete the roll. This tight position maintains momentum and protects your body."
     },
     {
       "step_number": 7,
       "action": "Complete roll to guard or standing",
-      "description": "As the roll completes and you return to your base, immediately establish either a seated guard position with feet on opponent's hips, or continue momentum to technical stand-up. Your hands should come up in defensive frames, and your hips should be mobile and ready to engage or create more distance.",
-      "timing": "As roll completes, immediate transition"
+      "description": "As the roll completes and you return to your base, immediately establish either a seated guard position with feet on opponent's hips, or continue momentum to technical stand-up. Your hands should come up in defensive frames, and your hips should be mobile and ready to engage or create more distance."
     }
   ],
   "common_counters": [
@@ -135,38 +123,32 @@
     {
       "phase": "Week 1-2: Solo Drilling",
       "focus": "Develop proper rolling mechanics and body awareness",
-      "description": "Practice forward rolls without a partner, focusing on chin tuck, diagonal rolling path, and maintaining tight body position. Start slowly and gradually increase speed as comfort improves. Perform 20-30 repetitions per training session.",
-      "resistance_level": "None"
+      "description": "Practice forward rolls without a partner, focusing on chin tuck, diagonal rolling path, and maintaining tight body position. Start slowly and gradually increase speed as comfort improves. Perform 20-30 repetitions per training session."
     },
     {
       "phase": "Week 3-4: Positional Entry",
       "focus": "Integrate rolling from specific positions",
-      "description": "Practice forward roll from seated guard position with a cooperative partner applying light pressure. Focus on timing the roll with partner's forward movement. Partner should apply minimal resistance and allow completion of technique.",
-      "resistance_level": "Light"
+      "description": "Practice forward roll from seated guard position with a cooperative partner applying light pressure. Focus on timing the roll with partner's forward movement. Partner should apply minimal resistance and allow completion of technique."
     },
     {
       "phase": "Week 5-6: Adding Distance Management",
       "focus": "Create proper spacing after completing the roll",
-      "description": "After completing the forward roll, immediately establish guard position with feet on partner's hips or transition to standing. Partner begins to follow the roll, requiring faster recovery to guard. Practice re-establishing guard 10-15 times per session.",
-      "resistance_level": "Light"
+      "description": "After completing the forward roll, immediately establish guard position with feet on partner's hips or transition to standing. Partner begins to follow the roll, requiring faster recovery to guard. Practice re-establishing guard 10-15 times per session."
     },
     {
       "phase": "Week 7-8: Combining with Guard Recovery",
       "focus": "Chain forward roll with other guard recovery techniques",
-      "description": "Combine forward roll with granby roll, technical stand-up, and shrimp escapes. Partner applies moderate pressure during guard passing attempts. Practice reading which movement is appropriate based on partner's pressure and position.",
-      "resistance_level": "Medium"
+      "description": "Combine forward roll with granby roll, technical stand-up, and shrimp escapes. Partner applies moderate pressure during guard passing attempts. Practice reading which movement is appropriate based on partner's pressure and position."
     },
     {
       "phase": "Week 9-12: Live Application",
       "focus": "Use forward roll during positional sparring",
-      "description": "Apply forward roll during live guard retention drills where partner actively attempts to pass guard. Focus on timing and distance management. Partner uses full resistance but agrees to positional reset after successful escapes.",
-      "resistance_level": "Full"
+      "description": "Apply forward roll during live guard retention drills where partner actively attempts to pass guard. Focus on timing and distance management. Partner uses full resistance but agrees to positional reset after successful escapes."
     },
     {
       "phase": "Month 4+: Competition Integration",
       "focus": "Deploy forward roll as part of complete defensive system",
-      "description": "Integrate forward roll seamlessly with entire guard game during free rolling and competition. Use as immediate response to specific guard passing attempts. Continue drilling solo rolls as warm-up to maintain mechanics.",
-      "resistance_level": "Full"
+      "description": "Integrate forward roll seamlessly with entire guard game during free rolling and competition. Use as immediate response to specific guard passing attempts. Continue drilling solo rolls as warm-up to maintain mechanics."
     }
   ],
   "variants_and_adaptations": [
@@ -194,33 +176,27 @@
   "knowledge_assessment": [
     {
       "question": "Why must you tuck your chin to your chest before initiating a forward roll?",
-      "answer": "Tucking the chin to the chest protects the neck from injury by preventing hyperextension and creates a rounded surface for smooth rolling. It ensures you roll across your shoulder blade and back rather than your head or neck, which could result in serious cervical spine injury. The chin tuck also helps maintain the proper curved spine position throughout the entire rolling motion.",
-      "difficulty": "Beginner"
+      "answer": "Tucking the chin to the chest protects the neck from injury by preventing hyperextension and creates a rounded surface for smooth rolling. It ensures you roll across your shoulder blade and back rather than your head or neck, which could result in serious cervical spine injury. The chin tuck also helps maintain the proper curved spine position throughout the entire rolling motion."
     },
     {
       "question": "What is the correct rolling path across your back during a forward roll?",
-      "answer": "The correct path is diagonal, moving from one shoulder blade across your upper back to the opposite hip. You should never roll straight down your spine, as this can cause injury and results in a bumpy, ineffective roll. The diagonal path distributes pressure evenly across the muscular parts of your back and maintains momentum throughout the movement.",
-      "difficulty": "Beginner"
+      "answer": "The correct path is diagonal, moving from one shoulder blade across your upper back to the opposite hip. You should never roll straight down your spine, as this can cause injury and results in a bumpy, ineffective roll. The diagonal path distributes pressure evenly across the muscular parts of your back and maintains momentum throughout the movement."
     },
     {
       "question": "How do you generate the initial momentum for an effective forward roll?",
-      "answer": "Momentum is generated by explosively pushing off the mat with both legs while simultaneously transferring weight onto your hands and then shoulder. The power comes from leg extension combined with proper weight transfer. Your hands guide and support initially, but the primary driving force is the push from your legs. Insufficient leg drive results in an incomplete roll that stalls mid-motion.",
-      "difficulty": "Intermediate"
+      "answer": "Momentum is generated by explosively pushing off the mat with both legs while simultaneously transferring weight onto your hands and then shoulder. The power comes from leg extension combined with proper weight transfer. Your hands guide and support initially, but the primary driving force is the push from your legs. Insufficient leg drive results in an incomplete roll that stalls mid-motion."
     },
     {
       "question": "What should you do immediately after completing a forward roll to prevent your opponent from maintaining pressure?",
-      "answer": "Immediately establish defensive frames and guard position, typically with feet on opponent's hips or hands on their shoulders. Creating distance is critical before opponent can close the gap. You should transition to either seated guard, standing position, or continue rolling backward if needed. The key is not remaining static after the roll completes, as this allows opponent to re-establish control.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately establish defensive frames and guard position, typically with feet on opponent's hips or hands on their shoulders. Creating distance is critical before opponent can close the gap. You should transition to either seated guard, standing position, or continue rolling backward if needed. The key is not remaining static after the roll completes, as this allows opponent to re-establish control."
     },
     {
       "question": "When is it more effective to use an angled forward roll versus a straight backward roll?",
-      "answer": "An angled forward roll is more effective when your opponent is following your movements predictably or when you need to create an advantageous angle. Rolling at 45 degrees can help you escape toward areas where opponent has less control or toward the center of the mat if you're near boundaries. Straight backward rolls are more predictable and easier for opponents to follow, while angled rolls add an element of direction change that can break opponent's pursuit patterns.",
-      "difficulty": "Advanced"
+      "answer": "An angled forward roll is more effective when your opponent is following your movements predictably or when you need to create an advantageous angle. Rolling at 45 degrees can help you escape toward areas where opponent has less control or toward the center of the mat if you're near boundaries. Straight backward rolls are more predictable and easier for opponents to follow, while angled rolls add an element of direction change that can break opponent's pursuit patterns."
     },
     {
       "question": "How can forward rolling be integrated with other guard recovery techniques to create a comprehensive defensive system?",
-      "answer": "Forward rolling should be combined with techniques like granby rolls, technical stand-ups, and shrimp escapes to create unpredictable movement patterns. The key is reading opponent's pressure and position to select the appropriate movement. Forward rolls work best when opponent is driving forward with high pressure, while granby rolls are better for lateral pressure. By mixing these movements, you prevent opponents from timing and countering your escapes. Advanced practitioners chain these movements fluidly, using one technique to set up another based on opponent's reactions.",
-      "difficulty": "Advanced"
+      "answer": "Forward rolling should be combined with techniques like granby rolls, technical stand-ups, and shrimp escapes to create unpredictable movement patterns. The key is reading opponent's pressure and position to select the appropriate movement. Forward rolls work best when opponent is driving forward with high pressure, while granby rolls are better for lateral pressure. By mixing these movements, you prevent opponents from timing and countering your escapes. Advanced practitioners chain these movements fluidly, using one technique to set up another based on opponent's reactions."
     }
   ],
   "safety_considerations": "Forward rolling must be practiced with careful attention to neck safety. Always ensure proper chin tuck before initiating any rolling motion, as failure to protect the neck can result in serious cervical spine injuries. Begin practicing on soft surfaces and progress gradually to harder surfaces as technique improves. Students with neck, shoulder, or back injuries should consult medical professionals before practicing forward rolls. When practicing with partners, ensure adequate space around you to complete the roll without colliding with other practitioners or obstacles. Start with slow, controlled repetitions and gradually increase speed only after mastering proper mechanics. Younger or less experienced practitioners should always be supervised during initial learning phases. Never attempt forward rolls on surfaces that are too hard, slippery, or uneven.",
@@ -292,5 +268,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

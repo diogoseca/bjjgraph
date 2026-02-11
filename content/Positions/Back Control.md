@@ -160,11 +160,11 @@ Back control variations include the standard hooks configuration, body triangle 
 ### Available Transitions
 
 
-- **[[Rear Naked Choke]]** (25% of attempts)
+- **[[Rear Naked Choke]]** (24% of attempts)
 
-- **[[Armbar from Back with Legs]]** (8% of attempts)
+- **[[Armbar from Back with Legs]]** (9% of attempts)
 
-- **[[Bow and Arrow Choke]]** (15% of attempts)
+- **[[Bow and Arrow Choke]]** (14% of attempts)
 
 - **[[Back Control to Crucifix]]** (10% of attempts)
 
@@ -172,7 +172,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Body Triangle Lock]]** (10% of attempts)
 
-- **[[Choke from Crucifix]]** (5% of attempts)
+- **[[Choke from Crucifix]]** (6% of attempts)
 
 - **[[Back Control Maintenance]]** (20% of attempts)
 

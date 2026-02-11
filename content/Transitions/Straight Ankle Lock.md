@@ -163,7 +163,7 @@ Strategically, the Straight Ankle Lock serves dual purposes within the 50-50 sys
 The technique is legal at all belt levels under IBJJF rules, making it one of the few leg attacks available to white and blue belts in competition. This accessibility, combined with its mechanical directness, makes it an essential building block for developing a complete leg lock game. However, its effectiveness diminishes significantly against opponents who understand proper boot defense and hip rotation mechanics, which is why chaining it with positional transitions is critical at higher levels of competition.
 
 **From Position**: [[50-50 Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The technique is legal at all belt levels under IBJJF rules, making it one of th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm inside control**: Verify your inside leg maintains the inside angle against opponent's leg structure with your shin pressed behind their knee, creating a wedge that prevents hip rotation and establishes the foundation for the ankle lock entry. (Timing: Before initiating any grip change)
-2. **Secure the ankle**: Slide your attacking-side forearm behind the opponent's Achilles tendon, positioning the blade of your wrist bone directly against the tendon. Your thumb should point toward the ceiling with your elbow tight to your body to prevent the grip from being stripped. (Timing: Smooth transition from heel control to Achilles grip)
-3. **Cup the heel**: With your opposite hand, reach over the top of opponent's foot and cup the heel firmly, pulling it tight against your chest. This creates the pocket between your forearm and chest that traps the ankle and prevents the opponent from simply pulling their foot free. (Timing: Immediately after forearm is seated behind Achilles)
-4. **Clamp with legs**: Squeeze your knees together and tighten your leg wrap around the opponent's thigh, using a figure-four configuration or dual shin pinch to prevent their hip from rotating. Your legs function as the anchor that makes the hand grips effective. (Timing: Simultaneous with grip consolidation)
-5. **Drop hips and angle**: Lower your hips toward the mat while angling your torso perpendicular to the opponent's body. This perpendicular alignment maximizes the mechanical leverage available for the breaking motion and positions your body to use full hip extension for the finish. (Timing: Controlled descent, not a sudden drop)
-6. **Establish control position**: Consolidate the Straight Ankle Lock Control by pulling the heel tight to your sternum, arching your upper back slightly, and confirming your leg clamp prevents all hip rotation. From here you can either finish the submission or use opponent's defensive reactions to transition to superior entanglements. (Timing: Within 2-3 seconds of grip establishment)
-7. **Initiate breaking mechanics or transition**: If the opponent's ankle is properly isolated, extend your hips forward while arching your back and pulling the heel toward your chest to apply dorsiflexion pressure on the ankle joint. If the opponent begins defending, read their hip rotation direction to choose between Inside Ashi-Garami or Outside Ashi-Garami transitions. (Timing: Decisive commitment within 5 seconds of control)
+1. **Confirm inside control**: Verify your inside leg maintains the inside angle against opponent's leg structure with your shin pressed behind their knee, creating a wedge that prevents hip rotation and establishes the foundation for the ankle lock entry.
+2. **Secure the ankle**: Slide your attacking-side forearm behind the opponent's Achilles tendon, positioning the blade of your wrist bone directly against the tendon. Your thumb should point toward the ceiling with your elbow tight to your body to prevent the grip from being stripped.
+3. **Cup the heel**: With your opposite hand, reach over the top of opponent's foot and cup the heel firmly, pulling it tight against your chest. This creates the pocket between your forearm and chest that traps the ankle and prevents the opponent from simply pulling their foot free.
+4. **Clamp with legs**: Squeeze your knees together and tighten your leg wrap around the opponent's thigh, using a figure-four configuration or dual shin pinch to prevent their hip from rotating. Your legs function as the anchor that makes the hand grips effective.
+5. **Drop hips and angle**: Lower your hips toward the mat while angling your torso perpendicular to the opponent's body. This perpendicular alignment maximizes the mechanical leverage available for the breaking motion and positions your body to use full hip extension for the finish.
+6. **Establish control position**: Consolidate the Straight Ankle Lock Control by pulling the heel tight to your sternum, arching your upper back slightly, and confirming your leg clamp prevents all hip rotation. From here you can either finish the submission or use opponent's defensive reactions to transition to superior entanglements.
+7. **Initiate breaking mechanics or transition**: If the opponent's ankle is properly isolated, extend your hips forward while arching your back and pulling the heel toward your chest to apply dorsiflexion pressure on the ankle joint. If the opponent begins defending, read their hip rotation direction to choose between Inside Ashi-Garami or Outside Ashi-Garami transitions.
 
 
 </section>
@@ -263,19 +263,15 @@ The technique is legal at all belt levels under IBJJF rules, making it one of th
 ## Training Progressions
 **Week 1-2** - Grip mechanics and positioning
 Drill the forearm threading motion behind the Achilles tendon in isolation, then practice transitioning from 50-50 heel control grips to ankle lock configuration without a resisting partner. Focus on precise wrist bone placement against the tendon and proper heel cupping. Practice 50 repetitions per side daily to build muscle memory for the grip change.
-(Resistance: None)
 
 **Week 3-4** - Entry timing and leg control integration
 With a partner providing light resistance from 50-50 bottom, practice the complete entry sequence from inside control confirmation through grip establishment and leg clamping. Partner provides realistic defensive movements at 30-40% intensity, focusing on boot defense and light hip rotation. Emphasize maintaining inside leg control throughout the grip transition.
-(Resistance: Light)
 
 **Week 5-6** - Defensive reaction chains
 Partner defends with specific sequences at medium resistance: boot defense forcing kneebar transition, hip rotation away forcing Inside Ashi entry, sit-up forcing Single Leg X transition. Practice reading each defense and flowing to the correct counter-transition without predetermined knowledge of which defense the partner will use. Build the decision tree through repetition.
-(Resistance: Medium)
 
 **Week 7-8** - Competition-speed application
 Full-speed positional sparring starting from 50-50 Guard with unrestricted defense. Attacker must execute the ankle lock entry, read the defense, and either finish or transition within 10 seconds. Track success rate across rounds and identify which defensive reactions cause the most difficulty. Supplement with full rolling where you hunt for 50-50 entries specifically to attack the ankle lock.
-(Resistance: Full)
 
 
 

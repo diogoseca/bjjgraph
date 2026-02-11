@@ -157,7 +157,7 @@ Strategically, the North-South Choke serves as a powerful complement to Kimura a
 The key mechanical principle involves threading your choking arm deep under the opponent's neck while your chest drops onto their face, sealing the choke on both sides simultaneously. Unlike collar chokes that can stall or allow breathing, a properly applied North-South Choke produces unconsciousness within seconds due to bilateral carotid compression. This makes it one of the most efficient blood chokes in grappling when executed correctly.
 
 **From Position**: [[North-South/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The key mechanical principle involves threading your choking arm deep under the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish North-South**: From side control or Kesa Gatame, transition to North-South by walking your body toward opponent's head while maintaining chest pressure. Your chest should be heavy on their upper chest and face. (Timing: Execute when opponent defends arm attacks or when transitioning from side control)
-2. **Control opponent's arms**: Pin opponent's near arm with your hip or trap it against your body. Their far arm should be controlled by your non-choking arm pressing down on their bicep or elbow to prevent framing. (Timing: Before threading your choking arm)
-3. **Thread choking arm**: Slide your choking arm deep under opponent's neck from the side, threading until your bicep is positioned directly under their chin. Your forearm wraps around the far side of their neck. (Timing: When opponent's arms are controlled and neck is exposed)
-4. **Position your head**: Drop your ear to opponent's chest on the choking arm side. This maximizes the depth of your arm under their neck and creates the proper angle for bilateral carotid compression. (Timing: Immediately after threading arm)
-5. **Seal with chest pressure**: Drop your chest weight onto opponent's face and upper chest. Your sternum should press against their jaw and cheek, sealing the far-side carotid while your bicep compresses the near-side. (Timing: As you squeeze elbows together)
-6. **Complete the choke**: Squeeze your elbows together while maintaining chest pressure and sprawled hips. The compression comes from the structural squeeze of your arms and chest, not from muscular pulling. Hold until tap or unconsciousness. (Timing: Final finishing sequence)
+1. **Establish North-South**: From side control or Kesa Gatame, transition to North-South by walking your body toward opponent's head while maintaining chest pressure. Your chest should be heavy on their upper chest and face.
+2. **Control opponent's arms**: Pin opponent's near arm with your hip or trap it against your body. Their far arm should be controlled by your non-choking arm pressing down on their bicep or elbow to prevent framing.
+3. **Thread choking arm**: Slide your choking arm deep under opponent's neck from the side, threading until your bicep is positioned directly under their chin. Your forearm wraps around the far side of their neck.
+4. **Position your head**: Drop your ear to opponent's chest on the choking arm side. This maximizes the depth of your arm under their neck and creates the proper angle for bilateral carotid compression.
+5. **Seal with chest pressure**: Drop your chest weight onto opponent's face and upper chest. Your sternum should press against their jaw and cheek, sealing the far-side carotid while your bicep compresses the near-side.
+6. **Complete the choke**: Squeeze your elbows together while maintaining chest pressure and sprawled hips. The compression comes from the structural squeeze of your arms and chest, not from muscular pulling. Hold until tap or unconsciousness.
 
 
 </section>
@@ -256,19 +256,15 @@ The key mechanical principle involves threading your choking arm deep under the 
 ## Training Progressions
 **Week 1-2** - Position and arm threading
 Practice transitioning to North-South and threading the choking arm without resistance. Focus on proper head placement with ear on chest and getting maximum depth under opponent's neck. Drill the positional mechanics slowly with a compliant partner.
-(Resistance: None)
 
 **Week 3-4** - Pressure and finishing mechanics
 Add light resistance while developing the squeeze mechanics. Practice maintaining sprawled hips while squeezing elbows together. Partner provides feedback on choke tightness. Begin timing the choke to understand how quickly it takes effect.
-(Resistance: Light)
 
 **Week 5-6** - Entry combinations
 Chain the North-South Choke with Kimura and Americana attacks. When partner defends arms, attack choke. When partner defends choke, attack arms. Develop the submission dilemma from North-South position against moderate resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from side control or North-South. Focus on recognizing when opponents create the opening for the choke by defending arm attacks. Test against fully resisting partners of varying skill levels.
-(Resistance: Full)
 
 
 

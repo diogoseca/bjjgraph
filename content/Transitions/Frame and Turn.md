@@ -157,7 +157,7 @@ The fundamental challenge when escaping Twister Control is that your spine is ro
 Strategically, Frame and Turn works best when executed early in the Twister Control sequence, before the opponent has fully established their leg control and maximized spinal rotation. The technique creates a systematic pathway out of an otherwise extremely dangerous position, buying time to prevent submission while working toward positional recovery. Success requires patience, composure under significant discomfort, and precise understanding of when to frame, when to turn, and when to commit to the escape movement.
 
 **From Position**: [[Twister Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, Frame and Turn works best when executed early in the Twister Cont
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frames**: Create a strong frame with your inside arm against opponent's neck or shoulder to prevent them from flattening you further. Your forearm bone should create a structural barrier that stops their upper body pressure from increasing. (Timing: Immediately upon recognizing Twister Control)
-2. **Protect the neck**: Tuck your chin firmly and use your free hand to protect against guillotine or neck crank attempts. Cup your own shoulder or create a defensive hand position that blocks access to your neck while maintaining awareness of submission threats. (Timing: Concurrent with frame establishment)
-3. **Work the trapped leg**: Begin working to extract your trapped leg by pushing against opponent's controlling leg with your free leg. Focus on creating small amounts of space rather than explosive extraction. Angle your knee outward to reduce the effectiveness of their leg hook. (Timing: After frames are established)
-4. **Initiate the turn**: As you create space in the leg control, begin turning your hips toward your opponent rather than away. This counter-intuitive movement reduces spinal rotation by bringing your shoulders and hips back into alignment. Use your frame to push off while your hips rotate. (Timing: When leg control loosens slightly)
-5. **Drive through the turn**: Commit fully to the turning motion, using your entire body to rotate toward opponent. Your bottom hip drives into the mat while your top hip rotates over. Maintain your neck protection throughout this movement as opponent may attempt guillotine as you turn. (Timing: Immediately after initiating turn)
-6. **Establish recovery position**: Complete the turn into Turtle position by getting your knees under you and establishing a base, or continue the turn to recover Half Guard by inserting your knee shield as you come to face your opponent. Immediately address any remaining back exposure. (Timing: As turn completes)
+1. **Establish defensive frames**: Create a strong frame with your inside arm against opponent's neck or shoulder to prevent them from flattening you further. Your forearm bone should create a structural barrier that stops their upper body pressure from increasing.
+2. **Protect the neck**: Tuck your chin firmly and use your free hand to protect against guillotine or neck crank attempts. Cup your own shoulder or create a defensive hand position that blocks access to your neck while maintaining awareness of submission threats.
+3. **Work the trapped leg**: Begin working to extract your trapped leg by pushing against opponent's controlling leg with your free leg. Focus on creating small amounts of space rather than explosive extraction. Angle your knee outward to reduce the effectiveness of their leg hook.
+4. **Initiate the turn**: As you create space in the leg control, begin turning your hips toward your opponent rather than away. This counter-intuitive movement reduces spinal rotation by bringing your shoulders and hips back into alignment. Use your frame to push off while your hips rotate.
+5. **Drive through the turn**: Commit fully to the turning motion, using your entire body to rotate toward opponent. Your bottom hip drives into the mat while your top hip rotates over. Maintain your neck protection throughout this movement as opponent may attempt guillotine as you turn.
+6. **Establish recovery position**: Complete the turn into Turtle position by getting your knees under you and establishing a base, or continue the turn to recover Half Guard by inserting your knee shield as you come to face your opponent. Immediately address any remaining back exposure.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, Frame and Turn works best when executed early in the Twister Cont
 ## Training Progressions
 **Week 1-2** - Frame mechanics and body awareness
 Practice creating frames from Twister Control position without partner resistance. Focus on understanding spinal rotation, identifying frame placement points, and developing muscle memory for the defensive hand positions.
-(Resistance: None)
 
 **Week 3-4** - Turning mechanics with light resistance
 Partner establishes light Twister Control. Practice the complete frame and turn sequence with partner providing 30% resistance. Focus on the timing of when to initiate the turn and completing the movement to recovery position.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and adjustment
 Partner provides moderate resistance and attempts basic counters (recapturing leg, following the turn). Practice recognizing counter attempts and adjusting technique accordingly. Develop awareness of when to abort and reset.
-(Resistance: Medium)
 
 **Week 7+** - Live application and pressure testing
 Apply Frame and Turn in live rolling situations. Partner provides full resistance and hunts submissions. Develop the composure to execute technique under genuine threat and the judgment to know when tapping is the correct decision.
-(Resistance: Full)
 
 
 

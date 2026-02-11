@@ -332,11 +332,11 @@ Partner establishes back control with both hooks but does not attack submissions
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 65% |
-| Intermediate | 30% | 35% | 50% |
-| Advanced     | 45% | 50% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 42% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-60 seconds before submission or escape attempt
 

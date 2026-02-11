@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Paper Cutter Choke is a high-percentage gi submission executed from Kuzure Kesa-Gatame (modified scarf hold) that utilizes the opponent's lapel as a blade against their carotid artery. Unlike many chokes that require significant positional adjustment, the Paper Cutter can be applied with minimal movement from an already dominant position, making it an efficient finishing option when your opponent is focused on defending arm attacks.\n\nThe mechanics of this choke create a unilateral blood restriction by driving the rigid edge of the lapel across one side of the neck while your forearm applies pressure from the opposite side. The choking mechanism combines rotational force with downward pressure, creating a cutting action that compresses the carotid artery rapidly. When properly applied, the choke produces unconsciousness within 3-5 seconds, making early recognition and defense critical for the bottom player.\n\nStrategically, the Paper Cutter serves as an excellent complement to arm attacks from Kesa-Gatame. When opponents defend americana and armbar threats by keeping their elbows tight and chin tucked, they often inadvertently create the collar access needed for this choke. The threat of the Paper Cutter forces opponents to choose between protecting their neck (which opens arm attacks) or protecting their arms (which exposes the choke), creating a classic submission dilemma that characterizes effective top-side control offense.",
   "key_principles": [
     "Establish deep cross-collar grip with four fingers inside before initiating any choking motion",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Secure cross-collar grip",
-      "description": "While maintaining Kesa-Gatame control, reach across with your near hand and insert four fingers deep into opponent's far-side lapel at collar level, thumb outside the gi material for maximum grip security.",
-      "timing": "Execute when opponent defends arm attacks or focuses on hip escape"
+      "description": "While maintaining Kesa-Gatame control, reach across with your near hand and insert four fingers deep into opponent's far-side lapel at collar level, thumb outside the gi material for maximum grip security."
     },
     {
       "step_number": 2,
       "action": "Position the lapel blade",
-      "description": "Pull the collar tight and position the lapel edge directly across opponent's carotid artery on the far side of their neck, ensuring the fabric creates a firm ridge rather than bunching loosely.",
-      "timing": "Immediately after securing grip depth"
+      "description": "Pull the collar tight and position the lapel edge directly across opponent's carotid artery on the far side of their neck, ensuring the fabric creates a firm ridge rather than bunching loosely."
     },
     {
       "step_number": 3,
       "action": "Drop your elbow",
-      "description": "Drive your gripping elbow downward toward opponent's far hip, which rotates your forearm and wrist to create the cutting angle. Your elbow should travel past their centerline toward the mat on their far side.",
-      "timing": "Smooth continuous motion, not jerky"
+      "description": "Drive your gripping elbow downward toward opponent's far hip, which rotates your forearm and wrist to create the cutting angle. Your elbow should travel past their centerline toward the mat on their far side."
     },
     {
       "step_number": 4,
       "action": "Pin the head",
-      "description": "Use your chest and shoulder to pin opponent's head and trap it against the mat, eliminating their ability to turn toward you or create space by extending their neck away from the choke.",
-      "timing": "Simultaneous with elbow drop"
+      "description": "Use your chest and shoulder to pin opponent's head and trap it against the mat, eliminating their ability to turn toward you or create space by extending their neck away from the choke."
     },
     {
       "step_number": 5,
       "action": "Apply forearm pressure",
-      "description": "Bring your free forearm across opponent's throat from the near side, creating a scissoring action between your collar grip and forearm. Your forearm applies pressure to one carotid while the lapel blade compresses the other.",
-      "timing": "Once head is pinned and collar is positioned"
+      "description": "Bring your free forearm across opponent's throat from the near side, creating a scissoring action between your collar grip and forearm. Your forearm applies pressure to one carotid while the lapel blade compresses the other."
     },
     {
       "step_number": 6,
       "action": "Complete the finish",
-      "description": "Pull your collar grip toward your own chest while simultaneously pressing your forearm forward, tightening the scissor. Maintain hip pressure and head pin throughout. The choke should produce a tap within seconds if correctly positioned.",
-      "timing": "Apply steadily increasing pressure until tap"
+      "description": "Pull your collar grip toward your own chest while simultaneously pressing your forearm forward, tightening the scissor. Maintain hip pressure and head pin throughout. The choke should produce a tap within seconds if correctly positioned."
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice deep collar grip insertion from static Kesa-Gatame. Focus on finding proper depth and lapel positioning without resistance. Drill the elbow drop motion to understand the cutting angle. Partner remains passive.",
-      "resistance_level": "None"
+      "description": "Practice deep collar grip insertion from static Kesa-Gatame. Focus on finding proper depth and lapel positioning without resistance. Drill the elbow drop motion to understand the cutting angle. Partner remains passive."
     },
     {
       "phase": "Week 3-4",
       "focus": "Positional integration",
-      "description": "Combine choke setup with Kesa-Gatame maintenance. Partner provides light hip escape attempts while you work to maintain position and insert grip. Learn to time grip insertion with partner's defensive movements.",
-      "resistance_level": "Light"
+      "description": "Combine choke setup with Kesa-Gatame maintenance. Partner provides light hip escape attempts while you work to maintain position and insert grip. Learn to time grip insertion with partner's defensive movements."
     },
     {
       "phase": "Week 5-6",
       "focus": "Attack combinations",
-      "description": "Chain Paper Cutter with americana and armbar attacks. When partner defends one threat, transition to another. Practice recognizing which attack is available based on partner's defensive positioning.",
-      "resistance_level": "Medium"
+      "description": "Chain Paper Cutter with americana and armbar attacks. When partner defends one threat, transition to another. Practice recognizing which attack is available based on partner's defensive positioning."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply technique in positional sparring starting from Kesa-Gatame. Partner defends at full resistance. Focus on timing, setup recognition, and completing finishes against active defense. Track success rate and adjust approach.",
-      "resistance_level": "Full"
+      "description": "Apply technique in positional sparring starting from Kesa-Gatame. Partner defends at full resistance. Focus on timing, setup recognition, and completing finishes against active defense. Track success rate and adjust approach."
     }
   ],
   "variants_and_adaptations": [
@@ -181,53 +166,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Paper Cutter Choke?",
-      "answer": "The primary goal is to create a blood choke by using the lapel as a blade across the opponent's carotid artery while your forearm applies counter-pressure from the opposite side. This bilateral compression produces rapid unconsciousness, typically within 3-5 seconds when correctly applied.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to create a blood choke by using the lapel as a blade across the opponent's carotid artery while your forearm applies counter-pressure from the opposite side. This bilateral compression produces rapid unconsciousness, typically within 3-5 seconds when correctly applied."
     },
     {
       "question": "Where exactly should you insert your fingers for the collar grip?",
-      "answer": "Insert four fingers deep into the opponent's far-side collar, past the first knuckle, with your thumb remaining outside the gi material. The grip must be deep enough that pulling creates immediate tension on the lapel without slipping. Shallow grips at the lapel edge will strip under resistance.",
-      "difficulty": "Beginner"
+      "answer": "Insert four fingers deep into the opponent's far-side collar, past the first knuckle, with your thumb remaining outside the gi material. The grip must be deep enough that pulling creates immediate tension on the lapel without slipping. Shallow grips at the lapel edge will strip under resistance."
     },
     {
       "question": "What direction should your elbow travel during the choking motion?",
-      "answer": "Your gripping elbow should drive downward toward the opponent's far hip, traveling past their centerline toward the mat on their far side. This elbow trajectory creates the rotational force that turns the lapel into a cutting blade across the carotid artery.",
-      "difficulty": "Intermediate"
+      "answer": "Your gripping elbow should drive downward toward the opponent's far hip, traveling past their centerline toward the mat on their far side. This elbow trajectory creates the rotational force that turns the lapel into a cutting blade across the carotid artery."
     },
     {
       "question": "Your opponent starts tucking their chin toward your armpit when you begin the Paper Cutter - what should you do?",
-      "answer": "When opponent tucks chin toward you, they expose their near arm and create opportunity for americana or armbar. Alternatively, switch to breadcutter choke which attacks the near side of the neck that their chin turn has now exposed. Their defense to one attack opens another.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent tucks chin toward you, they expose their near arm and create opportunity for americana or armbar. Alternatively, switch to breadcutter choke which attacks the near side of the neck that their chin turn has now exposed. Their defense to one attack opens another."
     },
     {
       "question": "Why must you maintain hip pressure throughout the choke application?",
-      "answer": "Hip pressure prevents the opponent from creating space through hip escapes or guard recovery. Without constant hip pressure, your focus on upper body choking mechanics allows the opponent to move their hips and either escape the position entirely or create enough space to defend the choke effectively.",
-      "difficulty": "Intermediate"
+      "answer": "Hip pressure prevents the opponent from creating space through hip escapes or guard recovery. Without constant hip pressure, your focus on upper body choking mechanics allows the opponent to move their hips and either escape the position entirely or create enough space to defend the choke effectively."
     },
     {
       "question": "What creates the 'scissoring' action in the Paper Cutter finish?",
-      "answer": "The scissoring action comes from pulling your collar grip toward your own chest while simultaneously pressing your forearm forward across the opponent's near-side neck. One hand pulls, one arm pushes, creating compression from both sides of the neck simultaneously.",
-      "difficulty": "Intermediate"
+      "answer": "The scissoring action comes from pulling your collar grip toward your own chest while simultaneously pressing your forearm forward across the opponent's near-side neck. One hand pulls, one arm pushes, creating compression from both sides of the neck simultaneously."
     },
     {
       "question": "How do you distinguish a correctly positioned blood choke from an incorrect windpipe crush?",
-      "answer": "A blood choke positions the lapel blade at a 45-degree angle across the side of the neck targeting the carotid artery, with lateral cutting motion. A windpipe crush applies direct frontal pressure to the trachea. Blood chokes produce rapid unconsciousness; windpipe crushes create pain that can be endured.",
-      "difficulty": "Advanced"
+      "answer": "A blood choke positions the lapel blade at a 45-degree angle across the side of the neck targeting the carotid artery, with lateral cutting motion. A windpipe crush applies direct frontal pressure to the trachea. Blood chokes produce rapid unconsciousness; windpipe crushes create pain that can be endured."
     },
     {
       "question": "What role does head pinning play in completing the Paper Cutter finish?",
-      "answer": "Pinning the opponent's head with your chest and shoulder eliminates their ability to turn toward you or extend their neck away from the choke. Head movement is the primary escape mechanism; controlling the head is a prerequisite for successfully completing the finish against competent opponents.",
-      "difficulty": "Advanced"
+      "answer": "Pinning the opponent's head with your chest and shoulder eliminates their ability to turn toward you or extend their neck away from the choke. Head movement is the primary escape mechanism; controlling the head is a prerequisite for successfully completing the finish against competent opponents."
     },
     {
       "question": "When opponent grabs your choking wrist with both hands, how does this help you?",
-      "answer": "When opponent commits both hands to your wrist, they extend their arms and remove them from defensive positioning around their torso. This creates immediate opportunity for kimura grip on their near arm or transition to armbar. Their defensive grip commitment exposes arm attacks.",
-      "difficulty": "Advanced"
+      "answer": "When opponent commits both hands to your wrist, they extend their arms and remove them from defensive positioning around their torso. This creates immediate opportunity for kimura grip on their near arm or transition to armbar. Their defensive grip commitment exposes arm attacks."
     },
     {
       "question": "What is the optimal timing window for inserting the collar grip?",
-      "answer": "Insert the collar grip when opponent is occupied with other threats - typically when they are defending americana or armbar attacks, or when they have just completed an unsuccessful escape attempt and are resetting. Attempting grip insertion while opponent is fresh and focused on collar defense makes the grip much harder to achieve.",
-      "difficulty": "Advanced"
+      "answer": "Insert the collar grip when opponent is occupied with other threats - typically when they are defending americana or armbar attacks, or when they have just completed an unsuccessful escape attempt and are resetting. Attempting grip insertion while opponent is fresh and focused on collar defense makes the grip much harder to achieve."
     }
   ],
   "safety_considerations": "The Paper Cutter Choke is a blood choke that produces rapid unconsciousness when correctly applied - typically within 3-5 seconds. Training partners must tap early and release must be immediate upon tap. When drilling, apply pressure gradually and communicate constantly. Never hold the choke after a tap or on an unconscious partner. If a partner goes unconscious, release immediately, place them on their side, and monitor breathing. This choke should only be practiced under qualified supervision until mechanics are well understood. Avoid jerky or explosive application that could cause neck strain or damage to cervical structures.",
@@ -265,5 +240,6 @@
       "name": "Mount",
       "relationship": "Advancement option via step-over Paper Cutter variant"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -355,11 +355,11 @@ Partner alternates between heel hook and ankle lock threats. Practice transition
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 85% | 10% | 75% |
-| Intermediate | 65% | 25% | 55% |
-| Advanced     | 40% | 45% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 35% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 

@@ -87,7 +87,7 @@ description: "{{description}}"
 {{overview}}
 
 **From Position**: [[{{from_position}}]]
-**Success Rates**: Beginner {{success_rates.beginner}}%, Intermediate {{success_rates.intermediate}}%, Advanced {{success_rates.advanced}}%
+**Success Rate**: {{success_rate}}%
 
 </section>
 
@@ -136,7 +136,7 @@ description: "{{description}}"
 
 ## Execution Steps
 {% for step in execution_steps -%}
-{{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}
+{{step.step_number}}. **{{step.action}}**: {{step.description}}
 {% endfor %}
 
 </section>
@@ -167,7 +167,6 @@ description: "{{description}}"
 {% for progression in training_progressions -%}
 **{{progression.phase}}** - {{progression.focus}}
 {{progression.description}}
-{% if progression.resistance_level %}(Resistance: {{progression.resistance_level}}){% endif %}
 
 {% endfor %}
 

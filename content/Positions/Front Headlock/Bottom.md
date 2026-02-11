@@ -368,11 +368,11 @@ Partner establishes front headlock and announces which submission they'll attemp
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 65% | 25% | 45% |
-| Intermediate | 50% | 40% | 30% |
-| Advanced     | 35% | 55% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 42% |
+| Advancement Probability | 48% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 15-45 seconds (must escape quickly or risk submission)
 

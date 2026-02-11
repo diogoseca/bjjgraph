@@ -352,11 +352,11 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 55% | 20% |
-| Intermediate | 50% | 70% | 35% |
-| Advanced     | 70% | 85% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 78% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 10-20 seconds
 
@@ -370,7 +370,7 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 - **[[Half Guard]]** - Parent position from which reverse half guard is entered
 - **[[Back Control]]** - Primary advancement target when opponent turns to face you
 - **[[Side Control]]** - Primary passing completion target when opponent flattens defensively
-- **[[Leg Drag Position]]** - Common passing variation from reverse half guard
+- **[[Leg Drag Control]]** - Common passing variation from reverse half guard
 - **[[Crab Ride]]** - Transitional position when pursuing back control
 - **[[Truck]]** - Alternative back attack entry from reverse half guard
 - **[[Knee Shield Half Guard]]** - Position opponent attempts to recover from reverse half

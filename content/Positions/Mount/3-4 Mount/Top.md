@@ -379,11 +379,11 @@ Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity.
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 45% | 30% |
-| Intermediate | 70% | 60% | 45% |
-| Advanced     | 85% | 75% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 45-90 seconds
 

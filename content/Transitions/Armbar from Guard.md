@@ -157,7 +157,7 @@ The technique's effectiveness stems from the element of surprise combined with t
 Strategically, this technique serves dual purposes: it threatens a high-percentage submission that forces the opponent to respect your offensive capabilities from a supposedly defensive position, and it creates a submission chain that includes triangle and omoplata transitions if the armbar is defended. Advanced practitioners understand that the threat of this armbar fundamentally changes the top player's passing strategy, as aggressive forward pressure now carries submission risk. This transforms crackhead control from pure survival into an active offensive platform with multiple attack vectors.
 
 **From Position**: [[Crackhead Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, this technique serves dual purposes: it threatens a high-percenta
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: From crackhead control bottom, establish two-on-one grip control on the target arm with both hands gripping at the wrist. Your dominant hand controls their wrist while your secondary hand reinforces by gripping their forearm just above the wrist joint. Maintain active hip movement to prevent opponent from settling their weight. (Timing: As opponent reaches forward or posts hand)
-2. **Create hip angle**: Using the explosive hip mobility characteristic of crackhead control, pivot your hips perpendicular to the opponent's arm. Your body rotates approximately 90 degrees so that your hips face directly toward their shoulder rather than straight up. This creates the angle necessary for the armbar while maintaining continuous wrist control. (Timing: Immediately after securing grip)
-3. **Swing leg over face**: As your hips pivot, swing your outside leg over the opponent's head in a smooth arc. The leg should cross their face with your hamstring making contact with their cheek and ear. This leg controls their posture and prevents them from sitting up or stacking. Keep the motion continuous - don't pause at any point during the swing. (Timing: Simultaneous with hip pivot)
-4. **Clamp arm to chest**: Pull the opponent's trapped arm tight to your chest, securing it between both hands and your sternum. The arm should cross your centerline with their elbow pointing toward the ceiling. Pinch your knees together to create a vice-like structure that prevents them from retracting the limb. (Timing: As leg crosses face)
-5. **Position hips to shoulder**: Scoot your hips as close to the opponent's shoulder as possible, eliminating any gap between your hip bone and their shoulder joint. This maximizes your leverage and minimizes their defensive options. Your legs should be controlling their upper body with one across the face and one across the chest. (Timing: After arm is secured)
-6. **Establish armbar control**: Settle into armbar control position with proper arm orientation (opponent's thumb pointing toward ceiling), tight hip-to-shoulder connection, and both legs actively controlling their posture. From here you can either attempt the finish immediately or consolidate the control position before committing to the submission. (Timing: Final position establishment)
+1. **Secure wrist control**: From crackhead control bottom, establish two-on-one grip control on the target arm with both hands gripping at the wrist. Your dominant hand controls their wrist while your secondary hand reinforces by gripping their forearm just above the wrist joint. Maintain active hip movement to prevent opponent from settling their weight.
+2. **Create hip angle**: Using the explosive hip mobility characteristic of crackhead control, pivot your hips perpendicular to the opponent's arm. Your body rotates approximately 90 degrees so that your hips face directly toward their shoulder rather than straight up. This creates the angle necessary for the armbar while maintaining continuous wrist control.
+3. **Swing leg over face**: As your hips pivot, swing your outside leg over the opponent's head in a smooth arc. The leg should cross their face with your hamstring making contact with their cheek and ear. This leg controls their posture and prevents them from sitting up or stacking. Keep the motion continuous - don't pause at any point during the swing.
+4. **Clamp arm to chest**: Pull the opponent's trapped arm tight to your chest, securing it between both hands and your sternum. The arm should cross your centerline with their elbow pointing toward the ceiling. Pinch your knees together to create a vice-like structure that prevents them from retracting the limb.
+5. **Position hips to shoulder**: Scoot your hips as close to the opponent's shoulder as possible, eliminating any gap between your hip bone and their shoulder joint. This maximizes your leverage and minimizes their defensive options. Your legs should be controlling their upper body with one across the face and one across the chest.
+6. **Establish armbar control**: Settle into armbar control position with proper arm orientation (opponent's thumb pointing toward ceiling), tight hip-to-shoulder connection, and both legs actively controlling their posture. From here you can either attempt the finish immediately or consolidate the control position before committing to the submission.
 
 
 </section>
@@ -257,19 +257,15 @@ Strategically, this technique serves dual purposes: it threatens a high-percenta
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice the hip pivot and leg swing from crackhead control with a fully cooperative partner. Focus on the grip-to-pivot-to-leg swing sequence as one continuous motion. Perform 20-30 repetitions per session, emphasizing smooth mechanics over speed. Partner provides no resistance but maintains realistic body positioning.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner begins applying light passing pressure from crackhead control. Identify the optimal moment to attack when opponent's weight shifts forward or arm extends. Practice recognizing the timing window and executing the entry. Partner defends lightly if entry timing is poor, succeeds if timing is correct.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Practice the armbar entry with partner providing moderate resistance including common defenses (posturing, arm retraction, rolling). When armbar is defended, flow to triangle setup or omoplata rather than forcing the armbar. Develop recognition of which follow-up is appropriate based on opponent's defensive reaction.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate the armbar from crackhead control into live rolling and specific training. Start in crackhead control and attempt to hit the armbar against full resistance. Track success rates and common failure points. Refine timing based on live feedback and opponent tendencies.
-(Resistance: Full)
 
 
 

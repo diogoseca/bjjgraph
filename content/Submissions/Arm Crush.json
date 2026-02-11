@@ -13,11 +13,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Arm Crush is a powerful shoulder lock submission that combines crushing pressure with rotational torque on the opponent's shoulder joint. Unlike traditional shoulder locks that isolate the joint through leverage alone, the Arm Crush uses body weight and positional pressure to compress the shoulder while simultaneously applying a twisting motion. This submission is most commonly executed from side control positions, particularly when the opponent's arm is trapped between their body and yours. The technique targets the rotator cuff muscles and shoulder capsule, creating intense pressure that forces a quick tap. The Arm Crush is especially effective against defensive opponents who keep their elbows tight to their body, as this defensive posture actually creates the necessary configuration for the submission. The finish combines elements of the Americana and Kimura while adding a unique crushing component that makes it extremely difficult to defend once properly applied.",
   "safety_considerations": {
     "injury_risks": [
@@ -87,43 +82,37 @@
       "step_number": 1,
       "action": "Secure side control consolidation",
       "description": "From side control, establish a strong cross-face with your near arm while driving your shoulder into opponent's jaw. Your far arm reaches across to control their far shoulder or reach under their far armpit. Your chest should be heavy on their chest, and your hips should be low and tight to their near hip. This consolidated position prevents escape and sets up the arm trap.",
-      "timing": "2-3 seconds to settle weight",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to settle weight"
     },
     {
       "step_number": 2,
       "action": "Trap the near arm",
       "description": "As opponent defends by keeping their near elbow tight to their ribs, slide your far arm underneath their trapped arm at the elbow level. Your forearm should wedge between their upper arm and their ribcage. Maintain heavy chest pressure to prevent them from extracting their arm. The tighter they defend, the deeper you can wedge your arm underneath theirs.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Establish the grip configuration",
       "description": "With your far arm wedged under their elbow, reach across with your near hand to grip your own wrist or forearm, creating a figure-four configuration around their trapped arm. Your grip should be tight and your elbows should be squeezed together. This creates the frame that will apply the crushing pressure. Ensure your chest remains heavy on their torso throughout this adjustment.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Position your hips for maximum pressure",
       "description": "Walk your hips slightly toward opponent's head while maintaining chest pressure. This hip movement changes the angle of your torso relative to their trapped arm, increasing the crushing pressure on their shoulder. Your body should form approximately a 45-degree angle to their torso. Keep your weight consolidated and avoid lifting your chest.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Apply the crushing pressure",
       "description": "Drive your chest down and forward toward the mat while simultaneously squeezing your elbows together. This creates intense crushing pressure on opponent's shoulder joint, compressing it between your chest weight and their own body. The pressure should be applied progressively over 2-3 seconds. Watch for the tap - opponent cannot verbally tap if you have a tight cross-face.",
-      "timing": "2-3 seconds progressive pressure",
-      "pressure_level": "Maximum"
+      "timing": "2-3 seconds progressive pressure"
     },
     {
       "step_number": 6,
       "action": "Add rotational torque for the finish",
       "description": "While maintaining the crushing pressure, slightly rotate your torso toward opponent's legs. This adds a twisting component to the shoulder lock, combining compression with rotation. The movement should be small and controlled - 2-3 inches of rotation maximum. This final adjustment typically forces an immediate tap as the shoulder joint is simultaneously compressed and twisted.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Maximum"
+      "timing": "1-2 seconds"
     }
   ],
   "opponent_defense_patterns": [
@@ -152,38 +141,32 @@
     {
       "error": "Lifting chest off opponent to get leverage",
       "consequence": "Removes the crushing pressure that makes this submission effective and allows opponent to escape their arm",
-      "correction": "Keep your chest heavy and connected throughout the entire sequence. The pressure comes from driving down and forward, not from lifting and pulling.",
-      "danger_level": "Low"
+      "correction": "Keep your chest heavy and connected throughout the entire sequence. The pressure comes from driving down and forward, not from lifting and pulling."
     },
     {
       "error": "Applying explosive rotational force without progressive pressure",
       "consequence": "Significantly increases injury risk and may cause shoulder dislocation or rotator cuff tear",
-      "correction": "Build pressure progressively over 4-6 seconds. Add rotation only after establishing crushing pressure. Never spike or jerk the shoulder.",
-      "danger_level": "CRITICAL"
+      "correction": "Build pressure progressively over 4-6 seconds. Add rotation only after establishing crushing pressure. Never spike or jerk the shoulder."
     },
     {
       "error": "Allowing hips to rise too high during finish",
       "consequence": "Reduces crushing pressure and allows opponent to turn into you or extract their arm",
-      "correction": "Keep hips low and tight to opponent's hip throughout. Any hip movement should be lateral (toward their head) not vertical (lifting up).",
-      "danger_level": "Medium"
+      "correction": "Keep hips low and tight to opponent's hip throughout. Any hip movement should be lateral (toward their head) not vertical (lifting up)."
     },
     {
       "error": "Releasing cross-face control to focus on arm",
       "consequence": "Opponent can turn their head and body toward you, escaping the submission and potentially reversing position",
-      "correction": "Maintain cross-face pressure throughout the entire submission. Your near-side shoulder drives into their jaw while your far arm executes the submission.",
-      "danger_level": "Medium"
+      "correction": "Maintain cross-face pressure throughout the entire submission. Your near-side shoulder drives into their jaw while your far arm executes the submission."
     },
     {
       "error": "Attempting submission when opponent's arm is too far from their body",
       "consequence": "Submission becomes ineffective as the crushing component requires the arm to be compressed against their torso",
-      "correction": "Only attempt when opponent's elbow is tight to their ribs. If their arm is extended, transition to different submission like Americana or Kimura.",
-      "danger_level": "Low"
+      "correction": "Only attempt when opponent's elbow is tight to their ribs. If their arm is extended, transition to different submission like Americana or Kimura."
     },
     {
       "error": "Continuing pressure after hearing popping or grinding in shoulder",
       "consequence": "Severe shoulder injury including rotator cuff tears, labrum damage, or dislocation",
-      "correction": "Release immediately if you hear or feel any unusual sounds from the shoulder joint. These sounds indicate structural damage is occurring.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately if you hear or feel any unusual sounds from the shoulder joint. These sounds indicate structural damage is occurring."
     }
   ],
   "variations_and_setups": [
@@ -265,53 +248,9 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn the mechanics without any resistance. Practice establishing side control, trapping the arm, and creating the figure-four grip. Understand the anatomy of the shoulder and why this submission is high-risk.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner remains completely compliant. Focus on slow, controlled movements. Practice release protocol multiple times. Understand that this submission should never be applied quickly even with experience."
-    },
-    {
-      "phase": "Slow Progressive Pressure",
-      "timeframe": "Week 3-4",
-      "focus": "Begin applying light pressure with cooperative partner. Practice building pressure progressively over 5-6 seconds. Partner taps early to establish communication. Work on feeling the difference between crushing pressure and rotational pressure.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Apply only 20-30% of full pressure. Partner taps when they first feel shoulder discomfort, not when they feel pain. Practice recognizing the tap immediately and releasing smoothly. Verbal communication throughout."
-    },
-    {
-      "phase": "Positional Setup Development",
-      "timeframe": "Week 5-8",
-      "focus": "Practice recognizing when opponent's defensive posture creates the opportunity for Arm Crush. Work on transitioning from other side control attacks (Americana, Kimura) to Arm Crush when opponent adjusts. Start from various side control positions.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner provides mild defensive framing and elbow positioning but does not actively escape. Apply pressure very slowly (6-7 seconds). Focus on control before submission. Stop immediately if partner cannot tap freely with their hand."
-    },
-    {
-      "phase": "Defensive Response Integration",
-      "timeframe": "Week 9-12",
-      "focus": "Partner begins using realistic defenses (bridging, turning, pulling elbow out). Practice maintaining position and adjusting to defenses. Learn when to abandon the submission and transition to other attacks or positions.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners must be experienced with shoulder locks. Apply pressure over 5-6 seconds minimum. Partner taps early and often. If submission feels 'stuck' or difficult, release and restart rather than forcing it. This indicates improper positioning."
-    },
-    {
-      "phase": "Situational Drilling",
-      "timeframe": "Week 13-16",
-      "focus": "Practice Arm Crush within the context of side control sequences. Chain from other attacks. Work on recognizing the submission opportunity during live positional sparring. Develop sensitivity to when submission is properly set versus when it should be abandoned.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Only drill with trusted partners who understand the injury risks. Never use competition speed. Apply progressively over 4-5 seconds minimum. Partner must tap at first sign of discomfort. Consider this a control position that can finish, not a desperation submission."
-    },
-    {
-      "phase": "Ongoing Refinement and Safety Review",
-      "timeframe": "Month 5+",
-      "focus": "Refine mechanical efficiency to require less strength. Study opponent reactions to develop higher-percentage setups. Regularly review safety protocols and injury risks. Mentor less experienced students on safe application.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "This submission always requires controlled, progressive application regardless of experience level. Never appropriate for competition due to injury risk. Review release protocol monthly. Stay current on shoulder injury prevention and recognition."
-    }
-  ],
   "from_positions": [
     "Side Control",
-    "North South Control",
+    "North-South",
     "Knee on Belly",
     "Kuzure Kesa-Gatame",
     "Modified Scarf Hold",
@@ -361,5 +300,6 @@
       "name": "Kesa Gatame",
       "relationship": "Related control position with similar arm trapping opportunities"
     }
-  ]
+  ],
+  "success_rate": 52
 }

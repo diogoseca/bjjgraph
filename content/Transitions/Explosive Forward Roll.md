@@ -157,7 +157,7 @@ This escape is particularly effective when the opponent has consolidated harness
 Strategically, the explosive forward roll serves as an alternative when traditional standing escapes have failed or when the opponent is dragging you backward toward a takedown. Rather than fighting the backward pull, you redirect the energy forward and down, creating separation through inversion. This technique is seen frequently in no-gi competition where grip control is more difficult to maintain, making explosive escapes more viable than systematic grip breaks.
 
 **From Position**: [[Standing Back Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: Grip the opponent's choking arm wrist with your same-side hand and their underhook arm with your opposite hand, creating two-on-one control that prevents them from posting during the roll (Timing: Immediately upon feeling opponent begin to pull backward)
-2. **Break posture forward**: Bend forward explosively at the waist while tucking your chin tightly to your chest, pulling the opponent's controlled arm across your body and loading their weight onto your back (Timing: As opponent's pull creates backward momentum)
-3. **Drop level and dive**: Bend your knees deeply while driving your hips forward and down, positioning your head toward the mat at a diagonal angle away from the choking arm side (Timing: Immediately following forward break)
-4. **Execute forward roll**: Roll forward over your shoulder in a diagonal direction, using the momentum to carry both you and your opponent over, maintaining wrist control throughout the rolling motion (Timing: One continuous motion from the dive)
-5. **Clear hips through**: As you complete the roll, drive your hips through and away from the opponent, creating space and breaking any remaining grip connection on your torso (Timing: As your back touches the mat)
-6. **Recover guard position**: Immediately insert your legs between you and the opponent, establishing half guard by hooking their leg or framing to open guard with feet on hips, facing your opponent (Timing: Within one second of completing roll)
+1. **Secure wrist control**: Grip the opponent's choking arm wrist with your same-side hand and their underhook arm with your opposite hand, creating two-on-one control that prevents them from posting during the roll
+2. **Break posture forward**: Bend forward explosively at the waist while tucking your chin tightly to your chest, pulling the opponent's controlled arm across your body and loading their weight onto your back
+3. **Drop level and dive**: Bend your knees deeply while driving your hips forward and down, positioning your head toward the mat at a diagonal angle away from the choking arm side
+4. **Execute forward roll**: Roll forward over your shoulder in a diagonal direction, using the momentum to carry both you and your opponent over, maintaining wrist control throughout the rolling motion
+5. **Clear hips through**: As you complete the roll, drive your hips through and away from the opponent, creating space and breaking any remaining grip connection on your torso
+6. **Recover guard position**: Immediately insert your legs between you and the opponent, establishing half guard by hooking their leg or framing to open guard with feet on hips, facing your opponent
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, the explosive forward roll serves as an alternative when traditio
 ## Training Progressions
 **Week 1-2** - Solo rolling mechanics
 Practice forward rolls from standing position, focusing on diagonal direction, chin tuck, and smooth shoulder-to-hip flow. Build comfort with inversion and rolling mechanics without partner.
-(Resistance: None)
 
 **Week 3-4** - Partner drilling with cooperation
 Partner establishes loose standing back control. Practice full technique with compliant partner who allows the roll. Focus on wrist control maintenance and guard recovery timing.
-(Resistance: Light)
 
 **Week 5-6** - Timing and reaction drilling
 Partner applies standing back control with moderate resistance. Practice recognizing timing windows - when opponent pulls backward, when grips are loose. Add guard recovery variations.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Start in standing back control bottom position with full resistance. Attempt escape including explosive forward roll as one option among multiple escape paths. Test under competition-like intensity.
-(Resistance: Full)
 
 
 

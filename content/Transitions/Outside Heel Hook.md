@@ -157,7 +157,7 @@ From Backside 50-50 Bottom, the attacker controls the opponent's leg with their 
 Strategically, the Outside Heel Hook serves as the primary submission threat from Backside 50-50, forcing opponents to choose between defending the heel and preventing positional advancement. When opponents hide their heel or boot-defend effectively, this opens pathways for Inside Heel Hook attacks, toe holds, or positional escapes. The technique epitomizes modern leg lock philosophy: systematic entanglement control combined with precise breaking mechanics.
 
 **From Position**: [[Backside 50-50/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg entanglement**: Ensure your inside leg is triangled behind opponent's knee, creating the classic 50-50 configuration. Your outside leg controls their hip by hooking over or pressing against their thigh to prevent rotation escapes. (Timing: Continuous throughout attack)
-2. **Control the knee line**: Squeeze your knees together and pinch opponent's leg tightly between your thighs. Their knee must be immobilized relative to their hip - any slack in the knee line allows them to spin and relieve rotational pressure. (Timing: Before gripping the heel)
-3. **Acquire heel grip**: Reach with your outside arm first, threading under their Achilles tendon. Cup the heel with this hand, placing the blade of your wrist directly against the tendon. Your inside arm forms the top of the figure-four, gripping your own wrist. (Timing: Quick transition from knee control)
-4. **Set breaking angle**: Pull the captured heel tight to your chest, eliminating all space between their foot and your sternum. Your elbows squeeze inward and down, locking against your ribcage. The heel should be centered on your chest, not off to one side. (Timing: 2-3 seconds)
-5. **Position hips for rotation**: Angle your hips away from opponent, creating the mechanical pathway for external tibial rotation. Your body forms a lever system - as your hips move away, your locked grip rotates their heel outward relative to their immobilized knee. (Timing: Simultaneous with grip setting)
-6. **Apply breaking mechanics**: Extend your hips while rotating away from opponent and arching slightly. The submission pressure comes from this hip drive, not from arm pulling. Their toes should rotate toward their opposite hip. Apply pressure progressively - lateral knee injuries occur quickly. (Timing: Controlled, progressive application)
+1. **Secure leg entanglement**: Ensure your inside leg is triangled behind opponent's knee, creating the classic 50-50 configuration. Your outside leg controls their hip by hooking over or pressing against their thigh to prevent rotation escapes.
+2. **Control the knee line**: Squeeze your knees together and pinch opponent's leg tightly between your thighs. Their knee must be immobilized relative to their hip - any slack in the knee line allows them to spin and relieve rotational pressure.
+3. **Acquire heel grip**: Reach with your outside arm first, threading under their Achilles tendon. Cup the heel with this hand, placing the blade of your wrist directly against the tendon. Your inside arm forms the top of the figure-four, gripping your own wrist.
+4. **Set breaking angle**: Pull the captured heel tight to your chest, eliminating all space between their foot and your sternum. Your elbows squeeze inward and down, locking against your ribcage. The heel should be centered on your chest, not off to one side.
+5. **Position hips for rotation**: Angle your hips away from opponent, creating the mechanical pathway for external tibial rotation. Your body forms a lever system - as your hips move away, your locked grip rotates their heel outward relative to their immobilized knee.
+6. **Apply breaking mechanics**: Extend your hips while rotating away from opponent and arching slightly. The submission pressure comes from this hip drive, not from arm pulling. Their toes should rotate toward their opposite hip. Apply pressure progressively - lateral knee injuries occur quickly.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 ## Training Progressions
 **Week 1-2** - Grip mechanics and body positioning
 Practice figure-four grip configurations on a static partner or grappling dummy. Focus on wrist blade placement on Achilles, elbow positioning tight to body, and heel-to-chest connection. No resistance - pure technical repetition.
-(Resistance: None)
 
 **Week 3-4** - Breaking angle and hip mechanics
 With cooperative partner in Backside 50-50, work the complete sequence from entanglement to heel acquisition to breaking position. Partner provides feedback on pressure and signals tap immediately. Emphasize hip-driven finish over arm pulling.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration and chain attacks
 Partner begins using boot defense and spin escapes. Practice recognizing when to persist with Outside Heel Hook versus transitioning to Inside Heel Hook or toe hold. Develop sensitivity to opponent's defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application with full defense
 Positional sparring from Backside 50-50 with full resistance. Opponent uses all available defenses including counter-attacks. Focus on submission finishing rate, recognizing when to release and re-engage, and managing leg lock exchanges.
-(Resistance: Full)
 
 
 

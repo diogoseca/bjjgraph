@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Pass to Top Control is a critical escape and advancement technique executed when defending against straight ankle lock attacks. When your opponent commits heavily to the submission attempt, they often sacrifice upper body positioning and leg control to maximize breaking pressure. This creates a window to circle around their guard and establish dominant top control, transforming a defensive situation into an offensive opportunity.\n\nThe technique capitalizes on the inherent vulnerability of the bottom leg lock attacker who has traded superior positioning for submission threat. By recognizing when the attacker over-commits to the finish, the defender can exploit the temporary sacrifice of leg control and upper body connection. The key lies in timing the pass attempt with the attacker's commitment phase rather than attempting to power through secure control.\n\nStrategically, this transition represents the optimal outcome from the defender's perspective in straight ankle lock control. Rather than simply escaping to neutral or accepting a 50-50 scramble, successful execution lands you in side control with significant positional advantage. This makes it particularly valuable in competition contexts where points and position matter as much as submission defense.",
   "key_principles": [
     "Recognize when attacker commits to submission attempt and sacrifices positional control",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Recognize commitment window",
-      "description": "Identify the moment when attacker arches back and pulls heel for the finish, causing their leg control to loosen as they prioritize submission pressure over position maintenance",
-      "timing": "As attacker initiates breaking mechanics"
+      "description": "Identify the moment when attacker arches back and pulls heel for the finish, causing their leg control to loosen as they prioritize submission pressure over position maintenance"
     },
     {
       "step_number": 2,
       "action": "Establish frames",
-      "description": "Post both hands against attacker's shoulders or chest, creating a pushing frame that will facilitate your circular movement and prevent them from following your pass attempt",
-      "timing": "Immediately upon recognizing opportunity"
+      "description": "Post both hands against attacker's shoulders or chest, creating a pushing frame that will facilitate your circular movement and prevent them from following your pass attempt"
     },
     {
       "step_number": 3,
       "action": "Free trapped leg",
-      "description": "Use hip rotation combined with frame pressure to extract your knee toward your chest, clearing your foot from their grip as their focus remains on the submission attempt",
-      "timing": "While maintaining constant frame pressure"
+      "description": "Use hip rotation combined with frame pressure to extract your knee toward your chest, clearing your foot from their grip as their focus remains on the submission attempt"
     },
     {
       "step_number": 4,
       "action": "Circle toward attacker's head",
-      "description": "Step your freed leg around attacker's body toward their head, using your frames to push off and create the momentum needed to bypass their legs entirely",
-      "timing": "Immediately after leg extraction"
+      "description": "Step your freed leg around attacker's body toward their head, using your frames to push off and create the momentum needed to bypass their legs entirely"
     },
     {
       "step_number": 5,
       "action": "Clear legs completely",
-      "description": "Continue circular motion until both your legs have cleared attacker's guard entirely, preventing any last-second leg entanglement or guard recovery attempt",
-      "timing": "Continuous fluid movement"
+      "description": "Continue circular motion until both your legs have cleared attacker's guard entirely, preventing any last-second leg entanglement or guard recovery attempt"
     },
     {
       "step_number": 6,
       "action": "Establish side control",
-      "description": "Drop your weight perpendicular to attacker's torso, establishing crossface control and hip-to-hip connection to secure the dominant side control position before they can recover",
-      "timing": "Immediately upon clearing legs"
+      "description": "Drop your weight perpendicular to attacker's torso, establishing crossface control and hip-to-hip connection to secure the dominant side control position before they can recover"
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Recognition and mechanics",
-      "description": "Practice identifying the commitment window with cooperative partner. Focus on frame establishment, leg extraction mechanics, and circular movement patterns without resistance. Build muscle memory for the complete sequence.",
-      "resistance_level": "None"
+      "description": "Practice identifying the commitment window with cooperative partner. Focus on frame establishment, leg extraction mechanics, and circular movement patterns without resistance. Build muscle memory for the complete sequence."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing development",
-      "description": "Partner provides realistic ankle lock attempts with varying commitment levels. Practice recognizing genuine opportunities versus feigned commitment. Add light resistance to leg extraction and passing phases.",
-      "resistance_level": "Light"
+      "description": "Partner provides realistic ankle lock attempts with varying commitment levels. Practice recognizing genuine opportunities versus feigned commitment. Add light resistance to leg extraction and passing phases."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner attempts common counters including kneebar transitions and leg control recovery. Practice maintaining knee protection and completing pass through counter attempts. Develop contingency responses.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts common counters including kneebar transitions and leg control recovery. Practice maintaining knee protection and completing pass through counter attempts. Develop contingency responses."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Incorporate into rolling with full resistance. Start from straight ankle lock control positions and work complete defensive sequences including this pass. Track success rate and refine timing based on live feedback.",
-      "resistance_level": "Full"
+      "description": "Incorporate into rolling with full resistance. Start from straight ankle lock control positions and work complete defensive sequences including this pass. Track success rate and refine timing based on live feedback."
     }
   ],
   "variants_and_adaptations": [
@@ -181,43 +166,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Pass to Top Control?",
-      "answer": "The primary goal is to escape straight ankle lock control while simultaneously establishing a dominant top position (side control) rather than simply escaping to neutral. This transforms a defensive situation into an offensive advantage, gaining both positional points and submission opportunities.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to escape straight ankle lock control while simultaneously establishing a dominant top position (side control) rather than simply escaping to neutral. This transforms a defensive situation into an offensive advantage, gaining both positional points and submission opportunities."
     },
     {
       "question": "What position do you start Pass to Top Control from?",
-      "answer": "This technique starts from Straight Ankle Lock Control where you are the defender (top position relative to the leg attack). Your opponent is attacking your ankle from bottom position with their legs wrapped around your trapped leg and hands controlling your foot.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Straight Ankle Lock Control where you are the defender (top position relative to the leg attack). Your opponent is attacking your ankle from bottom position with their legs wrapped around your trapped leg and hands controlling your foot."
     },
     {
       "question": "What are the key grips and frames needed for Pass to Top Control?",
-      "answer": "The key frames are both hands posted against the attacker's shoulders or chest, creating pushing pressure that facilitates circular movement. No specific grips are needed - the technique relies on frames rather than grips, as your hands need mobility to adjust positioning throughout the pass.",
-      "difficulty": "Intermediate"
+      "answer": "The key frames are both hands posted against the attacker's shoulders or chest, creating pushing pressure that facilitates circular movement. No specific grips are needed - the technique relies on frames rather than grips, as your hands need mobility to adjust positioning throughout the pass."
     },
     {
       "question": "How do you counter Pass to Top Control when attacking the ankle lock?",
-      "answer": "The primary counter is recognizing the pass attempt early and recovering leg triangle control before the defender can complete the circle. This requires balancing submission commitment with positional awareness, releasing finish attempt if necessary to maintain leg control rather than losing position entirely.",
-      "difficulty": "Advanced"
+      "answer": "The primary counter is recognizing the pass attempt early and recovering leg triangle control before the defender can complete the circle. This requires balancing submission commitment with positional awareness, releasing finish attempt if necessary to maintain leg control rather than losing position entirely."
     },
     {
       "question": "When is the best time to attempt Pass to Top Control?",
-      "answer": "The optimal timing is when the attacker commits heavily to the finish attempt by arching their back and pulling your heel, which temporarily sacrifices their leg control and upper body positioning. This commitment window typically lasts 2-4 seconds and represents the highest-percentage opportunity for the pass.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the attacker commits heavily to the finish attempt by arching their back and pulling your heel, which temporarily sacrifices their leg control and upper body positioning. This commitment window typically lasts 2-4 seconds and represents the highest-percentage opportunity for the pass."
     },
     {
       "question": "Why must you keep your knee bent during the leg extraction phase?",
-      "answer": "A bent knee protects against kneebar counter-attacks that become available when the leg straightens. Full leg extension creates a direct line for the attacker to transition to kneebar, potentially trading one leg attack for another. Keeping the knee bent and directed toward your chest maintains structural protection throughout the pass.",
-      "difficulty": "Intermediate"
+      "answer": "A bent knee protects against kneebar counter-attacks that become available when the leg straightens. Full leg extension creates a direct line for the attacker to transition to kneebar, potentially trading one leg attack for another. Keeping the knee bent and directed toward your chest maintains structural protection throughout the pass."
     },
     {
       "question": "Your opponent starts arching for the finish but keeps one leg wrapped around yours - what adjustment do you make?",
-      "answer": "If one leg remains wrapped, use your frame pressure to control their upper body while using your free leg to push down on their wrapping leg and create separation. Clear the wrapping leg before attempting the full circular pass. Attempting to circle with partial leg control remaining typically fails.",
-      "difficulty": "Advanced"
+      "answer": "If one leg remains wrapped, use your frame pressure to control their upper body while using your free leg to push down on their wrapping leg and create separation. Clear the wrapping leg before attempting the full circular pass. Attempting to circle with partial leg control remaining typically fails."
     },
     {
       "question": "What immediate actions must you take after clearing your legs past the attacker's guard?",
-      "answer": "Immediately establish side control by dropping your weight perpendicular to the attacker's torso, securing crossface control with your forearm across their face, and establishing hip-to-hip connection. The pass is incomplete until these controls are established - stopping after clearing legs allows guard recovery.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately establish side control by dropping your weight perpendicular to the attacker's torso, securing crossface control with your forearm across their face, and establishing hip-to-hip connection. The pass is incomplete until these controls are established - stopping after clearing legs allows guard recovery."
     }
   ],
   "safety_considerations": "Pass to Top Control is a relatively low-risk technique compared to other leg lock escapes, but requires attention to knee protection throughout. Never allow your trapped leg to straighten during extraction as this exposes the knee to kneebar attacks. Train the timing recognition phase extensively before adding resistance to avoid injury from poorly-timed attempts. Communicate clearly with training partners about commitment levels during drilling. If you feel significant pressure on your ankle or knee during the pass attempt, prioritize defense over position - tap if necessary rather than forcing a pass through dangerous submission pressure.",
@@ -259,5 +236,6 @@
       "name": "Standing Escape",
       "relationship": "Alternative escape path using similar recognition timing"
     }
-  ]
+  ],
+  "success_rate": 58
 }

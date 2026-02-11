@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Rubber Guard",
-  "success_rates": {
-    "beginner": 20,
-    "intermediate": 35,
-    "advanced": 50
-  },
   "overview": "The Baratoplata is an advanced shoulder lock submission that originated from the 10th Planet Jiu-Jitsu system, combining elements of the omoplata with unique arm isolation mechanics. This technique is typically initiated from rubber guard positions, particularly Mission Control or New York, and represents a sophisticated understanding of shoulder manipulation and control. The submission works by trapping the opponent's arm while rotating their shoulder beyond its natural range of motion, creating intense pressure on the rotator cuff and shoulder capsule. Unlike traditional omoplatas that focus primarily on forward shoulder rotation, the Baratoplata incorporates a unique arm weave that increases the mechanical advantage and makes escape more difficult. The technique exemplifies the innovation within modern no-gi grappling, offering a creative solution to opponents who defend conventional rubber guard attacks. While technically demanding and requiring significant flexibility and timing, the Baratoplata has proven effective at the highest levels of competition when executed with proper setup and control.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Establish rubber guard control",
       "description": "From closed guard, break opponent's posture and establish Mission Control by placing your foot behind their head. Use your hand to control their trapped arm's wrist, preventing them from posting or creating defensive frames. Your other leg should maintain closed guard position initially.",
-      "timing": "3-5 seconds to establish solid control",
-      "pressure_level": "Moderate"
+      "timing": "3-5 seconds to establish solid control"
     },
     {
       "step_number": 2,
       "action": "Transition to New York position",
       "description": "Release your bottom leg from closed guard and bring your knee across opponent's back while maintaining high guard pressure with your top leg. This creates the angle necessary for the arm weave. Keep constant pressure pulling their head down and controlling their trapped arm throughout this transition.",
-      "timing": "2-3 seconds for smooth transition",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds for smooth transition"
     },
     {
       "step_number": 3,
       "action": "Thread your arm for the weave",
       "description": "With your hand that's controlling their wrist, thread your arm over their trapped arm and under your own leg that's across their back. This creates the characteristic arm weave that locks their shoulder in place. Maintain tight connection between your leg and their arm during this threading motion.",
-      "timing": "2-4 seconds to establish weave",
-      "pressure_level": "Moderate"
+      "timing": "2-4 seconds to establish weave"
     },
     {
       "step_number": 4,
       "action": "Secure the grip and adjust angle",
       "description": "Once your arm is threaded, grip your own shin or knee to lock the position. Adjust your hip angle by scooting slightly away from opponent, creating the proper geometry for shoulder rotation. Your high guard leg should maintain constant downward pressure on their head and upper back.",
-      "timing": "2-3 seconds for grip and angle adjustment",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds for grip and angle adjustment"
     },
     {
       "step_number": 5,
       "action": "Extend hips and rotate opponent's shoulder",
       "description": "Slowly extend your hips while maintaining the arm weave and high guard control. This extension creates rotational pressure on opponent's shoulder, moving it beyond its normal range of motion. The pressure should be progressive and controlled, never sudden or explosive.",
-      "timing": "5-7 seconds minimum for safe application",
-      "pressure_level": "Maximum"
+      "timing": "5-7 seconds minimum for safe application"
     },
     {
       "step_number": 6,
       "action": "Fine-tune finishing pressure",
       "description": "Make micro-adjustments to hip angle and leg pressure to maximize effectiveness while monitoring opponent's response. The finish combines downward pressure from your high guard leg, outward rotation from the arm weave, and extension from your hips. Be prepared to release immediately upon tap signal.",
-      "timing": "Continuous adjustment until tap",
-      "pressure_level": "Maximum"
+      "timing": "Continuous adjustment until tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,44 +149,37 @@
     {
       "error": "Attempting the finish without properly establishing the arm weave",
       "consequence": "Opponent easily escapes as shoulder is not properly isolated, wasted energy and lost position",
-      "correction": "Take time to thread arm completely and secure grip on own shin before attempting hip extension",
-      "danger_level": "Low"
+      "correction": "Take time to thread arm completely and secure grip on own shin before attempting hip extension"
     },
     {
       "error": "Releasing high guard pressure during the transition",
       "consequence": "Opponent postures up and escapes, nullifying all control and setup work",
-      "correction": "Maintain constant downward pressure with top leg throughout entire sequence, never allow opponent's head to rise",
-      "danger_level": "Medium"
+      "correction": "Maintain constant downward pressure with top leg throughout entire sequence, never allow opponent's head to rise"
     },
     {
       "error": "Using explosive jerking motions to finish the submission",
       "consequence": "High risk of serious shoulder injury including rotator cuff tears and dislocations",
-      "correction": "Apply pressure slowly and progressively over 5-7 seconds minimum, allowing partner time to recognize and tap to the submission",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure slowly and progressively over 5-7 seconds minimum, allowing partner time to recognize and tap to the submission"
     },
     {
       "error": "Failing to control opponent's free arm",
       "consequence": "Opponent posts and creates frames that prevent proper finishing angle",
-      "correction": "Use bottom leg to hook or control free arm, or adjust position to limit their posting options",
-      "danger_level": "Medium"
+      "correction": "Use bottom leg to hook or control free arm, or adjust position to limit their posting options"
     },
     {
       "error": "Incorrect hip angle preventing effective shoulder rotation",
       "consequence": "Insufficient pressure on shoulder joint, opponent defends easily",
-      "correction": "Scoot hips away from opponent to create proper angle, ensure your body forms correct geometry for rotational leverage",
-      "danger_level": "Low"
+      "correction": "Scoot hips away from opponent to create proper angle, ensure your body forms correct geometry for rotational leverage"
     },
     {
       "error": "Continuing to apply pressure after partner taps",
       "consequence": "Guaranteed serious injury to training partner's shoulder, potential permanent damage",
-      "correction": "Develop immediate release reflex, train the release protocol as thoroughly as the submission itself",
-      "danger_level": "CRITICAL"
+      "correction": "Develop immediate release reflex, train the release protocol as thoroughly as the submission itself"
     },
     {
       "error": "Attempting against opponents with limited shoulder flexibility",
       "consequence": "Excessive injury risk even with controlled application",
-      "correction": "Assess partner's flexibility during drilling, communicate before attempting, consider alternative techniques for less flexible partners",
-      "danger_level": "CRITICAL"
+      "correction": "Assess partner's flexibility during drilling, communicate before attempting, consider alternative techniques for less flexible partners"
     }
   ],
   "variations_and_setups": [
@@ -284,50 +266,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "2-3 weeks minimum",
-      "focus": "Study shoulder anatomy, injury mechanisms, and submission mechanics without any resistance. Learn proper arm weave threading, hip positioning, and release protocol.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand rotator cuff and shoulder capsule vulnerability, learn all tap signals and release procedures, study common injuries and their severity"
-    },
-    {
-      "phase": "Position Entry Drilling",
-      "timeframe": "3-4 weeks",
-      "focus": "Practice establishing rubber guard control, transitioning from Mission Control to New York, and threading the arm weave smoothly. No finishing pressure applied.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner maintains relaxed shoulder throughout, communicate constantly, practice release protocol after each repetition"
-    },
-    {
-      "phase": "Controlled Pressure Introduction",
-      "timeframe": "4-6 weeks",
-      "focus": "Apply very light finishing pressure to understand feeling of submission. Partner taps early to familiarize with pressure levels. Maximum 20-30% of finishing pressure.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Extremely slow application over 7-10 seconds minimum, partner taps at first sign of pressure, immediate release practiced, assess shoulder comfort after each repetition"
-    },
-    {
-      "phase": "Progressive Resistance",
-      "timeframe": "6-8 weeks",
-      "focus": "Partner provides mild defensive resistance to entry and setup. Work on maintaining control against basic escape attempts. Still no full finishing pressure.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Continue slow application speeds, allow partner to work defensive movements that don't risk injury, establish clear communication protocols about shoulder comfort"
-    },
-    {
-      "phase": "Realistic Drilling",
-      "timeframe": "8-12 weeks",
-      "focus": "Work against realistic defensive reactions including posting, stacking, and grip fighting. Develop submission chains from Baratoplata attempts. Gradual increase to 60-70% finishing pressure.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain 5-7 second application minimum, respect all taps immediately, adjust pressure based on partner's shoulder flexibility, monitor for any signs of discomfort"
-    },
-    {
-      "phase": "Live Application",
-      "timeframe": "3-6 months minimum before attempting in competition-style training",
-      "focus": "Attempt Baratoplata from live rolling situations when opportunity presents. Chain with other rubber guard attacks. Develop timing and sensitivity to shoulder resistance.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never use competition speed in training, maintain slow controlled finishes, be especially cautious with new or unfamiliar partners, always prioritize partner safety over tap achievement"
-    }
-  ],
   "from_positions": [
     "Rubber Guard",
     "Mission Control",
@@ -398,5 +336,6 @@
       "name": "Omoplata Control",
       "relationship": "Related control position for shoulder submissions"
     }
-  ]
+  ],
+  "success_rate": 42
 }

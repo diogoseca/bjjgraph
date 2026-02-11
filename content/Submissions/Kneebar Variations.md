@@ -157,7 +157,7 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 **Type**: Leg Lock
 **Target Area**: Knee joint (patellar ligaments, MCL, LCL, meniscus)
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -235,12 +235,12 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish leg entanglement control**: From your chosen position (ashi garami, 50-50, X-guard variant), secure the opponent's leg with your legs, ensuring their knee is isolated and controlled. Your legs should create a frame that prevents them from extracting their leg while positioning their knee at your hip line. (Timing: Initial setup - 2-3 seconds) [Pressure: Light]
-2. **Break opponent's defensive knee bend**: Using a combination of hip pressure, leg grips, and pulling on their heel, work to straighten their leg and eliminate the protective knee bend. This may require multiple attempts as the opponent resists. Keep their heel pulled toward your chest while pushing your hips forward. (Timing: 3-5 seconds progressive pressure) [Pressure: Moderate]
-3. **Secure chest-to-thigh connection**: Once the leg is extended, drive your chest tight to their thigh, wrapping your arms around their leg. Your sternum should be pressed against the back or side of their thigh depending on variation. This connection prevents space that would allow escape or counter-rotation. (Timing: 1-2 seconds) [Pressure: Firm]
-4. **Control the heel and adjust angle**: Cup their heel with your hand or trap it in your armpit, preventing them from turning their toes toward you (which creates defensive rotation). Adjust your angle slightly off-center to increase leverage and prevent them from squaring up to you. The heel control is crucial for maintaining the submission. (Timing: 2 seconds) [Pressure: Firm]
-5. **Align hips with knee joint**: Position your hips so they are aligned with or slightly above the opponent's knee joint. This positioning creates the fulcrum point for the hyperextension. Your pubic bone or hip crease should be the primary pressure point against their knee. Check your angle carefully before applying pressure. (Timing: 1-2 seconds) [Pressure: Moderate]
-6. **Apply controlled hip extension**: Slowly extend your hips while maintaining all control points (chest-to-thigh, heel control, leg entanglement). The extension should be smooth and progressive, never sudden. Pull their heel toward you while extending your hips to create the hyperextension force on their knee joint. Monitor for tap signals constantly. (Timing: 3-5 seconds progressive application) [Pressure: Maximum]
+1. **Establish leg entanglement control**: From your chosen position (ashi garami, 50-50, X-guard variant), secure the opponent's leg with your legs, ensuring their knee is isolated and controlled. Your legs should create a frame that prevents them from extracting their leg while positioning their knee at your hip line. (Timing: Initial setup - 2-3 seconds)
+2. **Break opponent's defensive knee bend**: Using a combination of hip pressure, leg grips, and pulling on their heel, work to straighten their leg and eliminate the protective knee bend. This may require multiple attempts as the opponent resists. Keep their heel pulled toward your chest while pushing your hips forward. (Timing: 3-5 seconds progressive pressure)
+3. **Secure chest-to-thigh connection**: Once the leg is extended, drive your chest tight to their thigh, wrapping your arms around their leg. Your sternum should be pressed against the back or side of their thigh depending on variation. This connection prevents space that would allow escape or counter-rotation. (Timing: 1-2 seconds)
+4. **Control the heel and adjust angle**: Cup their heel with your hand or trap it in your armpit, preventing them from turning their toes toward you (which creates defensive rotation). Adjust your angle slightly off-center to increase leverage and prevent them from squaring up to you. The heel control is crucial for maintaining the submission. (Timing: 2 seconds)
+5. **Align hips with knee joint**: Position your hips so they are aligned with or slightly above the opponent's knee joint. This positioning creates the fulcrum point for the hyperextension. Your pubic bone or hip crease should be the primary pressure point against their knee. Check your angle carefully before applying pressure. (Timing: 1-2 seconds)
+6. **Apply controlled hip extension**: Slowly extend your hips while maintaining all control points (chest-to-thigh, heel control, leg entanglement). The extension should be smooth and progressive, never sudden. Pull their heel toward you while extending your hips to create the hyperextension force on their knee joint. Monitor for tap signals constantly. (Timing: 3-5 seconds progressive application)
 
 
 </section>
@@ -260,22 +260,22 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive jerking motion instead of controlled pressure [CRITICAL DANGER]
+- **Mistake**: Applying explosive jerking motion instead of controlled pressure
   - **Consequence**: High risk of severe knee injury to training partner, loss of control position, ethical violation of training protocols
   - **Correction**: Always apply pressure gradually over 3-5 seconds minimum, communicate with partner, use smooth hip extension rather than explosive movement
-- **Mistake**: Losing chest-to-thigh connection and creating space [Medium DANGER]
+- **Mistake**: Losing chest-to-thigh connection and creating space
   - **Consequence**: Opponent can rotate leg to escape, submission loses effectiveness, position becomes vulnerable to counter-attacks
   - **Correction**: Maintain constant chest pressure against thigh, squeeze everything tight, eliminate all space between your body and their leg throughout finish
-- **Mistake**: Misaligning hips below or above knee joint [High DANGER]
+- **Mistake**: Misaligning hips below or above knee joint
   - **Consequence**: Loss of mechanical leverage, ineffective submission despite correct position, potential to injure wrong part of leg
   - **Correction**: Position hip crease or pubic bone directly on opponent's knee joint as fulcrum point, check alignment before extending hips
-- **Mistake**: Failing to control opponent's heel position [Medium DANGER]
+- **Mistake**: Failing to control opponent's heel position
   - **Consequence**: Opponent rotates toes toward you and escapes, defensive rotation neutralizes submission completely
   - **Correction**: Cup heel in armpit or control with hand throughout submission, keep heel pulled to your chest, prevent any foot rotation
-- **Mistake**: Neglecting to secure opponent's free leg [Low DANGER]
+- **Mistake**: Neglecting to secure opponent's free leg
   - **Consequence**: Opponent achieves technical standup and escapes entirely, loses leg entanglement position
   - **Correction**: Hook or control free leg with your outside leg, prevent them from posting or creating base, maintain full body entanglement
-- **Mistake**: Attempting finish before achieving full leg extension [Medium DANGER]
+- **Mistake**: Attempting finish before achieving full leg extension
   - **Consequence**: Submission ineffective due to protective knee bend, wasted energy, opponent maintains defensive structure
   - **Correction**: Patient progressive straightening of leg before applying hip extension, break defensive knee bend completely, use multiple cycles if necessary
 
@@ -342,43 +342,6 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Isolation Drills** (Weeks 1-2)
-- Focus: Learn kneebar mechanics with zero resistance. Practice leg entanglement positions statically. Understand hip alignment, heel control, and chest-to-thigh connection. Study anatomy of knee joint and injury mechanisms. Practice release protocols and tap recognition.
-- Resistance: Zero resistance
-- Safety: Study knee anatomy and understand MCL/LCL/PCL vulnerability. Practice tap signals and immediate release protocols. Emphasize that speed application causes injuries. Partner communication is mandatory.
-
-**Position Entry and Control Development** (Weeks 3-4)
-- Focus: Practice entering kneebar positions from various leg entanglements (ashi, 50-50, X-guard) without finishing. Develop sensitivity to leg control and hip positioning. Work on maintaining position when opponent moves. No finishing pressure applied.
-- Resistance: Mild resistance
-- Safety: Focus on control without finishing. Practice maintaining safe position while opponent moves slowly. Ensure chest-to-thigh connection prevents dangerous pressure spikes.
-
-**Slow Finishing Mechanics with Communication** (Weeks 5-6)
-- Focus: Begin applying gentle finishing pressure with constant verbal communication. Partner indicates when they feel pressure. Practice progressive pressure application over 5-7 seconds. Stop well before actual submission. Focus on smooth hip extension mechanics.
-- Resistance: Mild resistance
-- Safety: Verbal communication throughout every repetition. Partner says 'pressure' when they feel submission starting. Stop immediately at first pressure indication. Never proceed to pain or discomfort range.
-
-**Defense Recognition and Transition Chains** (Weeks 7-9)
-- Focus: Partner begins using defensive reactions (knee bend maintenance, toe rotation, rolling). Practice maintaining position and adjusting to defenses. Develop transitions between kneebar variations. Continue slow application speed (3-5 seconds minimum).
-- Resistance: Realistic resistance
-- Safety: Partner uses defenses but does not resist finishing pressure once submission is locked. Both partners responsible for safety. Maintain communication protocols during dynamic movement.
-
-**Flow Rolling Integration** (Weeks 10-12)
-- Focus: Integrate kneebar variations into live flow rolling at 50-60% intensity. Focus on entries from realistic positions. Practice submission chains where kneebar creates reactions for other attacks. Develop positional awareness and timing.
-- Resistance: Realistic resistance
-- Safety: Both partners understand they are in learning phase. Tap early and often. No ego in training room. Coach monitors all leg lock training directly. Stop rolling if anyone becomes tense or aggressive.
-
-**Competition Preparation and Full Resistance** (Weeks 13+)
-- Focus: Full resistance training with competition-level intensity. Develop finishing confidence under pressure. Practice maintaining composure when opponent defends aggressively. Refine timing and setup entries. Competition simulation rounds.
-- Resistance: Full resistance
-- Safety: Maintain slow finishing speed even under full resistance. Respect all tap signals immediately regardless of round timing or competition simulation. Pre-existing knee injuries must be disclosed. Consider legal rule sets of target competitions (IBJJF vs ADCC rules).
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -437,6 +400,7 @@ Kneebar variations represent a diverse family of leg attacks targeting the knee 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -21,37 +21,37 @@ description: "Master Open Guard Bottom in BJJ. Complete guide covering setup, co
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Butterfly Sweep",
-      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Butterfly Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute X-Guard Sweep",
-      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt X-Guard Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,29 +206,33 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Available Escapes
 
-### [[Scissor Sweep]] (9% of attempts)
+### [[Scissor Sweep]] (8% of attempts)
 
-### [[Hip Bump Sweep]] (9% of attempts)
+### [[Hip Bump Sweep]] (8% of attempts)
 
-### [[Butterfly Sweep]] (11% of attempts)
+### [[Butterfly Sweep]] (8% of attempts)
 
-### [[De La Riva Sweep]] (9% of attempts)
+### [[De La Riva Sweep]] (8% of attempts)
 
-### [[X-Guard Sweep]] (10% of attempts)
+### [[X-Guard Sweep]] (9% of attempts)
 
-### [[Spider Guard Sweeps]] (9% of attempts)
+### [[Spider Guard Sweeps]] (8% of attempts)
 
-### [[Lasso Guard Sweeps]] (9% of attempts)
+### [[Lasso Guard Sweeps]] (8% of attempts)
 
-### [[Omoplata Sweep]] (8% of attempts)
+### [[Omoplata Sweep]] (7% of attempts)
 
-### [[Triangle from Guard]] (7% of attempts)
+### [[Triangle from Guard]] (6% of attempts)
 
-### [[Armbar from Guard]] (6% of attempts)
+### [[Armbar from Guard]] (5% of attempts)
 
-### [[Kimura from Guard]] (7% of attempts)
+### [[Kimura from Guard]] (6% of attempts)
 
-### [[Omoplata from Guard]] (6% of attempts)
+### [[Omoplata from Guard]] (5% of attempts)
+
+### [[Float Passing]] (7% of attempts)
+
+### [[Open Guard to Deep Half]] (7% of attempts)
 
 
 
@@ -388,11 +392,11 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 20% |
-| Intermediate | 50% | 50% | 35% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds in competition, 2-5 minutes in training
 

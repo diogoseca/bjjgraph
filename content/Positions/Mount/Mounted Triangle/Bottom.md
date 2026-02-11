@@ -368,11 +368,11 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 18% | 5% |
-| Intermediate | 30% | 32% | 8% |
-| Advanced     | 50% | 48% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 40% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 30-90 seconds before submission or escape
 

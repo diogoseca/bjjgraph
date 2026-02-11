@@ -356,11 +356,11 @@ Partner applies progressive Aoki Lock pressure very slowly. Practice tapping at 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 25% | 10% |
-| Intermediate | 35% | 40% | 20% |
-| Advanced     | 50% | 60% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 42% |
+| Advancement Probability | 50% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 15-45 seconds before escape or submission
 

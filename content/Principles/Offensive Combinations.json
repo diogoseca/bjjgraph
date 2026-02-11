@@ -77,7 +77,7 @@
       "description": "Offensive combinations operationalize dilemma creation by presenting connected threats where defending against one attack necessarily exposes vulnerabilities to alternatives, making these concepts mutually reinforcing in application."
     },
     {
-      "principle_name": "Position Transitions",
+      "principle_name": "Transition Management",
       "relationship_type": "Complementary",
       "description": "Effective combinations integrate positional transitions with submission attempts, as advancing position opens new attacking opportunities while submission threats force movements that enable positional improvements."
     },
@@ -102,7 +102,7 @@
       "description": "Sustaining dominant control throughout combination sequences prevents defensive escapes between attacks, making control maintenance foundational to executing extended offensive combinations under resistance."
     },
     {
-      "principle_name": "Transition Management",
+      "principle_name": "Transition Sequences",
       "relationship_type": "Complementary",
       "description": "Managing transitions smoothly between attacking techniques maintains offensive momentum and prevents defensive recovery, directly supporting combination effectiveness through seamless technical flow."
     }
@@ -359,7 +359,7 @@
       "relationship": "Theoretical foundation explaining why combinations work through reaction exploitation"
     },
     {
-      "name": "Position Transitions",
+      "name": "Transition Management",
       "content_type": "Principle",
       "relationship": "Integration of positional movement with submission attempts creating compound offensive pressure"
     },

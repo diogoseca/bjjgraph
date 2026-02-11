@@ -157,7 +157,7 @@ This transition exploits a fundamental defensive dilemma: defending the Aoki Loc
 Strategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.
 
 **From Position**: [[Aoki Lock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize defensive pattern**: Identify opponent's Aoki Lock defense: internal shoulder rotation, elbow bend, or hip blocking. This defensive commitment exposes their far wrist and creates the switching opportunity. (Timing: When opponent's defense stabilizes the shoulder pressure)
-2. **Secure far wrist control**: While maintaining leg entanglement, reach with your near-side hand to capture opponent's far wrist using a C-grip around the wrist bone. This hand becomes the anchor for your Kimura configuration. (Timing: Before releasing any leg control)
-3. **Thread figure-four grip**: Pass your far-side arm under opponent's tricep and grab your own wrist, establishing the traditional Kimura figure-four grip configuration. Ensure grip is deep with your forearm against their tricep, not their elbow. (Timing: Immediately after wrist capture)
-4. **Release leg entanglement**: Only after Kimura grips are fully secured, open your leg triangle and slide your legs free from opponent's shoulder. Maintain chest pressure on their back throughout to prevent them from turning. (Timing: When figure-four grip is locked)
-5. **Establish Kimura base**: Reposition your hips perpendicular to opponent's body with your near-side hip driving into their ribcage. Post your far-side leg wide for base stability. Keep opponent's elbow trapped tight against your torso. (Timing: During leg extraction)
-6. **Apply Kimura pressure**: With grips secure and base established, apply progressive shoulder pressure by lifting opponent's elbow toward their head while rotating their wrist toward their hip. Maintain constant chest weight to prevent escape. (Timing: After position stabilizes)
+1. **Recognize defensive pattern**: Identify opponent's Aoki Lock defense: internal shoulder rotation, elbow bend, or hip blocking. This defensive commitment exposes their far wrist and creates the switching opportunity.
+2. **Secure far wrist control**: While maintaining leg entanglement, reach with your near-side hand to capture opponent's far wrist using a C-grip around the wrist bone. This hand becomes the anchor for your Kimura configuration.
+3. **Thread figure-four grip**: Pass your far-side arm under opponent's tricep and grab your own wrist, establishing the traditional Kimura figure-four grip configuration. Ensure grip is deep with your forearm against their tricep, not their elbow.
+4. **Release leg entanglement**: Only after Kimura grips are fully secured, open your leg triangle and slide your legs free from opponent's shoulder. Maintain chest pressure on their back throughout to prevent them from turning.
+5. **Establish Kimura base**: Reposition your hips perpendicular to opponent's body with your near-side hip driving into their ribcage. Post your far-side leg wide for base stability. Keep opponent's elbow trapped tight against your torso.
+6. **Apply Kimura pressure**: With grips secure and base established, apply progressive shoulder pressure by lifting opponent's elbow toward their head while rotating their wrist toward their hip. Maintain constant chest weight to prevent escape.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 ## Training Progressions
 **Week 1-2** - Grip Mechanics
 Practice figure-four grip acquisition from various angles without resistance. Focus on wrist capture, arm threading, and grip security. Drill the grip change slowly with a compliant partner to develop muscle memory for hand placement.
-(Resistance: None)
 
 **Week 3-4** - Transition Timing
 Work the complete transition from Aoki Lock with partner providing common defensive patterns. Practice recognizing the switching window when opponent defends. Develop timing for grip capture before leg release.
-(Resistance: Light)
 
 **Week 5-6** - Chain Combinations
 Integrate the Kimura Switch into Aoki Lock attack series. Practice flowing between Aoki Lock pressure, Kimura Switch, back takes, and crucifix entries based on opponent reactions. Develop smooth transitions in both directions.
-(Resistance: Medium)
 
 **Week 7+** - Live Application
 Apply technique in positional sparring starting from Aoki Lock top. Progress to live rolling with focus on recognizing switching opportunities. Analyze failure points and refine timing based on real resistance feedback.
-(Resistance: Full)
 
 
 

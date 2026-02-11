@@ -35,11 +35,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Standing Reset to Open Guard is a positional extraction strategy used when the top player is trapped in Ringworm Guard and ground-based grip breaking has proven insufficient. Rather than fighting the lapel wrap on the ground where the bottom player has maximum leverage, the top player stands fully upright to eliminate secondary control points and isolate the lapel grip as the single problem to solve. The elevation fundamentally changes the dynamics of the engagement: the bottom player loses the ability to combine hip movement, leg hooks, and lapel tension into coordinated sweeping attacks.\n\nOnce standing, the top player uses both hands to systematically strip the lapel wrap, circling away from the bottom player's strong side to reduce leverage. The standing position narrows the bottom player's attack options to essentially pulling guard or attempting a single-direction sweep, both of which are far easier to defend than the multi-angle attacks available from the ground-based Ringworm configuration. The goal is not to pass immediately but to neutralize the lapel entanglement and reset to a standard open guard engagement where normal passing mechanics apply.\n\nThis transition is tactically important because it represents the top player accepting a temporary positional step backward (giving up pressure and proximity) in exchange for escaping a mechanically disadvantaged entanglement. The trade-off is worthwhile: a neutral open guard top position with full mobility is vastly superior to a compromised Ringworm Guard top position with restricted base and constant sweep threats. The key is executing the stand and extraction quickly enough that the bottom player cannot establish a new guard configuration before you begin your passing sequence.",
   "key_principles": [
     "Stand fully upright before attempting grip breaks to eliminate secondary controls like hooks and frames that empower the lapel wrap",
@@ -60,44 +55,37 @@
     {
       "step_number": 1,
       "action": "Establish free leg base",
-      "description": "Post your free leg (the leg not trapped by the lapel wrap) in a strong combat base position with your foot flat on the mat, knee driving forward. This leg will bear the majority of your weight during the stand and must be positioned slightly wider than shoulder-width for maximum stability against lateral sweeping forces.",
-      "timing": "Initiate when opponent begins creating angles for sweep attempts"
+      "description": "Post your free leg (the leg not trapped by the lapel wrap) in a strong combat base position with your foot flat on the mat, knee driving forward. This leg will bear the majority of your weight during the stand and must be positioned slightly wider than shoulder-width for maximum stability against lateral sweeping forces."
     },
     {
       "step_number": 2,
       "action": "Drive upward to standing",
-      "description": "Explosively extend your free leg to drive your hips upward and backward, standing to full height. Keep your hips loaded posterior (away from opponent) throughout the rise to resist the forward pulling force of the lapel wrap. Do not lean forward over the trapped leg at any point during the elevation.",
-      "timing": "Execute as a single explosive motion to minimize the transitional vulnerability window"
+      "description": "Explosively extend your free leg to drive your hips upward and backward, standing to full height. Keep your hips loaded posterior (away from opponent) throughout the rise to resist the forward pulling force of the lapel wrap. Do not lean forward over the trapped leg at any point during the elevation."
     },
     {
       "step_number": 3,
       "action": "Neutralize secondary controls",
-      "description": "Once standing, use your elevation advantage to strip any remaining hooks, frames, or foot-on-hip controls the bottom player maintained. Shake or circle your hips to dislodge butterfly hooks and shin shields. The bottom player's legs should now only have the lapel connection remaining as their primary control point.",
-      "timing": "Immediately upon reaching full standing height"
+      "description": "Once standing, use your elevation advantage to strip any remaining hooks, frames, or foot-on-hip controls the bottom player maintained. Shake or circle your hips to dislodge butterfly hooks and shin shields. The bottom player's legs should now only have the lapel connection remaining as their primary control point."
     },
     {
       "step_number": 4,
       "action": "Two-handed lapel extraction",
-      "description": "Commit both hands to breaking the lapel wrap. One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line. The other hand works to create slack in the wrap by pushing the lapel material away from your leg. Use a circular unwinding motion rather than a straight pull to mechanically defeat the friction of the wrap.",
-      "timing": "Begin within one to two seconds of reaching standing position"
+      "description": "Commit both hands to breaking the lapel wrap. One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line. The other hand works to create slack in the wrap by pushing the lapel material away from your leg. Use a circular unwinding motion rather than a straight pull to mechanically defeat the friction of the wrap."
     },
     {
       "step_number": 5,
       "action": "Circle and extract",
-      "description": "While stripping the lapel, step your trapped leg in a circular motion away from the bottom player's strong side. This reduces the angle at which they can maintain tension on the wrap and makes re-gripping progressively harder. Continue the circular motion until your leg clears the lapel material completely and you have full freedom of movement.",
-      "timing": "Continuous motion synchronized with the grip-breaking sequence"
+      "description": "While stripping the lapel, step your trapped leg in a circular motion away from the bottom player's strong side. This reduces the angle at which they can maintain tension on the wrap and makes re-gripping progressively harder. Continue the circular motion until your leg clears the lapel material completely and you have full freedom of movement."
     },
     {
       "step_number": 6,
       "action": "Establish passing grips",
-      "description": "Immediately upon clearing the lapel, establish dominant passing grips before the bottom player can reconfigure their guard. Secure collar and pants grips, or double pants grips, and begin your preferred passing sequence. The window between lapel clearance and new guard establishment is narrow, so the grip transition must be pre-planned and automatic.",
-      "timing": "Within one second of clearing the lapel to exploit the grip-free window"
+      "description": "Immediately upon clearing the lapel, establish dominant passing grips before the bottom player can reconfigure their guard. Secure collar and pants grips, or double pants grips, and begin your preferred passing sequence. The window between lapel clearance and new guard establishment is narrow, so the grip transition must be pre-planned and automatic."
     },
     {
       "step_number": 7,
       "action": "Initiate guard pass",
-      "description": "With passing grips secured, immediately begin a toreando, leg drag, or knee slice pass to capitalize on the positional advantage of standing over an open guard player who has lost their primary control system. Maintain lateral pressure and distance management to prevent the opponent from re-establishing any lapel guard configuration.",
-      "timing": "Continuous flow from grip establishment without pause"
+      "description": "With passing grips secured, immediately begin a toreando, leg drag, or knee slice pass to capitalize on the positional advantage of standing over an open guard player who has lost their primary control system. Maintain lateral pressure and distance management to prevent the opponent from re-establishing any lapel guard configuration."
     }
   ],
   "common_counters": [
@@ -158,26 +146,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Standing mechanics from lapel entanglement",
-      "description": "Practice the standing sequence from Ringworm Guard configuration with a cooperative partner. Focus on posterior hip loading, explosive leg drive, and maintaining balance during elevation. Partner holds lapel wrap at 30% tension to allow repeated drilling of the standing motion without resistance.",
-      "resistance_level": "None"
+      "description": "Practice the standing sequence from Ringworm Guard configuration with a cooperative partner. Focus on posterior hip loading, explosive leg drive, and maintaining balance during elevation. Partner holds lapel wrap at 30% tension to allow repeated drilling of the standing motion without resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Lapel extraction timing and grip mechanics",
-      "description": "Add the two-handed extraction sequence to the standing drill. Partner maintains moderate lapel tension while you practice circular unwinding motion, grip placement, and the angular stepping pattern. Begin integrating the immediate transition to passing grips after clearing the lapel.",
-      "resistance_level": "Light"
+      "description": "Add the two-handed extraction sequence to the standing drill. Partner maintains moderate lapel tension while you practice circular unwinding motion, grip placement, and the angular stepping pattern. Begin integrating the immediate transition to passing grips after clearing the lapel."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter defense and complete sequence flow",
-      "description": "Partner adds common counters (re-wrapping, guard transitions, single leg attempts) at 60-70% intensity while you drill the complete extraction-to-passing sequence. Focus on maintaining defensive posture and recognizing which counter the opponent is attempting to select the appropriate response.",
-      "resistance_level": "Medium"
+      "description": "Partner adds common counters (re-wrapping, guard transitions, single leg attempts) at 60-70% intensity while you drill the complete extraction-to-passing sequence. Focus on maintaining defensive posture and recognizing which counter the opponent is attempting to select the appropriate response."
     },
     {
       "phase": "Week 7-8",
       "focus": "Live situational sparring from Ringworm Guard",
-      "description": "Begin rounds from the Ringworm Guard configuration with full resistance. Partner plays full Ringworm Guard offensive game including sweeps, back takes, and guard transitions while you work the standing reset sequence. Track success rate and identify which counters give you the most difficulty for targeted drilling.",
-      "resistance_level": "Full"
+      "description": "Begin rounds from the Ringworm Guard configuration with full resistance. Partner plays full Ringworm Guard offensive game including sweeps, back takes, and guard transitions while you work the standing reset sequence. Track success rate and identify which counters give you the most difficulty for targeted drilling."
     }
   ],
   "variants_and_adaptations": [
@@ -200,53 +184,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary strategic advantage of standing to reset rather than fighting the lapel wrap from the ground?",
-      "answer": "Standing eliminates the bottom player's secondary control points (hooks, frames, shin shields) that combine with the lapel wrap to create sweeping leverage. On the ground, the bottom player can coordinate hip movement, leg hooks, and lapel tension into multi-angle attacks. Standing isolates the lapel grip as the single problem to solve, dramatically reducing the threat level and simplifying the extraction.",
-      "difficulty": "Beginner"
+      "answer": "Standing eliminates the bottom player's secondary control points (hooks, frames, shin shields) that combine with the lapel wrap to create sweeping leverage. On the ground, the bottom player can coordinate hip movement, leg hooks, and lapel tension into multi-angle attacks. Standing isolates the lapel grip as the single problem to solve, dramatically reducing the threat level and simplifying the extraction."
     },
     {
       "question": "Why must your center of gravity remain posterior during the standing sequence?",
-      "answer": "The lapel wrap creates a forward-pulling force vector. If your weight shifts forward over the trapped leg during the stand, the bottom player can load your momentum onto the wrap and redirect it into a sweep. Keeping your center of gravity posterior (hips back, weight on the free leg) resists this pull and prevents the bottom player from using your own standing energy against you.",
-      "difficulty": "Beginner"
+      "answer": "The lapel wrap creates a forward-pulling force vector. If your weight shifts forward over the trapped leg during the stand, the bottom player can load your momentum onto the wrap and redirect it into a sweep. Keeping your center of gravity posterior (hips back, weight on the free leg) resists this pull and prevents the bottom player from using your own standing energy against you."
     },
     {
       "question": "Your opponent begins inverting as you stand to re-establish the wrap. How do you adjust?",
-      "answer": "Accelerate backward stepping while simultaneously stripping the grip. Inversion requires the bottom player to commit their hips upward and forward, which means they cannot simultaneously maintain full tension on the wrap and invert. Step backward aggressively to create distance that exceeds their inversion range, making the re-wrap mechanically impossible from their angle. If they commit fully to the inversion, their base is compromised and you can pass immediately.",
-      "difficulty": "Advanced"
+      "answer": "Accelerate backward stepping while simultaneously stripping the grip. Inversion requires the bottom player to commit their hips upward and forward, which means they cannot simultaneously maintain full tension on the wrap and invert. Step backward aggressively to create distance that exceeds their inversion range, making the re-wrap mechanically impossible from their angle. If they commit fully to the inversion, their base is compromised and you can pass immediately."
     },
     {
       "question": "What grip configuration should you use for the lapel extraction once standing?",
-      "answer": "One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line to exploit the weakest axis of grip strength. The other hand creates slack in the wrap by pushing the lapel material away from your trapped leg. This two-handed configuration applies opposing forces that mechanically defeat the friction of the wrap more efficiently than a single-direction pull.",
-      "difficulty": "Intermediate"
+      "answer": "One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line to exploit the weakest axis of grip strength. The other hand creates slack in the wrap by pushing the lapel material away from your trapped leg. This two-handed configuration applies opposing forces that mechanically defeat the friction of the wrap more efficiently than a single-direction pull."
     },
     {
       "question": "The bottom player grabs a collar grip as you stand. Should you address it before or after the lapel extraction?",
-      "answer": "Address the collar grip first if it is deep enough to pull you forward and compromise your posterior center of gravity. A shallow collar grip can be tolerated during extraction. The decision point is whether the collar grip creates enough forward pull to override your ability to maintain posterior hip loading. If it does, break it with a quick strip before committing to the lapel extraction. If not, proceed with extraction and address it after clearing the lapel.",
-      "difficulty": "Advanced"
+      "answer": "Address the collar grip first if it is deep enough to pull you forward and compromise your posterior center of gravity. A shallow collar grip can be tolerated during extraction. The decision point is whether the collar grip creates enough forward pull to override your ability to maintain posterior hip loading. If it does, break it with a quick strip before committing to the lapel extraction. If not, proceed with extraction and address it after clearing the lapel."
     },
     {
       "question": "Why is circular stepping more effective than pulling straight backward during extraction?",
-      "answer": "The lapel wrap creates friction that resists a straight pull, requiring excessive force that generates jerky movements the bottom player can redirect into sweeps. Circular stepping changes the angle of the wrap progressively, reducing friction at each step and allowing the lapel to unwind naturally. This requires less force, maintains smoother movement, and is harder for the bottom player to predict and counter.",
-      "difficulty": "Intermediate"
+      "answer": "The lapel wrap creates friction that resists a straight pull, requiring excessive force that generates jerky movements the bottom player can redirect into sweeps. Circular stepping changes the angle of the wrap progressively, reducing friction at each step and allowing the lapel to unwind naturally. This requires less force, maintains smoother movement, and is harder for the bottom player to predict and counter."
     },
     {
       "question": "You clear the lapel but the opponent immediately shoots their legs into De La Riva Guard. Was the reset successful?",
-      "answer": "Yes, this is a successful outcome. The purpose of the standing reset is to escape the mechanically disadvantaged Ringworm configuration, not necessarily to pass guard immediately. Any standard open guard (De La Riva, Spider, Collar Sleeve) is a vastly better position for the top player than Ringworm Guard. You now have full mobility, uncompromised base, and access to your complete passing repertoire against a guard system that does not involve lapel entanglement.",
-      "difficulty": "Intermediate"
+      "answer": "Yes, this is a successful outcome. The purpose of the standing reset is to escape the mechanically disadvantaged Ringworm configuration, not necessarily to pass guard immediately. Any standard open guard (De La Riva, Spider, Collar Sleeve) is a vastly better position for the top player than Ringworm Guard. You now have full mobility, uncompromised base, and access to your complete passing repertoire against a guard system that does not involve lapel entanglement."
     },
     {
       "question": "What is the critical timing window between clearing the lapel and the opponent establishing a new guard?",
-      "answer": "The window is approximately one to two seconds. After the lapel clears, the bottom player must reconfigure their grips and establish new control points. During this brief window, they have no primary control system active. You must have your passing grips pre-planned and transition to them automatically. Hesitation during this window allows the opponent to establish a new guard that may be equally difficult to pass, wasting the advantage gained from the extraction.",
-      "difficulty": "Advanced"
+      "answer": "The window is approximately one to two seconds. After the lapel clears, the bottom player must reconfigure their grips and establish new control points. During this brief window, they have no primary control system active. You must have your passing grips pre-planned and transition to them automatically. Hesitation during this window allows the opponent to establish a new guard that may be equally difficult to pass, wasting the advantage gained from the extraction."
     },
     {
       "question": "How should you distribute your weight between your legs during the standing extraction?",
-      "answer": "Approximately 70-80% of your weight should be on the free (non-trapped) leg throughout the extraction. The trapped leg should be as light as possible to facilitate the circular stepping motion and reduce the bottom player's ability to load it for sweeps. Only shift weight back to the formerly trapped leg after the lapel is fully cleared and you are transitioning to passing grips with both legs free.",
-      "difficulty": "Intermediate"
+      "answer": "Approximately 70-80% of your weight should be on the free (non-trapped) leg throughout the extraction. The trapped leg should be as light as possible to facilitate the circular stepping motion and reduce the bottom player's ability to load it for sweeps. Only shift weight back to the formerly trapped leg after the lapel is fully cleared and you are transitioning to passing grips with both legs free."
     },
     {
       "question": "Your opponent transitions to a single leg attack as you stand. What is the correct defensive response?",
-      "answer": "Immediately sprawl your hips back and lower your center of gravity while maintaining grip on the lapel area. Use the still-attached lapel material as a frame against their head and shoulder. Drive your trapped leg into their chest to create separation. From the sprawl, you can either complete the extraction from the new angle or transition to a front headlock position if they over-commit to the single leg. Do not try to continue standing through the takedown attempt.",
-      "difficulty": "Advanced"
+      "answer": "Immediately sprawl your hips back and lower your center of gravity while maintaining grip on the lapel area. Use the still-attached lapel material as a frame against their head and shoulder. Drive your trapped leg into their chest to create separation. From the sprawl, you can either complete the extraction from the new angle or transition to a front headlock position if they over-commit to the single leg. Do not try to continue standing through the takedown attempt."
     }
   ],
   "safety_considerations": "The standing reset involves explosive upward movement from an entangled position, which creates risk of knee torque on the trapped leg if the lapel wrap is tight around the knee joint. Always ensure the lapel is wrapped around the thigh rather than directly over the knee before driving upward. If you feel sharp knee pain during the stand, abort the attempt and work a ground-based extraction instead. During training, partners should release the lapel wrap immediately if the top player signals discomfort rather than maintaining competitive grip tension. The circular stepping phase can also stress the ankle of the trapped leg, so practitioners with ankle instability should use the backward stepping variant instead of lateral circles. Never attempt this technique explosively without first warming up the knees, ankles, and hips.",
@@ -300,5 +274,6 @@
       "name": "Stack Pass with Lapel Control Negation",
       "relationship": "Alternative technique - forward pressure option from Ringworm Guard top"
     }
-  ]
+  ],
+  "success_rate": 58
 }

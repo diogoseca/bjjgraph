@@ -348,11 +348,11 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 20% |
-| Intermediate | 50% | 45% | 35% |
-| Advanced     | 70% | 65% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 55% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds before reversal, escape, or submission
 

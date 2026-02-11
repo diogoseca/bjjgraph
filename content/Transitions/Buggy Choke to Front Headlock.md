@@ -163,7 +163,7 @@ This transition exploits the fundamental defensive dilemma created by buggy chok
 Strategically, this transition transforms failed submission attempts into continued offensive pressure. Rather than viewing defensive success as a reset, skilled practitioners chain the buggy choke to front headlock as part of a systematic turtle attack flowchart where every defensive response opens different offensive opportunities. This reflects advanced positional thinking where submissions are entry points to position, and positions are entry points to submissions.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, this transition transforms failed submission attempts into contin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize defensive turn**: Identify when opponent begins turning toward your choking arm to relieve pressure. This rotation creates the entry angle for front headlock and signals the optimal transition timing. (Timing: Immediate recognition required)
-2. **Establish secondary head control**: Before releasing the deep collar grip, secure chin strap control with your non-threading hand by cupping under opponent's chin or maintaining strong collar tie on the near side of their neck. (Timing: Within 1 second of recognizing turn)
-3. **Release deep collar grip**: Extract your threading arm from under opponent's armpit while maintaining continuous head control through your secondary grip. The arm releases toward the same side as your secondary control. (Timing: Smooth extraction, not jerky)
-4. **Circle toward head**: Move your body in an arc toward opponent's head, following their turning motion. Your feet shuffle in a semi-circle while your upper body maintains heavy connection to their shoulder and neck complex. (Timing: Continuous movement with opponent's rotation)
-5. **Establish front headlock grip**: Connect your hands using gable grip around opponent's neck and far shoulder, or secure chin strap with your arm wrapped around their head while your other hand controls their near arm or tricep. (Timing: Lock grips before opponent can posture)
-6. **Apply perpendicular pressure**: Sprawl your hips away from opponent while driving chest weight down onto their upper back and shoulder. Create the classic front headlock angle with your body perpendicular to their spine, head heavy toward the mat. (Timing: Immediate after grip connection)
-7. **Secure position and assess options**: Stabilize front headlock control with heavy downward pressure and begin assessing available attacks: guillotine, anaconda, darce, or positional transitions based on opponent's arm position and reactions. (Timing: Evaluate within 2-3 seconds)
+1. **Recognize defensive turn**: Identify when opponent begins turning toward your choking arm to relieve pressure. This rotation creates the entry angle for front headlock and signals the optimal transition timing.
+2. **Establish secondary head control**: Before releasing the deep collar grip, secure chin strap control with your non-threading hand by cupping under opponent's chin or maintaining strong collar tie on the near side of their neck.
+3. **Release deep collar grip**: Extract your threading arm from under opponent's armpit while maintaining continuous head control through your secondary grip. The arm releases toward the same side as your secondary control.
+4. **Circle toward head**: Move your body in an arc toward opponent's head, following their turning motion. Your feet shuffle in a semi-circle while your upper body maintains heavy connection to their shoulder and neck complex.
+5. **Establish front headlock grip**: Connect your hands using gable grip around opponent's neck and far shoulder, or secure chin strap with your arm wrapped around their head while your other hand controls their near arm or tricep.
+6. **Apply perpendicular pressure**: Sprawl your hips away from opponent while driving chest weight down onto their upper back and shoulder. Create the classic front headlock angle with your body perpendicular to their spine, head heavy toward the mat.
+7. **Secure position and assess options**: Stabilize front headlock control with heavy downward pressure and begin assessing available attacks: guillotine, anaconda, darce, or positional transitions based on opponent's arm position and reactions.
 
 
 </section>
@@ -260,19 +260,15 @@ Strategically, this transition transforms failed submission attempts into contin
 ## Training Progressions
 **Week 1-2** - Grip transfer mechanics
 Practice the grip exchange from buggy choke to front headlock in isolation. Partner provides the turning motion on command while you focus on smooth transition maintaining continuous head control. No resistance, pure technique repetition.
-(Resistance: None)
 
 **Week 3-4** - Movement integration
 Add the circling footwork and body positioning to the grip transfer. Partner turns at varying speeds while you practice following their movement and arriving at proper front headlock angle. Light defensive movements allowed.
-(Resistance: Light)
 
 **Week 5-6** - Decision-making flow
 Combine the transition with buggy choke attempts and front headlock attacks. Partner defends normally, and you must recognize when to commit to the choke versus transition. Practice chains from front headlock to guillotine, darce, and anaconda.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance positional sparring starting from buggy choke control. Both players fight for their objectives. Score points for maintaining control, successful transitions, and submissions. Reset after position is lost or submission is achieved.
-(Resistance: Full)
 
 
 

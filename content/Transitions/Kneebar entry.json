@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kneebar entry from 50-50 Guard Bottom represents a strategic offensive option when heel hook attacks are defended or unavailable. This transition exploits the inherent vulnerability of your opponent's knee joint when their leg is already entangled in the 50-50 configuration. Rather than fighting for heel exposure against a savvy defender, the kneebar entry redirects your attack to target the hyperextension of the knee joint.\n\nFrom the bottom 50-50 position, you use hip movement and leg control to isolate opponent's leg above the knee while transitioning your body perpendicular to their leg line. The key mechanical principle involves trapping their foot in your armpit or against your shoulder while creating hip pressure against the back of their knee. This forces the knee into hyperextension when you bridge your hips upward.\n\nThis entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.",
   "key_principles": [
     "Control above the knee before attempting to finish - secure the thigh with your legs to prevent opponent from simply pulling their leg free during the transition",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Secure ankle control",
-      "description": "Establish strong two-handed grip on opponent's ankle, with one hand cupping the heel and one controlling the Achilles area, preventing leg retraction during transition",
-      "timing": "When opponent commits to heel defense"
+      "description": "Establish strong two-handed grip on opponent's ankle, with one hand cupping the heel and one controlling the Achilles area, preventing leg retraction during transition"
     },
     {
       "step_number": 2,
       "action": "Create hip angle",
-      "description": "Shrimp your hips away from opponent while maintaining leg entanglement, creating approximately 45-degree angle to their body that opens path to their knee",
-      "timing": "Immediately after securing ankle"
+      "description": "Shrimp your hips away from opponent while maintaining leg entanglement, creating approximately 45-degree angle to their body that opens path to their knee"
     },
     {
       "step_number": 3,
       "action": "Thread inside leg",
-      "description": "Bring your inside leg across opponent's body or hook behind their far hip, establishing control point that prevents them from turning toward you during transition",
-      "timing": "As hips create angle"
+      "description": "Bring your inside leg across opponent's body or hook behind their far hip, establishing control point that prevents them from turning toward you during transition"
     },
     {
       "step_number": 4,
       "action": "Trap foot in armpit",
-      "description": "Pull opponent's foot deep into your armpit or clamp it against your shoulder and chest, securing their lower leg against your torso with elbow pressure",
-      "timing": "After inside leg is positioned"
+      "description": "Pull opponent's foot deep into your armpit or clamp it against your shoulder and chest, securing their lower leg against your torso with elbow pressure"
     },
     {
       "step_number": 5,
       "action": "Position legs above knee",
-      "description": "Triangle your legs around opponent's thigh just above the knee joint, with your top leg hooking over their thigh and bottom leg closing the triangle underneath",
-      "timing": "Simultaneously with foot trap"
+      "description": "Triangle your legs around opponent's thigh just above the knee joint, with your top leg hooking over their thigh and bottom leg closing the triangle underneath"
     },
     {
       "step_number": 6,
       "action": "Bridge for finish",
-      "description": "Drive your hips upward and forward into the back of opponent's knee while pulling their foot toward your chest, hyperextending the knee joint for submission",
-      "timing": "When all controls established"
+      "description": "Drive your hips upward and forward into the back of opponent's knee while pulling their foot toward your chest, hyperextending the knee joint for submission"
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Position and mechanics",
-      "description": "Practice the hip angle, foot trap, and leg triangle positioning with a cooperative partner. Focus on proper body alignment and understanding where pressure is applied to the knee joint. No finishing pressure yet.",
-      "resistance_level": "None"
+      "description": "Practice the hip angle, foot trap, and leg triangle positioning with a cooperative partner. Focus on proper body alignment and understanding where pressure is applied to the knee joint. No finishing pressure yet."
     },
     {
       "phase": "Week 3-4",
       "focus": "Entry timing",
-      "description": "Partner provides light heel hook defense, hiding their heel. Practice recognizing when to abandon heel hook and transition to kneebar entry. Work on maintaining connection during the angle change.",
-      "resistance_level": "Light"
+      "description": "Partner provides light heel hook defense, hiding their heel. Practice recognizing when to abandon heel hook and transition to kneebar entry. Work on maintaining connection during the angle change."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks",
-      "description": "Integrate kneebar entry with heel hook attempts and back take options. Partner defends more actively, requiring you to chain between attacks based on their defensive reactions.",
-      "resistance_level": "Medium"
+      "description": "Integrate kneebar entry with heel hook attempts and back take options. Partner defends more actively, requiring you to chain between attacks based on their defensive reactions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply kneebar entry in live rolling starting from 50-50 position. Focus on reading opponent's defense and selecting appropriate attack. Work on finishing details and defense against counters.",
-      "resistance_level": "Full"
+      "description": "Apply kneebar entry in live rolling starting from 50-50 position. Focus on reading opponent's defense and selecting appropriate attack. Work on finishing details and defense against counters."
     }
   ],
   "variants_and_adaptations": [
@@ -181,53 +166,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Kneebar entry from 50-50 Guard?",
-      "answer": "The primary goal is to transition from the leg entanglement to Kneebar Control position, where you can hyperextend opponent's knee joint for submission. This provides an alternative attack when heel hooks are well-defended.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from the leg entanglement to Kneebar Control position, where you can hyperextend opponent's knee joint for submission. This provides an alternative attack when heel hooks are well-defended."
     },
     {
       "question": "What defensive behavior from your opponent creates the ideal opportunity for kneebar entry?",
-      "answer": "When opponent focuses on heel hook defense by hiding their heel, rotating their knee inward, or keeping their leg relatively straight, they inadvertently present their leg in a position that facilitates kneebar entry. Their heel defense creates knee vulnerability.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent focuses on heel hook defense by hiding their heel, rotating their knee inward, or keeping their leg relatively straight, they inadvertently present their leg in a position that facilitates kneebar entry. Their heel defense creates knee vulnerability."
     },
     {
       "question": "What are the essential grips and controls needed for successful kneebar entry?",
-      "answer": "You need two-handed ankle control initially, then foot trapped securely in your armpit with elbow pressure. Your legs must triangle around opponent's thigh just above the knee. Your inside leg hooks their hip or crosses their body to prevent them turning.",
-      "difficulty": "Beginner"
+      "answer": "You need two-handed ankle control initially, then foot trapped securely in your armpit with elbow pressure. Your legs must triangle around opponent's thigh just above the knee. Your inside leg hooks their hip or crosses their body to prevent them turning."
     },
     {
       "question": "Your opponent begins bending their knee and pulling back as you initiate the entry - how do you respond?",
-      "answer": "Maintain tight ankle grip and follow their leg movement with your hips, staying connected. If they successfully retract, their heel often becomes exposed as they bend the knee - immediately transition back to heel hook attack before they can re-establish defense.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain tight ankle grip and follow their leg movement with your hips, staying connected. If they successfully retract, their heel often becomes exposed as they bend the knee - immediately transition back to heel hook attack before they can re-establish defense."
     },
     {
       "question": "Why must you control above the knee with your legs before attempting to finish?",
-      "answer": "The leg triangle above the knee prevents opponent from simply pulling their leg free during the submission attempt. Without this control, they can bend their knee and retract, escaping the position. The thigh control is the anchor that makes the finish possible.",
-      "difficulty": "Beginner"
+      "answer": "The leg triangle above the knee prevents opponent from simply pulling their leg free during the submission attempt. Without this control, they can bend their knee and retract, escaping the position. The thigh control is the anchor that makes the finish possible."
     },
     {
       "question": "What is the correct direction of force when bridging to finish the kneebar?",
-      "answer": "Bridge your hips upward and forward into the back of opponent's knee joint while simultaneously pulling their trapped foot toward your chest. The hip extension creates the hyperextension pressure - drive through your pelvis, not your lower back.",
-      "difficulty": "Intermediate"
+      "answer": "Bridge your hips upward and forward into the back of opponent's knee joint while simultaneously pulling their trapped foot toward your chest. The hip extension creates the hyperextension pressure - drive through your pelvis, not your lower back."
     },
     {
       "question": "Opponent turns toward you and starts to come on top during your entry - what adjustment prevents this counter?",
-      "answer": "Your inside leg hook behind their hip or across their body is specifically designed to prevent this turn. If they begin rotating, drive your inside leg hook deeper and use it to off-balance them. You can also accept the scramble and transition to back take as they rotate.",
-      "difficulty": "Advanced"
+      "answer": "Your inside leg hook behind their hip or across their body is specifically designed to prevent this turn. If they begin rotating, drive your inside leg hook deeper and use it to off-balance them. You can also accept the scramble and transition to back take as they rotate."
     },
     {
       "question": "When should you abandon the kneebar entry and chain to a different attack?",
-      "answer": "Abandon if opponent successfully bends their knee and pulls it close to their body - transition to calf slicer. If they strip your ankle grip and create significant space, transition to Single Leg X-Guard or stand up. If they expose their heel while defending, return to heel hook immediately.",
-      "difficulty": "Advanced"
+      "answer": "Abandon if opponent successfully bends their knee and pulls it close to their body - transition to calf slicer. If they strip your ankle grip and create significant space, transition to Single Leg X-Guard or stand up. If they expose their heel while defending, return to heel hook immediately."
     },
     {
       "question": "What makes the belly-down kneebar variation more effective against flexible opponents?",
-      "answer": "The belly-down position allows you to drive body weight directly through opponent's knee while having full hip mobility to increase pressure. It also eliminates the space flexible opponents might use to rotate out of the standard finishing position.",
-      "difficulty": "Advanced"
+      "answer": "The belly-down position allows you to drive body weight directly through opponent's knee while having full hip mobility to increase pressure. It also eliminates the space flexible opponents might use to rotate out of the standard finishing position."
     },
     {
       "question": "How does the kneebar entry integrate with the overall 50-50 attack system?",
-      "answer": "Kneebar entry complements heel hook attacks by providing an alternative when opponent successfully defends their heel. The threat of kneebar prevents opponents from committing entirely to heel defense, opening their heel. This creates a dilemma where defending one attack exposes the other.",
-      "difficulty": "Intermediate"
+      "answer": "Kneebar entry complements heel hook attacks by providing an alternative when opponent successfully defends their heel. The threat of kneebar prevents opponents from committing entirely to heel defense, opening their heel. This creates a dilemma where defending one attack exposes the other."
     }
   ],
   "safety_considerations": "Kneebar attacks target the knee joint and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually and give training partners time to tap. Never explosively bridge into the knee. When caught in a kneebar, tap early - the joint can be damaged before significant pain occurs. Beginners should practice positioning and entry without finishing pressure until mechanics are understood. Avoid this technique if you or your partner has pre-existing knee injuries. In training, establish clear tap protocols and release immediately upon tap or verbal submission.",
@@ -265,5 +240,6 @@
       "name": "Inside Ashi-Garami",
       "relationship": "Related leg entanglement with similar attack options"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from Guard is a fundamental shoulder lock that can be applied from multiple guard positions, with the closed guard variation being one of the most reliable entries. This submission targets the shoulder joint and surrounding structures through a figure-four grip configuration, creating rotational pressure that can damage the rotator cuff, shoulder capsule, and associated ligaments if applied forcefully. The technique's versatility lies in its dual nature as both a finishing submission and a powerful control position that opens pathways to sweeps, back takes, and other submissions. From the bottom position, the Kimura provides exceptional control over your opponent's posture and base, allowing you to dictate the pace of the engagement while maintaining offensive threats. The figure-four grip configuration creates a mechanical advantage that allows smaller practitioners to control and submit larger opponents through proper technique rather than raw strength. Understanding the Kimura from guard is essential for developing a complete bottom game, as it integrates seamlessly with guard retention, sweeping systems, and transitional attacks.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Control opponent's wrist and break posture",
       "description": "From closed guard, use your right hand to grip opponent's left wrist (palm-to-palm or four-finger grip). Simultaneously pull their wrist across your body while using your legs to break their posture forward. This creates the initial off-balancing necessary for arm isolation.",
-      "timing": "0-2 seconds - Initial control establishment",
-      "pressure_level": "Moderate"
+      "timing": "0-2 seconds - Initial control establishment"
     },
     {
       "step_number": 2,
       "action": "Thread your arm and establish overhook",
       "description": "Thread your left arm over and around opponent's left arm, moving from outside to inside. Your left forearm should pass over their bicep and come underneath their forearm. This overhook position is crucial for controlling the arm's elevation and preventing early escape attempts.",
-      "timing": "2-4 seconds - Arm threading phase",
-      "pressure_level": "Light"
+      "timing": "2-4 seconds - Arm threading phase"
     },
     {
       "step_number": 3,
       "action": "Secure figure-four grip configuration",
       "description": "Grab your own right wrist with your left hand, creating the characteristic figure-four shape. Ensure the grip is tight with no gaps - your thumb should connect with your thumb or your fingers should overlap significantly. This grip creates the mechanical lock that generates shoulder pressure.",
-      "timing": "4-6 seconds - Grip establishment",
-      "pressure_level": "Firm"
+      "timing": "4-6 seconds - Grip establishment"
     },
     {
       "step_number": 4,
       "action": "Hip escape and angle creation",
       "description": "Open your guard and perform a hip escape (shrimp) to your right side, creating a perpendicular angle to opponent's body. Your shoulders should be approximately 90 degrees to their shoulders. This angle is essential for proper leverage and prevents opponent from simply rolling through the submission.",
-      "timing": "6-8 seconds - Positional adjustment",
-      "pressure_level": "Moderate"
+      "timing": "6-8 seconds - Positional adjustment"
     },
     {
       "step_number": 5,
       "action": "Secure hip connection and arm positioning",
       "description": "Bring opponent's elbow tight to your chest while placing your right leg over their back or shoulder. Ensure their elbow is pinned to your centerline. Your left leg should hook under their body or maintain connection to prevent them from creating space. The elbow must remain stationary as you prepare to apply rotational pressure.",
-      "timing": "8-10 seconds - Final position stabilization",
-      "pressure_level": "Firm"
+      "timing": "8-10 seconds - Final position stabilization"
     },
     {
       "step_number": 6,
       "action": "Apply controlled rotational pressure",
       "description": "Keeping the elbow fixed to your chest, slowly rotate opponent's wrist toward their head and away from their back (external shoulder rotation). Your hands should move in a circular arc while the elbow stays stationary. Apply pressure progressively over 3-5 seconds, constantly monitoring for the tap. The shoulder will reach its limit as you increase rotation past 90 degrees.",
-      "timing": "10-15 seconds - Submission application",
-      "pressure_level": "Maximum"
+      "timing": "10-15 seconds - Submission application"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,44 +149,37 @@
     {
       "error": "Attempting the finish without proper angle (remaining square to opponent)",
       "consequence": "Opponent easily rolls out or escapes by spinning their body; no effective shoulder pressure is created",
-      "correction": "Always hip escape to create 90-degree angle before applying rotational pressure. Your shoulders must be perpendicular to theirs.",
-      "danger_level": "Low"
+      "correction": "Always hip escape to create 90-degree angle before applying rotational pressure. Your shoulders must be perpendicular to theirs."
     },
     {
       "error": "Releasing guard closure too early before securing proper controls",
       "consequence": "Opponent creates distance and pulls their arm free before figure-four is established",
-      "correction": "Maintain guard closure until figure-four grip is secure and hip position is established. Only open guard when all control points are in place.",
-      "danger_level": "Low"
+      "correction": "Maintain guard closure until figure-four grip is secure and hip position is established. Only open guard when all control points are in place."
     },
     {
       "error": "Jerking or spiking the submission with explosive, sudden force",
       "consequence": "Catastrophic shoulder injury including rotator cuff tears, dislocations, or spiral humerus fractures",
-      "correction": "ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum. Never use sudden jerking motions, especially in training.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply progressive, smooth pressure over 3-5 seconds minimum. Never use sudden jerking motions, especially in training."
     },
     {
       "error": "Allowing opponent's elbow to drift away from your centerline",
       "consequence": "Loss of leverage and control; opponent can straighten their arm and escape the submission",
-      "correction": "Pin the elbow tight to your chest throughout the entire sequence. The elbow is your fixed fulcrum point for creating rotational pressure.",
-      "danger_level": "Low"
+      "correction": "Pin the elbow tight to your chest throughout the entire sequence. The elbow is your fixed fulcrum point for creating rotational pressure."
     },
     {
       "error": "Failing to control opponent's free arm during setup",
       "consequence": "Opponent uses free arm to establish frames, push your hips away, or defend their trapped arm",
-      "correction": "Use your legs to control their free arm or torso, preventing effective frames. Maintain constant pressure with your guard to limit their mobility.",
-      "danger_level": "Low"
+      "correction": "Use your legs to control their free arm or torso, preventing effective frames. Maintain constant pressure with your guard to limit their mobility."
     },
     {
       "error": "Continuing to apply pressure when feeling or hearing joint popping sounds",
       "consequence": "Severe structural damage to shoulder complex, potential permanent injury to training partner",
-      "correction": "Immediately stop all pressure at first sign of unusual resistance, popping, or cracking. Release the submission and check with partner.",
-      "danger_level": "CRITICAL"
+      "correction": "Immediately stop all pressure at first sign of unusual resistance, popping, or cracking. Release the submission and check with partner."
     },
     {
       "error": "Using Kimura grip without understanding transition options when finish is unavailable",
       "consequence": "Stalling in position without progressing, wasting energy, and allowing opponent to escape",
-      "correction": "Learn the Kimura trap system: transitions to sweeps, back takes, armbars, and triangles. The grip is a control position, not just a submission.",
-      "danger_level": "Low"
+      "correction": "Learn the Kimura trap system: transitions to sweeps, back takes, armbars, and triangles. The grip is a control position, not just a submission."
     }
   ],
   "variations_and_setups": [
@@ -289,50 +271,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Conceptual Learning)",
-      "timeframe": "Week 1-2: 2-3 sessions",
-      "focus": "Learn grip mechanics, body positioning, and angle creation without any resistance. Study anatomy of shoulder joint and injury mechanisms. Understand all safety protocols before any live practice.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Memorize tap signals, release protocol, and injury risks. Practice grip formation and position without applying any pressure. Partner remains completely passive."
-    },
-    {
-      "phase": "Slow Cooperative Drilling",
-      "timeframe": "Week 3-4: 4-6 sessions",
-      "focus": "Execute complete Kimura sequence from guard with cooperative partner at quarter speed. Emphasize smooth transitions and proper positioning. Practice stopping immediately on tap signals.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Application time minimum 5-7 seconds. Partner taps early (50% pressure threshold) to practice recognition and release. Verbalize each step during execution."
-    },
-    {
-      "phase": "Progressive Resistance Introduction",
-      "timeframe": "Week 5-8: 8-12 sessions",
-      "focus": "Partner provides mild, predictable resistance to specific phases (grip fighting, angle creation). Gradually increase to half speed. Begin recognizing when to transition versus force finish.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Maintain 3-5 second minimum application time. Stop completely if any unusual resistance or popping sensations. Partner provides clear feedback on pressure levels."
-    },
-    {
-      "phase": "Defensive Integration",
-      "timeframe": "Week 9-12: 12-16 sessions",
-      "focus": "Partner uses common defenses (grip fighting, posture, rolling attempts). Practice transition to sweeps, back takes, and alternative submissions. Develop decision-making for when to abandon finish.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Never force through strong defense with additional pressure. Recognize defended positions and transition rather than increase force. Communication remains constant."
-    },
-    {
-      "phase": "Positional Sparring Integration",
-      "timeframe": "Week 13-20: 20+ sessions",
-      "focus": "Integrate Kimura into guard retention, sweeping sequences, and submission chains during position-specific sparring. Start from various guard types. Chain with other attacks.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Competition speed remains prohibited in training. Tap early when caught to preserve shoulder health. Experienced partners may train at higher intensity with clear communication."
-    },
-    {
-      "phase": "Ongoing Refinement and System Building",
-      "timeframe": "Months 6+: Continuous practice",
-      "focus": "Develop personal Kimura system integrating setups, variations, and transitions. Build game around Kimura control position. Study high-level applications and modern variations.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain conservative application standards even with experience. Set example for junior practitioners regarding safety culture. Regular technique review to prevent bad habits."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Butterfly Guard",
@@ -400,5 +338,6 @@
       "name": "Back Control",
       "relationship": "Common transition destination when opponent rolls to defend Kimura"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -153,7 +153,7 @@ description: "Master Turtle to Back Take in BJJ. Complete guide covering hooks i
 The Turtle to Back Take represents one of the most fundamental and high-percentage transitions in Brazilian Jiu-Jitsu. When an opponent assumes the turtle position, they create a defensive shell that protects against many attacks but simultaneously exposes their back. This transition capitalizes on that exposure by systematically breaking down the turtle structure and establishing dominant back control. The technique involves controlling the opponent's hips, preventing their escape to guard, inserting hooks methodically, and securing the seatbelt grip configuration. Mastery of this transition is essential for any grappler, as the turtle position appears frequently during scrambles, failed takedown attempts, guard passing sequences, and submission escapes. The back take from turtle offers multiple entry points and can be achieved through various methods including the chair sit, crab ride, crucifix threat, and direct hook insertion. Understanding the timing, weight distribution, and grip fighting elements of this transition dramatically increases finishing rates and overall positional dominance.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Turtle to Back Take represents one of the most fundamental and high-percenta
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish chest pressure**: Position your chest directly on opponent's upper back, driving weight downward to flatten their posture. Keep your hips heavy and base wide to prevent them from standing or turning into you. Your weight should make it difficult for them to maintain the turtle structure. (Timing: Initial control phase)
-2. **Secure seatbelt grip**: Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking hand gripping your own wrist or bicep. This grip prevents their rotation and creates offensive threats. (Timing: As they react to pressure)
-3. **Control the near hip**: Use your leg closest to their hips to hook over their near hip, blocking their ability to sit back to guard. Your knee should be tight to their body, and your foot should hook inside their thigh. This is critical for preventing their primary escape route. (Timing: Before inserting first hook)
-4. **Insert bottom hook**: Slide your bottom leg (the leg on the mat side) underneath their body, threading your foot between their inner thigh and the mat. Your shin should be perpendicular to their body with your heel pulling toward their centerline. This hook is your anchor point for the entire position. (Timing: When hip is controlled)
-5. **Clear the top leg**: Use your free leg to step over their back and clear their defensive hand if necessary. If they're defending the second hook with their elbow, use your seatbelt grip to lift their upper body slightly, creating space for your top hook to slide across their hip and into position. (Timing: After bottom hook secured)
-6. **Insert top hook and establish full back control**: Thread your top leg over their hip and insert your second hook, bringing both heels to their centerline. Pull with both hooks while maintaining the seatbelt grip. Adjust your hips underneath theirs and lean back slightly to establish full back control with both hooks and upper body control secured. (Timing: Final establishment)
+1. **Establish chest pressure**: Position your chest directly on opponent's upper back, driving weight downward to flatten their posture. Keep your hips heavy and base wide to prevent them from standing or turning into you. Your weight should make it difficult for them to maintain the turtle structure.
+2. **Secure seatbelt grip**: Thread your choking-side arm under their near armpit and across their chest, while your other arm goes over their far shoulder. Lock your hands together in a seatbelt configuration with your choking hand gripping your own wrist or bicep. This grip prevents their rotation and creates offensive threats.
+3. **Control the near hip**: Use your leg closest to their hips to hook over their near hip, blocking their ability to sit back to guard. Your knee should be tight to their body, and your foot should hook inside their thigh. This is critical for preventing their primary escape route.
+4. **Insert bottom hook**: Slide your bottom leg (the leg on the mat side) underneath their body, threading your foot between their inner thigh and the mat. Your shin should be perpendicular to their body with your heel pulling toward their centerline. This hook is your anchor point for the entire position.
+5. **Clear the top leg**: Use your free leg to step over their back and clear their defensive hand if necessary. If they're defending the second hook with their elbow, use your seatbelt grip to lift their upper body slightly, creating space for your top hook to slide across their hip and into position.
+6. **Insert top hook and establish full back control**: Thread your top leg over their hip and insert your second hook, bringing both heels to their centerline. Pull with both hooks while maintaining the seatbelt grip. Adjust your hips underneath theirs and lean back slightly to establish full back control with both hooks and upper body control secured.
 
 
 </section>
@@ -254,23 +254,18 @@ The Turtle to Back Take represents one of the most fundamental and high-percenta
 ## Training Progressions
 **Phase 1: Static Position Entry (Weeks 1-2)** - Establishing seatbelt grip and first hook from stationary turtle
 Partner maintains static turtle position while you practice establishing chest pressure, securing seatbelt grip, and inserting bottom hook with proper mechanics. Focus on grip placement, weight distribution, and hip control. Drill 10 repetitions per side, emphasizing technical precision over speed.
-(Resistance: None)
 
 **Phase 2: Progressive Hook Insertion (Weeks 3-4)** - Completing full back take sequence with both hooks
 Partner remains in turtle with light resistance to seatbelt and hooks. Practice full sequence from chest pressure through both hooks inserted and back control established. Partner can hand-fight lightly but does not actively escape. Perform 8 repetitions per side, focusing on smooth transitions between steps.
-(Resistance: Light)
 
 **Phase 3: Defensive Responses (Weeks 5-6)** - Countering common turtle defenses and escapes
 Partner uses specific defensive movements: sitting through, standing up, rolling forward, or defensive frames. Practice recognizing each defense early and implementing appropriate counter-response. Drill each defensive scenario 6 times per side, developing pattern recognition and adaptive responses.
-(Resistance: Medium)
 
 **Phase 4: Live Situational Drilling (Weeks 7-8)** - Back take against fully resisting opponent from turtle
 Start from turtle position with partner actively defending and attempting to escape. Work to establish back control within 30-second rounds. If successful, reset and repeat. If partner escapes, analyze what went wrong and restart. Perform 8-10 rounds, gradually increasing partner's resistance level.
-(Resistance: Full)
 
 **Phase 5: Competition Simulation** - Back take integration in live rolling with positional scoring
 Free rolling with emphasis on creating and capitalizing on turtle position opportunities. Award points for successful back takes. Partner uses all escape methods available. This phase integrates the technique into your overall game and tests it under maximum pressure and fatigue.
-(Resistance: Full)
 
 
 

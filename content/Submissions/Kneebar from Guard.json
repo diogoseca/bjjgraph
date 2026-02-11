@@ -14,11 +14,6 @@
   "submission_type": "Leg Lock",
   "target_area": "Knee joint (posterior cruciate ligament, medial collateral ligament, lateral collateral ligament)",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Kneebar from Guard represents a powerful attacking option from bottom positions, allowing the guard player to transition from defensive positioning to an immediate submission threat. This technique targets the knee joint through hyperextension, creating mechanical stress on the posterior cruciate ligament and collateral ligaments. The kneebar from guard is particularly effective because it capitalizes on the opponent's forward pressure and weight distribution, using their momentum against them. The technique can be executed from multiple guard variations including closed guard, butterfly guard, open guard, and De La Riva guard, each offering unique entry mechanics and control positions. Modern leg lock systems have elevated the kneebar from guard to a fundamental attacking position, with practitioners developing sophisticated entries that blend seamlessly with sweeps and back takes. The position requires precise timing, hip positioning, and leg control to prevent escape while maintaining offensive pressure. When executed correctly, the kneebar from guard creates an inescapable submission that forces immediate tap or results in serious injury.",
   "safety_considerations": {
     "injury_risks": [
@@ -94,43 +89,37 @@
       "step_number": 1,
       "action": "Establish grip control and break posture",
       "description": "From closed guard or open guard, secure a grip on opponent's ankle or pants near their knee. Simultaneously pull them forward to break their posture, preventing them from sitting back and creating the forward momentum needed for the kneebar entry. Your opposite hand should control their same-side sleeve or collar to prevent them from posting.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 2,
       "action": "Open guard and pivot hips perpendicular",
       "description": "Open your closed guard if applicable and immediately pivot your hips 90 degrees so your body becomes perpendicular to opponent's trapped leg. This is the most critical positional element - your spine should form a 'T' shape with their leg. Thread your inside leg across their trapped thigh to begin isolation.",
-      "timing": "1 second - this must be explosive",
-      "pressure_level": "Light"
+      "timing": "1 second - this must be explosive"
     },
     {
       "step_number": 3,
       "action": "Isolate the leg and establish leg triangle",
       "description": "Wrap your inside leg around opponent's trapped thigh and lock a figure-four position with your outside leg hooking behind your ankle. This leg triangle prevents them from extracting their leg. Simultaneously, your arms must control their heel, pulling it tightly to your chest with their toes pointing away from you. Your outside arm typically secures the heel while your inside arm reinforces.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Control upper body with remaining leg",
       "description": "Your free leg (the one not in the leg triangle) must immediately establish control over opponent's upper body. Push against their shoulder, chest, or hips to prevent them from sitting up, turning into you, or stacking you. This is critical defensive structure - without upper body control, they can escape or counter-attack.",
-      "timing": "Simultaneous with step 3",
-      "pressure_level": "Moderate"
+      "timing": "Simultaneous with step 3"
     },
     {
       "step_number": 5,
       "action": "Adjust angle and tighten heel control",
       "description": "Fine-tune your perpendicular angle by scooting your hips away from opponent's free leg. Pull their trapped heel even tighter to your chest, eliminating all space between their heel and your armpit. Their knee should be positioned just above your hips. Cup their heel with both hands in a 'prayer grip' position with thumbs together for maximum security.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Apply finishing pressure through hip extension",
       "description": "Slowly and progressively extend your hips upward while pulling their heel down toward your chest. The pressure point should be just above their kneecap, against the bottom of your abdomen or hip flexors. Engage your glutes and thrust your hips upward - do NOT arch your back excessively. The motion is controlled hip extension, creating hyperextension force on their knee joint. In training, apply pressure over 5-7 seconds minimum, stopping immediately at any tap signal.",
-      "timing": "5-7 seconds minimum in training",
-      "pressure_level": "Maximum"
+      "timing": "5-7 seconds minimum in training"
     }
   ],
   "opponent_defense_patterns": [
@@ -164,44 +153,37 @@
     {
       "error": "Failing to establish perpendicular hip positioning before attempting the finish",
       "consequence": "Opponent easily escapes by simply sitting up or pulling their leg out, and you lose all control",
-      "correction": "Prioritize the 90-degree hip angle - your body must form a 'T' with their leg. Scoot your hips perpendicular before even thinking about finishing pressure.",
-      "danger_level": "Low"
+      "correction": "Prioritize the 90-degree hip angle - your body must form a 'T' with their leg. Scoot your hips perpendicular before even thinking about finishing pressure."
     },
     {
       "error": "Allowing space between opponent's heel and your chest/armpit",
       "consequence": "Opponent can slip their heel free and extract their leg completely, escaping the submission",
-      "correction": "Pull the heel as tightly as possible to your body - imagine you're trying to make their heel touch your opposite shoulder. Use a prayer grip with both hands for maximum heel security.",
-      "danger_level": "Low"
+      "correction": "Pull the heel as tightly as possible to your body - imagine you're trying to make their heel touch your opposite shoulder. Use a prayer grip with both hands for maximum heel security."
     },
     {
       "error": "Applying pressure by arching the back instead of extending the hips",
       "consequence": "Minimal pressure on opponent's knee, potential lower back injury to yourself, and easy escape for opponent",
-      "correction": "Think 'hip thrust' not 'back arch'. Engage your glutes and drive your hips upward toward the ceiling while keeping your core tight. The power source is hip extension.",
-      "danger_level": "Medium"
+      "correction": "Think 'hip thrust' not 'back arch'. Engage your glutes and drive your hips upward toward the ceiling while keeping your core tight. The power source is hip extension."
     },
     {
       "error": "Jerking or spiking the submission with sudden explosive pressure",
       "consequence": "IMMEDIATE SEVERE KNEE INJURY to training partner - PCL tear, MCL rupture, or meniscus damage requiring surgery",
-      "correction": "ALWAYS apply progressive pressure over minimum 5-7 seconds in training. The submission should feel like slowly increasing tension, never a sudden spike. Your partner must have time to recognize the danger and tap.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply progressive pressure over minimum 5-7 seconds in training. The submission should feel like slowly increasing tension, never a sudden spike. Your partner must have time to recognize the danger and tap."
     },
     {
       "error": "Neglecting upper body control with your free leg",
       "consequence": "Opponent sits up, faces you, and easily strips your heel control or passes your guard entirely",
-      "correction": "As soon as you establish the leg triangle, your free leg must push against their shoulder, chest, or hips. This leg acts as a stiff arm preventing them from closing distance.",
-      "danger_level": "Medium"
+      "correction": "As soon as you establish the leg triangle, your free leg must push against their shoulder, chest, or hips. This leg acts as a stiff arm preventing them from closing distance."
     },
     {
       "error": "Attempting the kneebar when opponent has strong defensive grips locked on their own leg",
       "consequence": "Wasted energy fighting their grip, allowing them to defend the kneebar and potentially pass your guard during the struggle",
-      "correction": "Break their defensive grips BEFORE fully committing to the kneebar entry. Use two-on-one grip breaks, or threaten sweeps/back takes to force them to release and post their hands.",
-      "danger_level": "Low"
+      "correction": "Break their defensive grips BEFORE fully committing to the kneebar entry. Use two-on-one grip breaks, or threaten sweeps/back takes to force them to release and post their hands."
     },
     {
       "error": "Allowing opponent's heel to rotate or turn out during application",
       "consequence": "CRITICAL DANGER - adds rotational torque to knee joint, exponentially increasing injury risk and potentially causing ACL tear in addition to PCL damage",
-      "correction": "Control the heel position rigidly - their toes must point straight away from you throughout the entire submission. Any rotation must be prevented by tight control with both arms. If the heel starts to rotate, release pressure immediately.",
-      "danger_level": "CRITICAL"
+      "correction": "Control the heel position rigidly - their toes must point straight away from you throughout the entire submission. Any rotation must be prevented by tight control with both arms. If the heel starts to rotate, release pressure immediately."
     }
   ],
   "variations_and_setups": [
@@ -288,50 +270,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Positional Drilling",
-      "timeframe": "Weeks 1-3",
-      "focus": "Learn proper entry mechanics, perpendicular hip positioning, leg triangle configuration, and heel control without any finishing pressure. Partner remains completely passive allowing you to achieve perfect position repeatedly.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus exclusively on positional control and proper angles. No finishing pressure whatsoever - this phase is purely about understanding the mechanics and achieving consistent positional control. Drill entries from multiple guard types (closed, butterfly, open, DLR) to build pattern recognition."
-    },
-    {
-      "phase": "Positional Maintenance Against Light Movement",
-      "timeframe": "Weeks 4-6",
-      "focus": "Maintain kneebar control position as partner makes slow, predictable escape attempts. Focus on hip positioning adjustments, heel control security, and using free leg for upper body control. Still no finishing pressure.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner performs only pre-agreed escape attempts at slow speed. Still absolutely no finishing pressure - focus remains on positional control and adjustment. Practice recognizing when position is lost and resetting rather than forcing a compromised position."
-    },
-    {
-      "phase": "Grip Fighting and Entry Timing",
-      "timeframe": "Weeks 7-10",
-      "focus": "Practice breaking opponent's defensive grips, timing entries against forward pressure, and chaining kneebar attempts with sweep threats. Begin recognizing proper entry opportunities versus forced entries that won't succeed.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner can defend with realistic grip fighting and posture but still no stacking or explosive counters. No finishing pressure yet - focus is on entry success and position achievement against resistance. Build sensitivity to when entry is available versus when to abandon attempt."
-    },
-    {
-      "phase": "Introduction to Controlled Finishing Pressure",
-      "timeframe": "Weeks 11-14",
-      "focus": "Begin applying very light finishing pressure over 10+ seconds, communicating constantly with partner about pressure level. Partner taps early to prevent any joint stress. Focus on feeling proper hip extension mechanics and pressure points.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "CRITICAL PHASE - this is where injuries occur if rushed. Pressure must be extremely slow (10+ seconds) and progressive. Partner must tap at first sensation of knee pressure, well before actual danger point. Absolutely no explosive pressure. Practice proper release protocol after every tap. Both partners verbally confirm comfort level before continuing."
-    },
-    {
-      "phase": "Realistic Training with Safety Margins",
-      "timeframe": "Weeks 15-20",
-      "focus": "Apply kneebar against realistic resistance including defensive grips, stacking attempts, and escape efforts. Finishing pressure still applied over minimum 5-7 seconds. Begin recognizing when position quality allows finish versus when to transition to sweeps or other attacks.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain 5-7 second minimum pressure application even against resistance. Partner taps early but at more realistic danger point (when they feel significant pressure but before pain). Never spike pressure to overcome defense - if position is defended, transition to alternative attacks. Verbally confirm partner's knee health after each training session."
-    },
-    {
-      "phase": "Competition Simulation with Advanced Safety",
-      "timeframe": "Weeks 21+",
-      "focus": "Full-speed entries and position maintenance, but finishing pressure still controlled and progressive. Practice kneebar as part of complete guard game including sweeps, back takes, and submission chains. Develop sensitivity to position quality.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even at competition simulation, training partners apply pressure progressively (minimum 3-5 seconds) versus the instant application used in actual competition. Both partners must have established trust and consistent training relationship. Agree on tap threshold before rolling - some prefer to tap earlier to preserve training longevity. Never train kneebars hard on consecutive days - knee joints need recovery time between sessions."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Butterfly Guard",
@@ -394,5 +332,6 @@
       "name": "De La Riva Guard",
       "relationship": "Primary entry guard for kneebar attacks against standing opponents"
     }
-  ]
+  ],
+  "success_rate": 52
 }

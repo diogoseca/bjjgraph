@@ -153,7 +153,7 @@ description: "Master Osoto Gari, the fundamental judo throw adapted for BJJ. Ste
 Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successfully integrated into Brazilian Jiu-Jitsu as a high-percentage standing technique. This technique involves reaping your opponent's weight-bearing leg from the outside while simultaneously driving their upper body backward, creating a powerful off-balancing motion that results in a controlled takedown. The beauty of Osoto Gari lies in its simplicity and effectiveness - it requires minimal setup compared to other throws and can be executed from various gripping configurations. In the BJJ context, Osoto Gari is particularly valuable because it allows the practitioner to maintain upper body control throughout the throw, often landing directly in dominant positions such as Side Control or Scarf Hold (Kesa Gatame). The technique capitalizes on fundamental principles of off-balancing and leverage, making it accessible to practitioners of all levels while remaining effective at the highest levels of competition. Unlike many judo throws that require extensive kuzushi (off-balancing) preparation, Osoto Gari can be executed explosively when the opponent is slightly forward-weighted, making it an excellent counter-attacking technique.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -203,12 +203,12 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw), gripping deep into the lapel near the collarbone. Your left hand controls the opponent's right sleeve at the elbow or tricep. Pull opponent slightly forward to test their balance and establish control. These grips must be firm and active, not passive, as they will control the entire throwing motion. (Timing: Take 2-3 seconds to establish and test grips before committing to the throw)
-2. **Close distance and align hips**: Step forward with your left foot, positioning it slightly outside and ahead of opponent's right foot. Simultaneously pull with both grips to bring opponent's upper body closer to yours. Your hips should now be nearly touching opponent's hips, with your chest making contact with their chest. This hip-to-hip alignment is critical for power generation and control. (Timing: Execute as one smooth motion immediately after establishing grips)
-3. **Load the supporting leg**: Bend your left knee (supporting leg) and shift your weight onto it, creating a loaded spring-like position. Your right leg should be light and ready to sweep. The loading phase involves dropping your hips slightly while maintaining upright posture in your upper body. This creates the elastic energy that will drive the throw. (Timing: Brief loading phase of less than one second)
-4. **Execute the reap**: Swing your right leg in a wide, sweeping arc to the outside of opponent's right leg. The reaping motion should contact their leg from calf to back of knee, not just hook the ankle. Your entire leg acts as a sweeping bar, with the force coming from your hip rotation. The sweep travels backward and slightly upward, lifting their leg off the mat while disrupting their base. (Timing: Explosive sweeping motion coordinated with upper body drive)
-5. **Drive upper body backward**: Simultaneously with the leg reap, pull strongly with your collar grip while pushing opponent's shoulder/tricep with your sleeve hand. This creates a rotational force that drives their upper body backward and down. Your chest should remain in contact with theirs throughout this motion. The pulling direction is backward and slightly downward, toward the mat behind them. (Timing: Synchronized perfectly with the reaping action)
-6. **Follow through to dominant position**: As opponent falls, maintain your grips and chest pressure to control their landing. Step through with your reaping leg, positioning it as a base post near their hip. Your weight should transfer forward onto opponent as they hit the mat. Release the collar grip and immediately establish crossface control with your right arm while maintaining sleeve control. Transition your hips to a Side Control position, keeping pressure on opponent's torso. (Timing: Continuous motion from throw completion to position establishment)
+1. **Establish dominant grips**: Secure a high collar grip with your right hand (for right-sided throw), gripping deep into the lapel near the collarbone. Your left hand controls the opponent's right sleeve at the elbow or tricep. Pull opponent slightly forward to test their balance and establish control. These grips must be firm and active, not passive, as they will control the entire throwing motion.
+2. **Close distance and align hips**: Step forward with your left foot, positioning it slightly outside and ahead of opponent's right foot. Simultaneously pull with both grips to bring opponent's upper body closer to yours. Your hips should now be nearly touching opponent's hips, with your chest making contact with their chest. This hip-to-hip alignment is critical for power generation and control.
+3. **Load the supporting leg**: Bend your left knee (supporting leg) and shift your weight onto it, creating a loaded spring-like position. Your right leg should be light and ready to sweep. The loading phase involves dropping your hips slightly while maintaining upright posture in your upper body. This creates the elastic energy that will drive the throw.
+4. **Execute the reap**: Swing your right leg in a wide, sweeping arc to the outside of opponent's right leg. The reaping motion should contact their leg from calf to back of knee, not just hook the ankle. Your entire leg acts as a sweeping bar, with the force coming from your hip rotation. The sweep travels backward and slightly upward, lifting their leg off the mat while disrupting their base.
+5. **Drive upper body backward**: Simultaneously with the leg reap, pull strongly with your collar grip while pushing opponent's shoulder/tricep with your sleeve hand. This creates a rotational force that drives their upper body backward and down. Your chest should remain in contact with theirs throughout this motion. The pulling direction is backward and slightly downward, toward the mat behind them.
+6. **Follow through to dominant position**: As opponent falls, maintain your grips and chest pressure to control their landing. Step through with your reaping leg, positioning it as a base post near their hip. Your weight should transfer forward onto opponent as they hit the mat. Release the collar grip and immediately establish crossface control with your right arm while maintaining sleeve control. Transition your hips to a Side Control position, keeping pressure on opponent's torso.
 
 
 </section>
@@ -254,23 +254,18 @@ Osoto Gari (Major Outer Reap) is a fundamental judo throw that has been successf
 ## Training Progressions
 **Phase 1: Static Technique (Weeks 1-2)** - Basic mechanics and body positioning without resistance
 Partner stands completely still in neutral standing position. Practice establishing grips, closing distance, loading supporting leg, and executing reap motion in slow motion. Focus on feeling the correct body alignment, hip position, and leg sweep trajectory. Repeat 20-30 times per training session, alternating sides. Partner provides zero resistance but gives feedback on control and positioning.
-(Resistance: None)
 
 **Phase 2: Cooperative Movement (Weeks 3-4)** - Timing and rhythm with compliant partner movement
 Partner moves naturally in standing position but doesn't actively resist the throw. Practice reading their weight distribution and executing Osoto Gari when they step forward onto the target leg. Partner should move in realistic patterns but allow the throw to succeed when properly executed. Begin working on landing in Side Control position. Increase speed gradually from 50% to 70% of full speed.
-(Resistance: Light)
 
 **Phase 3: Light Resistance (Weeks 5-8)** - Dealing with basic defensive reactions and grip fighting
 Partner provides 30-40% resistance, including basic grip fighting, posture maintenance, and stepping back when they feel the throw being set up. Practice chaining Osoto Gari with other techniques when the first attempt is defended. Work on recognizing when opponent's weight distribution makes them vulnerable versus when to wait for better opportunity. Introduce positional sparring from standing with focus on landing Osoto Gari.
-(Resistance: Medium)
 
 **Phase 4: Progressive Resistance (Weeks 9-16)** - Competition-level execution and counter management
 Partner provides 60-80% resistance, actively defending and attempting counters. Practice the full sequence including grip fighting, setup, execution, and position establishment. Work against different body types and defensive strategies. Begin incorporating Osoto Gari into full sparring rounds. Focus on recognizing optimal timing windows and committing explosively when opportunity presents. Drill counter-defense scenarios.
-(Resistance: Full)
 
 **Phase 5: Competition Simulation (Week 17+)** - Integration with complete game and strategic application
 Full resistance standing sparring with emphasis on Osoto Gari as part of your takedown system. Practice setting up the throw using feints, grip fighting strategies, and combination attacks. Work on finishing in your preferred top position and transitioning immediately to submission attacks. Video review recommended to identify timing opportunities and technical refinement needs.
-(Resistance: Full)
 
 
 

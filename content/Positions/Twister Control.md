@@ -96,17 +96,25 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Hip Escape to Guard Recovery]]** (25% of attempts)
+- **[[Hip Escape to Guard Recovery]]** (15% of attempts)
 
-- **[[Roll Through Escape]]** (15% of attempts)
+- **[[Roll Through Escape]]** (9% of attempts)
 
-- **[[Bridge and Turn to Turtle]]** (25% of attempts)
+- **[[Bridge and Turn to Turtle]]** (15% of attempts)
 
-- **[[Granby Roll Escape]]** (10% of attempts)
+- **[[Granby Roll Escape]]** (6% of attempts)
 
-- **[[Guard Replacement]]** (15% of attempts)
+- **[[Guard Replacement]]** (9% of attempts)
 
-- **[[Shrimp Escape]]** (10% of attempts)
+- **[[Shrimp Escape]]** (6% of attempts)
+
+- **[[Address Leg Control]]** (10% of attempts)
+
+- **[[Defensive Roll]]** (10% of attempts)
+
+- **[[Frame and Turn]]** (10% of attempts)
+
+- **[[Scramble to Guard]]** (10% of attempts)
 
 
 ### Common Mistakes
@@ -163,17 +171,17 @@ The position's effectiveness scales with skill level and understanding. Beginner
 ### Available Transitions
 
 
-- **[[Twister Finish]]** (25% of attempts)
-
 - **[[Guillotine Choke]]** (15% of attempts)
 
-- **[[Calf Slicer from Truck]]** (10% of attempts)
+- **[[Calf Slicer from Truck]]** (9% of attempts)
 
-- **[[Back Take]]** (25% of attempts)
+- **[[Back Take]]** (23% of attempts)
 
-- **[[Neck Crank]]** (10% of attempts)
+- **[[Neck Crank]]** (9% of attempts)
 
-- **[[Banana Split]]** (15% of attempts)
+- **[[Banana Split]]** (14% of attempts)
+
+- **[[Twister]]** (30% of attempts)
 
 
 ### Common Mistakes

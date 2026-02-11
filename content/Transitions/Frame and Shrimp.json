@@ -12,11 +12,6 @@
     "framing",
     "hip_escape"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Frame and Shrimp is the most fundamental escape mechanism in Brazilian Jiu-Jitsu, serving as the cornerstone technique for creating space and recovering guard from bottom positions. This technique combines structural framing with hip mobility to systematically address the control points that keep you pinned. The frame creates a barrier that prevents your opponent from maintaining chest-to-chest pressure, while the shrimping motion uses hip movement to create angles and distance.\n\nThis technique is essential for all practitioners as it forms the foundation of defensive movement in BJJ. Unlike explosive bridging movements, the frame and shrimp relies on technical precision and efficient body mechanics rather than strength. When executed correctly, it allows smaller practitioners to escape from larger opponents by systematically disrupting their base and control points. The movement pattern transfers across multiple bottom positions including side control, mount, knee on belly, and various pin positions.\n\nMastery of the frame and shrimp fundamentally changes a practitioner's ability to survive and escape from bad positions. It teaches critical lessons about creating and managing space, understanding control points, and using angles rather than strength. This technique serves as the gateway to more advanced escapes and represents a key distinction between beginners who panic under pressure and experienced practitioners who remain calm and systematically work their way back to guard.",
   "key_principles": [
     "Create structural frames using skeletal alignment rather than muscle strength",
@@ -39,38 +34,32 @@
     {
       "step_number": 1,
       "action": "Establish primary frame",
-      "description": "Place your forearm across opponent's neck or chin, creating a stiff arm with elbow tight to your body. Your hand should be palm-down on their shoulder or collar, with your forearm acting as a barrier. Keep your elbow connected to your ribs to prevent arm isolation. The frame should use skeletal structure, not muscle tension.",
-      "timing": "Immediate upon recognizing pin position"
+      "description": "Place your forearm across opponent's neck or chin, creating a stiff arm with elbow tight to your body. Your hand should be palm-down on their shoulder or collar, with your forearm acting as a barrier. Keep your elbow connected to your ribs to prevent arm isolation. The frame should use skeletal structure, not muscle tension."
     },
     {
       "step_number": 2,
       "action": "Create secondary frame",
-      "description": "Place your second hand on opponent's hip, near their belt line. This hand will push against their hip to create the initial separation. Your arm should be slightly bent with elbow protected. Both frames together create a cross-body barrier that prevents chest-to-chest pressure.",
-      "timing": "As soon as primary frame is secure"
+      "description": "Place your second hand on opponent's hip, near their belt line. This hand will push against their hip to create the initial separation. Your arm should be slightly bent with elbow protected. Both frames together create a cross-body barrier that prevents chest-to-chest pressure."
     },
     {
       "step_number": 3,
       "action": "Bridge to create initial space",
-      "description": "Drive through your feet to lift your hips slightly off the mat, creating just enough space to turn onto your side. This is a small, controlled bridge - not an explosive upa. Turn your body toward the opponent to create the angle needed for shrimping. Your shoulder should now be off the mat.",
-      "timing": "Coordinate with opponent's breathing or weight shift"
+      "description": "Drive through your feet to lift your hips slightly off the mat, creating just enough space to turn onto your side. This is a small, controlled bridge - not an explosive upa. Turn your body toward the opponent to create the angle needed for shrimping. Your shoulder should now be off the mat."
     },
     {
       "step_number": 4,
       "action": "Execute first shrimp",
-      "description": "While maintaining both frames, explosively drive your inside hip backward and away from your opponent. Your knee should come up toward your chest as you slide your hips away. Think of creating a 'C' shape with your body. Your shoulders stay relatively stationary while your hips move 6-12 inches away from opponent.",
-      "timing": "Immediately following the bridge"
+      "description": "While maintaining both frames, explosively drive your inside hip backward and away from your opponent. Your knee should come up toward your chest as you slide your hips away. Think of creating a 'C' shape with your body. Your shoulders stay relatively stationary while your hips move 6-12 inches away from opponent."
     },
     {
       "step_number": 5,
       "action": "Insert knee shield or guard",
-      "description": "As space is created, immediately insert your inside knee between you and your opponent. Drive the knee upward toward their chest while maintaining your frames. Your shin should create a barrier across their torso. Alternatively, if sufficient space exists, hook their leg with your inside leg to begin guard recovery.",
-      "timing": "The moment adequate space is created"
+      "description": "As space is created, immediately insert your inside knee between you and your opponent. Drive the knee upward toward their chest while maintaining your frames. Your shin should create a barrier across their torso. Alternatively, if sufficient space exists, hook their leg with your inside leg to begin guard recovery."
     },
     {
       "step_number": 6,
       "action": "Complete guard recovery",
-      "description": "Use your frames and knee shield to create additional space for your bottom leg to extract. Scoot your hips back while maintaining distance with your frames and knee. Once your bottom leg is free, establish full guard by either closing your legs around opponent or maintaining an open guard position with grips and foot placement.",
-      "timing": "Continuous movement until guard is established"
+      "description": "Use your frames and knee shield to create additional space for your bottom leg to extract. Scoot your hips back while maintaining distance with your frames and knee. Once your bottom leg is free, establish full guard by either closing your legs around opponent or maintaining an open guard position with grips and foot placement."
     }
   ],
   "common_counters": [
@@ -136,32 +125,27 @@
     {
       "phase": "Week 1-2: Solo Drilling",
       "focus": "Movement mechanics and muscle memory",
-      "description": "Practice shrimping movements solo down the length of the mat. Focus on hip mobility, keeping shoulders relatively stationary, and creating proper 'C' shape with body. Add frame positioning while shrimping. 10 reps each direction at start and end of every training session.",
-      "resistance_level": "None"
+      "description": "Practice shrimping movements solo down the length of the mat. Focus on hip mobility, keeping shoulders relatively stationary, and creating proper 'C' shape with body. Add frame positioning while shrimping. 10 reps each direction at start and end of every training session."
     },
     {
       "phase": "Week 3-4: Static Positional",
       "focus": "Frame structure and positional awareness",
-      "description": "Partner holds side control with light pressure (30% intensity). Practice establishing frames, feeling for proper skeletal alignment, and executing single shrimp movements. Partner maintains base but doesn't actively counter. Focus on quality over speed.",
-      "resistance_level": "Light"
+      "description": "Partner holds side control with light pressure (30% intensity). Practice establishing frames, feeling for proper skeletal alignment, and executing single shrimp movements. Partner maintains base but doesn't actively counter. Focus on quality over speed."
     },
     {
       "phase": "Week 5-8: Progressive Resistance",
       "focus": "Escape under increasing pressure",
-      "description": "Partner gradually increases pressure from 50% to 75% intensity. They may attempt to maintain position but don't aggressively counter your escape attempts. Practice complete escape sequence from initial frame to guard recovery. Work both sides equally.",
-      "resistance_level": "Medium"
+      "description": "Partner gradually increases pressure from 50% to 75% intensity. They may attempt to maintain position but don't aggressively counter your escape attempts. Practice complete escape sequence from initial frame to guard recovery. Work both sides equally."
     },
     {
       "phase": "Week 9-12: Active Resistance",
       "focus": "Timing and countering opponent's reactions",
-      "description": "Partner uses full pressure and actively works to maintain position, but doesn't advance to mount or other positions. Practice timing shrimps with opponent's weight shifts, breathing, and base adjustments. Learn to feel when they're vulnerable to escape.",
-      "resistance_level": "Full"
+      "description": "Partner uses full pressure and actively works to maintain position, but doesn't advance to mount or other positions. Practice timing shrimps with opponent's weight shifts, breathing, and base adjustments. Learn to feel when they're vulnerable to escape."
     },
     {
       "phase": "Week 13+: Live Situational Sparring",
       "focus": "Integration with full defensive game",
-      "description": "Start in side control bottom, partner can advance position or attack submissions. Practice escaping while defending attacks, chaining multiple escape attempts, and maintaining composure under pressure. 5-minute rounds, reset when guard is achieved or submission occurs.",
-      "resistance_level": "Full"
+      "description": "Start in side control bottom, partner can advance position or attack submissions. Practice escaping while defending attacks, chaining multiple escape attempts, and maintaining composure under pressure. 5-minute rounds, reset when guard is achieved or submission occurs."
     }
   ],
   "variants_and_adaptations": [
@@ -189,33 +173,27 @@
   "knowledge_assessment": [
     {
       "question": "Why must you establish frames before shrimping rather than shrimping first?",
-      "answer": "Frames create and hold the space that shrimping generates. Without frames, your opponent's weight simply follows your hip movement and immediately fills any space you create. The frame acts as a barrier that prevents them from maintaining chest-to-chest pressure while you move your hips. Think of the frame as a door stop - it holds the door open while you move through it.",
-      "difficulty": "Beginner"
+      "answer": "Frames create and hold the space that shrimping generates. Without frames, your opponent's weight simply follows your hip movement and immediately fills any space you create. The frame acts as a barrier that prevents them from maintaining chest-to-chest pressure while you move your hips. Think of the frame as a door stop - it holds the door open while you move through it."
     },
     {
       "question": "What is the correct direction to shrimp when escaping side control?",
-      "answer": "You should shrimp away from the pressure and in the direction your head is facing. If you're on your right side facing left, you shrimp toward your left (away from opponent). Shrimping toward the opponent or in the wrong direction actually helps them advance to mount or establish more dominant control. The goal is to create distance and angles that make their position weaker, not stronger.",
-      "difficulty": "Beginner"
+      "answer": "You should shrimp away from the pressure and in the direction your head is facing. If you're on your right side facing left, you shrimp toward your left (away from opponent). Shrimping toward the opponent or in the wrong direction actually helps them advance to mount or establish more dominant control. The goal is to create distance and angles that make their position weaker, not stronger."
     },
     {
       "question": "How should your frames be structured - using muscle strength or skeletal alignment?",
-      "answer": "Frames must use skeletal alignment rather than muscle strength. Your forearm should act like a post or strut, with the elbow connected to your ribs to create a rigid structure using bone and body positioning. Pushing with muscle strength fatigues quickly and collapses under sustained pressure. Proper skeletal frames can be maintained much longer and are effective even against much stronger opponents because they leverage structure, not strength.",
-      "difficulty": "Intermediate"
+      "answer": "Frames must use skeletal alignment rather than muscle strength. Your forearm should act like a post or strut, with the elbow connected to your ribs to create a rigid structure using bone and body positioning. Pushing with muscle strength fatigues quickly and collapses under sustained pressure. Proper skeletal frames can be maintained much longer and are effective even against much stronger opponents because they leverage structure, not strength."
     },
     {
       "question": "When is the optimal timing to execute your shrimp during the escape sequence?",
-      "answer": "The optimal timing is immediately after bridging to create initial space, or when you feel your opponent's weight shift or their base adjust. Many experienced practitioners time their shrimp with the opponent's breathing - as they exhale, their pressure momentarily decreases. You can also shrimp as they attempt to improve their position, using their movement and committed weight against them. The key is that shrimping requires a moment when their pressure is not at maximum - either because you've created space with frames and bridge, or because they're transitioning.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is immediately after bridging to create initial space, or when you feel your opponent's weight shift or their base adjust. Many experienced practitioners time their shrimp with the opponent's breathing - as they exhale, their pressure momentarily decreases. You can also shrimp as they attempt to improve their position, using their movement and committed weight against them. The key is that shrimping requires a moment when their pressure is not at maximum - either because you've created space with frames and bridge, or because they're transitioning."
     },
     {
       "question": "What are the key differences between escaping from side control versus mount using frame and shrimp principles?",
-      "answer": "From mount, your frames must be higher (on chest, shoulders, or under chin) to prevent them from posturing up and attacking, and you typically bridge first to create the angle before shrimping. From side control, frames are on neck/shoulder and hip, and you can often shrimp more directly. Mount escapes usually require bridging to one side to dump them forward before shrimping, while side control allows immediate shrimping once frames are established. Mount also requires more careful attention to preventing arm isolation since both your arms are between you and opponent. The fundamental mechanics are the same - create frames, make space, insert guard - but the angles, frame positions, and sequence timing differ based on the position geometry.",
-      "difficulty": "Advanced"
+      "answer": "From mount, your frames must be higher (on chest, shoulders, or under chin) to prevent them from posturing up and attacking, and you typically bridge first to create the angle before shrimping. From side control, frames are on neck/shoulder and hip, and you can often shrimp more directly. Mount escapes usually require bridging to one side to dump them forward before shrimping, while side control allows immediate shrimping once frames are established. Mount also requires more careful attention to preventing arm isolation since both your arms are between you and opponent. The fundamental mechanics are the same - create frames, make space, insert guard - but the angles, frame positions, and sequence timing differ based on the position geometry."
     },
     {
       "question": "How do you adapt the frame and shrimp escape when your opponent secures a strong crossface?",
-      "answer": "When opponent has a crossface, your primary frame on the neck becomes less effective. You should strengthen your connection by pressing your elbow even tighter to your ribs, and turn your head away from the crossface to protect your neck and create better frame angles. Often you need to accept the crossface temporarily while you establish a strong hip frame with your other hand. Shrimp at an angle slightly away from the crossface rather than straight back. Some practitioners also transition to an elbow escape variation when the crossface is very strong, or work to create enough space to battle for an underhook which negates the crossface. The key is not panicking when the crossface lands - maintain your defensive structure and continue working systematically.",
-      "difficulty": "Advanced"
+      "answer": "When opponent has a crossface, your primary frame on the neck becomes less effective. You should strengthen your connection by pressing your elbow even tighter to your ribs, and turn your head away from the crossface to protect your neck and create better frame angles. Often you need to accept the crossface temporarily while you establish a strong hip frame with your other hand. Shrimp at an angle slightly away from the crossface rather than straight back. Some practitioners also transition to an elbow escape variation when the crossface is very strong, or work to create enough space to battle for an underhook which negates the crossface. The key is not panicking when the crossface lands - maintain your defensive structure and continue working systematically."
     }
   ],
   "safety_considerations": "The frame and shrimp is one of the safest techniques in BJJ when practiced correctly. Primary safety concerns involve proper frame placement - avoid pushing directly on throat or face, instead frame on chin, shoulder, or collar. When drilling with partners, the bottom person should communicate if pressure on neck becomes uncomfortable. Partners providing resistance should apply pressure gradually, allowing the person escaping to adjust frames and develop proper structure. Avoid explosive, uncontrolled movements that could injure your training partner or yourself. The person on top should not drive their weight directly onto their partner's face or neck. During progression training, increase resistance slowly over weeks to build both technical skill and physical conditioning safely. Be particularly mindful of your partner's neck safety when establishing frames under their chin. If training with significant size mismatches, the larger person should moderate their pressure appropriately. Solo shrimping drills should be performed on proper mats to avoid knee, hip, or elbow injuries from repetitive movement on hard surfaces.",
@@ -291,5 +269,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

@@ -31,7 +31,7 @@
       "relationship": "Transition target when opponent attempts granby roll escapes from buggy choke control"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Switch option available when opponent turns into the buggy choke attack angle"
     },
     {
@@ -167,7 +167,7 @@
         "actions": [
           {
             "technique": "Switch to darce configuration",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 50
           },
           {
@@ -299,7 +299,7 @@
         "relationship": "Transition target when opponent granby rolls to escape pressure"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Switch option when opponent turns into buggy choke attack"
       },
       {
@@ -321,21 +321,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 75,
+        "value": 70,
         "description": "Ability to maintain control and prevent escape"
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 80,
+        "value": 75,
         "description": "Probability of finishing or advancing position"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Probability of finishing submission from position"
       },
       "average_time": "20-45 seconds"
@@ -609,21 +603,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
+        "value": 48,
         "description": "Ability to escape without being submitted"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Probability of escaping to guard or better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Probability of counter-attacking from defensive position"
       },
       "average_time": "15-30 seconds before submission or transition"

@@ -207,11 +207,11 @@ description: "{{ top.description }}"
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | {{ top.position_metrics.retention_rate.beginner }}% | {{ top.position_metrics.advancement_probability.beginner }}% | {{ top.position_metrics.submission_probability.beginner }}% |
-| Intermediate | {{ top.position_metrics.retention_rate.intermediate }}% | {{ top.position_metrics.advancement_probability.intermediate }}% | {{ top.position_metrics.submission_probability.intermediate }}% |
-| Advanced     | {{ top.position_metrics.retention_rate.advanced }}% | {{ top.position_metrics.advancement_probability.advanced }}% | {{ top.position_metrics.submission_probability.advanced }}% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | {{ top.position_metrics.retention_rate.value }}% |
+| Advancement Probability | {{ top.position_metrics.advancement_probability.value }}% |
+| Submission Probability | {{ top.position_metrics.submission_probability.value }}% |
 
 {% if top.position_metrics.average_time -%}
 **Average Time in Position**: {{ top.position_metrics.average_time }}

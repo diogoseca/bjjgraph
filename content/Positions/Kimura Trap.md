@@ -172,7 +172,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 ### Available Transitions
 
 
-- **[[Kimura from Side Control]]** (14% of attempts)
+- **[[Kimura from Side Control]]** (15% of attempts)
 
 - **[[Kimura from North-South]]** (15% of attempts)
 
@@ -184,7 +184,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 - **[[Kimura from Turtle]]** (14% of attempts)
 
-- **[[Side Control to Mount]]** (15% of attempts)
+- **[[Kimura Defense]]** (14% of attempts)
 
 
 ### Common Mistakes

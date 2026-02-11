@@ -157,7 +157,7 @@ From the bottom 50-50 position, you use hip movement and leg control to isolate 
 This entry is particularly effective against opponents who focus entirely on heel defense by hiding their heel or rotating their knee inward. Their defensive posture actually facilitates the kneebar entry by presenting their leg in an extended position. The transition also serves as an excellent chain attack when heel hooks are stalled, creating offensive pressure that prevents opponents from establishing comfortable defensive positions.
 
 **From Position**: [[50-50 Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This entry is particularly effective against opponents who focus entirely on hee
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure ankle control**: Establish strong two-handed grip on opponent's ankle, with one hand cupping the heel and one controlling the Achilles area, preventing leg retraction during transition (Timing: When opponent commits to heel defense)
-2. **Create hip angle**: Shrimp your hips away from opponent while maintaining leg entanglement, creating approximately 45-degree angle to their body that opens path to their knee (Timing: Immediately after securing ankle)
-3. **Thread inside leg**: Bring your inside leg across opponent's body or hook behind their far hip, establishing control point that prevents them from turning toward you during transition (Timing: As hips create angle)
-4. **Trap foot in armpit**: Pull opponent's foot deep into your armpit or clamp it against your shoulder and chest, securing their lower leg against your torso with elbow pressure (Timing: After inside leg is positioned)
-5. **Position legs above knee**: Triangle your legs around opponent's thigh just above the knee joint, with your top leg hooking over their thigh and bottom leg closing the triangle underneath (Timing: Simultaneously with foot trap)
-6. **Bridge for finish**: Drive your hips upward and forward into the back of opponent's knee while pulling their foot toward your chest, hyperextending the knee joint for submission (Timing: When all controls established)
+1. **Secure ankle control**: Establish strong two-handed grip on opponent's ankle, with one hand cupping the heel and one controlling the Achilles area, preventing leg retraction during transition
+2. **Create hip angle**: Shrimp your hips away from opponent while maintaining leg entanglement, creating approximately 45-degree angle to their body that opens path to their knee
+3. **Thread inside leg**: Bring your inside leg across opponent's body or hook behind their far hip, establishing control point that prevents them from turning toward you during transition
+4. **Trap foot in armpit**: Pull opponent's foot deep into your armpit or clamp it against your shoulder and chest, securing their lower leg against your torso with elbow pressure
+5. **Position legs above knee**: Triangle your legs around opponent's thigh just above the knee joint, with your top leg hooking over their thigh and bottom leg closing the triangle underneath
+6. **Bridge for finish**: Drive your hips upward and forward into the back of opponent's knee while pulling their foot toward your chest, hyperextending the knee joint for submission
 
 
 </section>
@@ -252,19 +252,15 @@ This entry is particularly effective against opponents who focus entirely on hee
 ## Training Progressions
 **Week 1-2** - Position and mechanics
 Practice the hip angle, foot trap, and leg triangle positioning with a cooperative partner. Focus on proper body alignment and understanding where pressure is applied to the knee joint. No finishing pressure yet.
-(Resistance: None)
 
 **Week 3-4** - Entry timing
 Partner provides light heel hook defense, hiding their heel. Practice recognizing when to abandon heel hook and transition to kneebar entry. Work on maintaining connection during the angle change.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Integrate kneebar entry with heel hook attempts and back take options. Partner defends more actively, requiring you to chain between attacks based on their defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply kneebar entry in live rolling starting from 50-50 position. Focus on reading opponent's defense and selecting appropriate attack. Work on finishing details and defense against counters.
-(Resistance: Full)
 
 
 

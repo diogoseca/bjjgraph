@@ -21,37 +21,37 @@ description: "Master Half Guard Top with systematic passing strategies. Advanced
     {
       "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
-      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
-      "text": "From this position, attempt Smash Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Smash Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Pass",
-      "text": "From this position, attempt Underhook Pass. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Pass. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
-      "text": "From this position, attempt Long Step Pass. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Long Step Pass. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crossface Pass",
-      "text": "From this position, attempt Crossface Pass. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crossface Pass. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Half Guard",
-      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Half Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,21 +212,23 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Available Attacks
 
-### [[Knee Slice Pass]] (25% of attempts)
+### [[Knee Slice Pass]] (23% of attempts)
 
-### [[Smash Pass]] (15% of attempts)
+### [[Smash Pass]] (13% of attempts)
 
-### [[Underhook Pass]] (15% of attempts)
+### [[Underhook Pass]] (13% of attempts)
 
-### [[Long Step Pass]] (8% of attempts)
+### [[Long Step Pass]] (7% of attempts)
 
-### [[Crossface Pass]] (12% of attempts)
+### [[Crossface Pass]] (11% of attempts)
 
-### [[Kimura from Half Guard]] (8% of attempts)
+### [[Kimura from Half Guard]] (7% of attempts)
 
-### [[Darce Choke]] (7% of attempts)
+### [[Darce Choke]] (6% of attempts)
 
-### [[Back Step Pass]] (10% of attempts)
+### [[Back Step Pass]] (9% of attempts)
+
+### [[Crossface to Combat Base]] (11% of attempts)
 
 
 
@@ -253,7 +255,7 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
 - Execute **[[Kimura from Half Guard]]** → [[Kimura Trap]] (Probability: 45%)
-- Execute **[[Darce Choke]]** → [[D'arce Control]] (Probability: 40%)
+- Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 40%)
 
 
 **If opponent attempts to go deep half or recover full guard through hip escape:**
@@ -345,11 +347,11 @@ Partner cycles through different half guard variations (Knee Shield, Lockdown, D
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 15% |
-| Intermediate | 60% | 50% | 30% |
-| Advanced     | 75% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 60% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 1-3 minutes depending on opponent's defensive sophistication and top player's passing acumen
 

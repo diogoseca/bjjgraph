@@ -380,11 +380,11 @@ Start with partner giving 50% resistance in mounted crucifix. Execute full escap
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 15% | 0% |
-| Intermediate | 35% | 30% | 0% |
-| Advanced     | 50% | 45% | 5% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 42% |
+| Advancement Probability | 38% |
+| Submission Probability | 2% |
 
 **Average Time in Position**: 30-60 seconds before submission or position change
 

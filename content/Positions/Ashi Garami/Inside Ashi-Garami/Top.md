@@ -377,11 +377,11 @@ Practice transitioning from inside ashi to more advanced positions (honey hole, 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 20% |
-| Intermediate | 50% | 50% | 35% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds before submission attempt or advancement
 

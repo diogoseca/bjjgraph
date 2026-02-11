@@ -157,7 +157,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 **Type**: Arm Lock
 **Target Area**: Elbow joint
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -235,12 +235,12 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture and secure arm control**: From closed guard, use your legs to break opponent's posture by pulling their head down toward you. Simultaneously secure a cross-collar grip with your right hand (if attacking their left arm) or establish a strong sleeve grip. Your goal is to bring their head down while maintaining control of the attacking arm. (Timing: Initial setup - maintain until posture is broken) [Pressure: Moderate]
-2. **Isolate and trap the attacking arm**: Pull the attacking arm across your centerline using your sleeve or collar grip. Your free hand should overhook their arm and grip your own thigh or shin to lock it in place. This isolation prevents them from pulling their arm back to safety. The arm should be positioned with their thumb pointing up, setting up proper elbow alignment. (Timing: 1-2 seconds - secure before creating angle) [Pressure: Firm]
-3. **Create angle and position attacking leg**: Open your guard and immediately place your left leg (opposite side to attacking arm) across the back of opponent's head and neck. Simultaneously shift your hips out at approximately 45-90 degrees to create the perpendicular angle. This leg prevents them from posturing up and escapes, while the angle gives you mechanical advantage. (Timing: Explosive transition - 1 second) [Pressure: Moderate]
-4. **Swing second leg over and lock position**: Swing your right leg over opponent's face and lock your ankles or squeeze your knees together. Your right leg should rest on their chest or throat area while your left leg pins their head. Ensure your hips are now perpendicular to opponent's body and elevated off the mat. This configuration maximizes control and leverage. (Timing: Quick transition - 1 second) [Pressure: Firm]
-5. **Secure proper arm position and hip placement**: Ensure opponent's arm is between your legs with their thumb pointing up toward the ceiling. Your hips should be tight to their shoulder—imagine trying to touch your tailbone to their shoulder. Both hands should grip their wrist or forearm to prevent any arm extraction. Your knees must be squeezed together to prevent them from rotating their elbow away from danger. (Timing: Adjustment phase - 2-3 seconds) [Pressure: Firm]
-6. **Apply finishing pressure through hip extension**: Keeping your hips elevated and tight to their shoulder, create pressure by gently extending your hips upward (like a small pelvic thrust) while pulling their wrist down toward your chest. The extension comes from hip movement, not from yanking the arm. The pressure should be slow, controlled, and progressive. Stop immediately at tap signal. The elbow should hyperextend over your hips as the fulcrum point. (Timing: SLOW application - 3-5 seconds minimum) [Pressure: Maximum]
+1. **Break posture and secure arm control**: From closed guard, use your legs to break opponent's posture by pulling their head down toward you. Simultaneously secure a cross-collar grip with your right hand (if attacking their left arm) or establish a strong sleeve grip. Your goal is to bring their head down while maintaining control of the attacking arm. (Timing: Initial setup - maintain until posture is broken)
+2. **Isolate and trap the attacking arm**: Pull the attacking arm across your centerline using your sleeve or collar grip. Your free hand should overhook their arm and grip your own thigh or shin to lock it in place. This isolation prevents them from pulling their arm back to safety. The arm should be positioned with their thumb pointing up, setting up proper elbow alignment. (Timing: 1-2 seconds - secure before creating angle)
+3. **Create angle and position attacking leg**: Open your guard and immediately place your left leg (opposite side to attacking arm) across the back of opponent's head and neck. Simultaneously shift your hips out at approximately 45-90 degrees to create the perpendicular angle. This leg prevents them from posturing up and escapes, while the angle gives you mechanical advantage. (Timing: Explosive transition - 1 second)
+4. **Swing second leg over and lock position**: Swing your right leg over opponent's face and lock your ankles or squeeze your knees together. Your right leg should rest on their chest or throat area while your left leg pins their head. Ensure your hips are now perpendicular to opponent's body and elevated off the mat. This configuration maximizes control and leverage. (Timing: Quick transition - 1 second)
+5. **Secure proper arm position and hip placement**: Ensure opponent's arm is between your legs with their thumb pointing up toward the ceiling. Your hips should be tight to their shoulder—imagine trying to touch your tailbone to their shoulder. Both hands should grip their wrist or forearm to prevent any arm extraction. Your knees must be squeezed together to prevent them from rotating their elbow away from danger. (Timing: Adjustment phase - 2-3 seconds)
+6. **Apply finishing pressure through hip extension**: Keeping your hips elevated and tight to their shoulder, create pressure by gently extending your hips upward (like a small pelvic thrust) while pulling their wrist down toward your chest. The extension comes from hip movement, not from yanking the arm. The pressure should be slow, controlled, and progressive. Stop immediately at tap signal. The elbow should hyperextend over your hips as the fulcrum point. (Timing: SLOW application - 3-5 seconds minimum)
 
 
 </section>
@@ -260,25 +260,25 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting armbar without first breaking opponent's posture [Low DANGER]
+- **Mistake**: Attempting armbar without first breaking opponent's posture
   - **Consequence**: Opponent easily defends by maintaining base and pulling their arm free, often leading to passing your guard
   - **Correction**: Always establish posture control first using closed guard, collar grips, or leg pressure before isolating the arm
-- **Mistake**: Letting hips drop to mat during finish [Low DANGER]
+- **Mistake**: Letting hips drop to mat during finish
   - **Consequence**: Drastically reduces leverage and allows opponent to escape or stack you
   - **Correction**: Maintain elevated hips throughout finish—actively drive hips up toward ceiling while squeezing knees
-- **Mistake**: Yanking or jerking the arm instead of using progressive hip extension [CRITICAL DANGER]
+- **Mistake**: Yanking or jerking the arm instead of using progressive hip extension
   - **Consequence**: SERIOUS INJURY RISK: Can cause sudden ligament tears or elbow dislocation before partner can tap
   - **Correction**: Apply smooth, progressive pressure using hip extension only—no pulling or spiking motions
-- **Mistake**: Failing to control opponent's head with leg [Low DANGER]
+- **Mistake**: Failing to control opponent's head with leg
   - **Consequence**: Opponent sits up, postures, and escapes or passes to side control
   - **Correction**: Always pin head with leg before committing to full rotation—this leg acts as a base and prevents posture recovery
-- **Mistake**: Not creating sufficient angle before attempting armbar [Low DANGER]
+- **Mistake**: Not creating sufficient angle before attempting armbar
   - **Consequence**: Weak leverage allows opponent to defend easily and potentially pass guard
   - **Correction**: Hips must be perpendicular (90 degrees) to opponent's torso for maximum leverage and control
-- **Mistake**: Releasing grip on arm during transition [Medium DANGER]
+- **Mistake**: Releasing grip on arm during transition
   - **Consequence**: Opponent immediately pulls arm to safety and escapes the submission entirely
   - **Correction**: Maintain continuous two-handed control on the attacking arm from initial break until submission completion
-- **Mistake**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps
   - **Consequence**: SERIOUS INJURY: Unnecessary elbow damage, potential surgery, and loss of training partner trust
   - **Correction**: Release ALL pressure immediately at first tap signal—this is non-negotiable safety protocol
 
@@ -345,43 +345,6 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Solo and Demonstration)** (Week 1-2)
-- Focus: Learn proper positioning, angle creation, and hip mechanics without resistance. Practice solo drills for hip movement and leg positioning. Study anatomy of elbow joint to understand injury mechanisms.
-- Resistance: None
-- Safety: Understand injury potential before live application. Review tap signals and release protocols. Study elbow anatomy and hyperextension limits.
-
-**Slow Cooperative Practice** (Week 3-4)
-- Focus: Practice full technique with compliant partner at very slow speed. Partner allows posture break, arm isolation, and position establishment. Focus on smooth transitions and proper mechanics. Stop well before finishing pressure.
-- Resistance: Zero resistance
-- Safety: Establish communication with partner. Practice tap signals and immediate release. Never apply finishing pressure—positional control only.
-
-**Progressive Resistance Introduction** (Week 5-8)
-- Focus: Partner provides mild defensive resistance—light posture maintenance and gentle arm retraction. Practice dealing with basic defenses while maintaining slow, controlled movement. Begin very light finishing pressure with immediate tap protocol.
-- Resistance: Mild resistance
-- Safety: Apply finishing pressure at 20-30% maximum and STOP immediately at discomfort. Focus on control and communication over completion.
-
-**Realistic Defense Integration** (Week 9-12)
-- Focus: Partner uses realistic defenses including posture maintenance, arm extraction, stacking attempts, and grip defenses. Practice submission chains (armbar-triangle-omoplata). Increase finishing pressure to 50-60% with controlled application.
-- Resistance: Realistic resistance
-- Safety: Maintain slow application speed despite increased resistance. Partner should tap early—developing toughness is inappropriate for joint locks.
-
-**Competition Simulation** (Week 13+)
-- Focus: Full resistance rolling with armbar as part of complete guard game. Integrate setups from failed attacks. Practice competition-speed entries but maintain controlled finishing pressure. Combine with other submissions in seamless chains.
-- Resistance: Full resistance
-- Safety: Even in competition simulation, finishing pressure should be controlled and progressive. Speed is in the entry and position, not in the finish.
-
-**Ongoing Refinement and Safety Maintenance** (Ongoing)
-- Focus: Continuous technical refinement focusing on efficiency and higher-percentage entries. Regular review of safety protocols. Teach technique to newer students to reinforce proper mechanics and safety culture.
-- Resistance: Full resistance
-- Safety: Veteran practitioners have responsibility to model proper safety protocols for newer students. Never become complacent with safety procedures regardless of experience level.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -435,6 +398,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

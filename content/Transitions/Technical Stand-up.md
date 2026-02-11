@@ -157,7 +157,7 @@ The technique is particularly valuable in self-defense scenarios, scrambles, and
 Mastery of the technical stand-up provides a reliable escape option from compromised bottom positions and forms the foundation for advanced guard retention systems. At the highest levels, practitioners chain this movement with single leg entries, creating a seamless defensive-to-offensive pipeline that punishes opponents who attempt to follow the stand-up.
 
 **From Position**: [[Seated Guard/Bottom]]
-**Success Rates**: Beginner 65%, Intermediate 80%, Advanced 90%
+**Success Rate**: 85%
 
 </section>
 
@@ -206,12 +206,12 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish seated base**: From seated guard or bottom position, sit up with back straight and hands ready. Your lead leg (typically the leg closest to opponent) should have foot flat on mat with knee up, creating a barrier. Your trail leg can be bent or extended depending on distance to opponent. (Timing: Initiate when opponent pressures forward or when you need to create distance)
-2. **Post hand behind hip**: Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind and slightly to the side of your hip. Fingers should point away from your body at roughly 45 degrees. This hand becomes one point of your tripod base. Keep elbow locked and shoulder engaged to support your weight. (Timing: Post hand must be established before hip elevation)
-3. **Elevate hips off mat**: Drive through your posting hand and lead leg simultaneously to lift your hips completely off the mat. Your weight is now distributed across three points: posting hand, lead leg foot, and trail leg foot. Your hips should rise high enough that your glutes are well clear of the mat, creating maximum distance from opponent. (Timing: Explosive hip elevation prevents opponent from closing distance)
-4. **Swing trail leg through**: While maintaining elevated hip position, swing your trail leg (the leg on the posting hand side) backward and underneath your body. The foot should come through and plant firmly on the mat behind you, creating a strong base. This movement resembles swinging your leg under you to prepare for standing. (Timing: Leg swing must be smooth and controlled while maintaining hip elevation)
-5. **Transfer weight to feet**: As your trail leg plants, begin shifting your weight from the posting hand to both feet. You should now be in a position similar to a sprinter's stance with one foot forward (lead leg) and one back (trail leg), hands ready to defend. Your posting hand can now lift off the mat as your feet bear full weight. (Timing: Weight transfer should be gradual to maintain balance)
-6. **Stand to defensive posture**: From the sprinter stance position, drive through both legs to stand fully upright. Bring your hands up to a defensive position (guard, collar ties, or distance management frames) while maintaining visual contact with opponent. Your feet should be in a balanced fighting stance, ready to engage or create more distance as needed. (Timing: Final stand should be explosive while maintaining defensive awareness)
+1. **Establish seated base**: From seated guard or bottom position, sit up with back straight and hands ready. Your lead leg (typically the leg closest to opponent) should have foot flat on mat with knee up, creating a barrier. Your trail leg can be bent or extended depending on distance to opponent.
+2. **Post hand behind hip**: Place your posting hand (same side as trail leg) flat on the mat approximately 12-18 inches behind and slightly to the side of your hip. Fingers should point away from your body at roughly 45 degrees. This hand becomes one point of your tripod base. Keep elbow locked and shoulder engaged to support your weight.
+3. **Elevate hips off mat**: Drive through your posting hand and lead leg simultaneously to lift your hips completely off the mat. Your weight is now distributed across three points: posting hand, lead leg foot, and trail leg foot. Your hips should rise high enough that your glutes are well clear of the mat, creating maximum distance from opponent.
+4. **Swing trail leg through**: While maintaining elevated hip position, swing your trail leg (the leg on the posting hand side) backward and underneath your body. The foot should come through and plant firmly on the mat behind you, creating a strong base. This movement resembles swinging your leg under you to prepare for standing.
+5. **Transfer weight to feet**: As your trail leg plants, begin shifting your weight from the posting hand to both feet. You should now be in a position similar to a sprinter's stance with one foot forward (lead leg) and one back (trail leg), hands ready to defend. Your posting hand can now lift off the mat as your feet bear full weight.
+6. **Stand to defensive posture**: From the sprinter stance position, drive through both legs to stand fully upright. Bring your hands up to a defensive position (guard, collar ties, or distance management frames) while maintaining visual contact with opponent. Your feet should be in a balanced fighting stance, ready to engage or create more distance as needed.
 
 
 </section>
@@ -257,27 +257,21 @@ Mastery of the technical stand-up provides a reliable escape option from comprom
 ## Training Progressions
 **Phase 1: Static Base Development (Week 1-2)** - Master posting position and tripod base without movement
 Practice establishing the posting hand position and elevated hip tripod without opponent. Focus on proper hand placement, hip height, and maintaining balance in the elevated position for 10-30 seconds. Work on both sides equally to develop ambidextrous ability.
-(Resistance: None)
 
 **Phase 2: Controlled Movement Pattern (Week 3-4)** - Execute complete technical stand-up slowly with focus on form
 Perform the full sequence from seated position to standing without opposition. Emphasize each checkpoint: base, post, elevate, swing, transfer, stand. Use mirror or video to ensure proper mechanics. Aim for 20-30 repetitions per training session on each side.
-(Resistance: None)
 
 **Phase 3: Partner Presence Drilling (Week 5-8)** - Execute technical stand-up with passive partner maintaining distance
 Partner maintains distance at arm's length while you perform technical stand-up. Partner does not attack but maintains presence to simulate realistic threat. Focus on keeping eyes on partner and maintaining lead leg barrier throughout movement. Progress to partner applying light forward pressure.
-(Resistance: Light)
 
 **Phase 4: Active Defense Integration (Week 9-12)** - Respond to specific attacks during technical stand-up
 Partner attempts predetermined attacks: rushing forward, grabbing posting arm, controlling lead leg. Practice appropriate responses for each counter while completing or adapting the technical stand-up. Develop decision-making skills about when to complete stand-up versus transitioning to guard.
-(Resistance: Medium)
 
 **Phase 5: Positional Sparring Application (Month 4-6)** - Use technical stand-up in live bottom position scenarios
 Start in compromised bottom positions (opponent standing, you seated) with goal of successfully completing technical stand-up or transitioning to guard. Partner applies full resistance with limitation of no submissions. Integrate with guard recovery and guard replacement techniques.
-(Resistance: Full)
 
 **Phase 6: Live Integration and Refinement (Ongoing)** - Apply technical stand-up opportunistically in free rolling
 Identify and execute technical stand-up during appropriate moments in live training. Develop awareness of when the technique is high-percentage versus when alternative escapes are better. Refine timing, speed, and connection to follow-up positions based on opponent reactions in real scenarios.
-(Resistance: Full)
 
 
 

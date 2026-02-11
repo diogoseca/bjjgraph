@@ -9,11 +9,6 @@
     "pressure passing",
     "outside ashi counter"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Back Step is a fundamental leg entanglement escape and guard pass that creates immediate pressure passing opportunities when an opponent attempts to enter outside ashi-garami or other leg entanglement positions. By stepping the trapped leg backward over the opponent's body while maintaining heavy chest pressure, you simultaneously break their leg entanglement structure and establish dominant top position. This technique is essential in modern BJJ, particularly in no-gi competition where leg locks are prevalent. The back step exemplifies the principle of using aggressive forward movement to counter defensive guard retention, turning a potentially dangerous leg entanglement situation into a dominant passing position. When executed properly, the back step not only neutralizes the leg attack but also creates a direct path to side control or knee on belly, often catching opponents off-guard as they transition from offensive to defensive positioning.",
   "key_principles": [
     "Maintain constant forward chest pressure throughout the pass",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Establish forward pressure",
-      "description": "Drive your chest forward and downward toward the opponent's upper body, creating heavy pressure that forces their shoulders toward the mat. This pressure is critical as it prevents them from sitting up and maintaining strong leg entanglement structure. Keep your weight distributed over your hands and chest, not sitting back on your hips.",
-      "timing": "Immediate upon recognizing leg entanglement entry"
+      "description": "Drive your chest forward and downward toward the opponent's upper body, creating heavy pressure that forces their shoulders toward the mat. This pressure is critical as it prevents them from sitting up and maintaining strong leg entanglement structure. Keep your weight distributed over your hands and chest, not sitting back on your hips."
     },
     {
       "step_number": 2,
       "action": "Control near arm",
-      "description": "Secure a grip on the opponent's near side arm (the arm closest to your trapped leg) by grabbing the wrist or tricep. In gi, you can use sleeve grips. This arm control prevents them from posting and creating frames that would allow them to maintain distance and complete their leg entanglement or sit up for better attacking position.",
-      "timing": "Before initiating the back step movement"
+      "description": "Secure a grip on the opponent's near side arm (the arm closest to your trapped leg) by grabbing the wrist or tricep. In gi, you can use sleeve grips. This arm control prevents them from posting and creating frames that would allow them to maintain distance and complete their leg entanglement or sit up for better attacking position."
     },
     {
       "step_number": 3,
       "action": "Clear top leg",
-      "description": "Use your free hand to push or swim underneath the opponent's top leg that is crossing over your hip or thigh. Create enough space to allow your trapped leg to move freely. In some cases, you may need to use your hip movement to create this space rather than purely hand fighting. The goal is to reduce the opponent's control points from two legs to one.",
-      "timing": "As you prepare to extract trapped leg"
+      "description": "Use your free hand to push or swim underneath the opponent's top leg that is crossing over your hip or thigh. Create enough space to allow your trapped leg to move freely. In some cases, you may need to use your hip movement to create this space rather than purely hand fighting. The goal is to reduce the opponent's control points from two legs to one."
     },
     {
       "step_number": 4,
       "action": "Execute back step",
-      "description": "Step your trapped leg backward in a large circular motion, bringing your knee and foot over the opponent's entire body toward their far side. This is not a small adjustment but a deliberate, committed step that completely changes your body position. Your stepping leg should end up on the far side of their body with your knee near their far shoulder or ribs. Maintain chest pressure throughout this movement.",
-      "timing": "Explosive and committed once leg is cleared"
+      "description": "Step your trapped leg backward in a large circular motion, bringing your knee and foot over the opponent's entire body toward their far side. This is not a small adjustment but a deliberate, committed step that completely changes your body position. Your stepping leg should end up on the far side of their body with your knee near their far shoulder or ribs. Maintain chest pressure throughout this movement."
     },
     {
       "step_number": 5,
       "action": "Drive shoulder pressure",
-      "description": "As your leg clears over their body, simultaneously drive your shoulder (on the side of the back-stepping leg) into the opponent's chest or sternum. This shoulder pressure combined with your hip and chest weight creates a crushing force that flattens them to the mat and makes it extremely difficult for them to recover guard or re-establish leg entanglement control.",
-      "timing": "Simultaneous with back step completion"
+      "description": "As your leg clears over their body, simultaneously drive your shoulder (on the side of the back-stepping leg) into the opponent's chest or sternum. This shoulder pressure combined with your hip and chest weight creates a crushing force that flattens them to the mat and makes it extremely difficult for them to recover guard or re-establish leg entanglement control."
     },
     {
       "step_number": 6,
       "action": "Establish crossface control",
-      "description": "Immediately secure a crossface position by driving your forearm or bicep across the opponent's face and neck, with your head positioned on the far side of their head. This control prevents them from turning into you and beginning guard recovery. In gi, you can grab their far lapel or collar. In no-gi, focus on controlling their head and far shoulder with underhook or overhook grips.",
-      "timing": "As you land in side control position"
+      "description": "Immediately secure a crossface position by driving your forearm or bicep across the opponent's face and neck, with your head positioned on the far side of their head. This control prevents them from turning into you and beginning guard recovery. In gi, you can grab their far lapel or collar. In no-gi, focus on controlling their head and far shoulder with underhook or overhook grips."
     },
     {
       "step_number": 7,
       "action": "Consolidate side control",
-      "description": "Settle your weight into side control position with your chest across the opponent's chest, hips low and heavy on the mat, and your legs positioned to prevent guard recovery. Check that their near arm is controlled (underhook or pin), establish a strong crossface, and distribute your weight to make it difficult for them to breathe or create space. Anticipate and block any hip escape or elbow escape attempts.",
-      "timing": "Final position establishment"
+      "description": "Settle your weight into side control position with your chest across the opponent's chest, hips low and heavy on the mat, and your legs positioned to prevent guard recovery. Check that their near arm is controlled (underhook or pin), establish a strong crossface, and distribute your weight to make it difficult for them to breathe or create space. Anticipate and block any hip escape or elbow escape attempts."
     }
   ],
   "common_counters": [
@@ -134,32 +122,27 @@
     {
       "phase": "Phase 1: Fundamental Movement (Week 1-2)",
       "focus": "Back step movement pattern without resistance",
-      "description": "Partner establishes loose outside ashi-garami position. Practice the large circular back step movement over their body, focusing on proper foot placement and maintaining balance. Repeat 10-15 times per side, emphasizing smooth, committed movement. Partner provides no resistance but maintains structure to give you realistic spatial awareness.",
-      "resistance_level": "None"
+      "description": "Partner establishes loose outside ashi-garami position. Practice the large circular back step movement over their body, focusing on proper foot placement and maintaining balance. Repeat 10-15 times per side, emphasizing smooth, committed movement. Partner provides no resistance but maintains structure to give you realistic spatial awareness."
     },
     {
       "phase": "Phase 2: Pressure and Timing (Week 3-4)",
       "focus": "Adding forward pressure and arm control",
-      "description": "Partner establishes outside ashi with light control. Practice driving chest pressure forward while simultaneously controlling their near arm and executing the back step. Partner maintains their position but doesn't actively counter. Focus on coordinating pressure, grip control, and stepping movement into one smooth sequence. 8-10 repetitions per side.",
-      "resistance_level": "Light"
+      "description": "Partner establishes outside ashi with light control. Practice driving chest pressure forward while simultaneously controlling their near arm and executing the back step. Partner maintains their position but doesn't actively counter. Focus on coordinating pressure, grip control, and stepping movement into one smooth sequence. 8-10 repetitions per side."
     },
     {
       "phase": "Phase 3: Countering Recovery Attempts (Week 5-8)",
       "focus": "Dealing with opponent guard recovery",
-      "description": "Partner establishes outside ashi and is allowed to attempt to sit up, maintain leg control, and prevent the pass using frames and hip movement. You practice recognizing and countering these defensive responses while executing your back step. Focus on pressure adjustment, grip fighting, and position consolidation. Begin incorporating this into positional sparring rounds starting from leg entanglement positions. 6-8 repetitions per side.",
-      "resistance_level": "Medium"
+      "description": "Partner establishes outside ashi and is allowed to attempt to sit up, maintain leg control, and prevent the pass using frames and hip movement. You practice recognizing and countering these defensive responses while executing your back step. Focus on pressure adjustment, grip fighting, and position consolidation. Begin incorporating this into positional sparring rounds starting from leg entanglement positions. 6-8 repetitions per side."
     },
     {
       "phase": "Phase 4: Live Integration (Week 9-12)",
       "focus": "Full resistance and competition timing",
-      "description": "Practice back step during regular sparring sessions, specifically looking for opportunities when opponents attempt leg entanglements. Partner actively tries to complete their leg attacks and prevent your pass using all available techniques. Focus on recognizing the exact timing window for the back step and executing decisively under pressure. Include scramble situations where positions are dynamic and transitional.",
-      "resistance_level": "Full"
+      "description": "Practice back step during regular sparring sessions, specifically looking for opportunities when opponents attempt leg entanglements. Partner actively tries to complete their leg attacks and prevent your pass using all available techniques. Focus on recognizing the exact timing window for the back step and executing decisively under pressure. Include scramble situations where positions are dynamic and transitional."
     },
     {
       "phase": "Phase 5: Advanced Variations (Week 13+)",
       "focus": "Combining back step with other passing sequences",
-      "description": "Develop your passing system by chaining the back step with knee slice, leg drag, and other pressure passes. Practice recognizing when the back step is optimal versus when alternative passes are better choices. Work on using the threat of the back step to set up other techniques, creating passing dilemmas for your opponent.",
-      "resistance_level": "Full"
+      "description": "Develop your passing system by chaining the back step with knee slice, leg drag, and other pressure passes. Practice recognizing when the back step is optimal versus when alternative passes are better choices. Work on using the threat of the back step to set up other techniques, creating passing dilemmas for your opponent."
     }
   ],
   "variants_and_adaptations": [
@@ -182,33 +165,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical element of pressure to establish before attempting the back step?",
-      "answer": "Forward chest pressure driving down toward the opponent's upper body is the most critical element. This pressure prevents them from sitting up and maintaining strong leg entanglement structure, and it creates the conditions necessary for successfully clearing your trapped leg and passing to side control. Without sufficient chest pressure, opponents can easily sit up, strengthen their leg control, and prevent the pass entirely.",
-      "difficulty": "Beginner"
+      "answer": "Forward chest pressure driving down toward the opponent's upper body is the most critical element. This pressure prevents them from sitting up and maintaining strong leg entanglement structure, and it creates the conditions necessary for successfully clearing your trapped leg and passing to side control. Without sufficient chest pressure, opponents can easily sit up, strengthen their leg control, and prevent the pass entirely."
     },
     {
       "question": "Why is controlling the opponent's near arm essential before executing the back step?",
-      "answer": "Controlling the near arm prevents the opponent from creating frames that push your chest away and maintain distance. Frames allow them to keep strong leg control and better attacking positions. By securing their near arm (wrist, sleeve, or tricep grip), you remove their ability to post and create space, making your forward pressure and back step movement much more effective and difficult to counter.",
-      "difficulty": "Beginner"
+      "answer": "Controlling the near arm prevents the opponent from creating frames that push your chest away and maintain distance. Frames allow them to keep strong leg control and better attacking positions. By securing their near arm (wrist, sleeve, or tricep grip), you remove their ability to post and create space, making your forward pressure and back step movement much more effective and difficult to counter."
     },
     {
       "question": "How does the size and commitment of your back step movement affect the success of the pass?",
-      "answer": "A large, committed back step that brings your entire leg over the opponent's body in one motion is essential for success. Small, hesitant steps leave your leg trapped halfway and allow the opponent to maintain partial control or recover full guard. The back step should be deliberate and explosive, with your knee ending near their far shoulder area, completely clearing their body and changing your angle of attack. Half-committed steps are one of the most common reasons for technical failure.",
-      "difficulty": "Intermediate"
+      "answer": "A large, committed back step that brings your entire leg over the opponent's body in one motion is essential for success. Small, hesitant steps leave your leg trapped halfway and allow the opponent to maintain partial control or recover full guard. The back step should be deliberate and explosive, with your knee ending near their far shoulder area, completely clearing their body and changing your angle of attack. Half-committed steps are one of the most common reasons for technical failure."
     },
     {
       "question": "What is the relationship between the back step timing and the opponent's leg entanglement progression, and when should you abort the technique?",
-      "answer": "The back step is most effective when initiated early in the leg entanglement sequence, particularly when the opponent is entering or establishing outside ashi-garami but has not yet locked in tight heel hook controls. If the opponent successfully locks in a tight heel hook configuration with both legs locked and good grip position on your heel, you should abandon the back step attempt entirely and focus on immediate heel hook defense (hiding heel, turning knee inward, stripping grips). Attempting to back step from a locked heel hook position puts your knee and ankle at severe injury risk.",
-      "difficulty": "Advanced"
+      "answer": "The back step is most effective when initiated early in the leg entanglement sequence, particularly when the opponent is entering or establishing outside ashi-garami but has not yet locked in tight heel hook controls. If the opponent successfully locks in a tight heel hook configuration with both legs locked and good grip position on your heel, you should abandon the back step attempt entirely and focus on immediate heel hook defense (hiding heel, turning knee inward, stripping grips). Attempting to back step from a locked heel hook position puts your knee and ankle at severe injury risk."
     },
     {
       "question": "How should you adjust your back step execution when the opponent transitions from outside ashi to inside ashi during your passing attempt?",
-      "answer": "When the opponent transitions to inside ashi during your pass attempt, you must adjust by placing extra emphasis on heel protection as you execute the back step. Your heel is now closer to their body and more vulnerable to heel hook attacks. Focus on hiding your heel by keeping your knee turned inward, and consider using your free hand to strip any grips they establish on your heel before completing the step. The basic mechanics remain the same, but your defensive awareness must increase. If they achieve strong inside ashi controls with good heel exposure, consider alternative escapes rather than forcing the back step.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent transitions to inside ashi during your pass attempt, you must adjust by placing extra emphasis on heel protection as you execute the back step. Your heel is now closer to their body and more vulnerable to heel hook attacks. Focus on hiding your heel by keeping your knee turned inward, and consider using your free hand to strip any grips they establish on your heel before completing the step. The basic mechanics remain the same, but your defensive awareness must increase. If they achieve strong inside ashi controls with good heel exposure, consider alternative escapes rather than forcing the back step."
     },
     {
       "question": "What are the key differences in execution between gi and no-gi back step passing?",
-      "answer": "In gi back step passing, you have more grip options for controlling the near arm (sleeve grips, belt grips) and establishing your crossface (collar and lapel grips). These grips provide more secure control but can slow down your movement. In no-gi, you rely more on direct body contact, underhooks, overhooks, and wrist control. The no-gi version requires more explosive movement and tighter pressure since grips are less secure. No-gi also sees faster transitions and counters, so your back step commitment must be even more decisive. The fundamental mechanics remain identical, but grip strategies and pressure maintenance differ significantly.",
-      "difficulty": "Advanced"
+      "answer": "In gi back step passing, you have more grip options for controlling the near arm (sleeve grips, belt grips) and establishing your crossface (collar and lapel grips). These grips provide more secure control but can slow down your movement. In no-gi, you rely more on direct body contact, underhooks, overhooks, and wrist control. The no-gi version requires more explosive movement and tighter pressure since grips are less secure. No-gi also sees faster transitions and counters, so your back step commitment must be even more decisive. The fundamental mechanics remain identical, but grip strategies and pressure maintenance differ significantly."
     }
   ],
   "safety_considerations": "The back step is generally a safe technique when executed with proper control and awareness. However, practitioners must be extremely cautious about heel hook danger when working from leg entanglement positions. Never force a back step if the opponent has secured a tight heel hook configuration, as this can result in serious knee or ankle injuries. Always prioritize defending the submission before attempting any passing movements. When drilling, communicate clearly with your partner about resistance levels and stop immediately if either person feels vulnerable positioning. Start with slow, controlled repetitions and gradually increase speed and resistance as both partners become comfortable with the movements and safety protocols.",
@@ -280,5 +257,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

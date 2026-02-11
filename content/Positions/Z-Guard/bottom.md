@@ -389,11 +389,11 @@ Start from flattened half guard or nearly-passed position. Bottom player must re
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 35% | 15% |
-| Intermediate | 70% | 50% | 25% |
-| Advanced     | 85% | 65% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 58% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 45-90 seconds before transition to sweep, deep half, or more defensive position
 

@@ -169,7 +169,7 @@ The setup phase is arguably more important than the finish itself, as experience
 From a strategic perspective, the RNC setup integrates seamlessly with other back control attacks. Opponents who successfully defend the choke often expose themselves to arm attacks, bow and arrow choke entries, or crucifix transitions. This creates a dilemma-based attack system where defending one threat opens another, making the RNC setup not just a submission path but a positional control tool that forces reactions you can exploit.
 
 **From Position**: [[Back Control/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -218,14 +218,14 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure harness control**: From back control, establish the seatbelt grip with your choking arm over the opponent's shoulder and your supporting arm under their armpit. Lock your hands together by gripping your own wrist or clasping hands. Ensure your chest is pressed firmly against their back with forward pressure. (Timing: Before initiating any choke attempt)
-2. **Strip defensive grips**: Use your non-choking hand to systematically peel away your opponent's defensive grips. Target the hand protecting their neck by cupping their wrist and pulling it down toward their waist. Control this arm by pinning it to their body or trapping it with your leg hook. (Timing: 2-5 seconds of active hand fighting)
-3. **Create angle for insertion**: Shift your hips slightly to the choking side while pulling opponent's far shoulder toward you with the harness grip. This rotation opens a gap between their chin and shoulder on the choking side. Maintain chest contact throughout the angle change. (Timing: Simultaneous with grip strip completion)
-4. **Insert choking arm**: Slide your choking arm under the opponent's chin with your palm facing down toward their chest. Keep your elbow extremely tight to your own body as you insert—any space allows them to trap your arm. The blade of your forearm should contact both carotid arteries on either side of the neck. (Timing: Swift insertion once neck is exposed)
-5. **Establish figure-four grip**: Once your choking arm is beneath the chin, place your choking hand on your opposite bicep (not behind their head yet). Your non-choking hand comes behind their head or on top of their crown, completing the figure-four configuration. This grip structure provides maximum mechanical advantage. (Timing: Immediately after arm insertion)
-6. **Adjust depth and position**: Walk your choking arm deeper if initial insertion was shallow by rotating your shoulder forward and pulling your elbow tight across your body. Position your choking forearm so the blade crosses both carotids at their midpoint. Your bicep and forearm should form a tight V-shape around the neck. (Timing: 1-3 seconds of adjustment)
-7. **Secure head control**: Place your non-choking hand firmly behind the opponent's head or on their crown, pressing their head forward into the choke. This eliminates the space they need to slip their chin down and defend. Your hand position should prevent them from turning their head to either side. (Timing: Final adjustment before squeeze)
-8. **Initiate finishing pressure**: Expand your chest by pulling your shoulders back while simultaneously squeezing your elbows together. The pressure comes from your back muscles and chest expansion, not from arm strength. Drive your choking forearm across the carotids while your bicep closes the triangle from the other side. (Timing: Sustained 3-8 second squeeze for finish)
+1. **Secure harness control**: From back control, establish the seatbelt grip with your choking arm over the opponent's shoulder and your supporting arm under their armpit. Lock your hands together by gripping your own wrist or clasping hands. Ensure your chest is pressed firmly against their back with forward pressure.
+2. **Strip defensive grips**: Use your non-choking hand to systematically peel away your opponent's defensive grips. Target the hand protecting their neck by cupping their wrist and pulling it down toward their waist. Control this arm by pinning it to their body or trapping it with your leg hook.
+3. **Create angle for insertion**: Shift your hips slightly to the choking side while pulling opponent's far shoulder toward you with the harness grip. This rotation opens a gap between their chin and shoulder on the choking side. Maintain chest contact throughout the angle change.
+4. **Insert choking arm**: Slide your choking arm under the opponent's chin with your palm facing down toward their chest. Keep your elbow extremely tight to your own body as you insert—any space allows them to trap your arm. The blade of your forearm should contact both carotid arteries on either side of the neck.
+5. **Establish figure-four grip**: Once your choking arm is beneath the chin, place your choking hand on your opposite bicep (not behind their head yet). Your non-choking hand comes behind their head or on top of their crown, completing the figure-four configuration. This grip structure provides maximum mechanical advantage.
+6. **Adjust depth and position**: Walk your choking arm deeper if initial insertion was shallow by rotating your shoulder forward and pulling your elbow tight across your body. Position your choking forearm so the blade crosses both carotids at their midpoint. Your bicep and forearm should form a tight V-shape around the neck.
+7. **Secure head control**: Place your non-choking hand firmly behind the opponent's head or on their crown, pressing their head forward into the choke. This eliminates the space they need to slip their chin down and defend. Your hand position should prevent them from turning their head to either side.
+8. **Initiate finishing pressure**: Expand your chest by pulling your shoulders back while simultaneously squeezing your elbows together. The pressure comes from your back muscles and chest expansion, not from arm strength. Drive your choking forearm across the carotids while your bicep closes the triangle from the other side.
 
 
 </section>
@@ -275,23 +275,18 @@ From a strategic perspective, the RNC setup integrates seamlessly with other bac
 ## Training Progressions
 **Week 1-2: Mechanics Drilling** - Grip insertion and figure-four configuration
 Practice the arm insertion sequence and figure-four grip formation with a completely compliant partner. Focus on palm-down insertion with tight elbow, proper hand placement on bicep, and correct head control positioning. Perform 50+ repetitions per session until the movement pattern is automatic.
-(Resistance: None)
 
 **Week 3-4: Grip Fighting Integration** - Defensive grip stripping before insertion
 Partner provides realistic hand fighting defense while you practice stripping their grips before inserting your choking arm. Develop your systematic approach to clearing defenses. Partner does not attempt escapes but maintains stubborn grip defense throughout.
-(Resistance: Light)
 
 **Week 5-6: Positional Sparring** - Complete setup from back control
 Begin from established back control against a partner providing 50% resistance on both grip defense and escape attempts. Practice maintaining position while working toward choke setup. Partner should make you earn each step but not aggressively counter-attack your position.
-(Resistance: Medium)
 
 **Week 7-8: Live Application** - Full resistance finishing
 Integrate the RNC setup into regular sparring rounds. Start from back control and work the complete sequence against full resistance. Develop your troubleshooting skills when the standard sequence is blocked. Practice transitioning to alternative attacks when the choke is defended.
-(Resistance: Full)
 
 **Ongoing: Chain Attacks** - Attack combinations from back
 Develop your complete back attack system by drilling transitions between RNC attempts, armbar from back, bow and arrow, and crucifix entries. Practice reading opponent reactions and flowing to the appropriate follow-up attack based on their defensive choices.
-(Resistance: Full)
 
 
 

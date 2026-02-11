@@ -157,7 +157,7 @@ The technique operates on the principle that the overhook, while strong, has a s
 Strategically, overhook extraction should not be attempted in isolation. The sequence must address base and posture concerns simultaneously. Attempting extraction without stable base invites sweeps; attempting it without addressing posture allows the bottom player to transition to other attacks like triangles or omoplatas. When executed correctly within the proper sequence, overhook extraction serves as the gateway from defensive survival in New York to offensive guard passing opportunities.
 
 **From Position**: [[New York/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish base**: Widen your knees significantly to create a stable triangular base. Your free hand should frame on opponent's hip or grip-fight their shin-controlling hand. Without stable base, the extraction will result in a sweep. (Timing: Before any extraction movement)
-2. **Engage posture**: Begin driving your chest upward while keeping your trapped elbow tight to your body. Do not attempt to stand or create distance yet - focus on engaging your posterior chain to resist the downward pull of the shin control. (Timing: Simultaneous with base establishment)
-3. **Angle the elbow**: Rotate your trapped elbow downward so it points toward your own hip rather than toward the floor. This subtle angle change is critical - it positions your arm for extraction rather than reinforcing the overhook's grip. (Timing: Once base and posture are engaged)
-4. **Corkscrew extraction**: While maintaining the downward elbow angle, begin a spiraling motion toward your hip. Think of unscrewing a tight lid rather than pulling straight back. Your elbow leads the motion, your shoulder follows, and the arm extracts in a curved path. (Timing: Smooth continuous motion, 2-3 seconds)
-5. **Maintain posture through extraction**: As your arm begins to free, immediately drive your posture upward. The moment of extraction is when triangle attacks become available - keeping your head and shoulder high prevents the leg from shooting over your shoulder. (Timing: Critical - simultaneous with arm freeing)
-6. **Secure passing grips**: The instant your arm is free, establish control on opponent's legs or hips for guard passing. Do not pause to celebrate the extraction - your opponent will immediately attempt to re-establish New York or transition to other guards. (Timing: Immediately after extraction completes)
+1. **Establish base**: Widen your knees significantly to create a stable triangular base. Your free hand should frame on opponent's hip or grip-fight their shin-controlling hand. Without stable base, the extraction will result in a sweep.
+2. **Engage posture**: Begin driving your chest upward while keeping your trapped elbow tight to your body. Do not attempt to stand or create distance yet - focus on engaging your posterior chain to resist the downward pull of the shin control.
+3. **Angle the elbow**: Rotate your trapped elbow downward so it points toward your own hip rather than toward the floor. This subtle angle change is critical - it positions your arm for extraction rather than reinforcing the overhook's grip.
+4. **Corkscrew extraction**: While maintaining the downward elbow angle, begin a spiraling motion toward your hip. Think of unscrewing a tight lid rather than pulling straight back. Your elbow leads the motion, your shoulder follows, and the arm extracts in a curved path.
+5. **Maintain posture through extraction**: As your arm begins to free, immediately drive your posture upward. The moment of extraction is when triangle attacks become available - keeping your head and shoulder high prevents the leg from shooting over your shoulder.
+6. **Secure passing grips**: The instant your arm is free, establish control on opponent's legs or hips for guard passing. Do not pause to celebrate the extraction - your opponent will immediately attempt to re-establish New York or transition to other guards.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, overhook extraction should not be attempted in isolation. The seq
 ## Training Progressions
 **Week 1-2** - Corkscrew mechanics
 Practice the elbow angle and spiral motion in isolation without partner resistance. Partner holds static overhook while you drill the correct extraction path 50+ repetitions per session until the motion becomes automatic.
-(Resistance: None)
 
 **Week 3-4** - Integration with base
 Combine extraction mechanics with base widening and posture engagement. Partner adds light resistance to test your structure. Focus on maintaining wide knees and upward posture throughout the extraction sequence.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively attempts triangle, sweeps, and position transitions during your extraction. Develop ability to recognize counters early and adjust your response. Practice abandoning extraction to address new threats when necessary.
-(Resistance: Medium)
 
 **Week 7+** - Full chain integration
 Execute complete sequence from New York escape through guard pass in live rolling. Track success rate and identify which counters give you trouble. Refine timing and develop personal variations based on your body type and game.
-(Resistance: Full)
 
 
 

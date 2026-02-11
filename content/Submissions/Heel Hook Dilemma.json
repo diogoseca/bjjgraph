@@ -14,11 +14,6 @@
   "submission_type": "Leg Lock",
   "target_area": "Knee joint, ankle joint, and surrounding ligaments",
   "starting_position": "Saddle",
-  "success_rates": {
-    "beginner": 15,
-    "intermediate": 35,
-    "advanced": 60
-  },
   "overview": "The Heel Hook Dilemma is an advanced leg lock system that creates a binary choice for the opponent where both defensive options lead to submission opportunities. Originating from the modern leg entanglement game, this technique forces the opponent to choose between defending the heel hook or defending alternative attacks like the calf slicer or straight ankle lock. The dilemma is fundamental to high-level leg lock systems because it exploits the opponent's defensive instincts to create finishing opportunities. Unlike isolated submission attempts, the heel hook dilemma operates as a systematic approach where the primary heel hook threat forces reactions that open secondary attacks. This conceptual framework has revolutionized modern no-gi grappling, particularly through systematic development of leg lock methodology. The dilemma principle applies across multiple leg entanglement positions including saddle, inside ashi-garami, and 50-50 guard. Proper execution requires deep understanding of leg positioning, hip mechanics, and timing to seamlessly transition between submission threats.",
   "safety_considerations": {
     "injury_risks": [
@@ -102,43 +97,37 @@
       "step_number": 1,
       "action": "Establish dominant leg entanglement",
       "description": "Secure saddle position or inside ashi-garami with opponent's leg fully controlled between your legs. Your outside leg crosses over opponent's hip, inside leg controls behind their knee. Hip-to-hip connection is mandatory - no space between your hip and their trapped leg. Opponent's foot should be positioned near your opposite hip or secured in armpit.",
-      "timing": "Take 3-5 seconds to establish perfect positioning",
-      "pressure_level": "Moderate"
+      "timing": "Take 3-5 seconds to establish perfect positioning"
     },
     {
       "step_number": 2,
       "action": "Secure heel grip and establish primary threat",
       "description": "Cup opponent's heel with your outside arm, fingers wrapping around heel with thumb on Achilles tendon. Palm should be on inside of heel. Elbow stays tight to ribs - never allow arm to extend away from body. Inside arm controls opponent's upper body or posts on mat for base. The heel grip itself creates the primary finishing threat.",
-      "timing": "2-3 seconds for secure grip establishment",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds for secure grip establishment"
     },
     {
       "step_number": 3,
       "action": "Extend hips to create initial pressure",
       "description": "Drive your hips forward toward opponent while maintaining heel grip. This hip extension creates the first layer of the dilemma - opponent feels pressure building on knee joint. Do not rotate yet - pure extension first. This forces opponent to either accept the building pressure or attempt to create space by pushing your hips away or pulling their leg out.",
-      "timing": "Slow, progressive pressure over 4-5 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Slow, progressive pressure over 4-5 seconds"
     },
     {
       "step_number": 4,
       "action": "Read defensive reaction",
       "description": "Opponent has two primary defensive options: (A) They attempt to create space by pushing your hips or body away, which requires posting hands or extending arms. (B) They attempt to internally rotate their leg or turn into the pressure. Both reactions open specific submission paths. If they push away, calf slicer becomes available. If they turn in, heel hook rotation increases exponentially in effectiveness.",
-      "timing": "1-2 seconds observation window",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds observation window"
     },
     {
       "step_number": 5,
       "action": "Apply secondary submission based on defense",
       "description": "Path A (opponent creates space): Thread your inside leg deeper across their calf, crunch your body forward, and apply calf slicer while maintaining heel control. Path B (opponent turns in): Add heel rotation by pulling heel across your body while extending hips - this dramatically increases torque on knee joint. The dilemma is complete: both defensive options lead to submission finish.",
-      "timing": "3-5 seconds progressive application",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive application"
     },
     {
       "step_number": 6,
       "action": "Transition seamlessly between threats",
       "description": "As opponent attempts to defend one submission, immediately switch to the other. If defending calf slicer by straightening leg, return to heel rotation. If defending heel hook by creating space, return to calf compression. This constant oscillation between threats creates the true dilemma effect where opponent cannot establish stable defense. Maintain all positional controls throughout - never abandon leg entanglement to chase the finish.",
-      "timing": "Continuous flow until tap or position lost",
-      "pressure_level": "Maximum"
+      "timing": "Continuous flow until tap or position lost"
     }
   ],
   "opponent_defense_patterns": [
@@ -172,38 +161,32 @@
     {
       "error": "Applying rotational pressure before establishing full positional control",
       "consequence": "Opponent escapes leg entanglement easily, potentially injuring themselves with partial control",
-      "correction": "Establish perfect saddle or ashi position first with hip-to-hip connection. Only add rotation after all positioning elements are secured.",
-      "danger_level": "CRITICAL"
+      "correction": "Establish perfect saddle or ashi position first with hip-to-hip connection. Only add rotation after all positioning elements are secured."
     },
     {
       "error": "Extending arm away from body during heel grip",
       "consequence": "Loss of leverage and control, opponent can easily free their leg by creating space",
-      "correction": "Keep elbow tight to ribs throughout entire sequence. Heel should stay pinned to your hip or armpit - never allow extension.",
-      "danger_level": "High"
+      "correction": "Keep elbow tight to ribs throughout entire sequence. Heel should stay pinned to your hip or armpit - never allow extension."
     },
     {
       "error": "Abandoning leg entanglement to chase the finish",
       "consequence": "Complete position loss, opponent escapes and may pass guard",
-      "correction": "Maintain all leg controls even when transitioning between submissions. If you cannot finish while maintaining position, reset to dominant control and try again.",
-      "danger_level": "Medium"
+      "correction": "Maintain all leg controls even when transitioning between submissions. If you cannot finish while maintaining position, reset to dominant control and try again."
     },
     {
       "error": "Applying maximum pressure immediately without progressive building",
       "consequence": "Severe knee injury to training partner, potential joint destruction before tap is possible",
-      "correction": "In training, build pressure over minimum 5-7 seconds. Partner must have time to recognize danger and tap. This is not competition - safety is paramount.",
-      "danger_level": "CRITICAL"
+      "correction": "In training, build pressure over minimum 5-7 seconds. Partner must have time to recognize danger and tap. This is not competition - safety is paramount."
     },
     {
       "error": "Focusing only on heel rotation without utilizing hip extension",
       "consequence": "Reduced effectiveness, opponent can defend more easily by turning into rotation",
-      "correction": "Hip extension is the foundation of all leg lock pressure. Extend hips first, then add rotation. The combination creates unstoppable force.",
-      "danger_level": "Medium"
+      "correction": "Hip extension is the foundation of all leg lock pressure. Extend hips first, then add rotation. The combination creates unstoppable force."
     },
     {
       "error": "Controlling both of opponent's arms during application",
       "consequence": "Partner cannot tap safely, extreme danger of injury",
-      "correction": "Always leave at least one arm free for tapping. If controlling upper body, use body weight or single arm control only. Never trap both arms.",
-      "danger_level": "CRITICAL"
+      "correction": "Always leave at least one arm free for tapping. If controlling upper body, use body weight or single arm control only. Never trap both arms."
     }
   ],
   "variations_and_setups": [
@@ -290,50 +273,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Study leg entanglement positions and understand heel hook mechanics without application. Learn anatomy of knee ligaments and injury mechanisms. Practice positional entries only.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand that heel hooks can cause permanent injury. Review all injury risks and safety protocols. Practice only positional work with zero submission pressure."
-    },
-    {
-      "phase": "Controlled Positioning Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Drill transitions between saddle, inside ashi, and other leg entanglement positions. Practice establishing hip-to-hip connection and heel grips without applying any rotational pressure. Partner remains completely passive.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus on perfect position before ever considering submissions. Partner should tap to position as practice for later safety awareness."
-    },
-    {
-      "phase": "Slow Technical Application",
-      "timeframe": "Week 5-8",
-      "focus": "Begin applying extremely slow heel hook pressure (7-10 seconds minimum) with explicit partner communication. Partner taps early to pressure buildup, not to pain. Emphasize hip extension before rotation. Practice reading defensive reactions without punishing them.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Verbal communication throughout application. Partner says 'pressure' when they feel it building, taps before discomfort. Attacker releases immediately on any signal."
-    },
-    {
-      "phase": "Dilemma Introduction",
-      "timeframe": "Week 9-12",
-      "focus": "Introduce dilemma principle by having partner perform specific defensive reactions (push away vs turn in). Practice transitioning to calf slicer or increased heel rotation based on defense. Continue slow application with extensive communication.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners must understand which defense leads to which submission. Discuss reactions openly. Never surprise partner with sudden pressure increases."
-    },
-    {
-      "phase": "Live Application with Restrictions",
-      "timeframe": "Week 13-24",
-      "focus": "Practice heel hook dilemma in positional sparring from leg entanglements. Maintain 5-second minimum application time. Partner provides realistic but controlled resistance. Begin recognizing dilemma opportunities in live rolling.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain all safety protocols even under resistance. Respect early taps. If partner doesn't tap appropriately, stop and discuss - do not 'teach them a lesson' with injury."
-    },
-    {
-      "phase": "Advanced Integration and Refinement",
-      "timeframe": "Ongoing (6+ months)",
-      "focus": "Integrate heel hook dilemma into complete leg lock system. Combine with straight ankle locks, toe holds, and calf slicers seamlessly. Develop ability to read subtle defensive cues and react instantly. Competitive application only with explicit rules understanding.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never become complacent with safety. Training is not competition. Maintain slow application regardless of skill level. One serious injury can end a training partnership or career."
-    }
-  ],
   "from_positions": [
     "Saddle",
     "Inside Ashi-Garami",
@@ -395,5 +334,6 @@
       "name": "Heel Hook",
       "relationship": "Primary submission threat that forces defensive reactions"
     }
-  ]
+  ],
+  "success_rate": 48
 }

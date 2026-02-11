@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from Half Guard is a powerful control and submission attack executed from top half guard position. When the bottom player exposes their underhook arm while attempting sweeps or creating frames, the top player can capitalize by securing the figure-four grip on the wrist and elbow. This technique serves dual purposes: it can be finished as a direct shoulder lock submission, or it can be used as a control position (Kimura Trap) to shut down the opponent's offense and create passing opportunities.\n\nThe tactical value of this attack lies in punishing common half guard bottom behaviors. When opponents reach for underhooks, attempt sweeps, or overcommit their arms for frames, they create the arm exposure necessary for the Kimura entry. By attacking the Kimura, you force the bottom player into a defensive posture, eliminating their ability to threaten sweeps. This creates a systematic approach where the opponent must choose between defending their arm or maintaining guard retention.\n\nFrom a strategic perspective, the Kimura from Half Guard integrates seamlessly with passing sequences. Even when the submission finish is defended, maintaining Kimura control allows you to step over into mount, transition to north-south, or use the arm control to flatten the opponent for pressure passing. This makes the Kimura not just an attack but a complete control system that addresses the challenges of half guard passing.",
   "key_principles": [
     "Attack the Kimura when opponent exposes their arm through underhook attempts or frames",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Identify arm exposure",
-      "description": "Recognize when opponent exposes their near-side arm through underhook attempts, frames against your hip, or reaching across your body. This exposure is the trigger for the Kimura attack.",
-      "timing": "Immediately upon arm exposure"
+      "description": "Recognize when opponent exposes their near-side arm through underhook attempts, frames against your hip, or reaching across your body. This exposure is the trigger for the Kimura attack."
     },
     {
       "step_number": 2,
       "action": "Control the wrist",
-      "description": "With your same-side hand (if attacking their right arm, use your right hand), grip their wrist firmly. Use a C-grip with your thumb on the same side as your fingers for maximum control. Pull their wrist toward your hip.",
-      "timing": "Within 1 second of identifying exposure"
+      "description": "With your same-side hand (if attacking their right arm, use your right hand), grip their wrist firmly. Use a C-grip with your thumb on the same side as your fingers for maximum control. Pull their wrist toward your hip."
     },
     {
       "step_number": 3,
       "action": "Thread arm and establish figure-four",
-      "description": "Thread your opposite arm underneath their tricep from the outside, reaching to grip your own wrist. Lock the figure-four grip tightly, keeping your elbows pinched together and pressed against your ribs.",
-      "timing": "Immediately after wrist control"
+      "description": "Thread your opposite arm underneath their tricep from the outside, reaching to grip your own wrist. Lock the figure-four grip tightly, keeping your elbows pinched together and pressed against your ribs."
     },
     {
       "step_number": 4,
       "action": "Drive chest weight down",
-      "description": "Lower your chest onto their shoulder and upper arm, pinning them flat to the mat. Your weight should drive through your sternum into their shoulder joint, eliminating their ability to rotate or bridge.",
-      "timing": "Simultaneous with grip completion"
+      "description": "Lower your chest onto their shoulder and upper arm, pinning them flat to the mat. Your weight should drive through your sternum into their shoulder joint, eliminating their ability to rotate or bridge."
     },
     {
       "step_number": 5,
       "action": "Clear trapped leg",
-      "description": "While maintaining the Kimura grip, work to extract your trapped leg from half guard. Use short hip movements and knee pressure against their thigh. The Kimura control prevents them from adjusting or resweeping.",
-      "timing": "5-10 seconds of controlled extraction"
+      "description": "While maintaining the Kimura grip, work to extract your trapped leg from half guard. Use short hip movements and knee pressure against their thigh. The Kimura control prevents them from adjusting or resweeping."
     },
     {
       "step_number": 6,
       "action": "Rotate arm for finish",
-      "description": "With your leg cleared, step your near-side leg over their head or hip to stabilize. Rotate their wrist toward their hip while lifting their elbow with your grip. Use your entire body rotation rather than just arm strength to apply the shoulder lock.",
-      "timing": "Controlled application with opponent's tap opportunity"
+      "description": "With your leg cleared, step your near-side leg over their head or hip to stabilize. Rotate their wrist toward their hip while lifting their elbow with your grip. Use your entire body rotation rather than just arm strength to apply the shoulder lock."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Drill the figure-four grip entry from various arm exposures. Practice wrist control first, then threading the second arm underneath. Focus on keeping elbows tight and grip structure compact. Partner offers no resistance.",
-      "resistance_level": "None"
+      "description": "Drill the figure-four grip entry from various arm exposures. Practice wrist control first, then threading the second arm underneath. Focus on keeping elbows tight and grip structure compact. Partner offers no resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Position and pressure",
-      "description": "Add chest weight application and hip pressure to the drill sequence. Practice driving shoulder into opponent's armpit while maintaining the Kimura grip. Partner provides light frames and movement to test your pressure distribution.",
-      "resistance_level": "Light"
+      "description": "Add chest weight application and hip pressure to the drill sequence. Practice driving shoulder into opponent's armpit while maintaining the Kimura grip. Partner provides light frames and movement to test your pressure distribution."
     },
     {
       "phase": "Week 5-6",
       "focus": "Integration with passing",
-      "description": "Combine Kimura attacks with half guard passing sequences. Practice using Kimura control to clear your trapped leg and transition to mount or side control. Work the submission as secondary to positional advancement. Partner defends actively.",
-      "resistance_level": "Medium"
+      "description": "Combine Kimura attacks with half guard passing sequences. Practice using Kimura control to clear your trapped leg and transition to mount or side control. Work the submission as secondary to positional advancement. Partner defends actively."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and counters",
-      "description": "Apply the Kimura in live rolling from half guard top. Focus on recognizing arm exposure opportunities and chaining the Kimura with other attacks when countered. Develop reaction to common defenses like arm straightening and grip fighting.",
-      "resistance_level": "Full"
+      "description": "Apply the Kimura in live rolling from half guard top. Focus on recognizing arm exposure opportunities and chaining the Kimura with other attacks when countered. Develop reaction to common defenses like arm straightening and grip fighting."
     }
   ],
   "variants_and_adaptations": [
@@ -183,53 +168,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Kimura from Half Guard?",
-      "answer": "The primary goal is to control the opponent's exposed arm through a figure-four grip to either finish the shoulder lock submission or use the Kimura Trap control position to shut down their offense and create passing opportunities to mount or side control.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to control the opponent's exposed arm through a figure-four grip to either finish the shoulder lock submission or use the Kimura Trap control position to shut down their offense and create passing opportunities to mount or side control."
     },
     {
       "question": "What position do you start Kimura from Half Guard from?",
-      "answer": "This technique starts from Half Guard Top position, when the bottom player exposes their near-side arm through underhook attempts, frames, or sweep setups. The top player capitalizes on this arm exposure to secure the Kimura grip.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Half Guard Top position, when the bottom player exposes their near-side arm through underhook attempts, frames, or sweep setups. The top player capitalizes on this arm exposure to secure the Kimura grip."
     },
     {
       "question": "What are the key grips needed for Kimura from Half Guard?",
-      "answer": "The essential grip is the figure-four configuration: your same-side hand grips opponent's wrist (C-grip with thumb aligned with fingers), while your opposite arm threads under their tricep to grip your own wrist. Elbows must stay pinched tight against your ribs to prevent arm straightening escapes.",
-      "difficulty": "Beginner"
+      "answer": "The essential grip is the figure-four configuration: your same-side hand grips opponent's wrist (C-grip with thumb aligned with fingers), while your opposite arm threads under their tricep to grip your own wrist. Elbows must stay pinched tight against your ribs to prevent arm straightening escapes."
     },
     {
       "question": "Your opponent grabs their belt to prevent the arm rotation - what immediate adjustment do you make?",
-      "answer": "When opponent grips their belt, maintain your Kimura control and transition to mount by stepping your leg over their body. From mount, you can pry their grip loose using your knee, attack the Kimura from a stronger angle, or switch to other mounted attacks. Never release the Kimura grip while they defend.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent grips their belt, maintain your Kimura control and transition to mount by stepping your leg over their body. From mount, you can pry their grip loose using your knee, attack the Kimura from a stronger angle, or switch to other mounted attacks. Never release the Kimura grip while they defend."
     },
     {
       "question": "When is the best time to attempt Kimura from Half Guard?",
-      "answer": "The optimal timing is immediately when the opponent exposes their near-side arm - typically when they reach for an underhook, frame against your hip, or attempt a sweep that requires extending their arm. You must attack within 1-2 seconds of the exposure before they can retract the arm or adjust their defense.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is immediately when the opponent exposes their near-side arm - typically when they reach for an underhook, frame against your hip, or attempt a sweep that requires extending their arm. You must attack within 1-2 seconds of the exposure before they can retract the arm or adjust their defense."
     },
     {
       "question": "How do you counter when your opponent straightens their arm to prevent the figure-four lock?",
-      "answer": "When opponent straightens their arm, immediately transition to an armbar by maintaining wrist control, pivoting your body over their face, and throwing your leg across. The straightened arm is actually advantageous for the armbar. Alternatively, use the extended arm to drive past their guard into side control.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent straightens their arm, immediately transition to an armbar by maintaining wrist control, pivoting your body over their face, and throwing your leg across. The straightened arm is actually advantageous for the armbar. Alternatively, use the extended arm to drive past their guard into side control."
     },
     {
       "question": "What is the critical hip position for successfully finishing the Kimura from half guard top?",
-      "answer": "Your hips must stay low and heavy, sprawling on your toes with weight driving forward through your chest into their shoulder. High hips create space that allows opponent to escape, reguard, or execute sweeps. The low hip position pins them flat while giving you the base needed for arm rotation.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips must stay low and heavy, sprawling on your toes with weight driving forward through your chest into their shoulder. High hips create space that allows opponent to escape, reguard, or execute sweeps. The low hip position pins them flat while giving you the base needed for arm rotation."
     },
     {
       "question": "Your opponent begins bridging toward you during the Kimura attempt - how do you respond?",
-      "answer": "Follow their bridge and roll while maintaining the Kimura grip. As they roll toward you, take the top position in the roll and establish back control with hooks. The Kimura grip remains intact throughout, giving you both back control and a continued submission threat. Never release the grip to base out.",
-      "difficulty": "Advanced"
+      "answer": "Follow their bridge and roll while maintaining the Kimura grip. As they roll toward you, take the top position in the roll and establish back control with hooks. The Kimura grip remains intact throughout, giving you both back control and a continued submission threat. Never release the grip to base out."
     },
     {
       "question": "How does the Kimura from Half Guard integrate with your passing strategy?",
-      "answer": "The Kimura serves as a control position that freezes opponent's offensive capabilities. With their arm trapped, they cannot threaten underhook sweeps or create frames. Use this control to methodically extract your trapped leg, then either finish the submission or transition to mount, side control, or north-south with the arm control maintained throughout.",
-      "difficulty": "Advanced"
+      "answer": "The Kimura serves as a control position that freezes opponent's offensive capabilities. With their arm trapped, they cannot threaten underhook sweeps or create frames. Use this control to methodically extract your trapped leg, then either finish the submission or transition to mount, side control, or north-south with the arm control maintained throughout."
     },
     {
       "question": "What distinguishes body mechanics for the finish versus arm-only rotation?",
-      "answer": "The finish requires rotating your entire torso while stepping around opponent's head, using core and hip rotation to multiply force. Arm-only rotation lacks sufficient force, fatigues you quickly, and allows opponent to muscle out. Step your leg over their head, pivot your hips, and rotate your whole upper body as a unit to generate fight-ending pressure.",
-      "difficulty": "Advanced"
+      "answer": "The finish requires rotating your entire torso while stepping around opponent's head, using core and hip rotation to multiply force. Arm-only rotation lacks sufficient force, fatigues you quickly, and allows opponent to muscle out. Step your leg over their head, pivot your hips, and rotate your whole upper body as a unit to generate fight-ending pressure."
     }
   ],
   "safety_considerations": "The Kimura attacks the shoulder joint through external rotation, which can cause serious injury if applied too quickly or without control. Always apply pressure gradually and give training partners time to tap. The shoulder is particularly vulnerable when the opponent's arm is behind their back, so release immediately upon tap. Avoid jerking or explosive movements during training. Partners with existing shoulder injuries should communicate limitations before drilling. When finishing, be aware that some opponents may not recognize the danger until injury is imminent - look for grimacing or tension indicating distress even without a verbal tap.",
@@ -267,5 +242,6 @@
       "name": "Mount",
       "relationship": "Transition target when maintaining Kimura control"
     }
-  ]
+  ],
+  "success_rate": 58
 }

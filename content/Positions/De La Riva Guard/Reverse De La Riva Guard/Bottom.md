@@ -379,11 +379,11 @@ From established Reverse De La Riva position, practice elevating and rotating hi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 20% |
-| Intermediate | 50% | 55% | 35% |
-| Advanced     | 70% | 75% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 65% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds before transition to sweep or back take
 

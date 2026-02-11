@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Half Guard",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The **Kimura from Half Guard** is one of the most versatile shoulder locks in Brazilian Jiu-Jitsu, applicable from both top and bottom positions. From bottom half guard, the Kimura serves as a powerful sweep, back take, and submission threat that capitalizes on the opponent's commitment to passing. The technique exploits the natural underhook battle that occurs in half guard, transforming defensive frames into offensive attack chains. The submission targets the shoulder joint through a figure-four grip configuration, creating rotational pressure on the glenohumeral joint and surrounding connective tissue. What makes this variation particularly effective is its capacity to create dilemmas: opponents must choose between defending the submission, preventing the sweep, or stopping the back take. This multi-threat system exemplifies modern half guard strategy, where single techniques branch into complete attacking sequences based on defensive reactions.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,43 +83,37 @@
       "step_number": 1,
       "action": "Establish Underhook and Wrist Control",
       "description": "From bottom half guard, establish a deep underhook on opponent's far arm while they attempt to crossface or consolidate top position. With your free hand, grip their wrist of the underhook arm (creating 2-on-1 control). This initial control prevents them from withdrawing the arm and sets up the figure-four entry. Keep your head tight to their chest to prevent them from driving forward with shoulder pressure.",
-      "timing": "Initial setup phase",
-      "pressure_level": "Moderate"
+      "timing": "Initial setup phase"
     },
     {
       "step_number": 2,
       "action": "Create Space and Swim Figure-Four",
       "description": "Create a small frame with your underhook side elbow against their hip while pulling their wrist across your centerline. This generates the space needed to swim your underhook hand through and grab your own wrist, completing the figure-four grip. The opponent's arm should form roughly a 90-degree angle at the elbow. Ensure their elbow stays tight to their body (not posting on mat) which maintains vulnerability.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 3,
       "action": "Secure Figure-Four and Hip Connection",
       "description": "Lock in the figure-four grip configuration with your palm-to-palm or wrist-to-wrist connection. Simultaneously close distance and reconnect your chest to their chest, eliminating space they could use to roll forward. Your half guard legs should be actively controlling their trapped leg. This hip-to-hip connection is critical - without it, they can granby roll forward and escape before you can apply pressure.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Walk Shoulders to Perpendicular Angle",
       "description": "Using small hip movements and shoulder walking, begin to angle your body perpendicular to your opponent (creating an 'L' shape with your bodies). This changes the angle of attack on their shoulder joint and prepares multiple finishing options. Keep their elbow isolated close to their ribs throughout this movement. If they resist by driving into you, this creates the back take opportunity; if they pull away, it opens the sweep.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 5,
       "action": "Create Shoulder Rotation Decision Point",
       "description": "Begin applying slow, controlled rotation to their shoulder by pulling their wrist toward their back while keeping their elbow stationary near their ribs. In training, this rotation should be extremely progressive (3-5 seconds). The opponent faces a trilemma: defend the Kimura (exposing their back), base out with their free hand (opening sweep), or roll with the pressure (entering the submission sequence). Monitor their reactions carefully.",
-      "timing": "3-5 seconds progressive application",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive application"
     },
     {
       "step_number": 6,
       "action": "Finish or Transition Based on Defense",
       "description": "If opponent remains stationary and doesn't tap: continue rotation until they tap (in training, stop at 70-80% rotation). If they turn into you to relieve pressure: release half guard, secure seat belt grip, and take the back. If they post their free hand to prevent rotation: use that posting as a pivot point to execute the Kimura sweep to top position. If they roll forward: follow them over, maintaining the Kimura grip and establishing top control or continuing submission in the scramble.",
-      "timing": "Variable based on opponent response",
-      "pressure_level": "Maximum"
+      "timing": "Variable based on opponent response"
     }
   ],
   "opponent_defense_patterns": [
@@ -158,38 +147,32 @@
     {
       "error": "Applying sudden or jerking rotation to the shoulder joint",
       "consequence": "High risk of causing rotator cuff tear, shoulder dislocation, or labral damage. This is the most dangerous error in Kimura execution",
-      "correction": "Always apply rotation progressively over 3-5 seconds minimum in training. Smoothly increase pressure and monitor partner's reactions. In competition, faster application is acceptable but never jerking motions",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply rotation progressively over 3-5 seconds minimum in training. Smoothly increase pressure and monitor partner's reactions. In competition, faster application is acceptable but never jerking motions"
     },
     {
       "error": "Losing hip connection while attempting the submission",
       "consequence": "Opponent can granby roll forward over their shoulder, escaping the submission and potentially reversing position",
-      "correction": "Maintain chest-to-chest connection after securing figure-four. If they create space, close it immediately before applying rotational pressure. Your hips should follow their movement throughout the technique",
-      "danger_level": "Medium"
+      "correction": "Maintain chest-to-chest connection after securing figure-four. If they create space, close it immediately before applying rotational pressure. Your hips should follow their movement throughout the technique"
     },
     {
       "error": "Attempting to finish the Kimura without proper figure-four grip security",
       "consequence": "Opponent can slip their arm free, and you lose the submission opportunity while exhausting energy. Creates false sense of control",
-      "correction": "Never rush the figure-four completion. Ensure palm-to-palm or wrist-to-wrist connection is solid before advancing to rotation phase. If grip feels loose, reset and secure it properly",
-      "danger_level": "Low"
+      "correction": "Never rush the figure-four completion. Ensure palm-to-palm or wrist-to-wrist connection is solid before advancing to rotation phase. If grip feels loose, reset and secure it properly"
     },
     {
       "error": "Allowing opponent's elbow to touch the mat during setup",
       "consequence": "Opponent gains a posting base that eliminates shoulder vulnerability. They can use the posted elbow to prevent rotation and escape the submission attempt",
-      "correction": "Keep their elbow elevated and close to their ribs throughout the entire sequence. If their elbow touches mat, adjust your angle or use frames to lift it back up before continuing",
-      "danger_level": "Medium"
+      "correction": "Keep their elbow elevated and close to their ribs throughout the entire sequence. If their elbow touches mat, adjust your angle or use frames to lift it back up before continuing"
     },
     {
       "error": "Releasing half guard control too early in the sequence",
       "consequence": "Opponent can pull their trapped leg free and use mobility to escape the submission or pass your guard completely",
-      "correction": "Maintain half guard lock until you've established solid figure-four grip and begun rotation. Only release half guard when transitioning to sweep or back take based on their defensive reaction",
-      "danger_level": "Low"
+      "correction": "Maintain half guard lock until you've established solid figure-four grip and begun rotation. Only release half guard when transitioning to sweep or back take based on their defensive reaction"
     },
     {
       "error": "Forcing the submission when opponent is defending correctly",
       "consequence": "Wastes energy, creates stalemate, and ignores available transition opportunities. In training, risks injury if you force too hard",
-      "correction": "The Kimura from half guard is a branching system. If submission is defended, flow to the sweep, back take, or armbar based on their specific defense. Don't fixate on one finish",
-      "danger_level": "Medium"
+      "correction": "The Kimura from half guard is a branching system. If submission is defended, flow to the sweep, back take, or armbar based on their specific defense. Don't fixate on one finish"
     }
   ],
   "variations_and_setups": [
@@ -276,50 +259,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn figure-four grip mechanics, body positioning, and basic shoulder rotation theory. Study anatomy of shoulder joint and injury mechanisms. Practice grip configuration without applying pressure",
-      "resistance_level": "None",
-      "safety_emphasis": "Understanding injury risks before any live application. Partner communication protocols for training. Tap early and tap often mentality establishment"
-    },
-    {
-      "phase": "Controlled Entry Drilling",
-      "timeframe": "Week 3-4",
-      "focus": "Practice establishing underhook, wrist control, and completing figure-four grip from static half guard position. Partner provides zero resistance. Focus on smooth transitions and proper body mechanics without pressure",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "No rotational pressure applied to shoulder. Focus entirely on positional entries and grip configurations. Both partners practice communication about comfort levels"
-    },
-    {
-      "phase": "Slow Pressure Application",
-      "timeframe": "Week 5-6",
-      "focus": "Begin applying very light rotational pressure (10-20% of maximum) with extended application time (5-7 seconds minimum). Partner taps early when they feel any discomfort. Practice reading partner's reactions and stopping before they tap",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Extremely slow progression of pressure. Partner taps at first sensation of shoulder tension. Practitioner learns to feel the submission tightening without partner feedback"
-    },
-    {
-      "phase": "Defensive Response Integration",
-      "timeframe": "Week 7-10",
-      "focus": "Partner begins using common defenses: posting the free hand, turning into the grip, rolling forward. Practitioner learns to flow between submission, sweep, and back take options based on defensive reactions. Still maintaining slow, controlled pressure",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Pressure remains controlled (30-40% maximum) even when partner defends. Focus on transition safety, especially when following opponent's granby roll. No explosive movements"
-    },
-    {
-      "phase": "Realistic Drilling",
-      "timeframe": "Week 11-16",
-      "focus": "Full-speed entries with progressive pressure application. Partner provides realistic resistance and defensive reactions. Practitioner applies submission with competition-level positioning but maintains 3-5 second application window before partner taps",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Application speed increases but remains progressive, not explosive. Clear tap signals required. Partner must tap before experiencing actual pain. Both partners responsible for safety"
-    },
-    {
-      "phase": "Live Integration",
-      "timeframe": "Week 17+",
-      "focus": "Implement Kimura from half guard during live rolling. Use technique opportunistically when position presents itself. Balance between effectiveness and safety based on partner, context (training vs competition), and injury history",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Adjust application speed based on partner: slower for beginners, more experienced partners get faster application but never jerking motion. Always aware of partner's injury history. Competition preparation may use faster application with consenting, experienced partners only"
-    }
-  ],
   "from_positions": [
     "Half Guard",
     "Knee Shield Half Guard",
@@ -391,5 +330,6 @@
       "name": "Omoplata",
       "relationship": "Alternative shoulder attack available from similar half guard positioning"
     }
-  ]
+  ],
+  "success_rate": 62
 }

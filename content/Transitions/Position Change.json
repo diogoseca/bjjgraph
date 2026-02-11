@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "Position Change represents the fundamental tactical advancement in Brazilian Jiu-Jitsu, where a practitioner systematically transitions from one position to a more dominant position. This concept encompasses the entire spectrum of positional transitions, from escaping inferior positions to establishing and maintaining dominant control. Understanding position change is essential for developing a cohesive game plan that emphasizes positional dominance over immediate submission attempts.\n\nThe ability to change positions effectively requires a deep understanding of the positional hierarchy in BJJ, timing, weight distribution, and the creation of angles. Successful position changes are built on recognizing opportunities created by opponent reactions, maintaining connection points throughout the transition, and controlling the pace of engagement. This skill separates advanced practitioners who can systematically work through positions from beginners who struggle to maintain positional advantages.\n\nPosition changes serve multiple strategic purposes: they increase point scoring opportunities in competition, create better submission angles, tire opponents through constant defensive demands, and demonstrate technical superiority. The most effective position changes combine offensive pressure with defensive awareness, ensuring that the transition itself doesn't create vulnerabilities. Mastering this fundamental concept allows practitioners to implement their game plan methodically while neutralizing opponent attacks.",
   "key_principles": [
     "Understand and exploit the positional hierarchy to systematically improve position",
@@ -55,44 +50,37 @@
     {
       "step_number": 1,
       "action": "Assess current position",
-      "description": "Evaluate your current position within the BJJ hierarchy and identify the most strategic advancement option based on opponent's posture, grips, and base. Consider both immediate opportunities and multi-step sequences that lead to dominant positions.",
-      "timing": "Continuous assessment during engagement"
+      "description": "Evaluate your current position within the BJJ hierarchy and identify the most strategic advancement option based on opponent's posture, grips, and base. Consider both immediate opportunities and multi-step sequences that lead to dominant positions."
     },
     {
       "step_number": 2,
       "action": "Establish control points",
-      "description": "Secure at least two points of contact with opponent through grips, hooks, frames, or pressure points. These connection points must be maintained throughout the transition to prevent opponent from creating space or recovering position.",
-      "timing": "Before initiating movement"
+      "description": "Secure at least two points of contact with opponent through grips, hooks, frames, or pressure points. These connection points must be maintained throughout the transition to prevent opponent from creating space or recovering position."
     },
     {
       "step_number": 3,
       "action": "Create angle",
-      "description": "Generate an angle relative to opponent's centerline by shifting your hips, adjusting your torso position, or repositioning your base. The angle reduces opponent's defensive leverage and opens pathways for positional advancement.",
-      "timing": "1-2 seconds before main transition"
+      "description": "Generate an angle relative to opponent's centerline by shifting your hips, adjusting your torso position, or repositioning your base. The angle reduces opponent's defensive leverage and opens pathways for positional advancement."
     },
     {
       "step_number": 4,
       "action": "Initiate transition movement",
-      "description": "Begin the position change by moving your body toward the target position while maintaining established control points. Commit your weight purposefully in the direction of advancement, using your core and legs to generate smooth, controlled movement.",
-      "timing": "Explosive yet controlled initiation"
+      "description": "Begin the position change by moving your body toward the target position while maintaining established control points. Commit your weight purposefully in the direction of advancement, using your core and legs to generate smooth, controlled movement."
     },
     {
       "step_number": 5,
       "action": "Navigate opponent defenses",
-      "description": "Adjust your movement path based on opponent's defensive reactions, using their resistance as information to refine your transition. If one pathway closes, flow to alternative positions within the same hierarchical tier or higher.",
-      "timing": "Real-time adjustment during movement"
+      "description": "Adjust your movement path based on opponent's defensive reactions, using their resistance as information to refine your transition. If one pathway closes, flow to alternative positions within the same hierarchical tier or higher."
     },
     {
       "step_number": 6,
       "action": "Secure new position",
-      "description": "Complete the transition by establishing the defining characteristics of the new position: proper weight distribution, control points specific to that position, and base that prevents immediate counters or escapes.",
-      "timing": "Immediate consolidation upon arrival"
+      "description": "Complete the transition by establishing the defining characteristics of the new position: proper weight distribution, control points specific to that position, and base that prevents immediate counters or escapes."
     },
     {
       "step_number": 7,
       "action": "Consolidate control",
-      "description": "Stabilize the newly achieved position by distributing your weight optimally, adjusting grips for maximum control, and removing opponent's defensive frames or escapes. Assess whether further advancement is immediately available or if position should be maintained.",
-      "timing": "3-5 seconds after securing position"
+      "description": "Stabilize the newly achieved position by distributing your weight optimally, adjusting grips for maximum control, and removing opponent's defensive frames or escapes. Assess whether further advancement is immediately available or if position should be maintained."
     }
   ],
   "common_counters": [
@@ -158,38 +146,32 @@
     {
       "phase": "Week 1-2: Fundamental Understanding",
       "focus": "Learning positional hierarchy and basic transition pathways",
-      "description": "Study the BJJ positional hierarchy chart extensively. Practice identifying current position and verbally naming the next logical advancement. Drill basic transitions like guard pass to side control, side control to mount, and bottom mount to half guard with compliant partner. Focus on understanding WHY positions are organized hierarchically.",
-      "resistance_level": "None"
+      "description": "Study the BJJ positional hierarchy chart extensively. Practice identifying current position and verbally naming the next logical advancement. Drill basic transitions like guard pass to side control, side control to mount, and bottom mount to half guard with compliant partner. Focus on understanding WHY positions are organized hierarchically."
     },
     {
       "phase": "Week 3-4: Control Point Development",
       "focus": "Establishing and maintaining connection during transitions",
-      "description": "Drill transitions with emphasis on maintaining at least two points of contact throughout. Partner provides light resistance specifically targeting connection points. Practice recovering control when connection is momentarily lost. Develop sensitivity to which control points are most critical for specific transitions.",
-      "resistance_level": "Light"
+      "description": "Drill transitions with emphasis on maintaining at least two points of contact throughout. Partner provides light resistance specifically targeting connection points. Practice recovering control when connection is momentarily lost. Develop sensitivity to which control points are most critical for specific transitions."
     },
     {
       "phase": "Week 5-8: Angle Creation and Timing",
       "focus": "Creating angles before transitions and recognizing timing windows",
-      "description": "Work on hip movement and torso adjustment to create angles from various positions. Partner begins defending actively but predictably. Practice recognizing when opponent's defensive structure is compromised. Drill transition chains that flow through multiple positions in sequence.",
-      "resistance_level": "Medium"
+      "description": "Work on hip movement and torso adjustment to create angles from various positions. Partner begins defending actively but predictably. Practice recognizing when opponent's defensive structure is compromised. Drill transition chains that flow through multiple positions in sequence."
     },
     {
       "phase": "Week 9-12: Reactive Transitions",
       "focus": "Using opponent's reactions to facilitate position changes",
-      "description": "Partner provides realistic resistance with various defensive strategies. Practice reading defensive reactions and flowing to alternative positions. Develop ability to chain position changes together when primary option is defended. Begin recognizing patterns in how different opponents defend positions.",
-      "resistance_level": "Medium"
+      "description": "Partner provides realistic resistance with various defensive strategies. Practice reading defensive reactions and flowing to alternative positions. Develop ability to chain position changes together when primary option is defended. Begin recognizing patterns in how different opponents defend positions."
     },
     {
       "phase": "Week 13-16: Competitive Application",
       "focus": "Position changes under full resistance with strategic decision-making",
-      "description": "Positional sparring from various starting positions with goal of advancing position against full resistance. Practice balancing position advancement with submission threats. Develop ability to recognize when to consolidate versus when to continue advancing. Track success rates of different transition pathways.",
-      "resistance_level": "Full"
+      "description": "Positional sparring from various starting positions with goal of advancing position against full resistance. Practice balancing position advancement with submission threats. Develop ability to recognize when to consolidate versus when to continue advancing. Track success rates of different transition pathways."
     },
     {
       "phase": "Ongoing: Strategic Integration",
       "focus": "Integrating position changes into complete game strategy",
-      "description": "Build personal game plans around reliable position change sequences. Develop position-specific transition chains that play to individual strengths. Study video of own rolling to identify missed position change opportunities. Continuously refine transitions based on opponent skill level and style.",
-      "resistance_level": "Full"
+      "description": "Build personal game plans around reliable position change sequences. Develop position-specific transition chains that play to individual strengths. Study video of own rolling to identify missed position change opportunities. Continuously refine transitions based on opponent skill level and style."
     }
   ],
   "variants_and_adaptations": [
@@ -217,63 +199,51 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary purpose of creating an angle before initiating a position change?",
-      "answer": "Creating an angle before initiating a position change serves to fundamentally weaken the opponent's defensive structure by moving your body off their centerline. This angular relationship reduces their leverage and ability to use their base effectively, while opening pathways for advancement that would be blocked if you remained square to their position. The angle makes the subsequent transition both more efficient and higher percentage.",
-      "difficulty": "Intermediate"
+      "answer": "Creating an angle before initiating a position change serves to fundamentally weaken the opponent's defensive structure by moving your body off their centerline. This angular relationship reduces their leverage and ability to use their base effectively, while opening pathways for advancement that would be blocked if you remained square to their position. The angle makes the subsequent transition both more efficient and higher percentage."
     },
     {
       "question": "Why should you maintain at least two points of connection during position transitions?",
-      "answer": "Maintaining at least two points of connection during transitions prevents the opponent from creating space and escaping. If you only have one connection point, the opponent can move around that single point of contact to generate distance and recover. Two points of connection create a control frame that restricts opponent movement while allowing you to maintain positional pressure throughout the transition. This principle ensures continuity of control even as your body position changes.",
-      "difficulty": "Beginner"
+      "answer": "Maintaining at least two points of connection during transitions prevents the opponent from creating space and escaping. If you only have one connection point, the opponent can move around that single point of contact to generate distance and recover. Two points of connection create a control frame that restricts opponent movement while allowing you to maintain positional pressure throughout the transition. This principle ensures continuity of control even as your body position changes."
     },
     {
       "question": "How does understanding positional hierarchy improve your ability to execute position changes effectively?",
-      "answer": "Understanding positional hierarchy provides a strategic roadmap for advancement, allowing you to set realistic goals for position improvement and recognize which transitions are most valuable in different situations. It helps you avoid over-committing to unrealistic position changes that create vulnerabilities, and instead focus on incremental improvements that systematically enhance your position. This knowledge also helps you recognize when opponent is improving their position and how to counter those attempts based on hierarchical principles.",
-      "difficulty": "Intermediate"
+      "answer": "Understanding positional hierarchy provides a strategic roadmap for advancement, allowing you to set realistic goals for position improvement and recognize which transitions are most valuable in different situations. It helps you avoid over-committing to unrealistic position changes that create vulnerabilities, and instead focus on incremental improvements that systematically enhance your position. This knowledge also helps you recognize when opponent is improving their position and how to counter those attempts based on hierarchical principles."
     },
     {
       "question": "What should you do when your initial position change attempt is successfully defended by your opponent?",
-      "answer": "When your initial position change is defended, you should flow to an alternative position change rather than abandoning advancement entirely. Use the opponent's defensive reaction as information about which pathways are open. Often, defending one position change creates vulnerabilities for different advancements. The key is maintaining forward pressure and control points while adapting your direction of attack. This requires having multiple position change options from each position and the ability to transition smoothly between them.",
-      "difficulty": "Advanced"
+      "answer": "When your initial position change is defended, you should flow to an alternative position change rather than abandoning advancement entirely. Use the opponent's defensive reaction as information about which pathways are open. Often, defending one position change creates vulnerabilities for different advancements. The key is maintaining forward pressure and control points while adapting your direction of attack. This requires having multiple position change options from each position and the ability to transition smoothly between them."
     },
     {
       "question": "Why is it important to consolidate control after achieving a new position rather than immediately advancing further?",
-      "answer": "Consolidating control after achieving a new position ensures that you establish the defining characteristics of that position with proper weight distribution, grips, and base. Rushing to the next advancement without consolidation leaves you vulnerable to immediate escapes or reversals, essentially wasting the energy spent on the initial transition. Taking a few seconds to stabilize allows you to assess the new position, identify the next best advancement opportunity, and prevent opponent from using your momentum against you. This measured approach leads to more sustainable positional dominance.",
-      "difficulty": "Intermediate"
+      "answer": "Consolidating control after achieving a new position ensures that you establish the defining characteristics of that position with proper weight distribution, grips, and base. Rushing to the next advancement without consolidation leaves you vulnerable to immediate escapes or reversals, essentially wasting the energy spent on the initial transition. Taking a few seconds to stabilize allows you to assess the new position, identify the next best advancement opportunity, and prevent opponent from using your momentum against you. This measured approach leads to more sustainable positional dominance."
     },
     {
       "question": "How can submission threats be used strategically to facilitate position changes?",
-      "answer": "Submission threats create defensive reactions in opponents that often open pathways for positional advancement. When opponent defends a submission attempt, they typically commit their grips, weight, and attention to addressing the immediate danger. This defensive commitment creates vulnerabilities in their positional structure that can be exploited for position improvement. Even unsuccessful submission attempts serve the strategic purpose of forcing position changes, making them valuable tactical tools beyond their finishing potential. The key is ensuring submission attempts are credible enough to demand defensive responses.",
-      "difficulty": "Advanced"
+      "answer": "Submission threats create defensive reactions in opponents that often open pathways for positional advancement. When opponent defends a submission attempt, they typically commit their grips, weight, and attention to addressing the immediate danger. This defensive commitment creates vulnerabilities in their positional structure that can be exploited for position improvement. Even unsuccessful submission attempts serve the strategic purpose of forcing position changes, making them valuable tactical tools beyond their finishing potential. The key is ensuring submission attempts are credible enough to demand defensive responses."
     },
     {
       "question": "Your opponent posts their hand to prevent your side control to mount transition - how do you adjust?",
-      "answer": "When opponent posts their hand to block mount, you have several high-percentage options. First, you can attack the posted arm with an americana or kimura since it's extended and vulnerable. Second, you can switch to knee on belly which doesn't require clearing the arm and creates new offensive opportunities. Third, you can drive your knee into their elbow joint to collapse the post while continuing the mount transition. The key is recognizing the post creates both a barrier and an opportunity - their arm is committed to one task and cannot defend submissions.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent posts their hand to block mount, you have several high-percentage options. First, you can attack the posted arm with an americana or kimura since it's extended and vulnerable. Second, you can switch to knee on belly which doesn't require clearing the arm and creates new offensive opportunities. Third, you can drive your knee into their elbow joint to collapse the post while continuing the mount transition. The key is recognizing the post creates both a barrier and an opportunity - their arm is committed to one task and cannot defend submissions."
     },
     {
       "question": "What is the optimal timing window for initiating a position change against a defensive opponent?",
-      "answer": "The optimal timing window occurs when your opponent's base is compromised, typically during their own movements or adjustments. Key moments include: when they bridge or hip escape (their weight momentarily shifts), when they attempt to create frames (one hand leaves a defensive position), when they turn to face you (their hips become mobile), or after they successfully defend one attack and mentally relax. The worst time to attempt a position change is when opponent has settled weight, established grips, and is actively anticipating your movement. Reading these timing windows requires sensitivity to opponent's weight shifts and breathing patterns.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing window occurs when your opponent's base is compromised, typically during their own movements or adjustments. Key moments include: when they bridge or hip escape (their weight momentarily shifts), when they attempt to create frames (one hand leaves a defensive position), when they turn to face you (their hips become mobile), or after they successfully defend one attack and mentally relax. The worst time to attempt a position change is when opponent has settled weight, established grips, and is actively anticipating your movement. Reading these timing windows requires sensitivity to opponent's weight shifts and breathing patterns."
     },
     {
       "question": "What grip requirements are essential before attempting to transition from side control to mount?",
-      "answer": "Before attempting the mount transition, you need crossface control with your near arm driving opponent's head away, preventing them from turning into you. Your far hand must control their far hip, blocking any knee insertion that would recover half guard. Additionally, you need your hip pressure established low against their hip line rather than floating above it. Without crossface control, opponent can face you and create frames. Without hip control, they insert a knee and recover guard. These grips must be maintained throughout the transition, adjusting as you move but never fully releasing until mount is secured.",
-      "difficulty": "Intermediate"
+      "answer": "Before attempting the mount transition, you need crossface control with your near arm driving opponent's head away, preventing them from turning into you. Your far hand must control their far hip, blocking any knee insertion that would recover half guard. Additionally, you need your hip pressure established low against their hip line rather than floating above it. Without crossface control, opponent can face you and create frames. Without hip control, they insert a knee and recover guard. These grips must be maintained throughout the transition, adjusting as you move but never fully releasing until mount is secured."
     },
     {
       "question": "What direction of force should you apply when your opponent bridges during a position change?",
-      "answer": "When opponent bridges, you should redirect your force perpendicular to their bridge direction rather than fighting directly against it. If they bridge toward you, shift your weight toward their head or hips depending on which direction they're driving. The bridge creates momentum in one direction, and fighting it head-on wastes your energy against their explosive movement. Instead, use their bridge as an opportunity - as their hips come off the mat, that's often the ideal moment to slide your knee through for mount or transition to north-south. Flow with their energy while maintaining your control points.",
-      "difficulty": "Advanced"
+      "answer": "When opponent bridges, you should redirect your force perpendicular to their bridge direction rather than fighting directly against it. If they bridge toward you, shift your weight toward their head or hips depending on which direction they're driving. The bridge creates momentum in one direction, and fighting it head-on wastes your energy against their explosive movement. Instead, use their bridge as an opportunity - as their hips come off the mat, that's often the ideal moment to slide your knee through for mount or transition to north-south. Flow with their energy while maintaining your control points."
     },
     {
       "question": "How do you chain position changes when your opponent successfully defends your knee cut pass?",
-      "answer": "When knee cut is defended, immediately assess what defense they used. If they establish an underhook, transition to a backstep pass or switch to the opposite side. If they insert a knee shield, address it by either smashing through with pressure or circling to x-pass around it. If they hip escape away, follow their hips and consider leg drag position. The key principle is never returning to neutral when one pass fails - always have a secondary option ready. Common chains include knee cut to backstep, knee cut to leg weave, or knee cut to torreando. Each defense creates a specific opening for the next technique in your chain.",
-      "difficulty": "Advanced"
+      "answer": "When knee cut is defended, immediately assess what defense they used. If they establish an underhook, transition to a backstep pass or switch to the opposite side. If they insert a knee shield, address it by either smashing through with pressure or circling to x-pass around it. If they hip escape away, follow their hips and consider leg drag position. The key principle is never returning to neutral when one pass fails - always have a secondary option ready. Common chains include knee cut to backstep, knee cut to leg weave, or knee cut to torreando. Each defense creates a specific opening for the next technique in your chain."
     },
     {
       "question": "What are the critical mechanical details for maintaining connection during a scramble-based position change?",
-      "answer": "During scrambles, mechanical connection depends on chest-to-back or chest-to-chest contact when possible, using your body weight rather than grips alone. Maintain at least one hook with your legs to prevent complete separation. Keep your head positioned on the controlling side - head on the same side as your grip creates a unified control structure. Drive your hips forward into opponent rather than reaching with arms, as extended arms create space and lose connection. If you lose contact, immediately change levels by lowering your base and driving forward to re-establish connection before opponent can stand or turn to face you.",
-      "difficulty": "Advanced"
+      "answer": "During scrambles, mechanical connection depends on chest-to-back or chest-to-chest contact when possible, using your body weight rather than grips alone. Maintain at least one hook with your legs to prevent complete separation. Keep your head positioned on the controlling side - head on the same side as your grip creates a unified control structure. Drive your hips forward into opponent rather than reaching with arms, as extended arms create space and lose connection. If you lose contact, immediately change levels by lowering your base and driving forward to re-establish connection before opponent can stand or turn to face you."
     }
   ],
   "safety_considerations": "Position changes in BJJ are generally safe when executed with proper control and awareness. However, practitioners should focus on smooth, controlled transitions rather than explosive movements that could lead to collisions or awkward landings. Pay particular attention to mat awareness, ensuring adequate space exists for the intended transition. Communicate with training partners about pace and intensity, especially when drilling new position changes. Avoid posting hands or feet in positions where they could be trapped during transitions, as this can lead to joint injuries. When practicing position changes from bottom positions, be cautious about neck placement and avoid allowing full body weight to compress the cervical spine. Advanced position changes involving inversions or rapid direction changes should only be attempted after developing sufficient body awareness and control. Always tap early if caught in a compromised position during a transition attempt.",
@@ -327,5 +297,6 @@
       "name": "Back Control Maintenance",
       "relationship": "Consolidation technique for maintaining dominant position"
     }
-  ]
+  ],
+  "success_rate": 60
 }

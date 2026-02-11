@@ -157,7 +157,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 **Type**: Lapel Choke
 **Target Area**: Carotid arteries and trachea via lapel compression
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -232,12 +232,12 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure side control position**: Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat. (Timing: Take 2-3 seconds to ensure solid control) [Pressure: Firm]
-2. **Access the far lapel**: Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be. (Timing: 1-2 seconds while maintaining pressure) [Pressure: Light]
-3. **Feed the lapel across the neck**: Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space. (Timing: 2-3 seconds with controlled movement) [Pressure: Moderate]
-4. **Secure the lapel grip**: Once the lapel is fed across their neck, adjust your grip to ensure maximum control. Your gripping hand should now be positioned near their opposite shoulder with the lapel tight. The lapel should form a 'V' shape across their neck, with the apex of the V directly under their chin. This positioning ensures bilateral carotid compression. (Timing: 1-2 seconds for grip adjustment) [Pressure: Moderate]
-5. **Transition body position for pressure**: Shift your body weight toward north-south position while maintaining your lapel grip. Your chest should drive into their face/neck area, and your hips should be positioned to prevent their hip escape. Some variations involve moving fully to north-south, while others maintain a modified side control. The key is that your body weight drives perpendicular pressure into their neck through the lapel. (Timing: 2-3 seconds for smooth transition) [Pressure: Firm]
-6. **Apply choking pressure**: Drive your chest downward into their face and neck area while maintaining the tight lapel grip. Your body weight should push down through the lapel, creating a noose effect that constricts around both carotid arteries. Pull your gripping hand slightly toward you while driving your chest down - this creates opposing forces that tighten the choke. The opponent should tap within 3-5 seconds if properly applied. Monitor constantly for the tap. (Timing: 3-5 seconds maximum before expecting tap) [Pressure: Maximum]
+1. **Secure side control position**: Establish tight side control with your chest heavy on the opponent's chest. Control their near arm by pinning it to their body or trapping it with your hip. Your head should be positioned on the far side of their head to prevent them from turning into you. Maintain strong shoulder pressure into their face or neck to keep them flat. (Timing: Take 2-3 seconds to ensure solid control)
+2. **Access the far lapel**: Using your hand closest to their head (typically your right hand if you're on their right side), reach across their neck and grip their far lapel deep - your grip should be at least 4-6 inches past their shoulder to ensure sufficient material. Your four fingers should go inside the lapel, thumb outside. The deeper your initial grip, the more effective the choke will be. (Timing: 1-2 seconds while maintaining pressure)
+3. **Feed the lapel across the neck**: Pull the lapel across the opponent's throat toward their opposite shoulder, creating a diagonal line across their neck. The material should be tight against their neck, particularly targeting the carotid arteries on both sides. Ensure the lapel goes under their chin, not over it. As you feed, maintain your chest pressure to prevent them from turning or creating space. (Timing: 2-3 seconds with controlled movement)
+4. **Secure the lapel grip**: Once the lapel is fed across their neck, adjust your grip to ensure maximum control. Your gripping hand should now be positioned near their opposite shoulder with the lapel tight. The lapel should form a 'V' shape across their neck, with the apex of the V directly under their chin. This positioning ensures bilateral carotid compression. (Timing: 1-2 seconds for grip adjustment)
+5. **Transition body position for pressure**: Shift your body weight toward north-south position while maintaining your lapel grip. Your chest should drive into their face/neck area, and your hips should be positioned to prevent their hip escape. Some variations involve moving fully to north-south, while others maintain a modified side control. The key is that your body weight drives perpendicular pressure into their neck through the lapel. (Timing: 2-3 seconds for smooth transition)
+6. **Apply choking pressure**: Drive your chest downward into their face and neck area while maintaining the tight lapel grip. Your body weight should push down through the lapel, creating a noose effect that constricts around both carotid arteries. Pull your gripping hand slightly toward you while driving your chest down - this creates opposing forces that tighten the choke. The opponent should tap within 3-5 seconds if properly applied. Monitor constantly for the tap. (Timing: 3-5 seconds maximum before expecting tap)
 
 
 </section>
@@ -257,22 +257,22 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Failing to feed the lapel deep enough across the neck [Medium DANGER]
+- **Mistake**: Failing to feed the lapel deep enough across the neck
   - **Consequence**: The choke targets the front of the throat instead of the carotid arteries, making it painful but not a true blood choke, giving the opponent time to escape
   - **Correction**: Always feed the lapel at least 4-6 inches past their shoulder. The material should reach toward their opposite armpit. A shallow grip will never finish the submission.
-- **Mistake**: Releasing chest pressure while setting up the lapel [Low DANGER]
+- **Mistake**: Releasing chest pressure while setting up the lapel
   - **Consequence**: Opponent gains space to turn, escape, or defend the choke effectively
   - **Correction**: Maintain constant chest pressure throughout the entire setup. Use your weight to keep them pinned flat while your hands work the lapel. Never sacrifice positional control for the submission.
-- **Mistake**: Relying solely on arm strength instead of body weight [Low DANGER]
+- **Mistake**: Relying solely on arm strength instead of body weight
   - **Consequence**: The choke lacks power and your arms fatigue quickly, allowing the opponent to outlast your attempt
   - **Correction**: Your arms simply maintain the lapel position - your chest and body weight create the actual choking pressure. Think of driving your chest through their neck, not pulling with your arms.
-- **Mistake**: Applying excessive pressure too quickly in training [CRITICAL DANGER]
+- **Mistake**: Applying excessive pressure too quickly in training
   - **Consequence**: Risk of causing unconsciousness before partner can tap, potential injury, and breakdown of training trust
   - **Correction**: Always apply progressive pressure in training, taking 3-5 seconds minimum. Give your partner clear opportunity to recognize the danger and tap. Save competition-speed application for competition only.
-- **Mistake**: Failing to control the near-side arm during setup [Medium DANGER]
+- **Mistake**: Failing to control the near-side arm during setup
   - **Consequence**: Opponent creates effective frames that prevent you from establishing the choke or escape the position entirely
   - **Correction**: Pin or trap their near arm before attempting to access the lapel. Use your hip, knee, or own arm to neutralize their defensive frames. Never give them free use of the near arm.
-- **Mistake**: Continuing to apply pressure after tap or loss of consciousness [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap or loss of consciousness
   - **Consequence**: Serious injury including brain damage from prolonged oxygen deprivation, potential death, and criminal liability
   - **Correction**: Release immediately upon any tap signal. If opponent goes limp or unresponsive, release instantly and check their condition. This is non-negotiable in training.
 
@@ -335,43 +335,6 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn the mechanics of lapel feeding, body positioning, and anatomical targets. Practice on a cooperative partner who maintains side control bottom position. Focus entirely on the setup without applying any choking pressure.
-- Resistance: Zero resistance
-- Safety: Understand the difference between blood chokes (carotid compression) and air chokes (tracheal compression). Learn to recognize tap signals immediately. Practice releasing the position instantly on command.
-
-**Slow Positional Practice** (Week 3-4)
-- Focus: Execute the complete technique at slow speed with cooperative partner. Begin applying very light pressure - just enough for partner to feel the choke position but nowhere near finishing pressure. Partner should tap early to practice the release protocol.
-- Resistance: Zero resistance
-- Safety: Practice immediate release upon tap. Begin developing sensitivity for proper lapel depth and body positioning. Partner provides feedback on pressure location (should feel on sides of neck, not front of throat).
-
-**Controlled Resistance Introduction** (Week 5-8)
-- Focus: Partner provides mild defensive frames and attempts to prevent the lapel grip. Practice maintaining position while setting up the choke against light resistance. Apply moderate pressure - approximately 50% - allowing partner to experience the choke more realistically while maintaining safety.
-- Resistance: Mild resistance
-- Safety: Continue practicing immediate release. Both partners communicate about pressure levels. Bottom partner should tap as soon as they feel the choke tightening, not waiting until it's fully locked. Develop awareness of the timeline from setup to finish.
-
-**Realistic Defense Practice** (Week 9-12)
-- Focus: Partner uses realistic defenses including framing, turning, bridging, and grip fighting. Practice problem-solving against these defenses while maintaining control. Apply 70-80% pressure, stopping just before the finish in most repetitions to build control and precision.
-- Resistance: Realistic resistance
-- Safety: Both partners should clearly understand the point of no return - when the choke is locked and tap is imminent. Practice recognizing this point and either tapping immediately (bottom) or releasing smoothly (top). Reinforce that training is not competition - tap early and often.
-
-**Positional Sparring Integration** (Month 4-6)
-- Focus: Integrate the Marce Choke into positional sparring from side control and north-south. Begin from established positions and work the technique against full resistance. Occasionally finish the choke completely (with proper progressive pressure) to build confidence, but most repetitions should focus on the setup and control phases.
-- Resistance: Full resistance
-- Safety: This phase requires mature training partners who understand tapping culture. Bottom player must tap at the first sign of true danger, not trying to tough it out. Top player must apply pressure progressively even in high-intensity sparring. Both partners watch for signs of distress beyond normal discomfort.
-
-**Live Rolling Application** (Month 6+)
-- Focus: Use the Marce Choke during live rolling, setting it up from scrambles and transitions. At this phase, you should have developed the sensitivity and control to apply the technique safely even at high intensity. Continue to apply progressive pressure in training, reserving maximum speed application only for competition.
-- Resistance: Full resistance
-- Safety: Even at this advanced phase, maintain safety protocols. Never hold a choke after tap or unconsciousness. Be especially careful with less experienced partners who may not recognize the danger as quickly. Continue tapping early yourself when caught to maintain good training culture. Remember that training partners are helping you improve - protect them.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -420,6 +383,7 @@ The Marce Choke (also called the Marcelotine or Marcelo Choke) is a highly effec
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

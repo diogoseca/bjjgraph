@@ -270,7 +270,7 @@
         "relationship": "Foundation position - mounted crucifix builds upon standard mount control"
       },
       {
-        "name": "North South Control",
+        "name": "North-South",
         "relationship": "Alternative control - can transition to for different attack angles"
       },
       {
@@ -280,21 +280,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85,
+        "value": 80,
         "description": "Ability to maintain crucifix control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 65,
-        "intermediate": 80,
-        "advanced": 90,
+        "value": 85,
         "description": "Probability of achieving submission or advancing to back control"
       },
       "submission_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of finishing submission from this position"
       },
       "average_time": "45-90 seconds until submission or position advancement"
@@ -588,21 +582,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Ability to prevent opponent's submission or advancement"
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of escaping to better position"
       },
       "submission_probability": {
-        "beginner": 0,
-        "intermediate": 0,
-        "advanced": 5,
+        "value": 2,
         "description": "Virtually no submission opportunities from this bottom position"
       },
       "average_time": "30-60 seconds before submission or position change"

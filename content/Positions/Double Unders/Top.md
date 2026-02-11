@@ -356,11 +356,11 @@ Partner actively attempts specific escapes: hip escape, granby roll, butterfly h
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 55% | 15% |
-| Intermediate | 75% | 70% | 30% |
-| Advanced     | 85% | 85% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 78% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 20-45 seconds before pass completion or escape
 

@@ -163,7 +163,7 @@ The technique derives its name from the explosive whipping motion where the bott
 Strategically, the whip-up sweep creates a binary dilemma when paired with the Old School sweep. If the opponent sits back with their weight to defend the whip-up, they expose themselves to the Old School. If they drive forward to prevent the Old School, the whip-up becomes available. This forced choice is the foundation of lockdown offense and the reason the system has proven effective at the highest levels of no-gi competition. Advanced practitioners chain the whip-up with immediate back takes, truck entries, and submission threats during the dogfight scramble that follows a successful sweep.
 
 **From Position**: [[Lockdown/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, the whip-up sweep creates a binary dilemma when paired with the O
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure underhook and lockdown**: From lockdown bottom, thread your inside arm deep underneath the opponent's armpit on the trapped-leg side. Grip their far lat or shoulder blade and pull tight to eliminate all space between your chest and theirs. Verify your lockdown is cinched with ankles crossed and top foot hooking under their ankle. (Timing: Setup phase before opponent establishes dominant crossface)
-2. **Extend lockdown to off-balance**: Forcefully extend your legs in the lockdown configuration, driving the opponent's trapped leg backward while simultaneously pulling their heel toward your hip with your flexed feet. This extension disrupts their base and shifts their center of gravity forward over your torso, loading their weight for the sweep. (Timing: Initiate when opponent drives forward pressure or attempts to flatten you)
-3. **Rise to elbow**: As the lockdown extension off-balances the opponent forward, post your free hand's elbow on the mat on the underhook side. Turn your body toward the underhook, coming up onto your hip and elbow simultaneously. Your underhook arm pulls the opponent's upper body into you as you rise, preventing them from posting their hand to re-establish base. (Timing: Immediately following the lockdown extension while opponent's weight is displaced)
-4. **Drive to hand post**: Continue the upward motion from your elbow to your hand, planting your palm flat on the mat and straightening your posting arm. Drive your head into the opponent's chest on the underhook side, using it as a structural wedge. Your underhook should be pulling their upper body down and toward you while the lockdown continues to control their base leg. (Timing: Continuous motion without pausing at the elbow position)
-5. **Come to knees**: Push off your posted hand and drive upward to your knees, pulling the opponent's weight over with your underhook. Your lockdown maintains control of their leg throughout this elevation. As you reach your knees, your chest should be driving into their shoulder on the underhook side, forcing them to carry your weight while their base is compromised by the lockdown. (Timing: Explosive transition through this phase to prevent opponent from re-basing)
-6. **Establish dogfight or advance**: Upon reaching your knees with the opponent also on their knees, you enter the dogfight position. Fight to keep your underhook dominant by driving your shoulder into their armpit. From here you can release the lockdown and circle behind for a back take, continue driving forward to complete the sweep to top position, or maintain the dogfight and work for further advancement. (Timing: Immediately after reaching knees, do not pause in neutral dogfight)
-7. **Complete sweep or transition**: If the opponent's base collapses during the whip-up, drive through to side control by continuing your forward pressure and releasing the lockdown to clear your legs. If they stabilize in dogfight, use your underhook to circle toward their back, inserting hooks for back control. The whip-up's value extends beyond the sweep itself into the scramble opportunities it creates. (Timing: Within 2-3 seconds of reaching dogfight to maintain momentum advantage)
+1. **Secure underhook and lockdown**: From lockdown bottom, thread your inside arm deep underneath the opponent's armpit on the trapped-leg side. Grip their far lat or shoulder blade and pull tight to eliminate all space between your chest and theirs. Verify your lockdown is cinched with ankles crossed and top foot hooking under their ankle.
+2. **Extend lockdown to off-balance**: Forcefully extend your legs in the lockdown configuration, driving the opponent's trapped leg backward while simultaneously pulling their heel toward your hip with your flexed feet. This extension disrupts their base and shifts their center of gravity forward over your torso, loading their weight for the sweep.
+3. **Rise to elbow**: As the lockdown extension off-balances the opponent forward, post your free hand's elbow on the mat on the underhook side. Turn your body toward the underhook, coming up onto your hip and elbow simultaneously. Your underhook arm pulls the opponent's upper body into you as you rise, preventing them from posting their hand to re-establish base.
+4. **Drive to hand post**: Continue the upward motion from your elbow to your hand, planting your palm flat on the mat and straightening your posting arm. Drive your head into the opponent's chest on the underhook side, using it as a structural wedge. Your underhook should be pulling their upper body down and toward you while the lockdown continues to control their base leg.
+5. **Come to knees**: Push off your posted hand and drive upward to your knees, pulling the opponent's weight over with your underhook. Your lockdown maintains control of their leg throughout this elevation. As you reach your knees, your chest should be driving into their shoulder on the underhook side, forcing them to carry your weight while their base is compromised by the lockdown.
+6. **Establish dogfight or advance**: Upon reaching your knees with the opponent also on their knees, you enter the dogfight position. Fight to keep your underhook dominant by driving your shoulder into their armpit. From here you can release the lockdown and circle behind for a back take, continue driving forward to complete the sweep to top position, or maintain the dogfight and work for further advancement.
+7. **Complete sweep or transition**: If the opponent's base collapses during the whip-up, drive through to side control by continuing your forward pressure and releasing the lockdown to clear your legs. If they stabilize in dogfight, use your underhook to circle toward their back, inserting hooks for back control. The whip-up's value extends beyond the sweep itself into the scramble opportunities it creates.
 
 
 </section>
@@ -263,19 +263,15 @@ Strategically, the whip-up sweep creates a binary dilemma when paired with the O
 ## Training Progressions
 **Week 1-2** - Lockdown mechanics and underhook battle
 Establish proper lockdown configuration with tight ankles and figure-four. Drill the underhook entry from lockdown bottom against a stationary partner. Practice lockdown extensions to off-balance a compliant partner without attempting the full sweep. Focus on feeling the weight shift when the extension disrupts base.
-(Resistance: None)
 
 **Week 3-4** - Progressive elevation sequence
 Drill the complete whip-up motion from flat to elbow to hand to knees against a partner providing light forward pressure. Focus on continuous motion without pausing at intermediate positions. Partner provides just enough resistance to require proper technique but allows the sweep to complete. Chain 5-10 repetitions per round.
-(Resistance: Light)
 
 **Week 5-6** - Timing and combination attacks
 Partner alternates between driving forward and sitting back, forcing you to choose between whip-up and Old School sweep based on weight distribution. Develop pattern recognition for when the whip-up is available versus when to switch attacks. Practice immediate dogfight transitions and back take entries after successful whip-ups.
-(Resistance: Medium)
 
 **Week 7+** - Live application and chain wrestling
 Positional sparring starting from lockdown bottom. Partner uses full resistance to pass, flatten, and extract. Bottom player works the full lockdown offensive system including whip-up, Old School, Electric Chair, and back take combinations. Track sweep completion rate and identify timing patterns against different opponent styles.
-(Resistance: Full)
 
 
 

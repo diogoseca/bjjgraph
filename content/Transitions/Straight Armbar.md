@@ -169,7 +169,7 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
 **From Position**: [[Mounted Crucifix/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -216,14 +216,14 @@ The execution demands precise hip positioning and controlled transition from cru
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target arm**: From established mounted crucifix, identify which trapped arm offers the best angle for straight armbar. Select the arm that is most extended or most isolated by your leg positioning, typically the arm trapped deeper under your shin or thigh. (Timing: Initiate when opponent commits to defending choke or turns head away)
-2. **Secure wrist control**: Grip the target arm's wrist firmly with both hands using a thumbless monkey grip. Pull the wrist toward your chest to prevent the opponent from bending their elbow or rotating the arm. Your grip must control both the wrist position and the forearm rotation angle. (Timing: Immediately after identifying the arm, before opponent can retract)
-3. **Stabilize hip position**: Shift your hips slightly toward the target arm side while maintaining mount weight. Your pelvis should begin moving over the opponent's elbow line. Keep your opposite leg heavy on their torso to prevent bridging during the weight shift. (Timing: Smooth transition, no explosive movement that telegraphs intention)
-4. **Thread leg over face**: Swing your leg on the head-side over the opponent's face and across their neck or upper chest. This leg serves as the primary control preventing them from sitting up into you. Plant your foot on the mat beside their head for maximum control and base. (Timing: Execute in one fluid motion while maintaining wrist control)
-5. **Align hips over elbow**: Drop your hips directly over the opponent's elbow joint with their thumb pointing toward the ceiling. Squeeze your knees together tightly around their upper arm and forearm, creating a vice that prevents any rotation or extraction of the trapped limb. (Timing: Critical alignment step — do not rush past this to the finish)
-6. **Pinch knees and clamp arm**: Squeeze both knees together firmly, trapping the opponent's arm between your thighs with the elbow centered on your hip line. Their arm should be sandwiched tightly with zero space for rotation. Hug the wrist to your chest keeping their forearm perpendicular to your body. (Timing: Secure this clamp before initiating any extension pressure)
-7. **Apply controlled extension**: With the arm fully secured, elevate your hips upward while pulling their wrist down toward your chest. The fulcrum point of your hip bone against their elbow creates hyperextension pressure. Apply force gradually and progressively, allowing your training partner adequate time to recognize the danger and tap. (Timing: Slow, controlled bridge upward — never jerk or slam)
-8. **Finish or transition**: If opponent taps, release immediately. If they begin defending by stacking or rolling, decide whether to maintain the armbar position and adjust angle, or transition to belly-down armbar by rolling with the arm. Maintain wrist control throughout any positional adjustments to preserve the submission threat. (Timing: Read opponent's defense and react within 2-3 seconds)
+1. **Identify target arm**: From established mounted crucifix, identify which trapped arm offers the best angle for straight armbar. Select the arm that is most extended or most isolated by your leg positioning, typically the arm trapped deeper under your shin or thigh.
+2. **Secure wrist control**: Grip the target arm's wrist firmly with both hands using a thumbless monkey grip. Pull the wrist toward your chest to prevent the opponent from bending their elbow or rotating the arm. Your grip must control both the wrist position and the forearm rotation angle.
+3. **Stabilize hip position**: Shift your hips slightly toward the target arm side while maintaining mount weight. Your pelvis should begin moving over the opponent's elbow line. Keep your opposite leg heavy on their torso to prevent bridging during the weight shift.
+4. **Thread leg over face**: Swing your leg on the head-side over the opponent's face and across their neck or upper chest. This leg serves as the primary control preventing them from sitting up into you. Plant your foot on the mat beside their head for maximum control and base.
+5. **Align hips over elbow**: Drop your hips directly over the opponent's elbow joint with their thumb pointing toward the ceiling. Squeeze your knees together tightly around their upper arm and forearm, creating a vice that prevents any rotation or extraction of the trapped limb.
+6. **Pinch knees and clamp arm**: Squeeze both knees together firmly, trapping the opponent's arm between your thighs with the elbow centered on your hip line. Their arm should be sandwiched tightly with zero space for rotation. Hug the wrist to your chest keeping their forearm perpendicular to your body.
+7. **Apply controlled extension**: With the arm fully secured, elevate your hips upward while pulling their wrist down toward your chest. The fulcrum point of your hip bone against their elbow creates hyperextension pressure. Apply force gradually and progressively, allowing your training partner adequate time to recognize the danger and tap.
+8. **Finish or transition**: If opponent taps, release immediately. If they begin defending by stacking or rolling, decide whether to maintain the armbar position and adjust angle, or transition to belly-down armbar by rolling with the arm. Maintain wrist control throughout any positional adjustments to preserve the submission threat.
 
 
 </section>
@@ -269,19 +269,15 @@ The execution demands precise hip positioning and controlled transition from cru
 ## Training Progressions
 **Week 1-2** - Positional mechanics
 Drill the transition from mounted crucifix to armbar finishing position with a cooperative partner. Focus on hip alignment over the elbow, proper wrist grip placement, knee squeeze mechanics, and leg positioning across the face. Perform 20 slow repetitions per side, resetting to crucifix each time. No resistance — build the motor pattern first.
-(Resistance: None)
 
 **Week 3-4** - Entry timing and grip work
 Partner provides light movement from mounted crucifix bottom, simulating defensive head turns and subtle arm extraction attempts. Practice recognizing the timing window when the arm is most exposed and entering the armbar transition. Add grip-breaking drills against light clasped-hand defense. 10 reps per side with increasing timing challenge.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and counter-responses
 Integrate the straight armbar into the mounted crucifix attack chain. Practice flowing between choke threats and armbar entries based on partner's defensive reactions. Partner defends at 50-75% resistance. Add belly-down armbar transition when partner stacks. Drill the complete sequence: crucifix control, choke threat, armbar entry, grip break, finish or transition.
-(Resistance: Medium)
 
 **Week 7+** - Live application and competition scenarios
 Apply the straight armbar from mounted crucifix in positional sparring rounds. Start from crucifix and work to finish against fully resisting partners. Track completion rates and identify where the technique breaks down. Refine timing, pressure, and grip details based on live feedback. Mix with other crucifix attacks to develop unpredictable offense.
-(Resistance: Full)
 
 
 

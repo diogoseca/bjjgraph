@@ -10,11 +10,6 @@
     "sacrifice-throw",
     "valley-drop"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "Tani Otoshi, or Valley Drop, is a sacrifice throwing technique borrowed from Judo that has proven highly effective in Brazilian Jiu-Jitsu competition and no-gi grappling. Unlike traditional forward throws that require significant breaking of opponent's posture, Tani Otoshi capitalizes on lateral movement and timing, making it accessible to practitioners who may lack explosive power or superior size. The technique involves dropping to a seated position while simultaneously blocking the opponent's leg and controlling their upper body, creating a mechanical advantage that sends them over your blocking leg. What makes this throw particularly valuable in BJJ is its seamless transition potential - the throwing motion naturally places you in a dominant position (typically side control or knee on belly) as your opponent lands. The sacrifice nature of the technique also makes it psychologically surprising, as opponents often don't expect you to willingly drop your base. In modern competition, Tani Otoshi has gained popularity because it works effectively in both gi and no-gi contexts, requires minimal setup compared to other throws, and can be executed with relatively low energy expenditure when timed correctly.",
   "key_principles": [
     "Create lateral movement and angle to disrupt opponent's base",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Establish grips and posture",
-      "description": "In gi, secure a strong collar grip with your right hand and a sleeve grip with your left hand. In no-gi, establish an over-under clinch or collar tie with wrist control. Maintain upright posture while keeping your opponent close enough to control but not so close that you're stacked or off-balance.",
-      "timing": "Initial setup phase, establish before any movement"
+      "description": "In gi, secure a strong collar grip with your right hand and a sleeve grip with your left hand. In no-gi, establish an over-under clinch or collar tie with wrist control. Maintain upright posture while keeping your opponent close enough to control but not so close that you're stacked or off-balance."
     },
     {
       "step_number": 2,
       "action": "Create angle with lateral step",
-      "description": "Take a lateral step to your left (assuming right-handed throw) while maintaining tight upper body control. This step should be approximately 45 degrees to your opponent's centerline, creating the angle necessary for the blocking leg to be effective. Pull your opponent slightly forward and to their right to encourage weight shift onto their right leg.",
-      "timing": "Execute as opponent steps forward or when their weight is neutral"
+      "description": "Take a lateral step to your left (assuming right-handed throw) while maintaining tight upper body control. This step should be approximately 45 degrees to your opponent's centerline, creating the angle necessary for the blocking leg to be effective. Pull your opponent slightly forward and to their right to encourage weight shift onto their right leg."
     },
     {
       "step_number": 3,
       "action": "Drop to seated position",
-      "description": "Commit to dropping your hips and buttocks to the mat in one smooth, explosive motion. Your left leg should be bent and ready to block while your right leg extends backward for base. The drop must be fast and committed - any hesitation allows opponent to sprawl or step over your blocking leg. Keep your chest close to opponent's chest throughout the drop.",
-      "timing": "Immediate and explosive, no pause after the angle step"
+      "description": "Commit to dropping your hips and buttocks to the mat in one smooth, explosive motion. Your left leg should be bent and ready to block while your right leg extends backward for base. The drop must be fast and committed - any hesitation allows opponent to sprawl or step over your blocking leg. Keep your chest close to opponent's chest throughout the drop."
     },
     {
       "step_number": 4,
       "action": "Block opponent's right leg",
-      "description": "As you drop, your left leg shoots across to block your opponent's right leg at or just below the knee. Your shin and ankle create a rigid barrier that prevents them from stepping over or maintaining balance. The blocking leg should be straight and locked, creating an immovable obstacle. Your leg position should be low enough that their knee cannot bend over it.",
-      "timing": "Simultaneous with the drop, block must be in place before full weight transfer"
+      "description": "As you drop, your left leg shoots across to block your opponent's right leg at or just below the knee. Your shin and ankle create a rigid barrier that prevents them from stepping over or maintaining balance. The blocking leg should be straight and locked, creating an immovable obstacle. Your leg position should be low enough that their knee cannot bend over it."
     },
     {
       "step_number": 5,
       "action": "Execute pulling motion with upper body",
-      "description": "With your collar and sleeve grips (or over-under control), pull your opponent forward and down across your body. The pulling direction should be toward your right shoulder, creating a circular motion that sends them over your blocking leg. Your right hand pulls down and across while your left hand pushes their arm across your body. This creates rotational momentum that amplifies the throw.",
-      "timing": "Begins as you drop, peaks as opponent's weight commits over the block"
+      "description": "With your collar and sleeve grips (or over-under control), pull your opponent forward and down across your body. The pulling direction should be toward your right shoulder, creating a circular motion that sends them over your blocking leg. Your right hand pulls down and across while your left hand pushes their arm across your body. This creates rotational momentum that amplifies the throw."
     },
     {
       "step_number": 6,
       "action": "Drive through and establish top position",
-      "description": "As your opponent goes over your blocking leg, use your right leg to drive your hips up and forward, turning into them as they land. Release your grips strategically to post your hands and establish side control or knee on belly. Your momentum should carry you into chest-to-chest control as they hit the mat. Secure the position immediately before they can recover guard.",
-      "timing": "Immediate follow-through as opponent falls, no delay in securing position"
+      "description": "As your opponent goes over your blocking leg, use your right leg to drive your hips up and forward, turning into them as they land. Release your grips strategically to post your hands and establish side control or knee on belly. Your momentum should carry you into chest-to-chest control as they hit the mat. Secure the position immediately before they can recover guard."
     }
   ],
   "common_counters": [
@@ -129,32 +118,27 @@
     {
       "phase": "Week 1-2: Foundational Mechanics",
       "focus": "Solo drilling the drop motion and blocking leg placement",
-      "description": "Practice the dropping motion repeatedly without a partner, focusing on explosive hip drop while extending blocking leg at proper height. Work on falling safely and immediately turning to simulate top position. Drill lateral stepping and angle creation. Partner exercises with compliant partner who allows throw completion to develop muscle memory for the full motion sequence.",
-      "resistance_level": "None"
+      "description": "Practice the dropping motion repeatedly without a partner, focusing on explosive hip drop while extending blocking leg at proper height. Work on falling safely and immediately turning to simulate top position. Drill lateral stepping and angle creation. Partner exercises with compliant partner who allows throw completion to develop muscle memory for the full motion sequence."
     },
     {
       "phase": "Week 3-4: Controlled Execution",
       "focus": "Executing full technique with cooperative partner resistance",
-      "description": "Partner provides light resistance by maintaining posture but allows throw when properly executed. Practice grip fighting sequences that lead to Tani Otoshi setup. Work on timing the drop with partner's forward step. Focus on smooth transition from throw completion to established side control. Begin recognizing defensive reactions and appropriate timing windows.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by maintaining posture but allows throw when properly executed. Practice grip fighting sequences that lead to Tani Otoshi setup. Work on timing the drop with partner's forward step. Focus on smooth transition from throw completion to established side control. Begin recognizing defensive reactions and appropriate timing windows."
     },
     {
       "phase": "Week 5-8: Dynamic Application",
       "focus": "Chains, combinations, and reactive drilling",
-      "description": "Partner provides moderate resistance and occasional defensive reactions (sprawl, step-over attempts). Practice setting up Tani Otoshi from various gripping scenarios. Drill transitions when throw is defended - converting to single leg, guard pull, or alternative throws. Work on both gi and no-gi variations. Begin using in controlled positional sparring from standing.",
-      "resistance_level": "Medium"
+      "description": "Partner provides moderate resistance and occasional defensive reactions (sprawl, step-over attempts). Practice setting up Tani Otoshi from various gripping scenarios. Drill transitions when throw is defended - converting to single leg, guard pull, or alternative throws. Work on both gi and no-gi variations. Begin using in controlled positional sparring from standing."
     },
     {
       "phase": "Week 9-12: Competition Integration",
       "focus": "Live sparring application with full resistance",
-      "description": "Attempt Tani Otoshi during regular sparring rounds with increasingly resistant partners. Focus on creating opportunities through movement and grip fighting rather than forcing the technique. Develop sensitivity to opponent's weight distribution and movement patterns that create openings. Practice defensive recovery when technique is countered. Integrate into your overall standing game as a reliable option.",
-      "resistance_level": "Full"
+      "description": "Attempt Tani Otoshi during regular sparring rounds with increasingly resistant partners. Focus on creating opportunities through movement and grip fighting rather than forcing the technique. Develop sensitivity to opponent's weight distribution and movement patterns that create openings. Practice defensive recovery when technique is countered. Integrate into your overall standing game as a reliable option."
     },
     {
       "phase": "Week 13+: Advanced Refinement",
       "focus": "Situational mastery and tactical application",
-      "description": "Use in competition or competition-level sparring. Develop deceptive setups and entries. Work on catching specific opponent types (taller, shorter, defensive, aggressive) with tailored variations. Perfect the transition to submissions from the top position after successful throw. Study video of your attempts to refine timing and setup patterns.",
-      "resistance_level": "Full"
+      "description": "Use in competition or competition-level sparring. Develop deceptive setups and entries. Work on catching specific opponent types (taller, shorter, defensive, aggressive) with tailored variations. Perfect the transition to submissions from the top position after successful throw. Study video of your attempts to refine timing and setup patterns."
     }
   ],
   "variants_and_adaptations": [
@@ -182,33 +166,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical principle that makes Tani Otoshi effective despite being a sacrifice throw?",
-      "answer": "The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block and rotational pull.",
-      "difficulty": "Advanced"
+      "answer": "The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block and rotational pull."
     },
     {
       "question": "Why is the lateral angle step critical to Tani Otoshi's success, and what happens if you attempt the throw from directly in front of your opponent?",
-      "answer": "The lateral angle step (typically 45 degrees) is critical because it positions your blocking leg across the opponent's leg line while simultaneously loading their weight onto the leg you intend to block. Attempting from directly in front means your blocking leg would need to wrap around further, giving opponent time to react and step over. The angle also creates rotational momentum that amplifies the throw. Without proper angle, the throw becomes a strength contest rather than a technical advantage.",
-      "difficulty": "Intermediate"
+      "answer": "The lateral angle step (typically 45 degrees) is critical because it positions your blocking leg across the opponent's leg line while simultaneously loading their weight onto the leg you intend to block. Attempting from directly in front means your blocking leg would need to wrap around further, giving opponent time to react and step over. The angle also creates rotational momentum that amplifies the throw. Without proper angle, the throw becomes a strength contest rather than a technical advantage."
     },
     {
       "question": "How should you adjust your Tani Otoshi execution if your opponent is significantly taller than you?",
-      "answer": "Against taller opponents, focus on closing distance more aggressively in the setup phase to negate their reach advantage. Your blocking leg should target lower on their leg (upper shin area rather than knee) since their longer limbs create more leverage to step over higher blocks. Pull their upper body down more aggressively during the throw to overcome their height advantage. Consider using collar ties or head control to break their posture before attempting the throw. The lateral step may need to be slightly deeper to create proper angle given their longer stride length.",
-      "difficulty": "Advanced"
+      "answer": "Against taller opponents, focus on closing distance more aggressively in the setup phase to negate their reach advantage. Your blocking leg should target lower on their leg (upper shin area rather than knee) since their longer limbs create more leverage to step over higher blocks. Pull their upper body down more aggressively during the throw to overcome their height advantage. Consider using collar ties or head control to break their posture before attempting the throw. The lateral step may need to be slightly deeper to create proper angle given their longer stride length."
     },
     {
       "question": "What is the most common timing window for executing Tani Otoshi in live sparring or competition?",
-      "answer": "The optimal timing is when opponent takes a forward step toward you or shifts their weight forward while engaged in grip fighting. This forward weight transfer loads their leg and makes it difficult to pull back when you drop. Another excellent timing window is immediately after you break their grip or establish a dominant grip, as they are momentarily less stable while adjusting. Advanced practitioners also execute Tani Otoshi during opponent's lateral movement when they circle into your throwing direction.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent takes a forward step toward you or shifts their weight forward while engaged in grip fighting. This forward weight transfer loads their leg and makes it difficult to pull back when you drop. Another excellent timing window is immediately after you break their grip or establish a dominant grip, as they are momentarily less stable while adjusting. Advanced practitioners also execute Tani Otoshi during opponent's lateral movement when they circle into your throwing direction."
     },
     {
       "question": "If your Tani Otoshi attempt is defended by your opponent stepping over your blocking leg, what are two immediate tactical responses you should employ?",
-      "answer": "First option: immediately transition to a single leg attack on the leg that stepped over your block, as it is now extended and isolated. Drive forward into the single leg as you come up from your dropped position. Second option: convert to butterfly guard or seated guard position and work from there rather than trying to stand up under opponent's pressure. This maintains offensive initiative and prevents opponent from capitalizing on your failed throw attempt. Never remain static in the failed throwing position.",
-      "difficulty": "Intermediate"
+      "answer": "First option: immediately transition to a single leg attack on the leg that stepped over your block, as it is now extended and isolated. Drive forward into the single leg as you come up from your dropped position. Second option: convert to butterfly guard or seated guard position and work from there rather than trying to stand up under opponent's pressure. This maintains offensive initiative and prevents opponent from capitalizing on your failed throw attempt. Never remain static in the failed throwing position."
     },
     {
       "question": "Why is Tani Otoshi particularly effective in no-gi or MMA contexts compared to other traditional Judo throws?",
-      "answer": "Tani Otoshi requires less grip dependency than throws like Seoi Nage or Uchi Mata which rely heavily on gi fabric control. The technique works effectively with body locks, over-under positions, or simple collar ties - all available in no-gi contexts. Additionally, the lateral nature of the attack is less expected in MMA where most takedowns are linear (shots, body locks), creating a surprise element. The sacrifice nature also makes it safer against guillotine counters since you're controlling the head position throughout the throw. Finally, it requires less explosive lifting power than traditional throws, making it more energy efficient.",
-      "difficulty": "Advanced"
+      "answer": "Tani Otoshi requires less grip dependency than throws like Seoi Nage or Uchi Mata which rely heavily on gi fabric control. The technique works effectively with body locks, over-under positions, or simple collar ties - all available in no-gi contexts. Additionally, the lateral nature of the attack is less expected in MMA where most takedowns are linear (shots, body locks), creating a surprise element. The sacrifice nature also makes it safer against guillotine counters since you're controlling the head position throughout the throw. Finally, it requires less explosive lifting power than traditional throws, making it more energy efficient."
     }
   ],
   "safety_considerations": "When practicing Tani Otoshi, the person being thrown should be taught proper breakfall technique to prevent injury, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg too aggressively into opponent's knee joint, which could cause lateral knee damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. Instructors should emphasize that the blocking leg contacts the lower leg/upper shin area rather than directly into the knee joint. Partners should tap if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase.",
@@ -231,7 +209,7 @@
       "relationship": "Conversion option when Tani Otoshi is defended by step-over"
     },
     {
-      "name": "Seoi Nage",
+      "name": "Ippon Seoi Nage",
       "relationship": "Alternative forward throw from similar gripping positions"
     },
     {
@@ -280,5 +258,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

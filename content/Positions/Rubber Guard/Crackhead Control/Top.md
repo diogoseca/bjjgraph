@@ -364,11 +364,11 @@ Maintain top position in Crackhead Control while modulating forward pressure - t
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 5% |
-| Intermediate | 55% | 50% | 10% |
-| Advanced     | 70% | 65% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 58% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 20-40 seconds before position resolves to pass, back take, or submission
 

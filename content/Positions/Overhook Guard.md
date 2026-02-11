@@ -93,21 +93,19 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 ### Available Transitions
 
 
-- **[[Overhook Sweep]]** (13% of attempts)
+- **[[Overhook Sweep]]** (15% of attempts)
 
-- **[[Hip Bump Sweep]]** (15% of attempts)
+- **[[Hip Bump Sweep]]** (17% of attempts)
 
-- **[[Omoplata from Guard]]** (12% of attempts)
+- **[[Omoplata from Guard]]** (13% of attempts)
 
-- **[[Arm Drag to Back]]** (11% of attempts)
+- **[[Arm Drag to Back]]** (12% of attempts)
 
-- **[[Triangle Setup]]** (13% of attempts)
+- **[[Triangle Setup]]** (15% of attempts)
 
-- **[[Kimura from Guard]]** (12% of attempts)
+- **[[Kimura from Guard]]** (13% of attempts)
 
-- **[[Omoplata from Guard]]** (11% of attempts)
-
-- **[[Armbar from Guard]]** (13% of attempts)
+- **[[Armbar from Guard]]** (15% of attempts)
 
 
 ### Common Mistakes

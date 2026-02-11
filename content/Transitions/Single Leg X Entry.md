@@ -157,7 +157,7 @@ Developed and popularized through modern competition grappling, the Single Leg X
 The Single Leg X position reached through this entry offers multiple offensive pathways including sweeps to top position, transitions to more complex leg entanglements like Ashi Garami or X-Guard, and direct submission attacks. Understanding this entry is crucial for developing a comprehensive modern guard game and building systematic attacking sequences from the bottom position.
 
 **From Position**: [[Seated Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ The Single Leg X position reached through this entry offers multiple offensive p
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish initial seated guard position**: Begin in seated guard with your hips elevated slightly off the mat, posting on your hands behind you. Keep your legs mobile and ready to engage, with knees bent and feet active. Maintain posture that allows quick movement in any direction while tracking opponent's movement and weight distribution. (Timing: Preparation phase - establish before opponent pressures)
-2. **Secure ankle or lower leg grip**: As opponent steps forward or shifts weight, immediately secure a grip on their ankle, achilles, or lower pant leg on the side you intend to attack. Use a firm overhand grip with your hand wrapping around the ankle from outside to inside. This grip prevents them from stepping back and serves as your primary control point throughout the entry. (Timing: Execute as opponent commits weight forward)
-3. **Insert inside leg hook**: Rapidly bring your inside leg (same side as your gripping hand) underneath and behind opponent's captured leg. Hook your foot behind their knee, creating a clamping pressure by pulling your heel toward their hamstring while your shin crosses behind their knee. This hook prevents backward escape and begins to compromise their base. (Timing: Immediate follow-up to grip - within 1 second)
-4. **Establish outside leg frame**: Position your outside leg across opponent's hip or lower abdomen with your foot pressing into their hip bone. This creates distance control and prevents them from driving their weight directly down onto you. Keep this leg slightly bent with active pressure, ready to adjust angle as needed. Your shin should form a barrier that controls their upper body movement. (Timing: Simultaneous with or immediately after inside hook)
-5. **Elevate hips and adjust angle**: Bridge your hips up off the mat while maintaining both leg connections. This elevation is crucial for creating the off-balancing angle that defines Single Leg X. Rotate your body slightly toward the captured leg, creating an oblique angle that pulls opponent forward and across your centerline. Your shoulders should come slightly off the mat as you create this lifting pressure. (Timing: Continuous adjustment - maintain throughout position)
-6. **Secure secondary grip and complete position**: With your free hand, establish a second grip either at opponent's knee (palm pressing into kneecap), behind their knee (grabbing hamstring or back of pant), or at their hip. This secondary grip works in combination with your ankle grip to create a two-point control system. Your inside leg hook pulls their leg toward you, outside leg maintains distance at their hip, and both grips control the captured leg completely. You have now fully entered Single Leg X position and can initiate sweeping or transitional attacks. (Timing: Final adjustment - position should feel stable and balanced)
+1. **Establish initial seated guard position**: Begin in seated guard with your hips elevated slightly off the mat, posting on your hands behind you. Keep your legs mobile and ready to engage, with knees bent and feet active. Maintain posture that allows quick movement in any direction while tracking opponent's movement and weight distribution.
+2. **Secure ankle or lower leg grip**: As opponent steps forward or shifts weight, immediately secure a grip on their ankle, achilles, or lower pant leg on the side you intend to attack. Use a firm overhand grip with your hand wrapping around the ankle from outside to inside. This grip prevents them from stepping back and serves as your primary control point throughout the entry.
+3. **Insert inside leg hook**: Rapidly bring your inside leg (same side as your gripping hand) underneath and behind opponent's captured leg. Hook your foot behind their knee, creating a clamping pressure by pulling your heel toward their hamstring while your shin crosses behind their knee. This hook prevents backward escape and begins to compromise their base.
+4. **Establish outside leg frame**: Position your outside leg across opponent's hip or lower abdomen with your foot pressing into their hip bone. This creates distance control and prevents them from driving their weight directly down onto you. Keep this leg slightly bent with active pressure, ready to adjust angle as needed. Your shin should form a barrier that controls their upper body movement.
+5. **Elevate hips and adjust angle**: Bridge your hips up off the mat while maintaining both leg connections. This elevation is crucial for creating the off-balancing angle that defines Single Leg X. Rotate your body slightly toward the captured leg, creating an oblique angle that pulls opponent forward and across your centerline. Your shoulders should come slightly off the mat as you create this lifting pressure.
+6. **Secure secondary grip and complete position**: With your free hand, establish a second grip either at opponent's knee (palm pressing into kneecap), behind their knee (grabbing hamstring or back of pant), or at their hip. This secondary grip works in combination with your ankle grip to create a two-point control system. Your inside leg hook pulls their leg toward you, outside leg maintains distance at their hip, and both grips control the captured leg completely. You have now fully entered Single Leg X position and can initiate sweeping or transitional attacks.
 
 
 </section>
@@ -254,27 +254,21 @@ The Single Leg X position reached through this entry offers multiple offensive p
 ## Training Progressions
 **Week 1-2: Fundamental Entry Mechanics** - Mastering basic entry sequence with cooperative partner
 Practice entry from seated guard with partner in standing position offering no resistance. Focus on clean execution of each step: grip, inside hook, outside frame, hip elevation, angle adjustment. Repeat 20-30 repetitions per training session, alternating sides. Partner should allow you to complete full entry and hold position for 5 seconds before resetting.
-(Resistance: None)
 
 **Week 3-4: Timing and Grip Fighting** - Developing timing awareness and grip security
 Partner begins adding light resistance by attempting to pull their leg away when you reach for ankle grip. Practice grip fighting and re-gripping while maintaining position pursuit. Work on timing entry when partner shifts weight forward or sideways. Begin chaining entry with follow-up sweeps or transitions to build muscle memory for offensive sequences.
-(Resistance: Light)
 
 **Week 5-8: Counter Defense and Adjustment** - Recognizing and countering common defensive responses
 Partner actively attempts to prevent entry using backstep, sprawl, and circling defenses. Practice adjusting angle, following movement, and maintaining grips under pressure. Drill transitioning to alternative positions (X-Guard, De La Riva, Ashi Garami) when primary entry is blocked. Focus on keeping hips mobile and maintaining offensive initiative even when entry is challenged.
-(Resistance: Medium)
 
 **Week 9-12: Integration and Combinations** - Combining entry with sweeps and submissions
 Practice complete sequences starting from various guard positions (Butterfly, De La Riva, Seated) and flowing through Single Leg X Entry into immediate sweeps or leg attack entries. Partner provides realistic resistance appropriate to your skill level. Begin incorporating entry during positional sparring rounds from guard. Track success rate and identify which setups work best for your game.
-(Resistance: Medium)
 
 **Week 13+: Live Application** - Using entry during live rolling
 Actively hunt for Single Leg X Entry opportunities during regular sparring rounds. Focus on recognizing optimal entry moments when opponent's base is compromised or weight shifts forward. Work on creating setups that force opponent into positions vulnerable to the entry. Analyze what works and what doesn't, refining your entry timing and grip sequences based on real resistance.
-(Resistance: Full)
 
 **Ongoing: Advanced Development** - Entry variations and system building
 Develop multiple entry pathways to Single Leg X from standing, kneeling, and various guard positions. Create systematic connections between Single Leg X and other leg entanglement positions. Study high-level competition footage to identify advanced timing cues and setup sequences. Build personalized combinations that flow naturally with your existing guard game and body type.
-(Resistance: Full)
 
 
 

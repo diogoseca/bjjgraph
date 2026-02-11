@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Inside Heel Hook is a devastating rotational knee attack executed from 50-50 Guard and other leg entanglement positions. This submission targets the knee joint through rotational force applied to the heel, making it one of the most effective and dangerous techniques in modern grappling. The attack derives its name from the direction of rotation—an inside heel hook rotates the heel toward the opponent's centerline, attacking the lateral structures of the knee including the ACL, MCL, and meniscus.\n\nFrom 50-50 Guard Top, the inside heel hook becomes available when you establish inside position control and secure grip access to your opponent's heel. The key mechanical principle involves creating a figure-four configuration with your arms around the opponent's heel while their leg is trapped by your leg entanglement. The finish requires coordinated hip extension, shoulder rotation, and arm squeeze to generate rotational force through the opponent's knee.\n\nThis submission has revolutionized modern leg lock systems and is a cornerstone of contemporary no-gi grappling strategy. Its effectiveness stems from the difficulty of defending once proper control is established—the rotational force can cause immediate joint damage before the defender can react. This potency makes the inside heel hook both highly effective and requiring exceptional responsibility regarding partner safety and tap recognition.",
   "key_principles": [
     "Inside position must be established before attempting heel exposure—your leg controls determine your ability to attack",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Secure inside position",
-      "description": "Confirm your inside leg maintains the dominant angle against opponent's leg structure. Your shin or calf should create inside pressure that prevents them from gaining inside control. This is the fundamental requirement before any heel hook attempt.",
-      "timing": "Before initiating grip sequence"
+      "description": "Confirm your inside leg maintains the dominant angle against opponent's leg structure. Your shin or calf should create inside pressure that prevents them from gaining inside control. This is the fundamental requirement before any heel hook attempt."
     },
     {
       "step_number": 2,
       "action": "Establish heel cup grip",
-      "description": "Reach across opponent's leg with your primary hand, cupping their heel with fingers wrapped around the heel bone. Your wrist should lock against their Achilles tendon, creating a secure anchor point that prevents heel extraction.",
-      "timing": "Immediately after confirming inside position"
+      "description": "Reach across opponent's leg with your primary hand, cupping their heel with fingers wrapped around the heel bone. Your wrist should lock against their Achilles tendon, creating a secure anchor point that prevents heel extraction."
     },
     {
       "step_number": 3,
       "action": "Create figure-four lock",
-      "description": "Bring your secondary hand to grip your own wrist or forearm, creating a figure-four configuration around the heel. Your elbows should squeeze together, keeping the grip structure tight against your chest with no space for heel escape.",
-      "timing": "1-2 seconds after initial heel cup"
+      "description": "Bring your secondary hand to grip your own wrist or forearm, creating a figure-four configuration around the heel. Your elbows should squeeze together, keeping the grip structure tight against your chest with no space for heel escape."
     },
     {
       "step_number": 4,
       "action": "Control the knee line",
-      "description": "Pull opponent's leg tight to your body so their knee sits below your armpit. Clamp down with your elbow and upper arm to prevent their knee from rotating to relieve pressure. This knee control is essential for the finish.",
-      "timing": "Concurrent with figure-four establishment"
+      "description": "Pull opponent's leg tight to your body so their knee sits below your armpit. Clamp down with your elbow and upper arm to prevent their knee from rotating to relieve pressure. This knee control is essential for the finish."
     },
     {
       "step_number": 5,
       "action": "Begin rotational pressure",
-      "description": "Initiate hip extension while simultaneously rotating your shoulders toward opponent's opposite hip. The heel should travel in an arc toward your shoulder as you extend. Keep elbows squeezed tight to transmit force efficiently.",
-      "timing": "Smooth acceleration over 2-3 seconds"
+      "description": "Initiate hip extension while simultaneously rotating your shoulders toward opponent's opposite hip. The heel should travel in an arc toward your shoulder as you extend. Keep elbows squeezed tight to transmit force efficiently."
     },
     {
       "step_number": 6,
       "action": "Complete the finish",
-      "description": "Continue hip extension and shoulder rotation until opponent taps or you feel the submission is secure. Your hips drive forward, chest stays up, and the heel rotates toward opponent's centerline. Release immediately upon tap—there is minimal warning before joint damage.",
-      "timing": "Stop immediately upon tap"
+      "description": "Continue hip extension and shoulder rotation until opponent taps or you feel the submission is secure. Your hips drive forward, chest stays up, and the heel rotates toward opponent's centerline. Release immediately upon tap—there is minimal warning before joint damage."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and positioning",
-      "description": "Practice heel cup grip and figure-four configuration on a compliant partner. Focus on proper hand placement, elbow squeeze, and pulling heel tight to chest. No finishing pressure—just grip establishment and release.",
-      "resistance_level": "None"
+      "description": "Practice heel cup grip and figure-four configuration on a compliant partner. Focus on proper hand placement, elbow squeeze, and pulling heel tight to chest. No finishing pressure—just grip establishment and release."
     },
     {
       "phase": "Week 3-4",
       "focus": "Rotational mechanics",
-      "description": "Add hip extension and shoulder rotation to the finish with partner who taps immediately upon any pressure. Develop coordination between grip squeeze, hip drive, and rotation. Partner provides light positional resistance but taps at first hint of pressure.",
-      "resistance_level": "Light"
+      "description": "Add hip extension and shoulder rotation to the finish with partner who taps immediately upon any pressure. Develop coordination between grip squeeze, hip drive, and rotation. Partner provides light positional resistance but taps at first hint of pressure."
     },
     {
       "phase": "Week 5-6",
       "focus": "Entry chains and counters",
-      "description": "Practice entering heel hook from various 50-50 scrambles. Partner defends with heel hiding and grip fighting. Work counter-sequences: heel hook to kneebar, heel hook to back take. Medium resistance on entries, immediate tap on submissions.",
-      "resistance_level": "Medium"
+      "description": "Practice entering heel hook from various 50-50 scrambles. Partner defends with heel hiding and grip fighting. Work counter-sequences: heel hook to kneebar, heel hook to back take. Medium resistance on entries, immediate tap on submissions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application with responsible partners",
-      "description": "Apply heel hook in positional sparring starting from 50-50. Both partners must have mature understanding of tap timing and injury risk. Focus on entry timing, recognizing when to attack versus transition, and developing submission chain mentality.",
-      "resistance_level": "Full"
+      "description": "Apply heel hook in positional sparring starting from 50-50. Both partners must have mature understanding of tap timing and injury risk. Focus on entry timing, recognizing when to attack versus transition, and developing submission chain mentality."
     }
   ],
   "variants_and_adaptations": [
@@ -182,53 +167,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Inside Heel Hook?",
-      "answer": "The primary goal is to apply rotational force to the opponent's knee joint by rotating their heel toward their centerline. This attacks the lateral knee structures including ACL, MCL, and meniscus, forcing a tap or causing joint damage if the opponent fails to submit.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to apply rotational force to the opponent's knee joint by rotating their heel toward their centerline. This attacks the lateral knee structures including ACL, MCL, and meniscus, forcing a tap or causing joint damage if the opponent fails to submit."
     },
     {
       "question": "Why must inside position be established before attempting the heel hook?",
-      "answer": "Inside position control determines your ability to attack and prevents opponent counter-attacks. Without inside position, your opponent can match your leg angle to neutralize your attack or launch their own heel hook. Inside control is the gatekeeper that enables all offensive heel hook opportunities.",
-      "difficulty": "Beginner"
+      "answer": "Inside position control determines your ability to attack and prevents opponent counter-attacks. Without inside position, your opponent can match your leg angle to neutralize your attack or launch their own heel hook. Inside control is the gatekeeper that enables all offensive heel hook opportunities."
     },
     {
       "question": "What are the key grips needed for Inside Heel Hook?",
-      "answer": "The primary grip is a heel cup where fingers wrap around the heel bone with wrist locked against the Achilles tendon. The secondary hand creates a figure-four by gripping your own wrist or forearm. Elbows squeeze together, pulling the heel configuration tight to your chest with no space for escape.",
-      "difficulty": "Beginner"
+      "answer": "The primary grip is a heel cup where fingers wrap around the heel bone with wrist locked against the Achilles tendon. The secondary hand creates a figure-four by gripping your own wrist or forearm. Elbows squeeze together, pulling the heel configuration tight to your chest with no space for escape."
     },
     {
       "question": "Your opponent successfully hides their heel by tucking it close to their body—what should you do?",
-      "answer": "Apply the 3-5 second rule: if heel exposure fails within this window, immediately transition to alternative attacks. Options include kneebar by controlling above the knee, back take by releasing legs and circling, or transition to different leg entanglement like Inside Ashi-Garami for better angles. Do not stubbornly chase a well-defended heel.",
-      "difficulty": "Intermediate"
+      "answer": "Apply the 3-5 second rule: if heel exposure fails within this window, immediately transition to alternative attacks. Options include kneebar by controlling above the knee, back take by releasing legs and circling, or transition to different leg entanglement like Inside Ashi-Garami for better angles. Do not stubbornly chase a well-defended heel."
     },
     {
       "question": "How do you generate finishing power for the heel hook—arms or hips?",
-      "answer": "Hip extension generates the primary finishing power, not arm strength. Your arms maintain grip structure and transmit force, but the rotation comes from driving your hips forward while rotating your shoulders. This generates far more torque than arms alone and prevents grip fatigue during extended sequences.",
-      "difficulty": "Intermediate"
+      "answer": "Hip extension generates the primary finishing power, not arm strength. Your arms maintain grip structure and transmit force, but the rotation comes from driving your hips forward while rotating your shoulders. This generates far more torque than arms alone and prevents grip fatigue during extended sequences."
     },
     {
       "question": "What is the function of controlling the knee line during the finish?",
-      "answer": "Controlling the knee line by trapping opponent's knee below your armpit prevents them from spinning their knee to relieve rotational pressure. If their knee can rotate freely, the torque dissipates through leg movement rather than affecting the joint. The knee must remain relatively fixed for the submission to work.",
-      "difficulty": "Intermediate"
+      "answer": "Controlling the knee line by trapping opponent's knee below your armpit prevents them from spinning their knee to relieve rotational pressure. If their knee can rotate freely, the torque dissipates through leg movement rather than affecting the joint. The knee must remain relatively fixed for the submission to work."
     },
     {
       "question": "Your opponent begins rolling with your heel hook rotation—how do you respond?",
-      "answer": "Follow their roll by maintaining hip pressure and grip control. Do not release your grips during their roll. Their rolling motion often exposes the heel further as they rotate or creates an opportunity to take their back as they turn away. Stay connected and look for the improved angle or transition.",
-      "difficulty": "Advanced"
+      "answer": "Follow their roll by maintaining hip pressure and grip control. Do not release your grips during their roll. Their rolling motion often exposes the heel further as they rotate or creates an opportunity to take their back as they turn away. Stay connected and look for the improved angle or transition."
     },
     {
       "question": "When is the best time to attempt Inside Heel Hook from 50-50?",
-      "answer": "The optimal timing is immediately after confirming inside position when opponent's heel is exposed past your shoulder line. Attack during opponent's transitions when their focus shifts—such as when they attempt to establish their own grips or try to escape the entanglement. Avoid attacking when opponent has strong heel defense established.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is immediately after confirming inside position when opponent's heel is exposed past your shoulder line. Attack during opponent's transitions when their focus shifts—such as when they attempt to establish their own grips or try to escape the entanglement. Avoid attacking when opponent has strong heel defense established."
     },
     {
       "question": "What differentiates the belly-down finish from the standard heel hook finish?",
-      "answer": "The belly-down finish involves rotating your entire body face-down while maintaining the figure-four grip. This increases control by pinning opponent's leg with your body weight and generates more rotational force through full torso rotation. It's particularly effective against opponents who try to roll with standard heel hooks or when facing larger, stronger defenders.",
-      "difficulty": "Advanced"
+      "answer": "The belly-down finish involves rotating your entire body face-down while maintaining the figure-four grip. This increases control by pinning opponent's leg with your body weight and generates more rotational force through full torso rotation. It's particularly effective against opponents who try to roll with standard heel hooks or when facing larger, stronger defenders."
     },
     {
       "question": "How do you safely train Inside Heel Hook with a partner?",
-      "answer": "Begin with grip mechanics only and no finishing pressure. Progress to light resistance where partner taps at first hint of pressure. Both partners must understand that heel hooks offer minimal warning before joint damage—tap early and release immediately. Only apply full resistance heel hooks with experienced partners who have mature tap timing. Never ego-test heel hooks.",
-      "difficulty": "Beginner"
+      "answer": "Begin with grip mechanics only and no finishing pressure. Progress to light resistance where partner taps at first hint of pressure. Both partners must understand that heel hooks offer minimal warning before joint damage—tap early and release immediately. Only apply full resistance heel hooks with experienced partners who have mature tap timing. Never ego-test heel hooks."
     }
   ],
   "safety_considerations": "The Inside Heel Hook is one of the most dangerous submissions in grappling due to the rapid onset of joint damage with minimal warning. The rotational force attacks ligaments (ACL, MCL) and meniscus that provide minimal pain feedback before injury occurs. Partners must tap early—waiting until it hurts often means damage has already occurred. Release immediately upon tap with no additional pressure. Never ego-test heel hooks or refuse to tap. Training should progress from zero resistance through graduated stages. Both partners should verbally confirm understanding of tap timing before positional sparring. The attacker bears responsibility for controlled application. Avoid heel hooks when fatigued, as reaction times suffer. Consider the legal status in your competition ruleset—IBJJF restricts heel hooks by belt level. Any knee pain or instability after training requires immediate medical evaluation.",
@@ -274,5 +249,6 @@
       "name": "Ashi Garami Escape",
       "relationship": "Defensive sequence opponents use against heel hook attempts"
     }
-  ]
+  ],
+  "success_rate": 58
 }

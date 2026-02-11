@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from Crucifix represents one of the highest-percentage shoulder lock attacks in Brazilian Jiu-Jitsu, capitalizing on the unique arm isolation that defines the crucifix position. When the opponent's near arm is trapped in your leg configuration and you control their far arm, the Kimura becomes a natural finishing option that exploits the structural vulnerability created by bilateral arm control. The double wristlock grip—your hand on their wrist with your other hand gripping your own wrist—creates a powerful lever system that rotates the shoulder joint beyond its natural range of motion.\n\nFrom a strategic standpoint, the Kimura from Crucifix serves as a secondary attack when the opponent effectively defends their neck against choke attempts. As they tuck their chin and commit their free arm to neck defense, they often expose the arm to Kimura attacks. This creates a powerful dilemma: defend the neck and risk the shoulder, or protect the arm and expose the neck. Advanced practitioners chain these attacks seamlessly, using one threat to set up the other.\n\nThe mechanics of executing the Kimura from Crucifix differ from standard Kimura positions because you're attacking from behind rather than from a perpendicular angle. This requires specific adjustments in grip positioning and rotational force application. The crucifix position provides exceptional control throughout the submission attempt, making it difficult for the opponent to escape or create defensive angles even when they recognize the attack developing.",
   "key_principles": [
     "Maintain crucifix control throughout the attack—the leg trap on the near arm and positional pressure must remain intact",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Secure wrist control",
-      "description": "From crucifix top, ensure you have a solid grip on the opponent's far wrist with your controlling hand. The grip should be four fingers over the wrist with thumb wrapping underneath, positioned so their palm faces away from their body.",
-      "timing": "Immediately after opponent commits to neck defense"
+      "description": "From crucifix top, ensure you have a solid grip on the opponent's far wrist with your controlling hand. The grip should be four fingers over the wrist with thumb wrapping underneath, positioned so their palm faces away from their body."
     },
     {
       "step_number": 2,
       "action": "Thread the figure-four grip",
-      "description": "While maintaining wrist control, thread your other arm under their upper arm from the outside, reaching up to grip your own wrist. Your forearm should be positioned against their tricep area, creating the classic double wristlock configuration.",
-      "timing": "Quick transition to prevent opponent recognizing the attack"
+      "description": "While maintaining wrist control, thread your other arm under their upper arm from the outside, reaching up to grip your own wrist. Your forearm should be positioned against their tricep area, creating the classic double wristlock configuration."
     },
     {
       "step_number": 3,
       "action": "Pin the elbow",
-      "description": "Draw their elbow tight to your ribcage and body by squeezing your arms together and pulling toward yourself. This removes slack from the system and prevents them from straightening their arm, which would defeat the submission mechanics.",
-      "timing": "Immediately after securing the figure-four"
+      "description": "Draw their elbow tight to your ribcage and body by squeezing your arms together and pulling toward yourself. This removes slack from the system and prevents them from straightening their arm, which would defeat the submission mechanics."
     },
     {
       "step_number": 4,
       "action": "Adjust hip position",
-      "description": "Shift your hips slightly to create a perpendicular angle to their shoulder joint. This hip adjustment changes the direction of force application and increases the mechanical advantage of the shoulder rotation. Maintain leg pressure on their trapped arm throughout.",
-      "timing": "While maintaining grip pressure"
+      "description": "Shift your hips slightly to create a perpendicular angle to their shoulder joint. This hip adjustment changes the direction of force application and increases the mechanical advantage of the shoulder rotation. Maintain leg pressure on their trapped arm throughout."
     },
     {
       "step_number": 5,
       "action": "Apply rotational force",
-      "description": "Begin rotating their arm by painting their hand in an arc toward their hip and then toward their back. The motion is circular, not linear—imagine drawing their hand along an arc that wraps around their body. Use your entire body, not just your arms.",
-      "timing": "Slow, controlled pressure application"
+      "description": "Begin rotating their arm by painting their hand in an arc toward their hip and then toward their back. The motion is circular, not linear—imagine drawing their hand along an arc that wraps around their body. Use your entire body, not just your arms."
     },
     {
       "step_number": 6,
       "action": "Finish the submission",
-      "description": "Continue the rotational pressure until the opponent taps or you feel the shoulder reaching its mechanical limit. Keep the elbow pinned tight throughout the finish. Be prepared to immediately release upon tap signal to prevent injury to your training partner.",
-      "timing": "Controlled escalation—give opponent time to tap"
+      "description": "Continue the rotational pressure until the opponent taps or you feel the shoulder reaching its mechanical limit. Keep the elbow pinned tight throughout the finish. Be prepared to immediately release upon tap signal to prevent injury to your training partner."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and positioning",
-      "description": "Drill the figure-four grip entry from crucifix position with no resistance. Focus on proper hand placement, threading the arm correctly, and pinning the elbow. Partner remains static while you practice the grip sequence 20-30 times per side.",
-      "resistance_level": "None"
+      "description": "Drill the figure-four grip entry from crucifix position with no resistance. Focus on proper hand placement, threading the arm correctly, and pinning the elbow. Partner remains static while you practice the grip sequence 20-30 times per side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Rotational mechanics and timing",
-      "description": "Add light resistance where partner defends at 25-50% effort. Practice the complete motion from grip to finish, emphasizing circular rotation rather than lifting. Develop feel for proper pressure application and when to accelerate the finish.",
-      "resistance_level": "Light"
+      "description": "Add light resistance where partner defends at 25-50% effort. Practice the complete motion from grip to finish, emphasizing circular rotation rather than lifting. Develop feel for proper pressure application and when to accelerate the finish."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks and counter-counters",
-      "description": "Partner defends at 75% effort using known counters (straightening arm, grip fighting, rolling). Practice transitioning between Kimura and other crucifix attacks (chokes, armbar) based on their defensive reactions. Develop the attack-chain mentality.",
-      "resistance_level": "Medium"
+      "description": "Partner defends at 75% effort using known counters (straightening arm, grip fighting, rolling). Practice transitioning between Kimura and other crucifix attacks (chokes, armbar) based on their defensive reactions. Develop the attack-chain mentality."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and scenario drilling",
-      "description": "Incorporate into positional sparring starting from crucifix position. Also practice entering crucifix specifically to attack Kimura. Test against fully resisting opponents and refine timing windows and grip adjustments under pressure.",
-      "resistance_level": "Full"
+      "description": "Incorporate into positional sparring starting from crucifix position. Also practice entering crucifix specifically to attack Kimura. Test against fully resisting opponents and refine timing windows and grip adjustments under pressure."
     }
   ],
   "variants_and_adaptations": [
@@ -183,53 +168,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Kimura from Crucifix?",
-      "answer": "The primary goal is to submit the opponent through shoulder joint manipulation by rotating their arm beyond its natural range of motion using the double wristlock grip. The crucifix position provides unique control that makes escape extremely difficult once the Kimura grip is secured, resulting in either a tap or transition to other high-percentage attacks if defended.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to submit the opponent through shoulder joint manipulation by rotating their arm beyond its natural range of motion using the double wristlock grip. The crucifix position provides unique control that makes escape extremely difficult once the Kimura grip is secured, resulting in either a tap or transition to other high-percentage attacks if defended."
     },
     {
       "question": "What creates the optimal timing window for attacking the Kimura from Crucifix?",
-      "answer": "The optimal window opens when the opponent commits their free arm to defending their neck against choke attacks. This defensive commitment exposes the arm to Kimura attacks because they cannot simultaneously protect both their neck and defend the shoulder lock. Recognizing when they're focused on neck defense is the key timing cue for initiating the Kimura grip.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal window opens when the opponent commits their free arm to defending their neck against choke attacks. This defensive commitment exposes the arm to Kimura attacks because they cannot simultaneously protect both their neck and defend the shoulder lock. Recognizing when they're focused on neck defense is the key timing cue for initiating the Kimura grip."
     },
     {
       "question": "What are the key grips needed for the Kimura from Crucifix?",
-      "answer": "The double wristlock (figure-four) grip is essential: your controlling hand grips their wrist with four fingers over and thumb under, while your other arm threads under their upper arm from the outside and grips your own wrist. This creates a closed system where both your arms work together as a unified lever against their shoulder joint. The grip must be tight with no slack to prevent arm straightening.",
-      "difficulty": "Beginner"
+      "answer": "The double wristlock (figure-four) grip is essential: your controlling hand grips their wrist with four fingers over and thumb under, while your other arm threads under their upper arm from the outside and grips your own wrist. This creates a closed system where both your arms work together as a unified lever against their shoulder joint. The grip must be tight with no slack to prevent arm straightening."
     },
     {
       "question": "Your opponent straightens their arm as you attempt the Kimura—what adjustment do you make?",
-      "answer": "If the arm straightens before securing the figure-four, immediately transition to an armbar attack on the now-extended arm—the straight arm is actually more vulnerable to armbar than Kimura. If you already have the grip when they straighten, pull their elbow tight to your body to re-bend it, or maintain the grip and use it to control as you transition to armbar by stepping over their head.",
-      "difficulty": "Intermediate"
+      "answer": "If the arm straightens before securing the figure-four, immediately transition to an armbar attack on the now-extended arm—the straight arm is actually more vulnerable to armbar than Kimura. If you already have the grip when they straighten, pull their elbow tight to your body to re-bend it, or maintain the grip and use it to control as you transition to armbar by stepping over their head."
     },
     {
       "question": "What is the correct direction of force application for finishing the Kimura?",
-      "answer": "The force should be rotational, not linear. Paint their hand in an arc toward their hip first, then continue the arc toward their lower back. The motion describes a circle or spiral rather than a straight lift upward. This circular force application is mechanically efficient and applies maximum pressure to the shoulder joint while minimizing the strength required from your arms.",
-      "difficulty": "Intermediate"
+      "answer": "The force should be rotational, not linear. Paint their hand in an arc toward their hip first, then continue the arc toward their lower back. The motion describes a circle or spiral rather than a straight lift upward. This circular force application is mechanically efficient and applies maximum pressure to the shoulder joint while minimizing the strength required from your arms."
     },
     {
       "question": "Why must you maintain leg pressure on the trapped arm throughout the Kimura attack?",
-      "answer": "The leg trap on the near arm is what defines the crucifix and creates the asymmetric control that makes this Kimura so effective. If you release leg pressure to focus on the submission, the opponent can free their trapped arm and now defend with both hands, strip your grip, or escape the position entirely. The crucifix control must remain intact—never sacrifice position for submission.",
-      "difficulty": "Intermediate"
+      "answer": "The leg trap on the near arm is what defines the crucifix and creates the asymmetric control that makes this Kimura so effective. If you release leg pressure to focus on the submission, the opponent can free their trapped arm and now defend with both hands, strip your grip, or escape the position entirely. The crucifix control must remain intact—never sacrifice position for submission."
     },
     {
       "question": "Your opponent grabs their belt to prevent the Kimura rotation—how do you respond?",
-      "answer": "Attack the grip directly using your free leg or hip pressure to strip their fingers from the belt. Alternatively, maintain your Kimura grip and use the stalled position to transition to mounted crucifix for better leverage, or switch attacks entirely to a wristlock on the gripping hand. You can also wait and threaten chokes—when they release the belt to defend their neck, immediately resume the Kimura.",
-      "difficulty": "Advanced"
+      "answer": "Attack the grip directly using your free leg or hip pressure to strip their fingers from the belt. Alternatively, maintain your Kimura grip and use the stalled position to transition to mounted crucifix for better leverage, or switch attacks entirely to a wristlock on the gripping hand. You can also wait and threaten chokes—when they release the belt to defend their neck, immediately resume the Kimura."
     },
     {
       "question": "How does the Kimura from Crucifix integrate with other crucifix attacks?",
-      "answer": "The Kimura creates a powerful dilemma with neck attacks: opponents must choose between defending the choke or the shoulder. When they tuck chin for neck defense, the arm becomes available for Kimura. When they defend the Kimura, the neck opens for chokes. Advanced practitioners flow between Rear Naked Choke, Crucifix Choke, Kimura, and Armbar based on defensive reactions, making the crucifix a multi-threat submission platform.",
-      "difficulty": "Advanced"
+      "answer": "The Kimura creates a powerful dilemma with neck attacks: opponents must choose between defending the choke or the shoulder. When they tuck chin for neck defense, the arm becomes available for Kimura. When they defend the Kimura, the neck opens for chokes. Advanced practitioners flow between Rear Naked Choke, Crucifix Choke, Kimura, and Armbar based on defensive reactions, making the crucifix a multi-threat submission platform."
     },
     {
       "question": "What body positioning error most commonly causes the Kimura attempt to fail?",
-      "answer": "Allowing the opponent's elbow to float away from your body is the most common positioning error. When the elbow has space, the opponent can straighten their arm (defeating the shoulder lock mechanics) or create angles for escape. The elbow must remain pinned tightly against your ribs throughout the entire attack by squeezing your arms together and pulling toward your centerline.",
-      "difficulty": "Intermediate"
+      "answer": "Allowing the opponent's elbow to float away from your body is the most common positioning error. When the elbow has space, the opponent can straighten their arm (defeating the shoulder lock mechanics) or create angles for escape. The elbow must remain pinned tightly against your ribs throughout the entire attack by squeezing your arms together and pulling toward your centerline."
     },
     {
       "question": "When should you abandon the Kimura attempt and return to other attacks?",
-      "answer": "Abandon the Kimura when: (1) you cannot secure a proper figure-four grip after two attempts, (2) the opponent successfully straightens their arm completely, (3) maintaining the attack is compromising your crucifix control, or (4) you've stalled for more than 5-10 seconds without progress. In these cases, return to choke attacks or transition to armbar—never stubbornly commit to a stalled submission at the expense of positional control.",
-      "difficulty": "Advanced"
+      "answer": "Abandon the Kimura when: (1) you cannot secure a proper figure-four grip after two attempts, (2) the opponent successfully straightens their arm completely, (3) maintaining the attack is compromising your crucifix control, or (4) you've stalled for more than 5-10 seconds without progress. In these cases, return to choke attacks or transition to armbar—never stubbornly commit to a stalled submission at the expense of positional control."
     }
   ],
   "safety_considerations": "The Kimura attacks the shoulder joint through external rotation, which can cause serious injury including rotator cuff tears, labrum damage, and shoulder dislocation if applied too quickly or without control. Always apply pressure gradually and give your training partner adequate time to tap—shoulder injuries often occur suddenly when the joint reaches its limit. In training, release immediately upon any tap signal and communicate clearly about pressure levels. Avoid cranking the submission with explosive force. Partners with previous shoulder injuries should inform you before drilling, and consider using lighter resistance or stopping before full rotation. Competition-level finishing speed should only be used in actual competition, never in training. If your partner's shoulder makes popping or clicking sounds, stop immediately and check their condition.",
@@ -267,5 +242,6 @@
       "name": "Mounted Crucifix",
       "relationship": "Advanced crucifix variation with enhanced Kimura leverage"
     }
-  ]
+  ],
+  "success_rate": 58
 }

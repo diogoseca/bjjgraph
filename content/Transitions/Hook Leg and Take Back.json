@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Hook Leg and Take Back represents one of the most reliable transitions from buggy choke control when opponents attempt to escape by sitting to guard. This technique exploits the fundamental defensive error of creating hip exposure during the sit-up motion, transforming the opponent's escape attempt into a high-percentage back take opportunity. The transition embodies the principle that sophisticated attack systems create branching decision trees where every defensive response opens different offensive pathways.\n\nThe technical foundation relies on timing the leg hook insertion precisely as the opponent's hip rises during the sitting motion. Unlike static back takes that require setting up multiple control points sequentially, this transition capitalizes on the dynamic moment when the opponent voluntarily compromises their hip defense. The harness grip maintained from buggy choke position provides the upper body anchor that makes the hook insertion possible without sacrificing control.\n\nStrategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.",
   "key_principles": [
     "Maintain harness grip throughout the transition to anchor upper body control while legs adjust for hook insertion",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Recognize trigger",
-      "description": "Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture",
-      "timing": "Immediately as hip movement initiates"
+      "description": "Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture"
     },
     {
       "step_number": 2,
       "action": "Maintain harness connection",
-      "description": "Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement",
-      "timing": "Concurrent with opponent's movement"
+      "description": "Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement"
     },
     {
       "step_number": 3,
       "action": "Follow with chest",
-      "description": "Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction",
-      "timing": "Continuous throughout transition"
+      "description": "Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction"
     },
     {
       "step_number": 4,
       "action": "Insert near-side hook",
-      "description": "As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation",
-      "timing": "As soon as hip space appears"
+      "description": "As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation"
     },
     {
       "step_number": 5,
       "action": "Complete with second hook",
-      "description": "Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration",
-      "timing": "Within 1-2 seconds of first hook"
+      "description": "Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration"
     },
     {
       "step_number": 6,
       "action": "Establish back control",
-      "description": "Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology",
-      "timing": "Immediate position consolidation"
+      "description": "Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology"
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanical recognition",
-      "description": "Partner performs slow-motion sitting attempts from buggy choke bottom. Focus on recognizing the hip elevation trigger and maintaining harness grip while following movement. No hook insertion yet, just movement pattern recognition and upper body control maintenance.",
-      "resistance_level": "None"
+      "description": "Partner performs slow-motion sitting attempts from buggy choke bottom. Focus on recognizing the hip elevation trigger and maintaining harness grip while following movement. No hook insertion yet, just movement pattern recognition and upper body control maintenance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Hook insertion timing",
-      "description": "Add hook insertion to the drill with partner providing predictable sitting movements. Practice timing the near-side hook insertion precisely as hip space appears, then completing with second hook. Partner provides light resistance to test timing accuracy.",
-      "resistance_level": "Light"
+      "description": "Add hook insertion to the drill with partner providing predictable sitting movements. Practice timing the near-side hook insertion precisely as hip space appears, then completing with second hook. Partner provides light resistance to test timing accuracy."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter-reaction adaptation",
-      "description": "Partner varies defensive responses including backward recline, hand fighting, and turning into you. Practice recognizing which counter is occurring and selecting appropriate response while still attempting back take completion. Develop pattern recognition under uncertainty.",
-      "resistance_level": "Medium"
+      "description": "Partner varies defensive responses including backward recline, hand fighting, and turning into you. Practice recognizing which counter is occurring and selecting appropriate response while still attempting back take completion. Develop pattern recognition under uncertainty."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition simulation",
-      "description": "Full resistance positional sparring from buggy choke position. Partner attempts all available escapes including sitting to guard while you work complete attack system including back take, choke finish, and alternative transitions. Score for successful back take or submission.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring from buggy choke position. Partner attempts all available escapes including sitting to guard while you work complete attack system including back take, choke finish, and alternative transitions. Score for successful back take or submission."
     }
   ],
   "variants_and_adaptations": [
@@ -181,43 +166,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Hook Leg and Take Back?",
-      "answer": "The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery."
     },
     {
       "question": "What is the optimal timing for inserting the first hook?",
-      "answer": "The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion."
     },
     {
       "question": "Why must harness grip be maintained throughout the entire transition?",
-      "answer": "The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments.",
-      "difficulty": "Intermediate"
+      "answer": "The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments."
     },
     {
       "question": "Your opponent begins sitting but immediately reclines backward to pin you - how do you adjust?",
-      "answer": "Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle.",
-      "difficulty": "Advanced"
+      "answer": "Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle."
     },
     {
       "question": "What determines whether to complete with second hook or transition to body triangle?",
-      "answer": "If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security.",
-      "difficulty": "Advanced"
+      "answer": "If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security."
     },
     {
       "question": "How does chest position affect transition success rate?",
-      "answer": "Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase.",
-      "difficulty": "Intermediate"
+      "answer": "Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase."
     },
     {
       "question": "Why is recognizing the hip elevation trigger critical for this technique?",
-      "answer": "Hip elevation during the sitting motion creates the only high-percentage window for hook insertion. Before elevation, the hip blocks entry; after completion, opponent has established guard position. Recognizing this trigger through proprioception allows precisely timed insertion that catches optimal entry without revealing intention prematurely.",
-      "difficulty": "Intermediate"
+      "answer": "Hip elevation during the sitting motion creates the only high-percentage window for hook insertion. Before elevation, the hip blocks entry; after completion, opponent has established guard position. Recognizing this trigger through proprioception allows precisely timed insertion that catches optimal entry without revealing intention prematurely."
     },
     {
       "question": "What common defensive tell indicates opponent is about to sit to guard?",
-      "answer": "Weight shift toward their posting arm or base, intentional head movement looking toward guard recovery direction, relaxation of the neck defense focus, and hip positioning that prepares for rotation all indicate sitting intention. Reading these tells allows pre-positioning for the transition before opponent commits to the escape.",
-      "difficulty": "Advanced"
+      "answer": "Weight shift toward their posting arm or base, intentional head movement looking toward guard recovery direction, relaxation of the neck defense focus, and hip positioning that prepares for rotation all indicate sitting intention. Reading these tells allows pre-positioning for the transition before opponent commits to the escape."
     }
   ],
   "safety_considerations": "This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back.",
@@ -260,8 +237,9 @@
       "relationship": "Alternative transition when opponent reclines backward defensively"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Switch option when opponent turns into the attack"
     }
-  ]
+  ],
+  "success_rate": 58
 }

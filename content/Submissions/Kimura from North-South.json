@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint, rotator cuff, and surrounding ligaments",
   "starting_position": "North-South",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from North-South is a powerful shoulder lock that exploits the vulnerable arm position inherent to north-south control. This submission represents a high-percentage finishing option from one of the most stable top positions in Brazilian Jiu-Jitsu. The north-south position provides exceptional control over the opponent's upper body while creating natural opportunities to isolate and attack the near-side arm. When the opponent frames or attempts to create space, their arm becomes exposed to the figure-four grip that characterizes the Kimura lock. The mechanical advantage from north-south is significant—you can generate rotational pressure on the shoulder joint while maintaining heavy chest pressure that prevents hip escape. The angle of attack differs from traditional side control or guard-based Kimuras, requiring adaptations in grip placement and finishing mechanics. Understanding the proper application speed and safety protocols is essential, as the north-south angle can generate extreme leverage on the shoulder complex with minimal warning to training partners.",
   "safety_considerations": {
     "injury_risks": [
@@ -89,50 +84,43 @@
       "step_number": 1,
       "action": "Secure North-South Control",
       "description": "From north-south position, distribute your weight heavily across opponent's chest and upper torso. Your head should pressure their far shoulder to prevent rotation. Spread your knees wide for base and position your hips perpendicular to their body. The opponent will naturally frame or push against your body with their near-side arm, creating the opportunity for attack.",
-      "timing": "2-3 seconds to establish stable control",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to establish stable control"
     },
     {
       "step_number": 2,
       "action": "Isolate and Control the Wrist",
       "description": "As opponent extends their near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture their wrist with a firm grip, pulling it slightly away from their body. Your grip should be palm-to-palm with your thumb toward their thumb, creating strong wrist control that prevents them from pulling the arm back to safety.",
-      "timing": "1-2 seconds to secure wrist control",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds to secure wrist control"
     },
     {
       "step_number": 3,
       "action": "Establish Figure-Four Grip",
       "description": "While maintaining wrist control with your lower hand, reach your upper arm (the one near their head) over the top of their arm and grab your own wrist to complete the figure-four configuration. Your upper arm's elbow should be positioned over their elbow, creating a strong structural frame. Ensure your grip is tight and your arms form a solid mechanical connection—any looseness here reduces your leverage significantly.",
-      "timing": "2-3 seconds to establish secure grip",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds to establish secure grip"
     },
     {
       "step_number": 4,
       "action": "Adjust Hip Position and Create Angle",
       "description": "With the figure-four secured, adjust your hips to optimize leverage. Your hips should remain perpendicular to opponent's body. Some practitioners step their leg closest to opponent's head across and over to create additional base. Maintain chest pressure while creating slight space for your arms to work. The angle is critical—you want your body positioned so that rotating away from opponent's head creates maximum torque on their shoulder.",
-      "timing": "1-2 seconds for positioning",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds for positioning"
     },
     {
       "step_number": 5,
       "action": "Apply Lifting Pressure to Elbow",
       "description": "Begin the submission by lifting opponent's elbow upward toward the ceiling while maintaining your figure-four grip. This lifting motion creates initial stress on the shoulder joint. Your upper arm (the one controlling the elbow) does most of the work here. Keep your elbows tight to your body for maximum mechanical efficiency. Apply this pressure SLOWLY over 2-3 seconds, monitoring carefully for tap signals.",
-      "timing": "2-3 seconds progressive pressure",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds progressive pressure"
     },
     {
       "step_number": 6,
       "action": "Rotate Arm Away from Head",
       "description": "While maintaining upward elbow pressure, begin rotating their entire arm away from their head—toward their legs. This rotational movement creates extreme torque on the shoulder joint, particularly the rotator cuff and anterior capsule. The combination of lifting and rotating generates the submission. Apply this rotation EXTREMELY SLOWLY over 3-4 seconds. The north-south angle creates deceptive leverage—what feels like moderate pressure to you is intense stress on their shoulder. Stop immediately at any tap signal.",
-      "timing": "3-4 seconds with progressive pressure",
-      "pressure_level": "Firm"
+      "timing": "3-4 seconds with progressive pressure"
     },
     {
       "step_number": 7,
       "action": "Control and Finish",
       "description": "Continue the controlled rotation while maintaining all other pressure points—chest weight, head pressure on far shoulder, and figure-four grip integrity. If opponent attempts to roll toward the submission to relieve pressure, maintain your hip position and follow their movement while keeping the rotational stress constant. The submission finishes when shoulder joint stress forces the tap. In training, stop well before maximum pressure and release immediately upon tap.",
-      "timing": "Variable based on opponent response—always controlled",
-      "pressure_level": "Maximum"
+      "timing": "Variable based on opponent response—always controlled"
     }
   ],
   "opponent_defense_patterns": [
@@ -161,8 +149,7 @@
     {
       "error": "Applying submission too quickly without progressive pressure",
       "consequence": "High risk of shoulder injury to training partner, potentially causing rotator cuff tears or labral damage before they can safely tap",
-      "correction": "Always apply the submission over minimum 5-7 seconds with gradually increasing pressure. The north-south angle creates deceptive leverage—be extra cautious with application speed.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply the submission over minimum 5-7 seconds with gradually increasing pressure. The north-south angle creates deceptive leverage—be extra cautious with application speed."
     },
     {
       "error": "Loosening chest pressure while attempting the Kimura",
@@ -187,8 +174,7 @@
     {
       "error": "Continuing submission after tap or distress signals",
       "consequence": "Severe injury risk including rotator cuff tears, shoulder dislocation, or ligament damage requiring surgical intervention",
-      "correction": "Release immediately at first sign of tap or distress. Err on the side of caution—if you sense discomfort, stop and check verbally. Safety always supersedes submission completion in training.",
-      "danger_level": "CRITICAL"
+      "correction": "Release immediately at first sign of tap or distress. Err on the side of caution—if you sense discomfort, stop and check verbally. Safety always supersedes submission completion in training."
     }
   ],
   "variations_and_setups": [
@@ -270,53 +256,9 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn proper grip mechanics, body positioning, and safety protocols through demonstration and slow-motion practice. Study anatomy of shoulder joint to understand injury mechanisms.",
-      "resistance_level": "None",
-      "safety_emphasis": "Emphasize tap signal recognition and extremely slow application. Practice release protocol repeatedly until automatic. Discuss injury risks and recovery times to establish safety mindset."
-    },
-    {
-      "phase": "Isolated Positional Drilling",
-      "timeframe": "Week 3-4",
-      "focus": "Practice entering north-south control and isolating the arm without applying submission pressure. Develop muscle memory for figure-four grip establishment and hip positioning. Partner provides zero resistance.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus on control and positioning rather than finishing. Partner should tap early and often to simulate realistic training. Practice stopping immediately at tap signals."
-    },
-    {
-      "phase": "Controlled Application with Cooperative Partner",
-      "timeframe": "Week 5-8",
-      "focus": "Begin applying light submission pressure with fully cooperative partner. Develop feel for the leverage and understand how little pressure is required. Partner taps early (at approximately 30% pressure) to allow repetition.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Application speed must be 7-10 seconds minimum. Partner provides feedback on pressure levels. Both practitioners verbally confirm comfort level before and after each repetition."
-    },
-    {
-      "phase": "Progressive Resistance Introduction",
-      "timeframe": "Week 9-12",
-      "focus": "Partner begins providing mild defensive resistance—hiding the arm initially, attempting to retract it, or defending the figure-four grip. Practice countering these defenses while maintaining safety protocols.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Maintain slow application speed (5-7 seconds) despite resistance. Partner still taps at 40-50% pressure. Communication remains constant about comfort and joint stress."
-    },
-    {
-      "phase": "Realistic Scenario Training",
-      "timeframe": "Month 4-5",
-      "focus": "Integrate the submission into positional sparring from north-south. Partner provides realistic but controlled resistance using standard defensive techniques. Practice recognizing when to abandon submission and transition to alternatives.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Application speed remains deliberate (5-7 seconds minimum). Both practitioners must have established trust and demonstrated consistent safety awareness. Partner taps at 60-70% pressure maximum."
-    },
-    {
-      "phase": "Competition Preparation and Full Integration",
-      "timeframe": "Month 6+",
-      "focus": "Apply submission during live training and competition-pace sparring with full resistance. Develop timing and recognition for when the submission is available versus when to abandon for position or alternative attacks.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even at competition pace, application remains controlled. In training (not competition), both practitioners maintain agreement to tap early rather than resist to injury. Continue verbal check-ins after intense rounds."
-    }
-  ],
   "from_positions": [
     "North-South",
-    "North South Control",
+    "North-South",
     "Kesa Gatame",
     "Kuzure Kesa-Gatame",
     "Scarf Hold Position",
@@ -346,7 +288,7 @@
       "relationship": "Primary starting position providing optimal control and leverage angle"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "Positional foundation requiring heavy chest pressure and head control"
     },
     {
@@ -389,5 +331,6 @@
       "name": "North-South Choke",
       "relationship": "Complementary attack creating dilemma when opponent defends Kimura by hiding arm"
     }
-  ]
+  ],
+  "success_rate": 58
 }

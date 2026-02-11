@@ -170,23 +170,29 @@ Understanding the front headlock requires recognizing its role as a transitional
 ### Available Transitions
 
 
-- **[[Guillotine Setup]]** (12% of attempts)
+- **[[Guillotine Setup]]** (9% of attempts)
 
-- **[[Anaconda Setup]]** (12% of attempts)
+- **[[Anaconda Setup]]** (9% of attempts)
 
-- **[[Darce Setup]]** (12% of attempts)
+- **[[Darce Setup]]** (9% of attempts)
 
-- **[[Front Headlock to Back]]** (12% of attempts)
+- **[[Front Headlock to Back]]** (9% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Side Control to Mount]]** (8% of attempts)
 
-- **[[Buggy Choke to Side Control]]** (12% of attempts)
+- **[[Buggy Choke to Side Control]]** (9% of attempts)
 
-- **[[Aoki Lock to Crucifix]]** (9% of attempts)
+- **[[Aoki Lock to Crucifix]]** (7% of attempts)
 
-- **[[Front Headlock Series Transition]]** (10% of attempts)
+- **[[Front Headlock Series Transition]]** (8% of attempts)
 
-- **[[Arm Triangle from Front Headlock]]** (10% of attempts)
+- **[[Arm Triangle from Front Headlock]]** (8% of attempts)
+
+- **[[Guillotine Defense]]** (8% of attempts)
+
+- **[[Japanese Necktie Setup]]** (8% of attempts)
+
+- **[[Peruvian Necktie Setup]]** (8% of attempts)
 
 
 ### Common Mistakes
@@ -235,7 +241,7 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 - **[[Anaconda Control]]** - Submission control position - arm-in front headlock transitions to anaconda by threading arm and locking gable grip
 
-- **[[D'arce Control]]** - Submission control position - front headlock converts to darce by underhooking near arm and threading opposite arm
+- **[[Darce Control]]** - Submission control position - front headlock converts to darce by underhooking near arm and threading opposite arm
 
 - **[[Back Control]]** - High-value advancement - front headlock transitions to back when opponent tries escaping forward or to side
 

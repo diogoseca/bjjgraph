@@ -157,7 +157,7 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -238,12 +238,12 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure deep arm penetration**: From front headlock position, drive your choking arm (same side as controlled head) deep under opponent's neck. Your elbow must clear past their centerline completely. For arm-in variation, capture their defensive arm inside your grip. For high elbow variation, keep elbow elevated near their temple. Your forearm crosses their throat at the carotid arteries, not the trachea. This deep penetration is critical - shallow placement will fail regardless of compression applied. (Timing: 2-3 seconds - establish depth before proceeding) [Pressure: Light]
-2. **Lock hands and trap opponent's shoulder**: Secure your grip by connecting your choking hand to your opposite hand. For standard anaconda, use gable grip (palm to palm) or s-grip (fingers interlaced). Your non-choking arm reaches across opponent's back and under their far armpit. Lock your hands on the far side of their body. Your choking-side shoulder should now be positioned behind their near shoulder, creating the trap. This configuration turns their own shoulder into a choking mechanism as you apply compression. (Timing: 1-2 seconds - secure lock before compression) [Pressure: Moderate]
-3. **Establish body lock and hip pressure**: Circle your hips toward opponent's far side while maintaining the arm encirclement. Your body should form a tight 'C' shape wrapped around their upper body. Drive your hips forward and slightly upward, creating compression. Your chest presses into their trapped shoulder from behind. For marce variation, emphasize shoulder driving similar to darce mechanics. Your head position stays tight to their far hip or ribs to prevent space. This body lock multiplies the choking pressure exponentially. (Timing: 1-2 seconds - position for finish) [Pressure: Firm]
-4. **Execute variation-specific finish**: For standard anaconda: Roll toward your choking-side shoulder, bringing opponent with you while maintaining tight encirclement. Land with opponent on top of you, their weight adding to compression. For high elbow variation: Instead of rolling, drive your elbow upward toward their head while expanding chest into their trapped shoulder. For marce choke: Shift weight to drive your shoulder into their neck while walking your feet toward their head, creating darce-style angle. Each variation maximizes different mechanical advantages while maintaining core choking structure. (Timing: 2-3 seconds - progressive increase) [Pressure: Maximum]
-5. **Fine-tune choking angle and pressure**: Adjust your position for maximum efficacy. For rolling variation: Pull your elbows tight to your body, eliminating all space. Arch your back slightly to increase compression. For high elbow: Focus pressure through your forearm into their neck while maintaining elevated elbow position. For marce: Walk your feet incrementally higher, each step increasing the angle and shoulder pressure. Your breathing should be controlled - exhale as you tighten. Monitor opponent closely for tap signals. Small adjustments often mean the difference between near-finish and complete submission. (Timing: 3-5 seconds - controlled final adjustment) [Pressure: Maximum]
-6. **Maintain control through completion**: Hold position with consistent pressure until tap occurs. Do not prematurely release or adjust. Your entire body remains engaged - arms locked, core tight, hips driving forward. If opponent attempts to roll through or stand up, follow their movement while maintaining arm structure. For rolling variation, be prepared to re-roll if they bridge. For high elbow, anchor your free hand on the mat for stability. For marce, continue walking feet higher if initial angle doesn't finish. The submission succeeds through sustained technical position, not explosive force. Release immediately and completely upon tap. (Timing: Variable - maintain until tap) [Pressure: Maximum]
+1. **Secure deep arm penetration**: From front headlock position, drive your choking arm (same side as controlled head) deep under opponent's neck. Your elbow must clear past their centerline completely. For arm-in variation, capture their defensive arm inside your grip. For high elbow variation, keep elbow elevated near their temple. Your forearm crosses their throat at the carotid arteries, not the trachea. This deep penetration is critical - shallow placement will fail regardless of compression applied. (Timing: 2-3 seconds - establish depth before proceeding)
+2. **Lock hands and trap opponent's shoulder**: Secure your grip by connecting your choking hand to your opposite hand. For standard anaconda, use gable grip (palm to palm) or s-grip (fingers interlaced). Your non-choking arm reaches across opponent's back and under their far armpit. Lock your hands on the far side of their body. Your choking-side shoulder should now be positioned behind their near shoulder, creating the trap. This configuration turns their own shoulder into a choking mechanism as you apply compression. (Timing: 1-2 seconds - secure lock before compression)
+3. **Establish body lock and hip pressure**: Circle your hips toward opponent's far side while maintaining the arm encirclement. Your body should form a tight 'C' shape wrapped around their upper body. Drive your hips forward and slightly upward, creating compression. Your chest presses into their trapped shoulder from behind. For marce variation, emphasize shoulder driving similar to darce mechanics. Your head position stays tight to their far hip or ribs to prevent space. This body lock multiplies the choking pressure exponentially. (Timing: 1-2 seconds - position for finish)
+4. **Execute variation-specific finish**: For standard anaconda: Roll toward your choking-side shoulder, bringing opponent with you while maintaining tight encirclement. Land with opponent on top of you, their weight adding to compression. For high elbow variation: Instead of rolling, drive your elbow upward toward their head while expanding chest into their trapped shoulder. For marce choke: Shift weight to drive your shoulder into their neck while walking your feet toward their head, creating darce-style angle. Each variation maximizes different mechanical advantages while maintaining core choking structure. (Timing: 2-3 seconds - progressive increase)
+5. **Fine-tune choking angle and pressure**: Adjust your position for maximum efficacy. For rolling variation: Pull your elbows tight to your body, eliminating all space. Arch your back slightly to increase compression. For high elbow: Focus pressure through your forearm into their neck while maintaining elevated elbow position. For marce: Walk your feet incrementally higher, each step increasing the angle and shoulder pressure. Your breathing should be controlled - exhale as you tighten. Monitor opponent closely for tap signals. Small adjustments often mean the difference between near-finish and complete submission. (Timing: 3-5 seconds - controlled final adjustment)
+6. **Maintain control through completion**: Hold position with consistent pressure until tap occurs. Do not prematurely release or adjust. Your entire body remains engaged - arms locked, core tight, hips driving forward. If opponent attempts to roll through or stand up, follow their movement while maintaining arm structure. For rolling variation, be prepared to re-roll if they bridge. For high elbow, anchor your free hand on the mat for stability. For marce, continue walking feet higher if initial angle doesn't finish. The submission succeeds through sustained technical position, not explosive force. Release immediately and completely upon tap. (Timing: Variable - maintain until tap)
 
 
 </section>
@@ -263,25 +263,25 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting to finish with shallow arm penetration before elbow clears centerline [Medium DANGER]
+- **Mistake**: Attempting to finish with shallow arm penetration before elbow clears centerline
   - **Consequence**: Choke fails completely as compression drives into opponent's jaw or face rather than carotid arteries, causing pain compliance attempt instead of blood choke
   - **Correction**: Prioritize depth of choking arm penetration over speed of finish. Take extra time to walk arm deeper using small progressive movements. Your elbow must be visible on the far side of their head before proceeding to body lock.
-- **Mistake**: Jerking or spiking the choke with explosive force rather than progressive pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke with explosive force rather than progressive pressure
   - **Consequence**: CRITICAL INJURY RISK - can cause unconsciousness without warning, neck trauma, or trachea damage; partner cannot tap in time
   - **Correction**: Apply pressure gradually over 4-6 seconds minimum. Your intensity should increase smoothly like a dimmer switch, not a light switch. Monitor partner continuously for distress signals. In training, accept longer finishing times for safety.
-- **Mistake**: Failing to adjust variation when initial setup meets defensive resistance [Low DANGER]
+- **Mistake**: Failing to adjust variation when initial setup meets defensive resistance
   - **Consequence**: Wasted energy fighting through strong defense; missed opportunities for easier finish with different variation
   - **Correction**: Develop sensitivity to opponent's defensive pattern within first 2-3 seconds. If they post arm strongly, switch to arm-in. If they stand, use high elbow. If they create unusual angle, try marce. Variation mastery requires recognizing when standard approach is compromised.
-- **Mistake**: Creating space between your body and opponent's body during lock and compression [Medium DANGER]
+- **Mistake**: Creating space between your body and opponent's body during lock and compression
   - **Consequence**: Dramatic loss of choking pressure; opponent can turn into you or escape the position entirely
   - **Correction**: Visualize your body as a tightening python - every breath should bring you closer, never further. Your chest must stay glued to their trapped shoulder. Your hips drive forward continuously. Eliminate all gaps between your torso and their back.
-- **Mistake**: Using arm strength to squeeze rather than body positioning to compress [Low DANGER]
+- **Mistake**: Using arm strength to squeeze rather than body positioning to compress
   - **Consequence**: Rapid fatigue; failure to finish against athletic opponents; teaches wrong motor pattern
   - **Correction**: Your arms function as structure, not force generators. Lock your grip and forget about it. Generate all pressure through hip drive, chest expansion, and body positioning. Test this in training - maintain loose arm muscles while increasing body compression.
-- **Mistake**: Holding submission after partner taps or goes unconscious [CRITICAL DANGER]
+- **Mistake**: Holding submission after partner taps or goes unconscious
   - **Consequence**: CRITICAL INJURY RISK - brain damage from prolonged blood restriction; loss of trust; potential gym dismissal
   - **Correction**: Release immediately and completely at first tap signal. No gradual release - full immediate separation. If partner goes limp without tapping, assume unconsciousness and release instantly. Never test your partner's toughness in training.
-- **Mistake**: Attempting rolling variation without first establishing secure body lock [Low DANGER]
+- **Mistake**: Attempting rolling variation without first establishing secure body lock
   - **Consequence**: Loss of position during roll; opponent escapes to top position; wasted setup
   - **Correction**: Spend extra time perfecting body lock before initiating roll. Test the lock by attempting small movements - if opponent moves independently, lock is insufficient. Your body and their body should move as single unit before rolling.
 
@@ -348,43 +348,6 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Safety Introduction** (Week 1-2)
-- Focus: Learn all variation mechanics, understand choking principles, memorize safety protocols. Practice arm penetration, grip variations, and body positioning with zero resistance. Study differences between blood chokes and air chokes. Understand carotid anatomy and unconsciousness progression.
-- Resistance: Zero resistance
-- Safety: Memorize all tap signals and release protocols. Practice immediate release drills. Understand that training partners trust you with their safety. Learn to recognize pre-unconsciousness signs (eyes glazing, body tension changing, breathing pattern shifts). Never proceed to resistance training until safety protocols are automatic.
-
-**Slow Practice with Communication** (Week 3-4)
-- Focus: Execute each variation slowly with verbal communication. Partner provides continuous feedback about pressure location and intensity. Practice 10-second application minimum. Focus on technical precision rather than finishing. Begin recognizing when variation choice should change based on partner positioning.
-- Resistance: Zero resistance
-- Safety: Develop habit of asking 'are you okay?' before increasing pressure. Partner should describe what they feel - 'pressure on jaw' means adjustment needed, 'pressure on neck' means correct positioning. Build trust through consistent safety-first behavior. Establish that tapping is encouraged at any pressure level.
-
-**Positional Resistance Introduction** (Week 5-8)
-- Focus: Partner provides mild defensive resistance - tucking chin, posting arm, attempting to stand. Practice variation selection based on defense pattern. Begin flowing between variations when initial choice is defended. Maintain 8-second minimum application. Focus on adaptation rather than force.
-- Resistance: Mild resistance
-- Safety: As resistance increases, safety communication must increase proportionally. Partner should tap earlier than necessary to build safety margin. Person applying choke should not chase taps - if technique is correct, partner will tap from pressure, not pain. Any pain rather than pressure indicates wrong technique. Stop and reset if confusion occurs.
-
-**Realistic Defense with Positional Flow** (Week 9-12)
-- Focus: Partner defends intelligently, forcing variation selection and technical problem-solving. Practice entries from front headlock, turtle, scrambles. Begin recognizing submission windows - moments when defense creates variation opportunity. Reduce application time to 6 seconds. Emphasis on smooth transitions between variations.
-- Resistance: Realistic resistance
-- Safety: Establish pre-roll agreement about intensity level. Both partners must agree on speed and force limits before starting. Person defending should tap when technique is correctly applied, not try to tough it out. Person attacking must honor agreed intensity level even when opportunities for harder application appear. Trust requires both partners upholding safety agreement.
-
-**Competition Simulation with Safety Agreements** (Week 13-20)
-- Focus: Full-speed entries and realistic finishing attempts. Practice against opponents who know your tendencies. Time application approaches competition speed but maintains 4-second minimum. Begin recognizing when variation chains create submission inevitability. Develop style preferences - which variations fit your body type and game.
-- Resistance: Full resistance
-- Safety: Even at competition intensity, training is not competition. Agree on tap-or-out rule - when technique is locked, partner must tap, no escape attempts. Competition mindset of holding submissions is forbidden in training. If someone goes unconscious in this phase, both partners should reduce intensity in subsequent sessions. Safety must never be sacrificed for ego or perceived toughness.
-
-**Ongoing Refinement and Teaching** (Week 21+)
-- Focus: Continuous technical refinement through teaching others. Help training partners develop their variation mastery. Study competition footage to see variation applications. Develop signature setups and variation preferences. Maintain technical precision rather than relying on athleticism. Begin recognizing setup opportunities earlier in positional sequences.
-- Resistance: Full resistance
-- Safety: As senior practitioner, you model safety culture for juniors. Never demonstrate techniques with dangerous speed or pressure. When teaching, emphasize safety protocols as much as technical details. Refuse to train with partners who disregard safety agreements. Understand that injuries hurt the entire training community, not just the individual. Your safety record affects whether beginners continue training or quit in fear.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -409,7 +372,7 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 
 - [[Anaconda Choke]]
 - [[Darce Choke]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 - [[Guillotine Choke]]
 - [[Arm Triangle]]
 - [[Brabo Choke]]
@@ -429,7 +392,7 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 - [[Anaconda from Turtle]] - Most common entry transition - turtle provides ideal setup for deep arm penetration
 - [[Darce Setup]] - Alternative attack from same position - failed anaconda often transitions to darce
 - [[Anaconda Control]] - Position family - control position maintained before finishing variations
-- [[D'arce Control]] - Sister control position - shares mechanical principles and transitional opportunities
+- [[Darce Control]] - Sister control position - shares mechanical principles and transitional opportunities
 - [[Guillotine Control]] - Alternative choke from similar positioning - option when anaconda angle is compromised
 - [[Kimura Trap]] - Submission alternative if choke is defended - transitions from front headlock family
 - [[Gift Wrap]] - Control position that creates anaconda entry - trapped arm creates variation opportunities
@@ -439,6 +402,7 @@ The Anaconda choke variations represent a sophisticated family of blood chokes t
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

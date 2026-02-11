@@ -157,7 +157,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -232,12 +232,12 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Far Collar Grip**: From side control or turtle top position, reach across opponent's neck and feed your hand deep into the far collar. Your thumb should be inside the collar, with your grip as deep as possible near the opponent's far shoulder. This is your primary choking hand and must be secured before proceeding. The deeper the grip, the more effective the choke will be. (Timing: Take 2-3 seconds to work the grip as deep as possible) [Pressure: Moderate]
-2. **Secure Near Collar Grip**: With your opposite hand, grip high on the near collar with your palm facing down. This grip should be at or above the opponent's jaw line, creating the top portion of the baseball bat configuration. Your hands should now be crossed with the far-side grip deep and the near-side grip high, resembling the hand position on a baseball bat. (Timing: 1-2 seconds after securing far grip) [Pressure: Light]
-3. **Position Hips and Weight**: Drive your hips forward and down, placing your weight on the opponent's upper body and shoulder. Your chest should be heavy on their shoulder, preventing them from turning toward you or creating space. This weight distribution is critical as it immobilizes the opponent while you apply the choke. Keep your base wide with your legs sprawled to prevent being rolled. (Timing: Simultaneous with grip securing) [Pressure: Firm]
-4. **Pull Elbows Together**: Begin drawing your elbows toward each other in a scissoring motion. The far elbow (deep grip) pulls toward your centerline while the near elbow (high grip) pulls in the opposite direction. This creates the choking pressure by tightening the collar around the carotid arteries. Focus on the direction of your elbows rather than just pulling with your hands - the elbows create the mechanical advantage. (Timing: Apply over 3-5 seconds progressively) [Pressure: Moderate]
-5. **Expand Chest and Shoulder Pressure**: As you pull your elbows together, simultaneously expand your chest and drive your shoulder into the opponent's neck. This creates additional compression and makes the choke more effective. Your body position should feel like you're hugging a heavy object to your chest while pressing it away with your shoulder. This body mechanics multiplies the choking pressure without requiring excessive grip strength. (Timing: Continuous pressure building over 2-3 seconds) [Pressure: Firm]
-6. **Adjust Angle and Finish**: Make micro-adjustments to your angle and grip depth based on opponent's response. If they turn toward you, maintain pressure and potentially transition to modified mount. If they turn away, follow and maintain the choke. Continue steady, progressive pressure until the tap comes. The finish should feel inevitable as the opponent has no escape route while you maintain superior position and tight collar control. (Timing: Hold steady pressure until tap (typically 2-5 seconds)) [Pressure: Maximum]
+1. **Establish Far Collar Grip**: From side control or turtle top position, reach across opponent's neck and feed your hand deep into the far collar. Your thumb should be inside the collar, with your grip as deep as possible near the opponent's far shoulder. This is your primary choking hand and must be secured before proceeding. The deeper the grip, the more effective the choke will be. (Timing: Take 2-3 seconds to work the grip as deep as possible)
+2. **Secure Near Collar Grip**: With your opposite hand, grip high on the near collar with your palm facing down. This grip should be at or above the opponent's jaw line, creating the top portion of the baseball bat configuration. Your hands should now be crossed with the far-side grip deep and the near-side grip high, resembling the hand position on a baseball bat. (Timing: 1-2 seconds after securing far grip)
+3. **Position Hips and Weight**: Drive your hips forward and down, placing your weight on the opponent's upper body and shoulder. Your chest should be heavy on their shoulder, preventing them from turning toward you or creating space. This weight distribution is critical as it immobilizes the opponent while you apply the choke. Keep your base wide with your legs sprawled to prevent being rolled. (Timing: Simultaneous with grip securing)
+4. **Pull Elbows Together**: Begin drawing your elbows toward each other in a scissoring motion. The far elbow (deep grip) pulls toward your centerline while the near elbow (high grip) pulls in the opposite direction. This creates the choking pressure by tightening the collar around the carotid arteries. Focus on the direction of your elbows rather than just pulling with your hands - the elbows create the mechanical advantage. (Timing: Apply over 3-5 seconds progressively)
+5. **Expand Chest and Shoulder Pressure**: As you pull your elbows together, simultaneously expand your chest and drive your shoulder into the opponent's neck. This creates additional compression and makes the choke more effective. Your body position should feel like you're hugging a heavy object to your chest while pressing it away with your shoulder. This body mechanics multiplies the choking pressure without requiring excessive grip strength. (Timing: Continuous pressure building over 2-3 seconds)
+6. **Adjust Angle and Finish**: Make micro-adjustments to your angle and grip depth based on opponent's response. If they turn toward you, maintain pressure and potentially transition to modified mount. If they turn away, follow and maintain the choke. Continue steady, progressive pressure until the tap comes. The finish should feel inevitable as the opponent has no escape route while you maintain superior position and tight collar control. (Timing: Hold steady pressure until tap (typically 2-5 seconds))
 
 
 </section>
@@ -257,25 +257,25 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Gripping too shallow in the far collar [Low DANGER]
+- **Mistake**: Gripping too shallow in the far collar
   - **Consequence**: Choke lacks power and opponent can defend by tucking chin or turning
   - **Correction**: Feed your hand as deep as possible until your thumb reaches near their far shoulder. Take time to establish depth before securing second grip.
-- **Mistake**: Pulling with hands instead of driving elbows together [Low DANGER]
+- **Mistake**: Pulling with hands instead of driving elbows together
   - **Consequence**: Wastes grip strength and creates arm choke instead of effective collar choke
   - **Correction**: Focus on elbow direction and position. Think about pulling elbows to your centerline in scissoring motion rather than hand grips pulling apart.
-- **Mistake**: Not controlling opponent's near arm [Low DANGER]
+- **Mistake**: Not controlling opponent's near arm
   - **Consequence**: Opponent can frame against your neck or face and create escape space
   - **Correction**: Pin their near arm with your body position or control it with your weight before committing fully to the choke.
-- **Mistake**: Leaving hips high without weight on opponent [Medium DANGER]
+- **Mistake**: Leaving hips high without weight on opponent
   - **Consequence**: Opponent can shrimp away, roll, or recover guard while you focus on choke
   - **Correction**: Drive hips down and forward, making your chest heavy on their shoulder. Control position first, then finish submission.
-- **Mistake**: Applying choke too explosively or spiking it [CRITICAL DANGER]
+- **Mistake**: Applying choke too explosively or spiking it
   - **Consequence**: Risk of injury to training partner, including unconsciousness without tap opportunity
   - **Correction**: Apply progressive pressure over 3-5 seconds in training. Partner safety is more important than submission speed.
-- **Mistake**: Crossing wrists instead of forearms when gripping [Medium DANGER]
+- **Mistake**: Crossing wrists instead of forearms when gripping
   - **Consequence**: Weak structure that opponent can break, loss of choking leverage
   - **Correction**: Ensure your forearms cross in baseball bat configuration with elbows able to drive toward centerline. Wrists should not touch.
-- **Mistake**: Abandoning position to chase the finish [Low DANGER]
+- **Mistake**: Abandoning position to chase the finish
   - **Consequence**: Opponent escapes and you lose dominant position for uncertain submission
   - **Correction**: If choke is not tight, maintain top position and reset grips. Never sacrifice positional dominance for low-percentage submission attempt.
 
@@ -340,43 +340,6 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (1-2 weeks)
-- Focus: Learn proper grip configuration, hand positioning, and body mechanics without applying any choking pressure. Practice establishing grips from various positions while partner remains relaxed.
-- Resistance: Zero resistance
-- Safety: Focus on grip depth and collar control without any pressure to neck. Partner should provide feedback on grip placement only.
-
-**Positional Entry Drilling** (2-3 weeks)
-- Focus: Practice establishing baseball bat grips from side control, turtle top, and north-south positions. Work on combining position maintenance with grip acquisition. Partner provides light defensive framing.
-- Resistance: Mild resistance
-- Safety: Still no choking pressure applied. Focus on controlling position safely while establishing grips. Partner should defend grips only, not position.
-
-**Slow Application Practice** (3-4 weeks)
-- Focus: Begin applying light progressive pressure over 5-7 seconds, stopping well before a tap would be necessary. Partner should tap early to establish safety habits. Practice immediate release upon tap.
-- Resistance: Mild resistance
-- Safety: Establish tap-and-release protocol. Both partners verbally confirm awareness before and after each repetition. Stop at first sign of discomfort.
-
-**Realistic Drilling** (1-2 months)
-- Focus: Apply technique with realistic defensive reactions. Partner defends grips, attempts to escape position, and forces you to maintain control while working toward submission. Build to finish with 3-5 second progressive pressure.
-- Resistance: Realistic resistance
-- Safety: Maintain slow progressive pressure even against resistance. Never spike or jerk the choke. Both partners should communicate clearly about pressure levels.
-
-**Positional Sparring Integration** (Ongoing)
-- Focus: Practice baseball bat choke during positional sparring from top positions. Work on recognizing opportunities, establishing grips under pressure, and finishing safely. Include submission chains and transitions.
-- Resistance: Full resistance
-- Safety: Apply training-speed pressure only. Both partners must respect taps immediately. Discuss any safety concerns between rounds.
-
-**Live Rolling Application** (Ongoing after 3+ months experience)
-- Focus: Integrate baseball bat choke into your submission arsenal during live rolling. Focus on high-percentage setups from dominant positions and maintaining positional hierarchy. Only attempt when grips are properly established.
-- Resistance: Full resistance
-- Safety: Never apply competition-speed chokes in training. Always give partner opportunity to tap. Release immediately upon any tap signal. Check partner awareness after each successful submission.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -430,6 +393,7 @@ The Baseball Bat Choke is a powerful collar-based blood choke executed primarily
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

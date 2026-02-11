@@ -159,7 +159,7 @@ description: "Master Truck Entry in BJJ. Step-by-step execution from Turtle to T
 The Truck Entry is a fundamental transition in modern no-gi grappling that transforms defensive turtle position into an offensive attacking platform. This technique involves establishing a leg hook control while securing the opponent's upper body, creating the distinctive Truck configuration where the opponent's back is exposed and multiple submission pathways become available. The position derives its name from the 10th Planet system where the 10th Planet systematized these entries as gateways to the Twister and other spine-locking submissions. The Truck Entry capitalizes on the turtle position's inherent vulnerability - while turtle protects against many traditional attacks, it exposes the legs and hips to creative entries. Modern competitors have elevated this transition into a high-percentage system, particularly in no-gi competition where the absence of gi grips makes traditional back-taking methods less reliable. The entry requires precise timing and spatial awareness to thread your leg hook while maintaining control of the opponent's upper body, creating a locked structure that prevents escape while opening submission opportunities.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,13 +208,13 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish side control on turtle**: Position yourself perpendicular to your opponent's spine while they are in turtle. Place your chest across their back with your weight distributed to prevent them from returning to guard or standing up. Control their near-side arm with your hand, gripping the wrist or triceps. (Timing: Initial control phase)
-2. **Create space under hips**: Use your near-side hand to lift or shift the opponent's far hip slightly upward while maintaining chest pressure. This creates the necessary space to thread your leg underneath. Keep constant pressure so they cannot flatten or escape forward. (Timing: Preparation phase)
-3. **Thread leg hook under far hip**: Swing your inside leg (the leg closer to opponent's hips) underneath their body, threading it across and under their far hip. Your shin should pass completely under their torso with your foot emerging on their opposite side. Keep your knee bent to maintain the hook. (Timing: Entry phase)
-4. **Establish butterfly hook**: Once your foot emerges on the far side, curl it upward to create a butterfly-style hook against the inside of their far thigh. Pull this hook toward you while maintaining pressure with your chest on their back. This begins to off-balance them. (Timing: Control establishment)
-5. **Secure upper body control**: With your arms, secure control of the opponent's upper body by wrapping around their far shoulder and head, or establishing a seatbelt grip. Your near arm should thread under their near armpit while your far arm goes over their far shoulder, meeting your hands in a lock. (Timing: Consolidation phase)
-6. **Roll to Truck position**: Using your leg hook as the primary driver, pull your hooked leg toward your body while simultaneously rolling toward your back. This forces the opponent to roll with you, ending with them on their side while you control their back with your leg hooked deep under their hips. Your chest should be against their back with their spine exposed. (Timing: Completion phase)
-7. **Lock down the position**: Secure your free leg over the opponent's near hip or thigh to prevent their escape. Maintain tight upper body control while keeping your hooked leg deep. Your opponent should be trapped on their side with limited mobility, setting up submissions like the Twister, Calf Slicer, or back take transitions. (Timing: Position maintenance)
+1. **Establish side control on turtle**: Position yourself perpendicular to your opponent's spine while they are in turtle. Place your chest across their back with your weight distributed to prevent them from returning to guard or standing up. Control their near-side arm with your hand, gripping the wrist or triceps.
+2. **Create space under hips**: Use your near-side hand to lift or shift the opponent's far hip slightly upward while maintaining chest pressure. This creates the necessary space to thread your leg underneath. Keep constant pressure so they cannot flatten or escape forward.
+3. **Thread leg hook under far hip**: Swing your inside leg (the leg closer to opponent's hips) underneath their body, threading it across and under their far hip. Your shin should pass completely under their torso with your foot emerging on their opposite side. Keep your knee bent to maintain the hook.
+4. **Establish butterfly hook**: Once your foot emerges on the far side, curl it upward to create a butterfly-style hook against the inside of their far thigh. Pull this hook toward you while maintaining pressure with your chest on their back. This begins to off-balance them.
+5. **Secure upper body control**: With your arms, secure control of the opponent's upper body by wrapping around their far shoulder and head, or establishing a seatbelt grip. Your near arm should thread under their near armpit while your far arm goes over their far shoulder, meeting your hands in a lock.
+6. **Roll to Truck position**: Using your leg hook as the primary driver, pull your hooked leg toward your body while simultaneously rolling toward your back. This forces the opponent to roll with you, ending with them on their side while you control their back with your leg hooked deep under their hips. Your chest should be against their back with their spine exposed.
+7. **Lock down the position**: Secure your free leg over the opponent's near hip or thigh to prevent their escape. Maintain tight upper body control while keeping your hooked leg deep. Your opponent should be trapped on their side with limited mobility, setting up submissions like the Twister, Calf Slicer, or back take transitions.
 
 
 </section>
@@ -261,23 +261,18 @@ The Truck Entry is a fundamental transition in modern no-gi grappling that trans
 ## Training Progressions
 **Week 1-2: Static Entry Drilling** - Leg hook threading mechanics and body positioning
 Partner remains stationary in turtle while you practice threading your leg hook under their hips from various angles. Focus on getting your shin completely across their centerline with smooth motion. Repeat 20-30 repetitions per training session to build muscle memory.
-(Resistance: None)
 
 **Week 3-4: Dynamic Entry with Completion** - Complete entry sequence from leg hook to locked Truck position
 Partner maintains turtle structure but allows you to complete the full sequence: establish side control, thread hook, secure upper body control, roll to Truck, and lock the position. Emphasize smooth transitions between each phase. Partner should hold Truck position once you complete entry.
-(Resistance: Light)
 
 **Week 5-6: Defensive Reactions Integration** - Countering opponent's escape attempts during entry
 Partner attempts specific defenses (sitting back, rolling forward, flattening hips) at 50% intensity while you work to complete the entry. Practice the appropriate counter-response to each defense. This builds your ability to adapt mid-entry based on opponent reactions.
-(Resistance: Medium)
 
 **Week 7-8: Flow Rolling and Submission Integration** - Truck entries from live turtle scrambles and follow-up attacks
 Begin from various turtle scenarios in flow rolling - after takedown sprawls, failed guard pulls, or scrambles. Complete the Truck entry against increasing resistance, then continue into submission attempts (Twister, Calf Slicer, or back take). Partner defends at 75% intensity.
-(Resistance: Full)
 
 **Competition Integration** - Live sparring application with timing and opportunity recognition
 Apply Truck entries during regular sparring without prearranged setups. Focus on recognizing optimal timing when opponents expose turtle position. Combine with your overall back attack system and leg lock game.
-(Resistance: Full)
 
 
 

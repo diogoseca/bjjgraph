@@ -244,7 +244,7 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 
 **If opponent drops their weight forward and drives into you with pressure:**
-- Execute **[[Darce Choke]]** → [[D'arce Control]] (Probability: 60%)
+- Execute **[[Darce Choke]]** → [[Darce Control]] (Probability: 60%)
 - Execute **[[Anaconda Choke]]** → [[Anaconda Control]] (Probability: 55%)
 
 
@@ -379,11 +379,11 @@ Start with overhook control from turtle top position. Practice different back ta
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 42% | 25% |
-| Intermediate | 50% | 58% | 40% |
-| Advanced     | 70% | 75% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 66% |
+| Submission Probability | 50% |
 
 **Average Time in Position**: 5-15 seconds (transitional attacking position)
 
@@ -395,7 +395,7 @@ Start with overhook control from turtle top position. Practice different back ta
 ## Related Positions and Techniques
 
 - **[[Kimura Trap]]** - Primary submission control accessed when opponent pulls back against overhook pressure
-- **[[D'arce Control]]** - Front headlock submission position entered when opponent drives forward into overhook
+- **[[Darce Control]]** - Front headlock submission position entered when opponent drives forward into overhook
 - **[[Front Headlock]]** - Often combined with overhook for complete upper body control and submission setup
 - **[[Anaconda Control]]** - Alternative front headlock submission from overhook when opponent drops their head
 - **[[Back Control]]** - Common advancement target using arm drag, two-on-one, or crab ride from overhook

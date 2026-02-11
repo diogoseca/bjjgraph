@@ -157,7 +157,7 @@ This transition exemplifies the modern approach to grappling where positional pa
 Strategically, this option expands your threat matrix significantly. Opponents who successfully defend traditional leg drag follow-ups (back take, mount, side control) by staying heavy on their hips suddenly face a different category of danger. The psychological pressure of knowing that strong positional defense opens leg attack vulnerabilities creates hesitation and uncertainty, making all your attacks more effective.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess resistance**: Recognize that opponent is strongly defending your passing progression by keeping heavy base and framing against your upper body. Their focus on stopping the pass creates the opening for leg entry. (Timing: When upper body control becomes difficult to advance)
-2. **Secure leg control**: Reinforce your grip on opponent's dragged leg, controlling at the knee or above. This leg will remain your primary control point throughout the transition. Use both hands momentarily if needed. (Timing: Immediately before changing direction)
-3. **Drop hip level**: Lower your hips and begin sitting back rather than driving forward. Your chest comes off their shoulder as you start transitioning your weight toward their legs rather than their upper body. (Timing: Smooth transition, no explosive movement needed)
-4. **Thread inside leg**: Slide your inside leg (the one closest to their hips) between their legs, aiming to position your foot on their far hip. Your knee should clear their hip line and begin establishing the ashi-garami hook. (Timing: As your hips lower and create the angle)
-5. **Establish outside control**: Your outside leg triangles or hooks over their trapped leg, securing control of their knee line. This prevents them from straightening their leg to escape and begins exposing the heel. (Timing: Immediately after inside leg is positioned)
-6. **Consolidate inside ashi**: Pull their leg tight to your chest, ensure hip-to-hip connection, and establish the proper inside ashi-garami configuration with their heel exposed toward your far armpit. Control the knee line with your legs. (Timing: Complete within 2 seconds of initial entry)
+1. **Assess resistance**: Recognize that opponent is strongly defending your passing progression by keeping heavy base and framing against your upper body. Their focus on stopping the pass creates the opening for leg entry.
+2. **Secure leg control**: Reinforce your grip on opponent's dragged leg, controlling at the knee or above. This leg will remain your primary control point throughout the transition. Use both hands momentarily if needed.
+3. **Drop hip level**: Lower your hips and begin sitting back rather than driving forward. Your chest comes off their shoulder as you start transitioning your weight toward their legs rather than their upper body.
+4. **Thread inside leg**: Slide your inside leg (the one closest to their hips) between their legs, aiming to position your foot on their far hip. Your knee should clear their hip line and begin establishing the ashi-garami hook.
+5. **Establish outside control**: Your outside leg triangles or hooks over their trapped leg, securing control of their knee line. This prevents them from straightening their leg to escape and begins exposing the heel.
+6. **Consolidate inside ashi**: Pull their leg tight to your chest, ensure hip-to-hip connection, and establish the proper inside ashi-garami configuration with their heel exposed toward your far armpit. Control the knee line with your legs.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, this option expands your threat matrix significantly. Opponents w
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice the basic transition from static leg drag position. Partner offers no resistance, allowing you to develop the proper sequencing of leg placement and body position. Focus on smooth, connected movement without gaps in control.
-(Resistance: None)
 
 **Week 3-4** - Recognition and timing
 Partner provides light resistance to your leg drag passing attempts. Learn to recognize when the pass is being shut down and when the ashi entry becomes available. Practice the decision point of continuing to pass versus transitioning to legs.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively defends both the pass and the leg entry. Practice adjusting to common counters and maintaining control throughout. Begin chaining the entry with heel hook attacks and sweep threats from inside ashi.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate the transition into your full leg drag passing game. Focus on seamless switching between passing and leg attacks based on opponent reactions. Develop sensitivity to the optimal moment for transition.
-(Resistance: Full)
 
 
 

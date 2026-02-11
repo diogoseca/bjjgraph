@@ -153,7 +153,7 @@ description: "Master the Rolling Omoplata in BJJ. Follow opponent's roll to secu
 The Rolling Omoplata is a dynamic transition that converts an opponent's forward roll escape attempt into a dominant top position. When the opponent initiates a forward roll to relieve omoplata pressure, you follow their momentum rather than fighting it, using their escape attempt as the mechanism for your own positional advancement. This technique exemplifies the principle of using your opponent's energy against them—their desperate escape becomes your sweep. The roll requires precise timing and hip connection; release too early and you lose control, hold too long and you get dumped. The critical insight is recognizing the opponent's weight shift forward as the trigger to initiate your follow-through. As they commit to the roll, you maintain your leg across their shoulder and guide the rotation, landing in mount or side control depending on your hip placement during the roll. Advanced practitioners use this transition proactively by applying shoulder pressure that forces the opponent to choose between tapping to the omoplata or rolling into a dominated position. This creates a true dilemma where both options favor you.
 
 **From Position**: [[Omoplata Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -201,12 +201,12 @@ The Rolling Omoplata is a dynamic transition that converts an opponent's forward
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize roll initiation**: Feel the opponent shift their weight forward onto their posting arm and load their hips to initiate a forward roll escape. This forward weight commitment is your trigger to begin the rolling transition. (Timing: As opponent commits weight forward)
-2. **Maintain hip connection**: Keep your hips glued to their trapped shoulder as they begin rolling. Do not separate or create space—your body must move as one unit with their shoulder throughout the rotation. (Timing: Immediately as roll begins)
-3. **Control roll direction**: Use your grip on their belt or hip to guide the direction and speed of the roll. Pull yourself toward their body rather than pushing them away, staying connected throughout the rotation. (Timing: During roll initiation)
-4. **Follow through rotation**: Roll with the opponent while keeping your shin across their upper back. Your leg acts as the axis point—everything rotates around your control of their shoulder joint. (Timing: Through the roll)
-5. **Land with weight**: As the roll completes, land with your hips heavy on their torso, perpendicular to their body. Your momentum from the roll translates into immediate crushing top pressure. (Timing: End of rotation)
-6. **Establish top control**: Transition immediately to mount or side control based on your landing position. Remove your leg from their shoulder and secure dominant grips before they can recover guard. (Timing: Immediately after landing)
+1. **Recognize roll initiation**: Feel the opponent shift their weight forward onto their posting arm and load their hips to initiate a forward roll escape. This forward weight commitment is your trigger to begin the rolling transition.
+2. **Maintain hip connection**: Keep your hips glued to their trapped shoulder as they begin rolling. Do not separate or create space—your body must move as one unit with their shoulder throughout the rotation.
+3. **Control roll direction**: Use your grip on their belt or hip to guide the direction and speed of the roll. Pull yourself toward their body rather than pushing them away, staying connected throughout the rotation.
+4. **Follow through rotation**: Roll with the opponent while keeping your shin across their upper back. Your leg acts as the axis point—everything rotates around your control of their shoulder joint.
+5. **Land with weight**: As the roll completes, land with your hips heavy on their torso, perpendicular to their body. Your momentum from the roll translates into immediate crushing top pressure.
+6. **Establish top control**: Transition immediately to mount or side control based on your landing position. Remove your leg from their shoulder and secure dominant grips before they can recover guard.
 
 
 </section>
@@ -249,19 +249,15 @@ The Rolling Omoplata is a dynamic transition that converts an opponent's forward
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion with compliant partner initiating slow forward rolls. Focus on maintaining hip connection and landing perpendicular. No resistance—purely mechanical repetition.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner attempts forward roll escapes at 25% speed. Practice recognizing the weight shift trigger and initiating your follow-through at the correct moment. Add belt grip control.
-(Resistance: Light)
 
 **Week 5-6** - Landing and transition
 Partner rolls at 50% intensity with light resistance on landing. Focus on landing heavy and immediately transitioning to mount or side control. Practice the full sequence with counters.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply in positional sparring starting from omoplata control. Partner attempts any escape at full intensity. Develop pattern recognition for when rolling omoplata is optimal versus maintaining control.
-(Resistance: Full)
 
 
 

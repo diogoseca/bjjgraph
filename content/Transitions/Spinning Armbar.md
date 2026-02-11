@@ -157,7 +157,7 @@ This attack exemplifies the principle of attacking during transitions rather tha
 The Spinning Armbar serves as a high-percentage option when opponents become overly defensive against traditional North-South attacks. It creates a dilemma: if they protect their neck, the arm becomes available; if they protect the arm, the choke opens. This technique is particularly effective against opponents who habitually frame against your chest, as their extended arm provides the isolated target necessary for the spin entry. Competition footage consistently shows this attack succeeding when timed against defensive frame creation.
 
 **From Position**: [[North-South/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The Spinning Armbar serves as a high-percentage option when opponents become ove
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure arm control**: From North-South top, identify your opponent's near arm. Grip their wrist with your same-side hand while your opposite hand controls above their elbow. Pull their arm slightly away from their body to create isolation, preventing them from connecting their hands for defense. (Timing: Immediately when arm becomes exposed during framing)
-2. **Pin the arm**: Drive your chest pressure down onto their isolated arm, pinning their tricep area with your sternum. This creates a fulcrum point for the rotation while preventing them from retracting the arm. Your weight should shift toward the arm side. (Timing: Before releasing chest pressure from their torso)
-3. **Establish pivot point**: Plant your same-side knee firmly beside their ribcage - this becomes your rotational axis. Your opposite leg should be extended with toes posted for drive. Keep your hips low and centered over the planted knee. (Timing: Concurrent with arm pin establishment)
-4. **Initiate rotation**: Maintaining arm control and chest pressure, begin rotating your body 180 degrees around their arm. Your extended leg swings in an arc over their head while your hips pivot on the planted knee. Keep the isolated arm tight to your chest throughout. (Timing: Smooth controlled motion over 1-2 seconds)
-5. **Clear the head**: As your leg swings over their head, drive your heel toward the mat on the far side of their head. Your other leg follows, with the back of your knee landing across their face or neck. Squeeze your knees together immediately to trap their head and arm. (Timing: Legs should land together, not sequentially)
-6. **Secure armbar control**: With legs pinching their head and your hips beside their shoulder, pull their arm tight to your chest with their thumb pointing up. Your hips should be hip-to-shoulder with their arm, creating the proper angle for the armbar control position before extending. (Timing: Immediately upon completing rotation)
+1. **Secure arm control**: From North-South top, identify your opponent's near arm. Grip their wrist with your same-side hand while your opposite hand controls above their elbow. Pull their arm slightly away from their body to create isolation, preventing them from connecting their hands for defense.
+2. **Pin the arm**: Drive your chest pressure down onto their isolated arm, pinning their tricep area with your sternum. This creates a fulcrum point for the rotation while preventing them from retracting the arm. Your weight should shift toward the arm side.
+3. **Establish pivot point**: Plant your same-side knee firmly beside their ribcage - this becomes your rotational axis. Your opposite leg should be extended with toes posted for drive. Keep your hips low and centered over the planted knee.
+4. **Initiate rotation**: Maintaining arm control and chest pressure, begin rotating your body 180 degrees around their arm. Your extended leg swings in an arc over their head while your hips pivot on the planted knee. Keep the isolated arm tight to your chest throughout.
+5. **Clear the head**: As your leg swings over their head, drive your heel toward the mat on the far side of their head. Your other leg follows, with the back of your knee landing across their face or neck. Squeeze your knees together immediately to trap their head and arm.
+6. **Secure armbar control**: With legs pinching their head and your hips beside their shoulder, pull their arm tight to your chest with their thumb pointing up. Your hips should be hip-to-shoulder with their arm, creating the proper angle for the armbar control position before extending.
 
 
 </section>
@@ -254,19 +254,15 @@ The Spinning Armbar serves as a high-percentage option when opponents become ove
 ## Training Progressions
 **Week 1-2** - Rotation mechanics
 Drill the spinning motion from North-South with a non-resisting partner. Focus on the pivot point, leg clearance over the head, and landing with knees pinched. Perform 20-30 repetitions per side until the rotation feels natural and controlled.
-(Resistance: None)
 
 **Week 3-4** - Arm isolation timing
 Partner provides light resistance by attempting to retract arm. Practice identifying the moment of arm exposure and executing quick isolation grips. Drill the transition from North-South control to arm isolation with partner creating realistic framing scenarios.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner attempts specific counters (hitchhiker, stack, hand clasp) at 50% resistance. Practice recognizing each counter and implementing appropriate responses. Chain to alternative attacks when spinning armbar is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Implement in positional sparring starting from North-South. Partner provides full resistance. Focus on timing the attack during natural arm exposure rather than forcing the position. Track success rate and common failure points for continued refinement.
-(Resistance: Full)
 
 
 

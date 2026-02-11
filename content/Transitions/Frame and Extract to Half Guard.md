@@ -157,7 +157,7 @@ The strategic importance of this escape cannot be overstated - Inside Sankaku re
 The transition to Half Guard specifically is chosen because it allows you to immediately establish a knee shield and begin rebuilding your guard structure, rather than scrambling to an undefined open guard position. From Half Guard, you have clear pathways to guard recovery, sweeps, or standing back up - all superior to remaining in leg entanglement danger.
 
 **From Position**: [[Inside Sankaku/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The transition to Half Guard specifically is chosen because it allows you to imm
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure heel protection**: Immediately press your trapped heel tightly against your own hip, turning toes inward and knee outward. Use your near-side hand to grab your own foot or ankle to reinforce heel hiding position. This neutralizes the immediate inside heel hook threat. (Timing: Immediately upon recognizing Inside Sankaku position)
-2. **Establish primary frame**: Place your far-side forearm against opponent's hip closest to your trapped leg, creating a structural barrier. Your elbow should be positioned to push directly into their hip crease, establishing the leverage point for creating separation. (Timing: While maintaining heel protection)
-3. **Create secondary frame**: Position your near-side hand or forearm against opponent's knee or lower leg that forms the top of their figure-four configuration. This frame prevents them from tightening the entanglement and assists in creating space for extraction. (Timing: Immediately after primary frame)
-4. **Generate hip escape distance**: Drive your frames forward while simultaneously pumping your hips backward and away from opponent. Use your free leg to push off the mat or opponent's hip for additional escape power. Create maximum separation between your hips and their hips. (Timing: When frames are secure and stable)
-5. **Extract trapped leg**: As distance is created, pull your knee toward your chest while continuing to hide your heel. Rotate your leg to spiral out of the figure-four configuration, using the space created by your hip escape to free the trapped limb completely. (Timing: When sufficient space exists for leg clearance)
-6. **Establish Half Guard**: Immediately upon extraction, close your legs around opponent's nearside leg to establish Half Guard position. Insert your knee shield across their hip to create distance and prevent them from re-entering leg entanglements or passing to side control. (Timing: Immediately upon leg extraction)
+1. **Secure heel protection**: Immediately press your trapped heel tightly against your own hip, turning toes inward and knee outward. Use your near-side hand to grab your own foot or ankle to reinforce heel hiding position. This neutralizes the immediate inside heel hook threat.
+2. **Establish primary frame**: Place your far-side forearm against opponent's hip closest to your trapped leg, creating a structural barrier. Your elbow should be positioned to push directly into their hip crease, establishing the leverage point for creating separation.
+3. **Create secondary frame**: Position your near-side hand or forearm against opponent's knee or lower leg that forms the top of their figure-four configuration. This frame prevents them from tightening the entanglement and assists in creating space for extraction.
+4. **Generate hip escape distance**: Drive your frames forward while simultaneously pumping your hips backward and away from opponent. Use your free leg to push off the mat or opponent's hip for additional escape power. Create maximum separation between your hips and their hips.
+5. **Extract trapped leg**: As distance is created, pull your knee toward your chest while continuing to hide your heel. Rotate your leg to spiral out of the figure-four configuration, using the space created by your hip escape to free the trapped limb completely.
+6. **Establish Half Guard**: Immediately upon extraction, close your legs around opponent's nearside leg to establish Half Guard position. Insert your knee shield across their hip to create distance and prevent them from re-entering leg entanglements or passing to side control.
 
 
 </section>
@@ -252,19 +252,15 @@ The transition to Half Guard specifically is chosen because it allows you to imm
 ## Training Progressions
 **Week 1-2** - Frame mechanics and heel protection
 Drill frame placement against partner in static Inside Sankaku position. Focus on proper forearm positioning against hips and knees. Practice heel hiding mechanics with hand assistance. No extraction attempts yet - build frame muscle memory.
-(Resistance: None)
 
 **Week 3-4** - Hip escape and extraction timing
 Add hip escape movement to established frames. Practice extracting trapped leg when partner provides space. Focus on maintaining heel protection throughout movement. Partner holds position but does not actively resist.
-(Resistance: Light)
 
 **Week 5-6** - Half Guard establishment and chaining
 Complete escape sequence from frame to Half Guard establishment. Partner provides moderate resistance and may follow hip escapes. Practice multiple escape attempts in sequence when first attempt fails. Develop contingency reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application and counter-counter
 Positional sparring starting from Inside Sankaku. Partner actively works to maintain position and attack submissions. Develop timing recognition for escape windows. Integrate with other escape options based on opponent reactions.
-(Resistance: Full)
 
 
 

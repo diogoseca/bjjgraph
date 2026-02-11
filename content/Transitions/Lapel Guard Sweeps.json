@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Lapel Guard Sweeps from Ringworm Guard represent a sophisticated attacking system within the modern lapel guard ecosystem. These sweeps leverage the mechanical advantage created by threading the opponent's lapel around their leg, which restricts their mobility and creates predictable reactions that can be exploited for sweeping opportunities. The primary sweep variations use the lapel wrap as a lever to control the opponent's base while combining hip movement and secondary grips to execute powerful off-balancing attacks.\n\nThe effectiveness of these sweeps stems from the control asymmetry created by the lapel configuration. When properly established, the opponent's trapped leg cannot post effectively, making them vulnerable to sweeps in the direction of the wrap. The bottom player uses angular hip movement combined with sleeve or collar grips to load the opponent's weight over the compromised leg, then executes the sweep by elevating with the legs while pulling with the lapel grip.\n\nStrategically, these sweeps work best when the opponent attempts to stand or create distance, as their elevated center of gravity and narrowed base make them more susceptible to being swept. The sweep system integrates seamlessly with other Ringworm Guard attacks, creating dilemmas where defending the sweep opens back-taking opportunities and vice versa. Competition-proven and effective across skill levels, these techniques are essential for any serious lapel guard practitioner.",
   "key_principles": [
     "Maintain constant tension on the lapel wrap throughout the sweep to maximize the mechanical advantage and prevent the opponent from posting the trapped leg",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Establish control",
-      "description": "Confirm the Ringworm Guard configuration is secure with strong tension on the lapel wrap. The lapel should be threaded completely around the opponent's knee or thigh with the tail gripped firmly near your hip.",
-      "timing": "Before initiating any sweeping motion"
+      "description": "Confirm the Ringworm Guard configuration is secure with strong tension on the lapel wrap. The lapel should be threaded completely around the opponent's knee or thigh with the tail gripped firmly near your hip."
     },
     {
       "step_number": 2,
       "action": "Secure secondary grip",
-      "description": "Obtain a sleeve grip on the opponent's far arm at the wrist or sleeve cuff. This prevents them from posting during the sweep and gives you control over their upper body rotation throughout the technique.",
-      "timing": "While maintaining lapel tension"
+      "description": "Obtain a sleeve grip on the opponent's far arm at the wrist or sleeve cuff. This prevents them from posting during the sweep and gives you control over their upper body rotation throughout the technique."
     },
     {
       "step_number": 3,
       "action": "Create angle",
-      "description": "Hip escape away from the opponent while maintaining all grips, creating approximately 30-45 degrees of angle. This positioning compromises their base toward the sweep direction and maximizes your mechanical leverage.",
-      "timing": "As opponent shifts weight or attempts to stand"
+      "description": "Hip escape away from the opponent while maintaining all grips, creating approximately 30-45 degrees of angle. This positioning compromises their base toward the sweep direction and maximizes your mechanical leverage."
     },
     {
       "step_number": 4,
       "action": "Load opponent's weight",
-      "description": "Pull with both the lapel grip and sleeve grip while using your leg frames to guide the opponent's weight over their compromised leg. Their center of gravity should shift toward the trapped side.",
-      "timing": "When opponent's weight shifts forward or they begin standing"
+      "description": "Pull with both the lapel grip and sleeve grip while using your leg frames to guide the opponent's weight over their compromised leg. Their center of gravity should shift toward the trapped side."
     },
     {
       "step_number": 5,
       "action": "Execute sweep",
-      "description": "Extend your hips and elevate with your legs while maintaining the pulling pressure on both grips. Drive the opponent over their trapped leg in the direction of the lapel wrap, using hip extension as the primary power source.",
-      "timing": "Explosive movement when weight is fully loaded"
+      "description": "Extend your hips and elevate with your legs while maintaining the pulling pressure on both grips. Drive the opponent over their trapped leg in the direction of the lapel wrap, using hip extension as the primary power source."
     },
     {
       "step_number": 6,
       "action": "Follow and consolidate",
-      "description": "Follow the sweep momentum immediately by coming up with the opponent. Release the lapel grip once you achieve top position and establish Mount control with proper base before the opponent can recover guard.",
-      "timing": "Immediately upon completing the sweep"
+      "description": "Follow the sweep momentum immediately by coming up with the opponent. Release the lapel grip once you achieve top position and establish Mount control with proper base before the opponent can recover guard."
     }
   ],
   "common_counters": [
@@ -134,26 +123,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Lapel threading and tension maintenance",
-      "description": "Practice establishing the Ringworm Guard configuration repeatedly with a cooperative partner. Focus on efficient lapel threading, proper wrap positioning around the opponent's leg, and maintaining constant tension through various movements. Drill the basic sweep motion without resistance to build muscle memory.",
-      "resistance_level": "None"
+      "description": "Practice establishing the Ringworm Guard configuration repeatedly with a cooperative partner. Focus on efficient lapel threading, proper wrap positioning around the opponent's leg, and maintaining constant tension through various movements. Drill the basic sweep motion without resistance to build muscle memory."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and angle creation",
-      "description": "Work on recognizing the optimal moments to initiate sweeps based on opponent's weight shifts and movements. Practice creating angles with hip escapes while maintaining the lapel configuration. Partner provides light resistance and specific reactions to train sweep timing.",
-      "resistance_level": "Light"
+      "description": "Work on recognizing the optimal moments to initiate sweeps based on opponent's weight shifts and movements. Practice creating angles with hip escapes while maintaining the lapel configuration. Partner provides light resistance and specific reactions to train sweep timing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Sweep combinations and transitions",
-      "description": "Chain the sweep with other Ringworm Guard attacks including back takes and submissions. Practice transitioning between sweep attempts when one is countered. Partner increases resistance and actively defends, requiring adjustment and combination attacks.",
-      "resistance_level": "Medium"
+      "description": "Chain the sweep with other Ringworm Guard attacks including back takes and submissions. Practice transitioning between sweep attempts when one is countered. Partner increases resistance and actively defends, requiring adjustment and combination attacks."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Apply the sweep system in live rolling starting from the Ringworm Guard position. Identify personal timing patterns and grip preferences. Troubleshoot specific problems that arise against different body types and passing styles. Refine mount consolidation after successful sweeps.",
-      "resistance_level": "Full"
+      "description": "Apply the sweep system in live rolling starting from the Ringworm Guard position. Identify personal timing patterns and grip preferences. Troubleshoot specific problems that arise against different body types and passing styles. Refine mount consolidation after successful sweeps."
     }
   ],
   "variants_and_adaptations": [
@@ -176,43 +161,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Lapel Guard Sweeps from Ringworm Guard?",
-      "answer": "The primary goal is to use the mechanical advantage of the lapel wrap around the opponent's leg to execute high-percentage sweeps that land you in Mount position. The lapel configuration restricts the opponent's ability to post and base, making them vulnerable to being swept in the direction of the wrap while you use hip movement and secondary grips to control the execution.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to use the mechanical advantage of the lapel wrap around the opponent's leg to execute high-percentage sweeps that land you in Mount position. The lapel configuration restricts the opponent's ability to post and base, making them vulnerable to being swept in the direction of the wrap while you use hip movement and secondary grips to control the execution."
     },
     {
       "question": "What are the key grips needed for successful Lapel Guard Sweeps?",
-      "answer": "Two essential grips are required: the primary lapel grip where you control the tail of the opponent's lapel after threading it around their leg, maintaining constant tension by pulling toward your hip; and the secondary sleeve or wrist grip on the opponent's far arm, which prevents them from posting during the sweep and controls their upper body rotation. Without the secondary grip, opponents can easily stop the sweep by posting their free hand.",
-      "difficulty": "Beginner"
+      "answer": "Two essential grips are required: the primary lapel grip where you control the tail of the opponent's lapel after threading it around their leg, maintaining constant tension by pulling toward your hip; and the secondary sleeve or wrist grip on the opponent's far arm, which prevents them from posting during the sweep and controls their upper body rotation. Without the secondary grip, opponents can easily stop the sweep by posting their free hand."
     },
     {
       "question": "Your opponent starts standing up while you have Ringworm Guard established - how does this affect your sweep timing?",
-      "answer": "The opponent standing actually creates an optimal sweeping opportunity because their center of gravity becomes elevated and their base narrows. This makes them more vulnerable to being swept. You should time your sweep execution to coincide with their upward movement, using their momentum against them. As they rise, load their weight toward the trapped leg and execute the sweep while their balance is compromised during the transition.",
-      "difficulty": "Intermediate"
+      "answer": "The opponent standing actually creates an optimal sweeping opportunity because their center of gravity becomes elevated and their base narrows. This makes them more vulnerable to being swept. You should time your sweep execution to coincide with their upward movement, using their momentum against them. As they rise, load their weight toward the trapped leg and execute the sweep while their balance is compromised during the transition."
     },
     {
       "question": "What is the most critical mechanical element that makes these sweeps effective?",
-      "answer": "Constant tension on the lapel wrap is the most critical element. The wrap creates a mechanical connection between the opponent's leg and your control, but only when maintained with tension. Slack in the lapel allows the opponent to post their trapped leg and base out of the sweep. The tension must be maintained throughout all hip movements, angle creation, and the sweep execution itself. Without tension, the technique fails regardless of how well other elements are performed.",
-      "difficulty": "Intermediate"
+      "answer": "Constant tension on the lapel wrap is the most critical element. The wrap creates a mechanical connection between the opponent's leg and your control, but only when maintained with tension. Slack in the lapel allows the opponent to post their trapped leg and base out of the sweep. The tension must be maintained throughout all hip movements, angle creation, and the sweep execution itself. Without tension, the technique fails regardless of how well other elements are performed."
     },
     {
       "question": "How should you respond when the opponent successfully strips your lapel grip?",
-      "answer": "If the opponent commits both hands to stripping your lapel grip, immediately attack with submissions or sweeps that capitalize on their occupied hands - they cannot post while grip fighting. Triangle setups, omoplata entries, or quick sweeps before they complete the grip break are all viable options. If they successfully strip the grip, immediately transition to alternative lapel guard positions like Worm Guard or Squid Guard rather than trying to re-establish Ringworm from scratch.",
-      "difficulty": "Intermediate"
+      "answer": "If the opponent commits both hands to stripping your lapel grip, immediately attack with submissions or sweeps that capitalize on their occupied hands - they cannot post while grip fighting. Triangle setups, omoplata entries, or quick sweeps before they complete the grip break are all viable options. If they successfully strip the grip, immediately transition to alternative lapel guard positions like Worm Guard or Squid Guard rather than trying to re-establish Ringworm from scratch."
     },
     {
       "question": "Why is creating an angle before sweeping so important for these techniques?",
-      "answer": "Creating an angle through hip escaping positions your body to generate maximum leverage while compromising the opponent's base. When flat on your back, your mechanical advantage is minimal and sweeping requires excessive strength. A 30-45 degree angle multiplies your leverage exponentially because your hip extension now travels through a more efficient vector. The angle also aligns your pulling direction with the opponent's compromised balance point, making the sweep feel effortless when properly timed.",
-      "difficulty": "Intermediate"
+      "answer": "Creating an angle through hip escaping positions your body to generate maximum leverage while compromising the opponent's base. When flat on your back, your mechanical advantage is minimal and sweeping requires excessive strength. A 30-45 degree angle multiplies your leverage exponentially because your hip extension now travels through a more efficient vector. The angle also aligns your pulling direction with the opponent's compromised balance point, making the sweep feel effortless when properly timed."
     },
     {
       "question": "The opponent drops their base low and wide to resist your sweep attempts - what adjustment should you make?",
-      "answer": "When the opponent adopts a low, wide base, the standard sweeps become significantly harder because their center of gravity is lowered and their balance is excellent. Transition to attacks that exploit the wide base instead: triangle setups work well because their hips are low, omoplatas become available as they flatten out, and Worm Guard transitions may offer better control. Alternatively, use the tripod sweep variation which provides different leverage angles against the lowered base.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent adopts a low, wide base, the standard sweeps become significantly harder because their center of gravity is lowered and their balance is excellent. Transition to attacks that exploit the wide base instead: triangle setups work well because their hips are low, omoplatas become available as they flatten out, and Worm Guard transitions may offer better control. Alternatively, use the tripod sweep variation which provides different leverage angles against the lowered base."
     },
     {
       "question": "How do you integrate Lapel Guard Sweeps with back-taking attacks to create offensive dilemmas?",
-      "answer": "Use the sweep threat to create predictable defensive reactions that open back-taking opportunities. When you load for the sweep, opponents typically defend by turning away from the sweep direction or backstep to extract their leg. Both responses expose their back. Train yourself to recognize these defensive patterns and follow their rotation immediately rather than insisting on completing the sweep. This creates a dilemma: defend the sweep and give up the back, or accept being swept to Mount. Either outcome is favorable for you.",
-      "difficulty": "Advanced"
+      "answer": "Use the sweep threat to create predictable defensive reactions that open back-taking opportunities. When you load for the sweep, opponents typically defend by turning away from the sweep direction or backstep to extract their leg. Both responses expose their back. Train yourself to recognize these defensive patterns and follow their rotation immediately rather than insisting on completing the sweep. This creates a dilemma: defend the sweep and give up the back, or accept being swept to Mount. Either outcome is favorable for you."
     }
   ],
   "safety_considerations": "Lapel Guard Sweeps are generally low-risk techniques with minimal injury potential when practiced correctly. The primary safety concern is avoiding neck strain during the sweeping motion - use hip extension and leg power rather than pulling excessively with your arms and engaging your neck muscles. When being swept as the top player, tap your hands to the mat to break your fall rather than posting on an extended arm, which can cause wrist or shoulder injuries. During drilling, communicate clearly about resistance levels and avoid explosive movements until both partners are comfortable with the technique. The lapel wrap itself poses no injury risk but partners should ensure the gi is in good condition to prevent tearing during training.",
@@ -254,5 +231,6 @@
       "name": "De La Riva Guard",
       "relationship": "Related guard - shares angular attack concepts though without lapel dependency"
     }
-  ]
+  ],
+  "success_rate": 58
 }

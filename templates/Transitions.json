@@ -10,7 +10,7 @@
     "tags",
     "from_position",
     "outcomes",
-    "success_rates",
+    "success_rate",
     "overview",
     "key_principles",
     "setup_requirements",
@@ -100,28 +100,11 @@
         }
       }
     },
-    "success_rates": {
-      "type": "object",
-      "description": "Success rates by skill level (beginner ≤ intermediate ≤ advanced)",
-      "additionalProperties": false,
-      "required": ["beginner", "intermediate", "advanced"],
-      "properties": {
-        "beginner": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "intermediate": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "advanced": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        }
-      }
+    "success_rate": {
+      "type": "integer",
+      "description": "Overall success rate percentage (0-100)",
+      "minimum": 0,
+      "maximum": 100
     },
     "overview": {
       "type": "string",
@@ -187,10 +170,6 @@
             "type": "string",
             "description": "Detailed execution with anatomical detail (50+ characters)",
             "minLength": 50
-          },
-          "timing": {
-            "type": "string",
-            "description": "Optional timing cue"
           }
         }
       }
@@ -273,15 +252,6 @@
           },
           "description": {
             "type": "string"
-          },
-          "resistance_level": {
-            "type": "string",
-            "enum": [
-              "None",
-              "Light",
-              "Medium",
-              "Full"
-            ]
           }
         }
       }
@@ -330,14 +300,6 @@
           "answer": {
             "type": "string",
             "minLength": 50
-          },
-          "difficulty": {
-            "type": "string",
-            "enum": [
-              "Beginner",
-              "Intermediate",
-              "Advanced"
-            ]
           }
         }
       }
@@ -378,35 +340,6 @@
             "type": "string",
             "description": "How it relates (e.g., 'Follow-up', 'Alternative', 'Counter')"
           }
-        }
-      }
-    }
-  },
-  "$defs": {
-    "skill_level_success_rates": {
-      "type": "object",
-      "description": "Success rates by skill level (beginner ≤ intermediate ≤ advanced)",
-      "additionalProperties": false,
-      "required": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "properties": {
-        "beginner": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "intermediate": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "advanced": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
         }
       }
     }

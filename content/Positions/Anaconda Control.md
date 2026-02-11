@@ -162,7 +162,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 ### Available Transitions
 
 
-- **[[Anaconda Choke]]** (18% of attempts)
+- **[[Anaconda Choke]]** (19% of attempts)
 
 - **[[Anaconda from Turtle]]** (20% of attempts)
 
@@ -170,7 +170,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 - **[[Front Headlock to Darce]]** (16% of attempts)
 
-- **[[Back Take Generic]]** (15% of attempts)
+- **[[Back Take Generic]]** (14% of attempts)
 
 - **[[Side Control to Mount]]** (14% of attempts)
 
@@ -209,7 +209,7 @@ The effectiveness of Anaconda Control stems from its multi-layered control mecha
 
 - **[[Front Headlock]]** - Primary entry position for anaconda grip establishment
 
-- **[[D'arce Control]]** - Sister submission with similar arm-in mechanics but different hand positioning
+- **[[Darce Control]]** - Sister submission with similar arm-in mechanics but different hand positioning
 
 - **[[Guillotine Control]]** - Alternative front headlock submission accessible from same position
 

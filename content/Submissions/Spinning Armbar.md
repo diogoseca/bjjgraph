@@ -157,7 +157,7 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 **Type**: Arm Lock
 **Target Area**: Elbow joint
 **Starting Position**: [[Multiple positions including mount, guard, and standing]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -233,12 +233,12 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure arm control**: Establish a firm two-handed grip on the opponent's arm - one hand controlling the wrist and the other gripping above the elbow or on the triceps. Pull the arm across your centerline to isolate it from their body and create the initial separation needed for the spin. Ensure your grip is tight and your elbows are pulled in close to maintain control throughout the rotation. (Timing: 1-2 seconds for grip establishment) [Pressure: Firm]
-2. **Break opponent's posture**: Use your grip to pull the opponent forward and off-balance, breaking their defensive posture. If in guard, open your guard and place your feet on their hips or shoulders to create distance while maintaining arm control. If from mount or top position, shift your weight to compromise their base. This postural disruption is critical to prevent them from following your rotation and escaping. (Timing: 1 second) [Pressure: Moderate]
-3. **Initiate the spin**: Begin rotating your body toward the side of the controlled arm by pivoting on your shoulder and hips. Keep the opponent's arm pinned tightly to your chest as you spin, using your legs to push off their body or the mat for momentum. Your head should lead the rotation while your hips follow in a circular path around the opponent's arm. Maintain constant tension on the arm throughout the spin to prevent them from yanking it free during the rotation phase. (Timing: 2-3 seconds for complete rotation) [Pressure: Firm]
-4. **Land in armbar position**: Complete the rotation by landing with your back on the mat, the opponent's arm extended across your body, and their thumb pointing upward. Your legs should immediately swing into position with one leg across their chest and the other over their face or neck. Your hips should be elevated and positioned close to their shoulder, with their arm trapped between your thighs. Ensure your knees are pinched together to prevent arm withdrawal. (Timing: 1 second to establish position) [Pressure: Firm]
-5. **Adjust for optimal angle**: Fine-tune your position by scooting your hips closer to the opponent's head and ensuring their thumb points directly up to the ceiling. Your legs should create a strong pinch around their shoulder and head to prevent rotation or escape. Pull their wrist toward your chest while keeping their elbow centered on your hip crease. Your knees should be tight together and your feet hooked if possible to maximize control. (Timing: 1-2 seconds) [Pressure: Firm]
-6. **Apply extension pressure**: With position secured, lift your hips toward the ceiling while pulling their wrist toward your chest. The extension should be smooth and progressive, applying pressure to the elbow joint in a controlled manner. Keep your knees pinched and your legs active to prevent escape attempts. Increase pressure gradually until the tap comes, never jerking or spiking the submission. Monitor their body language for signs of resistance or submission throughout the process. (Timing: 2-4 seconds progressive pressure) [Pressure: Maximum]
+1. **Secure arm control**: Establish a firm two-handed grip on the opponent's arm - one hand controlling the wrist and the other gripping above the elbow or on the triceps. Pull the arm across your centerline to isolate it from their body and create the initial separation needed for the spin. Ensure your grip is tight and your elbows are pulled in close to maintain control throughout the rotation. (Timing: 1-2 seconds for grip establishment)
+2. **Break opponent's posture**: Use your grip to pull the opponent forward and off-balance, breaking their defensive posture. If in guard, open your guard and place your feet on their hips or shoulders to create distance while maintaining arm control. If from mount or top position, shift your weight to compromise their base. This postural disruption is critical to prevent them from following your rotation and escaping. (Timing: 1 second)
+3. **Initiate the spin**: Begin rotating your body toward the side of the controlled arm by pivoting on your shoulder and hips. Keep the opponent's arm pinned tightly to your chest as you spin, using your legs to push off their body or the mat for momentum. Your head should lead the rotation while your hips follow in a circular path around the opponent's arm. Maintain constant tension on the arm throughout the spin to prevent them from yanking it free during the rotation phase. (Timing: 2-3 seconds for complete rotation)
+4. **Land in armbar position**: Complete the rotation by landing with your back on the mat, the opponent's arm extended across your body, and their thumb pointing upward. Your legs should immediately swing into position with one leg across their chest and the other over their face or neck. Your hips should be elevated and positioned close to their shoulder, with their arm trapped between your thighs. Ensure your knees are pinched together to prevent arm withdrawal. (Timing: 1 second to establish position)
+5. **Adjust for optimal angle**: Fine-tune your position by scooting your hips closer to the opponent's head and ensuring their thumb points directly up to the ceiling. Your legs should create a strong pinch around their shoulder and head to prevent rotation or escape. Pull their wrist toward your chest while keeping their elbow centered on your hip crease. Your knees should be tight together and your feet hooked if possible to maximize control. (Timing: 1-2 seconds)
+6. **Apply extension pressure**: With position secured, lift your hips toward the ceiling while pulling their wrist toward your chest. The extension should be smooth and progressive, applying pressure to the elbow joint in a controlled manner. Keep your knees pinched and your legs active to prevent escape attempts. Increase pressure gradually until the tap comes, never jerking or spiking the submission. Monitor their body language for signs of resistance or submission throughout the process. (Timing: 2-4 seconds progressive pressure)
 
 
 </section>
@@ -258,25 +258,25 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing arm control during the rotation phase [Medium DANGER]
+- **Mistake**: Releasing arm control during the rotation phase
   - **Consequence**: Opponent yanks their arm free mid-spin, completely escaping the submission and often achieving a dominant position
   - **Correction**: Maintain constant tension on the arm by keeping it pinned tightly to your chest throughout the entire rotation. Your grip should never loosen even momentarily during the spin.
-- **Mistake**: Spinning without breaking opponent's posture first [Low DANGER]
+- **Mistake**: Spinning without breaking opponent's posture first
   - **Consequence**: Opponent easily follows your rotation and escapes, or worse, passes your guard during your spinning attempt
   - **Correction**: Always break their posture before initiating the spin using off-balancing, foot placement on hips, or grip manipulation. Only spin when they are compromised and cannot follow your movement.
-- **Mistake**: Landing with insufficient leg control after the spin [Low DANGER]
+- **Mistake**: Landing with insufficient leg control after the spin
   - **Consequence**: Opponent can extract their arm easily or roll out of the submission before you establish the finishing position
   - **Correction**: Immediately establish leg position as you complete the rotation. Your legs should land across their chest and face simultaneously with your back hitting the mat. Practice the complete motion as one fluid sequence.
-- **Mistake**: Applying extension pressure before the rotation is complete [CRITICAL DANGER]
+- **Mistake**: Applying extension pressure before the rotation is complete
   - **Consequence**: Creates dangerous torque on the elbow joint at awkward angles, significantly increasing injury risk even with slow application
   - **Correction**: Complete the full rotation and establish proper position before applying any extension pressure. The arm should be aligned correctly with thumb up before finishing. Never extend during the spin itself.
-- **Mistake**: Spinning too slowly or hesitantly [Low DANGER]
+- **Mistake**: Spinning too slowly or hesitantly
   - **Consequence**: Telegraphs your intention and gives opponent time to defend, follow your movement, or counter with their own technique
   - **Correction**: Commit fully to the rotation once initiated. The spin should be one decisive, fluid motion that generates enough momentum to complete the transition before opponent can react. Practice the timing and speed through drilling.
-- **Mistake**: Gripping only the wrist without controlling above the elbow [Medium DANGER]
+- **Mistake**: Gripping only the wrist without controlling above the elbow
   - **Consequence**: Opponent can roll their arm and rotate out of the submission, or bend their elbow to create escape space
   - **Correction**: Always establish a two-point grip - one hand on the wrist and one hand above the elbow or on the triceps. This prevents arm rotation and maintains control throughout the technique.
-- **Mistake**: Jerking or spiking the armbar after landing from the spin [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the armbar after landing from the spin
   - **Consequence**: Causes sudden hyperextension of the elbow joint, potentially resulting in ligament tears or dislocation before opponent can tap
   - **Correction**: Apply extension pressure smoothly and progressively over 3-4 seconds minimum. The tap will come from proper position and gradual pressure, not explosive force. Control and patience are essential.
 
@@ -343,43 +343,6 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Visualization** (1-2 weeks)
-- Focus: Study the mechanics of the spinning armbar without any physical execution. Watch demonstrations, understand the rotational path, identify critical control points, and visualize the complete sequence from entry to finish. Discuss safety considerations including when pressure should never be applied and common injury mechanisms.
-- Resistance: None
-- Safety: Understanding that the rotation and extension are two separate phases, with extension only applied after proper position is established. Learn to recognize the difference between positional control and submission pressure.
-
-**Static Position Drills** (2-3 weeks)
-- Focus: Practice establishing the final armbar position without the spinning entry. Start with partner already in position and practice leg placement, hip alignment, and proper arm control. Work on the finishing mechanics with extremely slow, controlled pressure to understand the feel of a correctly positioned armbar.
-- Resistance: Zero resistance
-- Safety: Partner must tap early and often as you learn proper pressure application. Focus on maintaining thumb-up alignment and progressive pressure over 5-7 seconds minimum. Never spike or jerk the submission.
-
-**Slow Motion Spinning Drills** (3-4 weeks)
-- Focus: Practice the spinning motion in slow motion with a fully cooperative partner who maintains their arm extended and does not resist. Break the movement into distinct phases: grip establishment, posture break, initiation of spin, rotation, landing, position adjustment. Complete the full sequence multiple times without applying any finishing pressure.
-- Resistance: Zero resistance
-- Safety: Focus entirely on smooth, controlled rotation without any extension pressure at any point. Partner should provide feedback on grip tightness and whether they feel safe throughout the movement. Stop immediately if balance is lost or position feels awkward.
-
-**Integrated Spinning with Controlled Finish** (4-6 weeks)
-- Focus: Combine the spinning entry with the finishing position, but maintain slow execution speed. Partner provides zero resistance during the spin but maintains realistic defensive posture before the entry. Practice completing the full technique including the finish, but apply pressure extremely slowly and release immediately upon tap.
-- Resistance: Mild resistance
-- Safety: Partner must tap early before full extension. Practitioner must demonstrate ability to stop pressure immediately upon tap. If any jerking or uncontrolled movement occurs, return to previous phase until smoothness is restored.
-
-**Realistic Resistance Training** (2-3 months)
-- Focus: Partner provides realistic resistance including grip fighting, postural defense, and attempts to follow your rotation. Practice timing the entry based on opponent reactions and windows of opportunity. Increase speed of execution gradually but maintain controlled finishing pressure. Begin to recognize when the spinning armbar is available versus when other techniques are more appropriate.
-- Resistance: Realistic resistance
-- Safety: Both partners must understand and respect tap signals during dynamic movement. Partner should tap during the rotation phase if they feel their arm is unsafe, even before the finish is established. Practitioner must be able to abort the technique mid-rotation if position becomes compromised or unsafe.
-
-**Full Speed Integration and Sparring** (Ongoing)
-- Focus: Execute the spinning armbar at full speed during positional sparring and live rolling. Integrate the technique into your overall game, recognizing opportunities during scrambles, from various positions, and as part of submission chains. Develop the ability to transition to other attacks if the spinning armbar is defended.
-- Resistance: Full resistance
-- Safety: Maintain training-speed finishing pressure even during full resistance practice. The entry can be fast, but the finish must remain controlled. Respect taps immediately and check with partner if any position felt unsafe. Continue to distinguish between competition application and training safety protocols.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -436,6 +399,7 @@ The Spinning Armbar is a dynamic and versatile submission technique that targets
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

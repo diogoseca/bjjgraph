@@ -85,21 +85,23 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[De La Riva Sweep]]** (18% of attempts)
+- **[[De La Riva Sweep]]** (17% of attempts)
 
-- **[[De La Riva to X-Guard Transition]]** (17% of attempts)
+- **[[De La Riva to X-Guard Transition]]** (15% of attempts)
 
-- **[[Berimbolo Entry]]** (15% of attempts)
+- **[[Berimbolo Entry]]** (13% of attempts)
 
-- **[[Kiss of the Dragon]]** (10% of attempts)
+- **[[Kiss of the Dragon]]** (9% of attempts)
 
-- **[[Single Leg X Entry]]** (15% of attempts)
+- **[[Single Leg X Entry]]** (13% of attempts)
 
-- **[[Waiter Sweep]]** (10% of attempts)
+- **[[Waiter Sweep]]** (9% of attempts)
 
-- **[[Balloon Sweep]]** (8% of attempts)
+- **[[Balloon Sweep]]** (7% of attempts)
 
-- **[[Outside Ashi Entry]]** (7% of attempts)
+- **[[Outside Ashi Entry]]** (6% of attempts)
+
+- **[[Sickle Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes

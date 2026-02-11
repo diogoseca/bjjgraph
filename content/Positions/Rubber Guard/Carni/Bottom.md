@@ -390,11 +390,11 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 30% |
-| Intermediate | 55% | 60% | 50% |
-| Advanced     | 70% | 75% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 68% |
+| Submission Probability | 58% |
 
 **Average Time in Position**: 15-45 seconds
 

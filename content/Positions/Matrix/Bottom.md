@@ -376,11 +376,11 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 15% |
-| Intermediate | 50% | 45% | 30% |
-| Advanced     | 70% | 65% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 55% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 2-4 seconds for rotation execution, 5-10 seconds total to establish back control
 

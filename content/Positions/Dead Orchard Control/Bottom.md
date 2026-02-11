@@ -357,11 +357,11 @@ Start in established dead orchard control bottom position. Bottom player works t
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 10% | 15% | 5% |
-| Intermediate | 25% | 30% | 10% |
-| Advanced     | 40% | 45% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 32% |
+| Advancement Probability | 38% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds before submission or escape
 
@@ -373,7 +373,7 @@ Start in established dead orchard control bottom position. Bottom player works t
 ## Related Positions and Techniques
 
 - **[[Anaconda Control]]** - Common transition - dead orchard often becomes full anaconda control
-- **[[D'arce Control]]** - Similar defensive challenges - same escape principles apply
+- **[[Darce Control]]** - Similar defensive challenges - same escape principles apply
 - **[[Front Headlock]]** - Parent position - dead orchard is specialized variation
 - **[[Turtle]]** - Typical entry position - prevention starts in turtle defense
 - **[[Guillotine Control]]** - Alternative submission threat from same control framework

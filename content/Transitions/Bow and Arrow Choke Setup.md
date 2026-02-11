@@ -157,7 +157,7 @@ Strategically, this transition exploits the opponent's compromised defensive pos
 The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap control while securing collar depth, then transitioning hips to the perpendicular angle while managing the opponent's ability to turn or create defensive frames. The trapped arm paradoxically becomes a liability for the defender as they cannot use it to push away or block the hip transition. Successful execution positions the attacker for one of the highest-percentage gi finishes available from back control variants.
 
 **From Position**: [[Gift Wrap/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate Gift Wrap control**: Ensure the Gift Wrap arm trap is secure with the opponent's arm pulled high across their chest toward the opposite shoulder. Your threading arm should be controlling their wrist or forearm firmly. Verify your hooks or body control are preventing hip movement. This foundation must be solid before initiating the collar grip transition. (Timing: Foundation phase - 2-3 seconds)
-2. **Establish collar grip with free hand**: While maintaining the Gift Wrap control with one arm, use your other hand to reach across and secure a deep four-finger grip inside the opponent's collar on the choking side. Your thumb stays outside while fingers penetrate as deep as possible toward the back of their neck. The Gift Wrap prevents them from hand fighting this grip establishment. (Timing: Grip acquisition phase - 3-4 seconds)
-3. **Transfer primary control to collar**: Begin shifting your control emphasis from the Gift Wrap arm trap to the collar grip. Pull the collar grip tight to ensure it won't slip during transition. You can begin releasing Gift Wrap pressure as the collar grip takes over the primary control function. The trapped arm may begin recovering but the collar grip now dominates. (Timing: Control transfer phase - 2-3 seconds)
-4. **Initiate hip rotation**: Start rotating your hips away from parallel alignment with the opponent's spine toward a perpendicular position. Use your bottom hook to push off the mat while your top hook pulls their body. Keep chest pressed against the back of their head throughout this rotation. Target approximately 90 degrees between your torso and their spine. (Timing: Hip transition phase - 3-4 seconds)
-5. **Secure far leg control**: As your hips achieve perpendicular angle, your now-free hand secures the opponent's far-side pants at the knee or hooks their far leg with your top leg. This leg control prevents them from turning into you and establishes the foundation for the bow tension. The combination of collar grip and leg control creates the bow and arrow framework. (Timing: Leg control phase - 2-3 seconds)
-6. **Finalize back control position**: Complete the transition by establishing full back control with bow and arrow configuration: deep collar grip on choking side, perpendicular hip angle, far leg controlled, chest pressing opponent's head. From here you can execute the Bow and Arrow Choke finish by extending your legs and pulling the collar toward your opposite shoulder to create the characteristic bow tension. (Timing: Position completion phase - 2-3 seconds)
+1. **Consolidate Gift Wrap control**: Ensure the Gift Wrap arm trap is secure with the opponent's arm pulled high across their chest toward the opposite shoulder. Your threading arm should be controlling their wrist or forearm firmly. Verify your hooks or body control are preventing hip movement. This foundation must be solid before initiating the collar grip transition.
+2. **Establish collar grip with free hand**: While maintaining the Gift Wrap control with one arm, use your other hand to reach across and secure a deep four-finger grip inside the opponent's collar on the choking side. Your thumb stays outside while fingers penetrate as deep as possible toward the back of their neck. The Gift Wrap prevents them from hand fighting this grip establishment.
+3. **Transfer primary control to collar**: Begin shifting your control emphasis from the Gift Wrap arm trap to the collar grip. Pull the collar grip tight to ensure it won't slip during transition. You can begin releasing Gift Wrap pressure as the collar grip takes over the primary control function. The trapped arm may begin recovering but the collar grip now dominates.
+4. **Initiate hip rotation**: Start rotating your hips away from parallel alignment with the opponent's spine toward a perpendicular position. Use your bottom hook to push off the mat while your top hook pulls their body. Keep chest pressed against the back of their head throughout this rotation. Target approximately 90 degrees between your torso and their spine.
+5. **Secure far leg control**: As your hips achieve perpendicular angle, your now-free hand secures the opponent's far-side pants at the knee or hooks their far leg with your top leg. This leg control prevents them from turning into you and establishes the foundation for the bow tension. The combination of collar grip and leg control creates the bow and arrow framework.
+6. **Finalize back control position**: Complete the transition by establishing full back control with bow and arrow configuration: deep collar grip on choking side, perpendicular hip angle, far leg controlled, chest pressing opponent's head. From here you can execute the Bow and Arrow Choke finish by extending your legs and pulling the collar toward your opposite shoulder to create the characteristic bow tension.
 
 
 </section>
@@ -257,19 +257,15 @@ The Bow and Arrow Choke Setup requires precise sequencing: maintaining Gift Wrap
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice collar grip establishment from Gift Wrap on a compliant partner. Focus on achieving maximum depth with four fingers. Drill the grip transfer from Gift Wrap arm control to collar control 20-30 times per session. No resistance, pure technical repetition.
-(Resistance: None)
 
 **Week 3-4** - Hip transition mechanics
 Add the hip rotation component while maintaining collar grip security. Practice the perpendicular angle transition with focus on keeping hooks engaged and chest connected to opponent's back. Partner remains compliant but moves naturally.
-(Resistance: Light)
 
 **Week 5-6** - Defensive recognition
 Partner provides mild resistance including arm recovery attempts and turning defense. Practice recognizing when to accelerate transition versus when to consolidate control. Develop timing for the critical grip transfer moment.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate the setup into regular rolling from Gift Wrap position. Chain with other back attacks when setup is defended. Develop your timing for recognizing ideal setup opportunities versus situations requiring alternative attacks.
-(Resistance: Full)
 
 
 

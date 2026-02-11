@@ -43,7 +43,7 @@
       "relationship": "Alternative guard recovery option from bottom defensive position"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Submission control available when opponent turns into top attacker"
     },
     {
@@ -120,7 +120,7 @@
           },
           {
             "technique": "Darce from Turtle",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 50
           }
         ]
@@ -236,7 +236,7 @@
         "relationship": "Primary technique - most direct path from position"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Submission control - available when opponent turns in"
       },
       {
@@ -250,19 +250,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 85
+        "value": 75
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "average_time": "30-90 seconds before advancement or escape"
     },
@@ -532,19 +526,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "30-90 seconds before transition or advancement"
     },

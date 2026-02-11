@@ -163,7 +163,7 @@ This transition exemplifies the principle that sophisticated turtle attack syste
 The anaconda configuration offers a distinct advantage over maintaining the buggy choke because the grip structure is inherently more stable and allows the gator roll finishing mechanic. Once the anaconda grip locks, the top player can roll the opponent to their back, eliminating the turtle base entirely and consolidating a finishing position that is extremely difficult to escape. This makes the transition particularly valuable in competition where opponents are adept at surviving turtle attacks but less prepared for the dynamic grip change to anaconda control.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The anaconda configuration offers a distinct advantage over maintaining the bugg
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize rotation trigger**: Feel the opponent begin rotating their torso toward your choking arm to relieve collar pressure. Their far shoulder drops toward the mat while the near shoulder rises, exposing the head-and-arm channel. This rotation is the primary cue to abandon the buggy choke angle and initiate the anaconda switch. (Timing: Within 1 second of feeling opponent's rotation)
-2. **Release collar and redirect threading arm**: Release the far-side collar grip with your threading arm and redirect it around the opponent's neck in a smooth arc. The palm transitions from facing up (collar grip) to curling around the neck with your forearm positioned across the throat and the blade of your wrist settling against the far-side carotid artery. (Timing: Immediate and continuous—no pause between release and redirect)
-3. **Trap the near arm**: As the threading arm encircles the neck, ensure the opponent's near arm remains trapped between your chest and their own head. Use your chest weight to pin this arm in place. The trapped arm is essential for the anaconda's compression mechanics—without it, the opponent can posture out of the choke. (Timing: Simultaneous with arm redirect)
-4. **Shoot support arm under far armpit**: Drive your opposite hand under the opponent's far armpit, threading deep enough that your hand emerges on the other side of their body. This arm completes the head-and-arm encirclement and provides the anchor point for the figure-four grip. Depth is critical—a shallow entry prevents proper grip connection. (Timing: Within 1-2 seconds of neck encirclement)
-5. **Lock figure-four grip**: Connect the figure-four by gripping your own bicep with the choking arm's hand while the support arm's hand presses firmly against the opponent's trapped shoulder or the back of their head. Squeeze your elbows together to eliminate slack and begin compressing the carotid arteries on both sides of the neck. (Timing: Secure grip before opponent can strip or posture)
-6. **Consolidate anaconda control position**: Walk your hips toward the opponent's head to increase the angle of compression. Drop your weight low and sprawl your legs back to flatten your body against the mat, creating maximum downward pressure through the grip. The opponent should feel bilateral carotid compression increasing with each adjustment of angle and pressure. (Timing: 2-3 seconds to fully consolidate position)
-7. **Initiate gator roll if needed**: If the opponent maintains turtle base despite the grip, initiate the gator roll by diving your head toward the mat on the far side and rolling the opponent over your body. The rolling motion breaks their base and places them on their back with the anaconda grip fully locked, creating the optimal finishing angle with gravity assisting the compression. (Timing: Execute within 3-5 seconds of grip lock if choke is not tightening sufficiently)
+1. **Recognize rotation trigger**: Feel the opponent begin rotating their torso toward your choking arm to relieve collar pressure. Their far shoulder drops toward the mat while the near shoulder rises, exposing the head-and-arm channel. This rotation is the primary cue to abandon the buggy choke angle and initiate the anaconda switch.
+2. **Release collar and redirect threading arm**: Release the far-side collar grip with your threading arm and redirect it around the opponent's neck in a smooth arc. The palm transitions from facing up (collar grip) to curling around the neck with your forearm positioned across the throat and the blade of your wrist settling against the far-side carotid artery.
+3. **Trap the near arm**: As the threading arm encircles the neck, ensure the opponent's near arm remains trapped between your chest and their own head. Use your chest weight to pin this arm in place. The trapped arm is essential for the anaconda's compression mechanics—without it, the opponent can posture out of the choke.
+4. **Shoot support arm under far armpit**: Drive your opposite hand under the opponent's far armpit, threading deep enough that your hand emerges on the other side of their body. This arm completes the head-and-arm encirclement and provides the anchor point for the figure-four grip. Depth is critical—a shallow entry prevents proper grip connection.
+5. **Lock figure-four grip**: Connect the figure-four by gripping your own bicep with the choking arm's hand while the support arm's hand presses firmly against the opponent's trapped shoulder or the back of their head. Squeeze your elbows together to eliminate slack and begin compressing the carotid arteries on both sides of the neck.
+6. **Consolidate anaconda control position**: Walk your hips toward the opponent's head to increase the angle of compression. Drop your weight low and sprawl your legs back to flatten your body against the mat, creating maximum downward pressure through the grip. The opponent should feel bilateral carotid compression increasing with each adjustment of angle and pressure.
+7. **Initiate gator roll if needed**: If the opponent maintains turtle base despite the grip, initiate the gator roll by diving your head toward the mat on the far side and rolling the opponent over your body. The rolling motion breaks their base and places them on their back with the anaconda grip fully locked, creating the optimal finishing angle with gravity assisting the compression.
 
 
 </section>
@@ -263,19 +263,15 @@ The anaconda configuration offers a distinct advantage over maintaining the bugg
 ## Training Progressions
 **Week 1-2** - Grip mechanics isolation
 Practice the arm redirect from buggy choke collar grip to anaconda neck encirclement on a stationary partner in turtle. Focus on smooth hand path, maintaining chest contact, and achieving proper figure-four depth. Drill 15-20 repetitions per side, emphasizing the continuous motion from collar release to neck wrap without pausing.
-(Resistance: None)
 
 **Week 3-4** - Rotation recognition and timing
 Partner provides light resistance and controlled rotational movements from turtle bottom. Practice reading the turning motion as the trigger for the anaconda switch. Alternate between maintaining buggy choke when partner stays static and switching to anaconda when partner rotates. Build pattern recognition for the correct timing window.
-(Resistance: Light)
 
 **Week 5-6** - Transition chains and counter responses
 Partner provides realistic defensive reactions including arm extraction attempts, sitting to guard, and chin tucking. Practice flowing between buggy choke maintenance, anaconda switch, darce switch, and crucifix entries based on defensive responses. Develop the full branching decision tree from buggy choke top position.
-(Resistance: Medium)
 
 **Week 7-8** - Competition simulation and finishing
 Full resistance positional sparring starting from buggy choke top. Top player must read defenses and execute appropriate transitions including the anaconda switch. Include the gator roll finishing sequence. Score for successful transitions, submission finishes, and positional advancement. Bottom player uses full defensive arsenal.
-(Resistance: Full)
 
 
 

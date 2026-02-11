@@ -157,7 +157,7 @@ Strategically, this attack functions as an excellent complement to choke attacks
 This transition represents a Type B submission setup, leading to Armbar Control rather than an immediate finish. The distinct control position allows for systematic breakdown of defensive grips before attempting the final hyperextension. Advanced practitioners chain this attack with traditional armbar variations and back-to-mount transitions, creating a comprehensive attacking system from back control.
 
 **From Position**: [[Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ This transition represents a Type B submission setup, leading to Armbar Control 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target arm**: From back control with seatbelt grip, identify which arm the opponent is using to defend their neck. Target the arm on the choking arm side (overhook side) as it provides optimal mechanical advantage. (Timing: When opponent commits both hands to neck defense)
-2. **Isolate the arm**: Release the seatbelt grip and use both hands to control the target arm's wrist. Pull the arm across opponent's centerline while maintaining chest-to-back pressure to prevent escape. (Timing: Immediately after identifying the target)
-3. **Position choking-side leg**: Swing the leg from the choking-arm side over opponent's head and shoulder, placing your calf across their face and neck. The foot should land near their opposite shoulder, trapping their upper body. (Timing: As wrist control is established)
-4. **Secure leg triangle configuration**: Figure-four your legs by placing the ankle of your top leg behind your bottom knee, creating a triangle configuration that locks opponent's shoulder and head in place while isolating the arm. (Timing: Before releasing any wrist control)
-5. **Adjust hip angle**: Rotate your hips to position your pubic bone against the back of opponent's elbow. This creates the fulcrum point necessary for hyperextension. Keep opponent's thumb pointing toward the ceiling. (Timing: After leg triangle is locked)
-6. **Apply breaking pressure**: Bridge your hips upward while pulling the wrist toward your chest to hyperextend the elbow joint. Squeeze your knees together to prevent arm extraction and maintain constant pressure until tap. (Timing: When control is complete)
+1. **Identify target arm**: From back control with seatbelt grip, identify which arm the opponent is using to defend their neck. Target the arm on the choking arm side (overhook side) as it provides optimal mechanical advantage.
+2. **Isolate the arm**: Release the seatbelt grip and use both hands to control the target arm's wrist. Pull the arm across opponent's centerline while maintaining chest-to-back pressure to prevent escape.
+3. **Position choking-side leg**: Swing the leg from the choking-arm side over opponent's head and shoulder, placing your calf across their face and neck. The foot should land near their opposite shoulder, trapping their upper body.
+4. **Secure leg triangle configuration**: Figure-four your legs by placing the ankle of your top leg behind your bottom knee, creating a triangle configuration that locks opponent's shoulder and head in place while isolating the arm.
+5. **Adjust hip angle**: Rotate your hips to position your pubic bone against the back of opponent's elbow. This creates the fulcrum point necessary for hyperextension. Keep opponent's thumb pointing toward the ceiling.
+6. **Apply breaking pressure**: Bridge your hips upward while pulling the wrist toward your chest to hyperextend the elbow joint. Squeeze your knees together to prevent arm extraction and maintain constant pressure until tap.
 
 
 </section>
@@ -257,19 +257,15 @@ This transition represents a Type B submission setup, leading to Armbar Control 
 ## Training Progressions
 **Week 1-2** - Leg positioning mechanics
 Practice the leg swing and figure-four triangle configuration in isolation. Partner remains stationary while you drill the motion of bringing leg over head and locking the triangle. Focus on smooth transitions without releasing chest-to-back connection.
-(Resistance: None)
 
 **Week 3-4** - Arm isolation and control
 Add wrist control and arm isolation to the sequence. Partner provides light grip defense, requiring you to break grips and maintain arm control while transitioning to leg triangle. Emphasize the timing of releasing seatbelt and establishing wrist control.
-(Resistance: Light)
 
 **Week 5-6** - Finishing mechanics and counters
 Practice the complete submission sequence with partner providing moderate resistance and common defensive reactions. Work on hip bridge timing, maintaining control through escape attempts, and transitioning to alternative attacks when primary finish is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate the technique into live rolling from back control. Practice recognizing opportunities when opponent defends neck, executing under pressure, and chaining with rear naked choke and traditional armbar attacks. Develop sensitivity to when this attack is available versus when other options are superior.
-(Resistance: Full)
 
 
 

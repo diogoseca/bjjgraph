@@ -157,7 +157,7 @@ Strategically, this transition serves as a critical component of the back attack
 The key to success lies in recognizing the correct timing window: when the opponent commits both hands to neck defense, their arm structure becomes vulnerable. You must transition decisively, maintaining control throughout the movement from back to armbar position. Hesitation allows the opponent to retract their arms, recover posture, or exploit the positional instability inherent in standing transitions. Advanced practitioners chain this attack with choke attempts, creating a dilemma where defending one threat opens vulnerability to the other.
 
 **From Position**: [[Standing Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The key to success lies in recognizing the correct timing window: when the oppon
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target arm**: While maintaining back control, observe opponent's defensive hand positioning. Target the arm that is most extended or committed to defending your choking arm, typically the hand fighting your over-the-shoulder grip. (Timing: When opponent commits both hands to neck defense)
-2. **Secure wrist control**: With your choking arm (over-the-shoulder arm), transition from choke threat to wrist control on the target arm. Grip at the wrist firmly, pulling the arm across your centerline to begin isolating the limb. (Timing: Immediately after identifying arm exposure)
-3. **Thread leg across face**: On the same side as the trapped arm, swing your leg over opponent's shoulder and across their face/neck. This leg will control their posture and prevent them from turning into you or stacking during the transition. (Timing: Simultaneously with wrist control establishment)
-4. **Rotate and descend**: Using your leg across their face as a pivot point, rotate your hips away from opponent while maintaining wrist control. Allow gravity and your rotation to bring both bodies to the ground with you landing on your back. (Timing: Smooth continuous motion, not segmented)
-5. **Secure armbar position**: As you land, immediately pinch your knees together around the trapped arm, keeping the elbow joint positioned against your hip crease. Your top leg should remain heavy across opponent's face to control their posture. (Timing: Upon ground contact)
-6. **Finish the armbar**: Control the wrist with both hands, thumb side facing up. Elevate your hips into the elbow joint while pulling the wrist toward your chest. Maintain knee pressure and posture control throughout the extension for the tap. (Timing: Controlled extension, not explosive)
+1. **Identify target arm**: While maintaining back control, observe opponent's defensive hand positioning. Target the arm that is most extended or committed to defending your choking arm, typically the hand fighting your over-the-shoulder grip.
+2. **Secure wrist control**: With your choking arm (over-the-shoulder arm), transition from choke threat to wrist control on the target arm. Grip at the wrist firmly, pulling the arm across your centerline to begin isolating the limb.
+3. **Thread leg across face**: On the same side as the trapped arm, swing your leg over opponent's shoulder and across their face/neck. This leg will control their posture and prevent them from turning into you or stacking during the transition.
+4. **Rotate and descend**: Using your leg across their face as a pivot point, rotate your hips away from opponent while maintaining wrist control. Allow gravity and your rotation to bring both bodies to the ground with you landing on your back.
+5. **Secure armbar position**: As you land, immediately pinch your knees together around the trapped arm, keeping the elbow joint positioned against your hip crease. Your top leg should remain heavy across opponent's face to control their posture.
+6. **Finish the armbar**: Control the wrist with both hands, thumb side facing up. Elevate your hips into the elbow joint while pulling the wrist toward your chest. Maintain knee pressure and posture control throughout the extension for the tap.
 
 
 </section>
@@ -253,19 +253,15 @@ The key to success lies in recognizing the correct timing window: when the oppon
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the transition movement pattern without resistance. Focus on the rotation mechanics, leg placement across face, and landing in proper armbar position. Drill from standing back control to armbar position 20-30 repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light neck defense, creating realistic arm positioning. Practice recognizing the trigger (both hands on neck) and executing smooth transition. Emphasize maintaining control throughout the movement sequence.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the armbar transition with rear naked choke attempts. Attack choke, transition to armbar when defended, return to choke if arm is retracted. Practice reading opponent reactions and selecting appropriate attack.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from standing back control. Partner defends with full resistance. Focus on recognizing opportunities in real-time and executing under pressure with proper mechanics.
-(Resistance: Full)
 
 
 

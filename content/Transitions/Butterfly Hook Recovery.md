@@ -157,7 +157,7 @@ The strategic importance of this technique cannot be overstated for bottom playe
 Timing is the critical factor that separates successful butterfly hook recoveries from failed attempts that result in immediate pass completion. The window for insertion exists when the passer's weight shifts forward, backward, or laterally - any moment when their pressure is not driving directly into your hips. Advanced practitioners develop the sensitivity to feel these micro-adjustments and insert hooks almost reflexively, while beginners must consciously look for larger, more obvious opportunities.
 
 **From Position**: [[Double Unders/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Timing is the critical factor that separates successful butterfly hook recoverie
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frame**: Create a cross-face frame with your forearm against opponent's jaw or neck, using skeletal structure rather than muscular force. This frame generates space proportional to their forward pressure. (Timing: Immediately when pressure lightens)
-2. **Hip escape**: Execute a shrimping motion away from the opponent, creating space between your hip and their chest. The hip escape is critical for generating the gap needed for hook insertion. (Timing: Simultaneous with frame pressure)
-3. **Bend inside knee**: Draw your inside knee toward your chest by bending at the hip and knee, preparing to insert your instep as a butterfly hook. Keep the foot active with toes pointed. (Timing: As hip escape creates space)
-4. **Insert butterfly hook**: Thread your instep between your body and opponent's inner thigh, establishing the butterfly hook with your foot positioned inside their hip crease for maximum control. (Timing: Immediately after knee clears their arm)
-5. **Establish upper body control**: Secure a collar grip, overhook, or underhook with your free arm to prevent opponent from simply re-smashing through your newly established hook. Head control is especially effective. (Timing: As hook seats into position)
-6. **Recover second hook or threaten sweep**: Either insert the second butterfly hook for full guard recovery, or immediately threaten an elevation sweep with the single hook to force opponent into defensive posture and create opportunity for complete guard recovery. (Timing: Immediately after first hook is secure)
+1. **Establish frame**: Create a cross-face frame with your forearm against opponent's jaw or neck, using skeletal structure rather than muscular force. This frame generates space proportional to their forward pressure.
+2. **Hip escape**: Execute a shrimping motion away from the opponent, creating space between your hip and their chest. The hip escape is critical for generating the gap needed for hook insertion.
+3. **Bend inside knee**: Draw your inside knee toward your chest by bending at the hip and knee, preparing to insert your instep as a butterfly hook. Keep the foot active with toes pointed.
+4. **Insert butterfly hook**: Thread your instep between your body and opponent's inner thigh, establishing the butterfly hook with your foot positioned inside their hip crease for maximum control.
+5. **Establish upper body control**: Secure a collar grip, overhook, or underhook with your free arm to prevent opponent from simply re-smashing through your newly established hook. Head control is especially effective.
+6. **Recover second hook or threaten sweep**: Either insert the second butterfly hook for full guard recovery, or immediately threaten an elevation sweep with the single hook to force opponent into defensive posture and create opportunity for complete guard recovery.
 
 
 </section>
@@ -251,19 +251,15 @@ Timing is the critical factor that separates successful butterfly hook recoverie
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the frame-to-hip-escape-to-hook sequence in isolation with no resistance. Partner holds double unders position statically while you drill the mechanical sequence 20+ repetitions per side. Focus on smooth transitions between steps.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner applies light forward pressure with intentional pauses and weight shifts. Practice recognizing the timing windows when pressure lightens and executing hook insertion during those moments. Track success rate of insertions.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain butterfly hook recovery with immediate sweep attempts. Partner resists the hook insertion at 50% and you must either complete the recovery or immediately threaten a sweep. Add transitions to de la riva and single leg x when opponent retreats.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from double unders bottom. Reset when guard is recovered or pass is completed. Track recovery rate and time to recovery. Identify which timing windows work against specific passing styles.
-(Resistance: Full)
 
 
 

@@ -14,11 +14,6 @@
   "submission_type": "Leg Lock",
   "target_area": "Ankle, knee ligaments, and surrounding connective tissue",
   "starting_position": "Inside Ashi-Garami",
-  "success_rates": {
-    "beginner": 20,
-    "intermediate": 40,
-    "advanced": 65
-  },
   "overview": "The Inside Heel Hook is one of the most powerful and dangerous leg locks in Brazilian Jiu-Jitsu, targeting the ankle joint, knee ligaments (ACL, MCL, LCL), and surrounding connective tissue through rotational force. Applied primarily from Inside Ashi-Garami (inside leg entanglement position), this submission creates torque on the opponent's leg by controlling the heel and rotating it against the natural range of motion of the knee joint. The Inside Heel Hook differs from the Outside Heel Hook in the direction of rotation and the leg entanglement configuration—the inside position places your inside leg across the opponent's hip while your outside leg hooks over their trapped leg, creating a figure-four control that isolates the limb. This submission is notorious for its rapid finish time and the difficulty opponents face in recognizing when they are in danger, as there is often minimal pain before catastrophic ligament damage occurs. The mechanical advantage created by proper hip placement and heel control generates enormous rotational force that can rupture ligaments in under one second when applied at full speed, making it absolutely essential that practitioners understand the safety protocols and training progressions before attempting this technique. The systematic development of inside heel hook mechanics requires mastery of leg entanglement entries, positional control maintenance, and precise finishing mechanics that prioritize control over speed in all training applications.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Secure inside ashi-garami control",
       "description": "From leg entanglement or guard position, establish inside ashi-garami by placing your inside leg across opponent's hip (your left leg across their right hip if attacking their right leg) and hooking your outside leg over the back of their trapped leg. Ensure your outside leg hooks deeply, with your heel pulling their leg toward you while your inside leg prevents hip rotation. This configuration isolates the opponent's leg and creates the foundation for heel control.",
-      "timing": "2-3 seconds to establish secure position",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds to establish secure position"
     },
     {
       "step_number": 2,
       "action": "Attack the heel grip",
       "description": "Reach across your body with both hands and establish a five-finger grip on opponent's heel. Your thumbs should be positioned on the Achilles tendon with fingers wrapped around the heel bone. The grip should be palm-to-palm with fingers interlaced for maximum strength, or cupping grip with one hand reinforcing the other. Pull the heel tightly to your chest or shoulder area, eliminating space between their heel and your body. This connection is the critical control point for the submission.",
-      "timing": "1-2 seconds to secure grip before opponent defends",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds to secure grip before opponent defends"
     },
     {
       "step_number": 3,
       "action": "Clear opponent's defensive grips",
       "description": "Before beginning rotation, ensure opponent cannot strip your heel control by breaking any grips they have established on your hands, wrists, or arms. Use head position, shoulder pressure, or grip breaks to clear their defensive grips. If opponent has strong upper body control, you may need to adjust your angle or use your inside leg to create distance from their upper body attacks. Never begin rotation while opponent has strong grips on your controlling hands.",
-      "timing": "Varies based on opponent's defense, 1-4 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Varies based on opponent's defense, 1-4 seconds"
     },
     {
       "step_number": 4,
       "action": "Position hips for maximum leverage",
       "description": "Adjust your hip position so your inside hip is tightly against opponent's hip or thigh, creating a fixed point that prevents their leg from rotating with your finishing motion. Your hips should be slightly back (not directly parallel to opponent), creating an angle that allows maximum rotation of their leg. The tighter your hip connection to their body, the more effective the leverage system becomes. This hip positioning transforms your body into a mechanical lever.",
-      "timing": "1-2 seconds of adjustment",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds of adjustment"
     },
     {
       "step_number": 5,
       "action": "Extend hips and begin external rotation",
       "description": "Keeping the heel pulled tightly to your chest, extend your hips backward while simultaneously beginning external rotation of the heel (rotating away from your body and toward opponent's toes). The rotation should be smooth and progressive, never jerky or explosive. Your core and hips generate the rotation while your arms maintain the connection—this is not an arm-strength submission. Think of the motion as trying to show the sole of their foot to the ceiling while maintaining heel-to-chest connection.",
-      "timing": "SLOW progression over 3-5 seconds in training",
-      "pressure_level": "Firm"
+      "timing": "SLOW progression over 3-5 seconds in training"
     },
     {
       "step_number": 6,
       "action": "Control throughout finish or release",
       "description": "Maintain constant awareness of partner's tap signals throughout the entire finishing sequence. In training, stop immediately at first sign of resistance or discomfort. Continue to control opponent's free leg with your leg entanglement to prevent them from creating escape angles. If opponent taps, immediately stop all rotational pressure and release heel control completely before releasing leg entanglement. In competition, continue applying pressure only until clear tap signal is given. Never add additional rotation after opponent begins tapping.",
-      "timing": "Continuous until tap or release decision",
-      "pressure_level": "Firm"
+      "timing": "Continuous until tap or release decision"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,50 +149,42 @@
     {
       "error": "Pulling heel straight back toward yourself instead of rotating externally",
       "consequence": "Minimal pressure on knee joint, submission is ineffective, opponent easily defends",
-      "correction": "Focus on external rotation motion (turning heel away from your body) rather than pulling motion. The heel should move toward opponent's toes in an arc, not straight back toward your chest.",
-      "danger_level": "Low"
+      "correction": "Focus on external rotation motion (turning heel away from your body) rather than pulling motion. The heel should move toward opponent's toes in an arc, not straight back toward your chest."
     },
     {
       "error": "Using arm strength instead of hip extension and rotation for finishing pressure",
       "consequence": "Weak submission that fatigues your grip quickly, opponent has time to escape",
-      "correction": "Lock heel position to your chest/shoulder and generate all finishing pressure from hip extension and torso rotation. Your arms are connection points only, not the power source.",
-      "danger_level": "Low"
+      "correction": "Lock heel position to your chest/shoulder and generate all finishing pressure from hip extension and torso rotation. Your arms are connection points only, not the power source."
     },
     {
       "error": "Poor hip positioning with space between your hip and opponent's hip",
       "consequence": "Opponent can rotate their leg with your rotation, dissipating pressure and enabling escape",
-      "correction": "Ensure your inside hip is tightly connected to opponent's hip or thigh, creating fixed point that prevents their leg rotation. Eliminate all space in the system.",
-      "danger_level": "Low"
+      "correction": "Ensure your inside hip is tightly connected to opponent's hip or thigh, creating fixed point that prevents their leg rotation. Eliminate all space in the system."
     },
     {
       "error": "Allowing slack in the outside leg hook, letting opponent's leg move freely",
       "consequence": "Opponent escapes leg entanglement by extending or withdrawing leg, losing submission entirely",
-      "correction": "Maintain constant tension with outside leg hook pulling opponent's leg toward you. Your heel should be actively pulling at all times, never passive.",
-      "danger_level": "Medium"
+      "correction": "Maintain constant tension with outside leg hook pulling opponent's leg toward you. Your heel should be actively pulling at all times, never passive."
     },
     {
       "error": "Neglecting to control opponent's free leg during finishing sequence",
       "consequence": "Opponent creates powerful frames or escape angles using free leg, escapes submission or sweeps you",
-      "correction": "Use your inside leg positioning or ashi-garami configuration to monitor and neutralize opponent's free leg throughout submission attempt. Adjust position if free leg becomes threatening.",
-      "danger_level": "Medium"
+      "correction": "Use your inside leg positioning or ashi-garami configuration to monitor and neutralize opponent's free leg throughout submission attempt. Adjust position if free leg becomes threatening."
     },
     {
       "error": "Applying explosive rotational force in training without progressive pressure",
       "consequence": "CATASTROPHIC KNEE INJURY to training partner with ligament rupture requiring surgery",
-      "correction": "ALWAYS apply pressure slowly and progressively over minimum 5-7 seconds in training. Stop immediately at first sign of resistance. This is non-negotiable for training safety.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply pressure slowly and progressively over minimum 5-7 seconds in training. Stop immediately at first sign of resistance. This is non-negotiable for training safety."
     },
     {
       "error": "Continuing to apply pressure after partner taps or shows distress",
       "consequence": "SEVERE INJURY including ACL tear, MCL tear, or combined ligament injury requiring surgical reconstruction",
-      "correction": "Develop conditioned response to release immediately upon any tap signal. Practice release protocol in every drilling session. Partner safety is absolute priority over finishing mechanics.",
-      "danger_level": "CRITICAL"
+      "correction": "Develop conditioned response to release immediately upon any tap signal. Practice release protocol in every drilling session. Partner safety is absolute priority over finishing mechanics."
     },
     {
       "error": "Attempting inside heel hook before mastering positional control and entry mechanics",
       "consequence": "Poor control leads to dangerous situations, injury risk to both participants, and reinforcement of bad technical habits",
-      "correction": "Spend months mastering inside ashi-garami positional control before attempting submission finish. Work through proper progression: position, control, then submission in that specific order.",
-      "danger_level": "High"
+      "correction": "Spend months mastering inside ashi-garami positional control before attempting submission finish. Work through proper progression: position, control, then submission in that specific order."
     }
   ],
   "variations_and_setups": [
@@ -290,50 +271,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Positional Study",
-      "timeframe": "2-4 weeks, 3-4 sessions per week",
-      "focus": "Study leg entanglement theory, watch instructional content, understand anatomical targets and injury mechanisms without live practice. Learn inside ashi-garami position mechanics, entries, and positional control without submission attempts. Understand the injury risks and safety protocols before physical practice.",
-      "resistance_level": "None",
-      "safety_emphasis": "Cognitive understanding of injury mechanisms and why slow application is mandatory. Study videos of proper technique and tap signals. Understand that ligaments fail before pain signals register."
-    },
-    {
-      "phase": "Positional Control Development",
-      "timeframe": "4-8 weeks, drilling 3-4 times per week",
-      "focus": "Master inside ashi-garami position entries, maintenance, and transitions without attempting submission finish. Drill leg entanglement configurations, hip positioning, and controlling opponent's legs from various entries. Partner provides zero resistance initially, gradually adding mild movement to test positional maintenance. No heel grips or rotational pressure during this phase.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Establish fundamental position control before attempting submissions. Build muscle memory for leg configurations and hip positioning. Develop sensitivity to partner's leg position and movement."
-    },
-    {
-      "phase": "Grip Mechanics and Heel Control",
-      "timeframe": "3-4 weeks",
-      "focus": "From established inside ashi-garami position, practice securing heel grips without applying rotational pressure. Focus on grip configurations, pulling heel to chest, and maintaining connection while partner provides zero resistance. Drill grip transitions and clearing defensive grips. Practice release protocols repeatedly—securing grip, holding for 3 seconds, then releasing completely.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Develop conditioned response for immediate release. Practice release protocol 10-15 times per session. Never apply any rotational pressure during this phase. Build confidence in grip strength and positioning."
-    },
-    {
-      "phase": "Slow-Speed Finishing Mechanics",
-      "timeframe": "4-6 weeks minimum",
-      "focus": "Begin applying extremely slow rotational pressure (5-7 second application minimum) with fully cooperative partner. Partner taps early and often to establish safe communication patterns. Practice complete finishing sequence: establish position, secure grip, clear defenses, position hips, begin rotation, stop on tap, release immediately. Focus on hip extension and torso rotation mechanics rather than arm strength.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "MANDATORY slow application speed. Partner must tap at first sensation of pressure (well before pain threshold). Practitioner must develop automatic release response to tap signals. This phase cannot be rushed—minimum 4-6 weeks required."
-    },
-    {
-      "phase": "Progressive Resistance and Defensive Study",
-      "timeframe": "2-3 months ongoing",
-      "focus": "Partner gradually adds defensive grips, hip movement, and escape attempts while practitioner maintains control and applies submission safely. Continue slow application speed (5-7 seconds minimum). Study opponent defensive patterns and develop adjustments while maintaining absolute safety protocols. Drill transitions between different ashi-garami positions while maintaining heel control.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Maintain slow application speed even with increased resistance. Both partners communicate throughout. Stop and reset if position becomes scrambled or unsafe. Never increase speed to counter resistance—improve position first."
-    },
-    {
-      "phase": "Situational Integration and Competition Preparation",
-      "timeframe": "Ongoing, months to years",
-      "focus": "Integrate inside heel hook into live positional sparring from specific starting positions (guard, leg entanglement, scrambles). Apply submission only against experienced training partners who understand the risks and tap early. Continue reinforcing safety protocols even at advanced skill levels. Study competition footage and high-level applications. For competition preparation, work with coach on responsible application speed decisions.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Even at advanced levels, maintain communication and early tap culture. Never apply competition-speed finishes in regular training. Reserve faster applications for competition only after years of technical development. Respect that one mistake can end training partner's career."
-    }
-  ],
   "from_positions": [
     "Inside Ashi-Garami",
     "50-50 Guard",
@@ -401,5 +338,6 @@
       "name": "Kneebar Control",
       "relationship": "Alternative leg attack when heel is hidden"
     }
-  ]
+  ],
+  "success_rate": 52
 }

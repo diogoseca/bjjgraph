@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Calf Slicer is a devastating compression lock that targets the calf muscle by wedging your shin bone against the back of your opponent's knee joint while creating opposing pressure through their ankle. From Inside Sankaku, this submission becomes available when the opponent straightens their trapped leg attempting to escape heel hook threats, or when they defensively hide their heel. The mechanical principle involves trapping the opponent's lower leg between your legs while using hip drive and ankle control to create a crushing pressure against the gastrocnemius and soleus muscles.\n\nStrategically, the Calf Slicer functions as an excellent secondary attack in the leg lock game. When opponents become adept at defending heel hooks by hiding their heel against their hip, they often straighten the knee to create space - this exact defensive posture exposes the calf to compression attack. The submission creates a painful crushing sensation that differs from the rotational damage of heel hooks, often catching opponents off guard who are focused entirely on protecting their heel.\n\nThe finish requires precise angle control and understanding that the submission works through compression rather than rotation. Your shin must wedge deeply behind their knee joint while you control their ankle and drive your hips forward. The tap typically comes quickly once the position is properly established, as the pain is immediate and attempting to fight through risks muscle damage.",
   "key_principles": [
     "Position your shin bone perpendicular to the back of opponent's knee joint for maximum compression leverage",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Recognize the opening",
-      "description": "Identify when opponent straightens their trapped leg, either defensively to hide heel or attempting to create escape space. This extended leg position exposes the calf for compression attack.",
-      "timing": "As opponent extends leg"
+      "description": "Identify when opponent straightens their trapped leg, either defensively to hide heel or attempting to create escape space. This extended leg position exposes the calf for compression attack."
     },
     {
       "step_number": 2,
       "action": "Position shin wedge",
-      "description": "Adjust your inside leg so your shin bone sits perpendicular to the back of their knee joint. The blade of your shin should wedge into the soft tissue behind their knee, creating the fulcrum point for compression.",
-      "timing": "Immediately after recognizing opening"
+      "description": "Adjust your inside leg so your shin bone sits perpendicular to the back of their knee joint. The blade of your shin should wedge into the soft tissue behind their knee, creating the fulcrum point for compression."
     },
     {
       "step_number": 3,
       "action": "Secure ankle control",
-      "description": "Grab their ankle or foot with both hands, trapping it against your chest or under your armpit. This grip prevents them from bending their knee to relieve pressure and gives you control of the finish.",
-      "timing": "Simultaneous with shin positioning"
+      "description": "Grab their ankle or foot with both hands, trapping it against your chest or under your armpit. This grip prevents them from bending their knee to relieve pressure and gives you control of the finish."
     },
     {
       "step_number": 4,
       "action": "Triangle your legs",
-      "description": "Maintain or re-establish your figure-four leg configuration around their thigh, ensuring your outside leg crosses over your inside leg to lock the position and prevent any escape attempt during the finish.",
-      "timing": "Before applying finishing pressure"
+      "description": "Maintain or re-establish your figure-four leg configuration around their thigh, ensuring your outside leg crosses over your inside leg to lock the position and prevent any escape attempt during the finish."
     },
     {
       "step_number": 5,
       "action": "Drive hips forward",
-      "description": "Extend your hips forward while pulling their ankle toward your body. This creates the opposing forces that compress their calf muscle against your shin wedge, generating intense pressure.",
-      "timing": "Controlled, progressive pressure"
+      "description": "Extend your hips forward while pulling their ankle toward your body. This creates the opposing forces that compress their calf muscle against your shin wedge, generating intense pressure."
     },
     {
       "step_number": 6,
       "action": "Complete the compression",
-      "description": "Continue hip extension while maintaining ankle control until opponent taps. The pressure should feel like their calf is being crushed between your shin and their own leg. Hold briefly after tap and release smoothly.",
-      "timing": "Maintain until tap"
+      "description": "Continue hip extension while maintaining ankle control until opponent taps. The pressure should feel like their calf is being crushed between your shin and their own leg. Hold briefly after tap and release smoothly."
     }
   ],
   "common_counters": [
@@ -147,26 +136,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamentals",
-      "description": "Practice shin wedge placement from static Inside Sankaku position. Partner keeps leg extended while you drill positioning your shin perpendicular to their knee joint. Focus on finding the optimal wedge angle and ankle grip without applying pressure.",
-      "resistance_level": "None"
+      "description": "Practice shin wedge placement from static Inside Sankaku position. Partner keeps leg extended while you drill positioning your shin perpendicular to their knee joint. Focus on finding the optimal wedge angle and ankle grip without applying pressure."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing",
-      "description": "Partner provides light heel hook defense by hiding heel and straightening leg. Recognize the calf slicer opening when they extend, and practice the transition from heel hook threat to calf compression. Work on smooth movement between attacks.",
-      "resistance_level": "Light"
+      "description": "Partner provides light heel hook defense by hiding heel and straightening leg. Recognize the calf slicer opening when they extend, and practice the transition from heel hook threat to calf compression. Work on smooth movement between attacks."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations",
-      "description": "Chain heel hook attempts with calf slicer attacks. When partner defends heel hook by straightening leg, immediately transition to calf compression. When they bend knee to escape calf slicer, return to heel hook. Build the dilemma system.",
-      "resistance_level": "Medium"
+      "description": "Chain heel hook attempts with calf slicer attacks. When partner defends heel hook by straightening leg, immediately transition to calf compression. When they bend knee to escape calf slicer, return to heel hook. Build the dilemma system."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Positional sparring from Inside Sankaku with full resistance. Work on recognizing openings, executing calf slicer against defensive opponents, and managing the position when opponents counter. Integrate into full rolling sessions.",
-      "resistance_level": "Full"
+      "description": "Positional sparring from Inside Sankaku with full resistance. Work on recognizing openings, executing calf slicer against defensive opponents, and managing the position when opponents counter. Integrate into full rolling sessions."
     }
   ],
   "variants_and_adaptations": [
@@ -189,53 +174,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Calf Slicer?",
-      "answer": "The primary goal is to create a compression lock against the calf muscle by wedging your shin bone behind the opponent's knee joint while controlling their ankle and driving your hips forward. This compression causes intense pain and potential muscle damage, forcing a tap through pain compliance.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to create a compression lock against the calf muscle by wedging your shin bone behind the opponent's knee joint while controlling their ankle and driving your hips forward. This compression causes intense pain and potential muscle damage, forcing a tap through pain compliance."
     },
     {
       "question": "What position do you start the Calf Slicer from?",
-      "answer": "This technique starts from Inside Sankaku (also called Honey Hole or 411) where you have your legs in a figure-four configuration around the opponent's trapped leg. The calf slicer becomes available when the opponent straightens their leg to defend heel hook attacks.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Inside Sankaku (also called Honey Hole or 411) where you have your legs in a figure-four configuration around the opponent's trapped leg. The calf slicer becomes available when the opponent straightens their leg to defend heel hook attacks."
     },
     {
       "question": "What are the key grips needed for the Calf Slicer?",
-      "answer": "The essential grip is two-handed control of the opponent's ankle or foot, trapping it firmly against your chest or under your armpit. This grip prevents them from bending their knee to escape the compression and gives you control over the finishing pressure. Your legs maintain the figure-four entanglement grip.",
-      "difficulty": "Beginner"
+      "answer": "The essential grip is two-handed control of the opponent's ankle or foot, trapping it firmly against your chest or under your armpit. This grip prevents them from bending their knee to escape the compression and gives you control over the finishing pressure. Your legs maintain the figure-four entanglement grip."
     },
     {
       "question": "How do you counter the Calf Slicer when caught in the position?",
-      "answer": "The primary defense is bending your knee to collapse the compression angle and remove the shin wedge from behind your knee. However, this defensive movement often exposes your heel for heel hook attacks. Alternative defenses include rotating toward the attacker to stack and remove the angle, or explosive hip escape to create distance.",
-      "difficulty": "Intermediate"
+      "answer": "The primary defense is bending your knee to collapse the compression angle and remove the shin wedge from behind your knee. However, this defensive movement often exposes your heel for heel hook attacks. Alternative defenses include rotating toward the attacker to stack and remove the angle, or explosive hip escape to create distance."
     },
     {
       "question": "When is the best time to attempt the Calf Slicer?",
-      "answer": "The optimal timing is when the opponent straightens their trapped leg, either defensively to hide their heel from heel hook threats, or when attempting to create space to escape the leg entanglement. The extended leg position exposes the back of the knee for shin wedge placement and creates the mechanical conditions for effective compression.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent straightens their trapped leg, either defensively to hide their heel from heel hook threats, or when attempting to create space to escape the leg entanglement. The extended leg position exposes the back of the knee for shin wedge placement and creates the mechanical conditions for effective compression."
     },
     {
       "question": "Your opponent hides their heel effectively against their hip - how do you use this to set up the calf slicer?",
-      "answer": "Apply steady hip pressure forward while threatening heel hook position. This forces opponent to choose between exposing heel or straightening their leg to create escape space. When they straighten the leg, immediately transition your inside shin perpendicular behind their knee and secure ankle control for the calf slicer.",
-      "difficulty": "Intermediate"
+      "answer": "Apply steady hip pressure forward while threatening heel hook position. This forces opponent to choose between exposing heel or straightening their leg to create escape space. When they straighten the leg, immediately transition your inside shin perpendicular behind their knee and secure ankle control for the calf slicer."
     },
     {
       "question": "What directional force creates the calf slicer compression?",
-      "answer": "The compression comes from opposing forces: your shin wedge pushes into the back of their knee while your hip drive forward and ankle pull backward create the crushing force against their calf muscle. This is pure compression pressure, not rotational like heel hooks - drive straight forward with hips while pulling ankle straight back.",
-      "difficulty": "Intermediate"
+      "answer": "The compression comes from opposing forces: your shin wedge pushes into the back of their knee while your hip drive forward and ankle pull backward create the crushing force against their calf muscle. This is pure compression pressure, not rotational like heel hooks - drive straight forward with hips while pulling ankle straight back."
     },
     {
       "question": "Your opponent bends their knee mid-attack to escape - what immediate follow-up attack becomes available?",
-      "answer": "When they bend their knee to escape calf slicer, their heel typically becomes exposed as it moves away from their hip. Immediately transition back to inside heel hook threat by adjusting your grip from ankle to heel and establishing the blade of your wrist against their Achilles. This creates the dilemma where each defense opens a different attack.",
-      "difficulty": "Advanced"
+      "answer": "When they bend their knee to escape calf slicer, their heel typically becomes exposed as it moves away from their hip. Immediately transition back to inside heel hook threat by adjusting your grip from ankle to heel and establishing the blade of your wrist against their Achilles. This creates the dilemma where each defense opens a different attack."
     },
     {
       "question": "How does shin wedge depth affect the submission percentage?",
-      "answer": "Deeper shin wedge placement significantly increases finish probability. When the shin sits superficially against the calf, opponents can muscle through the pressure or the wedge slips during hip drive. Deep wedge placement - where shin is firmly behind the knee joint - creates a true fulcrum that compounds pressure during hip extension and prevents escape.",
-      "difficulty": "Advanced"
+      "answer": "Deeper shin wedge placement significantly increases finish probability. When the shin sits superficially against the calf, opponents can muscle through the pressure or the wedge slips during hip drive. Deep wedge placement - where shin is firmly behind the knee joint - creates a true fulcrum that compounds pressure during hip extension and prevents escape."
     },
     {
       "question": "What adjustment do you make when an opponent attempts to stand up from your calf slicer position?",
-      "answer": "When they stand, maintain your leg entanglement and ankle grip while allowing your body to hang from their trapped leg. Their standing actually increases compression pressure as your body weight adds to the downward force on the wedge. Pull ankle firmly and they often tap faster standing than on the ground due to gravity assistance.",
-      "difficulty": "Advanced"
+      "answer": "When they stand, maintain your leg entanglement and ankle grip while allowing your body to hang from their trapped leg. Their standing actually increases compression pressure as your body weight adds to the downward force on the wedge. Pull ankle firmly and they often tap faster standing than on the ground due to gravity assistance."
     }
   ],
   "safety_considerations": "The Calf Slicer causes intense pain through muscle compression and can result in muscle tears or knee ligament damage if applied forcefully without tap recognition. Always apply pressure progressively rather than explosively - this is a pain compliance submission where partners tap from discomfort before injury occurs. Train with controlled pressure and clear communication. Be aware that some practitioners have very pain-tolerant calves and may not tap until significant damage is occurring - watch for signs of distress beyond verbal tap. Release immediately upon tap or any verbal submission. Avoid this technique against training partners with previous calf or knee injuries. In competition, be prepared for late taps as some competitors will fight through initial pain. The submission is legal in most advanced no-gi rulesets but may be prohibited at lower belt levels - verify competition rules before training extensively.",
@@ -273,5 +248,6 @@
       "name": "Back Take from Ashi",
       "relationship": "Positional advancement when opponent overcommits to leg attack defense"
     }
-  ]
+  ],
+  "success_rate": 58
 }

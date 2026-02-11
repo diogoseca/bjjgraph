@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Far Side Armbar from Kuzure Kesa-Gatame represents one of the most mechanically advantaged armbar entries in Brazilian Jiu-Jitsu. Unlike near-side armbars where you attack the arm already trapped against your body, the far side armbar targets the opponent's free arm—the one they desperately need for framing and escape attempts. This creates a tactical dilemma: using the arm defensively exposes it to attack, while protecting it removes their primary escape tool.\n\nThe technique exploits a fundamental weakness in the Kuzure Kesa-Gatame position—the top practitioner's chest creates a wall that the bottom person must frame against, but this framing arm becomes vulnerable the moment it extends. The entry involves transitioning from your seated hip pressure position to a perpendicular orientation where your legs can control the arm and create the hyperextension angle. The key insight is that you're not chasing the arm but rather creating conditions where the opponent must give it to you.\n\nStrategically, the far side armbar serves as both a primary attack and a position advancement tool. Failed attempts often result in the opponent turning into you to protect the arm, which opens transitions to mount or traditional armbar positions. This win-win dynamic makes it a high-percentage technique when properly integrated into your top game. The attack is particularly effective against opponents who aggressively frame from bottom Kuzure Kesa-Gatame, as their defensive action directly feeds your offensive sequence.",
   "key_principles": [
     "Control the shoulder before attacking the elbow—the far arm must be isolated at the shoulder joint first",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Secure wrist control",
-      "description": "With your near-side hand, grip opponent's far wrist firmly using a C-grip. Pull their arm across your chest while maintaining your seated Kuzure Kesa-Gatame base. Their elbow should be positioned against your sternum.",
-      "timing": "Execute when opponent extends arm to frame against your chest"
+      "description": "With your near-side hand, grip opponent's far wrist firmly using a C-grip. Pull their arm across your chest while maintaining your seated Kuzure Kesa-Gatame base. Their elbow should be positioned against your sternum."
     },
     {
       "step_number": 2,
       "action": "Pin the arm",
-      "description": "Clamp your far-side arm over their trapped bicep, creating a figure-four grip on the arm by connecting your hands. This double-arm control prevents them from retracting the arm during your transition.",
-      "timing": "Immediately after securing wrist"
+      "description": "Clamp your far-side arm over their trapped bicep, creating a figure-four grip on the arm by connecting your hands. This double-arm control prevents them from retracting the arm during your transition."
     },
     {
       "step_number": 3,
       "action": "Initiate hip pivot",
-      "description": "Begin rotating your hips toward their head, pivoting on your base-side hip. Your chest maintains pressure on their arm as you start transitioning from a parallel orientation to perpendicular. Keep your weight forward to prevent them from sitting up.",
-      "timing": "Smooth continuous motion"
+      "description": "Begin rotating your hips toward their head, pivoting on your base-side hip. Your chest maintains pressure on their arm as you start transitioning from a parallel orientation to perpendicular. Keep your weight forward to prevent them from sitting up."
     },
     {
       "step_number": 4,
       "action": "Swing bottom leg over",
-      "description": "In one fluid motion, swing your bottom leg (the one closer to their legs) up and over their head. Your calf should land across their throat or upper chest. Simultaneously, your top leg posts on their far hip to prevent them from rolling toward you.",
-      "timing": "As hips reach 45-degree angle"
+      "description": "In one fluid motion, swing your bottom leg (the one closer to their legs) up and over their head. Your calf should land across their throat or upper chest. Simultaneously, your top leg posts on their far hip to prevent them from rolling toward you."
     },
     {
       "step_number": 5,
       "action": "Establish leg control",
-      "description": "Bring your top leg over to join the bottom leg, creating a figure-four configuration with their arm trapped between your thighs. Squeeze your knees together tightly with their arm pinched between your legs, thumb pointing up.",
-      "timing": "Immediately after bottom leg clears"
+      "description": "Bring your top leg over to join the bottom leg, creating a figure-four configuration with their arm trapped between your thighs. Squeeze your knees together tightly with their arm pinched between your legs, thumb pointing up."
     },
     {
       "step_number": 6,
       "action": "Finish the armbar",
-      "description": "Pull their wrist to your chest while elevating your hips in a controlled manner. The pressure should be applied to their elbow joint against your pubic bone. Raise hips incrementally until they tap, maintaining knee squeeze throughout.",
-      "timing": "Controlled steady elevation"
+      "description": "Pull their wrist to your chest while elevating your hips in a controlled manner. The pressure should be applied to their elbow joint against your pubic bone. Raise hips incrementally until they tap, maintaining knee squeeze throughout."
     }
   ],
   "common_counters": [
@@ -142,26 +131,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamentals",
-      "description": "Practice the arm control sequence from static Kuzure Kesa-Gatame. Partner offers their far arm without resistance. Focus on proper wrist grip, figure-four arm clamp, and smooth leg swing mechanics. Drill 20 reps each side without finishing.",
-      "resistance_level": "None"
+      "description": "Practice the arm control sequence from static Kuzure Kesa-Gatame. Partner offers their far arm without resistance. Focus on proper wrist grip, figure-four arm clamp, and smooth leg swing mechanics. Drill 20 reps each side without finishing."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing",
-      "description": "Partner actively frames against your chest from bottom position. Learn to recognize the extension timing window and immediately attack when arm presents. Add light resistance to leg transition phase. Begin finishing with controlled pressure.",
-      "resistance_level": "Light"
+      "description": "Partner actively frames against your chest from bottom position. Learn to recognize the extension timing window and immediately attack when arm presents. Add light resistance to leg transition phase. Begin finishing with controlled pressure."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations",
-      "description": "Chain the far side armbar with americana threats and mount transitions. When armbar is defended, flow to secondary attacks. Partner defends at 50% resistance, forcing you to read and react to their defensive choices.",
-      "resistance_level": "Medium"
+      "description": "Chain the far side armbar with americana threats and mount transitions. When armbar is defended, flow to secondary attacks. Partner defends at 50% resistance, forcing you to read and react to their defensive choices."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Positional sparring starting from Kuzure Kesa-Gatame. Full resistance with resets on escape or submission. Track success rate and identify failure patterns. Integrate into regular rolling as primary attack from the position.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting from Kuzure Kesa-Gatame. Full resistance with resets on escape or submission. Track success rate and identify failure patterns. Integrate into regular rolling as primary attack from the position."
     }
   ],
   "variants_and_adaptations": [
@@ -184,53 +169,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Far Side Armbar from Kuzure Kesa-Gatame?",
-      "answer": "The primary goal is to attack the opponent's far (free) arm—the one they need for framing and escapes. By targeting this arm, you create a tactical dilemma where defending the armbar removes their primary escape tool, while using the arm defensively exposes it to attack.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to attack the opponent's far (free) arm—the one they need for framing and escapes. By targeting this arm, you create a tactical dilemma where defending the armbar removes their primary escape tool, while using the arm defensively exposes it to attack."
     },
     {
       "question": "What position do you start the Far Side Armbar from?",
-      "answer": "This technique starts from Kuzure Kesa-Gatame (Modified Scarf Hold) where you are seated beside the opponent with hip pressure into their ribs, typically with their near arm already controlled.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Kuzure Kesa-Gatame (Modified Scarf Hold) where you are seated beside the opponent with hip pressure into their ribs, typically with their near arm already controlled."
     },
     {
       "question": "What grips are needed to secure the far arm before transitioning?",
-      "answer": "You need a C-grip on the opponent's far wrist with your near-side hand, pulling the arm across your chest. Your far-side arm then clamps over their bicep creating a figure-four grip configuration. This double-arm control prevents arm retraction during the hip transition.",
-      "difficulty": "Intermediate"
+      "answer": "You need a C-grip on the opponent's far wrist with your near-side hand, pulling the arm across your chest. Your far-side arm then clamps over their bicep creating a figure-four grip configuration. This double-arm control prevents arm retraction during the hip transition."
     },
     {
       "question": "Your opponent clasps their hands in a Gable grip to defend—how do you break this defense?",
-      "answer": "Insert your forearm between their wrists and peel outward using your body rotation to separate the grip. Alternatively, transition to a belly-down armbar position where their grip becomes mechanically weaker due to the rotation angle. You can also attack the grip with wrist locks or switch to a triangle setup.",
-      "difficulty": "Intermediate"
+      "answer": "Insert your forearm between their wrists and peel outward using your body rotation to separate the grip. Alternatively, transition to a belly-down armbar position where their grip becomes mechanically weaker due to the rotation angle. You can also attack the grip with wrist locks or switch to a triangle setup."
     },
     {
       "question": "When is the optimal timing window to initiate the Far Side Armbar?",
-      "answer": "The optimal timing is when the opponent extends their far arm to frame against your chest or shoulder. This defensive action is precisely what exposes the arm. Attempting the attack when they keep the arm retracted makes the entry significantly more difficult.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent extends their far arm to frame against your chest or shoulder. This defensive action is precisely what exposes the arm. Attempting the attack when they keep the arm retracted makes the entry significantly more difficult."
     },
     {
       "question": "What happens if your leg swing doesn't completely clear the opponent's head?",
-      "answer": "If your leg gets caught on their shoulder, they can posture up and potentially escape or reverse. The leg must clear their chin completely and land across their throat or upper chest. Practice the swing in isolation, focusing on height and arc of the leg movement.",
-      "difficulty": "Intermediate"
+      "answer": "If your leg gets caught on their shoulder, they can posture up and potentially escape or reverse. The leg must clear their chin completely and land across their throat or upper chest. Practice the swing in isolation, focusing on height and arc of the leg movement."
     },
     {
       "question": "Why must the opponent's thumb point toward the ceiling during the finish?",
-      "answer": "When the thumb points up, the elbow joint is positioned so the hyperextension pressure applies directly against the joint's natural limit. With the thumb sideways or down, the arm can rotate and the opponent can muscle through the submission or find escape angles.",
-      "difficulty": "Intermediate"
+      "answer": "When the thumb points up, the elbow joint is positioned so the hyperextension pressure applies directly against the joint's natural limit. With the thumb sideways or down, the arm can rotate and the opponent can muscle through the submission or find escape angles."
     },
     {
       "question": "Your opponent starts stacking into you during your leg transition—how do you adapt?",
-      "answer": "Use their stacking momentum to roll them over into a mounted armbar position. Their forward drive provides the energy for the roll. Alternatively, if mount isn't available, abort the armbar attempt while maintaining arm control and return to Kuzure Kesa-Gatame to reset.",
-      "difficulty": "Advanced"
+      "answer": "Use their stacking momentum to roll them over into a mounted armbar position. Their forward drive provides the energy for the roll. Alternatively, if mount isn't available, abort the armbar attempt while maintaining arm control and return to Kuzure Kesa-Gatame to reset."
     },
     {
       "question": "What is the relationship between knee squeeze and hip extension in the finish?",
-      "answer": "Knee squeeze must be established first and maintained throughout—it's more important than hip extension. Loose knees allow the opponent to slip their elbow out between your thighs. Squeeze first, then extend hips incrementally. Think of it as 80% squeeze, 20% extension for control.",
-      "difficulty": "Advanced"
+      "answer": "Knee squeeze must be established first and maintained throughout—it's more important than hip extension. Loose knees allow the opponent to slip their elbow out between your thighs. Squeeze first, then extend hips incrementally. Think of it as 80% squeeze, 20% extension for control."
     },
     {
       "question": "If the armbar fails, what secondary attacks become available?",
-      "answer": "Failed far side armbar attempts often create openings for: mount transition (as they turn to protect the arm), back take (if they turn away), americana or kimura on the now-extended arm, or triangle setup by threading your leg around their defending arm and head.",
-      "difficulty": "Advanced"
+      "answer": "Failed far side armbar attempts often create openings for: mount transition (as they turn to protect the arm), back take (if they turn away), americana or kimura on the now-extended arm, or triangle setup by threading your leg around their defending arm and head."
     }
   ],
   "safety_considerations": "The armbar applies direct hyperextension force to the elbow joint, which can cause serious injury including ligament tears, joint dislocation, and fractures if applied too quickly or without control. Always apply the finish with incremental hip elevation rather than explosive extension—this gives your training partner time to tap. Watch for the tap signal throughout the finish and release immediately upon receiving it. In training, stop the technique before full extension and discuss with your partner about appropriate pressure levels. Never hold an armbar on a resisting partner who refuses to tap. Be especially careful with partners who have previous elbow injuries. When drilling, practice the entry and control phases extensively before adding finishing pressure.",
@@ -276,5 +251,6 @@
       "name": "Side Control",
       "relationship": "Position family with shared principles"
     }
-  ]
+  ],
+  "success_rate": 58
 }

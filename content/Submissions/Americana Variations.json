@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint, rotator cuff",
   "starting_position": "Mount",
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Americana variations represent a family of shoulder lock techniques that attack the rotator cuff and shoulder joint through external rotation combined with leverage. While the standard Americana from mount and side control are foundational techniques, advanced practitioners develop numerous variations to adapt to different grips, positions, and defensive reactions. These variations maintain the core mechanical principle of isolating the arm and applying controlled external rotation while preventing the opponent from straightening or retracting their arm.\n\nUnderstanding Americana variations is essential for developing a complete shoulder lock game. Different grip configurations, body positions, and leverage applications allow practitioners to finish the submission from multiple angles and against various defensive responses. The ability to transition smoothly between variations creates a system where defensive movement by the opponent simply opens alternative finishing mechanics. Elite competitors combine these variations with positional transitions, using failed Americana attempts to advance position or switch to complementary submissions like the armbar or triangle.\n\nThe variations explored in this guide include the figure-four Americana, palm-to-palm grip variation, reverse Americana, standing Americana from turtle, Americana from north-south, and the rolling Americana. Each variation has specific applications based on position, opponent body type, and defensive reactions. Mastery of these variations transforms the Americana from a single technique into a comprehensive shoulder attack system that applies across multiple positions and scenarios.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,43 +86,37 @@
       "step_number": 1,
       "action": "Secure wrist control and positioning",
       "description": "From dominant top position, establish control of opponent's wrist or hand using your chosen grip variation (figure-four, palm-to-palm, or traditional grip). Ensure opponent's arm is bent at approximately 90 degrees with elbow positioned away from their body. The quality of your initial grip determines which variation will be most effective.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 2,
       "action": "Pin the shoulder",
       "description": "Drive your chest or shoulder pressure directly onto opponent's shoulder joint, pinning it firmly to the mat. This prevents them from lifting their shoulder to relieve rotational pressure. Your weight should be distributed to maintain control while keeping your own base stable. The shoulder pin is the foundation that makes all variations effective.",
-      "timing": "1 second",
-      "pressure_level": "Firm"
+      "timing": "1 second"
     },
     {
       "step_number": 3,
       "action": "Control the elbow",
       "description": "Secure opponent's elbow position using your free hand, forearm, or body positioning depending on the variation. Prevent them from straightening their arm or bringing their elbow close to their ribs. The elbow control combined with wrist control creates the isolation frame necessary for the submission.",
-      "timing": "1 second",
-      "pressure_level": "Moderate"
+      "timing": "1 second"
     },
     {
       "step_number": 4,
       "action": "Establish leverage angle",
       "description": "Adjust your body position to create optimal leverage angle for external rotation. This may involve shifting your hips, adjusting your chest pressure angle, or repositioning your legs depending on which variation you're applying. The leverage angle determines how efficiently your pressure translates to shoulder rotation.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Apply controlled external rotation",
       "description": "Begin rotating opponent's hand toward their head (external rotation of shoulder) using slow, progressive pressure. Maintain constant control of both wrist and elbow while increasing rotational pressure gradually. Feel for resistance and stop immediately at any defensive grip break attempts or pain signals.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Finish with incremental pressure",
       "description": "Continue external rotation slowly and progressively until opponent taps. Keep shoulder pinned throughout and maintain elbow control. Never spike or jerk the submission. If opponent defends successfully, transition to alternative variation or different submission. The finish should feel smooth and controlled, allowing clear tap opportunity.",
-      "timing": "2-4 seconds",
-      "pressure_level": "Maximum"
+      "timing": "2-4 seconds"
     }
   ],
   "opponent_defense_patterns": [
@@ -161,44 +150,37 @@
     {
       "error": "Applying sudden jerking rotation instead of progressive pressure",
       "consequence": "High injury risk to opponent's rotator cuff and shoulder capsule, loss of training partners",
-      "correction": "Always apply pressure gradually over 3-5 seconds minimum, feeling for resistance points and stopping at pain signals. Think 'slow squeeze' not 'quick crank'.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure gradually over 3-5 seconds minimum, feeling for resistance points and stopping at pain signals. Think 'slow squeeze' not 'quick crank'."
     },
     {
       "error": "Failing to pin the shoulder before attempting rotation",
       "consequence": "Opponent easily escapes by lifting shoulder, relieving all pressure",
-      "correction": "Establish chest-to-shoulder pressure first, ensuring shoulder is pinned flat to mat. Test the pin by attempting slight rotation - if shoulder lifts, reset your pressure before continuing.",
-      "danger_level": "Medium"
+      "correction": "Establish chest-to-shoulder pressure first, ensuring shoulder is pinned flat to mat. Test the pin by attempting slight rotation - if shoulder lifts, reset your pressure before continuing."
     },
     {
       "error": "Allowing opponent's elbow to travel away from their body",
       "consequence": "Loss of leverage, opponent straightens arm and escapes or counters",
-      "correction": "Keep elbow positioned close to opponent's ribs using your forearm, body weight, or leg pressure depending on variation. Elbow control is equally important as wrist control.",
-      "danger_level": "Low"
+      "correction": "Keep elbow positioned close to opponent's ribs using your forearm, body weight, or leg pressure depending on variation. Elbow control is equally important as wrist control."
     },
     {
       "error": "Using only arm strength instead of body weight and leverage",
       "consequence": "Insufficient pressure to finish, wasted energy, muscling creates escape opportunities",
-      "correction": "Drive pressure through chest, shoulder, and hip positioning. Your grip should guide direction while your body provides power through proper angles and weight distribution.",
-      "danger_level": "Low"
+      "correction": "Drive pressure through chest, shoulder, and hip positioning. Your grip should guide direction while your body provides power through proper angles and weight distribution."
     },
     {
       "error": "Continuing to force the submission when opponent has defensive grip",
       "consequence": "Stalemate position, potential injury if grip suddenly breaks, missed transition opportunities",
-      "correction": "Recognize when defensive grip is solid and immediately switch to alternative variation or different submission. Forcing a defended position wastes time and energy.",
-      "danger_level": "Medium"
+      "correction": "Recognize when defensive grip is solid and immediately switch to alternative variation or different submission. Forcing a defended position wastes time and energy."
     },
     {
       "error": "Losing base and getting swept while attempting submission",
       "consequence": "Position reversal, opponent escapes and gains top position",
-      "correction": "Maintain wide base with knees or feet depending on position. One hand controls the submission while body structure prevents sweeps. If they threaten sweep, secure position before resuming submission attack.",
-      "danger_level": "Low"
+      "correction": "Maintain wide base with knees or feet depending on position. One hand controls the submission while body structure prevents sweeps. If they threaten sweep, secure position before resuming submission attack."
     },
     {
       "error": "Releasing shoulder pressure during grip adjustment",
       "consequence": "Opponent escapes immediately or regains defensive structure",
-      "correction": "Make grip changes while maintaining chest pressure. If major grip change needed, reset to control position first before attempting new variation.",
-      "danger_level": "Medium"
+      "correction": "Make grip changes while maintaining chest pressure. If major grip change needed, reset to control position first before attempting new variation."
     }
   ],
   "variations_and_setups": [
@@ -300,54 +282,10 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Conceptual Understanding (Week 1-2)",
-      "timeframe": "2 weeks",
-      "focus": "Learn biomechanics, safety protocols, and recognize when each variation applies. Study anatomy of shoulder joint and injury mechanisms. Practice all variations in slow motion with zero resistance.",
-      "resistance_level": "None",
-      "safety_emphasis": "Memorize all tap signals, release protocols, and injury risks. Practice releasing immediately at any resistance. Understand that shoulder injuries can be career-ending and require surgical repair."
-    },
-    {
-      "phase": "Mechanical Drilling (Week 3-4)",
-      "timeframe": "2 weeks",
-      "focus": "Drill each variation 20-30 repetitions daily with compliant partner. Focus on proper shoulder pinning, elbow control, and progressive pressure application. Partner provides feedback on pressure and timing. Emphasize smooth transitions between variations.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Apply 3-5 second minimum progressive pressure every repetition. Partner taps early and often. Discuss any discomfort immediately. Never increase speed to work on more repetitions."
-    },
-    {
-      "phase": "Positional Recognition (Week 5-8)",
-      "timeframe": "4 weeks",
-      "focus": "Learn to recognize opportunities for each variation during positional sparring from mount, side control, and north-south. Practice switching between variations based on defensive reactions. Start from established positions with mild resistance.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner provides graduated resistance and clear feedback about pressure levels. Stop at 60% pressure maximum. Focus on recognizing when to abandon attempt rather than forcing through defense."
-    },
-    {
-      "phase": "Integration Training (Week 9-12)",
-      "timeframe": "4 weeks",
-      "focus": "Incorporate Americana variations into full positional sequences. Chain with other submissions (armbar, triangle, Kimura). Practice recognizing which variation works best against different body types and defensive styles during moderate resistance drilling.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner provides realistic but not maximal defense. Both partners maintain safety-first mindset - defend with technique not desperation. Communicate about intensity levels before each round."
-    },
-    {
-      "phase": "Live Application (Week 13+)",
-      "timeframe": "Ongoing",
-      "focus": "Apply Americana variations during normal rolling with appropriate training partners. Continue emphasizing safety while working at realistic speeds. Film and analyze attempts to refine technique. Develop personal preference for which variations work best for your game.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never practice on partners with existing shoulder injuries. Always apply progressive pressure even in competition-pace rolling. Respect all taps immediately. Newer partners receive extra care and slower application."
-    },
-    {
-      "phase": "Advanced Development (Ongoing)",
-      "timeframe": "Continuous improvement",
-      "focus": "Develop expertise in recognizing subtle opportunities for each variation. Create personal system integrating Americana variations with your preferred positions and submission chains. Teach variations to less experienced partners, reinforcing safety culture. Study competition footage to see applications at highest level.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Lead by example in maintaining safety protocols even as advanced practitioner. When working with lower belts, provide clear feedback about their pressure application. Continue refining progressive pressure application for maximum safety and effectiveness."
-    }
-  ],
   "from_positions": [
     "Mount",
     "Side Control",
-    "North South Control",
+    "North-South",
     "Knee on Belly",
     "S Mount",
     "High Mount",
@@ -414,12 +352,13 @@
       "relationship": "Control position that can transition to Americana arm isolation"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "Position offering reverse Americana variation opportunities"
     },
     {
       "name": "Technical Mount",
       "relationship": "3-4 mount variation provides unique Americana angle"
     }
-  ]
+  ],
+  "success_rate": 62
 }

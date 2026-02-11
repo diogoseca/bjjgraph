@@ -393,11 +393,11 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 25% |
-| Intermediate | 60% | 55% | 45% |
-| Advanced     | 80% | 75% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 65% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 30-90 seconds before submission or position change
 

@@ -381,11 +381,11 @@ Bottom player alternates between upright lasso guard and inverted lasso continuo
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 15% |
-| Intermediate | 55% | 60% | 35% |
-| Advanced     | 70% | 80% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 70% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 5-15 seconds (transitional position)
 

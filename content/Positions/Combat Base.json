@@ -88,7 +88,7 @@
         },
         {
           "technique": "Leg Drag Pass",
-          "target": "Leg Drag Position",
+          "target": "Leg Drag Control",
           "probability": 45
         }
       ]
@@ -113,7 +113,7 @@
       "actions": [
         {
           "technique": "Leg Drag Pass",
-          "target": "Leg Drag Position",
+          "target": "Leg Drag Control",
           "probability": 55
         },
         {
@@ -248,7 +248,7 @@
       "relationship": "Counter position - Common guard retention response to combat base"
     },
     {
-      "name": "Leg Drag Position",
+      "name": "Leg Drag Control",
       "relationship": "Transition target - Alternative passing position from combat base against hooks"
     },
     {
@@ -270,19 +270,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
+      "value": 72
     },
     "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 50,
-      "advanced": 70
+      "value": 60
     },
     "submission_probability": {
-      "beginner": 5,
-      "intermediate": 10,
-      "advanced": 15
+      "value": 12
     },
     "average_time": "30-90 seconds in competitive BJJ depending on guard style and passing strategy"
   }

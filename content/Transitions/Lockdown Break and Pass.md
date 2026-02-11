@@ -157,7 +157,7 @@ The technique centers on methodically breaking the lockdown's foot triangle conf
 Strategically, the Lockdown Break and Pass transforms a defensive scramble into offensive advancement. Rather than merely escaping back to a neutral half guard position, the technique channels the escape momentum directly into a passing sequence, typically finishing in side control. This prevents the opponent from immediately re-engaging the lockdown and capitalizes on the positional disruption caused by breaking their primary control structure.
 
 **From Position**: [[Electric Chair/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the Lockdown Break and Pass transforms a defensive scramble into 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish forward pressure**: Drive your chest weight forward onto your opponent's torso while keeping hips low and connected. Your weight should pin their upper body to the mat, limiting their ability to extend their hips and generate Electric Chair pressure. Establish crossface with your nearside arm driving into their neck and jaw. (Timing: Immediate upon recognizing lockdown is engaged)
-2. **Post wide base**: Position your free leg (the one not trapped in lockdown) wide at approximately 45 degrees from your body, toes gripping the mat. This creates a tripod base that prevents the Old School sweep and other lockdown sweeps while providing stability for the extraction sequence. (Timing: Concurrent with forward pressure)
-3. **Limp the trapped leg**: Completely relax your trapped leg, removing all tension from the knee and ankle. This reduces the effectiveness of the lockdown's grip by eliminating the rigid structure that makes the figure-four entanglement powerful. A relaxed leg is significantly harder to control than a tensed one. (Timing: Before attempting any extraction)
-4. **Break the foot triangle**: Use your free hand to reach down and separate opponent's feet, targeting where their foot triangles behind their own knee. Alternatively, apply knee pressure by driving your trapped knee toward their hip while simultaneously pulling your heel upward to force the triangle open. The figure-four must be broken before extraction. (Timing: Once leg is relaxed and pressure established)
-5. **Extract the leg**: With the foot triangle broken, drive your knee toward opponent's near hip while pulling your heel free from between their legs. Maintain forward pressure throughout to prevent them from re-engaging or transitioning to another guard. The extraction should be smooth, not explosive. (Timing: Immediately after triangle breaks)
-6. **Transition to pass**: As your leg clears the lockdown, immediately drive your knee across opponent's thigh for a knee slice position or sprawl your hips back for a smash pass. Do not pause in half guard—continue the momentum directly into a passing sequence to establish side control before they can recover defensive structures. (Timing: Without pause after extraction)
+1. **Establish forward pressure**: Drive your chest weight forward onto your opponent's torso while keeping hips low and connected. Your weight should pin their upper body to the mat, limiting their ability to extend their hips and generate Electric Chair pressure. Establish crossface with your nearside arm driving into their neck and jaw.
+2. **Post wide base**: Position your free leg (the one not trapped in lockdown) wide at approximately 45 degrees from your body, toes gripping the mat. This creates a tripod base that prevents the Old School sweep and other lockdown sweeps while providing stability for the extraction sequence.
+3. **Limp the trapped leg**: Completely relax your trapped leg, removing all tension from the knee and ankle. This reduces the effectiveness of the lockdown's grip by eliminating the rigid structure that makes the figure-four entanglement powerful. A relaxed leg is significantly harder to control than a tensed one.
+4. **Break the foot triangle**: Use your free hand to reach down and separate opponent's feet, targeting where their foot triangles behind their own knee. Alternatively, apply knee pressure by driving your trapped knee toward their hip while simultaneously pulling your heel upward to force the triangle open. The figure-four must be broken before extraction.
+5. **Extract the leg**: With the foot triangle broken, drive your knee toward opponent's near hip while pulling your heel free from between their legs. Maintain forward pressure throughout to prevent them from re-engaging or transitioning to another guard. The extraction should be smooth, not explosive.
+6. **Transition to pass**: As your leg clears the lockdown, immediately drive your knee across opponent's thigh for a knee slice position or sprawl your hips back for a smash pass. Do not pause in half guard—continue the momentum directly into a passing sequence to establish side control before they can recover defensive structures.
 
 
 </section>
@@ -257,19 +257,15 @@ Strategically, the Lockdown Break and Pass transforms a defensive scramble into 
 ## Training Progressions
 **Week 1-2** - Lockdown mechanics understanding
 Study the lockdown configuration from both perspectives. Practice identifying the foot triangle and understanding how the figure-four creates control. Drill the limp leg concept repeatedly until relaxing the trapped leg becomes automatic. Practice forward pressure maintenance without any extraction attempts.
-(Resistance: None)
 
 **Week 3-4** - Breaking sequence isolation
 Focus specifically on breaking the foot triangle using both hand separation and knee pressure methods. Partner holds lockdown with 30% resistance while you practice the break mechanics. Build muscle memory for the extraction path—knee toward hip, heel clearing between legs.
-(Resistance: Light)
 
 **Week 5-6** - Complete sequence with passing
 Chain the lockdown break directly into passing sequences. Practice knee slice, smash pass, and leg drag finishes from the extraction. Partner provides moderate resistance and attempts basic re-engagement. Develop seamless transitions without pausing in half guard.
-(Resistance: Medium)
 
 **Week 7+** - Live application against lockdown specialists
 Positional sparring starting in Electric Chair top against training partners who actively hunt the lockdown. Work the complete defensive and passing sequence against full resistance. Develop recognition of timing windows and counter-to-counter sequences.
-(Resistance: Full)
 
 
 

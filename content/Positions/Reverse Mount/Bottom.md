@@ -356,11 +356,11 @@ Partner sits in reverse mount with progressively increasing weight and control. 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 5% |
-| Intermediate | 30% | 40% | 8% |
-| Advanced     | 45% | 55% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 48% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 15-45 seconds before escape or opponent advancement
 

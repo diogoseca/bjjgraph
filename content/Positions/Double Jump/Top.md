@@ -362,11 +362,11 @@ Start each round with you in Double Jump Top position with both hooks establishe
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 25% | 10% |
-| Intermediate | 55% | 45% | 20% |
-| Advanced     | 70% | 65% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 55% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 8-15 seconds before transition to back control, truck, or escape
 

@@ -154,21 +154,23 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Side Control to Mount]]** (25% of attempts)
+- **[[Side Control to Mount]]** (22% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Side Control to North-South]]** (11% of attempts)
 
-- **[[Americana from Side Control]]** (15% of attempts)
+- **[[Americana from Side Control]]** (13% of attempts)
 
-- **[[Kimura from Side Control]]** (12% of attempts)
+- **[[Kimura from Side Control]]** (11% of attempts)
 
-- **[[Arm Triangle]]** (10% of attempts)
+- **[[Arm Triangle]]** (9% of attempts)
 
-- **[[Armbar from Side Control]]** (8% of attempts)
+- **[[Armbar from Side Control]]** (7% of attempts)
 
-- **[[Knee on Belly]]** (13% of attempts)
+- **[[Knee on Belly]]** (12% of attempts)
 
-- **[[North-South Choke]]** (5% of attempts)
+- **[[North-South Choke]]** (4% of attempts)
+
+- **[[Americana]]** (11% of attempts)
 
 
 ### Common Mistakes

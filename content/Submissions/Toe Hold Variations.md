@@ -157,7 +157,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 **Type**: Leg Lock
 **Target Area**: Ankle and foot ligaments
 **Starting Position**: [[50-50 Guard]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -235,12 +235,12 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish leg entanglement control**: From 50-50 or ashi garami position, ensure opponent's leg is fully controlled between your legs with their knee trapped. Your outside leg should be over their thigh while your inside leg controls under their knee. Establish hip-to-hip connection to prevent them from creating distance. Your hips should be angled toward their trapped leg, not square to their body. (Timing: 2-3 seconds to establish control) [Pressure: Moderate]
-2. **Cup the heel and control the ankle**: Use your hand closest to their foot to cup their heel, wrapping your palm around the back of the heel with fingers pointing toward their toes. This hand maintains ankle alignment and prevents the foot from rotating independently. Your other hand will control the toes. Break any grips they have on their own foot by using your shoulder pressure or by controlling their wrist. (Timing: 1-2 seconds) [Pressure: Light]
-3. **Grip the toes and ball of foot**: With your free hand, reach across and grip the ball of their foot, wrapping your fingers around their toes. Your thumb should be on the sole of their foot. This creates a figure-four-like structure with your arms. Ensure you have control of at least three toes for maximum leverage. Keep your elbows tight to your body to maintain structural strength. (Timing: 1-2 seconds) [Pressure: Light]
-4. **Create initial rotational tension**: Begin rotating the foot away from their body (externally rotating their ankle) by turning your shoulders and torso in that direction. The rotation should feel like you're trying to show the sole of their foot to the ceiling. Keep the heel cupped and stable - all rotation happens at the ankle joint. Do not pull the foot toward you; instead, rotate it in place. In training, stop here and wait for the tap. (Timing: 3-5 seconds progressive application) [Pressure: Moderate]
-5. **Adjust hip position for finishing mechanics**: Shift your hips slightly away from opponent while maintaining leg entanglement. This creates a better angle for torso rotation and prevents opponent from rolling through to escape. Your body should form roughly a 45-degree angle to theirs. Keep your chest close to their trapped leg to prevent them sitting up. This hip adjustment increases rotational leverage significantly. (Timing: 1-2 seconds) [Pressure: Firm]
-6. **Apply progressive rotational pressure to finish**: With all controls secured, progressively increase rotation by turning your entire torso, not just your arms. The motion is similar to opening a jar lid - your shoulders and core generate the force. Pull their toes toward their shin while maintaining outward rotation. Keep the heel cupped throughout. Apply pressure slowly over 3-5 seconds in training. In competition, the finish can be quicker but should still be controlled to avoid injury. (Timing: 3-5 seconds in training, 1-2 seconds in competition) [Pressure: Maximum]
+1. **Establish leg entanglement control**: From 50-50 or ashi garami position, ensure opponent's leg is fully controlled between your legs with their knee trapped. Your outside leg should be over their thigh while your inside leg controls under their knee. Establish hip-to-hip connection to prevent them from creating distance. Your hips should be angled toward their trapped leg, not square to their body. (Timing: 2-3 seconds to establish control)
+2. **Cup the heel and control the ankle**: Use your hand closest to their foot to cup their heel, wrapping your palm around the back of the heel with fingers pointing toward their toes. This hand maintains ankle alignment and prevents the foot from rotating independently. Your other hand will control the toes. Break any grips they have on their own foot by using your shoulder pressure or by controlling their wrist. (Timing: 1-2 seconds)
+3. **Grip the toes and ball of foot**: With your free hand, reach across and grip the ball of their foot, wrapping your fingers around their toes. Your thumb should be on the sole of their foot. This creates a figure-four-like structure with your arms. Ensure you have control of at least three toes for maximum leverage. Keep your elbows tight to your body to maintain structural strength. (Timing: 1-2 seconds)
+4. **Create initial rotational tension**: Begin rotating the foot away from their body (externally rotating their ankle) by turning your shoulders and torso in that direction. The rotation should feel like you're trying to show the sole of their foot to the ceiling. Keep the heel cupped and stable - all rotation happens at the ankle joint. Do not pull the foot toward you; instead, rotate it in place. In training, stop here and wait for the tap. (Timing: 3-5 seconds progressive application)
+5. **Adjust hip position for finishing mechanics**: Shift your hips slightly away from opponent while maintaining leg entanglement. This creates a better angle for torso rotation and prevents opponent from rolling through to escape. Your body should form roughly a 45-degree angle to theirs. Keep your chest close to their trapped leg to prevent them sitting up. This hip adjustment increases rotational leverage significantly. (Timing: 1-2 seconds)
+6. **Apply progressive rotational pressure to finish**: With all controls secured, progressively increase rotation by turning your entire torso, not just your arms. The motion is similar to opening a jar lid - your shoulders and core generate the force. Pull their toes toward their shin while maintaining outward rotation. Keep the heel cupped throughout. Apply pressure slowly over 3-5 seconds in training. In competition, the finish can be quicker but should still be controlled to avoid injury. (Timing: 3-5 seconds in training, 1-2 seconds in competition)
 
 
 </section>
@@ -260,25 +260,25 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Pulling the foot toward your body instead of rotating in place [Medium DANGER]
+- **Mistake**: Pulling the foot toward your body instead of rotating in place
   - **Consequence**: Converts the toe hold into a less effective ankle lock and allows opponent to turn into the pressure to escape
   - **Correction**: Focus on rotational movement only - the foot should stay at the same distance from your body throughout. Use your torso rotation, not arm pulling.
-- **Mistake**: Failing to cup the heel securely before rotating [High DANGER]
+- **Mistake**: Failing to cup the heel securely before rotating
   - **Consequence**: Foot slips out of position or rotates independently, eliminating submission pressure and potentially causing injury from uncontrolled movement
   - **Correction**: Always establish heel cup first with palm wrapped around back of heel. Only begin rotation once this anchor point is secure.
-- **Mistake**: Applying explosive jerking motion to finish quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive jerking motion to finish quickly
   - **Consequence**: Can cause severe ankle ligament tears, foot fractures, or Achilles tendon rupture before opponent can tap
   - **Correction**: Apply all rotational pressure progressively over 3-5 seconds minimum in training. Even in competition, control the application to avoid injuring your opponent.
-- **Mistake**: Neglecting leg entanglement and focusing only on the foot [Low DANGER]
+- **Mistake**: Neglecting leg entanglement and focusing only on the foot
   - **Consequence**: Opponent easily extracts their leg or sits up to defend, losing the position entirely
   - **Correction**: Establish solid leg entanglement first - legs control legs, arms finish the submission. Never sacrifice positional control for submission attempts.
-- **Mistake**: Gripping only one or two toes instead of the ball of the foot [High DANGER]
+- **Mistake**: Gripping only one or two toes instead of the ball of the foot
   - **Consequence**: Insufficient leverage for the rotation and individual toes can be injured without achieving submission
   - **Correction**: Wrap your hand around the ball of the foot, controlling at least three toes. Your grip should feel like you're holding a baseball, not individual fingers.
-- **Mistake**: Allowing too much space between your chest and their trapped leg [Medium DANGER]
+- **Mistake**: Allowing too much space between your chest and their trapped leg
   - **Consequence**: Opponent sits up easily to defend or break your grips, negating the submission attempt
   - **Correction**: Keep your chest connection to their thigh throughout. Your upper body weight should make it difficult for them to sit up.
-- **Mistake**: Rotating the foot beyond safe training range during drilling [CRITICAL DANGER]
+- **Mistake**: Rotating the foot beyond safe training range during drilling
   - **Consequence**: Training partner suffers ankle injury even at slow speed due to accumulated rotational stress
   - **Correction**: In drilling, stop rotation as soon as any resistance is felt. The goal is position repetition, not testing partner's pain tolerance. Save finishing pressure for supervised sparring only.
 
@@ -347,43 +347,6 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Safety Education** (Week 1-2)
-- Focus: Learn foot anatomy, ankle ligament structure, injury mechanisms, and ethical responsibility. Study videos and demonstrations without applying pressure. Understand why toe holds are dangerous and how to train them safely.
-- Resistance: None
-- Safety: 100% focus on injury awareness and safety protocols. Learn what ankle injuries feel like and how quickly they occur. Study tap signals and release protocols. No live practice yet.
-
-**Static Position Drilling** (Week 3-4)
-- Focus: Practice establishing leg entanglements, grip positions, and body angles without applying any rotational pressure. Partner gives zero resistance and you focus on achieving perfect positioning. Practice heel cups, toe grips, and hip placement repeatedly.
-- Resistance: Zero resistance
-- Safety: Partner holds foot completely relaxed. Stop all movement before any pressure is felt. Practice immediate release on verbal signal. Build muscle memory for safe entry positions.
-
-**Slow Progressive Pressure Introduction** (Week 5-8)
-- Focus: With experienced partner, apply extremely slow rotational pressure until partner signals discomfort (before pain). Practice feeling the point where pressure begins to affect the joint. Develop sensitivity to resistance levels. Partner taps very early and you practice immediate release.
-- Resistance: Mild resistance
-- Safety: 5-7 second minimum application time. Partner taps at first sign of pressure. Practice immediate release repeatedly. Never increase pressure after initial resistance felt. Build trust and communication.
-
-**Positional Sparring with Attacks** (Week 9-12)
-- Focus: Start from leg entanglement positions and work to achieve toe hold position against realistic defensive grips and movement. Practice transitions between variations. Partner defends with hand fighting and position escape but allows controlled finishing attempts when position is secured.
-- Resistance: Realistic resistance
-- Safety: Partner still taps early but defends getting to the position realistically. You practice applying submission with proper speed (3-5 seconds). Both partners communicate throughout. Supervisor present during all training.
-
-**Competition Simulation with Controlled Finishing** (Week 13+)
-- Focus: Full-speed positional sparring where both athletes compete to secure leg positions and finish. Toe holds are applied with competition intent but still with communication. Practice the full chain: entry, control, finish, release. Develop timing and recognition skills under pressure.
-- Resistance: Full resistance
-- Safety: Both partners have proven ability to apply and release safely. Still tap early compared to competition. Build repetitions at high speed while maintaining safety culture. Regular check-ins on ankle health.
-
-**Ongoing Skill Refinement and Injury Prevention** (Ongoing)
-- Focus: Continue practicing variations, transitions, and counters. Regular review of safety protocols. Study competition footage. Teach technique to others to deepen understanding. Maintain defensive skills against toe holds. Monitor for any signs of cumulative ankle stress.
-- Resistance: Full resistance
-- Safety: Never become complacent about safety. Regular ankle mobility and strengthening exercises. Ice and recovery protocols for any ankle soreness. Teach beginners the same progressive safety protocols you learned. Maintain culture of tapping early in training.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -436,6 +399,7 @@ The toe hold is a versatile leg lock that attacks the ankle and foot through rot
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

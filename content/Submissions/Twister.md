@@ -163,7 +163,8 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 **Type**: Spinal Lock
 **Target Area**: Cervical and thoracic spine, shoulder girdle
 **Starting Position**: [[Truck]]
-**Success Rates**: Beginner 15%, Intermediate 30%, Advanced 50%
+**From Position**: [[Twister Control]] (Top)
+**Success Rate**: 40%
 
 </section>
 
@@ -241,13 +242,13 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while they are belly-down. Establish a lockdown on their near leg by threading your inside leg through and hooking your feet together. Your opponent should be on their stomach with you perpendicular to their body, controlling their lower half completely. (Timing: 3-5 seconds to establish solid base) [Pressure: Moderate]
-2. **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across their back and maintain control. This prevents them from posting or creating defensive frames. Your opponent should now be belly-down with one arm trapped behind them and their legs locked in your control. (Timing: 2-3 seconds) [Pressure: Moderate]
-3. **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip with your hands is ideal). Do not pull yet - simply establish the grip. Your body should be positioned perpendicular to their spine, with your chest near their ribs. (Timing: 2-3 seconds to secure grip) [Pressure: Light]
-4. **Create Initial Separation**: Begin extending your legs to push opponent's lower body away from you while simultaneously beginning to pull their upper body toward you with your head/shoulder control. This creates the fundamental twisting motion. Move SLOWLY and feel for their body's natural range of motion. Stop immediately if you feel resistance beyond normal flexibility. (Timing: 3-4 seconds gradual separation) [Pressure: Light]
-5. **Increase Opposing Vectors**: Gradually increase the separation between upper and lower body by extending your lockdown leg further while pulling the head and shoulder more toward you. Your opponent's spine should begin forming a gentle 'C' shape. The twisting motion should be smooth and progressive, never sudden. Maintain perpendicular alignment to maximize effectiveness. (Timing: 4-5 seconds progressive increase) [Pressure: Moderate]
-6. **Apply Final Twisting Pressure**: Continue the opposing motion until opponent taps. Their lower body is pushed away by your extended legs while their upper body is pulled toward you. The submission comes from the rotational stress on the spine, not from pulling their head back. Apply extremely slowly and be prepared to release instantly upon tap. Maximum pressure should never exceed 70% of your strength. (Timing: 3-5 seconds to finish) [Pressure: Moderate]
-7. **Immediate Release on Tap**: The moment you feel or hear a tap, immediately release the head control first, then allow opponent to straighten out naturally before releasing the leg entanglement. Do not pull or twist during the release. Check with your partner to ensure they are okay before continuing training. (Timing: Immediate on tap signal) [Pressure: Light]
+1. **Secure Truck Position Foundation**: From back control or turtle position, transition to the Truck by controlling opponent's legs while they are belly-down. Establish a lockdown on their near leg by threading your inside leg through and hooking your feet together. Your opponent should be on their stomach with you perpendicular to their body, controlling their lower half completely. (Timing: 3-5 seconds to establish solid base)
+2. **Isolate the Far Arm**: Reach across opponent's back and control their far arm at the wrist or triceps. Pull this arm across their back and maintain control. This prevents them from posting or creating defensive frames. Your opponent should now be belly-down with one arm trapped behind them and their legs locked in your control. (Timing: 2-3 seconds)
+3. **Establish Head Control**: With your free hand, reach over opponent's far shoulder and cup under their chin or jaw (gable grip with your hands is ideal). Do not pull yet - simply establish the grip. Your body should be positioned perpendicular to their spine, with your chest near their ribs. (Timing: 2-3 seconds to secure grip)
+4. **Create Initial Separation**: Begin extending your legs to push opponent's lower body away from you while simultaneously beginning to pull their upper body toward you with your head/shoulder control. This creates the fundamental twisting motion. Move SLOWLY and feel for their body's natural range of motion. Stop immediately if you feel resistance beyond normal flexibility. (Timing: 3-4 seconds gradual separation)
+5. **Increase Opposing Vectors**: Gradually increase the separation between upper and lower body by extending your lockdown leg further while pulling the head and shoulder more toward you. Your opponent's spine should begin forming a gentle 'C' shape. The twisting motion should be smooth and progressive, never sudden. Maintain perpendicular alignment to maximize effectiveness. (Timing: 4-5 seconds progressive increase)
+6. **Apply Final Twisting Pressure**: Continue the opposing motion until opponent taps. Their lower body is pushed away by your extended legs while their upper body is pulled toward you. The submission comes from the rotational stress on the spine, not from pulling their head back. Apply extremely slowly and be prepared to release instantly upon tap. Maximum pressure should never exceed 70% of your strength. (Timing: 3-5 seconds to finish)
+7. **Immediate Release on Tap**: The moment you feel or hear a tap, immediately release the head control first, then allow opponent to straighten out naturally before releasing the leg entanglement. Do not pull or twist during the release. Check with your partner to ensure they are okay before continuing training. (Timing: Immediate on tap signal)
 
 
 </section>
@@ -267,25 +268,25 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Pulling the head straight back instead of creating rotational torque [CRITICAL DANGER]
+- **Mistake**: Pulling the head straight back instead of creating rotational torque
   - **Consequence**: Transforms into a neck crank rather than spinal lock, reduces effectiveness and increases danger
   - **Correction**: Focus on perpendicular alignment and opposing vectors - push lower body one direction while pulling upper body the opposite direction, creating a twisting motion
-- **Mistake**: Applying the submission too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying the submission too quickly or explosively
   - **Consequence**: High risk of serious spinal injury to your partner
   - **Correction**: Always apply extremely slowly over 5-7 seconds minimum. This is not a submission to 'crank' - it requires progressive, controlled pressure
-- **Mistake**: Losing lockdown control and attempting to finish anyway [High DANGER]
+- **Mistake**: Losing lockdown control and attempting to finish anyway
   - **Consequence**: Opponent can escape or turn into you, negating the submission entirely
   - **Correction**: Re-establish solid lower body control before attempting the finish. The Twister is impossible without anchoring their hips and legs.
-- **Mistake**: Not controlling the far arm adequately [Medium DANGER]
+- **Mistake**: Not controlling the far arm adequately
   - **Consequence**: Opponent creates defensive frames and escapes or reduces submission pressure
   - **Correction**: Pull their far arm across their back and maintain tight wrist or triceps control throughout the sequence. Their arm should be trapped behind them.
-- **Mistake**: Poor perpendicular alignment with opponent's spine [Medium DANGER]
+- **Mistake**: Poor perpendicular alignment with opponent's spine
   - **Consequence**: Reduced twisting pressure and easier escape for opponent
   - **Correction**: Position your body at 90 degrees to opponent's spine. Your chest should be near their ribs, not parallel to their body.
-- **Mistake**: Using only arm strength to pull the head [High DANGER]
+- **Mistake**: Using only arm strength to pull the head
   - **Consequence**: Exhaustion and inability to finish, plus increased injury risk from sudden pulls
   - **Correction**: Use your entire body to create the twisting motion. Your legs push their lower body away while your torso rotation pulls their upper body.
-- **Mistake**: Not checking partner's flexibility or experience level [CRITICAL DANGER]
+- **Mistake**: Not checking partner's flexibility or experience level
   - **Consequence**: Potential injury to less flexible or inexperienced partners who don't recognize danger
   - **Correction**: Only practice Twister with experienced training partners who understand the position and will tap early. Discuss the technique before attempting.
 
@@ -350,43 +351,6 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Demonstration Only)** (Week 1-2)
-- Focus: Learn Truck position mechanics, understand spinal lock theory, study video demonstrations. No live application. Partner drills for Truck entries only.
-- Resistance: None
-- Safety: Understand injury potential and why this submission requires extreme caution. Learn all safety protocols before any live practice.
-
-**Positional Development** (Week 3-4)
-- Focus: Master Truck position entries and maintenance. Practice controlling opponent's lower body with lockdown. Establish upper body controls. NO submission attempts yet.
-- Resistance: Mild resistance
-- Safety: Build comfort in the position without risk. Partner should practice escapes while you maintain control.
-
-**Slow-Motion Submission Practice** (Week 5-8)
-- Focus: First attempts at applying the Twister with 100% cooperative partner. Use 10-second application minimum. Focus on perpendicular alignment and opposing vectors. Partner taps at first sign of pressure.
-- Resistance: Zero resistance
-- Safety: Partner must tap at 20% of full submission pressure. Communicate constantly throughout. Practice release protocol after every attempt.
-
-**Resistance Introduction** (Week 9-12)
-- Focus: Partner provides mild defensive resistance (tucking chin, attempting to turn). Still apply submission very slowly (7-second minimum). Work on maintaining position against escapes.
-- Resistance: Mild resistance
-- Safety: Partner still taps early at 30-40% pressure. No explosive movements. Focus on control and gradual application.
-
-**Realistic Training Integration** (Week 13-20)
-- Focus: Incorporate Twister into positional sparring from back control and turtle. Partner provides realistic but controlled resistance. Application time can reduce to 5 seconds minimum.
-- Resistance: Realistic resistance
-- Safety: Partner taps at 50-60% pressure maximum. Both partners must be purple belt or higher. Never exceed 70% application speed even with experience.
-
-**Advanced Application and Chains** (Week 20+)
-- Focus: Chain Twister with other Truck submissions (Calf Slicer, Banana Split). Practice transitions from various positions. Develop setups and counters to common defenses.
-- Resistance: Realistic resistance
-- Safety: Ongoing emphasis on controlled application. Regular review of safety protocols. Only practice with experienced, trusted partners who know when to tap.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -442,6 +406,20 @@ The Twister is an advanced spinal lock submission popularized by 10th Planet's a
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 52% |
+| Failure | [[Twister Control]] | 48% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

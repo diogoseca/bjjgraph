@@ -157,7 +157,7 @@ This transition represents a significant upgrade in control hierarchy. While the
 From a strategic perspective, the Body Triangle Lock transition is particularly valuable because it converts a moderately sustainable position (Gift Wrap with hooks) into a highly sustainable dominant position. The body triangle requires minimal energy to maintain once established, allowing the top player to wait patiently for submission opportunities while their opponent exhausts themselves attempting to escape. This position exemplifies the principle of using positional dominance to create submission openings rather than forcing techniques against active defense.
 
 **From Position**: [[Gift Wrap/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify Gift Wrap control**: Confirm that your arm threading under opponent's armpit has secure wrist or forearm control on the far side, with the trapped arm pulled high across their chest toward the opposite shoulder. (Timing: Before initiating leg movement)
-2. **Release one hook**: Remove your bottom hook while maintaining the top hook and Gift Wrap control. The bottom leg will become your attacking leg for the body triangle thread. (Timing: When opponent is settled and not actively escaping)
-3. **Thread attacking leg**: Drive your freed leg across opponent's midsection, threading your shin and foot through to the far hip. Aim to position your ankle behind their hip bone on the opposite side for maximum leverage. (Timing: Smoothly, using hip drive to push the leg through)
-4. **Position locking leg**: Bring your remaining leg (previously the top hook) down to meet your attacking ankle. Your locking foot should hook behind your attacking ankle, creating the triangle configuration. (Timing: Immediately after thread leg reaches far hip)
-5. **Lock the triangle**: Squeeze your knees together while extending your hips forward. The locking ankle should be positioned in the crook of your attacking leg's knee or just behind the ankle bone for maximum mechanical advantage. (Timing: With controlled pressure, not explosive)
-6. **Consolidate combined control**: Reestablish tight chest-to-back connection while maintaining Gift Wrap arm control. Verify that body triangle is positioned on opponent's lower ribcage/upper abdomen area rather than across the floating ribs which can cause injury. (Timing: Final adjustment before attacking)
+1. **Verify Gift Wrap control**: Confirm that your arm threading under opponent's armpit has secure wrist or forearm control on the far side, with the trapped arm pulled high across their chest toward the opposite shoulder.
+2. **Release one hook**: Remove your bottom hook while maintaining the top hook and Gift Wrap control. The bottom leg will become your attacking leg for the body triangle thread.
+3. **Thread attacking leg**: Drive your freed leg across opponent's midsection, threading your shin and foot through to the far hip. Aim to position your ankle behind their hip bone on the opposite side for maximum leverage.
+4. **Position locking leg**: Bring your remaining leg (previously the top hook) down to meet your attacking ankle. Your locking foot should hook behind your attacking ankle, creating the triangle configuration.
+5. **Lock the triangle**: Squeeze your knees together while extending your hips forward. The locking ankle should be positioned in the crook of your attacking leg's knee or just behind the ankle bone for maximum mechanical advantage.
+6. **Consolidate combined control**: Reestablish tight chest-to-back connection while maintaining Gift Wrap arm control. Verify that body triangle is positioned on opponent's lower ribcage/upper abdomen area rather than across the floating ribs which can cause injury.
 
 
 </section>
@@ -252,19 +252,15 @@ From a strategic perspective, the Body Triangle Lock transition is particularly 
 ## Training Progressions
 **Week 1-2** - Leg threading mechanics
 Practice the leg threading motion from Gift Wrap with a cooperative partner. Focus on smooth hip movement to drive the attacking leg across while maintaining upper body control. Drill the ankle lock position repeatedly until it becomes automatic.
-(Resistance: None)
 
 **Week 3-4** - Timing and entry recognition
 Partner provides 30% resistance and occasional defensive movements. Practice recognizing the optimal moments to initiate transition (opponent settling, exhaling, or after failed escape attempt). Develop patience to wait for openings rather than forcing.
-(Resistance: Light)
 
 **Week 5-6** - Counter-to-counter integration
 Partner actively defends the body triangle entry with common counters. Practice adapting to each counter: following to mount when they turn, attacking neck when they hand fight, and riding bridges while maintaining position. Chain with follow-up attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application and submission chains
 Start positional sparring from Gift Wrap. Work full resistance transitions to body triangle and immediate submission attacks from the established position. Integrate into regular rolling, entering Gift Wrap from standard back control.
-(Resistance: Full)
 
 
 

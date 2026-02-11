@@ -245,19 +245,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 70,
-        "intermediate": 82,
-        "advanced": 90
+        "value": 86
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 82
+        "value": 76
       },
       "submission_probability": {
-        "beginner": 40,
-        "intermediate": 58,
-        "advanced": 72
+        "value": 65
       },
       "average_time": "30-60 seconds before submission or positional advancement"
     },
@@ -310,7 +304,7 @@
     "transitions": [
       {
         "transition": "Kimura from Side Control",
-        "attempt_probability": 14
+        "attempt_probability": 15
       },
       {
         "transition": "Kimura from North-South",
@@ -333,8 +327,8 @@
         "attempt_probability": 14
       },
       {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 15
+        "transition": "Kimura Defense",
+        "attempt_probability": 14
       }
     ]
   },
@@ -528,19 +522,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 80
+        "value": 75
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "average_time": "45-90 seconds before sweep or submission attempt"
     },

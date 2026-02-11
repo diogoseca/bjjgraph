@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Reverse X to Back Take is a high-percentage transitional attack from Reverse X-Guard that exploits the opponent's defensive reactions to sweeping pressure. When the opponent backsteps, widens their base, or attempts to disengage from your hook control, their back becomes exposed. This technique capitalizes on that exposure by inverting underneath the opponent while maintaining hook connection, allowing you to follow their movement and establish back control with seatbelt grip and hooks.\n\nThis back take represents one of the most elegant applications of the inversion principle in modern guard play. Rather than fighting against the opponent's weight and defensive posture, you flow with their movement, using their escape attempt as the catalyst for your advancement to the most dominant position in BJJ. The technique requires excellent hip mobility, timing, and the ability to maintain connection throughout the transition.\n\nStrategically, the Reverse X to Back Take creates a powerful dilemma for the opponent. If they stay committed to defending sweeps with a strong forward base, they become vulnerable to traditional elevation sweeps. If they attempt to disengage or backstep away from the sweep threat, they expose their back. This lose-lose scenario exemplifies positional BJJ at its highest level, where every defensive choice opens a different offensive pathway.",
   "key_principles": [
     "Follow opponent's movement rather than fighting against it - their backstep or disengagement creates the back take opportunity",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Read opponent's reaction",
-      "description": "Recognize when opponent begins to backstep, widen base, or attempt to disengage from your Reverse X-Guard hooks - this defensive movement exposes their back and creates your entry window.",
-      "timing": "As opponent shifts weight backward"
+      "description": "Recognize when opponent begins to backstep, widen base, or attempt to disengage from your Reverse X-Guard hooks - this defensive movement exposes their back and creates your entry window."
     },
     {
       "step_number": 2,
       "action": "Maintain sleeve control",
-      "description": "Pull strongly on opponent's near sleeve or wrist to prevent them from posting their hand and to begin rotating their upper body toward you as you initiate the inversion.",
-      "timing": "Simultaneous with opponent's backstep"
+      "description": "Pull strongly on opponent's near sleeve or wrist to prevent them from posting their hand and to begin rotating their upper body toward you as you initiate the inversion."
     },
     {
       "step_number": 3,
       "action": "Begin inversion",
-      "description": "Rotate your hips and shoulders toward your far shoulder, inverting underneath the opponent while keeping your primary hook behind their knee connected - your body follows their retreating movement.",
-      "timing": "Immediately following sleeve pull"
+      "description": "Rotate your hips and shoulders toward your far shoulder, inverting underneath the opponent while keeping your primary hook behind their knee connected - your body follows their retreating movement."
     },
     {
       "step_number": 4,
       "action": "Thread under opponent",
-      "description": "Continue the inversion by threading your upper body underneath the opponent, using your shoulder and hip rotation to spin toward their back while your hooks transition from sweeping position to back-taking position.",
-      "timing": "Continuous motion"
+      "description": "Continue the inversion by threading your upper body underneath the opponent, using your shoulder and hip rotation to spin toward their back while your hooks transition from sweeping position to back-taking position."
     },
     {
       "step_number": 5,
       "action": "Establish chest-to-back connection",
-      "description": "As your rotation completes, drive your chest into opponent's back and wrap your arm over their shoulder to begin establishing the seatbelt grip configuration before they can turn to face you.",
-      "timing": "Upon completing rotation"
+      "description": "As your rotation completes, drive your chest into opponent's back and wrap your arm over their shoulder to begin establishing the seatbelt grip configuration before they can turn to face you."
     },
     {
       "step_number": 6,
       "action": "Insert hooks and secure position",
-      "description": "Insert both hooks inside opponent's thighs while completing your seatbelt grip (one arm over shoulder, one under armpit, hands connected) to fully secure back control with all control points established.",
-      "timing": "Final securing motion"
+      "description": "Insert both hooks inside opponent's thighs while completing your seatbelt grip (one arm over shoulder, one under armpit, hands connected) to fully secure back control with all control points established."
     }
   ],
   "common_counters": [
@@ -134,26 +123,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Inversion mechanics",
-      "description": "Practice the inversion motion from Reverse X-Guard without resistance. Focus on maintaining hook connection while rotating under a stationary partner. Drill the shoulder rotation and hip movement patterns until they feel natural. Partner remains static to allow technique isolation.",
-      "resistance_level": "None"
+      "description": "Practice the inversion motion from Reverse X-Guard without resistance. Focus on maintaining hook connection while rotating under a stationary partner. Drill the shoulder rotation and hip movement patterns until they feel natural. Partner remains static to allow technique isolation."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and connection",
-      "description": "Partner provides light backstep movements and you follow with the back take. Focus on reading when opponent's weight shifts backward and timing your inversion to match. Work on maintaining sleeve control and hook connection throughout the dynamic movement.",
-      "resistance_level": "Light"
+      "description": "Partner provides light backstep movements and you follow with the back take. Focus on reading when opponent's weight shifts backward and timing your inversion to match. Work on maintaining sleeve control and hook connection throughout the dynamic movement."
     },
     {
       "phase": "Week 5-6",
       "focus": "Integration with sweeps",
-      "description": "Chain the back take with traditional Reverse X-Guard sweeps. Threaten elevation sweep to force backstep reaction, then transition to back take when opponent retreats. Practice flowing between sweep attempt and back take based on opponent's reactions.",
-      "resistance_level": "Medium"
+      "description": "Chain the back take with traditional Reverse X-Guard sweeps. Threaten elevation sweep to force backstep reaction, then transition to back take when opponent retreats. Practice flowing between sweep attempt and back take based on opponent's reactions."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply the technique in positional sparring starting from Reverse X-Guard. Partner actively defends with full resistance. Work on recognizing real-time opportunities and executing the back take against various defensive reactions and body types.",
-      "resistance_level": "Full"
+      "description": "Apply the technique in positional sparring starting from Reverse X-Guard. Partner actively defends with full resistance. Work on recognizing real-time opportunities and executing the back take against various defensive reactions and body types."
     }
   ],
   "variants_and_adaptations": [
@@ -171,53 +156,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Reverse X to Back Take?",
-      "answer": "The primary goal is to capitalize on opponent's defensive backstep or disengagement from Reverse X-Guard by inverting underneath them and establishing back control with seatbelt grip and hooks. Rather than fighting against their defensive movement, you use it as the entry window for achieving the most dominant position in BJJ.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to capitalize on opponent's defensive backstep or disengagement from Reverse X-Guard by inverting underneath them and establishing back control with seatbelt grip and hooks. Rather than fighting against their defensive movement, you use it as the entry window for achieving the most dominant position in BJJ."
     },
     {
       "question": "What position do you start Reverse X to Back Take from?",
-      "answer": "This technique starts from Reverse X-Guard Bottom, where you have your primary hook behind opponent's near knee and secondary hook controlling their hip or thigh. You need established hooks, sleeve control, and opponent must be showing signs of disengagement or backstep for the technique to be available.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Reverse X-Guard Bottom, where you have your primary hook behind opponent's near knee and secondary hook controlling their hip or thigh. You need established hooks, sleeve control, and opponent must be showing signs of disengagement or backstep for the technique to be available."
     },
     {
       "question": "What are the key grips needed for Reverse X to Back Take?",
-      "answer": "The essential grip is sleeve or wrist control on opponent's near arm - this prevents them from posting to stop your rotation and helps pull their upper body toward you during the inversion. In gi, belt grip serves as an excellent alternative that provides superior rotational control. Upon arrival at back control, immediately establish seatbelt grip with one arm over shoulder and one under armpit.",
-      "difficulty": "Intermediate"
+      "answer": "The essential grip is sleeve or wrist control on opponent's near arm - this prevents them from posting to stop your rotation and helps pull their upper body toward you during the inversion. In gi, belt grip serves as an excellent alternative that provides superior rotational control. Upon arrival at back control, immediately establish seatbelt grip with one arm over shoulder and one under armpit."
     },
     {
       "question": "How do you counter Reverse X to Back Take?",
-      "answer": "The most effective counter is to immediately sit your hips down and back before the guard player can complete their inversion - this denies them the space to rotate underneath you. Posting your near hand strongly can also stop the rotation, but this requires breaking their sleeve grip first. Staying committed to a forward base rather than backing away also prevents the technique since the back take requires your retreating movement.",
-      "difficulty": "Intermediate"
+      "answer": "The most effective counter is to immediately sit your hips down and back before the guard player can complete their inversion - this denies them the space to rotate underneath you. Posting your near hand strongly can also stop the rotation, but this requires breaking their sleeve grip first. Staying committed to a forward base rather than backing away also prevents the technique since the back take requires your retreating movement."
     },
     {
       "question": "When is the best time to attempt Reverse X to Back Take?",
-      "answer": "The optimal timing is when opponent begins to backstep, widen their base significantly, or attempt to disengage from your hook control. These defensive reactions shift their weight backward and expose their back. The technique works best as a reaction to their defense of your sweep threat - threaten the elevation sweep to force their retreat, then follow their backward movement with the back take.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent begins to backstep, widen their base significantly, or attempt to disengage from your hook control. These defensive reactions shift their weight backward and expose their back. The technique works best as a reaction to their defense of your sweep threat - threaten the elevation sweep to force their retreat, then follow their backward movement with the back take."
     },
     {
       "question": "Your opponent widens their base dramatically to resist your sweep - how do you capitalize?",
-      "answer": "A dramatically widened base is the perfect setup for the back take. The wide stance prevents them from stepping to adjust position and commits their weight backward. Maintain your sleeve control, increase your hook pressure to threaten the sweep even more, then when they commit fully to the wide defensive base, initiate your inversion. Their inability to step means they cannot turn to face you during your rotation.",
-      "difficulty": "Advanced"
+      "answer": "A dramatically widened base is the perfect setup for the back take. The wide stance prevents them from stepping to adjust position and commits their weight backward. Maintain your sleeve control, increase your hook pressure to threaten the sweep even more, then when they commit fully to the wide defensive base, initiate your inversion. Their inability to step means they cannot turn to face you during your rotation."
     },
     {
       "question": "What hip movement is most critical during the inversion phase?",
-      "answer": "The critical movement is rotating your hips toward your far shoulder while maintaining elevation. Your hips must turn over and under the opponent rather than simply moving backward. Think of threading your body underneath them by rotating your pelvis and shoulders in the same direction. This corkscrew-like rotation maintains your hook connection while positioning your chest to land on their back.",
-      "difficulty": "Advanced"
+      "answer": "The critical movement is rotating your hips toward your far shoulder while maintaining elevation. Your hips must turn over and under the opponent rather than simply moving backward. Think of threading your body underneath them by rotating your pelvis and shoulders in the same direction. This corkscrew-like rotation maintains your hook connection while positioning your chest to land on their back."
     },
     {
       "question": "If your primary hook starts slipping during the inversion, how should you adjust?",
-      "answer": "If the hook begins slipping, you have two options based on timing. If early in the inversion, abort and recover Reverse X-Guard or transition to Single Leg X-Guard which requires less hook depth. If you're already committed and past the point of no return, accelerate your rotation and focus on getting your chest to their back as quickly as possible - you can re-establish hooks once you have upper body control.",
-      "difficulty": "Advanced"
+      "answer": "If the hook begins slipping, you have two options based on timing. If early in the inversion, abort and recover Reverse X-Guard or transition to Single Leg X-Guard which requires less hook depth. If you're already committed and past the point of no return, accelerate your rotation and focus on getting your chest to their back as quickly as possible - you can re-establish hooks once you have upper body control."
     },
     {
       "question": "How does this technique create a dilemma for the opponent?",
-      "answer": "The Reverse X to Back Take creates a lose-lose scenario. If opponent stays forward with strong base to defend sweeps, they become vulnerable to the traditional elevation sweeps from Reverse X-Guard. If they backstep or widen base to defend the sweep, they expose their back for this transition. Every defensive choice opens a different offensive pathway, forcing opponent into increasingly compromised positions regardless of their defensive strategy.",
-      "difficulty": "Advanced"
+      "answer": "The Reverse X to Back Take creates a lose-lose scenario. If opponent stays forward with strong base to defend sweeps, they become vulnerable to the traditional elevation sweeps from Reverse X-Guard. If they backstep or widen base to defend the sweep, they expose their back for this transition. Every defensive choice opens a different offensive pathway, forcing opponent into increasingly compromised positions regardless of their defensive strategy."
     },
     {
       "question": "What should your immediate priority be the moment your chest contacts opponent's back?",
-      "answer": "The instant your chest touches their back, your arm must be wrapping over their shoulder to begin the seatbelt grip. This is non-negotiable - any delay allows opponent to begin escape sequences before you have upper body control. The transition from inversion to seatbelt establishment should be drilled as one continuous motion. Only after seatbelt is secured should you focus on inserting hooks.",
-      "difficulty": "Intermediate"
+      "answer": "The instant your chest touches their back, your arm must be wrapping over their shoulder to begin the seatbelt grip. This is non-negotiable - any delay allows opponent to begin escape sequences before you have upper body control. The transition from inversion to seatbelt establishment should be drilled as one continuous motion. Only after seatbelt is secured should you focus on inserting hooks."
     }
   ],
   "safety_considerations": "The Reverse X to Back Take is a relatively safe technique when practiced correctly, as it primarily involves rotational movement rather than joint manipulation or choking pressure. However, practitioners should be aware of several safety factors. Neck strain can occur if you attempt the inversion without sufficient mobility or if your head position is compromised during the rotation. Always warm up your neck, shoulders, and hips before drilling inversions. Partners should avoid sprawling aggressively onto the inverting person's head or neck. When first learning, practice the inversion at slow speeds to develop proper mechanics before adding speed and resistance. Practitioners with existing shoulder or neck injuries should consult their instructor before attempting this technique and may need to use the chair sit variation instead of the full inversion.",
@@ -255,5 +230,6 @@
       "name": "Elevation Sweep to Mount",
       "relationship": "Alternative sweep when opponent defends back take"
     }
-  ]
+  ],
+  "success_rate": 58
 }

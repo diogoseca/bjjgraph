@@ -157,7 +157,7 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 **Type**: Spinal Compression
 **Target Area**: Lumbar spine, thoracic vertebrae, spinal column
 **Starting Position**: [[Truck]]
-**Success Rates**: Beginner 15%, Intermediate 30%, Advanced 50%
+**Success Rate**: 40%
 
 </section>
 
@@ -236,12 +236,12 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Truck control**: From turtle or scramble position, secure the Truck by hooking opponent's near leg with your legs while their body is inverted. Your inside leg hooks under their near leg while your outside leg comes over their back. Ensure their shoulders are driven toward the mat while their hips are elevated and rotated. (Timing: 2-3 seconds to secure position) [Pressure: Moderate]
-2. **Position hips for compression**: Adjust your hip position so your hips are directly above opponent's lower back/sacrum area. Your body weight should be concentrated on their lumbar spine region. Keep your chest upright and posture strong to maximize downward pressure through your hips. (Timing: 1-2 seconds adjustment) [Pressure: Light]
-3. **Secure rotational control**: Maintain leg control on opponent's near leg while using your free hand to control their far hip or far leg. This prevents them from rotating out of the compression. Your other hand can post on the mat for base or control their upper body to increase rotational strain. (Timing: 1-2 seconds) [Pressure: Moderate]
-4. **Drive hips forward into spine**: Begin applying compression by driving your hips forward and down into opponent's lower back. The pressure should be slow and progressive, creating hyperextension of the lumbar spine. Imagine pushing their chest toward their knees while keeping their hips elevated. Monitor opponent's reaction continuously. (Timing: 3-4 seconds gradual increase) [Pressure: Moderate]
-5. **Increase spinal curvature**: As you maintain hip pressure, use your upper body positioning to increase the spinal curvature. You may need to adjust your angle slightly to find the most effective compression angle. The goal is to create a bow-like curve in opponent's spine that becomes progressively more uncomfortable. (Timing: 2-3 seconds) [Pressure: Firm]
-6. **Maintain compression until tap**: Hold steady, sustained pressure without sudden increases. The discomfort should build gradually until opponent taps. Never increase pressure rapidly or explosively. Be prepared to release immediately upon any tap signal. In training, maintain communication and use minimal pressure to achieve the position rather than force the tap. (Timing: Hold until tap (2-5 seconds typical)) [Pressure: Firm]
+1. **Establish Truck control**: From turtle or scramble position, secure the Truck by hooking opponent's near leg with your legs while their body is inverted. Your inside leg hooks under their near leg while your outside leg comes over their back. Ensure their shoulders are driven toward the mat while their hips are elevated and rotated. (Timing: 2-3 seconds to secure position)
+2. **Position hips for compression**: Adjust your hip position so your hips are directly above opponent's lower back/sacrum area. Your body weight should be concentrated on their lumbar spine region. Keep your chest upright and posture strong to maximize downward pressure through your hips. (Timing: 1-2 seconds adjustment)
+3. **Secure rotational control**: Maintain leg control on opponent's near leg while using your free hand to control their far hip or far leg. This prevents them from rotating out of the compression. Your other hand can post on the mat for base or control their upper body to increase rotational strain. (Timing: 1-2 seconds)
+4. **Drive hips forward into spine**: Begin applying compression by driving your hips forward and down into opponent's lower back. The pressure should be slow and progressive, creating hyperextension of the lumbar spine. Imagine pushing their chest toward their knees while keeping their hips elevated. Monitor opponent's reaction continuously. (Timing: 3-4 seconds gradual increase)
+5. **Increase spinal curvature**: As you maintain hip pressure, use your upper body positioning to increase the spinal curvature. You may need to adjust your angle slightly to find the most effective compression angle. The goal is to create a bow-like curve in opponent's spine that becomes progressively more uncomfortable. (Timing: 2-3 seconds)
+6. **Maintain compression until tap**: Hold steady, sustained pressure without sudden increases. The discomfort should build gradually until opponent taps. Never increase pressure rapidly or explosively. Be prepared to release immediately upon any tap signal. In training, maintain communication and use minimal pressure to achieve the position rather than force the tap. (Timing: Hold until tap (2-5 seconds typical))
 
 
 </section>
@@ -261,22 +261,22 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying pressure too rapidly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying pressure too rapidly or explosively
   - **Consequence**: Serious spinal injury including disc herniation or vertebral damage
   - **Correction**: Always apply pressure gradually over 5-7 seconds minimum. Communication with training partner is essential. In competition, still maintain controlled application.
-- **Mistake**: Positioning hips too high on opponent's thoracic spine [High DANGER]
+- **Mistake**: Positioning hips too high on opponent's thoracic spine
   - **Consequence**: Reduced effectiveness and increased injury risk to upper spine and ribs
   - **Correction**: Keep hip pressure concentrated on lumbar spine/sacrum area. This is the strongest part of the spine and the intended target for the technique.
-- **Mistake**: Losing leg control and allowing opponent to rotate [Low DANGER]
+- **Mistake**: Losing leg control and allowing opponent to rotate
   - **Consequence**: Loss of position and inability to maintain compression
   - **Correction**: Maintain tight Truck hooks throughout. If leg control is compromised, abandon the spine lock and transition to different attack.
-- **Mistake**: Insufficient base and falling to the side [Medium DANGER]
+- **Mistake**: Insufficient base and falling to the side
   - **Consequence**: Loss of compression pressure and potential injury from uncontrolled fall
   - **Correction**: Keep one hand posted on mat for base. Maintain upright posture with chest elevated. Don't overcommit your weight forward.
-- **Mistake**: Continuing pressure after tap or distress signals [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after tap or distress signals
   - **Consequence**: Severe spinal injury and violation of training safety protocols
   - **Correction**: Release immediately upon any tap signal. In training, establish clear communication protocols before attempting technique. Partner safety is absolute priority.
-- **Mistake**: Attempting technique without proper Truck control [Low DANGER]
+- **Mistake**: Attempting technique without proper Truck control
   - **Consequence**: Ineffective submission and wasted energy
   - **Correction**: Spend time perfecting Truck entries and control before attempting spine lock. Position must be dominant before applying any submission pressure.
 
@@ -339,43 +339,6 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (2-3 weeks)
-- Focus: Study Truck position mechanics, spinal anatomy, and injury mechanisms. Watch instructional content and discuss safety protocols with instructor. Understand what makes spine locks uniquely dangerous compared to limb attacks.
-- Resistance: None
-- Safety: Complete theoretical understanding of spinal injury risks, tap protocols, and application speed requirements before any physical practice
-
-**Position Isolation** (3-4 weeks)
-- Focus: Practice establishing Truck position from various entries without attempting any compression. Develop comfort with inverted leg control, hip positioning, and maintaining balance. Partner provides zero resistance to allow positional refinement.
-- Resistance: Zero resistance
-- Safety: Focus entirely on position quality and control. No compression pressure applied. Establish clear communication protocols with training partners.
-
-**Simulated Pressure** (4-6 weeks)
-- Focus: Begin applying minimal hip pressure (10-20% maximum) with constant verbal communication. Partner taps based on position recognition rather than discomfort. Practice release protocol repeatedly to build muscle memory for immediate cessation.
-- Resistance: Zero resistance
-- Safety: Maximum 10-20% pressure application. Mandatory verbal communication throughout. Practice releasing faster than applying pressure. Partner taps early and often.
-
-**Controlled Resistance** (6-8 weeks)
-- Focus: Partner begins light defensive movements and position adjustments. Practice maintaining Truck control and hip positioning against mild resistance. Still using minimal compression pressure (20-30%) with continued communication.
-- Resistance: Mild resistance
-- Safety: Pressure remains at 20-30% maximum. If position is lost during resistance, reset completely rather than forcing submission. Safety overrides all competitive impulses.
-
-**Integrated Rolling** (8-12 weeks)
-- Focus: Incorporate Truck entries and spine lock threats into controlled rolling scenarios. Focus on achieving position rather than finishing. Use technique as positional control and transition to other submissions if opportunity arises.
-- Resistance: Realistic resistance
-- Safety: In rolling, treat spine lock as positional control tool. Tap opponents with position achievement, not compression. Reserve actual pressure for competition only with experienced opponents.
-
-**Competition Application** (12+ weeks)
-- Focus: Apply technique in competition setting with full understanding of safety considerations. Even in competition, maintain controlled application speed. Recognize when opponent is in danger versus when they're defending intelligently.
-- Resistance: Full resistance
-- Safety: Competition application still requires 3-5 second gradual pressure increase. Immediate release on tap. Awareness that opponent may not understand the danger. Consider experience level of opponent.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -427,6 +390,7 @@ The Spine Lock is an advanced spinal compression submission that targets the opp
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -358,11 +358,11 @@ Partner in Ringworm Guard attempts various sweeps and back-taking attacks while 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 5% |
-| Intermediate | 45% | 40% | 10% |
-| Advanced     | 60% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 48% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 60-120 seconds to extract or get swept
 

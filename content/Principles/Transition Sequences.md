@@ -357,7 +357,7 @@ Create personal sequence maps showing starting positions, primary sequence paths
 
 
 ### Related Content
-- [[Position Transitions]] (Principle) - Foundational concept that addresses individual positional changes which form building blocks of transition sequences
+- [[Transition Management]] (Principle) - Foundational concept that addresses individual positional changes which form building blocks of transition sequences
 - [[Position Chains]] (Principle) - Related concept focusing on sequential position progression providing structural framework for sequence development
 - [[Offensive Combinations]] (Principle) - Parallel concept applying combination principles to techniques while transition sequences apply same principles to positions
 - [[Timing and Rhythm]] (Principle) - Essential supporting concept providing temporal framework that governs when each sequence step should execute

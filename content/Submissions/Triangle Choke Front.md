@@ -161,7 +161,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and one shoulder
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -236,12 +236,12 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break opponent's posture**: From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and head control). Pull opponent's head and upper body down while using your legs to prevent them from posting back. The goal is to bring their head below the level of their hips, compromising their base and creating the opening for triangle entry. Use hip movement and grip pressure simultaneously. (Timing: 2-3 seconds) [Pressure: Moderate]
-2. **Isolate one arm inside**: Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while the other remains outside. This creates the essential triangle geometry - one arm trapped against their neck, one arm free. Common methods include pulling one arm across while blocking the other with your shin, or using collar-and-sleeve grips to manipulate arm position. The inside arm should be deep, ideally with their elbow past your hip. (Timing: 1-2 seconds) [Pressure: Moderate]
-3. **Throw leg over shoulder**: With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trapped arm) across the opponent's back and over their shoulder. This leg should be high on the shoulder, with your knee pointing toward their opposite ear. Simultaneously, your other leg should maintain control on their hip to prevent them from posturing up during the transition. Execute this movement smoothly to prevent them from recovering posture. (Timing: 1 second - must be quick) [Pressure: Light]
-4. **Lock the triangle**: Bring your leg that's across their back down so your shin crosses behind their neck. Take your opposite leg and place the ankle (not the back of the knee) behind the knee of the choking leg. This creates the locked triangle position. Common error: placing the back of the knee behind the ankle, which is weaker. The proper lock has the ankle behind the knee, creating a more secure configuration. Your legs should form a figure-four shape. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Angle off and control trapped arm**: This step is critical for finishing effectiveness. Angle your body approximately 45 degrees away from centerline, toward the side of the trapped arm. At the same time, grab the opponent's trapped wrist and pull it across your body, preventing them from using that arm to create a frame or defend. Your hips should now be perpendicular to their body rather than square. This angle tightens the triangle geometry significantly. (Timing: 1-2 seconds) [Pressure: Firm]
-6. **Finish the choke**: With the triangle locked and angle established, finish by squeezing your knees together powerfully while simultaneously pulling opponent's head down with both hands (grip behind the head or their trapped arm). Extend your hips forward and up slightly to increase pressure on the carotid arteries. The finish should be a coordinated squeeze - knees together, hips extended, head pulled down. Apply pressure progressively over 3-5 seconds, releasing immediately upon tap. (Timing: 3-5 seconds progressive tightening) [Pressure: Maximum]
+1. **Break opponent's posture**: From closed guard or open guard position, establish strong grips (collar and sleeve, or overhook and head control). Pull opponent's head and upper body down while using your legs to prevent them from posting back. The goal is to bring their head below the level of their hips, compromising their base and creating the opening for triangle entry. Use hip movement and grip pressure simultaneously. (Timing: 2-3 seconds)
+2. **Isolate one arm inside**: Using your grips and leg positioning, force one of the opponent's arms to be inside your guard while the other remains outside. This creates the essential triangle geometry - one arm trapped against their neck, one arm free. Common methods include pulling one arm across while blocking the other with your shin, or using collar-and-sleeve grips to manipulate arm position. The inside arm should be deep, ideally with their elbow past your hip. (Timing: 1-2 seconds)
+3. **Throw leg over shoulder**: With posture broken and arm isolated, uncross your ankles and bring one leg (same side as the trapped arm) across the opponent's back and over their shoulder. This leg should be high on the shoulder, with your knee pointing toward their opposite ear. Simultaneously, your other leg should maintain control on their hip to prevent them from posturing up during the transition. Execute this movement smoothly to prevent them from recovering posture. (Timing: 1 second - must be quick)
+4. **Lock the triangle**: Bring your leg that's across their back down so your shin crosses behind their neck. Take your opposite leg and place the ankle (not the back of the knee) behind the knee of the choking leg. This creates the locked triangle position. Common error: placing the back of the knee behind the ankle, which is weaker. The proper lock has the ankle behind the knee, creating a more secure configuration. Your legs should form a figure-four shape. (Timing: 1-2 seconds)
+5. **Angle off and control trapped arm**: This step is critical for finishing effectiveness. Angle your body approximately 45 degrees away from centerline, toward the side of the trapped arm. At the same time, grab the opponent's trapped wrist and pull it across your body, preventing them from using that arm to create a frame or defend. Your hips should now be perpendicular to their body rather than square. This angle tightens the triangle geometry significantly. (Timing: 1-2 seconds)
+6. **Finish the choke**: With the triangle locked and angle established, finish by squeezing your knees together powerfully while simultaneously pulling opponent's head down with both hands (grip behind the head or their trapped arm). Extend your hips forward and up slightly to increase pressure on the carotid arteries. The finish should be a coordinated squeeze - knees together, hips extended, head pulled down. Apply pressure progressively over 3-5 seconds, releasing immediately upon tap. (Timing: 3-5 seconds progressive tightening)
 
 
 </section>
@@ -261,25 +261,25 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting triangle from neutral or good opponent posture [Low DANGER]
+- **Mistake**: Attempting triangle from neutral or good opponent posture
   - **Consequence**: Opponent easily defends, maintains base, and can pass guard
   - **Correction**: Always break posture first - opponent's head must be below hip level before attempting triangle entry
-- **Mistake**: Locking ankle behind the back of knee instead of knee behind ankle [Low DANGER]
+- **Mistake**: Locking ankle behind the back of knee instead of knee behind ankle
   - **Consequence**: Weak, easily escaped triangle that lacks finishing pressure
   - **Correction**: Always place the ankle of your bottom leg behind the knee of your top leg, creating the proper figure-four lock
-- **Mistake**: Remaining square with opponent instead of angling off [Low DANGER]
+- **Mistake**: Remaining square with opponent instead of angling off
   - **Consequence**: Triangle feels loose, opponent can create space, choke lacks finishing power
   - **Correction**: Always angle 45 degrees toward the trapped arm side - this tightens the triangle geometry significantly
-- **Mistake**: Releasing control of trapped arm [Medium DANGER]
+- **Mistake**: Releasing control of trapped arm
   - **Consequence**: Opponent creates frame with freed arm, relieves pressure, and potentially escapes
   - **Correction**: Maintain constant control of the trapped wrist throughout the finish, pulling it across your body
-- **Mistake**: Applying maximum pressure immediately without progressive tightening [CRITICAL DANGER]
+- **Mistake**: Applying maximum pressure immediately without progressive tightening
   - **Consequence**: High risk of injuring training partner or causing unconsciousness without warning
   - **Correction**: Apply triangle pressure progressively over 3-5 seconds in training, allowing partner time to recognize the danger and tap safely
-- **Mistake**: Squeezing with ankles/feet instead of knees [Low DANGER]
+- **Mistake**: Squeezing with ankles/feet instead of knees
   - **Consequence**: Inefficient pressure, leg fatigue, opponent can often withstand or escape
   - **Correction**: Focus squeezing pressure through the knees coming together, using larger muscle groups of the thighs rather than smaller calf muscles
-- **Mistake**: Not controlling opponent's posture during triangle lock transition [Medium DANGER]
+- **Mistake**: Not controlling opponent's posture during triangle lock transition
   - **Consequence**: Opponent escapes by standing or posturing back up before lock is complete
   - **Correction**: Use hands to maintain head/shoulder control throughout the locking sequence, only releasing to grab trapped arm once triangle is secure
 
@@ -346,43 +346,6 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Week 1-2)** (2 weeks)
-- Focus: Learn triangle geometry, locking mechanics, and basic entry from static positions. Practice on fully compliant partners to understand body positioning and leverage points without any resistance.
-- Resistance: None
-- Safety: Focus on slow, controlled movements. Practice locking and unlocking the triangle multiple times to build muscle memory. Instructor must verify proper ankle-behind-knee lock before students proceed to applying pressure.
-
-**Controlled Application (Week 3-4)** (2 weeks)
-- Focus: Begin applying mild finishing pressure with compliant partners. Practice the full sequence: posture break, arm isolation, entry, lock, angle adjustment, and progressive finish. Emphasis on the 3-5 second progressive tightening protocol.
-- Resistance: Zero resistance
-- Safety: Partners must tap early and often. No ego in tapping. Practice immediate release upon tap signal. Each student should experience both applying and defending the triangle to understand both perspectives and pressure levels.
-
-**Dynamic Entry Practice (Week 5-8)** (4 weeks)
-- Focus: Practice triangle entries from live guard scenarios with mild resistance. Partner provides realistic posture but allows entry to succeed. Work on timing, grip fighting, and creating the proper geometry against mild resistance.
-- Resistance: Mild resistance
-- Safety: Resistance only during entry phase - once triangle is locked, partner should allow progressive finish. Continue 3-5 second application protocol. Focus on recognizing when triangle is properly locked before adding pressure.
-
-**Realistic Defense and Counters (Week 9-12)** (4 weeks)
-- Focus: Add realistic defensive scenarios. Practice against common defenses: standing, stacking, head pulling, creating frames. Learn to maintain triangle and adjust during opponent's escape attempts. Begin chaining to armbar and omoplata.
-- Resistance: Realistic resistance
-- Safety: Even with realistic resistance, maintain communication. Defender should tap when triangle is tight rather than fighting to unconsciousness. Practice recognizing when adjustment is needed vs when to abandon and reset.
-
-**Competition Timing and Setups (Week 13+)** (Ongoing advanced training)
-- Focus: Develop advanced setups, entries from multiple positions, combination attacks, and competition-level timing. Practice against fully resisting opponents who are attempting to pass guard while you hunt triangle opportunities.
-- Resistance: Full resistance
-- Safety: Maintain training application speed (3-5 seconds) even when rolling at competition intensity. The goal is to achieve the position and tap, not to practice applying maximum force. Reserve competition-speed applications for actual competition only.
-
-**Teaching and Refinement (Ongoing)** (Continuous development)
-- Focus: Advanced practitioners should regularly teach triangle fundamentals to newer students, reinforcing proper safety protocols and technical details. Continue refining personal game, exploring new entries and setups, and developing teaching ability.
-- Resistance: Realistic resistance
-- Safety: Senior students are responsible for modeling proper safety culture. Always prioritize partner safety over submission completion. Set the standard for newer students by demonstrating controlled applications and immediate releases.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -436,6 +399,7 @@ Historically, the triangle choke has been a cornerstone of guard-based jiu-jitsu
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

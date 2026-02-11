@@ -377,11 +377,11 @@ Start with compliant partner, establish standing back control. Every 30 seconds 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 55% | 35% |
-| Intermediate | 60% | 70% | 50% |
-| Advanced     | 75% | 85% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 78% |
+| Submission Probability | 58% |
 
 **Average Time in Position**: 20-45 seconds (typically transitions to ground or submission quickly)
 

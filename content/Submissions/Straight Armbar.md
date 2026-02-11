@@ -157,7 +157,7 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 **Type**: Arm Lock
 **Target Area**: Elbow joint
 **Starting Position**: [[Multiple positions including Mount, Guard, Side Control]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -235,12 +235,12 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate and grip the target arm**: Secure a two-on-one grip on your opponent's arm, with one hand controlling the wrist and the other gripping above the elbow or at the tricep. Begin breaking down their defensive posture by pulling the arm across their centerline and away from their body. This isolation is critical—you need to separate this arm from their other defensive tools. Use your body weight and angles to make it difficult for them to retract the arm or connect their hands together in a defensive grip. (Timing: Initial setup phase, 2-3 seconds) [Pressure: Moderate]
-2. **Swing leg over head and establish leg configuration**: While maintaining control of the isolated arm, swing your leg over your opponent's head (or across their torso depending on position). Your base leg should post on the opposite side for stability and hip mobility. The finishing leg (over the head) should have your calf applying gentle pressure across their face or neck, but never the trachea. Your knees should begin pinching together to create a scissor-like control mechanism that traps the shoulder and prevents rotation. Position your hips as close to their shoulder as possible to minimize the space they can use for escape mechanics. (Timing: Transition phase, 3-4 seconds) [Pressure: Moderate]
-3. **Secure wrist to chest and verify thumb position**: Pull your opponent's wrist tightly to your chest, preferably high on your sternum, using both hands in a reinforced grip. This eliminates the space needed for the hitchhiker escape. Verify that their thumb is pointing toward the ceiling—this ensures the elbow joint is properly oriented for the submission. If the thumb is pointing down or to the side, you must adjust by rotating their wrist until proper alignment is achieved. The wrist should be cradled against your chest like you're hugging it, with your elbows pulled tight to your sides. (Timing: Control refinement, 2-3 seconds) [Pressure: Firm]
-4. **Pinch knees together and angle body perpendicular**: Squeeze your knees together forcefully, creating a vise-like grip that prevents your opponent from pulling their arm free. Your legs should control both their head (preventing them from sitting up or turning toward you) and their shoulder (preventing rotation that would relieve pressure). Simultaneously, angle your entire body perpendicular to their torso—your spine should form a T-shape with their body. This perpendicular alignment is biomechanically essential for creating the proper leverage angle on the elbow joint. Ensure your hips are tight to their shoulder with no gap. (Timing: Position optimization, 2-3 seconds) [Pressure: Firm]
-5. **Create initial breaking pressure with controlled hip elevation**: Maintaining all previous controls, begin to elevate your hips slowly and progressively. The upward thrust should come from your glutes and core, driving your hips toward the ceiling while your legs and arms remain locked in position. This hip elevation creates hyperextension force across the elbow joint. Start with minimal pressure—just enough to make contact and begin straightening the arm. The pressure should increase gradually, giving your opponent clear feedback and time to tap. Think of this as a progressive squeeze rather than an explosive movement. Your training partner should feel increasing pressure over several seconds. (Timing: Initial pressure application, 3-4 seconds minimum) [Pressure: Light]
-6. **Maintain pressure and wait for tap**: Continue the controlled hip elevation until your opponent taps. The finish involves sustained upward hip pressure while all other control points remain locked. Your knees stay pinched, wrist stays glued to chest, body remains perpendicular, and hips continue driving upward in a smooth, controlled manner. Be especially attentive to tap signals—many practitioners will tap with their free hand, tap their foot on the mat, or verbally submit. The moment you feel or hear any tap signal, immediately release pressure by lowering your hips. Never continue applying pressure after a tap, and never apply sudden jerking motions. In training, stop at the point of discomfort rather than pushing to pain. (Timing: Finishing phase, 2-5 seconds from initial pressure to tap) [Pressure: Maximum]
+1. **Isolate and grip the target arm**: Secure a two-on-one grip on your opponent's arm, with one hand controlling the wrist and the other gripping above the elbow or at the tricep. Begin breaking down their defensive posture by pulling the arm across their centerline and away from their body. This isolation is critical—you need to separate this arm from their other defensive tools. Use your body weight and angles to make it difficult for them to retract the arm or connect their hands together in a defensive grip. (Timing: Initial setup phase, 2-3 seconds)
+2. **Swing leg over head and establish leg configuration**: While maintaining control of the isolated arm, swing your leg over your opponent's head (or across their torso depending on position). Your base leg should post on the opposite side for stability and hip mobility. The finishing leg (over the head) should have your calf applying gentle pressure across their face or neck, but never the trachea. Your knees should begin pinching together to create a scissor-like control mechanism that traps the shoulder and prevents rotation. Position your hips as close to their shoulder as possible to minimize the space they can use for escape mechanics. (Timing: Transition phase, 3-4 seconds)
+3. **Secure wrist to chest and verify thumb position**: Pull your opponent's wrist tightly to your chest, preferably high on your sternum, using both hands in a reinforced grip. This eliminates the space needed for the hitchhiker escape. Verify that their thumb is pointing toward the ceiling—this ensures the elbow joint is properly oriented for the submission. If the thumb is pointing down or to the side, you must adjust by rotating their wrist until proper alignment is achieved. The wrist should be cradled against your chest like you're hugging it, with your elbows pulled tight to your sides. (Timing: Control refinement, 2-3 seconds)
+4. **Pinch knees together and angle body perpendicular**: Squeeze your knees together forcefully, creating a vise-like grip that prevents your opponent from pulling their arm free. Your legs should control both their head (preventing them from sitting up or turning toward you) and their shoulder (preventing rotation that would relieve pressure). Simultaneously, angle your entire body perpendicular to their torso—your spine should form a T-shape with their body. This perpendicular alignment is biomechanically essential for creating the proper leverage angle on the elbow joint. Ensure your hips are tight to their shoulder with no gap. (Timing: Position optimization, 2-3 seconds)
+5. **Create initial breaking pressure with controlled hip elevation**: Maintaining all previous controls, begin to elevate your hips slowly and progressively. The upward thrust should come from your glutes and core, driving your hips toward the ceiling while your legs and arms remain locked in position. This hip elevation creates hyperextension force across the elbow joint. Start with minimal pressure—just enough to make contact and begin straightening the arm. The pressure should increase gradually, giving your opponent clear feedback and time to tap. Think of this as a progressive squeeze rather than an explosive movement. Your training partner should feel increasing pressure over several seconds. (Timing: Initial pressure application, 3-4 seconds minimum)
+6. **Maintain pressure and wait for tap**: Continue the controlled hip elevation until your opponent taps. The finish involves sustained upward hip pressure while all other control points remain locked. Your knees stay pinched, wrist stays glued to chest, body remains perpendicular, and hips continue driving upward in a smooth, controlled manner. Be especially attentive to tap signals—many practitioners will tap with their free hand, tap their foot on the mat, or verbally submit. The moment you feel or hear any tap signal, immediately release pressure by lowering your hips. Never continue applying pressure after a tap, and never apply sudden jerking motions. In training, stop at the point of discomfort rather than pushing to pain. (Timing: Finishing phase, 2-5 seconds from initial pressure to tap)
 
 
 </section>
@@ -260,25 +260,25 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive, jerking force to finish the submission quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive, jerking force to finish the submission quickly
   - **Consequence**: High risk of causing serious elbow dislocation, ligament tears, or permanent joint damage to training partner
   - **Correction**: Always apply progressive, controlled pressure over 3-5 seconds minimum. The hip elevation should be smooth and gradual, giving clear feedback to your partner. In training, stop at discomfort rather than pain. Save speed for competition if necessary, but never in the practice room.
-- **Mistake**: Allowing space between opponent's wrist and your chest [Low DANGER]
+- **Mistake**: Allowing space between opponent's wrist and your chest
   - **Consequence**: Opponent easily performs hitchhiker escape by bending their arm and extracting it from the submission
   - **Correction**: Pull the wrist high and tight to your sternum, hugging it with both arms. Your elbows should be pulled to your sides, creating a locked cradle that eliminates all space. The tighter the wrist control, the more impossible the escape becomes.
-- **Mistake**: Failing to position body perpendicular to opponent's torso [Low DANGER]
+- **Mistake**: Failing to position body perpendicular to opponent's torso
   - **Consequence**: Poor leverage angle reduces effectiveness dramatically, allows opponent to easily defend or escape by turning into you
   - **Correction**: Visualize forming a perfect T-shape with your body and theirs. Your spine should be at a 90-degree angle to their centerline. This perpendicular alignment creates optimal biomechanical leverage for the hip elevation to translate into elbow hyperextension force.
-- **Mistake**: Opponent's thumb is pointing down or sideways instead of up [Medium DANGER]
+- **Mistake**: Opponent's thumb is pointing down or sideways instead of up
   - **Consequence**: The elbow joint is not properly aligned, reducing submission effectiveness and potentially allowing opponent to rotate their arm free
   - **Correction**: Before applying any finishing pressure, verify thumb position. Rotate their wrist if necessary so the thumb points toward the ceiling. This simple detail ensures the elbow's natural hinge joint is positioned to be vulnerable to your hip pressure.
-- **Mistake**: Knees spread apart instead of pinched tightly together [Low DANGER]
+- **Mistake**: Knees spread apart instead of pinched tightly together
   - **Consequence**: Opponent can extract their arm by pulling it back through the gap between your legs, or rotate their body to relieve pressure
   - **Correction**: Actively squeeze your knees together as if trying to touch them. This creates a scissor-like trap that isolates the shoulder and prevents extraction. The knee pinch is as important as the wrist control—both must be maintained simultaneously.
-- **Mistake**: Hips positioned too far from opponent's shoulder, creating a gap [Medium DANGER]
+- **Mistake**: Hips positioned too far from opponent's shoulder, creating a gap
   - **Consequence**: Opponent has space to maneuver, turn into you, or sit up to defend. Finishing leverage is significantly reduced.
   - **Correction**: After swinging your leg over, immediately scoot your hips as close to their shoulder as possible. Your hip should be touching or nearly touching their shoulder with zero gap. This proximity is essential for effective control and finishing mechanics.
-- **Mistake**: Continuing to apply pressure after opponent taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps or shows distress
   - **Consequence**: Severe elbow injury including ligament tears, dislocation, or fracture. This is the most serious safety violation in training.
   - **Correction**: Immediately release all pressure the instant you feel or hear a tap signal. Lower your hips completely, release the wrist grip gently, and allow your partner to recover their arm safely. Develop sensitivity to recognize taps from any source—hand, foot, verbal, or body language indicating distress.
 
@@ -347,43 +347,6 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Positional Drilling)** (Weeks 1-2 for beginners)
-- Focus: Learn proper body positioning, hip placement, leg configuration, wrist control, and perpendicular alignment without any finishing pressure. Practice transitioning into armbar position from various starting points.
-- Resistance: Zero resistance
-- Safety: Focus entirely on position and control points. No pressure applied to elbow joint at all—only practice getting into position correctly. Drill with compliant partner who helps you understand proper alignment.
-
-**Controlled Entry and Setup** (Weeks 2-4)
-- Focus: Practice isolating the arm, securing grips, and establishing all control points (knee pinch, wrist to chest, perpendicular body, hips tight to shoulder). Work on recognizing when all prerequisites are met before attempting finish.
-- Resistance: Mild resistance
-- Safety: Partner provides light, predictable resistance to arm isolation but allows you to complete the position. Still no finishing pressure—focus is on control and setup quality. Verify all safety checkpoints before proceeding to next phase.
-
-**Slow Application with Clear Tap Recognition** (Weeks 4-8)
-- Focus: Begin applying very light finishing pressure with extremely slow hip elevation. Partner taps early at first sign of discomfort. Primary focus is developing sensitivity to tap signals and immediate release response.
-- Resistance: Mild resistance
-- Safety: Application speed must be extremely slow—minimum 5-7 seconds from first pressure to tap. Partner should tap at discomfort, not pain. Practice releasing immediately upon tap. Build muscle memory for safe release protocol. This phase develops trust and safety habits.
-
-**Progressive Resistance and Defense Integration** (Weeks 8-16)
-- Focus: Partner begins defending with common escapes (hitchhiker, grip fighting, stacking attempts). Practice maintaining control through defense and making adjustments. Gradually increase finishing pressure while maintaining safety protocols.
-- Resistance: Realistic resistance
-- Safety: Despite increased resistance, maintain slow, controlled finishing pressure (3-5 seconds minimum). Never spike or jerk the submission even when partner defends actively. Develop ability to feel when submission is secure vs. when you need to adjust position.
-
-**Live Sparring Integration** (Months 4-6)
-- Focus: Attempt armbars during positional sparring and flow rolling. Chain armbars with other submissions and transitions. Work entries from various positions under live conditions.
-- Resistance: Full resistance
-- Safety: In live training, still apply submissions progressively. Be extra cautious with training partners of lower skill levels who may not tap appropriately. Develop judgment for when to release a submission attempt that isn't working rather than forcing it dangerously. Communication with partner is essential.
-
-**Competition Application and Dynamic Scenarios** (6+ months of consistent training)
-- Focus: High-intensity drilling, competition simulation, dynamic entries from scrambles, and finishing under maximum resistance. Develop ability to recognize submission opportunities in real-time.
-- Resistance: Full resistance
-- Safety: Even in competition simulation, maintain controlled application in training. Save maximum-speed finishes for actual competition. Continue respecting all taps immediately. Advanced practitioners must be especially careful with less experienced partners. The ability to finish quickly must be balanced with responsibility to training partners' safety.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -442,6 +405,7 @@ The Straight Armbar is one of the most fundamental and highest-percentage submis
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

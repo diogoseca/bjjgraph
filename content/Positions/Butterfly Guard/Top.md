@@ -352,11 +352,11 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 30% | 8% |
-| Intermediate | 60% | 45% | 15% |
-| Advanced     | 75% | 60% | 25% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 52% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 30-60 seconds to successfully pass or be swept
 

@@ -21,37 +21,37 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Arm Triangle",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute North-South Choke",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,23 +209,19 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Available Attacks
 
-### [[Kimura from Side Control]] (12% of attempts)
+### [[Kimura from Side Control]] (16% of attempts)
 
-### [[Americana from Side Control]] (11% of attempts)
+### [[Americana from Side Control]] (14% of attempts)
 
-### [[Side Control to Mount]] (12% of attempts)
+### [[Side Control to Mount]] (15% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Side Control to North-South]] (15% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Arm Triangle]] (13% of attempts)
 
-### [[Arm Triangle]] (10% of attempts)
+### [[North-South Choke]] (12% of attempts)
 
-### [[North-South Choke]] (9% of attempts)
-
-### [[Position Change]] (12% of attempts)
-
-### [[Side Control to North-South]] (11% of attempts)
+### [[Position Change]] (15% of attempts)
 
 
 
@@ -393,11 +389,11 @@ Partner in bottom position actively moves their head to different defensive posi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 68% | 48% | 38% |
-| Intermediate | 82% | 63% | 55% |
-| Advanced     | 94% | 80% | 73% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 88% |
+| Advancement Probability | 72% |
+| Submission Probability | 64% |
 
 **Average Time in Position**: 1-3 minutes depending on opponent's pain tolerance and defensive skill
 

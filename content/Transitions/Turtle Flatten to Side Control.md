@@ -161,7 +161,7 @@ Turtle Flatten to Side Control is a fundamental top-game transition that convert
 Strategically, the flatten is a high-percentage option when the opponent has excellent turtle defense or when you recognize that forcing the back take will result in scrambles that favor the bottom player. The flatten works by exploiting the structural weakness of turtle position: the base collapses when lateral pressure is applied at the hip line while controlling the upper body. By breaking the four-point base down to a flat position, you eliminate the opponent's ability to execute granby rolls, sit-throughs, or stand-ups, converting a volatile scramble-prone position into a controlled passing scenario. Competition-proven athletes frequently use this transition as a reliable pathway when back take attempts stall, particularly against opponents with strong turtle defense built around constant motion and grip fighting.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -209,13 +209,13 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish hip control**: From turtle top, secure a deep grip on the opponent's far hip or belt line with your near hand. Your fingers should hook inside the hip crease or grab the gi pants at the waistband. This grip anchors the flattening direction and prevents the opponent from rolling away. (Timing: Immediately after recognizing back take is being defended)
-2. **Secure upper body control**: Thread your far arm under the opponent's armpit for an underhook or establish crossface control by driving your forearm across their jaw line to the far side of their neck. This upper body connection prevents them from turning into you or creating a scramble during the flatten. (Timing: Within 1-2 seconds of establishing hip grip)
-3. **Position your drive leg**: Walk your near-side knee tight against the opponent's near hip, posting your far leg wide for base. The drive knee acts as a wedge that will push their hip to the mat. Your foot placement should create a stable triangle of support between both feet and your chest contact point. (Timing: Simultaneously with upper body control)
-4. **Drive laterally to flatten**: Explosively drive your chest and near knee into the opponent's near hip at a 45-degree angle toward the mat, pushing them from their four-point base onto their near hip and then flat onto their belly. Use your bodyweight and leg drive simultaneously — do not pull, push through their structure. (Timing: Explosive burst when drive leg and grips are set)
-5. **Slide to side control**: As the opponent goes flat, immediately begin circling your hips toward their head while maintaining chest pressure on their shoulder blades. Slide your underhook arm deeper and establish crossface by driving your shoulder into their jaw. Your hip should land tight against their near hip. (Timing: Immediately as opponent's base collapses — no pause)
-6. **Consolidate side control**: Sprawl your legs back to drop your weight onto the opponent's torso. Secure a deep crossface with your near arm driving their chin away and an underhook or far-side hip control with your far arm. Chest-to-chest contact with hips low and heavy establishes the dominant side control pin. (Timing: Within 2-3 seconds of flattening)
-7. **Block guard recovery**: Anticipate the opponent's immediate hip escape attempt by keeping your near knee tight against their hip and your far leg posted wide. Apply downward pressure through your shoulder into their crossface side to pin their upper body, making hip movement ineffective for guard recovery. (Timing: Continuous pressure immediately after establishing position)
+1. **Establish hip control**: From turtle top, secure a deep grip on the opponent's far hip or belt line with your near hand. Your fingers should hook inside the hip crease or grab the gi pants at the waistband. This grip anchors the flattening direction and prevents the opponent from rolling away.
+2. **Secure upper body control**: Thread your far arm under the opponent's armpit for an underhook or establish crossface control by driving your forearm across their jaw line to the far side of their neck. This upper body connection prevents them from turning into you or creating a scramble during the flatten.
+3. **Position your drive leg**: Walk your near-side knee tight against the opponent's near hip, posting your far leg wide for base. The drive knee acts as a wedge that will push their hip to the mat. Your foot placement should create a stable triangle of support between both feet and your chest contact point.
+4. **Drive laterally to flatten**: Explosively drive your chest and near knee into the opponent's near hip at a 45-degree angle toward the mat, pushing them from their four-point base onto their near hip and then flat onto their belly. Use your bodyweight and leg drive simultaneously — do not pull, push through their structure.
+5. **Slide to side control**: As the opponent goes flat, immediately begin circling your hips toward their head while maintaining chest pressure on their shoulder blades. Slide your underhook arm deeper and establish crossface by driving your shoulder into their jaw. Your hip should land tight against their near hip.
+6. **Consolidate side control**: Sprawl your legs back to drop your weight onto the opponent's torso. Secure a deep crossface with your near arm driving their chin away and an underhook or far-side hip control with your far arm. Chest-to-chest contact with hips low and heavy establishes the dominant side control pin.
+7. **Block guard recovery**: Anticipate the opponent's immediate hip escape attempt by keeping your near knee tight against their hip and your far leg posted wide. Apply downward pressure through your shoulder into their crossface side to pin their upper body, making hip movement ineffective for guard recovery.
 
 
 </section>
@@ -261,23 +261,18 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 ## Training Progressions
 **Week 1-2** - Flatten mechanics
 Practice the flatten motion on a compliant partner in turtle. Focus on proper drive angle (45-degree lateral), hip grip placement, and maintaining upper body contact. Drill the push-through motion repeatedly until the lateral collapse becomes natural. No resistance — partner holds static turtle and allows the flatten.
-(Resistance: None)
 
 **Week 3-4** - Transition fluidity
 Chain the flatten directly into side control consolidation as one continuous motion. Partner provides light resistance by attempting to re-turtle after being flattened. Focus on eliminating the pause between flatten and slide, maintaining pressure throughout the transition, and securing crossface immediately upon arriving in side control.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively defends with sit-throughs, granby rolls, and standup attempts at medium resistance. Practice recognizing each defensive reaction and choosing the appropriate response: follow the roll, switch to front headlock, or maintain drive. Integrate grip fighting and timing recognition into the flatten attempts.
-(Resistance: Medium)
 
 **Week 7-8** - Chain attacks
 Integrate the flatten into a complete turtle attack system: attempt back take first, if defended switch to flatten; if flatten is countered with sit-through, attack front headlock submissions. Full resistance sparring starting from turtle top, scoring points for reaching side control or submitting.
-(Resistance: Full)
 
 **Week 9+** - Competition simulation
 Live positional sparring starting from turtle top against fully resisting opponents of varying skill levels and body types. Track success rate of flatten attempts versus other turtle attacks. Refine timing, grip selection, and decision-making under full competition-speed conditions.
-(Resistance: Full)
 
 
 

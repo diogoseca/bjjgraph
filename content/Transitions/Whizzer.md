@@ -159,7 +159,7 @@ description: "Master the Whizzer overhook control in BJJ. Essential defensive an
 The Whizzer is a fundamental overhook control position that serves as both a powerful defensive mechanism and an offensive transition tool in Brazilian Jiu-Jitsu. Borrowed from wrestling, this technique involves threading your arm over your opponent's arm and controlling their shoulder, creating a mechanical advantage that neutralizes underhook-based attacks while opening pathways to dominant positions. The Whizzer excels in multiple contexts: defending single-leg takedowns, preventing back takes from turtle, controlling scrambles, and setting up your own offensive transitions to back control or reversal positions. Understanding when to establish, maintain, and abandon the Whizzer separates competent grapplers from those who get swept or taken down repeatedly. The position's effectiveness stems from its ability to control your opponent's posture and limit their hip mobility while preserving your own defensive structure and offensive options.
 
 **From Position**: [[Overhook Control/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -208,13 +208,13 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify underhook threat**: Recognize when opponent is establishing or has established an underhook on your torso. This is most common during scrambles, turtle defense, single-leg defense, or standing clinch exchanges. Feel their arm reaching deep around your body or under your armpit. (Timing: React immediately upon feeling underhook pressure)
-2. **Thread the overhook**: Drive your arm over the top of opponent's underhooking arm, threading it through the gap between their arm and their body. Your bicep should connect with the back of their shoulder. Reach as deep as possible, aiming to get your hand past their far shoulder blade for maximum control depth. (Timing: Execute while opponent is committed to their underhook)
-3. **Lock the shoulder**: Squeeze your elbow tight to your body, creating a vice grip on opponent's shoulder and upper arm. Your forearm should be driving across their upper back. Pull their trapped arm tight to your torso, eliminating space between your body and their shoulder. This mechanical connection prevents them from extracting their arm. (Timing: Immediate upon completing the thread)
-4. **Create hip angle**: Step or shift your hips away from the direction of opponent's underhook, creating a 45-90 degree angle. If defending a single-leg, this means moving your hips backward and away from their grip. If in turtle, this means turning your body to face them. This hip movement prevents them from using their underhook to complete their technique. (Timing: Simultaneously with locking the shoulder)
-5. **Drive shoulder pressure**: Use your overhook to actively drive opponent's shoulder down toward the mat while keeping your elbow tight. Apply constant downward and rotational pressure, forcing their head to drop and their posture to break. This disrupts their base and prevents them from generating power through their underhook. (Timing: Maintain continuous pressure throughout)
-6. **Control head position**: Use your free hand to control opponent's head, either by cross-facing, cupping the back of their head, or establishing a front headlock grip. Head control combined with the Whizzer creates a powerful immobilization system. Keep your own head positioned on the opposite side of their trapped arm. (Timing: Establish once Whizzer is secure)
-7. **Transition to dominant position**: Once opponent is controlled and their movement options are limited, begin transitioning to back control by stepping your near leg behind theirs, or to a kimura by releasing the Whizzer and catching their wrist. You can also use the Whizzer to complete a reversal sweep if they're driving forward. Read their reaction and choose your transition based on their weight distribution. (Timing: When opponent's base is compromised or they attempt to escape)
+1. **Identify underhook threat**: Recognize when opponent is establishing or has established an underhook on your torso. This is most common during scrambles, turtle defense, single-leg defense, or standing clinch exchanges. Feel their arm reaching deep around your body or under your armpit.
+2. **Thread the overhook**: Drive your arm over the top of opponent's underhooking arm, threading it through the gap between their arm and their body. Your bicep should connect with the back of their shoulder. Reach as deep as possible, aiming to get your hand past their far shoulder blade for maximum control depth.
+3. **Lock the shoulder**: Squeeze your elbow tight to your body, creating a vice grip on opponent's shoulder and upper arm. Your forearm should be driving across their upper back. Pull their trapped arm tight to your torso, eliminating space between your body and their shoulder. This mechanical connection prevents them from extracting their arm.
+4. **Create hip angle**: Step or shift your hips away from the direction of opponent's underhook, creating a 45-90 degree angle. If defending a single-leg, this means moving your hips backward and away from their grip. If in turtle, this means turning your body to face them. This hip movement prevents them from using their underhook to complete their technique.
+5. **Drive shoulder pressure**: Use your overhook to actively drive opponent's shoulder down toward the mat while keeping your elbow tight. Apply constant downward and rotational pressure, forcing their head to drop and their posture to break. This disrupts their base and prevents them from generating power through their underhook.
+6. **Control head position**: Use your free hand to control opponent's head, either by cross-facing, cupping the back of their head, or establishing a front headlock grip. Head control combined with the Whizzer creates a powerful immobilization system. Keep your own head positioned on the opposite side of their trapped arm.
+7. **Transition to dominant position**: Once opponent is controlled and their movement options are limited, begin transitioning to back control by stepping your near leg behind theirs, or to a kimura by releasing the Whizzer and catching their wrist. You can also use the Whizzer to complete a reversal sweep if they're driving forward. Read their reaction and choose your transition based on their weight distribution.
 
 
 </section>
@@ -260,23 +260,18 @@ The Whizzer is a fundamental overhook control position that serves as both a pow
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Establishing and maintaining basic Whizzer control
 Partner drills starting from standing clinch or turtle position. Partner establishes underhook, you respond with Whizzer. Focus on proper threading depth, elbow position, and hip angle creation. Hold position for 30 seconds while partner attempts light extraction. Repeat 10 times per side.
-(Resistance: Light)
 
 **Week 3-4: Defensive Applications** - Using Whizzer to defend takedowns and back takes
 Partner shoots single-leg takedowns or attacks from turtle with underhook. Defend using Whizzer and recover to neutral position. Progress to defending with Whizzer and returning to standing or guard. Partner uses 50% resistance. Drill 5-minute rounds.
-(Resistance: Medium)
 
 **Week 5-6: Offensive Transitions** - Transitioning from Whizzer to back control and kimura
 Start with established Whizzer control. Practice flowing to back take by controlling head and stepping behind. Also drill transitioning to kimura grip by releasing Whizzer and catching wrist. Partner offers moderate resistance and attempts to counter. 8-10 repetitions per transition per side.
-(Resistance: Medium)
 
 **Week 7-8: Live Scramble Integration** - Applying Whizzer in live situations with full resistance
 Start rolling from neutral positions (standing, turtle, or scrambles). Apply Whizzer control when underhook opportunities arise. Focus on recognizing the right moments to establish, maintain, and release the Whizzer. Flow through complete sequences from defense to dominant position. Full intensity specific training.
-(Resistance: Full)
 
 **Advanced: Counter-Counter Responses** - Handling high-level counters to your Whizzer
 Training partner uses sophisticated counters: switching underhooks, dropping weight, driving forward pressure, hand fighting your Whizzer. Develop responses to each counter and chain multiple Whizzer applications together. Include wrestling-up scenarios and complex scrambles.
-(Resistance: Full)
 
 
 

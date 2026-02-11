@@ -157,7 +157,7 @@ Strategically, the Granby Roll represents an aggressive defensive philosophy whe
 The technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.
 
 **From Position**: [[Buggy Choke/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create space**: Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion. (Timing: When opponent reaches for second grip or adjusts position)
-2. **Post the far arm**: Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll. (Timing: Immediately after creating space)
-3. **Tuck and rotate**: Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by turning your head away from the opponent and rolling diagonally across your upper back. (Timing: Explosive movement as one fluid motion)
-4. **Invert through**: Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your legs will swing through the space where your torso was, creating the escape angle. (Timing: Maintain momentum—do not pause mid-roll)
-5. **Hip extension**: As you complete the inversion, extend your hips powerfully to push away from the opponent and create distance. This extension prevents them from following directly into mount or side control. (Timing: At the apex of the roll when inverted)
-6. **Establish guard**: Land facing the opponent with your legs between you and them. Immediately establish foot contact on their hips, close to closed guard if possible, or frame with open guard grips to prevent immediate passing. (Timing: Upon completing rotation, before opponent can advance)
+1. **Create space**: Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion.
+2. **Post the far arm**: Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll.
+3. **Tuck and rotate**: Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by turning your head away from the opponent and rolling diagonally across your upper back.
+4. **Invert through**: Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your legs will swing through the space where your torso was, creating the escape angle.
+5. **Hip extension**: As you complete the inversion, extend your hips powerfully to push away from the opponent and create distance. This extension prevents them from following directly into mount or side control.
+6. **Establish guard**: Land facing the opponent with your legs between you and them. Immediately establish foot contact on their hips, close to closed guard if possible, or frame with open guard grips to prevent immediate passing.
 
 
 </section>
@@ -254,19 +254,15 @@ The technical demands of the Granby Roll require significant hip mobility, propr
 ## Training Progressions
 **Week 1-2** - Solo movement drilling
 Practice the granby roll motion without a partner, focusing on smooth shoulder rolling, proper chin tuck, and landing in guard position. Build the proprioceptive awareness needed for the inverted movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Controlled partner drilling
 Partner establishes turtle top position without attacking. Practice timing the roll initiation, creating space, and establishing guard upon completion. Partner provides positional pressure but does not counter.
-(Resistance: Light)
 
 **Week 5-6** - Reaction training
 Partner threatens buggy choke grips at varying speeds and intensities. Practice recognizing the escape window and executing the granby before position consolidates. Partner begins following the roll to develop counter-to-counter awareness.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Full resistance turtle sparring where bottom player works all escape options including granby roll. Integrate the technique into live rolling, using it as part of complete turtle defense system.
-(Resistance: Full)
 
 
 

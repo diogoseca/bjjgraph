@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint and rotator cuff",
   "starting_position": "Mount",
-  "success_rates": {
-    "beginner": 25,
-    "intermediate": 40,
-    "advanced": 55
-  },
   "overview": "The Monoplata from Mount is an advanced shoulder lock submission that combines elements of the traditional omoplata with mounted control. This technique targets the opponent's shoulder joint and rotator cuff by isolating one arm and applying rotational pressure through a leg-based figure-four configuration. From the mount position, the attacker transitions to isolate the opponent's arm, threads their leg through to create the lock, and applies controlled pressure to force the tap. The monoplata is particularly effective against opponents who defend by framing with their arms or attempting to create distance from mount. Unlike the traditional omoplata which is executed from guard positions, the monoplata from mount provides superior control and eliminates many common escape routes. The technique requires excellent hip mobility, precise timing, and thorough understanding of shoulder mechanics to execute safely. When performed correctly, the monoplata creates an inescapable position where the opponent must tap or risk serious shoulder injury. This submission has gained popularity in modern no-gi grappling due to its effectiveness against athletic opponents who maintain strong defensive frames from bottom mount.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Secure high mount with arm isolation",
       "description": "From mount, slide your hips high toward opponent's head while maintaining chest pressure. Isolate one of opponent's arms by controlling their wrist or forearm. The target arm should be extended toward your body, either framing against your chest or reaching up defensively. Use your opposite hand to pin their wrist to your chest or trap it against your body. Keep your weight forward to prevent them from bridging or creating space.",
-      "timing": "3-5 seconds to establish secure control",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds to establish secure control"
     },
     {
       "step_number": 2,
       "action": "Control opponent's head and far arm",
       "description": "While maintaining control of the isolated arm, use your free hand to control opponent's head or secure their far arm. This is critical to prevent them from defending the monoplata by grabbing your leg or creating frames. You can cup the back of their head, control their far wrist, or establish a grip on their far shoulder. This control eliminates their primary defensive options as you transition.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 3,
       "action": "Swing leg over opponent's head",
       "description": "Begin the transition by swinging your leg (same side as the trapped arm) over opponent's head. Post your opposite hand on the mat for balance as you lift your leg. Your leg should arc over their face smoothly without losing mount control with your other leg. Keep the trapped arm pinned to your body throughout this movement. Your leg should end up positioned so your shin is across the back of their head/neck area.",
-      "timing": "2-4 seconds for smooth transition",
-      "pressure_level": "Moderate"
+      "timing": "2-4 seconds for smooth transition"
     },
     {
       "step_number": 4,
       "action": "Thread leg through and create figure-four",
       "description": "Once your leg is over opponent's head, thread your foot through the gap between their trapped arm and their head. Your foot should slide between their shoulder and ear. Continue threading until your ankle is positioned near their opposite shoulder. Now bring your other leg up and lock your feet together in a figure-four configuration around their trapped arm. Your top ankle should hook behind your bottom leg's knee, creating a tight lock that isolates the shoulder joint completely.",
-      "timing": "4-6 seconds to establish proper configuration",
-      "pressure_level": "Light"
+      "timing": "4-6 seconds to establish proper configuration"
     },
     {
       "step_number": 5,
       "action": "Adjust body position and establish control points",
       "description": "With the figure-four established, adjust your upper body position. You may need to roll slightly to your side or adjust your angle to optimize the leverage on their shoulder. Maintain control of their head or far arm with your hands. Your hips should be close to their shoulder, and your locked legs should be tight against their trapped arm. Ensure the opponent's arm is fully extended and cannot bend at the elbow, as this maximizes the rotational stress on the shoulder joint.",
-      "timing": "3-4 seconds for positioning",
-      "pressure_level": "Firm"
+      "timing": "3-4 seconds for positioning"
     },
     {
       "step_number": 6,
       "action": "Apply submission pressure gradually",
       "description": "Begin applying pressure by extending your hips away from opponent's body while simultaneously squeezing your legs together. This creates rotational pressure on the shoulder joint in two directions: internal rotation from the leg squeeze and external leverage from your hip extension. Apply pressure SLOWLY and progressively over 5-7 seconds minimum. Watch for the tap constantly. The pressure should feel like a gradual tightening, never a sudden jerk. Stop immediately upon any tap signal or sign of distress.",
-      "timing": "5-7 seconds minimum application",
-      "pressure_level": "Moderate"
+      "timing": "5-7 seconds minimum application"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,8 +149,7 @@
     {
       "error": "Applying pressure too quickly or explosively on the shoulder",
       "consequence": "Causes rotator cuff tears or shoulder dislocation before opponent can tap safely",
-      "correction": "Always apply pressure gradually over minimum 5-7 seconds in training. Think of slowly tightening a vice, not yanking a lever. Watch your partner's face and hand for tap signals constantly.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure gradually over minimum 5-7 seconds in training. Think of slowly tightening a vice, not yanking a lever. Watch your partner's face and hand for tap signals constantly."
     },
     {
       "error": "Losing mount control while transitioning to the leg thread",
@@ -186,8 +174,7 @@
     {
       "error": "Jerking or cranking the shoulder when partner doesn't tap immediately",
       "consequence": "Severe shoulder injuries including rotator cuff tears and dislocations",
-      "correction": "If partner doesn't tap after 5-7 seconds of gradual pressure, they may not understand the position. Stop, reset, and communicate. NEVER increase speed or force dramatically. In competition this may finish faster, but training requires patience.",
-      "danger_level": "CRITICAL"
+      "correction": "If partner doesn't tap after 5-7 seconds of gradual pressure, they may not understand the position. Stop, reset, and communicate. NEVER increase speed or force dramatically. In competition this may finish faster, but training requires patience."
     },
     {
       "error": "Attempting monoplata when opponent's arm is not properly isolated",
@@ -279,50 +266,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "2 weeks minimum",
-      "focus": "Learn shoulder anatomy, injury mechanisms, and positional mechanics through demonstration and verbal instruction. Study how rotational pressure affects the shoulder joint. Practice leg threading motion without partner.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand rotator cuff anatomy and why this submission requires extreme caution. Learn all tap signals and release protocols before physical practice."
-    },
-    {
-      "phase": "Slow Motion Drilling (Weeks 3-4)",
-      "timeframe": "2 weeks",
-      "focus": "Practice full sequence from mount to figure-four lock with compliant partner at extremely slow speed. Focus on proper leg threading, figure-four configuration, and maintaining controls. Stop before applying any pressure on shoulder.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner must communicate throughout drill if they feel any shoulder discomfort. Practice the release protocol multiple times per session. No pressure applied to shoulder—stop at lock configuration."
-    },
-    {
-      "phase": "Light Pressure Application (Weeks 5-6)",
-      "timeframe": "2 weeks",
-      "focus": "Begin applying light rotational pressure after establishing proper figure-four lock. Take minimum 7 seconds to reach tap pressure. Partner taps early at first sign of pressure to develop sensitivity.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Attacker counts out loud to 7 seconds minimum. Partner taps at 20-30% pressure initially. Emphasize that training taps should come much earlier than competition taps. Both partners discuss pressure levels after each repetition."
-    },
-    {
-      "phase": "Moderate Resistance Drilling (Weeks 7-10)",
-      "timeframe": "4 weeks",
-      "focus": "Partner begins defending the setup and transition with realistic but not maximum resistance. Practice controlling far arm, dealing with bridges, and maintaining mount during leg threading. Still apply submission pressure slowly when lock is secured.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Defender focuses on preventing the setup rather than escaping the finished lock. Both partners recognize that once figure-four is locked, tap should come quickly. Maintain 5-7 second minimum application even with resistance."
-    },
-    {
-      "phase": "Live Training Integration (Weeks 11-14)",
-      "timeframe": "4 weeks",
-      "focus": "Attempt monoplata during positional sparring from mount with realistic resistance. Chain with other mount attacks. Develop timing for reading when opponent's arm is properly isolated.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners agree on pressure levels before rolling. Attacker never exceeds agreed-upon intensity in training. Immediately stop and check on partner if submission is applied and no tap comes within reasonable time. Training partners should be at least blue belt level."
-    },
-    {
-      "phase": "Competition Preparation (Week 15+)",
-      "timeframe": "Ongoing",
-      "focus": "Refine timing, setups, and chains with other techniques. Practice reading opponent's defensive reactions. Develop multiple entries to monoplata from various mount scenarios.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Understand that competition application is faster than training, but injury risk is real. In competition, apply progressively but expect tap quickly once locked. In training with new partners, always default to slow application regardless of your skill level."
-    }
-  ],
   "from_positions": [
     "Mount",
     "High Mount",
@@ -386,5 +329,6 @@
       "name": "Closed Guard",
       "relationship": "Guard position where similar leg threading mechanics apply for omoplata"
     }
-  ]
+  ],
+  "success_rate": 48
 }

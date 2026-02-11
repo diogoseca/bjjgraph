@@ -348,7 +348,7 @@ The Musumeci berimbolo system requires progressive technical drilling that prior
 - [[Grip Fighting]] (Principle) - Essential skill for establishing and maintaining critical grips throughout system
 - [[Hip Movement]] (Principle) - Core mechanical principle generating berimbolo rotation and position transitions
 - [[Timing and Rhythm]] (Principle) - Critical for recognizing optimal berimbolo entry moments and preventing telegraphing
-- [[Position Transitions]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
+- [[Transition Management]] (Principle) - Underlies smooth movement between DLR, berimbolo, X-Guard, and back control
 - [[Off-Balancing]] (Principle) - Fundamental requirement for creating berimbolo entry opportunities
 - [[Sweep Mechanics]] (Principle) - Governs technical execution of sweeps from backup X-Guard positions
 - [[System Building]] (Principle) - Framework for connecting berimbolo with backup options into cohesive attacking system

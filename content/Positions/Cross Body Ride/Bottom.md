@@ -362,11 +362,11 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 5% |
-| Intermediate | 30% | 35% | 8% |
-| Advanced     | 45% | 50% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 42% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 15-45 seconds before position change or escape attempt
 

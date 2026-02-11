@@ -11,11 +11,6 @@
     "guard recovery",
     "inversion"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Granby Roll is a fundamental defensive movement technique that allows a practitioner to escape from inferior positions by rolling over the shoulder and inverting the body. Named after the wrestling technique popularized at Granby High School, this movement has become essential in modern BJJ for escaping turtle position, preventing back takes, and recovering guard. The technique involves a coordinated shoulder roll combined with hip extension and leg drive to create space and change the orientation of your body relative to your opponent. The Granby Roll is particularly effective against opponents attempting to take the back from turtle or when trapped in side control variations. Its effectiveness comes from the explosive nature of the movement combined with the ability to create angles that disrupt opponent control. Modern no-gi practitioners have elevated this technique to an art form, using it not just as an escape but as a transition into offensive positions and guard pulls. The movement requires significant flexibility in the spine and shoulders, as well as the spatial awareness to roll into open space rather than into your opponent's control.",
   "key_principles": [
     "Roll over the shoulder closest to open space, never into your opponent's control",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Identify escape direction",
-      "description": "From turtle position, quickly assess which side has more open space and where your opponent's weight is distributed. The optimal direction is typically away from where their chest is pressuring and toward the side where their grips are weakest. Look for the shoulder you will roll over.",
-      "timing": "Immediately when sensing back take attempt"
+      "description": "From turtle position, quickly assess which side has more open space and where your opponent's weight is distributed. The optimal direction is typically away from where their chest is pressuring and toward the side where their grips are weakest. Look for the shoulder you will roll over."
     },
     {
       "step_number": 2,
       "action": "Tuck chin and position shoulder",
-      "description": "Tuck your chin tightly to your chest and angle the shoulder on your escape side downward toward the mat. Your ear should nearly touch your shoulder. This protects your neck and creates the proper angle for the roll. Keep your elbows tight to your ribs to prevent arm drags or kimura attacks.",
-      "timing": "Before initiating the roll"
+      "description": "Tuck your chin tightly to your chest and angle the shoulder on your escape side downward toward the mat. Your ear should nearly touch your shoulder. This protects your neck and creates the proper angle for the roll. Keep your elbows tight to your ribs to prevent arm drags or kimura attacks."
     },
     {
       "step_number": 3,
       "action": "Post opposite hand",
-      "description": "The hand opposite to your rolling direction posts firmly on the mat near your hip to provide base and prevent being flattened. This hand acts as a pivot point and helps generate rotational force. Keep this arm strong but ready to release as you commit to the roll.",
-      "timing": "Simultaneously with shoulder positioning"
+      "description": "The hand opposite to your rolling direction posts firmly on the mat near your hip to provide base and prevent being flattened. This hand acts as a pivot point and helps generate rotational force. Keep this arm strong but ready to release as you commit to the roll."
     },
     {
       "step_number": 4,
       "action": "Initiate explosive hip drive",
-      "description": "Explosively extend your hips and drive your legs, particularly the leg on the side you're rolling toward. This creates the momentum needed to overcome your opponent's weight. The movement should feel like a powerful thrust that lifts your hips off the mat momentarily while your shoulder stays connected.",
-      "timing": "Explosive initiation when opponent's weight shifts forward"
+      "description": "Explosively extend your hips and drive your legs, particularly the leg on the side you're rolling toward. This creates the momentum needed to overcome your opponent's weight. The movement should feel like a powerful thrust that lifts your hips off the mat momentarily while your shoulder stays connected."
     },
     {
       "step_number": 5,
       "action": "Roll over shoulder blade",
-      "description": "Roll diagonally across your back from one shoulder blade to the opposite hip. Maintain contact with the mat using your shoulder blade and upper back (never your neck). Your body should form a tight ball with knees pulled toward chest. The roll should be smooth and continuous, with your legs following over your head.",
-      "timing": "Continuous motion following hip drive"
+      "description": "Roll diagonally across your back from one shoulder blade to the opposite hip. Maintain contact with the mat using your shoulder blade and upper back (never your neck). Your body should form a tight ball with knees pulled toward chest. The roll should be smooth and continuous, with your legs following over your head."
     },
     {
       "step_number": 6,
       "action": "Complete rotation and establish guard",
-      "description": "As you complete the 180-degree rotation, immediately extend your legs toward your opponent to establish frames or guard. Your hips should face them as you come out of the roll. Post on your hands if needed to prevent being driven back down. Look to insert hooks for butterfly guard, or frame and create distance for open guard.",
-      "timing": "Immediately upon completing the roll"
+      "description": "As you complete the 180-degree rotation, immediately extend your legs toward your opponent to establish frames or guard. Your hips should face them as you come out of the roll. Post on your hands if needed to prevent being driven back down. Look to insert hooks for butterfly guard, or frame and create distance for open guard."
     },
     {
       "step_number": 7,
       "action": "Secure guard position or scramble",
-      "description": "Based on your opponent's reaction, either establish a specific guard variation (closed, butterfly, half) or continue scrambling if they pursue. If they back away, pull them into guard. If they press forward, use your frames and leg positioning to prevent the pass while recovering full guard structure.",
-      "timing": "1-2 seconds after completing the roll"
+      "description": "Based on your opponent's reaction, either establish a specific guard variation (closed, butterfly, half) or continue scrambling if they pursue. If they back away, pull them into guard. If they press forward, use your frames and leg positioning to prevent the pass while recovering full guard structure."
     }
   ],
   "common_counters": [
@@ -141,38 +129,32 @@
     {
       "phase": "Week 1-2: Solo Movement Pattern",
       "focus": "Develop proper shoulder roll mechanics and spatial awareness",
-      "description": "Practice solo Granby Rolls focusing exclusively on rolling over the shoulder blade, not the neck. Start from hands and knees, tuck chin, and roll to back position. Perform 20 repetitions per training session, alternating directions. Focus on smooth rotation and maintaining shoulder contact with mat. No partner resistance.",
-      "resistance_level": "None"
+      "description": "Practice solo Granby Rolls focusing exclusively on rolling over the shoulder blade, not the neck. Start from hands and knees, tuck chin, and roll to back position. Perform 20 repetitions per training session, alternating directions. Focus on smooth rotation and maintaining shoulder contact with mat. No partner resistance."
     },
     {
       "phase": "Week 3-4: Partner-Assisted Drilling",
       "focus": "Add context of escaping from turtle with cooperative partner",
-      "description": "Partner establishes light control from turtle position (hands on hips, no seat belt). Execute Granby Roll with partner maintaining contact but not preventing the movement. Partner should follow lightly to help develop awareness of their position. Perform 15 repetitions per side per session. Focus on identifying the correct escape direction.",
-      "resistance_level": "Light"
+      "description": "Partner establishes light control from turtle position (hands on hips, no seat belt). Execute Granby Roll with partner maintaining contact but not preventing the movement. Partner should follow lightly to help develop awareness of their position. Perform 15 repetitions per side per session. Focus on identifying the correct escape direction."
     },
     {
       "phase": "Week 5-8: Progressive Resistance",
       "focus": "Execute against increasing levels of back attack attempts",
-      "description": "Partner actively attempts to take the back or flatten you from turtle, but allows successful Granby Rolls when properly timed and executed. They should grip and pressure realistically but pause when you initiate the roll correctly. Emphasis on timing the roll when opponent's weight shifts forward. Perform 10-12 repetitions per session with increasing resistance each week.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to take the back or flatten you from turtle, but allows successful Granby Rolls when properly timed and executed. They should grip and pressure realistically but pause when you initiate the roll correctly. Emphasis on timing the roll when opponent's weight shifts forward. Perform 10-12 repetitions per session with increasing resistance each week."
     },
     {
       "phase": "Week 9-12: Positional Sparring",
       "focus": "Granby Roll within realistic escape scenarios",
-      "description": "Positional rounds starting from turtle position with opponent getting one back control grip. You must escape using Granby Roll or other turtle escapes. Partner provides full resistance but starts from disadvantaged position. 3-minute rounds focusing on successfully executing the technique under pressure. Begin to chain Granby Rolls with other escapes.",
-      "resistance_level": "Full"
+      "description": "Positional rounds starting from turtle position with opponent getting one back control grip. You must escape using Granby Roll or other turtle escapes. Partner provides full resistance but starts from disadvantaged position. 3-minute rounds focusing on successfully executing the technique under pressure. Begin to chain Granby Rolls with other escapes."
     },
     {
       "phase": "Week 13+: Integration and Variation",
       "focus": "Apply Granby Roll from multiple positions and scenarios",
-      "description": "Incorporate Granby Roll into live rolling from various positions: bottom side control, failed guard retention, turtle after failed takedown. Practice chaining multiple Granby Rolls in succession. Develop ability to use the roll offensively to invert into guards. Focus on seamless integration with overall defensive game.",
-      "resistance_level": "Full"
+      "description": "Incorporate Granby Roll into live rolling from various positions: bottom side control, failed guard retention, turtle after failed takedown. Practice chaining multiple Granby Rolls in succession. Develop ability to use the roll offensively to invert into guards. Focus on seamless integration with overall defensive game."
     },
     {
       "phase": "Ongoing: Athletic Development",
       "focus": "Maintain and improve physical attributes for the technique",
-      "description": "Dedicated flexibility work for spine and shoulders including yoga, gymnastic bridging, and inversion exercises. Explosive power training with box jumps, medicine ball slams, and wrestling shots. Core stability work with hollow body holds and candlestick rolls. These physical attributes directly improve Granby Roll effectiveness and safety.",
-      "resistance_level": "None"
+      "description": "Dedicated flexibility work for spine and shoulders including yoga, gymnastic bridging, and inversion exercises. Explosive power training with box jumps, medicine ball slams, and wrestling shots. Core stability work with hollow body holds and candlestick rolls. These physical attributes directly improve Granby Roll effectiveness and safety."
     }
   ],
   "variants_and_adaptations": [
@@ -205,33 +187,27 @@
   "knowledge_assessment": [
     {
       "question": "What part of your body should make contact with the mat during a Granby Roll and why?",
-      "answer": "The shoulder blade (scapula) and upper back should make contact with the mat, never the neck or cervical spine. This is critical for safety as rolling over the neck can cause serious injury including nerve damage, vertebrae compression, or stingers. The shoulder blade provides a stable, broad surface area that can safely support body weight during the rotation while protecting the vulnerable neck structures.",
-      "difficulty": "Beginner"
+      "answer": "The shoulder blade (scapula) and upper back should make contact with the mat, never the neck or cervical spine. This is critical for safety as rolling over the neck can cause serious injury including nerve damage, vertebrae compression, or stingers. The shoulder blade provides a stable, broad surface area that can safely support body weight during the rotation while protecting the vulnerable neck structures."
     },
     {
       "question": "How do you determine which direction to execute your Granby Roll from turtle position?",
-      "answer": "Identify the direction with the most open space and where opponent's control is weakest. Roll away from where the opponent's chest is pressuring and toward the side where their grips are less established. Check for obstacles like the mat edge or other grapplers. The optimal direction is typically the side where opponent has only one grip or where their weight is shifted away. Never roll into your opponent's control or toward where they have established strong grips.",
-      "difficulty": "Intermediate"
+      "answer": "Identify the direction with the most open space and where opponent's control is weakest. Roll away from where the opponent's chest is pressuring and toward the side where their grips are less established. Check for obstacles like the mat edge or other grapplers. The optimal direction is typically the side where opponent has only one grip or where their weight is shifted away. Never roll into your opponent's control or toward where they have established strong grips."
     },
     {
       "question": "What is the primary source of power and momentum for completing a Granby Roll?",
-      "answer": "Explosive hip extension and leg drive provide the primary power for the Granby Roll. The legs must thrust powerfully as if performing a bridge or hip escape, creating enough momentum to rotate the entire body over the shoulder. Without sufficient leg drive, the roll will stall mid-movement, leaving you inverted and vulnerable. The posted hand provides some assistance, but the legs generate the majority of the rotational force necessary to overcome opponent's weight and complete the movement.",
-      "difficulty": "Intermediate"
+      "answer": "Explosive hip extension and leg drive provide the primary power for the Granby Roll. The legs must thrust powerfully as if performing a bridge or hip escape, creating enough momentum to rotate the entire body over the shoulder. Without sufficient leg drive, the roll will stall mid-movement, leaving you inverted and vulnerable. The posted hand provides some assistance, but the legs generate the majority of the rotational force necessary to overcome opponent's weight and complete the movement."
     },
     {
       "question": "Why is it critical to establish guard immediately after completing a Granby Roll rather than simply finishing on your back?",
-      "answer": "Completing the Granby Roll without immediately establishing guard leaves you in a neutral or disadvantaged position where the opponent can easily pass to side control or mount. The Granby Roll is not complete until you have your legs between you and your opponent with proper frames and guard structure. The technique should be viewed as one continuous movement: escape from turtle to guard recovery. Stopping on your back without guard engagement wastes the advantage created by the escape and may result in an equally bad position.",
-      "difficulty": "Advanced"
+      "answer": "Completing the Granby Roll without immediately establishing guard leaves you in a neutral or disadvantaged position where the opponent can easily pass to side control or mount. The Granby Roll is not complete until you have your legs between you and your opponent with proper frames and guard structure. The technique should be viewed as one continuous movement: escape from turtle to guard recovery. Stopping on your back without guard engagement wastes the advantage created by the escape and may result in an equally bad position."
     },
     {
       "question": "How should you modify your Granby Roll execution if your opponent follows you during the rotation?",
-      "answer": "If opponent follows your Granby Roll by driving their weight forward, you have several options: execute a second Granby Roll in the opposite direction using their momentum, abandon the roll and transition to a sit-out and turn to face them, or continue the roll but accelerate the movement to complete before they can establish control. The key is recognizing their follow immediately and not committing to a single roll when they have anticipated it. Advanced practitioners often chain multiple Granby Rolls or mix them with other turtle escapes to create unpredictable movement patterns.",
-      "difficulty": "Advanced"
+      "answer": "If opponent follows your Granby Roll by driving their weight forward, you have several options: execute a second Granby Roll in the opposite direction using their momentum, abandon the roll and transition to a sit-out and turn to face them, or continue the roll but accelerate the movement to complete before they can establish control. The key is recognizing their follow immediately and not committing to a single roll when they have anticipated it. Advanced practitioners often chain multiple Granby Rolls or mix them with other turtle escapes to create unpredictable movement patterns."
     },
     {
       "question": "What physical attributes are most important for executing effective Granby Rolls and how can they be developed?",
-      "answer": "Three critical physical attributes are required: spinal and shoulder flexibility to safely complete the inversion, explosive leg power to generate rotation momentum, and core stability to maintain body control during the movement. Flexibility can be developed through yoga, gymnastic bridging exercises, and gradual inversion work. Explosive power comes from plyometric training like box jumps and wrestling shot drills. Core stability is built through hollow body holds, candlestick rolls, and dynamic movement exercises. Without these attributes, the Granby Roll becomes dangerous (flexibility) or ineffective (power and stability).",
-      "difficulty": "Advanced"
+      "answer": "Three critical physical attributes are required: spinal and shoulder flexibility to safely complete the inversion, explosive leg power to generate rotation momentum, and core stability to maintain body control during the movement. Flexibility can be developed through yoga, gymnastic bridging exercises, and gradual inversion work. Explosive power comes from plyometric training like box jumps and wrestling shot drills. Core stability is built through hollow body holds, candlestick rolls, and dynamic movement exercises. Without these attributes, the Granby Roll becomes dangerous (flexibility) or ineffective (power and stability)."
     }
   ],
   "safety_considerations": "The Granby Roll carries inherent risk of neck injury if executed improperly. Always ensure you roll over the shoulder blade and upper back, never over the neck or cervical spine. Practitioners should develop adequate flexibility in the spine and shoulders before attempting this technique at full speed or under resistance. Start with slow, controlled solo drilling to establish proper mechanics. If you feel any pain in the neck during the roll, stop immediately and reassess your technique. The roll should be practiced on appropriate mats with sufficient padding. Beginners should work with experienced instructors to ensure proper progression and avoid developing dangerous habits. Never force the technique when your opponent has you flattened or when proper space is not available. The explosive nature of the movement can also cause shoulder injuries if the shoulder is not properly positioned. Athletes with existing neck, shoulder, or spine injuries should consult medical professionals before incorporating Granby Rolls into their training. Always maintain awareness of your training partners' positions to avoid rolling into them or causing collisions.",
@@ -315,5 +291,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

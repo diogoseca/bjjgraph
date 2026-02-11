@@ -157,7 +157,7 @@ This technique is particularly effective against guard players who rely heavily 
 Strategically, this pass represents the aggressive response to Ringworm Guard and works best when the opponent has already committed to the lapel wrap but hasn't yet established secondary controls on your upper body. The timing window is narrow - attempt this too early and the guard isn't established enough to pass, too late and the opponent has too many control points for smash passing to succeed.
 
 **From Position**: [[Ringworm Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Collapse forward**: Drop your weight forward into the guard, driving your shoulder into the opponent's sternum. Keep your head on the side opposite the trapped leg to prevent guillotine attempts while establishing crossface pressure against their jaw. (Timing: Immediate when recognizing lapel wrap is primary control)
-2. **Secure crossface**: Drive your forearm across the opponent's face and neck, turning their head away from you. This prevents them from turning into you and taking your back while you work the lapel extraction. Keep constant pressure - this is your primary defensive anchor. (Timing: Within first 2 seconds of collapse)
-3. **Locate lapel grip**: With your free hand, locate where the opponent is gripping the lapel tail near their hip or chest. You must strip this grip to free your leg - the wrap will loosen once the tail is no longer under tension from their hand. (Timing: While maintaining crossface pressure)
-4. **Strip lapel grip**: Peel the opponent's grip finger by finger starting with the pinky, or drive your hand into the gap between their wrist and your lapel to lever the grip open. Keep your weight committed forward throughout this sequence to prevent them from re-establishing control elsewhere. (Timing: 5-10 seconds depending on grip strength)
-5. **Extract trapped leg**: Once the grip is broken, immediately extract your leg from the loosened lapel wrap by circling it backward and upward. The lapel should slide off naturally once tension is released. Do not pull straight back - this re-tensions the wrap. (Timing: Immediately after grip breaks)
-6. **Establish side control**: As your leg clears the wrap, immediately sprawl your hips back and drop into standard side control position. Drive your hip into theirs to prevent guard recovery, maintain the crossface, and consolidate the dominant position before attempting any submissions. (Timing: Fluid transition within 2 seconds)
+1. **Collapse forward**: Drop your weight forward into the guard, driving your shoulder into the opponent's sternum. Keep your head on the side opposite the trapped leg to prevent guillotine attempts while establishing crossface pressure against their jaw.
+2. **Secure crossface**: Drive your forearm across the opponent's face and neck, turning their head away from you. This prevents them from turning into you and taking your back while you work the lapel extraction. Keep constant pressure - this is your primary defensive anchor.
+3. **Locate lapel grip**: With your free hand, locate where the opponent is gripping the lapel tail near their hip or chest. You must strip this grip to free your leg - the wrap will loosen once the tail is no longer under tension from their hand.
+4. **Strip lapel grip**: Peel the opponent's grip finger by finger starting with the pinky, or drive your hand into the gap between their wrist and your lapel to lever the grip open. Keep your weight committed forward throughout this sequence to prevent them from re-establishing control elsewhere.
+5. **Extract trapped leg**: Once the grip is broken, immediately extract your leg from the loosened lapel wrap by circling it backward and upward. The lapel should slide off naturally once tension is released. Do not pull straight back - this re-tensions the wrap.
+6. **Establish side control**: As your leg clears the wrap, immediately sprawl your hips back and drop into standard side control position. Drive your hip into theirs to prevent guard recovery, maintain the crossface, and consolidate the dominant position before attempting any submissions.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, this pass represents the aggressive response to Ringworm Guard an
 ## Training Progressions
 **Week 1-2** - Collapse and crossface mechanics
 Practice the initial collapse into Ringworm Guard with partner providing no resistance. Focus on proper shoulder drive placement, crossface angle, and head positioning to prevent guillotine exposure. Drill the collapse entry fifty times per side.
-(Resistance: None)
 
 **Week 3-4** - Grip-breaking sequences
 Partner establishes Ringworm Guard and maintains grip with moderate resistance while you practice various grip-breaking methods. Work finger peels, wrist levers, and pressure-based breaks. Partner does not attempt sweeps or transitions.
-(Resistance: Light)
 
 **Week 5-6** - Complete extraction with defense
 Partner attempts to maintain guard and execute sweeps while you work through complete smash pass sequence. Focus on recognizing when opponent is loading for sweeps and adjusting base accordingly. Practice aborting pass when back exposure becomes likely.
-(Resistance: Medium)
 
 **Week 7+** - Live positional sparring
 Full resistance rounds starting from Ringworm Guard position. Partner works full offensive arsenal while you apply smash pass counter. Track success rate and identify specific failure points for targeted drilling.
-(Resistance: Full)
 
 
 

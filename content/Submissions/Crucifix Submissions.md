@@ -157,7 +157,7 @@ The Crucifix position represents one of the most dominant control positions in B
 **Type**: Multiple Submissions
 **Target Area**: Neck and isolated arm
 **Starting Position**: [[Crucifix]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -236,12 +236,12 @@ The Crucifix position represents one of the most dominant control positions in B
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish crucifix control**: From back control or turtle, secure one opponent arm between your legs while trapping the other arm with your upper body. Your legs should form a tight figure-four or similar configuration around the trapped arm, with your hips tight to the opponent's back. The opponent's free arm should be controlled with your hands or trapped under your body weight. (Timing: Initial setup phase - establish before attacking) [Pressure: Firm]
-2. **Flatten opponent and consolidate position**: Drive your hips forward into the opponent's back while distributing your weight across their upper back and shoulders. This flattens the opponent to the mat and eliminates their ability to create space or posture. Keep constant pressure with your legs on the trapped arm while maintaining control of the free arm. Your chest should be heavy on their shoulder area. (Timing: 2-3 seconds to consolidate control) [Pressure: Maximum]
-3. **Secure head or collar control for choke**: With the opponent flattened and both arms controlled, use your hands to establish a collar grip or direct head control. For gi training, feed a lapel across the neck or establish a deep collar grip. For no-gi, slide your forearm under the chin or around the neck. Maintain all existing controls while establishing this grip - do not sacrifice arm isolation for the choke. (Timing: 1-2 seconds to establish grip) [Pressure: Light]
-4. **Apply choke or transition to armlock**: Execute your chosen submission: For collar chokes, pull the collar tight across the carotid arteries while maintaining body pressure. For rear naked choke variations, slide your choking arm deep under the chin and secure with your other hand. For armlocks, shift your leg position on the trapped arm to create extension pressure on the elbow joint. Apply pressure slowly and progressively over 3-5 seconds minimum. (Timing: 3-5 seconds progressive application) [Pressure: Moderate]
-5. **Maintain position while increasing submission pressure**: As you apply the submission, maintain all positional controls. Your hips stay tight to their back, your weight stays distributed across their shoulders, and both arms remain isolated. For chokes, gradually tighten the collar or arm pressure while keeping your body structure solid. For armlocks, incrementally extend the arm while controlling rotation with your legs. (Timing: 2-4 seconds to full submission) [Pressure: Maximum]
-6. **Finish submission or switch attacks**: Complete the submission by maintaining maximum pressure until tap, or if the opponent defends successfully, immediately switch to an alternative attack. Common switches include transitioning from choke to armlock, or from one choke variation to another. Never release all controls when switching - maintain at least the leg isolation on the trapped arm throughout all transitions. (Timing: Finish within 5-7 seconds or switch attacks) [Pressure: Maximum]
+1. **Establish crucifix control**: From back control or turtle, secure one opponent arm between your legs while trapping the other arm with your upper body. Your legs should form a tight figure-four or similar configuration around the trapped arm, with your hips tight to the opponent's back. The opponent's free arm should be controlled with your hands or trapped under your body weight. (Timing: Initial setup phase - establish before attacking)
+2. **Flatten opponent and consolidate position**: Drive your hips forward into the opponent's back while distributing your weight across their upper back and shoulders. This flattens the opponent to the mat and eliminates their ability to create space or posture. Keep constant pressure with your legs on the trapped arm while maintaining control of the free arm. Your chest should be heavy on their shoulder area. (Timing: 2-3 seconds to consolidate control)
+3. **Secure head or collar control for choke**: With the opponent flattened and both arms controlled, use your hands to establish a collar grip or direct head control. For gi training, feed a lapel across the neck or establish a deep collar grip. For no-gi, slide your forearm under the chin or around the neck. Maintain all existing controls while establishing this grip - do not sacrifice arm isolation for the choke. (Timing: 1-2 seconds to establish grip)
+4. **Apply choke or transition to armlock**: Execute your chosen submission: For collar chokes, pull the collar tight across the carotid arteries while maintaining body pressure. For rear naked choke variations, slide your choking arm deep under the chin and secure with your other hand. For armlocks, shift your leg position on the trapped arm to create extension pressure on the elbow joint. Apply pressure slowly and progressively over 3-5 seconds minimum. (Timing: 3-5 seconds progressive application)
+5. **Maintain position while increasing submission pressure**: As you apply the submission, maintain all positional controls. Your hips stay tight to their back, your weight stays distributed across their shoulders, and both arms remain isolated. For chokes, gradually tighten the collar or arm pressure while keeping your body structure solid. For armlocks, incrementally extend the arm while controlling rotation with your legs. (Timing: 2-4 seconds to full submission)
+6. **Finish submission or switch attacks**: Complete the submission by maintaining maximum pressure until tap, or if the opponent defends successfully, immediately switch to an alternative attack. Common switches include transitioning from choke to armlock, or from one choke variation to another. Never release all controls when switching - maintain at least the leg isolation on the trapped arm throughout all transitions. (Timing: Finish within 5-7 seconds or switch attacks)
 
 
 </section>
@@ -260,22 +260,22 @@ The Crucifix position represents one of the most dominant control positions in B
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing leg control on trapped arm to adjust choke grip [Medium DANGER]
+- **Mistake**: Releasing leg control on trapped arm to adjust choke grip
   - **Consequence**: Opponent immediately frees their arm and can begin defending or escaping the position
   - **Correction**: Maintain leg pressure on trapped arm as your primary control. Adjust your upper body grips while keeping lower body structure intact. The arm isolation is the foundation of the entire position.
-- **Mistake**: Cranking or jerking choke submissions without progressive pressure [CRITICAL DANGER]
+- **Mistake**: Cranking or jerking choke submissions without progressive pressure
   - **Consequence**: Neck injury to training partner, potential trachea damage, loss of training partners
   - **Correction**: Apply all choking pressure slowly and progressively over 5-7 seconds minimum. Allow time for your partner to recognize the submission and tap safely. Speed in training creates injuries.
-- **Mistake**: Lifting hips away from opponent's back during submission attempts [Medium DANGER]
+- **Mistake**: Lifting hips away from opponent's back during submission attempts
   - **Consequence**: Creates space for opponent to escape, lose positional control, opponent can roll or turn into guard
   - **Correction**: Keep constant hip pressure into opponent's back throughout all submission attempts. Your hips should feel glued to their back. Attack with upper body while maintaining lower body connection.
-- **Mistake**: Attempting armlock without proper leg configuration on trapped arm [High DANGER]
+- **Mistake**: Attempting armlock without proper leg configuration on trapped arm
   - **Consequence**: Insufficient control leads to escape, potential injury from improper leverage, submission failure
   - **Correction**: Ensure your legs form a proper figure-four or similar tight configuration before extending the arm. Control rotation and movement before applying extension pressure. Structure before submission.
-- **Mistake**: Focusing on one submission while opponent escapes free arm [Medium DANGER]
+- **Mistake**: Focusing on one submission while opponent escapes free arm
   - **Consequence**: Opponent can defend with free arm, push your head, frame and create space, eventual escape
   - **Correction**: Maintain constant awareness and control of both arms. If the free arm begins to escape, immediately switch your submission attack or reestablish control. Never tunnel vision on one attack.
-- **Mistake**: Applying submissions before fully consolidating crucifix position [Low DANGER]
+- **Mistake**: Applying submissions before fully consolidating crucifix position
   - **Consequence**: Weak position leads to easy escapes, failed submission attempts, energy waste
   - **Correction**: Take 2-3 seconds to fully flatten opponent, secure both arm controls, and establish solid structure before attempting any submissions. Position before submission is fundamental.
 
@@ -344,43 +344,6 @@ The Crucifix position represents one of the most dominant control positions in B
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn crucifix structure and arm isolation mechanics through static drilling. Practice entering from back control and turtle. No submission attempts, only position establishment and maintenance.
-- Resistance: Zero resistance
-- Safety: Partner remains completely passive to allow learner to understand proper arm trapping configuration, hip pressure, and weight distribution without any time pressure or resistance.
-
-**Position Retention Practice** (Week 3-4)
-- Focus: Maintain crucifix position against mild escape attempts. Partner uses slow, telegraphed escapes. Practice weight distribution and adjusting controls when opponent moves. Still no submission attempts.
-- Resistance: Mild resistance
-- Safety: Focus on maintaining position without submissions. Partner taps if they feel uncomfortable pressure on trapped arm. Emphasis on control before submissions.
-
-**Slow Submission Introduction** (Week 5-8)
-- Focus: Begin practicing collar chokes and armlocks from established crucifix position. Apply all submissions over 7-10 seconds with clear verbal counting. Partner taps early to practice release protocols.
-- Resistance: Mild resistance
-- Safety: All submissions applied extremely slowly with verbal counting. Partner taps immediately upon feeling any pressure. Practice proper release protocol more than finishing submissions. Safety over completion.
-
-**Defensive Response Integration** (Week 9-12)
-- Focus: Practice maintaining crucifix against more realistic defensive responses. Partner defends neck and attempts arm escapes. Apply submissions at moderate speed (5-7 seconds) when opportunity arises.
-- Resistance: Realistic resistance
-- Safety: Partner gives resistance but taps early before reaching dangerous pressure levels. Focus on recognizing when submission is secured versus when you need to adjust. Communication between partners essential.
-
-**Dynamic Application** (Week 13+)
-- Focus: Practice entering crucifix from various positions during live rolling. Apply submissions at training pace (3-5 seconds) while maintaining all safety protocols. Switch between submission options.
-- Resistance: Full resistance
-- Safety: Maintain slow progressive pressure even during full resistance training. Never spike or crank submissions. Both partners responsible for safety - attacker applies slowly, defender taps early. Training is not competition.
-
-**Ongoing Safety Maintenance** (Ongoing)
-- Focus: Regular review of safety protocols, especially when teaching new partners. Periodic drilling of release protocols. Discussion of any close calls or safety concerns.
-- Resistance: Full resistance
-- Safety: Continuous emphasis that training partners are not opponents. Develop reputation as safe training partner who protects teammates. Slow is smooth, smooth is fast. Position establishment more important than submission completion.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -433,6 +396,7 @@ The Crucifix position represents one of the most dominant control positions in B
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

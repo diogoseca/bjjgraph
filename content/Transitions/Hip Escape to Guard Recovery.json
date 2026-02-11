@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Hip Escape to Guard Recovery is a critical defensive transition used when trapped in the Aoki Lock bottom position, a dangerous shoulder lock configuration where your arm is entangled by opponent's legs while they apply rotational pressure to your shoulder joint. This escape prioritizes creating space through hip movement rather than fighting the submission directly, allowing you to extract your trapped arm and reestablish a defensive guard position before the shoulder lock can be finished.\n\nThe technique exploits a fundamental principle: when opponent's control relies on leg entanglement, hip movement perpendicular to their pressure vector creates slack in their configuration. By timing your hip escape with opponent's adjustment phases or when their leg entanglement momentarily loosens, you can create sufficient space to begin arm extraction while simultaneously repositioning your body toward open guard recovery. The escape requires reading opponent's pressure cycles and moving during windows of reduced control rather than fighting against maximum pressure.\n\nStrategically, this escape represents the moderate-risk path between the more aggressive rolling escapes and simply tapping to the submission. It preserves defensive positioning while creating guard recovery opportunity, making it the preferred escape when opponent's control is established but not yet finishing-tight. Success requires coordination between hip movement, arm extraction timing, and immediate guard establishment upon escape.",
   "key_principles": [
     "Hip movement creates space that arm pulling cannot - move hips before attempting arm extraction",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Assess shoulder safety",
-      "description": "Before initiating escape, evaluate current shoulder pressure level. If shoulder is already at dangerous rotation angle with significant pain, tap immediately rather than risking injury during escape attempt. Only proceed if shoulder has buffer room for movement.",
-      "timing": "Immediate upon position recognition"
+      "description": "Before initiating escape, evaluate current shoulder pressure level. If shoulder is already at dangerous rotation angle with significant pain, tap immediately rather than risking injury during escape attempt. Only proceed if shoulder has buffer room for movement."
     },
     {
       "step_number": 2,
       "action": "Establish free hand post",
-      "description": "Plant your free hand firmly on the mat near your hip on the escape side. This post creates the anchor point for generating hip escape power and prevents you from being flattened further during the movement sequence.",
-      "timing": "0.5-1 second"
+      "description": "Plant your free hand firmly on the mat near your hip on the escape side. This post creates the anchor point for generating hip escape power and prevents you from being flattened further during the movement sequence."
     },
     {
       "step_number": 3,
       "action": "Execute initial hip escape",
-      "description": "Drive off your posted hand and free foot simultaneously, moving your hips away from opponent perpendicular to their pressure direction. Keep your trapped elbow bent to protect shoulder joint. This movement should create initial slack in opponent's leg entanglement.",
-      "timing": "Coordinate with opponent's breath or adjustment"
+      "description": "Drive off your posted hand and free foot simultaneously, moving your hips away from opponent perpendicular to their pressure direction. Keep your trapped elbow bent to protect shoulder joint. This movement should create initial slack in opponent's leg entanglement."
     },
     {
       "step_number": 4,
       "action": "Begin arm extraction",
-      "description": "As hip escape creates slack, start extracting your trapped arm by bringing your elbow toward your hip rather than pulling straight out. The bent-arm extraction protects your shoulder and uses the space more efficiently than extended-arm pulling.",
-      "timing": "Immediately following hip movement"
+      "description": "As hip escape creates slack, start extracting your trapped arm by bringing your elbow toward your hip rather than pulling straight out. The bent-arm extraction protects your shoulder and uses the space more efficiently than extended-arm pulling."
     },
     {
       "step_number": 5,
       "action": "Execute secondary hip escape",
-      "description": "Perform a second hip escape in the same direction to create additional space for complete arm extraction. Your trapped arm should now be significantly looser from opponent's leg control. Continue keeping elbow bent throughout.",
-      "timing": "Chain immediately without pause"
+      "description": "Perform a second hip escape in the same direction to create additional space for complete arm extraction. Your trapped arm should now be significantly looser from opponent's leg control. Continue keeping elbow bent throughout."
     },
     {
       "step_number": 6,
       "action": "Complete extraction and insert guard",
-      "description": "Fully extract your arm from opponent's leg entanglement while simultaneously inserting your knee and shin between you and opponent. Establish immediate foot-on-hip or knee shield to prevent them from following into a passing position.",
-      "timing": "Smooth transition, 1-2 seconds total"
+      "description": "Fully extract your arm from opponent's leg entanglement while simultaneously inserting your knee and shin between you and opponent. Establish immediate foot-on-hip or knee shield to prevent them from following into a passing position."
     },
     {
       "step_number": 7,
       "action": "Consolidate open guard",
-      "description": "Once arm is free and initial guard frame is established, quickly establish proper open guard grips - sleeve or wrist control combined with foot positioning on opponent's hips. Create enough distance to prevent immediate re-attack while maintaining offensive guard position.",
-      "timing": "Within 2 seconds of extraction"
+      "description": "Once arm is free and initial guard frame is established, quickly establish proper open guard grips - sleeve or wrist control combined with foot positioning on opponent's hips. Create enough distance to prevent immediate re-attack while maintaining offensive guard position."
     }
   ],
   "common_counters": [
@@ -151,26 +139,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Movement mechanics without pressure",
-      "description": "Partner establishes Aoki Lock position without applying shoulder pressure. Practice hip escape mechanics, posting hand placement, and bent-arm extraction pathway. Focus on movement sequencing and body coordination. 20-30 repetitions per side per session.",
-      "resistance_level": "None"
+      "description": "Partner establishes Aoki Lock position without applying shoulder pressure. Practice hip escape mechanics, posting hand placement, and bent-arm extraction pathway. Focus on movement sequencing and body coordination. 20-30 repetitions per side per session."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing with light leg control",
-      "description": "Partner maintains leg entanglement with 30-40% tightness but no shoulder pressure. Practice identifying moments when leg control loosens and timing escape attempts to these windows. Develop sensitivity to opponent's adjustment patterns.",
-      "resistance_level": "Light"
+      "description": "Partner maintains leg entanglement with 30-40% tightness but no shoulder pressure. Practice identifying moments when leg control loosens and timing escape attempts to these windows. Develop sensitivity to opponent's adjustment patterns."
     },
     {
       "phase": "Week 5-6",
       "focus": "Escape to guard establishment",
-      "description": "Partner adds moderate resistance (50-60%) including some hip pressure. Focus on complete sequence from escape initiation through guard establishment. Practice inserting guard frames during arm extraction rather than after.",
-      "resistance_level": "Medium"
+      "description": "Partner adds moderate resistance (50-60%) including some hip pressure. Focus on complete sequence from escape initiation through guard establishment. Practice inserting guard frames during arm extraction rather than after."
     },
     {
       "phase": "Week 7+",
       "focus": "Live situational drilling",
-      "description": "Full resistance positional sparring starting from Aoki Lock bottom. Partner applies realistic pressure and counters escape attempts. Develop ability to recognize when escape is available versus when tapping is appropriate. Build competition-applicable timing and execution.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring starting from Aoki Lock bottom. Partner applies realistic pressure and counters escape attempts. Develop ability to recognize when escape is available versus when tapping is appropriate. Build competition-applicable timing and execution."
     }
   ],
   "variants_and_adaptations": [
@@ -193,53 +177,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Hip Escape to Guard Recovery?",
-      "answer": "The primary goal is to escape the Aoki Lock shoulder lock threat by creating space through hip movement, extracting your trapped arm from opponent's leg entanglement, and establishing a defensive open guard position before the submission can be finished. The technique prioritizes safe escape over position advancement.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to escape the Aoki Lock shoulder lock threat by creating space through hip movement, extracting your trapped arm from opponent's leg entanglement, and establishing a defensive open guard position before the submission can be finished. The technique prioritizes safe escape over position advancement."
     },
     {
       "question": "Why must hip movement precede arm extraction in this escape?",
-      "answer": "Hip movement creates slack in opponent's leg entanglement that arm pulling alone cannot achieve. Attempting to pull your arm free against tight leg control dramatically increases shoulder torque and injury risk while being mechanically ineffective. The hip escape generates space that makes arm extraction possible and safe.",
-      "difficulty": "Beginner"
+      "answer": "Hip movement creates slack in opponent's leg entanglement that arm pulling alone cannot achieve. Attempting to pull your arm free against tight leg control dramatically increases shoulder torque and injury risk while being mechanically ineffective. The hip escape generates space that makes arm extraction possible and safe."
     },
     {
       "question": "Your opponent increases hip pressure as you begin escaping - how should you respond?",
-      "answer": "If shoulder pressure increases significantly during escape attempt and approaches dangerous rotation threshold, abort the escape and tap rather than forcing through. Alternatively, immediately change escape direction and attempt a rolling escape toward your trapped arm instead, which uses their pressure momentum rather than fighting against it.",
-      "difficulty": "Intermediate"
+      "answer": "If shoulder pressure increases significantly during escape attempt and approaches dangerous rotation threshold, abort the escape and tap rather than forcing through. Alternatively, immediately change escape direction and attempt a rolling escape toward your trapped arm instead, which uses their pressure momentum rather than fighting against it."
     },
     {
       "question": "What grip and frame priorities allow immediate guard establishment during extraction?",
-      "answer": "Insert your knee or shin between you and opponent during the arm extraction, not after. As your arm comes free, your leg should already be creating a guard frame. Then immediately establish foot-on-hip or knee shield with that leg while using your now-free hand to grip opponent's sleeve or wrist for upper body control. Guard structure and arm extraction occur simultaneously.",
-      "difficulty": "Intermediate"
+      "answer": "Insert your knee or shin between you and opponent during the arm extraction, not after. As your arm comes free, your leg should already be creating a guard frame. Then immediately establish foot-on-hip or knee shield with that leg while using your now-free hand to grip opponent's sleeve or wrist for upper body control. Guard structure and arm extraction occur simultaneously."
     },
     {
       "question": "When should you tap instead of attempting this escape?",
-      "answer": "Tap when shoulder is already at dangerous rotation angle with significant pain, when opponent's leg entanglement is fully locked without any loosening windows, when you've attempted escape and shoulder pressure has increased to dangerous levels, or when you recognize you cannot complete extraction before they achieve submission pressure. Shoulder injuries are not worth position preservation.",
-      "difficulty": "Intermediate"
+      "answer": "Tap when shoulder is already at dangerous rotation angle with significant pain, when opponent's leg entanglement is fully locked without any loosening windows, when you've attempted escape and shoulder pressure has increased to dangerous levels, or when you recognize you cannot complete extraction before they achieve submission pressure. Shoulder injuries are not worth position preservation."
     },
     {
       "question": "How do you identify the optimal timing window for this escape?",
-      "answer": "Look for moments when opponent adjusts their leg position, shifts their weight to increase pressure, or takes a breath. These adjustment phases naturally create brief loosening in leg entanglement. Also recognize that opponent cannot maintain maximum pressure continuously - time your escape attempts during lower-pressure moments rather than against peak control.",
-      "difficulty": "Advanced"
+      "answer": "Look for moments when opponent adjusts their leg position, shifts their weight to increase pressure, or takes a breath. These adjustment phases naturally create brief loosening in leg entanglement. Also recognize that opponent cannot maintain maximum pressure continuously - time your escape attempts during lower-pressure moments rather than against peak control."
     },
     {
       "question": "What direction should your hip escape move relative to opponent's pressure?",
-      "answer": "Move perpendicular to opponent's pressure vector, not toward or away from them. Their pressure drives down into your shoulder at an angle - hip escape goes sideways to this pressure direction. Moving into the pressure increases shoulder stress; moving directly away often just follows their control. Perpendicular movement creates the maximum space with minimum resistance.",
-      "difficulty": "Intermediate"
+      "answer": "Move perpendicular to opponent's pressure vector, not toward or away from them. Their pressure drives down into your shoulder at an angle - hip escape goes sideways to this pressure direction. Moving into the pressure increases shoulder stress; moving directly away often just follows their control. Perpendicular movement creates the maximum space with minimum resistance."
     },
     {
       "question": "Your arm is partially extracted but opponent re-tightens before you can complete escape - what adjustment maintains progress?",
-      "answer": "Immediately execute another hip escape in the same direction rather than pausing or pulling against the re-tightened control. Chain your hip escapes together without giving opponent time to re-establish full control. Use your free hand to push on their hip to prevent them from following. Continuous progressive movement is more effective than single powerful attempts against adaptive opponent.",
-      "difficulty": "Advanced"
+      "answer": "Immediately execute another hip escape in the same direction rather than pausing or pulling against the re-tightened control. Chain your hip escapes together without giving opponent time to re-establish full control. Use your free hand to push on their hip to prevent them from following. Continuous progressive movement is more effective than single powerful attempts against adaptive opponent."
     },
     {
       "question": "How does bent-arm extraction differ from pulling arm straight out?",
-      "answer": "Bent-arm extraction brings your elbow toward your hip rather than pulling your hand straight away from opponent. This protects the shoulder joint by reducing lever length, uses the space created by hip escape more efficiently since a bent arm occupies less room, and prevents opponent from increasing pressure on an extended limb. The mechanical advantage favors bent-arm pathway.",
-      "difficulty": "Beginner"
+      "answer": "Bent-arm extraction brings your elbow toward your hip rather than pulling your hand straight away from opponent. This protects the shoulder joint by reducing lever length, uses the space created by hip escape more efficiently since a bent arm occupies less room, and prevents opponent from increasing pressure on an extended limb. The mechanical advantage favors bent-arm pathway."
     },
     {
       "question": "What prevents opponent from transitioning to side control as you escape?",
-      "answer": "Inserting guard frames during arm extraction rather than after prevents direct transition to side control. Your knee shield or butterfly hook should already be in place as your arm comes free, creating immediate barrier against following pressure. Without this simultaneous frame insertion, opponent can simply follow your hip escape directly into top position.",
-      "difficulty": "Intermediate"
+      "answer": "Inserting guard frames during arm extraction rather than after prevents direct transition to side control. Your knee shield or butterfly hook should already be in place as your arm comes free, creating immediate barrier against following pressure. Without this simultaneous frame insertion, opponent can simply follow your hip escape directly into top position."
     }
   ],
   "safety_considerations": "This escape involves movement while your shoulder is under submission pressure, creating inherent injury risk. Always assess shoulder position before attempting - if already at dangerous rotation with significant pain, tap immediately rather than risking permanent injury. During training, partner should apply realistic but controlled pressure, never maximum finishing pressure during drill work. Communicate clearly with training partners about shoulder condition and tap early during learning phases. The escape requires multiple sessions to develop safely - do not attempt at full resistance until mechanics are comfortable at lower intensities. Avoid this escape entirely if you have pre-existing shoulder injuries or limited shoulder mobility. When practicing, ensure partner releases immediately upon any tap signal and understands the inherent risks of the position.",
@@ -281,5 +255,6 @@
       "name": "De La Riva Guard",
       "relationship": "Alternative guard option when opponent remains standing after escape"
     }
-  ]
+  ],
+  "success_rate": 58
 }

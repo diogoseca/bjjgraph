@@ -352,11 +352,11 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 85% | 10% | 5% |
-| Intermediate | 70% | 25% | 3% |
-| Advanced     | 55% | 40% | 2% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 32% |
+| Submission Probability | 2% |
 
 **Average Time in Position**: 45-90 seconds before escape or submission
 

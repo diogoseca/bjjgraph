@@ -380,11 +380,11 @@ Start from jailbreak top position. Top player wins by achieving side control or 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 50% | 15% |
-| Intermediate | 70% | 65% | 25% |
-| Advanced     | 85% | 80% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 20-45 seconds
 

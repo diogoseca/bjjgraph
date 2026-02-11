@@ -165,7 +165,7 @@ Strategically, this transition creates a powerful dilemma for opponents in leg d
 The technique requires sensitivity to feel when the opponent commits to turning in, and the coordination to capture their arm while maintaining leg control and transitioning your body perpendicular to theirs. The entry window is brief, typically lasting only one to two seconds while they're in transition, making timing critical for success.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -213,13 +213,13 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize turn-in**: Feel for the opponent beginning to rotate their hips toward you and extend their far arm to post or frame. This typically occurs when they try to turn in to recover guard rather than accepting the pass or defending the back take. (Timing: As opponent initiates rotation)
-2. **Follow rotation**: As opponent turns, follow their movement by shifting your weight and beginning to transition your body perpendicular to theirs. Maintain pressure on their upper body while keeping your leg control of their dragged leg. Do not resist their turn but flow with it. (Timing: Simultaneously with their turn)
-3. **Capture far arm**: As their far arm extends for posting or framing, reach over their body and secure control above the elbow using your hand or overhook. Pull the arm toward you while continuing your perpendicular movement. The arm capture must happen while they are committed to the turn. (Timing: 1-2 second window)
-4. **Step leg over**: Step your lead leg over their captured arm and torso, placing your foot on the far side of their body. Your thigh should trap their arm against your hip, creating the initial arm isolation that defines the crucifix entry. (Timing: Immediately after arm capture)
-5. **Secure near arm**: Release the dragged leg and use your other leg to triangle around their near arm and torso. The near arm, which was previously defending the leg drag, becomes trapped between your legs. Now both arms are isolated through different mechanisms. (Timing: Within 2 seconds)
-6. **Consolidate crucifix**: Drive your weight onto opponent's upper body, flattening them or positioning them on their side. Secure wrist control on the far arm with your hands while your legs maintain the near arm trap. Adjust hip position perpendicular to their body for optimal control. (Timing: 3-5 seconds for full control)
-7. **Establish submission position**: Once both arms are controlled and your weight is settled, begin attacking the exposed neck or either arm. Keep constant pressure to prevent escape while systematically threatening submissions from the crucifix position. (Timing: After consolidation)
+1. **Recognize turn-in**: Feel for the opponent beginning to rotate their hips toward you and extend their far arm to post or frame. This typically occurs when they try to turn in to recover guard rather than accepting the pass or defending the back take.
+2. **Follow rotation**: As opponent turns, follow their movement by shifting your weight and beginning to transition your body perpendicular to theirs. Maintain pressure on their upper body while keeping your leg control of their dragged leg. Do not resist their turn but flow with it.
+3. **Capture far arm**: As their far arm extends for posting or framing, reach over their body and secure control above the elbow using your hand or overhook. Pull the arm toward you while continuing your perpendicular movement. The arm capture must happen while they are committed to the turn.
+4. **Step leg over**: Step your lead leg over their captured arm and torso, placing your foot on the far side of their body. Your thigh should trap their arm against your hip, creating the initial arm isolation that defines the crucifix entry.
+5. **Secure near arm**: Release the dragged leg and use your other leg to triangle around their near arm and torso. The near arm, which was previously defending the leg drag, becomes trapped between your legs. Now both arms are isolated through different mechanisms.
+6. **Consolidate crucifix**: Drive your weight onto opponent's upper body, flattening them or positioning them on their side. Secure wrist control on the far arm with your hands while your legs maintain the near arm trap. Adjust hip position perpendicular to their body for optimal control.
+7. **Establish submission position**: Once both arms are controlled and your weight is settled, begin attacking the exposed neck or either arm. Keep constant pressure to prevent escape while systematically threatening submissions from the crucifix position.
 
 
 </section>
@@ -265,19 +265,15 @@ The technique requires sensitivity to feel when the opponent commits to turning 
 ## Training Progressions
 **Week 1-2** - Movement pattern
 Practice the transition from leg drag to perpendicular crucifix position without resistance. Partner provides static turn-in position with extended arm. Focus on the body mechanics of releasing the leg, capturing the arm, and stepping over while maintaining connection.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner actively attempts to turn in from leg drag bottom with light resistance. You practice recognizing the window when their arm extends and capturing it with proper timing. Partner does not retract arm once you initiate capture to allow completion.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner provides realistic defensive reactions including keeping elbows tight, reversing direction, and framing. Practice reading their response and either completing the crucifix or transitioning to back take or side control based on their defense.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate the crucifix transition into live rolling from leg drag positions. Work on creating the dilemma by threatening multiple attacks and capitalizing on whichever defense they choose. Practice finishing from completed crucifix.
-(Resistance: Full)
 
 
 

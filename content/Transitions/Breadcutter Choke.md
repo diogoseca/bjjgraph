@@ -163,7 +163,7 @@ From a strategic perspective, the Breadcutter Choke capitalizes on the unique co
 The mechanical efficiency of this choke makes it particularly effective against larger opponents. Rather than relying on arm strength to compress the neck, the Breadcutter uses body positioning and the gi material to create a mechanical stranglehold. Your forearm acts as a blade, your grip on the lapel provides the anchor point, and your body weight drives the cutting pressure. This makes the technique sustainable even against significant size differentials, as structural alignment rather than muscular strength creates the finishing pressure.
 
 **From Position**: [[Kuzure Kesa-Gatame/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The mechanical efficiency of this choke makes it particularly effective against 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure lapel grip**: While maintaining hip pressure and arm isolation, use your free hand to grip the opponent's near-side lapel at collar level. Pull the lapel loose from their belt line to create slack for feeding across their neck. (Timing: During stable control phase)
-2. **Feed lapel across neck**: Thread the lapel behind the opponent's neck, feeding it deep toward the far side. The material should cross directly over the carotid arteries on both sides. Aim to get four fingers of slack past the centerline of their throat. (Timing: When opponent is focused on arm defense)
-3. **Establish choking grip**: Transfer the fed lapel to your choking hand (typically the hand nearest the opponent's head). Grip the lapel palm-down with your wrist positioned against the side of their neck, thumb pointing toward their feet. (Timing: Immediately after successful lapel feed)
-4. **Position forearm blade**: Rotate your forearm so the bony edge (radius bone) presses directly into the carotid artery on the near side of their neck. Your forearm should be perpendicular to their spine, not angled along it. (Timing: Before applying pressure)
-5. **Anchor and stabilize**: Plant your non-choking hand on the mat near the opponent's far hip or grip their belt/pants to prevent any hip escape. Maintain heavy hip pressure into their ribs to anchor your entire body structure. (Timing: Simultaneous with forearm positioning)
-6. **Apply cutting pressure**: Pull the lapel grip toward your hip while simultaneously dropping your shoulder weight into the forearm blade. The motion should feel like sawing across bread—not squeezing, but cutting with body weight and leverage. (Timing: Final execution)
-7. **Complete the choke**: Continue driving your forearm across while pulling the lapel until the opponent taps or goes unconscious. Maintain hip pressure throughout to prevent any late escape. Be prepared for rapid tap as this choke compresses both arteries simultaneously. (Timing: 3-8 seconds until tap/unconsciousness)
+1. **Secure lapel grip**: While maintaining hip pressure and arm isolation, use your free hand to grip the opponent's near-side lapel at collar level. Pull the lapel loose from their belt line to create slack for feeding across their neck.
+2. **Feed lapel across neck**: Thread the lapel behind the opponent's neck, feeding it deep toward the far side. The material should cross directly over the carotid arteries on both sides. Aim to get four fingers of slack past the centerline of their throat.
+3. **Establish choking grip**: Transfer the fed lapel to your choking hand (typically the hand nearest the opponent's head). Grip the lapel palm-down with your wrist positioned against the side of their neck, thumb pointing toward their feet.
+4. **Position forearm blade**: Rotate your forearm so the bony edge (radius bone) presses directly into the carotid artery on the near side of their neck. Your forearm should be perpendicular to their spine, not angled along it.
+5. **Anchor and stabilize**: Plant your non-choking hand on the mat near the opponent's far hip or grip their belt/pants to prevent any hip escape. Maintain heavy hip pressure into their ribs to anchor your entire body structure.
+6. **Apply cutting pressure**: Pull the lapel grip toward your hip while simultaneously dropping your shoulder weight into the forearm blade. The motion should feel like sawing across bread—not squeezing, but cutting with body weight and leverage.
+7. **Complete the choke**: Continue driving your forearm across while pulling the lapel until the opponent taps or goes unconscious. Maintain hip pressure throughout to prevent any late escape. Be prepared for rapid tap as this choke compresses both arteries simultaneously.
 
 
 </section>
@@ -263,19 +263,15 @@ The mechanical efficiency of this choke makes it particularly effective against 
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice lapel feeding from static Kuzure Kesa-Gatame. Focus on finding slack, threading behind the neck, and establishing palm-down grip. Partner remains passive. Drill 50 repetitions per side to develop muscle memory for the feeding motion.
-(Resistance: None)
 
 **Week 3-4** - Pressure application
 Add the cutting motion with controlled pressure. Partner provides feedback on choke tightness and tap timing. Focus on maintaining hip pressure while executing the finish. Begin recognizing the difference between neck crank and blood choke sensations.
-(Resistance: Light)
 
 **Week 5-6** - Entry timing
 Partner defends trapped arm with moderate resistance, creating openings for choke entry. Practice recognizing when opponent's defense creates collar vulnerability. Chain Breadcutter with americana feints and vice versa.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply in positional sparring from Kuzure Kesa-Gatame. Full resistance with all counters available. Focus on completing the choke despite active defense and maintaining position when choke is defended. Track success rate and identify patterns in failed attempts.
-(Resistance: Full)
 
 
 

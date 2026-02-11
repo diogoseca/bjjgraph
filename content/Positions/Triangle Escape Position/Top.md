@@ -348,11 +348,11 @@ Start caught in triangle, execute chosen escape technique, and immediately trans
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 25% | 5% |
-| Intermediate | 35% | 40% | 10% |
-| Advanced     | 55% | 60% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 45% |
+| Advancement Probability | 50% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 15-45 seconds (escape must be executed quickly)
 

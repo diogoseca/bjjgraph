@@ -163,7 +163,7 @@ Strategically, this triangle entry represents one of the highest-value attacks a
 This technique exemplifies the modern grappling principle that defensive positions should always carry offensive potential. The frenetic energy of Crackhead Control bottom creates unpredictable scramble dynamics where the opponent's pattern recognition breaks down. By threading a leg through during these chaotic exchanges, the bottom player bypasses the opponent's defensive reactions entirely - they are focused on maintaining top control, not defending submissions from someone they believe is in an inferior position. The surprise factor alone significantly increases the success rate at all skill levels compared to more telegraphed triangle entries.
 
 **From Position**: [[Crackhead Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ This technique exemplifies the modern grappling principle that defensive positio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify entry window**: From Crackhead Control bottom, monitor the opponent's grip patterns and weight shifts. The optimal moment occurs when they reach across your body with one arm to establish a new grip or when they shift weight forward to flatten you - this creates the space needed between their arm and torso. (Timing: React within 0.5 seconds of opponent's arm extension or weight shift)
-2. **Explosive hip rotation**: Drive your near-side hip explosively upward and toward the opponent while simultaneously rotating your body to face them. This hip bump disrupts their chair-sit base and creates the angle necessary to shoot your leg across their neck. Use your posted hands to redirect your body's momentum into the rotation. (Timing: Immediate - must be explosive to prevent opponent from resettling weight)
-3. **Thread the attacking leg**: Shoot your far-side leg across the back of the opponent's neck, threading it between their head and the arm that is extended or isolated. The shin should contact the back of the neck with your knee pointing toward their trapped shoulder. Your calf must clear their shoulder line completely to establish the choking angle. (Timing: Continuous motion from the hip rotation - no pause between steps 2 and 3)
-4. **Secure arm isolation**: As your leg crosses the neck, use your same-side hand to control the opponent's trapped arm, pulling it across their own centerline. The arm must stay inside the triangle while the opposite arm remains outside. Grip their wrist or forearm and pull it tight against your hip to prevent them from extracting the arm. (Timing: Simultaneously with leg threading)
-5. **Lock the triangle**: Bring your other leg up and hook the ankle of your choking leg behind your opposite knee, creating the figure-four triangle lock. Squeeze your knees together while pulling the opponent's head down with your hands on the back of their skull. Your hips should begin elevating to increase compression on the carotid arteries. (Timing: Within 2 seconds of initial leg placement to prevent posture recovery)
-6. **Adjust angle and consolidate**: Rotate your body approximately 30-45 degrees perpendicular to the opponent's centerline by walking your shoulders on the mat. This angle adjustment directs your choking knee toward their trapped shoulder, optimizing arterial compression. Pull the trapped arm across their neck and elevate your hips off the mat using your upper back as a base point. (Timing: Methodical adjustment once lock is secure)
-7. **Establish Triangle Control**: With the triangle locked, angle adjusted, and hips elevated, you have transitioned from Crackhead Control bottom into full Triangle Control. From here, maintain constant downward head pressure and hip elevation to prevent posture recovery while threatening the choke finish, armbar transitions, or omoplata switches based on the opponent's defensive reactions. (Timing: Position established - begin submission chain attacks)
+1. **Identify entry window**: From Crackhead Control bottom, monitor the opponent's grip patterns and weight shifts. The optimal moment occurs when they reach across your body with one arm to establish a new grip or when they shift weight forward to flatten you - this creates the space needed between their arm and torso.
+2. **Explosive hip rotation**: Drive your near-side hip explosively upward and toward the opponent while simultaneously rotating your body to face them. This hip bump disrupts their chair-sit base and creates the angle necessary to shoot your leg across their neck. Use your posted hands to redirect your body's momentum into the rotation.
+3. **Thread the attacking leg**: Shoot your far-side leg across the back of the opponent's neck, threading it between their head and the arm that is extended or isolated. The shin should contact the back of the neck with your knee pointing toward their trapped shoulder. Your calf must clear their shoulder line completely to establish the choking angle.
+4. **Secure arm isolation**: As your leg crosses the neck, use your same-side hand to control the opponent's trapped arm, pulling it across their own centerline. The arm must stay inside the triangle while the opposite arm remains outside. Grip their wrist or forearm and pull it tight against your hip to prevent them from extracting the arm.
+5. **Lock the triangle**: Bring your other leg up and hook the ankle of your choking leg behind your opposite knee, creating the figure-four triangle lock. Squeeze your knees together while pulling the opponent's head down with your hands on the back of their skull. Your hips should begin elevating to increase compression on the carotid arteries.
+6. **Adjust angle and consolidate**: Rotate your body approximately 30-45 degrees perpendicular to the opponent's centerline by walking your shoulders on the mat. This angle adjustment directs your choking knee toward their trapped shoulder, optimizing arterial compression. Pull the trapped arm across their neck and elevate your hips off the mat using your upper back as a base point.
+7. **Establish Triangle Control**: With the triangle locked, angle adjusted, and hips elevated, you have transitioned from Crackhead Control bottom into full Triangle Control. From here, maintain constant downward head pressure and hip elevation to prevent posture recovery while threatening the choke finish, armbar transitions, or omoplata switches based on the opponent's defensive reactions.
 
 
 </section>
@@ -262,23 +262,18 @@ This technique exemplifies the modern grappling principle that defensive positio
 ## Training Progressions
 **Week 1-2** - Triangle lock mechanics from turtle
 Practice the hip rotation and leg threading motion from turtle bottom against a stationary partner. Focus on the mechanical pathway: hip bump, rotation, leg across neck, arm isolation, lock. Drill each component separately then chain them together. No resistance - partner holds Crackhead Control top position and allows the entry.
-(Resistance: None)
 
 **Week 3-4** - Entry timing and angle recognition
 Partner provides light movement from Crackhead Control top, reaching for grips and shifting weight. Bottom player identifies entry windows based on arm extensions and weight transfers, then executes the full triangle entry sequence. Focus on recognizing the three primary triggers: cross-body reach, weight shift forward, and grip transition moments.
-(Resistance: Light)
 
 **Week 5-6** - Triangle consolidation and chain attacks
 Partner provides medium resistance, attempting to posture out, stack, and extract the trapped arm after the triangle is locked. Bottom player works angle adjustment, hip elevation, and transitions to armbar or omoplata when the triangle defense is effective. Develop the ability to flow between triangle, armbar, and omoplata based on defensive reactions.
-(Resistance: Medium)
 
 **Week 7-8** - Integration with Crackhead Control bottom game
 Full positional sparring from Crackhead Control bottom. Triangle entry becomes one option among granby rolls, sit-throughs, and guard recoveries. Partner provides full resistance from top. Bottom player selects attacks based on what the opponent gives them. Track triangle entry success rate and compare with other escape/attack options.
-(Resistance: Full)
 
 **Week 9+** - Live application and competition preparation
 Integrate triangle from Crackhead Control into full rolling sessions. Work on setting up the position through deliberate turtle recovery after guard passes, then attacking with the triangle when the opponent follows to Crackhead Control top. Develop the psychological aspect - maintaining composure in bottom turtle while hunting for submission entries.
-(Resistance: Full)
 
 
 

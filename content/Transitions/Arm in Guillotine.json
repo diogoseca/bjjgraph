@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Arm in Guillotine represents a devastating variation of the standard guillotine choke that capitalizes on the opponent's defensive instinct to insert their arm inside the choking position. Rather than viewing the trapped arm as an obstacle, the arm-in variation transforms it into a leverage multiplier that presses the opponent's own bicep against their carotid artery, creating a tighter and often faster submission than the no-arm variation. This technique exemplifies the principle of using the opponent's defense against them—the very action they take to relieve pressure becomes the mechanism that seals their fate.\n\nFrom a biomechanical perspective, the arm-in guillotine creates a triangular pressure system where the choking forearm attacks one side of the neck, the opponent's trapped arm compresses the other side, and your body provides the backstop. This three-point pressure system requires less raw squeezing power than a standard guillotine because the geometry does the work. The finish involves rotating your body toward the trapped arm side while driving your choking elbow toward the ceiling, creating a corkscrew motion that tightens the triangle of pressure.\n\nStrategically, the arm-in guillotine is particularly valuable in scramble situations and guard retention scenarios where opponents commonly reach inside to establish frames or defend takedowns. Recognizing when an opponent's arm enters the danger zone and immediately capitalizing with proper grip adjustment separates high-percentage guillotine players from those who struggle with the technique. The arm-in variation also offers superior control against explosive escape attempts because the trapped arm limits the opponent's ability to rotate their shoulders and create space.",
   "key_principles": [
     "Recognize arm entrapment immediately and adjust grip position to capitalize rather than fighting the trapped arm",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Recognize arm trap",
-      "description": "Identify when opponent's arm enters inside your guillotine grip—this commonly occurs when they attempt to frame, underhook, or defend the standard choke. Do not fight to remove the arm; instead, immediately prepare to capitalize.",
-      "timing": "Instant recognition required"
+      "description": "Identify when opponent's arm enters inside your guillotine grip—this commonly occurs when they attempt to frame, underhook, or defend the standard choke. Do not fight to remove the arm; instead, immediately prepare to capitalize."
     },
     {
       "step_number": 2,
       "action": "Adjust grip position",
-      "description": "Slide your choking wrist deeper around the neck so the blade of your forearm sits directly across the front of the throat. Ensure your grip hand (clasping hand) moves to the outside of the trapped arm, not over it.",
-      "timing": "Within 1-2 seconds of arm entry"
+      "description": "Slide your choking wrist deeper around the neck so the blade of your forearm sits directly across the front of the throat. Ensure your grip hand (clasping hand) moves to the outside of the trapped arm, not over it."
     },
     {
       "step_number": 3,
       "action": "Secure high guard",
-      "description": "Close your guard high on opponent's back, pulling their shoulders toward their hips and preventing any posture recovery. Your ankles should cross behind their shoulder blades, not at their lower back.",
-      "timing": "Simultaneously with grip adjustment"
+      "description": "Close your guard high on opponent's back, pulling their shoulders toward their hips and preventing any posture recovery. Your ankles should cross behind their shoulder blades, not at their lower back."
     },
     {
       "step_number": 4,
       "action": "Rotate toward trapped arm",
-      "description": "Angle your entire body toward the side of the trapped arm by shifting your hips in that direction. This rotation creates the optimal finishing angle where your forearm and their bicep form a V against both sides of their neck.",
-      "timing": "Fluid motion following grip secure"
+      "description": "Angle your entire body toward the side of the trapped arm by shifting your hips in that direction. This rotation creates the optimal finishing angle where your forearm and their bicep form a V against both sides of their neck."
     },
     {
       "step_number": 5,
       "action": "Drive elbow to ceiling",
-      "description": "Elevate your choking elbow toward the ceiling while keeping your wrist blade pressed against the throat. This upward elbow drive combined with the body rotation creates a corkscrew effect that tightens the choke exponentially.",
-      "timing": "Primary finishing motion"
+      "description": "Elevate your choking elbow toward the ceiling while keeping your wrist blade pressed against the throat. This upward elbow drive combined with the body rotation creates a corkscrew effect that tightens the choke exponentially."
     },
     {
       "step_number": 6,
       "action": "Pull head to hip",
-      "description": "Simultaneously pull opponent's head down toward your hip pocket on the trapped arm side. The combination of elbow elevation and head pull creates maximum compression on the carotid arteries, typically producing tap within 3-5 seconds.",
-      "timing": "Simultaneous with elbow drive"
+      "description": "Simultaneously pull opponent's head down toward your hip pocket on the trapped arm side. The combination of elbow elevation and head pull creates maximum compression on the carotid arteries, typically producing tap within 3-5 seconds."
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice transitioning from standard guillotine grip to arm-in grip position when partner inserts arm. Focus on the wrist adjustment, hand position change, and feeling the optimal depth. Partner allows arm insertion without resistance to build muscle memory.",
-      "resistance_level": "None"
+      "description": "Practice transitioning from standard guillotine grip to arm-in grip position when partner inserts arm. Focus on the wrist adjustment, hand position change, and feeling the optimal depth. Partner allows arm insertion without resistance to build muscle memory."
     },
     {
       "phase": "Week 3-4",
       "focus": "Finishing angle",
-      "description": "Develop the rotation mechanics—practice shifting hips toward trapped arm side while driving elbow to ceiling. Partner provides light resistance to posture attempts. Focus on coordinating the corkscrew motion with head control.",
-      "resistance_level": "Light"
+      "description": "Develop the rotation mechanics—practice shifting hips toward trapped arm side while driving elbow to ceiling. Partner provides light resistance to posture attempts. Focus on coordinating the corkscrew motion with head control."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks",
-      "description": "Practice transitioning between arm-in guillotine, standard guillotine, and alternative submissions (anaconda, darce) based on partner's defensive reactions. Partner actively defends with 50% resistance. Develop pattern recognition for when to commit versus transition.",
-      "resistance_level": "Medium"
+      "description": "Practice transitioning between arm-in guillotine, standard guillotine, and alternative submissions (anaconda, darce) based on partner's defensive reactions. Partner actively defends with 50% resistance. Develop pattern recognition for when to commit versus transition."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Positional sparring starting from guillotine control. Work on recognizing arm-in opportunities in real-time scrambles and finishing against fully resisting opponents. Include entry work from guard retention and sprawl situations.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting from guillotine control. Work on recognizing arm-in opportunities in real-time scrambles and finishing against fully resisting opponents. Include entry work from guard retention and sprawl situations."
     }
   ],
   "variants_and_adaptations": [
@@ -181,53 +166,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Arm in Guillotine?",
-      "answer": "The primary goal is to finish the choke submission by using the opponent's trapped arm as a second compression point against their own carotid artery. The trapped bicep presses against one side of the neck while your forearm attacks the other side, creating a triangular pressure system that produces faster and tighter strangulation than the standard guillotine.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to finish the choke submission by using the opponent's trapped arm as a second compression point against their own carotid artery. The trapped bicep presses against one side of the neck while your forearm attacks the other side, creating a triangular pressure system that produces faster and tighter strangulation than the standard guillotine."
     },
     {
       "question": "What position do you start Arm in Guillotine from?",
-      "answer": "This technique starts from Guillotine Control position, typically from bottom guard. It can be executed from closed guard, half guard, or butterfly guard, though closed guard with high leg position provides the most stable finishing platform.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Guillotine Control position, typically from bottom guard. It can be executed from closed guard, half guard, or butterfly guard, though closed guard with high leg position provides the most stable finishing platform."
     },
     {
       "question": "What are the key grips needed for Arm in Guillotine?",
-      "answer": "The choking arm wraps deep around the opponent's neck with the blade of the forearm crossing the front of the throat. The clasping hand grips the choking wrist or uses gable grip, positioned to the outside of the opponent's trapped arm. The grip must be deep enough that the wrist blade—not just the forearm—contacts the trachea or carotid structures.",
-      "difficulty": "Intermediate"
+      "answer": "The choking arm wraps deep around the opponent's neck with the blade of the forearm crossing the front of the throat. The clasping hand grips the choking wrist or uses gable grip, positioned to the outside of the opponent's trapped arm. The grip must be deep enough that the wrist blade—not just the forearm—contacts the trachea or carotid structures."
     },
     {
       "question": "Your opponent drives forward aggressively to stack you—how do you respond?",
-      "answer": "Use their forward momentum for a hip bump sweep to mount while maintaining the guillotine grip. Their driving pressure actually facilitates the sweep because their weight is already committed forward. As you sweep to mount, you can finish the arm-in guillotine from top position with even better leverage.",
-      "difficulty": "Intermediate"
+      "answer": "Use their forward momentum for a hip bump sweep to mount while maintaining the guillotine grip. Their driving pressure actually facilitates the sweep because their weight is already committed forward. As you sweep to mount, you can finish the arm-in guillotine from top position with even better leverage."
     },
     {
       "question": "Why is rotating toward the trapped arm side critical for the arm-in finish?",
-      "answer": "The rotation toward the trapped arm side creates optimal geometry where your forearm and the opponent's bicep form a V-shape that compresses both carotid arteries simultaneously. Without this rotation, you lose the triangular pressure system—the opponent's arm remains parallel to your forearm rather than creating cross-pressure, significantly reducing choking effectiveness.",
-      "difficulty": "Advanced"
+      "answer": "The rotation toward the trapped arm side creates optimal geometry where your forearm and the opponent's bicep form a V-shape that compresses both carotid arteries simultaneously. Without this rotation, you lose the triangular pressure system—the opponent's arm remains parallel to your forearm rather than creating cross-pressure, significantly reducing choking effectiveness."
     },
     {
       "question": "When is the best time to attempt Arm in Guillotine?",
-      "answer": "The optimal timing occurs when the opponent naturally inserts their arm inside your guillotine grip—typically when they attempt to frame, establish an underhook, or defend by pushing against your chest. Rather than creating the arm-in scenario artificially, recognize and capitalize on these defensive reactions immediately before they can adjust.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing occurs when the opponent naturally inserts their arm inside your guillotine grip—typically when they attempt to frame, establish an underhook, or defend by pushing against your chest. Rather than creating the arm-in scenario artificially, recognize and capitalize on these defensive reactions immediately before they can adjust."
     },
     {
       "question": "How do you counter Arm in Guillotine as the defender?",
-      "answer": "The primary defense is to posture up immediately before the choke is secured, using the trapped arm to create a frame and drive away. If caught deep, turn your chin toward the choking arm to protect the throat while working to extract the head. Getting shoulders perpendicular and driving toward the mat can also relieve some pressure.",
-      "difficulty": "Intermediate"
+      "answer": "The primary defense is to posture up immediately before the choke is secured, using the trapped arm to create a frame and drive away. If caught deep, turn your chin toward the choking arm to protect the throat while working to extract the head. Getting shoulders perpendicular and driving toward the mat can also relieve some pressure."
     },
     {
       "question": "What distinguishes arm-in guillotine finishing mechanics from standard guillotine?",
-      "answer": "Standard guillotine finishes by squeezing the forearm into the throat while pulling the head down. Arm-in guillotine uses a corkscrew motion—rotating toward the trapped arm while driving the elbow toward the ceiling and pulling the head toward your hip pocket. The trapped arm creates a second compression point, requiring less squeezing force because the geometry multiplies pressure.",
-      "difficulty": "Advanced"
+      "answer": "Standard guillotine finishes by squeezing the forearm into the throat while pulling the head down. Arm-in guillotine uses a corkscrew motion—rotating toward the trapped arm while driving the elbow toward the ceiling and pulling the head toward your hip pocket. The trapped arm creates a second compression point, requiring less squeezing force because the geometry multiplies pressure."
     },
     {
       "question": "Your opponent begins turning into you during the arm-in finish—what adjustment do you make?",
-      "answer": "Their turn exposes the far-side of their neck for anaconda or darce choke transitions. Follow their rotation while adjusting your arm position to thread deeper around the far-side neck. The arm-in guillotine naturally chains to these head-arm choke variations when opponents turn as a defense.",
-      "difficulty": "Advanced"
+      "answer": "Their turn exposes the far-side of their neck for anaconda or darce choke transitions. Follow their rotation while adjusting your arm position to thread deeper around the far-side neck. The arm-in guillotine naturally chains to these head-arm choke variations when opponents turn as a defense."
     },
     {
       "question": "What common mechanical error causes arm-in guillotine to become a neck crank rather than a choke?",
-      "answer": "Gripping too shallow with the forearm across the face or jaw rather than the throat creates cranking pressure without blood restriction. This causes pain but allows the opponent to survive indefinitely while potentially injuring their neck. The correction is ensuring the blade of the wrist sits directly across the front of the throat before initiating the finish.",
-      "difficulty": "Intermediate"
+      "answer": "Gripping too shallow with the forearm across the face or jaw rather than the throat creates cranking pressure without blood restriction. This causes pain but allows the opponent to survive indefinitely while potentially injuring their neck. The correction is ensuring the blade of the wrist sits directly across the front of the throat before initiating the finish."
     }
   ],
   "safety_considerations": "The arm-in guillotine attacks both the trachea and carotid arteries, making it a potentially dangerous technique that requires controlled application in training. Unconsciousness can occur rapidly—within 5-10 seconds of proper application—so training partners must tap early and practitioners must release immediately upon tap signal. Avoid explosive finishing movements that could cause cervical spine injury. The trapped arm position limits the defender's ability to tap with that hand, so be attentive to verbal taps or foot taps. Never hold the choke after a tap or after the opponent goes limp. If training partner appears disoriented after release, stop training immediately and monitor for signs of oxygen deprivation.",
@@ -269,5 +244,6 @@
       "name": "Mount",
       "relationship": "Transition target - sweep destination while maintaining grip"
     }
-  ]
+  ],
+  "success_rate": 58
 }

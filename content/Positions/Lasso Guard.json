@@ -272,21 +272,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Ability to maintain top position without being swept increases substantially with technical understanding and experience"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Likelihood of successfully passing lasso guard improves dramatically with proper systematic approach and grip fighting skills"
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Counter-submission opportunities from top exist but require recognizing specific vulnerabilities when opponent over-commits to lasso"
       },
       "average_time": "60-120 seconds typically required to systematically clear lasso and complete passing sequence"
@@ -535,21 +529,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Likelihood of maintaining lasso control against passing attempts varies significantly with experience in grip fighting and hip mobility"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Probability of achieving sweeps or superior positions from lasso increases dramatically with proper timing and technique recognition"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Direct submission rates from lasso are moderate but increase substantially when combined with proper sweep threats and position transitions"
       },
       "average_time": "45-90 seconds before transition to sweep, submission attempt, or position change"

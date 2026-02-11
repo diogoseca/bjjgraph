@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Submission Escape Protocol is a comprehensive escape sequence from the Gift Wrap position that goes beyond simple arm recovery to fully disengage from back control and re-establish open guard. While the Gift Wrap Arm Recovery addresses freeing the trapped limb, this protocol chains arm extraction with immediate hip movement, hook clearing, and guard re-composition into a single integrated sequence. The goal is not merely to recover the arm but to complete the full positional transition from one of the most compromised defensive positions to a viable offensive platform.\n\nThis technique addresses a critical gap in many practitioners' defensive games. Often, even after recovering the trapped arm from Gift Wrap, defenders remain in back control where the opponent can simply re-establish the Gift Wrap or attack with other submissions. The Submission Escape Protocol solves this by treating the arm recovery as the entry point to an immediate cascading escape that creates enough distance and frames to transition past back control entirely. The sequence leverages the momentary disruption caused by the arm recovery to chain hip escapes, hook removal, and guard insertion before the opponent can re-consolidate control.\n\nStrategically, this protocol is highest percentage when the opponent is actively attacking submissions from Gift Wrap rather than maintaining static control. Submission attempts create weight shifts, grip changes, and positional adjustments that open escape windows. The defender exploits these windows by committing fully to the complete escape sequence rather than settling for partial defensive improvements. The technique demands decisiveness and commitment - hesitation at any stage allows the opponent to re-establish the Gift Wrap or advance to mount.",
   "key_principles": [
     "Treat the escape as a single continuous sequence from arm recovery through guard establishment rather than separate defensive steps",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Defend immediate submission threat",
-      "description": "Use your free hand to address the active submission attempt. If opponent is attacking the rear naked choke, grip fight the choking hand. If attacking the armbar, retract the free arm tight to your ribs. This defensive action buys the window needed for the escape sequence.",
-      "timing": "Immediate response to opponent's attack"
+      "description": "Use your free hand to address the active submission attempt. If opponent is attacking the rear naked choke, grip fight the choking hand. If attacking the armbar, retract the free arm tight to your ribs. This defensive action buys the window needed for the escape sequence."
     },
     {
       "step_number": 2,
       "action": "Initiate arm recovery with hip escape",
-      "description": "Relax the trapped arm completely and shrimp your hips away from the opponent while rotating your trapped shoulder forward and toward the mat, creating a rotational extraction angle that frees the arm along the path of least resistance.",
-      "timing": "Coordinate with opponent's weight shift during their submission attempt"
+      "description": "Relax the trapped arm completely and shrimp your hips away from the opponent while rotating your trapped shoulder forward and toward the mat, creating a rotational extraction angle that frees the arm along the path of least resistance."
     },
     {
       "step_number": 3,
       "action": "Establish double arm frames",
-      "description": "The moment the trapped arm is free, immediately bring both hands to frame against the opponent's upper body. Place one forearm across their neck or collarbone and the other against their hip or shoulder to create a structural barrier preventing chest-to-back reconnection.",
-      "timing": "Within one second of arm recovery - speed is critical here"
+      "description": "The moment the trapped arm is free, immediately bring both hands to frame against the opponent's upper body. Place one forearm across their neck or collarbone and the other against their hip or shoulder to create a structural barrier preventing chest-to-back reconnection."
     },
     {
       "step_number": 4,
       "action": "Clear the bottom hook",
-      "description": "With frames established, use your bottom leg to stomp down on the opponent's bottom hook, straightening your leg forcefully to strip their hook from inside your thigh. Keep your hips moving away from their body throughout the hook removal to maintain the distance your frames created.",
-      "timing": "Immediately following frame establishment"
+      "description": "With frames established, use your bottom leg to stomp down on the opponent's bottom hook, straightening your leg forcefully to strip their hook from inside your thigh. Keep your hips moving away from their body throughout the hook removal to maintain the distance your frames created."
     },
     {
       "step_number": 5,
       "action": "Clear the top hook and rotate hips",
-      "description": "Push against the opponent's top hook with your knee or shin while simultaneously rotating your hips to face them. Use a pummel action with your top leg to clear their remaining hook and begin inserting your own legs between your bodies as defensive barriers.",
-      "timing": "Chain directly from bottom hook clearance"
+      "description": "Push against the opponent's top hook with your knee or shin while simultaneously rotating your hips to face them. Use a pummel action with your top leg to clear their remaining hook and begin inserting your own legs between your bodies as defensive barriers."
     },
     {
       "step_number": 6,
       "action": "Insert shin frames and establish distance",
-      "description": "Drive both shins across the opponent's hips or thighs as you complete the hip rotation to face them. Push with your feet on their hips to create maximum distance while your hands fight for controlling grips on their sleeves, collar, or wrists.",
-      "timing": "Final phase - transition from escape to guard"
+      "description": "Drive both shins across the opponent's hips or thighs as you complete the hip rotation to face them. Push with your feet on their hips to create maximum distance while your hands fight for controlling grips on their sleeves, collar, or wrists."
     },
     {
       "step_number": 7,
       "action": "Compose open guard structure",
-      "description": "With distance established and legs between you and the opponent, set your feet on their hips, establish at least two controlling grips, and begin active open guard management. Immediately threaten sweeps or submissions to prevent them from re-initiating a passing sequence.",
-      "timing": "Stabilize within 2-3 seconds of facing opponent"
+      "description": "With distance established and legs between you and the opponent, set your feet on their hips, establish at least two controlling grips, and begin active open guard management. Immediately threaten sweeps or submissions to prevent them from re-initiating a passing sequence."
     }
   ],
   "common_counters": [
@@ -146,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Full sequence mechanics",
-      "description": "Walk through the entire chain from arm recovery to open guard establishment with a cooperative partner. Focus on the transition points between each phase: arm free to frames, frames to hook clearing, hook clearing to guard composition. Drill each sub-sequence in isolation, then combine into the full chain with zero resistance.",
-      "resistance_level": "None"
+      "description": "Walk through the entire chain from arm recovery to open guard establishment with a cooperative partner. Focus on the transition points between each phase: arm free to frames, frames to hook clearing, hook clearing to guard composition. Drill each sub-sequence in isolation, then combine into the full chain with zero resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and windows",
-      "description": "Partner applies moderate Gift Wrap control and initiates submission attacks at 40% speed. Practice recognizing the weight shift windows and initiating the full escape chain during those openings. Partner allows the escape when timing is correct but resets when timing is poor.",
-      "resistance_level": "Light"
+      "description": "Partner applies moderate Gift Wrap control and initiates submission attacks at 40% speed. Practice recognizing the weight shift windows and initiating the full escape chain during those openings. Partner allows the escape when timing is correct but resets when timing is poor."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain defense and counter-recovery",
-      "description": "Partner actively resists the escape at 70% intensity, including re-capturing arms, following hip escapes, and attempting to transition to mount. Practice adapting the protocol when opponent counters specific phases - switching to half guard recovery when mount is threatened, re-initiating when Gift Wrap is re-established.",
-      "resistance_level": "Medium"
+      "description": "Partner actively resists the escape at 70% intensity, including re-capturing arms, following hip escapes, and attempting to transition to mount. Practice adapting the protocol when opponent counters specific phases - switching to half guard recovery when mount is threatened, re-initiating when Gift Wrap is re-established."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and pressure testing",
-      "description": "Begin rounds from Gift Wrap Bottom with partner applying full competition-level resistance and submissions. Measure success rate of reaching open guard versus being submitted or having escape stuffed. Identify which phase breaks down most frequently under pressure and isolate that sub-sequence for additional drilling.",
-      "resistance_level": "Full"
+      "description": "Begin rounds from Gift Wrap Bottom with partner applying full competition-level resistance and submissions. Measure success rate of reaching open guard versus being submitted or having escape stuffed. Identify which phase breaks down most frequently under pressure and isolate that sub-sequence for additional drilling."
     }
   ],
   "variants_and_adaptations": [
@@ -188,53 +172,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Submission Escape Protocol compared to Gift Wrap Arm Recovery?",
-      "answer": "The Submission Escape Protocol aims to complete the full positional transition from Gift Wrap Bottom to Open Guard, not merely free the trapped arm. While Gift Wrap Arm Recovery restores defensive capability by freeing the limb, you remain in back control. The Submission Escape Protocol chains arm recovery with hook clearing and guard composition into one continuous sequence that fully disengages from back control.",
-      "difficulty": "Beginner"
+      "answer": "The Submission Escape Protocol aims to complete the full positional transition from Gift Wrap Bottom to Open Guard, not merely free the trapped arm. While Gift Wrap Arm Recovery restores defensive capability by freeing the limb, you remain in back control. The Submission Escape Protocol chains arm recovery with hook clearing and guard composition into one continuous sequence that fully disengages from back control."
     },
     {
       "question": "What conditions must exist before you initiate the Submission Escape Protocol?",
-      "answer": "You need to be on your side rather than flat on your back to maintain hip mobility. Your free hand must be actively defending your neck. You must have identified which direction to escape based on the opponent's hook placement and weight distribution. Most critically, you need to recognize a submission attack window where the opponent shifts weight or adjusts grips, creating the momentary disruption that makes the full escape chain viable.",
-      "difficulty": "Intermediate"
+      "answer": "You need to be on your side rather than flat on your back to maintain hip mobility. Your free hand must be actively defending your neck. You must have identified which direction to escape based on the opponent's hook placement and weight distribution. Most critically, you need to recognize a submission attack window where the opponent shifts weight or adjusts grips, creating the momentary disruption that makes the full escape chain viable."
     },
     {
       "question": "Your opponent attacks a rear naked choke from Gift Wrap - how does this create an escape opportunity?",
-      "answer": "The choke attempt requires the opponent to release or adjust their Gift Wrap control hand to attack the neck, temporarily reducing the arm trap's integrity. Their weight shifts forward and toward the choking side, creating space on the opposite side. You defend the choke hand first, then exploit the loosened arm trap and weight shift to initiate the full escape sequence while their focus is split between finishing the choke and maintaining position.",
-      "difficulty": "Intermediate"
+      "answer": "The choke attempt requires the opponent to release or adjust their Gift Wrap control hand to attack the neck, temporarily reducing the arm trap's integrity. Their weight shifts forward and toward the choking side, creating space on the opposite side. You defend the choke hand first, then exploit the loosened arm trap and weight shift to initiate the full escape sequence while their focus is split between finishing the choke and maintaining position."
     },
     {
       "question": "What is the most critical mechanical detail during the frame establishment phase?",
-      "answer": "Frames must use bent-arm structure with elbows close to the ribs, not extended arms. A forearm across the opponent's neck or collarbone combined with the other forearm against their hip creates a rigid structural barrier. Extended arms expose you to armbar and kimura attacks and provide less effective frames. The skeletal structure of bent arms bears load without muscular fatigue, while straight arms rely on strength that depletes quickly.",
-      "difficulty": "Intermediate"
+      "answer": "Frames must use bent-arm structure with elbows close to the ribs, not extended arms. A forearm across the opponent's neck or collarbone combined with the other forearm against their hip creates a rigid structural barrier. Extended arms expose you to armbar and kimura attacks and provide less effective frames. The skeletal structure of bent arms bears load without muscular fatigue, while straight arms rely on strength that depletes quickly."
     },
     {
       "question": "Why must hooks be cleared sequentially rather than simultaneously?",
-      "answer": "Attempting to clear both hooks at once splits your focus and mechanical effort, typically resulting in neither being fully removed. The bottom hook should be cleared first with a decisive leg stomp because it bears more of the opponent's control weight. Once the bottom hook is stripped, the top hook loses much of its anchoring effectiveness and can be cleared with a knee pummel. Sequential removal ensures each hook is fully disengaged before addressing the next.",
-      "difficulty": "Intermediate"
+      "answer": "Attempting to clear both hooks at once splits your focus and mechanical effort, typically resulting in neither being fully removed. The bottom hook should be cleared first with a decisive leg stomp because it bears more of the opponent's control weight. Once the bottom hook is stripped, the top hook loses much of its anchoring effectiveness and can be cleared with a knee pummel. Sequential removal ensures each hook is fully disengaged before addressing the next."
     },
     {
       "question": "What direction of force should your hip movement maintain throughout the entire escape sequence?",
-      "answer": "Your hips should move continuously away from the opponent's chest throughout the entire sequence. Every phase - arm recovery shrimp, framing, hook clearing, guard composition - should generate distance between your back and their torso. Any movement that brings your hips closer to the opponent resets their control potential. The directional consistency compounds across phases, making each subsequent step easier as cumulative distance builds.",
-      "difficulty": "Advanced"
+      "answer": "Your hips should move continuously away from the opponent's chest throughout the entire sequence. Every phase - arm recovery shrimp, framing, hook clearing, guard composition - should generate distance between your back and their torso. Any movement that brings your hips closer to the opponent resets their control potential. The directional consistency compounds across phases, making each subsequent step easier as cumulative distance builds."
     },
     {
       "question": "Your opponent starts transitioning to mount as you clear the first hook - how do you adjust the protocol?",
-      "answer": "Immediately abandon the standard open guard target and intercept with half guard by capturing their advancing leg between yours. Use your frames to prevent them from completing the mount while establishing knee shield or lockdown half guard. This shortened variant sacrifices the ideal open guard outcome but prevents the significantly worse mount position. From half guard, you retain viable sweeps and further escape options.",
-      "difficulty": "Advanced"
+      "answer": "Immediately abandon the standard open guard target and intercept with half guard by capturing their advancing leg between yours. Use your frames to prevent them from completing the mount while establishing knee shield or lockdown half guard. This shortened variant sacrifices the ideal open guard outcome but prevents the significantly worse mount position. From half guard, you retain viable sweeps and further escape options."
     },
     {
       "question": "What grip sequence should you prioritize when composing open guard at the end of the escape?",
-      "answer": "First priority is feet on hips to establish distance and prevent immediate re-engagement. Second priority is controlling at least one sleeve or wrist to prevent them from gripping your legs for passing. Third priority is establishing a collar or lapel grip to threaten sweeps. You need minimum two connection points - one lower body and one upper body - to have a functional guard. Without both, the opponent can freely re-initiate passing or back take attempts.",
-      "difficulty": "Intermediate"
+      "answer": "First priority is feet on hips to establish distance and prevent immediate re-engagement. Second priority is controlling at least one sleeve or wrist to prevent them from gripping your legs for passing. Third priority is establishing a collar or lapel grip to threaten sweeps. You need minimum two connection points - one lower body and one upper body - to have a functional guard. Without both, the opponent can freely re-initiate passing or back take attempts."
     },
     {
       "question": "What are the immediate threats you must address if the escape stalls after arm recovery but before hook clearing?",
-      "answer": "The two primary threats are Gift Wrap re-establishment and rear naked choke. With your arm free but hooks still in, the opponent will immediately attempt to re-capture the arm or attack the now-exposed neck. Keep both elbows tight to your ribs to prevent arm re-capture, maintain at least one hand defending the neck, and continue hip escaping to create distance. If you cannot progress to hook clearing within 3-4 seconds, you may need to reset to standard back defense and wait for another window.",
-      "difficulty": "Advanced"
+      "answer": "The two primary threats are Gift Wrap re-establishment and rear naked choke. With your arm free but hooks still in, the opponent will immediately attempt to re-capture the arm or attack the now-exposed neck. Keep both elbows tight to your ribs to prevent arm re-capture, maintain at least one hand defending the neck, and continue hip escaping to create distance. If you cannot progress to hook clearing within 3-4 seconds, you may need to reset to standard back defense and wait for another window."
     },
     {
       "question": "If the standard escape is blocked repeatedly, what chain attack sequence should you transition to?",
-      "answer": "If the standard protocol fails, transition to the turtle variant by rolling forward through the arm recovery rather than trying to clear hooks. From turtle, you have access to Granby rolls to guard, sit-outs to open guard, and Peterson rolls to reverse position. Alternatively, chain into a defensive sequence where you recover the arm, defend submissions from standard back control, and wait for a higher-percentage escape window rather than forcing the same failed sequence repeatedly.",
-      "difficulty": "Advanced"
+      "answer": "If the standard protocol fails, transition to the turtle variant by rolling forward through the arm recovery rather than trying to clear hooks. From turtle, you have access to Granby rolls to guard, sit-outs to open guard, and Peterson rolls to reverse position. Alternatively, chain into a defensive sequence where you recover the arm, defend submissions from standard back control, and wait for a higher-percentage escape window rather than forcing the same failed sequence repeatedly."
     }
   ],
   "safety_considerations": "The Submission Escape Protocol involves rapid transitions through multiple positions, creating injury risk at several points. During arm recovery, avoid explosive pulling that can strain the shoulder joint - use body rotation mechanics instead. When bridging, protect your neck by tucking your chin and never bridging directly onto the crown of your head. The hook-clearing phase involves forceful leg movements that can hyper-extend your partner's knee if performed carelessly during training - control the stomp speed during drills. If the opponent has a body triangle rather than hooks, do not force hook-clearing mechanics against the locked triangle as this can injure your own ribs or spine. Tap and reset if shoulder pain develops from a prolonged Gift Wrap position rather than risking rotator cuff injury. During live training, communicate with your partner about intensity levels, particularly during the frame establishment phase where forearm pressure across the neck area occurs.",
@@ -276,5 +250,6 @@
       "name": "Back Control",
       "relationship": "Intermediate position during escape between Gift Wrap and guard"
     }
-  ]
+  ],
+  "success_rate": 58
 }

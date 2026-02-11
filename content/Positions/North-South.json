@@ -262,21 +262,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Ability to maintain North-South position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Probability of transitioning to mount or securing submission"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Probability of finishing submission directly from North-South"
       },
       "average_time": "60-120 seconds of control before transition or submission"
@@ -284,42 +278,50 @@
     "transitions": [
       {
         "transition": "North-South Choke",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 13
+        "attempt_probability": 11
       },
       {
         "transition": "North-South to Kimura",
-        "attempt_probability": 11
+        "attempt_probability": 9
       },
       {
         "transition": "Armbar from Side Control",
-        "attempt_probability": 9
+        "attempt_probability": 8
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Americana from Side Control",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Knee on Belly",
         "attempt_probability": 10
       },
       {
+        "transition": "Americana from Side Control",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Knee on Belly",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Spinning Armbar",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Reverse Armbar",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Arm Triangle Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Armbar from North-South",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Reverse Mount Transition",
         "attempt_probability": 8
       }
     ],
@@ -554,21 +556,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Ability to prevent further deterioration from North-South bottom"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Probability of escaping to guard or neutral position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 20,
+        "value": 15,
         "description": "Probability of reversing position and finishing from bottom"
       },
       "average_time": "45-90 seconds under sustained pressure before escape or submission"

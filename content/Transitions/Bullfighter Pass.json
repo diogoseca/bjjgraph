@@ -10,11 +10,6 @@
     "no-gi",
     "gi"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Bullfighter Pass, also known as the Toreando Pass, is a dynamic standing guard pass that uses lateral movement and precise grip control to bypass the opponent's guard. The name comes from the bullfighting motion of moving to the side while controlling the opponent's legs, similar to a matador avoiding a charging bull. This pass is effective against various open guard configurations including Spider Guard, De La Riva Guard, and Collar Sleeve Guard. The technique relies on explosive footwork, proper weight distribution, and the ability to control the opponent's legs while maintaining balance. The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. The pass creates significant pressure and forward momentum, making it difficult for the opponent to recover guard or establish defensive frames.",
   "key_principles": [
     "Control opponent's legs with strong grips before initiating movement",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Establish grip control",
-      "description": "Stand up in opponent's open guard and secure bilateral grips on their pants at the knees or shins. In gi, grip the fabric firmly with thumbs inside. In no-gi, cup behind the knees or control the ankles. Keep your posture upright with hips back to prevent being pulled forward.",
-      "timing": "Initial setup phase"
+      "description": "Stand up in opponent's open guard and secure bilateral grips on their pants at the knees or shins. In gi, grip the fabric firmly with thumbs inside. In no-gi, cup behind the knees or control the ankles. Keep your posture upright with hips back to prevent being pulled forward."
     },
     {
       "step_number": 2,
       "action": "Create separation",
-      "description": "Push the opponent's knees together and toward their chest while stepping back slightly. This compresses their guard and limits their hip mobility. Maintain constant pressure on the legs to prevent them from re-establishing guard or creating angles for sweeps.",
-      "timing": "1-2 seconds after establishing grips"
+      "description": "Push the opponent's knees together and toward their chest while stepping back slightly. This compresses their guard and limits their hip mobility. Maintain constant pressure on the legs to prevent them from re-establishing guard or creating angles for sweeps."
     },
     {
       "step_number": 3,
       "action": "Initiate lateral movement",
-      "description": "Explosively step to one side (usually your stronger side) while simultaneously pushing the opponent's legs in the opposite direction. Your movement should be quick and low to the ground, like a matador stepping aside from a bull. Keep your hips facing the opponent throughout the movement.",
-      "timing": "Explosive burst, 0.5 seconds"
+      "description": "Explosively step to one side (usually your stronger side) while simultaneously pushing the opponent's legs in the opposite direction. Your movement should be quick and low to the ground, like a matador stepping aside from a bull. Keep your hips facing the opponent throughout the movement."
     },
     {
       "step_number": 4,
       "action": "Clear the legs",
-      "description": "As you move laterally, use a circular motion to throw the opponent's legs to the side and away from your body. The motion should be firm but controlled, creating enough space to pass while preventing the opponent from hooking your legs. Release the far leg grip first, maintaining control of the near leg.",
-      "timing": "Simultaneous with lateral step"
+      "description": "As you move laterally, use a circular motion to throw the opponent's legs to the side and away from your body. The motion should be firm but controlled, creating enough space to pass while preventing the opponent from hooking your legs. Release the far leg grip first, maintaining control of the near leg."
     },
     {
       "step_number": 5,
       "action": "Drop your weight",
-      "description": "Immediately after clearing the legs, drop your chest and hips toward the opponent's torso. Your near-side knee should come to the mat as you drive your shoulder into their chest or shoulder. This pressure prevents them from turning into you or recovering guard.",
-      "timing": "Immediate follow-up, no hesitation"
+      "description": "Immediately after clearing the legs, drop your chest and hips toward the opponent's torso. Your near-side knee should come to the mat as you drive your shoulder into their chest or shoulder. This pressure prevents them from turning into you or recovering guard."
     },
     {
       "step_number": 6,
       "action": "Secure side control",
-      "description": "Establish crossface control with your near arm while your far arm controls their far hip or underhooks their far arm. Distribute your weight across their chest and hips. Adjust your base to prevent them from bridging or creating frames. Confirm all four side control pressure points before relaxing.",
-      "timing": "2-3 seconds to full consolidation"
+      "description": "Establish crossface control with your near arm while your far arm controls their far hip or underhooks their far arm. Distribute your weight across their chest and hips. Adjust your base to prevent them from bridging or creating frames. Confirm all four side control pressure points before relaxing."
     }
   ],
   "common_counters": [
@@ -134,38 +123,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Grip control and lateral movement",
-      "description": "Practice standing in guard and establishing proper grips. Drill the lateral stepping motion without a partner, focusing on staying low and explosive. With a partner, practice pushing legs to the side while they remain passive. Emphasis on coordinating grip control with footwork.",
-      "resistance_level": "None"
+      "description": "Practice standing in guard and establishing proper grips. Drill the lateral stepping motion without a partner, focusing on staying low and explosive. With a partner, practice pushing legs to the side while they remain passive. Emphasis on coordinating grip control with footwork."
     },
     {
       "phase": "Week 3-4: Timing and Coordination",
       "focus": "Complete pass sequence with light resistance",
-      "description": "Execute full pass with partner providing 25% resistance. They should maintain guard structure but not actively fight the pass. Focus on the timing of releasing grips and dropping weight. Drill both left and right side passes to develop bilateral proficiency.",
-      "resistance_level": "Light"
+      "description": "Execute full pass with partner providing 25% resistance. They should maintain guard structure but not actively fight the pass. Focus on the timing of releasing grips and dropping weight. Drill both left and right side passes to develop bilateral proficiency."
     },
     {
       "phase": "Week 5-8: Dynamic Passing",
       "focus": "Chaining directional changes and counter responses",
-      "description": "Partner provides 50% resistance and attempts to follow your movement or recover guard. Practice reading their hip movement and changing directions mid-pass. Incorporate grip breaks and re-grips. Begin adding the pass to positional sparring from open guard.",
-      "resistance_level": "Medium"
+      "description": "Partner provides 50% resistance and attempts to follow your movement or recover guard. Practice reading their hip movement and changing directions mid-pass. Incorporate grip breaks and re-grips. Begin adding the pass to positional sparring from open guard."
     },
     {
       "phase": "Week 9-12: Variation and Adaptation",
       "focus": "Passing against different guard styles",
-      "description": "Apply the Bullfighter Pass against specific guards: Spider Guard, De La Riva Guard, Collar Sleeve Guard, and Lasso Guard. Learn the grip variations and timing adjustments needed for each. Partner provides 75% resistance. Focus on recognizing when the pass is available versus when to switch to alternative passes.",
-      "resistance_level": "Medium"
+      "description": "Apply the Bullfighter Pass against specific guards: Spider Guard, De La Riva Guard, Collar Sleeve Guard, and Lasso Guard. Learn the grip variations and timing adjustments needed for each. Partner provides 75% resistance. Focus on recognizing when the pass is available versus when to switch to alternative passes."
     },
     {
       "phase": "Week 13+: Competition Integration",
       "focus": "Full resistance and combination sequences",
-      "description": "Use the Bullfighter Pass in live rolling and competition-style sparring. Chain it with other standing passes like the Knee Cut and Long Step. Develop the ability to switch between passes based on opponent reactions. Refine timing to exploit specific moments when opponent extends legs.",
-      "resistance_level": "Full"
+      "description": "Use the Bullfighter Pass in live rolling and competition-style sparring. Chain it with other standing passes like the Knee Cut and Long Step. Develop the ability to switch between passes based on opponent reactions. Refine timing to exploit specific moments when opponent extends legs."
     },
     {
       "phase": "Ongoing: Advanced Applications",
       "focus": "Style-specific refinements and high-level details",
-      "description": "For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Develop alternative leg controls using wrist control and underhooks. Study competition footage of high-level grapplers using the pass. Experiment with using the pass to set up leg attacks or back takes when opponent defends effectively.",
-      "resistance_level": "Full"
+      "description": "For gi: Master using the lapel and sleeve grips to control legs. For no-gi: Develop alternative leg controls using wrist control and underhooks. Study competition footage of high-level grapplers using the pass. Experiment with using the pass to set up leg attacks or back takes when opponent defends effectively."
     }
   ],
   "variants_and_adaptations": [
@@ -198,38 +181,31 @@
   "knowledge_assessment": [
     {
       "question": "Why is it important to push the opponent's legs in the opposite direction of your lateral movement?",
-      "answer": "Pushing the legs opposite to your movement creates a separation that prevents the opponent from following you with their hips. If you only move laterally without controlling the legs, they can simply rotate their hips to track your movement and maintain guard. The opposing forces (you moving one way, legs going the other) create the space needed to pass. This is the fundamental mechanical principle that makes the pass work.",
-      "difficulty": "Beginner"
+      "answer": "Pushing the legs opposite to your movement creates a separation that prevents the opponent from following you with their hips. If you only move laterally without controlling the legs, they can simply rotate their hips to track your movement and maintain guard. The opposing forces (you moving one way, legs going the other) create the space needed to pass. This is the fundamental mechanical principle that makes the pass work."
     },
     {
       "question": "What is the most critical timing element in the Bullfighter Pass?",
-      "answer": "The most critical timing element is the seamless transition from clearing the legs to dropping your weight onto the opponent. Any hesitation between these two movements gives the opponent time to turn into you, create frames, or recover guard. The entire sequence should feel like one explosive motion: step, throw, drop. Elite passers make this transition in under one second, giving the opponent no time to react.",
-      "difficulty": "Intermediate"
+      "answer": "The most critical timing element is the seamless transition from clearing the legs to dropping your weight onto the opponent. Any hesitation between these two movements gives the opponent time to turn into you, create frames, or recover guard. The entire sequence should feel like one explosive motion: step, throw, drop. Elite passers make this transition in under one second, giving the opponent no time to react."
     },
     {
       "question": "How should you adjust the Bullfighter Pass when facing an opponent with a strong Spider Guard?",
-      "answer": "Against Spider Guard, you need to address the grips before attempting the pass. First, break the sleeve grips by circling your arms aggressively or using sharp posture changes. Once the grips are broken, immediately control the legs at the knees before they can re-establish grips. You may need to use a slightly higher posture initially to deal with the feet on biceps, then drop your level as you clear the legs. The key is not giving them time to rebuild the Spider Guard structure after breaking their control.",
-      "difficulty": "Intermediate"
+      "answer": "Against Spider Guard, you need to address the grips before attempting the pass. First, break the sleeve grips by circling your arms aggressively or using sharp posture changes. Once the grips are broken, immediately control the legs at the knees before they can re-establish grips. You may need to use a slightly higher posture initially to deal with the feet on biceps, then drop your level as you clear the legs. The key is not giving them time to rebuild the Spider Guard structure after breaking their control."
     },
     {
       "question": "What are the key differences between executing the Bullfighter Pass in gi versus no-gi?",
-      "answer": "In gi, you have stronger grip control on the pants, which allows for more deliberate setup and less concern about slipping grips. You can use the gi grips to steer the legs more precisely. In no-gi, grips are more precarious, so the pass needs to be more explosive and timing-based. You typically grip behind the knees or at the ankles in no-gi. The no-gi version requires better hip positioning and more aggressive forward pressure since you can't rely on the grips holding throughout the entire movement. No-gi also requires faster transitions since the opponent can more easily escape slippery grips.",
-      "difficulty": "Advanced"
+      "answer": "In gi, you have stronger grip control on the pants, which allows for more deliberate setup and less concern about slipping grips. You can use the gi grips to steer the legs more precisely. In no-gi, grips are more precarious, so the pass needs to be more explosive and timing-based. You typically grip behind the knees or at the ankles in no-gi. The no-gi version requires better hip positioning and more aggressive forward pressure since you can't rely on the grips holding throughout the entire movement. No-gi also requires faster transitions since the opponent can more easily escape slippery grips."
     },
     {
       "question": "How can the Bullfighter Pass be used to set up leg attacks?",
-      "answer": "The Bullfighter Pass creates excellent opportunities for leg entanglements when the opponent defends effectively. If the opponent is skilled at following your lateral movement, you can use the backstep variation to enter into the saddle or inside position for heel hooks. As you clear the legs to one side, instead of dropping for side control, you step your back leg behind and turn to face their legs. This gives you immediate access to leg attacks while they're dealing with the momentum of the pass. The key is recognizing when the pass to side control is being defended and being willing to shift your objective to the legs instead.",
-      "difficulty": "Advanced"
+      "answer": "The Bullfighter Pass creates excellent opportunities for leg entanglements when the opponent defends effectively. If the opponent is skilled at following your lateral movement, you can use the backstep variation to enter into the saddle or inside position for heel hooks. As you clear the legs to one side, instead of dropping for side control, you step your back leg behind and turn to face their legs. This gives you immediate access to leg attacks while they're dealing with the momentum of the pass. The key is recognizing when the pass to side control is being defended and being willing to shift your objective to the legs instead."
     },
     {
       "question": "What body position should you maintain throughout the Bullfighter Pass to maximize effectiveness?",
-      "answer": "You should maintain a low, athletic stance throughout the pass with your hips back and chest forward. Your base should be wide for stability, and your knees should be bent to allow for explosive lateral movement. Even as you move to the side, your chest should remain facing the opponent, not turning away. When you drop your weight, your hips should drive forward toward the opponent, not fall straight down. This forward pressure is what prevents them from creating space or turning into you. Think of the body position as similar to a wrestler shooting a takedown—low, explosive, and driving forward.",
-      "difficulty": "Beginner"
+      "answer": "You should maintain a low, athletic stance throughout the pass with your hips back and chest forward. Your base should be wide for stability, and your knees should be bent to allow for explosive lateral movement. Even as you move to the side, your chest should remain facing the opponent, not turning away. When you drop your weight, your hips should drive forward toward the opponent, not fall straight down. This forward pressure is what prevents them from creating space or turning into you. Think of the body position as similar to a wrestler shooting a takedown—low, explosive, and driving forward."
     },
     {
       "question": "How do you chain the Bullfighter Pass with other passing sequences?",
-      "answer": "The Bullfighter Pass works best as part of a passing system rather than in isolation. If the opponent defends the initial lateral movement by following with their hips, immediately change direction and pass to the opposite side. If they sit up or square their hips, transition to a Knee Cut or Long Step Pass. If they try to invert, follow them and take the back. If they push off your hips to create distance, step back and reset for another Bullfighter attempt or switch to a stack pass. The key is reading their defensive reaction and having a prepared answer for each one. Elite passers rarely complete the same pass twice in a row—they use the opponent's defensive pattern to set up the follow-up pass.",
-      "difficulty": "Advanced"
+      "answer": "The Bullfighter Pass works best as part of a passing system rather than in isolation. If the opponent defends the initial lateral movement by following with their hips, immediately change direction and pass to the opposite side. If they sit up or square their hips, transition to a Knee Cut or Long Step Pass. If they try to invert, follow them and take the back. If they push off your hips to create distance, step back and reset for another Bullfighter attempt or switch to a stack pass. The key is reading their defensive reaction and having a prepared answer for each one. Elite passers rarely complete the same pass twice in a row—they use the opponent's defensive pattern to set up the follow-up pass."
     }
   ],
   "safety_considerations": "The Bullfighter Pass is generally a safe technique when practiced properly, but practitioners should be aware of several considerations. When throwing the legs to the side, avoid being overly aggressive with smaller or less experienced partners, as this can cause them to twist awkwardly and potentially strain their lower back or hips. Ensure your partner knows to post their hands when you drop your weight to avoid face-planting into the mat. In no-gi, be cautious with ankle grips as they can slip unexpectedly and cause you to lose balance. When drilling at speed, both partners should communicate clearly about resistance levels to prevent accidental knee injuries from sudden directional changes. If you feel your knee twisting during the lateral movement, immediately stop and reset position.",
@@ -309,5 +285,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

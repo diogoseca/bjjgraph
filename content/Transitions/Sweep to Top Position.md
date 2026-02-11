@@ -163,7 +163,7 @@ This transition is strategically valuable because it allows the top player to di
 The sweep works best as a reactive technique triggered by the opponent's aggressive posture recovery. Attempting it against a flat or reclined opponent yields poor results because the necessary momentum vectors are absent. Timing the elevation to coincide with the opponent's upward drive is the critical skill that separates successful execution from wasted effort.
 
 **From Position**: [[Inside Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The sweep works best as a reactive technique triggered by the opponent's aggress
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the trigger**: Identify the moment opponent begins sitting up or driving forward aggressively to address your leg entanglement. Their forward weight commitment is the essential trigger for initiating this sweep. (Timing: Initiate as opponent's shoulders come forward past their hips)
-2. **Post the free hand**: Plant your free hand (opposite side from the trapped leg) firmly on the mat behind your hip with fingers pointing away from opponent. This creates the structural post needed to support your body weight during elevation. (Timing: Simultaneously with recognizing the trigger)
-3. **Load the hips**: Drive your hips upward and forward using the posted hand and your inside leg across opponent's hip as the two base points. Your outside leg maintains the hook behind their knee to prevent them from disengaging during your elevation. (Timing: As opponent's momentum carries them forward)
-4. **Step the posting foot**: Bring your posting-side foot underneath your body and plant it flat on the mat with knee bent at approximately 90 degrees. This foot becomes your primary standing base and must be placed directly under your center of gravity for stability. (Timing: Immediately after hip elevation begins)
-5. **Drive to standing**: Push through the planted foot to drive upward to a full standing position. Maintain your inside leg pressure across opponent's hip throughout this phase to keep them from immediately re-entering guard. Your outside leg can release the knee hook as you reach full height. (Timing: One fluid motion from the hip load)
-6. **Disengage and establish position**: Extract your legs from the entanglement in a controlled sequence: release outside hook first, then withdraw inside leg from across their hip. Step back to create distance while immediately addressing grips to prevent opponent from pulling you back into guard. (Timing: Once standing balance is secure with both feet under hips)
-7. **Secure standing advantage**: Establish dominant grips or frames from standing position. Control opponent's ankles or knees to prevent them from re-establishing guard hooks. Position feet outside their hip width to create passing angles and begin addressing their guard from a top position. (Timing: Within 1-2 seconds of reaching standing)
+1. **Recognize the trigger**: Identify the moment opponent begins sitting up or driving forward aggressively to address your leg entanglement. Their forward weight commitment is the essential trigger for initiating this sweep.
+2. **Post the free hand**: Plant your free hand (opposite side from the trapped leg) firmly on the mat behind your hip with fingers pointing away from opponent. This creates the structural post needed to support your body weight during elevation.
+3. **Load the hips**: Drive your hips upward and forward using the posted hand and your inside leg across opponent's hip as the two base points. Your outside leg maintains the hook behind their knee to prevent them from disengaging during your elevation.
+4. **Step the posting foot**: Bring your posting-side foot underneath your body and plant it flat on the mat with knee bent at approximately 90 degrees. This foot becomes your primary standing base and must be placed directly under your center of gravity for stability.
+5. **Drive to standing**: Push through the planted foot to drive upward to a full standing position. Maintain your inside leg pressure across opponent's hip throughout this phase to keep them from immediately re-entering guard. Your outside leg can release the knee hook as you reach full height.
+6. **Disengage and establish position**: Extract your legs from the entanglement in a controlled sequence: release outside hook first, then withdraw inside leg from across their hip. Step back to create distance while immediately addressing grips to prevent opponent from pulling you back into guard.
+7. **Secure standing advantage**: Establish dominant grips or frames from standing position. Control opponent's ankles or knees to prevent them from re-establishing guard hooks. Position feet outside their hip width to create passing angles and begin addressing their guard from a top position.
 
 
 </section>
@@ -262,19 +262,15 @@ The sweep works best as a reactive technique triggered by the opponent's aggress
 ## Training Progressions
 **Week 1-2** - Elevation mechanics
 Practice the hand post to hip drive to standing sequence without a partner. Focus on the coordination of posting, loading hips, stepping the foot under your body, and driving to standing. Repeat 20 times per side until the movement pattern is smooth and automatic. Add a light resistance band around hips to simulate opponent connection.
-(Resistance: None)
 
 **Week 3-4** - Timing the trigger
 With a cooperative partner in Inside Ashi-Garami, practice recognizing the sit-up trigger and initiating the sweep. Partner sits up on a verbal cue initially, then on their own timing. Focus on matching your elevation to their forward momentum. 10-15 reps per round, 3 rounds per session.
-(Resistance: Light)
 
 **Week 5-6** - Entanglement management and follow-ups
 Partner provides moderate resistance including attempting to re-guard after the sweep. Practice maintaining leg control throughout the elevation and immediately establishing passing grips upon reaching standing. Chain the sweep into toreando or leg drag passing sequences. Work both the sweep and the abort-to-leg-attack option when opponent stays flat.
-(Resistance: Medium)
 
 **Week 7-8** - Decision-making under pressure
 Full positional sparring from Inside Ashi-Garami. Decide in real-time whether to pursue leg attacks or sweep to standing based on opponent's reactions. Partner uses all available counters including pulling flat, grabbing the post arm, and hip escaping. Track success rate and identify which triggers you consistently misread.
-(Resistance: Full)
 
 
 

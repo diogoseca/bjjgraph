@@ -108,9 +108,9 @@
       "description": "Proper frame maintenance during transitions prevents opponent from capitalizing on temporary vulnerabilities created during position changes."
     },
     {
-      "principle_name": "Position Transitions",
+      "principle_name": "Transition Sequences",
       "relationship_type": "Extension",
-      "description": "Position transitions represent the mechanical execution component, while transition management provides the strategic decision-making framework governing when and how to execute those movements."
+      "description": "Transition sequences represent the structured chaining of multiple position changes into coherent progressions, while transition management provides the strategic decision-making framework governing when and how to execute those linked movements."
     },
     {
       "principle_name": "Guard Retention",
@@ -337,9 +337,9 @@
   ],
   "related_content": [
     {
-      "name": "Position Transitions",
+      "name": "Transition Sequences",
       "content_type": "Principle",
-      "relationship": "Closely related concept focusing on mechanical execution of position changes"
+      "relationship": "Focuses on the structured chaining of multiple position changes into coherent linked progressions"
     },
     {
       "name": "Positional Hierarchy",

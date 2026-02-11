@@ -21,37 +21,37 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     {
       "@type": "HowToStep",
       "name": "Execute Meathook to Gogoplata Control",
-      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Meathook to Gogoplata Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crackhead Control to Carni",
-      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Crackhead Control to Carni. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata to Back",
-      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -216,19 +216,23 @@ Competition application requires understanding rule sets and opponent body types
 
 ## Available Escapes
 
-### [[Meathook to Gogoplata Control]] (15% of attempts)
+### [[Meathook to Gogoplata Control]] (12% of attempts)
 
-### [[Triangle Setup]] (18% of attempts)
+### [[Triangle Setup]] (14% of attempts)
 
-### [[Closed Guard to Omoplata]] (16% of attempts)
+### [[Closed Guard to Omoplata]] (12% of attempts)
 
-### [[Crackhead Control to Carni]] (14% of attempts)
+### [[Crackhead Control to Carni]] (11% of attempts)
 
-### [[Armbar from Guard]] (12% of attempts)
+### [[Armbar from Guard]] (9% of attempts)
 
-### [[Omoplata to Back]] (10% of attempts)
+### [[Omoplata to Back]] (8% of attempts)
 
-### [[Crackhead Control to Mission Control]] (15% of attempts)
+### [[Crackhead Control to Mission Control]] (12% of attempts)
+
+### [[Baratoplata Setup]] (11% of attempts)
+
+### [[Tarikoplata Setup]] (11% of attempts)
 
 
 
@@ -384,11 +388,11 @@ Start in Meathook position with partner attempting escapes using full resistance
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 50% | 35% |
-| Intermediate | 60% | 70% | 55% |
-| Advanced     | 75% | 85% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 78% |
+| Submission Probability | 65% |
 
 **Average Time in Position**: 30-45 seconds before transition required due to energy cost
 

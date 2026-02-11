@@ -153,7 +153,7 @@ description: "Learn Crucifix from Turtle in BJJ. Step-by-step execution from Tur
 The Crucifix from Turtle is a sophisticated back attack transition that capitalizes on your opponent's defensive turtle position. This technique involves controlling both of your opponent's arms while establishing back control, creating one of the most dominant positions in Brazilian Jiu-Jitsu. The crucifix offers exceptional control with minimal energy expenditure while presenting multiple submission opportunities including chokes, armbars, and joint locks. The transition requires precise timing and coordination, as you must simultaneously secure arm control while establishing your hooks. This position is particularly valuable in both gi and no-gi competition, as it effectively neutralizes your opponent's defensive capabilities while maximizing your offensive options. The crucifix from turtle represents a fundamental component of modern back attack systems.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -203,12 +203,12 @@ The Crucifix from Turtle is a sophisticated back attack transition that capitali
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish initial arm control**: From turtle top position, secure control of your opponent's near-side arm by grabbing their wrist or triceps with your same-side hand. Drive your chest into their back while using your opposite hand to control their far shoulder or establish a cross-face. This initial control prevents them from posting and creates the foundation for your attack. (Timing: Execute when opponent commits weight forward onto their hands)
-2. **Insert near-side hook**: While maintaining arm control, swing your near-side leg underneath their body and insert your foot as a hook on their near-side hip. Keep your knee tight to their ribs and use this hook to control their hip movement. Your hook should be deep enough to prevent them from sitting back but not so deep that you lose base for the subsequent steps. (Timing: Insert hook as opponent's weight shifts away from near side)
-3. **Swim for far-side arm control**: Release your cross-face and immediately swim your free arm underneath their far armpit, catching their wrist or forearm. Pull this arm across their body toward you while maintaining pressure with your chest. This creates the characteristic crucifix arm trap where both arms are controlled and extended away from their body's centerline. (Timing: Swim for far arm immediately after establishing near hook)
-4. **Thread leg over shoulder**: Carefully bring your far-side leg over their far shoulder, threading it between their head and trapped far arm. Your shin should press against the back of their shoulder while your foot reaches toward their opposite hip. Maintain constant backward pressure to prevent them from pulling their arm free during this critical step. (Timing: Thread leg while pulling their far arm toward you for maximum extension)
-5. **Establish perpendicular angle**: Adjust your body angle to become perpendicular to your opponent's spine, creating a 'T' shape when viewed from above. Your hips should be positioned alongside their ribs with your legs forming the crucifix configuration - one hook controlling the near hip and one leg trapping the far shoulder. This angle maximizes control while minimizing the opponent's escape options. (Timing: Establish angle before opponent can recover defensive posture)
-6. **Consolidate control and attack**: Secure both arms by gripping their wrists or controlling their hands. Your bodyweight should be distributed to prevent rolling while maintaining the perpendicular angle. From here, you can attack with various submissions including the rear naked choke, armbar from crucifix, or wrist locks. Keep your hips heavy and maintain constant tension on both trapped arms throughout your attack sequence. (Timing: Attack submissions once position is fully stabilized)
+1. **Establish initial arm control**: From turtle top position, secure control of your opponent's near-side arm by grabbing their wrist or triceps with your same-side hand. Drive your chest into their back while using your opposite hand to control their far shoulder or establish a cross-face. This initial control prevents them from posting and creates the foundation for your attack.
+2. **Insert near-side hook**: While maintaining arm control, swing your near-side leg underneath their body and insert your foot as a hook on their near-side hip. Keep your knee tight to their ribs and use this hook to control their hip movement. Your hook should be deep enough to prevent them from sitting back but not so deep that you lose base for the subsequent steps.
+3. **Swim for far-side arm control**: Release your cross-face and immediately swim your free arm underneath their far armpit, catching their wrist or forearm. Pull this arm across their body toward you while maintaining pressure with your chest. This creates the characteristic crucifix arm trap where both arms are controlled and extended away from their body's centerline.
+4. **Thread leg over shoulder**: Carefully bring your far-side leg over their far shoulder, threading it between their head and trapped far arm. Your shin should press against the back of their shoulder while your foot reaches toward their opposite hip. Maintain constant backward pressure to prevent them from pulling their arm free during this critical step.
+5. **Establish perpendicular angle**: Adjust your body angle to become perpendicular to your opponent's spine, creating a 'T' shape when viewed from above. Your hips should be positioned alongside their ribs with your legs forming the crucifix configuration - one hook controlling the near hip and one leg trapping the far shoulder. This angle maximizes control while minimizing the opponent's escape options.
+6. **Consolidate control and attack**: Secure both arms by gripping their wrists or controlling their hands. Your bodyweight should be distributed to prevent rolling while maintaining the perpendicular angle. From here, you can attack with various submissions including the rear naked choke, armbar from crucifix, or wrist locks. Keep your hips heavy and maintain constant tension on both trapped arms throughout your attack sequence.
 
 
 </section>
@@ -251,23 +251,18 @@ The Crucifix from Turtle is a sophisticated back attack transition that capitali
 ## Training Progressions
 **Week 1-2: Position Familiarization** - Understanding the basic mechanics and body positioning
 Practice the transition in slow motion with a cooperative partner from static turtle position. Focus on the proper sequence of arm control, hook insertion, and leg threading. Partner should remain stationary to allow you to develop muscle memory for the correct angles and grips.
-(Resistance: None)
 
 **Week 3-4: Dynamic Entry** - Executing the transition with movement and timing
 Partner begins adding small movements in turtle, requiring you to time your entry. Practice catching the position as they shift weight or attempt to stand. Work on maintaining control through their minor defensive movements while establishing the crucifix.
-(Resistance: Light)
 
 **Week 5-8: Counter Defense** - Maintaining position against common escape attempts
 Partner actively attempts to prevent the crucifix using common defenses such as sitting back, rolling forward, or pulling arms free. Learn to recognize and counter each defense while maintaining progression toward the crucifix position.
-(Resistance: Medium)
 
 **Week 9-12: Submission Integration** - Attacking from established crucifix position
 Once crucifix control is established, practice transitioning to various submissions including rear naked choke, armbar, and wrist locks. Learn to maintain position stability while executing submissions and recover position if submission attempts fail.
-(Resistance: Medium)
 
 **Month 4+: Live Training** - Application against fully resisting opponents
 Implement the crucifix from turtle in live rolling scenarios. Start from turtle position with specific goal of achieving crucifix. Partner uses full resistance and all available escapes. Focus on timing, efficiency, and capitalizing on opponent's defensive reactions.
-(Resistance: Full)
 
 
 

@@ -165,7 +165,7 @@ description: "Learn Omoplata to Back transition in BJJ. Step-by-step execution f
 The Omoplata to Back transition represents one of the most sophisticated and high-percentage follow-ups when an opponent defends the omoplata shoulder lock by rolling forward. This technical sequence exploits the opponent's defensive response to escape the submission, transforming their escape attempt into a direct path to back control. The transition requires precise timing and spatial awareness, as the practitioner must recognize the moment when their opponent commits to the forward roll and immediately adjust their position to maintain connection while establishing back control hooks. This transition is particularly effective in both gi and no-gi contexts, though the gi provides additional control options through lapel grips. The beauty of this technique lies in its seamless flow from submission attempt to dominant position, exemplifying the fundamental BJJ principle of chaining attacks together to create dilemmas for the opponent. When executed properly, the defender finds themselves transitioning from defending a shoulder lock directly into one of the most dominant control positions in grappling, with the attacker already positioned to threaten the rear naked choke.
 
 **From Position**: [[Omoplata Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -214,14 +214,14 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the roll**: As opponent attempts to escape the omoplata by rolling forward over their trapped shoulder, identify this defensive movement early. Your opponent will begin tucking their head and driving their weight forward in a forward roll motion. This is your trigger to begin the transition rather than insisting on the shoulder lock finish. (Timing: Immediate recognition as opponent initiates forward movement)
-2. **Maintain shoulder connection**: As opponent begins rolling, keep your outside leg (the leg over their shoulder) tightly connected to their shoulder girdle. Your hip should remain glued to the back of their shoulder as they roll. This connection is critical - if you lose it, the transition will fail. Use your leg to ride their shoulder through the rolling motion. (Timing: Throughout the opponent's roll)
-3. **Follow the roll dynamically**: Allow your body to follow the momentum of opponent's forward roll while maintaining the shoulder connection. Your torso will naturally rotate as they roll forward. Keep your weight committed to staying with them rather than trying to hold your original position. Your body should flow with their movement like you're attached to their shoulder. (Timing: Continuous movement with opponent)
-4. **Establish first hook**: As opponent completes their roll and their hips pass through the rotation, immediately insert your inside leg (the leg that was previously controlling their hip from the omoplata) as your first hook. Thread this leg across their near hip, hooking your instep behind their thigh. This hook should be established the moment their hips are accessible during the roll. (Timing: As opponent's hips pass midpoint of roll)
-5. **Secure seatbelt control**: While establishing your first hook, immediately secure a seatbelt grip (one arm over shoulder, one arm under armpit). Your top arm should come over their far shoulder while your bottom arm threads under their near armpit. Lock your hands together in a strong grip, typically using an S-grip or gable grip. This control prevents them from turning into you and escaping. (Timing: Simultaneously with first hook insertion)
-6. **Chest to back connection**: Bring your chest tight to opponent's back, eliminating any space between your torso and theirs. Your head should be positioned to the side of theirs, typically on the same side as your choking arm. This close connection makes it extremely difficult for them to shake you off or defend the position effectively. (Timing: Immediately after seatbelt is secured)
-7. **Insert second hook**: With your first hook and seatbelt established, work to insert your second hook (the leg that was originally over their shoulder). This leg threads across their far hip, with your instep hooking behind their opposite thigh. Both hooks should now be engaged, with your heels pulling toward their centerline to break their base and control their hips completely. (Timing: After chest-to-back connection is secure)
-8. **Consolidate back control**: With both hooks in and seatbelt secured, adjust your position for maximum control. Your hooks should be deep, pulling opponent's legs apart and controlling their hip movement. Your seatbelt should be tight, with your choking arm positioned high across their collarbone. From here, you can begin attacking with the rear naked choke or other back attacks. Maintain constant pressure and connection to prevent any escape attempts. (Timing: Final position consolidation)
+1. **Recognize the roll**: As opponent attempts to escape the omoplata by rolling forward over their trapped shoulder, identify this defensive movement early. Your opponent will begin tucking their head and driving their weight forward in a forward roll motion. This is your trigger to begin the transition rather than insisting on the shoulder lock finish.
+2. **Maintain shoulder connection**: As opponent begins rolling, keep your outside leg (the leg over their shoulder) tightly connected to their shoulder girdle. Your hip should remain glued to the back of their shoulder as they roll. This connection is critical - if you lose it, the transition will fail. Use your leg to ride their shoulder through the rolling motion.
+3. **Follow the roll dynamically**: Allow your body to follow the momentum of opponent's forward roll while maintaining the shoulder connection. Your torso will naturally rotate as they roll forward. Keep your weight committed to staying with them rather than trying to hold your original position. Your body should flow with their movement like you're attached to their shoulder.
+4. **Establish first hook**: As opponent completes their roll and their hips pass through the rotation, immediately insert your inside leg (the leg that was previously controlling their hip from the omoplata) as your first hook. Thread this leg across their near hip, hooking your instep behind their thigh. This hook should be established the moment their hips are accessible during the roll.
+5. **Secure seatbelt control**: While establishing your first hook, immediately secure a seatbelt grip (one arm over shoulder, one arm under armpit). Your top arm should come over their far shoulder while your bottom arm threads under their near armpit. Lock your hands together in a strong grip, typically using an S-grip or gable grip. This control prevents them from turning into you and escaping.
+6. **Chest to back connection**: Bring your chest tight to opponent's back, eliminating any space between your torso and theirs. Your head should be positioned to the side of theirs, typically on the same side as your choking arm. This close connection makes it extremely difficult for them to shake you off or defend the position effectively.
+7. **Insert second hook**: With your first hook and seatbelt established, work to insert your second hook (the leg that was originally over their shoulder). This leg threads across their far hip, with your instep hooking behind their opposite thigh. Both hooks should now be engaged, with your heels pulling toward their centerline to break their base and control their hips completely.
+8. **Consolidate back control**: With both hooks in and seatbelt secured, adjust your position for maximum control. Your hooks should be deep, pulling opponent's legs apart and controlling their hip movement. Your seatbelt should be tight, with your choking arm positioned high across their collarbone. From here, you can begin attacking with the rear naked choke or other back attacks. Maintain constant pressure and connection to prevent any escape attempts.
 
 
 </section>
@@ -267,27 +267,21 @@ The Omoplata to Back transition represents one of the most sophisticated and hig
 ## Training Progressions
 **Phase 1: Movement Familiarization (Weeks 1-2)** - Understanding the rolling motion and maintaining connection
 Practice the forward roll motion slowly with a fully cooperative partner who rolls at 50% speed. Focus exclusively on maintaining shoulder connection throughout the roll without worrying about hooks or grips. Drill just following the roll 20-30 repetitions per session until the movement pattern feels natural.
-(Resistance: None)
 
 **Phase 2: Hook Insertion Timing (Weeks 3-4)** - Adding first hook at correct moment during roll
 Continue cooperative rolling but now add the element of inserting the first hook at the proper timing. Partner rolls at 60-70% speed. Practice identifying the exact moment when their hips pass and threading your inside leg for the hook. Repeat 15-20 times focusing on smooth hook insertion without fumbling.
-(Resistance: Light)
 
 **Phase 3: Complete Sequence Integration (Weeks 5-6)** - Full technique from omoplata through back control consolidation
 Drill the entire sequence from established omoplata position through to full back control with both hooks and seatbelt. Partner rolls at 75% speed with light resistance to turning. Complete 10-15 successful repetitions per session, focusing on smooth transitions between each phase of the technique.
-(Resistance: Light)
 
 **Phase 4: Defensive Counters (Weeks 7-8)** - Dealing with common defensive reactions
 Partner begins adding realistic defensive movements: explosive rolling, attempting to turn into you, grabbing legs, etc. Practice at 80-85% intensity, working through each counter methodically. Goal is 8-10 successful completions against progressive resistance levels.
-(Resistance: Medium)
 
 **Phase 5: Positional Sparring (Weeks 9-12)** - Live application from omoplata position
 Start all positional rounds from established omoplata. Opponent may roll forward or defend in other ways. Practice reading their response and executing the back take when they roll, or pursuing alternative attacks if they defend differently. 5-minute rounds at 90% intensity.
-(Resistance: Medium)
 
 **Phase 6: Full Integration (Ongoing)** - Incorporating into open rolling and competition
 Use the technique during regular sparring sessions whenever the opportunity presents. Focus on setting up the omoplata specifically to create the back take opportunity. Track success rate and identify why attempts fail to continue refinement. Film rolls periodically to review technique execution.
-(Resistance: Full)
 
 
 

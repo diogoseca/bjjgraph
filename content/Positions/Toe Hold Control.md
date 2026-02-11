@@ -170,7 +170,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 - **[[Toe Hold]]** (17% of attempts)
 
-- **[[Outside Ashi Entry]]** (18% of attempts)
+- **[[Outside Ashi Entry]]** (19% of attempts)
 
 - **[[Inside Ashi Entry]]** (17% of attempts)
 
@@ -178,7 +178,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 - **[[Straight Ankle Lock]]** (17% of attempts)
 
-- **[[Kneebar from Top]]** (15% of attempts)
+- **[[Kneebar from Top]]** (14% of attempts)
 
 
 ### Common Mistakes

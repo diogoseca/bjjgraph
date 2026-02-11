@@ -157,7 +157,7 @@ The strategic importance of this transition lies in recovering a neutral or adva
 Timing is paramount for this technique. The optimal window occurs when your opponent is adjusting grips or transitioning between submission attempts, creating momentary lapses in leg control. Executing during these windows dramatically increases success rates across all skill levels. Conversely, attempting extraction against deep, consolidated control typically results in either failed escape or submission finish during the extraction attempt.
 
 **From Position**: [[Ushiro Ashi-Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect heel**: Immediately establish dorsiflexion on your trapped foot, pulling toes toward shin to tighten heel protection. This position must be maintained throughout the entire extraction sequence. (Timing: Continuous throughout technique)
-2. **Control inside knee**: Place your near-side hand on opponent's inside knee, gripping firmly to prevent them from stepping through to saddle or deepening the entanglement. Your hand acts as a frame blocking their leg advancement. (Timing: Immediately after heel protection established)
-3. **Push opponent's hips**: Use your free leg to push firmly against opponent's hip or thigh, creating distance between your hips and their controlling legs. The push direction should be diagonally away, not directly back. (Timing: Simultaneous with inside knee control)
-4. **Clear outside leg**: While maintaining the hip push, pull your trapped knee toward your chest and angle it outward to slip past opponent's outside leg. The movement is circular, not linear, avoiding direct conflict with their grip. (Timing: As soon as space is created)
-5. **Extract from inside control**: Once outside leg is cleared, continue pulling your leg toward your body while pushing opponent away. Rotate your knee toward the ceiling to clear the inside leg's control, using the space created by your hip frame. (Timing: Immediately following outside leg clearance)
-6. **Establish guard**: As your leg clears completely, immediately establish guard position by placing feet on opponent's hips for open guard, or close your guard if proximity allows. Do not pause between extraction and guard establishment. (Timing: Without delay after full leg extraction)
+1. **Protect heel**: Immediately establish dorsiflexion on your trapped foot, pulling toes toward shin to tighten heel protection. This position must be maintained throughout the entire extraction sequence.
+2. **Control inside knee**: Place your near-side hand on opponent's inside knee, gripping firmly to prevent them from stepping through to saddle or deepening the entanglement. Your hand acts as a frame blocking their leg advancement.
+3. **Push opponent's hips**: Use your free leg to push firmly against opponent's hip or thigh, creating distance between your hips and their controlling legs. The push direction should be diagonally away, not directly back.
+4. **Clear outside leg**: While maintaining the hip push, pull your trapped knee toward your chest and angle it outward to slip past opponent's outside leg. The movement is circular, not linear, avoiding direct conflict with their grip.
+5. **Extract from inside control**: Once outside leg is cleared, continue pulling your leg toward your body while pushing opponent away. Rotate your knee toward the ceiling to clear the inside leg's control, using the space created by your hip frame.
+6. **Establish guard**: As your leg clears completely, immediately establish guard position by placing feet on opponent's hips for open guard, or close your guard if proximity allows. Do not pause between extraction and guard establishment.
 
 
 </section>
@@ -254,19 +254,15 @@ Timing is paramount for this technique. The optimal window occurs when your oppo
 ## Training Progressions
 **Week 1-2** - Mechanics and heel protection
 Practice extraction movement pattern with compliant partner. Focus on maintaining dorsiflexion throughout, proper hand placement on inside knee, and circular leg clearing path. Partner provides position but no resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing and grip fighting
 Partner provides light resistance and attempts to maintain entanglement. Practice identifying extraction windows during opponent's grip changes. Develop sensitivity for shallow versus deep control recognition.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to counter extraction with saddle transitions and heel hook attempts. Practice aborting extraction when countered and transitioning to alternative escapes. Chain with turtle recovery when necessary.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from ushiro ashi-garami. Apply extraction in realistic scramble scenarios with opponent working submissions. Develop decision-making for when extraction is viable versus accepting alternative positions.
-(Resistance: Full)
 
 
 

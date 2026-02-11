@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kimura from Mount is a fundamental shoulder lock attack that exploits the mechanical vulnerability of an isolated arm when the attacker controls from the mount position. This technique targets the shoulder joint through external rotation while preventing the opponent from straightening their arm or creating defensive frames. The attack creates a dilemma where defending the Kimura typically opens opportunities for armbar transitions or back takes.\n\nStrategically, the Kimura from Mount functions as both a submission threat and a positional control tool. When opponents defend by gripping their belt or pants, the Kimura grip becomes a powerful control mechanism that can facilitate transitions to technical mount, back control, or other submission setups. The asymmetric nature of the attack—requiring you to move off-center to apply the lock—demands careful base management to prevent reversals during execution.\n\nThe technique requires precise sequencing: isolate the target arm, establish the figure-four grip, dismount to the correct side, pin the elbow to your hip, and apply rotational pressure while maintaining chest contact on the opponent's torso. Understanding when to commit to the finish versus using the grip for positional advancement separates competent practitioners from those who telegraph and lose position during the attempt.",
   "key_principles": [
     "Isolate the target arm before committing to the attack—never reach for a Kimura grip on a free-moving arm",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Isolate the arm",
-      "description": "From mount, identify the target arm—typically the one pushing against your chest or hip. Use your same-side hand to control their wrist, pinning it to your chest or the mat beside their head. Shift your weight toward that side.",
-      "timing": "When opponent pushes or frames"
+      "description": "From mount, identify the target arm—typically the one pushing against your chest or hip. Use your same-side hand to control their wrist, pinning it to your chest or the mat beside their head. Shift your weight toward that side."
     },
     {
       "step_number": 2,
       "action": "Establish figure-four grip",
-      "description": "Thread your opposite arm under their tricep from the outside, reaching to grip your own wrist that is controlling their hand. Your palm faces down on your wrist. This figure-four configuration locks their arm in a bent position.",
-      "timing": "Immediately after wrist control"
+      "description": "Thread your opposite arm under their tricep from the outside, reaching to grip your own wrist that is controlling their hand. Your palm faces down on your wrist. This figure-four configuration locks their arm in a bent position."
     },
     {
       "step_number": 3,
       "action": "Dismount and transition",
-      "description": "Step your leg on the Kimura side over their head, dismounting to the side while keeping your chest heavy on their shoulder and ribcage. Your knee should land near their ear, and your other leg maintains hip control or posts for base.",
-      "timing": "In one smooth motion with the grip"
+      "description": "Step your leg on the Kimura side over their head, dismounting to the side while keeping your chest heavy on their shoulder and ribcage. Your knee should land near their ear, and your other leg maintains hip control or posts for base."
     },
     {
       "step_number": 4,
       "action": "Pin elbow to hip",
-      "description": "Draw their elbow tight against your hip bone using the figure-four grip. This creates the fulcrum point for the shoulder lock. Keep their upper arm perpendicular to their body, not allowed to straighten or drift toward their hip.",
-      "timing": "Before applying rotation"
+      "description": "Draw their elbow tight against your hip bone using the figure-four grip. This creates the fulcrum point for the shoulder lock. Keep their upper arm perpendicular to their body, not allowed to straighten or drift toward their hip."
     },
     {
       "step_number": 5,
       "action": "Maintain chest pressure",
-      "description": "Drop your chest weight onto their shoulder and upper torso, flattening them to the mat and preventing them from sitting up or creating rotation. Your head stays tight to their shoulder, face toward their hips.",
-      "timing": "Continuous throughout finish"
+      "description": "Drop your chest weight onto their shoulder and upper torso, flattening them to the mat and preventing them from sitting up or creating rotation. Your head stays tight to their shoulder, face toward their hips."
     },
     {
       "step_number": 6,
       "action": "Apply rotational pressure",
-      "description": "With the elbow pinned and chest heavy, rotate their hand toward their hip in an arc while keeping their elbow stationary against your hip. The pressure comes from external rotation of the shoulder joint, not from lifting. Apply steady pressure until they tap.",
-      "timing": "Controlled and steady"
+      "description": "With the elbow pinned and chest heavy, rotate their hand toward their hip in an arc while keeping their elbow stationary against your hip. The pressure comes from external rotation of the shoulder joint, not from lifting. Apply steady pressure until they tap."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice the figure-four grip configuration statically, focusing on wrist-on-wrist placement, palm orientation, and the feeling of a secure lock. Drill the grip entry sequence from mount with a compliant partner, emphasizing arm isolation before grip establishment.",
-      "resistance_level": "None"
+      "description": "Practice the figure-four grip configuration statically, focusing on wrist-on-wrist placement, palm orientation, and the feeling of a secure lock. Drill the grip entry sequence from mount with a compliant partner, emphasizing arm isolation before grip establishment."
     },
     {
       "phase": "Week 3-4",
       "focus": "Dismount and positioning",
-      "description": "Add the dismount sequence, practicing stepping over the head smoothly while maintaining the grip and chest pressure. Focus on where your knees land, keeping weight distributed properly, and pinning the elbow to your hip before any finishing pressure.",
-      "resistance_level": "Light"
+      "description": "Add the dismount sequence, practicing stepping over the head smoothly while maintaining the grip and chest pressure. Focus on where your knees land, keeping weight distributed properly, and pinning the elbow to your hip before any finishing pressure."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks",
-      "description": "Introduce common defensive reactions and your responses: armbar transition when they straighten, back take when they turn, and grip maintenance when they grip their belt. Drill the decision tree based on opponent response at medium resistance.",
-      "resistance_level": "Medium"
+      "description": "Introduce common defensive reactions and your responses: armbar transition when they straighten, back take when they turn, and grip maintenance when they grip their belt. Drill the decision tree based on opponent response at medium resistance."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply the Kimura from Mount in positional sparring starting from mount. Focus on recognizing when the arm becomes available, timing the attack during opponent's escape attempts, and committing fully to either the finish or the transition based on their defense.",
-      "resistance_level": "Full"
+      "description": "Apply the Kimura from Mount in positional sparring starting from mount. Focus on recognizing when the arm becomes available, timing the attack during opponent's escape attempts, and committing fully to either the finish or the transition based on their defense."
     }
   ],
   "variants_and_adaptations": [
@@ -183,43 +168,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Kimura from Mount?",
-      "answer": "The primary goal is to apply a shoulder lock (external rotation of the shoulder joint) by isolating the opponent's arm in a bent position, establishing a figure-four grip, and creating rotational pressure while keeping their elbow pinned as a fulcrum point. The attack also serves as a positional control tool that can facilitate transitions to back control or armbar when defended.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to apply a shoulder lock (external rotation of the shoulder joint) by isolating the opponent's arm in a bent position, establishing a figure-four grip, and creating rotational pressure while keeping their elbow pinned as a fulcrum point. The attack also serves as a positional control tool that can facilitate transitions to back control or armbar when defended."
     },
     {
       "question": "What position do you start Kimura from Mount from?",
-      "answer": "This technique starts from Mount/Top position, with your hips heavy on the opponent's torso and secure base established. The 3-4 Mount variation is particularly effective as the asymmetric positioning facilitates the dismount and weight shift required for the Kimura attack.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Mount/Top position, with your hips heavy on the opponent's torso and secure base established. The 3-4 Mount variation is particularly effective as the asymmetric positioning facilitates the dismount and weight shift required for the Kimura attack."
     },
     {
       "question": "What are the key grips needed for Kimura from Mount?",
-      "answer": "The Kimura requires a figure-four grip: your same-side hand controls their wrist with palm facing down, while your opposite hand threads under their tricep from the outside and grips your own wrist. This interlocking configuration prevents them from straightening their arm and provides the leverage system for the shoulder lock.",
-      "difficulty": "Beginner"
+      "answer": "The Kimura requires a figure-four grip: your same-side hand controls their wrist with palm facing down, while your opposite hand threads under their tricep from the outside and grips your own wrist. This interlocking configuration prevents them from straightening their arm and provides the leverage system for the shoulder lock."
     },
     {
       "question": "Your opponent straightens their arm when you attempt the Kimura grip. How do you adjust?",
-      "answer": "When they straighten the arm, immediately transition to a straight armbar. The extended arm is now vulnerable—pivot your hips toward their head, swing your leg over their face, fall back while controlling their wrist, and apply the armlock. Their defensive response to one attack has created vulnerability to another.",
-      "difficulty": "Intermediate"
+      "answer": "When they straighten the arm, immediately transition to a straight armbar. The extended arm is now vulnerable—pivot your hips toward their head, swing your leg over their face, fall back while controlling their wrist, and apply the armlock. Their defensive response to one attack has created vulnerability to another."
     },
     {
       "question": "When is the optimal timing window to attack the Kimura from Mount?",
-      "answer": "The optimal timing is when the opponent pushes against your chest, hips, or creates a frame to escape mount. Their arm becomes isolated from their body during this defensive action. Also attack when they attempt to bridge—their arm often posts or extends, creating the isolation needed. Never attack while they are completely flat and defensive with elbows tight to their body.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent pushes against your chest, hips, or creates a frame to escape mount. Their arm becomes isolated from their body during this defensive action. Also attack when they attempt to bridge—their arm often posts or extends, creating the isolation needed. Never attack while they are completely flat and defensive with elbows tight to their body."
     },
     {
       "question": "What is the most critical mechanical detail for finishing the Kimura?",
-      "answer": "Pinning their elbow to your hip bone before applying rotational pressure is the most critical detail. Without the elbow fixed as a fulcrum, there is no leverage on the shoulder joint—the arm simply moves through space without creating submission pressure. The elbow-to-hip connection creates the stationary point around which the shoulder must rotate.",
-      "difficulty": "Intermediate"
+      "answer": "Pinning their elbow to your hip bone before applying rotational pressure is the most critical detail. Without the elbow fixed as a fulcrum, there is no leverage on the shoulder joint—the arm simply moves through space without creating submission pressure. The elbow-to-hip connection creates the stationary point around which the shoulder must rotate."
     },
     {
       "question": "Your opponent grabs their belt to defend the Kimura. What is your response?",
-      "answer": "Use the Kimura grip as a control handle rather than fighting the grip. Options include: transitioning to technical mount by walking your legs around while maintaining the grip; taking the back when they turn to hide the arm; attacking the far arm with your free hand while keeping the Kimura grip; or simply maintaining the grip as a dominant control position that exhausts their arms until they release.",
-      "difficulty": "Advanced"
+      "answer": "Use the Kimura grip as a control handle rather than fighting the grip. Options include: transitioning to technical mount by walking your legs around while maintaining the grip; taking the back when they turn to hide the arm; attacking the far arm with your free hand while keeping the Kimura grip; or simply maintaining the grip as a dominant control position that exhausts their arms until they release."
     },
     {
       "question": "How does the direction of force in the Kimura differ from simply lifting the hand?",
-      "answer": "The Kimura applies force through external rotation of the shoulder—moving the hand in an arc toward their hip while the elbow stays pinned, like a windshield wiper motion. Lifting upward allows them to roll with the pressure and creates space. The rotational force with pinned elbow attacks the shoulder's mechanical limits rather than simply creating displacement the opponent can absorb.",
-      "difficulty": "Advanced"
+      "answer": "The Kimura applies force through external rotation of the shoulder—moving the hand in an arc toward their hip while the elbow stays pinned, like a windshield wiper motion. Lifting upward allows them to roll with the pressure and creates space. The rotational force with pinned elbow attacks the shoulder's mechanical limits rather than simply creating displacement the opponent can absorb."
     }
   ],
   "safety_considerations": "The Kimura attacks the shoulder joint through external rotation, which can cause serious injury including rotator cuff tears, shoulder dislocation, and ligament damage if applied too quickly or if the opponent fails to tap. Always apply pressure gradually and steadily, never with jerking or explosive force. When drilling, communicate clearly with your training partner and release immediately upon tap. Be aware that some practitioners have limited shoulder mobility due to previous injuries—ask training partners about any shoulder issues before drilling. In live sparring, give your opponent time to recognize the submission and tap; do not crank through resistance. If your opponent refuses to tap, maintain the position and call for a referee or instructor rather than causing injury. Never apply finishing pressure during drilling without your partner's explicit consent.",
@@ -261,5 +238,6 @@
       "name": "Half Guard",
       "relationship": "Counter outcome - where opponent may end up if they successfully escape during the attack"
     }
-  ]
+  ],
+  "success_rate": 58
 }

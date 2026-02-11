@@ -334,11 +334,11 @@ Start from X-Guard top with hooks already weakened. Practice smooth transitions 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 20% |
-| Intermediate | 65% | 60% | 35% |
-| Advanced     | 80% | 75% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds depending on skill differential and grip fighting success
 

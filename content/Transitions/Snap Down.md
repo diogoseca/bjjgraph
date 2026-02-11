@@ -153,7 +153,7 @@ description: "Master the Snap Down in BJJ. Control opponent's posture from stand
 The Snap Down is a fundamental wrestling-based technique that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's upright posture by rapidly pulling their head and upper body downward, forcing them into a compromised position. The Snap Down creates immediate offensive opportunities, allowing you to transition into dominant positions like front headlock control, back takes, or submission attacks. The effectiveness of the snap down lies in its simplicity and timing - when executed properly, it combines grip control, body positioning, and explosive downward force to break your opponent's base and posture. This technique is particularly valuable because it works across all skill levels and can be chained with numerous follow-up attacks, making it a cornerstone of standing grappling exchanges in BJJ.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Snap Down is a fundamental wrestling-based technique that has become essenti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish collar tie control**: Secure a strong collar tie with your lead hand on the back of opponent's neck, fingers interlaced behind their skull. Your grip should be firm but not overly tight, positioned where neck meets skull for maximum control. Simultaneously control their opposite wrist or tricep with your other hand. (Timing: Initial engagement phase)
-2. **Create angle and load hips**: Step slightly off-center to opponent's lead side while lowering your center of gravity. Bend your knees deeply and load your hips backward, creating stored energy like a compressed spring. Your posture should be athletic with chest up and back straight. (Timing: Setup phase)
-3. **Generate upward pull**: Pull opponent's head upward slightly with your collar tie, causing them to extend their neck and rise onto their toes momentarily. This creates the illusion you're attempting to control them in the clinch, causing them to resist by pulling back or driving forward. (Timing: Feint to create reaction)
-4. **Execute explosive snap**: Violently extend your hips forward while simultaneously pulling their head downward with maximum force. Your collar tie hand drives their forehead toward the mat while your grip on their arm prevents them from posting. The power comes from hip extension combined with arm pull, not just arm strength alone. (Timing: Explosive execution - 0.5 seconds)
-5. **Circle to front headlock**: As opponent's head descends, immediately circle your body to their side while maintaining head control. Your collar tie transitions into a front headlock grip, with your arm wrapped around their neck and your chest driving pressure onto their upper back. Your hips should move faster than their recovery. (Timing: Immediate transition)
-6. **Secure dominant position**: Establish front headlock control by clasping your hands in a gable grip or rear naked choke grip around opponent's neck. Drive your chest weight onto their shoulders while sprawling your hips back. From here, you can attack with guillotine chokes, take the back, or continue advancing position. (Timing: Position consolidation)
+1. **Establish collar tie control**: Secure a strong collar tie with your lead hand on the back of opponent's neck, fingers interlaced behind their skull. Your grip should be firm but not overly tight, positioned where neck meets skull for maximum control. Simultaneously control their opposite wrist or tricep with your other hand.
+2. **Create angle and load hips**: Step slightly off-center to opponent's lead side while lowering your center of gravity. Bend your knees deeply and load your hips backward, creating stored energy like a compressed spring. Your posture should be athletic with chest up and back straight.
+3. **Generate upward pull**: Pull opponent's head upward slightly with your collar tie, causing them to extend their neck and rise onto their toes momentarily. This creates the illusion you're attempting to control them in the clinch, causing them to resist by pulling back or driving forward.
+4. **Execute explosive snap**: Violently extend your hips forward while simultaneously pulling their head downward with maximum force. Your collar tie hand drives their forehead toward the mat while your grip on their arm prevents them from posting. The power comes from hip extension combined with arm pull, not just arm strength alone.
+5. **Circle to front headlock**: As opponent's head descends, immediately circle your body to their side while maintaining head control. Your collar tie transitions into a front headlock grip, with your arm wrapped around their neck and your chest driving pressure onto their upper back. Your hips should move faster than their recovery.
+6. **Secure dominant position**: Establish front headlock control by clasping your hands in a gable grip or rear naked choke grip around opponent's neck. Drive your chest weight onto their shoulders while sprawling your hips back. From here, you can attack with guillotine chokes, take the back, or continue advancing position.
 
 
 </section>
@@ -253,23 +253,18 @@ The Snap Down is a fundamental wrestling-based technique that has become essenti
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip establishment and basic snapping motion
 Partner stands stationary while you practice establishing collar tie, creating angle, and executing snap motion. Focus on hip engagement and proper body mechanics without resistance. Drill 20 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4: Dynamic Drilling** - Adding movement and timing windows
 Partner moves around in fighting stance while hand fighting. Execute snap when they push forward or extend their posture. Partner provides light resistance but allows successful completion. Emphasize timing recognition over force.
-(Resistance: Light)
 
 **Week 5-8: Reactive Training** - Countering opponent reactions and chaining techniques
 Partner provides medium resistance and attempts basic counters like sprawling or circling away. Practice transitioning to front headlock variations, guillotines, and back takes based on their defensive response. Integrate into positional sparring.
-(Resistance: Medium)
 
 **Week 9-12: Competition Integration** - Full resistance with strategic implementation
 Use snap down in live standing exchanges during regular sparring. Partner resists fully and attempts to counter. Focus on setting up snap with feints, grip fighting strategies, and recognizing optimal timing windows. Track success rate and adjust technique.
-(Resistance: Full)
 
 **Advanced Phase: System Integration** - Multi-attack combinations and strategic planning
 Develop personal snap down system including setups, primary attacks, and backup options. Study opponent tendencies to predict reactions. Use snap down as part of broader takedown strategy including shots, throws, and trips.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ The technique capitalizes on the stability provided by the body triangle, which 
 Strategically, the Short Choke fits into a systematic back attack game where you cycle between RNC attempts and collar chokes based on the opponent's defensive reactions. When they defend one attack, it often opens the other. The Short Choke is particularly effective in gi competition where collar access is readily available, and it requires less physical exertion than fighting for the deep RNC position. Elite practitioners use this choke as part of a continuous threat cycle that eventually overwhelms the defender's ability to protect all attack vectors simultaneously.
 
 **From Position**: [[Body Triangle/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the Short Choke fits into a systematic back attack game where you
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure collar grip**: With your top arm (over-shoulder arm in seatbelt), reach across opponent's neck and grip their collar as deep as possible behind their neck, thumb inside the collar, palm facing down toward the mat (Timing: When opponent defends RNC by tucking chin or fighting your arm)
-2. **Position forearm blade**: Rotate your wrist so your forearm blade (the bony edge of your forearm near the wrist) is positioned across the side of opponent's neck, targeting the carotid artery rather than the windpipe (Timing: Immediately after establishing grip)
-3. **Control defending hand**: Use your non-choking hand to trap opponent's hand that's defending their neck by controlling their wrist or pinning it to their body, preventing them from inserting fingers to relieve pressure (Timing: As you begin applying pressure)
-4. **Tighten body triangle**: Increase squeeze pressure with your body triangle to restrict their breathing and core movement, creating multiple pressure points that compound the choke's effectiveness and prevent escape (Timing: Concurrent with upper body attack)
-5. **Pull elbow down**: Drive your choking elbow down toward your hip in a circular motion while keeping the grip locked deep in the collar, this pulls the collar tighter and increases forearm pressure on the neck (Timing: Primary finishing mechanic)
-6. **Expand and finish**: Arch your back slightly and expand your chest while continuing the downward elbow pressure, creating a pincer effect between your forearm and the collar that cuts off blood flow to the brain (Timing: Final 2-3 seconds to completion)
+1. **Secure collar grip**: With your top arm (over-shoulder arm in seatbelt), reach across opponent's neck and grip their collar as deep as possible behind their neck, thumb inside the collar, palm facing down toward the mat
+2. **Position forearm blade**: Rotate your wrist so your forearm blade (the bony edge of your forearm near the wrist) is positioned across the side of opponent's neck, targeting the carotid artery rather than the windpipe
+3. **Control defending hand**: Use your non-choking hand to trap opponent's hand that's defending their neck by controlling their wrist or pinning it to their body, preventing them from inserting fingers to relieve pressure
+4. **Tighten body triangle**: Increase squeeze pressure with your body triangle to restrict their breathing and core movement, creating multiple pressure points that compound the choke's effectiveness and prevent escape
+5. **Pull elbow down**: Drive your choking elbow down toward your hip in a circular motion while keeping the grip locked deep in the collar, this pulls the collar tighter and increases forearm pressure on the neck
+6. **Expand and finish**: Arch your back slightly and expand your chest while continuing the downward elbow pressure, creating a pincer effect between your forearm and the collar that cuts off blood flow to the brain
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, the Short Choke fits into a systematic back attack game where you
 ## Training Progressions
 **Week 1-2** - Grip mechanics and placement
 Practice collar grip depth and forearm blade positioning on non-resisting partner. Focus on finding the correct angle across the carotid rather than windpipe. Drill the elbow-to-hip motion without resistance to develop muscle memory for the finishing mechanic.
-(Resistance: None)
 
 **Week 3-4** - Integration with body triangle
 Combine Short Choke with body triangle control against light resistance. Partner defends passively while you work on maintaining squeeze pressure during upper body attack. Learn to coordinate leg and arm pressure simultaneously.
-(Resistance: Light)
 
 **Week 5-6** - Counter-offense transitions
 Partner actively defends using common counters. Practice transitioning between Short Choke, RNC attempts, and armbar when they expose arms. Develop ability to read defensive reactions and attack appropriate openings.
-(Resistance: Medium)
 
 **Week 7+** - Live sparring application
 Apply Short Choke in live rolling starting from back control. Work on hitting the technique against fully resisting opponents, recognizing when RNC defense creates Short Choke opportunity, and maintaining composure under competitive pressure.
-(Resistance: Full)
 
 
 

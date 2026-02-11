@@ -157,7 +157,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Standing Position]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -236,12 +236,12 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish wrist control and arm isolation**: From your starting position (standing, front headlock, or scramble), secure a firm grip on your opponent's wrist with one hand. Simultaneously use your other arm to trap their elbow or upper arm. This two-point control prevents them from straightening the arm or pulling it away. Your grip should be strong but not death-gripping—you need to be able to transition to the reverse Kimura grip smoothly. Position yourself so that your opponent's arm is somewhat bent and vulnerable to rotational attack. (Timing: Initial control phase, 1-2 seconds) [Pressure: Moderate]
-2. **Thread arm through for reverse grip**: Thread your controlling arm through the space between your opponent's arm and their body, positioning your hand to grab your own wrist on the opposite side of their arm. This creates the reverse figure-four configuration. The key difference from standard Kimura is that your grabbing hand reaches in front of their arm rather than behind it. This grip reversal changes the leverage angle and often provides tighter control. Ensure the grip is deep and secure before proceeding—a shallow grip will slip under pressure. (Timing: Grip transition, 1-2 seconds) [Pressure: Moderate]
-3. **Establish body position and angle**: With the reverse Kimura grip secured, adjust your body position to create the optimal angle for shoulder rotation. If standing, maintain a strong base with your weight distributed properly. If from front headlock, ensure your chest pressure controls their head and prevents forward movement. Your hips should be positioned to allow you to rotate their shoulder without forcing your own body into awkward positions. The angle should feel natural—if you have to contort yourself, adjust your position before applying pressure. (Timing: Position optimization, 1-2 seconds) [Pressure: Moderate]
-4. **Begin controlled shoulder rotation**: Initiate the submission by slowly rotating the opponent's shoulder toward their back. The reverse grip naturally drives internal rotation when you pull your grips toward your own body. Move progressively—you should feel increasing resistance as the shoulder reaches its limit. Use your body weight and positioning rather than pure arm strength. Your free hand should maintain control of their head or body preventing them from turning into the submission to relieve pressure. Maintain constant awareness of their tap signals. (Timing: Initial rotation phase, 2-3 seconds minimum) [Pressure: Firm]
-5. **Increase rotational pressure progressively**: As you feel the opponent's shoulder tighten, continue the rotation slowly and progressively. In training, stop well before the finish point. In competition, you may continue to completion but always respect the tap. The reverse Kimura can finish very suddenly compared to standard Kimura due to the grip angle, so extreme caution is required. If standing, you may need to change levels or pressure them toward the ground to maintain control and finish safely. Never spike or drop your weight explosively. (Timing: Finishing phase, 2-3 seconds with progressive increase) [Pressure: Maximum]
-6. **Transition or release based on situation**: If the opponent taps, release immediately following safety protocols. If they defend successfully by turning into the lock or gripping their own gi/body, you have several options: transition to back take by following their rotation, switch to standard Kimura if the angle changes, or release and reset to maintain control without injury risk. The reverse Kimura often opens up back exposure as opponents try to relieve shoulder pressure by turning, making it an excellent setup position even if the submission itself doesn't finish. (Timing: Completion or transition, 1-2 seconds) [Pressure: Light]
+1. **Establish wrist control and arm isolation**: From your starting position (standing, front headlock, or scramble), secure a firm grip on your opponent's wrist with one hand. Simultaneously use your other arm to trap their elbow or upper arm. This two-point control prevents them from straightening the arm or pulling it away. Your grip should be strong but not death-gripping—you need to be able to transition to the reverse Kimura grip smoothly. Position yourself so that your opponent's arm is somewhat bent and vulnerable to rotational attack. (Timing: Initial control phase, 1-2 seconds)
+2. **Thread arm through for reverse grip**: Thread your controlling arm through the space between your opponent's arm and their body, positioning your hand to grab your own wrist on the opposite side of their arm. This creates the reverse figure-four configuration. The key difference from standard Kimura is that your grabbing hand reaches in front of their arm rather than behind it. This grip reversal changes the leverage angle and often provides tighter control. Ensure the grip is deep and secure before proceeding—a shallow grip will slip under pressure. (Timing: Grip transition, 1-2 seconds)
+3. **Establish body position and angle**: With the reverse Kimura grip secured, adjust your body position to create the optimal angle for shoulder rotation. If standing, maintain a strong base with your weight distributed properly. If from front headlock, ensure your chest pressure controls their head and prevents forward movement. Your hips should be positioned to allow you to rotate their shoulder without forcing your own body into awkward positions. The angle should feel natural—if you have to contort yourself, adjust your position before applying pressure. (Timing: Position optimization, 1-2 seconds)
+4. **Begin controlled shoulder rotation**: Initiate the submission by slowly rotating the opponent's shoulder toward their back. The reverse grip naturally drives internal rotation when you pull your grips toward your own body. Move progressively—you should feel increasing resistance as the shoulder reaches its limit. Use your body weight and positioning rather than pure arm strength. Your free hand should maintain control of their head or body preventing them from turning into the submission to relieve pressure. Maintain constant awareness of their tap signals. (Timing: Initial rotation phase, 2-3 seconds minimum)
+5. **Increase rotational pressure progressively**: As you feel the opponent's shoulder tighten, continue the rotation slowly and progressively. In training, stop well before the finish point. In competition, you may continue to completion but always respect the tap. The reverse Kimura can finish very suddenly compared to standard Kimura due to the grip angle, so extreme caution is required. If standing, you may need to change levels or pressure them toward the ground to maintain control and finish safely. Never spike or drop your weight explosively. (Timing: Finishing phase, 2-3 seconds with progressive increase)
+6. **Transition or release based on situation**: If the opponent taps, release immediately following safety protocols. If they defend successfully by turning into the lock or gripping their own gi/body, you have several options: transition to back take by following their rotation, switch to standard Kimura if the angle changes, or release and reset to maintain control without injury risk. The reverse Kimura often opens up back exposure as opponents try to relieve shoulder pressure by turning, making it an excellent setup position even if the submission itself doesn't finish. (Timing: Completion or transition, 1-2 seconds)
 
 
 </section>
@@ -261,25 +261,25 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying rotational pressure too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying rotational pressure too quickly or explosively
   - **Consequence**: Immediate shoulder injury, torn rotator cuff, or dislocation
   - **Correction**: Always apply pressure slowly and progressively over 4-6 seconds minimum in training. Feel for increasing resistance and stop well before the breaking point. Save explosive applications only for competition if necessary.
-- **Mistake**: Shallow or incomplete reverse grip allowing slippage [Medium DANGER]
+- **Mistake**: Shallow or incomplete reverse grip allowing slippage
   - **Consequence**: Loss of control, submission escapes, and wasted energy re-establishing grip
   - **Correction**: Ensure your hand reaches fully through the space and grabs your wrist with a deep, secure grip. Your forearm should be tight against their arm creating the figure-four lock. Test the grip before applying rotational pressure.
-- **Mistake**: Poor body positioning creating awkward angles [Low DANGER]
+- **Mistake**: Poor body positioning creating awkward angles
   - **Consequence**: Ineffective submission pressure, wasted strength, and vulnerability to counter attacks
   - **Correction**: Adjust your body angle before applying pressure. Your hips and shoulders should be positioned to allow natural rotation. If the movement feels forced or awkward, reposition before continuing.
-- **Mistake**: Neglecting control of opponent's head or body with free hand [Medium DANGER]
+- **Mistake**: Neglecting control of opponent's head or body with free hand
   - **Consequence**: Opponent escapes by turning into lock, scrambling away, or countering position
   - **Correction**: Your free hand must always maintain control. From standing, control the head with your free arm. From ground positions, use body weight and positioning to prevent movement. Never focus solely on the arm lock.
-- **Mistake**: Continuing rotation past 90 degrees in training [CRITICAL DANGER]
+- **Mistake**: Continuing rotation past 90 degrees in training
   - **Consequence**: Serious injury even if partner cannot tap in time due to rapid progression
   - **Correction**: In training, stop rotation at approximately 45-60 degrees and wait for tap. The submission can complete very suddenly with the reverse grip angle, so conservative stopping points are essential for safety.
-- **Mistake**: Failing to maintain base when applying from standing [High DANGER]
+- **Mistake**: Failing to maintain base when applying from standing
   - **Consequence**: Both practitioners fall uncontrollably creating injury risk beyond the submission itself
   - **Correction**: Keep feet in strong athletic stance, maintain balance throughout application, and control the descent if bringing opponent to ground. Never sacrifice your base for additional submission pressure from standing.
-- **Mistake**: Forcing the technique against stronger defensive grips [Low DANGER]
+- **Mistake**: Forcing the technique against stronger defensive grips
   - **Consequence**: Muscle strain, ineffective technique, and missed opportunity for transitions
   - **Correction**: If opponent establishes strong defensive grip, use the control to transition rather than forcing through. The reverse Kimura provides excellent positional control even if the finish isn't immediately available.
 
@@ -344,43 +344,6 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn reverse grip mechanics, body positioning, and safety protocols without partner resistance. Study the differences between standard and reverse Kimura grips. Practice grip entries from multiple starting positions with compliant partner.
-- Resistance: Zero resistance
-- Safety: Understand all tap signals and release protocols. Never apply any rotational pressure during this phase. Focus entirely on grip configuration and body mechanics. Learn to recognize when grip is secure enough to safely progress.
-
-**Slow Practice with Communication** (Week 3-4)
-- Focus: Apply reverse Kimura very slowly with constant verbal communication. Practice from standing, front headlock, and scramble positions. Partner should tap early and often. Emphasis on progressive pressure over 6-8 seconds minimum.
-- Resistance: Zero resistance
-- Safety: Verbal communication throughout every repetition. Practice release protocols repeatedly. Stop at 30-40 degrees of rotation maximum. Build trust with training partners through conservative application.
-
-**Positional Application with Mild Resistance** (Week 5-8)
-- Focus: Apply technique from live positions with partner providing mild defensive resistance. Focus on establishing control, securing grip, and recognizing when position is lost rather than forcing through. Practice transitions to back take when opponent defends.
-- Resistance: Mild resistance
-- Safety: Reduce application time to 5-6 seconds but maintain progressive pressure. Partner taps at first sign of discomfort. Practice recognizing and respecting defensive grips—transition rather than forcing.
-
-**Dynamic Drilling with Defense** (Month 3-4)
-- Focus: Practice establishing reverse Kimura during controlled scrambles and transitions. Partner actively defends using proper techniques. Emphasis on grip security, position maintenance, and safe transitions. Include back take transitions when submission is defended.
-- Resistance: Realistic resistance
-- Safety: Maintain 4-5 second minimum application time. Stop at 45-60 degrees rotation. Focus on control and position rather than forcing finish. Both partners responsible for safety—defender taps early, attacker applies conservatively.
-
-**Live Positional Training** (Month 5-6)
-- Focus: Apply reverse Kimura during live rolling from standing, top turtle, and scramble positions. Integration with full grappling game. Practice reading opponent's reactions and choosing between submission finish and positional transitions.
-- Resistance: Full resistance
-- Safety: Competition application speed only with experienced training partners who understand the technique. Always allow tap access. Never spike or drop weight from standing. Immediately transition to safety protocols if anything feels wrong.
-
-**Competition Preparation** (Month 7+)
-- Focus: Integrate reverse Kimura into competition strategy. Understand when to finish versus when to use for positional control. Practice under fatigue and pressure. Develop backup options and transitions.
-- Resistance: Full resistance
-- Safety: In training, maintain conservative application even at this level—save explosive applications for actual competition. Always distinguish between training and competition intensity. Continue verbal communication and early tapping with all training partners regardless of experience level.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -431,6 +394,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -277,21 +277,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85,
+        "value": 80,
         "description": "Percentage of time top practitioner maintains S Mount control"
       },
       "advancement_probability": {
-        "beginner": 65,
-        "intermediate": 80,
-        "advanced": 90,
+        "value": 85,
         "description": "Probability of achieving submission or improved position from S Mount"
       },
       "submission_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of finishing opponent with submission from this position"
       },
       "average_time": "20-60 seconds from entry to submission or position change"
@@ -299,27 +293,31 @@
     "transitions": [
       {
         "transition": "Armbar from Mount",
-        "attempt_probability": 35
+        "attempt_probability": 29
       },
       {
         "transition": "Triangle from Mount",
-        "attempt_probability": 20
+        "attempt_probability": 17
       },
       {
         "transition": "Americana from Mount",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kimura from Mount",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Mounted Crucifix Entry",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Gift Wrap to Back",
+        "attempt_probability": 14
       }
     ],
     "knowledge_assessment": [
@@ -564,21 +562,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 85,
-        "intermediate": 70,
-        "advanced": 50,
+        "value": 60,
         "description": "Percentage of time bottom practitioner remains trapped in S Mount"
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Probability of successfully escaping to better position"
       },
       "submission_probability": {
-        "beginner": 75,
-        "intermediate": 55,
-        "advanced": 35,
+        "value": 45,
         "description": "Probability of getting submitted from this position"
       },
       "average_time": "15-45 seconds before submission or escape"

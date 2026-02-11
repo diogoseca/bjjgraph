@@ -352,7 +352,7 @@ The system requires both isolated component drilling and integrated flow trainin
 - [[Kneebar]] (Submission) - Alternative leg submission when heel hook positioning is defended
 - [[Leg Entanglement]] (Principle) - Foundational concept governing all leg attack positions in system
 - [[Submission Chains]] (Principle) - Core principle of linking multiple submission attempts across position categories
-- [[Position Transitions]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
+- [[Transition Management]] (Principle) - Conceptual framework for smooth positional changes while maintaining offensive pressure
 - [[Dilemma Creation]] (Principle) - Strategic concept of forcing opponent to choose between defending legs or back
 - [[Control Maintenance]] (Principle) - Critical principle of maintaining connection throughout all system transitions
 - [[Danaher Leg Lock System]] (System) - Foundational leg lock system that provides technical framework for leg attack components

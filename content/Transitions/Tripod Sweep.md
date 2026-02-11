@@ -153,7 +153,7 @@ description: "Master the Tripod Sweep from Spider Guard in BJJ. Technical breakd
 The Tripod Sweep is a fundamental open guard technique that creates a mechanical advantage through angles and off-balancing. From Spider Guard, the practitioner establishes a three-point base (two feet and one hand on the opponent) to create an unstable platform, forcing the opponent to react and creating sweep opportunities. This technique is particularly effective against opponents attempting to maintain distance and posture in the guard, as it exploits their upright stance and converts their weight distribution into a sweeping motion. The name 'tripod' refers to the three points of contact that control the opponent's base while simultaneously removing one of their legs from the equation. This sweep is a cornerstone of modern Spider Guard systems and provides entry points into multiple dominant positions including mount, knee on belly, or standing control. The tripod structure allows for dynamic transitions and combinations, making it an essential technique for competitors at all levels who wish to develop an active, attacking guard game.
 
 **From Position**: [[Spider Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Spider Guard control**: Secure deep collar grip with one hand and strong sleeve grip with the other. Place both feet on opponent's biceps with toes pointed outward, creating maximum extension and preventing them from closing distance. Maintain active pressure pushing opponent away while pulling with grips. (Timing: Before opponent establishes passing grips or begins movement)
-2. **Transition to tripod base**: Remove one foot from opponent's bicep (typically same side as sleeve grip) and place it on the mat outside your hip, creating the first leg of the tripod. Simultaneously post your free hand (same side) on the mat behind you for stability. Keep remaining spider hook active on opposite bicep with maximum extension. (Timing: As opponent maintains upright posture)
-3. **Off-balance with collar control**: Pull sharply with your collar grip while simultaneously pushing with your active spider hook, creating a diagonal force vector that disrupts opponent's base. This should cause them to post their free hand forward or step to recover balance. Maintain constant pressure to prevent them from settling their weight back. (Timing: Continuous pressure until opponent reacts)
-4. **Attack the posting leg**: Identify which leg opponent posts forward to maintain balance (typically opposite side from your active spider hook). Reach across with your free hand and grip their ankle or pant leg firmly. Simultaneously extend your posted leg and spider hook leg to full extension, creating maximum distance. (Timing: Immediately when opponent posts leg forward)
-5. **Execute the sweep**: Pull the ankle/pant grip forcefully toward yourself while simultaneously kicking your spider hook leg upward and extending fully. Push off your tripod base leg to elevate your hips and rotate your body perpendicular to opponent. The combined forces remove their base and drive them backward and to the side. (Timing: Explosive motion coordinating all three points of contact)
-6. **Follow through to top position**: As opponent falls, immediately come up on top by driving forward over them. Maintain your grips throughout the sweep to control their arms and prevent defensive frames. Secure knee on belly, mount, or standing position depending on how they land and react. Keep pressure constant to prevent guard recovery. (Timing: Continuous forward pressure as they hit the mat)
+1. **Establish Spider Guard control**: Secure deep collar grip with one hand and strong sleeve grip with the other. Place both feet on opponent's biceps with toes pointed outward, creating maximum extension and preventing them from closing distance. Maintain active pressure pushing opponent away while pulling with grips.
+2. **Transition to tripod base**: Remove one foot from opponent's bicep (typically same side as sleeve grip) and place it on the mat outside your hip, creating the first leg of the tripod. Simultaneously post your free hand (same side) on the mat behind you for stability. Keep remaining spider hook active on opposite bicep with maximum extension.
+3. **Off-balance with collar control**: Pull sharply with your collar grip while simultaneously pushing with your active spider hook, creating a diagonal force vector that disrupts opponent's base. This should cause them to post their free hand forward or step to recover balance. Maintain constant pressure to prevent them from settling their weight back.
+4. **Attack the posting leg**: Identify which leg opponent posts forward to maintain balance (typically opposite side from your active spider hook). Reach across with your free hand and grip their ankle or pant leg firmly. Simultaneously extend your posted leg and spider hook leg to full extension, creating maximum distance.
+5. **Execute the sweep**: Pull the ankle/pant grip forcefully toward yourself while simultaneously kicking your spider hook leg upward and extending fully. Push off your tripod base leg to elevate your hips and rotate your body perpendicular to opponent. The combined forces remove their base and drive them backward and to the side.
+6. **Follow through to top position**: As opponent falls, immediately come up on top by driving forward over them. Maintain your grips throughout the sweep to control their arms and prevent defensive frames. Secure knee on belly, mount, or standing position depending on how they land and react. Keep pressure constant to prevent guard recovery.
 
 
 </section>
@@ -253,23 +253,18 @@ The Tripod Sweep is a fundamental open guard technique that creates a mechanical
 ## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Tripod structure and basic sweep motion without resistance
 Partner maintains upright posture in spider guard while practitioner establishes tripod base and executes sweep in slow motion. Focus on correct hand/foot positioning, grip maintenance, and understanding angular mechanics. Complete 20-30 repetitions per training session alternating sides.
-(Resistance: None)
 
 **Phase 2: Timing and Recognition (Weeks 3-4)** - Identifying correct moment to attack and reading opponent's base
 Partner adds light forward/backward movement and weight shifts. Practitioner must recognize posting leg and time sweep execution with opponent's forward commitment. Develop sensitivity to weight distribution and reaction patterns. Partner should not resist sweep but move naturally.
-(Resistance: Light)
 
 **Phase 3: Against Basic Defense (Weeks 5-6)** - Executing sweep against fundamental counter measures
 Partner adds moderate resistance: sitting back, circling away, and attempting to disengage grips. Practitioner works on maintaining grips under pressure, adjusting tripod base dynamically, and chaining to alternative attacks when sweep is defended. Begin incorporating transition to Sickle Sweep and Omoplata.
-(Resistance: Medium)
 
 **Phase 4: Live Situational Drilling (Weeks 7-8)** - Full resistance spider guard with sweep emphasis
 Start in spider guard with partner attempting realistic guard passes. Practitioner works to land Tripod Sweep against intelligent defense while partner uses all legal counters. Focus on success rate and clean execution under competition conditions. 5-minute rounds with goal of 2-3 successful sweeps per round.
-(Resistance: Full)
 
 **Phase 5: Combination Chains (Weeks 9-10)** - Linking Tripod Sweep to multi-attack sequences
 Develop automatic combinations: Tripod Sweep to Triangle when opponent sits back, to Omoplata when they post second hand, to Sickle Sweep when they circle away. Train seamless transitions where failed sweep immediately flows to next attack without pause. Partner provides full resistance.
-(Resistance: Full)
 
 
 

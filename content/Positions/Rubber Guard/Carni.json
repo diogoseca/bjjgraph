@@ -262,21 +262,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Success rate for maintaining safe defensive position without submission or worse position"
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of successfully escaping to neutral or advantageous position"
       },
       "submission_probability": {
-        "beginner": 65,
-        "intermediate": 45,
-        "advanced": 25,
+        "value": 35,
         "description": "Risk of being submitted from this defensive position"
       },
       "average_time": "10-30 seconds"
@@ -581,19 +575,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65
+        "value": 58
       },
       "average_time": "15-45 seconds"
     },

@@ -157,7 +157,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 **Type**: Leg Lock
 **Target Area**: Knee joint, ankle joint, and surrounding ligaments
 **Starting Position**: [[Outside Ashi-Garami]]
-**Success Rates**: Beginner 20%, Intermediate 35%, Advanced 55%
+**Success Rate**: 45%
 
 </section>
 
@@ -241,12 +241,12 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish outside ashi-garami position**: Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg controlling their trapped leg from the outside. Your inside leg should prevent them from rotating their knee line toward you, which is their primary defense. Ensure you have broken their grips on your legs and that your position is stable before proceeding to heel control. (Timing: Control phase - no submission pressure yet) [Pressure: Light]
-2. **Cup the heel with both hands**: Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four grip or similar secure configuration. Your forearm should run along the bottom of their foot with the heel secured in the crook of your elbow. The grip should be firm but the focus is on control, not pressure. Ensure the blade of the forearm is positioned across the Achilles tendon area for maximum control. (Timing: Setup phase - establishing control) [Pressure: Moderate]
-3. **Extend hips to create leg straightness**: Push your hips forward toward your opponent while maintaining heel control, creating extension in their trapped leg. This removes slack from the system and begins to load tension into the knee joint. The leg should become relatively straight but not hyperextended. Your inside leg must maintain constant pressure on their hip to prevent defensive rotation. This extension is crucial for the submission to function properly. (Timing: Tension creation - 2-3 seconds) [Pressure: Moderate]
-4. **Position heel for rotational control**: Adjust your grip so the heel is secured with maximum rotational potential. The heel should be cupped deep into the crook of your elbow, with your hands locked together (figure-four or gable grip). Your forearm becomes the lever that will rotate the foot. Ensure your chest is tight to the heel and foot, eliminating any space that would reduce control. The opponent's toes should be pointing slightly away from their centerline. (Timing: Final setup - 1-2 seconds) [Pressure: Moderate]
-5. **Apply slow outside rotation to heel**: While maintaining hip extension and hip control, begin rotating the heel toward the outside (away from opponent's centerline) by turning your forearms and pulling the heel across your chest. This rotation twists the lower leg while the upper leg remains fixed by your leg entanglement, creating severe torque on the knee joint. The rotation should be EXTREMELY SLOW and progressive. In training, take 5-7 seconds minimum to reach submission pressure. Watch your partner intensely for any tap signal. (Timing: Finishing phase - SLOW 5-7 seconds minimum in training) [Pressure: Firm]
-6. **Maintain pressure until tap**: Continue the slow, steady rotational pressure while maintaining all control points: hip extension, heel cup, and hip control with your inside leg. The submission works through cumulative rotation rather than sudden force. In competition, maintain pressure until referee stoppage. In training, release IMMEDIATELY upon any tap signal. Never increase pressure suddenly or jerk the heel. After tap, follow release protocol carefully. (Timing: Tap or finish) [Pressure: Maximum]
+1. **Establish outside ashi-garami position**: Secure outside ashi-garami with your inside leg hooking over opponent's hip and your outside leg controlling their trapped leg from the outside. Your inside leg should prevent them from rotating their knee line toward you, which is their primary defense. Ensure you have broken their grips on your legs and that your position is stable before proceeding to heel control. (Timing: Control phase - no submission pressure yet)
+2. **Cup the heel with both hands**: Reach over the top of opponent's foot and cup their heel with both hands, creating a figure-four grip or similar secure configuration. Your forearm should run along the bottom of their foot with the heel secured in the crook of your elbow. The grip should be firm but the focus is on control, not pressure. Ensure the blade of the forearm is positioned across the Achilles tendon area for maximum control. (Timing: Setup phase - establishing control)
+3. **Extend hips to create leg straightness**: Push your hips forward toward your opponent while maintaining heel control, creating extension in their trapped leg. This removes slack from the system and begins to load tension into the knee joint. The leg should become relatively straight but not hyperextended. Your inside leg must maintain constant pressure on their hip to prevent defensive rotation. This extension is crucial for the submission to function properly. (Timing: Tension creation - 2-3 seconds)
+4. **Position heel for rotational control**: Adjust your grip so the heel is secured with maximum rotational potential. The heel should be cupped deep into the crook of your elbow, with your hands locked together (figure-four or gable grip). Your forearm becomes the lever that will rotate the foot. Ensure your chest is tight to the heel and foot, eliminating any space that would reduce control. The opponent's toes should be pointing slightly away from their centerline. (Timing: Final setup - 1-2 seconds)
+5. **Apply slow outside rotation to heel**: While maintaining hip extension and hip control, begin rotating the heel toward the outside (away from opponent's centerline) by turning your forearms and pulling the heel across your chest. This rotation twists the lower leg while the upper leg remains fixed by your leg entanglement, creating severe torque on the knee joint. The rotation should be EXTREMELY SLOW and progressive. In training, take 5-7 seconds minimum to reach submission pressure. Watch your partner intensely for any tap signal. (Timing: Finishing phase - SLOW 5-7 seconds minimum in training)
+6. **Maintain pressure until tap**: Continue the slow, steady rotational pressure while maintaining all control points: hip extension, heel cup, and hip control with your inside leg. The submission works through cumulative rotation rather than sudden force. In competition, maintain pressure until referee stoppage. In training, release IMMEDIATELY upon any tap signal. Never increase pressure suddenly or jerk the heel. After tap, follow release protocol carefully. (Timing: Tap or finish)
 
 
 </section>
@@ -266,25 +266,25 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying sudden or jerking rotation to the heel [CRITICAL DANGER]
+- **Mistake**: Applying sudden or jerking rotation to the heel
   - **Consequence**: Catastrophic knee injury to training partner with permanent damage
   - **Correction**: Always apply rotation slowly and progressively over 5-7 seconds minimum in training. Feel for resistance and watch partner for tap signals. Speed in training is never acceptable for heel hooks.
-- **Mistake**: Attempting submission before securing positional control [CRITICAL DANGER]
+- **Mistake**: Attempting submission before securing positional control
   - **Consequence**: Partner escapes easily and position is lost, or partial pressure applied incorrectly causing injury without proper control
   - **Correction**: Establish outside ashi-garami fully, break all grips, and secure heel control before applying any rotational pressure. Position before submission always.
-- **Mistake**: Failing to control opponent's hip with inside leg [High DANGER]
+- **Mistake**: Failing to control opponent's hip with inside leg
   - **Consequence**: Opponent rotates knee line inward, escaping the submission and potentially reversing position
   - **Correction**: Keep constant pressure with inside leg across opponent's hip and lower abdomen. This prevents their primary defensive rotation and maintains outside positioning.
-- **Mistake**: Insufficient hip extension before rotation [Medium DANGER]
+- **Mistake**: Insufficient hip extension before rotation
   - **Consequence**: Slack in the system reduces submission effectiveness and allows opponent to escape or defend
   - **Correction**: Push hips forward to create full leg extension before rotating heel. The leg should be relatively straight to maximize torque on the knee joint.
-- **Mistake**: Cupping the heel loosely or with improper grip configuration [High DANGER]
+- **Mistake**: Cupping the heel loosely or with improper grip configuration
   - **Consequence**: Heel slips during rotation, losing submission and potentially injuring ankle instead of controlling knee
   - **Correction**: Secure heel deep in the crook of your elbow with figure-four or locked hands. Forearm should be blade-edge across Achilles. Test grip security before applying pressure.
-- **Mistake**: Looking away from partner during finish [CRITICAL DANGER]
+- **Mistake**: Looking away from partner during finish
   - **Consequence**: Missing tap signals leading to serious injury
   - **Correction**: Maintain visual contact with training partner throughout the submission. Watch their face and hands for any tap signal. Never turn away during application.
-- **Mistake**: Rotating toward inside instead of outside [Medium DANGER]
+- **Mistake**: Rotating toward inside instead of outside
   - **Consequence**: Wrong submission mechanics - either no pressure or straight ankle lock pressure instead of heel hook
   - **Correction**: Rotate heel away from opponent's centerline (outside rotation). Remember 'outside heel hook' means rotating the heel to the outside. Inside rotation is a different attack.
 
@@ -349,43 +349,6 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-4)** (1 month minimum)
-- Focus: Study mechanics, anatomy, and injury mechanisms without live practice. Watch instructional content, understand knee anatomy, and practice grip configurations on compliant partners without any pressure. Understand the difference between outside and inside heel hooks. Learn tap signals and release protocols.
-- Resistance: None
-- Safety: Understand injury mechanisms and why heel hooks are dangerous. Learn what structures are at risk and how they fail. Study real injury cases to appreciate the severity. Memorize release protocols.
-
-**Positional Control Development (Weeks 5-12)** (2 months)
-- Focus: Develop outside ashi-garami position and control without attempting submissions. Practice grip breaking, hip control, and maintaining outside positioning against progressive resistance. Build the positional foundation that makes the submission possible. No heel grip or rotational pressure yet.
-- Resistance: Mild resistance
-- Safety: Master position before attempting submission. Understand that position must be completely secure before ever gripping the heel. Practice with experienced partners who can give feedback on control quality.
-
-**Grip and Extension Practice (Weeks 13-20)** (2 months)
-- Focus: From secured outside ashi position, practice heel grip and hip extension without any rotational pressure. Partner should tap when they feel extension and heel control, long before any submission pressure. Focus on smooth, controlled movements. Learn to recognize when position and control are adequate for submission attempt.
-- Resistance: Mild resistance
-- Safety: ZERO rotation during this phase. Extension only, no finishing pressure. Partners tap when they feel control is established. This builds sensitivity to proper setup without injury risk.
-
-**Controlled Finishing with Communication (Weeks 21-32)** (3 months)
-- Focus: Begin applying EXTREMELY SLOW rotational pressure (10+ seconds) with constant verbal communication. Partner taps at first sensation of knee pressure. Practice release protocols after every tap. Focus is on control and sensitivity, not finishing. Train only with experienced partners who understand leg locks deeply.
-- Resistance: Zero resistance
-- Safety: Communication throughout every attempt. Verbal confirmation of pressure levels. Immediate tap at first sensation. Multiple repetitions of release protocol. Never exceed light pressure. Build trust and sensitivity.
-
-**Progressive Resistance Application (Months 9-12)** (4 months)
-- Focus: Partner begins applying realistic defensive reactions while you maintain slow, controlled finishing. Application time reduces to 7-8 seconds but never less. Practice maintaining control through defensive movements. Learn to adjust technique when opponent defends. Still training mode, not competition pace.
-- Resistance: Realistic resistance
-- Safety: Maintain slow application speed despite resistance. Do not rush the finish even when opponent defends. Release immediately if position becomes compromised. Communication remains constant. Tap early and often.
-
-**Competition Preparation (Month 13+)** (Ongoing)
-- Focus: Integrate outside heel hook into full rolling with agreed-upon leg lock rules. Practice entries from various positions, combinations with other leg locks, and transitions. Application in training remains 5-7 seconds minimum. Learn when to abandon the submission if position is lost. Develop awareness of rule sets and legal techniques for your competition level.
-- Resistance: Full resistance
-- Safety: NEVER use competition speed in training rolls. Clear agreement on leg lock rules before every roll. Immediate tap when caught. Respect for training partners above winning the position. Understand that in competition you may finish faster, but training is about mutual improvement and safety.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -436,6 +399,7 @@ The Outside Heel Hook is one of the most dangerous and effective leg lock submis
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

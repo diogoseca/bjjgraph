@@ -366,11 +366,11 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 25% | 5% |
-| Intermediate | 55% | 45% | 15% |
-| Advanced     | 70% | 60% | 25% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 52% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 30-90 seconds before escape or submission/sweep
 

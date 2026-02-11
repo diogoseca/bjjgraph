@@ -157,7 +157,7 @@ The mechanics rely on maintaining your underhook throughout the entire rolling s
 This transition exemplifies the principle of using opponent reactions to your advantage. The standard jailbreak already threatens turtle escape. When opponents learn to follow the roll to prevent this, they expose themselves to the back take. Training both options creates a true dilemma for the top player: disengage and allow the turtle escape, or follow and risk giving up their back.
 
 **From Position**: [[Jailbreak/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This transition exemplifies the principle of using opponent reactions to your ad
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish underhook**: Secure deep underhook on the same side as your trapped leg with your elbow tight against your own hip. This connection is critical and must be maintained throughout the entire sequence. (Timing: Before initiating any escape movement)
-2. **Initiate jailbreak roll**: Tuck your chin to your chest and begin inverting toward the mat, using explosive hip movement and your free leg pushing off the ground to generate rolling momentum toward the trapped leg side. (Timing: When opponent commits weight forward)
-3. **Read opponent reaction**: As you roll through, feel whether the opponent follows your motion or disengages. If they follow, prepare to continue to back take. If they disengage, settle into turtle position. (Timing: Mid-roll, approximately 180 degrees through rotation)
-4. **Accelerate through roll**: When opponent follows your escape, accelerate your rolling momentum rather than stopping. Use your underhook to pull yourself toward their back as they chase, redirecting their forward energy. (Timing: Immediately upon sensing opponent following)
-5. **Establish back position**: Complete the rotation behind your opponent, using your underhook arm to control their far shoulder while your chest connects to their back. Your hips should clear past their hips entirely. (Timing: As roll completes approximately 270-360 degrees)
-6. **Insert hooks**: Immediately insert both hooks inside opponent's thighs with toes pointing outward, establishing standard back control. Transition underhook grip to harness or seatbelt control for complete back control. (Timing: Within 1-2 seconds of achieving back position)
+1. **Establish underhook**: Secure deep underhook on the same side as your trapped leg with your elbow tight against your own hip. This connection is critical and must be maintained throughout the entire sequence.
+2. **Initiate jailbreak roll**: Tuck your chin to your chest and begin inverting toward the mat, using explosive hip movement and your free leg pushing off the ground to generate rolling momentum toward the trapped leg side.
+3. **Read opponent reaction**: As you roll through, feel whether the opponent follows your motion or disengages. If they follow, prepare to continue to back take. If they disengage, settle into turtle position.
+4. **Accelerate through roll**: When opponent follows your escape, accelerate your rolling momentum rather than stopping. Use your underhook to pull yourself toward their back as they chase, redirecting their forward energy.
+5. **Establish back position**: Complete the rotation behind your opponent, using your underhook arm to control their far shoulder while your chest connects to their back. Your hips should clear past their hips entirely.
+6. **Insert hooks**: Immediately insert both hooks inside opponent's thighs with toes pointing outward, establishing standard back control. Transition underhook grip to harness or seatbelt control for complete back control.
 
 
 </section>
@@ -253,19 +253,15 @@ This transition exemplifies the principle of using opponent reactions to your ad
 ## Training Progressions
 **Week 1-2** - Jailbreak mechanics
 Master the basic jailbreak escape to turtle first. Focus on underhook establishment, chin tuck, and rolling mechanics without attempting the back take continuation. Build muscle memory for the foundational movement.
-(Resistance: None)
 
 **Week 3-4** - Reading opponent reaction
 Partner alternates between following and disengaging during jailbreak attempts. Focus on developing sensitivity to opponent's momentum and learning when back take is available versus when to settle for turtle.
-(Resistance: Light)
 
 **Week 5-6** - Back take completion
 Partner consistently follows jailbreak escape. Practice the full sequence from jailbreak initiation through hook insertion. Add moderate resistance while maintaining focus on technical execution.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate into live rolling from half guard bottom position. Partner applies full resistance and genuine reactions. Track success rate and identify specific failure points for targeted improvement.
-(Resistance: Full)
 
 
 

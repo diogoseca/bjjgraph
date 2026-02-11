@@ -157,7 +157,7 @@ The sweep capitalizes on the opponent's forward commitment or narrow base, using
 Strategically, this sweep functions as a high-reward option within the Grasshopper Guard system. When opponents recognize the leg entanglement threats from grasshopper and begin backing away or widening their base defensively, they often create the exact conditions needed for this sweep. The technique requires precise timing and substantial core strength to execute, but when landed correctly, it bypasses the half guard and side control positions entirely, placing you directly in mount with significant momentum advantage.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish inversion**: From seated or open guard, invert your body placing weight on shoulder blades with hips elevated above torso level. Maintain strong core engagement to keep hips high. (Timing: 2-3 seconds to establish stable inverted base)
-2. **Insert leg hooks**: Thread both legs behind opponent's knees, creating hooks with your feet curling around the back of their thighs. The hooks should be deep enough to control their base. (Timing: As opponent steps into range or commits weight forward)
-3. **Control grips**: Establish grips on opponent's ankles, heels, or pants near the ankle area. These grips prevent them from stepping back and provide additional control for the elevation. (Timing: Immediately after hooks are established)
-4. **Explosive hip drive**: Drive hips explosively toward the ceiling while simultaneously pulling opponent's ankles toward you and extending your legs. Your hip elevation lifts them off the ground. (Timing: When opponent's weight shifts forward or they attempt to pressure)
-5. **Guide the fall**: As opponent tips backward, continue extending your legs and driving your hips upward. Follow their falling motion with your body, beginning to rotate from inverted to upright. (Timing: Immediately following successful elevation)
-6. **Establish mount**: As opponent lands on their back, complete your rotation and land in mount position. Immediately establish base with hands posted and hips heavy on their torso. (Timing: 0.5-1 second after opponent contacts the mat)
+1. **Establish inversion**: From seated or open guard, invert your body placing weight on shoulder blades with hips elevated above torso level. Maintain strong core engagement to keep hips high.
+2. **Insert leg hooks**: Thread both legs behind opponent's knees, creating hooks with your feet curling around the back of their thighs. The hooks should be deep enough to control their base.
+3. **Control grips**: Establish grips on opponent's ankles, heels, or pants near the ankle area. These grips prevent them from stepping back and provide additional control for the elevation.
+4. **Explosive hip drive**: Drive hips explosively toward the ceiling while simultaneously pulling opponent's ankles toward you and extending your legs. Your hip elevation lifts them off the ground.
+5. **Guide the fall**: As opponent tips backward, continue extending your legs and driving your hips upward. Follow their falling motion with your body, beginning to rotate from inverted to upright.
+6. **Establish mount**: As opponent lands on their back, complete your rotation and land in mount position. Immediately establish base with hands posted and hips heavy on their torso.
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, this sweep functions as a high-reward option within the Grasshopp
 ## Training Progressions
 **Week 1-2** - Inversion mechanics
 Practice establishing and holding the inverted grasshopper position with proper shoulder base and hip elevation. Work on maintaining the position for 20-30 second intervals without partner resistance.
-(Resistance: None)
 
 **Week 3-4** - Hook and grip establishment
 With compliant partner, practice inserting leg hooks and establishing ankle grips. Focus on hook depth and maintaining connection as partner makes small movements. No sweep attempts yet.
-(Resistance: Light)
 
 **Week 5-6** - Sweep timing and execution
 Execute full sweep against partner giving 50% resistance. Partner provides forward pressure cues for timing. Focus on explosive hip drive and following through to mount position.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate sweep into live rolling from grasshopper guard. Work on recognizing sweep opportunities versus when to transition to leg attacks or other options. Full resistance with training partners.
-(Resistance: Full)
 
 
 

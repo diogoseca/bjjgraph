@@ -383,11 +383,11 @@ Partner plays collar sleeve guard with graded resistance: Round 1 (30% resistanc
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 40% | 15% |
-| Intermediate | 60% | 55% | 25% |
-| Advanced     | 75% | 70% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 60-120 seconds to complete guard pass or get swept
 

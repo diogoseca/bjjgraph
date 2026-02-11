@@ -32,11 +32,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Rolling Omoplata is a dynamic transition that converts an opponent's forward roll escape attempt into a dominant top position. When the opponent initiates a forward roll to relieve omoplata pressure, you follow their momentum rather than fighting it, using their escape attempt as the mechanism for your own positional advancement. This technique exemplifies the principle of using your opponent's energy against them—their desperate escape becomes your sweep. The roll requires precise timing and hip connection; release too early and you lose control, hold too long and you get dumped. The critical insight is recognizing the opponent's weight shift forward as the trigger to initiate your follow-through. As they commit to the roll, you maintain your leg across their shoulder and guide the rotation, landing in mount or side control depending on your hip placement during the roll. Advanced practitioners use this transition proactively by applying shoulder pressure that forces the opponent to choose between tapping to the omoplata or rolling into a dominated position. This creates a true dilemma where both options favor you.",
   "key_principles": [
     "Use opponent's rolling momentum rather than fighting against their escape direction",
@@ -57,38 +52,32 @@
     {
       "step_number": 1,
       "action": "Recognize roll initiation",
-      "description": "Feel the opponent shift their weight forward onto their posting arm and load their hips to initiate a forward roll escape. This forward weight commitment is your trigger to begin the rolling transition.",
-      "timing": "As opponent commits weight forward"
+      "description": "Feel the opponent shift their weight forward onto their posting arm and load their hips to initiate a forward roll escape. This forward weight commitment is your trigger to begin the rolling transition."
     },
     {
       "step_number": 2,
       "action": "Maintain hip connection",
-      "description": "Keep your hips glued to their trapped shoulder as they begin rolling. Do not separate or create space—your body must move as one unit with their shoulder throughout the rotation.",
-      "timing": "Immediately as roll begins"
+      "description": "Keep your hips glued to their trapped shoulder as they begin rolling. Do not separate or create space—your body must move as one unit with their shoulder throughout the rotation."
     },
     {
       "step_number": 3,
       "action": "Control roll direction",
-      "description": "Use your grip on their belt or hip to guide the direction and speed of the roll. Pull yourself toward their body rather than pushing them away, staying connected throughout the rotation.",
-      "timing": "During roll initiation"
+      "description": "Use your grip on their belt or hip to guide the direction and speed of the roll. Pull yourself toward their body rather than pushing them away, staying connected throughout the rotation."
     },
     {
       "step_number": 4,
       "action": "Follow through rotation",
-      "description": "Roll with the opponent while keeping your shin across their upper back. Your leg acts as the axis point—everything rotates around your control of their shoulder joint.",
-      "timing": "Through the roll"
+      "description": "Roll with the opponent while keeping your shin across their upper back. Your leg acts as the axis point—everything rotates around your control of their shoulder joint."
     },
     {
       "step_number": 5,
       "action": "Land with weight",
-      "description": "As the roll completes, land with your hips heavy on their torso, perpendicular to their body. Your momentum from the roll translates into immediate crushing top pressure.",
-      "timing": "End of rotation"
+      "description": "As the roll completes, land with your hips heavy on their torso, perpendicular to their body. Your momentum from the roll translates into immediate crushing top pressure."
     },
     {
       "step_number": 6,
       "action": "Establish top control",
-      "description": "Transition immediately to mount or side control based on your landing position. Remove your leg from their shoulder and secure dominant grips before they can recover guard.",
-      "timing": "Immediately after landing"
+      "description": "Transition immediately to mount or side control based on your landing position. Remove your leg from their shoulder and secure dominant grips before they can recover guard."
     }
   ],
   "common_counters": [
@@ -144,26 +133,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rolling mechanics",
-      "description": "Practice the rolling motion with compliant partner initiating slow forward rolls. Focus on maintaining hip connection and landing perpendicular. No resistance—purely mechanical repetition.",
-      "resistance_level": "None"
+      "description": "Practice the rolling motion with compliant partner initiating slow forward rolls. Focus on maintaining hip connection and landing perpendicular. No resistance—purely mechanical repetition."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner attempts forward roll escapes at 25% speed. Practice recognizing the weight shift trigger and initiating your follow-through at the correct moment. Add belt grip control.",
-      "resistance_level": "Light"
+      "description": "Partner attempts forward roll escapes at 25% speed. Practice recognizing the weight shift trigger and initiating your follow-through at the correct moment. Add belt grip control."
     },
     {
       "phase": "Week 5-6",
       "focus": "Landing and transition",
-      "description": "Partner rolls at 50% intensity with light resistance on landing. Focus on landing heavy and immediately transitioning to mount or side control. Practice the full sequence with counters.",
-      "resistance_level": "Medium"
+      "description": "Partner rolls at 50% intensity with light resistance on landing. Focus on landing heavy and immediately transitioning to mount or side control. Practice the full sequence with counters."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply in positional sparring starting from omoplata control. Partner attempts any escape at full intensity. Develop pattern recognition for when rolling omoplata is optimal versus maintaining control.",
-      "resistance_level": "Full"
+      "description": "Apply in positional sparring starting from omoplata control. Partner attempts any escape at full intensity. Develop pattern recognition for when rolling omoplata is optimal versus maintaining control."
     }
   ],
   "variants_and_adaptations": [
@@ -186,53 +171,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Rolling Omoplata?",
-      "answer": "The primary goal is to convert the opponent's forward roll escape attempt into your positional advancement, landing in mount or side control. Rather than fighting their escape, you use their momentum against them—their desperate roll becomes your sweep to dominant top position.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert the opponent's forward roll escape attempt into your positional advancement, landing in mount or side control. Rather than fighting their escape, you use their momentum against them—their desperate roll becomes your sweep to dominant top position."
     },
     {
       "question": "What triggers the initiation of the Rolling Omoplata?",
-      "answer": "The trigger is feeling the opponent shift their weight forward onto their posting arm and load their hips to initiate a forward roll. This forward weight commitment signals they are abandoning defense of the omoplata and committing to the escape. You must recognize this shift immediately to time your follow-through correctly.",
-      "difficulty": "Intermediate"
+      "answer": "The trigger is feeling the opponent shift their weight forward onto their posting arm and load their hips to initiate a forward roll. This forward weight commitment signals they are abandoning defense of the omoplata and committing to the escape. You must recognize this shift immediately to time your follow-through correctly."
     },
     {
       "question": "What are the key grips needed for Rolling Omoplata?",
-      "answer": "The essential grip is on the opponent's belt, pants near the hip, or around their waist for no-gi. This grip allows you to control the speed and direction of the roll while maintaining connection. Without this grip, you cannot steer the rotation and risk ending up in a scramble rather than dominant position.",
-      "difficulty": "Beginner"
+      "answer": "The essential grip is on the opponent's belt, pants near the hip, or around their waist for no-gi. This grip allows you to control the speed and direction of the roll while maintaining connection. Without this grip, you cannot steer the rotation and risk ending up in a scramble rather than dominant position."
     },
     {
       "question": "Your opponent accelerates their roll to throw you past them - how do you respond?",
-      "answer": "Maintain tight hip connection to their shoulder and use your belt grip to control roll speed. Never let them dictate pace—your grip is your brake and steering. If they still accelerate, keep your hips heavy and low, which naturally slows the rotation and ensures you land in control rather than flying past.",
-      "difficulty": "Advanced"
+      "answer": "Maintain tight hip connection to their shoulder and use your belt grip to control roll speed. Never let them dictate pace—your grip is your brake and steering. If they still accelerate, keep your hips heavy and low, which naturally slows the rotation and ensures you land in control rather than flying past."
     },
     {
       "question": "When is the best time to attempt Rolling Omoplata?",
-      "answer": "The optimal time is when you have established solid omoplata control and the opponent chooses to forward roll rather than defend the shoulder lock. This typically occurs when you apply sufficient shoulder pressure that makes staying in place unbearable. The technique is reactive to their escape—you cannot force it if they choose a different defense.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal time is when you have established solid omoplata control and the opponent chooses to forward roll rather than defend the shoulder lock. This typically occurs when you apply sufficient shoulder pressure that makes staying in place unbearable. The technique is reactive to their escape—you cannot force it if they choose a different defense."
     },
     {
       "question": "What is the critical hip position throughout the rolling motion?",
-      "answer": "Your hips must remain glued to the opponent's trapped shoulder throughout the entire rotation. Any separation creates space for them to escape or spin out. Think of your hip as welded to their shoulder—you move as a single connected unit until you land in top position.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips must remain glued to the opponent's trapped shoulder throughout the entire rotation. Any separation creates space for them to escape or spin out. Think of your hip as welded to their shoulder—you move as a single connected unit until you land in top position."
     },
     {
       "question": "You land after the roll but opponent immediately hip escapes - what adjustment prevents this?",
-      "answer": "Land with your hips perpendicular to their body and immediately heavy through their centerline. Control their far hip with your posting hand during the landing phase. The key is landing low and heavy rather than upright—flat pressure through their torso prevents effective hip escape.",
-      "difficulty": "Advanced"
+      "answer": "Land with your hips perpendicular to their body and immediately heavy through their centerline. Control their far hip with your posting hand during the landing phase. The key is landing low and heavy rather than upright—flat pressure through their torso prevents effective hip escape."
     },
     {
       "question": "How does the Rolling Omoplata create a dilemma for the opponent?",
-      "answer": "The opponent faces a choice: defend the omoplata submission and endure increasing shoulder pressure, or escape via forward roll and give you top position. Both options favor you. Advanced practitioners deliberately increase shoulder pressure to force this choice, making the rolling omoplata a proactive tool rather than purely reactive.",
-      "difficulty": "Advanced"
+      "answer": "The opponent faces a choice: defend the omoplata submission and endure increasing shoulder pressure, or escape via forward roll and give you top position. Both options favor you. Advanced practitioners deliberately increase shoulder pressure to force this choice, making the rolling omoplata a proactive tool rather than purely reactive."
     },
     {
       "question": "What determines whether you finish in mount versus side control?",
-      "answer": "Your hip placement during the roll determines landing position. Keeping hips higher on their body throughout rotation lands you in mount. Allowing hips to slide toward their hip lands you in side control. The choice depends on roll speed—slower rolls allow mount positioning, faster rolls may require accepting side control.",
-      "difficulty": "Intermediate"
+      "answer": "Your hip placement during the roll determines landing position. Keeping hips higher on their body throughout rotation lands you in mount. Allowing hips to slide toward their hip lands you in side control. The choice depends on roll speed—slower rolls allow mount positioning, faster rolls may require accepting side control."
     },
     {
       "question": "Why is maintaining shin pressure across the opponent's back important during the roll?",
-      "answer": "Your shin across their back acts as the axis point for the entire rotation. It maintains control of their shoulder position and prevents them from separating from you during the roll. Without this pressure, the roll becomes a scramble rather than a controlled transition to dominant position.",
-      "difficulty": "Intermediate"
+      "answer": "Your shin across their back acts as the axis point for the entire rotation. It maintains control of their shoulder position and prevents them from separating from you during the roll. Without this pressure, the roll becomes a scramble rather than a controlled transition to dominant position."
     }
   ],
   "safety_considerations": "The Rolling Omoplata involves rotational momentum that can stress the opponent's shoulder if maintained too long through the roll. Release the shoulder lock grip as you land to prevent injury from the combined rotational and impact forces. Practice at slow speeds initially to develop proper landing mechanics. Avoid this technique if either partner has shoulder injuries or mobility limitations. The landing phase can also stress the opponent's neck if you land too far forward—always aim to land on their torso rather than driving toward their head.",
@@ -270,5 +245,6 @@
       "name": "Half Guard",
       "relationship": "Common counter position if roll is partially defended"
     }
-  ]
+  ],
+  "success_rate": 58
 }

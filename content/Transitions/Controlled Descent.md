@@ -157,7 +157,7 @@ The strategic value of Controlled Descent lies in recognizing that standing back
 This technique represents a paradigm shift in defensive thinking - accepting a temporary positional disadvantage (grounded back exposure or turtle) in exchange for eliminating the immediate threats of standing submissions and forceful takedowns. The key distinction between Controlled Descent and simply being taken down is agency: you dictate the timing, angle, and manner of the descent, positioning yourself optimally for the next phase of escape rather than being thrown into a compromised position chosen by your opponent.
 
 **From Position**: [[Standing Back Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure neck defense**: Before initiating descent, ensure chin is tucked tightly to chest with your leading hand controlling opponent's choking arm wrist. This protection must be maintained throughout the entire transition. (Timing: Prerequisite check before beginning)
-2. **Widen base and lower center**: Spread your feet wider than shoulder width and begin bending at the knees to lower your center of gravity. This makes you harder to throw and prepares for controlled drop. (Timing: 1-2 seconds)
-3. **Choose descent direction**: Select the side where opponent's underhook arm is positioned. Descending toward this side makes it harder for them to maintain the harness and easier for you to achieve turtle position rather than being flattened. (Timing: Immediate decision)
-4. **Drop to knees with hip turn**: Drop your knees to the ground while simultaneously turning your hips toward the chosen side. The hip turn is critical - it prevents you from landing flat on your stomach and begins creating the angle needed for turtle. (Timing: Explosive but controlled)
-5. **Post and establish turtle**: As you reach the ground, immediately post on your hands and tuck your knees under your hips to establish turtle position. Keep your elbows pinched to your ribs to prevent hooks from deepening. (Timing: Immediately upon ground contact)
-6. **Begin hook clearance**: Use the momentum and angle change from the descent to begin addressing opponent's hooks. Push their heels away from your thighs while maintaining your defensive shell and preparing for ground-based escape sequences. (Timing: First 2-3 seconds on ground)
+1. **Secure neck defense**: Before initiating descent, ensure chin is tucked tightly to chest with your leading hand controlling opponent's choking arm wrist. This protection must be maintained throughout the entire transition.
+2. **Widen base and lower center**: Spread your feet wider than shoulder width and begin bending at the knees to lower your center of gravity. This makes you harder to throw and prepares for controlled drop.
+3. **Choose descent direction**: Select the side where opponent's underhook arm is positioned. Descending toward this side makes it harder for them to maintain the harness and easier for you to achieve turtle position rather than being flattened.
+4. **Drop to knees with hip turn**: Drop your knees to the ground while simultaneously turning your hips toward the chosen side. The hip turn is critical - it prevents you from landing flat on your stomach and begins creating the angle needed for turtle.
+5. **Post and establish turtle**: As you reach the ground, immediately post on your hands and tuck your knees under your hips to establish turtle position. Keep your elbows pinched to your ribs to prevent hooks from deepening.
+6. **Begin hook clearance**: Use the momentum and angle change from the descent to begin addressing opponent's hooks. Push their heels away from your thighs while maintaining your defensive shell and preparing for ground-based escape sequences.
 
 
 </section>
@@ -252,19 +252,15 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice solo descent mechanics: widening base, dropping to knees, hip turn, and turtle establishment. Partner holds standing back control with no resistance while you drill the motion sequence 20-30 repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner applies light harness control and attempts basic choke setups. Practice reading the timing window and executing descent when opponent reaches for the choke rather than when they have consolidated position.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain Controlled Descent with turtle escapes. After landing in turtle, immediately begin Peterson roll, seat switch, or granby sequences. Practice the full defensive chain from standing back control to guard recovery.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate Controlled Descent into live sparring. Start rounds from standing back control and practice decision-making: when to fight standing versus when to descend. Track success rate at reaching turtle versus being flattened.
-(Resistance: Full)
 
 
 

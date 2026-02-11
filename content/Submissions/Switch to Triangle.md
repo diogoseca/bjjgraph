@@ -157,7 +157,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -231,12 +231,12 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish initial control and break posture**: From your guard position (closed, open, or spider), break your opponent's posture forward by pulling on their collar, sleeve, or head while simultaneously scooting your hips toward them. Secure a strong grip on one of their arms - typically an overhook on their defending arm or a wrist control if they're posting. Your goal is to compromise their base and bring their upper body within range for leg positioning. (Timing: 1-2 seconds) [Pressure: Firm]
-2. **Create angle and initiate leg threading**: Hip escape to create a 45-90 degree angle relative to your opponent's centerline. This angle is critical for effective leg placement. Simultaneously begin threading your leg (same side as the arm you're controlling) up and across the back of their neck. Your shin should contact the back of their neck while your foot aims toward their opposite shoulder. Maintain constant forward pull on their posture to prevent them from sitting back. (Timing: 1-2 seconds) [Pressure: Moderate]
-3. **Secure the trapped arm position**: As your leg crosses the back of their neck, actively pull their controlled arm across your body centerline, ensuring it ends up on the inside of your leg that's crossing their neck. This trapped arm positioning is essential - their arm must be inside your leg configuration for the choke to work. Use your hand grip to guide their arm into proper position while your leg begins to secure it. Many beginners fail here by allowing the arm to slip to the outside. (Timing: 1 second) [Pressure: Firm]
-4. **Complete the leg configuration**: Lock your ankle behind your opposite knee to create the figure-four leg configuration. Your calf should be pressing against one side of their neck while their trapped shoulder provides pressure to the opposite side. Adjust your angle so you're perpendicular to your opponent - your body should form a 'T' shape with theirs. This perpendicular positioning maximizes the effectiveness of the choke by creating optimal compression angles on the carotid arteries. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Control their posture and free arm**: With your bottom leg (the one behind your opponent's back), hook over their back or shoulder to prevent them from posturing up and escaping. Your hands should now grip either behind their head to pull them forward, or control their free arm to prevent them from creating frames or relieving pressure. The combination of your legs squeezing and your hands pulling creates a multi-directional control system that makes escape extremely difficult. (Timing: 1 second) [Pressure: Firm]
-6. **Finish the choke with proper mechanics**: To tighten the choke, squeeze your knees together while simultaneously pulling your opponent's head down with your hands or by gripping your own shin. The squeezing motion should be progressive and controlled - imagine trying to touch your knees together. Simultaneously raise your hips slightly off the ground to create upward pressure. The choke works through bilateral carotid compression, so the squeeze must be centered on their neck, not their jaw or back of skull. Apply pressure slowly in training, giving your partner ample time to tap. (Timing: 2-4 seconds) [Pressure: Firm]
+1. **Establish initial control and break posture**: From your guard position (closed, open, or spider), break your opponent's posture forward by pulling on their collar, sleeve, or head while simultaneously scooting your hips toward them. Secure a strong grip on one of their arms - typically an overhook on their defending arm or a wrist control if they're posting. Your goal is to compromise their base and bring their upper body within range for leg positioning. (Timing: 1-2 seconds)
+2. **Create angle and initiate leg threading**: Hip escape to create a 45-90 degree angle relative to your opponent's centerline. This angle is critical for effective leg placement. Simultaneously begin threading your leg (same side as the arm you're controlling) up and across the back of their neck. Your shin should contact the back of their neck while your foot aims toward their opposite shoulder. Maintain constant forward pull on their posture to prevent them from sitting back. (Timing: 1-2 seconds)
+3. **Secure the trapped arm position**: As your leg crosses the back of their neck, actively pull their controlled arm across your body centerline, ensuring it ends up on the inside of your leg that's crossing their neck. This trapped arm positioning is essential - their arm must be inside your leg configuration for the choke to work. Use your hand grip to guide their arm into proper position while your leg begins to secure it. Many beginners fail here by allowing the arm to slip to the outside. (Timing: 1 second)
+4. **Complete the leg configuration**: Lock your ankle behind your opposite knee to create the figure-four leg configuration. Your calf should be pressing against one side of their neck while their trapped shoulder provides pressure to the opposite side. Adjust your angle so you're perpendicular to your opponent - your body should form a 'T' shape with theirs. This perpendicular positioning maximizes the effectiveness of the choke by creating optimal compression angles on the carotid arteries. (Timing: 1-2 seconds)
+5. **Control their posture and free arm**: With your bottom leg (the one behind your opponent's back), hook over their back or shoulder to prevent them from posturing up and escaping. Your hands should now grip either behind their head to pull them forward, or control their free arm to prevent them from creating frames or relieving pressure. The combination of your legs squeezing and your hands pulling creates a multi-directional control system that makes escape extremely difficult. (Timing: 1 second)
+6. **Finish the choke with proper mechanics**: To tighten the choke, squeeze your knees together while simultaneously pulling your opponent's head down with your hands or by gripping your own shin. The squeezing motion should be progressive and controlled - imagine trying to touch your knees together. Simultaneously raise your hips slightly off the ground to create upward pressure. The choke works through bilateral carotid compression, so the squeeze must be centered on their neck, not their jaw or back of skull. Apply pressure slowly in training, giving your partner ample time to tap. (Timing: 2-4 seconds)
 
 
 </section>
@@ -256,22 +256,22 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Failing to control the angle during transition [Low DANGER]
+- **Mistake**: Failing to control the angle during transition
   - **Consequence**: Opponent easily escapes by posturing or extracting their arm
   - **Correction**: Always hip escape to create 45-90 degree angle before attempting leg threading. Your body position relative to theirs is more important than speed of execution.
-- **Mistake**: Allowing opponent's arm to slip to outside of leg during switch [Low DANGER]
+- **Mistake**: Allowing opponent's arm to slip to outside of leg during switch
   - **Consequence**: Triangle cannot be completed and opponent has easy escape path
   - **Correction**: Actively pull and guide opponent's arm across your centerline using strong wrist or overhook control. Their arm must be inside your leg that crosses their neck. Verify arm position before locking figure-four.
-- **Mistake**: Switching legs explosively without controlling posture [Medium DANGER]
+- **Mistake**: Switching legs explosively without controlling posture
   - **Consequence**: Opponent postures up or stacks during transition, potentially injuring your knees or back
   - **Correction**: Always break posture first and maintain forward pull throughout the switch. The transition should be smooth and controlled, not explosive. In training, sacrifice speed for control and safety.
-- **Mistake**: Locking triangle with legs at wrong angle (parallel instead of perpendicular) [Low DANGER]
+- **Mistake**: Locking triangle with legs at wrong angle (parallel instead of perpendicular)
   - **Consequence**: Choke is ineffective, opponent escapes easily, excessive pressure on jaw instead of arteries
   - **Correction**: After locking legs, adjust your entire body position to be perpendicular to opponent - forming a 'T' shape. Your hips should be off to one side, not directly in front of them.
-- **Mistake**: Applying the choke too quickly in training without proper control established [CRITICAL DANGER]
+- **Mistake**: Applying the choke too quickly in training without proper control established
   - **Consequence**: Potential neck injury to training partner, breakdown of trust and training culture
   - **Correction**: In training, always secure full position first (legs locked, angle correct, arm trapped) before applying any finishing pressure. Give partner clear opportunity to recognize position and tap before tightening. Save competition speed for competition.
-- **Mistake**: Neglecting to control opponent's free arm during finish [Low DANGER]
+- **Mistake**: Neglecting to control opponent's free arm during finish
   - **Consequence**: Opponent creates frames, relieves pressure, or escapes the position
   - **Correction**: Once triangle is locked, immediately address their free arm by either pulling their head to eliminate space, gripping their free wrist, or using your hands to press their arm across their own neck.
 
@@ -336,43 +336,6 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper body mechanics and positioning without any resistance. Partner remains completely passive while you practice the transition movements, angle creation, and leg threading. Focus on smooth execution and understanding where each body part should be positioned.
-- Resistance: None
-- Safety: Review all tap signals with partner and practice release protocol. Emphasize that NO pressure should be applied during this phase - only positioning practice.
-
-**Controlled Repetition** (Week 3-4)
-- Focus: Perform 20-30 repetitions per training session from static guard positions. Partner allows the transition but may provide light feedback about positioning errors. Begin recognizing the arm trap detail as the most critical element. Practice from multiple guard types (closed, open, spider).
-- Resistance: Zero resistance
-- Safety: Begin applying light pressure at finish but only for 2-3 seconds maximum. Partner should tap early to practice tap recognition and immediate release protocol.
-
-**Situational Drilling with Light Defense** (Week 5-8)
-- Focus: Partner provides mild resistance by maintaining moderate posture and attempting basic escapes (pulling arm free, light posturing). Practice recognizing when transition is available versus when to abandon and try different attack. Begin integrating with armbar and omoplata attempts.
-- Resistance: Mild resistance
-- Safety: Maintain slow, progressive pressure application (5+ seconds). Partner practices tapping at first sign of pressure. Emphasize communication - if anything feels wrong, stop immediately.
-
-**Dynamic Integration** (Week 9-12)
-- Focus: Integrate switch into live guard passing scenarios where partner is actively trying to pass. Work on timing the switch based on their defensive reactions. Practice switching from failed attacks into triangle. Begin recognizing patterns in how different body types defend.
-- Resistance: Realistic resistance
-- Safety: Both partners should be comfortable with technique before this phase. Maintain 3-5 second application time. Never spike the choke or transition explosively without control. Agree on training intensity beforehand.
-
-**Live Rolling Integration** (Month 4-6)
-- Focus: Attempt technique during normal rolling sessions against resisting opponents. Accept that success rate will be lower initially. Focus on creating the entries through previous attacks (armbar setup to triangle). Learn to recognize when opponent's defense gives you the opening.
-- Resistance: Full resistance
-- Safety: In live rolling, apply submissions progressively even with full resistance. Training partners should tap early rather than fighting through danger. Establish culture where smooth technique is valued over forced submissions.
-
-**Competition Preparation** (Month 6+)
-- Focus: Practice under competition conditions including time pressure, score situations, and full resistance. Develop backup plans when triangle is defended. Build cardio capacity to hit technique when fatigued. Drill finish details to maximize success rate under pressure.
-- Resistance: Full resistance
-- Safety: Even in competition training, maintain safety protocols. Competition speed should only be used with experienced partners who understand risks. Always distinguish between training intensity and competition application. In actual competition, apply progressively but firmly - opponent's safety is still paramount.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -428,6 +391,7 @@ The Switch to Triangle represents a fundamental transition technique in Brazilia
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

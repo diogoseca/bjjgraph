@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Back Take from Ashi Garami represents a critical strategic pivot in the modern leg lock game, allowing practitioners to convert leg entanglement control into the most dominant position in Brazilian Jiu-Jitsu. When an opponent successfully defends leg attacks by hiding their heel or creates defensive frames that prevent submission finishes, the back take offers an alternative path to victory that maintains offensive momentum rather than resetting to neutral positions.\n\nThis transition exploits a fundamental vulnerability in leg lock defense: when opponents sit up aggressively to address leg attacks or attempt to extract their trapped leg, they often expose their back. The technique requires recognizing the precise moment when opponent commits their weight forward and redirecting their momentum to facilitate the transition. Rather than forcing submissions against strong defense, the back take follows the principle of flowing to the path of least resistance while maintaining constant threat.\n\nThe back take from ashi has become increasingly important in modern competition as leg lock defenses have improved. High-level practitioners use the threat of leg attacks to create back take opportunities, and the threat of back takes to create leg lock openings. This creates a systematic dilemma where defending one attack opens vulnerability to the other, embodying the interconnected nature of positional grappling at advanced levels.",
   "key_principles": [
     "Recognize when opponent's defensive posture creates back exposure by sitting up or reaching toward you",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Recognize the trigger",
-      "description": "Identify when opponent sits up to address leg control or reaches forward to create defensive frames, exposing their back as they shift weight toward you.",
-      "timing": "As opponent commits weight forward"
+      "description": "Identify when opponent sits up to address leg control or reaches forward to create defensive frames, exposing their back as they shift weight toward you."
     },
     {
       "step_number": 2,
       "action": "Secure upper body connection",
-      "description": "Before releasing any leg control, reach with your inside arm to secure a grip on opponent's far shoulder, collar, or underhook position to establish upper body control.",
-      "timing": "Immediately after recognizing trigger"
+      "description": "Before releasing any leg control, reach with your inside arm to secure a grip on opponent's far shoulder, collar, or underhook position to establish upper body control."
     },
     {
       "step_number": 3,
       "action": "Release inside leg",
-      "description": "Remove your inside leg from across opponent's hip while maintaining outside leg hook, using this leg to push off the mat and begin circling toward their back.",
-      "timing": "As upper body grip is secured"
+      "description": "Remove your inside leg from across opponent's hip while maintaining outside leg hook, using this leg to push off the mat and begin circling toward their back."
     },
     {
       "step_number": 4,
       "action": "Circle toward back",
-      "description": "Hip escape and circle your body toward opponent's back, using your outside leg hook as an anchor point while your inside leg swings around to establish first hook behind their hip.",
-      "timing": "Continuous motion following leg release"
+      "description": "Hip escape and circle your body toward opponent's back, using your outside leg hook as an anchor point while your inside leg swings around to establish first hook behind their hip."
     },
     {
       "step_number": 5,
       "action": "Establish seatbelt control",
-      "description": "As you arrive at opponent's back, secure seatbelt grip with one arm over their shoulder and other under their armpit, hands clasped together controlling upper body.",
-      "timing": "As first hook is inserted"
+      "description": "As you arrive at opponent's back, secure seatbelt grip with one arm over their shoulder and other under their armpit, hands clasped together controlling upper body."
     },
     {
       "step_number": 6,
       "action": "Insert second hook",
-      "description": "Release remaining leg control on opponent's original trapped leg and insert second hook inside their thigh, completing back control with both hooks and seatbelt established.",
-      "timing": "Once seatbelt is secured"
+      "description": "Release remaining leg control on opponent's original trapped leg and insert second hook inside their thigh, completing back control with both hooks and seatbelt established."
     },
     {
       "step_number": 7,
       "action": "Consolidate position",
-      "description": "Pull opponent onto their side or take them down to the mat, establishing chest-to-back connection with full back control including both hooks deep and harness secured.",
-      "timing": "Immediately after second hook"
+      "description": "Pull opponent onto their side or take them down to the mat, establishing chest-to-back connection with full back control including both hooks deep and harness secured."
     }
   ],
   "common_counters": [
@@ -146,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanical pathway",
-      "description": "Practice the transition sequence without resistance, focusing on the order of operations: recognize trigger, secure upper body, release inside leg, circle, establish hooks. Drill 50 repetitions per side per session.",
-      "resistance_level": "None"
+      "description": "Practice the transition sequence without resistance, focusing on the order of operations: recognize trigger, secure upper body, release inside leg, circle, establish hooks. Drill 50 repetitions per side per session."
     },
     {
       "phase": "Week 3-4",
       "focus": "Trigger recognition",
-      "description": "Partner provides light resistance and varies timing of sitting up or reaching forward. Practice recognizing the trigger and initiating transition at correct moment. Include failed attempts where timing is wrong.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance and varies timing of sitting up or reaching forward. Practice recognizing the trigger and initiating transition at correct moment. Include failed attempts where timing is wrong."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain integration",
-      "description": "Combine back take with leg attack threats, flowing between ankle lock attempts, heel hook threats, and back take based on partner's defensive reactions. Practice reading which option is available.",
-      "resistance_level": "Medium"
+      "description": "Combine back take with leg attack threats, flowing between ankle lock attempts, heel hook threats, and back take based on partner's defensive reactions. Practice reading which option is available."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Apply technique in positional sparring starting from inside ashi. Both partners work at full resistance with goal of either completing leg lock, taking back, or escaping. Track success rate.",
-      "resistance_level": "Full"
+      "description": "Apply technique in positional sparring starting from inside ashi. Both partners work at full resistance with goal of either completing leg lock, taking back, or escaping. Track success rate."
     }
   ],
   "variants_and_adaptations": [
@@ -188,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Back Take from Ashi?",
-      "answer": "The primary goal is to convert a leg entanglement position into back control when leg attack submissions are being effectively defended. This allows maintaining offensive pressure rather than resetting to neutral positions, and creates a systematic dilemma where defending leg attacks exposes the back.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert a leg entanglement position into back control when leg attack submissions are being effectively defended. This allows maintaining offensive pressure rather than resetting to neutral positions, and creates a systematic dilemma where defending leg attacks exposes the back."
     },
     {
       "question": "What position do you start Back Take from Ashi from?",
-      "answer": "This technique starts from Inside Ashi-Garami with you in the top/controlling position. You must have your inside leg across opponent's hip and outside leg hooking behind their knee, with established control of their trapped leg.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Inside Ashi-Garami with you in the top/controlling position. You must have your inside leg across opponent's hip and outside leg hooking behind their knee, with established control of their trapped leg."
     },
     {
       "question": "What are the key grips needed for Back Take from Ashi?",
-      "answer": "Initially you need whatever grip controls the trapped leg in ashi. Before transitioning, you must secure upper body connection with at least one arm reaching to opponent's far shoulder, collar, or establishing underhook. Final grips are seatbelt configuration with one arm over shoulder and one under armpit.",
-      "difficulty": "Intermediate"
+      "answer": "Initially you need whatever grip controls the trapped leg in ashi. Before transitioning, you must secure upper body connection with at least one arm reaching to opponent's far shoulder, collar, or establishing underhook. Final grips are seatbelt configuration with one arm over shoulder and one under armpit."
     },
     {
       "question": "Your opponent is defending your heel hook by keeping their knee rotated away - when should you transition to back take versus continuing to attack the leg?",
-      "answer": "Transition to back take when opponent sits up aggressively to address your leg control or reaches forward creating back exposure. If they maintain low defensive posture without sitting up, continue leg attack threats to force the reaction. The back take requires forward commitment from opponent - without this trigger, forcing the transition loses both positions.",
-      "difficulty": "Advanced"
+      "answer": "Transition to back take when opponent sits up aggressively to address your leg control or reaches forward creating back exposure. If they maintain low defensive posture without sitting up, continue leg attack threats to force the reaction. The back take requires forward commitment from opponent - without this trigger, forcing the transition loses both positions."
     },
     {
       "question": "How do you counter Back Take from Ashi?",
-      "answer": "Primary counters include maintaining low defensive posture without sitting up, immediately turning into the attacker to establish guard when leg control releases, standing and creating distance before back control is established, or establishing whizzer/overhook to prevent hook insertion. The key is recognizing the transition attempt early and not committing weight forward.",
-      "difficulty": "Intermediate"
+      "answer": "Primary counters include maintaining low defensive posture without sitting up, immediately turning into the attacker to establish guard when leg control releases, standing and creating distance before back control is established, or establishing whizzer/overhook to prevent hook insertion. The key is recognizing the transition attempt early and not committing weight forward."
     },
     {
       "question": "When is the best time to attempt Back Take from Ashi?",
-      "answer": "The optimal timing is when opponent sits up to address your leg control, reaches forward to strip grips, or commits weight toward you while defending heel exposure. This forward commitment creates the back exposure necessary for clean transition. Attempting when opponent maintains low defensive posture typically fails.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent sits up to address your leg control, reaches forward to strip grips, or commits weight toward you while defending heel exposure. This forward commitment creates the back exposure necessary for clean transition. Attempting when opponent maintains low defensive posture typically fails."
     },
     {
       "question": "What is the correct sequence for releasing leg control during the transition?",
-      "answer": "Always secure upper body grip first before releasing any leg control. Then release your inside leg while maintaining outside leg hook as an anchor. Use the inside leg to push off the mat and circle toward opponent's back. Only release the outside leg hook after first back hook is inserted and seatbelt is established. This sequencing ensures continuous control throughout.",
-      "difficulty": "Advanced"
+      "answer": "Always secure upper body grip first before releasing any leg control. Then release your inside leg while maintaining outside leg hook as an anchor. Use the inside leg to push off the mat and circle toward opponent's back. Only release the outside leg hook after first back hook is inserted and seatbelt is established. This sequencing ensures continuous control throughout."
     },
     {
       "question": "Your opponent stands up explosively as you initiate the back take - how do you adjust?",
-      "answer": "Maintain any grip on their leg or pants and use their standing motion to pull yourself up to standing back control, or immediately shoot for single leg takedown since their base is compromised. Alternatively, if you have good outside leg connection, consider inverting for Kiss of the Dragon entry. Do not try to pull them back down - use their momentum rather than fighting it.",
-      "difficulty": "Advanced"
+      "answer": "Maintain any grip on their leg or pants and use their standing motion to pull yourself up to standing back control, or immediately shoot for single leg takedown since their base is compromised. Alternatively, if you have good outside leg connection, consider inverting for Kiss of the Dragon entry. Do not try to pull them back down - use their momentum rather than fighting it."
     }
   ],
   "safety_considerations": "This transition involves releasing leg control and moving dynamically to opponent's back, which carries lower injury risk than most leg lock positions but requires controlled practice. Primary safety concerns include avoiding explosive movements that could torque opponent's knee as you release leg control, and ensuring controlled descent when taking opponent to mat from back position. Practice initially at slow speed to develop the timing and pathway. When drilling with resistance, communicate clearly about intensity levels. The transition itself does not apply joint stress but careless execution during release of leg control could strain opponent's knee if their leg is still entangled during explosive movement.",
@@ -266,5 +242,6 @@
       "name": "Armbar from Back",
       "relationship": "Secondary submission option after achieving back control"
     }
-  ]
+  ],
+  "success_rate": 58
 }

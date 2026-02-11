@@ -17,7 +17,7 @@ description: "Master the Explosive Bridge to Guard Recovery from North-South bot
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Explosive Bridge to Guard Recovery in BJJ",
-  "description": "Step-by-step guide for Explosive Bridge to Guard Recovery from North South Control/Bottom. Possible outcomes: Closed Guard (45%), Half Guard (20%), North South Control (25%), Mount (10%).",
+  "description": "Step-by-step guide for Explosive Bridge to Guard Recovery from North-South/Bottom. Possible outcomes: Closed Guard (45%), Half Guard (20%), North-South (25%), Mount (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -156,8 +156,8 @@ The technique requires precise timing rather than raw strength. The optimal mome
 
 Strategically, this escape serves as a reset mechanism when other North-South escapes fail or are unavailable. Unlike the bridge-and-turn escape to turtle, which requires committing to a turning direction, this technique keeps you on your back in a guard position where your legs become your primary defensive weapons. This makes it particularly valuable for guard players who prefer to work from closed guard or half guard rather than scrambling through turtle positions.
 
-**From Position**: [[North South Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[North-South/Bottom]]
+**Success Rate**: 58%
 
 </section>
 
@@ -169,7 +169,7 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 |--------|----------|-------------|
 | Success | [[Closed Guard]] | 45% |
 | Success | [[Half Guard]] | 20% |
-| Failure | [[North South Control]] | 25% |
+| Failure | [[North-South]] | 25% |
 | Counter | [[Mount]] | 10% |
 
 
@@ -205,12 +205,12 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Plant feet**: Position both feet flat on the mat approximately shoulder-width apart with knees bent at 90 degrees. Dig heels into the mat to create a solid platform for explosive hip extension. (Timing: Before opponent fully consolidates weight)
-2. **Protect arms**: Keep both elbows tight to your ribcage with forearms creating a protective frame. This prevents arm isolation while positioning arms to create hip frames after the bridge. (Timing: Continuous throughout setup)
-3. **Identify timing window**: Feel for opponent's weight shift indicating transition to mount, submission setup, or base adjustment. The pressure will momentarily lighten as they redistribute weight for their next action. (Timing: Wait for weight shift - do not bridge against consolidated pressure)
-4. **Explosive bridge**: Drive hips explosively toward the ceiling at a 45-degree angle toward opponent's knees. Extend fully through the hips while simultaneously turning shoulders slightly to amplify the off-balancing effect. (Timing: Immediately as weight shifts)
-5. **Create frames**: As opponent elevates from the bridge, immediately shoot both hands to their hips and create stiff-arm frames. Push their hips away from your centerline to prevent them from driving back down. (Timing: Within half a second of bridge apex)
-6. **Insert legs**: Use the space created by hip frames to bring knees toward your chest and insert legs between you and opponent. Establish closed guard by crossing ankles behind their back, or half guard by hooking one leg. (Timing: Immediately while maintaining frames - window is brief)
+1. **Plant feet**: Position both feet flat on the mat approximately shoulder-width apart with knees bent at 90 degrees. Dig heels into the mat to create a solid platform for explosive hip extension.
+2. **Protect arms**: Keep both elbows tight to your ribcage with forearms creating a protective frame. This prevents arm isolation while positioning arms to create hip frames after the bridge.
+3. **Identify timing window**: Feel for opponent's weight shift indicating transition to mount, submission setup, or base adjustment. The pressure will momentarily lighten as they redistribute weight for their next action.
+4. **Explosive bridge**: Drive hips explosively toward the ceiling at a 45-degree angle toward opponent's knees. Extend fully through the hips while simultaneously turning shoulders slightly to amplify the off-balancing effect.
+5. **Create frames**: As opponent elevates from the bridge, immediately shoot both hands to their hips and create stiff-arm frames. Push their hips away from your centerline to prevent them from driving back down.
+6. **Insert legs**: Use the space created by hip frames to bring knees toward your chest and insert legs between you and opponent. Establish closed guard by crossing ankles behind their back, or half guard by hooking one leg.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this escape serves as a reset mechanism when other North-South es
 ## Training Progressions
 **Week 1-2** - Bridge mechanics
 Practice explosive 45-degree bridges without a partner, focusing on hip extension power and directional control. Add partner in static North-South with minimal pressure to rehearse the sequence without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies moderate North-South pressure and transitions between attacks. Focus on recognizing weight shift windows and executing bridges with proper timing rather than forcing against pressure.
-(Resistance: Light)
 
 **Week 5-6** - Frame-to-guard connection
 Drill the complete sequence with partner providing progressive resistance. Emphasize the speed of hip frame creation and leg insertion. Add variations for half guard recovery when closed guard is unavailable.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply technique in specific sparring starting from North-South bottom. Partner works full resistance with realistic transitions and counter-attacks. Integrate with other North-South escapes as chain options.
-(Resistance: Full)
 
 
 
@@ -340,7 +336,7 @@ The Explosive Bridge to Guard Recovery occupies a critical position in the North
 
 ## Related Techniques
 
-- [[North South Control]] - Starting position
+- [[North-South]] - Starting position
 - [[Closed Guard]] - Primary target position on successful escape
 - [[Half Guard]] - Secondary target position when closed guard unavailable
 - [[Bridge and Turn to Turtle]] - Alternative escape when guard recovery blocked

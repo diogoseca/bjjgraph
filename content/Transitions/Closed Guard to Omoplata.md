@@ -159,7 +159,7 @@ description: "Learn Closed Guard to Omoplata in BJJ. Step-by-step shoulder lock 
 The transition to omoplata is a fundamental shoulder lock entry that exploits the opponent's defensive posture and arm positioning from guard. This technique combines elements of sweeping mechanics with submission attacks, creating a powerful dual threat that forces opponents into defensive dilemmas. The omoplata transition is particularly effective when opponents defend against triangle or armbar attempts, as their arm positioning naturally sets up the shoulder lock entry. The beauty of this transition lies in its versatility - it can be executed from closed guard, spider guard, rubber guard, and various open guard configurations, making it an essential component of any guard player's arsenal. The technique relies on controlling the opponent's arm at the shoulder and using leg positioning to create rotational pressure on the shoulder joint while simultaneously off-balancing them for potential sweeps.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -208,13 +208,13 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish arm control**: Secure control of opponent's arm using overhook, sleeve grip, or wrist control. Break their posture forward and prevent them from posting their free hand on the mat. The controlled arm should be isolated and pulled across your centerline. (Timing: Initial setup phase)
-2. **Create angle with hip escape**: Perform a hip escape movement to create approximately 45-degree angle to your opponent's body. This angle is crucial for threading your leg over their shoulder. Your hips should be perpendicular to their torso while maintaining arm control. (Timing: As opponent attempts to establish base)
-3. **Thread leg over shoulder**: Swing your near-side leg over the opponent's shoulder, placing your hamstring across the back of their neck and shoulder. Your shin should be pressing against their head, creating downward pressure. Keep your leg tight to their body throughout this movement. (Timing: Immediately after creating angle)
-4. **Secure leg position**: Lock your leg in place by either crossing your ankles in a figure-four configuration around their arm, or by placing your top foot under your bottom knee. Your bottom leg should create a wedge preventing their arm from escaping, while your top leg controls their head and posture. (Timing: Before opponent can withdraw their arm)
-5. **Break opponent's base**: Use your free leg to hook behind their far knee or sweep their posting hand. Simultaneously pull their trapped arm away from their body while rotating your hips toward their head. This breaks their base and forces them onto their side. (Timing: As they attempt to posture or defend)
-6. **Rotate to omoplata control**: Complete the rotation by turning your hips toward their head, bringing your chest over their back. Sit up and establish chest-to-back connection. Control their far hip with your hand and ensure their trapped arm is extended behind their back with shoulder joint locked. (Timing: As they collapse to their side)
-7. **Consolidate position**: Adjust your leg pressure to maintain constant downward force on their shoulder. Control their hips to prevent them from rolling forward. From here you can finish the shoulder lock, transition to back control, or execute a sweep to mount depending on their defensive response. (Timing: Final control establishment)
+1. **Establish arm control**: Secure control of opponent's arm using overhook, sleeve grip, or wrist control. Break their posture forward and prevent them from posting their free hand on the mat. The controlled arm should be isolated and pulled across your centerline.
+2. **Create angle with hip escape**: Perform a hip escape movement to create approximately 45-degree angle to your opponent's body. This angle is crucial for threading your leg over their shoulder. Your hips should be perpendicular to their torso while maintaining arm control.
+3. **Thread leg over shoulder**: Swing your near-side leg over the opponent's shoulder, placing your hamstring across the back of their neck and shoulder. Your shin should be pressing against their head, creating downward pressure. Keep your leg tight to their body throughout this movement.
+4. **Secure leg position**: Lock your leg in place by either crossing your ankles in a figure-four configuration around their arm, or by placing your top foot under your bottom knee. Your bottom leg should create a wedge preventing their arm from escaping, while your top leg controls their head and posture.
+5. **Break opponent's base**: Use your free leg to hook behind their far knee or sweep their posting hand. Simultaneously pull their trapped arm away from their body while rotating your hips toward their head. This breaks their base and forces them onto their side.
+6. **Rotate to omoplata control**: Complete the rotation by turning your hips toward their head, bringing your chest over their back. Sit up and establish chest-to-back connection. Control their far hip with your hand and ensure their trapped arm is extended behind their back with shoulder joint locked.
+7. **Consolidate position**: Adjust your leg pressure to maintain constant downward force on their shoulder. Control their hips to prevent them from rolling forward. From here you can finish the shoulder lock, transition to back control, or execute a sweep to mount depending on their defensive response.
 
 
 </section>
@@ -261,27 +261,21 @@ The transition to omoplata is a fundamental shoulder lock entry that exploits th
 ## Training Progressions
 **Phase 1: Movement Fundamentals (Weeks 1-2)** - Hip escape mechanics and leg threading
 Practice hip escape movements and threading leg over stationary partner's shoulder from closed guard. Partner remains completely static. Focus on creating proper angle and smooth leg positioning without resistance. Drill 20 repetitions per training session, alternating sides.
-(Resistance: None)
 
 **Phase 2: Arm Control Integration (Weeks 3-4)** - Maintaining arm control during transition
 Add arm control elements while partner offers light resistance by attempting to withdraw their arm. Practice maintaining overhook or wrist grip throughout the entire transition. Partner should not defend the position, only test your grip strength. Focus on continuous control.
-(Resistance: Light)
 
 **Phase 3: Base Breaking (Weeks 5-6)** - Sweeping mechanics and off-balancing
 Partner maintains normal base and posture. Practice breaking their base with free leg while securing omoplata position. Partner allows themselves to be swept but maintains realistic weight distribution. Work on timing hip rotation with their loss of balance. Incorporate variations for different defensive postures.
-(Resistance: Medium)
 
 **Phase 4: Defensive Responses (Weeks 7-8)** - Countering common escapes
 Partner introduces specific counters: forward roll, arm withdrawal, stack defense, and posture maintenance. Learn to recognize and counter each defensive response appropriately. Practice transitioning to back take, triangle, or sweep based on their defense. Begin chaining techniques together.
-(Resistance: Medium)
 
 **Phase 5: Live Positional Sparring (Weeks 9-10)** - Application under realistic conditions
 Start from guard with agreement that both players are working the omoplata game. Top player defends intelligently while bottom player attacks. Reset after each successful transition or escape. Gradually increase intensity while maintaining technical focus. Work 5-minute rounds with multiple partners.
-(Resistance: Full)
 
 **Phase 6: Free Rolling Integration (Week 11+)** - Spontaneous application in live training
 Attempt omoplata transitions during normal rolling without pre-arrangement. Focus on recognizing opportunities when opponent's arm positioning allows entry. Chain with other guard attacks to create submission sequences. Accept failures as learning opportunities and analyze what prevented successful execution.
-(Resistance: Full)
 
 
 

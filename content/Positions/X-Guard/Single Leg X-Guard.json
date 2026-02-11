@@ -253,19 +253,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75
+        "value": 65
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35
+        "value": 28
       },
       "average_time": "30-90 seconds depending on skill differential and strategic approach"
     },
@@ -566,58 +560,56 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "average_time": "30-90 seconds depending on skill level and opponent's defensive knowledge"
     },
     "transitions": [
       {
         "transition": "Single Leg X Sweep",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "X-Guard to Ashi Transition",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 11
+        "attempt_probability": 10
       },
       {
         "transition": "Technical Stand Up to Single Leg",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Butterfly Guard to X-Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "De La Riva to X-Guard Transition",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Ankle Pick Sweep",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Inside Ashi Entry",
         "attempt_probability": 10
       },
       {
-        "transition": "Standing to Single Leg X",
+        "transition": "Ankle Pick Sweep",
         "attempt_probability": 11
+      },
+      {
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Standing to Single Leg X",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Heel Grab Sweep",
+        "attempt_probability": 10
       }
     ],
     "knowledge_assessment": [

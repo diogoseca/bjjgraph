@@ -157,7 +157,7 @@ Strategically, the Cross Collar Choke serves as a primary finishing option from 
 The choke's effectiveness stems from its direct attack on blood flow rather than airway compression. The crossed grips on the collar create a scissoring action that closes both carotid arteries simultaneously, causing rapid loss of consciousness if the opponent fails to defend or tap. This mechanism makes the technique extremely efficient against resisting opponents who cannot simply power through the submission.
 
 **From Position**: [[High Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The choke's effectiveness stems from its direct attack on blood flow rather than
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish first grip**: With your dominant hand, reach across to the opposite side collar. Insert your thumb inside the collar as deep as possible, ideally behind the neck seam, with your knuckles pressing firmly against the side of the neck below the ear. (Timing: Execute when opponent's defensive hands are occupied or pinned)
-2. **Secure head control**: Use your gripping arm's elbow to control the opponent's head, preventing them from turning away or creating defensive angles. Your forearm should rest against the side of their face, keeping their head centered and immobile. (Timing: Immediately after establishing first grip)
-3. **Clear defensive hands**: Use your free hand to strip any defensive grips the opponent establishes on your choking arm. Push their defending hand toward their hip or pin it under your knee if possible, creating space for the second grip entry. (Timing: Before attempting second grip)
-4. **Insert second grip**: Slide your second hand under your first arm, reaching to the opposite collar with thumb inside. The second grip should be equally deep, with knuckles positioned against the other side of the neck. Your arms now form an X across the throat. (Timing: When defensive hand is cleared and path is open)
-5. **Position elbows**: Draw both elbows down toward the opponent's hips while keeping your hands in place. This creates the scissoring action essential for the choke. Your forearms should now be pressing against both sides of the neck, not the front of the throat. (Timing: Immediately after securing second grip)
-6. **Apply finishing pressure**: Rotate your wrists inward while pulling your elbows toward each other and down toward your own hips. Lower your chest toward the opponent's face to add upper body weight to the choke. Maintain steady, increasing pressure until the tap or unconsciousness occurs. (Timing: Continuous pressure—do not pulse or release)
+1. **Establish first grip**: With your dominant hand, reach across to the opposite side collar. Insert your thumb inside the collar as deep as possible, ideally behind the neck seam, with your knuckles pressing firmly against the side of the neck below the ear.
+2. **Secure head control**: Use your gripping arm's elbow to control the opponent's head, preventing them from turning away or creating defensive angles. Your forearm should rest against the side of their face, keeping their head centered and immobile.
+3. **Clear defensive hands**: Use your free hand to strip any defensive grips the opponent establishes on your choking arm. Push their defending hand toward their hip or pin it under your knee if possible, creating space for the second grip entry.
+4. **Insert second grip**: Slide your second hand under your first arm, reaching to the opposite collar with thumb inside. The second grip should be equally deep, with knuckles positioned against the other side of the neck. Your arms now form an X across the throat.
+5. **Position elbows**: Draw both elbows down toward the opponent's hips while keeping your hands in place. This creates the scissoring action essential for the choke. Your forearms should now be pressing against both sides of the neck, not the front of the throat.
+6. **Apply finishing pressure**: Rotate your wrists inward while pulling your elbows toward each other and down toward your own hips. Lower your chest toward the opponent's face to add upper body weight to the choke. Maintain steady, increasing pressure until the tap or unconsciousness occurs.
 
 
 </section>
@@ -255,19 +255,15 @@ The choke's effectiveness stems from its direct attack on blood flow rather than
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice grip insertion depth and thumb placement on a compliant partner. Focus on feeling the correct position where knuckles contact the neck. Drill first grip establishment 50+ times per session until the motion becomes automatic.
-(Resistance: None)
 
 **Week 3-4** - Complete sequence
 Add the full six-step sequence with light defensive reactions. Partner provides grip fighting at 25% effort, allowing you to practice grip maintenance and the transition between first and second grip. Introduce elbow positioning and finishing mechanics.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Integrate armbar threats when opponent defends the choke. Practice transitioning between choke attempt and armbar based on defensive reactions. Add bridge defense and position maintenance under moderate resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in positional sparring starting from high mount. Track success rate and identify failure points. Full resistance with emphasis on grip fighting and recognizing optimal timing windows.
-(Resistance: Full)
 
 
 

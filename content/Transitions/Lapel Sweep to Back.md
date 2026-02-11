@@ -157,7 +157,7 @@ Strategically, this technique exemplifies the dilemma-based approach that makes 
 The technique requires timing recognition and commitment to the back take pathway. Many practitioners successfully initiate the sweep but hesitate when the opponent begins rotating, losing the back take opportunity. Understanding that the opponent's rotation IS the technique working—not a failed sweep—is critical for successful execution.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The technique requires timing recognition and commitment to the back take pathwa
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish lapel configuration**: From seated or supine lapel guard, ensure your lapel grip is secure with the fabric wrapped around the opponent's leg behind the knee (worm guard style) or around their arm. Use a pistol grip or four-finger hook through the lapel fabric for maximum security. (Timing: Before opponent establishes strong passing grips)
-2. **Secure sleeve control**: Grip the opponent's far sleeve at the wrist or cuff with your free hand. This grip prevents them from posting their hand when you initiate the sweep, which is essential for opening the back take pathway. Without this control, they can simply post and base out. (Timing: Immediately after establishing lapel configuration)
-3. **Load the sweep**: Use your legs and hip movement to begin disrupting the opponent's base, pulling them forward and to the side with your lapel grip while controlling their posting arm. Create the genuine sweep threat by elevating your hips and directing their weight over their base. (Timing: When opponent's weight shifts forward)
-4. **Follow the rotation**: As the opponent defends the sweep by rotating or attempting to backstep, do not release your grips. Instead, sit up aggressively and follow their rotation, using the lapel as your anchor point. Your momentum should carry you toward their back as they turn to prevent being swept. (Timing: Immediately when opponent begins defensive rotation)
-5. **Transition to back**: Continue following the opponent's rotation while maintaining lapel control. Use your free arm to establish an underhook or seatbelt grip as you come up to their back. The lapel grip maintains your connection throughout the transition, preventing them from facing you. (Timing: During opponent's defensive movement)
-6. **Secure back control**: Insert your hooks as you establish the seatbelt grip with your arms. The lapel grip can now be released or maintained as additional control. Ensure your chest is tight to their back with your head positioned on the choking side before settling into the position. (Timing: As soon as you reach the back position)
+1. **Establish lapel configuration**: From seated or supine lapel guard, ensure your lapel grip is secure with the fabric wrapped around the opponent's leg behind the knee (worm guard style) or around their arm. Use a pistol grip or four-finger hook through the lapel fabric for maximum security.
+2. **Secure sleeve control**: Grip the opponent's far sleeve at the wrist or cuff with your free hand. This grip prevents them from posting their hand when you initiate the sweep, which is essential for opening the back take pathway. Without this control, they can simply post and base out.
+3. **Load the sweep**: Use your legs and hip movement to begin disrupting the opponent's base, pulling them forward and to the side with your lapel grip while controlling their posting arm. Create the genuine sweep threat by elevating your hips and directing their weight over their base.
+4. **Follow the rotation**: As the opponent defends the sweep by rotating or attempting to backstep, do not release your grips. Instead, sit up aggressively and follow their rotation, using the lapel as your anchor point. Your momentum should carry you toward their back as they turn to prevent being swept.
+5. **Transition to back**: Continue following the opponent's rotation while maintaining lapel control. Use your free arm to establish an underhook or seatbelt grip as you come up to their back. The lapel grip maintains your connection throughout the transition, preventing them from facing you.
+6. **Secure back control**: Insert your hooks as you establish the seatbelt grip with your arms. The lapel grip can now be released or maintained as additional control. Ensure your chest is tight to their back with your head positioned on the choking side before settling into the position.
 
 
 </section>
@@ -254,19 +254,15 @@ The technique requires timing recognition and commitment to the back take pathwa
 ## Training Progressions
 **Week 1-2** - Grip mechanics and lapel configuration
 Focus on establishing and maintaining the lapel grip while adding sleeve control. Practice the sweep motion without resistance, emphasizing the connection between lapel pull and sleeve control.
-(Resistance: None)
 
 **Week 3-4** - Rotation recognition and following
 Partner provides common defensive reactions (rotation, backstep, posting). Practice recognizing these reactions and following the rotation to the back without forcing the sweep.
-(Resistance: Light)
 
 **Week 5-6** - Sweep-to-back chain combinations
 Combine with other lapel guard attacks. Practice flowing between sweep threat and back take based on opponent reaction. Add alternative attacks when back is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Apply technique in live rolling situations. Identify personal timing issues and grip failures. Develop sensitivity to when back take is available versus when to complete the sweep.
-(Resistance: Full)
 
 
 

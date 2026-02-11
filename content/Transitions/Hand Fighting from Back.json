@@ -33,11 +33,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Hand Fighting from Back is the foundational defensive skill for surviving back control, representing the first and most critical layer of defense against rear naked choke and other back attacks. This technique focuses on systematic grip fighting to prevent the opponent from establishing choking grips while creating opportunities for escape sequences. The methodology prioritizes constant hand engagement on the opponent's attacking arms, using two-on-one control and chin protection to neutralize submission threats before they materialize.\n\nThe strategic importance of hand fighting cannot be overstated - it transforms back control from an immediately terminal position into a survivable situation where escape becomes possible. By maintaining constant grip engagement on the opponent's choking arm, you deny them the clean entry angle required for rear naked choke while simultaneously building toward hook removal and positional escape. Effective hand fighting requires understanding grip hierarchy: which grips to prioritize, when to transition between defensive structures, and how to integrate hand fighting with hip movement for complete escape sequences.\n\nAdvanced practitioners use hand fighting not merely as passive defense but as an active system that creates dilemmas for the attacking opponent. When executed with proper timing and pressure, hand fighting forces the attacker to choose between maintaining back control and pursuing submissions - a choice that creates windows for escape. This technique serves as the gateway to all other back escapes, making it essential foundational knowledge for any serious practitioner.",
   "key_principles": [
     "Two-on-one control on the choking arm takes absolute priority over all other defensive actions",
@@ -59,38 +54,32 @@
     {
       "step_number": 1,
       "action": "Tuck chin",
-      "description": "Immediately drive chin down toward chest, creating first defensive barrier against choke. Turn head slightly toward opponent's choking arm side to reduce neck exposure angle.",
-      "timing": "Within first second of back control establishment"
+      "description": "Immediately drive chin down toward chest, creating first defensive barrier against choke. Turn head slightly toward opponent's choking arm side to reduce neck exposure angle."
     },
     {
       "step_number": 2,
       "action": "Identify choking arm",
-      "description": "Determine which arm opponent is using to attack neck versus which arm controls your body. The choking arm typically comes over your shoulder toward your throat while control arm wraps under opposite armpit.",
-      "timing": "Immediately after chin tuck"
+      "description": "Determine which arm opponent is using to attack neck versus which arm controls your body. The choking arm typically comes over your shoulder toward your throat while control arm wraps under opposite armpit."
     },
     {
       "step_number": 3,
       "action": "Establish two-on-one",
-      "description": "Bring both hands to opponent's choking arm, gripping their wrist with one hand and forearm or elbow with other hand. Create strong pulling connection that prevents their arm from advancing toward your throat.",
-      "timing": "Within 2-3 seconds of back control"
+      "description": "Bring both hands to opponent's choking arm, gripping their wrist with one hand and forearm or elbow with other hand. Create strong pulling connection that prevents their arm from advancing toward your throat."
     },
     {
       "step_number": 4,
       "action": "Strip toward elbow",
-      "description": "Use your grip on opponent's wrist to pull their hand away from your neck, directing the force toward their elbow crease. Simultaneously push their elbow away using your other hand creating opposing forces.",
-      "timing": "Continuous pressure once two-on-one established"
+      "description": "Use your grip on opponent's wrist to pull their hand away from your neck, directing the force toward their elbow crease. Simultaneously push their elbow away using your other hand creating opposing forces."
     },
     {
       "step_number": 5,
       "action": "Clear arm across",
-      "description": "Once you've created separation, drive opponent's choking arm across your body toward their control arm side. This stacks both their arms on one side creating escape angle opportunity.",
-      "timing": "When wrist clears your chin line"
+      "description": "Once you've created separation, drive opponent's choking arm across your body toward their control arm side. This stacks both their arms on one side creating escape angle opportunity."
     },
     {
       "step_number": 6,
       "action": "Transition to escape",
-      "description": "With opponent's choking arm neutralized and potentially cleared across, immediately begin hip escape sequence toward the cleared side. Maintain hand control during transition to prevent opponent from re-establishing choking position.",
-      "timing": "Immediately after clearing arm"
+      "description": "With opponent's choking arm neutralized and potentially cleared across, immediately begin hip escape sequence toward the cleared side. Maintain hand control during transition to prevent opponent from re-establishing choking position."
     }
   ],
   "common_counters": [
@@ -146,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice two-on-one grip positioning with partner holding static back control. Focus on hand placement, chin tuck reflex, and understanding which arm is the choking arm. No escape attempts yet.",
-      "resistance_level": "None"
+      "description": "Practice two-on-one grip positioning with partner holding static back control. Focus on hand placement, chin tuck reflex, and understanding which arm is the choking arm. No escape attempts yet."
     },
     {
       "phase": "Week 3-4",
       "focus": "Grip stripping sequence",
-      "description": "Partner slowly attacks with rear naked choke while you practice the full stripping sequence. Learn to clear arm across body and feel transition timing. Partner provides light resistance to grip strips.",
-      "resistance_level": "Light"
+      "description": "Partner slowly attacks with rear naked choke while you practice the full stripping sequence. Learn to clear arm across body and feel transition timing. Partner provides light resistance to grip strips."
     },
     {
       "phase": "Week 5-6",
       "focus": "Integration with escape",
-      "description": "Combine hand fighting with hip escape sequences. Partner attacks with moderate intensity while you practice clearing arm and immediately transitioning to escape. Develop timing between hand control and movement.",
-      "resistance_level": "Medium"
+      "description": "Combine hand fighting with hip escape sequences. Partner attacks with moderate intensity while you practice clearing arm and immediately transitioning to escape. Develop timing between hand control and movement."
     },
     {
       "phase": "Week 7+",
       "focus": "Live survival rounds",
-      "description": "Full resistance back survival rounds where partner actively hunts submissions. Practice sustained hand fighting under pressure, adapting to opponent's switches and attacks. Build mental composure through extended survival.",
-      "resistance_level": "Full"
+      "description": "Full resistance back survival rounds where partner actively hunts submissions. Practice sustained hand fighting under pressure, adapting to opponent's switches and attacks. Build mental composure through extended survival."
     }
   ],
   "variants_and_adaptations": [
@@ -188,43 +173,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of hand fighting from back control?",
-      "answer": "The primary goal is to prevent the opponent from establishing a choking grip while creating opportunities for escape. Hand fighting neutralizes the immediate submission threat, transforming back control from a terminal position into a survivable situation where systematic escape becomes possible.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to prevent the opponent from establishing a choking grip while creating opportunities for escape. Hand fighting neutralizes the immediate submission threat, transforming back control from a terminal position into a survivable situation where systematic escape becomes possible."
     },
     {
       "question": "Why is two-on-one control essential rather than single-arm defense?",
-      "answer": "Two-on-one control creates mechanical advantage against the opponent's stronger two-arm position (choking arm plus body control). Single-arm defense is easily defeated because opponent can overpower one arm with their full attacking structure. Both hands on one arm equalizes the leverage equation.",
-      "difficulty": "Beginner"
+      "answer": "Two-on-one control creates mechanical advantage against the opponent's stronger two-arm position (choking arm plus body control). Single-arm defense is easily defeated because opponent can overpower one arm with their full attacking structure. Both hands on one arm equalizes the leverage equation."
     },
     {
       "question": "What is the correct chin position during hand fighting and why?",
-      "answer": "Chin should be tucked down toward chest, not lifted or turned away. Tucking creates a physical barrier that closes the neck space, making it harder for opponent to sink the choke underneath. Lifting the chin actually exposes more neck surface area and creates cleaner choking angles.",
-      "difficulty": "Beginner"
+      "answer": "Chin should be tucked down toward chest, not lifted or turned away. Tucking creates a physical barrier that closes the neck space, making it harder for opponent to sink the choke underneath. Lifting the chin actually exposes more neck surface area and creates cleaner choking angles."
     },
     {
       "question": "Your opponent switches their choking arm when you establish two-on-one - what is your response?",
-      "answer": "Immediately redirect both hands to the new choking arm using the same two-on-one methodology. Keep chin tucked centrally and maintain awareness of both arms throughout. The switch itself creates a brief window where neither arm threatens, which can be used for escape initiation.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately redirect both hands to the new choking arm using the same two-on-one methodology. Keep chin tucked centrally and maintain awareness of both arms throughout. The switch itself creates a brief window where neither arm threatens, which can be used for escape initiation."
     },
     {
       "question": "When should you transition from hand fighting to escape movement?",
-      "answer": "Transition when you've cleared the opponent's choking arm across your body, stacking both their arms on one side. This creates an escape angle on the cleared side. Maintain hand control during the transition to prevent opponent from re-establishing choking position as you move.",
-      "difficulty": "Intermediate"
+      "answer": "Transition when you've cleared the opponent's choking arm across your body, stacking both their arms on one side. This creates an escape angle on the cleared side. Maintain hand control during the transition to prevent opponent from re-establishing choking position as you move."
     },
     {
       "question": "How does body triangle change your hand fighting approach?",
-      "answer": "Body triangle creates sustained squeezing pressure that can fatigue your grip strength over time, making hand fighting less sustainable. You may need to address body triangle escape first by positioning your trapped leg correctly to relieve squeeze pressure before continuing effective hand fighting.",
-      "difficulty": "Advanced"
+      "answer": "Body triangle creates sustained squeezing pressure that can fatigue your grip strength over time, making hand fighting less sustainable. You may need to address body triangle escape first by positioning your trapped leg correctly to relieve squeeze pressure before continuing effective hand fighting."
     },
     {
       "question": "What opportunity does opponent's grip fighting with their control arm create?",
-      "answer": "When opponent commits their control arm to stripping your defensive grips, they compromise their harness control and upper body connection. This creates a window for hip escape since their seatbelt position is weakened. Their grip fighting focus means less control over your movement.",
-      "difficulty": "Advanced"
+      "answer": "When opponent commits their control arm to stripping your defensive grips, they compromise their harness control and upper body connection. This creates a window for hip escape since their seatbelt position is weakened. Their grip fighting focus means less control over your movement."
     },
     {
       "question": "What is the grip stripping direction and why?",
-      "answer": "Strip toward the opponent's elbow crease by pulling their wrist away from your neck while simultaneously pushing their elbow away. This creates opposing forces that break their arm structure. Pulling toward their elbow rather than randomly creates mechanical advantage following the natural joint bend direction.",
-      "difficulty": "Intermediate"
+      "answer": "Strip toward the opponent's elbow crease by pulling their wrist away from your neck while simultaneously pushing their elbow away. This creates opposing forces that break their arm structure. Pulling toward their elbow rather than randomly creates mechanical advantage following the natural joint bend direction."
     }
   ],
   "safety_considerations": "Hand fighting from back control is generally safe during training but requires awareness of neck positioning. Avoid explosive head movements while under choke threat as this can strain neck muscles. Partners should apply submission attempts gradually, allowing time for defensive response. When practicing, tap early if a choke locks in despite your hand fighting to prevent unconsciousness. If you experience tingling in extremities or vision changes, tap immediately. Practitioners with prior neck injuries should inform partners and may need modified training protocols. During intense drilling, monitor grip fatigue that can lead to forearm cramping.",
@@ -262,5 +239,6 @@
       "name": "Granby Roll Escape",
       "relationship": "Alternative escape that can follow successful hand fighting"
     }
-  ]
+  ],
+  "success_rate": 58
 }

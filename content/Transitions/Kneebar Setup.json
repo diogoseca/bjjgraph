@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kneebar Setup from Outside Ashi-Garami is a high-percentage leg lock transition that capitalizes on forward pressure from your opponent. When an opponent drives into your outside ashi position attempting to stack or smash, their knee naturally extends—creating the perfect opportunity to transition into kneebar control. This technique represents a fundamental principle in modern leg lock systems: using your opponent's defensive reactions as offensive triggers.\n\nThe setup requires transitioning from the standard outside ashi figure-4 configuration into a perpendicular body position that traps the opponent's leg between your hips. Your legs work together to isolate their knee joint while your hips create the hyperextension pressure. The key mechanical principle is controlling the hip and ankle simultaneously while applying force through hip elevation against the knee joint.\n\nThis transition is particularly effective because it punishes one of the most common escape attempts from outside ashi—forward pressure to stack. Rather than fighting the stack directly, you redirect their momentum into a submission threat. The kneebar also serves as an excellent chain attack when heel hook attempts are defended, as opponents often straighten their leg to prevent heel exposure, inadvertently setting up the kneebar.",
   "key_principles": [
     "Use opponent's forward pressure as the entry trigger rather than fighting against their stack",
@@ -56,44 +51,37 @@
     {
       "step_number": 1,
       "action": "Recognize trigger",
-      "description": "Identify when opponent drives forward into your outside ashi or straightens their leg to defend heel hook—this leg extension creates the kneebar opportunity",
-      "timing": "Immediate response to forward pressure"
+      "description": "Identify when opponent drives forward into your outside ashi or straightens their leg to defend heel hook—this leg extension creates the kneebar opportunity"
     },
     {
       "step_number": 2,
       "action": "Release heel grip",
-      "description": "Release your heel hook grip and transition your hands to control the ankle and lower leg, securing the foot against your chest or shoulder with toes pointing toward ceiling",
-      "timing": "Simultaneous with body rotation"
+      "description": "Release your heel hook grip and transition your hands to control the ankle and lower leg, securing the foot against your chest or shoulder with toes pointing toward ceiling"
     },
     {
       "step_number": 3,
       "action": "Rotate body perpendicular",
-      "description": "Rotate your body to position yourself perpendicular to their trapped leg, bringing your hips directly under their knee joint while maintaining the figure-4 leg lock around their thigh",
-      "timing": "Smooth continuous motion"
+      "description": "Rotate your body to position yourself perpendicular to their trapped leg, bringing your hips directly under their knee joint while maintaining the figure-4 leg lock around their thigh"
     },
     {
       "step_number": 4,
       "action": "Secure leg position",
-      "description": "Triangle your legs tightly around their upper leg above the knee, squeezing your knees together to prevent any rotation or extraction of their leg from the submission position",
-      "timing": "Lock position before applying pressure"
+      "description": "Triangle your legs tightly around their upper leg above the knee, squeezing your knees together to prevent any rotation or extraction of their leg from the submission position"
     },
     {
       "step_number": 5,
       "action": "Control ankle alignment",
-      "description": "Pull their foot tight against your chest with both hands controlling the ankle area, ensuring their toes point toward the ceiling to align the knee joint for proper hyperextension",
-      "timing": "Establish before hip drive"
+      "description": "Pull their foot tight against your chest with both hands controlling the ankle area, ensuring their toes point toward the ceiling to align the knee joint for proper hyperextension"
     },
     {
       "step_number": 6,
       "action": "Apply hip pressure",
-      "description": "Drive your hips forward and upward into the back of their knee while pulling down on the ankle, creating hyperextension pressure on the knee joint through opposing forces",
-      "timing": "Controlled progressive pressure"
+      "description": "Drive your hips forward and upward into the back of their knee while pulling down on the ankle, creating hyperextension pressure on the knee joint through opposing forces"
     },
     {
       "step_number": 7,
       "action": "Adjust and finish",
-      "description": "If opponent resists, micro-adjust hip position to find the optimal angle where knee cannot rotate, increase hip elevation progressively until tap or transition to alternative attack",
-      "timing": "Gradual increase in training"
+      "description": "If opponent resists, micro-adjust hip position to find the optimal angle where knee cannot rotate, increase hip elevation progressively until tap or transition to alternative attack"
     }
   ],
   "common_counters": [
@@ -154,26 +142,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Position mechanics",
-      "description": "Practice the body rotation and leg positioning with a stationary partner. Focus on maintaining figure-4 leg control while transitioning perpendicular. Drill ankle control and foot alignment with no resistance. 50+ repetitions per side.",
-      "resistance_level": "None"
+      "description": "Practice the body rotation and leg positioning with a stationary partner. Focus on maintaining figure-4 leg control while transitioning perpendicular. Drill ankle control and foot alignment with no resistance. 50+ repetitions per side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Entry timing",
-      "description": "Partner provides light forward pressure from outside ashi top position. Practice recognizing the entry trigger and flowing into kneebar position. Partner allows the transition but does not tap—focus on position, not finish.",
-      "resistance_level": "Light"
+      "description": "Partner provides light forward pressure from outside ashi top position. Practice recognizing the entry trigger and flowing into kneebar position. Partner allows the transition but does not tap—focus on position, not finish."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks",
-      "description": "Drill the heel hook to kneebar transition when partner defends heel exposure by straightening leg. Practice flowing between submissions based on leg position. Partner resists at 50% and attempts basic counters.",
-      "resistance_level": "Medium"
+      "description": "Drill the heel hook to kneebar transition when partner defends heel exposure by straightening leg. Practice flowing between submissions based on leg position. Partner resists at 50% and attempts basic counters."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Positional sparring starting from outside ashi. Partner works legitimate escapes and counters. Practice integrating kneebar into your complete leg lock game. Focus on recognizing live opportunities and chain attacks.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting from outside ashi. Partner works legitimate escapes and counters. Practice integrating kneebar into your complete leg lock game. Focus on recognizing live opportunities and chain attacks."
     }
   ],
   "variants_and_adaptations": [
@@ -196,53 +180,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Kneebar Setup from Outside Ashi-Garami?",
-      "answer": "The primary goal is to transition from the outside ashi leg entanglement into a dominant kneebar control position that hyperextends the opponent's knee joint. This setup capitalizes on forward pressure or leg extension to create a submission opportunity when heel hooks are defended.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from the outside ashi leg entanglement into a dominant kneebar control position that hyperextends the opponent's knee joint. This setup capitalizes on forward pressure or leg extension to create a submission opportunity when heel hooks are defended."
     },
     {
       "question": "What position do you start Kneebar Setup from?",
-      "answer": "This technique starts from Outside Ashi-Garami/Bottom, where you have your legs configured in a figure-4 around the opponent's leg from the outside angle with them positioned above or driving into you.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Outside Ashi-Garami/Bottom, where you have your legs configured in a figure-4 around the opponent's leg from the outside angle with them positioned above or driving into you."
     },
     {
       "question": "What triggers indicate the optimal timing to attempt the Kneebar Setup?",
-      "answer": "The two primary triggers are: opponent driving forward to stack or smash your outside ashi position (their leg naturally extends under pressure), and opponent straightening their leg to defend a heel hook attempt (removes knee flexion that would prevent kneebar). Both scenarios create the extended leg necessary for hyperextension.",
-      "difficulty": "Intermediate"
+      "answer": "The two primary triggers are: opponent driving forward to stack or smash your outside ashi position (their leg naturally extends under pressure), and opponent straightening their leg to defend a heel hook attempt (removes knee flexion that would prevent kneebar). Both scenarios create the extended leg necessary for hyperextension."
     },
     {
       "question": "Your opponent grabs their own knee and pulls it toward their chest while you attempt the kneebar—what adjustment should you make?",
-      "answer": "Increase hip elevation and intensify the ankle pull to overcome their grip strength. If their grip remains too strong, pivot to an inside heel hook by rotating your body and attacking the heel that becomes exposed when they flex their knee. Their defensive grip actually creates heel hook opportunity.",
-      "difficulty": "Advanced"
+      "answer": "Increase hip elevation and intensify the ankle pull to overcome their grip strength. If their grip remains too strong, pivot to an inside heel hook by rotating your body and attacking the heel that becomes exposed when they flex their knee. Their defensive grip actually creates heel hook opportunity."
     },
     {
       "question": "Why is controlling the foot position with toes pointing toward the ceiling critical for the kneebar finish?",
-      "answer": "Toe position determines knee joint alignment. When toes point toward the ceiling, the knee is aligned for clean hyperextension with pressure applied directly against the joint's natural range of motion. If toes rotate outward, the knee rotates with them, dissipating pressure across the joint rather than creating focused hyperextension.",
-      "difficulty": "Intermediate"
+      "answer": "Toe position determines knee joint alignment. When toes point toward the ceiling, the knee is aligned for clean hyperextension with pressure applied directly against the joint's natural range of motion. If toes rotate outward, the knee rotates with them, dissipating pressure across the joint rather than creating focused hyperextension."
     },
     {
       "question": "How does hip elevation generate finishing force rather than arm strength?",
-      "answer": "Your hips drive forward and upward into the back of the opponent's knee, creating the hyperextension force through your body's largest muscle groups. Arms only maintain ankle position—they don't pull to create pressure. This is mechanically superior because hip drive is sustainable and powerful, while arm strength fatigues quickly.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips drive forward and upward into the back of the opponent's knee, creating the hyperextension force through your body's largest muscle groups. Arms only maintain ankle position—they don't pull to create pressure. This is mechanically superior because hip drive is sustainable and powerful, while arm strength fatigues quickly."
     },
     {
       "question": "What should you do if the opponent bends their knee deeply before you secure the kneebar position?",
-      "answer": "A deeply bent knee cannot be hyperextended. Immediately transition back to heel hook if their heel is exposed, or flow to calf slicer by bringing your leg over their calf and triangling. Never waste energy attempting to straighten a bent knee—use their defense as a trigger for your next attack in the chain.",
-      "difficulty": "Advanced"
+      "answer": "A deeply bent knee cannot be hyperextended. Immediately transition back to heel hook if their heel is exposed, or flow to calf slicer by bringing your leg over their calf and triangling. Never waste energy attempting to straighten a bent knee—use their defense as a trigger for your next attack in the chain."
     },
     {
       "question": "Why must you maintain figure-4 leg control throughout the body rotation transition?",
-      "answer": "The figure-4 leg configuration prevents the opponent from extracting their leg during the transition. If you release leg pressure while rotating, opponents immediately pull their leg free and recover position. Your legs should squeeze continuously—the rotation happens within the maintained leg lock, not by releasing and re-engaging.",
-      "difficulty": "Intermediate"
+      "answer": "The figure-4 leg configuration prevents the opponent from extracting their leg during the transition. If you release leg pressure while rotating, opponents immediately pull their leg free and recover position. Your legs should squeeze continuously—the rotation happens within the maintained leg lock, not by releasing and re-engaging."
     },
     {
       "question": "Your opponent begins rolling through your kneebar attempt—should you release or follow?",
-      "answer": "Follow the roll while maintaining ankle and leg control. Rolling often improves your position rather than escaping the submission—you may end up in a mounted or top-position kneebar with superior leverage. Release only if maintaining control would expose you to counter attack or injury.",
-      "difficulty": "Advanced"
+      "answer": "Follow the roll while maintaining ankle and leg control. Rolling often improves your position rather than escaping the submission—you may end up in a mounted or top-position kneebar with superior leverage. Release only if maintaining control would expose you to counter attack or injury."
     },
     {
       "question": "How does the kneebar integrate with heel hook attacks from outside ashi?",
-      "answer": "The kneebar and heel hook form a submission chain where defending one creates opportunity for the other. Opponents defending heel hooks often straighten their leg to hide the heel—this extension sets up the kneebar. Conversely, bending the knee to defend kneebar exposes the heel. Flowing between these attacks makes defense extremely difficult.",
-      "difficulty": "Advanced"
+      "answer": "The kneebar and heel hook form a submission chain where defending one creates opportunity for the other. Opponents defending heel hooks often straighten their leg to hide the heel—this extension sets up the kneebar. Conversely, bending the knee to defend kneebar exposes the heel. Flowing between these attacks makes defense extremely difficult."
     }
   ],
   "safety_considerations": "The kneebar attacks the knee joint through hyperextension, which can cause severe ligament damage (ACL, PCL, MCL) if applied too quickly or without proper control. In training, apply pressure gradually and progressively—never explosively. Partners should tap early when they feel the extension begin, not wait for pain. The knee joint provides less warning than shoulder or elbow joints before injury occurs. Avoid this technique if your partner has pre-existing knee injuries. Never attempt to straighten a bent knee by force. When drilling, establish clear communication about pressure levels. In competition, be prepared for opponents who do not tap—release rather than cause permanent injury. This technique should only be trained in environments where leg locks are permitted and partners understand the risks involved.",
@@ -288,5 +262,6 @@
       "name": "Ashi Garami Escape",
       "relationship": "Opponent's defensive response to understand"
     }
-  ]
+  ],
+  "success_rate": 58
 }

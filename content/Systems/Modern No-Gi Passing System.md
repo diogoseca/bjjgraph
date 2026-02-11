@@ -339,7 +339,7 @@ The system requires progressive drilling that builds from static technical work 
 - [[Knee Shield Half Guard]] (Position) - Common defensive structure requiring specific passing solutions
 - [[Butterfly Guard]] (Position) - Guard type requiring smash and bodylock passing approaches
 - [[Body Lock]] (Position) - Control position used for floating pass variations
-- [[Leg Drag Position]] (Position) - Advanced passing position accessed from headquarters control
+- [[Leg Drag Control]] (Position) - Advanced passing position accessed from headquarters control
 - [[Side Control]] (Position) - Primary finishing position for successful passing sequences
 - [[Ashi Garami]] (Position) - Leg-based guard requiring specialized passing mechanics to navigate safely
 - [[Open Guard]] (Position) - Starting position for establishing headquarters and initiating passing attacks

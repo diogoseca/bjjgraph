@@ -163,7 +163,7 @@ Strategically, this sweep represents the highest-reward option from grasshopper 
 The sweep integrates into the broader grasshopper guard offensive system as the primary direct sweep threat. When the opponent recognizes the elevation setup and widens their base or drops their hips, this reaction opens pathways to leg entanglements via Ashi Garami entries, Single Leg X-Guard transitions, or rolling kneebar attacks. The threat of being swept to mount forces defensive postures that compromise the opponent's ability to pass, creating the dilemma structure that makes grasshopper guard viable despite its high energy cost.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grasshopper contact**: From grasshopper guard with shoulders on mat and hips elevated, secure initial leg contact by hooking behind the opponent's near knee with your outside leg while maintaining inverted base stability through core engagement. (Timing: When opponent steps within range or pressures forward)
-2. **Secure controlling grip**: Reach and establish a strong controlling grip on the opponent's near-side ankle, sleeve, or wrist. This grip prevents them from stepping back to disengage and will be used to pull their weight forward during the elevation phase. (Timing: Immediately after initial hook contact)
-3. **Thread X-Guard hooks**: Shoot your inside leg through to position the foot on the opponent's far hip while your outside leg maintains the hook behind their near knee. This creates the classic X-Guard configuration with your body positioned directly underneath their base. (Timing: Single fluid motion from grasshopper position)
-4. **Load hips under center of gravity**: Slide your hips directly beneath the opponent's center of mass by adjusting your shoulder base position on the mat. Both hooks should create a platform where extension generates vertical force through their standing base rather than pushing them away. (Timing: When opponent's weight is centered or shifting forward)
-5. **Explosive hip elevation**: Drive your hips upward explosively while extending both legs simultaneously. The knee hook lifts their near leg while the hip hook pushes their far hip backward. Synchronize a strong forward pull on your controlling grip to prevent backward stepping recovery. (Timing: Commit fully once weight is loaded onto hooks)
-6. **Follow and guide opponent's fall**: As the opponent loses balance and begins falling backward, maintain grip control and follow their momentum by turning your body in the sweep direction. Release hooks progressively as you transition from underneath to on top of the falling opponent. (Timing: During opponent's backward fall)
-7. **Establish mount control**: Land with knees positioned on either side of the opponent's torso, immediately driving heavy hip pressure at their solar plexus. Establish hand posts or collar grips to prevent early bridge or frame escapes before they can organize their defense. (Timing: Immediately upon landing, before opponent recovers)
+1. **Establish grasshopper contact**: From grasshopper guard with shoulders on mat and hips elevated, secure initial leg contact by hooking behind the opponent's near knee with your outside leg while maintaining inverted base stability through core engagement.
+2. **Secure controlling grip**: Reach and establish a strong controlling grip on the opponent's near-side ankle, sleeve, or wrist. This grip prevents them from stepping back to disengage and will be used to pull their weight forward during the elevation phase.
+3. **Thread X-Guard hooks**: Shoot your inside leg through to position the foot on the opponent's far hip while your outside leg maintains the hook behind their near knee. This creates the classic X-Guard configuration with your body positioned directly underneath their base.
+4. **Load hips under center of gravity**: Slide your hips directly beneath the opponent's center of mass by adjusting your shoulder base position on the mat. Both hooks should create a platform where extension generates vertical force through their standing base rather than pushing them away.
+5. **Explosive hip elevation**: Drive your hips upward explosively while extending both legs simultaneously. The knee hook lifts their near leg while the hip hook pushes their far hip backward. Synchronize a strong forward pull on your controlling grip to prevent backward stepping recovery.
+6. **Follow and guide opponent's fall**: As the opponent loses balance and begins falling backward, maintain grip control and follow their momentum by turning your body in the sweep direction. Release hooks progressively as you transition from underneath to on top of the falling opponent.
+7. **Establish mount control**: Land with knees positioned on either side of the opponent's torso, immediately driving heavy hip pressure at their solar plexus. Establish hand posts or collar grips to prevent early bridge or frame escapes before they can organize their defense.
 
 
 </section>
@@ -263,19 +263,15 @@ The sweep integrates into the broader grasshopper guard offensive system as the 
 ## Training Progressions
 **Week 1-2** - Grasshopper to X-Guard hook transition
 Drill the transition from grasshopper guard inversion into X-Guard hook placement against a stationary standing partner. Focus on smooth insertion of both hooks into correct positions without pausing between grasshopper and X-Guard. Partner stands still providing feedback on hook pressure and hip positioning. No sweep attempt yet.
-(Resistance: None)
 
 **Week 3-4** - Elevation mechanics and timing
 Add the elevation component with partner providing light forward pressure. Practice coordinating grip pull with hip extension and following through to mount. Partner gives slight resistance but allows the sweep to complete. Drill the full sequence from inversion to mount landing at controlled speed.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and attack chains
 Partner provides defensive reactions including base widening, stepping back, and sprawling. Practice recognizing each counter and transitioning to appropriate alternatives: Single Leg X-Guard, Ashi Garami entry, or rolling kneebar. Develop automatic chain switching based on opponent's defensive response.
-(Resistance: Medium)
 
 **Week 7+** - Live application and integration
 Positional sparring starting from grasshopper guard bottom against full resistance. Goal is completing the sweep or transitioning to advantageous position within the 10-15 second grasshopper window. Integrate with full guard system including entries from butterfly guard and De La Riva transitions.
-(Resistance: Full)
 
 
 

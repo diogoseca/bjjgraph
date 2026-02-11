@@ -163,7 +163,7 @@ The strategic value of this technique lies in its reliability and the dominant p
 Execution requires maintaining constant pressure and connection throughout the transition. The moment you feel your opponent begin to rotate away, you must immediately abandon your leg drag grip priorities and shift to back control grips. Your underhook on the near side becomes your seatbelt grip, while your other arm reaches over their back for the far hip or establishes harness control. The bottom hook inserts first as their hip turns, followed by the top hook once you have secured upper body control. Timing is critical—hesitation allows them to complete their escape to turtle, while premature movement telegraphs your intention.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Execution requires maintaining constant pressure and connection throughout the t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the turn**: Feel for your opponent beginning to rotate away from you by monitoring their shoulder and hip movement. Their instinct to protect their back from mount or side control creates the back exposure opportunity. (Timing: As soon as opponent's far shoulder begins dropping toward the mat)
-2. **Release leg control**: Immediately release your grip on the dragged leg as you feel the turn begin. This frees your arm to transition to back control grips. Maintaining the leg grip too long slows your follow and allows escape. (Timing: Simultaneously with recognizing the turn)
-3. **Establish seatbelt**: Your arm that was controlling the shoulder slides under their armpit while your other arm reaches over their far shoulder. Clasp your hands together in the seatbelt configuration with the choking arm on top. (Timing: Within 1 second of releasing leg control)
-4. **Insert bottom hook**: As their hip rotates and exposes the space, immediately insert your bottom leg hook inside their thigh. Your foot should be active with toes pointed outward, not crossed or passive. (Timing: As soon as hip space opens during their rotation)
-5. **Follow with chest**: Drive your chest into their upper back while pulling them into you with the seatbelt grip. Maintain constant forward pressure to prevent them from flattening or creating distance. (Timing: Continuous pressure throughout the transition)
-6. **Secure second hook**: Once upper body control is established with seatbelt and first hook is secure, insert your top hook by threading your leg over their hip and into their thigh. Both hooks should now control their hip movement. (Timing: After seatbelt and first hook are secured)
-7. **Consolidate position**: Adjust your body angle to achieve optimal back control position with chest-to-back connection, both hooks deep inside their thighs, and seatbelt secured. Begin hand fighting to prevent their defensive grips. (Timing: Immediately after both hooks are established)
+1. **Recognize the turn**: Feel for your opponent beginning to rotate away from you by monitoring their shoulder and hip movement. Their instinct to protect their back from mount or side control creates the back exposure opportunity.
+2. **Release leg control**: Immediately release your grip on the dragged leg as you feel the turn begin. This frees your arm to transition to back control grips. Maintaining the leg grip too long slows your follow and allows escape.
+3. **Establish seatbelt**: Your arm that was controlling the shoulder slides under their armpit while your other arm reaches over their far shoulder. Clasp your hands together in the seatbelt configuration with the choking arm on top.
+4. **Insert bottom hook**: As their hip rotates and exposes the space, immediately insert your bottom leg hook inside their thigh. Your foot should be active with toes pointed outward, not crossed or passive.
+5. **Follow with chest**: Drive your chest into their upper back while pulling them into you with the seatbelt grip. Maintain constant forward pressure to prevent them from flattening or creating distance.
+6. **Secure second hook**: Once upper body control is established with seatbelt and first hook is secure, insert your top hook by threading your leg over their hip and into their thigh. Both hooks should now control their hip movement.
+7. **Consolidate position**: Adjust your body angle to achieve optimal back control position with chest-to-back connection, both hooks deep inside their thighs, and seatbelt secured. Begin hand fighting to prevent their defensive grips.
 
 
 </section>
@@ -263,19 +263,15 @@ Execution requires maintaining constant pressure and connection throughout the t
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the mechanics of releasing leg drag and transitioning to seatbelt with compliant partner. Focus on the arm movement pattern and hook insertion sequence without resistance. Drill 50+ repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light defensive reactions, sometimes turning away, sometimes turning in, sometimes staying flat. Develop recognition of when to follow for back take versus when to secure side control or mount.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the leg drag to back take with other leg drag options. Practice recognizing and countering opponent's defensive reactions. Work the transition against progressive resistance with focus on maintaining connection.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply the technique in live sparring from established leg drag positions. Track success rate and identify specific failure points. Refine timing and execution based on resistance patterns encountered.
-(Resistance: Full)
 
 
 

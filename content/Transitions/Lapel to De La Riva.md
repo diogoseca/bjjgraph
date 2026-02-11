@@ -163,7 +163,7 @@ The mechanical foundation of this transition lies in using the lapel grip as an 
 Strategically, this transition is most valuable against opponents who have learned to address worm guard or squid guard configurations but may be less prepared for the angle changes and inversion threats of De La Riva. The transition also opens pathways to X-Guard, Single Leg X, and berimbolo entries that are difficult to access from pure lapel guard. Advanced practitioners use this as part of a flowing guard system where they move between lapel, DLR, and other open guards based on opponent reactions, creating a constantly evolving puzzle that frustrates passing attempts.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, this transition is most valuable against opponents who have learn
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify lapel configuration**: Confirm your lapel grip is secure and creating meaningful control. The lapel should be actively restricting opponent's movement or posture, not just loosely held. (Timing: Before initiating transition)
-2. **Identify target leg**: Determine which of opponent's legs will receive the DLR hook—typically the leg closest to your lapel configuration for structural coherence and easier threading. (Timing: As opponent commits weight)
-3. **Create hip angle**: Rotate your hips toward the target leg side, angling approximately 45 degrees off-center to create the path for your DLR hook insertion around their knee. (Timing: Immediately before hook insertion)
-4. **Thread DLR hook**: Swing your outside leg around the opponent's near leg, threading your foot behind their knee while pulling with the lapel to prevent them from stepping back. (Timing: When opponent's weight shifts forward)
-5. **Establish secondary grip**: With your free hand, secure control of opponent's far sleeve at the wrist or their collar on the opposite side, creating the diagonal control system essential for DLR effectiveness. (Timing: Immediately after hook insertion)
-6. **Consolidate position**: Set the DLR hook by pulling your knee toward your chest while driving your hooking foot into the back of their knee. Maintain lapel tension as backup while establishing full DLR control. (Timing: Final consolidation phase)
-7. **Activate free leg**: Position your non-hooking leg on opponent's hip, bicep, or as a frame to manage distance and prevent them from smashing forward through your guard structure. (Timing: Upon completing transition)
+1. **Verify lapel configuration**: Confirm your lapel grip is secure and creating meaningful control. The lapel should be actively restricting opponent's movement or posture, not just loosely held.
+2. **Identify target leg**: Determine which of opponent's legs will receive the DLR hook—typically the leg closest to your lapel configuration for structural coherence and easier threading.
+3. **Create hip angle**: Rotate your hips toward the target leg side, angling approximately 45 degrees off-center to create the path for your DLR hook insertion around their knee.
+4. **Thread DLR hook**: Swing your outside leg around the opponent's near leg, threading your foot behind their knee while pulling with the lapel to prevent them from stepping back.
+5. **Establish secondary grip**: With your free hand, secure control of opponent's far sleeve at the wrist or their collar on the opposite side, creating the diagonal control system essential for DLR effectiveness.
+6. **Consolidate position**: Set the DLR hook by pulling your knee toward your chest while driving your hooking foot into the back of their knee. Maintain lapel tension as backup while establishing full DLR control.
+7. **Activate free leg**: Position your non-hooking leg on opponent's hip, bicep, or as a frame to manage distance and prevent them from smashing forward through your guard structure.
 
 
 </section>
@@ -262,19 +262,15 @@ Strategically, this transition is most valuable against opponents who have learn
 ## Training Progressions
 **Week 1-2** - Hook threading mechanics
 Practice the physical motion of transitioning from lapel guard to DLR with a completely cooperative partner. Focus on maintaining lapel grip while threading the hook, proper hip angle, and identifying the correct leg to hook. Perform 30-50 repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner provides light resistance and basic passing pressure. Identify the optimal moments to initiate the transition—when opponent commits weight forward, when they reach to address lapel, when they momentarily release grips. Begin combining transition with basic DLR sweeps.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively defends the transition using common counters. Practice maintaining lapel grip when DLR is defended, transitioning back to lapel guard if needed, and chaining the transition with berimbolo entries when opponent drives forward.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance sparring rounds starting from lapel guard. Focus on reading opponent's reactions and choosing appropriate moments to transition. Track success rate and identify patterns in failed attempts. Target 3-5 successful transitions per training session.
-(Resistance: Full)
 
 
 

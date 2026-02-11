@@ -9,11 +9,6 @@
     "defensive-technique",
     "beginner-friendly"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency - it doesn't require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities. When executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. This escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques.",
   "key_principles": [
     "Create explosive hip bridge to disrupt opponent's base and weight distribution",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Trap the arm",
-      "description": "Identify the side where opponent's weight is shifted or where they are attempting to attack. Cup your hand behind their tricep/elbow on that side, pulling it tight across your chest. Your other hand can post on their hip or grab their belt to control their posture and prevent them from posting far away.",
-      "timing": "Initiate when opponent reaches for attack or shifts weight forward"
+      "description": "Identify the side where opponent's weight is shifted or where they are attempting to attack. Cup your hand behind their tricep/elbow on that side, pulling it tight across your chest. Your other hand can post on their hip or grab their belt to control their posture and prevent them from posting far away."
     },
     {
       "step_number": 2,
       "action": "Trap the foot",
-      "description": "On the same side as the trapped arm, hook your foot over opponent's ankle/foot, pinning it to the mat. Your knee should be bent with your heel pulled close to your buttocks to generate maximum bridging power. This prevents them from stepping over to establish base.",
-      "timing": "Execute simultaneously with arm trap or immediately after"
+      "description": "On the same side as the trapped arm, hook your foot over opponent's ankle/foot, pinning it to the mat. Your knee should be bent with your heel pulled close to your buttocks to generate maximum bridging power. This prevents them from stepping over to establish base."
     },
     {
       "step_number": 3,
       "action": "Position your bridge angle",
-      "description": "Turn your head toward the trapped side, looking over your shoulder in the direction you'll roll. Your bridge should drive at approximately 45 degrees over your shoulder, not straight up. This angle is critical - bridging straight up allows opponent to post with their free hand.",
-      "timing": "Set angle before initiating explosive bridge"
+      "description": "Turn your head toward the trapped side, looking over your shoulder in the direction you'll roll. Your bridge should drive at approximately 45 degrees over your shoulder, not straight up. This angle is critical - bridging straight up allows opponent to post with their free hand."
     },
     {
       "step_number": 4,
       "action": "Execute explosive bridge",
-      "description": "Drive powerfully through your planted foot (opposite side from the trap), extending your hips vertically while simultaneously rotating toward the trapped side. The motion should be one explosive movement combining upward lift and rotational drive. Focus on getting your hips as high as possible while maintaining the arm and leg traps.",
-      "timing": "Single explosive movement, commit fully rather than tentative pressure"
+      "description": "Drive powerfully through your planted foot (opposite side from the trap), extending your hips vertically while simultaneously rotating toward the trapped side. The motion should be one explosive movement combining upward lift and rotational drive. Focus on getting your hips as high as possible while maintaining the arm and leg traps."
     },
     {
       "step_number": 5,
       "action": "Roll through to top position",
-      "description": "As opponent's base collapses from the bridge, continue rolling over your shoulder while maintaining tight connection to their body. Keep the arm trap secure throughout the roll. Your momentum should carry both of you completely over, with you landing in their guard or advancing to a top position.",
-      "timing": "Maintain explosive energy through the complete rotation"
+      "description": "As opponent's base collapses from the bridge, continue rolling over your shoulder while maintaining tight connection to their body. Keep the arm trap secure throughout the roll. Your momentum should carry both of you completely over, with you landing in their guard or advancing to a top position."
     },
     {
       "step_number": 6,
       "action": "Establish top position control",
-      "description": "As you complete the roll and land on top, immediately establish posture in their closed guard by sitting back on your heels, maintaining grips to prevent them from taking your back or sweeping you back over. If they don't close guard, work to pass immediately or establish side control pressure.",
-      "timing": "Transition immediately to offensive mindset upon completing reversal"
+      "description": "As you complete the roll and land on top, immediately establish posture in their closed guard by sitting back on your heels, maintaining grips to prevent them from taking your back or sweeping you back over. If they don't close guard, work to pass immediately or establish side control pressure."
     }
   ],
   "common_counters": [
@@ -134,38 +123,32 @@
     {
       "phase": "Phase 1: Static Bridge Mechanics (Week 1-2)",
       "focus": "Develop proper bridging movement pattern and hip power",
-      "description": "Practice solo bridging drills lying on back, focusing on explosive hip extension and proper shoulder angle. Partner lies in mount with no resistance, allowing you to feel correct trap positions and bridge direction. Repeat 20-30 reps per session to build muscle memory and explosive power.",
-      "resistance_level": "None"
+      "description": "Practice solo bridging drills lying on back, focusing on explosive hip extension and proper shoulder angle. Partner lies in mount with no resistance, allowing you to feel correct trap positions and bridge direction. Repeat 20-30 reps per session to build muscle memory and explosive power."
     },
     {
       "phase": "Phase 2: Cooperative Execution (Week 2-4)",
       "focus": "Perfect trap timing and complete roll-through sequence",
-      "description": "Partner maintains light mount but allows escape when traps are properly set. Focus on coordinating arm trap, foot trap, and bridge into single fluid motion. Partner provides feedback on trap security and bridge angle. Practice 15-20 successful repetitions alternating sides.",
-      "resistance_level": "Light"
+      "description": "Partner maintains light mount but allows escape when traps are properly set. Focus on coordinating arm trap, foot trap, and bridge into single fluid motion. Partner provides feedback on trap security and bridge angle. Practice 15-20 successful repetitions alternating sides."
     },
     {
       "phase": "Phase 3: Positional Resistance (Week 4-6)",
       "focus": "Execute against partner maintaining balance but not actively countering",
-      "description": "Partner maintains proper mount base and weight distribution but doesn't actively counter escape attempts. This teaches timing and recognizing moments of opportunity (when opponent shifts weight or reaches for grips). Expect 50-60% success rate as you learn to create opportunities.",
-      "resistance_level": "Medium"
+      "description": "Partner maintains proper mount base and weight distribution but doesn't actively counter escape attempts. This teaches timing and recognizing moments of opportunity (when opponent shifts weight or reaches for grips). Expect 50-60% success rate as you learn to create opportunities."
     },
     {
       "phase": "Phase 4: Active Defense Integration (Week 6-8)",
       "focus": "Escape against partner using common counters and adjustments",
-      "description": "Partner actively defends by posting, switching hips, and maintaining strong base. Practice recognizing when upa is available versus when to switch to elbow escape or hip escape. Combine upa attempts with other mount escapes to create dilemmas. Success rate may drop to 30-40% as you face realistic resistance.",
-      "resistance_level": "Full"
+      "description": "Partner actively defends by posting, switching hips, and maintaining strong base. Practice recognizing when upa is available versus when to switch to elbow escape or hip escape. Combine upa attempts with other mount escapes to create dilemmas. Success rate may drop to 30-40% as you face realistic resistance."
     },
     {
       "phase": "Phase 5: Submission Integration Defense (Week 8-10)",
       "focus": "Execute escape while defending common mount submissions",
-      "description": "Partner attempts realistic submissions (americana, armbar, ezekiel) from mount. Practice using submission attempts as timing triggers for escape - as they commit hands to attack, their base often weakens. Learn to defend submission while setting up escape simultaneously.",
-      "resistance_level": "Full"
+      "description": "Partner attempts realistic submissions (americana, armbar, ezekiel) from mount. Practice using submission attempts as timing triggers for escape - as they commit hands to attack, their base often weakens. Learn to defend submission while setting up escape simultaneously."
     },
     {
       "phase": "Phase 6: Live Sparring Application (Ongoing)",
       "focus": "Successful execution in live rolling against resisting opponents",
-      "description": "Apply upa escape during regular sparring, combining with other mount escapes based on opponent's reactions. Track success rate and identify patterns of when escape works best. Continuously refine timing and explosion against various opponent sizes and skill levels.",
-      "resistance_level": "Full"
+      "description": "Apply upa escape during regular sparring, combining with other mount escapes based on opponent's reactions. Track success rate and identify patterns of when escape works best. Continuously refine timing and explosion against various opponent sizes and skill levels."
     }
   ],
   "variants_and_adaptations": [
@@ -193,33 +176,27 @@
   "knowledge_assessment": [
     {
       "question": "Why must you trap the arm and leg on the same side rather than opposite sides?",
-      "answer": "Trapping same-side limbs prevents opponent from establishing a triangular base structure. If you trap opposite sides (left arm, right leg), they maintain three points of stable contact (right arm, left leg, and their body weight) forming a strong tripod. Same-side trapping removes two of three base points on one side, forcing them to rely only on the far side for stability, which cannot resist the rotational force of your bridge directed toward the trapped side.",
-      "difficulty": "Beginner"
+      "answer": "Trapping same-side limbs prevents opponent from establishing a triangular base structure. If you trap opposite sides (left arm, right leg), they maintain three points of stable contact (right arm, left leg, and their body weight) forming a strong tripod. Same-side trapping removes two of three base points on one side, forcing them to rely only on the far side for stability, which cannot resist the rotational force of your bridge directed toward the trapped side."
     },
     {
       "question": "What is the ideal angle and direction for the bridging motion in the upa escape?",
-      "answer": "The bridge should drive at approximately 45 degrees over your shoulder toward the trapped side, combining vertical lift with rotational force. Bridging straight up (90 degrees) allows opponent to post with their free hand and maintain position. The angled bridge creates a rolling motion that carries both bodies over, and the rotational component prevents them from simply posting to stop the movement. Your head should turn toward the escape direction, and you should visualize rolling over that specific shoulder.",
-      "difficulty": "Beginner"
+      "answer": "The bridge should drive at approximately 45 degrees over your shoulder toward the trapped side, combining vertical lift with rotational force. Bridging straight up (90 degrees) allows opponent to post with their free hand and maintain position. The angled bridge creates a rolling motion that carries both bodies over, and the rotational component prevents them from simply posting to stop the movement. Your head should turn toward the escape direction, and you should visualize rolling over that specific shoulder."
     },
     {
       "question": "When is the optimal timing to execute the upa escape during a mount exchange?",
-      "answer": "The highest-percentage timing occurs when opponent's weight shifts forward onto their hands, typically when reaching for grips, attempting submissions, or establishing controls. This forward weight shift compromises their base and makes their free hand less effective for posting since it's already committed to another task. Additional good timing includes when they adjust position, when they're distracted by grip fighting, or immediately as they achieve mount before solidifying their base. Avoid attempting when they sit back in high mount with vertical posture, as their base is strongest in this configuration.",
-      "difficulty": "Intermediate"
+      "answer": "The highest-percentage timing occurs when opponent's weight shifts forward onto their hands, typically when reaching for grips, attempting submissions, or establishing controls. This forward weight shift compromises their base and makes their free hand less effective for posting since it's already committed to another task. Additional good timing includes when they adjust position, when they're distracted by grip fighting, or immediately as they achieve mount before solidifying their base. Avoid attempting when they sit back in high mount with vertical posture, as their base is strongest in this configuration."
     },
     {
       "question": "How should you modify your upa escape strategy against an opponent who consistently posts wide with their free hand?",
-      "answer": "Against opponents who defend by posting wide, employ several adjustments: (1) Time the escape when their posting hand is committed elsewhere (grips, submissions), (2) Use fake upa to one side to draw their base shift, then execute to the opposite side, (3) Threaten to create space with elbow escape, forcing them to drive weight forward where upa is stronger, (4) Combine with other escapes - as they prepare to post against upa, switch to elbow escape or hip escape, creating a defensive dilemma. Advanced option: trap both arms if they post both hands high, relying purely on bridge power without foot trap.",
-      "difficulty": "Intermediate"
+      "answer": "Against opponents who defend by posting wide, employ several adjustments: (1) Time the escape when their posting hand is committed elsewhere (grips, submissions), (2) Use fake upa to one side to draw their base shift, then execute to the opposite side, (3) Threaten to create space with elbow escape, forcing them to drive weight forward where upa is stronger, (4) Combine with other escapes - as they prepare to post against upa, switch to elbow escape or hip escape, creating a defensive dilemma. Advanced option: trap both arms if they post both hands high, relying purely on bridge power without foot trap."
     },
     {
       "question": "What are the mechanical principles that make the upa escape effective even for smaller practitioners against larger opponents?",
-      "answer": "The upa leverages several mechanical advantages: (1) Hip extension power from glutes and hamstrings - among the strongest muscle groups in the body regardless of overall size, (2) Explosive force generated through stored elastic energy in the bridging motion, maximizing power-to-weight ratio, (3) Structural compromise of opponent's base by removing same-side support points, (4) Angular momentum created by rotational bridge that doesn't require lifting opponent's full weight vertically, (5) Timing advantage - initiating the explosive movement before opponent can react and adjust base. The technique succeeds not through sustained force but through sudden, violent disruption of opponent's structure at a mechanically disadvantaged moment.",
-      "difficulty": "Advanced"
+      "answer": "The upa leverages several mechanical advantages: (1) Hip extension power from glutes and hamstrings - among the strongest muscle groups in the body regardless of overall size, (2) Explosive force generated through stored elastic energy in the bridging motion, maximizing power-to-weight ratio, (3) Structural compromise of opponent's base by removing same-side support points, (4) Angular momentum created by rotational bridge that doesn't require lifting opponent's full weight vertically, (5) Timing advantage - initiating the explosive movement before opponent can react and adjust base. The technique succeeds not through sustained force but through sudden, violent disruption of opponent's structure at a mechanically disadvantaged moment."
     },
     {
       "question": "How does the upa escape integrate into a comprehensive mount defense system alongside elbow escape and hip escape?",
-      "answer": "The upa, elbow escape, and hip escape form a trilemma for mounted opponents, each working best against different defensive postures. Upa succeeds when opponent's weight is forward on hands (making elbow escape difficult), elbow escape works when opponent sits back in high mount (where upa lacks effectiveness), and hip escape capitalizes on opponent's lateral base weakness (when they defend the other escapes). By threatening all three, you force opponent into defensive compromises - defending upa by posting wide opens elbow escape, sitting back to prevent elbow escape enables upa, and maintaining low mount to stop both opens hip escape possibilities. Advanced practitioners chain these escapes continuously based on opponent's reactions, never committing fully to one until optimal timing appears.",
-      "difficulty": "Advanced"
+      "answer": "The upa, elbow escape, and hip escape form a trilemma for mounted opponents, each working best against different defensive postures. Upa succeeds when opponent's weight is forward on hands (making elbow escape difficult), elbow escape works when opponent sits back in high mount (where upa lacks effectiveness), and hip escape capitalizes on opponent's lateral base weakness (when they defend the other escapes). By threatening all three, you force opponent into defensive compromises - defending upa by posting wide opens elbow escape, sitting back to prevent elbow escape enables upa, and maintaining low mount to stop both opens hip escape possibilities. Advanced practitioners chain these escapes continuously based on opponent's reactions, never committing fully to one until optimal timing appears."
     }
   ],
   "safety_considerations": "The upa escape is among the safest fundamental techniques in BJJ when practiced properly, but several precautions ensure injury-free training. Execute the bridge with explosive power but controlled direction - wild, uncontrolled bridging can cause both practitioners to land awkwardly, risking shoulder, neck, or wrist injuries from unexpected impact. Partners should avoid posting rigidly with locked elbows when defending, as the rotational force can hyperextend the elbow joint. Beginners should practice on padded mats and start with cooperative drilling before adding resistance. When completing the roll, maintain connection to prevent partner free-falling onto their head or neck. For the person being escaped, learn to roll with the movement rather than resisting rigidly, and tuck your chin to protect your neck during the reversal. Practitioners with lower back issues should engage core muscles throughout the bridge to protect the lumbar spine, and those with neck injuries should modify the head turn component as needed.",
@@ -291,5 +268,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

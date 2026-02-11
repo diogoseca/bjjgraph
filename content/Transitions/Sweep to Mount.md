@@ -163,7 +163,7 @@ The sweep functions as the positional advancement layer within the Hindulotine a
 Strategically, this technique bridges the gap between bottom guard attacking and top mount finishing. Landing in mount with residual guillotine control gives you immediate offensive options - you can finish the mounted guillotine, transition to standard mount attacks, or use the neck control to set up high mount advancement. The sweep is most effective against opponents who commit their weight forward or laterally while attempting to neutralize the Hindulotine grip, making their base structurally vulnerable to directional force application.
 
 **From Position**: [[Hindulotine/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Hindulotine grip**: Confirm your guillotine grip is locked tight with the blade of your forearm positioned high under the opponent's chin. Hands should be in gable grip or chin strap configuration with elbows pinched tight to prevent opponent from creating defensive space between your arms and their neck. (Timing: Before initiating any sweep movement)
-2. **Create hip angle**: Shift your hips approximately 30-45 degrees toward your choking arm side by walking your feet and bumping your hips laterally. This angles your body relative to your opponent and positions your hip as the fulcrum point for the sweep, loading the directional force you need for the off-balance. (Timing: As opponent focuses on defending the choke)
-3. **Plant feet for bridge**: Plant both feet flat on the mat with knees bent at approximately 90 degrees. Position your feet close to your hips to maximize bridging power. Your strong-side foot should be slightly closer to your hip than the weak side, creating asymmetric force generation toward the sweep direction. (Timing: Immediately after establishing hip angle)
-4. **Load opponent's weight**: Pull opponent's head and upper body toward your choking arm side using the guillotine grip while simultaneously pressing your hips upward slightly. This loads their weight onto the side you intend to sweep toward, narrowing their effective base and creating the structural imbalance needed for the sweep. (Timing: When opponent shifts weight forward or adjusts defensive posture)
-5. **Execute hip bump sweep**: Drive explosively off your planted feet, bridging your hips upward and toward your choking arm side in one coordinated movement. Your hip acts as the fulcrum while your guillotine grip directs their upper body over. Rotate your entire core into the sweep, not just your arms, to generate sufficient force to tip them over the balance point. (Timing: At the peak of their weight loading on the sweep side)
-6. **Follow through to mount**: As opponent tips past the balance point, follow their body by rolling your hips over theirs without creating any separation. Keep your chest glued to their torso throughout the transition. Your guillotine grip pulls them into you during the roll rather than pushing away. (Timing: Immediately as opponent begins falling to the sweep side)
-7. **Establish mount control**: Land with your hips settling onto their solar plexus area, knees squeezing their torso. Immediately widen your base by spreading knees and lowering your center of gravity. Maintain the guillotine grip and assess whether to finish the mounted guillotine or release and transition to standard mount attacks based on opponent's defensive reaction. (Timing: Upon landing in mount position)
+1. **Secure Hindulotine grip**: Confirm your guillotine grip is locked tight with the blade of your forearm positioned high under the opponent's chin. Hands should be in gable grip or chin strap configuration with elbows pinched tight to prevent opponent from creating defensive space between your arms and their neck.
+2. **Create hip angle**: Shift your hips approximately 30-45 degrees toward your choking arm side by walking your feet and bumping your hips laterally. This angles your body relative to your opponent and positions your hip as the fulcrum point for the sweep, loading the directional force you need for the off-balance.
+3. **Plant feet for bridge**: Plant both feet flat on the mat with knees bent at approximately 90 degrees. Position your feet close to your hips to maximize bridging power. Your strong-side foot should be slightly closer to your hip than the weak side, creating asymmetric force generation toward the sweep direction.
+4. **Load opponent's weight**: Pull opponent's head and upper body toward your choking arm side using the guillotine grip while simultaneously pressing your hips upward slightly. This loads their weight onto the side you intend to sweep toward, narrowing their effective base and creating the structural imbalance needed for the sweep.
+5. **Execute hip bump sweep**: Drive explosively off your planted feet, bridging your hips upward and toward your choking arm side in one coordinated movement. Your hip acts as the fulcrum while your guillotine grip directs their upper body over. Rotate your entire core into the sweep, not just your arms, to generate sufficient force to tip them over the balance point.
+6. **Follow through to mount**: As opponent tips past the balance point, follow their body by rolling your hips over theirs without creating any separation. Keep your chest glued to their torso throughout the transition. Your guillotine grip pulls them into you during the roll rather than pushing away.
+7. **Establish mount control**: Land with your hips settling onto their solar plexus area, knees squeezing their torso. Immediately widen your base by spreading knees and lowering your center of gravity. Maintain the guillotine grip and assess whether to finish the mounted guillotine or release and transition to standard mount attacks based on opponent's defensive reaction.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 ## Training Progressions
 **Week 1-2** - Hip angle and bridge mechanics
 Practice the hip angle setup and directional bridge in isolation without a partner, then with a compliant partner in Hindulotine position. Focus on generating sweep force from hips and core rather than arms. Drill planting feet, creating angle, and bridging at 45 degrees while maintaining a static guillotine grip. Partner provides zero resistance and allows the sweep to complete each repetition.
-(Resistance: None)
 
 **Week 3-4** - Timing and weight recognition
 Partner provides light defensive movement including small posture adjustments and base shifts. Practice recognizing the moment when their weight loads onto the sweep side and timing your bridge to coincide with their compromised base. Develop sensitivity to weight distribution changes through the guillotine grip connection.
-(Resistance: Light)
 
 **Week 5-6** - Counter chains and alternatives
 Partner actively defends the sweep by posting, circling, or retreating. Practice flowing between the sweep attempt and alternative attacks: direct guillotine finish when they post, Butterfly Sweep with Guillotine when hooks are available, back take when they turn. Develop the instinct to read which option their defense opens.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and competition scenarios
 Full resistance sparring with the specific goal of hitting this sweep from Hindulotine bottom. Partner actively counters all options. Develop real-time decision making for when to attempt the sweep versus alternative attacks. Include competition-pace rounds where you must achieve the sweep under full defensive effort.
-(Resistance: Full)
 
 
 

@@ -153,7 +153,7 @@ description: "Master Turtle to Guard recovery in BJJ. Essential defensive transi
 The Turtle to Guard recovery is a fundamental defensive transition that allows practitioners to escape the vulnerable turtle position and re-establish their guard. This transition is critical for maintaining defensive integrity when an opponent is attempting back takes or submissions from turtle. The technique involves creating space, managing opponent's grips and hooks, and using hip movement to rotate underneath the opponent while establishing guard frames. Success depends on timing, hip mobility, and understanding weight distribution principles. The recovery can lead to multiple guard variations including Closed Guard, Half Guard, Butterfly Guard, or Open Guard depending on opponent positioning and grip configurations. This transition represents a key defensive skill that prevents opponents from consolidating dominant positions while allowing the defender to return to offensive guard positions where they can threaten sweeps and submissions.
 
 **From Position**: [[Turtle/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The Turtle to Guard recovery is a fundamental defensive transition that allows p
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive turtle posture**: Begin in strong turtle position with knees directly under hips, elbows tight to knees creating a compact defensive ball. Keep your head tucked with chin to chest, preventing opponent from getting under your chin for chokes. Your hands should be active, ready to fight grips and prevent opponent from establishing control positions. (Timing: Maintain this posture until you identify opponent's weight commitment)
-2. **Hand fight and grip strip**: Actively strip opponent's grip attempts, focusing on preventing seat belt control (one arm over shoulder, one under armpit). Use circular hand movements to strip grips before they solidify. If opponent has one hook in, prioritize removing it by trapping their ankle with your hand and extracting your hip away from the hook. (Timing: Constant defensive hand fighting until grips are controlled)
-3. **Create space with hip shift**: Shift your hips away from opponent's weight commitment, creating a small gap between your body and theirs. This movement should be subtle but explosive, using your legs to push your hips laterally. The goal is to create enough space to begin rotation without opponent's weight pinning you down. (Timing: Execute when opponent commits weight forward or to one side)
-4. **Explosive rotation to guard**: Using the created space, explosively rotate your hips underneath your body, turning to face the opponent. Drive off your outside leg, using it as a pivot point. As you rotate, bring your inside knee between you and opponent, establishing a knee shield or butterfly hook. Your hands should immediately establish frames on opponent's hips, biceps, or collar. (Timing: Rapid explosive movement in one continuous motion)
-5. **Establish guard structure**: Complete the rotation by establishing your preferred guard position. For Closed Guard, lock your ankles behind opponent's back immediately. For Half Guard, establish the knee shield and secure the lockdown or underhook. For Butterfly Guard, get both hooks inside opponent's thighs with strong collar and sleeve grips. Your frames must be active, preventing opponent from immediately passing. (Timing: Immediate guard establishment upon completing rotation)
-6. **Consolidate guard position**: Once guard is established, actively break opponent's posture by pulling them forward with grip control. Create off-balancing by extending your legs (if in closed guard) or using hooks to elevate opponent's base (if in butterfly). Immediately threaten attacks or sweeps to prevent opponent from resetting and attempting to pass. This offensive threat is crucial to completing the defensive recovery successfully. (Timing: Continuous pressure and threats to consolidate position)
+1. **Establish defensive turtle posture**: Begin in strong turtle position with knees directly under hips, elbows tight to knees creating a compact defensive ball. Keep your head tucked with chin to chest, preventing opponent from getting under your chin for chokes. Your hands should be active, ready to fight grips and prevent opponent from establishing control positions.
+2. **Hand fight and grip strip**: Actively strip opponent's grip attempts, focusing on preventing seat belt control (one arm over shoulder, one under armpit). Use circular hand movements to strip grips before they solidify. If opponent has one hook in, prioritize removing it by trapping their ankle with your hand and extracting your hip away from the hook.
+3. **Create space with hip shift**: Shift your hips away from opponent's weight commitment, creating a small gap between your body and theirs. This movement should be subtle but explosive, using your legs to push your hips laterally. The goal is to create enough space to begin rotation without opponent's weight pinning you down.
+4. **Explosive rotation to guard**: Using the created space, explosively rotate your hips underneath your body, turning to face the opponent. Drive off your outside leg, using it as a pivot point. As you rotate, bring your inside knee between you and opponent, establishing a knee shield or butterfly hook. Your hands should immediately establish frames on opponent's hips, biceps, or collar.
+5. **Establish guard structure**: Complete the rotation by establishing your preferred guard position. For Closed Guard, lock your ankles behind opponent's back immediately. For Half Guard, establish the knee shield and secure the lockdown or underhook. For Butterfly Guard, get both hooks inside opponent's thighs with strong collar and sleeve grips. Your frames must be active, preventing opponent from immediately passing.
+6. **Consolidate guard position**: Once guard is established, actively break opponent's posture by pulling them forward with grip control. Create off-balancing by extending your legs (if in closed guard) or using hooks to elevate opponent's base (if in butterfly). Immediately threaten attacks or sweeps to prevent opponent from resetting and attempting to pass. This offensive threat is crucial to completing the defensive recovery successfully.
 
 
 </section>
@@ -254,23 +254,18 @@ The Turtle to Guard recovery is a fundamental defensive transition that allows p
 ## Training Progressions
 **Phase 1: Fundamental Movement** - Hip rotation mechanics and spatial awareness
 Practice solo hip rotation drills from turtle position. Work on explosive rotation to face up, establishing frames in the air. Build muscle memory for the movement pattern without opponent resistance. Include granby roll drills as they share similar movement mechanics.
-(Resistance: None)
 
 **Phase 2: Controlled Partner Drilling** - Timing and guard establishment
 Partner maintains light top position in turtle. Practice rotation with partner allowing the movement but providing light resistance. Focus on immediately establishing guard frames and hooks upon rotation. Partner gradually increases resistance as technique improves. Drill 10 repetitions per side per session.
-(Resistance: Light)
 
 **Phase 3: Grip Fighting Integration** - Defensive hand fighting before rotation
 Partner actively attempts to establish seat belt and hooks from turtle. Practice grip stripping, hand fighting, and timing the rotation when opponent's grips are weak or weight shifts. Include hook removal techniques and recognize when rotation is available versus when alternative escapes are needed. Drill specific scenarios: opponent has one hook, opponent has seat belt grip, opponent riding high weight.
-(Resistance: Medium)
 
 **Phase 4: Dynamic Resistance and Counters** - Dealing with opponent's defensive counters
 Partner actively resists guard recovery using realistic counters: riding weight forward, sprawling, blocking rotation, attempting to follow and pass. Practice recognizing when to persist with rotation versus switching to alternative escapes like standing up in base or granby roll. Include transitions to multiple guard variations based on opponent's positioning. Work on maintaining composure under pressure and making intelligent tactical decisions.
-(Resistance: Full)
 
 **Phase 5: Positional Sparring** - Live application with consequences
 Specific sparring starting from turtle position. Bottom player works to recover guard while top player works to secure back control or submissions. Set time limits (2-3 minutes) and track success rates. Bottom player scores points for successful guard recovery, top player scores for back control or submission attempts. This builds realistic timing and decision-making under stress.
-(Resistance: Full)
 
 
 

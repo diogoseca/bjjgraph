@@ -157,7 +157,7 @@ This submission represents a cornerstone of modern no-gi grappling, particularly
 Strategically, the Electric Chair serves as both a submission and a positional advancement tool. When opponents recognize the submission danger and begin defending by trying to close their legs, this defensive reaction often facilitates sweep completion to mount. This dual-threat nature makes the Electric Chair a high-value technique that forces opponents into difficult defensive decisions with no clear safe path.
 
 **From Position**: [[Deep Half Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the Electric Chair serves as both a submission and a positional a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure lockdown**: From deep half guard, triangle your legs around opponent's near leg with your inside foot hooking behind their ankle and outside foot pressing on their knee, creating lockdown control (Timing: Before initiating any other movement)
-2. **Elevate trapped leg**: Using your deep underhook arm, scoop opponent's far leg and begin elevating it toward your shoulder while maintaining lockdown pressure on their near leg to prevent escape (Timing: When opponent's weight shifts forward)
-3. **Position leg on shoulder**: Guide opponent's far leg up and over your shoulder so their inner thigh rests against your deltoid, keeping your elbow tight to prevent their leg from sliding off (Timing: As elevation reaches maximum height)
-4. **Establish shoulder pressure**: Drive your shoulder upward into opponent's inner thigh while simultaneously extending your lockdown legs to stretch their groin by spreading their legs apart (Timing: Immediately after leg placement)
-5. **Control upper body**: Use your free hand to control opponent's far hip or grip their belt to prevent them from rotating away, maintaining the stretched configuration with your shoulder as the fulcrum (Timing: Throughout stretch application)
-6. **Apply finishing pressure**: Elevate your hips while extending lockdown and driving shoulder up into inner thigh, creating tremendous lateral stretch on opponent's groin until they tap or sweep opportunity presents (Timing: Final phase - gradual increase)
+1. **Secure lockdown**: From deep half guard, triangle your legs around opponent's near leg with your inside foot hooking behind their ankle and outside foot pressing on their knee, creating lockdown control
+2. **Elevate trapped leg**: Using your deep underhook arm, scoop opponent's far leg and begin elevating it toward your shoulder while maintaining lockdown pressure on their near leg to prevent escape
+3. **Position leg on shoulder**: Guide opponent's far leg up and over your shoulder so their inner thigh rests against your deltoid, keeping your elbow tight to prevent their leg from sliding off
+4. **Establish shoulder pressure**: Drive your shoulder upward into opponent's inner thigh while simultaneously extending your lockdown legs to stretch their groin by spreading their legs apart
+5. **Control upper body**: Use your free hand to control opponent's far hip or grip their belt to prevent them from rotating away, maintaining the stretched configuration with your shoulder as the fulcrum
+6. **Apply finishing pressure**: Elevate your hips while extending lockdown and driving shoulder up into inner thigh, creating tremendous lateral stretch on opponent's groin until they tap or sweep opportunity presents
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, the Electric Chair serves as both a submission and a positional a
 ## Training Progressions
 **Week 1-2** - Lockdown mechanics
 Practice lockdown entry and maintenance from half guard and deep half positions. Focus on proper leg triangle configuration and the stretching motion that spreads opponent's legs. Drill leg-on-shoulder placement without resistance.
-(Resistance: None)
 
 **Week 3-4** - Position integration
 Combine deep half guard entry with Electric Chair setup. Practice the full sequence from half guard to deep half to Electric Chair position. Partner provides light defensive frames but allows technique completion.
-(Resistance: Light)
 
 **Week 5-6** - Sweep transitions
 Practice transitioning to sweeps when Electric Chair submission is defended. Focus on recognizing when opponent closes legs to defend and immediately completing sweep to mount. Develop sensitivity to defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate Electric Chair into live rolling from bottom half guard positions. Work entries against resisting opponents, submission finishing under pressure, and sweep completion when submission is defended.
-(Resistance: Full)
 
 
 

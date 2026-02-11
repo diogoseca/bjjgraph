@@ -149,7 +149,7 @@
         "actions": [
           {
             "technique": "Darce from Turtle",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 65
           },
           {
@@ -290,7 +290,7 @@
         "relationship": "Alternative turtle control variation"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Direct submission target from this position"
       },
       {
@@ -304,19 +304,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65
+        "value": 55
       },
       "average_time": "30-90 seconds before advancing or opponent escaping"
     },
@@ -578,19 +572,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 20
+        "value": 15
       },
       "average_time": "15-30 seconds"
     },

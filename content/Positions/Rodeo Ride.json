@@ -281,21 +281,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Ability to maintain position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Success rate advancing to back control or superior position"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of finishing submission directly from this position"
       },
       "average_time": "30-90 seconds before advancement or submission"
@@ -567,21 +561,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Ability to prevent position from worsening"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Success rate of escaping to guard or standing"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Risk of being submitted from this position"
       },
       "average_time": "45-120 seconds before resolution"

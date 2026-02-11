@@ -282,21 +282,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Ability to avoid submission and maintain defensive structure while escaping"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Likelihood of successfully escaping to neutral or better position"
       },
       "submission_probability": {
-        "beginner": 50,
-        "intermediate": 35,
-        "advanced": 20,
+        "value": 28,
         "description": "Risk of being submitted if escape is not executed properly"
       },
       "average_time": "15-30 seconds from recognizing danger to complete escape or submission"
@@ -304,27 +298,31 @@
     "transitions": [
       {
         "transition": "Head Extraction to Posture",
-        "attempt_probability": 17
+        "attempt_probability": 12
       },
       {
         "transition": "Shin Removal to Pass",
-        "attempt_probability": 15
+        "attempt_probability": 10
       },
       {
         "transition": "Leg Extraction Escape",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 19
+        "attempt_probability": 13
       },
       {
         "transition": "Angle Change Escape",
-        "attempt_probability": 18
+        "attempt_probability": 13
       },
       {
         "transition": "Hand Control to Extract",
-        "attempt_probability": 17
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Gogoplata",
+        "attempt_probability": 30
       }
     ]
   },
@@ -555,21 +553,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Ability to maintain gogoplata control once established"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Likelihood of advancing to submission or better position from gogoplata control"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Probability of finishing submission directly from gogoplata control"
       },
       "average_time": "20-45 seconds from control establishment to finish or transition"

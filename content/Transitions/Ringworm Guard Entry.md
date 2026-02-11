@@ -157,7 +157,7 @@ The strategic value of ringworm lies in its ability to create compounding dilemm
 From a game theory perspective, ringworm represents an investment position. The complexity of establishing the full configuration means higher setup risk compared to basic worm or squid guard, but the payoff is a control position with dramatically higher submission and sweep percentages. Advanced practitioners use ringworm as an endgame configuration, transitioning into it from simpler lapel guards once they've read their opponent's defensive tendencies and identified optimal attack vectors.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ From a game theory perspective, ringworm represents an investment position. The 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure worm guard foundation**: From basic lapel guard, feed the extracted lapel behind your opponent's lead knee and thread it through to your far-side hand. Pull tension on the lapel to lock their leg in place, preventing them from stepping back or changing angle. (Timing: Establish before opponent commits to a passing direction)
-2. **Control the posting arm**: With your nearside hand, secure a grip on your opponent's sleeve or wrist of their posting arm. This is typically the arm they use to base when you threaten sweeps from worm guard. Pull this arm across your centerline. (Timing: Capture when opponent posts to defend initial sweep threat)
-3. **Thread lapel around arm**: Transfer the lapel fabric from behind their knee to also wrap around their controlled arm. Feed the lapel over their bicep and back under their armpit, creating a secondary anchor point that restricts their posting ability. (Timing: Execute during the transition when opponent's base is compromised)
-4. **Consolidate dual configuration**: Pull tension on both control points simultaneously, ensuring the leg wrap remains tight while the arm configuration prevents them from posturing. Your body position should be angled toward the control side with hips off-center. (Timing: Immediately after threading to prevent opponent from adjusting)
-5. **Establish sweep angle**: Shift your hips underneath your opponent's base, loading your legs for sweep mechanics. The dual control makes it nearly impossible for them to post either their leg or arm to prevent the sweep. (Timing: Once both controls are consolidated and opponent's weight is loaded)
-6. **Threaten attack sequence**: From the completed ringworm configuration, cycle between sweep attempts and back take threats. When opponent bases against the sweep, pursue the back; when they defend the back take, complete the sweep. Maintain continuous pressure until one attack succeeds. (Timing: Continuously cycle based on opponent's defensive reactions)
+1. **Secure worm guard foundation**: From basic lapel guard, feed the extracted lapel behind your opponent's lead knee and thread it through to your far-side hand. Pull tension on the lapel to lock their leg in place, preventing them from stepping back or changing angle.
+2. **Control the posting arm**: With your nearside hand, secure a grip on your opponent's sleeve or wrist of their posting arm. This is typically the arm they use to base when you threaten sweeps from worm guard. Pull this arm across your centerline.
+3. **Thread lapel around arm**: Transfer the lapel fabric from behind their knee to also wrap around their controlled arm. Feed the lapel over their bicep and back under their armpit, creating a secondary anchor point that restricts their posting ability.
+4. **Consolidate dual configuration**: Pull tension on both control points simultaneously, ensuring the leg wrap remains tight while the arm configuration prevents them from posturing. Your body position should be angled toward the control side with hips off-center.
+5. **Establish sweep angle**: Shift your hips underneath your opponent's base, loading your legs for sweep mechanics. The dual control makes it nearly impossible for them to post either their leg or arm to prevent the sweep.
+6. **Threaten attack sequence**: From the completed ringworm configuration, cycle between sweep attempts and back take threats. When opponent bases against the sweep, pursue the back; when they defend the back take, complete the sweep. Maintain continuous pressure until one attack succeeds.
 
 
 </section>
@@ -254,19 +254,15 @@ From a game theory perspective, ringworm represents an investment position. The 
 ## Training Progressions
 **Week 1-2** - Worm guard foundation
 Drill basic worm guard entries and maintenance with focus on lapel feeding mechanics and leg entanglement. Partner provides no resistance. Establish muscle memory for the leg wrap before adding complexity.
-(Resistance: None)
 
 **Week 3-4** - Arm capture timing
 From established worm guard, practice capturing opponent's posting arm when they base against sweep threats. Partner provides light resistance and intentional posting reactions. Focus on reading when the arm becomes available.
-(Resistance: Light)
 
 **Week 5-6** - Full configuration integration
 Combine leg entanglement and arm wrap into complete ringworm configuration. Partner provides moderate resistance to both control points. Practice maintaining dual tension and transitioning between sweep and back take threats.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Apply ringworm guard in live rolling against training partners of various skill levels. Focus on entering the position from scrambles and other guard variations. Identify personal failure points and refine accordingly.
-(Resistance: Full)
 
 
 

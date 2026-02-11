@@ -157,7 +157,7 @@ What makes this technique particularly effective is its versatility - it can be 
 This technique is favored by modern grapplers like elite competitors' and Garry Tonon because it seamlessly integrates wrestling and jiu-jitsu principles. The Russian Tie creates a dilemma: if the opponent pulls their arm back, you can shoot for their legs; if they maintain position, you can circle to their back. This makes it an excellent high-percentage technique for competitors at all levels, with success rates ranging from 35% for beginners to 70% for advanced practitioners.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ This technique is favored by modern grapplers like elite competitors' and Garry 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Russian Tie grip**: From standing, secure a 2-on-1 control on opponent's lead arm. Your lead hand grips their wrist with thumb on top, fingers wrapped underneath. Your trailing hand grips their tricep just above the elbow. Pull their arm slightly across their centerline while positioning your forehead against the outside of their bicep. This head position is critical - it prevents them from rotating toward you and establishes the angle. (Timing: Initial setup - 1-2 seconds)
-2. **Create angle and apply pressure**: Drive your forehead into their bicep while simultaneously pulling their wrist down and across. This creates a bent-arm position that weakens their structure. Step your lead foot (same side as their controlled arm) laterally and slightly forward at a 45-degree angle. Your body should be angling toward their back rather than directly facing them. Maintain downward pressure on their wrist to prevent them from straightening their arm. (Timing: Continuous motion - 1 second)
-3. **Begin circular motion to back**: Using the angle you've created, begin circling toward opponent's back by taking small, controlled steps in the direction of their controlled arm. Your movement should be lateral and slightly forward, not backward. Keep your hips lower than theirs to maintain base. As you circle, maintain constant pressure with your head and continue pulling their wrist across their body. Your trailing hand on their tricep helps guide the circle. (Timing: Circular motion - 2-3 seconds)
-4. **Clear hip and continue rotation**: As you circle, your lead hip will pass their near hip. This is the critical clearing point. Once your hip clears theirs, accelerate your circling motion while maintaining all grips. Your head should now be positioned behind their shoulder line. If they attempt to turn back toward you, use your head pressure and arm control to prevent rotation. Your body should be perpendicular to theirs at this point. (Timing: Hip clear - 1 second)
-5. **Secure back position**: Release your wrist grip and immediately shoot your arm under their far armpit to establish the first seat belt hook. Your head transitions from their bicep to behind their far shoulder. Your other hand maintains tricep control temporarily. Circle your final steps to achieve full back position with both feet behind them. Your chest should be tight to their back. (Timing: Transition to back - 1-2 seconds)
-6. **Complete back control**: From the partial seat belt position, release the tricep grip and thread your second arm over their opposite shoulder to complete the seat belt configuration (one arm over shoulder, one under armpit, hands clasped). Establish hooks by inserting your feet inside their thighs. If they defend the hooks, maintain standing back control with proper weight distribution. Secure the position before attacking submissions. (Timing: Final securing - 2-3 seconds)
+1. **Establish Russian Tie grip**: From standing, secure a 2-on-1 control on opponent's lead arm. Your lead hand grips their wrist with thumb on top, fingers wrapped underneath. Your trailing hand grips their tricep just above the elbow. Pull their arm slightly across their centerline while positioning your forehead against the outside of their bicep. This head position is critical - it prevents them from rotating toward you and establishes the angle.
+2. **Create angle and apply pressure**: Drive your forehead into their bicep while simultaneously pulling their wrist down and across. This creates a bent-arm position that weakens their structure. Step your lead foot (same side as their controlled arm) laterally and slightly forward at a 45-degree angle. Your body should be angling toward their back rather than directly facing them. Maintain downward pressure on their wrist to prevent them from straightening their arm.
+3. **Begin circular motion to back**: Using the angle you've created, begin circling toward opponent's back by taking small, controlled steps in the direction of their controlled arm. Your movement should be lateral and slightly forward, not backward. Keep your hips lower than theirs to maintain base. As you circle, maintain constant pressure with your head and continue pulling their wrist across their body. Your trailing hand on their tricep helps guide the circle.
+4. **Clear hip and continue rotation**: As you circle, your lead hip will pass their near hip. This is the critical clearing point. Once your hip clears theirs, accelerate your circling motion while maintaining all grips. Your head should now be positioned behind their shoulder line. If they attempt to turn back toward you, use your head pressure and arm control to prevent rotation. Your body should be perpendicular to theirs at this point.
+5. **Secure back position**: Release your wrist grip and immediately shoot your arm under their far armpit to establish the first seat belt hook. Your head transitions from their bicep to behind their far shoulder. Your other hand maintains tricep control temporarily. Circle your final steps to achieve full back position with both feet behind them. Your chest should be tight to their back.
+6. **Complete back control**: From the partial seat belt position, release the tricep grip and thread your second arm over their opposite shoulder to complete the seat belt configuration (one arm over shoulder, one under armpit, hands clasped). Establish hooks by inserting your feet inside their thighs. If they defend the hooks, maintain standing back control with proper weight distribution. Secure the position before attacking submissions.
 
 
 </section>
@@ -254,27 +254,21 @@ This technique is favored by modern grapplers like elite competitors' and Garry 
 ## Training Progressions
 **Week 1-2: Grip and Position Familiarization** - Learning proper Russian Tie grip structure and head position
 Practice establishing the 2-on-1 grip from various standing positions. Partner provides no resistance. Focus on correct hand placement (wrist and tricep grips) and proper head position on bicep. Drill the feeling of pulling arm across centerline. Repetitions: 20-30 per session on each side.
-(Resistance: None)
 
 **Week 3-4: Angle Creation and Basic Circle** - Developing lateral movement and angle generation
 With Russian Tie established, practice taking lateral steps and creating 45-degree angle. Partner maintains neutral stance but doesn't defend. Focus on footwork patterns and maintaining constant pressure. Practice circling motion without rushing. Repetitions: 15-20 complete circles per session.
-(Resistance: Light)
 
 **Week 5-8: Back Take Completion** - Smooth transition from Russian Tie to seat belt back control
 Practice complete sequence from standing to back control. Partner provides light resistance - attempting to turn toward you but not explosively countering. Focus on grip transitions, timing of releases, and securing both seat belt and hooks. Repetitions: 10-15 complete sequences per session.
-(Resistance: Light)
 
 **Week 9-12: Counter Defense Integration** - Responding to common defensive reactions
 Partner actively defends using specific counters: arm pull-back, sprawl, turn-in, and neck grab. Practice appropriate responses to each counter while maintaining control and completing back take. Alternate between defensive patterns. Work on reading opponent's reactions and adjusting in real-time.
-(Resistance: Medium)
 
 **Month 4-6: Flow Rolling Integration** - Applying Russian Tie to Back Take in live situations
 Incorporate technique into flow rolling with focus on setups from various standing positions. Practice chaining Russian Tie with other takedowns (single leg, snap down) based on opponent reactions. Partner provides 50-70% resistance. Emphasize timing and opportunity recognition over force.
-(Resistance: Medium)
 
 **Month 6+: Competition Application** - Live sparring and competition-specific scenarios
 Use Russian Tie to Back Take in live sparring rounds starting from standing. Practice against fully resisting opponents of various sizes and skill levels. Work on grip fighting to establish Russian Tie, adapting to different grips and stances, and capitalizing on brief windows of opportunity. Film training for analysis.
-(Resistance: Full)
 
 
 

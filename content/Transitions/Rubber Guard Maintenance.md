@@ -157,7 +157,7 @@ The maintenance phase is where most practitioners fail in Rubber Guard applicati
 Strategically, Rubber Guard Maintenance serves as the platform from which all high-percentage attacks launch. Without solid maintenance skills, submissions become low-percentage scrambles rather than controlled finishes. The practitioner who masters maintenance transforms Rubber Guard from a flashy but unreliable position into a systematic attack system where the opponent faces constant threat while having limited escape options. This makes maintenance not merely a defensive skill but the offensive foundation that enables gogoplata, omoplata, triangle, and armbar attacks.
 
 **From Position**: [[Rubber Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ Strategically, Rubber Guard Maintenance serves as the platform from which all hi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure overhook grip**: Establish a deep overhook grip on your own shin with your controlling arm, threading your forearm around the outside of your shin and gripping firmly near the ankle to create structural integrity (Timing: Immediately upon establishing Rubber Guard)
-2. **Set hip angle**: Angle your hips perpendicular to opponent's spine by shifting your bottom hip slightly toward the controlling leg side, creating optimal leverage for maintaining downward pressure on their head and preventing posture recovery (Timing: Within first 2 seconds of control)
-3. **Drive heel toward mat**: Actively drive your controlling leg's heel toward the ground behind opponent's head, creating constant downward pressure that forces their posture to remain broken and makes head extraction extremely difficult (Timing: Continuous throughout maintenance)
-4. **Monitor posture attempts**: Feel for opponent's weight shifting backward or their hands posting on your hips, which indicates imminent posture recovery attempts that must be countered immediately before momentum develops (Timing: Constant awareness)
-5. **Counter posture with hip elevation**: When opponent begins posturing, elevate your hips while pulling your shin grip tighter and driving your knee toward your own shoulder, using their upward energy to deepen your control rather than fighting against it (Timing: Reactive to opponent's posture attempts)
-6. **Adjust secondary controls**: Use your free hand to control opponent's wrist, collar, or head position depending on the situation, preventing them from establishing hand position on your hips or creating frames that enable escape (Timing: As needed based on opponent's defensive reactions)
+1. **Secure overhook grip**: Establish a deep overhook grip on your own shin with your controlling arm, threading your forearm around the outside of your shin and gripping firmly near the ankle to create structural integrity
+2. **Set hip angle**: Angle your hips perpendicular to opponent's spine by shifting your bottom hip slightly toward the controlling leg side, creating optimal leverage for maintaining downward pressure on their head and preventing posture recovery
+3. **Drive heel toward mat**: Actively drive your controlling leg's heel toward the ground behind opponent's head, creating constant downward pressure that forces their posture to remain broken and makes head extraction extremely difficult
+4. **Monitor posture attempts**: Feel for opponent's weight shifting backward or their hands posting on your hips, which indicates imminent posture recovery attempts that must be countered immediately before momentum develops
+5. **Counter posture with hip elevation**: When opponent begins posturing, elevate your hips while pulling your shin grip tighter and driving your knee toward your own shoulder, using their upward energy to deepen your control rather than fighting against it
+6. **Adjust secondary controls**: Use your free hand to control opponent's wrist, collar, or head position depending on the situation, preventing them from establishing hand position on your hips or creating frames that enable escape
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, Rubber Guard Maintenance serves as the platform from which all hi
 ## Training Progressions
 **Week 1-2** - Flexibility and position familiarity
 Focus on achieving and holding Rubber Guard position against non-resisting partner. Develop hip flexibility through daily stretching. Practice finding comfortable overhook grip depth and hip angle without opposition.
-(Resistance: None)
 
 **Week 3-4** - Identifying and countering escape attempts
 Partner provides light posture recovery attempts. Practice recognizing the feel of posture attempts before they develop momentum. Work on timing your hip elevation and grip tightening to counter their movement.
-(Resistance: Light)
 
 **Week 5-6** - Combining maintenance with attacks
 Maintain Rubber Guard while partner provides medium resistance, then launch attacks when openings appear. Practice the connection between maintenance and Mission Control, Chill Dog, and submission setups.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Full resistance positional sparring starting from Rubber Guard. Identify personal weaknesses in maintenance and develop solutions. Integrate maintenance seamlessly into your guard game.
-(Resistance: Full)
 
 
 

@@ -163,7 +163,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -239,13 +239,13 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Front Headlock Control**: Establish dominant front headlock position with your head tight to opponent's far shoulder. Your choking arm should be threatening the neck while your opposite hand controls their far arm or shoulder. Break their posture by pulling down and driving your weight through their head and shoulders. (Timing: Initial setup: 1-2 seconds) [Pressure: Moderate]
-2. **Identify and Trap the Arm**: Recognize when opponent commits an arm inside your control space - this typically occurs when they attempt an underhook, post their hand on your hip, or frame against your body. As they commit this arm, immediately adjust your choking arm to ensure their arm becomes trapped between your forearm and their own neck. Your forearm should be across the front of their throat with their arm pinned inside. (Timing: Opportunistic timing: 0.5-1 second window) [Pressure: Light]
-3. **Achieve Deep Neck Penetration**: Drive your choking arm deeper around the opponent's neck, aiming to get your wrist past the centerline of their throat. The blade of your forearm (thumb-side) should be positioned directly across their trachea and carotid arteries. Ensure the trapped arm remains secured inside - if it starts to slip out, adjust your angle and re-secure it before proceeding. (Timing: 1-2 seconds for optimal depth) [Pressure: Moderate]
-4. **Establish Wrist-to-Wrist Connection**: Bring your non-choking hand up and connect wrist-to-wrist with your choking arm, creating a closed loop around the opponent's neck and trapped arm. Your palms should face each other with wrists locked together. This connection point should be on the far side of their neck, creating maximum choking diameter. Keep your elbows tight to your body for structural integrity. (Timing: 1 second to secure grip) [Pressure: Moderate]
-5. **Adjust Body Position for Optimal Angle**: If standing, sprawl your hips back while keeping chest pressure on opponent's head. If pulling guard, sit to your hip on the non-choking side while maintaining tight connection. Your head should remain glued to opponent's far shoulder throughout. Angle your body approximately 45 degrees relative to their centerline for maximum mechanical advantage. (Timing: 1-2 seconds transition) [Pressure: Moderate]
-6. **Generate Choking Pressure Through Hip Extension**: Extend your hips forward while simultaneously arching your back and lifting your chest. This creates a powerful scissoring action where your forearm drives into their neck while your body weight prevents escape. The pressure should be smooth and progressive - think 'expanding your chest' rather than 'squeezing with arms'. If in closed guard, simultaneously crunch your body while extending hips up. (Timing: 3-5 seconds progressive pressure to finish) [Pressure: Maximum]
-7. **Maintain Position and Adjust as Needed**: If opponent attempts to roll, follow their movement while maintaining all connections. If they try to stand, jump to closed guard while keeping the choke locked. Continuously monitor the tightness of the choke and adjust your wrist connection or body angle as needed. If they begin to escape the trapped arm, decide immediately whether to transition to standard guillotine or release and reset. (Timing: Ongoing until tap or transition) [Pressure: Maximum]
+1. **Secure Front Headlock Control**: Establish dominant front headlock position with your head tight to opponent's far shoulder. Your choking arm should be threatening the neck while your opposite hand controls their far arm or shoulder. Break their posture by pulling down and driving your weight through their head and shoulders. (Timing: Initial setup: 1-2 seconds)
+2. **Identify and Trap the Arm**: Recognize when opponent commits an arm inside your control space - this typically occurs when they attempt an underhook, post their hand on your hip, or frame against your body. As they commit this arm, immediately adjust your choking arm to ensure their arm becomes trapped between your forearm and their own neck. Your forearm should be across the front of their throat with their arm pinned inside. (Timing: Opportunistic timing: 0.5-1 second window)
+3. **Achieve Deep Neck Penetration**: Drive your choking arm deeper around the opponent's neck, aiming to get your wrist past the centerline of their throat. The blade of your forearm (thumb-side) should be positioned directly across their trachea and carotid arteries. Ensure the trapped arm remains secured inside - if it starts to slip out, adjust your angle and re-secure it before proceeding. (Timing: 1-2 seconds for optimal depth)
+4. **Establish Wrist-to-Wrist Connection**: Bring your non-choking hand up and connect wrist-to-wrist with your choking arm, creating a closed loop around the opponent's neck and trapped arm. Your palms should face each other with wrists locked together. This connection point should be on the far side of their neck, creating maximum choking diameter. Keep your elbows tight to your body for structural integrity. (Timing: 1 second to secure grip)
+5. **Adjust Body Position for Optimal Angle**: If standing, sprawl your hips back while keeping chest pressure on opponent's head. If pulling guard, sit to your hip on the non-choking side while maintaining tight connection. Your head should remain glued to opponent's far shoulder throughout. Angle your body approximately 45 degrees relative to their centerline for maximum mechanical advantage. (Timing: 1-2 seconds transition)
+6. **Generate Choking Pressure Through Hip Extension**: Extend your hips forward while simultaneously arching your back and lifting your chest. This creates a powerful scissoring action where your forearm drives into their neck while your body weight prevents escape. The pressure should be smooth and progressive - think 'expanding your chest' rather than 'squeezing with arms'. If in closed guard, simultaneously crunch your body while extending hips up. (Timing: 3-5 seconds progressive pressure to finish)
+7. **Maintain Position and Adjust as Needed**: If opponent attempts to roll, follow their movement while maintaining all connections. If they try to stand, jump to closed guard while keeping the choke locked. Continuously monitor the tightness of the choke and adjust your wrist connection or body angle as needed. If they begin to escape the trapped arm, decide immediately whether to transition to standard guillotine or release and reset. (Timing: Ongoing until tap or transition)
 
 
 </section>
@@ -265,25 +265,25 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing pressure immediately when opponent taps [Medium DANGER]
+- **Mistake**: Releasing pressure immediately when opponent taps
   - **Consequence**: While this seems correct, jerking away too quickly can cause whiplash or neck injury
   - **Correction**: Release pressure smoothly over 1-2 seconds, maintaining control but removing choking force. Guide their head down gently rather than letting it drop.
-- **Mistake**: Allowing the trapped arm to slip out during setup [Low DANGER]
+- **Mistake**: Allowing the trapped arm to slip out during setup
   - **Consequence**: Converts to standard guillotine which may be easier to escape, losing the control advantage
   - **Correction**: Maintain constant awareness of trapped arm position. If it begins sliding out, immediately adjust your angle or re-trap it before continuing the finish sequence.
-- **Mistake**: Gripping your own wrist or hand instead of wrist-to-wrist connection [Low DANGER]
+- **Mistake**: Gripping your own wrist or hand instead of wrist-to-wrist connection
   - **Consequence**: Creates larger choking circle with less pressure, significantly reducing effectiveness and increasing opponent's escape opportunities
   - **Correction**: Practice the wrist-to-wrist grip specifically. Your wrists should lock together with palms facing each other, creating the smallest possible diameter around opponent's neck.
-- **Mistake**: Using pure arm strength instead of hip extension [Medium DANGER]
+- **Mistake**: Using pure arm strength instead of hip extension
   - **Consequence**: Rapid fatigue, reduced pressure, and increased risk of shoulder or elbow injury to yourself
   - **Correction**: Focus on positioning your body correctly first. The choke should feel easy if your hips are extended and chest is up. If you're muscling it, your position is wrong.
-- **Mistake**: Cranking the neck or applying sudden jerking motions [CRITICAL DANGER]
+- **Mistake**: Cranking the neck or applying sudden jerking motions
   - **Consequence**: Severe cervical spine injury, muscle tears, or nerve damage to training partner
   - **Correction**: Always apply smooth, progressive pressure. The finish should take 3-5 seconds minimum from first pressure to tap. Never spike or jerk the submission.
-- **Mistake**: Letting opponent's head slide up and out over your shoulder [Low DANGER]
+- **Mistake**: Letting opponent's head slide up and out over your shoulder
   - **Consequence**: Complete loss of submission as opponent escapes head and arm simultaneously
   - **Correction**: Keep your head pressure tight to opponent's far shoulder throughout. Your ear should be touching their back/shoulder blade, preventing head extraction.
-- **Mistake**: Continuing to apply pressure after partner goes limp or unconscious [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner goes limp or unconscious
   - **Consequence**: Brain damage, stroke, or death from prolonged oxygen deprivation
   - **Correction**: IMMEDIATELY release all pressure the instant you feel partner go limp or notice color change in face. Check breathing and consciousness. Seek medical attention if unconsciousness occurred.
 
@@ -348,43 +348,6 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Safety Education** (Week 1-2)
-- Focus: Learn proper positioning, grip mechanics, and comprehensive safety protocols without applying any choking pressure. Study anatomy of neck structures and injury mechanisms. Practice entry setups and trapped arm recognition from static positions.
-- Resistance: None
-- Safety: Understand all tap signals, practice immediate release protocols, and learn to recognize signs of distress in partner. Memorize the injury risks and commit to never using jerking motions or excessive speed.
-
-**Slow Technique Drilling** (Week 3-4)
-- Focus: Practice the complete technique from setup to finish position with cooperative partner. Apply light contact pressure only - enough to understand the mechanics but nowhere near submission pressure. Focus on wrist-to-wrist connection, hip extension mechanics, and body positioning. Partner should give clear feedback on pressure and comfort level.
-- Resistance: Zero resistance
-- Safety: Count out loud to ensure 5+ second application time. Partner verbalizes when they would tap. Practice release protocols after every repetition even though no real pressure was applied.
-
-**Progressive Pressure Introduction** (Week 5-8)
-- Focus: Begin applying moderate choking pressure with partner's explicit consent and continuous communication. Work from the most controlled position (closed guard) first before attempting from other positions. Partner should tap early and often to calibrate pressure levels. Start recognizing the feeling of a 'tight' choke vs. a loose one.
-- Resistance: Mild resistance
-- Safety: Use verbal check-ins during drilling ('pressure okay?'). Establish clear signals for too much pressure before reaching tap threshold. Never finish the choke to unconsciousness - tap should come well before that point.
-
-**Positional Integration** (Week 9-12)
-- Focus: Practice recognizing arm-in opportunities from live scrambles and transitions. Work setups from takedown defense, butterfly guard, and front headlock control. Begin chaining this submission with other attacks. Learn to abandon the attempt if positioning is poor rather than forcing it.
-- Resistance: Realistic resistance
-- Safety: Maintain slow application even during faster-paced positional sparring. Your partner's safety is more important than completing the submission. If you feel rushed or off-balance, release and reset.
-
-**Competition Simulation with Safety Parameters** (Week 13-20)
-- Focus: Incorporate arm-in guillotine into live rolling with the understanding that training application remains slower than competition. Work on recognizing defensive reactions and adjusting in real-time. Develop counter-fighting skills against common escapes. Build endurance for maintaining position under resistance.
-- Resistance: Full resistance
-- Safety: Distinguish between competition and training application speeds. In training, you apply the submission over 3-5 seconds even if you could finish faster. Your reputation as a safe training partner is more valuable than any tap.
-
-**Ongoing Mastery and Teaching** (Month 6+)
-- Focus: Refine technique based on body type matchups and specific scenarios. Begin teaching the technique to others, reinforcing safety protocols. Develop instinctive recognition of setup opportunities. Continue learning variations and counters. Study high-level competition footage to understand application in various contexts.
-- Resistance: Full resistance
-- Safety: As you gain proficiency, your responsibility for partner safety increases. Always demonstrate perfect safety protocols when teaching. Share near-miss experiences to help others avoid mistakes. Cultivate a gym culture where safety in submissions is paramount.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -427,7 +390,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 - [[Guillotine Control]] - Primary control position for setting up arm-in variant
 - [[Front Headlock]] - Primary entry position and control platform for arm-in guillotine
 - [[Anaconda Control]] - Alternative arm-in choke position when opponent turns toward choking arm
-- [[D'arce Control]] - Alternative arm-in choke position accessible from similar setups
+- [[Darce Control]] - Alternative arm-in choke position accessible from similar setups
 - [[Closed Guard]] - Primary finishing position when pulling guard with guillotine locked
 - [[Butterfly Guard]] - Alternative guard position for arm-in guillotine finishes
 - [[Half Guard]] - Recovery position if opponent partially escapes guillotine
@@ -437,6 +400,7 @@ The Arm in Guillotine represents a powerful variation of the standard guillotine
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

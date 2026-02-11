@@ -163,7 +163,7 @@ This counter relies on the fundamental principle that when an attacker commits f
 Strategically, the Counter Heel Hook represents the highest-level defensive option from 50-50 Bottom because it maintains engagement in the leg lock exchange rather than conceding position through escape. This approach is favored by elite leg lock specialists who have confidence in their submission finishing ability. However, it carries significant risk since both practitioners are simultaneously attacking and defending, making tap recognition and injury prevention critical considerations.
 
 **From Position**: [[50-50 Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, the Counter Heel Hook represents the highest-level defensive opti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Defend your heel**: Immediately rotate your knee inward toward your opposite hip to remove tension from any heel hook grip opponent has established. This creates the time window needed to mount your counter-attack. (Timing: Instant - must happen as opponent begins breaking motion)
-2. **Identify opponent's heel**: While maintaining your defensive knee position, visually locate opponent's heel position. Their aggressive attacking posture often exposes their heel as they focus on finishing their attack. (Timing: During defensive rotation)
-3. **Secure heel grip**: Reach with your outside hand to cup opponent's heel, placing your palm on the back of their heel with fingers wrapping around the Achilles tendon area. This is your primary controlling grip. (Timing: As opponent's heel becomes accessible)
-4. **Establish second grip**: Bring your inside arm under opponent's leg to create a figure-four or gable grip configuration, clasping your hands together with opponent's heel trapped between your wrist and forearm. (Timing: Immediately after securing initial heel grip)
-5. **Create breaking angle**: Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. This creates the rotational force necessary for the heel hook finish. (Timing: Once grips are secured)
-6. **Apply breaking pressure**: Drive your wrist blade into the Achilles while pulling the heel toward your hip and rotating opponent's toes outward. Apply controlled, progressive pressure while monitoring for tap. (Timing: After angle is established)
-7. **Monitor and adjust**: If opponent defends by extracting their heel or rotating their knee, immediately assess whether to pursue the finish, transition to alternative attack, or disengage to safer position. (Timing: Throughout breaking attempt)
+1. **Defend your heel**: Immediately rotate your knee inward toward your opposite hip to remove tension from any heel hook grip opponent has established. This creates the time window needed to mount your counter-attack.
+2. **Identify opponent's heel**: While maintaining your defensive knee position, visually locate opponent's heel position. Their aggressive attacking posture often exposes their heel as they focus on finishing their attack.
+3. **Secure heel grip**: Reach with your outside hand to cup opponent's heel, placing your palm on the back of their heel with fingers wrapping around the Achilles tendon area. This is your primary controlling grip.
+4. **Establish second grip**: Bring your inside arm under opponent's leg to create a figure-four or gable grip configuration, clasping your hands together with opponent's heel trapped between your wrist and forearm.
+5. **Create breaking angle**: Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. This creates the rotational force necessary for the heel hook finish.
+6. **Apply breaking pressure**: Drive your wrist blade into the Achilles while pulling the heel toward your hip and rotating opponent's toes outward. Apply controlled, progressive pressure while monitoring for tap.
+7. **Monitor and adjust**: If opponent defends by extracting their heel or rotating their knee, immediately assess whether to pursue the finish, transition to alternative attack, or disengage to safer position.
 
 
 </section>
@@ -261,19 +261,15 @@ Strategically, the Counter Heel Hook represents the highest-level defensive opti
 ## Training Progressions
 **Week 1-2** - Grip mechanics and heel defense
 Practice the heel cupping grip and figure-four configuration in isolation. Drill defensive knee rotation repeatedly. Partner holds static position while you establish grips without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner slowly attacks your heel hook while you practice recognizing the window for counter-attack. Focus on the moment opponent commits forward that exposes their heel. Execute counter at 50% speed.
-(Resistance: Light)
 
 **Week 5-6** - Grip fighting integration
 Partner actively defends their heel while attacking yours. Practice maintaining your heel defense while fighting for offensive grips. Introduce the race dynamic at controlled pace.
-(Resistance: Medium)
 
 **Week 7+** - Live application and decision making
 Full speed 50-50 exchanges where you must decide whether to pursue counter, escape, or alternative defense based on real-time positioning. Include tap recognition and partner safety protocols.
-(Resistance: Full)
 
 
 

@@ -364,11 +364,11 @@ Partner maintains body triangle while you focus exclusively on optimal defensive
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 65% |
-| Intermediate | 30% | 40% | 50% |
-| Advanced     | 45% | 55% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 48% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 1-3 minutes depending on skill level and opponent's submission timing
 

@@ -159,7 +159,7 @@ description: "Master Technical Stand Up to Single Leg in BJJ. Execute safe stand
 The Technical Stand Up to Single Leg is a fundamental defensive recovery sequence that transforms a vulnerable bottom position into an offensive wrestling attack. This technique combines the safety and base management of the technical standup with the explosive entry mechanics of single leg takedowns, creating a seamless transition from defense to offense. The sequence is particularly valuable in no-gi grappling, MMA, and self-defense contexts where maintaining distance and controlling engagement timing is critical. By establishing proper base during the standup phase, you create the structural foundation necessary to generate explosive power for the single leg entry. The technique exemplifies the principle of position-over-submission thinking, as you prioritize safe recovery before attacking. Against opponents who pressure forward during your standup, this sequence allows you to redirect their momentum into a takedown opportunity, turning their aggression into your advantage.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,13 +208,13 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish posting hand**: From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Your posting arm should be positioned slightly behind your hip line to prevent being driven forward. (Timing: Initial setup - maintain until fully standing)
-2. **Extend lead leg**: Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly away to create angle. (Timing: Immediately after hand post is secure)
-3. **Drive to standing position**: Explosively drive through your posted foot while maintaining pressure through your posted hand. Keep your hips low and back straight as you rise. Your non-posted hand should be active, creating frames against opponent's torso or hips to maintain distance. As you rise, your weight shifts from hand to feet, but maintain hand contact until fully balanced. (Timing: Explosive movement, 0.5-1 second)
-4. **Square up and assess distance**: Once standing, immediately square your hips to your opponent while maintaining defensive hand position. Keep your stance slightly wider than shoulder width with knees bent and weight on the balls of your feet. Your hands should be positioned to frame, pummel, or defend against immediate attacks. Read opponent's reaction - forward pressure creates single leg opportunity. (Timing: Brief pause, 0.5 seconds maximum)
-5. **Level change and penetration step**: As opponent steps forward or reaches to engage, execute a deep level change by dropping your hips while keeping your back straight and head up. Simultaneously take a deep penetration step with your lead foot, placing it between or outside opponent's feet. Your trailing knee should drop toward the mat. Keep your chest pressed against their thigh and your head positioned to the outside of their body. (Timing: Explosive timing as opponent enters range)
-6. **Secure the single leg**: Wrap both arms around opponent's near leg, clasping your hands behind their knee or lower thigh. Your shoulder should be driving into their upper thigh or hip while your head maintains outside position. Keep your hips low and extended toward them. Your grip should be tight with elbows pinched together, creating maximum control over their leg structure. (Timing: Immediate upon penetration step)
-7. **Complete the takedown**: Drive forward through your legs while lifting their captured leg and angling their body. Run your feet in small, powerful steps rather than reaching. Pull their leg across your body while turning your torso to break their balance. As they fall, maintain control and establish top position (usually side control, knee on belly, or back control depending on their reaction). (Timing: Continuous driving pressure, 2-3 seconds)
+1. **Establish posting hand**: From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Your posting arm should be positioned slightly behind your hip line to prevent being driven forward.
+2. **Extend lead leg**: Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly away to create angle.
+3. **Drive to standing position**: Explosively drive through your posted foot while maintaining pressure through your posted hand. Keep your hips low and back straight as you rise. Your non-posted hand should be active, creating frames against opponent's torso or hips to maintain distance. As you rise, your weight shifts from hand to feet, but maintain hand contact until fully balanced.
+4. **Square up and assess distance**: Once standing, immediately square your hips to your opponent while maintaining defensive hand position. Keep your stance slightly wider than shoulder width with knees bent and weight on the balls of your feet. Your hands should be positioned to frame, pummel, or defend against immediate attacks. Read opponent's reaction - forward pressure creates single leg opportunity.
+5. **Level change and penetration step**: As opponent steps forward or reaches to engage, execute a deep level change by dropping your hips while keeping your back straight and head up. Simultaneously take a deep penetration step with your lead foot, placing it between or outside opponent's feet. Your trailing knee should drop toward the mat. Keep your chest pressed against their thigh and your head positioned to the outside of their body.
+6. **Secure the single leg**: Wrap both arms around opponent's near leg, clasping your hands behind their knee or lower thigh. Your shoulder should be driving into their upper thigh or hip while your head maintains outside position. Keep your hips low and extended toward them. Your grip should be tight with elbows pinched together, creating maximum control over their leg structure.
+7. **Complete the takedown**: Drive forward through your legs while lifting their captured leg and angling their body. Run your feet in small, powerful steps rather than reaching. Pull their leg across your body while turning your torso to break their balance. As they fall, maintain control and establish top position (usually side control, knee on belly, or back control depending on their reaction).
 
 
 </section>
@@ -261,27 +261,21 @@ The Technical Stand Up to Single Leg is a fundamental defensive recovery sequenc
 ## Training Progressions
 **Week 1-2: Fundamental Movement Patterns** - Technical standup mechanics in isolation
 Practice technical standup from various bottom positions (turtle, seated, butterfly) without opposition. Focus on proper hand posting, foot placement, and rising mechanics. Partner provides light stability support but no resistance. Drill 20-30 repetitions per session until movement becomes automatic.
-(Resistance: None)
 
 **Week 3-4: Adding Single Leg Entry** - Combining standup with level change and penetration
 Partner stands at distance. Execute technical standup, then practice level change and single leg entry in slow motion. Partner remains stationary. Focus on hip height, penetration depth, and head position. Perform 15-20 repetitions emphasizing smooth transition between standup and attack.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance** - Standup against increasing pressure
 Partner applies moderate pressure during standup attempt, forcing you to maintain base and frame properly. They may attempt light crossface or push-downs. Complete standup and single leg entry against this resistance. Focus on timing entry when partner steps forward. 10-15 quality repetitions per round.
-(Resistance: Medium)
 
 **Week 9-12: Finishing and Countering** - Complete takedown sequences and defensive responses
 Partner defends single leg with sprawls, whizzers, and guillotine attempts. Practice finishing variations (trips, dumps, cuts) and recognize when to abandon and chain to alternatives. Work both offense and defense of this sequence. Live drilling with specific starting positions.
-(Resistance: Medium)
 
 **Week 13+: Competition Integration** - Live application in sparring contexts
 Incorporate technical standup to single leg into positional sparring from disadvantaged positions. Start rounds from turtle, mount bottom, or side control bottom and work to execute this sequence. Partner uses full resistance and counters. Track success rate and identify pattern-specific weaknesses.
-(Resistance: Full)
 
 **Ongoing: Scenario-Based Training** - Context-specific variations (gi vs no-gi, MMA, self-defense)
 Practice this sequence in different contexts: with gi grips, against strikes, with cage/wall pressure, time pressure scenarios. Develop decision-making skills for when to attempt versus when to choose alternative escapes. Include cardio-stressed conditions to simulate competition fatigue.
-(Resistance: Full)
 
 
 

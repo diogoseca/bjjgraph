@@ -92,35 +92,43 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 25
+        "attempt_probability": 22
       },
       {
         "transition": "Armbar from Back with Legs",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Bow and Arrow Choke",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Back Control to Crucifix",
-        "attempt_probability": 10
-      },
-      {
-        "transition": "Armbar from Back",
         "attempt_probability": 7
       },
       {
-        "transition": "Body Triangle Lock",
-        "attempt_probability": 10
+        "transition": "Bow and Arrow Choke",
+        "attempt_probability": 12
       },
       {
-        "transition": "Choke from Crucifix",
+        "transition": "Back Control to Crucifix",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Armbar from Back",
         "attempt_probability": 5
       },
       {
+        "transition": "Body Triangle Lock",
+        "attempt_probability": 8
+      },
+      {
         "transition": "Back Control Maintenance",
-        "attempt_probability": 20
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Triangle from Back",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Kimura from Back",
+        "attempt_probability": 5
+      },
+      {
+        "transition": "Gift Wrap Control",
+        "attempt_probability": 8
       }
     ],
     "decision_tree": [
@@ -298,21 +306,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85,
+        "value": 80,
         "description": "Ability to maintain back control position against escape attempts across skill levels"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of improving to better control variation or submission position"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Success rate of finishing submission from back control position"
       },
       "average_time": "45-90 seconds before submission attempt or position change"
@@ -359,23 +361,31 @@
     "transitions": [
       {
         "transition": "Back Escape Series",
-        "attempt_probability": 30
+        "attempt_probability": 23
       },
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 22
+        "attempt_probability": 18
       },
       {
         "transition": "Granby Roll Escape",
-        "attempt_probability": 13
+        "attempt_probability": 8
       },
       {
         "transition": "Elbow Escape to Remove Hooks",
-        "attempt_probability": 15
+        "attempt_probability": 16
       },
       {
         "transition": "Hand Fighting from Back",
-        "attempt_probability": 20
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Rolling Escape",
+        "attempt_probability": 5
       }
     ],
     "decision_tree": [
@@ -541,21 +551,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Ability to prevent submission and maintain survival position without escaping"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Likelihood of improving position to turtle, half guard, or guard recovery"
       },
       "submission_probability": {
-        "beginner": 65,
-        "intermediate": 50,
-        "advanced": 35,
+        "value": 42,
         "description": "Risk of being submitted from back control bottom position by opponent"
       },
       "average_time": "30-60 seconds before submission or escape attempt"

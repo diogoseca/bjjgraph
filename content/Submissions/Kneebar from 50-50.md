@@ -167,7 +167,7 @@ This submission represents a critical component of modern leg lock systems and i
 **Type**: Leg Lock
 **Target Area**: Knee joint (hyperextension of knee ligaments)
 **Starting Position**: [[50-50 Guard]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -246,13 +246,13 @@ This submission represents a critical component of modern leg lock systems and i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish inside 50-50 position**: From 50-50 Guard, ensure your inside leg is deeper than opponent's. Your inside leg should be positioned with your foot behind their far hip while your outside leg wraps over their near thigh. This inside position is critical—if opponent has deeper inside position, you must address this first before attempting the kneebar. (Timing: Initial setup phase) [Pressure: Light]
-2. **Isolate and secure the target leg**: Reach across and grab opponent's foot (the leg you're entangling), pulling it tightly into your armpit. Their toes should point toward your back. Clamp your elbow and arm tightly around their foot, treating it like a seatbelt grip. This foot control is non-negotiable—if you lose this connection, the submission fails. (Timing: 2-3 seconds) [Pressure: Firm]
-3. **Position hip across knee joint**: Adjust your body angle so your hip bone is positioned directly across opponent's knee joint. Think of your hip as the fulcrum of a lever system. Scoot your hips closer to their knee, eliminating all space. Your body should be roughly perpendicular to opponent's trapped leg. This positioning determines the efficiency of your leverage. (Timing: 2-3 seconds positioning) [Pressure: Moderate]
-4. **Lock leg entanglement**: Squeeze your legs together tightly, using your top leg (over their thigh) to pin their hip and prevent escape. Your bottom leg (inside leg) should hook deeply behind their far hip. This creates a box-frame that immobilizes their entire lower body. Think of your legs as a vice grip around their thigh. (Timing: 1-2 seconds) [Pressure: Firm]
-5. **Secure upper body control**: Establish a grip on opponent's belt, pants at the hip, or their far leg to prevent them from sitting up or creating an angle. This control is essential—if they can sit up and face you, they can escape or counter-attack. Keep your chest low and pressure forward slightly to maintain their compromised posture. (Timing: 1-2 seconds) [Pressure: Moderate]
-6. **Apply hip extension for finish**: With all controls established, slowly extend your hips backward while keeping opponent's foot locked in your armpit. Imagine pushing your hips toward the ceiling while pulling their foot down. The pressure should be progressive and controlled—start at 20% pressure and gradually increase over 5-7 seconds. Watch for tap signals continuously. The knee will bend backward (hyperextend) as you create this lever action. (Timing: 5-7 seconds progressive pressure) [Pressure: Maximum]
-7. **Maintain until tap or adjust**: Hold the position with steady pressure until opponent taps. Do not pump or jerk the submission. If opponent begins to escape, first focus on reclaiming positional control (hip position, foot control) rather than desperately finishing. In training, if 5 seconds of steady pressure produces no tap, consider releasing and resetting rather than forcing through resistance. (Timing: Until tap or reset) [Pressure: Firm]
+1. **Establish inside 50-50 position**: From 50-50 Guard, ensure your inside leg is deeper than opponent's. Your inside leg should be positioned with your foot behind their far hip while your outside leg wraps over their near thigh. This inside position is critical—if opponent has deeper inside position, you must address this first before attempting the kneebar. (Timing: Initial setup phase)
+2. **Isolate and secure the target leg**: Reach across and grab opponent's foot (the leg you're entangling), pulling it tightly into your armpit. Their toes should point toward your back. Clamp your elbow and arm tightly around their foot, treating it like a seatbelt grip. This foot control is non-negotiable—if you lose this connection, the submission fails. (Timing: 2-3 seconds)
+3. **Position hip across knee joint**: Adjust your body angle so your hip bone is positioned directly across opponent's knee joint. Think of your hip as the fulcrum of a lever system. Scoot your hips closer to their knee, eliminating all space. Your body should be roughly perpendicular to opponent's trapped leg. This positioning determines the efficiency of your leverage. (Timing: 2-3 seconds positioning)
+4. **Lock leg entanglement**: Squeeze your legs together tightly, using your top leg (over their thigh) to pin their hip and prevent escape. Your bottom leg (inside leg) should hook deeply behind their far hip. This creates a box-frame that immobilizes their entire lower body. Think of your legs as a vice grip around their thigh. (Timing: 1-2 seconds)
+5. **Secure upper body control**: Establish a grip on opponent's belt, pants at the hip, or their far leg to prevent them from sitting up or creating an angle. This control is essential—if they can sit up and face you, they can escape or counter-attack. Keep your chest low and pressure forward slightly to maintain their compromised posture. (Timing: 1-2 seconds)
+6. **Apply hip extension for finish**: With all controls established, slowly extend your hips backward while keeping opponent's foot locked in your armpit. Imagine pushing your hips toward the ceiling while pulling their foot down. The pressure should be progressive and controlled—start at 20% pressure and gradually increase over 5-7 seconds. Watch for tap signals continuously. The knee will bend backward (hyperextend) as you create this lever action. (Timing: 5-7 seconds progressive pressure)
+7. **Maintain until tap or adjust**: Hold the position with steady pressure until opponent taps. Do not pump or jerk the submission. If opponent begins to escape, first focus on reclaiming positional control (hip position, foot control) rather than desperately finishing. In training, if 5 seconds of steady pressure produces no tap, consider releasing and resetting rather than forcing through resistance. (Timing: Until tap or reset)
 
 
 </section>
@@ -272,25 +272,25 @@ This submission represents a critical component of modern leg lock systems and i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Failing to control opponent's foot in armpit, allowing it to slip free [Medium DANGER]
+- **Mistake**: Failing to control opponent's foot in armpit, allowing it to slip free
   - **Consequence**: Opponent easily rotates their knee and escapes, potentially reversing position or counter-attacking your leg
   - **Correction**: Treat the foot like a seatbelt—clamp your elbow and forearm tightly around it with toes pointing to your back. Practice this grip in isolation until it becomes automatic. Your arm and elbow should be glued to your ribs.
-- **Mistake**: Positioning hip too high (across opponent's thigh) or too low (across their shin) [Low DANGER]
+- **Mistake**: Positioning hip too high (across opponent's thigh) or too low (across their shin)
   - **Consequence**: Loss of mechanical advantage results in weak submission that won't finish even with full hip extension
   - **Correction**: Your hip bone must sit directly across the joint line of opponent's knee. Spend time in drilling finding this precise position. It should feel like your hip is nestled into the back of their knee.
-- **Mistake**: Applying explosive or jerking motion to finish submission quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking motion to finish submission quickly
   - **Consequence**: SEVERE knee ligament damage, potential career-ending injury to training partner, immediate ejection from most academies
   - **Correction**: ALWAYS apply progressive pressure over minimum 5-7 seconds in training. Think 'slow and steady' not 'explosive and fast'. Competition and training have different safety standards—never compromise partner safety.
-- **Mistake**: Neglecting to defend your own exposed leg in 50-50 while attacking [High DANGER]
+- **Mistake**: Neglecting to defend your own exposed leg in 50-50 while attacking
   - **Consequence**: Opponent counter-attacks your knee or heel, potentially injuring you or forcing you to abandon your submission
   - **Correction**: Maintain defensive awareness throughout the attack sequence. Keep your heel hidden (turned away) and monitor opponent's hand position on your foot. If they establish control, immediately assess whether to finish fast or release and defend.
-- **Mistake**: Losing leg entanglement by not squeezing legs together tightly [Medium DANGER]
+- **Mistake**: Losing leg entanglement by not squeezing legs together tightly
   - **Consequence**: Opponent creates space and easily extracts their leg, escaping to a dominant position or standing
   - **Correction**: Your legs should function as a single unit, squeezing continuously throughout the submission. Your top leg pins their thigh down while inside leg hooks deep. There should be zero space in the entanglement.
-- **Mistake**: Allowing opponent to sit up and establish upper body control or cross-face [Medium DANGER]
+- **Mistake**: Allowing opponent to sit up and establish upper body control or cross-face
   - **Consequence**: Complete loss of submission and position, opponent can pass your guard or escape the leg entanglement
   - **Correction**: Establish and maintain grip control on opponent's belt, hip, or far leg to keep them flat on their back. Your free hand is not for posting—it's for control. Keep them flat and unable to face you.
-- **Mistake**: Continuing to apply pressure after feeling resistance or through opponent's stubbornness not to tap [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling resistance or through opponent's stubbornness not to tap
   - **Consequence**: Training partner suffers serious knee injury, destroyed training relationship, potential legal liability
   - **Correction**: In training, if 5 seconds of proper technique produces no tap, release and discuss with partner. Never 'teach them a lesson' by forcing through. Competition and training have different standards. Partner safety is non-negotiable.
 
@@ -355,43 +355,6 @@ This submission represents a critical component of modern leg lock systems and i
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Phase 1: Conceptual Understanding** (Week 1-2 (2-3 sessions))
-- Focus: Learn kneebar mechanics on grappling dummy or compliant partner. Study anatomy of knee joint, understand lever system (hip as fulcrum), and practice foot control grip without any finishing pressure. Watch instructional videos and review common injuries.
-- Resistance: Zero resistance
-- Safety: Learn proper tap protocols, understand injury mechanisms, and practice immediate release drills. Partner should tap early and often during this phase. No finishing pressure applied—position only.
-
-**Phase 2: Positional Entry Drilling** (Week 2-4 (6-8 sessions))
-- Focus: Practice entering 50-50 guard from various positions (sitting guard, standing passing, X-guard transitions). Focus on establishing inside position and foot control. Drill the sequence: establish 50-50, capture foot, position hip, lock legs. Stop before applying any finishing pressure.
-- Resistance: Mild resistance
-- Safety: Partner provides light defensive movement but allows position completion. Practice verbal communication throughout. No hip extension applied—drill ends once all controls are established. Both partners practice defending their own legs simultaneously.
-
-**Phase 3: Controlled Pressure Introduction** (Week 4-8 (8-12 sessions))
-- Focus: Add finishing pressure at 20-30% intensity with 7-10 second progressive application. Partner taps early when they feel knee pressure beginning. Practice the complete sequence from entry to finish with emphasis on slow, controlled hip extension. Count out loud 'one-thousand, two-thousand' to ensure proper timing.
-- Resistance: Mild resistance
-- Safety: Partner must tap at first sign of knee pressure—do not test flexibility or toughness. Practice immediate release protocol repeatedly. Stop and reset if any explosive movement occurs. Both partners should feel comfortable and safe throughout. Instructor supervision recommended for this phase.
-
-**Phase 4: Realistic Defensive Drilling** (Week 8-16 (15-20 sessions))
-- Focus: Partner now actively defends the kneebar using proper escape techniques: sitting up, straightening leg, creating angles, grip fighting. Practice problem-solving against common defenses. Increase pressure to 40-50% with 5-7 second application when finish is available. Begin incorporating the technique into positional sparring specific to leg entanglements.
-- Resistance: Realistic resistance
-- Safety: Maintain 5-7 second minimum application time even with increased resistance. Partner taps when properly controlled, not when pain is severe. Practice situational awareness of counter-attacks to your own leg. Establish clear rules for the positional sparring (e.g., no heel hooks, restart from 50-50 after escape).
-
-**Phase 5: Live Rolling Integration** (Month 4-6 (ongoing))
-- Focus: Integrate kneebar from 50-50 into regular live rolling with trusted partners. Apply technique opportunistically when 50-50 position emerges naturally. Continue using training-appropriate speed (5-7 seconds minimum) even in competitive rolls. Begin chaining kneebar with other leg lock attacks and sweeps.
-- Resistance: Full resistance
-- Safety: Never use competition finishing speed in regular rolling. Communicate with new partners before rolling about leg lock experience and comfort level. Stop immediately if partner seems unfamiliar with leg lock defense. Continue tapping early yourself when caught. Build reputation as safe training partner who prioritizes longevity.
-
-**Phase 6: Competition Application** (Month 6+ (for competitors only))
-- Focus: Only in competition or with explicit pre-arranged consent, use competition-speed applications (2-3 seconds). Understand rule sets thoroughly—some allow kneebars but not heel hooks, affecting your strategic options from 50-50. Develop timing for when to finish versus when to transition. Study high-level competition footage of 50-50 kneebar finishes.
-- Resistance: Full resistance
-- Safety: Competition speed is ONLY for competition or pre-arranged competitive training with explicit consent. Make crystal clear before any roll what intensity level is agreed upon. In competition, still apply progressive pressure—just faster than training pace. Understand that tournament injuries can occur even with proper technique. Always separate competition mindset from regular training mindset.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -443,6 +406,7 @@ This submission represents a critical component of modern leg lock systems and i
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

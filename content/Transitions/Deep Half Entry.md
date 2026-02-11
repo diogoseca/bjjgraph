@@ -153,7 +153,7 @@ description: "Learn Deep Half Entry in BJJ. Step-by-step execution from Half Gua
 The Deep Half Entry is a fundamental transition from traditional half guard to the deep half guard position, representing a critical defensive recovery and offensive repositioning technique. This entry allows the bottom player to create powerful sweeping opportunities while simultaneously removing themselves from immediate passing danger. Deep half guard has become increasingly prevalent in modern competition BJJ, particularly at the highest levels, as it provides a systematic framework for dealing with pressure-based passing attempts. The position works by getting underneath your opponent's center of gravity, using their weight against them to create mechanical advantage for sweeps and back takes. The entry itself requires precise timing, proper hip mobility, and an understanding of how to manage space and frames during the transition. When executed correctly, the deep half entry transforms a potentially defensive situation into an offensive opportunity, allowing the practitioner to attack with various sweep options including the waiter sweep, Homer Simpson sweep, and electric chair variations.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -203,12 +203,12 @@ The Deep Half Entry is a fundamental transition from traditional half guard to t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create initial space**: From half guard bottom, use your top arm to create a strong frame against opponent's shoulder or hip. Simultaneously perform a small shrimp/hip escape to create just enough space to begin rotating your body. Your goal is to create 2-3 inches of space between your torso and opponent's chest. (Timing: Execute immediately when opponent commits forward pressure)
-2. **Secure underhook on near leg**: As you create space, slide your bottom arm (the arm closest to the mat) underneath opponent's near leg, securing a deep underhook around their thigh. Your shoulder should be positioned against the inside of their thigh, with your hand gripping behind their knee or reaching toward their far hip. This underhook is the foundational control for the entire position. (Timing: Immediately following space creation, before opponent can recover pressure)
-3. **Begin rotation underneath**: Using the underhook as an anchor point, begin rotating your entire body perpendicular to your opponent. Turn onto your side and continue rotating so that your back begins to face the mat. Your head should start moving toward a position underneath opponent's hips, while your hips rotate away from them. Think of creating a 'T' shape with your bodies. (Timing: Smooth, continuous motion - do not pause mid-rotation)
-4. **Establish head position**: Continue rotating until your head is positioned underneath opponent's hips, with your face looking toward their far hip. Your head should be below the line of their hips to prevent them from applying shoulder pressure downward. Keep your neck protected by maintaining good posture and not allowing your chin to be exposed. (Timing: Complete before opponent can base out or apply shoulder pressure)
-5. **Hook far leg**: As you complete the rotation, use your bottom leg (the leg that was not originally controlling in half guard) to hook around opponent's far leg. Your foot should hook behind their knee or around their thigh, creating a second point of control. This hook prevents them from stepping over and also sets up sweeping mechanics. (Timing: As soon as your rotation brings you within range of their far leg)
-6. **Complete deep half position**: Finish by adjusting your body position so you are completely underneath your opponent's base. Your near arm maintains the underhook on their near leg, your bottom leg hooks their far leg, your head is positioned safely below their hips, and your top arm is ready to control their far hip or create frames as needed. You should feel their weight distributed above you, with your body perpendicular to theirs in a stable deep half guard configuration. (Timing: Immediately consolidate position before beginning sweep attempts)
+1. **Create initial space**: From half guard bottom, use your top arm to create a strong frame against opponent's shoulder or hip. Simultaneously perform a small shrimp/hip escape to create just enough space to begin rotating your body. Your goal is to create 2-3 inches of space between your torso and opponent's chest.
+2. **Secure underhook on near leg**: As you create space, slide your bottom arm (the arm closest to the mat) underneath opponent's near leg, securing a deep underhook around their thigh. Your shoulder should be positioned against the inside of their thigh, with your hand gripping behind their knee or reaching toward their far hip. This underhook is the foundational control for the entire position.
+3. **Begin rotation underneath**: Using the underhook as an anchor point, begin rotating your entire body perpendicular to your opponent. Turn onto your side and continue rotating so that your back begins to face the mat. Your head should start moving toward a position underneath opponent's hips, while your hips rotate away from them. Think of creating a 'T' shape with your bodies.
+4. **Establish head position**: Continue rotating until your head is positioned underneath opponent's hips, with your face looking toward their far hip. Your head should be below the line of their hips to prevent them from applying shoulder pressure downward. Keep your neck protected by maintaining good posture and not allowing your chin to be exposed.
+5. **Hook far leg**: As you complete the rotation, use your bottom leg (the leg that was not originally controlling in half guard) to hook around opponent's far leg. Your foot should hook behind their knee or around their thigh, creating a second point of control. This hook prevents them from stepping over and also sets up sweeping mechanics.
+6. **Complete deep half position**: Finish by adjusting your body position so you are completely underneath your opponent's base. Your near arm maintains the underhook on their near leg, your bottom leg hooks their far leg, your head is positioned safely below their hips, and your top arm is ready to control their far hip or create frames as needed. You should feel their weight distributed above you, with your body perpendicular to theirs in a stable deep half guard configuration.
 
 
 </section>
@@ -254,23 +254,18 @@ The Deep Half Entry is a fundamental transition from traditional half guard to t
 ## Training Progressions
 **Week 1-2: Entry Mechanics** - Isolated movement drilling without resistance
 Practice the rotation and underhook mechanics from half guard with a cooperative partner. Focus on proper head position, smooth rotation, and establishing the far leg hook. Drill 20-30 repetitions per side at the beginning of each training session.
-(Resistance: None)
 
 **Week 3-4: Timing Development** - Recognizing entry opportunities against light pressure
 Partner applies 30% pressure in half guard while you identify windows to enter deep half. Practice reading opponent's weight distribution and timing your entry when they commit pressure forward. Begin chaining entry with basic waiter sweep.
-(Resistance: Light)
 
 **Week 5-8: Counter Recognition** - Defending common counters and maintaining position
 Partner uses specific counters (limp leg, crossface, sprawl) at 50% intensity. Practice your responses to each counter and work on maintaining deep half position even when opponent attempts to escape. Include sweep attempts from secured deep half position.
-(Resistance: Medium)
 
 **Week 9-12: Integration and Combinations** - Combining deep half entry with sweep system
 Flow drill between half guard, deep half entry, and various sweep options (waiter, Homer Simpson, electric chair). Partner provides realistic resistance at 70% intensity. Work on reading opponent's defenses and selecting appropriate sweep based on their reactions.
-(Resistance: Medium)
 
 **Month 4-6: Competition Application** - Live implementation with full resistance
 Use deep half entry during regular positional sparring and live rolling. Focus on high-percentage entries from realistic half guard situations. Track success rate and identify specific scenarios where entry works best for your game.
-(Resistance: Full)
 
 
 

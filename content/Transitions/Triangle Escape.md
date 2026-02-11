@@ -153,7 +153,7 @@ description: "Master Triangle Escape in BJJ. Defensive strategies to escape tria
 The Triangle Escape is a critical defensive technique for escaping one of Brazilian Jiu-Jitsu's most dominant submission positions. When caught in a triangle choke, the defender faces a race against time as blood flow to the brain becomes restricted. Understanding the mechanics of the triangle allows practitioners to identify escape windows and execute proper defensive sequences. The escape requires a combination of posture management, pressure redirection, and strategic positioning to break the configuration before the choke becomes fully locked. Early recognition and immediate defensive action dramatically increase escape success rates, making this skill essential for all practitioners. The triangle escape encompasses multiple strategies depending on the stage of the attack, from preventing the initial lock to escaping fully secured positions. Advanced practitioners develop sensitivity to triangle entries and can abort attacks before they materialize, while beginners must focus on fundamental escape mechanics and preventing the worst-case scenario of a fully locked submission.
 
 **From Position**: [[Triangle Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Immediate posture recovery**: As soon as triangle is recognized, drive head up and away from opponent's chest, creating maximum distance between your shoulder and neck. Keep spine straight and chest expanded to prevent choking pressure from compressing carotid arteries. This posture must be maintained throughout the entire escape sequence. (Timing: Immediate upon recognizing triangle threat)
-2. **Pin trapped arm to body**: Pull your trapped arm tight against your own torso, creating a barrier between your shoulder and neck. This prevents opponent from isolating the arm across your body, which would complete the choking mechanism. The trapped arm becomes a defensive shield rather than a liability when properly positioned. (Timing: Simultaneously with posture recovery)
-3. **Establish base with free arm**: Post your free hand on the mat beside opponent's hip or on their body, creating a strong base that prevents you from being pulled down or swept. This posting arm becomes your anchor point for all subsequent movements. Drive weight through this post to maintain structural integrity. (Timing: After securing trapped arm position)
-4. **Stack opponent's weight**: Drive your hips forward while maintaining upright posture, forcing opponent's weight to stack toward their shoulders and head. This stacking pressure disrupts the angle of the triangle and makes it difficult for them to maintain choking pressure. Drive from your legs, not just upper body, for maximum effectiveness. (Timing: Once base is established)
-5. **Circle toward trapped arm side**: Step your outside leg (on the side of your trapped arm) in a circular motion around opponent's body, moving toward the trapped arm side rather than pulling straight back. This circular movement weakens the triangle configuration and begins to open the lock. Keep hips heavy and continue driving forward as you circle. (Timing: While maintaining stack pressure)
-6. **Extract head and pass guard**: As the triangle opens from your circular pressure, drive your free arm through the gap between opponent's legs, using it to pry open space for your head. Pop your head out toward the trapped arm side while maintaining forward pressure. Once head is free, immediately establish side control or continue to guard pass position, never allowing opponent to recover guard. (Timing: When sufficient opening is created)
+1. **Immediate posture recovery**: As soon as triangle is recognized, drive head up and away from opponent's chest, creating maximum distance between your shoulder and neck. Keep spine straight and chest expanded to prevent choking pressure from compressing carotid arteries. This posture must be maintained throughout the entire escape sequence.
+2. **Pin trapped arm to body**: Pull your trapped arm tight against your own torso, creating a barrier between your shoulder and neck. This prevents opponent from isolating the arm across your body, which would complete the choking mechanism. The trapped arm becomes a defensive shield rather than a liability when properly positioned.
+3. **Establish base with free arm**: Post your free hand on the mat beside opponent's hip or on their body, creating a strong base that prevents you from being pulled down or swept. This posting arm becomes your anchor point for all subsequent movements. Drive weight through this post to maintain structural integrity.
+4. **Stack opponent's weight**: Drive your hips forward while maintaining upright posture, forcing opponent's weight to stack toward their shoulders and head. This stacking pressure disrupts the angle of the triangle and makes it difficult for them to maintain choking pressure. Drive from your legs, not just upper body, for maximum effectiveness.
+5. **Circle toward trapped arm side**: Step your outside leg (on the side of your trapped arm) in a circular motion around opponent's body, moving toward the trapped arm side rather than pulling straight back. This circular movement weakens the triangle configuration and begins to open the lock. Keep hips heavy and continue driving forward as you circle.
+6. **Extract head and pass guard**: As the triangle opens from your circular pressure, drive your free arm through the gap between opponent's legs, using it to pry open space for your head. Pop your head out toward the trapped arm side while maintaining forward pressure. Once head is free, immediately establish side control or continue to guard pass position, never allowing opponent to recover guard.
 
 
 </section>
@@ -254,27 +254,21 @@ The Triangle Escape is a critical defensive technique for escaping one of Brazil
 ## Training Progressions
 **Phase 1: Posture Recognition (Weeks 1-2)** - Understanding proper defensive posture in triangle position
 Partner establishes loose triangle while you practice maintaining upright posture with head up, spine straight, and trapped arm pinned to body. Hold this posture for 30-second intervals. Partner provides increasing pressure to test posture maintenance. Focus entirely on feeling what good posture feels like and recognizing when it breaks.
-(Resistance: Light)
 
 **Phase 2: Base and Stack Mechanics (Weeks 3-4)** - Adding posting arm and stacking pressure to defensive posture
 From established posture, practice posting free arm and driving hips forward to stack opponent's weight. Partner allows stack to develop so you can feel proper angles and pressure. Work on coordinating posture maintenance with forward driving pressure. Practice stacking from various triangle angles.
-(Resistance: Light)
 
 **Phase 3: Circular Movement Patterns (Weeks 5-6)** - Learning to circle toward trapped arm side while maintaining pressure
 Partner establishes triangle at 50% tightness. Practice stepping in circular patterns toward trapped arm side while maintaining stack and posture. Partner provides minimal resistance, allowing you to complete full circular escape. Focus on smooth, controlled movement rather than explosive bursts. Repeat 10-15 times per training session.
-(Resistance: Medium)
 
 **Phase 4: Counter Defense Integration (Weeks 7-8)** - Defending opponent's counters during escape attempts
 Partner actively defends your escape by adjusting angles, attempting to break posture, and transitioning to armbar or omoplata. Practice recognizing these counters and adapting escape path accordingly. Work on maintaining composure when initial escape route is blocked. Develop multiple escape options from same starting position.
-(Resistance: Medium)
 
 **Phase 5: Live Triangle Defense (Weeks 9-10)** - Escaping from fully locked triangles under competition pressure
 Partner locks triangle at 70-80% pressure and actively works to finish. Practice complete escape sequence under realistic timing pressure. Focus on early recognition and immediate defensive response. Accept that some triangles will require tapping, using those as learning opportunities to identify defensive failures.
-(Resistance: Full)
 
 **Phase 6: Prevention and Early Escape (Ongoing)** - Recognizing triangle threats before they fully develop
 During regular rolling, focus on identifying triangle setups and aborting them before leg lock completion. Practice maintaining proper arm positioning and posture management in guard to prevent triangle opportunities. Develop sensitivity to when your arm is in danger and immediate defensive habits. Work toward never being fully caught in locked triangles.
-(Resistance: Full)
 
 
 

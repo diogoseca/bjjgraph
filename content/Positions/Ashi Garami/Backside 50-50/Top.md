@@ -244,7 +244,7 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 **If opponent is primarily defending leg attacks with good positioning and control of your legs:**
 - Execute **[[Back Take Generic]]** → [[Back Control]] (Probability: 65%)
 - Execute **[[Saddle Entry from Top]]** → [[Saddle]] (Probability: 55%)
-- Execute **[[50-50 Pass]]** → [[Leg Drag Position]] (Probability: 50%)
+- Execute **[[50-50 Pass]]** → [[Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent attempts to sweep by inverting or creating angles with their hips:**
@@ -386,11 +386,11 @@ Starting from backside 50-50 top, practice finishing sequence for inside heel ho
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 20% |
-| Intermediate | 50% | 50% | 35% |
-| Advanced     | 70% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 45-90 seconds before advancement or submission attempt
 

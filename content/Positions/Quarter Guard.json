@@ -206,7 +206,7 @@
           },
           {
             "technique": "Darce Setup",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 40
           }
         ]
@@ -323,21 +323,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Probability of maintaining quarter guard top without losing position to sweeps or reversals"
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of successfully advancing to side control, mount, or back control"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of securing submission directly from quarter guard top position"
       },
       "average_time": "5-15 seconds (should be transitional, not sustained control position)"
@@ -618,21 +612,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Probability of preventing pass completion from quarter guard bottom"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Probability of achieving sweep or back take to dominant position"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35,
+        "value": 30,
         "description": "Probability of finishing submission directly from quarter guard bottom"
       },
       "average_time": "5-15 seconds before transition to different position"

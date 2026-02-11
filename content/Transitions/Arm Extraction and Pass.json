@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Arm Extraction and Pass is a systematic transition from Crackhead Control that addresses one of the most common obstacles when attacking from turtle top: the opponent's arm blocking your path to side control. When controlling an opponent in turtle from the chair-sit position, their near arm often becomes wedged between your body and theirs, preventing you from flattening them out or advancing to traditional side control. This technique provides a methodical approach to clearing that arm while maintaining dominant position throughout the transition.\n\nThe mechanical foundation relies on isolating the opponent's arm through shoulder pressure while using your hips to create the space needed to extract and pass the limb. Rather than fighting the arm directly, you redirect your weight to pin their shoulder to the mat, which naturally extends and loosens the arm's defensive structure. The extraction itself uses a combination of your free hand and hip movement to guide the arm past your body as you transition your weight from the chair-sit to a traditional perpendicular side control alignment.\n\nStrategically, this technique represents a critical bridge between the dynamic turtle attack system and the stable control offered by side control. While Crackhead Control provides excellent back take and submission opportunities, some opponents become highly defensive, denying hooks and protecting their neck. The Arm Extraction and Pass offers an alternative advancement path that trades submission opportunities for positional points and the extensive attack options available from side control. Advanced practitioners use this as part of a threat matrix: the opponent must defend back takes, truck entries, and chokes from Crackhead Control, but defensive postures that protect against these attacks often make the Arm Extraction and Pass easier to execute.",
   "key_principles": [
     "Maintain constant hip pressure throughout the extraction to prevent opponent from recovering their base or creating space for guard recovery",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Secure shoulder control",
-      "description": "From Crackhead Control, drive your chest weight forward onto opponent's near shoulder blade, pinning their shoulder to the mat. Your crossface arm should be controlling their far shoulder or head to prevent them from turning away.",
-      "timing": "When opponent relaxes after defending a back take attempt"
+      "description": "From Crackhead Control, drive your chest weight forward onto opponent's near shoulder blade, pinning their shoulder to the mat. Your crossface arm should be controlling their far shoulder or head to prevent them from turning away."
     },
     {
       "step_number": 2,
       "action": "Isolate the trapped arm",
-      "description": "Use your near hand to grip opponent's trapped wrist or forearm. Do not pull yet - simply establish control. The shoulder pin should have already loosened their arm's structural connection to their body.",
-      "timing": "Immediately after establishing shoulder pressure"
+      "description": "Use your near hand to grip opponent's trapped wrist or forearm. Do not pull yet - simply establish control. The shoulder pin should have already loosened their arm's structural connection to their body."
     },
     {
       "step_number": 3,
       "action": "Create extraction space",
-      "description": "Shift your hips slightly toward their legs while maintaining chest pressure on their shoulder. This creates a gap between your hip and their torso through which the arm can pass. Your inside leg should stay hooked to prevent them from sitting through.",
-      "timing": "Smooth continuous motion from grip establishment"
+      "description": "Shift your hips slightly toward their legs while maintaining chest pressure on their shoulder. This creates a gap between your hip and their torso through which the arm can pass. Your inside leg should stay hooked to prevent them from sitting through."
     },
     {
       "step_number": 4,
       "action": "Guide arm extraction",
-      "description": "Using your grip on their wrist, guide their arm across your body toward their hip. Do not yank - use steady pressure combined with your hip movement. The arm should slide past your hip as you transition your weight perpendicular to their body.",
-      "timing": "Coordinated with hip shift movement"
+      "description": "Using your grip on their wrist, guide their arm across your body toward their hip. Do not yank - use steady pressure combined with your hip movement. The arm should slide past your hip as you transition your weight perpendicular to their body."
     },
     {
       "step_number": 5,
       "action": "Transition hip position",
-      "description": "As the arm clears your body, drop your hips from the chair-sit to a sprawled position perpendicular to their torso. Your near hip should land heavy on their near hip, and your chest should maintain contact across their upper back and shoulders.",
-      "timing": "Immediately as arm clears your hip"
+      "description": "As the arm clears your body, drop your hips from the chair-sit to a sprawled position perpendicular to their torso. Your near hip should land heavy on their near hip, and your chest should maintain contact across their upper back and shoulders."
     },
     {
       "step_number": 6,
       "action": "Establish side control",
-      "description": "Complete the transition by establishing crossface control with your far arm driving their face away from you, near arm blocking their far hip to prevent guard recovery, and hips heavy and low against their body. Release any remaining grip on the extracted arm.",
-      "timing": "Settle position within 2 seconds of hip transition"
+      "description": "Complete the transition by establishing crossface control with your far arm driving their face away from you, near arm blocking their far hip to prevent guard recovery, and hips heavy and low against their body. Release any remaining grip on the extracted arm."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice the shoulder pin and arm extraction motion with a completely compliant partner. Focus on proper weight distribution during the pin and the hip movement that creates extraction space. Drill 50 repetitions per side daily.",
-      "resistance_level": "None"
+      "description": "Practice the shoulder pin and arm extraction motion with a completely compliant partner. Focus on proper weight distribution during the pin and the hip movement that creates extraction space. Drill 50 repetitions per side daily."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing development",
-      "description": "Partner holds defensive turtle position and attempts to prevent the extraction with light resistance. Practice recognizing when the shoulder pin has sufficiently loosened their arm structure. Add transitions from back take attempts into the extraction.",
-      "resistance_level": "Light"
+      "description": "Partner holds defensive turtle position and attempts to prevent the extraction with light resistance. Practice recognizing when the shoulder pin has sufficiently loosened their arm structure. Add transitions from back take attempts into the extraction."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain integration",
-      "description": "Combine arm extraction with the full Crackhead Control attack system. Practice flowing between back take attempts, truck entries, and arm extraction based on opponent reactions. Partner provides realistic defensive responses.",
-      "resistance_level": "Medium"
+      "description": "Combine arm extraction with the full Crackhead Control attack system. Practice flowing between back take attempts, truck entries, and arm extraction based on opponent reactions. Partner provides realistic defensive responses."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition application",
-      "description": "Apply the technique in full positional sparring and rolling. Focus on recognizing optimal timing windows during live exchanges. Track success rate and identify specific failure patterns for targeted correction.",
-      "resistance_level": "Full"
+      "description": "Apply the technique in full positional sparring and rolling. Focus on recognizing optimal timing windows during live exchanges. Track success rate and identify specific failure patterns for targeted correction."
     }
   ],
   "variants_and_adaptations": [
@@ -183,43 +168,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Arm Extraction and Pass?",
-      "answer": "The primary goal is to clear a trapped arm that blocks the path from Crackhead Control to side control. By extracting the arm and transitioning, you convert a dynamic turtle control position into stable side control with its associated point value and extensive submission options.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to clear a trapped arm that blocks the path from Crackhead Control to side control. By extracting the arm and transitioning, you convert a dynamic turtle control position into stable side control with its associated point value and extensive submission options."
     },
     {
       "question": "What position do you start Arm Extraction and Pass from?",
-      "answer": "This technique starts from Crackhead Control Top, specifically when you have established the chair-sit position on opponent's hips but their arm is wedged between your body and theirs, preventing direct transition to side control.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Crackhead Control Top, specifically when you have established the chair-sit position on opponent's hips but their arm is wedged between your body and theirs, preventing direct transition to side control."
     },
     {
       "question": "What must you establish before attempting to move the opponent's arm?",
-      "answer": "You must establish a shoulder pin by driving your chest weight forward onto their near shoulder blade. This pin breaks the structural connection between their arm and body, loosening the arm without requiring grip strength to fight against their resistance.",
-      "difficulty": "Intermediate"
+      "answer": "You must establish a shoulder pin by driving your chest weight forward onto their near shoulder blade. This pin breaks the structural connection between their arm and body, loosening the arm without requiring grip strength to fight against their resistance."
     },
     {
       "question": "Your opponent explosively posts their extracted arm as you transition - what is your immediate response?",
-      "answer": "Immediately attack the posted arm with a kimura grip before completing the pass. The extended arm is vulnerable to shoulder lock attacks. Alternatively, redirect to north-south transition to avoid the frame entirely rather than fighting against it.",
-      "difficulty": "Advanced"
+      "answer": "Immediately attack the posted arm with a kimura grip before completing the pass. The extended arm is vulnerable to shoulder lock attacks. Alternatively, redirect to north-south transition to avoid the frame entirely rather than fighting against it."
     },
     {
       "question": "When is the optimal timing window to attempt this technique?",
-      "answer": "The optimal timing is immediately after opponent has defended a back take attempt or choke threat from Crackhead Control. Their defensive reaction to those threats depletes energy and often extends their arm or loosens their turtle structure, creating the opening for extraction.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is immediately after opponent has defended a back take attempt or choke threat from Crackhead Control. Their defensive reaction to those threats depletes energy and often extends their arm or loosens their turtle structure, creating the opening for extraction."
     },
     {
       "question": "What is the critical error that causes most failures of this technique?",
-      "answer": "The critical error is attempting to pull the arm out using grip strength without first establishing the shoulder pin. Fighting a structurally supported arm creates a grip battle that exhausts you, gives opponent time to counter, and rarely succeeds against resistance.",
-      "difficulty": "Intermediate"
+      "answer": "The critical error is attempting to pull the arm out using grip strength without first establishing the shoulder pin. Fighting a structurally supported arm creates a grip battle that exhausts you, gives opponent time to counter, and rarely succeeds against resistance."
     },
     {
       "question": "How do you prevent the opponent from sitting through to guard during the transition?",
-      "answer": "Maintain your inside leg hook until the final moment of the pass. The hook prevents their sit-through attempt by controlling the space between their legs. Release it only as your hip is already transitioning to the sprawled side control position.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain your inside leg hook until the final moment of the pass. The hook prevents their sit-through attempt by controlling the space between their legs. Release it only as your hip is already transitioning to the sprawled side control position."
     },
     {
       "question": "What should be your first control priority immediately upon completing the transition to side control?",
-      "answer": "Far hip control is the first priority. Your near hand must immediately block opponent's far hip to prevent knee insertion and half guard recovery. This takes precedence over crossface establishment - control the hip first, then adjust upper body control.",
-      "difficulty": "Advanced"
+      "answer": "Far hip control is the first priority. Your near hand must immediately block opponent's far hip to prevent knee insertion and half guard recovery. This takes precedence over crossface establishment - control the hip first, then adjust upper body control."
     }
   ],
   "safety_considerations": "This technique presents low injury risk when practiced with proper control. The shoulder pressure component can be uncomfortable but does not create joint lock danger when applied gradually. Partners should communicate if shoulder pin pressure becomes painful. During drilling, extract the arm smoothly rather than yanking to avoid wrist or elbow strain. The transition phase involves weight transfer that can compress the lower back - practitioners with spinal issues should communicate with partners about pressure limits. In competition, this technique is safe to execute at full speed as it does not involve submission mechanics.",
@@ -261,5 +238,6 @@
       "name": "Crab Ride",
       "relationship": "Related turtle control with similar arm management challenges"
     }
-  ]
+  ],
+  "success_rate": 58
 }

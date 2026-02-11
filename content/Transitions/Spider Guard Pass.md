@@ -153,7 +153,7 @@ description: "Master Spider Guard Pass techniques in BJJ. Complete guide with gr
 The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu-Jitsu, requiring systematic grip breaking, precise posture control, and strategic pressure application. This passing sequence targets one of the most common guard retention systems by neutralizing the opponent's foot-on-bicep control and collar grips that define spider guard. The pass succeeds by combining aggressive grip stripping with forward pressure and hip positioning to overcome the guard player's distance management. Understanding spider guard mechanics reveals that the guard's strength lies in creating distance and angles through arm extension and foot placement—the pass systematically removes these advantages through posture maintenance, grip dominance, and positional pressure. Success requires patience in grip fighting exchanges, explosive movement during passing windows, and technical precision in controlling the opponent's hips during the final consolidation phase.
 
 **From Position**: [[Spider Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish strong posture**: Stand tall or post on knees with vertical spine alignment. Drive chest forward and keep elbows tight to body. This posture prevents opponent from breaking you down and limits their sweep angles. Weight should be distributed evenly to maintain balance against foot pressure. (Timing: Initial position before grip breaking)
-2. **Strip first spider guard grip**: Target the opponent's weaker grip (typically the same-side sleeve grip). Use your free hand to grip their wrist while pulling your trapped arm back forcefully in a straight line. Alternatively, push their knee down while extracting your arm. Break the grip completely before advancing. (Timing: Explosive pull when opponent adjusts their grip)
-3. **Control stripped arm side knee**: Immediately after breaking the first grip, pin the opponent's knee to the mat on that side using your hand or elbow. This prevents them from re-establishing the spider hook and creates an entry angle. Maintain downward pressure throughout the pass. (Timing: Immediately following grip break)
-4. **Strip second spider guard grip**: Address the remaining spider guard control (foot on bicep or collar grip). Use the same wrist control and arm extraction method. If opponent has collar grip, break their posture down first by driving your forehead into their chest while stripping the collar hand. (Timing: While maintaining knee control on first side)
-5. **Drive forward with pressure**: With both spider guard controls broken, immediately step or slide forward driving your chest toward their chest. Keep your weight heavy and centered. Use your hands to control both knees, pushing them toward the mat or to one side. This flattens their hips and eliminates guard retention frames. (Timing: Explosive forward movement after second grip break)
-6. **Pass to side control**: Choose a passing direction (typically toward the side where you have better control). Slide your knee across their belly while establishing crossface with your near arm. Secure underhook or far arm control with your other hand. Drive shoulder pressure into their face while sprawling hips back. Consolidate side control with chest pressure. (Timing: Continuous pressure until hips are cleared)
+1. **Establish strong posture**: Stand tall or post on knees with vertical spine alignment. Drive chest forward and keep elbows tight to body. This posture prevents opponent from breaking you down and limits their sweep angles. Weight should be distributed evenly to maintain balance against foot pressure.
+2. **Strip first spider guard grip**: Target the opponent's weaker grip (typically the same-side sleeve grip). Use your free hand to grip their wrist while pulling your trapped arm back forcefully in a straight line. Alternatively, push their knee down while extracting your arm. Break the grip completely before advancing.
+3. **Control stripped arm side knee**: Immediately after breaking the first grip, pin the opponent's knee to the mat on that side using your hand or elbow. This prevents them from re-establishing the spider hook and creates an entry angle. Maintain downward pressure throughout the pass.
+4. **Strip second spider guard grip**: Address the remaining spider guard control (foot on bicep or collar grip). Use the same wrist control and arm extraction method. If opponent has collar grip, break their posture down first by driving your forehead into their chest while stripping the collar hand.
+5. **Drive forward with pressure**: With both spider guard controls broken, immediately step or slide forward driving your chest toward their chest. Keep your weight heavy and centered. Use your hands to control both knees, pushing them toward the mat or to one side. This flattens their hips and eliminates guard retention frames.
+6. **Pass to side control**: Choose a passing direction (typically toward the side where you have better control). Slide your knee across their belly while establishing crossface with your near arm. Secure underhook or far arm control with your other hand. Drive shoulder pressure into their face while sprawling hips back. Consolidate side control with chest pressure.
 
 
 </section>
@@ -250,23 +250,18 @@ The Spider Guard Pass represents a fundamental challenge in modern Brazilian Jiu
 ## Training Progressions
 **Week 1-2: Grip Breaking Fundamentals** - Develop grip stripping mechanics and posture maintenance
 Partner establishes spider guard grips. Practice breaking grips one at a time using proper wrist control and arm extraction. Drill maintaining upright posture while stripping grips. Repeat until grip breaks become automatic.
-(Resistance: Light)
 
 **Week 3-4: Knee Control and Pressure** - Control opponent's knees after grip breaks and apply forward pressure
 After breaking grips, practice pinning knees and driving forward. Partner provides resistance by attempting to recover guard. Focus on maintaining pressure and preventing re-guard. Add hip flattening pressure.
-(Resistance: Medium)
 
 **Week 5-8: Full Pass Integration** - Complete passing sequence from grip break to side control
 Execute entire sequence: break grips, control knees, drive pressure, pass to side control. Partner defends actively but allows successful passes with good technique. Increase speed and pressure application.
-(Resistance: Medium)
 
 **Week 9-12: Countering Guard Retention** - Address common defenses and guard switches during pass
 Partner actively attempts to maintain guard using transitions (DLR, lasso, seated guard). Practice recognizing guard switches and adjusting passing approach. Develop ability to chain passing sequences.
-(Resistance: Full)
 
 **Week 13+: Competition Application** - Apply pass against full resistance in live training
 Use spider guard pass in specific sparring (starting from spider guard) and live rolling. Refine timing, grip fighting strategy, and pressure application under competition conditions. Develop passing chains.
-(Resistance: Full)
 
 
 

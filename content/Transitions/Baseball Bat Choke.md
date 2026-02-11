@@ -153,7 +153,7 @@ description: "Learn Baseball Bat Choke from Knee on Belly. Cross-collar grip tec
 The Baseball Bat Choke is a devastating collar strangle executed from Knee on Belly that derives its name from the grip configuration resembling hands on a baseball bat. This technique exploits the opponent's defensive reactions to knee pressure by capitalizing on their attempts to push away the controlling knee. When the bottom player extends their arms to relieve pressure, it creates the optimal window to secure cross-collar grips and initiate the choking sequence. The choke functions as a blood strangle targeting the carotid arteries, and the spinning motion across the opponent's body generates tremendous mechanical advantage for the finish. Unlike many submissions that require transitioning to a dedicated control position, the Baseball Bat Choke can finish directly from the grip setup, making it one of the highest-percentage attacks from Knee on Belly in gi competition. The technique rewards practitioners who understand the connection between pressure application and submission threat creation - the more effective your knee pressure, the more desperate your opponent's defensive reactions become, opening increasingly clean entries to the choke.
 
 **From Position**: [[Knee on Belly/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -200,12 +200,12 @@ The Baseball Bat Choke is a devastating collar strangle executed from Knee on Be
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish pressure**: From Knee on Belly, drive your knee into opponent's solar plexus with forward pressure. Your near-side hand grips inside their collar with four fingers deep behind the neck, thumb on the outside of the lapel. (Timing: Immediate upon securing Knee on Belly)
-2. **Bait reaction**: Increase knee pressure to force defensive reaction. As opponent pushes against your knee or frames on your hip, their arms extend away from protecting their collar, creating the opening for your second grip. (Timing: 1-2 seconds of sustained pressure)
-3. **Secure second grip**: Reach your far-side hand across opponent's body and grip the opposite collar with four fingers inside, placing this grip adjacent to your first hand. Both hands now grip like holding a baseball bat with knuckles facing the same direction. (Timing: During opponent's defensive reaction)
-4. **Pin arm**: Trap opponent's near-side arm between your body and their torso by dropping your elbow and chest down. This prevents them from framing against your spin and protects against arm-based escapes. (Timing: Immediately after second grip)
-5. **Initiate spin**: Step your base leg over opponent's head in the direction of your second grip hand while maintaining tight grips. Your body rotates 180 degrees, ending with your head near their hip and your hips near their head. Keep chest low throughout the spin. (Timing: Explosive movement, 1 second)
-6. **Finish strangle**: Once past their head, sprawl your hips down and rotate your wrists inward like turning motorcycle handlebars. Pull elbows tight to your ribs while expanding your chest. The scissoring pressure of both forearms compresses the carotid arteries. (Timing: 3-5 seconds to tap)
+1. **Establish pressure**: From Knee on Belly, drive your knee into opponent's solar plexus with forward pressure. Your near-side hand grips inside their collar with four fingers deep behind the neck, thumb on the outside of the lapel.
+2. **Bait reaction**: Increase knee pressure to force defensive reaction. As opponent pushes against your knee or frames on your hip, their arms extend away from protecting their collar, creating the opening for your second grip.
+3. **Secure second grip**: Reach your far-side hand across opponent's body and grip the opposite collar with four fingers inside, placing this grip adjacent to your first hand. Both hands now grip like holding a baseball bat with knuckles facing the same direction.
+4. **Pin arm**: Trap opponent's near-side arm between your body and their torso by dropping your elbow and chest down. This prevents them from framing against your spin and protects against arm-based escapes.
+5. **Initiate spin**: Step your base leg over opponent's head in the direction of your second grip hand while maintaining tight grips. Your body rotates 180 degrees, ending with your head near their hip and your hips near their head. Keep chest low throughout the spin.
+6. **Finish strangle**: Once past their head, sprawl your hips down and rotate your wrists inward like turning motorcycle handlebars. Pull elbows tight to your ribs while expanding your chest. The scissoring pressure of both forearms compresses the carotid arteries.
 
 
 </section>
@@ -251,19 +251,15 @@ The Baseball Bat Choke is a devastating collar strangle executed from Knee on Be
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice grip acquisition from static Knee on Belly. Partner allows grips without resistance. Focus on four-finger depth, proper baseball bat hand configuration, and arm pinning before any spin attempts.
-(Resistance: None)
 
 **Week 3-4** - Spin technique
 Add the spinning motion with partner providing light frames. Focus on staying low during spin, correct spin direction relative to second grip, and maintaining grip integrity throughout rotation.
-(Resistance: Light)
 
 **Week 5-6** - Timing and pressure connection
 Practice from dynamic Knee on Belly with partner actively defending. Work on reading defensive reactions, timing grip acquisition to arm extension, and connecting knee pressure to choke entries.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate into full sparring from Knee on Belly. Chain with other Knee on Belly attacks when Baseball Bat is defended. Work on hitting the technique against varying body types and defensive styles.
-(Resistance: Full)
 
 
 

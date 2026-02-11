@@ -159,7 +159,7 @@ description: "Master the Omoplata Sweep from closed guard. Step-by-step executio
 The Omoplata Sweep is a sophisticated sweeping technique that combines the threat of the omoplata shoulder lock with dynamic hip movement to reverse position from closed guard. This technique exploits the opponent's defensive reaction to the omoplata attack, using their resistance and weight distribution to execute a powerful sweep. The beauty of the omoplata sweep lies in its dual-threat nature—if the opponent defends the submission, you sweep them; if they defend the sweep, you can finish the submission. This creates a classic dilemma scenario that makes the technique highly effective at all skill levels. The omoplata sweep is particularly valuable because it transitions seamlessly into dominant top positions, often landing you directly in mount or side control. While the technique requires significant hip flexibility and timing, it becomes one of the most reliable sweeps in your closed guard arsenal once mastered. The sweep works effectively in both gi and no-gi, though the gi provides additional control points that can make execution easier for beginners.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control and break posture**: From closed guard, secure a strong grip on your opponent's right sleeve or wrist with your left hand. Pull their arm across your centerline while simultaneously breaking their posture by pulling their head down with your right hand behind their neck or gripping their collar. This initial control is critical—without breaking posture, the opponent can easily defend the subsequent attack. (Timing: Take 2-3 seconds to establish solid control before proceeding)
-2. **Open guard and pivot hips**: Release your ankle lock and begin pivoting your hips perpendicular to your opponent. Your left hip should rotate toward their right side while you maintain control of their trapped right arm. This angular change is essential for creating the proper leverage angle for both the omoplata and the sweep. Keep your shoulders on the mat as you pivot to maintain stability. (Timing: Explosive movement combined with maintaining arm control)
-3. **Swing leg over shoulder**: Bring your left leg over your opponent's right shoulder, threading it across their upper back. Your left knee should come across their shoulder blade area while your shin creates a barrier preventing them from rolling forward. Simultaneously, your right leg should hook around their hip or torso to prevent them from backing away. This leg positioning creates the omoplata framework. (Timing: Smooth, controlled movement to prevent opponent from pulling their arm free)
-4. **Establish omoplata position**: Sit up slightly and secure your left leg tightly across your opponent's back, with your left foot connecting to your right hip or inner thigh area. Your opponent's right arm should be completely trapped between your legs with their shoulder isolated. Apply slight forward pressure with your chest against their shoulder to create the submission threat. This pressure will trigger their defensive reaction. (Timing: Brief pause to let opponent feel submission threat)
-5. **Read opponent's defensive reaction**: As you threaten the omoplata finish, your opponent will typically try to roll forward toward their trapped shoulder or drive their weight forward to relieve pressure. This is the critical moment—their defensive movement creates the opportunity for the sweep. Maintain your leg control and grip on their sleeve as you prepare to use their momentum against them. (Timing: Instantaneous recognition and reaction to opponent's movement)
-6. **Execute the sweep**: As your opponent commits to their defense, drive your hips forward and upward while pulling their trapped arm toward you and pushing with your shoulder against their upper back. Use your right leg as a fulcrum, hooking deep around their hip. Roll your body weight forward and over them, using the combination of your hip drive, leg pressure across their back, and arm control to flip them. Your left leg acts as a lever across their back, preventing them from rolling out. (Timing: Commit fully to the forward roll with explosive hip drive)
-7. **Secure top position**: As you complete the sweep, control your opponent's body and land in a dominant position—typically mount or side control. Keep control of their trapped arm and establish your base immediately. Your chest should be heavy on them, and you should secure grips or underhooks to prevent them from escaping. If you maintained the arm isolation, you can transition directly to an armbar or continue to threaten the omoplata from top position. (Timing: Immediate consolidation of position within 1-2 seconds of completing sweep)
+1. **Establish control and break posture**: From closed guard, secure a strong grip on your opponent's right sleeve or wrist with your left hand. Pull their arm across your centerline while simultaneously breaking their posture by pulling their head down with your right hand behind their neck or gripping their collar. This initial control is critical—without breaking posture, the opponent can easily defend the subsequent attack.
+2. **Open guard and pivot hips**: Release your ankle lock and begin pivoting your hips perpendicular to your opponent. Your left hip should rotate toward their right side while you maintain control of their trapped right arm. This angular change is essential for creating the proper leverage angle for both the omoplata and the sweep. Keep your shoulders on the mat as you pivot to maintain stability.
+3. **Swing leg over shoulder**: Bring your left leg over your opponent's right shoulder, threading it across their upper back. Your left knee should come across their shoulder blade area while your shin creates a barrier preventing them from rolling forward. Simultaneously, your right leg should hook around their hip or torso to prevent them from backing away. This leg positioning creates the omoplata framework.
+4. **Establish omoplata position**: Sit up slightly and secure your left leg tightly across your opponent's back, with your left foot connecting to your right hip or inner thigh area. Your opponent's right arm should be completely trapped between your legs with their shoulder isolated. Apply slight forward pressure with your chest against their shoulder to create the submission threat. This pressure will trigger their defensive reaction.
+5. **Read opponent's defensive reaction**: As you threaten the omoplata finish, your opponent will typically try to roll forward toward their trapped shoulder or drive their weight forward to relieve pressure. This is the critical moment—their defensive movement creates the opportunity for the sweep. Maintain your leg control and grip on their sleeve as you prepare to use their momentum against them.
+6. **Execute the sweep**: As your opponent commits to their defense, drive your hips forward and upward while pulling their trapped arm toward you and pushing with your shoulder against their upper back. Use your right leg as a fulcrum, hooking deep around their hip. Roll your body weight forward and over them, using the combination of your hip drive, leg pressure across their back, and arm control to flip them. Your left leg acts as a lever across their back, preventing them from rolling out.
+7. **Secure top position**: As you complete the sweep, control your opponent's body and land in a dominant position—typically mount or side control. Keep control of their trapped arm and establish your base immediately. Your chest should be heavy on them, and you should secure grips or underhooks to prevent them from escaping. If you maintained the arm isolation, you can transition directly to an armbar or continue to threaten the omoplata from top position.
 
 
 </section>
@@ -261,27 +261,21 @@ The Omoplata Sweep is a sophisticated sweeping technique that combines the threa
 ## Training Progressions
 **Phase 1: Fundamental Movement (Weeks 1-2)** - Hip rotation and leg positioning
 Practice the basic hip pivot and leg swing movement pattern without resistance. Start from closed guard and drill the motion of opening guard, pivoting hips perpendicular, and swinging leg over partner's shoulder. Focus on smooth, controlled movement and proper body mechanics. Repeat 20-30 repetitions per training session.
-(Resistance: None)
 
 **Phase 2: Positional Control (Weeks 3-4)** - Establishing and maintaining omoplata position
 With cooperative partner, practice establishing the full omoplata position from closed guard. Work on controlling the trapped arm, positioning your legs correctly, and creating genuine submission pressure. Partner should remain relatively static but can provide light resistance to grips. Hold each omoplata position for 30-60 seconds to develop endurance.
-(Resistance: Light)
 
 **Phase 3: Sweep Mechanics (Weeks 5-6)** - Sweeping motion and follow-through
 Partner provides specific defensive reactions (forward drive, backward pull, rolling motion) and you practice timing the sweep with their movement. Focus on using their momentum rather than pure strength. Complete the sweep and establish dominant position each time. Drill 10-15 successful sweeps per session from each defensive reaction.
-(Resistance: Medium)
 
 **Phase 4: Integration and Timing (Weeks 7-10)** - Combining submission threat with sweep execution
 Practice the complete sequence from closed guard with partner providing progressive resistance. They should defend intelligently but give opportunities to succeed. Work on reading their defensive reactions and timing your sweep accordingly. Begin to chain the omoplata sweep with other closed guard attacks. Aim for 70%+ success rate in controlled drilling.
-(Resistance: Medium)
 
 **Phase 5: Live Application (Weeks 11-12)** - Using technique in positional sparring
 Apply the omoplata sweep during positional sparring from closed guard. Start with 3-minute rounds where you begin in closed guard and can only score by executing omoplata sweep or related attacks. Partner provides full resistance but starts with defensive mindset. Gradually increase to regular rolling where you hunt for the technique.
-(Resistance: Full)
 
 **Phase 6: Competition Preparation (Ongoing)** - High-percentage execution under pressure
 Refine your setups and timing through competition-style rolling. Develop backup plans when sweep is defended. Work on transitioning to other attacks (triangle, armbar, back take) if omoplata sweep is countered. Study your own video footage to identify technical errors and timing issues. Aim to successfully execute in at least 40% of live rolling attempts.
-(Resistance: Full)
 
 
 

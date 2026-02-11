@@ -169,7 +169,7 @@ The defensive urgency cannot be overstated. Once an invisible collar grip achiev
 Strategically, this technique serves as the gateway to all other back control escapes. Without first neutralizing the collar threat, hip escapes and hook removal become futile—the attacker simply finishes the choke while you work. Mastering this hand fighting sequence transforms a desperate survival situation into a systematic defensive framework where each successful grip break creates windows for positional improvement.
 
 **From Position**: [[Invisible Collar/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -217,14 +217,14 @@ Strategically, this technique serves as the gateway to all other back control es
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the threat**: Identify opponent's choking hand by feeling for finger penetration in your collar. The invisible collar setup involves fingers walking into the gi material near your neck with thumb outside—any collar contact requires immediate defensive response. (Timing: Within 2 seconds of grip contact)
-2. **Establish chin tuck**: Drive your chin aggressively toward your chest, pressing it so tightly that no gi material can fit between chin and sternum. This limits the angle of attack and buys time for hand fighting without allowing the choke to finish during your defensive work. (Timing: Simultaneous with recognition)
-3. **Locate the choking wrist**: Bring both hands to the opponent's choking arm, specifically targeting the wrist joint where you have maximum mechanical advantage. Feel for the bony prominences of the wrist rather than grabbing the forearm which is harder to control. (Timing: Immediately after chin tuck)
-4. **Establish two-on-one control**: Grip the opponent's wrist with both hands in a pistol grip configuration—your thumbs on top of their wrist, fingers wrapped underneath. Stack your hands so all eight fingers work together, creating a grip stronger than their collar grip. (Timing: Within 1 second of locating wrist)
-5. **Create pulling angle**: Rather than pulling straight down which the opponent can brace against, angle your pull toward your hip on the opposite side from their choking hand. This diagonal pull exploits the weakness in their grip structure and uses your core muscles rather than just arm strength. (Timing: Continuous once grip established)
-6. **Bridge and strip**: Execute a strong bridge toward the choking arm side while simultaneously pulling their wrist away from your neck. The bridging motion disrupts their balance and loosens their grip, while your pull strips the fingers from the collar. Even partial removal significantly reduces choking effectiveness. (Timing: Explosive movement coordinated with pull)
-7. **Maintain control**: After breaking the grip, do not release their wrist immediately. Keep two-on-one control and pull their arm across your body, trapping it against your torso. This prevents immediate re-establishment of the collar grip while you work to remove hooks. (Timing: Sustained until position improves)
-8. **Transition to escape**: With the collar threat neutralized and their arm controlled, immediately begin hip escape toward the side opposite their trapped arm. Use the window created by successful grip removal to address hooks and work toward half guard or turtle recovery. (Timing: Immediately after grip break)
+1. **Recognize the threat**: Identify opponent's choking hand by feeling for finger penetration in your collar. The invisible collar setup involves fingers walking into the gi material near your neck with thumb outside—any collar contact requires immediate defensive response.
+2. **Establish chin tuck**: Drive your chin aggressively toward your chest, pressing it so tightly that no gi material can fit between chin and sternum. This limits the angle of attack and buys time for hand fighting without allowing the choke to finish during your defensive work.
+3. **Locate the choking wrist**: Bring both hands to the opponent's choking arm, specifically targeting the wrist joint where you have maximum mechanical advantage. Feel for the bony prominences of the wrist rather than grabbing the forearm which is harder to control.
+4. **Establish two-on-one control**: Grip the opponent's wrist with both hands in a pistol grip configuration—your thumbs on top of their wrist, fingers wrapped underneath. Stack your hands so all eight fingers work together, creating a grip stronger than their collar grip.
+5. **Create pulling angle**: Rather than pulling straight down which the opponent can brace against, angle your pull toward your hip on the opposite side from their choking hand. This diagonal pull exploits the weakness in their grip structure and uses your core muscles rather than just arm strength.
+6. **Bridge and strip**: Execute a strong bridge toward the choking arm side while simultaneously pulling their wrist away from your neck. The bridging motion disrupts their balance and loosens their grip, while your pull strips the fingers from the collar. Even partial removal significantly reduces choking effectiveness.
+7. **Maintain control**: After breaking the grip, do not release their wrist immediately. Keep two-on-one control and pull their arm across your body, trapping it against your torso. This prevents immediate re-establishment of the collar grip while you work to remove hooks.
+8. **Transition to escape**: With the collar threat neutralized and their arm controlled, immediately begin hip escape toward the side opposite their trapped arm. Use the window created by successful grip removal to address hooks and work toward half guard or turtle recovery.
 
 
 </section>
@@ -267,19 +267,15 @@ Strategically, this technique serves as the gateway to all other back control es
 ## Training Progressions
 **Week 1-2** - Grip mechanics isolation
 Practice the two-on-one wrist control and pulling mechanics in isolation. Partner establishes collar grip at 25% depth and holds static while you work the grip break sequence. Focus on hand placement, pulling angle, and maintaining chin tuck throughout. 20 repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Adding bridge timing
 Introduce the bridging component with light resistance. Partner applies 40% grip pressure and provides some resistance to the pull. Practice timing the bridge with the grip break, feeling how the hip movement assists the hand work. 15 repetitions per side with 30-second rest between attempts.
-(Resistance: Light)
 
 **Week 5-6** - Counter reaction chains
 Partner begins varying their response—sometimes holding collar, sometimes switching to RNC attempt, sometimes reinforcing grip. Practice recognizing which counter is coming and adapting your hand fighting accordingly. This phase builds decision-making under pressure. 3-minute rounds with full reset after each successful defense or submission.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Full positional sparring from invisible collar position. Attacker works to finish any back submission while defender must escape to guard or neutral. Track success rate and time-to-escape metrics. Target: surviving 60% of rounds and escaping to guard in 40% within 60 seconds.
-(Resistance: Full)
 
 
 

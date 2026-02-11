@@ -157,7 +157,7 @@ The finishing mechanics differ fundamentally from mounted cross collar variation
 Strategically, this finish serves as the primary payoff for invisible collar positioning. When opponents defend effectively, the failed attempt maintains back control rather than surrendering position, making it a low-risk submission attempt. The technique chains naturally with rear naked choke attacks, creating a dilemma where defending one option opens vulnerability to the other.
 
 **From Position**: [[Invisible Collar/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm grip depth**: Verify all four fingers are deep inside the collar with knuckles pressed firmly against opponent's neck and thumb positioned on the outside of the collar material creating the proper choking structure (Timing: Before initiating any finishing pressure)
-2. **Secure secondary control**: Ensure your seatbelt arm is firmly controlling opponent's far shoulder, preventing them from turning toward you or creating rotation that would loosen the collar grip's effectiveness (Timing: Simultaneous with grip confirmation)
-3. **Tighten body connection**: Drive your chest firmly into opponent's upper back and sink your hips lower than theirs, creating maximum body-to-body pressure that eliminates escape space and stabilizes finishing position (Timing: 1-2 seconds before pressure application)
-4. **Activate hooks**: Drive your heels toward opponent's hips to prevent any forward escape or hip movement that could create space, keeping lower body control active throughout the entire finishing sequence (Timing: Continuous throughout finish)
-5. **Initiate rotation**: Begin rotating your choking forearm toward your own chest while pulling your elbow down toward your hip, folding the gi material against opponent's neck rather than pulling it away from the body (Timing: Gradual increasing pressure over 2-3 seconds)
-6. **Complete the choke**: Continue the rotation and elbow pull until you feel opponent tap or go unconscious, maintaining all control points throughout and being prepared to release immediately upon tap signal (Timing: Until submission achieved)
+1. **Confirm grip depth**: Verify all four fingers are deep inside the collar with knuckles pressed firmly against opponent's neck and thumb positioned on the outside of the collar material creating the proper choking structure
+2. **Secure secondary control**: Ensure your seatbelt arm is firmly controlling opponent's far shoulder, preventing them from turning toward you or creating rotation that would loosen the collar grip's effectiveness
+3. **Tighten body connection**: Drive your chest firmly into opponent's upper back and sink your hips lower than theirs, creating maximum body-to-body pressure that eliminates escape space and stabilizes finishing position
+4. **Activate hooks**: Drive your heels toward opponent's hips to prevent any forward escape or hip movement that could create space, keeping lower body control active throughout the entire finishing sequence
+5. **Initiate rotation**: Begin rotating your choking forearm toward your own chest while pulling your elbow down toward your hip, folding the gi material against opponent's neck rather than pulling it away from the body
+6. **Complete the choke**: Continue the rotation and elbow pull until you feel opponent tap or go unconscious, maintaining all control points throughout and being prepared to release immediately upon tap signal
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice establishing deep collar grip and correct finishing rotation on compliant partner. Focus on hand positioning, forearm rotation direction, and elbow path without any resistance. Build muscle memory for proper choking mechanics.
-(Resistance: None)
 
 **Week 3-4** - Coordination
 Add light resistance focusing on maintaining hooks while executing finish. Partner provides 25-50% resistance on hand fighting only. Develop ability to coordinate upper and lower body control simultaneously during submission.
-(Resistance: Light)
 
 **Week 5-6** - Timing and transitions
 Practice recognizing optimal finishing windows with partner providing moderate resistance and common defenses. Work on transitioning to rear naked choke when collar is defended. Build submission chain fluency.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring from back control starting position. Partner uses full defensive arsenal. Focus on concealing setup, timing finish correctly, and transitioning when defended. Track success rates to identify improvement areas.
-(Resistance: Full)
 
 
 

@@ -80,9 +80,9 @@
       "description": "Counter-attack timing depends on rhythm sensitivity to recognize the specific moments when passing opponents are most vulnerable. Without timing awareness, even technically sound counters will fail due to poor execution windows."
     },
     {
-      "principle_name": "Position Transitions",
+      "principle_name": "Connection Principles",
       "relationship_type": "Complementary",
-      "description": "Passing counters fundamentally involve position transitions from defensive guards to offensive positions or sweeps. Understanding transition mechanics ensures smooth execution of counters without getting caught in intermediate scramble positions."
+      "description": "Passing counters fundamentally involve maintaining and breaking connections during transitions from defensive guards to offensive positions or sweeps. Understanding connection mechanics ensures smooth execution of counters without getting caught in intermediate scramble positions."
     },
     {
       "principle_name": "Frame Management",
@@ -228,7 +228,7 @@
     {
       "step_number": 5,
       "decision_point": "Execute primary counter technique",
-      "action": "Deploy appropriate counter based on passing style and commitment: pressure passes → underhook sweeps or deep half entries; dynamic passes → leg entanglements or off-balancing; standing passes → guard pulls or technical stand-ups."
+      "action": "Deploy appropriate counter based on passing style and commitment: pressure passes to underhook sweeps or deep half entries; dynamic passes to leg entanglements or off-balancing; standing passes to guard pulls or technical stand-ups."
     },
     {
       "step_number": 6,
@@ -291,7 +291,7 @@
     },
     {
       "approach_name": "Counter Chain Flow Drilling",
-      "description": "From specific guard positions, practice flowing between multiple counter options in response to partner's defensive reactions. For example, from butterfly guard: attempt hook sweep → if defended, transition to X-guard → if defended, enter single leg X → if defended, execute technical stand-up. Focus on smooth transitions between options without resetting to neutral.",
+      "description": "From specific guard positions, practice flowing between multiple counter options in response to partner's defensive reactions. For example, from butterfly guard: attempt hook sweep, if defended transition to X-guard, if defended enter single leg X, if defended execute technical stand-up. Focus on smooth transitions between options without resetting to neutral.",
       "focus": "Building fluidity in counter chains and developing the ability to maintain offensive pressure through multiple counter attempts"
     },
     {
@@ -389,9 +389,9 @@
       "relationship": "Perceptual skill enabling recognition of optimal counter-attack windows during passing sequences"
     },
     {
-      "name": "Position Transitions",
+      "name": "Connection Principles",
       "content_type": "Principle",
-      "relationship": "Mechanical framework governing smooth transitions from defensive guards to offensive counter positions"
+      "relationship": "Mechanical framework governing how connections are maintained and broken during transitions from defensive guards to offensive counter positions"
     },
     {
       "name": "Closed Guard",

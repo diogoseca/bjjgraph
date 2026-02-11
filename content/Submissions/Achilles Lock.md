@@ -157,7 +157,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 **Type**: Leg Lock
 **Target Area**: Achilles tendon and ankle joint
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -234,12 +234,12 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the leg position**: From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap. (Timing: 2-3 seconds to establish solid position) [Pressure: Light]
-2. **Grip configuration for heel control**: Reach across and grab your opponent's heel with both hands. Configure a figure-four grip (one hand grabs opposite wrist) or gable grip (palms together). The heel must be trapped deep in your armpit with the Achilles tendon exposed. Ensure the foot cannot rotate or turn. (Timing: 1-2 seconds to secure grip) [Pressure: Light]
-3. **Position the fulcrum point**: Adjust your grip so that either your radius bone (wrist bone on thumb side) or your forearm creates a sharp edge directly against the opponent's Achilles tendon. This should be positioned approximately 2-3 inches above the heel. The sharper the angle, the more effective the submission. (Timing: 1-2 seconds to find exact placement) [Pressure: Light]
-4. **Create the initial angle**: Begin to lean your upper body backward while keeping your hips close to the opponent. Your shoulders should start moving away from the opponent's leg. This creates the foundational angle needed for the submission. Do not extend hips yet. (Timing: 2-3 seconds gradual lean) [Pressure: Moderate]
-5. **Hip extension for breaking pressure**: While maintaining the backward lean, begin to slowly extend your hips forward and upward. Drive your hips toward the ceiling while pulling the heel into your armpit. The combination of hip extension, backward lean, and fulcrum pressure creates the Achilles lock. Apply pressure progressively over 3-5 seconds. (Timing: 3-5 seconds progressive pressure) [Pressure: Firm]
-6. **Final adjustment and finish**: Make micro-adjustments to maximize pressure: ensure toes are still pointed toward you, fulcrum is on Achilles (not calf), and your knees remain tight. If opponent hasn't tapped, incrementally increase hip extension while maintaining all positional controls. Stop immediately upon tap. (Timing: 1-3 seconds for adjustments) [Pressure: Maximum]
+1. **Secure the leg position**: From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap. (Timing: 2-3 seconds to establish solid position)
+2. **Grip configuration for heel control**: Reach across and grab your opponent's heel with both hands. Configure a figure-four grip (one hand grabs opposite wrist) or gable grip (palms together). The heel must be trapped deep in your armpit with the Achilles tendon exposed. Ensure the foot cannot rotate or turn. (Timing: 1-2 seconds to secure grip)
+3. **Position the fulcrum point**: Adjust your grip so that either your radius bone (wrist bone on thumb side) or your forearm creates a sharp edge directly against the opponent's Achilles tendon. This should be positioned approximately 2-3 inches above the heel. The sharper the angle, the more effective the submission. (Timing: 1-2 seconds to find exact placement)
+4. **Create the initial angle**: Begin to lean your upper body backward while keeping your hips close to the opponent. Your shoulders should start moving away from the opponent's leg. This creates the foundational angle needed for the submission. Do not extend hips yet. (Timing: 2-3 seconds gradual lean)
+5. **Hip extension for breaking pressure**: While maintaining the backward lean, begin to slowly extend your hips forward and upward. Drive your hips toward the ceiling while pulling the heel into your armpit. The combination of hip extension, backward lean, and fulcrum pressure creates the Achilles lock. Apply pressure progressively over 3-5 seconds. (Timing: 3-5 seconds progressive pressure)
+6. **Final adjustment and finish**: Make micro-adjustments to maximize pressure: ensure toes are still pointed toward you, fulcrum is on Achilles (not calf), and your knees remain tight. If opponent hasn't tapped, incrementally increase hip extension while maintaining all positional controls. Stop immediately upon tap. (Timing: 1-3 seconds for adjustments)
 
 
 </section>
@@ -258,22 +258,22 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying pressure too quickly or spiking the submission [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly or spiking the submission
   - **Consequence**: High risk of Achilles tendon rupture, training partner injury, loss of trust
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum. Build up slowly and give partner time to recognize the submission and tap safely.
-- **Mistake**: Positioning fulcrum on calf muscle instead of Achilles tendon [Medium DANGER]
+- **Mistake**: Positioning fulcrum on calf muscle instead of Achilles tendon
   - **Consequence**: Submission is ineffective, wastes energy, allows opponent to escape
   - **Correction**: Ensure your wrist bone or forearm edge is placed 2-3 inches above the heel, directly on the Achilles tendon. You should feel the tendon - it's the hard cord-like structure, not the soft calf muscle.
-- **Mistake**: Leaving gap between knees allowing leg extraction [Low DANGER]
+- **Mistake**: Leaving gap between knees allowing leg extraction
   - **Consequence**: Opponent easily escapes by pulling leg through the gap
   - **Correction**: Squeeze your knees together tightly throughout the entire submission. Your legs should be creating a vice-like control on the opponent's leg with no space for extraction.
-- **Mistake**: Failing to control the foot direction (allowing foot to turn outward) [Medium DANGER]
+- **Mistake**: Failing to control the foot direction (allowing foot to turn outward)
   - **Consequence**: Pressure comes off Achilles tendon, submission fails, opponent may escape
   - **Correction**: Ensure toes are pointed toward your face and heel is deep in armpit. Use your grip to prevent any rotation of the foot. If foot turns, immediately adjust or abandon the submission.
-- **Mistake**: Hips too far from opponent's hip creating poor leverage angle [Low DANGER]
+- **Mistake**: Hips too far from opponent's hip creating poor leverage angle
   - **Consequence**: Cannot generate sufficient breaking pressure, tired arms, easy escape for opponent
   - **Correction**: Scoot your hips close to opponent's hip before attempting finish. Your seat should be nearly touching their leg. Close distance first, then apply technique.
-- **Mistake**: Leaning forward instead of backward during finish [Medium DANGER]
+- **Mistake**: Leaning forward instead of backward during finish
   - **Consequence**: Removes the breaking angle, reduces pressure, may lose position entirely
   - **Correction**: Your shoulders and head must move away from the opponent while hips extend forward. Think of creating a 'bow and arrow' shape with your body - backward lean combined with forward hip drive.
 
@@ -338,43 +338,6 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (2 weeks)
-- Focus: Learn position mechanics, grip configurations, and body positioning without any pressure. Study anatomy of ankle and Achilles tendon. Practice entry from Ashi Garami.
-- Resistance: None
-- Safety: Understand injury mechanisms and why slow application is critical. Learn to identify the Achilles tendon by feel. Practice communication protocols with training partners.
-
-**Positional Practice (Weeks 3-4)** (2 weeks)
-- Focus: Practice securing Ashi Garami position and grip configurations with cooperative partner. Focus on creating proper angle without applying any breaking pressure. Repetition of setup sequences.
-- Resistance: Zero resistance
-- Safety: Partner gives immediate feedback on fulcrum placement and pressure. Practice tap recognition and immediate release protocols. No hip extension during this phase.
-
-**Controlled Application (Weeks 5-8)** (4 weeks)
-- Focus: Begin applying minimal pressure (10-20%) to understand the submission mechanics. Partner taps early to practice release protocols. Develop sensitivity to proper fulcrum position through feedback.
-- Resistance: Mild resistance
-- Safety: Apply pressure over 5-7 seconds minimum. Stop at any sign of discomfort. Both partners verbally communicate throughout. Focus on perfect technique rather than finishing.
-
-**Progressive Resistance (Weeks 9-12)** (4 weeks)
-- Focus: Partner provides realistic but controlled resistance. Practice against common defenses. Develop ability to maintain position while opponent attempts escapes. Increase pressure to 30-40% maximum.
-- Resistance: Realistic resistance
-- Safety: Maintain 3-5 second application speed even with resistance. Partner still taps early. Practice adjustments without increasing danger. Discuss pressure levels before each session.
-
-**Situational Training (Weeks 13+)** (Ongoing)
-- Focus: Integrate into positional sparring from Ashi Garami or leg entanglement situations. Practice entries from live scrambles. Develop timing and setup recognition during rolling.
-- Resistance: Full resistance
-- Safety: Never exceed training-appropriate pressure even in competitive situations. Respect all taps immediately. Newer partners require slower application. Continuous communication about comfort levels.
-
-**Advanced Integration (Ongoing)** (Ongoing)
-- Focus: Combine with other leg attacks, develop submission chains, practice transitions between positions. Study competition footage. Refine technique details and develop personal variations.
-- Resistance: Full resistance
-- Safety: Mentor newer students on safe application. Lead by example in training culture. Continue conservative approach even at advanced levels. Prioritize longevity over submission count.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -425,6 +388,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

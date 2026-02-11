@@ -167,7 +167,8 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 **Type**: Shin Choke
 **Target Area**: Trachea and carotid arteries
 **Starting Position**: [[Rubber Guard]]
-**Success Rates**: Beginner 15%, Intermediate 30%, Advanced 50%
+**From Position**: [[Gogoplata Control]] (Top)
+**Success Rate**: 40%
 
 </section>
 
@@ -248,13 +249,13 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish high guard control**: From closed guard or open guard, establish a high guard position by climbing your legs up your opponent's back. Secure one foot across their back in rubber guard position, with your shin behind their head. Your other leg should maintain control around their body or be prepared to become the choking mechanism. (Timing: 0-2 seconds) [Pressure: Light]
-2. **Break opponent's posture completely**: Using your rubber guard control and both hands gripping behind opponent's head or controlling their arms, pull their head down aggressively until their face is close to your chest. Their posture must be completely broken - if they can maintain any upright posture, the submission will not work. (Timing: 2-4 seconds) [Pressure: Moderate]
-3. **Thread the choking leg across the throat**: From your high guard position, begin to thread your free leg (the one not in rubber guard) across the front of opponent's throat. Your shin bone should come across their trachea while your foot moves toward the opposite side of their neck. This requires significant hip flexibility and must be done while maintaining broken posture. (Timing: 4-7 seconds) [Pressure: Light]
-4. **Secure the shin position across the throat**: Position the blade of your shin bone directly across opponent's trachea and throat area. Your foot should be positioned behind their head or over their opposite shoulder. The shin placement is critical - it must be centered on the throat with the hard bone creating the compression point, not the soft calf muscle. (Timing: 7-10 seconds) [Pressure: Light]
-5. **Control the head with both hands**: With your shin in position, secure a strong grip on the back of opponent's head with both hands. Your grip might be palm-to-palm, fingers interlaced, or gripping their hair or gi collar (in gi). This grip will allow you to pull their head forward into your shin, creating the choking pressure. (Timing: 10-12 seconds) [Pressure: Moderate]
-6. **Create choking pressure by pulling head forward**: While maintaining your shin position across their throat, pull opponent's head forward with your hands. Simultaneously extend your hips slightly upward to increase pressure. The combination of pulling their head into your shin while the shin remains stationary creates the choke. Apply pressure SLOWLY over 3-5 seconds. (Timing: 12-17 seconds) [Pressure: Firm]
-7. **Maintain position and adjust pressure**: As opponent feels the pressure, they will attempt to escape. Maintain your shin position, keep their posture broken, and adjust your pulling angle to maximize the choke. Your non-choking leg should hook over their back or shoulder to prevent them from posturing up. Continue gradual pressure increase until tap is achieved. (Timing: 17-22 seconds to completion) [Pressure: Maximum]
+1. **Establish high guard control**: From closed guard or open guard, establish a high guard position by climbing your legs up your opponent's back. Secure one foot across their back in rubber guard position, with your shin behind their head. Your other leg should maintain control around their body or be prepared to become the choking mechanism. (Timing: 0-2 seconds)
+2. **Break opponent's posture completely**: Using your rubber guard control and both hands gripping behind opponent's head or controlling their arms, pull their head down aggressively until their face is close to your chest. Their posture must be completely broken - if they can maintain any upright posture, the submission will not work. (Timing: 2-4 seconds)
+3. **Thread the choking leg across the throat**: From your high guard position, begin to thread your free leg (the one not in rubber guard) across the front of opponent's throat. Your shin bone should come across their trachea while your foot moves toward the opposite side of their neck. This requires significant hip flexibility and must be done while maintaining broken posture. (Timing: 4-7 seconds)
+4. **Secure the shin position across the throat**: Position the blade of your shin bone directly across opponent's trachea and throat area. Your foot should be positioned behind their head or over their opposite shoulder. The shin placement is critical - it must be centered on the throat with the hard bone creating the compression point, not the soft calf muscle. (Timing: 7-10 seconds)
+5. **Control the head with both hands**: With your shin in position, secure a strong grip on the back of opponent's head with both hands. Your grip might be palm-to-palm, fingers interlaced, or gripping their hair or gi collar (in gi). This grip will allow you to pull their head forward into your shin, creating the choking pressure. (Timing: 10-12 seconds)
+6. **Create choking pressure by pulling head forward**: While maintaining your shin position across their throat, pull opponent's head forward with your hands. Simultaneously extend your hips slightly upward to increase pressure. The combination of pulling their head into your shin while the shin remains stationary creates the choke. Apply pressure SLOWLY over 3-5 seconds. (Timing: 12-17 seconds)
+7. **Maintain position and adjust pressure**: As opponent feels the pressure, they will attempt to escape. Maintain your shin position, keep their posture broken, and adjust your pulling angle to maximize the choke. Your non-choking leg should hook over their back or shoulder to prevent them from posturing up. Continue gradual pressure increase until tap is achieved. (Timing: 17-22 seconds to completion)
 
 
 </section>
@@ -273,25 +274,25 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting the gogoplata without sufficient hip flexibility [Medium DANGER]
+- **Mistake**: Attempting the gogoplata without sufficient hip flexibility
   - **Consequence**: Inability to bring shin across throat properly, leading to failed submission attempt and potential injury to your own hip or knee from forcing the position
   - **Correction**: Develop hip flexibility through dedicated stretching and yoga before attempting this technique. Practice the positioning slowly with a cooperative partner. If you cannot comfortably bring your shin across while maintaining guard, this submission may not be suitable for your body type.
-- **Mistake**: Failing to break opponent's posture before attempting shin placement [Low DANGER]
+- **Mistake**: Failing to break opponent's posture before attempting shin placement
   - **Consequence**: Opponent easily postures up and escapes, or they stack you and pass your guard while you're attempting the submission
   - **Correction**: Ensure opponent's posture is completely broken with their head pulled down low before initiating the shin thread. Use your rubber guard position and head control to maintain broken posture throughout the entire technique. Posture control is the foundation of this submission.
-- **Mistake**: Placing the calf muscle across the throat instead of the shin bone [Low DANGER]
+- **Mistake**: Placing the calf muscle across the throat instead of the shin bone
   - **Consequence**: Ineffective choking pressure due to soft tissue compression rather than hard bone pressure. Opponent can often resist or escape easily
   - **Correction**: Focus on positioning the blade of your shin bone (the hard front edge) directly across the trachea. Your foot should be positioned behind their head, not alongside it. The shin bone creates much more effective compression than the calf muscle.
-- **Mistake**: Applying pressure too quickly without allowing time for tap [CRITICAL DANGER]
+- **Mistake**: Applying pressure too quickly without allowing time for tap
   - **Consequence**: CRITICAL DANGER - rapid pressure on the trachea can cause serious injury including tracheal collapse, loss of consciousness, or permanent damage
   - **Correction**: ALWAYS apply pressure slowly and progressively over 5-7 seconds minimum. Watch for tap signals constantly. This is one of the most dangerous submissions due to direct tracheal pressure. In training, use minimal pressure - just enough for partner to feel the position. Never spike or jerk the submission.
-- **Mistake**: Losing control of opponent's head during the submission [Low DANGER]
+- **Mistake**: Losing control of opponent's head during the submission
   - **Consequence**: Opponent can posture up or turn their head to escape the choke. Without head control, the submission becomes ineffective
   - **Correction**: Maintain strong two-hand control on the back of opponent's head throughout the entire submission. Your hands should be pulling their head forward into your shin constantly. Never release head control until the tap occurs or you abandon the submission.
-- **Mistake**: Neglecting to control opponent's body with the non-choking leg [Medium DANGER]
+- **Mistake**: Neglecting to control opponent's body with the non-choking leg
   - **Consequence**: Opponent can create distance, posture up, or escape the position entirely. Loss of overall positional control
   - **Correction**: Your non-choking leg (the rubber guard leg) should maintain active control by hooking over opponent's back or shoulder. This leg prevents them from creating space and maintains your high guard position. Both legs work together - one chokes, one controls.
-- **Mistake**: Attempting the submission when fatigued or with poor flexibility [High DANGER]
+- **Mistake**: Attempting the submission when fatigued or with poor flexibility
   - **Consequence**: Increased risk of injury to yourself (hip, knee, or ankle) and inability to maintain proper control for safe execution
   - **Correction**: Only attempt gogoplata when you are fresh and your flexibility is optimal. This is not a submission to attempt when tired. If your flexibility is compromised due to fatigue, choose different submission options. Know your physical limitations and respect them.
 
@@ -356,43 +357,6 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Flexibility Development** (Weeks 1-8 (prerequisite phase))
-- Focus: Develop the hip flexibility required for gogoplata through dedicated stretching, yoga, and mobility work. Focus on hip flexion, external rotation, and hamstring flexibility. Practice bringing your shin toward your opposite shoulder while maintaining guard position.
-- Resistance: None
-- Safety: Never force flexibility. Work gradually over weeks and months. If you experience pain or cannot achieve the positions comfortably, the gogoplata may not be suitable for your body type. Respect your physical limitations to prevent injury.
-
-**Position Familiarization** (Weeks 9-12)
-- Focus: Practice establishing rubber guard control and threading your shin across a cooperative partner's throat WITHOUT applying any pressure. Focus solely on the positioning - getting your shin across, maintaining head control, and understanding the body mechanics. Partner provides zero resistance and helps guide your leg into position.
-- Resistance: Zero resistance
-- Safety: NO PRESSURE applied to throat during this phase. Focus is entirely on position and movement. Partner should communicate any discomfort immediately. Practice getting in and out of the position smoothly and safely.
-
-**Slow Pressure Introduction** (Weeks 13-20)
-- Focus: Begin applying minimal pressure with cooperative partners who understand the technique. Apply pressure EXTREMELY slowly over 10-15 seconds. Partner should tap early to feel the submission's mechanics. Practice recognizing and respecting taps immediately. Drill the complete release protocol repeatedly.
-- Resistance: Zero resistance
-- Safety: Pressure should be minimal - just enough for partner to understand the submission mechanism. Application time is DOUBLE the normal speed (10-15 seconds vs 5-7 seconds). Both partners must have complete trust. Practice with same trusted partners only.
-
-**Mild Resistance Integration** (Weeks 21-32)
-- Focus: Partner begins providing mild resistance - gentle attempts to maintain posture, slight hand fighting, basic defensive movements. Practice maintaining position control while opponent provides realistic but controlled defensive pressure. Continue slow pressure application (7-10 seconds). Work on adjustment and control rather than finishing.
-- Resistance: Mild resistance
-- Safety: Maintain slow application speed even with resistance. If you cannot maintain control with mild resistance, do not progress to higher resistance levels. Partner should still tap early to prevent any injury risk. Communication is essential throughout every repetition.
-
-**Realistic Training Integration** (Months 9-12)
-- Focus: Begin attempting gogoplata during flow rolling and positional sparring with trusted partners. Opponent provides realistic resistance but both partners understand this is a dangerous technique. Apply standard training pressure (5-7 seconds) but always prioritize safety over completion. Begin recognizing situations where gogoplata is available versus situations where other submissions are safer.
-- Resistance: Realistic resistance
-- Safety: Never use competition speed in training. Always allow partner access to tap. If you feel any hesitation about control, abandon the submission and choose something safer. This submission requires perfect conditions - if position is not ideal, use a different attack.
-
-**Advanced Application and Competition Consideration** (Month 13+ (ongoing mastery))
-- Focus: Refine the gogoplata as part of your overall submission system. Integrate it with triangle, omoplata, and other guard submissions. Understand when to use it versus safer alternatives. If competing, decide whether the risk-reward ratio makes sense for your competition strategy. Continue practicing with safety as the absolute priority.
-- Resistance: Full resistance
-- Safety: Even at the highest levels, safety protocols must be maintained in training. Many high-level competitors choose never to use gogoplata in competition due to injury risk to opponent. In training, it remains a technique that demands respect, perfect control, and complete trust between partners. Never become complacent with safety protocols regardless of experience level.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -403,6 +367,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 - [[High Mount]]
 - [[Open Guard]]
 - [[Inverted Guard]]
+- [[Gogoplata Control]]
 
 
 </section>
@@ -440,6 +405,20 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 45% |
+| Failure | [[Gogoplata Control]] | 55% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

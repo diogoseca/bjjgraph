@@ -169,7 +169,7 @@ Strategically, the toe hold functions as the third prong of the backside 50-50 a
 The backside 50-50 angle provides a distinct mechanical advantage over toe holds from other entanglements: your chest pressure pins the opponent's hip, eliminating the body rotation that is the toe hold's primary defensive counter. This transforms the toe hold from a position-dependent opportunistic attack into a high-percentage finish. Elite competitors use the toe hold threat to force opponents into a defensive choice - hide the heel and expose the foot, or protect the foot and expose the heel - creating the submission dilemma that makes backside 50-50 top a dominant attacking platform.
 
 **From Position**: [[Backside 50-50/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -216,14 +216,14 @@ The backside 50-50 angle provides a distinct mechanical advantage over toe holds
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize heel defense**: Identify that your opponent has successfully hidden their heel by tucking their foot inward or rotating the knee, making heel hook grip establishment impractical from your current hand positioning in backside 50-50 top (Timing: Immediately upon recognizing failed heel hook attempt)
-2. **Reinforce chest pressure**: Before changing your grip configuration, drive your chest forward and down into opponent's upper back to maximize hip-pinning pressure, ensuring they cannot rotate or create angles during the vulnerable grip transition window (Timing: 1-2 seconds before releasing heel hunt grip)
-3. **Cup the ball of the foot**: With your outside hand (closest to opponent's toes), reach over the top of their foot and wrap your palm around the ball of the foot near the toes, fingers curling underneath toward the sole to establish the primary control point for rotation (Timing: Quick decisive grip change within 1 second)
-4. **Establish kimura grip**: Thread your inside arm underneath opponent's foot from the ankle side and grip your own wrist in a figure-four kimura configuration, creating a closed mechanical loop around the foot and ankle that cannot be stripped by single-hand defense (Timing: Immediately after securing foot control)
-5. **Pin elbows and consolidate**: Draw both elbows tight against your ribcage and lock the grip assembly against your torso, eliminating slack in the system so that all rotational force transfers from your body mechanics through the grip directly into the foot joint complex (Timing: Brief consolidation before applying pressure)
-6. **Confirm entanglement control**: Verify your leg entanglement remains locked tight around opponent's thigh with your outside leg driving across their hip, preventing any rotation that would dissipate the toe hold force before you commit to the finish (Timing: Quick positional check lasting under 1 second)
-7. **Apply controlled medial rotation**: Rotate the foot inward toward opponent's centerline using your full upper body and torso rotation rather than isolated arm strength, driving your hips forward simultaneously to compound rotational torque with hip extension force through the ankle joint (Timing: Progressive pressure over 2-4 seconds)
-8. **Complete with hip drive**: Drive your hips forward into the trapped leg while maintaining inward foot rotation, creating compound force attacking the ankle through rotation and the knee through extension, continuing until opponent taps or the submission reaches full mechanical completion (Timing: Final phase - release immediately upon tap)
+1. **Recognize heel defense**: Identify that your opponent has successfully hidden their heel by tucking their foot inward or rotating the knee, making heel hook grip establishment impractical from your current hand positioning in backside 50-50 top
+2. **Reinforce chest pressure**: Before changing your grip configuration, drive your chest forward and down into opponent's upper back to maximize hip-pinning pressure, ensuring they cannot rotate or create angles during the vulnerable grip transition window
+3. **Cup the ball of the foot**: With your outside hand (closest to opponent's toes), reach over the top of their foot and wrap your palm around the ball of the foot near the toes, fingers curling underneath toward the sole to establish the primary control point for rotation
+4. **Establish kimura grip**: Thread your inside arm underneath opponent's foot from the ankle side and grip your own wrist in a figure-four kimura configuration, creating a closed mechanical loop around the foot and ankle that cannot be stripped by single-hand defense
+5. **Pin elbows and consolidate**: Draw both elbows tight against your ribcage and lock the grip assembly against your torso, eliminating slack in the system so that all rotational force transfers from your body mechanics through the grip directly into the foot joint complex
+6. **Confirm entanglement control**: Verify your leg entanglement remains locked tight around opponent's thigh with your outside leg driving across their hip, preventing any rotation that would dissipate the toe hold force before you commit to the finish
+7. **Apply controlled medial rotation**: Rotate the foot inward toward opponent's centerline using your full upper body and torso rotation rather than isolated arm strength, driving your hips forward simultaneously to compound rotational torque with hip extension force through the ankle joint
+8. **Complete with hip drive**: Drive your hips forward into the trapped leg while maintaining inward foot rotation, creating compound force attacking the ankle through rotation and the knee through extension, continuing until opponent taps or the submission reaches full mechanical completion
 
 
 </section>
@@ -269,19 +269,15 @@ The backside 50-50 angle provides a distinct mechanical advantage over toe holds
 ## Training Progressions
 **Week 1-2** - Grip mechanics from backside 50-50
 Practice establishing the kimura grip on a compliant partner's foot from the backside 50-50 top position. Focus on correct hand placement cupping the ball of the foot, figure-four lock assembly, and elbow-to-rib pinning. No rotation applied - 20-30 grip establishment repetitions per session while maintaining chest-to-back pressure throughout each rep.
-(Resistance: None)
 
 **Week 3-4** - Grip transition and pressure maintenance
 From backside 50-50 top with partner providing light resistance, practice transitioning from heel hook grip to toe hold kimura grip while maintaining chest-to-back pressure and leg entanglement control. Partner hides heel on cue, you switch to toe hold. Apply gentle controlled rotation to feel the mechanics and identify proper force direction. 15-20 transitions per round.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and submission dilemmas
 Practice the inside heel hook to toe hold to heel hook chain with partner defending at medium resistance. When partner hides heel, transition to toe hold. When partner rotates to relieve toe hold, hunt the re-exposed heel. Incorporate kneebar attempts when foot is buried deep. Build recognition of which submission the opponent's specific defense opens.
-(Resistance: Medium)
 
 **Week 7-8** - Live positional sparring from backside 50-50
 Full positional sparring starting from backside 50-50 top. Use the complete attack toolkit - heel hooks, toe hold, kneebar, back take - reading opponent's defensive choices to select the highest-percentage attack. Partner defends at full resistance. Track finish rate and identify which defensive reactions you cannot yet exploit. Three-minute rounds with resets.
-(Resistance: Full)
 
 
 

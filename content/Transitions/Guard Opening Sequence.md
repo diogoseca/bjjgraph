@@ -159,7 +159,7 @@ description: "Master guard opening in BJJ. Systematic approaches to opening clos
 Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard. Understanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -208,13 +208,13 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish posture**: Begin from closed guard top position. Create a strong defensive frame by straightening your spine, lifting your head, and creating distance with your hips. Your elbows should be inside their knees, forearms driving into their hips or controlling their belt. This posture is non-negotiable - without it, the guard cannot be safely opened. (Timing: First priority - establish before any opening attempt)
-2. **Break opponent's grips**: Systematically remove the opponent's grip connections on your collar, sleeves, or head. Use circular motions to break collar grips by rotating your shoulders. For sleeve grips, push their grip toward their thumb (weakest point) while pulling your elbow back. Prevent them from re-establishing grips by maintaining proper distance and hand positioning. (Timing: 2-3 seconds of focused grip fighting)
-3. **Establish control grips**: Secure your own grips to control the opponent's position. Common options include: both hands on the pants near the knees (most common), one hand on belt with other on knee, or cross-collar grip with knee control. These grips prevent the opponent from following you as you create distance and control their hip movement. (Timing: Immediately after breaking their grips)
-4. **Create initial distance**: From combat base or standing, begin creating distance between your hips and the opponent's hips. If using combat base, drive one knee forward while sitting your hips back. If standing, post one foot on the mat near their hip, maintaining grip control. This distance prevents them from breaking your posture and sets up the opening mechanics. (Timing: Smooth 1-2 second movement)
-5. **Apply opening pressure**: Execute the specific opening technique based on your position. Standing method: stand fully upright with both feet planted, gripping the pants near the knees, and drive your hips forward while pulling their knees toward you. Combat base method: drive your posted knee forward into their inner thigh while sitting your hips back and controlling their other leg. The pressure should be gradual and controlled, not explosive. (Timing: 2-4 seconds of sustained pressure)
-6. **Complete the opening**: Once you feel the opponent's ankles unlock, immediately control their legs to prevent re-closing. Push one knee across their body while maintaining control of the other leg. Your hips should stay back to maintain distance. From here, transition directly to your chosen passing position - knee slice, toreando, long step, or leg drag - without pausing in the open guard. (Timing: Immediate transition as guard opens)
-7. **Secure passing position**: Establish dominant grips and positioning for your selected pass. Keep constant pressure on their legs to prevent them from recovering closed guard or establishing a strong open guard retention position. Your posture should remain strong, hips mobile, and base secure as you begin your passing sequence. (Timing: Continuous flow into pass)
+1. **Establish posture**: Begin from closed guard top position. Create a strong defensive frame by straightening your spine, lifting your head, and creating distance with your hips. Your elbows should be inside their knees, forearms driving into their hips or controlling their belt. This posture is non-negotiable - without it, the guard cannot be safely opened.
+2. **Break opponent's grips**: Systematically remove the opponent's grip connections on your collar, sleeves, or head. Use circular motions to break collar grips by rotating your shoulders. For sleeve grips, push their grip toward their thumb (weakest point) while pulling your elbow back. Prevent them from re-establishing grips by maintaining proper distance and hand positioning.
+3. **Establish control grips**: Secure your own grips to control the opponent's position. Common options include: both hands on the pants near the knees (most common), one hand on belt with other on knee, or cross-collar grip with knee control. These grips prevent the opponent from following you as you create distance and control their hip movement.
+4. **Create initial distance**: From combat base or standing, begin creating distance between your hips and the opponent's hips. If using combat base, drive one knee forward while sitting your hips back. If standing, post one foot on the mat near their hip, maintaining grip control. This distance prevents them from breaking your posture and sets up the opening mechanics.
+5. **Apply opening pressure**: Execute the specific opening technique based on your position. Standing method: stand fully upright with both feet planted, gripping the pants near the knees, and drive your hips forward while pulling their knees toward you. Combat base method: drive your posted knee forward into their inner thigh while sitting your hips back and controlling their other leg. The pressure should be gradual and controlled, not explosive.
+6. **Complete the opening**: Once you feel the opponent's ankles unlock, immediately control their legs to prevent re-closing. Push one knee across their body while maintaining control of the other leg. Your hips should stay back to maintain distance. From here, transition directly to your chosen passing position - knee slice, toreando, long step, or leg drag - without pausing in the open guard.
+7. **Secure passing position**: Establish dominant grips and positioning for your selected pass. Keep constant pressure on their legs to prevent them from recovering closed guard or establishing a strong open guard retention position. Your posture should remain strong, hips mobile, and base secure as you begin your passing sequence.
 
 
 </section>
@@ -261,27 +261,21 @@ Guard Opening Sequence represents the systematic approach to breaking closed gua
 ## Training Progressions
 **Week 1-2: Posture and Base Fundamentals** - Establishing and maintaining proper posture in closed guard
 Partner allows you to establish posture but provides resistance when you try to open. Focus entirely on creating strong spine position, base, and grip control. Practice standing up from closed guard with proper mechanics. No actual opening yet.
-(Resistance: Light)
 
 **Week 3-4: Static Opening Mechanics** - Executing opening techniques from established posture
 Partner maintains closed guard but does not break your posture or sweep. Practice both standing and combat base opening methods repeatedly. Focus on leverage and hip movement rather than strength. Partner allows guard to open but can re-close if your control is poor.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Opening with Grip Fighting** - Combining grip fighting with opening mechanics
 Partner actively fights grips and attempts to break your posture but does not sweep. You must break their grips, establish your own, and open the guard while maintaining posture. Partner provides 50% resistance to opening mechanics. Begin transitioning to passing positions after opening.
-(Resistance: Medium)
 
 **Week 9-12: Opening Against Sweep Attempts** - Defending sweeps while executing opening sequence
 Partner attempts common sweeps (elevator, scissor, hip bump) during your opening attempts. You must recognize sweep threats, defend them, and continue opening sequence. Partner provides 70% resistance. Focus on maintaining base throughout the sequence.
-(Resistance: Medium)
 
 **Week 13+: Full Resistance Opening to Pass** - Complete opening and passing sequence against resistance
 Partner uses full defensive guard including posture breaks, grip fighting, sweeps, and submission threats. You must successfully open the guard and transition to a passing position. This is competition-level training. Begin timing yourself to develop efficiency.
-(Resistance: Full)
 
 **Ongoing: Variation Development** - Adapting opening strategy to different guard styles
 Practice against specialized closed guard styles: collar and sleeve guard, overhook guard, rubber guard, high guard. Each requires slightly different opening mechanics. Partner uses their best guard retention techniques. Develop multiple opening methods for different scenarios.
-(Resistance: Full)
 
 
 

@@ -357,11 +357,11 @@ With cooperative partner in Ringworm Guard configuration, flow through all avail
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 15% |
-| Intermediate | 60% | 50% | 30% |
-| Advanced     | 75% | 65% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 58% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 45-90 seconds before transition or pass
 

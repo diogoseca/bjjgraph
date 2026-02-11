@@ -176,25 +176,29 @@ The position demands different strategic approaches based on whether you're esta
 ### Available Transitions
 
 
-- **[[North-South Choke]]** (10% of attempts)
-
-- **[[Side Control to Mount]]** (13% of attempts)
-
-- **[[North-South to Kimura]]** (11% of attempts)
-
-- **[[Armbar from Side Control]]** (9% of attempts)
-
-- **[[Side Control to North-South]]** (12% of attempts)
-
-- **[[Americana from Side Control]]** (9% of attempts)
+- **[[North-South Choke]]** (9% of attempts)
 
 - **[[Side Control to Mount]]** (11% of attempts)
 
-- **[[Knee on Belly]]** (10% of attempts)
+- **[[North-South to Kimura]]** (9% of attempts)
 
-- **[[Spinning Armbar]]** (7% of attempts)
+- **[[Armbar from Side Control]]** (8% of attempts)
 
-- **[[Reverse Armbar]]** (8% of attempts)
+- **[[Side Control to North-South]]** (10% of attempts)
+
+- **[[Americana from Side Control]]** (8% of attempts)
+
+- **[[Knee on Belly]]** (8% of attempts)
+
+- **[[Spinning Armbar]]** (6% of attempts)
+
+- **[[Reverse Armbar]]** (7% of attempts)
+
+- **[[Arm Triangle Setup]]** (8% of attempts)
+
+- **[[Armbar from North-South]]** (8% of attempts)
+
+- **[[Reverse Mount Transition]]** (8% of attempts)
 
 
 ### Common Mistakes

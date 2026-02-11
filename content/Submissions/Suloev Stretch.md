@@ -157,7 +157,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 **Type**: Knee Compression
 **Target Area**: Knee joint and calf muscle
 **Starting Position**: [[Top position with leg control]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -234,12 +234,12 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate and Control the Target Leg**: From top position (commonly half guard top, knee shield pass, or leg entanglement), secure control of one of your opponent's legs. Cup the ankle or control the lower leg while using your weight to prevent them from extending the leg fully. Your chest and shoulder pressure should be driving into their upper body to prevent them from sitting up. This initial control is critical - if they can extend the leg or create distance, the entry becomes impossible. (Timing: Initial control phase - 2-3 seconds) [Pressure: Moderate]
-2. **Step Over with Near Leg**: Take your leg that is closest to their head (near leg) and step it over their trapped leg, positioning your shin across their thigh just above the knee. This creates the first part of the figure-four configuration. Your foot should be positioned so you can hook it around your own ankle in the next step. Maintain downward pressure with your upper body throughout this transition to prevent them from recovering guard or extracting the leg. (Timing: Transition phase - 1-2 seconds) [Pressure: Firm]
-3. **Complete the Figure-Four Lock**: Bring your far leg (the one near their feet) underneath their trapped leg and hook your own ankle with your foot, completing a figure-four configuration around their leg. Your legs should form a tight lock with their leg trapped inside, their knee bent, and their heel pulled toward their own buttocks. Squeeze your knees together slightly to secure the lock. This figure-four creates the structural integrity needed for the submission and prevents the leg from escaping. (Timing: Lock completion - 2-3 seconds) [Pressure: Firm]
-4. **Establish Hip and Upper Body Position**: Position your hips close to their hip on the trapped leg side. Your chest should be driving into their upper body, keeping them flat on their back or preventing them from turning into you. Control their far arm or establish a crossface if needed to prevent rotation. Your body position should create a 'T' shape where your torso is perpendicular to theirs, with your hips loaded and ready to extend forward. This positioning is crucial - your hips must be in alignment to generate the compression force. (Timing: Position refinement - 2-3 seconds) [Pressure: Firm]
-5. **Create the Compression Angle**: Adjust the angle of their trapped leg so their heel is being pulled toward their own buttocks by your figure-four lock. Their knee should be bent at approximately 90-120 degrees. Use small adjustments with your legs to ensure their calf muscle is pressed firmly against their hamstring. The tighter you can make this calf-to-hamstring compression before extending your hips, the more effective the submission. In training, communicate with your partner at this stage to ensure proper positioning before applying pressure. (Timing: Angle adjustment - 2-3 seconds) [Pressure: Moderate]
-6. **Apply Hip Extension Pressure**: Slowly and progressively extend your hips forward while maintaining all other controls. This hip extension drives your body weight through the figure-four lock, increasing the compression of their calf into their hamstring while simultaneously creating pressure on the posterior knee joint. The pressure should be smooth and gradual - imagine pushing your hips forward toward their head in a controlled manner. In training, apply this pressure over 5-7 seconds minimum, constantly monitoring for the tap. The submission creates intense pressure rapidly, so controlled application is essential for safety. (Timing: Finish application - 5-7 seconds minimum in training) [Pressure: Maximum]
+1. **Isolate and Control the Target Leg**: From top position (commonly half guard top, knee shield pass, or leg entanglement), secure control of one of your opponent's legs. Cup the ankle or control the lower leg while using your weight to prevent them from extending the leg fully. Your chest and shoulder pressure should be driving into their upper body to prevent them from sitting up. This initial control is critical - if they can extend the leg or create distance, the entry becomes impossible. (Timing: Initial control phase - 2-3 seconds)
+2. **Step Over with Near Leg**: Take your leg that is closest to their head (near leg) and step it over their trapped leg, positioning your shin across their thigh just above the knee. This creates the first part of the figure-four configuration. Your foot should be positioned so you can hook it around your own ankle in the next step. Maintain downward pressure with your upper body throughout this transition to prevent them from recovering guard or extracting the leg. (Timing: Transition phase - 1-2 seconds)
+3. **Complete the Figure-Four Lock**: Bring your far leg (the one near their feet) underneath their trapped leg and hook your own ankle with your foot, completing a figure-four configuration around their leg. Your legs should form a tight lock with their leg trapped inside, their knee bent, and their heel pulled toward their own buttocks. Squeeze your knees together slightly to secure the lock. This figure-four creates the structural integrity needed for the submission and prevents the leg from escaping. (Timing: Lock completion - 2-3 seconds)
+4. **Establish Hip and Upper Body Position**: Position your hips close to their hip on the trapped leg side. Your chest should be driving into their upper body, keeping them flat on their back or preventing them from turning into you. Control their far arm or establish a crossface if needed to prevent rotation. Your body position should create a 'T' shape where your torso is perpendicular to theirs, with your hips loaded and ready to extend forward. This positioning is crucial - your hips must be in alignment to generate the compression force. (Timing: Position refinement - 2-3 seconds)
+5. **Create the Compression Angle**: Adjust the angle of their trapped leg so their heel is being pulled toward their own buttocks by your figure-four lock. Their knee should be bent at approximately 90-120 degrees. Use small adjustments with your legs to ensure their calf muscle is pressed firmly against their hamstring. The tighter you can make this calf-to-hamstring compression before extending your hips, the more effective the submission. In training, communicate with your partner at this stage to ensure proper positioning before applying pressure. (Timing: Angle adjustment - 2-3 seconds)
+6. **Apply Hip Extension Pressure**: Slowly and progressively extend your hips forward while maintaining all other controls. This hip extension drives your body weight through the figure-four lock, increasing the compression of their calf into their hamstring while simultaneously creating pressure on the posterior knee joint. The pressure should be smooth and gradual - imagine pushing your hips forward toward their head in a controlled manner. In training, apply this pressure over 5-7 seconds minimum, constantly monitoring for the tap. The submission creates intense pressure rapidly, so controlled application is essential for safety. (Timing: Finish application - 5-7 seconds minimum in training)
 
 
 </section>
@@ -258,7 +258,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive or jerking pressure to finish the submission [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking pressure to finish the submission
   - **Consequence**: Immediate severe knee injury or calf tear, potentially ending training partner's ability to train for months
   - **Correction**: Always apply smooth, progressive pressure over 5-7 seconds minimum in training. The submission is effective with controlled pressure - explosive force is never necessary and violates fundamental training safety principles
 - **Mistake**: Poor figure-four lock structure allowing the leg to slip out
@@ -270,10 +270,10 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 - **Mistake**: Incorrect hip positioning too far from opponent's hip
   - **Consequence**: Unable to generate proper finishing pressure, submission feels weak and ineffective, opponent easily defends
   - **Correction**: Position your hips close to their hip on the trapped leg side before extending forward. The closer your hips are to theirs, the more effective your hip extension will be in creating compression. Adjust position before applying pressure
-- **Mistake**: Attempting the submission without proper angle, leaving their knee not fully bent [High DANGER]
+- **Mistake**: Attempting the submission without proper angle, leaving their knee not fully bent
   - **Consequence**: Submission lacks effectiveness, opponent experiences pressure but not sufficient to finish, increased injury risk from improper mechanics
   - **Correction**: Before applying hip extension pressure, ensure their heel is pulled toward their buttocks and their calf is compressed against their hamstring. Use small adjustments with your figure-four to dial in the perfect angle. The setup is 80% of the effectiveness
-- **Mistake**: Continuing pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner taps or shows distress
   - **Consequence**: Severe injury to training partner, violation of academy culture, potential permanent damage to relationship and their training
   - **Correction**: Develop acute awareness of tap signals and immediately release all pressure the instant you feel or hear a tap. In training, err on the side of releasing too early rather than too late. Your partner's safety is always more important than finishing the submission
 - **Mistake**: Forcing the position when the angle or control is not optimal
@@ -338,43 +338,6 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Anatomy Study** (Week 1-2)
-- Focus: Study the submission mechanics, anatomy of knee compression, injury risks, and proper body positioning without any live application. Use instructional videos, diagrams, and theoretical discussion with qualified instructor.
-- Resistance: None
-- Safety: Understand all injury risks before ever attempting the technique. Learn to recognize the anatomical dangers and why controlled application is non-negotiable. Review multiple tap signal methods and release protocols.
-
-**Static Position Drilling** (Week 3-4)
-- Focus: Practice establishing the figure-four lock configuration and body positioning on a completely cooperative partner without applying any finishing pressure. Focus entirely on the mechanics of the lock, hip positioning, and upper body controls. Partner provides zero resistance and communicates throughout.
-- Resistance: Zero resistance
-- Safety: No finishing pressure applied whatsoever. Partner should feel the position and structure but never experience compression. Practice release protocols multiple times. Emphasize that speed is never used in this submission.
-
-**Controlled Pressure Introduction** (Week 5-8)
-- Focus: Begin applying minimal finishing pressure (20-30% of maximum) over extended time periods (10+ seconds). Constant communication with training partner about pressure levels. Partner should tap early and often as you both calibrate what different pressure levels feel like.
-- Resistance: Zero resistance
-- Safety: Establish personal maximum pressure levels that are safe for training. Practice stopping immediately at the first sign of discomfort. Never exceed 30% pressure during this phase. Both partners develop awareness of how quickly pressure builds.
-
-**Flow Rolling Integration** (Week 9-12)
-- Focus: Incorporate the submission into flow rolling at 40-50% intensity with trusted partners. Focus on entries from half guard top and knee shield passes. Apply finishing pressure at 30-40% maximum over 7-10 seconds. Partner resists position but not the submission itself once locked.
-- Resistance: Mild resistance
-- Safety: Clear agreement before training that this submission will be practiced. Both partners understand pressure limits. Practice tap-and-release protocols in realistic contexts. Immediately stop if position feels wrong or control is compromised.
-
-**Positional Sparring with Defensive Responses** (Month 4-6)
-- Focus: Controlled positional sparring from relevant starting positions (half guard top, knee shield scenarios) where both partners can attempt entries but apply limited finishing pressure (50-60% maximum). Defend the entry and position, but tap early once the lock is secure.
-- Resistance: Realistic resistance
-- Safety: Both partners agree on maximum pressure levels before starting. Tap early when locked - defending the finish is not the training goal. Focus remains on entry mechanics and position rather than finishing effectiveness. Review safety protocols before each session.
-
-**Advanced Application and Competition Preparation** (Month 6+)
-- Focus: Full resistance training with experienced partners who understand the risks. Apply realistic finishing pressure (70-80% maximum) with understanding that taps will come quickly. In competition, can use full pressure, but in training always maintain control and respect. Continued emphasis on smooth application even at higher intensity.
-- Resistance: Full resistance
-- Safety: Reserved for advanced practitioners only. Never practice at full speed or explosive pressure even at this level. Maintain clear communication and established trust with training partners. Regularly review injury risks and safety protocols. Immediate medical assessment if any unusual knee pain or calf pain occurs during or after training.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -423,6 +386,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

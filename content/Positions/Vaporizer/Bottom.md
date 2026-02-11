@@ -366,11 +366,11 @@ From Vaporizer, attempt Old School sweep. When partner defends, immediately tran
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 30% |
-| Intermediate | 65% | 60% | 45% |
-| Advanced     | 80% | 75% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 45-90 seconds before transition
 

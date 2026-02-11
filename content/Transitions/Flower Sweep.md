@@ -153,7 +153,7 @@ description: "Learn the Flower Sweep in BJJ. Master this fundamental closed guar
 The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -202,12 +202,12 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: From closed guard, grip the opponent's same-side sleeve with your same-side hand (right hand to their right sleeve). Your opposite hand controls their collar or wraps behind their head. Pull down to break their posture forward, bringing their chest close to yours. (Timing: Initial setup - take time to secure grips properly)
-2. **Open guard and create angle**: Uncross your ankles and place your opposite foot (left foot if sweeping right) on the mat near their same-side hip. Simultaneously pivot your hips approximately 30-45 degrees away from the sweeping side, creating an angle with your body. Your other leg remains hooked around their back. (Timing: Smooth transition - 1-2 seconds)
-3. **Insert butterfly hook**: Bring your same-side leg (right leg if sweeping right) underneath the opponent, inserting a butterfly hook with your instep against the inside of their thigh. Keep your knee pointing upward and outward to create maximum leverage. (Timing: Quick insertion while opponent is off-balance)
-4. **Initiate sweep motion**: Pull strongly with both grips while simultaneously lifting with your butterfly hook and pushing with your posted foot. The motion should be circular and diagonal - sweeping them over your shoulder on the sweeping side. Your hips should rotate and elevate off the mat. (Timing: Explosive but controlled - commit fully to the sweep)
-5. **Follow through with body rotation**: As the opponent begins to roll over, continue rotating your entire body in the sweeping direction. Your posted leg drives hard while your hooking leg maintains upward pressure. Keep pulling with your grips to prevent them from posting their hand. (Timing: Continuous motion without pause)
-6. **Complete to mount**: As you reach the top position, swing your hooking leg over their body to establish mount. Your grips transition to controlling their arms or establishing mount control grips. Ensure your weight settles into a stable mount position with knees tight to their sides. (Timing: Immediate follow-through - don't pause in half-mount)
+1. **Establish grips**: From closed guard, grip the opponent's same-side sleeve with your same-side hand (right hand to their right sleeve). Your opposite hand controls their collar or wraps behind their head. Pull down to break their posture forward, bringing their chest close to yours.
+2. **Open guard and create angle**: Uncross your ankles and place your opposite foot (left foot if sweeping right) on the mat near their same-side hip. Simultaneously pivot your hips approximately 30-45 degrees away from the sweeping side, creating an angle with your body. Your other leg remains hooked around their back.
+3. **Insert butterfly hook**: Bring your same-side leg (right leg if sweeping right) underneath the opponent, inserting a butterfly hook with your instep against the inside of their thigh. Keep your knee pointing upward and outward to create maximum leverage.
+4. **Initiate sweep motion**: Pull strongly with both grips while simultaneously lifting with your butterfly hook and pushing with your posted foot. The motion should be circular and diagonal - sweeping them over your shoulder on the sweeping side. Your hips should rotate and elevate off the mat.
+5. **Follow through with body rotation**: As the opponent begins to roll over, continue rotating your entire body in the sweeping direction. Your posted leg drives hard while your hooking leg maintains upward pressure. Keep pulling with your grips to prevent them from posting their hand.
+6. **Complete to mount**: As you reach the top position, swing your hooking leg over their body to establish mount. Your grips transition to controlling their arms or establishing mount control grips. Ensure your weight settles into a stable mount position with knees tight to their sides.
 
 
 </section>
@@ -253,23 +253,18 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Basic movement pattern and grip control
 Practice the sweep with a completely cooperative partner. Focus on getting the grips, creating the angle, and understanding the circular motion. Partner should allow the sweep to happen so you can feel the correct body mechanics. Repeat 20-30 times per training session.
-(Resistance: None)
 
 **Week 3-4: Light Resistance** - Timing and reaction to base
 Partner provides 30% resistance - they maintain some base but don't actively defend. Practice recognizing when they shift weight and timing your sweep to coincide with their movement. Begin working on grip breaks and re-establishing control. 15-20 repetitions with brief discussion after each attempt.
-(Resistance: Light)
 
 **Week 5-8: Active Defense** - Dealing with counters and chaining attacks
 Partner provides 60% resistance - they post hands, sprawl, or grip your belt. Practice your counter-responses: attacking posted arms, switching directions, transitioning to other attacks. Work on the Hip Bump to Flower Sweep combination. Include 5-minute positional sparring rounds starting from closed guard.
-(Resistance: Medium)
 
 **Week 9-12: Competition Application** - Full resistance and live integration
 Practice against full resistance in specific training and open sparring. Partner actively defends all sweeps. Focus on setting up the Flower Sweep with grips, breaking posture, and creating reactions. Record rolls and analyze successful vs. unsuccessful attempts. Begin recognizing the specific positions and moments when the sweep is highest percentage.
-(Resistance: Full)
 
 **Month 4+: Refinement and Variation** - Advanced entries and combination attacks
 Work on entering the Flower Sweep from different guard positions and grips. Practice no-gi variations. Develop your own timing preferences and setups. Work the sweep against different body types and defensive styles. Focus on the smallest details: grip adjustments, hip angles, and explosive timing.
-(Resistance: Full)
 
 
 

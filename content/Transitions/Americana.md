@@ -157,7 +157,7 @@ The submission mechanics rely on creating a figure-four grip configuration that 
 The Americana serves dual purposes in a complete grappling game: as a direct finishing mechanism when the opponent's arm becomes available, and as a gateway technique that creates defensive reactions opening paths to other submissions. When opponents defend by straightening their arm, they expose themselves to armbars; when they turn into the lock, back takes become available. This makes the Americana a cornerstone of systematic top control offense.
 
 **From Position**: [[Side Control]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The Americana serves dual purposes in a complete grappling game: as a direct fin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Top Control**: Secure dominant side control with your chest driving across the opponent's sternum. Your head should be on the far side with cross-face pressure, and your hips should be low and tight against their body. Distribute approximately 70% of your weight on their chest. (Timing: Hold for 2-3 seconds to confirm stability)
-2. **Bait the Arm**: Increase pressure or threaten mount transition to force the opponent to create defensive frames. When their near arm extends to push your shoulder or hip, this is your opportunity to capture it. Alternatively, slide your near hand under their elbow if their arm is already positioned near their body. (Timing: React immediately when arm extends or moves)
-3. **Secure Figure-Four Grip**: Grip the opponent's wrist with your near-side hand using a palm-to-palm configuration, thumb on the back of their hand. Bring your far-side arm over their arm and grip your own wrist, creating the figure-four. Your forearm should slide under their elbow, capturing it securely between your arms. (Timing: Complete grip connection within 1-2 seconds)
-4. **Create 90-Degree Configuration**: Walk your connected grip toward the opponent's head, bringing their elbow in line with their shoulder while keeping their wrist pinned near their ribs. This creates the critical right angle between their upper arm and forearm. The elbow must stay close to their body and in front of their shoulder line. (Timing: Adjust position over 2-3 seconds)
-5. **Pin the Shoulder**: Drive your chest weight forward and down onto their shoulder, pinning their shoulder blade firmly to the mat. This creates the fixed point necessary for the lever system. Your weight should prevent them from following their arm during rotation. (Timing: Continuous pressure throughout finish)
-6. **Apply Rotational Pressure**: Keeping the wrist position stable near their hip, use your figure-four grip to drive their elbow toward the mat while rotating their hand toward their head. Apply smooth, progressive pressure over 3-5 seconds minimum. The submission attacks the shoulder through external rotation - stop immediately upon tap. (Timing: 3-5 seconds from initial pressure to tap)
+1. **Establish Top Control**: Secure dominant side control with your chest driving across the opponent's sternum. Your head should be on the far side with cross-face pressure, and your hips should be low and tight against their body. Distribute approximately 70% of your weight on their chest.
+2. **Bait the Arm**: Increase pressure or threaten mount transition to force the opponent to create defensive frames. When their near arm extends to push your shoulder or hip, this is your opportunity to capture it. Alternatively, slide your near hand under their elbow if their arm is already positioned near their body.
+3. **Secure Figure-Four Grip**: Grip the opponent's wrist with your near-side hand using a palm-to-palm configuration, thumb on the back of their hand. Bring your far-side arm over their arm and grip your own wrist, creating the figure-four. Your forearm should slide under their elbow, capturing it securely between your arms.
+4. **Create 90-Degree Configuration**: Walk your connected grip toward the opponent's head, bringing their elbow in line with their shoulder while keeping their wrist pinned near their ribs. This creates the critical right angle between their upper arm and forearm. The elbow must stay close to their body and in front of their shoulder line.
+5. **Pin the Shoulder**: Drive your chest weight forward and down onto their shoulder, pinning their shoulder blade firmly to the mat. This creates the fixed point necessary for the lever system. Your weight should prevent them from following their arm during rotation.
+6. **Apply Rotational Pressure**: Keeping the wrist position stable near their hip, use your figure-four grip to drive their elbow toward the mat while rotating their hand toward their head. Apply smooth, progressive pressure over 3-5 seconds minimum. The submission attacks the shoulder through external rotation - stop immediately upon tap.
 
 
 </section>
@@ -254,19 +254,15 @@ The Americana serves dual purposes in a complete grappling game: as a direct fin
 ## Training Progressions
 **Week 1-2** - Fundamental Mechanics
 Learn proper grip configuration, arm positioning, and the 90-degree angle requirement. Practice establishing the figure-four grip repeatedly without resistance. Partner remains completely still while you understand the leverage points and body mechanics.
-(Resistance: None)
 
 **Week 3-4** - Position Integration
 Combine the Americana with side control and mount maintenance. Practice the sequence from establishing position through grip setup. Begin applying very light rotational pressure (20-30%) and practice immediate release upon tap signals.
-(Resistance: Light)
 
 **Week 5-8** - Defense Recognition
 Partner introduces common defensive reactions: grabbing belt, straightening arm, attempting to roll. Practice adjustments and counters to each defense while maintaining control. Increase finishing pressure gradually to 50-60%.
-(Resistance: Medium)
 
 **Week 9+** - Live Application
 Integrate Americana into positional sparring from side control and mount. Chain with armbars, kimuras, and positional advances based on defensive reactions. Develop personal setups and timing while maintaining 3-5 second minimum application speed.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ The technique requires precise timing and understanding of when the opponent's f
 Strategically, the Counter Leg Attack should be viewed as a last-resort option when standard escapes have failed or when you possess superior leg lock finishing ability compared to your opponent. The transition to 50-50 Guard equalizes the position, while successful entry to your own Ashi Garami can actually reverse the positional hierarchy. Understanding the timing windows, proper leg threading mechanics, and heel protection throughout the counter-attack sequence is essential for success.
 
 **From Position**: [[Inside Sankaku/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect trapped heel**: Hide your heel by pressing it tightly against your own hip, turning toes inward and knee outward. Use your near-side hand to grab your own foot/ankle to reinforce protection. This defensive posture must be maintained throughout. (Timing: Immediately upon recognizing Inside Sankaku establishment)
-2. **Identify free leg target**: Locate opponent's leg that is not part of the figure-four entanglement structure. This is typically the leg on the outside of the configuration. Assess its accessibility and defensive positioning before committing to counter-attack. (Timing: While defending, 1-2 seconds after establishing heel protection)
-3. **Create hip angle**: Shift your hips toward the opponent's free leg to create the angle necessary for entry. Use your free leg to push off opponent's hip or the mat to generate this lateral movement while keeping your trapped leg position stable. (Timing: When opponent begins reaching for submission grips)
-4. **Thread free leg**: Insert your free leg between opponent's legs, threading it around their free leg to begin your own entanglement. Hook your instep behind their knee or thigh depending on accessibility. Your leg should enter from the inside, creating an inside hook position. (Timing: Immediately after creating angle, before opponent can adjust)
-5. **Establish leg configuration**: Cross your trapped leg over your free leg to complete your own figure-four configuration around opponent's free leg. This creates mutual entanglement and begins to neutralize their positional advantage. Maintain heel protection on original trapped leg throughout. (Timing: 0.5-1 second after initial thread)
-6. **Secure 50-50 or Ashi**: Complete the transition by either accepting 50-50 Guard position where both practitioners have equal leg entanglement, or if opponent releases to defend, immediately advance to Ashi Garami on their leg. Establish control grips on their ankle once position is secured. (Timing: 1-2 seconds to complete transition and establish new position)
+1. **Protect trapped heel**: Hide your heel by pressing it tightly against your own hip, turning toes inward and knee outward. Use your near-side hand to grab your own foot/ankle to reinforce protection. This defensive posture must be maintained throughout.
+2. **Identify free leg target**: Locate opponent's leg that is not part of the figure-four entanglement structure. This is typically the leg on the outside of the configuration. Assess its accessibility and defensive positioning before committing to counter-attack.
+3. **Create hip angle**: Shift your hips toward the opponent's free leg to create the angle necessary for entry. Use your free leg to push off opponent's hip or the mat to generate this lateral movement while keeping your trapped leg position stable.
+4. **Thread free leg**: Insert your free leg between opponent's legs, threading it around their free leg to begin your own entanglement. Hook your instep behind their knee or thigh depending on accessibility. Your leg should enter from the inside, creating an inside hook position.
+5. **Establish leg configuration**: Cross your trapped leg over your free leg to complete your own figure-four configuration around opponent's free leg. This creates mutual entanglement and begins to neutralize their positional advantage. Maintain heel protection on original trapped leg throughout.
+6. **Secure 50-50 or Ashi**: Complete the transition by either accepting 50-50 Guard position where both practitioners have equal leg entanglement, or if opponent releases to defend, immediately advance to Ashi Garami on their leg. Establish control grips on their ankle once position is secured.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, the Counter Leg Attack should be viewed as a last-resort option w
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Learn leg threading mechanics in isolation. Partner holds static Inside Sankaku while you practice identifying free leg, creating angle, and threading without time pressure. Focus on maintaining heel protection throughout movement.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner actively threatens heel hook at slow pace. Practice recognizing safe windows for counter-entry when they shift to submission grips. Learn to abort and re-protect if timing window closes.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Integrate counter-attack with standard escapes. Use escape attempts to create reactions that open counter-attack opportunities. Practice decision-making between escape, counter-attack, and defensive maintenance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring from Inside Sankaku bottom. Execute counter-attack against fully resisting opponents. Develop real-time assessment of when counter-attack is viable versus when pure defense or tap is appropriate.
-(Resistance: Full)
 
 
 

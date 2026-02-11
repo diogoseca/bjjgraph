@@ -157,7 +157,7 @@ The position's effectiveness stems from the concentrated pressure of your entire
 From a strategic perspective, Knee on Belly functions as a pressure multiplier that accelerates the pace of the match. The discomfort forces the bottom player to react rather than methodically defend, creating predictable movement patterns you can exploit. Common defensive reactions - pushing the knee, turning away, bridging - each open specific submission or positional advancement opportunities. Understanding this action-reaction dynamic transforms Knee on Belly from a static scoring position into an active hunting ground for finishing the match.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -203,12 +203,12 @@ From a strategic perspective, Knee on Belly functions as a pressure multiplier t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure grips**: From Side Control, establish your primary control grip - far lapel grip with your nearside hand or collar tie behind the head. Your far hand posts on the mat or controls the near hip to prevent bridging and turning motions. (Timing: Before any weight shift)
-2. **Hip elevation**: Begin shifting your hips upward while maintaining chest connection. Your weight transfers from distributed chest pressure toward your posting hand and the knee that will establish position. This is the vulnerable moment - move decisively. (Timing: 1-2 seconds, continuous motion)
-3. **Knee placement**: Drive your nearside knee across the opponent's midsection, placing the kneecap into the solar plexus or lower rib area. The shin crosses the body at approximately 45 degrees. Point the toes to create a sharp pressure point with the bony knee surface. (Timing: Immediate after hip elevation)
-4. **Base establishment**: Plant your far foot wide and flat on the mat, toes pointing outward at 45 degrees from the opponent's body. This foot provides your primary base and balance point. The distance should allow you to drive pressure downward while maintaining mobility. (Timing: Simultaneous with knee placement)
-5. **Weight distribution**: Drop your hips and drive bodyweight through the posted knee into the opponent's torso. Your weight should feel like it's drilling downward through the knee. Shoulders remain above hips, not leaning forward which would compromise balance. (Timing: Immediately upon base establishment)
-6. **Grip adjustment**: Finalize your control grips based on opponent's initial reaction. If they push the knee, threaten armbar. If they turn away, follow to back take. If they remain static, escalate pressure and threaten chokes. Your grips should facilitate your planned attack sequence. (Timing: Within 2-3 seconds of establishing position)
+1. **Secure grips**: From Side Control, establish your primary control grip - far lapel grip with your nearside hand or collar tie behind the head. Your far hand posts on the mat or controls the near hip to prevent bridging and turning motions.
+2. **Hip elevation**: Begin shifting your hips upward while maintaining chest connection. Your weight transfers from distributed chest pressure toward your posting hand and the knee that will establish position. This is the vulnerable moment - move decisively.
+3. **Knee placement**: Drive your nearside knee across the opponent's midsection, placing the kneecap into the solar plexus or lower rib area. The shin crosses the body at approximately 45 degrees. Point the toes to create a sharp pressure point with the bony knee surface.
+4. **Base establishment**: Plant your far foot wide and flat on the mat, toes pointing outward at 45 degrees from the opponent's body. This foot provides your primary base and balance point. The distance should allow you to drive pressure downward while maintaining mobility.
+5. **Weight distribution**: Drop your hips and drive bodyweight through the posted knee into the opponent's torso. Your weight should feel like it's drilling downward through the knee. Shoulders remain above hips, not leaning forward which would compromise balance.
+6. **Grip adjustment**: Finalize your control grips based on opponent's initial reaction. If they push the knee, threaten armbar. If they turn away, follow to back take. If they remain static, escalate pressure and threaten chokes. Your grips should facilitate your planned attack sequence.
 
 
 </section>
@@ -251,19 +251,15 @@ From a strategic perspective, Knee on Belly functions as a pressure multiplier t
 ## Training Progressions
 **Week 1-2** - Position mechanics
 Practice the transition from Side Control with a compliant partner, focusing on proper knee placement, foot positioning, and weight distribution. Drill entering and holding the position for 10-second intervals before returning to Side Control.
-(Resistance: None)
 
 **Week 3-4** - Balance and adjustment
 Partner provides light escape attempts (bridging, shrimping, pushing knee). Focus on making micro-adjustments to maintain position while preserving balance. Develop sensitivity to weight shifts and timing of adjustments.
-(Resistance: Light)
 
 **Week 5-6** - Submission chains
 Add submission attacks when partner defends. Practice armbar when they push the knee, baseball bat choke when they turn away, and mount transition when they bridge. Chain between Side Control, Knee on Belly, and attacks fluidly.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Implement Knee on Belly in positional sparring starting from Side Control. Focus on recognizing opportunities to transition and executing submission chains under full resistance. Track success rate and adjust technique based on failures.
-(Resistance: Full)
 
 
 

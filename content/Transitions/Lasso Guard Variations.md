@@ -159,7 +159,7 @@ description: "Master Lasso Guard variations in BJJ. Learn spider lasso, inverted
 The Lasso Guard system represents one of Brazilian Jiu-Jitsu's most versatile open guard frameworks, offering practitioners a wide array of tactical variations that blend control, sweeps, and submission attacks. At its core, the lasso guard uses a fundamental leg-threading mechanism where one leg wraps around the opponent's arm, creating a powerful control point that disrupts posture and limits mobility. This foundational position branches into multiple variations, each with distinct strategic applications and technical nuances. Understanding how to transition between lasso variations allows practitioners to maintain offensive initiative while adapting to different opponent reactions and body types. The system's effectiveness lies in its ability to create persistent off-balancing opportunities while maintaining a strong defensive structure. Advanced practitioners learn to chain lasso variations together, creating multi-layered attacking sequences that force opponents into defensive dilemmas where every escape attempt opens new offensive opportunities.
 
 **From Position**: [[Lasso Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -209,13 +209,13 @@ The Lasso Guard system represents one of Brazilian Jiu-Jitsu's most versatile op
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish base lasso guard configuration**: From open guard, thread your right leg behind opponent's left arm, bringing your shin across their back while gripping their left sleeve with your left hand. Your right foot hooks around their shoulder or upper arm, creating the fundamental lasso control point. Maintain tension by pulling their sleeve toward you while pushing your foot away, creating opposing forces that disrupt their posture. (Timing: Initial guard establishment)
-2. **Add spider lasso variation elements**: Place your left foot on opponent's right bicep or hip, extending the leg to create distance and prevent forward pressure. This spider-lasso hybrid configuration provides maximum control and off-balancing potential. Grip their right sleeve with your right hand, creating a two-sleeve control system. The combination of lasso hook and spider foot creates a powerful steering mechanism for directing opponent's movement. (Timing: When opponent maintains upright posture)
-3. **Transition to inverted lasso when needed**: When opponent attempts to clear the lasso by stepping back or standing tall, invert by rolling onto your shoulders while maintaining the lasso hook. Your free leg posts on the mat or wraps around opponent's leg for additional control. This inversion creates new sweeping angles and prevents opponent from establishing distance. Maintain constant tension on the lasso sleeve throughout the inversion process. (Timing: Response to opponent creating distance)
-4. **Apply Russian lasso configuration**: For increased control and submission entries, transition to Russian lasso by pulling opponent's lassoed arm across their body while threading your lasso leg deeper behind their shoulder. Your foot hooks over their opposite shoulder, creating a diagonal control line. This configuration severely limits their mobility and opens triangle and omoplata attacks. Grip their collar with your free hand to break their posture forward. (Timing: When seeking maximum control for submissions)
-5. **Implement tactical grip variations**: Adapt your secondary grips based on opponent's defensive reactions. Switch between collar grips (for posture breaking), opposite sleeve grips (for bilateral control), and pants grips (for sweep mechanics). Each grip configuration creates different attacking opportunities while maintaining the core lasso control. Monitor opponent's weight distribution to select optimal grip combinations. (Timing: Continuous adaptation throughout engagement)
-6. **Chain variations into attacking sequences**: Transition fluidly between lasso variations to create offensive momentum. When opponent defends the spider-lasso sweep, transition to inverted lasso for back exposure. When they counter the inversion, switch to Russian lasso for submission attacks. This variation chaining prevents opponent from establishing stable defensive positioning and maintains constant pressure. Each variation transition creates brief moments of instability that can be exploited for sweeps or submissions. (Timing: Continuous flow based on opponent reactions)
-7. **Maintain retention through variation cycling**: When guard passing pressure increases, cycle through lasso variations to create recovery opportunities. Use spider-lasso to create distance, inverted lasso to off-balance and create scrambles, and Russian lasso to lock down position when securing controls. This variation-based retention system prevents opponent from establishing passing momentum while creating counter-attacking opportunities. Always maintain at least one strong control point while transitioning between configurations. (Timing: Defensive retention when under passing pressure)
+1. **Establish base lasso guard configuration**: From open guard, thread your right leg behind opponent's left arm, bringing your shin across their back while gripping their left sleeve with your left hand. Your right foot hooks around their shoulder or upper arm, creating the fundamental lasso control point. Maintain tension by pulling their sleeve toward you while pushing your foot away, creating opposing forces that disrupt their posture.
+2. **Add spider lasso variation elements**: Place your left foot on opponent's right bicep or hip, extending the leg to create distance and prevent forward pressure. This spider-lasso hybrid configuration provides maximum control and off-balancing potential. Grip their right sleeve with your right hand, creating a two-sleeve control system. The combination of lasso hook and spider foot creates a powerful steering mechanism for directing opponent's movement.
+3. **Transition to inverted lasso when needed**: When opponent attempts to clear the lasso by stepping back or standing tall, invert by rolling onto your shoulders while maintaining the lasso hook. Your free leg posts on the mat or wraps around opponent's leg for additional control. This inversion creates new sweeping angles and prevents opponent from establishing distance. Maintain constant tension on the lasso sleeve throughout the inversion process.
+4. **Apply Russian lasso configuration**: For increased control and submission entries, transition to Russian lasso by pulling opponent's lassoed arm across their body while threading your lasso leg deeper behind their shoulder. Your foot hooks over their opposite shoulder, creating a diagonal control line. This configuration severely limits their mobility and opens triangle and omoplata attacks. Grip their collar with your free hand to break their posture forward.
+5. **Implement tactical grip variations**: Adapt your secondary grips based on opponent's defensive reactions. Switch between collar grips (for posture breaking), opposite sleeve grips (for bilateral control), and pants grips (for sweep mechanics). Each grip configuration creates different attacking opportunities while maintaining the core lasso control. Monitor opponent's weight distribution to select optimal grip combinations.
+6. **Chain variations into attacking sequences**: Transition fluidly between lasso variations to create offensive momentum. When opponent defends the spider-lasso sweep, transition to inverted lasso for back exposure. When they counter the inversion, switch to Russian lasso for submission attacks. This variation chaining prevents opponent from establishing stable defensive positioning and maintains constant pressure. Each variation transition creates brief moments of instability that can be exploited for sweeps or submissions.
+7. **Maintain retention through variation cycling**: When guard passing pressure increases, cycle through lasso variations to create recovery opportunities. Use spider-lasso to create distance, inverted lasso to off-balance and create scrambles, and Russian lasso to lock down position when securing controls. This variation-based retention system prevents opponent from establishing passing momentum while creating counter-attacking opportunities. Always maintain at least one strong control point while transitioning between configurations.
 
 
 </section>
@@ -261,27 +261,21 @@ The Lasso Guard system represents one of Brazilian Jiu-Jitsu's most versatile op
 ## Training Progressions
 **Week 1-2: Foundation** - Basic lasso mechanics and single variation mastery
 Begin with standard lasso guard establishment, focusing on proper leg threading technique and sleeve grip fundamentals. Practice maintaining lasso tension against partner who remains relatively static. Work spider-lasso hybrid configuration with emphasis on coordinating both legs and both grips. Drill basic lasso sweep against light resistance. Goal is developing muscle memory for lasso hook creation and tension maintenance.
-(Resistance: Light)
 
 **Week 3-4: Variation Introduction** - Learning inverted and Russian lasso configurations
 Add inverted lasso technique with controlled partner who steps back on command. Practice Russian lasso entry from standard lasso position. Drill transitions between standard, spider-lasso, and inverted variations without opponent interference. Begin recognizing which variation suits different opponent postures. Incorporate basic submission entries from Russian lasso (triangle and omoplata setups).
-(Resistance: Light)
 
 **Week 5-8: Integration and Chaining** - Flowing between variations based on opponent reactions
 Practice variation chains against moderate resistance: spider-lasso to inverted to Russian lasso sequences. Partner provides specific defenses (ankle grab, distance creation, pressure) and you respond with appropriate variation changes. Drill sweep entries from each variation. Add secondary grip fighting while maintaining lasso control. Begin positional sparring from lasso guard with variation requirement (must use at least two different configurations per round).
-(Resistance: Medium)
 
 **Week 9-12: Tactical Application** - Variation selection based on opponent type and strategy
 Spar from lasso guard against different opponent styles: pressure passers, distance managers, and scramble-based players. Practice selecting optimal lasso variation for each opponent type. Develop personal preference hierarchy while maintaining ability to use all variations. Integrate submission attacks and sweep combinations specific to each variation. Add counters to common lasso defenses. Begin using lasso variations in live rolling from open guard scenarios.
-(Resistance: Medium)
 
 **Week 13+: Advanced Development** - Competition application and high-level variation systems
 Full-resistance positional sparring from lasso guard. Develop personal lasso variation system with primary and secondary options. Practice against skilled opponents who know lasso guard well. Refine timing for variation changes based on subtle opponent weight shifts. Integrate lasso variations into broader open guard system (connections with De La Riva, X-guard, spider guard). Film and analyze lasso guard usage for technical refinement.
-(Resistance: Full)
 
 **Ongoing Mastery** - System refinement and adaptation to evolving meta-game
 Continue testing lasso variations against diverse opponents and current passing meta. Develop answers to modern lasso counters. Study high-level competition footage of lasso guard specialists. Experiment with hybrid variations and personal innovations. Teach lasso variations to others to deepen understanding. Maintain technical sharpness through regular drilling of fundamental mechanics even as advanced practitioner.
-(Resistance: Full)
 
 
 
@@ -356,7 +350,7 @@ Lasso guard variations function as a comprehensive open guard subsystem that con
 
 - [[Lasso Guard Sweeps]] - Primary offensive techniques from all lasso variations
 - [[Spider Guard Variations]] - Closely related guard system with overlapping mechanics
-- [[De La Riva Sweep Variations]] - Common transition target from lasso configurations
+- [[De La Riva Sweep]] - Common transition target from lasso configurations
 - [[Triangle from Spider Guard]] - High-percentage submission from spider-lasso hybrid
 - [[Omoplata from Guard]] - Primary submission entry from Russian lasso
 - [[Inverted Guard]] - Related inverted position with similar mechanics

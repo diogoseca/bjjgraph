@@ -21,37 +21,37 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke Front",
-      "text": "From this position, attempt Triangle Choke Front. This technique is attempted in 35% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke Front. This technique is attempted in 29% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Armbar",
-      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 22% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, attempt Triangle to Back. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,19 @@ The submission chain available from triangle control represents one of the most 
 
 ## Available Escapes
 
-### [[Triangle Choke Front]] (35% of attempts)
+### [[Triangle Choke Front]] (29% of attempts)
 
-### [[Triangle to Armbar]] (25% of attempts)
+### [[Triangle to Armbar]] (22% of attempts)
 
-### [[Triangle to Omoplata]] (15% of attempts)
+### [[Triangle to Omoplata]] (13% of attempts)
 
-### [[Triangle to Back]] (10% of attempts)
+### [[Triangle to Back]] (9% of attempts)
 
-### [[Mounted Triangle]] (8% of attempts)
+### [[Mounted Triangle]] (7% of attempts)
 
-### [[Closed Guard to Omoplata]] (7% of attempts)
+### [[Closed Guard to Omoplata]] (6% of attempts)
+
+### [[Inverted Triangle]] (14% of attempts)
 
 
 
@@ -336,11 +338,11 @@ Flow drill starting from triangle control: if partner defends choke transition t
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 40% |
-| Intermediate | 70% | 65% | 60% |
-| Advanced     | 85% | 80% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 68% |
 
 **Average Time in Position**: 30-90 seconds
 

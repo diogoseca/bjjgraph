@@ -14,11 +14,6 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Back Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Armbar from Back with Legs is an advanced finishing technique that leverages the superior control position of back mount to isolate and hyperextend the opponent's elbow joint. This variation differs from standard armbar attacks by maintaining leg control throughout the submission, using the legs to trap the opponent's upper body while transitioning the arm across your hips. The technique exemplifies the principle of maintaining dominant control even during submission transitions, as you never fully relinquish the back position until the armbar is secured. This submission is particularly effective against opponents who defend the rear naked choke by keeping their chin tucked and arms tight, as it punishes defensive hand fighting by converting grip breaks into submission opportunities. The leg configuration creates a powerful fulcrum that makes escape extremely difficult once properly applied, though the transition requires precise timing and body positioning to prevent rolling escapes. Success depends on understanding how to use your legs not just for control, but as active submission tools that guide the opponent's body into the finishing position.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Secure the target arm from back control",
       "description": "From back control with seatbelt grip, identify which arm you will attack (typically the arm they are using to fight your choking hand). Use your choking-side hand to grab their wrist while maintaining your other hook and upper body control. Pull their wrist across their body toward your hip-side, breaking their defensive frame and isolating the limb from their torso.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 2,
       "action": "Transition your hips and establish leg over face",
       "description": "While controlling their wrist with both hands, remove your top hook and swing that leg over their face and shoulder, placing your calf/shin across their face and throat area. This leg acts as a barrier to prevent them from turning into you. Keep your bottom hook in place initially to maintain back exposure and prevent them from turning away. Your hips should begin to pivot perpendicular to their body.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Complete hip rotation and establish armbar configuration",
       "description": "Rotate your hips fully perpendicular to their body while maintaining wrist control with both hands. Remove your bottom hook and bring that leg over their torso, establishing a figure-four or tight leg configuration around their upper body. Their arm should now be extended across your hips with your legs controlling their head and upper body. Ensure their thumb points upward (pronated position) for maximum elbow vulnerability.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Secure wrist control and eliminate space",
       "description": "Grip their wrist with both hands in a strong configuration (one hand on wrist, one hand reinforcing or gripping their hand directly). Pull their wrist tight to your chest to eliminate any space between their arm and your body. Squeeze your knees together tightly, trapping their shoulder between your thighs. Your legs should be active, with your top leg pressing down on their face while your bottom leg hooks under their far shoulder.",
-      "timing": "1 second",
-      "pressure_level": "Firm"
+      "timing": "1 second"
     },
     {
       "step_number": 5,
       "action": "Create proper alignment and angle",
       "description": "Ensure their arm is positioned correctly across your hips with their elbow aligned over your hip bones (the fulcrum point). Your body should form a slight angle, with your shoulders turned toward their hand and your hips elevated. Adjust your leg position so your calf is tight across their face, making it difficult for them to turn into you or look at their trapped arm. The tighter your legs, the more control you maintain.",
-      "timing": "1 second",
-      "pressure_level": "Firm"
+      "timing": "1 second"
     },
     {
       "step_number": 6,
       "action": "Apply finishing pressure",
       "description": "Maintaining tight wrist control pulled to your chest, extend your hips upward toward their shoulder while keeping your knees squeezed together. The extension should be slow and controlled, creating pressure on their elbow joint by using your hips as a lever against their hyperextended arm. Keep their thumb pointing up throughout. Apply pressure progressively until they tap, never explosively. Your legs remain active, controlling their upper body and preventing rolling escapes.",
-      "timing": "2-3 seconds progressive pressure",
-      "pressure_level": "Maximum"
+      "timing": "2-3 seconds progressive pressure"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,50 +149,42 @@
     {
       "error": "Releasing back control too early before establishing leg configuration",
       "consequence": "Opponent can roll forward or turn into you, completely escaping the submission attempt and potentially reversing position",
-      "correction": "Maintain at least one hook in place until your leg is over their face and you have secure wrist control. The transition should be smooth but methodical, never rushed. Think of your legs as transferring control, not abandoning it.",
-      "danger_level": "Low"
+      "correction": "Maintain at least one hook in place until your leg is over their face and you have secure wrist control. The transition should be smooth but methodical, never rushed. Think of your legs as transferring control, not abandoning it."
     },
     {
       "error": "Failing to control the wrist with both hands during transition",
       "consequence": "Opponent can retract their arm or establish defensive grips, completely nullifying the submission attempt",
-      "correction": "From the moment you isolate their arm, both hands should be controlling the wrist or hand. Never release this grip during the transition. Your hands are the anchor point while your body repositions.",
-      "danger_level": "Medium"
+      "correction": "From the moment you isolate their arm, both hands should be controlling the wrist or hand. Never release this grip during the transition. Your hands are the anchor point while your body repositions."
     },
     {
       "error": "Not squeezing knees together, leaving space around their shoulder",
       "consequence": "Opponent can extract their arm by pulling their elbow back, or can turn into you more easily",
-      "correction": "Actively squeeze your knees together as if trying to touch them. This eliminates space and locks their shoulder in place. The squeeze should be maintained throughout the entire finishing sequence.",
-      "danger_level": "Low"
+      "correction": "Actively squeeze your knees together as if trying to touch them. This eliminates space and locks their shoulder in place. The squeeze should be maintained throughout the entire finishing sequence."
     },
     {
       "error": "Allowing their thumb to point downward instead of upward",
       "consequence": "Reduces submission effectiveness dramatically and allows the hitchhiker escape, potentially causing wrist injury instead of elbow pressure",
-      "correction": "Constantly monitor thumb position. Their thumb should point toward their head (supinated position). Adjust your wrist grips to maintain this position throughout the submission.",
-      "danger_level": "Medium"
+      "correction": "Constantly monitor thumb position. Their thumb should point toward their head (supinated position). Adjust your wrist grips to maintain this position throughout the submission."
     },
     {
       "error": "Explosive or jerking hip extension when applying finishing pressure",
       "consequence": "SEVERE elbow dislocation or ligament rupture before opponent can tap, causing permanent injury",
-      "correction": "ALWAYS apply hip extension pressure gradually over 3-5 seconds minimum. The submission should feel like a steadily increasing force, not a sudden snap. Give your partner time to recognize the danger and tap. In training, never exceed 70% of maximum pressure.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply hip extension pressure gradually over 3-5 seconds minimum. The submission should feel like a steadily increasing force, not a sudden snap. Give your partner time to recognize the danger and tap. In training, never exceed 70% of maximum pressure."
     },
     {
       "error": "Positioning their elbow too high on your torso instead of over hip bones",
       "consequence": "Reduces leverage significantly and makes the submission feel loose, allowing easier escapes",
-      "correction": "Ensure their elbow joint is positioned directly over your hip bones, which serve as the fulcrum point. Your hips should be slightly elevated, with your shoulders lower than your hips. This creates the optimal lever geometry.",
-      "danger_level": "Low"
+      "correction": "Ensure their elbow joint is positioned directly over your hip bones, which serve as the fulcrum point. Your hips should be slightly elevated, with your shoulders lower than your hips. This creates the optimal lever geometry."
     },
     {
       "error": "Letting your top leg become passive instead of maintaining pressure across their face",
       "consequence": "Opponent can turn into you, stack your position, or reduce the effectiveness of your hip extension",
-      "correction": "Keep your top leg active and heavy across their face throughout the submission. This leg should be pushing their head away and down, preventing them from looking at their trapped arm or turning into you. Think of it as a steering wheel controlling their upper body direction.",
-      "danger_level": "Medium"
+      "correction": "Keep your top leg active and heavy across their face throughout the submission. This leg should be pushing their head away and down, preventing them from looking at their trapped arm or turning into you. Think of it as a steering wheel controlling their upper body direction."
     },
     {
       "error": "Attempting the submission when opponent has strong defensive posture",
       "consequence": "Low success rate and wasted energy, potentially losing back control entirely during failed attempt",
-      "correction": "Only attempt this submission when you have broken their defensive posture and can isolate an arm. If they are maintaining strong defensive frames, work to break down their posture first or choose a different attack. Patience in attack selection is crucial.",
-      "danger_level": "Low"
+      "correction": "Only attempt this submission when you have broken their defensive posture and can isolate an arm. If they are maintaining strong defensive frames, work to break down their posture first or choose a different attack. Patience in attack selection is crucial."
     }
   ],
   "variations_and_setups": [
@@ -290,50 +271,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Movement Pattern Only)",
-      "timeframe": "Week 1-2",
-      "focus": "Learn the transition mechanics from back control to armbar position without any submission pressure. Practice swinging your leg over, establishing wrist control, and positioning the arm across your hips. Partner provides zero resistance and keeps their arm completely relaxed. Focus on smooth, controlled movements and proper body positioning.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand that this is an elbow-attacking submission with high injury potential. Never apply any pressure to the elbow during this phase. Practice the release protocol multiple times per session to build muscle memory. Discuss tap signals with your partner before each repetition."
-    },
-    {
-      "phase": "Slow Technical Refinement with Minimal Pressure",
-      "timeframe": "Week 3-4",
-      "focus": "Begin applying 20-30% submission pressure to understand the feeling of proper positioning and leverage. Partner maintains passive position but provides enough resistance to help you understand if your position is correct. Work on fine details like thumb position, knee squeeze, and hip alignment. Each repetition should take 10-15 seconds minimum.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Application time must be 5-7 seconds minimum from catch to tap at this stage. Partner should tap early and often to practice safety protocols. Never exceed 30% of maximum pressure. Begin each session by reviewing injury risks and proper tap signals. If partner doesn't tap, assume your position is wrong, not that more pressure is needed."
-    },
-    {
-      "phase": "Controlled Drilling with Common Defenses",
-      "timeframe": "Week 5-8",
-      "focus": "Partner introduces basic defenses like pulling their elbow back or attempting to grip their gi. Practice maintaining control and adjusting your position to overcome these defenses. Increase pressure to 40-50% maximum while maintaining slow, controlled application. Work on transitioning between armbar and other back attacks when defenses are successful.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Application speed can increase slightly but must still be 4-5 seconds minimum. Focus on recognizing when position is compromised versus when submission is secure. Never try to force a submission from a bad position with more pressure - reset and improve your position first. Partner should tap as soon as they feel elbow pressure beyond light discomfort."
-    },
-    {
-      "phase": "Live Situation Training from Back Control",
-      "timeframe": "Week 9-12",
-      "focus": "Start from back control with partner defending intelligently. Work to create opportunities for the armbar while partner uses realistic defenses including rolling, turning, and hand fighting. Begin integrating the submission into chains with other back attacks. Pressure can reach 60-70% maximum but never competition level in training.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Communication with partner is critical at this stage. Agree on submission pressure limits before starting. Partner should still tap early - training is not the place to test your pain tolerance on joint locks. Review any close calls or concerning moments immediately after they occur. Never apply explosive pressure even when partner is defending well."
-    },
-    {
-      "phase": "Integration and Competition Preparation",
-      "timeframe": "Week 13+",
-      "focus": "For advanced practitioners preparing for competition only: Practice the submission in full sparring with minimal restrictions. Develop timing for when to attack versus when to maintain back control. Build automatic responses to common defenses. Train both gi and no-gi variations. Study video of failed attempts to understand decision-making errors.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even in competition training, apply submission pressure gradually enough that partner can tap safely. In actual competition, this submission ends matches quickly if applied correctly - respect that power in training. Reserve explosive finishing for competition only. Partners with elbow injuries should avoid this position entirely or work at drastically reduced intensity with explicit communication."
-    },
-    {
-      "phase": "Ongoing Technical Maintenance and Teaching",
-      "timeframe": "Ongoing",
-      "focus": "Return to slow technical practice regularly to maintain proper mechanics. Teach the position to lower belts with heavy emphasis on safety. Study high-level competition footage to see variations and setups. Develop a deep understanding of the position's place within your overall back attack system. Refine details that separate high-percentage from low-percentage applications.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Senior practitioners have a responsibility to model safe training practices. When teaching, emphasize safety protocols even more than technique details. Create a gym culture where tapping early to joint locks is praised, not mocked. Regularly review your own training footage to ensure you are applying submissions safely and giving partners time to tap. Remember that your training partners' long-term health is more important than any single tap."
-    }
-  ],
   "from_positions": [
     "Back Control",
     "Body Triangle",
@@ -398,5 +335,6 @@
       "name": "Kimura",
       "relationship": "Alternative arm attack from back control when armbar angle is not available"
     }
-  ]
+  ],
+  "success_rate": 58
 }

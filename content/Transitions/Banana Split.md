@@ -157,7 +157,7 @@ The technique functions as part of the Truck's multiple-threat system, creating 
 Advanced practitioners use the Banana Split threat to create openings for other attacks, understanding that the mere threat of the groin stretch often causes opponents to abandon proper Twister defense. The technique is particularly effective in no-gi grappling where the lack of friction allows for smoother leg manipulation and deeper control positions.
 
 **From Position**: [[Truck/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Advanced practitioners use the Banana Split threat to create openings for other 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure far leg**: From established Truck position, release upper body control and reach for opponent's far leg. Hook your hands behind their knee or around their ankle, pulling the leg toward your chest while maintaining boot pressure on their near hip. (Timing: When opponent commits to Twister defense)
-2. **Lock leg position**: Bring their far leg across your body, securing it in the crook of your elbow or by clasping your hands together around their thigh. The leg should be positioned perpendicular to your torso for maximum leverage. (Timing: Immediately after securing grip)
-3. **Adjust hip alignment**: Position your hips directly behind opponent's hips, creating a straight line between your hip extension force and their groin. Your body should be perpendicular to theirs with boot pressure still maintained on their near hip. (Timing: 1-2 seconds to settle position)
-4. **Initiate the split**: Begin extending your hips forward while simultaneously pulling their far leg toward your shoulder. The splitting force comes from the opposition between your boot pushing their near leg away and your arms pulling their far leg toward you. (Timing: Gradual, controlled pressure)
-5. **Increase separation**: Drive your hips through while arching your back slightly, increasing the distance between their legs. Your boot continues pressing against their near hip while your arms pull the far leg past 90 degrees of separation. (Timing: Slow, steady increase)
-6. **Finish the submission**: Complete the split by fully extending your hips and pulling the far leg toward your head. The opponent will tap from pressure on groin muscles, hip flexors, or inner thigh. Release immediately upon tap to prevent injury. (Timing: Hold for tap, release instantly)
+1. **Secure far leg**: From established Truck position, release upper body control and reach for opponent's far leg. Hook your hands behind their knee or around their ankle, pulling the leg toward your chest while maintaining boot pressure on their near hip.
+2. **Lock leg position**: Bring their far leg across your body, securing it in the crook of your elbow or by clasping your hands together around their thigh. The leg should be positioned perpendicular to your torso for maximum leverage.
+3. **Adjust hip alignment**: Position your hips directly behind opponent's hips, creating a straight line between your hip extension force and their groin. Your body should be perpendicular to theirs with boot pressure still maintained on their near hip.
+4. **Initiate the split**: Begin extending your hips forward while simultaneously pulling their far leg toward your shoulder. The splitting force comes from the opposition between your boot pushing their near leg away and your arms pulling their far leg toward you.
+5. **Increase separation**: Drive your hips through while arching your back slightly, increasing the distance between their legs. Your boot continues pressing against their near hip while your arms pull the far leg past 90 degrees of separation.
+6. **Finish the submission**: Complete the split by fully extending your hips and pulling the far leg toward your head. The opponent will tap from pressure on groin muscles, hip flexors, or inner thigh. Release immediately upon tap to prevent injury.
 
 
 </section>
@@ -253,19 +253,15 @@ Advanced practitioners use the Banana Split threat to create openings for other 
 ## Training Progressions
 **Week 1-2** - Position and grip mechanics
 Practice transitioning from Truck to Banana Split grip without resistance. Focus on maintaining boot pressure while reaching for far leg. Drill the hand positioning and leg placement for optimal leverage. Partner remains passive, allowing you to feel proper alignment.
-(Resistance: None)
 
 **Week 3-4** - Hip mechanics and pressure application
 Add light resistance where partner provides minimal defense. Focus on using hip extension rather than arm pulling. Practice graduated pressure application, stopping well before submission threshold. Develop timing for when to initiate split based on opponent's defensive positioning.
-(Resistance: Light)
 
 **Week 5-6** - Counter and recounter
 Partner provides specific counters (granby roll, leg retraction, rotation). Practice recognizing each counter and applying appropriate response. Chain Banana Split with Twister and Calf Slicer threats. Begin positional sparring starting from Truck with Banana Split as primary objective.
-(Resistance: Medium)
 
 **Week 7+** - Live application and competition scenarios
 Full resistance rolling with Banana Split integrated into complete Truck attack system. Focus on threat creation and dilemma forcing. Develop ability to switch between upper and lower body attacks based on defensive reactions. Competition-speed entries and finishes with safety-conscious pressure.
-(Resistance: Full)
 
 
 

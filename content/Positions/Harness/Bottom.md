@@ -369,11 +369,11 @@ Start from harness bottom with no hooks. Work through complete escape sequence: 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 25% | 5% |
-| Intermediate | 45% | 40% | 8% |
-| Advanced     | 60% | 55% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 52% |
+| Advancement Probability | 48% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 30-90 seconds before escape attempt or submission threat
 

@@ -159,7 +159,7 @@ description: "Master Counter Sweep defense in BJJ. Transform opponent's sweep at
 Counter sweeping represents the critical defensive skill of neutralizing an opponent's sweep attempt while simultaneously converting their momentum into your own offensive advantage. This meta-technique encompasses the timing, weight distribution, and positional awareness necessary to prevent being swept from top position or to counter an opponent's sweep with your own reversal from bottom. The essence of counter sweeping lies in reading your opponent's commitment to a sweep direction, maintaining optimal base and posture, and exploiting the vulnerable moments created when they overcommit to the sweep attempt. Against any sweep, the top player must recognize the early indicators: grip changes, hip movement, hook placement, and weight shifts that telegraph the sweep direction. By maintaining proper base principles while remaining mobile enough to follow your opponent's movement, you can either shut down the sweep entirely or use their momentum against them. From bottom position, counter sweeping involves recognizing when your opponent has committed to defending your initial sweep, creating a situation where you can chain to a secondary sweep or transition. This skill separates intermediate practitioners from advanced competitors, as it requires reading multiple layers of action and reaction simultaneously.
 
 **From Position**: [[Open Guard/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ Counter sweeping represents the critical defensive skill of neutralizing an oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize sweep initiation**: Identify the early indicators of the sweep attempt through opponent's grip changes, hip shifts, hook insertion, or weight redistribution. The moment you feel their base change or see grips adjusting for a sweep, your counter-sweep window opens. (Timing: React within first 0.5 seconds of sweep initiation)
-2. **Assess sweep direction and mechanics**: Quickly analyze which direction they're sweeping and what mechanical principles they're using (pushing/pulling your base, elevating your hips, disrupting your posting hand). This determines your counter strategy. (Timing: Simultaneous with recognition)
-3. **Execute base adjustment**: Widen your base in the direction opposite the sweep or step your leg back/forward to create a stable posting position. For lateral sweeps, step the threatened leg back and angle your body. For elevation sweeps, lower your hips and drive your weight forward into their guard. (Timing: Immediately upon sweep recognition)
-4. **Counter-grip or break critical grips**: Attack the grips enabling their sweep with aggressive grip breaks, or establish your own controlling grips on their sleeves, collar, or pants. Priority targets are sleeve grips controlling your posting arm or collar grips pulling you off balance. (Timing: Within first second of sweep attempt)
-5. **Apply counter-pressure**: Drive your weight and pressure in the direction opposite their sweep vector while maintaining low center of gravity. For butterfly sweeps, drive your chest down and sprawl your legs back. For scissor sweeps, drive your shoulder into their bottom knee while circling away from their top leg. (Timing: As they reach maximum sweep commitment)
-6. **Exploit reversal opportunity**: At the moment they're fully committed to the sweep with their weight shifted and base compromised, execute your counter by passing around their committed leg, circling to their back, or transitioning to a more dominant position. Their overcommitment creates the vulnerability you exploit. (Timing: Immediately after neutralizing initial sweep)
-7. **Consolidate position or continue attack**: Once the sweep is neutralized, immediately work to pass the guard or improve position rather than resetting neutral. Use their recovery moment to advance your position with pressure passing or leg drag sequences. (Timing: Within 2-3 seconds of sweep defense)
+1. **Recognize sweep initiation**: Identify the early indicators of the sweep attempt through opponent's grip changes, hip shifts, hook insertion, or weight redistribution. The moment you feel their base change or see grips adjusting for a sweep, your counter-sweep window opens.
+2. **Assess sweep direction and mechanics**: Quickly analyze which direction they're sweeping and what mechanical principles they're using (pushing/pulling your base, elevating your hips, disrupting your posting hand). This determines your counter strategy.
+3. **Execute base adjustment**: Widen your base in the direction opposite the sweep or step your leg back/forward to create a stable posting position. For lateral sweeps, step the threatened leg back and angle your body. For elevation sweeps, lower your hips and drive your weight forward into their guard.
+4. **Counter-grip or break critical grips**: Attack the grips enabling their sweep with aggressive grip breaks, or establish your own controlling grips on their sleeves, collar, or pants. Priority targets are sleeve grips controlling your posting arm or collar grips pulling you off balance.
+5. **Apply counter-pressure**: Drive your weight and pressure in the direction opposite their sweep vector while maintaining low center of gravity. For butterfly sweeps, drive your chest down and sprawl your legs back. For scissor sweeps, drive your shoulder into their bottom knee while circling away from their top leg.
+6. **Exploit reversal opportunity**: At the moment they're fully committed to the sweep with their weight shifted and base compromised, execute your counter by passing around their committed leg, circling to their back, or transitioning to a more dominant position. Their overcommitment creates the vulnerability you exploit.
+7. **Consolidate position or continue attack**: Once the sweep is neutralized, immediately work to pass the guard or improve position rather than resetting neutral. Use their recovery moment to advance your position with pressure passing or leg drag sequences.
 
 
 </section>
@@ -261,27 +261,21 @@ Counter sweeping represents the critical defensive skill of neutralizing an oppo
 ## Training Progressions
 **Phase 1: Recognition (Weeks 1-2)** - Developing sensitivity to sweep setups
 Partner performs common sweeps in slow motion while you identify the early indicators: grip changes, hip movement, hook placement, weight shifts. Pause at the moment you recognize the sweep initiation. Practice naming the sweep type and direction.
-(Resistance: None)
 
 **Phase 2: Static Defense (Weeks 3-4)** - Proper base adjustments and counter-pressure
 Partner sets up sweep position and pauses. You practice the correct base adjustment, grip breaking, and pressure application for that specific sweep. Partner holds position while you perfect your defensive structure.
-(Resistance: Light)
 
 **Phase 3: Dynamic Defense (Weeks 5-6)** - Real-time sweep defense with movement
 Partner executes sweeps at 50-70% speed and power while you defend in real-time. Focus on timing your reactions to their commitment moments. Partner may fake sweeps to test your reactions.
-(Resistance: Medium)
 
 **Phase 4: Counter-Attack Integration (Weeks 7-8)** - Converting defense into offense
 After successfully defending sweep, immediately work to pass guard or improve position. Partner provides realistic resistance to both sweep and pass. Develop smooth transitions from defensive to offensive action.
-(Resistance: Medium)
 
 **Phase 5: Chain Defense (Weeks 9-10)** - Defending multiple sweep attempts in sequence
 Partner chains 2-3 different sweeps together while you maintain position and defend each attempt. Develop ability to stay centered and react to multiple directional threats without overcommitting.
-(Resistance: Full)
 
 **Phase 6: Live Application (Weeks 11+)** - Competition-level sweep defense in live rolling
 Full resistance training with emphasis on recognizing and defending sweeps while advancing your passing game. Partner actively tries to sweep and submit. Track your sweep defense success rate and identify patterns.
-(Resistance: Full)
 
 
 

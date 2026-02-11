@@ -336,11 +336,11 @@ The Kimura Trap System should be developed through progressive layering of compl
 - [[Turtle]] (Position) - Common opponent defensive position that enables kimura attacks
 - [[Back Control]] (Position) - Primary target position for back take pathway
 - [[Mount]] (Position) - Secondary target position for mount transition pathway
-- [[North South Control]] (Position) - Transitional position offering kimura opportunities during passing
+- [[North-South]] (Position) - Transitional position offering kimura opportunities during passing
 - [[Control Maintenance]] (Principle) - Foundational principle for maintaining kimura grip throughout transitions
 - [[Submission Chains]] (Principle) - Conceptual framework for linking kimura to other submission attempts
 - [[Dilemma Creation]] (Principle) - Core philosophy of creating multiple bad choices for opponent
-- [[Position Transitions]] (Principle) - Guides smooth movement between positions while maintaining control
+- [[Transition Management]] (Principle) - Guides smooth movement between positions while maintaining control
 - [[Offensive Combinations]] (Principle) - Framework for chaining attacks from kimura control position
 - [[System Building]] (Principle) - Meta-principle for developing personalized kimura variations
 - [[Danaher Straight Jacket System]] (System) - Complementary arm control system with similar control philosophies

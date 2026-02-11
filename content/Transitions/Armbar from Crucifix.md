@@ -157,7 +157,7 @@ From a mechanical standpoint, the armbar from crucifix differs from standard arm
 Strategically, the armbar serves as the secondary attack in the crucifix submission hierarchy. When choke attempts fail, transitioning to the armbar creates a submission chain that forces the opponent to defend multiple threats. Advanced practitioners use the armbar threat to open up the neck when the opponent extends their arm defensively, creating a cyclical attack pattern that eventually results in a finish.
 
 **From Position**: [[Crucifix/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the armbar serves as the secondary attack in the crucifix submiss
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: With your top hand, establish a firm grip on the opponent's wrist of the arm you will attack, pulling it away from their body and toward your centerline to begin isolating the limb. (Timing: While maintaining crucifix control)
-2. **Hip adjustment**: Shift your hips slightly toward the opponent's head, positioning your pelvis directly next to their shoulder. This eliminates the space they need to pull their arm free and sets the angle for the hyperextension. (Timing: Smooth transition, no jerky movements)
-3. **Leg positioning**: Bring your top leg over the opponent's face or head, crossing your ankles if possible to lock your legs together. Your bottom leg stays under their armpit maintaining the crucifix structure on their other arm. (Timing: Coordinate with hip movement)
-4. **Control elbow alignment**: Ensure the opponent's elbow is positioned between your thighs with their thumb pointing upward. Squeeze your knees together to trap the elbow joint and prevent any rotation that would relieve pressure. (Timing: Before applying breaking pressure)
-5. **Chest connection**: Pull the opponent's wrist to your chest using both hands, hugging the arm tight to your body. This eliminates slack in the arm and creates the lever system needed for the hyperextension. (Timing: Firm grip, arm against sternum)
-6. **Apply breaking pressure**: Lift your hips slowly while maintaining the wrist at your chest and knees pinched on the elbow. The hip elevation creates the hyperextension force against the elbow joint. Apply gradually, giving opponent time to tap. (Timing: Controlled pressure, not explosive)
+1. **Secure wrist control**: With your top hand, establish a firm grip on the opponent's wrist of the arm you will attack, pulling it away from their body and toward your centerline to begin isolating the limb.
+2. **Hip adjustment**: Shift your hips slightly toward the opponent's head, positioning your pelvis directly next to their shoulder. This eliminates the space they need to pull their arm free and sets the angle for the hyperextension.
+3. **Leg positioning**: Bring your top leg over the opponent's face or head, crossing your ankles if possible to lock your legs together. Your bottom leg stays under their armpit maintaining the crucifix structure on their other arm.
+4. **Control elbow alignment**: Ensure the opponent's elbow is positioned between your thighs with their thumb pointing upward. Squeeze your knees together to trap the elbow joint and prevent any rotation that would relieve pressure.
+5. **Chest connection**: Pull the opponent's wrist to your chest using both hands, hugging the arm tight to your body. This eliminates slack in the arm and creates the lever system needed for the hyperextension.
+6. **Apply breaking pressure**: Lift your hips slowly while maintaining the wrist at your chest and knees pinched on the elbow. The hip elevation creates the hyperextension force against the elbow joint. Apply gradually, giving opponent time to tap.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the armbar serves as the secondary attack in the crucifix submiss
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the armbar finish from a static crucifix position with a compliant partner. Focus on proper wrist control, hip placement next to the shoulder, leg positioning over the face, and controlled hip elevation. Partner does not resist but provides feedback on pressure and positioning.
-(Resistance: None)
 
 **Week 3-4** - Transition timing
 Partner defends chokes from crucifix by tucking chin. Practice recognizing when the arm becomes available and transitioning smoothly from crucifix control to armbar position. Develop the timing to attack when opponent is focused on neck defense. Light resistance on arm extraction.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner uses common counters: stacking, arm rotation, and bridging. Practice recognizing each counter early and applying appropriate responses. Drill the choke-to-armbar-to-choke cycle as opponent defends. Maintain position when armbar fails rather than losing crucifix entirely.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full sparring rounds starting from crucifix. Partner attempts realistic escapes while you work the complete submission chain. Track success rate and identify remaining gaps. Focus on maintaining composure when first attempt fails and cycling to next attack.
-(Resistance: Full)
 
 
 

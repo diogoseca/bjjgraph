@@ -163,7 +163,7 @@ This technique operates on a fundamental principle: when your leg becomes endang
 The back step is particularly valuable against modern leg lock systems where practitioners use inversions to access heel hooks and kneebars. Against a skilled grasshopper guard player, the window for executing this pass is narrow—you must recognize the entanglement attempt early and initiate the back step before they can fully establish control. Timing the back step to coincide with their inversion transition maximizes success probability, as their legs are temporarily in flux between configurations.
 
 **From Position**: [[Grasshopper Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The back step is particularly valuable against modern leg lock systems where pra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize entanglement**: Identify that opponent's legs are threatening to establish hooks behind your knee, thread between your legs, or initiate a rotational attack on your lower limb. This recognition must occur before full control is established. (Timing: Immediate upon feeling leg contact)
-2. **Shift weight to base leg**: Transfer your weight to the non-endangered leg, creating a stable base point from which to extract the threatened leg. Lower your hips slightly to increase stability and prevent being swept during the transition. (Timing: Simultaneous with recognition)
-3. **Execute back step**: Step the endangered leg backward and away from the opponent's body in an arc motion, clearing their hooks and threading attempts. The step should move at a 45-degree angle behind you rather than straight back to maximize clearance distance. (Timing: Decisive single motion)
-4. **Clear opponent's legs**: As your leg extracts, use your hands to strip, redirect, or pin any remaining leg contact. Push their legs toward the mat or across their own body to prevent them from following your movement and reestablishing guard. (Timing: During back step motion)
-5. **Drive forward**: Immediately convert the backward momentum into forward pressure, driving your chest and shoulder toward the opponent's upper body. This collapses their inverted posture and prevents guard recovery attempts. (Timing: Immediately after leg clears)
-6. **Establish crossface**: As you drive forward, establish crossface control with your forearm or bicep pressure across their neck and face. This prevents them from turning into you and cements the passing position as you settle into side control. (Timing: As you make chest contact)
-7. **Consolidate side control**: Complete the pass by establishing perpendicular chest-to-chest positioning with your hips low against their hips. Block their far hip with your near hand to prevent knee insertion and guard recovery. (Timing: Final settling phase)
+1. **Recognize entanglement**: Identify that opponent's legs are threatening to establish hooks behind your knee, thread between your legs, or initiate a rotational attack on your lower limb. This recognition must occur before full control is established.
+2. **Shift weight to base leg**: Transfer your weight to the non-endangered leg, creating a stable base point from which to extract the threatened leg. Lower your hips slightly to increase stability and prevent being swept during the transition.
+3. **Execute back step**: Step the endangered leg backward and away from the opponent's body in an arc motion, clearing their hooks and threading attempts. The step should move at a 45-degree angle behind you rather than straight back to maximize clearance distance.
+4. **Clear opponent's legs**: As your leg extracts, use your hands to strip, redirect, or pin any remaining leg contact. Push their legs toward the mat or across their own body to prevent them from following your movement and reestablishing guard.
+5. **Drive forward**: Immediately convert the backward momentum into forward pressure, driving your chest and shoulder toward the opponent's upper body. This collapses their inverted posture and prevents guard recovery attempts.
+6. **Establish crossface**: As you drive forward, establish crossface control with your forearm or bicep pressure across their neck and face. This prevents them from turning into you and cements the passing position as you settle into side control.
+7. **Consolidate side control**: Complete the pass by establishing perpendicular chest-to-chest positioning with your hips low against their hips. Block their far hip with your near hand to prevent knee insertion and guard recovery.
 
 
 </section>
@@ -260,19 +260,15 @@ The back step is particularly valuable against modern leg lock systems where pra
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the back step motion without resistance. Partner holds static grasshopper guard while you drill the stepping pattern, weight transfer, and direction of movement. Focus on building muscle memory for the 45-degree angle extraction.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner actively attempts leg entanglements at 30-50% speed. Practice recognizing the optimal moment to initiate back step based on their leg positioning and movement patterns. Develop anticipation skills.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner attempts to counter your back step with following inversions, technical standups, and guard recovery. Practice adjusting your timing and forward drive to defeat these counters. Build problem-solving ability.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate back step into live rolling and specific training. Start from grasshopper guard scenarios and attempt to successfully pass using the back step against fully resisting partners. Refine timing under pressure.
-(Resistance: Full)
 
 
 

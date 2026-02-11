@@ -157,7 +157,7 @@ This technique operates on the principle that the Aoki Lock top player cannot si
 The base attack is particularly effective because it addresses both survival and advancement simultaneously. Rather than simply escaping the shoulder lock, you create a dilemma where the opponent must choose between maintaining the submission or protecting their position. Advanced practitioners chain this with arm extraction attempts, using the threat of one to create openings for the other. This technique requires precise timing, hip mobility, and the ability to read when opponents are committed to finishing rather than maintaining position.
 
 **From Position**: [[Aoki Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The base attack is particularly effective because it addresses both survival and
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify posted leg**: Locate opponent's posted leg that provides their primary base stability for shoulder pressure application. This is typically the leg closest to your hips, posted on the mat to prevent being rolled. (Timing: Before initiating any movement)
-2. **Protect shoulder**: Internally rotate your trapped shoulder to resist external rotation pressure while preparing the attack. Keep elbow bent when possible to maintain safe joint angle throughout the sweep attempt. (Timing: Continuous throughout technique)
-3. **Attack posted leg**: Use your free hand to hook behind opponent's posted ankle or grab their pants at the knee, preparing to pull their base out from under them when they commit forward pressure. (Timing: As opponent begins increasing pressure)
-4. **Generate hip drive**: Explosively bridge your hips toward opponent while simultaneously pulling their posted leg off the mat. The combination of upward hip force and base removal creates rotational momentum. (Timing: When opponent is fully committed to pressure)
-5. **Follow rotation**: Continue the rotational momentum as opponent loses balance, following their fall while extracting your trapped arm from the loosening leg entanglement during the transition. (Timing: Immediately after base collapses)
-6. **Establish mount**: Complete the sweep by establishing mount position with hips heavy on opponent's torso, knees wide for base, and hands posted for control. Immediately address any remaining grip threats. (Timing: Within 1-2 seconds of sweep completion)
+1. **Identify posted leg**: Locate opponent's posted leg that provides their primary base stability for shoulder pressure application. This is typically the leg closest to your hips, posted on the mat to prevent being rolled.
+2. **Protect shoulder**: Internally rotate your trapped shoulder to resist external rotation pressure while preparing the attack. Keep elbow bent when possible to maintain safe joint angle throughout the sweep attempt.
+3. **Attack posted leg**: Use your free hand to hook behind opponent's posted ankle or grab their pants at the knee, preparing to pull their base out from under them when they commit forward pressure.
+4. **Generate hip drive**: Explosively bridge your hips toward opponent while simultaneously pulling their posted leg off the mat. The combination of upward hip force and base removal creates rotational momentum.
+5. **Follow rotation**: Continue the rotational momentum as opponent loses balance, following their fall while extracting your trapped arm from the loosening leg entanglement during the transition.
+6. **Establish mount**: Complete the sweep by establishing mount position with hips heavy on opponent's torso, knees wide for base, and hands posted for control. Immediately address any remaining grip threats.
 
 
 </section>
@@ -256,19 +256,15 @@ The base attack is particularly effective because it addresses both survival and
 ## Training Progressions
 **Week 1-2** - Posted leg identification and grip mechanics
 Practice identifying opponent's posted leg from Aoki Lock bottom with compliant partner. Develop muscle memory for free hand grip positions that effectively attack base stability without compromising shoulder defense.
-(Resistance: None)
 
 **Week 3-4** - Timing and coordination
 Partner applies light Aoki Lock pressure in cycles. Practice timing your base attack to coincide with their pressure commitment. Focus on coordinating hip bridge with leg pull for synchronized force generation.
-(Resistance: Light)
 
 **Week 5-6** - Chaining with escapes
 Combine base attack with arm extraction attempts against moderate resistance. Practice switching between techniques based on opponent's defensive reactions. Develop sensitivity to when each option is available.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement base attack in positional sparring from Aoki Lock scenarios. Focus on real-time decision making about when to attack versus when to prioritize pure escape. Develop competition-ready timing.
-(Resistance: Full)
 
 
 

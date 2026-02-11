@@ -280,11 +280,11 @@ Start from a neutral or disadvantaged position. The goal is to advance through t
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 100% | 0% | 100% |
-| Intermediate | 100% | 0% | 100% |
-| Advanced     | 100% | 0% | 100% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 100% |
+| Advancement Probability | 0% |
+| Submission Probability | 100% |
 
 **Average Time in Position**: 0 seconds - instantaneous terminal state representing match conclusion
 

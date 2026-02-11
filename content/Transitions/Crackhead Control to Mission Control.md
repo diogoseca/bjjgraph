@@ -163,7 +163,7 @@ The mechanical foundation of this transition involves releasing the deep overhoo
 This transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.
 
 **From Position**: [[Crackhead Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ This transition serves multiple strategic purposes within the rubber guard frame
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess position**: Evaluate opponent's posture and positioning to confirm transition necessity. Look for signs of posture recovery, back exposure danger, or submission chain exhaustion that indicate Mission Control reset is appropriate. (Timing: When opponent's posture begins rising or hip pressure increases toward back exposure)
-2. **Elevate hips**: Drive hips upward off the mat while maintaining the deep overhook temporarily. This hip elevation creates the foundation for Mission Control and prevents the position from collapsing during grip transition. (Timing: Immediately before releasing overhook)
-3. **Transition leg position**: Slide the leg across opponent's back from the Crackhead position higher onto the shoulder area. The shin should move from pressing on the upper back to controlling the far shoulder blade for Mission Control configuration. (Timing: Simultaneous with hip elevation)
-4. **Release overhook to head control**: Release the deep overhook grip and immediately swim the arm to establish head control, either behind opponent's head or grabbing your own shin for the classic rubber guard grip. Do not leave any gap between releasing overhook and establishing new control. (Timing: The moment leg position is secured high on shoulder)
-5. **Secure shoulder isolation**: Pull down aggressively on opponent's head while using the repositioned leg to isolate and trap the far shoulder. The shoulder should be pinned between your leg and your hip elevation, creating the characteristic Mission Control shoulder trap. (Timing: Immediately following head control establishment)
-6. **Establish inside arm trap**: Ensure opponent's previously trapped arm remains on the inside of your high guard leg. Use your free hand to control their wrist or tricep, preventing them from extracting the arm during your transition to attack mode. (Timing: As Mission Control solidifies)
-7. **Consolidate Mission Control**: Complete the position by confirming all Mission Control checkpoints: hips elevated, leg high across back isolating shoulder, strong head control pulling posture down, inside arm trapped, and free leg maintaining hip connection for sweep defense. (Timing: Within 2-3 seconds of transition initiation)
+1. **Assess position**: Evaluate opponent's posture and positioning to confirm transition necessity. Look for signs of posture recovery, back exposure danger, or submission chain exhaustion that indicate Mission Control reset is appropriate.
+2. **Elevate hips**: Drive hips upward off the mat while maintaining the deep overhook temporarily. This hip elevation creates the foundation for Mission Control and prevents the position from collapsing during grip transition.
+3. **Transition leg position**: Slide the leg across opponent's back from the Crackhead position higher onto the shoulder area. The shin should move from pressing on the upper back to controlling the far shoulder blade for Mission Control configuration.
+4. **Release overhook to head control**: Release the deep overhook grip and immediately swim the arm to establish head control, either behind opponent's head or grabbing your own shin for the classic rubber guard grip. Do not leave any gap between releasing overhook and establishing new control.
+5. **Secure shoulder isolation**: Pull down aggressively on opponent's head while using the repositioned leg to isolate and trap the far shoulder. The shoulder should be pinned between your leg and your hip elevation, creating the characteristic Mission Control shoulder trap.
+6. **Establish inside arm trap**: Ensure opponent's previously trapped arm remains on the inside of your high guard leg. Use your free hand to control their wrist or tricep, preventing them from extracting the arm during your transition to attack mode.
+7. **Consolidate Mission Control**: Complete the position by confirming all Mission Control checkpoints: hips elevated, leg high across back isolating shoulder, strong head control pulling posture down, inside arm trapped, and free leg maintaining hip connection for sweep defense.
 
 
 </section>
@@ -260,19 +260,15 @@ This transition serves multiple strategic purposes within the rubber guard frame
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice each component separately: hip elevation from Crackhead, overhook to head control grip transition, leg repositioning from mid-back to shoulder. Partner remains static to allow clean repetitions of each movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Fluid integration
 Combine all components into one smooth transition. Practice entering from Crackhead Control and flowing directly into Mission Control without pauses between steps. Partner provides light pressure during transition to develop timing.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively attempts primary counters during transition: forward pressure, arm extraction, explosive posturing, double underhook attempts. Practice recognizing each counter and executing appropriate responses while maintaining transition integrity.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Full resistance drilling starting from Crackhead Control. Execute transitions opportunistically based on opponent responses. Develop recognition of optimal transition timing in live scrambles and integrate with Mission Control attack sequences.
-(Resistance: Full)
 
 
 

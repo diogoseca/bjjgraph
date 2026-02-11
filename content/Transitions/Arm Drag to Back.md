@@ -159,7 +159,7 @@ description: "Master the Arm Drag to Back technique in BJJ. Complete guide cover
 The Arm Drag to Back is a fundamental and highly effective technique for advancing position from various guard positions to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back. The arm drag represents a fundamental principle in grappling: using the opponent's limbs as handles to manipulate their body position. When executed properly, the arm drag creates a cascading sequence of positional advantages. First, it removes one of the opponent's posting hands, compromising their base. Second, it creates an angle that makes it difficult for them to defend against the back take. Third, it positions you perpendicular to their body, giving you leverage advantages. The technique requires precise timing, grip control, and hip movement to execute successfully. Against skilled opponents, the arm drag must be set up carefully, often requiring feints, grip fighting, or combination attacks to create the opening needed for successful execution.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -209,13 +209,13 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish double grip control**: Secure a same-side wrist grip with your right hand on opponent's right wrist, palm facing down with four fingers wrapped around their wrist. Simultaneously grip their right triceps or lat with your left hand, creating a frame that will allow you to pull their arm across your body. Your grips should be tight but not telegraphing your intention to drag. (Timing: Setup phase - establish before opponent recognizes threat)
-2. **Pull arm across centerline**: Explosively pull the opponent's wrist across your body toward your left hip while your left hand pushes their triceps in the same direction. The motion should be diagonal, bringing their arm across their own centerline. This removes their posting base on that side and begins to turn their shoulders away from you. (Timing: Initiation - coordinate with opponent's forward pressure)
-3. **Hip escape and angle creation**: As you drag the arm, simultaneously hip escape away from the dragged arm (to your left if dragging their right arm). This creates the crucial angle that allows you to move perpendicular to their body rather than remaining directly in front of them. Your hips should move explosively, creating space between you and opponent. (Timing: Simultaneous with arm drag - critical for creating angle)
-4. **Transition to perpendicular position**: Continue rotating your hips while maintaining control of the dragged arm until you achieve a perpendicular angle to opponent's torso. Your chest should now be facing their side ribs rather than their chest. Post your outside hand on the mat for base if needed, but maintain wrist control with your dragging hand. (Timing: Follow-through - maintain momentum from initial drag)
-5. **Circle to back position**: Release the triceps grip and use that hand to reach around opponent's back, establishing an underhook while maintaining wrist control. Circle your body behind theirs by continuing your rotational movement. Your head should stay glued to their ribs/back to prevent them from turning into you. Move your legs to assist the rotation - if in butterfly, walk your hooks behind; if seated, use posts. (Timing: Transition phase - continuous motion prevents recovery)
-6. **Secure seat belt control**: As you complete the rotation to their back, release the wrist control and immediately secure a seat belt grip (one arm over shoulder, one arm under armpit, hands clasped together). Get your hooks in by inserting your feet inside their thighs. Flatten them forward by pulling back on your grips while driving your chest into their back. (Timing: Completion - establish dominant position before opponent recovers)
-7. **Consolidate back control**: Adjust your hooks if needed, ensuring they are deep with heels pulling toward their centerline. Tighten your seat belt grip, pulling their shoulders back into your chest. Establish head position over their shoulder on the choking side. Begin attacking with submissions or work to flatten them completely. (Timing: Stabilization - secure position before advancing to submissions)
+1. **Establish double grip control**: Secure a same-side wrist grip with your right hand on opponent's right wrist, palm facing down with four fingers wrapped around their wrist. Simultaneously grip their right triceps or lat with your left hand, creating a frame that will allow you to pull their arm across your body. Your grips should be tight but not telegraphing your intention to drag.
+2. **Pull arm across centerline**: Explosively pull the opponent's wrist across your body toward your left hip while your left hand pushes their triceps in the same direction. The motion should be diagonal, bringing their arm across their own centerline. This removes their posting base on that side and begins to turn their shoulders away from you.
+3. **Hip escape and angle creation**: As you drag the arm, simultaneously hip escape away from the dragged arm (to your left if dragging their right arm). This creates the crucial angle that allows you to move perpendicular to their body rather than remaining directly in front of them. Your hips should move explosively, creating space between you and opponent.
+4. **Transition to perpendicular position**: Continue rotating your hips while maintaining control of the dragged arm until you achieve a perpendicular angle to opponent's torso. Your chest should now be facing their side ribs rather than their chest. Post your outside hand on the mat for base if needed, but maintain wrist control with your dragging hand.
+5. **Circle to back position**: Release the triceps grip and use that hand to reach around opponent's back, establishing an underhook while maintaining wrist control. Circle your body behind theirs by continuing your rotational movement. Your head should stay glued to their ribs/back to prevent them from turning into you. Move your legs to assist the rotation - if in butterfly, walk your hooks behind; if seated, use posts.
+6. **Secure seat belt control**: As you complete the rotation to their back, release the wrist control and immediately secure a seat belt grip (one arm over shoulder, one arm under armpit, hands clasped together). Get your hooks in by inserting your feet inside their thighs. Flatten them forward by pulling back on your grips while driving your chest into their back.
+7. **Consolidate back control**: Adjust your hooks if needed, ensuring they are deep with heels pulling toward their centerline. Tighten your seat belt grip, pulling their shoulders back into your chest. Establish head position over their shoulder on the choking side. Begin attacking with submissions or work to flatten them completely.
 
 
 </section>
@@ -265,27 +265,21 @@ The Arm Drag to Back is a fundamental and highly effective technique for advanci
 ## Training Progressions
 **Week 1-2: Isolated Movement Pattern** - Grip mechanics and hip escape coordination
 Partner remains static while you practice establishing grips, pulling arm across body, and hip escaping away from dragged arm. Focus on coordinating upper body drag with lower body hip escape as one motion. Practice from both seated and butterfly positions. Drill 20 repetitions each side, emphasizing smooth coordination. Partner provides light resistance to grips but doesn't actively counter.
-(Resistance: None)
 
 **Week 3-4: Angle Creation and Rotation** - Complete rotation to back position
 Partner remains passive but maintains base. Practice the full sequence from grip establishment through achieving perpendicular angle and circling to back position. Focus on maintaining head position tight to opponent's body and continuous circular movement. Drill 15 repetitions each side, working on speed and fluidity. Partner begins to make minor defensive movements like posting far hand.
-(Resistance: Light)
 
 **Week 5-8: Adding Resistance and Counters** - Dealing with common defensive reactions
 Partner provides realistic resistance including whizzer attempts, sprawling, and posting. Practice recognizing and countering each defensive reaction. Work on maintaining momentum when countered and adapting to different defensive responses. Drill 10 repetitions each side with partner alternating between different counters. Begin timing arm drags against partner's forward pressure.
-(Resistance: Medium)
 
 **Week 9-12: Positional Integration** - Setting up arm drag from various positions and following through to back control
 Practice arm drag from standing, seated guard, butterfly guard, and half guard positions. Work on grip fighting sequences that lead to arm drag opportunities. Once achieving back position, practice securing hooks and seat belt control under resistance. Include 5-minute positional sparring rounds starting from guard positions with goal of achieving arm drag to back.
-(Resistance: Medium)
 
 **Week 13-16: Competition Simulation** - Arm drag entries in dynamic scenarios
 Full resistance positional sparring from various guard positions. Partner actively defends arm drag attempts and counters. Practice setting up arm drags with feints, grips breaks, and combination attacks. Work on recognizing optimal timing windows during live rolling. Include conditioning component - multiple back-to-back attempts with fresh partners.
-(Resistance: Full)
 
 **Ongoing Refinement** - Advanced variations and chain sequences
 Develop arm drag as part of larger attack system. Chain with other back takes, sweeps, and guard passes. Work on arm drag variations from different grips (collar drag, lat drag, etc.). Study high-level competition footage and identify setup patterns. Continue drilling basics 5-10 repetitions before each training session to maintain sharp mechanics.
-(Resistance: Full)
 
 
 

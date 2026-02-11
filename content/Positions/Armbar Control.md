@@ -93,15 +93,17 @@ This position appears across all levels of competition and training, making prof
 ### Available Transitions
 
 
-- **[[Hip Escape]]** (25% of attempts)
+- **[[Hip Escape]]** (20% of attempts)
 
-- **[[Stack Defense]]** (20% of attempts)
+- **[[Stack Defense]]** (17% of attempts)
 
-- **[[Arm Extraction]]** (18% of attempts)
+- **[[Arm Extraction]]** (15% of attempts)
 
-- **[[Hitchhiker Escape]]** (20% of attempts)
+- **[[Hitchhiker Escape]]** (17% of attempts)
 
-- **[[Bridge and Roll]]** (17% of attempts)
+- **[[Bridge and Roll]]** (14% of attempts)
+
+- **[[Armbar Defense]]** (17% of attempts)
 
 
 ### Common Mistakes

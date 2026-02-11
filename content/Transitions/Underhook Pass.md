@@ -159,7 +159,7 @@ description: "Master the Underhook Pass from Half Guard. Complete guide with ste
 The Underhook Pass is a fundamental pressure passing technique used to advance from half guard top position to side control. This pass exploits the powerful control provided by securing an underhook on the bottom player's far side, combined with strategic weight distribution and hip pressure to flatten the opponent and clear the leg entanglement. The technique is built on the principle of controlling the opponent's shoulder and hip simultaneously, creating a cross-body pressure system that limits their defensive frames and movement options. The underhook provides both offensive control and defensive protection, preventing the bottom player from establishing their own underhook or recovering full guard. This pass is particularly effective against players who rely on knee shield or traditional half guard retention, as it addresses their primary defensive structures through systematic breakdown and methodical advancement.
 
 **From Position**: [[Half Guard/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -208,13 +208,13 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the underhook**: From half guard top, thread your arm under opponent's far armpit, securing a deep underhook. Your shoulder should drive into their chest while your hand reaches across their back, ideally gripping their far lat or belt. This underhook is the cornerstone of the entire passing sequence. (Timing: Establish before opponent can frame or create distance)
-2. **Establish crossface pressure**: Place your head on opponent's chest, driving your shoulder into their near pectoral muscle. This crossface pressure prevents them from turning into you or establishing their own underhook. Your ear should be tight to their sternum, minimizing space for their frames. (Timing: Immediately after securing underhook)
-3. **Control the near hip**: With your free hand (non-underhook side), establish a firm grip on opponent's near hip, pants, or belt. This grip prevents them from using hip movement to recover guard or create the angle needed for sweeps. Your palm should be facing down with fingers digging into their hip. (Timing: Concurrent with crossface establishment)
-4. **Flatten opponent's posture**: Drive your weight forward through your shoulder and chest, forcing opponent flat to their back. Simultaneously pull with your underhook and push with your crossface, creating opposing forces that collapse their defensive structure. Their shoulder blades should be pinned to the mat. (Timing: Progressive pressure, not explosive)
-5. **Clear the trapped leg**: With opponent flattened, begin extracting your trapped leg by driving your knee across their thigh toward their hip. Maintain all upper body pressure while subtly shifting your hips backward. The key is small, methodical movements rather than explosive yanking that creates space. (Timing: Only when opponent is fully flattened)
-6. **Step over to side control**: Once your knee clears their hip, step your free leg over their legs and establish side control. Keep your underhook and crossface pressure throughout the transition. Your chest should never leave their chest during this movement, maintaining constant pressure and connection. (Timing: Smooth transition maintaining all control points)
-7. **Consolidate side control**: Secure standard side control position with your underhook transitioning to far side control, your head positioned on the near side of their head, and your hips low and heavy. Establish all standard side control grips and pressure before considering further advancement or submission attacks. (Timing: Immediate consolidation after clearing legs)
+1. **Secure the underhook**: From half guard top, thread your arm under opponent's far armpit, securing a deep underhook. Your shoulder should drive into their chest while your hand reaches across their back, ideally gripping their far lat or belt. This underhook is the cornerstone of the entire passing sequence.
+2. **Establish crossface pressure**: Place your head on opponent's chest, driving your shoulder into their near pectoral muscle. This crossface pressure prevents them from turning into you or establishing their own underhook. Your ear should be tight to their sternum, minimizing space for their frames.
+3. **Control the near hip**: With your free hand (non-underhook side), establish a firm grip on opponent's near hip, pants, or belt. This grip prevents them from using hip movement to recover guard or create the angle needed for sweeps. Your palm should be facing down with fingers digging into their hip.
+4. **Flatten opponent's posture**: Drive your weight forward through your shoulder and chest, forcing opponent flat to their back. Simultaneously pull with your underhook and push with your crossface, creating opposing forces that collapse their defensive structure. Their shoulder blades should be pinned to the mat.
+5. **Clear the trapped leg**: With opponent flattened, begin extracting your trapped leg by driving your knee across their thigh toward their hip. Maintain all upper body pressure while subtly shifting your hips backward. The key is small, methodical movements rather than explosive yanking that creates space.
+6. **Step over to side control**: Once your knee clears their hip, step your free leg over their legs and establish side control. Keep your underhook and crossface pressure throughout the transition. Your chest should never leave their chest during this movement, maintaining constant pressure and connection.
+7. **Consolidate side control**: Secure standard side control position with your underhook transitioning to far side control, your head positioned on the near side of their head, and your hips low and heavy. Establish all standard side control grips and pressure before considering further advancement or submission attacks.
 
 
 </section>
@@ -261,27 +261,21 @@ The Underhook Pass is a fundamental pressure passing technique used to advance f
 ## Training Progressions
 **Phase 1: Static Control (Weeks 1-2)** - Establishing and maintaining the underhook and crossface position
 Practice securing the underhook from various half guard scenarios with compliant partner. Focus on grip placement, shoulder pressure, and maintaining position without attempting to pass. Partner provides light frames but doesn't actively escape. Goal is to hold position for 2-3 minutes with proper pressure and posture.
-(Resistance: None)
 
 **Phase 2: Controlled Flattening (Weeks 3-4)** - Developing pressure mechanics to flatten opponent
 From established underhook position, practice flattening partner to their back using weight distribution and opposing forces. Partner provides moderate resistance, using frames and attempting to stay on their side. Work on eliminating space and pinning shoulder blades to mat. Perform 10-15 repetitions per session.
-(Resistance: Light)
 
 **Phase 3: Leg Extraction Timing (Weeks 5-6)** - Learning when and how to extract trapped leg
 Once comfortable with flattening, add the leg extraction component. Partner is flattened but maintains light grip on your trapped leg. Practice the subtle hip movement and knee drive required to clear the leg while maintaining all upper body pressure. Focus on not creating space or lifting weight. 15-20 repetitions per session.
-(Resistance: Light)
 
 **Phase 4: Full Pass Sequence (Weeks 7-8)** - Completing entire pass from setup to side control consolidation
 Execute full passing sequence from initial underhook establishment through to secure side control. Partner provides moderate resistance, attempting to maintain half guard and prevent pass. Practice transitioning smoothly between all phases without losing pressure. Aim for 8-10 successful completions per session.
-(Resistance: Medium)
 
 **Phase 5: Counter Management (Weeks 9-10)** - Dealing with common defensive responses and counters
 Partner actively attempts specific counters (underhook battle, knee shield, lockdown, turning to turtle). Practice recognizing and addressing each counter without losing position. Work on problem-solving in real-time while maintaining passing pressure. Focus on one counter type per session until comfortable with responses.
-(Resistance: Medium)
 
 **Phase 6: Live Integration (Week 11+)** - Applying pass against full resistance in positional sparring
 Start in half guard top with goal of completing underhook pass. Partner provides full resistance using any legal defensive techniques. Time rounds (3-5 minutes) and track success rate. Focus on maintaining technical precision under pressure and recognizing optimal moments to initiate pass versus other passing options.
-(Resistance: Full)
 
 
 

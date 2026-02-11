@@ -157,7 +157,7 @@ This pass is most effective when the bottom player's hips begin to sag from fati
 Strategically, this pass works as a pressure-based counter to the high-energy inverted guard game. While many practitioners attempt to avoid engagement with inverted guards entirely, the pressure pass through center embraces direct confrontation, using superior weight distribution and timing to break through the guard structure. This approach is particularly valuable when you recognize that the bottom player is tiring or has overcommitted to an attack, creating the window for your forward drive.
 
 **From Position**: [[Grasshopper Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize timing window**: Watch for opponent's hips to sag below chest height or for them to commit both legs to an entanglement attempt, creating momentary vulnerability in their inverted structure. (Timing: Wait for hip drop or attack commitment)
-2. **Lower your level**: Drop your hips and chest low, positioning your weight to drive forward rather than down. Your knees should be bent with your weight loaded on your toes, ready to explode forward through their guard. (Timing: Immediately upon recognizing window)
-3. **Control the legs**: As you initiate forward drive, use your arms to trap opponent's legs against their body or push them toward their chest. This prevents them from re-establishing hooks or creating space for guard recovery. (Timing: Simultaneous with forward drive)
-4. **Drive through center**: Explode forward with your chest and hips, driving your weight directly through the center of their guard. Your shoulder should contact their midsection as you stack their inverted posture, collapsing their hip elevation. (Timing: Explosive forward movement)
-5. **Establish crossface**: As you drive past their legs, immediately establish heavy crossface pressure with your shoulder and forearm against their jaw and neck. This prevents them from turning into you or re-inverting to recover guard. (Timing: As you clear their legs)
-6. **Consolidate side control**: Complete the pass by settling your hips low against their hips, maintaining crossface pressure, and controlling their far arm with your free hand. Ensure their legs are completely cleared before settling weight. (Timing: Immediately after clearing legs)
+1. **Recognize timing window**: Watch for opponent's hips to sag below chest height or for them to commit both legs to an entanglement attempt, creating momentary vulnerability in their inverted structure.
+2. **Lower your level**: Drop your hips and chest low, positioning your weight to drive forward rather than down. Your knees should be bent with your weight loaded on your toes, ready to explode forward through their guard.
+3. **Control the legs**: As you initiate forward drive, use your arms to trap opponent's legs against their body or push them toward their chest. This prevents them from re-establishing hooks or creating space for guard recovery.
+4. **Drive through center**: Explode forward with your chest and hips, driving your weight directly through the center of their guard. Your shoulder should contact their midsection as you stack their inverted posture, collapsing their hip elevation.
+5. **Establish crossface**: As you drive past their legs, immediately establish heavy crossface pressure with your shoulder and forearm against their jaw and neck. This prevents them from turning into you or re-inverting to recover guard.
+6. **Consolidate side control**: Complete the pass by settling your hips low against their hips, maintaining crossface pressure, and controlling their far arm with your free hand. Ensure their legs are completely cleared before settling weight.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this pass works as a pressure-based counter to the high-energy in
 ## Training Progressions
 **Week 1-2** - Timing recognition
 Partner holds grasshopper guard and signals when their hips drop. Practice recognizing the timing window without fully executing the pass. Focus on reading hip elevation and body tension that indicates fatigue or commitment to attack.
-(Resistance: None)
 
 **Week 3-4** - Mechanics and pressure
 Execute full pass with partner providing light resistance. Focus on generating pressure through chest and hips rather than arms. Partner allows pass to complete but provides feedback on pressure quality and timing.
-(Resistance: Light)
 
 **Week 5-6** - Counter-defense integration
 Partner actively attempts counters including re-inversion, Granby rolls, and leg entanglements. Practice adjusting your drive and maintaining pressure through their defensive attempts. Develop feel for when to backstep versus continue forward.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply pressure pass in live rolling situations against various inverted guard players. Integrate with other passing options, using pressure pass when timing is right and circling or backstep passes when opponent's structure is strong.
-(Resistance: Full)
 
 
 

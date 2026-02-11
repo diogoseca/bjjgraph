@@ -387,11 +387,11 @@ Attempt collar sleeve sweep (pendulum, flower, or scissor). If partner defends a
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 25% |
-| Intermediate | 65% | 55% | 40% |
-| Advanced     | 80% | 70% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 62% |
+| Submission Probability | 48% |
 
 **Average Time in Position**: 45-90 seconds before sweep attempt or position change
 

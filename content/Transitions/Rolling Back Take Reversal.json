@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Rolling Back Take Reversal is an advanced escape technique used when trapped in an opponent's body triangle from the defensive (top) position. Rather than fighting the crushing pressure of the triangle lock directly, this technique uses momentum and rotation to reverse the position entirely, ending with you taking back control of your opponent. The technique exploits the inherent commitment of the body triangle - once locked, your opponent cannot easily disengage their legs, making them vulnerable to being carried through a rolling motion.\n\nThis reversal represents a high-risk, high-reward option in the back defense hierarchy. While most escapes from body triangle focus on clearing the leg lock and turning to face the opponent, the rolling reversal capitalizes on windows of opportunity when your opponent overcommits to an upper body attack or loses chest-to-back connection. The technique requires precise timing, understanding of weight distribution, and commitment to the rolling motion once initiated.\n\nStrategically, this escape works best against opponents who squeeze aggressively with the body triangle while hunting for chokes. Their focus on the submission creates momentary lapses in base maintenance, providing the window needed to execute the roll. The technique is particularly effective in no-gi where friction is reduced and rolling mechanics are more fluid.",
   "key_principles": [
     "Timing over strength - initiate the roll when opponent commits to a choke attempt or adjusts their upper body position, creating momentary instability in their base",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Assess triangle configuration",
-      "description": "Identify which leg crosses over in the body triangle lock - you will roll toward the side where their foot is locked behind their knee. This determines your entire rolling direction and posting arm.",
-      "timing": "During initial defensive positioning"
+      "description": "Identify which leg crosses over in the body triangle lock - you will roll toward the side where their foot is locked behind their knee. This determines your entire rolling direction and posting arm."
     },
     {
       "step_number": 2,
       "action": "Control the choking arm",
-      "description": "Secure two-on-one grip on opponent's choking arm (the arm threatening your neck), pulling it across your body toward the rolling direction. This prevents them from posting and adds rotational momentum.",
-      "timing": "When opponent commits to choke attempt"
+      "description": "Secure two-on-one grip on opponent's choking arm (the arm threatening your neck), pulling it across your body toward the rolling direction. This prevents them from posting and adds rotational momentum."
     },
     {
       "step_number": 3,
       "action": "Create hip angle",
-      "description": "Turn your hips slightly toward the triangle leg side, reducing the direct squeezing pressure and positioning your body to rotate around your shoulder as the axis point. Your far hip should lift slightly off the mat.",
-      "timing": "Immediately after securing arm control"
+      "description": "Turn your hips slightly toward the triangle leg side, reducing the direct squeezing pressure and positioning your body to rotate around your shoulder as the axis point. Your far hip should lift slightly off the mat."
     },
     {
       "step_number": 4,
       "action": "Post and initiate roll",
-      "description": "Plant your far-side hand on the mat as a posting point, then drive your hips over your shoulder in a committed rolling motion toward the locked triangle side. Use your controlled arm grip to pull opponent with you through the rotation.",
-      "timing": "Explosive initiation when opponent's weight shifts"
+      "description": "Plant your far-side hand on the mat as a posting point, then drive your hips over your shoulder in a committed rolling motion toward the locked triangle side. Use your controlled arm grip to pull opponent with you through the rotation."
     },
     {
       "step_number": 5,
       "action": "Complete the rotation",
-      "description": "Continue the rolling momentum fully through 180 degrees until you land with your back on opponent's chest. Maintain the arm control throughout to prevent them from recovering position or posting to stop the roll.",
-      "timing": "Continuous motion without pause"
+      "description": "Continue the rolling momentum fully through 180 degrees until you land with your back on opponent's chest. Maintain the arm control throughout to prevent them from recovering position or posting to stop the roll."
     },
     {
       "step_number": 6,
       "action": "Establish back control",
-      "description": "As you complete the roll and land on top, immediately insert your hooks inside opponent's thighs and establish harness grip with your arms. The body triangle may still be partially locked but is now ineffective with you on top. Work to clear it while maintaining your new dominant position.",
-      "timing": "Immediately upon completing roll"
+      "description": "As you complete the roll and land on top, immediately insert your hooks inside opponent's thighs and establish harness grip with your arms. The body triangle may still be partially locked but is now ineffective with you on top. Work to clear it while maintaining your new dominant position."
     }
   ],
   "common_counters": [
@@ -134,26 +123,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rolling mechanics",
-      "description": "Practice the rolling motion without resistance. Partner maintains loose body triangle while you drill the arm control, hip angle creation, and rolling motion. Focus on smooth technique and proper direction (toward locked leg). 50 repetitions per side.",
-      "resistance_level": "None"
+      "description": "Practice the rolling motion without resistance. Partner maintains loose body triangle while you drill the arm control, hip angle creation, and rolling motion. Focus on smooth technique and proper direction (toward locked leg). 50 repetitions per side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing windows",
-      "description": "Partner applies moderate body triangle pressure and simulates choke attempts. Practice recognizing the timing windows when their commitment to the choke creates the opportunity for the roll. Partner provides feedback on timing quality.",
-      "resistance_level": "Light"
+      "description": "Partner applies moderate body triangle pressure and simulates choke attempts. Practice recognizing the timing windows when their commitment to the choke creates the opportunity for the roll. Partner provides feedback on timing quality."
     },
     {
       "phase": "Week 5-6",
       "focus": "Completion and control",
-      "description": "Full technique sequences with partner providing realistic resistance. Focus on completing the roll AND immediately establishing back control with hooks and harness. Partner attempts to scramble after the roll to test your follow-through.",
-      "resistance_level": "Medium"
+      "description": "Full technique sequences with partner providing realistic resistance. Focus on completing the roll AND immediately establishing back control with hooks and harness. Partner attempts to scramble after the roll to test your follow-through."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Implement in positional sparring starting from body triangle. Partner uses full resistance and counters. Develop ability to recognize when the technique is available versus when standard escapes are better options. Track success rate and adjust timing.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring starting from body triangle. Partner uses full resistance and counters. Develop ability to recognize when the technique is available versus when standard escapes are better options. Track success rate and adjust timing."
     }
   ],
   "variants_and_adaptations": [
@@ -176,43 +161,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Rolling Back Take Reversal?",
-      "answer": "The primary goal is to completely reverse the back control position by using a rolling motion to escape the body triangle and end up with back control of your opponent. Rather than just escaping to neutral, this technique turns defense into offense by capitalizing on the opponent's committed leg position.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to completely reverse the back control position by using a rolling motion to escape the body triangle and end up with back control of your opponent. Rather than just escaping to neutral, this technique turns defense into offense by capitalizing on the opponent's committed leg position."
     },
     {
       "question": "Which direction should you roll relative to the body triangle configuration?",
-      "answer": "Always roll toward the side where the opponent's foot is locked behind their knee (the triangle lock side). Rolling in this direction works with the natural mechanics of the position, using the locked leg as a pivot point. Rolling the opposite direction works against the triangle structure and is significantly harder to execute.",
-      "difficulty": "Beginner"
+      "answer": "Always roll toward the side where the opponent's foot is locked behind their knee (the triangle lock side). Rolling in this direction works with the natural mechanics of the position, using the locked leg as a pivot point. Rolling the opposite direction works against the triangle structure and is significantly harder to execute."
     },
     {
       "question": "What grip must you secure before initiating the rolling motion?",
-      "answer": "You must secure two-on-one control of the opponent's choking arm (the arm threatening your neck). This grip serves multiple purposes: it prevents them from posting to stop the roll, adds rotational momentum to carry them through the motion, and protects your neck during the transition. Never attempt the roll without this arm control.",
-      "difficulty": "Intermediate"
+      "answer": "You must secure two-on-one control of the opponent's choking arm (the arm threatening your neck). This grip serves multiple purposes: it prevents them from posting to stop the roll, adds rotational momentum to carry them through the motion, and protects your neck during the transition. Never attempt the roll without this arm control."
     },
     {
       "question": "Your opponent squeezes the body triangle extremely tight - how does this affect your ability to execute the roll?",
-      "answer": "A very tight squeeze actually makes the roll more difficult because you cannot create the necessary hip angle to initiate rotation. In this case, work standard escape techniques first (hip escape, pressure toward the mat, attacking the locked foot) to create some space and reduce pressure before attempting the roll. The technique requires slight hip mobility to execute properly.",
-      "difficulty": "Intermediate"
+      "answer": "A very tight squeeze actually makes the roll more difficult because you cannot create the necessary hip angle to initiate rotation. In this case, work standard escape techniques first (hip escape, pressure toward the mat, attacking the locked foot) to create some space and reduce pressure before attempting the roll. The technique requires slight hip mobility to execute properly."
     },
     {
       "question": "What is the optimal timing window to attempt this technique?",
-      "answer": "The optimal window is when your opponent commits to a choke attempt or adjusts their upper body grips. During these moments, their focus shifts away from base maintenance, their chest-to-back connection loosens slightly, and their weight distribution changes. This creates the momentary instability needed to execute the roll before they can react and post to stop it.",
-      "difficulty": "Advanced"
+      "answer": "The optimal window is when your opponent commits to a choke attempt or adjusts their upper body grips. During these moments, their focus shifts away from base maintenance, their chest-to-back connection loosens slightly, and their weight distribution changes. This creates the momentary instability needed to execute the roll before they can react and post to stop it."
     },
     {
       "question": "After completing the roll, what must you immediately do to secure the position?",
-      "answer": "Immediately insert your hooks inside opponent's thighs and establish harness grip (seatbelt) with your arms. The body triangle may still be partially locked but becomes ineffective when you're on top. If you pause after the roll without establishing control, the opponent will scramble and either recover guard or reverse position, negating all your effort.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately insert your hooks inside opponent's thighs and establish harness grip (seatbelt) with your arms. The body triangle may still be partially locked but becomes ineffective when you're on top. If you pause after the roll without establishing control, the opponent will scramble and either recover guard or reverse position, negating all your effort."
     },
     {
       "question": "How do you respond if opponent posts their arm to stop your rolling attempt?",
-      "answer": "If opponent successfully posts to stop the roll, abort the technique immediately and return to standard escape sequences. Do not force a failed roll, as this wastes energy and can leave you in a worse position. The posting arm indicates you either didn't secure adequate arm control or mistimed the attempt. Reset your defense and wait for a better opportunity.",
-      "difficulty": "Advanced"
+      "answer": "If opponent successfully posts to stop the roll, abort the technique immediately and return to standard escape sequences. Do not force a failed roll, as this wastes energy and can leave you in a worse position. The posting arm indicates you either didn't secure adequate arm control or mistimed the attempt. Reset your defense and wait for a better opportunity."
     },
     {
       "question": "Why is commitment so critical once you initiate the rolling motion?",
-      "answer": "Half-completed rolls leave you in the worst possible position - stuck on your side with the body triangle still locked and your neck exposed from a new angle. The opponent can easily adjust and finish their choke from this compromised position. Once initiated, the roll must be driven through the full 180-degree rotation. There is no safe middle ground.",
-      "difficulty": "Advanced"
+      "answer": "Half-completed rolls leave you in the worst possible position - stuck on your side with the body triangle still locked and your neck exposed from a new angle. The opponent can easily adjust and finish their choke from this compromised position. Once initiated, the roll must be driven through the full 180-degree rotation. There is no safe middle ground."
     }
   ],
   "safety_considerations": "This technique involves a controlled rolling motion while under body triangle pressure, which carries inherent risks. The breathing restriction from the body triangle means you should never attempt this when already exhausted or oxygen-depleted - failed attempts in this state can lead to panic and poor decision-making. Practice the rolling mechanics extensively at low resistance before attempting against aggressive partners. Be aware that the roll can place stress on neck and shoulder structures if executed improperly. If you feel your neck being cranked during the rotation, abandon the attempt immediately. Partners should release the body triangle if the rolling person taps or shows signs of distress. In training, establish clear communication about resistance levels before starting positional rounds.",
@@ -250,5 +227,6 @@
       "name": "Granby Roll Escape",
       "relationship": "Related technique - similar rolling mechanics used in guard recovery"
     }
-  ]
+  ],
+  "success_rate": 58
 }

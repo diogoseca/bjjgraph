@@ -362,11 +362,11 @@ Top player starts trapped in lockdown, bottom player works for sweeps and submis
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 25% | 10% |
-| Intermediate | 55% | 40% | 20% |
-| Advanced     | 70% | 55% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 48% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 2-4 minutes to extract leg and complete pass depending on opponent's lockdown skill
 

@@ -17,7 +17,7 @@ description: "Master the Reverse Mount Transition from North-South. Step-by-step
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Reverse Mount Transition in BJJ",
-  "description": "Step-by-step guide for Reverse Mount Transition from North South Control/Top. Possible outcomes: Reverse Mount (65%), North South Control (25%), Half Guard (10%).",
+  "description": "Step-by-step guide for Reverse Mount Transition from North-South/Top. Possible outcomes: Reverse Mount (65%), North-South (25%), Half Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -156,8 +156,8 @@ From a tactical standpoint, reverse mount offers a unique combination of control
 
 The transition requires precise weight management and timing. Moving from North-South chest pressure to a seated position creates a vulnerability window where the opponent can escape if the transition is executed poorly. Success depends on maintaining continuous pressure throughout the movement, securing hip control before releasing chest pressure, and establishing the mounted position before the opponent can create defensive frames or hip escape.
 
-**From Position**: [[North South Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[North-South/Top]]
+**Success Rate**: 58%
 
 </section>
 
@@ -168,7 +168,7 @@ The transition requires precise weight management and timing. Moving from North-
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Reverse Mount]] | 65% |
-| Failure | [[North South Control]] | 25% |
+| Failure | [[North-South]] | 25% |
 | Counter | [[Half Guard]] | 10% |
 
 
@@ -205,12 +205,12 @@ The transition requires precise weight management and timing. Moving from North-
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate North-South**: Ensure your North-South control is fully established with heavy chest pressure on the opponent's sternum. Your hips should be near their head, your head near their hips, with a wide base from your knees. Secure control of at least one arm through underhook or wrist control. (Timing: Confirm stable position before initiating)
-2. **Shift weight to hips**: Begin transferring your weight from your chest toward your hips by sliding your body toward the opponent's waist. Maintain downward pressure throughout this shift—do not lift up. Your chest slides across their torso as you move toward their hip line. (Timing: Smooth, continuous motion)
-3. **Establish hip control**: As your hips reach the opponent's waist level, begin bringing your legs around to frame against their shoulders and head. Your knees should pinch against their body while your feet hook near their armpits or shoulders to prevent them from sitting up. (Timing: Legs move as hips settle)
-4. **Complete the spin**: Execute a spinning motion to fully rotate your body 180 degrees from the original North-South orientation. Your seat should land on the opponent's lower abdomen or hip area. Keep your weight heavy throughout the rotation, never allowing space beneath you. (Timing: Single smooth rotation)
-5. **Secure arm control**: Immediately upon achieving the seated reverse mount position, locate and control both of the opponent's arms. They will naturally reach toward you to create frames or attempt escapes—trap these arms by pinning them with your hands or legs to set up armbar attacks. (Timing: Immediate upon landing)
-6. **Establish final position**: Settle your weight low on the opponent's hips with your legs framing their upper body. Your posture should be slightly forward to prevent them from sitting up, with your hands controlling their wrists or elbows. From here, you can attack armbars on either arm or transition to other positions as needed. (Timing: Stabilize before attacking)
+1. **Consolidate North-South**: Ensure your North-South control is fully established with heavy chest pressure on the opponent's sternum. Your hips should be near their head, your head near their hips, with a wide base from your knees. Secure control of at least one arm through underhook or wrist control.
+2. **Shift weight to hips**: Begin transferring your weight from your chest toward your hips by sliding your body toward the opponent's waist. Maintain downward pressure throughout this shift—do not lift up. Your chest slides across their torso as you move toward their hip line.
+3. **Establish hip control**: As your hips reach the opponent's waist level, begin bringing your legs around to frame against their shoulders and head. Your knees should pinch against their body while your feet hook near their armpits or shoulders to prevent them from sitting up.
+4. **Complete the spin**: Execute a spinning motion to fully rotate your body 180 degrees from the original North-South orientation. Your seat should land on the opponent's lower abdomen or hip area. Keep your weight heavy throughout the rotation, never allowing space beneath you.
+5. **Secure arm control**: Immediately upon achieving the seated reverse mount position, locate and control both of the opponent's arms. They will naturally reach toward you to create frames or attempt escapes—trap these arms by pinning them with your hands or legs to set up armbar attacks.
+6. **Establish final position**: Settle your weight low on the opponent's hips with your legs framing their upper body. Your posture should be slightly forward to prevent them from sitting up, with your hands controlling their wrists or elbows. From here, you can attack armbars on either arm or transition to other positions as needed.
 
 
 </section>
@@ -252,19 +252,15 @@ The transition requires precise weight management and timing. Moving from North-
 ## Training Progressions
 **Week 1-2** - Movement mechanics
 Practice the spinning transition from North-South to reverse mount with a non-resisting partner. Focus on maintaining continuous pressure throughout the movement and landing in the correct position on the opponent's hips. Drill both directions of the spin.
-(Resistance: None)
 
 **Week 3-4** - Timing and entry recognition
 Partner provides light defensive reactions during the transition. Practice recognizing when North-South control is sufficiently established to initiate the spin, and timing the transition to avoid bridge attempts.
-(Resistance: Light)
 
 **Week 5-6** - Submission combinations
 Chain the reverse mount transition into armbar attacks on both arms. Practice the full sequence from North-South through reverse mount to submission finish. Partner provides moderate resistance and defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live sparring integration
 Incorporate the transition into live rolling situations. Focus on recognizing opportunities from North-South when submissions are defended, and executing the transition under full resistance with follow-up attacks.
-(Resistance: Full)
 
 
 
@@ -340,7 +336,7 @@ The Reverse Mount Transition expands your North-South attack options by providin
 
 ## Related Techniques
 
-- [[North South Control]] - Starting position for this transition
+- [[North-South]] - Starting position for this transition
 - [[Reverse Mount]] - Target position achieved through this transition
 - [[Armbar from Mount]] - Primary submission follow-up from reverse mount
 - [[Kimura from North-South]] - Alternative attack if reverse mount transition is defended

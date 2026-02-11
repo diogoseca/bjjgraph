@@ -166,17 +166,19 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Armbar from Mount]]** (35% of attempts)
+- **[[Armbar from Mount]]** (29% of attempts)
 
-- **[[Triangle from Mount]]** (20% of attempts)
+- **[[Triangle from Mount]]** (17% of attempts)
 
-- **[[Americana from Mount]]** (10% of attempts)
+- **[[Americana from Mount]]** (9% of attempts)
 
-- **[[Kimura from Mount]]** (10% of attempts)
+- **[[Kimura from Mount]]** (9% of attempts)
 
-- **[[Back Take]]** (15% of attempts)
+- **[[Back Take]]** (13% of attempts)
 
-- **[[Mounted Crucifix Entry]]** (10% of attempts)
+- **[[Mounted Crucifix Entry]]** (9% of attempts)
+
+- **[[Gift Wrap to Back]]** (14% of attempts)
 
 
 ### Common Mistakes

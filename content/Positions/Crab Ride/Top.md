@@ -237,7 +237,7 @@ Crab Ride Top is particularly valued in modern no-gi grappling and MMA contexts,
 
 
 **If opponent drops head down and tucks chin defensively:**
-- Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 65%)
+- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 65%)
 - Execute **[[Anaconda from Turtle]]** → [[Anaconda Control]] (Probability: 65%)
 
 
@@ -379,11 +379,11 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 55% | 25% |
-| Intermediate | 65% | 70% | 45% |
-| Advanced     | 80% | 85% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 78% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 30-90 seconds before advancing or opponent escaping
 
@@ -400,7 +400,7 @@ Partner in turtle randomly performs different defensive actions (turning in, sit
 - **[[Crucifix]]** - Common transition target
 - **[[Cross Body Ride]]** - Similar turtle attack position
 - **[[Rodeo Ride]]** - Alternative turtle control variation
-- **[[D'arce Control]]** - Direct submission target from this position
+- **[[Darce Control]]** - Direct submission target from this position
 - **[[Anaconda Control]]** - Direct submission target from this position
 - **[[Front Headlock]]** - Alternative turtle attack position
 

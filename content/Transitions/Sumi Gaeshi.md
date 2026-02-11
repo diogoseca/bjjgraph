@@ -157,7 +157,7 @@ In modern BJJ, Sumi Gaeshi serves multiple strategic purposes: as a direct taked
 The beauty of Sumi Gaeshi lies in its versatility across different grip configurations and situations. Whether you're working with collar and sleeve grips in the gi, double underhooks in no-gi, or countering a standing opponent from guard, the core mechanics remain consistent: create an angle, drop your weight, position your lifting leg at their hip or thigh, and execute the circular throwing motion that brings them overhead into a dominant position.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips and break posture**: From standing, secure strong grips on your opponent's collar and sleeve (gi) or establish double underhooks (no-gi). Pull their upper body forward to break their posture and bring their weight toward you. Their chest should be leaning over their front foot. (Timing: Initial setup phase)
-2. **Create angle by stepping offline**: Step to the outside at approximately 45 degrees with your non-throwing leg. This lateral movement creates the angle necessary for the throw and positions you perpendicular to your opponent's forward momentum rather than directly in front of them. (Timing: As opponent steps forward or pressures in)
-3. **Position lifting leg at hip**: Raise your inside leg and place your foot firmly against your opponent's hip or inner thigh on the same side. The foot should be positioned high on the hip, not at the knee. Your toes should point slightly outward to create maximum leverage for the lifting motion. (Timing: Immediately after creating the angle)
-4. **Drop and sacrifice your base**: Commit fully to the technique by dropping your bodyweight straight down and backward. Sit through completely, rolling onto your back. This sacrifice of your base is what generates the momentum for the throw. Keep your grips tight as you fall. (Timing: Single fluid motion with leg placement)
-5. **Execute circular throwing motion**: As you land on your back, extend your lifting leg in a circular arc while simultaneously pulling your opponent's upper body over your centerline with your grips. The motion should be circular and upward, not straight. Your opponent should be swept overhead in an arc. (Timing: Immediate extension as your back contacts the mat)
-6. **Continue rotation to mount**: Maintain your grips and continue the rotational momentum, following your opponent over as they fall. Release your lifting leg and use the momentum to come up on top. Land in mount or side control position. Keep your weight heavy and establish immediate control. (Timing: As opponent passes overhead)
+1. **Establish grips and break posture**: From standing, secure strong grips on your opponent's collar and sleeve (gi) or establish double underhooks (no-gi). Pull their upper body forward to break their posture and bring their weight toward you. Their chest should be leaning over their front foot.
+2. **Create angle by stepping offline**: Step to the outside at approximately 45 degrees with your non-throwing leg. This lateral movement creates the angle necessary for the throw and positions you perpendicular to your opponent's forward momentum rather than directly in front of them.
+3. **Position lifting leg at hip**: Raise your inside leg and place your foot firmly against your opponent's hip or inner thigh on the same side. The foot should be positioned high on the hip, not at the knee. Your toes should point slightly outward to create maximum leverage for the lifting motion.
+4. **Drop and sacrifice your base**: Commit fully to the technique by dropping your bodyweight straight down and backward. Sit through completely, rolling onto your back. This sacrifice of your base is what generates the momentum for the throw. Keep your grips tight as you fall.
+5. **Execute circular throwing motion**: As you land on your back, extend your lifting leg in a circular arc while simultaneously pulling your opponent's upper body over your centerline with your grips. The motion should be circular and upward, not straight. Your opponent should be swept overhead in an arc.
+6. **Continue rotation to mount**: Maintain your grips and continue the rotational momentum, following your opponent over as they fall. Release your lifting leg and use the momentum to come up on top. Land in mount or side control position. Keep your weight heavy and establish immediate control.
 
 
 </section>
@@ -257,23 +257,18 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Body positioning and angle creation
 Practice the entry footwork and angle creation from standing position. Drill the dropping motion and leg placement without resistance. Partner holds grips but remains stationary. Focus on proper foot position at hip and clean backward fall.
-(Resistance: None)
 
 **Week 3-4: Coordinated Execution** - Timing and momentum generation
 Add the pulling motion with grips synchronized to the leg extension. Partner allows the throw but doesn't actively help. Practice the complete circular motion and landing in mount. Drill 10-15 repetitions per training session.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Entries** - Setups from various grips and positions
 Practice Sumi Gaeshi from different grip configurations: collar-sleeve, double underhooks, belt grips. Add entries from seated butterfly guard and standing positions. Partner provides moderate resistance and defensive reactions.
-(Resistance: Medium)
 
 **Week 9-12: Reactive Application** - Timing against opponent movement
 Execute technique against moving partners who actively defend and adjust their base. Chain Sumi Gaeshi with other techniques when countered. Practice reading opponent's weight distribution and committing at the right moment.
-(Resistance: Full)
 
 **Month 4+: Competition Integration** - High-percentage setups and combinations
 Implement Sumi Gaeshi in live rolling and competition scenarios. Develop personal setups based on your gripping preferences. Chain with other takedowns, sweeps, and guard pulls. Recognize ideal timing windows against specific opponent reactions.
-(Resistance: Full)
 
 
 

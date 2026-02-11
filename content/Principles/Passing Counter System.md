@@ -45,7 +45,7 @@ description: "Master systematic guard passing defense in BJJ. Learn defensive fr
     {
       "@type": "HowToStep",
       "name": "Execute primary counter technique",
-      "text": "Deploy appropriate counter based on passing style and commitment: pressure passes → underhook sweeps or deep half entries; dynamic passes → leg entanglements or off-balancing; standing passes → guard pulls or technical stand-ups.",
+      "text": "Deploy appropriate counter based on passing style and commitment: pressure passes to underhook sweeps or deep half entries; dynamic passes to leg entanglements or off-balancing; standing passes to guard pulls or technical stand-ups.",
       "position": 5
     },
     {
@@ -250,7 +250,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 2. **Establish appropriate defensive structure**: Create frames and connections specific to identified passing style - extended frames for pressure passes, active hooks for dynamic passes, shin shields for standing passes. Ensure defensive structure simultaneously defends and prepares counters.
 3. **Win critical grip battles**: Fight to deny opponent's optimal passing grips while establishing own grips that facilitate counters. For pressure passes, prevent crossface and underhook control; for dynamic passes, maintain distance grips; for leg weaves, control far leg or collar.
 4. **Recognize passing commitment moment**: Identify when opponent commits weight, changes grips, or advances position - these commitment points create temporary vulnerabilities. Watch for weight shifts forward, base narrowing, or grip changes that signal attack windows.
-5. **Execute primary counter technique**: Deploy appropriate counter based on passing style and commitment: pressure passes → underhook sweeps or deep half entries; dynamic passes → leg entanglements or off-balancing; standing passes → guard pulls or technical stand-ups.
+5. **Execute primary counter technique**: Deploy appropriate counter based on passing style and commitment: pressure passes to underhook sweeps or deep half entries; dynamic passes to leg entanglements or off-balancing; standing passes to guard pulls or technical stand-ups.
 6. **Assess counter success and opponent response**: If counter achieves sweep or back take, consolidate position. If countered or defended, immediately transition to secondary counter option - maintain offensive pressure through counter chains rather than resetting to pure defense after each attempt.
 7. **Implement backup guard recovery**: If primary and secondary counters are defended and passing progresses, execute emergency guard recovery protocols - create space through hip escape, recover guard hooks, or enter tactical retreat positions like turtle or defensive guard variations.
 8. **Reset defensive structure and repeat cycle**: Upon successful guard recovery, immediately re-establish frames and grips to prevent second passing attempt. Use knowledge from first passing sequence to anticipate opponent's likely follow-up and prepare appropriate counters.
@@ -293,7 +293,7 @@ Modern passing counter systems have evolved to address the diverse passing meta-
 Partner begins passing attempts from various guards using specific passing styles (pressure, dynamic, standing). Defender identifies passing style and executes appropriate counter within first 2-3 seconds of passing initiation. Focus on early recognition rather than full execution. Progress from single passing style repetitions to random style mixing to develop automatic pattern recognition responses.
 
 **Counter Chain Flow Drilling** (Focus: Building fluidity in counter chains and developing the ability to maintain offensive pressure through multiple counter attempts)
-From specific guard positions, practice flowing between multiple counter options in response to partner's defensive reactions. For example, from butterfly guard: attempt hook sweep → if defended, transition to X-guard → if defended, enter single leg X → if defended, execute technical stand-up. Focus on smooth transitions between options without resetting to neutral.
+From specific guard positions, practice flowing between multiple counter options in response to partner's defensive reactions. For example, from butterfly guard: attempt hook sweep, if defended transition to X-guard, if defended enter single leg X, if defended execute technical stand-up. Focus on smooth transitions between options without resetting to neutral.
 
 **Style-Specific Counter Positional Sparring** (Focus: Developing style-specific counter expertise and building endurance in maintaining defensive pressure over extended periods)
 Restricted sparring where top player commits to using only one passing category (e.g., only pressure passes) while bottom player practices appropriate counter system. Rotate through all passing style categories across training sessions. Bottom player gets point for successful counter, top gets point for passing completion. Time rounds at 3-5 minutes to develop endurance in counter systems.
@@ -364,7 +364,7 @@ Partner executes specific passing sequences in slow motion, pausing at commitmen
 - **[[Guard Passing]]** (Complementary): Understanding passing mechanics from the passer's perspective reveals the specific commitments and vulnerabilities that counter systems exploit. The relationship is inversely symmetrical - every passing principle creates a corresponding counter principle.
 - **[[Dilemma Creation]]** (Extension): Passing counter systems represent applied dilemma creation where defensive positioning forces opponents to choose between advancing position and maintaining control, with either choice creating specific counter opportunities. This extends basic dilemma concepts into systematic defensive frameworks.
 - **[[Timing and Rhythm]]** (Prerequisite): Counter-attack timing depends on rhythm sensitivity to recognize the specific moments when passing opponents are most vulnerable. Without timing awareness, even technically sound counters will fail due to poor execution windows.
-- **[[Position Transitions]]** (Complementary): Passing counters fundamentally involve position transitions from defensive guards to offensive positions or sweeps. Understanding transition mechanics ensures smooth execution of counters without getting caught in intermediate scramble positions.
+- **[[Connection Principles]]** (Complementary): Passing counters fundamentally involve maintaining and breaking connections during transitions from defensive guards to offensive positions or sweeps. Understanding connection mechanics ensures smooth execution of counters without getting caught in intermediate scramble positions.
 - **[[Frame Management]]** (Prerequisite): Effective frames provide the distance control and structural integrity necessary to execute counter techniques. Frame management creates the space and leverage required for hip escapes, inversions, and entries to counter positions.
 - **[[Grip Fighting]]** (Prerequisite): Strategic grip fighting provides the control necessary to deny passing grips while establishing counter-attack grips. Grip strategies determine which passing attempts are viable and which counter options are available.
 - **[[Action and Reaction]]** (Complementary): Counter systems exploit the action-reaction principle where passing commitments create reactive counter opportunities. Understanding this principle allows defenders to manipulate opponent actions to create desired reactions.
@@ -382,7 +382,7 @@ Partner executes specific passing sequences in slow motion, pausing at commitmen
 - [[Dilemma Creation]] (Principle) - Strategic framework that counter systems apply to force opponents into lose-lose scenarios during passing attempts
 - [[Frame Management]] (Principle) - Technical foundation providing the distance control and structural integrity necessary for counter execution
 - [[Timing and Rhythm]] (Principle) - Perceptual skill enabling recognition of optimal counter-attack windows during passing sequences
-- [[Position Transitions]] (Principle) - Mechanical framework governing smooth transitions from defensive guards to offensive counter positions
+- [[Connection Principles]] (Principle) - Mechanical framework governing how connections are maintained and broken during transitions from defensive guards to offensive counter positions
 - [[Closed Guard]] (Position) - Primary position where counter system emphasizes preventing guard opening while preparing offensive attacks
 - [[Half Guard]] (Position) - Key position where counter system focuses on underhook battles and preventing flattening while setting up sweeps
 - [[Butterfly Guard]] (Position) - Dynamic position where counter system emphasizes hook maintenance and elevation timing for sweeps

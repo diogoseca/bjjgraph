@@ -157,7 +157,7 @@ The submission works within the truck's dilemma system: when opponents defend up
 Strategically, the calf slicer serves multiple purposes. As a standalone finish, it generates rapid tap-outs due to the pain and knee threat. As a positional tool, threatening the calf slicer forces opponents to address their leg position, which often opens up twister entries or back control transitions. Advanced practitioners use the calf slicer threat to manipulate opponent reactions rather than always seeking the finish itself.
 
 **From Position**: [[Truck/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the calf slicer serves multiple purposes. As a standalone finish,
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm truck control**: Verify boot pressure is solid against opponent's hip and leg entanglement is secure. Your shin should be positioned behind their trapped leg's calf muscle. Maintain upper body connection to prevent rolling escapes. (Timing: Before initiating submission sequence)
-2. **Control ankle and foot**: Secure grip on opponent's ankle or foot with your hands, preventing them from bending their knee to escape the compression. Cup their heel or grip the ankle joint directly for maximum control over leg extension. (Timing: Immediately upon deciding to attack calf slicer)
-3. **Position shin across calf**: Ensure your shin bone is wedged directly across the back of their calf muscle, perpendicular to their leg. The bony edge of your shin should press into the soft tissue of their calf, not against their Achilles or behind the knee. (Timing: While maintaining foot control)
-4. **Begin leg extension**: Start extending their trapped leg by pushing their foot away from their buttocks while simultaneously pulling their ankle toward you. Use hip movement and leg drive rather than arm strength to generate the extension force. (Timing: Controlled, gradual application)
-5. **Drive hips forward**: Push your hips forward and extend your body to amplify the compression pressure on their calf. Your hip drive creates a scissoring action between your shin and the ground, dramatically increasing submission pressure. (Timing: As extension reaches moderate resistance)
-6. **Finish or transition**: Continue extending and driving until opponent taps or submission pressure is maximized. If opponent successfully defends by bending knee or extracting leg, immediately transition to twister setup, banana split, or back control rather than forcing the finish. (Timing: Upon achieving full extension or recognizing defensive success)
+1. **Confirm truck control**: Verify boot pressure is solid against opponent's hip and leg entanglement is secure. Your shin should be positioned behind their trapped leg's calf muscle. Maintain upper body connection to prevent rolling escapes.
+2. **Control ankle and foot**: Secure grip on opponent's ankle or foot with your hands, preventing them from bending their knee to escape the compression. Cup their heel or grip the ankle joint directly for maximum control over leg extension.
+3. **Position shin across calf**: Ensure your shin bone is wedged directly across the back of their calf muscle, perpendicular to their leg. The bony edge of your shin should press into the soft tissue of their calf, not against their Achilles or behind the knee.
+4. **Begin leg extension**: Start extending their trapped leg by pushing their foot away from their buttocks while simultaneously pulling their ankle toward you. Use hip movement and leg drive rather than arm strength to generate the extension force.
+5. **Drive hips forward**: Push your hips forward and extend your body to amplify the compression pressure on their calf. Your hip drive creates a scissoring action between your shin and the ground, dramatically increasing submission pressure.
+6. **Finish or transition**: Continue extending and driving until opponent taps or submission pressure is maximized. If opponent successfully defends by bending knee or extracting leg, immediately transition to twister setup, banana split, or back control rather than forcing the finish.
 
 
 </section>
@@ -260,19 +260,15 @@ Strategically, the calf slicer serves multiple purposes. As a standalone finish,
 ## Training Progressions
 **Week 1-2** - Mechanics and positioning
 Learn proper shin placement across calf muscle, ankle control grips, and body positioning for extension. Practice on non-resisting partner, focusing on finding the correct compression angle and understanding pressure generation through hip drive.
-(Resistance: None)
 
 **Week 3-4** - Timing and entry recognition
 Practice recognizing when opponent defends upper body (twister), creating calf slicer opportunity. Partner provides light resistance and specific defensive reactions. Develop sensitivity to when calf slicer is available versus when other attacks are better options.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and transitions
 Integrate calf slicer into truck submission system, flowing between twister threat, calf slicer, banana split, and back control based on partner's defensive reactions. Practice abandoning calf slicer when defended and transitioning to alternative attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application and competition scenarios
 Apply calf slicer in positional sparring from truck position against fully resisting partners. Develop finishing ability under pressure while maintaining safety awareness. Refine timing of attack initiation and transition decisions.
-(Resistance: Full)
 
 
 

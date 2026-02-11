@@ -27,7 +27,7 @@
       "relationship": "Submission control position - arm-in front headlock transitions to anaconda by threading arm and locking gable grip"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Submission control position - front headlock converts to darce by underhooking near arm and threading opposite arm"
     },
     {
@@ -100,7 +100,7 @@
           },
           {
             "technique": "Darce Setup",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 55
           },
           {
@@ -249,7 +249,7 @@
         "relationship": "Arm-in submission option - front headlock converts to anaconda with arm trap"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Arm-in submission option - front headlock converts to darce with underhook"
       },
       {
@@ -279,21 +279,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Successfully maintaining front headlock control against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Converting front headlock to submission or better position"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Finishing submission directly from front headlock position"
       },
       "average_time": "30-90 seconds (position to submission or transition)"
@@ -301,39 +295,51 @@
     "transitions": [
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Anaconda Setup",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Darce Setup",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Front Headlock to Back",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Buggy Choke to Side Control",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Aoki Lock to Crucifix",
         "attempt_probability": 9
       },
       {
+        "transition": "Anaconda Setup",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Darce Setup",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Front Headlock to Back",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Side Control to Mount",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Buggy Choke to Side Control",
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Aoki Lock to Crucifix",
+        "attempt_probability": 7
+      },
+      {
         "transition": "Front Headlock Series Transition",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Arm Triangle from Front Headlock",
-        "attempt_probability": 10
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Guillotine Defense",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Japanese Necktie Setup",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Peruvian Necktie Setup",
+        "attempt_probability": 8
       }
     ],
     "knowledge_assessment": [
@@ -557,21 +563,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 65,
-        "intermediate": 50,
-        "advanced": 35,
+        "value": 42,
         "description": "Percentage staying in front headlock bottom (higher means failing to escape)"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
+        "value": 48,
         "description": "Successfully escaping to neutral or better position"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 30,
-        "advanced": 20,
+        "value": 25,
         "description": "Getting submitted from this position (opponent's success rate)"
       },
       "average_time": "15-45 seconds (must escape quickly or risk submission)"

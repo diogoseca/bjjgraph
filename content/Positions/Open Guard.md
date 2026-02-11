@@ -95,29 +95,33 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 ### Available Transitions
 
 
-- **[[Scissor Sweep]]** (9% of attempts)
+- **[[Scissor Sweep]]** (8% of attempts)
 
-- **[[Hip Bump Sweep]]** (9% of attempts)
+- **[[Hip Bump Sweep]]** (8% of attempts)
 
-- **[[Butterfly Sweep]]** (11% of attempts)
+- **[[Butterfly Sweep]]** (8% of attempts)
 
-- **[[De La Riva Sweep]]** (9% of attempts)
+- **[[De La Riva Sweep]]** (8% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[X-Guard Sweep]]** (9% of attempts)
 
-- **[[Spider Guard Sweeps]]** (9% of attempts)
+- **[[Spider Guard Sweeps]]** (8% of attempts)
 
-- **[[Lasso Guard Sweeps]]** (9% of attempts)
+- **[[Lasso Guard Sweeps]]** (8% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Omoplata Sweep]]** (7% of attempts)
 
-- **[[Triangle from Guard]]** (7% of attempts)
+- **[[Triangle from Guard]]** (6% of attempts)
 
-- **[[Armbar from Guard]]** (6% of attempts)
+- **[[Armbar from Guard]]** (5% of attempts)
 
-- **[[Kimura from Guard]]** (7% of attempts)
+- **[[Kimura from Guard]]** (6% of attempts)
 
-- **[[Omoplata from Guard]]** (6% of attempts)
+- **[[Omoplata from Guard]]** (5% of attempts)
+
+- **[[Float Passing]]** (7% of attempts)
+
+- **[[Open Guard to Deep Half]]** (7% of attempts)
 
 
 ### Common Mistakes

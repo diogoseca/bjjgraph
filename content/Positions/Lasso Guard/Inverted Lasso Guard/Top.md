@@ -377,11 +377,11 @@ Start in established inverted lasso guard. Top player has 2 minutes to systemati
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 5% |
-| Intermediate | 60% | 50% | 15% |
-| Advanced     | 75% | 70% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 60% |
+| Submission Probability | 22% |
 
 **Average Time in Position**: 10-30 seconds (until pass or sweep)
 

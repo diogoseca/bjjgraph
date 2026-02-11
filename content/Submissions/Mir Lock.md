@@ -163,7 +163,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral joint)
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -243,13 +243,13 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant side control position**: Secure tight side control with your chest driving into the opponent's chest, crossface applied to control their head, and your hips low to prevent them from inserting frames or shrimping away. Your weight should be distributed approximately 70% toward their head to maximize control and minimize escape options. (Timing: Take 3-5 seconds to establish solid base) [Pressure: Firm]
-2. **Isolate and capture the near-side arm**: As the opponent frames or attempts to create space with their near arm, swim your hand underneath their tricep and capture their wrist with your opposite hand. Simultaneously drive your weight forward to flatten their arm against the mat at approximately a 90-degree angle from their body. This isolation is critical - without it, the submission will fail. (Timing: 2-3 seconds to secure wrist control) [Pressure: Moderate]
-3. **Establish figure-four grip structure**: While maintaining wrist control with one hand, reach your other hand under the opponent's arm and grab your own wrist to create a figure-four configuration. Your forearm should be positioned perpendicular to the opponent's arm with your elbow pointing toward their head. This grip structure provides the mechanical advantage necessary for the submission. (Timing: 2-3 seconds to lock grip) [Pressure: Moderate]
-4. **Adjust body position for optimal leverage**: Walk your hips slightly toward the opponent's head while maintaining chest pressure on their shoulder. Your body should form approximately a 45-degree angle relative to the opponent's torso. This angle is crucial as it allows you to drive your weight through their shoulder while preventing them from rolling toward you to escape. (Timing: 1-2 seconds to position body) [Pressure: Firm]
-5. **Elevate the elbow while maintaining wrist control**: Using your figure-four grip, lift the opponent's elbow upward and slightly away from the mat while keeping their wrist controlled and driving it toward the mat. This creates the hyperextension angle at the shoulder joint. The elevation should be progressive and controlled - imagine lifting their elbow 2-3 inches off the mat rather than yanking it upward violently. (Timing: 3-4 seconds progressive elevation) [Pressure: Moderate]
-6. **Apply finishing pressure through body weight**: While maintaining the elbow elevation, drive your chest weight downward through the opponent's shoulder while simultaneously pulling their wrist toward their hip. The pressure creates external rotation combined with hyperextension at the glenohumeral joint. Apply this pressure SLOWLY over 5-7 seconds in training, monitoring for the tap continuously. In training, stop at the first sign of discomfort well before structural damage occurs. (Timing: 5-7 seconds minimum progressive pressure) [Pressure: Light]
-7. **Release immediately upon tap signal**: The instant you feel or hear a tap, immediately release all rotational pressure by dropping the elbow control and releasing your grip on the wrist. Allow the opponent's arm to return to a neutral position without any manipulation. Do not pull or push the arm - simply let it settle naturally. Verbally check with your partner to ensure they are uninjured before resuming training. (Timing: Immediate release within 1 second of tap) [Pressure: Light]
+1. **Establish dominant side control position**: Secure tight side control with your chest driving into the opponent's chest, crossface applied to control their head, and your hips low to prevent them from inserting frames or shrimping away. Your weight should be distributed approximately 70% toward their head to maximize control and minimize escape options. (Timing: Take 3-5 seconds to establish solid base)
+2. **Isolate and capture the near-side arm**: As the opponent frames or attempts to create space with their near arm, swim your hand underneath their tricep and capture their wrist with your opposite hand. Simultaneously drive your weight forward to flatten their arm against the mat at approximately a 90-degree angle from their body. This isolation is critical - without it, the submission will fail. (Timing: 2-3 seconds to secure wrist control)
+3. **Establish figure-four grip structure**: While maintaining wrist control with one hand, reach your other hand under the opponent's arm and grab your own wrist to create a figure-four configuration. Your forearm should be positioned perpendicular to the opponent's arm with your elbow pointing toward their head. This grip structure provides the mechanical advantage necessary for the submission. (Timing: 2-3 seconds to lock grip)
+4. **Adjust body position for optimal leverage**: Walk your hips slightly toward the opponent's head while maintaining chest pressure on their shoulder. Your body should form approximately a 45-degree angle relative to the opponent's torso. This angle is crucial as it allows you to drive your weight through their shoulder while preventing them from rolling toward you to escape. (Timing: 1-2 seconds to position body)
+5. **Elevate the elbow while maintaining wrist control**: Using your figure-four grip, lift the opponent's elbow upward and slightly away from the mat while keeping their wrist controlled and driving it toward the mat. This creates the hyperextension angle at the shoulder joint. The elevation should be progressive and controlled - imagine lifting their elbow 2-3 inches off the mat rather than yanking it upward violently. (Timing: 3-4 seconds progressive elevation)
+6. **Apply finishing pressure through body weight**: While maintaining the elbow elevation, drive your chest weight downward through the opponent's shoulder while simultaneously pulling their wrist toward their hip. The pressure creates external rotation combined with hyperextension at the glenohumeral joint. Apply this pressure SLOWLY over 5-7 seconds in training, monitoring for the tap continuously. In training, stop at the first sign of discomfort well before structural damage occurs. (Timing: 5-7 seconds minimum progressive pressure)
+7. **Release immediately upon tap signal**: The instant you feel or hear a tap, immediately release all rotational pressure by dropping the elbow control and releasing your grip on the wrist. Allow the opponent's arm to return to a neutral position without any manipulation. Do not pull or push the arm - simply let it settle naturally. Verbally check with your partner to ensure they are uninjured before resuming training. (Timing: Immediate release within 1 second of tap)
 
 
 </section>
@@ -269,25 +269,25 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting the submission without first establishing dominant position control [Low DANGER]
+- **Mistake**: Attempting the submission without first establishing dominant position control
   - **Consequence**: Opponent easily escapes by rolling, bridging, or creating frames to recover guard
   - **Correction**: Always establish tight side control with crossface, hip pressure, and forward weight distribution before isolating the arm - position before submission
-- **Mistake**: Applying rotational pressure too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying rotational pressure too quickly or explosively
   - **Consequence**: Catastrophic shoulder injury including rotator cuff tears, labral damage, or complete dislocation
   - **Correction**: ALWAYS apply progressive pressure over minimum 5-7 seconds in training, monitoring constantly for tap signals and stopping at first indication of discomfort
-- **Mistake**: Failing to elevate the elbow sufficiently before applying rotation [Low DANGER]
+- **Mistake**: Failing to elevate the elbow sufficiently before applying rotation
   - **Consequence**: Submission lacks mechanical effectiveness and opponent easily defends by keeping arm flat
   - **Correction**: Ensure the elbow is lifted 2-3 inches off the mat while the wrist is controlled downward, creating the hyperextension angle necessary for the submission to work
-- **Mistake**: Losing chest connection to opponent's shoulder during execution [Medium DANGER]
+- **Mistake**: Losing chest connection to opponent's shoulder during execution
   - **Consequence**: Opponent creates space to turn into you, recover guard, or escape the submission entirely
   - **Correction**: Maintain constant chest-to-shoulder pressure throughout the entire sequence, using your body weight as the primary controlling force
-- **Mistake**: Positioning body perpendicular rather than at 45-degree angle [Medium DANGER]
+- **Mistake**: Positioning body perpendicular rather than at 45-degree angle
   - **Consequence**: Opponent can easily roll toward you to escape, or you lack the proper leverage angle for effective shoulder rotation
   - **Correction**: Walk your hips toward the opponent's head to create approximately 45-degree body angle, which prevents rolling escapes while maximizing rotational leverage
-- **Mistake**: Continuing to apply pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps or shows distress
   - **Consequence**: Severe shoulder injury requiring months of recovery and potential surgery, ending training partnerships and creating unsafe gym culture
   - **Correction**: Release ALL pressure immediately upon any tap signal - verbal, physical, or implied through distress sounds - and check partner's condition before resuming
-- **Mistake**: Using only arm strength rather than body weight for finishing pressure [Low DANGER]
+- **Mistake**: Using only arm strength rather than body weight for finishing pressure
   - **Consequence**: Technique becomes ineffective against strong opponents and you fatigue quickly attempting muscular submissions
   - **Correction**: Drive pressure through your chest and core weight distribution, using your arms only to maintain grip structure and control, not as the primary force mechanism
 
@@ -352,50 +352,13 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Anatomy Education** (Week 1-2: 3-4 sessions)
-- Focus: Study shoulder anatomy, understand the mechanism of injury, learn proper body positioning and grip structures without resistance. Practice isolation of the arm and figure-four grip formation on compliant partners. Emphasis on recognizing the angles and mechanical principles before adding any pressure.
-- Resistance: None
-- Safety: Learn to identify the tap signals and practice immediate release protocol. Understand that the Mir Lock attacks the glenohumeral joint and can cause catastrophic injury if applied incorrectly. Study videos of the technique and discuss injury mechanisms with experienced practitioners.
-
-**Slow Cooperative Drilling** (Week 3-4: 4-5 sessions)
-- Focus: Practice the complete sequence from dominant position to submission setup with zero finishing pressure. Partner provides feedback on body position, grip structure, and control. Focus on smooth transitions and maintaining positional dominance throughout the sequence. Practice the release protocol repeatedly.
-- Resistance: Zero resistance
-- Safety: Partner taps when position is achieved, before any pressure is applied. Emphasize communication throughout the drill. Practice stopping and resetting if any discomfort is felt. Both partners learn to recognize the submission control position versus the finishing position.
-
-**Progressive Pressure Introduction** (Week 5-8: 6-8 sessions)
-- Focus: Begin adding light rotational pressure over 7-10 seconds, stopping well before the finish. Partner provides constant feedback about pressure levels and discomfort. Attacker learns to feel the difference between control pressure and finishing pressure. Practice reading subtle tap signals and body language.
-- Resistance: Mild resistance
-- Safety: Partner taps at 30-40% of finishing pressure. Introduce graduated pressure scales (1-10) with verbal feedback. Stop immediately if any sharp pain is reported. Both practitioners learn the feel of proper pressure application and when to tap preventatively.
-
-**Defensive Pattern Recognition** (Week 9-12: 6-8 sessions)
-- Focus: Partner introduces common defensive patterns: grip fighting, rolling attempts, bridging escapes. Attacker learns to maintain control and adjust positioning while keeping safety paramount. Practice transitioning to alternative attacks when defenses succeed. Both roles learn the escape mechanics.
-- Resistance: Realistic resistance
-- Safety: Partner still taps preventatively at 50-60% pressure. Emphasize that defense is about position and frames, not about toughing out joint pressure. Practice escaping before the submission is locked rather than trying to defend the finish. Reinforce that there is no shame in early tapping during training.
-
-**Live Training Integration** (Week 13-20: ongoing)
-- Focus: Incorporate the Mir Lock into positional sparring from side control, north-south, and mount. Work the submission against active resistance in controlled rounds. Develop timing for recognizing when the submission is available versus when to abandon it for better options. Chain with other attacks.
-- Resistance: Full resistance
-- Safety: Both practitioners understand the injury potential and tap early when caught. Maintain the 5-7 second minimum application time even during live training. Avoid the submission entirely if either partner has any existing shoulder issues. Build the reputation as a safe training partner who protects their teammates.
-
-**Competition Preparation and Refinement** (Month 6+: ongoing refinement)
-- Focus: Refine the technique against fully resisting opponents who know it's coming. Develop setups, combinations, and entries from scrambles. Learn when to commit to the finish versus when to transition. Build confidence in competition application while maintaining training safety. Study competition footage and analyze successful applications.
-- Resistance: Full resistance
-- Safety: Understand the difference between competition finishing (faster, higher pressure) and training application (slower, safety-focused). Never practice competition-speed finishing in the training room. Maintain the training culture where early taps are encouraged and respected. Recognize that injuring training partners serves no one's long-term development.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
 
 - [[Side Control]]
 - [[North-South]]
-- [[North South Control]]
+- [[North-South]]
 - [[Kesa Gatame]]
 - [[Modified Mount]]
 - [[Reverse Kesa-Gatame]]
@@ -441,6 +404,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

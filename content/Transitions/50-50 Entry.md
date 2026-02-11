@@ -157,7 +157,7 @@ Strategically, the 50-50 Entry serves as both an offensive pathway to heel hook 
 From a systematic perspective, the 50-50 Entry functions as a gateway to the entire leg entanglement system. Once established, you gain access to heel hooks, toe holds, and various sweeping mechanics. The position also creates what practitioners call a "neutral leg lock position" where both players have equivalent attacking opportunities, making it crucial to understand both offensive and defensive applications from the moment of entry.
 
 **From Position**: [[Inverted Guard]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish inversion**: From your guard position, begin inverting by rolling your shoulders toward the mat while elevating your hips. Your weight should transfer to your upper back and shoulders, freeing your legs for dynamic movement. (Timing: Initiate as opponent steps forward or attempts to disengage)
-2. **Thread outside leg**: Shoot your outside leg (the one furthest from opponent) behind their lead leg, aiming to place your calf behind their knee joint. This initial thread creates the foundation for the 50-50 configuration. (Timing: During opponent's weight transition between feet)
-3. **Hip rotation**: Rotate your hips toward the threaded leg side, using the rotational momentum to pull opponent's leg deeper into the entanglement. Your inside leg should begin wrapping over their thigh. (Timing: Immediately after successful thread)
-4. **Complete the wrap**: Continue rotating as your inside leg crosses over opponent's thigh and hooks behind their hip or lower back. Both legs should now be interlocked around their single leg in the characteristic 50-50 configuration. (Timing: Continuous motion from hip rotation)
-5. **Secure leg control**: Pinch your knees together to trap opponent's leg while controlling their ankle or foot with your hands. Your thighs should be squeezing their knee joint from both sides. (Timing: Upon completing the wrap)
-6. **Expose the heel**: Use your grips to rotate opponent's foot outward, exposing the heel for attack while preventing them from straightening their leg. Settle your hips low to maximize control and attacking leverage. (Timing: Final consolidation phase)
+1. **Establish inversion**: From your guard position, begin inverting by rolling your shoulders toward the mat while elevating your hips. Your weight should transfer to your upper back and shoulders, freeing your legs for dynamic movement.
+2. **Thread outside leg**: Shoot your outside leg (the one furthest from opponent) behind their lead leg, aiming to place your calf behind their knee joint. This initial thread creates the foundation for the 50-50 configuration.
+3. **Hip rotation**: Rotate your hips toward the threaded leg side, using the rotational momentum to pull opponent's leg deeper into the entanglement. Your inside leg should begin wrapping over their thigh.
+4. **Complete the wrap**: Continue rotating as your inside leg crosses over opponent's thigh and hooks behind their hip or lower back. Both legs should now be interlocked around their single leg in the characteristic 50-50 configuration.
+5. **Secure leg control**: Pinch your knees together to trap opponent's leg while controlling their ankle or foot with your hands. Your thighs should be squeezing their knee joint from both sides.
+6. **Expose the heel**: Use your grips to rotate opponent's foot outward, exposing the heel for attack while preventing them from straightening their leg. Settle your hips low to maximize control and attacking leverage.
 
 
 </section>
@@ -257,19 +257,15 @@ From a systematic perspective, the 50-50 Entry functions as a gateway to the ent
 ## Training Progressions
 **Week 1-2** - Leg threading mechanics
 Practice solo hip mobility drills and partner drilling of the leg thread without resistance. Focus on getting your calf completely behind their knee from various angles. Drill the motion 50+ times per session until the threading pattern becomes automatic.
-(Resistance: None)
 
 **Week 3-4** - Entry timing
 Partner provides light movement and weight shifts while you practice identifying entry windows. Work on timing your thread to their stepping motion. Partner should not actively resist but should move realistically.
-(Resistance: Light)
 
 **Week 5-6** - Entry combinations
 Chain the 50-50 Entry with other leg entanglement transitions. If entry fails, immediately flow to single leg X, inside ashi, or guard recovery. Partner increases resistance to 50-75% and actively tries to prevent the entry.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply the entry in positional sparring starting from inverted guard or open guard. Full resistance with immediate transition to heel hook attacks upon successful entry. Track success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

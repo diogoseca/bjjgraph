@@ -87,17 +87,19 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Triangle Choke Front]]** (35% of attempts)
+- **[[Triangle Choke Front]]** (29% of attempts)
 
-- **[[Triangle to Armbar]]** (25% of attempts)
+- **[[Triangle to Armbar]]** (22% of attempts)
 
-- **[[Triangle to Omoplata]]** (15% of attempts)
+- **[[Triangle to Omoplata]]** (13% of attempts)
 
-- **[[Triangle to Back]]** (10% of attempts)
+- **[[Triangle to Back]]** (9% of attempts)
 
-- **[[Mounted Triangle]]** (8% of attempts)
+- **[[Mounted Triangle]]** (7% of attempts)
 
-- **[[Closed Guard to Omoplata]]** (7% of attempts)
+- **[[Closed Guard to Omoplata]]** (6% of attempts)
+
+- **[[Inverted Triangle]]** (14% of attempts)
 
 
 ### Common Mistakes
@@ -156,15 +158,17 @@ The triangle choke has evolved significantly since its popularization in competi
 ### Available Transitions
 
 
-- **[[Triangle Escape]]** (35% of attempts)
+- **[[Triangle Escape]]** (24% of attempts)
 
-- **[[Posture Recovery]]** (25% of attempts)
+- **[[Posture Recovery]]** (18% of attempts)
 
-- **[[Stack Defense]]** (20% of attempts)
+- **[[Stack Defense]]** (14% of attempts)
 
-- **[[Guard Recovery]]** (10% of attempts)
+- **[[Guard Recovery]]** (7% of attempts)
 
-- **[[Triangle Clear to Side]]** (10% of attempts)
+- **[[Triangle Clear to Side]]** (7% of attempts)
+
+- **[[Triangle Choke]]** (30% of attempts)
 
 
 ### Common Mistakes

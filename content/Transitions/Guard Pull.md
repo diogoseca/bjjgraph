@@ -153,7 +153,7 @@ description: "Master the Guard Pull transition in BJJ. Complete guide from stand
 The Guard Pull is a fundamental BJJ transition that allows practitioners to move from standing position directly into their guard game, bypassing the takedown exchange entirely. This technique is particularly valuable in sport BJJ contexts where bottom guard position offers numerous attacking opportunities and where takedown exchanges may not align with a practitioner's strengths. The guard pull requires precise grip establishment, proper body positioning, and excellent timing to execute safely and effectively. When performed correctly, it allows the practitioner to immediately begin implementing their guard strategy while controlling distance and grips. The technique has become increasingly sophisticated in modern competition, with various entries designed to land directly into specific guard positions rather than a generic seated guard. Understanding when and how to pull guard effectively is essential for building a complete competition game.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 65%, Intermediate 75%, Advanced 85%
+**Success Rate**: 80%
 
 </section>
 
@@ -202,12 +202,12 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary grips**: Secure strong grips on opponent's collar and sleeve, or body and head in no-gi. Focus on controlling their posture and preventing them from establishing dominant grips first. The grip establishment phase is critical as these connections will control the entire transition. (Timing: Before initiating any downward movement)
-2. **Break opponent's posture**: Pull opponent slightly forward and off-balance using your grips, disrupting their base and making it difficult for them to sprawl or disengage. This subtle off-balancing creates the timing window for your pull. A well-postured opponent can easily defend the guard pull by stepping back or sprawling. (Timing: Immediately before sitting)
-3. **Sit to seated position**: Drop your hips straight down or slightly back while maintaining strong grip tension. Keep your upper body upright and engaged rather than falling backward completely. Your sitting motion should be controlled and maintain connection to your opponent throughout. Avoid simply falling to your back which gives opponent passing opportunities. (Timing: As opponent's weight shifts forward)
-4. **Establish leg positioning**: As you sit, immediately engage your legs by placing feet on opponent's hips, wrapping closed guard, or establishing specific guard position hooks. Your leg engagement must happen simultaneously with sitting to prevent opponent from simply stepping around. The specific leg positioning depends on your intended guard position and grip configuration. (Timing: Simultaneously with sitting motion)
-5. **Secure guard position**: Lock in your chosen guard configuration by closing your legs around opponent's body for closed guard, or establishing hook and grip control for open guard variations. Ensure your hips are mobile and not flat on the mat. Pull opponent into your guard structure rather than allowing distance to form between you. (Timing: Immediately after leg engagement)
-6. **Control posture and initiate attacks**: Use your grips and leg position to break opponent's posture down into your guard, preventing them from establishing strong passing position. Immediately begin implementing your guard strategy by setting up sweeps, submissions, or guard position improvements. The transition into guard should flow directly into your offensive game without pause. (Timing: Within 1-2 seconds of landing)
+1. **Establish primary grips**: Secure strong grips on opponent's collar and sleeve, or body and head in no-gi. Focus on controlling their posture and preventing them from establishing dominant grips first. The grip establishment phase is critical as these connections will control the entire transition.
+2. **Break opponent's posture**: Pull opponent slightly forward and off-balance using your grips, disrupting their base and making it difficult for them to sprawl or disengage. This subtle off-balancing creates the timing window for your pull. A well-postured opponent can easily defend the guard pull by stepping back or sprawling.
+3. **Sit to seated position**: Drop your hips straight down or slightly back while maintaining strong grip tension. Keep your upper body upright and engaged rather than falling backward completely. Your sitting motion should be controlled and maintain connection to your opponent throughout. Avoid simply falling to your back which gives opponent passing opportunities.
+4. **Establish leg positioning**: As you sit, immediately engage your legs by placing feet on opponent's hips, wrapping closed guard, or establishing specific guard position hooks. Your leg engagement must happen simultaneously with sitting to prevent opponent from simply stepping around. The specific leg positioning depends on your intended guard position and grip configuration.
+5. **Secure guard position**: Lock in your chosen guard configuration by closing your legs around opponent's body for closed guard, or establishing hook and grip control for open guard variations. Ensure your hips are mobile and not flat on the mat. Pull opponent into your guard structure rather than allowing distance to form between you.
+6. **Control posture and initiate attacks**: Use your grips and leg position to break opponent's posture down into your guard, preventing them from establishing strong passing position. Immediately begin implementing your guard strategy by setting up sweeps, submissions, or guard position improvements. The transition into guard should flow directly into your offensive game without pause.
 
 
 </section>
@@ -253,23 +253,18 @@ The Guard Pull is a fundamental BJJ transition that allows practitioners to move
 ## Training Progressions
 **Week 1-2: Basic Mechanics** - Grip establishment and sitting motion with control
 Practice establishing grips from standing and sitting to closed guard with cooperative partner. Focus on maintaining connection and landing with mobile hips. Partner allows guard to be established without resistance.
-(Resistance: None)
 
 **Week 3-4: Guard Position Integration** - Pulling to specific guard positions
 Practice pulling to various guard positions (closed, open, De La Riva, butterfly) from standing. Partner provides light resistance by maintaining posture but not actively countering. Work on smooth transition from standing grips directly into each guard structure.
-(Resistance: Light)
 
 **Week 5-6: Timing and Off-Balancing** - Creating optimal timing windows
 Partner actively maintains posture and may attempt to step back or create distance. Practice using grip fighting to create off-balancing moments that open opportunities for effective guard pull. Develop feel for when opponent is vulnerable versus when they are strongly postured.
-(Resistance: Medium)
 
 **Week 7-8: Counter Defense** - Defending common counters
 Partner attempts basic counters like stepping back, sprawling, or immediate passing. Practice maintaining connection, adapting grip strategy, and technical stand-up when guard pull fails. Develop ability to complete pull even against defensive reaction.
-(Resistance: Medium)
 
 **Month 3+: Competition Integration** - Guard pull under full resistance
 Partner provides full resistance including grip fighting, counter attempts, and immediate passing pressure. Practice completing guard pull from realistic standing exchanges including grip breaks, re-grips, and feints. Integrate guard pull into overall competition strategy.
-(Resistance: Full)
 
 
 

@@ -12,7 +12,7 @@
     "submission_type",
     "target_area",
     "starting_position",
-    "success_rates",
+    "success_rate",
     "overview",
     "safety_considerations",
     "key_principles",
@@ -22,7 +22,6 @@
     "common_errors",
     "variations_and_setups",
     "knowledge_assessment",
-    "training_progressions_and_safety_protocols",
     "from_positions",
     "related_submissions",
     "related_content"
@@ -100,8 +99,11 @@
         "Ashi Garami"
       ]
     },
-    "success_rates": {
-      "$ref": "#/$defs/skill_level_success_rates"
+    "success_rate": {
+      "type": "integer",
+      "description": "Overall success rate percentage (0-100)",
+      "minimum": 0,
+      "maximum": 100
     },
     "overview": {
       "type": "string",
@@ -246,16 +248,6 @@
           },
           "timing": {
             "type": "string"
-          },
-          "pressure_level": {
-            "type": "string",
-            "enum": [
-              "Light",
-              "Moderate",
-              "Firm",
-              "Maximum"
-            ],
-            "description": "Pressure level for this step"
           }
         }
       }
@@ -311,16 +303,6 @@
           },
           "correction": {
             "type": "string"
-          },
-          "danger_level": {
-            "type": "string",
-            "enum": [
-              "CRITICAL",
-              "High",
-              "Medium",
-              "Low"
-            ],
-            "description": "Safety danger level (CRITICAL for injury-risk errors)"
           }
         }
       }
@@ -376,53 +358,11 @@
         }
       }
     },
-    "training_progressions_and_safety_protocols": {
-      "type": "array",
-      "description": "6-phase progression with safety emphasis (minimum 6)",
-      "minItems": 6,
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "phase",
-          "timeframe",
-          "focus",
-          "resistance_level",
-          "safety_emphasis"
-        ],
-        "properties": {
-          "phase": {
-            "type": "string",
-            "description": "Phase name (e.g., 'Technical Understanding', 'Slow Practice')"
-          },
-          "timeframe": {
-            "type": "string"
-          },
-          "focus": {
-            "type": "string"
-          },
-          "resistance_level": {
-            "type": "string",
-            "enum": [
-              "None",
-              "Zero resistance",
-              "Mild resistance",
-              "Realistic resistance",
-              "Full resistance"
-            ]
-          },
-          "safety_emphasis": {
-            "type": "string",
-            "description": "Safety focus for this phase"
-          }
-        }
-      }
-    },
     "from_positions": {
       "type": "array",
-      "description": "Positions where submission can be applied (2-10 for SEO internal linking)",
+      "description": "Positions where submission can be applied (2-12 for SEO internal linking)",
       "minItems": 2,
-      "maxItems": 10,
+      "maxItems": 12,
       "items": {
         "type": "string",
         "description": "Position name"
@@ -452,6 +392,43 @@
         ]
       ]
     },
+    "from_position": {
+      "type": "string",
+      "description": "Position this submission is executed from (format: Position/Role, e.g. 'Back Control/Top')"
+    },
+    "outcomes": {
+      "type": "array",
+      "description": "Probabilistic outcomes of submission attempt (probabilities must sum to 100)",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "to",
+          "probability",
+          "result"
+        ],
+        "properties": {
+          "to": {
+            "type": "string",
+            "description": "Target position or 'game-over' for successful finish"
+          },
+          "probability": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 100
+          },
+          "result": {
+            "type": "string",
+            "enum": [
+              "success",
+              "failure",
+              "counter"
+            ]
+          }
+        }
+      }
+    },
     "related_content": {
       "type": "array",
       "description": "Related submissions/positions/techniques (3-12 items)",
@@ -471,35 +448,6 @@
           "relationship": {
             "type": "string"
           }
-        }
-      }
-    }
-  },
-  "$defs": {
-    "skill_level_success_rates": {
-      "type": "object",
-      "description": "Success rates by skill level (beginner ≤ intermediate ≤ advanced)",
-      "additionalProperties": false,
-      "required": [
-        "beginner",
-        "intermediate",
-        "advanced"
-      ],
-      "properties": {
-        "beginner": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "intermediate": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
-        },
-        "advanced": {
-          "type": "integer",
-          "minimum": 0,
-          "maximum": 100
         }
       }
     }

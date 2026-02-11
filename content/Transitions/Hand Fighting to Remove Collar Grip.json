@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Hand Fighting to Remove Collar Grip represents the critical first layer of defense when trapped in the invisible collar position from bottom. The technique addresses the most immediate threat—the deep collar grip that can finish the match within seconds. Unlike generic hand fighting, this defensive sequence specifically targets the biomechanics of collar grip removal, using two-on-one control to systematically peel fingers from the gi material before the attacker can apply finishing pressure.\n\nThe defensive urgency cannot be overstated. Once an invisible collar grip achieves full depth with knuckles pressed against the carotid, the submission becomes nearly inevitable regardless of chin tuck or other secondary defenses. Successful practitioners recognize the setup early and immediately engage aggressive hand fighting before the grip consolidates. This requires constant monitoring of the attacker's hand position and the discipline to prioritize grip removal over other escape attempts.\n\nStrategically, this technique serves as the gateway to all other back control escapes. Without first neutralizing the collar threat, hip escapes and hook removal become futile—the attacker simply finishes the choke while you work. Mastering this hand fighting sequence transforms a desperate survival situation into a systematic defensive framework where each successful grip break creates windows for positional improvement.",
   "key_principles": [
     "Commit both hands to two-on-one grip control on the choking wrist immediately upon recognition",
@@ -53,50 +48,42 @@
     {
       "step_number": 1,
       "action": "Recognize the threat",
-      "description": "Identify opponent's choking hand by feeling for finger penetration in your collar. The invisible collar setup involves fingers walking into the gi material near your neck with thumb outside—any collar contact requires immediate defensive response.",
-      "timing": "Within 2 seconds of grip contact"
+      "description": "Identify opponent's choking hand by feeling for finger penetration in your collar. The invisible collar setup involves fingers walking into the gi material near your neck with thumb outside—any collar contact requires immediate defensive response."
     },
     {
       "step_number": 2,
       "action": "Establish chin tuck",
-      "description": "Drive your chin aggressively toward your chest, pressing it so tightly that no gi material can fit between chin and sternum. This limits the angle of attack and buys time for hand fighting without allowing the choke to finish during your defensive work.",
-      "timing": "Simultaneous with recognition"
+      "description": "Drive your chin aggressively toward your chest, pressing it so tightly that no gi material can fit between chin and sternum. This limits the angle of attack and buys time for hand fighting without allowing the choke to finish during your defensive work."
     },
     {
       "step_number": 3,
       "action": "Locate the choking wrist",
-      "description": "Bring both hands to the opponent's choking arm, specifically targeting the wrist joint where you have maximum mechanical advantage. Feel for the bony prominences of the wrist rather than grabbing the forearm which is harder to control.",
-      "timing": "Immediately after chin tuck"
+      "description": "Bring both hands to the opponent's choking arm, specifically targeting the wrist joint where you have maximum mechanical advantage. Feel for the bony prominences of the wrist rather than grabbing the forearm which is harder to control."
     },
     {
       "step_number": 4,
       "action": "Establish two-on-one control",
-      "description": "Grip the opponent's wrist with both hands in a pistol grip configuration—your thumbs on top of their wrist, fingers wrapped underneath. Stack your hands so all eight fingers work together, creating a grip stronger than their collar grip.",
-      "timing": "Within 1 second of locating wrist"
+      "description": "Grip the opponent's wrist with both hands in a pistol grip configuration—your thumbs on top of their wrist, fingers wrapped underneath. Stack your hands so all eight fingers work together, creating a grip stronger than their collar grip."
     },
     {
       "step_number": 5,
       "action": "Create pulling angle",
-      "description": "Rather than pulling straight down which the opponent can brace against, angle your pull toward your hip on the opposite side from their choking hand. This diagonal pull exploits the weakness in their grip structure and uses your core muscles rather than just arm strength.",
-      "timing": "Continuous once grip established"
+      "description": "Rather than pulling straight down which the opponent can brace against, angle your pull toward your hip on the opposite side from their choking hand. This diagonal pull exploits the weakness in their grip structure and uses your core muscles rather than just arm strength."
     },
     {
       "step_number": 6,
       "action": "Bridge and strip",
-      "description": "Execute a strong bridge toward the choking arm side while simultaneously pulling their wrist away from your neck. The bridging motion disrupts their balance and loosens their grip, while your pull strips the fingers from the collar. Even partial removal significantly reduces choking effectiveness.",
-      "timing": "Explosive movement coordinated with pull"
+      "description": "Execute a strong bridge toward the choking arm side while simultaneously pulling their wrist away from your neck. The bridging motion disrupts their balance and loosens their grip, while your pull strips the fingers from the collar. Even partial removal significantly reduces choking effectiveness."
     },
     {
       "step_number": 7,
       "action": "Maintain control",
-      "description": "After breaking the grip, do not release their wrist immediately. Keep two-on-one control and pull their arm across your body, trapping it against your torso. This prevents immediate re-establishment of the collar grip while you work to remove hooks.",
-      "timing": "Sustained until position improves"
+      "description": "After breaking the grip, do not release their wrist immediately. Keep two-on-one control and pull their arm across your body, trapping it against your torso. This prevents immediate re-establishment of the collar grip while you work to remove hooks."
     },
     {
       "step_number": 8,
       "action": "Transition to escape",
-      "description": "With the collar threat neutralized and their arm controlled, immediately begin hip escape toward the side opposite their trapped arm. Use the window created by successful grip removal to address hooks and work toward half guard or turtle recovery.",
-      "timing": "Immediately after grip break"
+      "description": "With the collar threat neutralized and their arm controlled, immediately begin hip escape toward the side opposite their trapped arm. Use the window created by successful grip removal to address hooks and work toward half guard or turtle recovery."
     }
   ],
   "common_counters": [
@@ -152,26 +139,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics isolation",
-      "description": "Practice the two-on-one wrist control and pulling mechanics in isolation. Partner establishes collar grip at 25% depth and holds static while you work the grip break sequence. Focus on hand placement, pulling angle, and maintaining chin tuck throughout. 20 repetitions per side.",
-      "resistance_level": "None"
+      "description": "Practice the two-on-one wrist control and pulling mechanics in isolation. Partner establishes collar grip at 25% depth and holds static while you work the grip break sequence. Focus on hand placement, pulling angle, and maintaining chin tuck throughout. 20 repetitions per side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Adding bridge timing",
-      "description": "Introduce the bridging component with light resistance. Partner applies 40% grip pressure and provides some resistance to the pull. Practice timing the bridge with the grip break, feeling how the hip movement assists the hand work. 15 repetitions per side with 30-second rest between attempts.",
-      "resistance_level": "Light"
+      "description": "Introduce the bridging component with light resistance. Partner applies 40% grip pressure and provides some resistance to the pull. Practice timing the bridge with the grip break, feeling how the hip movement assists the hand work. 15 repetitions per side with 30-second rest between attempts."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter reaction chains",
-      "description": "Partner begins varying their response—sometimes holding collar, sometimes switching to RNC attempt, sometimes reinforcing grip. Practice recognizing which counter is coming and adapting your hand fighting accordingly. This phase builds decision-making under pressure. 3-minute rounds with full reset after each successful defense or submission.",
-      "resistance_level": "Medium"
+      "description": "Partner begins varying their response—sometimes holding collar, sometimes switching to RNC attempt, sometimes reinforcing grip. Practice recognizing which counter is coming and adapting your hand fighting accordingly. This phase builds decision-making under pressure. 3-minute rounds with full reset after each successful defense or submission."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Full positional sparring from invisible collar position. Attacker works to finish any back submission while defender must escape to guard or neutral. Track success rate and time-to-escape metrics. Target: surviving 60% of rounds and escaping to guard in 40% within 60 seconds.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring from invisible collar position. Attacker works to finish any back submission while defender must escape to guard or neutral. Track success rate and time-to-escape metrics. Target: surviving 60% of rounds and escaping to guard in 40% within 60 seconds."
     }
   ],
   "variants_and_adaptations": [
@@ -194,53 +177,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Hand Fighting to Remove Collar Grip?",
-      "answer": "The primary goal is to neutralize the immediate choking threat by removing the opponent's deep collar grip before they can apply finishing pressure. This creates a window to work subsequent escapes from back control without the imminent danger of being choked. Success means buying time and reducing the threat level, not necessarily escaping the position entirely.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to neutralize the immediate choking threat by removing the opponent's deep collar grip before they can apply finishing pressure. This creates a window to work subsequent escapes from back control without the imminent danger of being choked. Success means buying time and reducing the threat level, not necessarily escaping the position entirely."
     },
     {
       "question": "Why is two-on-one control superior to single-hand grip fighting against the collar grip?",
-      "answer": "Two-on-one control provides approximately double the gripping power and allows you to use your core strength rather than just arm strength. The opponent's collar grip relies on finger strength and friction against the gi material. By controlling their wrist with both hands, you can generate pulling force that exceeds what their fingers can resist, systematically breaking the grip rather than engaging in a losing strength battle.",
-      "difficulty": "Beginner"
+      "answer": "Two-on-one control provides approximately double the gripping power and allows you to use your core strength rather than just arm strength. The opponent's collar grip relies on finger strength and friction against the gi material. By controlling their wrist with both hands, you can generate pulling force that exceeds what their fingers can resist, systematically breaking the grip rather than engaging in a losing strength battle."
     },
     {
       "question": "Your opponent has deep invisible collar and is starting to apply pressure—what is your emergency response sequence?",
-      "answer": "Immediately tuck chin as tight as possible to limit choking angle. Bring both hands to their choking wrist using two-on-one control. Bridge explosively toward the collar side while pulling their wrist away from your neck. Even a partial grip break significantly reduces finishing pressure. Maintain wrist control after breaking the grip to prevent re-establishment while transitioning to escape.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately tuck chin as tight as possible to limit choking angle. Bring both hands to their choking wrist using two-on-one control. Bridge explosively toward the collar side while pulling their wrist away from your neck. Even a partial grip break significantly reduces finishing pressure. Maintain wrist control after breaking the grip to prevent re-establishment while transitioning to escape."
     },
     {
       "question": "What grip configuration provides maximum mechanical advantage when controlling the opponent's wrist?",
-      "answer": "Use a pistol grip configuration with thumbs on top of their wrist bones and all eight fingers wrapped underneath. Stack your hands so they work together rather than separately. Target the wrist joint specifically—not the forearm which is harder to control—because the wrist provides a lever point where your pulling force translates directly into grip-breaking pressure.",
-      "difficulty": "Intermediate"
+      "answer": "Use a pistol grip configuration with thumbs on top of their wrist bones and all eight fingers wrapped underneath. Stack your hands so they work together rather than separately. Target the wrist joint specifically—not the forearm which is harder to control—because the wrist provides a lever point where your pulling force translates directly into grip-breaking pressure."
     },
     {
       "question": "Your opponent switches to rear naked choke attempt when you start fighting their collar grip—how do you manage this transition?",
-      "answer": "Keep their original choking wrist trapped against your chest with continued two-on-one control. When they try to swim their arm free to switch attacks, they create a moment where neither attack is fully committed. Use this transition window to hip escape toward the side opposite their trapped arm. Their uncommitted state during the switch is your best escape opportunity.",
-      "difficulty": "Advanced"
+      "answer": "Keep their original choking wrist trapped against your chest with continued two-on-one control. When they try to swim their arm free to switch attacks, they create a moment where neither attack is fully committed. Use this transition window to hip escape toward the side opposite their trapped arm. Their uncommitted state during the switch is your best escape opportunity."
     },
     {
       "question": "Why should you pull the grip toward your opposite hip rather than straight down?",
-      "answer": "Pulling straight down allows the opponent to brace against your force using their back and core muscles. The diagonal pull toward your opposite hip exploits a weakness in their grip structure—their fingers cannot resist lateral pressure as effectively as downward pressure. This angle also recruits your core and hip muscles into the pull rather than relying solely on arm strength.",
-      "difficulty": "Intermediate"
+      "answer": "Pulling straight down allows the opponent to brace against your force using their back and core muscles. The diagonal pull toward your opposite hip exploits a weakness in their grip structure—their fingers cannot resist lateral pressure as effectively as downward pressure. This angle also recruits your core and hip muscles into the pull rather than relying solely on arm strength."
     },
     {
       "question": "How does the bridge timing coordinate with the grip break attempt?",
-      "answer": "The bridge serves two functions: it disrupts the opponent's balance and base, making their grip harder to maintain, and it creates momentary space between your neck and their forearm. Time the pull to coincide with the peak of your bridge when their weight is most disrupted. The bridging motion loosens their grip while your pull strips it—neither works as effectively alone.",
-      "difficulty": "Intermediate"
+      "answer": "The bridge serves two functions: it disrupts the opponent's balance and base, making their grip harder to maintain, and it creates momentary space between your neck and their forearm. Time the pull to coincide with the peak of your bridge when their weight is most disrupted. The bridging motion loosens their grip while your pull strips it—neither works as effectively alone."
     },
     {
       "question": "What should you do immediately after successfully breaking the collar grip?",
-      "answer": "Do not release their wrist immediately. Keep two-on-one control and pull their arm across your body, trapping it against your torso. This prevents immediate re-establishment of the collar grip. Only then begin your escape sequence—hip escape toward the side opposite their trapped arm to address hooks and work toward guard recovery.",
-      "difficulty": "Advanced"
+      "answer": "Do not release their wrist immediately. Keep two-on-one control and pull their arm across your body, trapping it against your torso. This prevents immediate re-establishment of the collar grip. Only then begin your escape sequence—hip escape toward the side opposite their trapped arm to address hooks and work toward guard recovery."
     },
     {
       "question": "When is it appropriate to use the single hand strip with frame variant?",
-      "answer": "Use this variant when two-on-one control is not possible due to positioning—such as when one arm is trapped under the opponent's body or their seatbelt arm is controlling one of your hands. Frame against their bicep or shoulder with one hand to prevent them from deepening the choke while your other hand works to strip the grip. It is less effective but necessary when full two-on-one is unavailable.",
-      "difficulty": "Advanced"
+      "answer": "Use this variant when two-on-one control is not possible due to positioning—such as when one arm is trapped under the opponent's body or their seatbelt arm is controlling one of your hands. Frame against their bicep or shoulder with one hand to prevent them from deepening the choke while your other hand works to strip the grip. It is less effective but necessary when full two-on-one is unavailable."
     },
     {
       "question": "What is the most common error that leads to failed grip removal attempts?",
-      "answer": "The most common error is trying to strip individual fingers from the collar material rather than controlling the wrist. Fingers are difficult to individually control and the opponent can re-grip faster than you can strip. Controlling the wrist joint provides mechanical advantage and allows you to pull the entire hand away from your neck, which is more effective than fighting finger by finger.",
-      "difficulty": "Beginner"
+      "answer": "The most common error is trying to strip individual fingers from the collar material rather than controlling the wrist. Fingers are difficult to individually control and the opponent can re-grip faster than you can strip. Controlling the wrist joint provides mechanical advantage and allows you to pull the entire hand away from your neck, which is more effective than fighting finger by finger."
     }
   ],
   "safety_considerations": "Hand fighting from back control requires awareness of neck vulnerability throughout the defensive sequence. Never extend or lift the chin during grip fighting as this creates space for the choke to deepen. If you feel blood flow restriction or vision changes, tap immediately rather than continuing grip fighting—the invisible collar can finish faster than escape attempts. Practice at controlled resistance levels before live training. Partners should release pressure immediately when the defender taps and avoid cranking the collar choke. Communicate with training partners about neck sensitivity and previous injuries. Do not attempt explosive escapes when the choke is already locked deep—this can cause neck injury. When drilling, establish tap signals clearly and reset if either partner feels unsafe.",
@@ -278,5 +251,6 @@
       "name": "Turtle",
       "relationship": "Transitional position during escape sequence"
     }
-  ]
+  ],
+  "success_rate": 58
 }

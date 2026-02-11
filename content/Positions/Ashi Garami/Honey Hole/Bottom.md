@@ -383,11 +383,11 @@ Partner establishes Honey Hole with graduated resistance levels: 30%, 50%, 70%, 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 5% | 10% | 5% |
-| Intermediate | 15% | 25% | 15% |
-| Advanced     | 30% | 45% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 22% |
+| Advancement Probability | 35% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 5-15 seconds before submission or escape
 

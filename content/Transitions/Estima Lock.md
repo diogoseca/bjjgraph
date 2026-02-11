@@ -157,7 +157,7 @@ The technique functions as a direct submission from the Estima Lock control posi
 Strategically, the Estima Lock serves as a high-percentage finishing option within leg entanglement systems. It integrates seamlessly with toe holds, straight ankle locks, and transitions to ashi garami positions, creating a comprehensive lower-body submission threat. The technique is particularly effective in no-gi grappling where opponents cannot use collar grips to defend, though it remains viable in gi competition when properly executed. Understanding both the offensive application and defensive vulnerabilities of this submission is essential for modern grapplers competing in rulesets that permit foot attacks.
 
 **From Position**: [[Estima Lock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the Estima Lock serves as a high-percentage finishing option with
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate grip**: Ensure figure-four grip is fully secured with both hands controlling the opponent's foot. Your primary hand cups the heel from below while your secondary hand reinforces the forearm position across the top of the foot. The heel must be immovable as this is your fixed point for all rotational pressure. (Timing: Continuous grip maintenance)
-2. **Establish hip pressure**: Drive your hips forward and down against the opponent's calf muscle, creating a fulcrum point approximately mid-shin. This pressure prevents them from retracting their leg and creates the mechanical foundation for the submission. Your body weight should flow through this contact point. (Timing: Before initiating rotation)
-3. **Position forearm blade**: Adjust your forearm so the blade (ulnar side) sits directly across the top of the opponent's foot near the ankle joint. This positioning creates maximum leverage for the rotational pressure that will follow. The forearm acts as the lever arm in the submission mechanics. (Timing: Immediately after hip pressure)
-4. **Initiate rotation**: Begin applying rotational pressure by twisting the heel toward the opponent's body while your forearm maintains downward pressure on the top of the foot. The motion resembles wringing out a towel—simultaneous rotation and compression. Keep the heel as the fixed axis of rotation. (Timing: Gradual pressure application)
-5. **Pull toward chest**: Combine the rotational pressure with a pulling motion toward your own chest. Your elbows drive toward your ribs while maintaining the figure-four configuration. This adds extension stress to the ankle joint while the rotation attacks the ligaments and Achilles tendon. (Timing: Coordinated with rotation)
-6. **Complete submission**: Continue increasing pressure gradually while monitoring opponent for tap signals. The submission is complete when opponent taps verbally, physically, or signals distress. Release immediately upon tap, maintaining grip control briefly to ensure safe disengagement before completely letting go of the foot. (Timing: Hold until tap, release immediately)
+1. **Consolidate grip**: Ensure figure-four grip is fully secured with both hands controlling the opponent's foot. Your primary hand cups the heel from below while your secondary hand reinforces the forearm position across the top of the foot. The heel must be immovable as this is your fixed point for all rotational pressure.
+2. **Establish hip pressure**: Drive your hips forward and down against the opponent's calf muscle, creating a fulcrum point approximately mid-shin. This pressure prevents them from retracting their leg and creates the mechanical foundation for the submission. Your body weight should flow through this contact point.
+3. **Position forearm blade**: Adjust your forearm so the blade (ulnar side) sits directly across the top of the opponent's foot near the ankle joint. This positioning creates maximum leverage for the rotational pressure that will follow. The forearm acts as the lever arm in the submission mechanics.
+4. **Initiate rotation**: Begin applying rotational pressure by twisting the heel toward the opponent's body while your forearm maintains downward pressure on the top of the foot. The motion resembles wringing out a towel—simultaneous rotation and compression. Keep the heel as the fixed axis of rotation.
+5. **Pull toward chest**: Combine the rotational pressure with a pulling motion toward your own chest. Your elbows drive toward your ribs while maintaining the figure-four configuration. This adds extension stress to the ankle joint while the rotation attacks the ligaments and Achilles tendon.
+6. **Complete submission**: Continue increasing pressure gradually while monitoring opponent for tap signals. The submission is complete when opponent taps verbally, physically, or signals distress. Release immediately upon tap, maintaining grip control briefly to ensure safe disengagement before completely letting go of the foot.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, the Estima Lock serves as a high-percentage finishing option with
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice figure-four grip configuration on stationary partner. Focus on heel control as fixed point, forearm blade positioning across top of foot, and understanding the rotational direction of the submission. No resistance—pure technical repetition.
-(Resistance: None)
 
 **Week 3-4** - Pressure application
 Add hip pressure component and practice coordinating grip rotation with pulling toward chest. Partner provides light resistance by attempting to straighten leg or turn foot. Focus on maintaining control throughout pressure application.
-(Resistance: Light)
 
 **Week 5-6** - Defense integration
 Partner attempts common defenses including counter-rotation, sitting up with frames, and free leg pushing. Practice transitions to toe hold and ashi garami when primary submission is defended. Build chain attack sequences.
-(Resistance: Medium)
 
 **Week 7+** - Live sparring application
 Apply Estima Lock in positional sparring starting from leg entanglement positions. Progress to full sparring where entries must be earned through passing or leg attack systems. Focus on recognizing submission opportunities and finishing under pressure.
-(Resistance: Full)
 
 
 

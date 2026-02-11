@@ -157,7 +157,7 @@ From a biomechanical perspective, the arm-in guillotine creates a triangular pre
 Strategically, the arm-in guillotine is particularly valuable in scramble situations and guard retention scenarios where opponents commonly reach inside to establish frames or defend takedowns. Recognizing when an opponent's arm enters the danger zone and immediately capitalizing with proper grip adjustment separates high-percentage guillotine players from those who struggle with the technique. The arm-in variation also offers superior control against explosive escape attempts because the trapped arm limits the opponent's ability to rotate their shoulders and create space.
 
 **From Position**: [[Guillotine Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ Strategically, the arm-in guillotine is particularly valuable in scramble situat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize arm trap**: Identify when opponent's arm enters inside your guillotine grip—this commonly occurs when they attempt to frame, underhook, or defend the standard choke. Do not fight to remove the arm; instead, immediately prepare to capitalize. (Timing: Instant recognition required)
-2. **Adjust grip position**: Slide your choking wrist deeper around the neck so the blade of your forearm sits directly across the front of the throat. Ensure your grip hand (clasping hand) moves to the outside of the trapped arm, not over it. (Timing: Within 1-2 seconds of arm entry)
-3. **Secure high guard**: Close your guard high on opponent's back, pulling their shoulders toward their hips and preventing any posture recovery. Your ankles should cross behind their shoulder blades, not at their lower back. (Timing: Simultaneously with grip adjustment)
-4. **Rotate toward trapped arm**: Angle your entire body toward the side of the trapped arm by shifting your hips in that direction. This rotation creates the optimal finishing angle where your forearm and their bicep form a V against both sides of their neck. (Timing: Fluid motion following grip secure)
-5. **Drive elbow to ceiling**: Elevate your choking elbow toward the ceiling while keeping your wrist blade pressed against the throat. This upward elbow drive combined with the body rotation creates a corkscrew effect that tightens the choke exponentially. (Timing: Primary finishing motion)
-6. **Pull head to hip**: Simultaneously pull opponent's head down toward your hip pocket on the trapped arm side. The combination of elbow elevation and head pull creates maximum compression on the carotid arteries, typically producing tap within 3-5 seconds. (Timing: Simultaneous with elbow drive)
+1. **Recognize arm trap**: Identify when opponent's arm enters inside your guillotine grip—this commonly occurs when they attempt to frame, underhook, or defend the standard choke. Do not fight to remove the arm; instead, immediately prepare to capitalize.
+2. **Adjust grip position**: Slide your choking wrist deeper around the neck so the blade of your forearm sits directly across the front of the throat. Ensure your grip hand (clasping hand) moves to the outside of the trapped arm, not over it.
+3. **Secure high guard**: Close your guard high on opponent's back, pulling their shoulders toward their hips and preventing any posture recovery. Your ankles should cross behind their shoulder blades, not at their lower back.
+4. **Rotate toward trapped arm**: Angle your entire body toward the side of the trapped arm by shifting your hips in that direction. This rotation creates the optimal finishing angle where your forearm and their bicep form a V against both sides of their neck.
+5. **Drive elbow to ceiling**: Elevate your choking elbow toward the ceiling while keeping your wrist blade pressed against the throat. This upward elbow drive combined with the body rotation creates a corkscrew effect that tightens the choke exponentially.
+6. **Pull head to hip**: Simultaneously pull opponent's head down toward your hip pocket on the trapped arm side. The combination of elbow elevation and head pull creates maximum compression on the carotid arteries, typically producing tap within 3-5 seconds.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, the arm-in guillotine is particularly valuable in scramble situat
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice transitioning from standard guillotine grip to arm-in grip position when partner inserts arm. Focus on the wrist adjustment, hand position change, and feeling the optimal depth. Partner allows arm insertion without resistance to build muscle memory.
-(Resistance: None)
 
 **Week 3-4** - Finishing angle
 Develop the rotation mechanics—practice shifting hips toward trapped arm side while driving elbow to ceiling. Partner provides light resistance to posture attempts. Focus on coordinating the corkscrew motion with head control.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Practice transitioning between arm-in guillotine, standard guillotine, and alternative submissions (anaconda, darce) based on partner's defensive reactions. Partner actively defends with 50% resistance. Develop pattern recognition for when to commit versus transition.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from guillotine control. Work on recognizing arm-in opportunities in real-time scrambles and finishing against fully resisting opponents. Include entry work from guard retention and sprawl situations.
-(Resistance: Full)
 
 
 

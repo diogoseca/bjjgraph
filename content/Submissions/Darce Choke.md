@@ -157,7 +157,8 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**From Position**: [[Darce Control]] (Top)
+**Success Rate**: 62%
 
 </section>
 
@@ -236,12 +237,12 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure front headlock position**: Establish front headlock control with your head on the opponent's back and your chest heavy on their shoulders. Control their near arm with an overhook or by controlling the wrist. Your free arm should be threatening the neck or controlling the far shoulder. Ensure opponent's head is lower than their hips to prevent them from standing. (Timing: 0-2 seconds) [Pressure: Moderate]
-2. **Thread choking arm under near armpit**: Slide your choking arm (the arm on the same side as their trapped arm) deep under their near armpit, aiming to get your bicep or elbow past the centerline of their neck. Your hand should emerge on the far side of their neck. Keep your elbow tight to your ribs and maintain downward pressure with your shoulder on their neck throughout the threading motion. (Timing: 2-3 seconds) [Pressure: Firm]
-3. **Secure hand position around far side of neck**: Once your arm is threaded through, reach your hand around the far side of their neck, creating a blade with your forearm across the back/side of their neck. Your palm should be facing up or toward you. Ensure your bicep is on one side of their neck and your forearm is on the other, with their neck in the crook of your elbow. (Timing: 3-4 seconds) [Pressure: Moderate]
-4. **Lock figure-four grip**: Reach your free hand behind opponent's shoulder blade and grasp your choking hand's wrist or grab your own bicep to create a figure-four lock. The lock should be tight—there should be no space between your arms and the opponent's neck. Your shoulder should be driving into one side of their neck while your forearm compresses the other side. (Timing: 4-5 seconds) [Pressure: Firm]
-5. **Establish optimal body positioning**: Step your inside leg (the leg closest to opponent's head) over their back or position it as a base. Your outside leg should be sprawled back or positioned to prevent them from rolling. Your chest should be heavy on their shoulders, and your hips should be angled away from their head to create maximum leverage on the choke. (Timing: 5-6 seconds) [Pressure: Moderate]
-6. **Finish the choke with combined pressure**: Drive your shoulder down and forward into the near side of their neck while pulling your choking arm's elbow tight to your ribs. Simultaneously, use your locking arm to pull your choking hand deeper, increasing the blade of your forearm into the far side of their neck. The pressure should be bilateral—compressing both carotid arteries. Maintain hip control to prevent rolling escapes. Apply pressure SLOWLY and progressively until tap. (Timing: 6-8 seconds to full pressure) [Pressure: Maximum]
+1. **Secure front headlock position**: Establish front headlock control with your head on the opponent's back and your chest heavy on their shoulders. Control their near arm with an overhook or by controlling the wrist. Your free arm should be threatening the neck or controlling the far shoulder. Ensure opponent's head is lower than their hips to prevent them from standing. (Timing: 0-2 seconds)
+2. **Thread choking arm under near armpit**: Slide your choking arm (the arm on the same side as their trapped arm) deep under their near armpit, aiming to get your bicep or elbow past the centerline of their neck. Your hand should emerge on the far side of their neck. Keep your elbow tight to your ribs and maintain downward pressure with your shoulder on their neck throughout the threading motion. (Timing: 2-3 seconds)
+3. **Secure hand position around far side of neck**: Once your arm is threaded through, reach your hand around the far side of their neck, creating a blade with your forearm across the back/side of their neck. Your palm should be facing up or toward you. Ensure your bicep is on one side of their neck and your forearm is on the other, with their neck in the crook of your elbow. (Timing: 3-4 seconds)
+4. **Lock figure-four grip**: Reach your free hand behind opponent's shoulder blade and grasp your choking hand's wrist or grab your own bicep to create a figure-four lock. The lock should be tight—there should be no space between your arms and the opponent's neck. Your shoulder should be driving into one side of their neck while your forearm compresses the other side. (Timing: 4-5 seconds)
+5. **Establish optimal body positioning**: Step your inside leg (the leg closest to opponent's head) over their back or position it as a base. Your outside leg should be sprawled back or positioned to prevent them from rolling. Your chest should be heavy on their shoulders, and your hips should be angled away from their head to create maximum leverage on the choke. (Timing: 5-6 seconds)
+6. **Finish the choke with combined pressure**: Drive your shoulder down and forward into the near side of their neck while pulling your choking arm's elbow tight to your ribs. Simultaneously, use your locking arm to pull your choking hand deeper, increasing the blade of your forearm into the far side of their neck. The pressure should be bilateral—compressing both carotid arteries. Maintain hip control to prevent rolling escapes. Apply pressure SLOWLY and progressively until tap. (Timing: 6-8 seconds to full pressure)
 
 
 </section>
@@ -261,25 +262,25 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying choke with only forearm pressure (no shoulder involvement) [Low DANGER]
+- **Mistake**: Applying choke with only forearm pressure (no shoulder involvement)
   - **Consequence**: Incomplete carotid compression leads to failed submission and opponent escapes
   - **Correction**: Drive your shoulder down and forward into near side of neck while maintaining forearm pressure on far side—bilateral compression is essential
-- **Mistake**: Choking arm elbow away from ribs (creating space) [Low DANGER]
+- **Mistake**: Choking arm elbow away from ribs (creating space)
   - **Consequence**: Opponent can pull their head out or turn into you, escaping the submission
   - **Correction**: Keep choking elbow pinned tight to your ribcage throughout entire sequence—imagine holding a $100 bill between your elbow and ribs
-- **Mistake**: Threading arm without maintaining head control [Low DANGER]
+- **Mistake**: Threading arm without maintaining head control
   - **Consequence**: Opponent stands up, turns in, or escapes before choke is locked
   - **Correction**: Maintain heavy chest pressure on shoulders and crossface control throughout threading motion—never let opponent's head come up
-- **Mistake**: Releasing pressure when opponent starts to defend [Medium DANGER]
+- **Mistake**: Releasing pressure when opponent starts to defend
   - **Consequence**: Gives opponent opportunity to escape or counter-attack
   - **Correction**: Maintain consistent pressure while adjusting position—only release if opponent successfully defends or if safety requires it
-- **Mistake**: Applying choke at full speed/power in training [CRITICAL DANGER]
+- **Mistake**: Applying choke at full speed/power in training
   - **Consequence**: CRITICAL SAFETY VIOLATION—can cause unconsciousness without tap opportunity or neck/trachea injury
   - **Correction**: ALWAYS apply progressive pressure over 3-5 seconds minimum in training—recognize tap immediately—competition speed only in actual competition
-- **Mistake**: Positioning hips directly over opponent (not creating angle) [Low DANGER]
+- **Mistake**: Positioning hips directly over opponent (not creating angle)
   - **Consequence**: Reduces choking pressure and allows opponent to roll or stand more easily
   - **Correction**: Angle your hips away from opponent's head—create perpendicular positioning to maximize leverage and prevent rolling escapes
-- **Mistake**: Continuing to apply pressure after opponent taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after opponent taps
   - **Consequence**: CRITICAL SAFETY VIOLATION—can cause unconsciousness, stroke, or severe injury even after tap
   - **Correction**: Release IMMEDIATELY upon any tap signal—do not wait for verbal confirmation—err on side of early release if uncertain about tap
 
@@ -346,43 +347,6 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn arm threading, hand positioning, and figure-four grip mechanics without any pressure application—focus entirely on positional control and structural understanding
-- Resistance: None
-- Safety: Study carotid artery anatomy and understand bilateral compression mechanics—practice grip with zero pressure on partner's neck—partner remains fully conscious and comfortable throughout all drilling
-
-**Slow Positional Practice** (Week 3-4)
-- Focus: Practice entries from turtle and front headlock at slow speed—establish proper body positioning and angle creation before attempting any compression
-- Resistance: Zero resistance
-- Safety: Use 'stop' verbal cues freely—practice releasing immediately on any signal—apply only enough pressure to feel proper arm position, never enough to restrict blood flow—maximum 10% pressure
-
-**Progressive Pressure Introduction** (Week 5-8)
-- Focus: Gradually increase pressure application while maintaining slow speed—learn to recognize optimal finishing position before applying pressure—practice bilateral compression concept
-- Resistance: Mild resistance
-- Safety: Apply pressure SLOWLY over 5+ seconds—communicate throughout with verbal check-ins—tap EARLY when receiving choke (before discomfort becomes significant)—never exceed 50% pressure in drilling
-
-**Defensive Integration** (Week 9-12)
-- Focus: Practice against common defenses (turning in, rolling away, standing)—learn to maintain control and adjust pressure while opponent moves
-- Resistance: Realistic resistance
-- Safety: Maintain slow application speed even when opponent resists—release immediately if position is lost rather than forcing submission—recognize when choke is not available and transition to other attacks
-
-**Live Sparring Integration** (Week 13+)
-- Focus: Attempt darce setups during positional sparring (turtle top, front headlock, scrambles)—focus on entry timing and recognition rather than finish rate
-- Resistance: Full resistance
-- Safety: NEVER use competition speed in sparring—apply pressure progressively even in live rolls—tap early when caught—respect training partners by releasing instantly on tap—avoid darce attempts when fatigued
-
-**Ongoing Refinement and Competition Preparation** (Ongoing)
-- Focus: Develop darce as core finishing technique from multiple positions—build situational awareness for setup opportunities—study competition footage for timing and positioning refinement
-- Resistance: Full resistance
-- Safety: Maintain training vs competition distinction—save maximum pressure for competition only—continue progressive application in all training—mentor less experienced practitioners on proper safety protocols—never compromise safety for tap
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -393,6 +357,7 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 - [[North-South]]
 - [[Half Guard]]
 - [[Scramble Position]]
+- [[Darce Control]]
 
 
 </section>
@@ -420,14 +385,28 @@ The Darce Choke is a highly effective blood choke that targets the carotid arter
 - [[Front Headlock]] - Primary position for darce entries—mastering front headlock control essential for high-percentage darce setups
 - [[Darce Setup]] - Transition technique covering optimal entries and timing for darce choke from various positions
 - [[Darce from Turtle]] - Specific transition for most common darce entry point when opponent defensive turtles
-- [[D'arce-Anaconda Connection]] - Submission chain showing how to flow between darce and anaconda based on opponent defensive reactions
+- [[Darce-Anaconda Connection]] - Submission chain showing how to flow between darce and anaconda based on opponent defensive reactions
 - [[Darce Variations]] - Companion submission page covering advanced darce variations and position-specific applications
-- [[D'arce Control]] - Position page covering control mechanics and maintenance of darce position before finishing
+- [[Darce Control]] - Position page covering control mechanics and maintenance of darce position before finishing
 - [[Anaconda Control]] - Related control position—understanding anaconda mechanics improves darce understanding and vice versa
 - [[Turtle]] - Common attacking position where darce opportunities frequently arise from opponent's defensive posture
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 55% |
+| Failure | [[Darce Control]] | 45% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

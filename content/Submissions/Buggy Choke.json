@@ -16,11 +16,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and neck compression",
   "starting_position": "Half Guard",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,43 +86,37 @@
       "step_number": 1,
       "action": "Establish Half Guard Control",
       "description": "From half guard bottom, secure your opponent's leg with your half guard while they attempt to flatten you or consolidate position. Your outside leg should hook deep while your inside knee creates a frame. Recognize the moment when your opponent commits their weight forward, making them vulnerable to the choke setup.",
-      "timing": "Initial setup phase, typically when opponent drives into you",
-      "pressure_level": "Light"
+      "timing": "Initial setup phase, typically when opponent drives into you"
     },
     {
       "step_number": 2,
       "action": "Create the Angle and Trap",
       "description": "Turn your body into your opponent, creating a sharp angle rather than staying flat. As you turn, thread your inside arm (the arm on the side of your trapped leg) around and behind their head, or trap their far arm so it crosses their own neck. Your goal is to create a position where their own arm contributes to the choke. Use your free hand to control their wrist or sleeve, preventing defensive hand fighting.",
-      "timing": "2-3 seconds to establish proper angle",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds to establish proper angle"
     },
     {
       "step_number": 3,
       "action": "Lock the Grip Configuration",
       "description": "Secure your choking arm position by grabbing your own leg, your opponent's leg, or establishing a gable grip around their head and shoulder. The exact grip varies based on body proportions and positioning, but the critical element is creating a closed loop that prevents them from swimming their trapped arm free. Your grip should feel secure but not yet applying choking pressure.",
-      "timing": "1-2 seconds for grip establishment",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds for grip establishment"
     },
     {
       "step_number": 4,
       "action": "Adjust Head Position",
       "description": "Position your head to the opposite side of where you're choking (if choking from the right, your head goes to their left). This creates the correct angle for carotid compression and prevents them from turning into you to escape. Your ear should be pressed against their shoulder or upper back, creating maximum leverage. Ensure your chin is tucked to protect your own neck if they attempt to counter.",
-      "timing": "1 second for optimal head placement",
-      "pressure_level": "Moderate"
+      "timing": "1 second for optimal head placement"
     },
     {
       "step_number": 5,
       "action": "Drive Shoulder and Hip Pressure",
       "description": "Begin applying the choke by driving your shoulder into the side of their neck while simultaneously pulling with your arms and driving your hips forward. The pressure comes from your entire body rotation, not just arm strength. Your trapped leg should extend slightly to create additional leverage while your free leg hooks over their back or maintains half guard control. This coordinated movement compresses the carotid arteries from multiple angles.",
-      "timing": "3-5 seconds progressive pressure increase",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive pressure increase"
     },
     {
       "step_number": 6,
       "action": "Finish with Core Engagement",
       "description": "Tighten the choke by squeezing your entire core, engaging your lats, and driving continuous pressure through your shoulder into their neck. Maintain the angle by keeping your head position stable and your hips tight. The finish should feel like you're trying to touch your shoulder to your opposite hip while keeping everything compressed. Watch for the tap and release immediately. If they defend by tucking their chin, maintain pressure and wait for fatigue, or transition to other attacks.",
-      "timing": "2-4 seconds to full submission",
-      "pressure_level": "Maximum"
+      "timing": "2-4 seconds to full submission"
     }
   ],
   "opponent_defense_patterns": [
@@ -161,44 +150,37 @@
     {
       "error": "Applying the choke with only arm strength instead of using whole body mechanics",
       "consequence": "Premature fatigue, weak choke that opponent can defend, and potential injury to your own shoulder or elbow",
-      "correction": "Focus on driving pressure through your shoulder and engaging your core and back muscles. The arms should maintain position while your body rotation creates the pressure.",
-      "danger_level": "Low"
+      "correction": "Focus on driving pressure through your shoulder and engaging your core and back muscles. The arms should maintain position while your body rotation creates the pressure."
     },
     {
       "error": "Losing the angle by staying too flat or parallel with opponent",
       "consequence": "No compression on carotid arteries, opponent easily escapes or counters",
-      "correction": "Maintain a sharp angle with your body turned into your opponent. Your shoulders should form approximately 45-90 degrees relative to their spine.",
-      "danger_level": "Low"
+      "correction": "Maintain a sharp angle with your body turned into your opponent. Your shoulders should form approximately 45-90 degrees relative to their spine."
     },
     {
       "error": "Failing to trap opponent's arm securely before attempting the choke",
       "consequence": "Opponent uses their free arm to defend their neck, making the choke impossible to finish",
-      "correction": "Ensure the arm is deeply trapped across their neck or behind your head before applying pressure. Control their wrist with your free hand if needed.",
-      "danger_level": "Medium"
+      "correction": "Ensure the arm is deeply trapped across their neck or behind your head before applying pressure. Control their wrist with your free hand if needed."
     },
     {
       "error": "Releasing pressure when opponent defends instead of maintaining position",
       "consequence": "Opponent escapes and potentially passes your guard",
-      "correction": "Even if the finish isn't immediately available, maintain your controlling grips and position. Often defenses create fatigue, opening the submission later.",
-      "danger_level": "Low"
+      "correction": "Even if the finish isn't immediately available, maintain your controlling grips and position. Often defenses create fatigue, opening the submission later."
     },
     {
       "error": "Applying explosive, jerking pressure to force the tap",
       "consequence": "Serious injury including neck strain, potential loss of consciousness without warning, or jaw dislocation",
-      "correction": "Apply pressure progressively and smoothly over 3-5 seconds. Give your partner time to recognize the danger and tap safely.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure progressively and smoothly over 3-5 seconds. Give your partner time to recognize the danger and tap safely."
     },
     {
       "error": "Continuing to apply pressure after partner taps or goes limp",
       "consequence": "Unconsciousness, prolonged oxygen deprivation, potential brain injury",
-      "correction": "Develop acute awareness of tap signals and immediately release all pressure the instant you feel a tap. If partner goes limp without tapping, release immediately and alert instructor.",
-      "danger_level": "CRITICAL"
+      "correction": "Develop acute awareness of tap signals and immediately release all pressure the instant you feel a tap. If partner goes limp without tapping, release immediately and alert instructor."
     },
     {
       "error": "Poor head positioning that creates windpipe pressure instead of carotid compression",
       "consequence": "Painful crushing of windpipe without achieving clean submission, potential tracheal damage",
-      "correction": "Adjust your angle so pressure is directed to the sides of the neck where carotid arteries are located, not the front of the throat. This is both safer and more effective.",
-      "danger_level": "High"
+      "correction": "Adjust your angle so pressure is directed to the sides of the neck where carotid arteries are located, not the front of the throat. This is both safer and more effective."
     }
   ],
   "variations_and_setups": [
@@ -285,50 +267,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn proper arm trap mechanics, angle creation, and grip configurations without any pressure application. Study anatomy of carotid arteries versus windpipe. Understand all safety protocols thoroughly.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus entirely on positioning and understanding tap signals. Partner should tap the moment the position is achieved, before any pressure is applied. Learn to recognize the difference between proper carotid compression angle versus dangerous windpipe pressure."
-    },
-    {
-      "phase": "Slow Positional Drilling",
-      "timeframe": "Week 3-4",
-      "focus": "Practice establishing the position from various half guard scenarios with cooperative partner. Begin applying light pressure (10-20% maximum) to understand the feel of correct positioning. Partner should tap early and often.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Apply pressure extremely slowly over 5-7 seconds. Stop immediately when partner feels any discomfort. Primary focus is on angle and body mechanics, not finishing the submission. Build muscle memory for immediate release upon tap."
-    },
-    {
-      "phase": "Progressive Pressure Training",
-      "timeframe": "Week 5-8",
-      "focus": "Gradually increase pressure application while maintaining perfect form. Begin to understand the difference between securing the position and finishing the submission. Partner should defend with basic resistance.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Still apply pressure slowly (4-5 seconds minimum). Partner should communicate verbally during the process ('feeling pressure', 'getting tight', etc.) before tapping. Develop sensitivity to proper pressure levels. Never exceed 70% pressure in training."
-    },
-    {
-      "phase": "Defensive Integration",
-      "timeframe": "Week 9-12",
-      "focus": "Learn to recognize and counter common defenses while maintaining safety. Practice transitioning to alternative attacks when the choke is defended. Develop patience in maintaining position versus forcing the finish.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner should defend intelligently but tap when caught. Begin developing awareness of when to hold position versus when to transition. Understand that not every attempt should result in a finish. Control your ego—never force a submission that isn't there."
-    },
-    {
-      "phase": "Situational Rolling",
-      "timeframe": "Month 4-6",
-      "focus": "Integrate the Buggy Choke into positional sparring from half guard. Begin recognizing opportune moments during live training. Chain with other half guard techniques and sweeps.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain slow pressure application even during live training (3-5 seconds minimum). Never use competition speed or explosiveness. Respect all tap signals instantly. Understand that live training is not competition—partner safety is always the priority."
-    },
-    {
-      "phase": "Competition Application",
-      "timeframe": "Month 6+",
-      "focus": "Apply technique under competition conditions with proper referee oversight and medical personnel present. Understand the ethical responsibility of applying submissions in competition versus training.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even in competition, be prepared to release immediately if opponent taps or loses consciousness. Understand that a victory is never worth causing serious injury. Respect referee stoppage immediately. Be aware that adrenaline can cause you to apply more pressure than intended—compensate by maintaining technical awareness even under stress."
-    }
-  ],
   "from_positions": [
     "Half Guard",
     "Lockdown",
@@ -378,5 +316,6 @@
       "name": "Underhook Sweep from Half",
       "relationship": "Alternative offensive option from the same underhook control position"
     }
-  ]
+  ],
+  "success_rate": 52
 }

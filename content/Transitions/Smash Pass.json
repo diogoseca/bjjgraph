@@ -11,11 +11,6 @@
     "half_guard",
     "cross_face"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Smash Pass is a fundamental pressure-based guard passing technique used to overcome half guard retention. This pass emphasizes heavy shoulder pressure, crossface control, and systematic hip positioning to flatten the opponent and transition to side control. The technique is particularly effective against knee shield half guard and traditional half guard positions, as it uses the passer's body weight and positioning to nullify the bottom player's frames and mobility. The Smash Pass represents a core element of pressure passing systems and is valued for its high percentage success rate when executed with proper mechanics. Unlike dynamic passing approaches, the smash pass relies on patient pressure application, forcing the opponent into progressively worse positions until the guard can be cleared. This technique is especially effective in gi and no-gi contexts, making it a staple of modern BJJ competition strategies.",
   "key_principles": [
     "Establish dominant crossface control to prevent opponent's head movement and re-guarding attempts",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish crossface control",
-      "description": "From half guard top position, drive your near-side shoulder across opponent's face, threading your forearm under their chin and across their jaw line. Your goal is to turn their head away and make them uncomfortable, forcing them to defend the crossface rather than attack. Apply steady pressure with your shoulder into their face while maintaining chest-to-chest contact.",
-      "timing": "Initial setup phase - establish before opponent can frame"
+      "description": "From half guard top position, drive your near-side shoulder across opponent's face, threading your forearm under their chin and across their jaw line. Your goal is to turn their head away and make them uncomfortable, forcing them to defend the crossface rather than attack. Apply steady pressure with your shoulder into their face while maintaining chest-to-chest contact."
     },
     {
       "step_number": 2,
       "action": "Clear the knee shield",
-      "description": "If opponent has knee shield half guard, use your free hand to push their knee down toward the mat while simultaneously driving your hips forward and to the side. Your chest pressure and crossface should make it difficult for them to maintain the frame. Some variations involve swimming your arm under the knee shield and connecting to your crossface grip, creating a vice-like pressure system.",
-      "timing": "As opponent begins defending crossface - capitalize on their distraction"
+      "description": "If opponent has knee shield half guard, use your free hand to push their knee down toward the mat while simultaneously driving your hips forward and to the side. Your chest pressure and crossface should make it difficult for them to maintain the frame. Some variations involve swimming your arm under the knee shield and connecting to your crossface grip, creating a vice-like pressure system."
     },
     {
       "step_number": 3,
       "action": "Flatten opponent's posture",
-      "description": "Drive heavy shoulder pressure through the crossface, forcing opponent's shoulders flat to the mat. Simultaneously walk your hips up toward their head, creating a downward angle that makes it biomechanically difficult for them to maintain defensive frames or turn into you. Your weight should be distributed through your shoulder into their face and chest, not on their hips where they have stronger structural support.",
-      "timing": "Continuous pressure - maintain until opponent is completely flattened"
+      "description": "Drive heavy shoulder pressure through the crossface, forcing opponent's shoulders flat to the mat. Simultaneously walk your hips up toward their head, creating a downward angle that makes it biomechanically difficult for them to maintain defensive frames or turn into you. Your weight should be distributed through your shoulder into their face and chest, not on their hips where they have stronger structural support."
     },
     {
       "step_number": 4,
       "action": "Control the inside leg",
-      "description": "With opponent flattened, use your free hand to control their inside leg (the leg that was creating the half guard). You can use an underhook on this leg, grip their pants at the knee, or pin the leg to the mat with your hand. This prevents them from recovering full guard or creating new frames as you begin extracting your trapped leg.",
-      "timing": "As opponent flattens - secure before attempting leg extraction"
+      "description": "With opponent flattened, use your free hand to control their inside leg (the leg that was creating the half guard). You can use an underhook on this leg, grip their pants at the knee, or pin the leg to the mat with your hand. This prevents them from recovering full guard or creating new frames as you begin extracting your trapped leg."
     },
     {
       "step_number": 5,
       "action": "Extract your trapped leg",
-      "description": "While maintaining crossface pressure and inside leg control, begin walking your trapped leg backward in small steps. Keep your knee pointed toward the mat to make your leg narrow and difficult to hold. Use hip pressure to create space as you pull your leg free. Many practitioners make the mistake of trying to violently rip their leg out - instead, use steady pressure and small movements while opponent's retention is compromised by your control positions.",
-      "timing": "Patient extraction - 3-5 seconds of steady pressure"
+      "description": "While maintaining crossface pressure and inside leg control, begin walking your trapped leg backward in small steps. Keep your knee pointed toward the mat to make your leg narrow and difficult to hold. Use hip pressure to create space as you pull your leg free. Many practitioners make the mistake of trying to violently rip their leg out - instead, use steady pressure and small movements while opponent's retention is compromised by your control positions."
     },
     {
       "step_number": 6,
       "action": "Establish side control",
-      "description": "Once your leg clears the half guard, immediately drive your knee across opponent's belly or hip line to prevent re-guarding. Maintain the crossface as you transition your hips to perpendicular positioning relative to opponent's body. Settle your weight into standard side control, distributing pressure through your chest and shoulder while establishing your preferred side control grips and positioning.",
-      "timing": "Immediate transition - don't allow recovery space"
+      "description": "Once your leg clears the half guard, immediately drive your knee across opponent's belly or hip line to prevent re-guarding. Maintain the crossface as you transition your hips to perpendicular positioning relative to opponent's body. Settle your weight into standard side control, distributing pressure through your chest and shoulder while establishing your preferred side control grips and positioning."
     }
   ],
   "common_counters": [
@@ -130,38 +119,32 @@
     {
       "phase": "Week 1-2: Positional Drilling",
       "focus": "Crossface mechanics and shoulder pressure application",
-      "description": "Partner starts in half guard bottom, completely passive. Focus exclusively on establishing deep crossface, feeling where shoulder pressure is most effective, and understanding proper weight distribution. Practice flattening opponent using only shoulder pressure with no resistance. Drill 10 repetitions per side, holding final position for 10 seconds.",
-      "resistance_level": "None"
+      "description": "Partner starts in half guard bottom, completely passive. Focus exclusively on establishing deep crossface, feeling where shoulder pressure is most effective, and understanding proper weight distribution. Practice flattening opponent using only shoulder pressure with no resistance. Drill 10 repetitions per side, holding final position for 10 seconds."
     },
     {
       "phase": "Week 3-4: Knee Shield Clearing",
       "focus": "Dealing with frames and removing knee shield structure",
-      "description": "Partner maintains knee shield half guard with light resistance. Practice the various knee shield clearing methods (pushing down, swimming under, backstep around) and determine which works best for your body type. Partner should maintain frame but not actively prevent you from clearing. Drill 8 repetitions per side.",
-      "resistance_level": "Light"
+      "description": "Partner maintains knee shield half guard with light resistance. Practice the various knee shield clearing methods (pushing down, swimming under, backstep around) and determine which works best for your body type. Partner should maintain frame but not actively prevent you from clearing. Drill 8 repetitions per side."
     },
     {
       "phase": "Week 5-8: Leg Extraction Under Pressure",
       "focus": "Extracting trapped leg while maintaining control positions",
-      "description": "Partner uses medium resistance, actively gripping your trapped leg and attempting to maintain half guard. You must successfully maintain crossface and inside leg control while extracting your leg. This builds the timing and pressure maintenance skills needed for live rolling. Drill 6 repetitions per side, focusing on smooth execution.",
-      "resistance_level": "Medium"
+      "description": "Partner uses medium resistance, actively gripping your trapped leg and attempting to maintain half guard. You must successfully maintain crossface and inside leg control while extracting your leg. This builds the timing and pressure maintenance skills needed for live rolling. Drill 6 repetitions per side, focusing on smooth execution."
     },
     {
       "phase": "Week 9-12: Counter Defense Integration",
       "focus": "Dealing with common defensive reactions and sweeps",
-      "description": "Partner actively defends using frames, attempts to turn in, and may try to sweep. You must recognize these reactions and apply appropriate counters while still completing the pass. This develops your ability to chain techniques and maintain pressure through opponent's defensive movements. Drill 5 repetitions per side.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends using frames, attempts to turn in, and may try to sweep. You must recognize these reactions and apply appropriate counters while still completing the pass. This develops your ability to chain techniques and maintain pressure through opponent's defensive movements. Drill 5 repetitions per side."
     },
     {
       "phase": "Week 13+: Positional Sparring",
       "focus": "Live application from half guard top position",
-      "description": "Begin all rounds from half guard top position. You may only pass or submit. Partner may sweep, submit, or re-guard. Start with 2-minute rounds and gradually increase to 5 minutes. Focus on using smash pass as your primary strategy while developing backup options when it doesn't work. Track your success rate over multiple training sessions.",
-      "resistance_level": "Full"
+      "description": "Begin all rounds from half guard top position. You may only pass or submit. Partner may sweep, submit, or re-guard. Start with 2-minute rounds and gradually increase to 5 minutes. Focus on using smash pass as your primary strategy while developing backup options when it doesn't work. Track your success rate over multiple training sessions."
     },
     {
       "phase": "Ongoing: Competition Simulation",
       "focus": "Integrating smash pass into full game and competition scenarios",
-      "description": "During regular sparring, actively seek half guard top position and attempt smash pass against fully resisting opponents. Track success rates, common failures, and situations where alternative passes become necessary. Film your rolls to identify technical deficiencies. Combine with other pressure passing techniques for a complete system.",
-      "resistance_level": "Full"
+      "description": "During regular sparring, actively seek half guard top position and attempt smash pass against fully resisting opponents. Track success rates, common failures, and situations where alternative passes become necessary. Film your rolls to identify technical deficiencies. Combine with other pressure passing techniques for a complete system."
     }
   ],
   "variants_and_adaptations": [
@@ -189,33 +172,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is shoulder pressure directed at the opponent's face and chest more effective than pressure on their hips during the smash pass?",
-      "answer": "Shoulder pressure on the face and chest is more effective because the opponent has weaker structural frames in their upper body compared to their hips and legs. When you pressure their hips, they can use their strong leg muscles and hip structure to maintain frames and create space. Upper body pressure compromises their breathing, turns their head away, and makes it biomechanically difficult to maintain defensive structures. Additionally, crossface pressure on the head controls their entire spine, limiting their mobility far more than hip pressure would.",
-      "difficulty": "Intermediate"
+      "answer": "Shoulder pressure on the face and chest is more effective because the opponent has weaker structural frames in their upper body compared to their hips and legs. When you pressure their hips, they can use their strong leg muscles and hip structure to maintain frames and create space. Upper body pressure compromises their breathing, turns their head away, and makes it biomechanically difficult to maintain defensive structures. Additionally, crossface pressure on the head controls their entire spine, limiting their mobility far more than hip pressure would."
     },
     {
       "question": "What is the most common mistake beginners make when attempting to extract their trapped leg during the smash pass?",
-      "answer": "The most common mistake is trying to explosively rip or yank the trapped leg out using force and speed. This causes the opponent's grip to reflexively tighten and wastes significant energy. The correct approach is to extract the leg slowly and methodically while the opponent is flattened and their retention is compromised by your control positions. Small backward steps with steady pressure, while maintaining crossface and inside leg control, is far more effective than violent extraction attempts.",
-      "difficulty": "Beginner"
+      "answer": "The most common mistake is trying to explosively rip or yank the trapped leg out using force and speed. This causes the opponent's grip to reflexively tighten and wastes significant energy. The correct approach is to extract the leg slowly and methodically while the opponent is flattened and their retention is compromised by your control positions. Small backward steps with steady pressure, while maintaining crossface and inside leg control, is far more effective than violent extraction attempts."
     },
     {
       "question": "How should you respond if your opponent successfully establishes a deep half guard position while you're attempting the smash pass?",
-      "answer": "You should immediately stop attempting the smash pass and address the deep half guard position first. Trying to force the smash pass from deep half is low percentage and energy inefficient. Instead, you need to deal with the deep half guard specifically - this might involve swimming your leg under to clear their lockdown, establishing a whizzer control, or transitioning to a completely different passing strategy. Never ignore a positional change that fundamentally alters your control structure.",
-      "difficulty": "Advanced"
+      "answer": "You should immediately stop attempting the smash pass and address the deep half guard position first. Trying to force the smash pass from deep half is low percentage and energy inefficient. Instead, you need to deal with the deep half guard specifically - this might involve swimming your leg under to clear their lockdown, establishing a whizzer control, or transitioning to a completely different passing strategy. Never ignore a positional change that fundamentally alters your control structure."
     },
     {
       "question": "Why is controlling the opponent's inside leg critical before attempting to extract your trapped leg?",
-      "answer": "Controlling the inside leg prevents the opponent from recovering full guard or transitioning to deep half guard as you extract your trapped leg. Without this control, the opponent can simply follow your leg extraction by bringing their outside leg across to close their guard, or they can use their inside leg to prevent your leg from clearing entirely. Inside leg control (via underhook, grip, or pin) eliminates their primary re-guarding mechanism and is a non-negotiable prerequisite for successful pass completion.",
-      "difficulty": "Intermediate"
+      "answer": "Controlling the inside leg prevents the opponent from recovering full guard or transitioning to deep half guard as you extract your trapped leg. Without this control, the opponent can simply follow your leg extraction by bringing their outside leg across to close their guard, or they can use their inside leg to prevent your leg from clearing entirely. Inside leg control (via underhook, grip, or pin) eliminates their primary re-guarding mechanism and is a non-negotiable prerequisite for successful pass completion."
     },
     {
       "question": "What are the key differences between the smash pass approach and dynamic passing approaches to half guard?",
-      "answer": "The smash pass emphasizes patient pressure application, heavy shoulder control, and systematic flattening of the opponent's structure. It relies on making the opponent progressively more uncomfortable until their retention fails. Dynamic passing, by contrast, uses speed, angle changes, and explosive movements to circumvent the opponent's guards rather than crushing through them. Smash passing is more energy efficient over time and works well against flexible opponents or strong guard players, while dynamic passing is faster but requires more cardiovascular capacity and works better against opponents who rely on pressure resistance rather than mobility.",
-      "difficulty": "Advanced"
+      "answer": "The smash pass emphasizes patient pressure application, heavy shoulder control, and systematic flattening of the opponent's structure. It relies on making the opponent progressively more uncomfortable until their retention fails. Dynamic passing, by contrast, uses speed, angle changes, and explosive movements to circumvent the opponent's guards rather than crushing through them. Smash passing is more energy efficient over time and works well against flexible opponents or strong guard players, while dynamic passing is faster but requires more cardiovascular capacity and works better against opponents who rely on pressure resistance rather than mobility."
     },
     {
       "question": "When should you abandon the smash pass attempt and consider a different passing strategy?",
-      "answer": "You should consider abandoning the smash pass when: 1) opponent establishes strong frames at your hips that you cannot overcome, 2) they successfully turn into you and threaten to take your back, 3) they lock deep half guard, 4) your crossface control is completely shut down and you cannot re-establish it, or 5) you're spending excessive energy without making progress. Elite passers know when to switch strategies rather than forcing a technique that isn't working. The smash pass should feel like inevitable progression - if it feels like a stalemate, consider knee slice, backstep, or other passing alternatives.",
-      "difficulty": "Advanced"
+      "answer": "You should consider abandoning the smash pass when: 1) opponent establishes strong frames at your hips that you cannot overcome, 2) they successfully turn into you and threaten to take your back, 3) they lock deep half guard, 4) your crossface control is completely shut down and you cannot re-establish it, or 5) you're spending excessive energy without making progress. Elite passers know when to switch strategies rather than forcing a technique that isn't working. The smash pass should feel like inevitable progression - if it feels like a stalemate, consider knee slice, backstep, or other passing alternatives."
     }
   ],
   "safety_considerations": "When practicing the smash pass, apply shoulder pressure with control rather than explosive force to avoid injury to your partner's neck, jaw, or face. The crossface should be uncomfortable but never painful enough to cause injury. During training, communicate with your partner about pressure levels, especially when first learning the technique. Ensure adequate mat space for the driving movements required in this pass. Be particularly careful when extracting your trapped leg - sudden explosive movements can cause knee or ankle injuries to either practitioner. If your partner taps or signals distress during crossface application, immediately release pressure. When drilling with newer partners, use lighter pressure until they understand the mechanics and can defend appropriately. Never use full competition-level pressure during cooperative drilling.",
@@ -291,5 +268,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

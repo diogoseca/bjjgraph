@@ -157,7 +157,7 @@ The technique requires committing to the cartwheel motion with conviction, as he
 Strategically, the Cartwheel Pass functions best as a surprise element within your passing game. Its athletic nature means it cannot be spammed repeatedly without significant energy expenditure. The optimal timing occurs when the guard player has committed deeply to their inversion, creating space beside their body for your hand placement. Attempting the pass when they are actively adjusting or have legs extended toward you significantly reduces success probability and increases counter risk.
 
 **From Position**: [[Grasshopper Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish position**: From standing or combat base facing the inverted guard, assess opponent's leg positioning and identify which side offers the clear passing lane based on where their legs are committed. (Timing: 2-3 seconds of observation)
-2. **Create angle**: Step laterally toward the identified passing lane, beginning to circle around the edge of opponent's guard structure while maintaining enough distance to avoid leg hooks. (Timing: Quick lateral movement)
-3. **Plant lead hand**: Drive your lead hand firmly to the mat beside opponent's hip on the passing side, fingers pointing away from their body to support your rotation through the cartwheel. (Timing: Explosive plant)
-4. **Initiate cartwheel**: Push off your feet and begin the cartwheel rotation, driving your hips up and over while your trailing hand reaches toward the mat on the far side of opponent's body. (Timing: Immediate follow-through)
-5. **Clear legs**: Rotate your legs through the air in the cartwheel arc, keeping them elevated and wide to completely clear opponent's inverted guard structure without making contact. (Timing: Maintain momentum)
-6. **Land in side control**: Complete the rotation by landing your hip-side knee first, immediately driving chest pressure perpendicular across opponent's torso while establishing crossface and hip control. (Timing: Immediate pressure on landing)
+1. **Establish position**: From standing or combat base facing the inverted guard, assess opponent's leg positioning and identify which side offers the clear passing lane based on where their legs are committed.
+2. **Create angle**: Step laterally toward the identified passing lane, beginning to circle around the edge of opponent's guard structure while maintaining enough distance to avoid leg hooks.
+3. **Plant lead hand**: Drive your lead hand firmly to the mat beside opponent's hip on the passing side, fingers pointing away from their body to support your rotation through the cartwheel.
+4. **Initiate cartwheel**: Push off your feet and begin the cartwheel rotation, driving your hips up and over while your trailing hand reaches toward the mat on the far side of opponent's body.
+5. **Clear legs**: Rotate your legs through the air in the cartwheel arc, keeping them elevated and wide to completely clear opponent's inverted guard structure without making contact.
+6. **Land in side control**: Complete the rotation by landing your hip-side knee first, immediately driving chest pressure perpendicular across opponent's torso while establishing crossface and hip control.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 ## Training Progressions
 **Week 1-2** - Cartwheel mechanics
 Practice cartwheel motion solo without partner to develop comfort with the athletic movement. Focus on hand placement, rotation speed, and controlled landing. Build shoulder stability and spatial awareness required for the technique.
-(Resistance: None)
 
 **Week 3-4** - Partner drilling static
 Partner holds inverted guard position without resistance. Practice complete sequence from observation through landing and consolidation. Focus on trajectory, clearance, and immediate pressure establishment. Reset and repeat 20+ repetitions per session.
-(Resistance: Light)
 
 **Week 5-6** - Timing and recognition
 Partner actively moves in inverted guard, adjusting leg positions and angles. Practice recognizing the optimal timing window and executing the pass during appropriate moments. Partner begins providing moderate defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate into positional sparring from standing against inverted guards. Partner defends with full intent. Focus on integrating the pass into broader passing game, combining with other techniques when cartwheel is defended.
-(Resistance: Full)
 
 
 

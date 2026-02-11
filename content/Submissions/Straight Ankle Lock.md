@@ -163,7 +163,8 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 **Type**: Ankle Lock
 **Target Area**: Ankle joint, Achilles tendon, and foot ligaments
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**From Position**: [[Straight Ankle Lock Control]] (Top)
+**Success Rate**: 58%
 
 </section>
 
@@ -240,13 +241,13 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the Foot Deep in Armpit**: With both hands controlling the opponent's foot and heel, pull the foot across your centerline and wedge it deeply into your armpit (opposite side from the trapped leg). The heel should be fully enclosed by your armpit and latissimus, with your elbow pinched down to trap it. Your hands should be palm-to-palm or figure-four gripped around the ankle and heel area, not the toes. (Timing: Initial setup phase, establish before applying pressure) [Pressure: Moderate]
-2. **Position Forearm Blade Across Top of Foot**: Rotate your gripping arms so the blade of your forearm (the thumb-side, radial bone side) lies across the top of the opponent's foot near where the foot meets the ankle. This creates the fulcrum point for hyperextension. Your wrist should be relatively straight, not bent, to maximize structural strength. The forearm must be high on the foot, not down near the toes where leverage is lost. (Timing: After armpit control established) [Pressure: Light]
-3. **Lock Chest to Opponent's Knee**: Drive your chest forward and down onto the opponent's knee, creating tight connection. This prevents them from pulling their leg free and ensures your hip extension translates directly into ankle pressure. Your head should be positioned on the outside of their knee (away from their free leg), and your shoulders should be square to their trapped leg. Maintain this connection throughout the finish. (Timing: Simultaneously with forearm positioning) [Pressure: Firm]
-4. **Adjust Hip Position and Angle**: Scoot your hips slightly away from the opponent to create proper angle—you want your body perpendicular or at a slight angle to their trapped leg, not parallel. Your inside leg should maintain the hook behind their knee while your outside leg posts on the ground or their hip for base. This angle ensures your hip extension drives into their leg rather than sliding off to the side. (Timing: Final adjustment before pressure application) [Pressure: Light]
-5. **Extend Hips While Pulling Foot Back**: Begin extending your hips forward into the opponent's leg while simultaneously pulling back on their foot with your armpit and arms. The movement should be coordinated—hip extension drives forward pressure while your arms maintain the foot's position in the armpit. Think of trying to touch your chest to their knee while arching your back slightly. Apply this pressure smoothly and progressively over 3-5 seconds in training. (Timing: Finishing phase, 3-5 second progression) [Pressure: Moderate]
-6. **Increase Pressure Until Tap or Adjust**: Continue smooth hip extension and foot retention, increasing pressure gradually. If the opponent defends by grabbing their trapped leg or creating frames, maintain control and adjust angle rather than releasing. If they begin to extract their leg, abandon the finish and return to position control. The tap will come from ankle hyperextension—watch for the tap signal and release immediately upon receiving it. Never jerk or spike the pressure rapidly. (Timing: Final progression to tap) [Pressure: Firm]
-7. **Release Protocol Upon Tap**: The moment you feel or hear the tap, immediately stop hip extension, release the armpit grip allowing the foot to slide free, and open your leg entanglement. Create space and move away from the leg to prevent accidental re-engagement. Verbally confirm your partner is okay. Never hold the pressure even momentarily after a tap signal—ankle injuries can occur rapidly once the joint's capacity is exceeded. (Timing: Immediate upon tap signal) [Pressure: Light]
+1. **Secure the Foot Deep in Armpit**: With both hands controlling the opponent's foot and heel, pull the foot across your centerline and wedge it deeply into your armpit (opposite side from the trapped leg). The heel should be fully enclosed by your armpit and latissimus, with your elbow pinched down to trap it. Your hands should be palm-to-palm or figure-four gripped around the ankle and heel area, not the toes. (Timing: Initial setup phase, establish before applying pressure)
+2. **Position Forearm Blade Across Top of Foot**: Rotate your gripping arms so the blade of your forearm (the thumb-side, radial bone side) lies across the top of the opponent's foot near where the foot meets the ankle. This creates the fulcrum point for hyperextension. Your wrist should be relatively straight, not bent, to maximize structural strength. The forearm must be high on the foot, not down near the toes where leverage is lost. (Timing: After armpit control established)
+3. **Lock Chest to Opponent's Knee**: Drive your chest forward and down onto the opponent's knee, creating tight connection. This prevents them from pulling their leg free and ensures your hip extension translates directly into ankle pressure. Your head should be positioned on the outside of their knee (away from their free leg), and your shoulders should be square to their trapped leg. Maintain this connection throughout the finish. (Timing: Simultaneously with forearm positioning)
+4. **Adjust Hip Position and Angle**: Scoot your hips slightly away from the opponent to create proper angle—you want your body perpendicular or at a slight angle to their trapped leg, not parallel. Your inside leg should maintain the hook behind their knee while your outside leg posts on the ground or their hip for base. This angle ensures your hip extension drives into their leg rather than sliding off to the side. (Timing: Final adjustment before pressure application)
+5. **Extend Hips While Pulling Foot Back**: Begin extending your hips forward into the opponent's leg while simultaneously pulling back on their foot with your armpit and arms. The movement should be coordinated—hip extension drives forward pressure while your arms maintain the foot's position in the armpit. Think of trying to touch your chest to their knee while arching your back slightly. Apply this pressure smoothly and progressively over 3-5 seconds in training. (Timing: Finishing phase, 3-5 second progression)
+6. **Increase Pressure Until Tap or Adjust**: Continue smooth hip extension and foot retention, increasing pressure gradually. If the opponent defends by grabbing their trapped leg or creating frames, maintain control and adjust angle rather than releasing. If they begin to extract their leg, abandon the finish and return to position control. The tap will come from ankle hyperextension—watch for the tap signal and release immediately upon receiving it. Never jerk or spike the pressure rapidly. (Timing: Final progression to tap)
+7. **Release Protocol Upon Tap**: The moment you feel or hear the tap, immediately stop hip extension, release the armpit grip allowing the foot to slide free, and open your leg entanglement. Create space and move away from the leg to prevent accidental re-engagement. Verbally confirm your partner is okay. Never hold the pressure even momentarily after a tap signal—ankle injuries can occur rapidly once the joint's capacity is exceeded. (Timing: Immediate upon tap signal)
 
 
 </section>
@@ -266,25 +267,25 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive, rapid pressure to finish quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive, rapid pressure to finish quickly
   - **Consequence**: High risk of ankle or Achilles injury to training partner; creates unsafe training environment and damages trust
   - **Correction**: Always apply pressure progressively over 3-5 seconds in training, allowing your partner to recognize the danger and tap safely. Competition speed is different from training speed—practice control.
-- **Mistake**: Gripping the toes or midfoot instead of controlling the heel deep in the armpit [Medium DANGER]
+- **Mistake**: Gripping the toes or midfoot instead of controlling the heel deep in the armpit
   - **Consequence**: Loss of leverage and control; opponent can easily extract their foot; submission has no finishing pressure
   - **Correction**: Always secure the heel deep in your armpit first, then position your forearm across the top of the foot near the ankle. The armpit and lat muscle should trap the heel completely.
-- **Mistake**: Losing chest connection to opponent's knee while attempting to finish [High DANGER]
+- **Mistake**: Losing chest connection to opponent's knee while attempting to finish
   - **Consequence**: Opponent extracts their leg easily; submission fails; you lose position control
   - **Correction**: Maintain constant pressure with your chest driving into their knee throughout the finish. Your chest-to-knee connection is more important than arm strength—it prevents all escapes.
-- **Mistake**: Positioning body parallel to opponent's leg instead of perpendicular [Low DANGER]
+- **Mistake**: Positioning body parallel to opponent's leg instead of perpendicular
   - **Consequence**: Hip extension does not translate into ankle pressure; submission feels weak; opponent defends easily
   - **Correction**: Adjust angle so your body is perpendicular or slightly angled to their trapped leg. Your hip extension should drive directly into their leg structure, not slide along it.
-- **Mistake**: Using bent wrists or poor forearm positioning across the foot [Medium DANGER]
+- **Mistake**: Using bent wrists or poor forearm positioning across the foot
   - **Consequence**: Weak leverage; potential wrist injury to yourself; submission lacks finishing power
   - **Correction**: Keep wrists relatively straight and use the blade of your forearm (radial bone, thumb side) across the top of the foot near the ankle. Think structural strength, not arm muscle.
-- **Mistake**: Continuing to apply pressure after tap signal is given [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after tap signal is given
   - **Consequence**: Partner injury ranging from sprain to tendon rupture; loss of training partners; potential legal liability; complete breach of training etiquette
   - **Correction**: Release immediately upon any tap signal—visual, auditory, or physical. Practice release protocol during drilling so it becomes automatic. Err on the side of releasing too early rather than too late.
-- **Mistake**: Neglecting to control opponent's free leg, allowing them to kick your head or create distance [Medium DANGER]
+- **Mistake**: Neglecting to control opponent's free leg, allowing them to kick your head or create distance
   - **Consequence**: Loss of position; potential strikes to your face or head; opponent creates space to escape
   - **Correction**: Use your outside leg to control their free leg by posting on their hip, hooking their thigh, or positioning it where they cannot generate kicking power. Awareness of both legs is essential.
 
@@ -351,43 +352,6 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Anatomy Education** (Week 1-2, minimum 3 dedicated technique sessions)
-- Focus: Learn ankle anatomy, injury mechanisms, proper setup positions, and grip configurations without any resistance or finishing pressure. Study release protocol and tap signal recognition. Understand the difference between control position (Ashi Garami) and finishing mechanics.
-- Resistance: None
-- Safety: Instructor demonstrates on students at zero pressure. Students practice positioning only—armpit control, chest to knee, forearm placement—without extending hips or applying any finishing pressure. Explicit discussion of injury types and recovery times.
-
-**Slow Technical Drilling with Compliant Partner** (Week 3-4, daily drilling recommended)
-- Focus: Practice complete sequence from position entry to finish with cooperative partner who maintains straight leg and allows proper positioning. Apply finishing pressure very slowly (5-7 seconds to pressure) and stop at first sensation. Practice release protocol repeatedly.
-- Resistance: Zero resistance
-- Safety: Partner taps at first sensation of ankle pressure, long before pain or danger. Drill release protocol as thoroughly as the submission itself. Communication between partners about pressure levels throughout. No competition mindset—pure technical repetition.
-
-**Moderate Resistance with Communication** (Week 5-8)
-- Focus: Partner provides mild defensive resistance—attempts to extract heel, grab their leg, sit up—but allows you to overcome defenses with proper technique. Continue slow pressure application (4-5 seconds). Begin recognizing when submission is not available and you should return to position control.
-- Resistance: Mild resistance
-- Safety: Maintain verbal communication about pressure levels. Partner taps early—when they recognize the submission is locked in, not when pain becomes significant. Practice releasing and resetting multiple times per round. Emphasis on control over urgency.
-
-**Positional Sparring from Established Positions** (Week 9-12)
-- Focus: Start from established Ashi Garami or leg entanglement positions with goal of achieving submission or position escape. Realistic resistance but still cooperative safety culture. Work entries from various positions (X-Guard, half guard, standing).
-- Resistance: Realistic resistance
-- Safety: Both partners committed to 3-5 second pressure application minimum. If submission is on, defender taps; if defender escapes, attacker does not chase recklessly. Debrief after rounds about close calls or pressure timing concerns.
-
-**Open Guard and Scramble Integration** (Month 4-6)
-- Focus: Integrate straight ankle lock into open guard passing, guard retention, and scramble situations. Practice recognizing opportunities during live rolling and entering smoothly into leg entanglement. Begin chaining with other leg attacks (toe hold, kneebar).
-- Resistance: Full resistance
-- Safety: Higher injury risk in scrambles due to dynamic movement and unpredictable positioning. Both partners must exercise greater caution with pressure application. Tap earlier when caught in scrambles before position is fully settled. Stop and reset if positions become dangerous.
-
-**Competition Simulation and Advanced Tactics** (Month 6+, only for experienced practitioners)
-- Focus: Practice under competition conditions with time limits, point scoring, and psychological pressure. Develop strategic decision-making about when to pursue leg attacks vs positional advancement. Train competition-specific entries and counters.
-- Resistance: Full resistance
-- Safety: Even in competition simulation, training partners are not opponents—maintain safety-first approach with pressure application. Agree before rounds on intensity level and whether you will work to escape or tap early. Some practitioners choose to never train this submission at competition speed to preserve long-term joint health.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -402,6 +366,7 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 - [[Butterfly Guard]]
 - [[Half Guard]]
 - [[De La Riva Guard]]
+- [[Straight Ankle Lock Control]]
 
 
 </section>
@@ -440,6 +405,20 @@ The Straight Ankle Lock (also called Straight Footlock) is the most fundamental 
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 52% |
+| Failure | [[Straight Ankle Lock Control]] | 48% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

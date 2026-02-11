@@ -157,7 +157,7 @@ This attack works particularly well when the opponent attempts to push against y
 Strategically, this armbar pairs exceptionally well with Americana and Kimura attacks from Kesa Gatame. When opponents defend the bent-arm locks by straightening their arm, they expose themselves to the armbar. Conversely, when they bend to defend the armbar threat, Americana and Kimura opportunities open. This creates a synergistic attack system where each defense feeds into another offensive opportunity.
 
 **From Position**: [[Kesa Gatame/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this armbar pairs exceptionally well with Americana and Kimura at
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: From Kesa Gatame, release head control with your near arm and immediately secure a two-on-one grip on opponent's trapped arm at the wrist. Your grip must be unbreakable—use both hands with thumbs pointing same direction, pulling their wrist tight against your chest. (Timing: Execute when opponent pushes or extends arm)
-2. **Hip switch preparation**: Shift your weight onto your far hip while maintaining the wrist grip. Your near leg should begin sliding toward opponent's far hip. Keep heavy chest pressure to prevent opponent from sitting up or creating space during this transitional moment. (Timing: Immediately after securing wrist)
-3. **Clear the shoulder**: Push off your posted leg and swing your hips perpendicular to opponent's body. Your near hip must completely clear their shoulder, creating space for your leg to pass over their face. Maintain wrist control throughout—this is the most vulnerable moment for arm escape. (Timing: Smooth continuous motion from hip switch)
-4. **Leg over face**: Swing your far leg over opponent's face in an arc, with your calf landing across their neck and jaw. Your heel should hook under their far shoulder to prevent them from turning toward you. Keep knees pinched together around their upper arm. (Timing: As hips clear shoulder)
-5. **Secure control position**: Settle your hips close to opponent's shoulder with their arm trapped between your thighs. Their elbow should be positioned just above your hip line. Squeeze knees together and control their wrist with both hands, thumb pointing toward ceiling. (Timing: Pause to verify control before finishing)
-6. **Apply breaking pressure**: With opponent's arm fully controlled and their thumb pointing up, bridge your hips toward the ceiling while pulling their wrist toward your chest. The breaking pressure comes from your hip lift against their elbow joint—do not simply pull the arm down. (Timing: Controlled steady pressure)
+1. **Secure wrist control**: From Kesa Gatame, release head control with your near arm and immediately secure a two-on-one grip on opponent's trapped arm at the wrist. Your grip must be unbreakable—use both hands with thumbs pointing same direction, pulling their wrist tight against your chest.
+2. **Hip switch preparation**: Shift your weight onto your far hip while maintaining the wrist grip. Your near leg should begin sliding toward opponent's far hip. Keep heavy chest pressure to prevent opponent from sitting up or creating space during this transitional moment.
+3. **Clear the shoulder**: Push off your posted leg and swing your hips perpendicular to opponent's body. Your near hip must completely clear their shoulder, creating space for your leg to pass over their face. Maintain wrist control throughout—this is the most vulnerable moment for arm escape.
+4. **Leg over face**: Swing your far leg over opponent's face in an arc, with your calf landing across their neck and jaw. Your heel should hook under their far shoulder to prevent them from turning toward you. Keep knees pinched together around their upper arm.
+5. **Secure control position**: Settle your hips close to opponent's shoulder with their arm trapped between your thighs. Their elbow should be positioned just above your hip line. Squeeze knees together and control their wrist with both hands, thumb pointing toward ceiling.
+6. **Apply breaking pressure**: With opponent's arm fully controlled and their thumb pointing up, bridge your hips toward the ceiling while pulling their wrist toward your chest. The breaking pressure comes from your hip lift against their elbow joint—do not simply pull the arm down.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this armbar pairs exceptionally well with Americana and Kimura at
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice the wrist grip transfer from Kesa Gatame with no resistance. Focus on maintaining constant contact with opponent's arm throughout transition. Drill the hip switch movement slowly, pausing at each position to verify proper alignment. Partner remains completely passive.
-(Resistance: None)
 
 **Week 3-4** - Leg placement and control
 Add focus on proper leg positioning over opponent's face and head control. Practice the squeeze and pinch with knees. Partner provides light resistance by attempting to pull arm free during transition. Work on timing the leg swing to coincide with hip clearance.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Integrate with Americana and Kimura attacks. When partner defends armbar by bending arm, transition to bent-arm locks. When partner straightens to defend those, return to armbar. Partner defends intelligently but allows successful techniques when executed properly.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from Kesa Gatame. Top player works to achieve armbar, bottom player uses all defensive options. Emphasis on reading opponent's defensive reactions and selecting appropriate attack. Full resistance with controlled submissions.
-(Resistance: Full)
 
 
 

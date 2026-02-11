@@ -211,7 +211,7 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 
 - **[[Anaconda Control]]** - Parent technique - standard anaconda without dead orchard control emphasis
 
-- **[[D'arce Control]]** - Sister position - alternative arm-in choke with similar control mechanics
+- **[[Darce Control]]** - Sister position - alternative arm-in choke with similar control mechanics
 
 - **[[Front Headlock]]** - Entry position - common setup state for dead orchard establishment
 

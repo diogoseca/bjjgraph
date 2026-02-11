@@ -361,11 +361,11 @@ Flow through all major passing options from SLX Top: headquarters, knee slice, l
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 10% |
-| Intermediate | 50% | 55% | 20% |
-| Advanced     | 70% | 75% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 65% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 30-90 seconds depending on skill differential and strategic approach
 

@@ -163,7 +163,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and associated ligaments
 **Starting Position**: [[Turtle]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -244,13 +244,13 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure initial arm control**: From top turtle position, identify the exposed arm (typically the arm furthest from you or posting forward). Use your near hand to control the opponent's wrist or tricep area. Apply downward pressure to prevent them from pulling the arm back to their body. Position your body at approximately 45-90 degrees to their torso to create the proper attacking angle. (Timing: Establish control before opponent recognizes the threat) [Pressure: Moderate]
-2. **Thread your attacking arm**: Thread your attacking arm (same side as their exposed arm) underneath their arm, moving from outside to inside. Your forearm should pass under their tricep/elbow area. Keep your elbow tight and maintain constant contact with their arm. Your hand should emerge on the inside of their arm, near their head. Maintain hip pressure on their back to prevent them from sitting back or rolling away. (Timing: Quick insertion while maintaining control) [Pressure: Moderate]
-3. **Establish figure-four grip**: With your threading arm now under their arm, reach across and grab your own wrist with your opposite hand, creating the characteristic figure-four configuration. The opponent's wrist should be controlled with your initial controlling hand. Ensure the grip is tight and positioned with your forearm across the back of their shoulder. Your elbows should be close together, creating a solid structural frame. The opponent's arm should be bent at approximately 90 degrees or slightly more. (Timing: Secure grip before applying rotational pressure) [Pressure: Firm]
-4. **Adjust body position and angle**: Once the figure-four is secured, adjust your body position to optimize leverage. Move your hips and chest closer to the opponent's shoulder, eliminating space between your chest and their shoulder blade. Your body should be positioned perpendicular or slightly past perpendicular to the opponent's body. Establish a strong base with your legs, typically with one knee on the mat and the other foot posted for stability. Keep your head low and chest tight to their shoulder to prevent them from rolling. (Timing: Positional adjustment before applying submission pressure) [Pressure: Firm]
-5. **Break opponent's base**: Use your body weight and hip pressure to break the opponent's turtle posture. Drive your chest into their shoulder while pulling their trapped arm slightly away from their body. This forces them off balance and prevents them from using their base to defend. You may need to use your legs to hook or control their far leg to prevent rolling. The goal is to flatten them slightly or force them to post with their free hand, making the Kimura inevitable. (Timing: Progressive pressure to establish control) [Pressure: Firm]
-6. **Apply controlled rotational pressure**: With everything secured, begin applying the submission by rotating their forearm toward their head (or in some variations, toward their back). The rotation should come from your entire upper body structure, not just your arms. Keep the opponent's elbow tight to your body as you rotate. Apply pressure SLOWLY and progressively over 3-5 seconds minimum in training. Watch for the tap and be prepared to release immediately. The pressure should feel like a continuous, controlled rotation rather than a sudden jerk. Maintain chest-to-shoulder contact throughout to prevent escape. (Timing: Slow, progressive application over 3-5 seconds minimum) [Pressure: Maximum]
-7. **Maintain control through finish or transition**: If the opponent taps, immediately stop rotational pressure while maintaining positional control, then release as per safety protocol. If they defend by rolling with the pressure, be prepared to follow them into the roll while maintaining the figure-four grip, potentially transitioning to mount or side control. If they attempt to sit back, use the Kimura grip to take their back or transition to a more dominant position. The Kimura from turtle is as much a control position as a submission, offering multiple attacking and transitional opportunities. (Timing: Maintain until tap or transition opportunity) [Pressure: Maximum]
+1. **Secure initial arm control**: From top turtle position, identify the exposed arm (typically the arm furthest from you or posting forward). Use your near hand to control the opponent's wrist or tricep area. Apply downward pressure to prevent them from pulling the arm back to their body. Position your body at approximately 45-90 degrees to their torso to create the proper attacking angle. (Timing: Establish control before opponent recognizes the threat)
+2. **Thread your attacking arm**: Thread your attacking arm (same side as their exposed arm) underneath their arm, moving from outside to inside. Your forearm should pass under their tricep/elbow area. Keep your elbow tight and maintain constant contact with their arm. Your hand should emerge on the inside of their arm, near their head. Maintain hip pressure on their back to prevent them from sitting back or rolling away. (Timing: Quick insertion while maintaining control)
+3. **Establish figure-four grip**: With your threading arm now under their arm, reach across and grab your own wrist with your opposite hand, creating the characteristic figure-four configuration. The opponent's wrist should be controlled with your initial controlling hand. Ensure the grip is tight and positioned with your forearm across the back of their shoulder. Your elbows should be close together, creating a solid structural frame. The opponent's arm should be bent at approximately 90 degrees or slightly more. (Timing: Secure grip before applying rotational pressure)
+4. **Adjust body position and angle**: Once the figure-four is secured, adjust your body position to optimize leverage. Move your hips and chest closer to the opponent's shoulder, eliminating space between your chest and their shoulder blade. Your body should be positioned perpendicular or slightly past perpendicular to the opponent's body. Establish a strong base with your legs, typically with one knee on the mat and the other foot posted for stability. Keep your head low and chest tight to their shoulder to prevent them from rolling. (Timing: Positional adjustment before applying submission pressure)
+5. **Break opponent's base**: Use your body weight and hip pressure to break the opponent's turtle posture. Drive your chest into their shoulder while pulling their trapped arm slightly away from their body. This forces them off balance and prevents them from using their base to defend. You may need to use your legs to hook or control their far leg to prevent rolling. The goal is to flatten them slightly or force them to post with their free hand, making the Kimura inevitable. (Timing: Progressive pressure to establish control)
+6. **Apply controlled rotational pressure**: With everything secured, begin applying the submission by rotating their forearm toward their head (or in some variations, toward their back). The rotation should come from your entire upper body structure, not just your arms. Keep the opponent's elbow tight to your body as you rotate. Apply pressure SLOWLY and progressively over 3-5 seconds minimum in training. Watch for the tap and be prepared to release immediately. The pressure should feel like a continuous, controlled rotation rather than a sudden jerk. Maintain chest-to-shoulder contact throughout to prevent escape. (Timing: Slow, progressive application over 3-5 seconds minimum)
+7. **Maintain control through finish or transition**: If the opponent taps, immediately stop rotational pressure while maintaining positional control, then release as per safety protocol. If they defend by rolling with the pressure, be prepared to follow them into the roll while maintaining the figure-four grip, potentially transitioning to mount or side control. If they attempt to sit back, use the Kimura grip to take their back or transition to a more dominant position. The Kimura from turtle is as much a control position as a submission, offering multiple attacking and transitional opportunities. (Timing: Maintain until tap or transition opportunity)
 
 
 </section>
@@ -270,28 +270,28 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive rotational pressure or jerking the arm suddenly [CRITICAL DANGER]
+- **Mistake**: Applying explosive rotational pressure or jerking the arm suddenly
   - **Consequence**: Severe injury risk including rotator cuff tears, shoulder dislocation, and potential permanent damage to the shoulder joint
   - **Correction**: Always apply rotational pressure slowly and progressively over minimum 3-5 seconds in training. The submission should feel like a continuous, controlled pressure increase. Focus on structural control and positioning rather than speed of application. Remember that in training, your partner's safety is paramount.
-- **Mistake**: Failing to control opponent's posture and base before attempting submission [Medium DANGER]
+- **Mistake**: Failing to control opponent's posture and base before attempting submission
   - **Consequence**: Opponent easily escapes by rolling forward, standing up, or pulling arm back to safety, wasting the attacking opportunity
   - **Correction**: Always establish dominant positional control first. Use your body weight, hip pressure, and leg positioning to break their base and control their movement before applying rotational pressure. The position should feel secure and stable before attempting the finish.
-- **Mistake**: Creating space between your chest and opponent's shoulder during execution [Medium DANGER]
+- **Mistake**: Creating space between your chest and opponent's shoulder during execution
   - **Consequence**: Opponent can use the space to relieve pressure, turn into you, or escape the submission entirely
   - **Correction**: Maintain constant chest-to-shoulder contact throughout the entire sequence. Your chest should be glued to their shoulder blade. Any space creation gives them defensive options. Think of your upper body as attached to their shoulder, moving as one unit.
-- **Mistake**: Allowing opponent's elbow to move away from your body during rotation [Low DANGER]
+- **Mistake**: Allowing opponent's elbow to move away from your body during rotation
   - **Consequence**: Loss of leverage and structural integrity, making the submission weak and easily defendable
   - **Correction**: Keep the opponent's elbow pinned tight to your ribcage throughout the entire submission. The elbow should never float away from your body. Squeeze your arm tight to your side while rotating. This connection is critical for maintaining leverage and preventing escape.
-- **Mistake**: Positioning your body directly behind opponent rather than at proper angle [Low DANGER]
+- **Mistake**: Positioning your body directly behind opponent rather than at proper angle
   - **Consequence**: Poor leverage, difficulty establishing the figure-four grip, and inability to prevent forward rolls or escapes
   - **Correction**: Position your body at 45-90 degrees perpendicular to the opponent's torso. This angle allows better access to the arm, superior leverage for the submission, and better ability to control their movement. The perpendicular positioning is crucial for both the setup and finish phases.
-- **Mistake**: Continuing to apply pressure after partner begins to tap or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner begins to tap or shows distress
   - **Consequence**: Serious injury to training partner, violation of training safety protocols, potential permanent damage to shoulder complex
   - **Correction**: Develop heightened awareness for tap signals (verbal, hand, foot, or any distress signal). Release immediately upon any indication of submission. In training, err on the side of caution - if there's any question about whether partner is tapping, stop and ask. Safety must always be the top priority in submission training.
-- **Mistake**: Gripping with fingers interlaced rather than proper wrist-to-wrist figure-four [Medium DANGER]
+- **Mistake**: Gripping with fingers interlaced rather than proper wrist-to-wrist figure-four
   - **Consequence**: Weak grip that can be broken, reduced structural integrity, and potential finger injury
   - **Correction**: Establish a proper figure-four grip by grasping your own wrist with your opposite hand. Your grip hand should wrap around your wrist, not interlace fingers. This creates a much stronger, more secure connection that cannot be broken and provides superior structural integrity for the submission.
-- **Mistake**: Forcing the submission when opponent has already secured defensive grips [High DANGER]
+- **Mistake**: Forcing the submission when opponent has already secured defensive grips
   - **Consequence**: Potential injury to opponent if you overcome their grip through excessive force, or wasted energy with low success probability
   - **Correction**: If opponent secures a strong defensive grip (grabbing their own gi/belt), recognize this as a defensive success and either work methodically to break the grip, or transition to a different attack while maintaining positional dominance. Never use excessive force to break through defensive grips, as this increases injury risk significantly.
 
@@ -356,43 +356,6 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Safety Education** (Week 1-2, multiple dedicated sessions)
-- Focus: Learn proper grip mechanics, body positioning, and comprehensive safety protocols before any live application. Study shoulder anatomy, understand injury mechanisms, and memorize release protocols. Practice grip establishment and angle creation on compliant partners with zero submission pressure.
-- Resistance: Zero resistance
-- Safety: Mandatory education on shoulder anatomy, injury risks, tap protocols, and release procedures. All practitioners must demonstrate understanding of safety requirements before progressing to next phase.
-
-**Slow Technical Execution** (Week 3-4)
-- Focus: Execute complete technique from turtle position with compliant partner at extremely slow speed. Focus on each step: initial control, threading arm, figure-four establishment, angle adjustment, base breaking, and controlled pressure application. Partner provides verbal feedback throughout. Apply minimal pressure, stopping well before any discomfort.
-- Resistance: Zero resistance
-- Safety: Minimum 5-7 second application time for rotational pressure. Stop frequently to check partner comfort. Practice tap recognition and immediate release protocols repeatedly.
-
-**Progressive Pressure with Communication** (Week 5-6)
-- Focus: Partner allows proper setup but provides light positional defense (maintaining base, pulling arm back slightly). Practice reading defensive cues and adjusting position accordingly. Increase submission pressure gradually, but continue stopping well before tap. Emphasize communication throughout - partner should verbally indicate comfort level.
-- Resistance: Mild resistance
-- Safety: Maintain 4-5 second minimum application time. Practice recognizing pre-tap distress signals. Both partners vocalize comfort levels throughout. No submissions to completion yet.
-
-**Controlled Completion Training** (Week 7-10)
-- Focus: Partner provides realistic but measured resistance. Practice achieving the submission to tap under controlled conditions. Focus on recognizing the moment partner decides to tap and releasing immediately. Work on maintaining position through defensive attempts while being ready to abandon submission if position becomes unstable.
-- Resistance: Realistic resistance
-- Safety: First phase where submissions are completed to tap. Maintain 3-5 second application minimum. Immediate release upon any tap signal. Multiple repetitions of tap-and-release to build muscle memory for safety protocols.
-
-**Situational Training and Variations** (Week 11-14)
-- Focus: Practice Kimura from turtle in various situational contexts: from front headlock position, during scrambles, with different grips (gi vs no-gi), and with the rolling variations. Partner provides full technical resistance. Work on decision-making: when to finish submission vs. when to use grip for positional advancement or back takes.
-- Resistance: Full resistance
-- Safety: All safety protocols must be automatic at this phase. Continue 3-5 second minimum application. Heightened awareness during dynamic movements and rolling variations. Both partners responsible for safety.
-
-**Live Integration and Competition Preparation** (Week 15+, ongoing maintenance)
-- Focus: Integrate Kimura from turtle into live rolling scenarios. Partner defends with full intensity and realistic reactions. Practice recognizing opportunities during live training. For competition preparation: understand the difference between training application (slow and safe) and competition application (still controlled but more aggressive), and commit to never using competition intensity in training.
-- Resistance: Full resistance
-- Safety: Perpetual emphasis on maintaining training safety standards even as skill increases. Regular review of safety protocols. Immediate cessation if any partner shows signs of previous shoulder injury or unusual pain. Ongoing communication and checking in with training partners about shoulder health.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -445,6 +408,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

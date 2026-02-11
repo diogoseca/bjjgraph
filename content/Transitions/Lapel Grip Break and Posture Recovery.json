@@ -30,11 +30,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Lapel Grip Break and Posture Recovery is an essential defensive technique for escaping Ringworm Guard, one of the most technically sophisticated lapel guard variations in modern gi-based BJJ. When caught in this position, the top player's leg is compromised by the opponent's lapel wrap, severely limiting mobility, base, and passing options. This technique addresses the mechanical disadvantage through systematic grip stripping and posture restoration.\n\nThe fundamental challenge lies in the lapel wrap's function as a control lever that converts any explosive or hasty movement into sweeping momentum for the bottom player. Effective escape requires understanding the specific mechanics of how the lapel restricts movement and developing precise counters to neutralize this control. The technique prioritizes controlled, methodical movements over speed, as the grip's mechanical advantage punishes rushed attempts.\n\nStrategically, this technique serves as the gateway to all other passing options against Ringworm Guard. Without successfully breaking the lapel configuration, standard guard passes become dangerous as the wrap creates predictable defensive patterns that skilled guard players exploit for sweeps and back takes. Mastering this grip break is essential for any serious competitor facing lapel guard systems in gi competition.",
   "key_principles": [
     "Address the lapel grip before attempting any aggressive passing movements - the wrap severely limits safe movement options",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Establish base",
-      "description": "Widen your base by stepping your free leg outward and lowering your hips toward the mat. Distribute your weight primarily through your free leg to prevent the opponent from loading you for sweeps.",
-      "timing": "Immediately upon recognizing the Ringworm configuration"
+      "description": "Widen your base by stepping your free leg outward and lowering your hips toward the mat. Distribute your weight primarily through your free leg to prevent the opponent from loading you for sweeps."
     },
     {
       "step_number": 2,
       "action": "Control grip-fighting hand",
-      "description": "Use your free hand to grip the opponent's wrist or sleeve on the hand holding the lapel tail. This prevents them from tightening the wrap or adjusting to maintain control while you work the break.",
-      "timing": "Before committing to grip break"
+      "description": "Use your free hand to grip the opponent's wrist or sleeve on the hand holding the lapel tail. This prevents them from tightening the wrap or adjusting to maintain control while you work the break."
     },
     {
       "step_number": 3,
       "action": "Strip the lapel grip",
-      "description": "Bring your second hand to assist with the grip break, peeling the opponent's fingers off the lapel tail using a two-on-one motion. Strip toward their thumb to exploit the weakest point of their grip configuration.",
-      "timing": "When opponent's grip-fighting hand is controlled"
+      "description": "Bring your second hand to assist with the grip break, peeling the opponent's fingers off the lapel tail using a two-on-one motion. Strip toward their thumb to exploit the weakest point of their grip configuration."
     },
     {
       "step_number": 4,
       "action": "Secure the lapel",
-      "description": "Once broken, immediately grab the lapel tail yourself to prevent the opponent from re-establishing the grip. Thread the lapel behind their back or tuck it into their belt to neutralize it as a weapon.",
-      "timing": "Immediately after grip breaks"
+      "description": "Once broken, immediately grab the lapel tail yourself to prevent the opponent from re-establishing the grip. Thread the lapel behind their back or tuck it into their belt to neutralize it as a weapon."
     },
     {
       "step_number": 5,
       "action": "Extract trapped leg",
-      "description": "With the lapel tension eliminated, circle your trapped leg outward and backward to extract it from any remaining wrap. Use small circular movements rather than explosive pulling to prevent the opponent from trapping your leg with their hooks.",
-      "timing": "While maintaining lapel control"
+      "description": "With the lapel tension eliminated, circle your trapped leg outward and backward to extract it from any remaining wrap. Use small circular movements rather than explosive pulling to prevent the opponent from trapping your leg with their hooks."
     },
     {
       "step_number": 6,
       "action": "Recover posture",
-      "description": "Stand up to combat base or full standing position, establishing distance and neutral grips on the opponent's legs or hips. You are now ready to engage standard open guard passing sequences without the lapel disadvantage.",
-      "timing": "Once leg is free"
+      "description": "Stand up to combat base or full standing position, establishing distance and neutral grips on the opponent's legs or hips. You are now ready to engage standard open guard passing sequences without the lapel disadvantage."
     }
   ],
   "common_counters": [
@@ -147,26 +136,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice the two-on-one grip breaking motion against a static partner holding lapel configurations. Focus on hand positioning, stripping toward the thumb, and the feel of the grip releasing. No resistance from partner.",
-      "resistance_level": "None"
+      "description": "Practice the two-on-one grip breaking motion against a static partner holding lapel configurations. Focus on hand positioning, stripping toward the thumb, and the feel of the grip releasing. No resistance from partner."
     },
     {
       "phase": "Week 3-4",
       "focus": "Full sequence drilling",
-      "description": "Partner establishes Ringworm Guard while you execute the complete sequence from base establishment through posture recovery. Partner provides consistent resistance (not increasing) to allow repetition and timing development.",
-      "resistance_level": "Light"
+      "description": "Partner establishes Ringworm Guard while you execute the complete sequence from base establishment through posture recovery. Partner provides consistent resistance (not increasing) to allow repetition and timing development."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner actively attempts to retain guard, switch configurations, and initiate sweeps during your extraction attempts. Work on recognizing counters and adjusting the sequence in real-time. Flow between multiple attempts if needed.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to retain guard, switch configurations, and initiate sweeps during your extraction attempts. Work on recognizing counters and adjusting the sequence in real-time. Flow between multiple attempts if needed."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Include Ringworm Guard escape scenarios in regular sparring. Start rounds in the position or allow partner to pull you into it during live rolling. Track success rate and identify remaining technical gaps.",
-      "resistance_level": "Full"
+      "description": "Include Ringworm Guard escape scenarios in regular sparring. Start rounds in the position or allow partner to pull you into it during live rolling. Track success rate and identify remaining technical gaps."
     }
   ],
   "variants_and_adaptations": [
@@ -189,53 +174,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Lapel Grip Break and Posture Recovery?",
-      "answer": "The primary goal is to neutralize the opponent's lapel wrap control, extract your trapped leg, and recover to a neutral position where standard guard passing becomes viable. Without completing this sequence, all other passing attempts are compromised by the mechanical disadvantage the lapel creates.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to neutralize the opponent's lapel wrap control, extract your trapped leg, and recover to a neutral position where standard guard passing becomes viable. Without completing this sequence, all other passing attempts are compromised by the mechanical disadvantage the lapel creates."
     },
     {
       "question": "Why is two-on-one grip fighting recommended for breaking the lapel grip?",
-      "answer": "The opponent's lapel grip is mechanically strong because the gi material provides excellent friction and their entire arm supports the grip. A single-hand strip rarely generates enough force to overcome this. Two-on-one mechanics concentrate your strength advantage at the weakest point of their grip while preventing their free hand from interfering.",
-      "difficulty": "Beginner"
+      "answer": "The opponent's lapel grip is mechanically strong because the gi material provides excellent friction and their entire arm supports the grip. A single-hand strip rarely generates enough force to overcome this. Two-on-one mechanics concentrate your strength advantage at the weakest point of their grip while preventing their free hand from interfering."
     },
     {
       "question": "Your opponent begins loading for a sweep as you commit both hands to grip breaking - how do you adjust?",
-      "answer": "Immediately abort the grip break attempt and address the sweep by widening your base and posting with one hand. The sweep is a more immediate threat than the grip. Once you neutralize the sweep attempt, reset and begin the grip break sequence again. It is better to restart than to get swept while tunnel-visioning on the grip.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately abort the grip break attempt and address the sweep by widening your base and posting with one hand. The sweep is a more immediate threat than the grip. Once you neutralize the sweep attempt, reset and begin the grip break sequence again. It is better to restart than to get swept while tunnel-visioning on the grip."
     },
     {
       "question": "What direction should you strip the lapel grip and why?",
-      "answer": "Strip toward the opponent's thumb because this is the weakest point of any grip. The thumb cannot oppose the four fingers in resisting your stripping motion. Stripping toward their fingers forces you to overcome the full strength of their grip, making the break significantly harder and more energy-intensive.",
-      "difficulty": "Beginner"
+      "answer": "Strip toward the opponent's thumb because this is the weakest point of any grip. The thumb cannot oppose the four fingers in resisting your stripping motion. Stripping toward their fingers forces you to overcome the full strength of their grip, making the break significantly harder and more energy-intensive."
     },
     {
       "question": "Why is circular leg extraction preferable to pulling straight back?",
-      "answer": "A direct pulling motion often tightens the remaining lapel wrap and allows the opponent to trap your leg with their hooks during extraction. Circular motion defeats the wrap angle by moving perpendicular to the lapel tension, and the rotational movement makes it harder for their hooks to catch your leg.",
-      "difficulty": "Intermediate"
+      "answer": "A direct pulling motion often tightens the remaining lapel wrap and allows the opponent to trap your leg with their hooks during extraction. Circular motion defeats the wrap angle by moving perpendicular to the lapel tension, and the rotational movement makes it harder for their hooks to catch your leg."
     },
     {
       "question": "What should you do with the lapel after successfully breaking the grip?",
-      "answer": "Immediately secure the lapel yourself by threading it behind the opponent's back, tucking it into their belt, or maintaining your own grip on the tail. Releasing it allows immediate re-establishment of their guard, wasting your effort. The lapel must be neutralized as a weapon, not just temporarily removed from their hand.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately secure the lapel yourself by threading it behind the opponent's back, tucking it into their belt, or maintaining your own grip on the tail. Releasing it allows immediate re-establishment of their guard, wasting your effort. The lapel must be neutralized as a weapon, not just temporarily removed from their hand."
     },
     {
       "question": "Your opponent switches to a Worm Guard configuration as you begin your grip break - what indicates this transition?",
-      "answer": "Watch for them re-threading the lapel around a different part of your leg or body, changing their leg position from Ringworm-specific hooks to Worm Guard frames, or feeding the lapel to their other hand. These indicate configuration change. Stop your current sequence and assess the new position before continuing with the appropriate counter.",
-      "difficulty": "Advanced"
+      "answer": "Watch for them re-threading the lapel around a different part of your leg or body, changing their leg position from Ringworm-specific hooks to Worm Guard frames, or feeding the lapel to their other hand. These indicate configuration change. Stop your current sequence and assess the new position before continuing with the appropriate counter."
     },
     {
       "question": "When should you choose the standing extraction variant over ground-based grip breaking?",
-      "answer": "Choose standing extraction when the opponent has established multiple secondary controls beyond just the lapel grip, when your ground-based attempts are failing due to their grip fighting, or when you have good balance and can stand safely. The height advantage makes stripping easier, but you accept the risk of being pulled back down.",
-      "difficulty": "Advanced"
+      "answer": "Choose standing extraction when the opponent has established multiple secondary controls beyond just the lapel grip, when your ground-based attempts are failing due to their grip fighting, or when you have good balance and can stand safely. The height advantage makes stripping easier, but you accept the risk of being pulled back down."
     },
     {
       "question": "How does weight distribution affect your vulnerability to sweeps during this technique?",
-      "answer": "Committing weight over your trapped leg creates ideal sweeping leverage because the opponent can redirect that weight through the lapel. Keep weight distributed primarily through your free leg and hips heavy. If you must shift weight toward the trapped side, do so only momentarily and be prepared to immediately post or widen base.",
-      "difficulty": "Intermediate"
+      "answer": "Committing weight over your trapped leg creates ideal sweeping leverage because the opponent can redirect that weight through the lapel. Keep weight distributed primarily through your free leg and hips heavy. If you must shift weight toward the trapped side, do so only momentarily and be prepared to immediately post or widen base."
     },
     {
       "question": "Why should you avoid explosive movements when trapped in Ringworm Guard?",
-      "answer": "The lapel wrap functions as a lever that converts explosive energy into sweeping momentum. Sudden direction changes or bursts of power are redirected by the mechanical connection between your leg and the opponent's control points. Controlled, methodical movements prevent your own energy from being weaponized against you while maintaining defensive integrity.",
-      "difficulty": "Advanced"
+      "answer": "The lapel wrap functions as a lever that converts explosive energy into sweeping momentum. Sudden direction changes or bursts of power are redirected by the mechanical connection between your leg and the opponent's control points. Controlled, methodical movements prevent your own energy from being weaponized against you while maintaining defensive integrity."
     }
   ],
   "safety_considerations": "This technique is relatively safe when practiced with proper control, as it involves grip breaking and positional recovery rather than joint manipulation or choking. The primary injury risk comes from knee strain if you attempt explosive extraction against a secure wrap - always use controlled circular movements. Finger injuries can occur during aggressive grip fighting, so train grip breaks with progressive intensity. Avoid drilling this technique when your hands or fingers are already fatigued from other grip-intensive training. Partners should release the lapel grip if the top player expresses discomfort rather than forcing the extraction against excessive resistance.",
@@ -277,5 +252,6 @@
       "name": "Leg Extraction from Lapel Wrap",
       "relationship": "Related technique - shares extraction mechanics"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -167,7 +167,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and brachial plexus
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**From Position**: [[Triangle Control]] (Top)
+**Success Rate**: 65%
 
 </section>
 
@@ -242,13 +243,13 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture and isolate arm**: From closed guard, establish strong collar and sleeve grips. Pull opponent forward while opening guard, forcing their weight onto their hands. Simultaneously pull one of their arms across their centerline using your sleeve grip, creating the fundamental triangle setup position. (Timing: 1-2 seconds) [Pressure: Moderate]
-2. **Throw leg over shoulder**: Open your guard and immediately throw your leg (same side as the isolated arm) high over the opponent's shoulder. Your shin should land on the back of their neck, with your knee pointing toward the ceiling. The opponent's trapped arm should now be across their own body. (Timing: 0.5 seconds (must be quick)) [Pressure: Light]
-3. **Lock the triangle**: Pull your ankle (from the leg over the shoulder) behind your opposite knee to create the triangle lock. Do NOT cross your ankles—this is mechanically weaker. Your shin should be tight against one side of their neck while their own shoulder compresses the other side. (Timing: 1 second) [Pressure: Moderate]
-4. **Cut the angle**: Move your hips approximately 45 degrees to the side, positioning yourself perpendicular to your opponent's torso. This angle adjustment is critical—it tightens the choke and prevents the opponent from stacking or posturing. Your body should form an 'L' shape with theirs. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Control the head**: Establish a strong grip on the back of opponent's head, either grabbing your own shin or using a collar grip if available. This grip prevents them from posturing up and allows you to pull their head into the choke. (Timing: 1 second) [Pressure: Firm]
-6. **Lift hips and pull head**: Simultaneously lift your hips toward the ceiling while pulling opponent's head down toward your chest. This creates the finishing pressure on the carotid arteries. Squeeze your knees together while maintaining the angle. (Timing: 2-3 seconds) [Pressure: Firm]
-7. **Maintain and finish**: Hold the position with steady pressure until tap. Do not spike or jerk. If opponent doesn't tap immediately, ensure your angle is correct and that their shoulder is properly positioned against their neck. Release immediately upon tap. (Timing: 3-5 seconds until tap) [Pressure: Maximum]
+1. **Break posture and isolate arm**: From closed guard, establish strong collar and sleeve grips. Pull opponent forward while opening guard, forcing their weight onto their hands. Simultaneously pull one of their arms across their centerline using your sleeve grip, creating the fundamental triangle setup position. (Timing: 1-2 seconds)
+2. **Throw leg over shoulder**: Open your guard and immediately throw your leg (same side as the isolated arm) high over the opponent's shoulder. Your shin should land on the back of their neck, with your knee pointing toward the ceiling. The opponent's trapped arm should now be across their own body. (Timing: 0.5 seconds (must be quick))
+3. **Lock the triangle**: Pull your ankle (from the leg over the shoulder) behind your opposite knee to create the triangle lock. Do NOT cross your ankles—this is mechanically weaker. Your shin should be tight against one side of their neck while their own shoulder compresses the other side. (Timing: 1 second)
+4. **Cut the angle**: Move your hips approximately 45 degrees to the side, positioning yourself perpendicular to your opponent's torso. This angle adjustment is critical—it tightens the choke and prevents the opponent from stacking or posturing. Your body should form an 'L' shape with theirs. (Timing: 1-2 seconds)
+5. **Control the head**: Establish a strong grip on the back of opponent's head, either grabbing your own shin or using a collar grip if available. This grip prevents them from posturing up and allows you to pull their head into the choke. (Timing: 1 second)
+6. **Lift hips and pull head**: Simultaneously lift your hips toward the ceiling while pulling opponent's head down toward your chest. This creates the finishing pressure on the carotid arteries. Squeeze your knees together while maintaining the angle. (Timing: 2-3 seconds)
+7. **Maintain and finish**: Hold the position with steady pressure until tap. Do not spike or jerk. If opponent doesn't tap immediately, ensure your angle is correct and that their shoulder is properly positioned against their neck. Release immediately upon tap. (Timing: 3-5 seconds until tap)
 
 
 </section>
@@ -267,22 +268,22 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Crossing ankles instead of locking ankle behind knee [Medium DANGER]
+- **Mistake**: Crossing ankles instead of locking ankle behind knee
   - **Consequence**: Weak triangle that opponent can easily escape; ankles vulnerable to ankle locks in some rulesets
   - **Correction**: Always lock by placing ankle behind opposite knee, creating a proper mechanical triangle shape
-- **Mistake**: Failing to cut the angle (staying directly in front of opponent) [Low DANGER]
+- **Mistake**: Failing to cut the angle (staying directly in front of opponent)
   - **Consequence**: Opponent can posture up, stack you, or defend the choke with hand positioning
   - **Correction**: Immediately move hips 45 degrees perpendicular after locking triangle—this is non-negotiable for finishing
-- **Mistake**: Squeezing with legs only, without pulling head down [Low DANGER]
+- **Mistake**: Squeezing with legs only, without pulling head down
   - **Consequence**: Insufficient pressure on carotid arteries; choke takes too long or fails entirely
   - **Correction**: Always combine leg squeeze with pulling opponent's head down toward chest while lifting hips
-- **Mistake**: Allowing opponent's trapped arm to be on the outside of their body [Low DANGER]
+- **Mistake**: Allowing opponent's trapped arm to be on the outside of their body
   - **Consequence**: No compression on neck; choke is impossible in this configuration
   - **Correction**: Ensure trapped arm is pulled across opponent's centerline before throwing leg over shoulder
-- **Mistake**: Holding triangle after partner taps or goes limp [CRITICAL DANGER]
+- **Mistake**: Holding triangle after partner taps or goes limp
   - **Consequence**: Potential unconsciousness, brain damage, or death if held too long after blood flow stops
   - **Correction**: IMMEDIATELY release upon any tap signal or loss of resistance—this is the most critical safety rule
-- **Mistake**: Spiking or jerking the finish with sudden explosive pressure [CRITICAL DANGER]
+- **Mistake**: Spiking or jerking the finish with sudden explosive pressure
   - **Consequence**: Neck injury, loss of consciousness without time to tap, damaged trust with training partners
   - **Correction**: Apply finishing pressure progressively over 3-5 seconds, giving partner time to recognize and tap
 
@@ -347,43 +348,6 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (2 weeks, 3-4 sessions per week)
-- Focus: Learn triangle mechanics with zero resistance. Practice locking configuration, cutting angle, and releasing safely. Emphasize SLOW application and immediate release on tap.
-- Resistance: None
-- Safety: Partner remains completely cooperative. Practice tap signals and immediate release protocol. No finishing pressure—just positioning.
-
-**Slow Cooperative Practice (Weeks 3-4)** (2 weeks, 3-4 sessions per week)
-- Focus: Add light finishing pressure with cooperative partner. Begin timing the 3-5 second progressive application. Partner taps early to practice release protocol.
-- Resistance: Zero resistance
-- Safety: Progressive pressure application over 3-5 seconds minimum. Partner taps at 30-40% pressure to practice immediate release reflex.
-
-**Light Resistance Practice (Weeks 5-8)** (4 weeks, 3-4 sessions per week)
-- Focus: Partner provides mild defensive resistance (posture defense, arm withdrawal). Practice common adjustments while maintaining safety protocols.
-- Resistance: Mild resistance
-- Safety: Communicate throughout. Partner taps before discomfort becomes pain. Monitor breathing and color changes in partner's face.
-
-**Realistic Drilling (Weeks 9-12)** (4 weeks, 3-4 sessions per week)
-- Focus: Add realistic defensive responses (stacking, posture recovery, arm escape). Practice transitions to armbar/omoplata when triangle is defended. Increase finishing pressure to realistic levels.
-- Resistance: Realistic resistance
-- Safety: Full communication before each round. Partner taps at 70-80% of maximum pressure. Establish trust that immediate release will occur.
-
-**Positional Sparring (Weeks 13+)** (Ongoing)
-- Focus: Start in closed guard and work for triangle against resisting opponent. Incorporate into regular sparring. Begin recognizing triangle opportunities from various positions.
-- Resistance: Full resistance
-- Safety: Never hold triangle after tap. If opponent goes limp, release immediately and alert instructor. Maintain 3-5 second application standard even in competition training.
-
-**Competition Preparation (Advanced Students Only)** (Ongoing)
-- Focus: Practice triangle entries from standing, during scrambles, and as counters to opponent's attacks. Develop finishing speed while maintaining safety in training.
-- Resistance: Full resistance
-- Safety: Distinguish between competition finishing (fast) and training finishing (always progressive). In training, ALWAYS give partner time to tap. Save competition speed for competition only.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -394,6 +358,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 - [[De La Riva Guard]]
 - [[Rubber Guard]]
 - [[Back Control]]
+- [[Triangle Control]]
 
 
 </section>
@@ -427,6 +392,20 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 
 </section>
+
+
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+| Success | [[game-over]] | 58% |
+| Failure | [[Triangle Control]] | 42% |
+
+
+</section>
+
 
 <section id="terminal-state" class="content-section">
 

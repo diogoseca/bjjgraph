@@ -15,11 +15,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and windpipe",
   "starting_position": "Front Headlock",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Guillotine Choke is one of the most versatile and high-percentage submissions in Brazilian Jiu-Jitsu, capable of being executed from standing positions, guard, or transitional scrambles. This blood choke targets the carotid arteries while also applying pressure to the trachea, making it a powerful finishing technique when applied correctly. The guillotine's effectiveness stems from its ability to capitalize on common defensive movements, particularly when opponents shoot for takedowns or attempt to pass guard with poor posture. The technique works by using your arm as a fulcrum around the opponent's neck while using hip pressure and body positioning to create the choking force. Its versatility allows for execution from numerous positions including standing, closed guard, half guard, and even during scrambles, making it an essential weapon for practitioners at all levels. The guillotine family includes multiple variations such as the high elbow guillotine, arm-in guillotine, and ten-finger guillotine, each with specific applications based on the situation and opponent's defensive reactions.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,43 +83,37 @@
       "step_number": 1,
       "action": "Secure head control",
       "description": "Wrap your choking arm around opponent's neck with your forearm positioned across the front of their throat. Your shoulder should be tight against the side of their neck. Ensure opponent's head is pulled down below your centerline to prevent them from posturing up and escaping.",
-      "timing": "0-1 seconds",
-      "pressure_level": "Moderate"
+      "timing": "0-1 seconds"
     },
     {
       "step_number": 2,
       "action": "Establish the grip",
       "description": "Bring your non-choking hand to meet your choking hand. For the standard guillotine, grip your own wrist with your non-choking hand. For high elbow variation, connect palm-to-palm. Your choking arm elbow should be pointing upward at approximately 45 degrees to target the carotid arteries rather than crushing the windpipe.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Adjust body position",
       "description": "If standing, step your hips forward and angle your body 45 degrees away from your choking arm side. If in guard, close your guard or use your legs to control opponent's hips. The key is to create an angle that allows you to use your entire body weight rather than just arm strength.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Generate hip pressure",
       "description": "Drive your hips forward and slightly upward while simultaneously pulling your hands toward your chest. This creates a lever action where your hips act as the fulcrum. Your choking shoulder should remain glued to opponent's neck throughout this movement to prevent escape space.",
-      "timing": "3-4 seconds",
-      "pressure_level": "Firm"
+      "timing": "3-4 seconds"
     },
     {
       "step_number": 5,
       "action": "Elevate the elbow",
       "description": "Actively lift your choking arm elbow higher to create more acute angle and increase pressure on carotid arteries. Your forearm should be driving across and slightly upward into opponent's neck. This elevation is crucial for blood choke effectiveness versus air choke.",
-      "timing": "4-5 seconds",
-      "pressure_level": "Firm"
+      "timing": "4-5 seconds"
     },
     {
       "step_number": 6,
       "action": "Arch and squeeze",
       "description": "Create final finishing pressure by arching your back slightly, expanding your chest, and squeezing your elbows together. Continue driving hips forward. The combination of hip pressure, elbow elevation, and chest expansion creates maximum choking force. Apply progressively until tap is received.",
-      "timing": "5-8 seconds",
-      "pressure_level": "Maximum"
+      "timing": "5-8 seconds"
     }
   ],
   "opponent_defense_patterns": [
@@ -158,44 +147,37 @@
     {
       "error": "Using only arm strength to finish the choke instead of hip pressure and body positioning",
       "consequence": "Submission fails, arms fatigue quickly, and opponent easily escapes or passes guard",
-      "correction": "Focus on using your entire body. Drive hips forward while pulling hands to chest. Your arms should mainly hold position while hips generate the choking force.",
-      "danger_level": "Medium"
+      "correction": "Focus on using your entire body. Drive hips forward while pulling hands to chest. Your arms should mainly hold position while hips generate the choking force."
     },
     {
       "error": "Elbow positioned too low, creating only trachea pressure without blood choke component",
       "consequence": "Extremely painful for training partner without effective submission. Risk of serious trachea injury",
-      "correction": "Actively elevate your choking elbow to create 45-degree angle or higher. Focus on carotid pressure rather than windpipe crushing.",
-      "danger_level": "CRITICAL"
+      "correction": "Actively elevate your choking elbow to create 45-degree angle or higher. Focus on carotid pressure rather than windpipe crushing."
     },
     {
       "error": "Releasing the grip too early when feeling initial resistance",
       "consequence": "Submission opportunity is lost and opponent escapes to better position",
-      "correction": "Maintain grip connection throughout all defensive movements. Adjust angle and pressure but never release the grip until submission is complete or escape is inevitable.",
-      "danger_level": "Low"
+      "correction": "Maintain grip connection throughout all defensive movements. Adjust angle and pressure but never release the grip until submission is complete or escape is inevitable."
     },
     {
       "error": "Allowing space between your choking shoulder and opponent's neck",
       "consequence": "Opponent can turn their head and escape the submission easily",
-      "correction": "Keep your shoulder glued to the side of opponent's neck throughout the entire submission sequence. Think of your shoulder as a plug preventing their escape.",
-      "danger_level": "Medium"
+      "correction": "Keep your shoulder glued to the side of opponent's neck throughout the entire submission sequence. Think of your shoulder as a plug preventing their escape."
     },
     {
       "error": "Poor body angle resulting in direct front-to-front positioning",
       "consequence": "No leverage for finishing, allowing opponent to easily posture up and escape",
-      "correction": "Create 45-degree angle with your body relative to opponent. This angle allows you to use hip pressure effectively and prevents them from driving forward through your guard.",
-      "danger_level": "Low"
+      "correction": "Create 45-degree angle with your body relative to opponent. This angle allows you to use hip pressure effectively and prevents them from driving forward through your guard."
     },
     {
       "error": "Cranking or jerking the neck violently instead of smooth progressive pressure",
       "consequence": "Severe risk of neck injury, trachea damage, or cervical spine trauma to training partner",
-      "correction": "Apply pressure smoothly over 3-5 seconds minimum. Increase pressure progressively and stop immediately at tap. Never jerk or snap the submission.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure smoothly over 3-5 seconds minimum. Increase pressure progressively and stop immediately at tap. Never jerk or snap the submission."
     },
     {
       "error": "Failing to control opponent's hips with legs when in guard position",
       "consequence": "Opponent easily steps around and passes guard while escaping the choke",
-      "correction": "Close your guard immediately or use butterfly hooks to control hip movement. Your legs must prevent opponent from creating distance or changing angles.",
-      "danger_level": "Medium"
+      "correction": "Close your guard immediately or use butterfly hooks to control hip movement. Your legs must prevent opponent from creating distance or changing angles."
     }
   ],
   "variations_and_setups": [
@@ -292,50 +274,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn proper hand positioning, grip connections, and body angles without any resistance. Study the anatomy of the neck and understand difference between blood chokes and air chokes. Practice identifying the carotid arteries versus the windpipe.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand injury risks and tap protocols before any live practice. Learn to recognize the difference between effective blood choke pressure and dangerous trachea crushing."
-    },
-    {
-      "phase": "Slow Motion Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Practice full technique in slow motion with cooperative partner. Focus on elbow elevation, hip pressure generation, and creating proper angles. Apply only 20-30% pressure to understand the feeling without risk. Partner should tap early and often.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Take minimum 5-7 seconds to apply any pressure. Stop immediately at any discomfort. Partner must have clear access to tap with both hands at all times."
-    },
-    {
-      "phase": "Positional Drilling",
-      "timeframe": "Week 5-8",
-      "focus": "Drill entries from various positions including standing clinch, closed guard, half guard, and scrambles. Practice grip fighting and head control establishment. Work on maintaining position during partner's escape attempts without finishing the submission.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Focus on control rather than finishing. Practice the 90% rule - get to 90% of submission completion then release and reset. Build muscle memory for safe application."
-    },
-    {
-      "phase": "Defensive Response Integration",
-      "timeframe": "Week 9-12",
-      "focus": "Partner begins using realistic defensive movements (pushing hips, tucking chin, circling) while you maintain control and adjust technique. Practice all variations (high elbow, arm-in, mounted) based on defensive responses. Begin applying finishing pressure at 50-60% intensity.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Communication is critical - both partners verbalize what they're feeling. Never exceed 60% intensity in training. Respect all taps immediately and without question."
-    },
-    {
-      "phase": "Live Rolling Integration",
-      "timeframe": "Week 13+",
-      "focus": "Hunt for guillotine opportunities during regular rolling sessions. Practice recognizing setup situations (failed takedowns, poor guard passing posture). Work on quick entries and tight finishes while maintaining safety protocols. Can now apply up to 80% intensity with experienced partners.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Always apply pressure progressively over 3-5 seconds minimum even in live rolling. Save maximum intensity for competition only. Never train guillotines on partners with neck injuries or neck pain."
-    },
-    {
-      "phase": "Advanced Applications and Ongoing Refinement",
-      "timeframe": "Ongoing",
-      "focus": "Develop your personal guillotine system including favorite variations, entries, and combinations. Study high-level competition footage. Practice advanced details like micro-adjustments during defensive movements and seamless transitions between guillotine variations. Train guillotines in specific contexts (no-gi, gi with different grips, MMA situations).",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "As techniques become more refined and powerful, maintain heightened safety awareness. Teach newer students proper safety protocols. Never use training to 'prove' toughness by refusing to tap or applying excessive force."
-    }
-  ],
   "from_positions": [
     "Front Headlock",
     "Closed Guard",
@@ -346,7 +284,8 @@
     "Butterfly Guard",
     "Open Guard",
     "Deep Half Guard",
-    "Knee Shield Half Guard"
+    "Knee Shield Half Guard",
+    "Guillotine Control"
   ],
   "related_submissions": [
     "High Elbow Guillotine",
@@ -356,7 +295,7 @@
     "Guillotine Variations",
     "Darce Choke",
     "Anaconda Choke",
-    "D'arce-Anaconda Connection",
+    "Darce-Anaconda Connection",
     "Japanese Necktie",
     "Peruvian Necktie",
     "Marce Choke",
@@ -400,6 +339,20 @@
     {
       "name": "Closed Guard",
       "relationship": "Common position for guillotine execution from bottom"
+    }
+  ],
+  "success_rate": 62,
+  "from_position": "Guillotine Control/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 55,
+      "result": "success"
+    },
+    {
+      "to": "Guillotine Control",
+      "probability": 45,
+      "result": "failure"
     }
   ]
 }

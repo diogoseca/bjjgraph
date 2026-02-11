@@ -163,7 +163,7 @@ This technique becomes essential when caught in the Aoki Lock because traditiona
 Strategically, the Granby Roll Escape should be initiated before your opponent fully consolidates hip pressure on your shoulder. Once pressure reaches dangerous levels, the safer option is to tap rather than force an escape. The technique requires moderate flexibility and comfort with inverted positions, making it more suitable for practitioners who have developed basic inversion skills through guard play or wrestling backgrounds.
 
 **From Position**: [[Aoki Lock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, the Granby Roll Escape should be initiated before your opponent f
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess shoulder safety**: Before initiating escape, confirm your shoulder is not under extreme pressure that could cause injury during the roll. If pain is sharp or significant, tap immediately rather than risking shoulder damage through the rotational movement. (Timing: Within 2-3 seconds of being caught)
-2. **Tuck chin and position head**: Tuck your chin firmly to your chest to protect your neck during the inversion. Turn your head slightly toward your trapped arm side, preparing for the rolling direction that will follow. (Timing: Immediately before initiating roll)
-3. **Post with free arm**: Plant your free hand on the mat near your opposite shoulder, creating a pivot point for the roll. This arm will guide the direction and control the speed of your rotation throughout the escape. (Timing: Simultaneous with chin tuck)
-4. **Initiate inverted roll**: Drive off your posted arm while simultaneously lifting your hips and rolling over your shoulder toward your trapped arm side. Your body should rotate in an inverted arc, with your back passing over your shoulder rather than rolling sideways. (Timing: Explosive but controlled)
-5. **Extract trapped arm**: As you rotate through the inverted position, your trapped arm naturally loosens from opponent's leg entanglement. Pull your elbow toward your hip while continuing the rotation to complete the extraction without fighting directly against their grip. (Timing: During mid-roll rotation)
-6. **Complete roll to guard**: Finish the rotation facing your opponent with your newly freed arm establishing frames or grips. Immediately insert your feet between you and your opponent to establish open guard, preventing them from immediately re-attacking. (Timing: Smoothly complete rotation)
-7. **Establish guard position**: Once facing opponent, use both hands and feet to create active open guard control. Get your feet on their hips or establish hooks before they can close distance. Do not pause in transition - immediately create your defensive structure. (Timing: Within 1-2 seconds of roll completion)
+1. **Assess shoulder safety**: Before initiating escape, confirm your shoulder is not under extreme pressure that could cause injury during the roll. If pain is sharp or significant, tap immediately rather than risking shoulder damage through the rotational movement.
+2. **Tuck chin and position head**: Tuck your chin firmly to your chest to protect your neck during the inversion. Turn your head slightly toward your trapped arm side, preparing for the rolling direction that will follow.
+3. **Post with free arm**: Plant your free hand on the mat near your opposite shoulder, creating a pivot point for the roll. This arm will guide the direction and control the speed of your rotation throughout the escape.
+4. **Initiate inverted roll**: Drive off your posted arm while simultaneously lifting your hips and rolling over your shoulder toward your trapped arm side. Your body should rotate in an inverted arc, with your back passing over your shoulder rather than rolling sideways.
+5. **Extract trapped arm**: As you rotate through the inverted position, your trapped arm naturally loosens from opponent's leg entanglement. Pull your elbow toward your hip while continuing the rotation to complete the extraction without fighting directly against their grip.
+6. **Complete roll to guard**: Finish the rotation facing your opponent with your newly freed arm establishing frames or grips. Immediately insert your feet between you and your opponent to establish open guard, preventing them from immediately re-attacking.
+7. **Establish guard position**: Once facing opponent, use both hands and feet to create active open guard control. Get your feet on their hips or establish hooks before they can close distance. Do not pause in transition - immediately create your defensive structure.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, the Granby Roll Escape should be initiated before your opponent f
 ## Training Progressions
 **Week 1-2** - Basic Granby Roll mechanics
 Practice the inverted rolling motion without a partner, focusing on chin tuck, shoulder rotation, and smooth completion. Build comfort with the inversion and develop the muscle memory for the rolling arc.
-(Resistance: None)
 
 **Week 3-4** - Partner drilling with positioning
 Partner establishes Aoki Lock position with minimal pressure (10-20%). Practice the complete escape sequence including arm extraction and guard establishment. Focus on timing and direction.
-(Resistance: Light)
 
 **Week 5-6** - Timing against resistance
 Partner applies moderate pressure (40-50%) and actively adjusts position. Practice reading the timing windows for escape initiation and develop sensitivity to when the technique is viable versus when to tap.
-(Resistance: Medium)
 
 **Week 7+** - Live application and combinations
 Integrate the Granby Roll Escape into positional sparring from Aoki Lock scenarios. Practice combining with other escape options and develop the decision-making for when to use this escape versus alternatives.
-(Resistance: Full)
 
 
 

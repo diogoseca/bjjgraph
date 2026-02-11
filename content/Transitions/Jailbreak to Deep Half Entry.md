@@ -163,7 +163,7 @@ Strategically, this transition is most valuable when the top player bases wide t
 The biomechanical foundation of this entry relies on using your existing underhook as a steering mechanism while your hips drop and rotate to slide beneath the opponent's hips. Your trapped leg becomes an asset rather than a liability, as it provides the initial connection point that you convert into deep half control. Mastery of this transition significantly expands your half guard escape options, making you unpredictable and difficult to pin.
 
 **From Position**: [[Jailbreak/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The biomechanical foundation of this entry relies on using your existing underho
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the trigger**: Identify when opponent bases wide with hips back to defend your jailbreak roll. Their defensive posture creates space underneath their hips that you can exploit for deep half entry. (Timing: Immediately when you feel their weight shift backward)
-2. **Redirect momentum**: Instead of rolling away from opponent as in standard jailbreak, redirect your energy to dive toward their far hip. Your underhook becomes the steering mechanism pulling you underneath their center of gravity. (Timing: Simultaneous with weight shift recognition)
-3. **Drop and rotate hips**: Lower your hips to the mat while rotating them to face upward toward opponent's far hip. This angular adjustment creates the pathway to slide underneath their base without getting stuck on their thigh. (Timing: As you begin the diving motion)
-4. **Thread the trapped leg**: Convert your trapped leg into a deep half hook by threading it between their legs. Your foot should end up on the outside of their far hip while your knee controls their near leg. (Timing: During the hip drop)
-5. **Secure head position**: Drive your head to the inside of their far hip, placing your ear against their hip bone. This head position prevents crossface counters and establishes the proper deep half structure. (Timing: As leg threading completes)
-6. **Establish deep half grips**: Wrap their far leg with both arms, clasping hands behind their thigh or around their knee. Your underhook transitions into the primary leg control that defines deep half positioning. (Timing: Immediately after head placement)
-7. **Consolidate position**: Pull their trapped leg tight to your chest while keeping your head on the hip. Rotate your body to face their trapped knee, completing the transition to full deep half guard control. (Timing: Within 1-2 seconds of initial entry)
+1. **Recognize the trigger**: Identify when opponent bases wide with hips back to defend your jailbreak roll. Their defensive posture creates space underneath their hips that you can exploit for deep half entry.
+2. **Redirect momentum**: Instead of rolling away from opponent as in standard jailbreak, redirect your energy to dive toward their far hip. Your underhook becomes the steering mechanism pulling you underneath their center of gravity.
+3. **Drop and rotate hips**: Lower your hips to the mat while rotating them to face upward toward opponent's far hip. This angular adjustment creates the pathway to slide underneath their base without getting stuck on their thigh.
+4. **Thread the trapped leg**: Convert your trapped leg into a deep half hook by threading it between their legs. Your foot should end up on the outside of their far hip while your knee controls their near leg.
+5. **Secure head position**: Drive your head to the inside of their far hip, placing your ear against their hip bone. This head position prevents crossface counters and establishes the proper deep half structure.
+6. **Establish deep half grips**: Wrap their far leg with both arms, clasping hands behind their thigh or around their knee. Your underhook transitions into the primary leg control that defines deep half positioning.
+7. **Consolidate position**: Pull their trapped leg tight to your chest while keeping your head on the hip. Rotate your body to face their trapped knee, completing the transition to full deep half guard control.
 
 
 </section>
@@ -263,19 +263,15 @@ The biomechanical foundation of this entry relies on using your existing underho
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice the hip drop and rotation in isolation without resistance. Partner holds wide base and allows repeated entries. Focus on finding the correct angle and threading path. 50+ repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner alternates between driving forward and basing wide. Practice reading which response calls for jailbreak roll versus deep half entry. Develop the sensitivity to feel weight distribution changes.
-(Resistance: Light)
 
 **Week 5-6** - Combination drilling
 Chain jailbreak roll attempts with deep half entries based on partner reactions. Add standard deep half sweeps after successful entries. Build the complete attacking sequence from compromised half guard.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from bottom half guard against progressively skilled opponents. Work to create jailbreak scenarios and execute appropriate response. Track success rate and common failure points.
-(Resistance: Full)
 
 
 

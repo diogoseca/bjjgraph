@@ -157,7 +157,7 @@ Strategically, this transition punishes opponents who prioritize grip fighting o
 The transition requires precise timing and commitment. You must recognize when the opponent's arm is sufficiently extended during their defensive movement, then explosively capture it while maintaining your chest-to-back connection. The standing nature of this entry often flows naturally into a mat return where you secure the legs and complete the crucifix position on the ground. Advanced practitioners use this as a reliable chain attack when initial choke attempts are successfully defended.
 
 **From Position**: [[Standing Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ The transition requires precise timing and commitment. You must recognize when t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify arm exposure**: Recognize when opponent's defensive grip fighting extends their arm away from their body, typically when they reach back to strip your choking arm or push away your control hand. This extension creates the window for arm capture. (Timing: As opponent reaches to fight grips)
-2. **Redirect extended arm**: Use your control arm (the arm under their armpit in the harness) to redirect their extended arm across their body. Push their elbow across their centerline while maintaining your chest connection to their back. This begins isolating the arm. (Timing: Immediately when arm extends)
-3. **Step leg through**: Step your leg on the same side as the captured arm through and across opponent's body, hooking your foot behind their far hip. Your thigh should trap their upper arm against your hip, preventing them from retracting the arm. (Timing: Simultaneously with arm redirect)
-4. **Secure arm with leg**: Lock their arm between your leg and hip by squeezing your thigh tight and controlling their wrist with your hand. The arm should be bent at approximately ninety degrees with their elbow trapped against your hip bone. (Timing: Within 1 second of leg placement)
-5. **Break down to mat**: Drive forward and down using the trapped arm as a lever, taking opponent to the mat. Maintain your chest connection and use your hooks or free leg to control their lower body as you descend. Land with opponent on their side. (Timing: Controlled 2-3 second descent)
-6. **Consolidate crucifix**: Once on the mat, immediately triangle your legs around their trapped arm and torso. Reach over their head to control their other arm, completing the full crucifix position with both arms isolated and their neck exposed. (Timing: Within 3 seconds of landing)
+1. **Identify arm exposure**: Recognize when opponent's defensive grip fighting extends their arm away from their body, typically when they reach back to strip your choking arm or push away your control hand. This extension creates the window for arm capture.
+2. **Redirect extended arm**: Use your control arm (the arm under their armpit in the harness) to redirect their extended arm across their body. Push their elbow across their centerline while maintaining your chest connection to their back. This begins isolating the arm.
+3. **Step leg through**: Step your leg on the same side as the captured arm through and across opponent's body, hooking your foot behind their far hip. Your thigh should trap their upper arm against your hip, preventing them from retracting the arm.
+4. **Secure arm with leg**: Lock their arm between your leg and hip by squeezing your thigh tight and controlling their wrist with your hand. The arm should be bent at approximately ninety degrees with their elbow trapped against your hip bone.
+5. **Break down to mat**: Drive forward and down using the trapped arm as a lever, taking opponent to the mat. Maintain your chest connection and use your hooks or free leg to control their lower body as you descend. Land with opponent on their side.
+6. **Consolidate crucifix**: Once on the mat, immediately triangle your legs around their trapped arm and torso. Reach over their head to control their other arm, completing the full crucifix position with both arms isolated and their neck exposed.
 
 
 </section>
@@ -250,19 +250,15 @@ The transition requires precise timing and commitment. You must recognize when t
 ## Training Progressions
 **Week 1-2** - Arm capture mechanics
 Practice the arm redirect and leg step through from static standing back control. Partner extends arm on command while you drill the capture motion. Focus on maintaining chest connection and proper leg placement without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner actively grip fights with moderate energy while you identify and capture arm extensions. Work on recognizing the window when arm extends sufficiently for capture. Add the mat return and practice landing in proper crucifix position.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner provides realistic defensive reactions including keeping elbows tight, dropping weight, and attempting to turn. Practice adjusting to each counter and chaining to alternative attacks when crucifix is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate crucifix transition into live rolling from standing back control. Work on setting up the opportunity by threatening chokes to force grip fighting, then capitalizing on arm exposure. Drill finishing sequences from completed crucifix.
-(Resistance: Full)
 
 
 

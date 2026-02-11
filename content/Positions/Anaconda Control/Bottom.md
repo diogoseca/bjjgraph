@@ -369,11 +369,11 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 10% | 0% |
-| Intermediate | 70% | 25% | 0% |
-| Advanced     | 85% | 45% | 5% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 35% |
+| Submission Probability | 2% |
 
 **Average Time in Position**: 10-30 seconds (escape or submit quickly)
 
@@ -386,7 +386,7 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 
 - **[[Anaconda Choke]]** - Submission being defended - critical to understand finishing mechanics
 - **[[Front Headlock]]** - Precursor position - preventing anaconda grip from this position
-- **[[D'arce Control]]** - Similar front headlock choke control requiring similar defensive concepts
+- **[[Darce Control]]** - Similar front headlock choke control requiring similar defensive concepts
 - **[[Guillotine Control]]** - Related front headlock submission requiring comparable escape principles
 - **[[Turtle]]** - Common starting position before anaconda control is established
 - **[[Anaconda from Turtle]]** - Transition that creates this position - understanding entry helps prevention

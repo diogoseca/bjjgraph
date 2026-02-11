@@ -163,7 +163,7 @@ Once standing, the top player uses both hands to systematically strip the lapel 
 This transition is tactically important because it represents the top player accepting a temporary positional step backward (giving up pressure and proximity) in exchange for escaping a mechanically disadvantaged entanglement. The trade-off is worthwhile: a neutral open guard top position with full mobility is vastly superior to a compromised Ringworm Guard top position with restricted base and constant sweep threats. The key is executing the stand and extraction quickly enough that the bottom player cannot establish a new guard configuration before you begin your passing sequence.
 
 **From Position**: [[Ringworm Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ This transition is tactically important because it represents the top player acc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish free leg base**: Post your free leg (the leg not trapped by the lapel wrap) in a strong combat base position with your foot flat on the mat, knee driving forward. This leg will bear the majority of your weight during the stand and must be positioned slightly wider than shoulder-width for maximum stability against lateral sweeping forces. (Timing: Initiate when opponent begins creating angles for sweep attempts)
-2. **Drive upward to standing**: Explosively extend your free leg to drive your hips upward and backward, standing to full height. Keep your hips loaded posterior (away from opponent) throughout the rise to resist the forward pulling force of the lapel wrap. Do not lean forward over the trapped leg at any point during the elevation. (Timing: Execute as a single explosive motion to minimize the transitional vulnerability window)
-3. **Neutralize secondary controls**: Once standing, use your elevation advantage to strip any remaining hooks, frames, or foot-on-hip controls the bottom player maintained. Shake or circle your hips to dislodge butterfly hooks and shin shields. The bottom player's legs should now only have the lapel connection remaining as their primary control point. (Timing: Immediately upon reaching full standing height)
-4. **Two-handed lapel extraction**: Commit both hands to breaking the lapel wrap. One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line. The other hand works to create slack in the wrap by pushing the lapel material away from your leg. Use a circular unwinding motion rather than a straight pull to mechanically defeat the friction of the wrap. (Timing: Begin within one to two seconds of reaching standing position)
-5. **Circle and extract**: While stripping the lapel, step your trapped leg in a circular motion away from the bottom player's strong side. This reduces the angle at which they can maintain tension on the wrap and makes re-gripping progressively harder. Continue the circular motion until your leg clears the lapel material completely and you have full freedom of movement. (Timing: Continuous motion synchronized with the grip-breaking sequence)
-6. **Establish passing grips**: Immediately upon clearing the lapel, establish dominant passing grips before the bottom player can reconfigure their guard. Secure collar and pants grips, or double pants grips, and begin your preferred passing sequence. The window between lapel clearance and new guard establishment is narrow, so the grip transition must be pre-planned and automatic. (Timing: Within one second of clearing the lapel to exploit the grip-free window)
-7. **Initiate guard pass**: With passing grips secured, immediately begin a toreando, leg drag, or knee slice pass to capitalize on the positional advantage of standing over an open guard player who has lost their primary control system. Maintain lateral pressure and distance management to prevent the opponent from re-establishing any lapel guard configuration. (Timing: Continuous flow from grip establishment without pause)
+1. **Establish free leg base**: Post your free leg (the leg not trapped by the lapel wrap) in a strong combat base position with your foot flat on the mat, knee driving forward. This leg will bear the majority of your weight during the stand and must be positioned slightly wider than shoulder-width for maximum stability against lateral sweeping forces.
+2. **Drive upward to standing**: Explosively extend your free leg to drive your hips upward and backward, standing to full height. Keep your hips loaded posterior (away from opponent) throughout the rise to resist the forward pulling force of the lapel wrap. Do not lean forward over the trapped leg at any point during the elevation.
+3. **Neutralize secondary controls**: Once standing, use your elevation advantage to strip any remaining hooks, frames, or foot-on-hip controls the bottom player maintained. Shake or circle your hips to dislodge butterfly hooks and shin shields. The bottom player's legs should now only have the lapel connection remaining as their primary control point.
+4. **Two-handed lapel extraction**: Commit both hands to breaking the lapel wrap. One hand grips the lapel tail near the bottom player's controlling hand and peels it toward their thumb line. The other hand works to create slack in the wrap by pushing the lapel material away from your leg. Use a circular unwinding motion rather than a straight pull to mechanically defeat the friction of the wrap.
+5. **Circle and extract**: While stripping the lapel, step your trapped leg in a circular motion away from the bottom player's strong side. This reduces the angle at which they can maintain tension on the wrap and makes re-gripping progressively harder. Continue the circular motion until your leg clears the lapel material completely and you have full freedom of movement.
+6. **Establish passing grips**: Immediately upon clearing the lapel, establish dominant passing grips before the bottom player can reconfigure their guard. Secure collar and pants grips, or double pants grips, and begin your preferred passing sequence. The window between lapel clearance and new guard establishment is narrow, so the grip transition must be pre-planned and automatic.
+7. **Initiate guard pass**: With passing grips secured, immediately begin a toreando, leg drag, or knee slice pass to capitalize on the positional advantage of standing over an open guard player who has lost their primary control system. Maintain lateral pressure and distance management to prevent the opponent from re-establishing any lapel guard configuration.
 
 
 </section>
@@ -263,19 +263,15 @@ This transition is tactically important because it represents the top player acc
 ## Training Progressions
 **Week 1-2** - Standing mechanics from lapel entanglement
 Practice the standing sequence from Ringworm Guard configuration with a cooperative partner. Focus on posterior hip loading, explosive leg drive, and maintaining balance during elevation. Partner holds lapel wrap at 30% tension to allow repeated drilling of the standing motion without resistance.
-(Resistance: None)
 
 **Week 3-4** - Lapel extraction timing and grip mechanics
 Add the two-handed extraction sequence to the standing drill. Partner maintains moderate lapel tension while you practice circular unwinding motion, grip placement, and the angular stepping pattern. Begin integrating the immediate transition to passing grips after clearing the lapel.
-(Resistance: Light)
 
 **Week 5-6** - Counter defense and complete sequence flow
 Partner adds common counters (re-wrapping, guard transitions, single leg attempts) at 60-70% intensity while you drill the complete extraction-to-passing sequence. Focus on maintaining defensive posture and recognizing which counter the opponent is attempting to select the appropriate response.
-(Resistance: Medium)
 
 **Week 7-8** - Live situational sparring from Ringworm Guard
 Begin rounds from the Ringworm Guard configuration with full resistance. Partner plays full Ringworm Guard offensive game including sweeps, back takes, and guard transitions while you work the standing reset sequence. Track success rate and identify which counters give you the most difficulty for targeted drilling.
-(Resistance: Full)
 
 
 

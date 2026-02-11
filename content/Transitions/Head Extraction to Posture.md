@@ -157,7 +157,7 @@ The technique prioritizes systematic extraction over explosive movement. Rather 
 Strategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.
 
 **From Position**: [[Gogoplata Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create breathing space**: Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This angles your throat away from the perpendicular pressure and buys critical seconds for the escape sequence. (Timing: Immediately upon recognizing the gogoplata)
-2. **Establish hand control**: Place both hands on opponent's hips rather than grabbing at the choking leg. This hand position prevents them from elevating their hips to increase pressure and creates the base needed for subsequent movements. (Timing: While maintaining chin turn)
-3. **Drive hips forward**: Push your hips forward and down into your opponent, using your hip-controlling hands for leverage. This forward pressure reduces the angle of the shin and begins compromising their structural control of the position. (Timing: As soon as hand control is established)
-4. **Address foot position**: Release one hand from their hip to address the foot behind your head. Work the foot loose by pushing it laterally toward the mat rather than pulling it backward. The lateral direction defeats the closed-loop geometry. (Timing: When forward pressure has reduced shin angle)
-5. **Extract head laterally**: As the foot loosens, move your head laterally in the same direction you pushed the foot. Do not pull straight back. The lateral movement slides your head out of the shin-throat-foot triangle configuration. (Timing: Immediately after foot loosens)
-6. **Recover posture**: Once your head clears the leg, immediately drive your posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin your passing sequence from closed guard. (Timing: Rapidly following head extraction)
+1. **Create breathing space**: Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This angles your throat away from the perpendicular pressure and buys critical seconds for the escape sequence.
+2. **Establish hand control**: Place both hands on opponent's hips rather than grabbing at the choking leg. This hand position prevents them from elevating their hips to increase pressure and creates the base needed for subsequent movements.
+3. **Drive hips forward**: Push your hips forward and down into your opponent, using your hip-controlling hands for leverage. This forward pressure reduces the angle of the shin and begins compromising their structural control of the position.
+4. **Address foot position**: Release one hand from their hip to address the foot behind your head. Work the foot loose by pushing it laterally toward the mat rather than pulling it backward. The lateral direction defeats the closed-loop geometry.
+5. **Extract head laterally**: As the foot loosens, move your head laterally in the same direction you pushed the foot. Do not pull straight back. The lateral movement slides your head out of the shin-throat-foot triangle configuration.
+6. **Recover posture**: Once your head clears the leg, immediately drive your posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin your passing sequence from closed guard.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, Head Extraction to Posture represents more than simple survival. 
 ## Training Progressions
 **Week 1-2** - Position recognition and breathing
 Partner establishes gogoplata at 30% pressure. Practice recognizing the position, remaining calm, and finding breathing space through chin positioning. No escape attempts yet, purely building comfort under pressure and mental composure.
-(Resistance: None)
 
 **Week 3-4** - Mechanical sequence drilling
 Partner establishes position at 40% resistance. Practice complete extraction sequence step-by-step: chin turn, hip control, forward pressure, foot removal, lateral extraction, posture recovery. Partner allows escape but maintains position until each step is executed correctly.
-(Resistance: Light)
 
 **Week 5-6** - Counter-to-counter training
 Partner provides 60% resistance and actively counters with triangle and omoplata transitions. Practice recognizing counter attempts and adjusting extraction sequence accordingly. Develop ability to chain from gogoplata defense to triangle defense to omoplata defense.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance training starting from gogoplata control. Partner attempts to finish while you work complete escape. Include scenarios where systematic escape fails and emergency tuck-and-roll is required. Integrate into full sparring rounds.
-(Resistance: Full)
 
 
 

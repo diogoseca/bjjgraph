@@ -157,7 +157,7 @@ This transition exemplifies the systematic philosophy of rubber guard: positions
 Strategic timing distinguishes successful practitioners. The transition must occur during the extraction process, not after the opponent has fully escaped. Attempting to hold a failing New York creates stalling positions without offensive options, while transitioning too early abandons viable submission chains. The sweet spot is when overhook depth becomes insufficient but before the opponent achieves full posture recovery - typically a 1-2 second window that requires pattern recognition and immediate response.
 
 **From Position**: [[New York Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategic timing distinguishes successful practitioners. The transition must occ
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize extraction**: Feel the opponent rotating their shoulder forward and pulling their arm from your overhook. This extraction movement is your trigger - do not wait until they complete it. (Timing: Immediate upon feeling shoulder rotation)
-2. **Release overhook**: Allow the failing overhook to release rather than fighting it. Immediately bring that arm to frame against their chest or shoulder to maintain distance and prevent smash pressure. (Timing: Within 0.5 seconds of recognition)
-3. **Drop high guard leg**: Your leg wrapped over their shoulder drops down to trap their near leg. The foot that was near their far shoulder now hooks behind their calf on the same side as your former overhook. (Timing: Simultaneous with overhook release)
-4. **Establish lockdown**: Triangle your legs around their trapped leg with your bottom leg hooking over your top foot. Create lockdown tension by squeezing your thighs together and extending your hips slightly. (Timing: 1-2 seconds after leg drop)
-5. **Fight for underhook**: Your frame arm transitions to fighting for underhook position on the same side as your lockdown. Thread your arm under their armpit while maintaining lockdown tension to prevent them from establishing crossface. (Timing: As lockdown solidifies)
-6. **Establish Zombie structure**: Turn onto your side facing the opponent with lockdown active, underhook fighting in progress, and near-side frame protecting your head from crossface. You are now in Zombie position with full offensive options available. (Timing: 2-3 seconds total transition time)
+1. **Recognize extraction**: Feel the opponent rotating their shoulder forward and pulling their arm from your overhook. This extraction movement is your trigger - do not wait until they complete it.
+2. **Release overhook**: Allow the failing overhook to release rather than fighting it. Immediately bring that arm to frame against their chest or shoulder to maintain distance and prevent smash pressure.
+3. **Drop high guard leg**: Your leg wrapped over their shoulder drops down to trap their near leg. The foot that was near their far shoulder now hooks behind their calf on the same side as your former overhook.
+4. **Establish lockdown**: Triangle your legs around their trapped leg with your bottom leg hooking over your top foot. Create lockdown tension by squeezing your thighs together and extending your hips slightly.
+5. **Fight for underhook**: Your frame arm transitions to fighting for underhook position on the same side as your lockdown. Thread your arm under their armpit while maintaining lockdown tension to prevent them from establishing crossface.
+6. **Establish Zombie structure**: Turn onto your side facing the opponent with lockdown active, underhook fighting in progress, and near-side frame protecting your head from crossface. You are now in Zombie position with full offensive options available.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategic timing distinguishes successful practitioners. The transition must occ
 ## Training Progressions
 **Week 1-2** - Recognition and Mechanics
 Partner establishes New York Control, then slowly extracts shoulder while you practice recognizing the trigger and executing the leg transition to lockdown. No resistance - focus on smooth mechanics and timing recognition.
-(Resistance: None)
 
 **Week 3-4** - Transition Speed
 Partner extracts at moderate speed while you work to complete the transition before they achieve full posture. Begin adding frame and underhook battle after lockdown establishment. Partner provides light passing pressure after extraction.
-(Resistance: Light)
 
 **Week 5-6** - Counter Integration
 Partner varies their extraction timing and immediately attacks with passes after escaping. Practice transitioning to Zombie and immediately defending or attacking. Add common counters and your responses to those counters.
-(Resistance: Medium)
 
 **Week 7+** - Live Application
 Full positional sparring starting from New York Control. Partner works to escape and pass while you work complete rubber guard system including New York attacks and Zombie transitions. Track success rate and refine timing.
-(Resistance: Full)
 
 
 

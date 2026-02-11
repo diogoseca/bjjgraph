@@ -379,11 +379,11 @@ Start with bottom player in feet on hips position with grips already established
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 15% |
-| Intermediate | 55% | 50% | 25% |
-| Advanced     | 70% | 65% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 58% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 45-90 seconds before successful pass or guard recovery
 

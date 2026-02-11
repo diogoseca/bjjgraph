@@ -157,7 +157,7 @@ This transition's effectiveness lies in its ability to capitalize on the opponen
 The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling and MMA, where collar controls are unavailable. It serves as both a submission threat and a gateway to other attacks within the front headlock system, including the darce choke, anaconda choke, and various back takes. Mastering this transition requires understanding proper head positioning, grip mechanics, and the ability to maintain control throughout the adjustment phase while preventing the opponent from establishing defensive frames or creating distance.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure front headlock control**: Establish a tight front headlock by wrapping your arm around the opponent's neck with your hand gripping their far shoulder or tricep. Your chest should be heavy on the back of their head, forcing their posture down. Keep your hips close to their head and your knees bent for mobility. Your free hand can post on the mat or control their near arm to prevent defensive reactions. (Timing: Initial control position - maintain until opponent shows movement)
-2. **Identify the transition moment**: Wait for the opponent to attempt an escape by either trying to stand up, driving forward to pass, or pulling their head backward. These movements create the perfect moment for the transition as they are actively working against your control, making them vulnerable to the grip change. You'll feel them start to extend their neck or create upward pressure - this is your cue to act. (Timing: React immediately when opponent initiates escape movement)
-3. **Slide choking arm deep**: As the opponent moves, quickly slide your choking arm deeper around their neck, bringing your wrist and forearm past their trachea to the far side of their neck. Your goal is to get your wrist bone positioned under their chin rather than across their throat. Drive your shoulder forward and down while pulling their head into your chest to maintain control during this adjustment. This depth is critical for the effectiveness of the guillotine. (Timing: Execute quickly during opponent's movement - 0.5 to 1 second window)
-4. **Establish guillotine grip**: Bring your free hand under the opponent's body and clasp it with your choking hand, either using a palm-to-palm grip, S-grip, or Gable grip depending on your preference and arm length. The key is to lock your hands together on the far side of their neck with your forearm creating a V-shape under their chin. Keep your elbows tight to your sides and chest to prevent the opponent from swimming their arms inside your control. (Timing: Immediate after arm depth is achieved)
-5. **Adjust body position**: Simultaneously with securing the grip, either pull guard by sitting back and pulling the opponent into your closed guard, or jump up and wrap your legs around their waist if they are standing. If executing from standing, you can also maintain the standing guillotine position. Your hips should come forward and under the opponent's chest, creating an angle that makes the choke more effective. Pull them tight to your body, eliminating any space between you. (Timing: Coordinate with grip completion - single fluid motion)
-6. **Apply finishing pressure**: To finish the choke, perform a crunching motion by bringing your elbows together while lifting your wrist bone into the underside of their chin. Simultaneously extend your hips forward (if in guard) or arch your back (if standing) to create maximum pressure. Pull their head down while lifting up with your arms in a scissoring action. Your shoulder should drive into the side of their neck while your forearm compresses the opposite side. Maintain this pressure until they tap or you transition to another position. (Timing: Apply gradually increasing pressure over 2-3 seconds)
+1. **Secure front headlock control**: Establish a tight front headlock by wrapping your arm around the opponent's neck with your hand gripping their far shoulder or tricep. Your chest should be heavy on the back of their head, forcing their posture down. Keep your hips close to their head and your knees bent for mobility. Your free hand can post on the mat or control their near arm to prevent defensive reactions.
+2. **Identify the transition moment**: Wait for the opponent to attempt an escape by either trying to stand up, driving forward to pass, or pulling their head backward. These movements create the perfect moment for the transition as they are actively working against your control, making them vulnerable to the grip change. You'll feel them start to extend their neck or create upward pressure - this is your cue to act.
+3. **Slide choking arm deep**: As the opponent moves, quickly slide your choking arm deeper around their neck, bringing your wrist and forearm past their trachea to the far side of their neck. Your goal is to get your wrist bone positioned under their chin rather than across their throat. Drive your shoulder forward and down while pulling their head into your chest to maintain control during this adjustment. This depth is critical for the effectiveness of the guillotine.
+4. **Establish guillotine grip**: Bring your free hand under the opponent's body and clasp it with your choking hand, either using a palm-to-palm grip, S-grip, or Gable grip depending on your preference and arm length. The key is to lock your hands together on the far side of their neck with your forearm creating a V-shape under their chin. Keep your elbows tight to your sides and chest to prevent the opponent from swimming their arms inside your control.
+5. **Adjust body position**: Simultaneously with securing the grip, either pull guard by sitting back and pulling the opponent into your closed guard, or jump up and wrap your legs around their waist if they are standing. If executing from standing, you can also maintain the standing guillotine position. Your hips should come forward and under the opponent's chest, creating an angle that makes the choke more effective. Pull them tight to your body, eliminating any space between you.
+6. **Apply finishing pressure**: To finish the choke, perform a crunching motion by bringing your elbows together while lifting your wrist bone into the underside of their chin. Simultaneously extend your hips forward (if in guard) or arch your back (if standing) to create maximum pressure. Pull their head down while lifting up with your arms in a scissoring action. Your shoulder should drive into the side of their neck while your forearm compresses the opposite side. Maintain this pressure until they tap or you transition to another position.
 
 
 </section>
@@ -255,27 +255,21 @@ The Front Headlock to Guillotine is a cornerstone technique in no-gi grappling a
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip positioning and basic transition movement
 Start with stationary drilling from established front headlock position. Partner remains still while you practice sliding your arm deep and establishing the guillotine grip. Focus on getting your wrist bone past their throat and under their chin consistently. Drill the motion of pulling guard or jumping to closed guard separately. Aim for 20-30 repetitions per session to build muscle memory for proper arm depth.
-(Resistance: None)
 
 **Week 3-4: Dynamic Entry** - Timing the transition during opponent movement
 Partner begins adding motion by attempting to stand from turtle or driving forward from front headlock. Practice recognizing the moment to transition and executing the grip change while they're moving. Work on maintaining control throughout the transition. Partner should move at 30-40% speed, focusing on realistic movement patterns rather than resistance. Drill both successful and failed attempts to understand timing windows.
-(Resistance: Light)
 
 **Week 5-8: Defensive Recognition** - Dealing with common defensive reactions and counters
 Partner adds specific defensive reactions: chin tucks, posture resistance, turning in, and grip fighting. Practice adjusting your technique based on their defense, including transitioning to alternative submissions (darce, anaconda) when the guillotine is defended. Work on maintaining front headlock control even when the guillotine attempt fails. Partner provides 50-60% resistance with predictable defensive patterns.
-(Resistance: Medium)
 
 **Week 9-12: Positional Sparring** - Integration with overall front headlock system
 Engage in positional sparring starting from front headlock position. Partner attempts realistic escapes while you work to transition to guillotine or other submissions. Include the full sequence: maintain front headlock, recognize opportunity, execute transition, finish or transition to alternative. Work 3-minute rounds with full resistance but emphasis on technical execution over strength. Partner should attempt genuine escapes at full speed.
-(Resistance: Full)
 
 **Week 13+: Competition Integration** - Applying technique during live rolling and competition
 Incorporate the technique into your free rolling, focusing on creating front headlock opportunities from various positions (turtle, takedown defense, scrambles). Work on chaining this transition with other attacks from the front headlock system. Analyze which variations work best for your body type and style. Review video of your attempts to identify technical breakdowns under pressure.
-(Resistance: Full)
 
 **Ongoing: Refinement and Variation** - Developing personal adaptations and high-level details
 Experiment with different grip variations (arm-in guillotine, high-elbow, ten-finger), different finishing positions (closed guard, standing, mount), and setups from various scramble situations. Work with training partners of different body types to understand how the technique adjusts based on size and strength differences. Study high-level competition footage to identify subtle details and timing nuances.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ This entry represents a fundamental pathway within the modern leg lock game, con
 Strategically, this technique creates a powerful dilemma for the top player: defend the sweep and expose leg attack entries, or focus on leg defense and become vulnerable to sweeps. Advanced practitioners use this transition as part of a flowing attack system where failed sweeps naturally funnel into leg entanglements, maintaining offensive pressure throughout.
 
 **From Position**: [[Reverse X-Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this technique creates a powerful dilemma for the top player: def
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Evaluate position**: From Reverse X-Guard, assess opponent's weight distribution and base width. The entry works best when they resist sweeps by widening their base or shifting weight backward. Confirm your primary hook is secure behind their knee. (Timing: When opponent defends sweep or begins to posture)
-2. **Elevate and angle**: Drive your hips upward using your primary hook while rotating your body to face the controlled leg more directly. This elevation creates space for your secondary leg to reconfigure while maintaining constant pressure on their balance. (Timing: Immediately upon deciding to transition)
-3. **Transfer secondary leg**: Remove your secondary leg from the hip control position and begin threading it across the opponent's body. Your foot should travel across their far hip toward the opposite side while maintaining your primary hook position. (Timing: During hip elevation)
-4. **Establish cross-body clamp**: Position your secondary leg across the opponent's waist or far hip, creating the cross-body clamp that defines Ashi Garami. Your knees should be pinching together with the opponent's leg trapped between them. (Timing: As soon as secondary leg clears)
-5. **Control knee line**: Immediately address knee line control by using your outside hand to cup or hook around their heel while your inside arm frames against their knee. This prevents them from freeing their knee, which would negate submission threats. (Timing: Immediately after Ashi structure established)
-6. **Consolidate Ashi Garami**: Finalize the position by adjusting your hip angle to maximize pressure on their trapped leg. Your hips should be turned slightly toward the captured leg with your knees pinching tightly. Establish heel exposure for submission attacks. (Timing: Within 2 seconds of transition completion)
+1. **Evaluate position**: From Reverse X-Guard, assess opponent's weight distribution and base width. The entry works best when they resist sweeps by widening their base or shifting weight backward. Confirm your primary hook is secure behind their knee.
+2. **Elevate and angle**: Drive your hips upward using your primary hook while rotating your body to face the controlled leg more directly. This elevation creates space for your secondary leg to reconfigure while maintaining constant pressure on their balance.
+3. **Transfer secondary leg**: Remove your secondary leg from the hip control position and begin threading it across the opponent's body. Your foot should travel across their far hip toward the opposite side while maintaining your primary hook position.
+4. **Establish cross-body clamp**: Position your secondary leg across the opponent's waist or far hip, creating the cross-body clamp that defines Ashi Garami. Your knees should be pinching together with the opponent's leg trapped between them.
+5. **Control knee line**: Immediately address knee line control by using your outside hand to cup or hook around their heel while your inside arm frames against their knee. This prevents them from freeing their knee, which would negate submission threats.
+6. **Consolidate Ashi Garami**: Finalize the position by adjusting your hip angle to maximize pressure on their trapped leg. Your hips should be turned slightly toward the captured leg with your knees pinching tightly. Establish heel exposure for submission attacks.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this technique creates a powerful dilemma for the top player: def
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the basic movement pattern from static Reverse X-Guard position. Focus on hip elevation, secondary leg transfer path, and knee pinch establishment. Partner remains passive to allow repetition of correct mechanics.
-(Resistance: None)
 
 **Week 3-4** - Timing and recognition
 Partner provides light resistance including gentle weight shifts and minor base adjustments. Practice recognizing the correct timing windows for entry based on opponent's reactions. Introduce grip transfer sequences.
-(Resistance: Light)
 
 **Week 5-6** - Counter chains
 Partner actively defends using the common counters (backstep, smash, pull back). Practice the recommended responses and flow to alternative positions when primary entry is blocked. Develop the sweep-to-Ashi dilemma.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Full positional sparring starting from Reverse X-Guard. Apply the transition against fully resisting opponents. Focus on combining with sweeps to create pressure and recognizing when to commit to Ashi versus pursue sweep.
-(Resistance: Full)
 
 
 

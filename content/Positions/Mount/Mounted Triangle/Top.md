@@ -391,11 +391,11 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 50% | 45% |
-| Intermediate | 70% | 65% | 65% |
-| Advanced     | 85% | 80% | 80% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 72% |
 
 **Average Time in Position**: 45-120 seconds to submission or position change
 

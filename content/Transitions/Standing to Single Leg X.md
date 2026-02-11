@@ -153,7 +153,7 @@ description: "Learn Standing to Single Leg X transition in BJJ. Step-by-step ent
 The Standing to Single Leg X transition is a fundamental guard pull entry that converts standing engagement into a powerful leg entanglement position. This technique allows the bottom player to bypass traditional guard establishment and immediately threaten sweeps and leg attacks from a mechanically advantageous position. The Single Leg X position provides superior control of one leg while maintaining distance management and sweep opportunities. Unlike traditional seated guard pulls, this entry creates immediate offensive pressure by compromising the opponent's base and posture simultaneously. The technique is particularly effective in no-gi grappling and modern sport BJJ competition, where dynamic guard pulling has become essential. Success depends on timing the entry during opponent movement, maintaining proper body positioning throughout the transition, and securing critical grips before the opponent can establish defensive posture.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: Secure a strong grip on opponent's sleeve or wrist with your same-side hand. In gi, collar grips also work effectively. This grip prevents opponent from sprawling backward and maintains connection throughout the entry. (Timing: Before initiating level change)
-2. **Drop level and step in**: Explosively drop your hips below the opponent's knee line while stepping your lead foot between their legs. Your chest should angle toward their thigh as you change levels, similar to a single leg takedown setup but with different finishing mechanics. (Timing: Execute when opponent steps forward or shifts weight)
-3. **Insert inside hook**: As you drop, immediately insert your inside leg (same side as grip) behind opponent's near knee. Your shin should slide across the back of their knee joint while your foot hooks around to their inner thigh. This hook is the foundation of Single Leg X control. (Timing: Simultaneously with level change)
-4. **Sit to outside hip**: Rotate your hips and sit to your outside hip (opposite side from your inside hook). This creates the proper angle for Single Leg X positioning and prevents opponent from driving forward into your guard. Your outside shoulder should be slightly back and away from opponent. (Timing: Immediately after hook insertion)
-5. **Establish outside foot on hip**: Place your outside foot (opposite leg from inside hook) on opponent's hip or lower abdomen. This foot acts as a distance regulator, preventing forward pressure while maintaining proper spacing for sweeps. Push with this foot to extend opponent and create off-balance. (Timing: As you complete sitting motion)
-6. **Elevate and sweep immediately**: Immediately elevate opponent's trapped leg with your inside hook while pulling their upper body forward with your grip. Simultaneously push with your outside foot to drive them backward. This instant sweep attempt prevents them from establishing defensive posture and transitioning to top position control. (Timing: Without pause after establishing position)
+1. **Establish grip control**: Secure a strong grip on opponent's sleeve or wrist with your same-side hand. In gi, collar grips also work effectively. This grip prevents opponent from sprawling backward and maintains connection throughout the entry.
+2. **Drop level and step in**: Explosively drop your hips below the opponent's knee line while stepping your lead foot between their legs. Your chest should angle toward their thigh as you change levels, similar to a single leg takedown setup but with different finishing mechanics.
+3. **Insert inside hook**: As you drop, immediately insert your inside leg (same side as grip) behind opponent's near knee. Your shin should slide across the back of their knee joint while your foot hooks around to their inner thigh. This hook is the foundation of Single Leg X control.
+4. **Sit to outside hip**: Rotate your hips and sit to your outside hip (opposite side from your inside hook). This creates the proper angle for Single Leg X positioning and prevents opponent from driving forward into your guard. Your outside shoulder should be slightly back and away from opponent.
+5. **Establish outside foot on hip**: Place your outside foot (opposite leg from inside hook) on opponent's hip or lower abdomen. This foot acts as a distance regulator, preventing forward pressure while maintaining proper spacing for sweeps. Push with this foot to extend opponent and create off-balance.
+6. **Elevate and sweep immediately**: Immediately elevate opponent's trapped leg with your inside hook while pulling their upper body forward with your grip. Simultaneously push with your outside foot to drive them backward. This instant sweep attempt prevents them from establishing defensive posture and transitioning to top position control.
 
 
 </section>
@@ -250,27 +250,21 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 ## Training Progressions
 **Week 1-2: Static Entry Drilling** - Fundamental positioning and body mechanics
 Partner stands stationary while you drill entry from standing. Focus on grip control, level change depth, hook insertion timing, and sitting to proper hip position. Repeat 20-30 repetitions per training session, emphasizing smooth movement flow and correct final position. Partner provides zero resistance.
-(Resistance: None)
 
 **Week 3-4: Movement-Based Entry** - Timing entry against walking/stepping opponent
 Partner walks in circle or forward/backward while you time entries during their steps. Develop timing recognition for when their weight shifts onto lead leg. Partner can slightly adjust posture but does not actively defend. Practice reading movement cues and executing entry during optimal windows.
-(Resistance: Light)
 
 **Week 5-8: Sweep Integration** - Immediate sweep attempts from established position
 After successful entry, immediately attempt primary sweep (elevate hook, pull grip, push hip). Partner provides moderate resistance to sweep but allows position establishment. Drill 15-20 entries per session with mandatory sweep attempts. Focus on not pausing in static position before attacking.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Defending sprawls, forward pressure, and grip fighting
 Partner actively defends entry with sprawls, forward drives, and grip breaks. Practice maintaining grips during their defensive reactions, adjusting hook depth under pressure, and transitioning to alternative positions when primary entry is blocked. Introduce competition-level resistance gradually.
-(Resistance: Medium)
 
 **Month 4+: Competition Drilling** - Live entries from standing with full resistance
 Start standing with partner providing full resistance to guard pull attempts. They can defend, counter, and attempt takedowns. You must successfully enter Single Leg X and complete sweep or transition. This simulates competition conditions and develops real-time decision making under pressure.
-(Resistance: Full)
 
 **Ongoing: Chain Development** - Multiple entry combinations and backup options
 Integrate Standing to Single Leg X with alternative entries (Ankle Pick Sweep, De La Riva Guard, Shin-to-Shin Guard). Practice reading opponent's defensive patterns and automatically transitioning between positions. Develop seamless chains where blocked entry converts to alternative attack without pause.
-(Resistance: Full)
 
 
 

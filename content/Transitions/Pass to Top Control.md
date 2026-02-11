@@ -157,7 +157,7 @@ The technique capitalizes on the inherent vulnerability of the bottom leg lock a
 Strategically, this transition represents the optimal outcome from the defender's perspective in straight ankle lock control. Rather than simply escaping to neutral or accepting a 50-50 scramble, successful execution lands you in side control with significant positional advantage. This makes it particularly valuable in competition contexts where points and position matter as much as submission defense.
 
 **From Position**: [[Straight Ankle Lock Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this transition represents the optimal outcome from the defender'
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize commitment window**: Identify the moment when attacker arches back and pulls heel for the finish, causing their leg control to loosen as they prioritize submission pressure over position maintenance (Timing: As attacker initiates breaking mechanics)
-2. **Establish frames**: Post both hands against attacker's shoulders or chest, creating a pushing frame that will facilitate your circular movement and prevent them from following your pass attempt (Timing: Immediately upon recognizing opportunity)
-3. **Free trapped leg**: Use hip rotation combined with frame pressure to extract your knee toward your chest, clearing your foot from their grip as their focus remains on the submission attempt (Timing: While maintaining constant frame pressure)
-4. **Circle toward attacker's head**: Step your freed leg around attacker's body toward their head, using your frames to push off and create the momentum needed to bypass their legs entirely (Timing: Immediately after leg extraction)
-5. **Clear legs completely**: Continue circular motion until both your legs have cleared attacker's guard entirely, preventing any last-second leg entanglement or guard recovery attempt (Timing: Continuous fluid movement)
-6. **Establish side control**: Drop your weight perpendicular to attacker's torso, establishing crossface control and hip-to-hip connection to secure the dominant side control position before they can recover (Timing: Immediately upon clearing legs)
+1. **Recognize commitment window**: Identify the moment when attacker arches back and pulls heel for the finish, causing their leg control to loosen as they prioritize submission pressure over position maintenance
+2. **Establish frames**: Post both hands against attacker's shoulders or chest, creating a pushing frame that will facilitate your circular movement and prevent them from following your pass attempt
+3. **Free trapped leg**: Use hip rotation combined with frame pressure to extract your knee toward your chest, clearing your foot from their grip as their focus remains on the submission attempt
+4. **Circle toward attacker's head**: Step your freed leg around attacker's body toward their head, using your frames to push off and create the momentum needed to bypass their legs entirely
+5. **Clear legs completely**: Continue circular motion until both your legs have cleared attacker's guard entirely, preventing any last-second leg entanglement or guard recovery attempt
+6. **Establish side control**: Drop your weight perpendicular to attacker's torso, establishing crossface control and hip-to-hip connection to secure the dominant side control position before they can recover
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this transition represents the optimal outcome from the defender'
 ## Training Progressions
 **Week 1-2** - Recognition and mechanics
 Practice identifying the commitment window with cooperative partner. Focus on frame establishment, leg extraction mechanics, and circular movement patterns without resistance. Build muscle memory for the complete sequence.
-(Resistance: None)
 
 **Week 3-4** - Timing development
 Partner provides realistic ankle lock attempts with varying commitment levels. Practice recognizing genuine opportunities versus feigned commitment. Add light resistance to leg extraction and passing phases.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner attempts common counters including kneebar transitions and leg control recovery. Practice maintaining knee protection and completing pass through counter attempts. Develop contingency responses.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate into rolling with full resistance. Start from straight ankle lock control positions and work complete defensive sequences including this pass. Track success rate and refine timing based on live feedback.
-(Resistance: Full)
 
 
 

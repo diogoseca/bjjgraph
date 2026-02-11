@@ -156,13 +156,13 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 ### Available Transitions
 
 
-- **[[Omoplata]]** (18% of attempts)
+- **[[Omoplata]]** (19% of attempts)
 
 - **[[Omoplata to Back]]** (19% of attempts)
 
 - **[[Omoplata Sweep]]** (17% of attempts)
 
-- **[[Triangle Setup]]** (15% of attempts)
+- **[[Triangle Setup]]** (14% of attempts)
 
 - **[[Armbar from Guard]]** (17% of attempts)
 

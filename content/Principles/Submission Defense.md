@@ -231,7 +231,7 @@ Modern submission defense integrates concepts from multiple grappling discipline
 
 **Rear Triangle**: Defending rear triangle chokes by preventing initial leg lock-in, maintaining posture, creating space with hip movement, hand fighting controlling legs, and clearing legs before choke tightens
 
-**D'arce Control**: Escaping darce chokes through early recognition of setup, preventing arm trap, creating space by circling away, hand fighting choking arm, and maintaining defensive neck positioning
+**Darce Control**: Escaping darce chokes through early recognition of setup, preventing arm trap, creating space by circling away, hand fighting choking arm, and maintaining defensive neck positioning
 
 **Anaconda Control**: Defending anaconda chokes by preventing initial arm trap, maintaining head positioning, creating frames with trapped arm, generating space through bridge and turn, and clearing choke before roll
 

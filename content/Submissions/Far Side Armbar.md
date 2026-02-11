@@ -167,7 +167,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension)
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -242,13 +242,13 @@ This submission appears frequently in both gi and no-gi competition at all level
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure far arm control**: From side control or mount, identify the opponent's far arm (furthest from you). Grip the wrist firmly with your near hand, or cup behind the elbow if they're framing. Your goal is to prevent them from pulling their arm back or clasping their hands together for defense. (Timing: 0-2 seconds) [Pressure: Firm]
-2. **Break opponent's defensive structure**: Drive your weight forward and down to extend the opponent's arm fully. If they're framing against your neck or shoulder, use your free hand to swim under their arm or peel it across your body. The arm should be straightened and pulled across your chest at approximately shoulder height. (Timing: 2-3 seconds) [Pressure: Firm]
-3. **Trap the arm to your body**: Once the arm is extended, clamp it tightly to your chest by squeezing your elbow to your ribs. The opponent's arm should be positioned so their thumb points up and their tricep presses against your sternum. This grip prevents them from bending their arm to escape. (Timing: 1 second) [Pressure: Firm]
-4. **Position your hips**: Begin rotating your hips to create perpendicular alignment with the opponent's shoulder. Your hips should be positioned near their head, with your body forming a 'T' shape relative to theirs. Maintain chest-to-arm connection throughout this movement. (Timing: 2-3 seconds) [Pressure: Moderate]
-5. **Establish leg control**: Swing your near leg over the opponent's head or face, or step it across to the far side of their body. Your far leg should base out for stability or hook under their far side for control. This leg positioning prevents them from turning into you or sitting up to escape. (Timing: 1-2 seconds) [Pressure: Moderate]
-6. **Secure the arm position**: Adjust your grip to control the wrist with both hands if possible, or maintain one hand on the wrist and use your chest/shoulder to pin their tricep. The opponent's thumb should point toward their feet, and their elbow should be facing upward (in the direction you'll apply breaking pressure). (Timing: 1 second) [Pressure: Firm]
-7. **Apply finishing pressure**: Drive your hips forward and upward toward the ceiling while pulling the wrist toward your chest. The breaking pressure comes from hip extension, not arm strength. The opponent's elbow hyperextends as your hips create a fulcrum point. Apply pressure slowly and progressively over 3-5 seconds, stopping immediately upon tap. (Timing: 3-5 seconds) [Pressure: Light]
+1. **Secure far arm control**: From side control or mount, identify the opponent's far arm (furthest from you). Grip the wrist firmly with your near hand, or cup behind the elbow if they're framing. Your goal is to prevent them from pulling their arm back or clasping their hands together for defense. (Timing: 0-2 seconds)
+2. **Break opponent's defensive structure**: Drive your weight forward and down to extend the opponent's arm fully. If they're framing against your neck or shoulder, use your free hand to swim under their arm or peel it across your body. The arm should be straightened and pulled across your chest at approximately shoulder height. (Timing: 2-3 seconds)
+3. **Trap the arm to your body**: Once the arm is extended, clamp it tightly to your chest by squeezing your elbow to your ribs. The opponent's arm should be positioned so their thumb points up and their tricep presses against your sternum. This grip prevents them from bending their arm to escape. (Timing: 1 second)
+4. **Position your hips**: Begin rotating your hips to create perpendicular alignment with the opponent's shoulder. Your hips should be positioned near their head, with your body forming a 'T' shape relative to theirs. Maintain chest-to-arm connection throughout this movement. (Timing: 2-3 seconds)
+5. **Establish leg control**: Swing your near leg over the opponent's head or face, or step it across to the far side of their body. Your far leg should base out for stability or hook under their far side for control. This leg positioning prevents them from turning into you or sitting up to escape. (Timing: 1-2 seconds)
+6. **Secure the arm position**: Adjust your grip to control the wrist with both hands if possible, or maintain one hand on the wrist and use your chest/shoulder to pin their tricep. The opponent's thumb should point toward their feet, and their elbow should be facing upward (in the direction you'll apply breaking pressure). (Timing: 1 second)
+7. **Apply finishing pressure**: Drive your hips forward and upward toward the ceiling while pulling the wrist toward your chest. The breaking pressure comes from hip extension, not arm strength. The opponent's elbow hyperextends as your hips create a fulcrum point. Apply pressure slowly and progressively over 3-5 seconds, stopping immediately upon tap. (Timing: 3-5 seconds)
 
 
 </section>
@@ -268,25 +268,25 @@ This submission appears frequently in both gi and no-gi competition at all level
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing chest pressure on the arm too early [Medium DANGER]
+- **Mistake**: Releasing chest pressure on the arm too early
   - **Consequence**: Opponent can bend their arm and escape before you establish full control
   - **Correction**: Maintain tight chest-to-arm connection throughout the entire setup; never let their arm bend until the submission is fully locked
-- **Mistake**: Applying sudden jerking or spiking motion to finish [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking or spiking motion to finish
   - **Consequence**: HIGH RISK of elbow dislocation, ligament rupture, or severe hyperextension injury
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum; use smooth hip extension rather than explosive yanking
-- **Mistake**: Poor hip positioning (not perpendicular to opponent) [Low DANGER]
+- **Mistake**: Poor hip positioning (not perpendicular to opponent)
   - **Consequence**: Weak leverage and easy escape for opponent; submission lacks finishing power
   - **Correction**: Ensure your hips are positioned near opponent's head with your body forming a clear 'T' shape; adjust before applying pressure
-- **Mistake**: Failing to control opponent's head or near arm [Medium DANGER]
+- **Mistake**: Failing to control opponent's head or near arm
   - **Consequence**: Opponent can turn into you and escape, or use near arm to defend
   - **Correction**: Use your legs to control the head, or trap their near arm with your leg/body weight before committing to the finish
-- **Mistake**: Incorrect thumb position (thumb pointing toward opponent's head) [Medium DANGER]
+- **Mistake**: Incorrect thumb position (thumb pointing toward opponent's head)
   - **Consequence**: Allows opponent to hitchhiker escape by rotating their thumb toward their head
   - **Correction**: Ensure opponent's thumb points toward their feet; this prevents rotation and strengthens the lock
-- **Mistake**: Using arm strength instead of hip drive [Low DANGER]
+- **Mistake**: Using arm strength instead of hip drive
   - **Consequence**: Weak submission that tires you out; opponent can resist and escape
   - **Correction**: Focus on hip extension and body positioning; your hips should do the work, not your arms pulling
-- **Mistake**: Not allowing partner to tap safely in training [CRITICAL DANGER]
+- **Mistake**: Not allowing partner to tap safely in training
   - **Consequence**: Partner injury, loss of training partners, unsafe training environment
   - **Correction**: Always ensure at least one of partner's hands is free to tap; apply pressure slowly; release immediately upon tap signal
 
@@ -353,43 +353,6 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks of learning)
-- Focus: Learn arm isolation, grip control, and basic positioning without any resistance. Practice hip rotation and angle creation in isolation.
-- Resistance: Zero resistance
-- Safety: Partner remains completely passive; focus on slow, controlled movements; practice tap recognition and immediate release protocol
-
-**Slow Practice with Communication (Weeks 3-4)** (Weeks 3-4)
-- Focus: Execute complete technique from start to finish with cooperative partner. Verbalize each step. Practice applying light pressure and stopping well before tap threshold.
-- Resistance: Zero resistance
-- Safety: Continuous verbal communication; apply only 20-30% pressure; practice release protocol multiple times; develop sensitivity to partner's joint limits
-
-**Positional Sparring Introduction (Weeks 5-8)** (Weeks 5-8)
-- Focus: Start from side control or mount with partner providing mild defensive resistance. Focus on grip fighting, arm isolation, and setup sequences. Finish at 40-50% speed.
-- Resistance: Mild resistance
-- Safety: Partner provides predictable resistance only; still no explosive movements; maintain 3-5 second minimum for finishing pressure; tap early and often
-
-**Defensive Chain Integration (Weeks 9-12)** (Weeks 9-12)
-- Focus: Practice against common defenses (prayer hands, arm retraction, turning). Learn to chain far side armbar with other submissions. Increase resistance gradually to 60-70%.
-- Resistance: Realistic resistance
-- Safety: Both partners must know escape options; establish clear tap signals before starting; never force through defended positions with strength
-
-**Live Rolling Integration (Weeks 13+)** (Week 13 onward)
-- Focus: Implement far side armbar during regular rolling. Recognize opportunities from various positions. Develop timing and setup sensitivity against full resistance.
-- Resistance: Full resistance
-- Safety: Always maintain safety-first mindset even in competition training; distinguish between training and competition intensity; protect training partners above winning positions
-
-**Ongoing Refinement and Advanced Applications** (Continuous development)
-- Focus: Develop high-level setups, feints, and combinations. Study competition footage. Refine details based on body type and style. Teach technique to others to deepen understanding.
-- Resistance: Full resistance
-- Safety: Lead by example in safety culture; mentor junior students on proper application; maintain technical precision to minimize injury risk even with experienced partners
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -445,6 +408,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

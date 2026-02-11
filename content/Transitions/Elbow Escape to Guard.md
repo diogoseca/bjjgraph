@@ -157,7 +157,7 @@ The escape works by using your near-side elbow as a wedge against the opponent's
 This technique is particularly valuable because it maintains a defensive posture throughout the escape sequence, minimizing risk of transitioning to worse positions like back control or crucifix. The escape naturally flows into open guard rather than requiring you to fight through multiple transitional positions. For practitioners facing skilled buggy choke attacks, developing proficiency in this escape is essential for building a complete turtle defense system that doesn't rely solely on preventing the initial grip establishment.
 
 **From Position**: [[Buggy Choke/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ This technique is particularly valuable because it maintains a defensive posture
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Tuck chin defensively**: Immediately tuck your chin tightly toward your chest to protect your neck from the choke tightening further and create space for your elbow to work. (Timing: As soon as you recognize the buggy choke grip being established)
-2. **Insert elbow wedge**: Drive your near-side elbow forcefully between your neck and the opponent's choking forearm, using the point of your elbow as a structural barrier that prevents collar tightening. (Timing: Immediately after securing chin protection)
-3. **Create elbow frame**: Rotate your forearm so your hand reaches toward your far shoulder, creating a reinforced frame structure that uses skeletal leverage rather than muscular strength to maintain the wedge. (Timing: Within 1-2 seconds of initial elbow insertion)
-4. **Hip escape away**: Execute a strong shrimping motion with your hips moving diagonally away from the opponent's pressure, creating space between your body and their chest while maintaining the protective elbow frame. (Timing: Coordinated with the elbow frame establishment)
-5. **Insert near-side knee**: As space opens from the hip escape, immediately insert your near-side knee into the gap, positioning it between your body and the opponent's torso as a primary guard frame. (Timing: As hip escape creates sufficient space)
-6. **Establish open guard**: Complete the guard recovery by inserting your second leg, establishing feet on opponent's hips or butterfly hooks, and transitioning your hands from defensive frames to controlling grips on sleeves or collar. (Timing: Immediately after knee insertion to prevent opponent from re-establishing control)
+1. **Tuck chin defensively**: Immediately tuck your chin tightly toward your chest to protect your neck from the choke tightening further and create space for your elbow to work.
+2. **Insert elbow wedge**: Drive your near-side elbow forcefully between your neck and the opponent's choking forearm, using the point of your elbow as a structural barrier that prevents collar tightening.
+3. **Create elbow frame**: Rotate your forearm so your hand reaches toward your far shoulder, creating a reinforced frame structure that uses skeletal leverage rather than muscular strength to maintain the wedge.
+4. **Hip escape away**: Execute a strong shrimping motion with your hips moving diagonally away from the opponent's pressure, creating space between your body and their chest while maintaining the protective elbow frame.
+5. **Insert near-side knee**: As space opens from the hip escape, immediately insert your near-side knee into the gap, positioning it between your body and the opponent's torso as a primary guard frame.
+6. **Establish open guard**: Complete the guard recovery by inserting your second leg, establishing feet on opponent's hips or butterfly hooks, and transitioning your hands from defensive frames to controlling grips on sleeves or collar.
 
 
 </section>
@@ -251,19 +251,15 @@ This technique is particularly valuable because it maintains a defensive posture
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice elbow wedge positioning and chin tuck mechanics with cooperative partner. Focus on feeling the correct structural alignment where the elbow creates a genuine barrier. Drill hip escape motion from turtle position without time pressure. Develop muscle memory for the connected movement sequence.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner applies buggy choke at 30-50% pressure while you practice recognizing the timing window for escape. Focus on identifying when opponent's grip is still developing versus fully locked. Practice transitioning smoothly from elbow wedge through guard recovery without pauses.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Integrate the escape with other buggy choke defense options. If elbow escape fails, transition to back control acceptance. If successful, immediately attack from open guard. Practice chaining defensive and offensive sequences together. Increase partner resistance to 60-70%.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique against fully resisting partners who will counter and transition. Practice recognizing when this escape is appropriate versus when other options are better. Develop ability to make split-second decisions based on opponent's grip depth and pressure. Include in regular sparring rotations.
-(Resistance: Full)
 
 
 

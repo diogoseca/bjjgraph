@@ -163,7 +163,7 @@ The technique operates on the principle that the gogoplata is a self-contained s
 Strategically, this escape works best when the gogoplata is not fully locked. The window for this technique opens when the opponent is still working to secure their foot behind your head or when their grip on their own foot is loose. Practitioners must develop sensitivity to recognize when hand fighting is viable versus when emergency escapes are necessary. The technique demands precise timing and methodical execution rather than explosive movement, making it particularly effective for technically proficient defenders who remain calm under submission pressure.
 
 **From Position**: [[Gogoplata Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this escape works best when the gogoplata is not fully locked. Th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess and stabilize**: Immediately turn your chin slightly toward the attacking shin to create breathing space and reduce direct trachea compression. Establish base with your hips back and at least one hand posted on the mat to prevent being swept. (Timing: First 2-3 seconds upon recognizing gogoplata threat)
-2. **Identify hand position**: Locate the opponent's hands - specifically identify which hand is pulling their foot behind your head. This is your primary target. The opponent typically uses both hands on their own ankle or foot to maintain the closed loop configuration. (Timing: Simultaneous with stabilization)
-3. **Establish two-on-one grip**: Bring your nearest hand to control the opponent's wrist while your other hand secures their forearm or elbow. Create a two-on-one configuration that gives you mechanical advantage to strip their grip from their own foot. (Timing: 3-5 seconds into defense)
-4. **Strip the foot grip**: Using your two-on-one control, systematically peel the opponent's fingers from their own foot or ankle. Push their hand toward their hip while pulling your head slightly lateral. The goal is breaking the closed loop, not removing your head yet. (Timing: 5-8 seconds - do not rush this phase)
-5. **Control the freed hand**: Once you strip their grip, immediately pin their hand to their chest or hip using your chest pressure or hand control. Do not allow them to re-grip their foot. Their second hand becomes less effective without the primary grip. (Timing: Immediately after strip)
-6. **Create angle and extract**: With the foot no longer locked behind your head, shift your hips laterally and drive your head toward the side of the freed hand. The shin will slide off your throat as you create perpendicular angle. Continue extracting until you clear the leg entirely. (Timing: Final 3-5 seconds)
-7. **Consolidate position**: As your head clears, immediately establish closed guard or advance to half guard. Control the opponent's hips to prevent them from re-establishing rubber guard or attacking with triangle. Maintain posture to prevent being pulled back into danger. (Timing: Immediately upon extraction)
+1. **Assess and stabilize**: Immediately turn your chin slightly toward the attacking shin to create breathing space and reduce direct trachea compression. Establish base with your hips back and at least one hand posted on the mat to prevent being swept.
+2. **Identify hand position**: Locate the opponent's hands - specifically identify which hand is pulling their foot behind your head. This is your primary target. The opponent typically uses both hands on their own ankle or foot to maintain the closed loop configuration.
+3. **Establish two-on-one grip**: Bring your nearest hand to control the opponent's wrist while your other hand secures their forearm or elbow. Create a two-on-one configuration that gives you mechanical advantage to strip their grip from their own foot.
+4. **Strip the foot grip**: Using your two-on-one control, systematically peel the opponent's fingers from their own foot or ankle. Push their hand toward their hip while pulling your head slightly lateral. The goal is breaking the closed loop, not removing your head yet.
+5. **Control the freed hand**: Once you strip their grip, immediately pin their hand to their chest or hip using your chest pressure or hand control. Do not allow them to re-grip their foot. Their second hand becomes less effective without the primary grip.
+6. **Create angle and extract**: With the foot no longer locked behind your head, shift your hips laterally and drive your head toward the side of the freed hand. The shin will slide off your throat as you create perpendicular angle. Continue extracting until you clear the leg entirely.
+7. **Consolidate position**: As your head clears, immediately establish closed guard or advance to half guard. Control the opponent's hips to prevent them from re-establishing rubber guard or attacking with triangle. Maintain posture to prevent being pulled back into danger.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, this escape works best when the gogoplata is not fully locked. Th
 ## Training Progressions
 **Week 1-2** - Grip identification and hand positioning
 Partner establishes loose gogoplata control without fully locking. Practice identifying which hand is controlling their foot and establishing two-on-one grip control without extracting head. Focus on hand positioning mechanics only.
-(Resistance: None)
 
 **Week 3-4** - Grip stripping mechanics
 Partner provides light resistance on their foot grip. Work the complete sequence from two-on-one establishment through grip strip to hand pinning. Partner allows grip to be broken but tries to re-grip if not properly controlled.
-(Resistance: Light)
 
 **Week 5-6** - Full extraction with timing
 Partner establishes gogoplata at 60% tightness and actively defends their grip. Practice the complete sequence including head extraction and position consolidation. Work timing between grip strip and lateral extraction.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and decision making
 From rubber guard sparring, work recognizing when hand control escape is viable versus when emergency escapes are required. Practice making real-time decisions about which defensive approach to use based on submission tightness.
-(Resistance: Full)
 
 
 

@@ -153,7 +153,7 @@ description: "Master Spider Guard variations in BJJ. Learn sleeve control mechan
 Spider Guard variations represent a comprehensive system of distance management and sleeve control techniques that transform basic spider guard into a dynamic attacking platform. These variations exploit different grips, foot positions, and angles to create sweeping opportunities while maintaining optimal defensive distance. The fundamental principle underlying all spider guard variations is the use of your feet on the opponent's biceps or hips to control distance while your hands control their sleeves, creating a mechanical advantage that prevents them from establishing passing pressure. Understanding when to transition between variations based on your opponent's base, posture, and passing strategy is essential for developing a complete spider guard game that can adapt to different body types and grappling styles.
 
 **From Position**: [[Spider Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ Spider Guard variations represent a comprehensive system of distance management 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish sleeve control**: From open guard, secure deep four-finger grips on both of your opponent's sleeves at the wrists. Pull their hands toward your hips to straighten their arms and prevent them from getting heavy grips on your legs or collar. (Timing: As opponent opens your closed guard or as you open to transition)
-2. **Place feet on biceps**: Lift your hips off the mat and place the balls of both feet on your opponent's biceps, creating a pushing frame. Keep your knees slightly bent to maintain spring-loaded pressure that prevents them from driving forward into your guard. (Timing: Immediately after securing sleeve grips)
-3. **Create distance and posture**: Extend your legs to push your opponent's arms away while maintaining strong sleeve grips. This creates maximum distance and forces them into an extended posture where their base is compromised. Your arms should be pulling while your legs push, creating opposing forces. (Timing: Once both feet are established on biceps)
-4. **Transition to chosen variation**: Based on your opponent's reaction and base, transition to specific spider guard variations: remove one foot to collar sleeve guard for triangle setups, add lasso control for stronger immobilization, transition to single spider for mobility, or move to omoplata control when they lean forward. (Timing: When opponent commits to a passing direction or stance)
-5. **Execute sweep or submission**: Time your attack when opponent's weight shifts forward or their base narrows. Common attacks include: flower sweep when they stand, scissor sweep when they're low, triangle when they lean forward, omoplata when they posture hard, or bicep slicer from lasso control. (Timing: When opponent's weight distribution creates vulnerability)
-6. **Complete transition or recover**: Follow through to the dominant position (mount, side control, or back control) or immediately recover your guard structure if the technique is defended. Maintain sleeve control throughout transitions to prevent opponent from establishing top pressure. (Timing: Immediately after sweep initiation or when technique is countered)
+1. **Establish sleeve control**: From open guard, secure deep four-finger grips on both of your opponent's sleeves at the wrists. Pull their hands toward your hips to straighten their arms and prevent them from getting heavy grips on your legs or collar.
+2. **Place feet on biceps**: Lift your hips off the mat and place the balls of both feet on your opponent's biceps, creating a pushing frame. Keep your knees slightly bent to maintain spring-loaded pressure that prevents them from driving forward into your guard.
+3. **Create distance and posture**: Extend your legs to push your opponent's arms away while maintaining strong sleeve grips. This creates maximum distance and forces them into an extended posture where their base is compromised. Your arms should be pulling while your legs push, creating opposing forces.
+4. **Transition to chosen variation**: Based on your opponent's reaction and base, transition to specific spider guard variations: remove one foot to collar sleeve guard for triangle setups, add lasso control for stronger immobilization, transition to single spider for mobility, or move to omoplata control when they lean forward.
+5. **Execute sweep or submission**: Time your attack when opponent's weight shifts forward or their base narrows. Common attacks include: flower sweep when they stand, scissor sweep when they're low, triangle when they lean forward, omoplata when they posture hard, or bicep slicer from lasso control.
+6. **Complete transition or recover**: Follow through to the dominant position (mount, side control, or back control) or immediately recover your guard structure if the technique is defended. Maintain sleeve control throughout transitions to prevent opponent from establishing top pressure.
 
 
 </section>
@@ -254,27 +254,21 @@ Spider Guard variations represent a comprehensive system of distance management 
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip establishment and basic distance control
 Drill establishing spider guard from closed guard break and open guard scenarios. Focus on securing proper wrist grips and placing feet on biceps with good pressure. Partner remains passive while you practice extending and retracting legs while maintaining sleeve control. Emphasis on feeling the push-pull relationship between hands and feet.
-(Resistance: None)
 
 **Week 3-4: Basic Variations** - Transitioning between spider guard variations
 Practice flowing between double spider, collar sleeve, single spider, and lasso variations. Partner provides light movement and base adjustments while you maintain control and switch variations. Focus on smooth transitions without losing grip or distance control. Begin recognizing which variation works best against different postures.
-(Resistance: Light)
 
 **Week 5-8: Sweep Integration** - Adding sweeps from each variation
 Integrate fundamental sweeps (flower sweep, scissor sweep, elevator sweep) from different spider guard variations. Partner provides moderate resistance to passing but allows sweeps when properly set up. Emphasis on timing sweeps when opponent's weight shifts and following through to dominant positions.
-(Resistance: Medium)
 
 **Week 9-12: Submission Chains** - Adding triangles, omoplatas, and armbars from spider variations
 Layer submission attacks onto your spider guard system. Practice transitioning from sweep attempts to submissions when opponent defends. Partner provides realistic defensive reactions. Focus on maintaining control throughout transitions and recognizing when to switch between sweep and submission attacks based on opponent's defensive commitments.
-(Resistance: Medium)
 
 **Week 13+: Dynamic Retention** - Maintaining spider variations against active passing
 Partner actively attempts to pass your guard using various passing styles (toreando, knee slice, pressure passing, leg drags). You maintain spider guard variations, transitioning between them as needed for retention. Emphasis on recovering positions when grips are partially broken and chaining variations together for comprehensive guard retention.
-(Resistance: Full)
 
 **Ongoing: Competition Application** - Integrating spider variations into complete guard system
 Free rolling with emphasis on entering spider guard from different scenarios, maintaining it against diverse passing styles, and finishing with sweeps or submissions. Focus on strategic variation selection based on opponent's body type, grips, and passing preferences. Film rolls to analyze decision-making and variation effectiveness.
-(Resistance: Full)
 
 
 

@@ -165,7 +165,7 @@ description: "Master the Stack Pass in BJJ. High-pressure guard passing techniqu
 The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. This pass is particularly effective against opponents who rely on active guard retention, as the stacking pressure limits their hip mobility and ability to create defensive frames. The technique requires excellent base, timing, and the ability to maintain heavy top pressure while navigating past the legs. When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -214,14 +214,14 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: From standing or combat base in closed guard, secure bilateral grips on opponent's pants at the knees or lower shins. These grips will control their leg movement throughout the pass. (Timing: Initial setup before pressure application)
-2. **Break guard open**: Using your grips and posture, create space to open the closed guard. Stand up if necessary, or use a knee-cut motion to split the ankles apart. Maintain grip control throughout. (Timing: Coordinate with opponent's breathing or movement)
-3. **Drive knees to chest**: Step forward with both feet and drive the opponent's knees toward their chest using your grips. Your weight should transfer forward, creating vertical pressure down their center line toward their shoulders. (Timing: Explosive forward drive as guard opens)
-4. **Stack the hips**: Continue driving forward until the opponent's hips lift off the mat and their weight shifts onto their shoulders. Your chest should be directly over their knees, maximizing downward pressure and limiting their ability to shrimp or recover guard. (Timing: Sustained pressure until full stack achieved)
-5. **Control both legs together**: Consolidate control by pinching both legs together with your arms or chest. This prevents them from creating hooks or frames with individual legs. Keep your head low to avoid guillotine attempts. (Timing: Maintain throughout the passing sequence)
-6. **Choose passing direction**: Based on opponent's defensive reactions, decide which side to pass. If they turn to one side, pass to the opposite side. Thread your knee through the gap between their legs and your body. (Timing: React to their defensive movement)
-7. **Clear the legs**: Slide your knee through while maintaining pressure on their stacked hips. Use your free hand to push their bottom leg to the mat while keeping their top leg controlled with your other arm. (Timing: Smooth, controlled movement)
-8. **Secure side control**: Once your hips clear their legs, immediately establish side control by bringing your weight down onto their torso. Secure crossface and underhook controls to prevent their escape attempts. (Timing: Immediate transition to consolidate position)
+1. **Establish grips**: From standing or combat base in closed guard, secure bilateral grips on opponent's pants at the knees or lower shins. These grips will control their leg movement throughout the pass.
+2. **Break guard open**: Using your grips and posture, create space to open the closed guard. Stand up if necessary, or use a knee-cut motion to split the ankles apart. Maintain grip control throughout.
+3. **Drive knees to chest**: Step forward with both feet and drive the opponent's knees toward their chest using your grips. Your weight should transfer forward, creating vertical pressure down their center line toward their shoulders.
+4. **Stack the hips**: Continue driving forward until the opponent's hips lift off the mat and their weight shifts onto their shoulders. Your chest should be directly over their knees, maximizing downward pressure and limiting their ability to shrimp or recover guard.
+5. **Control both legs together**: Consolidate control by pinching both legs together with your arms or chest. This prevents them from creating hooks or frames with individual legs. Keep your head low to avoid guillotine attempts.
+6. **Choose passing direction**: Based on opponent's defensive reactions, decide which side to pass. If they turn to one side, pass to the opposite side. Thread your knee through the gap between their legs and your body.
+7. **Clear the legs**: Slide your knee through while maintaining pressure on their stacked hips. Use your free hand to push their bottom leg to the mat while keeping their top leg controlled with your other arm.
+8. **Secure side control**: Once your hips clear their legs, immediately establish side control by bringing your weight down onto their torso. Secure crossface and underhook controls to prevent their escape attempts.
 
 
 </section>
@@ -268,27 +268,21 @@ The Stack Pass is a fundamental pressure passing technique that uses vertical pr
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Grip fighting and stacking pressure
 Practice establishing grips on the pants and creating the initial stack without resistance. Focus on weight distribution and maintaining low posture. Partner remains passive.
-(Resistance: None)
 
 **Week 3-4: Directional Passing** - Reading reactions and choosing sides
 Partner provides light resistance and subtle directional cues. Practice recognizing which side to pass based on their defensive turns. Develop smooth knee-threading mechanics.
-(Resistance: Light)
 
 **Week 5-8: Pressure Management** - Maintaining stack under movement
 Partner attempts basic escapes like hip escapes and frames. Practice following their movement while maintaining stacking pressure. Introduce guillotine defense awareness.
-(Resistance: Medium)
 
 **Week 9-12: Counter Awareness** - Defending submissions and sweeps
 Partner adds guillotine attempts, triangle setups, and sweep attempts. Practice defensive positioning while maintaining forward pressure. Develop problem-solving during the pass.
-(Resistance: Medium)
 
 **Month 4+: Competition Application** - Full resistance and timing
 Execute the stack pass against fully resisting opponents attempting all defensive options. Focus on timing the pass with their breathing, grip breaks, or other movements.
-(Resistance: Full)
 
 **Ongoing Refinement** - Variation integration and chaining
 Combine stack pass with other passing options like knee slice, toreando, and leg drag. Use the stack pass as part of a comprehensive passing system.
-(Resistance: Full)
 
 
 

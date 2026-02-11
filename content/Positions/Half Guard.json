@@ -133,35 +133,39 @@
     "transitions": [
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 25
+        "attempt_probability": 23
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Underhook Pass",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Crossface Pass",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Kimura from Half Guard",
-        "attempt_probability": 8
-      },
-      {
-        "transition": "Darce Choke",
         "attempt_probability": 7
       },
       {
+        "transition": "Crossface Pass",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Kimura from Half Guard",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Darce Choke",
+        "attempt_probability": 6
+      },
+      {
         "transition": "Back Step Pass",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Crossface to Combat Base",
+        "attempt_probability": 11
       }
     ],
     "decision_tree": [
@@ -220,7 +224,7 @@
           },
           {
             "technique": "Darce Choke",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 40
           }
         ]
@@ -339,21 +343,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Percentage of time position is successfully maintained before advancing or being swept"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Likelihood of successfully completing pass to side control or mount"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Probability of finishing submission directly from half guard top position"
       },
       "average_time": "1-3 minutes depending on opponent's defensive sophistication and top player's passing acumen"
@@ -405,35 +403,39 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 20
+        "attempt_probability": 19
       },
       {
         "transition": "Old School Sweep",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Deep Half Entry",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Lockdown Sweeps",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Electric Chair Submission",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Half Guard to Back Take",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Kimura from Half Guard",
-        "attempt_probability": 10
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Underhook Sweep",
+        "attempt_probability": 11
       }
     ],
     "decision_tree": [
@@ -612,21 +614,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Percentage of time position is successfully maintained against passing attempts"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Likelihood of advancing position through sweeps or back takes from half guard bottom"
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Probability of finishing submission directly from half guard bottom position"
       },
       "average_time": "1-3 minutes depending on skill level and activity"

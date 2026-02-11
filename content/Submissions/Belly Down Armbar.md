@@ -157,7 +157,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 **Type**: Arm Lock
 **Target Area**: Elbow joint and shoulder girdle
 **Starting Position**: [[Turtle]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -230,12 +230,12 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Arm isolation from turtle position**: As opponent assumes turtle position, identify an extended arm (often the posting arm or the arm defending a choke attempt). Secure a firm two-on-one grip with both hands controlling the wrist and upper tricep area. Pull the arm away from opponent's body at approximately 45-90 degrees, breaking their defensive structure and preventing them from pulling the arm back to safety. (Timing: 0-2 seconds from initial contact) [Pressure: Moderate]
-2. **Drop weight across shoulder**: While maintaining wrist control with your outside hand, drop your chest and bodyweight across the opponent's shoulder blade and upper back area. This pins their shoulder to the mat and prevents them from rolling through the position or rotating their body to escape. Your inside arm should thread under their armpit or over their back to secure additional control and prevent their torso from turning. (Timing: 2-3 seconds, immediately after arm isolation) [Pressure: Firm]
-3. **Hip positioning and leg configuration**: Position your hips perpendicular to the opponent's extended arm, similar to a traditional armbar but without leg control over their head. Your near-side leg should be based out for stability, with your foot planted on the mat. Your far leg can either base out wide, sprawl back, or in some variations hook over the opponent's far hip to prevent them from rolling toward you. The key is maintaining downward pressure through your hips while keeping your base stable. (Timing: 3-4 seconds) [Pressure: Firm]
-4. **Elbow orientation and final grip adjustment**: Ensure the opponent's thumb is pointing upward and their elbow joint is facing toward the ceiling - this is critical for proper joint mechanics. Adjust your grip so both hands control the wrist area with thumbs pointing toward their hand (monkey grip or same-side grip). Your forearms should be positioned across their tricep/elbow area to act as the fulcrum point for the hyperextension. Keep your chest pressure constant on their shoulder throughout this adjustment. (Timing: 4-5 seconds) [Pressure: Moderate]
-5. **Hip drive and arm extension initiation**: With grips secured and elbow properly oriented, begin driving your hips down and forward toward the mat while simultaneously pulling the wrist toward your chest. This creates a lever action with your forearms as the fulcrum point and the opponent's elbow as the breaking point. The motion should be smooth and controlled - imagine slowly closing a book rather than snapping it shut. Maintain constant awareness of opponent's tap signals throughout. (Timing: 5-7 seconds, slow and progressive) [Pressure: Firm]
-6. **Finish and control maintenance**: Continue hip pressure and wrist pull until you feel the arm reach full extension or the opponent taps. At full extension, the arm should form a straight line from shoulder to wrist with your hips and forearms creating the breaking pressure on the elbow joint. If opponent attempts to roll toward you, increase shoulder pressure and tighten your body connection. If they roll away, be prepared to follow or release and transition to back control rather than risking injury from awkward torque. (Timing: 7+ seconds, maintaining control until tap or position change) [Pressure: Maximum]
+1. **Arm isolation from turtle position**: As opponent assumes turtle position, identify an extended arm (often the posting arm or the arm defending a choke attempt). Secure a firm two-on-one grip with both hands controlling the wrist and upper tricep area. Pull the arm away from opponent's body at approximately 45-90 degrees, breaking their defensive structure and preventing them from pulling the arm back to safety. (Timing: 0-2 seconds from initial contact)
+2. **Drop weight across shoulder**: While maintaining wrist control with your outside hand, drop your chest and bodyweight across the opponent's shoulder blade and upper back area. This pins their shoulder to the mat and prevents them from rolling through the position or rotating their body to escape. Your inside arm should thread under their armpit or over their back to secure additional control and prevent their torso from turning. (Timing: 2-3 seconds, immediately after arm isolation)
+3. **Hip positioning and leg configuration**: Position your hips perpendicular to the opponent's extended arm, similar to a traditional armbar but without leg control over their head. Your near-side leg should be based out for stability, with your foot planted on the mat. Your far leg can either base out wide, sprawl back, or in some variations hook over the opponent's far hip to prevent them from rolling toward you. The key is maintaining downward pressure through your hips while keeping your base stable. (Timing: 3-4 seconds)
+4. **Elbow orientation and final grip adjustment**: Ensure the opponent's thumb is pointing upward and their elbow joint is facing toward the ceiling - this is critical for proper joint mechanics. Adjust your grip so both hands control the wrist area with thumbs pointing toward their hand (monkey grip or same-side grip). Your forearms should be positioned across their tricep/elbow area to act as the fulcrum point for the hyperextension. Keep your chest pressure constant on their shoulder throughout this adjustment. (Timing: 4-5 seconds)
+5. **Hip drive and arm extension initiation**: With grips secured and elbow properly oriented, begin driving your hips down and forward toward the mat while simultaneously pulling the wrist toward your chest. This creates a lever action with your forearms as the fulcrum point and the opponent's elbow as the breaking point. The motion should be smooth and controlled - imagine slowly closing a book rather than snapping it shut. Maintain constant awareness of opponent's tap signals throughout. (Timing: 5-7 seconds, slow and progressive)
+6. **Finish and control maintenance**: Continue hip pressure and wrist pull until you feel the arm reach full extension or the opponent taps. At full extension, the arm should form a straight line from shoulder to wrist with your hips and forearms creating the breaking pressure on the elbow joint. If opponent attempts to roll toward you, increase shoulder pressure and tighten your body connection. If they roll away, be prepared to follow or release and transition to back control rather than risking injury from awkward torque. (Timing: 7+ seconds, maintaining control until tap or position change)
 
 
 </section>
@@ -254,25 +254,25 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting the submission without proper shoulder control [Low DANGER]
+- **Mistake**: Attempting the submission without proper shoulder control
   - **Consequence**: Opponent easily rolls through the position, escaping to safety or reversing position while you lose the isolated arm
   - **Correction**: Always establish heavy chest and shoulder pressure before committing to the arm extension. Your bodyweight should pin their shoulder blade to the mat, making rolling nearly impossible.
-- **Mistake**: Incorrect elbow orientation (thumb pointing down or to the side) [CRITICAL DANGER]
+- **Mistake**: Incorrect elbow orientation (thumb pointing down or to the side)
   - **Consequence**: Submission becomes ineffective and places dangerous torque on the shoulder joint instead of controlled pressure on the elbow. Can cause shoulder injury instead of clean tap from elbow pressure.
   - **Correction**: Before applying extension, verify the thumb points toward the ceiling and the elbow pit faces upward. Adjust the arm orientation before committing to the finish. The natural completion should feel like straightening the arm, not twisting it.
-- **Mistake**: Explosive or jerking application of the arm extension [CRITICAL DANGER]
+- **Mistake**: Explosive or jerking application of the arm extension
   - **Consequence**: High risk of serious elbow injury including complete ligament tears, dislocations, or bone damage. Opponent may not have time to tap before injury occurs.
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum in training. Think 'squeeze and extend' not 'snap and break.' Competition application can be faster but still must allow tap response time. This is a joint lock, not a strike.
-- **Mistake**: Losing connection with opponent's body during the finish [Low DANGER]
+- **Mistake**: Losing connection with opponent's body during the finish
   - **Consequence**: Creates space for opponent to escape, roll, or counter-attack. Reduces control and effectiveness of the submission significantly.
   - **Correction**: Keep your chest, hips, and legs in constant contact with opponent's back/shoulder throughout the entire sequence. Move with them if they shift position rather than allowing separation.
-- **Mistake**: Failing to secure proper wrist control before dropping weight [Low DANGER]
+- **Mistake**: Failing to secure proper wrist control before dropping weight
   - **Consequence**: Opponent pulls arm free before you can establish the submission, wasting position and energy while alerting them to the attack
   - **Correction**: Sequence matters: grip and isolate the arm first, then drop your weight, then adjust positioning. Never reverse this order or attempt multiple steps simultaneously.
-- **Mistake**: Using only upper body strength to extend the arm [Medium DANGER]
+- **Mistake**: Using only upper body strength to extend the arm
   - **Consequence**: Inefficient submission that requires excessive strength, tires you out, and allows stronger opponents to resist. Also increases injury risk from improper leverage.
   - **Correction**: Drive extension primarily through hip pressure and body positioning. Your arms hold the wrist while your hips and core do the work of creating the breaking pressure. Technique beats strength.
-- **Mistake**: Continuing pressure after feeling or hearing joint sounds (pops, cracks) [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after feeling or hearing joint sounds (pops, cracks)
   - **Consequence**: Potential for catastrophic joint injury, ligament damage requiring surgery, or permanent mobility impairment to training partner.
   - **Correction**: Any unusual joint sounds are an immediate signal to STOP and release pressure. Check with your partner before continuing. In competition, joint sounds may indicate imminent tap, but in training they demand immediate release.
 
@@ -335,43 +335,6 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Solo Drilling** (Weeks 1-2, 15-20 minutes per session)
-- Focus: Learn the mechanical sequence without a partner. Practice the motion of arm isolation, body positioning, hip placement, and extension movement using a grappling dummy or visualizing the sequence. Study video footage of correct technique and identify key control points.
-- Resistance: None
-- Safety: Understand the injury mechanism of elbow hyperextension and why controlled application is mandatory. Study tap signals and release protocols thoroughly before live practice.
-
-**Cooperative Positional Drilling** (Weeks 3-4, 20-30 minutes per session)
-- Focus: Partner starts in turtle position and extends arm on cue. Practice the full sequence from arm isolation through shoulder control to final position, stopping before applying pressure. Reset and repeat, focusing on smooth transitions and proper body positioning at each step.
-- Resistance: Zero resistance
-- Safety: Practice the release protocol after each repetition. Partner provides feedback on shoulder pressure, grip control, and body positioning. No actual joint pressure applied - only positioning practice.
-
-**Slow Application with Progressive Pressure** (Weeks 5-8, integrated into regular drilling)
-- Focus: Partner offers minimal resistance while you complete the full technique including light extension pressure. Apply pressure slowly over 5-7 seconds, stopping immediately at partner's tap. Partner practices tapping early to establish safety habits. Alternate roles frequently.
-- Resistance: Mild resistance
-- Safety: Minimum 5-second application time enforced strictly. Partner must tap early (50-60% pressure) while learning. Discuss afterward what the submission felt like and at what point tap was appropriate. Build trust and communication between partners.
-
-**Situational Rolling from Setup Positions** (Weeks 9-16, 5-10 minute rounds)
-- Focus: Start from turtle position with specific scenarios (defending back take, posting arm exposed, etc.). Apply realistic but controlled resistance. Attacking partner seeks the belly down armbar while defending partner uses legitimate defensive reactions (rolling, pulling arm back, posting). Reset when submission is secured or escape is successful.
-- Resistance: Realistic resistance
-- Safety: Maintain 3-5 second application time. Both partners develop sensitivity to submission danger - attacker learns to feel resistance and stop, defender learns to tap earlier rather than resisting joint locks to the breaking point. Verbal communication remains constant.
-
-**Integration into Open Rolling** (Weeks 17+, ongoing)
-- Focus: Attempt the technique during regular sparring sessions when opportunities arise naturally. Focus on recognition of setup opportunities rather than forcing the technique. Continue practicing progressive application and early tapping habits with all training partners.
-- Resistance: Full resistance
-- Safety: Apply the same safety standards learned in drilling to live rolling - never use explosive application in training. Build reputation as a safe training partner who applies submissions progressively. Respect taps instantly and check on partners afterward if application felt too fast.
-
-**Competition Preparation and Refinement** (Months 6+, for advanced practitioners only)
-- Focus: Practice competition-speed applications in controlled settings with trusted training partners. Develop ability to finish quickly when needed while maintaining technical precision. Study competition footage to understand how elite grapplers secure and finish this submission under time pressure.
-- Resistance: Full resistance
-- Safety: Distinguish clearly between training application (slow, progressive, safe) and competition application (faster but still controlled). Never practice competition-speed submissions on beginners or untrusted partners. Maintain technical precision even under pressure - speed without control is dangerous and ineffective.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -424,6 +387,7 @@ The Belly Down Armbar is an opportunistic joint lock typically applied when the 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

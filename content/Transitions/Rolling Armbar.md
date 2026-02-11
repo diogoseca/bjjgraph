@@ -157,7 +157,7 @@ The strategic value of this technique lies in its element of surprise and the di
 Success with this technique requires excellent timing, proper hip mobility, and the ability to maintain arm control throughout the rotational movement. The practitioner must commit fully to the roll while keeping the arm trapped tight against the body. Hesitation or partial commitment typically results in the opponent recovering position or escaping the arm trap entirely.
 
 **From Position**: [[Rubber Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Success with this technique requires excellent timing, proper hip mobility, and 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure arm trap**: From Mission Control or New York position, ensure the opponent's trapped arm is pinched tightly against your chest with your shin applying constant pressure across their back and shoulder. The arm must be fully isolated before initiating. (Timing: Continuous pressure before roll)
-2. **Release guard lock**: Uncross your ankles and release the closed guard configuration while maintaining the arm trap with your leg. Your bottom leg begins to post on the mat on the same side as the trapped arm to initiate hip rotation. (Timing: When opponent drives forward)
-3. **Hip escape and angle**: Perform a sharp hip escape toward the trapped arm side, creating approximately 45 degrees of angle. Your hips should move underneath the opponent's centerline while the trapped arm remains pinched tight against your torso. (Timing: Immediately after guard unlock)
-4. **Initiate rotation**: Push off your posted foot and begin rotating your body underneath the opponent. Your top leg swings over their head while maintaining arm isolation. The rotation should feel like rolling onto your shoulder on the trapped arm side. (Timing: Explosive movement using opponent's forward pressure)
-5. **Complete the roll**: Continue the rotation until you emerge on top with the opponent's arm between your legs. Your hips should clear their shoulder completely. The leg that was applying Rubber Guard pressure now crosses over their face to secure the armbar position. (Timing: Continuous motion without pause)
-6. **Secure armbar control**: Land in top armbar position with knees pinched tight, hips elevated against opponent's elbow, and their thumb pointing toward the ceiling. Squeeze your knees together and begin extending your hips for the finish while controlling their wrist with both hands. (Timing: Immediately upon completing rotation)
+1. **Secure arm trap**: From Mission Control or New York position, ensure the opponent's trapped arm is pinched tightly against your chest with your shin applying constant pressure across their back and shoulder. The arm must be fully isolated before initiating.
+2. **Release guard lock**: Uncross your ankles and release the closed guard configuration while maintaining the arm trap with your leg. Your bottom leg begins to post on the mat on the same side as the trapped arm to initiate hip rotation.
+3. **Hip escape and angle**: Perform a sharp hip escape toward the trapped arm side, creating approximately 45 degrees of angle. Your hips should move underneath the opponent's centerline while the trapped arm remains pinched tight against your torso.
+4. **Initiate rotation**: Push off your posted foot and begin rotating your body underneath the opponent. Your top leg swings over their head while maintaining arm isolation. The rotation should feel like rolling onto your shoulder on the trapped arm side.
+5. **Complete the roll**: Continue the rotation until you emerge on top with the opponent's arm between your legs. Your hips should clear their shoulder completely. The leg that was applying Rubber Guard pressure now crosses over their face to secure the armbar position.
+6. **Secure armbar control**: Land in top armbar position with knees pinched tight, hips elevated against opponent's elbow, and their thumb pointing toward the ceiling. Squeeze your knees together and begin extending your hips for the finish while controlling their wrist with both hands.
 
 
 </section>
@@ -255,19 +255,15 @@ Success with this technique requires excellent timing, proper hip mobility, and 
 ## Training Progressions
 **Week 1-2** - Rotation mechanics
 Practice rolling motion solo and with compliant partner. Focus on hip escape angle, rotation direction, and landing in proper armbar position. No resistance, emphasize technical precision of body mechanics.
-(Resistance: None)
 
 **Week 3-4** - Arm isolation maintenance
 Drill maintaining arm trap throughout rotation. Partner provides light resistance attempting to extract arm during roll. Focus on elbow pinch and using rotation to tighten rather than loosen control.
-(Resistance: Light)
 
 **Week 5-6** - Timing and entries
 Practice recognizing optimal timing windows. Partner provides varying levels of forward pressure and posture breaks. Learn to initiate roll when opponent's momentum creates opportunity.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring from Rubber Guard. Chain with other attacks when roll is defended. Develop ability to abort and recover when conditions change mid-attempt.
-(Resistance: Full)
 
 
 

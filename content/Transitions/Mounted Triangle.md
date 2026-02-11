@@ -153,7 +153,7 @@ description: "Master Mounted Triangle from Modified Mount. Step-by-step entry fr
 The Mounted Triangle represents one of the most dominant submission setups in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the strangling power of the triangle choke. This transition begins from Modified Mount where the asymmetric positioning naturally facilitates leg insertion around the opponent's head and arm. Unlike the triangle from closed guard, the Mounted Triangle benefits from gravitational pressure and superior control, making defensive responses significantly more difficult for the bottom practitioner. The technique emerges organically when opponents use frames against mount attacks—their arms naturally create the space and isolation needed for triangle entry. Strategic application involves recognizing when the opponent's defensive frames create a head-and-arm configuration that can be captured. The mounted position allows you to use your weight to maintain the triangle while adjusting the angle, something impossible from bottom triangle positions. Modern competitive grappling has seen increased use of this technique as practitioners have developed entries that flow seamlessly from armbar and americana attempts. When the opponent defends upper body submissions by bringing their elbows tight, they often expose the neck for triangle entry. The Mounted Triangle also serves as an excellent positional anchor—even if the submission fails, you typically maintain a controlling position rather than risking reversal.
 
 **From Position**: [[Modified Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Mounted Triangle represents one of the most dominant submission setups in Br
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate the arm**: From Modified Mount, control opponent's arm on the posted leg side by gripping their wrist with your same-side hand. Pull the arm across their centerline while maintaining heavy chest pressure to prevent them retracting the elbow. (Timing: When opponent reaches up to frame or defend choke attempts)
-2. **Create angle**: Shift your hips toward the trapped arm side, walking your knees and hips perpendicular to their body. Your hip should slide under their isolated shoulder while your chest maintains pressure on their face and neck area. (Timing: Immediately after securing arm control before opponent can reset defensive posture)
-3. **Insert the choking leg**: Swing your posted leg over opponent's head, keeping the knee bent and driving the back of your knee across the side of their neck. The blade of your calf should land directly on their carotid artery on the far side of their neck. (Timing: In one smooth motion while maintaining wrist control to prevent arm escape)
-4. **Secure figure-four lock**: Immediately lock your ankles in figure-four configuration by placing the ankle of your choking leg in the crook of your opposite knee. Squeeze your knees together to close any space around opponent's neck. (Timing: Within one second of leg insertion before opponent can posture or create space)
-5. **Control trapped arm**: Secure the trapped arm by hugging it to your chest or gripping the wrist and pulling it across your body. This arm must stay inside the triangle—if it escapes, the choke fails and you may lose position. (Timing: Continuous control maintained throughout the submission attempt)
-6. **Cut angle and finish**: Walk your hips to increase the perpendicular angle to opponent's body while pulling their head down with your hands behind their skull. Squeeze your thighs together and drive your hips upward into their neck for the strangle. (Timing: Once triangle is locked, maintain pressure until tap or adjust angle if resistance continues)
+1. **Isolate the arm**: From Modified Mount, control opponent's arm on the posted leg side by gripping their wrist with your same-side hand. Pull the arm across their centerline while maintaining heavy chest pressure to prevent them retracting the elbow.
+2. **Create angle**: Shift your hips toward the trapped arm side, walking your knees and hips perpendicular to their body. Your hip should slide under their isolated shoulder while your chest maintains pressure on their face and neck area.
+3. **Insert the choking leg**: Swing your posted leg over opponent's head, keeping the knee bent and driving the back of your knee across the side of their neck. The blade of your calf should land directly on their carotid artery on the far side of their neck.
+4. **Secure figure-four lock**: Immediately lock your ankles in figure-four configuration by placing the ankle of your choking leg in the crook of your opposite knee. Squeeze your knees together to close any space around opponent's neck.
+5. **Control trapped arm**: Secure the trapped arm by hugging it to your chest or gripping the wrist and pulling it across your body. This arm must stay inside the triangle—if it escapes, the choke fails and you may lose position.
+6. **Cut angle and finish**: Walk your hips to increase the perpendicular angle to opponent's body while pulling their head down with your hands behind their skull. Squeeze your thighs together and drive your hips upward into their neck for the strangle.
 
 
 </section>
@@ -253,19 +253,15 @@ The Mounted Triangle represents one of the most dominant submission setups in Br
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice arm isolation and leg swing mechanics from modified mount with fully compliant partner. Focus on smooth hip insertion, proper leg placement across neck, and figure-four lock. No resistance—build muscle memory for the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Positional control
 Add light resistance with partner defending arm isolation. Practice maintaining mount pressure during transition and controlling trapped arm against mild extraction attempts. Introduce basic angle cutting and head control for finishing.
-(Resistance: Light)
 
 **Week 5-6** - Counter responses
 Partner provides realistic defensive responses: posturing, arm extraction, bridging. Train recognizing when triangle is compromised and transitioning to alternative attacks. Chain to armbar, americana, and head-and-arm choke when triangle fails.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply in positional sparring starting from mount. Progress to full sparring where you hunt for mounted triangle opportunities. Focus on reading when opponent's defense creates the opening and executing under pressure.
-(Resistance: Full)
 
 
 

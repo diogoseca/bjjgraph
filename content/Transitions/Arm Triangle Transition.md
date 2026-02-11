@@ -163,7 +163,7 @@ Strategically, this transition punishes one of the most common Hindulotine defen
 The technique requires precise timing during the grip transition. Releasing the guillotine before the opponent's arm is fully trapped results in losing offensive position entirely. The sweep or reversal component is equally critical—the arm triangle finishes from side control, not from bottom position. Practitioners must combine upper body grip reconfiguration with lower body sweeping mechanics simultaneously, making this a high-level transition that rewards drilling and positional awareness.
 
 **From Position**: [[Hindulotine]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The technique requires precise timing during the grip transition. Releasing the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify the frame**: Recognize the trigger: opponent pushes a near-side frame against your chest or shoulder to create space and relieve Hindulotine pressure. Their forearm or hand is now positioned between your bodies, crossing their own centerline toward their neck. (Timing: Initiate immediately when you feel the frame establish)
-2. **Secure the trapped arm**: While maintaining your guillotine grip, use your non-choking arm to clamp down on the opponent's framing arm, pinning it against their neck. Your elbow drives their wrist toward their ear, creating the head-and-arm configuration where their own bicep compresses one side of the neck. (Timing: Must happen before releasing guillotine grip)
-3. **Reconfigure the grip**: Release the guillotine grip and immediately thread your choking arm under the opponent's neck, connecting with your other arm in a figure-four or gable grip. The blade of your forearm replaces the guillotine pressure on the far-side carotid while their trapped arm compresses the near-side carotid. (Timing: Smooth single motion—any hesitation allows arm extraction)
-4. **Establish butterfly hooks**: If not already in position, insert butterfly hooks by placing your feet inside the opponent's thighs. Your hooks need to be deep enough to generate elevation for the sweep. Maintain tight upper body control with the arm triangle grip to prevent the opponent from posturing up during hook insertion. (Timing: Immediately after securing the new grip)
-5. **Execute the sweep**: Load the opponent's weight onto your butterfly hooks by pulling them forward with the arm triangle grip. Elevate with your hooks while turning your body toward the choking-arm side, using the combined momentum to roll the opponent and achieve top position. Your arm triangle grip provides the upper body control that makes the sweep high-percentage. (Timing: Explosive hip extension coordinated with upper body pull)
-6. **Consolidate side control**: As you arrive in top position, immediately sprawl your legs back and drive your shoulder into the opponent's trapped arm and neck. Adjust your hip position perpendicular to their body and walk your hips toward their head to tighten the arm triangle. Establish a stable base before attempting the finish. (Timing: Transition smoothly without pausing in mount)
-7. **Finish the arm triangle**: From side control, squeeze your elbows together while driving your choking-side shoulder into the opponent's neck. Walk your feet toward their hips to increase pressure. The opponent's own trapped arm creates the near-side compression while your arm provides far-side pressure, cutting off both carotid arteries simultaneously. (Timing: Steady progressive pressure—do not crank explosively on the neck)
+1. **Identify the frame**: Recognize the trigger: opponent pushes a near-side frame against your chest or shoulder to create space and relieve Hindulotine pressure. Their forearm or hand is now positioned between your bodies, crossing their own centerline toward their neck.
+2. **Secure the trapped arm**: While maintaining your guillotine grip, use your non-choking arm to clamp down on the opponent's framing arm, pinning it against their neck. Your elbow drives their wrist toward their ear, creating the head-and-arm configuration where their own bicep compresses one side of the neck.
+3. **Reconfigure the grip**: Release the guillotine grip and immediately thread your choking arm under the opponent's neck, connecting with your other arm in a figure-four or gable grip. The blade of your forearm replaces the guillotine pressure on the far-side carotid while their trapped arm compresses the near-side carotid.
+4. **Establish butterfly hooks**: If not already in position, insert butterfly hooks by placing your feet inside the opponent's thighs. Your hooks need to be deep enough to generate elevation for the sweep. Maintain tight upper body control with the arm triangle grip to prevent the opponent from posturing up during hook insertion.
+5. **Execute the sweep**: Load the opponent's weight onto your butterfly hooks by pulling them forward with the arm triangle grip. Elevate with your hooks while turning your body toward the choking-arm side, using the combined momentum to roll the opponent and achieve top position. Your arm triangle grip provides the upper body control that makes the sweep high-percentage.
+6. **Consolidate side control**: As you arrive in top position, immediately sprawl your legs back and drive your shoulder into the opponent's trapped arm and neck. Adjust your hip position perpendicular to their body and walk your hips toward their head to tighten the arm triangle. Establish a stable base before attempting the finish.
+7. **Finish the arm triangle**: From side control, squeeze your elbows together while driving your choking-side shoulder into the opponent's neck. Walk your feet toward their hips to increase pressure. The opponent's own trapped arm creates the near-side compression while your arm provides far-side pressure, cutting off both carotid arteries simultaneously.
 
 
 </section>
@@ -262,19 +262,15 @@ The technique requires precise timing during the grip transition. Releasing the 
 ## Training Progressions
 **Week 1-2** - Grip reconfiguration mechanics
 Drill the transition from guillotine grip to arm triangle grip in isolation. Partner holds a static frame while you practice the arm trap and grip switch sequence. Focus on maintaining head control throughout the change and ensuring the arm is fully trapped before releasing the guillotine. No resistance—purely mechanical repetition of the grip change.
-(Resistance: None)
 
 **Week 3-4** - Sweep integration
 Combine the grip change with the butterfly sweep. Partner provides light resistance to the sweep while you coordinate upper body grip reconfiguration with lower body hook elevation. Practice the timing of loading the hooks while securing the arm triangle grip. Work both the butterfly sweep and hip escape pathways.
-(Resistance: Light)
 
 **Week 5-6** - Reaction-based transitions
 Partner varies their defensive response from Hindulotine: sometimes retracting the frame (you return to guillotine), sometimes driving forward (you sweep), sometimes circling away (you take the back). Practice reading the reaction and choosing the correct technique. Medium resistance forces accurate reading of defensive cues.
-(Resistance: Medium)
 
 **Week 7+** - Live application and finishing
 Integrate the full sequence into positional sparring starting from bottom Hindulotine. Work the complete chain: identify frame, trap arm, reconfigure grip, sweep, consolidate, finish. Partner provides full resistance. Track success rate and identify which step breaks down most frequently for targeted drilling.
-(Resistance: Full)
 
 
 
@@ -357,7 +353,7 @@ The Arm Triangle Transition occupies a critical role in the Hindulotine attack s
 - [[Guillotine Choke]] - Alternative finish if opponent removes the frame
 - [[Back Take from Bottom]] - Alternative transition when opponent turns away from both threats
 - [[Butterfly Sweep]] - Sweep mechanic used to achieve top position during the transition
-- [[D'arce Control]] - Alternative head-and-arm configuration from same defensive reaction
+- [[Darce Control]] - Alternative head-and-arm configuration from same defensive reaction
 - [[Closed Guard]] - Fallback position if the transition fails and grip is lost
 - [[Arm Triangle from Top]] - Related arm triangle attack from a different starting position
 

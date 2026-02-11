@@ -163,7 +163,7 @@ This technique transforms a failed or stalled submission attempt into a dominant
 The back take from bottom Hindulotine is particularly effective because the opponent often commits fully to the turn, believing they are escaping danger. This commitment makes the back exposure more complete and the subsequent control establishment more secure. The position integrates seamlessly into front headlock and guillotine attack systems, providing a reliable secondary option when the primary choke stalls.
 
 **From Position**: [[Hindulotine/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the turn**: Feel opponent begin rotating their shoulders and hips away from your guillotine pressure, indicating commitment to turn escape rather than posture or drive defense (Timing: At first sign of rotation)
-2. **Release guillotine grip**: Open your hands and release the guillotine configuration, but maintain your choking arm across their neck and chest without creating space between your bodies (Timing: As opponent commits to turn)
-3. **Establish seatbelt**: Thread your former choking arm across opponent's chest as the overhook arm while your other arm slides under their far armpit, clasping hands together in seatbelt configuration (Timing: During rotation)
-4. **Open guard and follow**: Uncross your ankles and open your guard, using your legs to follow opponent's rotation while maintaining hip connection and preventing any separation distance (Timing: Simultaneously with seatbelt)
-5. **Insert first hook**: As opponent completes their turn exposing their back, insert your bottom-side leg hook inside their thigh, keeping your foot active with toes pointing outward for control (Timing: As back becomes exposed)
-6. **Secure back control**: Insert your second hook on the opposite side while pulling opponent into your chest, establishing full back control with both hooks in and seatbelt maintained (Timing: Immediately after first hook)
-7. **Consolidate position**: Adjust your hook depth to ensure feet are crossed inside opponent's thighs near groin, tighten seatbelt grip, and establish chest-to-back pressure for complete control (Timing: Within 2-3 seconds of hooks in)
+1. **Recognize the turn**: Feel opponent begin rotating their shoulders and hips away from your guillotine pressure, indicating commitment to turn escape rather than posture or drive defense
+2. **Release guillotine grip**: Open your hands and release the guillotine configuration, but maintain your choking arm across their neck and chest without creating space between your bodies
+3. **Establish seatbelt**: Thread your former choking arm across opponent's chest as the overhook arm while your other arm slides under their far armpit, clasping hands together in seatbelt configuration
+4. **Open guard and follow**: Uncross your ankles and open your guard, using your legs to follow opponent's rotation while maintaining hip connection and preventing any separation distance
+5. **Insert first hook**: As opponent completes their turn exposing their back, insert your bottom-side leg hook inside their thigh, keeping your foot active with toes pointing outward for control
+6. **Secure back control**: Insert your second hook on the opposite side while pulling opponent into your chest, establishing full back control with both hooks in and seatbelt maintained
+7. **Consolidate position**: Adjust your hook depth to ensure feet are crossed inside opponent's thighs near groin, tighten seatbelt grip, and establish chest-to-back pressure for complete control
 
 
 </section>
@@ -260,19 +260,15 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the grip transition from guillotine to seatbelt with a cooperative partner. Focus on smooth hand release and immediate seatbelt establishment without creating any space. Partner turns slowly on cue, allowing you to feel the proper timing and mechanics.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light resistance and turns at varying speeds. Work on recognizing the turn initiation and timing your grip release to match their movement. Begin adding hook insertion to the sequence, focusing on coordinating upper and lower body actions.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the back take with other Hindulotine options. Practice flowing between guillotine attack, darce transition, and back take based on partner's defensive reactions. Add submission entries from the back control position once established.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate the technique into positional sparring starting from Hindulotine position. Work against fully resisting partners who may or may not turn. Develop ability to recognize and capitalize on the back take opportunity in live rolling.
-(Resistance: Full)
 
 
 

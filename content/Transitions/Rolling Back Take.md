@@ -159,7 +159,7 @@ description: "Learn Rolling Back Take in BJJ. Step-by-step execution from Turtle
 The Rolling Back Take is a dynamic and highly effective transition from top turtle position to back control. This technique exploits the opponent's defensive posture by using momentum and timing to roll over their shoulder, landing directly on their back with control. Unlike static back takes that rely on breaking down the turtle position incrementally, the rolling back take uses explosive movement to bypass defensive frames entirely. This technique is particularly valuable when the opponent maintains a strong defensive turtle with their elbows tight to their knees, making traditional hook insertions difficult. The rolling back take requires precise timing, spatial awareness, and the ability to maintain connection throughout the roll. When executed correctly, it provides immediate access to high-value control positions and submission opportunities, making it a favorite among competitors at all levels.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -208,13 +208,13 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish upper body control**: From top turtle, secure a strong grip on the opponent's far shoulder with your near arm reaching under their armpit, while your other hand controls their near shoulder or wraps around their head. Your chest should be heavy on their upper back, preventing them from standing up. (Timing: Maintain this control until opponent settles into a static defensive position)
-2. **Load your weight onto opponent**: Shift your bodyweight forward and slightly to the side you intend to roll, loading your chest onto the opponent's upper back and shoulder. Your head should be positioned tight to their shoulder blade with your chin tucked. This loading creates the foundation for the rolling momentum. (Timing: Execute when opponent pushes back or remains static)
-3. **Initiate the roll**: Drive forward over the opponent's shoulder while pulling their far shoulder toward you. Simultaneously tuck your chin and begin the forward roll, using your head and shoulder to guide the rotation. Your hips should follow in a smooth arc over the opponent's shoulder line. (Timing: Commit fully to the roll in one explosive motion)
-4. **Maintain connection during rotation**: As you rotate through the roll, keep your arms locked around the opponent's upper body. Your near-side arm stays wrapped around their head or shoulder while your far-side grip maintains connection to their far shoulder. Your body should remain tight to theirs throughout the entire rotation to prevent separation. (Timing: Continuous grip pressure throughout the 180-degree rotation)
-5. **Control the landing**: As you complete the rotation and approach the mat, extend your far leg to serve as a base and control your landing speed. Your opponent should rotate with you, ending up with their back toward the mat and you on top of them. Keep your grips tight to prevent them from turning back toward you. (Timing: Land smoothly within 1-2 seconds of initiating the roll)
-6. **Insert first hook**: Immediately upon landing, thread your near-side leg inside the opponent's near hip, establishing your first hook. Your heel should be inside their thigh with your knee bent. Simultaneously, use your chest pressure to flatten them and prevent them from turning back into turtle. (Timing: Hook insertion occurs during or immediately after landing)
-7. **Establish back control**: With the first hook secured, insert your second hook on the opposite side while transitioning your grips to a seat belt control (one arm over shoulder, one under armpit). Drive your hooks deep, get your hips underneath the opponent, and establish full back control position with both hooks in and seat belt locked. (Timing: Complete back control within 2-3 seconds of landing)
+1. **Establish upper body control**: From top turtle, secure a strong grip on the opponent's far shoulder with your near arm reaching under their armpit, while your other hand controls their near shoulder or wraps around their head. Your chest should be heavy on their upper back, preventing them from standing up.
+2. **Load your weight onto opponent**: Shift your bodyweight forward and slightly to the side you intend to roll, loading your chest onto the opponent's upper back and shoulder. Your head should be positioned tight to their shoulder blade with your chin tucked. This loading creates the foundation for the rolling momentum.
+3. **Initiate the roll**: Drive forward over the opponent's shoulder while pulling their far shoulder toward you. Simultaneously tuck your chin and begin the forward roll, using your head and shoulder to guide the rotation. Your hips should follow in a smooth arc over the opponent's shoulder line.
+4. **Maintain connection during rotation**: As you rotate through the roll, keep your arms locked around the opponent's upper body. Your near-side arm stays wrapped around their head or shoulder while your far-side grip maintains connection to their far shoulder. Your body should remain tight to theirs throughout the entire rotation to prevent separation.
+5. **Control the landing**: As you complete the rotation and approach the mat, extend your far leg to serve as a base and control your landing speed. Your opponent should rotate with you, ending up with their back toward the mat and you on top of them. Keep your grips tight to prevent them from turning back toward you.
+6. **Insert first hook**: Immediately upon landing, thread your near-side leg inside the opponent's near hip, establishing your first hook. Your heel should be inside their thigh with your knee bent. Simultaneously, use your chest pressure to flatten them and prevent them from turning back into turtle.
+7. **Establish back control**: With the first hook secured, insert your second hook on the opposite side while transitioning your grips to a seat belt control (one arm over shoulder, one under armpit). Drive your hooks deep, get your hips underneath the opponent, and establish full back control position with both hooks in and seat belt locked.
 
 
 </section>
@@ -260,23 +260,18 @@ The Rolling Back Take is a dynamic and highly effective transition from top turt
 ## Training Progressions
 **Week 1-2: Mechanics Introduction** - Basic rolling motion and body mechanics
 Practice the forward roll motion solo to develop comfort with the rotation. Progress to practicing with a completely passive partner in turtle position, focusing solely on maintaining connection and completing the rotation smoothly. No resistance at this stage.
-(Resistance: None)
 
 **Week 3-4: Grip Control and Timing** - Proper grip sequences and entry timing
 Partner provides light resistance by maintaining turtle structure but not actively defending. Focus on establishing correct grips, loading weight effectively, and timing the roll initiation. Practice recognizing when opponent's weight distribution is optimal for the technique.
-(Resistance: Light)
 
 **Week 5-8: Hook Insertion and Position Consolidation** - Transitioning from roll to back control
 Partner provides moderate resistance during hook insertion phase. Practice landing and immediately establishing first hook, then securing seat belt and second hook. Work on preventing opponent from turning back into turtle after the roll.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense and Adaptations** - Responding to common counters and variations
 Partner actively defends with common counters (posting arm, turning in, sprawling). Practice recognizing and responding to each counter with appropriate adjustments. Begin chaining to alternative techniques when the roll is denied.
-(Resistance: Medium)
 
 **Week 13+: Competition Application** - Live implementation and timing refinement
 Incorporate the rolling back take into live rolling from top turtle position. Partner provides full resistance. Focus on recognizing the correct moment to execute and successfully completing against actively defending opponents. Track success rate and refine timing based on results.
-(Resistance: Full)
 
 
 

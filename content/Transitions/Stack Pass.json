@@ -8,11 +8,6 @@
     "stack",
     "technique"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Stack Pass is a fundamental pressure passing technique that uses vertical pressure and weight distribution to break through the guard. By driving the opponent's knees toward their chest and stacking their hips over their shoulders, you create a mechanical disadvantage that makes guard retention extremely difficult. This pass is particularly effective against opponents who rely on active guard retention, as the stacking pressure limits their hip mobility and ability to create defensive frames. The technique requires excellent base, timing, and the ability to maintain heavy top pressure while navigating past the legs. When executed properly, the Stack Pass transitions seamlessly into dominant side control or mount positions.",
   "key_principles": [
     "Drive opponent's knees toward their chest to limit hip mobility",
@@ -35,50 +30,42 @@
     {
       "step_number": 1,
       "action": "Establish grips",
-      "description": "From standing or combat base in closed guard, secure bilateral grips on opponent's pants at the knees or lower shins. These grips will control their leg movement throughout the pass.",
-      "timing": "Initial setup before pressure application"
+      "description": "From standing or combat base in closed guard, secure bilateral grips on opponent's pants at the knees or lower shins. These grips will control their leg movement throughout the pass."
     },
     {
       "step_number": 2,
       "action": "Break guard open",
-      "description": "Using your grips and posture, create space to open the closed guard. Stand up if necessary, or use a knee-cut motion to split the ankles apart. Maintain grip control throughout.",
-      "timing": "Coordinate with opponent's breathing or movement"
+      "description": "Using your grips and posture, create space to open the closed guard. Stand up if necessary, or use a knee-cut motion to split the ankles apart. Maintain grip control throughout."
     },
     {
       "step_number": 3,
       "action": "Drive knees to chest",
-      "description": "Step forward with both feet and drive the opponent's knees toward their chest using your grips. Your weight should transfer forward, creating vertical pressure down their center line toward their shoulders.",
-      "timing": "Explosive forward drive as guard opens"
+      "description": "Step forward with both feet and drive the opponent's knees toward their chest using your grips. Your weight should transfer forward, creating vertical pressure down their center line toward their shoulders."
     },
     {
       "step_number": 4,
       "action": "Stack the hips",
-      "description": "Continue driving forward until the opponent's hips lift off the mat and their weight shifts onto their shoulders. Your chest should be directly over their knees, maximizing downward pressure and limiting their ability to shrimp or recover guard.",
-      "timing": "Sustained pressure until full stack achieved"
+      "description": "Continue driving forward until the opponent's hips lift off the mat and their weight shifts onto their shoulders. Your chest should be directly over their knees, maximizing downward pressure and limiting their ability to shrimp or recover guard."
     },
     {
       "step_number": 5,
       "action": "Control both legs together",
-      "description": "Consolidate control by pinching both legs together with your arms or chest. This prevents them from creating hooks or frames with individual legs. Keep your head low to avoid guillotine attempts.",
-      "timing": "Maintain throughout the passing sequence"
+      "description": "Consolidate control by pinching both legs together with your arms or chest. This prevents them from creating hooks or frames with individual legs. Keep your head low to avoid guillotine attempts."
     },
     {
       "step_number": 6,
       "action": "Choose passing direction",
-      "description": "Based on opponent's defensive reactions, decide which side to pass. If they turn to one side, pass to the opposite side. Thread your knee through the gap between their legs and your body.",
-      "timing": "React to their defensive movement"
+      "description": "Based on opponent's defensive reactions, decide which side to pass. If they turn to one side, pass to the opposite side. Thread your knee through the gap between their legs and your body."
     },
     {
       "step_number": 7,
       "action": "Clear the legs",
-      "description": "Slide your knee through while maintaining pressure on their stacked hips. Use your free hand to push their bottom leg to the mat while keeping their top leg controlled with your other arm.",
-      "timing": "Smooth, controlled movement"
+      "description": "Slide your knee through while maintaining pressure on their stacked hips. Use your free hand to push their bottom leg to the mat while keeping their top leg controlled with your other arm."
     },
     {
       "step_number": 8,
       "action": "Secure side control",
-      "description": "Once your hips clear their legs, immediately establish side control by bringing your weight down onto their torso. Secure crossface and underhook controls to prevent their escape attempts.",
-      "timing": "Immediate transition to consolidate position"
+      "description": "Once your hips clear their legs, immediately establish side control by bringing your weight down onto their torso. Secure crossface and underhook controls to prevent their escape attempts."
     }
   ],
   "common_counters": [
@@ -144,38 +131,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Grip fighting and stacking pressure",
-      "description": "Practice establishing grips on the pants and creating the initial stack without resistance. Focus on weight distribution and maintaining low posture. Partner remains passive.",
-      "resistance_level": "None"
+      "description": "Practice establishing grips on the pants and creating the initial stack without resistance. Focus on weight distribution and maintaining low posture. Partner remains passive."
     },
     {
       "phase": "Week 3-4: Directional Passing",
       "focus": "Reading reactions and choosing sides",
-      "description": "Partner provides light resistance and subtle directional cues. Practice recognizing which side to pass based on their defensive turns. Develop smooth knee-threading mechanics.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance and subtle directional cues. Practice recognizing which side to pass based on their defensive turns. Develop smooth knee-threading mechanics."
     },
     {
       "phase": "Week 5-8: Pressure Management",
       "focus": "Maintaining stack under movement",
-      "description": "Partner attempts basic escapes like hip escapes and frames. Practice following their movement while maintaining stacking pressure. Introduce guillotine defense awareness.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts basic escapes like hip escapes and frames. Practice following their movement while maintaining stacking pressure. Introduce guillotine defense awareness."
     },
     {
       "phase": "Week 9-12: Counter Awareness",
       "focus": "Defending submissions and sweeps",
-      "description": "Partner adds guillotine attempts, triangle setups, and sweep attempts. Practice defensive positioning while maintaining forward pressure. Develop problem-solving during the pass.",
-      "resistance_level": "Medium"
+      "description": "Partner adds guillotine attempts, triangle setups, and sweep attempts. Practice defensive positioning while maintaining forward pressure. Develop problem-solving during the pass."
     },
     {
       "phase": "Month 4+: Competition Application",
       "focus": "Full resistance and timing",
-      "description": "Execute the stack pass against fully resisting opponents attempting all defensive options. Focus on timing the pass with their breathing, grip breaks, or other movements.",
-      "resistance_level": "Full"
+      "description": "Execute the stack pass against fully resisting opponents attempting all defensive options. Focus on timing the pass with their breathing, grip breaks, or other movements."
     },
     {
       "phase": "Ongoing Refinement",
       "focus": "Variation integration and chaining",
-      "description": "Combine stack pass with other passing options like knee slice, toreando, and leg drag. Use the stack pass as part of a comprehensive passing system.",
-      "resistance_level": "Full"
+      "description": "Combine stack pass with other passing options like knee slice, toreando, and leg drag. Use the stack pass as part of a comprehensive passing system."
     }
   ],
   "variants_and_adaptations": [
@@ -203,33 +184,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical advantage created by the stack pass?",
-      "answer": "The stack pass creates a mechanical advantage by driving the opponent's knees toward their chest, which lifts their hips off the mat and places their weight onto their shoulders. This severely limits their hip mobility and ability to create defensive frames, making guard retention extremely difficult. The vertical pressure also restricts their breathing and ability to generate power in their legs.",
-      "difficulty": "Beginner"
+      "answer": "The stack pass creates a mechanical advantage by driving the opponent's knees toward their chest, which lifts their hips off the mat and places their weight onto their shoulders. This severely limits their hip mobility and ability to create defensive frames, making guard retention extremely difficult. The vertical pressure also restricts their breathing and ability to generate power in their legs."
     },
     {
       "question": "How should you adjust your passing direction based on the opponent's defensive reactions?",
-      "answer": "You should pass opposite to the direction the opponent turns their knees. If they turn their knees to their right (your left), you should pass to your right (their left). This uses their defensive momentum against them and makes the pass easier. Fighting against their turn makes the pass unnecessarily difficult.",
-      "difficulty": "Intermediate"
+      "answer": "You should pass opposite to the direction the opponent turns their knees. If they turn their knees to their right (your left), you should pass to your right (their left). This uses their defensive momentum against them and makes the pass easier. Fighting against their turn makes the pass unnecessarily difficult."
     },
     {
       "question": "What are the key defensive considerations when executing the stack pass?",
-      "answer": "The primary defensive concern is the guillotine choke, which can be set up as you drive forward. Keep your head to one side, chin tucked, and positioned below their chest line. Never drive straight forward with your head up in their centerline. Secondary concerns include triangle attempts (keep arms inside or one posted), and maintaining wide base to prevent sweeps.",
-      "difficulty": "Intermediate"
+      "answer": "The primary defensive concern is the guillotine choke, which can be set up as you drive forward. Keep your head to one side, chin tucked, and positioned below their chest line. Never drive straight forward with your head up in their centerline. Secondary concerns include triangle attempts (keep arms inside or one posted), and maintaining wide base to prevent sweeps."
     },
     {
       "question": "Why is maintaining control of the legs critical until the very end of the pass?",
-      "answer": "Releasing leg control prematurely allows the opponent to immediately recover guard by reestablishing hooks, creating frames, or using their legs to create distance. You must maintain control of at least one leg until your hips fully clear theirs and you can establish side control grips. Early release is one of the most common reasons this pass fails at all levels.",
-      "difficulty": "Beginner"
+      "answer": "Releasing leg control prematurely allows the opponent to immediately recover guard by reestablishing hooks, creating frames, or using their legs to create distance. You must maintain control of at least one leg until your hips fully clear theirs and you can establish side control grips. Early release is one of the most common reasons this pass fails at all levels."
     },
     {
       "question": "How does the stack pass integrate into a comprehensive passing system?",
-      "answer": "The stack pass works synergistically with other guard passes by creating different defensive reactions. When opponents defend the stack by keeping their knees wide and low, it opens up knee slice and leg drag opportunities. When they defend by turning to one side, it facilitates directional passes like toreando. The stacking pressure can also be used to set up double under passes or transitions to mount. Advanced passers use the stack pass as both a primary technique and a pressure tool to expose other passing lanes.",
-      "difficulty": "Advanced"
+      "answer": "The stack pass works synergistically with other guard passes by creating different defensive reactions. When opponents defend the stack by keeping their knees wide and low, it opens up knee slice and leg drag opportunities. When they defend by turning to one side, it facilitates directional passes like toreando. The stacking pressure can also be used to set up double under passes or transitions to mount. Advanced passers use the stack pass as both a primary technique and a pressure tool to expose other passing lanes."
     },
     {
       "question": "What role does weight distribution play in the effectiveness of the stack pass?",
-      "answer": "Proper weight distribution is critical for maintaining pressure while staying mobile. Your weight should drive down through the opponent's center line toward their shoulders, not just push horizontally. A wide base with knees bent provides stability against sweeps while allowing you to transfer weight effectively. The chest should be low and over their knees, creating vertical pressure that's difficult to escape. Poor weight distribution results in either insufficient pressure (too upright) or loss of balance (too narrow).",
-      "difficulty": "Advanced"
+      "answer": "Proper weight distribution is critical for maintaining pressure while staying mobile. Your weight should drive down through the opponent's center line toward their shoulders, not just push horizontally. A wide base with knees bent provides stability against sweeps while allowing you to transfer weight effectively. The chest should be low and over their knees, creating vertical pressure that's difficult to escape. Poor weight distribution results in either insufficient pressure (too upright) or loss of balance (too narrow)."
     }
   ],
   "safety_considerations": "The stack pass places significant pressure on the opponent's neck, spine, and lower back. Always apply pressure gradually and be aware of your partner's flexibility limitations. Beginners should avoid excessive stacking that drives the opponent's knees too far toward their face, as this can cause neck compression injuries. When practicing, communicate with your partner about pressure levels and stop immediately if they tap or show discomfort. Be especially cautious with partners who have neck, back, or shoulder injuries. When defending guillotines, don't jerk your head out violently as this can injure your own neck. The passer should also be aware that poor posture can lead to neck strain from guillotine pressure.",
@@ -301,5 +276,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 62
 }

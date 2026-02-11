@@ -153,7 +153,7 @@ description: "Master Chair Sit to Back Take in BJJ. Control opponent from turtle
 The Chair Sit to Back Take is a fundamental transition from attacking turtle position to establishing dominant back control. This technique exploits the opponent's defensive turtle posture by controlling their hips and preventing forward movement while systematically climbing onto their back. The chair sit position provides exceptional control by using your leg as a barrier, preventing the opponent from turning into you while you establish the crucial seatbelt grip configuration. The technique represents a high-percentage pathway to back control because it neutralizes the opponent's ability to counter-rotate or escape forward, creating a controlled environment for methodical position advancement. Success requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -253,27 +253,21 @@ The Chair Sit to Back Take is a fundamental transition from attacking turtle pos
 ## Training Progressions
 **Phase 1: Static positioning (Week 1-2)** - Chair sit mechanics and blocking leg placement
 Practice establishing chair sit position with partner in static turtle. Focus on correct leg positioning, hip control, and maintaining balance. Partner remains stationary while you drill entry and exit.
-(Resistance: None)
 
 **Phase 2: Grip establishment (Week 3-4)** - Seatbelt grip sequencing from chair sit
 Add seatbelt grip establishment to chair sit position. Partner provides light resistance to grip attempts. Drill smooth transition from hip control to seatbelt configuration without losing position.
-(Resistance: Light)
 
 **Phase 3: Breaking structure (Week 5-6)** - Breaking turtle and transitioning to side position
 Practice using seatbelt grip to break opponent's turtle structure and pull them to their side. Partner maintains moderate turtle defense. Focus on weight distribution and grip mechanics.
-(Resistance: Medium)
 
 **Phase 4: Complete transition (Week 7-8)** - Chair sit to full back mount with hooks
 Drill entire sequence from establishing chair sit through to securing back control with both hooks. Partner uses moderate resistance and attempts common counters. Emphasize smooth, controlled progression.
-(Resistance: Medium)
 
 **Phase 5: Dynamic application (Week 9-10)** - Live training with turtle attacks
 Apply chair sit to back take during positional sparring from turtle. Partner uses full defensive repertoire. Practice troubleshooting common problems and adapting to opponent reactions.
-(Resistance: Full)
 
 **Phase 6: Integration and chaining (Week 11+)** - Combining with other turtle attacks
 Integrate chair sit with other turtle attack options, creating decision trees based on opponent reactions. Practice flowing between different back take methods depending on defensive responses.
-(Resistance: Full)
 
 
 

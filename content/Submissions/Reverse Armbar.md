@@ -157,7 +157,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 **Type**: Arm Lock
 **Target Area**: Elbow joint (hyperextension with reverse rotation)
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -233,12 +233,12 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Standard Armbar Control**: From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. Ensure their arm is fully extended with thumb pointing upward. Your legs should control their head and far shoulder, with your near leg across their chest or face. This standard position serves as the foundation for the reversal. (Timing: 2-3 seconds to secure) [Pressure: Moderate]
-2. **Pin Arm to Your Chest**: Pull opponent's arm tightly across your chest, pinning their tricep against your sternum with both hands maintaining wrist control. This pin is critical—any space between their arm and your body will allow escape during rotation. Your elbows should be tight to your sides, creating an unbreakable connection. Keep their elbow slightly bent to prevent them from pulling out. (Timing: 1-2 seconds) [Pressure: Firm]
-3. **Initiate Hip Rotation**: Begin rotating your entire body 180 degrees toward opponent's feet while maintaining the arm pin to your chest. This rotation must be smooth and controlled—jerky movement will lose arm control. Your head should track toward their feet as your hips rotate over their arm. Keep your knees tight together during this phase to prevent their arm from slipping between your legs. The rotation happens around the axis of their trapped arm. (Timing: 2-3 seconds controlled rotation) [Pressure: Moderate]
-4. **Reestablish Leg Control in Reverse**: As you complete the 180-degree rotation, reposition your legs so your near leg crosses their head/neck area and your far leg pins their near shoulder. Your body is now inverted—your hips face their feet while controlling their arm. Squeeze your knees together to trap their arm between your thighs. Their arm should be deeply isolated with their elbow pointing upward and their wrist still secured at your chest. (Timing: 2-3 seconds to stabilize) [Pressure: Firm]
-5. **Adjust Hip Positioning for Breaking Angle**: Elevate your hips slightly and ensure their elbow is positioned just below your pubic bone. The breaking point of the elbow must align with your hip fulcrum for maximum leverage. Your lower back should be slightly arched, and your grip should shift to their wrist with thumbs on top. This position creates the mechanical advantage—their arm is isolated with no escape route, and your hip position generates all the breaking force. (Timing: 1-2 seconds) [Pressure: Firm]
-6. **Apply Controlled Extension**: Slowly elevate your hips upward while pulling their wrist toward your chest with both hands. The extension must be gradual and progressive—this is where injuries occur if rushed. Focus on hip elevation rather than wrist pulling. Maintain constant communication with your partner. Stop immediately at any tap signal. The submission pressure comes from your hips pressing down on their elbow while their wrist is pulled in the opposite direction, creating hyperextension in the reverse plane. (Timing: 3-5 seconds progressive pressure) [Pressure: Maximum]
+1. **Establish Standard Armbar Control**: From mount or guard, secure traditional armbar position with both hands gripping opponent's wrist and forearm. Ensure their arm is fully extended with thumb pointing upward. Your legs should control their head and far shoulder, with your near leg across their chest or face. This standard position serves as the foundation for the reversal. (Timing: 2-3 seconds to secure)
+2. **Pin Arm to Your Chest**: Pull opponent's arm tightly across your chest, pinning their tricep against your sternum with both hands maintaining wrist control. This pin is critical—any space between their arm and your body will allow escape during rotation. Your elbows should be tight to your sides, creating an unbreakable connection. Keep their elbow slightly bent to prevent them from pulling out. (Timing: 1-2 seconds)
+3. **Initiate Hip Rotation**: Begin rotating your entire body 180 degrees toward opponent's feet while maintaining the arm pin to your chest. This rotation must be smooth and controlled—jerky movement will lose arm control. Your head should track toward their feet as your hips rotate over their arm. Keep your knees tight together during this phase to prevent their arm from slipping between your legs. The rotation happens around the axis of their trapped arm. (Timing: 2-3 seconds controlled rotation)
+4. **Reestablish Leg Control in Reverse**: As you complete the 180-degree rotation, reposition your legs so your near leg crosses their head/neck area and your far leg pins their near shoulder. Your body is now inverted—your hips face their feet while controlling their arm. Squeeze your knees together to trap their arm between your thighs. Their arm should be deeply isolated with their elbow pointing upward and their wrist still secured at your chest. (Timing: 2-3 seconds to stabilize)
+5. **Adjust Hip Positioning for Breaking Angle**: Elevate your hips slightly and ensure their elbow is positioned just below your pubic bone. The breaking point of the elbow must align with your hip fulcrum for maximum leverage. Your lower back should be slightly arched, and your grip should shift to their wrist with thumbs on top. This position creates the mechanical advantage—their arm is isolated with no escape route, and your hip position generates all the breaking force. (Timing: 1-2 seconds)
+6. **Apply Controlled Extension**: Slowly elevate your hips upward while pulling their wrist toward your chest with both hands. The extension must be gradual and progressive—this is where injuries occur if rushed. Focus on hip elevation rather than wrist pulling. Maintain constant communication with your partner. Stop immediately at any tap signal. The submission pressure comes from your hips pressing down on their elbow while their wrist is pulled in the opposite direction, creating hyperextension in the reverse plane. (Timing: 3-5 seconds progressive pressure)
 
 
 </section>
@@ -257,22 +257,22 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Rotating too quickly without securing arm pin [Medium DANGER]
+- **Mistake**: Rotating too quickly without securing arm pin
   - **Consequence**: Opponent's arm slips free during rotation, losing submission and often position
   - **Correction**: Complete the arm pin to chest before initiating any rotation. Take 1-2 full seconds to verify the arm is locked to your torso before moving. Quality of pin determines success rate.
-- **Mistake**: Applying extension pressure before completing rotation [CRITICAL DANGER]
+- **Mistake**: Applying extension pressure before completing rotation
   - **Consequence**: Loss of control as opponent rolls out, potential for applying force at wrong angle causing injury
   - **Correction**: Finish the full 180-degree rotation and reestablish leg control before any extension. Never apply breaking pressure while still rotating. This is a two-phase technique: rotate first, extend second.
-- **Mistake**: Insufficient hip elevation at finish [Low DANGER]
+- **Mistake**: Insufficient hip elevation at finish
   - **Consequence**: Weak breaking angle, opponent can muscle out or roll free
   - **Correction**: Arch your lower back and drive hips upward so their elbow is the lowest point. Your hips should be noticeably higher than their trapped arm. The height differential creates the leverage.
-- **Mistake**: Releasing wrist control during rotation [Medium DANGER]
+- **Mistake**: Releasing wrist control during rotation
   - **Consequence**: Complete loss of submission as arm escapes
   - **Correction**: Maintain constant two-handed grip on their wrist throughout entire rotation. Your hands never leave their wrist until submission is complete or you abandon the attempt. Practice slow rotations to build muscle memory for maintaining grip.
-- **Mistake**: Allowing space between opponent's arm and your chest [High DANGER]
+- **Mistake**: Allowing space between opponent's arm and your chest
   - **Consequence**: Opponent creates bend in their arm and escapes
   - **Correction**: Pin their tricep so tightly to your sternum that no daylight shows. Your chest and their arm should move as one unit during rotation. If you can see space, you will lose the submission.
-- **Mistake**: Jerking or spiking the armbar during final extension [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the armbar during final extension
   - **Consequence**: Serious elbow injury including ligament tears, potential for career-ending damage
   - **Correction**: Extension must be slow and progressive over 3-5 seconds minimum. In training, apply only enough pressure to feel the position lock, not to force tap. Save explosive finishes for competition only.
 
@@ -337,43 +337,6 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Mechanics** (1-2 weeks)
-- Focus: Study rotation mechanics with no resistance, partner remains completely passive. Practice 180-degree rotation 20+ times per session focusing solely on maintaining arm pin to chest. No extension pressure applied.
-- Resistance: Zero resistance
-- Safety: Learn to recognize proper arm pin position and practice smooth rotation without any submission pressure. Partner provides verbal feedback on control quality.
-
-**Positional Flow and Control** (2-3 weeks)
-- Focus: Add gentle resistance during rotation phase only. Partner may attempt to pull elbow back or create frames, but not roll. Practice maintaining arm isolation through mild defensive movements. Still no extension pressure applied—stop at completed rotation.
-- Resistance: Mild resistance
-- Safety: Develop sensitivity to arm control during movement. If control is lost, immediately reset. No submission attempts, focus entirely on rotation control maintenance.
-
-**Slow Extension Introduction** (2-3 weeks)
-- Focus: Begin adding extremely slow extension pressure (10+ seconds to full position) with cooperative partner who taps early. Focus on hip elevation mechanics and proper breaking angle. Practice release protocol after every repetition.
-- Resistance: Mild resistance
-- Safety: This is the most dangerous phase. Extension must be glacially slow. Partner must tap at first sign of pressure, not pain. Practice release protocol as much as application. No tolerance for rushing.
-
-**Live Rotation with Defensive Timing** (3-4 weeks)
-- Focus: Partner now actively defends by attempting to roll, grab gi, or pull elbow back. Practice timing rotation against real defensive movement. Still maintain slow extension when position achieved. Begin recognizing when to abandon attempt vs. adjust.
-- Resistance: Realistic resistance
-- Safety: Never force rotation against strong defense. Develop judgment for when submission is available vs. when to transition to other attacks. Safety over success rate.
-
-**Competition Speed Simulation** (4+ weeks)
-- Focus: Advanced practitioners only. Increase rotation speed to match competition pace while maintaining control standards. Extension still controlled but at realistic competitive speed (3-4 seconds). Partner defends intelligently with competition-level awareness.
-- Resistance: Full resistance
-- Safety: Only practice at this level with trusted partners of similar skill. Establish verbal check-ins before rounds. Agree on tap protocols. One injury ends this progression permanently.
-
-**Integration and Combination Chains** (Ongoing)
-- Focus: Integrate reverse armbar into combination attacks from mount, guard, and scrambles. Chain with triangle, omoplata, and standard armbar. Develop recognition patterns for when reverse variation is higher percentage than standard.
-- Resistance: Full resistance
-- Safety: Maintain same safety standards during combination flow. The technique becomes more dangerous when transitioning rapidly from other positions. Constant communication required. Any control loss demands immediate release.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -428,6 +391,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

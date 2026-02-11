@@ -163,7 +163,7 @@ This escape capitalizes on the geometric reality that the gogoplata's effectiven
 Strategically, the Angle Change Escape serves as a medium-resistance pathway between emergency explosive escapes and systematic technical extraction. It provides a reliable option when the defender has time to work methodically but faces a competent bottom player who maintains hip elevation and foot-behind-head control. The escape naturally transitions to half guard when successful, providing the defender an opportunity to recover and reset rather than remaining in immediate submission danger.
 
 **From Position**: [[Gogoplata Control]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess Position**: Evaluate the severity of the gogoplata by checking breathing restriction level, hip elevation of opponent, and depth of foot-behind-head position to determine if angle change escape is viable or if emergency escape is required instead. (Timing: Immediately upon recognizing gogoplata threat)
-2. **Create Breathing Space**: Turn chin slightly toward the attacking shin to reduce direct trachea compression. This buys time and creates the initial breathing room needed to execute a controlled escape rather than panicking. (Timing: 1-2 seconds)
-3. **Control Opponent's Hips**: Place your near-side hand firmly on opponent's hip on the same side as the attacking leg. This prevents them from following your angle change by elevating hips or adjusting position to maintain perpendicular shin alignment. (Timing: Simultaneous with breathing space creation)
-4. **Initiate Lateral Movement**: Drive your body laterally toward the side of the attacking leg while maintaining the hip control. Move entire body as a unit - head, shoulders, and hips together - rather than just moving your head which allows opponent to follow and re-establish the choke. (Timing: Controlled movement over 2-3 seconds)
-5. **Extract Head**: As the angle changes, the shin pressure converts from perpendicular to tangential contact. Use this reduced pressure window to extract your head by continuing lateral movement while slightly ducking chin toward opponent's body. (Timing: As soon as pressure reduces)
-6. **Establish Half Guard**: Once head is extracted, immediately secure half guard by trapping opponent's near leg between your legs. Post on elbow and hip to prevent them from recovering full guard or transitioning to alternative submission. (Timing: Immediately after head extraction)
-7. **Consolidate Position**: Establish proper half guard top positioning with crossface or underhook control. Do not immediately attempt to pass - take time to recover breathing and stabilize position before advancing. (Timing: 3-5 seconds after escape completion)
+1. **Assess Position**: Evaluate the severity of the gogoplata by checking breathing restriction level, hip elevation of opponent, and depth of foot-behind-head position to determine if angle change escape is viable or if emergency escape is required instead.
+2. **Create Breathing Space**: Turn chin slightly toward the attacking shin to reduce direct trachea compression. This buys time and creates the initial breathing room needed to execute a controlled escape rather than panicking.
+3. **Control Opponent's Hips**: Place your near-side hand firmly on opponent's hip on the same side as the attacking leg. This prevents them from following your angle change by elevating hips or adjusting position to maintain perpendicular shin alignment.
+4. **Initiate Lateral Movement**: Drive your body laterally toward the side of the attacking leg while maintaining the hip control. Move entire body as a unit - head, shoulders, and hips together - rather than just moving your head which allows opponent to follow and re-establish the choke.
+5. **Extract Head**: As the angle changes, the shin pressure converts from perpendicular to tangential contact. Use this reduced pressure window to extract your head by continuing lateral movement while slightly ducking chin toward opponent's body.
+6. **Establish Half Guard**: Once head is extracted, immediately secure half guard by trapping opponent's near leg between your legs. Post on elbow and hip to prevent them from recovering full guard or transitioning to alternative submission.
+7. **Consolidate Position**: Establish proper half guard top positioning with crossface or underhook control. Do not immediately attempt to pass - take time to recover breathing and stabilize position before advancing.
 
 
 </section>
@@ -262,19 +262,15 @@ Strategically, the Angle Change Escape serves as a medium-resistance pathway bet
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice angle change movement in isolation without partner resistance. Focus on moving body as a unit and understanding lateral versus linear escape mechanics. Drill chin positioning and hip control hand placement statically.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner establishes loose gogoplata position. Practice recognizing the window when angle change is viable versus when emergency escape is needed. Develop timing of hip control before initiating movement.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Partner provides moderate resistance and attempts counters. Practice adjusting escape direction based on their response. Chain angle change escape into proper half guard establishment and basic passing sequences.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from gogoplata control. Partner attempts all legitimate counters including triangle, omoplata, and armbar transitions. Develop automatic recognition and execution under competition pressure.
-(Resistance: Full)
 
 
 

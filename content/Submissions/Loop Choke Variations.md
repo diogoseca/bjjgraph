@@ -157,7 +157,7 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -235,12 +235,12 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Primary Collar Grip**: Insert your hand deep into opponent's collar on the same side, palm facing you, with fingers inside and thumb outside. The deeper the grip, the tighter the final choke. Aim to have your wrist past their neck centerline. This foundational grip determines the success of all subsequent steps. (Timing: During opponent's forward pressure or posture break) [Pressure: Firm]
-2. **Secure Secondary Control**: Establish control with your opposite hand - either grabbing their same-side sleeve, securing a second collar grip, or controlling their opposite shoulder. This prevents them from pulling away and provides leverage for angle creation. The secondary control varies by specific loop choke variation being executed. (Timing: Immediately after primary grip establishment) [Pressure: Moderate]
-3. **Create Angle Through Hip Movement**: Shift your hips away from your choking hand side while pulling opponent's upper body toward your hip. This angular displacement is critical - it transforms a straight pull into a looping diagonal force that wraps the collar around their neck. The angle should be approximately 45 degrees from centerline. (Timing: As opponent resists or maintains posture) [Pressure: Moderate]
-4. **Feed Collar Material**: Use your secondary hand to gather and feed additional collar material toward your primary grip, creating slack that allows the loop to tighten. Alternatively, pull their head down and across toward your choking side hip, which has the same effect of creating the necessary collar loop around their neck. (Timing: During angle creation phase) [Pressure: Light]
-5. **Complete the Loop**: Pull your primary grip hand across their neck in a looping arc while simultaneously using your body position to drive their head in the opposite direction. The collar should now be wrapped diagonally across both carotid arteries. Your forearm and the gi material work together to create compression from multiple angles. (Timing: After angle and collar slack established) [Pressure: Firm]
-6. **Apply Final Pressure**: Tighten the choke by extending your choking arm away from their body while simultaneously pulling their head closer with your legs or secondary grip. The pressure should build gradually over 3-5 seconds. Focus on blood choke compression rather than crushing the trachea. Monitor for tap signals continuously throughout. (Timing: Final submission phase, minimum 3-5 seconds) [Pressure: Maximum]
+1. **Establish Primary Collar Grip**: Insert your hand deep into opponent's collar on the same side, palm facing you, with fingers inside and thumb outside. The deeper the grip, the tighter the final choke. Aim to have your wrist past their neck centerline. This foundational grip determines the success of all subsequent steps. (Timing: During opponent's forward pressure or posture break)
+2. **Secure Secondary Control**: Establish control with your opposite hand - either grabbing their same-side sleeve, securing a second collar grip, or controlling their opposite shoulder. This prevents them from pulling away and provides leverage for angle creation. The secondary control varies by specific loop choke variation being executed. (Timing: Immediately after primary grip establishment)
+3. **Create Angle Through Hip Movement**: Shift your hips away from your choking hand side while pulling opponent's upper body toward your hip. This angular displacement is critical - it transforms a straight pull into a looping diagonal force that wraps the collar around their neck. The angle should be approximately 45 degrees from centerline. (Timing: As opponent resists or maintains posture)
+4. **Feed Collar Material**: Use your secondary hand to gather and feed additional collar material toward your primary grip, creating slack that allows the loop to tighten. Alternatively, pull their head down and across toward your choking side hip, which has the same effect of creating the necessary collar loop around their neck. (Timing: During angle creation phase)
+5. **Complete the Loop**: Pull your primary grip hand across their neck in a looping arc while simultaneously using your body position to drive their head in the opposite direction. The collar should now be wrapped diagonally across both carotid arteries. Your forearm and the gi material work together to create compression from multiple angles. (Timing: After angle and collar slack established)
+6. **Apply Final Pressure**: Tighten the choke by extending your choking arm away from their body while simultaneously pulling their head closer with your legs or secondary grip. The pressure should build gradually over 3-5 seconds. Focus on blood choke compression rather than crushing the trachea. Monitor for tap signals continuously throughout. (Timing: Final submission phase, minimum 3-5 seconds)
 
 
 </section>
@@ -260,22 +260,22 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Pulling straight back instead of creating looping angle [High DANGER]
+- **Mistake**: Pulling straight back instead of creating looping angle
   - **Consequence**: Creates neck crank rather than blood choke, significantly less effective and more dangerous
   - **Correction**: Emphasize hip movement to 45-degree angle before applying pressure. The choke comes from the loop, not straight compression.
-- **Mistake**: Insufficient collar depth on initial grip [Low DANGER]
+- **Mistake**: Insufficient collar depth on initial grip
   - **Consequence**: Shallow grip allows opponent to defend and prevents proper loop formation
   - **Correction**: Prioritize grip depth over speed. Aim to get wrist past neck centerline before attempting loop. Feed hand deeper using opposite hand if necessary.
-- **Mistake**: Telegraphing intention with obvious grip adjustments [Low DANGER]
+- **Mistake**: Telegraphing intention with obvious grip adjustments
   - **Consequence**: Opponent recognizes setup and defends preemptively
   - **Correction**: Disguise collar grip within other attacks or positional adjustments. Establish grip gradually during transitions or combination attempts.
-- **Mistake**: Applying excessive speed and force to finish [CRITICAL DANGER]
+- **Mistake**: Applying excessive speed and force to finish
   - **Consequence**: Risk of injury to training partner, potential tracheal damage or neck strain
   - **Correction**: Build pressure progressively over minimum 3-5 seconds in training. Competition speed is different from training application. Safety always prioritized.
-- **Mistake**: Losing secondary control during loop execution [Medium DANGER]
+- **Mistake**: Losing secondary control during loop execution
   - **Consequence**: Opponent escapes by backing out or turning away from pressure
   - **Correction**: Maintain secondary control point throughout entire sequence. Use legs to prevent backward movement if necessary. Connection is continuous.
-- **Mistake**: Focusing only on arm strength rather than body positioning [Low DANGER]
+- **Mistake**: Focusing only on arm strength rather than body positioning
   - **Consequence**: Technique becomes exhausting and ineffective against stronger opponents
   - **Correction**: Generate power from hip angle and full body engagement. Your arms guide the collar, your body creates the pressure. Mechanics over muscle.
 
@@ -342,43 +342,6 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn collar grip mechanics, hip angle creation, and basic looping motion without resistance. Study anatomy of proper blood choke versus neck crank. Understand all safety protocols and tap signal recognition.
-- Resistance: None
-- Safety: Partner remains completely passive. Focus on slow, controlled movements. Practice tap signal recognition and immediate release protocol repeatedly.
-
-**Slow Drilling** (Week 3-4)
-- Focus: Execute complete loop choke sequence from cooperative setups. Partner provides positional structure but no defense. Build muscle memory for angle creation and collar manipulation. Practice all major variations.
-- Resistance: Zero resistance
-- Safety: Apply minimal pressure at finish - just enough to understand mechanics. Mandatory 5-second progressive application. Partner taps early and often.
-
-**Controlled Resistance** (Week 5-8)
-- Focus: Partner provides mild postural defense but allows technique completion. Work on timing, disguising grips, and reacting to basic defensive movements. Begin to chain with other collar attacks.
-- Resistance: Mild resistance
-- Safety: Increase pressure slightly but maintain 3-5 second application minimum. Partner must verbalize discomfort before it becomes pain. Focus on blood choke placement.
-
-**Realistic Drilling** (Week 9-12)
-- Focus: Partner uses realistic defense including grip fighting, posture maintenance, and escape attempts. Develop setups from live positions. Learn to recognize which variation applies to specific defensive reactions.
-- Resistance: Realistic resistance
-- Safety: Partner can defend fully but taps at first sign of legitimate pressure. Continue progressive application. Monitor partner's face for distress signals.
-
-**Positional Sparring** (Week 13-16)
-- Focus: Start from specific positions and work loop choke against fully resisting partner. Integrate into overall guard game and top game strategy. Develop sensitivity to finishing opportunities.
-- Resistance: Full resistance
-- Safety: Both partners must have demonstrated consistent safe application in previous phases. Instructor supervision recommended. Tap early when learning.
-
-**Live Integration** (Week 17+)
-- Focus: Apply loop choke variations during free rolling. Develop intuition for timing and setup opportunities. Chain with other submissions and sweeps. Refine details based on body types and opponent reactions.
-- Resistance: Full resistance
-- Safety: Maintain training-appropriate application speed. Never use competition-speed finishing in regular training. Respect all tap signals instantly. Continue monitoring partner welfare.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -431,6 +394,7 @@ The Loop Choke represents a sophisticated family of collar-based blood chokes th
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

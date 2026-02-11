@@ -157,7 +157,7 @@ Strategically, the Kimura from Mount functions as both a submission threat and a
 The technique requires precise sequencing: isolate the target arm, establish the figure-four grip, dismount to the correct side, pin the elbow to your hip, and apply rotational pressure while maintaining chest contact on the opponent's torso. Understanding when to commit to the finish versus using the grip for positional advancement separates competent practitioners from those who telegraph and lose position during the attempt.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The technique requires precise sequencing: isolate the target arm, establish the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate the arm**: From mount, identify the target arm—typically the one pushing against your chest or hip. Use your same-side hand to control their wrist, pinning it to your chest or the mat beside their head. Shift your weight toward that side. (Timing: When opponent pushes or frames)
-2. **Establish figure-four grip**: Thread your opposite arm under their tricep from the outside, reaching to grip your own wrist that is controlling their hand. Your palm faces down on your wrist. This figure-four configuration locks their arm in a bent position. (Timing: Immediately after wrist control)
-3. **Dismount and transition**: Step your leg on the Kimura side over their head, dismounting to the side while keeping your chest heavy on their shoulder and ribcage. Your knee should land near their ear, and your other leg maintains hip control or posts for base. (Timing: In one smooth motion with the grip)
-4. **Pin elbow to hip**: Draw their elbow tight against your hip bone using the figure-four grip. This creates the fulcrum point for the shoulder lock. Keep their upper arm perpendicular to their body, not allowed to straighten or drift toward their hip. (Timing: Before applying rotation)
-5. **Maintain chest pressure**: Drop your chest weight onto their shoulder and upper torso, flattening them to the mat and preventing them from sitting up or creating rotation. Your head stays tight to their shoulder, face toward their hips. (Timing: Continuous throughout finish)
-6. **Apply rotational pressure**: With the elbow pinned and chest heavy, rotate their hand toward their hip in an arc while keeping their elbow stationary against your hip. The pressure comes from external rotation of the shoulder joint, not from lifting. Apply steady pressure until they tap. (Timing: Controlled and steady)
+1. **Isolate the arm**: From mount, identify the target arm—typically the one pushing against your chest or hip. Use your same-side hand to control their wrist, pinning it to your chest or the mat beside their head. Shift your weight toward that side.
+2. **Establish figure-four grip**: Thread your opposite arm under their tricep from the outside, reaching to grip your own wrist that is controlling their hand. Your palm faces down on your wrist. This figure-four configuration locks their arm in a bent position.
+3. **Dismount and transition**: Step your leg on the Kimura side over their head, dismounting to the side while keeping your chest heavy on their shoulder and ribcage. Your knee should land near their ear, and your other leg maintains hip control or posts for base.
+4. **Pin elbow to hip**: Draw their elbow tight against your hip bone using the figure-four grip. This creates the fulcrum point for the shoulder lock. Keep their upper arm perpendicular to their body, not allowed to straighten or drift toward their hip.
+5. **Maintain chest pressure**: Drop your chest weight onto their shoulder and upper torso, flattening them to the mat and preventing them from sitting up or creating rotation. Your head stays tight to their shoulder, face toward their hips.
+6. **Apply rotational pressure**: With the elbow pinned and chest heavy, rotate their hand toward their hip in an arc while keeping their elbow stationary against your hip. The pressure comes from external rotation of the shoulder joint, not from lifting. Apply steady pressure until they tap.
 
 
 </section>
@@ -253,19 +253,15 @@ The technique requires precise sequencing: isolate the target arm, establish the
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the figure-four grip configuration statically, focusing on wrist-on-wrist placement, palm orientation, and the feeling of a secure lock. Drill the grip entry sequence from mount with a compliant partner, emphasizing arm isolation before grip establishment.
-(Resistance: None)
 
 **Week 3-4** - Dismount and positioning
 Add the dismount sequence, practicing stepping over the head smoothly while maintaining the grip and chest pressure. Focus on where your knees land, keeping weight distributed properly, and pinning the elbow to your hip before any finishing pressure.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Introduce common defensive reactions and your responses: armbar transition when they straighten, back take when they turn, and grip maintenance when they grip their belt. Drill the decision tree based on opponent response at medium resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply the Kimura from Mount in positional sparring starting from mount. Focus on recognizing when the arm becomes available, timing the attack during opponent's escape attempts, and committing fully to either the finish or the transition based on their defense.
-(Resistance: Full)
 
 
 

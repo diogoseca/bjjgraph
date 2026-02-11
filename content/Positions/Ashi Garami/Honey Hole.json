@@ -326,54 +326,48 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-90 seconds in competition, 1-3 minutes in training"
     },
     "transitions": [
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 16
+        "attempt_probability": 12
       },
       {
         "transition": "Inside Heel Hook",
-        "attempt_probability": 13
+        "attempt_probability": 30
       },
       {
         "transition": "Kneebar Finish",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Toe Hold from Top",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Saddle Entry from Top",
         "attempt_probability": 14
       },
       {
-        "transition": "Turtle to Back Take",
-        "attempt_probability": 11
+        "transition": "Toe Hold from Top",
+        "attempt_probability": 10
       },
       {
-        "transition": "Inside Ashi Entry",
+        "transition": "Saddle Entry from Top",
         "attempt_probability": 12
       },
       {
-        "transition": "Calf Slicer from Truck",
-        "attempt_probability": 10
+        "transition": "Inside Ashi Entry",
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Back Take from Ashi",
+        "attempt_probability": 11
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 5
       }
     ]
   },
@@ -643,54 +637,48 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 30
+        "value": 22
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 45
+        "value": 35
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 35
+        "value": 25
       },
       "average_time": "5-15 seconds before submission or escape"
     },
     "transitions": [
       {
         "transition": "Inversion Escape",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Hip Escape",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Counter Sweep",
         "attempt_probability": 15
       },
       {
-        "transition": "Rolling to Guard",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Technical Standup",
+        "transition": "Hip Escape",
         "attempt_probability": 10
       },
       {
-        "transition": "Saddle Defense",
-        "attempt_probability": 14
+        "transition": "Rolling to Guard",
+        "attempt_probability": 8
       },
       {
-        "transition": "Rolling Back Take",
+        "transition": "Saddle Defense",
         "attempt_probability": 12
       },
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 13
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 28
+      },
+      {
+        "transition": "Counter heel hook",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Reverse the entanglement to Outside Ashi",
+        "attempt_probability": 9
       }
     ]
   }

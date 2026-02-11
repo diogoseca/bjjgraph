@@ -279,21 +279,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Ability to maintain offensive position through opponent's escape attempts"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Success rate for transitioning to higher-control positions or back control"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Ability to finish submissions directly from ushiro configuration"
       },
       "average_time": "10-20 seconds (transitional position requiring quick decision-making)"
@@ -309,7 +303,7 @@
       },
       {
         "transition": "Follow to Back Control",
-        "attempt_probability": 16
+        "attempt_probability": 18
       },
       {
         "transition": "Ankle Lock Finish",
@@ -317,7 +311,7 @@
       },
       {
         "transition": "Inside Ashi-Garami to Honey Hole",
-        "attempt_probability": 10
+        "attempt_probability": 8
       },
       {
         "transition": "Cross Ashi Transition",
@@ -325,7 +319,7 @@
       },
       {
         "transition": "Outside Heel Hook Adjustment",
-        "attempt_probability": 9
+        "attempt_probability": 7
       },
       {
         "transition": "Return to Outside Ashi",
@@ -333,7 +327,7 @@
       },
       {
         "transition": "Kneebar from Ushiro",
-        "attempt_probability": 8
+        "attempt_probability": 10
       }
     ]
   },
@@ -561,21 +555,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Ability to maintain defensive position without being submitted or swept"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Success rate for escaping to neutral or better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 30,
+        "value": 22,
         "description": "Ability to counter-attack with submissions from defensive position"
       },
       "average_time": "8-15 seconds (transitional position, not sustainable)"
@@ -583,7 +571,7 @@
     "transitions": [
       {
         "transition": "Ushiro Ashi-Garami Escape",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Inversion to Turtle",
@@ -595,7 +583,7 @@
       },
       {
         "transition": "Ushiro Ashi-Garami to Deep Half",
-        "attempt_probability": 12
+        "attempt_probability": 10
       },
       {
         "transition": "Single Leg X Recovery",
@@ -611,7 +599,11 @@
       },
       {
         "transition": "Granby Roll Escape",
-        "attempt_probability": 12
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Scramble to Guard",
+        "attempt_probability": 7
       }
     ]
   }

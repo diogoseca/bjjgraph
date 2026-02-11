@@ -163,7 +163,7 @@ From North-South, the Kimura opportunity typically arises when opponents frame o
 Strategically, this submission creates a powerful dilemma system—opponents defending the Kimura by keeping arms tight become vulnerable to the North-South choke, while those defending the choke by framing expose the arm for Kimura attacks. This complementary threat pairing makes North-South one of the most submission-rich top positions available.
 
 **From Position**: [[North-South/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, this submission creates a powerful dilemma system—opponents def
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure North-South Control**: From north-south position, distribute your weight heavily across opponent's chest and upper torso with your head pressuring their far shoulder to prevent rotation. Spread knees wide for stable base with hips perpendicular to their body. (Timing: 2-3 seconds to establish stable control)
-2. **Isolate and Control Wrist**: As opponent extends near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture wrist firmly with palm-to-palm grip, thumb toward their thumb, pulling slightly away from their body. (Timing: 1-2 seconds to secure wrist control)
-3. **Establish Figure-Four Grip**: While maintaining wrist control, reach your upper arm over the top of their arm and grab your own wrist to complete the figure-four configuration. Position your upper arm's elbow directly over their elbow creating a solid structural frame. (Timing: 2-3 seconds to establish secure grip)
-4. **Adjust Hip Position for Leverage**: With figure-four secured, ensure hips remain perpendicular to opponent's body. Consider stepping your leg closest to opponent's head across for additional base. Maintain chest pressure while creating slight space for arm mechanics. (Timing: 1-2 seconds for positioning adjustment)
-5. **Apply Upward Elbow Pressure**: Begin submission by lifting opponent's elbow toward ceiling while maintaining figure-four grip. Your upper arm controlling the elbow does most work. Keep elbows tight to body for mechanical efficiency. Apply pressure SLOWLY over 2-3 seconds. (Timing: 2-3 seconds progressive pressure)
-6. **Rotate Arm Away from Head**: While maintaining upward elbow pressure, rotate their entire arm away from their head toward their legs. This combination creates extreme shoulder torque. Apply EXTREMELY SLOWLY—north-south angle creates deceptive leverage that can injure before partner recognizes danger. (Timing: 3-4 seconds with progressive pressure)
-7. **Control and Complete Finish**: Continue controlled rotation while maintaining all pressure points—chest weight, head pressure on far shoulder, figure-four grip integrity. If opponent rolls toward submission, follow their movement. Stop immediately at any tap signal and release following proper protocol. (Timing: Variable—always controlled application)
+1. **Secure North-South Control**: From north-south position, distribute your weight heavily across opponent's chest and upper torso with your head pressuring their far shoulder to prevent rotation. Spread knees wide for stable base with hips perpendicular to their body.
+2. **Isolate and Control Wrist**: As opponent extends near-side arm to frame or create space, thread your arm closest to their legs underneath their forearm. Capture wrist firmly with palm-to-palm grip, thumb toward their thumb, pulling slightly away from their body.
+3. **Establish Figure-Four Grip**: While maintaining wrist control, reach your upper arm over the top of their arm and grab your own wrist to complete the figure-four configuration. Position your upper arm's elbow directly over their elbow creating a solid structural frame.
+4. **Adjust Hip Position for Leverage**: With figure-four secured, ensure hips remain perpendicular to opponent's body. Consider stepping your leg closest to opponent's head across for additional base. Maintain chest pressure while creating slight space for arm mechanics.
+5. **Apply Upward Elbow Pressure**: Begin submission by lifting opponent's elbow toward ceiling while maintaining figure-four grip. Your upper arm controlling the elbow does most work. Keep elbows tight to body for mechanical efficiency. Apply pressure SLOWLY over 2-3 seconds.
+6. **Rotate Arm Away from Head**: While maintaining upward elbow pressure, rotate their entire arm away from their head toward their legs. This combination creates extreme shoulder torque. Apply EXTREMELY SLOWLY—north-south angle creates deceptive leverage that can injure before partner recognizes danger.
+7. **Control and Complete Finish**: Continue controlled rotation while maintaining all pressure points—chest weight, head pressure on far shoulder, figure-four grip integrity. If opponent rolls toward submission, follow their movement. Stop immediately at any tap signal and release following proper protocol.
 
 
 </section>
@@ -264,23 +264,18 @@ Strategically, this submission creates a powerful dilemma system—opponents def
 ## Training Progressions
 **Week 1-2** - Technical Understanding
 Learn proper grip mechanics, body positioning, and safety protocols through demonstration and slow-motion practice. Study shoulder anatomy to understand injury mechanisms. Practice release protocol until automatic.
-(Resistance: None)
 
 **Week 3-4** - Isolated Positional Drilling
 Practice entering North-South and isolating the arm without applying submission pressure. Develop muscle memory for figure-four grip establishment and hip positioning. Partner provides zero resistance.
-(Resistance: None)
 
 **Week 5-8** - Controlled Application
 Begin applying light submission pressure with fully cooperative partner. Develop feel for leverage and understand how little pressure is required. Application speed 7-10 seconds minimum. Partner taps at 30% pressure.
-(Resistance: Light)
 
 **Week 9-12** - Progressive Resistance
 Partner provides mild defensive resistance—hiding arm, attempting retraction, defending figure-four grip. Practice countering defenses while maintaining safety. Application 5-7 seconds. Partner taps at 40-50% pressure.
-(Resistance: Medium)
 
 **Month 4+** - Live Integration
 Integrate into positional sparring from North-South. Partner provides realistic but controlled resistance. Practice recognizing when to abandon submission and transition. Application remains deliberate 5-7 seconds minimum.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ Strategically, the Ezekiel excels as a direct submission threat that requires mi
 The technique integrates seamlessly into the mount attack system as a Type A direct submission—there is no distinct control position before the finish. You secure the grip configuration and apply pressure until the opponent taps or goes unconscious. This directness makes it an excellent option when opponents are defending traditional mount attacks like the cross collar choke or armbar, as their arm positioning to defend those attacks often leaves their neck exposed to the Ezekiel. The choke works through blood strangulation by compressing both carotid arteries simultaneously, making it extremely efficient when properly applied.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The technique integrates seamlessly into the mount attack system as a Type A dir
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish head control**: From mount, swim your non-dominant hand underneath opponent's head, cupping the far side of their neck with your palm. Keep your elbow tight to their ear and maintain heavy chest pressure throughout. (Timing: 2-3 seconds)
-2. **Grip sleeve**: With your dominant hand, reach across your body and grip deep inside your own opposite sleeve at the wrist seam. The grip should be four fingers inside the sleeve opening, creating a secure anchor point. (Timing: 1-2 seconds)
-3. **Thread choking hand**: Shoot your dominant hand straight through the space between your underhooking arm and opponent's neck. The blade of your wrist should contact the near side of their neck directly against the carotid artery. (Timing: 1 second)
-4. **Secure figure-four**: Pull your sleeve grip tight against the back of opponent's neck while your choking wrist maintains contact with the front-side of their neck. Your arms should form a figure-four configuration around their throat. (Timing: 1 second)
-5. **Apply pressure**: Squeeze your elbows together toward the centerline while simultaneously driving your chest weight forward and down. The compression should come from both arms closing inward, not from pulling backward. (Timing: 2-4 seconds)
-6. **Finish submission**: Maintain constant inward pressure on both elbows while keeping chest heavy. Adjust wrist angle if necessary to ensure blade contact with carotid. The opponent should tap within 3-5 seconds of proper application. (Timing: 3-5 seconds to tap)
+1. **Establish head control**: From mount, swim your non-dominant hand underneath opponent's head, cupping the far side of their neck with your palm. Keep your elbow tight to their ear and maintain heavy chest pressure throughout.
+2. **Grip sleeve**: With your dominant hand, reach across your body and grip deep inside your own opposite sleeve at the wrist seam. The grip should be four fingers inside the sleeve opening, creating a secure anchor point.
+3. **Thread choking hand**: Shoot your dominant hand straight through the space between your underhooking arm and opponent's neck. The blade of your wrist should contact the near side of their neck directly against the carotid artery.
+4. **Secure figure-four**: Pull your sleeve grip tight against the back of opponent's neck while your choking wrist maintains contact with the front-side of their neck. Your arms should form a figure-four configuration around their throat.
+5. **Apply pressure**: Squeeze your elbows together toward the centerline while simultaneously driving your chest weight forward and down. The compression should come from both arms closing inward, not from pulling backward.
+6. **Finish submission**: Maintain constant inward pressure on both elbows while keeping chest heavy. Adjust wrist angle if necessary to ensure blade contact with carotid. The opponent should tap within 3-5 seconds of proper application.
 
 
 </section>
@@ -252,19 +252,15 @@ The technique integrates seamlessly into the mount attack system as a Type A dir
 ## Training Progressions
 **Week 1-2** - Grip mechanics and positioning
 Practice the sleeve grip and figure-four arm configuration against a compliant partner lying flat. Focus on wrist blade placement against neck, proper sleeve depth, and maintaining chest pressure throughout. Drill 50 repetitions per session without resistance.
-(Resistance: None)
 
 **Week 3-4** - Entry timing and disguise
 Work on seamlessly transitioning from mount control to Ezekiel setup. Partner provides light defensive frames and chin tucks. Focus on disguising the sleeve grip by appearing to establish standard head control first. Practice recognizing when opponent's arms are occupied defending other attacks.
-(Resistance: Light)
 
 **Week 5-6** - Counter response and combinations
 Train against partners who actively defend with bridges, chin tucks, and frame creation. Practice switching between Ezekiel attempts and other mount submissions when defense is successful. Develop the ability to maintain mount throughout failed submission attempts.
-(Resistance: Medium)
 
 **Week 7+** - Live application and pressure testing
 Implement the Ezekiel in positional sparring starting from mount. Track success rate and identify personal weak points. Focus on integrating the technique into your mount attack system alongside armbars, Americanas, and collar chokes. Refine timing based on opponent's defensive patterns.
-(Resistance: Full)
 
 
 

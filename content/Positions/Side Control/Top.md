@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Arm Triangle. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,21 +205,23 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Available Attacks
 
-### [[Side Control to Mount]] (25% of attempts)
+### [[Side Control to Mount]] (22% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Side Control to North-South]] (11% of attempts)
 
-### [[Americana from Side Control]] (15% of attempts)
+### [[Americana from Side Control]] (13% of attempts)
 
-### [[Kimura from Side Control]] (12% of attempts)
+### [[Kimura from Side Control]] (11% of attempts)
 
-### [[Arm Triangle]] (10% of attempts)
+### [[Arm Triangle]] (9% of attempts)
 
-### [[Armbar from Side Control]] (8% of attempts)
+### [[Armbar from Side Control]] (7% of attempts)
 
-### [[Knee on Belly]] (13% of attempts)
+### [[Knee on Belly]] (12% of attempts)
 
-### [[North-South Choke]] (5% of attempts)
+### [[North-South Choke]] (4% of attempts)
+
+### [[Americana]] (11% of attempts)
 
 
 
@@ -338,11 +340,11 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 20% |
-| Intermediate | 60% | 55% | 35% |
-| Advanced     | 80% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 1-3 minutes for controlled work, 10-30 seconds for dynamic transitions
 

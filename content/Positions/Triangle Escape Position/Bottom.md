@@ -349,11 +349,11 @@ Partner attempts all triangle variations: armbar switches, omoplata transitions,
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 25% | 5% |
-| Intermediate | 35% | 45% | 10% |
-| Advanced     | 55% | 65% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 45% |
+| Advancement Probability | 55% |
+| Submission Probability | 15% |
 
 **Average Time in Position**: 15-30 seconds before escape or submission
 

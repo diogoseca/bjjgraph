@@ -157,7 +157,7 @@ From the Carni position, the kneebar becomes available when the opponent extends
 What makes this finish particularly effective from Carni is the element of surprise. Most opponents in Carni are primarily defending the heel hook, keeping their knee bent and heel protected. When they momentarily straighten the leg, they expose themselves to a completely different submission angle that many practitioners fail to defend. This creates the classic dilemma system where defending one attack opens vulnerability to another.
 
 **From Position**: [[Carni/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ What makes this finish particularly effective from Carni is the element of surpr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize extension**: Identify the moment opponent extends their trapped leg to create distance or extract from your Carni control - this is your submission window (Timing: Immediate recognition required)
-2. **Transition grips**: Release heel hook grip and immediately secure control of opponent's ankle with both hands, pulling their foot toward your chest to maintain leg extension (Timing: Within 0.5 seconds of recognition)
-3. **Reposition hips**: Shift your hips so that opponent's knee joint is positioned directly across your hip crease, creating the fulcrum point for hyperextension pressure (Timing: Simultaneous with grip transition)
+1. **Recognize extension**: Identify the moment opponent extends their trapped leg to create distance or extract from your Carni control - this is your submission window
+2. **Transition grips**: Release heel hook grip and immediately secure control of opponent's ankle with both hands, pulling their foot toward your chest to maintain leg extension
+3. **Reposition hips**: Shift your hips so that opponent's knee joint is positioned directly across your hip crease, creating the fulcrum point for hyperextension pressure
 4. **Secure leg control**: Pinch your knees together around opponent's thigh just above their knee, preventing them from bending the knee or rotating to escape the hyperextension angle
 5. **Anchor the ankle**: Pull opponent's ankle tight to your chest with both hands creating a secure anchor point, keeping their leg completely straight and preventing any slack
-6. **Apply finishing pressure**: Extend your hips forward while maintaining ankle control, driving their knee into hyperextension against the fulcrum of your hip crease until tap or controlled finish (Timing: Gradual pressure increase)
+6. **Apply finishing pressure**: Extend your hips forward while maintaining ankle control, driving their knee into hyperextension against the fulcrum of your hip crease until tap or controlled finish
 
 
 </section>
@@ -253,19 +253,15 @@ What makes this finish particularly effective from Carni is the element of surpr
 ## Training Progressions
 **Week 1-2** - Hip positioning mechanics
 Practice transitioning from Carni to kneebar position with compliant partner focusing on precise knee placement across hip crease and ankle control. No resistance, emphasize correct body mechanics.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner randomly extends leg during Carni drilling. Practice immediate recognition and transition to kneebar setup. Light resistance to escape attempts.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner uses primary escapes (knee bend, rolling). Practice maintaining control through defensive movements and finishing despite resistance. Chain back to heel hook when kneebar fails.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full positional sparring from Carni with all submissions available. Practice recognizing optimal moments for kneebar vs heel hook based on opponent's defensive choices.
-(Resistance: Full)
 
 
 

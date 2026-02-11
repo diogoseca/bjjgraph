@@ -11,11 +11,6 @@
     "submission",
     "guard"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Spider Guard to Omoplata is a fundamental attacking transition that combines sweeping mechanics with submission threat. From spider guard, you manipulate your opponent's posture and base using sleeve control and foot pressure on the biceps, creating an opening to swing your leg over their shoulder and sit up into the omoplata position. This technique exemplifies the principle of using your opponent's defensive reactions against them - when they resist your spider guard pressure by posting or pulling back, you capitalize on their commitment by attacking the shoulder with the omoplata. The transition is highly effective because it occurs in a single fluid motion, giving your opponent minimal time to recognize and counter the attack. Understanding proper grip mechanics, hip movement, and timing is essential for successfully executing this technique under resistance.",
   "key_principles": [
     "Maintain strong sleeve control throughout the transition",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Establish spider guard control",
-      "description": "From spider guard, secure both sleeves with deep grips, placing both feet on opponent's biceps. Apply constant pressure outward with your legs to extend their arms and compromise their posture.",
-      "timing": "Setup phase - establish stable control"
+      "description": "From spider guard, secure both sleeves with deep grips, placing both feet on opponent's biceps. Apply constant pressure outward with your legs to extend their arms and compromise their posture."
     },
     {
       "step_number": 2,
       "action": "Identify attacking side",
-      "description": "Choose the side where opponent's weight is more committed forward or where their arm is more extended. Strengthen your grip on that sleeve while maintaining foot pressure on that bicep to prevent arm withdrawal.",
-      "timing": "Recognition phase - read opponent's position"
+      "description": "Choose the side where opponent's weight is more committed forward or where their arm is more extended. Strengthen your grip on that sleeve while maintaining foot pressure on that bicep to prevent arm withdrawal."
     },
     {
       "step_number": 3,
       "action": "Remove opposite foot",
-      "description": "Take your foot off the non-attacking side bicep and place it on the mat or opponent's hip for base. This allows you to generate rotational momentum while maintaining control of the attacking side.",
-      "timing": "Preparation - create mobility"
+      "description": "Take your foot off the non-attacking side bicep and place it on the mat or opponent's hip for base. This allows you to generate rotational momentum while maintaining control of the attacking side."
     },
     {
       "step_number": 4,
       "action": "Swing leg over shoulder",
-      "description": "Using your grounded foot for leverage, explosively swing your attacking-side leg up and over opponent's shoulder, threading it between their head and trapped arm. Your shin should land across their upper back/shoulder blade area.",
-      "timing": "Explosive execution - commit fully to the movement"
+      "description": "Using your grounded foot for leverage, explosively swing your attacking-side leg up and over opponent's shoulder, threading it between their head and trapped arm. Your shin should land across their upper back/shoulder blade area."
     },
     {
       "step_number": 5,
       "action": "Sit up and control posture",
-      "description": "As your leg crosses over, immediately sit up toward your opponent, pulling their trapped sleeve across your body. Your chest should come to their back while your leg weight prevents them from lifting their head.",
-      "timing": "Immediate follow-through - no pause"
+      "description": "As your leg crosses over, immediately sit up toward your opponent, pulling their trapped sleeve across your body. Your chest should come to their back while your leg weight prevents them from lifting their head."
     },
     {
       "step_number": 6,
       "action": "Secure omoplata position",
-      "description": "Grip their belt or pants behind their back with your free hand, pinch their trapped arm between your legs, and ensure your shin is positioned correctly across their shoulder blades. Control their hips with your bottom leg to prevent forward roll escapes.",
-      "timing": "Position consolidation - establish control"
+      "description": "Grip their belt or pants behind their back with your free hand, pinch their trapped arm between your legs, and ensure your shin is positioned correctly across their shoulder blades. Control their hips with your bottom leg to prevent forward roll escapes."
     },
     {
       "step_number": 7,
       "action": "Break posture completely",
-      "description": "Drive your chest into opponent's back while pulling their hips toward you with your belt grip. Their head should be driven toward the mat with no space to lift up. From here you can finish the shoulder lock or transition to sweep/back take.",
-      "timing": "Finishing phase - maximize control"
+      "description": "Drive your chest into opponent's back while pulling their hips toward you with your belt grip. Their head should be driven toward the mat with no space to lift up. From here you can finish the shoulder lock or transition to sweep/back take."
     }
   ],
   "common_counters": [
@@ -130,32 +118,27 @@
     {
       "phase": "Week 1-2: Fundamental Movement Pattern",
       "focus": "Master the leg swing and sit-up motion without resistance",
-      "description": "Partner holds still in spider guard position while you practice swinging your leg over their shoulder and sitting up. Focus on smooth, explosive movement and maintaining sleeve control throughout. Repeat 20-30 times per training session.",
-      "resistance_level": "None"
+      "description": "Partner holds still in spider guard position while you practice swinging your leg over their shoulder and sitting up. Focus on smooth, explosive movement and maintaining sleeve control throughout. Repeat 20-30 times per training session."
     },
     {
       "phase": "Week 3-4: Timing and Recognition",
       "focus": "Learn to identify proper attacking opportunities",
-      "description": "Partner gives light resistance and varies their posture (forward, backward, attempting to stand). Practice recognizing the correct moment to attack and executing the transition with light resistance. Partner should allow the technique to work when timing is correct.",
-      "resistance_level": "Light"
+      "description": "Partner gives light resistance and varies their posture (forward, backward, attempting to stand). Practice recognizing the correct moment to attack and executing the transition with light resistance. Partner should allow the technique to work when timing is correct."
     },
     {
       "phase": "Week 5-8: Position Consolidation",
       "focus": "Securing omoplata control against moderate resistance",
-      "description": "Partner provides moderate resistance and attempts basic escape attempts (arm withdrawal, posture recovery). Focus on maintaining grips, controlling hips, and breaking posture completely before attempting the finish.",
-      "resistance_level": "Medium"
+      "description": "Partner provides moderate resistance and attempts basic escape attempts (arm withdrawal, posture recovery). Focus on maintaining grips, controlling hips, and breaking posture completely before attempting the finish."
     },
     {
       "phase": "Week 9-12: Counter Defense",
       "focus": "Defending common counters and transitioning to alternatives",
-      "description": "Partner actively attempts all common counters (stack, roll, arm pull, standing). Practice recognizing each counter early and flowing to alternative attacks (triangle, sweep, back take) rather than forcing the omoplata. Begin incorporating into live rolling.",
-      "resistance_level": "Full"
+      "description": "Partner actively attempts all common counters (stack, roll, arm pull, standing). Practice recognizing each counter early and flowing to alternative attacks (triangle, sweep, back take) rather than forcing the omoplata. Begin incorporating into live rolling."
     },
     {
       "phase": "Month 4+: Competition Application",
       "focus": "Setting up the attack from dynamic spider guard play",
-      "description": "Practice the entire sequence from guard establishment through finish during full resistance positional sparring. Focus on using spider guard sweeps and other attacks to set up the omoplata opportunity. Emphasize seamless transitions to other techniques when countered.",
-      "resistance_level": "Full"
+      "description": "Practice the entire sequence from guard establishment through finish during full resistance positional sparring. Focus on using spider guard sweeps and other attacks to set up the omoplata opportunity. Emphasize seamless transitions to other techniques when countered."
     }
   ],
   "variants_and_adaptations": [
@@ -178,33 +161,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the most critical element to maintain during the transition from spider guard to omoplata?",
-      "answer": "The most critical element is maintaining strong sleeve control on the attacking side throughout the entire transition. Without this grip, the opponent can pull their arm free and escape the position entirely. The sleeve grip must be maintained from the initial spider guard setup, through the leg swing, and until the omoplata position is fully secured with body weight and leg pressure.",
-      "difficulty": "Beginner"
+      "answer": "The most critical element is maintaining strong sleeve control on the attacking side throughout the entire transition. Without this grip, the opponent can pull their arm free and escape the position entirely. The sleeve grip must be maintained from the initial spider guard setup, through the leg swing, and until the omoplata position is fully secured with body weight and leg pressure."
     },
     {
       "question": "Why must the leg swing over the shoulder be explosive rather than slow and controlled?",
-      "answer": "The leg swing must be explosive because a slow, telegraphed movement gives the opponent time to recognize the attack and execute effective counters such as backing away, pulling their arm free, or establishing a wide base. An explosive movement creates a single fluid motion that minimizes reaction time and forces the opponent to defend from a compromised position. Speed also helps generate the momentum needed to sit up and break their posture immediately.",
-      "difficulty": "Intermediate"
+      "answer": "The leg swing must be explosive because a slow, telegraphed movement gives the opponent time to recognize the attack and execute effective counters such as backing away, pulling their arm free, or establishing a wide base. An explosive movement creates a single fluid motion that minimizes reaction time and forces the opponent to defend from a compromised position. Speed also helps generate the momentum needed to sit up and break their posture immediately."
     },
     {
       "question": "How do you prevent the opponent from escaping via forward roll when you establish the omoplata?",
-      "answer": "You prevent forward roll escapes by controlling their hips with your bottom leg, either by hooking their far hip or threading your leg under their body. Additionally, you must maintain chest pressure on their back and pull their hips toward you with your belt or pants grip. This combination of hip control, chest pressure, and pulling their hips toward you creates a mechanical disadvantage that prevents them from generating the momentum needed to roll forward.",
-      "difficulty": "Advanced"
+      "answer": "You prevent forward roll escapes by controlling their hips with your bottom leg, either by hooking their far hip or threading your leg under their body. Additionally, you must maintain chest pressure on their back and pull their hips toward you with your belt or pants grip. This combination of hip control, chest pressure, and pulling their hips toward you creates a mechanical disadvantage that prevents them from generating the momentum needed to roll forward."
     },
     {
       "question": "What should you do if the opponent successfully stacks you during the omoplata attempt?",
-      "answer": "If the opponent stacks you by driving their weight forward, you should immediately transition to an alternative attack rather than trying to force the omoplata. The best options are: transitioning to triangle by bringing your bottom leg up and over their back, or rolling backward into a sweep. Attempting to maintain the omoplata against a committed stack often results in injury or losing the position entirely.",
-      "difficulty": "Intermediate"
+      "answer": "If the opponent stacks you by driving their weight forward, you should immediately transition to an alternative attack rather than trying to force the omoplata. The best options are: transitioning to triangle by bringing your bottom leg up and over their back, or rolling backward into a sweep. Attempting to maintain the omoplata against a committed stack often results in injury or losing the position entirely."
     },
     {
       "question": "What are the key indicators that your opponent is in the correct position to attack with the spider guard to omoplata transition?",
-      "answer": "The optimal attacking opportunity occurs when: (1) opponent's weight is committed forward or they are attempting to stand, (2) their arms are extended by your spider guard pressure making it difficult for them to pull back quickly, (3) their base is narrow rather than wide and stable, and (4) they are actively trying to break your guard rather than maintaining a defensive posture. These indicators suggest the opponent is in a vulnerable position where they cannot quickly counter your attack.",
-      "difficulty": "Advanced"
+      "answer": "The optimal attacking opportunity occurs when: (1) opponent's weight is committed forward or they are attempting to stand, (2) their arms are extended by your spider guard pressure making it difficult for them to pull back quickly, (3) their base is narrow rather than wide and stable, and (4) they are actively trying to break your guard rather than maintaining a defensive posture. These indicators suggest the opponent is in a vulnerable position where they cannot quickly counter your attack."
     },
     {
       "question": "Why is it important to sit up immediately after your leg crosses over the opponent's shoulder?",
-      "answer": "Sitting up immediately is crucial because it breaks the opponent's posture and establishes control before they can recognize and counter the attack. If you delay sitting up, the opponent maintains upright posture and can easily escape by pulling their arm free, backing away, or establishing a strong base. The sit-up motion must be explosive and synchronized with the leg swing to create a seamless transition that gives the opponent minimal time to react.",
-      "difficulty": "Beginner"
+      "answer": "Sitting up immediately is crucial because it breaks the opponent's posture and establishes control before they can recognize and counter the attack. If you delay sitting up, the opponent maintains upright posture and can easily escape by pulling their arm free, backing away, or establishing a strong base. The sit-up motion must be explosive and synchronized with the leg swing to create a seamless transition that gives the opponent minimal time to react."
     }
   ],
   "safety_considerations": "When training the spider guard to omoplata transition, both partners must exercise control to prevent shoulder injuries. The person executing the technique should apply pressure gradually and stop immediately if the partner taps or shows discomfort. The omoplata attacks the shoulder joint, which is vulnerable to dislocation and rotator cuff injuries if excessive force is applied suddenly. During drilling, focus on position control rather than finishing the submission until you have developed sensitivity to the technique. Partners defending should tap early and not attempt to power through the shoulder pressure, as this significantly increases injury risk. When practicing the leg swing, be mindful of your partner's neck and avoid dropping your full weight suddenly onto their upper back.",
@@ -276,5 +253,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 52
 }

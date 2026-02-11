@@ -21,37 +21,37 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 4% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Half Guard to Back Take",
-      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Half Guard to Back Take. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,21 +212,23 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 ## Available Escapes
 
-### [[Underhook Sweep from Half]] (20% of attempts)
+### [[Underhook Sweep from Half]] (19% of attempts)
 
-### [[Old School Sweep]] (15% of attempts)
+### [[Old School Sweep]] (13% of attempts)
 
-### [[Deep Half Entry]] (15% of attempts)
+### [[Deep Half Entry]] (13% of attempts)
 
-### [[Lockdown Sweeps]] (10% of attempts)
+### [[Lockdown Sweeps]] (9% of attempts)
 
-### [[Electric Chair Submission]] (5% of attempts)
+### [[Electric Chair Submission]] (4% of attempts)
 
-### [[Half Guard to Back Take]] (15% of attempts)
+### [[Half Guard to Back Take]] (13% of attempts)
 
-### [[Waiter Sweep]] (10% of attempts)
+### [[Waiter Sweep]] (9% of attempts)
 
-### [[Kimura from Half Guard]] (10% of attempts)
+### [[Kimura from Half Guard]] (9% of attempts)
+
+### [[Underhook Sweep]] (11% of attempts)
 
 
 
@@ -346,11 +348,11 @@ Start in standard half guard bottom and cycle through all variations on command 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 10% |
-| Intermediate | 60% | 50% | 20% |
-| Advanced     | 75% | 65% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 58% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 1-3 minutes depending on skill level and activity
 

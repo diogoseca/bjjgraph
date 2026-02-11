@@ -163,7 +163,7 @@
           },
           {
             "technique": "Darce Setup",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 45
           }
         ]
@@ -178,7 +178,7 @@
           },
           {
             "technique": "Darce Setup",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 55
           }
         ]
@@ -307,19 +307,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 70,
-        "advanced": 80
+        "value": 75
       },
       "advancement_probability": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 75
+        "value": 70
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35
+        "value": 30
       },
       "average_time": "15-45 seconds"
     },
@@ -595,19 +589,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65
+        "value": 58
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40
+        "value": 32
       },
       "average_time": "30-90 seconds before transition or pass"
     },

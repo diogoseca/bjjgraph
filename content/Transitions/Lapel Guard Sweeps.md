@@ -157,7 +157,7 @@ The effectiveness of these sweeps stems from the control asymmetry created by th
 Strategically, these sweeps work best when the opponent attempts to stand or create distance, as their elevated center of gravity and narrowed base make them more susceptible to being swept. The sweep system integrates seamlessly with other Ringworm Guard attacks, creating dilemmas where defending the sweep opens back-taking opportunities and vice versa. Competition-proven and effective across skill levels, these techniques are essential for any serious lapel guard practitioner.
 
 **From Position**: [[Ringworm Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, these sweeps work best when the opponent attempts to stand or cre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control**: Confirm the Ringworm Guard configuration is secure with strong tension on the lapel wrap. The lapel should be threaded completely around the opponent's knee or thigh with the tail gripped firmly near your hip. (Timing: Before initiating any sweeping motion)
-2. **Secure secondary grip**: Obtain a sleeve grip on the opponent's far arm at the wrist or sleeve cuff. This prevents them from posting during the sweep and gives you control over their upper body rotation throughout the technique. (Timing: While maintaining lapel tension)
-3. **Create angle**: Hip escape away from the opponent while maintaining all grips, creating approximately 30-45 degrees of angle. This positioning compromises their base toward the sweep direction and maximizes your mechanical leverage. (Timing: As opponent shifts weight or attempts to stand)
-4. **Load opponent's weight**: Pull with both the lapel grip and sleeve grip while using your leg frames to guide the opponent's weight over their compromised leg. Their center of gravity should shift toward the trapped side. (Timing: When opponent's weight shifts forward or they begin standing)
-5. **Execute sweep**: Extend your hips and elevate with your legs while maintaining the pulling pressure on both grips. Drive the opponent over their trapped leg in the direction of the lapel wrap, using hip extension as the primary power source. (Timing: Explosive movement when weight is fully loaded)
-6. **Follow and consolidate**: Follow the sweep momentum immediately by coming up with the opponent. Release the lapel grip once you achieve top position and establish Mount control with proper base before the opponent can recover guard. (Timing: Immediately upon completing the sweep)
+1. **Establish control**: Confirm the Ringworm Guard configuration is secure with strong tension on the lapel wrap. The lapel should be threaded completely around the opponent's knee or thigh with the tail gripped firmly near your hip.
+2. **Secure secondary grip**: Obtain a sleeve grip on the opponent's far arm at the wrist or sleeve cuff. This prevents them from posting during the sweep and gives you control over their upper body rotation throughout the technique.
+3. **Create angle**: Hip escape away from the opponent while maintaining all grips, creating approximately 30-45 degrees of angle. This positioning compromises their base toward the sweep direction and maximizes your mechanical leverage.
+4. **Load opponent's weight**: Pull with both the lapel grip and sleeve grip while using your leg frames to guide the opponent's weight over their compromised leg. Their center of gravity should shift toward the trapped side.
+5. **Execute sweep**: Extend your hips and elevate with your legs while maintaining the pulling pressure on both grips. Drive the opponent over their trapped leg in the direction of the lapel wrap, using hip extension as the primary power source.
+6. **Follow and consolidate**: Follow the sweep momentum immediately by coming up with the opponent. Release the lapel grip once you achieve top position and establish Mount control with proper base before the opponent can recover guard.
 
 
 </section>
@@ -251,19 +251,15 @@ Strategically, these sweeps work best when the opponent attempts to stand or cre
 ## Training Progressions
 **Week 1-2** - Lapel threading and tension maintenance
 Practice establishing the Ringworm Guard configuration repeatedly with a cooperative partner. Focus on efficient lapel threading, proper wrap positioning around the opponent's leg, and maintaining constant tension through various movements. Drill the basic sweep motion without resistance to build muscle memory.
-(Resistance: None)
 
 **Week 3-4** - Timing and angle creation
 Work on recognizing the optimal moments to initiate sweeps based on opponent's weight shifts and movements. Practice creating angles with hip escapes while maintaining the lapel configuration. Partner provides light resistance and specific reactions to train sweep timing.
-(Resistance: Light)
 
 **Week 5-6** - Sweep combinations and transitions
 Chain the sweep with other Ringworm Guard attacks including back takes and submissions. Practice transitioning between sweep attempts when one is countered. Partner increases resistance and actively defends, requiring adjustment and combination attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Apply the sweep system in live rolling starting from the Ringworm Guard position. Identify personal timing patterns and grip preferences. Troubleshoot specific problems that arise against different body types and passing styles. Refine mount consolidation after successful sweeps.
-(Resistance: Full)
 
 
 

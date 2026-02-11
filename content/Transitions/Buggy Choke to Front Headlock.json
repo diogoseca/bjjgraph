@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Buggy Choke to Front Headlock transition represents a critical positional salvage technique when the primary choking attack meets defensive resistance or grip stripping. When the opponent successfully defends the buggy choke by turning into the attack, posting defensively, or stripping the primary collar grip, maintaining head control while transitioning to front headlock preserves offensive initiative rather than returning to neutral turtle top position.\n\nThis transition exploits the fundamental defensive dilemma created by buggy choke attacks: when opponents turn toward the choking arm to relieve pressure, they inadvertently create the exact angle and neck exposure required for front headlock control. The movement pattern involves releasing the deep collar grip while maintaining the chin strap or collar tie, then circling toward the opponent's head as they rotate. The key insight is recognizing that the buggy choke defense often creates better front headlock entries than attempting the technique from standard turtle top.\n\nStrategically, this transition transforms failed submission attempts into continued offensive pressure. Rather than viewing defensive success as a reset, skilled practitioners chain the buggy choke to front headlock as part of a systematic turtle attack flowchart where every defensive response opens different offensive opportunities. This reflects advanced positional thinking where submissions are entry points to position, and positions are entry points to submissions.",
   "key_principles": [
     "Maintain chin strap or collar tie control throughout the transition to preserve head control as the primary anchor point",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Recognize defensive turn",
-      "description": "Identify when opponent begins turning toward your choking arm to relieve pressure. This rotation creates the entry angle for front headlock and signals the optimal transition timing.",
-      "timing": "Immediate recognition required"
+      "description": "Identify when opponent begins turning toward your choking arm to relieve pressure. This rotation creates the entry angle for front headlock and signals the optimal transition timing."
     },
     {
       "step_number": 2,
       "action": "Establish secondary head control",
-      "description": "Before releasing the deep collar grip, secure chin strap control with your non-threading hand by cupping under opponent's chin or maintaining strong collar tie on the near side of their neck.",
-      "timing": "Within 1 second of recognizing turn"
+      "description": "Before releasing the deep collar grip, secure chin strap control with your non-threading hand by cupping under opponent's chin or maintaining strong collar tie on the near side of their neck."
     },
     {
       "step_number": 3,
       "action": "Release deep collar grip",
-      "description": "Extract your threading arm from under opponent's armpit while maintaining continuous head control through your secondary grip. The arm releases toward the same side as your secondary control.",
-      "timing": "Smooth extraction, not jerky"
+      "description": "Extract your threading arm from under opponent's armpit while maintaining continuous head control through your secondary grip. The arm releases toward the same side as your secondary control."
     },
     {
       "step_number": 4,
       "action": "Circle toward head",
-      "description": "Move your body in an arc toward opponent's head, following their turning motion. Your feet shuffle in a semi-circle while your upper body maintains heavy connection to their shoulder and neck complex.",
-      "timing": "Continuous movement with opponent's rotation"
+      "description": "Move your body in an arc toward opponent's head, following their turning motion. Your feet shuffle in a semi-circle while your upper body maintains heavy connection to their shoulder and neck complex."
     },
     {
       "step_number": 5,
       "action": "Establish front headlock grip",
-      "description": "Connect your hands using gable grip around opponent's neck and far shoulder, or secure chin strap with your arm wrapped around their head while your other hand controls their near arm or tricep.",
-      "timing": "Lock grips before opponent can posture"
+      "description": "Connect your hands using gable grip around opponent's neck and far shoulder, or secure chin strap with your arm wrapped around their head while your other hand controls their near arm or tricep."
     },
     {
       "step_number": 6,
       "action": "Apply perpendicular pressure",
-      "description": "Sprawl your hips away from opponent while driving chest weight down onto their upper back and shoulder. Create the classic front headlock angle with your body perpendicular to their spine, head heavy toward the mat.",
-      "timing": "Immediate after grip connection"
+      "description": "Sprawl your hips away from opponent while driving chest weight down onto their upper back and shoulder. Create the classic front headlock angle with your body perpendicular to their spine, head heavy toward the mat."
     },
     {
       "step_number": 7,
       "action": "Secure position and assess options",
-      "description": "Stabilize front headlock control with heavy downward pressure and begin assessing available attacks: guillotine, anaconda, darce, or positional transitions based on opponent's arm position and reactions.",
-      "timing": "Evaluate within 2-3 seconds"
+      "description": "Stabilize front headlock control with heavy downward pressure and begin assessing available attacks: guillotine, anaconda, darce, or positional transitions based on opponent's arm position and reactions."
     }
   ],
   "common_counters": [
@@ -146,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip transfer mechanics",
-      "description": "Practice the grip exchange from buggy choke to front headlock in isolation. Partner provides the turning motion on command while you focus on smooth transition maintaining continuous head control. No resistance, pure technique repetition.",
-      "resistance_level": "None"
+      "description": "Practice the grip exchange from buggy choke to front headlock in isolation. Partner provides the turning motion on command while you focus on smooth transition maintaining continuous head control. No resistance, pure technique repetition."
     },
     {
       "phase": "Week 3-4",
       "focus": "Movement integration",
-      "description": "Add the circling footwork and body positioning to the grip transfer. Partner turns at varying speeds while you practice following their movement and arriving at proper front headlock angle. Light defensive movements allowed.",
-      "resistance_level": "Light"
+      "description": "Add the circling footwork and body positioning to the grip transfer. Partner turns at varying speeds while you practice following their movement and arriving at proper front headlock angle. Light defensive movements allowed."
     },
     {
       "phase": "Week 5-6",
       "focus": "Decision-making flow",
-      "description": "Combine the transition with buggy choke attempts and front headlock attacks. Partner defends normally, and you must recognize when to commit to the choke versus transition. Practice chains from front headlock to guillotine, darce, and anaconda.",
-      "resistance_level": "Medium"
+      "description": "Combine the transition with buggy choke attempts and front headlock attacks. Partner defends normally, and you must recognize when to commit to the choke versus transition. Practice chains from front headlock to guillotine, darce, and anaconda."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition application",
-      "description": "Full resistance positional sparring starting from buggy choke control. Both players fight for their objectives. Score points for maintaining control, successful transitions, and submissions. Reset after position is lost or submission is achieved.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring starting from buggy choke control. Both players fight for their objectives. Score points for maintaining control, successful transitions, and submissions. Reset after position is lost or submission is achieved."
     }
   ],
   "variants_and_adaptations": [
@@ -188,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What triggers the optimal timing for transitioning from buggy choke to front headlock?",
-      "answer": "The optimal timing occurs when the opponent begins turning toward your choking arm to relieve pressure. This turning defense creates the exact angle and neck exposure required for front headlock control. Attempting the transition while the opponent is static or turning away results in lost control.",
-      "difficulty": "Beginner"
+      "answer": "The optimal timing occurs when the opponent begins turning toward your choking arm to relieve pressure. This turning defense creates the exact angle and neck exposure required for front headlock control. Attempting the transition while the opponent is static or turning away results in lost control."
     },
     {
       "question": "Your opponent strips your deep collar grip but you still have chin strap control - what immediate action do you take?",
-      "answer": "Immediately begin circling toward their head while maintaining chin strap pressure. Use the grip strip as the trigger for transition rather than attempting to re-establish the buggy choke. The chin strap provides sufficient control to complete the front headlock entry if you move immediately.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately begin circling toward their head while maintaining chin strap pressure. Use the grip strip as the trigger for transition rather than attempting to re-establish the buggy choke. The chin strap provides sufficient control to complete the front headlock entry if you move immediately."
     },
     {
       "question": "What is the critical error that causes complete loss of control during this transition?",
-      "answer": "Releasing the deep collar grip before establishing secondary head control through chin strap or collar tie. Without an anchor point during the transition, the opponent escapes completely. Always secure secondary control before releasing primary grip.",
-      "difficulty": "Beginner"
+      "answer": "Releasing the deep collar grip before establishing secondary head control through chin strap or collar tie. Without an anchor point during the transition, the opponent escapes completely. Always secure secondary control before releasing primary grip."
     },
     {
       "question": "How should your weight distribution change from buggy choke to front headlock position?",
-      "answer": "In buggy choke, weight drives downward onto opponent's back and near hip. In front headlock, weight shifts to drive diagonally downward toward opponent's shoulder while hips sprawl away, creating perpendicular pressure. The transition involves shifting from vertical to diagonal pressure application.",
-      "difficulty": "Intermediate"
+      "answer": "In buggy choke, weight drives downward onto opponent's back and near hip. In front headlock, weight shifts to drive diagonally downward toward opponent's shoulder while hips sprawl away, creating perpendicular pressure. The transition involves shifting from vertical to diagonal pressure application."
     },
     {
       "question": "Your opponent posts their far arm strongly during the transition - how do you adjust?",
-      "answer": "Recognize the posting arm as a crucifix or arm drag opportunity. Either trap the extended arm with your legs while maintaining head control for crucifix entry, or release the front headlock pursuit to execute an arm drag that exposes their back. The defensive arm post creates new offensive pathways.",
-      "difficulty": "Advanced"
+      "answer": "Recognize the posting arm as a crucifix or arm drag opportunity. Either trap the extended arm with your legs while maintaining head control for crucifix entry, or release the front headlock pursuit to execute an arm drag that exposes their back. The defensive arm post creates new offensive pathways."
     },
     {
       "question": "What is the relationship between your circling direction and the opponent's turning direction?",
-      "answer": "Always circle toward the opponent's head, following the same direction as their turning motion. This means if they turn left, you circle left around their head. Circling opposite to their turn puts you behind them without head control, losing positional advantage.",
-      "difficulty": "Beginner"
+      "answer": "Always circle toward the opponent's head, following the same direction as their turning motion. This means if they turn left, you circle left around their head. Circling opposite to their turn puts you behind them without head control, losing positional advantage."
     },
     {
       "question": "When should you convert the transition directly to a guillotine rather than establishing front headlock?",
-      "answer": "Convert directly to guillotine when the opponent drops their head during the turning motion, creating immediate arm-in or high elbow guillotine opportunity. The lowered head position makes guillotine higher percentage than establishing front headlock first and then attacking.",
-      "difficulty": "Intermediate"
+      "answer": "Convert directly to guillotine when the opponent drops their head during the turning motion, creating immediate arm-in or high elbow guillotine opportunity. The lowered head position makes guillotine higher percentage than establishing front headlock first and then attacking."
     },
     {
       "question": "How does the no-gi variation differ from the gi version of this transition?",
-      "answer": "In no-gi, the collar tie replaces collar grip as the secondary control point. The collar tie must remain tight throughout the transition because there is no collar material to grab. The mechanics remain the same, but grip security requires more active pressure against the neck rather than passive fabric control.",
-      "difficulty": "Advanced"
+      "answer": "In no-gi, the collar tie replaces collar grip as the secondary control point. The collar tie must remain tight throughout the transition because there is no collar material to grab. The mechanics remain the same, but grip security requires more active pressure against the neck rather than passive fabric control."
     }
   ],
   "safety_considerations": "This transition involves neck manipulation and head control throughout. Practice the grip transfers slowly before adding speed to avoid straining partner's neck during the circling movement. The front headlock position that results can lead to guillotine, darce, and anaconda attacks - all of which are blood chokes requiring immediate tap recognition. Partners should establish clear tap protocols before drilling. Avoid explosive jerking motions when extracting the threading arm, as this can cause shoulder strain. If either partner experiences neck discomfort during the circling phase, stop and reset the position. The transition does not involve joint locks but the subsequent attacks do - maintain awareness of partner comfort throughout positional drilling.",
@@ -270,5 +246,6 @@
       "name": "Anaconda Control",
       "relationship": "Related front headlock variant with rolling finish mechanics"
     }
-  ]
+  ],
+  "success_rate": 58
 }

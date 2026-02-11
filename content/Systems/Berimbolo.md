@@ -332,7 +332,7 @@ Berimbolo development requires progressive drilling starting with solo movement 
 - [[Guard Retention]] (Principle) - Underlying defensive concept that Berimbolo enhances by converting defense into offense
 - [[Flexibility Training]] (Principle) - Physical prerequisite for safe and effective inversion mechanics throughout Berimbolo system
 - [[Grip Fighting]] (Principle) - Fundamental skill for establishing and maintaining collar and pant grips needed for Berimbolo control
-- [[Position Transitions]] (Principle) - Framework for understanding smooth movement between De La Riva, inversion, and back control phases
+- [[Transition Management]] (Principle) - Framework for understanding smooth movement between De La Riva, inversion, and back control phases
 - [[Mikey Musumeci Berimbolo System]] (System) - Specialized expert system focused on modern Berimbolo variations and competition applications
 - [[Marcelo Garcia X-Guard System]] (System) - Complementary guard system that integrates effectively with Berimbolo to create comprehensive bottom game
 - [[Dynamic Guard System]] (System) - Broader framework that includes Berimbolo as part of modern, movement-based guard approach

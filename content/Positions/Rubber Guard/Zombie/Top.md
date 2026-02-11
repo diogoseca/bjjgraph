@@ -383,11 +383,11 @@ Bottom player attempts Old School Sweep and Electric Chair attacks while top pla
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 35% | 15% |
-| Intermediate | 72% | 50% | 25% |
-| Advanced     | 82% | 65% | 38% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 77% |
+| Advancement Probability | 58% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 2-4 minutes
 

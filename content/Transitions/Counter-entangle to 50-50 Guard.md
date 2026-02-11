@@ -157,7 +157,7 @@ The strategic value of this counter lies in its risk mitigation properties. When
 This technique requires precise timing and technical execution. Attempting the counter-entangle too early when the opponent has strong control results in accelerated positional deterioration. Waiting too long allows the opponent to consolidate into Saddle or Inside Ashi where counter-entanglement becomes impossible. The window of opportunity exists during transitional moments when the opponent is adjusting grips or attempting to advance their position.
 
 **From Position**: [[Leg Knot/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique requires precise timing and technical execution. Attempting the c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frame**: Plant your free foot on the opponent's hip to create distance and control the space. This frame prevents them from advancing to Saddle and buys time for the counter-entangle. Keep your trapped leg's heel hidden by pointing toes toward opponent. (Timing: Immediate upon recognizing Leg Knot Bottom position)
-2. **Monitor transition window**: Wait for the opponent to release their hip frame or adjust their grip to advance position. This transitional moment creates the opening needed for the counter-entangle. Do not attempt during static control phases. (Timing: During opponent's grip adjustment or positional transition)
-3. **Retract free leg**: Pull your framing leg back from their hip, bringing your knee toward your chest. This coiled position loads your leg for the weaving motion and removes the obstacle preventing you from threading through their legs. (Timing: As opponent begins their transition)
-4. **Thread through opponent's legs**: Drive your free leg between the opponent's legs, aiming to hook behind their far thigh with your heel. Your leg should pass under their bottom leg and over their top leg, creating the cross-body entanglement pattern. (Timing: Immediately after retracting - commitment is essential)
-5. **Secure the 50-50 configuration**: Lock your ankles together behind the opponent's thigh once your leg is threaded through. Both practitioners now have symmetrical leg entanglement with each person's inside leg trapped by the other's outside leg triangle. (Timing: Within 1-2 seconds of threading to prevent counter-measures)
-6. **Establish offensive grips**: Once 50-50 is secured, immediately transition from pure defense to mutual threat. Control the opponent's near foot with both hands to establish heel hook threat. This forces them to defend rather than attempt to re-establish Leg Knot Top. (Timing: Immediately upon completing ankle lock)
+1. **Establish defensive frame**: Plant your free foot on the opponent's hip to create distance and control the space. This frame prevents them from advancing to Saddle and buys time for the counter-entangle. Keep your trapped leg's heel hidden by pointing toes toward opponent.
+2. **Monitor transition window**: Wait for the opponent to release their hip frame or adjust their grip to advance position. This transitional moment creates the opening needed for the counter-entangle. Do not attempt during static control phases.
+3. **Retract free leg**: Pull your framing leg back from their hip, bringing your knee toward your chest. This coiled position loads your leg for the weaving motion and removes the obstacle preventing you from threading through their legs.
+4. **Thread through opponent's legs**: Drive your free leg between the opponent's legs, aiming to hook behind their far thigh with your heel. Your leg should pass under their bottom leg and over their top leg, creating the cross-body entanglement pattern.
+5. **Secure the 50-50 configuration**: Lock your ankles together behind the opponent's thigh once your leg is threaded through. Both practitioners now have symmetrical leg entanglement with each person's inside leg trapped by the other's outside leg triangle.
+6. **Establish offensive grips**: Once 50-50 is secured, immediately transition from pure defense to mutual threat. Control the opponent's near foot with both hands to establish heel hook threat. This forces them to defend rather than attempt to re-establish Leg Knot Top.
 
 
 </section>
@@ -252,19 +252,15 @@ This technique requires precise timing and technical execution. Attempting the c
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the threading motion with a cooperative partner from static Leg Knot Bottom position. Focus on the leg weaving pattern, ankle locking mechanics, and proper 50-50 configuration. Partner provides no resistance while you develop the motor pattern.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner begins making transitional movements from Leg Knot Top - adjusting grips, attempting to advance to Saddle. Practice recognizing these windows and executing the counter-entangle at the correct moment. Partner provides positional pressure but does not actively prevent the counter.
-(Resistance: Light)
 
 **Week 5-6** - Counter-to-counter chains
 Partner actively attempts to prevent the counter-entangle using the common counters - sprawling, attacking heel, advancing to Saddle. Practice adjusting your technique based on their response and chaining to alternatives when 50-50 is denied.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Positional sparring starting from Leg Knot Bottom. Full resistance from partner attempting to submit or advance. Practice selecting between counter-entangle to 50-50 and other defensive options based on opponent's actions and openings.
-(Resistance: Full)
 
 
 

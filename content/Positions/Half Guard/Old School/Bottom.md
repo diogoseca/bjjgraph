@@ -370,11 +370,11 @@ Start in Old School position with full controls established. Bottom player attem
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 15% |
-| Intermediate | 65% | 60% | 30% |
-| Advanced     | 80% | 75% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 20-45 seconds
 

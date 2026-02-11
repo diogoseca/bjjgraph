@@ -157,7 +157,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Side Control]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -233,12 +233,12 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure side control consolidation**: From side control, establish a strong cross-face with your near arm while driving your shoulder into opponent's jaw. Your far arm reaches across to control their far shoulder or reach under their far armpit. Your chest should be heavy on their chest, and your hips should be low and tight to their near hip. This consolidated position prevents escape and sets up the arm trap. (Timing: 2-3 seconds to settle weight) [Pressure: Firm]
-2. **Trap the near arm**: As opponent defends by keeping their near elbow tight to their ribs, slide your far arm underneath their trapped arm at the elbow level. Your forearm should wedge between their upper arm and their ribcage. Maintain heavy chest pressure to prevent them from extracting their arm. The tighter they defend, the deeper you can wedge your arm underneath theirs. (Timing: 1-2 seconds) [Pressure: Moderate]
-3. **Establish the grip configuration**: With your far arm wedged under their elbow, reach across with your near hand to grip your own wrist or forearm, creating a figure-four configuration around their trapped arm. Your grip should be tight and your elbows should be squeezed together. This creates the frame that will apply the crushing pressure. Ensure your chest remains heavy on their torso throughout this adjustment. (Timing: 1-2 seconds) [Pressure: Firm]
-4. **Position your hips for maximum pressure**: Walk your hips slightly toward opponent's head while maintaining chest pressure. This hip movement changes the angle of your torso relative to their trapped arm, increasing the crushing pressure on their shoulder. Your body should form approximately a 45-degree angle to their torso. Keep your weight consolidated and avoid lifting your chest. (Timing: 1-2 seconds) [Pressure: Firm]
-5. **Apply the crushing pressure**: Drive your chest down and forward toward the mat while simultaneously squeezing your elbows together. This creates intense crushing pressure on opponent's shoulder joint, compressing it between your chest weight and their own body. The pressure should be applied progressively over 2-3 seconds. Watch for the tap - opponent cannot verbally tap if you have a tight cross-face. (Timing: 2-3 seconds progressive pressure) [Pressure: Maximum]
-6. **Add rotational torque for the finish**: While maintaining the crushing pressure, slightly rotate your torso toward opponent's legs. This adds a twisting component to the shoulder lock, combining compression with rotation. The movement should be small and controlled - 2-3 inches of rotation maximum. This final adjustment typically forces an immediate tap as the shoulder joint is simultaneously compressed and twisted. (Timing: 1-2 seconds) [Pressure: Maximum]
+1. **Secure side control consolidation**: From side control, establish a strong cross-face with your near arm while driving your shoulder into opponent's jaw. Your far arm reaches across to control their far shoulder or reach under their far armpit. Your chest should be heavy on their chest, and your hips should be low and tight to their near hip. This consolidated position prevents escape and sets up the arm trap. (Timing: 2-3 seconds to settle weight)
+2. **Trap the near arm**: As opponent defends by keeping their near elbow tight to their ribs, slide your far arm underneath their trapped arm at the elbow level. Your forearm should wedge between their upper arm and their ribcage. Maintain heavy chest pressure to prevent them from extracting their arm. The tighter they defend, the deeper you can wedge your arm underneath theirs. (Timing: 1-2 seconds)
+3. **Establish the grip configuration**: With your far arm wedged under their elbow, reach across with your near hand to grip your own wrist or forearm, creating a figure-four configuration around their trapped arm. Your grip should be tight and your elbows should be squeezed together. This creates the frame that will apply the crushing pressure. Ensure your chest remains heavy on their torso throughout this adjustment. (Timing: 1-2 seconds)
+4. **Position your hips for maximum pressure**: Walk your hips slightly toward opponent's head while maintaining chest pressure. This hip movement changes the angle of your torso relative to their trapped arm, increasing the crushing pressure on their shoulder. Your body should form approximately a 45-degree angle to their torso. Keep your weight consolidated and avoid lifting your chest. (Timing: 1-2 seconds)
+5. **Apply the crushing pressure**: Drive your chest down and forward toward the mat while simultaneously squeezing your elbows together. This creates intense crushing pressure on opponent's shoulder joint, compressing it between your chest weight and their own body. The pressure should be applied progressively over 2-3 seconds. Watch for the tap - opponent cannot verbally tap if you have a tight cross-face. (Timing: 2-3 seconds progressive pressure)
+6. **Add rotational torque for the finish**: While maintaining the crushing pressure, slightly rotate your torso toward opponent's legs. This adds a twisting component to the shoulder lock, combining compression with rotation. The movement should be small and controlled - 2-3 inches of rotation maximum. This final adjustment typically forces an immediate tap as the shoulder joint is simultaneously compressed and twisted. (Timing: 1-2 seconds)
 
 
 </section>
@@ -257,22 +257,22 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Lifting chest off opponent to get leverage [Low DANGER]
+- **Mistake**: Lifting chest off opponent to get leverage
   - **Consequence**: Removes the crushing pressure that makes this submission effective and allows opponent to escape their arm
   - **Correction**: Keep your chest heavy and connected throughout the entire sequence. The pressure comes from driving down and forward, not from lifting and pulling.
-- **Mistake**: Applying explosive rotational force without progressive pressure [CRITICAL DANGER]
+- **Mistake**: Applying explosive rotational force without progressive pressure
   - **Consequence**: Significantly increases injury risk and may cause shoulder dislocation or rotator cuff tear
   - **Correction**: Build pressure progressively over 4-6 seconds. Add rotation only after establishing crushing pressure. Never spike or jerk the shoulder.
-- **Mistake**: Allowing hips to rise too high during finish [Medium DANGER]
+- **Mistake**: Allowing hips to rise too high during finish
   - **Consequence**: Reduces crushing pressure and allows opponent to turn into you or extract their arm
   - **Correction**: Keep hips low and tight to opponent's hip throughout. Any hip movement should be lateral (toward their head) not vertical (lifting up).
-- **Mistake**: Releasing cross-face control to focus on arm [Medium DANGER]
+- **Mistake**: Releasing cross-face control to focus on arm
   - **Consequence**: Opponent can turn their head and body toward you, escaping the submission and potentially reversing position
   - **Correction**: Maintain cross-face pressure throughout the entire submission. Your near-side shoulder drives into their jaw while your far arm executes the submission.
-- **Mistake**: Attempting submission when opponent's arm is too far from their body [Low DANGER]
+- **Mistake**: Attempting submission when opponent's arm is too far from their body
   - **Consequence**: Submission becomes ineffective as the crushing component requires the arm to be compressed against their torso
   - **Correction**: Only attempt when opponent's elbow is tight to their ribs. If their arm is extended, transition to different submission like Americana or Kimura.
-- **Mistake**: Continuing pressure after hearing popping or grinding in shoulder [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after hearing popping or grinding in shoulder
   - **Consequence**: Severe shoulder injury including rotator cuff tears, labrum damage, or dislocation
   - **Correction**: Release immediately if you hear or feel any unusual sounds from the shoulder joint. These sounds indicate structural damage is occurring.
 
@@ -335,49 +335,12 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn the mechanics without any resistance. Practice establishing side control, trapping the arm, and creating the figure-four grip. Understand the anatomy of the shoulder and why this submission is high-risk.
-- Resistance: Zero resistance
-- Safety: Partner remains completely compliant. Focus on slow, controlled movements. Practice release protocol multiple times. Understand that this submission should never be applied quickly even with experience.
-
-**Slow Progressive Pressure** (Week 3-4)
-- Focus: Begin applying light pressure with cooperative partner. Practice building pressure progressively over 5-6 seconds. Partner taps early to establish communication. Work on feeling the difference between crushing pressure and rotational pressure.
-- Resistance: Zero resistance
-- Safety: Apply only 20-30% of full pressure. Partner taps when they first feel shoulder discomfort, not when they feel pain. Practice recognizing the tap immediately and releasing smoothly. Verbal communication throughout.
-
-**Positional Setup Development** (Week 5-8)
-- Focus: Practice recognizing when opponent's defensive posture creates the opportunity for Arm Crush. Work on transitioning from other side control attacks (Americana, Kimura) to Arm Crush when opponent adjusts. Start from various side control positions.
-- Resistance: Mild resistance
-- Safety: Partner provides mild defensive framing and elbow positioning but does not actively escape. Apply pressure very slowly (6-7 seconds). Focus on control before submission. Stop immediately if partner cannot tap freely with their hand.
-
-**Defensive Response Integration** (Week 9-12)
-- Focus: Partner begins using realistic defenses (bridging, turning, pulling elbow out). Practice maintaining position and adjusting to defenses. Learn when to abandon the submission and transition to other attacks or positions.
-- Resistance: Realistic resistance
-- Safety: Both partners must be experienced with shoulder locks. Apply pressure over 5-6 seconds minimum. Partner taps early and often. If submission feels 'stuck' or difficult, release and restart rather than forcing it. This indicates improper positioning.
-
-**Situational Drilling** (Week 13-16)
-- Focus: Practice Arm Crush within the context of side control sequences. Chain from other attacks. Work on recognizing the submission opportunity during live positional sparring. Develop sensitivity to when submission is properly set versus when it should be abandoned.
-- Resistance: Full resistance
-- Safety: Only drill with trusted partners who understand the injury risks. Never use competition speed. Apply progressively over 4-5 seconds minimum. Partner must tap at first sign of discomfort. Consider this a control position that can finish, not a desperation submission.
-
-**Ongoing Refinement and Safety Review** (Month 5+)
-- Focus: Refine mechanical efficiency to require less strength. Study opponent reactions to develop higher-percentage setups. Regularly review safety protocols and injury risks. Mentor less experienced students on safe application.
-- Resistance: Full resistance
-- Safety: This submission always requires controlled, progressive application regardless of experience level. Never appropriate for competition due to injury risk. Review release protocol monthly. Stay current on shoulder injury prevention and recognition.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
 
 - [[Side Control]]
-- [[North South Control]]
+- [[North-South]]
 - [[Knee on Belly]]
 - [[Kuzure Kesa-Gatame]]
 - [[Modified Scarf Hold]]
@@ -418,6 +381,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

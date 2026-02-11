@@ -10,11 +10,6 @@
     "ankle-pick",
     "grip-fighting"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Ankle Pick is a fundamental wrestling-based takedown that has become increasingly important in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's forward pressure and weight distribution by attacking their lead ankle while simultaneously controlling their upper body. The Ankle Pick is valued for its relatively low risk profile compared to other takedown attempts, as a failed execution typically results in a neutral standing position rather than a compromised bottom position.\n\nThe effectiveness of the Ankle Pick lies in its ability to create a sudden level change combined with ankle isolation. When executed properly, the opponent's base is completely compromised as you pull their foot forward while driving their upper body backward, creating an unstoppable rotational collapse. This takedown works particularly well against opponents who maintain an upright posture or who are reluctant to engage in tie-ups. The technique requires precise timing, as the window of opportunity occurs when your opponent steps forward with their lead leg.\n\nIn the modern BJJ meta-game, the Ankle Pick serves as both a primary offensive takedown and an excellent setup for other attacks. When opponents defend the ankle grip, they often create opportunities for arm drags, snap downs, or transitions to the clinch. The ankle pick also integrates seamlessly with guard pulling strategies, as the same forward motion can be converted into a seated guard entry if the takedown is defended. This versatility makes it an essential tool for competitors who need reliable standing techniques that complement their ground game.",
   "key_principles": [
     "Create forward pressure from opponent through grip fighting and posture manipulation",
@@ -39,44 +34,37 @@
     {
       "step_number": 1,
       "action": "Establish collar tie control",
-      "description": "Secure a collar tie on the back of opponent's neck with your lead hand, keeping your elbow tight to prevent them from breaking the connection. Simultaneously control their wrist or sleeve with your other hand. Apply forward pressure to load their weight onto their lead leg while maintaining your own balanced stance with your hips low and back straight.",
-      "timing": "Initial setup phase - establish before any level change"
+      "description": "Secure a collar tie on the back of opponent's neck with your lead hand, keeping your elbow tight to prevent them from breaking the connection. Simultaneously control their wrist or sleeve with your other hand. Apply forward pressure to load their weight onto their lead leg while maintaining your own balanced stance with your hips low and back straight."
     },
     {
       "step_number": 2,
       "action": "Create angle and forward pressure",
-      "description": "Using the collar tie, pull opponent's head down and forward while circling to create a 45-degree angle to their lead leg. This angle is critical as it positions your body outside their centerline and makes their ankle accessible. Push their wrist away slightly to create space for your level change. The opponent should feel pressure to step forward onto their lead leg.",
-      "timing": "Setup phase - create opportunity for attack"
+      "description": "Using the collar tie, pull opponent's head down and forward while circling to create a 45-degree angle to their lead leg. This angle is critical as it positions your body outside their centerline and makes their ankle accessible. Push their wrist away slightly to create space for your level change. The opponent should feel pressure to step forward onto their lead leg."
     },
     {
       "step_number": 3,
       "action": "Execute explosive level change",
-      "description": "Drop your level by bending at the knees and hips while keeping your back straight and head up. Your drop should be explosive but controlled, bringing your chest down toward your lead knee. Maintain the collar tie throughout the level change to prevent opponent from backing away or sprawling. Your trailing leg should load like a spring, ready to drive forward.",
-      "timing": "Attack initiation - explosive but controlled drop"
+      "description": "Drop your level by bending at the knees and hips while keeping your back straight and head up. Your drop should be explosive but controlled, bringing your chest down toward your lead knee. Maintain the collar tie throughout the level change to prevent opponent from backing away or sprawling. Your trailing leg should load like a spring, ready to drive forward."
     },
     {
       "step_number": 4,
       "action": "Secure ankle with heel cup grip",
-      "description": "As you drop levels, reach your trail hand (the hand not controlling the collar tie) deep around opponent's lead ankle. Your hand should cup the back of their heel with your fingers wrapping around the Achilles tendon area. Your thumb should point toward their toes. This grip provides maximum control and prevents the foot from sliding out. Keep your elbow tight to your body.",
-      "timing": "Simultaneous with level change completion"
+      "description": "As you drop levels, reach your trail hand (the hand not controlling the collar tie) deep around opponent's lead ankle. Your hand should cup the back of their heel with your fingers wrapping around the Achilles tendon area. Your thumb should point toward their toes. This grip provides maximum control and prevents the foot from sliding out. Keep your elbow tight to your body."
     },
     {
       "step_number": 5,
       "action": "Drive and pull to break base",
-      "description": "Simultaneously execute two opposing forces: pull the ankle forward and up toward you with your cupped hand while driving your shoulder and collar tie hand backward into opponent's upper body. Your head should be pressed firmly against the outside of their hip or thigh for additional pressure. Drive off your back leg explosively, stepping forward as you execute these opposing forces to create rotational collapse.",
-      "timing": "Power phase - maximum explosive effort"
+      "description": "Simultaneously execute two opposing forces: pull the ankle forward and up toward you with your cupped hand while driving your shoulder and collar tie hand backward into opponent's upper body. Your head should be pressed firmly against the outside of their hip or thigh for additional pressure. Drive off your back leg explosively, stepping forward as you execute these opposing forces to create rotational collapse."
     },
     {
       "step_number": 6,
       "action": "Follow through to top position",
-      "description": "As opponent falls backward, maintain control of the ankle and continue driving forward. Your head should slide from their hip to their chest as they fall. Once they hit the mat, immediately establish top position by driving your hips forward and sprawling your legs back. Release the ankle only when you've secured a dominant position (side control, mount preparation, or passing position). Keep your weight heavy on their upper body.",
-      "timing": "Finish phase - maintain pressure until position secured"
+      "description": "As opponent falls backward, maintain control of the ankle and continue driving forward. Your head should slide from their hip to their chest as they fall. Once they hit the mat, immediately establish top position by driving your hips forward and sprawling your legs back. Release the ankle only when you've secured a dominant position (side control, mount preparation, or passing position). Keep your weight heavy on their upper body."
     },
     {
       "step_number": 7,
       "action": "Consolidate top position control",
-      "description": "After the takedown completes, quickly assess opponent's guard reaction. If they attempt to close guard, work immediately to establish a passing position. If they remain flat, advance to side control or mount. Maintain heavy shoulder pressure on their chest and begin working your preferred passing strategy. Your goal is to prevent any guard establishment and immediately begin advancing position.",
-      "timing": "Post-takedown consolidation - first 2-3 seconds critical"
+      "description": "After the takedown completes, quickly assess opponent's guard reaction. If they attempt to close guard, work immediately to establish a passing position. If they remain flat, advance to side control or mount. Maintain heavy shoulder pressure on their chest and begin working your preferred passing strategy. Your goal is to prevent any guard establishment and immediately begin advancing position."
     }
   ],
   "common_counters": [
@@ -147,38 +135,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Proper level change technique and ankle grip mechanics",
-      "description": "Practice level changes from standing without resistance, focusing on maintaining straight back, head position, and explosive drop. Drill heel cup grip on stationary partner. Work on angle creation through footwork drills. Partner provides zero resistance - just proper positioning.",
-      "resistance_level": "None"
+      "description": "Practice level changes from standing without resistance, focusing on maintaining straight back, head position, and explosive drop. Drill heel cup grip on stationary partner. Work on angle creation through footwork drills. Partner provides zero resistance - just proper positioning."
     },
     {
       "phase": "Week 3-4: Upper Body Integration",
       "focus": "Combining collar tie control with level change",
-      "description": "Add collar tie establishment and maintenance throughout level change. Partner stands still but maintains posture. Practice creating forward pressure through collar tie before dropping. Work on timing of ankle grip with level change completion. Focus on keeping head outside partner's body.",
-      "resistance_level": "Light"
+      "description": "Add collar tie establishment and maintenance throughout level change. Partner stands still but maintains posture. Practice creating forward pressure through collar tie before dropping. Work on timing of ankle grip with level change completion. Focus on keeping head outside partner's body."
     },
     {
       "phase": "Week 5-8: Opposition Force Coordination",
       "focus": "Simultaneous pull and drive mechanics",
-      "description": "Partner provides moderate resistance by maintaining base. Practice the critical moment of pulling ankle forward while driving collar tie backward. Work on explosive drive off back leg. Partner can defend passively but should not counter. Focus on creating rotational collapse of opponent's base.",
-      "resistance_level": "Medium"
+      "description": "Partner provides moderate resistance by maintaining base. Practice the critical moment of pulling ankle forward while driving collar tie backward. Work on explosive drive off back leg. Partner can defend passively but should not counter. Focus on creating rotational collapse of opponent's base."
     },
     {
       "phase": "Week 9-12: Active Defense Integration",
       "focus": "Dealing with common counters and finishing strong",
-      "description": "Partner actively defends with sprawls, backward movement, and head control. Practice transitioning to alternative attacks when ankle pick is defended. Work on following through to establish top position after successful takedown. Begin situational sparring from standing with specific goal of hitting ankle pick.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends with sprawls, backward movement, and head control. Practice transitioning to alternative attacks when ankle pick is defended. Work on following through to establish top position after successful takedown. Begin situational sparring from standing with specific goal of hitting ankle pick."
     },
     {
       "phase": "Week 13-16: Competition Integration",
       "focus": "Setups, combinations, and live application",
-      "description": "Full resistance training with ankle pick as primary attack. Develop personal setups using feints and grip fighting. Chain ankle pick with other takedown attempts and guard pulls. Practice in context of full standing exchanges with all takedown options available. Work on reading opponent's weight distribution.",
-      "resistance_level": "Full"
+      "description": "Full resistance training with ankle pick as primary attack. Develop personal setups using feints and grip fighting. Chain ankle pick with other takedown attempts and guard pulls. Practice in context of full standing exchanges with all takedown options available. Work on reading opponent's weight distribution."
     },
     {
       "phase": "Ongoing: Advanced Refinement",
       "focus": "Timing, feints, and high-level application",
-      "description": "Develop ankle pick as part of complete standing game. Work on subtle setups and disguised entries. Practice against opponents with strong sprawl defense. Study and drill specific situations where ankle pick is highest percentage. Film and analyze competition footage to refine technique.",
-      "resistance_level": "Full"
+      "description": "Develop ankle pick as part of complete standing game. Work on subtle setups and disguised entries. Practice against opponents with strong sprawl defense. Study and drill specific situations where ankle pick is highest percentage. Film and analyze competition footage to refine technique."
     }
   ],
   "variants_and_adaptations": [
@@ -211,63 +193,51 @@
   "knowledge_assessment": [
     {
       "question": "Why is creating a 45-degree angle critical before executing the ankle pick?",
-      "answer": "The 45-degree angle positions your head outside the opponent's body line rather than directly in front of them, which accomplishes three critical objectives: it makes sprawl defense much more difficult as their hips can't effectively pressure your head; it provides you with superior leverage for the pull-and-drive mechanics; and it prevents the opponent from easily securing a guillotine choke during your level change. Without this angle, you end up directly in front of the opponent where they can easily sprawl and control your head.",
-      "difficulty": "Intermediate"
+      "answer": "The 45-degree angle positions your head outside the opponent's body line rather than directly in front of them, which accomplishes three critical objectives: it makes sprawl defense much more difficult as their hips can't effectively pressure your head; it provides you with superior leverage for the pull-and-drive mechanics; and it prevents the opponent from easily securing a guillotine choke during your level change. Without this angle, you end up directly in front of the opponent where they can easily sprawl and control your head."
     },
     {
       "question": "What is the proper hand position for gripping the ankle, and why is this grip superior to other options?",
-      "answer": "The proper grip is a heel cup where your hand wraps around the back of the heel with fingers curling around the Achilles tendon area and thumb pointing toward the toes. This grip is superior because it provides maximum control over the foot's movement—the opponent cannot simply pull their foot backward or rotate it free. Gripping the top of the foot or the toes allows easy extraction, while the heel cup locks the entire foot structure and prevents any escape direction.",
-      "difficulty": "Beginner"
+      "answer": "The proper grip is a heel cup where your hand wraps around the back of the heel with fingers curling around the Achilles tendon area and thumb pointing toward the toes. This grip is superior because it provides maximum control over the foot's movement—the opponent cannot simply pull their foot backward or rotate it free. Gripping the top of the foot or the toes allows easy extraction, while the heel cup locks the entire foot structure and prevents any escape direction."
     },
     {
       "question": "How should you respond if your opponent begins to sprawl backward as you initiate your level change?",
-      "answer": "If you detect the sprawl starting, you must immediately transition rather than forcing the ankle pick. Maintain your collar tie control and convert to either an arm drag (using their backward momentum to pull them past you), a snap down (accelerating their forward fall), or pull guard using your forward momentum. The key is recognizing the sprawl early—once their hips are fully back, the ankle pick is lost and forcing it will put you in bottom turtle position.",
-      "difficulty": "Advanced"
+      "answer": "If you detect the sprawl starting, you must immediately transition rather than forcing the ankle pick. Maintain your collar tie control and convert to either an arm drag (using their backward momentum to pull them past you), a snap down (accelerating their forward fall), or pull guard using your forward momentum. The key is recognizing the sprawl early—once their hips are fully back, the ankle pick is lost and forcing it will put you in bottom turtle position."
     },
     {
       "question": "Why must the ankle pull and upper body drive occur simultaneously rather than sequentially?",
-      "answer": "The simultaneous opposing forces create a rotational collapse of the opponent's base that is nearly impossible to defend. Pulling the ankle forward loads their weight onto that leg while the backward drive on their upper body shifts their center of gravity behind their base. These forces together create a moment arm that breaks their structure. If done sequentially, the opponent can compensate by hopping on one leg or posting their hands—their body can adapt to single-direction force but cannot defend against properly timed opposing rotational forces.",
-      "difficulty": "Intermediate"
+      "answer": "The simultaneous opposing forces create a rotational collapse of the opponent's base that is nearly impossible to defend. Pulling the ankle forward loads their weight onto that leg while the backward drive on their upper body shifts their center of gravity behind their base. These forces together create a moment arm that breaks their structure. If done sequentially, the opponent can compensate by hopping on one leg or posting their hands—their body can adapt to single-direction force but cannot defend against properly timed opposing rotational forces."
     },
     {
       "question": "What are the key indicators that your opponent's weight is properly loaded on their lead leg for ankle pick opportunity?",
-      "answer": "The optimal timing occurs when: their lead knee is slightly bent indicating weight bearing, their heel is firmly planted on the mat (not raised), their upper body posture shows slight forward lean from your collar tie pressure, and they are not actively moving their feet (stepping or circling). Additionally, if you can feel tension in their collar tie resistance rather than them backing away, this indicates forward weight distribution. The moment right after they complete a forward step is often ideal timing.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing occurs when: their lead knee is slightly bent indicating weight bearing, their heel is firmly planted on the mat (not raised), their upper body posture shows slight forward lean from your collar tie pressure, and they are not actively moving their feet (stepping or circling). Additionally, if you can feel tension in their collar tie resistance rather than them backing away, this indicates forward weight distribution. The moment right after they complete a forward step is often ideal timing."
     },
     {
       "question": "Why is maintaining the collar tie throughout the level change considered essential for ankle pick success?",
-      "answer": "The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level (maintaining the distance needed for ankle access), it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective.",
-      "difficulty": "Beginner"
+      "answer": "The collar tie serves multiple critical functions: it prevents the opponent from backing away as you drop your level (maintaining the distance needed for ankle access), it provides the upper body control point for the backward drive force that completes the takedown, it helps mask your level change intention through maintained upper body contact, and it prevents the opponent from achieving dominant head control or guillotine position during your attack. Without maintained collar tie, the opponent can simply step backward and your ankle grip becomes ineffective."
     },
     {
       "question": "Your opponent posts their hand on your head as you begin your level change. How do you adjust your attack?",
-      "answer": "When an opponent posts their hand on your head, they create a defensive frame but also extend their arm and compromise their posture. Use this as an opportunity to immediately transition to an arm drag or two-on-one control on their posting arm. Their extended arm creates vulnerability—secure wrist control and pull their arm across their body to off-balance them. This often creates a better angle for a follow-up ankle pick or exposes their back for a back take. The key is recognizing the post immediately and attacking the exposed arm rather than fighting through it.",
-      "difficulty": "Intermediate"
+      "answer": "When an opponent posts their hand on your head, they create a defensive frame but also extend their arm and compromise their posture. Use this as an opportunity to immediately transition to an arm drag or two-on-one control on their posting arm. Their extended arm creates vulnerability—secure wrist control and pull their arm across their body to off-balance them. This often creates a better angle for a follow-up ankle pick or exposes their back for a back take. The key is recognizing the post immediately and attacking the exposed arm rather than fighting through it."
     },
     {
       "question": "What specific direction of force should your head apply during the finish of the ankle pick?",
-      "answer": "Your head should apply pressure in a diagonal direction—driving forward and slightly upward into the outside of opponent's hip or thigh. This head pressure serves as a third control point that works in concert with the ankle pull and collar tie drive. The angle of head pressure is critical: too much upward pressure lifts you up and reduces drive power, while purely forward pressure doesn't create the rotational moment. The diagonal pressure vector multiplies the effectiveness of your opposing forces and prevents opponent from stepping over your head to recover balance.",
-      "difficulty": "Advanced"
+      "answer": "Your head should apply pressure in a diagonal direction—driving forward and slightly upward into the outside of opponent's hip or thigh. This head pressure serves as a third control point that works in concert with the ankle pull and collar tie drive. The angle of head pressure is critical: too much upward pressure lifts you up and reduces drive power, while purely forward pressure doesn't create the rotational moment. The diagonal pressure vector multiplies the effectiveness of your opposing forces and prevents opponent from stepping over your head to recover balance."
     },
     {
       "question": "What grip requirements must be established before you can safely attempt the ankle pick level change?",
-      "answer": "Before attempting the level change, you must have: a secure collar tie with your lead hand maintaining constant pressure on the back of opponent's neck, wrist or sleeve control with your other hand to prevent them from achieving their own head control, and your collar tie elbow must be tight and connected to prevent them from breaking your grip. Without these grip prerequisites, you risk shooting into a guillotine choke, having your head controlled during the level change, or having the opponent simply step away before you can reach their ankle.",
-      "difficulty": "Beginner"
+      "answer": "Before attempting the level change, you must have: a secure collar tie with your lead hand maintaining constant pressure on the back of opponent's neck, wrist or sleeve control with your other hand to prevent them from achieving their own head control, and your collar tie elbow must be tight and connected to prevent them from breaking your grip. Without these grip prerequisites, you risk shooting into a guillotine choke, having your head controlled during the level change, or having the opponent simply step away before you can reach their ankle."
     },
     {
       "question": "When the ankle pick is blocked, what are the highest-percentage chain attacks to pursue?",
-      "answer": "When the ankle pick is blocked, the three highest-percentage chain attacks depend on opponent's defensive reaction. If they sprawl backward, immediately transition to a snap down since their weight shifts forward during sprawl recovery. If they lift their ankle and hop, follow aggressively with a double leg entry since their base is compromised on one leg. If they circle away, use your collar tie to pull them into an arm drag toward their retreating side. The common thread is maintaining forward pressure and immediately capitalizing on their defensive movement rather than resetting to neutral.",
-      "difficulty": "Advanced"
+      "answer": "When the ankle pick is blocked, the three highest-percentage chain attacks depend on opponent's defensive reaction. If they sprawl backward, immediately transition to a snap down since their weight shifts forward during sprawl recovery. If they lift their ankle and hop, follow aggressively with a double leg entry since their base is compromised on one leg. If they circle away, use your collar tie to pull them into an arm drag toward their retreating side. The common thread is maintaining forward pressure and immediately capitalizing on their defensive movement rather than resetting to neutral."
     },
     {
       "question": "What is the optimal timing window for initiating the ankle pick during a standing exchange?",
-      "answer": "The optimal timing window occurs during three specific moments: immediately after opponent completes a forward step and their lead foot plants (weight committed before they can react), when they are pushing forward into your collar tie pressure (their momentum assists your attack), or when they are focused on defending a different threat like a snap down attempt (cognitive load prevents anticipating the ankle pick). The worst timing is when opponent is actively moving laterally, when they are backing away, or when they have achieved dominant head position over you.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing window occurs during three specific moments: immediately after opponent completes a forward step and their lead foot plants (weight committed before they can react), when they are pushing forward into your collar tie pressure (their momentum assists your attack), or when they are focused on defending a different threat like a snap down attempt (cognitive load prevents anticipating the ankle pick). The worst timing is when opponent is actively moving laterally, when they are backing away, or when they have achieved dominant head position over you."
     },
     {
       "question": "How does the entry angle for the outside ankle pick variation differ from the standard inside ankle pick?",
-      "answer": "The outside ankle pick attacks from the opposite angle—instead of circling to create angle toward opponent's lead leg centerline, you circle to the outside of their lead leg. Your head pressure goes to the far outside of their hip rather than the near side, and you pull their ankle across their body toward your opposite hip. This variation requires longer reach and more aggressive circling to establish position. The outside entry is particularly effective when opponent defends the inside angle by turning their hips away, as it attacks the opening they create in their stance.",
-      "difficulty": "Intermediate"
+      "answer": "The outside ankle pick attacks from the opposite angle—instead of circling to create angle toward opponent's lead leg centerline, you circle to the outside of their lead leg. Your head pressure goes to the far outside of their hip rather than the near side, and you pull their ankle across their body toward your opposite hip. This variation requires longer reach and more aggressive circling to establish position. The outside entry is particularly effective when opponent defends the inside angle by turning their hips away, as it attacks the opening they create in their stance."
     }
   ],
   "safety_considerations": "When practicing the Ankle Pick, both training partners must be aware of specific safety concerns. The person executing the technique should ensure controlled descent during level changes to avoid knee injuries—dropping too quickly or with poor form can damage your own knees. Always practice on appropriate mat surfaces as the finish involves driving the opponent backward to the mat. The person being taken down should learn proper breakfall technique and avoid posting their arms rigidly to catch their fall, as this can cause wrist, elbow, or shoulder injuries. When drilling at higher resistance levels, both partners should communicate about pace and intensity. The ankle grip should be firm but not torqued—avoid twisting the ankle joint as this can cause ligament damage. When defending, avoid trying to hop excessively on one leg as this can lead to ankle rolls or knee injuries if you lose balance. Start all training at low speed and gradually increase intensity only when proper mechanics are established. Competition-level drilling should only occur after both partners have developed proper technique and understand how to safely receive takedowns.",
@@ -327,5 +297,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

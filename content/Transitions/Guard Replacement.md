@@ -163,7 +163,7 @@ The technique is particularly critical in modern BJJ where guard retention is vi
 Guard replacement serves as a bridge between losing guard control and being fully passed. It represents the last line of defense before the opponent secures a passing position, making it one of the highest-priority skills for any bottom player to master. The technique can be applied from various compromised positions including when the opponent has achieved an underhook, established crossface control, or begun to step over the legs.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -213,13 +213,13 @@ Guard replacement serves as a bridge between losing guard control and being full
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Create defensive frames using your hands and forearms against the opponent's shoulders, hips, or head. The frames should be rigid enough to create distance but not so extended that they can be easily collapsed. Position your elbows at approximately 90 degrees, using skeletal structure rather than pure muscle strength to maintain the barrier. Your hands should be active, constantly adjusting to redirect opponent's pressure away from your centerline. (Timing: Immediately upon recognizing guard is being compromised)
-2. **Hip escape (shrimp)**: Execute a powerful hip escape by turning onto your side, posting your inside foot on the mat, and driving your hips away from the opponent at approximately a 45-degree angle. Your outside shoulder should touch or nearly touch the mat as you create this angle. The shrimp should be explosive enough to create 6-12 inches of space between your hip and the opponent. Maintain your frames throughout this movement to prevent the opponent from following your hips. (Timing: Execute when opponent commits weight forward)
-3. **Create angle**: As you shrimp, rotate your body to create an angle perpendicular or nearly perpendicular to your opponent's torso. This angle is critical because it increases the distance your legs must travel to recover guard while making it more difficult for the opponent to pressure directly into you. Your head should move away from the opponent while your hips create space. Keep your shoulders off the mat and weight on your side to maintain mobility. (Timing: Simultaneous with hip escape)
-4. **Shield with near leg**: Bring your near-side leg (the leg closest to the opponent) up with knee bent at approximately 90 degrees, creating a shield between you and the opponent. This knee should be positioned near your chest with your foot ready to post on the opponent's hip, thigh, or torso. This leg serves as a barrier that prevents the opponent from immediately closing the distance you've created while also setting up for the recovery of full guard. (Timing: Immediately after creating angle)
-5. **Swing far leg to recover**: While maintaining the near-leg shield, swing your far-side leg in a wide arc around the opponent's body, aiming to position it on the opponent's far hip or back. This creates a hook that prevents the opponent from maintaining their passing angle. The far leg should move with speed and commitment, as hesitation allows the opponent to counter. As the leg swings, you may need to adjust your angle again with another small shrimp to create the necessary clearance. (Timing: As soon as near-leg shield is established)
-6. **Establish guard position**: Once both legs are on the opponent's hips or positioned around their body, immediately work to establish a specific guard position such as closed guard, butterfly guard, or an open guard variant. Pull the opponent into your guard using your grips, close your legs if going to closed guard, or establish hooks if using butterfly or other open guard positions. Do not remain in a neutral position—immediately begin working your guard game to prevent another passing attempt. (Timing: Immediately upon recovering leg position)
-7. **Secure grips and control**: With guard re-established, immediately upgrade your grips to more controlling positions. This might include breaking the opponent's posture with collar grips, controlling sleeves to prevent hand posting, or establishing double underhooks. The goal is to stabilize your guard position and begin offensive actions before the opponent can reorganize their passing attack. Your hips should remain active, constantly adjusting to maintain optimal guard position. (Timing: Final step to consolidate position)
+1. **Establish frames**: Create defensive frames using your hands and forearms against the opponent's shoulders, hips, or head. The frames should be rigid enough to create distance but not so extended that they can be easily collapsed. Position your elbows at approximately 90 degrees, using skeletal structure rather than pure muscle strength to maintain the barrier. Your hands should be active, constantly adjusting to redirect opponent's pressure away from your centerline.
+2. **Hip escape (shrimp)**: Execute a powerful hip escape by turning onto your side, posting your inside foot on the mat, and driving your hips away from the opponent at approximately a 45-degree angle. Your outside shoulder should touch or nearly touch the mat as you create this angle. The shrimp should be explosive enough to create 6-12 inches of space between your hip and the opponent. Maintain your frames throughout this movement to prevent the opponent from following your hips.
+3. **Create angle**: As you shrimp, rotate your body to create an angle perpendicular or nearly perpendicular to your opponent's torso. This angle is critical because it increases the distance your legs must travel to recover guard while making it more difficult for the opponent to pressure directly into you. Your head should move away from the opponent while your hips create space. Keep your shoulders off the mat and weight on your side to maintain mobility.
+4. **Shield with near leg**: Bring your near-side leg (the leg closest to the opponent) up with knee bent at approximately 90 degrees, creating a shield between you and the opponent. This knee should be positioned near your chest with your foot ready to post on the opponent's hip, thigh, or torso. This leg serves as a barrier that prevents the opponent from immediately closing the distance you've created while also setting up for the recovery of full guard.
+5. **Swing far leg to recover**: While maintaining the near-leg shield, swing your far-side leg in a wide arc around the opponent's body, aiming to position it on the opponent's far hip or back. This creates a hook that prevents the opponent from maintaining their passing angle. The far leg should move with speed and commitment, as hesitation allows the opponent to counter. As the leg swings, you may need to adjust your angle again with another small shrimp to create the necessary clearance.
+6. **Establish guard position**: Once both legs are on the opponent's hips or positioned around their body, immediately work to establish a specific guard position such as closed guard, butterfly guard, or an open guard variant. Pull the opponent into your guard using your grips, close your legs if going to closed guard, or establish hooks if using butterfly or other open guard positions. Do not remain in a neutral position—immediately begin working your guard game to prevent another passing attempt.
+7. **Secure grips and control**: With guard re-established, immediately upgrade your grips to more controlling positions. This might include breaking the opponent's posture with collar grips, controlling sleeves to prevent hand posting, or establishing double underhooks. The goal is to stabilize your guard position and begin offensive actions before the opponent can reorganize their passing attack. Your hips should remain active, constantly adjusting to maintain optimal guard position.
 
 
 </section>
@@ -269,27 +269,21 @@ Guard replacement serves as a bridge between losing guard control and being full
 ## Training Progressions
 **Week 1-2: Movement Patterns** - Developing proper shrimping mechanics and frame structure
 Practice solo shrimping drills focusing on creating proper angles (45 degrees or more from starting position). Work on establishing frames against a wall or training dummy. Drill the motion of near-leg shield while shrimping. Partner practices the movement pattern with zero resistance, focusing purely on mechanics and body positioning.
-(Resistance: None)
 
 **Week 3-4: Timing and Recognition** - Learning when to initiate guard replacement
 Partner applies slow, predictable guard passes while you work on recognizing the moment guard is compromised and initiating the replacement sequence. Practice reading opponent's weight distribution and timing shrimps for when they commit forward. Begin adding light resistance, with partner maintaining steady pressure but not actively countering escape attempts.
-(Resistance: Light)
 
 **Week 5-8: Chaining Multiple Attempts** - Developing persistence and adaptability
 Partner begins following your hips and countering your escape attempts, requiring you to chain 2-3 shrimps together to complete the guard recovery. Practice switching directions mid-sequence if one direction is blocked. Begin incorporating grip fighting and frame fighting while executing the technical movement. Increase resistance to 50-60% effort from partner.
-(Resistance: Medium)
 
 **Week 9-12: Position-Specific Applications** - Applying guard replacement from various compromised positions
 Practice guard replacement specifically from situations like opponent has underhook, opponent has crossface, opponent is in headquarters position, and opponent has begun leg weave. Each position requires slight modifications to the basic technique. Partner applies realistic passing pressure appropriate to each scenario.
-(Resistance: Medium)
 
 **Week 13-16: Full Resistance and Competition Scenarios** - Executing under pressure against skilled passers
 Partner attempts their best guard passes with full resistance while you work solely on guard replacement and retention. Add time pressure (must recover guard within 10 seconds or restart). Begin incorporating guard replacement into live rolling, specifically focusing on defensive rounds where you start in compromised positions.
-(Resistance: Full)
 
 **Ongoing: Integration and Refinement** - Seamless integration with complete guard retention system
 Guard replacement becomes an automatic response integrated with other retention concepts like granby rolls, technical standups, and inversion. Work on flowing between multiple retention techniques in a single sequence. Analyze video of your rolling to identify patterns where guard replacement could be applied. Continue drilling against progressively more skilled training partners.
-(Resistance: Full)
 
 
 

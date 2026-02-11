@@ -167,7 +167,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (specifically glenohumeral joint and rotator cuff)
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -247,13 +247,13 @@ From a strategic perspective, the Americana exemplifies positional control befor
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate and extend the target arm**: From mount or side control, swim your hand under the opponent's tricep and establish a deep grip on their wrist. Pull the arm away from their body at approximately 90 degrees, creating space between their elbow and torso. The opponent's palm should be facing toward their own head. Maintain heavy chest pressure throughout this isolation to prevent them from pulling the arm back to their body or establishing defensive frames. (Timing: 1-2 seconds) [Pressure: Moderate]
-2. **Establish figure-four wrist control**: Thread your other hand under their wrist and grab your own wrist, creating a figure-four configuration. Your bottom hand controls their wrist while your top hand reinforces by gripping your own wrist. The opponent's hand should be trapped between your forearms. Ensure your grip is tight enough to prevent slipping but not so tight that you fatigue quickly. Your forearms should form a 'C' shape around their wrist. (Timing: 1 second) [Pressure: Firm]
-3. **Pin the elbow to create the fulcrum**: Drive your chest weight down onto their upper arm, pinning their elbow to the mat (from mount) or to their own ribcage/body (from side control). This pinned elbow becomes the fulcrum for the lever arm that creates the shoulder lock. The opponent should feel pressure on their elbow but not pain at this stage. Ensure your own elbows are tucked tight to your sides to maximize mechanical advantage. (Timing: 1 second) [Pressure: Firm]
-4. **Adjust angle and prepare for rotation**: Slightly adjust your body position to create the optimal angle for rotation. From mount, this may mean sitting slightly toward the trapped arm side. From side control, ensure your hips are heavy and your chest is covering their shoulder. The opponent's hand should be positioned near their own head with the forearm perpendicular to the mat. Check that their elbow remains pinned and that you have solid base with your legs. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Apply rotational pressure toward their head**: Begin rotating their hand in a smooth arc toward the mat near their head, as if painting a rainbow from their waist toward their ear. The rotation should be steady and controlled, not sudden. Keep your elbows tight to your body and use your entire upper body to create the rotation rather than just arm strength. The opponent's shoulder will begin to experience external rotation and hyperextension. Apply pressure incrementally, pausing to allow your partner to tap. (Timing: 2-3 seconds progressive) [Pressure: Moderate]
-6. **Maintain control and pressure until tap**: Continue the controlled rotation while maintaining all other points of control: chest pressure, elbow pin, wrist grip, and base. The opponent should tap when their shoulder reaches the limit of its range of motion. Never crank suddenly or force through resistance. If you feel significant resistance or hear any popping sounds, release immediately. Upon receiving the tap, follow the release protocol carefully to avoid injury during the release phase. (Timing: 1-2 seconds to tap) [Pressure: Firm]
-7. **Controlled release and position maintenance**: Upon tap, immediately stop rotational pressure but maintain positional control. Slowly guide their arm back to neutral position before releasing the figure-four grip. Keep your chest heavy to maintain mount or side control. Check verbally with your partner that they are okay. Use this controlled release as an opportunity to reinforce safe training practices and build trust with training partners. (Timing: 2-3 seconds release) [Pressure: Light]
+1. **Isolate and extend the target arm**: From mount or side control, swim your hand under the opponent's tricep and establish a deep grip on their wrist. Pull the arm away from their body at approximately 90 degrees, creating space between their elbow and torso. The opponent's palm should be facing toward their own head. Maintain heavy chest pressure throughout this isolation to prevent them from pulling the arm back to their body or establishing defensive frames. (Timing: 1-2 seconds)
+2. **Establish figure-four wrist control**: Thread your other hand under their wrist and grab your own wrist, creating a figure-four configuration. Your bottom hand controls their wrist while your top hand reinforces by gripping your own wrist. The opponent's hand should be trapped between your forearms. Ensure your grip is tight enough to prevent slipping but not so tight that you fatigue quickly. Your forearms should form a 'C' shape around their wrist. (Timing: 1 second)
+3. **Pin the elbow to create the fulcrum**: Drive your chest weight down onto their upper arm, pinning their elbow to the mat (from mount) or to their own ribcage/body (from side control). This pinned elbow becomes the fulcrum for the lever arm that creates the shoulder lock. The opponent should feel pressure on their elbow but not pain at this stage. Ensure your own elbows are tucked tight to your sides to maximize mechanical advantage. (Timing: 1 second)
+4. **Adjust angle and prepare for rotation**: Slightly adjust your body position to create the optimal angle for rotation. From mount, this may mean sitting slightly toward the trapped arm side. From side control, ensure your hips are heavy and your chest is covering their shoulder. The opponent's hand should be positioned near their own head with the forearm perpendicular to the mat. Check that their elbow remains pinned and that you have solid base with your legs. (Timing: 1-2 seconds)
+5. **Apply rotational pressure toward their head**: Begin rotating their hand in a smooth arc toward the mat near their head, as if painting a rainbow from their waist toward their ear. The rotation should be steady and controlled, not sudden. Keep your elbows tight to your body and use your entire upper body to create the rotation rather than just arm strength. The opponent's shoulder will begin to experience external rotation and hyperextension. Apply pressure incrementally, pausing to allow your partner to tap. (Timing: 2-3 seconds progressive)
+6. **Maintain control and pressure until tap**: Continue the controlled rotation while maintaining all other points of control: chest pressure, elbow pin, wrist grip, and base. The opponent should tap when their shoulder reaches the limit of its range of motion. Never crank suddenly or force through resistance. If you feel significant resistance or hear any popping sounds, release immediately. Upon receiving the tap, follow the release protocol carefully to avoid injury during the release phase. (Timing: 1-2 seconds to tap)
+7. **Controlled release and position maintenance**: Upon tap, immediately stop rotational pressure but maintain positional control. Slowly guide their arm back to neutral position before releasing the figure-four grip. Keep your chest heavy to maintain mount or side control. Check verbally with your partner that they are okay. Use this controlled release as an opportunity to reinforce safe training practices and build trust with training partners. (Timing: 2-3 seconds release)
 
 
 </section>
@@ -273,25 +273,25 @@ From a strategic perspective, the Americana exemplifies positional control befor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying sudden jerking or spiking motion during the finish [CRITICAL DANGER]
+- **Mistake**: Applying sudden jerking or spiking motion during the finish
   - **Consequence**: High risk of severe rotator cuff tear, labral damage, or shoulder dislocation with potential for permanent injury
   - **Correction**: Apply smooth, progressive pressure over 3-5 seconds minimum. Think 'painting a rainbow' with their hand rather than forcing it down. Pause at resistance to allow tap.
-- **Mistake**: Releasing chest pressure and base while attempting the submission [Medium DANGER]
+- **Mistake**: Releasing chest pressure and base while attempting the submission
   - **Consequence**: Opponent can easily bridge, roll, or escape, resulting in lost position and potentially ending up in opponent's guard or worse
   - **Correction**: Keep chest heavy throughout the entire sequence. Your weight distribution should be 70% on their upper body. Maintain wide base with knees driven into their sides from mount or hip pressure from side control.
-- **Mistake**: Failing to pin the elbow before applying rotational pressure [Low DANGER]
+- **Mistake**: Failing to pin the elbow before applying rotational pressure
   - **Consequence**: The submission loses effectiveness as the opponent can rotate their entire arm, distribute pressure across the shoulder girdle, and potentially escape or counter
   - **Correction**: Ensure the elbow is completely pinned to the mat or their body before beginning rotation. The pinned elbow is the fulcrum - without it, you have no lever arm and no submission.
-- **Mistake**: Using arm strength alone rather than body weight and positioning [Low DANGER]
+- **Mistake**: Using arm strength alone rather than body weight and positioning
   - **Consequence**: Rapid fatigue, loss of leverage advantage, and opportunity for stronger opponents to muscle out of the submission or reverse position
   - **Correction**: Keep your elbows tight to your sides and use your entire upper body rotation to create the submission. Your arms should maintain the figure-four shape while your torso does the work. Think 'whole body rotation' not 'arm curl.'
-- **Mistake**: Allowing the opponent's hand to point away from their head during setup [Low DANGER]
+- **Mistake**: Allowing the opponent's hand to point away from their head during setup
   - **Consequence**: The angle becomes wrong for shoulder lock mechanics, pressure disperses ineffectively, and the opponent can easily defend or escape by rolling their shoulder
   - **Correction**: Ensure their palm faces toward their own head throughout the submission. The proper angle creates external rotation - if their hand points away, you're creating internal rotation which is much weaker and ineffective.
-- **Mistake**: Gripping too high on the opponent's wrist or hand [Low DANGER]
+- **Mistake**: Gripping too high on the opponent's wrist or hand
   - **Consequence**: The grip can slip during pressure application, reducing control and potentially losing the submission entirely as they pull free
   - **Correction**: Grip directly on the wrist bones (radius and ulna) rather than the hand. Your figure-four should trap their wrist between your forearms, creating a secure vice that cannot slip during rotation.
-- **Mistake**: Continuing to apply pressure after feeling or hearing popping in the shoulder [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after feeling or hearing popping in the shoulder
   - **Consequence**: Catastrophic shoulder injury including dislocation, complete rotator cuff tears, or labral destruction requiring surgical repair
   - **Correction**: Any popping, clicking, or grinding sensation requires immediate release of all pressure. These sounds often indicate structural damage is occurring. Release immediately and check partner's condition. Never assume popping is normal.
 
@@ -358,43 +358,6 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Week 1-2: Technical Understanding and Mechanics** (First 2 weeks of learning)
-- Focus: Learn proper grip mechanics, elbow pinning, and rotation angle without any resistance. Partner remains completely still while you establish position, grips, and understand the movement pattern. Emphasis on feeling the correct angle and understanding shoulder anatomy.
-- Resistance: Zero resistance
-- Safety: No pressure applied to shoulder - only positioning and grip practice. Partner should feel no discomfort. Focus on recognizing the setup position and proper hand placement. Discuss anatomy and injury risks explicitly.
-
-**Week 3-4: Slow Execution with Communication** (Weeks 3-4)
-- Focus: Execute complete Americana with 10-20% pressure maximum while partner provides verbal feedback about pressure levels and discomfort. Practice tap recognition and immediate release protocol. Partner begins light defensive movement (pulling arm back, bridging gently) to create realistic but controlled scenarios.
-- Resistance: Mild resistance
-- Safety: Establish clear communication protocols. Partner must verbalize discomfort levels ('I feel pressure,' 'That's getting tight,' etc.). Practice release protocol multiple times. Apply pressure over 5-7 seconds minimum. Stop at first sign of discomfort.
-
-**Week 5-8: Position Integration and Problem Solving** (Weeks 5-8)
-- Focus: Practice Americana from multiple positions (mount, side control, knee on belly). Learn to maintain position while setting up submission. Partner provides realistic defensive frames and grips. Drill transitions between Americana attempts and other attacks (armbar, Kimura) when defenses succeed.
-- Resistance: Realistic resistance
-- Safety: Maintain slow application speed (3-5 seconds minimum). Focus on control before submission - never sacrifice position for the finish. Practice recognizing when angle is wrong and resetting rather than forcing. Emphasize that control matters more than tap.
-
-**Week 9-12: Situational Sparring and Timing** (Weeks 9-12)
-- Focus: Begin positional sparring from mount and side control with goal of securing Americana against progressive resistance. Partner defends intelligently but allows submission if setup is clean. Work on creating reactions and combinations. Learn to recognize high-percentage opportunities versus forced attempts.
-- Resistance: Realistic resistance
-- Safety: Continue slow application in live training. Learn to differentiate between drilling and sparring intensity - even in sparring, shoulder locks require controlled application. Never spike or jerk. If you miss the opportunity, reset and try again rather than forcing.
-
-**Month 4-6: Competition Preparation and Advanced Timing** (Months 4-6)
-- Focus: Integrate Americana into overall game plan from dominant positions. Practice against increasingly skilled opponents who defend expertly. Learn to chain Americana with other submissions and transitions. Develop ability to recognize and capitalize on momentary openings during dynamic exchanges.
-- Resistance: Full resistance
-- Safety: Even at full resistance, maintain controlled application. In competition, apply quickly but smoothly - never spike. Know your partner's flexibility and injury history. Some training partners may have previous shoulder injuries requiring extra caution. Always discuss limitations before intense training.
-
-**Ongoing Refinement and Teaching** (Month 6+)
-- Focus: Develop deep understanding of mechanical variations, individual body type adjustments, and ability to teach the technique safely to others. Explore connections to entire shoulder lock family (Kimura, omoplata, etc.). Understand Americana's role in overall positional hierarchy and submission chains.
-- Resistance: Full resistance
-- Safety: As you become proficient, your responsibility for partner safety increases. Model proper application speed and control for junior practitioners. Develop sensitivity to feel when partner is in danger before they tap. Understand that mastery includes knowing when NOT to finish the submission in training.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -453,6 +416,7 @@ From a strategic perspective, the Americana exemplifies positional control befor
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

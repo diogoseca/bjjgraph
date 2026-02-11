@@ -157,7 +157,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -233,12 +233,12 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break Posture and Control Arm**: From closed guard, establish a strong collar grip with one hand and sleeve grip with the other. Break the opponent's posture by pulling down on the collar while simultaneously pulling one arm across your centerline. The opponent's elbow should cross your body's midline, creating the angle needed for triangle entry. Use your legs to squeeze and assist in breaking posture if needed. (Timing: 2-3 seconds of sustained pulling pressure) [Pressure: Moderate]
-2. **Create Angle and Swing Leg Over**: While maintaining the broken posture, use your hips to create a 45-degree angle to the side of the arm you're attacking. Open your guard and immediately swing your leg (same side as the attacking arm) high over the opponent's shoulder and behind their head. The back of your knee should touch the side of their neck. Keep the other leg active on their hip to prevent them from posturing up or passing. (Timing: 1-2 seconds - must be quick to prevent escape) [Pressure: Light]
-3. **Lock the Triangle Configuration**: Bring your opposite leg across to create the figure-four lock. Place your ankle behind the knee of the leg that's over their shoulder. Ensure the opponent's shoulder is pulled tight to your hip - this is critical as their own shoulder will be compressing one side of their neck. The trapped arm should be pulled across your body, keeping their elbow tight to your centerline. (Timing: 2-3 seconds to establish secure lock) [Pressure: Moderate]
-4. **Adjust Angle for Optimal Compression**: Once locked, immediately adjust your angle to approximately 45 degrees from your opponent's centerline. This angle is crucial - being too square allows them to stack you, being too perpendicular reduces pressure. Scoot your hips toward the side of their trapped arm while simultaneously pulling their head down. Your legs should form a straight line from their shoulder through their neck. (Timing: 1-2 seconds of angle adjustment) [Pressure: Moderate]
-5. **Secure Head Control**: Grab behind the opponent's head with both hands, interlacing fingers or using a gable grip. Pull their head down toward your chest while keeping their trapped arm tight across your body. The pulling motion should be smooth and controlled, not jerking. Some practitioners prefer to control the arm at the wrist or triceps instead of grabbing the head directly. (Timing: Maintain throughout finish - 3-5 seconds) [Pressure: Firm]
-6. **Squeeze and Finish**: Squeeze your knees together while simultaneously pulling down on the head and lifting your hips slightly. The pressure comes from three directions: legs squeezing together, hips lifting, and hands pulling head down. Apply pressure progressively over 3-5 seconds in training. Monitor partner's reaction closely and release immediately upon tap. The choke works by compressing both carotid arteries - one against their own shoulder, one against your leg. (Timing: 3-5 seconds progressive squeeze in training) [Pressure: Maximum]
+1. **Break Posture and Control Arm**: From closed guard, establish a strong collar grip with one hand and sleeve grip with the other. Break the opponent's posture by pulling down on the collar while simultaneously pulling one arm across your centerline. The opponent's elbow should cross your body's midline, creating the angle needed for triangle entry. Use your legs to squeeze and assist in breaking posture if needed. (Timing: 2-3 seconds of sustained pulling pressure)
+2. **Create Angle and Swing Leg Over**: While maintaining the broken posture, use your hips to create a 45-degree angle to the side of the arm you're attacking. Open your guard and immediately swing your leg (same side as the attacking arm) high over the opponent's shoulder and behind their head. The back of your knee should touch the side of their neck. Keep the other leg active on their hip to prevent them from posturing up or passing. (Timing: 1-2 seconds - must be quick to prevent escape)
+3. **Lock the Triangle Configuration**: Bring your opposite leg across to create the figure-four lock. Place your ankle behind the knee of the leg that's over their shoulder. Ensure the opponent's shoulder is pulled tight to your hip - this is critical as their own shoulder will be compressing one side of their neck. The trapped arm should be pulled across your body, keeping their elbow tight to your centerline. (Timing: 2-3 seconds to establish secure lock)
+4. **Adjust Angle for Optimal Compression**: Once locked, immediately adjust your angle to approximately 45 degrees from your opponent's centerline. This angle is crucial - being too square allows them to stack you, being too perpendicular reduces pressure. Scoot your hips toward the side of their trapped arm while simultaneously pulling their head down. Your legs should form a straight line from their shoulder through their neck. (Timing: 1-2 seconds of angle adjustment)
+5. **Secure Head Control**: Grab behind the opponent's head with both hands, interlacing fingers or using a gable grip. Pull their head down toward your chest while keeping their trapped arm tight across your body. The pulling motion should be smooth and controlled, not jerking. Some practitioners prefer to control the arm at the wrist or triceps instead of grabbing the head directly. (Timing: Maintain throughout finish - 3-5 seconds)
+6. **Squeeze and Finish**: Squeeze your knees together while simultaneously pulling down on the head and lifting your hips slightly. The pressure comes from three directions: legs squeezing together, hips lifting, and hands pulling head down. Apply pressure progressively over 3-5 seconds in training. Monitor partner's reaction closely and release immediately upon tap. The choke works by compressing both carotid arteries - one against their own shoulder, one against your leg. (Timing: 3-5 seconds progressive squeeze in training)
 
 
 </section>
@@ -258,25 +258,25 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting triangle with opponent in strong posture [Low DANGER]
+- **Mistake**: Attempting triangle with opponent in strong posture
   - **Consequence**: Opponent easily defends by maintaining base and preventing leg from getting over shoulder
   - **Correction**: Always break posture first with strong collar and sleeve grips. Be patient and wait for opponent's posture to break before attempting triangle entry.
-- **Mistake**: Locking triangle too high on opponent's head/face instead of neck [Low DANGER]
+- **Mistake**: Locking triangle too high on opponent's head/face instead of neck
   - **Consequence**: No pressure on carotid arteries, allows opponent to breathe and escape easily
   - **Correction**: Ensure triangle locks deep with leg positioned behind their neck, not on top of their head. Their shoulder should be pulled tight to your hip bone.
-- **Mistake**: Staying too square to opponent instead of creating angle [Medium DANGER]
+- **Mistake**: Staying too square to opponent instead of creating angle
   - **Consequence**: Opponent can stack you, pressure your lower back, and escape more easily
   - **Correction**: Immediately create 45-degree angle after locking triangle. Scoot hips to the side of trapped arm and maintain this angle throughout finish.
-- **Mistake**: Not controlling the trapped arm properly [Low DANGER]
+- **Mistake**: Not controlling the trapped arm properly
   - **Consequence**: Opponent pulls arm free, creates space, and escapes the triangle
   - **Correction**: Keep opponent's arm pulled tight across your centerline throughout entire sequence. Can grip their wrist, triceps, or use head control to keep arm trapped.
-- **Mistake**: Jerking or spiking the choke with sudden violent pressure [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke with sudden violent pressure
   - **Consequence**: Risk of cervical spine injury, neck strain, or causing partner to panic
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum. Squeeze smoothly and steadily while monitoring partner's reaction. This is a blood choke, not a neck crank.
-- **Mistake**: Maintaining triangle pressure after partner taps [CRITICAL DANGER]
+- **Mistake**: Maintaining triangle pressure after partner taps
   - **Consequence**: Risk of loss of consciousness, injury, and violation of training safety
   - **Correction**: Release immediately upon any tap signal. There is zero reason to maintain pressure after tap in training. Develop habit of instant release.
-- **Mistake**: Locking triangle before achieving proper angle and position [Low DANGER]
+- **Mistake**: Locking triangle before achieving proper angle and position
   - **Consequence**: Weak triangle that opponent easily escapes, wasted energy
   - **Correction**: Take time to establish proper angle, break posture, and position leg correctly before locking figure-four. Quality setup beats rushing to finish.
 
@@ -343,43 +343,6 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Static Drilling)** (Week 1-2)
-- Focus: Learn proper triangle mechanics with zero resistance. Partner remains completely stationary in broken posture while you practice leg positioning, angle creation, and locking mechanism. Emphasis on understanding the figure-four configuration and proper placement.
-- Resistance: Zero resistance
-- Safety: Establish habit of progressive pressure application. Never squeeze at full intensity even with cooperative partner. Learn to recognize proper depth of lock (shoulder to hip) versus incorrect high lock (on face/head).
-
-**Slow Practice with Cooperative Movement** (Week 3-4)
-- Focus: Partner provides mild, predictable resistance. Practice breaking posture from closed guard, creating angle, and executing triangle entry at slow speed. Focus on smooth transitions between steps rather than speed or power.
-- Resistance: Mild resistance
-- Safety: Begin communication protocols - partner should verbally indicate when pressure is felt on neck. Practice immediate release upon tap. No squeezing to finish at this stage, stop when triangle is locked and positioned correctly.
-
-**Entry Repetition with Positional Reset** (Week 5-8)
-- Focus: Drill triangle entries from multiple guard variations (closed, spider, De La Riva, open). If entry succeeds, lock triangle but don't finish - instead release and reset to starting position. Build muscle memory for recognizing triangle opportunities.
-- Resistance: Realistic resistance
-- Safety: Partner should defend entry but not escape once triangle is locked. This allows you to feel correct triangle position without the pressure of finishing. Emphasize that speed of entry should never compromise control or safety.
-
-**Controlled Finishing with Progressive Pressure** (Week 9-12)
-- Focus: Begin finishing triangles in positional sparring, but apply pressure progressively over 5-7 seconds. Partner should tap when they feel significant pressure, not wait until uncomfortable. Focus on angle adjustment and understanding how squeeze, head pull, and hip lift work together.
-- Resistance: Realistic resistance
-- Safety: This is critical safety phase. Develop habit of progressive pressure over minimum 5 seconds. Partner must tap early to allow multiple repetitions safely. Never spike or jerk the choke. Both partners should verbally communicate pressure levels.
-
-**Live Application with Transitions** (Week 13+)
-- Focus: Apply triangle in live sparring from guard. When opponent defends, transition smoothly to armbar or omoplata. Practice the complete submission chain rather than forcing one technique. Develop ability to recognize when triangle isn't available and transition early.
-- Resistance: Full resistance
-- Safety: Reduce application time to 3-5 seconds minimum as technique improves. Continue monitoring partner's reactions. Never maintain triangle after tap regardless of adrenaline or competitive emotion. Respect tap immediately 100% of the time.
-
-**Ongoing Refinement and Advanced Variations** (Ongoing)
-- Focus: Explore advanced variations: reverse triangle, triangle from failed armbar, triangle from standing, inverted triangle. Develop ability to hit triangle from any guard position. Study high-level competitors' triangle entries and finishes.
-- Resistance: Full resistance
-- Safety: As proficiency increases, danger actually increases due to confidence. Maintain strict safety protocols especially with less experienced partners. Use advanced variations only with partners who understand the specific risks. Continue treating every triangle in training as a teaching opportunity, not a proving ground.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -435,6 +398,7 @@ The Triangle from Guard is one of the most fundamental and highest-percentage su
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

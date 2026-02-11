@@ -163,7 +163,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -241,13 +241,13 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Arm Across Neck**: From closed guard bottom or scramble position, use an overhook, kimura grip, or direct control to pull one of opponent's arms across their own neck. The bicep or forearm should be pressing against the side of their neck. Maintain tight control of this arm with both hands initially, preventing them from extracting it. This is the foundation of the entire submission. (Timing: 2-3 seconds to establish control) [Pressure: Moderate]
-2. **Break Down Opponent's Posture**: While controlling the trapped arm, use your legs and free hand to break opponent's posture forward and down. You need them close to your body with their head lower than their hips. Pull their shoulder down with the trapped arm while using your legs to prevent them from posting. This collapsed posture is essential for the next steps. (Timing: 1-2 seconds) [Pressure: Firm]
-3. **Swing Lead Leg Over Back of Neck**: Identify which leg will go over the back of opponent's neck (typically the leg on the same side as their trapped arm). Release your leg control and swing this leg up and over the back of their neck, placing your calf across the base of their skull. Your knee should be pointing toward the ceiling. Maintain arm control throughout this movement to prevent escape. (Timing: 1-2 seconds for leg placement) [Pressure: Light]
-4. **Thread Opposite Leg for Figure-Four**: Thread your opposite leg under the trapped arm and position your ankle across your other leg's knee pit to create the figure-four lock. This configuration should sandwich the opponent's neck and trapped arm together. Ensure your bottom leg's knee is angled outward to create maximum space for the choke. The lock should feel secure but not yet create choking pressure. (Timing: 2-3 seconds to establish figure-four) [Pressure: Moderate]
-5. **Adjust Angle and Control Posture**: Rotate your hips to create the optimal angle - your body should be perpendicular or facing away from opponent. Use your hands to control their head, shoulder, or gi to prevent them from turning into the choke or posturing up. This angle adjustment is what distinguishes the inverted triangle from standard variations and creates the primary choking mechanism. (Timing: 1-2 seconds) [Pressure: Moderate]
-6. **Extend Hips and Lock Ankle**: Pull your ankle tight across the back of your knee to secure the figure-four completely. Simultaneously extend your hips upward and slightly rotate them away from opponent. This hip extension combined with the locked ankles creates compression on both carotid arteries. Squeeze your knees together while maintaining hip extension. The choke should be blood restriction, not air restriction. (Timing: 3-4 seconds gradual pressure increase) [Pressure: Maximum]
-7. **Final Adjustment and Finish**: Make micro-adjustments to maximize arterial compression. Pull opponent's head down slightly with your hands while maintaining hip extension. Ensure their trapped arm is creating pressure against one side of the neck while your leg configuration restricts the other. If they don't tap within 3-4 seconds of full pressure, reassess your angle and arm position rather than increasing force. (Timing: 2-3 seconds to tap or release) [Pressure: Maximum]
+1. **Secure Arm Across Neck**: From closed guard bottom or scramble position, use an overhook, kimura grip, or direct control to pull one of opponent's arms across their own neck. The bicep or forearm should be pressing against the side of their neck. Maintain tight control of this arm with both hands initially, preventing them from extracting it. This is the foundation of the entire submission. (Timing: 2-3 seconds to establish control)
+2. **Break Down Opponent's Posture**: While controlling the trapped arm, use your legs and free hand to break opponent's posture forward and down. You need them close to your body with their head lower than their hips. Pull their shoulder down with the trapped arm while using your legs to prevent them from posting. This collapsed posture is essential for the next steps. (Timing: 1-2 seconds)
+3. **Swing Lead Leg Over Back of Neck**: Identify which leg will go over the back of opponent's neck (typically the leg on the same side as their trapped arm). Release your leg control and swing this leg up and over the back of their neck, placing your calf across the base of their skull. Your knee should be pointing toward the ceiling. Maintain arm control throughout this movement to prevent escape. (Timing: 1-2 seconds for leg placement)
+4. **Thread Opposite Leg for Figure-Four**: Thread your opposite leg under the trapped arm and position your ankle across your other leg's knee pit to create the figure-four lock. This configuration should sandwich the opponent's neck and trapped arm together. Ensure your bottom leg's knee is angled outward to create maximum space for the choke. The lock should feel secure but not yet create choking pressure. (Timing: 2-3 seconds to establish figure-four)
+5. **Adjust Angle and Control Posture**: Rotate your hips to create the optimal angle - your body should be perpendicular or facing away from opponent. Use your hands to control their head, shoulder, or gi to prevent them from turning into the choke or posturing up. This angle adjustment is what distinguishes the inverted triangle from standard variations and creates the primary choking mechanism. (Timing: 1-2 seconds)
+6. **Extend Hips and Lock Ankle**: Pull your ankle tight across the back of your knee to secure the figure-four completely. Simultaneously extend your hips upward and slightly rotate them away from opponent. This hip extension combined with the locked ankles creates compression on both carotid arteries. Squeeze your knees together while maintaining hip extension. The choke should be blood restriction, not air restriction. (Timing: 3-4 seconds gradual pressure increase)
+7. **Final Adjustment and Finish**: Make micro-adjustments to maximize arterial compression. Pull opponent's head down slightly with your hands while maintaining hip extension. Ensure their trapped arm is creating pressure against one side of the neck while your leg configuration restricts the other. If they don't tap within 3-4 seconds of full pressure, reassess your angle and arm position rather than increasing force. (Timing: 2-3 seconds to tap or release)
 
 
 </section>
@@ -267,25 +267,25 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying the choke before properly inverting body position [Low DANGER]
+- **Mistake**: Applying the choke before properly inverting body position
   - **Consequence**: Creates a weak standard triangle angle that opponent can easily defend with posture
   - **Correction**: Focus on establishing the inverted orientation first. Your body should be perpendicular or facing away before you apply finishing pressure. The inversion creates the mechanical advantage.
-- **Mistake**: Failing to secure the arm across opponent's neck before setting up legs [Low DANGER]
+- **Mistake**: Failing to secure the arm across opponent's neck before setting up legs
   - **Consequence**: Opponent can extract their arm and escape entirely, or the choke becomes ineffective without the arm creating pressure
   - **Correction**: Treat arm control as the primary objective. Use both hands if necessary to ensure the arm is pinned across the neck before attempting any leg movements.
-- **Mistake**: Squeezing with legs only without hip extension [Medium DANGER]
+- **Mistake**: Squeezing with legs only without hip extension
   - **Consequence**: Creates muscle fatigue without effective choking pressure, allowing opponent to wait out your strength
   - **Correction**: The finish comes from hip extension and body angle, not leg strength. Extend your hips toward the ceiling while maintaining the figure-four. Think 'push away' not 'squeeze together'.
-- **Mistake**: Jerking or spiking the technique rapidly during setup or finish [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the technique rapidly during setup or finish
   - **Consequence**: Risk of cervical spine injury, neck strain, or loss of consciousness without warning signs for your partner
   - **Correction**: DANGER: Apply all movements slowly and progressively. Give your training partner 5-7 seconds minimum to recognize and tap to the pressure. Never snap into position.
-- **Mistake**: Releasing legs before releasing trapped arm during submission release [CRITICAL DANGER]
+- **Mistake**: Releasing legs before releasing trapped arm during submission release
   - **Consequence**: Trapped arm can torque awkwardly causing shoulder or elbow injury as legs release pressure
   - **Correction**: DANGER: Always release the figure-four first, then carefully guide the trapped arm free. Support your partner's neck if they were unconscious.
-- **Mistake**: Poor angle selection - body aligned with opponent instead of perpendicular [Low DANGER]
+- **Mistake**: Poor angle selection - body aligned with opponent instead of perpendicular
   - **Consequence**: Choke pressure is minimal and opponent can turn face-to-face and escape
   - **Correction**: After establishing the figure-four, actively rotate your hips and shoulders to face 90 degrees away from opponent. Your chest should face their side or back, not their face.
-- **Mistake**: Allowing opponent's free arm to create frames on your hips or legs [Medium DANGER]
+- **Mistake**: Allowing opponent's free arm to create frames on your hips or legs
   - **Consequence**: They can prevent you from achieving optimal angle and may escape the position entirely
   - **Correction**: Use your hands actively to control opponent's free arm, head, or shoulder. Don't allow them free use of defensive frames.
 
@@ -350,43 +350,6 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Mechanics (Weeks 1-2)** (First 2 weeks of training)
-- Focus: Understanding body positioning, angle mechanics, and safety protocols without resistance. Practice entry from static positions with compliant partner. Emphasis on slow, controlled movements and proper release procedures.
-- Resistance: Zero resistance
-- Safety: Learn proper release protocol and practice it every repetition. Partner should tap early and often. Discuss blood choke mechanics and signs of unconsciousness. Establish communication signals and safety awareness.
-
-**Position Recognition and Setup Drilling (Weeks 3-4)** (Weeks 3-4)
-- Focus: Identifying inverted triangle opportunities from various positions. Drilling arm control and body inversion without finishing. Partner provides mild movement but allows technique completion. Focus on smoothness and control throughout setup sequence.
-- Resistance: Mild resistance
-- Safety: Continue slow application (5-7 seconds minimum). Practice on training partners who understand triangle safety. Always release immediately on tap. Begin recognizing when partner's defense requires you to abandon the attempt.
-
-**Dynamic Entry and Chaining (Weeks 5-8)** (Weeks 5-8)
-- Focus: Flowing into inverted triangle from failed armbars, scrambles, and turtle situations. Connecting it to other submissions. Partner provides realistic movement but still allows technique exploration. Begin timing the submission against movement patterns.
-- Resistance: Realistic resistance
-- Safety: Increase awareness of cervical spine safety during dynamic entries. Never spike or jerk into position even when flowing. Maintain controlled application despite increased pace. Release becomes automatic reflex on any tap signal.
-
-**Finishing Details and Pressure Control (Weeks 9-12)** (Weeks 9-12)
-- Focus: Refining angle adjustments, hip extension mechanics, and hand fighting to prevent escapes. Partner provides strong but honest defense. Learning to distinguish between effective pressure and dangerous over-rotation. Developing sensitivity to when choke is tight versus when angle is wrong.
-- Resistance: Realistic resistance
-- Safety: Advanced safety focus: recognizing when partner is defending versus when they're in danger. Understanding difference between discomfort and danger. Developing control to maintain submission threat without causing injury during extended training rounds.
-
-**Live Application and Competition Preparation (Weeks 13+)** (Week 13 onward)
-- Focus: Hitting inverted triangle during free rolling against resisting opponents. Learning when to abandon the attempt versus when to commit. Competition timing and finish rates. Developing it as reliable submission from your game.
-- Resistance: Full resistance
-- Safety: Competition vs training distinction is critical. In training, never match competition intensity on the finish. Always give training partners extra time to tap. Recognize that unconsciousness can occur without warning in competition but should never happen in training. Build reputation as safe training partner.
-
-**Teaching and Refinement (Ongoing)** (After achieving proficiency)
-- Focus: Teaching technique to others reinforces your own understanding. Developing coaching eye for safety violations. Creating drilling sequences and troubleshooting common problems. Continuing to refine efficiency and reduce reliance on strength.
-- Resistance: Full resistance
-- Safety: Primary responsibility becomes protecting your students and training partners. Setting culture of safety around this technique. Emphasizing that effectiveness comes from precision, not force. Teaching the release protocol as thoroughly as the submission itself.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -438,6 +401,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

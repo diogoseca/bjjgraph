@@ -368,7 +368,7 @@ Marcelo Garcia's X-Guard system requires structured drilling that progresses fro
 - [[Guard Retention]] (Principle) - Essential for maintaining X-Guard against passing attempts
 - [[Butterfly Hook Retention]] (Principle) - Hook management principles that apply to X-Guard control
 - [[Timing Sweeps]] (Principle) - Critical timing concepts for successful sweep execution
-- [[Position Transitions]] (Principle) - Governs smooth flow between X-Guard and other positions
+- [[Connection Principles]] (Principle) - Governs smooth flow between X-Guard and other positions
 - [[Submission Chains]] (Principle) - Framework for connecting sweeps to submission opportunities
 - [[Marcelo Garcia Butterfly Guard System]] (System) - Complementary system that shares entry mechanics and philosophy
 - [[Marcelo Garcia Guillotine System]] (System) - Submission system that integrates with X-Guard guillotine entries

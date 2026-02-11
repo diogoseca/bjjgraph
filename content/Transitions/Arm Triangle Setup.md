@@ -17,7 +17,7 @@ description: "Learn the Arm Triangle Setup from North-South in BJJ. Step-by-step
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Arm Triangle Setup in BJJ",
-  "description": "Step-by-step guide for Arm Triangle Setup from North South Control/Top. Possible outcomes: Side Control (55%), North South Control (30%), Half Guard (15%).",
+  "description": "Step-by-step guide for Arm Triangle Setup from North-South/Top. Possible outcomes: Side Control (55%), North-South (30%), Half Guard (15%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -162,8 +162,8 @@ Strategically, this transition converts a dominant but static pinning position i
 
 The technique rewards patience and systematic grip progression. Rushing the arm thread before properly trapping the opponent's arm results in the bottom player framing out and recovering guard. Advanced practitioners use the arm triangle threat as part of a broader submission chain from North-South, combining it with kimura, North-South choke, and armbar attacks to create a web of threats where defending one opens another.
 
-**From Position**: [[North South Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[North-South/Top]]
+**Success Rate**: 58%
 
 </section>
 
@@ -174,7 +174,7 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Side Control]] | 55% |
-| Failure | [[North South Control]] | 30% |
+| Failure | [[North-South]] | 30% |
 | Counter | [[Half Guard]] | 15% |
 
 
@@ -210,13 +210,13 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure near-side arm**: From established North-South control, use your near-side arm to underhook the opponent's near-side arm at the elbow. Drive their arm across their own centerline using shoulder pressure combined with the underhook, pinning it against the side of their neck. (Timing: Initiate when opponent's arm is extended or framing rather than tucked tight to their body)
-2. **Thread the choking arm**: Slide your choking-side arm deep under the opponent's neck, threading it past the jawline to the far side. Your bicep should contact one side of their neck while their own trapped arm provides compression on the other side. Ensure the arm penetrates deep enough that your hand clears their far shoulder. (Timing: Execute while maintaining downward chest pressure to prevent the opponent from creating any escape angle)
-3. **Lock the grip**: Connect your hands using a palm-to-palm grip, Gable grip, or by clasping the bicep of your free arm in a standard arm triangle figure-four configuration. The grip locks the opponent's arm against their neck and prevents them from extracting it during the subsequent position change. (Timing: Secure the grip immediately after the arm thread before the opponent can react to strip the configuration)
-4. **Begin hip walk**: Maintaining the locked grip and chest pressure, begin walking your hips toward the side of the trapped arm. Use small, deliberate steps rather than large jumps to avoid creating space. Your chest slides from the perpendicular North-South angle toward a more lateral side control angle as you walk. (Timing: Move progressively as your grip is fully secured—do not rush the hip walk before confirming the lock)
-5. **Establish side control angle**: Complete the transition to a modified side control position with your chest pressing diagonally across the opponent's upper chest. Your choking-side shoulder drives into the opponent's jaw and neck, increasing compression. Keep your hips low and sprawled to prevent the opponent from establishing a half guard hook. (Timing: Settle your weight once you reach approximately 45 degrees relative to the opponent's body)
-6. **Consolidate the arm triangle position**: Drop your ear to the mat on the far side of the opponent's head, squeezing your elbows together to tighten the head-and-arm configuration. Walk your feet toward the opponent's hips to increase shoulder pressure. Verify the opponent's arm is firmly trapped against their own carotid—adjust by driving your shoulder forward if compression is insufficient. (Timing: Consolidate before attempting the finish to ensure the configuration is tight enough for submission)
-7. **Initiate the squeeze**: With the full arm triangle configuration locked and your side control angle established, apply the finishing pressure by expanding your chest and squeezing your elbows together. Walk your feet to increase the angle and pressure. The opponent's own shoulder compresses one carotid while your bicep compresses the other, creating bilateral blood flow restriction. (Timing: Apply finishing pressure steadily once position is fully consolidated—rushing the squeeze before consolidation allows escape)
+1. **Secure near-side arm**: From established North-South control, use your near-side arm to underhook the opponent's near-side arm at the elbow. Drive their arm across their own centerline using shoulder pressure combined with the underhook, pinning it against the side of their neck.
+2. **Thread the choking arm**: Slide your choking-side arm deep under the opponent's neck, threading it past the jawline to the far side. Your bicep should contact one side of their neck while their own trapped arm provides compression on the other side. Ensure the arm penetrates deep enough that your hand clears their far shoulder.
+3. **Lock the grip**: Connect your hands using a palm-to-palm grip, Gable grip, or by clasping the bicep of your free arm in a standard arm triangle figure-four configuration. The grip locks the opponent's arm against their neck and prevents them from extracting it during the subsequent position change.
+4. **Begin hip walk**: Maintaining the locked grip and chest pressure, begin walking your hips toward the side of the trapped arm. Use small, deliberate steps rather than large jumps to avoid creating space. Your chest slides from the perpendicular North-South angle toward a more lateral side control angle as you walk.
+5. **Establish side control angle**: Complete the transition to a modified side control position with your chest pressing diagonally across the opponent's upper chest. Your choking-side shoulder drives into the opponent's jaw and neck, increasing compression. Keep your hips low and sprawled to prevent the opponent from establishing a half guard hook.
+6. **Consolidate the arm triangle position**: Drop your ear to the mat on the far side of the opponent's head, squeezing your elbows together to tighten the head-and-arm configuration. Walk your feet toward the opponent's hips to increase shoulder pressure. Verify the opponent's arm is firmly trapped against their own carotid—adjust by driving your shoulder forward if compression is insufficient.
+7. **Initiate the squeeze**: With the full arm triangle configuration locked and your side control angle established, apply the finishing pressure by expanding your chest and squeezing your elbows together. Walk your feet to increase the angle and pressure. The opponent's own shoulder compresses one carotid while your bicep compresses the other, creating bilateral blood flow restriction.
 
 
 </section>
@@ -262,19 +262,15 @@ The technique rewards patience and systematic grip progression. Rushing the arm 
 ## Training Progressions
 **Week 1-2** - Arm isolation mechanics
 Practice the near-side arm isolation and threading from static North-South. Partner remains passive while you drill the underhook-to-arm-thread sequence, focusing on maintaining chest pressure throughout. Repeat 20 reps per side, emphasizing the depth of the arm thread past the far shoulder.
-(Resistance: None)
 
 **Week 3-4** - Hip walk transition
 Add the hip walk phase with a cooperative partner. Focus on maintaining the grip while progressively walking to side control. Partner provides light framing resistance to test your ability to keep chest contact during the transition. Drill the complete sequence from North-South to consolidated arm triangle position.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chains
 Partner actively defends using the primary counters (tucking arm, bridging, framing). Practice recognizing which counter is being applied and switching between the arm triangle setup and alternative attacks (kimura, North-South choke). Develop the ability to chain back to the arm triangle when initial defense is overcome.
-(Resistance: Medium)
 
 **Week 7-8** - Live situational sparring
 Begin from established North-South control in positional sparring rounds. Full resistance from the bottom player. Focus on reading the opponent's defensive reactions and choosing the right moment to initiate the arm triangle setup versus other attacks. Track completion rate across rounds to measure progress.
-(Resistance: Full)
 
 
 
@@ -350,7 +346,7 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 
 ## Related Techniques
 
-- [[North South Control]] - Starting position
+- [[North-South]] - Starting position
 - [[Side Control]] - Transitional destination during arm triangle setup
 - [[Arm Triangle]] - Primary submission finish from this setup
 - [[Arm Triangle Transition]] - Alternative arm triangle entry path
@@ -359,7 +355,7 @@ The Arm Triangle Setup serves as a critical link in the North-South submission c
 - [[North-South Choke]] - Alternative choke attack from same starting position
 - [[Armbar from North-South]] - Alternative submission from same position
 - [[Gift Wrap]] - Alternative arm control method for setup entry
-- [[D'arce Control]] - Related head-and-arm control position
+- [[Darce Control]] - Related head-and-arm control position
 - [[Arm Triangle Progression]] - Progressive training framework for arm triangle system
 
 

@@ -10,11 +10,6 @@
     "turtle",
     "rotation"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Ghost Escape is an advanced, dynamic escape from side control that utilizes rotational movement and timing to create space and transition to turtle position. Named for its ability to seemingly disappear from underneath the opponent's control, this escape combines hip movement, shoulder rotation, and precise timing to slip out from heavy pressure. Unlike traditional shrimping escapes that move perpendicular to the opponent, the Ghost Escape rotates the body in a circular motion, creating a unique angle that disrupts the opponent's base and weight distribution. This technique is particularly effective against opponents who maintain heavy chest-to-chest pressure and are anticipating standard escape patterns. The Ghost Escape requires good body awareness, timing, and the ability to create small windows of space under pressure. It's most successful when initiated during transitional moments when the opponent shifts their weight or adjusts their grips. The escape represents a modern, mobile approach to dealing with dominant top positions and is especially valuable in no-gi grappling where traditional gi grips are unavailable.",
   "key_principles": [
     "Create initial space through explosive hip movement and shoulder rotation",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Create initial frame",
-      "description": "From bottom side control, establish a strong frame against the opponent's shoulder or neck with your far arm while keeping your near elbow tight to your ribs. Your near-side hand should be posted on the mat or creating a secondary frame against the opponent's hip. This dual framing structure creates the essential space needed to begin the escape.",
-      "timing": "Establish frames immediately when opponent settles into side control"
+      "description": "From bottom side control, establish a strong frame against the opponent's shoulder or neck with your far arm while keeping your near elbow tight to your ribs. Your near-side hand should be posted on the mat or creating a secondary frame against the opponent's hip. This dual framing structure creates the essential space needed to begin the escape."
     },
     {
       "step_number": 2,
       "action": "Generate hip movement",
-      "description": "Bridge slightly to create additional space, then explosively turn your hips away from the opponent (towards your stomach) while maintaining your frames. Your hips should rotate approximately 45-90 degrees, bringing your bottom knee closer to your chest. This hip rotation is the critical first movement that initiates the ghost motion.",
-      "timing": "Execute during opponent's exhale or weight adjustment"
+      "description": "Bridge slightly to create additional space, then explosively turn your hips away from the opponent (towards your stomach) while maintaining your frames. Your hips should rotate approximately 45-90 degrees, bringing your bottom knee closer to your chest. This hip rotation is the critical first movement that initiates the ghost motion."
     },
     {
       "step_number": 3,
       "action": "Initiate shoulder rotation",
-      "description": "As your hips rotate, begin rotating your shoulders in the same direction, creating a continuous circular motion through your entire body. Your far shoulder should drive towards the mat as if performing a forward roll. Keep your chin tucked to your chest to protect your neck during this rotation. Your body should now be turning perpendicular to the opponent.",
-      "timing": "Immediate follow-through from hip movement without pause"
+      "description": "As your hips rotate, begin rotating your shoulders in the same direction, creating a continuous circular motion through your entire body. Your far shoulder should drive towards the mat as if performing a forward roll. Keep your chin tucked to your chest to protect your neck during this rotation. Your body should now be turning perpendicular to the opponent."
     },
     {
       "step_number": 4,
       "action": "Pull bottom arm through",
-      "description": "As you continue the rotation, pull your bottom arm (the arm closest to the mat) out from underneath your body and bring it across your torso. This arm extraction is essential for completing the rotation and prevents you from getting stuck mid-escape. Your elbow should stay tight to your body as you pull it through to avoid giving the opponent an underhook or armbar opportunity.",
-      "timing": "Execute as shoulders reach 45-degree rotation"
+      "description": "As you continue the rotation, pull your bottom arm (the arm closest to the mat) out from underneath your body and bring it across your torso. This arm extraction is essential for completing the rotation and prevents you from getting stuck mid-escape. Your elbow should stay tight to your body as you pull it through to avoid giving the opponent an underhook or armbar opportunity."
     },
     {
       "step_number": 5,
       "action": "Complete the roll",
-      "description": "Continue the rotational momentum by driving your far shoulder fully to the mat while bringing your knees underneath your body. Your movement should resemble a forward roll executed from the side. As you roll, keep your elbows tight and hands ready to post. The opponent's weight should slide off your back as you rotate through the position.",
-      "timing": "Maintain continuous momentum without stopping mid-rotation"
+      "description": "Continue the rotational momentum by driving your far shoulder fully to the mat while bringing your knees underneath your body. Your movement should resemble a forward roll executed from the side. As you roll, keep your elbows tight and hands ready to post. The opponent's weight should slide off your back as you rotate through the position."
     },
     {
       "step_number": 6,
       "action": "Establish turtle position",
-      "description": "As the rotation completes, settle into a strong turtle position with your knees and hands creating a solid base. Your elbows should be tight to your knees, and your hips should be elevated slightly. Immediately assess the opponent's position and prepare to defend against back takes or stand up if space allows. Your head should be protected, looking towards your knees rather than up at the opponent.",
-      "timing": "Stabilize immediately upon completing rotation"
+      "description": "As the rotation completes, settle into a strong turtle position with your knees and hands creating a solid base. Your elbows should be tight to your knees, and your hips should be elevated slightly. Immediately assess the opponent's position and prepare to defend against back takes or stand up if space allows. Your head should be protected, looking towards your knees rather than up at the opponent."
     }
   ],
   "common_counters": [
@@ -135,38 +124,32 @@
     {
       "phase": "Week 1-2: Solo drilling and mechanics",
       "focus": "Master the rotational movement pattern without resistance",
-      "description": "Practice the ghost rotation movement from side control position without a partner, focusing on smooth circular motion, proper hip rotation, arm extraction, and landing in solid turtle position. Perform 20-30 repetitions daily to build muscle memory for the movement pattern.",
-      "resistance_level": "None"
+      "description": "Practice the ghost rotation movement from side control position without a partner, focusing on smooth circular motion, proper hip rotation, arm extraction, and landing in solid turtle position. Perform 20-30 repetitions daily to build muscle memory for the movement pattern."
     },
     {
       "phase": "Week 3-4: Cooperative partner drilling",
       "focus": "Execute escape with compliant partner maintaining light side control",
-      "description": "Partner maintains side control with light pressure (30-40% intensity) and allows the escape to complete. Focus on timing, creating frames, and smooth execution. Partner provides feedback on technique. Perform 15-20 repetitions per session, alternating with partner.",
-      "resistance_level": "Light"
+      "description": "Partner maintains side control with light pressure (30-40% intensity) and allows the escape to complete. Focus on timing, creating frames, and smooth execution. Partner provides feedback on technique. Perform 15-20 repetitions per session, alternating with partner."
     },
     {
       "phase": "Week 5-6: Increased resistance drilling",
       "focus": "Execute against partner maintaining moderate pressure and base",
-      "description": "Partner maintains side control with moderate pressure (60-70% intensity) and maintains proper base but doesn't actively counter the escape. Focus on explosive initiation and maintaining momentum through pressure. Perform 10-15 repetitions per session.",
-      "resistance_level": "Medium"
+      "description": "Partner maintains side control with moderate pressure (60-70% intensity) and maintains proper base but doesn't actively counter the escape. Focus on explosive initiation and maintaining momentum through pressure. Perform 10-15 repetitions per session."
     },
     {
       "phase": "Week 7-8: Active defense drilling",
       "focus": "Execute against partner who defends the escape with specific counters",
-      "description": "Partner actively defends with one pre-determined counter (sprawl, mount transition, or back take) per round. Practice recognizing and responding to each counter. Perform 8-10 repetitions per counter type.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends with one pre-determined counter (sprawl, mount transition, or back take) per round. Practice recognizing and responding to each counter. Perform 8-10 repetitions per counter type."
     },
     {
       "phase": "Week 9-12: Full resistance integration",
       "focus": "Integrate escape into positional sparring from side control",
-      "description": "Start positional rounds from side control bottom (2-3 minute rounds) where you attempt the ghost escape along with other escape options. Partner provides full resistance and attempts to maintain or improve position. Focus on timing and recognizing optimal moments for the escape.",
-      "resistance_level": "Full"
+      "description": "Start positional rounds from side control bottom (2-3 minute rounds) where you attempt the ghost escape along with other escape options. Partner provides full resistance and attempts to maintain or improve position. Focus on timing and recognizing optimal moments for the escape."
     },
     {
       "phase": "Month 4+: Competition refinement",
       "focus": "Use escape in full sparring and competition scenarios",
-      "description": "Incorporate the ghost escape into your regular sparring as a high-percentage option from side control. Track success rate and identify specific scenarios where it works best versus other escape options. Continue drilling the movement pattern 5-10 times before each training session to maintain sharpness.",
-      "resistance_level": "Full"
+      "description": "Incorporate the ghost escape into your regular sparring as a high-percentage option from side control. Track success rate and identify specific scenarios where it works best versus other escape options. Continue drilling the movement pattern 5-10 times before each training session to maintain sharpness."
     }
   ],
   "variants_and_adaptations": [
@@ -194,38 +177,31 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical principle that makes the Ghost Escape effective compared to traditional shrimping escapes?",
-      "answer": "The Ghost Escape uses rotational/circular motion rather than linear movement, which creates unique angles that disrupt the opponent's base and weight distribution in ways they don't anticipate from standard escapes. This rotational motion makes it difficult for the opponent to follow and maintain pressure.",
-      "difficulty": "Intermediate"
+      "answer": "The Ghost Escape uses rotational/circular motion rather than linear movement, which creates unique angles that disrupt the opponent's base and weight distribution in ways they don't anticipate from standard escapes. This rotational motion makes it difficult for the opponent to follow and maintain pressure."
     },
     {
       "question": "When is the optimal timing to initiate the Ghost Escape from side control?",
-      "answer": "The optimal timing is during transitional moments when the opponent shifts their weight, adjusts their grips, or exhales. These moments create brief windows where their pressure and base are compromised, making it easier to generate the initial rotational movement needed for the escape.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing is during transitional moments when the opponent shifts their weight, adjusts their grips, or exhales. These moments create brief windows where their pressure and base are compromised, making it easier to generate the initial rotational movement needed for the escape."
     },
     {
       "question": "Why is it critical to keep your chin tucked throughout the Ghost Escape rotation?",
-      "answer": "Keeping the chin tucked protects the neck from guillotines and front headlocks, makes the rotation mechanically smoother and more compact, and prevents the opponent from controlling your head during the vulnerable rotational phase. It also helps maintain the forward rolling momentum needed to complete the escape.",
-      "difficulty": "Beginner"
+      "answer": "Keeping the chin tucked protects the neck from guillotines and front headlocks, makes the rotation mechanically smoother and more compact, and prevents the opponent from controlling your head during the vulnerable rotational phase. It also helps maintain the forward rolling momentum needed to complete the escape."
     },
     {
       "question": "What should you do if your opponent attempts to take your back during the Ghost Escape rotation?",
-      "answer": "Immediately prioritize hand fighting to prevent the opponent from securing seat belt control or getting hooks in. Continue the rotation to turtle position rather than stopping mid-escape, as stopping creates a worse position. From turtle, you can defend the back take more effectively than from a half-rotated position.",
-      "difficulty": "Advanced"
+      "answer": "Immediately prioritize hand fighting to prevent the opponent from securing seat belt control or getting hooks in. Continue the rotation to turtle position rather than stopping mid-escape, as stopping creates a worse position. From turtle, you can defend the back take more effectively than from a half-rotated position."
     },
     {
       "question": "How does the Ghost Escape differ in execution between gi and no-gi grappling?",
-      "answer": "In no-gi, the Ghost Escape often requires securing an underhook before initiating the rotation since there are no gi grips to help control the opponent. The faster pace of no-gi also makes the explosive, continuous momentum even more critical. In gi, you can sometimes use collar grips to aid the rotation, but must also defend against the opponent using gi grips to control your rotation.",
-      "difficulty": "Intermediate"
+      "answer": "In no-gi, the Ghost Escape often requires securing an underhook before initiating the rotation since there are no gi grips to help control the opponent. The faster pace of no-gi also makes the explosive, continuous momentum even more critical. In gi, you can sometimes use collar grips to aid the rotation, but must also defend against the opponent using gi grips to control your rotation."
     },
     {
       "question": "What is the most common error that prevents successful completion of the Ghost Escape?",
-      "answer": "The most common error is hesitating or rotating too slowly, which gives the opponent time to adjust their position, flatten you out, or transition to a more dominant position like mount or back control. The escape requires full commitment and explosive, continuous rotational movement once initiated.",
-      "difficulty": "Beginner"
+      "answer": "The most common error is hesitating or rotating too slowly, which gives the opponent time to adjust their position, flatten you out, or transition to a more dominant position like mount or back control. The escape requires full commitment and explosive, continuous rotational movement once initiated."
     },
     {
       "question": "Why is establishing frames before initiating the Ghost Escape essential for success?",
-      "answer": "Frames create the initial space and leverage needed to generate the hip rotation that starts the escape. Without frames, you'll be too flat and compressed under the opponent's pressure to create the rotational movement. Frames also control the opponent's posture and prevent them from immediately countering your escape attempt.",
-      "difficulty": "Intermediate"
+      "answer": "Frames create the initial space and leverage needed to generate the hip rotation that starts the escape. Without frames, you'll be too flat and compressed under the opponent's pressure to create the rotational movement. Frames also control the opponent's posture and prevent them from immediately countering your escape attempt."
     }
   ],
   "safety_considerations": "When practicing the Ghost Escape, controlled application is essential to avoid neck and shoulder strain from the rotational movement. Begin drilling slowly to master the mechanics before adding speed and resistance. Ensure adequate mat space for the rolling motion to prevent collisions with walls or other grapplers. Partners should allow the escape to complete during initial drilling phases rather than aggressively countering, which could cause the bottom person to land awkwardly on their neck or shoulder. Build up speed and explosiveness gradually over several weeks - master the movement pattern first, then add intensity. Be especially cautious when first learning the arm extraction phase, as forcing the bottom arm through too aggressively can cause elbow or shoulder injury. Tap immediately if you feel any sharp pain in the neck, shoulders, or back during rotation.",
@@ -285,5 +261,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

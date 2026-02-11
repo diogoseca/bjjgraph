@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Armbar from Back Transition represents a sophisticated submission setup that capitalizes on your dominant back control position while standing. This technique exploits the opponent's defensive hand positioning when they protect their neck, redirecting your attack from strangulation to joint lock. Rather than forcing a choke against determined defensive hands, you transition to an armbar that catches the defending arm in a compromised position.\n\nStrategically, this transition serves as a critical component of the back attack system. When opponents become proficient at defending rear naked chokes through two-on-one grip fighting and chin tucking, they often expose their arms in predictable patterns. The armbar transition punishes this defensive commitment by attacking the very limbs they use for protection. The standing variation adds complexity because both practitioners must manage balance and momentum during the transition, but this instability can work in your favor when properly executed.\n\nThe key to success lies in recognizing the correct timing window: when the opponent commits both hands to neck defense, their arm structure becomes vulnerable. You must transition decisively, maintaining control throughout the movement from back to armbar position. Hesitation allows the opponent to retract their arms, recover posture, or exploit the positional instability inherent in standing transitions. Advanced practitioners chain this attack with choke attempts, creating a dilemma where defending one threat opens vulnerability to the other.",
   "key_principles": [
     "Attack when opponent commits both hands to neck defense, creating arm vulnerability through their own defensive commitment",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Identify target arm",
-      "description": "While maintaining back control, observe opponent's defensive hand positioning. Target the arm that is most extended or committed to defending your choking arm, typically the hand fighting your over-the-shoulder grip.",
-      "timing": "When opponent commits both hands to neck defense"
+      "description": "While maintaining back control, observe opponent's defensive hand positioning. Target the arm that is most extended or committed to defending your choking arm, typically the hand fighting your over-the-shoulder grip."
     },
     {
       "step_number": 2,
       "action": "Secure wrist control",
-      "description": "With your choking arm (over-the-shoulder arm), transition from choke threat to wrist control on the target arm. Grip at the wrist firmly, pulling the arm across your centerline to begin isolating the limb.",
-      "timing": "Immediately after identifying arm exposure"
+      "description": "With your choking arm (over-the-shoulder arm), transition from choke threat to wrist control on the target arm. Grip at the wrist firmly, pulling the arm across your centerline to begin isolating the limb."
     },
     {
       "step_number": 3,
       "action": "Thread leg across face",
-      "description": "On the same side as the trapped arm, swing your leg over opponent's shoulder and across their face/neck. This leg will control their posture and prevent them from turning into you or stacking during the transition.",
-      "timing": "Simultaneously with wrist control establishment"
+      "description": "On the same side as the trapped arm, swing your leg over opponent's shoulder and across their face/neck. This leg will control their posture and prevent them from turning into you or stacking during the transition."
     },
     {
       "step_number": 4,
       "action": "Rotate and descend",
-      "description": "Using your leg across their face as a pivot point, rotate your hips away from opponent while maintaining wrist control. Allow gravity and your rotation to bring both bodies to the ground with you landing on your back.",
-      "timing": "Smooth continuous motion, not segmented"
+      "description": "Using your leg across their face as a pivot point, rotate your hips away from opponent while maintaining wrist control. Allow gravity and your rotation to bring both bodies to the ground with you landing on your back."
     },
     {
       "step_number": 5,
       "action": "Secure armbar position",
-      "description": "As you land, immediately pinch your knees together around the trapped arm, keeping the elbow joint positioned against your hip crease. Your top leg should remain heavy across opponent's face to control their posture.",
-      "timing": "Upon ground contact"
+      "description": "As you land, immediately pinch your knees together around the trapped arm, keeping the elbow joint positioned against your hip crease. Your top leg should remain heavy across opponent's face to control their posture."
     },
     {
       "step_number": 6,
       "action": "Finish the armbar",
-      "description": "Control the wrist with both hands, thumb side facing up. Elevate your hips into the elbow joint while pulling the wrist toward your chest. Maintain knee pressure and posture control throughout the extension for the tap.",
-      "timing": "Controlled extension, not explosive"
+      "description": "Control the wrist with both hands, thumb side facing up. Elevate your hips into the elbow joint while pulling the wrist toward your chest. Maintain knee pressure and posture control throughout the extension for the tap."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamentals",
-      "description": "Practice the transition movement pattern without resistance. Focus on the rotation mechanics, leg placement across face, and landing in proper armbar position. Drill from standing back control to armbar position 20-30 repetitions per side.",
-      "resistance_level": "None"
+      "description": "Practice the transition movement pattern without resistance. Focus on the rotation mechanics, leg placement across face, and landing in proper armbar position. Drill from standing back control to armbar position 20-30 repetitions per side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing",
-      "description": "Partner provides light neck defense, creating realistic arm positioning. Practice recognizing the trigger (both hands on neck) and executing smooth transition. Emphasize maintaining control throughout the movement sequence.",
-      "resistance_level": "Light"
+      "description": "Partner provides light neck defense, creating realistic arm positioning. Practice recognizing the trigger (both hands on neck) and executing smooth transition. Emphasize maintaining control throughout the movement sequence."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combinations",
-      "description": "Chain the armbar transition with rear naked choke attempts. Attack choke, transition to armbar when defended, return to choke if arm is retracted. Practice reading opponent reactions and selecting appropriate attack.",
-      "resistance_level": "Medium"
+      "description": "Chain the armbar transition with rear naked choke attempts. Attack choke, transition to armbar when defended, return to choke if arm is retracted. Practice reading opponent reactions and selecting appropriate attack."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement in positional sparring starting from standing back control. Partner defends with full resistance. Focus on recognizing opportunities in real-time and executing under pressure with proper mechanics.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring starting from standing back control. Partner defends with full resistance. Focus on recognizing opportunities in real-time and executing under pressure with proper mechanics."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Armbar from Back Transition?",
-      "answer": "The primary goal is to transition from back control to a secured armbar position when the opponent defends the rear naked choke. This technique converts their defensive hand positioning into a submission opportunity by attacking the arms they commit to neck defense.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from back control to a secured armbar position when the opponent defends the rear naked choke. This technique converts their defensive hand positioning into a submission opportunity by attacking the arms they commit to neck defense."
     },
     {
       "question": "What specific defensive behavior creates the optimal timing window for this transition?",
-      "answer": "The optimal timing occurs when the opponent commits both hands to defending your choking arm, typically in a two-on-one grip configuration to prevent the rear naked choke. This defensive commitment exposes their arm structure and makes retraction difficult when you initiate the armbar transition.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing occurs when the opponent commits both hands to defending your choking arm, typically in a two-on-one grip configuration to prevent the rear naked choke. This defensive commitment exposes their arm structure and makes retraction difficult when you initiate the armbar transition."
     },
     {
       "question": "What is the critical function of the leg that crosses over the opponent's face during transition?",
-      "answer": "The leg across the face serves multiple critical functions: it prevents the opponent from turning to face you, controls their posture to prevent stacking, acts as a pivot point for your rotation during descent, and ultimately controls their head position to prevent escape once the armbar is secured.",
-      "difficulty": "Intermediate"
+      "answer": "The leg across the face serves multiple critical functions: it prevents the opponent from turning to face you, controls their posture to prevent stacking, acts as a pivot point for your rotation during descent, and ultimately controls their head position to prevent escape once the armbar is secured."
     },
     {
       "question": "Your opponent begins retracting their arm as you initiate the transition - how should you respond?",
-      "answer": "If the arm retracts early in the transition, immediately return to rear naked choke attack since their arm retraction opens neck access. If you're mid-transition, consider switching to the opposite arm if exposed, or completing the transition and attacking the other arm from armbar position.",
-      "difficulty": "Advanced"
+      "answer": "If the arm retracts early in the transition, immediately return to rear naked choke attack since their arm retraction opens neck access. If you're mid-transition, consider switching to the opposite arm if exposed, or completing the transition and attacking the other arm from armbar position."
     },
     {
       "question": "What grip orientation is required for the wrist control and why?",
-      "answer": "The wrist must be controlled with thumbs facing toward the ceiling (supinated grip). This orientation provides superior grip strength, prevents the hitchhiker escape where opponent rotates their thumb toward you, and positions the elbow correctly in your hip crease for proper breaking mechanics.",
-      "difficulty": "Intermediate"
+      "answer": "The wrist must be controlled with thumbs facing toward the ceiling (supinated grip). This orientation provides superior grip strength, prevents the hitchhiker escape where opponent rotates their thumb toward you, and positions the elbow correctly in your hip crease for proper breaking mechanics."
     },
     {
       "question": "How do you prevent the stack counter where opponent drives forward during the transition?",
-      "answer": "Maintain heavy leg pressure across the opponent's face throughout the descent and landing. If they begin stacking, use the leg to push their face away while scooting your hips out. Alternatively, continue rotation to belly-down armbar if they commit fully to the stack.",
-      "difficulty": "Advanced"
+      "answer": "Maintain heavy leg pressure across the opponent's face throughout the descent and landing. If they begin stacking, use the leg to push their face away while scooting your hips out. Alternatively, continue rotation to belly-down armbar if they commit fully to the stack."
     },
     {
       "question": "What is the proper hip and leg position upon landing in armbar position?",
-      "answer": "Upon landing, knees should be pinched tightly together around the trapped arm with the elbow positioned in your hip crease. Top leg remains heavy across opponent's face controlling posture. Hips are initially low, only elevating into the elbow joint once posture control is established.",
-      "difficulty": "Beginner"
+      "answer": "Upon landing, knees should be pinched tightly together around the trapped arm with the elbow positioned in your hip crease. Top leg remains heavy across opponent's face controlling posture. Hips are initially low, only elevating into the elbow joint once posture control is established."
     },
     {
       "question": "When should you abandon this technique and return to choking attacks?",
-      "answer": "Return to choking attacks when the opponent successfully retracts their target arm before you secure wrist control, when they turn to face you making armbar positioning impossible, or when their defensive posture shifts from arm-based neck defense to other configurations that re-expose the neck.",
-      "difficulty": "Advanced"
+      "answer": "Return to choking attacks when the opponent successfully retracts their target arm before you secure wrist control, when they turn to face you making armbar positioning impossible, or when their defensive posture shifts from arm-based neck defense to other configurations that re-expose the neck."
     }
   ],
   "safety_considerations": "Practice this transition with controlled movement rather than explosive rotation to protect training partners. The standing-to-ground transition can generate significant momentum that stresses the elbow joint unexpectedly. Partners should communicate clearly and tap early when the armbar is secured. When finishing, extend hips gradually rather than explosively to allow time for the tap. Avoid this technique on partners with existing elbow injuries. In drilling, stop at the position before applying full extension pressure. The rotation component requires adequate mat space - ensure training area is clear before practicing standing variations.",
@@ -256,5 +233,6 @@
       "name": "Turtle",
       "relationship": "Common result when opponent escapes during transition"
     }
-  ]
+  ],
+  "success_rate": 58
 }

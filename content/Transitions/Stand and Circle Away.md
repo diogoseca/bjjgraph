@@ -163,7 +163,7 @@ Strategically, the Stand and Circle Away occupies a unique niche among front hea
 The mechanical foundation relies on posting, driving upward through the legs while maintaining chin protection, and then immediately circling away from the opponent's choking arm side. The circling component is critical because simply standing straight up into the front headlock plays directly into guillotine mechanics. By combining vertical drive with lateral movement, you create a vector that is perpendicular to the opponent's control axis, making their grip progressively weaker with each step around.
 
 **From Position**: [[Front Headlock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure chin tuck and hand fight**: Tuck your chin firmly against your sternum to deny any neck extension. With your near hand, grip the opponent's choking wrist or forearm at the elbow crease, pulling it slightly away from your neck to create breathing room. (Timing: Immediately upon recognizing you are in front headlock)
-2. **Establish posting base**: Plant your far hand on the mat slightly forward and to the outside, or post directly on the opponent's far hip. Bring both feet underneath your hips in a crouched, wrestler's stance position with your weight centered over your legs. (Timing: Within 1-2 seconds of securing chin and hand position)
-3. **Drive upward through legs**: Explosively extend your legs to drive your hips upward and forward, using quad and glute power to stand. Keep your back relatively straight as you rise — do not lift your head first. Your torso should come up as a unit with the chin still tucked and choking arm still controlled. (Timing: Explosive movement when opponent's weight shifts or grip loosens)
-4. **Post on opponent's hip**: As you reach a standing position, immediately place your free hand (the one not controlling the choking arm) firmly on the opponent's near hip or shoulder. This frame creates separation between your bodies and prevents them from re-snapping your head down or pulling you into a guillotine. (Timing: Simultaneously with reaching standing posture)
-5. **Circle away from choking arm**: Begin stepping laterally away from the side of the opponent's choking arm using small, quick steps. Each step should move you further from their control axis while your hip frame maintains distance. Continue peeling their grip as you move, using the angle change to progressively weaken their hold on your head. (Timing: Continuous movement immediately after standing)
-6. **Strip grip and disengage**: As the circling motion weakens the opponent's grip geometry, use both hands to strip their arm from around your head. Push their elbow over and away while ducking your head out on the opposite side. Immediately create two to three feet of distance and square up in a neutral wrestling stance facing your opponent. (Timing: 2-4 circling steps after standing)
-7. **Establish neutral standing position**: Once free, assume a balanced athletic stance with hands up protecting your head and neck. Re-engage with collar ties or wrist control to prevent them from re-shooting or re-snapping you back into the front headlock. Maintain distance and posture to consolidate your escape. (Timing: Immediately after grip separation)
+1. **Secure chin tuck and hand fight**: Tuck your chin firmly against your sternum to deny any neck extension. With your near hand, grip the opponent's choking wrist or forearm at the elbow crease, pulling it slightly away from your neck to create breathing room.
+2. **Establish posting base**: Plant your far hand on the mat slightly forward and to the outside, or post directly on the opponent's far hip. Bring both feet underneath your hips in a crouched, wrestler's stance position with your weight centered over your legs.
+3. **Drive upward through legs**: Explosively extend your legs to drive your hips upward and forward, using quad and glute power to stand. Keep your back relatively straight as you rise — do not lift your head first. Your torso should come up as a unit with the chin still tucked and choking arm still controlled.
+4. **Post on opponent's hip**: As you reach a standing position, immediately place your free hand (the one not controlling the choking arm) firmly on the opponent's near hip or shoulder. This frame creates separation between your bodies and prevents them from re-snapping your head down or pulling you into a guillotine.
+5. **Circle away from choking arm**: Begin stepping laterally away from the side of the opponent's choking arm using small, quick steps. Each step should move you further from their control axis while your hip frame maintains distance. Continue peeling their grip as you move, using the angle change to progressively weaken their hold on your head.
+6. **Strip grip and disengage**: As the circling motion weakens the opponent's grip geometry, use both hands to strip their arm from around your head. Push their elbow over and away while ducking your head out on the opposite side. Immediately create two to three feet of distance and square up in a neutral wrestling stance facing your opponent.
+7. **Establish neutral standing position**: Once free, assume a balanced athletic stance with hands up protecting your head and neck. Re-engage with collar ties or wrist control to prevent them from re-shooting or re-snapping you back into the front headlock. Maintain distance and posture to consolidate your escape.
 
 
 </section>
@@ -263,19 +263,15 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 ## Training Progressions
 **Week 1-2** - Defensive posture and hand fighting mechanics
 Partner holds front headlock at 30% resistance. Practice only the chin tuck, choking arm control, and base positioning. No standing yet — focus entirely on the defensive foundation. Drill 20 repetitions per side, resetting each time partner confirms your chin and hand position are correct.
-(Resistance: None)
 
 **Week 3-4** - Standing drive and hip frame timing
 Partner holds front headlock at 50% resistance. Practice the full standing sequence from crouch to hip post. Partner gives moderate resistance on the stand but does not counter. Focus on keeping chin tucked through the entire upward drive and establishing the hip frame immediately upon standing.
-(Resistance: Light)
 
 **Week 5-6** - Circling mechanics and grip stripping
 Partner holds front headlock at 70% resistance and follows your circle at moderate pace. Practice the complete sequence including lateral movement and final grip strip. Partner attempts to maintain control but does not counter-attack. Drill direction changes and emergency transitions to Granby Roll when the stand fails.
-(Resistance: Medium)
 
 **Week 7-8** - Live situational sparring with counter recognition
 Start in front headlock bottom, partner uses full resistance and all counters including re-snapping, guillotine attempts, and back takes. Practice reading which counter is coming and selecting appropriate response. Integrate with other front headlock escapes to build a complete defensive chain.
-(Resistance: Full)
 
 
 

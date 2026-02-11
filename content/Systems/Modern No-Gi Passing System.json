@@ -249,7 +249,7 @@
       "relationship": "Control position used for floating pass variations"
     },
     {
-      "name": "Leg Drag Position",
+      "name": "Leg Drag Control",
       "content_type": "Position",
       "relationship": "Advanced passing position accessed from headquarters control"
     },

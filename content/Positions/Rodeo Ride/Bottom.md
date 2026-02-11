@@ -372,11 +372,11 @@ Starting from bottom of Rodeo Ride, work specifically on rolling to guard variat
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 20% | 5% |
-| Intermediate | 45% | 35% | 10% |
-| Advanced     | 65% | 50% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 42% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 45-120 seconds before resolution
 

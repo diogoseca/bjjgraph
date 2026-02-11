@@ -137,7 +137,7 @@
           },
           {
             "technique": "Leg Drag Pass",
-            "target": "Leg Drag Position",
+            "target": "Leg Drag Control",
             "probability": 50
           }
         ]
@@ -152,7 +152,7 @@
           },
           {
             "technique": "Leg Drag Pass",
-            "target": "Leg Drag Position",
+            "target": "Leg Drag Control",
             "probability": 52
           }
         ]
@@ -253,7 +253,7 @@
         "relationship": "Intermediate passing position often reached when partially neutralizing DLR structure"
       },
       {
-        "name": "Leg Drag Position",
+        "name": "Leg Drag Control",
         "relationship": "Alternative passing endpoint that exposes back and creates follow-up opportunities"
       },
       {
@@ -263,21 +263,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Percentage of time top position is maintained without being swept or reversed"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 52,
-        "advanced": 68,
+        "value": 60,
         "description": "Likelihood of successfully passing guard and establishing dominant position"
       },
       "submission_probability": {
-        "beginner": 18,
-        "intermediate": 32,
-        "advanced": 48,
+        "value": 40,
         "description": "Probability of achieving submission during or after successful guard pass"
       },
       "average_time": "45-90 seconds before pass or sweep"
@@ -319,35 +313,39 @@
     "transitions": [
       {
         "transition": "De La Riva Sweep",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": 17
       },
       {
-        "transition": "Berimbolo Entry",
+        "transition": "De La Riva to X-Guard Transition",
         "attempt_probability": 15
+      },
+      {
+        "transition": "Berimbolo Entry",
+        "attempt_probability": 13
       },
       {
         "transition": "Kiss of the Dragon",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Single Leg X Entry",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Waiter Sweep",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Balloon Sweep",
-        "attempt_probability": 8
+        "attempt_probability": 7
       },
       {
         "transition": "Outside Ashi Entry",
-        "attempt_probability": 7
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Sickle Sweep",
+        "attempt_probability": 11
       }
     ],
     "decision_tree": [
@@ -498,21 +496,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Percentage of time guard is maintained against passing attempts across skill levels"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of successfully advancing to dominant position through sweeps or transitions"
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Probability of achieving submission directly from this position or immediate follow-up"
       },
       "average_time": "45-90 seconds per engagement"

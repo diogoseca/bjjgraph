@@ -163,7 +163,7 @@ Strategically, the Armbar Finish operates as the highest-percentage terminal opt
 The finish itself requires coordinated opposing vectors: hips drive toward the ceiling using the glutes and core while both hands pull the wrist toward the sternum. The elbow joint, trapped between the thighs with the blade of the forearm pressed against the pubic bone, receives the combined force of these two movements. Advanced practitioners learn to micro-adjust the angle of hip elevation to target the weakest plane of the opponent's elbow based on their forearm rotation, making the submission effective even against strong grip-fighting defense.
 
 **From Position**: [[Armbar Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify control checkpoints**: Before initiating the finish, confirm hip-to-shoulder proximity, thumb-up arm orientation, leg control over head and chest, secure wrist grip below elbow, and pinched knees eliminating lateral space. If any checkpoint fails, correct it before proceeding. (Timing: 1-2 seconds assessment)
-2. **Secure final wrist grip**: Position both hands on the opponent's wrist with your thumbs on the radial (thumb) side of their forearm. Pull their wrist tight against your sternum so the forearm blade presses firmly against your pubic bone, creating the fulcrum point for elbow hyperextension. (Timing: Simultaneous with step 1)
-3. **Tighten knee pinch**: Squeeze both knees together with adductor engagement, trapping the opponent's upper arm between your thighs. The top leg presses their face away while the bottom leg blocks chest rotation. This unified leg structure prevents any lateral arm movement during the finish. (Timing: Immediately before hip elevation)
-4. **Initiate hip elevation**: Drive your hips toward the ceiling using a powerful glute bridge, pressing your pubic bone upward into the back of the opponent's elbow joint. The force vector is perpendicular to their forearm, creating direct hyperextension pressure across the joint's weakest plane. (Timing: Smooth acceleration over 1-2 seconds)
-5. **Pull wrist to chest**: Simultaneously pull both hands toward your sternum centerline while maintaining the hip bridge. This opposing force—hips up, hands down—creates a scissoring action across the elbow. Do not pull laterally or toward your shoulder; the vector must be straight to your midline. (Timing: Coordinated with hip elevation)
-6. **Apply progressive pressure**: Increase pressure gradually over 2-3 seconds rather than a single explosive motion. Maintain the bridge and wrist pull, allowing the opponent time to recognize the submission threat and tap. If they defend by bending the arm, readjust grip higher and re-tighten before attempting again. (Timing: 2-3 seconds sustained pressure)
-7. **Complete or transition**: If the opponent taps, release immediately by lowering hips and releasing grip. If they successfully defend by extracting space or bending the arm deeply, maintain control and transition to triangle setup, omoplata, or re-establish tighter armbar control rather than forcing a deteriorating position. (Timing: Immediate response to outcome)
+1. **Verify control checkpoints**: Before initiating the finish, confirm hip-to-shoulder proximity, thumb-up arm orientation, leg control over head and chest, secure wrist grip below elbow, and pinched knees eliminating lateral space. If any checkpoint fails, correct it before proceeding.
+2. **Secure final wrist grip**: Position both hands on the opponent's wrist with your thumbs on the radial (thumb) side of their forearm. Pull their wrist tight against your sternum so the forearm blade presses firmly against your pubic bone, creating the fulcrum point for elbow hyperextension.
+3. **Tighten knee pinch**: Squeeze both knees together with adductor engagement, trapping the opponent's upper arm between your thighs. The top leg presses their face away while the bottom leg blocks chest rotation. This unified leg structure prevents any lateral arm movement during the finish.
+4. **Initiate hip elevation**: Drive your hips toward the ceiling using a powerful glute bridge, pressing your pubic bone upward into the back of the opponent's elbow joint. The force vector is perpendicular to their forearm, creating direct hyperextension pressure across the joint's weakest plane.
+5. **Pull wrist to chest**: Simultaneously pull both hands toward your sternum centerline while maintaining the hip bridge. This opposing force—hips up, hands down—creates a scissoring action across the elbow. Do not pull laterally or toward your shoulder; the vector must be straight to your midline.
+6. **Apply progressive pressure**: Increase pressure gradually over 2-3 seconds rather than a single explosive motion. Maintain the bridge and wrist pull, allowing the opponent time to recognize the submission threat and tap. If they defend by bending the arm, readjust grip higher and re-tighten before attempting again.
+7. **Complete or transition**: If the opponent taps, release immediately by lowering hips and releasing grip. If they successfully defend by extracting space or bending the arm deeply, maintain control and transition to triangle setup, omoplata, or re-establish tighter armbar control rather than forcing a deteriorating position.
 
 
 </section>
@@ -265,19 +265,15 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 ## Training Progressions
 **Week 1-2** - Finishing mechanics isolation
 Partner holds cooperative armbar control position. Practice the hip elevation and wrist pull coordination 20 repetitions per side. Focus on smooth glute bridge engagement, hands pulling to sternum centerline, and maintaining knee pinch throughout. Partner taps early. No resistance.
-(Resistance: None)
 
 **Week 3-4** - Checkpoint verification and timing
 Begin each repetition by verbalizing the five checkpoints before finishing. Partner provides light grip-fighting defense (clasped hands). Practice breaking grips before finishing. Introduce the concept of feeling when the arm is properly loaded versus when adjustments are needed.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chain attacks
 Partner alternates between four defenses: hitchhiker, stacking, grip fighting, and arm extraction. Practitioner must recognize the defense and either adjust the finish or transition to the appropriate chain attack (triangle, omoplata, belly-down armbar). Medium resistance with full defensive intent but controlled speed.
-(Resistance: Medium)
 
 **Week 7-8** - Positional sparring integration
 Start from armbar control in positional sparring rounds. Top player works to finish, bottom player works to escape. Full resistance with full speed. Track finish rate over 3-minute rounds. Debrief after each round to identify which checkpoint failures led to escape or which defensive pattern succeeded.
-(Resistance: Full)
 
 
 

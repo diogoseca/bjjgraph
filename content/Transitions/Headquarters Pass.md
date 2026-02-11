@@ -153,7 +153,7 @@ description: "Learn Headquarters Pass in BJJ. Step-by-step execution from headqu
 The Headquarters Pass is a fundamental position and passing sequence that establishes dominant control over the half guard player before advancing to side control. This position, popularized by modern no-gi grapplers, creates a stable platform where the passer controls the opponent's legs while maintaining strong shoulder pressure and crossface control. The headquarters position neutralizes most half guard retention strategies by controlling the opponent's bottom leg and preventing them from creating frames or recovering full guard. From this controlling position, the passer can systematically break down the opponent's defenses and transition to side control with minimal risk of being swept or re-guarded. The headquarters pass is particularly effective because it allows the passer to pause, assess the opponent's defensive reactions, and choose from multiple finishing options based on how the opponent responds.
 
 **From Position**: [[Headquarters Position/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -202,12 +202,12 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish crossface control**: From top half guard, drive your shoulder across the opponent's face while securing an underhook or crossface grip. Your weight should be forward on your opponent's chest, preventing them from creating frames or sitting up. Keep your hips heavy and connected to their bottom hip. (Timing: Initial control phase)
-2. **Control the near leg**: Use your trapped leg to apply pressure on the opponent's bottom hip while simultaneously working to control their near leg (the leg closest to you). This can be done by cupping under their knee or using your free hand to control their thigh, preventing deep half guard entries. (Timing: Simultaneous with crossface establishment)
-3. **Establish headquarters position**: Position your free leg (the one not trapped) into a headquarters stance - knee up, foot planted near opponent's hip. Your shin may rest on their bottom thigh, creating a barrier. Your chest remains heavy on their chest with constant crossface pressure. This is the stable headquarters platform. (Timing: Hold this position for 1-2 seconds to assess)
-4. **Clear the far leg**: While maintaining crossface and near leg control, use your free hand or knee to clear the opponent's far leg (top leg). This may involve pushing their knee down, stepping over it, or using a knee slice motion to move it away from your hip. Prevent them from establishing a knee shield. (Timing: Deliberate clearing motion)
-5. **Extract trapped leg**: Once the far leg is cleared and controlled, focus on extracting your trapped leg from the half guard. Keep your weight forward while pulling your knee through the gap. You may need to angle your hips slightly or use a small hop to fully clear the legs. (Timing: Quick extraction once space is created)
-6. **Transition to side control**: As your leg clears, immediately transition your hips to a perpendicular position relative to your opponent's body. Maintain the crossface, establish chest-to-chest pressure, and secure a strong side control position. Your near arm should control the far hip while your far arm maintains head control. (Timing: Immediate transition upon leg extraction)
+1. **Establish crossface control**: From top half guard, drive your shoulder across the opponent's face while securing an underhook or crossface grip. Your weight should be forward on your opponent's chest, preventing them from creating frames or sitting up. Keep your hips heavy and connected to their bottom hip.
+2. **Control the near leg**: Use your trapped leg to apply pressure on the opponent's bottom hip while simultaneously working to control their near leg (the leg closest to you). This can be done by cupping under their knee or using your free hand to control their thigh, preventing deep half guard entries.
+3. **Establish headquarters position**: Position your free leg (the one not trapped) into a headquarters stance - knee up, foot planted near opponent's hip. Your shin may rest on their bottom thigh, creating a barrier. Your chest remains heavy on their chest with constant crossface pressure. This is the stable headquarters platform.
+4. **Clear the far leg**: While maintaining crossface and near leg control, use your free hand or knee to clear the opponent's far leg (top leg). This may involve pushing their knee down, stepping over it, or using a knee slice motion to move it away from your hip. Prevent them from establishing a knee shield.
+5. **Extract trapped leg**: Once the far leg is cleared and controlled, focus on extracting your trapped leg from the half guard. Keep your weight forward while pulling your knee through the gap. You may need to angle your hips slightly or use a small hop to fully clear the legs.
+6. **Transition to side control**: As your leg clears, immediately transition your hips to a perpendicular position relative to your opponent's body. Maintain the crossface, establish chest-to-chest pressure, and secure a strong side control position. Your near arm should control the far hip while your far arm maintains head control.
 
 
 </section>
@@ -253,23 +253,18 @@ The Headquarters Pass is a fundamental position and passing sequence that establ
 ## Training Progressions
 **Week 1-2: Position Establishment** - Learning to establish and maintain headquarters position
 Partner starts in half guard, you work solely on achieving headquarters position with proper crossface, near leg control, and shoulder pressure. Hold position for 10-15 seconds. Partner provides no resistance.
-(Resistance: None)
 
 **Week 3-4: Leg Clearing Mechanics** - Developing the far leg clearing and trapped leg extraction sequence
 From established headquarters, practice the clearing and extraction movements in isolation. Partner provides light resistance to leg clearing but allows completion. Focus on maintaining crossface throughout.
-(Resistance: Light)
 
 **Week 5-8: Integrated Passing** - Complete headquarters pass with moderate resistance
 Execute full pass sequence from half guard to side control. Partner actively defends with frames and attempts to retain guard but does not attempt sweeps. Work on timing and pressure maintenance.
-(Resistance: Medium)
 
 **Week 9-12: Counter Response** - Dealing with common defensive reactions
 Partner specifically works underhooks, knee shields, and deep half attempts. Practice recognizing and responding to these counters while maintaining passing momentum.
-(Resistance: Medium)
 
 **Month 4+: Live Training** - Full resistance application
 Execute headquarters pass during positional sparring and live rolling. Start from half guard top position and work to complete pass against fully resisting opponents.
-(Resistance: Full)
 
 
 

@@ -227,7 +227,7 @@ Mastery of both perspectives is essential for modern grapplers, as the leg weave
 
 - **[[Flattened Half Guard]]** - Common result when bottom player fails to defend leg weave effectively
 
-- **[[Leg Drag Position]]** - Alternative passing finish when bottom player turns during leg weave
+- **[[Leg Drag Control]]** - Alternative passing finish when bottom player turns during leg weave
 
 
 </section>

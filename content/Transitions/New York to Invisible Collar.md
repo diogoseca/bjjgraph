@@ -163,7 +163,7 @@ Strategically, this transition capitalizes on moments when the opponent focuses 
 The biomechanics of this transition exploit a fundamental weakness in the opponent's defensive structure. When trapped in New York, opponents typically focus their defensive attention on the overhook and the shin across their back. The hand controlling the shin appears to be a critical anchor, so when it releases and immediately attacks the neck, opponents often react too slowly to prevent the collar grip establishment. This misdirection is central to the technique's high success rate at advanced levels.
 
 **From Position**: [[New York/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure overhook**: Ensure your overhook is deep around the opponent's tricep with your shoulder tight against their armpit. This grip must remain locked throughout the entire transition and serves as your primary anchor. (Timing: Before initiating transition)
-2. **Load opponent forward**: Use your shin grip and overhook to pull the opponent's weight forward and down toward your chest. Their head should be below shoulder level, and they should have minimal posting ability on their trapped arm side. (Timing: 1-2 seconds of loading pressure)
-3. **Release shin grip**: Release your grip on your own shin while maintaining leg position through hip flexor engagement. Your leg should stay wrapped high across their back through active muscular control rather than the hand grip. (Timing: Quick release, not gradual)
-4. **Swim hand to neck**: Immediately swim your free hand between the opponent's shoulder and your own thigh, threading it behind their head. The hand travels in a circular arc, palm facing inward toward their skull. (Timing: Within 1 second of shin release)
-5. **Establish collar grip**: Cup the back of the opponent's skull with your palm, fingers wrapping around toward the ear on the opposite side. Pull their head down toward your chest while your wrist applies pressure to the back of their neck. (Timing: Immediately upon hand contact)
-6. **Consolidate Invisible Collar**: Adjust your hip angle toward the overhook side while pulling the head down with the collar grip. Both arms now control the opponent's posture - overhook on arm, collar grip on head. Your leg maintains position across their back. (Timing: 2-3 seconds to settle position)
-7. **Begin attack selection**: From Invisible Collar, assess opponent's reactions. If they drive forward, progress to gogoplata setup. If they try to posture, threaten arm attacks. If they remain passive, advance to Zombie or Chill Dog for finishing sequences. (Timing: Continuous assessment)
+1. **Secure overhook**: Ensure your overhook is deep around the opponent's tricep with your shoulder tight against their armpit. This grip must remain locked throughout the entire transition and serves as your primary anchor.
+2. **Load opponent forward**: Use your shin grip and overhook to pull the opponent's weight forward and down toward your chest. Their head should be below shoulder level, and they should have minimal posting ability on their trapped arm side.
+3. **Release shin grip**: Release your grip on your own shin while maintaining leg position through hip flexor engagement. Your leg should stay wrapped high across their back through active muscular control rather than the hand grip.
+4. **Swim hand to neck**: Immediately swim your free hand between the opponent's shoulder and your own thigh, threading it behind their head. The hand travels in a circular arc, palm facing inward toward their skull.
+5. **Establish collar grip**: Cup the back of the opponent's skull with your palm, fingers wrapping around toward the ear on the opposite side. Pull their head down toward your chest while your wrist applies pressure to the back of their neck.
+6. **Consolidate Invisible Collar**: Adjust your hip angle toward the overhook side while pulling the head down with the collar grip. Both arms now control the opponent's posture - overhook on arm, collar grip on head. Your leg maintains position across their back.
+7. **Begin attack selection**: From Invisible Collar, assess opponent's reactions. If they drive forward, progress to gogoplata setup. If they try to posture, threaten arm attacks. If they remain passive, advance to Zombie or Chill Dog for finishing sequences.
 
 
 </section>
@@ -264,19 +264,15 @@ The biomechanics of this transition exploit a fundamental weakness in the oppone
 ## Training Progressions
 **Week 1-2** - Hand swim mechanics
 Practice the hand swim motion from New York without resistance. Focus on the correct path - behind the shoulder, around the ear, cupping the skull. Partner remains still while you develop muscle memory for the threading motion. Complete 50 repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Timing and coordination
 Add light resistance with partner attempting to block the hand swim. Focus on explosive timing - release shin grip and swim simultaneously. Partner gives 50% resistance, allowing successful completion while building reaction speed.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner randomly chooses between allowing the transition, hand fighting, or attempting posture recovery. Practice appropriate responses to each scenario. Begin chaining failed transitions into alternative attacks like triangle or armbar.
-(Resistance: Medium)
 
 **Week 7+** - Live sparring application
 Implement transition in live rolling starting from New York position. Track success rate and identify patterns in failures. Adjust timing and setup based on training partner body types and defensive tendencies. Target 50%+ success rate before considering technique reliable.
-(Resistance: Full)
 
 
 

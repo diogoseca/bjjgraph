@@ -379,7 +379,7 @@ Start with you in sprawl position on flattened opponent, they work to escape or 
 - [[Ankle Pick]] (Transition) - Alternative takedown attack that requires modified sprawl defense mechanics due to lower body targeting
 - [[Grip Fighting]] (Principle) - Prerequisite skill that prevents clean takedown entries and reduces frequency of required sprawl defense
 - [[Base Maintenance]] (Principle) - Complementary concept that ensures sprawl structure remains stable during defensive execution
-- [[D'arce Control]] (Position) - Control position accessible from sprawl when opponent's posture is broken and arm is trapped
+- [[Darce Control]] (Position) - Control position accessible from sprawl when opponent's posture is broken and arm is trapped
 - [[Anaconda Control]] (Position) - Control position from sprawl using head-and-arm configuration for anaconda choke setups
 - [[Back Control]] (Position) - Dominant position achievable from sprawl when opponent turns away or exposes back during defensive recovery
 

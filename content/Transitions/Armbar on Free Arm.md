@@ -157,7 +157,7 @@ This technique represents the convergence of positional dominance and limb isola
 From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma for the defender. If they protect their neck with the free arm, they make it available for armbar attack. If they use the arm to frame or create escape angles, they expose their neck to choke threats. This forcing function makes the Gift Wrap to Armbar combination one of the most reliable submission chains from back control positions.
 
 **From Position**: [[Gift Wrap/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure arm control**: From Gift Wrap, identify when opponent's free arm extends for neck defense or framing. Use your non-Gift-Wrap hand to control their wrist or forearm, securing two-on-one control momentarily. (Timing: When opponent reaches to defend choke or create frames)
-2. **Thread leg over head**: Swing your top leg over opponent's face and head, placing your calf across their face or neck. Your foot should hook past their far shoulder to prevent them from posturing or turning into you. (Timing: Immediately after securing arm control)
-3. **Hip pivot**: Rotate your hips from behind the opponent to a perpendicular angle, keeping the arm pinned to your chest throughout the rotation. Your bottom hip should drive toward their shoulder as you pivot. (Timing: Simultaneous with leg placement)
-4. **Secure armbar position**: Clamp your knees together tightly around their upper arm, trapping the arm between your thighs with their thumb pointing toward the ceiling. Maintain the Gift Wrap control on the opposite arm throughout. (Timing: As hip rotation completes)
-5. **Control elbow alignment**: Pull their wrist to your chest while ensuring their elbow is positioned directly over your hip line. Their arm should be straight with the elbow joint aligned against your pubic bone area for maximum leverage. (Timing: Before applying finishing pressure)
-6. **Apply breaking pressure**: Bridge your hips upward into the elbow joint while pulling their wrist toward your chest and squeezing your knees. The combination of hip elevation, wrist pull, and knee squeeze creates the hyperextension pressure. (Timing: Once alignment is secured)
+1. **Secure arm control**: From Gift Wrap, identify when opponent's free arm extends for neck defense or framing. Use your non-Gift-Wrap hand to control their wrist or forearm, securing two-on-one control momentarily.
+2. **Thread leg over head**: Swing your top leg over opponent's face and head, placing your calf across their face or neck. Your foot should hook past their far shoulder to prevent them from posturing or turning into you.
+3. **Hip pivot**: Rotate your hips from behind the opponent to a perpendicular angle, keeping the arm pinned to your chest throughout the rotation. Your bottom hip should drive toward their shoulder as you pivot.
+4. **Secure armbar position**: Clamp your knees together tightly around their upper arm, trapping the arm between your thighs with their thumb pointing toward the ceiling. Maintain the Gift Wrap control on the opposite arm throughout.
+5. **Control elbow alignment**: Pull their wrist to your chest while ensuring their elbow is positioned directly over your hip line. Their arm should be straight with the elbow joint aligned against your pubic bone area for maximum leverage.
+6. **Apply breaking pressure**: Bridge your hips upward into the elbow joint while pulling their wrist toward your chest and squeezing your knees. The combination of hip elevation, wrist pull, and knee squeeze creates the hyperextension pressure.
 
 
 </section>
@@ -254,19 +254,15 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 ## Training Progressions
 **Week 1-2** - Arm identification and control
 Practice identifying when opponent's free arm becomes vulnerable. Drill the initial arm control sequence from Gift Wrap with cooperative partner. Focus on maintaining Gift Wrap trap while securing secondary arm.
-(Resistance: None)
 
 **Week 3-4** - Transition mechanics
 Add the leg-over-head and hip pivot movements. Partner provides light defensive reactions. Emphasize smooth transition while maintaining both arm controls throughout the movement sequence.
-(Resistance: Light)
 
 **Week 5-6** - Finishing details and counter responses
 Practice full sequence with partner attempting basic escapes. Work on elbow alignment, knee pinch, and bridging pressure. Drill responses to hitchhiker escape and arm extraction attempts.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply technique in positional sparring starting from Gift Wrap. Chain with choke attacks based on opponent's defensive choices. Full resistance rounds with focus on recognition and timing.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ This submission capitalizes on the inherent vulnerability of the knee joint when
 The kneebar from Backside 50-50 integrates seamlessly into modern leg lock systems as a complementary attack to heel hooks and toe holds. When opponents defend heel hooks effectively by hiding their heel or rotating their knee outward, they often inadvertently straighten their leg, creating the exact configuration needed for kneebar entry. This makes the kneebar an essential tool for creating dilemmas within leg entanglement exchanges, forcing opponents to choose between exposing their heel or extending their leg.
 
 **From Position**: [[Backside 50-50/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target leg**: From Backside 50-50 Top, identify which leg is extended or straightening. This typically occurs when opponent defends heel hooks by rotating their knee outward or when they attempt to stand and extract their leg from the entanglement. (Timing: When opponent extends leg during defense or escape attempt)
-2. **Secure hip control**: Pin opponent's hip on the target leg side using your forearm or hand. This prevents them from rotating their hip away, which would allow knee bend and escape. Your control of their hip is the foundation for the entire attack. (Timing: Immediately upon committing to kneebar)
-3. **Rotate perpendicular**: Swing your body to position yourself perpendicular to opponent's target leg, bringing their leg across your hip line. Your belly button should point toward their hip. Maintain leg entanglement control during this transition to prevent them from pulling free. (Timing: Smooth continuous motion, 1-2 seconds)
-4. **Establish leg triangle**: Triangle your legs around opponent's upper thigh, crossing your ankles if possible. This creates a secondary control point that prevents leg extraction even if they strip your grip on their ankle. Your inside leg goes under their thigh, outside leg over. (Timing: As you complete rotation)
-5. **Position fulcrum**: Pull opponent's ankle toward your chest while positioning your hip bone or lower abdomen at or slightly above their kneecap. The knee must be positioned against your hip, not your thigh or stomach. Squeeze your knees together to secure the leg tightly. (Timing: Final positioning before finish)
-6. **Apply breaking pressure**: Drive your hips forward while pulling their ankle toward your chest with both hands gripping their foot or lower shin. The extension should come primarily from hip movement, not arm pulling. Control the speed - slow, steady pressure allows opponent time to tap safely. (Timing: Controlled, steady pressure until tap)
+1. **Identify target leg**: From Backside 50-50 Top, identify which leg is extended or straightening. This typically occurs when opponent defends heel hooks by rotating their knee outward or when they attempt to stand and extract their leg from the entanglement.
+2. **Secure hip control**: Pin opponent's hip on the target leg side using your forearm or hand. This prevents them from rotating their hip away, which would allow knee bend and escape. Your control of their hip is the foundation for the entire attack.
+3. **Rotate perpendicular**: Swing your body to position yourself perpendicular to opponent's target leg, bringing their leg across your hip line. Your belly button should point toward their hip. Maintain leg entanglement control during this transition to prevent them from pulling free.
+4. **Establish leg triangle**: Triangle your legs around opponent's upper thigh, crossing your ankles if possible. This creates a secondary control point that prevents leg extraction even if they strip your grip on their ankle. Your inside leg goes under their thigh, outside leg over.
+5. **Position fulcrum**: Pull opponent's ankle toward your chest while positioning your hip bone or lower abdomen at or slightly above their kneecap. The knee must be positioned against your hip, not your thigh or stomach. Squeeze your knees together to secure the leg tightly.
+6. **Apply breaking pressure**: Drive your hips forward while pulling their ankle toward your chest with both hands gripping their foot or lower shin. The extension should come primarily from hip movement, not arm pulling. Control the speed - slow, steady pressure allows opponent time to tap safely.
 
 
 </section>
@@ -257,19 +257,15 @@ The kneebar from Backside 50-50 integrates seamlessly into modern leg lock syste
 ## Training Progressions
 **Week 1-2** - Position and mechanics
 Learn the finishing position without resistance. Practice transitioning from Backside 50-50 to kneebar position with compliant partner. Focus on fulcrum placement at the knee, hip drive mechanics, and leg triangle positioning. No finishing pressure - just positional drilling.
-(Resistance: None)
 
 **Week 3-4** - Entry timing and recognition
 Partner provides light movement, extending and bending their leg at random intervals. Practice recognizing when the leg extends and initiating the kneebar entry at the correct moment. Add light finishing pressure with controlled partners who tap early.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner attempts basic escapes: knee bend, hip rotation, boot and push. Practice maintaining control through these defensive movements. Learn when to abandon kneebar and transition to alternative attacks when defense succeeds.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply kneebar attempts in positional sparring starting from leg entanglement positions. Work on chaining kneebar with heel hooks and toe holds. Progress to full live rolling, recognizing kneebar opportunities in scrambles and transitions.
-(Resistance: Full)
 
 
 

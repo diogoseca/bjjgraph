@@ -17,7 +17,7 @@ description: "Master Half Guard Recovery from leg drag bottom. Step-by-step defe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Half Guard Recovery in BJJ",
-  "description": "Step-by-step guide for Half Guard Recovery from Leg Drag Position/Bottom. Possible outcomes: Knee Shield Half Guard (55%), Half Guard (15%), Leg Drag Position (20%), Side Control (10%).",
+  "description": "Step-by-step guide for Half Guard Recovery from Leg Drag Control/Bottom. Possible outcomes: Knee Shield Half Guard (55%), Half Guard (15%), Leg Drag Control (20%), Side Control (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -156,8 +156,8 @@ The fundamental challenge of this recovery lies in the mechanical disadvantage c
 
 Strategically, half guard recovery is preferred over other escape options when your opponent begins a knee slice or pressure pass, as their forward movement creates the exact space you need to insert your knee. The position you recover to - ideally knee shield half guard - gives you immediate offensive threats including underhook battles, sweeps, and leg lock entries. This makes the recovery not just a defensive technique but a positional reset that can shift momentum in your favor.
 
-**From Position**: [[Leg Drag Position/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[Leg Drag Control/Bottom]]
+**Success Rate**: 58%
 
 </section>
 
@@ -169,7 +169,7 @@ Strategically, half guard recovery is preferred over other escape options when y
 |--------|----------|-------------|
 | Success | [[Knee Shield Half Guard]] | 55% |
 | Success | [[Half Guard]] | 15% |
-| Failure | [[Leg Drag Position]] | 20% |
+| Failure | [[Leg Drag Control]] | 20% |
 | Counter | [[Side Control]] | 10% |
 
 
@@ -206,12 +206,12 @@ Strategically, half guard recovery is preferred over other escape options when y
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create initial frames**: Place your free leg shin across opponent's hip as a frame while posting your far-side hand on their shoulder or collar. These frames must be established before any major hip movement - they create the space necessary for the recovery. (Timing: Immediately upon recognizing leg drag establishment)
-2. **Time the transition**: Wait for opponent to begin their passing movement - typically a knee slice or pressure pass progression. As they shift weight to complete the pass, their chest pressure momentarily decreases, creating your window for hip movement. (Timing: As opponent initiates pass completion)
-3. **Hip escape toward opponent**: Execute an explosive shrimp toward your opponent, not away. Bring your inside knee to your chest as you shrimp, creating the angle needed to insert the knee shield. Your hips must move as a unit with your knee pull. (Timing: Simultaneous with opponent's transition)
-4. **Insert knee shield**: Drive your inside knee across opponent's hip line with your shin angled diagonally across their torso. The knee shield should create a strong barrier preventing them from flattening you or achieving chest-to-chest contact. (Timing: Immediately after hip escape creates space)
-5. **Secure quarter guard or lockdown**: As the knee shield establishes, use your bottom leg to hook around their trapped leg, creating quarter guard control. This prevents them from backing out and re-establishing the leg drag while you consolidate position. (Timing: Within one second of knee shield insertion)
-6. **Fight for underhook**: Immediately battle for the underhook on the side of your knee shield using your bottom arm. The underhook prevents the crossface and gives you offensive options including sweeps and back takes. Keep your elbow tight to prevent them from swimming their arm inside. (Timing: Continuous from position establishment)
+1. **Create initial frames**: Place your free leg shin across opponent's hip as a frame while posting your far-side hand on their shoulder or collar. These frames must be established before any major hip movement - they create the space necessary for the recovery.
+2. **Time the transition**: Wait for opponent to begin their passing movement - typically a knee slice or pressure pass progression. As they shift weight to complete the pass, their chest pressure momentarily decreases, creating your window for hip movement.
+3. **Hip escape toward opponent**: Execute an explosive shrimp toward your opponent, not away. Bring your inside knee to your chest as you shrimp, creating the angle needed to insert the knee shield. Your hips must move as a unit with your knee pull.
+4. **Insert knee shield**: Drive your inside knee across opponent's hip line with your shin angled diagonally across their torso. The knee shield should create a strong barrier preventing them from flattening you or achieving chest-to-chest contact.
+5. **Secure quarter guard or lockdown**: As the knee shield establishes, use your bottom leg to hook around their trapped leg, creating quarter guard control. This prevents them from backing out and re-establishing the leg drag while you consolidate position.
+6. **Fight for underhook**: Immediately battle for the underhook on the side of your knee shield using your bottom arm. The underhook prevents the crossface and gives you offensive options including sweeps and back takes. Keep your elbow tight to prevent them from swimming their arm inside.
 
 
 </section>
@@ -257,19 +257,15 @@ Strategically, half guard recovery is preferred over other escape options when y
 ## Training Progressions
 **Week 1-2** - Frame mechanics
 Practice creating and maintaining frames from leg drag bottom with partner applying light pressure. Focus on proper hand placement on shoulder, shin frame across hip, and body positioning. No live recovery attempts yet.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner alternates between static pressure and passing transitions. Practice recognizing the moment to initiate recovery and executing the hip escape and knee insertion with increasing speed. Partner gives known passing patterns.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively attempts to counter the recovery with backsteps, sprawls, and knee shield clearing. Practice adjusting recovery to counters and linking to alternative escapes when primary recovery fails.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance specific training from leg drag position. Partner attempts real passes while you work recovery timing. Include variations in opponent passing style and body types. Track success rate and identify pattern weaknesses.
-(Resistance: Full)
 
 
 
@@ -345,7 +341,7 @@ Half Guard Recovery is a cornerstone defensive transition within the guard reten
 
 ## Related Techniques
 
-- [[Leg Drag Position]] - Starting position
+- [[Leg Drag Control]] - Starting position
 - [[Knee Shield Half Guard]] - Primary recovery target
 - [[Half Guard]] - Alternative recovery position
 - [[Deep Half Guard]] - Alternative when knee shield blocked

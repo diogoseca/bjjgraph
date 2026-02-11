@@ -157,7 +157,7 @@ This escape exemplifies the counter-intuitive nature of high-level grappling def
 The technique integrates seamlessly with standard half guard passing strategies. Once the leg is extracted through the limp leg mechanics, the top player can immediately transition to knee slice, smash pass, or other high-percentage passing sequences. Understanding this escape is essential for any practitioner facing lockdown-based half guards, as it provides the primary pathway out of an otherwise dangerous position.
 
 **From Position**: [[Electric Chair/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The technique integrates seamlessly with standard half guard passing strategies.
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize position**: Identify that opponent has secured the Electric Chair configuration with lockdown engaged on your leg and their hips beginning to extend. Early recognition is critical as the submission becomes increasingly dangerous with greater extension. (Timing: Immediate upon feeling hip extension pressure)
-2. **Establish upper body control**: Drive your weight forward and establish strong crossface with your nearside arm, positioning your shoulder into opponent's jaw and chin. This prevents them from achieving the perpendicular angle needed for maximum submission pressure. (Timing: Before attempting any leg extraction)
-3. **Relax trapped leg completely**: Consciously release all muscular tension in your trapped leg from hip to toes. Let the leg go completely limp rather than tensing against the lockdown. This reduces leg diameter and removes the resistance point the lockdown requires. (Timing: While maintaining forward pressure)
-4. **Address foot triangle**: Use your free hand to reach down and separate opponent's feet that form the figure-four triangle of the lockdown. Apply knee pressure to the inside of their triangle to create space. The foot triangle must be compromised before extraction is possible. (Timing: After leg is fully relaxed)
-5. **Drive knee toward hip**: With the leg relaxed and triangle compromised, drive your knee directly toward opponent's hip in a circular motion. This shortens the path of extraction and reduces the angle that makes the lockdown effective. Maintain forward pressure throughout. (Timing: As you feel triangle loosen)
-6. **Extract and establish pass**: Complete the leg extraction by pulling your knee through the compromised lockdown while keeping crossface pressure. Immediately transition to half guard passing position such as knee slice or smash pass before opponent can re-engage the lockdown. (Timing: Immediately chain to passing)
+1. **Recognize position**: Identify that opponent has secured the Electric Chair configuration with lockdown engaged on your leg and their hips beginning to extend. Early recognition is critical as the submission becomes increasingly dangerous with greater extension.
+2. **Establish upper body control**: Drive your weight forward and establish strong crossface with your nearside arm, positioning your shoulder into opponent's jaw and chin. This prevents them from achieving the perpendicular angle needed for maximum submission pressure.
+3. **Relax trapped leg completely**: Consciously release all muscular tension in your trapped leg from hip to toes. Let the leg go completely limp rather than tensing against the lockdown. This reduces leg diameter and removes the resistance point the lockdown requires.
+4. **Address foot triangle**: Use your free hand to reach down and separate opponent's feet that form the figure-four triangle of the lockdown. Apply knee pressure to the inside of their triangle to create space. The foot triangle must be compromised before extraction is possible.
+5. **Drive knee toward hip**: With the leg relaxed and triangle compromised, drive your knee directly toward opponent's hip in a circular motion. This shortens the path of extraction and reduces the angle that makes the lockdown effective. Maintain forward pressure throughout.
+6. **Extract and establish pass**: Complete the leg extraction by pulling your knee through the compromised lockdown while keeping crossface pressure. Immediately transition to half guard passing position such as knee slice or smash pass before opponent can re-engage the lockdown.
 
 
 </section>
@@ -252,19 +252,15 @@ The technique integrates seamlessly with standard half guard passing strategies.
 ## Training Progressions
 **Week 1-2** - Limp leg mechanics
 Practice the sensation of completely relaxing the trapped leg while partner holds static lockdown. Focus on releasing all tension from hip to toes. Partner provides position but no active resistance. Drill 20-30 repetitions per session focusing on the mental component of relaxation.
-(Resistance: None)
 
 **Week 3-4** - Upper body control integration
 Combine limp leg with crossface establishment and forward pressure. Partner holds Electric Chair position with light resistance. Work the complete sequence: crossface, relax leg, break triangle, extract. Focus on maintaining forward pressure throughout the escape.
-(Resistance: Light)
 
 **Week 5-6** - Transition chaining
 Add immediate passing sequences after successful extraction. Partner provides medium resistance and may attempt counters. Practice knee slice and smash pass entries directly from the escape. Work counter-responses when partner transitions to Deep Half.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting in Electric Chair. Top player works complete escape and pass. Bottom player uses full resistance including transition attempts. Reset after successful pass or sweep. Track success rate and identify remaining technical gaps.
-(Resistance: Full)
 
 
 

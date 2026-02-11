@@ -367,11 +367,11 @@ Begin in severely compromised quarter guard with partner seventy-five percent th
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 15% |
-| Intermediate | 55% | 60% | 25% |
-| Advanced     | 70% | 75% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 68% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 5-15 seconds before transition to different position
 

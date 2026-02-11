@@ -374,11 +374,11 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 30% | 5% |
-| Intermediate | 65% | 45% | 8% |
-| Advanced     | 75% | 60% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 52% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 1-3 minutes
 

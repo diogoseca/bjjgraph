@@ -21,37 +21,37 @@ description: "Master North-South top position in BJJ. Complete guide to establis
     {
       "@type": "HowToStep",
       "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt North-South Choke. This technique is attempted in 9% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
-      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt North-South to Kimura. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Side Control",
-      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Americana from Side Control",
-      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Americana from Side Control. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,25 +209,29 @@ The position serves as a critical checkpoint during guard passing sequences and 
 
 ## Available Attacks
 
-### [[North-South Choke]] (10% of attempts)
-
-### [[Side Control to Mount]] (13% of attempts)
-
-### [[North-South to Kimura]] (11% of attempts)
-
-### [[Armbar from Side Control]] (9% of attempts)
-
-### [[Side Control to North-South]] (12% of attempts)
-
-### [[Americana from Side Control]] (9% of attempts)
+### [[North-South Choke]] (9% of attempts)
 
 ### [[Side Control to Mount]] (11% of attempts)
 
-### [[Knee on Belly]] (10% of attempts)
+### [[North-South to Kimura]] (9% of attempts)
 
-### [[Spinning Armbar]] (7% of attempts)
+### [[Armbar from Side Control]] (8% of attempts)
 
-### [[Reverse Armbar]] (8% of attempts)
+### [[Side Control to North-South]] (10% of attempts)
+
+### [[Americana from Side Control]] (8% of attempts)
+
+### [[Knee on Belly]] (8% of attempts)
+
+### [[Spinning Armbar]] (6% of attempts)
+
+### [[Reverse Armbar]] (7% of attempts)
+
+### [[Arm Triangle Setup]] (8% of attempts)
+
+### [[Armbar from North-South]] (8% of attempts)
+
+### [[Reverse Mount Transition]] (8% of attempts)
 
 
 
@@ -383,11 +387,11 @@ Maintain maximum chest pressure in North-South while partner attempts only frame
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 25% |
-| Intermediate | 70% | 65% | 45% |
-| Advanced     | 85% | 80% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 60-120 seconds of control before transition or submission
 

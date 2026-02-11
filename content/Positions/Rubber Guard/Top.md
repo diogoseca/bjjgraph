@@ -317,11 +317,11 @@ Start in closed guard with good posture. Partner attempts to break posture and e
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 20% | 45% |
-| Intermediate | 45% | 35% | 30% |
-| Advanced     | 65% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 45% |
+| Submission Probability | 22% |
 
 **Average Time in Position**: 60-120 seconds defensive time before achieving escape or succumbing to submission
 

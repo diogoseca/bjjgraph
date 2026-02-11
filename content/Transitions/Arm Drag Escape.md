@@ -163,7 +163,7 @@ The technique exploits a fundamental vulnerability in front headlock control: th
 Strategically, the arm drag escape is most effective when your opponent commits their weight forward into head control rather than sprawling back. This forward commitment gives you the leverage needed to redirect their arm. The technique pairs naturally with other front headlock escapes—if you threaten the arm drag, your opponent must adjust their arm position, which can open pathways for technical standup or granby roll escapes. This makes it an essential component of a complete front headlock defense system.
 
 **From Position**: [[Front Headlock/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure chin tuck and hand position**: From front headlock bottom, immediately tuck your chin tightly to your chest to prevent choke threats. Locate the opponent's choking arm and begin working your near hand to their wrist while your far hand reaches for their tricep or elbow area. This two-on-one acquisition is the foundation of the entire escape. (Timing: Within first 2-3 seconds of recognizing arm drag opportunity)
-2. **Establish two-on-one grip**: Secure a firm C-grip on the opponent's wrist with your near hand, thumb on top of their forearm. Your far hand grips their tricep just above the elbow, creating a two-on-one lever system. Squeeze your elbows tight to your body to prevent them from pulling their arm free before you initiate the drag. (Timing: Grip must be established before any lateral movement begins)
-3. **Initiate the arm drag across centerline**: Pull the opponent's choking arm forcefully across your centerline toward the far side of your body using both hands in unison. The wrist hand pulls laterally while the tricep hand drives the elbow past your face. Your elbows drive toward your far hip, using your entire torso rotation to power the drag rather than relying solely on arm strength. (Timing: Explosive pull timed with opponent's forward weight shift or grip adjustment)
-4. **Circle head free**: As you drag their arm across, simultaneously duck your head in the opposite direction—toward the same side as the drag. Your head circles underneath and away from their control, passing through the gap created by redirecting their arm. Keep chin tucked and lead with the crown of your head to minimize the profile they can catch. (Timing: Head movement must be simultaneous with the arm drag, not sequential)
-5. **Hip switch and angle creation**: As your head clears their control, execute a sharp hip switch by turning your hips toward the opponent and bringing your inside knee across to create a frame. This angular movement prevents them from simply re-acquiring head control and begins establishing the distance needed to recover guard. Your body should rotate approximately 90 degrees from the starting turtle-like position to facing the opponent. (Timing: Immediately upon head clearing opponent's arm control)
-6. **Establish leg frames and recover guard**: Drive your inside knee into the opponent's hip or chest as a primary frame while your outside foot plants on their far hip. This double-leg frame structure creates the distance barrier characteristic of open guard. Release the arm drag grips and transition to standard open guard grips—collar and sleeve in gi, or wrist and elbow control in no-gi. Maintain active feet to prevent immediate re-passing. (Timing: Guard frames must be established within 1-2 seconds of head clearing)
-7. **Consolidate open guard position**: Once leg frames are in place, adjust your hip angle to face the opponent squarely from open guard bottom. Establish your preferred guard variation based on their posture—butterfly hooks if they drive forward, feet on hips if they stand tall, or de la riva if they remain in combat base. The transition from escape to established guard must be seamless to prevent any passing opportunity. (Timing: Complete guard establishment before opponent can reset their passing posture)
+1. **Secure chin tuck and hand position**: From front headlock bottom, immediately tuck your chin tightly to your chest to prevent choke threats. Locate the opponent's choking arm and begin working your near hand to their wrist while your far hand reaches for their tricep or elbow area. This two-on-one acquisition is the foundation of the entire escape.
+2. **Establish two-on-one grip**: Secure a firm C-grip on the opponent's wrist with your near hand, thumb on top of their forearm. Your far hand grips their tricep just above the elbow, creating a two-on-one lever system. Squeeze your elbows tight to your body to prevent them from pulling their arm free before you initiate the drag.
+3. **Initiate the arm drag across centerline**: Pull the opponent's choking arm forcefully across your centerline toward the far side of your body using both hands in unison. The wrist hand pulls laterally while the tricep hand drives the elbow past your face. Your elbows drive toward your far hip, using your entire torso rotation to power the drag rather than relying solely on arm strength.
+4. **Circle head free**: As you drag their arm across, simultaneously duck your head in the opposite direction—toward the same side as the drag. Your head circles underneath and away from their control, passing through the gap created by redirecting their arm. Keep chin tucked and lead with the crown of your head to minimize the profile they can catch.
+5. **Hip switch and angle creation**: As your head clears their control, execute a sharp hip switch by turning your hips toward the opponent and bringing your inside knee across to create a frame. This angular movement prevents them from simply re-acquiring head control and begins establishing the distance needed to recover guard. Your body should rotate approximately 90 degrees from the starting turtle-like position to facing the opponent.
+6. **Establish leg frames and recover guard**: Drive your inside knee into the opponent's hip or chest as a primary frame while your outside foot plants on their far hip. This double-leg frame structure creates the distance barrier characteristic of open guard. Release the arm drag grips and transition to standard open guard grips—collar and sleeve in gi, or wrist and elbow control in no-gi. Maintain active feet to prevent immediate re-passing.
+7. **Consolidate open guard position**: Once leg frames are in place, adjust your hip angle to face the opponent squarely from open guard bottom. Establish your preferred guard variation based on their posture—butterfly hooks if they drive forward, feet on hips if they stand tall, or de la riva if they remain in combat base. The transition from escape to established guard must be seamless to prevent any passing opportunity.
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, the arm drag escape is most effective when your opponent commits 
 ## Training Progressions
 **Week 1-2** - Grip acquisition and mechanics
 Practice establishing the two-on-one grip from front headlock bottom with a cooperative partner. Focus on locating the choking arm by feel, securing wrist and tricep grips, and performing the drag-and-circle motion at slow speed. Partner holds static front headlock without resisting. Drill 20-30 repetitions per side per session, emphasizing the simultaneous arm drag and head circle coordination.
-(Resistance: None)
 
 **Week 3-4** - Timing and guard recovery integration
 Partner applies light forward pressure from front headlock while you practice timing the arm drag with their weight shifts. Add the full guard recovery sequence—head clear to knee frame to open guard establishment. Partner begins offering mild resistance to the drag and light scrambling after the head clears. Focus on seamless flow from escape to guard position.
-(Resistance: Light)
 
 **Week 5-6** - Counter-awareness and chain escapes
 Partner actively defends the arm drag by sprawling, switching to guillotine, or spinning to back. Practice recognizing when to commit to the arm drag versus abandoning it for technical standup or granby roll. Drill escape chains: arm drag attempt fails, transition to standup, opponent re-catches, switch to granby roll. Build decision-making under moderate resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application and competition scenarios
 Incorporate arm drag escape into positional sparring rounds starting from front headlock. Full resistance with the goal of escaping to guard within 15 seconds. Track success rate across sessions and identify patterns in which situations the arm drag works versus when alternative escapes are needed. Work arm drag escape into live rolling whenever caught in front headlock.
-(Resistance: Full)
 
 
 

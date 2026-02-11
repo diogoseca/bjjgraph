@@ -359,11 +359,11 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 85% | 12% | 5% |
-| Intermediate | 70% | 28% | 15% |
-| Advanced     | 50% | 48% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 38% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 45-90 seconds before escape or submission from bottom position
 

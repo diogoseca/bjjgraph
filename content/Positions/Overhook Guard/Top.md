@@ -370,11 +370,11 @@ Positional sparring starting from overhook guard top. Top player wins by passing
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 45% | 15% |
-| Intermediate | 68% | 60% | 25% |
-| Advanced     | 78% | 72% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 73% |
+| Advancement Probability | 66% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds before pass or guard recovery
 

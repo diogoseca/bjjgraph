@@ -366,11 +366,11 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 30% | 5% |
-| Intermediate | 35% | 45% | 10% |
-| Advanced     | 50% | 60% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 42% |
+| Advancement Probability | 52% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 10-30 seconds before transition to another position
 

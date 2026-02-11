@@ -117,7 +117,7 @@
     "transitions": [
       {
         "transition": "Armbar from Mount",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Americana from Mount",
@@ -149,15 +149,19 @@
       },
       {
         "transition": "Consolidate Mount",
-        "attempt_probability": 13
+        "attempt_probability": 15
       },
       {
         "transition": "Kimura from Mount",
         "attempt_probability": 5
       },
       {
-        "transition": "Mount Control",
-        "attempt_probability": 5
+        "transition": "Loop Choke from Mount",
+        "attempt_probability": 3
+      },
+      {
+        "transition": "Monoplata from Mount",
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [
@@ -347,21 +351,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Percentage of time top practitioner maintains mount until submission or advancement"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Likelihood of advancing to more dominant variation or achieving submission finish"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Success rate of finishing submissions from mount position across all variations"
       },
       "average_time": "2-4 minutes to submission at intermediate level with active attacks"
@@ -408,7 +406,7 @@
     "transitions": [
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 25
+        "attempt_probability": 35
       },
       {
         "transition": "Upa Escape",
@@ -416,22 +414,14 @@
       },
       {
         "transition": "Hip Escape to Guard",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Frame and Shrimp to Guard",
-        "attempt_probability": 15
+        "attempt_probability": 25
       },
       {
         "transition": "Explosive Bridge to Guard Recovery",
-        "attempt_probability": 10
+        "attempt_probability": 15
       },
       {
-        "transition": "Hip Escape to Turtle",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Deep Half Entry",
+        "transition": "Explosive Bridge to Turtle",
         "attempt_probability": 5
       }
     ],
@@ -599,21 +589,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 40,
-        "advanced": 65,
+        "value": 52,
         "description": "Percentage of time defender successfully escapes mount before submission occurs"
       },
       "advancement_probability": {
-        "beginner": 70,
-        "intermediate": 50,
-        "advanced": 25,
+        "value": 38,
         "description": "Likelihood opponent advances to more dominant position or achieves submission finish"
       },
       "submission_probability": {
-        "beginner": 60,
-        "intermediate": 35,
-        "advanced": 15,
+        "value": 25,
         "description": "Risk of being submitted while defending bottom mount position"
       },
       "average_time": "45-90 seconds before escape or submission at intermediate level"

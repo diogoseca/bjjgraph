@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Reverse X to Ashi Garami Entry is a systematic transition that converts the sweeping platform of Reverse X-Guard into a powerful leg entanglement position. This technique capitalizes on the bottom player's existing hook configuration behind the opponent's knee to establish inside or outside Ashi Garami control. The transition is particularly effective when sweep attempts are defended or when the opponent begins to posture up and widen their base.\n\nThis entry represents a fundamental pathway within the modern leg lock game, connecting guard positions to submission-threatening entanglements. By maintaining the primary hook behind the knee throughout the transition, the bottom player retains control while reconfiguring their secondary leg to complete the Ashi Garami structure. The transition works in both gi and no-gi contexts, though it excels in no-gi where heel hook finishes are available.\n\nStrategically, this technique creates a powerful dilemma for the top player: defend the sweep and expose leg attack entries, or focus on leg defense and become vulnerable to sweeps. Advanced practitioners use this transition as part of a flowing attack system where failed sweeps naturally funnel into leg entanglements, maintaining offensive pressure throughout.",
   "key_principles": [
     "Maintain the primary hook behind the opponent's knee throughout the entire transition to preserve control",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Evaluate position",
-      "description": "From Reverse X-Guard, assess opponent's weight distribution and base width. The entry works best when they resist sweeps by widening their base or shifting weight backward. Confirm your primary hook is secure behind their knee.",
-      "timing": "When opponent defends sweep or begins to posture"
+      "description": "From Reverse X-Guard, assess opponent's weight distribution and base width. The entry works best when they resist sweeps by widening their base or shifting weight backward. Confirm your primary hook is secure behind their knee."
     },
     {
       "step_number": 2,
       "action": "Elevate and angle",
-      "description": "Drive your hips upward using your primary hook while rotating your body to face the controlled leg more directly. This elevation creates space for your secondary leg to reconfigure while maintaining constant pressure on their balance.",
-      "timing": "Immediately upon deciding to transition"
+      "description": "Drive your hips upward using your primary hook while rotating your body to face the controlled leg more directly. This elevation creates space for your secondary leg to reconfigure while maintaining constant pressure on their balance."
     },
     {
       "step_number": 3,
       "action": "Transfer secondary leg",
-      "description": "Remove your secondary leg from the hip control position and begin threading it across the opponent's body. Your foot should travel across their far hip toward the opposite side while maintaining your primary hook position.",
-      "timing": "During hip elevation"
+      "description": "Remove your secondary leg from the hip control position and begin threading it across the opponent's body. Your foot should travel across their far hip toward the opposite side while maintaining your primary hook position."
     },
     {
       "step_number": 4,
       "action": "Establish cross-body clamp",
-      "description": "Position your secondary leg across the opponent's waist or far hip, creating the cross-body clamp that defines Ashi Garami. Your knees should be pinching together with the opponent's leg trapped between them.",
-      "timing": "As soon as secondary leg clears"
+      "description": "Position your secondary leg across the opponent's waist or far hip, creating the cross-body clamp that defines Ashi Garami. Your knees should be pinching together with the opponent's leg trapped between them."
     },
     {
       "step_number": 5,
       "action": "Control knee line",
-      "description": "Immediately address knee line control by using your outside hand to cup or hook around their heel while your inside arm frames against their knee. This prevents them from freeing their knee, which would negate submission threats.",
-      "timing": "Immediately after Ashi structure established"
+      "description": "Immediately address knee line control by using your outside hand to cup or hook around their heel while your inside arm frames against their knee. This prevents them from freeing their knee, which would negate submission threats."
     },
     {
       "step_number": 6,
       "action": "Consolidate Ashi Garami",
-      "description": "Finalize the position by adjusting your hip angle to maximize pressure on their trapped leg. Your hips should be turned slightly toward the captured leg with your knees pinching tightly. Establish heel exposure for submission attacks.",
-      "timing": "Within 2 seconds of transition completion"
+      "description": "Finalize the position by adjusting your hip angle to maximize pressure on their trapped leg. Your hips should be turned slightly toward the captured leg with your knees pinching tightly. Establish heel exposure for submission attacks."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamental mechanics",
-      "description": "Practice the basic movement pattern from static Reverse X-Guard position. Focus on hip elevation, secondary leg transfer path, and knee pinch establishment. Partner remains passive to allow repetition of correct mechanics.",
-      "resistance_level": "None"
+      "description": "Practice the basic movement pattern from static Reverse X-Guard position. Focus on hip elevation, secondary leg transfer path, and knee pinch establishment. Partner remains passive to allow repetition of correct mechanics."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and recognition",
-      "description": "Partner provides light resistance including gentle weight shifts and minor base adjustments. Practice recognizing the correct timing windows for entry based on opponent's reactions. Introduce grip transfer sequences.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance including gentle weight shifts and minor base adjustments. Practice recognizing the correct timing windows for entry based on opponent's reactions. Introduce grip transfer sequences."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter chains",
-      "description": "Partner actively defends using the common counters (backstep, smash, pull back). Practice the recommended responses and flow to alternative positions when primary entry is blocked. Develop the sweep-to-Ashi dilemma.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends using the common counters (backstep, smash, pull back). Practice the recommended responses and flow to alternative positions when primary entry is blocked. Develop the sweep-to-Ashi dilemma."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Full positional sparring starting from Reverse X-Guard. Apply the transition against fully resisting opponents. Focus on combining with sweeps to create pressure and recognizing when to commit to Ashi versus pursue sweep.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring starting from Reverse X-Guard. Apply the transition against fully resisting opponents. Focus on combining with sweeps to create pressure and recognizing when to commit to Ashi versus pursue sweep."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Reverse X to Ashi Garami Entry?",
-      "answer": "The primary goal is to convert the sweeping platform of Reverse X-Guard into a leg entanglement position that threatens heel hooks and other leg submissions. This transition capitalizes on existing control to establish Ashi Garami when sweep attempts are defended.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert the sweeping platform of Reverse X-Guard into a leg entanglement position that threatens heel hooks and other leg submissions. This transition capitalizes on existing control to establish Ashi Garami when sweep attempts are defended."
     },
     {
       "question": "What position do you start Reverse X to Ashi Garami Entry from?",
-      "answer": "This technique starts from Reverse X-Guard Bottom, where you have both hooks on the same side of the opponent's body with your primary hook behind their knee and secondary hook controlling their hip.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Reverse X-Guard Bottom, where you have both hooks on the same side of the opponent's body with your primary hook behind their knee and secondary hook controlling their hip."
     },
     {
       "question": "What are the key grips needed for Reverse X to Ashi Garami Entry?",
-      "answer": "The essential grips are near-side sleeve or wrist control to prevent opponent from posting during transition, and far-side collar or belt grip for posture manipulation. Upon completing the entry, grip priority shifts to heel cup and knee frame for knee line control.",
-      "difficulty": "Intermediate"
+      "answer": "The essential grips are near-side sleeve or wrist control to prevent opponent from posting during transition, and far-side collar or belt grip for posture manipulation. Upon completing the entry, grip priority shifts to heel cup and knee frame for knee line control."
     },
     {
       "question": "Your opponent begins to backstep as you initiate the transition - how do you adjust?",
-      "answer": "Follow their backstep by inverting with the movement while maintaining your hook connection. Their backstep exposes their back, so transition to a back take rather than forcing the Ashi entry. Alternatively, thread deeper to enter Honey Hole as the backstep creates space for the deeper entanglement.",
-      "difficulty": "Advanced"
+      "answer": "Follow their backstep by inverting with the movement while maintaining your hook connection. Their backstep exposes their back, so transition to a back take rather than forcing the Ashi entry. Alternatively, thread deeper to enter Honey Hole as the backstep creates space for the deeper entanglement."
     },
     {
       "question": "When is the best time to attempt Reverse X to Ashi Garami Entry?",
-      "answer": "The optimal timing is when the opponent defends a sweep by widening their base or shifting their weight backward. This weight shift momentarily reduces their ability to extract their leg or drive forward. Also effective when opponent begins to posture up, as their upward focus creates opportunity for leg reconfiguration.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when the opponent defends a sweep by widening their base or shifting their weight backward. This weight shift momentarily reduces their ability to extract their leg or drive forward. Also effective when opponent begins to posture up, as their upward focus creates opportunity for leg reconfiguration."
     },
     {
       "question": "What is the critical mechanical detail during the secondary leg transfer?",
-      "answer": "Hip elevation is critical during the secondary leg transfer. Your hips must drive upward using primary hook leverage to create sufficient space for the secondary leg to travel across the opponent's body. Without this elevation, the leg gets stuck and the transition fails.",
-      "difficulty": "Intermediate"
+      "answer": "Hip elevation is critical during the secondary leg transfer. Your hips must drive upward using primary hook leverage to create sufficient space for the secondary leg to travel across the opponent's body. Without this elevation, the leg gets stuck and the transition fails."
     },
     {
       "question": "How do you address an opponent who kicks their trapped leg straight during your knee pinch attempt?",
-      "answer": "A straight leg position actually facilitates Outside Ashi Garami entry. Rather than fighting to bend their knee, accept the straight leg and position for outside heel hook. The straight leg gives you a longer lever for heel exposure while your cross-body clamp maintains control.",
-      "difficulty": "Advanced"
+      "answer": "A straight leg position actually facilitates Outside Ashi Garami entry. Rather than fighting to bend their knee, accept the straight leg and position for outside heel hook. The straight leg gives you a longer lever for heel exposure while your cross-body clamp maintains control."
     },
     {
       "question": "What is the immediate priority upon completing the Ashi Garami structure?",
-      "answer": "Knee line control is the immediate priority. Within two seconds of completing the structure, you must cup the heel with your outside hand and frame against their knee with your inside arm. Without knee line control, no submission threat exists and they can simply extract their knee to escape.",
-      "difficulty": "Intermediate"
+      "answer": "Knee line control is the immediate priority. Within two seconds of completing the structure, you must cup the heel with your outside hand and frame against their knee with your inside arm. Without knee line control, no submission threat exists and they can simply extract their knee to escape."
     }
   ],
   "safety_considerations": "When training this transition, be aware of the inherent risks associated with leg entanglements. The Ashi Garami position threatens heel hooks, which can cause serious knee ligament damage if applied forcefully without proper control. Always tap early when caught in heel hook positions during training. Beginners should train this technique without heel hook finishes until they develop sensitivity to knee torque. Communicate clearly with training partners about leg lock rules and experience levels. Avoid explosive entries that could hyperextend knees. The transition itself is relatively safe, but once in Ashi Garami, both practitioners must exercise caution.",
@@ -264,5 +241,6 @@
       "name": "X-Guard",
       "relationship": "Related guard with similar entry mechanics"
     }
-  ]
+  ],
+  "success_rate": 58
 }

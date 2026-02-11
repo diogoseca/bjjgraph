@@ -159,7 +159,7 @@ Strategically, recovering closed guard from leg drag serves multiple purposes be
 The timing window for this escape is narrow but predictable. The optimal moment occurs when your opponent adjusts their grip to transition from leg drag to side control, or when they shift weight to address the back take. These transitional moments create brief lapses in pressure where frame establishment and hip movement become viable. Attempting the escape against fully settled control rarely succeeds and wastes valuable energy.
 
 **From Position**: [[Leg Drag Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,12 +208,12 @@ The timing window for this escape is narrow but predictable. The optimal moment 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish shoulder frame**: Place your near-side forearm against opponent's shoulder or bicep, creating a structural barrier. Keep your elbow tight to your body rather than extending the arm, which risks kimura exposure. This frame is your primary tool for creating separation. (Timing: Immediately upon recognizing leg drag position)
-2. **Create hip frame**: Your far-side hand posts on opponent's hip or grabs their pants at the hip level. This secondary frame prevents them from driving forward and settling weight. Together with the shoulder frame, you now have two points of leverage for creating space. (Timing: Simultaneous with shoulder frame)
-3. **Execute hip escape**: Bridge slightly to create space, then explosively hip escape away from your opponent while maintaining both frames. Your hips move diagonally backward, creating an angle between your body and theirs. This movement is the key mechanical action that enables leg extraction. (Timing: When opponent shifts weight or adjusts grip)
-4. **Extract trapped leg**: As your hip escape creates space, pull your knee toward your chest on the trapped leg side. The knee leads—don't try to pull the foot out first. The angle created by your hip escape makes this extraction possible where straight pulling would fail. (Timing: Immediately following hip escape)
-5. **Insert guard leg**: Once your trapped leg clears their control, immediately bring both legs to the inside position. Your knees point toward opponent's chest, feet positioned to hook around their back. Don't rest in an open guard position—continue directly to closing. (Timing: Fraction of second after extraction)
-6. **Close the guard**: Cross your ankles behind opponent's back while pulling them into your closed guard with your legs. Simultaneously release your frames and establish standard closed guard grips—collar and sleeve or cross-collar control. Pull them tight to prevent posturing. (Timing: Immediate guard closure before opponent can re-establish passing position)
+1. **Establish shoulder frame**: Place your near-side forearm against opponent's shoulder or bicep, creating a structural barrier. Keep your elbow tight to your body rather than extending the arm, which risks kimura exposure. This frame is your primary tool for creating separation.
+2. **Create hip frame**: Your far-side hand posts on opponent's hip or grabs their pants at the hip level. This secondary frame prevents them from driving forward and settling weight. Together with the shoulder frame, you now have two points of leverage for creating space.
+3. **Execute hip escape**: Bridge slightly to create space, then explosively hip escape away from your opponent while maintaining both frames. Your hips move diagonally backward, creating an angle between your body and theirs. This movement is the key mechanical action that enables leg extraction.
+4. **Extract trapped leg**: As your hip escape creates space, pull your knee toward your chest on the trapped leg side. The knee leads—don't try to pull the foot out first. The angle created by your hip escape makes this extraction possible where straight pulling would fail.
+5. **Insert guard leg**: Once your trapped leg clears their control, immediately bring both legs to the inside position. Your knees point toward opponent's chest, feet positioned to hook around their back. Don't rest in an open guard position—continue directly to closing.
+6. **Close the guard**: Cross your ankles behind opponent's back while pulling them into your closed guard with your legs. Simultaneously release your frames and establish standard closed guard grips—collar and sleeve or cross-collar control. Pull them tight to prevent posturing.
 
 
 </section>
@@ -259,19 +259,15 @@ The timing window for this escape is narrow but predictable. The optimal moment 
 ## Training Progressions
 **Week 1-2** - Frame mechanics and hip escape fundamentals
 Practice establishing shoulder and hip frames from leg drag bottom against a stationary partner. Drill hip escape motion in isolation, emphasizing the diagonal movement that creates extraction angle. Partner holds leg drag position without resistance while you develop muscle memory for the frame-to-escape sequence.
-(Resistance: None)
 
 **Week 3-4** - Timing and transition recognition
 Partner adds light movement—adjusting grips, shifting weight between consolidation and back take. Practice recognizing these transitional moments and timing your escape attempts to opponent's adjustments. Focus on patience and reading when opportunities appear rather than forcing escapes.
-(Resistance: Light)
 
 **Week 5-6** - Counter to counter sequences
 Partner actively resists and applies common counters (re-securing leg, driving through frame, transitioning to back). Develop responses to these counters and chain alternative escapes when primary escape is blocked. Practice switching between closed guard recovery, half guard recovery, and turtle transition based on opponent's defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Competition integration
 Full resistance positional sparring starting from leg drag bottom. Integrate escape into broader defensive sequences. Train multiple leg drag escapes consecutively to build cardio for competitive situations where first attempt may fail. Measure success rate and identify personal technical weaknesses.
-(Resistance: Full)
 
 
 

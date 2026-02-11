@@ -11,11 +11,6 @@
     "clinch",
     "technique"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Kouchi Gari (small inner reap) is a fundamental judo technique that has become essential in modern BJJ and no-gi grappling. The technique involves hooking your opponent's inside leg with your own while simultaneously breaking their balance backward and to the side. Unlike its larger cousin Ouchi Gari, Kouchi Gari focuses on a smaller, more nuanced reaping motion that targets the ankle and lower calf rather than the thigh. This makes it particularly effective when your opponent has a narrow stance or is stepping backward. The technique's beauty lies in its timing and subtlety—when executed properly, your opponent falls before they realize they've been swept. Kouchi Gari works exceptionally well as part of combination attacks, often setting up other throws or creating opportunities for guard pulls when the initial attempt is defended.",
   "key_principles": [
     "Off-balance opponent diagonally backward before attempting the reap",
@@ -38,38 +33,32 @@
     {
       "step_number": 1,
       "action": "Establish grips and angle",
-      "description": "Secure a high collar grip with your right hand and sleeve/wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them.",
-      "timing": "During initial grip fighting when opponent is settling into stance"
+      "description": "Secure a high collar grip with your right hand and sleeve/wrist control with your left (or equivalent no-gi grips on neck and arm). Position your body at roughly a 45-degree angle to your opponent rather than standing square to them."
     },
     {
       "step_number": 2,
       "action": "Break opponent's posture",
-      "description": "Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body. This creates the initial off-balance and prevents them from maintaining strong upright posture.",
-      "timing": "As soon as grips are secured"
+      "description": "Pull your opponent's upper body forward and slightly downward with your collar grip while simultaneously pulling their arm across their body. This creates the initial off-balance and prevents them from maintaining strong upright posture."
     },
     {
       "step_number": 3,
       "action": "Create diagonal off-balance",
-      "description": "Push and pull in opposite directions with your hands to turn your opponent's shoulders and hips. Pull the collar grip backward and to your left while pushing the sleeve grip forward and to your right, creating a diagonal off-balance toward their rear corner.",
-      "timing": "Immediately following posture break"
+      "description": "Push and pull in opposite directions with your hands to turn your opponent's shoulders and hips. Pull the collar grip backward and to your left while pushing the sleeve grip forward and to your right, creating a diagonal off-balance toward their rear corner."
     },
     {
       "step_number": 4,
       "action": "Step in with base leg",
-      "description": "Step your left foot (base leg) deep between your opponent's legs or just outside their lead leg, positioning yourself close to their center line. Your base leg should be bent and loaded, ready to drive forward through the technique.",
-      "timing": "As opponent begins to step backward to recover balance"
+      "description": "Step your left foot (base leg) deep between your opponent's legs or just outside their lead leg, positioning yourself close to their center line. Your base leg should be bent and loaded, ready to drive forward through the technique."
     },
     {
       "step_number": 5,
       "action": "Execute the reap",
-      "description": "Hook your right foot behind your opponent's right ankle, making contact with the blade of your foot against the back of their Achilles tendon and lower calf. The motion should be a small, quick reaping action from the inside, not a large swing.",
-      "timing": "Precisely when opponent's weight commits to the target leg"
+      "description": "Hook your right foot behind your opponent's right ankle, making contact with the blade of your foot against the back of their Achilles tendon and lower calf. The motion should be a small, quick reaping action from the inside, not a large swing."
     },
     {
       "step_number": 6,
       "action": "Drive and finish",
-      "description": "Continue driving forward with your hips and chest while simultaneously reaping backward with your hooking leg. Your upper body control pulls them diagonally backward as your leg removes their base. Follow them to the ground, landing in side control position.",
-      "timing": "Continuous motion from the reap through to ground control"
+      "description": "Continue driving forward with your hips and chest while simultaneously reaping backward with your hooking leg. Your upper body control pulls them diagonally backward as your leg removes their base. Follow them to the ground, landing in side control position."
     }
   ],
   "common_counters": [
@@ -125,26 +114,22 @@
     {
       "phase": "Week 1-2: Static drilling",
       "focus": "Footwork and timing fundamentals",
-      "description": "Practice the reaping motion and off-balancing with a cooperative partner who provides light resistance. Focus on proper foot placement, angle creation, and the diagonal off-balance direction. Drill 20-30 repetitions per session, alternating sides.",
-      "resistance_level": "None"
+      "description": "Practice the reaping motion and off-balancing with a cooperative partner who provides light resistance. Focus on proper foot placement, angle creation, and the diagonal off-balance direction. Drill 20-30 repetitions per session, alternating sides."
     },
     {
       "phase": "Week 3-4: Dynamic drilling",
       "focus": "Entry and combination work",
-      "description": "Partner provides moderate resistance and movement. Practice entering from different grip configurations and angles. Begin chaining Kouchi Gari with other techniques when the initial attempt is defended. Focus on timing the reap when opponent steps backward.",
-      "resistance_level": "Light"
+      "description": "Partner provides moderate resistance and movement. Practice entering from different grip configurations and angles. Begin chaining Kouchi Gari with other techniques when the initial attempt is defended. Focus on timing the reap when opponent steps backward."
     },
     {
       "phase": "Week 5-6: Situational sparring",
       "focus": "Application under pressure",
-      "description": "Start from standing with specific goals: land Kouchi Gari or acceptable alternative takedown within 60 seconds. Partner provides realistic defensive reactions but doesn't attempt their own throws. Emphasize reading weight distribution and creating opportunities.",
-      "resistance_level": "Medium"
+      "description": "Start from standing with specific goals: land Kouchi Gari or acceptable alternative takedown within 60 seconds. Partner provides realistic defensive reactions but doesn't attempt their own throws. Emphasize reading weight distribution and creating opportunities."
     },
     {
       "phase": "Week 7+: Full integration",
       "focus": "Competition application",
-      "description": "Incorporate Kouchi Gari into regular stand-up sparring and competition training. Focus on using it as part of combination attacks and recognizing optimal timing windows. Track success rate and adjust technique based on opponent reactions.",
-      "resistance_level": "Full"
+      "description": "Incorporate Kouchi Gari into regular stand-up sparring and competition training. Focus on using it as part of combination attacks and recognizing optimal timing windows. Track success rate and adjust technique based on opponent reactions."
     }
   ],
   "variants_and_adaptations": [
@@ -167,33 +152,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary target area for the reaping leg in Kouchi Gari?",
-      "answer": "The ankle and lower calf area, specifically the Achilles tendon region. Unlike Ouchi Gari which targets higher on the leg, Kouchi Gari focuses on this lower area to create a small, precise reaping motion that removes the base from an already off-balanced opponent.",
-      "difficulty": "Beginner"
+      "answer": "The ankle and lower calf area, specifically the Achilles tendon region. Unlike Ouchi Gari which targets higher on the leg, Kouchi Gari focuses on this lower area to create a small, precise reaping motion that removes the base from an already off-balanced opponent."
     },
     {
       "question": "In what direction should you off-balance your opponent for Kouchi Gari?",
-      "answer": "Diagonally backward toward their rear corner, not straight back. This diagonal off-balance removes both potential posting points and makes it nearly impossible for the opponent to recover by stepping with their free leg. The direction is typically toward the corner behind the leg you're attacking.",
-      "difficulty": "Beginner"
+      "answer": "Diagonally backward toward their rear corner, not straight back. This diagonal off-balance removes both potential posting points and makes it nearly impossible for the opponent to recover by stepping with their free leg. The direction is typically toward the corner behind the leg you're attacking."
     },
     {
       "question": "Why is Kouchi Gari particularly effective as part of combination attacks rather than as an isolated technique?",
-      "answer": "Because the defensive reactions to Kouchi Gari (stepping back, widening stance, hopping) create perfect setups for other techniques like Osoto Gari, Uchi Mata, or Deashi Harai. When opponent defends one way, they often expose themselves to the follow-up technique. This makes Kouchi Gari an excellent 'feint' or first move in a combination, even if the initial throw doesn't land.",
-      "difficulty": "Intermediate"
+      "answer": "Because the defensive reactions to Kouchi Gari (stepping back, widening stance, hopping) create perfect setups for other techniques like Osoto Gari, Uchi Mata, or Deashi Harai. When opponent defends one way, they often expose themselves to the follow-up technique. This makes Kouchi Gari an excellent 'feint' or first move in a combination, even if the initial throw doesn't land."
     },
     {
       "question": "What is the fundamental difference between Kouchi Gari and Ouchi Gari in terms of execution and biomechanics?",
-      "answer": "Kouchi Gari is a small, precise reap targeting the ankle and lower calf with emphasis on diagonal off-balancing, while Ouchi Gari is a larger, more powerful technique targeting the thigh with more linear backward motion. Kouchi requires more timing and finesse, whereas Ouchi relies more on power and deep penetration. The 'Ko' in Kouchi literally means 'small,' reflecting this difference in scope and execution.",
-      "difficulty": "Intermediate"
+      "answer": "Kouchi Gari is a small, precise reap targeting the ankle and lower calf with emphasis on diagonal off-balancing, while Ouchi Gari is a larger, more powerful technique targeting the thigh with more linear backward motion. Kouchi requires more timing and finesse, whereas Ouchi relies more on power and deep penetration. The 'Ko' in Kouchi literally means 'small,' reflecting this difference in scope and execution."
     },
     {
       "question": "How should you adjust Kouchi Gari technique when opponent maintains a very wide, defensive stance?",
-      "answer": "A wide stance actually negates the effectiveness of Kouchi Gari because the opponent's weight distribution is more stable and the angle of off-balancing becomes unfavorable. In this situation, you should abandon Kouchi Gari and switch to techniques that exploit the wide stance, such as Uchi Mata to the inside, or work to narrow their stance first through grip fighting and pressure before attempting Kouchi Gari again.",
-      "difficulty": "Advanced"
+      "answer": "A wide stance actually negates the effectiveness of Kouchi Gari because the opponent's weight distribution is more stable and the angle of off-balancing becomes unfavorable. In this situation, you should abandon Kouchi Gari and switch to techniques that exploit the wide stance, such as Uchi Mata to the inside, or work to narrow their stance first through grip fighting and pressure before attempting Kouchi Gari again."
     },
     {
       "question": "What role does upper body control play in the success rate of Kouchi Gari, and how does it differ from reliance on the reaping leg?",
-      "answer": "Upper body control accounts for approximately 70% of the technique's effectiveness. The collar and sleeve grips create the crucial off-balance through push-pull mechanics, turning the opponent's shoulders and breaking their structure. The reaping leg simply removes the base from an opponent who is already falling—it doesn't generate the throw by itself. Many practitioners mistakenly focus on the leg action and neglect the upper body mechanics, resulting in low success rates and vulnerability to counters.",
-      "difficulty": "Advanced"
+      "answer": "Upper body control accounts for approximately 70% of the technique's effectiveness. The collar and sleeve grips create the crucial off-balance through push-pull mechanics, turning the opponent's shoulders and breaking their structure. The reaping leg simply removes the base from an opponent who is already falling—it doesn't generate the throw by itself. Many practitioners mistakenly focus on the leg action and neglect the upper body mechanics, resulting in low success rates and vulnerability to counters."
     }
   ],
   "safety_considerations": "Kouchi Gari is one of the safer takedown techniques when executed properly, as the falling direction is controlled and predictable. However, training partners should be aware of proper breakfall techniques, particularly falling backward with the chin tucked to avoid head impact. When drilling, ensure mat space is clear of obstacles and other rolling pairs. The person executing the technique should maintain grips and control throughout the fall to prevent the partner from landing awkwardly on their shoulder or neck. In competition or live sparring, be mindful of the edge of the mat area, as the backward motion can carry both practitioners out of bounds. For older practitioners or those with knee issues, the reaping motion should be executed smoothly rather than explosively to avoid strain on the base leg's knee joint.",
@@ -257,5 +236,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

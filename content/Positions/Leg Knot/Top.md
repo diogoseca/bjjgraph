@@ -368,11 +368,11 @@ Partner alternates between pushing away and pulling close while in leg knot bott
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 40% | 35% |
-| Intermediate | 65% | 60% | 55% |
-| Advanced     | 80% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 62% |
 
 **Average Time in Position**: 45-90 seconds in competitive scenarios, longer in training
 

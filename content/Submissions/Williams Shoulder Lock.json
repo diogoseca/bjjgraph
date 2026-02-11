@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (glenohumeral joint and rotator cuff)",
   "starting_position": "Williams Guard",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Williams Shoulder Lock is an advanced shoulder submission primarily executed from the Williams Guard position, utilizing an overhook control to isolate and attack the shoulder joint. This technique targets the glenohumeral joint and rotator cuff through a combination of lateral pressure and rotation, creating significant torque on the shoulder capsule. Named after its innovator, the Williams Shoulder Lock represents a sophisticated application of leverage principles where the attacker uses their entire body to control the opponent's arm while applying controlled rotational force. The submission is particularly effective against opponents who defend traditional armlocks by keeping their elbows tight, as it attacks a different plane of movement. The technique requires precise positioning and exceptional body awareness, making it a favorite among advanced practitioners who appreciate technical submissions over brute force applications. Due to the complexity of shoulder anatomy and the potential for serious injury, this submission demands careful study and controlled practice progression.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,50 +85,43 @@
       "step_number": 1,
       "action": "Secure Deep Overhook Control",
       "description": "From Williams Guard, feed your arm deep under opponent's arm, securing an overhook that brings their arm across your body. Your grip should be on their tricep or upper back, pulling their arm tightly across your chest. Ensure their elbow is positioned near your sternum for maximum control.",
-      "timing": "2-3 seconds to establish secure control",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to establish secure control"
     },
     {
       "step_number": 2,
       "action": "Establish Wrist Control",
       "description": "With your free hand, grab opponent's wrist or forearm of the trapped arm. This creates a two-point control system that prevents them from extracting their arm. Your grip should be firm but allow you to feel when they begin experiencing discomfort, enabling immediate release if needed.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Adjust Hip Position for Angle",
       "description": "Shift your hips away from the trapped arm side, creating an angle that increases the leverage on their shoulder. Your body should form approximately 45-90 degrees relative to your opponent's centerline. This angle is critical for generating rotational force on the shoulder joint rather than simply pulling.",
-      "timing": "2-3 seconds to find optimal angle",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds to find optimal angle"
     },
     {
       "step_number": 4,
       "action": "Leg Control and Base Prevention",
       "description": "Use your legs to control opponent's posture and prevent them from establishing a strong base. Your bottom leg should hook their far hip or wrap their leg, while your top leg controls their near shoulder or neck. This prevents them from posturing up or rolling to escape, maintaining the necessary isolation of their shoulder.",
-      "timing": "Continuous throughout submission",
-      "pressure_level": "Moderate"
+      "timing": "Continuous throughout submission"
     },
     {
       "step_number": 5,
       "action": "Initiate External Rotation",
       "description": "Begin applying slow, controlled external rotation to the shoulder by using your overhook to rotate their arm while your hips create the fulcrum point. The movement should feel like you're trying to rotate their palm upward and away from their body. This is where the submission begins to engage the rotator cuff and shoulder capsule. Apply pressure EXTREMELY slowly.",
-      "timing": "3-5 seconds progressive increase",
-      "pressure_level": "Light"
+      "timing": "3-5 seconds progressive increase"
     },
     {
       "step_number": 6,
       "action": "Complete Shoulder Lock with Core Rotation",
       "description": "Continue the external rotation while simultaneously rotating your entire core and hips in the same direction. Your whole body should work as a unit to create the rotational torque on their shoulder joint. The pressure should increase gradually, never spiking. Watch for tap signals constantly and be prepared to release immediately.",
-      "timing": "5-7 seconds minimum to finish",
-      "pressure_level": "Moderate"
+      "timing": "5-7 seconds minimum to finish"
     },
     {
       "step_number": 7,
       "action": "Maintain Control Through Finish",
       "description": "If opponent does not tap, maintain the position without increasing pressure further. The shoulder lock should be fully engaged at moderate pressure. Never crank or jerk the submission. In training, this is the point to hold and wait for the tap rather than forcing injury. In competition, minimal additional pressure may be applied, but always with extreme caution.",
-      "timing": "Hold position until tap",
-      "pressure_level": "Firm"
+      "timing": "Hold position until tap"
     }
   ],
   "opponent_defense_patterns": [
@@ -167,8 +155,7 @@
     {
       "error": "Applying sudden jerking or spiking motion to finish the submission",
       "consequence": "Immediate shoulder dislocation or rotator cuff tear with no opportunity for training partner to tap safely",
-      "correction": "Always apply progressive pressure over 5-7 seconds minimum. Think of slowly turning a dial, not flipping a switch. Your training partner's safety is more important than getting the tap.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply progressive pressure over 5-7 seconds minimum. Think of slowly turning a dial, not flipping a switch. Your training partner's safety is more important than getting the tap."
     },
     {
       "error": "Insufficient overhook depth, allowing opponent's elbow to escape across their body",
@@ -178,8 +165,7 @@
     {
       "error": "Using arm strength instead of hip and core rotation to generate force",
       "consequence": "Ineffective submission that tires your arms while failing to create proper shoulder torque, and increased injury risk from improper mechanics",
-      "correction": "Focus on hip movement and body rotation. Your arms should maintain position while your core and hips create the rotational force. Think of your overhook as a seatbelt holding their arm in place while your body does the work.",
-      "danger_level": "High"
+      "correction": "Focus on hip movement and body rotation. Your arms should maintain position while your core and hips create the rotational force. Think of your overhook as a seatbelt holding their arm in place while your body does the work."
     },
     {
       "error": "Poor hip angle that creates pulling force rather than rotational torque",
@@ -194,14 +180,12 @@
     {
       "error": "Failing to monitor for tap signals or partner distress",
       "consequence": "Training partner suffers serious shoulder injury that could have been prevented",
-      "correction": "Maintain visual and auditory awareness of your partner throughout the submission. Watch their face for signs of distress, listen for verbal taps or unusual sounds from the shoulder, and keep tap access clear. When in doubt, release immediately.",
-      "danger_level": "CRITICAL"
+      "correction": "Maintain visual and auditory awareness of your partner throughout the submission. Watch their face for signs of distress, listen for verbal taps or unusual sounds from the shoulder, and keep tap access clear. When in doubt, release immediately."
     },
     {
       "error": "Practicing finish mechanics on inexperienced training partners",
       "consequence": "Partner lacks awareness to recognize danger in time to tap, resulting in injury",
-      "correction": "Only practice finishing mechanics with advanced training partners who understand shoulder submissions. With less experienced partners, practice only the position and control, stopping well before applying any pressure to the shoulder.",
-      "danger_level": "High"
+      "correction": "Only practice finishing mechanics with advanced training partners who understand shoulder submissions. With less experienced partners, practice only the position and control, stopping well before applying any pressure to the shoulder."
     }
   ],
   "variations_and_setups": [
@@ -288,50 +272,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Position Familiarization",
-      "timeframe": "Week 1-2",
-      "focus": "Study shoulder anatomy, understand injury mechanisms, practice Williams Guard position without any submission pressure. Learn overhook control and hip positioning fundamentals. Partner provides zero resistance.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand what structures are being attacked and why they are vulnerable. Learn to recognize the difference between position control and submission pressure. Establish safe communication protocols with training partners."
-    },
-    {
-      "phase": "Slow Drilling with Positional Control Only",
-      "timeframe": "Week 3-4",
-      "focus": "Practice establishing Williams Guard, securing deep overhook, wrist control, and proper hip angle without applying any rotational pressure to shoulder. Partner provides minimal resistance to position but allows you to achieve full control. Emphasize feeling the position without finishing.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Never apply rotational pressure during this phase. Focus entirely on body positioning, angle creation, and control mechanics. Learn to distinguish between having the position and applying the submission."
-    },
-    {
-      "phase": "Progressive Pressure Introduction with Advanced Partners",
-      "timeframe": "Week 5-8",
-      "focus": "Begin applying extremely light rotational pressure (10-20% of maximum) with experienced training partners only. Focus on feeling the engagement of the shoulder joint and immediately stopping when partner signals. Practice 7-10 second progressive application timeline.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Only practice with partners who understand shoulder submissions and can tap early. Establish pre-roll agreement that either person can stop at any time. Focus on sensitivity and control rather than finishing. Implement mandatory 30-second discussion after each repetition about what was felt."
-    },
-    {
-      "phase": "Defensive Integration and Transition Practice",
-      "timeframe": "Week 9-12",
-      "focus": "Practice against common defenses (grip fighting, posture attempts, extraction efforts) while maintaining safe pressure levels (30-40% maximum). Learn to transition to alternative submissions (omoplata, triangle) when opponent defends effectively. Develop sensitivity to when submission is available versus when to transition.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Never force the submission against effective defense. Practice recognizing when opponent's defensive structure prevents safe application and transition instead. Maintain slow application speed regardless of resistance level. Partners should defend at 70% intensity maximum."
-    },
-    {
-      "phase": "Live Situational Rolling from Williams Guard",
-      "timeframe": "Week 13+",
-      "focus": "Integrate Williams Shoulder Lock into live rolling scenarios starting from Williams Guard position. Apply submission at training-appropriate pressure (50% maximum intensity) while being prepared to transition to alternatives. Focus on setup recognition and entry timing rather than submission completion.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Training partners must be advanced practitioners familiar with shoulder submissions. Establish agreement that submission will be applied at reduced intensity even in live rolling. Treat this as a position to control and threaten rather than always finish. Remember competition intensity is never appropriate in training for shoulder submissions."
-    },
-    {
-      "phase": "Ongoing Safety and Refinement Practice",
-      "timeframe": "Ongoing",
-      "focus": "Continuous refinement of technique with emphasis on safety as primary objective. Regular review of injury risks and safety protocols. Practice release protocol regularly even when not applying submission. Serve as safety role model for less experienced practitioners.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never become complacent with safety measures regardless of experience level. Regularly practice immediate release protocol. Monitor training partners for signs of previous shoulder injury and adjust accordingly. Consider this a high-risk technique that requires perpetual vigilance. Mentor newer practitioners on proper safety culture around shoulder submissions."
-    }
-  ],
   "from_positions": [
     "Williams Guard",
     "Closed Guard",
@@ -398,5 +338,6 @@
       "name": "Back Control",
       "relationship": "Dominant position achievable when opponent rolls to escape"
     }
-  ]
+  ],
+  "success_rate": 52
 }

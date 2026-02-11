@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 25,
-    "intermediate": 45,
-    "advanced": 65
-  },
   "overview": "The Ushiro Ashi-Garami to Deep Half Guard transition is an advanced defensive technique that converts a compromised reversed leg entanglement into a strong sweeping and recovery position. When trapped in ushiro ashi-garami bottom, the defender leverages their inverted hip orientation to thread underneath the opponent's hips and establish deep half guard, simultaneously clearing the leg entanglement and creating offensive opportunities.\n\nThis transition exploits a fundamental biomechanical reality: the inverted hip position that makes ushiro ashi-garami dangerous also creates a natural pathway underneath the opponent's center of gravity. By redirecting escape momentum downward rather than continuing rotation toward turtle, the defender can thread their body beneath the opponent's hips, establish an underhook on the far leg, and consolidate deep half guard. The opponent's commitment to maintaining the reversed leg entanglement often leaves them poorly based to resist the deep half entry.\n\nStrategically, this transition is most valuable when standard escape routes to turtle or standing are blocked by the opponent's superior leg control. Rather than fighting against deep entanglement with diminishing returns, the deep half entry accepts proximity to the opponent while fundamentally changing the positional dynamic. Once deep half guard is established, the defender gains access to waiter sweeps, Homer Simpson sweeps, and electric chair variations that can completely reverse the position. The transition requires precise timing during the opponent's grip adjustment phases and strong understanding of both leg entanglement mechanics and deep half guard principles.",
   "key_principles": [
     "Redirect inversion momentum downward toward opponent's hips rather than continuing rotation away",
@@ -56,38 +51,32 @@
     {
       "step_number": 1,
       "action": "Control inside knee",
-      "description": "Use both hands to grip the opponent's inside knee, pushing it away from your centerline to create initial separation space. This prevents them from transitioning to saddle while you prepare the deep half entry. Maintain dorsiflexion on your trapped foot throughout.",
-      "timing": "Initiate when opponent adjusts grips or shifts weight to attack"
+      "description": "Use both hands to grip the opponent's inside knee, pushing it away from your centerline to create initial separation space. This prevents them from transitioning to saddle while you prepare the deep half entry. Maintain dorsiflexion on your trapped foot throughout."
     },
     {
       "step_number": 2,
       "action": "Redirect hip movement",
-      "description": "Instead of continuing lateral rotation toward turtle, redirect your hip movement downward and inward toward the opponent's far hip. Drop your outside hip toward the mat while angling your torso underneath their center of gravity. This is the critical directional change that differentiates deep half entry from standard turtle escape.",
-      "timing": "Execute immediately after creating space at the inside knee"
+      "description": "Instead of continuing lateral rotation toward turtle, redirect your hip movement downward and inward toward the opponent's far hip. Drop your outside hip toward the mat while angling your torso underneath their center of gravity. This is the critical directional change that differentiates deep half entry from standard turtle escape."
     },
     {
       "step_number": 3,
       "action": "Thread underneath opponent",
-      "description": "Slide your upper body underneath the opponent's hips by driving your head toward their far hip pocket. Use your free arm to reach for an underhook on the opponent's far thigh. Your inverted hip position from the ushiro creates a natural angle to thread beneath them that would not exist from a standard position.",
-      "timing": "Smooth continuous motion following the hip redirect without pausing"
+      "description": "Slide your upper body underneath the opponent's hips by driving your head toward their far hip pocket. Use your free arm to reach for an underhook on the opponent's far thigh. Your inverted hip position from the ushiro creates a natural angle to thread beneath them that would not exist from a standard position."
     },
     {
       "step_number": 4,
       "action": "Extract trapped leg",
-      "description": "As your body threads underneath, use the momentum and angle change to pull your trapped leg free from the reversed figure-four configuration. Push the opponent's controlling legs away with your free leg while simultaneously drawing the trapped leg toward your chest. Maintain dorsiflexion until the leg is completely clear of their control.",
-      "timing": "Extract during the threading motion while opponent adjusts to your directional change"
+      "description": "As your body threads underneath, use the momentum and angle change to pull your trapped leg free from the reversed figure-four configuration. Push the opponent's controlling legs away with your free leg while simultaneously drawing the trapped leg toward your chest. Maintain dorsiflexion until the leg is completely clear of their control."
     },
     {
       "step_number": 5,
       "action": "Establish deep half hooks",
-      "description": "Once the trapped leg clears the entanglement, immediately wrap it around the opponent's near leg to establish the deep half guard hook. Your head should be positioned on the inside hip line with your shoulder driving into their thigh. Lock your hands together around their far leg in a deep underhook configuration.",
-      "timing": "Transition directly from leg extraction to hook placement without gap"
+      "description": "Once the trapped leg clears the entanglement, immediately wrap it around the opponent's near leg to establish the deep half guard hook. Your head should be positioned on the inside hip line with your shoulder driving into their thigh. Lock your hands together around their far leg in a deep underhook configuration."
     },
     {
       "step_number": 6,
       "action": "Consolidate deep half guard",
-      "description": "Secure the deep half guard position by tightening your underhook grip on the far leg, positioning your head firmly against their inner thigh, and establishing hip-to-hip contact. Control their near leg with your deep half hook to prevent knee slice pass attempts. Begin loading weight onto your shoulder for immediate sweep threat.",
-      "timing": "Consolidate within 2-3 seconds of hook establishment to prevent opponent from disengaging"
+      "description": "Secure the deep half guard position by tightening your underhook grip on the far leg, positioning your head firmly against their inner thigh, and establishing hip-to-hip contact. Control their near leg with your deep half hook to prevent knee slice pass attempts. Begin loading weight onto your shoulder for immediate sweep threat."
     }
   ],
   "common_counters": [
@@ -148,26 +137,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Threading mechanics",
-      "description": "Practice the directional change from lateral rotation to downward threading without resistance. Partner holds static ushiro ashi-garami position while you drill the hip redirect, body threading, and underhook establishment. Focus on maintaining dorsiflexion throughout and reaching proper head position on inside hip line. Repeat 20-30 times per session from both sides.",
-      "resistance_level": "None"
+      "description": "Practice the directional change from lateral rotation to downward threading without resistance. Partner holds static ushiro ashi-garami position while you drill the hip redirect, body threading, and underhook establishment. Focus on maintaining dorsiflexion throughout and reaching proper head position on inside hip line. Repeat 20-30 times per session from both sides."
     },
     {
       "phase": "Week 3-4",
       "focus": "Leg extraction timing",
-      "description": "Partner provides light resistance on leg entanglement while you practice the full sequence from inside knee control through deep half consolidation. Focus on timing the leg extraction to coincide with the threading momentum rather than treating them as separate movements. Partner gradually increases grip tightness to develop sensitivity for viable entry windows.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance on leg entanglement while you practice the full sequence from inside knee control through deep half consolidation. Focus on timing the leg extraction to coincide with the threading momentum rather than treating them as separate movements. Partner gradually increases grip tightness to develop sensitivity for viable entry windows."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter recognition and adaptation",
-      "description": "Partner actively attempts counters including saddle transition, sprawling defense, and heel hook attacks during your deep half entry. Practice recognizing when to abort the entry and switch to alternative escapes versus when to commit through resistance. Develop the decision tree for choosing between deep half, turtle, and single leg X based on opponent response.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts counters including saddle transition, sprawling defense, and heel hook attacks during your deep half entry. Practice recognizing when to abort the entry and switch to alternative escapes versus when to commit through resistance. Develop the decision tree for choosing between deep half, turtle, and single leg X based on opponent response."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration and chaining",
-      "description": "Incorporate the deep half entry into live rolling from ushiro ashi-garami bottom. Chain the transition with immediate sweep attempts upon consolidation. Practice reading real-time opponent reactions to select between deep half entry, turtle escape, Granby roll, and counter-entanglement. Develop ability to flow between escape options based on opponent's defensive choices.",
-      "resistance_level": "Full"
+      "description": "Incorporate the deep half entry into live rolling from ushiro ashi-garami bottom. Chain the transition with immediate sweep attempts upon consolidation. Practice reading real-time opponent reactions to select between deep half entry, turtle escape, Granby roll, and counter-entanglement. Develop ability to flow between escape options based on opponent's defensive choices."
     }
   ],
   "variants_and_adaptations": [
@@ -190,53 +175,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the critical directional change that differentiates the deep half entry from a standard turtle escape?",
-      "answer": "The critical directional change is redirecting hip movement from lateral rotation (toward turtle) to downward and inward threading toward the opponent's far hip. Instead of continuing to rotate away from the opponent, you drive your head and shoulders underneath their center of gravity, using the inverted hip orientation as an advantage to access the deep half guard pathway.",
-      "difficulty": "Intermediate"
+      "answer": "The critical directional change is redirecting hip movement from lateral rotation (toward turtle) to downward and inward threading toward the opponent's far hip. Instead of continuing to rotate away from the opponent, you drive your head and shoulders underneath their center of gravity, using the inverted hip orientation as an advantage to access the deep half guard pathway."
     },
     {
       "question": "Your opponent has moderate inside leg control in ushiro ashi-garami - what must you do before attempting the threading motion?",
-      "answer": "You must use both hands to control and push the opponent's inside knee away from your centerline. This creates the separation space needed to thread underneath without their inside leg deepening to saddle configuration. The inside knee control is the gatekeeper movement that makes the entire deep half entry viable. Without it, threading drives your leg deeper into their control.",
-      "difficulty": "Intermediate"
+      "answer": "You must use both hands to control and push the opponent's inside knee away from your centerline. This creates the separation space needed to thread underneath without their inside leg deepening to saddle configuration. The inside knee control is the gatekeeper movement that makes the entire deep half entry viable. Without it, threading drives your leg deeper into their control."
     },
     {
       "question": "What foot position must be maintained throughout the entire transition and why?",
-      "answer": "Dorsiflexion (foot flexed toward shin with toes pulled up) must be maintained throughout the entire transition. This protects the heel by pulling it tight against the lower leg, making it extremely difficult for the opponent to establish the finishing grip needed for heel hooks. The threading phase is particularly dangerous because mental focus shifts to the underhook and positioning, making unconscious toe pointing a common and dangerous error.",
-      "difficulty": "Beginner"
+      "answer": "Dorsiflexion (foot flexed toward shin with toes pulled up) must be maintained throughout the entire transition. This protects the heel by pulling it tight against the lower leg, making it extremely difficult for the opponent to establish the finishing grip needed for heel hooks. The threading phase is particularly dangerous because mental focus shifts to the underhook and positioning, making unconscious toe pointing a common and dangerous error."
     },
     {
       "question": "Your opponent sprawls their hips backward when you begin threading - how do you adapt?",
-      "answer": "When the opponent sprawls backward, redirect to a single leg X-guard entry instead. Their sprawl commits weight forward over their posting legs, making those legs vulnerable to elevation and off-balancing. The sprawl also releases some leg entanglement pressure, so even if single leg X fails, you may have enough clearance to establish standard open guard or half guard recovery.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent sprawls backward, redirect to a single leg X-guard entry instead. Their sprawl commits weight forward over their posting legs, making those legs vulnerable to elevation and off-balancing. The sprawl also releases some leg entanglement pressure, so even if single leg X fails, you may have enough clearance to establish standard open guard or half guard recovery."
     },
     {
       "question": "What is the most critical grip to establish during the threading phase and why?",
-      "answer": "The far leg underhook is the most critical grip. It creates an anchor point that prevents the opponent from disengaging during your entry, guides your body along the correct threading path underneath their hips, and immediately establishes the control structure needed for deep half guard. Without this underhook, you arrive underneath the opponent with no control and they can simply step over or disengage.",
-      "difficulty": "Intermediate"
+      "answer": "The far leg underhook is the most critical grip. It creates an anchor point that prevents the opponent from disengaging during your entry, guides your body along the correct threading path underneath their hips, and immediately establishes the control structure needed for deep half guard. Without this underhook, you arrive underneath the opponent with no control and they can simply step over or disengage."
     },
     {
       "question": "How do you determine whether deep half entry is viable versus needing to escape to turtle instead?",
-      "answer": "Evaluate the opponent's inside leg control depth. If their inside leg has moderate control at or above your knee line, deep half entry is viable because you can push the knee away and thread underneath. If their inside leg has deep control on your thigh approaching saddle configuration, abandon deep half and escape to turtle. Also assess whether your heel is protected - any active heel hook grip means addressing the submission takes absolute priority over positional transition.",
-      "difficulty": "Advanced"
+      "answer": "Evaluate the opponent's inside leg control depth. If their inside leg has moderate control at or above your knee line, deep half entry is viable because you can push the knee away and thread underneath. If their inside leg has deep control on your thigh approaching saddle configuration, abandon deep half and escape to turtle. Also assess whether your heel is protected - any active heel hook grip means addressing the submission takes absolute priority over positional transition."
     },
     {
       "question": "What happens if you attempt the deep half entry when the opponent's inside leg control is too deep?",
-      "answer": "Threading into deep half with deep inside leg control drives your trapped leg further into the opponent's entanglement. This can convert a recoverable ushiro position into a saddle or honey hole where the opponent has significantly higher submission probability. The deeper entanglement also removes your ability to switch to alternative escapes, creating a worst-case scenario where you are both deeply entangled and underneath the opponent.",
-      "difficulty": "Advanced"
+      "answer": "Threading into deep half with deep inside leg control drives your trapped leg further into the opponent's entanglement. This can convert a recoverable ushiro position into a saddle or honey hole where the opponent has significantly higher submission probability. The deeper entanglement also removes your ability to switch to alternative escapes, creating a worst-case scenario where you are both deeply entangled and underneath the opponent."
     },
     {
       "question": "Where should your head be positioned in the finished deep half guard and why?",
-      "answer": "Your head should be positioned on the inside hip line with your ear against the opponent's inner thigh. This deep head position ensures you are truly underneath their center of gravity rather than in a shallow half guard. The inside hip line placement prevents crossface pressure, controls their hip rotation, and loads your shoulder for immediate sweep threats. If your head is outside this line, you have a weak half guard vulnerable to passing.",
-      "difficulty": "Intermediate"
+      "answer": "Your head should be positioned on the inside hip line with your ear against the opponent's inner thigh. This deep head position ensures you are truly underneath their center of gravity rather than in a shallow half guard. The inside hip line placement prevents crossface pressure, controls their hip rotation, and loads your shoulder for immediate sweep threats. If your head is outside this line, you have a weak half guard vulnerable to passing."
     },
     {
       "question": "Your opponent begins attacking a heel hook during your threading phase - what is the correct response?",
-      "answer": "Immediately abandon the deep half entry and address the heel hook threat with standard submission defense. Strip their grips on your heel, re-establish dorsiflexion if compromised, and use your hands to fight their wrists away from finishing position. Only resume positional escape attempts after the submission threat is fully neutralized. No positional transition is worth risking a heel hook finish.",
-      "difficulty": "Beginner"
+      "answer": "Immediately abandon the deep half entry and address the heel hook threat with standard submission defense. Strip their grips on your heel, re-establish dorsiflexion if compromised, and use your hands to fight their wrists away from finishing position. Only resume positional escape attempts after the submission threat is fully neutralized. No positional transition is worth risking a heel hook finish."
     },
     {
       "question": "Once deep half guard is established after the transition, what should be your immediate offensive priority?",
-      "answer": "Immediately begin loading weight onto your shoulder and establishing sweep mechanics. The opponent is often poorly based following the transition from ushiro because they were configured for leg entanglement rather than top half guard defense. Attack with waiter sweep, Homer Simpson sweep, or electric chair before they can establish proper crossface and hip positioning. The first 3-5 seconds after consolidation offer the highest sweep success probability.",
-      "difficulty": "Advanced"
+      "answer": "Immediately begin loading weight onto your shoulder and establishing sweep mechanics. The opponent is often poorly based following the transition from ushiro because they were configured for leg entanglement rather than top half guard defense. Attack with waiter sweep, Homer Simpson sweep, or electric chair before they can establish proper crossface and hip positioning. The first 3-5 seconds after consolidation offer the highest sweep success probability."
     }
   ],
   "safety_considerations": "This transition involves movement through active leg entanglement positions where heel hook and ankle lock submissions are live threats throughout. Never relax dorsiflexion during any phase of the entry - heel hook injuries occur most frequently during transitions when defensive attention is divided between positional movement and submission defense. If any heel hook grip is established during the threading phase, immediately stop all positional movement and address the submission. Practice at low intensity initially, with partners understanding the tap-early protocol for any rotational pressure on the knee. Avoid training this transition when fatigued, as the precise foot positioning and timing requirements degrade significantly with exhaustion, increasing injury risk. Partners should apply submission attempts slowly and release immediately upon tap during drilling phases.",
@@ -282,5 +257,6 @@
       "name": "Leg Extraction to Guard",
       "relationship": "Alternative escape route using leg clearing mechanics"
     }
-  ]
+  ],
+  "success_rate": 55
 }

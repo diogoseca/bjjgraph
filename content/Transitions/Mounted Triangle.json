@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Mounted Triangle represents one of the most dominant submission setups in Brazilian Jiu-Jitsu, combining the positional dominance of mount with the strangling power of the triangle choke. This transition begins from Modified Mount where the asymmetric positioning naturally facilitates leg insertion around the opponent's head and arm. Unlike the triangle from closed guard, the Mounted Triangle benefits from gravitational pressure and superior control, making defensive responses significantly more difficult for the bottom practitioner. The technique emerges organically when opponents use frames against mount attacks—their arms naturally create the space and isolation needed for triangle entry. Strategic application involves recognizing when the opponent's defensive frames create a head-and-arm configuration that can be captured. The mounted position allows you to use your weight to maintain the triangle while adjusting the angle, something impossible from bottom triangle positions. Modern competitive grappling has seen increased use of this technique as practitioners have developed entries that flow seamlessly from armbar and americana attempts. When the opponent defends upper body submissions by bringing their elbows tight, they often expose the neck for triangle entry. The Mounted Triangle also serves as an excellent positional anchor—even if the submission fails, you typically maintain a controlling position rather than risking reversal.",
   "key_principles": [
     "Isolate head and one arm before attempting leg entry to ensure proper triangle configuration",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Isolate the arm",
-      "description": "From Modified Mount, control opponent's arm on the posted leg side by gripping their wrist with your same-side hand. Pull the arm across their centerline while maintaining heavy chest pressure to prevent them retracting the elbow.",
-      "timing": "When opponent reaches up to frame or defend choke attempts"
+      "description": "From Modified Mount, control opponent's arm on the posted leg side by gripping their wrist with your same-side hand. Pull the arm across their centerline while maintaining heavy chest pressure to prevent them retracting the elbow."
     },
     {
       "step_number": 2,
       "action": "Create angle",
-      "description": "Shift your hips toward the trapped arm side, walking your knees and hips perpendicular to their body. Your hip should slide under their isolated shoulder while your chest maintains pressure on their face and neck area.",
-      "timing": "Immediately after securing arm control before opponent can reset defensive posture"
+      "description": "Shift your hips toward the trapped arm side, walking your knees and hips perpendicular to their body. Your hip should slide under their isolated shoulder while your chest maintains pressure on their face and neck area."
     },
     {
       "step_number": 3,
       "action": "Insert the choking leg",
-      "description": "Swing your posted leg over opponent's head, keeping the knee bent and driving the back of your knee across the side of their neck. The blade of your calf should land directly on their carotid artery on the far side of their neck.",
-      "timing": "In one smooth motion while maintaining wrist control to prevent arm escape"
+      "description": "Swing your posted leg over opponent's head, keeping the knee bent and driving the back of your knee across the side of their neck. The blade of your calf should land directly on their carotid artery on the far side of their neck."
     },
     {
       "step_number": 4,
       "action": "Secure figure-four lock",
-      "description": "Immediately lock your ankles in figure-four configuration by placing the ankle of your choking leg in the crook of your opposite knee. Squeeze your knees together to close any space around opponent's neck.",
-      "timing": "Within one second of leg insertion before opponent can posture or create space"
+      "description": "Immediately lock your ankles in figure-four configuration by placing the ankle of your choking leg in the crook of your opposite knee. Squeeze your knees together to close any space around opponent's neck."
     },
     {
       "step_number": 5,
       "action": "Control trapped arm",
-      "description": "Secure the trapped arm by hugging it to your chest or gripping the wrist and pulling it across your body. This arm must stay inside the triangle—if it escapes, the choke fails and you may lose position.",
-      "timing": "Continuous control maintained throughout the submission attempt"
+      "description": "Secure the trapped arm by hugging it to your chest or gripping the wrist and pulling it across your body. This arm must stay inside the triangle—if it escapes, the choke fails and you may lose position."
     },
     {
       "step_number": 6,
       "action": "Cut angle and finish",
-      "description": "Walk your hips to increase the perpendicular angle to opponent's body while pulling their head down with your hands behind their skull. Squeeze your thighs together and drive your hips upward into their neck for the strangle.",
-      "timing": "Once triangle is locked, maintain pressure until tap or adjust angle if resistance continues"
+      "description": "Walk your hips to increase the perpendicular angle to opponent's body while pulling their head down with your hands behind their skull. Squeeze your thighs together and drive your hips upward into their neck for the strangle."
     }
   ],
   "common_counters": [
@@ -146,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Entry mechanics",
-      "description": "Practice arm isolation and leg swing mechanics from modified mount with fully compliant partner. Focus on smooth hip insertion, proper leg placement across neck, and figure-four lock. No resistance—build muscle memory for the movement pattern.",
-      "resistance_level": "None"
+      "description": "Practice arm isolation and leg swing mechanics from modified mount with fully compliant partner. Focus on smooth hip insertion, proper leg placement across neck, and figure-four lock. No resistance—build muscle memory for the movement pattern."
     },
     {
       "phase": "Week 3-4",
       "focus": "Positional control",
-      "description": "Add light resistance with partner defending arm isolation. Practice maintaining mount pressure during transition and controlling trapped arm against mild extraction attempts. Introduce basic angle cutting and head control for finishing.",
-      "resistance_level": "Light"
+      "description": "Add light resistance with partner defending arm isolation. Practice maintaining mount pressure during transition and controlling trapped arm against mild extraction attempts. Introduce basic angle cutting and head control for finishing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter responses",
-      "description": "Partner provides realistic defensive responses: posturing, arm extraction, bridging. Train recognizing when triangle is compromised and transitioning to alternative attacks. Chain to armbar, americana, and head-and-arm choke when triangle fails.",
-      "resistance_level": "Medium"
+      "description": "Partner provides realistic defensive responses: posturing, arm extraction, bridging. Train recognizing when triangle is compromised and transitioning to alternative attacks. Chain to armbar, americana, and head-and-arm choke when triangle fails."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Apply in positional sparring starting from mount. Progress to full sparring where you hunt for mounted triangle opportunities. Focus on reading when opponent's defense creates the opening and executing under pressure.",
-      "resistance_level": "Full"
+      "description": "Apply in positional sparring starting from mount. Progress to full sparring where you hunt for mounted triangle opportunities. Focus on reading when opponent's defense creates the opening and executing under pressure."
     }
   ],
   "variants_and_adaptations": [
@@ -188,53 +173,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Mounted Triangle transition?",
-      "answer": "The primary goal is to transition from Modified Mount into a mounted triangle choke position where your legs encircle the opponent's head and one arm in a figure-four configuration, allowing you to apply a blood choke to the carotid arteries while maintaining dominant top position. This combines positional dominance with submission threat.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from Modified Mount into a mounted triangle choke position where your legs encircle the opponent's head and one arm in a figure-four configuration, allowing you to apply a blood choke to the carotid arteries while maintaining dominant top position. This combines positional dominance with submission threat."
     },
     {
       "question": "Why must you isolate exactly one arm inside the triangle before locking?",
-      "answer": "Having exactly one arm inside is biomechanically essential for the choke. With no arms inside, there's nothing to block blood flow on one side of the neck. With two arms inside, the opponent can create space and relieve pressure by pushing against your legs. One arm creates the mechanical structure where your leg compresses one carotid while their own shoulder compresses the other.",
-      "difficulty": "Beginner"
+      "answer": "Having exactly one arm inside is biomechanically essential for the choke. With no arms inside, there's nothing to block blood flow on one side of the neck. With two arms inside, the opponent can create space and relieve pressure by pushing against your legs. One arm creates the mechanical structure where your leg compresses one carotid while their own shoulder compresses the other."
     },
     {
       "question": "Your opponent starts posturing up as you swing your leg over - how do you respond?",
-      "answer": "Immediately abandon the triangle and transition to an armbar on the isolated arm. Their posturing motion creates perfect conditions for the armbar—they're extending their arm and their head is moving away from you. Catch the arm in armbar grip, swing your leg over their face, and finish. Their defensive reaction to the triangle creates the armbar opening.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately abandon the triangle and transition to an armbar on the isolated arm. Their posturing motion creates perfect conditions for the armbar—they're extending their arm and their head is moving away from you. Catch the arm in armbar grip, swing your leg over their face, and finish. Their defensive reaction to the triangle creates the armbar opening."
     },
     {
       "question": "What angle should your body form relative to your opponent once the triangle is locked?",
-      "answer": "Your body should form approximately a 90-degree angle perpendicular to their body for maximum choking efficiency. This angle positions the blade of your calf directly across the carotid arteries while their trapped shoulder compresses the opposite side. Remaining square reduces leverage by spreading pressure across the throat rather than focusing on the arteries.",
-      "difficulty": "Intermediate"
+      "answer": "Your body should form approximately a 90-degree angle perpendicular to their body for maximum choking efficiency. This angle positions the blade of your calf directly across the carotid arteries while their trapped shoulder compresses the opposite side. Remaining square reduces leverage by spreading pressure across the throat rather than focusing on the arteries."
     },
     {
       "question": "The opponent is defending by keeping both elbows tight to their body - how do you create the arm isolation needed?",
-      "answer": "Attack with collar chokes or cross-face pressure to force them to use their hands defensively. When they reach up to defend their neck, immediately capture the extended arm. Alternatively, use americana or kimura setups to force arm extension. The key principle is creating dilemmas—threaten something they must defend with their arms, then capitalize on the reaching motion.",
-      "difficulty": "Intermediate"
+      "answer": "Attack with collar chokes or cross-face pressure to force them to use their hands defensively. When they reach up to defend their neck, immediately capture the extended arm. Alternatively, use americana or kimura setups to force arm extension. The key principle is creating dilemmas—threaten something they must defend with their arms, then capitalize on the reaching motion."
     },
     {
       "question": "During the transition, your opponent bridges and rolls you - what happens to your position?",
-      "answer": "If you maintain the triangle lock during the roll, you transition to a standard closed guard triangle position, which is still excellent. The roll actually helps finish the choke for many practitioners as gravity now assists the squeeze. Keep the lock tight, maintain arm control, and finish from the new position. This is why mounted triangle is relatively low risk—failed entries often lead to guard triangles.",
-      "difficulty": "Advanced"
+      "answer": "If you maintain the triangle lock during the roll, you transition to a standard closed guard triangle position, which is still excellent. The roll actually helps finish the choke for many practitioners as gravity now assists the squeeze. Keep the lock tight, maintain arm control, and finish from the new position. This is why mounted triangle is relatively low risk—failed entries often lead to guard triangles."
     },
     {
       "question": "What grip should you maintain on the trapped arm throughout the submission attempt?",
-      "answer": "Control the wrist with a firm grip pulling the arm across your centerline, or hug the entire arm tight to your chest by wrapping your arms around their elbow and pulling it into your body. Wrist control is preferable for finishing angle, but chest hug provides more security against extraction. Never release arm control assuming the lock alone will hold the arm—skilled opponents can extract even from locked triangles.",
-      "difficulty": "Intermediate"
+      "answer": "Control the wrist with a firm grip pulling the arm across your centerline, or hug the entire arm tight to your chest by wrapping your arms around their elbow and pulling it into your body. Wrist control is preferable for finishing angle, but chest hug provides more security against extraction. Never release arm control assuming the lock alone will hold the arm—skilled opponents can extract even from locked triangles."
     },
     {
       "question": "What is the critical hip movement when inserting your leg over the opponent's head?",
-      "answer": "The hip must slide underneath the opponent's trapped shoulder while simultaneously your leg swings over their head. This is a scooping motion where your hip wedges under their armpit as your leg clears their head. Without the hip insertion, you cannot achieve proper perpendicular angle and the triangle will be shallow with poor finishing mechanics.",
-      "difficulty": "Advanced"
+      "answer": "The hip must slide underneath the opponent's trapped shoulder while simultaneously your leg swings over their head. This is a scooping motion where your hip wedges under their armpit as your leg clears their head. Without the hip insertion, you cannot achieve proper perpendicular angle and the triangle will be shallow with poor finishing mechanics."
     },
     {
       "question": "Your triangle is locked but the opponent is surviving by tucking their chin - how do you finish?",
-      "answer": "First, ensure your angle is fully cut perpendicular to their body. Then pull their head down using both hands clasped behind their skull while simultaneously driving your hips upward into their neck. If they continue defending, try shoulder walking your hips even further to increase the angle. You can also attack the trapped arm with a wristlock or transition to armbar if the choke continues to be defended.",
-      "difficulty": "Advanced"
+      "answer": "First, ensure your angle is fully cut perpendicular to their body. Then pull their head down using both hands clasped behind their skull while simultaneously driving your hips upward into their neck. If they continue defending, try shoulder walking your hips even further to increase the angle. You can also attack the trapped arm with a wristlock or transition to armbar if the choke continues to be defended."
     },
     {
       "question": "When is the optimal moment to initiate the Mounted Triangle entry?",
-      "answer": "The optimal moment is when the opponent reaches up to defend an upper body attack like a collar choke or americana. Their defensive frame naturally creates the head-and-arm isolation needed. Also excellent timing includes when they turn their head away creating neck exposure, or immediately after defending an armbar attempt when their arm is still extended and their focus is on arm defense.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal moment is when the opponent reaches up to defend an upper body attack like a collar choke or americana. Their defensive frame naturally creates the head-and-arm isolation needed. Also excellent timing includes when they turn their head away creating neck exposure, or immediately after defending an armbar attempt when their arm is still extended and their focus is on arm defense."
     }
   ],
   "safety_considerations": "The Mounted Triangle applies significant pressure to the carotid arteries causing rapid unconsciousness if held after a tap—release immediately upon tap signal. Partners should tap early when caught and the choking practitioner must respect all tap signals instantly. During training, apply the choke gradually to allow defensive responses and learning rather than cranking suddenly. Be aware that the trapped arm can be injured if the opponent panics and tries to violently extract it while the triangle is locked—control the arm carefully and release if partner shows distress beyond normal submission defense. Avoid practicing on partners with neck injuries or blood pressure issues. When drilling entries, be cautious of knee-on-neck positioning which can cause discomfort even without the full choke applied.",
@@ -272,5 +247,6 @@
       "name": "High Mount",
       "relationship": "Alternative mount advancement when triangle entry is defended"
     }
-  ]
+  ],
+  "success_rate": 58
 }

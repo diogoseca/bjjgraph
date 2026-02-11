@@ -368,11 +368,11 @@ Bottom player knows specific escape they will attempt (arm extraction, rolling e
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 70% | 45% | 55% |
-| Intermediate | 82% | 62% | 70% |
-| Advanced     | 92% | 78% | 85% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 87% |
+| Advancement Probability | 70% |
+| Submission Probability | 78% |
 
 **Average Time in Position**: 30-90 seconds
 

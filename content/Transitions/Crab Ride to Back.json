@@ -10,11 +10,6 @@
     "control",
     "advanced"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Crab Ride to Back transition represents one of the most dominant pathways from turtle control to full back control in modern Brazilian Jiu-Jitsu. This technique capitalizes on the unique leverage advantages of the Crab Ride position, where the attacking grappler maintains control with hooks and strategic weight distribution while the opponent is trapped in turtle. The transition exploits the opponent's defensive reactions and limited mobility to secure the coveted back control position.\n\nHistorically developed and refined through wrestling's emphasis on top control, the Crab Ride has been adapted and enhanced by BJJ practitioners who recognized its effectiveness as a back-take platform. The position offers multiple attacking vectors including submission threats, further destabilizing the opponent while creating openings for the back take. The systematic approach to this transition emphasizes maintaining connection throughout the movement while managing the opponent's defensive frames and preventing escape attempts.\n\nWhat makes this transition particularly effective is the combination of mechanical advantage and limited defensive options available to the bottom player. From the Crab Ride, the top player controls crucial aspects of their opponent's base and posture, making it extremely difficult to resist the back take. Understanding proper weight distribution, hook placement, and timing of the roll or slide to back control separates successful execution from defensive stalemates. This technique exemplifies the principle of positional dominance leading to back control, one of the most advantageous positions in all of grappling.",
   "key_principles": [
     "Maintain constant connection through hooks and upper body control throughout the transition",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Secure Crab Ride control",
-      "description": "From top turtle position, establish the Crab Ride by inserting your inside leg as a hook under the opponent's near thigh while maintaining chest pressure on their back. Your outside leg posts wide for base. Secure control of their near arm with an underhook or wrist control to prevent posting. Your chest should be heavy on their back with your head positioned near their far shoulder.",
-      "timing": "Establish solid control before initiating transition"
+      "description": "From top turtle position, establish the Crab Ride by inserting your inside leg as a hook under the opponent's near thigh while maintaining chest pressure on their back. Your outside leg posts wide for base. Secure control of their near arm with an underhook or wrist control to prevent posting. Your chest should be heavy on their back with your head positioned near their far shoulder."
     },
     {
       "step_number": 2,
       "action": "Establish seat belt grip",
-      "description": "Begin transitioning your upper body control by sliding your top arm (the one not controlling the near arm) over the opponent's far shoulder, reaching for their opposite armpit or collar. This creates the first component of the seat belt grip. Maintain pressure with your chest while initiating this grip to prevent the opponent from creating space. Your bottom arm will continue controlling their near arm initially.",
-      "timing": "Secure upper seat belt component before proceeding"
+      "description": "Begin transitioning your upper body control by sliding your top arm (the one not controlling the near arm) over the opponent's far shoulder, reaching for their opposite armpit or collar. This creates the first component of the seat belt grip. Maintain pressure with your chest while initiating this grip to prevent the opponent from creating space. Your bottom arm will continue controlling their near arm initially."
     },
     {
       "step_number": 3,
       "action": "Insert bottom seat belt arm",
-      "description": "Release your control of the opponent's near arm and quickly thread your lower arm under their near armpit, completing the seat belt configuration. Your hands should meet at their chest with one arm over the shoulder (top grip) and one arm under the armpit (bottom grip). Lock your hands together in a grip that prevents separation. This grip structure is crucial for maintaining control during the transition.",
-      "timing": "Execute hand transition quickly to minimize escape window"
+      "description": "Release your control of the opponent's near arm and quickly thread your lower arm under their near armpit, completing the seat belt configuration. Your hands should meet at their chest with one arm over the shoulder (top grip) and one arm under the armpit (bottom grip). Lock your hands together in a grip that prevents separation. This grip structure is crucial for maintaining control during the transition."
     },
     {
       "step_number": 4,
       "action": "Insert second hook",
-      "description": "While maintaining seat belt control and your first hook, work to insert your second hook on the opposite side. Use your free leg to thread over the opponent's far leg, using a sweeping motion to clear any defensive blocks. The insertion may require adjusting your hip position by briefly posting on your outside foot and sliding your hips underneath. Both hooks should now be secured with feet crossed or hooked at the opponent's hips.",
-      "timing": "Insert second hook as opponent's weight shifts or when their legs widen"
+      "description": "While maintaining seat belt control and your first hook, work to insert your second hook on the opposite side. Use your free leg to thread over the opponent's far leg, using a sweeping motion to clear any defensive blocks. The insertion may require adjusting your hip position by briefly posting on your outside foot and sliding your hips underneath. Both hooks should now be secured with feet crossed or hooked at the opponent's hips."
     },
     {
       "step_number": 5,
       "action": "Roll or slide to back mount",
-      "description": "With both hooks and seat belt control established, execute the final transition to back control. If the opponent is flattened, perform a controlled roll to your side, pulling them with you so they end up in front with you on their back. If there's space underneath, you can slide through to back mount by shifting your hips and pulling them back into you. Throughout this movement, maintain tight seat belt connection and keep your hooks engaged deep at their hips.",
-      "timing": "Transition when hooks are deep and opponent's base is compromised"
+      "description": "With both hooks and seat belt control established, execute the final transition to back control. If the opponent is flattened, perform a controlled roll to your side, pulling them with you so they end up in front with you on their back. If there's space underneath, you can slide through to back mount by shifting your hips and pulling them back into you. Throughout this movement, maintain tight seat belt connection and keep your hooks engaged deep at their hips."
     },
     {
       "step_number": 6,
       "action": "Consolidate back control",
-      "description": "Once positioned behind the opponent, immediately adjust your hooks to optimal depth and position your head to the side opposite your choking arm. Tighten your seat belt grip, keeping your elbows close to your body. Control their posture by keeping them extended and preventing them from tucking their chin or curling into a ball. Establish your weight distribution so you can move with their escape attempts while maintaining control.",
-      "timing": "Immediate consolidation prevents early escape attempts"
+      "description": "Once positioned behind the opponent, immediately adjust your hooks to optimal depth and position your head to the side opposite your choking arm. Tighten your seat belt grip, keeping your elbows close to your body. Control their posture by keeping them extended and preventing them from tucking their chin or curling into a ball. Establish your weight distribution so you can move with their escape attempts while maintaining control."
     }
   ],
   "common_counters": [
@@ -129,38 +118,32 @@
     {
       "phase": "Phase 1: Fundamental Control (Weeks 1-2)",
       "focus": "Establishing and maintaining Crab Ride position",
-      "description": "Practice achieving and holding the Crab Ride position from various turtle entries. Partner remains defensive but does not actively attempt escapes. Focus on proper hook placement, weight distribution, and maintaining connection. Drill the feeling of controlling the near arm while keeping chest pressure constant. Build comfort with the asymmetric position and understanding how to prevent opponent from sitting to their hip.",
-      "resistance_level": "Light"
+      "description": "Practice achieving and holding the Crab Ride position from various turtle entries. Partner remains defensive but does not actively attempt escapes. Focus on proper hook placement, weight distribution, and maintaining connection. Drill the feeling of controlling the near arm while keeping chest pressure constant. Build comfort with the asymmetric position and understanding how to prevent opponent from sitting to their hip."
     },
     {
       "phase": "Phase 2: Seat Belt Development (Weeks 3-4)",
       "focus": "Seat belt grip establishment from Crab Ride",
-      "description": "Practice transitioning from Crab Ride near arm control to completed seat belt configuration. Partner provides mild resistance to grip attempts but does not escape the position. Focus on smooth hand transitions, maintaining control during grip changes, and locking the seat belt without creating space. Drill both quick entries and patient grip development depending on opponent's defensive posture.",
-      "resistance_level": "Light"
+      "description": "Practice transitioning from Crab Ride near arm control to completed seat belt configuration. Partner provides mild resistance to grip attempts but does not escape the position. Focus on smooth hand transitions, maintaining control during grip changes, and locking the seat belt without creating space. Drill both quick entries and patient grip development depending on opponent's defensive posture."
     },
     {
       "phase": "Phase 3: Hook Insertion Mechanics (Weeks 5-6)",
       "focus": "Second hook insertion and positioning",
-      "description": "With seat belt established, work exclusively on inserting the second hook against progressive resistance. Partner defends by keeping legs tight and base strong but does not attempt to escape otherwise. Practice hip adjustments, posting mechanics, and timing the hook insertion with partner's weight shifts. Develop multiple entries for the second hook based on different defensive reactions.",
-      "resistance_level": "Medium"
+      "description": "With seat belt established, work exclusively on inserting the second hook against progressive resistance. Partner defends by keeping legs tight and base strong but does not attempt to escape otherwise. Practice hip adjustments, posting mechanics, and timing the hook insertion with partner's weight shifts. Develop multiple entries for the second hook based on different defensive reactions."
     },
     {
       "phase": "Phase 4: Transition Execution (Weeks 7-9)",
       "focus": "Complete transition from Crab Ride to back control",
-      "description": "Execute the full sequence from established Crab Ride to consolidated back mount. Partner provides moderate resistance to grips and hooks but allows the position change when technique is executed correctly. Practice both the roll-to-back and slide-to-back variations. Focus on maintaining control throughout the transition without losing connection or hooks. Build the timing and feel for when to commit to the back take.",
-      "resistance_level": "Medium"
+      "description": "Execute the full sequence from established Crab Ride to consolidated back mount. Partner provides moderate resistance to grips and hooks but allows the position change when technique is executed correctly. Practice both the roll-to-back and slide-to-back variations. Focus on maintaining control throughout the transition without losing connection or hooks. Build the timing and feel for when to commit to the back take."
     },
     {
       "phase": "Phase 5: Active Resistance Integration (Weeks 10-12)",
       "focus": "Execution against realistic defensive reactions",
-      "description": "Partner actively defends the back take using common counters: attempting to stand, turning into you, trapping hooks, and fighting the seat belt grip. Practice recognizing defensive patterns and adjusting your technique accordingly. Chain submission threats (kimura, armbar from turtle) to create openings for the back take. Develop problem-solving skills for different body types and defensive strategies.",
-      "resistance_level": "Full"
+      "description": "Partner actively defends the back take using common counters: attempting to stand, turning into you, trapping hooks, and fighting the seat belt grip. Practice recognizing defensive patterns and adjusting your technique accordingly. Chain submission threats (kimura, armbar from turtle) to create openings for the back take. Develop problem-solving skills for different body types and defensive strategies."
     },
     {
       "phase": "Phase 6: Live Application (Ongoing)",
       "focus": "Integration into live rolling and competition",
-      "description": "Actively hunt for Crab Ride opportunities during regular sparring sessions. Practice the complete chain from achieving turtle dominance to securing Crab Ride to taking the back. Work the technique against partners of various skill levels, sizes, and defensive strategies. Track success rates and identify specific scenarios where the technique succeeds or fails. Continue refining details based on live experience and feedback.",
-      "resistance_level": "Full"
+      "description": "Actively hunt for Crab Ride opportunities during regular sparring sessions. Practice the complete chain from achieving turtle dominance to securing Crab Ride to taking the back. Work the technique against partners of various skill levels, sizes, and defensive strategies. Track success rates and identify specific scenarios where the technique succeeds or fails. Continue refining details based on live experience and feedback."
     }
   ],
   "variants_and_adaptations": [
@@ -183,33 +166,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the proper sequence for establishing control during the Crab Ride to Back transition?",
-      "answer": "The proper sequence is: establish Crab Ride position with first hook and near arm control, begin seat belt grip by securing the top arm over the far shoulder, release near arm control and immediately insert bottom arm under near armpit to complete seat belt, insert second hook while maintaining seat belt control, execute the transition to back mount through rolling or sliding, and finally consolidate the back control position. This sequence ensures continuous control throughout the transition without creating escape opportunities.",
-      "difficulty": "Intermediate"
+      "answer": "The proper sequence is: establish Crab Ride position with first hook and near arm control, begin seat belt grip by securing the top arm over the far shoulder, release near arm control and immediately insert bottom arm under near armpit to complete seat belt, insert second hook while maintaining seat belt control, execute the transition to back mount through rolling or sliding, and finally consolidate the back control position. This sequence ensures continuous control throughout the transition without creating escape opportunities."
     },
     {
       "question": "Why is controlling the opponent's near arm crucial in the early stages of this transition?",
-      "answer": "Controlling the near arm prevents the opponent from posting and creating a strong defensive frame, which would block seat belt completion and potentially allow escape to guard or standing position. The near arm control maintains the opponent's compromised posture and limited base while you establish the seat belt grip. Once the seat belt is partially established, you can release the near arm to complete the bottom portion of the grip without giving the opponent time to establish defensive frames.",
-      "difficulty": "Beginner"
+      "answer": "Controlling the near arm prevents the opponent from posting and creating a strong defensive frame, which would block seat belt completion and potentially allow escape to guard or standing position. The near arm control maintains the opponent's compromised posture and limited base while you establish the seat belt grip. Once the seat belt is partially established, you can release the near arm to complete the bottom portion of the grip without giving the opponent time to establish defensive frames."
     },
     {
       "question": "What should you do if the opponent sits to their hip and attempts to turn into you during the transition?",
-      "answer": "If the opponent turns into you, maintain strong near arm control and use your hook to prevent the hip movement initially. If they successfully begin the turn, follow their motion and transition to alternative positions like crucifix control or truck position rather than forcing the back take and potentially losing position entirely. This demonstrates the principle of following opponent movement and maintaining control through position adaptation rather than rigid technique application.",
-      "difficulty": "Advanced"
+      "answer": "If the opponent turns into you, maintain strong near arm control and use your hook to prevent the hip movement initially. If they successfully begin the turn, follow their motion and transition to alternative positions like crucifix control or truck position rather than forcing the back take and potentially losing position entirely. This demonstrates the principle of following opponent movement and maintaining control through position adaptation rather than rigid technique application."
     },
     {
       "question": "How does proper hook depth affect the success rate of the Crab Ride to Back transition?",
-      "answer": "Deep hooks positioned at the hip crease with feet controlling the hip flexors are essential for maintaining control throughout the transition, especially during the roll or slide to back mount. Shallow hooks can be cleared by the opponent during the transition, resulting in loss of position or reversal. Deep hooks survive the dynamic movement and provide the stability necessary for consolidating back control. The depth must be established before committing to the final transition phase.",
-      "difficulty": "Intermediate"
+      "answer": "Deep hooks positioned at the hip crease with feet controlling the hip flexors are essential for maintaining control throughout the transition, especially during the roll or slide to back mount. Shallow hooks can be cleared by the opponent during the transition, resulting in loss of position or reversal. Deep hooks survive the dynamic movement and provide the stability necessary for consolidating back control. The depth must be established before committing to the final transition phase."
     },
     {
       "question": "What are the key differences between the roll-to-back and slide-to-back variations of this technique?",
-      "answer": "The roll-to-back variation is used when the opponent is flattened in turtle with minimal space underneath. You execute a controlled roll to your side while pulling them with you, ending with them in front and you on their back. The slide-to-back variation is used when there is space underneath the opponent. You slide your hips through while pulling them back into you, transitioning to back mount without a full roll. Both require maintained seat belt control and deep hooks, but the choice depends on the opponent's posture and available space.",
-      "difficulty": "Advanced"
+      "answer": "The roll-to-back variation is used when the opponent is flattened in turtle with minimal space underneath. You execute a controlled roll to your side while pulling them with you, ending with them in front and you on their back. The slide-to-back variation is used when there is space underneath the opponent. You slide your hips through while pulling them back into you, transitioning to back mount without a full roll. Both require maintained seat belt control and deep hooks, but the choice depends on the opponent's posture and available space."
     },
     {
       "question": "Why should you avoid crossing your feet behind the opponent's back during this transition?",
-      "answer": "Crossing feet behind the opponent's back creates significant vulnerability to straight ankle lock counter-attacks and dramatically reduces control stability, making escapes much easier for the opponent. Proper hook placement at the hips with feet controlling the hip flexors provides far superior control and eliminates the ankle lock vulnerability. If feet must be crossed, it should only be at the ankles as a temporary measure and only when there is no threat of leg attacks, though this is still suboptimal compared to proper hook maintenance.",
-      "difficulty": "Beginner"
+      "answer": "Crossing feet behind the opponent's back creates significant vulnerability to straight ankle lock counter-attacks and dramatically reduces control stability, making escapes much easier for the opponent. Proper hook placement at the hips with feet controlling the hip flexors provides far superior control and eliminates the ankle lock vulnerability. If feet must be crossed, it should only be at the ankles as a temporary measure and only when there is no threat of leg attacks, though this is still suboptimal compared to proper hook maintenance."
     }
   ],
   "safety_considerations": "The Crab Ride to Back transition is generally safe when practiced with proper control and awareness. Primary safety concerns include preventing excessive cranking of the neck during seat belt establishment, avoiding sudden or jerky movements during the roll to back that could strain the opponent's spine, and being mindful of knee torque on both your hooks and opponent's defensive leg positions. Partners should communicate clearly during drilling, especially when practicing the dynamic roll variation. Start with slow, controlled repetitions before adding speed and resistance. Be particularly careful with the seat belt grip not to apply choking pressure during the transition phase unless specifically working submission chains. Both practitioners should understand the difference between positional control and submission application to prevent accidental injury during training.",
@@ -269,5 +246,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

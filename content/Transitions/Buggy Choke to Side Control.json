@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Buggy Choke to Side Control transition represents a critical positional advancement option when the primary submission threat is neutralized through effective grip defense. This technique exemplifies the principle that control positions in BJJ should never be single-purpose—when the choke fails, the grip configuration and body positioning should naturally facilitate advancement to a dominant passing position rather than returning to neutral.\n\nStrategically, this transition capitalizes on the opponent's defensive focus on the choke threat. While they concentrate on stripping collar grips and preventing the finish, their hip and leg positioning often becomes compromised, creating pathways to flatten them and secure side control. The perpendicular pressure already established from buggy choke top provides the foundation for heavy crossface and hip control that characterizes dominant side control.\n\nThe transition also serves as a psychological tool—opponents who know you will advance to side control when they successfully defend the choke face a dilemma where both accepting the choke and defending it lead to disadvantageous outcomes. This dilemma creation is fundamental to high-level attacking systems and makes the buggy choke position significantly more threatening than if the choke were the only available attack.",
   "key_principles": [
     "Recognize when choke completion is unlikely due to effective grip defense or posture recovery",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Assess choke viability",
-      "description": "Evaluate opponent's defensive success—if they have stripped grips to shallow depth, recovered significant posture, or created defensive frames that prevent choking pressure progression, begin transition sequence",
-      "timing": "Decision point: 2-3 seconds of ineffective grip fighting"
+      "description": "Evaluate opponent's defensive success—if they have stripped grips to shallow depth, recovered significant posture, or created defensive frames that prevent choking pressure progression, begin transition sequence"
     },
     {
       "step_number": 2,
       "action": "Maintain chest pressure",
-      "description": "Before releasing any grips, drive chest weight heavily onto opponent's back and shoulder complex to prevent them from creating space or recovering guard position during grip transition",
-      "timing": "Simultaneous with grip release preparation"
+      "description": "Before releasing any grips, drive chest weight heavily onto opponent's back and shoulder complex to prevent them from creating space or recovering guard position during grip transition"
     },
     {
       "step_number": 3,
       "action": "Release and convert near-side arm",
-      "description": "Extract threading arm from under armpit and immediately establish deep underhook on opponent's far-side hip, controlling their ability to turn into you or recover guard",
-      "timing": "Quick extraction and immediate hip control"
+      "description": "Extract threading arm from under armpit and immediately establish deep underhook on opponent's far-side hip, controlling their ability to turn into you or recover guard"
     },
     {
       "step_number": 4,
       "action": "Establish crossface control",
-      "description": "Convert far-side collar grip to deep crossface position, driving shoulder blade against opponent's jaw and chin to turn their head away and establish face-down control",
-      "timing": "Immediately following underhook establishment"
+      "description": "Convert far-side collar grip to deep crossface position, driving shoulder blade against opponent's jaw and chin to turn their head away and establish face-down control"
     },
     {
       "step_number": 5,
       "action": "Clear legs and flatten opponent",
-      "description": "Walk hips perpendicular to opponent's spine while driving chest pressure downward, clearing any leg entanglements and flattening opponent from turtle to side control position",
-      "timing": "Controlled walking movement over 2-3 seconds"
+      "description": "Walk hips perpendicular to opponent's spine while driving chest pressure downward, clearing any leg entanglements and flattening opponent from turtle to side control position"
     },
     {
       "step_number": 6,
       "action": "Consolidate side control",
-      "description": "Settle weight into dominant side control position with chest-to-chest connection, near-side knee blocking hip escape, and far-side leg sprawled for base while maintaining crossface and underhook controls",
-      "timing": "Final positioning and weight distribution"
+      "description": "Settle weight into dominant side control position with chest-to-chest connection, near-side knee blocking hip escape, and far-side leg sprawled for base while maintaining crossface and underhook controls"
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip conversion mechanics",
-      "description": "Practice the isolated movement of releasing buggy choke grips and immediately establishing underhook and crossface controls. Partner remains static in turtle while you focus on smooth grip transitions without position loss. Drill 20-30 repetitions per session emphasizing speed and precision of grip exchange.",
-      "resistance_level": "None"
+      "description": "Practice the isolated movement of releasing buggy choke grips and immediately establishing underhook and crossface controls. Partner remains static in turtle while you focus on smooth grip transitions without position loss. Drill 20-30 repetitions per session emphasizing speed and precision of grip exchange."
     },
     {
       "phase": "Week 3-4",
       "focus": "Pressure maintenance",
-      "description": "Add focus on maintaining chest pressure throughout transition. Partner provides light movement and tries to create space during grip changes. Practice adjusting pressure points as you transition while never allowing opponent to significantly change position. Monitor how pressure shifts from back to shoulder complex.",
-      "resistance_level": "Light"
+      "description": "Add focus on maintaining chest pressure throughout transition. Partner provides light movement and tries to create space during grip changes. Practice adjusting pressure points as you transition while never allowing opponent to significantly change position. Monitor how pressure shifts from back to shoulder complex."
     },
     {
       "phase": "Week 5-6",
       "focus": "Defensive reactions",
-      "description": "Partner implements common defensive reactions during transition—sitting to guard, granby rolling, framing on hip. Practice reading defensive movement and adjusting transition accordingly. Learn when to complete side control versus converting to back take or other positions based on opponent's defensive choice.",
-      "resistance_level": "Medium"
+      "description": "Partner implements common defensive reactions during transition—sitting to guard, granby rolling, framing on hip. Practice reading defensive movement and adjusting transition accordingly. Learn when to complete side control versus converting to back take or other positions based on opponent's defensive choice."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Incorporate transition into full positional sparring from turtle. Start in buggy choke position with options to finish choke or transition based on defense. Track success rate of transitions completed versus opponent escapes. Develop real-time decision making between choke completion and positional advancement.",
-      "resistance_level": "Full"
+      "description": "Incorporate transition into full positional sparring from turtle. Start in buggy choke position with options to finish choke or transition based on defense. Track success rate of transitions completed versus opponent escapes. Develop real-time decision making between choke completion and positional advancement."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Buggy Choke to Side Control transition?",
-      "answer": "The primary goal is to convert a failed or defended buggy choke attempt into a dominant passing position rather than returning to neutral. This ensures that the buggy choke position remains threatening even when the submission itself is defended, creating a dilemma where the opponent loses whether they accept the choke or successfully defend it.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert a failed or defended buggy choke attempt into a dominant passing position rather than returning to neutral. This ensures that the buggy choke position remains threatening even when the submission itself is defended, creating a dilemma where the opponent loses whether they accept the choke or successfully defend it."
     },
     {
       "question": "When should you recognize that transitioning to side control is preferable to continuing the choke attempt?",
-      "answer": "Transition when the opponent has stripped grips to shallow depth, recovered significant posture, or established defensive frames that prevent choking pressure from progressing. Generally, if 2-3 seconds of grip fighting has not improved your position, the transition becomes higher percentage than forcing the choke. The decision point is when their defense is effective but their hip position remains compromised.",
-      "difficulty": "Intermediate"
+      "answer": "Transition when the opponent has stripped grips to shallow depth, recovered significant posture, or established defensive frames that prevent choking pressure from progressing. Generally, if 2-3 seconds of grip fighting has not improved your position, the transition becomes higher percentage than forcing the choke. The decision point is when their defense is effective but their hip position remains compromised."
     },
     {
       "question": "What is the critical control that must be established immediately when releasing buggy choke grips?",
-      "answer": "The underhook controlling the opponent's far-side hip must be established immediately upon releasing the threading arm. This control prevents the opponent from turning into you to recover guard. Without immediate hip control, the opponent can exploit the grip transition window to recover defensive posture or sit to guard.",
-      "difficulty": "Intermediate"
+      "answer": "The underhook controlling the opponent's far-side hip must be established immediately upon releasing the threading arm. This control prevents the opponent from turning into you to recover guard. Without immediate hip control, the opponent can exploit the grip transition window to recover defensive posture or sit to guard."
     },
     {
       "question": "Your opponent begins sitting to guard as you release your buggy choke grips—how do you adjust?",
-      "answer": "Convert to back take rather than forcing the side control transition. Their sitting motion creates optimal hip exposure for inserting hooks. Follow their hip movement, maintain your underhook, and use their momentum to establish back control. Forcing side control against active guard recovery is lower percentage than accepting the back take opportunity.",
-      "difficulty": "Advanced"
+      "answer": "Convert to back take rather than forcing the side control transition. Their sitting motion creates optimal hip exposure for inserting hooks. Follow their hip movement, maintain your underhook, and use their momentum to establish back control. Forcing side control against active guard recovery is lower percentage than accepting the back take opportunity."
     },
     {
       "question": "What role does chest pressure play throughout this transition?",
-      "answer": "Chest pressure must be maintained throughout the entire transition sequence without any lightening until crossface and underhook are fully secured. The pressure prevents opponent from creating space to recover guard, sit out, or escape to standing. Pressure transfers from opponent's back during buggy choke to their shoulder complex in side control, but never releases during the change.",
-      "difficulty": "Intermediate"
+      "answer": "Chest pressure must be maintained throughout the entire transition sequence without any lightening until crossface and underhook are fully secured. The pressure prevents opponent from creating space to recover guard, sit out, or escape to standing. Pressure transfers from opponent's back during buggy choke to their shoulder complex in side control, but never releases during the change."
     },
     {
       "question": "How does the crossface differ from your original collar grip in terms of control function?",
-      "answer": "The collar grip primarily created choking pressure on the neck. The crossface controls the opponent's spine by driving their face away with your shoulder blade against their jaw. This prevents them from turning toward you, which would allow guard recovery. The crossface addresses positional control while the collar grip addressed submission threat—different functions requiring different positioning.",
-      "difficulty": "Intermediate"
+      "answer": "The collar grip primarily created choking pressure on the neck. The crossface controls the opponent's spine by driving their face away with your shoulder blade against their jaw. This prevents them from turning toward you, which would allow guard recovery. The crossface addresses positional control while the collar grip addressed submission threat—different functions requiring different positioning."
     },
     {
       "question": "What is the optimal hip angle when consolidating side control from this transition?",
-      "answer": "Hips should be perpendicular to the opponent's spine with your chest making contact with their chest/shoulder area. This perpendicular angle maximizes pressure, blocks hip escape with your near-side knee, and positions you for standard side control attacks. Angling toward their head creates space at the hip; angling toward their hips creates space at the shoulder—both reduce control.",
-      "difficulty": "Advanced"
+      "answer": "Hips should be perpendicular to the opponent's spine with your chest making contact with their chest/shoulder area. This perpendicular angle maximizes pressure, blocks hip escape with your near-side knee, and positions you for standard side control attacks. Angling toward their head creates space at the hip; angling toward their hips creates space at the shoulder—both reduce control."
     },
     {
       "question": "Your opponent creates a frame on your hip as you walk around to side control—what options do you have?",
-      "answer": "Maintain underhook control and use either a knee cut through their frame or a leg weave technique to complete the pass. The underhook prevents their frame from becoming a full guard recovery. Alternative: if their frame is committed, switch direction and pass to the opposite side where their frame is not established. Do not abandon the pass attempt—convert to a specific passing technique.",
-      "difficulty": "Advanced"
+      "answer": "Maintain underhook control and use either a knee cut through their frame or a leg weave technique to complete the pass. The underhook prevents their frame from becoming a full guard recovery. Alternative: if their frame is committed, switch direction and pass to the opposite side where their frame is not established. Do not abandon the pass attempt—convert to a specific passing technique."
     }
   ],
   "safety_considerations": "This transition involves significant pressure on the opponent's neck and spine during the crossface establishment phase. Ensure that pressure is applied through the shoulder blade against the jaw rather than directly on the throat. During training, release immediately if partner indicates breathing difficulty or discomfort. The transition should be practiced slowly initially to allow partner to tap if any position causes pain. Avoid explosive movements during grip conversion as this can cause partner's face to contact the mat unexpectedly. When drilling with less experienced partners, ensure they understand that the crossface is uncomfortable but safe when applied correctly to the jaw, not the throat.",
@@ -264,5 +241,6 @@
       "name": "Knee on Belly",
       "relationship": "Positional advancement available after securing side control"
     }
-  ]
+  ],
+  "success_rate": 58
 }

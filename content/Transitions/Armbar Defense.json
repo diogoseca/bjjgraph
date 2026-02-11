@@ -32,11 +32,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "Armbar defense represents one of the most critical defensive skills in Brazilian Jiu-Jitsu, as the armbar is among the highest-percentage submissions across all skill levels and rule sets. The defensive sequence must be executed with precise timing and technical understanding, as even slight delays can result in a completed submission. Effective armbar defense operates on multiple layers: preventing the initial setup through postural awareness, recognizing the attack in its early stages, executing appropriate escape mechanics based on the specific armbar variation, and transitioning to a safer position once the immediate threat is neutralized. The defense varies significantly depending on whether the armbar is being applied from mount, guard, side control, or back control, requiring practitioners to develop position-specific defensive responses while maintaining awareness of fundamental escape principles that apply across all variations.",
   "key_principles": [
     "Recognize armbar attacks early before full extension occurs",
@@ -59,38 +54,32 @@
     {
       "step_number": 1,
       "action": "Recognize the attack",
-      "description": "Identify armbar setup immediately as opponent begins to pivot their body perpendicular to yours, isolates your arm, or starts to swing their leg across your head or chest. Early recognition is critical as defenses become exponentially more difficult once full extension begins.",
-      "timing": "As soon as leg begins to swing or arm isolation occurs"
+      "description": "Identify armbar setup immediately as opponent begins to pivot their body perpendicular to yours, isolates your arm, or starts to swing their leg across your head or chest. Early recognition is critical as defenses become exponentially more difficult once full extension begins."
     },
     {
       "step_number": 2,
       "action": "Lock hands together",
-      "description": "Immediately clasp both hands together in a grip (gable grip or S-grip) to prevent full arm extension. Keep thumbs pointed upward and elbows tight to your body. This creates a structural frame that makes it significantly harder for opponent to straighten your arm.",
-      "timing": "Within 0.5-1 second of recognizing attack"
+      "description": "Immediately clasp both hands together in a grip (gable grip or S-grip) to prevent full arm extension. Keep thumbs pointed upward and elbows tight to your body. This creates a structural frame that makes it significantly harder for opponent to straighten your arm."
     },
     {
       "step_number": 3,
       "action": "Rotate toward opponent",
-      "description": "Turn your body and trapped shoulder toward your opponent's head, moving from supine position to your side. This rotation reduces the angle of attack on your elbow joint and begins to stack opponent's hips, compromising their leverage for the submission.",
-      "timing": "Simultaneously with hand clasping"
+      "description": "Turn your body and trapped shoulder toward your opponent's head, moving from supine position to your side. This rotation reduces the angle of attack on your elbow joint and begins to stack opponent's hips, compromising their leverage for the submission."
     },
     {
       "step_number": 4,
       "action": "Posture up and stack",
-      "description": "Drive your weight forward over opponent's hips, stacking their lower back and legs toward their head. Use your free hand to post on the mat near their head for base. This stacking action removes the hip extension necessary for armbar completion and creates escape opportunities.",
-      "timing": "As rotation begins to take effect"
+      "description": "Drive your weight forward over opponent's hips, stacking their lower back and legs toward their head. Use your free hand to post on the mat near their head for base. This stacking action removes the hip extension necessary for armbar completion and creates escape opportunities."
     },
     {
       "step_number": 5,
       "action": "Extract trapped arm",
-      "description": "While maintaining stacking pressure, begin extracting your trapped arm by pulling it back toward your body in a circular motion, keeping the elbow bent. Pull arm across opponent's centerline toward their opposite hip, using the momentum of your stack to assist the extraction.",
-      "timing": "Once maximum stacking pressure is achieved"
+      "description": "While maintaining stacking pressure, begin extracting your trapped arm by pulling it back toward your body in a circular motion, keeping the elbow bent. Pull arm across opponent's centerline toward their opposite hip, using the momentum of your stack to assist the extraction."
     },
     {
       "step_number": 6,
       "action": "Establish guard or pass",
-      "description": "As arm clears opponent's legs, immediately transition to either passing to side control (if sufficient stacking occurred) or establishing position in their guard (if they recover). Maintain positional pressure and avoid allowing opponent to re-establish armbar control or transition to alternative attacks.",
-      "timing": "Immediately following arm extraction"
+      "description": "As arm clears opponent's legs, immediately transition to either passing to side control (if sufficient stacking occurred) or establishing position in their guard (if they recover). Maintain positional pressure and avoid allowing opponent to re-establish armbar control or transition to alternative attacks."
     }
   ],
   "common_counters": [
@@ -151,38 +140,32 @@
     {
       "phase": "Week 1-2: Recognition Drills",
       "focus": "Identifying armbar setups from various positions",
-      "description": "Partner slowly initiates armbar setups from mount, guard, and side control while you focus solely on recognizing the attack indicators (leg movement, arm isolation, body pivoting). Call out the attack type and freeze position for analysis.",
-      "resistance_level": "None"
+      "description": "Partner slowly initiates armbar setups from mount, guard, and side control while you focus solely on recognizing the attack indicators (leg movement, arm isolation, body pivoting). Call out the attack type and freeze position for analysis."
     },
     {
       "phase": "Week 3-4: Mechanical Practice",
       "focus": "Executing defensive sequence with cooperative partner",
-      "description": "Partner achieves partial armbar position (hands clasped but legs in position) and pauses. Practice the full defensive sequence: lock hands, rotate shoulder, stack hips, extract arm. Partner maintains light control but allows successful completion. Focus on proper mechanics over speed.",
-      "resistance_level": "Light"
+      "description": "Partner achieves partial armbar position (hands clasped but legs in position) and pauses. Practice the full defensive sequence: lock hands, rotate shoulder, stack hips, extract arm. Partner maintains light control but allows successful completion. Focus on proper mechanics over speed."
     },
     {
       "phase": "Week 5-8: Resistance Drilling",
       "focus": "Defending against increasing pressure and completion attempts",
-      "description": "Partner applies armbar with progressive resistance, attempting to break your defensive grip and extend the arm. Practice maintaining defensive structure under pressure while executing escape sequence. Start from 50% resistance and increase to 75% as proficiency develops.",
-      "resistance_level": "Medium"
+      "description": "Partner applies armbar with progressive resistance, attempting to break your defensive grip and extend the arm. Practice maintaining defensive structure under pressure while executing escape sequence. Start from 50% resistance and increase to 75% as proficiency develops."
     },
     {
       "phase": "Week 9-12: Dynamic Scenarios",
       "focus": "Live drilling from various starting positions with transitions",
-      "description": "Partner can attempt armbars from any position during positional sparring. Practice recognizing attacks from mount escapes, guard passing attempts, and scrambles. Defend the armbar and transition to next appropriate position. Partner can switch to triangle or omoplata if opportunity arises.",
-      "resistance_level": "Full"
+      "description": "Partner can attempt armbars from any position during positional sparring. Practice recognizing attacks from mount escapes, guard passing attempts, and scrambles. Defend the armbar and transition to next appropriate position. Partner can switch to triangle or omoplata if opportunity arises."
     },
     {
       "phase": "Week 13+: Competition Integration",
       "focus": "Defending armbars during unrestricted sparring",
-      "description": "Apply defensive techniques during normal rolling sessions. Focus on early recognition and prevention of armbar setups through improved positional awareness. Track success rate and common failure points for continued refinement.",
-      "resistance_level": "Full"
+      "description": "Apply defensive techniques during normal rolling sessions. Focus on early recognition and prevention of armbar setups through improved positional awareness. Track success rate and common failure points for continued refinement."
     },
     {
       "phase": "Ongoing: Position-Specific Refinement",
       "focus": "Developing specialized defenses for each armbar variation",
-      "description": "Dedicate focused training time to defending specific armbar types: mount armbar, guard armbar, back armbar, flying armbar. Study subtle mechanical differences and optimal defensive responses for each variation. Work with higher-level training partners who can apply these submissions at high proficiency.",
-      "resistance_level": "Full"
+      "description": "Dedicate focused training time to defending specific armbar types: mount armbar, guard armbar, back armbar, flying armbar. Study subtle mechanical differences and optimal defensive responses for each variation. Work with higher-level training partners who can apply these submissions at high proficiency."
     }
   ],
   "variants_and_adaptations": [
@@ -205,63 +188,51 @@
   "knowledge_assessment": [
     {
       "question": "Why must you rotate your shoulder toward opponent's head during armbar defense rather than pulling straight back?",
-      "answer": "Rotating the shoulder toward the opponent's head changes the angle of attack on the elbow joint, reducing the mechanical advantage they have for extension. Pulling straight back against their leg pressure actually assists the submission by creating direct resistance against their strongest leverage point. The rotation also facilitates stacking their hips, which further compromises their ability to generate extension force.",
-      "difficulty": "Intermediate"
+      "answer": "Rotating the shoulder toward the opponent's head changes the angle of attack on the elbow joint, reducing the mechanical advantage they have for extension. Pulling straight back against their leg pressure actually assists the submission by creating direct resistance against their strongest leverage point. The rotation also facilitates stacking their hips, which further compromises their ability to generate extension force."
     },
     {
       "question": "What is the primary danger of separating your hands before successfully stacking opponent's hips?",
-      "answer": "Separating hands prematurely allows the opponent to achieve full arm extension, which creates direct pressure on the elbow joint and makes escape nearly impossible. The clasped hands create a structural frame that prevents extension even under significant pressure. Once hands are separated without first removing the opponent's leverage through stacking, the submission becomes extremely difficult to defend and injury risk increases dramatically.",
-      "difficulty": "Beginner"
+      "answer": "Separating hands prematurely allows the opponent to achieve full arm extension, which creates direct pressure on the elbow joint and makes escape nearly impossible. The clasped hands create a structural frame that prevents extension even under significant pressure. Once hands are separated without first removing the opponent's leverage through stacking, the submission becomes extremely difficult to defend and injury risk increases dramatically."
     },
     {
       "question": "How should you respond if opponent begins transitioning to triangle choke as you rotate toward them during armbar defense?",
-      "answer": "Maintain upright posture by keeping your head elevated and posting your free hand on the opponent's hip to create a strong base. Continue the stacking pressure while being aware of the triangle threat. Keep your trapped arm's elbow tight to prevent them from locking the triangle, and work to extract the arm while defending the choke. If necessary, stand up to completely remove both submission threats by eliminating the angle.",
-      "difficulty": "Advanced"
+      "answer": "Maintain upright posture by keeping your head elevated and posting your free hand on the opponent's hip to create a strong base. Continue the stacking pressure while being aware of the triangle threat. Keep your trapped arm's elbow tight to prevent them from locking the triangle, and work to extract the arm while defending the choke. If necessary, stand up to completely remove both submission threats by eliminating the angle."
     },
     {
       "question": "What is the hitchhiker position and when should it be used during armbar defense?",
-      "answer": "The hitchhiker position involves keeping the thumb pointed upward (like hitchhiking gesture) with the elbow bent, even if your defensive grip has been broken. This position reduces the angle of attack on the elbow joint and prevents full extension. It should be used as a last-resort defensive measure when opponent has broken your hand clasp but you are still executing the rotational escape and stacking sequence. The position buys critical time to complete the escape mechanics.",
-      "difficulty": "Intermediate"
+      "answer": "The hitchhiker position involves keeping the thumb pointed upward (like hitchhiking gesture) with the elbow bent, even if your defensive grip has been broken. This position reduces the angle of attack on the elbow joint and prevents full extension. It should be used as a last-resort defensive measure when opponent has broken your hand clasp but you are still executing the rotational escape and stacking sequence. The position buys critical time to complete the escape mechanics."
     },
     {
       "question": "Why is early recognition of armbar setups more critical than in defenses for other submissions?",
-      "answer": "Armbar defenses become exponentially more difficult once the opponent achieves full positioning with legs secured and arm extended. Unlike chokes where you may have several seconds before losing consciousness, the armbar can be completed in under one second once proper leverage is established, and continued resistance results in immediate elbow injury. The mechanical efficiency of the armbar means that defensive windows are extremely narrow, making early recognition and immediate defensive response absolutely critical for successful escape without injury.",
-      "difficulty": "Advanced"
+      "answer": "Armbar defenses become exponentially more difficult once the opponent achieves full positioning with legs secured and arm extended. Unlike chokes where you may have several seconds before losing consciousness, the armbar can be completed in under one second once proper leverage is established, and continued resistance results in immediate elbow injury. The mechanical efficiency of the armbar means that defensive windows are extremely narrow, making early recognition and immediate defensive response absolutely critical for successful escape without injury."
     },
     {
       "question": "What are the key indicators that an armbar attack is being initiated from mount position?",
-      "answer": "From mount, armbar indicators include: opponent beginning to pivot their body perpendicular to yours, isolating one of your arms by controlling the wrist or sleeve, shifting their weight to one side to facilitate leg swing, and beginning to swing their leg across your face or chest. Additional signs include opponent securing a high mount position, trapping your arm across their body, or breaking your defensive frames. Recognition of these early movements allows defensive response before full armbar position is achieved.",
-      "difficulty": "Beginner"
+      "answer": "From mount, armbar indicators include: opponent beginning to pivot their body perpendicular to yours, isolating one of your arms by controlling the wrist or sleeve, shifting their weight to one side to facilitate leg swing, and beginning to swing their leg across your face or chest. Additional signs include opponent securing a high mount position, trapping your arm across their body, or breaking your defensive frames. Recognition of these early movements allows defensive response before full armbar position is achieved."
     },
     {
       "question": "Your opponent breaks your gable grip and begins to extend your arm - what immediate adjustment saves the position?",
-      "answer": "Immediately rotate your thumb toward the ceiling (hitchhiker position) while bending at the elbow and continuing to turn your body toward opponent's head. This thumb-up orientation creates the strongest anatomical position for resisting hyperextension. Simultaneously drive your hips forward to maintain stacking pressure. If space allows, reach your free hand to grip your trapped wrist and re-establish a defensive frame while continuing the rotational escape.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately rotate your thumb toward the ceiling (hitchhiker position) while bending at the elbow and continuing to turn your body toward opponent's head. This thumb-up orientation creates the strongest anatomical position for resisting hyperextension. Simultaneously drive your hips forward to maintain stacking pressure. If space allows, reach your free hand to grip your trapped wrist and re-establish a defensive frame while continuing the rotational escape."
     },
     {
       "question": "What is the optimal direction of force when stacking your opponent during armbar defense?",
-      "answer": "Drive your weight forward and slightly diagonal toward opponent's far shoulder, not straight down onto their hips. This diagonal pressure vector compromises their ability to maintain perpendicular hip alignment needed for the finish. Your chest and shoulders should move over their hip line while your own hips drive forward. This creates a folding pressure that makes it mechanically difficult for them to generate hip elevation for the submission.",
-      "difficulty": "Intermediate"
+      "answer": "Drive your weight forward and slightly diagonal toward opponent's far shoulder, not straight down onto their hips. This diagonal pressure vector compromises their ability to maintain perpendicular hip alignment needed for the finish. Your chest and shoulders should move over their hip line while your own hips drive forward. This creates a folding pressure that makes it mechanically difficult for them to generate hip elevation for the submission."
     },
     {
       "question": "When defending an armbar from closed guard, what must you establish before attempting arm extraction?",
-      "answer": "You must first recover strong upright posture with your weight distributed back toward your heels and your head elevated away from their chest. Without posture, any arm extraction attempt will be countered by them re-breaking your posture and re-isolating the arm. Once posture is established, maintain it by keeping your non-trapped hand posted on their hip or chest, then work the arm extraction by pulling toward your centerline while keeping the elbow bent.",
-      "difficulty": "Intermediate"
+      "answer": "You must first recover strong upright posture with your weight distributed back toward your heels and your head elevated away from their chest. Without posture, any arm extraction attempt will be countered by them re-breaking your posture and re-isolating the arm. Once posture is established, maintain it by keeping your non-trapped hand posted on their hip or chest, then work the arm extraction by pulling toward your centerline while keeping the elbow bent."
     },
     {
       "question": "How does defending a belly-down armbar differ mechanically from a standard supine armbar defense?",
-      "answer": "In the belly-down position, traditional stacking is unavailable because you cannot drive forward over opponent's hips. Instead, the escape requires a forward roll over the trapped shoulder in the direction your trapped arm points. Tuck your chin, push off your back foot, and somersault forward. This rotation removes the arm from the submission angle by changing the plane of movement entirely. You will typically land in turtle position and must immediately address the scramble that follows.",
-      "difficulty": "Advanced"
+      "answer": "In the belly-down position, traditional stacking is unavailable because you cannot drive forward over opponent's hips. Instead, the escape requires a forward roll over the trapped shoulder in the direction your trapped arm points. Tuck your chin, push off your back foot, and somersault forward. This rotation removes the arm from the submission angle by changing the plane of movement entirely. You will typically land in turtle position and must immediately address the scramble that follows."
     },
     {
       "question": "What grip configuration provides the strongest defense when clasping hands during armbar defense?",
-      "answer": "The gable grip (palm-to-palm with fingers interlocked) provides maximum structural integrity against attempts to separate your hands. Position your trapped arm's hand with thumb pointing up, then clasp your free hand over it with matching palm contact. Keep both elbows tight to your body and pull the clasped hands toward your chest. This configuration uses bone structure rather than grip strength alone and is significantly harder for opponent to break than an S-grip or figure-four grip.",
-      "difficulty": "Beginner"
+      "answer": "The gable grip (palm-to-palm with fingers interlocked) provides maximum structural integrity against attempts to separate your hands. Position your trapped arm's hand with thumb pointing up, then clasp your free hand over it with matching palm contact. Keep both elbows tight to your body and pull the clasped hands toward your chest. This configuration uses bone structure rather than grip strength alone and is significantly harder for opponent to break than an S-grip or figure-four grip."
     },
     {
       "question": "Your opponent controls your wrist with both hands and has tight leg control across your face - what escape sequence should you prioritize?",
-      "answer": "With both their hands on your wrist and tight leg control, the stacking escape is your best option. Use your free arm to push against their top leg near the knee while simultaneously bridging your hips forward and turning toward your trapped arm. This creates lateral pressure that is harder to control than straight stacking. As their leg control loosens from the hip drive, continue turning until you can posture up and begin arm extraction. Do not attempt to pull the arm back until the stacking has compromised their hip position.",
-      "difficulty": "Advanced"
+      "answer": "With both their hands on your wrist and tight leg control, the stacking escape is your best option. Use your free arm to push against their top leg near the knee while simultaneously bridging your hips forward and turning toward your trapped arm. This creates lateral pressure that is harder to control than straight stacking. As their leg control loosens from the hip drive, continue turning until you can posture up and begin arm extraction. Do not attempt to pull the arm back until the stacking has compromised their hip position."
     }
   ],
   "safety_considerations": "Armbar defense training carries significant injury risk if not practiced with appropriate control and communication. Practitioners must understand that the elbow joint can be hyperextended very rapidly once full armbar leverage is achieved, and attempts to resist a completed armbar will result in serious injury requiring medical attention and extended recovery. During drilling, partners must apply controlled pressure and immediately release when the defending partner taps or signals verbally. Never attempt to tough out or resist a fully locked armbar, as elbow ligament damage can occur in less than one second of sustained pressure. Beginners should practice defenses only with experienced partners who understand appropriate pressure application. Progress gradually through resistance levels and ensure drilling partners can reliably control their submission attempts before advancing to higher-intensity training.",
@@ -315,5 +286,6 @@
       "name": "Turtle",
       "relationship": "Possible recovery position after rolling escape variations"
     }
-  ]
+  ],
+  "success_rate": 52
 }

@@ -331,21 +331,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Ability to maintain position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Probability of advancing to submission or better position"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Probability of finishing submission from this position"
       },
       "average_time": "30-90 seconds before submission or position change"
@@ -635,21 +629,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Ability to prevent opponent from advancing to submission"
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40,
+        "value": 32,
         "description": "Probability of escaping to better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Probability of counter-attacking successfully"
       },
       "average_time": "15-45 seconds before submission or escape"

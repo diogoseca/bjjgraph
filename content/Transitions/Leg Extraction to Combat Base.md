@@ -159,7 +159,7 @@ description: "Master leg extraction from lockdown in BJJ. Systematic method to f
 Leg Extraction to Combat Base is the essential defensive transition when trapped in an opponent's lockdown half guard. The lockdown configuration severely restricts the top player's mobility by triangling around the trapped leg, making conventional passing impossible until the leg is freed. This technique employs a systematic approach combining upper body pressure, circular hip movement, and strategic angle changes to release the trapped leg from the figure-four configuration. Unlike attempting to simply pull backward against the lockdown—which strengthens the opponent's control—this extraction method works with the mechanics of the position. Once successfully extracted, the practitioner immediately establishes combat base, creating a stable platform for guard passing. The technique represents the critical bridge between being stuck in lockdown and initiating offensive passing sequences, making it an indispensable skill for any practitioner facing 10th Planet or lockdown-based half guard players.
 
 **From Position**: [[Lockdown/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,13 +207,13 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish crossface control**: Drive your shoulder heavily into opponent's jaw or chest with crossface arm wrapped around their head, flattening them to the mat and preventing the whip-up motion that enables their primary sweeps (Timing: Before any extraction attempt)
-2. **Secure hip control**: Use your free hand to control their near-side hip by gripping the pants or hooking the hip bone in no-gi, preventing them from turning toward you or creating attacking angles during extraction (Timing: Immediately after establishing crossface)
-3. **Post free leg wide**: Step your free leg out wide to the side with knee pointed outward, creating a stable tripod base that prevents you from being swept during the extraction process while maintaining forward pressure (Timing: Concurrent with hip control)
-4. **Drive hips forward and down**: Rather than pulling backward, drive your hips forward and down toward the mat while maintaining shoulder pressure, compressing the space between their legs and changing the angle of your trapped leg relative to their lockdown triangle (Timing: When opponent's grip is stable but not actively attacking)
-5. **Circle trapped leg outward**: Using circular hip motion, rotate your trapped leg outward in a semicircular path while simultaneously pressing your knee toward the mat, exploiting the gap created by the angle change to slip your foot free from their ankle lock (Timing: During the hip drive when angle is optimal)
-6. **Extract foot completely**: As your leg circles free, immediately pull your foot clear of their leg triangle by continuing the circular motion and withdrawing through the gap before they can recapture with the lockdown (Timing: Immediately as space opens)
-7. **Establish combat base**: The moment your leg is free, post it on the mat in combat base position with knee up and foot flat, creating a stable passing platform with weight distributed between both legs and hands for maximum mobility (Timing: Immediately upon extraction)
+1. **Establish crossface control**: Drive your shoulder heavily into opponent's jaw or chest with crossface arm wrapped around their head, flattening them to the mat and preventing the whip-up motion that enables their primary sweeps
+2. **Secure hip control**: Use your free hand to control their near-side hip by gripping the pants or hooking the hip bone in no-gi, preventing them from turning toward you or creating attacking angles during extraction
+3. **Post free leg wide**: Step your free leg out wide to the side with knee pointed outward, creating a stable tripod base that prevents you from being swept during the extraction process while maintaining forward pressure
+4. **Drive hips forward and down**: Rather than pulling backward, drive your hips forward and down toward the mat while maintaining shoulder pressure, compressing the space between their legs and changing the angle of your trapped leg relative to their lockdown triangle
+5. **Circle trapped leg outward**: Using circular hip motion, rotate your trapped leg outward in a semicircular path while simultaneously pressing your knee toward the mat, exploiting the gap created by the angle change to slip your foot free from their ankle lock
+6. **Extract foot completely**: As your leg circles free, immediately pull your foot clear of their leg triangle by continuing the circular motion and withdrawing through the gap before they can recapture with the lockdown
+7. **Establish combat base**: The moment your leg is free, post it on the mat in combat base position with knee up and foot flat, creating a stable passing platform with weight distributed between both legs and hands for maximum mobility
 
 
 </section>
@@ -256,19 +256,15 @@ Leg Extraction to Combat Base is the essential defensive transition when trapped
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the extraction motion pattern without resistance, focusing on circular hip movement and angle changes. Partner holds static lockdown at 50% tightness. Drill crossface establishment and hip control independently before combining with extraction.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner adds light lockdown resistance and occasional extensions. Focus on recognizing when opponent's grip relaxes to time extraction attempts. Practice immediate transition to combat base upon freeing leg. Introduce defensive responses to whip-up attempts.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain leg extraction with common passing sequences like knee slice and smash pass. Partner provides medium resistance and uses lockdown offensively. Practice extraction recovery when first attempt fails. Add drilling of alternative extraction angles.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting trapped in lockdown. Partner attacks with full sweep and submission attempts while you work extraction. Track success rate and identify patterns in failed attempts. Integrate extraction into regular rolling sessions against lockdown players.
-(Resistance: Full)
 
 
 

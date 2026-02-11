@@ -157,7 +157,7 @@ The mechanical principle underlying this consolidation is the progressive transf
 Strategically, this pass should be executed when the opponent flattens out rather than turning away or attempting to sit up. If they turn away, the back take becomes the higher-percentage option. If they turn toward you aggressively, north-south or crucifix transitions may be more appropriate. The side control consolidation is optimal against opponents who accept the bottom position and focus on frame-based defense rather than dynamic escape attempts.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure crossface**: Before releasing any leg control, drive your free arm across opponent's face and neck, establishing heavy crossface pressure that turns their head away from you and prevents them from facing into you or sitting up. (Timing: As opponent's resistance momentarily decreases)
-2. **Drive hip forward**: Increase hip pressure against opponent's near hip while maintaining the dragged leg position. Your chest should begin moving forward across their torso as you slide your hips closer to their centerline. (Timing: Immediately after crossface establishment)
-3. **Block far hip**: Your leg-control hand now transitions to blocking opponent's far hip, preventing them from inserting their knee between your bodies. Press firmly down on their hip bone with your palm or forearm. (Timing: Simultaneously with hip drive)
-4. **Clear the leg**: Push opponent's dragged leg down toward the mat using your hip pressure and leg positioning. Your near knee slides forward past their hip as the leg clears, cutting off any guard recovery angle. (Timing: Once hip block is secure)
-5. **Establish perpendicular position**: Rotate your body to achieve the classic perpendicular side control alignment—your chest directly across opponent's sternum with your hips pressed into their side hip. Sprawl your legs back for base. (Timing: Flowing from leg clear)
-6. **Settle and consolidate**: Drop your weight fully onto opponent, establishing maximum chest-to-chest contact. Adjust crossface angle and hip pressure to eliminate any remaining space. Your near underhook can now work under their far shoulder. (Timing: Final position establishment)
+1. **Secure crossface**: Before releasing any leg control, drive your free arm across opponent's face and neck, establishing heavy crossface pressure that turns their head away from you and prevents them from facing into you or sitting up.
+2. **Drive hip forward**: Increase hip pressure against opponent's near hip while maintaining the dragged leg position. Your chest should begin moving forward across their torso as you slide your hips closer to their centerline.
+3. **Block far hip**: Your leg-control hand now transitions to blocking opponent's far hip, preventing them from inserting their knee between your bodies. Press firmly down on their hip bone with your palm or forearm.
+4. **Clear the leg**: Push opponent's dragged leg down toward the mat using your hip pressure and leg positioning. Your near knee slides forward past their hip as the leg clears, cutting off any guard recovery angle.
+5. **Establish perpendicular position**: Rotate your body to achieve the classic perpendicular side control alignment—your chest directly across opponent's sternum with your hips pressed into their side hip. Sprawl your legs back for base.
+6. **Settle and consolidate**: Drop your weight fully onto opponent, establishing maximum chest-to-chest contact. Adjust crossface angle and hip pressure to eliminate any remaining space. Your near underhook can now work under their far shoulder.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this pass should be executed when the opponent flattens out rathe
 ## Training Progressions
 **Week 1-2** - Control point sequencing
 Practice the handoff from leg control to crossface to hip block with a cooperative partner. Focus on never having both control points released simultaneously. Drill the exact grip and body position changes in isolation.
-(Resistance: None)
 
 **Week 3-4** - Timing and weight transfer
 Partner provides light framing and knee insertion attempts. Practice timing your crossface establishment with their defensive movements. Develop sensitivity to when opponent is loading a bridge versus accepting the pass.
-(Resistance: Light)
 
 **Week 5-6** - Decision making and combinations
 Partner randomly chooses defensive response—turn away, turn in, stay flat, or attempt explosive escape. Practice reading their choice and selecting appropriate transition: side control, back take, north-south, or mount.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate into full sparring from leg drag entries. Track success rate and identify failure patterns. Pressure test against training partners who specialize in guard retention and recovery.
-(Resistance: Full)
 
 
 

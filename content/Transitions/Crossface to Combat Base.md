@@ -163,7 +163,7 @@ This technique represents a methodical, low-risk approach to half guard passing.
 The strategic value of this transition lies in its versatility. Once combat base is established, you have access to toreando, knee slice, long step, and pressure passing options based on how your opponent defends. This makes the crossface to combat base transition a cornerstone of systematic guard passing, allowing you to chain multiple attacks while maintaining positional stability throughout.
 
 **From Position**: [[Half Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The strategic value of this transition lies in its versatility. Once combat base
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure crossface control**: Drive your forearm blade across the opponent's face and neck, keeping continuous pressure that turns their head away from you. Your shoulder weight should be heavy, flattening them to their back and eliminating their ability to turn into you or create effective defensive frames. (Timing: Must be established before initiating transition)
-2. **Control far arm**: Use your free hand to establish underhook on opponent's far arm or pin their wrist to the mat. This eliminates their primary framing tool and prevents them from recovering frames as you begin to move your hips. The arm control works in conjunction with crossface to create complete upper body dominance. (Timing: Immediately after crossface is secured)
-3. **Create extraction angle**: Walk your free foot toward opponent's head while keeping your trapped knee stationary initially. This shifts your body angle and creates the mechanical advantage needed to extract your trapped leg. Maintain forward pressure on the crossface throughout this adjustment to prevent opponent from following. (Timing: Once upper body control is complete)
-4. **Extract trapped leg**: Pull your trapped knee upward and backward in a circular arc, moving it up over opponent's bottom leg and then down and outward. This circular motion is critical as it works with the natural anatomy of their leg entanglement rather than against it. Keep weight forward on crossface during extraction. (Timing: Coordinated with maintained crossface pressure)
-5. **Establish combat base stance**: As your leg clears, immediately post that foot flat on the mat with knee raised, creating the combat base posture. Your other knee should be posted on the mat, creating the triangulated base characteristic of combat base. Do not rush past this position but establish it firmly. (Timing: Immediately upon leg extraction completion)
-6. **Secure passing position**: Transition your crossface pressure to appropriate grip control for combat base, typically collar and pants grips in gi or head and wrist control in no-gi. Your hips should be positioned directly above opponent's hip line, close enough to apply passing pressure but with sufficient distance to prevent triangle entry. (Timing: Within one second of establishing combat base)
-7. **Prepare passing options**: From the established combat base, read opponent's defensive response to determine optimal passing pathway. Active hands control opponent's hips and legs while maintaining upright posture. Be ready to execute toreando, knee slice, or pressure pass based on how they defend and attempt guard recovery. (Timing: Continuous assessment from combat base)
+1. **Secure crossface control**: Drive your forearm blade across the opponent's face and neck, keeping continuous pressure that turns their head away from you. Your shoulder weight should be heavy, flattening them to their back and eliminating their ability to turn into you or create effective defensive frames.
+2. **Control far arm**: Use your free hand to establish underhook on opponent's far arm or pin their wrist to the mat. This eliminates their primary framing tool and prevents them from recovering frames as you begin to move your hips. The arm control works in conjunction with crossface to create complete upper body dominance.
+3. **Create extraction angle**: Walk your free foot toward opponent's head while keeping your trapped knee stationary initially. This shifts your body angle and creates the mechanical advantage needed to extract your trapped leg. Maintain forward pressure on the crossface throughout this adjustment to prevent opponent from following.
+4. **Extract trapped leg**: Pull your trapped knee upward and backward in a circular arc, moving it up over opponent's bottom leg and then down and outward. This circular motion is critical as it works with the natural anatomy of their leg entanglement rather than against it. Keep weight forward on crossface during extraction.
+5. **Establish combat base stance**: As your leg clears, immediately post that foot flat on the mat with knee raised, creating the combat base posture. Your other knee should be posted on the mat, creating the triangulated base characteristic of combat base. Do not rush past this position but establish it firmly.
+6. **Secure passing position**: Transition your crossface pressure to appropriate grip control for combat base, typically collar and pants grips in gi or head and wrist control in no-gi. Your hips should be positioned directly above opponent's hip line, close enough to apply passing pressure but with sufficient distance to prevent triangle entry.
+7. **Prepare passing options**: From the established combat base, read opponent's defensive response to determine optimal passing pathway. Active hands control opponent's hips and legs while maintaining upright posture. Be ready to execute toreando, knee slice, or pressure pass based on how they defend and attempt guard recovery.
 
 
 </section>
@@ -265,23 +265,18 @@ The strategic value of this transition lies in its versatility. Once combat base
 ## Training Progressions
 **Week 1-2** - Crossface mechanics and weight distribution
 Partner starts in half guard with minimal resistance. Practice establishing crossface position with proper shoulder pressure angle and maintaining heavy weight. Partner provides feedback on pressure effectiveness. No leg extraction yet, focus purely on upper body control and weight placement.
-(Resistance: None)
 
 **Week 3-4** - Leg extraction mechanics
 With crossface control established, partner maintains 30% leg grip resistance. Practice circular extraction motion while maintaining forward pressure. Focus on coordination between upper body control and lower body movement. Partner does not attempt sweeps or underhooks yet.
-(Resistance: Light)
 
 **Week 5-6** - Combat base establishment and timing
 Partner provides 50% resistance including light frames and hip following attempts. Practice complete sequence from crossface through combat base establishment. Focus on smooth transitions and immediate combat base consolidation upon leg clearing. Begin timing the transition for efficiency.
-(Resistance: Medium)
 
 **Week 7-10** - Counter integration and passing chains
 Partner provides 70% resistance with common defensive responses including underhook attempts, knee shield insertions, and lockdown. Practice recognizing and countering each defensive response. Begin chaining from combat base into various passes based on opponent's reactions.
-(Resistance: Medium)
 
 **Week 11+** - Live application and competition simulation
 Full resistance positional sparring starting from half guard. Apply the complete sequence against actively resisting opponents. Integrate with full guard passing system and develop automatic recognition of when this transition is highest percentage option.
-(Resistance: Full)
 
 
 

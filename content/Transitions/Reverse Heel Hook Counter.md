@@ -163,7 +163,7 @@ This counter exemplifies the modern leg lock game's principle that defense and o
 The technique is particularly effective against opponents who over-commit to heel hook finishes without maintaining proper leg defense. Advanced practitioners use this counter as a proactive defensive strategy, actually inviting certain heel hook attempts knowing they can intercept with the counter. This creates a psychological advantage where opponents become hesitant to commit fully to their attacks.
 
 **From Position**: [[Ushiro Ashi-Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The technique is particularly effective against opponents who over-commit to hee
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Protect heel**: Maintain strong dorsiflexion on trapped foot with toes pulled toward shin. Use both hands to frame against opponent's grip attempts while monitoring their upper body movement for grip adjustment windows. (Timing: Continuous throughout technique)
-2. **Identify window**: Watch for opponent releasing their inside leg control or shifting hands to establish finishing heel grip. This adjustment phase creates the opening where their own leg becomes accessible for counter-entanglement. (Timing: Wait for commitment to heel hook)
-3. **Hip rotation**: Rotate your hips toward opponent's attacking leg while using your free leg to hook behind their knee. This creates the angle needed to enter inside ashi-garami configuration on their leg. (Timing: Immediately when window opens)
-4. **Establish inside position**: Thread your bottom leg between opponent's legs to establish the inside position fundamental to inside ashi-garami. Your knee should be positioned inside their thigh line with foot controlling their far hip. (Timing: Rapid sequential movement)
-5. **Control their leg**: Use your outside leg to cross over opponent's trapped leg, completing the inside ashi-garami configuration. Simultaneously use hands to control their heel area, preventing them from extracting their leg. (Timing: Secure before they can withdraw)
-6. **Establish heel grip**: Once entanglement is secure, work to establish your heel hook grip using standard inside heel hook mechanics. Cup their heel with your far hand while your near hand controls above the knee for finishing leverage. (Timing: After position is stabilized)
-7. **Finish or force release**: Apply rotational pressure to their heel while monitoring their grip on your leg. Either finish the submission or use the threat to force them to release your leg and address their own defense. (Timing: Controlled finishing pressure)
+1. **Protect heel**: Maintain strong dorsiflexion on trapped foot with toes pulled toward shin. Use both hands to frame against opponent's grip attempts while monitoring their upper body movement for grip adjustment windows.
+2. **Identify window**: Watch for opponent releasing their inside leg control or shifting hands to establish finishing heel grip. This adjustment phase creates the opening where their own leg becomes accessible for counter-entanglement.
+3. **Hip rotation**: Rotate your hips toward opponent's attacking leg while using your free leg to hook behind their knee. This creates the angle needed to enter inside ashi-garami configuration on their leg.
+4. **Establish inside position**: Thread your bottom leg between opponent's legs to establish the inside position fundamental to inside ashi-garami. Your knee should be positioned inside their thigh line with foot controlling their far hip.
+5. **Control their leg**: Use your outside leg to cross over opponent's trapped leg, completing the inside ashi-garami configuration. Simultaneously use hands to control their heel area, preventing them from extracting their leg.
+6. **Establish heel grip**: Once entanglement is secure, work to establish your heel hook grip using standard inside heel hook mechanics. Cup their heel with your far hand while your near hand controls above the knee for finishing leverage.
+7. **Finish or force release**: Apply rotational pressure to their heel while monitoring their grip on your leg. Either finish the submission or use the threat to force them to release your leg and address their own defense.
 
 
 </section>
@@ -261,19 +261,15 @@ The technique is particularly effective against opponents who over-commit to hee
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the counter entry mechanics with no resistance. Partner holds static ushiro position while you drill the hip rotation and inside ashi entry. Focus on maintaining heel protection throughout movement.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner slowly works toward heel hook while you identify the optimal counter timing window. Practice recognizing when their grip adjustments create openings. Partner provides feedback on timing accuracy.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Integrate counter with escape sequences. If counter fails, flow to turtle or deep half. If successful, practice inside heel hook finishing mechanics. Partner provides moderate resistance to test decision-making.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in positional sparring starting from ushiro ashi-garami. Partner attacks with full intent while you choose between escape, counter, or acceptance of position. Develop situational awareness for when counter is viable.
-(Resistance: Full)
 
 
 

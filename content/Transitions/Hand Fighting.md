@@ -157,7 +157,7 @@ The strategic value of hand fighting lies in its ability to buy time, drain oppo
 This defensive discipline requires patience, precise timing, and understanding of the opponent's attack patterns. The bottom player must balance defensive urgency with energy conservation, recognizing that panicked reactions accelerate exhaustion while methodical grip work can be sustained indefinitely. Advanced practitioners use hand fighting not just defensively but to manipulate opponent reactions, baiting submission attempts that create the positional openings needed for escape.
 
 **From Position**: [[Seat Belt Control Back/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This defensive discipline requires patience, precise timing, and understanding o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish neck protection**: Tuck chin tightly to chest, closing the space under your jaw. Bring both hands to your collar line with elbows tucked close to your ribs. This creates the defensive foundation that must be maintained throughout all subsequent movements. (Timing: Immediately upon recognizing back control)
-2. **Identify choking hand**: Through tactile feedback, locate opponent's over-shoulder arm which provides their primary choking threat. Feel whether their hand is near your neck, across your chest, or connected to their other hand in the seat belt configuration. (Timing: 1-2 seconds after establishing defense)
-3. **Secure two-on-one grip**: Bring both of your hands to opponent's choking wrist. Your same-side hand grabs their wrist while your opposite hand reinforces by gripping their forearm near the wrist. This two-on-one provides mechanical advantage over their single arm. (Timing: When opponent's choking hand is accessible)
-4. **Pull wrist toward hip**: Using your two-on-one grip, pull opponent's choking wrist down toward your far hip, away from your neck. Keep your elbows tight to your body and use your back muscles rather than just arm strength for this pulling motion. (Timing: Continuous pressure)
-5. **Create hip angle**: While maintaining wrist control, shrimp your hips away from opponent to create space between your back and their chest. This hip movement compounds the grip disruption by changing the angle of their seat belt configuration. (Timing: Coordinated with wrist pull)
-6. **Transition to escape**: With opponent's grip structure weakened and space created, continue hip movement to turn toward opponent for turtle position, or complete escape to guard. Maintain wrist control until positional improvement is secured. (Timing: When adequate space exists)
+1. **Establish neck protection**: Tuck chin tightly to chest, closing the space under your jaw. Bring both hands to your collar line with elbows tucked close to your ribs. This creates the defensive foundation that must be maintained throughout all subsequent movements.
+2. **Identify choking hand**: Through tactile feedback, locate opponent's over-shoulder arm which provides their primary choking threat. Feel whether their hand is near your neck, across your chest, or connected to their other hand in the seat belt configuration.
+3. **Secure two-on-one grip**: Bring both of your hands to opponent's choking wrist. Your same-side hand grabs their wrist while your opposite hand reinforces by gripping their forearm near the wrist. This two-on-one provides mechanical advantage over their single arm.
+4. **Pull wrist toward hip**: Using your two-on-one grip, pull opponent's choking wrist down toward your far hip, away from your neck. Keep your elbows tight to your body and use your back muscles rather than just arm strength for this pulling motion.
+5. **Create hip angle**: While maintaining wrist control, shrimp your hips away from opponent to create space between your back and their chest. This hip movement compounds the grip disruption by changing the angle of their seat belt configuration.
+6. **Transition to escape**: With opponent's grip structure weakened and space created, continue hip movement to turn toward opponent for turtle position, or complete escape to guard. Maintain wrist control until positional improvement is secured.
 
 
 </section>
@@ -252,19 +252,15 @@ This defensive discipline requires patience, precise timing, and understanding o
 ## Training Progressions
 **Week 1-2** - Grip identification and neck defense
 Practice identifying opponent's grip configuration through tactile feedback alone with eyes closed. Drill maintaining chin tuck and collar line defense while partner simulates seat belt control. Focus on remaining calm and controlled rather than attempting escapes.
-(Resistance: None)
 
 **Week 3-4** - Two-on-one wrist control
 Drill securing two-on-one grip on partner's choking wrist and pulling toward far hip. Partner provides light resistance but allows grip to be controlled. Focus on grip mechanics and pulling angles. Add coordination with basic hip shrimp movement.
-(Resistance: Light)
 
 **Week 5-6** - Grip breaking to escape sequences
 Combine hand fighting with full escape attempts. Practice the complete sequence from grip identification through two-on-one control to hip escape and turtle recovery. Partner provides realistic resistance and occasionally attacks submissions.
-(Resistance: Medium)
 
 **Week 7+** - Live application and reaction chains
 Full positional sparring from back control bottom. Apply hand fighting against actively attacking partner with full resistance. Work on timing grip attacks with partner's submission attempts and transitioning smoothly between defensive protocols and escape attempts.
-(Resistance: Full)
 
 
 

@@ -153,7 +153,7 @@ description: "Master the fundamental transition from side control to mount in BJ
 The transition to mount from side control represents one of the most fundamental and high-percentage positional advancements in Brazilian Jiu-Jitsu. This transition is the natural progression when an opponent's defensive frames are compromised or when they turn into you attempting to recover guard. The movement capitalizes on controlling the near side of the opponent's body while stepping over to establish the dominant mount position. Understanding this transition is critical for developing a systematic top game, as mount offers superior control and submission opportunities compared to side control. The technique relies on precise weight distribution, maintaining connection throughout the movement, and timing the transition when defensive frames collapse or opponent movement creates openings. This is a bread-and-butter technique that every practitioner from white belt to black belt uses regularly in training and competition. The transition can be executed with various grips and entry methods, but the fundamental mechanics remain consistent: control the near side, step the leg over, and establish mount with proper weight distribution.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -202,12 +202,12 @@ The transition to mount from side control represents one of the most fundamental
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant side control**: Begin from a tight side control position with heavy chest pressure on opponent's sternum, crossface controlling the head, and near-side underhook securing the arm. Your hips should be tight to opponent's side with knees providing mobile base. Ensure opponent cannot create frames or space before initiating the transition. (Timing: Take 2-3 seconds to consolidate control and feel opponent's defensive structure)
-2. **Isolate near-side arm**: Secure opponent's near-side arm by either maintaining the underhook deep, trapping it with your knee, or using a grip on their wrist or gi material. This arm must be neutralized as it's the primary defensive frame that can block your leg from stepping over. Your crossface should maintain constant pressure on opponent's far cheek, turning their head away. (Timing: Coordinate arm control with maintaining shoulder pressure)
-3. **Create angle and posting base**: Shift your hips slightly toward opponent's head while maintaining chest pressure, creating a 30-45 degree angle. Post your far-side hand on the mat near opponent's far hip or on their belt/gi for base and control. This posting hand will support your weight during the leg step-over and help control opponent's hip from escaping. (Timing: Movement should be smooth without releasing pressure)
-4. **Step near leg over**: Bring your near-side knee (the one closest to opponent's head) up and step it over opponent's body in a wide arc, clearing any defensive frames. Your knee should travel over their chest and land on the opposite side of their body, positioning for mount. Maintain heavy shoulder pressure throughout this movement to prevent them creating space or turning away. (Timing: Execute step-over when opponent is flat or turning into you, not when bridging)
-5. **Establish mount base**: As your first leg clears to the opposite side, immediately bring your second leg over, establishing mount position with both knees tight to opponent's sides. Your weight should be distributed forward with hips low and chest maintaining pressure on opponent's sternum. Knees should be pinched inward creating maximum control and preventing hip escape. (Timing: Quick transition of second leg prevents opponent establishing half guard)
-6. **Consolidate mount control**: Sit back slightly to distribute your weight across opponent's hips and lower chest, making it difficult for them to bridge or hip escape. Establish grips on opponent's collar, underhooks, or control their arms to prevent frames. Your posture should be upright but weight-forward, with knees tight and feet positioned to base against hip escape attempts. Assess opponent's defensive reactions and prepare for submission attacks or positional maintenance. (Timing: Take 1-2 seconds to settle weight and establish control before advancing)
+1. **Establish dominant side control**: Begin from a tight side control position with heavy chest pressure on opponent's sternum, crossface controlling the head, and near-side underhook securing the arm. Your hips should be tight to opponent's side with knees providing mobile base. Ensure opponent cannot create frames or space before initiating the transition.
+2. **Isolate near-side arm**: Secure opponent's near-side arm by either maintaining the underhook deep, trapping it with your knee, or using a grip on their wrist or gi material. This arm must be neutralized as it's the primary defensive frame that can block your leg from stepping over. Your crossface should maintain constant pressure on opponent's far cheek, turning their head away.
+3. **Create angle and posting base**: Shift your hips slightly toward opponent's head while maintaining chest pressure, creating a 30-45 degree angle. Post your far-side hand on the mat near opponent's far hip or on their belt/gi for base and control. This posting hand will support your weight during the leg step-over and help control opponent's hip from escaping.
+4. **Step near leg over**: Bring your near-side knee (the one closest to opponent's head) up and step it over opponent's body in a wide arc, clearing any defensive frames. Your knee should travel over their chest and land on the opposite side of their body, positioning for mount. Maintain heavy shoulder pressure throughout this movement to prevent them creating space or turning away.
+5. **Establish mount base**: As your first leg clears to the opposite side, immediately bring your second leg over, establishing mount position with both knees tight to opponent's sides. Your weight should be distributed forward with hips low and chest maintaining pressure on opponent's sternum. Knees should be pinched inward creating maximum control and preventing hip escape.
+6. **Consolidate mount control**: Sit back slightly to distribute your weight across opponent's hips and lower chest, making it difficult for them to bridge or hip escape. Establish grips on opponent's collar, underhooks, or control their arms to prevent frames. Your posture should be upright but weight-forward, with knees tight and feet positioned to base against hip escape attempts. Assess opponent's defensive reactions and prepare for submission attacks or positional maintenance.
 
 
 </section>
@@ -257,23 +257,18 @@ The transition to mount from side control represents one of the most fundamental
 ## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Basic step-over mechanics and maintaining pressure
 Practice the step-over motion from side control to mount with completely compliant partner offering zero resistance. Focus exclusively on maintaining chest pressure throughout the movement and proper knee positioning. Drill 20-30 repetitions per session, emphasizing smooth weight transfer and continuous connection. Partner should lie completely flat and relaxed.
-(Resistance: None)
 
 **Week 3-4: Arm Isolation Integration** - Adding near-side arm control to the movement pattern
 Begin incorporating proper arm isolation before stepping over. Partner remains mostly compliant but maintains realistic arm positioning (not helping or hindering). Practice recognizing when the near-side arm is properly controlled before initiating transition. Drill both underhook and wrist control variations. Add 15-20 repetitions per session with emphasis on checking arm control before each rep.
-(Resistance: Light)
 
 **Week 5-8: Timing Against Movement** - Recognizing optimal timing windows and opponent reactions
 Partner provides medium resistance by attempting realistic defensive frames and minor bridging. Practice timing the transition when opponent turns into you, when frames collapse, or when they attempt to recover guard. Begin recognizing and reacting to the bridge counter by basing out and waiting. Reduce repetitions to 10-15 per session but increase quality and timing precision. Add flow rolling rounds where you specifically hunt for mount transitions from side control.
-(Resistance: Medium)
 
 **Week 9-12: Problem Solving Against Resistance** - Troubleshooting common counters and maintaining position under pressure
 Partner provides full resistance attempting all common counters: bridging, turning away, framing, underhooking, and catching half guard. Practice your responses to each counter and develop the ability to chain transitions (mount to back, mount to knee-on-belly, mount back to side control). Emphasize maintaining dominant position rather than forcing failed transitions. Include positional sparring rounds starting from side control where only top player can score by achieving mount.
-(Resistance: Full)
 
 **Week 13+: Integration and Competition Application** - Seamless integration into live rolling and competition scenarios
 Apply the transition in regular sparring against various body types and skill levels. Work to recognize the optimal timing windows instinctively without conscious thought. Chain the mount transition with submission attacks (americana, armbar, ezekiel) to create dilemmas. Study video of your own rolling to identify missed opportunities for the transition. Compete in tournaments and analyze when you successfully achieved mount from side control versus when you missed the opportunity.
-(Resistance: Full)
 
 
 

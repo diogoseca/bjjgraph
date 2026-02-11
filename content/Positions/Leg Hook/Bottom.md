@@ -366,11 +366,11 @@ Isolate the old school sweep from leg hook position with partner providing gradu
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 15% |
-| Intermediate | 60% | 50% | 25% |
-| Advanced     | 75% | 65% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 58% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 30-90 seconds before transition or pass
 

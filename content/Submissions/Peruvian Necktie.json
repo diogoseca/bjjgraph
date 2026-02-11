@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Front Headlock",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Peruvian Necktie is a sophisticated blood choke that attacks the carotid arteries from a front headlock position, typically initiated when the opponent is in turtle or combat base. Unlike traditional guillotine variations, this submission utilizes a unique body positioning where the attacker threads their leg through the opponent's neck and arm configuration, creating a fulcrum that amplifies choking pressure. The technique derives its effectiveness from the combination of arm pressure across the neck and the leverage created by the attacker's bodyweight and leg position. This submission is particularly effective in scrambles and transitional situations where the opponent attempts to build back to their base from turtle. The Peruvian Necktie represents an advanced understanding of front headlock mechanics and requires precise timing and positioning. When executed correctly, it creates an inescapable choking mechanism that forces a rapid tap due to the simultaneous compression of both carotid arteries. The submission has gained prominence in modern no-gi grappling and MMA due to its effectiveness in dynamic situations and its relatively low energy cost compared to maintaining traditional control positions.",
   "safety_considerations": {
     "injury_risks": [
@@ -92,43 +87,37 @@
       "step_number": 1,
       "action": "Establish Front Headlock Control",
       "description": "From opponent's turtle or combat base, secure a tight front headlock with your choking arm wrapped around their neck. Your forearm should be positioned across the side of the neck targeting the carotid artery, not crushing the trachea. Your opposite hand controls their far shoulder or reaches under their body for additional control. Maintain heavy shoulder pressure driving down onto their neck to prevent them from standing or turning away.",
-      "timing": "Initial setup phase",
-      "pressure_level": "Moderate"
+      "timing": "Initial setup phase"
     },
     {
       "step_number": 2,
       "action": "Trap the Near Arm",
       "description": "As you maintain the front headlock, use your body position to trap the opponent's near arm (same side as your choking arm) against their own neck. This is accomplished by driving your chest and shoulder pressure down while keeping their arm pinned. The trapped arm becomes part of the choking mechanism and prevents defensive hand fighting. Ensure the arm is trapped high near their neck, not down by their torso, as this creates the proper angle for the leg thread.",
-      "timing": "Setup phase - 1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "Setup phase - 1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Thread Your Near Leg Through",
       "description": "This is the defining movement of the Peruvian Necktie. Take your near leg (same side as your choking arm) and thread it between the opponent's head and their trapped arm. Your shin should pass through this gap with your foot ending up near or past their far shoulder. This requires hip flexibility and precise body positioning. As you thread the leg, maintain constant pressure with your choking arm and keep your chest heavy on their upper back. The leg threading creates the mechanical advantage that makes this choke so powerful.",
-      "timing": "Critical transition - 2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "Critical transition - 2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Secure the Triangle Lock",
       "description": "Once your leg is threaded through, bring your far leg over your near leg's ankle to create a triangle lock similar to a front headlock triangle configuration. Your legs should be locked tightly, with your near leg's shin creating pressure across the back and side of the opponent's neck. Adjust your triangle lock so it's tight and high on their neck. Your hips should be close to their head, not extended away. This triangle configuration, combined with their trapped arm, creates the framework for the choke.",
-      "timing": "Lock-in phase - 1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "Lock-in phase - 1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Hip Rotation and Shoulder Drive",
       "description": "With the triangle locked, begin to rotate your hips away from the opponent while simultaneously driving your shoulder and choking arm down and across their neck. This hip rotation creates a scissoring effect with your legs that tightens the choke exponentially. Your body should be rotating perpendicular or slightly past perpendicular to the opponent's body. Continue to drive your shoulder pressure down to prevent them from posturing up. The combination of leg pressure, arm pressure, and hip rotation creates the choking mechanism.",
-      "timing": "Finishing sequence - 2-3 seconds",
-      "pressure_level": "Maximum"
+      "timing": "Finishing sequence - 2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Final Compression and Control",
       "description": "For the finish, squeeze your triangle lock tightly while pulling your choking arm toward your chest and continuing the hip rotation. Your near leg's shin should be driving into the side and back of their neck while your forearm applies pressure from the front and opposite side, creating bilateral carotid compression. Settle your bodyweight and maintain constant pressure rather than jerking or spiking. The opponent will tap quickly once the choke is fully locked. In training, apply pressure progressively over 3-5 seconds and release immediately upon tap signal.",
-      "timing": "Finish - 3-5 seconds in training",
-      "pressure_level": "Maximum"
+      "timing": "Finish - 3-5 seconds in training"
     }
   ],
   "opponent_defense_patterns": [
@@ -162,44 +151,37 @@
     {
       "error": "Applying the choke too quickly or jerking the neck",
       "consequence": "High risk of neck injury, trachea damage, or causing panic in training partner",
-      "correction": "Always apply progressive pressure over 3-5 seconds in training. Focus on body positioning and mechanical advantage rather than explosive force. Safety in training builds trust and allows for proper technical refinement.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply progressive pressure over 3-5 seconds in training. Focus on body positioning and mechanical advantage rather than explosive force. Safety in training builds trust and allows for proper technical refinement."
     },
     {
       "error": "Threading the leg too low on the opponent's back instead of through the gap near their neck",
       "consequence": "No choking pressure generated, opponent easily escapes, you're off-balance",
-      "correction": "Ensure your leg threads through the small gap between their head and trapped arm, with your shin ending up high across the back of their neck and shoulders, not down on their mid-back.",
-      "danger_level": "Low"
+      "correction": "Ensure your leg threads through the small gap between their head and trapped arm, with your shin ending up high across the back of their neck and shoulders, not down on their mid-back."
     },
     {
       "error": "Failing to trap the near arm securely before threading the leg",
       "consequence": "Opponent uses the free arm to defend, prevent the leg thread, or escape the position entirely",
-      "correction": "Use shoulder and chest pressure to pin the opponent's near arm against their own neck before attempting to thread your leg. The arm must be completely trapped and immobilized for the technique to work.",
-      "danger_level": "Medium"
+      "correction": "Use shoulder and chest pressure to pin the opponent's near arm against their own neck before attempting to thread your leg. The arm must be completely trapped and immobilized for the technique to work."
     },
     {
       "error": "Locking the triangle too loose or too far from the neck",
       "consequence": "No effective choking pressure, opponent easily escapes by pulling their head out",
-      "correction": "Lock your triangle high and tight on the neck, not on the shoulders or upper back. Your hips should be close to their head, creating a tight configuration. Adjust and re-adjust until the triangle feels locked solidly in place.",
-      "danger_level": "Low"
+      "correction": "Lock your triangle high and tight on the neck, not on the shoulders or upper back. Your hips should be close to their head, creating a tight configuration. Adjust and re-adjust until the triangle feels locked solidly in place."
     },
     {
       "error": "Forgetting to rotate the hips during the finishing sequence",
       "consequence": "Minimal choking pressure despite proper setup, opponent survives and escapes",
-      "correction": "Hip rotation is essential for finishing this choke. After locking the triangle, actively rotate your hips away from the opponent while driving your shoulder down. This scissoring motion creates the bilateral carotid compression needed to finish.",
-      "danger_level": "Low"
+      "correction": "Hip rotation is essential for finishing this choke. After locking the triangle, actively rotate your hips away from the opponent while driving your shoulder down. This scissoring motion creates the bilateral carotid compression needed to finish."
     },
     {
       "error": "Placing forearm directly on trachea instead of targeting carotid arteries",
       "consequence": "Causes pain and potential trachea injury but ineffective blood choke, opponent may not tap despite injury",
-      "correction": "Position your forearm across the side of the neck targeting the carotid artery, not crushing straight down on the trachea. This is a blood choke, not an air choke. Proper carotid compression causes rapid unconsciousness with less pain.",
-      "danger_level": "CRITICAL"
+      "correction": "Position your forearm across the side of the neck targeting the carotid artery, not crushing straight down on the trachea. This is a blood choke, not an air choke. Proper carotid compression causes rapid unconsciousness with less pain."
     },
     {
       "error": "Releasing pressure when opponent shows initial resistance or begins to roll",
       "consequence": "Opponent escapes a properly locked submission due to premature abandonment of the technique",
-      "correction": "Once the choke is locked, maintain constant pressure and follow the opponent's movement while keeping the submission intact. The Peruvian Necktie can be maintained through various opponent movements if you stay connected and adjust your body position.",
-      "danger_level": "Low"
+      "correction": "Once the choke is locked, maintain constant pressure and follow the opponent's movement while keeping the submission intact. The Peruvian Necktie can be maintained through various opponent movements if you stay connected and adjust your body position."
     }
   ],
   "variations_and_setups": [
@@ -286,50 +268,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "1-2 weeks",
-      "focus": "Learn proper front headlock control, arm trapping mechanics, and leg threading geometry without any submission pressure. Use cooperative drilling to understand body positioning and the spatial relationships required for the technique.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus on control and positioning only. No choking pressure applied. Partner provides complete cooperation to allow technical repetition. Discuss tap protocols and safety communication before drilling."
-    },
-    {
-      "phase": "Slow Technical Execution",
-      "timeframe": "2-3 weeks",
-      "focus": "Begin applying very light choking pressure using only leg position and body weight, not arm strength. Practice the full sequence from front headlock through leg thread, triangle lock, and hip rotation at slow speed with clear communication throughout.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Application time minimum 5-7 seconds from triangle lock to any pressure. Partner taps early at first sign of pressure to build safety habits. Verbal communication required throughout each repetition. Stop and reset if any positioning feels unsafe."
-    },
-    {
-      "phase": "Progressive Pressure Application",
-      "timeframe": "3-4 weeks",
-      "focus": "Increase pressure gradually while maintaining slow execution speed. Learn to recognize proper choking pressure versus trachea compression. Partner provides feedback about pressure location and intensity. Begin to understand the finish mechanics and body positioning that creates effective carotid compression.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Maintain 3-5 second minimum application time. Partner taps as soon as they feel bilateral carotid pressure, well before any discomfort or light-headedness. Discuss sensations after each repetition to ensure proper targeting. Never spike or jerk the submission."
-    },
-    {
-      "phase": "Positional Resistance Drilling",
-      "timeframe": "4-6 weeks",
-      "focus": "Partner provides resistance during setup phases (preventing leg thread, maintaining arm position, attempting to posture) but allows finish once submission is properly locked. Learn to maintain control during opponent movement and to recognize the point of no return where escape becomes impossible.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Clear communication about resistance versus finish phases. Once technique is locked, partner taps immediately rather than testing the finish. Practice tap recognition and immediate release protocols. Monitor partner for any signs of neck strain or discomfort."
-    },
-    {
-      "phase": "Live Situational Sparring",
-      "timeframe": "6-8 weeks after beginning progression",
-      "focus": "Apply technique during positional sparring from front headlock, turtle, or scrambles. Begin integrating into live rolling at appropriate moments. Develop timing, entries, and recognition of opportunity windows. Learn to chain with other front headlock attacks.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Competition-level intensity is still not appropriate for training. Maintain 2-3 second minimum application time even in live sparring. Both practitioners must have clear understanding of tap protocols. Never practice on unfamiliar partners without discussing safety first. Stop immediately if partner shows any unusual resistance or lack of response."
-    },
-    {
-      "phase": "Competition Application",
-      "timeframe": "3-6 months of consistent training",
-      "focus": "Apply technique in competition or competition-simulation training with appropriate intensity. Understand rule sets regarding neck cranks versus legal chokes. Recognize when to transition to other attacks if opportunity closes. Develop complete front headlock attack system with Peruvian Necktie as one option.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even in competition, apply progressive pressure and recognize taps immediately. Understand that referee stoppage may be required if opponent refuses to tap - this is the official's job, not yours. Release immediately at any tap signal or referee intervention. After competition matches, check in with opponent regarding safety and sportsmanship. Maintain reputation as safe training partner even in competitive contexts."
-    }
-  ],
   "from_positions": [
     "Front Headlock",
     "Turtle",
@@ -382,5 +320,6 @@
       "name": "Crucifix",
       "relationship": "Alternative control position when opponent defends front headlock attacks"
     }
-  ]
+  ],
+  "success_rate": 52
 }

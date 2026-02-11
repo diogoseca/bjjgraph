@@ -364,7 +364,7 @@ No-gi tactical development requires progressive drilling that builds from contro
 - [[Butterfly Guard]] (Position) - Dynamic guard system emphasizing underhook battles without gi
 - [[Deep Half Guard]] (Position) - No-gi guard variation using body positioning over fabric grips
 - [[Headquarters Position]] (Position) - Passing platform utilizing pressure and body weight control
-- [[D'arce Control]] (Position) - No-gi specific choke control from multiple positions
+- [[Darce Control]] (Position) - No-gi specific choke control from multiple positions
 - [[Guillotine Control]] (Position) - High-frequency submission threat in no-gi grappling
 - [[Snap Down to Front Headlock]] (Transition) - Essential entry to front headlock system from standing
 - [[Inside Ashi Entry]] (Transition) - Modern entry to leg entanglement systems

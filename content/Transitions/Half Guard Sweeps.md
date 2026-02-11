@@ -159,7 +159,7 @@ description: "Master Half Guard Sweeps in BJJ. Complete systematic approach from
 Half Guard Sweeps represent a comprehensive offensive system from the half guard bottom position, offering multiple pathways to reverse an opponent and achieve dominant top position. The half guard has evolved from a defensive position into one of the most dynamic attacking platforms in modern Brazilian Jiu-Jitsu. These sweeps exploit the inherent structural weaknesses created when an opponent attempts to pass or maintain control in half guard. The success of half guard sweeps relies on understanding weight distribution, creating angles, and manipulating the opponent's base through systematic off-balancing. Whether using the underhook series, lockdown mechanics, or deep half guard entries, practitioners must develop a layered approach that chains multiple sweep attempts together. The half guard sweep system is particularly effective because it allows the bottom player to control distance, manage frames, and create offensive opportunities even against larger, stronger opponents. Modern competition has demonstrated that a well-developed half guard sweep game can neutralize even the most aggressive passers and create consistent paths to dominant positions or back takes.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -209,13 +209,13 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish foundational half guard structure**: Begin in half guard bottom with one of opponent's legs trapped between yours. Secure an underhook on one side, driving your shoulder into their armpit while your other arm creates a frame against their opposite shoulder or neck. Your bottom leg should hook around their trapped leg while your top leg creates a knee shield or locks in lockdown position. Keep your hips mobile and angled, never flat on your back. (Timing: Establish immediately upon entering half guard)
-2. **Create angle and off-balance**: Use your underhook to come up onto your side, creating a 45-degree angle with your body. Simultaneously, use your frames and leg control to disrupt opponent's base. If they have weight forward, pull them; if they're posting back, drive into them. The goal is to make them react and expose sweeping opportunities. Your head should be positioned outside their trapped leg, never under their chest. (Timing: As soon as opponent attempts to establish passing pressure)
-3. **Execute primary sweep attempt**: Based on opponent's reaction, execute your primary sweep. For underhook sweep: drive your underhook arm upward and forward while using your leg hook to elevate their trapped leg, rolling them over your shoulder. For Old School sweep: thread your bottom leg over their back while maintaining underhook, then extend legs to sweep. For deep half entry: duck under their trapped leg and establish deep half guard position before sweeping. (Timing: Explosive execution as soon as off-balance is created)
-4. **Maintain sweep momentum**: As opponent begins to fall or react, maintain constant forward pressure and follow their movement. Your underhook should continue driving them in the direction of the sweep while your legs work to complete the reversal. Don't allow space between your bodies that would let them recover base. Your hips should be actively driving into them throughout the entire sweeping motion. (Timing: Continuous pressure throughout the sweep)
-5. **Complete the reversal**: As you come on top, maintain control of the leg that was trapped and establish grip control on their upper body. Your chest should press down onto them as you complete the sweep. Don't allow them to recover guard or reguard. Focus on establishing a strong base with your knees wide and your weight distributed properly to prevent immediate counter-attacks. (Timing: As you reach the top position)
-6. **Secure dominant position**: Immediately transition to a dominant position such as side control, mount, or knee on belly. If the sweep led to a scramble, work to establish back control or maintain top position. Control their hips with your hands or legs, and use your weight to prevent reguarding. Begin working toward positional advancement or submission opportunities from your newly established top position. (Timing: Within 2-3 seconds of completing the sweep)
-7. **Chain to back take or alternative if countered**: If opponent defends the initial sweep by posting or basing out, immediately transition to alternative attacks. Common options include: taking the back as they defend the sweep, transitioning to deep half guard, switching to opposite side sweep, or entering into a different guard system. The key is never stopping your offensive momentum even when the primary sweep is defended. (Timing: Immediate transition upon feeling sweep defense)
+1. **Establish foundational half guard structure**: Begin in half guard bottom with one of opponent's legs trapped between yours. Secure an underhook on one side, driving your shoulder into their armpit while your other arm creates a frame against their opposite shoulder or neck. Your bottom leg should hook around their trapped leg while your top leg creates a knee shield or locks in lockdown position. Keep your hips mobile and angled, never flat on your back.
+2. **Create angle and off-balance**: Use your underhook to come up onto your side, creating a 45-degree angle with your body. Simultaneously, use your frames and leg control to disrupt opponent's base. If they have weight forward, pull them; if they're posting back, drive into them. The goal is to make them react and expose sweeping opportunities. Your head should be positioned outside their trapped leg, never under their chest.
+3. **Execute primary sweep attempt**: Based on opponent's reaction, execute your primary sweep. For underhook sweep: drive your underhook arm upward and forward while using your leg hook to elevate their trapped leg, rolling them over your shoulder. For Old School sweep: thread your bottom leg over their back while maintaining underhook, then extend legs to sweep. For deep half entry: duck under their trapped leg and establish deep half guard position before sweeping.
+4. **Maintain sweep momentum**: As opponent begins to fall or react, maintain constant forward pressure and follow their movement. Your underhook should continue driving them in the direction of the sweep while your legs work to complete the reversal. Don't allow space between your bodies that would let them recover base. Your hips should be actively driving into them throughout the entire sweeping motion.
+5. **Complete the reversal**: As you come on top, maintain control of the leg that was trapped and establish grip control on their upper body. Your chest should press down onto them as you complete the sweep. Don't allow them to recover guard or reguard. Focus on establishing a strong base with your knees wide and your weight distributed properly to prevent immediate counter-attacks.
+6. **Secure dominant position**: Immediately transition to a dominant position such as side control, mount, or knee on belly. If the sweep led to a scramble, work to establish back control or maintain top position. Control their hips with your hands or legs, and use your weight to prevent reguarding. Begin working toward positional advancement or submission opportunities from your newly established top position.
+7. **Chain to back take or alternative if countered**: If opponent defends the initial sweep by posting or basing out, immediately transition to alternative attacks. Common options include: taking the back as they defend the sweep, transitioning to deep half guard, switching to opposite side sweep, or entering into a different guard system. The key is never stopping your offensive momentum even when the primary sweep is defended.
 
 
 </section>
@@ -265,27 +265,21 @@ Half Guard Sweeps represent a comprehensive offensive system from the half guard
 ## Training Progressions
 **Phase 1: Foundational Structure (Weeks 1-2)** - Establishing basic half guard structure and understanding positional requirements
 Begin with static position holds in half guard bottom. Practice securing underhook against compliant partner and maintaining frames. Work on coming to your side and creating proper angles without any sweeping attempts yet. Partner provides light pressure but doesn't actively pass. Focus on comfort in the position and ability to maintain structure for extended periods.
-(Resistance: None)
 
 **Phase 2: Introduction to Basic Sweeps (Weeks 3-4)** - Learning fundamental sweep mechanics with cooperative partner
 Introduce basic underhook sweep and Old School sweep against cooperative partner. Partner allows you to establish proper grips and positioning, then allows sweep to complete with minimal resistance. Emphasis on proper mechanics, timing of hip movement, and coordination of upper and lower body. Repeat each sweep 20-30 times per session to develop muscle memory.
-(Resistance: Light)
 
 **Phase 3: Sweep Combinations (Weeks 5-8)** - Chaining multiple sweep attempts and understanding reactions
 Partner now defends sweeps in predictable ways. Practice recognizing defense patterns and switching to appropriate counter-sweep. Example: when partner defends underhook sweep by posting, immediately attack with kimura or switch to opposite side sweep. Work on maintaining offensive pressure throughout failed attempts and developing flow between different sweep options.
-(Resistance: Medium)
 
 **Phase 4: Advanced Entries and Variations (Weeks 9-12)** - Deep half guard entries, lockdown mechanics, and specialized sweep systems
 Introduce deep half guard sweeps, lockdown-based sweeps (Electric Chair, Homer Simpson), and knee shield sweep variations. Practice transitioning between different half guard types based on opponent's reactions. Partner provides realistic passing attempts while you work to enter these positions and complete sweeps. Begin incorporating back take options when sweeps are defended.
-(Resistance: Medium)
 
 **Phase 5: Live Integration (Weeks 13-16)** - Full resistance application in positional sparring
 Begin rounds from half guard bottom with partner actively trying to pass. Your goal is to sweep or take the back. Partner's goal is to pass. If you sweep successfully, reset to half guard. If they pass, reset to half guard. This isolated drilling develops timing, recognition, and decision-making under pressure. Gradually increase round length from 2 minutes to 5 minutes.
-(Resistance: Full)
 
 **Phase 6: Competition Refinement (Week 17+)** - High-percentage sequences and strategic application
 Develop your personal high-percentage half guard sweep system based on body type, attributes, and preferences. Identify which sweeps work best for you and build backup options for when they're defended. Practice against various opponent sizes and styles. Incorporate half guard sweeps into full sparring, focusing on creating situations where you can enter half guard and attack. Video review and strategic planning become essential.
-(Resistance: Full)
 
 
 

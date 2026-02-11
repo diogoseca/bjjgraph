@@ -104,7 +104,7 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 30
+        "attempt_probability": 25
       },
       {
         "transition": "Counter Ashi Entry",
@@ -112,19 +112,23 @@
       },
       {
         "transition": "Guard Pass",
-        "attempt_probability": 20
-      },
-      {
-        "transition": "Front Headlock Series",
         "attempt_probability": 10
       },
       {
         "transition": "Guillotine Setup",
-        "attempt_probability": 8
+        "attempt_probability": 5
       },
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 12
+        "attempt_probability": 17
+      },
+      {
+        "transition": "Back Step Pass",
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Toe Hold",
+        "attempt_probability": 8
       }
     ],
     "decision_tree": [
@@ -311,21 +315,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Percentage of time top player successfully defends without being advanced up opponent's positional hierarchy"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Likelihood of successfully escaping leg entanglement entirely or advancing to offensive counter-position"
       },
       "submission_probability": {
-        "beginner": 10,
-        "intermediate": 20,
-        "advanced": 35,
+        "value": 28,
         "description": "Probability of achieving offensive submission such as guillotine or ankle lock from defensive Ashi position"
       },
       "average_time": "30-60 seconds before defensive resolution through escape, submission, or opponent advancement"
@@ -367,35 +365,35 @@
     "transitions": [
       {
         "transition": "Inside Ashi Entry",
-        "attempt_probability": 20
+        "attempt_probability": 34
       },
       {
         "transition": "Cross Ashi Transition",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Inside Ashi-Garami to Honey Hole",
         "attempt_probability": 10
       },
       {
         "transition": "Heel Hook",
-        "attempt_probability": 20
+        "attempt_probability": 10
       },
       {
         "transition": "Straight Ankle Lock",
-        "attempt_probability": 10
+        "attempt_probability": 18
       },
       {
-        "transition": "50-50 Entry from Standing",
-        "attempt_probability": 10
+        "transition": "50-50 Entry",
+        "attempt_probability": 8
       },
       {
-        "transition": "X-Guard to Ashi Transition",
+        "transition": "Toe Hold",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Kneebar Setup",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Outside Ashi Entry",
         "attempt_probability": 5
-      },
-      {
-        "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 10
       }
     ],
     "decision_tree": [
@@ -586,21 +584,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Percentage of time practitioner maintains Ashi Garami control without opponent escaping to standing or neutral"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Likelihood of advancing up positional hierarchy from current Ashi variation to more dominant position"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Probability of achieving submission directly from Ashi Garami through heel hooks or ankle locks"
       },
       "average_time": "45-90 seconds before position resolution through escape, submission, or hierarchy advancement"

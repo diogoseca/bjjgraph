@@ -157,7 +157,7 @@ Strategically, the Americana serves multiple purposes beyond the finish itself. 
 From a mechanical standpoint, the key to success lies in maintaining the 90-degree angle at the opponent's elbow while keeping their elbow close to and in front of their shoulder line. The rotation must occur at the shoulder joint through external rotation - never by pulling the wrist away from their body. Proper execution requires patience and progressive pressure rather than explosive force.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ From a mechanical standpoint, the key to success lies in maintaining the 90-degr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Side Control Foundation**: Secure dominant side control with your chest driving perpendicular across the opponent's sternum. Maintain heavy cross-face pressure with your shoulder into their jaw. Your hips should be low and tight against their body with approximately 70% of weight on their chest. (Timing: Maintain for 2-3 seconds to ensure stability before attacking)
-2. **Bait and Isolate the Near Arm**: Create a reaction by increasing pressure or threatening to advance to mount. When the opponent frames with their near arm pushing against your shoulder or hip, this is your opportunity. Slide your near-side hand underneath their elbow to begin the isolation process. (Timing: React immediately when their arm extends or moves into a vulnerable position)
-3. **Secure Figure-Four Grip Configuration**: Grip the opponent's wrist with your near-side hand using a palm-to-palm grip with your thumb on the back of their hand. Bring your far-side arm over their arm and grip your own wrist, creating the figure-four. Your forearm slides under their elbow, capturing it securely between your two arms. (Timing: Complete the grip connection within 1-2 seconds before they can withdraw)
-4. **Create the 90-Degree Configuration**: Walk your hands toward the opponent's head while maintaining the figure-four grip, bringing their elbow in line with their shoulder. Simultaneously keep their wrist pinned near their ribs. This creates the critical 90-degree angle between their upper arm and forearm with the elbow in front of the shoulder line. (Timing: Adjust position over 2-3 seconds while maintaining constant pressure)
-5. **Drive the Elbow to the Mat**: Use your figure-four grip to drive their elbow down toward the mat while keeping their wrist stationary. Keep your elbows tight to your body and use core strength rather than arm strength. The opponent's hand should be moving toward their own hip while their elbow stays near their shoulder. (Timing: Apply progressively over 2-3 seconds with controlled pressure)
-6. **Complete the Shoulder Lock Rotation**: Continue rotating the opponent's forearm toward their hip while keeping their elbow stationary near their shoulder. The external rotation occurs at the shoulder joint. Maintain steady progressive pressure - never jerk or spike. Keep chest pressure on their torso to prevent rolling with the lock. Stop immediately when they tap. (Timing: Apply final pressure over 3-5 seconds minimum in training, releasing instantly on tap)
+1. **Establish Side Control Foundation**: Secure dominant side control with your chest driving perpendicular across the opponent's sternum. Maintain heavy cross-face pressure with your shoulder into their jaw. Your hips should be low and tight against their body with approximately 70% of weight on their chest.
+2. **Bait and Isolate the Near Arm**: Create a reaction by increasing pressure or threatening to advance to mount. When the opponent frames with their near arm pushing against your shoulder or hip, this is your opportunity. Slide your near-side hand underneath their elbow to begin the isolation process.
+3. **Secure Figure-Four Grip Configuration**: Grip the opponent's wrist with your near-side hand using a palm-to-palm grip with your thumb on the back of their hand. Bring your far-side arm over their arm and grip your own wrist, creating the figure-four. Your forearm slides under their elbow, capturing it securely between your two arms.
+4. **Create the 90-Degree Configuration**: Walk your hands toward the opponent's head while maintaining the figure-four grip, bringing their elbow in line with their shoulder. Simultaneously keep their wrist pinned near their ribs. This creates the critical 90-degree angle between their upper arm and forearm with the elbow in front of the shoulder line.
+5. **Drive the Elbow to the Mat**: Use your figure-four grip to drive their elbow down toward the mat while keeping their wrist stationary. Keep your elbows tight to your body and use core strength rather than arm strength. The opponent's hand should be moving toward their own hip while their elbow stays near their shoulder.
+6. **Complete the Shoulder Lock Rotation**: Continue rotating the opponent's forearm toward their hip while keeping their elbow stationary near their shoulder. The external rotation occurs at the shoulder joint. Maintain steady progressive pressure - never jerk or spike. Keep chest pressure on their torso to prevent rolling with the lock. Stop immediately when they tap.
 
 
 </section>
@@ -257,23 +257,18 @@ From a mechanical standpoint, the key to success lies in maintaining the 90-degr
 ## Training Progressions
 **Week 1-2** - Side Control Foundation
 Master side control maintenance and weight distribution before attempting the submission. Practice establishing chest pressure, cross-face control, and hip control. Drill transitions into side control from guard passing. Learn to recognize when control is secure enough to attack.
-(Resistance: None)
 
 **Week 3-4** - Grip and Configuration
 Learn proper grips, arm isolation, and 90-degree configuration. Practice securing the figure-four grip and positioning the opponent's arm correctly. Drill the sequence from side control to grip establishment repeatedly. Focus on precise hand positioning and structural mechanics.
-(Resistance: None)
 
 **Week 5-8** - Light Pressure Introduction
 Begin applying light rotational pressure, stopping well before discomfort. Practice the full sequence from side control through submission setup to early finishing pressure. Emphasis on smooth, progressive application over 5-7 seconds minimum. Partner taps early to develop release habits.
-(Resistance: Light)
 
 **Week 9-12** - Defensive Responses
 Partner begins using realistic defensive movements - grabbing belt, straightening arm, attempting to roll. Practice maintaining control and adjusting technique against movement. Drill counters to common defenses. Continue emphasis on slow controlled application.
-(Resistance: Medium)
 
 **Week 13+** - Live Application
 Begin from side control against realistic resistance. Partner attempts genuine escapes and defenses. Practice recognizing opportunities and timing for the Americana attempt. Integrate with other submissions and position advances. Develop submission chains.
-(Resistance: Full)
 
 
 

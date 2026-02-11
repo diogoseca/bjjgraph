@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Neck Crank from Twister Control represents one of the most mechanically dangerous submissions in Brazilian Jiu-Jitsu, targeting the cervical spine through rotational and lateral pressure. Unlike blood chokes that create discomfort before danger, neck cranks can cause injury rapidly without adequate warning, making them highly effective in competition but requiring exceptional control in training.\n\nFrom Twister Control, the neck crank works by amplifying the existing spinal rotation already present in the position. The top player has already established significant torque through the opponent's spine by controlling the leg and upper body in opposing rotational directions. The neck crank adds direct cervical manipulation to this existing stress, targeting the small cervical vertebrae and surrounding musculature.\n\nStrategically, the neck crank serves multiple purposes within the Twister Control system. First, it provides an immediate threat that prevents opponents from simply weathering the position and waiting for escape opportunities. Second, the defensive reactions it creates - particularly tucking the chin and hand fighting - open opportunities for alternative attacks like guillotines and arm locks. Third, it accelerates the opponent's fatigue and psychological pressure, as defending neck attacks while breathing is restricted creates compounding stress.\n\nThe technique requires precise understanding of rotational mechanics. The finishing pressure should come from controlled body positioning and leverage rather than explosive jerking movements. The goal is to create irresistible pressure that forces the tap, not to cause injury through violent application. This distinction separates skilled practitioners from those who rely on aggression over technique.",
   "key_principles": [
     "Use existing spinal rotation from Twister Control as foundation for cervical manipulation",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Verify base control",
-      "description": "Confirm your leg control is secure and opponent cannot extract their trapped leg. The spinal rotation from Twister Control provides the foundation for cervical manipulation.",
-      "timing": "Before initiating neck attack"
+      "description": "Confirm your leg control is secure and opponent cannot extract their trapped leg. The spinal rotation from Twister Control provides the foundation for cervical manipulation."
     },
     {
       "step_number": 2,
       "action": "Secure head control",
-      "description": "Thread your arm around opponent's head, securing either their chin, jaw, or forehead. The exact grip depends on their defensive positioning and chin tuck.",
-      "timing": "Smoothly without telegraphing"
+      "description": "Thread your arm around opponent's head, securing either their chin, jaw, or forehead. The exact grip depends on their defensive positioning and chin tuck."
     },
     {
       "step_number": 3,
       "action": "Establish figure-four grip",
-      "description": "Connect your hands in a figure-four configuration behind opponent's head. Your forearm should press against the side of their skull while your other arm reinforces the grip.",
-      "timing": "While maintaining chest pressure"
+      "description": "Connect your hands in a figure-four configuration behind opponent's head. Your forearm should press against the side of their skull while your other arm reinforces the grip."
     },
     {
       "step_number": 4,
       "action": "Align your body",
-      "description": "Position your upper body perpendicular to opponent's spine. Your chest should drive into their upper back while your arms control their head position.",
-      "timing": "Incrementally while adjusting grips"
+      "description": "Position your upper body perpendicular to opponent's spine. Your chest should drive into their upper back while your arms control their head position."
     },
     {
       "step_number": 5,
       "action": "Create rotational pressure",
-      "description": "Using your connected arms and body position, begin rotating opponent's head in the opposite direction from their hips. This amplifies the existing spinal twist into the cervical region.",
-      "timing": "Gradually increasing pressure"
+      "description": "Using your connected arms and body position, begin rotating opponent's head in the opposite direction from their hips. This amplifies the existing spinal twist into the cervical region."
     },
     {
       "step_number": 6,
       "action": "Finish with controlled pressure",
-      "description": "Drive your shoulder forward while pulling with your arms to maximize cervical rotation. The pressure should be steady and controlled, not explosive. Release immediately upon tap.",
-      "timing": "Sustained pressure until tap"
+      "description": "Drive your shoulder forward while pulling with your arms to maximize cervical rotation. The pressure should be steady and controlled, not explosive. Release immediately upon tap."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics and safety",
-      "description": "Learn grip configurations and body positioning on cooperative partner. Emphasize controlled pressure application and tap recognition. No resistance - focus purely on technical understanding.",
-      "resistance_level": "None"
+      "description": "Learn grip configurations and body positioning on cooperative partner. Emphasize controlled pressure application and tap recognition. No resistance - focus purely on technical understanding."
     },
     {
       "phase": "Week 3-4",
       "focus": "Position maintenance",
-      "description": "Practice maintaining Twister Control while threatening neck attack. Partner provides light defense to chin and creates frames. Work on transitioning between neck threat and leg control maintenance.",
-      "resistance_level": "Light"
+      "description": "Practice maintaining Twister Control while threatening neck attack. Partner provides light defense to chin and creates frames. Work on transitioning between neck threat and leg control maintenance."
     },
     {
       "phase": "Week 5-6",
       "focus": "Defensive reactions",
-      "description": "Partner defends actively using chin tuck, hand fighting, and leg extraction attempts. Practice reading defensive reactions and transitioning to alternative attacks when appropriate.",
-      "resistance_level": "Medium"
+      "description": "Partner defends actively using chin tuck, hand fighting, and leg extraction attempts. Practice reading defensive reactions and transitioning to alternative attacks when appropriate."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition application",
-      "description": "Full resistance rolling with Twister Control entries. Apply neck crank attempts in live scenarios while maintaining safety awareness. Focus on timing windows and combination attacks.",
-      "resistance_level": "Full"
+      "description": "Full resistance rolling with Twister Control entries. Apply neck crank attempts in live scenarios while maintaining safety awareness. Focus on timing windows and combination attacks."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Neck Crank from Twister Control?",
-      "answer": "The primary goal is to force a submission through controlled rotational pressure on the cervical spine, amplifying the existing spinal twist already present in Twister Control to create unbearable pressure that compels the opponent to tap.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to force a submission through controlled rotational pressure on the cervical spine, amplifying the existing spinal twist already present in Twister Control to create unbearable pressure that compels the opponent to tap."
     },
     {
       "question": "What position do you start Neck Crank from?",
-      "answer": "This technique starts from Twister Control/Top, where you have already established significant spinal rotation through leg control and upper body positioning. The existing rotation provides the foundation for cervical manipulation.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Twister Control/Top, where you have already established significant spinal rotation through leg control and upper body positioning. The existing rotation provides the foundation for cervical manipulation."
     },
     {
       "question": "What are the key grips needed for Neck Crank?",
-      "answer": "The primary grip is a figure-four configuration behind the opponent's head, with one forearm pressing against the side of their skull while the other arm reinforces. You may control the chin, jaw, or forehead depending on opponent's defensive positioning.",
-      "difficulty": "Beginner"
+      "answer": "The primary grip is a figure-four configuration behind the opponent's head, with one forearm pressing against the side of their skull while the other arm reinforces. You may control the chin, jaw, or forehead depending on opponent's defensive positioning."
     },
     {
       "question": "How should you respond when opponent tucks their chin aggressively?",
-      "answer": "When opponent tucks their chin, transition to a guillotine attack by threading your arm under their chin, or work to pry the chin up using forearm pressure on their forehead. The chin tuck often exposes the neck from below for alternative chokes.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent tucks their chin, transition to a guillotine attack by threading your arm under their chin, or work to pry the chin up using forearm pressure on their forehead. The chin tuck often exposes the neck from below for alternative chokes."
     },
     {
       "question": "When is the best time to attempt Neck Crank from Twister Control?",
-      "answer": "The optimal timing is when leg control is secure and opponent has stopped actively defending the base position. Look for moments when they're focused on breathing or upper body defense while neglecting their lower body escape options.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when leg control is secure and opponent has stopped actively defending the base position. Look for moments when they're focused on breathing or upper body defense while neglecting their lower body escape options."
     },
     {
       "question": "Why is controlled pressure more important than explosive force in this submission?",
-      "answer": "Cervical spine injuries can develop faster than other joint submissions, often without adequate warning to the recipient. Controlled pressure gives your training partner time to recognize danger and tap safely, while explosive force risks causing injury before they can submit.",
-      "difficulty": "Intermediate"
+      "answer": "Cervical spine injuries can develop faster than other joint submissions, often without adequate warning to the recipient. Controlled pressure gives your training partner time to recognize danger and tap safely, while explosive force risks causing injury before they can submit."
     },
     {
       "question": "What should you prioritize if opponent starts extracting their trapped leg?",
-      "answer": "Abandon the neck attack immediately and reestablish leg control. The base spinal rotation from Twister Control is the foundation for all attacks - without it, the neck crank loses its mechanical advantage and the entire position is compromised.",
-      "difficulty": "Advanced"
+      "answer": "Abandon the neck attack immediately and reestablish leg control. The base spinal rotation from Twister Control is the foundation for all attacks - without it, the neck crank loses its mechanical advantage and the entire position is compromised."
     },
     {
       "question": "How does the neck crank create openings for alternative attacks?",
-      "answer": "Defensive reactions to the neck threat - particularly chin tucking and hand fighting - create opportunities for guillotines when the chin drops, arm attacks when hands leave defensive positions, and general positional advancement when opponent focuses entirely on neck defense.",
-      "difficulty": "Advanced"
+      "answer": "Defensive reactions to the neck threat - particularly chin tucking and hand fighting - create opportunities for guillotines when the chin drops, arm attacks when hands leave defensive positions, and general positional advancement when opponent focuses entirely on neck defense."
     }
   ],
   "safety_considerations": "CRITICAL SAFETY WARNING: Neck cranks target the cervical spine and can cause serious injury including vertebral damage, nerve injury, and muscle/ligament tears. Unlike joint locks where pain typically precedes injury, cervical damage can occur rapidly. NEVER apply explosive or jerking pressure. Always use controlled, steady force that allows training partners to tap safely. Release IMMEDIATELY upon any tap signal. Do not train this technique on resistant partners until you have developed precise control with cooperative drilling. Partners should tap early - cervical injuries are not worth positional pride. This technique is generally prohibited or heavily restricted in most gi competitions and some no-gi rule sets. Verify legality before attempting in competition. Avoid training this technique when fatigued as control precision decreases. If you or your partner experiences any neck pain, numbness, or tingling during or after training, seek medical evaluation immediately.",
@@ -256,5 +233,6 @@
       "name": "Can Opener",
       "relationship": "Similar mechanics - compression-based cervical attack"
     }
-  ]
+  ],
+  "success_rate": 58
 }

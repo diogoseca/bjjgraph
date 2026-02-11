@@ -165,7 +165,7 @@ description: "Learn Half Guard to Back Take in BJJ. Advanced transition from hal
 Half Guard to Back Take represents an advanced positional transition that transforms a defensive half guard position into the highly dominant back control. This transition is fundamental to modern half guard systems and represents one of the highest-percentage paths to dominance from bottom position. The technique relies on establishing an underhook, creating a perpendicular angle to the opponent, and systematically climbing to their back while they attempt to maintain top pressure. This transition is particularly effective because it exploits the opponent's forward pressure against them, using their own weight commitment to facilitate the back take. Mastery of this transition is essential for any serious half guard player and represents a key component of offensive half guard systems developed by experts like Bernardo Faria and Craig Jones.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 70%, Advanced 85%
+**Success Rate**: 78%
 
 </section>
 
@@ -214,14 +214,14 @@ Half Guard to Back Take represents an advanced positional transition that transf
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish underhook control**: From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder. (Timing: Establish during initial half guard engagement)
-2. **Create perpendicular angle**: Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock. (Timing: Execute as opponent drives forward pressure)
-3. **Block bottom hip**: As you create the angle, bring your top knee across to block opponent's bottom hip, preventing them from turning into you or recovering their base. This knee acts as a critical control point that maintains your perpendicular position. (Timing: Simultaneous with angle creation)
-4. **Release half guard lock**: Once your perpendicular angle is secure and hip is blocked, release your half guard leg lock. Your freed inside leg will be used to begin climbing to the back, starting with the bottom hook insertion. (Timing: Only after angle and hip block are secure)
-5. **Insert bottom hook**: Thread your inside leg (the one that was previously locking half guard) across opponent's bottom hip and insert it as your first back control hook. The hook should go deep, with your heel pulling into their hip crease while your knee drives into their thigh. (Timing: Immediately after releasing half guard)
-6. **Climb to back**: Using your underhook and bottom hook as anchors, elevate your hips and climb onto opponent's back. Your chest should make contact with their back, and your head should position behind their far shoulder. Maintain constant pressure to prevent them from turning into you. (Timing: Fluid motion following bottom hook insertion)
-7. **Insert top hook**: Once your body weight is on their back, insert your top leg as the second hook, threading it over their top hip and securing it deep. Both hooks should now be pulling their hips toward you while your chest drives into their back, creating the characteristic sandwich pressure of back control. (Timing: Within 1-2 seconds of climbing to back)
-8. **Establish final control**: Secure your preferred back control grip configuration (seatbelt, harness, or collar grips in gi). Ensure both hooks are deep, your chest is tight to their back, and your head is positioned defensively behind their shoulder to prevent them from rolling you off. (Timing: Immediately after second hook insertion)
+1. **Establish underhook control**: From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder.
+2. **Create perpendicular angle**: Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock.
+3. **Block bottom hip**: As you create the angle, bring your top knee across to block opponent's bottom hip, preventing them from turning into you or recovering their base. This knee acts as a critical control point that maintains your perpendicular position.
+4. **Release half guard lock**: Once your perpendicular angle is secure and hip is blocked, release your half guard leg lock. Your freed inside leg will be used to begin climbing to the back, starting with the bottom hook insertion.
+5. **Insert bottom hook**: Thread your inside leg (the one that was previously locking half guard) across opponent's bottom hip and insert it as your first back control hook. The hook should go deep, with your heel pulling into their hip crease while your knee drives into their thigh.
+6. **Climb to back**: Using your underhook and bottom hook as anchors, elevate your hips and climb onto opponent's back. Your chest should make contact with their back, and your head should position behind their far shoulder. Maintain constant pressure to prevent them from turning into you.
+7. **Insert top hook**: Once your body weight is on their back, insert your top leg as the second hook, threading it over their top hip and securing it deep. Both hooks should now be pulling their hips toward you while your chest drives into their back, creating the characteristic sandwich pressure of back control.
+8. **Establish final control**: Secure your preferred back control grip configuration (seatbelt, harness, or collar grips in gi). Ensure both hooks are deep, your chest is tight to their back, and your head is positioned defensively behind their shoulder to prevent them from rolling you off.
 
 
 </section>
@@ -268,27 +268,21 @@ Half Guard to Back Take represents an advanced positional transition that transf
 ## Training Progressions
 **Week 1-2: Underhook mechanics foundation** - Establishing and maintaining underhook control
 Partner remains relatively stationary in top half guard while you practice securing deep underhook, preventing crossface, and maintaining connection. Focus on grip strength and positional awareness without attempting full technique.
-(Resistance: None)
 
 **Week 3-4: Angle creation and hip blocking** - Creating perpendicular position and blocking bottom hip
 Partner provides light resistance, allowing you to practice rotating to perpendicular angle while maintaining underhook. Emphasize proper hip blocking with top knee and feeling the correct body alignment before proceeding.
-(Resistance: Light)
 
 **Week 5-6: Hook insertion mechanics** - Proper sequence of releasing guard and inserting hooks
 Practice full sequence with partner giving moderate resistance. Focus on timing of half guard release, bottom hook insertion, climb mechanics, and top hook insertion. Drill until movement becomes fluid and natural.
-(Resistance: Medium)
 
 **Week 7-8: Countering common defenses** - Dealing with crossface, base widening, and turn-ins
 Partner actively employs common defensive responses while you maintain technique execution. Learn to recognize and counter each defensive pattern while preserving your back take opportunity.
-(Resistance: Medium)
 
 **Week 9-12: Live positional sparring** - Executing technique against full resistance
 Start from bottom half guard position with partner using full defensive capabilities. Successfully complete back takes in positional rounds, gradually increasing round duration from 2 to 5 minutes.
-(Resistance: Full)
 
 **Week 13+: Integration and variation development** - Combining with other half guard attacks and developing personal variations
 Use technique seamlessly during regular rolling, chaining it with other half guard sweeps and submissions. Develop your own timing preferences and setups based on your body type and style.
-(Resistance: Full)
 
 
 

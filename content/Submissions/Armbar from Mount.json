@@ -14,11 +14,6 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Mount",
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Armbar from Mount represents one of the most fundamental and high-percentage finishing techniques in Brazilian Jiu-Jitsu, targeting the elbow joint through hyperextension. From the dominant mount position, this submission leverages superior positional control to isolate an opponent's arm and create mechanical advantage through hip extension. The mount-to-armbar transition is particularly effective because it capitalizes on the defensive frames opponents naturally create when attempting to escape mount, turning their defensive structure into offensive opportunities. This technique exemplifies the core BJJ principle of using an opponent's energy against them - as they push to create space, you redirect that energy to capture and extend their arm. The armbar from mount serves as a gateway submission that opens pathways to multiple other attacks including triangles, Americanas, and back takes, making it essential for developing a complete offensive game from top position.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,43 +83,37 @@
       "step_number": 1,
       "action": "Establish mount control and pressure",
       "description": "From mount, distribute your weight forward onto opponent's chest while keeping your base wide. Pin their shoulders to the mat and prevent bridging by keeping your hips low and chest heavy. This foundational control is critical before attempting any submission.",
-      "timing": "Establish solid control for 2-3 seconds before proceeding",
-      "pressure_level": "Firm"
+      "timing": "Establish solid control for 2-3 seconds before proceeding"
     },
     {
       "step_number": 2,
       "action": "Isolate the target arm",
       "description": "Identify which arm to attack - typically the arm opponent uses to frame against your chest. Use one hand to trap their wrist and your other hand to post on the mat near their head. If opponent has both arms tucked, use collar grips or head control to bait them into creating a frame, then immediately capture the extended arm.",
-      "timing": "1-2 seconds to identify and capture target arm",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds to identify and capture target arm"
     },
     {
       "step_number": 3,
       "action": "Secure two-on-one wrist control",
       "description": "Transition to gripping the captured wrist with both of your hands, ensuring the opponent's thumb is pointing upward (supinated position). Pull the wrist slightly toward you while keeping their elbow tight to your chest. This two-on-one control prevents the opponent from pulling their arm free during the transition.",
-      "timing": "1 second to establish double grip",
-      "pressure_level": "Firm"
+      "timing": "1 second to establish double grip"
     },
     {
       "step_number": 4,
       "action": "Shift angle and prepare leg position",
       "description": "While maintaining wrist control, shift your hips at a 45-degree angle toward the trapped arm side. Keep your weight heavy on their chest as you begin to bring your leg (on the same side as the trapped arm) up near their head. Your other leg remains posted wide for base during the transition.",
-      "timing": "2 seconds to shift hips and position leg",
-      "pressure_level": "Firm"
+      "timing": "2 seconds to shift hips and position leg"
     },
     {
       "step_number": 5,
       "action": "Swing leg over head and establish armbar position",
       "description": "In one smooth motion, swing your leg over opponent's head while keeping their arm pinned tight to your chest. Your leg should land across their face/neck area. Immediately bring your other leg over their torso, clamping both knees together. Keep your weight back and hips elevated off the mat while maintaining constant control of the wrist.",
-      "timing": "2-3 seconds for complete transition",
-      "pressure_level": "Maximum"
+      "timing": "2-3 seconds for complete transition"
     },
     {
       "step_number": 6,
       "action": "Final position adjustment and submission finish",
       "description": "Pinch your knees tightly together to control opponent's head and prevent them from turning into you. Keep their arm tight to your chest with thumb pointing up. Scoot your hips close to their shoulder to eliminate space. Squeeze your heels together and point your toes. To finish, slowly and progressively extend your hips upward while pulling their wrist down slightly toward your chest. The elbow should be directly over your hips as you create the hyperextension.",
-      "timing": "3-5 seconds progressive pressure to submission",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds progressive pressure to submission"
     }
   ],
   "opponent_defense_patterns": [
@@ -158,44 +147,37 @@
     {
       "error": "Releasing mount too early in the transition",
       "consequence": "Opponent escapes mount and may reverse position entirely, losing all positional advantage",
-      "correction": "Maintain heavy chest pressure and hip control throughout the initial transition. Only commit fully to the armbar once wrist control is completely secure. Keep one leg posted for base until the last moment of the leg swing.",
-      "danger_level": "Low"
+      "correction": "Maintain heavy chest pressure and hip control throughout the initial transition. Only commit fully to the armbar once wrist control is completely secure. Keep one leg posted for base until the last moment of the leg swing."
     },
     {
       "error": "Failing to control the wrist with both hands before leg swing",
       "consequence": "Opponent pulls arm free during transition, causing you to fall to your back in poor position",
-      "correction": "Always establish firm two-on-one wrist control before beginning the leg swing. Both hands should grip the wrist securely, with opponent's thumb pointing upward. Test the grip by attempting a small pull before committing to the transition.",
-      "danger_level": "Medium"
+      "correction": "Always establish firm two-on-one wrist control before beginning the leg swing. Both hands should grip the wrist securely, with opponent's thumb pointing upward. Test the grip by attempting a small pull before committing to the transition."
     },
     {
       "error": "Laying flat on back instead of keeping hips elevated",
       "consequence": "Reduces pressure on elbow joint and allows opponent to stack or escape more easily",
-      "correction": "Keep your hips elevated off the mat throughout the finish. Your shoulder blades should touch the mat but your lower back should be arched. This creates maximum extension force through the hip thrust.",
-      "danger_level": "Low"
+      "correction": "Keep your hips elevated off the mat throughout the finish. Your shoulder blades should touch the mat but your lower back should be arched. This creates maximum extension force through the hip thrust."
     },
     {
       "error": "Allowing space between opponent's arm and your chest",
       "consequence": "Opponent can hitchhiker escape by pulling elbow across your body",
-      "correction": "Squeeze opponent's wrist tight to your chest throughout the entire technique. Their tricep should be pressed against your chest/sternum with no gap. Think of hugging their arm as if it were precious.",
-      "danger_level": "Medium"
+      "correction": "Squeeze opponent's wrist tight to your chest throughout the entire technique. Their tricep should be pressed against your chest/sternum with no gap. Think of hugging their arm as if it were precious."
     },
     {
       "error": "Jerking or spiking the armbar suddenly",
       "consequence": "CRITICAL INJURY RISK - Can cause immediate elbow dislocation or ligament rupture requiring surgery",
-      "correction": "ALWAYS apply progressive pressure over 3-5 seconds minimum in training. Extend hips smoothly and steadily. In competition, faster application is acceptable, but in training this is the most common cause of serious elbow injuries. Respect your training partners' safety.",
-      "danger_level": "CRITICAL"
+      "correction": "ALWAYS apply progressive pressure over 3-5 seconds minimum in training. Extend hips smoothly and steadily. In competition, faster application is acceptable, but in training this is the most common cause of serious elbow injuries. Respect your training partners' safety."
     },
     {
       "error": "Failing to control opponent's head with knees",
       "consequence": "Opponent turns into you and escapes the submission easily",
-      "correction": "Actively squeeze your knees together throughout the finish, clamping opponent's head. This prevents rotation and maintains optimal arm angle. Your knees should be touching or very close to touching.",
-      "danger_level": "Medium"
+      "correction": "Actively squeeze your knees together throughout the finish, clamping opponent's head. This prevents rotation and maintains optimal arm angle. Your knees should be touching or very close to touching."
     },
     {
       "error": "Crossing feet during the finish",
       "consequence": "Weakens leg control and creates gap for opponent to escape",
-      "correction": "Never cross your feet behind opponent's back. Instead, point your toes and squeeze your heels together. This creates stronger clamping pressure and maintains tighter control. Your legs should form a triangle shape, not crossed ankles.",
-      "danger_level": "Low"
+      "correction": "Never cross your feet behind opponent's back. Instead, point your toes and squeeze your heels together. This creates stronger clamping pressure and maintains tighter control. Your legs should form a triangle shape, not crossed ankles."
     }
   ],
   "variations_and_setups": [
@@ -282,50 +264,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "First 2 weeks of learning",
-      "focus": "Learn proper body positioning, grip placement, and transition mechanics without resistance. Partner remains completely passive. Focus on smooth transitions from mount to armbar position. Emphasis on controlling wrist before leg swing.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Understand tap signals and immediate release protocol. Never apply any finishing pressure - simply achieve position and reset. Learn to recognize proper joint alignment and what 'ready to finish' feels like without actually finishing."
-    },
-    {
-      "phase": "Slow Practice with Communication (Weeks 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Execute complete technique with partner providing gentle defensive frames but no active escape attempts. Practice maintaining control points throughout transition. Begin applying light finishing pressure (5-10% maximum force) to understand the submission mechanics. Constant verbal communication about pressure levels.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Introduce ultra-slow finishing mechanics (5-7 seconds minimum). Partner taps at first sign of pressure to elbow joint. Emphasize immediate release protocol. Practice should feel completely safe and controlled - never rushed."
-    },
-    {
-      "phase": "Position Drilling (Weeks 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Repetitions of the mount-to-armbar transition with increasing speed but still cooperative resistance. Chain armbar attempts with returns to mount. Begin recognizing which defensive frames create the best armbar opportunities. Start drilling from failed positions (what to do when they escape initial setup).",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner defends the transition but not the finish. Increase finishing pressure to 30-40% maximum, maintaining 3-5 second application time. Focus on reading partner's tap timing and always releasing immediately."
-    },
-    {
-      "phase": "Live Situational (Weeks 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Start from mount against active resistance. Partner attempts realistic escapes while you hunt for armbars. Practice the full sequence including grip fighting, base maintenance, and commitment to finish. Begin recognizing the right moment to attack vs when to maintain mount.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners agree on resistance level before starting. Maintain 3-5 second finishing time even against resistance. If technique fails, release immediately and restart from mount rather than cranking desperately. Winning the position is less important than maintaining safety."
-    },
-    {
-      "phase": "Competition Integration (Weeks 13+)",
-      "timeframe": "After 13+ weeks",
-      "focus": "Integrate armbar into full sparring rounds from any position. Chain with other mount attacks (americana, triangle, back take). Develop ability to recognize armbar opportunities in real time. Practice the technique at higher speeds appropriate for competition while maintaining control.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "In training: maintain 3-5 second application even at higher speeds. In competition: faster application is acceptable but never jerking or spiking. Always respect immediate tap even in competition. Injury to training partner is never acceptable regardless of who initiated the technique."
-    },
-    {
-      "phase": "Ongoing Refinement",
-      "timeframe": "Continuous",
-      "focus": "Continue drilling technique monthly to maintain sharpness. Explore advanced variations (gift wrap, S-mount, technical mount). Study high-level competition footage. Develop counter-game against common defenses. Teach the technique to lower belts to deepen understanding.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "As you advance, responsibility to protect partners increases. More experienced practitioners should apply techniques even slower and more controlled on newer students. Use armbar mastery to develop control and timing, not to hurt people. The goal is technical excellence, not injury count."
-    }
-  ],
   "from_positions": [
     "Mount",
     "High Mount",
@@ -389,5 +327,6 @@
       "name": "Back Control",
       "relationship": "Alternative position when opponent turns during armbar"
     }
-  ]
+  ],
+  "success_rate": 68
 }

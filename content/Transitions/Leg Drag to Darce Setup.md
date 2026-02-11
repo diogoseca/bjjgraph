@@ -17,7 +17,7 @@ description: "Master the Leg Drag to Darce Setup transition. Step-by-step execut
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Leg Drag to Darce Setup in BJJ",
-  "description": "Step-by-step guide for Leg Drag to Darce Setup from Leg Drag Control/Top. Possible outcomes: D'arce Control (55%), Front Headlock (10%), Leg Drag Control (25%), Turtle (10%).",
+  "description": "Step-by-step guide for Leg Drag to Darce Setup from Leg Drag Control/Top. Possible outcomes: Darce Control (55%), Front Headlock (10%), Leg Drag Control (25%), Turtle (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -157,7 +157,7 @@ The mechanics of this transition rely on timing and angle recognition. As the op
 Strategically, this technique transforms what many consider a neutral exchange (opponent escaping to turtle) into an offensive opportunity. High-level competitors often bait the turtle escape from leg drag specifically to attack this sequence. The Darce setup from leg drag is particularly effective because the opponent's defensive movement generates the momentum you need to sink the arm through. Understanding this transition changes how you view leg drag control—it becomes not just a passing position but a launching pad for high-percentage submission attacks.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -167,7 +167,7 @@ Strategically, this technique transforms what many consider a neutral exchange (
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[D'arce Control]] | 55% |
+| Success | [[Darce Control]] | 55% |
 | Success | [[Front Headlock]] | 10% |
 | Failure | [[Leg Drag Control]] | 25% |
 | Counter | [[Turtle]] | 10% |
@@ -207,12 +207,12 @@ Strategically, this technique transforms what many consider a neutral exchange (
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the trigger**: As you maintain leg drag control, watch for the opponent beginning to turn away toward turtle. Their weight shift, arm posting, and hip rotation signal the Darce opportunity is opening. (Timing: Immediately as opponent begins turning away)
-2. **Release shoulder control**: Release your crossface or shoulder control hand and immediately shoot it toward the opponent's far armpit. Your arm travels under their near armpit in a threading motion, palm facing up initially. (Timing: Within one second of opponent's rotation starting)
-3. **Thread the choking arm**: Drive your arm deep under their armpit, across the back of their neck, aiming to connect your hand to their far shoulder or trap. Your bicep should contact the side of their neck as you thread through. (Timing: Continuous motion following step 2)
-4. **Secure the grip**: Once your choking arm clears their neck, grab your own bicep with your threading hand (Darce grip). Your non-choking hand then slides behind their head, completing the figure-four configuration around neck and arm. (Timing: Immediately upon arm clearing the neck)
-5. **Control the hips**: Maintain pressure on their near hip with your chest and use your legs to sprawl or hook their hips, preventing them from rolling through or recovering guard. Your body weight drops onto their shoulder girdle. (Timing: Simultaneous with grip establishment)
-6. **Establish finishing position**: Walk your hips toward their head while keeping tight pressure. Transition to the perpendicular angle necessary for Darce Control, with your chest driving into their trapped shoulder and your hips blocking their escape routes. (Timing: 2-3 seconds after grip is secured)
+1. **Recognize the trigger**: As you maintain leg drag control, watch for the opponent beginning to turn away toward turtle. Their weight shift, arm posting, and hip rotation signal the Darce opportunity is opening.
+2. **Release shoulder control**: Release your crossface or shoulder control hand and immediately shoot it toward the opponent's far armpit. Your arm travels under their near armpit in a threading motion, palm facing up initially.
+3. **Thread the choking arm**: Drive your arm deep under their armpit, across the back of their neck, aiming to connect your hand to their far shoulder or trap. Your bicep should contact the side of their neck as you thread through.
+4. **Secure the grip**: Once your choking arm clears their neck, grab your own bicep with your threading hand (Darce grip). Your non-choking hand then slides behind their head, completing the figure-four configuration around neck and arm.
+5. **Control the hips**: Maintain pressure on their near hip with your chest and use your legs to sprawl or hook their hips, preventing them from rolling through or recovering guard. Your body weight drops onto their shoulder girdle.
+6. **Establish finishing position**: Walk your hips toward their head while keeping tight pressure. Transition to the perpendicular angle necessary for Darce Control, with your chest driving into their trapped shoulder and your hips blocking their escape routes.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, this technique transforms what many consider a neutral exchange (
 ## Training Progressions
 **Week 1-2** - Arm threading mechanics
 Partner holds static turtle position. Practice threading arm smoothly under armpit and around neck, focusing on depth and palm orientation. Drill grip connection without resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing the transition
 Partner starts in leg drag bottom and rolls to turtle at varying speeds. Practice recognizing the trigger and initiating the arm thread during their movement, not after they settle.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively defends by keeping elbow tight, flattening, or attempting to roll through. Develop ability to read which counter is coming and adjust attack or transition accordingly.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate into full sparring from leg drag positions. Focus on creating the turtle reaction through pressure and timing the Darce entry against fully resisting opponents.
-(Resistance: Full)
 
 
 
@@ -344,7 +340,7 @@ The Leg Drag to Darce Setup occupies a crucial junction in the leg drag passing 
 ## Related Techniques
 
 - [[Leg Drag Control]] - Starting position
-- [[D'arce Control]] - Primary success outcome
+- [[Darce Control]] - Primary success outcome
 - [[Darce Choke]] - Finishing submission from setup
 - [[Front Headlock]] - Alternative control when Darce is shallow
 - [[Anaconda Choke]] - Alternative submission when elbow is tight

@@ -326,21 +326,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Ability to maintain standing back control without opponent escaping"
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of successfully transitioning to submission or more dominant position"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Probability of finishing submission directly from standing back control"
       },
       "average_time": "20-45 seconds (typically transitions to ground or submission quickly)"
@@ -348,27 +342,19 @@
     "transitions": [
       {
         "transition": "Rear Naked Choke",
-        "attempt_probability": 14
+        "attempt_probability": 18
       },
       {
         "transition": "Takedown to Grounded Back Control",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Bow and Arrow Choke",
-        "attempt_probability": 12
+        "attempt_probability": 18
       },
       {
         "transition": "Body Triangle Lock",
-        "attempt_probability": 13
+        "attempt_probability": 14
       },
       {
         "transition": "Armbar from Back Transition",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Mat Return to Back Mount",
-        "attempt_probability": 14
+        "attempt_probability": 7
       },
       {
         "transition": "Crucifix Transition",
@@ -376,7 +362,15 @@
       },
       {
         "transition": "Truck Position Entry",
-        "attempt_probability": 11
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Snap Down to Front Headlock",
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Follow to Back Control",
+        "attempt_probability": 12
       }
     ]
   },
@@ -633,21 +627,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40,
+        "value": 32,
         "description": "Ability to maintain this defensive position without being submitted or taken to worse position"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Probability of successfully escaping to neutral or better defensive position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 5,
-        "advanced": 5,
+        "value": 5,
         "description": "Probability of submitting opponent from this defensive position (extremely low)"
       },
       "average_time": "10-30 seconds (should be escaped quickly or becomes grounded back control)"
@@ -655,23 +643,19 @@
     "transitions": [
       {
         "transition": "Hip Escape to Turtle",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Technical Standup",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Rolling to Guard",
         "attempt_probability": 13
       },
       {
-        "transition": "Granby Roll",
-        "attempt_probability": 11
+        "transition": "Technical Standup",
+        "attempt_probability": 10
       },
       {
-        "transition": "Standing up in Base",
+        "transition": "Rolling to Guard",
         "attempt_probability": 10
+      },
+      {
+        "transition": "Granby Roll",
+        "attempt_probability": 5
       },
       {
         "transition": "Grip Break and Face",
@@ -679,11 +663,15 @@
       },
       {
         "transition": "Controlled Descent",
-        "attempt_probability": 17
+        "attempt_probability": 30
       },
       {
         "transition": "Explosive Forward Roll",
-        "attempt_probability": 11
+        "attempt_probability": 6
+      },
+      {
+        "transition": "Turn In and Face",
+        "attempt_probability": 14
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
-  "name": "D'arce Control",
+  "name": "Darce Control",
   "slug": "darce-control",
-  "description": "Master D'arce Control position in BJJ. Dominant front headlock variant with 70% submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies for both offensive and defensive scenarios.",
+  "description": "Master Darce Control position in BJJ. Dominant front headlock variant with 70% submission rate. Learn entries, arm triangle mechanics, transition chains, and defensive strategies for both offensive and defensive scenarios.",
   "variant_uniqueness": "Arm-in choke trades mobility for submission threat",
-  "overview": "D'arce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.\n\nD'arce Control serves as both a submission position and a controlling platform for advancing position. It is most commonly entered from turtle, front headlock, failed single leg attempts, or scrambles where the opponent's posture is compromised. The position creates an immediate submission threat while maintaining strong control over the opponent's upper body, making it difficult for them to escape or counter. Advanced practitioners use D'arce Control as a hub position, flowing between submission attempts and positional advances.\n\nThe effectiveness of D'arce Control lies in its ability to create multiple dilemmas for the opponent. Defensive movements that alleviate neck pressure often expose the back or create opportunities for positional advancement, while attempts to improve position typically tighten the choking mechanism. This makes D'arce Control particularly valuable in both gi and no-gi grappling, though it sees more frequent application in no-gi contexts where the absence of collar grips makes front headlock positions especially potent. From the bottom perspective, escaping D'arce Control requires immediate recognition, systematic defensive sequences, and precise timing to prevent submission while recovering to safer positions.",
+  "overview": "Darce Control is a highly effective front headlock variation where the attacking practitioner secures a figure-four grip around the opponent's neck and shoulder, creating intense pressure on the carotid arteries. Named after its popularizer Joe D'Arce, this position combines elements of the arm triangle and anaconda choke, offering both submission threat and positional dominance. The position is characterized by the attacker threading their arm under the opponent's near armpit, across the back of their neck, and catching their own bicep with the opposite hand to complete the choke.\n\nDarce Control serves as both a submission position and a controlling platform for advancing position. It is most commonly entered from turtle, front headlock, failed single leg attempts, or scrambles where the opponent's posture is compromised. The position creates an immediate submission threat while maintaining strong control over the opponent's upper body, making it difficult for them to escape or counter. Advanced practitioners use Darce Control as a hub position, flowing between submission attempts and positional advances.\n\nThe effectiveness of Darce Control lies in its ability to create multiple dilemmas for the opponent. Defensive movements that alleviate neck pressure often expose the back or create opportunities for positional advancement, while attempts to improve position typically tighten the choking mechanism. This makes Darce Control particularly valuable in both gi and no-gi grappling, though it sees more frequent application in no-gi contexts where the absence of collar grips makes front headlock positions especially potent. From the bottom perspective, escaping Darce Control requires immediate recognition, systematic defensive sequences, and precise timing to prevent submission while recovering to safer positions.",
   "key_principles": [
     "Thread the darce arm deep under the armpit reaching across the back of the neck as far as possible to maximize choking surface",
     "Complete the figure-four grip with elbows pinched tightly together eliminating gaps that would allow escape",
@@ -47,8 +47,8 @@
     }
   ],
   "top": {
-    "name": "D'arce Control Top",
-    "description": "Master D'arce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
+    "name": "Darce Control Top",
+    "description": "Master Darce Control Top in BJJ. Dominant front headlock variation with 70% submission rate. Learn control mechanics, finishing sequences, and competition-proven strategies.",
     "tags": [
       "bjj",
       "position",
@@ -58,7 +58,7 @@
       "offensive",
       "choke-control"
     ],
-    "overview": "D'arce Control Top represents one of the highest-percentage submission positions in modern Brazilian Jiu-Jitsu, functioning as both a controlling position and a direct pathway to match-ending chokes. The position is characterized by the top practitioner establishing a deep darce grip (also called the brabo choke configuration) around the opponent's head and trapped arm while maintaining superior position from the top. This configuration creates immediate submission pressure while simultaneously controlling the opponent's movement and posture.\n\nThe D'arce Control Top position emerged from wrestling's front headlock series and was refined through no-gi grappling competition. It represents the perfect intersection of control and submission threat, where the grip itself creates constant pressure that degrades the opponent's defensive capabilities over time. The position is particularly effective because it forces opponents into a defensive shell while the top player maintains multiple finishing options and positional advances.\n\nFrom a strategic perspective, D'arce Control Top exemplifies the modern submission-hunting approach where positions blur the line between control and finish. The grip configuration allows for immediate submission attempts while maintaining the option to transition to mount, back control, or other dominant positions if the choke is defended. This versatility makes it one of the most feared positions in contemporary BJJ competition.",
+    "overview": "Darce Control Top represents one of the highest-percentage submission positions in modern Brazilian Jiu-Jitsu, functioning as both a controlling position and a direct pathway to match-ending chokes. The position is characterized by the top practitioner establishing a deep darce grip (also called the brabo choke configuration) around the opponent's head and trapped arm while maintaining superior position from the top. This configuration creates immediate submission pressure while simultaneously controlling the opponent's movement and posture.\n\nThe Darce Control Top position emerged from wrestling's front headlock series and was refined through no-gi grappling competition. It represents the perfect intersection of control and submission threat, where the grip itself creates constant pressure that degrades the opponent's defensive capabilities over time. The position is particularly effective because it forces opponents into a defensive shell while the top player maintains multiple finishing options and positional advances.\n\nFrom a strategic perspective, Darce Control Top exemplifies the modern submission-hunting approach where positions blur the line between control and finish. The grip configuration allows for immediate submission attempts while maintaining the option to transition to mount, back control, or other dominant positions if the choke is defended. This versatility makes it one of the most feared positions in contemporary BJJ competition.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -185,7 +185,7 @@
     ],
     "related_content": [
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Hub position - both perspectives"
       },
       {
@@ -219,26 +219,20 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 75,
-        "advanced": 85
+        "value": 80
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 80
+        "value": 75
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "average_time": "45-90 seconds"
     },
     "transitions": [
       {
         "transition": "Darce Choke",
-        "attempt_probability": 25
+        "attempt_probability": 26
       },
       {
         "transition": "Side Control to Mount",
@@ -250,7 +244,7 @@
       },
       {
         "transition": "Anaconda from Turtle",
-        "attempt_probability": 15
+        "attempt_probability": 14
       },
       {
         "transition": "Side Control to North-South",
@@ -259,11 +253,11 @@
     ],
     "knowledge_assessment": [
       {
-        "question": "What adjustment should you make when your opponent starts turning their shoulders toward you while you have D'arce control?",
+        "question": "What adjustment should you make when your opponent starts turning their shoulders toward you while you have Darce control?",
         "answer": "When the opponent begins turning their shoulders toward you, immediately sprawl your hips back and increase shoulder pressure into the side of their head to prevent the turn from completing. If they continue turning, transition to mount by stepping your leg over their body or take the back if they fully commit to the turn. Never allow them to establish inside position by getting their chest to face yours, as this compromises the arm-in choke structure."
       },
       {
-        "question": "What are the essential grip configurations for maintaining D'arce control position?",
+        "question": "What are the essential grip configurations for maintaining Darce control position?",
         "answer": "The primary grip is a figure-four lock where your choking arm threads under opponent's armpit, around their neck, and your hand grabs your own bicep while your free hand controls opponent's shoulder or head. Alternative grips include gable grip (palm-to-palm) for maximum squeezing power and S-grip for faster transitions. The key is keeping elbows pinched tight to eliminate any gaps that would allow arm extraction."
       },
       {
@@ -271,7 +265,7 @@
         "answer": "When the opponent establishes a strong defensive shell with chin tucked and elbows tight, you have two high-percentage options: transition to mount by driving your hips around and stepping over, using their defensive posture against them since they cannot frame effectively; or advance to north-south to establish new attacking angles. Trying to force the choke against a committed chin tuck wastes energy and time - positional advancement creates new opportunities."
       },
       {
-        "question": "How should your weight be distributed to maintain D'arce control position effectively?",
+        "question": "How should your weight be distributed to maintain Darce control position effectively?",
         "answer": "Weight should be distributed primarily through your shoulder and chest driving into the side of opponent's head and trapped shoulder, creating a wedge effect. Your hips stay mobile and positioned perpendicular to opponent's spine rather than directly on top of them. Approximately 70% of your weight should be on the choking side through shoulder pressure, with 30% distributed through your base leg and posting arm for mobility and adjustment capability."
       },
       {
@@ -279,7 +273,7 @@
         "answer": "The primary escape is arm extraction where the opponent works to pull their trapped arm free from the choke configuration. Shut this down by maintaining constant inward pressure with your choking arm's bicep against their neck, keeping your elbow past their spine with your hand reaching toward their far hip. If they begin extracting, immediately drive your shoulder deeper and increase chest pressure to eliminate the space they need to complete the extraction."
       },
       {
-        "question": "How do you apply shoulder pressure correctly from D'arce control top?",
+        "question": "How do you apply shoulder pressure correctly from Darce control top?",
         "answer": "Correct shoulder pressure comes from driving your shoulder blade into the side of opponent's head and neck while keeping your head down next to theirs. The pressure vector should be perpendicular to their spine, pushing their head toward the mat. Use your entire upper body weight by keeping arms tight rather than extended. The shoulder acts as a wedge that prevents posture recovery and simultaneously tightens the choking mechanism through compression."
       },
       {
@@ -287,14 +281,14 @@
         "answer": "When opponent bridges, maintain your chest connection and seatbelt-style grip configuration while riding the bridge by keeping your hips mobile and base wide. Do not post your hands out as this releases pressure. As they return from the bridge, immediately re-apply heavy shoulder pressure and advance your grip deeper if any space was created. Use their landing moment to tighten your position since they momentarily lose defensive tension."
       },
       {
-        "question": "How do you manage energy expenditure while maintaining D'arce control for extended periods?",
+        "question": "How do you manage energy expenditure while maintaining Darce control for extended periods?",
         "answer": "Energy management requires using body weight and positioning rather than muscular squeezing. Establish your shoulder and chest pressure through structural alignment, keeping your core engaged but arms relatively relaxed in the grip. Breathe steadily through your nose. Make micro-adjustments rather than constant movement. When opponent stops escaping, reduce active squeezing while maintaining positional pressure - only increase grip tension when they attempt movement or when finishing the submission."
       }
     ]
   },
   "bottom": {
-    "name": "D'arce Control Bottom",
-    "description": "Master D'arce Control from bottom position in BJJ. Learn defensive strategies, escape routes, and counter-attacks. Critical awareness position with systematic escape sequences.",
+    "name": "Darce Control Bottom",
+    "description": "Master Darce Control from bottom position in BJJ. Learn defensive strategies, escape routes, and counter-attacks. Critical awareness position with systematic escape sequences.",
     "tags": [
       "bjj",
       "position",
@@ -306,7 +300,7 @@
       "turtle",
       "front-headlock"
     ],
-    "overview": "D'arce Control Bottom represents a critical defensive position where the practitioner is trapped in their opponent's D'arce choke grip. This is a high-risk defensive situation requiring immediate and precise defensive actions to prevent the submission from being completed. The bottom player faces significant danger as the opponent has established the distinctive arm-in choke configuration, threading their arm under the near arm and over the far shoulder while securing a grip.\n\nFrom this compromised position, the defender must focus on creating space, defending the neck, and systematically dismantling the opponent's control points. Success depends on understanding the mechanics of the D'arce choke, maintaining composure under pressure, and executing precise defensive sequences. The position commonly arises from turtle, failed takedown attempts, or front headlock scenarios where the top player has successfully secured the choke grip.\n\nWhile extremely dangerous, D'arce Control Bottom is not an inescapable position. Skilled practitioners can recognize the setup early, defend critical control points, and create escape opportunities through proper technique and tactical awareness. The key is preventing the opponent from tightening the choke, maintaining neck alignment, and systematically working to recover to safer positions like turtle, half guard, or even reversing to dominant positions.",
+    "overview": "Darce Control Bottom represents a critical defensive position where the practitioner is trapped in their opponent's Darce choke grip. This is a high-risk defensive situation requiring immediate and precise defensive actions to prevent the submission from being completed. The bottom player faces significant danger as the opponent has established the distinctive arm-in choke configuration, threading their arm under the near arm and over the far shoulder while securing a grip.\n\nFrom this compromised position, the defender must focus on creating space, defending the neck, and systematically dismantling the opponent's control points. Success depends on understanding the mechanics of the Darce choke, maintaining composure under pressure, and executing precise defensive sequences. The position commonly arises from turtle, failed takedown attempts, or front headlock scenarios where the top player has successfully secured the choke grip.\n\nWhile extremely dangerous, Darce Control Bottom is not an inescapable position. Skilled practitioners can recognize the setup early, defend critical control points, and create escape opportunities through proper technique and tactical awareness. The key is preventing the opponent from tightening the choke, maintaining neck alignment, and systematically working to recover to safer positions like turtle, half guard, or even reversing to dominant positions.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -315,14 +309,14 @@
       "time_sustainability": "Short"
     },
     "state_invariants": [
-      "Opponent has threaded their arm under defender's near-side arm and over the far shoulder with hands clasped together in D'arce grip configuration near defender's neck creating immediate submission threat",
+      "Opponent has threaded their arm under defender's near-side arm and over the far shoulder with hands clasped together in Darce grip configuration near defender's neck creating immediate submission threat",
       "Defender's near-side arm is trapped against their own body typically pinned across their torso or neck by opponent's encircling arm creating the arm-in choke structure that enables effective strangulation",
       "Defender's head and neck are under significant pressure with opponent's chest or shoulder driving into the back and side of head restricting movement and creating direct choking pressure on carotid arteries",
       "Defender is typically on their side or in turtle position with opponent controlling from top position using their body weight to compress the choke mechanism and restrict all escape routes",
       "Opponent's grips are locked together in gable grip S-grip or figure-four on the far side of defender's neck with the locked hands positioned to maximize choking leverage when pressure is applied"
     ],
     "prerequisites": [
-      "Opponent has successfully secured D'arce grip configuration with arm threaded under near arm",
+      "Opponent has successfully secured Darce grip configuration with arm threaded under near arm",
       "Defender's near-side arm is trapped in the choke structure",
       "Opponent has established control from turtle, front headlock, or scramble position",
       "Defender recognizes the danger and initiates defensive protocol immediately"
@@ -381,7 +375,7 @@
         ]
       },
       {
-        "condition": "If opponent switches to anaconda configuration or loosens D'arce grip",
+        "condition": "If opponent switches to anaconda configuration or loosens Darce grip",
         "actions": [
           {
             "technique": "Arm Extraction",
@@ -404,7 +398,7 @@
       },
       {
         "error": "Leaving the trapped arm pinned across the body without immediately working to free it",
-        "consequence": "Allows opponent to maintain the arm-in configuration which is essential for D'arce effectiveness, making escape nearly impossible",
+        "consequence": "Allows opponent to maintain the arm-in configuration which is essential for Darce effectiveness, making escape nearly impossible",
         "correction": "Prioritize extracting the trapped arm using your free hand to pull it out and eliminate the arm-in structure"
       },
       {
@@ -425,24 +419,24 @@
     ],
     "training_drills": [
       {
-        "name": "D'arce Defense Progression Drill",
-        "description": "Partner establishes D'arce grip with varying degrees of tightness (25%, 50%, 75%, full). Practice arm extraction, space creation, and escape sequences from each pressure level. Focus on systematic defense rather than explosive escape attempts. Start with shallow grips and progress to fully locked positions.",
+        "name": "Darce Defense Progression Drill",
+        "description": "Partner establishes Darce grip with varying degrees of tightness (25%, 50%, 75%, full). Practice arm extraction, space creation, and escape sequences from each pressure level. Focus on systematic defense rather than explosive escape attempts. Start with shallow grips and progress to fully locked positions.",
         "duration": "5 minutes per pressure level"
       },
       {
-        "name": "Turtle to D'arce Defense Flow",
-        "description": "Start in turtle position. Partner attempts D'arce entry while you defend the underhook and prevent arm trapping. If they succeed in getting the grip, immediately transition to your primary escape sequence. Alternate between successful defenses and practicing escapes from established position. Develops early recognition and defensive timing.",
+        "name": "Turtle to Darce Defense Flow",
+        "description": "Start in turtle position. Partner attempts Darce entry while you defend the underhook and prevent arm trapping. If they succeed in getting the grip, immediately transition to your primary escape sequence. Alternate between successful defenses and practicing escapes from established position. Develops early recognition and defensive timing.",
         "duration": "6 minutes alternating roles"
       },
       {
         "name": "Escape Route Options Drill",
-        "description": "Partner holds D'arce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.",
+        "description": "Partner holds Darce Control position with moderate resistance. Practice each escape option (arm extraction, step over, rolling to guard, back door, granby roll) individually with proper mechanics. Partner provides feedback on effectiveness of frames, hip movement, and timing. Build muscle memory for multiple escape pathways.",
         "duration": "8 minutes cycling through all escapes"
       }
     ],
     "related_content": [
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Hub position - both perspectives"
       },
       {
@@ -476,42 +470,40 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55
+        "value": 48
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "10-30 seconds before escape or submission"
     },
     "transitions": [
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Rolling to Guard",
-        "attempt_probability": 25
-      },
-      {
-        "transition": "Granby Roll",
         "attempt_probability": 20
       },
       {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 21
+      },
+      {
+        "transition": "Granby Roll",
+        "attempt_probability": 17
+      },
+      {
         "transition": "Back Door Escape",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Counter Roll",
-        "attempt_probability": 12
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Step Over Escape",
+        "attempt_probability": 17
       }
     ],
     "knowledge_assessment": [
@@ -520,7 +512,7 @@
         "answer": "When opponent increases shoulder pressure, immediately turn your body toward them rather than away. Tuck your chin tighter to your chest to block deeper penetration of the choke. Use your free hand to frame on their hip or shoulder to prevent them from fully flattening you. The counter-intuitive movement toward the choke reduces the angle needed for carotid compression and creates space for arm extraction."
       },
       {
-        "question": "What are the essential defensive frames for surviving D'arce control bottom?",
+        "question": "What are the essential defensive frames for surviving Darce control bottom?",
         "answer": "The primary frame is your free hand (the arm not trapped in the choke) placed against opponent's hip, shoulder, or head to prevent them from advancing or flattening you. Secondary frames include keeping your chin tucked tight as a structural defense against the choke, and maintaining some base on your knees or hip rather than being completely flat. These frames create the time and space needed to execute escape sequences."
       },
       {
@@ -528,12 +520,12 @@
         "answer": "When opponent starts walking their hips around to improve their finishing angle, you must move with them to maintain the defensive angle. Turn your body in the same direction they're moving, keeping your chin tucked and trying to get your chest facing theirs. As they walk around, look for opportunities to extract your trapped arm through the space created by their movement. If they fully commit to the hip walk, consider a granby roll in the direction of their movement to create an escape scramble."
       },
       {
-        "question": "How should you manage your breathing when caught in D'arce control bottom?",
+        "question": "How should you manage your breathing when caught in Darce control bottom?",
         "answer": "Breathe slowly and deliberately through your nose to conserve oxygen and maintain composure. Avoid mouth breathing which accelerates panic response. Take controlled breaths during moments when pressure lessens slightly. Never hold your breath as this depletes oxygen faster and increases panic. The calm breathing pattern helps you think clearly and execute systematic escape sequences rather than explosive, energy-wasting movements that often make the choke tighter."
       },
       {
         "question": "What is the primary escape you should attempt and what makes it effective?",
-        "answer": "Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the D'arce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the D'arce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions."
+        "answer": "Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the Darce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the Darce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions."
       },
       {
         "question": "How do you apply pressure correctly as the defender to prevent the choke from tightening?",
@@ -544,7 +536,7 @@
         "answer": "When opponent tries to flatten you, immediately post your free hand on the mat or against their hip to create a base that prevents going fully flat. Hip escape away while maintaining your chin tuck, working to get on your side rather than your back. If partially flattened, immediately work to get your knees under you or create a butterfly hook with your bottom leg. Being flat eliminates your ability to create frames and makes the choke finish much easier for your opponent."
       },
       {
-        "question": "How do you recognize early that a D'arce attempt is coming and what preventive action should you take?",
+        "question": "How do you recognize early that a Darce attempt is coming and what preventive action should you take?",
         "answer": "Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder."
       }
     ]

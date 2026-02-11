@@ -10,11 +10,6 @@
     "marcelo garcia",
     "fundamental technique"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Butterfly Sweep family represents one of the most versatile and high-percentage sweeping systems in Brazilian Jiu-Jitsu. Unlike the basic Butterfly Sweep which relies primarily on the hook and lift motion, these variations adapt to different grips, postures, and defensive reactions from your opponent. The Hook Sweep emphasizes rotational momentum when your opponent posts wide, the Elevator Sweep exploits forward pressure by launching them overhead, and the Arm Drag variation combines off-balancing with positional advancement to the back. Understanding these variations transforms the butterfly guard from a single-technique position into a dynamic attacking system where each defensive adjustment creates a new sweeping opportunity. The key to mastering these variations lies in recognizing your opponent's weight distribution and grip configuration, then selecting the sweep that best exploits their current structure. This systematic approach to butterfly guard sweeps allows practitioners to maintain constant offensive pressure while developing the sensitivity to feel which variation will have the highest success probability in real-time.",
   "key_principles": [
     "Maintain active butterfly hooks with feet positioned under opponent's hips",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Establish butterfly guard control",
-      "description": "Secure butterfly guard with both hooks active under opponent's hips, feet flexed and positioned to generate lifting power. Establish upper body control through collar and sleeve grips (gi) or underhooks/overhooks (no-gi). Maintain upright posture with chest connected to opponent's chest, preventing them from creating distance or establishing heavy top pressure.",
-      "timing": "Before opponent establishes dominant grips or heavy pressure"
+      "description": "Secure butterfly guard with both hooks active under opponent's hips, feet flexed and positioned to generate lifting power. Establish upper body control through collar and sleeve grips (gi) or underhooks/overhooks (no-gi). Maintain upright posture with chest connected to opponent's chest, preventing them from creating distance or establishing heavy top pressure."
     },
     {
       "step_number": 2,
       "action": "Read opponent's defensive structure",
-      "description": "Assess opponent's weight distribution, base width, and grip configuration. If they sit back with wide base, prepare Hook Sweep. If they drive forward with pressure, prepare Elevator Sweep. If they're upright but squared, prepare Arm Drag variation. This decision-making process should become instinctive through repetition, reading subtle weight shifts that telegraph their defensive strategy.",
-      "timing": "Continuous assessment during guard engagement"
+      "description": "Assess opponent's weight distribution, base width, and grip configuration. If they sit back with wide base, prepare Hook Sweep. If they drive forward with pressure, prepare Elevator Sweep. If they're upright but squared, prepare Arm Drag variation. This decision-making process should become instinctive through repetition, reading subtle weight shifts that telegraph their defensive strategy."
     },
     {
       "step_number": 3,
       "action": "Execute Hook Sweep (Variation 1)",
-      "description": "For wide-based opponents: Secure collar and sleeve grips, then simultaneously lift with one butterfly hook while pulling opponent's sleeve across their body and rotating your shoulders in the same direction. The hook creates elevation while the sleeve pull breaks their base to the side. Your free leg extends to the mat for leverage as you complete the rotation to mount or side control top.",
-      "timing": "When opponent posts wide or circles to one side"
+      "description": "For wide-based opponents: Secure collar and sleeve grips, then simultaneously lift with one butterfly hook while pulling opponent's sleeve across their body and rotating your shoulders in the same direction. The hook creates elevation while the sleeve pull breaks their base to the side. Your free leg extends to the mat for leverage as you complete the rotation to mount or side control top."
     },
     {
       "step_number": 4,
       "action": "Execute Elevator Sweep (Variation 2)",
-      "description": "For forward-pressuring opponents: Maintain collar and sleeve control (or double underhooks), then explosively lift both butterfly hooks while pulling opponent's upper body down and toward you. The lifting motion should launch them overhead in an arc trajectory. As they pass overhead, immediately shrimp your hips out and turn to establish mount or take their back as they land.",
-      "timing": "When opponent drives forward with heavy chest pressure"
+      "description": "For forward-pressuring opponents: Maintain collar and sleeve control (or double underhooks), then explosively lift both butterfly hooks while pulling opponent's upper body down and toward you. The lifting motion should launch them overhead in an arc trajectory. As they pass overhead, immediately shrimp your hips out and turn to establish mount or take their back as they land."
     },
     {
       "step_number": 5,
       "action": "Execute Arm Drag Variation (Variation 3)",
-      "description": "For upright, squared opponents: From collar-and-sleeve or double underhook control, execute sharp arm drag pulling opponent's arm across your body while simultaneously removing same-side butterfly hook and swinging that leg behind them. Use the arm drag momentum to circle to their back, establishing seat belt control as you transition to back control or continue sweep to top position.",
-      "timing": "When opponent maintains upright posture with square shoulders"
+      "description": "For upright, squared opponents: From collar-and-sleeve or double underhook control, execute sharp arm drag pulling opponent's arm across your body while simultaneously removing same-side butterfly hook and swinging that leg behind them. Use the arm drag momentum to circle to their back, establishing seat belt control as you transition to back control or continue sweep to top position."
     },
     {
       "step_number": 6,
       "action": "Chain variations based on reaction",
-      "description": "If opponent defends one sweep variation by adjusting their weight or base, immediately recognize the opening for a different variation. Failed Hook Sweep often creates Elevator Sweep opportunity as they shift weight forward. Defended Elevator Sweep creates Arm Drag opening as they post. Develop flow between variations, treating each defensive adjustment as the setup for your next attack rather than resetting to neutral position.",
-      "timing": "Continuous offensive pressure through variation chains"
+      "description": "If opponent defends one sweep variation by adjusting their weight or base, immediately recognize the opening for a different variation. Failed Hook Sweep often creates Elevator Sweep opportunity as they shift weight forward. Defended Elevator Sweep creates Arm Drag opening as they post. Develop flow between variations, treating each defensive adjustment as the setup for your next attack rather than resetting to neutral position."
     },
     {
       "step_number": 7,
       "action": "Complete sweep to dominant position",
-      "description": "As sweep succeeds and opponent is inverted or off-balanced, maintain control throughout the transition. For Hook and Elevator sweeps, follow opponent's rotation to establish mount or side control top. For Arm Drag variation, secure back control or continue to top position. Immediately establish position control points (cross-face, underhook, head control) before opponent can begin guard recovery sequence.",
-      "timing": "Immediately as opponent's base breaks"
+      "description": "As sweep succeeds and opponent is inverted or off-balanced, maintain control throughout the transition. For Hook and Elevator sweeps, follow opponent's rotation to establish mount or side control top. For Arm Drag variation, secure back control or continue to top position. Immediately establish position control points (cross-face, underhook, head control) before opponent can begin guard recovery sequence."
     }
   ],
   "common_counters": [
@@ -140,32 +128,27 @@
     {
       "phase": "Week 1-2: Fundamental Hook Mechanics",
       "focus": "Develop proper butterfly hook positioning and lifting motion in isolation",
-      "description": "Practice inserting and removing butterfly hooks smoothly while maintaining balance. Partner provides zero resistance. Focus on feeling optimal hook depth and foot positioning for maximum lifting power. Drill basic Hook Sweep in slow motion, emphasizing coordination between hook lift, grip pull, and hip rotation. Complete 5-minute rounds of continuous hook insertion and removal to build endurance in hip flexors and core muscles.",
-      "resistance_level": "None"
+      "description": "Practice inserting and removing butterfly hooks smoothly while maintaining balance. Partner provides zero resistance. Focus on feeling optimal hook depth and foot positioning for maximum lifting power. Drill basic Hook Sweep in slow motion, emphasizing coordination between hook lift, grip pull, and hip rotation. Complete 5-minute rounds of continuous hook insertion and removal to build endurance in hip flexors and core muscles."
     },
     {
       "phase": "Week 3-4: Variation Recognition Drills",
       "focus": "Learn to recognize which variation applies to different opponent postures and reactions",
-      "description": "Partner alternates between three postures: wide-based (Hook Sweep), forward-pressuring (Elevator Sweep), and upright-squared (Arm Drag). Practice reading posture and selecting appropriate variation without verbal cues. Start with partner holding static posture for 5 seconds, gradually reducing hold time until recognition becomes instant. Complete 10 successful sweeps of each variation per training session. Begin adding light resistance where partner maintains posture but doesn't actively defend sweep.",
-      "resistance_level": "Light"
+      "description": "Partner alternates between three postures: wide-based (Hook Sweep), forward-pressuring (Elevator Sweep), and upright-squared (Arm Drag). Practice reading posture and selecting appropriate variation without verbal cues. Start with partner holding static posture for 5 seconds, gradually reducing hold time until recognition becomes instant. Complete 10 successful sweeps of each variation per training session. Begin adding light resistance where partner maintains posture but doesn't actively defend sweep."
     },
     {
       "phase": "Week 5-8: Variation Chaining and Flow",
       "focus": "Develop ability to chain failed sweep attempts into different variations based on opponent's defensive reactions",
-      "description": "Partner actively defends one specific sweep variation (e.g., posting wide against Hook Sweep) but remains vulnerable to countering variation (Elevator Sweep). Practice recognizing failed sweep attempt immediately and flowing to appropriate counter variation. Drill all six possible variation chains (Hook→Elevator, Hook→Arm Drag, Elevator→Hook, etc.). Add medium resistance where partner defends first attempt but gives opening for second variation. Complete 3-minute continuous flow rounds where you chain variations without resetting to neutral.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends one specific sweep variation (e.g., posting wide against Hook Sweep) but remains vulnerable to countering variation (Elevator Sweep). Practice recognizing failed sweep attempt immediately and flowing to appropriate counter variation. Drill all six possible variation chains (Hook→Elevator, Hook→Arm Drag, Elevator→Hook, etc.). Add medium resistance where partner defends first attempt but gives opening for second variation. Complete 3-minute continuous flow rounds where you chain variations without resetting to neutral."
     },
     {
       "phase": "Week 9-12: Live Application and Timing Development",
       "focus": "Execute variations against full resistance in positional sparring from butterfly guard",
-      "description": "Begin positional sparring rounds starting in butterfly guard with partner's goal to pass, your goal to sweep or submit. Partner provides full resistance but starts in neutral position without established grips. Focus on creating sweep opportunities through grip fighting, angle adjustment, and reaction baiting. If sweep is defended, immediately chain to next variation rather than accepting guard pass. Complete 5-minute positional rounds with 30-second reset after each successful sweep or pass. Track success rate of each variation to identify personal high-percentage options.",
-      "resistance_level": "Full"
+      "description": "Begin positional sparring rounds starting in butterfly guard with partner's goal to pass, your goal to sweep or submit. Partner provides full resistance but starts in neutral position without established grips. Focus on creating sweep opportunities through grip fighting, angle adjustment, and reaction baiting. If sweep is defended, immediately chain to next variation rather than accepting guard pass. Complete 5-minute positional rounds with 30-second reset after each successful sweep or pass. Track success rate of each variation to identify personal high-percentage options."
     },
     {
       "phase": "Week 13+: Integration and Competition Refinement",
       "focus": "Integrate butterfly sweep variations into complete guard game and develop competition-specific setups",
-      "description": "Practice entering butterfly guard from standing guard pulls, seated guard, and scrambles. Combine butterfly sweep variations with submission threats (guillotine, kimura, triangle) to create dilemmas forcing opponent to choose between defending sweep or submission. Drill competition scenarios including grip fighting sequences, stalling breaks, and score-based decision making. Begin live rolling with specific focus on butterfly guard entries and sweep execution. Film training rolls and analyze which variations succeeded, which were defended, and what patterns emerge in your game.",
-      "resistance_level": "Full"
+      "description": "Practice entering butterfly guard from standing guard pulls, seated guard, and scrambles. Combine butterfly sweep variations with submission threats (guillotine, kimura, triangle) to create dilemmas forcing opponent to choose between defending sweep or submission. Drill competition scenarios including grip fighting sequences, stalling breaks, and score-based decision making. Begin live rolling with specific focus on butterfly guard entries and sweep execution. Film training rolls and analyze which variations succeeded, which were defended, and what patterns emerge in your game."
     }
   ],
   "variants_and_adaptations": [
@@ -198,33 +181,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary indicator that should trigger selection of the Hook Sweep variation rather than the Elevator Sweep?",
-      "answer": "The Hook Sweep should be selected when the opponent has a wide base with their weight distributed to the sides, or when they are circling to one direction. This wide base makes overhead elevation difficult but creates vulnerability to rotational sweeps. In contrast, the Elevator Sweep works best when opponent's weight is square and driving forward, making the lifting motion more effective than rotation.",
-      "difficulty": "Intermediate"
+      "answer": "The Hook Sweep should be selected when the opponent has a wide base with their weight distributed to the sides, or when they are circling to one direction. This wide base makes overhead elevation difficult but creates vulnerability to rotational sweeps. In contrast, the Elevator Sweep works best when opponent's weight is square and driving forward, making the lifting motion more effective than rotation."
     },
     {
       "question": "How should you adjust your butterfly sweep variation if your opponent successfully defends your initial Hook Sweep attempt by posting their arm wide?",
-      "answer": "When the opponent posts wide to defend the Hook Sweep, their weight shifts forward over the posted arm, creating the perfect setup for an Elevator Sweep. Immediately switch to lifting both butterfly hooks while pulling their upper body down, using their forward-committed weight against them. Alternatively, you can attack the posted arm with a kimura grip, as their wide posting exposes the shoulder for control. This variation chaining transforms their successful defense into your next offensive opportunity.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent posts wide to defend the Hook Sweep, their weight shifts forward over the posted arm, creating the perfect setup for an Elevator Sweep. Immediately switch to lifting both butterfly hooks while pulling their upper body down, using their forward-committed weight against them. Alternatively, you can attack the posted arm with a kimura grip, as their wide posting exposes the shoulder for control. This variation chaining transforms their successful defense into your next offensive opportunity."
     },
     {
       "question": "What are the three primary power sources that must be coordinated for successful execution of butterfly sweep variations?",
-      "answer": "The three primary power sources are: 1) The butterfly hooks generating lifting force through leg extension and hip elevation, 2) The upper body grips (collar/sleeve, underhooks, or overhooks) controlling direction and breaking opponent's posture, and 3) Hip rotation and mobility creating the angular momentum for the sweep. These must work in coordination - hooks provide the lifting power, grips control the direction, and hips generate rotation. Using only one or two of these power sources results in weak sweep attempts that are easily defended.",
-      "difficulty": "Beginner"
+      "answer": "The three primary power sources are: 1) The butterfly hooks generating lifting force through leg extension and hip elevation, 2) The upper body grips (collar/sleeve, underhooks, or overhooks) controlling direction and breaking opponent's posture, and 3) Hip rotation and mobility creating the angular momentum for the sweep. These must work in coordination - hooks provide the lifting power, grips control the direction, and hips generate rotation. Using only one or two of these power sources results in weak sweep attempts that are easily defended."
     },
     {
       "question": "Why is the Arm Drag variation of the butterfly sweep particularly effective against upright, square-postured opponents, and what is the typical positional outcome?",
-      "answer": "The Arm Drag variation works best against upright opponents because their square posture places equal weight on both legs, making them vulnerable to lateral movement rather than vertical lifting. The arm drag breaks their structural alignment by pulling one shoulder across while removing the same-side butterfly hook, allowing you to circle to their back. The typical outcome is back control with seat belt grip, though you can also continue the sweep to top position if they defend the back take. This variation is particularly effective because it combines off-balancing with positional advancement, often yielding 4 points (sweep) plus 4 points (back control) in competition.",
-      "difficulty": "Advanced"
+      "answer": "The Arm Drag variation works best against upright opponents because their square posture places equal weight on both legs, making them vulnerable to lateral movement rather than vertical lifting. The arm drag breaks their structural alignment by pulling one shoulder across while removing the same-side butterfly hook, allowing you to circle to their back. The typical outcome is back control with seat belt grip, though you can also continue the sweep to top position if they defend the back take. This variation is particularly effective because it combines off-balancing with positional advancement, often yielding 4 points (sweep) plus 4 points (back control) in competition."
     },
     {
       "question": "What is the most common error when attempting to chain multiple butterfly sweep variations together, and how does it compromise the sweeping system?",
-      "answer": "The most common error is resetting to neutral position after a failed sweep attempt instead of immediately flowing to the next variation based on opponent's defensive reaction. When practitioners reset after a defended sweep, they lose the offensive momentum and allow their opponent to re-establish optimal posture and grips. Effective variation chaining means treating the opponent's defensive adjustment (posting wide, driving forward, etc.) as the immediate setup for your next sweep variation. This maintains constant offensive pressure and prevents the opponent from establishing their passing game, transforming the butterfly guard into a dynamic attacking system rather than a single-attempt position.",
-      "difficulty": "Intermediate"
+      "answer": "The most common error is resetting to neutral position after a failed sweep attempt instead of immediately flowing to the next variation based on opponent's defensive reaction. When practitioners reset after a defended sweep, they lose the offensive momentum and allow their opponent to re-establish optimal posture and grips. Effective variation chaining means treating the opponent's defensive adjustment (posting wide, driving forward, etc.) as the immediate setup for your next sweep variation. This maintains constant offensive pressure and prevents the opponent from establishing their passing game, transforming the butterfly guard into a dynamic attacking system rather than a single-attempt position."
     },
     {
       "question": "How does the depth of butterfly hook positioning affect sweep effectiveness, and what is the optimal placement?",
-      "answer": "Butterfly hook depth critically affects lifting power and mobility. Hooks placed too shallow (feet barely under thighs) provide minimal lifting leverage and are easily removed. Hooks placed too deep (feet far under opponent's hips toward their back) create maximum lifting power but reduce mobility and make it difficult to adjust or remove hooks when needed. The optimal placement is at the crease where opponent's thighs meet their hips - this provides strong lifting leverage while maintaining hook mobility for adjustments. This depth allows you to generate maximum power for Elevator Sweep while still being able to remove one hook quickly for Hook Sweep rotation or Arm Drag variations.",
-      "difficulty": "Intermediate"
+      "answer": "Butterfly hook depth critically affects lifting power and mobility. Hooks placed too shallow (feet barely under thighs) provide minimal lifting leverage and are easily removed. Hooks placed too deep (feet far under opponent's hips toward their back) create maximum lifting power but reduce mobility and make it difficult to adjust or remove hooks when needed. The optimal placement is at the crease where opponent's thighs meet their hips - this provides strong lifting leverage while maintaining hook mobility for adjustments. This depth allows you to generate maximum power for Elevator Sweep while still being able to remove one hook quickly for Hook Sweep rotation or Arm Drag variations."
     }
   ],
   "safety_considerations": "Butterfly sweep variations are generally low-risk techniques, but several safety considerations apply. When executing the Elevator Sweep with explosive lifting motion, ensure controlled follow-through to prevent throwing your partner with excessive force, particularly when drilling without mats or near walls. Beginners should start with slow-motion repetitions to develop coordination before adding speed and power. Partners should communicate if neck or back discomfort occurs during any variation, as improper execution can create compression. When drilling the Arm Drag variation, avoid yanking opponent's arm with sudden force that could stress their shoulder; instead, use smooth pulling motion. Training partners should tap early if they feel off-balanced to the point of uncontrolled falling. During live training, be aware of surrounding practitioners to avoid collisions during sweep execution. When practicing hook insertion and removal, start slowly to prevent straining hip flexors and groin muscles. Advanced practitioners executing these sweeps at competition speed should ensure their partner is experienced enough to fall safely and protect themselves during the sweep arc.",
@@ -300,5 +277,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

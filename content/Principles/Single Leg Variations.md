@@ -363,7 +363,7 @@ Full sparring rounds with specific instruction to actively hunt and finish singl
 
 ### Related Content
 - [[Single Leg Entry]] (Transition) - Primary technical execution of entering into single leg control from standing exchanges
-- [[Single Leg Finish]] (Transition) - Specific finishing sequences that complete the takedown from established single leg control
+- [[Single Leg Takedown]] (Transition) - Specific finishing sequences that complete the takedown from established single leg control
 - [[Single Leg Takedown]] (Transition) - Complete technical sequence from entry through finish representing full single leg execution
 - [[Single Leg to Back Take]] (Transition) - Alternative transition option when takedown finish is defended, converting to back attack
 - [[Single Leg X-Guard]] (Position) - Guard position that applies single leg control principles from bottom, using similar finishing mechanics adapted to supine context

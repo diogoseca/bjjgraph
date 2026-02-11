@@ -349,11 +349,11 @@ Start in top butterfly half guard and reset after each pass or sweep. Focus on m
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 10% |
-| Intermediate | 55% | 50% | 20% |
-| Advanced     | 70% | 65% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 58% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 45-120 seconds before pass or sweep occurs
 

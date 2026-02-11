@@ -89,21 +89,23 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 ### Available Transitions
 
 
-- **[[Technical Stand-up]]** (16% of attempts)
+- **[[Technical Stand-up]]** (12% of attempts)
 
-- **[[Butterfly Sweep]]** (12% of attempts)
+- **[[Butterfly Sweep]]** (11% of attempts)
 
-- **[[Scissor Sweep]]** (13% of attempts)
+- **[[Scissor Sweep]]** (12% of attempts)
 
-- **[[Single Leg X Entry]]** (12% of attempts)
+- **[[Single Leg X Entry]]** (11% of attempts)
 
-- **[[Ankle Pick]]** (11% of attempts)
+- **[[Ankle Pick]]** (10% of attempts)
 
-- **[[Tripod Sweep]]** (12% of attempts)
+- **[[Tripod Sweep]]** (11% of attempts)
 
-- **[[X-Guard Sweep]]** (12% of attempts)
+- **[[X-Guard Sweep]]** (11% of attempts)
 
-- **[[Lumberjack Sweep]]** (12% of attempts)
+- **[[Lumberjack Sweep]]** (11% of attempts)
+
+- **[[Foot Grab Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes

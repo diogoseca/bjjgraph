@@ -380,11 +380,11 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 30% | 15% |
-| Intermediate | 50% | 50% | 25% |
-| Advanced     | 70% | 70% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 2-4 minutes per passing sequence
 
@@ -398,7 +398,7 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 - **[[Side Control]]** - Primary advancement target from successful passes
 - **[[Headquarters Position]]** - Common transitional position during passing sequences
 - **[[Combat Base]]** - Fundamental posture variation within open guard top
-- **[[Leg Drag Position]]** - Controlling position during leg drag passing
+- **[[Leg Drag Control]]** - Controlling position during leg drag passing
 - **[[Closed Guard]]** - Related position with closed leg configuration
 - **[[Toreando Pass]]** - Fundamental lateral passing technique
 - **[[Knee Slice Pass]]** - Core pressure passing technique

@@ -153,7 +153,7 @@ description: "Learn Kosoto Gake in BJJ. Master this minor outer reaping throw fr
 Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a staple in Brazilian Jiu-Jitsu's standing game. This technique involves reaping your opponent's supporting leg from the outside while simultaneously pulling their upper body backward, causing them to fall directly into your side control position. The beauty of Kosoto Gake lies in its simplicity and relatively low physical demands compared to explosive throws like Uchi Mata or Harai Goshi. It excels when your opponent has their weight distributed on their rear leg, making it an excellent counter to defensive stances and backward movement. The throw creates a seamless transition from standing to dominant groundwork, with the thrower maintaining control throughout the entire movement and landing directly in a scoring position. This makes it particularly valuable in both gi and no-gi competition contexts where takedown points and top position are strategically critical.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -202,12 +202,12 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips and close distance**: Secure a dominant collar grip with your lead hand and sleeve or elbow control with your rear hand in gi (or collar tie and underhook in no-gi). Step in close to eliminate space between your chest and opponent's upper body, positioning yourself at a 45-degree angle to their stance. (Timing: Initial setup phase)
-2. **Break opponent's posture**: Pull your opponent's upper body backward and slightly downward using your collar grip, forcing them to shift their weight onto their rear leg. Their natural reaction is to resist by pushing back or stepping backward, which loads their rear leg perfectly for the reap. (Timing: As opponent resists forward pressure)
-3. **Position your reaping leg**: Step your rear leg (same side as your collar grip) behind opponent's weighted rear leg. Your calf should make contact with the back of their calf/Achilles area. Keep your knee slightly bent and your weight balanced on your supporting leg. (Timing: Immediately after breaking posture)
-4. **Execute the reap**: Reap opponent's rear leg forward by driving your calf through the back of their lower leg while simultaneously pulling their upper body backward and down with both grips. The reaping action should feel like sweeping their leg out from under them rather than a hard kick. (Timing: Explosive but controlled motion)
-5. **Drive through with upper body**: As their leg is reaped, continue driving their upper body backward and downward in a circular motion. Your chest should follow their falling trajectory, maintaining pressure and connection throughout. Turn your hips to face toward the mat as they fall. (Timing: Continuous with reaping motion)
-6. **Land in side control**: Follow opponent to the ground, landing with your chest across their torso in side control position. Your reaping leg naturally transitions to block their hip, while your grips convert to controlling their far shoulder and near hip. Immediately establish crossface pressure and distribute your weight to prevent their escape. (Timing: As opponent impacts the mat)
+1. **Establish grips and close distance**: Secure a dominant collar grip with your lead hand and sleeve or elbow control with your rear hand in gi (or collar tie and underhook in no-gi). Step in close to eliminate space between your chest and opponent's upper body, positioning yourself at a 45-degree angle to their stance.
+2. **Break opponent's posture**: Pull your opponent's upper body backward and slightly downward using your collar grip, forcing them to shift their weight onto their rear leg. Their natural reaction is to resist by pushing back or stepping backward, which loads their rear leg perfectly for the reap.
+3. **Position your reaping leg**: Step your rear leg (same side as your collar grip) behind opponent's weighted rear leg. Your calf should make contact with the back of their calf/Achilles area. Keep your knee slightly bent and your weight balanced on your supporting leg.
+4. **Execute the reap**: Reap opponent's rear leg forward by driving your calf through the back of their lower leg while simultaneously pulling their upper body backward and down with both grips. The reaping action should feel like sweeping their leg out from under them rather than a hard kick.
+5. **Drive through with upper body**: As their leg is reaped, continue driving their upper body backward and downward in a circular motion. Your chest should follow their falling trajectory, maintaining pressure and connection throughout. Turn your hips to face toward the mat as they fall.
+6. **Land in side control**: Follow opponent to the ground, landing with your chest across their torso in side control position. Your reaping leg naturally transitions to block their hip, while your grips convert to controlling their far shoulder and near hip. Immediately establish crossface pressure and distribute your weight to prevent their escape.
 
 
 </section>
@@ -253,19 +253,15 @@ Kosoto Gake (minor outer reaping) is a fundamental judo throw that has become a 
 ## Training Progressions
 **Week 1-2: Static drilling** - Basic movement pattern and coordination
 Practice the reaping motion and upper body pull separately, then combine them with a completely compliant partner. Focus on grip positioning, distance management, and the feeling of sweeping through opponent's leg. Repeat 10-15 repetitions per side.
-(Resistance: None)
 
 **Week 3-4: Movement drilling** - Timing and setup from live grips
 Practice the throw with partner moving naturally but still allowing completion. Focus on recognizing when opponent's weight shifts to their rear leg and timing your entry. Partner provides light resistance by maintaining balance but not actively defending.
-(Resistance: Light)
 
 **Week 5-6: Situational sparring** - Application against moderate resistance
 Start from standing with grips established. Opponent provides 50% resistance, actively trying to maintain balance but not countering. Work on chaining Kosoto Gake with other throws when the first attempt is defended. 3-minute rounds focusing on this technique.
-(Resistance: Medium)
 
 **Week 7+: Live integration** - Full resistance application in sparring
 Attempt Kosoto Gake during regular standup sparring with full resistance. Focus on setup entries, recognizing opportunities, and chaining to other techniques when defended. Track success rate and identify common defensive patterns to address.
-(Resistance: Full)
 
 
 

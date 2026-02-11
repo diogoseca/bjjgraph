@@ -1,0 +1,1099 @@
+{
+  "summary": {
+    "transition_files": 540,
+    "position_files": 137,
+    "total_issues": 159,
+    "errors": 159,
+    "warnings": 0,
+    "info": 0,
+    "orphaned_transitions": 3,
+    "missing_transitions": 1,
+    "naming_matches": 0,
+    "probability_errors": 0,
+    "orphaned_positions": 37,
+    "outcome_errors": 118,
+    "outcome_warnings": 0,
+    "attempt_outliers": 0
+  },
+  "issues": [
+    {
+      "type": "orphaned_transition",
+      "severity": "error",
+      "name": "Armbar Defense",
+      "file": "content/Transitions/Armbar Defense.json",
+      "from_position": "Armbar Control/Bottom",
+      "message": "Orphaned transition: 'Armbar Defense' (from: Armbar Control/Bottom)"
+    },
+    {
+      "type": "orphaned_transition",
+      "severity": "error",
+      "name": "Mount Control",
+      "file": "content/Transitions/Mount Control.json",
+      "from_position": "Mount/Top",
+      "message": "Orphaned transition: 'Mount Control' (from: Mount/Top)"
+    },
+    {
+      "type": "orphaned_transition",
+      "severity": "error",
+      "name": "Pass to Side Control",
+      "file": "content/Transitions/Pass to Side Control.json",
+      "from_position": "50-50 Guard/Top",
+      "message": "Orphaned transition: 'Pass to Side Control' (from: 50-50 Guard/Top)"
+    },
+    {
+      "type": "missing_transition",
+      "severity": "error",
+      "name": "Belly Down Armbar",
+      "message": "Missing transition: 'Belly Down Armbar' (referenced but no file)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Body Lock",
+      "message": "Orphaned position: 'Body Lock' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Butterfly Half Guard",
+      "message": "Orphaned position: 'Butterfly Half Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Butterfly Hook Control",
+      "message": "Orphaned position: 'Butterfly Hook Control' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Collar Sleeve Guard",
+      "message": "Orphaned position: 'Collar Sleeve Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Dead Orchard Control",
+      "message": "Orphaned position: 'Dead Orchard Control' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Double Jump",
+      "message": "Orphaned position: 'Double Jump' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Double Sleeve Guard",
+      "message": "Orphaned position: 'Double Sleeve Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Feet on Hips Guard",
+      "message": "Orphaned position: 'Feet on Hips Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Flattened Half Guard",
+      "message": "Orphaned position: 'Flattened Half Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Half Butterfly",
+      "message": "Orphaned position: 'Half Butterfly' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Inverted Lasso Guard",
+      "message": "Orphaned position: 'Inverted Lasso Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "K-Guard",
+      "message": "Orphaned position: 'K-Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Leg Entanglement",
+      "message": "Orphaned position: 'Leg Entanglement' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Leg Hook",
+      "message": "Orphaned position: 'Leg Hook' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Matrix",
+      "message": "Orphaned position: 'Matrix' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Modified Scarf Hold",
+      "message": "Orphaned position: 'Modified Scarf Hold' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Old School",
+      "message": "Orphaned position: 'Old School' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Overhook Guard",
+      "message": "Orphaned position: 'Overhook Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Piranha Guard",
+      "message": "Orphaned position: 'Piranha Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Pocket Half Guard",
+      "message": "Orphaned position: 'Pocket Half Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Quarter Guard",
+      "message": "Orphaned position: 'Quarter Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Reverse Half Guard",
+      "message": "Orphaned position: 'Reverse Half Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Reverse Kesa-Gatame",
+      "message": "Orphaned position: 'Reverse Kesa-Gatame' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Reverse Scarf Hold",
+      "message": "Orphaned position: 'Reverse Scarf Hold' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Rodeo Ride",
+      "message": "Orphaned position: 'Rodeo Ride' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Russian Leg Lasso",
+      "message": "Orphaned position: 'Russian Leg Lasso' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Scarf Hold Position",
+      "message": "Orphaned position: 'Scarf Hold Position' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Shin-to-Shin Guard",
+      "message": "Orphaned position: 'Shin-to-Shin Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Shoulder of Justice",
+      "message": "Orphaned position: 'Shoulder of Justice' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Side Control Consolidation",
+      "message": "Orphaned position: 'Side Control Consolidation' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Standing Guard",
+      "message": "Orphaned position: 'Standing Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Toe Hold Control",
+      "message": "Orphaned position: 'Toe Hold Control' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Triangle Escape Position",
+      "message": "Orphaned position: 'Triangle Escape Position' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Twister Side Control",
+      "message": "Orphaned position: 'Twister Side Control' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Vaporizer",
+      "message": "Orphaned position: 'Vaporizer' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Z-Guard",
+      "message": "Orphaned position: 'Z-Guard' (not reachable)"
+    },
+    {
+      "type": "orphaned_position",
+      "severity": "error",
+      "name": "Z-Lock Half Guard",
+      "message": "Orphaned position: 'Z-Lock Half Guard' (not reachable)"
+    },
+    {
+      "file": "content/Submissions/Achilles Lock.json",
+      "name": "Achilles Lock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Americana Variations.json",
+      "name": "Americana Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Americana from Mount.json",
+      "name": "Americana from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Americana from Side Control.json",
+      "name": "Americana from Side Control",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Americana.json",
+      "name": "Americana",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Anaconda Variations.json",
+      "name": "Anaconda Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Aoki Lock.json",
+      "name": "Aoki Lock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Arm Crush.json",
+      "name": "Arm Crush",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Arm Triangle Progression.json",
+      "name": "Arm Triangle Progression",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Arm Triangle.json",
+      "name": "Arm Triangle",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Arm in Guillotine.json",
+      "name": "Arm in Guillotine",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Armbar from Back with Legs.json",
+      "name": "Armbar from Back with Legs",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Armbar from Back.json",
+      "name": "Armbar from Back",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Armbar from Crucifix.json",
+      "name": "Armbar from Crucifix",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Armbar from Guard.json",
+      "name": "Armbar from Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Armbar from Mount.json",
+      "name": "Armbar from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Armbar from Side Control.json",
+      "name": "Armbar from Side Control",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Banana Split.json",
+      "name": "Banana Split",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Baratoplata.json",
+      "name": "Baratoplata",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Baseball Bat Choke Variations.json",
+      "name": "Baseball Bat Choke Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Baseball Bat Choke.json",
+      "name": "Baseball Bat Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Belly Down Armbar.json",
+      "name": "Belly Down Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Bicep Slicer.json",
+      "name": "Bicep Slicer",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Boston Crab.json",
+      "name": "Boston Crab",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Bow and Arrow Choke Variations.json",
+      "name": "Bow and Arrow Choke Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Bow and Arrow Choke.json",
+      "name": "Bow and Arrow Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Bow and Arrow Variations.json",
+      "name": "Bow and Arrow Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Brabo Choke.json",
+      "name": "Brabo Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Brabo Variations.json",
+      "name": "Brabo Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Breadcutter Choke.json",
+      "name": "Breadcutter Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Buggy Choke.json",
+      "name": "Buggy Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Calf Slicer Variations.json",
+      "name": "Calf Slicer Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Calf Slicer from 50-50.json",
+      "name": "Calf Slicer from 50-50",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Calf Slicer from Truck.json",
+      "name": "Calf Slicer from Truck",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Calf Slicer.json",
+      "name": "Calf Slicer",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Can Opener.json",
+      "name": "Can Opener",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Chin Strap Guillotine.json",
+      "name": "Chin Strap Guillotine",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Choke from Crucifix.json",
+      "name": "Choke from Crucifix",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Clock Choke.json",
+      "name": "Clock Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Cross Collar Choke.json",
+      "name": "Cross Collar Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Cross Collar Variations.json",
+      "name": "Cross Collar Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Crotch Ripper.json",
+      "name": "Crotch Ripper",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Crucifix Submissions.json",
+      "name": "Crucifix Submissions",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Darce Variations.json",
+      "name": "Darce Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Darce-Anaconda Connection.json",
+      "name": "Darce-Anaconda Connection",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Electric Chair Submission.json",
+      "name": "Electric Chair Submission",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Estima Lock.json",
+      "name": "Estima Lock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Ezekiel Choke.json",
+      "name": "Ezekiel Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Ezekiel Variations.json",
+      "name": "Ezekiel Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Ezekiel from Mount.json",
+      "name": "Ezekiel from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Far Side Armbar.json",
+      "name": "Far Side Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Flying Armbar.json",
+      "name": "Flying Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Flying Kneebar.json",
+      "name": "Flying Kneebar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Guillotine Sequence.json",
+      "name": "Guillotine Sequence",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Guillotine Variations.json",
+      "name": "Guillotine Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Heel Hook Dilemma.json",
+      "name": "Heel Hook Dilemma",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Heel Hook Variations.json",
+      "name": "Heel Hook Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Heel Hook.json",
+      "name": "Heel Hook",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/High Elbow Guillotine.json",
+      "name": "High Elbow Guillotine",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Inside Heel Hook.json",
+      "name": "Inside Heel Hook",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Inverted Triangle.json",
+      "name": "Inverted Triangle",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Japanese Necktie.json",
+      "name": "Japanese Necktie",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura Variations.json",
+      "name": "Kimura Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from Guard.json",
+      "name": "Kimura from Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from Half Guard.json",
+      "name": "Kimura from Half Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from Mount.json",
+      "name": "Kimura from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from North-South.json",
+      "name": "Kimura from North-South",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from Side Control.json",
+      "name": "Kimura from Side Control",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from Standing.json",
+      "name": "Kimura from Standing",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura from Turtle.json",
+      "name": "Kimura from Turtle",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kimura.json",
+      "name": "Kimura",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kneebar Variations.json",
+      "name": "Kneebar Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kneebar from 50-50.json",
+      "name": "Kneebar from 50-50",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kneebar from Guard.json",
+      "name": "Kneebar from Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kneebar from Half Guard.json",
+      "name": "Kneebar from Half Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Kneebar from Top.json",
+      "name": "Kneebar from Top",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Loop Choke Variations.json",
+      "name": "Loop Choke Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Loop Choke from Mount.json",
+      "name": "Loop Choke from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Loop Choke.json",
+      "name": "Loop Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Marce Choke.json",
+      "name": "Marce Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Mir Lock.json",
+      "name": "Mir Lock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Monoplata from Guard.json",
+      "name": "Monoplata from Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Monoplata from Mount.json",
+      "name": "Monoplata from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Monoplata.json",
+      "name": "Monoplata",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/North-South Choke.json",
+      "name": "North-South Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/North-South to Kimura.json",
+      "name": "North-South to Kimura",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Omoplata Variations.json",
+      "name": "Omoplata Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Omoplata from Guard.json",
+      "name": "Omoplata from Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Outside Heel Hook.json",
+      "name": "Outside Heel Hook",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Paper Cutter Choke.json",
+      "name": "Paper Cutter Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Peruvian Necktie.json",
+      "name": "Peruvian Necktie",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Reverse Armbar.json",
+      "name": "Reverse Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Reverse Kimura.json",
+      "name": "Reverse Kimura",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Rolling Armbar.json",
+      "name": "Rolling Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Rolling Omoplata.json",
+      "name": "Rolling Omoplata",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Short Choke.json",
+      "name": "Short Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Spine Lock.json",
+      "name": "Spine Lock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Spinning Armbar.json",
+      "name": "Spinning Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Straight Armbar.json",
+      "name": "Straight Armbar",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Straight Footlock.json",
+      "name": "Straight Footlock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Suloev Stretch.json",
+      "name": "Suloev Stretch",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Switch to Triangle.json",
+      "name": "Switch to Triangle",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Tarikoplata.json",
+      "name": "Tarikoplata",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Ten Finger Guillotine.json",
+      "name": "Ten Finger Guillotine",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Toe Hold Variations.json",
+      "name": "Toe Hold Variations",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Toe Hold from 50-50.json",
+      "name": "Toe Hold from 50-50",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Toe Hold from Top.json",
+      "name": "Toe Hold from Top",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle Choke Back.json",
+      "name": "Triangle Choke Back",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle Choke Front.json",
+      "name": "Triangle Choke Front",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle Choke Side.json",
+      "name": "Triangle Choke Side",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle from Back.json",
+      "name": "Triangle from Back",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle from Closed Guard.json",
+      "name": "Triangle from Closed Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle from De La Riva.json",
+      "name": "Triangle from De La Riva",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle from Guard.json",
+      "name": "Triangle from Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle from Mount.json",
+      "name": "Triangle from Mount",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Triangle from Spider Guard.json",
+      "name": "Triangle from Spider Guard",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Von Flue Choke.json",
+      "name": "Von Flue Choke",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    },
+    {
+      "file": "content/Submissions/Williams Shoulder Lock.json",
+      "name": "Williams Shoulder Lock",
+      "type": "missing_outcomes",
+      "message": "Submission has no outcomes array",
+      "severity": "error"
+    }
+  ],
+  "naming_inconsistencies": []
+}

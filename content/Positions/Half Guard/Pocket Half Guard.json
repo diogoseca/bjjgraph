@@ -152,7 +152,7 @@
         "actions": [
           {
             "technique": "Darce Choke",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 60
           },
           {
@@ -270,7 +270,7 @@
         "relationship": "Primary offensive technique - key passing method"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Opportunistic submission position - when opponent turns in"
       },
       {
@@ -292,19 +292,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 75
+        "value": 70
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 35
+        "value": 30
       },
       "average_time": "45-90 seconds before completing pass or losing position"
     },
@@ -569,19 +563,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 55,
-        "intermediate": 70,
-        "advanced": 85
+        "value": 78
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "45-90 seconds before sweep attempt or transition"
     },

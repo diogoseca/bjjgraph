@@ -153,7 +153,7 @@ description: "Master the Knee Through pass in BJJ. Systematic half guard passing
 The Knee Through pass is a fundamental half guard passing technique that involves systematically inserting the trapped knee through the opponent's guard while maintaining upper body control. This pass is particularly effective against defensive half guard players who rely on the knee shield or traditional half guard frames. The technique exploits the natural weakness in the half guard structure when proper shoulder pressure and knee positioning combine to create an overwhelming passing sequence. The Knee Through differs from the Knee Slice in that it emphasizes driving the knee completely through the guard rather than cutting across, making it especially effective when the opponent has a strong underhook or is attempting to recover full guard. This pass forms the cornerstone of pressure-based passing systems and serves as a critical transition between standing passes and consolidated top positions.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -201,12 +201,12 @@ The Knee Through pass is a fundamental half guard passing technique that involve
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish crossface control**: Secure a strong crossface across the opponent's face using your near shoulder, driving their head to the mat while maintaining pressure. Your crossfacing arm can either underhook their far arm or post on the mat for base. This crossface is the anchor point for all subsequent movements. (Timing: Before any leg movement begins)
-2. **Control near side arm**: With your free hand, control the opponent's near wrist or sleeve to prevent them from establishing an underhook. Alternatively, secure your own underhook first, completely denying their primary defensive frame. This arm control is critical as the underhook is the half guard player's main defensive weapon. (Timing: Simultaneous with crossface establishment)
-3. **Align hip and shoulder**: Position your hips so they are aligned with your shoulders, creating a straight line of pressure from shoulder through hip into the opponent's chest. Your trapped leg should be slightly externally rotated to begin creating space for knee extraction. Avoid allowing your hips to lag behind your shoulders. (Timing: As opponent begins to feel pressure)
-4. **Drive knee forward and through**: Begin driving the trapped knee forward in a straight line through the opponent's guard, not across their body. The motion is similar to a knee slide but with more forward drive. Your knee should track toward the mat on the far side of the opponent's body, punching through their half guard structure. (Timing: When opponent's defensive frames are compressed)
-5. **Clear the bottom leg**: As your knee drives through, use small circular motions or a slight hop to clear your foot over the opponent's bottom leg. Maintain constant forward pressure with your upper body so they cannot use this moment to recover guard. Your shin may briefly drag across their thigh before clearing completely. (Timing: As knee reaches maximum forward extension)
-6. **Consolidate side control**: Once your leg is free, immediately bring your knee to the mat and establish side control position. Your chest should drop to their chest, crossface maintains, and your hips settle into position before they can turn into you or initiate an escape sequence. Secure far arm control or underhook to complete the position. (Timing: Immediately upon leg extraction)
+1. **Establish crossface control**: Secure a strong crossface across the opponent's face using your near shoulder, driving their head to the mat while maintaining pressure. Your crossfacing arm can either underhook their far arm or post on the mat for base. This crossface is the anchor point for all subsequent movements.
+2. **Control near side arm**: With your free hand, control the opponent's near wrist or sleeve to prevent them from establishing an underhook. Alternatively, secure your own underhook first, completely denying their primary defensive frame. This arm control is critical as the underhook is the half guard player's main defensive weapon.
+3. **Align hip and shoulder**: Position your hips so they are aligned with your shoulders, creating a straight line of pressure from shoulder through hip into the opponent's chest. Your trapped leg should be slightly externally rotated to begin creating space for knee extraction. Avoid allowing your hips to lag behind your shoulders.
+4. **Drive knee forward and through**: Begin driving the trapped knee forward in a straight line through the opponent's guard, not across their body. The motion is similar to a knee slide but with more forward drive. Your knee should track toward the mat on the far side of the opponent's body, punching through their half guard structure.
+5. **Clear the bottom leg**: As your knee drives through, use small circular motions or a slight hop to clear your foot over the opponent's bottom leg. Maintain constant forward pressure with your upper body so they cannot use this moment to recover guard. Your shin may briefly drag across their thigh before clearing completely.
+6. **Consolidate side control**: Once your leg is free, immediately bring your knee to the mat and establish side control position. Your chest should drop to their chest, crossface maintains, and your hips settle into position before they can turn into you or initiate an escape sequence. Secure far arm control or underhook to complete the position.
 
 
 </section>
@@ -253,27 +253,21 @@ The Knee Through pass is a fundamental half guard passing technique that involve
 ## Training Progressions
 **Phase 1: Static Position Work (Weeks 1-2)** - Crossface and arm control mechanics
 Start in established half guard top position with partner holding light frames. Practice achieving dominant crossface and near arm control without attempting the pass. Focus on pressure distribution and maintaining connection.
-(Resistance: Light)
 
 **Phase 2: Slow Motion Pass (Weeks 2-4)** - Knee insertion and leg extraction
 Execute the complete Knee Through pass at 25% speed with cooperative partner. Emphasize proper angles, maintaining pressure while moving, and correct clearing mechanics. Partner provides light resistance.
-(Resistance: Light)
 
 **Phase 3: Progressive Resistance (Weeks 4-6)** - Problem solving against defensive frames
 Partner actively attempts to prevent the pass using knee shields, hip escapes, and underhook attempts at 50-75% intensity. Practice adapting the technique to different defensive reactions.
-(Resistance: Medium)
 
 **Phase 4: Combination Passing (Weeks 6-8)** - Chaining with other passes
 Practice transitioning between Knee Through, Knee Slice, and Long Step Pass based on opponent's reactions. Develop flow between techniques rather than forcing a single option.
-(Resistance: Medium)
 
 **Phase 5: Positional Sparring (Weeks 8-10)** - Live application with full resistance
 Start from half guard top position and attempt to pass with full resistance. Reset and repeat multiple rounds. Bottom player works full defensive repertoire.
-(Resistance: Full)
 
 **Phase 6: Open Sparring Integration (Weeks 10+)** - Technique in live rolling context
 Apply Knee Through pass during regular training rolls when opportunities arise. Focus on recognizing the correct timing and situations for this particular pass.
-(Resistance: Full)
 
 
 

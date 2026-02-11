@@ -163,7 +163,7 @@ This transition serves as a critical gateway technique in modern grappling, brid
 The snap down's effectiveness lies in its ability to bypass traditional takedown defenses by attacking the opponent's posture rather than their legs or hips. Against skilled defensive grapplers who excel at sprawling or defending leg attacks, the snap down provides an alternative pathway to top position that requires different defensive skills. Understanding proper timing, grip configuration, and follow-up options transforms this technique from a simple movement into a comprehensive control system.
 
 **From Position**: [[Clinch/Top]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -212,13 +212,13 @@ The snap down's effectiveness lies in its ability to bypass traditional takedown
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary head control**: From standing clinch position, secure a firm grip on the back of opponent's head or neck using your lead hand. Position your palm against the rear of their skull or clasp behind their neck, ensuring your elbow is positioned near their shoulder line. This creates the primary control point that will direct their descent. (Timing: Initial setup - establish before opponent can counter-grip)
-2. **Secure secondary control point**: With your trailing hand, establish a second control point by gripping opponent's tricep, latissimus dorsi, or securing an overhook on their near arm. This secondary grip prevents them from posting or creating defensive frames during the snap. The two-point control system is essential for maintaining dominance throughout the transition. (Timing: Immediately following head control)
-3. **Create forward pressure and load opponent's weight**: Pull opponent's head slightly forward and down while maintaining your upright posture. This loading phase causes them to either resist by pushing back or to shift their weight forward. Both reactions create the necessary conditions for an explosive snap. Feel for their weight commitment before executing the primary movement. (Timing: 1-2 seconds of loading pressure)
-4. **Execute explosive snap down**: Using coordinated full-body mechanics, explosively pull opponent's head downward and across your centerline while simultaneously driving your hips forward. The motion should be sharp and decisive - not a gradual pull. Your pulling hand drives downward while your body weight moves forward and over their descending head. The power comes from hip drive and lat engagement, not just arm strength. (Timing: Explosive execution - 0.5 seconds maximum)
-5. **Follow opponent's descent and establish angle**: As opponent's head and upper body snap downward, maintain connection while moving your feet forward to establish a dominant angle. Your chest should move over their back/shoulders as they descend. Continue driving forward pressure to prevent them from recovering upright posture. Your hips should be forward, not sitting back. (Timing: Continuous motion following snap)
-6. **Secure front headlock control position**: Once opponent's head is below your chest level, transition to formal front headlock control by threading your choking arm around their neck (guillotine grip configuration) while your opposite hand controls their far tricep or establishes overhook. Your chest should apply constant downward pressure on their upper back/shoulders. Hips remain forward and low. (Timing: Immediate transition upon successful snap)
-7. **Consolidate position and assess submission opportunities**: With front headlock established, adjust your base by widening your stance and dropping your hips for maximum pressure. Assess immediate submission opportunities (guillotine, anaconda, darce) or prepare for back-take transitions. Maintain heavy shoulder pressure to prevent opponent from recovering guard or standing. (Timing: Within 2-3 seconds of establishing front headlock)
+1. **Establish primary head control**: From standing clinch position, secure a firm grip on the back of opponent's head or neck using your lead hand. Position your palm against the rear of their skull or clasp behind their neck, ensuring your elbow is positioned near their shoulder line. This creates the primary control point that will direct their descent.
+2. **Secure secondary control point**: With your trailing hand, establish a second control point by gripping opponent's tricep, latissimus dorsi, or securing an overhook on their near arm. This secondary grip prevents them from posting or creating defensive frames during the snap. The two-point control system is essential for maintaining dominance throughout the transition.
+3. **Create forward pressure and load opponent's weight**: Pull opponent's head slightly forward and down while maintaining your upright posture. This loading phase causes them to either resist by pushing back or to shift their weight forward. Both reactions create the necessary conditions for an explosive snap. Feel for their weight commitment before executing the primary movement.
+4. **Execute explosive snap down**: Using coordinated full-body mechanics, explosively pull opponent's head downward and across your centerline while simultaneously driving your hips forward. The motion should be sharp and decisive - not a gradual pull. Your pulling hand drives downward while your body weight moves forward and over their descending head. The power comes from hip drive and lat engagement, not just arm strength.
+5. **Follow opponent's descent and establish angle**: As opponent's head and upper body snap downward, maintain connection while moving your feet forward to establish a dominant angle. Your chest should move over their back/shoulders as they descend. Continue driving forward pressure to prevent them from recovering upright posture. Your hips should be forward, not sitting back.
+6. **Secure front headlock control position**: Once opponent's head is below your chest level, transition to formal front headlock control by threading your choking arm around their neck (guillotine grip configuration) while your opposite hand controls their far tricep or establishes overhook. Your chest should apply constant downward pressure on their upper back/shoulders. Hips remain forward and low.
+7. **Consolidate position and assess submission opportunities**: With front headlock established, adjust your base by widening your stance and dropping your hips for maximum pressure. Assess immediate submission opportunities (guillotine, anaconda, darce) or prepare for back-take transitions. Maintain heavy shoulder pressure to prevent opponent from recovering guard or standing.
 
 
 </section>
@@ -268,27 +268,21 @@ The snap down's effectiveness lies in its ability to bypass traditional takedown
 ## Training Progressions
 **Weeks 1-2: Fundamental Mechanics** - Basic snap down mechanics and grip positioning
 Begin with partner in turtle position. Practice establishing front headlock grips from standing position, emphasizing proper hand placement and body positioning. Partner remains static initially. Focus on grip depth, chest pressure, and hip positioning. Drill 15-20 repetitions per training session, emphasizing slow, controlled movements with perfect technical form.
-(Resistance: None)
 
 **Weeks 3-4: Dynamic Snap Execution** - Explosive snap movement from standing clinch
 Partner stands in neutral clinch position. Practice establishing grips and executing snap down with moderate speed. Partner offers light resistance by maintaining upright posture but does not actively defend. Drill both gi and no-gi variations. Focus on coordinating hip drive with pulling motion. Perform 10-15 repetitions per round with 30-second rest intervals.
-(Resistance: Light)
 
 **Weeks 5-8: Timing and Counter-Response** - Reading opponent reactions and adjusting technique
 Partner adds moderate resistance including posting, sprawling, and pulling away. Practice reading these reactions and executing appropriate responses. Develop timing by practicing against opponent's forward pressure, backward movement, and level changes. Integrate snap downs into live pummeling exchanges. Drill 5-10 minute continuous rounds.
-(Resistance: Medium)
 
 **Weeks 9-12: Submission Integration** - Connecting snap down to front headlock submissions
 After successful snap to front headlock, immediately transition to submission attempts (guillotine, anaconda, darce). Partner offers moderate resistance to both snap and submission. Practice recognizing which submission is available based on opponent's defensive reactions. Drill complete sequences from standing clinch through submission finish. 5-minute positional rounds.
-(Resistance: Medium)
 
 **Weeks 13-16: Competition Integration** - Full resistance application and chain wrestling
 Integrate snap downs into live standing wrestling exchanges with full resistance. Practice using snap down as part of larger takedown system, chaining with other techniques. Partner actively defends and counters. Develop ability to hit technique against resisting opponents in live training. Record success rate and identify patterns in successful vs. unsuccessful attempts.
-(Resistance: Full)
 
 **Ongoing: Advanced Applications** - Situational mastery and style-specific adaptations
 Develop snap down variations for different body types, gi vs. no-gi contexts, and rule sets. Practice against opponents who specifically know and defend the technique. Develop personal style variations and preferred follow-up sequences. Analyze competition footage to identify high-level applications and integrate into personal game.
-(Resistance: Full)
 
 
 

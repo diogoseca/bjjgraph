@@ -157,7 +157,7 @@ From a biomechanical perspective, the trapped arm position places the shoulder i
 The Kimura on Trapped Arm serves as both a direct submission threat and a control consolidation tool. Even when the submission doesn't finish, the Kimura grip provides exceptional control that can be used to transition to mounted positions, advance to the crucifix, or set up alternative attacks. Understanding this dual purpose transforms the technique from a one-dimensional submission attempt into a systematic control weapon.
 
 **From Position**: [[Gift Wrap/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate Gift Wrap**: Ensure the trapped arm is secured high across opponent's chest with your controlling arm properly threaded under their armpit. The elbow of the trapped arm should be bent approximately 90 degrees with their wrist controlled on the opposite side of their body. (Timing: Before initiating attack)
-2. **Establish figure-four grip**: With your free arm, reach over the opponent's trapped arm and grip your own wrist that's controlling their forearm. This creates the classic Kimura figure-four configuration. Your gripping hand passes over their humerus near the elbow. (Timing: Smooth transition without releasing base control)
-3. **Secure elbow control**: Pull your elbows tight to your body to clamp down on the opponent's elbow joint. This prevents them from straightening the arm or rotating the shoulder. The elbow must remain bent throughout the submission sequence for effective shoulder pressure. (Timing: Immediately after grip establishment)
-4. **Hip positioning adjustment**: Shift your hips toward the side of the trapped arm while maintaining back control with at least one hook. This hip movement creates the angle necessary to rotate the shoulder joint beyond its comfortable range. Your body weight assists the rotational pressure. (Timing: Coordinated with grip tightening)
-5. **Apply rotational pressure**: Drive your hips forward while simultaneously lifting the opponent's wrist toward their shoulder blade. The rotation should paint their hand toward their own spine. Keep the elbow pinned to their ribcage as the fulcrum point for maximum mechanical advantage. (Timing: Controlled, incremental pressure)
-6. **Finish submission**: Continue the rotational pressure by driving their wrist toward the ceiling while keeping the elbow stationary against their body. The shoulder joint reaches maximum internal rotation and the opponent taps or the joint fails. Release immediately upon tap signal. (Timing: Progressive pressure until tap)
+1. **Consolidate Gift Wrap**: Ensure the trapped arm is secured high across opponent's chest with your controlling arm properly threaded under their armpit. The elbow of the trapped arm should be bent approximately 90 degrees with their wrist controlled on the opposite side of their body.
+2. **Establish figure-four grip**: With your free arm, reach over the opponent's trapped arm and grip your own wrist that's controlling their forearm. This creates the classic Kimura figure-four configuration. Your gripping hand passes over their humerus near the elbow.
+3. **Secure elbow control**: Pull your elbows tight to your body to clamp down on the opponent's elbow joint. This prevents them from straightening the arm or rotating the shoulder. The elbow must remain bent throughout the submission sequence for effective shoulder pressure.
+4. **Hip positioning adjustment**: Shift your hips toward the side of the trapped arm while maintaining back control with at least one hook. This hip movement creates the angle necessary to rotate the shoulder joint beyond its comfortable range. Your body weight assists the rotational pressure.
+5. **Apply rotational pressure**: Drive your hips forward while simultaneously lifting the opponent's wrist toward their shoulder blade. The rotation should paint their hand toward their own spine. Keep the elbow pinned to their ribcage as the fulcrum point for maximum mechanical advantage.
+6. **Finish submission**: Continue the rotational pressure by driving their wrist toward the ceiling while keeping the elbow stationary against their body. The shoulder joint reaches maximum internal rotation and the opponent taps or the joint fails. Release immediately upon tap signal.
 
 
 </section>
@@ -257,19 +257,15 @@ The Kimura on Trapped Arm serves as both a direct submission threat and a contro
 ## Training Progressions
 **Week 1-2** - Grip mechanics and positioning
 Practice transitioning from Gift Wrap to Kimura grip with completely cooperative partner. Focus on maintaining trapped arm control throughout grip transition. Drill the figure-four configuration and proper elbow clamping without applying submission pressure.
-(Resistance: None)
 
 **Week 3-4** - Pressure application and body mechanics
 Add light resistance while practicing hip positioning and rotational pressure. Partner provides feedback on pressure direction. Focus on using body weight and hip drive rather than arm strength. Begin integrating the full sequence from Gift Wrap to tap.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chain attacks
 Partner actively defends with specific counters (straightening arm, gripping pants, turning in). Practice recognizing each counter and executing appropriate responses. Develop ability to chain to alternative attacks when Kimura is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live application and timing
 Integrate technique into positional sparring starting from back control. Focus on recognizing Gift Wrap opportunities and successfully transitioning to Kimura finish. Develop timing for when to commit to submission versus when to use grip for positional advancement.
-(Resistance: Full)
 
 
 

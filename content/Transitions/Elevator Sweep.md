@@ -169,7 +169,7 @@ The elevator sweep is particularly effective against opponents who are sitting h
 Strategically, the elevator sweep serves as a cornerstone technique in the butterfly guard system, working in combination with other butterfly attacks like the basic butterfly sweep, arm drag to back takes, and guillotine attacks. The threat of the elevator sweep forces opponents to adjust their base and posture, creating opportunities for these complementary techniques. Mastering this sweep is essential for anyone looking to develop a dangerous butterfly guard game.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -218,14 +218,14 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet inserted as hooks on the inside of opponent's thighs, knees wide. Your back should be upright, not lying flat. Ensure hooks are deep enough that your feet can lift their hips. Keep your weight centered and mobile, ready to adjust. (Timing: Initial position - maintain continuous hook pressure)
-2. **Secure the overhook grip**: Swim your arm over one of opponent's arms to establish a deep overhook, controlling their shoulder and upper back. Your overhook hand should grip their lat or back of gi. Simultaneously, your other hand grips their opposite sleeve, collar, or establishes an underhook. Pull them close to break their posture and prevent posting. (Timing: Before initiating sweep - grip must be tight)
-3. **Position your head**: Bring your head tight to opponent's chest on the overhook side, with your ear against their sternum. This head position prevents them from creating space and posting with the overhooked arm. Keep your chin tucked to protect against guillotine counters. Your forehead should drive into their body. (Timing: Immediately after securing overhook)
-4. **Create the angle**: Shift your hips slightly toward the overhook side, creating a 15-20 degree angle. This angle is crucial because it allows you to sweep in the direction where opponent has less base. Your shoulder on the overhook side should be slightly lower than your other shoulder. Maintain tight connection with your hooks. (Timing: Just before lifting - quick adjustment)
-5. **Lift with both hooks simultaneously**: Explosively extend both legs upward and forward, using your hooks to lift opponent's hips off the ground. The lifting motion should feel like an elevator rising - straight up with equal force from both hooks. Keep your core tight and drive your hips slightly forward to add power. Your hooks should flex at the ankles, pulling their inner thighs up. (Timing: Explosive lift - coordinate with pull)
-6. **Pull with upper body grips**: As you lift with your hooks, simultaneously pull hard with your overhook, rotating their upper body toward you and over the side you're sweeping to. Your other grip pulls their far side toward you, completing the rotation. Think of this as a steering wheel turning in the direction of the sweep. Keep your head tight throughout. (Timing: Synchronized with hook lift)
-7. **Drive through and come up**: Continue the lifting and pulling motion until opponent's weight passes the tipping point and they begin to fall. As they go over, immediately drive forward with your hips and come up on your knees. Don't let them recover guard - maintain forward pressure and follow their body all the way to the mat. (Timing: Continuous drive - no pause)
-8. **Establish mount position**: As opponent lands on their back, quickly step your inside leg (overhook side) over their body to establish mount. Your hooks naturally release as you transition. Keep heavy pressure on their chest, maintain the overhook control, and settle your weight into a stable high mount position. Secure position before attacking submissions. (Timing: Immediate follow-up - don't allow recovery)
+1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet inserted as hooks on the inside of opponent's thighs, knees wide. Your back should be upright, not lying flat. Ensure hooks are deep enough that your feet can lift their hips. Keep your weight centered and mobile, ready to adjust.
+2. **Secure the overhook grip**: Swim your arm over one of opponent's arms to establish a deep overhook, controlling their shoulder and upper back. Your overhook hand should grip their lat or back of gi. Simultaneously, your other hand grips their opposite sleeve, collar, or establishes an underhook. Pull them close to break their posture and prevent posting.
+3. **Position your head**: Bring your head tight to opponent's chest on the overhook side, with your ear against their sternum. This head position prevents them from creating space and posting with the overhooked arm. Keep your chin tucked to protect against guillotine counters. Your forehead should drive into their body.
+4. **Create the angle**: Shift your hips slightly toward the overhook side, creating a 15-20 degree angle. This angle is crucial because it allows you to sweep in the direction where opponent has less base. Your shoulder on the overhook side should be slightly lower than your other shoulder. Maintain tight connection with your hooks.
+5. **Lift with both hooks simultaneously**: Explosively extend both legs upward and forward, using your hooks to lift opponent's hips off the ground. The lifting motion should feel like an elevator rising - straight up with equal force from both hooks. Keep your core tight and drive your hips slightly forward to add power. Your hooks should flex at the ankles, pulling their inner thighs up.
+6. **Pull with upper body grips**: As you lift with your hooks, simultaneously pull hard with your overhook, rotating their upper body toward you and over the side you're sweeping to. Your other grip pulls their far side toward you, completing the rotation. Think of this as a steering wheel turning in the direction of the sweep. Keep your head tight throughout.
+7. **Drive through and come up**: Continue the lifting and pulling motion until opponent's weight passes the tipping point and they begin to fall. As they go over, immediately drive forward with your hips and come up on your knees. Don't let them recover guard - maintain forward pressure and follow their body all the way to the mat.
+8. **Establish mount position**: As opponent lands on their back, quickly step your inside leg (overhook side) over their body to establish mount. Your hooks naturally release as you transition. Keep heavy pressure on their chest, maintain the overhook control, and settle your weight into a stable high mount position. Secure position before attacking submissions.
 
 
 </section>
@@ -275,27 +275,21 @@ Strategically, the elevator sweep serves as a cornerstone technique in the butte
 ## Training Progressions
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Basic hook insertion, overhook control, and lifting motion
 Partner sits in your butterfly guard offering no resistance. Practice inserting hooks deeply, securing overhook, and executing the basic lifting motion without opposition. Focus on the feeling of both hooks lifting equally and the coordination of the pull. Perform 20-30 repetitions per training session, alternating sides. Partner provides feedback on hook depth and lifting power.
-(Resistance: None)
 
 **Phase 2: Positional Drilling (Weeks 3-4)** - Adding timing, angle creation, and controlled sweep completion
 Partner provides light resistance by maintaining base but not actively defending. Practice recognizing when opponent's weight is forward enough to sweep, creating the proper angle, and executing the coordinated lift-and-pull motion. Work on following through to mount without scrambling. Aim for 15-20 controlled repetitions per side with focus on smooth execution.
-(Resistance: Light)
 
 **Phase 3: Defense Integration (Weeks 5-8)** - Dealing with common counters and defensive reactions
 Partner actively defends with specific counters - posting, whizzering, sprawling, or crossfacing. Practice recognizing each counter and implementing the appropriate response. Work one counter at a time for 5-10 repetitions, then mix counters randomly. This phase builds real-time problem-solving skills and sweep adaptation.
-(Resistance: Medium)
 
 **Phase 4: Live Drilling (Weeks 9-12)** - Sweep execution against full resistance from butterfly guard
 Start in butterfly guard with partner attempting realistic passes. Execute elevator sweep against full resistance, using proper setups, grip fighting, and timing. Partner defends intelligently but allows successful sweep when technique is correct. Progress to 5-minute rounds of butterfly guard-specific sparring where elevator sweep is primary attack. Combine with other butterfly techniques.
-(Resistance: Full)
 
 **Phase 5: Competition Timing (Weeks 13+)** - Sweep execution in live rolling and competition scenarios
 Implement elevator sweep during normal sparring with no artificial setups. Focus on creating opportunities through grip fighting, threatening other attacks, and recognizing optimal moments. Practice against various body types, skill levels, and opponent strategies. Film rolls and review to identify successful setup patterns and areas for refinement.
-(Resistance: Full)
 
 **Phase 6: System Integration (Ongoing)** - Combining elevator sweep with complete butterfly guard system
 Develop a comprehensive butterfly guard game where elevator sweep works in combination with arm drags, guillotines, basic butterfly sweeps, and transitions to other guards. Practice flowing between techniques based on opponent reactions. Study high-level competitors who use butterfly guard effectively and incorporate their concepts. Elevator sweep becomes one tool in a complete system.
-(Resistance: Full)
 
 
 

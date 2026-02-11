@@ -157,7 +157,7 @@ This technique prioritizes safety and position reset over direct passing. Rather
 From a systematic perspective, the Sprawl and Disengage represents intelligent risk management. When facing a skilled grasshopper guard player, attempting to pass through their legs often results in rolling kneebars, ankle locks, or 50-50 entanglements. By disengaging cleanly, you deny them the leg contact they need while maintaining top position and the ability to re-engage on your terms. The technique is particularly valuable in competition where conceding points for a sweep is far worse than resetting to neutral standing.
 
 **From Position**: [[Grasshopper Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize threat**: Identify that your opponent is inverting and beginning to thread their legs toward yours. Look for shoulder contact with mat, hip elevation, and legs actively seeking hooks behind your knees or around your ankles. (Timing: Before any leg contact is established)
-2. **Post and base**: Plant your hands on opponent's hips or thighs to create a posting structure. This frames against their elevation attempt and provides the base needed to drive your hips backward without losing balance. (Timing: Immediately upon threat recognition)
-3. **Drive hips back**: Explosively extend your hips backward and downward, similar to a wrestling sprawl. Your chest drops toward opponent's legs while your hips travel away from their reach. This creates the primary distance. (Timing: Explosive single motion)
-4. **Extract legs**: As your hips extend back, actively pull your legs away from any partial contact. Step backward with both feet, prioritizing the leg closest to their hook attempts. Avoid pulling straight up which can complete their entanglement. (Timing: Simultaneous with hip drive)
-5. **Establish distance**: Continue stepping backward until you are completely outside their leg range. Your feet should be at least hip-width apart in a stable standing base. Maintain forward-facing posture with eyes tracking their movement. (Timing: 2-3 steps backward)
-6. **Reset to standing**: From the disengaged position, establish a stable fighting stance outside their guard range. You now have the option to re-engage on your terms, circle to find a better angle, or wait for them to commit to coming up before re-engaging. (Timing: Once distance is established)
+1. **Recognize threat**: Identify that your opponent is inverting and beginning to thread their legs toward yours. Look for shoulder contact with mat, hip elevation, and legs actively seeking hooks behind your knees or around your ankles.
+2. **Post and base**: Plant your hands on opponent's hips or thighs to create a posting structure. This frames against their elevation attempt and provides the base needed to drive your hips backward without losing balance.
+3. **Drive hips back**: Explosively extend your hips backward and downward, similar to a wrestling sprawl. Your chest drops toward opponent's legs while your hips travel away from their reach. This creates the primary distance.
+4. **Extract legs**: As your hips extend back, actively pull your legs away from any partial contact. Step backward with both feet, prioritizing the leg closest to their hook attempts. Avoid pulling straight up which can complete their entanglement.
+5. **Establish distance**: Continue stepping backward until you are completely outside their leg range. Your feet should be at least hip-width apart in a stable standing base. Maintain forward-facing posture with eyes tracking their movement.
+6. **Reset to standing**: From the disengaged position, establish a stable fighting stance outside their guard range. You now have the option to re-engage on your terms, circle to find a better angle, or wait for them to commit to coming up before re-engaging.
 
 
 </section>
@@ -251,19 +251,15 @@ From a systematic perspective, the Sprawl and Disengage represents intelligent r
 ## Training Progressions
 **Week 1-2** - Sprawl mechanics
 Practice sprawl motion in isolation—partner elevates hips while you focus on explosive hip extension, hand posting, and leg extraction. No resistance, pure mechanics drilling.
-(Resistance: None)
 
 **Week 3-4** - Recognition timing
 Partner varies between committing to grasshopper and faking inversion. Develop recognition of when sprawl is needed versus when other passing options exist. Light resistance on successful reads.
-(Resistance: Light)
 
 **Week 5-6** - Follow-up sequences
 Partner actively follows after your sprawl with inversions and shot attempts. Practice chaining sprawl with re-engagement, circling, and secondary pass attempts. Medium resistance throughout.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Implement in full sparring against inverted guard players. Focus on when disengagement is the right choice versus when to fight through. Analyze decision-making post-roll.
-(Resistance: Full)
 
 
 

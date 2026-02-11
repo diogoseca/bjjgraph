@@ -21,37 +21,37 @@ description: "Master defensive strategies from Twister Control Bottom. Learn esc
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard Recovery",
-      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard Recovery. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll Through Escape",
-      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Roll Through Escape. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Turn to Turtle",
-      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Turn to Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Replacement",
-      "text": "From this position, attempt Guard Replacement. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Guard Replacement. This technique is attempted in 9% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,25 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Available Escapes
 
-### [[Hip Escape to Guard Recovery]] (25% of attempts)
+### [[Hip Escape to Guard Recovery]] (15% of attempts)
 
-### [[Roll Through Escape]] (15% of attempts)
+### [[Roll Through Escape]] (9% of attempts)
 
-### [[Bridge and Turn to Turtle]] (25% of attempts)
+### [[Bridge and Turn to Turtle]] (15% of attempts)
 
-### [[Granby Roll Escape]] (10% of attempts)
+### [[Granby Roll Escape]] (6% of attempts)
 
-### [[Guard Replacement]] (15% of attempts)
+### [[Guard Replacement]] (9% of attempts)
 
-### [[Shrimp Escape]] (10% of attempts)
+### [[Shrimp Escape]] (6% of attempts)
+
+### [[Address Leg Control]] (10% of attempts)
+
+### [[Defensive Roll]] (10% of attempts)
+
+### [[Frame and Turn]] (10% of attempts)
+
+### [[Scramble to Guard]] (10% of attempts)
 
 
 
@@ -332,11 +340,11 @@ Partner attempts to establish Twister Control from truck position. Practice reco
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 5% |
-| Intermediate | 30% | 35% | 8% |
-| Advanced     | 45% | 52% | 12% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 44% |
+| Submission Probability | 10% |
 
 **Average Time in Position**: 15-30 seconds before submission or escape
 

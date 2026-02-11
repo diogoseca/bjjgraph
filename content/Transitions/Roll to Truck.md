@@ -163,7 +163,7 @@ This transition exemplifies the principle of using opponent reactions against th
 Strategically, the Roll to Truck should be viewed as an opportunistic transition rather than a forced entry. Attempting to roll an opponent who is defending statically typically fails. The technique works best when timed with the opponent's own escape momentum, requiring sensitivity to their movement intentions and commitment to following their direction while establishing boot control as the primary mechanism for truck position consolidation.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, the Roll to Truck should be viewed as an opportunistic transition
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize escape attempt**: Feel opponent initiating granby roll or rotation away from buggy choke pressure. This typically manifests as hip movement away from you combined with shoulder dipping toward the mat. (Timing: As soon as opponent commits weight to rotation)
-2. **Secure hip connection**: Drive your near hip tight against opponent's near hip before they can create separation. Your hip becomes the pivot point around which the entire transition rotates. (Timing: Immediately upon recognizing escape direction)
-3. **Maintain upper body control**: Keep your collar grip, underhook, or neck control connected throughout the roll. This grip prevents opponent from completing their escape and maintains your ability to control their upper body in the truck position. (Timing: Continuous throughout transition)
-4. **Follow the roll**: Roll with opponent's momentum rather than against it, keeping your chest connected to their back. Allow their granby motion to carry you both over while you maintain controlling connections. (Timing: Synchronize with opponent's rotation)
-5. **Establish leg entanglement**: As you complete the roll, thread your near leg between opponent's legs to establish the lockdown or figure-four leg configuration. Target their bottom leg for entanglement while your top leg prepares for boot control. (Timing: During the latter half of the roll)
-6. **Secure boot control**: Place your foot firmly against opponent's top hip, creating the boot pressure that is the foundation of truck position control. This generates the torque that prevents them from escaping. (Timing: Immediately upon completing rotation)
-7. **Consolidate truck position**: Settle into perpendicular body alignment with chest pressure on opponent's upper back, boot pressure on hip, and legs entangled. Verify all control points are secured before initiating any attacks. (Timing: Within 2-3 seconds of completing roll)
+1. **Recognize escape attempt**: Feel opponent initiating granby roll or rotation away from buggy choke pressure. This typically manifests as hip movement away from you combined with shoulder dipping toward the mat.
+2. **Secure hip connection**: Drive your near hip tight against opponent's near hip before they can create separation. Your hip becomes the pivot point around which the entire transition rotates.
+3. **Maintain upper body control**: Keep your collar grip, underhook, or neck control connected throughout the roll. This grip prevents opponent from completing their escape and maintains your ability to control their upper body in the truck position.
+4. **Follow the roll**: Roll with opponent's momentum rather than against it, keeping your chest connected to their back. Allow their granby motion to carry you both over while you maintain controlling connections.
+5. **Establish leg entanglement**: As you complete the roll, thread your near leg between opponent's legs to establish the lockdown or figure-four leg configuration. Target their bottom leg for entanglement while your top leg prepares for boot control.
+6. **Secure boot control**: Place your foot firmly against opponent's top hip, creating the boot pressure that is the foundation of truck position control. This generates the torque that prevents them from escaping.
+7. **Consolidate truck position**: Settle into perpendicular body alignment with chest pressure on opponent's upper back, boot pressure on hip, and legs entangled. Verify all control points are secured before initiating any attacks.
 
 
 </section>
@@ -263,23 +263,18 @@ Strategically, the Roll to Truck should be viewed as an opportunistic transition
 ## Training Progressions
 **Week 1-2** - Solo movement mechanics
 Practice the rolling motion without partner, focusing on maintaining tight ball position and ending in proper truck body alignment. Drill the roll from both sides until movement is smooth and automatic.
-(Resistance: None)
 
 **Week 3-4** - Cooperative partner drilling
 Partner performs scripted granby escape from buggy choke position. Practice following their rotation while maintaining hip and grip connection. Focus on timing and ending in proper truck structure.
-(Resistance: Light)
 
 **Week 5-6** - Recognition and timing
 Partner alternates between staying static in buggy choke and attempting granby escapes. Practice recognizing escape initiation and timing roll execution appropriately. Do not attempt roll unless partner commits to escape.
-(Resistance: Medium)
 
 **Week 7-8** - Chain drilling
 Connect roll to truck with immediate submission entries. Upon establishing truck, immediately attack twister, calf slicer, or transition to back control based on partner's defensive positioning.
-(Resistance: Medium)
 
 **Week 9+** - Live application
 Incorporate into live rolling from turtle top position. Work on setting up buggy choke pressure that forces granby attempts, then capitalizing with roll to truck. Adjust based on resistance and counter-attacks.
-(Resistance: Full)
 
 
 

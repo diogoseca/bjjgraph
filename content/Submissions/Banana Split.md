@@ -157,7 +157,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 **Type**: Groin Stretch
 **Target Area**: Hip adductors, groin, and lower back
 **Starting Position**: [[Deep Half Guard]]
-**Success Rates**: Beginner 25%, Intermediate 40%, Advanced 55%
+**Success Rate**: 48%
 
 </section>
 
@@ -235,12 +235,12 @@ The Banana Split is a unique compression submission that targets the opponent's 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Deep Half Control**: From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneath opponent's hips. Your head should be on the far side, creating the foundation for the split. Ensure your lockdown is tight and opponent's weight is loaded onto your structure. (Timing: 2-3 seconds) [Pressure: Moderate]
-2. **Isolate the Far Leg**: Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations involve using your own far leg to hook their far leg. The goal is to prevent them from posting or establishing a wide base. This isolation is critical for the splitting mechanics to function. (Timing: 1-2 seconds) [Pressure: Light]
-3. **Create the Splitting Angle**: While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away from their body. Simultaneously, use your lockdown to push the near leg in the opposite direction. Your body position should create a wedge that forces their legs apart. Maintain shoulder pressure under their hips to prevent them from rolling forward. (Timing: 3-4 seconds) [Pressure: Moderate]
-4. **Control Upper Body**: Use your free hand to control opponent's upper body, typically by grabbing their belt, pants, or establishing an underhook. This prevents them from driving forward to relieve pressure or spinning out of the position. Upper body control is essential for maintaining the submission structure. (Timing: 1-2 seconds) [Pressure: Firm]
-5. **Extend Hips and Increase Split**: From your bottom position, extend your hips upward while maintaining the opposing forces on their legs. This hip extension creates additional splitting pressure by using your torso as a wedge. The pressure should be applied progressively, not explosively. Monitor partner for tap signals as groin pressure increases rapidly. (Timing: 2-3 seconds) [Pressure: Firm]
-6. **Apply Finishing Pressure**: Continue to increase the leg split by pulling the far leg while maintaining lockdown pressure on the near leg. Your hip extension should create a banana-like bend in opponent's torso. The submission comes from overstretching the groin, hip adductors, and lower back. Apply pressure slowly over 3-5 seconds minimum, watching carefully for tap. Never jerk or spike the pressure. (Timing: 3-5 seconds minimum) [Pressure: Maximum]
+1. **Establish Deep Half Control**: From deep half guard, secure your lockdown on the near leg while maintaining your shoulder underneath opponent's hips. Your head should be on the far side, creating the foundation for the split. Ensure your lockdown is tight and opponent's weight is loaded onto your structure. (Timing: 2-3 seconds)
+2. **Isolate the Far Leg**: Reach across with your far hand to grab opponent's far ankle, knee, or lower thigh. Some variations involve using your own far leg to hook their far leg. The goal is to prevent them from posting or establishing a wide base. This isolation is critical for the splitting mechanics to function. (Timing: 1-2 seconds)
+3. **Create the Splitting Angle**: While maintaining lockdown control on the near leg, begin to pull the far leg toward you and away from their body. Simultaneously, use your lockdown to push the near leg in the opposite direction. Your body position should create a wedge that forces their legs apart. Maintain shoulder pressure under their hips to prevent them from rolling forward. (Timing: 3-4 seconds)
+4. **Control Upper Body**: Use your free hand to control opponent's upper body, typically by grabbing their belt, pants, or establishing an underhook. This prevents them from driving forward to relieve pressure or spinning out of the position. Upper body control is essential for maintaining the submission structure. (Timing: 1-2 seconds)
+5. **Extend Hips and Increase Split**: From your bottom position, extend your hips upward while maintaining the opposing forces on their legs. This hip extension creates additional splitting pressure by using your torso as a wedge. The pressure should be applied progressively, not explosively. Monitor partner for tap signals as groin pressure increases rapidly. (Timing: 2-3 seconds)
+6. **Apply Finishing Pressure**: Continue to increase the leg split by pulling the far leg while maintaining lockdown pressure on the near leg. Your hip extension should create a banana-like bend in opponent's torso. The submission comes from overstretching the groin, hip adductors, and lower back. Apply pressure slowly over 3-5 seconds minimum, watching carefully for tap. Never jerk or spike the pressure. (Timing: 3-5 seconds minimum)
 
 
 </section>
@@ -259,22 +259,22 @@ The Banana Split is a unique compression submission that targets the opponent's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying splitting pressure too quickly or explosively [CRITICAL DANGER]
+- **Mistake**: Applying splitting pressure too quickly or explosively
   - **Consequence**: High risk of causing groin muscle tears or severe strains before partner can tap
   - **Correction**: Always apply pressure progressively over minimum 5 seconds. The banana split should feel like slowly increasing discomfort, not sudden pain. Communication with training partners is essential.
-- **Mistake**: Failing to control opponent's upper body [Medium DANGER]
+- **Mistake**: Failing to control opponent's upper body
   - **Consequence**: Opponent drives forward with pressure and collapses your structure, escaping the position
   - **Correction**: Establish upper body control (underhook, belt grip, or body lock) before fully committing to the leg split. Your shoulder frame under their hips must remain strong throughout.
-- **Mistake**: Losing lockdown control on the near leg [Medium DANGER]
+- **Mistake**: Losing lockdown control on the near leg
   - **Consequence**: Opponent frees their leg and escapes, potentially passing to dominant position
   - **Correction**: Maintain constant tension on the lockdown throughout the entire sequence. If lockdown loosens, re-tighten before continuing with far leg isolation. The near leg control is your foundation.
-- **Mistake**: Releasing far leg grip prematurely [Low DANGER]
+- **Mistake**: Releasing far leg grip prematurely
   - **Consequence**: Opponent recovers base and escapes the submission setup
   - **Correction**: Commit to the far leg control once established. Use multiple grip options (ankle, knee, thigh) and be prepared to adjust if they defend. Don't release until you're transitioning to another attack.
-- **Mistake**: Not accounting for opponent's flexibility level [High DANGER]
+- **Mistake**: Not accounting for opponent's flexibility level
   - **Consequence**: Either ineffective submission on flexible opponents or injury to inflexible ones
   - **Correction**: Assess partner's flexibility during rolling. More flexible opponents may require additional control points or combination attacks. Less flexible partners require extra caution and slower pressure application.
-- **Mistake**: Poor hip positioning and insufficient wedge angle [Low DANGER]
+- **Mistake**: Poor hip positioning and insufficient wedge angle
   - **Consequence**: Unable to generate splitting pressure despite having leg controls
   - **Correction**: Focus on hip extension and creating the wedge with your torso. Your body should form the splitting force between the two legs. Practice the mechanics without full pressure first.
 
@@ -339,43 +339,6 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn the mechanical structure of the banana split without applying finishing pressure. Understand positioning, leg controls, and the splitting mechanics. Study anatomy of hip adductors and groin to understand injury risks.
-- Resistance: None
-- Safety: Focus entirely on position control and mechanics. No splitting pressure applied. Partner should be relaxed and allowing position development. Discuss flexibility limitations openly.
-
-**Slow Positioning Practice** (Week 3-4)
-- Focus: Practice establishing the position from deep half guard, including lockdown control, far leg isolation, and upper body control. Work on smooth transitions between controls without rushing.
-- Resistance: Zero resistance
-- Safety: Partner allows position but communicates flexibility limitations. Begin to understand individual differences in hip mobility. Apply minimal pressure just to understand the mechanics. Stop well before discomfort.
-
-**Controlled Pressure Introduction** (Week 5-8)
-- Focus: Begin applying light splitting pressure with experienced partners who understand the submission. Focus on progressive pressure application over 10+ seconds. Practice recognizing tap signals immediately.
-- Resistance: Mild resistance
-- Safety: Use only 30-40% of maximum pressure. Partner should tap early as you both learn the pressure progression. Practice immediate release protocol. Never use this phase with inflexible partners.
-
-**Defensive Integration** (Week 9-12)
-- Focus: Practice against partners who use common defenses (driving forward, freeing legs, widening base). Learn to maintain controls and adjust to defensive reactions. Develop problem-solving skills for when controls are challenged.
-- Resistance: Realistic resistance
-- Safety: If controls are compromised, restart from setup rather than forcing pressure. Focus on positional control over submission completion. Maintain communication about pressure levels.
-
-**Combination Attacks** (Week 13-16)
-- Focus: Integrate banana split with other attacks from deep half guard (electric chair, sweeps, back takes). Learn to create submission chains where banana split serves as one option among multiple threats. Develop ability to transition smoothly between attacks.
-- Resistance: Realistic resistance
-- Safety: With multiple attacks available, pressure to finish any single submission decreases. If banana split isn't available cleanly, transition to other attacks. Never force a submission when controls aren't optimal.
-
-**Ongoing Refinement and Safety Maintenance** (Ongoing)
-- Focus: Continue to refine timing, control mechanics, and integration with overall game. Maintain strict safety protocols even as technique improves. Regularly practice with different body types to understand flexibility variations. Teach the submission to others to deepen understanding.
-- Resistance: Full resistance
-- Safety: Even with advanced skill, maintain 5-7 second minimum application time in training. Never compete with this submission unless you have extensive experience. Reserve competition-speed application for competition only. Always prioritize partner safety over tap collection.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -423,6 +386,7 @@ The Banana Split is a unique compression submission that targets the opponent's 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

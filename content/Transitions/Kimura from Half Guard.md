@@ -157,7 +157,7 @@ The tactical value of this attack lies in punishing common half guard bottom beh
 From a strategic perspective, the Kimura from Half Guard integrates seamlessly with passing sequences. Even when the submission finish is defended, maintaining Kimura control allows you to step over into mount, transition to north-south, or use the arm control to flatten the opponent for pressure passing. This makes the Kimura not just an attack but a complete control system that addresses the challenges of half guard passing.
 
 **From Position**: [[Half Guard/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ From a strategic perspective, the Kimura from Half Guard integrates seamlessly w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify arm exposure**: Recognize when opponent exposes their near-side arm through underhook attempts, frames against your hip, or reaching across your body. This exposure is the trigger for the Kimura attack. (Timing: Immediately upon arm exposure)
-2. **Control the wrist**: With your same-side hand (if attacking their right arm, use your right hand), grip their wrist firmly. Use a C-grip with your thumb on the same side as your fingers for maximum control. Pull their wrist toward your hip. (Timing: Within 1 second of identifying exposure)
-3. **Thread arm and establish figure-four**: Thread your opposite arm underneath their tricep from the outside, reaching to grip your own wrist. Lock the figure-four grip tightly, keeping your elbows pinched together and pressed against your ribs. (Timing: Immediately after wrist control)
-4. **Drive chest weight down**: Lower your chest onto their shoulder and upper arm, pinning them flat to the mat. Your weight should drive through your sternum into their shoulder joint, eliminating their ability to rotate or bridge. (Timing: Simultaneous with grip completion)
-5. **Clear trapped leg**: While maintaining the Kimura grip, work to extract your trapped leg from half guard. Use short hip movements and knee pressure against their thigh. The Kimura control prevents them from adjusting or resweeping. (Timing: 5-10 seconds of controlled extraction)
-6. **Rotate arm for finish**: With your leg cleared, step your near-side leg over their head or hip to stabilize. Rotate their wrist toward their hip while lifting their elbow with your grip. Use your entire body rotation rather than just arm strength to apply the shoulder lock. (Timing: Controlled application with opponent's tap opportunity)
+1. **Identify arm exposure**: Recognize when opponent exposes their near-side arm through underhook attempts, frames against your hip, or reaching across your body. This exposure is the trigger for the Kimura attack.
+2. **Control the wrist**: With your same-side hand (if attacking their right arm, use your right hand), grip their wrist firmly. Use a C-grip with your thumb on the same side as your fingers for maximum control. Pull their wrist toward your hip.
+3. **Thread arm and establish figure-four**: Thread your opposite arm underneath their tricep from the outside, reaching to grip your own wrist. Lock the figure-four grip tightly, keeping your elbows pinched together and pressed against your ribs.
+4. **Drive chest weight down**: Lower your chest onto their shoulder and upper arm, pinning them flat to the mat. Your weight should drive through your sternum into their shoulder joint, eliminating their ability to rotate or bridge.
+5. **Clear trapped leg**: While maintaining the Kimura grip, work to extract your trapped leg from half guard. Use short hip movements and knee pressure against their thigh. The Kimura control prevents them from adjusting or resweeping.
+6. **Rotate arm for finish**: With your leg cleared, step your near-side leg over their head or hip to stabilize. Rotate their wrist toward their hip while lifting their elbow with your grip. Use your entire body rotation rather than just arm strength to apply the shoulder lock.
 
 
 </section>
@@ -253,19 +253,15 @@ From a strategic perspective, the Kimura from Half Guard integrates seamlessly w
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Drill the figure-four grip entry from various arm exposures. Practice wrist control first, then threading the second arm underneath. Focus on keeping elbows tight and grip structure compact. Partner offers no resistance.
-(Resistance: None)
 
 **Week 3-4** - Position and pressure
 Add chest weight application and hip pressure to the drill sequence. Practice driving shoulder into opponent's armpit while maintaining the Kimura grip. Partner provides light frames and movement to test your pressure distribution.
-(Resistance: Light)
 
 **Week 5-6** - Integration with passing
 Combine Kimura attacks with half guard passing sequences. Practice using Kimura control to clear your trapped leg and transition to mount or side control. Work the submission as secondary to positional advancement. Partner defends actively.
-(Resistance: Medium)
 
 **Week 7+** - Live application and counters
 Apply the Kimura in live rolling from half guard top. Focus on recognizing arm exposure opportunities and chaining the Kimura with other attacks when countered. Develop reaction to common defenses like arm straightening and grip fighting.
-(Resistance: Full)
 
 
 

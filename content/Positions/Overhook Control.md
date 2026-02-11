@@ -227,7 +227,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 - **[[Kimura Trap]]** - Direct submission control position accessed when opponent pulls their arm back against overhook pressure
 
-- **[[D'arce Control]]** - Front headlock submission position entered when opponent drives forward into overhook control
+- **[[Darce Control]]** - Front headlock submission position entered when opponent drives forward into overhook control
 
 - **[[Clinch]]** - Standing position where overhook control is frequently established during initial grip fighting exchanges
 

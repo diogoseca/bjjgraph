@@ -157,7 +157,7 @@ The technique operates on the fundamental principle that the gogoplata's structu
 Strategically, this escape serves as the primary pathway out of gogoplata control when emergency rolling options are unavailable or undesirable due to back exposure risks. The successful completion leaves the defender in half guard bottom position, which while not ideal, represents a massive positional improvement from the immediate submission threat. Understanding this escape is essential for any practitioner who trains with flexible guard players employing rubber guard systems.
 
 **From Position**: [[Gogoplata Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess and stabilize**: Evaluate the submission tightness by checking opponent's hip elevation and foot depth behind your head. Turn your chin slightly toward the attacking leg to reduce direct trachea compression and create breathing space for the escape sequence. (Timing: Immediately upon recognizing the position)
-2. **Establish hip control**: Place both hands on opponent's hips rather than grabbing at the choking leg. This prevents them from re-elevating their hips to maintain optimal submission angle and provides base for your escape movements. (Timing: Within first 2-3 seconds)
-3. **Drive hips down**: Use your hands on their hips to drive their pelvis toward the mat, reducing the perpendicular angle of the shin across your throat. This decreases submission pressure and creates opportunity for head extraction. (Timing: Apply steady pressure)
-4. **Address foot position**: While maintaining hip pressure, work one hand to control the foot behind your head. Push the foot forward over the top of your head rather than pulling it backward. This removes the structural anchor preventing your escape. (Timing: Once hips are controlled)
-5. **Extract head laterally**: With the foot position loosened, move your head laterally and downward rather than straight back. Slip your chin under the shin and extract your head through the opening created by the compromised foot-behind-head configuration. (Timing: As foot clears your head)
-6. **Secure half guard**: As your head clears, immediately trap one of opponent's legs between yours to establish half guard. Control their knee and establish frames to prevent them from recovering rubber guard or attempting another gogoplata entry. (Timing: Immediately upon extraction)
+1. **Assess and stabilize**: Evaluate the submission tightness by checking opponent's hip elevation and foot depth behind your head. Turn your chin slightly toward the attacking leg to reduce direct trachea compression and create breathing space for the escape sequence.
+2. **Establish hip control**: Place both hands on opponent's hips rather than grabbing at the choking leg. This prevents them from re-elevating their hips to maintain optimal submission angle and provides base for your escape movements.
+3. **Drive hips down**: Use your hands on their hips to drive their pelvis toward the mat, reducing the perpendicular angle of the shin across your throat. This decreases submission pressure and creates opportunity for head extraction.
+4. **Address foot position**: While maintaining hip pressure, work one hand to control the foot behind your head. Push the foot forward over the top of your head rather than pulling it backward. This removes the structural anchor preventing your escape.
+5. **Extract head laterally**: With the foot position loosened, move your head laterally and downward rather than straight back. Slip your chin under the shin and extract your head through the opening created by the compromised foot-behind-head configuration.
+6. **Secure half guard**: As your head clears, immediately trap one of opponent's legs between yours to establish half guard. Control their knee and establish frames to prevent them from recovering rubber guard or attempting another gogoplata entry.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, this escape serves as the primary pathway out of gogoplata contro
 ## Training Progressions
 **Week 1-2** - Position recognition and breathing
 Partner establishes gogoplata control at 30% tightness. Practice identifying the position, adjusting chin for breathing space, and maintaining calm composure. No escape attempts yet - purely position familiarization and mental conditioning.
-(Resistance: None)
 
 **Week 3-4** - Hip control mechanics
 Partner maintains gogoplata at 50% tightness while you practice establishing hip control and driving their pelvis to the mat. Focus on hand placement on hips and maintaining constant downward pressure while partner offers light resistance.
-(Resistance: Light)
 
 **Week 5-6** - Complete extraction sequence
 Perform full escape sequence against medium resistance. Partner attempts to re-establish position during your extraction. Practice chaining hip control to foot removal to head extraction to half guard establishment as continuous flow.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Include escape in positional sparring from gogoplata control. Partner applies full submission pressure while you execute escape. Develop recognition of timing windows and ability to escape under competition-level threat.
-(Resistance: Full)
 
 
 

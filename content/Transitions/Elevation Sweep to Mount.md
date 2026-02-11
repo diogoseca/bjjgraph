@@ -157,7 +157,7 @@ Strategically, the Elevation Sweep represents the highest-reward option from Rev
 This sweep integrates naturally into the Reverse X-Guard attack system, functioning as the primary direct sweep when the opponent fails to widen their base or drop their hips defensively. When the opponent defends by widening stance or lowering weight, alternative attacks like the Reverse X-Guard Sweep (technical sweep) or transitions to Single Leg X-Guard become available, creating an offensive system where each defense opens new attack vectors.
 
 **From Position**: [[Reverse X-Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This sweep integrates naturally into the Reverse X-Guard attack system, function
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure hooks and grip**: Establish strong primary hook behind opponent's knee with your outside leg, secondary hook controlling their hip with inside leg. Secure sleeve or wrist grip on same side as hooks to control their posting ability. (Timing: Before opponent establishes defensive grips)
-2. **Load hips under center**: Slide your hips underneath the opponent's center of gravity by extending your body diagonally. Your hooks should create a platform directly under their standing leg while your shoulders anchor to the mat. (Timing: When opponent's weight is centered)
-3. **Pull upper body forward**: Use your controlling grip to pull the opponent's upper body toward you, breaking their posture forward. This loads weight onto your hooks and prevents them from stepping back to recover balance. (Timing: Immediately before hip extension)
-4. **Explosive hip elevation**: Drive your hips upward explosively while extending both legs simultaneously. The primary hook lifts their knee while the secondary hook pushes their hip backward, creating rotational force that topples them over you. (Timing: Commit fully once opponent's weight is loaded)
-5. **Guide and follow**: As opponent falls backward over your body, maintain grip control and follow their momentum by turning your body in the direction of the sweep. Release hooks as you transition from under to on top. (Timing: During opponent's fall)
-6. **Establish mount**: Land with your knees on either side of opponent's torso, immediately establishing heavy hip pressure at their solar plexus. Control their arms or establish collar grips to prevent early escape attempts. (Timing: Upon landing)
+1. **Secure hooks and grip**: Establish strong primary hook behind opponent's knee with your outside leg, secondary hook controlling their hip with inside leg. Secure sleeve or wrist grip on same side as hooks to control their posting ability.
+2. **Load hips under center**: Slide your hips underneath the opponent's center of gravity by extending your body diagonally. Your hooks should create a platform directly under their standing leg while your shoulders anchor to the mat.
+3. **Pull upper body forward**: Use your controlling grip to pull the opponent's upper body toward you, breaking their posture forward. This loads weight onto your hooks and prevents them from stepping back to recover balance.
+4. **Explosive hip elevation**: Drive your hips upward explosively while extending both legs simultaneously. The primary hook lifts their knee while the secondary hook pushes their hip backward, creating rotational force that topples them over you.
+5. **Guide and follow**: As opponent falls backward over your body, maintain grip control and follow their momentum by turning your body in the direction of the sweep. Release hooks as you transition from under to on top.
+6. **Establish mount**: Land with your knees on either side of opponent's torso, immediately establishing heavy hip pressure at their solar plexus. Control their arms or establish collar grips to prevent early escape attempts.
 
 
 </section>
@@ -253,19 +253,15 @@ This sweep integrates naturally into the Reverse X-Guard attack system, function
 ## Training Progressions
 **Week 1-2** - Hook placement and hip loading
 Drill establishing Reverse X-Guard hooks and positioning hips underneath partner. Practice loading weight onto hooks without attempting full sweep. Partner stands stationary providing feedback on hook pressure and positioning.
-(Resistance: None)
 
 **Week 3-4** - Elevation mechanics and timing
 Add the elevation component with partner providing light resistance. Focus on coordinating grip pull with hip extension. Partner gives slight forward pressure to simulate realistic weight distribution. Practice following the sweep to mount.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chains
 Partner provides common defensive reactions (base widening, stepping back, posting). Practice recognizing counters and transitioning to appropriate alternatives. Develop automatic chain from Elevation Sweep to Single Leg X to Ashi Garami based on reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application and integration
 Positional sparring starting from Reverse X-Guard Bottom. Full resistance with goal of completing sweep or transitioning to advantageous position. Integrate with full guard system including entries from De La Riva and butterfly positions.
-(Resistance: Full)
 
 
 

@@ -362,11 +362,11 @@ Specific training for transitioning from scarf hold bottom to turtle position. P
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 30% | 5% |
-| Intermediate | 40% | 45% | 12% |
-| Advanced     | 60% | 65% | 25% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 50% |
+| Advancement Probability | 55% |
+| Submission Probability | 18% |
 
 **Average Time in Position**: 60-120 seconds before escape or submission
 

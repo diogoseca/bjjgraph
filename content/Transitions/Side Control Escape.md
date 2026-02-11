@@ -153,7 +153,7 @@ description: "Learn Side Control Escape in BJJ. Step-by-step execution from Side
 The Side Control Escape is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu, representing a critical survival skill for practitioners at all levels. When trapped in side control, the bottom player faces constant pressure, point accumulation, and the threat of submission. This escape sequence uses precise framing, hip movement, and timing to create space and recover guard position. The technique emphasizes creating defensive frames to manage opponent's pressure while systematically working to turn the hips, insert the knee shield, and reestablish guard. Understanding side control escapes is essential because side control is one of the most common dominant positions in both gi and no-gi grappling. The escape requires patience, proper breathing under pressure, and the discipline to execute technical movements rather than relying on explosive strength. Mastering this fundamental escape provides the foundation for more advanced guard recovery systems and builds the defensive awareness necessary for high-level competition.
 
 **From Position**: [[Side Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -203,12 +203,12 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frames**: Place bottom forearm against opponent's hip with elbow tight to your ribs, creating a rigid frame. Top hand frames against opponent's shoulder or neck, keeping elbow inside to prevent crossface. Both frames work together to create structural barriers preventing opponent's weight from crushing down onto your chest and face. (Timing: Immediately upon reaching side control bottom position)
-2. **Create initial space with bridge**: Bridge powerfully upward, driving your shoulder and hips toward the ceiling while pushing through both frames. This momentarily disrupts opponent's base and creates the first critical inches of space needed for hip movement. Time the bridge when opponent is adjusting their position or attempting to consolidate control. (Timing: When opponent shifts weight or adjusts grips)
-3. **Execute hip escape (shrimp)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling bottom knee toward chest and pushing off top foot. Slide your hips back 6-12 inches while maintaining strong frames to prevent opponent from following your movement. This creates the space needed to begin turning your hips. (Timing: Immediately following bridge, during brief moment of disruption)
-4. **Turn hips to face opponent**: Use the created space to begin rotating your hips toward opponent, bringing your knees between you and them. Keep bottom arm framing against hip while top arm controls shoulder or bicep. This rotation is critical - you cannot recover guard while remaining flat on your back facing the ceiling. (Timing: Continuous movement following initial hip escape)
-5. **Insert knee shield or butterfly hook**: As hips turn, bring your inside knee across opponent's centerline, establishing either a knee shield by placing shin against their torso, or threading a butterfly hook under their thigh. This barrier prevents opponent from resquashing you flat and provides structure for guard recovery. (Timing: As soon as enough space exists to fit knee between bodies)
-6. **Recover full guard position**: With knee shield or butterfly hook established, continue hip movement to bring second leg into play. Establish closed guard by locking ankles, or maintain open guard with both feet on opponent's hips or both butterfly hooks. Immediately begin offensive guard work to prevent opponent from attempting to pass again. (Timing: Once knee shield provides stable barrier against opponent's pressure)
+1. **Establish defensive frames**: Place bottom forearm against opponent's hip with elbow tight to your ribs, creating a rigid frame. Top hand frames against opponent's shoulder or neck, keeping elbow inside to prevent crossface. Both frames work together to create structural barriers preventing opponent's weight from crushing down onto your chest and face.
+2. **Create initial space with bridge**: Bridge powerfully upward, driving your shoulder and hips toward the ceiling while pushing through both frames. This momentarily disrupts opponent's base and creates the first critical inches of space needed for hip movement. Time the bridge when opponent is adjusting their position or attempting to consolidate control.
+3. **Execute hip escape (shrimp)**: As you land from the bridge, immediately shrimp your hips away from opponent by pulling bottom knee toward chest and pushing off top foot. Slide your hips back 6-12 inches while maintaining strong frames to prevent opponent from following your movement. This creates the space needed to begin turning your hips.
+4. **Turn hips to face opponent**: Use the created space to begin rotating your hips toward opponent, bringing your knees between you and them. Keep bottom arm framing against hip while top arm controls shoulder or bicep. This rotation is critical - you cannot recover guard while remaining flat on your back facing the ceiling.
+5. **Insert knee shield or butterfly hook**: As hips turn, bring your inside knee across opponent's centerline, establishing either a knee shield by placing shin against their torso, or threading a butterfly hook under their thigh. This barrier prevents opponent from resquashing you flat and provides structure for guard recovery.
+6. **Recover full guard position**: With knee shield or butterfly hook established, continue hip movement to bring second leg into play. Establish closed guard by locking ankles, or maintain open guard with both feet on opponent's hips or both butterfly hooks. Immediately begin offensive guard work to prevent opponent from attempting to pass again.
 
 
 </section>
@@ -254,23 +254,18 @@ The Side Control Escape is one of the most fundamental defensive techniques in B
 ## Training Progressions
 **Week 1-2: Foundation Phase** - Frame mechanics and basic hip movement
 Practice establishing frames from side control bottom with no pressure. Partner maintains light position while you drill proper frame placement, bridge mechanics, and basic shrimping movement. Focus on technical precision of each component before combining them.
-(Resistance: None)
 
 **Week 3-4: Connection Phase** - Linking movements into escape sequence
 Begin connecting bridge, shrimp, and hip turn into flowing sequence. Partner maintains moderate pressure and allows escape when performed correctly. Emphasis on timing and rhythm of combined movements. Practice both successful escapes and recovery when opponent counters.
-(Resistance: Light)
 
 **Week 5-8: Pressure Adaptation Phase** - Escaping under increasing pressure
 Partner increases pressure progressively, forcing you to maintain frames and execute technique under realistic conditions. Practice breathing and staying calm under heavy chest pressure. Begin recognizing windows of opportunity when opponent shifts weight or adjusts position.
-(Resistance: Medium)
 
 **Week 9-12: Counter Development Phase** - Dealing with common defensive responses
 Partner actively attempts to prevent escape using crossface, underhook, trapped arm, and transition to mount. Practice recognizing and countering each defensive pattern. Develop backup options and chain multiple escape attempts together when first attempt is defended.
-(Resistance: Medium)
 
 **Week 13+: Integration Phase** - Full resistance escape and guard recovery
 Execute escapes during positional sparring with partner using maximum effort to maintain side control. Focus on efficiency, timing, and energy management. Practice immediate offensive action upon recovering guard to prevent opponent from resetting pass attempt.
-(Resistance: Full)
 
 
 

@@ -93,17 +93,29 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 ### Available Transitions
 
 
-- **[[50-50 Entry]]** (16% of attempts)
+- **[[50-50 Entry]]** (8% of attempts)
 
-- **[[Single Leg X Entry]]** (17% of attempts)
+- **[[Single Leg X Entry]]** (9% of attempts)
 
-- **[[Granby Roll Escape]]** (14% of attempts)
+- **[[Granby Roll Escape]]** (7% of attempts)
 
-- **[[Reverse X-Guard Entry]]** (16% of attempts)
+- **[[Reverse X-Guard Entry]]** (8% of attempts)
 
-- **[[50-50 Guard to Single Leg X-Guard]]** (17% of attempts)
+- **[[50-50 Guard to Single Leg X-Guard]]** (9% of attempts)
 
-- **[[Hip Escape to Guard]]** (20% of attempts)
+- **[[Hip Escape to Guard]]** (11% of attempts)
+
+- **[[Clear leg and transition to X-Guard]]** (8% of attempts)
+
+- **[[Counter-entangle to 50-50 Guard]]** (8% of attempts)
+
+- **[[Extract leg and establish Single Leg X]]** (8% of attempts)
+
+- **[[Granby roll to reverse position]]** (8% of attempts)
+
+- **[[Limp leg extraction to Half Guard]]** (8% of attempts)
+
+- **[[Reverse the entanglement to Outside Ashi]]** (8% of attempts)
 
 
 ### Common Mistakes

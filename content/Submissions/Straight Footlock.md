@@ -157,7 +157,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 **Type**: Ankle Lock
 **Target Area**: Ankle joint and Achilles tendon
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -235,12 +235,12 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Ashi Garami control**: Secure the leg entanglement with your inside leg crossing over opponent's trapped leg at the hip, your outside leg hooking behind their knee or posted on the mat. Ensure your hips are positioned higher than their knee joint to establish proper mechanical advantage for the finish. (Timing: Take 2-3 seconds to settle into stable position) [Pressure: Light]
-2. **Secure the foot grip**: Wrap both arms around opponent's foot, ensuring the blade of your forearm (thumb-side radius bone) is positioned directly across their Achilles tendon. The foot should be pulled into your armpit or pressed against your ribcage. Clasp your hands together using either a gable grip or figure-four grip, with elbows tight to your body. (Timing: 1-2 seconds for grip establishment) [Pressure: Moderate]
-3. **Adjust hip alignment**: Angle your hips at approximately 45 degrees to opponent's body, creating a strong structural line from your shoulders through your hips. Your hips should be slightly higher than their trapped knee. Lean your upper body backward while maintaining tight arm compression on the foot. (Timing: 1 second adjustment) [Pressure: Moderate]
-4. **Pinch knees together**: Squeeze your knees toward each other to trap opponent's leg and prevent external rotation of their hip, which is their primary escape mechanism. This creates a vice-like control that immobilizes the leg while you prepare to extend. (Timing: Immediate and constant) [Pressure: Firm]
-5. **Initiate hip extension**: Drive your hips backward away from opponent while simultaneously pulling their foot tight to your chest. This creates dorsiflexion at the ankle joint. The movement should be smooth and controlled, not explosive. Your forearm acts as a fulcrum point against the Achilles tendon while your arms compress the foot. (Timing: 3-4 seconds progressive pressure increase) [Pressure: Firm]
-6. **Maintain position until tap**: Continue steady backward hip pressure while keeping arms locked tight and knees pinched. Monitor partner for tap signals constantly. The moment any tap signal occurs, immediately cease all pressure and begin release protocol. Never continue pressure after submission signal. (Timing: Hold until tap, typically 2-5 seconds) [Pressure: Maximum]
+1. **Establish Ashi Garami control**: Secure the leg entanglement with your inside leg crossing over opponent's trapped leg at the hip, your outside leg hooking behind their knee or posted on the mat. Ensure your hips are positioned higher than their knee joint to establish proper mechanical advantage for the finish. (Timing: Take 2-3 seconds to settle into stable position)
+2. **Secure the foot grip**: Wrap both arms around opponent's foot, ensuring the blade of your forearm (thumb-side radius bone) is positioned directly across their Achilles tendon. The foot should be pulled into your armpit or pressed against your ribcage. Clasp your hands together using either a gable grip or figure-four grip, with elbows tight to your body. (Timing: 1-2 seconds for grip establishment)
+3. **Adjust hip alignment**: Angle your hips at approximately 45 degrees to opponent's body, creating a strong structural line from your shoulders through your hips. Your hips should be slightly higher than their trapped knee. Lean your upper body backward while maintaining tight arm compression on the foot. (Timing: 1 second adjustment)
+4. **Pinch knees together**: Squeeze your knees toward each other to trap opponent's leg and prevent external rotation of their hip, which is their primary escape mechanism. This creates a vice-like control that immobilizes the leg while you prepare to extend. (Timing: Immediate and constant)
+5. **Initiate hip extension**: Drive your hips backward away from opponent while simultaneously pulling their foot tight to your chest. This creates dorsiflexion at the ankle joint. The movement should be smooth and controlled, not explosive. Your forearm acts as a fulcrum point against the Achilles tendon while your arms compress the foot. (Timing: 3-4 seconds progressive pressure increase)
+6. **Maintain position until tap**: Continue steady backward hip pressure while keeping arms locked tight and knees pinched. Monitor partner for tap signals constantly. The moment any tap signal occurs, immediately cease all pressure and begin release protocol. Never continue pressure after submission signal. (Timing: Hold until tap, typically 2-5 seconds)
 
 
 </section>
@@ -260,25 +260,25 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Pulling with the arms instead of driving with the hips [Low DANGER]
+- **Mistake**: Pulling with the arms instead of driving with the hips
   - **Consequence**: Dramatically reduces submission effectiveness, wastes energy, and allows opponent time to defend or escape
   - **Correction**: Focus on hip extension as the primary pressure source. Arms should compress and hold, while hips create the finishing force by driving backward
-- **Mistake**: Positioning the bicep or wrist against Achilles instead of forearm blade [Low DANGER]
+- **Mistake**: Positioning the bicep or wrist against Achilles instead of forearm blade
   - **Consequence**: Loss of structural integrity in the finish, allows opponent to pull foot free, reduces pain compliance significantly
   - **Correction**: Adjust arm position so the bony ridge of your forearm (thumb-side radius) is the contact point against their Achilles tendon, creating a hard surface for the fulcrum
-- **Mistake**: Failing to control hip rotation with knee pinch [Low DANGER]
+- **Mistake**: Failing to control hip rotation with knee pinch
   - **Consequence**: Opponent easily rotates out of the submission by externally rotating their hip, escaping before any real pressure develops
   - **Correction**: Actively squeeze knees together throughout the entire finish, creating a vice that prevents leg rotation and locks opponent in place
-- **Mistake**: Hips positioned too low or level with opponent's knee [Medium DANGER]
+- **Mistake**: Hips positioned too low or level with opponent's knee
   - **Consequence**: Eliminates mechanical advantage, makes submission nearly impossible to finish, allows opponent to easily come on top
   - **Correction**: Ensure hips are elevated above opponent's knee joint before attempting finish. Scoot backward if necessary to create proper angle
-- **Mistake**: Explosive jerking or spiking the submission [CRITICAL DANGER]
+- **Mistake**: Explosive jerking or spiking the submission
   - **Consequence**: High risk of serious ankle ligament damage or Achilles rupture, potential career-ending injury to training partner
   - **Correction**: Apply pressure progressively over 3-5 seconds minimum. The submission should feel like a gradually increasing vise, not a sudden spike
-- **Mistake**: Continuing pressure after tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after tap signal
   - **Consequence**: Guaranteed injury to partner, violation of training safety protocols, potential for serious ankle or tendon damage
   - **Correction**: Maintain constant awareness of partner's tap signals. The instant any tap occurs, cease all pressure immediately and begin controlled release protocol
-- **Mistake**: Neglecting to secure opponent's heel in armpit or against ribs [Low DANGER]
+- **Mistake**: Neglecting to secure opponent's heel in armpit or against ribs
   - **Consequence**: Opponent can point toes and slip foot through the grip, escaping the submission entirely
   - **Correction**: Pull heel deep into armpit and squeeze it against ribcage before beginning hip extension. The heel should feel locked in place
 
@@ -345,43 +345,6 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Weeks 1-2)
-- Focus: Learn proper Ashi Garami positioning, foot grip mechanics, and hip alignment without applying any finishing pressure. Study anatomy of ankle joint and Achilles tendon to understand injury mechanisms.
-- Resistance: None
-- Safety: Zero pressure application - focus entirely on position and structure. Partner remains completely relaxed. Instructor supervision mandatory.
-
-**Slow Controlled Practice** (Weeks 3-4)
-- Focus: Practice entry sequences and proper grip placement with partner providing zero resistance. Begin applying minimal pressure (10-15% maximum) with extremely slow hip extension over 10+ seconds. Partner taps early and often.
-- Resistance: Zero resistance
-- Safety: Mandatory 10+ second application time. Partner taps at first sensation of pressure. Practice tap recognition and immediate release protocol repeatedly.
-
-**Progressive Resistance Introduction** (Weeks 5-8)
-- Focus: Partner begins providing mild defensive frames and basic escapes while you maintain position. Increase pressure to 30-40% while maintaining 5-7 second minimum application time. Emphasis on control before submission.
-- Resistance: Mild resistance
-- Safety: Partner still taps early before pain threshold. Focus on recognizing positional weakness before attempting finish. Multiple rounds of position-only training.
-
-**Realistic Defensive Scenarios** (Weeks 9-12)
-- Focus: Partner provides realistic defensive responses including hip rotation, sitting up, and grip fighting. Practice transitions between Ashi variations. Build to 60-70% pressure with 4-5 second application minimum.
-- Resistance: Realistic resistance
-- Safety: Both partners must have clear verbal communication about pressure levels. Introduce positional sparring rounds with submission attempts ending position. Begin competition rule restriction awareness.
-
-**Live Application** (Weeks 13-16)
-- Focus: Integrate straight footlock into live rolling from various positions. Chain with other submissions and sweeps. Apply 80-90% pressure with 3-5 second minimum application in training context (never 100% spike).
-- Resistance: Full resistance
-- Safety: Maintain training application speed distinct from competition. Partner responsibility to tap earlier than competition. Regular check-ins about ankle soreness or fatigue. Limit repeated applications on same leg.
-
-**Competition Preparation** (Weeks 17+)
-- Focus: Refine entries from guard pulls, scrambles, and passing situations. Develop combination attacks. Understand rule set restrictions (IBJJF vs sub-only vs no-gi). Mental preparation for recognizing taps under pressure.
-- Resistance: Full resistance
-- Safety: In competition, be prepared for delayed taps and maintain control. In training, continue using 3-5 second minimum application regardless of experience level. Regular review of injury prevention protocols.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -433,6 +396,7 @@ The Straight Footlock, also known as the Straight Ankle Lock, represents the fun
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

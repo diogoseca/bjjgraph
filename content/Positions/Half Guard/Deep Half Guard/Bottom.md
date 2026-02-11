@@ -356,11 +356,11 @@ Start in deep half guard bottom position. Bottom player works to sweep or take b
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 15% |
-| Intermediate | 60% | 50% | 25% |
-| Advanced     | 75% | 65% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 58% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds before sweep or pass attempt
 

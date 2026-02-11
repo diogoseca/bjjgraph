@@ -12,11 +12,6 @@
     "no-gi",
     "competition"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "Ippon Seoi Nage is a classical judo shoulder throw adapted for Brazilian Jiu-Jitsu competition and self-defense. The technique involves entering beneath your opponent's center of gravity, loading them onto your back and shoulders, then executing a powerful forward rotation to throw them to the mat. Unlike many BJJ-specific takedowns, Ippon Seoi Nage requires significant technical precision in grip fighting, footwork, and kuzushi (off-balancing) to execute successfully against resisting opponents.\n\nIn the BJJ context, Ippon Seoi Nage offers several strategic advantages: it generates immediate top position with forward momentum, often landing you in side control or knee-on-belly; it works effectively in both gi and no-gi situations with appropriate grip adaptations; and it creates psychological pressure on opponents who must respect your throwing threat. The technique is particularly effective against opponents who maintain upright posture and resist guard pulls, making it a valuable addition to any standing game.\n\nThe modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing against forward pressure, and smooth transitions to ground control positions. Successful execution requires coordinating multiple elements: breaking your opponent's balance forward and to the side, achieving deep penetration with your hips below theirs, maintaining continuous pulling action throughout the throw, and controlling the landing to secure top position immediately.",
   "key_principles": [
     "Break opponent's balance forward before committing to entry",
@@ -39,38 +34,32 @@
     {
       "step_number": 1,
       "action": "Establish grips and off-balance",
-      "description": "Secure traditional sleeve and lapel grips (gi) or wrist and shoulder control (no-gi). Pull opponent's sleeve grip downward and forward while lifting lapel grip upward, breaking their posture forward. Opponent should feel pulled onto their toes with weight shifting forward.",
-      "timing": "2-3 seconds of grip fighting before entry"
+      "description": "Secure traditional sleeve and lapel grips (gi) or wrist and shoulder control (no-gi). Pull opponent's sleeve grip downward and forward while lifting lapel grip upward, breaking their posture forward. Opponent should feel pulled onto their toes with weight shifting forward."
     },
     {
       "step_number": 2,
       "action": "Entry step",
-      "description": "Step your lead foot (same side as lapel grip) deeply across opponent's centerline, positioning it between their feet or just beyond. Your foot should point in the direction you'll throw them. This entry step commits you to the throw and must be decisive.",
-      "timing": "Explosive movement coordinated with pulling action"
+      "description": "Step your lead foot (same side as lapel grip) deeply across opponent's centerline, positioning it between their feet or just beyond. Your foot should point in the direction you'll throw them. This entry step commits you to the throw and must be decisive."
     },
     {
       "step_number": 3,
       "action": "Hip insertion and loading",
-      "description": "Pivot on your lead foot while swinging your back leg around in a circular motion. Drop your hips below opponent's hip line by bending your knees. Simultaneously rotate your torso so your back faces opponent. Pull their arm across your chest and shoulder. Your hips should make contact with their lower abdomen/thigh area.",
-      "timing": "Continuous motion from entry step - no pause"
+      "description": "Pivot on your lead foot while swinging your back leg around in a circular motion. Drop your hips below opponent's hip line by bending your knees. Simultaneously rotate your torso so your back faces opponent. Pull their arm across your chest and shoulder. Your hips should make contact with their lower abdomen/thigh area."
     },
     {
       "step_number": 4,
       "action": "Load opponent onto back",
-      "description": "Continue pulling sleeve arm across your body while maintaining upward lift on lapel side. Straighten your legs partially to lift opponent's weight onto your back and shoulders. Their feet should leave the ground as their weight transfers completely onto you. Keep your back straight and abs engaged.",
-      "timing": "Explosive upward drive with legs"
+      "description": "Continue pulling sleeve arm across your body while maintaining upward lift on lapel side. Straighten your legs partially to lift opponent's weight onto your back and shoulders. Their feet should leave the ground as their weight transfers completely onto you. Keep your back straight and abs engaged."
     },
     {
       "step_number": 5,
       "action": "Execute throw",
-      "description": "Bend forward at the waist while maintaining sleeve pull and continuing leg drive. Pull sleeve arm downward in arc toward the mat. Your opponent rotates over your shoulder/back in forward rolling motion. Drive your hips backward slightly to generate additional rotation power.",
-      "timing": "Smooth, accelerating motion - not jerky"
+      "description": "Bend forward at the waist while maintaining sleeve pull and continuing leg drive. Pull sleeve arm downward in arc toward the mat. Your opponent rotates over your shoulder/back in forward rolling motion. Drive your hips backward slightly to generate additional rotation power."
     },
     {
       "step_number": 6,
       "action": "Land and establish position",
-      "description": "As opponent impacts the mat, maintain sleeve control and immediately drop your weight onto them. Land in side control position by driving your chest into theirs and establishing crossface with your free arm. Secure grips and distribute your weight to prevent immediate escape attempts.",
-      "timing": "Transition to ground control within 1-2 seconds of landing"
+      "description": "As opponent impacts the mat, maintain sleeve control and immediately drop your weight onto them. Land in side control position by driving your chest into theirs and establishing crossface with your free arm. Secure grips and distribute your weight to prevent immediate escape attempts."
     }
   ],
   "common_counters": [
@@ -131,32 +120,27 @@
     {
       "phase": "Week 1-2: Static Drilling",
       "focus": "Footwork and hip positioning mechanics",
-      "description": "Partner stands still with light grips. Practice entry step, hip insertion, and loading motion slowly. Focus on proper depth and hip height. Repeat 20-30 times per session until movement feels natural.",
-      "resistance_level": "None"
+      "description": "Partner stands still with light grips. Practice entry step, hip insertion, and loading motion slowly. Focus on proper depth and hip height. Repeat 20-30 times per session until movement feels natural."
     },
     {
       "phase": "Week 3-4: Cooperative Throwing",
       "focus": "Complete throw execution with willing partner",
-      "description": "Partner allows throw but maintains realistic grips and posture. Execute full throw including landing in side control. Emphasize smooth transitions and continuous motion. 15-20 repetitions per session.",
-      "resistance_level": "Light"
+      "description": "Partner allows throw but maintains realistic grips and posture. Execute full throw including landing in side control. Emphasize smooth transitions and continuous motion. 15-20 repetitions per session."
     },
     {
       "phase": "Week 5-8: Resistance Building",
       "focus": "Throws against progressive resistance",
-      "description": "Partner begins resisting moderately - posting hands, widening base, but not fully defending. Learn to recognize when throw is available versus when to abandon. Practice grip fighting before throw. 10-15 attempts per session.",
-      "resistance_level": "Medium"
+      "description": "Partner begins resisting moderately - posting hands, widening base, but not fully defending. Learn to recognize when throw is available versus when to abandon. Practice grip fighting before throw. 10-15 attempts per session."
     },
     {
       "phase": "Week 9-12: Situational Sparring",
       "focus": "Throws in standing-only rounds",
-      "description": "3-minute rounds starting from standing with goal of executing throw. Partner defends realistically but both focus on standup game. Begin recognizing setup opportunities and timing. 5-8 rounds per session.",
-      "resistance_level": "Full"
+      "description": "3-minute rounds starting from standing with goal of executing throw. Partner defends realistically but both focus on standup game. Begin recognizing setup opportunities and timing. 5-8 rounds per session."
     },
     {
       "phase": "Month 4+: Competition Integration",
       "focus": "Throws in full sparring and competition",
-      "description": "Attempt throw opportunities during regular sparring rounds. Study successful competition footage. Develop throw setups from grip fighting sequences. Refine timing and decision-making about when to commit.",
-      "resistance_level": "Full"
+      "description": "Attempt throw opportunities during regular sparring rounds. Study successful competition footage. Develop throw setups from grip fighting sequences. Refine timing and decision-making about when to commit."
     }
   ],
   "variants_and_adaptations": [
@@ -184,33 +168,27 @@
   "knowledge_assessment": [
     {
       "question": "Why must your hips be lower than your opponent's hips during the loading phase of Ippon Seoi Nage?",
-      "answer": "Your hips must be lower than opponent's hips to create the mechanical advantage necessary to lift their entire body weight onto your back and shoulders. If your hips are at the same level or higher, you cannot generate sufficient lifting power and the throw will fail. The lower hip position also creates the fulcrum point over which opponent rotates during the throw.",
-      "difficulty": "Beginner"
+      "answer": "Your hips must be lower than opponent's hips to create the mechanical advantage necessary to lift their entire body weight onto your back and shoulders. If your hips are at the same level or higher, you cannot generate sufficient lifting power and the throw will fail. The lower hip position also creates the fulcrum point over which opponent rotates during the throw."
     },
     {
       "question": "What is the primary purpose of kuzushi (off-balancing) before attempting Ippon Seoi Nage?",
-      "answer": "Kuzushi breaks opponent's stable base and shifts their weight forward onto their toes, making them vulnerable to being lifted and thrown. Without proper kuzushi, opponent maintains stable stance and can easily defend by posting hands, widening base, or sprawling. The off-balance creates the window of opportunity where the throw can succeed against a resisting opponent.",
-      "difficulty": "Beginner"
+      "answer": "Kuzushi breaks opponent's stable base and shifts their weight forward onto their toes, making them vulnerable to being lifted and thrown. Without proper kuzushi, opponent maintains stable stance and can easily defend by posting hands, widening base, or sprawling. The off-balance creates the window of opportunity where the throw can succeed against a resisting opponent."
     },
     {
       "question": "How should you adapt Ippon Seoi Nage for no-gi situations where collar grips are unavailable?",
-      "answer": "In no-gi, replace the collar grip with an overhook or underhook control on one side while maintaining wrist control on the other side. The entry mechanics remain similar but require tighter control to prevent opponent slipping out. You may also use a two-hands-on-one-arm variation (Morote Seoi Nage) where both hands control opponent's single arm in arm drag fashion. The key is maintaining sufficient control to break posture and execute the rotating entry.",
-      "difficulty": "Intermediate"
+      "answer": "In no-gi, replace the collar grip with an overhook or underhook control on one side while maintaining wrist control on the other side. The entry mechanics remain similar but require tighter control to prevent opponent slipping out. You may also use a two-hands-on-one-arm variation (Morote Seoi Nage) where both hands control opponent's single arm in arm drag fashion. The key is maintaining sufficient control to break posture and execute the rotating entry."
     },
     {
       "question": "What should you do if your opponent successfully sprawls and pulls their hips backward as you attempt to enter for Seoi Nage?",
-      "answer": "When opponent sprawls backward during your entry, immediately abandon the Seoi Nage and transition to takedowns that capitalize on their backward momentum, such as Single Leg Takedown, Ankle Pick, or guard pull with established grips. Attempting to force the Seoi Nage against a successful sprawl defense leaves you vulnerable to counters and wastes energy. Recognize the failed entry immediately and transition to alternative attacks.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent sprawls backward during your entry, immediately abandon the Seoi Nage and transition to takedowns that capitalize on their backward momentum, such as Single Leg Takedown, Ankle Pick, or guard pull with established grips. Attempting to force the Seoi Nage against a successful sprawl defense leaves you vulnerable to counters and wastes energy. Recognize the failed entry immediately and transition to alternative attacks."
     },
     {
       "question": "Why is maintaining continuous sleeve control throughout the throw crucial for transitioning to dominant ground position?",
-      "answer": "Continuous sleeve control throughout the throw serves multiple purposes: it controls the direction and speed of opponent's rotation, prevents them from posting their arm to break the fall favorably, allows you to follow their body to the ground while maintaining connection, and positions you to immediately establish side control crossface upon landing. Without this control, opponent may land in neutral or even favorable position, negating the advantage gained from successfully executing the throw.",
-      "difficulty": "Advanced"
+      "answer": "Continuous sleeve control throughout the throw serves multiple purposes: it controls the direction and speed of opponent's rotation, prevents them from posting their arm to break the fall favorably, allows you to follow their body to the ground while maintaining connection, and positions you to immediately establish side control crossface upon landing. Without this control, opponent may land in neutral or even favorable position, negating the advantage gained from successfully executing the throw."
     },
     {
       "question": "Explain the mechanical relationship between your leg drive, hip rotation, and forward bend during the throwing phase of Ippon Seoi Nage?",
-      "answer": "The throwing power in Ippon Seoi Nage comes from coordinating three simultaneous movements: leg drive provides the upward and forward force that lifts opponent's weight; hip rotation (turning your hips away from opponent) creates the rotational momentum that whips them over your shoulder; forward bend at the waist provides the arc over which they rotate and accelerates their downward trajectory to the mat. These three movements must occur smoothly and simultaneously - isolated leg drive without rotation lacks throwing power, rotation without leg drive cannot lift opponent's weight, and bending forward before proper loading results in opponent sliding off your back rather than being thrown.",
-      "difficulty": "Advanced"
+      "answer": "The throwing power in Ippon Seoi Nage comes from coordinating three simultaneous movements: leg drive provides the upward and forward force that lifts opponent's weight; hip rotation (turning your hips away from opponent) creates the rotational momentum that whips them over your shoulder; forward bend at the waist provides the arc over which they rotate and accelerates their downward trajectory to the mat. These three movements must occur smoothly and simultaneously - isolated leg drive without rotation lacks throwing power, rotation without leg drive cannot lift opponent's weight, and bending forward before proper loading results in opponent sliding off your back rather than being thrown."
     }
   ],
   "safety_considerations": "When practicing Ippon Seoi Nage, ensure proper breakfall training before attempting live throws, as the technique generates significant rotational force and impact. Beginners should practice on crash mats and progress gradually to harder surfaces. The person being thrown must know how to tuck their chin and slap the mat properly to avoid head, neck, and shoulder injuries. When drilling, the thrower should control the speed and power of the throw to match their partner's skill level and breakfall ability. Do not practice this technique against partners who cannot breakfall safely. In competition, be aware that improper execution where you land with your weight on opponent's neck or head can result in disqualification and serious injury. Always warm up shoulders, hips, and lower back thoroughly before practicing throwing techniques to prevent muscle strains.",
@@ -270,5 +248,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

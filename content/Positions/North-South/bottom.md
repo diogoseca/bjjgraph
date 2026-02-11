@@ -374,11 +374,11 @@ Partner alternates between maintaining North-South control and setting up submis
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 5% |
-| Intermediate | 30% | 35% | 10% |
-| Advanced     | 50% | 55% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 45% |
+| Submission Probability | 15% |
 
 **Average Time in Position**: 45-90 seconds under sustained pressure before escape or submission
 

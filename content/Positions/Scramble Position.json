@@ -110,7 +110,7 @@
         },
         {
           "technique": "Darce Setup",
-          "target": "D'arce Control",
+          "target": "Darce Control",
           "probability": 50
         }
       ]
@@ -259,19 +259,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 55
+      "value": 45
     },
     "advancement_probability": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
+      "value": 60
     },
     "submission_probability": {
-      "beginner": 15,
-      "intermediate": 30,
-      "advanced": 50
+      "value": 40
     },
     "average_time": "3-8 seconds before resolution to established position or reversal"
   }

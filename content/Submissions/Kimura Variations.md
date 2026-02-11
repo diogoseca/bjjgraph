@@ -157,7 +157,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint (glenohumeral), rotator cuff, and supporting ligaments
 **Starting Position**: [[Multiple positions - Guard, Side Control, Mount, Turtle, Standing]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -238,12 +238,12 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish positional control and isolate target arm**: From your chosen position, use appropriate grips and body positioning to separate one of opponent's arms from their defensive structure. From guard, this often means breaking posture and controlling their wrist. From top positions, it requires breaking their frames and capturing an arm as they attempt to create space. From turtle or standing, it involves controlling their arm during movement transitions. (Timing: 1-2 seconds) [Pressure: Moderate]
-2. **Secure the figure-four wrist grip**: With their arm isolated, reach over and grip their wrist with your same-side hand (right hand on their right wrist or left on their left). Thread your opposite hand underneath their forearm and grab your own wrist, forming the characteristic figure-four shape. Keep your elbows tight together to prevent them from breaking the grip by pulling their elbow back. (Timing: 1-2 seconds) [Pressure: Light]
-3. **Pin the elbow against your body**: Bring their elbow tight to your torso, hip, or side of your ribcage depending on the position. This creates the fulcrum point for the shoulder lock. From guard bottom, pin their elbow to your ribs and chest. From side control or mount, pin it to your hip or lower abdomen. From turtle attacks, pin it against your side or hip. The elbow must stay connected to your body throughout the finish. (Timing: 1 second) [Pressure: Firm]
-4. **Adjust your body angle for optimal leverage**: Position your body at approximately 45-90 degrees relative to their shoulder line, depending on the specific variation. From guard, this may mean angling your hips away. From top positions, it means positioning your chest and weight to prevent their rotation while maintaining the elbow pin. Your body angle directly affects the leverage quality and your ability to control their escape attempts. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Control opponent's hip and rotational movement**: Use your legs, free arm, or body weight to prevent opponent from rolling toward the submission (which relieves pressure) or standing up to escape. From guard, use your legs to control their hips. From top, use your weight distribution and knee positioning. This control is critical before applying finishing pressure - without it, they will simply roll or stand to escape. (Timing: 1-2 seconds) [Pressure: Firm]
-6. **Initiate the shoulder lock rotation**: Begin applying submission pressure by slowly lifting their elbow upward (raising it toward their head level) while simultaneously rotating their hand toward the back of their own head or spine. The rotation should be smooth and progressive, not jerky. Focus on lifting the elbow first, then adding rotation. Their hand should move in a path that goes behind their own back. Stop immediately upon tap or any sign of structural distress. (Timing: 3-5 seconds minimum, stop on tap) [Pressure: Maximum]
+1. **Establish positional control and isolate target arm**: From your chosen position, use appropriate grips and body positioning to separate one of opponent's arms from their defensive structure. From guard, this often means breaking posture and controlling their wrist. From top positions, it requires breaking their frames and capturing an arm as they attempt to create space. From turtle or standing, it involves controlling their arm during movement transitions. (Timing: 1-2 seconds)
+2. **Secure the figure-four wrist grip**: With their arm isolated, reach over and grip their wrist with your same-side hand (right hand on their right wrist or left on their left). Thread your opposite hand underneath their forearm and grab your own wrist, forming the characteristic figure-four shape. Keep your elbows tight together to prevent them from breaking the grip by pulling their elbow back. (Timing: 1-2 seconds)
+3. **Pin the elbow against your body**: Bring their elbow tight to your torso, hip, or side of your ribcage depending on the position. This creates the fulcrum point for the shoulder lock. From guard bottom, pin their elbow to your ribs and chest. From side control or mount, pin it to your hip or lower abdomen. From turtle attacks, pin it against your side or hip. The elbow must stay connected to your body throughout the finish. (Timing: 1 second)
+4. **Adjust your body angle for optimal leverage**: Position your body at approximately 45-90 degrees relative to their shoulder line, depending on the specific variation. From guard, this may mean angling your hips away. From top positions, it means positioning your chest and weight to prevent their rotation while maintaining the elbow pin. Your body angle directly affects the leverage quality and your ability to control their escape attempts. (Timing: 1-2 seconds)
+5. **Control opponent's hip and rotational movement**: Use your legs, free arm, or body weight to prevent opponent from rolling toward the submission (which relieves pressure) or standing up to escape. From guard, use your legs to control their hips. From top, use your weight distribution and knee positioning. This control is critical before applying finishing pressure - without it, they will simply roll or stand to escape. (Timing: 1-2 seconds)
+6. **Initiate the shoulder lock rotation**: Begin applying submission pressure by slowly lifting their elbow upward (raising it toward their head level) while simultaneously rotating their hand toward the back of their own head or spine. The rotation should be smooth and progressive, not jerky. Focus on lifting the elbow first, then adding rotation. Their hand should move in a path that goes behind their own back. Stop immediately upon tap or any sign of structural distress. (Timing: 3-5 seconds minimum, stop on tap)
 
 
 </section>
@@ -263,25 +263,25 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive rotational force to finish quickly [CRITICAL DANGER]
+- **Mistake**: Applying explosive rotational force to finish quickly
   - **Consequence**: Causes catastrophic shoulder injuries including rotator cuff tears and dislocations, potentially ending training partner's career
   - **Correction**: Always apply pressure slowly and progressively over 4-6 seconds minimum. Focus on position and control first, submission second. Training partners' long-term health is more important than getting the tap.
-- **Mistake**: Failing to secure the elbow pin before rotating [Medium DANGER]
+- **Mistake**: Failing to secure the elbow pin before rotating
   - **Consequence**: Opponent easily escapes by pulling their elbow away, or you lose control of the position entirely
   - **Correction**: Always establish the elbow connection to your body before adding rotational pressure. The elbow pin is the fulcrum - without it, there's no effective leverage on the shoulder.
-- **Mistake**: Neglecting to control opponent's hips and rotational escape routes [Medium DANGER]
+- **Mistake**: Neglecting to control opponent's hips and rotational escape routes
   - **Consequence**: Opponent rolls toward the submission to escape, or stands up to relieve pressure and nullify the attack
   - **Correction**: Use your legs, weight distribution, or free arm to control their hip movement before finishing. Position your body to block rolling and standing escapes. Control first, submit second.
-- **Mistake**: Allowing elbows to separate during the figure-four grip [Low DANGER]
+- **Mistake**: Allowing elbows to separate during the figure-four grip
   - **Consequence**: Opponent breaks your grip by pulling their elbow back, completely escaping the submission attempt
   - **Correction**: Keep your elbows squeezed tightly together throughout the entire sequence. Think of your arms as a single unit wrapped around theirs, not two separate limbs.
-- **Mistake**: Continuing pressure after hearing or feeling structural 'pop' sounds from the shoulder [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after hearing or feeling structural 'pop' sounds from the shoulder
   - **Consequence**: Causes severe ligament or tendon damage, potentially requiring surgical repair and months of recovery
   - **Correction**: Immediately release all pressure if you feel or hear any popping, cracking, or grinding from the shoulder joint. These sounds indicate structural damage is occurring. Check with partner before continuing.
-- **Mistake**: Positioning your body at poor angles that give opponent easy escape paths [Medium DANGER]
+- **Mistake**: Positioning your body at poor angles that give opponent easy escape paths
   - **Consequence**: Opponent simply walks around your body or rolls away because you're not blocking their movement
   - **Correction**: Angle your body 45-90 degrees to their shoulder line depending on position. Use your torso, legs, and free arm to wall off common escape directions. Your body should create barriers to their movement.
-- **Mistake**: Abandoning the Kimura grip too early when opponent defends effectively [Low DANGER]
+- **Mistake**: Abandoning the Kimura grip too early when opponent defends effectively
   - **Consequence**: You lose a powerful control position that could lead to sweeps, back takes, or positional advancement
   - **Correction**: Recognize that the Kimura grip is valuable even when the submission isn't immediately available. Use it to control posture, prevent guard passing, set up sweeps, or transition to other attacks. It's a system, not just a submission.
 
@@ -354,43 +354,6 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Grip Mechanics (Weeks 1-2)** (First 2 weeks)
-- Focus: Learn figure-four grip formation, elbow pinning mechanics, and body positioning for each major variation. Practice grip security drills and understand leverage principles. Study anatomy of shoulder joint and injury mechanisms.
-- Resistance: Zero resistance
-- Safety: No finishing pressure applied. Partner remains completely compliant. Focus entirely on mechanical understanding, grip formation, and body positioning. Learn to identify tap signals and practice immediate release protocols. Review shoulder anatomy and understand what injuries can occur with improper technique.
-
-**Positional Control and Setup Development (Weeks 3-4)** (Weeks 3-4)
-- Focus: Practice isolating opponent's arm from different positions (guard, side control, turtle, etc.). Develop smooth entry mechanics and grip establishment. Work on maintaining control when opponent begins to move and respond. Learn to recognize when position is secure enough to begin pressure.
-- Resistance: Mild resistance
-- Safety: Still no finishing pressure - stop at the point where rotation would begin. Partner provides light movement and basic defensive frames but does not actively try to escape. Focus on establishing secure control before any pressure. Practice controlling hip movement and preventing rolling escapes.
-
-**Controlled Pressure Application (Weeks 5-8)** (Weeks 5-8)
-- Focus: Begin applying very light finishing pressure with 6-8 second application time. Partner taps early to establish communication. Develop sensitivity to partner's shoulder range of motion and limitations. Practice transitioning to back takes and sweeps when submission is defended.
-- Resistance: Mild resistance
-- Safety: Maximum 30-40% of finishing pressure. Partner taps early (before feeling pain) to establish trust and communication patterns. Immediately release on any tap or distress signal. Discuss with partner after each attempt to ensure comfort and safety. Never practice with partners who have shoulder injuries during this phase.
-
-**Defensive Responses and Transition Chains (Weeks 9-12)** (Weeks 9-12)
-- Focus: Partner applies common defensive responses (rolling, pulling elbow, standing). Learn to follow their movement while maintaining grip control. Develop Kimura system understanding by chaining to back control, sweeps, or position advancement. Practice recognizing when to abandon submission for position.
-- Resistance: Realistic resistance
-- Safety: Increase to 50-60% finishing pressure with 5-6 second application. Partner defends actively but taps when feeling shoulder pressure. Practice maintaining safety during dynamic transitions and scrambles. Focus on not losing control during movement that could cause accidental injury.
-
-**Live Training Integration (Weeks 13-24)** (Weeks 13-24)
-- Focus: Integrate Kimura attacks and defenses into regular positional sparring and live rolling. Develop ability to recognize Kimura opportunities during fluid exchanges. Build instinctive reactions for both attacking and defending the position. Refine timing and setup mechanics against fully resisting opponents.
-- Resistance: Full resistance
-- Safety: Increase to 70-80% finishing pressure with 4-5 second application in training. Always maintain controlled application speed - never explosive. Respect all taps immediately. Communicate with regular training partners about shoulder mobility limitations or prior injuries. Stop if you hear or feel any structural sounds from shoulder.
-
-**Advanced Applications and Competition Preparation (Ongoing)** (After 6+ months)
-- Focus: Develop high-level setups, feints, and entries from unconventional positions. Study competition footage and expert instruction. Practice competition-speed application only with trusted partners in controlled preparation. Refine system understanding and positional transitions. Mentor lower belts on safe application.
-- Resistance: Full resistance
-- Safety: In training: maintain 4-5 second minimum application regardless of skill level. In competition: understand that faster application increases injury risk to opponent - use judgment about finishing speed based on stakes and opponent's experience. Continue respecting all tap signals immediately. Teach safety protocols to training partners and newer students.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -449,6 +412,7 @@ The **Kimura** is one of Brazilian Jiu-Jitsu's most versatile shoulder locks, ta
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

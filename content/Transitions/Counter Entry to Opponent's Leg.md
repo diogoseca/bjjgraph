@@ -157,7 +157,7 @@ This counter exemplifies the modern leg lock philosophy of fighting fire with fi
 The strategic value extends beyond mere survival. Entering 50-50 from a defensive position often catches opponents off-guard, as their focus on finishing their attack blinds them to your counter-entry. This creates opportunities where your subsequent attack sequence may be several steps ahead of an opponent who must now shift from offensive to defensive mindset. Understanding this transition is essential for anyone training leg locks, as it represents one of the primary equalizers in asymmetrical leg entanglement exchanges.
 
 **From Position**: [[Straight Ankle Lock Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The strategic value extends beyond mere survival. Entering 50-50 from a defensiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Neutralize immediate threat**: Before attempting any counter-entry, address the submission danger by bending your trapped knee and rotating your hip slightly away to reduce ankle lock leverage. Grip fight to prevent opponent from deepening their control on your heel. (Timing: Immediately upon recognizing you are caught)
-2. **Clear inside leg**: Use your free leg to push down on opponent's bottom leg (the leg closest to your hips), creating space and preventing them from establishing a complete leg triangle around your trapped leg. This clears the pathway for your entry. (Timing: 1-2 seconds after stabilizing)
-3. **Rotate hips toward opponent**: Turn your hips toward the opponent rather than away, which seems counterintuitive but opens the angle to reach their far leg. Your hip rotation should bring your free leg across their centerline. (Timing: Immediately after clearing their inside leg)
-4. **Thread leg through**: Insert your free leg between opponent's legs, threading your foot through to hook behind their far knee. Your shin should contact their inner thigh as you establish inside position on their far leg. (Timing: Fluid motion with hip rotation)
-5. **Secure far leg control**: Once your leg is threaded through, use your hands to grab their far ankle while your legs establish the figure-four or cross-body control characteristic of 50-50 position. Your formerly trapped leg now becomes part of the mutual entanglement. (Timing: Within 2 seconds of threading)
-6. **Consolidate 50-50 position**: Complete the transition by fully entering 50-50 Guard with proper heel exposure on their leg while protecting your own heel. Both practitioners now face symmetrical leg lock threats, but you have initiative from executing the transition. (Timing: Immediately secure position)
+1. **Neutralize immediate threat**: Before attempting any counter-entry, address the submission danger by bending your trapped knee and rotating your hip slightly away to reduce ankle lock leverage. Grip fight to prevent opponent from deepening their control on your heel.
+2. **Clear inside leg**: Use your free leg to push down on opponent's bottom leg (the leg closest to your hips), creating space and preventing them from establishing a complete leg triangle around your trapped leg. This clears the pathway for your entry.
+3. **Rotate hips toward opponent**: Turn your hips toward the opponent rather than away, which seems counterintuitive but opens the angle to reach their far leg. Your hip rotation should bring your free leg across their centerline.
+4. **Thread leg through**: Insert your free leg between opponent's legs, threading your foot through to hook behind their far knee. Your shin should contact their inner thigh as you establish inside position on their far leg.
+5. **Secure far leg control**: Once your leg is threaded through, use your hands to grab their far ankle while your legs establish the figure-four or cross-body control characteristic of 50-50 position. Your formerly trapped leg now becomes part of the mutual entanglement.
+6. **Consolidate 50-50 position**: Complete the transition by fully entering 50-50 Guard with proper heel exposure on their leg while protecting your own heel. Both practitioners now face symmetrical leg lock threats, but you have initiative from executing the transition.
 
 
 </section>
@@ -251,19 +251,15 @@ The strategic value extends beyond mere survival. Entering 50-50 from a defensiv
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice the threading motion and hip rotation with a compliant partner who holds static ankle lock position. Focus on the pathway your leg takes and the grips needed to secure 50-50. No resistance, pure technical repetition.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner applies light ankle lock pressure and attempts basic finishes. Practice recognizing the window for counter-entry - after neutralizing immediate threat but before opponent consolidates control. Learn to feel when entry is available.
-(Resistance: Light)
 
 **Week 5-6** - Counter to counter chains
 Partner actively resists entry by withdrawing far leg or transitioning to other positions. Practice recognizing when to abort entry and take escape, versus when to persist through resistance. Add subsequent attacks from 50-50 once entry succeeds.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate counter-entry into live specific training from leg entanglement positions. Practice recognizing opportunities in real-time scrambles and executing under full resistance. Develop automatic recognition of entry windows.
-(Resistance: Full)
 
 
 

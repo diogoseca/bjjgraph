@@ -361,7 +361,7 @@ Systematic study of guard recovery principles through instructional content from
 - **[[Hip Escape Mechanics]]** (Prerequisite): Hip Escape Mechanics form the biomechanical foundation of Guard Recovery - recovery sequences are essentially coordinated chains of hip escapes combined with leg reinsertion
 - **[[Escape Fundamentals]]** (Extension): Guard Recovery represents a specialized application of broader Escape Fundamentals - if guard recovery fails, the same principles extend to escaping consolidated top positions
 - **[[Space Creation]]** (Complementary): Space Creation is the tactical goal that Guard Recovery protocols are designed to achieve - recovery is impossible without sufficient space between bodies
-- **[[Position Transitions]]** (Complementary): Guard Recovery occurs during the transitional phase of Position Transitions - understanding transition dynamics improves recognition of recovery windows and timing
+- **[[Transition Management]]** (Complementary): Guard Recovery occurs during the transitional phase between positions - understanding transition dynamics improves recognition of recovery windows and timing
 - **[[Frame Management]]** (Complementary): Frame Management governs creation, maintenance, and transition of defensive frames during recovery - essential for maintaining space while executing recovery movements
 - **[[Shrimping]]** (Prerequisite): Shrimping is the fundamental movement pattern central to all guard recovery sequences - mastery of shrimping mechanics is required for effective recovery execution
 - **[[Bridge and Shrimp]]** (Complementary): Bridge and Shrimp combination represents specific movement patterns frequently used in guard recovery sequences to create vertical and horizontal space simultaneously

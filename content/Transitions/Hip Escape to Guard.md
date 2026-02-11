@@ -157,7 +157,7 @@ The technique relies on creating space through precise hip movement rather than 
 Strategically, this escape represents your primary pathway out of a position that otherwise leads to submissions or advancement to mounted Gift Wrap. The ability to recover guard from Gift Wrap Bottom is essential for any practitioner because the position commonly results from failed back escapes. Success requires patience, proper timing, and the discipline to maintain neck defense throughout the escape sequence rather than abandoning it to fight the arm trap.
 
 **From Position**: [[Gift Wrap/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, this escape represents your primary pathway out of a position tha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure neck defense**: Position your free hand on your neck/chin area to prevent rear naked choke. Tuck your chin toward your chest and keep this hand defending throughout the escape. (Timing: Continuous throughout escape)
-2. **Establish side position**: Turn onto your side facing away from opponent if not already there. Keep your shoulders off the mat to maintain hip mobility for the shrimping motion that follows. (Timing: Immediate)
-3. **Time the hip escape**: Wait for opponent to shift weight for attack or adjustment, then explosively shrimp your hips away, driving off your bottom foot. Create six to twelve inches of space between your hips and theirs. (Timing: On opponent's weight shift)
-4. **Insert knee frame**: Immediately insert your bottom knee between yourself and opponent's torso as a frame. This shin across their hip line prevents them from closing the distance you created. (Timing: Immediately after hip escape)
-5. **Extract trapped arm**: With space created, rotate your trapped shoulder forward while continuing to shrimp. The angular movement allows the arm to withdraw along the path of least resistance without fighting the control. (Timing: As frame is established)
-6. **Establish guard frames**: Once arm is free, immediately establish open guard with both feet on opponent's hips and hands controlling sleeves or collar. Create maximum distance before opponent can re-engage. (Timing: Immediately after arm extraction)
+1. **Secure neck defense**: Position your free hand on your neck/chin area to prevent rear naked choke. Tuck your chin toward your chest and keep this hand defending throughout the escape.
+2. **Establish side position**: Turn onto your side facing away from opponent if not already there. Keep your shoulders off the mat to maintain hip mobility for the shrimping motion that follows.
+3. **Time the hip escape**: Wait for opponent to shift weight for attack or adjustment, then explosively shrimp your hips away, driving off your bottom foot. Create six to twelve inches of space between your hips and theirs.
+4. **Insert knee frame**: Immediately insert your bottom knee between yourself and opponent's torso as a frame. This shin across their hip line prevents them from closing the distance you created.
+5. **Extract trapped arm**: With space created, rotate your trapped shoulder forward while continuing to shrimp. The angular movement allows the arm to withdraw along the path of least resistance without fighting the control.
+6. **Establish guard frames**: Once arm is free, immediately establish open guard with both feet on opponent's hips and hands controlling sleeves or collar. Create maximum distance before opponent can re-engage.
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, this escape represents your primary pathway out of a position tha
 ## Training Progressions
 **Week 1-2** - Hip escape mechanics
 Practice shrimping motion from Gift Wrap position without partner resistance. Focus on maintaining side position, protecting neck with free hand, and keeping trapped arm relaxed. Drill the basic movement pattern 50+ repetitions per session.
-(Resistance: None)
 
 **Week 3-4** - Timing and frame insertion
 Partner maintains Gift Wrap at 30% resistance while you practice timing hip escapes to their weight shifts. Focus on immediately inserting knee frame after each escape and chaining multiple sequential movements.
-(Resistance: Light)
 
 **Week 5-6** - Escape completion
 Partner increases resistance to 60% and begins attempting submissions during escape. Practice completing full sequence from Gift Wrap to established open guard while maintaining neck defense throughout.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from Gift Wrap Bottom. Partner uses full resistance and realistic attacks. Develop ability to escape against skilled opponents who actively counter your escape attempts.
-(Resistance: Full)
 
 
 

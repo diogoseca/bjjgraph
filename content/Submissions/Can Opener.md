@@ -157,7 +157,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 **Type**: Neck Crank
 **Target Area**: Cervical spine and neck muscles
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 15%, Intermediate 25%, Advanced 35%
+**Success Rate**: 30%
 
 </section>
 
@@ -237,12 +237,12 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard. (Timing: Initial setup phase - 2-3 seconds) [Pressure: Light]
-2. **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base. (Timing: Grip establishment - 1-2 seconds) [Pressure: Light]
-3. **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck. (Timing: Structural positioning - 2-3 seconds) [Pressure: Light]
-4. **Pull head forward and down**: Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving your forearms into their neck. The motion combines forward pulling with downward compression. Their own closed guard prevents them from creating distance, trapping them in the compression. This creates the characteristic 'can opening' effect on the cervical spine. (Timing: ONLY IF EDUCATIONAL DEMONSTRATION - 3-4 seconds minimum) [Pressure: Moderate]
-5. **Drive elbows together**: Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates pressure on the neck. This increases the compression force while limiting opponent's ability to create space. The combined forward pull, downward pressure, and inward elbow drive maximizes discomfort forcing guard opening. (Timing: ONLY IF EDUCATIONAL DEMONSTRATION - 2-3 seconds) [Pressure: Firm]
-6. **Maintain pressure until guard opens**: Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard opens, immediately release all neck pressure and transition to a legal guard passing position. Never maintain this pressure longer than absolutely necessary, and never use in competitive or live training contexts where it is prohibited. (Timing: RELEASE IMMEDIATELY upon guard opening or any distress signal) [Pressure: Moderate]
+1. **Establish head control**: From within closed guard, swim both hands behind opponent's head while they attempt to break your posture. Focus on getting deep hand position near the base of their skull rather than shallow neck contact. This requires timing when opponent momentarily releases collar grips or attempts to adjust their guard. (Timing: Initial setup phase - 2-3 seconds)
+2. **Interlace fingers**: Lock your fingers together behind opponent's head creating a strong structural frame with your arms. The finger interlace should be tight with palms pressing against the back of their skull. This grip must be secure as it provides the foundation for all subsequent pressure. Position your elbows to point outward creating a wide base. (Timing: Grip establishment - 1-2 seconds)
+3. **Position forearms against neck**: Adjust your arm position so the bony portions of your forearms contact the sides and front of opponent's neck while your hands remain locked behind their head. The forearms should frame their neck creating a compression structure. Ensure your arms create an inverted V-shape that will drive downward pressure through the neck. (Timing: Structural positioning - 2-3 seconds)
+4. **Pull head forward and down**: Using your interlaced hands, pull opponent's head toward your chest while simultaneously driving your forearms into their neck. The motion combines forward pulling with downward compression. Their own closed guard prevents them from creating distance, trapping them in the compression. This creates the characteristic 'can opening' effect on the cervical spine. (Timing: ONLY IF EDUCATIONAL DEMONSTRATION - 3-4 seconds minimum)
+5. **Drive elbows together**: Narrow your elbow position while maintaining the pull, creating a pinching effect that concentrates pressure on the neck. This increases the compression force while limiting opponent's ability to create space. The combined forward pull, downward pressure, and inward elbow drive maximizes discomfort forcing guard opening. (Timing: ONLY IF EDUCATIONAL DEMONSTRATION - 2-3 seconds)
+6. **Maintain pressure until guard opens**: Continue the compression until opponent opens their guard to relieve neck pressure. The moment guard opens, immediately release all neck pressure and transition to a legal guard passing position. Never maintain this pressure longer than absolutely necessary, and never use in competitive or live training contexts where it is prohibited. (Timing: RELEASE IMMEDIATELY upon guard opening or any distress signal)
 
 
 </section>
@@ -263,25 +263,25 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying rapid or jerking pressure to neck [CRITICAL DANGER]
+- **Mistake**: Applying rapid or jerking pressure to neck
   - **Consequence**: Immediate severe injury risk including cervical spine damage, muscle tears, or nerve impingement
   - **Correction**: If demonstrating for educational purposes only, apply pressure extremely slowly over 7-10 seconds with constant communication. Better solution: do not apply this technique at all.
-- **Mistake**: Using technique in competition or gym where it is banned [CRITICAL DANGER]
+- **Mistake**: Using technique in competition or gym where it is banned
   - **Consequence**: Disqualification, gym expulsion, legal liability for injuries, and damage to reputation as unsafe training partner
   - **Correction**: Always verify competition rules and gym policies. Use legal guard-breaking alternatives like standing guard breaks, knee slice pressures, or proper posture-based breaks.
-- **Mistake**: Continuing pressure after partner shows discomfort [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner shows discomfort
   - **Consequence**: Serious injury to training partner, breakdown of trust, and potential long-term cervical damage
   - **Correction**: Release immediately at first sign of discomfort or distress. Partner safety must always override technical objectives. Never test pain tolerance with neck attacks.
-- **Mistake**: Shallow hand position on top of head rather than base of skull [Medium DANGER]
+- **Mistake**: Shallow hand position on top of head rather than base of skull
   - **Consequence**: Reduced effectiveness allowing easy escape through head movement, and potential for hands to slip causing uncontrolled pressure spikes
   - **Correction**: If demonstrating technique, ensure hands are positioned at skull base with secure interlaced grip. However, prioritize not using this technique over perfecting its mechanics.
-- **Mistake**: Using in training without explicit partner consent and communication [CRITICAL DANGER]
+- **Mistake**: Using in training without explicit partner consent and communication
   - **Consequence**: Violation of training partner trust, unexpected injury, and creation of unsafe training environment
   - **Correction**: If technique must be shown for educational awareness, obtain explicit verbal consent, agree on pressure limits, and maintain constant communication. Better approach: demonstrate on willing experienced partner or use verbal explanation only.
-- **Mistake**: Relying on Can Opener as primary guard breaking method [High DANGER]
+- **Mistake**: Relying on Can Opener as primary guard breaking method
   - **Consequence**: Development of poor technical fundamentals, inability to break guards of skilled opponents, and reputation as unsafe or low-level grappler
   - **Correction**: Invest training time in proper guard breaking mechanics including standing breaks, toreando passing, pressure passing, and leg weave techniques that are legal, safe, and effective at all levels.
-- **Mistake**: Driving forearms into throat rather than neck sides [CRITICAL DANGER]
+- **Mistake**: Driving forearms into throat rather than neck sides
   - **Consequence**: Airway compression creating choking effect rather than neck crank, increased injury risk, and potential loss of consciousness
   - **Correction**: If demonstrating, ensure forearms contact neck sides and back rather than windpipe. However, recognize that any neck cranking carries significant risks regardless of precise positioning.
 
@@ -344,43 +344,6 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Theoretical Understanding Only** (1-2 sessions)
-- Focus: Learn what Can Opener is, why it is banned, and how to defend against setup attempts through verbal instruction and video analysis only
-- Resistance: None
-- Safety: Understand injury mechanisms and legal status before any physical demonstration. Emphasize that this technique should not be part of regular training repertoire.
-
-**Defensive Recognition Practice** (2-3 weeks)
-- Focus: Partner attempts setup positioning only (hands behind head) while you practice grip fighting, posture breaking, and preventive defenses. No pressure applied.
-- Resistance: Zero resistance
-- Safety: Practice recognizing setup attempts and implementing preventive defenses. Never progress to actual pressure application. Focus on stopping technique before compression begins.
-
-**Escape Drill from Static Position** (1-2 weeks)
-- Focus: Starting from position where opponent has hand position established, practice opening guard voluntarily, framing, and creating distance. Partner maintains static position without adding pressure.
-- Resistance: Zero resistance
-- Safety: Learn proper escape mechanics with zero pressure. Emphasize immediate voluntary guard opening as primary escape rather than attempting to endure pressure.
-
-**Legal Guard Breaking Alternatives Development** (Ongoing - 6+ months)
-- Focus: Invest training time in standing guard breaks, knee slice pressure, toreando passing, and other legal techniques that provide effective guard breaking without injury risk
-- Resistance: Realistic resistance
-- Safety: This is where actual training focus should be directed. Develop comprehensive guard passing system using legal and safe techniques that work at all levels.
-
-**Defensive Integration in Live Training** (Ongoing)
-- Focus: Maintain awareness during live rolling to recognize and prevent Can Opener setups through proper guard maintenance, grip fighting, and posture control
-- Resistance: Full resistance
-- Safety: If partner attempts Can Opener in live training, immediately stop, communicate about safety and gym rules, and decline to continue rolling if they persist in using banned techniques.
-
-**Teaching and Coaching Defensive Awareness** (Advanced practitioners only)
-- Focus: Help newer practitioners understand why technique is dangerous, how to defend setup, and why legal alternatives are superior choices
-- Resistance: None
-- Safety: If demonstrating for teaching purposes, use extreme caution with zero pressure application. Focus on conceptual understanding and defensive solutions rather than offensive execution.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -427,6 +390,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

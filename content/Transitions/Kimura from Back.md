@@ -163,7 +163,7 @@ From a strategic perspective, the Kimura from Back serves dual purposes as both 
 The technique exemplifies the principle of systematic attack chains from back control. Rather than abandoning position when the choke is defended, the practitioner transitions smoothly to the kimura while maintaining all back control elements. This cycling between attacks—triangle choke to kimura to armbar—overwhelms the opponent's defensive capacity and eventually creates finishing opportunities through accumulated defensive fatigue.
 
 **From Position**: [[Rear Triangle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The technique exemplifies the principle of systematic attack chains from back co
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: Use your bottom hand to capture the opponent's trapped arm wrist with a C-grip, thumb on top. The triangle structure prevents them from pulling the arm free while you establish initial control. (Timing: When opponent focuses on defending the choke)
-2. **Thread top arm**: Thread your top arm under the opponent's trapped arm, reaching over their tricep and under to connect with your wrist-controlling hand. Your forearm should cross behind their elbow joint. (Timing: Immediately after wrist capture)
-3. **Establish figure-four grip**: Connect your hands in the classic kimura figure-four configuration—your top hand grips your own wrist while maintaining the C-grip on opponent's wrist. Squeeze elbows together to eliminate slack. (Timing: Within 1-2 seconds of threading)
-4. **Pin elbow to ribs**: Pull the opponent's elbow tight against their ribcage using the figure-four. This positioning maximizes your mechanical advantage by shortening the lever arm and preventing them from straightening their arm. (Timing: Continuous pressure)
-5. **Maintain triangle structure**: Keep your triangle legs engaged around their neck and shoulder. The leg structure prevents them from rotating their torso to relieve shoulder pressure. Squeeze knees together to maintain compression. (Timing: Throughout entire sequence)
-6. **Apply rotational pressure**: Rotate the opponent's wrist toward their spine while keeping their elbow pinned to their ribcage. Move slowly and steadily, painting their hand toward their back in a controlled arc rather than jerking. (Timing: Slow, controlled application)
-7. **Complete submission or transition**: Continue rotating until opponent taps, or if they defend by creating space, immediately transition back to triangle choke or armbar. The grip position allows seamless transitions between these three attacks. (Timing: Read opponent's defensive response)
+1. **Secure wrist control**: Use your bottom hand to capture the opponent's trapped arm wrist with a C-grip, thumb on top. The triangle structure prevents them from pulling the arm free while you establish initial control.
+2. **Thread top arm**: Thread your top arm under the opponent's trapped arm, reaching over their tricep and under to connect with your wrist-controlling hand. Your forearm should cross behind their elbow joint.
+3. **Establish figure-four grip**: Connect your hands in the classic kimura figure-four configuration—your top hand grips your own wrist while maintaining the C-grip on opponent's wrist. Squeeze elbows together to eliminate slack.
+4. **Pin elbow to ribs**: Pull the opponent's elbow tight against their ribcage using the figure-four. This positioning maximizes your mechanical advantage by shortening the lever arm and preventing them from straightening their arm.
+5. **Maintain triangle structure**: Keep your triangle legs engaged around their neck and shoulder. The leg structure prevents them from rotating their torso to relieve shoulder pressure. Squeeze knees together to maintain compression.
+6. **Apply rotational pressure**: Rotate the opponent's wrist toward their spine while keeping their elbow pinned to their ribcage. Move slowly and steadily, painting their hand toward their back in a controlled arc rather than jerking.
+7. **Complete submission or transition**: Continue rotating until opponent taps, or if they defend by creating space, immediately transition back to triangle choke or armbar. The grip position allows seamless transitions between these three attacks.
 
 
 </section>
@@ -259,19 +259,15 @@ The technique exemplifies the principle of systematic attack chains from back co
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice the grip sequence (wrist capture → thread → figure-four) against a compliant partner from rear triangle. Focus on smooth transitions without losing triangle structure. 20 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Pressure application
 Work the full submission sequence with partner providing feedback on pressure direction and elbow positioning. Partner indicates when pressure is correct vs. incorrect. Add light grip fighting resistance.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition
 Partner actively defends using the common counters while you practice recognizing and responding appropriately. Include transitions to armbar and back to triangle choke when kimura is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Positional sparring from rear triangle with full resistance. Score points for successful kimura entries, finishes, and smooth transitions when defended. Focus on timing windows during choke defense.
-(Resistance: Full)
 
 
 

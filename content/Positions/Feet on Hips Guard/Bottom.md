@@ -386,11 +386,11 @@ Top partner starts with one ankle controlled. Bottom player must recover feet-on
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 20% |
-| Intermediate | 65% | 50% | 35% |
-| Advanced     | 80% | 65% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 58% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-90 seconds before transition or pass attempt
 

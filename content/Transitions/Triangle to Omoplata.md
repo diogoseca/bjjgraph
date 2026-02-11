@@ -153,7 +153,7 @@ description: "Learn Triangle to Omoplata transition in BJJ. Step-by-step executi
 The Triangle to Omoplata transition is a fundamental submission chain that exploits opponent's defensive reactions to the triangle choke. When an opponent successfully defends the triangle by posturing or stacking, the bottom player can seamlessly transition to an omoplata shoulder lock by releasing the triangle configuration and capturing the trapped arm. This transition represents a core principle in modern guard work: using the opponent's escape attempts to create new attacking opportunities. The technique is particularly effective because the opponent's defensive posture—driving forward to relieve triangle pressure—naturally feeds into the omoplata setup. This creates a true dilemma where defending one submission opens the path to another.
 
 **From Position**: [[Triangle Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize triangle defense**: Identify opponent's defensive reaction—typically posturing up, stacking, or driving forward to relieve triangle pressure. This reaction creates the necessary space and positioning for the omoplata transition. Monitor opponent's weight distribution and arm position. (Timing: As opponent begins defensive movement)
-2. **Secure trapped arm control**: Tighten grip on opponent's trapped arm at the wrist or gi sleeve. This control prevents the arm from escaping during the transition and ensures the shoulder joint remains isolated. Pull the arm slightly across your body to maintain the angle needed for omoplata. (Timing: Before releasing triangle configuration)
-3. **Release triangle legs**: Unlock your figure-four leg configuration by releasing the ankle lock behind opponent's head. Simultaneously maintain hip pressure against opponent's shoulder to prevent escape. Keep your legs active and engaged rather than passively releasing. (Timing: As opponent's posture reaches maximum height)
-4. **Swing leg over opponent's back**: Take the leg that was positioned behind opponent's head and swing it over their back in an arc motion. The leg should land with your shin across their shoulder blades, creating downward pressure. Your foot can hook under their far side hip for additional control. (Timing: Immediately after releasing triangle)
-5. **Establish omoplata control position**: Position your hips perpendicular to opponent's trapped shoulder, ensuring your leg creates maximum leverage on the shoulder joint. Your other leg should remain active, either hooking opponent's hip or establishing base on the mat. Grip opponent's belt or far side of their gi to control their torso. (Timing: As leg completes arc over back)
-6. **Break opponent's base and finish**: Drive your hips forward while pulling opponent's trapped arm upward toward their head. Simultaneously use your leg across their back to break their base and drive them forward. The combination of hip pressure and arm elevation creates intense shoulder joint pressure for the submission. (Timing: Once omoplata position is secured)
+1. **Recognize triangle defense**: Identify opponent's defensive reaction—typically posturing up, stacking, or driving forward to relieve triangle pressure. This reaction creates the necessary space and positioning for the omoplata transition. Monitor opponent's weight distribution and arm position.
+2. **Secure trapped arm control**: Tighten grip on opponent's trapped arm at the wrist or gi sleeve. This control prevents the arm from escaping during the transition and ensures the shoulder joint remains isolated. Pull the arm slightly across your body to maintain the angle needed for omoplata.
+3. **Release triangle legs**: Unlock your figure-four leg configuration by releasing the ankle lock behind opponent's head. Simultaneously maintain hip pressure against opponent's shoulder to prevent escape. Keep your legs active and engaged rather than passively releasing.
+4. **Swing leg over opponent's back**: Take the leg that was positioned behind opponent's head and swing it over their back in an arc motion. The leg should land with your shin across their shoulder blades, creating downward pressure. Your foot can hook under their far side hip for additional control.
+5. **Establish omoplata control position**: Position your hips perpendicular to opponent's trapped shoulder, ensuring your leg creates maximum leverage on the shoulder joint. Your other leg should remain active, either hooking opponent's hip or establishing base on the mat. Grip opponent's belt or far side of their gi to control their torso.
+6. **Break opponent's base and finish**: Drive your hips forward while pulling opponent's trapped arm upward toward their head. Simultaneously use your leg across their back to break their base and drive them forward. The combination of hip pressure and arm elevation creates intense shoulder joint pressure for the submission.
 
 
 </section>
@@ -250,23 +250,18 @@ The Triangle to Omoplata transition is a fundamental submission chain that explo
 ## Training Progressions
 **Phase 1: Static Position Familiarization** - Understanding the geometric relationship between triangle and omoplata positions
 Begin in established triangle position with cooperative partner. Practice the transition slowly, focusing on arm control and leg positioning. Partner remains stationary while you drill the leg swing and hip positioning. Repeat 20-30 repetitions per training session.
-(Resistance: None)
 
 **Phase 2: Reactive Defense Integration** - Timing the transition against realistic triangle defenses
 Partner provides light resistance by attempting common triangle escapes such as posturing or stacking. Practice recognizing the escape attempt and immediately transitioning to omoplata. Focus on maintaining arm control during opponent's movement. Drill 15-20 repetitions with partner alternating defense types.
-(Resistance: Light)
 
 **Phase 3: Counter-Response Development** - Learning to handle common omoplata defenses during transition
 Partner adds defensive responses to the omoplata itself, such as attempting to roll forward or pull the arm free. Practice maintaining control and adapting your position to counter these defenses. Include alternative finishes and sweeps when direct submission is not available. Drill 10-15 complete sequences.
-(Resistance: Medium)
 
 **Phase 4: Positional Sparring Integration** - Applying the transition in live training scenarios
 Start positional sparring from established triangle position with full resistance. Partner attempts legitimate escapes while you work to transition to omoplata when appropriate. Include follow-up options when transition is countered. Practice 5-minute rounds with 2-minute rest periods.
-(Resistance: Full)
 
 **Phase 5: Guard System Integration** - Connecting triangle-to-omoplata chain with broader guard game
 Begin sparring from open guard positions and work to establish triangle, then transition to omoplata based on opponent's reactions. This phase develops the ability to create the opportunity for the transition from various guard entries. Focus on recognizing when the chain is available versus forcing it.
-(Resistance: Full)
 
 
 

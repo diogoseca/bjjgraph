@@ -163,7 +163,7 @@ This escape requires a two-phase approach: first neutralizing the immediate coll
 Strategically, the Standing Escape is most effective when combined with other escape threats from Invisible Collar bottom. If the attacker is focused on defending your hip escape or rolling escape attempts, the sudden posture change to standing catches them out of position. The escape integrates into a layered defensive system where each escape attempt creates openings for others, making the defender unpredictable and forcing the attacker to address multiple threats simultaneously.
 
 **From Position**: [[Invisible Collar/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ Strategically, the Standing Escape is most effective when combined with other es
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure choking wrist**: Establish two-on-one grip on opponent's collar-gripping wrist using both hands. Your top hand grabs their wrist while your bottom hand reinforces by gripping their forearm just below the wrist. Pull their hand away from your neck to create slack in the collar material. (Timing: Initiate immediately upon recognizing collar threat)
-2. **Tuck chin and strip collar depth**: Drive your chin aggressively into your chest while pulling their wrist downward and away from the collar. Rotate your head slightly toward the choking side to compress the space between your chin and collarbone, making it mechanically impossible for them to tighten the choke during your escape sequence. (Timing: Continuous throughout escape)
-3. **Hip escape to base**: While maintaining two-on-one wrist control, execute a strong hip escape toward the non-choking side. Post your free-side foot flat on the mat with knee bent at approximately 90 degrees. Your other knee drives into the mat, creating a combat base position that serves as the launch platform for standing. (Timing: Explosive movement within 1-2 seconds)
-4. **Drive to standing**: Push explosively through your posted foot and drive your hips upward and forward, standing up while keeping your back angled forward at roughly 45 degrees. This forward lean prevents the attacker from sitting back and using their body weight to pull you down. Maintain the two-on-one wrist control throughout the standing motion. (Timing: Explosive drive coordinated with hip escape)
-5. **Peel bottom hook**: Once standing, the bottom hook bears significant weight. Use your free hand to grab their bottom foot at the instep and peel it off your hip by driving it downward toward the mat. Their own body weight hanging from your back assists this removal. Keep your hips driving forward to prevent them from reestablishing the hook. (Timing: Immediately upon reaching feet)
-6. **Remove top hook and separate**: With the bottom hook removed, the top hook loses its structural support. Strip it using the same hand that removed the bottom hook while maintaining collar wrist control with your other hand. As hooks release, immediately turn to face your opponent and establish distance with frames on their shoulders or collar ties. (Timing: Within 2-3 seconds of removing bottom hook)
-7. **Establish open guard**: As you turn to face your opponent, sit back into open guard with feet on their hips and at least one controlling grip on their sleeve or collar. Do not remain standing facing away—the transition to open guard gives you immediate offensive options and prevents them from retaking the back during the scramble. (Timing: Seamless transition as you face opponent)
+1. **Secure choking wrist**: Establish two-on-one grip on opponent's collar-gripping wrist using both hands. Your top hand grabs their wrist while your bottom hand reinforces by gripping their forearm just below the wrist. Pull their hand away from your neck to create slack in the collar material.
+2. **Tuck chin and strip collar depth**: Drive your chin aggressively into your chest while pulling their wrist downward and away from the collar. Rotate your head slightly toward the choking side to compress the space between your chin and collarbone, making it mechanically impossible for them to tighten the choke during your escape sequence.
+3. **Hip escape to base**: While maintaining two-on-one wrist control, execute a strong hip escape toward the non-choking side. Post your free-side foot flat on the mat with knee bent at approximately 90 degrees. Your other knee drives into the mat, creating a combat base position that serves as the launch platform for standing.
+4. **Drive to standing**: Push explosively through your posted foot and drive your hips upward and forward, standing up while keeping your back angled forward at roughly 45 degrees. This forward lean prevents the attacker from sitting back and using their body weight to pull you down. Maintain the two-on-one wrist control throughout the standing motion.
+5. **Peel bottom hook**: Once standing, the bottom hook bears significant weight. Use your free hand to grab their bottom foot at the instep and peel it off your hip by driving it downward toward the mat. Their own body weight hanging from your back assists this removal. Keep your hips driving forward to prevent them from reestablishing the hook.
+6. **Remove top hook and separate**: With the bottom hook removed, the top hook loses its structural support. Strip it using the same hand that removed the bottom hook while maintaining collar wrist control with your other hand. As hooks release, immediately turn to face your opponent and establish distance with frames on their shoulders or collar ties.
+7. **Establish open guard**: As you turn to face your opponent, sit back into open guard with feet on their hips and at least one controlling grip on their sleeve or collar. Do not remain standing facing away—the transition to open guard gives you immediate offensive options and prevents them from retaking the back during the scramble.
 
 
 </section>
@@ -263,19 +263,15 @@ Strategically, the Standing Escape is most effective when combined with other es
 ## Training Progressions
 **Week 1-2** - Grip assessment and chin defense
 Practice identifying invisible collar grip depth and establishing two-on-one wrist control from back control bottom. Drill the chin tuck and wrist pull sequence 20 repetitions per side. Partner provides zero resistance on grip but maintains hooks. Focus on developing the tactile sensitivity to assess whether the collar grip is shallow enough for standing escape.
-(Resistance: None)
 
 **Week 3-4** - Standing mechanics and hook removal
 Drill the full standing sequence from combat base to feet with partner maintaining hooks at 30% resistance. Practice the bottom hook peel and top hook strip in isolation, then combine with the standing motion. Emphasize the forward lean angle and explosive drive through the posted foot. Add the guard establishment finish.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and chain escapes
 Partner applies 50-60% resistance and actively counters the standing escape with mat returns, grip deepening, and RNC transitions. Practice aborting the standing attempt when collar depth increases and flowing to alternative escapes. Develop the decision-making framework for when to commit and when to switch techniques.
-(Resistance: Medium)
 
 **Week 7+** - Competition integration
 Full resistance positional sparring from invisible collar bottom. Standing escape becomes one option within a complete escape system including hip escapes, rolling escapes, and Granby rolls. Track success rates and identify personal timing windows. Drill under fatigue conditions to simulate competition scenarios where energy management becomes critical.
-(Resistance: Full)
 
 
 

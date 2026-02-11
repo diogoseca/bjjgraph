@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Armbar from Back is a high-percentage submission setup that capitalizes on back control dominance to attack the opponent's arm when choke defenses are strong. This technique transitions from the most dominant position in BJJ to a powerful arm attack, exploiting the opponent's natural defensive reaction of protecting their neck with their hands. When executed properly, the attack creates a dilemma where defending the armbar compromises neck defense, and vice versa.\n\nFrom back control, the armbar becomes available when the opponent dedicates both hands to defending choke attempts, leaving their arms exposed for attack. The mechanics involve isolating one arm while maintaining chest-to-back connection, then transitioning your legs to trap the arm and create the hyperextension angle. Unlike the armbar from guard where you attack upward, this variation attacks from a superior position, making it harder for opponents to stack or escape.\n\nStrategically, the armbar from back serves as an essential secondary attack when the rear naked choke is well-defended. Elite competitors use the armbar threat to create openings for the choke, and conversely use choke attacks to expose arms. This creates a systematic attack chain that makes back control exponentially more dangerous, as defending one attack opens vulnerability to another.",
   "key_principles": [
     "Maintain chest-to-back connection throughout the transition to prevent opponent from creating escape space",
@@ -55,44 +50,37 @@
     {
       "step_number": 1,
       "action": "Identify target arm",
-      "description": "While maintaining back control, observe which arm your opponent uses to defend the choke. The arm that reaches across their neck to defend becomes your primary target for the armbar attack.",
-      "timing": "When opponent commits both hands to neck defense"
+      "description": "While maintaining back control, observe which arm your opponent uses to defend the choke. The arm that reaches across their neck to defend becomes your primary target for the armbar attack."
     },
     {
       "step_number": 2,
       "action": "Secure two-on-one grip",
-      "description": "Release your seatbelt grip and transition both hands to control the target arm. Grip above the elbow with your top hand and control the wrist with your bottom hand, pulling the arm across their body.",
-      "timing": "Immediately after identifying committed neck defense"
+      "description": "Release your seatbelt grip and transition both hands to control the target arm. Grip above the elbow with your top hand and control the wrist with your bottom hand, pulling the arm across their body."
     },
     {
       "step_number": 3,
       "action": "Hip escape to create angle",
-      "description": "Perform a hip escape away from the target arm side, creating approximately 45 degrees of angle. This positions your hips to allow your leg to pass over the opponent's face while maintaining arm control.",
-      "timing": "Smooth transition while maintaining two-on-one control"
+      "description": "Perform a hip escape away from the target arm side, creating approximately 45 degrees of angle. This positions your hips to allow your leg to pass over the opponent's face while maintaining arm control."
     },
     {
       "step_number": 4,
       "action": "Pass leg over face",
-      "description": "Bring your top leg over the opponent's face, placing your hamstring across their jaw and cheek. Your foot should end up on the far side of their head, preventing them from sitting up or turning toward you.",
-      "timing": "As hip escape creates sufficient space"
+      "description": "Bring your top leg over the opponent's face, placing your hamstring across their jaw and cheek. Your foot should end up on the far side of their head, preventing them from sitting up or turning toward you."
     },
     {
       "step_number": 5,
       "action": "Clear bottom hook",
-      "description": "Remove your bottom hook and swing that leg over the opponent's body to the armbar position. Both legs should now be clamping the trapped arm with knees pinched together.",
-      "timing": "Once top leg is secured over face"
+      "description": "Remove your bottom hook and swing that leg over the opponent's body to the armbar position. Both legs should now be clamping the trapped arm with knees pinched together."
     },
     {
       "step_number": 6,
       "action": "Secure armbar control",
-      "description": "Squeeze your knees together trapping the arm, control the wrist with both hands keeping their thumb pointed upward, and position your hips close to their shoulder for maximum hyperextension leverage.",
-      "timing": "Final position before applying finish pressure"
+      "description": "Squeeze your knees together trapping the arm, control the wrist with both hands keeping their thumb pointed upward, and position your hips close to their shoulder for maximum hyperextension leverage."
     },
     {
       "step_number": 7,
       "action": "Apply breaking pressure",
-      "description": "Bridge your hips upward while pulling the wrist toward your chest, creating hyperextension pressure on the elbow joint. Keep the opponent's thumb pointing toward the ceiling for optimal elbow alignment.",
-      "timing": "Controlled pressure increase for tap or positional improvement"
+      "description": "Bridge your hips upward while pulling the wrist toward your chest, creating hyperextension pressure on the elbow joint. Keep the opponent's thumb pointing toward the ceiling for optimal elbow alignment."
     }
   ],
   "common_counters": [
@@ -153,26 +141,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamental mechanics",
-      "description": "Practice the arm isolation and leg transition from back control with a compliant partner. Focus on maintaining connection during the hip escape, proper leg placement over the face, and understanding the armbar finishing position. Drill 20-30 repetitions per side daily.",
-      "resistance_level": "None"
+      "description": "Practice the arm isolation and leg transition from back control with a compliant partner. Focus on maintaining connection during the hip escape, proper leg placement over the face, and understanding the armbar finishing position. Drill 20-30 repetitions per side daily."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and setups",
-      "description": "Work on recognizing when the opponent commits to neck defense, creating the setup with choke threats, and transitioning smoothly when the arm becomes available. Partner provides light resistance and realistic defensive hand positioning.",
-      "resistance_level": "Light"
+      "description": "Work on recognizing when the opponent commits to neck defense, creating the setup with choke threats, and transitioning smoothly when the arm becomes available. Partner provides light resistance and realistic defensive hand positioning."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter-counter sequences",
-      "description": "Practice against specific counters including hitchhiker escape, grip fighting defense, and stacking attempts. Learn to chain back to chokes when armbar is defended, and to maintain back control when transitions fail. Partner actively defends.",
-      "resistance_level": "Medium"
+      "description": "Practice against specific counters including hitchhiker escape, grip fighting defense, and stacking attempts. Learn to chain back to chokes when armbar is defended, and to maintain back control when transitions fail. Partner actively defends."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Implement the armbar from back in positional sparring starting from back control. Focus on reading defensive reactions and choosing between choke and armbar based on opponent's defense. Graduate to full rolling with the technique as a primary option.",
-      "resistance_level": "Full"
+      "description": "Implement the armbar from back in positional sparring starting from back control. Focus on reading defensive reactions and choosing between choke and armbar based on opponent's defense. Graduate to full rolling with the technique as a primary option."
     }
   ],
   "variants_and_adaptations": [
@@ -195,53 +179,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Armbar from Back?",
-      "answer": "The primary goal is to isolate and hyperextend the opponent's elbow joint from the dominant back control position, creating a submission setup that capitalizes on their choke defense and forces a tap or positional improvement to armbar control.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to isolate and hyperextend the opponent's elbow joint from the dominant back control position, creating a submission setup that capitalizes on their choke defense and forces a tap or positional improvement to armbar control."
     },
     {
       "question": "What position do you start Armbar from Back from?",
-      "answer": "This technique starts from Back Control with hooks in or body triangle established, requiring seatbelt or harness grip control of the opponent's upper body with chest-to-back connection maintained.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Back Control with hooks in or body triangle established, requiring seatbelt or harness grip control of the opponent's upper body with chest-to-back connection maintained."
     },
     {
       "question": "What are the key grips needed for Armbar from Back?",
-      "answer": "Initially maintain the seatbelt grip for back control, then transition to a two-on-one grip on the target arm with one hand controlling above the elbow and the other controlling the wrist. During the finish, both hands control the wrist while legs provide primary arm isolation.",
-      "difficulty": "Intermediate"
+      "answer": "Initially maintain the seatbelt grip for back control, then transition to a two-on-one grip on the target arm with one hand controlling above the elbow and the other controlling the wrist. During the finish, both hands control the wrist while legs provide primary arm isolation."
     },
     {
       "question": "How should you respond if your opponent attempts the hitchhiker escape?",
-      "answer": "Anticipate the rotation by maintaining tight knee pressure on the trapped arm and controlling their far shoulder with your leg over their face. If they begin rotating, follow their movement while maintaining arm control, or transition to a triangle if they create space with the escape attempt.",
-      "difficulty": "Advanced"
+      "answer": "Anticipate the rotation by maintaining tight knee pressure on the trapped arm and controlling their far shoulder with your leg over their face. If they begin rotating, follow their movement while maintaining arm control, or transition to a triangle if they create space with the escape attempt."
     },
     {
       "question": "When is the optimal timing window to attempt the Armbar from Back?",
-      "answer": "The best time to attempt this armbar is when the opponent commits both hands to defending the rear naked choke, particularly when their arm reaches across their neck to strip your choking grip. This defensive reaction exposes the arm and creates the opening for the armbar attack.",
-      "difficulty": "Intermediate"
+      "answer": "The best time to attempt this armbar is when the opponent commits both hands to defending the rear naked choke, particularly when their arm reaches across their neck to strip your choking grip. This defensive reaction exposes the arm and creates the opening for the armbar attack."
     },
     {
       "question": "Why is the hip escape critical before passing your leg over the opponent's face?",
-      "answer": "The hip escape creates approximately 45 degrees of angle that allows your leg to clear the opponent's head cleanly. Without this angle, your leg cannot pass over their face effectively, they can posture and resist, and you risk losing back control entirely during a failed transition.",
-      "difficulty": "Intermediate"
+      "answer": "The hip escape creates approximately 45 degrees of angle that allows your leg to clear the opponent's head cleanly. Without this angle, your leg cannot pass over their face effectively, they can posture and resist, and you risk losing back control entirely during a failed transition."
     },
     {
       "question": "What happens if you allow the opponent's elbow to drop below your hip line during the finish?",
-      "answer": "When the elbow drops below your hip line, you lose the mechanical leverage needed for hyperextension. The opponent can simply pull their arm free without experiencing joint pressure, negating the submission entirely. The elbow must remain above the hips with your bridge directed into the joint.",
-      "difficulty": "Intermediate"
+      "answer": "When the elbow drops below your hip line, you lose the mechanical leverage needed for hyperextension. The opponent can simply pull their arm free without experiencing joint pressure, negating the submission entirely. The elbow must remain above the hips with your bridge directed into the joint."
     },
     {
       "question": "How does the Armbar from Back create a dilemma with the rear naked choke?",
-      "answer": "When you threaten the rear naked choke, the opponent must defend with their hands on their neck. This defensive posture exposes their arms for armbar attacks. Conversely, if they protect their arms, their neck becomes vulnerable. This attack chain makes back control exponentially more dangerous as defending one attack opens vulnerability to another.",
-      "difficulty": "Advanced"
+      "answer": "When you threaten the rear naked choke, the opponent must defend with their hands on their neck. This defensive posture exposes their arms for armbar attacks. Conversely, if they protect their arms, their neck becomes vulnerable. This attack chain makes back control exponentially more dangerous as defending one attack opens vulnerability to another."
     },
     {
       "question": "What adjustment should you make if the opponent grabs their own wrist in a Gable grip to defend?",
-      "answer": "Attack the grip by placing your foot in the crook of their defending arm's bicep and extending your leg while pulling their wrist in the opposite direction. This breaks most grip defenses. Alternatively, you can attack a wrist lock on the defending hand or maintain pressure until their grip fatigues.",
-      "difficulty": "Advanced"
+      "answer": "Attack the grip by placing your foot in the crook of their defending arm's bicep and extending your leg while pulling their wrist in the opposite direction. This breaks most grip defenses. Alternatively, you can attack a wrist lock on the defending hand or maintain pressure until their grip fatigues."
     },
     {
       "question": "Why must you maintain chest-to-back connection until the arm is fully isolated?",
-      "answer": "The chest-to-back connection prevents the opponent from creating space to turn and escape. If you release this connection prematurely, before securing two-on-one arm control, the opponent can turn into you and recover guard or turtle, completely negating your positional advantage and submission opportunity.",
-      "difficulty": "Intermediate"
+      "answer": "The chest-to-back connection prevents the opponent from creating space to turn and escape. If you release this connection prematurely, before securing two-on-one arm control, the opponent can turn into you and recover guard or turtle, completely negating your positional advantage and submission opportunity."
     }
   ],
   "safety_considerations": "The armbar applies hyperextension force to the elbow joint, which can cause serious ligament damage or dislocation if applied too quickly or without opportunity to tap. Always apply finishing pressure gradually, allowing training partners time to recognize the danger and tap. In training, release immediately upon feeling the tap or verbal submission. Avoid explosive finishing movements that don't allow reaction time. Partners should communicate clearly about arm sensitivity or previous elbow injuries before drilling. When defending, tap early rather than attempting to muscle out of a locked armbar, as sudden escape attempts with a hyperextended arm risk injury. The transition from back control involves rotational movement that can torque the shoulder if the arm is gripped too tightly during the turn - maintain control without excessive force during positional transitions.",
@@ -287,5 +261,6 @@
       "name": "Mounted Triangle",
       "relationship": "Chain attack - available if opponent turns during armbar defense"
     }
-  ]
+  ],
+  "success_rate": 58
 }

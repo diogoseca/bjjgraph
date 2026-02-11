@@ -157,7 +157,7 @@ The strategic importance of this escape lies in understanding that conventional 
 This technique is particularly valuable because gogoplata attacks have become increasingly prevalent in modern competition, especially among flexible guard players utilizing rubber guard systems. Developing reliable shin removal mechanics provides essential defensive coverage against these specialized attacks while also opening pathways to dominant passing positions. The pass completion to side control transforms a defensive emergency into an offensive opportunity, making this a high-value skill for competitive practitioners.
 
 **From Position**: [[Gogoplata Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ This technique is particularly valuable because gogoplata attacks have become in
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create breathing space**: Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This buys time by shifting pressure from airway to the side of your neck, allowing clearer thinking for systematic escape execution. (Timing: Immediately upon recognizing gogoplata control)
-2. **Control opponent's hips**: Place both hands on opponent's hips and press downward to prevent hip elevation. Elevated hips maintain the perpendicular shin angle that creates maximum compression. Dropping their hips reduces submission effectiveness significantly. (Timing: Within 2-3 seconds of chin adjustment)
-3. **Address foot position**: Use one hand to find and control opponent's foot that is secured behind your head. Push the foot upward and away from your head rather than pulling at the shin directly. The foot is the anchor point of the submission structure. (Timing: After hips are controlled)
-4. **Lateral head extraction**: Move your head laterally toward the side opposite the choking leg while maintaining foot control. Do not pull straight backward. The lateral movement changes the angle and allows your head to slip out from under the shin pressure. (Timing: Simultaneous with foot control)
-5. **Clear the leg**: As your head extracts, use your shoulder and arm to push opponent's leg completely off your neck and down toward their opposite hip. Pin the leg to prevent re-establishment of the gogoplata position. (Timing: Immediately following head extraction)
-6. **Complete the pass**: Drive immediately into side control by establishing chest-to-chest contact perpendicular to opponent's torso. Secure crossface control with your near arm and block the far hip with your other hand to prevent guard recovery. (Timing: Within 1-2 seconds of leg clearance)
+1. **Create breathing space**: Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This buys time by shifting pressure from airway to the side of your neck, allowing clearer thinking for systematic escape execution.
+2. **Control opponent's hips**: Place both hands on opponent's hips and press downward to prevent hip elevation. Elevated hips maintain the perpendicular shin angle that creates maximum compression. Dropping their hips reduces submission effectiveness significantly.
+3. **Address foot position**: Use one hand to find and control opponent's foot that is secured behind your head. Push the foot upward and away from your head rather than pulling at the shin directly. The foot is the anchor point of the submission structure.
+4. **Lateral head extraction**: Move your head laterally toward the side opposite the choking leg while maintaining foot control. Do not pull straight backward. The lateral movement changes the angle and allows your head to slip out from under the shin pressure.
+5. **Clear the leg**: As your head extracts, use your shoulder and arm to push opponent's leg completely off your neck and down toward their opposite hip. Pin the leg to prevent re-establishment of the gogoplata position.
+6. **Complete the pass**: Drive immediately into side control by establishing chest-to-chest contact perpendicular to opponent's torso. Secure crossface control with your near arm and block the far hip with your other hand to prevent guard recovery.
 
 
 </section>
@@ -250,19 +250,15 @@ This technique is particularly valuable because gogoplata attacks have become in
 ## Training Progressions
 **Week 1-2** - Position recognition and breathing
 Partner establishes gogoplata at 30% tightness. Practice chin adjustment for breathing space and maintaining calm under pressure. No escape attempts - purely building comfort in the position and recognizing optimal escape timing windows.
-(Resistance: None)
 
 **Week 3-4** - Systematic extraction mechanics
 Partner establishes gogoplata at 50% tightness. Practice complete escape sequence: hip control, foot address, lateral head extraction, leg clearance. Partner provides light resistance but allows escape when technique is correct.
-(Resistance: Light)
 
 **Week 5-6** - Pass completion and timing
 Partner establishes gogoplata at 70% tightness and varies between holding and adjusting. Practice recognizing timing windows and completing pass to side control immediately after extraction. Partner attempts guard recovery after escape.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from gogoplata control. Partner actively defends escape attempts and threatens submission finish. Focus on executing escape under pressure and transitioning smoothly to dominant position.
-(Resistance: Full)
 
 
 

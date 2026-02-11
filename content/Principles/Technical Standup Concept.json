@@ -72,12 +72,12 @@
       "description": "Frame creation works in conjunction with technical standup by establishing the distance and connection points necessary to safely transition to standing while preventing opponent from closing space."
     },
     {
-      "principle_name": "Space Creation",
+      "principle_name": "Creating Space",
       "relationship_type": "Complementary",
       "description": "Space creation principles directly support technical standup by establishing the initial distance required before attempting to stand, preventing opponent from maintaining heavy pressure during the transition."
     },
     {
-      "principle_name": "Hip Movement",
+      "principle_name": "Bridging Mechanics",
       "relationship_type": "Prerequisite",
       "description": "Hip movement mechanics are essential for technical standup execution, particularly the hip elevation phase where proper hip extension and positioning determine success or failure of the standup attempt."
     },
@@ -87,9 +87,9 @@
       "description": "Maintaining defensive posture throughout the technical standup ensures that the practitioner never exposes vulnerable targets while transitioning between positions."
     },
     {
-      "principle_name": "Weight Distribution",
+      "principle_name": "Biomechanical Principles",
       "relationship_type": "Prerequisite",
-      "description": "Proper weight distribution across posting hand, posting foot, and seated hip creates the tripod base necessary for stable technical standup execution."
+      "description": "Proper weight distribution across posting hand, posting foot, and seated hip creates the tripod base necessary for stable technical standup execution, governed by biomechanical alignment."
     },
     {
       "principle_name": "Distance Creation",
@@ -102,7 +102,7 @@
       "description": "The technical standup exemplifies escape fundamentals by providing a systematic method to exit ground engagement and return to neutral standing position."
     },
     {
-      "principle_name": "Guard Recovery",
+      "principle_name": "Escape Hierarchy",
       "relationship_type": "Alternative",
       "description": "Guard recovery and technical standup represent alternative defensive responses to bottom position, with standup chosen when creating distance is preferable to re-establishing guard."
     },
@@ -112,9 +112,9 @@
       "description": "Technical standup fits within broader defensive strategy as a tool for controlling engagement range and pace of the match."
     },
     {
-      "principle_name": "Position Transitions",
+      "principle_name": "Connection Principles",
       "relationship_type": "Extension",
-      "description": "The technical standup represents a specific application of position transition principles, moving from grounded to standing while maintaining defensive integrity."
+      "description": "The technical standup represents a specific application of connection principles, maintaining appropriate defensive connection to the opponent while transitioning from grounded to standing."
     },
     {
       "principle_name": "Energy Conservation",
@@ -152,8 +152,8 @@
       "how_applied": "During scrambles when both players are partially grounded, technical standup mechanics allow one player to quickly establish standing base while maintaining defensive frames."
     },
     {
-      "context": "Spider Guard",
-      "how_applied": "When spider guard grips are broken and opponent begins to pass, technical standup offers a defensive exit by releasing grips and transitioning to standing before pass is completed."
+      "context": "Lasso Guard",
+      "how_applied": "When lasso guard grips are broken and opponent begins to pass, technical standup offers a defensive exit by releasing grips and transitioning to standing before pass is completed."
     },
     {
       "context": "De La Riva Guard",
@@ -164,8 +164,8 @@
       "how_applied": "From combat base position in opponent's guard, technical standup principles apply to safely return to standing while maintaining defensive frames against guard player's attacks."
     },
     {
-      "context": "Standing Guard",
-      "how_applied": "Technical standup mechanics are used to transition from seated or kneeling position to full standing guard posture while maintaining distance management and defensive frames."
+      "context": "Clinch",
+      "how_applied": "Technical standup mechanics are used to transition from seated or kneeling position to full standing guard posture while maintaining distance management and defensive frames against clinch engagement."
     },
     {
       "context": "Closed Guard",
@@ -174,14 +174,6 @@
     {
       "context": "Headquarters Position",
       "how_applied": "From headquarters position when controlling guard passer's leg, technical standup mechanics can be applied to transition from seated position to standing while maintaining leg control for single leg finish."
-    },
-    {
-      "context": "X-Guard",
-      "how_applied": "If X-Guard control is compromised and sweep opportunities are not available, technical standup provides defensive exit by releasing hooks and establishing standing base before opponent secures top position."
-    },
-    {
-      "context": "Single Leg X-Guard",
-      "how_applied": "When single leg X control fails and opponent begins to extract leg, technical standup mechanics allow bottom player to quickly transition to standing and establish neutral position."
     },
     {
       "context": "Reverse De La Riva Guard",
@@ -379,12 +371,12 @@
       "relationship": "Essential complementary principle for establishing distance before and during technical standup execution"
     },
     {
-      "name": "Hip Movement",
+      "name": "Bridging Mechanics",
       "content_type": "Principle",
       "relationship": "Core movement pattern for hip elevation phase of technical standup, requiring proper hip extension mechanics"
     },
     {
-      "name": "Space Creation",
+      "name": "Creating Space",
       "content_type": "Principle",
       "relationship": "Prerequisite principle for creating initial distance necessary to begin technical standup sequence safely"
     },
@@ -392,11 +384,6 @@
       "name": "Defensive Posture",
       "content_type": "Principle",
       "relationship": "Maintained throughout technical standup to ensure no vulnerable targets are exposed during transition"
-    },
-    {
-      "name": "Technical Stand-up",
-      "content_type": "Transition",
-      "relationship": "Primary technical application of the technical standup concept, representing the specific technique execution"
     },
     {
       "name": "Seated Guard",
@@ -409,12 +396,7 @@
       "relationship": "Common position from which technical standup provides exit strategy to return to standing engagement"
     },
     {
-      "name": "Guard Recovery",
-      "content_type": "Principle",
-      "relationship": "Alternative defensive response to bottom position, with choice between standup and guard recovery based on tactical situation"
-    },
-    {
-      "name": "Escape Fundamentals",
+      "name": "Escape Hierarchy",
       "content_type": "Principle",
       "relationship": "Broader framework within which technical standup represents specific escape methodology to standing position"
     },
@@ -427,6 +409,16 @@
       "name": "Distance Creation",
       "content_type": "Principle",
       "relationship": "Ultimate expression of distance creation principle, physically removing oneself from ground engagement entirely"
+    },
+    {
+      "name": "Energy Conservation",
+      "content_type": "Principle",
+      "relationship": "Efficient technical standup conserves energy through mechanical advantage and timing rather than brute strength"
+    },
+    {
+      "name": "Escape Fundamentals",
+      "content_type": "Principle",
+      "relationship": "Technical standup exemplifies escape fundamentals by providing systematic method to exit ground engagement"
     }
   ]
 }

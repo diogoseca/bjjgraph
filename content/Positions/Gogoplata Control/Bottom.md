@@ -376,11 +376,11 @@ Establish gogoplata control position and focus exclusively on maintaining elevat
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 40% | 20% |
-| Intermediate | 45% | 60% | 35% |
-| Advanced     | 65% | 75% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 55% |
+| Advancement Probability | 68% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 20-45 seconds from control establishment to finish or transition
 

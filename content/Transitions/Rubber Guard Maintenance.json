@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Rubber Guard Maintenance is the foundational skill that separates successful Rubber Guard practitioners from those who merely attempt the position. This technique encompasses the continuous adjustments, grip management, and hip positioning required to sustain Rubber Guard control against an actively resisting opponent attempting to posture and escape.\n\nThe maintenance phase is where most practitioners fail in Rubber Guard application. Establishing Mission Control or other Rubber Guard configurations is relatively straightforward against a static opponent, but maintaining that control while the opponent drives forward, postures up, or attempts to strip grips requires constant micro-adjustments. The bottom player must continuously reposition their overhook grip, adjust hip angle to maintain perpendicular pressure on the opponent's neck, and anticipate posture recovery attempts before they develop momentum.\n\nStrategically, Rubber Guard Maintenance serves as the platform from which all high-percentage attacks launch. Without solid maintenance skills, submissions become low-percentage scrambles rather than controlled finishes. The practitioner who masters maintenance transforms Rubber Guard from a flashy but unreliable position into a systematic attack system where the opponent faces constant threat while having limited escape options. This makes maintenance not merely a defensive skill but the offensive foundation that enables gogoplata, omoplata, triangle, and armbar attacks.",
   "key_principles": [
     "Hip angle must remain perpendicular to opponent's spine to prevent posture recovery",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Secure overhook grip",
-      "description": "Establish a deep overhook grip on your own shin with your controlling arm, threading your forearm around the outside of your shin and gripping firmly near the ankle to create structural integrity",
-      "timing": "Immediately upon establishing Rubber Guard"
+      "description": "Establish a deep overhook grip on your own shin with your controlling arm, threading your forearm around the outside of your shin and gripping firmly near the ankle to create structural integrity"
     },
     {
       "step_number": 2,
       "action": "Set hip angle",
-      "description": "Angle your hips perpendicular to opponent's spine by shifting your bottom hip slightly toward the controlling leg side, creating optimal leverage for maintaining downward pressure on their head and preventing posture recovery",
-      "timing": "Within first 2 seconds of control"
+      "description": "Angle your hips perpendicular to opponent's spine by shifting your bottom hip slightly toward the controlling leg side, creating optimal leverage for maintaining downward pressure on their head and preventing posture recovery"
     },
     {
       "step_number": 3,
       "action": "Drive heel toward mat",
-      "description": "Actively drive your controlling leg's heel toward the ground behind opponent's head, creating constant downward pressure that forces their posture to remain broken and makes head extraction extremely difficult",
-      "timing": "Continuous throughout maintenance"
+      "description": "Actively drive your controlling leg's heel toward the ground behind opponent's head, creating constant downward pressure that forces their posture to remain broken and makes head extraction extremely difficult"
     },
     {
       "step_number": 4,
       "action": "Monitor posture attempts",
-      "description": "Feel for opponent's weight shifting backward or their hands posting on your hips, which indicates imminent posture recovery attempts that must be countered immediately before momentum develops",
-      "timing": "Constant awareness"
+      "description": "Feel for opponent's weight shifting backward or their hands posting on your hips, which indicates imminent posture recovery attempts that must be countered immediately before momentum develops"
     },
     {
       "step_number": 5,
       "action": "Counter posture with hip elevation",
-      "description": "When opponent begins posturing, elevate your hips while pulling your shin grip tighter and driving your knee toward your own shoulder, using their upward energy to deepen your control rather than fighting against it",
-      "timing": "Reactive to opponent's posture attempts"
+      "description": "When opponent begins posturing, elevate your hips while pulling your shin grip tighter and driving your knee toward your own shoulder, using their upward energy to deepen your control rather than fighting against it"
     },
     {
       "step_number": 6,
       "action": "Adjust secondary controls",
-      "description": "Use your free hand to control opponent's wrist, collar, or head position depending on the situation, preventing them from establishing hand position on your hips or creating frames that enable escape",
-      "timing": "As needed based on opponent's defensive reactions"
+      "description": "Use your free hand to control opponent's wrist, collar, or head position depending on the situation, preventing them from establishing hand position on your hips or creating frames that enable escape"
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Flexibility and position familiarity",
-      "description": "Focus on achieving and holding Rubber Guard position against non-resisting partner. Develop hip flexibility through daily stretching. Practice finding comfortable overhook grip depth and hip angle without opposition.",
-      "resistance_level": "None"
+      "description": "Focus on achieving and holding Rubber Guard position against non-resisting partner. Develop hip flexibility through daily stretching. Practice finding comfortable overhook grip depth and hip angle without opposition."
     },
     {
       "phase": "Week 3-4",
       "focus": "Identifying and countering escape attempts",
-      "description": "Partner provides light posture recovery attempts. Practice recognizing the feel of posture attempts before they develop momentum. Work on timing your hip elevation and grip tightening to counter their movement.",
-      "resistance_level": "Light"
+      "description": "Partner provides light posture recovery attempts. Practice recognizing the feel of posture attempts before they develop momentum. Work on timing your hip elevation and grip tightening to counter their movement."
     },
     {
       "phase": "Week 5-6",
       "focus": "Combining maintenance with attacks",
-      "description": "Maintain Rubber Guard while partner provides medium resistance, then launch attacks when openings appear. Practice the connection between maintenance and Mission Control, Chill Dog, and submission setups.",
-      "resistance_level": "Medium"
+      "description": "Maintain Rubber Guard while partner provides medium resistance, then launch attacks when openings appear. Practice the connection between maintenance and Mission Control, Chill Dog, and submission setups."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Full resistance positional sparring starting from Rubber Guard. Identify personal weaknesses in maintenance and develop solutions. Integrate maintenance seamlessly into your guard game.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring starting from Rubber Guard. Identify personal weaknesses in maintenance and develop solutions. Integrate maintenance seamlessly into your guard game."
     }
   ],
   "variants_and_adaptations": [
@@ -181,43 +166,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Rubber Guard Maintenance?",
-      "answer": "The primary goal is to sustain broken posture control against an actively resisting opponent through continuous micro-adjustments to grip, hip angle, and heel pressure, creating a stable platform from which all Rubber Guard attacks can be launched with high percentage.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to sustain broken posture control against an actively resisting opponent through continuous micro-adjustments to grip, hip angle, and heel pressure, creating a stable platform from which all Rubber Guard attacks can be launched with high percentage."
     },
     {
       "question": "What hip angle should you maintain relative to opponent's spine and why?",
-      "answer": "Your hips should be perpendicular to opponent's spine. This angle creates optimal mechanical leverage for maintaining downward pressure on their head. Parallel hips allow opponent to drive forward and posture, while perpendicular alignment converts their posture attempts into deeper control for you.",
-      "difficulty": "Intermediate"
+      "answer": "Your hips should be perpendicular to opponent's spine. This angle creates optimal mechanical leverage for maintaining downward pressure on their head. Parallel hips allow opponent to drive forward and posture, while perpendicular alignment converts their posture attempts into deeper control for you."
     },
     {
       "question": "Your opponent posts both hands on your hips while you have Rubber Guard - what is your immediate response?",
-      "answer": "Immediately use your free hand to strip one of their wrists, preventing them from establishing the frame they need for posture recovery. Address hand fighting before they can generate upward momentum. If stripping fails, transition to attacks like triangle or armbar that capitalize on their committed arm position.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately use your free hand to strip one of their wrists, preventing them from establishing the frame they need for posture recovery. Address hand fighting before they can generate upward momentum. If stripping fails, transition to attacks like triangle or armbar that capitalize on their committed arm position."
     },
     {
       "question": "What role does heel pressure play in Rubber Guard Maintenance?",
-      "answer": "Active heel pressure toward the mat behind opponent's head creates constant downward force that maintains broken posture. Without this active drive, the leg becomes passive and opponent's head has space to begin extraction. Think of pulling them into the mat through your heel rather than just holding position.",
-      "difficulty": "Beginner"
+      "answer": "Active heel pressure toward the mat behind opponent's head creates constant downward force that maintains broken posture. Without this active drive, the leg becomes passive and opponent's head has space to begin extraction. Think of pulling them into the mat through your heel rather than just holding position."
     },
     {
       "question": "How should you respond when opponent explosively postures backward to escape?",
-      "answer": "Use their backward momentum to deepen your position rather than fighting against it. Elevate your hips following their movement while tightening your overhook grip and driving your knee toward your shoulder. This converts their escape energy into improved control, often setting up Mission Control or Chill Dog transitions.",
-      "difficulty": "Advanced"
+      "answer": "Use their backward momentum to deepen your position rather than fighting against it. Elevate your hips following their movement while tightening your overhook grip and driving your knee toward your shoulder. This converts their escape energy into improved control, often setting up Mission Control or Chill Dog transitions."
     },
     {
       "question": "What are the signs that indicate you should transition out of Rubber Guard rather than continue maintenance?",
-      "answer": "Transition when: grip is being successfully stripped despite your counters, hip flexibility fatigue is compromising position quality, opponent has established both hands on your hips with strong frames, or you recognize a higher-percentage attack opportunity. Forcing a failing Rubber Guard is worse than flowing to Closed Guard.",
-      "difficulty": "Advanced"
+      "answer": "Transition when: grip is being successfully stripped despite your counters, hip flexibility fatigue is compromising position quality, opponent has established both hands on your hips with strong frames, or you recognize a higher-percentage attack opportunity. Forcing a failing Rubber Guard is worse than flowing to Closed Guard."
     },
     {
       "question": "How does the overhook grip create structural integrity in Rubber Guard?",
-      "answer": "Threading your forearm around the outside of your shin and gripping near the ankle creates a closed loop structure where your arm and leg form an interconnected unit. This structure distributes force through bone and connective tissue rather than relying on grip strength alone, making it much harder for opponent to strip the control.",
-      "difficulty": "Intermediate"
+      "answer": "Threading your forearm around the outside of your shin and gripping near the ankle creates a closed loop structure where your arm and leg form an interconnected unit. This structure distributes force through bone and connective tissue rather than relying on grip strength alone, making it much harder for opponent to strip the control."
     },
     {
       "question": "When opponent turns their head toward your trapped arm side to escape, what adjustment maintains control?",
-      "answer": "Follow their head turn by either switching your overhook to the opposite side to match their new angle, or transitioning to Jiu Claw grip which accommodates angle changes better. The key is maintaining perpendicular relationship between your control and their neck regardless of which direction they turn.",
-      "difficulty": "Advanced"
+      "answer": "Follow their head turn by either switching your overhook to the opposite side to match their new angle, or transitioning to Jiu Claw grip which accommodates angle changes better. The key is maintaining perpendicular relationship between your control and their neck regardless of which direction they turn."
     }
   ],
   "safety_considerations": "Rubber Guard Maintenance places significant demands on hip flexibility, hamstring extensibility, and lower back mobility. Practitioners should develop flexibility through progressive stretching over months before attempting sustained Rubber Guard work under resistance. Never force flexibility beyond comfortable range, as hip labrum injuries and hamstring strains are common when attempting positions beyond current capacity. During training, communicate with partners about your flexibility limits and tap early if you feel strain in hip or lower back. Warm up thoroughly before Rubber Guard drilling, focusing on hip circles, hamstring stretches, and lower back mobility. If you experience persistent hip or lower back discomfort after training, reduce Rubber Guard intensity and consult a sports medicine professional.",
@@ -263,5 +240,6 @@
       "name": "Crackhead Control",
       "relationship": "Transitional control for Gogoplata setup"
     }
-  ]
+  ],
+  "success_rate": 58
 }

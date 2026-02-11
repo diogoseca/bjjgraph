@@ -51,13 +51,13 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
     {
       "@type": "HowToStep",
       "name": "Adjust or transition based on defense",
-      "text": "If opponent defends successfully by creating space, pulling their head out, or establishing strong posture, immediately transition within the sequence. Common adjustments include: switching to high elbow variation if they defend standard guillotine, transitioning to D'arce or anaconda if they turn into you, taking the back if they turtle, or switching to arm-in guillotine if they attempt to hand-fight. Never force a guillotine that isn't working - flow to the next option in the sequence.",
+      "text": "If opponent defends successfully by creating space, pulling their head out, or establishing strong posture, immediately transition within the sequence. Common adjustments include: switching to high elbow variation if they defend standard guillotine, transitioning to Darce or anaconda if they turn into you, taking the back if they turtle, or switching to arm-in guillotine if they attempt to hand-fight. Never force a guillotine that isn't working - flow to the next option in the sequence.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Finish or continue sequence",
-      "text": "If the guillotine is successful, opponent taps and you immediately release. If opponent defends effectively, continue the sequence by transitioning to alternative submissions (D'arce, anaconda, arm triangle) or positional improvements (back take, mount, side control). The sequence is complete when you either finish a submission or establish a dominant position. Never abandon head control prematurely - maintain offensive pressure throughout.",
+      "text": "If the guillotine is successful, opponent taps and you immediately release. If opponent defends effectively, continue the sequence by transitioning to alternative submissions (Darce, anaconda, arm triangle) or positional improvements (back take, mount, side control). The sequence is complete when you either finish a submission or establish a dominant position. Never abandon head control prematurely - maintain offensive pressure throughout.",
       "position": 7
     }
   ],
@@ -116,7 +116,7 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
       "name": "How do you recognize when to abandon the guillotine attempt and transition to alternative submissions within the sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Abandon the guillotine when: (1) After 8-10 seconds of committed pressure with proper mechanics, the opponent shows no signs of distress or tap - they've likely found a defensive pocket. (2) The opponent successfully creates hip distance that breaks your choking mechanics despite your attempts to follow. (3) You feel your forearm slipping to ineffective position (across trachea or too shallow). (4) The opponent successfully turns their chin into the crook of your elbow, nullifying pressure. (5) Your arms are fatiguing without progress. At each of these decision points, immediately flow to alternatives: turn into D'arce if they turn toward you, anaconda if they turn away, take the back if they turtle defensively, or switch to arm-in variation if they're hand-fighting."
+        "text": "Abandon the guillotine when: (1) After 8-10 seconds of committed pressure with proper mechanics, the opponent shows no signs of distress or tap - they've likely found a defensive pocket. (2) The opponent successfully creates hip distance that breaks your choking mechanics despite your attempts to follow. (3) You feel your forearm slipping to ineffective position (across trachea or too shallow). (4) The opponent successfully turns their chin into the crook of your elbow, nullifying pressure. (5) Your arms are fatiguing without progress. At each of these decision points, immediately flow to alternatives: turn into Darce if they turn toward you, anaconda if they turn away, take the back if they turtle defensively, or switch to arm-in variation if they're hand-fighting."
       }
     }
   ]
@@ -157,13 +157,13 @@ description: "Master the guillotine sequence in BJJ with systematic entry, contr
 
 <section id="overview" class="content-section">
 
-The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu-Jitsu's most versatile submission systems. Rather than treating the guillotine as a single technique, this sequence encompasses the complete tactical framework from initial front headlock control through multiple finishing variations and transitions. The sequence begins with establishing dominant head control, typically from standing exchanges, turtle attacks, or guard pulls. From this foundation, the practitioner can flow seamlessly between standard guillotine grips, high elbow variations, arm-in controls, and related submissions like the D'arce and anaconda chokes. What makes this sequence particularly effective is its adaptability across positional contexts - it works standing, from guard, in half guard, and during scrambles. The guillotine sequence exemplifies the principle of submission chains, where one attack creates openings for related techniques, forcing opponents into defensive dilemmas with no safe escape. Understanding this sequence transforms the guillotine from an opportunistic submission into a complete offensive system that can be systematically developed and refined across all skill levels.
+The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu-Jitsu's most versatile submission systems. Rather than treating the guillotine as a single technique, this sequence encompasses the complete tactical framework from initial front headlock control through multiple finishing variations and transitions. The sequence begins with establishing dominant head control, typically from standing exchanges, turtle attacks, or guard pulls. From this foundation, the practitioner can flow seamlessly between standard guillotine grips, high elbow variations, arm-in controls, and related submissions like the Darce and anaconda chokes. What makes this sequence particularly effective is its adaptability across positional contexts - it works standing, from guard, in half guard, and during scrambles. The guillotine sequence exemplifies the principle of submission chains, where one attack creates openings for related techniques, forcing opponents into defensive dilemmas with no safe escape. Understanding this sequence transforms the guillotine from an opportunistic submission into a complete offensive system that can be systematically developed and refined across all skill levels.
 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -216,7 +216,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 - Grip versatility - seamlessly transitioning between standard, high elbow, arm-in, and ten-finger variations
 - Hip positioning - using hip pressure and body weight to enhance choking mechanics
 - Posture breaking - preventing opponent from establishing defensive posture that nullifies the choke
-- Submission chain awareness - understanding how guillotine connects to D'arce, anaconda, and back takes
+- Submission chain awareness - understanding how guillotine connects to Darce, anaconda, and back takes
 - Positional flexibility - adapting the sequence across standing, guard, half guard, and turtle contexts
 - Timing recognition - identifying optimal entry windows during scrambles and transitions
 
@@ -240,13 +240,13 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish front headlock control**: Secure dominant head position with opponent's head trapped under your chest. Your choking arm wraps around the neck while your non-choking hand controls the opponent's far shoulder or back. Keep your hips low and chest heavy to prevent them from standing or pulling their head free. This initial control is the foundation for the entire sequence. (Timing: 0-2 seconds) [Pressure: Moderate]
-2. **Choose appropriate guillotine variation**: Assess the position and select the optimal variation: standard guillotine with locked hands for standing or closed guard, high elbow guillotine for maximum squeeze when pulled to guard, arm-in guillotine if opponent's arm is trapped inside your grip, or ten-finger guillotine for quick finishing opportunities. Your selection depends on opponent's posture, available space, and defensive reactions. (Timing: 2-3 seconds) [Pressure: Light]
-3. **Secure choking grip**: For standard guillotine, your choking arm extends deep around the neck with the blade of your forearm (radius bone side) positioned across both carotid arteries, NOT the trachea. Lock your hands together using gable grip, S-grip, or palm-to-palm grip depending on flexibility and variation. Ensure your elbow is positioned on centerline of opponent's body. For high elbow variation, your choking elbow stays high near your own chest. For arm-in, trap their defensive arm inside your grip. (Timing: 3-4 seconds) [Pressure: Moderate]
-4. **Establish optimal body position**: From standing, either sit to guard pulling opponent into you, jump to closed guard, or maintain standing position with hips thrust forward. From guard, close your legs around opponent's body or secure half guard on the non-choking side. From turtle, maintain top pressure while securing the grip. Regardless of position, your hips must create pressure into opponent's neck while your upper body pulls up and back, creating the scissoring action that generates choking pressure. (Timing: 4-5 seconds) [Pressure: Firm]
-5. **Apply progressive choking pressure**: Gradually increase pressure by simultaneously pulling up with your arms while driving your hips forward and down. For standard guillotine, shrug your shoulder on the choking side to tighten the noose. For high elbow, keep that elbow high and pull it toward your opposite hip. Maintain head control throughout - do not allow opponent to posture up or turn their head. Apply pressure slowly over 3-5 seconds, giving partner time to recognize the danger and tap safely. (Timing: 5-8 seconds) [Pressure: Firm]
-6. **Adjust or transition based on defense**: If opponent defends successfully by creating space, pulling their head out, or establishing strong posture, immediately transition within the sequence. Common adjustments include: switching to high elbow variation if they defend standard guillotine, transitioning to D'arce or anaconda if they turn into you, taking the back if they turtle, or switching to arm-in guillotine if they attempt to hand-fight. Never force a guillotine that isn't working - flow to the next option in the sequence. (Timing: 8-12 seconds) [Pressure: Moderate]
-7. **Finish or continue sequence**: If the guillotine is successful, opponent taps and you immediately release. If opponent defends effectively, continue the sequence by transitioning to alternative submissions (D'arce, anaconda, arm triangle) or positional improvements (back take, mount, side control). The sequence is complete when you either finish a submission or establish a dominant position. Never abandon head control prematurely - maintain offensive pressure throughout. (Timing: 12-15 seconds) [Pressure: Moderate]
+1. **Establish front headlock control**: Secure dominant head position with opponent's head trapped under your chest. Your choking arm wraps around the neck while your non-choking hand controls the opponent's far shoulder or back. Keep your hips low and chest heavy to prevent them from standing or pulling their head free. This initial control is the foundation for the entire sequence. (Timing: 0-2 seconds)
+2. **Choose appropriate guillotine variation**: Assess the position and select the optimal variation: standard guillotine with locked hands for standing or closed guard, high elbow guillotine for maximum squeeze when pulled to guard, arm-in guillotine if opponent's arm is trapped inside your grip, or ten-finger guillotine for quick finishing opportunities. Your selection depends on opponent's posture, available space, and defensive reactions. (Timing: 2-3 seconds)
+3. **Secure choking grip**: For standard guillotine, your choking arm extends deep around the neck with the blade of your forearm (radius bone side) positioned across both carotid arteries, NOT the trachea. Lock your hands together using gable grip, S-grip, or palm-to-palm grip depending on flexibility and variation. Ensure your elbow is positioned on centerline of opponent's body. For high elbow variation, your choking elbow stays high near your own chest. For arm-in, trap their defensive arm inside your grip. (Timing: 3-4 seconds)
+4. **Establish optimal body position**: From standing, either sit to guard pulling opponent into you, jump to closed guard, or maintain standing position with hips thrust forward. From guard, close your legs around opponent's body or secure half guard on the non-choking side. From turtle, maintain top pressure while securing the grip. Regardless of position, your hips must create pressure into opponent's neck while your upper body pulls up and back, creating the scissoring action that generates choking pressure. (Timing: 4-5 seconds)
+5. **Apply progressive choking pressure**: Gradually increase pressure by simultaneously pulling up with your arms while driving your hips forward and down. For standard guillotine, shrug your shoulder on the choking side to tighten the noose. For high elbow, keep that elbow high and pull it toward your opposite hip. Maintain head control throughout - do not allow opponent to posture up or turn their head. Apply pressure slowly over 3-5 seconds, giving partner time to recognize the danger and tap safely. (Timing: 5-8 seconds)
+6. **Adjust or transition based on defense**: If opponent defends successfully by creating space, pulling their head out, or establishing strong posture, immediately transition within the sequence. Common adjustments include: switching to high elbow variation if they defend standard guillotine, transitioning to Darce or anaconda if they turn into you, taking the back if they turtle, or switching to arm-in guillotine if they attempt to hand-fight. Never force a guillotine that isn't working - flow to the next option in the sequence. (Timing: 8-12 seconds)
+7. **Finish or continue sequence**: If the guillotine is successful, opponent taps and you immediately release. If opponent defends effectively, continue the sequence by transitioning to alternative submissions (Darce, anaconda, arm triangle) or positional improvements (back take, mount, side control). The sequence is complete when you either finish a submission or establish a dominant position. Never abandon head control prematurely - maintain offensive pressure throughout. (Timing: 12-15 seconds)
 
 
 </section>
@@ -254,10 +254,10 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 <section id="opponent-defense-patterns" class="content-section">
 
 ## Opponent Defenses
-- **Creating space by pushing hips away and establishing strong base** (Effectiveness: High) - Your Adjustment: Immediately pull opponent into closed guard or half guard, eliminating their ability to create distance. If standing, jump to guard or switch to D'arce/anaconda by stepping to the side.
-- **Hand fighting to break the choking grip or prevent hands from locking** (Effectiveness: Medium) - Your Adjustment: Switch to arm-in guillotine by trapping their defensive arm inside your grip. Alternatively, transition to D'arce or anaconda by adjusting your arm position and stepping to the choking side.
+- **Creating space by pushing hips away and establishing strong base** (Effectiveness: High) - Your Adjustment: Immediately pull opponent into closed guard or half guard, eliminating their ability to create distance. If standing, jump to guard or switch to Darce/anaconda by stepping to the side.
+- **Hand fighting to break the choking grip or prevent hands from locking** (Effectiveness: Medium) - Your Adjustment: Switch to arm-in guillotine by trapping their defensive arm inside your grip. Alternatively, transition to Darce or anaconda by adjusting your arm position and stepping to the choking side.
 - **Driving forward and establishing strong posture to pull head free** (Effectiveness: Medium) - Your Adjustment: Use their forward momentum to pull guard, simultaneously falling to your back while maintaining head control. As they drive in, your legs close around them and your hips thrust up to restore choking leverage.
-- **Turning into you to alleviate pressure on carotid arteries** (Effectiveness: High) - Your Adjustment: When opponent turns toward your choking side, immediately switch to D'arce choke by adjusting your arm position. If they turn away, transition to anaconda choke. Both submissions capitalize on their turning motion.
+- **Turning into you to alleviate pressure on carotid arteries** (Effectiveness: High) - Your Adjustment: When opponent turns toward your choking side, immediately switch to Darce choke by adjusting your arm position. If they turn away, transition to anaconda choke. Both submissions capitalize on their turning motion.
 - **Tucking chin to create barrier between your forearm and their neck** (Effectiveness: Low) - Your Adjustment: Do not force the submission against a tucked chin (injury risk). Instead, use shoulder pressure and hip positioning to gradually work your forearm deeper, or transition to alternative submissions. Switch to high elbow guillotine which bypasses chin defense.
 
 
@@ -266,22 +266,22 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Choking across the trachea instead of targeting carotid arteries [CRITICAL DANGER]
+- **Mistake**: Choking across the trachea instead of targeting carotid arteries
   - **Consequence**: Ineffective submission that causes unnecessary pain and potential trachea damage
   - **Correction**: Ensure the blade of your forearm (radius bone side) is positioned on the sides of the neck targeting both carotid arteries. Your forearm should be perpendicular to their spine, not parallel. The choke should feel like pressure on the sides of the neck, not crushing the windpipe.
-- **Mistake**: Allowing opponent to establish strong posture with head up [High DANGER]
+- **Mistake**: Allowing opponent to establish strong posture with head up
   - **Consequence**: Complete loss of choking pressure and easy escape for opponent
   - **Correction**: Maintain constant downward pressure on opponent's head with your chest and shoulder. Your non-choking hand must control their far shoulder or back to prevent them from standing up. If they start to posture, immediately pull guard or transition to alternative attack.
-- **Mistake**: Locking hands too early before achieving proper depth around neck [Medium DANGER]
+- **Mistake**: Locking hands too early before achieving proper depth around neck
   - **Consequence**: Shallow grip that opponent can easily defend and escape
   - **Correction**: Extend your choking arm as deep as possible around the neck before locking your hands. Your choking hand should reach to or past their far shoulder. Only lock the grip once you have maximum depth and proper forearm positioning across the carotids.
-- **Mistake**: Failing to use hip pressure to enhance choking mechanics [Low DANGER]
+- **Mistake**: Failing to use hip pressure to enhance choking mechanics
   - **Consequence**: Arm-only choke that fatigues quickly and lacks finishing power
   - **Correction**: Your hips must thrust forward and up while your arms pull back and up, creating a scissoring action. Whether standing, in guard, or from turtle, your hips are the primary source of choking pressure, not arm strength alone.
-- **Mistake**: Maintaining same guillotine variation despite opponent's effective defense [Medium DANGER]
+- **Mistake**: Maintaining same guillotine variation despite opponent's effective defense
   - **Consequence**: Wasted energy and lost opportunity as opponent successfully defends
-  - **Correction**: The guillotine sequence requires constant adaptation. If standard guillotine isn't working after 5-8 seconds of solid pressure, immediately switch to high elbow, arm-in, D'arce, anaconda, or back take. Flow within the sequence rather than forcing a single technique.
-- **Mistake**: Applying maximum pressure immediately without progressive build-up [CRITICAL DANGER]
+  - **Correction**: The guillotine sequence requires constant adaptation. If standard guillotine isn't working after 5-8 seconds of solid pressure, immediately switch to high elbow, arm-in, Darce, anaconda, or back take. Flow within the sequence rather than forcing a single technique.
+- **Mistake**: Applying maximum pressure immediately without progressive build-up
   - **Consequence**: Partner injury risk and inability to safely tap in time
   - **Correction**: Always apply choking pressure gradually over 3-5 seconds in training. Give your partner time to recognize the submission and tap safely. Competition pace is never appropriate in training, especially for neck submissions.
 
@@ -297,7 +297,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 **Arm-In Guillotine from Turtle**: When opponent turtles and extends one arm for defense, trap that arm inside your guillotine grip. Secure the choke with their arm trapped between your forearm and their neck. This variation is exceptionally tight and prevents them from using that arm to defend or escape. Maintain top pressure throughout. (When to use: When attacking turtle position and opponent gives you an arm, when transitioning from front headlock and they hand-fight, or when standard guillotine is defended by hand-fighting)
 
-**Guillotine to D'arce Transition**: When opponent turns into your choking side to defend the guillotine, immediately switch to D'arce choke by sliding your choking arm deeper and adjusting your grip. Your arm goes under their near arm and across to the far side of their neck. Step to the choking side and fall to your hip to finish the D'arce. Seamless transition within the sequence. (When to use: When opponent turns toward you to alleviate guillotine pressure, when you want to add layers to your front headlock game, or when D'arce position presents itself during guillotine attempt)
+**Guillotine to Darce Transition**: When opponent turns into your choking side to defend the guillotine, immediately switch to Darce choke by sliding your choking arm deeper and adjusting your grip. Your arm goes under their near arm and across to the far side of their neck. Step to the choking side and fall to your hip to finish the Darce. Seamless transition within the sequence. (When to use: When opponent turns toward you to alleviate guillotine pressure, when you want to add layers to your front headlock game, or when Darce position presents itself during guillotine attempt)
 
 **Ten-Finger Guillotine from Scramble**: During fast scrambles, secure quick front headlock with both hands palm-to-palm (ten fingers together) creating a tight noose around opponent's neck. Pull their head down sharply while driving your chest forward. This variation sacrifices some control for speed of application. Excellent for catching opponents in transition. (When to use: During fast scrambles when you don't have time for traditional grip, when opponent is moving quickly and you need immediate control, or as initial setup before transitioning to stronger guillotine variation)
 
@@ -324,7 +324,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 **A**: The point of no escape occurs when three elements converge: deep forearm blade position across both carotids with hands locked, connected hips eliminating space for posture recovery, and controlled head position preventing the opponent from turning or extracting their head. Before this convergence, the opponent can escape through posturing, hand-fighting, turning, or creating hip distance. Once you achieve all three simultaneously, their remaining options are to tap or go unconscious. Maintaining this position requires constant hip drive forward, continuous arm pull toward your chest, and active prevention of any head movement. The key control element is the hip connection - without it, they can create space to escape even a deep grip.
 
 **Q6**: How do you recognize when to abandon the guillotine attempt and transition to alternative submissions within the sequence?
-**A**: Abandon the guillotine when: (1) After 8-10 seconds of committed pressure with proper mechanics, the opponent shows no signs of distress or tap - they've likely found a defensive pocket. (2) The opponent successfully creates hip distance that breaks your choking mechanics despite your attempts to follow. (3) You feel your forearm slipping to ineffective position (across trachea or too shallow). (4) The opponent successfully turns their chin into the crook of your elbow, nullifying pressure. (5) Your arms are fatiguing without progress. At each of these decision points, immediately flow to alternatives: turn into D'arce if they turn toward you, anaconda if they turn away, take the back if they turtle defensively, or switch to arm-in variation if they're hand-fighting.
+**A**: Abandon the guillotine when: (1) After 8-10 seconds of committed pressure with proper mechanics, the opponent shows no signs of distress or tap - they've likely found a defensive pocket. (2) The opponent successfully creates hip distance that breaks your choking mechanics despite your attempts to follow. (3) You feel your forearm slipping to ineffective position (across trachea or too shallow). (4) The opponent successfully turns their chin into the crook of your elbow, nullifying pressure. (5) Your arms are fatiguing without progress. At each of these decision points, immediately flow to alternatives: turn into Darce if they turn toward you, anaconda if they turn away, take the back if they turtle defensively, or switch to arm-in variation if they're hand-fighting.
 
 **Q7**: What are the critical safety protocols for training guillotine chokes, and why is the 3-5 second progressive application rule essential? **[SAFETY-CRITICAL]**
 **A**: Critical safety protocols include: progressive pressure application over 3-5 seconds minimum (never explosive), ensuring partner has at least one arm free to tap, positioning forearm across carotids only (never trachea), immediate release upon any tap signal, never using competition speed in training, and stopping at any sign of neck discomfort. The 3-5 second rule is essential because blood chokes work quickly - unconsciousness can occur in 5-10 seconds once properly applied. Progressive application gives your partner time to recognize the submission danger and tap safely before unconsciousness. Explosive application provides no tap window, creating injury risk and destroying training partner trust. The goal of drilling is technical refinement and safe repetition, not finishing submissions on resisting partners.
@@ -335,51 +335,14 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 **Q9**: How does the scissoring action between hips and arms generate finishing pressure, and what happens mechanically when this relationship breaks down?
 **A**: The scissoring action creates opposing forces that compress the neck between them. Your arms pull the head and neck toward your chest (upward and backward) while your hips drive forward and into the opponent's neck (forward and downward). This creates a shearing force across the carotids from two directions simultaneously, dramatically increasing choking pressure beyond what either force alone could generate. The ratio should be approximately 70% hip power, 30% arm control. When this relationship breaks down - typically when the opponent creates hip distance - you lose the forward driving force of the hips, leaving only arm strength which fatigues quickly and lacks finishing power. This is why hip connection is the most critical element: without it, the guillotine becomes an arm-only squeeze that experienced opponents can weather until you fatigue.
 
-**Q10**: What specific grip adjustments are required when transitioning from standard guillotine to D'arce choke as the opponent turns into you?
-**A**: When the opponent turns toward your choking side, the standard guillotine grip must transform into a D'arce configuration. First, allow your choking arm to slide deeper around their neck as they turn - their rotation actually helps feed your arm through. Second, shoot that arm under their near-side armpit (the arm that became exposed by their turn) and through to grip your own bicep on the opposite arm. Third, the hand of your free arm goes behind their head or on your own shoulder. Fourth, step to the choking side and fall to your hip to tighten the choke. The key mechanical change is that the D'arce uses their trapped arm as part of the choking structure, whereas the guillotine uses only your forearm. This transition should feel seamless - their defensive turn provides the momentum and angle you need to complete the grip change.
+**Q10**: What specific grip adjustments are required when transitioning from standard guillotine to Darce choke as the opponent turns into you?
+**A**: When the opponent turns toward your choking side, the standard guillotine grip must transform into a Darce configuration. First, allow your choking arm to slide deeper around their neck as they turn - their rotation actually helps feed your arm through. Second, shoot that arm under their near-side armpit (the arm that became exposed by their turn) and through to grip your own bicep on the opposite arm. Third, the hand of your free arm goes behind their head or on your own shoulder. Fourth, step to the choking side and fall to your hip to tighten the choke. The key mechanical change is that the Darce uses their trapped arm as part of the choking structure, whereas the guillotine uses only your forearm. This transition should feel seamless - their defensive turn provides the momentum and angle you need to complete the grip change.
 
 **Q11**: How do you distinguish between a guillotine that needs grip adjustment versus one that requires transitioning to a completely different submission?
-**A**: A guillotine needs grip adjustment when: the position is sound (hip connection maintained, head controlled) but the choking pressure isn't effective. This indicates forearm positioning issues - switch from standard to high elbow, or from arm-out to arm-in. Transition to a different submission when: the fundamental position is compromised despite proper grip. If the opponent has successfully created hip distance, the guillotine's scissoring mechanics are broken - transition to D'arce or anaconda which don't require the same hip connection. If they've turned significantly, the guillotine angle is lost - use their momentum for the D'arce or anaconda depending on turn direction. If they've elevated their head and posture is broken, your control is insufficient - take the back as they escape. The determining factor is positional integrity: intact position means adjust grip, compromised position means change submission.
+**A**: A guillotine needs grip adjustment when: the position is sound (hip connection maintained, head controlled) but the choking pressure isn't effective. This indicates forearm positioning issues - switch from standard to high elbow, or from arm-out to arm-in. Transition to a different submission when: the fundamental position is compromised despite proper grip. If the opponent has successfully created hip distance, the guillotine's scissoring mechanics are broken - transition to Darce or anaconda which don't require the same hip connection. If they've turned significantly, the guillotine angle is lost - use their momentum for the Darce or anaconda depending on turn direction. If they've elevated their head and posture is broken, your control is insufficient - take the back as they escape. The determining factor is positional integrity: intact position means adjust grip, compromised position means change submission.
 
 **Q12**: What training progression safely develops guillotine finishing ability from technical understanding through full-resistance application? **[SAFETY-CRITICAL]**
 **A**: Begin with technical understanding (weeks 1-2): learn anatomy, practice grip mechanics with zero resistance, distinguish carotid versus trachea pressure through partner feedback. Progress to slow technical practice (weeks 3-4): drill variations with compliant partner, minimum 5-second application, partner provides pressure location feedback. Move to positional integration (weeks 5-8): practice from different positions with mild resistance, never force against strong defense, maintain 3-5 second application time. Develop defensive recognition (weeks 9-12): learn to adapt to defenses with realistic resistance, release and reset rather than force when defended. Achieve flow and timing (weeks 13-20): catch opponents in transitions with full resistance while maintaining controlled speed, build sensitivity for when technique is 'on'. Finally, advanced application (week 21+): competition-level execution with safety maintained - never use competition speed in training regardless of skill level.
-
-
-
-</section>
-
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Week 1-2)** (First 2 weeks of learning sequence)
-- Focus: Understanding all guillotine variations, proper grip mechanics, body positioning, and carotid vs. trachea anatomy. Study each variation individually with zero resistance partner.
-- Resistance: None
-- Safety: Learn to distinguish between blood choke pressure (carotids) and air choke pressure (trachea). Practice ultra-slow application. Establish clear tap protocols and practice immediate release response.
-
-**Slow Technical Practice (Week 3-4)** (Weeks 3-4)
-- Focus: Drilling each guillotine variation with compliant partner, focusing on proper forearm placement, grip depth, and hip mechanics. Practice flowing between variations. Minimum 5-second application time.
-- Resistance: Zero resistance
-- Safety: Partner provides immediate feedback on pressure location (sides of neck vs. trachea). Practice progressive pressure build-up over 5-7 seconds. Emphasize immediate release upon tap.
-
-**Positional Integration (Week 5-8)** (Weeks 5-8)
-- Focus: Integrating guillotine sequence into different positions: standing, closed guard, half guard, turtle, scrambles. Practice entries from each position. Begin recognizing which variation suits which position best.
-- Resistance: Mild resistance
-- Safety: Never force the submission against strong defense - practice transitioning to alternative variations instead. Maintain 3-5 second minimum application time. Partner communication about pressure and comfort.
-
-**Defensive Recognition (Week 9-12)** (Weeks 9-12)
-- Focus: Learning to recognize and adapt to opponent defenses. When standard guillotine is defended, flow to high elbow, arm-in, D'arce, or anaconda. Develop sequence thinking over single-technique mindset.
-- Resistance: Realistic resistance
-- Safety: When partner defends effectively, release and reset rather than forcing technique. Practice identifying when to abandon guillotine for alternative attacks. Safety remains priority over completion.
-
-**Flow and Timing (Week 13-20)** (Weeks 13-20)
-- Focus: Developing timing to catch opponents during transitions and scrambles. Flowing seamlessly through entire sequence based on opponent reactions. Building muscle memory for variation selection. Live sparring integration.
-- Resistance: Full resistance
-- Safety: Even with full resistance, maintain controlled application speed. Develop sensitivity to feel when technique is 'on' vs. forcing it. Trust tap signals and release immediately. Build reputation as safe training partner.
-
-**Advanced Application (Week 21+)** (Ongoing refinement)
-- Focus: Competition-level execution with safety maintained. Developing your personal guillotine sequence preferences. Teaching the sequence to lower belts. Recognizing subtle setup opportunities. Integration with complete game.
-- Resistance: Full resistance
-- Safety: Never use competition speed in training even at advanced levels. Maintain culture of safety when teaching to others. Understand that some training partners require extra care (beginners, injured, etc.). Safety never graduates - it remains constant at all levels.
 
 
 
@@ -412,7 +375,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 - [[Chin Strap Guillotine]]
 - [[Darce Choke]]
 - [[Anaconda Choke]]
-- [[D'arce-Anaconda Connection]]
+- [[Darce-Anaconda Connection]]
 - [[Arm Triangle]]
 - [[North-South Choke]]
 - [[Rear Naked Choke]]
@@ -429,7 +392,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 - [[Front Headlock]] - Core transitional system that creates guillotine opportunities and alternative attacks
 - [[Guillotine Control]] - Dominant control position for finishing guillotine variations
-- [[D'arce Control]] - Position achieved when transitioning from guillotine to D'arce choke variation
+- [[Darce Control]] - Position achieved when transitioning from guillotine to Darce choke variation
 - [[Anaconda Control]] - Alternative control position accessible when opponent turns away from guillotine
 - [[Closed Guard]] - Primary finishing position for high elbow and standard guillotine variations
 - [[Half Guard]] - Alternative finishing position when closed guard is unavailable
@@ -442,6 +405,7 @@ The Guillotine Sequence represents a systematic approach to one of Brazilian Jiu
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

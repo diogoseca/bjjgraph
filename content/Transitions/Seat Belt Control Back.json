@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Seat Belt Control Back transition represents a critical link between mounted crucifix dominance and full back control. When you have achieved the mounted crucifix position with arm isolation established, transitioning to seat belt back control allows you to capitalize on that control while securing one of the highest-percentage finishing positions in jiu-jitsu.\n\nThis transition exploits the opponent's compromised defensive structure. With arms trapped or recently extracted from crucifix control, the opponent cannot effectively defend the seat belt grip establishment. The key strategic insight is recognizing when crucifix control begins to degrade - perhaps through opponent movement or your own attack attempts - and converting that moment into a smooth back take rather than fighting to maintain the original position.\n\nThe seat belt grip configuration (one arm over the shoulder, one under the armpit, hands clasped at the sternum) provides the structural foundation for maintaining back control through opponent's escape attempts. Establishing this grip during the transition from mounted crucifix ensures you arrive at back control with immediate offensive potential rather than scrambling to establish control after the position change. This proactive grip work separates high-level back takes from opportunistic ones that often result in lost positions.",
   "key_principles": [
     "Recognize degrading crucifix control as the trigger for back take initiation rather than fighting to maintain position",
@@ -52,38 +47,32 @@
     {
       "step_number": 1,
       "action": "Recognize transition window",
-      "description": "Identify the moment when opponent begins turning toward their trapped arm side or when your crucifix leg control starts slipping. This defensive movement actually exposes their back - recognize it as opportunity rather than problem.",
-      "timing": "When opponent initiates turn or escape attempt"
+      "description": "Identify the moment when opponent begins turning toward their trapped arm side or when your crucifix leg control starts slipping. This defensive movement actually exposes their back - recognize it as opportunity rather than problem."
     },
     {
       "step_number": 2,
       "action": "Establish over-arm grip",
-      "description": "Before releasing any crucifix control, reach your arm that's closer to opponent's head over their shoulder, threading it across their chest to grab their far-side lat or hip. This arm becomes your 'over' in the seat belt configuration.",
-      "timing": "Immediately upon recognizing window"
+      "description": "Before releasing any crucifix control, reach your arm that's closer to opponent's head over their shoulder, threading it across their chest to grab their far-side lat or hip. This arm becomes your 'over' in the seat belt configuration."
     },
     {
       "step_number": 3,
       "action": "Thread under-arm",
-      "description": "Drive your other arm underneath opponent's armpit on the near side, reaching around their torso toward the centerline. Your hand should aim to connect with your over-arm hand at their sternum area.",
-      "timing": "As opponent's turn continues"
+      "description": "Drive your other arm underneath opponent's armpit on the near side, reaching around their torso toward the centerline. Your hand should aim to connect with your over-arm hand at their sternum area."
     },
     {
       "step_number": 4,
       "action": "Lock seat belt grip",
-      "description": "Connect your hands at opponent's sternum in a gable grip or S-grip configuration. The over-arm should be controlling their shoulder/neck area while under-arm controls their torso. Pull elbows tight to eliminate slack in the grip.",
-      "timing": "Before releasing leg control"
+      "description": "Connect your hands at opponent's sternum in a gable grip or S-grip configuration. The over-arm should be controlling their shoulder/neck area while under-arm controls their torso. Pull elbows tight to eliminate slack in the grip."
     },
     {
       "step_number": 5,
       "action": "Release crucifix and follow",
-      "description": "With seat belt secured, release your leg entanglement from the crucifix position and immediately begin sliding your hips behind opponent's hips. Maintain tight chest-to-back connection throughout this slide to prevent separation.",
-      "timing": "Fluid movement following grip lock"
+      "description": "With seat belt secured, release your leg entanglement from the crucifix position and immediately begin sliding your hips behind opponent's hips. Maintain tight chest-to-back connection throughout this slide to prevent separation."
     },
     {
       "step_number": 6,
       "action": "Insert hooks or body triangle",
-      "description": "As your hips arrive behind opponent, immediately work to insert your hooks (feet inside opponent's thighs) or establish body triangle control. The bottom hook typically inserts first as you slide, with top hook following to complete back control.",
-      "timing": "As hips settle behind opponent"
+      "description": "As your hips arrive behind opponent, immediately work to insert your hooks (feet inside opponent's thighs) or establish body triangle control. The bottom hook typically inserts first as you slide, with top hook following to complete back control."
     }
   ],
   "common_counters": [
@@ -139,26 +128,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics",
-      "description": "Practice seat belt grip establishment from stationary positions. Focus on proper over-under arm threading, hand connection methods, and elbow positioning. Partner remains passive while you develop muscle memory for the grip configuration.",
-      "resistance_level": "None"
+      "description": "Practice seat belt grip establishment from stationary positions. Focus on proper over-under arm threading, hand connection methods, and elbow positioning. Partner remains passive while you develop muscle memory for the grip configuration."
     },
     {
       "phase": "Week 3-4",
       "focus": "Transition timing",
-      "description": "From mounted crucifix, practice recognizing when partner's movement creates back take opportunities. Execute the full transition sequence with partner providing light turning movement to simulate defensive reactions. Focus on maintaining continuous control throughout position change.",
-      "resistance_level": "Light"
+      "description": "From mounted crucifix, practice recognizing when partner's movement creates back take opportunities. Execute the full transition sequence with partner providing light turning movement to simulate defensive reactions. Focus on maintaining continuous control throughout position change."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner adds defensive responses including framing, turning into you, and grip fighting. Practice adjusting your transition based on their defensive choices. Develop ability to complete back take despite resistance or abandon to advantageous position when blocked.",
-      "resistance_level": "Medium"
+      "description": "Partner adds defensive responses including framing, turning into you, and grip fighting. Practice adjusting your transition based on their defensive choices. Develop ability to complete back take despite resistance or abandon to advantageous position when blocked."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Incorporate transition into full sparring from mounted crucifix starting position. Test timing recognition, execution under pressure, and chain to finishing attacks from back control. Evaluate success rate and identify remaining technical gaps.",
-      "resistance_level": "Full"
+      "description": "Incorporate transition into full sparring from mounted crucifix starting position. Test timing recognition, execution under pressure, and chain to finishing attacks from back control. Evaluate success rate and identify remaining technical gaps."
     }
   ],
   "variants_and_adaptations": [
@@ -181,53 +166,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Seat Belt Control Back?",
-      "answer": "The primary goal is to convert mounted crucifix control into full back control with seat belt grip established. This transition capitalizes on the positional dominance of crucifix while advancing to back control where rear naked choke and other high-percentage submissions become available. The seat belt grip ensures you arrive at back with immediate offensive capability rather than scrambling to establish control.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to convert mounted crucifix control into full back control with seat belt grip established. This transition capitalizes on the positional dominance of crucifix while advancing to back control where rear naked choke and other high-percentage submissions become available. The seat belt grip ensures you arrive at back with immediate offensive capability rather than scrambling to establish control."
     },
     {
       "question": "What position do you start Seat Belt Control Back from?",
-      "answer": "This technique starts from Mounted Crucifix Top position. You have mount established with opponent's arm(s) trapped by your legs in crucifix configuration. The transition initiates when opponent's defensive movement begins exposing their back or when crucifix control starts degrading, creating the window for back take.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Mounted Crucifix Top position. You have mount established with opponent's arm(s) trapped by your legs in crucifix configuration. The transition initiates when opponent's defensive movement begins exposing their back or when crucifix control starts degrading, creating the window for back take."
     },
     {
       "question": "What are the key grips needed for Seat Belt Control Back?",
-      "answer": "The seat belt grip requires one arm over opponent's shoulder (the 'over' arm that becomes your choking arm) threading across their chest, and one arm under their armpit (the 'under' arm) reaching around their torso. These arms connect at the sternum in a gable grip or S-grip. Elbows must be pulled tight to eliminate slack in the configuration.",
-      "difficulty": "Beginner"
+      "answer": "The seat belt grip requires one arm over opponent's shoulder (the 'over' arm that becomes your choking arm) threading across their chest, and one arm under their armpit (the 'under' arm) reaching around their torso. These arms connect at the sternum in a gable grip or S-grip. Elbows must be pulled tight to eliminate slack in the configuration."
     },
     {
       "question": "Your opponent starts rolling through before you can lock your seat belt grip - what adjustment do you make?",
-      "answer": "Follow the roll while maintaining whatever upper body contact you have established. Keep your chest connected to their back throughout the roll and you'll arrive in mount on the other side. If you cannot maintain back exposure, accept the mount position and re-establish crucifix control rather than losing position entirely by fighting the roll.",
-      "difficulty": "Intermediate"
+      "answer": "Follow the roll while maintaining whatever upper body contact you have established. Keep your chest connected to their back throughout the roll and you'll arrive in mount on the other side. If you cannot maintain back exposure, accept the mount position and re-establish crucifix control rather than losing position entirely by fighting the roll."
     },
     {
       "question": "When is the best time to attempt Seat Belt Control Back?",
-      "answer": "The optimal timing is when opponent begins defensive movement that exposes their back - typically turning toward their trapped arm side to escape crucifix, or when your crucifix leg control starts slipping due to their hip movement. This defensive response actually facilitates back exposure. Attempting the transition when opponent is completely static in crucifix is less effective than capitalizing on their movement.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent begins defensive movement that exposes their back - typically turning toward their trapped arm side to escape crucifix, or when your crucifix leg control starts slipping due to their hip movement. This defensive response actually facilitates back exposure. Attempting the transition when opponent is completely static in crucifix is less effective than capitalizing on their movement."
     },
     {
       "question": "Why must the seat belt grip be established before releasing crucifix leg control?",
-      "answer": "Releasing leg control before upper body control creates a moment of lost connection where opponent can escape. During that gap, they can turn into you, stand up, or recover guard. The seat belt maintains continuous pressure throughout the transition - you never have zero points of control. This principle of overlapping control prevents the scramble situations that favor the escaping opponent.",
-      "difficulty": "Intermediate"
+      "answer": "Releasing leg control before upper body control creates a moment of lost connection where opponent can escape. During that gap, they can turn into you, stand up, or recover guard. The seat belt maintains continuous pressure throughout the transition - you never have zero points of control. This principle of overlapping control prevents the scramble situations that favor the escaping opponent."
     },
     {
       "question": "Your opponent frames against your hip with their free hand as you attempt to slide behind them - how do you address this?",
-      "answer": "Use your knee to clear their framing hand by driving it across their arm while simultaneously pulling your seat belt grip tighter. The grip pull collapses their structural defense and takes away the space they need for effective framing. Once their frame is broken, immediately continue your hip slide before they can re-establish. Do not release seat belt to address the frame.",
-      "difficulty": "Advanced"
+      "answer": "Use your knee to clear their framing hand by driving it across their arm while simultaneously pulling your seat belt grip tighter. The grip pull collapses their structural defense and takes away the space they need for effective framing. Once their frame is broken, immediately continue your hip slide before they can re-establish. Do not release seat belt to address the frame."
     },
     {
       "question": "What determines whether you should insert hooks or establish body triangle upon completing the transition?",
-      "answer": "Body triangle provides superior control against opponents with strong hip escape abilities or larger opponents where hooks may be stripped. Hooks allow more mobility for position adjustments and some finishing variations. Choose body triangle when you prioritize control and plan to finish with arm attacks or gi chokes. Choose hooks when you want mobility for rear naked choke angle adjustments or if opponent is smaller where hooks provide sufficient control.",
-      "difficulty": "Advanced"
+      "answer": "Body triangle provides superior control against opponents with strong hip escape abilities or larger opponents where hooks may be stripped. Hooks allow more mobility for position adjustments and some finishing variations. Choose body triangle when you prioritize control and plan to finish with arm attacks or gi chokes. Choose hooks when you want mobility for rear naked choke angle adjustments or if opponent is smaller where hooks provide sufficient control."
     },
     {
       "question": "During the transition, your opponent turns into you instead of away - how do you adapt?",
-      "answer": "Accept their turn but maintain your seat belt grip which now becomes front headlock or guillotine control as they face you. Their turn hands you a different dominant position rather than escaping. From this front-facing seat belt, you can attack guillotine, anaconda, or re-circle behind them as they continue moving. The key is not releasing upper body control regardless of which direction they turn.",
-      "difficulty": "Advanced"
+      "answer": "Accept their turn but maintain your seat belt grip which now becomes front headlock or guillotine control as they face you. Their turn hands you a different dominant position rather than escaping. From this front-facing seat belt, you can attack guillotine, anaconda, or re-circle behind them as they continue moving. The key is not releasing upper body control regardless of which direction they turn."
     },
     {
       "question": "How does head positioning during the transition affect your finishing options once back control is established?",
-      "answer": "Your head should be on the same side as your over-arm (the arm that crosses over their shoulder and becomes your choking arm). This head position protects you from counters that target head control and puts you in optimal position for rear naked choke. Wrong-side head placement requires adjustment before finishing and exposes you to counter-attacks during that adjustment period.",
-      "difficulty": "Advanced"
+      "answer": "Your head should be on the same side as your over-arm (the arm that crosses over their shoulder and becomes your choking arm). This head position protects you from counters that target head control and puts you in optimal position for rear naked choke. Wrong-side head placement requires adjustment before finishing and exposes you to counter-attacks during that adjustment period."
     }
   ],
   "safety_considerations": "This transition involves significant upper body control and pressure during the grip establishment phase. When training, be mindful of your partner's neck and shoulder position during the seat belt lock - avoid cranking or twisting motions that could strain cervical structures. Release pressure immediately if partner taps or shows discomfort during the transition phase. The mounted crucifix starting position already places significant stress on the trapped shoulder; adding aggressive seat belt grip work compounds this stress. Progress gradually through resistance levels to allow both partners to develop appropriate defensive sensitivity.",
@@ -273,5 +248,6 @@
       "name": "Gift Wrap Transition",
       "relationship": "Alternative control transition"
     }
-  ]
+  ],
+  "success_rate": 58
 }

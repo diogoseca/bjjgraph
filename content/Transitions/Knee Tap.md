@@ -153,7 +153,7 @@ description: "Master the Knee Tap takedown in BJJ. Wrestling-based technique fro
 The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's weight distribution and stance. By attacking the knee while controlling the upper body, you create a mechanical advantage that collapses their base. This technique is particularly effective against opponents who overcommit their weight forward or stand square in their stance. The Knee Tap works across all skill levels and translates seamlessly between gi and no-gi environments. It requires minimal setup compared to more complex takedowns, making it an essential tool for pulling guard practitioners who need reliable standing entries. The technique's beauty lies in its simplicity - by simultaneously pulling the upper body while sweeping the lower support, you create an unstoppable collapse that transitions directly into dominant top positions.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish upper body control**: Secure a collar tie with your lead hand on the back of opponent's neck while your rear hand controls their tricep or elbow. Maintain upright posture to avoid telegraphing the takedown. Keep your head position high and outside to prevent guillotine exposure. (Timing: During initial standup engagement or grip fighting exchange)
-2. **Create angle and close distance**: Step your lead foot outside opponent's lead foot, creating approximately 45-degree angle to their stance. Simultaneously pull their upper body forward and slightly off-balance using your collar tie. This positions you to attack the near knee while compromising their defensive structure. (Timing: Execute as opponent steps forward or shifts weight onto front leg)
-3. **Drop level and penetrate**: Explosively drop your level by bending at the knees and hips while maintaining spine angle. Your rear hand releases the tricep control and shoots toward opponent's near knee. Keep your head tight to their ribs with eyes looking up to maintain safe posture and prevent guillotine vulnerability. (Timing: Immediate explosive movement once angle is established)
-4. **Secure knee tap grip**: Grip behind opponent's near knee with your shooting hand, cupping the back of the knee joint with your palm facing upward. Your fingers should wrap around the hamstring tendon while your thumb secures the lateral side of the knee. The collar tie hand maintains downward pressure on their head to prevent posture recovery. (Timing: As you reach full penetration depth)
-5. **Execute coordinated sweep and pull**: Simultaneously pull the knee forward and upward while driving your collar tie hand downward and backward. This creates a see-saw effect that removes their base. Step your trail leg through to establish wide base as they fall. The motion should feel like scooping their leg out from under them while pulling their upper body over the void. (Timing: Continuous flowing motion from grip establishment)
-6. **Follow through to top position**: As opponent falls, drive your weight through their center of mass while maintaining knee and head control. Land in side control position with your chest across their torso. Immediately establish cross-face with your collar tie arm and secure hip control with your knee tap hand. Consolidate position before pursuing submissions. (Timing: As opponent impacts the mat)
+1. **Establish upper body control**: Secure a collar tie with your lead hand on the back of opponent's neck while your rear hand controls their tricep or elbow. Maintain upright posture to avoid telegraphing the takedown. Keep your head position high and outside to prevent guillotine exposure.
+2. **Create angle and close distance**: Step your lead foot outside opponent's lead foot, creating approximately 45-degree angle to their stance. Simultaneously pull their upper body forward and slightly off-balance using your collar tie. This positions you to attack the near knee while compromising their defensive structure.
+3. **Drop level and penetrate**: Explosively drop your level by bending at the knees and hips while maintaining spine angle. Your rear hand releases the tricep control and shoots toward opponent's near knee. Keep your head tight to their ribs with eyes looking up to maintain safe posture and prevent guillotine vulnerability.
+4. **Secure knee tap grip**: Grip behind opponent's near knee with your shooting hand, cupping the back of the knee joint with your palm facing upward. Your fingers should wrap around the hamstring tendon while your thumb secures the lateral side of the knee. The collar tie hand maintains downward pressure on their head to prevent posture recovery.
+5. **Execute coordinated sweep and pull**: Simultaneously pull the knee forward and upward while driving your collar tie hand downward and backward. This creates a see-saw effect that removes their base. Step your trail leg through to establish wide base as they fall. The motion should feel like scooping their leg out from under them while pulling their upper body over the void.
+6. **Follow through to top position**: As opponent falls, drive your weight through their center of mass while maintaining knee and head control. Land in side control position with your chest across their torso. Immediately establish cross-face with your collar tie arm and secure hip control with your knee tap hand. Consolidate position before pursuing submissions.
 
 
 </section>
@@ -254,23 +254,18 @@ The Knee Tap is a fundamental wrestling-based takedown that exploits opponent's 
 ## Training Progressions
 **Week 1-2: Isolated Mechanics** - Master individual components without resistance
 Drill stance, angle creation, and level change separately. Practice collar tie control and grip placement on stationary partner. Perform slow-motion repetitions focusing on head position and posture maintenance. Partner remains completely static while you work entries.
-(Resistance: None)
 
 **Week 3-4: Flow Drilling** - Integrate components with cooperative resistance
 Partner provides light movement and mild grip fighting but allows technique completion. Work on timing the attack when weight shifts forward. Practice both gi and no-gi variations. Perform 20-30 repetitions per session with emphasis on smooth coordination between upper and lower body attacks.
-(Resistance: Light)
 
 **Week 5-6: Positional Sparring** - Apply against moderate defensive reactions
 Start from standing clinch position with partner using realistic defensive reactions including sprawl and whizzer. Work setup combinations that create knee tap opportunities. Practice counter responses when initial attempt is defended. Sessions of 3-5 minute rounds focusing exclusively on takedown entries.
-(Resistance: Medium)
 
 **Week 7-8: Competition Integration** - Execute during live rolling with full resistance
 Implement knee tap during normal training rounds without informing partner. Work setups from various grips and positions. Chain with other takedowns when defended. Focus on securing dominant position after completion rather than settling for takedown alone. Track success rate and identify common defensive patterns.
-(Resistance: Full)
 
 **Advanced: Combination Drilling** - Create multi-attack sequences using knee tap as foundation
 Develop automatic transitions when knee tap is defended. Practice knee tap to single leg, knee tap to double leg, and knee tap to guard pull chains. Work counters to common defenses until responses become instinctive. Spar specific scenarios where you must secure takedown within time limit.
-(Resistance: Full)
 
 
 

@@ -372,11 +372,11 @@ With compliant partner practice applying Aoki Lock pressure using 3-5 second gra
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 50% | 45% |
-| Intermediate | 70% | 65% | 60% |
-| Advanced     | 85% | 80% | 75% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 72% |
+| Submission Probability | 68% |
 
 **Average Time in Position**: 30-90 seconds before finish or transition
 

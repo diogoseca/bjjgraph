@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Crackhead Control to Mission Control transition represents a strategic reset within the 10th Planet rubber guard system, allowing the bottom player to move from a high-risk, high-reward attacking position to a more stable control platform. This transition becomes essential when the opponent begins recovering posture, when back exposure risk becomes too significant, or when you want to consolidate control before launching a new submission chain.\n\nThe mechanical foundation of this transition involves releasing the deep overhook while simultaneously elevating hips and repositioning the controlling leg. The timing is critical - you must initiate the transition before the opponent fully recovers posture but not so early that you abandon genuine submission opportunities. The transition capitalizes on the opponent's momentary relief when they sense the overhook loosening, using that moment of reduced defensive tension to establish the Mission Control configuration.\n\nThis transition serves multiple strategic purposes within the rubber guard framework. It provides an escape route when Crackhead Control becomes untenable due to back exposure threats, offers a way to reset when submission attempts stall, and creates opportunities to attack from a different angle when the opponent has adapted to your Crackhead Control offense. Advanced practitioners flow between these positions fluidly, using the transition itself as a setup for submissions when opponents anticipate a simple positional change.",
   "key_principles": [
     "Release the deep overhook only when hip elevation is secured to prevent position collapse",
@@ -54,44 +49,37 @@
     {
       "step_number": 1,
       "action": "Assess position",
-      "description": "Evaluate opponent's posture and positioning to confirm transition necessity. Look for signs of posture recovery, back exposure danger, or submission chain exhaustion that indicate Mission Control reset is appropriate.",
-      "timing": "When opponent's posture begins rising or hip pressure increases toward back exposure"
+      "description": "Evaluate opponent's posture and positioning to confirm transition necessity. Look for signs of posture recovery, back exposure danger, or submission chain exhaustion that indicate Mission Control reset is appropriate."
     },
     {
       "step_number": 2,
       "action": "Elevate hips",
-      "description": "Drive hips upward off the mat while maintaining the deep overhook temporarily. This hip elevation creates the foundation for Mission Control and prevents the position from collapsing during grip transition.",
-      "timing": "Immediately before releasing overhook"
+      "description": "Drive hips upward off the mat while maintaining the deep overhook temporarily. This hip elevation creates the foundation for Mission Control and prevents the position from collapsing during grip transition."
     },
     {
       "step_number": 3,
       "action": "Transition leg position",
-      "description": "Slide the leg across opponent's back from the Crackhead position higher onto the shoulder area. The shin should move from pressing on the upper back to controlling the far shoulder blade for Mission Control configuration.",
-      "timing": "Simultaneous with hip elevation"
+      "description": "Slide the leg across opponent's back from the Crackhead position higher onto the shoulder area. The shin should move from pressing on the upper back to controlling the far shoulder blade for Mission Control configuration."
     },
     {
       "step_number": 4,
       "action": "Release overhook to head control",
-      "description": "Release the deep overhook grip and immediately swim the arm to establish head control, either behind opponent's head or grabbing your own shin for the classic rubber guard grip. Do not leave any gap between releasing overhook and establishing new control.",
-      "timing": "The moment leg position is secured high on shoulder"
+      "description": "Release the deep overhook grip and immediately swim the arm to establish head control, either behind opponent's head or grabbing your own shin for the classic rubber guard grip. Do not leave any gap between releasing overhook and establishing new control."
     },
     {
       "step_number": 5,
       "action": "Secure shoulder isolation",
-      "description": "Pull down aggressively on opponent's head while using the repositioned leg to isolate and trap the far shoulder. The shoulder should be pinned between your leg and your hip elevation, creating the characteristic Mission Control shoulder trap.",
-      "timing": "Immediately following head control establishment"
+      "description": "Pull down aggressively on opponent's head while using the repositioned leg to isolate and trap the far shoulder. The shoulder should be pinned between your leg and your hip elevation, creating the characteristic Mission Control shoulder trap."
     },
     {
       "step_number": 6,
       "action": "Establish inside arm trap",
-      "description": "Ensure opponent's previously trapped arm remains on the inside of your high guard leg. Use your free hand to control their wrist or tricep, preventing them from extracting the arm during your transition to attack mode.",
-      "timing": "As Mission Control solidifies"
+      "description": "Ensure opponent's previously trapped arm remains on the inside of your high guard leg. Use your free hand to control their wrist or tricep, preventing them from extracting the arm during your transition to attack mode."
     },
     {
       "step_number": 7,
       "action": "Consolidate Mission Control",
-      "description": "Complete the position by confirming all Mission Control checkpoints: hips elevated, leg high across back isolating shoulder, strong head control pulling posture down, inside arm trapped, and free leg maintaining hip connection for sweep defense.",
-      "timing": "Within 2-3 seconds of transition initiation"
+      "description": "Complete the position by confirming all Mission Control checkpoints: hips elevated, leg high across back isolating shoulder, strong head control pulling posture down, inside arm trapped, and free leg maintaining hip connection for sweep defense."
     }
   ],
   "common_counters": [
@@ -147,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice each component separately: hip elevation from Crackhead, overhook to head control grip transition, leg repositioning from mid-back to shoulder. Partner remains static to allow clean repetitions of each movement pattern.",
-      "resistance_level": "None"
+      "description": "Practice each component separately: hip elevation from Crackhead, overhook to head control grip transition, leg repositioning from mid-back to shoulder. Partner remains static to allow clean repetitions of each movement pattern."
     },
     {
       "phase": "Week 3-4",
       "focus": "Fluid integration",
-      "description": "Combine all components into one smooth transition. Practice entering from Crackhead Control and flowing directly into Mission Control without pauses between steps. Partner provides light pressure during transition to develop timing.",
-      "resistance_level": "Light"
+      "description": "Combine all components into one smooth transition. Practice entering from Crackhead Control and flowing directly into Mission Control without pauses between steps. Partner provides light pressure during transition to develop timing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter recognition",
-      "description": "Partner actively attempts primary counters during transition: forward pressure, arm extraction, explosive posturing, double underhook attempts. Practice recognizing each counter and executing appropriate responses while maintaining transition integrity.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts primary counters during transition: forward pressure, arm extraction, explosive posturing, double underhook attempts. Practice recognizing each counter and executing appropriate responses while maintaining transition integrity."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration",
-      "description": "Full resistance drilling starting from Crackhead Control. Execute transitions opportunistically based on opponent responses. Develop recognition of optimal transition timing in live scrambles and integrate with Mission Control attack sequences.",
-      "resistance_level": "Full"
+      "description": "Full resistance drilling starting from Crackhead Control. Execute transitions opportunistically based on opponent responses. Develop recognition of optimal transition timing in live scrambles and integrate with Mission Control attack sequences."
     }
   ],
   "variants_and_adaptations": [
@@ -189,53 +173,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Crackhead Control to Mission Control transition?",
-      "answer": "The primary goal is to reset from a high-risk, high-reward attacking position to a more stable rubber guard control platform. This transition allows you to escape back exposure danger, consolidate when submission chains stall, or attack from a different angle when opponents have adapted to Crackhead Control offense.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to reset from a high-risk, high-reward attacking position to a more stable rubber guard control platform. This transition allows you to escape back exposure danger, consolidate when submission chains stall, or attack from a different angle when opponents have adapted to Crackhead Control offense."
     },
     {
       "question": "What is the critical sequence for grip transition - what must happen before releasing the overhook?",
-      "answer": "Hip elevation must be secured before any grip change occurs. The elevated hips create the foundational structure that makes Mission Control possible. Releasing the overhook before establishing hip elevation causes complete position collapse as the opponent recovers full posture with no control remaining.",
-      "difficulty": "Intermediate"
+      "answer": "Hip elevation must be secured before any grip change occurs. The elevated hips create the foundational structure that makes Mission Control possible. Releasing the overhook before establishing hip elevation causes complete position collapse as the opponent recovers full posture with no control remaining."
     },
     {
       "question": "Your opponent begins recovering posture while you're in Crackhead Control - how do you time the transition?",
-      "answer": "Initiate transition during the opponent's posture recovery attempt, not after they've fully recovered. Their upward movement creates the timing window - as they commit weight backward, you elevate hips and reposition. The opponent's momentary relief when sensing the overhook loosening reduces their defensive tension, making Mission Control establishment easier.",
-      "difficulty": "Intermediate"
+      "answer": "Initiate transition during the opponent's posture recovery attempt, not after they've fully recovered. Their upward movement creates the timing window - as they commit weight backward, you elevate hips and reposition. The opponent's momentary relief when sensing the overhook loosening reduces their defensive tension, making Mission Control establishment easier."
     },
     {
       "question": "What should you do if opponent drives forward explosively during your overhook release?",
-      "answer": "Abort the Mission Control transition entirely and use their forward pressure offensively. Forward drive assists Carni transitions and gogoplata setups - redirect their momentum into these attacks rather than fighting it to establish Mission Control. Their aggressive forward energy becomes your submission setup.",
-      "difficulty": "Advanced"
+      "answer": "Abort the Mission Control transition entirely and use their forward pressure offensively. Forward drive assists Carni transitions and gogoplata setups - redirect their momentum into these attacks rather than fighting it to establish Mission Control. Their aggressive forward energy becomes your submission setup."
     },
     {
       "question": "How do you maintain control continuity during the grip transition from overhook to head control?",
-      "answer": "The transition must be one fluid motion with zero gap between releasing the overhook and establishing head control. Practice swimming the releasing hand directly to head control without pausing in neutral. Any control void allows arm extraction and posture recovery, returning the match to neutral.",
-      "difficulty": "Intermediate"
+      "answer": "The transition must be one fluid motion with zero gap between releasing the overhook and establishing head control. Practice swimming the releasing hand directly to head control without pausing in neutral. Any control void allows arm extraction and posture recovery, returning the match to neutral."
     },
     {
       "question": "Your opponent begins extracting their arm during the transition - what is your response?",
-      "answer": "Follow the extracting arm into omoplata rather than fighting to reestablish control. Their extraction motion actually sets up the omoplata rotation perfectly - the direction they're pulling creates the rotation angle you need. Use their defensive movement as your attack setup.",
-      "difficulty": "Advanced"
+      "answer": "Follow the extracting arm into omoplata rather than fighting to reestablish control. Their extraction motion actually sets up the omoplata rotation perfectly - the direction they're pulling creates the rotation angle you need. Use their defensive movement as your attack setup."
     },
     {
       "question": "Where must the leg be positioned during Mission Control establishment and why?",
-      "answer": "The leg must be positioned high across the opponent's upper back and shoulder blade area, with the shin creating downward pressure on the far shoulder. This height creates proper shoulder isolation - the defining mechanism of Mission Control. Positioning too low on the mid-back allows opponent to maintain shoulder mobility and establish defensive frames.",
-      "difficulty": "Beginner"
+      "answer": "The leg must be positioned high across the opponent's upper back and shoulder blade area, with the shin creating downward pressure on the far shoulder. This height creates proper shoulder isolation - the defining mechanism of Mission Control. Positioning too low on the mid-back allows opponent to maintain shoulder mobility and establish defensive frames."
     },
     {
       "question": "What role does the free leg play during the transition and why is it critical?",
-      "answer": "The free leg must maintain active hip connection throughout the entire transition to prevent back exposure. If anything, free leg engagement should increase during transition when primary controls are changing. This leg is your primary safety mechanism - if it loses connection during the grip transition, opponent can begin passing to back control.",
-      "difficulty": "Intermediate"
+      "answer": "The free leg must maintain active hip connection throughout the entire transition to prevent back exposure. If anything, free leg engagement should increase during transition when primary controls are changing. This leg is your primary safety mechanism - if it loses connection during the grip transition, opponent can begin passing to back control."
     },
     {
       "question": "When should you NOT initiate this transition from Crackhead Control?",
-      "answer": "Do not transition when viable Crackhead submissions remain available - this wastes high-percentage opportunities. Also avoid transitioning when opponent has achieved double underhooks (abandon to closed guard instead) or when their forward pressure favors Carni/gogoplata setups. The transition is a strategic reset, not an escape from discomfort.",
-      "difficulty": "Advanced"
+      "answer": "Do not transition when viable Crackhead submissions remain available - this wastes high-percentage opportunities. Also avoid transitioning when opponent has achieved double underhooks (abandon to closed guard instead) or when their forward pressure favors Carni/gogoplata setups. The transition is a strategic reset, not an escape from discomfort."
     },
     {
       "question": "How can you use this transition offensively rather than as a pure positional retreat?",
-      "answer": "The opponent's relief when sensing the overhook release creates vulnerability. Their reduced defensive tension during this moment opens attack opportunities. Advanced practitioners attack during the transition itself - the leg repositioning can become a triangle entry, the momentary control shift can set up sweeps, and opponent reactions to the transition can be redirected into submissions.",
-      "difficulty": "Advanced"
+      "answer": "The opponent's relief when sensing the overhook release creates vulnerability. Their reduced defensive tension during this moment opens attack opportunities. Advanced practitioners attack during the transition itself - the leg repositioning can become a triangle entry, the momentary control shift can set up sweeps, and opponent reactions to the transition can be redirected into submissions."
     }
   ],
   "safety_considerations": "This transition involves rapid grip and control changes that can create joint stress on the opponent's shoulder if performed aggressively. Release the overhook smoothly rather than explosively to prevent sudden shoulder torque on the trapped arm. Both practitioners should be aware that the transition creates a brief vulnerability window where uncontrolled scrambles can occur. Train at reduced speed initially to develop proper timing before adding resistance. Practitioners with shoulder injuries should approach cautiously.",
@@ -277,5 +251,6 @@
       "name": "Closed Guard",
       "relationship": "Fallback position if transition fails or back exposure danger peaks"
     }
-  ]
+  ],
+  "success_rate": 58
 }

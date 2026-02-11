@@ -10,11 +10,6 @@
     "defense",
     "technical-standup"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Turtle to Standing transition is a fundamental defensive escape that allows a practitioner to safely exit the vulnerable turtle position and return to a standing position. This transition is essential for both gi and no-gi grappling, as it enables you to reset the engagement and prevent your opponent from securing dominant positions like back control or a submission. The technique relies on proper base maintenance, explosive hip movement, and strategic hand placement to create space while protecting against common attacks like chokes and back takes. Understanding this transition is critical for developing a complete defensive game, as turtle position is often a transitional state that occurs during scrambles, failed takedowns, or guard passing sequences. The ability to stand up from turtle not only prevents your opponent from scoring points but also creates opportunities to re-engage on your terms, potentially pulling guard or initiating your own takedown attack. This movement pattern is particularly valuable in competition settings where stalling penalties make it essential to show active defense and position improvement.",
   "key_principles": [
     "Maintain strong base with hands and knees forming stable foundation",
@@ -37,44 +32,37 @@
     {
       "step_number": 1,
       "action": "Secure defensive turtle posture",
-      "description": "Begin in strong turtle position with hands and knees creating four points of contact. Keep your chin tucked tightly to your chest, elbows pinched to your ribs, and spine rounded to minimize available space for opponent's attacks. Your knees should be hip-width apart with weight distributed evenly.",
-      "timing": "Establish before opponent secures dominant control"
+      "description": "Begin in strong turtle position with hands and knees creating four points of contact. Keep your chin tucked tightly to your chest, elbows pinched to your ribs, and spine rounded to minimize available space for opponent's attacks. Your knees should be hip-width apart with weight distributed evenly."
     },
     {
       "step_number": 2,
       "action": "Choose direction and post lead hand",
-      "description": "Determine which direction offers the safest exit based on opponent's positioning and weight distribution. Post your lead hand firmly on the mat at approximately 45 degrees from your body, creating a strong posting base. The non-posting hand maintains neck protection by staying tight to your body.",
-      "timing": "When opponent's weight shifts or attacks are momentarily absent"
+      "description": "Determine which direction offers the safest exit based on opponent's positioning and weight distribution. Post your lead hand firmly on the mat at approximately 45 degrees from your body, creating a strong posting base. The non-posting hand maintains neck protection by staying tight to your body."
     },
     {
       "step_number": 3,
       "action": "Drive lead leg forward",
-      "description": "Explosively drive your same-side leg forward into a deep lunge position, placing your foot flat on the mat with knee bent at approximately 90 degrees. This leg becomes your primary driver for the upward movement. Your posted hand provides stability and prevents you from being driven back down.",
-      "timing": "Immediately after posting hand, creating one fluid motion"
+      "description": "Explosively drive your same-side leg forward into a deep lunge position, placing your foot flat on the mat with knee bent at approximately 90 degrees. This leg becomes your primary driver for the upward movement. Your posted hand provides stability and prevents you from being driven back down."
     },
     {
       "step_number": 4,
       "action": "Generate upward explosive drive",
-      "description": "Using your posted leg as the primary power source, explosively extend your hip and drive upward while simultaneously pushing through your posted hand. Your back leg trails and helps generate additional upward momentum. Keep your head protected by maintaining chin tuck and using your free arm as a defensive frame.",
-      "timing": "Coordinate leg drive with hand push for maximum power"
+      "description": "Using your posted leg as the primary power source, explosively extend your hip and drive upward while simultaneously pushing through your posted hand. Your back leg trails and helps generate additional upward momentum. Keep your head protected by maintaining chin tuck and using your free arm as a defensive frame."
     },
     {
       "step_number": 5,
       "action": "Establish standing base position",
-      "description": "As you rise, bring your trailing leg forward to establish a solid standing base with feet shoulder-width apart. Keep your hips low and knees slightly bent to maintain balance and prevent being immediately taken down again. Your hands should be in a defensive position protecting your head and establishing frames.",
-      "timing": "Complete the stand as one explosive movement"
+      "description": "As you rise, bring your trailing leg forward to establish a solid standing base with feet shoulder-width apart. Keep your hips low and knees slightly bent to maintain balance and prevent being immediately taken down again. Your hands should be in a defensive position protecting your head and establishing frames."
     },
     {
       "step_number": 6,
       "action": "Create distance and establish defensive posture",
-      "description": "Immediately upon standing, use footwork to create distance from your opponent, circling away from their dominant side. Establish proper defensive posture with hands up, chin tucked, and hips back. Be prepared to defend immediate re-shooting attempts or to engage in standup grappling exchanges.",
-      "timing": "Immediately upon reaching standing position"
+      "description": "Immediately upon standing, use footwork to create distance from your opponent, circling away from their dominant side. Establish proper defensive posture with hands up, chin tucked, and hips back. Be prepared to defend immediate re-shooting attempts or to engage in standup grappling exchanges."
     },
     {
       "step_number": 7,
       "action": "Reset engagement or pull guard",
-      "description": "Based on tactical situation and match strategy, either maintain standing position to reset the engagement, initiate your own takedown attack, or pull guard to re-establish your preferred ground position. Maintain active movement to avoid stalling penalties and demonstrate position improvement.",
-      "timing": "Once stable standing base is established and distance created"
+      "description": "Based on tactical situation and match strategy, either maintain standing position to reset the engagement, initiate your own takedown attack, or pull guard to re-establish your preferred ground position. Maintain active movement to avoid stalling penalties and demonstrate position improvement."
     }
   ],
   "common_counters": [
@@ -150,38 +138,32 @@
     {
       "phase": "Phase 1: Foundational mechanics (Weeks 1-2)",
       "focus": "Proper turtle position and basic stand-up movement pattern",
-      "description": "Practice establishing strong turtle position with correct head, elbow, and knee placement. Drill basic stand-up movement without resistance, focusing on hand posting, leg drive, and explosive hip extension. Perform 20-30 repetitions per training session, alternating sides. Emphasize maintaining chin tuck and defensive posture throughout.",
-      "resistance_level": "None"
+      "description": "Practice establishing strong turtle position with correct head, elbow, and knee placement. Drill basic stand-up movement without resistance, focusing on hand posting, leg drive, and explosive hip extension. Perform 20-30 repetitions per training session, alternating sides. Emphasize maintaining chin tuck and defensive posture throughout."
     },
     {
       "phase": "Phase 2: Light resistance drilling (Weeks 3-4)",
       "focus": "Executing stand-up against passive opponent weight",
-      "description": "Partner applies light downward pressure on your back while you execute turtle to standing transition. Focus on timing, explosive power generation, and maintaining defensive frames. Partner should not actively attack but provide realistic weight resistance. Practice identifying optimal timing windows based on weight distribution shifts.",
-      "resistance_level": "Light"
+      "description": "Partner applies light downward pressure on your back while you execute turtle to standing transition. Focus on timing, explosive power generation, and maintaining defensive frames. Partner should not actively attack but provide realistic weight resistance. Practice identifying optimal timing windows based on weight distribution shifts."
     },
     {
       "phase": "Phase 3: Defensive integration (Weeks 5-6)",
       "focus": "Stand-up while defending common attacks",
-      "description": "Partner attempts basic attacks from turtle (light back control attempts, collar grips, basic hooks) while you execute stand-up. Focus on maintaining neck protection, clearing grips, and executing explosive stand despite interference. Introduce decision-making between standing and alternative escapes based on opponent's attack patterns.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts basic attacks from turtle (light back control attempts, collar grips, basic hooks) while you execute stand-up. Focus on maintaining neck protection, clearing grips, and executing explosive stand despite interference. Introduce decision-making between standing and alternative escapes based on opponent's attack patterns."
     },
     {
       "phase": "Phase 4: Dynamic resistance and counters (Weeks 7-8)",
       "focus": "Stand-up against opponent actively preventing escape",
-      "description": "Partner actively attempts to prevent stand-up by driving weight forward, securing grips, and attacking submissions. Practice counter-responses to common defensive tactics, grip stripping sequences, and alternative escape options when initial stand attempt is blocked. Develop ability to chain multiple escape attempts together.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to prevent stand-up by driving weight forward, securing grips, and attacking submissions. Practice counter-responses to common defensive tactics, grip stripping sequences, and alternative escape options when initial stand attempt is blocked. Develop ability to chain multiple escape attempts together."
     },
     {
       "phase": "Phase 5: Competition simulation (Weeks 9-10)",
       "focus": "Full resistance stand-ups in realistic scenarios",
-      "description": "Situational sparring starting from turtle position with partner applying full resistance and attempting full spectrum of attacks and controls. Practice under time pressure with referee calling stalling. Focus on efficiency, energy conservation, and maintaining composure under pressure. Include guillotine defense, front headlock escapes, and immediate post-standup engagement.",
-      "resistance_level": "Full"
+      "description": "Situational sparring starting from turtle position with partner applying full resistance and attempting full spectrum of attacks and controls. Practice under time pressure with referee calling stalling. Focus on efficiency, energy conservation, and maintaining composure under pressure. Include guillotine defense, front headlock escapes, and immediate post-standup engagement."
     },
     {
       "phase": "Phase 6: Advanced integration and flow (Ongoing)",
       "focus": "Seamless integration with overall game and tactical decision-making",
-      "description": "Incorporate turtle to standing transition as automatic response during open sparring and competition. Develop ability to read opponent's positioning and choose optimal escape direction instantly. Practice chaining stand-up with immediate guard pulls, takedown re-attacks, or defensive posturing based on match situation and score. Train transitions from failed stand attempts to alternative escapes like granby rolls or guard recovery.",
-      "resistance_level": "Full"
+      "description": "Incorporate turtle to standing transition as automatic response during open sparring and competition. Develop ability to read opponent's positioning and choose optimal escape direction instantly. Practice chaining stand-up with immediate guard pulls, takedown re-attacks, or defensive posturing based on match situation and score. Train transitions from failed stand attempts to alternative escapes like granby rolls or guard recovery."
     }
   ],
   "variants_and_adaptations": [
@@ -209,33 +191,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is it critical to keep your chin tucked throughout the turtle to standing transition?",
-      "answer": "Keeping your chin tucked protects your neck from guillotine chokes and front headlock attacks, which are the most common submissions attempted as you rise from turtle. An exposed neck allows your opponent to easily secure a choking position with their arm under your chin, potentially forcing a submission even as you successfully stand. The tucked chin also helps maintain spinal alignment and creates a more rounded defensive posture that minimizes attack opportunities.",
-      "difficulty": "Beginner"
+      "answer": "Keeping your chin tucked protects your neck from guillotine chokes and front headlock attacks, which are the most common submissions attempted as you rise from turtle. An exposed neck allows your opponent to easily secure a choking position with their arm under your chin, potentially forcing a submission even as you successfully stand. The tucked chin also helps maintain spinal alignment and creates a more rounded defensive posture that minimizes attack opportunities."
     },
     {
       "question": "What is the primary mechanical advantage of posting your hand at a 45-degree angle rather than directly beside your body?",
-      "answer": "Posting at 45 degrees creates optimal leverage for generating upward and forward momentum simultaneously. A hand posted too close to the body limits your ability to drive forward, while a hand posted too far forward compromises stability and makes it easier for your opponent to collapse your base. The 45-degree angle allows you to create a rigid post that can support explosive leg drive while maintaining balance and preventing your opponent from driving you back down to the mat.",
-      "difficulty": "Intermediate"
+      "answer": "Posting at 45 degrees creates optimal leverage for generating upward and forward momentum simultaneously. A hand posted too close to the body limits your ability to drive forward, while a hand posted too far forward compromises stability and makes it easier for your opponent to collapse your base. The 45-degree angle allows you to create a rigid post that can support explosive leg drive while maintaining balance and preventing your opponent from driving you back down to the mat."
     },
     {
       "question": "How should you respond if your opponent secures seat belt control as you attempt to stand from turtle?",
-      "answer": "Immediately abort the stand-up attempt and address the seat belt control before continuing. Focus on stripping the top hand first by grabbing the opponent's wrist with both hands and using hip movement to create angle and break the grip. Once the top hand is cleared, work to remove the bottom hand and restore defensive turtle position with elbows tight. Only reinitiate the stand-up sequence after grips are broken and you've regained defensive structure, as attempting to stand with seat belt control risks giving up back control or being dragged into turtle flattening.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately abort the stand-up attempt and address the seat belt control before continuing. Focus on stripping the top hand first by grabbing the opponent's wrist with both hands and using hip movement to create angle and break the grip. Once the top hand is cleared, work to remove the bottom hand and restore defensive turtle position with elbows tight. Only reinitiate the stand-up sequence after grips are broken and you've regained defensive structure, as attempting to stand with seat belt control risks giving up back control or being dragged into turtle flattening."
     },
     {
       "question": "Why is explosive movement more effective than slow, controlled rising when standing from turtle?",
-      "answer": "Explosive movement dramatically reduces the time window your opponent has to react, adjust position, or attack submissions. A slow stand-up gives your opponent time to shift weight, secure grips, insert hooks, or transition to dominant positions like front headlock. Explosive drive also generates momentum that helps overcome opponent's downward pressure and creates separation that is difficult to counter. The explosive nature also allows you to complete the entire sequence as one coordinated movement, maintaining defensive integrity throughout rather than creating vulnerable transitional moments.",
-      "difficulty": "Advanced"
+      "answer": "Explosive movement dramatically reduces the time window your opponent has to react, adjust position, or attack submissions. A slow stand-up gives your opponent time to shift weight, secure grips, insert hooks, or transition to dominant positions like front headlock. Explosive drive also generates momentum that helps overcome opponent's downward pressure and creates separation that is difficult to counter. The explosive nature also allows you to complete the entire sequence as one coordinated movement, maintaining defensive integrity throughout rather than creating vulnerable transitional moments."
     },
     {
       "question": "What tactical considerations should influence your choice of direction when standing from turtle?",
-      "answer": "Your direction choice should be based on multiple factors: opponent's weight distribution (stand away from where their weight is concentrated), their grip positions (avoid standing into established controls), the position of their legs and hooks (move away from threatening entanglements), proximity to mat boundaries in competition, and your own physical attributes and preferences. Additionally, consider which direction provides the best angle for immediate follow-up actions like guard pulling or re-shooting. Advanced practitioners also use feinting to one side to draw opponent's weight shift before explosively standing to the opposite direction.",
-      "difficulty": "Advanced"
+      "answer": "Your direction choice should be based on multiple factors: opponent's weight distribution (stand away from where their weight is concentrated), their grip positions (avoid standing into established controls), the position of their legs and hooks (move away from threatening entanglements), proximity to mat boundaries in competition, and your own physical attributes and preferences. Additionally, consider which direction provides the best angle for immediate follow-up actions like guard pulling or re-shooting. Advanced practitioners also use feinting to one side to draw opponent's weight shift before explosively standing to the opposite direction."
     },
     {
       "question": "How does the turtle to standing transition integrate with your overall defensive hierarchy and escape strategy?",
-      "answer": "The turtle to standing transition serves as a critical escape option within a comprehensive defensive system. It's typically employed when opponent hasn't yet secured dominant control from turtle (no hooks, no harness, minimal pressure), making it a high-priority early escape. If standing is blocked or opponent establishes stronger controls, you should have alternative escape pathways prepared: granby roll to guard, sit-through to half guard, or addressing specific attacks like back take defense. The ability to stand from turtle also influences how aggressively opponents attack turtle position in scrambles, as they know you can reset to standing if they're not precise. This technique complements other position improvement concepts by demonstrating active defense and preventing stalling penalties in competition.",
-      "difficulty": "Advanced"
+      "answer": "The turtle to standing transition serves as a critical escape option within a comprehensive defensive system. It's typically employed when opponent hasn't yet secured dominant control from turtle (no hooks, no harness, minimal pressure), making it a high-priority early escape. If standing is blocked or opponent establishes stronger controls, you should have alternative escape pathways prepared: granby roll to guard, sit-through to half guard, or addressing specific attacks like back take defense. The ability to stand from turtle also influences how aggressively opponents attack turtle position in scrambles, as they know you can reset to standing if they're not precise. This technique complements other position improvement concepts by demonstrating active defense and preventing stalling penalties in competition."
     }
   ],
   "safety_considerations": "The turtle to standing transition is generally a low-risk movement, but practitioners should be aware of several safety considerations. Most importantly, maintain awareness of guillotine choke threats throughout the rising sequence, as standing directly into an opponent's chest with poor head position can result in tight chokes. Practice proper chin tuck mechanics consistently to develop muscle memory that protects against these attacks. When drilling with partners, start with cooperative training before progressing to resistance, and communicate clearly about intensity levels to prevent injuries during explosive movements. Be cautious of knee strain when driving explosively from turtle, particularly on hard mat surfaces; ensure proper warm-up of leg muscles and joints before drilling this technique. Partners applying resistance should avoid slamming or dropping their full weight suddenly, as this can cause shoulder or wrist injuries to the person attempting to stand. When training stand-up defense against submissions like guillotines, tap early and practice the movement pattern rather than testing your neck's resistance to chokes.",
@@ -311,5 +287,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

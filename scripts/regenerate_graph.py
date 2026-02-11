@@ -253,7 +253,7 @@ def process_transitions(content_dir: Path) -> dict:
             for c in trans_data.get('common_counters', [])
         ]
 
-        success_rates = trans_data.get('success_rates', {})
+        success_rate = trans_data.get('success_rate', 50)
 
         ending_pos = trans_data.get('ending_position', '')
         ending_slug = slugify(ending_pos)
@@ -267,10 +267,7 @@ def process_transitions(content_dir: Path) -> dict:
             'startingPosition': slugify(trans_data.get('starting_position', '')),
             'endingPosition': ending_slug,
             'endingPositionPath': ending_path,
-            'successRate': {
-                'intermediate': success_rates.get('intermediate', 50),
-                'advanced': success_rates.get('advanced', 70)
-            },
+            'successRate': success_rate,
             'knowledgeAssessment': knowledge_assessment,
             'commonCounters': common_counters
         }
@@ -303,22 +300,47 @@ def process_submissions(content_dir: Path) -> dict:
         ]
 
         from_positions = [slugify(p) for p in sub_data.get('from_positions', [])]
-        success_rates = sub_data.get('success_rates', {})
+        success_rate = sub_data.get('success_rate', 50)
 
-        submissions[slug] = {
+        # Determine starting position: prefer from_position (split on "/" to get position part),
+        # fall back to starting_position
+        from_position_raw = sub_data.get('from_position', '')
+        if from_position_raw:
+            starting_pos_name = from_position_raw.split('/')[0]
+            starting_position_slug = slugify(starting_pos_name)
+            from_position_slug = slugify(from_position_raw.replace('/', '-'))
+        else:
+            starting_position_slug = slugify(sub_data.get('starting_position', ''))
+            from_position_slug = ''
+
+        sub_entry = {
             'name': sub_data['name'],
             'isTerminal': True,
             'category': sub_data.get('submission_category', 'Unknown'),
             'type': sub_data.get('submission_type', 'Unknown'),
             'targetArea': sub_data.get('target_area', 'Unknown'),
-            'startingPosition': slugify(sub_data.get('starting_position', '')),
+            'startingPosition': starting_position_slug,
             'fromPositions': from_positions,
-            'successRate': {
-                'intermediate': success_rates.get('intermediate', 50),
-                'advanced': success_rates.get('advanced', 70)
-            },
+            'successRate': success_rate,
             'knowledgeAssessment': knowledge_assessment
         }
+
+        # Add from_position and outcomes if present (graph edge data)
+        if from_position_raw:
+            sub_entry['fromPosition'] = from_position_slug
+
+        outcomes_raw = sub_data.get('outcomes', [])
+        if outcomes_raw:
+            sub_entry['outcomes'] = [
+                {
+                    'to': slugify(o.get('to', '')),
+                    'probability': o.get('probability', 0),
+                    'result': o.get('result', 'success')
+                }
+                for o in outcomes_raw
+            ]
+
+        submissions[slug] = sub_entry
 
     return submissions
 
@@ -419,6 +441,17 @@ def generate_state_graph(project_root: Path) -> dict:
 
     submissions = process_submissions(content_dir)
     print(f"  Processed {len(submissions)} submissions")
+
+    # Mark position transitions that target submissions (Problem 3)
+    submission_slugs = set(submissions.keys())
+    marked_count = 0
+    for pos_data in positions.values():
+        for t in pos_data.get('transitions', []):
+            if t.get('target', '') in submission_slugs:
+                t['isSubmission'] = True
+                marked_count += 1
+    if marked_count:
+        print(f"  Marked {marked_count} position transition(s) as submission targets")
 
     all_position_slugs = sorted(positions.keys())
 

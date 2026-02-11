@@ -157,7 +157,7 @@ The mechanical advantage of the omoplata comes from using your entire leg struct
 Strategically, the omoplata finish demands patience and proper setup. Rushing the submission allows opponents to roll through or posture out. The key is establishing complete control before applying finishing pressure - control their hip to prevent rolling, break their posture to prevent stacking, and create the proper perpendicular angle to maximize shoulder rotation. When all control points are secured, the finish becomes inevitable as there is no muscular defense against the rotational torque applied to the shoulder joint.
 
 **From Position**: [[Omoplata Control/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the omoplata finish demands patience and proper setup. Rushing th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify control points**: Confirm all control elements are in place: leg tight across their back with shin on shoulder blade, near hand controlling their hip or belt, their arm fully trapped between your legs, and your hips close to their shoulder. (Timing: Before initiating any finishing pressure)
-2. **Break opponent's posture**: Use your leg pressure and hip control grip to pull opponent's torso toward the mat, eliminating their ability to sit up or create space. Their chest should be facing down with their posting ability compromised. (Timing: If they have any upright posture remaining)
-3. **Adjust hip angle**: Move your hips perpendicular to their spine by scooting away from their body while maintaining the leg lock. This angle change dramatically increases the rotational pressure on their shoulder joint capsule. (Timing: Once their posture is broken)
-4. **Sit up toward their hips**: Use your posting arm to sit up tall, rotating your torso to face toward opponent's hips. This sitting motion shifts your weight and increases the lever arm against their shoulder while giving you better control of their hip. (Timing: As you achieve the perpendicular angle)
-5. **Apply controlled pressure**: Lean slightly backward away from opponent while simultaneously driving your hips forward toward their head. This creates opposing forces that rotate their shoulder externally beyond its comfortable range of motion. (Timing: After sitting up with proper angle)
-6. **Complete the submission**: Maintain steady, increasing pressure on the shoulder rotation while keeping hip control tight. Listen and feel for the tap - do not jerk or apply explosive force. The finish should be controlled and gradual. (Timing: When all control points are secured)
+1. **Verify control points**: Confirm all control elements are in place: leg tight across their back with shin on shoulder blade, near hand controlling their hip or belt, their arm fully trapped between your legs, and your hips close to their shoulder.
+2. **Break opponent's posture**: Use your leg pressure and hip control grip to pull opponent's torso toward the mat, eliminating their ability to sit up or create space. Their chest should be facing down with their posting ability compromised.
+3. **Adjust hip angle**: Move your hips perpendicular to their spine by scooting away from their body while maintaining the leg lock. This angle change dramatically increases the rotational pressure on their shoulder joint capsule.
+4. **Sit up toward their hips**: Use your posting arm to sit up tall, rotating your torso to face toward opponent's hips. This sitting motion shifts your weight and increases the lever arm against their shoulder while giving you better control of their hip.
+5. **Apply controlled pressure**: Lean slightly backward away from opponent while simultaneously driving your hips forward toward their head. This creates opposing forces that rotate their shoulder externally beyond its comfortable range of motion.
+6. **Complete the submission**: Maintain steady, increasing pressure on the shoulder rotation while keeping hip control tight. Listen and feel for the tap - do not jerk or apply explosive force. The finish should be controlled and gradual.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, the omoplata finish demands patience and proper setup. Rushing th
 ## Training Progressions
 **Week 1-2** - Positional mechanics
 From established Omoplata Control, practice the finishing sequence with a compliant partner. Focus on hip angle adjustment, sitting up motion, and applying pressure through proper body mechanics rather than strength.
-(Resistance: None)
 
 **Week 3-4** - Control maintenance
 Partner provides light defensive movement while you maintain Omoplata Control and work toward the finish. Emphasize hip control grip maintenance and preventing forward roll attempts. Reset after any escape.
-(Resistance: Light)
 
 **Week 5-6** - Counter defense
 Partner actively attempts all common escapes - forward roll, posturing, arm extraction, stacking. Practice countering each escape and finishing despite resistance. Chain with sweeps and alternative submissions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Incorporate omoplata finishes into full rolling from established Omoplata Control positions. Focus on reading opponent's defensive reactions, timing the finish, and transitioning to alternatives when finish is blocked.
-(Resistance: Full)
 
 
 

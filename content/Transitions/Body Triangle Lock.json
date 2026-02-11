@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Body Triangle Lock is a transitional technique executed from Gift Wrap position that establishes one of the most dominant leg control configurations in Brazilian Jiu-Jitsu. By threading one leg across the opponent's midsection and locking it with the opposite ankle, the attacker creates a crushing control mechanism that immobilizes the opponent's hips while maintaining the arm trap advantage of the Gift Wrap.\n\nThis transition represents a significant upgrade in control hierarchy. While the Gift Wrap already removes defensive arm capability, adding the body triangle eliminates hip escape potential and creates constant compression pressure on the opponent's torso. The combined control of trapped arm plus body triangle legs creates a nearly inescapable configuration that allows methodical submission hunting.\n\nFrom a strategic perspective, the Body Triangle Lock transition is particularly valuable because it converts a moderately sustainable position (Gift Wrap with hooks) into a highly sustainable dominant position. The body triangle requires minimal energy to maintain once established, allowing the top player to wait patiently for submission opportunities while their opponent exhausts themselves attempting to escape. This position exemplifies the principle of using positional dominance to create submission openings rather than forcing techniques against active defense.",
   "key_principles": [
     "Maintain Gift Wrap arm control throughout the entire leg threading process to prevent defensive recovery",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Verify Gift Wrap control",
-      "description": "Confirm that your arm threading under opponent's armpit has secure wrist or forearm control on the far side, with the trapped arm pulled high across their chest toward the opposite shoulder.",
-      "timing": "Before initiating leg movement"
+      "description": "Confirm that your arm threading under opponent's armpit has secure wrist or forearm control on the far side, with the trapped arm pulled high across their chest toward the opposite shoulder."
     },
     {
       "step_number": 2,
       "action": "Release one hook",
-      "description": "Remove your bottom hook while maintaining the top hook and Gift Wrap control. The bottom leg will become your attacking leg for the body triangle thread.",
-      "timing": "When opponent is settled and not actively escaping"
+      "description": "Remove your bottom hook while maintaining the top hook and Gift Wrap control. The bottom leg will become your attacking leg for the body triangle thread."
     },
     {
       "step_number": 3,
       "action": "Thread attacking leg",
-      "description": "Drive your freed leg across opponent's midsection, threading your shin and foot through to the far hip. Aim to position your ankle behind their hip bone on the opposite side for maximum leverage.",
-      "timing": "Smoothly, using hip drive to push the leg through"
+      "description": "Drive your freed leg across opponent's midsection, threading your shin and foot through to the far hip. Aim to position your ankle behind their hip bone on the opposite side for maximum leverage."
     },
     {
       "step_number": 4,
       "action": "Position locking leg",
-      "description": "Bring your remaining leg (previously the top hook) down to meet your attacking ankle. Your locking foot should hook behind your attacking ankle, creating the triangle configuration.",
-      "timing": "Immediately after thread leg reaches far hip"
+      "description": "Bring your remaining leg (previously the top hook) down to meet your attacking ankle. Your locking foot should hook behind your attacking ankle, creating the triangle configuration."
     },
     {
       "step_number": 5,
       "action": "Lock the triangle",
-      "description": "Squeeze your knees together while extending your hips forward. The locking ankle should be positioned in the crook of your attacking leg's knee or just behind the ankle bone for maximum mechanical advantage.",
-      "timing": "With controlled pressure, not explosive"
+      "description": "Squeeze your knees together while extending your hips forward. The locking ankle should be positioned in the crook of your attacking leg's knee or just behind the ankle bone for maximum mechanical advantage."
     },
     {
       "step_number": 6,
       "action": "Consolidate combined control",
-      "description": "Reestablish tight chest-to-back connection while maintaining Gift Wrap arm control. Verify that body triangle is positioned on opponent's lower ribcage/upper abdomen area rather than across the floating ribs which can cause injury.",
-      "timing": "Final adjustment before attacking"
+      "description": "Reestablish tight chest-to-back connection while maintaining Gift Wrap arm control. Verify that body triangle is positioned on opponent's lower ribcage/upper abdomen area rather than across the floating ribs which can cause injury."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Leg threading mechanics",
-      "description": "Practice the leg threading motion from Gift Wrap with a cooperative partner. Focus on smooth hip movement to drive the attacking leg across while maintaining upper body control. Drill the ankle lock position repeatedly until it becomes automatic.",
-      "resistance_level": "None"
+      "description": "Practice the leg threading motion from Gift Wrap with a cooperative partner. Focus on smooth hip movement to drive the attacking leg across while maintaining upper body control. Drill the ankle lock position repeatedly until it becomes automatic."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and entry recognition",
-      "description": "Partner provides 30% resistance and occasional defensive movements. Practice recognizing the optimal moments to initiate transition (opponent settling, exhaling, or after failed escape attempt). Develop patience to wait for openings rather than forcing.",
-      "resistance_level": "Light"
+      "description": "Partner provides 30% resistance and occasional defensive movements. Practice recognizing the optimal moments to initiate transition (opponent settling, exhaling, or after failed escape attempt). Develop patience to wait for openings rather than forcing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter-to-counter integration",
-      "description": "Partner actively defends the body triangle entry with common counters. Practice adapting to each counter: following to mount when they turn, attacking neck when they hand fight, and riding bridges while maintaining position. Chain with follow-up attacks.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends the body triangle entry with common counters. Practice adapting to each counter: following to mount when they turn, attacking neck when they hand fight, and riding bridges while maintaining position. Chain with follow-up attacks."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and submission chains",
-      "description": "Start positional sparring from Gift Wrap. Work full resistance transitions to body triangle and immediate submission attacks from the established position. Integrate into regular rolling, entering Gift Wrap from standard back control.",
-      "resistance_level": "Full"
+      "description": "Start positional sparring from Gift Wrap. Work full resistance transitions to body triangle and immediate submission attacks from the established position. Integrate into regular rolling, entering Gift Wrap from standard back control."
     }
   ],
   "variants_and_adaptations": [
@@ -182,53 +167,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Body Triangle Lock from Gift Wrap?",
-      "answer": "The primary goal is to establish the body triangle leg configuration while maintaining Gift Wrap arm control, creating a combined control position that eliminates both arm defense and hip escape capability. This maximizes positional dominance and creates optimal conditions for patient submission hunting.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to establish the body triangle leg configuration while maintaining Gift Wrap arm control, creating a combined control position that eliminates both arm defense and hip escape capability. This maximizes positional dominance and creates optimal conditions for patient submission hunting."
     },
     {
       "question": "What position do you start Body Triangle Lock from?",
-      "answer": "This technique starts from Gift Wrap/Top position, where you have back control with one of opponent's arms trapped across their body and secured with your arm threading under their armpit.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Gift Wrap/Top position, where you have back control with one of opponent's arms trapped across their body and secured with your arm threading under their armpit."
     },
     {
       "question": "What are the key grips and controls needed for Body Triangle Lock?",
-      "answer": "The key controls are: Gift Wrap arm control maintained throughout (arm threading under opponent's armpit with wrist/forearm control on far side), chest-to-back connection, and proper ankle positioning for the triangle lock. The locking ankle should be positioned behind the attacking leg's knee or ankle for mechanical advantage.",
-      "difficulty": "Intermediate"
+      "answer": "The key controls are: Gift Wrap arm control maintained throughout (arm threading under opponent's armpit with wrist/forearm control on far side), chest-to-back connection, and proper ankle positioning for the triangle lock. The locking ankle should be positioned behind the attacking leg's knee or ankle for mechanical advantage."
     },
     {
       "question": "Your opponent begins turning toward you as you release your hook to thread the body triangle - how do you respond?",
-      "answer": "Use your Gift Wrap arm control to pull their trapped shoulder back toward you, preventing the turn. If they successfully turn despite this, abandon the body triangle attempt and follow them to technical mount while maintaining the Gift Wrap. Do not force the triangle against a turning opponent as you will lose position.",
-      "difficulty": "Intermediate"
+      "answer": "Use your Gift Wrap arm control to pull their trapped shoulder back toward you, preventing the turn. If they successfully turn despite this, abandon the body triangle attempt and follow them to technical mount while maintaining the Gift Wrap. Do not force the triangle against a turning opponent as you will lose position."
     },
     {
       "question": "What is the optimal timing window to initiate the body triangle thread?",
-      "answer": "The optimal window is when opponent is settled and not actively escaping - typically after they exhale, after a failed escape attempt when they pause to recover, or when they are focused on defending their neck rather than hip movement. Initiating during explosive movement often results in lost position.",
-      "difficulty": "Advanced"
+      "answer": "The optimal window is when opponent is settled and not actively escaping - typically after they exhale, after a failed escape attempt when they pause to recover, or when they are focused on defending their neck rather than hip movement. Initiating during explosive movement often results in lost position."
     },
     {
       "question": "Where should the body triangle be positioned on your opponent's body for maximum effectiveness and safety?",
-      "answer": "Position the body triangle across the lower ribcage and upper abdomen area, below the floating ribs. This provides maximum hip control while avoiding injury risk to the floating ribs. Squeezing across the floating ribs can cause fractures and should be avoided in training.",
-      "difficulty": "Intermediate"
+      "answer": "Position the body triangle across the lower ribcage and upper abdomen area, below the floating ribs. This provides maximum hip control while avoiding injury risk to the floating ribs. Squeezing across the floating ribs can cause fractures and should be avoided in training."
     },
     {
       "question": "Your opponent commits their free hand to blocking your leg thread - what opportunity does this create?",
-      "answer": "When opponent uses their only free arm to defend the leg thread, they remove protection from their neck. This creates an immediate opportunity to attack the rear naked choke or other neck submissions. The Gift Wrap already traps one arm, so committing the remaining arm to leg defense leaves them completely vulnerable to chokes.",
-      "difficulty": "Intermediate"
+      "answer": "When opponent uses their only free arm to defend the leg thread, they remove protection from their neck. This creates an immediate opportunity to attack the rear naked choke or other neck submissions. The Gift Wrap already traps one arm, so committing the remaining arm to leg defense leaves them completely vulnerable to chokes."
     },
     {
       "question": "What is the critical difference between locking the ankle in front of versus behind the knee?",
-      "answer": "Locking behind the knee creates a mechanical advantage that requires minimal energy to maintain - the structure itself holds the position. Locking in front of the knee creates a weak lock that requires constant muscular effort and can be broken when opponent extends their body. Always position the locking ankle behind the attacking leg.",
-      "difficulty": "Advanced"
+      "answer": "Locking behind the knee creates a mechanical advantage that requires minimal energy to maintain - the structure itself holds the position. Locking in front of the knee creates a weak lock that requires constant muscular effort and can be broken when opponent extends their body. Always position the locking ankle behind the attacking leg."
     },
     {
       "question": "How do you maintain chest-to-back connection while threading your legs for the body triangle?",
-      "answer": "Keep your upper body completely static while moving only your hips and legs. Think of your chest as glued to their back while your lower body moves independently underneath. Any space created in the upper body connection during leg threading allows opponent to begin escape sequences.",
-      "difficulty": "Intermediate"
+      "answer": "Keep your upper body completely static while moving only your hips and legs. Think of your chest as glued to their back while your lower body moves independently underneath. Any space created in the upper body connection during leg threading allows opponent to begin escape sequences."
     },
     {
       "question": "What common error leads to rib injuries when applying body triangle, and how do you avoid it?",
-      "answer": "Positioning the body triangle too high across the floating ribs and then squeezing creates fracture risk. Avoid this by threading low across the midsection, targeting the area below the ribcage at the waistline level. Focus on using hip extension for pressure rather than squeezing with your legs.",
-      "difficulty": "Advanced"
+      "answer": "Positioning the body triangle too high across the floating ribs and then squeezing creates fracture risk. Avoid this by threading low across the midsection, targeting the area below the ribcage at the waistline level. Focus on using hip extension for pressure rather than squeezing with your legs."
     }
   ],
   "safety_considerations": "The body triangle position can generate significant compression pressure on the torso, creating potential for rib injuries if positioned incorrectly. Always thread the body triangle across the lower midsection below the floating ribs rather than across the ribcage. In training, communicate with partners about pressure levels and release immediately if they tap or signal discomfort. Avoid explosive squeezing or cranking motions - control should come from sustained positional pressure. Practitioners with rib injuries should avoid this position until fully healed. When drilling, start with light pressure and progressively increase as partners adapt.",
@@ -266,5 +241,6 @@
       "name": "Technical Mount",
       "relationship": "Alternative advancement - can follow opponent to mount if body triangle is blocked"
     }
-  ]
+  ],
+  "success_rate": 58
 }

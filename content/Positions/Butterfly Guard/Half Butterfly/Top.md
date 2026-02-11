@@ -364,11 +364,11 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 15% |
-| Intermediate | 65% | 60% | 25% |
-| Advanced     | 75% | 75% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 68% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 30-90 seconds
 

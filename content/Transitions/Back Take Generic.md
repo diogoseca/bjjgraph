@@ -159,7 +159,7 @@ description: "Master back take transitions in BJJ. Learn multiple paths to back 
 Back take transitions represent some of the most valuable positional advancements in Brazilian Jiu-Jitsu, as back control offers the highest point value in competition and provides access to the most dominant submission opportunities. A successful back take requires understanding multiple pathways from various positions including turtle, side control, guard, and standing positions. The fundamental principle underlying all back takes is creating and exploiting angles while controlling your opponent's defensive frames. Whether you're attacking from top position, transitioning from guard, or capitalizing on scrambles, the ability to recognize and execute back take opportunities separates advanced practitioners from beginners. This transition encompasses a family of techniques unified by the common goal of achieving rear control with both hooks established and control of the upper body through seat belt grip or similar control mechanisms.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ Back take transitions represent some of the most valuable positional advancement
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant angle**: Create a minimum 45-degree angle relative to your opponent's centerline by moving your hips laterally while maintaining chest contact. From turtle, this means getting perpendicular to their spine. From standing, this means circling to their back corner. The angle prevents them from turning into you effectively. (Timing: Initial setup phase)
-2. **Secure first control point**: Grip the far shoulder, establish an overhook, or secure a collar grip on the opposite side from your angle of attack. This control point serves as your anchor and prevents the opponent from rotating away. The grip should be firm but not energy-depleting, as you'll maintain it throughout the transition. (Timing: Before committing to back exposure)
-3. **Create hip clearance**: Use your free hand to clear the opponent's near-side elbow away from their ribs, creating space for your first hook. This can be accomplished with hand fighting, a knee slide, or by driving your shoulder into their armpit to collapse their defensive frame. The goal is opening the door for hook insertion. (Timing: As opponent reacts to your angle)
-4. **Insert first hook**: Drive your inside leg deep across the opponent's near hip, establishing the first hook with your instep controlling their inner thigh. The hook should be inserted from knee-to-instep in one smooth motion, not gradually. Keep your knee tight to their ribs to prevent them from trapping your leg in half guard. (Timing: Window opens for 1-2 seconds)
-5. **Establish seat belt control**: As the first hook enters, immediately establish seat belt grip (one arm over shoulder, one arm under armpit, hands clasped). The overhook side should be on the same side as your first hook. Pull them back into your chest while preventing their shoulders from turning. This is the critical control that stops most escape attempts. (Timing: Simultaneously with first hook)
-6. **Complete second hook**: Swing your outside leg over the opponent's far hip to establish your second hook. Use your seat belt grip to create the space by pulling them slightly toward your first hook side. Both hooks should now be active with insteps controlling their inner thighs. Drive your hips forward to flatten them to the mat if possible. (Timing: Immediately after seat belt secured)
-7. **Consolidate back control**: Adjust your hooks deeper if needed, ensuring both heels are controlling below their hip line. Tighten your seat belt by pulling your elbows to your ribs. Keep your chest heavy on their upper back while your hooks stretch them out. From here, you can attack submissions or maintain position for points. (Timing: Final positioning adjustment)
+1. **Establish dominant angle**: Create a minimum 45-degree angle relative to your opponent's centerline by moving your hips laterally while maintaining chest contact. From turtle, this means getting perpendicular to their spine. From standing, this means circling to their back corner. The angle prevents them from turning into you effectively.
+2. **Secure first control point**: Grip the far shoulder, establish an overhook, or secure a collar grip on the opposite side from your angle of attack. This control point serves as your anchor and prevents the opponent from rotating away. The grip should be firm but not energy-depleting, as you'll maintain it throughout the transition.
+3. **Create hip clearance**: Use your free hand to clear the opponent's near-side elbow away from their ribs, creating space for your first hook. This can be accomplished with hand fighting, a knee slide, or by driving your shoulder into their armpit to collapse their defensive frame. The goal is opening the door for hook insertion.
+4. **Insert first hook**: Drive your inside leg deep across the opponent's near hip, establishing the first hook with your instep controlling their inner thigh. The hook should be inserted from knee-to-instep in one smooth motion, not gradually. Keep your knee tight to their ribs to prevent them from trapping your leg in half guard.
+5. **Establish seat belt control**: As the first hook enters, immediately establish seat belt grip (one arm over shoulder, one arm under armpit, hands clasped). The overhook side should be on the same side as your first hook. Pull them back into your chest while preventing their shoulders from turning. This is the critical control that stops most escape attempts.
+6. **Complete second hook**: Swing your outside leg over the opponent's far hip to establish your second hook. Use your seat belt grip to create the space by pulling them slightly toward your first hook side. Both hooks should now be active with insteps controlling their inner thighs. Drive your hips forward to flatten them to the mat if possible.
+7. **Consolidate back control**: Adjust your hooks deeper if needed, ensuring both heels are controlling below their hip line. Tighten your seat belt by pulling your elbows to your ribs. Keep your chest heavy on their upper back while your hooks stretch them out. From here, you can attack submissions or maintain position for points.
 
 
 </section>
@@ -261,27 +261,21 @@ Back take transitions represent some of the most valuable positional advancement
 ## Training Progressions
 **Week 1-2: Fundamental Pathways** - Learn basic back take entries from turtle and side control
 Master the arm drag to back take and the basic turtle back take with seat belt control. Drill these entries 20-30 repetitions per session. Focus on the angle creation and first hook insertion timing. Partner provides light resistance only to positioning, not actively defending.
-(Resistance: Light)
 
 **Week 3-4: Multiple Entries** - Expand pathway repertoire to include guard and standing entries
 Add chair sit from deep half, kiss of the dragon from leg drag position, and basic single leg to back take from standing. Practice chaining two entries together when first is defended. Partner begins defending the initial entry but not the backup option.
-(Resistance: Medium)
 
 **Week 5-8: Reaction-Based Selection** - Read opponent's defensive reactions and choose appropriate pathway
 Partner actively defends using random defensive patterns (turn in, sit to hip, hand fight, etc.). You must identify the reaction and select the correct back take variation. Emphasize smooth transitions between options. Begin timing your entries to opponent's movement rather than initiating from static positions.
-(Resistance: Medium)
 
 **Week 9-12: Competition Scenarios** - Execute back takes under full resistance from diverse positions
 Positional sparring from bottom side control, turtle, standing clinch, and guard positions with the goal of achieving back control. Partner defends with 100% effort. Track your success rate by position and identify weak pathways for additional drilling. Incorporate back takes into regular sparring rounds.
-(Resistance: Full)
 
 **Month 4+: Advanced Variations** - Specialized back takes and competition tactics
 Learn berimbolo variations, matrix back take, crab ride entries, and other advanced pathways. Study competition footage to identify setup patterns. Develop your personal back take system based on your body type and guard preferences. Focus on maintaining highest success rate pathways while expanding tactical options.
-(Resistance: Full)
 
 **Ongoing: Systematic Integration** - Connect back takes to your overall positional game
 Ensure every position in your game has at least two viable back take options. Build decision trees for common defensive reactions. Maintain a minimum 40% back take success rate in live sparring. Continue studying new variations while refining fundamentals. The back take becomes automatic from your best positions.
-(Resistance: Full)
 
 
 

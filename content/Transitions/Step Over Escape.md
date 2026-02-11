@@ -5,7 +5,7 @@
 
 ---
 title: "Step Over Escape | BJJ Technique | BJJ Graph"
-description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over technique to relieve choke pressure and recover guard. Success: Beginner 30%, Advanced 65%."
+description: "Master the Step Over Escape from Darce Control in BJJ. Leg-over technique to relieve choke pressure and recover guard. Success: Beginner 30%, Advanced 65%."
 ---
 
 
@@ -17,7 +17,7 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Step Over Escape in BJJ",
-  "description": "Step-by-step guide for Step Over Escape from D'arce Control/Bottom. Possible outcomes: Open Guard (65%), D'arce Control (25%), D'arce Control (10%).",
+  "description": "Step-by-step guide for Step Over Escape from Darce Control/Bottom. Possible outcomes: Open Guard (65%), Darce Control (25%), Darce Control (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -28,7 +28,7 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
     {
       "@type": "HowToStep",
       "name": "Frame with free hand",
-      "text": "Post your free hand (the arm not trapped in the D'arce configuration) against the opponent's far hip or ribcage, creating a frame that prevents them from flattening you completely and generates space for the upcoming leg swing.",
+      "text": "Post your free hand (the arm not trapped in the Darce configuration) against the opponent's far hip or ribcage, creating a frame that prevents them from flattening you completely and generates space for the upcoming leg swing.",
       "position": 2
     },
     {
@@ -52,13 +52,13 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
     {
       "@type": "HowToStep",
       "name": "Rotate hips through",
-      "text": "Continue rotating your hips away from the opponent in the direction of the step over, using the planted leg as a pivot point. This rotation pulls your neck and trapped arm out of the D'arce configuration as your body angle becomes perpendicular to the choke.",
+      "text": "Continue rotating your hips away from the opponent in the direction of the step over, using the planted leg as a pivot point. This rotation pulls your neck and trapped arm out of the Darce configuration as your body angle becomes perpendicular to the choke.",
       "position": 6
     },
     {
       "@type": "HowToStep",
       "name": "Extract trapped arm",
-      "text": "As the rotation relieves choking pressure and creates slack in the opponent's grip, use your free hand to assist in pulling the trapped arm free from the D'arce configuration. Rotate the shoulder outward to facilitate extraction.",
+      "text": "As the rotation relieves choking pressure and creates slack in the opponent's grip, use your free hand to assist in pulling the trapped arm free from the Darce configuration. Rotate the shoulder outward to facilitate extraction.",
       "position": 7
     },
     {
@@ -80,10 +80,10 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What is the primary goal of the Step Over Escape from D'arce Control?",
+      "name": "What is the primary goal of the Step Over Escape from Darce Control?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the D'arce grip by rotating perpendicular to the line of choking force."
+        "text": "The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the Darce grip by rotating perpendicular to the line of choking force."
       }
     },
     {
@@ -99,7 +99,7 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
       "name": "Your opponent sprawls their hips back when you attempt the step over, preventing your leg from clearing. How do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three D'arce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll."
+        "text": "If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three Darce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll."
       }
     },
     {
@@ -135,7 +135,7 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Step Over Escape",
-  "description": "Master the Step Over Escape from D'arce Control in BJJ. Leg-over technique to relieve choke pressure and recover guard. Success: Beginner 30%, Advanced 65%.",
+  "description": "Master the Step Over Escape from Darce Control in BJJ. Leg-over technique to relieve choke pressure and recover guard. Success: Beginner 30%, Advanced 65%.",
   "url": "https://bjjgraph.org/Transitions/Step-Over-Escape",
   "isPartOf": {
     "@type": "WebSite",
@@ -162,14 +162,14 @@ description: "Master the Step Over Escape from D'arce Control in BJJ. Leg-over t
 
 <section id="overview" class="content-section">
 
-The Step Over Escape is a critical defensive technique executed from the bottom of D'arce Control, where the defender uses a leg swing over the opponent's head and body to relieve choking pressure, create separation, and recover to open guard. Unlike linear escapes that attempt to pull away from the choke, the Step Over Escape exploits the geometric weakness of the D'arce grip by rotating the body perpendicular to the choking arm's line of force. By stepping the far leg over the opponent's head, the defender changes the angle of their torso relative to the choke, collapsing the space the opponent needs to maintain effective carotid compression.
+The Step Over Escape is a critical defensive technique executed from the bottom of Darce Control, where the defender uses a leg swing over the opponent's head and body to relieve choking pressure, create separation, and recover to open guard. Unlike linear escapes that attempt to pull away from the choke, the Step Over Escape exploits the geometric weakness of the Darce grip by rotating the body perpendicular to the choking arm's line of force. By stepping the far leg over the opponent's head, the defender changes the angle of their torso relative to the choke, collapsing the space the opponent needs to maintain effective carotid compression.
 
 This escape is particularly effective when the opponent has committed to flattening the defender and walking their hips around to finish. The act of stepping over redirects the defender's hips away from the opponent's chest pressure and simultaneously creates a wedge with the stepping leg that blocks the opponent from re-establishing the finishing angle. The technique requires precise timing: executing too early before the opponent commits allows them to adjust, while waiting too long means the choke is already too deep to escape.
 
-Strategically, the Step Over Escape pairs with the Back Door Escape and Counter Roll as the three primary escapes from D'arce Control Bottom. Where the Back Door Escape retreats behind the opponent and the Counter Roll inverts through them, the Step Over goes over the top, making it the preferred option when the opponent's weight is shifted low and their head is accessible for the leg to clear. Advanced practitioners chain all three escapes together, forcing the attacker to defend multiple escape vectors simultaneously.
+Strategically, the Step Over Escape pairs with the Back Door Escape and Counter Roll as the three primary escapes from Darce Control Bottom. Where the Back Door Escape retreats behind the opponent and the Counter Roll inverts through them, the Step Over goes over the top, making it the preferred option when the opponent's weight is shifted low and their head is accessible for the leg to clear. Advanced practitioners chain all three escapes together, forcing the attacker to defend multiple escape vectors simultaneously.
 
-**From Position**: [[D'arce Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[Darce Control/Bottom]]
+**Success Rate**: 58%
 
 </section>
 
@@ -180,8 +180,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Open Guard]] | 65% |
-| Failure | [[D'arce Control]] | 25% |
-| Counter | [[D'arce Control]] | 10% |
+| Failure | [[Darce Control]] | 25% |
+| Counter | [[Darce Control]] | 10% |
 
 
 </section>
@@ -205,7 +205,7 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 <section id="setup-requirements" class="content-section">
 
 ## Prerequisites
-- Opponent has established D'arce grip but has not fully locked the choke to unconsciousness level
+- Opponent has established Darce grip but has not fully locked the choke to unconsciousness level
 - Defender's far leg (leg furthest from opponent) is free to swing over opponent's head
 - Opponent's head position is low enough or accessible enough for the leg to clear over the top
 - Defender maintains enough composure and oxygen to execute a coordinated multi-step escape sequence
@@ -218,14 +218,14 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Tuck chin and turn in**: Immediately tuck your chin tight to your chest and rotate your body slightly toward the opponent, reducing the angle of carotid compression and buying critical seconds before the choke becomes fully effective. (Timing: Within 2-3 seconds of recognizing the D'arce grip is locked)
-2. **Frame with free hand**: Post your free hand (the arm not trapped in the D'arce configuration) against the opponent's far hip or ribcage, creating a frame that prevents them from flattening you completely and generates space for the upcoming leg swing. (Timing: Immediately after turning in)
-3. **Bridge hips upward**: Execute a strong bridge by driving your hips upward and toward the opponent's head, creating elevation and space underneath your body. This hip movement is essential for generating the momentum needed to swing the far leg over. (Timing: Explosive bridge coordinated with next step)
-4. **Swing far leg over**: In one fluid motion, swing your far leg (the leg furthest from the opponent) up and over the opponent's head and upper back. The leg should arc over their head like a pendulum, with your knee driving toward the mat on the opposite side of their body. (Timing: Immediately at the peak of the bridge)
-5. **Hook and wedge with stepping leg**: As the stepping leg clears the opponent's head, plant your foot on the mat and drive your knee or shin into the opponent's neck, shoulder, or upper back, creating a wedge that prevents them from following your body rotation and re-establishing the choke angle. (Timing: As leg completes the arc)
-6. **Rotate hips through**: Continue rotating your hips away from the opponent in the direction of the step over, using the planted leg as a pivot point. This rotation pulls your neck and trapped arm out of the D'arce configuration as your body angle becomes perpendicular to the choke. (Timing: Continuous motion following the leg plant)
-7. **Extract trapped arm**: As the rotation relieves choking pressure and creates slack in the opponent's grip, use your free hand to assist in pulling the trapped arm free from the D'arce configuration. Rotate the shoulder outward to facilitate extraction. (Timing: As pressure relieves during rotation)
-8. **Establish open guard**: Once the trapped arm is free and the choke is broken, immediately establish open guard by placing feet on the opponent's hips, framing with both hands on their shoulders or biceps, and creating distance. Do not pause in a neutral scramble position. (Timing: Immediately upon arm extraction)
+1. **Tuck chin and turn in**: Immediately tuck your chin tight to your chest and rotate your body slightly toward the opponent, reducing the angle of carotid compression and buying critical seconds before the choke becomes fully effective.
+2. **Frame with free hand**: Post your free hand (the arm not trapped in the Darce configuration) against the opponent's far hip or ribcage, creating a frame that prevents them from flattening you completely and generates space for the upcoming leg swing.
+3. **Bridge hips upward**: Execute a strong bridge by driving your hips upward and toward the opponent's head, creating elevation and space underneath your body. This hip movement is essential for generating the momentum needed to swing the far leg over.
+4. **Swing far leg over**: In one fluid motion, swing your far leg (the leg furthest from the opponent) up and over the opponent's head and upper back. The leg should arc over their head like a pendulum, with your knee driving toward the mat on the opposite side of their body.
+5. **Hook and wedge with stepping leg**: As the stepping leg clears the opponent's head, plant your foot on the mat and drive your knee or shin into the opponent's neck, shoulder, or upper back, creating a wedge that prevents them from following your body rotation and re-establishing the choke angle.
+6. **Rotate hips through**: Continue rotating your hips away from the opponent in the direction of the step over, using the planted leg as a pivot point. This rotation pulls your neck and trapped arm out of the Darce configuration as your body angle becomes perpendicular to the choke.
+7. **Extract trapped arm**: As the rotation relieves choking pressure and creates slack in the opponent's grip, use your free hand to assist in pulling the trapped arm free from the Darce configuration. Rotate the shoulder outward to facilitate extraction.
+8. **Establish open guard**: Once the trapped arm is free and the choke is broken, immediately establish open guard by placing feet on the opponent's hips, framing with both hands on their shoulders or biceps, and creating distance. Do not pause in a neutral scramble position.
 
 
 </section>
@@ -234,8 +234,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Opponent Counters
 - **Opponent sprawls hips back and drives shoulder pressure forward to prevent the leg from clearing over their head** (Effectiveness: High) - Your Response: If the leg cannot clear, abort the step over and immediately transition to a Back Door Escape by retreating behind the opponent, using the momentum you already generated toward their body
-- **Opponent tightens the D'arce grip and walks hips around to the opposite side, chasing the rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation speed and use your free hand frame on their hip to create separation. If they chase fully around, the choke loses its angle and you can extract the trapped arm during their positional adjustment
-- **Opponent releases the D'arce grip and transitions to mount or side control as you rotate through** (Effectiveness: Medium) - Your Response: This is actually a partial success since the choke is broken. Immediately address the new positional threat by framing on their hips, inserting a knee shield, and recovering to half guard or closed guard before they consolidate the new position
+- **Opponent tightens the Darce grip and walks hips around to the opposite side, chasing the rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation speed and use your free hand frame on their hip to create separation. If they chase fully around, the choke loses its angle and you can extract the trapped arm during their positional adjustment
+- **Opponent releases the Darce grip and transitions to mount or side control as you rotate through** (Effectiveness: Medium) - Your Response: This is actually a partial success since the choke is broken. Immediately address the new positional threat by framing on their hips, inserting a knee shield, and recovering to half guard or closed guard before they consolidate the new position
 - **Opponent blocks the stepping leg with their free arm and traps it against their body** (Effectiveness: Low) - Your Response: Use the trapped leg as a hook on their body to pull yourself through the rotation rather than trying to retract it. The leg hook gives you leverage to continue the escape movement and can transition into a scramble
 
 
@@ -270,24 +270,19 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Training Progressions
 **Week 1-2** - Solo and cooperative mechanics
-Practice the bridging and leg swing motion solo on the mat, then with a cooperative partner holding a loose D'arce grip. Focus on identifying the far leg, coordinating the bridge with the swing, and completing the full rotation arc. Drill 20-30 repetitions per side each session to build the movement pattern.
-(Resistance: None)
+Practice the bridging and leg swing motion solo on the mat, then with a cooperative partner holding a loose Darce grip. Focus on identifying the far leg, coordinating the bridge with the swing, and completing the full rotation arc. Drill 20-30 repetitions per side each session to build the movement pattern.
 
 **Week 3-4** - Timing and frame placement
-Partner holds D'arce grip at 30-40% tightness and applies light shoulder pressure. Focus on the timing of when to initiate the escape: practice recognizing when opponent's weight shifts low or when they walk their hips. Refine the free hand frame placement on the hip and coordinate it with the bridge.
-(Resistance: Light)
+Partner holds Darce grip at 30-40% tightness and applies light shoulder pressure. Focus on the timing of when to initiate the escape: practice recognizing when opponent's weight shifts low or when they walk their hips. Refine the free hand frame placement on the hip and coordinate it with the bridge.
 
 **Week 5-6** - Chain escapes and counter responses
 Partner applies 60-70% resistance and actively counters the step over attempt. Practice transitioning between Step Over Escape, Back Door Escape, and Counter Roll based on the opponent's reactions. Develop the ability to read which escape is available based on opponent's weight distribution and grip tightness.
-(Resistance: Medium)
 
 **Week 7-8** - Live application under pressure
-Start from fully locked D'arce Control with partner at competition intensity. Execute the escape under realistic pressure with the opponent actively trying to finish the choke. Measure success by tracking escape rate over 10-attempt sets. Target 50%+ escape rate before progressing to live rolling integration.
-(Resistance: Full)
+Start from fully locked Darce Control with partner at competition intensity. Execute the escape under realistic pressure with the opponent actively trying to finish the choke. Measure success by tracking escape rate over 10-attempt sets. Target 50%+ escape rate before progressing to live rolling integration.
 
 **Week 9+** - Positional sparring integration
-Integrate into live rolling by starting rounds from turtle or front headlock positions where D'arce entries are common. Practice recognizing the D'arce threat early and selecting the appropriate escape from the full toolbox. Develop the ability to chain into immediate offense from the recovered guard position.
-(Resistance: Full)
+Integrate into live rolling by starting rounds from turtle or front headlock positions where Darce entries are common. Practice recognizing the Darce threat early and selecting the appropriate escape from the full toolbox. Develop the ability to chain into immediate offense from the recovered guard position.
 
 
 
@@ -309,14 +304,14 @@ Integrate into live rolling by starting rounds from turtle or front headlock pos
 <section id="knowledge-assessment" class="content-section">
 
 ## Test Your Knowledge
-**Q1**: What is the primary goal of the Step Over Escape from D'arce Control?
-**A**: The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the D'arce grip by rotating perpendicular to the line of choking force.
+**Q1**: What is the primary goal of the Step Over Escape from Darce Control?
+**A**: The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the Darce grip by rotating perpendicular to the line of choking force.
 
 **Q2**: Which leg do you step over with, and why is using the wrong leg a critical error?
 **A**: You step over with the far leg, the one furthest from the opponent's body. Using the near leg is a critical error because it cannot mechanically reach over the opponent's head from the correct angle, and the movement pulls your body deeper into the choke structure rather than rotating you away from it. The far leg creates the arc needed to clear the opponent's head and generates the rotation that relieves choking pressure.
 
 **Q3**: Your opponent sprawls their hips back when you attempt the step over, preventing your leg from clearing. How do you adjust?
-**A**: If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three D'arce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll.
+**A**: If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three Darce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll.
 
 **Q4**: What is the most critical timing window for initiating the Step Over Escape?
 **A**: The optimal timing is when the opponent commits their weight low and walks their hips around to finish the choke. At this moment, their head drops lower making it easier for the leg to clear, and their weight commitment makes it harder for them to sprawl back to counter the step over. Executing too early before they commit allows them to adjust, while waiting too long means the choke is too tight to escape.
@@ -327,17 +322,17 @@ Integrate into live rolling by starting rounds from turtle or front headlock pos
 **Q6**: What grip and frame must you establish with your free hand before initiating the step over?
 **A**: Your free hand must frame firmly on the opponent's far hip or ribcage before initiating the step over. This frame serves as both a barrier and a pivot point: it prevents the opponent from following your rotation and chasing the choke angle, and it gives you a fixed point to push against during the rotation. Without this frame, the opponent can simply rotate with you and maintain the choke throughout the escape attempt.
 
-**Q7**: Your opponent begins tightening the D'arce and walking their hips to the other side as you initiate the step over. What adjustment do you make?
-**A**: Accelerate your rotation speed and use your hip frame to create separation. If they chase the rotation fully around to the opposite side, the D'arce loses its effective angle because they can no longer maintain perpendicular chest pressure to your neck. Use this window of reduced pressure during their positional adjustment to extract the trapped arm. Their commitment to chasing means they sacrifice the finishing angle.
+**Q7**: Your opponent begins tightening the Darce and walking their hips to the other side as you initiate the step over. What adjustment do you make?
+**A**: Accelerate your rotation speed and use your hip frame to create separation. If they chase the rotation fully around to the opposite side, the Darce loses its effective angle because they can no longer maintain perpendicular chest pressure to your neck. Use this window of reduced pressure during their positional adjustment to extract the trapped arm. Their commitment to chasing means they sacrifice the finishing angle.
 
 **Q8**: Why must you keep your chin tucked throughout the entire step over sequence?
-**A**: The chin tuck is the primary defense preventing the choke from reaching full depth during the escape. The step over requires several seconds of coordinated movement during which the D'arce grip is still active. If you lift your chin to look where your leg is going or out of habit, you expose the front of your neck and allow the choking arm to slide deeper against the carotid arteries. This can result in unconsciousness during what should be an escape. Trust the movement pattern and feel the position rather than watching it.
+**A**: The chin tuck is the primary defense preventing the choke from reaching full depth during the escape. The step over requires several seconds of coordinated movement during which the Darce grip is still active. If you lift your chin to look where your leg is going or out of habit, you expose the front of your neck and allow the choking arm to slide deeper against the carotid arteries. This can result in unconsciousness during what should be an escape. Trust the movement pattern and feel the position rather than watching it.
 
 **Q9**: After successfully stepping over and breaking the choke, what should your immediate next action be?
 **A**: Immediately establish open guard by placing both feet on the opponent's hips and framing with hands on their shoulders or biceps. Do not pause in a neutral scramble position or celebrate the escape. The opponent will immediately attempt to advance to side control, mount, or re-establish a front headlock. The technique is not complete until you have established a defensible guard position with proper frames and distance control.
 
 **Q10**: How does the Step Over Escape complement the Back Door Escape and Counter Roll in a chained escape sequence?
-**A**: The three escapes attack different planes of movement, forcing the D'arce attacker to defend in multiple directions simultaneously. The Step Over goes over the top when the opponent's head is low. The Back Door retreats behind when the opponent drives forward. The Counter Roll inverts through when the opponent is square. Threatening one opens the others: if the opponent sprawls to stop the step over, the back door becomes available; if they follow the counter roll, the step over clears easily. Elite practitioners flow between all three based on the attacker's reactions.
+**A**: The three escapes attack different planes of movement, forcing the Darce attacker to defend in multiple directions simultaneously. The Step Over goes over the top when the opponent's head is low. The Back Door retreats behind when the opponent drives forward. The Counter Roll inverts through when the opponent is square. Threatening one opens the others: if the opponent sprawls to stop the step over, the back door becomes available; if they follow the counter roll, the step over clears easily. Elite practitioners flow between all three based on the attacker's reactions.
 
 **Q11**: What body type or flexibility considerations affect the Step Over Escape's effectiveness?
 **A**: Practitioners with longer legs have a mechanical advantage because their leg can arc over the opponent's head with less hip elevation required. Shorter or less flexible practitioners need a more explosive bridge and may need to create more angle before initiating the swing. Hip flexibility is more important than hamstring flexibility since the primary motion is a lateral rotation rather than a straight-leg lift. Regardless of body type, the technique remains viable when the bridge and turn-in mechanics are properly executed.
@@ -350,7 +345,7 @@ Integrate into live rolling by starting rounds from turtle or front headlock pos
 
 ## Safety Considerations
 
-The Step Over Escape involves movement while a choke is actively applied, creating a window where practitioners must maintain composure under genuine submission threat. Always tap immediately if the choke reaches full depth before the escape is complete. Never sacrifice neck safety to force the technique. During training, the partner applying the D'arce should release immediately when the training partner taps and should not chase the choke at full intensity during the learning phases. Be cautious of neck strain from the bridging and rotation under the opponent's weight. Warm up the neck and cervical spine thoroughly before drilling this technique. Partners should communicate clearly about resistance levels and any discomfort during progressive training phases.
+The Step Over Escape involves movement while a choke is actively applied, creating a window where practitioners must maintain composure under genuine submission threat. Always tap immediately if the choke reaches full depth before the escape is complete. Never sacrifice neck safety to force the technique. During training, the partner applying the Darce should release immediately when the training partner taps and should not chase the choke at full intensity during the learning phases. Be cautious of neck strain from the bridging and rotation under the opponent's weight. Warm up the neck and cervical spine thoroughly before drilling this technique. Partners should communicate clearly about resistance levels and any discomfort during progressive training phases.
 
 </section>
 
@@ -358,7 +353,7 @@ The Step Over Escape involves movement while a choke is actively applied, creati
 
 ## Position Integration
 
-The Step Over Escape occupies a critical role in the D'arce Control Bottom defensive system alongside the Back Door Escape and Counter Roll. Together, these three techniques create a comprehensive escape framework that addresses the D'arce threat from multiple angles. The Step Over is the preferred escape when the opponent's head and weight are positioned low, making the leg clearance achievable. It connects the D'arce Control defensive position to the Open Guard offensive system, allowing the defender to transition from survival to active guard play. In the broader BJJ positional hierarchy, mastering this escape is essential for any practitioner who regularly encounters front headlock and turtle positions, as the D'arce threat is one of the most common submission attacks in modern no-gi grappling. The technique also reinforces fundamental escape principles applicable to other choking positions: turning into the choke, changing body angle relative to the choking force, and maintaining chin protection throughout defensive sequences.
+The Step Over Escape occupies a critical role in the Darce Control Bottom defensive system alongside the Back Door Escape and Counter Roll. Together, these three techniques create a comprehensive escape framework that addresses the Darce threat from multiple angles. The Step Over is the preferred escape when the opponent's head and weight are positioned low, making the leg clearance achievable. It connects the Darce Control defensive position to the Open Guard offensive system, allowing the defender to transition from survival to active guard play. In the broader BJJ positional hierarchy, mastering this escape is essential for any practitioner who regularly encounters front headlock and turtle positions, as the Darce threat is one of the most common submission attacks in modern no-gi grappling. The technique also reinforces fundamental escape principles applicable to other choking positions: turning into the choke, changing body angle relative to the choking force, and maintaining chin protection throughout defensive sequences.
 
 </section>
 
@@ -366,7 +361,7 @@ The Step Over Escape occupies a critical role in the D'arce Control Bottom defen
 
 ## Related Techniques
 
-- [[D'arce Control]] - Starting position
+- [[Darce Control]] - Starting position
 - [[Open Guard]] - Primary recovery position after successful escape
 - [[Back Door Escape]] - Alternative escape from same position - retreats behind opponent
 - [[Counter Roll]] - Alternative escape from same position - inverts through opponent
@@ -374,7 +369,7 @@ The Step Over Escape occupies a critical role in the D'arce Control Bottom defen
 - [[Darce Choke]] - Primary submission threat this escape defends against
 - [[Granby Roll Escape]] - Related escape using similar rotational mechanics from front headlock positions
 - [[Front Headlock]] - Related position where similar step over mechanics apply
-- [[Turtle]] - Common preceding position before D'arce is established
+- [[Turtle]] - Common preceding position before Darce is established
 - [[Half Guard]] - Alternative recovery position via step over to half guard variant
 - [[Guard Recovery]] - Follow-up technique to consolidate position after escaping
 - [[Anaconda Control]] - Similar choke position where step over principles also apply

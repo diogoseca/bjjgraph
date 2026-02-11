@@ -163,7 +163,7 @@ Strategically, this transition functions as the primary alternative when the Aok
 This technique is particularly effective in no-gi competition where the absence of collar grips makes the Aoki Lock harder to finish but the slippery surface facilitates smooth transitions to the back. It represents the core principle of positional advancement over submission hunting: when your opponent gives you their back to escape a joint lock, taking the superior position often yields better finishing opportunities than the original attack.
 
 **From Position**: [[Aoki Lock]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ This technique is particularly effective in no-gi competition where the absence 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Read opponent's escape**: Recognize opponent's defensive commitment by feeling their hip rotation or shoulder roll beginning. The moment they commit weight to rolling forward or turning away from shoulder pressure, begin the transition sequence rather than chasing the submission. (Timing: As opponent initiates escape movement)
-2. **Release shoulder lock grip**: Release the submission grip on opponent's arm and shoulder complex while maintaining your leg contact on their body. Your hands must become free to establish new grips on the torso. Do not fully disengage your legs yet as they provide the initial connection during the transition. (Timing: Immediately after recognizing escape commitment)
-3. **Follow the roll**: Drive your chest forward into opponent's back as they rotate, using their rolling momentum to carry you into position behind them. Keep your hips tight to their body and match their rotation speed so you arrive on their back as they complete the turn rather than falling behind. (Timing: During opponent's rotation)
-4. **Establish seatbelt grip**: As you arrive behind the opponent, immediately shoot your top arm over their shoulder and bottom arm under their far armpit to establish a seatbelt configuration. Lock your hands together with a gable grip or S-grip at their sternum. This grip prevents them from turning to face you. (Timing: As chest contacts opponent's back)
-5. **Insert first hook**: Thread your bottom-side leg inside opponent's thigh to establish your first back hook. The leg that was previously entangling their shoulder is often already in position to convert directly into a hook. Drive your heel into the crease of their hip to secure the hook depth. (Timing: Simultaneously with or immediately after seatbelt)
-6. **Insert second hook**: Bring your top-side leg over opponent's hip and thread it inside their opposite thigh to establish the second hook. Use your seatbelt grip to pull them into you as you insert the hook. Both heels should sit inside the hip crease with toes pointing outward for maximum retention. (Timing: Within 2-3 seconds of first hook)
-7. **Consolidate back control**: Angle your body slightly to the choking side with your back on the mat, pulling opponent's weight onto you. Tighten both hooks by squeezing your knees together, adjust seatbelt depth so your choking arm is across the neck line, and control their hip movement with your hooks to prevent escape. (Timing: Immediately after both hooks set)
+1. **Read opponent's escape**: Recognize opponent's defensive commitment by feeling their hip rotation or shoulder roll beginning. The moment they commit weight to rolling forward or turning away from shoulder pressure, begin the transition sequence rather than chasing the submission.
+2. **Release shoulder lock grip**: Release the submission grip on opponent's arm and shoulder complex while maintaining your leg contact on their body. Your hands must become free to establish new grips on the torso. Do not fully disengage your legs yet as they provide the initial connection during the transition.
+3. **Follow the roll**: Drive your chest forward into opponent's back as they rotate, using their rolling momentum to carry you into position behind them. Keep your hips tight to their body and match their rotation speed so you arrive on their back as they complete the turn rather than falling behind.
+4. **Establish seatbelt grip**: As you arrive behind the opponent, immediately shoot your top arm over their shoulder and bottom arm under their far armpit to establish a seatbelt configuration. Lock your hands together with a gable grip or S-grip at their sternum. This grip prevents them from turning to face you.
+5. **Insert first hook**: Thread your bottom-side leg inside opponent's thigh to establish your first back hook. The leg that was previously entangling their shoulder is often already in position to convert directly into a hook. Drive your heel into the crease of their hip to secure the hook depth.
+6. **Insert second hook**: Bring your top-side leg over opponent's hip and thread it inside their opposite thigh to establish the second hook. Use your seatbelt grip to pull them into you as you insert the hook. Both heels should sit inside the hip crease with toes pointing outward for maximum retention.
+7. **Consolidate back control**: Angle your body slightly to the choking side with your back on the mat, pulling opponent's weight onto you. Tighten both hooks by squeezing your knees together, adjust seatbelt depth so your choking arm is across the neck line, and control their hip movement with your hooks to prevent escape.
 
 
 </section>
@@ -263,19 +263,15 @@ This technique is particularly effective in no-gi competition where the absence 
 ## Training Progressions
 **Week 1-2** - Transition mechanics
 Drill the basic movement pattern from Aoki Lock top to back control with a cooperative partner. Focus on timing the grip release, following the roll, and establishing seatbelt. Partner rolls on command so you can build the muscle memory of riding the momentum. 15-20 repetitions per side per session.
-(Resistance: None)
 
 **Week 3-4** - Timing and reaction
 Partner chooses when to initiate the escape roll from Aoki Lock. You must read their movement and react with the back take transition. Introduce light resistance where partner tries to turtle tight after rolling. Focus on speed of seatbelt establishment and first hook insertion.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Combine Aoki Lock finish attempts with the back take transition. Start by threatening the shoulder lock, then transition when partner defends. Add back attack chains after securing control: rear naked choke, bow and arrow, armbar from back. Partner provides moderate resistance to all phases.
-(Resistance: Medium)
 
 **Week 7-8** - Decision making under pressure
 Full positional sparring starting from Aoki Lock top. Choose between finishing the submission and transitioning to back control based on opponent's defensive reactions. Partner uses full resistance and varied escape strategies. Track conversion rate to back control versus successful Aoki Lock finishes.
-(Resistance: Full)
 
 
 

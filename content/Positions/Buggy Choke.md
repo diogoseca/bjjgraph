@@ -229,7 +229,7 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 - **[[Truck]]** - Transition target when opponent attempts granby roll escapes from buggy choke control
 
-- **[[D'arce Control]]** - Switch option available when opponent turns into the buggy choke attack angle
+- **[[Darce Control]]** - Switch option available when opponent turns into the buggy choke attack angle
 
 - **[[Anaconda Control]]** - Related front headlock submission from similar turtle control configurations
 

@@ -157,7 +157,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and jugular veins
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -234,12 +234,12 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify Triangle Opening**: From mount, recognize when opponent creates a frame with their arm across your body or establishes an underhook. This defensive structure positions their arm perfectly across their own centerline, creating the triangle opportunity. Common triggers include opponent pushing your hip, framing against your chest, or attempting to create space for an elbow escape. (Timing: Recognition phase - 1-2 seconds) [Pressure: Light]
-2. **Control the Head and Trap the Arm**: Use your same-side hand to control opponent's head, pulling it forward and toward the side where you'll swing your leg. Simultaneously use your opposite hand to secure their framing arm, ensuring it stays across their centerline. This double control prevents them from pulling their arm back out and sets up the proper angle for the triangle. (Timing: 1-2 seconds) [Pressure: Moderate]
-3. **Swing Leg Over Shoulder**: Post your outside hand on the mat for base, then swing your leg (same side as trapped arm) over opponent's shoulder and behind their head. Your shin should land across the back of their neck with your knee pointed toward the ceiling. Maintain control of their head throughout this movement to prevent them from turning away or escaping their arm. (Timing: 1-2 seconds during transition) [Pressure: Light]
-4. **Lock the Triangle**: Bring your opposite leg across your shin, locking your ankle behind your knee to create the triangle lock. Your locked legs should create a tight circle around opponent's neck and their own trapped arm. Ensure their arm is fully isolated across their neck - if the arm slips out, the choke will be ineffective. Adjust your hips to close any gaps in the triangle. (Timing: 2-3 seconds to secure proper lock) [Pressure: Moderate]
-5. **Adjust Angle and Break Posture**: Pull opponent's head down while simultaneously angling your hips to the side (approximately 45 degrees from their centerline). This angle is crucial - it tightens the choke by creating proper compression on the carotid arteries. Use your hands to control their free arm and pull their head to close distance, eliminating any space between your legs and their neck. (Timing: 2-3 seconds for optimal positioning) [Pressure: Firm]
-6. **Apply Progressive Pressure**: Squeeze your knees together while pulling their head down with both hands. The choking pressure comes from the combination of your legs compressing their neck and their own trapped shoulder cutting off the opposite carotid artery. Apply pressure progressively over 3-5 seconds in training, monitoring partner's tap signals constantly. In competition, you can apply faster, but always control the finish. (Timing: 3-5 seconds progressive application in training) [Pressure: Maximum]
+1. **Identify Triangle Opening**: From mount, recognize when opponent creates a frame with their arm across your body or establishes an underhook. This defensive structure positions their arm perfectly across their own centerline, creating the triangle opportunity. Common triggers include opponent pushing your hip, framing against your chest, or attempting to create space for an elbow escape. (Timing: Recognition phase - 1-2 seconds)
+2. **Control the Head and Trap the Arm**: Use your same-side hand to control opponent's head, pulling it forward and toward the side where you'll swing your leg. Simultaneously use your opposite hand to secure their framing arm, ensuring it stays across their centerline. This double control prevents them from pulling their arm back out and sets up the proper angle for the triangle. (Timing: 1-2 seconds)
+3. **Swing Leg Over Shoulder**: Post your outside hand on the mat for base, then swing your leg (same side as trapped arm) over opponent's shoulder and behind their head. Your shin should land across the back of their neck with your knee pointed toward the ceiling. Maintain control of their head throughout this movement to prevent them from turning away or escaping their arm. (Timing: 1-2 seconds during transition)
+4. **Lock the Triangle**: Bring your opposite leg across your shin, locking your ankle behind your knee to create the triangle lock. Your locked legs should create a tight circle around opponent's neck and their own trapped arm. Ensure their arm is fully isolated across their neck - if the arm slips out, the choke will be ineffective. Adjust your hips to close any gaps in the triangle. (Timing: 2-3 seconds to secure proper lock)
+5. **Adjust Angle and Break Posture**: Pull opponent's head down while simultaneously angling your hips to the side (approximately 45 degrees from their centerline). This angle is crucial - it tightens the choke by creating proper compression on the carotid arteries. Use your hands to control their free arm and pull their head to close distance, eliminating any space between your legs and their neck. (Timing: 2-3 seconds for optimal positioning)
+6. **Apply Progressive Pressure**: Squeeze your knees together while pulling their head down with both hands. The choking pressure comes from the combination of your legs compressing their neck and their own trapped shoulder cutting off the opposite carotid artery. Apply pressure progressively over 3-5 seconds in training, monitoring partner's tap signals constantly. In competition, you can apply faster, but always control the finish. (Timing: 3-5 seconds progressive application in training)
 
 
 </section>
@@ -259,25 +259,25 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Swinging leg over too early before arm is secured [Low DANGER]
+- **Mistake**: Swinging leg over too early before arm is secured
   - **Consequence**: Opponent easily pulls their arm out and may escape mount entirely
   - **Correction**: Always establish firm control of both their head and arm before initiating the leg swing. The setup takes priority over speed.
-- **Mistake**: Locking triangle without proper angle adjustment [Low DANGER]
+- **Mistake**: Locking triangle without proper angle adjustment
   - **Consequence**: Choke is ineffective and opponent can breathe normally despite locked triangle
   - **Correction**: After locking, immediately angle your hips 45 degrees to the side and pull head down. The angle creates the choking pressure, not just the locked legs.
-- **Mistake**: Failing to break opponent's posture before applying pressure [Low DANGER]
+- **Mistake**: Failing to break opponent's posture before applying pressure
   - **Consequence**: Opponent maintains strong posture and can escape or resist the choke indefinitely
   - **Correction**: Use both hands to pull head down aggressively while extending your hips. Posture must be broken for the choke to work effectively.
-- **Mistake**: Releasing mount control completely during transition [Medium DANGER]
+- **Mistake**: Releasing mount control completely during transition
   - **Consequence**: Opponent escapes to better position and triangle opportunity is lost
   - **Correction**: Maintain weight distribution and control until triangle is fully locked. Don't abandon mount until the new control structure is established.
-- **Mistake**: Applying maximum pressure immediately without progression [CRITICAL DANGER]
+- **Mistake**: Applying maximum pressure immediately without progression
   - **Consequence**: Partner cannot tap safely and risks injury or unconsciousness
   - **Correction**: CRITICAL SAFETY ERROR - Always apply pressure progressively over 3-5 seconds in training, monitoring tap signals constantly. Blood chokes work fast - control your application speed.
-- **Mistake**: Holding the choke after tap signal or partner going limp [CRITICAL DANGER]
+- **Mistake**: Holding the choke after tap signal or partner going limp
   - **Consequence**: Severe injury risk including unconsciousness, potential brain damage from prolonged oxygen deprivation
   - **Correction**: CRITICAL SAFETY ERROR - Release immediately upon any tap signal or loss of resistance. Monitor partner for 10-15 seconds after release. Never test how long someone can last.
-- **Mistake**: Forcing triangle when opponent's arm position is not ideal [Low DANGER]
+- **Mistake**: Forcing triangle when opponent's arm position is not ideal
   - **Consequence**: Ineffective submission attempt that wastes energy and potentially loses mount
   - **Correction**: Be patient and wait for proper arm position. If setup isn't clean, maintain mount and look for different attacks. Quality over speed.
 
@@ -342,43 +342,6 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (2 weeks, 3-4 sessions per week)
-- Focus: Understanding anatomy, mechanics, and safety protocols without live application. Study the position from demonstration and slow-motion video. Practice leg positioning and angle concepts on grappling dummy or with partner offering zero resistance.
-- Resistance: Zero resistance
-- Safety: Learn all tap signals, release protocol, and why blood chokes work. Understand the difference between training and competition application speed. Never apply any pressure during this phase.
-
-**Isolated Drilling (Weeks 3-4)** (2 weeks, 4-5 sessions per week)
-- Focus: Repetition of entry sequence from mount with cooperative partner. Focus on arm isolation, leg swing timing, and triangle lock mechanics. Partner offers positioning but no resistance to submission. Practice release protocol after every repetition.
-- Resistance: Zero resistance
-- Safety: Establish communication protocols with partner about pressure levels. Maximum 20-30% pressure when testing lock structure. Practice progressive pressure application: 0% → 10% → 20% → 30% over 5 seconds, then release.
-
-**Progressive Resistance (Weeks 5-8)** (4 weeks, 4-5 sessions per week)
-- Focus: Partner begins offering mild resistance to entry but allows the lock if executed properly. Focus on maintaining mount control during transition and troubleshooting common defensive reactions. Increase pressure to 40-50% maximum when lock is clean.
-- Resistance: Mild resistance
-- Safety: Partner must tap early and often - tap when feeling any discomfort or pressure, not when fully locked. Practice recognizing when lock isn't clean and resetting rather than forcing. Communicate constantly about pressure levels.
-
-**Realistic Resistance (Weeks 9-12)** (4 weeks, 5 sessions per week)
-- Focus: Partner offers realistic defense including posturing, arm retrieval, and escape attempts. Learn to recognize when triangle opportunity is genuine vs forcing it. Begin integrating with other mount attacks (americana, armbar, arm triangle). Apply up to 60-70% pressure on clean submissions.
-- Resistance: Realistic resistance
-- Safety: Tap early is still the protocol - better to tap to a developing submission than risk injury. If receiving the triangle, tap before feeling lightheaded or experiencing vision changes. If applying, watch for partner's color changes or decreased resistance.
-
-**Live Integration (Weeks 13+)** (Ongoing advanced training)
-- Focus: Apply triangle from mount during live sparring rounds, integrating it naturally with your mount game. Develop sensitivity for recognizing setup opportunities in real-time. Chain with other submissions based on opponent's reactions. Maintain 70-80% pressure maximum in training.
-- Resistance: Full resistance
-- Safety: Always maintain training application speed (3-5 seconds progressive pressure) even during competition-pace rolling. If partner doesn't tap quickly, assume your technique needs refinement rather than applying more pressure. Reserve 100% pressure for competition only.
-
-**Ongoing Mastery and Safety Culture** (Continuous practice)
-- Focus: Refine timing, recognize subtle setup opportunities, develop triangle game as part of complete mount system. Teach technique to less experienced students, reinforcing safety protocols. Video review your applications to ensure proper mechanics and safety standards.
-- Resistance: Full resistance
-- Safety: As you become proficient, heightened responsibility for partner safety. Release instantly on any tap, monitor newer partners extra carefully, never use them to demonstrate full pressure. Model proper safety culture for entire gym. Review any training incidents immediately to improve protocols.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -427,6 +390,7 @@ The Triangle from Mount represents an advanced finishing sequence that combines 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

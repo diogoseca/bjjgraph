@@ -21,19 +21,19 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 25% of exchanges from this position.",
+      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 24% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back with Legs",
-      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 8% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back with Legs. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
@@ -211,11 +211,11 @@ The attacking methodology from back control follows a layered approach. First, e
 
 ## Available Attacks
 
-### [[Rear Naked Choke]] (25% of attempts)
+### [[Rear Naked Choke]] (24% of attempts)
 
-### [[Armbar from Back with Legs]] (8% of attempts)
+### [[Armbar from Back with Legs]] (9% of attempts)
 
-### [[Bow and Arrow Choke]] (15% of attempts)
+### [[Bow and Arrow Choke]] (14% of attempts)
 
 ### [[Back Control to Crucifix]] (10% of attempts)
 
@@ -223,7 +223,7 @@ The attacking methodology from back control follows a layered approach. First, e
 
 ### [[Body Triangle Lock]] (10% of attempts)
 
-### [[Choke from Crucifix]] (5% of attempts)
+### [[Choke from Crucifix]] (6% of attempts)
 
 ### [[Back Control Maintenance]] (20% of attempts)
 
@@ -344,11 +344,11 @@ Partner works specific escape sequences while you practice countering escapes an
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 40% | 35% |
-| Intermediate | 75% | 55% | 50% |
-| Advanced     | 85% | 70% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 62% |
+| Submission Probability | 58% |
 
 **Average Time in Position**: 45-90 seconds before submission attempt or position change
 

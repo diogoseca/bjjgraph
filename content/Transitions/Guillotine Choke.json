@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Guillotine Choke is a high-percentage front headlock submission that attacks the trachea and carotid arteries through compression of the forearm against the front of the opponent's neck. This technique represents one of the most fundamental chokes in Brazilian Jiu-Jitsu, appearing across all grappling contexts from standing clinch exchanges to ground-based guard scenarios. The guillotine's effectiveness stems from its mechanical simplicity—once proper grip depth is achieved and the finishing angle established, the choke applies rapidly escalating pressure that forces either tap or unconsciousness within seconds.\n\nFrom Guillotine Control Bottom, the finish requires precise coordination between upper body compression and lower body control. The choking arm must maintain constant inward pressure while the legs work to break the opponent's posture and prevent escape. The critical distinction between a controlled guillotine position and a finishing guillotine lies in the activation of the hips and the elevation of the choking elbow. Without proper hip engagement, even a deep grip will stall against a determined defender. The finish demands that you treat the choke as a full-body movement rather than an arm-only squeeze.\n\nStrategically, the Guillotine Choke creates a powerful dilemma for defenders: protecting the neck requires postural adjustments that often open sweep opportunities, while defending the sweep exposes the neck to tighter finishing pressure. This binary trap makes the guillotine particularly effective when integrated into a systematic guard attack framework that chains submissions with positional improvements.",
   "key_principles": [
     "Achieve blade-of-wrist contact across the front of the throat before clasping hands to ensure optimal compression angle on trachea and carotid structures",
@@ -53,44 +48,37 @@
     {
       "step_number": 1,
       "action": "Verify grip depth",
-      "description": "Confirm the blade of your choking wrist crosses directly over the front of the opponent's throat, with your forearm contacting the trachea and carotid structures. If grip is shallow (across jaw or chin), adjust by pulling the head deeper before proceeding.",
-      "timing": "Before initiating finish sequence"
+      "description": "Confirm the blade of your choking wrist crosses directly over the front of the opponent's throat, with your forearm contacting the trachea and carotid structures. If grip is shallow (across jaw or chin), adjust by pulling the head deeper before proceeding."
     },
     {
       "step_number": 2,
       "action": "Secure hand clasp",
-      "description": "Connect your hands using a gable grip (palm-to-palm), S-grip, or figure-four configuration behind the opponent's head. Ensure the grip is tight with no slack—your non-choking hand should pull the choking wrist firmly into the neck.",
-      "timing": "Immediately after verifying depth"
+      "description": "Connect your hands using a gable grip (palm-to-palm), S-grip, or figure-four configuration behind the opponent's head. Ensure the grip is tight with no slack—your non-choking hand should pull the choking wrist firmly into the neck."
     },
     {
       "step_number": 3,
       "action": "Close guard high",
-      "description": "Lock your legs in closed guard positioned high on the opponent's back, near their shoulders. This positioning prevents them from posturing up or driving forward. Pull your heels toward your glutes to compress their upper body downward.",
-      "timing": "Concurrent with grip establishment"
+      "description": "Lock your legs in closed guard positioned high on the opponent's back, near their shoulders. This positioning prevents them from posturing up or driving forward. Pull your heels toward your glutes to compress their upper body downward."
     },
     {
       "step_number": 4,
       "action": "Angle hips toward choking side",
-      "description": "Hip escape slightly toward the side of your choking arm while maintaining guard lock. This angle creates a fulcrum effect that dramatically increases choking pressure without requiring additional arm strength. Your hip becomes the lever point.",
-      "timing": "As you begin finish sequence"
+      "description": "Hip escape slightly toward the side of your choking arm while maintaining guard lock. This angle creates a fulcrum effect that dramatically increases choking pressure without requiring additional arm strength. Your hip becomes the lever point."
     },
     {
       "step_number": 5,
       "action": "Elevate choking elbow",
-      "description": "Drive your choking elbow toward the ceiling while keeping it tight to your ribs. This motion lifts the forearm into the throat structures and closes the choking angle. Think of pointing your elbow at a spot on the ceiling above the opponent's far shoulder.",
-      "timing": "Primary finishing action"
+      "description": "Drive your choking elbow toward the ceiling while keeping it tight to your ribs. This motion lifts the forearm into the throat structures and closes the choking angle. Think of pointing your elbow at a spot on the ceiling above the opponent's far shoulder."
     },
     {
       "step_number": 6,
       "action": "Pull head down and curl",
-      "description": "Simultaneously pull the opponent's head down toward your chest using your clasped hands while curling your choking arm upward. This creates compression from two directions—head going down, forearm coming up—completing the choke mechanism.",
-      "timing": "Final finishing pressure"
+      "description": "Simultaneously pull the opponent's head down toward your chest using your clasped hands while curling your choking arm upward. This creates compression from two directions—head going down, forearm coming up—completing the choke mechanism."
     },
     {
       "step_number": 7,
       "action": "Bridge and squeeze",
-      "description": "Bridge your hips upward into the opponent while maintaining the curling pressure. This bridge amplifies the compression and prevents them from creating any space. Hold the position until you feel the tap or the opponent goes limp.",
-      "timing": "Sustain until submission"
+      "description": "Bridge your hips upward into the opponent while maintaining the curling pressure. This bridge amplifies the compression and prevents them from creating any space. Hold the position until you feel the tap or the opponent goes limp."
     }
   ],
   "common_counters": [
@@ -156,26 +144,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and depth",
-      "description": "Practice establishing proper guillotine grip depth from various entries (sprawl, guard pull, shot defense). Focus on wrist blade placement and hand clasp configurations. Partner remains static, allowing you to find correct positioning repeatedly.",
-      "resistance_level": "None"
+      "description": "Practice establishing proper guillotine grip depth from various entries (sprawl, guard pull, shot defense). Focus on wrist blade placement and hand clasp configurations. Partner remains static, allowing you to find correct positioning repeatedly."
     },
     {
       "phase": "Week 3-4",
       "focus": "Finishing angle and hip engagement",
-      "description": "With grip established, practice the finishing sequence: angling hips, elevating elbow, pulling head down, and bridging. Partner provides light postural resistance to help you understand proper leverage and timing of each component.",
-      "resistance_level": "Light"
+      "description": "With grip established, practice the finishing sequence: angling hips, elevating elbow, pulling head down, and bridging. Partner provides light postural resistance to help you understand proper leverage and timing of each component."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter recognition and adjustment",
-      "description": "Partner begins using specific defenses (posturing, driving forward, chin tuck, turning). Practice recognizing each defense and applying appropriate counter-technique or transitioning to alternative attacks. Develop pattern recognition for defensive tells.",
-      "resistance_level": "Medium"
+      "description": "Partner begins using specific defenses (posturing, driving forward, chin tuck, turning). Practice recognizing each defense and applying appropriate counter-technique or transitioning to alternative attacks. Develop pattern recognition for defensive tells."
     },
     {
       "phase": "Week 7+",
       "focus": "Live integration and timing",
-      "description": "Positional sparring starting from guillotine control. Win by submission or sweep; opponent wins by escape or pass. Full resistance with focus on reading opponent's reactions in real-time and selecting appropriate finishing path or transition.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting from guillotine control. Win by submission or sweep; opponent wins by escape or pass. Full resistance with focus on reading opponent's reactions in real-time and selecting appropriate finishing path or transition."
     }
   ],
   "variants_and_adaptations": [
@@ -203,53 +187,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the optimal wrist position for maximum choking pressure in the guillotine?",
-      "answer": "The blade of the wrist (radial bone side of the forearm) should cross directly over the front of the throat at approximately Adam's apple level. This positioning compresses both the trachea and carotid arteries simultaneously. If the wrist is too high (across chin), there's no airway compression; too low (across chest), there's no blood choke. The hand should wrap around to clasp behind the head, creating a closed loop.",
-      "difficulty": "Beginner"
+      "answer": "The blade of the wrist (radial bone side of the forearm) should cross directly over the front of the throat at approximately Adam's apple level. This positioning compresses both the trachea and carotid arteries simultaneously. If the wrist is too high (across chin), there's no airway compression; too low (across chest), there's no blood choke. The hand should wrap around to clasp behind the head, creating a closed loop."
     },
     {
       "question": "Your opponent begins posturing up during your guillotine finish—how do you adjust?",
-      "answer": "Immediately tighten closed guard by pulling heels toward your glutes to break their posture before they can fully extend. If they continue posturing, use the upward momentum to execute a hip bump sweep to mount while maintaining the guillotine grip. Alternatively, transition to high elbow variation which is more effective against postured opponents. Never allow full posture—address it immediately when it begins.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately tighten closed guard by pulling heels toward your glutes to break their posture before they can fully extend. If they continue posturing, use the upward momentum to execute a hip bump sweep to mount while maintaining the guillotine grip. Alternatively, transition to high elbow variation which is more effective against postured opponents. Never allow full posture—address it immediately when it begins."
     },
     {
       "question": "Why is hip angle critical to guillotine finishing pressure?",
-      "answer": "Angling your hips toward the choking side creates a fulcrum effect that amplifies pressure without requiring additional arm strength. Your hip becomes a lever point that the opponent's neck compresses against. This skeletal leverage allows you to maintain finishing pressure indefinitely rather than relying on bicep endurance. Without hip angle, you're muscling the choke and will fatigue before the opponent taps.",
-      "difficulty": "Intermediate"
+      "answer": "Angling your hips toward the choking side creates a fulcrum effect that amplifies pressure without requiring additional arm strength. Your hip becomes a lever point that the opponent's neck compresses against. This skeletal leverage allows you to maintain finishing pressure indefinitely rather than relying on bicep endurance. Without hip angle, you're muscling the choke and will fatigue before the opponent taps."
     },
     {
       "question": "What is the Von Flue choke counter and how do you prevent it?",
-      "answer": "The Von Flue choke occurs when an opponent passes your guard while you maintain a guillotine grip, then applies shoulder pressure into your choking arm while in side control—your own arm chokes you. Prevention is simple: never hold a guillotine from bottom side control. If opponent begins passing, either commit fully to the finish before they complete the pass, or release the guillotine and address the guard pass. Guard retention is paramount.",
-      "difficulty": "Intermediate"
+      "answer": "The Von Flue choke occurs when an opponent passes your guard while you maintain a guillotine grip, then applies shoulder pressure into your choking arm while in side control—your own arm chokes you. Prevention is simple: never hold a guillotine from bottom side control. If opponent begins passing, either commit fully to the finish before they complete the pass, or release the guillotine and address the guard pass. Guard retention is paramount."
     },
     {
       "question": "How does the arm-in guillotine differ mechanically from the standard guillotine?",
-      "answer": "In the arm-in variation, the opponent's arm is trapped inside the choking loop, pressing against their own carotid. This uses their arm as an additional compression tool. Mechanically, you angle slightly toward the trapped arm side and apply finishing pressure at a diagonal rather than straight back. The arm-in is often more secure against hand fighting since the trapped arm can't effectively peel your grip.",
-      "difficulty": "Intermediate"
+      "answer": "In the arm-in variation, the opponent's arm is trapped inside the choking loop, pressing against their own carotid. This uses their arm as an additional compression tool. Mechanically, you angle slightly toward the trapped arm side and apply finishing pressure at a diagonal rather than straight back. The arm-in is often more secure against hand fighting since the trapped arm can't effectively peel your grip."
     },
     {
       "question": "Your opponent successfully tucks their chin firmly against the choke—what are your options?",
-      "answer": "Three primary options: First, transition to high elbow guillotine which attacks behind the chin by driving your elbow toward the ceiling and sliding the forearm behind the jaw. Second, maintain guillotine control and use the threat to set up sweeps like the hip bump, since their chin-tuck posture often compromises their base. Third, recognize that their defensive focus on the neck exposes them to triangle or omoplata transitions as their arms position changes.",
-      "difficulty": "Advanced"
+      "answer": "Three primary options: First, transition to high elbow guillotine which attacks behind the chin by driving your elbow toward the ceiling and sliding the forearm behind the jaw. Second, maintain guillotine control and use the threat to set up sweeps like the hip bump, since their chin-tuck posture often compromises their base. Third, recognize that their defensive focus on the neck exposes them to triangle or omoplata transitions as their arms position changes."
     },
     {
       "question": "What grip configuration provides the tightest finish and why?",
-      "answer": "The gable grip (palm-to-palm) generally provides the tightest finish because it creates a rigid connection that eliminates slack. The S-grip works well for those with smaller hands. The ten-finger interlock can provide sustained pressure but is slightly less secure against grip breaks. For maximum finishing pressure, the gable grip with the non-choking hand pulling the choking wrist firmly into the neck creates the strongest closed-loop compression.",
-      "difficulty": "Beginner"
+      "answer": "The gable grip (palm-to-palm) generally provides the tightest finish because it creates a rigid connection that eliminates slack. The S-grip works well for those with smaller hands. The ten-finger interlock can provide sustained pressure but is slightly less secure against grip breaks. For maximum finishing pressure, the gable grip with the non-choking hand pulling the choking wrist firmly into the neck creates the strongest closed-loop compression."
     },
     {
       "question": "When should you release a guillotine attempt versus commit fully to the finish?",
-      "answer": "Release when: opponent has successfully passed your guard or is about to complete a pass (Von Flue danger), your grip has significantly degraded and cannot be re-secured, or you've expended significant energy without progress and better opportunities exist. Commit fully when: you have deep grip with proper angle, opponent's posture is broken and you control their hips with guard, or their defense has opened superior finishing angle. The key metric is whether guard retention is compromised—never hold guillotine from bottom side control.",
-      "difficulty": "Advanced"
+      "answer": "Release when: opponent has successfully passed your guard or is about to complete a pass (Von Flue danger), your grip has significantly degraded and cannot be re-secured, or you've expended significant energy without progress and better opportunities exist. Commit fully when: you have deep grip with proper angle, opponent's posture is broken and you control their hips with guard, or their defense has opened superior finishing angle. The key metric is whether guard retention is compromised—never hold guillotine from bottom side control."
     },
     {
       "question": "How do you chain the guillotine with sweeps when the finish is defended?",
-      "answer": "When opponent defends by driving forward, use their committed weight for a hip bump sweep to mount while maintaining guillotine grip—you may finish from top mount. When they posture to defend, the weight shift backward opens scissor sweep opportunities. When they turn to relieve carotid pressure, the rotation exposes them to technical standup and back take. The guillotine threat forces binary choices that all lead to your improvement.",
-      "difficulty": "Advanced"
+      "answer": "When opponent defends by driving forward, use their committed weight for a hip bump sweep to mount while maintaining guillotine grip—you may finish from top mount. When they posture to defend, the weight shift backward opens scissor sweep opportunities. When they turn to relieve carotid pressure, the rotation exposes them to technical standup and back take. The guillotine threat forces binary choices that all lead to your improvement."
     },
     {
       "question": "What leg position provides the most effective finishing platform from bottom?",
-      "answer": "High closed guard with legs positioned near the opponent's shoulders provides the optimal platform. This positioning breaks posture effectively, prevents escape, controls their hip movement, and creates a stable base for generating choking pressure through bridging. The one-leg-up variation (same side as choking arm elevated, opposite leg controlling hip) offers excellent finishing angle for the high elbow variation specifically.",
-      "difficulty": "Intermediate"
+      "answer": "High closed guard with legs positioned near the opponent's shoulders provides the optimal platform. This positioning breaks posture effectively, prevents escape, controls their hip movement, and creates a stable base for generating choking pressure through bridging. The one-leg-up variation (same side as choking arm elevated, opposite leg controlling hip) offers excellent finishing angle for the high elbow variation specifically."
     }
   ],
   "safety_considerations": "The Guillotine Choke is a blood choke targeting the carotid arteries and a compression choke affecting the trachea—both mechanisms can cause rapid unconsciousness (within 5-10 seconds of proper application) and potential injury if held after the tap. Always release immediately when your partner taps, regardless of how close you feel to finishing. During training, apply progressive pressure rather than explosive cranking. Partners should tap early when caught in deep positions rather than fighting to the point of unconsciousness. Watch for signs of distress including color change in face, cessation of defensive movement, or unusual sounds. When drilling, establish clear communication protocols. The guillotine can cause tracheal damage if excessive forward pressure is applied with poor technique—focus on proper angle and compression mechanics rather than crushing force. Never apply the guillotine in anger or continue after a tap as cervical spine injuries and unconsciousness are real risks.",
@@ -295,5 +269,6 @@
       "name": "Mount",
       "relationship": "Position achieved after hip bump sweep with guillotine"
     }
-  ]
+  ],
+  "success_rate": 58
 }

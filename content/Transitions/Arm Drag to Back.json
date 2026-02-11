@@ -10,11 +10,6 @@
     "wrestling",
     "position-advancement"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Arm Drag to Back is a fundamental and highly effective technique for advancing position from various guard positions to the dominant back control. This technique involves controlling the opponent's arm and using it as a lever to move past their defensive frame while simultaneously rotating behind them. The arm drag is one of the most versatile techniques in Brazilian Jiu-Jitsu, applicable from standing, seated guard, butterfly guard, and many other positions. Its effectiveness lies in the ability to bypass the opponent's defensive structure without having to break through their guard or pass directly, instead using their own arm against them to create a pathway to the back. The arm drag represents a fundamental principle in grappling: using the opponent's limbs as handles to manipulate their body position. When executed properly, the arm drag creates a cascading sequence of positional advantages. First, it removes one of the opponent's posting hands, compromising their base. Second, it creates an angle that makes it difficult for them to defend against the back take. Third, it positions you perpendicular to their body, giving you leverage advantages. The technique requires precise timing, grip control, and hip movement to execute successfully. Against skilled opponents, the arm drag must be set up carefully, often requiring feints, grip fighting, or combination attacks to create the opening needed for successful execution.",
   "key_principles": [
     "Control the opponent's wrist and triceps simultaneously for maximum leverage",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Establish double grip control",
-      "description": "Secure a same-side wrist grip with your right hand on opponent's right wrist, palm facing down with four fingers wrapped around their wrist. Simultaneously grip their right triceps or lat with your left hand, creating a frame that will allow you to pull their arm across your body. Your grips should be tight but not telegraphing your intention to drag.",
-      "timing": "Setup phase - establish before opponent recognizes threat"
+      "description": "Secure a same-side wrist grip with your right hand on opponent's right wrist, palm facing down with four fingers wrapped around their wrist. Simultaneously grip their right triceps or lat with your left hand, creating a frame that will allow you to pull their arm across your body. Your grips should be tight but not telegraphing your intention to drag."
     },
     {
       "step_number": 2,
       "action": "Pull arm across centerline",
-      "description": "Explosively pull the opponent's wrist across your body toward your left hip while your left hand pushes their triceps in the same direction. The motion should be diagonal, bringing their arm across their own centerline. This removes their posting base on that side and begins to turn their shoulders away from you.",
-      "timing": "Initiation - coordinate with opponent's forward pressure"
+      "description": "Explosively pull the opponent's wrist across your body toward your left hip while your left hand pushes their triceps in the same direction. The motion should be diagonal, bringing their arm across their own centerline. This removes their posting base on that side and begins to turn their shoulders away from you."
     },
     {
       "step_number": 3,
       "action": "Hip escape and angle creation",
-      "description": "As you drag the arm, simultaneously hip escape away from the dragged arm (to your left if dragging their right arm). This creates the crucial angle that allows you to move perpendicular to their body rather than remaining directly in front of them. Your hips should move explosively, creating space between you and opponent.",
-      "timing": "Simultaneous with arm drag - critical for creating angle"
+      "description": "As you drag the arm, simultaneously hip escape away from the dragged arm (to your left if dragging their right arm). This creates the crucial angle that allows you to move perpendicular to their body rather than remaining directly in front of them. Your hips should move explosively, creating space between you and opponent."
     },
     {
       "step_number": 4,
       "action": "Transition to perpendicular position",
-      "description": "Continue rotating your hips while maintaining control of the dragged arm until you achieve a perpendicular angle to opponent's torso. Your chest should now be facing their side ribs rather than their chest. Post your outside hand on the mat for base if needed, but maintain wrist control with your dragging hand.",
-      "timing": "Follow-through - maintain momentum from initial drag"
+      "description": "Continue rotating your hips while maintaining control of the dragged arm until you achieve a perpendicular angle to opponent's torso. Your chest should now be facing their side ribs rather than their chest. Post your outside hand on the mat for base if needed, but maintain wrist control with your dragging hand."
     },
     {
       "step_number": 5,
       "action": "Circle to back position",
-      "description": "Release the triceps grip and use that hand to reach around opponent's back, establishing an underhook while maintaining wrist control. Circle your body behind theirs by continuing your rotational movement. Your head should stay glued to their ribs/back to prevent them from turning into you. Move your legs to assist the rotation - if in butterfly, walk your hooks behind; if seated, use posts.",
-      "timing": "Transition phase - continuous motion prevents recovery"
+      "description": "Release the triceps grip and use that hand to reach around opponent's back, establishing an underhook while maintaining wrist control. Circle your body behind theirs by continuing your rotational movement. Your head should stay glued to their ribs/back to prevent them from turning into you. Move your legs to assist the rotation - if in butterfly, walk your hooks behind; if seated, use posts."
     },
     {
       "step_number": 6,
       "action": "Secure seat belt control",
-      "description": "As you complete the rotation to their back, release the wrist control and immediately secure a seat belt grip (one arm over shoulder, one arm under armpit, hands clasped together). Get your hooks in by inserting your feet inside their thighs. Flatten them forward by pulling back on your grips while driving your chest into their back.",
-      "timing": "Completion - establish dominant position before opponent recovers"
+      "description": "As you complete the rotation to their back, release the wrist control and immediately secure a seat belt grip (one arm over shoulder, one arm under armpit, hands clasped together). Get your hooks in by inserting your feet inside their thighs. Flatten them forward by pulling back on your grips while driving your chest into their back."
     },
     {
       "step_number": 7,
       "action": "Consolidate back control",
-      "description": "Adjust your hooks if needed, ensuring they are deep with heels pulling toward their centerline. Tighten your seat belt grip, pulling their shoulders back into your chest. Establish head position over their shoulder on the choking side. Begin attacking with submissions or work to flatten them completely.",
-      "timing": "Stabilization - secure position before advancing to submissions"
+      "description": "Adjust your hooks if needed, ensuring they are deep with heels pulling toward their centerline. Tighten your seat belt grip, pulling their shoulders back into your chest. Establish head position over their shoulder on the choking side. Begin attacking with submissions or work to flatten them completely."
     }
   ],
   "common_counters": [
@@ -146,38 +134,32 @@
     {
       "phase": "Week 1-2: Isolated Movement Pattern",
       "focus": "Grip mechanics and hip escape coordination",
-      "description": "Partner remains static while you practice establishing grips, pulling arm across body, and hip escaping away from dragged arm. Focus on coordinating upper body drag with lower body hip escape as one motion. Practice from both seated and butterfly positions. Drill 20 repetitions each side, emphasizing smooth coordination. Partner provides light resistance to grips but doesn't actively counter.",
-      "resistance_level": "None"
+      "description": "Partner remains static while you practice establishing grips, pulling arm across body, and hip escaping away from dragged arm. Focus on coordinating upper body drag with lower body hip escape as one motion. Practice from both seated and butterfly positions. Drill 20 repetitions each side, emphasizing smooth coordination. Partner provides light resistance to grips but doesn't actively counter."
     },
     {
       "phase": "Week 3-4: Angle Creation and Rotation",
       "focus": "Complete rotation to back position",
-      "description": "Partner remains passive but maintains base. Practice the full sequence from grip establishment through achieving perpendicular angle and circling to back position. Focus on maintaining head position tight to opponent's body and continuous circular movement. Drill 15 repetitions each side, working on speed and fluidity. Partner begins to make minor defensive movements like posting far hand.",
-      "resistance_level": "Light"
+      "description": "Partner remains passive but maintains base. Practice the full sequence from grip establishment through achieving perpendicular angle and circling to back position. Focus on maintaining head position tight to opponent's body and continuous circular movement. Drill 15 repetitions each side, working on speed and fluidity. Partner begins to make minor defensive movements like posting far hand."
     },
     {
       "phase": "Week 5-8: Adding Resistance and Counters",
       "focus": "Dealing with common defensive reactions",
-      "description": "Partner provides realistic resistance including whizzer attempts, sprawling, and posting. Practice recognizing and countering each defensive reaction. Work on maintaining momentum when countered and adapting to different defensive responses. Drill 10 repetitions each side with partner alternating between different counters. Begin timing arm drags against partner's forward pressure.",
-      "resistance_level": "Medium"
+      "description": "Partner provides realistic resistance including whizzer attempts, sprawling, and posting. Practice recognizing and countering each defensive reaction. Work on maintaining momentum when countered and adapting to different defensive responses. Drill 10 repetitions each side with partner alternating between different counters. Begin timing arm drags against partner's forward pressure."
     },
     {
       "phase": "Week 9-12: Positional Integration",
       "focus": "Setting up arm drag from various positions and following through to back control",
-      "description": "Practice arm drag from standing, seated guard, butterfly guard, and half guard positions. Work on grip fighting sequences that lead to arm drag opportunities. Once achieving back position, practice securing hooks and seat belt control under resistance. Include 5-minute positional sparring rounds starting from guard positions with goal of achieving arm drag to back.",
-      "resistance_level": "Medium"
+      "description": "Practice arm drag from standing, seated guard, butterfly guard, and half guard positions. Work on grip fighting sequences that lead to arm drag opportunities. Once achieving back position, practice securing hooks and seat belt control under resistance. Include 5-minute positional sparring rounds starting from guard positions with goal of achieving arm drag to back."
     },
     {
       "phase": "Week 13-16: Competition Simulation",
       "focus": "Arm drag entries in dynamic scenarios",
-      "description": "Full resistance positional sparring from various guard positions. Partner actively defends arm drag attempts and counters. Practice setting up arm drags with feints, grips breaks, and combination attacks. Work on recognizing optimal timing windows during live rolling. Include conditioning component - multiple back-to-back attempts with fresh partners.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring from various guard positions. Partner actively defends arm drag attempts and counters. Practice setting up arm drags with feints, grips breaks, and combination attacks. Work on recognizing optimal timing windows during live rolling. Include conditioning component - multiple back-to-back attempts with fresh partners."
     },
     {
       "phase": "Ongoing Refinement",
       "focus": "Advanced variations and chain sequences",
-      "description": "Develop arm drag as part of larger attack system. Chain with other back takes, sweeps, and guard passes. Work on arm drag variations from different grips (collar drag, lat drag, etc.). Study high-level competition footage and identify setup patterns. Continue drilling basics 5-10 repetitions before each training session to maintain sharp mechanics.",
-      "resistance_level": "Full"
+      "description": "Develop arm drag as part of larger attack system. Chain with other back takes, sweeps, and guard passes. Work on arm drag variations from different grips (collar drag, lat drag, etc.). Study high-level competition footage and identify setup patterns. Continue drilling basics 5-10 repetitions before each training session to maintain sharp mechanics."
     }
   ],
   "variants_and_adaptations": [
@@ -210,38 +192,31 @@
   "knowledge_assessment": [
     {
       "question": "Why is it critical to coordinate the arm drag with hip movement rather than just pulling the arm?",
-      "answer": "The hip movement away from the dragged arm creates the angle necessary to move perpendicular to opponent's body. Without this angle creation, you remain directly in front of the opponent where they can easily recover or counter. The hip escape also generates the momentum needed to circle behind them - it's the engine that drives the rotation. Additionally, the hip movement helps you avoid being pulled into their guard if they counter by sitting back.",
-      "difficulty": "Intermediate"
+      "answer": "The hip movement away from the dragged arm creates the angle necessary to move perpendicular to opponent's body. Without this angle creation, you remain directly in front of the opponent where they can easily recover or counter. The hip escape also generates the momentum needed to circle behind them - it's the engine that drives the rotation. Additionally, the hip movement helps you avoid being pulled into their guard if they counter by sitting back."
     },
     {
       "question": "What is the most important factor in maintaining control throughout the arm drag sequence?",
-      "answer": "Continuous momentum and movement without pausing. The arm drag must flow as one uninterrupted motion from initial grip through back control. Any pause allows opponent time to post, recover their arm, or counter. This continuous motion prevents defensive reactions from being effective because opponent is always playing catch-up to your position changes. Head position glued to opponent's body is also critical for preventing them from turning into you during rotation.",
-      "difficulty": "Advanced"
+      "answer": "Continuous momentum and movement without pausing. The arm drag must flow as one uninterrupted motion from initial grip through back control. Any pause allows opponent time to post, recover their arm, or counter. This continuous motion prevents defensive reactions from being effective because opponent is always playing catch-up to your position changes. Head position glued to opponent's body is also critical for preventing them from turning into you during rotation."
     },
     {
       "question": "How should you respond if opponent whizzers your dragging arm?",
-      "answer": "The whizzer actually creates new opportunities rather than shutting down the attack. Switch to a duck under by diving under their whizzer arm to access the opposite side back take. Alternatively, if they whizzer high, use your butterfly hooks to elevate them off their base - their whizzer commits their weight forward which makes them easier to sweep. The key is not fighting against the whizzer but using it as leverage for alternative attacks.",
-      "difficulty": "Advanced"
+      "answer": "The whizzer actually creates new opportunities rather than shutting down the attack. Switch to a duck under by diving under their whizzer arm to access the opposite side back take. Alternatively, if they whizzer high, use your butterfly hooks to elevate them off their base - their whizzer commits their weight forward which makes them easier to sweep. The key is not fighting against the whizzer but using it as leverage for alternative attacks."
     },
     {
       "question": "What is the difference between dragging the arm straight back versus across your body?",
-      "answer": "Dragging straight back creates a pulling contest where opponent can resist with strength and doesn't compromise their structure. Dragging across your body (toward opposite hip) crosses their centerline, which turns their shoulders and eliminates their ability to post on that side. The diagonal drag uses mechanical advantage and body rotation rather than strength, making it effective even against larger opponents. It also creates the angle needed to circle behind them.",
-      "difficulty": "Beginner"
+      "answer": "Dragging straight back creates a pulling contest where opponent can resist with strength and doesn't compromise their structure. Dragging across your body (toward opposite hip) crosses their centerline, which turns their shoulders and eliminates their ability to post on that side. The diagonal drag uses mechanical advantage and body rotation rather than strength, making it effective even against larger opponents. It also creates the angle needed to circle behind them."
     },
     {
       "question": "Why is head position critical during the rotation to back position?",
-      "answer": "Your head acts as a pressure point and blocking mechanism against their ribs or back. This prevents opponent from turning into you during the rotation, which would eliminate your angle advantage and potentially put you back in their guard. Keeping your head tight to their body also helps you track their movement and maintain connection throughout the transition. If your head comes away from their body, they can use that space to turn and face you.",
-      "difficulty": "Intermediate"
+      "answer": "Your head acts as a pressure point and blocking mechanism against their ribs or back. This prevents opponent from turning into you during the rotation, which would eliminate your angle advantage and potentially put you back in their guard. Keeping your head tight to their body also helps you track their movement and maintain connection throughout the transition. If your head comes away from their body, they can use that space to turn and face you."
     },
     {
       "question": "How can you use your legs to assist the arm drag from butterfly guard?",
-      "answer": "Your butterfly hooks should elevate opponent off their base as you execute the drag, lifting them slightly and disrupting their balance. This elevation removes their ability to post strongly and makes them lighter, allowing easier rotation. The hooks also help propel your body around theirs during the circular motion. Additionally, the elevation creates a brief moment where opponent is off-balance and most vulnerable to the back take.",
-      "difficulty": "Intermediate"
+      "answer": "Your butterfly hooks should elevate opponent off their base as you execute the drag, lifting them slightly and disrupting their balance. This elevation removes their ability to post strongly and makes them lighter, allowing easier rotation. The hooks also help propel your body around theirs during the circular motion. Additionally, the elevation creates a brief moment where opponent is off-balance and most vulnerable to the back take."
     },
     {
       "question": "What are the key indicators that an arm drag opportunity is available?",
-      "answer": "Look for opponent pressuring forward with hands within dragging range, arm extended rather than tightly protected, moments when they're gripping or reaching for your collar/lapel, and times when their weight distribution is forward. Also watch for when they're focused on passing and not actively defending their arms. The best opportunities often come when opponent is committed to their own attack or advancing position, making them less aware of defensive arm position.",
-      "difficulty": "Advanced"
+      "answer": "Look for opponent pressuring forward with hands within dragging range, arm extended rather than tightly protected, moments when they're gripping or reaching for your collar/lapel, and times when their weight distribution is forward. Also watch for when they're focused on passing and not actively defending their arms. The best opportunities often come when opponent is committed to their own attack or advancing position, making them less aware of defensive arm position."
     }
   ],
   "safety_considerations": "The arm drag to back is generally a low-risk technique with minimal injury potential when practiced correctly. However, several safety considerations should be observed. When drilling, ensure controlled speed initially to prevent neck injuries - rapid rotation combined with resistance can cause partner's neck to torque unexpectedly. Start slow and gradually increase speed as both partners develop comfort with the movement. Be cautious with grip strength on wrist and triceps, particularly with smaller or beginner partners - overly aggressive gripping can cause hand and forearm injuries. When your partner is learning to counter the arm drag, communicate clearly about resistance levels to prevent sudden explosive counters that might cause injury. During the rotation phase, be aware of your training partner's knee and ankle position - awkward angles during the circular movement can stress these joints if they're not able to adjust properly. In competition or live sparring, be prepared for opponent to sit back suddenly to prevent back take, which can create collision risks. Always maintain awareness of training area boundaries to avoid rotating off the mat or into obstacles. For beginners, emphasize that speed comes after technical proficiency - rushing the technique before mastering mechanics often leads to loss of control and potential collision injuries.",
@@ -313,5 +288,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -33,11 +33,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Leg Extraction to Guard represents the critical defensive transition from ushiro ashi-garami bottom position to an established guard. This technique addresses the most common scenario in leg lock defense where you have partially escaped through inversion but remain entangled in the reversed leg configuration. The extraction requires systematic clearing of your opponent's controlling legs while maintaining heel protection throughout the movement sequence.\n\nThe strategic importance of this transition lies in recovering a neutral or advantageous position from a compromised defensive situation. Unlike accepting turtle position, which concedes top position, successful leg extraction to guard allows you to immediately threaten sweeps, submissions, and guard retention. This makes it the preferred escape route when the opponent's control is shallow enough to permit full extraction without significant submission risk.\n\nTiming is paramount for this technique. The optimal window occurs when your opponent is adjusting grips or transitioning between submission attempts, creating momentary lapses in leg control. Executing during these windows dramatically increases success rates across all skill levels. Conversely, attempting extraction against deep, consolidated control typically results in either failed escape or submission finish during the extraction attempt.",
   "key_principles": [
     "Maintain dorsiflexion (foot flexed toward shin) throughout entire extraction to protect heel from finishing grips",
@@ -59,38 +54,32 @@
     {
       "step_number": 1,
       "action": "Protect heel",
-      "description": "Immediately establish dorsiflexion on your trapped foot, pulling toes toward shin to tighten heel protection. This position must be maintained throughout the entire extraction sequence.",
-      "timing": "Continuous throughout technique"
+      "description": "Immediately establish dorsiflexion on your trapped foot, pulling toes toward shin to tighten heel protection. This position must be maintained throughout the entire extraction sequence."
     },
     {
       "step_number": 2,
       "action": "Control inside knee",
-      "description": "Place your near-side hand on opponent's inside knee, gripping firmly to prevent them from stepping through to saddle or deepening the entanglement. Your hand acts as a frame blocking their leg advancement.",
-      "timing": "Immediately after heel protection established"
+      "description": "Place your near-side hand on opponent's inside knee, gripping firmly to prevent them from stepping through to saddle or deepening the entanglement. Your hand acts as a frame blocking their leg advancement."
     },
     {
       "step_number": 3,
       "action": "Push opponent's hips",
-      "description": "Use your free leg to push firmly against opponent's hip or thigh, creating distance between your hips and their controlling legs. The push direction should be diagonally away, not directly back.",
-      "timing": "Simultaneous with inside knee control"
+      "description": "Use your free leg to push firmly against opponent's hip or thigh, creating distance between your hips and their controlling legs. The push direction should be diagonally away, not directly back."
     },
     {
       "step_number": 4,
       "action": "Clear outside leg",
-      "description": "While maintaining the hip push, pull your trapped knee toward your chest and angle it outward to slip past opponent's outside leg. The movement is circular, not linear, avoiding direct conflict with their grip.",
-      "timing": "As soon as space is created"
+      "description": "While maintaining the hip push, pull your trapped knee toward your chest and angle it outward to slip past opponent's outside leg. The movement is circular, not linear, avoiding direct conflict with their grip."
     },
     {
       "step_number": 5,
       "action": "Extract from inside control",
-      "description": "Once outside leg is cleared, continue pulling your leg toward your body while pushing opponent away. Rotate your knee toward the ceiling to clear the inside leg's control, using the space created by your hip frame.",
-      "timing": "Immediately following outside leg clearance"
+      "description": "Once outside leg is cleared, continue pulling your leg toward your body while pushing opponent away. Rotate your knee toward the ceiling to clear the inside leg's control, using the space created by your hip frame."
     },
     {
       "step_number": 6,
       "action": "Establish guard",
-      "description": "As your leg clears completely, immediately establish guard position by placing feet on opponent's hips for open guard, or close your guard if proximity allows. Do not pause between extraction and guard establishment.",
-      "timing": "Without delay after full leg extraction"
+      "description": "As your leg clears completely, immediately establish guard position by placing feet on opponent's hips for open guard, or close your guard if proximity allows. Do not pause between extraction and guard establishment."
     }
   ],
   "common_counters": [
@@ -146,26 +135,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics and heel protection",
-      "description": "Practice extraction movement pattern with compliant partner. Focus on maintaining dorsiflexion throughout, proper hand placement on inside knee, and circular leg clearing path. Partner provides position but no resistance.",
-      "resistance_level": "None"
+      "description": "Practice extraction movement pattern with compliant partner. Focus on maintaining dorsiflexion throughout, proper hand placement on inside knee, and circular leg clearing path. Partner provides position but no resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and grip fighting",
-      "description": "Partner provides light resistance and attempts to maintain entanglement. Practice identifying extraction windows during opponent's grip changes. Develop sensitivity for shallow versus deep control recognition.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance and attempts to maintain entanglement. Practice identifying extraction windows during opponent's grip changes. Develop sensitivity for shallow versus deep control recognition."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner actively attempts to counter extraction with saddle transitions and heel hook attempts. Practice aborting extraction when countered and transitioning to alternative escapes. Chain with turtle recovery when necessary.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts to counter extraction with saddle transitions and heel hook attempts. Practice aborting extraction when countered and transitioning to alternative escapes. Chain with turtle recovery when necessary."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Full resistance positional sparring starting from ushiro ashi-garami. Apply extraction in realistic scramble scenarios with opponent working submissions. Develop decision-making for when extraction is viable versus accepting alternative positions.",
-      "resistance_level": "Full"
+      "description": "Full resistance positional sparring starting from ushiro ashi-garami. Apply extraction in realistic scramble scenarios with opponent working submissions. Develop decision-making for when extraction is viable versus accepting alternative positions."
     }
   ],
   "variants_and_adaptations": [
@@ -188,43 +173,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Leg Extraction to Guard?",
-      "answer": "The primary goal is to completely clear your leg from the reversed ashi-garami entanglement while maintaining heel protection, then immediately establish an active guard position. This converts a compromised defensive situation into neutral or advantageous positioning without conceding top position.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to completely clear your leg from the reversed ashi-garami entanglement while maintaining heel protection, then immediately establish an active guard position. This converts a compromised defensive situation into neutral or advantageous positioning without conceding top position."
     },
     {
       "question": "What foot position must you maintain throughout the entire extraction and why?",
-      "answer": "You must maintain dorsiflexion (foot flexed with toes pulled toward shin) throughout the entire extraction sequence. This position protects your heel by pulling it closer to your lower leg, making it extremely difficult for your opponent to establish the grip needed for a heel hook finish even during the movement of extraction.",
-      "difficulty": "Beginner"
+      "answer": "You must maintain dorsiflexion (foot flexed with toes pulled toward shin) throughout the entire extraction sequence. This position protects your heel by pulling it closer to your lower leg, making it extremely difficult for your opponent to establish the grip needed for a heel hook finish even during the movement of extraction."
     },
     {
       "question": "Why is controlling your opponent's inside knee critical during extraction?",
-      "answer": "Controlling the inside knee prevents your opponent from stepping through to saddle or honey hole position during your extraction attempt. Without this control, as you clear their outside leg, they can easily advance their inside leg into a higher-control entanglement, converting your escape attempt into a worse position.",
-      "difficulty": "Intermediate"
+      "answer": "Controlling the inside knee prevents your opponent from stepping through to saddle or honey hole position during your extraction attempt. Without this control, as you clear their outside leg, they can easily advance their inside leg into a higher-control entanglement, converting your escape attempt into a worse position."
     },
     {
       "question": "Your opponent begins setting up a heel hook grip as you start extraction - what should you do?",
-      "answer": "Immediately abort the extraction attempt and redirect all attention to grip fighting and heel protection. Continue extraction only after you have successfully stripped or prevented the heel hook grip. Attempting to race through extraction against an established grip dramatically increases submission risk.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately abort the extraction attempt and redirect all attention to grip fighting and heel protection. Continue extraction only after you have successfully stripped or prevented the heel hook grip. Attempting to race through extraction against an established grip dramatically increases submission risk."
     },
     {
       "question": "What distinguishes a shallow entanglement suitable for extraction from a deep entanglement requiring alternative escape?",
-      "answer": "Shallow entanglement is characterized by the opponent's inside leg having minimal control below your knee, their upper body not pinning your hips, and no established heel grip. Deep entanglement features tight inside leg control on your thigh, consolidated upper body position, and active heel exposure. Deep entanglement requires accepting turtle or other alternatives rather than forcing extraction.",
-      "difficulty": "Intermediate"
+      "answer": "Shallow entanglement is characterized by the opponent's inside leg having minimal control below your knee, their upper body not pinning your hips, and no established heel grip. Deep entanglement features tight inside leg control on your thigh, consolidated upper body position, and active heel exposure. Deep entanglement requires accepting turtle or other alternatives rather than forcing extraction."
     },
     {
       "question": "Why should you pull your trapped leg toward your body rather than pushing it away from the opponent?",
-      "answer": "Pushing your leg toward the opponent deepens their entanglement by driving your leg further into their controlling figure-four configuration. Pulling toward your body while pushing their hips away creates the space needed for extraction and follows a circular path that slips past their grips rather than fighting directly against them.",
-      "difficulty": "Intermediate"
+      "answer": "Pushing your leg toward the opponent deepens their entanglement by driving your leg further into their controlling figure-four configuration. Pulling toward your body while pushing their hips away creates the space needed for extraction and follows a circular path that slips past their grips rather than fighting directly against them."
     },
     {
       "question": "Your opponent transitions to ankle lock during your extraction attempt - how should you respond?",
-      "answer": "Continue extraction with increased urgency. Unlike heel hooks which can finish instantly, ankle locks require sustained pressure and have longer finish windows. The extraction movement itself often defeats ankle lock positioning by changing the angle and removing their control. Prioritize completing extraction over extended ankle lock defense.",
-      "difficulty": "Advanced"
+      "answer": "Continue extraction with increased urgency. Unlike heel hooks which can finish instantly, ankle locks require sustained pressure and have longer finish windows. The extraction movement itself often defeats ankle lock positioning by changing the angle and removing their control. Prioritize completing extraction over extended ankle lock defense."
     },
     {
       "question": "When should you accept turtle position instead of attempting leg extraction to guard?",
-      "answer": "Accept turtle when opponent's control is too deep for safe extraction (inside leg controlling your thigh, established heel exposure), when your extraction attempts have failed multiple times without progress, when your energy is depleting rapidly, or when opponent's heel hook grip is established and continuing rotation is the only way to prevent the finish.",
-      "difficulty": "Advanced"
+      "answer": "Accept turtle when opponent's control is too deep for safe extraction (inside leg controlling your thigh, established heel exposure), when your extraction attempts have failed multiple times without progress, when your energy is depleting rapidly, or when opponent's heel hook grip is established and continuing rotation is the only way to prevent the finish."
     }
   ],
   "safety_considerations": "Leg Extraction to Guard carries moderate injury risk primarily related to heel hooks and knee stress. Never attempt extraction when your opponent has an established heel hook grip - the movement of extraction can accelerate the submission and cause ligament damage. Maintain dorsiflexion throughout to protect against heel exposure during movement. Avoid explosive or jerky movements that could stress your knee joint within the entanglement. If you feel any significant pressure on your heel or knee during extraction, immediately stop and address the threat before continuing. Training partners should release immediately if the extracting person taps or verbally indicates distress. Begin training with compliant partners before progressing to resistance to establish proper movement patterns that protect joint integrity.",
@@ -270,5 +247,6 @@
       "name": "Deep Half Guard",
       "relationship": "Alternative recovery position accessible during partial extraction"
     }
-  ]
+  ],
+  "success_rate": 58
 }

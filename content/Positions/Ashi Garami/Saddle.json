@@ -286,21 +286,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Probability of maintaining saddle against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 65,
-        "advanced": 85,
+        "value": 75,
         "description": "Probability of advancing from setup to finish"
       },
       "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Probability of finishing submission from optimal control"
       },
       "average_time": "30-90 seconds from entry to finish or opponent escape"
@@ -308,11 +302,11 @@
     "transitions": [
       {
         "transition": "Inside Heel Hook",
-        "attempt_probability": 18
+        "attempt_probability": 27
       },
       {
         "transition": "Outside Heel Hook",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Straight Ankle Lock",
@@ -332,11 +326,11 @@
       },
       {
         "transition": "Position Change",
-        "attempt_probability": 12
+        "attempt_probability": 8
       },
       {
-        "transition": "Back Step",
-        "attempt_probability": 8
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 5
       }
     ]
   },
@@ -560,21 +554,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 85,
-        "intermediate": 65,
-        "advanced": 40,
+        "value": 52,
         "description": "Probability opponent maintains saddle control"
       },
       "advancement_probability": {
-        "beginner": 10,
-        "intermediate": 25,
-        "advanced": 45,
+        "value": 35,
         "description": "Probability of successful escape to neutral or better"
       },
       "submission_probability": {
-        "beginner": 75,
-        "intermediate": 55,
-        "advanced": 35,
+        "value": 45,
         "description": "Probability opponent finishes submission from this position"
       },
       "average_time": "15-45 seconds before escape or submission"
@@ -582,23 +570,35 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 22
-      },
-      {
-        "transition": "Hip Escape",
         "attempt_probability": 18
       },
       {
+        "transition": "Hip Escape",
+        "attempt_probability": 12
+      },
+      {
         "transition": "Technical Standup",
-        "attempt_probability": 15
+        "attempt_probability": 5
       },
       {
         "transition": "Guard Recovery",
-        "attempt_probability": 20
+        "attempt_probability": 10
       },
       {
         "transition": "Frame and Shrimp",
-        "attempt_probability": 25
+        "attempt_probability": 15
+      },
+      {
+        "transition": "Counter-entangle to 50-50 Guard",
+        "attempt_probability": 20
+      },
+      {
+        "transition": "Saddle Defense",
+        "attempt_probability": 12
+      },
+      {
+        "transition": "Inversion Escape",
+        "attempt_probability": 8
       }
     ]
   }

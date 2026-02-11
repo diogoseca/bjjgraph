@@ -157,7 +157,7 @@ This transition is particularly effective from the bottom Hindulotine position b
 Strategically, threatening this transition forces opponents into a dilemma: maintain tight defensive posture and remain vulnerable to the guillotine, or create space to relieve pressure and expose themselves to the anaconda. Advanced practitioners use this dynamic to control the pace of engagement, keeping opponents reactive rather than allowing them to establish settled defensive positions.
 
 **From Position**: [[Hindulotine/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, threatening this transition forces opponents into a dilemma: main
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the trigger**: Identify when opponent posts their near-side hand or elbow against your body to create space and relieve guillotine pressure. This defensive frame is your cue to begin the anaconda transition. (Timing: Immediately when frame appears)
-2. **Thread the choking arm**: Slide your guillotine-side arm deeper across opponent's neck and under their near-side armpit, keeping the blade of your forearm pressed against their neck throughout the movement to maintain pressure. (Timing: 1-2 seconds)
-3. **Secure the figure-four**: Your threading arm reaches across to grab your opposite bicep while your free arm cups behind opponent's head or shoulder. This creates the classic anaconda grip configuration with your elbow pointing toward opponent's far hip. (Timing: Immediately after threading)
-4. **Hip adjustment**: Begin walking your hips toward opponent's head in a circular motion, which tightens the strangle by compressing the space around their neck. Your legs maintain control of their hips to prevent escape. (Timing: 2-3 seconds)
-5. **Trap the arm**: Squeeze your elbows together to trap opponent's near-side arm between your arms and their own neck. Their defensive frame now works against them, adding compression to the choke. (Timing: Continuous with hip walk)
-6. **Finish or control**: Continue the hip walk and squeeze to finish the anaconda choke, or if opponent defends effectively, maintain the anaconda control position to set up follow-up attacks or transitions to top position. (Timing: 5-15 seconds for finish)
+1. **Recognize the trigger**: Identify when opponent posts their near-side hand or elbow against your body to create space and relieve guillotine pressure. This defensive frame is your cue to begin the anaconda transition.
+2. **Thread the choking arm**: Slide your guillotine-side arm deeper across opponent's neck and under their near-side armpit, keeping the blade of your forearm pressed against their neck throughout the movement to maintain pressure.
+3. **Secure the figure-four**: Your threading arm reaches across to grab your opposite bicep while your free arm cups behind opponent's head or shoulder. This creates the classic anaconda grip configuration with your elbow pointing toward opponent's far hip.
+4. **Hip adjustment**: Begin walking your hips toward opponent's head in a circular motion, which tightens the strangle by compressing the space around their neck. Your legs maintain control of their hips to prevent escape.
+5. **Trap the arm**: Squeeze your elbows together to trap opponent's near-side arm between your arms and their own neck. Their defensive frame now works against them, adding compression to the choke.
+6. **Finish or control**: Continue the hip walk and squeeze to finish the anaconda choke, or if opponent defends effectively, maintain the anaconda control position to set up follow-up attacks or transitions to top position.
 
 
 </section>
@@ -253,19 +253,15 @@ Strategically, threatening this transition forces opponents into a dilemma: main
 ## Training Progressions
 **Week 1-2** - Grip mechanics and arm threading
 Practice the isolated movement of threading your arm from guillotine position to anaconda configuration with a compliant partner. Focus on maintaining neck pressure throughout and achieving proper figure-four lock position. No finishing attempts yet.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner creates defensive frames at varying speeds and timing. Practice recognizing the trigger and initiating the transition immediately. Partner provides light resistance but allows the transition to complete. Build pattern recognition for the defensive movement.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and counters
 Partner defends the anaconda transition with increasing resistance. Practice flowing between guillotine, anaconda, darce, and back take options based on defensive reactions. Develop the ability to chain attacks without losing control.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate into full sparring from front headlock and guard positions. Work on creating the initial Hindulotine threat that forces defensive reactions, then capitalizing with the anaconda transition. Track success rate and refine timing.
-(Resistance: Full)
 
 
 

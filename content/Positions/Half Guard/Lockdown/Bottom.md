@@ -21,37 +21,37 @@ description: "Master Lockdown Bottom in BJJ. 10th Planet's signature half guard 
     {
       "@type": "HowToStep",
       "name": "Execute Whip-up Sweep",
-      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Whip-up Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Old School Sweep",
-      "text": "From this position, attempt Old School Sweep. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Old School Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Sweeps",
-      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Lockdown Sweeps. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Rolling Back Take",
-      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Rolling Back Take. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck",
-      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck. This technique is attempted in 11% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,21 +206,23 @@ Lockdown Bottom is 10th Planet's signature half guard variation where the bottom
 
 ## Available Escapes
 
-### [[Whip-up Sweep]] (13% of attempts)
+### [[Whip-up Sweep]] (12% of attempts)
 
-### [[Old School Sweep]] (15% of attempts)
+### [[Old School Sweep]] (11% of attempts)
 
-### [[Electric Chair Submission]] (12% of attempts)
+### [[Electric Chair Submission]] (11% of attempts)
 
-### [[Lockdown Sweeps]] (12% of attempts)
+### [[Lockdown Sweeps]] (11% of attempts)
 
-### [[Rolling Back Take]] (11% of attempts)
+### [[Rolling Back Take]] (10% of attempts)
 
-### [[Turtle to Truck]] (12% of attempts)
+### [[Turtle to Truck]] (11% of attempts)
 
-### [[Deep Half Entry]] (13% of attempts)
+### [[Deep Half Entry]] (12% of attempts)
 
-### [[Kimura from Half Guard]] (12% of attempts)
+### [[Kimura from Half Guard]] (11% of attempts)
+
+### [[Electric Chair Transition]] (11% of attempts)
 
 
 
@@ -373,11 +375,11 @@ Bottom player starts in lockdown with underhook, top player attempts to pass. Bo
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 20% |
-| Intermediate | 65% | 50% | 35% |
-| Advanced     | 80% | 65% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 58% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 1-3 minutes depending on activity level and opponent's passing pressure
 

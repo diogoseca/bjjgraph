@@ -161,7 +161,7 @@ The 50-50 Entry from Standing is a modern leg entanglement technique that allows
 This entry has become increasingly popular in modern competitive BJJ, particularly among leg lock specialists who use the 50-50 as a platform for attacking heel hooks and toe holds. The position's symmetry creates a strategic stalemate that can frustrate opponents unfamiliar with its intricacies, while providing numerous attacking opportunities for those well-versed in the system. The entry requires precise timing and coordination to successfully establish the position without exposing yourself to counters.
 
 **From Position**: [[Standing Position]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 60%
+**Success Rate**: 52%
 
 </section>
 
@@ -210,13 +210,13 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip control**: Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance. (Timing: Pre-entry positioning phase)
-2. **Target the lead leg**: Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter. (Timing: Initial commitment phase, 0.5-1 seconds)
-3. **Drop to seated position**: Once you have secured the ankle or shin grip, quickly drop your hips to the mat in a controlled sitting motion. Your inside leg (the leg closest to your opponent) should extend and hook behind their knee, while your outside leg begins to thread inside their leg. Keep your upper body grip active to prevent them from backing away or creating distance. The descent should be smooth and controlled, not a sudden drop. (Timing: Entry phase, 1-1.5 seconds)
-4. **Establish outside leg position**: As you sit, thread your outside leg (the leg farther from your opponent) inside their thigh, positioning your shin across their hip. Your foot should be placed on their far hip or slightly behind it, creating a barrier that prevents them from passing to your outside. This leg acts as a frame and control point for the entire position. (Timing: Simultaneous with sitting motion)
-5. **Configure inside leg hook**: Your inside leg wraps around the outside of their leg, with your instep or shin hooking behind their knee. This creates the characteristic leg entanglement of the 50-50 position. Your knee should be pointing upward and outward, creating pressure against their hip and preventing them from extracting their leg. Flex your foot to maintain a strong hook. (Timing: Immediately after establishing seated position)
-6. **Square up your hips**: Adjust your hip position so that your body is facing your opponent squarely, creating the symmetrical entanglement. Your hips should be close to theirs, with minimal space between your bodies. This proximity is critical for controlling their movement and preventing them from creating the angles needed to escape or pass. Your back should be relatively upright, not flat on the mat. (Timing: Final adjustment, 0.5 seconds)
-7. **Establish upper body control**: Once the leg entanglement is secure, adjust your upper body grips. In gi, you might control their collar or lapel. In no-gi, you can use an underhook, overhook, or grip on their wrist or tricep. These grips serve to control distance, prevent them from postured up and creating advantageous angles, and set up transitions to submissions or sweeps. Keep your chest up and maintain an active posture. (Timing: Consolidation phase, 1-2 seconds after entry)
+1. **Establish grip control**: Begin by securing a controlling grip on your opponent's upper body, typically a collar tie or sleeve grip. This grip serves two purposes: it prevents your opponent from creating distance during your entry, and it helps control your descent to the mat. Keep your posture upright and maintain a comfortable fighting distance.
+2. **Target the lead leg**: Identify your opponent's lead leg (the leg that is slightly forward or bearing more weight). Lower your level slightly by bending at the knees while maintaining your upper body grip. Begin to reach for their lead leg with your outside hand, aiming to secure a grip on their ankle or lower shin. This hand will guide their leg into the proper position as you enter.
+3. **Drop to seated position**: Once you have secured the ankle or shin grip, quickly drop your hips to the mat in a controlled sitting motion. Your inside leg (the leg closest to your opponent) should extend and hook behind their knee, while your outside leg begins to thread inside their leg. Keep your upper body grip active to prevent them from backing away or creating distance. The descent should be smooth and controlled, not a sudden drop.
+4. **Establish outside leg position**: As you sit, thread your outside leg (the leg farther from your opponent) inside their thigh, positioning your shin across their hip. Your foot should be placed on their far hip or slightly behind it, creating a barrier that prevents them from passing to your outside. This leg acts as a frame and control point for the entire position.
+5. **Configure inside leg hook**: Your inside leg wraps around the outside of their leg, with your instep or shin hooking behind their knee. This creates the characteristic leg entanglement of the 50-50 position. Your knee should be pointing upward and outward, creating pressure against their hip and preventing them from extracting their leg. Flex your foot to maintain a strong hook.
+6. **Square up your hips**: Adjust your hip position so that your body is facing your opponent squarely, creating the symmetrical entanglement. Your hips should be close to theirs, with minimal space between your bodies. This proximity is critical for controlling their movement and preventing them from creating the angles needed to escape or pass. Your back should be relatively upright, not flat on the mat.
+7. **Establish upper body control**: Once the leg entanglement is secure, adjust your upper body grips. In gi, you might control their collar or lapel. In no-gi, you can use an underhook, overhook, or grip on their wrist or tricep. These grips serve to control distance, prevent them from postured up and creating advantageous angles, and set up transitions to submissions or sweeps. Keep your chest up and maintain an active posture.
 
 
 </section>
@@ -266,27 +266,21 @@ This entry has become increasingly popular in modern competitive BJJ, particular
 ## Training Progressions
 **Phase 1 (Weeks 1-2): Static Entry Drilling** - Learning the basic mechanics without resistance
 Practice the entry from standing with a compliant partner. Focus on coordinating the sitting motion with the leg configuration. Partner should remain stationary and allow you to establish the position. Drill 10-15 repetitions per training session, alternating sides. Focus on smooth, controlled movement rather than speed.
-(Resistance: None)
 
 **Phase 2 (Weeks 3-4): Entry with Light Movement** - Timing the entry against a moving opponent
 Partner provides light resistance by moving around in standing position. Practice timing your entry as they step forward or laterally. Partner should not actively counter, but should move naturally. Begin to add grip fighting before the entry. Drill 15-20 repetitions, focusing on recognizing the right moment to enter.
-(Resistance: Light)
 
 **Phase 3 (Weeks 5-8): Entry Against Specific Counters** - Defending against common counters while establishing position
 Partner provides specific counters: sprawl, backward step, forward pressure. Practice maintaining grips and adjusting your entry to succeed despite these counters. Work on backup options if the entry fails (single leg, standing reset, alternative guard pulls). Drill 20-30 repetitions with different counter scenarios.
-(Resistance: Medium)
 
 **Phase 4 (Weeks 9-12): Flow Drilling from Standing** - Integrating the entry into a broader standing game
 Start from standing position and flow drill various guard pull options, including 50-50 entry. Partner provides moderate resistance and tries different defenses. You should be able to recognize when 50-50 entry is available versus when to choose a different option. Include grip fighting and movement patterns. Drill 5-10 minute rounds.
-(Resistance: Medium)
 
 **Phase 5 (Week 13+): Positional Sparring** - Testing the entry against full resistance
 Start from standing and attempt to establish 50-50 position against a fully resisting opponent. Partner's goal is to prevent the entry using any legal means. Your goal is to successfully establish 50-50 or adapt to alternative entries. This phase reveals which details need refinement. 5 minute rounds, multiple partners.
-(Resistance: Full)
 
 **Phase 6 (Ongoing): Live Rolling Integration** - Using the entry in live rolling and competition
 Actively look for opportunities to enter 50-50 from standing during regular sparring. Start to develop a sense of when this entry is the best option versus other guard pulls or takedown attempts. Track success rate and common failures to guide your continued training focus. Continue drilling fundamentals regularly to maintain proficiency.
-(Resistance: Full)
 
 
 

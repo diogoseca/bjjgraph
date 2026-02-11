@@ -157,7 +157,7 @@ Strategically, the Baratoplata Setup exploits the fundamental weakness of Meatho
 The technique requires precise timing and mechanical understanding. Unlike straight armlocks that attack the elbow through hyperextension, the Baratoplata attacks the shoulder through internal rotation combined with extension. This creates a submission that is difficult to defend through strength alone, as the rotational component bypasses the larger muscle groups that typically protect against arm attacks. For purple and brown belt practitioners, the Baratoplata represents an evolution beyond basic Rubber Guard attacks into the system's deeper submission chains.
 
 **From Position**: [[Meathook/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Meathook control**: Confirm your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your grip on their collar or overhook to keep posture broken. (Timing: Before any offensive movement)
-2. **Create threading space**: Slightly adjust your hip angle to create space between your torso and the opponent's trapped arm. This gap is essential for threading your attacking arm through without releasing control. (Timing: 1-2 seconds)
-3. **Thread attacking arm**: Insert your arm (same side as the shin hook) through the gap, threading from inside to outside. Your forearm should pass under their trapped arm's elbow while your hand emerges on the outside. (Timing: Smooth continuous motion)
-4. **Establish figure-four grip**: Once your arm is threaded, grab your own wrist with your other hand to create a figure-four configuration. Your palm should face down on the grip, with the opponent's arm trapped in the center. (Timing: Immediately after threading)
-5. **Rotate hips for angle**: Turn your hips toward the side of the trapped arm while maintaining closed guard. This rotation creates the internal rotation angle on the opponent's shoulder that generates submission pressure. (Timing: Coordinated with grip establishment)
-6. **Apply rotational pressure**: Pull your figure-four grip toward your chest while simultaneously extending your hips. This creates dual pressure—internal rotation on the shoulder combined with extension—attacking the shoulder joint from multiple angles. (Timing: Controlled, progressive pressure)
+1. **Secure Meathook control**: Confirm your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your grip on their collar or overhook to keep posture broken.
+2. **Create threading space**: Slightly adjust your hip angle to create space between your torso and the opponent's trapped arm. This gap is essential for threading your attacking arm through without releasing control.
+3. **Thread attacking arm**: Insert your arm (same side as the shin hook) through the gap, threading from inside to outside. Your forearm should pass under their trapped arm's elbow while your hand emerges on the outside.
+4. **Establish figure-four grip**: Once your arm is threaded, grab your own wrist with your other hand to create a figure-four configuration. Your palm should face down on the grip, with the opponent's arm trapped in the center.
+5. **Rotate hips for angle**: Turn your hips toward the side of the trapped arm while maintaining closed guard. This rotation creates the internal rotation angle on the opponent's shoulder that generates submission pressure.
+6. **Apply rotational pressure**: Pull your figure-four grip toward your chest while simultaneously extending your hips. This creates dual pressure—internal rotation on the shoulder combined with extension—attacking the shoulder joint from multiple angles.
 
 
 </section>
@@ -253,19 +253,15 @@ The technique requires precise timing and mechanical understanding. Unlike strai
 ## Training Progressions
 **Week 1-2** - Threading mechanics
 Practice the arm threading motion from static Meathook with a compliant partner. Focus on maintaining shin hook pressure while creating space to thread. Drill 20 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Figure-four timing
 Add the figure-four grip establishment with light resistance. Partner attempts slow arm extraction while you time the thread and grip. Emphasize the connection between their extraction attempt and your entry.
-(Resistance: Light)
 
 **Week 5-6** - Hip angle and pressure
 Combine full technique with proper hip rotation and submission pressure. Partner provides moderate resistance to test angle accuracy. Practice flowing to alternative attacks when Baratoplata is defended.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply Baratoplata Setup in positional sparring starting from Meathook. Track success rate and identify failure patterns. Develop ability to chain between Baratoplata, Triangle, and Gogoplata based on opponent response.
-(Resistance: Full)
 
 
 

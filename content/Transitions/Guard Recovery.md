@@ -157,7 +157,7 @@ The technique becomes critical when the top player successfully defends the prim
 Strategically, guard recovery represents the defensive reset option within the jailbreak system. Advanced practitioners chain between jailbreak attacks and guard recovery based on opponent reactions - if the top player bases wide to prevent the roll, the space created becomes the opening for guard recovery. This interplay between offensive and defensive options makes the bottom player unpredictable and difficult to pass.
 
 **From Position**: [[Jailbreak/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, guard recovery represents the defensive reset option within the j
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frame**: Create a forearm frame against opponent's neck or shoulder by placing your forearm bone across their throat line. Elbow stays tight to your body while hand connects to their far shoulder or collar tie position. This frame creates the space buffer needed for hip movement. (Timing: Immediately when recognizing jailbreak roll is defended)
-2. **Post non-trapped leg**: Place your free foot flat on the mat with knee bent at approximately 90 degrees. Position this foot close to your hip on the opposite side from your trapped leg. This leg provides the driving force for your upcoming hip escape and acts as a barrier against the opponent following. (Timing: Simultaneous with frame establishment)
-3. **Execute hip escape**: Drive off your posted foot while turning your hips away from the trapped leg. Your butt should move in an arc away from the opponent, not straight back. The frame maintains distance while your hips create the space needed to extract your trapped leg. (Timing: Explosive movement once frame and post are solid)
-4. **Extract trapped leg**: As space opens from the hip escape, pull your trapped knee toward your chest by engaging your hip flexors. Simultaneously push against opponent's thigh or hip with your free foot to create additional separation. The leg should slide out cleanly without getting caught on opponent's legs. (Timing: During the peak of hip escape movement)
-5. **Establish knee shield**: Immediately upon freeing the trapped leg, insert your shin across opponent's torso creating a knee shield. The knee points toward opponent's far shoulder while the foot hooks behind their near hip. This barrier prevents them from immediately re-establishing top pressure. (Timing: Instant after leg extraction)
-6. **Consolidate guard position**: Complete the recovery by either maintaining knee shield half guard or continuing to closed guard by hooking your free leg around opponent's back. Adjust grips to collar and sleeve or double underhooks depending on gi or no-gi context. Reset your defensive structure completely before considering offensive options. (Timing: Within 2 seconds of establishing knee shield)
+1. **Establish frame**: Create a forearm frame against opponent's neck or shoulder by placing your forearm bone across their throat line. Elbow stays tight to your body while hand connects to their far shoulder or collar tie position. This frame creates the space buffer needed for hip movement.
+2. **Post non-trapped leg**: Place your free foot flat on the mat with knee bent at approximately 90 degrees. Position this foot close to your hip on the opposite side from your trapped leg. This leg provides the driving force for your upcoming hip escape and acts as a barrier against the opponent following.
+3. **Execute hip escape**: Drive off your posted foot while turning your hips away from the trapped leg. Your butt should move in an arc away from the opponent, not straight back. The frame maintains distance while your hips create the space needed to extract your trapped leg.
+4. **Extract trapped leg**: As space opens from the hip escape, pull your trapped knee toward your chest by engaging your hip flexors. Simultaneously push against opponent's thigh or hip with your free foot to create additional separation. The leg should slide out cleanly without getting caught on opponent's legs.
+5. **Establish knee shield**: Immediately upon freeing the trapped leg, insert your shin across opponent's torso creating a knee shield. The knee points toward opponent's far shoulder while the foot hooks behind their near hip. This barrier prevents them from immediately re-establishing top pressure.
+6. **Consolidate guard position**: Complete the recovery by either maintaining knee shield half guard or continuing to closed guard by hooking your free leg around opponent's back. Adjust grips to collar and sleeve or double underhooks depending on gi or no-gi context. Reset your defensive structure completely before considering offensive options.
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, guard recovery represents the defensive reset option within the j
 ## Training Progressions
 **Week 1-2** - Frame and shrimp mechanics
 Solo drilling of hip escapes focusing on arc direction. Partner drilling with compliant partner holding light top half guard while you practice frame establishment and shrimping motion. No resistance, focusing on correct movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Leg extraction timing
 Partner provides static pressure while you execute complete sequence from frame to guard establishment. Focus on the timing of leg extraction during peak hip escape. Partner gives immediate feedback if knee shield establishment is delayed.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively resists and attempts the common counters - crossface, backstep, sprawl. Practice recognizing each counter and executing appropriate response. Chain between guard recovery and deep half entry based on opponent reaction.
-(Resistance: Medium)
 
 **Week 7+** - Live situational sparring
 Start from jailbreak bottom position with full resistance. Win condition is establishing guard with 3-second control. Integrate guard recovery with other jailbreak options - sometimes roll, sometimes recover guard, making choice based on opponent reactions.
-(Resistance: Full)
 
 
 

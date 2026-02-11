@@ -153,7 +153,7 @@ description: "Master Lasso Guard sweeps in BJJ. Learn high-percentage sweeps fro
 Lasso Guard sweeps represent a sophisticated set of techniques that leverage the unique control offered by threading your leg over the opponent's arm. By isolating one arm and controlling the corresponding leg, you create powerful leverage points for off-balancing attacks. The lasso configuration naturally disrupts your opponent's base while maintaining distance control, making it an ideal platform for technical sweeps. The key to successful lasso sweeps lies in understanding how to manipulate your opponent's weight distribution while maintaining the integrity of the lasso control. These sweeps work best when combined with active grip fighting and the ability to transition between different lasso variations based on your opponent's reactions.
 
 **From Position**: [[Lasso Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish deep lasso control**: Thread your leg deeply over opponent's arm, ensuring your shin is positioned across their tricep with your foot emerging behind their back. Pull their sleeve to deepen the lasso while keeping your knee tight to their shoulder. (Timing: Before initiating sweep sequence)
-2. **Secure opposite leg control**: Grip opponent's opposite pant leg at the knee or establish a butterfly hook. This control is critical for preventing them from posting and maintaining base during the sweep. Your free leg should be active and mobile. (Timing: Simultaneously with lasso establishment)
-3. **Create angular pressure**: Rotate your hips away from the lasso side while pulling the lasso arm across your body. This creates a diagonal line of force that compromises their base. Your shoulders should move toward the mat on the non-lasso side. (Timing: As opponent's weight shifts forward)
-4. **Extend lasso leg explosively**: Drive your lasso leg straight while maintaining shin pressure on their arm. Simultaneously pull their sleeve toward your hip and use your opposite leg to lift or sweep their posting leg. The extension should be powerful and directed toward their weak corner. (Timing: When opponent is maximally off-balance)
-5. **Drive through with hip pressure**: As opponent begins to fall, release the lasso and drive your hips forward and upward. Use your grips to control their upper body while transitioning your legs to establish top position. Keep pressure constant to prevent recovery. (Timing: During the sweep motion)
-6. **Establish dominant position**: Follow through completely by coming up to mount, side control, or maintaining back exposure depending on how they fall. Immediately consolidate control with proper weight distribution and control points before they can recover guard. (Timing: Immediately after completing sweep)
+1. **Establish deep lasso control**: Thread your leg deeply over opponent's arm, ensuring your shin is positioned across their tricep with your foot emerging behind their back. Pull their sleeve to deepen the lasso while keeping your knee tight to their shoulder.
+2. **Secure opposite leg control**: Grip opponent's opposite pant leg at the knee or establish a butterfly hook. This control is critical for preventing them from posting and maintaining base during the sweep. Your free leg should be active and mobile.
+3. **Create angular pressure**: Rotate your hips away from the lasso side while pulling the lasso arm across your body. This creates a diagonal line of force that compromises their base. Your shoulders should move toward the mat on the non-lasso side.
+4. **Extend lasso leg explosively**: Drive your lasso leg straight while maintaining shin pressure on their arm. Simultaneously pull their sleeve toward your hip and use your opposite leg to lift or sweep their posting leg. The extension should be powerful and directed toward their weak corner.
+5. **Drive through with hip pressure**: As opponent begins to fall, release the lasso and drive your hips forward and upward. Use your grips to control their upper body while transitioning your legs to establish top position. Keep pressure constant to prevent recovery.
+6. **Establish dominant position**: Follow through completely by coming up to mount, side control, or maintaining back exposure depending on how they fall. Immediately consolidate control with proper weight distribution and control points before they can recover guard.
 
 
 </section>
@@ -253,27 +253,21 @@ Lasso Guard sweeps represent a sophisticated set of techniques that leverage the
 ## Training Progressions
 **Week 1-2: Fundamental Lasso Mechanics** - Establishing and maintaining lasso control
 Drill deep lasso threading from various open guard positions. Practice maintaining lasso while opponent attempts gentle extraction. Focus on proper shin placement across tricep and maintaining distance control. Partner provides minimal resistance.
-(Resistance: None)
 
 **Week 3-4: Basic Sweep Patterns** - Single sweep execution with cooperative partner
 Learn primary lasso sweep with partner in static position. Focus on hip rotation, opposite leg control, and proper extension timing. Partner allows sweep but maintains realistic base. Drill 10-15 repetitions per side per session.
-(Resistance: Light)
 
 **Week 5-8: Sweep Chains and Counters** - Combining multiple sweeps and handling common defenses
 Practice flowing between different lasso sweeps based on opponent's base adjustments. If primary sweep is defended, immediately chain to secondary option. Partner provides moderate resistance and attempts basic counters. Emphasis on reading reactions.
-(Resistance: Medium)
 
 **Week 9-12: Position Integration** - Transitioning from other guards to lasso sweeps
 Start from closed guard, spider guard, or De La Riva and establish lasso control against progressive resistance. Work sweep entries from realistic guard passing scenarios. Partner attempts legitimate passes while you develop timing.
-(Resistance: Medium)
 
 **Week 13-16: Competition Simulation** - Full resistance sweeping against skilled opposition
 Positional sparring starting from lasso guard with advanced partners. Opponent uses all available counters and passing strategies. Focus on high-percentage sweeps and recognizing when to abandon lasso for better position. Track success rates.
-(Resistance: Full)
 
 **Ongoing: Refinement and Variation** - Developing personal style and advanced variations
 Experiment with inverted lasso, reverse lasso, and hybrid positions. Analyze video of your rolling to identify patterns in successful vs. failed sweeps. Continue drilling fundamentals while adding creative variations based on body type and preferences.
-(Resistance: Full)
 
 
 

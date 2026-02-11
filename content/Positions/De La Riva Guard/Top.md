@@ -233,12 +233,12 @@ The most effective DLR passers develop a systematic approach that addresses each
 
 **If opponent's DLR hook is shallow or ankle grip is broken:**
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 50%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 50%)
 
 
 **If opponent attempts to transition to reverse DLR or X-Guard:**
 - Execute **[[Long Step Pass]]** → [[Headquarters Position]] (Probability: 48%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 52%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 52%)
 
 
 **If opponent inverts for berimbolo or kiss of the dragon attempt:**
@@ -330,11 +330,11 @@ Partner plays DLR and actively attempts berimbolo and kiss of the dragon entries
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 18% |
-| Intermediate | 50% | 52% | 32% |
-| Advanced     | 70% | 68% | 48% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 60% |
+| Submission Probability | 40% |
 
 **Average Time in Position**: 45-90 seconds before pass or sweep
 
@@ -351,7 +351,7 @@ Partner plays DLR and actively attempts berimbolo and kiss of the dragon entries
 - **[[Single Leg X-Guard]]** - Transition option for bottom player when DLR hook is threatened or removed
 - **[[Side Control]]** - Primary target position after successful DLR pass completion
 - **[[Headquarters Position]]** - Intermediate passing position often reached when partially neutralizing DLR structure
-- **[[Leg Drag Position]]** - Alternative passing endpoint that exposes back and creates follow-up opportunities
+- **[[Leg Drag Control]]** - Alternative passing endpoint that exposes back and creates follow-up opportunities
 - **[[Knee on Belly]]** - Dominant consolidation option after fast mobile passes against DLR
 
 

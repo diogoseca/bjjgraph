@@ -163,7 +163,7 @@ This entry capitalizes on the opponent's standing posture above your inverted gu
 Strategically, the Straight Ankle Lock Entry serves as the primary submission-oriented exit from grasshopper guard when sweep opportunities stall. It pairs naturally with kneebar attacks from the same position, forcing the opponent to defend both the knee and ankle simultaneously. Against opponents who stand tall and wide to neutralize your sweeping game, the ankle lock entry punishes their conservative posture by attacking the most exposed target - the lead foot planted closest to your inverted body.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -213,13 +213,13 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify the target ankle**: From grasshopper guard with hips elevated, identify which of the opponent's feet is closest to your body and bearing the most weight. This lead foot becomes your primary target because it cannot easily retract without the opponent losing balance. (Timing: When opponent shifts weight onto lead foot or steps forward)
-2. **Shoot outside leg across hip line**: Drive your outside leg (the leg furthest from the target ankle) across the opponent's hip line, placing your foot on their far hip. This leg acts as a barrier preventing them from stepping backward or circling away from your entry attempt. (Timing: Immediately after identifying weight commitment)
-3. **Thread inside leg behind far knee**: Simultaneously thread your inside leg (closest to target ankle) behind the opponent's far knee, hooking with your calf or hamstring. This creates a pincer with your outside leg, trapping their lower body between your two legs and restricting their hip mobility. (Timing: Within one second of the outside leg crossing)
-4. **Capture the ankle with both hands**: As your legs frame the opponent's lower body, reach both hands toward the target ankle. Your near hand cups the heel from underneath while your far hand wraps over the top of the foot near the toes. Secure a tight two-on-one grip before proceeding, pulling the ankle toward your chest. (Timing: Grip must be established before opponent reacts to leg positioning)
-5. **Close the figure-four leg clamp**: With the ankle secured in your hands, close your legs into a tight figure-four configuration by triangling your legs around the opponent's trapped leg. Your outside leg crosses over the inside leg's ankle, creating a locked structure that prevents the opponent from pulling their leg free. (Timing: Immediately after grip is confirmed)
-6. **Hip escape to finishing angle**: Execute a small hip escape away from the captured leg, turning your body perpendicular to the opponent's trapped limb. This angular adjustment is critical because it aligns your forearm blade across the Achilles tendon at the proper angle for maximum submission pressure. (Timing: Smooth continuous motion from figure-four closure)
-7. **Establish Straight Ankle Lock Control**: Pull the captured ankle tight against your chest with your forearm blade positioned across the Achilles tendon just above the heel. Squeeze your knees together to prevent the opponent from rotating their knee inward (which would relieve pressure), and arch your hips slightly to begin applying breaking pressure on the ankle joint. (Timing: Final position - transition to finish or maintain control)
+1. **Identify the target ankle**: From grasshopper guard with hips elevated, identify which of the opponent's feet is closest to your body and bearing the most weight. This lead foot becomes your primary target because it cannot easily retract without the opponent losing balance.
+2. **Shoot outside leg across hip line**: Drive your outside leg (the leg furthest from the target ankle) across the opponent's hip line, placing your foot on their far hip. This leg acts as a barrier preventing them from stepping backward or circling away from your entry attempt.
+3. **Thread inside leg behind far knee**: Simultaneously thread your inside leg (closest to target ankle) behind the opponent's far knee, hooking with your calf or hamstring. This creates a pincer with your outside leg, trapping their lower body between your two legs and restricting their hip mobility.
+4. **Capture the ankle with both hands**: As your legs frame the opponent's lower body, reach both hands toward the target ankle. Your near hand cups the heel from underneath while your far hand wraps over the top of the foot near the toes. Secure a tight two-on-one grip before proceeding, pulling the ankle toward your chest.
+5. **Close the figure-four leg clamp**: With the ankle secured in your hands, close your legs into a tight figure-four configuration by triangling your legs around the opponent's trapped leg. Your outside leg crosses over the inside leg's ankle, creating a locked structure that prevents the opponent from pulling their leg free.
+6. **Hip escape to finishing angle**: Execute a small hip escape away from the captured leg, turning your body perpendicular to the opponent's trapped limb. This angular adjustment is critical because it aligns your forearm blade across the Achilles tendon at the proper angle for maximum submission pressure.
+7. **Establish Straight Ankle Lock Control**: Pull the captured ankle tight against your chest with your forearm blade positioned across the Achilles tendon just above the heel. Squeeze your knees together to prevent the opponent from rotating their knee inward (which would relieve pressure), and arch your hips slightly to begin applying breaking pressure on the ankle joint.
 
 
 </section>
@@ -265,23 +265,18 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 ## Training Progressions
 **Week 1-2** - Solo mechanics and partner positioning
 Practice the inverted hip elevation and leg framing motion against a standing partner who remains stationary. Focus on the sequence: outside leg across hip, inside leg thread behind knee, two-handed ankle grip, figure-four closure. Partner provides zero resistance and allows you to complete each repetition slowly. Drill 30 repetitions per side per session, emphasizing smooth transitions between each step.
-(Resistance: None)
 
 **Week 3-4** - Timing and grip acquisition speed
 Partner walks slowly around your grasshopper guard, stepping forward and backward at random intervals. Your task is to recognize the weight shift onto the lead foot and initiate the entry at the correct moment. Partner provides light resistance by attempting to retract their foot once they feel your grip. Focus on reducing the time between identifying the target and securing the ankle grip to under two seconds.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and counter-to-counter
 Partner actively defends the ankle lock entry using the four common counters: back stepping, stacking, grip stripping, and level changing. You practice transitioning between the ankle lock entry, kneebar attack, and Outside Ashi-Garami entry based on which defense they choose. Build the decision tree through repetition so that each counter triggers an automatic follow-up attack.
-(Resistance: Medium)
 
 **Week 7-8** - Live sparring integration
 Begin each round in grasshopper guard and attempt to land the Straight Ankle Lock Entry against fully resisting partners. Track your success rate and identify which defenses give you the most trouble. After each round, isolate the most common failure point and drill the specific counter for that defense. Aim to attempt the entry at least three times per five-minute round.
-(Resistance: Full)
 
 **Week 9+** - Positional sparring from various guards
 Expand entry beyond grasshopper guard by starting from De La Riva, Single Leg X, and Reverse De La Riva, inverting into grasshopper when the opportunity arises, then executing the ankle lock entry. This develops the ability to find grasshopper entries organically during live rolling rather than starting from the position. Full resistance with emphasis on reading the right moment to invert.
-(Resistance: Full)
 
 
 

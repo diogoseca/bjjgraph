@@ -366,11 +366,11 @@ Partner transitions from standard mount to Modified Mount repeatedly. Bottom pra
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 65% | 55% |
-| Intermediate | 45% | 45% | 30% |
-| Advanced     | 70% | 20% | 10% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 32% |
+| Submission Probability | 20% |
 
 **Average Time in Position**: 30-60 seconds before escape or submission at intermediate level
 

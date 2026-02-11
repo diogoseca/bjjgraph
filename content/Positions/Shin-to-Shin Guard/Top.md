@@ -377,11 +377,11 @@ Partner maintains shin-to-shin with moderate resistance. Practice applying diffe
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 40% | 20% |
-| Intermediate | 62% | 58% | 35% |
-| Advanced     | 78% | 72% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 65% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 45-120 seconds to complete clearing and passing sequence
 

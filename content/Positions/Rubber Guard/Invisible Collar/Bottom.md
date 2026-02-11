@@ -349,11 +349,11 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 20% | 75% |
-| Intermediate | 25% | 30% | 65% |
-| Advanced     | 35% | 40% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 30% |
+| Advancement Probability | 35% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: 15-45 seconds from establishment to submission or escape
 

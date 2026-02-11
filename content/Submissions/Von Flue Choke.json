@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.",
   "safety_considerations": {
     "injury_risks": [
@@ -84,50 +79,43 @@
       "step_number": 1,
       "action": "Secure side control position",
       "description": "As you pass the guard or establish side control against an opponent holding a guillotine, ensure your chest is heavy on their chest and your hips are low. Your head should be on the far side of their body, away from the arm executing the guillotine grip. Do not try to pull your head out of any partial guillotine pressure—instead, accept the position and focus on establishing dominant control.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 2,
       "action": "Position your shoulder against their neck",
       "description": "Drive your near-side shoulder (the shoulder closest to their head) directly into the side of their neck on the same side as their gripping arm. This shoulder should make contact with the soft tissue of the neck, not the jaw or chin. Your shoulder becomes the primary pressure point that will compress one carotid artery. Ensure your posture is tight with your head connected to their far shoulder.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Establish crossface control",
       "description": "Your near arm should cross their face, with your hand gripping behind their far shoulder or under their far armpit. This crossface serves multiple purposes: it prevents them from turning into you, it helps you maintain head position, and it allows you to drive additional pressure through your shoulder into their neck. Your elbow should be tight to their near side to prevent space.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 4,
       "action": "Control the far hip",
       "description": "Your far arm should reach across their body to control their far hip, either by gripping their belt, pants, or simply posting your hand on their hip bone. This control prevents them from shrimping away or turning into you. Keep your elbow tight to their ribs to maintain connection and prevent them from creating the space needed to adjust their position.",
-      "timing": "1-2 seconds",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds"
     },
     {
       "step_number": 5,
       "action": "Drive weight through the shoulder",
       "description": "Begin to gradually transfer your body weight through your shoulder into their neck. The key is to drive your weight forward and down at approximately a 45-degree angle, as if you're trying to push their head toward their far shoulder. This angle maximizes carotid compression while their own arm (still holding the guillotine) compresses the opposite carotid. Apply pressure progressively over 3-5 seconds, not suddenly.",
-      "timing": "3-5 seconds progressive application",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive application"
     },
     {
       "step_number": 6,
       "action": "Walk your hips toward their head",
       "description": "To increase the pressure and eliminate any escape routes, walk your hips in small steps toward their head. This movement serves multiple functions: it increases the downward angle of your shoulder pressure, it prevents them from using their legs to push you away, and it makes it nearly impossible for them to turn into you. Your chest should remain heavy throughout this movement.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 7,
       "action": "Maintain position until tap or release",
       "description": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application, though some may stubbornly hold their guillotine grip until they lose consciousness. Watch for their grip to loosen (a sign of impending unconsciousness) and be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip.",
-      "timing": "Hold until tap or grip release",
-      "pressure_level": "Firm"
+      "timing": "Hold until tap or grip release"
     }
   ],
   "opponent_defense_patterns": [
@@ -156,38 +144,32 @@
     {
       "error": "Applying sudden or explosive pressure to the neck",
       "consequence": "Partner loses consciousness without time to tap, risking serious injury and creating dangerous training environment",
-      "correction": "Always apply pressure progressively over 3-5 seconds minimum, watching carefully for tap signals or the grip loosening",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure progressively over 3-5 seconds minimum, watching carefully for tap signals or the grip loosening"
     },
     {
       "error": "Using the jaw or chin as the pressure point instead of the neck",
       "consequence": "No choke occurs, opponent experiences jaw pain but no real danger, technique fails",
-      "correction": "Ensure your shoulder is positioned on the soft tissue of the neck lateral to the trachea, below the jaw line, directly targeting the carotid artery",
-      "danger_level": "Medium"
+      "correction": "Ensure your shoulder is positioned on the soft tissue of the neck lateral to the trachea, below the jaw line, directly targeting the carotid artery"
     },
     {
       "error": "Failing to control the far hip, allowing opponent to turn in",
       "consequence": "Opponent escapes by turning into you and recovering guard, losing the submission and potentially the position",
-      "correction": "Maintain constant connection to the far hip with your far arm, keeping your elbow tight to prevent space creation",
-      "danger_level": "Low"
+      "correction": "Maintain constant connection to the far hip with your far arm, keeping your elbow tight to prevent space creation"
     },
     {
       "error": "Keeping hips too far from opponent's head",
       "consequence": "Insufficient angle for effective shoulder pressure, opponent can use legs to create distance and escape",
-      "correction": "Walk your hips progressively closer to their head, creating a more acute angle that increases pressure while limiting their defensive options",
-      "danger_level": "Medium"
+      "correction": "Walk your hips progressively closer to their head, creating a more acute angle that increases pressure while limiting their defensive options"
     },
     {
       "error": "Continuing to apply pressure after opponent releases the guillotine grip",
       "consequence": "Unnecessary injury risk, poor training partnership, potential for causing unconsciousness when submission is already achieved",
-      "correction": "The moment you feel their grip loosen or release, immediately remove shoulder pressure and consolidate side control—the submission is complete when they let go",
-      "danger_level": "CRITICAL"
+      "correction": "The moment you feel their grip loosen or release, immediately remove shoulder pressure and consolidate side control—the submission is complete when they let go"
     },
     {
       "error": "Lifting your head up to look around or see what's happening",
       "consequence": "Creates space under your shoulder, eliminates choke pressure, allows opponent to escape or maintain guillotine grip safely",
-      "correction": "Keep your head connected tightly to their far shoulder throughout the entire sequence, maintaining constant pressure through your shoulder to their neck",
-      "danger_level": "Medium"
+      "correction": "Keep your head connected tightly to their far shoulder throughout the entire sequence, maintaining constant pressure through your shoulder to their neck"
     }
   ],
   "variations_and_setups": [
@@ -269,55 +251,11 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Conceptual Understanding",
-      "timeframe": "Week 1",
-      "focus": "Understanding the mechanism of the Von Flue choke as a counter to the guillotine, learning proper shoulder placement on the neck, and understanding the safety implications of blood chokes",
-      "resistance_level": "None",
-      "safety_emphasis": "Study the anatomy of carotid compression and understand that this is a blood choke that can cause unconsciousness. Learn all tap signals and the immediate release protocol before any physical practice."
-    },
-    {
-      "phase": "Technical Positioning",
-      "timeframe": "Weeks 2-3",
-      "focus": "Drilling the proper side control position with shoulder on neck placement. Partner holds a loose guillotine grip while you practice positioning your shoulder correctly. No pressure applied—pure positional work.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Zero pressure on the neck. Focus only on finding the correct shoulder placement on the soft tissue of the neck. Partner provides feedback on pressure location (neck vs jaw). Practice the release protocol after each repetition."
-    },
-    {
-      "phase": "Light Pressure Application",
-      "timeframe": "Weeks 4-6",
-      "focus": "Beginning to apply very light pressure through the shoulder while partner maintains guillotine grip. Partner taps immediately upon feeling any pressure to develop your sensitivity to tap signals. Practice progressive pressure application over 5+ seconds.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Maximum 20% pressure. Partner taps at the first sensation of pressure. Both partners learn to recognize the feeling of proper choke placement vs. incorrect jaw pressure. Emphasize immediate release upon any tap signal."
-    },
-    {
-      "phase": "Moderate Pressure with Holds",
-      "timeframe": "Weeks 7-10",
-      "focus": "Increasing pressure to 40-50% while maintaining perfect shoulder placement. Partner holds their guillotine grip longer to simulate realistic scenarios but taps before any discomfort becomes significant. Practice walking hips toward head while maintaining pressure.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner must tap before feeling significant pressure. Watch carefully for grip loosening as a sign of blood flow restriction. Never exceed 5 seconds of moderate pressure. Practice recognizing verbal taps since hands may be trapped."
-    },
-    {
-      "phase": "Full Technique Integration",
-      "timeframe": "Weeks 11-16",
-      "focus": "Applying the Von Flue choke in live rolling scenarios when opportunities arise. Partner initially feeds guillotine attempts from bottom position to create practice opportunities. Gradually transition to recognizing the opportunity during natural rolling.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Still use gradual pressure application (3-5 seconds minimum). Never apply competition-speed pressure in training. Release immediately if partner's grip loosens even without a tap. Communicate after each application to ensure partner was able to tap comfortably."
-    },
-    {
-      "phase": "Advanced Application and Teaching",
-      "timeframe": "Month 5+",
-      "focus": "Developing the ability to recognize Von Flue opportunities in various positions (half guard, scrambles, guard passing). Learning to teach the technique to others with proper safety emphasis. Exploring variations and combinations.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Model perfect safety protocols when teaching others. Emphasize that the Von Flue works as a deterrent—once training partners know you can apply it, they stop holding guillotines from bottom, which is the real goal. Never use the technique to prove a point or punish a training partner."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Half Guard",
     "North-South",
-    "North South Control",
+    "North-South",
     "Knee on Belly",
     "Side Control Consolidation",
     "Mount",
@@ -368,5 +306,6 @@
       "name": "Mount",
       "relationship": "Alternative finish position when opponent bridges during Von Flue attempt"
     }
-  ]
+  ],
+  "success_rate": 58
 }

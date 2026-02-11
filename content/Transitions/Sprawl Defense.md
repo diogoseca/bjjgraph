@@ -165,7 +165,7 @@ description: "Master the sprawl defense in BJJ. Essential takedown defense techn
 The sprawl is the fundamental defensive response to takedown attempts in Brazilian Jiu-Jitsu and wrestling. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 85%
+**Success Rate**: 75%
 
 </section>
 
@@ -214,14 +214,14 @@ The sprawl is the fundamental defensive response to takedown attempts in Brazili
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize takedown entry**: Identify opponent's level change and forward drive as they shoot for your legs. Watch for their head drop, stance change, and penetration step that signals the takedown attempt. (Timing: Immediate reaction - within 0.2 seconds of opponent's level change)
-2. **Drive hips back explosively**: Explosively thrust your hips backward and downward in a powerful hip extension movement. Your hips should drive back at a 45-degree angle, not straight down, to maximize distance from opponent's grip while maintaining pressure. (Timing: Simultaneous with leg shoot)
-3. **Shoot legs back**: Simultaneously shoot both legs straight back, extending them fully to move your hips away from opponent's reaching hands. Your legs should be completely straight and toes pointed, with weight shifting forward onto your chest and hands. (Timing: Instantaneous with hip drive)
-4. **Establish cross-face pressure**: Drive your chest and shoulder weight down onto opponent's upper back and neck area. Position your head on one side of their head while your near-side arm establishes a strong cross-face, applying pressure across their face and neck to prevent them from looking up. (Timing: As soon as chest contacts opponent's back)
-5. **Secure front headlock control**: Slide your arm around opponent's head to establish front headlock position. Your armpit should be tight over the back of their head with your hands locked in a gable grip or guillotine grip position, controlling their posture completely. (Timing: Within 1-2 seconds of successful sprawl)
-6. **Pin hips to mat**: Drive your hips forward and down to the mat, creating maximum pressure on opponent's back and preventing them from recovering their base. Your hips should be heavy and close to the ground, making it extremely difficult for them to stand or reposition. (Timing: Continuous pressure throughout control phase)
-7. **Control far-side arm**: Use your free hand to control opponent's far-side arm, either overhooking it or pinning it to their body. This prevents them from posting to recover position and sets up various submission and transition options. (Timing: After establishing secure head control)
-8. **Transition to offensive position**: Move to either guillotine attack, anaconda choke, darce choke, or continue transitioning around to back control or side control. The specific transition depends on opponent's defensive reactions and your positional preferences. (Timing: Based on opponent's defensive movement)
+1. **Recognize takedown entry**: Identify opponent's level change and forward drive as they shoot for your legs. Watch for their head drop, stance change, and penetration step that signals the takedown attempt.
+2. **Drive hips back explosively**: Explosively thrust your hips backward and downward in a powerful hip extension movement. Your hips should drive back at a 45-degree angle, not straight down, to maximize distance from opponent's grip while maintaining pressure.
+3. **Shoot legs back**: Simultaneously shoot both legs straight back, extending them fully to move your hips away from opponent's reaching hands. Your legs should be completely straight and toes pointed, with weight shifting forward onto your chest and hands.
+4. **Establish cross-face pressure**: Drive your chest and shoulder weight down onto opponent's upper back and neck area. Position your head on one side of their head while your near-side arm establishes a strong cross-face, applying pressure across their face and neck to prevent them from looking up.
+5. **Secure front headlock control**: Slide your arm around opponent's head to establish front headlock position. Your armpit should be tight over the back of their head with your hands locked in a gable grip or guillotine grip position, controlling their posture completely.
+6. **Pin hips to mat**: Drive your hips forward and down to the mat, creating maximum pressure on opponent's back and preventing them from recovering their base. Your hips should be heavy and close to the ground, making it extremely difficult for them to stand or reposition.
+7. **Control far-side arm**: Use your free hand to control opponent's far-side arm, either overhooking it or pinning it to their body. This prevents them from posting to recover position and sets up various submission and transition options.
+8. **Transition to offensive position**: Move to either guillotine attack, anaconda choke, darce choke, or continue transitioning around to back control or side control. The specific transition depends on opponent's defensive reactions and your positional preferences.
 
 
 </section>
@@ -267,27 +267,21 @@ The sprawl is the fundamental defensive response to takedown attempts in Brazili
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Isolated sprawl movement and hip mechanics
 Practice sprawl motion from standing with no opponent. Focus on explosive hip drive, full leg extension, and proper weight distribution. Drill 10-15 repetitions emphasizing form over speed. Partner calls out random signals for sprawl reaction training.
-(Resistance: None)
 
 **Week 3-4: Partner Reaction Drills** - Timing sprawl against slow-motion takedown attempts
 Partner shoots double leg or single leg at 50% speed. Practice recognizing level change and executing sprawl with proper timing. Emphasize establishing front headlock control after successful sprawl. Reset and repeat 15-20 times per session.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Sprawl with Transitions** - Sprawling against increasing speed and transitioning to offense
 Partner shoots at 75% speed with varied timing and angles. After successful sprawl, work transitions to guillotine, anaconda, or darce. Practice both finishing submissions and transitioning to back control or side control. Include counters for when sprawl is incomplete.
-(Resistance: Medium)
 
 **Week 9-12: Competitive Drilling** - Full-speed sprawl defense in situational sparring
 Start standing with partner attempting various takedowns at full intensity. Defend with sprawl and work for dominant position or submission. Partner can chain takedown attempts and adjust based on your defense. 3-minute rounds with 1-minute rest, multiple rounds.
-(Resistance: Full)
 
 **Week 13+: Integration and Combinations** - Sprawl as part of complete standing defense system
 Incorporate sprawl into larger defensive sequences including sprawl to guillotine, sprawl to anaconda, sprawl to back take. Practice against wrestlers and judoka with strong takedown games. Include in regular sparring from standing.
-(Resistance: Full)
 
 **Ongoing: Maintenance and Refinement** - Continuous technical improvement and adaptation
 Regularly drill sprawl mechanics as part of warm-up routine. Analyze sprawl effectiveness in sparring and competition. Adjust timing and pressure based on different opponent body types and styles. Study high-level wrestling and MMA for advanced sprawl variations.
-(Resistance: Full)
 
 
 
@@ -358,7 +352,7 @@ The sprawl defense is the cornerstone of standing defense in Brazilian Jiu-Jitsu
 - [[Front Headlock]] - Primary position after successful sprawl
 - [[Guillotine Control]] - Common submission transition from sprawl
 - [[Anaconda Control]] - Alternative submission setup from sprawl position
-- [[D'arce Control]] - Submission option when opponent extends arm during sprawl defense
+- [[Darce Control]] - Submission option when opponent extends arm during sprawl defense
 - [[Single Leg Takedown]] - Alternative attack requiring sprawl defense
 - [[Snap Down to Front Headlock]] - Offensive follow-up after controlling sprawl position
 - [[Standing up in Base]] - Recovery technique if sprawl is incomplete

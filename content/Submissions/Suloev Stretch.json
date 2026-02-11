@@ -14,11 +14,6 @@
   "submission_type": "Knee Compression",
   "target_area": "Knee joint and calf muscle",
   "starting_position": "Top position with leg control",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Suloev Stretch is a sophisticated knee compression submission that combines elements of both joint manipulation and muscular pressure. Named after Russian MMA fighter Amar Suloev, this technique attacks the posterior knee joint while simultaneously compressing the calf muscle against the hamstring, creating a dual-threat submission that can finish fights rapidly when applied correctly. The position is typically entered from top positions where the attacker has controlled one of the opponent's legs, most commonly from half guard top, knee shield passes, or leg entanglement positions. Unlike traditional straight leg locks that attack the ankle or traditional knee bars that hyperextend the knee joint, the Suloev Stretch creates a bending compression force on the knee while the practitioner's body weight drives the opponent's heel toward their own buttocks. This creates an intense pressure that combines knee joint stress with severe calf muscle compression, often resulting in immediate taps from even experienced grapplers. The technique requires excellent positional control and precise body mechanics, as the finishing pressure comes from hip extension and proper angle creation rather than raw pulling force. Understanding the biomechanics of knee compression and maintaining control throughout the entry and finish are essential for safe and effective application of this powerful submission.",
   "safety_considerations": {
     "injury_risks": [
@@ -89,43 +84,37 @@
       "step_number": 1,
       "action": "Isolate and Control the Target Leg",
       "description": "From top position (commonly half guard top, knee shield pass, or leg entanglement), secure control of one of your opponent's legs. Cup the ankle or control the lower leg while using your weight to prevent them from extending the leg fully. Your chest and shoulder pressure should be driving into their upper body to prevent them from sitting up. This initial control is critical - if they can extend the leg or create distance, the entry becomes impossible.",
-      "timing": "Initial control phase - 2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Initial control phase - 2-3 seconds"
     },
     {
       "step_number": 2,
       "action": "Step Over with Near Leg",
       "description": "Take your leg that is closest to their head (near leg) and step it over their trapped leg, positioning your shin across their thigh just above the knee. This creates the first part of the figure-four configuration. Your foot should be positioned so you can hook it around your own ankle in the next step. Maintain downward pressure with your upper body throughout this transition to prevent them from recovering guard or extracting the leg.",
-      "timing": "Transition phase - 1-2 seconds",
-      "pressure_level": "Firm"
+      "timing": "Transition phase - 1-2 seconds"
     },
     {
       "step_number": 3,
       "action": "Complete the Figure-Four Lock",
       "description": "Bring your far leg (the one near their feet) underneath their trapped leg and hook your own ankle with your foot, completing a figure-four configuration around their leg. Your legs should form a tight lock with their leg trapped inside, their knee bent, and their heel pulled toward their own buttocks. Squeeze your knees together slightly to secure the lock. This figure-four creates the structural integrity needed for the submission and prevents the leg from escaping.",
-      "timing": "Lock completion - 2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "Lock completion - 2-3 seconds"
     },
     {
       "step_number": 4,
       "action": "Establish Hip and Upper Body Position",
       "description": "Position your hips close to their hip on the trapped leg side. Your chest should be driving into their upper body, keeping them flat on their back or preventing them from turning into you. Control their far arm or establish a crossface if needed to prevent rotation. Your body position should create a 'T' shape where your torso is perpendicular to theirs, with your hips loaded and ready to extend forward. This positioning is crucial - your hips must be in alignment to generate the compression force.",
-      "timing": "Position refinement - 2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "Position refinement - 2-3 seconds"
     },
     {
       "step_number": 5,
       "action": "Create the Compression Angle",
       "description": "Adjust the angle of their trapped leg so their heel is being pulled toward their own buttocks by your figure-four lock. Their knee should be bent at approximately 90-120 degrees. Use small adjustments with your legs to ensure their calf muscle is pressed firmly against their hamstring. The tighter you can make this calf-to-hamstring compression before extending your hips, the more effective the submission. In training, communicate with your partner at this stage to ensure proper positioning before applying pressure.",
-      "timing": "Angle adjustment - 2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "Angle adjustment - 2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Apply Hip Extension Pressure",
       "description": "Slowly and progressively extend your hips forward while maintaining all other controls. This hip extension drives your body weight through the figure-four lock, increasing the compression of their calf into their hamstring while simultaneously creating pressure on the posterior knee joint. The pressure should be smooth and gradual - imagine pushing your hips forward toward their head in a controlled manner. In training, apply this pressure over 5-7 seconds minimum, constantly monitoring for the tap. The submission creates intense pressure rapidly, so controlled application is essential for safety.",
-      "timing": "Finish application - 5-7 seconds minimum in training",
-      "pressure_level": "Maximum"
+      "timing": "Finish application - 5-7 seconds minimum in training"
     }
   ],
   "opponent_defense_patterns": [
@@ -154,8 +143,7 @@
     {
       "error": "Applying explosive or jerking pressure to finish the submission",
       "consequence": "Immediate severe knee injury or calf tear, potentially ending training partner's ability to train for months",
-      "correction": "Always apply smooth, progressive pressure over 5-7 seconds minimum in training. The submission is effective with controlled pressure - explosive force is never necessary and violates fundamental training safety principles",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply smooth, progressive pressure over 5-7 seconds minimum in training. The submission is effective with controlled pressure - explosive force is never necessary and violates fundamental training safety principles"
     },
     {
       "error": "Poor figure-four lock structure allowing the leg to slip out",
@@ -175,14 +163,12 @@
     {
       "error": "Attempting the submission without proper angle, leaving their knee not fully bent",
       "consequence": "Submission lacks effectiveness, opponent experiences pressure but not sufficient to finish, increased injury risk from improper mechanics",
-      "correction": "Before applying hip extension pressure, ensure their heel is pulled toward their buttocks and their calf is compressed against their hamstring. Use small adjustments with your figure-four to dial in the perfect angle. The setup is 80% of the effectiveness",
-      "danger_level": "High"
+      "correction": "Before applying hip extension pressure, ensure their heel is pulled toward their buttocks and their calf is compressed against their hamstring. Use small adjustments with your figure-four to dial in the perfect angle. The setup is 80% of the effectiveness"
     },
     {
       "error": "Continuing pressure after partner taps or shows distress",
       "consequence": "Severe injury to training partner, violation of academy culture, potential permanent damage to relationship and their training",
-      "correction": "Develop acute awareness of tap signals and immediately release all pressure the instant you feel or hear a tap. In training, err on the side of releasing too early rather than too late. Your partner's safety is always more important than finishing the submission",
-      "danger_level": "CRITICAL"
+      "correction": "Develop acute awareness of tap signals and immediately release all pressure the instant you feel or hear a tap. In training, err on the side of releasing too early rather than too late. Your partner's safety is always more important than finishing the submission"
     },
     {
       "error": "Forcing the position when the angle or control is not optimal",
@@ -269,50 +255,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Anatomy Study",
-      "timeframe": "Week 1-2",
-      "focus": "Study the submission mechanics, anatomy of knee compression, injury risks, and proper body positioning without any live application. Use instructional videos, diagrams, and theoretical discussion with qualified instructor.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand all injury risks before ever attempting the technique. Learn to recognize the anatomical dangers and why controlled application is non-negotiable. Review multiple tap signal methods and release protocols."
-    },
-    {
-      "phase": "Static Position Drilling",
-      "timeframe": "Week 3-4",
-      "focus": "Practice establishing the figure-four lock configuration and body positioning on a completely cooperative partner without applying any finishing pressure. Focus entirely on the mechanics of the lock, hip positioning, and upper body controls. Partner provides zero resistance and communicates throughout.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "No finishing pressure applied whatsoever. Partner should feel the position and structure but never experience compression. Practice release protocols multiple times. Emphasize that speed is never used in this submission."
-    },
-    {
-      "phase": "Controlled Pressure Introduction",
-      "timeframe": "Week 5-8",
-      "focus": "Begin applying minimal finishing pressure (20-30% of maximum) over extended time periods (10+ seconds). Constant communication with training partner about pressure levels. Partner should tap early and often as you both calibrate what different pressure levels feel like.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Establish personal maximum pressure levels that are safe for training. Practice stopping immediately at the first sign of discomfort. Never exceed 30% pressure during this phase. Both partners develop awareness of how quickly pressure builds."
-    },
-    {
-      "phase": "Flow Rolling Integration",
-      "timeframe": "Week 9-12",
-      "focus": "Incorporate the submission into flow rolling at 40-50% intensity with trusted partners. Focus on entries from half guard top and knee shield passes. Apply finishing pressure at 30-40% maximum over 7-10 seconds. Partner resists position but not the submission itself once locked.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Clear agreement before training that this submission will be practiced. Both partners understand pressure limits. Practice tap-and-release protocols in realistic contexts. Immediately stop if position feels wrong or control is compromised."
-    },
-    {
-      "phase": "Positional Sparring with Defensive Responses",
-      "timeframe": "Month 4-6",
-      "focus": "Controlled positional sparring from relevant starting positions (half guard top, knee shield scenarios) where both partners can attempt entries but apply limited finishing pressure (50-60% maximum). Defend the entry and position, but tap early once the lock is secure.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners agree on maximum pressure levels before starting. Tap early when locked - defending the finish is not the training goal. Focus remains on entry mechanics and position rather than finishing effectiveness. Review safety protocols before each session."
-    },
-    {
-      "phase": "Advanced Application and Competition Preparation",
-      "timeframe": "Month 6+",
-      "focus": "Full resistance training with experienced partners who understand the risks. Apply realistic finishing pressure (70-80% maximum) with understanding that taps will come quickly. In competition, can use full pressure, but in training always maintain control and respect. Continued emphasis on smooth application even at higher intensity.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Reserved for advanced practitioners only. Never practice at full speed or explosive pressure even at this level. Maintain clear communication and established trust with training partners. Regularly review injury risks and safety protocols. Immediate medical assessment if any unusual knee pain or calf pain occurs during or after training."
-    }
-  ],
   "from_positions": [
     "Half Guard",
     "Deep Half Guard",
@@ -364,5 +306,6 @@
       "name": "Calf Slicer",
       "relationship": "Closely related submission - Uses similar calf compression principles but with different body positioning"
     }
-  ]
+  ],
+  "success_rate": 60
 }

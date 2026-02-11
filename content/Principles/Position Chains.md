@@ -340,7 +340,7 @@ Video analysis of high-level competition matches identifying successful position
 
 ### Related Principles
 - **[[Positional Hierarchy]]** (Prerequisite): Understanding relative value of positions is essential foundation for constructing effective chains, as chains must progress toward increasingly dominant positions to be strategically sound.
-- **[[Position Transitions]]** (Prerequisite): Technical proficiency in individual transitions forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence.
+- **[[Transition Sequences]]** (Prerequisite): Technical proficiency in linking individual transitions into sequences forms the building blocks of position chains, as chains are constructed from reliable transitional movements linked in strategic sequence.
 - **[[Submission Chains]]** (Complementary): Position chains and submission chains work synergistically, with positional progression creating submission opportunities while submission threats force defensive reactions that enable positional advancement.
 - **[[Transition Management]]** (Complementary): Effective transition management ensures smooth execution of position chains by maintaining control points throughout sequential movements and preventing opponent from interrupting progression between positions.
 - **[[Dilemma Creation]]** (Extension): Advanced application of position chains involves constructing sequences where opponent defensive choices at each position create vulnerabilities to subsequent positions, forcing selection between multiple unfavorable outcomes.
@@ -355,7 +355,7 @@ Video analysis of high-level competition matches identifying successful position
 
 ### Related Content
 - [[Positional Hierarchy]] (Principle) - Essential prerequisite understanding relative position values that determines which chains represent genuine advancement versus lateral movements
-- [[Position Transitions]] (Principle) - Foundational technical elements that form building blocks of chains, with reliable transitions enabling construction of high-percentage sequences
+- [[Transition Sequences]] (Principle) - Foundational sequencing concepts that form building blocks of chains, with reliable transition sequences enabling construction of high-percentage positional progressions
 - [[Submission Chains]] (Principle) - Complementary chaining concept where submission sequences integrate with positional chains to create comprehensive offensive systems
 - [[Transition Management]] (Principle) - Technical framework for maintaining control during sequential movements, ensuring smooth chain execution without positional interruptions
 - [[System Building]] (Principle) - Advanced evolution where position chains become interconnected networks forming cohesive strategic systems around core positions

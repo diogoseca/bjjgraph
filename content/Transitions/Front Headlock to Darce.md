@@ -17,7 +17,7 @@ description: "Learn Front Headlock to Darce in BJJ. Step-by-step execution from 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Front Headlock to Darce in BJJ",
-  "description": "Step-by-step guide for Front Headlock to Darce from Front Headlock/Top. Possible outcomes: D'arce Control/Top (70%), Front Headlock/Top (20%), Front Headlock/Bottom (10%).",
+  "description": "Step-by-step guide for Front Headlock to Darce from Front Headlock/Top. Possible outcomes: Darce Control/Top (70%), Front Headlock/Top (20%), Front Headlock/Bottom (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -163,7 +163,7 @@ The effectiveness of this transition lies in its seamless flow from control to s
 This transition is fundamental to modern no-gi grappling and represents a cornerstone of systematic front headlock attack systems. It combines well with other front headlock finishes, creating a web of attacks that force opponents into submission dilemmas. Mastery of this technique provides both a high-percentage finishing option and a powerful position from which to chain multiple submission attempts.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -173,7 +173,7 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[D'arce Control/Top]] | 70% |
+| Success | [[Darce Control/Top]] | 70% |
 | Failure | [[Front Headlock/Top]] | 20% |
 | Counter | [[Front Headlock/Bottom]] | 10% |
 
@@ -213,13 +213,13 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure front headlock control**: Establish a tight front headlock position with your arm wrapped deep around the opponent's neck. Your bicep should be against one side of their neck while your forearm compresses the other side. Pull their head tight to your chest or hip while driving downward pressure with your body weight. Maintain a low stance with your hips back and chest over their shoulders. (Timing: Initial control phase - maintain until opponent begins defensive movement)
-2. **Insert underhook on choking side**: As the opponent circles or attempts to escape, thread your free arm under their far armpit on the same side as your choking arm. The underhook should be deep, with your shoulder driving into their armpit. Keep your elbow tight and forearm pressed against their ribs. This creates the foundation for the Darce configuration by controlling both the head and the far side of their body simultaneously. (Timing: Insert during opponent's defensive movement - capitalize on their circling)
-3. **Lock figure-four arm configuration**: Bring your choking arm across to meet your underhooking arm. The hand of your choking arm should grip the bicep of your underhooking arm, creating a figure-four lock. Alternatively, grip your own wrist for a deeper configuration. The opponent's neck should be trapped in the triangle formed by your arms with their shoulder completing the choke structure. Ensure the lock is tight before proceeding. (Timing: Lock immediately after underhook is secured - before opponent can defend)
-4. **Control opponent's near hip**: With your non-choking hand now free (after establishing the arm lock), immediately grip the opponent's near hip or pants. This control prevents them from rolling through or executing a granby roll escape. Drive your weight into their shoulder while maintaining the hip control. Your chest should be heavy on their trapped shoulder. (Timing: Establish hip control simultaneously with figure-four lock)
-5. **Circle to perpendicular position**: Begin circling your body toward the choking side while keeping the figure-four locked and hip controlled. Your goal is to position your body perpendicular to your opponent's torso. Step your inside leg (closer to opponent's head) across and in front of their body. Your outside leg should post wide for base. Continue circling until your chest is across their upper back and shoulders. (Timing: Smooth continuous motion - do not pause mid-circle)
-6. **Drop to mat and secure submission position**: Once perpendicular to the opponent, drop your hip to the mat on the choking side while pulling the opponent onto their side or toward you. Lock your legs around their torso or squeeze your knees together if they defend the body triangle. The opponent should be on their side with your chest driving into their trapped shoulder. Your choking forearm should be across their neck while the underhook prevents their body from turning. (Timing: Drop weight suddenly to prevent opponent from establishing defensive base)
-7. **Finish the Darce choke**: With the Darce fully locked, expand your chest while pulling your elbows together to tighten the noose. Your choking-side shoulder should drive into the back of their neck while your opposite shoulder pulls their trapped arm across their own neck. Arch your back slightly and squeeze your knees if you have a body lock. The choke should be cutting off blood flow on both sides of the neck. Apply pressure gradually until opponent taps. (Timing: Gradual squeeze - 3-5 seconds application, never sudden)
+1. **Secure front headlock control**: Establish a tight front headlock position with your arm wrapped deep around the opponent's neck. Your bicep should be against one side of their neck while your forearm compresses the other side. Pull their head tight to your chest or hip while driving downward pressure with your body weight. Maintain a low stance with your hips back and chest over their shoulders.
+2. **Insert underhook on choking side**: As the opponent circles or attempts to escape, thread your free arm under their far armpit on the same side as your choking arm. The underhook should be deep, with your shoulder driving into their armpit. Keep your elbow tight and forearm pressed against their ribs. This creates the foundation for the Darce configuration by controlling both the head and the far side of their body simultaneously.
+3. **Lock figure-four arm configuration**: Bring your choking arm across to meet your underhooking arm. The hand of your choking arm should grip the bicep of your underhooking arm, creating a figure-four lock. Alternatively, grip your own wrist for a deeper configuration. The opponent's neck should be trapped in the triangle formed by your arms with their shoulder completing the choke structure. Ensure the lock is tight before proceeding.
+4. **Control opponent's near hip**: With your non-choking hand now free (after establishing the arm lock), immediately grip the opponent's near hip or pants. This control prevents them from rolling through or executing a granby roll escape. Drive your weight into their shoulder while maintaining the hip control. Your chest should be heavy on their trapped shoulder.
+5. **Circle to perpendicular position**: Begin circling your body toward the choking side while keeping the figure-four locked and hip controlled. Your goal is to position your body perpendicular to your opponent's torso. Step your inside leg (closer to opponent's head) across and in front of their body. Your outside leg should post wide for base. Continue circling until your chest is across their upper back and shoulders.
+6. **Drop to mat and secure submission position**: Once perpendicular to the opponent, drop your hip to the mat on the choking side while pulling the opponent onto their side or toward you. Lock your legs around their torso or squeeze your knees together if they defend the body triangle. The opponent should be on their side with your chest driving into their trapped shoulder. Your choking forearm should be across their neck while the underhook prevents their body from turning.
+7. **Finish the Darce choke**: With the Darce fully locked, expand your chest while pulling your elbows together to tighten the noose. Your choking-side shoulder should drive into the back of their neck while your opposite shoulder pulls their trapped arm across their own neck. Arch your back slightly and squeeze your knees if you have a body lock. The choke should be cutting off blood flow on both sides of the neck. Apply pressure gradually until opponent taps.
 
 
 </section>
@@ -269,27 +269,21 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Understanding the arm configuration and basic positioning
 Practice establishing front headlock control and inserting the underhook from static positions. Partner remains still in turtle while you drill the steps slowly: front headlock, underhook, figure-four lock, circle, finish position. Focus on proper hand placement and arm angles. Repeat 20-30 reps per training session.
-(Resistance: None)
 
 **Week 3-4: Timing and Entry** - Coordinating the transition with opponent movement
 Partner provides light movement in turtle position - circling, hand fighting, attempting to stand. Practice timing the underhook insertion as they move. Begin recognizing the ideal moments to transition from front headlock to Darce. Drill both successful and failed attempts to understand decision points.
-(Resistance: Light)
 
 **Week 5-6: Controlling Hip and Preventing Escapes** - Adding hip control and defending common counters
 Partner actively attempts granby rolls and other escape attempts. Focus specifically on hip control timing and maintaining connection throughout opponent's defensive movements. Practice following through rolls while keeping the lock tight. Drill counter-responses to each major escape attempt.
-(Resistance: Medium)
 
 **Week 7-8: Circling and Finishing Mechanics** - Perfecting the circle to perpendicular position and final squeeze
 Partner provides resistance to your circling movement and defends the finish. Practice maintaining structure while circling, dropping weight effectively, and securing the final position. Work on finishing the choke with proper shoulder pressure and elbow connection rather than arm strength. Drill alternative finishes if primary position is compromised.
-(Resistance: Medium)
 
 **Week 9-12: Competition Drilling** - Full resistance integration with chain attacks
 Live situational sparring starting from front headlock control with partner using full defensive effort. Practice recognizing when the Darce is available versus when to switch to alternative attacks (anaconda, guillotine, back take). Begin chaining techniques based on opponent's defensive choices. Include scramble situations where front headlock is established dynamically.
-(Resistance: Full)
 
 **Month 4+: Advanced Applications** - Variations, setups, and systematic integration
 Incorporate the Darce into your complete front headlock system. Practice entries from standing, during takedown defense, from turtle attacks, and scrambles. Develop the ability to recognize and capitalize on Darce opportunities in live rolling without specifically hunting for it. Experiment with grip variations and finishing adjustments for different body types.
-(Resistance: Full)
 
 
 
@@ -361,7 +355,7 @@ The Front Headlock to Darce transition is a cornerstone technique within the sys
 - [[Front Headlock to Back]] - Alternative transition - positional advancement option when submissions are defended
 - [[Darce from Turtle]] - Related entry - alternative way to establish the Darce from similar position
 - [[Anaconda Choke]] - Follow-up technique - common switch when Darce is defended by opponent circling toward choking arm
-- [[D'arce-Anaconda Connection]] - System integration - conceptual framework for switching between these related submissions
+- [[Darce-Anaconda Connection]] - System integration - conceptual framework for switching between these related submissions
 - [[Front Headlock Series]] - Parent system - the comprehensive attack system this technique belongs to
 - [[Turtle to Back Take]] - Position alternative - option when opponent defends all front headlock submissions
 - [[Arm Triangle]] - Related choke - uses similar shoulder pressure and arm configuration principles

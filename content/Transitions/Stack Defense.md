@@ -153,7 +153,7 @@ description: "Learn Stack Defense in BJJ. Counter stack passes with frame manage
 Stack Defense is a fundamental defensive skill for maintaining guard when an opponent attempts to stack you by driving your knees toward your shoulders and passing around your legs. This defensive framework combines frame management, hip escape mechanics, and strategic angle recovery to neutralize one of the most common guard passing approaches in both gi and no-gi grappling. The stack pass creates pressure by folding your body, compressing your spine, and limiting your hip mobility—making it essential to understand proper defensive posture and escape mechanics. Effective stack defense requires recognizing the pass early, establishing strong frames to create distance, using hip movement to recover optimal angles, and maintaining active leg engagement to prevent the passer from consolidating control. This technique is critical for guard players at all levels, as the stack pass is a high-percentage attack that can lead to mount, side control, or submission opportunities if not properly defended.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ Stack Defense is a fundamental defensive skill for maintaining guard when an opp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize stack initiation**: As opponent begins driving your knees toward your shoulders to initiate the stack pass, immediately recognize the threat. Feel for the characteristic forward pressure that aims to fold your body and compress your spine. This early recognition is critical for timely defensive response before the stack becomes fully established. (Timing: Immediately upon feeling forward driving pressure)
-2. **Establish primary frames**: Create strong frames using both hands against opponent's hips, shoulders, or biceps to prevent them from achieving full stacking position. Push your palms into their hip bones or cup your hands over their shoulders, creating maximum distance between your torso and theirs. These frames are your first line of defense against the crushing pressure of the stack. (Timing: Within first second of recognizing stack attempt)
-3. **Angle hip away from pressure**: While maintaining your frames, perform a strong hip escape (shrimp) to angle your hips away from the direction of the opponent's passing pressure. Turn your body 45-90 degrees to the side, creating an angle that makes it mechanically difficult for the opponent to continue driving forward. This hip movement is the cornerstone of effective stack defense. (Timing: Immediately after frames are established)
-4. **Recover guard structure**: As you create the angle with your hip escape, simultaneously work to get your knees back between you and your opponent, re-establishing your guard structure. Use your frames to push their upper body away while your hips move laterally, creating the space needed to recover proper leg positioning. Insert your bottom knee as a shield between your bodies. (Timing: During hip escape movement)
-5. **Re-engage hooks and grips**: Once you've created enough angle and space, immediately re-engage your leg hooks (butterfly hooks, de la riva hooks, or closed guard) and establish controlling grips on opponent's sleeves, collar, or body. This re-engagement prevents them from simply re-initiating the stack pass and gives you offensive options to sweep or submit. (Timing: As soon as space is created)
-6. **Transition to offensive action**: With frames maintained and guard structure recovered, immediately transition to an offensive technique such as a sweep, submission attempt, or guard variation change. Do not remain passive after defending the stack—capitalize on the opponent's failed passing attempt by attacking with techniques like hip bump sweep, triangle setup, or omoplata threat to prevent them from re-establishing passing pressure. (Timing: Within 2-3 seconds of recovering guard)
+1. **Recognize stack initiation**: As opponent begins driving your knees toward your shoulders to initiate the stack pass, immediately recognize the threat. Feel for the characteristic forward pressure that aims to fold your body and compress your spine. This early recognition is critical for timely defensive response before the stack becomes fully established.
+2. **Establish primary frames**: Create strong frames using both hands against opponent's hips, shoulders, or biceps to prevent them from achieving full stacking position. Push your palms into their hip bones or cup your hands over their shoulders, creating maximum distance between your torso and theirs. These frames are your first line of defense against the crushing pressure of the stack.
+3. **Angle hip away from pressure**: While maintaining your frames, perform a strong hip escape (shrimp) to angle your hips away from the direction of the opponent's passing pressure. Turn your body 45-90 degrees to the side, creating an angle that makes it mechanically difficult for the opponent to continue driving forward. This hip movement is the cornerstone of effective stack defense.
+4. **Recover guard structure**: As you create the angle with your hip escape, simultaneously work to get your knees back between you and your opponent, re-establishing your guard structure. Use your frames to push their upper body away while your hips move laterally, creating the space needed to recover proper leg positioning. Insert your bottom knee as a shield between your bodies.
+5. **Re-engage hooks and grips**: Once you've created enough angle and space, immediately re-engage your leg hooks (butterfly hooks, de la riva hooks, or closed guard) and establish controlling grips on opponent's sleeves, collar, or body. This re-engagement prevents them from simply re-initiating the stack pass and gives you offensive options to sweep or submit.
+6. **Transition to offensive action**: With frames maintained and guard structure recovered, immediately transition to an offensive technique such as a sweep, submission attempt, or guard variation change. Do not remain passive after defending the stack—capitalize on the opponent's failed passing attempt by attacking with techniques like hip bump sweep, triangle setup, or omoplata threat to prevent them from re-establishing passing pressure.
 
 
 </section>
@@ -250,23 +250,18 @@ Stack Defense is a fundamental defensive skill for maintaining guard when an opp
 ## Training Progressions
 **Week 1-2: Frame Recognition and Positioning** - Developing sensitivity to stack pass initiation and establishing proper defensive frames
 Partner drills where opponent slowly initiates stack pass and you practice recognizing the pressure immediately and establishing frames on hips, shoulders, and biceps. Focus on hand placement, arm extension angles, and creating maximum distance between torsos. Practice identifying optimal frame positions for different body types and stack pass variations.
-(Resistance: None)
 
 **Week 3-4: Hip Escape Mechanics Under Pressure** - Combining frames with hip escape movements to create angles
 Progressive resistance drills where partner applies moderate stacking pressure and you practice maintaining frames while executing hip escapes at 45-90 degree angles. Focus on coordinating upper body frames with lower body hip movement, ensuring frames stay strong throughout the shrimping motion. Repeat 10-15 reps per side until movement becomes automatic.
-(Resistance: Light)
 
 **Week 5-8: Guard Recovery Sequences** - Transitioning from defensive frames to re-establishing guard structure
 Situational sparring starting from early stack pass position where you must defend, create angle, and recover a specific guard type (closed guard, butterfly, de la riva, etc.). Partner provides 50-70% resistance, allowing you to work through the full defensive sequence but challenging your timing and technique. Focus on smooth transitions from defense to re-engaged guard.
-(Resistance: Medium)
 
 **Week 9-12: Offensive Transitions After Defense** - Capitalizing on successful stack defense with immediate sweeps or submissions
 Flow rolling where partner attempts stack passes at 70% intensity and you must defend then immediately attack with predetermined techniques (hip bump sweep, triangle, omoplata, etc.). Emphasize the principle that defense should flow directly into offense without pause. Track success rate of defenses that lead to positional gains versus those that merely return to neutral guard.
-(Resistance: Medium)
 
 **Week 13+: Competition Simulation** - Full resistance stack defense in live rolling scenarios
 Live rolling with emphasis on stack pass defense, where you start in guard and partner can use any guard passing approach including stack passes. Focus on early recognition, efficient energy expenditure, and maintaining offensive initiative even while defending. Review footage to identify patterns in successful versus unsuccessful defenses.
-(Resistance: Full)
 
 
 

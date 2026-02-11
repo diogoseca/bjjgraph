@@ -153,7 +153,7 @@ description: "Learn Double Leg Entry in BJJ. Step-by-step execution from standin
 The Double Leg Entry is a fundamental wrestling-based takedown that serves as a cornerstone technique for standing grappling exchanges in Brazilian Jiu-Jitsu. This technique involves penetrating your opponent's defensive space, securing both legs simultaneously, and driving through to establish a dominant position on the ground. The double leg entry is distinguished from the finish itself - it focuses on the critical initial phases of level change, penetration step, and leg capture that create the conditions for a successful takedown. Understanding proper entry mechanics is essential because even perfect finishing technique cannot compensate for poor penetration and positioning. The double leg entry requires precise timing, explosive movement, and tactical deception to bypass an opponent's defensive posture. Unlike other takedown approaches that rely on upper body control, the double leg entry commits fully to attacking the opponent's base by removing both legs from the equation simultaneously. This creates an unavoidable mechanical disadvantage for the defender once proper penetration is achieved. Mastery of the double leg entry provides a reliable method for taking the fight to the ground on your terms, establishing top position, and controlling the pace of engagement from the opening exchange.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -203,12 +203,12 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Create Setup Opportunity**: Engage in hand fighting or grip exchanges to occupy opponent's attention and hands. Use feints, pushes, or circular movement to create a momentary lapse in defensive awareness. The goal is to disguise the impending level change by keeping opponent's focus on upper body exchanges rather than preparing for low attacks. (Timing: During grip fighting exchange or opponent's forward pressure)
-2. **Execute Level Change**: Drop your hips explosively by bending at the knees and waist while maintaining a straight back. Your head should remain up with eyes on opponent's chest or hips. The level change should be sudden and commit fully - hesitant or gradual dropping telegraphs the attack and allows opponent to sprawl or withdraw. Bring your arms into position with elbows tight to body. (Timing: Explosive drop in single fluid motion (0.2-0.3 seconds))
-3. **Penetration Step**: As you drop levels, drive your lead leg forward in a deep step that places your foot between opponent's feet or slightly beyond centerline. The step should be long and low, with your knee nearly touching the mat. This penetration step commits your body weight forward and positions you to attack both legs simultaneously. Your hips should drive forward and down. (Timing: Immediately following level change - one continuous motion)
-4. **Head Position and Upper Body Connection**: Drive your head to opponent's centerline or slightly to the outside of their hip, making firm contact with your forehead against their midsection. This head position serves multiple purposes: it prevents guillotine attacks, provides structural drive, and controls their upper body. Keep your shoulders forward and chest pressed into opponent's thighs. Never drop your head below their hips initially. (Timing: Simultaneous with penetration step)
-5. **Secure Leg Grips**: As your head makes contact and penetration step lands, shoot your arms around both of opponent's legs. Your hands should connect behind their knees or thighs with fingers laced or gable grip secured. Pull opponent's legs toward your chest while maintaining forward drive with your hips. The grip should be tight and committed - both legs must be controlled simultaneously to prevent defensive posting. (Timing: Within 0.5 seconds of penetration)
-6. **Establish Drive Position**: With both legs secured and head positioned correctly, bring your trailing leg forward to establish a strong base with feet staggered. Your hips should be low and driving forward continuously. Maintain chest-to-thighs pressure while lifting opponent's legs slightly off the mat. From this position you transition to the finishing sequence (driving through, elevating, or tripping) based on opponent's defensive reaction. (Timing: Complete entry within 1-1.5 seconds total)
+1. **Create Setup Opportunity**: Engage in hand fighting or grip exchanges to occupy opponent's attention and hands. Use feints, pushes, or circular movement to create a momentary lapse in defensive awareness. The goal is to disguise the impending level change by keeping opponent's focus on upper body exchanges rather than preparing for low attacks.
+2. **Execute Level Change**: Drop your hips explosively by bending at the knees and waist while maintaining a straight back. Your head should remain up with eyes on opponent's chest or hips. The level change should be sudden and commit fully - hesitant or gradual dropping telegraphs the attack and allows opponent to sprawl or withdraw. Bring your arms into position with elbows tight to body.
+3. **Penetration Step**: As you drop levels, drive your lead leg forward in a deep step that places your foot between opponent's feet or slightly beyond centerline. The step should be long and low, with your knee nearly touching the mat. This penetration step commits your body weight forward and positions you to attack both legs simultaneously. Your hips should drive forward and down.
+4. **Head Position and Upper Body Connection**: Drive your head to opponent's centerline or slightly to the outside of their hip, making firm contact with your forehead against their midsection. This head position serves multiple purposes: it prevents guillotine attacks, provides structural drive, and controls their upper body. Keep your shoulders forward and chest pressed into opponent's thighs. Never drop your head below their hips initially.
+5. **Secure Leg Grips**: As your head makes contact and penetration step lands, shoot your arms around both of opponent's legs. Your hands should connect behind their knees or thighs with fingers laced or gable grip secured. Pull opponent's legs toward your chest while maintaining forward drive with your hips. The grip should be tight and committed - both legs must be controlled simultaneously to prevent defensive posting.
+6. **Establish Drive Position**: With both legs secured and head positioned correctly, bring your trailing leg forward to establish a strong base with feet staggered. Your hips should be low and driving forward continuously. Maintain chest-to-thighs pressure while lifting opponent's legs slightly off the mat. From this position you transition to the finishing sequence (driving through, elevating, or tripping) based on opponent's defensive reaction.
 
 
 </section>
@@ -258,27 +258,21 @@ The Double Leg Entry is a fundamental wrestling-based takedown that serves as a 
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Level change, penetration step, and head position without resistance
 Practice the level change and penetration step repeatedly from standing position without a partner. Focus on explosive dropping motion with straight back and proper foot placement. Partner drills with stationary opponent allowing you to execute entry slowly, checking each detail: level change depth, penetration step length, head position, and hand placement. No resistance - purely technical repetition to build muscle memory.
-(Resistance: None)
 
 **Week 3-4: Timing and Setup Integration** - Adding grip fighting setups and reactive entries
 Introduce grip fighting exchanges before entry. Practice recognizing opportunities created by opponent's forward pressure, hand positioning, or weight distribution. Partner provides light resistance and defensive awareness but allows entry when setup is executed correctly. Begin drilling entry from various grips (collar ties, wrist control, over-under). Emphasis on disguising the level change and penetrating before opponent can react.
-(Resistance: Light)
 
 **Week 5-8: Defensive Recognition and Adaptation** - Responding to sprawl, guillotine threats, and whizzer defenses
 Partner begins adding realistic defensive reactions: sprawling, securing guillotine grips, applying wizzer overhooks. Practice maintaining position under defensive pressure, completing entry despite resistance, and recognizing when to abandon or modify the attack. Learn to differentiate between completable entries and those requiring transition to alternative techniques. Drill counter-responses to common defenses.
-(Resistance: Medium)
 
 **Week 9-12: Dynamic Application** - Entries from movement, angles, and reaction chains
 Practice double leg entries during active standing exchanges with both partners moving, circling, and grip fighting. Develop ability to create angles for entry, recognize timing windows based on opponent's movement patterns, and chain entry attempts with other takedowns. Partner provides full resistance short of competition intensity. Integrate entry with finishing sequences and ground transitions.
-(Resistance: Medium)
 
 **Week 13+: Competition Simulation** - Live application against fully resisting opponents
 Execute double leg entries during stand-up sparring and positional training with full resistance. Focus on high-percentage timing, setup reliability, and finishing efficiency. Develop personal preferences for specific setups and recognize individual strengths/weaknesses. Video review to identify technical breakdown points under fatigue and pressure. Integrate with broader takedown game and ground transition strategies.
-(Resistance: Full)
 
 **Ongoing Refinement** - Style-specific adaptations and advanced troubleshooting
 Continue refining entry mechanics for specific opponent types (taller, shorter, defensive specialists, aggressive fighters). Develop backup plans and chain wrestling sequences that complement the double leg entry. Study high-level wrestling and MMA footage to identify advanced setups and timing patterns. Maintain technical precision even when fatigued or under pressure.
-(Resistance: Full)
 
 
 

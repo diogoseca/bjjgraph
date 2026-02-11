@@ -369,11 +369,11 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 20% | 5% |
-| Intermediate | 50% | 35% | 10% |
-| Advanced     | 70% | 55% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 45% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 10-30 seconds
 

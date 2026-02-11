@@ -157,7 +157,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 **Type**: Gi Collar Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Back Control]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -235,12 +235,12 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary cross-collar grip**: Reach across opponent's neck and establish a deep thumb-inside grip on the far collar. The grip should be as deep as possible with your thumb penetrating below the collar line and your four fingers gripping on the outside. Your hand positioning resembles the bottom hand on a baseball bat. This grip must be established early before the opponent recognizes the attack and defends their collar. (Timing: 2-3 seconds) [Pressure: Light]
-2. **Secure second collar grip**: Establish your second hand grip on the same collar, positioned above your first grip like the top hand on a baseball bat. This grip can use either thumb-inside or four-fingers-inside configuration depending on the variation. The key is creating a continuous grip line along one side of the opponent's neck with both hands working together. Maintain tight grip spacing with minimal gap between your hands. (Timing: 1-2 seconds) [Pressure: Light]
-3. **Adjust body position and angle**: Shift your body weight and positioning to optimize the choking angle. From back control, this typically involves falling to your side opposite the grips. From mount, you may need to lean heavily toward the choking side. From side control, adjust your chest pressure to prevent opponent from turning away. Your body positioning creates the leverage that makes the grip effective rather than relying solely on arm strength. (Timing: 1-2 seconds) [Pressure: Moderate]
-4. **Control opponent's head positioning**: Use your forearms, chest, or legs to control the opponent's head and prevent them from creating space or changing angles. The opponent's natural defense is to turn their head away from the choke or tuck their chin. Your head control must restrict these movements while keeping their neck exposed to the collar pressure. This often involves using your chest or shoulder to pin their head in place. (Timing: Throughout finish) [Pressure: Moderate]
-5. **Create rotational pressure**: Pull your top hand (second grip) in a circular motion toward yourself while maintaining the bottom grip as an anchor point. This creates a scissoring, rotational pressure that tightens the collar around both sides of the opponent's neck simultaneously. The motion resembles turning a steering wheel while keeping one hand fixed. The rotation is what differentiates this from a simple pulling choke and makes it extremely difficult to defend. (Timing: 2-3 seconds progressive increase) [Pressure: Firm]
-6. **Apply finishing pressure gradually**: Progressively increase the rotational pulling force while maintaining all other control points. The finish combines the rotational force with a slight pulling motion that brings both grips toward your centerline. Apply pressure steadily over 3-4 seconds to allow your partner time to recognize the submission and tap safely. Watch for tap signals and be prepared to release immediately. The choke should feel tight and inevitable rather than sudden and explosive. (Timing: 3-4 seconds) [Pressure: Maximum]
+1. **Establish primary cross-collar grip**: Reach across opponent's neck and establish a deep thumb-inside grip on the far collar. The grip should be as deep as possible with your thumb penetrating below the collar line and your four fingers gripping on the outside. Your hand positioning resembles the bottom hand on a baseball bat. This grip must be established early before the opponent recognizes the attack and defends their collar. (Timing: 2-3 seconds)
+2. **Secure second collar grip**: Establish your second hand grip on the same collar, positioned above your first grip like the top hand on a baseball bat. This grip can use either thumb-inside or four-fingers-inside configuration depending on the variation. The key is creating a continuous grip line along one side of the opponent's neck with both hands working together. Maintain tight grip spacing with minimal gap between your hands. (Timing: 1-2 seconds)
+3. **Adjust body position and angle**: Shift your body weight and positioning to optimize the choking angle. From back control, this typically involves falling to your side opposite the grips. From mount, you may need to lean heavily toward the choking side. From side control, adjust your chest pressure to prevent opponent from turning away. Your body positioning creates the leverage that makes the grip effective rather than relying solely on arm strength. (Timing: 1-2 seconds)
+4. **Control opponent's head positioning**: Use your forearms, chest, or legs to control the opponent's head and prevent them from creating space or changing angles. The opponent's natural defense is to turn their head away from the choke or tuck their chin. Your head control must restrict these movements while keeping their neck exposed to the collar pressure. This often involves using your chest or shoulder to pin their head in place. (Timing: Throughout finish)
+5. **Create rotational pressure**: Pull your top hand (second grip) in a circular motion toward yourself while maintaining the bottom grip as an anchor point. This creates a scissoring, rotational pressure that tightens the collar around both sides of the opponent's neck simultaneously. The motion resembles turning a steering wheel while keeping one hand fixed. The rotation is what differentiates this from a simple pulling choke and makes it extremely difficult to defend. (Timing: 2-3 seconds progressive increase)
+6. **Apply finishing pressure gradually**: Progressively increase the rotational pulling force while maintaining all other control points. The finish combines the rotational force with a slight pulling motion that brings both grips toward your centerline. Apply pressure steadily over 3-4 seconds to allow your partner time to recognize the submission and tap safely. Watch for tap signals and be prepared to release immediately. The choke should feel tight and inevitable rather than sudden and explosive. (Timing: 3-4 seconds)
 
 
 </section>
@@ -260,7 +260,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying excessive tracheal pressure instead of targeting carotid arteries [CRITICAL DANGER]
+- **Mistake**: Applying excessive tracheal pressure instead of targeting carotid arteries
   - **Consequence**: Causes unnecessary pain and potential injury without effective blood choke
   - **Correction**: Ensure collar grips are positioned on sides of neck targeting carotids. Use rotational force rather than straight crushing pressure. The choke should feel like restriction of blood flow rather than airway compression.
 - **Mistake**: Establishing shallow collar grips without sufficient depth
@@ -272,10 +272,10 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 - **Mistake**: Failing to control opponent's head and allowing excessive movement
   - **Consequence**: Opponent creates space, relieves pressure, and potentially escapes position
   - **Correction**: Use chest, shoulder, forearms, or legs to restrict head movement throughout finish. Head control should be established before applying maximum choking pressure. Treat head control as equally important as collar grips.
-- **Mistake**: Applying finishing pressure too quickly without progressive tightening [CRITICAL DANGER]
+- **Mistake**: Applying finishing pressure too quickly without progressive tightening
   - **Consequence**: Partner cannot tap safely, risk of injury or unconsciousness
   - **Correction**: Build pressure progressively over 3-4 seconds minimum in training. Give clear incremental warnings through gradual tightening. Watch for tap signals continuously and maintain ability to release instantly.
-- **Mistake**: Maintaining choke after tap or distress signals [CRITICAL DANGER]
+- **Mistake**: Maintaining choke after tap or distress signals
   - **Consequence**: Serious injury including unconsciousness, tracheal damage, or cervical strain
   - **Correction**: Release all grips immediately at first indication of tap or distress. Train yourself to recognize subtle tap signals. When in doubt about a tap, release and ask. Holding submissions after tap is unacceptable in training.
 
@@ -344,43 +344,6 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn grip configurations, body positioning, and mechanical principles without applying pressure. Study all major variations and understand when each applies.
-- Resistance: None
-- Safety: Understand tap signals, release protocols, and difference between carotid and tracheal pressure. Practice establishing grips and positioning without finishing.
-
-**Slow Technical Practice** (Week 3-4)
-- Focus: Practice full technique with compliant partner using extremely slow pressure application. Focus on perfect grip depth, body positioning, and progressive pressure over 5-6 seconds minimum.
-- Resistance: Zero resistance
-- Safety: Partner taps early at first sensation of pressure. Both practitioners learn to recognize subtle tap signals. Release is practiced as carefully as application.
-
-**Positional Drilling with Mild Resistance** (Week 5-8)
-- Focus: Partner provides mild defensive resistance to grip establishment while allowing finish once grips are secured. Practice transitioning between variations when primary setup is defended.
-- Resistance: Mild resistance
-- Safety: Gradually increase application speed to 4-5 seconds while maintaining control. Partner still taps early. Focus on recognizing different tap signals.
-
-**Realistic Defense and Counters** (Week 9-12)
-- Focus: Partner actively defends all aspects including grip fighting, posture control, and escape attempts. Practice maintaining technique under realistic resistance and knowing when to abandon attempt.
-- Resistance: Realistic resistance
-- Safety: Both practitioners understand their limits. Partner taps at appropriate pressure level, not waiting until last moment. Respect all taps immediately regardless of training intensity.
-
-**Positional Sparring Integration** (Week 13-20)
-- Focus: Integrate all variations into positional sparring from relevant positions. Develop timing for recognizing opportunities and selecting appropriate variation. Chain with other attacks.
-- Resistance: Full resistance
-- Safety: Maintain training-appropriate finishing speed of 3-4 seconds minimum. Never attempt to finish faster just because partner is resisting. Competition speed is reserved for competition only.
-
-**Advanced Application and Teaching** (Ongoing)
-- Focus: Refine all variations, develop personal preferences, help junior students learn proper technique and safety protocols. Understand subtle details that make each variation work against experienced opponents.
-- Resistance: Full resistance
-- Safety: Serve as example of proper training intensity and immediate tap respect. Help create safe training culture. Know when to use teaching mode versus training mode.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -432,6 +395,7 @@ The Baseball Bat Choke Variations represent a sophisticated family of gi-specifi
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

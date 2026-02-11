@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Mounted Crucifix to S Mount transition represents a sophisticated positional advancement that maintains arm isolation while reconfiguring your leg positioning for enhanced submission opportunities. This transition becomes strategically valuable when your opponent's trapped arm creates limited attack angles from standard crucifix, or when you want to access the armbar and triangle pathways that S Mount provides while keeping arm control.\n\nFrom a mechanical standpoint, this transition involves extracting one leg from the crucifix configuration while simultaneously threading it across your opponent's neck or upper chest to establish the characteristic S-shaped leg positioning. The key challenge lies in maintaining arm control throughout the movement - releasing the crucifix pressure prematurely allows arm extraction and defensive recovery. Proper execution requires precise weight shifting and hip mobility to reconfigure without sacrificing the dominant control you've already established.\n\nStrategically, this transition excels when opponents defend mounted crucifix chokes effectively by tucking their chin but leave their trapped arm extended. The S Mount opens armbar entries from a different angle while maintaining the control benefits of arm isolation. Advanced practitioners chain this transition with submission attempts, using the threat of one attack to facilitate the positional change.",
   "key_principles": [
     "Maintain constant pressure on trapped arm throughout the entire transition to prevent extraction",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Consolidate control",
-      "description": "Ensure your mounted crucifix is secure with maximum pressure on the trapped arm. Shift your weight slightly toward the arm you will maintain control over, preparing your opposite leg for extraction.",
-      "timing": "2-3 seconds to verify stability"
+      "description": "Ensure your mounted crucifix is secure with maximum pressure on the trapped arm. Shift your weight slightly toward the arm you will maintain control over, preparing your opposite leg for extraction."
     },
     {
       "step_number": 2,
       "action": "Hip rotation initiation",
-      "description": "Begin rotating your hips toward the side of the arm you're keeping trapped. This rotation naturally starts lifting your extracting leg while maintaining pressure through your controlling leg and upper body weight.",
-      "timing": "Smooth continuous motion"
+      "description": "Begin rotating your hips toward the side of the arm you're keeping trapped. This rotation naturally starts lifting your extracting leg while maintaining pressure through your controlling leg and upper body weight."
     },
     {
       "step_number": 3,
       "action": "Leg extraction",
-      "description": "As your hips rotate, extract your leg from the crucifix position by bringing your knee toward your chest. Keep your shin tight against opponent's body throughout - do not create space that allows arm escape.",
-      "timing": "Quick extraction, 1-2 seconds"
+      "description": "As your hips rotate, extract your leg from the crucifix position by bringing your knee toward your chest. Keep your shin tight against opponent's body throughout - do not create space that allows arm escape."
     },
     {
       "step_number": 4,
       "action": "Leg threading",
-      "description": "Immediately thread your extracted leg across opponent's neck and upper chest, placing your foot on the far side of their head. Your hamstring should contact their face/neck area while your calf extends past their ear.",
-      "timing": "Immediately following extraction"
+      "description": "Immediately thread your extracted leg across opponent's neck and upper chest, placing your foot on the far side of their head. Your hamstring should contact their face/neck area while your calf extends past their ear."
     },
     {
       "step_number": 5,
       "action": "Hip settling",
-      "description": "Drop your hips down and slightly back to establish the S Mount configuration. Your controlling leg maintains the arm trap while your threaded leg creates the characteristic S-shape across opponent's upper body.",
-      "timing": "Settle weight deliberately"
+      "description": "Drop your hips down and slightly back to establish the S Mount configuration. Your controlling leg maintains the arm trap while your threaded leg creates the characteristic S-shape across opponent's upper body."
     },
     {
       "step_number": 6,
       "action": "Position consolidation",
-      "description": "Squeeze your knees together to lock the S Mount position. Adjust your weight distribution forward to maintain control and prevent bridging. Verify the trapped arm remains secure before proceeding to attacks.",
-      "timing": "3-5 seconds to establish"
+      "description": "Squeeze your knees together to lock the S Mount position. Adjust your weight distribution forward to maintain control and prevent bridging. Verify the trapped arm remains secure before proceeding to attacks."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Mechanics isolation",
-      "description": "Practice the leg extraction and threading motion without resistance. Partner remains completely passive while you develop muscle memory for the hip rotation, leg placement, and weight distribution. Focus on maintaining arm control throughout 20+ repetitions per side.",
-      "resistance_level": "None"
+      "description": "Practice the leg extraction and threading motion without resistance. Partner remains completely passive while you develop muscle memory for the hip rotation, leg placement, and weight distribution. Focus on maintaining arm control throughout 20+ repetitions per side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing development",
-      "description": "Partner provides light resistance and movement, including small bridges and arm extraction attempts. Learn to recognize the moments when transition is safe versus when you need to re-consolidate crucifix. Develop sensitivity to opponent's energy and timing.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance and movement, including small bridges and arm extraction attempts. Learn to recognize the moments when transition is safe versus when you need to re-consolidate crucifix. Develop sensitivity to opponent's energy and timing."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain integration",
-      "description": "Combine the transition with crucifix attacks and S Mount finishes. Practice attacking from crucifix, using opponent's defense to facilitate transition, then immediately attacking from S Mount. Build the complete attack sequence with moderate resistance.",
-      "resistance_level": "Medium"
+      "description": "Combine the transition with crucifix attacks and S Mount finishes. Practice attacking from crucifix, using opponent's defense to facilitate transition, then immediately attacking from S Mount. Build the complete attack sequence with moderate resistance."
     },
     {
       "phase": "Week 7+",
       "focus": "Competition application",
-      "description": "Apply transition in live rolling against fully resisting partners. Identify your success patterns, recognize when transition is high-percentage versus when maintaining crucifix is superior. Develop personal timing cues and troubleshoot failures.",
-      "resistance_level": "Full"
+      "description": "Apply transition in live rolling against fully resisting partners. Identify your success patterns, recognize when transition is high-percentage versus when maintaining crucifix is superior. Develop personal timing cues and troubleshoot failures."
     }
   ],
   "variants_and_adaptations": [
@@ -182,43 +167,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Mounted Crucifix to S Mount transition?",
-      "answer": "The primary goal is to reconfigure your leg positioning to access different submission angles (particularly armbar and triangle) while maintaining the arm isolation control established in mounted crucifix. This transition changes your attack vectors without sacrificing dominant position or allowing opponent to recover defensive capabilities.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to reconfigure your leg positioning to access different submission angles (particularly armbar and triangle) while maintaining the arm isolation control established in mounted crucifix. This transition changes your attack vectors without sacrificing dominant position or allowing opponent to recover defensive capabilities."
     },
     {
       "question": "Which leg should you extract first during the transition?",
-      "answer": "Extract the leg on the opposite side from the arm you want to keep trapped. Your controlling leg maintains crucifix pressure on the trapped arm while your extracting leg threads across opponent's neck to establish S Mount. Never release the arm-controlling leg until S Mount is fully established.",
-      "difficulty": "Intermediate"
+      "answer": "Extract the leg on the opposite side from the arm you want to keep trapped. Your controlling leg maintains crucifix pressure on the trapped arm while your extracting leg threads across opponent's neck to establish S Mount. Never release the arm-controlling leg until S Mount is fully established."
     },
     {
       "question": "Your opponent explosively bridges as you begin extracting your leg - how should you respond?",
-      "answer": "Post immediately with your hands to ride the bridge rather than fighting against it. Keep your controlling leg tight on their arm throughout. As their bridge peaks and they return to the mat, continue the transition or return to consolidate crucifix if the bridge significantly disrupted your position. Never abandon arm control during the bridge.",
-      "difficulty": "Intermediate"
+      "answer": "Post immediately with your hands to ride the bridge rather than fighting against it. Keep your controlling leg tight on their arm throughout. As their bridge peaks and they return to the mat, continue the transition or return to consolidate crucifix if the bridge significantly disrupted your position. Never abandon arm control during the bridge."
     },
     {
       "question": "What weight distribution should you maintain throughout this transition?",
-      "answer": "Keep weight forward toward opponent's head and chest throughout the entire transition. Sitting back or upright creates space for bridging escapes. Your chest should maintain contact with opponent's upper body while your hips rotate to extract and rethread your leg. Forward pressure prevents escape and maintains control.",
-      "difficulty": "Beginner"
+      "answer": "Keep weight forward toward opponent's head and chest throughout the entire transition. Sitting back or upright creates space for bridging escapes. Your chest should maintain contact with opponent's upper body while your hips rotate to extract and rethread your leg. Forward pressure prevents escape and maintains control."
     },
     {
       "question": "When should you abandon the S Mount transition and return to mounted crucifix?",
-      "answer": "Abandon if opponent successfully extracts their trapped arm or creates significant space through bridging or hip escape. Also abort if your balance becomes compromised mid-transition to the point where completing S Mount would risk position loss. A secure crucifix is superior to a failed S Mount attempt that results in guard recovery.",
-      "difficulty": "Advanced"
+      "answer": "Abandon if opponent successfully extracts their trapped arm or creates significant space through bridging or hip escape. Also abort if your balance becomes compromised mid-transition to the point where completing S Mount would risk position loss. A secure crucifix is superior to a failed S Mount attempt that results in guard recovery."
     },
     {
       "question": "How does the leg threading differ between standard S Mount entry and this crucifix-based transition?",
-      "answer": "In the crucifix-based transition, one leg must maintain arm control throughout while the other threads across. In standard S Mount from mount, both legs are free to reposition simultaneously. This constraint requires more precise timing and hip mobility since you cannot use your controlling leg for balance during the threading phase.",
-      "difficulty": "Advanced"
+      "answer": "In the crucifix-based transition, one leg must maintain arm control throughout while the other threads across. In standard S Mount from mount, both legs are free to reposition simultaneously. This constraint requires more precise timing and hip mobility since you cannot use your controlling leg for balance during the threading phase."
     },
     {
       "question": "What grip should you establish before transitioning if you want maximum security?",
-      "answer": "Establish a gift wrap grip by threading your hand under opponent's neck and grabbing their trapped wrist. This grip maintains arm control independent of your leg positioning, making the transition significantly safer. With the gift wrap secured, you can reconfigure your legs knowing the arm cannot escape even if crucifix pressure momentarily releases.",
-      "difficulty": "Intermediate"
+      "answer": "Establish a gift wrap grip by threading your hand under opponent's neck and grabbing their trapped wrist. This grip maintains arm control independent of your leg positioning, making the transition significantly safer. With the gift wrap secured, you can reconfigure your legs knowing the arm cannot escape even if crucifix pressure momentarily releases."
     },
     {
       "question": "What are the primary submission opportunities available after completing this transition to S Mount?",
-      "answer": "The S Mount opens high-percentage armbar attacks on the trapped arm from a different angle than crucifix armbars. Triangle choke entries become available by threading the leg across their neck. Mounted triangle attacks and arm triangle setups are also accessible. The arm isolation from crucifix combined with S Mount leg positioning creates compound submission threats.",
-      "difficulty": "Intermediate"
+      "answer": "The S Mount opens high-percentage armbar attacks on the trapped arm from a different angle than crucifix armbars. Triangle choke entries become available by threading the leg across their neck. Mounted triangle attacks and arm triangle setups are also accessible. The arm isolation from crucifix combined with S Mount leg positioning creates compound submission threats."
     }
   ],
   "safety_considerations": "This transition involves dynamic leg repositioning while maintaining mount control, which carries relatively low injury risk compared to submission techniques. However, practitioners should be aware of potential knee strain during the leg threading motion, particularly if forcing the movement against resistance. Partners should communicate if leg pressure on the neck becomes uncomfortable. Avoid explosive transitions until the movement pattern is well-established to prevent losing balance and falling onto training partners. When drilling, allow controlled escapes rather than forcing the transition against maximum resistance to prevent positional scrambles that could result in collision injuries.",
@@ -264,5 +241,6 @@
       "name": "Mount Control",
       "relationship": "Foundation skill"
     }
-  ]
+  ],
+  "success_rate": 58
 }

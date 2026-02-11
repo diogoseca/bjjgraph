@@ -157,7 +157,7 @@ From lapel guard bottom, the practitioner uses the existing lapel configuration 
 Strategically, this entry creates a true dilemma for the top player. When threatened with lapel sweeps, posting the hand becomes a natural defensive reaction. However, this posting arm becomes the target for omoplata entry. The technical challenge lies in maintaining lapel control while executing the hip rotation necessary to thread the leg over the opponent's shoulder. Success requires precise timing—attacking the posting arm at the moment of maximum commitment when the opponent cannot easily retract.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Threaten sweep**: From lapel guard, initiate a sweep threat that forces opponent to post their hand for base. The posting arm becomes your target for omoplata entry. (Timing: As opponent's weight shifts)
-2. **Control posting arm**: Secure control of the posting arm at the wrist or tricep using your non-lapel hand. This prevents arm retraction and guides the shoulder into position for the attack. (Timing: Immediately after post)
-3. **Create rotational angle**: Hip escape away from the posting arm while maintaining both lapel and arm control. This creates the angle necessary to thread your leg over opponent's shoulder. (Timing: Continuous movement)
-4. **Thread leg over shoulder**: Bring your outside leg over opponent's shoulder and across their back, hooking behind their far armpit. The lapel control prevents them from posturing to escape. (Timing: As angle opens)
-5. **Secure omoplata position**: Rotate your hips perpendicular to opponent's body, controlling their near hip with your hand. Your leg across their back traps the shoulder in position. (Timing: After leg placement)
-6. **Establish omoplata control**: Complete the entry by sitting up toward opponent's hip, maintaining the leg across their back and controlling their body position. Transition to full omoplata control. (Timing: Final phase)
+1. **Threaten sweep**: From lapel guard, initiate a sweep threat that forces opponent to post their hand for base. The posting arm becomes your target for omoplata entry.
+2. **Control posting arm**: Secure control of the posting arm at the wrist or tricep using your non-lapel hand. This prevents arm retraction and guides the shoulder into position for the attack.
+3. **Create rotational angle**: Hip escape away from the posting arm while maintaining both lapel and arm control. This creates the angle necessary to thread your leg over opponent's shoulder.
+4. **Thread leg over shoulder**: Bring your outside leg over opponent's shoulder and across their back, hooking behind their far armpit. The lapel control prevents them from posturing to escape.
+5. **Secure omoplata position**: Rotate your hips perpendicular to opponent's body, controlling their near hip with your hand. Your leg across their back traps the shoulder in position.
+6. **Establish omoplata control**: Complete the entry by sitting up toward opponent's hip, maintaining the leg across their back and controlling their body position. Transition to full omoplata control.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the hip rotation and leg threading motion from static lapel guard. Partner provides posted arm without resistance, allowing focus on mechanics of angle creation and leg placement.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Add sweep threat sequences to trigger authentic posting reactions. Partner provides realistic posting response to sweep feints, allowing practice of attack timing recognition.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the omoplata entry with backup options when primary attack fails. Practice transitioning to sweeps if arm escapes, or to triangle if angle changes. Add counter-to-counter sequences.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from lapel guard. Work against full resistance with partner actively trying to pass while you hunt for sweep and omoplata opportunities.
-(Resistance: Full)
 
 
 

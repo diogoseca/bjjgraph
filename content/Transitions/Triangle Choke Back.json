@@ -34,11 +34,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Triangle Choke Back is a high-level submission setup executed from the body triangle position on the back. Rather than maintaining the body triangle purely as a control configuration, you convert the figure-four leg lock into a rear triangle by threading one leg across the opponent's neck and trapping their arm inside, creating a triangle choke configuration from behind. This transition exploits the mechanical advantage already established by the body triangle, repurposing your leg positioning from torso compression into direct neck strangulation.\n\nStrategically, this technique addresses a common defensive pattern where opponents protect their neck with both hands against rear naked choke attempts. By transitioning to the rear triangle, you bypass their hand defense entirely since the choking pressure comes from your legs rather than your arms. The triangle configuration traps one arm inside while your legs squeeze the carotid arteries from behind, creating a finishing threat that is extremely difficult to defend once locked. The setup requires precise timing and leg dexterity, as you must temporarily release the body triangle lock to reconfigure your legs without losing back control.\n\nThis transition is a Type B submission setup, taking you to the Rear Triangle control position where multiple finishing options become available including the triangle squeeze itself, armbar on the trapped arm, and various choke combinations. The position integration between body triangle and rear triangle represents one of the most powerful back attack chains in modern grappling, offering a systematic approach to finishing opponents who successfully defend traditional upper-body chokes from back control.",
   "key_principles": [
     "Maintain chest-to-back connection throughout the leg reconfiguration to prevent opponent from creating space or turning during the transition",
@@ -61,44 +56,37 @@
     {
       "step_number": 1,
       "action": "Secure upper body control",
-      "description": "Establish a tight seatbelt grip with your choking arm over opponent's shoulder and control arm under their armpit, hands clasped together. This grip must be strong enough to maintain back control independently of your legs during the transition phase.",
-      "timing": "Before initiating any leg movement"
+      "description": "Establish a tight seatbelt grip with your choking arm over opponent's shoulder and control arm under their armpit, hands clasped together. This grip must be strong enough to maintain back control independently of your legs during the transition phase."
     },
     {
       "step_number": 2,
       "action": "Isolate the target arm",
-      "description": "Use your over-hook arm to pin opponent's arm on the side where your crossing leg will thread. Push their elbow toward their hip or trap it against their body so it cannot block your leg from crossing their neck. This arm will become trapped inside the triangle.",
-      "timing": "While maintaining body triangle pressure"
+      "description": "Use your over-hook arm to pin opponent's arm on the side where your crossing leg will thread. Push their elbow toward their hip or trap it against their body so it cannot block your leg from crossing their neck. This arm will become trapped inside the triangle."
     },
     {
       "step_number": 3,
       "action": "Unlock body triangle",
-      "description": "Release the figure-four lock by extracting your foot from behind your own knee. Maintain squeezing pressure with your thighs momentarily to prevent opponent from feeling the lock release. Keep chest-to-back connection tight throughout this critical moment.",
-      "timing": "Immediately after arm isolation is secured"
+      "description": "Release the figure-four lock by extracting your foot from behind your own knee. Maintain squeezing pressure with your thighs momentarily to prevent opponent from feeling the lock release. Keep chest-to-back connection tight throughout this critical moment."
     },
     {
       "step_number": 4,
       "action": "Thread leg across neck",
-      "description": "Swing your top leg (the one that was crossing in the body triangle) up and over opponent's shoulder, threading it across their neck so your hamstring presses against their carotid artery. The trapped arm stays inside between your leg and their neck. Your calf should drape over the far side of their neck.",
-      "timing": "Quickly after unlocking, within 1-2 seconds"
+      "description": "Swing your top leg (the one that was crossing in the body triangle) up and over opponent's shoulder, threading it across their neck so your hamstring presses against their carotid artery. The trapped arm stays inside between your leg and their neck. Your calf should drape over the far side of their neck."
     },
     {
       "step_number": 5,
       "action": "Lock the rear triangle",
-      "description": "Bring your bottom leg up and lock your ankle behind the knee of the leg crossing opponent's neck, establishing the figure-four triangle configuration. Squeeze your knees together to compress the carotid arteries from both sides. The lock should sit tight against the back of their neck and trapped shoulder.",
-      "timing": "Immediately after threading leg across neck"
+      "description": "Bring your bottom leg up and lock your ankle behind the knee of the leg crossing opponent's neck, establishing the figure-four triangle configuration. Squeeze your knees together to compress the carotid arteries from both sides. The lock should sit tight against the back of their neck and trapped shoulder."
     },
     {
       "step_number": 6,
       "action": "Adjust angle and tighten",
-      "description": "Pull opponent's head forward with both hands while elevating your hips slightly to increase the choking angle. Squeeze your thighs together and point your toes to engage your entire leg musculature. Angle your body perpendicular to opponent's spine to maximize triangle pressure on the neck.",
-      "timing": "Once triangle is locked, continuous adjustment"
+      "description": "Pull opponent's head forward with both hands while elevating your hips slightly to increase the choking angle. Squeeze your thighs together and point your toes to engage your entire leg musculature. Angle your body perpendicular to opponent's spine to maximize triangle pressure on the neck."
     },
     {
       "step_number": 7,
       "action": "Hunt the finish or transition",
-      "description": "From the established rear triangle position, apply progressive squeezing pressure for the choke finish. If opponent defends the choke, attack the trapped arm with an armbar by extending their elbow over your hips. Maintain the triangle lock throughout all finishing attempts to preserve positional dominance.",
-      "timing": "After triangle is fully secured and tightened"
+      "description": "From the established rear triangle position, apply progressive squeezing pressure for the choke finish. If opponent defends the choke, attack the trapped arm with an armbar by extending their elbow over your hips. Maintain the triangle lock throughout all finishing attempts to preserve positional dominance."
     }
   ],
   "common_counters": [
@@ -159,26 +147,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Leg threading mechanics",
-      "description": "Practice the leg reconfiguration from body triangle to rear triangle on a non-resisting partner. Focus on proper foot placement behind the knee, threading the leg across the neck rather than the shoulder, and trapping the arm inside. Drill both sides. Partner remains still and provides feedback on choke tightness.",
-      "resistance_level": "None"
+      "description": "Practice the leg reconfiguration from body triangle to rear triangle on a non-resisting partner. Focus on proper foot placement behind the knee, threading the leg across the neck rather than the shoulder, and trapping the arm inside. Drill both sides. Partner remains still and provides feedback on choke tightness."
     },
     {
       "phase": "Week 3-4",
       "focus": "Upper body retention during transition",
-      "description": "Partner provides light resistance by attempting to turn or create space when you unlock the body triangle. Focus on maintaining seatbelt grip control throughout the transition and recovering position if the triangle setup fails. Practice reverting to body triangle if the attempt is stuffed.",
-      "resistance_level": "Light"
+      "description": "Partner provides light resistance by attempting to turn or create space when you unlock the body triangle. Focus on maintaining seatbelt grip control throughout the transition and recovering position if the triangle setup fails. Practice reverting to body triangle if the attempt is stuffed."
     },
     {
       "phase": "Week 5-6",
       "focus": "Timing and arm isolation chains",
-      "description": "Partner defends with moderate resistance including hand fighting and posture recovery. Practice setting up the transition by attacking with rear naked choke first to force hand defense, then converting to the rear triangle when their arms are occupied. Chain the body triangle squeeze with the triangle transition.",
-      "resistance_level": "Medium"
+      "description": "Partner defends with moderate resistance including hand fighting and posture recovery. Practice setting up the transition by attacking with rear naked choke first to force hand defense, then converting to the rear triangle when their arms are occupied. Chain the body triangle squeeze with the triangle transition."
     },
     {
       "phase": "Week 7-8",
       "focus": "Live situational sparring",
-      "description": "Start from body triangle in live rolling. Attempt the full transition against fully resisting partners. Integrate the technique into your back attack system alongside rear naked choke, armbar, and bow and arrow. Practice reading defensive reactions to choose between triangle setup and other attacks.",
-      "resistance_level": "Full"
+      "description": "Start from body triangle in live rolling. Attempt the full transition against fully resisting partners. Integrate the technique into your back attack system alongside rear naked choke, armbar, and bow and arrow. Practice reading defensive reactions to choose between triangle setup and other attacks."
     }
   ],
   "variants_and_adaptations": [
@@ -201,53 +185,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the optimal timing window to initiate the Triangle Choke Back transition from body triangle?",
-      "answer": "The optimal timing window is when your opponent is fatigued from sustained body triangle pressure and actively defending an upper body choke attempt (such as rear naked choke). Their hands are occupied protecting their neck and their breathing is compromised, reducing their ability to detect and counter the leg reconfiguration. Attempting the transition against a fresh opponent with both arms free and strong posture significantly reduces success probability.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing window is when your opponent is fatigued from sustained body triangle pressure and actively defending an upper body choke attempt (such as rear naked choke). Their hands are occupied protecting their neck and their breathing is compromised, reducing their ability to detect and counter the leg reconfiguration. Attempting the transition against a fresh opponent with both arms free and strong posture significantly reduces success probability."
     },
     {
       "question": "Your opponent posts both hands on your crossing leg to block the neck thread - how do you adjust?",
-      "answer": "When both their hands move to block your leg, their neck is completely undefended. Immediately abandon the triangle attempt and attack with the rear naked choke since both their hands are occupied with your leg. This creates a dilemma: defend the triangle entry and get choked, or defend the choke and allow the triangle. If they release one hand to defend the choke, reattempt the leg thread with the freed path.",
-      "difficulty": "Intermediate"
+      "answer": "When both their hands move to block your leg, their neck is completely undefended. Immediately abandon the triangle attempt and attack with the rear naked choke since both their hands are occupied with your leg. This creates a dilemma: defend the triangle entry and get choked, or defend the choke and allow the triangle. If they release one hand to defend the choke, reattempt the leg thread with the freed path."
     },
     {
       "question": "What is the most critical mechanical detail that distinguishes a successful rear triangle lock from an ineffective one?",
-      "answer": "The leg must cross directly across the opponent's neck at the carotid artery level, not across their shoulder or trapezius. The hamstring must press against the side of the neck with the calf draping over the opposite side. Threading too low across the shoulder creates compression without strangulation, turning the technique into a positional hold with no finishing threat. The figure-four lock behind your own knee must be deep and tight with knees squeezed together.",
-      "difficulty": "Advanced"
+      "answer": "The leg must cross directly across the opponent's neck at the carotid artery level, not across their shoulder or trapezius. The hamstring must press against the side of the neck with the calf draping over the opposite side. Threading too low across the shoulder creates compression without strangulation, turning the technique into a positional hold with no finishing threat. The figure-four lock behind your own knee must be deep and tight with knees squeezed together."
     },
     {
       "question": "What grip configuration must be established before unlocking the body triangle for the transition?",
-      "answer": "A secure seatbelt grip (choking arm over opponent's shoulder, control arm under their armpit, hands clasped) must be established tightly enough to independently maintain back control without any leg assistance. This grip must hold the opponent in place for the 2-3 seconds needed to reconfigure legs from body triangle to rear triangle. Without this, the opponent will escape during the vulnerable transition window when neither leg lock is active.",
-      "difficulty": "Beginner"
+      "answer": "A secure seatbelt grip (choking arm over opponent's shoulder, control arm under their armpit, hands clasped) must be established tightly enough to independently maintain back control without any leg assistance. This grip must hold the opponent in place for the 2-3 seconds needed to reconfigure legs from body triangle to rear triangle. Without this, the opponent will escape during the vulnerable transition window when neither leg lock is active."
     },
     {
       "question": "What are the common failure points that cause loss of position during the Triangle Choke Back attempt?",
-      "answer": "The three primary failure points are: (1) releasing upper body control before or during leg reconfiguration, allowing the opponent to turn and escape, (2) failing to isolate the target arm before unlocking the body triangle, enabling the opponent to block the leg thread with both hands, and (3) rushing the transition without properly unlocking the figure-four, resulting in an awkward scramble where neither body triangle nor rear triangle is established. Each requires deliberate practice of the transition phases independently.",
-      "difficulty": "Intermediate"
+      "answer": "The three primary failure points are: (1) releasing upper body control before or during leg reconfiguration, allowing the opponent to turn and escape, (2) failing to isolate the target arm before unlocking the body triangle, enabling the opponent to block the leg thread with both hands, and (3) rushing the transition without properly unlocking the figure-four, resulting in an awkward scramble where neither body triangle nor rear triangle is established. Each requires deliberate practice of the transition phases independently."
     },
     {
       "question": "How does the direction of force differ between the body triangle squeeze and the rear triangle choke?",
-      "answer": "The body triangle applies compressive force laterally around the opponent's torso, restricting breathing by squeezing the ribcage and diaphragm. The rear triangle redirects force to the neck, applying bilateral compression to the carotid arteries from the sides using your thighs. The force vectors shift from horizontal torso compression to vertical neck strangulation, which is why the leg must cross the neck specifically rather than the shoulder for the choking mechanism to function.",
-      "difficulty": "Advanced"
+      "answer": "The body triangle applies compressive force laterally around the opponent's torso, restricting breathing by squeezing the ribcage and diaphragm. The rear triangle redirects force to the neck, applying bilateral compression to the carotid arteries from the sides using your thighs. The force vectors shift from horizontal torso compression to vertical neck strangulation, which is why the leg must cross the neck specifically rather than the shoulder for the choking mechanism to function."
     },
     {
       "question": "Your opponent successfully defends the choke from rear triangle but their trapped arm is extended - what chain attack do you execute?",
-      "answer": "Attack the trapped arm with a straight armbar by controlling their wrist with your hands and extending their elbow over your hip line. Maintain the triangle lock with your legs while isolating the arm. The rear triangle prevents them from pulling the arm back to safety, and their extension to defend the choke creates the perfect armbar geometry. This armbar-from-rear-triangle combination is one of the highest-percentage follow-ups in the back attack system.",
-      "difficulty": "Intermediate"
+      "answer": "Attack the trapped arm with a straight armbar by controlling their wrist with your hands and extending their elbow over your hip line. Maintain the triangle lock with your legs while isolating the arm. The rear triangle prevents them from pulling the arm back to safety, and their extension to defend the choke creates the perfect armbar geometry. This armbar-from-rear-triangle combination is one of the highest-percentage follow-ups in the back attack system."
     },
     {
       "question": "What entry requirements must exist before attempting the Triangle Choke Back from body triangle?",
-      "answer": "Five conditions must be present: (1) a secure body triangle with the figure-four lock properly established, (2) tight seatbelt grip or equivalent upper body control capable of maintaining back control without leg assistance, (3) at least one of the opponent's arms isolated or pinned to create the arm-inside path for the triangle, (4) sufficient opponent fatigue or distraction from defending upper body attacks, and (5) clear path for your leg to cross the opponent's neck without obstruction. Missing any of these significantly reduces success probability.",
-      "difficulty": "Beginner"
+      "answer": "Five conditions must be present: (1) a secure body triangle with the figure-four lock properly established, (2) tight seatbelt grip or equivalent upper body control capable of maintaining back control without leg assistance, (3) at least one of the opponent's arms isolated or pinned to create the arm-inside path for the triangle, (4) sufficient opponent fatigue or distraction from defending upper body attacks, and (5) clear path for your leg to cross the opponent's neck without obstruction. Missing any of these significantly reduces success probability."
     },
     {
       "question": "Your opponent attempts to turn into you the moment they feel the body triangle unlock - what is your contingency?",
-      "answer": "If the opponent turns aggressively before the rear triangle is established, prioritize maintaining the seatbelt grip and immediately re-establish hooks or the body triangle rather than forcing the triangle attempt. If they partially turn (45 degrees), you may be able to transition to a front triangle, arm triangle, or guillotine from the new angle. The key is never sacrificing back control for a failed triangle attempt - reverting to body triangle and trying again is always preferable to losing position entirely.",
-      "difficulty": "Advanced"
+      "answer": "If the opponent turns aggressively before the rear triangle is established, prioritize maintaining the seatbelt grip and immediately re-establish hooks or the body triangle rather than forcing the triangle attempt. If they partially turn (45 degrees), you may be able to transition to a front triangle, arm triangle, or guillotine from the new angle. The key is never sacrificing back control for a failed triangle attempt - reverting to body triangle and trying again is always preferable to losing position entirely."
     },
     {
       "question": "How do you prevent the opponent from simply reaching back and clearing your legs during the transition?",
-      "answer": "The arm isolation step is critical - one arm must be trapped or pinned before initiating the transition, leaving the opponent with only one free arm to defend. Your seatbelt grip controls their upper body movement while you thread the leg. Speed during the actual threading moment (1-2 seconds) is essential. Additionally, timing the attempt when they are defending a choke keeps their free hand occupied at their neck rather than available to block your leg path.",
-      "difficulty": "Intermediate"
+      "answer": "The arm isolation step is critical - one arm must be trapped or pinned before initiating the transition, leaving the opponent with only one free arm to defend. Your seatbelt grip controls their upper body movement while you thread the leg. Speed during the actual threading moment (1-2 seconds) is essential. Additionally, timing the attempt when they are defending a choke keeps their free hand occupied at their neck rather than available to block your leg path."
     }
   ],
   "safety_considerations": "The Triangle Choke Back involves strangulation mechanics targeting the carotid arteries, which can cause unconsciousness within seconds if applied correctly. When drilling, apply pressure gradually and release immediately upon any tap signal from your training partner. Never hold the choke after the tap. During the transition phase, be careful with the leg threading motion across the neck as sudden movements can strain the cervical spine. Partners should communicate if they feel any sharp neck pain versus the expected compression. Avoid explosive transitions during drilling until the movement pattern is well-established at slow speed. Training partners with neck injuries or cervical spine issues should avoid this technique entirely. In live sparring, be aware that the transition from body triangle to rear triangle creates a brief window where the opponent may move unexpectedly, so maintain controlled movement throughout.",
@@ -297,5 +271,6 @@
       "name": "Aoki Lock to Crucifix",
       "relationship": "Alternative transition from rear triangle position"
     }
-  ]
+  ],
+  "success_rate": 58
 }

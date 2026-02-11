@@ -163,7 +163,7 @@ Strategically, committing to the Straight Footlock finish carries inherent risk.
 The technique is legal at all belt levels under IBJJF rules and represents the foundational leg lock finish that every practitioner must master. Its relatively lower injury risk compared to heel hooks makes it the appropriate introduction to finishing mechanics in leg entanglement systems, though the Achilles tendon remains vulnerable to serious damage from explosive or improperly applied pressure. Advanced practitioners chain the finishing threat with positional transitions, using the defender's reactions to the extension attempt as information that dictates the next attack in the sequence.
 
 **From Position**: [[Straight Ankle Lock Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify control integrity**: Confirm that your forearm blade is seated directly behind the Achilles tendon, your opposite hand cups the heel against your chest, and your legs are clamped around the defender's thigh preventing hip rotation. Any gap in control must be addressed before initiating the finish. (Timing: 1-2 seconds assessment before committing)
-2. **Tighten the compression pocket**: Pull the heel deeper into your armpit or sternum by squeezing your elbows tight to your body and drawing your forearms toward your centerline. This eliminates slack between your forearm and the defender's ankle, ensuring that hip extension translates directly into dorsiflexion pressure on the joint. (Timing: Simultaneous with control verification)
-3. **Pinch knees and clamp legs**: Squeeze your knees together aggressively while tightening your leg wrap around the defender's thigh. This final leg adjustment creates maximum rotational control and ensures the defender cannot externally rotate their hip when you begin extension. Your legs function as the anchor that makes the arm grips effective. (Timing: Immediately before initiating extension)
-4. **Initiate hip extension**: Drive your hips forward and away from the defender while simultaneously arching your upper back. The movement originates from your glutes and hamstrings, not your arms. Your torso moves as a single rigid unit with the arms maintaining their compression while the hips generate the primary breaking force through progressive extension. (Timing: Smooth progressive drive over 3-5 seconds in training)
-5. **Apply dorsiflexion torque**: As your hips extend, the forearm blade pushes the Achilles tendon downward while your grip pulls the heel upward toward your chest, creating a scissoring dorsiflexion force on the ankle joint. Maintain constant compression with your arms while your hip extension amplifies the pressure through the mechanical advantage of the lever system. (Timing: Builds progressively with hip extension)
-6. **Arch back for maximum leverage**: Complete the finishing motion by arching your entire upper back while maintaining rigid arm compression and tight leg control. The arch creates the final degrees of dorsiflexion that exceed the ankle's structural tolerance. Your shoulder blades drive toward the mat as your chest lifts, maximizing the distance between your hips and the defender's ankle. (Timing: Peak pressure phase, 1-2 seconds)
-7. **Monitor for tap and release**: Maintain steady pressure while actively monitoring for any tap signal including verbal, physical hand tap, foot tap, distress vocalization, or loss of defensive resistance. The instant any signal occurs, immediately cease all hip extension, release arm compression, and allow the foot to return to neutral position before gently releasing leg control. (Timing: Constant awareness throughout finish)
+1. **Verify control integrity**: Confirm that your forearm blade is seated directly behind the Achilles tendon, your opposite hand cups the heel against your chest, and your legs are clamped around the defender's thigh preventing hip rotation. Any gap in control must be addressed before initiating the finish.
+2. **Tighten the compression pocket**: Pull the heel deeper into your armpit or sternum by squeezing your elbows tight to your body and drawing your forearms toward your centerline. This eliminates slack between your forearm and the defender's ankle, ensuring that hip extension translates directly into dorsiflexion pressure on the joint.
+3. **Pinch knees and clamp legs**: Squeeze your knees together aggressively while tightening your leg wrap around the defender's thigh. This final leg adjustment creates maximum rotational control and ensures the defender cannot externally rotate their hip when you begin extension. Your legs function as the anchor that makes the arm grips effective.
+4. **Initiate hip extension**: Drive your hips forward and away from the defender while simultaneously arching your upper back. The movement originates from your glutes and hamstrings, not your arms. Your torso moves as a single rigid unit with the arms maintaining their compression while the hips generate the primary breaking force through progressive extension.
+5. **Apply dorsiflexion torque**: As your hips extend, the forearm blade pushes the Achilles tendon downward while your grip pulls the heel upward toward your chest, creating a scissoring dorsiflexion force on the ankle joint. Maintain constant compression with your arms while your hip extension amplifies the pressure through the mechanical advantage of the lever system.
+6. **Arch back for maximum leverage**: Complete the finishing motion by arching your entire upper back while maintaining rigid arm compression and tight leg control. The arch creates the final degrees of dorsiflexion that exceed the ankle's structural tolerance. Your shoulder blades drive toward the mat as your chest lifts, maximizing the distance between your hips and the defender's ankle.
+7. **Monitor for tap and release**: Maintain steady pressure while actively monitoring for any tap signal including verbal, physical hand tap, foot tap, distress vocalization, or loss of defensive resistance. The instant any signal occurs, immediately cease all hip extension, release arm compression, and allow the foot to return to neutral position before gently releasing leg control.
 
 
 </section>
@@ -264,19 +264,15 @@ The technique is legal at all belt levels under IBJJF rules and represents the f
 ## Training Progressions
 **Week 1-2** - Finishing mechanics isolation
 Drill the hip extension and back arch motion in isolation without a partner, then practice the complete finishing sequence with a fully compliant partner who provides zero resistance. Focus on precise forearm placement behind the Achilles, proper heel cupping, and coordinated hip extension with arm compression. Practice 30-40 repetitions per side emphasizing slow progressive pressure application over 5+ seconds per attempt.
-(Resistance: None)
 
 **Week 3-4** - Control verification and timing
 Partner provides light defensive responses including mild hip rotation attempts and basic grip fighting at 30% intensity. Practice the critical control verification sequence before each finish attempt: check forearm position, confirm heel cup, verify leg clamp, then initiate extension. Develop the habit of assessing control integrity before committing. Partner taps early to reinforce controlled application speed.
-(Resistance: Light)
 
 **Week 5-6** - Defensive reaction chains
 Partner defends with specific sequences at medium resistance: hip rotation forcing transition to Outside Ashi-Garami, sit-up forcing belly-down variation, boot defense forcing kneebar transition. Practice reading each defense and choosing whether to complete the finish or abandon and transition. Build the decision tree through repetition without predetermined knowledge of which defense the partner will use.
-(Resistance: Medium)
 
 **Week 7+** - Live finishing under pressure
 Full-speed positional sparring starting from established Straight Ankle Lock Control. Attacker must assess control quality, decide whether to commit to the finish or transition, and execute within realistic time windows. Track finish rate versus transition rate across rounds. Integrate into full rolling where you hunt for ankle lock control entries specifically to practice the finishing sequence against unrestricted defense.
-(Resistance: Full)
 
 
 

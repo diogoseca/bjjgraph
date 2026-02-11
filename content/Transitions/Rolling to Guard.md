@@ -159,7 +159,7 @@ description: "Master Rolling to Guard in BJJ. Dynamic defensive recovery from bo
 Rolling to Guard is a fundamental defensive recovery technique that allows a practitioner to transition from an inferior bottom position back to a guard position using dynamic movement and hip rotation. This technique is essential for escaping bad positions, recovering guard after a scramble, or regaining a defensive frame when an opponent attempts to establish control. The rolling motion creates space, disrupts opponent positioning, and allows the practitioner to reestablish their legs as a barrier between themselves and their opponent. This movement is particularly effective when combined with proper framing and timing, as it converts defensive desperation into offensive opportunity. The technique requires coordination, body awareness, and understanding of when to commit to the roll versus when to use alternative escapes. Mastery of rolling to guard is a hallmark of effective guard retention and defensive grappling.
 
 **From Position**: [[Turtle/Bottom]]
-**Success Rates**: Beginner 55%, Intermediate 75%, Advanced 90%
+**Success Rate**: 82%
 
 </section>
 
@@ -209,13 +209,13 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Create initial space by placing frames on opponent's hips, shoulders, or biceps. Push away to generate enough distance for the rolling motion to begin. Your frames should be strong but not rigid, allowing you to feel opponent's pressure and reactions. (Timing: Immediately when opponent attempts to close distance)
-2. **Turn to side**: Rotate your body onto your side, positioning your shoulder toward the mat. This creates the initial angle necessary for the roll and prevents you from being flattened. Your bottom arm should be ready to post on the mat for support. (Timing: As frames create initial space)
-3. **Tuck chin and initiate roll**: Tuck your chin to your chest to protect your neck and initiate the backward roll by driving off your shoulder. Your head should never touch the mat directly - the roll should go across the upper back and shoulders. Begin rotating your hips backward and overhead. (Timing: When opponent's pressure shifts or weight commits forward)
-4. **Drive hips overhead**: Continue the rolling motion by driving your hips up and over your shoulders. Your legs should swing overhead in a controlled arc. Keep your body compact and maintain rotational momentum. Your bottom hand can post on the mat to control the speed of rotation. (Timing: Maintain continuous motion from step 3)
-5. **Track opponent's position**: As you roll, maintain visual contact with your opponent or awareness of their position. Adjust the direction of your roll if needed to face them upon completion. Your goal is to emerge facing your opponent, not with your back exposed. (Timing: Throughout the rolling motion)
-6. **Establish guard position**: As your hips return to the mat, immediately get your legs between yourself and your opponent. Establish closed guard by wrapping legs around opponent's waist, or establish an open guard variation depending on distance and opponent position. Secure grips immediately to prevent passing. (Timing: Immediately upon completing rotation)
-7. **Secure control**: Solidify your guard by securing collar and sleeve grips, establishing hooks, or creating appropriate frames. Break opponent's posture if possible and begin working your guard game. Do not remain passive after completing the roll. (Timing: Within 1-2 seconds of establishing guard)
+1. **Establish frames**: Create initial space by placing frames on opponent's hips, shoulders, or biceps. Push away to generate enough distance for the rolling motion to begin. Your frames should be strong but not rigid, allowing you to feel opponent's pressure and reactions.
+2. **Turn to side**: Rotate your body onto your side, positioning your shoulder toward the mat. This creates the initial angle necessary for the roll and prevents you from being flattened. Your bottom arm should be ready to post on the mat for support.
+3. **Tuck chin and initiate roll**: Tuck your chin to your chest to protect your neck and initiate the backward roll by driving off your shoulder. Your head should never touch the mat directly - the roll should go across the upper back and shoulders. Begin rotating your hips backward and overhead.
+4. **Drive hips overhead**: Continue the rolling motion by driving your hips up and over your shoulders. Your legs should swing overhead in a controlled arc. Keep your body compact and maintain rotational momentum. Your bottom hand can post on the mat to control the speed of rotation.
+5. **Track opponent's position**: As you roll, maintain visual contact with your opponent or awareness of their position. Adjust the direction of your roll if needed to face them upon completion. Your goal is to emerge facing your opponent, not with your back exposed.
+6. **Establish guard position**: As your hips return to the mat, immediately get your legs between yourself and your opponent. Establish closed guard by wrapping legs around opponent's waist, or establish an open guard variation depending on distance and opponent position. Secure grips immediately to prevent passing.
+7. **Secure control**: Solidify your guard by securing collar and sleeve grips, establishing hooks, or creating appropriate frames. Break opponent's posture if possible and begin working your guard game. Do not remain passive after completing the roll.
 
 
 </section>
@@ -261,23 +261,18 @@ Rolling to Guard is a fundamental defensive recovery technique that allows a pra
 ## Training Progressions
 **Week 1-2: Solo Drilling** - Building basic rolling mechanics and body awareness
 Practice backward rolls without partner, focusing on smooth motion, neck protection, and controlled rotation. Start from seated position, progress to rolls from knees, then from standing. Emphasize chin tuck and shoulder positioning. Perform 20-30 repetitions daily.
-(Resistance: None)
 
 **Week 3-4: Partner Drilling** - Timing and spatial awareness with cooperative partner
 Partner assumes top position with minimal pressure. Practitioner creates frames, initiates roll, and reestablishes guard while partner remains relatively stationary. Focus on smooth transitions and proper guard establishment. Partner gradually adds light movement to create realistic scenarios.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance** - Executing against increasing pressure and opponent movement
 Partner applies moderate pressure and attempts to follow the roll or prevent guard recovery. Practitioner must time frames, execute roll explosively, and quickly establish strong guard position. Work on variations based on opponent reactions. Add grip fighting elements.
-(Resistance: Medium)
 
 **Week 9-12: Situational Sparring** - Integration into live training scenarios
 Begin from bad positions (opponent in side control, half mount, or transitioning to mount) and use rolling to guard as primary escape option. Partner applies full pressure and attempts to maintain position or advance. Practice decision-making about when to roll versus using alternative escapes. Track success rate.
-(Resistance: Full)
 
 **Month 4+: Competition Integration** - Seamless execution under stress with chaining options
 Incorporate rolling to guard into full sparring rounds, using it reactively based on opponent pressure and position. Chain with other guard retention techniques and sweeps. Practice from various angles and starting positions. Develop ability to read when roll is optimal versus other options.
-(Resistance: Full)
 
 
 

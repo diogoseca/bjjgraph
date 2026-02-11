@@ -157,7 +157,7 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 **Type**: Blood Choke
 **Target Area**: Carotid arteries via deep collar grip and body positioning
 **Starting Position**: [[Mount]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -231,12 +231,12 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish deep collar grip**: From mount or side control, feed your hand (same side as the direction you'll finish) deep into opponent's far collar, aiming for four fingers inside with thumb outside. The deeper the grip, the more effective the choke. Disguise this as a standard control grip by maintaining pressure and not telegraphing the submission intention. (Timing: Take 2-3 seconds to work grip progressively deeper) [Pressure: Moderate]
-2. **Control defensive frames**: Use your free hand to control opponent's near arm, either by pinning it to their chest, controlling the wrist, or blocking at the elbow. This prevents them from stripping your collar grip or creating frames. Maintain steady pressure with your chest to limit their mobility and breathing space. (Timing: Establish control before progressing to finish) [Pressure: Firm]
-3. **Adjust body angle**: Begin shifting your body weight toward the side of your choking arm, positioning your shoulder near opponent's head. Your head should be close to theirs, limiting their ability to turn away. This angle change starts to create compression on the near-side carotid artery while setting up the finishing mechanics. (Timing: Smooth transition over 1-2 seconds) [Pressure: Firm]
-4. **Drive shoulder pressure**: Press your shoulder (same side as choking hand) into the side of opponent's neck while maintaining the deep collar grip. This creates the primary compression on the carotid artery. Your elbow should come close to the mat on the far side of their head, creating a lever system with your shoulder as the fulcrum. (Timing: Progressive pressure over 2-3 seconds) [Pressure: Firm]
-5. **Secure head position**: Place your head tight against opponent's head on the opposite side of your choking arm, preventing them from turning toward you to relieve pressure. Your head acts as a blocking mechanism while your shoulder and collar grip create the strangle. Keep your base wide to prevent being rolled. (Timing: Maintain throughout finish) [Pressure: Moderate]
-6. **Complete the choke**: Drive your weight forward and slightly toward your choking side while pulling the collar grip tighter. The combination of shoulder pressure, head blocking, and collar tension completes the blood choke by compressing both carotid arteries. From mount, you may need to post with your far leg to prevent being rolled. Maintain pressure progressively until partner taps, never jerking or spiking the finish. (Timing: Progressive tightening over 3-4 seconds in training) [Pressure: Maximum]
+1. **Establish deep collar grip**: From mount or side control, feed your hand (same side as the direction you'll finish) deep into opponent's far collar, aiming for four fingers inside with thumb outside. The deeper the grip, the more effective the choke. Disguise this as a standard control grip by maintaining pressure and not telegraphing the submission intention. (Timing: Take 2-3 seconds to work grip progressively deeper)
+2. **Control defensive frames**: Use your free hand to control opponent's near arm, either by pinning it to their chest, controlling the wrist, or blocking at the elbow. This prevents them from stripping your collar grip or creating frames. Maintain steady pressure with your chest to limit their mobility and breathing space. (Timing: Establish control before progressing to finish)
+3. **Adjust body angle**: Begin shifting your body weight toward the side of your choking arm, positioning your shoulder near opponent's head. Your head should be close to theirs, limiting their ability to turn away. This angle change starts to create compression on the near-side carotid artery while setting up the finishing mechanics. (Timing: Smooth transition over 1-2 seconds)
+4. **Drive shoulder pressure**: Press your shoulder (same side as choking hand) into the side of opponent's neck while maintaining the deep collar grip. This creates the primary compression on the carotid artery. Your elbow should come close to the mat on the far side of their head, creating a lever system with your shoulder as the fulcrum. (Timing: Progressive pressure over 2-3 seconds)
+5. **Secure head position**: Place your head tight against opponent's head on the opposite side of your choking arm, preventing them from turning toward you to relieve pressure. Your head acts as a blocking mechanism while your shoulder and collar grip create the strangle. Keep your base wide to prevent being rolled. (Timing: Maintain throughout finish)
+6. **Complete the choke**: Drive your weight forward and slightly toward your choking side while pulling the collar grip tighter. The combination of shoulder pressure, head blocking, and collar tension completes the blood choke by compressing both carotid arteries. From mount, you may need to post with your far leg to prevent being rolled. Maintain pressure progressively until partner taps, never jerking or spiking the finish. (Timing: Progressive tightening over 3-4 seconds in training)
 
 
 </section>
@@ -255,22 +255,22 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Telegraphing the submission by reaching obviously for the collar [Low DANGER]
+- **Mistake**: Telegraphing the submission by reaching obviously for the collar
   - **Consequence**: Opponent recognizes the threat immediately and defends the grip, preventing you from establishing the deep collar penetration necessary for the choke
   - **Correction**: Establish the collar grip as part of your standard positional control sequence, making it appear as a control grip rather than an attacking grip. Set up other threats first to occupy opponent's defensive attention.
-- **Mistake**: Insufficient collar grip depth - fingers not deep enough in collar [Low DANGER]
+- **Mistake**: Insufficient collar grip depth - fingers not deep enough in collar
   - **Consequence**: Choke lacks the leverage and compression necessary to finish, allowing opponent to defend effectively and potentially escape position
   - **Correction**: Work the grip progressively deeper before attempting finish, ensuring at least four fingers are inserted into the collar. Use lapel material manipulation to create space for deeper penetration.
-- **Mistake**: Relying on arm strength instead of body positioning and shoulder pressure [Low DANGER]
+- **Mistake**: Relying on arm strength instead of body positioning and shoulder pressure
   - **Consequence**: Choke is ineffective and exhausting, burning your grip and energy while failing to create proper carotid compression
   - **Correction**: Focus on angle management and shoulder pressure as the primary choking mechanism. Your collar grip maintains control, but your shoulder and body weight create the actual submission pressure.
-- **Mistake**: Poor head position allowing opponent to turn toward the choke [Medium DANGER]
+- **Mistake**: Poor head position allowing opponent to turn toward the choke
   - **Consequence**: Opponent relieves pressure by turning into you, potentially escaping or reversing position
   - **Correction**: Keep your head tight against opponent's head on the opposite side of your choking arm, actively blocking their ability to turn. Your head acts as a critical control point in the finishing sequence.
-- **Mistake**: Jerking or spiking the choke instead of progressive pressure application [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke instead of progressive pressure application
   - **Consequence**: Risk of neck injury to training partner, creates dangerous training environment and violates fundamental safety principles
   - **Correction**: Always apply pressure progressively over 3-5 seconds minimum in training, allowing partner clear opportunity to recognize the danger and tap. Save explosive finishes exclusively for competition contexts.
-- **Mistake**: Continuing pressure after partner taps or shows distress [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after partner taps or shows distress
   - **Consequence**: Risk of causing unconsciousness or injury, serious safety violation that can damage training relationships and create dangerous gym culture
   - **Correction**: Develop heightened sensitivity to tap signals and immediately release all pressure upon feeling any tap or seeing distress indicators. Training safety must always be the absolute priority over ego or competitive instinct.
 
@@ -335,43 +335,6 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn proper collar grip depth, body positioning, and shoulder pressure mechanics through demonstration and solo drilling without resistance. Study the anatomical targets and safety considerations.
-- Resistance: None
-- Safety: Understand tap signals, release protocols, and the critical importance of progressive pressure application before attempting on training partners
-
-**Cooperative Drilling** (Week 3-4)
-- Focus: Practice full technique sequence from established positions with compliant partner who provides feedback on pressure and positioning. Focus on grip depth, angle management, and smooth transitions through each step.
-- Resistance: Zero resistance
-- Safety: Apply extremely slow pressure, stopping well before tap to develop sensitivity to proper positioning. Partner provides verbal feedback on pressure points and comfort levels.
-
-**Light Resistance Practice** (Week 5-6)
-- Focus: Partner provides mild defensive responses such as basic framing and grip fighting. Practice establishing grip and position against light resistance while maintaining technical precision.
-- Resistance: Mild resistance
-- Safety: Maintain 3-5 second minimum pressure application. Focus on technical execution rather than speed or force. Both partners monitor for proper tap signal recognition.
-
-**Positional Sparring** (Week 7-8)
-- Focus: Start from mount, side control, or turtle positions and work to establish the loop choke against realistic defensive responses. Partner actively defends but allows successful execution when proper technique is applied.
-- Resistance: Realistic resistance
-- Safety: Never spike the choke even when opponent is defending actively. Develop ability to maintain safety protocols under increased intensity. Practice tap recognition under more dynamic conditions.
-
-**Flow Rolling Integration** (Week 9-12)
-- Focus: Integrate loop choke into broader positional flow rolling, chaining with other collar attacks and using setups from various positions. Develop timing and recognition of high-percentage opportunities.
-- Resistance: Realistic resistance
-- Safety: Maintain progressive pressure application even during dynamic exchanges. Develop automatic tap recognition response that functions regardless of rolling intensity.
-
-**Competition Application** (Week 13+)
-- Focus: Use loop choke in live rolling and competition contexts with full intensity. Develop strategic understanding of when to attempt versus when to use as a setup for other attacks. Chain with complementary techniques.
-- Resistance: Full resistance
-- Safety: Reserve maximum speed and tightness exclusively for competition contexts. In training, even at this phase, maintain safety margins and immediate tap recognition to preserve training partner safety and longevity.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -425,6 +388,7 @@ The Loop Choke is a deceptive gi-based blood choke that attacks the carotid arte
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

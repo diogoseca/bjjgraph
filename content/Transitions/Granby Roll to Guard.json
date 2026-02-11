@@ -32,11 +32,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Granby Roll to Guard is a dynamic defensive escape technique used to recover guard position when caught in the Buggy Choke or similar turtle-attacking positions. Named after the wrestling-derived shoulder roll movement, this technique uses rotational momentum and hip mobility to invert beneath the opponent and emerge facing them in a guard position. The movement exploits the brief windows when the attacking player commits weight forward or attempts to consolidate grips.\n\nStrategically, the Granby Roll represents an aggressive defensive philosophy where controlled movement is preferable to static survival. Rather than fighting grip-by-grip against a deteriorating position, the practitioner accepts temporary vulnerability during the roll in exchange for a complete positional reset. This technique is particularly valuable against sophisticated turtle attacks where passive defense leads inevitably to submission or back exposure.\n\nThe technical demands of the Granby Roll require significant hip mobility, proprioceptive awareness, and precise timing. Executing the roll too early allows the opponent to follow and maintain control; executing too late means the position has already consolidated beyond the escape window. Mastery of this technique provides a reliable emergency exit from dangerous turtle scenarios while building the movement vocabulary necessary for advanced guard retention and recovery systems.",
   "key_principles": [
     "Initiate the roll when opponent's weight commits forward or their grips are not fully secured",
@@ -58,38 +53,32 @@
     {
       "step_number": 1,
       "action": "Create space",
-      "description": "Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion.",
-      "timing": "When opponent reaches for second grip or adjusts position"
+      "description": "Drive your hips backward momentarily to create a slight gap between your body and the opponent's chest pressure, disrupting their forward weight commitment and creating space for the rolling motion."
     },
     {
       "step_number": 2,
       "action": "Post the far arm",
-      "description": "Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll.",
-      "timing": "Immediately after creating space"
+      "description": "Place your hand (on the side away from opponent's control) on the mat near your ear with fingers pointing toward your feet, establishing the pivot point for the inverted roll."
     },
     {
       "step_number": 3,
       "action": "Tuck and rotate",
-      "description": "Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by turning your head away from the opponent and rolling diagonally across your upper back.",
-      "timing": "Explosive movement as one fluid motion"
+      "description": "Tuck your chin firmly to your chest while driving off your knees, initiating the shoulder roll by turning your head away from the opponent and rolling diagonally across your upper back."
     },
     {
       "step_number": 4,
       "action": "Invert through",
-      "description": "Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your legs will swing through the space where your torso was, creating the escape angle.",
-      "timing": "Maintain momentum—do not pause mid-roll"
+      "description": "Continue the rotational momentum, allowing your hips to pass over your shoulders as you invert. Your legs will swing through the space where your torso was, creating the escape angle."
     },
     {
       "step_number": 5,
       "action": "Hip extension",
-      "description": "As you complete the inversion, extend your hips powerfully to push away from the opponent and create distance. This extension prevents them from following directly into mount or side control.",
-      "timing": "At the apex of the roll when inverted"
+      "description": "As you complete the inversion, extend your hips powerfully to push away from the opponent and create distance. This extension prevents them from following directly into mount or side control."
     },
     {
       "step_number": 6,
       "action": "Establish guard",
-      "description": "Land facing the opponent with your legs between you and them. Immediately establish foot contact on their hips, close to closed guard if possible, or frame with open guard grips to prevent immediate passing.",
-      "timing": "Upon completing rotation, before opponent can advance"
+      "description": "Land facing the opponent with your legs between you and them. Immediately establish foot contact on their hips, close to closed guard if possible, or frame with open guard grips to prevent immediate passing."
     }
   ],
   "common_counters": [
@@ -145,26 +134,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Solo movement drilling",
-      "description": "Practice the granby roll motion without a partner, focusing on smooth shoulder rolling, proper chin tuck, and landing in guard position. Build the proprioceptive awareness needed for the inverted movement pattern.",
-      "resistance_level": "None"
+      "description": "Practice the granby roll motion without a partner, focusing on smooth shoulder rolling, proper chin tuck, and landing in guard position. Build the proprioceptive awareness needed for the inverted movement pattern."
     },
     {
       "phase": "Week 3-4",
       "focus": "Controlled partner drilling",
-      "description": "Partner establishes turtle top position without attacking. Practice timing the roll initiation, creating space, and establishing guard upon completion. Partner provides positional pressure but does not counter.",
-      "resistance_level": "Light"
+      "description": "Partner establishes turtle top position without attacking. Practice timing the roll initiation, creating space, and establishing guard upon completion. Partner provides positional pressure but does not counter."
     },
     {
       "phase": "Week 5-6",
       "focus": "Reaction training",
-      "description": "Partner threatens buggy choke grips at varying speeds and intensities. Practice recognizing the escape window and executing the granby before position consolidates. Partner begins following the roll to develop counter-to-counter awareness.",
-      "resistance_level": "Medium"
+      "description": "Partner threatens buggy choke grips at varying speeds and intensities. Practice recognizing the escape window and executing the granby before position consolidates. Partner begins following the roll to develop counter-to-counter awareness."
     },
     {
       "phase": "Week 7+",
       "focus": "Live positional sparring",
-      "description": "Full resistance turtle sparring where bottom player works all escape options including granby roll. Integrate the technique into live rolling, using it as part of complete turtle defense system.",
-      "resistance_level": "Full"
+      "description": "Full resistance turtle sparring where bottom player works all escape options including granby roll. Integrate the technique into live rolling, using it as part of complete turtle defense system."
     }
   ],
   "variants_and_adaptations": [
@@ -187,43 +172,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Granby Roll to Guard?",
-      "answer": "The primary goal is to escape the deteriorating turtle position under Buggy Choke threat and recover to a guard position where you can implement offensive tactics. Rather than fighting a losing grip battle in turtle, the granby provides a complete positional reset that eliminates the submission threat and reestablishes your defensive structure.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to escape the deteriorating turtle position under Buggy Choke threat and recover to a guard position where you can implement offensive tactics. Rather than fighting a losing grip battle in turtle, the granby provides a complete positional reset that eliminates the submission threat and reestablishes your defensive structure."
     },
     {
       "question": "When is the optimal timing window to initiate the Granby Roll?",
-      "answer": "The optimal window is when the opponent's weight commits forward as they reach to secure their second grip or adjust position, and before their body pressure fully consolidates. This moment provides maximum space for rotation while the opponent is temporarily off-balance during their adjustment.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal window is when the opponent's weight commits forward as they reach to secure their second grip or adjust position, and before their body pressure fully consolidates. This moment provides maximum space for rotation while the opponent is temporarily off-balance during their adjustment."
     },
     {
       "question": "Why must you tuck your chin during the rolling motion?",
-      "answer": "Tucking the chin protects your cervical spine from hyperextension during the inverted roll, prevents the opponent from catching your neck during rotation, and ensures smooth rolling mechanics by allowing the roll to travel diagonally across your upper back rather than compressing your neck vertebrae.",
-      "difficulty": "Beginner"
+      "answer": "Tucking the chin protects your cervical spine from hyperextension during the inverted roll, prevents the opponent from catching your neck during rotation, and ensures smooth rolling mechanics by allowing the roll to travel diagonally across your upper back rather than compressing your neck vertebrae."
     },
     {
       "question": "Your opponent sprawls heavily as you initiate the granby—how do you adjust?",
-      "answer": "Abort the granby attempt and switch to sitting to half guard instead. Use their forward sprawl momentum against them by shooting your hips away and sliding underneath to establish half guard. Their committed forward pressure actually assists this alternative escape once you redirect the movement.",
-      "difficulty": "Intermediate"
+      "answer": "Abort the granby attempt and switch to sitting to half guard instead. Use their forward sprawl momentum against them by shooting your hips away and sliding underneath to establish half guard. Their committed forward pressure actually assists this alternative escape once you redirect the movement."
     },
     {
       "question": "What is the most critical action immediately upon completing the roll?",
-      "answer": "Establishing immediate leg contact with the opponent is the most critical action. Get your feet on their hips or close to closed guard before anything else. Without this defensive structure, the opponent will pass your guard immediately and you will have traded one bad position for another.",
-      "difficulty": "Intermediate"
+      "answer": "Establishing immediate leg contact with the opponent is the most critical action. Get your feet on their hips or close to closed guard before anything else. Without this defensive structure, the opponent will pass your guard immediately and you will have traded one bad position for another."
     },
     {
       "question": "Why is the hip extension at the apex of the roll important?",
-      "answer": "The hip extension creates distance between you and the opponent, preventing them from following directly into mount or side control. Without this extension, you complete the roll but remain too close to the opponent, allowing them to immediately consolidate a passing position.",
-      "difficulty": "Intermediate"
+      "answer": "The hip extension creates distance between you and the opponent, preventing them from following directly into mount or side control. Without this extension, you complete the roll but remain too close to the opponent, allowing them to immediately consolidate a passing position."
     },
     {
       "question": "Your opponent maintains their collar grip through your granby roll—what guard should you establish?",
-      "answer": "Accept the collar grip and establish closed guard where you can control their posture and work grip strips from a stable position. The collar grip is manageable from closed guard, whereas trying to strip it mid-roll often compromises your escape. Prioritize completing the escape, then address the grip.",
-      "difficulty": "Advanced"
+      "answer": "Accept the collar grip and establish closed guard where you can control their posture and work grip strips from a stable position. The collar grip is manageable from closed guard, whereas trying to strip it mid-roll often compromises your escape. Prioritize completing the escape, then address the grip."
     },
     {
       "question": "What makes partial execution of the granby particularly dangerous?",
-      "answer": "Stopping mid-roll leaves you inverted and vulnerable with your back exposed. The opponent can easily take back control or establish mount while you are stuck in a compromised inverted position. Partial execution combines the vulnerability of the roll with none of the escape benefits, making it worse than not attempting at all.",
-      "difficulty": "Advanced"
+      "answer": "Stopping mid-roll leaves you inverted and vulnerable with your back exposed. The opponent can easily take back control or establish mount while you are stuck in a compromised inverted position. Partial execution combines the vulnerability of the roll with none of the escape benefits, making it worse than not attempting at all."
     }
   ],
   "safety_considerations": "Practice the granby roll movement pattern extensively before applying it against resistance. The inverted rolling motion places stress on the cervical spine if performed incorrectly—always maintain a tucked chin and roll diagonally across the shoulder blade rather than over the top of the head. Start with soft mats and gradually increase drilling intensity. Avoid this technique if you have neck injuries or cervical spine issues. When drilling with partners, communicate clearly about intensity levels and establish tap signals for any neck discomfort during training. The roll should feel smooth and controlled; any grinding or pressure on the neck indicates incorrect mechanics.",
@@ -265,5 +242,6 @@
       "name": "Sit to Half Guard",
       "relationship": "Alternative escape when granby is blocked"
     }
-  ]
+  ],
+  "success_rate": 58
 }

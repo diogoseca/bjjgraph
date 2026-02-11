@@ -159,7 +159,7 @@ description: "Master Ouchi Gari takedown in BJJ. Step-by-step execution from sta
 Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has become an essential tool in Brazilian Jiu-Jitsu's standing game. The technique involves reaping the opponent's lead leg from the inside while simultaneously breaking their posture and balance to the rear corner. Unlike pure throwing arts where the goal is a clean ippon, BJJ practitioners use Ouchi Gari both as a takedown to achieve dominant top position and as a setup for other attacks when the opponent defends. The technique's effectiveness lies in its ability to capitalize on natural standing posture—most grapplers stand with weight distributed between both legs, making them vulnerable to this inside leg attack. When executed properly, Ouchi Gari creates a powerful combination of off-balancing, sweeping action, and forward pressure that makes it extremely difficult for the opponent to maintain their base. The technique integrates seamlessly with BJJ's ground game, as a successful Ouchi Gari typically lands the practitioner in side control or a transitional position from which mount or back control can be achieved. Its versatility makes it valuable across all rulesets, from IBJJF competition to no-gi grappling and MMA applications.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish dominant grips**: Secure a high collar grip with your right hand (on opponent's left lapel or behind their neck in no-gi) and a sleeve grip with your left hand on their right arm. In no-gi, establish an overhook or underhook position. These grips provide the control necessary to break posture and prevent escape. (Timing: Setup phase - establish before initiating throw)
-2. **Break opponent's posture**: Pull down and backward with your collar grip while pushing or pulling with your sleeve grip to bend opponent forward and break their upright posture. Their weight should shift slightly backward onto their heels. This postural break is critical—without it, they maintain balance too easily. (Timing: 0.5-1 second before step 3)
-3. **Step in close**: Step your left foot forward and slightly to the outside of their right foot, closing the distance significantly. Your hips should be close to theirs, and your chest should be pressed against their upper body. This proximity is essential for the reaping action and prevents them from creating defensive space. (Timing: Immediately after posture break)
-4. **Reap the inside leg**: Drive your right leg between opponent's legs and reap their right leg (inside leg) by sweeping your calf and foot against the back of their calf in an arcing motion from inside to outside. The reaping action should be forceful and committed, targeting the lower third of their leg while your foot stays active and hooks their leg. (Timing: Simultaneous with step 5)
-5. **Drive forward and down**: As you reap, explosively drive your upper body forward and downward using your grips. Pull their upper body toward you and down while pushing your chest into theirs. This creates a powerful rotational force—their upper body goes backward and down while their leg is swept out from under them. (Timing: Simultaneous with step 4)
-6. **Follow to the ground**: Maintain grip control as opponent falls and follow their body to the mat. As they land, transition immediately to side control by releasing the sleeve grip, establishing crossface with your right arm, and securing hip control. Your weight should settle on their torso with proper positioning established before they can recover guard. (Timing: Continuous motion through landing)
-7. **Consolidate top position**: Once on the ground, establish full side control by getting your hips low, chest pressure on their sternum, and controlling their head and far hip. Prevent them from turning into you or recovering guard by maintaining heavy pressure and proper base distribution. (Timing: Immediate post-landing, 1-2 seconds to stabilize)
+1. **Establish dominant grips**: Secure a high collar grip with your right hand (on opponent's left lapel or behind their neck in no-gi) and a sleeve grip with your left hand on their right arm. In no-gi, establish an overhook or underhook position. These grips provide the control necessary to break posture and prevent escape.
+2. **Break opponent's posture**: Pull down and backward with your collar grip while pushing or pulling with your sleeve grip to bend opponent forward and break their upright posture. Their weight should shift slightly backward onto their heels. This postural break is critical—without it, they maintain balance too easily.
+3. **Step in close**: Step your left foot forward and slightly to the outside of their right foot, closing the distance significantly. Your hips should be close to theirs, and your chest should be pressed against their upper body. This proximity is essential for the reaping action and prevents them from creating defensive space.
+4. **Reap the inside leg**: Drive your right leg between opponent's legs and reap their right leg (inside leg) by sweeping your calf and foot against the back of their calf in an arcing motion from inside to outside. The reaping action should be forceful and committed, targeting the lower third of their leg while your foot stays active and hooks their leg.
+5. **Drive forward and down**: As you reap, explosively drive your upper body forward and downward using your grips. Pull their upper body toward you and down while pushing your chest into theirs. This creates a powerful rotational force—their upper body goes backward and down while their leg is swept out from under them.
+6. **Follow to the ground**: Maintain grip control as opponent falls and follow their body to the mat. As they land, transition immediately to side control by releasing the sleeve grip, establishing crossface with your right arm, and securing hip control. Your weight should settle on their torso with proper positioning established before they can recover guard.
+7. **Consolidate top position**: Once on the ground, establish full side control by getting your hips low, chest pressure on their sternum, and controlling their head and far hip. Prevent them from turning into you or recovering guard by maintaining heavy pressure and proper base distribution.
 
 
 </section>
@@ -265,27 +265,21 @@ Ouchi Gari (major inner reaping throw) is a fundamental judo technique that has 
 ## Training Progressions
 **Phase 1: Static Drilling (Weeks 1-2)** - Proper mechanics and body positioning without resistance
 Practice the entry step, grip establishment, and reaping motion with a compliant partner. Focus on foot placement, hip positioning, and coordinating upper body pull with leg sweep. Partner should allow themselves to be thrown gently to build muscle memory for the thrower. Emphasize the feeling of proper distance, posture breaking, and the reaping arc.
-(Resistance: None)
 
 **Phase 2: Controlled Repetition (Weeks 3-4)** - Timing and coordination with movement
 Partner begins moving slowly in the clinch position while you attempt the throw. They offer light resistance through grips but still allow the throw to complete. Work on recognizing the right moment to attack (when they step forward or are slightly off-balance). Perform 20-30 repetitions per training session, alternating roles with partner.
-(Resistance: Light)
 
 **Phase 3: Combination Drilling (Weeks 5-8)** - Chaining Ouchi Gari with other techniques
 Practice Ouchi Gari in combination with other takedowns. Common combinations: Ouchi Gari to Kouchi Gari (if they step back), Ouchi Gari to Osoto Gari (if they circle), or Ouchi Gari to front headlock (if they sprawl). Learn to feel their defensive reactions and flow to the appropriate follow-up. This builds the adaptability necessary for live situations.
-(Resistance: Light)
 
 **Phase 4: Increased Resistance (Weeks 9-12)** - Executing against realistic defensive reactions
 Partner actively defends but with agreement that they won't counter-attack. They can step back, base out, or sprawl, but they don't initiate their own throws. This allows you to work against real defensive patterns while building confidence. Focus on problem-solving when the first attempt doesn't work—setting up second and third attacks.
-(Resistance: Medium)
 
 **Phase 5: Live Takedown Practice (Weeks 13-16)** - Full resistance standup grappling with positional focus
 Begin each round standing and work for takedowns with full resistance, but restart standing after each successful technique (rather than continuing on the ground). This maximizes standing repetitions. Work 3-5 minute rounds with focus on creating opportunities for Ouchi Gari through grip fighting, movement, and setup.
-(Resistance: Full)
 
 **Phase 6: Competition Simulation (Week 17+)** - Integrating takedowns into complete grappling exchanges
 Full sparring rounds that start standing and continue on the ground. Score takedowns according to your competition ruleset. Work on completing Ouchi Gari under the pressure of an opponent who will attack you, chain it with other techniques, and immediately transition to ground control positions when successful. This represents the complete application of the technique in context.
-(Resistance: Full)
 
 
 
@@ -360,7 +354,7 @@ Ouchi Gari serves as a fundamental bridge between BJJ's standing game and ground
 - [[Kouchi Gari]] - Follow-up technique - most common combination when opponent steps back to defend Ouchi Gari
 - [[Kosoto Gari]] - Alternative technique - minor outer reap that can be used when Ouchi Gari is defended or as part of combination attack
 - [[Uchi Mata]] - Advanced variation - inner thigh throw that shares some principles with Ouchi Gari but targets higher on the leg
-- [[Seoi Nage]] - Combination technique - forward throw that can be entered when opponent sprawls or pulls back from Ouchi Gari attempt
+- [[Ippon Seoi Nage]] - Combination technique - forward throw that can be entered when opponent sprawls or pulls back from Ouchi Gari attempt
 - [[Side Control]] - Common ending position - typical landing position after successful Ouchi Gari execution
 - [[Front Headlock]] - Backup position - transitional position when opponent sprawls to defend Ouchi Gari
 - [[Single Leg Takedown]] - Alternative attack - can be entered when Ouchi Gari is partially successful but doesn't complete the throw

@@ -14,11 +14,6 @@
   "submission_type": "Shoulder Lock",
   "target_area": "Shoulder joint (rotator cuff, capsule, AC joint)",
   "starting_position": "Closed Guard",
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 45,
-    "advanced": 60
-  },
   "overview": "The Omoplata is a sophisticated shoulder lock that attacks the opponent's shoulder joint through controlled rotation and leverage. Originating from Brazilian Jiu-Jitsu, this technique involves trapping the opponent's arm with your legs while controlling their posture, then rotating their shoulder beyond its natural range of motion. The Omoplata is unique among submissions because it functions as both a finishing technique and a powerful positional control system, offering numerous sweep and transition opportunities even when the submission itself is defended. The technique is particularly effective from guard positions, where the bottom player can use their legs to control distance and angle while isolating the opponent's arm. Modern competition has elevated the Omoplata from a low-percentage novelty to a high-level control position that creates multiple offensive dilemmas for the opponent.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Initial arm isolation",
       "description": "From guard position, secure a grip on the opponent's wrist or sleeve on the target side. Simultaneously grip their opposite collar or sleeve to control posture. Break their posture by pulling them forward while opening your guard slightly to create the angle needed for leg insertion. The key is preventing them from posting their trapped arm back or pulling it free.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 2,
       "action": "Leg insertion over shoulder",
       "description": "Pivot your hips at a 90-degree angle to the opponent while maintaining wrist control. Swing your leg (same side as trapped arm) up and over their shoulder, positioning your calf or shin across their upper back. Your other leg should hook under their armpit or wrap around their torso for additional control. Ensure your hips are elevated and mobile, not flat on the mat.",
-      "timing": "3-4 seconds",
-      "pressure_level": "Moderate"
+      "timing": "3-4 seconds"
     },
     {
       "step_number": 3,
       "action": "Hip rotation and shoulder trap",
       "description": "Rotate your hips further while pulling the opponent's trapped arm tight to your body. Your top leg should press down on their shoulder blade while your bottom leg maintains torso control. The opponent's arm should now be straightened and trapped between your legs with their shoulder beginning to rotate internally. Adjust your angle so your hips are perpendicular to their body.",
-      "timing": "3-4 seconds",
-      "pressure_level": "Moderate"
+      "timing": "3-4 seconds"
     },
     {
       "step_number": 4,
       "action": "Posture control and base breaking",
       "description": "Sit up and establish a strong seated posture while maintaining leg pressure. Use your grips to prevent the opponent from posturing up or rolling forward (their primary escapes). Your body weight should be forward, driving their shoulder toward the mat. Control their far hip or leg to prevent them from turning into you or spinning out of the position.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 5,
       "action": "Angle adjustment",
       "description": "Fine-tune your hip angle to be approximately 45-90 degrees from the opponent's centerline. This angle prevents their forward roll escape while maximizing shoulder rotation. Pinch your knees together to secure the arm trap. Your top leg should create downward pressure on their shoulder while your chest drives forward, creating the rotational force on their shoulder joint.",
-      "timing": "2-3 seconds",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds"
     },
     {
       "step_number": 6,
       "action": "Progressive shoulder rotation to finish",
       "description": "Maintaining all controls, slowly and progressively lean your chest forward over their trapped shoulder. This creates internal rotation of their shoulder joint. The finishing pressure comes from your chest driving forward and down, not from jerking or yanking. Simultaneously, pinch your legs tighter and pull their wrist toward your chest. Apply pressure SLOWLY over 4-6 seconds, stopping immediately upon tap. The leverage comes from your entire body weight, not arm strength.",
-      "timing": "4-6 seconds minimum",
-      "pressure_level": "Maximum"
+      "timing": "4-6 seconds minimum"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,8 +149,7 @@
     {
       "error": "Applying sudden jerking or spiking motion to shoulder",
       "consequence": "Immediate severe injury to training partner's rotator cuff or labrum",
-      "correction": "Always apply progressive pressure over 4-6 seconds minimum. Think of slowly turning a dial, not flipping a switch. Competition finishes should never be practiced in training.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply progressive pressure over 4-6 seconds minimum. Think of slowly turning a dial, not flipping a switch. Competition finishes should never be practiced in training."
     },
     {
       "error": "Lying flat on back instead of sitting up",
@@ -181,8 +169,7 @@
     {
       "error": "Continuing to apply pressure during forward roll escape",
       "consequence": "Can cause catastrophic shoulder dislocation or labrum tear as opponent's body weight combines with your pressure",
-      "correction": "Release ALL pressure immediately if opponent commits to forward roll. This is an emergency release situation. Better to lose position than injure your partner.",
-      "danger_level": "CRITICAL"
+      "correction": "Release ALL pressure immediately if opponent commits to forward roll. This is an emergency release situation. Better to lose position than injure your partner."
     },
     {
       "error": "Crossing ankles or improper leg position",
@@ -289,50 +276,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Week 1-2)",
-      "timeframe": "2 weeks",
-      "focus": "Learning entry mechanics, leg positioning, and hip rotation without any finishing pressure. Partner remains mobile to demonstrate control points.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Focus entirely on body positioning and control structure. No pressure on shoulder joint. Study injury mechanisms and tap protocols. Partner provides feedback on comfort level throughout."
-    },
-    {
-      "phase": "Slow Cooperative Practice (Week 3-4)",
-      "timeframe": "2 weeks",
-      "focus": "Practicing full sequence from guard to omoplata position with compliant partner. Emphasize proper angle management and sitting up. Stop at control position before any finishing pressure.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner taps early and often to establish safety communication. Practice release protocol multiple times. Discuss comfort levels after each repetition. No weight on shoulder yet."
-    },
-    {
-      "phase": "Controlled Light Pressure (Week 5-8)",
-      "timeframe": "4 weeks",
-      "focus": "Adding minimal finishing pressure (10-20% maximum force) with careful attention to application speed. Partner taps at first sensation of shoulder rotation. Practice maintaining position rather than forcing finish.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "6-8 second minimum pressure application. Stop immediately on any discomfort. Both partners verbally communicate throughout. Focus on feeling the position rather than finishing. Practice emergency release if partner rolls forward."
-    },
-    {
-      "phase": "Realistic Defensive Responses (Month 3-4)",
-      "timeframe": "2 months",
-      "focus": "Partner begins defending realistically with posture maintenance, distance creation, and attempted escapes. Practice transitioning to sweeps and back takes when submission is defended.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain slow pressure application even against resistance. Never spike or jerk despite opponent movement. Release immediately if forward roll begins. Focus on control and transitions rather than forced finishes."
-    },
-    {
-      "phase": "Dynamic Drilling (Month 5-6)",
-      "timeframe": "2 months",
-      "focus": "Practicing entries from various guard positions, against different defensive reactions, with smooth transitions to other attacks. Developing the omoplata as part of a guard retention and attack system.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Continue slow finishing pressure. Begin recognizing when to transition vs. finish based on opponent's flexibility and defensive position. Both partners must trust each other completely at this phase."
-    },
-    {
-      "phase": "Live Rolling Integration (Month 7+)",
-      "timeframe": "Ongoing",
-      "focus": "Attempting omoplata in live rolling against fully resisting opponents. Using the position for control, sweeps, and transitions as much as submissions. Developing strategic decision-making about when to pursue the finish.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Always apply slower pressure in rolling than you would in competition. Remember that training partners are more valuable than taps. Release on any emergency signals. Recognize that some opponents have greater shoulder flexibility and may not tap to moderate pressure - never force it."
-    }
-  ],
   "from_positions": [
     "Closed Guard",
     "Open Guard",
@@ -343,7 +286,8 @@
     "De La Riva Guard",
     "Collar Sleeve Guard",
     "Butterfly Guard",
-    "Seated Guard"
+    "Seated Guard",
+    "Omoplata Control"
   ],
   "related_submissions": [
     "Triangle Choke",
@@ -405,6 +349,20 @@
     {
       "name": "Armbar Control",
       "relationship": "Alternative submission when opponent defends omoplata by posturing"
+    }
+  ],
+  "success_rate": 52,
+  "from_position": "Omoplata Control/Top",
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 50,
+      "result": "success"
+    },
+    {
+      "to": "Omoplata Control",
+      "probability": 50,
+      "result": "failure"
     }
   ]
 }

@@ -153,7 +153,7 @@ description: "Master the Hip Escape (Shrimp) in BJJ. Essential defensive movemen
 The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the most fundamental defensive techniques in Brazilian Jiu-Jitsu. This essential movement pattern allows practitioners to create distance and recover guard position when pinned beneath an opponent. The technique involves a coordinated movement of bridging, turning, and sliding the hips away from pressure while maintaining proper frames to prevent the opponent from following. Understanding and mastering the hip escape is critical for survival in bottom positions, as it forms the foundation for virtually all escapes from pins including side control, mount, knee on belly, and north-south positions. The movement creates the necessary space to insert defensive frames, recover guard, or transition to better positions. While simple in concept, the hip escape requires precise timing, proper weight distribution, and efficient body mechanics to execute effectively against a skilled opponent applying heavy pressure.
 
 **From Position**: [[Side Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -203,12 +203,12 @@ The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the mo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Create strong frames using forearms and hands against opponent's hips, shoulders, or neck. Keep elbows tight to body while extending frames to create maximum structural integrity. Frame placement depends on opponent's position - typically one frame on hip and one on shoulder or neck. (Timing: Immediately upon being pinned)
-2. **Bridge and turn**: Drive hips explosively upward and slightly toward the direction you want to escape, using legs and core power. Simultaneously turn shoulders and upper body onto your side, creating a wedge shape with your body. This bridge momentarily disrupts opponent's base and creates the initial space needed. (Timing: Execute bridge when opponent's weight is committed forward or shifting)
-3. **Slide hips away**: As you bridge and turn, forcefully slide your hips away from opponent in the direction opposite their pressure. Push off the mat with your outside foot (the foot furthest from opponent) while dragging the inside leg. The movement should trace your hips along the mat in a 'shrimping' motion, creating 6-12 inches of distance. (Timing: Immediately following the bridge, while opponent is off-balanced)
-4. **Maintain frames**: Throughout the hip movement, maintain or re-establish strong frames to prevent opponent from following and closing the distance you've created. Frames must be dynamic - extending when space is created, tucking when opponent applies pressure, but always maintaining structural integrity to prevent being crushed. (Timing: Continuous throughout the escape)
-5. **Insert knee shield**: As space is created, immediately bring your inside knee (knee closest to opponent) up and across to create a knee shield barrier between you and opponent. The knee should target opponent's hip or torso, with your shin creating a horizontal barrier. This prevents opponent from immediately reclosing distance and pressuring back into the pin. (Timing: Immediately as hips create separation)
-6. **Recover guard position**: Use the knee shield and frames to continue creating distance while bringing your outside leg around to establish full guard, half guard, or butterfly hooks. Maintain active pressure with frames and legs to keep opponent at bay while transitioning from defensive escape to guard position. Get your shoulders square to opponent and hips mobile for guard retention. (Timing: As knee shield is established and opponent's advance is stopped)
+1. **Establish frames**: Create strong frames using forearms and hands against opponent's hips, shoulders, or neck. Keep elbows tight to body while extending frames to create maximum structural integrity. Frame placement depends on opponent's position - typically one frame on hip and one on shoulder or neck.
+2. **Bridge and turn**: Drive hips explosively upward and slightly toward the direction you want to escape, using legs and core power. Simultaneously turn shoulders and upper body onto your side, creating a wedge shape with your body. This bridge momentarily disrupts opponent's base and creates the initial space needed.
+3. **Slide hips away**: As you bridge and turn, forcefully slide your hips away from opponent in the direction opposite their pressure. Push off the mat with your outside foot (the foot furthest from opponent) while dragging the inside leg. The movement should trace your hips along the mat in a 'shrimping' motion, creating 6-12 inches of distance.
+4. **Maintain frames**: Throughout the hip movement, maintain or re-establish strong frames to prevent opponent from following and closing the distance you've created. Frames must be dynamic - extending when space is created, tucking when opponent applies pressure, but always maintaining structural integrity to prevent being crushed.
+5. **Insert knee shield**: As space is created, immediately bring your inside knee (knee closest to opponent) up and across to create a knee shield barrier between you and opponent. The knee should target opponent's hip or torso, with your shin creating a horizontal barrier. This prevents opponent from immediately reclosing distance and pressuring back into the pin.
+6. **Recover guard position**: Use the knee shield and frames to continue creating distance while bringing your outside leg around to establish full guard, half guard, or butterfly hooks. Maintain active pressure with frames and legs to keep opponent at bay while transitioning from defensive escape to guard position. Get your shoulders square to opponent and hips mobile for guard retention.
 
 
 </section>
@@ -255,27 +255,21 @@ The Hip Escape, also known as the Shrimp or Shrimping movement, is one of the mo
 ## Training Progressions
 **Week 1-2: Solo Movement** - Develop proper shrimping mechanics without resistance
 Practice solo shrimping across the mat, focusing on explosive hip movement, proper body rotation, and coordinated footwork. Perform 5-10 minute solo drilling sessions at start of each training. Emphasize quality of movement over speed initially.
-(Resistance: None)
 
 **Week 3-4: Partner Framing** - Add frame establishment and maintenance with static partner
 Partner holds modified side control position without applying pressure. Practice establishing frames, executing bridge and shrimp, and recovering guard position. Partner remains passive but maintains position structure. Focus on smooth integration of frames with hip movement.
-(Resistance: None)
 
 **Week 5-8: Progressive Resistance** - Escape against increasing levels of pressure and following
 Partner applies 25-50% pressure and attempts to follow hip escapes. Practice timing, multiple chained shrimps, and dealing with opponent who follows. Partner provides feedback on frame strength and escape effectiveness. Gradually increase resistance as success rate improves.
-(Resistance: Light)
 
 **Week 9-12: Positional Sparring** - Escape from fully established pins with active resistance
 Start in bottom side control, mount, or knee on belly with partner applying full pressure and defending your escapes. Practice recognizing optimal timing windows, dealing with submission threats during escapes, and chaining techniques. 5-minute rounds with reset after successful escape or submission.
-(Resistance: Medium)
 
 **Week 13-16: Integration and Combinations** - Combine hip escape with alternative escape routes
 Train hip escape as part of complete escape system, flowing between shrimp escapes, technical standups, granby rolls, and other defensive movements based on opponent reactions. Partner applies full resistance and attempts to counter known escape patterns.
-(Resistance: Full)
 
 **Ongoing: Maintenance and Refinement** - Continue refining technique under live training conditions
 Include hip escape drilling in regular warm-ups. Seek opportunities during live sparring to execute against resisting opponents of various sizes and skill levels. Film training to analyze technique and identify areas for improvement. Study high-level competitors' escape mechanics.
-(Resistance: Full)
 
 
 

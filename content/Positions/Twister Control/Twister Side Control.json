@@ -251,21 +251,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80,
+        "value": 72,
         "description": "Percentage of time top player maintains twister side control without losing position"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Probability of advancing to better position or achieving submission"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Probability of finishing submission directly from this position"
       },
       "average_time": "45-120 seconds before submission or position change"
@@ -532,21 +526,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 70,
-        "intermediate": 55,
-        "advanced": 40,
+        "value": 48,
         "description": "Percentage of time defender remains trapped in twister side control without escape"
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45,
+        "value": 38,
         "description": "Probability of successfully escaping to guard or neutral position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15,
+        "value": 12,
         "description": "Probability of defender finishing submission from bottom (extremely rare)"
       },
       "average_time": "30-90 seconds before escape or submission"

@@ -243,7 +243,7 @@ From the bottom perspective, Side Control Consolidation Bottom represents one of
 
 - **[[Kimura Trap]]** - Submission control accessible from consolidation
 
-- **[[North South Control]]** - High-control position accessible through transition
+- **[[North-South]]** - High-control position accessible through transition
 
 
 </section>

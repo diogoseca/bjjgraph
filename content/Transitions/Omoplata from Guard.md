@@ -157,7 +157,7 @@ Strategically, the omoplata excels when opponents overcommit their posture or le
 The technique requires significant hip mobility and the ability to create angles quickly. Unlike attacks that rely primarily on grip strength, the omoplata leverages your entire leg structure against their shoulder, making it effective even against larger opponents. The setup typically begins from overhook control, spider guard, or when opponent reaches forward, allowing you to swing your leg over their trapped arm and establish the controlling position.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The technique requires significant hip mobility and the ability to create angles
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish wrist control**: Secure a same-side grip on opponent's wrist or sleeve with your hand, pulling their arm across your centerline. This grip prevents them from retracting their arm during the setup and creates the angle needed for your leg to pass over their shoulder. (Timing: When opponent reaches forward or posts their hand)
-2. **Hip escape and create angle**: Execute a strong hip escape away from the controlled arm, turning your body perpendicular to your opponent. Your hips should move at least 45 degrees from square, creating the space and angle necessary for your leg to clear their shoulder without obstruction. (Timing: Immediately after securing wrist control)
-3. **Swing leg over shoulder**: Bring your same-side leg up and over opponent's shoulder, threading it behind their head so your hamstring contacts the back of their neck. Your foot should end up near their opposite hip, with your calf pressing down on their shoulder blade. (Timing: As your hips clear to the angle)
-4. **Triangle your legs**: Lock your legs in a figure-four configuration by placing your top ankle behind your bottom knee. Your bottom leg should hook behind opponent's far armpit, creating a bracket that prevents forward rolls and controls their posture. (Timing: Once leg clears their shoulder)
-5. **Sit up toward opponent**: Use your free arm to post behind you and sit up, rotating your torso to face toward opponent's hips. This sitting motion increases the rotational pressure on their shoulder and gives you control of their belt or hip with your near hand. (Timing: After legs are locked)
-6. **Control hip and finish position**: Grab opponent's belt, pants, or hip with your near-side hand to prevent them from rolling forward. Your far hand maintains wrist control. From here you have established Omoplata Control and can work toward the finish or sweep. (Timing: As you complete the sit-up motion)
+1. **Establish wrist control**: Secure a same-side grip on opponent's wrist or sleeve with your hand, pulling their arm across your centerline. This grip prevents them from retracting their arm during the setup and creates the angle needed for your leg to pass over their shoulder.
+2. **Hip escape and create angle**: Execute a strong hip escape away from the controlled arm, turning your body perpendicular to your opponent. Your hips should move at least 45 degrees from square, creating the space and angle necessary for your leg to clear their shoulder without obstruction.
+3. **Swing leg over shoulder**: Bring your same-side leg up and over opponent's shoulder, threading it behind their head so your hamstring contacts the back of their neck. Your foot should end up near their opposite hip, with your calf pressing down on their shoulder blade.
+4. **Triangle your legs**: Lock your legs in a figure-four configuration by placing your top ankle behind your bottom knee. Your bottom leg should hook behind opponent's far armpit, creating a bracket that prevents forward rolls and controls their posture.
+5. **Sit up toward opponent**: Use your free arm to post behind you and sit up, rotating your torso to face toward opponent's hips. This sitting motion increases the rotational pressure on their shoulder and gives you control of their belt or hip with your near hand.
+6. **Control hip and finish position**: Grab opponent's belt, pants, or hip with your near-side hand to prevent them from rolling forward. Your far hand maintains wrist control. From here you have established Omoplata Control and can work toward the finish or sweep.
 
 
 </section>
@@ -255,19 +255,15 @@ The technique requires significant hip mobility and the ability to create angles
 ## Training Progressions
 **Week 1-2** - Fundamental mechanics
 Practice the hip escape angle and leg swing motion with a stationary partner. Focus on proper wrist control grip, clearing the shoulder smoothly, and locking the legs correctly. Drill sitting up motion and hip control grab separately.
-(Resistance: None)
 
 **Week 3-4** - Entry timing
 Partner provides basic posture and arm positioning while you identify windows for omoplata entry. Work entries from overhook, collar-sleeve, and spider guard. Partner gives light resistance to arm extraction attempts.
-(Resistance: Light)
 
 **Week 5-6** - Counter defense
 Partner actively attempts forward roll escape and posturing defenses. Practice following their roll to mount, switching to triangle when they posture, and maintaining position against stacking. Chain with sweeps and alternative submissions.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate omoplata into full guard sparring rounds. Focus on recognizing entry opportunities in real-time, chaining with triangle and armbar when omoplata is defended, and finishing or sweeping from omoplata control.
-(Resistance: Full)
 
 
 

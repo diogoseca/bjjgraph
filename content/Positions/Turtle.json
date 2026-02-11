@@ -47,7 +47,7 @@
       "relationship": "Front headlock submission option from turtle top"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Alternative front headlock attack from turtle top"
     },
     {
@@ -260,19 +260,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "15-45 seconds before transition to dominant position"
     },
@@ -290,35 +284,43 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 16
+        "attempt_probability": 13
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 13
+        "attempt_probability": 10
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 13
+        "attempt_probability": 10
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Turtle Flatten to Side Control",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Turtle to Truck Entry",
         "attempt_probability": 9
       },
       {
-        "transition": "Front Headlock to Guillotine",
+        "transition": "Turtle Flatten to Side Control",
         "attempt_probability": 12
       },
       {
+        "transition": "Turtle to Truck Entry",
+        "attempt_probability": 7
+      },
+      {
+        "transition": "Front Headlock to Guillotine",
+        "attempt_probability": 10
+      },
+      {
         "transition": "Kimura from Turtle",
-        "attempt_probability": 11
+        "attempt_probability": 9
+      },
+      {
+        "transition": "Arm Triangle from Turtle",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Turtle to Standing",
+        "attempt_probability": 10
       }
     ],
     "knowledge_assessment": [
@@ -562,19 +564,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60
+        "value": 52
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "10-30 seconds before transition to another position"
     },

@@ -153,7 +153,7 @@ description: "Master the Upa Escape (bridge and roll) from Mount in BJJ. Fundame
 The Upa Escape, also known as the bridge and roll or trap and roll escape, is the most fundamental and highest-percentage escape from bottom mount position. This technique leverages explosive hip power and proper weight distribution to reverse an opponent who has achieved the dominant mount position. The escape works by creating a powerful bridge while simultaneously trapping one of the opponent's arms and the corresponding leg, forcing them to post with their free hand while you drive them over your shoulder. The beauty of the Upa lies in its mechanical efficiency - it doesn't require superior strength or flexibility, making it accessible to practitioners of all sizes and athletic abilities. When executed with proper timing and technique, the Upa can completely reverse a seemingly hopeless position, transitioning you from bottom mount into your opponent's closed guard or even to a top position. This escape forms the cornerstone of mount defense and is typically the first escape taught to beginners due to its reliability and fundamental movement patterns that translate to many other techniques.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Trap the arm**: Identify the side where opponent's weight is shifted or where they are attempting to attack. Cup your hand behind their tricep/elbow on that side, pulling it tight across your chest. Your other hand can post on their hip or grab their belt to control their posture and prevent them from posting far away. (Timing: Initiate when opponent reaches for attack or shifts weight forward)
-2. **Trap the foot**: On the same side as the trapped arm, hook your foot over opponent's ankle/foot, pinning it to the mat. Your knee should be bent with your heel pulled close to your buttocks to generate maximum bridging power. This prevents them from stepping over to establish base. (Timing: Execute simultaneously with arm trap or immediately after)
-3. **Position your bridge angle**: Turn your head toward the trapped side, looking over your shoulder in the direction you'll roll. Your bridge should drive at approximately 45 degrees over your shoulder, not straight up. This angle is critical - bridging straight up allows opponent to post with their free hand. (Timing: Set angle before initiating explosive bridge)
-4. **Execute explosive bridge**: Drive powerfully through your planted foot (opposite side from the trap), extending your hips vertically while simultaneously rotating toward the trapped side. The motion should be one explosive movement combining upward lift and rotational drive. Focus on getting your hips as high as possible while maintaining the arm and leg traps. (Timing: Single explosive movement, commit fully rather than tentative pressure)
-5. **Roll through to top position**: As opponent's base collapses from the bridge, continue rolling over your shoulder while maintaining tight connection to their body. Keep the arm trap secure throughout the roll. Your momentum should carry both of you completely over, with you landing in their guard or advancing to a top position. (Timing: Maintain explosive energy through the complete rotation)
-6. **Establish top position control**: As you complete the roll and land on top, immediately establish posture in their closed guard by sitting back on your heels, maintaining grips to prevent them from taking your back or sweeping you back over. If they don't close guard, work to pass immediately or establish side control pressure. (Timing: Transition immediately to offensive mindset upon completing reversal)
+1. **Trap the arm**: Identify the side where opponent's weight is shifted or where they are attempting to attack. Cup your hand behind their tricep/elbow on that side, pulling it tight across your chest. Your other hand can post on their hip or grab their belt to control their posture and prevent them from posting far away.
+2. **Trap the foot**: On the same side as the trapped arm, hook your foot over opponent's ankle/foot, pinning it to the mat. Your knee should be bent with your heel pulled close to your buttocks to generate maximum bridging power. This prevents them from stepping over to establish base.
+3. **Position your bridge angle**: Turn your head toward the trapped side, looking over your shoulder in the direction you'll roll. Your bridge should drive at approximately 45 degrees over your shoulder, not straight up. This angle is critical - bridging straight up allows opponent to post with their free hand.
+4. **Execute explosive bridge**: Drive powerfully through your planted foot (opposite side from the trap), extending your hips vertically while simultaneously rotating toward the trapped side. The motion should be one explosive movement combining upward lift and rotational drive. Focus on getting your hips as high as possible while maintaining the arm and leg traps.
+5. **Roll through to top position**: As opponent's base collapses from the bridge, continue rolling over your shoulder while maintaining tight connection to their body. Keep the arm trap secure throughout the roll. Your momentum should carry both of you completely over, with you landing in their guard or advancing to a top position.
+6. **Establish top position control**: As you complete the roll and land on top, immediately establish posture in their closed guard by sitting back on your heels, maintaining grips to prevent them from taking your back or sweeping you back over. If they don't close guard, work to pass immediately or establish side control pressure.
 
 
 </section>
@@ -255,27 +255,21 @@ The Upa Escape, also known as the bridge and roll or trap and roll escape, is th
 ## Training Progressions
 **Phase 1: Static Bridge Mechanics (Week 1-2)** - Develop proper bridging movement pattern and hip power
 Practice solo bridging drills lying on back, focusing on explosive hip extension and proper shoulder angle. Partner lies in mount with no resistance, allowing you to feel correct trap positions and bridge direction. Repeat 20-30 reps per session to build muscle memory and explosive power.
-(Resistance: None)
 
 **Phase 2: Cooperative Execution (Week 2-4)** - Perfect trap timing and complete roll-through sequence
 Partner maintains light mount but allows escape when traps are properly set. Focus on coordinating arm trap, foot trap, and bridge into single fluid motion. Partner provides feedback on trap security and bridge angle. Practice 15-20 successful repetitions alternating sides.
-(Resistance: Light)
 
 **Phase 3: Positional Resistance (Week 4-6)** - Execute against partner maintaining balance but not actively countering
 Partner maintains proper mount base and weight distribution but doesn't actively counter escape attempts. This teaches timing and recognizing moments of opportunity (when opponent shifts weight or reaches for grips). Expect 50-60% success rate as you learn to create opportunities.
-(Resistance: Medium)
 
 **Phase 4: Active Defense Integration (Week 6-8)** - Escape against partner using common counters and adjustments
 Partner actively defends by posting, switching hips, and maintaining strong base. Practice recognizing when upa is available versus when to switch to elbow escape or hip escape. Combine upa attempts with other mount escapes to create dilemmas. Success rate may drop to 30-40% as you face realistic resistance.
-(Resistance: Full)
 
 **Phase 5: Submission Integration Defense (Week 8-10)** - Execute escape while defending common mount submissions
 Partner attempts realistic submissions (americana, armbar, ezekiel) from mount. Practice using submission attempts as timing triggers for escape - as they commit hands to attack, their base often weakens. Learn to defend submission while setting up escape simultaneously.
-(Resistance: Full)
 
 **Phase 6: Live Sparring Application (Ongoing)** - Successful execution in live rolling against resisting opponents
 Apply upa escape during regular sparring, combining with other mount escapes based on opponent's reactions. Track success rate and identify patterns of when escape works best. Continuously refine timing and explosion against various opponent sizes and skill levels.
-(Resistance: Full)
 
 
 

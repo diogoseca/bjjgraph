@@ -169,7 +169,7 @@ Strategically, the Triangle from Back is a high-level chain attack that punishes
 The Triangle from Back serves as a critical branch in the back attack decision tree. When opponents develop strong rear naked choke defense, this option forces them to choose between defending the choke and exposing the triangle entry, creating the kind of offensive dilemma that elite back attackers rely on to finish matches.
 
 **From Position**: [[Harness/Top]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -216,14 +216,14 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Threaten the choke**: From harness position with seat belt grip established, begin working the choking arm toward the neck to force the opponent to commit both hands to defending. Drive the choking forearm toward the neck while maintaining chest pressure on their back. (Timing: Initiate as soon as harness grip is secured and opponent begins hand fighting)
-2. **Read the defensive reaction**: Recognize when the opponent pulls your choking arm down with a strong two-on-one grip, tucking their chin and committing both hands low. This creates the opening above the defending shoulder that the triangle leg will thread through. (Timing: React within 1-2 seconds of opponent committing both hands low)
-3. **Control the far arm**: Release the underhook arm from the harness and use it to control the opponent's far-side wrist or bicep. Pin this arm against their body to prevent them from posting or blocking your incoming leg. Maintain the choking arm position as a frame reference. (Timing: Immediately after identifying the opening)
-4. **Withdraw the choking-side hook**: Remove the hook on the same side as your choking arm by pulling your foot out from inside their thigh. Bring the knee up toward your chest to load the leg for the over-the-shoulder thread. Keep the opposite hook deep to prevent the opponent from spinning away. (Timing: Smooth withdrawal, no pause between hook removal and leg threading)
-5. **Thread the leg over the shoulder**: Swing the freed leg in an arc over the opponent's shoulder on the choking arm side. The back of your knee should land tight against the side of their neck with your shin crossing their chest or collarbone. Keep the motion fluid and committed to prevent them from catching the leg mid-transition. (Timing: Single fluid motion, do not hesitate mid-thread)
-6. **Capture the head and arm**: Once the leg is over the shoulder, angle the knee downward to trap their head and one arm inside the triangle. The opponent's defending arm that was fighting the choke is now trapped between your leg and their own neck, creating the classic triangle configuration from the back. (Timing: Immediately as the leg clears the shoulder)
-7. **Lock the figure-four**: Bring your other leg up and hook the ankle of your top leg behind the knee of the bottom leg to establish the figure-four lock. Squeeze your knees together to tighten the triangle around the opponent's neck and trapped arm, consolidating the Rear Triangle control position. (Timing: Lock within 2-3 seconds of the leg clearing the shoulder)
-8. **Consolidate Rear Triangle control**: Once the figure-four is locked, adjust your hip angle to maximize choking pressure. Pull the opponent's trapped arm across their body to tighten the strangle. Use your free hand to control their posture or set up additional submission threats from the secured Rear Triangle position. (Timing: Settle into control before attacking submissions)
+1. **Threaten the choke**: From harness position with seat belt grip established, begin working the choking arm toward the neck to force the opponent to commit both hands to defending. Drive the choking forearm toward the neck while maintaining chest pressure on their back.
+2. **Read the defensive reaction**: Recognize when the opponent pulls your choking arm down with a strong two-on-one grip, tucking their chin and committing both hands low. This creates the opening above the defending shoulder that the triangle leg will thread through.
+3. **Control the far arm**: Release the underhook arm from the harness and use it to control the opponent's far-side wrist or bicep. Pin this arm against their body to prevent them from posting or blocking your incoming leg. Maintain the choking arm position as a frame reference.
+4. **Withdraw the choking-side hook**: Remove the hook on the same side as your choking arm by pulling your foot out from inside their thigh. Bring the knee up toward your chest to load the leg for the over-the-shoulder thread. Keep the opposite hook deep to prevent the opponent from spinning away.
+5. **Thread the leg over the shoulder**: Swing the freed leg in an arc over the opponent's shoulder on the choking arm side. The back of your knee should land tight against the side of their neck with your shin crossing their chest or collarbone. Keep the motion fluid and committed to prevent them from catching the leg mid-transition.
+6. **Capture the head and arm**: Once the leg is over the shoulder, angle the knee downward to trap their head and one arm inside the triangle. The opponent's defending arm that was fighting the choke is now trapped between your leg and their own neck, creating the classic triangle configuration from the back.
+7. **Lock the figure-four**: Bring your other leg up and hook the ankle of your top leg behind the knee of the bottom leg to establish the figure-four lock. Squeeze your knees together to tighten the triangle around the opponent's neck and trapped arm, consolidating the Rear Triangle control position.
+8. **Consolidate Rear Triangle control**: Once the figure-four is locked, adjust your hip angle to maximize choking pressure. Pull the opponent's trapped arm across their body to tighten the strangle. Use your free hand to control their posture or set up additional submission threats from the secured Rear Triangle position.
 
 
 </section>
@@ -269,19 +269,15 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 ## Training Progressions
 **Week 1-2** - Leg threading mechanics
 Practice the isolated motion of threading the leg over a compliant partner's shoulder from back control. Focus on hip dexterity, maintaining chest connection, and the arc of the leg. Drill the figure-four lock from various angles until the locking motion becomes automatic. No resistance from partner.
-(Resistance: None)
 
 **Week 3-4** - Choke-to-triangle chain timing
 Partner provides light choke defense with two-on-one grip. Practice reading the defensive commitment and timing the transition from choke threat to triangle entry. Work the full sequence from choke threat through triangle lock with partner providing realistic but controlled defensive reactions.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and combination attacks
 Partner provides medium resistance including attempting to block the leg, turn in, or strip hooks during the transition. Practice adapting mid-technique: if triangle is blocked, return to choke; if opponent turns, switch to armbar. Develop the ability to flow between attacks based on defensive responses.
-(Resistance: Medium)
 
 **Week 7+** - Live sparring integration
 Incorporate triangle from back into live rolling from back control positions. Start rounds from harness position and work to identify the correct timing window against fully resisting opponents. Track success rate and identify which defensive patterns trigger the triangle entry most reliably.
-(Resistance: Full)
 
 
 

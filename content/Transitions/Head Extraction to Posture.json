@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Head Extraction to Posture is a critical defensive transition when caught in gogoplata control. The technique addresses the unique mechanical challenge presented by the gogoplata configuration: the opponent's shin is across your throat while their foot is secured behind your head, creating a closed-loop system that prevents conventional backward escape. Understanding this geometry is essential because pulling straight back only tightens the choke.\n\nThe technique prioritizes systematic extraction over explosive movement. Rather than panicking and making random movements that typically worsen the position, the defender works through a precise sequence: first creating breathing space by turning the chin, then addressing the foot-behind-head configuration, and finally extracting the head while the opponent's structural control is compromised. This methodical approach reflects the principle that some submissions cannot be escaped through strength alone.\n\nStrategically, Head Extraction to Posture represents more than simple survival. Successfully completing this escape returns you to closed guard with posture, meaning you can immediately begin your passing sequences. The technique also teaches broader principles about defending unorthodox submissions by understanding their mechanical requirements and systematically dismantling them rather than fighting the symptoms.",
   "key_principles": [
     "Remain calm under throat pressure rather than making panic-driven movements that tighten the choke",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Create breathing space",
-      "description": "Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This angles your throat away from the perpendicular pressure and buys critical seconds for the escape sequence.",
-      "timing": "Immediately upon recognizing the gogoplata"
+      "description": "Turn your chin slightly toward the attacking shin to reduce direct trachea compression. This angles your throat away from the perpendicular pressure and buys critical seconds for the escape sequence."
     },
     {
       "step_number": 2,
       "action": "Establish hand control",
-      "description": "Place both hands on opponent's hips rather than grabbing at the choking leg. This hand position prevents them from elevating their hips to increase pressure and creates the base needed for subsequent movements.",
-      "timing": "While maintaining chin turn"
+      "description": "Place both hands on opponent's hips rather than grabbing at the choking leg. This hand position prevents them from elevating their hips to increase pressure and creates the base needed for subsequent movements."
     },
     {
       "step_number": 3,
       "action": "Drive hips forward",
-      "description": "Push your hips forward and down into your opponent, using your hip-controlling hands for leverage. This forward pressure reduces the angle of the shin and begins compromising their structural control of the position.",
-      "timing": "As soon as hand control is established"
+      "description": "Push your hips forward and down into your opponent, using your hip-controlling hands for leverage. This forward pressure reduces the angle of the shin and begins compromising their structural control of the position."
     },
     {
       "step_number": 4,
       "action": "Address foot position",
-      "description": "Release one hand from their hip to address the foot behind your head. Work the foot loose by pushing it laterally toward the mat rather than pulling it backward. The lateral direction defeats the closed-loop geometry.",
-      "timing": "When forward pressure has reduced shin angle"
+      "description": "Release one hand from their hip to address the foot behind your head. Work the foot loose by pushing it laterally toward the mat rather than pulling it backward. The lateral direction defeats the closed-loop geometry."
     },
     {
       "step_number": 5,
       "action": "Extract head laterally",
-      "description": "As the foot loosens, move your head laterally in the same direction you pushed the foot. Do not pull straight back. The lateral movement slides your head out of the shin-throat-foot triangle configuration.",
-      "timing": "Immediately after foot loosens"
+      "description": "As the foot loosens, move your head laterally in the same direction you pushed the foot. Do not pull straight back. The lateral movement slides your head out of the shin-throat-foot triangle configuration."
     },
     {
       "step_number": 6,
       "action": "Recover posture",
-      "description": "Once your head clears the leg, immediately drive your posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin your passing sequence from closed guard.",
-      "timing": "Rapidly following head extraction"
+      "description": "Once your head clears the leg, immediately drive your posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin your passing sequence from closed guard."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Position recognition and breathing",
-      "description": "Partner establishes gogoplata at 30% pressure. Practice recognizing the position, remaining calm, and finding breathing space through chin positioning. No escape attempts yet, purely building comfort under pressure and mental composure.",
-      "resistance_level": "None"
+      "description": "Partner establishes gogoplata at 30% pressure. Practice recognizing the position, remaining calm, and finding breathing space through chin positioning. No escape attempts yet, purely building comfort under pressure and mental composure."
     },
     {
       "phase": "Week 3-4",
       "focus": "Mechanical sequence drilling",
-      "description": "Partner establishes position at 40% resistance. Practice complete extraction sequence step-by-step: chin turn, hip control, forward pressure, foot removal, lateral extraction, posture recovery. Partner allows escape but maintains position until each step is executed correctly.",
-      "resistance_level": "Light"
+      "description": "Partner establishes position at 40% resistance. Practice complete extraction sequence step-by-step: chin turn, hip control, forward pressure, foot removal, lateral extraction, posture recovery. Partner allows escape but maintains position until each step is executed correctly."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter-to-counter training",
-      "description": "Partner provides 60% resistance and actively counters with triangle and omoplata transitions. Practice recognizing counter attempts and adjusting extraction sequence accordingly. Develop ability to chain from gogoplata defense to triangle defense to omoplata defense.",
-      "resistance_level": "Medium"
+      "description": "Partner provides 60% resistance and actively counters with triangle and omoplata transitions. Practice recognizing counter attempts and adjusting extraction sequence accordingly. Develop ability to chain from gogoplata defense to triangle defense to omoplata defense."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Full resistance training starting from gogoplata control. Partner attempts to finish while you work complete escape. Include scenarios where systematic escape fails and emergency tuck-and-roll is required. Integrate into full sparring rounds.",
-      "resistance_level": "Full"
+      "description": "Full resistance training starting from gogoplata control. Partner attempts to finish while you work complete escape. Include scenarios where systematic escape fails and emergency tuck-and-roll is required. Integrate into full sparring rounds."
     }
   ],
   "variants_and_adaptations": [
@@ -183,53 +168,43 @@
   "knowledge_assessment": [
     {
       "question": "Why does pulling your head straight backward fail as an escape from gogoplata?",
-      "answer": "The foot-behind-head configuration creates a closed-loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or use lateral movement to escape the geometric trap.",
-      "difficulty": "Beginner"
+      "answer": "The foot-behind-head configuration creates a closed-loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or use lateral movement to escape the geometric trap."
     },
     {
       "question": "What is the first priority when caught in gogoplata before attempting full escape?",
-      "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for systematic escape rather than panicking with explosive movements that typically tighten the choke and expose alternative submissions.",
-      "difficulty": "Beginner"
+      "answer": "Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for systematic escape rather than panicking with explosive movements that typically tighten the choke and expose alternative submissions."
     },
     {
       "question": "Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?",
-      "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens significantly.",
-      "difficulty": "Intermediate"
+      "answer": "Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens significantly."
     },
     {
       "question": "What are the two primary submission threats you must defend against if your escape movement is imperfect?",
-      "answer": "Triangle choke if your escape movement allows them to switch the leg configuration as the shin slides off, and omoplata if you turn toward the attacking leg exposing your shoulder. Each escape direction has specific counter-threats requiring different defensive responses.",
-      "difficulty": "Intermediate"
+      "answer": "Triangle choke if your escape movement allows them to switch the leg configuration as the shin slides off, and omoplata if you turn toward the attacking leg exposing your shoulder. Each escape direction has specific counter-threats requiring different defensive responses."
     },
     {
       "question": "How should you position your hands during the escape and why?",
-      "answer": "Place hands on opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective. Hip control prevents them from elevating to maintain pressure and creates base for your forward driving movements.",
-      "difficulty": "Beginner"
+      "answer": "Place hands on opponent's hips rather than grabbing at the choking leg. The leg is stronger than your arms making direct pulling ineffective. Hip control prevents them from elevating to maintain pressure and creates base for your forward driving movements."
     },
     {
       "question": "In which direction should you move your head during extraction and why?",
-      "answer": "Move laterally in the same direction you pushed the opponent's foot, not straight backward. Lateral movement slides your head out of the shin-throat-foot triangle configuration. Backward movement pulls against the closed-loop system, tightening the choke.",
-      "difficulty": "Intermediate"
+      "answer": "Move laterally in the same direction you pushed the opponent's foot, not straight backward. Lateral movement slides your head out of the shin-throat-foot triangle configuration. Backward movement pulls against the closed-loop system, tightening the choke."
     },
     {
       "question": "When is the emergency tuck-and-roll escape appropriate versus the systematic extraction?",
-      "answer": "Emergency tuck-and-roll is only for when the choke is critically tight and you have no time for systematic work. It breaks the position but exposes your back. Systematic extraction is preferable whenever breathing allows because it leaves you in closed guard rather than defending turtle.",
-      "difficulty": "Advanced"
+      "answer": "Emergency tuck-and-roll is only for when the choke is critically tight and you have no time for systematic work. It breaks the position but exposes your back. Systematic extraction is preferable whenever breathing allows because it leaves you in closed guard rather than defending turtle."
     },
     {
       "question": "What mistake causes defenders to give up an omoplata when escaping gogoplata?",
-      "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. The bottom player can redirect to omoplata control as your shoulder rotates toward them. Always turn away from the choking leg or work on direct extraction without turning.",
-      "difficulty": "Advanced"
+      "answer": "Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. The bottom player can redirect to omoplata control as your shoulder rotates toward them. Always turn away from the choking leg or work on direct extraction without turning."
     },
     {
       "question": "How do you assess whether you have time for systematic escape versus needing emergency action?",
-      "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator.",
-      "difficulty": "Intermediate"
+      "answer": "Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator."
     },
     {
       "question": "What should you do immediately after successfully extracting your head?",
-      "answer": "Immediately drive posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin passing sequences from closed guard. Speed is essential because the opponent will attempt to re-establish control.",
-      "difficulty": "Beginner"
+      "answer": "Immediately drive posture up and back to prevent re-entry into the gogoplata. Establish base with both hands on their hips and begin passing sequences from closed guard. Speed is essential because the opponent will attempt to re-establish control."
     }
   ],
   "safety_considerations": "Head Extraction to Posture involves escaping a choke that restricts airway and blood flow, requiring careful attention to safety. Always tap early if the choke is fully locked and you cannot create breathing space within a few seconds. Training partners should apply gradual pressure and immediately release when you tap. During drilling, communicate clearly about pressure levels. Avoid explosive movements that could cause neck strain or cervical injury. If you feel lightheaded or experience vision changes, tap immediately rather than continuing escape attempts. When drilling the emergency tuck-and-roll variant, ensure adequate mat space and communicate with your partner to prevent collision injuries.",
@@ -271,5 +246,6 @@
       "name": "Half Guard",
       "relationship": "Alternative escape target through lateral movement"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -153,7 +153,7 @@ description: "Master mount consolidation in BJJ. Secure dominant position after 
 Consolidate Mount is the critical transition between achieving mount position and establishing dominant control. Too many practitioners rush to attack immediately after achieving mount, only to have their opponent escape during the chaotic moments of position change. This technique emphasizes the fundamental principle that position must be secured before submission hunting begins. The consolidation process involves controlling hip movement, eliminating frames, and advancing to higher mount variations. By patiently consolidating first, you create a stable attacking platform while simultaneously draining your opponent's defensive resources. This methodical approach transforms a fleeting positional achievement into a suffocating dominant position where submissions become inevitable rather than hopeful.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -199,12 +199,12 @@ Consolidate Mount is the critical transition between achieving mount position an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Drop weight**: Immediately drop your hips and chest onto your opponent, creating heavy top pressure that pins their hips to the mat and restricts breathing (Timing: Within 1 second of achieving mount)
-2. **Insert grapevines**: Hook your feet inside your opponent's thighs, creating grapevine hooks that prevent hip escapes and bridging movements by controlling their lower body (Timing: While maintaining chest pressure)
-3. **Eliminate frames**: Swim your arms inside any frames your opponent creates on your hips or chest, using elbow-to-elbow connection to pin their arms to the mat or their body (Timing: 2-5 seconds after grapevines)
-4. **Isolate an arm**: Work to trap one arm by pinching it between your elbow and knee, or use cross-face pressure to force their arm across their body (Timing: Once frames are cleared)
-5. **Walk knees up**: Incrementally walk your knees toward your opponent's armpits, keeping heavy hip pressure throughout the climb to prevent space creation (Timing: 5-10 seconds of controlled advancement)
-6. **Establish high mount**: Position your knees in your opponent's armpits with your weight forward on their upper chest, creating the optimal attacking platform for arm isolation submissions (Timing: Final consolidation position)
+1. **Drop weight**: Immediately drop your hips and chest onto your opponent, creating heavy top pressure that pins their hips to the mat and restricts breathing
+2. **Insert grapevines**: Hook your feet inside your opponent's thighs, creating grapevine hooks that prevent hip escapes and bridging movements by controlling their lower body
+3. **Eliminate frames**: Swim your arms inside any frames your opponent creates on your hips or chest, using elbow-to-elbow connection to pin their arms to the mat or their body
+4. **Isolate an arm**: Work to trap one arm by pinching it between your elbow and knee, or use cross-face pressure to force their arm across their body
+5. **Walk knees up**: Incrementally walk your knees toward your opponent's armpits, keeping heavy hip pressure throughout the climb to prevent space creation
+6. **Establish high mount**: Position your knees in your opponent's armpits with your weight forward on their upper chest, creating the optimal attacking platform for arm isolation submissions
 
 
 </section>
@@ -246,19 +246,15 @@ Consolidate Mount is the critical transition between achieving mount position an
 ## Training Progressions
 **Week 1-2** - Weight distribution
 Practice the feeling of heavy hip pressure and chest-to-chest connection on a non-resisting partner; focus on making your weight feel oppressive
-(Resistance: None)
 
 **Week 3-4** - Grapevine mechanics
 Drill inserting and maintaining grapevines while partner attempts light bridges; develop sensitivity to hip movement
-(Resistance: Light)
 
 **Week 5-6** - Frame elimination
 Partner provides active frames while you practice swimming inside; combine with knee walking to high mount against resistance
-(Resistance: Medium)
 
 **Week 7+** - Full consolidation flow
 Live drilling from scramble to mount to high mount; partner uses all escapes while you implement complete consolidation sequence
-(Resistance: Full)
 
 
 

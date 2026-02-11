@@ -268,21 +268,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 60,
-        "advanced": 75,
+        "value": 68,
         "description": "Likelihood of maintaining top position without being swept or reversed from butterfly guard"
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60,
+        "value": 52,
         "description": "Probability of successfully passing butterfly guard to achieve side control or mount"
       },
       "submission_probability": {
-        "beginner": 8,
-        "intermediate": 15,
-        "advanced": 25,
+        "value": 20,
         "description": "Likelihood of finishing submission during passing sequence or immediately after successful pass"
       },
       "average_time": "30-60 seconds to successfully pass or be swept"
@@ -519,21 +513,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Likelihood of maintaining butterfly guard position against passing attempts before transitioning or being passed"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 72,
+        "value": 64,
         "description": "Probability of successfully sweeping or transitioning to more dominant position from butterfly guard"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 28,
-        "advanced": 45,
+        "value": 36,
         "description": "Likelihood of finishing submission directly from butterfly guard or immediately after sweep"
       },
       "average_time": "20-45 seconds before sweep or transition"

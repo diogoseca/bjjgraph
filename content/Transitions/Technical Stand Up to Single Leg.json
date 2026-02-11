@@ -11,11 +11,6 @@
     "defensive-recovery",
     "guard-recovery"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Technical Stand Up to Single Leg is a fundamental defensive recovery sequence that transforms a vulnerable bottom position into an offensive wrestling attack. This technique combines the safety and base management of the technical standup with the explosive entry mechanics of single leg takedowns, creating a seamless transition from defense to offense. The sequence is particularly valuable in no-gi grappling, MMA, and self-defense contexts where maintaining distance and controlling engagement timing is critical. By establishing proper base during the standup phase, you create the structural foundation necessary to generate explosive power for the single leg entry. The technique exemplifies the principle of position-over-submission thinking, as you prioritize safe recovery before attacking. Against opponents who pressure forward during your standup, this sequence allows you to redirect their momentum into a takedown opportunity, turning their aggression into your advantage.",
   "key_principles": [
     "Maintain strong base and posture throughout the standup sequence",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Establish posting hand",
-      "description": "From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Your posting arm should be positioned slightly behind your hip line to prevent being driven forward.",
-      "timing": "Initial setup - maintain until fully standing"
+      "description": "From turtle or seated position, post your near-side hand firmly on the mat with fingers spread wide, elbow locked, and shoulder packed. This creates the primary structural support for your standup. Your posting arm should be positioned slightly behind your hip line to prevent being driven forward."
     },
     {
       "step_number": 2,
       "action": "Extend lead leg",
-      "description": "Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly away to create angle.",
-      "timing": "Immediately after hand post is secure"
+      "description": "Extend your far-side leg forward into a posting position with your foot flat on the mat, knee bent at approximately 90 degrees. This leg becomes your primary base for standing. Keep your shin vertical and weight centered over the ball of your foot. Your extended leg should point toward your opponent or slightly away to create angle."
     },
     {
       "step_number": 3,
       "action": "Drive to standing position",
-      "description": "Explosively drive through your posted foot while maintaining pressure through your posted hand. Keep your hips low and back straight as you rise. Your non-posted hand should be active, creating frames against opponent's torso or hips to maintain distance. As you rise, your weight shifts from hand to feet, but maintain hand contact until fully balanced.",
-      "timing": "Explosive movement, 0.5-1 second"
+      "description": "Explosively drive through your posted foot while maintaining pressure through your posted hand. Keep your hips low and back straight as you rise. Your non-posted hand should be active, creating frames against opponent's torso or hips to maintain distance. As you rise, your weight shifts from hand to feet, but maintain hand contact until fully balanced."
     },
     {
       "step_number": 4,
       "action": "Square up and assess distance",
-      "description": "Once standing, immediately square your hips to your opponent while maintaining defensive hand position. Keep your stance slightly wider than shoulder width with knees bent and weight on the balls of your feet. Your hands should be positioned to frame, pummel, or defend against immediate attacks. Read opponent's reaction - forward pressure creates single leg opportunity.",
-      "timing": "Brief pause, 0.5 seconds maximum"
+      "description": "Once standing, immediately square your hips to your opponent while maintaining defensive hand position. Keep your stance slightly wider than shoulder width with knees bent and weight on the balls of your feet. Your hands should be positioned to frame, pummel, or defend against immediate attacks. Read opponent's reaction - forward pressure creates single leg opportunity."
     },
     {
       "step_number": 5,
       "action": "Level change and penetration step",
-      "description": "As opponent steps forward or reaches to engage, execute a deep level change by dropping your hips while keeping your back straight and head up. Simultaneously take a deep penetration step with your lead foot, placing it between or outside opponent's feet. Your trailing knee should drop toward the mat. Keep your chest pressed against their thigh and your head positioned to the outside of their body.",
-      "timing": "Explosive timing as opponent enters range"
+      "description": "As opponent steps forward or reaches to engage, execute a deep level change by dropping your hips while keeping your back straight and head up. Simultaneously take a deep penetration step with your lead foot, placing it between or outside opponent's feet. Your trailing knee should drop toward the mat. Keep your chest pressed against their thigh and your head positioned to the outside of their body."
     },
     {
       "step_number": 6,
       "action": "Secure the single leg",
-      "description": "Wrap both arms around opponent's near leg, clasping your hands behind their knee or lower thigh. Your shoulder should be driving into their upper thigh or hip while your head maintains outside position. Keep your hips low and extended toward them. Your grip should be tight with elbows pinched together, creating maximum control over their leg structure.",
-      "timing": "Immediate upon penetration step"
+      "description": "Wrap both arms around opponent's near leg, clasping your hands behind their knee or lower thigh. Your shoulder should be driving into their upper thigh or hip while your head maintains outside position. Keep your hips low and extended toward them. Your grip should be tight with elbows pinched together, creating maximum control over their leg structure."
     },
     {
       "step_number": 7,
       "action": "Complete the takedown",
-      "description": "Drive forward through your legs while lifting their captured leg and angling their body. Run your feet in small, powerful steps rather than reaching. Pull their leg across your body while turning your torso to break their balance. As they fall, maintain control and establish top position (usually side control, knee on belly, or back control depending on their reaction).",
-      "timing": "Continuous driving pressure, 2-3 seconds"
+      "description": "Drive forward through your legs while lifting their captured leg and angling their body. Run your feet in small, powerful steps rather than reaching. Pull their leg across your body while turning your torso to break their balance. As they fall, maintain control and establish top position (usually side control, knee on belly, or back control depending on their reaction)."
     }
   ],
   "common_counters": [
@@ -141,38 +129,32 @@
     {
       "phase": "Week 1-2: Fundamental Movement Patterns",
       "focus": "Technical standup mechanics in isolation",
-      "description": "Practice technical standup from various bottom positions (turtle, seated, butterfly) without opposition. Focus on proper hand posting, foot placement, and rising mechanics. Partner provides light stability support but no resistance. Drill 20-30 repetitions per session until movement becomes automatic.",
-      "resistance_level": "None"
+      "description": "Practice technical standup from various bottom positions (turtle, seated, butterfly) without opposition. Focus on proper hand posting, foot placement, and rising mechanics. Partner provides light stability support but no resistance. Drill 20-30 repetitions per session until movement becomes automatic."
     },
     {
       "phase": "Week 3-4: Adding Single Leg Entry",
       "focus": "Combining standup with level change and penetration",
-      "description": "Partner stands at distance. Execute technical standup, then practice level change and single leg entry in slow motion. Partner remains stationary. Focus on hip height, penetration depth, and head position. Perform 15-20 repetitions emphasizing smooth transition between standup and attack.",
-      "resistance_level": "Light"
+      "description": "Partner stands at distance. Execute technical standup, then practice level change and single leg entry in slow motion. Partner remains stationary. Focus on hip height, penetration depth, and head position. Perform 15-20 repetitions emphasizing smooth transition between standup and attack."
     },
     {
       "phase": "Week 5-8: Progressive Resistance",
       "focus": "Standup against increasing pressure",
-      "description": "Partner applies moderate pressure during standup attempt, forcing you to maintain base and frame properly. They may attempt light crossface or push-downs. Complete standup and single leg entry against this resistance. Focus on timing entry when partner steps forward. 10-15 quality repetitions per round.",
-      "resistance_level": "Medium"
+      "description": "Partner applies moderate pressure during standup attempt, forcing you to maintain base and frame properly. They may attempt light crossface or push-downs. Complete standup and single leg entry against this resistance. Focus on timing entry when partner steps forward. 10-15 quality repetitions per round."
     },
     {
       "phase": "Week 9-12: Finishing and Countering",
       "focus": "Complete takedown sequences and defensive responses",
-      "description": "Partner defends single leg with sprawls, whizzers, and guillotine attempts. Practice finishing variations (trips, dumps, cuts) and recognize when to abandon and chain to alternatives. Work both offense and defense of this sequence. Live drilling with specific starting positions.",
-      "resistance_level": "Medium"
+      "description": "Partner defends single leg with sprawls, whizzers, and guillotine attempts. Practice finishing variations (trips, dumps, cuts) and recognize when to abandon and chain to alternatives. Work both offense and defense of this sequence. Live drilling with specific starting positions."
     },
     {
       "phase": "Week 13+: Competition Integration",
       "focus": "Live application in sparring contexts",
-      "description": "Incorporate technical standup to single leg into positional sparring from disadvantaged positions. Start rounds from turtle, mount bottom, or side control bottom and work to execute this sequence. Partner uses full resistance and counters. Track success rate and identify pattern-specific weaknesses.",
-      "resistance_level": "Full"
+      "description": "Incorporate technical standup to single leg into positional sparring from disadvantaged positions. Start rounds from turtle, mount bottom, or side control bottom and work to execute this sequence. Partner uses full resistance and counters. Track success rate and identify pattern-specific weaknesses."
     },
     {
       "phase": "Ongoing: Scenario-Based Training",
       "focus": "Context-specific variations (gi vs no-gi, MMA, self-defense)",
-      "description": "Practice this sequence in different contexts: with gi grips, against strikes, with cage/wall pressure, time pressure scenarios. Develop decision-making skills for when to attempt versus when to choose alternative escapes. Include cardio-stressed conditions to simulate competition fatigue.",
-      "resistance_level": "Full"
+      "description": "Practice this sequence in different contexts: with gi grips, against strikes, with cage/wall pressure, time pressure scenarios. Develop decision-making skills for when to attempt versus when to choose alternative escapes. Include cardio-stressed conditions to simulate competition fatigue."
     }
   ],
   "variants_and_adaptations": [
@@ -200,33 +182,27 @@
   "knowledge_assessment": [
     {
       "question": "Why must your head position be on the outside of opponent's body during the single leg entry?",
-      "answer": "Outside head position prevents guillotine, darce, and front headlock submissions. When your head is inside, your neck is exposed and opponent can use their near arm to wrap your head, creating immediate submission threats. Outside position also allows you to drive through their hips more effectively and makes it difficult for them to apply crossface pressure or turn into you. The outside position is a fundamental safety principle in all single leg attacks.",
-      "difficulty": "Beginner"
+      "answer": "Outside head position prevents guillotine, darce, and front headlock submissions. When your head is inside, your neck is exposed and opponent can use their near arm to wrap your head, creating immediate submission threats. Outside position also allows you to drive through their hips more effectively and makes it difficult for them to apply crossface pressure or turn into you. The outside position is a fundamental safety principle in all single leg attacks."
     },
     {
       "question": "What is the correct timing for transitioning from technical standup to single leg entry?",
-      "answer": "The optimal timing is when opponent steps forward to close distance or engage after you've established standing position. This forward step loads their weight onto the lead leg, making them less mobile and easier to off-balance. If you attack too early (while still rising), you lack the base and explosiveness needed. If you wait too long, opponent establishes their own grips and stance, making penetration more difficult. Reading their weight transfer and committing at the moment they step forward creates the highest success rate.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal timing is when opponent steps forward to close distance or engage after you've established standing position. This forward step loads their weight onto the lead leg, making them less mobile and easier to off-balance. If you attack too early (while still rising), you lack the base and explosiveness needed. If you wait too long, opponent establishes their own grips and stance, making penetration more difficult. Reading their weight transfer and committing at the moment they step forward creates the highest success rate."
     },
     {
       "question": "How should you respond if opponent sprawls hard and you cannot complete the single leg takedown?",
-      "answer": "Immediately chain to alternative attacks rather than forcing a low-percentage finish. Primary options include: switching to ankle pick by releasing upper grip and securing the ankle while driving shoulder into knee; converting to double leg if second leg is accessible; transitioning to guard pull if standing attacks are shut down; or circling to back take if opponent overcommits to sprawl. The key principle is maintaining offensive initiative while recognizing when the initial attack is defended. Never stay static in a sprawled position as this allows opponent to consolidate superior position.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately chain to alternative attacks rather than forcing a low-percentage finish. Primary options include: switching to ankle pick by releasing upper grip and securing the ankle while driving shoulder into knee; converting to double leg if second leg is accessible; transitioning to guard pull if standing attacks are shut down; or circling to back take if opponent overcommits to sprawl. The key principle is maintaining offensive initiative while recognizing when the initial attack is defended. Never stay static in a sprawled position as this allows opponent to consolidate superior position."
     },
     {
       "question": "What structural elements make the technical standup safe against an opponent who is driving forward pressure?",
-      "answer": "The posted hand creates a structural brace that redirects opponent's forward pressure into the ground rather than collapsing your posture. The extended lead leg provides a stable base with vertical shin alignment, allowing you to drive upward through skeletal structure rather than muscular effort. Keeping your back straight and head up maintains spinal integrity and prevents being broken down. The non-posted hand actively frames against opponent's torso, creating distance and preventing them from getting chest-to-chest control. These combined elements create a stable base that can support your weight plus absorb opponent's pressure without collapsing.",
-      "difficulty": "Advanced"
+      "answer": "The posted hand creates a structural brace that redirects opponent's forward pressure into the ground rather than collapsing your posture. The extended lead leg provides a stable base with vertical shin alignment, allowing you to drive upward through skeletal structure rather than muscular effort. Keeping your back straight and head up maintains spinal integrity and prevents being broken down. The non-posted hand actively frames against opponent's torso, creating distance and preventing them from getting chest-to-chest control. These combined elements create a stable base that can support your weight plus absorb opponent's pressure without collapsing."
     },
     {
       "question": "Why is grip position behind the knee or lower thigh more effective than gripping above the knee in single leg attacks?",
-      "answer": "Lower grip position provides superior mechanical control over the leg for several reasons. First, it reduces the opponent's ability to hop or post on the captured leg, as you're controlling the joint and lower lever arm. Second, it makes it harder for them to kick their leg free, as the knee joint has limited range of motion when compressed. Third, lower grips allow you to lift and manipulate the leg more easily, as you're working with a shorter lever. Fourth, pinching your elbows together with a low grip creates a tighter control structure that's harder to break. Higher grips above the knee allow more mobility and give opponent better leverage to defend the position.",
-      "difficulty": "Advanced"
+      "answer": "Lower grip position provides superior mechanical control over the leg for several reasons. First, it reduces the opponent's ability to hop or post on the captured leg, as you're controlling the joint and lower lever arm. Second, it makes it harder for them to kick their leg free, as the knee joint has limited range of motion when compressed. Third, lower grips allow you to lift and manipulate the leg more easily, as you're working with a shorter lever. Fourth, pinching your elbows together with a low grip creates a tighter control structure that's harder to break. Higher grips above the knee allow more mobility and give opponent better leverage to defend the position."
     },
     {
       "question": "In what situations should you abandon the technical standup attempt and choose alternative defensive strategies?",
-      "answer": "Abandon the standup when: opponent establishes strong crossface pressure that breaks your posting structure; they have achieved mount or back control where standup exposes you to finishing positions; your base is compromised and you risk being driven to worse position; they're attacking submissions that require immediate defensive response; or in gi when they have dominant collar grips that can be used to choke or break you down. In these scenarios, focus on escapes specific to the position (elbow escape from mount, shrimp from side control, guard recovery from turtle) rather than forcing a standup that increases danger. The technical standup is a tool for specific contexts, not a universal solution.",
-      "difficulty": "Advanced"
+      "answer": "Abandon the standup when: opponent establishes strong crossface pressure that breaks your posting structure; they have achieved mount or back control where standup exposes you to finishing positions; your base is compromised and you risk being driven to worse position; they're attacking submissions that require immediate defensive response; or in gi when they have dominant collar grips that can be used to choke or break you down. In these scenarios, focus on escapes specific to the position (elbow escape from mount, shrimp from side control, guard recovery from turtle) rather than forcing a standup that increases danger. The technical standup is a tool for specific contexts, not a universal solution."
     }
   ],
   "safety_considerations": "When practicing technical standup to single leg, always maintain awareness of head position to prevent neck injuries from guillotine or front headlock pressure. During drilling, partners should release guillotine attempts immediately when training partner taps or shows distress. When completing takedowns, control the descent to prevent opponent landing awkwardly or impacting hard surfaces. In live training, tap early to neck cranks or chokes rather than fighting through them. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural awareness. Always warm up hips, knees, and ankles before practicing this sequence as the level change and driving mechanics create significant joint stress. In competition or self-defense contexts, be aware that failed single leg attempts may expose your back or neck to counterattacks.",
@@ -302,5 +278,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -365,11 +365,11 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 35% | 40% | 5% |
-| Intermediate | 50% | 55% | 10% |
-| Advanced     | 65% | 70% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 58% |
+| Advancement Probability | 62% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds
 

@@ -10,11 +10,6 @@
     "overhook",
     "mount"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 80
-  },
   "overview": "The Overhook Sweep is a fundamental attacking technique from closed guard that capitalizes on controlling one of the opponent's arms with an overhook grip. This sweep is particularly effective when the opponent posts their hand on the mat or extends their arm, creating the opportunity to trap it and use their own base against them. The technique combines off-balancing principles with leverage mechanics to elevate and roll the opponent, transitioning from a bottom position to a dominant top position. The overhook sweep is highly reliable because it works with the opponent's natural defensive reactions - when they post to maintain base, they inadvertently create the exact weakness needed for the sweep. This makes it an excellent choice for practitioners at all levels, from beginners learning fundamental sweeping mechanics to advanced competitors using it as part of a sophisticated closed guard attacking system. The sweep can be executed both in gi and no-gi scenarios, though grip configurations differ slightly between the two contexts.",
   "key_principles": [
     "Establish a strong overhook control before attempting the sweep",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Secure the overhook",
-      "description": "When opponent posts their hand on the mat or extends their arm, thread your arm over their tricep and lock it against your body. Pull their arm tight to your chest, eliminating space between their arm and your torso. Your forearm should be across their tricep with your hand gripping their lat or back.",
-      "timing": "Immediately when opponent posts hand"
+      "description": "When opponent posts their hand on the mat or extends their arm, thread your arm over their tricep and lock it against your body. Pull their arm tight to your chest, eliminating space between their arm and your torso. Your forearm should be across their tricep with your hand gripping their lat or back."
     },
     {
       "step_number": 2,
       "action": "Control the opposite side",
-      "description": "With your free hand, grip the opponent's collar near their neck, grab their opposite sleeve at the wrist, or cup behind their head. This control prevents them from posturing up and keeps them broken down into your guard. Maintain constant pulling pressure with this grip.",
-      "timing": "Simultaneous with overhook establishment"
+      "description": "With your free hand, grip the opponent's collar near their neck, grab their opposite sleeve at the wrist, or cup behind their head. This control prevents them from posturing up and keeps them broken down into your guard. Maintain constant pulling pressure with this grip."
     },
     {
       "step_number": 3,
       "action": "Create the angle",
-      "description": "Shift your hips away from the side of the overhook, creating approximately 45 degrees of angle. Your head should move away from the trapped arm while your hips angle toward it. This positioning is critical - it allows you to sweep perpendicular to their base rather than trying to lift them straight up.",
-      "timing": "After securing both grips"
+      "description": "Shift your hips away from the side of the overhook, creating approximately 45 degrees of angle. Your head should move away from the trapped arm while your hips angle toward it. This positioning is critical - it allows you to sweep perpendicular to their base rather than trying to lift them straight up."
     },
     {
       "step_number": 4,
       "action": "Open guard and establish outside hook",
-      "description": "Uncross your ankles and bring your outside leg (opposite the overhook) over their back. Plant your inside foot on the mat near their hip or knee. The outside leg will act as a lever over their back while the inside foot provides a pushing base.",
-      "timing": "As you complete the angle creation"
+      "description": "Uncross your ankles and bring your outside leg (opposite the overhook) over their back. Plant your inside foot on the mat near their hip or knee. The outside leg will act as a lever over their back while the inside foot provides a pushing base."
     },
     {
       "step_number": 5,
       "action": "Off-balance and elevate",
-      "description": "Pull the trapped arm across your body while simultaneously kicking your outside leg over their back and pushing with your inside foot. This creates a scissoring action that elevates their hips and breaks their base. Drive your hips upward while pulling their shoulder down and across.",
-      "timing": "Explosive movement once positioning is set"
+      "description": "Pull the trapped arm across your body while simultaneously kicking your outside leg over their back and pushing with your inside foot. This creates a scissoring action that elevates their hips and breaks their base. Drive your hips upward while pulling their shoulder down and across."
     },
     {
       "step_number": 6,
       "action": "Complete the sweep to mount",
-      "description": "Continue the rolling motion, keeping tight control of the overhook throughout. As they roll over, follow them with your body, maintaining chest-to-chest connection. Land in mount position with your knees on either side of their torso. Release the overhook only after establishing full mount control.",
-      "timing": "Follow through immediately after elevation"
+      "description": "Continue the rolling motion, keeping tight control of the overhook throughout. As they roll over, follow them with your body, maintaining chest-to-chest connection. Land in mount position with your knees on either side of their torso. Release the overhook only after establishing full mount control."
     }
   ],
   "common_counters": [
@@ -124,32 +113,27 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Overhook control and angle creation",
-      "description": "Practice securing the overhook from closed guard with compliant partner. Focus on proper grip, angle creation, and hip movement. Partner remains static while you drill the positioning elements.",
-      "resistance_level": "None"
+      "description": "Practice securing the overhook from closed guard with compliant partner. Focus on proper grip, angle creation, and hip movement. Partner remains static while you drill the positioning elements."
     },
     {
       "phase": "Week 3-4: Coordinated Movement",
       "focus": "Combining grips with leg action",
-      "description": "Add the sweeping motion with partner offering minimal resistance. Practice the full sequence from overhook establishment through to mount. Repeat 10-15 times per side each session.",
-      "resistance_level": "Light"
+      "description": "Add the sweeping motion with partner offering minimal resistance. Practice the full sequence from overhook establishment through to mount. Repeat 10-15 times per side each session."
     },
     {
       "phase": "Week 5-8: Timing Development",
       "focus": "Recognizing sweep opportunities",
-      "description": "Partner moves naturally in your guard while you look for posting moments to secure overhook and sweep. Begin chaining with other attacks when sweep is defended.",
-      "resistance_level": "Medium"
+      "description": "Partner moves naturally in your guard while you look for posting moments to secure overhook and sweep. Begin chaining with other attacks when sweep is defended."
     },
     {
       "phase": "Week 9-12: Competition Application",
       "focus": "Live implementation under pressure",
-      "description": "Execute sweep during positional sparring from closed guard. Partner actively defends with full resistance. Work on backup options when initial sweep is stuffed.",
-      "resistance_level": "Full"
+      "description": "Execute sweep during positional sparring from closed guard. Partner actively defends with full resistance. Work on backup options when initial sweep is stuffed."
     },
     {
       "phase": "Month 4+: System Integration",
       "focus": "Combining with closed guard attack system",
-      "description": "Chain overhook sweep with triangle, kimura, hip bump, and omoplata. Use each technique to set up the others based on opponent's defensive reactions.",
-      "resistance_level": "Full"
+      "description": "Chain overhook sweep with triangle, kimura, hip bump, and omoplata. Use each technique to set up the others based on opponent's defensive reactions."
     }
   ],
   "variants_and_adaptations": [
@@ -177,33 +161,27 @@
   "knowledge_assessment": [
     {
       "question": "Why is creating an angle critical before attempting the overhook sweep?",
-      "answer": "Creating a 45-degree angle allows you to sweep perpendicular to the opponent's base rather than trying to lift them straight up against gravity. Sweeping at an angle requires significantly less force and makes it much more difficult for the opponent to maintain their base. Without the angle, you're fighting their entire body weight and both of their posting points.",
-      "difficulty": "Beginner"
+      "answer": "Creating a 45-degree angle allows you to sweep perpendicular to the opponent's base rather than trying to lift them straight up against gravity. Sweeping at an angle requires significantly less force and makes it much more difficult for the opponent to maintain their base. Without the angle, you're fighting their entire body weight and both of their posting points."
     },
     {
       "question": "What should you do if your opponent successfully yanks their trapped arm free during the sweep attempt?",
-      "answer": "Immediately transition to an alternative attack such as the hip bump sweep toward the same side, or capitalize on their pulling motion by switching to a kimura grip on the arm they just freed. You can also shoot your leg over their shoulder for a triangle since their posture is already broken. Never simply release and reset - their defensive reaction creates new attacking opportunities.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately transition to an alternative attack such as the hip bump sweep toward the same side, or capitalize on their pulling motion by switching to a kimura grip on the arm they just freed. You can also shoot your leg over their shoulder for a triangle since their posture is already broken. Never simply release and reset - their defensive reaction creates new attacking opportunities."
     },
     {
       "question": "How does the overhook sweep differ between gi and no-gi applications?",
-      "answer": "In gi, you can use collar or sleeve grips with your free hand to control posture and maintain connection. In no-gi, you must rely more heavily on head control, shoulder control, or body locks since you lack gi grips. The overhook itself must be secured deeper and tighter in no-gi since it becomes your primary control point. The sweeping mechanics remain the same, but grip strategies and backup options differ significantly.",
-      "difficulty": "Advanced"
+      "answer": "In gi, you can use collar or sleeve grips with your free hand to control posture and maintain connection. In no-gi, you must rely more heavily on head control, shoulder control, or body locks since you lack gi grips. The overhook itself must be secured deeper and tighter in no-gi since it becomes your primary control point. The sweeping mechanics remain the same, but grip strategies and backup options differ significantly."
     },
     {
       "question": "What is the primary function of the outside leg during the overhook sweep execution?",
-      "answer": "The outside leg (opposite the overhook) hooks over the opponent's back and acts as a lever to elevate their hips while simultaneously off-balancing them. This leg creates the actual sweeping power in combination with the inside foot pushing. Without proper leg leverage, the sweep becomes purely arm-strength based and much less effective.",
-      "difficulty": "Intermediate"
+      "answer": "The outside leg (opposite the overhook) hooks over the opponent's back and acts as a lever to elevate their hips while simultaneously off-balancing them. This leg creates the actual sweeping power in combination with the inside foot pushing. Without proper leg leverage, the sweep becomes purely arm-strength based and much less effective."
     },
     {
       "question": "When is the optimal moment to secure the overhook in closed guard?",
-      "answer": "The ideal moment is when the opponent posts their hand on the mat, either to maintain base or to begin standing. This posting motion naturally extends their arm away from their body, making it vulnerable to the overhook. You can also create this opportunity by off-balancing them with grips, forcing them to post. Advanced practitioners will threaten other attacks like triangles or armbars to elicit the post.",
-      "difficulty": "Advanced"
+      "answer": "The ideal moment is when the opponent posts their hand on the mat, either to maintain base or to begin standing. This posting motion naturally extends their arm away from their body, making it vulnerable to the overhook. You can also create this opportunity by off-balancing them with grips, forcing them to post. Advanced practitioners will threaten other attacks like triangles or armbars to elicit the post."
     },
     {
       "question": "Why must you maintain the overhook until full mount is established?",
-      "answer": "Releasing the overhook prematurely allows the opponent to recover their base, frame against you, or escape during the transition. The overhook provides both control and connection throughout the sweeping motion. Only once your knees are securely on either side of their torso in mount can you safely release the overhook, as you now have positional control through mount mechanics rather than grip control.",
-      "difficulty": "Beginner"
+      "answer": "Releasing the overhook prematurely allows the opponent to recover their base, frame against you, or escape during the transition. The overhook provides both control and connection throughout the sweeping motion. Only once your knees are securely on either side of their torso in mount can you safely release the overhook, as you now have positional control through mount mechanics rather than grip control."
     }
   ],
   "safety_considerations": "The overhook sweep is one of the safer techniques in Brazilian Jiu-Jitsu when executed properly. The primary safety concern is ensuring controlled execution to prevent both practitioners from being injured during the rolling motion. When drilling, start slowly to develop proper mechanics before adding speed and power. Be mindful of your training partner's neck during the sweep - maintain control but avoid cranking or applying sudden jerking motions to their trapped arm that could stress their shoulder. When being swept, resist the urge to post with your free arm at an awkward angle, as this can lead to wrist or shoulder injuries. Instead, tuck your chin and accept the sweep, rolling through smoothly. As the person executing the sweep, control the descent into mount rather than driving your partner's head into the mat. Practice on proper mats with adequate padding, and communicate with your training partner about pace and intensity, especially when first learning the technique.",
@@ -267,5 +245,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 72
 }

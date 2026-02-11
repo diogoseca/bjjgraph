@@ -377,11 +377,11 @@ Practice entering Dogfight from flat half guard bottom with progressive resistan
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 10% |
-| Intermediate | 60% | 55% | 20% |
-| Advanced     | 75% | 70% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 30-90 seconds before transition to sweep, back take, or pass occurs (highly dynamic position with rapid resolution)
 

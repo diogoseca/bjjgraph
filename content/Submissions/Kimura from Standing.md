@@ -163,7 +163,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint, rotator cuff, and posterior shoulder capsule
 **Starting Position**: [[Standing Position]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -244,13 +244,13 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Wrist capture and isolation**: From standing engagement (collar tie, wrist control, or clinch), identify opponent's extended arm and secure deep wrist grip with your same-side hand. Pull wrist across opponent's centerline while using free hand to control their shoulder or collar, preventing arm retraction. Step at 45-degree angle offline to compromise their base and create angle for figure-four construction. (Timing: 1-2 seconds - control establishment phase) [Pressure: Moderate]
-2. **Figure-four grip lock construction**: Thread your free hand under opponent's trapped arm, reaching through to grab your own wrist (not hand) creating the classic Kimura figure-four configuration. Ensure your forearm makes contact with back of their upper arm creating structural frame. Squeeze elbows together to compress the lock and eliminate any loose space in the grip structure. This grip must be unbreakable before proceeding. (Timing: 2-3 seconds - critical grip security phase) [Pressure: Firm]
-3. **Elbow elevation and posture disruption**: Lift opponent's trapped elbow upward and slightly away from their body, raising it above shoulder height. Simultaneously lower your own base by bending knees and widening stance. This elevation creates immediate shoulder discomfort and forces opponent onto toes, disrupting their defensive posture. Maintain constant upward pressure while staying heavy and stable in your own stance. (Timing: 2-3 seconds - position establishment) [Pressure: Firm]
-4. **Initial rotation application (slow and controlled)**: Begin rotating opponent's hand toward their spine while maintaining elbow elevation. Rotate in small 10-15 degree increments, monitoring resistance constantly. Keep their elbow pointing upward and away from body as you rotate. Walk your feet in small adjustments to maintain optimal angle. Watch for tap signals continuously - shoulder locks from standing finish quickly and unexpectedly. (Timing: 3-4 seconds minimum - never rush rotation) [Pressure: Moderate]
-5. **Takedown integration or submission finish**: As rotation pressure increases, opponent typically attempts to relieve pressure by lowering their body or turning away. Follow their movement by stepping through with inside leg, driving forward pressure, or executing outside trip. Control their descent using Kimura grip as handle, maintaining submission pressure throughout fall. Alternative: if standing finish is appropriate (competition, defensive scenario), continue progressive rotation until tap - NEVER SPIKE. (Timing: 2-3 seconds - transition or finish phase) [Pressure: Firm]
-6. **Ground transition and continued control**: Once opponent reaches ground (from tap evasion or controlled takedown), immediately transition Kimura control to dominant position: side control, north-south, or modified mount. Maintain figure-four grip throughout transition. Reassess submission opportunity from grounded position with superior control and increased leverage. From ground, can reapply finishing pressure with better mechanical advantage and safety. (Timing: 2-3 seconds - position consolidation) [Pressure: Moderate]
-7. **Safety release and position maintenance**: Upon tap signal, immediately cease all rotational pressure while maintaining grip stability. Guide partner's arm back to neutral position in controlled manner - never release suddenly. If in dominant ground position, maintain positional control while releasing submission. Check partner's shoulder mobility and ensure no injury before continuing training or competition. (Timing: Immediate upon tap recognition) [Pressure: Light]
+1. **Wrist capture and isolation**: From standing engagement (collar tie, wrist control, or clinch), identify opponent's extended arm and secure deep wrist grip with your same-side hand. Pull wrist across opponent's centerline while using free hand to control their shoulder or collar, preventing arm retraction. Step at 45-degree angle offline to compromise their base and create angle for figure-four construction. (Timing: 1-2 seconds - control establishment phase)
+2. **Figure-four grip lock construction**: Thread your free hand under opponent's trapped arm, reaching through to grab your own wrist (not hand) creating the classic Kimura figure-four configuration. Ensure your forearm makes contact with back of their upper arm creating structural frame. Squeeze elbows together to compress the lock and eliminate any loose space in the grip structure. This grip must be unbreakable before proceeding. (Timing: 2-3 seconds - critical grip security phase)
+3. **Elbow elevation and posture disruption**: Lift opponent's trapped elbow upward and slightly away from their body, raising it above shoulder height. Simultaneously lower your own base by bending knees and widening stance. This elevation creates immediate shoulder discomfort and forces opponent onto toes, disrupting their defensive posture. Maintain constant upward pressure while staying heavy and stable in your own stance. (Timing: 2-3 seconds - position establishment)
+4. **Initial rotation application (slow and controlled)**: Begin rotating opponent's hand toward their spine while maintaining elbow elevation. Rotate in small 10-15 degree increments, monitoring resistance constantly. Keep their elbow pointing upward and away from body as you rotate. Walk your feet in small adjustments to maintain optimal angle. Watch for tap signals continuously - shoulder locks from standing finish quickly and unexpectedly. (Timing: 3-4 seconds minimum - never rush rotation)
+5. **Takedown integration or submission finish**: As rotation pressure increases, opponent typically attempts to relieve pressure by lowering their body or turning away. Follow their movement by stepping through with inside leg, driving forward pressure, or executing outside trip. Control their descent using Kimura grip as handle, maintaining submission pressure throughout fall. Alternative: if standing finish is appropriate (competition, defensive scenario), continue progressive rotation until tap - NEVER SPIKE. (Timing: 2-3 seconds - transition or finish phase)
+6. **Ground transition and continued control**: Once opponent reaches ground (from tap evasion or controlled takedown), immediately transition Kimura control to dominant position: side control, north-south, or modified mount. Maintain figure-four grip throughout transition. Reassess submission opportunity from grounded position with superior control and increased leverage. From ground, can reapply finishing pressure with better mechanical advantage and safety. (Timing: 2-3 seconds - position consolidation)
+7. **Safety release and position maintenance**: Upon tap signal, immediately cease all rotational pressure while maintaining grip stability. Guide partner's arm back to neutral position in controlled manner - never release suddenly. If in dominant ground position, maintain positional control while releasing submission. Check partner's shoulder mobility and ensure no injury before continuing training or competition. (Timing: Immediate upon tap recognition)
 
 
 </section>
@@ -271,28 +271,28 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting figure-four grip construction before securing isolated wrist control [Low DANGER]
+- **Mistake**: Attempting figure-four grip construction before securing isolated wrist control
   - **Consequence**: Opponent easily retracts arm and escapes before submission setup is established, wasting energy and telegraphing intent
   - **Correction**: Always establish dominant wrist control first with two-on-one grip or wrist-and-collar control. Only thread figure-four when opponent's arm is trapped and extended, preventing retraction.
-- **Mistake**: Keeping opponent's elbow low (below shoulder height) during rotation [Medium DANGER]
+- **Mistake**: Keeping opponent's elbow low (below shoulder height) during rotation
   - **Consequence**: Minimal shoulder pressure is generated, allowing opponent to defend easily with strength and potentially counter-attack or escape
   - **Correction**: Consciously elevate trapped elbow above shoulder line before applying any rotation. Lifting motion should engage your legs and core, raising opponent onto toes. High elbow position is non-negotiable for effective standing Kimura.
-- **Mistake**: Standing too upright with narrow base during control phase [Medium DANGER]
+- **Mistake**: Standing too upright with narrow base during control phase
   - **Consequence**: Vulnerable to opponent's forward pressure, takedown attempts, or explosive escapes. Compromised balance eliminates your ability to control descent safely
   - **Correction**: Maintain wide wrestling stance with knees bent, hips low, and weight distributed evenly. Your base should be wider and lower than opponent's, creating stability platform for applying upward and rotational pressure.
-- **Mistake**: Explosive or jerking rotation applied to shoulder joint [CRITICAL DANGER]
+- **Mistake**: Explosive or jerking rotation applied to shoulder joint
   - **Consequence**: IMMEDIATE RISK OF CATASTROPHIC SHOULDER INJURY including rotator cuff tears, dislocations, and permanent joint damage. Violates fundamental training safety protocols
   - **Correction**: CRITICAL SAFETY: Apply rotation pressure progressively over minimum 5-7 seconds with continuous monitoring for tap signals. Increment rotation in 10-15 degree segments. Training partner safety is ALWAYS priority over submission completion.
-- **Mistake**: Failing to control opponent's descent when they drop to knees/ground [CRITICAL DANGER]
+- **Mistake**: Failing to control opponent's descent when they drop to knees/ground
   - **Consequence**: Opponent crashes uncontrolled to mat potentially causing head, neck, or spine injury from standing height. Lost positional control and submission opportunity
   - **Correction**: Anticipate opponent's descent and actively guide them to ground using Kimura grip as steering mechanism. Maintain submission pressure throughout controlled descent, landing in dominant position with grip intact.
-- **Mistake**: Releasing Kimura grip during scramble or transition [Low DANGER]
+- **Mistake**: Releasing Kimura grip during scramble or transition
   - **Consequence**: Complete loss of control and submission opportunity, allowing opponent to recover guard or stand back up, negating all previous work
   - **Correction**: Maintain figure-four grip as primary control handle during all transitions. Grip should only release upon tap signal or when transitioning to alternative submission. Use Kimura as steering wheel for positional dominance.
-- **Mistake**: Ignoring tap signals in standing position (focusing on takedown rather than tap recognition) [CRITICAL DANGER]
+- **Mistake**: Ignoring tap signals in standing position (focusing on takedown rather than tap recognition)
   - **Consequence**: CATASTROPHIC INJURY RISK - delayed tap recognition in standing position causes severe shoulder damage and violates fundamental training ethics and safety
   - **Correction**: CRITICAL SAFETY: Maintain constant visual and tactile awareness of tap signals. Standing submissions require HEIGHTENED awareness due to limited tap visibility and increased injury risk. Partner safety supersedes all competitive or training goals.
-- **Mistake**: Attempting standing Kimura without clear training space or matted area [CRITICAL DANGER]
+- **Mistake**: Attempting standing Kimura without clear training space or matted area
   - **Consequence**: Partner falls onto hard surface, equipment, or other training pairs causing preventable injuries ranging from contusions to fractures or concussions
   - **Correction**: ALWAYS verify 6-8 feet of clear, matted space in all directions before attempting standing submissions. Position training away from walls, equipment, and other practitioners. Environmental safety is prerequisite for technique execution.
 
@@ -359,43 +359,6 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Grip Mechanics** (Week 1-2 (minimum 6-8 training sessions))
-- Focus: Learn figure-four grip construction, wrist isolation from various standing positions, elbow elevation mechanics, and basic rotation principles. Practice on compliant partner with zero resistance. Emphasis on grip security and structural understanding before any pressure application.
-- Resistance: Zero resistance
-- Safety: Partner maintains complete compliance and provides verbal feedback on pressure levels. No submission pressure applied - focus exclusively on grip construction and positional mechanics. Instructor supervision mandatory for all standing submission introduction.
-
-**Slow Cooperative Application** (Week 3-5 (minimum 10-12 sessions))
-- Focus: Apply standing Kimura at 25% speed and pressure with partner providing light defensive resistance. Practice controlling descent and transitioning to ground positions. Develop tap signal recognition and immediate release protocols. Integrate with basic takedown setups.
-- Resistance: Mild resistance
-- Safety: Partner taps early and often at first sign of discomfort. Practitioner focuses on controlled descent management and immediate tap recognition. Application speed limited to 25% maximum. Clear communication required throughout each repetition. 10+ second application minimum.
-
-**Positional Integration and Entry Drilling** (Week 6-10 (minimum 15-20 sessions))
-- Focus: Drill standing Kimura entries from collar tie, overhook control, failed takedown defense, and scramble positions. Practice at 50% speed with moderate resistance. Emphasize creating submission-or-takedown dilemmas. Develop back take transitions when opponent counter-rotates.
-- Resistance: Realistic resistance
-- Safety: Partner provides realistic defensive reactions but taps before pain threshold. Focus on environmental awareness and training space management. Verify clear area before each repetition. Continue slow application speeds (7-10 seconds minimum) despite increased resistance level.
-
-**Live Positional Sparring** (Week 11-16 (minimum 20-25 sessions))
-- Focus: Apply standing Kimura in controlled positional sparring starting from clinch or standing neutral. Partner provides full defensive effort but both practitioners maintain safety-first mentality. Develop timing for recognizing optimal entry windows during live movement. Practice maintaining control during opponent's explosive escape attempts.
-- Resistance: Full resistance
-- Safety: Both partners committed to immediate tap at discomfort (before pain). Acknowledge that standing submissions in training should rarely finish - transition to ground or position change is expected outcome. Maintain 5-7 second minimum application even in competitive sparring. Mutual accountability for training partner safety.
-
-**Competition Preparation and Strategic Application** (Month 5-6 (advanced practitioners only))
-- Focus: Integrate standing Kimura into complete takedown-to-submission strategy. Develop ability to use Kimura as control position that creates multiple pathways. Practice against opponents actively countering and defending. Understand when to abandon standing finish and transition to ground control.
-- Resistance: Full resistance
-- Safety: Distinguish clearly between competition application (faster but still controlled) and training application (always slow and progressive). In competition, standing Kimura typically forces positional change rather than tap - adjust expectations accordingly. Never apply standing Kimura on less experienced training partners at competition speed. Technique mastery includes knowing when NOT to apply technique.
-
-**Teaching and Advanced Variations** (Month 7+ (instructor-level practitioners))
-- Focus: Develop ability to teach standing Kimura safely to students at all levels. Master advanced variations including sacrifice throw integrations, combination attacks, and system-based entries. Understand biomechanical theory and injury mechanisms to prevent training accidents. Create drilling progressions for students.
-- Resistance: Full resistance
-- Safety: Instructor-level practitioners bear responsibility for training room safety culture around standing submissions. Model perfect safety protocols in all demonstrations. Correct dangerous applications immediately. Create training environment where early tapping is praised and ego-driven resistance is discouraged. Understanding injury mechanisms is prerequisite for teaching joint locks from standing position.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -441,7 +404,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 - [[Kimura Trap]] - Primary control position when opponent counter-rotates to defend standing Kimura
 - [[Rolling Kimura]] - Ground-based variation using similar shoulder lock mechanics with rotational entry
 - [[Single Leg Entry]] - Failed single leg defense creates high-percentage standing Kimura opportunity
-- [[Single Leg Finish]] - Standing Kimura can force opponent into defending single leg attacks
+- [[Single Leg Takedown]] - Standing Kimura can force opponent into defending single leg attacks
 - [[Snap Down]] - Snap down to front headlock creates arm isolation for Kimura entry
 - [[Side Control]] - Common landing position after standing Kimura takedown with grip maintained
 - [[North-South]] - Alternative landing position for standing Kimura with superior finishing leverage
@@ -451,6 +414,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

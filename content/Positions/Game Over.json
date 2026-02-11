@@ -177,19 +177,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 100,
-      "intermediate": 100,
-      "advanced": 100
+      "value": 100
     },
     "advancement_probability": {
-      "beginner": 0,
-      "intermediate": 0,
-      "advanced": 0
+      "value": 0
     },
     "submission_probability": {
-      "beginner": 100,
-      "intermediate": 100,
-      "advanced": 100
+      "value": 100
     },
     "average_time": "0 seconds - instantaneous terminal state representing match conclusion"
   },

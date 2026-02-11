@@ -159,7 +159,7 @@ description: "Learn Old School Sweep from Half Guard in BJJ. Step-by-step execut
 The Old School Sweep is a fundamental half guard technique that capitalizes on the opponent's forward pressure by using an underhook and strategic footwork to off-balance and sweep them. This sweep is particularly effective when the opponent is driving forward in an attempt to pass your half guard. By establishing a deep underhook and creating an angle with your body, you can use your opponent's momentum against them. The Old School Sweep is valued for its reliability and mechanical simplicity - it doesn't require exceptional flexibility or athleticism, making it accessible to practitioners of all body types. The sweep flows naturally into dominant top positions and integrates seamlessly with other half guard attacks, creating a threatening offensive system from bottom position. The technique represents a fundamental principle in BJJ: using your opponent's force against them rather than meeting strength with strength.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -208,13 +208,13 @@ The Old School Sweep is a fundamental half guard technique that capitalizes on t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure deep underhook**: From half guard bottom, thread your inside arm deep underneath opponent's far armpit, securing a strong underhook grip. Your hand should reach their far shoulder blade or lat muscle. Pull this underhook tight to your body, eliminating space between you and your opponent. (Timing: Initial setup - before opponent establishes heavy crossface pressure)
-2. **Post outside leg**: Extend your outside leg (the leg not trapping opponent's leg) and plant your foot flat on the mat behind you. Position this foot approximately 12-18 inches from your hips, creating a stable posting base. Your knee should point toward the ceiling, ready to drive. (Timing: Immediately after securing underhook)
-3. **Create angle and lift hips**: Bridge up onto your posted foot and shoulder, creating a 45-degree angle with your body relative to your opponent. As you lift your hips off the mat, simultaneously pull with your underhook to break opponent's base forward. Your head should drive into opponent's chest on the underhook side. (Timing: As opponent drives forward pressure)
-4. **Tripod and elevate**: Form a tripod position with your posted foot, your shoulder, and your head all on the mat supporting your weight. From this elevated position, extend your posted leg forcefully, driving your weight into opponent's far hip while maintaining the tight underhook. This creates maximum elevation and off-balancing force. (Timing: Continuous motion from hip lift)
-5. **Control near leg**: As opponent begins to tip, use your inside leg to control their trapped leg, preventing them from posting it out for base. You can hook their ankle or simply use your legs to keep their leg trapped and immobilized between your thighs. (Timing: As opponent starts to fall backward)
-6. **Drive to top position**: Continue driving with your posted leg while maintaining the underhook. As opponent falls to their back, follow them over, using the momentum to land in side control, knee on belly, or mount depending on their reaction. Keep your head tight to their body throughout the transition to prevent escape. (Timing: Immediate follow-through as opponent falls)
-7. **Establish top control**: Secure dominant top position by transitioning your underhook to crossface or far side control. Establish your base with knees wide, hips low, and chest pressure driving into opponent. Advance position immediately if opponent is disoriented from the sweep. (Timing: Completion phase - within 1-2 seconds of landing on top)
+1. **Secure deep underhook**: From half guard bottom, thread your inside arm deep underneath opponent's far armpit, securing a strong underhook grip. Your hand should reach their far shoulder blade or lat muscle. Pull this underhook tight to your body, eliminating space between you and your opponent.
+2. **Post outside leg**: Extend your outside leg (the leg not trapping opponent's leg) and plant your foot flat on the mat behind you. Position this foot approximately 12-18 inches from your hips, creating a stable posting base. Your knee should point toward the ceiling, ready to drive.
+3. **Create angle and lift hips**: Bridge up onto your posted foot and shoulder, creating a 45-degree angle with your body relative to your opponent. As you lift your hips off the mat, simultaneously pull with your underhook to break opponent's base forward. Your head should drive into opponent's chest on the underhook side.
+4. **Tripod and elevate**: Form a tripod position with your posted foot, your shoulder, and your head all on the mat supporting your weight. From this elevated position, extend your posted leg forcefully, driving your weight into opponent's far hip while maintaining the tight underhook. This creates maximum elevation and off-balancing force.
+5. **Control near leg**: As opponent begins to tip, use your inside leg to control their trapped leg, preventing them from posting it out for base. You can hook their ankle or simply use your legs to keep their leg trapped and immobilized between your thighs.
+6. **Drive to top position**: Continue driving with your posted leg while maintaining the underhook. As opponent falls to their back, follow them over, using the momentum to land in side control, knee on belly, or mount depending on their reaction. Keep your head tight to their body throughout the transition to prevent escape.
+7. **Establish top control**: Secure dominant top position by transitioning your underhook to crossface or far side control. Establish your base with knees wide, hips low, and chest pressure driving into opponent. Advance position immediately if opponent is disoriented from the sweep.
 
 
 </section>
@@ -264,27 +264,21 @@ The Old School Sweep is a fundamental half guard technique that capitalizes on t
 ## Training Progressions
 **Week 1-2: Foundational Mechanics** - Underhook establishment and posting mechanics
 Practice securing deep underhook from half guard against zero resistance. Drill posting foot placement and bridging motion separately. Partner allows sweep to completion, focusing on proper body angles and connection maintenance. Emphasis on feeling correct leverage positions.
-(Resistance: None)
 
 **Week 3-4: Timing Development** - Reading opponent pressure and sweep initiation
 Partner applies light forward pressure. Practice recognizing the moment to initiate sweep when opponent drives into you. Work on coordinating underhook pull, hip bridge, and posted leg drive into one fluid motion. Partner allows sweep but provides realistic weight distribution.
-(Resistance: Light)
 
 **Week 5-8: Counter Recognition** - Responding to common defensive reactions
 Partner introduces basic counters (posting far arm, sprawling hips). Practice recognizing these defenses and flowing to appropriate alternatives (kimura, deep half, back take). Begin chaining old school sweep with other half guard attacks to create offensive system.
-(Resistance: Medium)
 
 **Week 9-12: Positional Integration** - Sweep within complete half guard game
 Practice old school sweep as part of complete half guard system. Flow between lockdown, deep half, and old school based on opponent reactions. Partner provides realistic resistance and attempts legitimate guard passes. Focus on smooth transitions between positions.
-(Resistance: Medium)
 
 **Week 13-16: Competition Application** - Live rolling implementation
 Actively hunt for old school sweep during live training against resisting opponents. Work on creating setups that lead to underhook establishment. Practice against various passing styles (knee slide, smash pass, long step). Refine timing and explosiveness.
-(Resistance: Full)
 
 **Ongoing Refinement** - Advanced variations and combinations
 Develop old school sweep against specific opponent reactions. Create personal variations based on body type and style. Study high-level competition footage of technique application. Integrate with lockdown system, electric chair, and other advanced half guard concepts.
-(Resistance: Full)
 
 
 

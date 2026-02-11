@@ -362,11 +362,11 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 30% |
-| Intermediate | 65% | 50% | 45% |
-| Advanced     | 75% | 65% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 58% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 30-90 seconds
 

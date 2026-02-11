@@ -153,7 +153,7 @@ description: "Master the Single Leg Takedown in BJJ. Complete guide covering ent
 The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Set up and create opening**: Use grip fighting, head movement, or feints to create a reaction from your opponent. Common setups include collar ties, Russian ties, or hand fighting that draws their attention upward. Create an angle by circling or use a snap-down motion to get their weight shifting forward or their hands occupied. (Timing: Initial engagement phase)
-2. **Change levels explosively**: Drop your hips and bend your knees to lower your level while maintaining upright posture in your back. This level change should be sudden and explosive, not telegraphed. Keep your head up and eyes on your target - the opponent's near leg. Your back leg should be coiled and ready to drive forward. (Timing: 0.5-1 second explosive motion)
-3. **Penetration step and leg capture**: Step deep with your lead leg (same side as the leg you're attacking) between opponent's legs or just outside their far leg. Simultaneously reach with both arms to secure the attacked leg - one hand behind the knee (in the popliteal fossa) and one hand grabbing the ankle or lower calf. Your head should make contact with opponent's body on the outside of the captured leg. (Timing: Immediate following level change)
-4. **Secure the leg and establish control**: Pull the captured leg tight to your chest while driving your head into opponent's hip or ribcage. Your hands should work together - top hand pulls the leg up and toward you while bottom hand controls the ankle. Stand up slightly to create upward pressure on the leg, forcing opponent onto one foot and disrupting their balance. (Timing: Continuous pressure throughout)
-5. **Off-balance and corner opponent**: Drive forward and laterally, forcing your opponent to hop on one leg. Use your head pressure against their body and upward pull on the leg to prevent them from squaring their hips to you. Move in a circular pattern, cornering them and preventing them from establishing a stable base or turning into you. (Timing: 2-4 seconds of continuous pressure)
-6. **Execute finish**: Choose finishing sequence based on opponent's reaction: (1) Run-the-pipe: Continue driving forward while lifting the leg and dumping opponent backward. (2) Trip: Use your inside leg to trip opponent's standing leg while maintaining leg control. (3) Elevation: Lift the leg high while driving forward to force backward fall. (4) Outside dump: Turn corner sharply and pull opponent's leg across your body to dump them. Follow opponent to the mat and establish top position. (Timing: Immediate commitment to finish)
+1. **Set up and create opening**: Use grip fighting, head movement, or feints to create a reaction from your opponent. Common setups include collar ties, Russian ties, or hand fighting that draws their attention upward. Create an angle by circling or use a snap-down motion to get their weight shifting forward or their hands occupied.
+2. **Change levels explosively**: Drop your hips and bend your knees to lower your level while maintaining upright posture in your back. This level change should be sudden and explosive, not telegraphed. Keep your head up and eyes on your target - the opponent's near leg. Your back leg should be coiled and ready to drive forward.
+3. **Penetration step and leg capture**: Step deep with your lead leg (same side as the leg you're attacking) between opponent's legs or just outside their far leg. Simultaneously reach with both arms to secure the attacked leg - one hand behind the knee (in the popliteal fossa) and one hand grabbing the ankle or lower calf. Your head should make contact with opponent's body on the outside of the captured leg.
+4. **Secure the leg and establish control**: Pull the captured leg tight to your chest while driving your head into opponent's hip or ribcage. Your hands should work together - top hand pulls the leg up and toward you while bottom hand controls the ankle. Stand up slightly to create upward pressure on the leg, forcing opponent onto one foot and disrupting their balance.
+5. **Off-balance and corner opponent**: Drive forward and laterally, forcing your opponent to hop on one leg. Use your head pressure against their body and upward pull on the leg to prevent them from squaring their hips to you. Move in a circular pattern, cornering them and preventing them from establishing a stable base or turning into you.
+6. **Execute finish**: Choose finishing sequence based on opponent's reaction: (1) Run-the-pipe: Continue driving forward while lifting the leg and dumping opponent backward. (2) Trip: Use your inside leg to trip opponent's standing leg while maintaining leg control. (3) Elevation: Lift the leg high while driving forward to force backward fall. (4) Outside dump: Turn corner sharply and pull opponent's leg across your body to dump them. Follow opponent to the mat and establish top position.
 
 
 </section>
@@ -254,27 +254,21 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 ## Training Progressions
 **Week 1-2: Fundamental mechanics** - Proper level change, penetration step, and leg capture technique
 Practice motion with stationary partner offering no resistance. Focus on explosive level change, deep penetration step, and secure grip on leg. Drill 20-30 repetitions per session alternating legs. Emphasize head position and maintaining connection between leg and chest.
-(Resistance: None)
 
 **Week 3-4: Basic finishing** - Run-the-pipe and basic trip finishes with light resistance
 Partner provides light resistance by maintaining base and trying to stay standing. Practice driving forward while lifting leg, and inside trip variations. Work on cornering opponent and preventing them from squaring hips. Complete 15-20 successful finishes per training session.
-(Resistance: Light)
 
 **Week 5-8: Setups and entries** - Combining takedown with grip fighting, feints, and angle creation
 Add realistic setups including collar ties, Russian ties, and snap-downs. Practice shooting from different angles and distances. Partner actively hand fights and moves. Work on timing the shot based on opponent's weight shifts and reactions to setups. Integrate with live movement drills.
-(Resistance: Medium)
 
 **Week 9-12: Counter defense and finishing variations** - Defending common counters and mastering multiple finish options
 Partner actively defends with sprawls, whizzers, and guillotine attempts. Practice maintaining control under pressure and switching between multiple finishes. Drill specific counter-defense sequences: defending guillotine while finishing, switching to duck-under from sprawl defense, etc. Add timed rounds of takedown-only sparring.
-(Resistance: Medium)
 
 **Month 4-6: Advanced integration** - Chaining with other takedowns and guard pulls, competition scenarios
 Practice single leg as part of complete takedown system, combining with double legs, snap-downs, and guard pulls. Work on reading opponent's reactions and flowing between techniques. Add competition-style scenarios with point scoring and time limits. Focus on high-percentage finishes under fatigue.
-(Resistance: Full)
 
 **Ongoing: Competition refinement** - Maintaining technique under pressure and developing personal style
 Continue drilling against fully resisting partners in live training. Identify which finishing variations work best for your body type and style. Study video of competition performances to refine timing and setup sequences. Maintain fundamental mechanics while adapting to different opponent types and defensive styles.
-(Resistance: Full)
 
 
 
@@ -361,7 +355,7 @@ The single leg takedown occupies a crucial position within the broader BJJ techn
 ## Related Techniques
 
 - [[Single Leg Entry]] - Setup technique - the initial penetration and capture phase of the single leg
-- [[Single Leg Finish]] - Completion technique - various methods to complete the takedown once leg is secured
+- [[Single Leg Takedown]] - Completion technique - various methods to complete the takedown once leg is secured
 - [[Double Leg Entry]] - Alternative takedown - can switch to when opponent squares hips
 - [[Ankle Pick]] - Related leg attack - lower-level single leg variation
 - [[Sprawl]] - Primary counter - main defensive response opponents will use

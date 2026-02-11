@@ -153,7 +153,7 @@ description: "Master Kimura Defense in BJJ. Complete defensive framework from mu
 The Kimura Defense represents a critical defensive skill set against one of BJJ's most versatile submissions. The kimura presents danger from virtually every position, making defensive proficiency essential for survival. Understanding proper defensive mechanics protects the shoulder joint while creating opportunities to escape or counter-attack. The defense operates on three levels: prevention (hand fighting and grip denial), early escape (before full lock completion), and late-stage survival (managing locked positions). Success requires recognizing threat stages, maintaining defensive frames, and exploiting timing windows during opponent transitions. Unlike many submission defenses that focus purely on escape, kimura defense integrates offensive transitions, as the attacker's grip commitment creates vulnerabilities. Advanced practitioners transform defensive sequences into offensive opportunities, using the opponent's kimura grip against them through rolling escapes, back takes, or sweep reversals.
 
 **From Position**: [[Kimura Trap/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The Kimura Defense represents a critical defensive skill set against one of BJJ'
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize threat early**: Identify kimura setup as soon as opponent secures wrist control. Monitor for figure-four grip formation before full lock completion. Early recognition provides maximum defensive options and prevents deep shoulder exposure. (Timing: Immediate upon wrist control)
-2. **Secure defensive posture**: Pull trapped elbow tight to ribs, creating defensive frame. This reduces the lever arm length and prevents shoulder hyperextension. Keep shoulder internally rotated and elbow bent at 90 degrees minimum to maintain structural integrity. (Timing: Before opponent applies upward pressure)
-3. **Circle arm with the lock**: Rotate trapped arm in the direction of the lock (typically forward and down) to relieve shoulder joint stress. This swimming motion follows the natural shoulder rotation pattern and prevents ligament damage while buying time for escape execution. (Timing: Continuous circular motion)
-4. **Attack opponent's base**: Use free hand to push opponent's hip, shoulder, or head to disrupt their base. Create off-balancing that forces them to release pressure or abandon position. Hip bridge simultaneously to amplify base disruption and create escape angles. (Timing: While circling arm)
-5. **Execute rolling escape**: Roll forward over the trapped shoulder in direction of the lock, using momentum to spiral out of control position. The roll follows the arm circle direction, creating continuous motion that prevents opponent from resetting grip. Land in guard recovery or scramble position. (Timing: When base is broken)
-6. **Extract wrist and recover**: As roll completes and pressure releases, pull wrist free from figure-four grip using hip rotation and arm extraction. Immediately establish defensive frames or guard position. Reset posture and re-establish control points before opponent can reset kimura attack. (Timing: During roll completion)
+1. **Recognize threat early**: Identify kimura setup as soon as opponent secures wrist control. Monitor for figure-four grip formation before full lock completion. Early recognition provides maximum defensive options and prevents deep shoulder exposure.
+2. **Secure defensive posture**: Pull trapped elbow tight to ribs, creating defensive frame. This reduces the lever arm length and prevents shoulder hyperextension. Keep shoulder internally rotated and elbow bent at 90 degrees minimum to maintain structural integrity.
+3. **Circle arm with the lock**: Rotate trapped arm in the direction of the lock (typically forward and down) to relieve shoulder joint stress. This swimming motion follows the natural shoulder rotation pattern and prevents ligament damage while buying time for escape execution.
+4. **Attack opponent's base**: Use free hand to push opponent's hip, shoulder, or head to disrupt their base. Create off-balancing that forces them to release pressure or abandon position. Hip bridge simultaneously to amplify base disruption and create escape angles.
+5. **Execute rolling escape**: Roll forward over the trapped shoulder in direction of the lock, using momentum to spiral out of control position. The roll follows the arm circle direction, creating continuous motion that prevents opponent from resetting grip. Land in guard recovery or scramble position.
+6. **Extract wrist and recover**: As roll completes and pressure releases, pull wrist free from figure-four grip using hip rotation and arm extraction. Immediately establish defensive frames or guard position. Reset posture and re-establish control points before opponent can reset kimura attack.
 
 
 </section>
@@ -253,27 +253,21 @@ The Kimura Defense represents a critical defensive skill set against one of BJJ'
 ## Training Progressions
 **Phase 1: Recognition and Prevention (Weeks 1-2)** - Identifying kimura setups and preventing completion
 Practice recognizing kimura threats from all positions. Drill hand fighting and wrist defense to prevent figure-four completion. Partner provides slow setup attempts while defender practices grip denial and early defensive frames.
-(Resistance: Light)
 
 **Phase 2: Basic Defensive Mechanics (Weeks 3-4)** - Arm circling, elbow control, and rolling escape fundamentals
 Train core defensive movements with kimura locked but minimal pressure. Focus on proper arm rotation direction, maintaining elbow position, and smooth rolling mechanics. Build muscle memory for defensive postures without injury risk.
-(Resistance: Light)
 
 **Phase 3: Base Attacks and Off-Balancing (Weeks 5-6)** - Disrupting opponent's control while defending
 Integrate offensive base attacks into defensive sequences. Practice bridging, hip bumping, and pushing while maintaining arm defense. Learn to create escape windows through opponent's balance disruption rather than arm strength alone.
-(Resistance: Medium)
 
 **Phase 4: Position-Specific Defenses (Weeks 7-8)** - Adapting defense to mount, side control, guard, and turtle kimuras
 Drill defensive variations for each common kimura position. Each position requires specific adjustments to rolling direction, base attacks, and escape paths. Build comprehensive defensive toolkit covering all kimura threats.
-(Resistance: Medium)
 
 **Phase 5: Counter-Offensive Transitions (Weeks 9-10)** - Converting defensive positions into attacks
 Learn to transform kimura defense into back takes, sweeps, and submission attempts. Practice using opponent's committed grips as vulnerabilities. Develop mindset of active defense leading to offensive opportunities.
-(Resistance: Medium)
 
 **Phase 6: Live Resistance and Timing (Weeks 11-12)** - Full-speed defense with competitive pressure
 Face progressive resistance from training partners applying full-intensity kimura attacks. Develop timing recognition under stress. Build confidence in defensive system through successful escapes against committed attacks.
-(Resistance: Full)
 
 
 

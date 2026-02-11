@@ -157,7 +157,7 @@ From a strategic perspective, the Aoki Lock Finish serves as the terminal option
 The finishing mechanics involve driving your hips forward and down into the opponent's shoulder while keeping their arm extended and isolated between your legs. Unlike traditional shoulder locks that rely primarily on arm manipulation, the Aoki Lock uses your entire lower body as a unified control mechanism, making it extremely difficult to escape once properly secured. The position carries significant injury risk, requiring strict adherence to safety protocols including progressive pressure application and immediate release upon tap signals.
 
 **From Position**: [[Aoki Lock/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify position**: Confirm leg entanglement is tight around opponent's shoulder and upper arm with your thigh over their shoulder and shin controlling their upper arm. Ensure their elbow is pointing away from their body and arm is extended. (Timing: Before initiating finish)
-2. **Secure hip control**: Place your hands on opponent's far hip and near hip to prevent any rotation or escape angles. This control is essential as it prevents them from turning into the pressure or creating space for arm extraction. (Timing: Immediately before pressure application)
-3. **Tighten leg triangle**: Squeeze your legs together firmly around opponent's shoulder complex, driving your top leg down while pulling your bottom leg up. This creates a unified clamp that prevents any arm movement and positions your hips for maximum pressure generation. (Timing: 2-3 seconds)
-4. **Initiate hip drive**: Begin driving your hips forward and down into opponent's shoulder joint at a gradual, controlled pace. The pressure should build progressively over 3-5 seconds, not explosively. Keep your posted leg close to their body for stable base. (Timing: 3-5 seconds progressive buildup)
-5. **Maintain pressure angle**: Adjust your hip angle to maximize external rotation pressure on opponent's shoulder. The pressure vector should drive their shoulder into external rotation while their arm remains trapped and extended. Watch for tap signals throughout. (Timing: Continuous throughout finish)
-6. **Complete finish or release**: Continue progressive pressure until opponent taps or verbally submits. Release immediately upon any tap signal including hand taps on any surface, verbal submission, or body language indicating distress. Do not hold position after tap. (Timing: Immediate release upon tap)
+1. **Verify position**: Confirm leg entanglement is tight around opponent's shoulder and upper arm with your thigh over their shoulder and shin controlling their upper arm. Ensure their elbow is pointing away from their body and arm is extended.
+2. **Secure hip control**: Place your hands on opponent's far hip and near hip to prevent any rotation or escape angles. This control is essential as it prevents them from turning into the pressure or creating space for arm extraction.
+3. **Tighten leg triangle**: Squeeze your legs together firmly around opponent's shoulder complex, driving your top leg down while pulling your bottom leg up. This creates a unified clamp that prevents any arm movement and positions your hips for maximum pressure generation.
+4. **Initiate hip drive**: Begin driving your hips forward and down into opponent's shoulder joint at a gradual, controlled pace. The pressure should build progressively over 3-5 seconds, not explosively. Keep your posted leg close to their body for stable base.
+5. **Maintain pressure angle**: Adjust your hip angle to maximize external rotation pressure on opponent's shoulder. The pressure vector should drive their shoulder into external rotation while their arm remains trapped and extended. Watch for tap signals throughout.
+6. **Complete finish or release**: Continue progressive pressure until opponent taps or verbally submits. Release immediately upon any tap signal including hand taps on any surface, verbal submission, or body language indicating distress. Do not hold position after tap.
 
 
 </section>
@@ -256,19 +256,15 @@ The finishing mechanics involve driving your hips forward and down into the oppo
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the finish mechanics with fully compliant partner. Focus on proper leg positioning, hip drive angle, and progressive pressure application. Partner taps at first discomfort to develop sensitivity. No resistance.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light defensive movement including minor hip shifts and arm positioning adjustments. Practice recognizing when finish is available versus when transitions are better options. Develop timing for pressure application.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the Aoki Lock Finish with transition options. When partner defends effectively, flow to back control, truck, or crucifix. Practice reading defensive reactions and choosing appropriate follow-up techniques.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply in positional sparring starting from Aoki Lock top position. Full resistance with safety protocols maintained. Focus on entry timing, finish execution under pressure, and transition recognition when finish is defended.
-(Resistance: Full)
 
 
 

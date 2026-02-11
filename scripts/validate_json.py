@@ -50,7 +50,10 @@ REFERENCE_FIELDS = {
         "outcomes": ["to"]
     },
     "Submissions": {
+        "starting_position": ["direct"],
         "from_positions": ["direct"],
+        "from_position": ["direct"],   # New: role-based format (e.g., "Mount/Top")
+        "outcomes": ["to"],            # New: outcomes position refs
         "related_submissions": ["direct"],
         "related_content": ["name"]
     },
@@ -268,30 +271,42 @@ def load_schema(category_name, json_file=None):
 
 
 def validate_success_rate_ordering(data, path=""):
-    """Validate beginner ≤ intermediate ≤ advanced for all success rates"""
+    """Validate success rates are valid integers 0-100.
+
+    After migration, success_rates is a single integer (success_rate),
+    and position_metrics use {value, description} format.
+    """
     errors = []
 
-    def check_rates(rates, location):
-        # Handle case where rates is not a dict (e.g., int, null, string)
-        if not isinstance(rates, dict):
-            errors.append(f"{location}: Expected object with beginner/intermediate/advanced, got {type(rates).__name__}")
-            return
+    def check_single_rate(rate, location):
+        """Check that a single rate value is 0-100."""
+        if isinstance(rate, int):
+            if rate < 0 or rate > 100:
+                errors.append(f"{location}: value {rate} out of range 0-100")
+        elif isinstance(rate, dict) and 'value' in rate:
+            val = rate['value']
+            if isinstance(val, int) and (val < 0 or val > 100):
+                errors.append(f"{location}: value {val} out of range 0-100")
 
+    # Check success_rate (single int) at root (Transitions/Submissions)
+    if 'success_rate' in data:
+        check_single_rate(data['success_rate'], f"{path}.success_rate")
+
+    # Legacy: Check success_rates triple if still present
+    if 'success_rates' in data and isinstance(data['success_rates'], dict):
+        rates = data['success_rates']
         if all(k in rates for k in ['beginner', 'intermediate', 'advanced']):
             if rates['beginner'] > rates['intermediate']:
-                errors.append(f"{location}: beginner ({rates['beginner']}) > intermediate ({rates['intermediate']})")
+                errors.append(f"{path}.success_rates: beginner ({rates['beginner']}) > intermediate ({rates['intermediate']})")
             if rates['intermediate'] > rates['advanced']:
-                errors.append(f"{location}: intermediate ({rates['intermediate']}) > advanced ({rates['advanced']})")
+                errors.append(f"{path}.success_rates: intermediate ({rates['intermediate']}) > advanced ({rates['advanced']})")
 
-    # Check success_rates at root (Transitions/Submissions)
-    if 'success_rates' in data:
-        check_rates(data['success_rates'], f"{path}.success_rates")
-
-    # Check position_metrics (Positions)
+    # Check position_metrics (Positions) - new {value, description} format
     if 'position_metrics' in data:
         for metric_name in ['retention_rate', 'advancement_probability', 'submission_probability']:
             if metric_name in data['position_metrics']:
-                check_rates(data['position_metrics'][metric_name], f"{path}.position_metrics.{metric_name}")
+                metric = data['position_metrics'][metric_name]
+                check_single_rate(metric, f"{path}.position_metrics.{metric_name}")
 
     return errors
 
@@ -691,6 +706,41 @@ def validate_json_file(json_path, schema, category, strict=False):
         role_errors = validate_role_consistency(data, category, json_path.name + ":")
         errors.extend(role_errors)
         categories["non_blocking"].extend(role_errors)
+
+    # Validate Submission outcomes array (new finish submissions)
+    if category == "Submissions" and isinstance(data, dict):
+        outcomes = data.get('outcomes')
+        if outcomes and isinstance(outcomes, list):
+            # Reuse the same validation logic as transitions
+            # Validate probability sum
+            total_probability = sum(
+                o.get('probability', 0) for o in outcomes if isinstance(o, dict)
+            )
+            if total_probability != 100:
+                err = f"{json_path.name}:outcomes: probability sum is {total_probability}, should be 100"
+                errors.append(err)
+                categories["blocking"].append(err)
+
+            # Validate each outcome
+            valid_results = {'success', 'failure', 'counter'}
+            for i, outcome in enumerate(outcomes):
+                if not isinstance(outcome, dict):
+                    continue
+                result = outcome.get('result')
+                if result and result not in valid_results:
+                    err = f"{json_path.name}:outcomes[{i}].result: '{result}' not valid"
+                    errors.append(err)
+                    categories["blocking"].append(err)
+
+        # Validate from_position role format
+        from_position = data.get('from_position')
+        if from_position and '/' in from_position:
+            parts = from_position.split('/')
+            valid_roles = {'Top', 'Bottom'}
+            if len(parts) == 2 and parts[1] not in valid_roles:
+                err = f"{json_path.name}:from_position: Role '{parts[1]}' not valid. Must be Top or Bottom"
+                errors.append(err)
+                categories["non_blocking"].append(err)
 
     return errors, warnings, categories
 

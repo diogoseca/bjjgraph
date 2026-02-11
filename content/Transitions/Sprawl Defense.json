@@ -9,11 +9,6 @@
     "standing",
     "fundamentals"
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 65,
-    "advanced": 85
-  },
   "overview": "The sprawl is the fundamental defensive response to takedown attempts in Brazilian Jiu-Jitsu and wrestling. It involves explosively driving the hips back and down while simultaneously shooting the legs back to prevent an opponent from completing a double leg or single leg takedown. This critical defensive technique transforms a potentially vulnerable position into an offensive opportunity, often transitioning to front headlock control or guillotine attacks. The sprawl's effectiveness lies in its ability to redirect an opponent's forward momentum while creating downward pressure that flattens them to the mat. When executed properly, the sprawl not only defends the takedown but establishes dominant top position, forcing the attacker to carry your weight while you control their head and arm. Mastering the sprawl is essential for maintaining standing position in BJJ, preventing takedowns in competition, and creating offensive opportunities from defensive situations.",
   "key_principles": [
     "Explosive hip extension drives weight onto opponent's back",
@@ -36,50 +31,42 @@
     {
       "step_number": 1,
       "action": "Recognize takedown entry",
-      "description": "Identify opponent's level change and forward drive as they shoot for your legs. Watch for their head drop, stance change, and penetration step that signals the takedown attempt.",
-      "timing": "Immediate reaction - within 0.2 seconds of opponent's level change"
+      "description": "Identify opponent's level change and forward drive as they shoot for your legs. Watch for their head drop, stance change, and penetration step that signals the takedown attempt."
     },
     {
       "step_number": 2,
       "action": "Drive hips back explosively",
-      "description": "Explosively thrust your hips backward and downward in a powerful hip extension movement. Your hips should drive back at a 45-degree angle, not straight down, to maximize distance from opponent's grip while maintaining pressure.",
-      "timing": "Simultaneous with leg shoot"
+      "description": "Explosively thrust your hips backward and downward in a powerful hip extension movement. Your hips should drive back at a 45-degree angle, not straight down, to maximize distance from opponent's grip while maintaining pressure."
     },
     {
       "step_number": 3,
       "action": "Shoot legs back",
-      "description": "Simultaneously shoot both legs straight back, extending them fully to move your hips away from opponent's reaching hands. Your legs should be completely straight and toes pointed, with weight shifting forward onto your chest and hands.",
-      "timing": "Instantaneous with hip drive"
+      "description": "Simultaneously shoot both legs straight back, extending them fully to move your hips away from opponent's reaching hands. Your legs should be completely straight and toes pointed, with weight shifting forward onto your chest and hands."
     },
     {
       "step_number": 4,
       "action": "Establish cross-face pressure",
-      "description": "Drive your chest and shoulder weight down onto opponent's upper back and neck area. Position your head on one side of their head while your near-side arm establishes a strong cross-face, applying pressure across their face and neck to prevent them from looking up.",
-      "timing": "As soon as chest contacts opponent's back"
+      "description": "Drive your chest and shoulder weight down onto opponent's upper back and neck area. Position your head on one side of their head while your near-side arm establishes a strong cross-face, applying pressure across their face and neck to prevent them from looking up."
     },
     {
       "step_number": 5,
       "action": "Secure front headlock control",
-      "description": "Slide your arm around opponent's head to establish front headlock position. Your armpit should be tight over the back of their head with your hands locked in a gable grip or guillotine grip position, controlling their posture completely.",
-      "timing": "Within 1-2 seconds of successful sprawl"
+      "description": "Slide your arm around opponent's head to establish front headlock position. Your armpit should be tight over the back of their head with your hands locked in a gable grip or guillotine grip position, controlling their posture completely."
     },
     {
       "step_number": 6,
       "action": "Pin hips to mat",
-      "description": "Drive your hips forward and down to the mat, creating maximum pressure on opponent's back and preventing them from recovering their base. Your hips should be heavy and close to the ground, making it extremely difficult for them to stand or reposition.",
-      "timing": "Continuous pressure throughout control phase"
+      "description": "Drive your hips forward and down to the mat, creating maximum pressure on opponent's back and preventing them from recovering their base. Your hips should be heavy and close to the ground, making it extremely difficult for them to stand or reposition."
     },
     {
       "step_number": 7,
       "action": "Control far-side arm",
-      "description": "Use your free hand to control opponent's far-side arm, either overhooking it or pinning it to their body. This prevents them from posting to recover position and sets up various submission and transition options.",
-      "timing": "After establishing secure head control"
+      "description": "Use your free hand to control opponent's far-side arm, either overhooking it or pinning it to their body. This prevents them from posting to recover position and sets up various submission and transition options."
     },
     {
       "step_number": 8,
       "action": "Transition to offensive position",
-      "description": "Move to either guillotine attack, anaconda choke, darce choke, or continue transitioning around to back control or side control. The specific transition depends on opponent's defensive reactions and your positional preferences.",
-      "timing": "Based on opponent's defensive movement"
+      "description": "Move to either guillotine attack, anaconda choke, darce choke, or continue transitioning around to back control or side control. The specific transition depends on opponent's defensive reactions and your positional preferences."
     }
   ],
   "common_counters": [
@@ -140,38 +127,32 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Isolated sprawl movement and hip mechanics",
-      "description": "Practice sprawl motion from standing with no opponent. Focus on explosive hip drive, full leg extension, and proper weight distribution. Drill 10-15 repetitions emphasizing form over speed. Partner calls out random signals for sprawl reaction training.",
-      "resistance_level": "None"
+      "description": "Practice sprawl motion from standing with no opponent. Focus on explosive hip drive, full leg extension, and proper weight distribution. Drill 10-15 repetitions emphasizing form over speed. Partner calls out random signals for sprawl reaction training."
     },
     {
       "phase": "Week 3-4: Partner Reaction Drills",
       "focus": "Timing sprawl against slow-motion takedown attempts",
-      "description": "Partner shoots double leg or single leg at 50% speed. Practice recognizing level change and executing sprawl with proper timing. Emphasize establishing front headlock control after successful sprawl. Reset and repeat 15-20 times per session.",
-      "resistance_level": "Light"
+      "description": "Partner shoots double leg or single leg at 50% speed. Practice recognizing level change and executing sprawl with proper timing. Emphasize establishing front headlock control after successful sprawl. Reset and repeat 15-20 times per session."
     },
     {
       "phase": "Week 5-8: Dynamic Sprawl with Transitions",
       "focus": "Sprawling against increasing speed and transitioning to offense",
-      "description": "Partner shoots at 75% speed with varied timing and angles. After successful sprawl, work transitions to guillotine, anaconda, or darce. Practice both finishing submissions and transitioning to back control or side control. Include counters for when sprawl is incomplete.",
-      "resistance_level": "Medium"
+      "description": "Partner shoots at 75% speed with varied timing and angles. After successful sprawl, work transitions to guillotine, anaconda, or darce. Practice both finishing submissions and transitioning to back control or side control. Include counters for when sprawl is incomplete."
     },
     {
       "phase": "Week 9-12: Competitive Drilling",
       "focus": "Full-speed sprawl defense in situational sparring",
-      "description": "Start standing with partner attempting various takedowns at full intensity. Defend with sprawl and work for dominant position or submission. Partner can chain takedown attempts and adjust based on your defense. 3-minute rounds with 1-minute rest, multiple rounds.",
-      "resistance_level": "Full"
+      "description": "Start standing with partner attempting various takedowns at full intensity. Defend with sprawl and work for dominant position or submission. Partner can chain takedown attempts and adjust based on your defense. 3-minute rounds with 1-minute rest, multiple rounds."
     },
     {
       "phase": "Week 13+: Integration and Combinations",
       "focus": "Sprawl as part of complete standing defense system",
-      "description": "Incorporate sprawl into larger defensive sequences including sprawl to guillotine, sprawl to anaconda, sprawl to back take. Practice against wrestlers and judoka with strong takedown games. Include in regular sparring from standing.",
-      "resistance_level": "Full"
+      "description": "Incorporate sprawl into larger defensive sequences including sprawl to guillotine, sprawl to anaconda, sprawl to back take. Practice against wrestlers and judoka with strong takedown games. Include in regular sparring from standing."
     },
     {
       "phase": "Ongoing: Maintenance and Refinement",
       "focus": "Continuous technical improvement and adaptation",
-      "description": "Regularly drill sprawl mechanics as part of warm-up routine. Analyze sprawl effectiveness in sparring and competition. Adjust timing and pressure based on different opponent body types and styles. Study high-level wrestling and MMA for advanced sprawl variations.",
-      "resistance_level": "Full"
+      "description": "Regularly drill sprawl mechanics as part of warm-up routine. Analyze sprawl effectiveness in sparring and competition. Adjust timing and pressure based on different opponent body types and styles. Study high-level wrestling and MMA for advanced sprawl variations."
     }
   ],
   "variants_and_adaptations": [
@@ -204,33 +185,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical action that makes a sprawl effective in defending takedowns?",
-      "answer": "The primary mechanical action is the explosive backward and downward drive of the hips combined with fully extending the legs backward. This creates distance from the opponent's grip while simultaneously transferring your weight onto their back, making it impossible for them to complete the takedown and flattening them to the mat.",
-      "difficulty": "Beginner"
+      "answer": "The primary mechanical action is the explosive backward and downward drive of the hips combined with fully extending the legs backward. This creates distance from the opponent's grip while simultaneously transferring your weight onto their back, making it impossible for them to complete the takedown and flattening them to the mat."
     },
     {
       "question": "Why is timing the sprawl to occur before deep penetration critical to its success?",
-      "answer": "Once an opponent achieves deep penetration with their hips underneath yours and secure grips on your legs, the mechanical advantage shifts dramatically in their favor. Sprawling late means your hips are already compromised and shooting your legs back won't create enough distance. Early timing allows you to maintain hip position while preventing opponent from establishing the grips and positioning needed to finish the takedown.",
-      "difficulty": "Intermediate"
+      "answer": "Once an opponent achieves deep penetration with their hips underneath yours and secure grips on your legs, the mechanical advantage shifts dramatically in their favor. Sprawling late means your hips are already compromised and shooting your legs back won't create enough distance. Early timing allows you to maintain hip position while preventing opponent from establishing the grips and positioning needed to finish the takedown."
     },
     {
       "question": "How does proper weight distribution during the sprawl contribute to both defense and offense?",
-      "answer": "Proper weight distribution involves shifting from feet to chest and hands during the sprawl, then driving hips down onto opponent's back. This creates crushing downward pressure that pins the opponent flat, preventing them from recovering posture or completing the takedown. Simultaneously, this pressure sets up offensive opportunities like guillotine, anaconda, or darce chokes, and creates the foundation for transitioning to dominant positions like back control or side control.",
-      "difficulty": "Advanced"
+      "answer": "Proper weight distribution involves shifting from feet to chest and hands during the sprawl, then driving hips down onto opponent's back. This creates crushing downward pressure that pins the opponent flat, preventing them from recovering posture or completing the takedown. Simultaneously, this pressure sets up offensive opportunities like guillotine, anaconda, or darce chokes, and creates the foundation for transitioning to dominant positions like back control or side control."
     },
     {
       "question": "What is the purpose of establishing cross-face control immediately after executing a sprawl?",
-      "answer": "Cross-face control serves multiple critical functions: it prevents the opponent from looking up and recovering their posture, controls their head position to limit their mobility and options, creates discomfort that discourages further offensive attempts, and sets up the transition to front headlock position where numerous submission and position advancement opportunities become available.",
-      "difficulty": "Intermediate"
+      "answer": "Cross-face control serves multiple critical functions: it prevents the opponent from looking up and recovering their posture, controls their head position to limit their mobility and options, creates discomfort that discourages further offensive attempts, and sets up the transition to front headlock position where numerous submission and position advancement opportunities become available."
     },
     {
       "question": "How should you adjust your sprawl defense against an opponent who chains multiple takedown attempts rapidly?",
-      "answer": "Against chain wrestling, maintain an active stance after the first sprawl rather than fully committing weight forward. Keep hands ready at chest level, weight on balls of feet, and hips mobile. After the first sprawl, quickly recover to ready position while maintaining hand control on opponent's head or collar. This allows you to sprawl repeatedly without being caught off-balance. Additionally, work to establish dominant grips like front headlock between attempts to shut down their offense entirely rather than defending reactively.",
-      "difficulty": "Advanced"
+      "answer": "Against chain wrestling, maintain an active stance after the first sprawl rather than fully committing weight forward. Keep hands ready at chest level, weight on balls of feet, and hips mobile. After the first sprawl, quickly recover to ready position while maintaining hand control on opponent's head or collar. This allows you to sprawl repeatedly without being caught off-balance. Additionally, work to establish dominant grips like front headlock between attempts to shut down their offense entirely rather than defending reactively."
     },
     {
       "question": "What are the key differences between a BJJ sprawl and a wrestling sprawl?",
-      "answer": "While mechanically similar, BJJ sprawls often emphasize transitioning to submission opportunities like guillotine, anaconda, or darce chokes, whereas wrestling sprawls focus more on going behind for back control or returning to neutral standing position. BJJ practitioners typically maintain front headlock control longer looking for submissions, while wrestlers use the sprawl more dynamically to circle to back control. Additionally, BJJ sprawls must account for gi grips which can change the timing and mechanics of the defense.",
-      "difficulty": "Advanced"
+      "answer": "While mechanically similar, BJJ sprawls often emphasize transitioning to submission opportunities like guillotine, anaconda, or darce chokes, whereas wrestling sprawls focus more on going behind for back control or returning to neutral standing position. BJJ practitioners typically maintain front headlock control longer looking for submissions, while wrestlers use the sprawl more dynamically to circle to back control. Additionally, BJJ sprawls must account for gi grips which can change the timing and mechanics of the defense."
     }
   ],
   "safety_considerations": "When practicing sprawl defense, ensure adequate mat space to avoid sprawling into walls or other practitioners. Begin drilling at reduced speed to develop proper mechanics before increasing intensity. Be mindful of knee and hip flexibility limitations when shooting legs back - improper form can strain hip flexors or cause knee hyperextension. Partners drilling takedowns should not drive forward at full force until the defender has developed proper sprawl timing and mechanics. In competition or sparring, avoid sprawling with excessive force on opponent's neck or spine as this can cause injury. When establishing front headlock control, be aware of pressure on opponent's cervical spine and release immediately if they tap. Practitioners with lower back issues should consult instructors before drilling full sprawls as the hip extension can aggravate existing conditions.",
@@ -249,7 +224,7 @@
       "relationship": "Alternative submission setup from sprawl position"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Submission option when opponent extends arm during sprawl defense"
     },
     {
@@ -298,5 +273,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 75
 }

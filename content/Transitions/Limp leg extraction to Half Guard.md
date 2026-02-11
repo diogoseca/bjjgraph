@@ -157,7 +157,7 @@ The strategic importance of this escape lies in its energy efficiency and reliab
 Advanced practitioners recognize this escape as part of a larger defensive system within leg entanglement warfare. The transition to Half Guard provides immediate safety from leg lock submissions while establishing a stable platform for guard recovery or offensive sweeps. The position choice is deliberate: Half Guard offers superior hip mobility and framing options compared to other escape destinations, while keeping one leg engaged to prevent immediate passing attempts.
 
 **From Position**: [[Leg Knot/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Advanced practitioners recognize this escape as part of a larger defensive syste
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish frames**: Position your free leg with the foot planted firmly on opponent's hip, creating a pushing frame that will generate space during extraction. Simultaneously establish upper body frames with your hands on opponent's shoulder and bicep to control distance. (Timing: Before initiating extraction)
-2. **Assess grip status**: Identify exactly where opponent is gripping your trapped leg and wait for a grip adjustment moment—watch for them repositioning hands, shifting weight, or reaching for a deeper control. This transition moment is your extraction window. (Timing: 1-3 seconds of observation)
-3. **Complete leg relaxation**: Consciously relax every muscle in your trapped leg from hip to toes, allowing it to become completely limp and heavy. This removes the structural tension opponent relies on for grip maintenance and makes the leg slippery and difficult to control. (Timing: Immediately before hip escape)
-4. **Hip escape with push**: Simultaneously push off opponent's hip with your free leg while executing a strong hip escape movement away from the entanglement. The combination of the push and hip movement creates significant space while your relaxed leg offers no resistance to extraction. (Timing: Explosive, coordinated movement)
-5. **Extract and retract**: As space opens from the hip escape, slide your limp leg out through the gap created. Keep the leg completely relaxed throughout extraction—any tension will allow opponent to re-grip. Immediately retract the knee toward your chest once free. (Timing: Continuous with hip escape)
-6. **Establish Half Guard**: Once the leg clears, immediately insert it between opponent's legs to establish Half Guard with a knee shield or lockdown configuration. Secure underhook or frame on the near side to prevent immediate passing attempts and stabilize the position. (Timing: Immediate upon extraction)
+1. **Establish frames**: Position your free leg with the foot planted firmly on opponent's hip, creating a pushing frame that will generate space during extraction. Simultaneously establish upper body frames with your hands on opponent's shoulder and bicep to control distance.
+2. **Assess grip status**: Identify exactly where opponent is gripping your trapped leg and wait for a grip adjustment moment—watch for them repositioning hands, shifting weight, or reaching for a deeper control. This transition moment is your extraction window.
+3. **Complete leg relaxation**: Consciously relax every muscle in your trapped leg from hip to toes, allowing it to become completely limp and heavy. This removes the structural tension opponent relies on for grip maintenance and makes the leg slippery and difficult to control.
+4. **Hip escape with push**: Simultaneously push off opponent's hip with your free leg while executing a strong hip escape movement away from the entanglement. The combination of the push and hip movement creates significant space while your relaxed leg offers no resistance to extraction.
+5. **Extract and retract**: As space opens from the hip escape, slide your limp leg out through the gap created. Keep the leg completely relaxed throughout extraction—any tension will allow opponent to re-grip. Immediately retract the knee toward your chest once free.
+6. **Establish Half Guard**: Once the leg clears, immediately insert it between opponent's legs to establish Half Guard with a knee shield or lockdown configuration. Secure underhook or frame on the near side to prevent immediate passing attempts and stabilize the position.
 
 
 </section>
@@ -256,19 +256,15 @@ Advanced practitioners recognize this escape as part of a larger defensive syste
 ## Training Progressions
 **Week 1-2** - Relaxation mechanics
 Practice the conscious relaxation of the trapped leg without resistance. Partner holds leg in entanglement position while you focus on achieving complete limpness. Drill the feeling difference between tense and relaxed states. Practice hip escape movements separately.
-(Resistance: None)
 
 **Week 3-4** - Timing and coordination
 Combine relaxation with hip escape and free leg frame in flowing sequence. Partner provides light static control while you practice the complete extraction sequence. Focus on smooth coordination between leg relaxation, push, and hip escape happening simultaneously.
-(Resistance: Light)
 
 **Week 5-6** - Reaction to counters
 Partner adds specific counters: following hip escape, tightening grip, attempting stack. Practice identifying each counter and applying appropriate response. Add immediate Half Guard establishment after successful extractions. Begin positional sparring from Leg Knot Bottom.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Full resistance positional sparring starting from Leg Knot Bottom. Practice identifying extraction windows under pressure. Integrate with overall leg entanglement defense system including Granby rolls and counter-entanglements. Track success rate and refine timing based on failures.
-(Resistance: Full)
 
 
 

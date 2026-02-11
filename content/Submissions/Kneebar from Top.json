@@ -14,11 +14,6 @@
   "submission_type": "Leg Lock",
   "target_area": "Knee joint (tibial plateau, popliteal ligaments, meniscus)",
   "starting_position": "Top position with leg entanglement opportunity",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Kneebar from Top represents a high-percentage leg attack opportunity that arises when controlling an opponent from dominant positions such as side control, mount, knee on belly, or half guard top. Unlike bottom-position kneebarring where defensive responsibility is shared, top kneebarring demands exceptional control and positional awareness since abandoning top position carries inherent risk. The fundamental concept involves transitioning from a dominant top position into a leg entanglement configuration—typically through step-over mechanics or direct leg isolation—while maintaining sufficient control to prevent opponent escape or counter-attack. The submission targets the knee joint through hyperextension, applying pressure to the tibial plateau, popliteal ligaments, and meniscus structures. Modern leg lock systems have elevated top kneebarring from an opportunistic submission to a systematic attacking framework, particularly in no-gi competition where reduced friction facilitates faster entries and tighter control. The technique requires precise timing, as premature commitment can result in loss of dominant position, while delayed execution allows opponent defensive responses. Understanding when to pursue the kneebar versus maintaining positional dominance represents a critical decision point that separates beginner and advanced practitioners. The top kneebar serves dual purposes: as a finishing submission and as a positional transitional tool that creates sweeping opportunities, back exposure, or alternative submission entries when opponents defend aggressively.",
   "safety_considerations": {
     "injury_risks": [
@@ -91,43 +86,37 @@
       "step_number": 1,
       "action": "Isolate and control target leg",
       "description": "From top position (side control, mount, or half guard), identify accessible leg and establish two-on-one control by hugging opponent's leg to your chest while maintaining upper body pressure. In gi, secure pant grips at knee and ankle; in no-gi, use gable grip or rear naked choke grip around opponent's lower leg. Your weight should remain heavy on opponent's upper body initially to prevent sit-up defensive response. The leg isolation must be definitive—partial control invites leg extraction during transition phases.",
-      "timing": "2-3 seconds during position maintenance",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds during position maintenance"
     },
     {
       "step_number": 2,
       "action": "Step over opponent's body",
       "description": "While maintaining tight leg control against your chest, step your inside leg (leg closest to opponent's head) over opponent's torso, placing your foot on the far side of their body. This creates the perpendicular body alignment essential for proper leverage. Your stepping leg should cross opponent's centerline completely, with your foot positioned near their far shoulder or head. Maintain chest-to-thigh connection on the controlled leg throughout the step-over to prevent opponent from pulling their leg free. Your base leg (outside leg) remains posted for stability during rotation.",
-      "timing": "1-2 seconds explosive movement",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds explosive movement"
     },
     {
       "step_number": 3,
       "action": "Rotate hips and drop weight",
       "description": "Immediately after stepping over, rotate your hips toward the mat while pulling opponent's leg across your body, positioning their knee joint against your lower abdominal region or hip crease. Your rotation should be controlled, not a fall, landing your back near the mat while keeping opponent's leg elevated and controlled. The opponent's heel should be positioned near your armpit or shoulder (opposite side from their body), with their toes pointing toward the ceiling. This rotation creates the perpendicular alignment where your hip extension will generate knee hyperextension.",
-      "timing": "1-2 seconds controlled descent",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds controlled descent"
     },
     {
       "step_number": 4,
       "action": "Establish leg squeeze and knee line control",
       "description": "Once positioned on your back or side, secure opponent's leg between your knees by bringing your legs together in a strong squeeze, trapping their leg completely. Your knees should pinch together above opponent's knee joint, with their leg shaft running between your thighs. Position opponent's knee crease (popliteal fossa) against your lower abdomen or pubic bone—this becomes your fulcrum point. Adjust your grip to hugging position around opponent's lower leg (below their knee), pulling their heel tight to your shoulder or armpit. Your legs should be configured with feet crossed or hooked to prevent opponent from pulling their leg out.",
-      "timing": "2-3 seconds of adjustment",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds of adjustment"
     },
     {
       "step_number": 5,
       "action": "Break opponent's knee bend defensive posture",
       "description": "Opponents typically defend by bending their knee maximally, bringing their heel toward their buttocks to reduce hyperextension risk. To break this defense, use your arms to forcefully pull their lower leg (at the ankle or foot) toward your body while simultaneously using your abdominal muscles to curl your torso toward your knees. This creates opposing forces: your arms pull the lower leg one direction while your knees squeeze and your torso curls, forcing the knee to straighten. Maintain constant forward pressure with your hips to prevent opponent from creating space. In training, this breaking phase must be performed gradually over 2-3 seconds; in competition, this occurs more explosively.",
-      "timing": "2-4 seconds in training; 1 second in competition",
-      "pressure_level": "Firm"
+      "timing": "2-4 seconds in training; 1 second in competition"
     },
     {
       "step_number": 6,
       "action": "Extend hips for submission finish",
       "description": "Once opponent's leg is straightened (or maximally straightened given their defense), initiate the finishing mechanism by extending your hips upward while simultaneously pulling their ankle/foot toward your shoulder and squeezing your knees together. Your lower abdomen or pubic bone serves as the fulcrum pressing into the back of their knee, while your hip extension creates the hyperextension force. The movement should be controlled and progressive in training (5-7 seconds from initial pressure to tap), allowing partner to tap at any point. Your legs remain tightly squeezed throughout to prevent their leg from slipping out. Maintain connection to their upper body with your back or shoulder contact to prevent them from sitting up and stacking pressure onto you.",
-      "timing": "5-7 seconds progressive application in training; 2-3 seconds in competition",
-      "pressure_level": "Maximum"
+      "timing": "5-7 seconds progressive application in training; 2-3 seconds in competition"
     }
   ],
   "opponent_defense_patterns": [
@@ -166,50 +155,42 @@
     {
       "error": "Spiking or explosive application during training",
       "consequence": "IMMEDIATE INJURY RISK—explosive kneebar application in training causes ACL tears, meniscus damage, and ligament ruptures before partners can tap safely",
-      "correction": "Implement mandatory 5-7 second progressive application during all training scenarios—build pressure gradually from 0% to tap threshold, allowing partner continuous opportunity to tap. Reserve faster application speeds exclusively for competition contexts.",
-      "danger_level": "CRITICAL"
+      "correction": "Implement mandatory 5-7 second progressive application during all training scenarios—build pressure gradually from 0% to tap threshold, allowing partner continuous opportunity to tap. Reserve faster application speeds exclusively for competition contexts."
     },
     {
       "error": "Abandoning top position prematurely without secure leg control",
       "consequence": "Opponent extracts leg during transition, resulting in scramble situations where opponent may achieve superior position or escape entirely—position loss without submission gain represents failed technique execution",
-      "correction": "Establish definitive two-on-one leg control with tight grips and chest-to-thigh connection BEFORE initiating step-over movement. If leg control feels insecure during entry, abort transition and return to dominant position rather than pursuing low-probability submission.",
-      "danger_level": "Medium"
+      "correction": "Establish definitive two-on-one leg control with tight grips and chest-to-thigh connection BEFORE initiating step-over movement. If leg control feels insecure during entry, abort transition and return to dominant position rather than pursuing low-probability submission."
     },
     {
       "error": "Failing to establish perpendicular hip alignment",
       "consequence": "Parallel or diagonal body positioning eliminates leverage mechanics—hip extension generates minimal knee hyperextension pressure, allowing opponent to defend easily and potentially counter with their own attacks",
-      "correction": "Ensure complete step-over positioning with your hips perpendicular (90-degree angle) to opponent's leg. Your bodyline should form a 'T' shape with opponent's body. If alignment is compromised, use your base leg to push and adjust hip position before applying finishing pressure.",
-      "danger_level": "Low"
+      "correction": "Ensure complete step-over positioning with your hips perpendicular (90-degree angle) to opponent's leg. Your bodyline should form a 'T' shape with opponent's body. If alignment is compromised, use your base leg to push and adjust hip position before applying finishing pressure."
     },
     {
       "error": "Neglecting to break opponent's knee bend defense",
       "consequence": "Opponent maintains maximally bent knee position, neutralizing hyperextension mechanics—submission becomes impossible regardless of hip extension force applied",
-      "correction": "Dedicate 2-4 seconds to actively straightening opponent's leg using combined arm pulling (ankle toward shoulder), knee squeezing, and forward hip pressure before attempting finish. If leg cannot be straightened after sustained effort, transition to alternative submissions (straight ankle lock, toe hold) that function against bent knee positions.",
-      "danger_level": "Low"
+      "correction": "Dedicate 2-4 seconds to actively straightening opponent's leg using combined arm pulling (ankle toward shoulder), knee squeezing, and forward hip pressure before attempting finish. If leg cannot be straightened after sustained effort, transition to alternative submissions (straight ankle lock, toe hold) that function against bent knee positions."
     },
     {
       "error": "Positioning opponent's knee joint incorrectly (too high or too low on torso)",
       "consequence": "Improper fulcrum placement dramatically reduces submission effectiveness—knee positioned too high (chest/shoulder region) prevents sufficient leverage; too low (below hips) creates weak angles where opponent can escape",
-      "correction": "Position opponent's knee crease (back of knee) directly against your lower abdomen or pubic bone region—this creates optimal fulcrum point for hip extension mechanics. Make micro-adjustments before applying pressure to ensure knee line sits precisely in this zone.",
-      "danger_level": "Low"
+      "correction": "Position opponent's knee crease (back of knee) directly against your lower abdomen or pubic bone region—this creates optimal fulcrum point for hip extension mechanics. Make micro-adjustments before applying pressure to ensure knee line sits precisely in this zone."
     },
     {
       "error": "Allowing opponent to sit up during entry phases",
       "consequence": "Opponent achieves upright posture during transition, enabling them to stack weight onto you, defend effectively, or pass into superior positions—common result is failed submission with position reversal",
-      "correction": "Maintain upper body connection throughout entry sequence using shoulder pressure, head control, or chest weight. If opponent begins sitting up during step-over, immediately return to original top position. Successfully executed top kneebarring prevents opponent from achieving sitting posture until submission is nearly complete.",
-      "danger_level": "Medium"
+      "correction": "Maintain upper body connection throughout entry sequence using shoulder pressure, head control, or chest weight. If opponent begins sitting up during step-over, immediately return to original top position. Successfully executed top kneebarring prevents opponent from achieving sitting posture until submission is nearly complete."
     },
     {
       "error": "Insufficient leg squeeze allowing leg extraction",
       "consequence": "Opponent pulls leg free during finishing phases, escaping submission entirely and often achieving advantageous positions during scramble—represents complete technical failure",
-      "correction": "Establish maximum leg squeeze with knees pinched together above opponent's knee joint—their leg should be completely trapped between your thighs with zero sliding space. Cross your feet or hook them together to reinforce leg trap. Test security before applying finishing pressure by attempting to shift opponent's leg; any movement indicates insufficient squeeze requiring immediate correction.",
-      "danger_level": "Medium"
+      "correction": "Establish maximum leg squeeze with knees pinched together above opponent's knee joint—their leg should be completely trapped between your thighs with zero sliding space. Cross your feet or hook them together to reinforce leg trap. Test security before applying finishing pressure by attempting to shift opponent's leg; any movement indicates insufficient squeeze requiring immediate correction."
     },
     {
       "error": "Ignoring tap signals or delayed release",
       "consequence": "CATASTROPHIC INJURY RISK—continuing pressure after tap causes severe ligament damage, meniscus tears, or joint destruction requiring surgical intervention and extended recovery periods",
-      "correction": "Develop hyper-vigilant awareness for ANY tap signal (verbal, hand, foot, distress sounds) and implement immediate release protocol: stop hip extension instantly, release pressure while maintaining contact, return leg to neutral position without torque. Practice release mechanics explicitly during training to build muscle memory for instant response.",
-      "danger_level": "CRITICAL"
+      "correction": "Develop hyper-vigilant awareness for ANY tap signal (verbal, hand, foot, distress sounds) and implement immediate release protocol: stop hip extension instantly, release pressure while maintaining contact, return leg to neutral position without torque. Practice release mechanics explicitly during training to build muscle memory for instant response."
     }
   ],
   "variations_and_setups": [
@@ -306,50 +287,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Conceptual Learning",
-      "timeframe": "Weeks 1-2 (minimum 4-6 training sessions)",
-      "focus": "Study kneebar mechanics through demonstration, video analysis, and verbal explanation without live application. Learn anatomical structures, injury mechanisms, proper body positioning, and safety protocols. Practice step-over mechanics and hip alignment on compliant partner without applying any pressure to knee joint. Emphasize understanding WHY each position element matters rather than drilling repetitions.",
-      "resistance_level": "None",
-      "safety_emphasis": "Build theoretical foundation understanding injury risks, tap protocols, and progressive application requirements before any live practice. Discuss with training partners explicit safety agreements and establish mutual trust."
-    },
-    {
-      "phase": "Isolated Position Drilling",
-      "timeframe": "Weeks 3-4 (minimum 6-8 sessions)",
-      "focus": "Drill individual components separately: leg isolation from top positions, step-over transitions, hip rotation mechanics, and leg squeeze control. Partner remains completely passive, allowing attacker to slowly build position without any resistance. Practice starting from fully established kneebar position and applying 0-20% pressure, stopping well before any discomfort. Partner practices tapping at minimal pressure to build tap reflex patterns.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Develop muscle memory for position mechanics while building tap sensitivity and immediate release reflexes. Never exceed 20% pressure during this phase. Focus on smoothness and control rather than submission."
-    },
-    {
-      "phase": "Slow Integrated Practice with Communication",
-      "timeframe": "Weeks 5-8 (8-12 sessions)",
-      "focus": "Practice complete technique from top position to finish with partner providing mild defensive resistance (pulling leg back, bending knee, but not explosive defense). Maintain constant verbal communication throughout—attacker announces each phase ('isolating leg now,' 'stepping over,' 'applying pressure') while partner communicates discomfort levels ('feeling pressure,' 'that's my threshold'). Build pressure to 40-50% of tap threshold maximum, prioritizing control and communication over completion.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Develop technical proficiency while establishing communication patterns that will persist in more intense training. Partner provides feedback on pressure levels, helping attacker calibrate their strength against different body types. This phase is critical for building trust between training partners."
-    },
-    {
-      "phase": "Realistic Drilling with Defensive Scenarios",
-      "timeframe": "Weeks 9-12 (12-16 sessions)",
-      "focus": "Partner provides realistic defensive responses (sit-up attempts, leg extraction, knee bending) while attacker practices countering defenses and chaining to alternative attacks if kneebar fails. Practice from live positional scenarios where opponent doesn't know whether you'll pursue kneebar or other attacks. Build finishing pressure to 60-70% threshold while maintaining 5-7 second progressive application. Begin practicing release protocols explicitly—attacker randomly releases before tap to drill instant pressure cessation.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Partner safety remains paramount despite increased resistance. Emphasis on recognizing when technique is failing and transitioning to alternatives rather than forcing submissions. Drill abort sequences when leg control is lost during transitions."
-    },
-    {
-      "phase": "Flow Rolling Integration",
-      "timeframe": "Weeks 13-20 (ongoing)",
-      "focus": "Incorporate kneebar attacks into medium-intensity flow rolling where both partners are working techniques but not competing intensely. Practice recognizing opportunistic entries from scrambles, failed passes, and transition moments. Build situational awareness for when legs become vulnerable. Continue maintaining safety-first mentality with 5-7 second application even in flow contexts. Partner trust should be fully established—both practitioners demonstrate consistent safe application.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Safety protocols must persist despite increased intensity and unpredictability. Both partners monitor each other's technique application and provide feedback if safety standards slip. This phase tests whether safety habits developed in drilling persist under less structured conditions."
-    },
-    {
-      "phase": "Competition Preparation and Full Intensity Application",
-      "timeframe": "Weeks 21+ (only after minimum 5-6 months consistent practice)",
-      "focus": "Practice competition-speed entries and application (2-3 second finishing) exclusively with trusted training partners who have demonstrated consistent safe practice. Simulate competition scenarios including time pressure, score deficits requiring submission, and opponent's maximum defensive effort. Understand distinction between training application (always slow, always safe) and competition application (faster, tighter, finish-oriented). This phase only appropriate for advanced practitioners with extensive kneebar experience who have earned trust through consistent safe training behavior.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Even at competition intensity, NEVER compromise fundamental safety: maintain immediate tap response, never spike or jerk application, ensure partner tap access throughout. Competition preparation means faster transitions and entries, not elimination of safety consciousness. Reserve maximum intensity exclusively for trusted partners—never apply competition-speed mechanics with unfamiliar training partners."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Mount",
@@ -405,5 +342,6 @@
       "name": "Toe Hold",
       "relationship": "Complementary leg attack targeting different joint; available when opponent bends knee to defend kneebar"
     }
-  ]
+  ],
+  "success_rate": 58
 }

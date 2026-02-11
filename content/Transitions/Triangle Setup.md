@@ -159,7 +159,7 @@ description: "Master Triangle Setup from guard in BJJ. Complete guide covering a
 The Triangle Setup is a fundamental attacking sequence from closed guard that establishes the control position necessary for finishing the triangle choke. This technique exploits the opponent's defensive posture and arm positioning to create the angle and leg configuration required for effective triangle control. The setup phase is arguably more critical than the finish itself, as poor initial positioning makes the submission nearly impossible to complete regardless of technical knowledge. The triangle setup demonstrates the principle of using the opponent's defensive structure against them—their posting arm becomes the trapped limb, and their attempt to maintain base provides the opening for angle creation. This technique serves as a gateway to multiple attacking options including the triangle choke itself, omoplata transitions, armbar variations, and back take opportunities. Mastering the setup phase dramatically increases submission success rates across all skill levels and forms the foundation of a dangerous guard game.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Break posture**: Pull opponent's head down using collar grip while simultaneously pulling with closed guard legs. Drive their head below shoulder line and maintain constant forward pressure. Use sleeve grip to prevent posting and maintain broken posture throughout setup sequence. (Timing: Continuous pressure until opponent commits weight forward)
-2. **Isolate target arm**: Using sleeve grip, pull opponent's arm across your centerline while maintaining head control. The target arm should cross past the midpoint of your chest. Simultaneously push opponent's opposite shoulder away to create separation and prevent their base recovery on that side. (Timing: As opponent attempts to regain posture or post)
-3. **Create angle**: Open guard momentarily and hip escape toward the trapped arm side, creating approximately 45-degree angle. Your shoulders should rotate off the mat while keeping opponent's posture broken. This angle is critical—insufficient angle makes leg throw impossible while excessive angle allows escape. (Timing: Immediately after arm isolation, before opponent recognizes threat)
-4. **Throw first leg**: Swing your leg on the trapped arm side high over opponent's shoulder, aiming shin across the back of their neck. Keep knee bent and foot flexed. The leg should clear their shoulder completely—failure here is the most common error in triangle setups. (Timing: Explosive movement as soon as angle is established)
-5. **Control head position**: Immediately after leg throw, release collar grip and control opponent's head by pulling it down and forward. Your shin should be pressed firmly against the back of their neck. Use your free hand to grip your own shin or foot to reinforce head control and prevent posture recovery. (Timing: Simultaneous with leg throw completion)
-6. **Close triangle configuration**: Bring your opposite leg over the trapped arm, positioning calf behind opponent's neck and locking ankle behind your own knee. Elevate hips while pulling head down to establish triangle control position. Ensure trapped arm is fully across your body and free arm is outside the triangle configuration. (Timing: Smooth continuous motion from head control)
-7. **Adjust and secure**: Make final positional adjustments by scooting hips closer to opponent's neck, adjusting angle to be perpendicular to their body, and ensuring your locking knee is positioned at the back of their neck rather than side. Squeeze knees together while maintaining elevated hips to establish secure triangle control ready for finishing sequence. (Timing: After triangle configuration is closed)
+1. **Break posture**: Pull opponent's head down using collar grip while simultaneously pulling with closed guard legs. Drive their head below shoulder line and maintain constant forward pressure. Use sleeve grip to prevent posting and maintain broken posture throughout setup sequence.
+2. **Isolate target arm**: Using sleeve grip, pull opponent's arm across your centerline while maintaining head control. The target arm should cross past the midpoint of your chest. Simultaneously push opponent's opposite shoulder away to create separation and prevent their base recovery on that side.
+3. **Create angle**: Open guard momentarily and hip escape toward the trapped arm side, creating approximately 45-degree angle. Your shoulders should rotate off the mat while keeping opponent's posture broken. This angle is critical—insufficient angle makes leg throw impossible while excessive angle allows escape.
+4. **Throw first leg**: Swing your leg on the trapped arm side high over opponent's shoulder, aiming shin across the back of their neck. Keep knee bent and foot flexed. The leg should clear their shoulder completely—failure here is the most common error in triangle setups.
+5. **Control head position**: Immediately after leg throw, release collar grip and control opponent's head by pulling it down and forward. Your shin should be pressed firmly against the back of their neck. Use your free hand to grip your own shin or foot to reinforce head control and prevent posture recovery.
+6. **Close triangle configuration**: Bring your opposite leg over the trapped arm, positioning calf behind opponent's neck and locking ankle behind your own knee. Elevate hips while pulling head down to establish triangle control position. Ensure trapped arm is fully across your body and free arm is outside the triangle configuration.
+7. **Adjust and secure**: Make final positional adjustments by scooting hips closer to opponent's neck, adjusting angle to be perpendicular to their body, and ensuring your locking knee is positioned at the back of their neck rather than side. Squeeze knees together while maintaining elevated hips to establish secure triangle control ready for finishing sequence.
 
 
 </section>
@@ -262,27 +262,21 @@ The Triangle Setup is a fundamental attacking sequence from closed guard that es
 ## Training Progressions
 **Phase 1: Posture Breaking (Week 1-2)** - Master posture control before introducing triangle elements
 Partner starts in closed guard with neutral posture. Practice breaking posture using collar and guard pulls, maintaining broken posture for 30-second holds. Partner provides graduated resistance. Focus on pulling head below shoulder line and keeping it controlled with minimal effort.
-(Resistance: Light)
 
 **Phase 2: Arm Isolation Drills (Week 2-3)** - Control and manipulate opponent's arms across centerline
 From broken posture position, practice pulling one arm across centerline while pushing opposite shoulder. Partner allows arm movement but maintains some tension. Work both sides equally, focusing on getting trapped arm completely past your centerline before proceeding.
-(Resistance: Light)
 
 **Phase 3: Angle Creation (Week 3-4)** - Hip escape mechanics while maintaining controls
 Combine posture breaking and arm isolation with hip escape to create proper angle. Partner remains static. Practice creating 45-degree angle without losing arm or posture control. Drill should feel like smooth flowing movement, not separate steps.
-(Resistance: Light)
 
 **Phase 4: Full Setup Sequence (Week 4-6)** - Complete triangle setup from closed guard to locked configuration
 Execute complete sequence from closed guard to locked triangle control. Partner provides light resistance by attempting to maintain posture and pull arm back. Repeat 10-15 repetitions per session, alternating sides. Focus on smooth transitions between each phase.
-(Resistance: Medium)
 
 **Phase 5: Dynamic Response Training (Week 6-8)** - Adapt setup to opponent's defensive movements
 Partner actively defends with specific counters: posture recovery, arm pull-back, or circling away. Practice recognizing defensive patterns and adjusting setup or transitioning to alternative attacks. Develop ability to chain triangle setup with hip bump sweep, omoplata, or armbar.
-(Resistance: Medium)
 
 **Phase 6: Live Application (Week 8+)** - Execute triangle setup during positional sparring and live rolling
 Start from closed guard position during positional rounds with both players competing at full intensity. Focus on creating opportunities for triangle setup while managing opponent's passing attempts. Track success rate and identify patterns where setup fails to inform future training focus.
-(Resistance: Full)
 
 
 

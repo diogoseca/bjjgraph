@@ -159,7 +159,7 @@ description: "Learn Tomoe Nage in BJJ. Master the sacrifice throw from standing 
 Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice technique borrowed from judo that has found significant application in sport Brazilian Jiu-Jitsu. The technique involves dropping to your back while using foot placement on the opponent's hip or abdomen to elevate and throw them overhead, typically transitioning directly into closed guard or other dominant positions. This technique is particularly effective in gi competition where grips are secure, and it has become a staple for guard pullers who want to combine offensive takedown scoring with immediate guard establishment. The circular motion that gives Tomoe Nage its name refers to the arc created as the opponent is thrown over your body. Modern BJJ has adapted this classical judo throw into a versatile entry system that can lead to sweeps, guard pulls, and submission setups. The technique's effectiveness lies in its ability to use the opponent's forward momentum and weight against them, requiring more timing and technical precision than raw strength.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips**: Secure a strong same-side collar grip with your right hand and control the opponent's sleeve with your left hand. Pull down on the collar while pulling the sleeve across their centerline to break their posture forward and compromise their base. (Timing: Initial setup phase)
-2. **Break opponent's balance forward**: Use your grips to pull the opponent's upper body forward and slightly down, forcing them to step toward you or lean into your pull. This forward momentum is critical for the throw's success and prevents them from sprawling backward defensively. (Timing: As opponent steps or leans forward)
-3. **Drop to your back**: Sit straight back toward the ground while maintaining strong grip tension. Do not sit down gradually - commit to a controlled fall directly backward with your hips dropping below your shoulders. Keep your head tucked to protect your neck and maintain visual contact with opponent. (Timing: Immediately after forward momentum established)
-4. **Place foot on hip or abdomen**: As you drop, place the ball of your right foot firmly on the opponent's hip bone or lower abdomen (avoid placing foot on groin). Maintain a slight bend in your knee to allow for extension. The foot placement should occur simultaneously with your back contacting the mat. (Timing: During backward drop)
-5. **Extend leg to complete throw**: Explosively extend your right leg while pulling hard on the collar and sleeve grips, creating a lever that launches the opponent over your body. The extension should be upward and slightly forward, following a circular arc. Your left leg should hook behind their far leg or sweep wide for stability. (Timing: Immediately upon back contact with mat)
-6. **Follow through to guard**: As the opponent is thrown overhead, maintain grip control and wrap your legs around their waist to establish closed guard. Alternatively, transition to technical stand-up if the throw creates distance, or pursue back control if they land on their side. The grip on the collar should never release during this transition. (Timing: During opponent's flight arc)
-7. **Consolidate position**: Immediately break the opponent's posture in closed guard by pulling down on the collar while extending your hips upward. Cross your ankles behind their back and begin your guard offense sequence. If they land flat on their back, consider transitioning to mount or advancing to submissions. (Timing: Upon establishing guard contact)
+1. **Establish grips**: Secure a strong same-side collar grip with your right hand and control the opponent's sleeve with your left hand. Pull down on the collar while pulling the sleeve across their centerline to break their posture forward and compromise their base.
+2. **Break opponent's balance forward**: Use your grips to pull the opponent's upper body forward and slightly down, forcing them to step toward you or lean into your pull. This forward momentum is critical for the throw's success and prevents them from sprawling backward defensively.
+3. **Drop to your back**: Sit straight back toward the ground while maintaining strong grip tension. Do not sit down gradually - commit to a controlled fall directly backward with your hips dropping below your shoulders. Keep your head tucked to protect your neck and maintain visual contact with opponent.
+4. **Place foot on hip or abdomen**: As you drop, place the ball of your right foot firmly on the opponent's hip bone or lower abdomen (avoid placing foot on groin). Maintain a slight bend in your knee to allow for extension. The foot placement should occur simultaneously with your back contacting the mat.
+5. **Extend leg to complete throw**: Explosively extend your right leg while pulling hard on the collar and sleeve grips, creating a lever that launches the opponent over your body. The extension should be upward and slightly forward, following a circular arc. Your left leg should hook behind their far leg or sweep wide for stability.
+6. **Follow through to guard**: As the opponent is thrown overhead, maintain grip control and wrap your legs around their waist to establish closed guard. Alternatively, transition to technical stand-up if the throw creates distance, or pursue back control if they land on their side. The grip on the collar should never release during this transition.
+7. **Consolidate position**: Immediately break the opponent's posture in closed guard by pulling down on the collar while extending your hips upward. Cross your ankles behind their back and begin your guard offense sequence. If they land flat on their back, consider transitioning to mount or advancing to submissions.
 
 
 </section>
@@ -264,27 +264,21 @@ Tomoe Nage, known as the circle throw or stomach throw, is a dynamic sacrifice t
 ## Training Progressions
 **Week 1-2: Movement Pattern Development** - Solo drilling of backward fall and foot placement mechanics
 Practice falling straight backward from standing position while maintaining proper breakfall form. Add foot placement drill where you place foot on a pad or training partner's hip while falling. Focus on protecting the neck and creating the circular motion pattern without a resisting opponent.
-(Resistance: None)
 
 **Week 3-4: Cooperative Execution** - Full technique with compliant partner focusing on timing and coordination
 Execute complete Tomoe Nage with a partner who feeds forward momentum and allows the throw to complete. Emphasize smooth transition to guard after the throw. Practice landing in closed guard, then progressing to immediate submission attempts or sweeps. Repeat 20-30 times per session to build muscle memory.
-(Resistance: Light)
 
 **Week 5-8: Grip Fighting Integration** - Adding realistic grip fighting before throw execution
 Partner begins with defensive grips and posture. Practice breaking grips, establishing your preferred grips, and creating forward momentum before executing the throw. Partner provides 50% resistance to sprawl or defend. Focus on recognizing the correct timing window when opponent's weight is committed forward.
-(Resistance: Medium)
 
 **Week 9-12: Counter-Response Drilling** - Defending common counters and transitioning to alternatives
 Partner actively attempts to counter with sprawls, grip breaks, and pressure. Practice recognizing failed throw attempts early and transitioning to seated guard, butterfly guard, or X-guard entries. Develop the ability to chain Tomoe Nage attempts with other guard pull variations. Include situational sparring from standing.
-(Resistance: Medium)
 
 **Week 13+: Competition Application** - Live execution against fully resisting opponents in standing exchanges
 Incorporate Tomoe Nage into regular sparring from standing position. Practice using it as a primary guard pull method in positional sparring. Work on scoring takedown points in competition scenarios while immediately establishing guard attacks. Develop strategic understanding of when to attempt versus when to use alternative entries.
-(Resistance: Full)
 
 **Ongoing: Variation Development** - Exploring no-gi adaptations and advanced setups
 Develop no-gi variations using body lock controls instead of gi grips. Practice Tomoe Nage entries from various standing positions including collar ties, over-under positions, and clinch situations. Experiment with transitioning to leg entanglements if the throw creates opportunities for ashi garami entries.
-(Resistance: Full)
 
 
 

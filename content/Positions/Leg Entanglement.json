@@ -295,19 +295,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 40,
-      "intermediate": 60,
-      "advanced": 75
+      "value": 68
     },
     "advancement_probability": {
-      "beginner": 35,
-      "intermediate": 55,
-      "advanced": 70
+      "value": 62
     },
     "submission_probability": {
-      "beginner": 30,
-      "intermediate": 50,
-      "advanced": 70
+      "value": 60
     },
     "average_time": "45-90 seconds in competition, 2-3 minutes in training (varies significantly by entanglement variant and skill level)"
   },

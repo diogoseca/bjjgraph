@@ -290,21 +290,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 55,
+        "value": 48,
         "description": "Ability to prevent attacker from finishing or advancing to worse position"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Likelihood of successfully escaping to standing or neutral position"
       },
       "submission_probability": {
-        "beginner": 45,
-        "intermediate": 30,
-        "advanced": 20,
+        "value": 25,
         "description": "Risk of being submitted from this defensive position"
       },
       "average_time": "5-12 seconds optimal window for escape before attacker advances"
@@ -312,31 +306,35 @@
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 15
+        "attempt_probability": 12
       },
       {
         "transition": "Counter Entry to Opponent's Leg",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Standing Escape",
-        "attempt_probability": 15
+        "attempt_probability": 10
       },
       {
         "transition": "Hip Rotation Defense",
-        "attempt_probability": 15
+        "attempt_probability": 10
       },
       {
         "transition": "Knee Extraction",
-        "attempt_probability": 14
+        "attempt_probability": 10
       },
       {
         "transition": "Frame and Distance Creation",
-        "attempt_probability": 15
+        "attempt_probability": 10
       },
       {
         "transition": "Pass to Top Control",
-        "attempt_probability": 12
+        "attempt_probability": 8
+      },
+      {
+        "transition": "Straight Ankle Lock",
+        "attempt_probability": 30
       }
     ]
   },
@@ -583,21 +581,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 50,
-        "advanced": 65,
+        "value": 58,
         "description": "Ability to maintain control against active escape attempts"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of transitioning to more dominant leg entanglement"
       },
       "submission_probability": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 60,
+        "value": 52,
         "description": "Probability of finishing straight ankle lock submission from this position"
       },
       "average_time": "8-15 seconds before finish or transition required"

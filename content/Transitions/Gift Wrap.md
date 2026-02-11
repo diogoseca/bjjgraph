@@ -163,7 +163,7 @@ Strategically, the Gift Wrap serves as a critical transitional hub within the mo
 The key to successful Gift Wrap entries lies in understanding opponent reactions. When you threaten submissions from mount—armbars, collar chokes, or Ezekiels—the opponent naturally extends or repositions their arms defensively. These defensive movements create the arm isolation opportunities that facilitate the Gift Wrap entry. Patient practitioners who set up the wrap through positional pressure and submission threats achieve significantly higher success rates than those who attempt to force the arm across.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target arm**: From Mount, identify which arm is most isolated or exposed through opponent's defensive positioning. Look for the arm that is furthest from centerline or being used to push against your hips or chest defensively. (Timing: When opponent creates opening through defensive movement or submission defense)
-2. **Control the wrist**: Secure grip control on the target arm's wrist or lower forearm using your same-side hand. This initial grip prevents the opponent from retracting the arm while you establish the threading position for the wrap. (Timing: Immediately upon identifying target arm opportunity)
-3. **Thread under armpit**: Drive your opposite arm under the opponent's armpit from the outside, reaching diagonally across their chest toward the trapped wrist. Your arm travels from their armpit toward their opposite shoulder area, creating the wrap configuration. (Timing: While maintaining constant wrist control with first hand)
-4. **Connect grips**: Transfer wrist control to your threading arm by gripping opponent's wrist or forearm with the hand that traveled under their armpit. Your original controlling hand is now free to establish secondary control or head control. (Timing: As threading arm reaches and secures the wrist)
-5. **Pull arm high across chest**: Pull the trapped arm high across the opponent's chest toward their opposite shoulder using your threading arm. The higher the arm positioning, the more difficult recovery becomes for the opponent. Maintain constant upward pulling pressure. (Timing: Immediately after grip transfer is complete)
-6. **Establish secondary control**: Use your free hand to control opponent's head, underhook their neck, or reinforce the arm trap. This secondary control prevents the rotation they need to recover the trapped arm. Your chest drives forward onto their wrapped arm. (Timing: As arm trap is secured in high position)
-7. **Consolidate Gift Wrap**: Settle your weight, ensure the trapped arm remains high across their chest, and verify your mount base remains intact. The Gift Wrap is now established as a platform for back takes, submissions, or positional advancement. (Timing: 2-3 seconds to consolidate before transitioning to attacks)
+1. **Identify target arm**: From Mount, identify which arm is most isolated or exposed through opponent's defensive positioning. Look for the arm that is furthest from centerline or being used to push against your hips or chest defensively.
+2. **Control the wrist**: Secure grip control on the target arm's wrist or lower forearm using your same-side hand. This initial grip prevents the opponent from retracting the arm while you establish the threading position for the wrap.
+3. **Thread under armpit**: Drive your opposite arm under the opponent's armpit from the outside, reaching diagonally across their chest toward the trapped wrist. Your arm travels from their armpit toward their opposite shoulder area, creating the wrap configuration.
+4. **Connect grips**: Transfer wrist control to your threading arm by gripping opponent's wrist or forearm with the hand that traveled under their armpit. Your original controlling hand is now free to establish secondary control or head control.
+5. **Pull arm high across chest**: Pull the trapped arm high across the opponent's chest toward their opposite shoulder using your threading arm. The higher the arm positioning, the more difficult recovery becomes for the opponent. Maintain constant upward pulling pressure.
+6. **Establish secondary control**: Use your free hand to control opponent's head, underhook their neck, or reinforce the arm trap. This secondary control prevents the rotation they need to recover the trapped arm. Your chest drives forward onto their wrapped arm.
+7. **Consolidate Gift Wrap**: Settle your weight, ensure the trapped arm remains high across their chest, and verify your mount base remains intact. The Gift Wrap is now established as a platform for back takes, submissions, or positional advancement.
 
 
 </section>
@@ -259,19 +259,15 @@ The key to successful Gift Wrap entries lies in understanding opponent reactions
 ## Training Progressions
 **Week 1-2** - Arm threading mechanics
 Practice the arm threading motion with cooperative partner. Focus on the path from outside the armpit to gripping the opposite wrist. Drill grip transfers between hands. Partner offers no resistance, allowing focus on proper mechanics.
-(Resistance: None)
 
 **Week 3-4** - Mount maintenance during transition
 Add light resistance as partner attempts minor bridging and arm recovery. Focus on maintaining mount control while executing the transition. Practice recovering when wrap fails and immediately re-attempting.
-(Resistance: Light)
 
 **Week 5-6** - Entry timing and setup creation
 Partner defends realistically. Practice creating Gift Wrap entries through submission feints—threaten collar choke or armbar to force defensive arm positioning that facilitates the wrap. Chain failed entries into immediate re-attacks.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance positional sparring starting from Mount. Execute Gift Wrap against realistic defense and immediately chain to follow-up attacks (back take, armbar, chokes). Track success rate and identify technique gaps.
-(Resistance: Full)
 
 
 

@@ -277,21 +277,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 60,
-        "intermediate": 40,
-        "advanced": 25,
+        "value": 32,
         "description": "How long top player remains trapped in New York before escaping"
       },
       "advancement_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 55,
+        "value": 45,
         "description": "Likelihood of successfully escaping to better position"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 25,
-        "advanced": 15,
+        "value": 20,
         "description": "Probability of being submitted while trapped in New York Top"
       },
       "average_time": "30-90 seconds before escape or submission"
@@ -554,21 +548,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Ability to maintain New York Bottom against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 75,
+        "value": 65,
         "description": "Likelihood of successfully transitioning to advanced positions"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Probability of achieving submission from New York Bottom"
       },
       "average_time": "20-40 seconds before transitioning to next position"

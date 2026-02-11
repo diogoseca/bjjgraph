@@ -372,11 +372,11 @@ Start in fully consolidated side control with heavy pressure. Bottom player must
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 20% | 15% | 5% |
-| Intermediate | 32% | 28% | 12% |
-| Advanced     | 45% | 40% | 20% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 38% |
+| Advancement Probability | 34% |
+| Submission Probability | 16% |
 
 **Average Time in Position**: 45-120 seconds under pressure
 

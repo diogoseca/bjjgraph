@@ -157,7 +157,7 @@ Strategically, this transition serves multiple purposes in your passing game. Kn
 The biomechanical advantage of this transition lies in the leg drag's control over the opponent's hips. With their leg dragged across their body, the opponent cannot effectively bridge or create the hip movement necessary to prevent your knee placement. Your existing shoulder control from the leg drag position provides the upper body dominance needed to safely release the leg and transition your knee to their midsection. Understanding this connection between leg drag mechanics and knee on belly establishment is essential for high-percentage execution.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 50%, Intermediate 70%, Advanced 85%
+**Success Rate**: 78%
 
 </section>
 
@@ -206,12 +206,12 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure upper body control**: Ensure your crossface or shoulder control is firmly established before initiating transition. Your free hand should control their far shoulder, head, or have a collar grip that prevents them from sitting up or turning into you. (Timing: Before releasing any leg control)
-2. **Shift weight forward**: Begin transferring your weight from your hips toward your chest, driving more pressure into their upper body. This loads your weight onto your shoulder control hand and frees your hip-side leg for movement while keeping them pinned. (Timing: 1-2 seconds)
-3. **Release leg control**: Release your grip on their trapped leg while maintaining chest pressure on their hip. Your leg-controlling hand immediately moves to secure belt, hip, or collar grip to replace the leg control with upper body control. (Timing: Simultaneous with knee movement)
-4. **Drive knee to belly**: Bring your near-side knee directly across to their solar plexus or lower ribcage, driving at a 45-degree angle across their centerline. Your shin should be perpendicular to their body with your knee pointing toward their far hip. (Timing: Explosive movement)
-5. **Establish posting foot**: Plant your far-side foot wide on the mat, heel off the ground, toes pointed outward for maximum base. This foot provides the foundation for your balance and allows rapid adjustment to opponent's escape attempts. (Timing: Simultaneous with knee placement)
-6. **Settle weight and grip**: Drive your bodyweight through your knee into their midsection while securing your preferred grip—typically collar and belt, or double collar in gi, or head and hip control in no-gi. Your posture should be upright with hips forward to maximize pressure. (Timing: Immediately after knee placement)
+1. **Secure upper body control**: Ensure your crossface or shoulder control is firmly established before initiating transition. Your free hand should control their far shoulder, head, or have a collar grip that prevents them from sitting up or turning into you.
+2. **Shift weight forward**: Begin transferring your weight from your hips toward your chest, driving more pressure into their upper body. This loads your weight onto your shoulder control hand and frees your hip-side leg for movement while keeping them pinned.
+3. **Release leg control**: Release your grip on their trapped leg while maintaining chest pressure on their hip. Your leg-controlling hand immediately moves to secure belt, hip, or collar grip to replace the leg control with upper body control.
+4. **Drive knee to belly**: Bring your near-side knee directly across to their solar plexus or lower ribcage, driving at a 45-degree angle across their centerline. Your shin should be perpendicular to their body with your knee pointing toward their far hip.
+5. **Establish posting foot**: Plant your far-side foot wide on the mat, heel off the ground, toes pointed outward for maximum base. This foot provides the foundation for your balance and allows rapid adjustment to opponent's escape attempts.
+6. **Settle weight and grip**: Drive your bodyweight through your knee into their midsection while securing your preferred grip—typically collar and belt, or double collar in gi, or head and hip control in no-gi. Your posture should be upright with hips forward to maximize pressure.
 
 
 </section>
@@ -257,19 +257,15 @@ The biomechanical advantage of this transition lies in the leg drag's control ov
 ## Training Progressions
 **Week 1-2** - Mechanics and weight transfer
 Practice the transition slowly with a cooperative partner, focusing on maintaining shoulder control throughout and proper knee placement. Drill the hand switch from leg control to collar grip until it becomes automatic. Work on foot positioning for optimal base.
-(Resistance: None)
 
 **Week 3-4** - Timing and speed
 Increase transition speed while partner provides light frames and defensive movement. Work on recognizing the optimal moment to transition based on opponent's position and reactions. Begin drilling from dynamic leg drag entries rather than static starting positions.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and combinations
 Partner actively attempts counters (frame, bridge, sit up, leg recovery). Practice adapting your transition based on their response—switching to back take, north-south, or re-establishing leg drag as needed. Chain into submissions from knee on belly.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Full resistance drilling and specific training from leg drag position. Work on hitting the transition during live rolling from actual guard passes. Develop ability to score and attack from knee on belly against actively resisting opponents of various sizes and skill levels.
-(Resistance: Full)
 
 
 

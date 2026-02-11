@@ -30,11 +30,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Triangle Choke from Crackhead Control is an advanced submission setup that exploits the unique mechanics of the 10th Planet turtle bottom position. When the top player commits to controlling the upper body from Crackhead Control, the bottom player's constant hip movement and aggressive hand fighting can create openings to shoot a leg across the opponent's neck and trap one arm inside, transitioning directly into Triangle Control. This attack capitalizes on the opponent's forward weight commitment and grip-seeking behavior, turning their offensive pressure into a submission vulnerability.\n\nStrategically, this triangle entry represents one of the highest-value attacks available from Crackhead Control bottom because it transforms a defensive survival position into an immediate finishing threat. The mechanics differ from traditional closed guard triangle setups in several key ways: the angle of entry comes from underneath and behind rather than from a supine position, the initial leg placement must account for the opponent's chair-sit weight distribution, and the transition requires an explosive inversion or rotation to secure the triangle configuration. The entry window typically opens when the opponent reaches across the body for grip changes or commits weight forward to flatten the turtle.\n\nThis technique exemplifies the modern grappling principle that defensive positions should always carry offensive potential. The frenetic energy of Crackhead Control bottom creates unpredictable scramble dynamics where the opponent's pattern recognition breaks down. By threading a leg through during these chaotic exchanges, the bottom player bypasses the opponent's defensive reactions entirely - they are focused on maintaining top control, not defending submissions from someone they believe is in an inferior position. The surprise factor alone significantly increases the success rate at all skill levels compared to more telegraphed triangle entries.",
   "key_principles": [
     "Explosive hip rotation is essential to create the angle needed to shoot the leg across the opponent's neck from turtle bottom position",
@@ -55,44 +50,37 @@
     {
       "step_number": 1,
       "action": "Identify entry window",
-      "description": "From Crackhead Control bottom, monitor the opponent's grip patterns and weight shifts. The optimal moment occurs when they reach across your body with one arm to establish a new grip or when they shift weight forward to flatten you - this creates the space needed between their arm and torso.",
-      "timing": "React within 0.5 seconds of opponent's arm extension or weight shift"
+      "description": "From Crackhead Control bottom, monitor the opponent's grip patterns and weight shifts. The optimal moment occurs when they reach across your body with one arm to establish a new grip or when they shift weight forward to flatten you - this creates the space needed between their arm and torso."
     },
     {
       "step_number": 2,
       "action": "Explosive hip rotation",
-      "description": "Drive your near-side hip explosively upward and toward the opponent while simultaneously rotating your body to face them. This hip bump disrupts their chair-sit base and creates the angle necessary to shoot your leg across their neck. Use your posted hands to redirect your body's momentum into the rotation.",
-      "timing": "Immediate - must be explosive to prevent opponent from resettling weight"
+      "description": "Drive your near-side hip explosively upward and toward the opponent while simultaneously rotating your body to face them. This hip bump disrupts their chair-sit base and creates the angle necessary to shoot your leg across their neck. Use your posted hands to redirect your body's momentum into the rotation."
     },
     {
       "step_number": 3,
       "action": "Thread the attacking leg",
-      "description": "Shoot your far-side leg across the back of the opponent's neck, threading it between their head and the arm that is extended or isolated. The shin should contact the back of the neck with your knee pointing toward their trapped shoulder. Your calf must clear their shoulder line completely to establish the choking angle.",
-      "timing": "Continuous motion from the hip rotation - no pause between steps 2 and 3"
+      "description": "Shoot your far-side leg across the back of the opponent's neck, threading it between their head and the arm that is extended or isolated. The shin should contact the back of the neck with your knee pointing toward their trapped shoulder. Your calf must clear their shoulder line completely to establish the choking angle."
     },
     {
       "step_number": 4,
       "action": "Secure arm isolation",
-      "description": "As your leg crosses the neck, use your same-side hand to control the opponent's trapped arm, pulling it across their own centerline. The arm must stay inside the triangle while the opposite arm remains outside. Grip their wrist or forearm and pull it tight against your hip to prevent them from extracting the arm.",
-      "timing": "Simultaneously with leg threading"
+      "description": "As your leg crosses the neck, use your same-side hand to control the opponent's trapped arm, pulling it across their own centerline. The arm must stay inside the triangle while the opposite arm remains outside. Grip their wrist or forearm and pull it tight against your hip to prevent them from extracting the arm."
     },
     {
       "step_number": 5,
       "action": "Lock the triangle",
-      "description": "Bring your other leg up and hook the ankle of your choking leg behind your opposite knee, creating the figure-four triangle lock. Squeeze your knees together while pulling the opponent's head down with your hands on the back of their skull. Your hips should begin elevating to increase compression on the carotid arteries.",
-      "timing": "Within 2 seconds of initial leg placement to prevent posture recovery"
+      "description": "Bring your other leg up and hook the ankle of your choking leg behind your opposite knee, creating the figure-four triangle lock. Squeeze your knees together while pulling the opponent's head down with your hands on the back of their skull. Your hips should begin elevating to increase compression on the carotid arteries."
     },
     {
       "step_number": 6,
       "action": "Adjust angle and consolidate",
-      "description": "Rotate your body approximately 30-45 degrees perpendicular to the opponent's centerline by walking your shoulders on the mat. This angle adjustment directs your choking knee toward their trapped shoulder, optimizing arterial compression. Pull the trapped arm across their neck and elevate your hips off the mat using your upper back as a base point.",
-      "timing": "Methodical adjustment once lock is secure"
+      "description": "Rotate your body approximately 30-45 degrees perpendicular to the opponent's centerline by walking your shoulders on the mat. This angle adjustment directs your choking knee toward their trapped shoulder, optimizing arterial compression. Pull the trapped arm across their neck and elevate your hips off the mat using your upper back as a base point."
     },
     {
       "step_number": 7,
       "action": "Establish Triangle Control",
-      "description": "With the triangle locked, angle adjusted, and hips elevated, you have transitioned from Crackhead Control bottom into full Triangle Control. From here, maintain constant downward head pressure and hip elevation to prevent posture recovery while threatening the choke finish, armbar transitions, or omoplata switches based on the opponent's defensive reactions.",
-      "timing": "Position established - begin submission chain attacks"
+      "description": "With the triangle locked, angle adjusted, and hips elevated, you have transitioned from Crackhead Control bottom into full Triangle Control. From here, maintain constant downward head pressure and hip elevation to prevent posture recovery while threatening the choke finish, armbar transitions, or omoplata switches based on the opponent's defensive reactions."
     }
   ],
   "common_counters": [
@@ -153,32 +141,27 @@
     {
       "phase": "Week 1-2",
       "focus": "Triangle lock mechanics from turtle",
-      "description": "Practice the hip rotation and leg threading motion from turtle bottom against a stationary partner. Focus on the mechanical pathway: hip bump, rotation, leg across neck, arm isolation, lock. Drill each component separately then chain them together. No resistance - partner holds Crackhead Control top position and allows the entry.",
-      "resistance_level": "None"
+      "description": "Practice the hip rotation and leg threading motion from turtle bottom against a stationary partner. Focus on the mechanical pathway: hip bump, rotation, leg across neck, arm isolation, lock. Drill each component separately then chain them together. No resistance - partner holds Crackhead Control top position and allows the entry."
     },
     {
       "phase": "Week 3-4",
       "focus": "Entry timing and angle recognition",
-      "description": "Partner provides light movement from Crackhead Control top, reaching for grips and shifting weight. Bottom player identifies entry windows based on arm extensions and weight transfers, then executes the full triangle entry sequence. Focus on recognizing the three primary triggers: cross-body reach, weight shift forward, and grip transition moments.",
-      "resistance_level": "Light"
+      "description": "Partner provides light movement from Crackhead Control top, reaching for grips and shifting weight. Bottom player identifies entry windows based on arm extensions and weight transfers, then executes the full triangle entry sequence. Focus on recognizing the three primary triggers: cross-body reach, weight shift forward, and grip transition moments."
     },
     {
       "phase": "Week 5-6",
       "focus": "Triangle consolidation and chain attacks",
-      "description": "Partner provides medium resistance, attempting to posture out, stack, and extract the trapped arm after the triangle is locked. Bottom player works angle adjustment, hip elevation, and transitions to armbar or omoplata when the triangle defense is effective. Develop the ability to flow between triangle, armbar, and omoplata based on defensive reactions.",
-      "resistance_level": "Medium"
+      "description": "Partner provides medium resistance, attempting to posture out, stack, and extract the trapped arm after the triangle is locked. Bottom player works angle adjustment, hip elevation, and transitions to armbar or omoplata when the triangle defense is effective. Develop the ability to flow between triangle, armbar, and omoplata based on defensive reactions."
     },
     {
       "phase": "Week 7-8",
       "focus": "Integration with Crackhead Control bottom game",
-      "description": "Full positional sparring from Crackhead Control bottom. Triangle entry becomes one option among granby rolls, sit-throughs, and guard recoveries. Partner provides full resistance from top. Bottom player selects attacks based on what the opponent gives them. Track triangle entry success rate and compare with other escape/attack options.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring from Crackhead Control bottom. Triangle entry becomes one option among granby rolls, sit-throughs, and guard recoveries. Partner provides full resistance from top. Bottom player selects attacks based on what the opponent gives them. Track triangle entry success rate and compare with other escape/attack options."
     },
     {
       "phase": "Week 9+",
       "focus": "Live application and competition preparation",
-      "description": "Integrate triangle from Crackhead Control into full rolling sessions. Work on setting up the position through deliberate turtle recovery after guard passes, then attacking with the triangle when the opponent follows to Crackhead Control top. Develop the psychological aspect - maintaining composure in bottom turtle while hunting for submission entries.",
-      "resistance_level": "Full"
+      "description": "Integrate triangle from Crackhead Control into full rolling sessions. Work on setting up the position through deliberate turtle recovery after guard passes, then attacking with the triangle when the opponent follows to Crackhead Control top. Develop the psychological aspect - maintaining composure in bottom turtle while hunting for submission entries."
     }
   ],
   "variants_and_adaptations": [
@@ -201,53 +184,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the Triangle Choke from Crackhead Control?",
-      "answer": "The primary goal is to transition from the defensive Crackhead Control bottom position into Triangle Control, a dominant submission platform. This converts a survival position into an immediate finishing threat by threading a leg across the opponent's neck while isolating one arm inside, establishing the figure-four triangle lock that compresses the carotid arteries.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from the defensive Crackhead Control bottom position into Triangle Control, a dominant submission platform. This converts a survival position into an immediate finishing threat by threading a leg across the opponent's neck while isolating one arm inside, establishing the figure-four triangle lock that compresses the carotid arteries."
     },
     {
       "question": "What are the three primary triggers that create an entry window for this triangle from Crackhead Control bottom?",
-      "answer": "The three primary triggers are: (1) the opponent reaches across your body with one arm to establish a new grip, creating space between their elbow and torso; (2) the opponent shifts weight forward to flatten you, bringing their head past their hips; and (3) the opponent transitions between grip configurations, creating a momentary gap in their control structure. All three involve the opponent committing to an action that temporarily opens their neck to leg entry.",
-      "difficulty": "Intermediate"
+      "answer": "The three primary triggers are: (1) the opponent reaches across your body with one arm to establish a new grip, creating space between their elbow and torso; (2) the opponent shifts weight forward to flatten you, bringing their head past their hips; and (3) the opponent transitions between grip configurations, creating a momentary gap in their control structure. All three involve the opponent committing to an action that temporarily opens their neck to leg entry."
     },
     {
       "question": "Your opponent postures up immediately after you lock the triangle - how do you adjust your attack?",
-      "answer": "First attempt to break their posture by pulling their head down with both hands on the back of the skull. If they maintain posture, transition to omoplata by uncrossing your ankles, rotating your hips 180 degrees, and controlling their arm in the omoplata configuration. Alternatively, if their posturing extends their trapped arm, pivot to an armbar by swinging your choking leg over their head while maintaining wrist control. The triangle, armbar, and omoplata form a triangle of attacks where defending one exposes the other.",
-      "difficulty": "Intermediate"
+      "answer": "First attempt to break their posture by pulling their head down with both hands on the back of the skull. If they maintain posture, transition to omoplata by uncrossing your ankles, rotating your hips 180 degrees, and controlling their arm in the omoplata configuration. Alternatively, if their posturing extends their trapped arm, pivot to an armbar by swinging your choking leg over their head while maintaining wrist control. The triangle, armbar, and omoplata form a triangle of attacks where defending one exposes the other."
     },
     {
       "question": "What is the critical mechanical detail in the hip rotation that initiates this triangle entry?",
-      "answer": "The near-side hip must drive upward and toward the opponent explosively, not just laterally. This hip bump simultaneously disrupts the opponent's chair-sit base and creates the angle for your far-side leg to thread across their neck. The rotation should originate from the core, not the shoulders - turning your shoulders without hip engagement creates insufficient space for leg insertion. Your posted hands redirect momentum into the rotation rather than generating it.",
-      "difficulty": "Advanced"
+      "answer": "The near-side hip must drive upward and toward the opponent explosively, not just laterally. This hip bump simultaneously disrupts the opponent's chair-sit base and creates the angle for your far-side leg to thread across their neck. The rotation should originate from the core, not the shoulders - turning your shoulders without hip engagement creates insufficient space for leg insertion. Your posted hands redirect momentum into the rotation rather than generating it."
     },
     {
       "question": "Why must the perpendicular angle adjustment happen after locking the triangle, and what is the optimal angle?",
-      "answer": "The angle adjustment (30-45 degrees relative to the opponent's centerline) is essential because a square triangle compresses the front of the neck (trachea) rather than the sides (carotid arteries). The perpendicular angle directs the choking knee toward the trapped arm's shoulder, creating a diagonal compression vector that targets both carotid arteries simultaneously. Without this angle, the choke becomes an air choke requiring significantly more force, giving the opponent substantially more time to escape.",
-      "difficulty": "Intermediate"
+      "answer": "The angle adjustment (30-45 degrees relative to the opponent's centerline) is essential because a square triangle compresses the front of the neck (trachea) rather than the sides (carotid arteries). The perpendicular angle directs the choking knee toward the trapped arm's shoulder, creating a diagonal compression vector that targets both carotid arteries simultaneously. Without this angle, the choke becomes an air choke requiring significantly more force, giving the opponent substantially more time to escape."
     },
     {
       "question": "What grip configuration is required for the trapped arm, and why does arm positioning matter for choke pressure?",
-      "answer": "The trapped arm must be pulled across the opponent's own neck so that their shoulder and bicep compress one side of their neck while your thigh compresses the other side. Grip their wrist or forearm with your same-side hand and pull it tight against your hip. This arm positioning is critical because the opponent's own limb becomes a lever that amplifies choking pressure - without proper arm positioning across the centerline, the triangle becomes a head squeeze rather than a blood choke, dramatically reducing effectiveness.",
-      "difficulty": "Intermediate"
+      "answer": "The trapped arm must be pulled across the opponent's own neck so that their shoulder and bicep compress one side of their neck while your thigh compresses the other side. Grip their wrist or forearm with your same-side hand and pull it tight against your hip. This arm positioning is critical because the opponent's own limb becomes a lever that amplifies choking pressure - without proper arm positioning across the centerline, the triangle becomes a head squeeze rather than a blood choke, dramatically reducing effectiveness."
     },
     {
       "question": "Your opponent begins stacking you by driving forward and walking their feet toward your head - what is your defensive response?",
-      "answer": "Frame on their hip with both hands to arrest their forward drive and prevent full spinal compression. Simultaneously, use shoulder walking to angle your body perpendicular to their drive direction - this converts their linear forward pressure into a lateral exposure that actually improves your choking angle. If the stack progresses despite framing, release the triangle temporarily, push their hips back with your feet, and immediately re-establish the triangle from the new angle. Never absorb a full stack passively.",
-      "difficulty": "Advanced"
+      "answer": "Frame on their hip with both hands to arrest their forward drive and prevent full spinal compression. Simultaneously, use shoulder walking to angle your body perpendicular to their drive direction - this converts their linear forward pressure into a lateral exposure that actually improves your choking angle. If the stack progresses despite framing, release the triangle temporarily, push their hips back with your feet, and immediately re-establish the triangle from the new angle. Never absorb a full stack passively."
     },
     {
       "question": "How does this triangle entry differ mechanically from a standard closed guard triangle, and what adjustment is required?",
-      "answer": "The standard closed guard triangle enters from a supine position with the opponent above you, threading the leg from front to back. The Crackhead Control triangle enters from turtle bottom, requiring a rotation from prone to supine position during the entry. This means the initial leg path goes from underneath and behind rather than from in front, requiring explosive hip rotation to create the entry angle. The adjustment is committing fully to the rotation before attempting leg insertion - half-committed entries from turtle result in loose positions that are easily shrugged off.",
-      "difficulty": "Advanced"
+      "answer": "The standard closed guard triangle enters from a supine position with the opponent above you, threading the leg from front to back. The Crackhead Control triangle enters from turtle bottom, requiring a rotation from prone to supine position during the entry. This means the initial leg path goes from underneath and behind rather than from in front, requiring explosive hip rotation to create the entry angle. The adjustment is committing fully to the rotation before attempting leg insertion - half-committed entries from turtle result in loose positions that are easily shrugged off."
     },
     {
       "question": "What are the chain attack options if the opponent successfully defends the initial triangle lock?",
-      "answer": "If the opponent prevents the triangle from fully locking: (1) switch to armbar by controlling their wrist and swinging your leg over their head; (2) transition to omoplata by releasing the triangle lock and rotating your hips to control their arm in the omoplata configuration; (3) if they extract their arm and posture, use the scramble to recover to closed guard or half guard; (4) if they drive into you to pass, use the leg positioning to establish rubber guard or mission control. The triangle attempt itself creates reactions that feed secondary attacks.",
-      "difficulty": "Intermediate"
+      "answer": "If the opponent prevents the triangle from fully locking: (1) switch to armbar by controlling their wrist and swinging your leg over their head; (2) transition to omoplata by releasing the triangle lock and rotating your hips to control their arm in the omoplata configuration; (3) if they extract their arm and posture, use the scramble to recover to closed guard or half guard; (4) if they drive into you to pass, use the leg positioning to establish rubber guard or mission control. The triangle attempt itself creates reactions that feed secondary attacks."
     },
     {
       "question": "What physical attribute is most important for executing this triangle from Crackhead Control, and why?",
-      "answer": "Hip mobility and explosive hip power are the most critical attributes, more than leg length or flexibility. The entire entry depends on generating sufficient rotational force from the hips to create space for leg insertion while simultaneously disrupting the opponent's base. Practitioners with shorter legs can compensate with superior hip rotation and timing, but no amount of leg length compensates for insufficient hip explosiveness. Conditioning for repeated explosive hip movements from turtle position should be a training priority.",
-      "difficulty": "Advanced"
+      "answer": "Hip mobility and explosive hip power are the most critical attributes, more than leg length or flexibility. The entire entry depends on generating sufficient rotational force from the hips to create space for leg insertion while simultaneously disrupting the opponent's base. Practitioners with shorter legs can compensate with superior hip rotation and timing, but no amount of leg length compensates for insufficient hip explosiveness. Conditioning for repeated explosive hip movements from turtle position should be a training priority."
     }
   ],
   "safety_considerations": "The Triangle Choke creates bilateral compression of the carotid arteries, which can cause loss of consciousness within 8-12 seconds of a properly applied choke. Partners must tap early and clearly when they feel the choke tighten. The attacking practitioner must release immediately upon feeling or hearing the tap - there is no safe margin for holding a blood choke after the tap signal. During drilling, apply the choke slowly and incrementally to allow your partner to tap before full compression. The hip rotation entry from turtle carries risk of neck strain if the bottom player's head is trapped during the explosive movement. Ensure your head is free before committing to the rotation. Avoid cranking the neck or applying twisting pressure to the cervical spine - the triangle should compress the sides of the neck, not torque the spine. Practitioners with pre-existing neck injuries should approach this technique with caution and consult with their instructor before attempting the entry from turtle position.",
@@ -301,5 +274,6 @@
       "name": "Omoplata",
       "relationship": "Tertiary chain attack when triangle and armbar are defended"
     }
-  ]
+  ],
+  "success_rate": 58
 }

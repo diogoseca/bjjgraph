@@ -167,7 +167,7 @@ The technique requires precise control and understanding of leg entanglement mec
 **Type**: Leg Lock
 **Target Area**: Foot and ankle joints (dorsiflexion of foot)
 **Starting Position**: [[Ashi Garami]]
-**Success Rates**: Beginner 30%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -246,13 +246,13 @@ The technique requires precise control and understanding of leg entanglement mec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish leg entanglement control**: From 50-50 guard bottom or similar leg entanglement, ensure your legs are properly positioned around opponent's leg. Your inside leg should be positioned with the shin or calf behind opponent's knee. Maintain close hip positioning to prevent opponent from creating distance and straightening their leg. (Timing: Initial setup: 2-3 seconds) [Pressure: Light]
-2. **Secure foot grip with both hands**: Reach down and grip opponent's foot with both hands. Position your fingers across the top of the foot (dorsal surface) with thumbs underneath (plantar surface). Your grip should be near the ball of the foot, not the toes. Ensure the grip is tight and controlled before proceeding to pressure application. (Timing: Grip establishment: 1-2 seconds) [Pressure: Light]
-3. **Position attacking leg behind knee**: Adjust your leg position so that the back of opponent's knee rests against your shin or calf. Your knee should be bent at approximately 90 degrees or slightly more. This creates the fulcrum point where pressure will be applied. Ensure your foot is positioned to provide stability and prevent opponent from pulling their leg free. (Timing: Leg positioning: 1-2 seconds) [Pressure: Light]
-4. **Control opponent's hips and prevent escape**: Use your free leg to control opponent's hips or wrap around their body to prevent them from creating distance. Hip control is critical - if opponent can extend their leg or create space, the submission becomes ineffective. Your body should be tight to theirs with no gaps. (Timing: Hip control: 1 second) [Pressure: Moderate]
-5. **Apply dorsiflexion pressure on foot**: Begin pulling opponent's foot toward their shin (dorsiflexion) while simultaneously pushing with your leg behind their knee. The pressure creates a folding motion at the ankle joint. Start with very light pressure and increase gradually. Your hands pull the foot upward while your leg provides counter-pressure behind the knee. (Timing: Initial pressure: 2-3 seconds) [Pressure: Moderate]
-6. **Coordinate leg and hand pressure for finish**: Increase pressure gradually by pulling harder with your hands while maintaining or slightly increasing leg pressure behind the knee. The finish comes from the coordinated pulling motion with hands and pushing with the leg. Watch for tap signals and be prepared to release immediately. Maximum pressure should take 5-7 seconds total from initial application. (Timing: Finishing pressure: 3-5 seconds) [Pressure: Firm]
-7. **Adjust or transition based on defense**: If opponent defends by pulling their foot free, be prepared to transition to other attacks such as toe hold, outside heel hook, or sweep. If opponent attempts to straighten their leg, use this movement to advance position or switch to different leg attack. The Estima Lock works best when integrated into a broader leg attack system. (Timing: Transition if needed: 1-2 seconds) [Pressure: Light]
+1. **Establish leg entanglement control**: From 50-50 guard bottom or similar leg entanglement, ensure your legs are properly positioned around opponent's leg. Your inside leg should be positioned with the shin or calf behind opponent's knee. Maintain close hip positioning to prevent opponent from creating distance and straightening their leg. (Timing: Initial setup: 2-3 seconds)
+2. **Secure foot grip with both hands**: Reach down and grip opponent's foot with both hands. Position your fingers across the top of the foot (dorsal surface) with thumbs underneath (plantar surface). Your grip should be near the ball of the foot, not the toes. Ensure the grip is tight and controlled before proceeding to pressure application. (Timing: Grip establishment: 1-2 seconds)
+3. **Position attacking leg behind knee**: Adjust your leg position so that the back of opponent's knee rests against your shin or calf. Your knee should be bent at approximately 90 degrees or slightly more. This creates the fulcrum point where pressure will be applied. Ensure your foot is positioned to provide stability and prevent opponent from pulling their leg free. (Timing: Leg positioning: 1-2 seconds)
+4. **Control opponent's hips and prevent escape**: Use your free leg to control opponent's hips or wrap around their body to prevent them from creating distance. Hip control is critical - if opponent can extend their leg or create space, the submission becomes ineffective. Your body should be tight to theirs with no gaps. (Timing: Hip control: 1 second)
+5. **Apply dorsiflexion pressure on foot**: Begin pulling opponent's foot toward their shin (dorsiflexion) while simultaneously pushing with your leg behind their knee. The pressure creates a folding motion at the ankle joint. Start with very light pressure and increase gradually. Your hands pull the foot upward while your leg provides counter-pressure behind the knee. (Timing: Initial pressure: 2-3 seconds)
+6. **Coordinate leg and hand pressure for finish**: Increase pressure gradually by pulling harder with your hands while maintaining or slightly increasing leg pressure behind the knee. The finish comes from the coordinated pulling motion with hands and pushing with the leg. Watch for tap signals and be prepared to release immediately. Maximum pressure should take 5-7 seconds total from initial application. (Timing: Finishing pressure: 3-5 seconds)
+7. **Adjust or transition based on defense**: If opponent defends by pulling their foot free, be prepared to transition to other attacks such as toe hold, outside heel hook, or sweep. If opponent attempts to straighten their leg, use this movement to advance position or switch to different leg attack. The Estima Lock works best when integrated into a broader leg attack system. (Timing: Transition if needed: 1-2 seconds)
 
 
 </section>
@@ -272,28 +272,28 @@ The technique requires precise control and understanding of leg entanglement mec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying pressure before establishing proper hand and leg positioning [Low DANGER]
+- **Mistake**: Applying pressure before establishing proper hand and leg positioning
   - **Consequence**: Weak submission that opponent easily defends, wasted energy, loss of position
   - **Correction**: Ensure all control points are established before applying any pressure. Setup must be complete and tight before beginning pressure application.
-- **Mistake**: Gripping too close to the toes instead of ball of foot [Medium DANGER]
+- **Mistake**: Gripping too close to the toes instead of ball of foot
   - **Consequence**: Ineffective pressure application, risk of finger injury, opponent easily pulls foot free
   - **Correction**: Grip across the ball of the foot where metatarsals meet the midfoot. This provides maximum leverage and control while protecting your fingers.
-- **Mistake**: Failing to control opponent's hips allowing distance creation [Low DANGER]
+- **Mistake**: Failing to control opponent's hips allowing distance creation
   - **Consequence**: Opponent straightens leg and escapes, loss of submission and position
   - **Correction**: Use free leg to actively control opponent's hips throughout the submission. Your bodies should remain close with no gap for opponent to exploit.
-- **Mistake**: Jerking or spiking the foot pressure suddenly [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the foot pressure suddenly
   - **Consequence**: SEVERE ankle or foot ligament damage, potential fracture, destroyed training partnership
   - **Correction**: Always apply pressure progressively over 5-7 seconds minimum. Give partner multiple opportunities to tap. Smooth, controlled pressure is more effective and safer than explosive force.
-- **Mistake**: Not releasing immediately when partner taps [CRITICAL DANGER]
+- **Mistake**: Not releasing immediately when partner taps
   - **Consequence**: SEVERE injury to ankle ligaments, damaged trust, potential joint damage requiring surgery
   - **Correction**: Release all pressure the instant you feel or hear a tap. Practice releasing quickly in drilling so it becomes automatic in live training. Partner safety must always be priority.
-- **Mistake**: Attacking the wrong foot in 50-50 position [Low DANGER]
+- **Mistake**: Attacking the wrong foot in 50-50 position
   - **Consequence**: No pressure on opponent, exposure to opponent's attacks, wasted position
   - **Correction**: From 50-50 bottom, attack the foot of the leg that is trapped between your legs. Ensure you understand the leg entanglement geometry before attempting the submission.
-- **Mistake**: Neglecting to monitor opponent's leg straightening defense [Low DANGER]
+- **Mistake**: Neglecting to monitor opponent's leg straightening defense
   - **Consequence**: Missing transition opportunities, getting swept, losing dominant position
   - **Correction**: Feel opponent's leg tension constantly. As soon as they begin to straighten, transition to sweep or alternative submission. Use their defensive force against them.
-- **Mistake**: Applying technique to beginners unfamiliar with leg locks [CRITICAL DANGER]
+- **Mistake**: Applying technique to beginners unfamiliar with leg locks
   - **Consequence**: SEVERE injury risk due to partner not recognizing danger or proper tap timing
   - **Correction**: Only practice with partners who understand leg locks and know the tap signals. Explain the submission and safety protocols before drilling. Never surprise anyone with a leg lock.
 
@@ -360,43 +360,6 @@ The technique requires precise control and understanding of leg entanglement mec
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (2 weeks)
-- Focus: Learn anatomy, mechanics, and safety protocols through demonstration and discussion without live application
-- Resistance: None
-- Safety: Study ankle and foot anatomy, understand injury mechanisms, memorize all tap signals, practice release protocols without pressure. Partner should be experienced with leg locks. Discuss why this is an advanced submission requiring respect.
-
-**Static Positioning (Weeks 3-4)** (2 weeks)
-- Focus: Practice establishing proper leg entanglement, hand positioning, and body alignment without applying any pressure
-- Resistance: Zero resistance
-- Safety: Focus entirely on positioning. No pressure application at all. Practice getting hand grips, leg placement, and hip control. Partner remains completely passive. Practice release protocols. Emphasize that setup must be perfect before any pressure is considered.
-
-**Controlled Pressure Introduction (Weeks 5-8)** (4 weeks)
-- Focus: Begin applying very light pressure (10-20% maximum) with constant verbal communication and immediate tap response
-- Resistance: Zero resistance
-- Safety: Apply only minimal pressure - just enough to feel the submission mechanics. Partner should tap very early, well before discomfort. Practice immediate release every single repetition. Verbally communicate throughout: 'pressure starting', 'how does that feel', etc. Build trust and muscle memory for safe release.
-
-**Progressive Resistance (Weeks 9-12)** (4 weeks)
-- Focus: Partner begins mild defensive movements while you maintain position and control. Pressure remains at 30-40% maximum.
-- Resistance: Mild resistance
-- Safety: Partner can attempt basic defenses like pulling foot free or creating distance. You practice maintaining position without increasing pressure aggressively. Still emphasize early taps and controlled releases. Never chase lost positions - if control breaks, restart from safe position.
-
-**Realistic Drilling (Weeks 13-20)** (8 weeks)
-- Focus: Partner provides realistic defense and escape attempts. You practice recognizing when submission is lost and when to transition to alternatives.
-- Resistance: Realistic resistance
-- Safety: Partner defends realistically but still taps early before pain. Practice transitioning to other attacks when Estima Lock is defended. Emphasize safety in transitions - maintain awareness of partner's joints throughout position changes. Maximum pressure still applied progressively over 5-7 seconds minimum.
-
-**Ongoing Training (Week 21+)** (Ongoing)
-- Focus: Integration into live training with continued emphasis on safety, early taps, and controlled application. Regular review of safety protocols.
-- Resistance: Full resistance
-- Safety: Apply in live training only with experienced, trusted partners who understand leg locks. Always maintain 5-7 second pressure application even in competition-style training. Regular discussions with partners about comfort level and any concerning moments. Immediate cessation if anything feels wrong. Commitment to partner safety over tap collection.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -448,6 +411,7 @@ The technique requires precise control and understanding of leg entanglement mec
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

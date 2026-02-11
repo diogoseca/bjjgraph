@@ -27,11 +27,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Rubber Guard Clear to Pass is the systematic escape and passing sequence from the top position when trapped in an opponent's Rubber Guard. This technique addresses one of the most challenging defensive scenarios in modern no-gi grappling, where the bottom player has established Mission Control or a similar Rubber Guard configuration with your arm trapped against their chest. The fundamental challenge lies in the dual-threat control system: your posture is severely compromised while one arm is isolated, limiting defensive options. The pass requires methodical progression through posture recovery, arm extraction, and guard opening before completing the pass to Side Control.\n\nSuccess depends on understanding that aggressive pulling of the trapped arm triggers triangle entries, while sitting back creates space for omoplata attacks. Instead, the technique uses frame creation with the free hand, controlled pressure redistribution, and systematic leg clearing to neutralize the position's unique control mechanisms. The pass works by addressing the leg control first rather than fighting the arm trap directly, allowing you to recover posture and break open the guard configuration before completing standard passing mechanics.\n\nThis technique is essential for any practitioner facing opponents with flexible guard systems, particularly in no-gi and MMA contexts where the Rubber Guard system has proven highly effective.",
   "key_principles": [
     "Address leg control before attempting arm extraction to prevent triggering submission entries",
@@ -53,50 +48,42 @@
     {
       "step_number": 1,
       "action": "Establish frame",
-      "description": "Place your free hand on opponent's far hip, creating a structural frame that prevents them from pulling you deeper into the Rubber Guard configuration and establishes your first control point for the escape sequence.",
-      "timing": "Immediately upon recognizing trapped position"
+      "description": "Place your free hand on opponent's far hip, creating a structural frame that prevents them from pulling you deeper into the Rubber Guard configuration and establishes your first control point for the escape sequence."
     },
     {
       "step_number": 2,
       "action": "Redirect pressure",
-      "description": "Shift your weight onto the hip frame while angling your shoulders away from the trapped side, reducing the effectiveness of their leg pressure and creating the first increment of space needed for posture recovery.",
-      "timing": "As soon as frame is established"
+      "description": "Shift your weight onto the hip frame while angling your shoulders away from the trapped side, reducing the effectiveness of their leg pressure and creating the first increment of space needed for posture recovery."
     },
     {
       "step_number": 3,
       "action": "Address leg control",
-      "description": "Use your free hand to push down on opponent's controlling leg near the knee while maintaining hip pressure, working to break the shin-to-back configuration that anchors the Rubber Guard without creating space for triangle entry.",
-      "timing": "Before attempting any arm extraction"
+      "description": "Use your free hand to push down on opponent's controlling leg near the knee while maintaining hip pressure, working to break the shin-to-back configuration that anchors the Rubber Guard without creating space for triangle entry."
     },
     {
       "step_number": 4,
       "action": "Extract trapped arm",
-      "description": "As leg control loosens, rotate your trapped arm in a circular motion toward your body rather than pulling straight back, keeping elbow tight to ribs while using the newly created space to slide the arm free from the chest trap.",
-      "timing": "Only after leg pressure is reduced"
+      "description": "As leg control loosens, rotate your trapped arm in a circular motion toward your body rather than pulling straight back, keeping elbow tight to ribs while using the newly created space to slide the arm free from the chest trap."
     },
     {
       "step_number": 5,
       "action": "Recover posture",
-      "description": "With arm freed, immediately post both hands on opponent's hips and drive your hips back while straightening your spine, using leg drive to create distance and establish tall posture before they can re-engage Rubber Guard grips.",
-      "timing": "Immediately following arm extraction"
+      "description": "With arm freed, immediately post both hands on opponent's hips and drive your hips back while straightening your spine, using leg drive to create distance and establish tall posture before they can re-engage Rubber Guard grips."
     },
     {
       "step_number": 6,
       "action": "Open the guard",
-      "description": "From recovered posture, address any remaining closed guard by wedging your elbow into opponent's inner thigh while maintaining hip control, creating the opening needed to begin passing sequence.",
-      "timing": "While maintaining posture pressure"
+      "description": "From recovered posture, address any remaining closed guard by wedging your elbow into opponent's inner thigh while maintaining hip control, creating the opening needed to begin passing sequence."
     },
     {
       "step_number": 7,
       "action": "Clear legs and establish pass",
-      "description": "Drive through the opened guard using your shoulder against their hip, clearing their legs to one side while establishing crossface control and hip-to-hip pressure to complete the pass to Side Control.",
-      "timing": "Upon successful guard opening"
+      "description": "Drive through the opened guard using your shoulder against their hip, clearing their legs to one side while establishing crossface control and hip-to-hip pressure to complete the pass to Side Control."
     },
     {
       "step_number": 8,
       "action": "Consolidate Side Control",
-      "description": "Settle your weight across opponent's torso with chest perpendicular to their body, crossface pressure driving their head away, and near hip blocked to prevent any guard recovery or re-engagement of Rubber Guard.",
-      "timing": "Immediately upon clearing legs"
+      "description": "Settle your weight across opponent's torso with chest perpendicular to their body, crossface pressure driving their head away, and near hip blocked to prevent any guard recovery or re-engagement of Rubber Guard."
     }
   ],
   "common_counters": [
@@ -157,26 +144,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Rubber Guard recognition and frame establishment",
-      "description": "Practice identifying when trapped in Rubber Guard variations and establishing proper frame with free hand on opponent's hip. Work on maintaining base while creating defensive structure. Partner holds static position without advancing.",
-      "resistance_level": "None"
+      "description": "Practice identifying when trapped in Rubber Guard variations and establishing proper frame with free hand on opponent's hip. Work on maintaining base while creating defensive structure. Partner holds static position without advancing."
     },
     {
       "phase": "Week 3-4",
       "focus": "Leg control and arm extraction mechanics",
-      "description": "Drill the sequence of addressing leg control before arm extraction. Practice circular arm extraction motion keeping elbow tight to body. Partner provides light resistance and allows escape when technique is correct.",
-      "resistance_level": "Light"
+      "description": "Drill the sequence of addressing leg control before arm extraction. Practice circular arm extraction motion keeping elbow tight to body. Partner provides light resistance and allows escape when technique is correct."
     },
     {
       "phase": "Week 5-6",
       "focus": "Complete escape to pass sequence",
-      "description": "Chain the full sequence from trapped position through posture recovery to Side Control finish. Work on timing transitions and maintaining pressure throughout. Partner attempts specific submissions if openings are created.",
-      "resistance_level": "Medium"
+      "description": "Chain the full sequence from trapped position through posture recovery to Side Control finish. Work on timing transitions and maintaining pressure throughout. Partner attempts specific submissions if openings are created."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and troubleshooting",
-      "description": "Implement in positional sparring starting from Rubber Guard. Partner uses full resistance and all available submissions. Develop ability to recognize and counter submission attempts while maintaining escape progression.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring starting from Rubber Guard. Partner uses full resistance and all available submissions. Develop ability to recognize and counter submission attempts while maintaining escape progression."
     }
   ],
   "variants_and_adaptations": [
@@ -199,43 +182,35 @@
   "knowledge_assessment": [
     {
       "question": "Why must you address leg control before attempting to extract your trapped arm from Rubber Guard?",
-      "answer": "Pulling the arm without addressing leg control creates a direct pathway to triangle choke. The leg pressure on your back anchors the configuration and controls your posture. Removing the leg pressure first breaks the mechanical advantage that allows the arm trap to function, making extraction safe and preventing the bottom player from locking a triangle as you withdraw your arm.",
-      "difficulty": "Beginner"
+      "answer": "Pulling the arm without addressing leg control creates a direct pathway to triangle choke. The leg pressure on your back anchors the configuration and controls your posture. Removing the leg pressure first breaks the mechanical advantage that allows the arm trap to function, making extraction safe and preventing the bottom player from locking a triangle as you withdraw your arm."
     },
     {
       "question": "What happens if you sit back to create distance without maintaining hip control with your free hand?",
-      "answer": "Creating distance without hip control provides space for the opponent to extend their legs and lock a triangle or rotate into omoplata. The hip frame prevents them from following your movement and keeps them compressed. Without it, the distance you create actually helps them complete their submissions rather than escaping.",
-      "difficulty": "Beginner"
+      "answer": "Creating distance without hip control provides space for the opponent to extend their legs and lock a triangle or rotate into omoplata. The hip frame prevents them from following your movement and keeps them compressed. Without it, the distance you create actually helps them complete their submissions rather than escaping."
     },
     {
       "question": "How should you extract your trapped arm once leg control is addressed - straight back or circular motion?",
-      "answer": "Use circular motion toward your body keeping the elbow tight to your ribs. Pulling straight back is the natural instinct but triggers triangle entries because it creates the arm-and-head configuration triangles require. Circular extraction keeps your arm close to your body and prevents the space needed for leg lockup around your head.",
-      "difficulty": "Intermediate"
+      "answer": "Use circular motion toward your body keeping the elbow tight to your ribs. Pulling straight back is the natural instinct but triggers triangle entries because it creates the arm-and-head configuration triangles require. Circular extraction keeps your arm close to your body and prevents the space needed for leg lockup around your head."
     },
     {
       "question": "Your opponent begins locking a triangle as you extract your arm - what is your immediate response?",
-      "answer": "Tuck your chin to prevent the choke from being effective immediately. Then posture aggressively by straightening your spine and pushing on their hips. Work standard triangle defense by pushing on the knee of the locking leg to prevent them from completing the figure-four lock. Speed is critical - address it before the triangle is fully locked.",
-      "difficulty": "Intermediate"
+      "answer": "Tuck your chin to prevent the choke from being effective immediately. Then posture aggressively by straightening your spine and pushing on their hips. Work standard triangle defense by pushing on the knee of the locking leg to prevent them from completing the figure-four lock. Speed is critical - address it before the triangle is fully locked."
     },
     {
       "question": "Why is establishing crossface control immediately upon completing the pass critical?",
-      "answer": "Flexible Rubber Guard players can quickly re-engage their guard system if given any space or time. The crossface drives their head away, preventing them from turning into you and re-establishing leg control. Without immediate crossface, your successful pass can be negated within seconds as they re-acquire grips and elevate their legs.",
-      "difficulty": "Intermediate"
+      "answer": "Flexible Rubber Guard players can quickly re-engage their guard system if given any space or time. The crossface drives their head away, preventing them from turning into you and re-establishing leg control. Without immediate crossface, your successful pass can be negated within seconds as they re-acquire grips and elevate their legs."
     },
     {
       "question": "What distinguishes the stack pass variation from the standard escape sequence?",
-      "answer": "The stack pass drives forward into compression rather than extracting laterally. You keep your trapped arm tight against your body and use shoulder pressure on their hips to fold them, reducing their hip mobility and breaking the Rubber Guard configuration through compression rather than arm extraction. It works best against less flexible opponents or when they overextend their hips.",
-      "difficulty": "Advanced"
+      "answer": "The stack pass drives forward into compression rather than extracting laterally. You keep your trapped arm tight against your body and use shoulder pressure on their hips to fold them, reducing their hip mobility and breaking the Rubber Guard configuration through compression rather than arm extraction. It works best against less flexible opponents or when they overextend their hips."
     },
     {
       "question": "Your opponent repeatedly re-establishes Mission Control after you partially recover posture - what adjustment should you make?",
-      "answer": "Maintain constant forward pressure and actively fight their gripping hand with your free hand. If they keep re-establishing control, consider the standing escape variation where you post a foot and drive to standing, using height advantage to break the configuration from above. Speed and continuous pressure prevent re-engagement of their control system.",
-      "difficulty": "Advanced"
+      "answer": "Maintain constant forward pressure and actively fight their gripping hand with your free hand. If they keep re-establishing control, consider the standing escape variation where you post a foot and drive to standing, using height advantage to break the configuration from above. Speed and continuous pressure prevent re-engagement of their control system."
     },
     {
       "question": "Why is panicking and using explosive movements counterproductive when trapped in Rubber Guard?",
-      "answer": "Explosive movements create the reactions and momentum that Rubber Guard practitioners use to enter submissions. The system is designed to capitalize on aggressive escape attempts. Triangles and omoplatas require specific movements from you to complete - explosive pulling and thrashing often provides exactly those movements. Calm, systematic pressure denies them the reactions they need.",
-      "difficulty": "Advanced"
+      "answer": "Explosive movements create the reactions and momentum that Rubber Guard practitioners use to enter submissions. The system is designed to capitalize on aggressive escape attempts. Triangles and omoplatas require specific movements from you to complete - explosive pulling and thrashing often provides exactly those movements. Calm, systematic pressure denies them the reactions they need."
     }
   ],
   "safety_considerations": "When practicing this escape, be mindful of shoulder and neck strain on both partners. The trapped arm position in Rubber Guard creates potential for shoulder injury if explosive extraction is attempted. Always extract arms with controlled motion and tap immediately if you feel shoulder torque. The bottom player should release if the top player taps during practice - competitive stubbornness during drilling leads to injuries. Both practitioners should communicate about flexibility limitations and resistance levels. Avoid practicing this technique at full speed until both partners are comfortable with the movements. The stack pass variation puts significant pressure on the bottom player's neck and spine - use incrementally and allow taps for discomfort rather than just submissions.",
@@ -281,5 +256,6 @@
       "name": "Arm Extraction",
       "relationship": "Core mechanical component of this escape technique"
     }
-  ]
+  ],
+  "success_rate": 58
 }

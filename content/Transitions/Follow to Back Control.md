@@ -157,7 +157,7 @@ The fundamental premise is recognizing when an opponent's inversion has progress
 This technique embodies a core principle of positional BJJ: accepting what the opponent gives rather than forcing techniques against strong defensive structures. An opponent who commits fully to escaping leg entanglements via inversion makes a calculated trade—they accept back exposure to eliminate leg attack danger. The practitioner who can smoothly transition to back control punishes this defensive choice with a dominant position offering numerous submission threats including rear naked choke, bow and arrow variations, and armbar attacks.
 
 **From Position**: [[Ushiro Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ This technique embodies a core principle of positional BJJ: accepting what the o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Read the rotation**: Identify when opponent's inversion has crossed the commitment threshold—their hips have rotated past 90 degrees and they are actively turning toward turtle rather than defending the heel. This is your trigger to abandon leg attacks. (Timing: When opponent's rotation accelerates)
-2. **Release leg entanglement**: Uncross your legs and release the figure-four configuration. Do not simply let go—actively push off their trapped leg with your feet to generate momentum toward their upper body. Your legs should clear their hips. (Timing: Immediately after recognizing commitment)
-3. **Follow with hips**: Drive your hips forward and around to follow opponent's rotation. Your pelvis should track their hip movement, staying connected to their body rather than reaching with your arms. Hip-to-hip connection prevents space creation. (Timing: Continuous motion with their rotation)
-4. **Establish seat belt**: As your chest arrives at their upper back, immediately secure the seat belt grip with one arm over their shoulder and one under their opposite armpit. Clasp hands together tightly at their sternum level. Over-arm should be on the choking side. (Timing: As chest contacts upper back)
-5. **Insert bottom hook**: With seat belt secured, insert your bottom hook (the leg closest to the mat) by threading your instep inside their bottom thigh. This hook controls their hip rotation and prevents them from completing a granby roll to escape. (Timing: Within 1-2 seconds of seat belt)
-6. **Flatten and insert top hook**: Use chest pressure and the bottom hook to flatten opponent onto their side or belly. As they flatten, thread your top hook inside their top thigh. Lock both ankles together or triangle your legs for maximum control consolidation. (Timing: Once opponent begins flattening)
+1. **Read the rotation**: Identify when opponent's inversion has crossed the commitment threshold—their hips have rotated past 90 degrees and they are actively turning toward turtle rather than defending the heel. This is your trigger to abandon leg attacks.
+2. **Release leg entanglement**: Uncross your legs and release the figure-four configuration. Do not simply let go—actively push off their trapped leg with your feet to generate momentum toward their upper body. Your legs should clear their hips.
+3. **Follow with hips**: Drive your hips forward and around to follow opponent's rotation. Your pelvis should track their hip movement, staying connected to their body rather than reaching with your arms. Hip-to-hip connection prevents space creation.
+4. **Establish seat belt**: As your chest arrives at their upper back, immediately secure the seat belt grip with one arm over their shoulder and one under their opposite armpit. Clasp hands together tightly at their sternum level. Over-arm should be on the choking side.
+5. **Insert bottom hook**: With seat belt secured, insert your bottom hook (the leg closest to the mat) by threading your instep inside their bottom thigh. This hook controls their hip rotation and prevents them from completing a granby roll to escape.
+6. **Flatten and insert top hook**: Use chest pressure and the bottom hook to flatten opponent onto their side or belly. As they flatten, thread your top hook inside their top thigh. Lock both ankles together or triangle your legs for maximum control consolidation.
 
 
 </section>
@@ -251,19 +251,15 @@ This technique embodies a core principle of positional BJJ: accepting what the o
 ## Training Progressions
 **Week 1-2** - Rotation recognition and release timing
 Partner performs slow inversion escapes from Ushiro Ashi-Garami. Practice identifying the commitment point and releasing leg entanglement at the correct moment. No resistance—focus purely on reading the rotation trigger.
-(Resistance: None)
 
 **Week 3-4** - Hip following and seat belt establishment
 Partner inverts at moderate speed. Practice following with your hips and establishing the seat belt grip quickly upon arrival. Partner provides light defensive hand fighting to develop grip breaking skills.
-(Resistance: Light)
 
 **Week 5-6** - Hook insertion under pressure
 Partner actively defends by attempting to re-guard or complete turtle escape. Develop ability to insert hooks while maintaining seat belt against defensive movement. Drill both hook insertion orders to understand why bottom-first is superior.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and chain attacks
 Positional sparring from Ushiro Ashi-Garami where attacker must choose between leg attacks and back take based on opponent's defensive reactions. Develop real-time decision-making and smooth transitions between leg game and back control systems.
-(Resistance: Full)
 
 
 

@@ -163,7 +163,7 @@ Unlike sitting to half guard or granby rolling to closed guard, the deep half en
 This transition is particularly valuable when the buggy choke grips are established but body pressure hasn't fully consolidated. The attacker's commitment to finishing the choke creates windows for explosive rotational escapes that would not exist against a more positionally-focused opponent. Mastering this technique adds a counterattacking dimension to buggy choke defense, punishing overly aggressive finishing attempts.
 
 **From Position**: [[Buggy Choke/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ This transition is particularly valuable when the buggy choke grips are establis
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess position**: Evaluate opponent's grip depth and weight distribution. Confirm they are committed to finishing the choke with forward pressure rather than maintaining positional control and base. This forward commitment creates the vulnerability your roll will exploit. (Timing: Before opponent consolidates full body pressure)
-2. **Create frame**: Establish a defensive frame with your near-side arm against opponent's hip or thigh. This frame serves two purposes: it creates the initial space needed to begin rotation and prevents opponent from flattening you completely before the roll initiates. (Timing: Immediately after recognizing roll opportunity)
-3. **Target the leg**: Identify and track opponent's near leg with your far-side arm. Your hand should be ready to hook behind their knee or grip their ankle/pant leg. This grip target must be secured during rotation to ensure deep half entry rather than an undefined scramble. (Timing: Simultaneous with frame creation)
-4. **Initiate roll**: Drive explosively with your hips while tucking your chin toward your chest. Roll toward the opponent's trapped leg using a diagonal trajectory. The motion should be toward and under the opponent, not away from them. Generate momentum from hip thrust rather than arm pulling. (Timing: When opponent applies finishing pressure)
-5. **Secure leg control**: As you complete the rolling motion, wrap your arms around opponent's near leg at the thigh level. Your head should end up positioned against their inner thigh. Lock your hands together in a gable grip or seatbelt configuration around the trapped leg. (Timing: During rotation completion)
-6. **Establish hooks**: Immediately insert your bottom leg as a hook behind opponent's trapped leg while positioning your top leg as a controlling hook on their hip or lower back. These hooks are critical for position retention and sweep setup. Do not pause between securing the leg and establishing hooks. (Timing: Immediately upon landing)
-7. **Consolidate position**: Pull opponent's trapped leg tight to your chest while using your hooks to off-balance them toward their trapped side. Keep your head tight to their inner thigh to prevent crossface or knee slide counters. You should now be in standard deep half guard configuration. (Timing: Within 1-2 seconds of hook insertion)
+1. **Assess position**: Evaluate opponent's grip depth and weight distribution. Confirm they are committed to finishing the choke with forward pressure rather than maintaining positional control and base. This forward commitment creates the vulnerability your roll will exploit.
+2. **Create frame**: Establish a defensive frame with your near-side arm against opponent's hip or thigh. This frame serves two purposes: it creates the initial space needed to begin rotation and prevents opponent from flattening you completely before the roll initiates.
+3. **Target the leg**: Identify and track opponent's near leg with your far-side arm. Your hand should be ready to hook behind their knee or grip their ankle/pant leg. This grip target must be secured during rotation to ensure deep half entry rather than an undefined scramble.
+4. **Initiate roll**: Drive explosively with your hips while tucking your chin toward your chest. Roll toward the opponent's trapped leg using a diagonal trajectory. The motion should be toward and under the opponent, not away from them. Generate momentum from hip thrust rather than arm pulling.
+5. **Secure leg control**: As you complete the rolling motion, wrap your arms around opponent's near leg at the thigh level. Your head should end up positioned against their inner thigh. Lock your hands together in a gable grip or seatbelt configuration around the trapped leg.
+6. **Establish hooks**: Immediately insert your bottom leg as a hook behind opponent's trapped leg while positioning your top leg as a controlling hook on their hip or lower back. These hooks are critical for position retention and sweep setup. Do not pause between securing the leg and establishing hooks.
+7. **Consolidate position**: Pull opponent's trapped leg tight to your chest while using your hooks to off-balance them toward their trapped side. Keep your head tight to their inner thigh to prevent crossface or knee slide counters. You should now be in standard deep half guard configuration.
 
 
 </section>
@@ -261,19 +261,15 @@ This transition is particularly valuable when the buggy choke grips are establis
 ## Training Progressions
 **Week 1-2** - Rolling mechanics
 Practice the rolling motion solo and with non-resisting partner. Focus on rolling toward the target leg rather than away from pressure. Establish muscle memory for the correct diagonal trajectory. No resistance, emphasis on directional accuracy and body positioning upon completion.
-(Resistance: None)
 
 **Week 3-4** - Leg capture timing
 Add partner who provides light buggy choke grip pressure. Practice identifying the correct timing window when grips are set but pressure isn't consolidated. Focus on securing the leg grip during rotation. Partner provides 25-50% resistance and resets after each successful entry.
-(Resistance: Light)
 
 **Week 5-6** - Hook consolidation
 Partner provides moderate resistance and attempts basic counters (sprawl, leg withdrawal). Practice the complete sequence from roll through hook establishment and position consolidation. Develop immediate hook insertion reflexes. Begin addressing basic counter-techniques.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Integrate into positional sparring from turtle and buggy choke scenarios. Partner provides full resistance including back takes and knee slice counters. Develop situational awareness for when this escape is high-percentage versus when alternatives are preferable. Test against various body types and buggy choke variations.
-(Resistance: Full)
 
 
 

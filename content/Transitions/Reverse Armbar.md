@@ -163,7 +163,7 @@ This technique capitalizes on the arm control opportunities inherent to North-So
 Strategically, the Reverse Armbar serves as a complement to the North-South choke and kimura attacks. When opponents defend their neck by tucking their chin and framing with their arms, they become vulnerable to arm isolation. The technique works particularly well against opponents who create frames with their forearms, as these frames can be captured and converted into submission attempts. Understanding when to transition between these attacks creates a dangerous offensive network from North-South.
 
 **From Position**: [[North-South/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -212,13 +212,13 @@ Strategically, the Reverse Armbar serves as a complement to the North-South chok
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target arm**: From North-South top, identify which arm has extended toward your hips or become exposed during their escape attempt - this becomes your target for the reverse armbar attack (Timing: During opponent's frame or escape attempt)
-2. **Secure wrist control**: Grip the opponent's wrist firmly with your hand closest to their hips, ensuring their palm faces upward or inward to prevent them from rotating their elbow and escaping the attack angle (Timing: Immediately when arm is exposed)
-3. **Trap elbow position**: Use your other hand or your hip to trap their elbow in position against your body, preventing them from bending their arm or retracting it back toward their torso for defense (Timing: Within 1-2 seconds of wrist control)
-4. **Create breaking angle**: Position their arm so their elbow joint crosses your hips or lower chest, with their forearm pointing toward your head and their upper arm extending toward their body - this creates hyperextension leverage (Timing: Simultaneously with elbow trap)
-5. **Secure your grip**: Clamp your elbows tight to your body while maintaining wrist control, creating a unified structure where your entire torso controls their arm rather than relying solely on grip strength (Timing: Before applying pressure)
-6. **Apply breaking pressure**: Drive your hips upward while keeping their wrist pinned and elbow trapped, hyperextending their elbow joint by using your body as the fulcrum point - control the submission speed for training safety (Timing: Controlled and progressive)
-7. **Finish or transition**: If they tap, release immediately; if they begin escaping before you can finish, transition immediately to side control or continue to kimura control rather than losing position entirely (Timing: Based on opponent response)
+1. **Identify target arm**: From North-South top, identify which arm has extended toward your hips or become exposed during their escape attempt - this becomes your target for the reverse armbar attack
+2. **Secure wrist control**: Grip the opponent's wrist firmly with your hand closest to their hips, ensuring their palm faces upward or inward to prevent them from rotating their elbow and escaping the attack angle
+3. **Trap elbow position**: Use your other hand or your hip to trap their elbow in position against your body, preventing them from bending their arm or retracting it back toward their torso for defense
+4. **Create breaking angle**: Position their arm so their elbow joint crosses your hips or lower chest, with their forearm pointing toward your head and their upper arm extending toward their body - this creates hyperextension leverage
+5. **Secure your grip**: Clamp your elbows tight to your body while maintaining wrist control, creating a unified structure where your entire torso controls their arm rather than relying solely on grip strength
+6. **Apply breaking pressure**: Drive your hips upward while keeping their wrist pinned and elbow trapped, hyperextending their elbow joint by using your body as the fulcrum point - control the submission speed for training safety
+7. **Finish or transition**: If they tap, release immediately; if they begin escaping before you can finish, transition immediately to side control or continue to kimura control rather than losing position entirely
 
 
 </section>
@@ -264,19 +264,15 @@ Strategically, the Reverse Armbar serves as a complement to the North-South chok
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Learn arm isolation mechanics from North-South without resistance. Practice identifying exposed arms and establishing wrist and elbow control. Drill the breaking angle positioning slowly with cooperative partner.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light North-South escape attempts while you recognize arm exposure windows. Practice entering the reverse armbar when they frame or reach. Build muscle memory for grip establishment sequence.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain reverse armbar with North-South choke and kimura attacks. When one attack is defended, flow to the next. Practice recognizing which attack each defensive reaction exposes.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply in positional sparring from North-South with full resistance. Focus on recognizing genuine opportunities versus forced attacks. Integrate into your complete North-South control game.
-(Resistance: Full)
 
 
 

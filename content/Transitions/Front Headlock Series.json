@@ -11,11 +11,6 @@
     "submission-system",
     "advanced"
   ],
-  "success_rates": {
-    "beginner": 50,
-    "intermediate": 70,
-    "advanced": 85
-  },
   "overview": "The Front Headlock Series represents one of the most comprehensive and versatile control systems in Brazilian Jiu-Jitsu, offering multiple high-percentage attack options from a single dominant position. This position occurs frequently in scrambles, after failed takedown attempts, or when the opponent turtles defensively. From the front headlock, practitioners can seamlessly transition between submissions (Anaconda choke, Darce choke, Guillotine choke), position advancement (back takes, mount entries), or maintain superior control while the opponent exhausts themselves.\n\nThe effectiveness of this series lies in its systematic approach to creating dilemmas for the opponent. Each defensive response to one attack opens pathways to alternative finishes, making escape extremely difficult without proper technical knowledge. The front headlock allows control of the opponent's head and one arm simultaneously, severely limiting their mobility and offensive options while you maintain a relatively safe position with multiple attacking opportunities.\n\nMastery of the Front Headlock Series transforms scrambles and transitional moments into dominant positions rather than chaotic exchanges. This systematic approach has revolutionized modern grappling by providing a clear decision tree for one of the most common positions encountered in both gi and no-gi competition. The series works effectively at all skill levels, though the sophistication of attack selection and execution refinement increases dramatically with experience.",
   "key_principles": [
     "Control the head and one arm simultaneously to limit opponent mobility and defensive options",
@@ -39,50 +34,42 @@
     {
       "step_number": 1,
       "action": "Establish front headlock control",
-      "description": "Secure the front headlock position by wrapping your arm around the opponent's neck, threading it deep so your bicep and forearm create a tight frame against their carotid arteries. Your other hand should control their near arm, either by overhooking it, controlling the wrist, or securing a gable grip with your choking arm. Position your chest on top of their upper back/shoulders to apply downward pressure.",
-      "timing": "Immediately upon opponent exposing their head in turtle or failed takedown"
+      "description": "Secure the front headlock position by wrapping your arm around the opponent's neck, threading it deep so your bicep and forearm create a tight frame against their carotid arteries. Your other hand should control their near arm, either by overhooking it, controlling the wrist, or securing a gable grip with your choking arm. Position your chest on top of their upper back/shoulders to apply downward pressure."
     },
     {
       "step_number": 2,
       "action": "Apply shoulder pressure and assess opponent's reaction",
-      "description": "Drive your shoulder into the back of opponent's head, forcing their chin to their chest and breaking their posture. Keep your hips mobile and ready to adjust. Observe carefully how they defend: if they reach for your choking arm, prepare for Anaconda/Darce; if they try to stand or circle out, prepare for back take; if they turtle tightly, prepare for Guillotine or position advancement.",
-      "timing": "Continuous pressure while reading defensive patterns"
+      "description": "Drive your shoulder into the back of opponent's head, forcing their chin to their chest and breaking their posture. Keep your hips mobile and ready to adjust. Observe carefully how they defend: if they reach for your choking arm, prepare for Anaconda/Darce; if they try to stand or circle out, prepare for back take; if they turtle tightly, prepare for Guillotine or position advancement."
     },
     {
       "step_number": 3,
       "action": "Select attack based on opponent's defensive response",
-      "description": "If opponent reaches across their body to defend your choke arm, slide your choking arm deeper and prepare Anaconda entry. If they keep their defending arm tight to their body, circle to your choking-arm side and prepare Darce. If they attempt to stand or posture up, maintain head control and circle to their back. If they stay statically defensive, adjust to Guillotine position or advance to mount/side control.",
-      "timing": "Within 2-3 seconds of establishing control"
+      "description": "If opponent reaches across their body to defend your choke arm, slide your choking arm deeper and prepare Anaconda entry. If they keep their defending arm tight to their body, circle to your choking-arm side and prepare Darce. If they attempt to stand or posture up, maintain head control and circle to their back. If they stay statically defensive, adjust to Guillotine position or advance to mount/side control."
     },
     {
       "step_number": 4,
       "action": "Execute Anaconda choke entry (Option A)",
-      "description": "When opponent reaches across with their far arm, slide your choking arm deeper around the neck. Step your outside leg over their back, then thread your non-choking arm under their armpit and over your own choking wrist, securing a figure-four grip. Roll toward the choking-arm side, bringing opponent with you, and squeeze your elbows together while expanding your chest to finish the choke.",
-      "timing": "Execute roll within 1-2 seconds of securing figure-four"
+      "description": "When opponent reaches across with their far arm, slide your choking arm deeper around the neck. Step your outside leg over their back, then thread your non-choking arm under their armpit and over your own choking wrist, securing a figure-four grip. Roll toward the choking-arm side, bringing opponent with you, and squeeze your elbows together while expanding your chest to finish the choke."
     },
     {
       "step_number": 5,
       "action": "Execute Darce choke entry (Option B)",
-      "description": "When opponent keeps defending arm close to their body, maintain front headlock and circle your hips toward your choking-arm side. As you circle, thread your non-choking arm under their near armpit and over your own choking wrist, creating the Darce figure-four. Drive your shoulder into the back of their head, adjust your angle perpendicular to their spine, and finish by expanding chest while squeezing elbows together.",
-      "timing": "Circle and thread arm in one fluid motion"
+      "description": "When opponent keeps defending arm close to their body, maintain front headlock and circle your hips toward your choking-arm side. As you circle, thread your non-choking arm under their near armpit and over your own choking wrist, creating the Darce figure-four. Drive your shoulder into the back of their head, adjust your angle perpendicular to their spine, and finish by expanding chest while squeezing elbows together."
     },
     {
       "step_number": 6,
       "action": "Execute back take (Option C)",
-      "description": "When opponent attempts to stand or turn into you, maintain tight head control with your choking arm. As they turn, release your non-choking arm control and quickly circle behind them, using your choking arm as an anchor point. Secure your second hook as you transition, establishing seat belt control, and secure back control with both hooks in.",
-      "timing": "Move to back immediately as opponent commits to turning"
+      "description": "When opponent attempts to stand or turn into you, maintain tight head control with your choking arm. As they turn, release your non-choking arm control and quickly circle behind them, using your choking arm as an anchor point. Secure your second hook as you transition, establishing seat belt control, and secure back control with both hooks in."
     },
     {
       "step_number": 7,
       "action": "Execute Guillotine adjustment (Option D)",
-      "description": "If opponent remains statically defensive or you cannot secure Anaconda/Darce angles, adjust your choking arm deeper across their throat and prepare for standing or guard-pull Guillotine. Step your outside leg back, pull opponent's head up and forward while sitting back or pulling guard, and finish the Guillotine by arching your back and pulling upward on their head while squeezing forearm into their throat.",
-      "timing": "Transition smoothly if other options are defended"
+      "description": "If opponent remains statically defensive or you cannot secure Anaconda/Darce angles, adjust your choking arm deeper across their throat and prepare for standing or guard-pull Guillotine. Step your outside leg back, pull opponent's head up and forward while sitting back or pulling guard, and finish the Guillotine by arching your back and pulling upward on their head while squeezing forearm into their throat."
     },
     {
       "step_number": 8,
       "action": "Maintain position or advance if submissions fail",
-      "description": "If opponent successfully defends all submission attempts, use the superior front headlock control to advance position. Drive forward pressure to flatten them, then transition to side control, mount, or maintain front headlock while they exhaust themselves defending. Never abandon the position advantage hastily; reset and attack again or consolidate positional dominance.",
-      "timing": "Continuous pressure until position improvement or submission achieved"
+      "description": "If opponent successfully defends all submission attempts, use the superior front headlock control to advance position. Drive forward pressure to flatten them, then transition to side control, mount, or maintain front headlock while they exhaust themselves defending. Never abandon the position advantage hastily; reset and attack again or consolidate positional dominance."
     }
   ],
   "common_counters": [
@@ -153,38 +140,32 @@
     {
       "phase": "Week 1-2: Position Establishment",
       "focus": "Learning to establish and maintain front headlock control with proper pressure",
-      "description": "Partner starts in turtle position. Practice securing front headlock grip with proper arm positioning around neck. Focus on applying shoulder pressure to break opponent's posture. Partner offers light resistance, occasionally trying to sit back to guard or turn toward you. Your goal is to maintain control for 30-second intervals while keeping heavy pressure on their head.",
-      "resistance_level": "Light"
+      "description": "Partner starts in turtle position. Practice securing front headlock grip with proper arm positioning around neck. Focus on applying shoulder pressure to break opponent's posture. Partner offers light resistance, occasionally trying to sit back to guard or turn toward you. Your goal is to maintain control for 30-second intervals while keeping heavy pressure on their head."
     },
     {
       "phase": "Week 3-4: Individual Technique Isolation",
       "focus": "Learning each attack in isolation with proper mechanics",
-      "description": "Practice Anaconda, Darce, Guillotine, and back take separately. Partner provides clear setups for each technique. For Anaconda: partner reaches across body. For Darce: partner keeps arm tight. For back take: partner attempts to turn. For Guillotine: partner stays static. Focus on correct arm threading, hip positioning, and finishing mechanics for each technique without time pressure.",
-      "resistance_level": "Light"
+      "description": "Practice Anaconda, Darce, Guillotine, and back take separately. Partner provides clear setups for each technique. For Anaconda: partner reaches across body. For Darce: partner keeps arm tight. For back take: partner attempts to turn. For Guillotine: partner stays static. Focus on correct arm threading, hip positioning, and finishing mechanics for each technique without time pressure."
     },
     {
       "phase": "Week 5-8: Recognition and Selection",
       "focus": "Reading opponent reactions and selecting appropriate attack",
-      "description": "From front headlock position, partner randomly performs different defensive reactions without telling you which. You must recognize their defense and select the appropriate attack: Anaconda if they reach across, Darce if arm stays tight, back take if they turn, Guillotine if they stay static. Partner offers medium resistance once you've selected the correct attack. Focus on quick recognition and smooth transitions.",
-      "resistance_level": "Medium"
+      "description": "From front headlock position, partner randomly performs different defensive reactions without telling you which. You must recognize their defense and select the appropriate attack: Anaconda if they reach across, Darce if arm stays tight, back take if they turn, Guillotine if they stay static. Partner offers medium resistance once you've selected the correct attack. Focus on quick recognition and smooth transitions."
     },
     {
       "phase": "Week 9-12: Combination Attacks",
       "focus": "Flowing between multiple attacks as opponent defends",
-      "description": "Start from front headlock and attempt to finish using any technique in the series. Partner actively defends your first attack, forcing you to transition to alternative options. Practice smooth transitions: Anaconda to Darce, Darce to back take, failed choke to position advancement. Build chains of 2-3 attacks in single sequences. Partner uses progressive resistance, defending realistically but allowing successful technique when properly executed.",
-      "resistance_level": "Medium"
+      "description": "Start from front headlock and attempt to finish using any technique in the series. Partner actively defends your first attack, forcing you to transition to alternative options. Practice smooth transitions: Anaconda to Darce, Darce to back take, failed choke to position advancement. Build chains of 2-3 attacks in single sequences. Partner uses progressive resistance, defending realistically but allowing successful technique when properly executed."
     },
     {
       "phase": "Week 13-16: Scramble Integration",
       "focus": "Entering front headlock from dynamic situations",
-      "description": "Partner starts from standing, or from guard, or from various positions. Create situations where front headlock opportunity appears: failed takedowns, guard passes, scrambles. Practice recognizing the opportunity, securing control quickly, and immediately threatening attacks. Partner resists realistically throughout. Goal is to make front headlock series your default response to scramble situations.",
-      "resistance_level": "Full"
+      "description": "Partner starts from standing, or from guard, or from various positions. Create situations where front headlock opportunity appears: failed takedowns, guard passes, scrambles. Practice recognizing the opportunity, securing control quickly, and immediately threatening attacks. Partner resists realistically throughout. Goal is to make front headlock series your default response to scramble situations."
     },
     {
       "phase": "Week 17+: Live Application",
       "focus": "Applying front headlock series against full resistance in positional and free sparring",
-      "description": "Positional sparring starting from front headlock or turtle bottom (alternating roles). Progress to free sparring where you actively seek front headlock opportunities. Partner provides full resistance. Track success rates of different attacks, identify which setups work best for your body type and style, and develop your personal high-percentage sequences within the series.",
-      "resistance_level": "Full"
+      "description": "Positional sparring starting from front headlock or turtle bottom (alternating roles). Progress to free sparring where you actively seek front headlock opportunities. Partner provides full resistance. Track success rates of different attacks, identify which setups work best for your body type and style, and develop your personal high-percentage sequences within the series."
     }
   ],
   "variants_and_adaptations": [
@@ -212,33 +193,27 @@
   "knowledge_assessment": [
     {
       "question": "What defensive reaction from your opponent indicates you should attempt the Anaconda choke rather than the Darce choke?",
-      "answer": "When the opponent reaches across their body with their far arm to defend your choking arm, this creates the perfect setup for the Anaconda. Their reaching arm opens the space under their armpit for you to thread your non-choking arm and complete the figure-four grip. In contrast, the Darce is selected when they keep their defending arm tight to their body.",
-      "difficulty": "Intermediate"
+      "answer": "When the opponent reaches across their body with their far arm to defend your choking arm, this creates the perfect setup for the Anaconda. Their reaching arm opens the space under their armpit for you to thread your non-choking arm and complete the figure-four grip. In contrast, the Darce is selected when they keep their defending arm tight to their body."
     },
     {
       "question": "Why is shoulder pressure on the back of the opponent's head such a critical component of front headlock control?",
-      "answer": "Shoulder pressure serves multiple critical functions: it breaks the opponent's posture making it difficult to create frames or escape, it restricts their breathing and vision creating psychological pressure, it prevents them from turning into you or standing effectively, and it keeps their head positioned perfectly for your choking arm to attack the neck. Without this pressure, opponents can posture up and escape relatively easily.",
-      "difficulty": "Beginner"
+      "answer": "Shoulder pressure serves multiple critical functions: it breaks the opponent's posture making it difficult to create frames or escape, it restricts their breathing and vision creating psychological pressure, it prevents them from turning into you or standing effectively, and it keeps their head positioned perfectly for your choking arm to attack the neck. Without this pressure, opponents can posture up and escape relatively easily."
     },
     {
       "question": "What should you do if your opponent successfully defends both your Anaconda and Darce attempts from front headlock?",
-      "answer": "Rather than abandoning the position, you have several high-percentage options: transition to Guillotine variation by adjusting your grip and sitting back or pulling guard; take their back as they defend by circling behind them while maintaining head control; advance to mount or side control by driving forward pressure and stepping over; or maintain front headlock control and reset your attacks after they fatigue from defending. The key is never to abandon the positional advantage hastily.",
-      "difficulty": "Advanced"
+      "answer": "Rather than abandoning the position, you have several high-percentage options: transition to Guillotine variation by adjusting your grip and sitting back or pulling guard; take their back as they defend by circling behind them while maintaining head control; advance to mount or side control by driving forward pressure and stepping over; or maintain front headlock control and reset your attacks after they fatigue from defending. The key is never to abandon the positional advantage hastily."
     },
     {
       "question": "How should your hip positioning differ when attempting an Anaconda versus a Darce choke from front headlock?",
-      "answer": "For the Anaconda, you typically step your outside leg over their back and roll toward your choking-arm side, bringing opponent with you to finish on your side. For the Darce, you circle your hips toward your choking-arm side while staying more on top, threading your arm under their near armpit and finishing with your body perpendicular to their spine while driving shoulder pressure into their head. The Anaconda involves more of a rolling motion while the Darce involves circular hip movement.",
-      "difficulty": "Advanced"
+      "answer": "For the Anaconda, you typically step your outside leg over their back and roll toward your choking-arm side, bringing opponent with you to finish on your side. For the Darce, you circle your hips toward your choking-arm side while staying more on top, threading your arm under their near armpit and finishing with your body perpendicular to their spine while driving shoulder pressure into their head. The Anaconda involves more of a rolling motion while the Darce involves circular hip movement."
     },
     {
       "question": "What is the primary purpose of controlling the opponent's near arm when establishing front headlock position?",
-      "answer": "Controlling the near arm serves several purposes: it prevents them from posting effectively to stand up or create space, it eliminates one of their primary frames for defense, it keeps their body oriented in a vulnerable position for your attacks, and it creates the necessary conditions for threading your second arm for Anaconda or Darce chokes. Without arm control, opponents can use that arm to push off, create distance, or defend much more effectively.",
-      "difficulty": "Beginner"
+      "answer": "Controlling the near arm serves several purposes: it prevents them from posting effectively to stand up or create space, it eliminates one of their primary frames for defense, it keeps their body oriented in a vulnerable position for your attacks, and it creates the necessary conditions for threading your second arm for Anaconda or Darce chokes. Without arm control, opponents can use that arm to push off, create distance, or defend much more effectively."
     },
     {
       "question": "When is the optimal time to transition from front headlock to taking the opponent's back?",
-      "answer": "The back take becomes optimal when the opponent attempts to turn into you or circle away from your choking arm side. Their turning motion naturally exposes their back, and by maintaining tight head control as an anchor point, you can follow their movement directly to back control. Additionally, if they attempt to stand up from turtle while you maintain head control, this creates an excellent opportunity to climb to back control. The key is recognizing their directional movement and using it to facilitate your back take rather than fighting against it.",
-      "difficulty": "Intermediate"
+      "answer": "The back take becomes optimal when the opponent attempts to turn into you or circle away from your choking arm side. Their turning motion naturally exposes their back, and by maintaining tight head control as an anchor point, you can follow their movement directly to back control. Additionally, if they attempt to stand up from turtle while you maintain head control, this creates an excellent opportunity to climb to back control. The key is recognizing their directional movement and using it to facilitate your back take rather than fighting against it."
     }
   ],
   "safety_considerations": "The Front Headlock Series involves controlling the opponent's head and neck, requiring careful attention to safety during training. Apply all chokes slowly and progressively, giving your partner ample time to tap before full pressure is reached. When practicing Anaconda and Darce chokes, be especially cautious as these chokes can come on quickly once proper position is achieved. Never spike or drop your weight suddenly onto opponent's neck or spine. When rolling for Anaconda entries, control the roll to prevent your partner's head from impacting the mat. Partners must tap early and clearly, and the top person must release immediately upon feeling the tap. During drilling, communicate constantly and use progressive resistance rather than explosive movements. Instructors should supervise proper technique especially with newer students who may not recognize the danger of neck cranks versus proper chokes. The front headlock position is relatively safe when maintained with proper pressure distribution, but transitions to submissions require controlled, technical execution rather than forceful or jerky movements.",
@@ -285,7 +260,7 @@
       "relationship": "Alternative submission when transitioning to side control from front headlock"
     },
     {
-      "name": "D'arce-Anaconda Connection",
+      "name": "Darce-Anaconda Connection",
       "relationship": "System understanding the relationship between the two primary chokes"
     },
     {
@@ -310,5 +285,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 78
 }

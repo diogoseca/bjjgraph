@@ -21,37 +21,37 @@ description: "Navigate leg drag control from bottom position. Master defensive t
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Escape to Closed Guard",
-      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Escape to Closed Guard. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Technical Standup",
-      "text": "From this position, attempt Technical Standup. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Technical Standup. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Counter to Half Guard",
-      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Leg Drag Counter to Half Guard. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Inside Position Recovery",
-      "text": "From this position, attempt Inside Position Recovery. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Inside Position Recovery. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Granby Roll Escape",
-      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Granby Roll Escape. This technique is attempted in 8% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -209,21 +209,23 @@ Defensive success in this position requires recognizing the leg drag early in th
 
 ## Available Escapes
 
-### [[Leg Drag Escape to Closed Guard]] (12% of attempts)
+### [[Leg Drag Escape to Closed Guard]] (11% of attempts)
 
-### [[Technical Standup]] (13% of attempts)
+### [[Technical Standup]] (12% of attempts)
 
-### [[Leg Drag Counter to Half Guard]] (18% of attempts)
+### [[Leg Drag Counter to Half Guard]] (15% of attempts)
 
-### [[Roll to Turtle]] (17% of attempts)
+### [[Roll to Turtle]] (15% of attempts)
 
-### [[Inside Position Recovery]] (11% of attempts)
+### [[Inside Position Recovery]] (10% of attempts)
 
-### [[Granby Roll Escape]] (9% of attempts)
+### [[Granby Roll Escape]] (8% of attempts)
 
-### [[Leg Recovery to De La Riva]] (10% of attempts)
+### [[Leg Recovery to De La Riva]] (9% of attempts)
 
-### [[Frame and Shrimp to Guard]] (10% of attempts)
+### [[Frame and Shrimp to Guard]] (9% of attempts)
+
+### [[Half Guard Recovery]] (11% of attempts)
 
 
 
@@ -369,11 +371,11 @@ Partner has leg drag control and actively attempts back take. Bottom player focu
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 70% | 20% | 5% |
-| Intermediate | 50% | 40% | 3% |
-| Advanced     | 30% | 60% | 2% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 50% |
+| Submission Probability | 2% |
 
 **Average Time in Position**: 3-8 seconds before position transitions to side control, back control, or guard recovery
 

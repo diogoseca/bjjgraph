@@ -368,11 +368,11 @@ In body triangle position, practice applying different levels of squeeze pressur
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 55% | 45% | 35% |
-| Intermediate | 70% | 60% | 50% |
-| Advanced     | 85% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: 2-4 minutes depending on opponent's escape urgency and your submission timing
 

@@ -9,11 +9,6 @@
     "open-guard",
     "guard-attacks"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Spider Guard sweeps represent a fundamental attacking system from one of BJJ's most versatile open guard positions. By controlling the opponent's sleeves with your feet on their biceps, you create a pushing force that breaks their posture and base while maintaining distance control. The spider guard sweep system exploits the mechanical disadvantage created when an opponent attempts to pass while you extend their arms, making it difficult for them to maintain balance or generate forward pressure. These sweeps work synergistically with submission threats like triangles and omoplatas, creating dilemmas where defending one attack opens the opponent to another. The system scales from fundamental techniques suitable for beginners to advanced competition-level variations used at the highest levels of the sport. Understanding the biomechanics of sleeve control, foot positioning, and timing allows practitioners to chain multiple sweep attempts together, adapting to opponent reactions and creating unstoppable offensive sequences.",
   "key_principles": [
     "Maintain constant tension on opponent's sleeves with feet on biceps",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Establish spider guard control",
-      "description": "Secure deep sleeve grips with both hands, placing your feet on opponent's biceps with toes pointed outward. Create pushing pressure through your legs while pulling with your grips to extend opponent's arms and break their posture forward.",
-      "timing": "Before opponent establishes strong base"
+      "description": "Secure deep sleeve grips with both hands, placing your feet on opponent's biceps with toes pointed outward. Create pushing pressure through your legs while pulling with your grips to extend opponent's arms and break their posture forward."
     },
     {
       "step_number": 2,
       "action": "Identify opponent's weight distribution",
-      "description": "Read opponent's base by feeling which direction they're leaning or moving. Pay attention to which hand they post with or which leg carries more weight, as this determines which sweep variation to execute.",
-      "timing": "Continuous assessment during guard retention"
+      "description": "Read opponent's base by feeling which direction they're leaning or moving. Pay attention to which hand they post with or which leg carries more weight, as this determines which sweep variation to execute."
     },
     {
       "step_number": 3,
       "action": "Create sweeping angle",
-      "description": "Rotate your hips and shoulders to create an angle perpendicular to your opponent's base. Remove one foot from bicep control and reposition it on the hip or pants grip while maintaining the other spider hook for control.",
-      "timing": "As opponent begins passing attempt or weight shift"
+      "description": "Rotate your hips and shoulders to create an angle perpendicular to your opponent's base. Remove one foot from bicep control and reposition it on the hip or pants grip while maintaining the other spider hook for control."
     },
     {
       "step_number": 4,
       "action": "Off-balance opponent",
-      "description": "Use your remaining spider hook to push opponent's arm across their centerline while pulling with your sleeve grip. Simultaneously use your free leg to hook behind their knee or push their hip, creating a two-directional force that breaks their base.",
-      "timing": "Explosive movement synchronized with grip pull"
+      "description": "Use your remaining spider hook to push opponent's arm across their centerline while pulling with your sleeve grip. Simultaneously use your free leg to hook behind their knee or push their hip, creating a two-directional force that breaks their base."
     },
     {
       "step_number": 5,
       "action": "Elevate and sweep",
-      "description": "Drive your hooking leg upward while pulling opponent's sleeve toward you and across. Use your core to generate lifting force through your hips, elevating opponent over your body. Maintain sleeve control throughout the sweep to prevent them posting.",
-      "timing": "Continuous motion from off-balancing"
+      "description": "Drive your hooking leg upward while pulling opponent's sleeve toward you and across. Use your core to generate lifting force through your hips, elevating opponent over your body. Maintain sleeve control throughout the sweep to prevent them posting."
     },
     {
       "step_number": 6,
       "action": "Complete sweep to top position",
-      "description": "As opponent topples over, follow their momentum and come up on top while maintaining sleeve control. Establish mount, side control, or knee on belly depending on how opponent falls. Keep your base wide and hips low to prevent opponent reversing the sweep.",
-      "timing": "Immediate follow-through as opponent's back contacts mat"
+      "description": "As opponent topples over, follow their momentum and come up on top while maintaining sleeve control. Establish mount, side control, or knee on belly depending on how opponent falls. Keep your base wide and hips low to prevent opponent reversing the sweep."
     },
     {
       "step_number": 7,
       "action": "Secure dominant position",
-      "description": "Transition sleeve grips to appropriate control for your landing position (crossface for side control, gable grip for mount, etc.). Establish your hooks, weight distribution, and pressure before opponent can recover their guard or escape.",
-      "timing": "Within 2-3 seconds of completing sweep"
+      "description": "Transition sleeve grips to appropriate control for your landing position (crossface for side control, gable grip for mount, etc.). Establish your hooks, weight distribution, and pressure before opponent can recover their guard or escape."
     }
   ],
   "common_counters": [
@@ -144,38 +132,32 @@
     {
       "phase": "Phase 1: Fundamental Control (Weeks 1-2)",
       "focus": "Establish and maintain spider guard position",
-      "description": "Practice establishing spider guard from various starting positions (closed guard, seated guard, standing). Focus on grip fighting to secure sleeve control and proper foot placement on biceps. Partner provides light resistance, attempting to break grips and posture. Drill maintaining spider guard for 30-second rounds, resetting when control is lost. Emphasis on creating consistent pushing pressure through legs while maintaining sleeve grips.",
-      "resistance_level": "Light"
+      "description": "Practice establishing spider guard from various starting positions (closed guard, seated guard, standing). Focus on grip fighting to secure sleeve control and proper foot placement on biceps. Partner provides light resistance, attempting to break grips and posture. Drill maintaining spider guard for 30-second rounds, resetting when control is lost. Emphasis on creating consistent pushing pressure through legs while maintaining sleeve grips."
     },
     {
       "phase": "Phase 2: Basic Sweep Mechanics (Weeks 3-4)",
       "focus": "Learn fundamental elevator and triangle sweep mechanics",
-      "description": "Drill basic elevator sweep and triangle setup sweep with compliant partner. Break down each step individually, focusing on hip rotation, angle creation, and timing of pulling/pushing forces. Practice 10 repetitions each side per round. Partner begins to provide moderate resistance by posting and maintaining base. Emphasis on proper biomechanics and smooth execution rather than speed or power.",
-      "resistance_level": "Light"
+      "description": "Drill basic elevator sweep and triangle setup sweep with compliant partner. Break down each step individually, focusing on hip rotation, angle creation, and timing of pulling/pushing forces. Practice 10 repetitions each side per round. Partner begins to provide moderate resistance by posting and maintaining base. Emphasis on proper biomechanics and smooth execution rather than speed or power."
     },
     {
       "phase": "Phase 3: Sweep Variations (Weeks 5-8)",
       "focus": "Develop full sweep arsenal and chaining combinations",
-      "description": "Add omoplata sweep, scissor sweep from spider, and lasso variations to your arsenal. Practice transitioning between sweep attempts based on opponent's reactions. Partner provides realistic resistance, forcing you to read weight distribution and adapt. Drill 5-minute rounds of spider guard with goal of achieving 3 successful sweeps per round. Begin integrating submission threats to create dilemmas.",
-      "resistance_level": "Medium"
+      "description": "Add omoplata sweep, scissor sweep from spider, and lasso variations to your arsenal. Practice transitioning between sweep attempts based on opponent's reactions. Partner provides realistic resistance, forcing you to read weight distribution and adapt. Drill 5-minute rounds of spider guard with goal of achieving 3 successful sweeps per round. Begin integrating submission threats to create dilemmas."
     },
     {
       "phase": "Phase 4: Timing and Entries (Weeks 9-12)",
       "focus": "Develop timing against dynamic opponents and guard entries",
-      "description": "Practice entering spider guard from standing position and other open guards. Focus on timing sweeps to coincide with opponent's weight shifts, passing attempts, and reactions to submission threats. Positional sparring from spider guard with medium resistance, competing for sweeps versus passes. Emphasis on reading opponent's movement patterns and executing sweeps at optimal moments when their base is compromised.",
-      "resistance_level": "Medium"
+      "description": "Practice entering spider guard from standing position and other open guards. Focus on timing sweeps to coincide with opponent's weight shifts, passing attempts, and reactions to submission threats. Positional sparring from spider guard with medium resistance, competing for sweeps versus passes. Emphasis on reading opponent's movement patterns and executing sweeps at optimal moments when their base is compromised."
     },
     {
       "phase": "Phase 5: Competition Application (Week 13+)",
       "focus": "Full resistance integration and strategic application",
-      "description": "Live rolling with emphasis on achieving and maintaining spider guard against resisting opponents. Chain sweeps with submissions (triangles, omoplatas, armbars) to create unsolvable dilemmas. Study competition footage of high-level spider guard players (Cobrinha, Leandro Lo, Miyao brothers) and identify patterns. Practice against specific passing styles (knee slice, leg drag, toreando) to develop counter-sweeps. Begin developing personal spider guard system based on body type and athletic attributes.",
-      "resistance_level": "Full"
+      "description": "Live rolling with emphasis on achieving and maintaining spider guard against resisting opponents. Chain sweeps with submissions (triangles, omoplatas, armbars) to create unsolvable dilemmas. Study competition footage of high-level spider guard players (Cobrinha, Leandro Lo, Miyao brothers) and identify patterns. Practice against specific passing styles (knee slice, leg drag, toreando) to develop counter-sweeps. Begin developing personal spider guard system based on body type and athletic attributes."
     },
     {
       "phase": "Ongoing Mastery",
       "focus": "Refinement and innovation",
-      "description": "Continuously analyze successful and failed sweep attempts to identify patterns. Work on grip fighting efficiency to secure spider guard control against increasingly resistant opponents. Develop specialty variations that complement your game (gi vs no-gi adaptations, responses to specific body types). Integrate spider guard sweeps into your overall guard system, understanding when spider guard is optimal versus other open guard options. Teach techniques to newer students to deepen your understanding.",
-      "resistance_level": "Full"
+      "description": "Continuously analyze successful and failed sweep attempts to identify patterns. Work on grip fighting efficiency to secure spider guard control against increasingly resistant opponents. Develop specialty variations that complement your game (gi vs no-gi adaptations, responses to specific body types). Integrate spider guard sweeps into your overall guard system, understanding when spider guard is optimal versus other open guard options. Teach techniques to newer students to deepen your understanding."
     }
   ],
   "variants_and_adaptations": [
@@ -213,38 +195,31 @@
   "knowledge_assessment": [
     {
       "question": "What are the key mechanical principles that make spider guard sweeps effective?",
-      "answer": "Spider guard sweeps work by creating a pushing force through the legs on the opponent's biceps while simultaneously pulling their sleeves, extending their arms and breaking their posture and base. This two-directional force makes it difficult for opponents to post or maintain balance. The feet on biceps create distance control while the sleeve grips prevent defensive hand posting. By creating angles perpendicular to the opponent's base and timing sweeps with their weight shifts, you exploit their mechanical disadvantages. The combination of pushing, pulling, and angling creates leverage that allows smaller practitioners to sweep larger opponents efficiently.",
-      "difficulty": "Intermediate"
+      "answer": "Spider guard sweeps work by creating a pushing force through the legs on the opponent's biceps while simultaneously pulling their sleeves, extending their arms and breaking their posture and base. This two-directional force makes it difficult for opponents to post or maintain balance. The feet on biceps create distance control while the sleeve grips prevent defensive hand posting. By creating angles perpendicular to the opponent's base and timing sweeps with their weight shifts, you exploit their mechanical disadvantages. The combination of pushing, pulling, and angling creates leverage that allows smaller practitioners to sweep larger opponents efficiently."
     },
     {
       "question": "How do you determine which spider guard sweep variation to use against a specific opponent?",
-      "answer": "The sweep selection depends on reading the opponent's weight distribution, posture, and movement patterns. If they're leaning forward with pressure, use elevator sweep or triangle sweep that redirects their momentum upward and over. If they're standing tall and pulling back, use omoplata sweep or lasso transitions. Against opponents attempting to pass on one side, use sweeps that attack the direction they're moving. Also consider their defensive tendencies: if they defend submissions aggressively, use submission threats to create sweep openings. Body type matters too: taller opponents may be more vulnerable to off-balancing sweeps, while stockier opponents may require more technical angle-based sweeps.",
-      "difficulty": "Advanced"
+      "answer": "The sweep selection depends on reading the opponent's weight distribution, posture, and movement patterns. If they're leaning forward with pressure, use elevator sweep or triangle sweep that redirects their momentum upward and over. If they're standing tall and pulling back, use omoplata sweep or lasso transitions. Against opponents attempting to pass on one side, use sweeps that attack the direction they're moving. Also consider their defensive tendencies: if they defend submissions aggressively, use submission threats to create sweep openings. Body type matters too: taller opponents may be more vulnerable to off-balancing sweeps, while stockier opponents may require more technical angle-based sweeps."
     },
     {
       "question": "What is the relationship between submission threats and sweep success from spider guard?",
-      "answer": "Submission threats and sweeps create a synergistic dilemma system from spider guard. When you threaten triangles, omoplatas, or armbars, opponents must shift their weight and base to defend, which opens sweep opportunities. For example, defending a triangle requires the opponent to posture up and pull back, creating the perfect opportunity for an elevator sweep or backward sweep. Conversely, when opponents focus entirely on maintaining their base to prevent sweeps, they leave their arms extended and vulnerable to submissions. This dilemma makes spider guard offensively powerful: you're never attacking just sweeps or just submissions, but rather creating unsolvable problems where defending one attack opens the other.",
-      "difficulty": "Advanced"
+      "answer": "Submission threats and sweeps create a synergistic dilemma system from spider guard. When you threaten triangles, omoplatas, or armbars, opponents must shift their weight and base to defend, which opens sweep opportunities. For example, defending a triangle requires the opponent to posture up and pull back, creating the perfect opportunity for an elevator sweep or backward sweep. Conversely, when opponents focus entirely on maintaining their base to prevent sweeps, they leave their arms extended and vulnerable to submissions. This dilemma makes spider guard offensively powerful: you're never attacking just sweeps or just submissions, but rather creating unsolvable problems where defending one attack opens the other."
     },
     {
       "question": "Why is maintaining sleeve control crucial throughout spider guard sweep execution?",
-      "answer": "Sleeve control serves multiple critical functions during spider guard sweeps. First, it prevents the opponent from posting their hands on the mat to block the sweep, which is their primary defensive mechanism. Second, it allows you to direct and control their upper body movement during the sweep, ensuring they fall in the desired direction. Third, it maintains your offensive control even as you transition from bottom to top, allowing you to establish dominant position immediately after sweeping. If you release grips too early, the opponent can post, scramble, or even counter-sweep you despite being off-balanced. Sleeve control is the difference between off-balancing an opponent and actually completing the sweep to achieve top position.",
-      "difficulty": "Beginner"
+      "answer": "Sleeve control serves multiple critical functions during spider guard sweeps. First, it prevents the opponent from posting their hands on the mat to block the sweep, which is their primary defensive mechanism. Second, it allows you to direct and control their upper body movement during the sweep, ensuring they fall in the desired direction. Third, it maintains your offensive control even as you transition from bottom to top, allowing you to establish dominant position immediately after sweeping. If you release grips too early, the opponent can post, scramble, or even counter-sweep you despite being off-balanced. Sleeve control is the difference between off-balancing an opponent and actually completing the sweep to achieve top position."
     },
     {
       "question": "How do you prevent opponents from standing and breaking your spider guard?",
-      "answer": "Preventing opponents from standing requires active guard retention and threatening attacks. First, maintain constant tension on their sleeves so they can't easily pull their arms back to create the posture needed to stand. Second, threaten immediate submissions (triangle, omoplata) when they attempt to stand, forcing them to defend rather than continue their standing attempt. Third, if they do begin standing, quickly transition to alternative guards like lasso, De La Riva, or single leg X that work well against standing opponents. Fourth, scoot forward on your shoulders to follow them as they back up, not allowing them to create the distance needed to fully disengage. The key is being proactive rather than reactive: don't wait until they're fully standing to respond.",
-      "difficulty": "Intermediate"
+      "answer": "Preventing opponents from standing requires active guard retention and threatening attacks. First, maintain constant tension on their sleeves so they can't easily pull their arms back to create the posture needed to stand. Second, threaten immediate submissions (triangle, omoplata) when they attempt to stand, forcing them to defend rather than continue their standing attempt. Third, if they do begin standing, quickly transition to alternative guards like lasso, De La Riva, or single leg X that work well against standing opponents. Fourth, scoot forward on your shoulders to follow them as they back up, not allowing them to create the distance needed to fully disengage. The key is being proactive rather than reactive: don't wait until they're fully standing to respond."
     },
     {
       "question": "What common mistake causes spider guard sweeps to fail even when technique appears correct?",
-      "answer": "The most common mistake is sweeping without first creating the proper angle to the opponent's base. Many practitioners attempt sweeps while directly in front of their opponent, where their base is strongest. Effective sweeps require rotating your hips and shoulders 45-90 degrees to create a perpendicular angle, forming an 'L' or 'T' shape relative to the opponent. This angle allows you to sweep them in the direction where their base is weakest. Another critical mistake is using only arm strength to execute sweeps rather than engaging the core and legs. Sweeps should be driven by hip movement and leg extension, with grips directing the opponent's movement rather than generating all the power. These technical errors make sweeps ineffective regardless of how well other aspects are performed.",
-      "difficulty": "Beginner"
+      "answer": "The most common mistake is sweeping without first creating the proper angle to the opponent's base. Many practitioners attempt sweeps while directly in front of their opponent, where their base is strongest. Effective sweeps require rotating your hips and shoulders 45-90 degrees to create a perpendicular angle, forming an 'L' or 'T' shape relative to the opponent. This angle allows you to sweep them in the direction where their base is weakest. Another critical mistake is using only arm strength to execute sweeps rather than engaging the core and legs. Sweeps should be driven by hip movement and leg extension, with grips directing the opponent's movement rather than generating all the power. These technical errors make sweeps ineffective regardless of how well other aspects are performed."
     },
     {
       "question": "How do you chain multiple spider guard sweep attempts together effectively?",
-      "answer": "Chaining sweeps effectively requires reading opponent reactions and having prepared combinations. Start with an initial sweep attempt (like elevator sweep), and when the opponent defends by posting or shifting their weight, immediately transition to a complementary sweep that attacks their new position. For example, if they defend elevator sweep by posting their far leg back, switch to triangle sweep that exploits their extended arm. If they defend triangle by pulling back, use that momentum for an omoplata sweep or backward sweep. The key is not forcing any single sweep, but rather flowing between attempts based on their defensive reactions. Maintain your grips and hooks throughout transitions to preserve offensive control. Advanced practitioners pre-plan 2-3 sweep chains and drill them until they become automatic responses to specific defensive patterns.",
-      "difficulty": "Advanced"
+      "answer": "Chaining sweeps effectively requires reading opponent reactions and having prepared combinations. Start with an initial sweep attempt (like elevator sweep), and when the opponent defends by posting or shifting their weight, immediately transition to a complementary sweep that attacks their new position. For example, if they defend elevator sweep by posting their far leg back, switch to triangle sweep that exploits their extended arm. If they defend triangle by pulling back, use that momentum for an omoplata sweep or backward sweep. The key is not forcing any single sweep, but rather flowing between attempts based on their defensive reactions. Maintain your grips and hooks throughout transitions to preserve offensive control. Advanced practitioners pre-plan 2-3 sweep chains and drill them until they become automatic responses to specific defensive patterns."
     }
   ],
   "safety_considerations": "Spider guard sweeps are generally low-risk techniques, but several safety considerations apply. When executing sweeps, maintain control throughout to prevent opponent falling awkwardly or landing on their head or neck. Be especially careful with omoplata sweeps, as the shoulder lock component can cause injury if applied too forcefully or if opponent resists improperly. When drilling, partners should fall safely by tucking their chin and rolling on their shoulders rather than trying to post forcefully. Beginners should wear gis to protect against mat burns from being swept. For the practitioner playing spider guard, be aware that aggressive grip fighting can cause finger injuries; tap if grips are being stripped painfully. When inverting or creating angles, maintain awareness of training space boundaries to avoid colliding with other pairs. As the top person being swept, learn to fall safely rather than fighting the sweep once it's committed, which can cause awkward landings and injuries.",
@@ -328,5 +303,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

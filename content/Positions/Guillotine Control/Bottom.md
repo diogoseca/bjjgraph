@@ -387,11 +387,11 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 25% | 20% |
-| Intermediate | 55% | 45% | 40% |
-| Advanced     | 70% | 65% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 55% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 20-45 seconds before resolution (finish or position change)
 

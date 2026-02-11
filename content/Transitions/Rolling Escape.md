@@ -157,7 +157,7 @@ The technique requires precise timing and coordination between upper body grip f
 This escape is particularly valuable because it works even when the choke is partially locked. Unlike static escapes that require catching the attack early, the rolling escape can be initiated at later stages of the submission sequence. However, timing remains critical—wait too long and the choke will be too tight to survive the roll. The technique integrates seamlessly with other front headlock defense principles and serves as a gateway to guard recovery or scramble positions.
 
 **From Position**: [[Anaconda Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This escape is particularly valuable because it works even when the choke is par
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: Use your free hand to grip the opponent's choking wrist or forearm firmly. Pull outward to create a small pocket of space between their forearm and your neck. This grip must be maintained throughout the entire rolling sequence. (Timing: Immediately upon recognizing the anaconda grip)
-2. **Tuck chin and protect neck**: Drive your chin down toward your free shoulder, creating the smallest possible choking surface. Simultaneously turn your head slightly away from the trapped arm side to position bony structures rather than soft tissue against the choking arm. (Timing: Concurrent with wrist control)
-3. **Load hips for roll**: Shift your hips toward the direction you will roll (same direction as opponent's choking pressure). Bring your knees underneath you slightly to generate rolling momentum. Your body should form a slight diagonal angle preparing for the forward roll. (Timing: 1-2 seconds after establishing wrist control)
-4. **Initiate forward roll**: Drive explosively off your posting foot and roll forward over your shoulder on the trapped arm side. Lead with your hips and let momentum carry you through the rotation. Keep your wrist grip tight and continue pulling to maintain neck space throughout. (Timing: When opponent commits weight forward or attempts to step over)
-5. **Complete rotation and extract**: As you roll through, use the momentum to pull your head and trapped arm free from the now-loosened grip. The rolling motion disrupts the perpendicular angle required for the anaconda, creating the space needed for extraction. Continue rolling until your back clears their control. (Timing: Continuous through the roll)
-6. **Establish guard position**: Immediately after extracting from the choke, hip escape away from opponent and establish open guard with feet on their hips or knees. Frame with your arms to prevent them from immediately re-establishing the front headlock position. Create distance before they can recover. (Timing: Immediately upon completing extraction)
+1. **Secure wrist control**: Use your free hand to grip the opponent's choking wrist or forearm firmly. Pull outward to create a small pocket of space between their forearm and your neck. This grip must be maintained throughout the entire rolling sequence.
+2. **Tuck chin and protect neck**: Drive your chin down toward your free shoulder, creating the smallest possible choking surface. Simultaneously turn your head slightly away from the trapped arm side to position bony structures rather than soft tissue against the choking arm.
+3. **Load hips for roll**: Shift your hips toward the direction you will roll (same direction as opponent's choking pressure). Bring your knees underneath you slightly to generate rolling momentum. Your body should form a slight diagonal angle preparing for the forward roll.
+4. **Initiate forward roll**: Drive explosively off your posting foot and roll forward over your shoulder on the trapped arm side. Lead with your hips and let momentum carry you through the rotation. Keep your wrist grip tight and continue pulling to maintain neck space throughout.
+5. **Complete rotation and extract**: As you roll through, use the momentum to pull your head and trapped arm free from the now-loosened grip. The rolling motion disrupts the perpendicular angle required for the anaconda, creating the space needed for extraction. Continue rolling until your back clears their control.
+6. **Establish guard position**: Immediately after extracting from the choke, hip escape away from opponent and establish open guard with feet on their hips or knees. Frame with your arms to prevent them from immediately re-establishing the front headlock position. Create distance before they can recover.
 
 
 </section>
@@ -256,19 +256,15 @@ This escape is particularly valuable because it works even when the choke is par
 ## Training Progressions
 **Week 1-2** - Rolling mechanics isolation
 Practice the forward roll motion solo without partner. Focus on leading with hips, keeping chin tucked, and completing smooth rotations. Add imaginary wrist grip maintenance to build the neural pathway. Drill 20-30 rolls per session on each side.
-(Resistance: None)
 
 **Week 3-4** - Partner integration with compliant training
 Partner establishes loose anaconda grip. Practice the full escape sequence with partner allowing the roll to succeed. Focus on timing the roll initiation, maintaining wrist control, and finishing in guard position. 10-15 repetitions per side.
-(Resistance: Light)
 
 **Week 5-6** - Timing against progressive resistance
 Partner applies 50-70% resistance on anaconda grip. Work on finding the optimal moment to initiate roll—when partner commits weight forward. Practice chaining to other escapes if roll is blocked. Include scramble recovery work.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Full resistance positional sparring starting from anaconda control. Partner actively tries to finish while you work escape. Identify personal timing cues and develop sensitivity for when roll is available versus when alternative escapes are needed.
-(Resistance: Full)
 
 
 
@@ -347,7 +343,7 @@ The Rolling Escape fits within the broader front headlock defense system as a dy
 - [[Hip Escape]] - Alternative escape when rolling is blocked
 - [[Granby Roll Escape]] - Related rolling escape technique with different application
 - [[Guard Recovery]] - Follow-up system after successful escape
-- [[D'arce Control]] - Similar control position requiring comparable escape principles
+- [[Darce Control]] - Similar control position requiring comparable escape principles
 
 
 </section>

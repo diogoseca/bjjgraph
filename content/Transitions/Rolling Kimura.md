@@ -163,7 +163,7 @@ Historically developed through innovation in no-gi grappling, the Rolling Kimura
 The Rolling Kimura works particularly well in both gi and no-gi contexts, though the mechanics differ slightly. In gi, you have additional grip options using the opponent's clothing, while in no-gi, you rely more heavily on wrist and arm control. Understanding both variations allows practitioners to adapt the technique across different competitive formats and training environments.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -212,13 +212,13 @@ The Rolling Kimura works particularly well in both gi and no-gi contexts, though
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure kimura grip**: From top turtle position, reach over the opponent's back and secure a kimura grip on their far arm. Your same-side hand grips their wrist while your opposite hand threads under their arm and grabs your own wrist, creating the figure-four kimura configuration. Ensure the grip is tight and positioned at or above their elbow for maximum control. (Timing: Establish grip when opponent is stationary and defensive)
-2. **Break down posture**: Pull the trapped arm away from the opponent's body at approximately a 90-degree angle while driving your chest weight into their back. This breaks their base and prevents them from posting effectively with their free hand. Your head should be positioned near their far hip, creating downward pressure. (Timing: Immediately after securing kimura grip)
-3. **Position for the roll**: Adjust your body position so you're perpendicular to the opponent, with your hips near their trapped arm's shoulder. Your inside leg (closest to opponent) should be ready to post, while your outside leg prepares to initiate the rolling motion. Maintain constant tension on the kimura grip. (Timing: Setup phase before initiating roll)
-4. **Initiate the roll**: In one fluid motion, throw your outside leg over your own head while simultaneously pulling the kimura grip toward your chest. Roll diagonally over your shoulder, keeping your hips close to the opponent's body throughout the rotation. Your momentum should pull the opponent's upper body with you. (Timing: Explosive movement once positioned correctly)
-5. **Control during rotation**: As you roll, keep the kimura grip tight and pull the opponent's trapped arm across their body. Your body should rotate completely while maintaining connection to the opponent. Drive your near-side elbow to the mat to guide the roll and maintain balance. The opponent should be forced to follow your rotation due to the shoulder lock pressure. (Timing: Throughout the rolling phase)
-6. **Complete the transition**: As the roll completes, use your momentum to establish dominant position. Depending on the opponent's reaction, you can secure back control by establishing hooks and seat belt control, transition to crucifix by trapping the far arm, or finish the kimura submission by maintaining the grip and applying rotational pressure to the shoulder joint. (Timing: As you finish the roll and land on top)
-7. **Secure finishing position**: Immediately consolidate your position by establishing back control (both hooks in with seat belt grip), crucifix control (trapping both arms), or completing the kimura submission (hips to shoulder, rotating arm behind back). Maintain constant pressure to prevent opponent from escaping during this critical transition moment. (Timing: Immediately after completing the roll)
+1. **Secure kimura grip**: From top turtle position, reach over the opponent's back and secure a kimura grip on their far arm. Your same-side hand grips their wrist while your opposite hand threads under their arm and grabs your own wrist, creating the figure-four kimura configuration. Ensure the grip is tight and positioned at or above their elbow for maximum control.
+2. **Break down posture**: Pull the trapped arm away from the opponent's body at approximately a 90-degree angle while driving your chest weight into their back. This breaks their base and prevents them from posting effectively with their free hand. Your head should be positioned near their far hip, creating downward pressure.
+3. **Position for the roll**: Adjust your body position so you're perpendicular to the opponent, with your hips near their trapped arm's shoulder. Your inside leg (closest to opponent) should be ready to post, while your outside leg prepares to initiate the rolling motion. Maintain constant tension on the kimura grip.
+4. **Initiate the roll**: In one fluid motion, throw your outside leg over your own head while simultaneously pulling the kimura grip toward your chest. Roll diagonally over your shoulder, keeping your hips close to the opponent's body throughout the rotation. Your momentum should pull the opponent's upper body with you.
+5. **Control during rotation**: As you roll, keep the kimura grip tight and pull the opponent's trapped arm across their body. Your body should rotate completely while maintaining connection to the opponent. Drive your near-side elbow to the mat to guide the roll and maintain balance. The opponent should be forced to follow your rotation due to the shoulder lock pressure.
+6. **Complete the transition**: As the roll completes, use your momentum to establish dominant position. Depending on the opponent's reaction, you can secure back control by establishing hooks and seat belt control, transition to crucifix by trapping the far arm, or finish the kimura submission by maintaining the grip and applying rotational pressure to the shoulder joint.
+7. **Secure finishing position**: Immediately consolidate your position by establishing back control (both hooks in with seat belt grip), crucifix control (trapping both arms), or completing the kimura submission (hips to shoulder, rotating arm behind back). Maintain constant pressure to prevent opponent from escaping during this critical transition moment.
 
 
 </section>
@@ -265,27 +265,21 @@ The Rolling Kimura works particularly well in both gi and no-gi contexts, though
 ## Training Progressions
 **Week 1-2: Grip and Position Fundamentals** - Establishing proper kimura grip and body positioning from turtle
 Practice securing the kimura grip from top turtle position with a completely stationary partner. Focus on correct hand placement, figure-four configuration, and maintaining grip tension. Drill the proper angle and body position before initiating the roll. Partner provides zero resistance.
-(Resistance: None)
 
 **Week 3-4: Rolling Mechanics** - Developing smooth rolling motion while maintaining grip
 Execute the complete rolling motion with partner remaining passive. Focus on keeping hips connected throughout the roll, maintaining kimura grip tension, and landing in a strong finishing position. Practice rolling in both directions. Repeat 20-30 repetitions per session to build muscle memory.
-(Resistance: None)
 
 **Week 5-6: Defensive Recognition** - Identifying and countering common defensive reactions
 Partner begins using light defensive grips (grabbing belt, framing with free arm) but doesn't actively escape. Practice breaking grips and adjusting your roll based on their positioning. Develop the ability to feel when the opponent is vulnerable to the roll.
-(Resistance: Light)
 
 **Week 7-9: Dynamic Application** - Executing the technique against moderate resistance
 Partner uses defensive framing, grip fighting, and attempts to stand or turn into you. Practice timing the roll for when they are most vulnerable. Work on transitioning between rolling kimura, crucifix, and back take based on their reactions. Begin recognizing which finish is available.
-(Resistance: Medium)
 
 **Week 10-12: Competition Integration** - Applying technique in live positional sparring
 Start from top turtle position in 3-5 minute rounds of positional sparring. Partner uses full defensive skills to prevent the technique. Work on setups, feints, and combinations that create opportunities for the rolling kimura. Chain with other turtle attacks like darce, anaconda, and basic back takes.
-(Resistance: Full)
 
 **Ongoing: Systematic Development** - Building a complete turtle attack system incorporating rolling kimura
 Integrate rolling kimura into your overall game as part of a systematic turtle attack sequence. Develop the ability to read opponent's defensive patterns and select the highest percentage option. Study high-level competition footage and analyze successful applications in various contexts.
-(Resistance: Full)
 
 
 

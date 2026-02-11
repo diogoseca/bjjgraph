@@ -159,7 +159,7 @@ From a systematic perspective, the Kneebar from Grasshopper functions as both a 
 The inverted nature of this entry makes it particularly effective in no-gi competition where the absence of gi grips means the top player cannot easily control your inverting motion. The technique gained prominence through modern leg lock systems that emphasize attacking from bottom positions against standing opponents, reversing traditional assumptions about who holds positional advantage.
 
 **From Position**: [[Grasshopper Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,12 +208,12 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify target leg**: From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically. (Timing: Before committing to entry)
-2. **Thread outside leg**: Shoot your outside leg (the leg furthest from their target leg) behind their knee, hooking the back of their leg with your calf or ankle. This threading motion initiates your entry and prevents them from simply stepping away from your attack. (Timing: Immediately when you recognize their weight commitment)
-3. **Hip rotation entry**: Explosively rotate your hips so that your hip crease positions directly behind their knee joint. Your body should turn perpendicular to their leg, with your belly facing toward their hip. This rotation is the critical moment - it must be fast and committed. (Timing: 0.5-1 second window)
-4. **Secure heel control**: As your hips rotate into position, your hands grip their heel and ankle, pulling their foot tight to your chest. Use a figure-four grip or clasped hands around the heel. Without heel control, they will extract their leg before you can finish. (Timing: Simultaneous with hip rotation)
-5. **Pinch knees together**: Squeeze your knees together around their thigh to prevent leg extraction and to keep their knee joint aligned with your hip crease. The thigh should be trapped between your legs with their knee positioned at your hip bone level. (Timing: Immediately after heel control established)
-6. **Bridge hips for extension**: With heel secured and knees pinched, bridge your hips upward while pulling their foot toward your chest. The extension pressure comes from your hip driving against the back of their knee. Apply pressure gradually, allowing time for tap. (Timing: Controlled application with pause for tap)
+1. **Identify target leg**: From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically.
+2. **Thread outside leg**: Shoot your outside leg (the leg furthest from their target leg) behind their knee, hooking the back of their leg with your calf or ankle. This threading motion initiates your entry and prevents them from simply stepping away from your attack.
+3. **Hip rotation entry**: Explosively rotate your hips so that your hip crease positions directly behind their knee joint. Your body should turn perpendicular to their leg, with your belly facing toward their hip. This rotation is the critical moment - it must be fast and committed.
+4. **Secure heel control**: As your hips rotate into position, your hands grip their heel and ankle, pulling their foot tight to your chest. Use a figure-four grip or clasped hands around the heel. Without heel control, they will extract their leg before you can finish.
+5. **Pinch knees together**: Squeeze your knees together around their thigh to prevent leg extraction and to keep their knee joint aligned with your hip crease. The thigh should be trapped between your legs with their knee positioned at your hip bone level.
+6. **Bridge hips for extension**: With heel secured and knees pinched, bridge your hips upward while pulling their foot toward your chest. The extension pressure comes from your hip driving against the back of their knee. Apply pressure gradually, allowing time for tap.
 
 
 </section>
@@ -259,19 +259,15 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 ## Training Progressions
 **Week 1-2** - Entry mechanics
 Practice the hip rotation and leg threading motion with a cooperative partner standing stationary. Focus on achieving correct body positioning with hip crease behind knee. No resistance, no finishing - purely positional drilling.
-(Resistance: None)
 
 **Week 3-4** - Grip security and timing
 Add heel control sequence to entry drill. Partner provides light resistance by attempting to pull foot free. Work on timing entries to partner's weight shifts. Introduction of correct extension mechanics with controlled pressure.
-(Resistance: Light)
 
 **Week 5-6** - Counter chains and combinations
 Partner actively defends with step-back, leg straightening, and sprawling counters. Practice converting failed entries to X-Guard, Single Leg X, and inside ashi garami. Build chain attack mentality.
-(Resistance: Medium)
 
 **Week 7+** - Live application and integration
 Incorporate into live rolling from grasshopper guard. Work on recognizing entry windows against resisting opponents. Focus on timing, speed, and integrating technique into your overall leg attack system.
-(Resistance: Full)
 
 
 

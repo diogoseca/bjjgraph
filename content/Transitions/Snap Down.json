@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 45,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Snap Down is a fundamental wrestling-based technique that has become essential in modern Brazilian Jiu-Jitsu, particularly in no-gi competition. This technique exploits an opponent's upright posture by rapidly pulling their head and upper body downward, forcing them into a compromised position. The Snap Down creates immediate offensive opportunities, allowing you to transition into dominant positions like front headlock control, back takes, or submission attacks. The effectiveness of the snap down lies in its simplicity and timing - when executed properly, it combines grip control, body positioning, and explosive downward force to break your opponent's base and posture. This technique is particularly valuable because it works across all skill levels and can be chained with numerous follow-up attacks, making it a cornerstone of standing grappling exchanges in BJJ.",
   "key_principles": [
     "Control opponent's head and upper body before initiating snap",
@@ -56,38 +51,32 @@
     {
       "step_number": 1,
       "action": "Establish collar tie control",
-      "description": "Secure a strong collar tie with your lead hand on the back of opponent's neck, fingers interlaced behind their skull. Your grip should be firm but not overly tight, positioned where neck meets skull for maximum control. Simultaneously control their opposite wrist or tricep with your other hand.",
-      "timing": "Initial engagement phase"
+      "description": "Secure a strong collar tie with your lead hand on the back of opponent's neck, fingers interlaced behind their skull. Your grip should be firm but not overly tight, positioned where neck meets skull for maximum control. Simultaneously control their opposite wrist or tricep with your other hand."
     },
     {
       "step_number": 2,
       "action": "Create angle and load hips",
-      "description": "Step slightly off-center to opponent's lead side while lowering your center of gravity. Bend your knees deeply and load your hips backward, creating stored energy like a compressed spring. Your posture should be athletic with chest up and back straight.",
-      "timing": "Setup phase"
+      "description": "Step slightly off-center to opponent's lead side while lowering your center of gravity. Bend your knees deeply and load your hips backward, creating stored energy like a compressed spring. Your posture should be athletic with chest up and back straight."
     },
     {
       "step_number": 3,
       "action": "Generate upward pull",
-      "description": "Pull opponent's head upward slightly with your collar tie, causing them to extend their neck and rise onto their toes momentarily. This creates the illusion you're attempting to control them in the clinch, causing them to resist by pulling back or driving forward.",
-      "timing": "Feint to create reaction"
+      "description": "Pull opponent's head upward slightly with your collar tie, causing them to extend their neck and rise onto their toes momentarily. This creates the illusion you're attempting to control them in the clinch, causing them to resist by pulling back or driving forward."
     },
     {
       "step_number": 4,
       "action": "Execute explosive snap",
-      "description": "Violently extend your hips forward while simultaneously pulling their head downward with maximum force. Your collar tie hand drives their forehead toward the mat while your grip on their arm prevents them from posting. The power comes from hip extension combined with arm pull, not just arm strength alone.",
-      "timing": "Explosive execution - 0.5 seconds"
+      "description": "Violently extend your hips forward while simultaneously pulling their head downward with maximum force. Your collar tie hand drives their forehead toward the mat while your grip on their arm prevents them from posting. The power comes from hip extension combined with arm pull, not just arm strength alone."
     },
     {
       "step_number": 5,
       "action": "Circle to front headlock",
-      "description": "As opponent's head descends, immediately circle your body to their side while maintaining head control. Your collar tie transitions into a front headlock grip, with your arm wrapped around their neck and your chest driving pressure onto their upper back. Your hips should move faster than their recovery.",
-      "timing": "Immediate transition"
+      "description": "As opponent's head descends, immediately circle your body to their side while maintaining head control. Your collar tie transitions into a front headlock grip, with your arm wrapped around their neck and your chest driving pressure onto their upper back. Your hips should move faster than their recovery."
     },
     {
       "step_number": 6,
       "action": "Secure dominant position",
-      "description": "Establish front headlock control by clasping your hands in a gable grip or rear naked choke grip around opponent's neck. Drive your chest weight onto their shoulders while sprawling your hips back. From here, you can attack with guillotine chokes, take the back, or continue advancing position.",
-      "timing": "Position consolidation"
+      "description": "Establish front headlock control by clasping your hands in a gable grip or rear naked choke grip around opponent's neck. Drive your chest weight onto their shoulders while sprawling your hips back. From here, you can attack with guillotine chokes, take the back, or continue advancing position."
     }
   ],
   "common_counters": [
@@ -148,32 +137,27 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Grip establishment and basic snapping motion",
-      "description": "Partner stands stationary while you practice establishing collar tie, creating angle, and executing snap motion. Focus on hip engagement and proper body mechanics without resistance. Drill 20 repetitions per side daily.",
-      "resistance_level": "None"
+      "description": "Partner stands stationary while you practice establishing collar tie, creating angle, and executing snap motion. Focus on hip engagement and proper body mechanics without resistance. Drill 20 repetitions per side daily."
     },
     {
       "phase": "Week 3-4: Dynamic Drilling",
       "focus": "Adding movement and timing windows",
-      "description": "Partner moves around in fighting stance while hand fighting. Execute snap when they push forward or extend their posture. Partner provides light resistance but allows successful completion. Emphasize timing recognition over force.",
-      "resistance_level": "Light"
+      "description": "Partner moves around in fighting stance while hand fighting. Execute snap when they push forward or extend their posture. Partner provides light resistance but allows successful completion. Emphasize timing recognition over force."
     },
     {
       "phase": "Week 5-8: Reactive Training",
       "focus": "Countering opponent reactions and chaining techniques",
-      "description": "Partner provides medium resistance and attempts basic counters like sprawling or circling away. Practice transitioning to front headlock variations, guillotines, and back takes based on their defensive response. Integrate into positional sparring.",
-      "resistance_level": "Medium"
+      "description": "Partner provides medium resistance and attempts basic counters like sprawling or circling away. Practice transitioning to front headlock variations, guillotines, and back takes based on their defensive response. Integrate into positional sparring."
     },
     {
       "phase": "Week 9-12: Competition Integration",
       "focus": "Full resistance with strategic implementation",
-      "description": "Use snap down in live standing exchanges during regular sparring. Partner resists fully and attempts to counter. Focus on setting up snap with feints, grip fighting strategies, and recognizing optimal timing windows. Track success rate and adjust technique.",
-      "resistance_level": "Full"
+      "description": "Use snap down in live standing exchanges during regular sparring. Partner resists fully and attempts to counter. Focus on setting up snap with feints, grip fighting strategies, and recognizing optimal timing windows. Track success rate and adjust technique."
     },
     {
       "phase": "Advanced Phase: System Integration",
       "focus": "Multi-attack combinations and strategic planning",
-      "description": "Develop personal snap down system including setups, primary attacks, and backup options. Study opponent tendencies to predict reactions. Use snap down as part of broader takedown strategy including shots, throws, and trips.",
-      "resistance_level": "Full"
+      "description": "Develop personal snap down system including setups, primary attacks, and backup options. Study opponent tendencies to predict reactions. Use snap down as part of broader takedown strategy including shots, throws, and trips."
     }
   ],
   "variants_and_adaptations": [
@@ -206,63 +190,51 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary source of power generation in an effective snap down?",
-      "answer": "The primary power source is explosive hip extension coordinated with arm pull, not just arm strength alone. The technique requires loading your hips backward like a compressed spring, then extending them forward violently while simultaneously pulling down with your collar tie. This hip drive generates significantly more force than arms alone and allows you to break even larger opponents' posture. The arms guide the direction, but the legs and hips provide the power.",
-      "difficulty": "Beginner"
+      "answer": "The primary power source is explosive hip extension coordinated with arm pull, not just arm strength alone. The technique requires loading your hips backward like a compressed spring, then extending them forward violently while simultaneously pulling down with your collar tie. This hip drive generates significantly more force than arms alone and allows you to break even larger opponents' posture. The arms guide the direction, but the legs and hips provide the power."
     },
     {
       "question": "Why is creating an angle before executing the snap down tactically important?",
-      "answer": "Creating an angle prevents your opponent from squaring up and driving straight forward into you, which would nullify the snap's effectiveness. By stepping off-center to their lead side, you create a geometric disadvantage where their base is compromised and they cannot effectively shoot or establish inside control. The angle also sets up superior transitional opportunities to front headlock, back take, or passing positions as their body rotates with the snap.",
-      "difficulty": "Intermediate"
+      "answer": "Creating an angle prevents your opponent from squaring up and driving straight forward into you, which would nullify the snap's effectiveness. By stepping off-center to their lead side, you create a geometric disadvantage where their base is compromised and they cannot effectively shoot or establish inside control. The angle also sets up superior transitional opportunities to front headlock, back take, or passing positions as their body rotates with the snap."
     },
     {
       "question": "How should you respond if your opponent sprawls immediately after your snap down attempt?",
-      "answer": "If your opponent sprawls in response to the snap, you should maintain head control and immediately transition to submission attacks or back takes. The sprawl commits their hips backward and down, creating excellent opportunities for guillotine chokes (especially high-elbow variation), darce chokes, or spinning behind for back control. Never release the head - their defensive reaction actually improves your attacking position if you recognize it quickly.",
-      "difficulty": "Intermediate"
+      "answer": "If your opponent sprawls in response to the snap, you should maintain head control and immediately transition to submission attacks or back takes. The sprawl commits their hips backward and down, creating excellent opportunities for guillotine chokes (especially high-elbow variation), darce chokes, or spinning behind for back control. Never release the head - their defensive reaction actually improves your attacking position if you recognize it quickly."
     },
     {
       "question": "What is the strategic purpose of the upward pull feint before executing the snap?",
-      "answer": "The upward pull creates a neurological and physical reaction in your opponent - they instinctively resist by either pulling back or driving forward to maintain their posture. This reaction causes them to commit their weight and balance in a direction that makes the subsequent downward snap far more effective. When they resist upward, their muscles are loaded for that direction, making them vulnerable to the sudden reversal. This feint-and-attack principle amplifies the technique's success rate significantly.",
-      "difficulty": "Advanced"
+      "answer": "The upward pull creates a neurological and physical reaction in your opponent - they instinctively resist by either pulling back or driving forward to maintain their posture. This reaction causes them to commit their weight and balance in a direction that makes the subsequent downward snap far more effective. When they resist upward, their muscles are loaded for that direction, making them vulnerable to the sudden reversal. This feint-and-attack principle amplifies the technique's success rate significantly."
     },
     {
       "question": "How does the snap down integrate into a comprehensive standing grappling system?",
-      "answer": "The snap down functions as a hub technique that connects multiple attacking sequences. It serves as both a primary attack and a setup for other techniques. When opponents defend the snap by pulling back, you can attack with ankle picks or body locks. If they sprawl, you transition to front headlock submissions. If they circle away, you set up arm drags or collar drags. The snap also conditions opponents to lower their level, making them vulnerable to throws and trips. Advanced practitioners use snap down attempts to gauge opponent reactions and plan multi-attack combinations accordingly.",
-      "difficulty": "Advanced"
+      "answer": "The snap down functions as a hub technique that connects multiple attacking sequences. It serves as both a primary attack and a setup for other techniques. When opponents defend the snap by pulling back, you can attack with ankle picks or body locks. If they sprawl, you transition to front headlock submissions. If they circle away, you set up arm drags or collar drags. The snap also conditions opponents to lower their level, making them vulnerable to throws and trips. Advanced practitioners use snap down attempts to gauge opponent reactions and plan multi-attack combinations accordingly."
     },
     {
       "question": "What timing windows create the highest success rate for snap down execution?",
-      "answer": "The optimal timing occurs when opponent's weight shifts forward, when they reach for grips with extended arms, or immediately after they push against your collar tie or body. These moments create brief windows where their base is compromised and posture is elevated. Additionally, successful snaps often occur during transitions between positions in the standing exchange, when attention is divided. Advanced timing involves recognizing breathing patterns - opponents are most vulnerable during inhalation when neck muscles relax slightly.",
-      "difficulty": "Advanced"
+      "answer": "The optimal timing occurs when opponent's weight shifts forward, when they reach for grips with extended arms, or immediately after they push against your collar tie or body. These moments create brief windows where their base is compromised and posture is elevated. Additionally, successful snaps often occur during transitions between positions in the standing exchange, when attention is divided. Advanced timing involves recognizing breathing patterns - opponents are most vulnerable during inhalation when neck muscles relax slightly."
     },
     {
       "question": "Your opponent posts their hand on the mat after you snap them down - how do you adjust your attack?",
-      "answer": "When your opponent posts a hand, they've temporarily stabilized but created a committed structure you can exploit. Immediately circle toward the posted hand side while maintaining head control - their posted arm becomes a pivot point they cannot easily move. This circling motion loads your body for a back take as you step past their shoulder. Alternatively, if they post to your chest side, you can attack the posted arm with a kimura grip or accelerate to the far side for a darce setup. The key is recognizing the post as an opportunity rather than an obstacle.",
-      "difficulty": "Intermediate"
+      "answer": "When your opponent posts a hand, they've temporarily stabilized but created a committed structure you can exploit. Immediately circle toward the posted hand side while maintaining head control - their posted arm becomes a pivot point they cannot easily move. This circling motion loads your body for a back take as you step past their shoulder. Alternatively, if they post to your chest side, you can attack the posted arm with a kimura grip or accelerate to the far side for a darce setup. The key is recognizing the post as an opportunity rather than an obstacle."
     },
     {
       "question": "What grip adjustments are required when transitioning from collar tie to front headlock control after a successful snap?",
-      "answer": "As the snap completes, your collar tie hand must slide from the back of the neck to wrap around the front and side of their neck, positioning your bicep against one side of their throat. Your opposite hand releases the wrist or tricep control and clasps with your collar tie hand in either a gable grip or figure-four configuration. Throughout this transition, maintain chest pressure on their upper back to prevent them from posturing. The grip change must be fluid and immediate - any delay allows recovery.",
-      "difficulty": "Intermediate"
+      "answer": "As the snap completes, your collar tie hand must slide from the back of the neck to wrap around the front and side of their neck, positioning your bicep against one side of their throat. Your opposite hand releases the wrist or tricep control and clasps with your collar tie hand in either a gable grip or figure-four configuration. Throughout this transition, maintain chest pressure on their upper back to prevent them from posturing. The grip change must be fluid and immediate - any delay allows recovery."
     },
     {
       "question": "What is the optimal direction of force application during the snap down execution phase?",
-      "answer": "The force direction should be diagonal - simultaneously downward and slightly toward your rear hip on the side of your collar tie. This diagonal vector prevents your opponent from simply stepping through the force as they could with a straight downward pull. The angle drives their head toward the mat while their body rotates, naturally positioning them for front headlock control. Think of pulling their forehead toward your opposite hip pocket rather than straight into the ground.",
-      "difficulty": "Beginner"
+      "answer": "The force direction should be diagonal - simultaneously downward and slightly toward your rear hip on the side of your collar tie. This diagonal vector prevents your opponent from simply stepping through the force as they could with a straight downward pull. The angle drives their head toward the mat while their body rotates, naturally positioning them for front headlock control. Think of pulling their forehead toward your opposite hip pocket rather than straight into the ground."
     },
     {
       "question": "Your opponent maintains strong neck posture and refuses to break down - what chain attacks become available?",
-      "answer": "Strong neck resistance actually opens several alternative attacks. First, their rigid posture makes them vulnerable to level changes - you can immediately shoot for a single or double leg since their defensive attention is focused on their head. Second, their resistance creates opportunity for an ankle pick by using their upward force against them while attacking their lead leg. Third, if they pull back strongly, release the collar tie and flow into an arm drag or Russian tie on their extended defensive arm. The resistance tells you to redirect rather than force the original technique.",
-      "difficulty": "Advanced"
+      "answer": "Strong neck resistance actually opens several alternative attacks. First, their rigid posture makes them vulnerable to level changes - you can immediately shoot for a single or double leg since their defensive attention is focused on their head. Second, their resistance creates opportunity for an ankle pick by using their upward force against them while attacking their lead leg. Third, if they pull back strongly, release the collar tie and flow into an arm drag or Russian tie on their extended defensive arm. The resistance tells you to redirect rather than force the original technique."
     },
     {
       "question": "What conditions must exist before you can effectively execute a snap down from the standing position?",
-      "answer": "Effective snap down execution requires four key conditions: First, you must have established meaningful head or neck control, typically through a collar tie positioned at the base of the skull. Second, you need secondary control on their arm to prevent posting and counter-attacks. Third, your opponent's posture should be neutral or slightly forward - attempting to snap someone already in a defensive crouch is ineffective. Fourth, you must have proper base with your own hips loaded and knees bent, as you cannot generate power from an upright stance.",
-      "difficulty": "Beginner"
+      "answer": "Effective snap down execution requires four key conditions: First, you must have established meaningful head or neck control, typically through a collar tie positioned at the base of the skull. Second, you need secondary control on their arm to prevent posting and counter-attacks. Third, your opponent's posture should be neutral or slightly forward - attempting to snap someone already in a defensive crouch is ineffective. Fourth, you must have proper base with your own hips loaded and knees bent, as you cannot generate power from an upright stance."
     },
     {
       "question": "How do you defend against an opponent who anticipates your snap down and shoots underneath as you initiate?",
-      "answer": "When an opponent times a shot underneath your snap attempt, your primary response is an immediate sprawl while maintaining whatever head control you retained. Drive your hips back and down, spreading your legs wide to create a heavy, low base. If you kept any neck control, you're now in prime position for a front headlock with them already compromised from their failed shot. If you lost head control, focus on hip pressure and crossface to prevent them from completing the takedown. The key is recognizing their counter early and converting your offensive attempt into defensive posture before they penetrate deeply.",
-      "difficulty": "Advanced"
+      "answer": "When an opponent times a shot underneath your snap attempt, your primary response is an immediate sprawl while maintaining whatever head control you retained. Drive your hips back and down, spreading your legs wide to create a heavy, low base. If you kept any neck control, you're now in prime position for a front headlock with them already compromised from their failed shot. If you lost head control, focus on hip pressure and crossface to prevent them from completing the takedown. The key is recognizing their counter early and converting your offensive attempt into defensive posture before they penetrate deeply."
     }
   ],
   "safety_considerations": "When practicing snap downs, exercise control over the speed and force of execution to protect training partners' necks and spines. Never snap down onto hard surfaces without mats, and ensure adequate landing space. Beginners should drill at reduced speed until muscle memory develops for proper mechanics. Both practitioners must communicate about resistance levels - the person being snapped should not resist with maximum neck strength in drilling, as this risks injury. During live training, tap immediately if you feel excessive pressure on your cervical spine. Instructors should supervise beginners closely to prevent reckless execution that could cause whiplash or neck strain.",
@@ -324,5 +296,6 @@
       "name": "Clinch",
       "relationship": "Alternative starting position with collar tie control"
     }
-  ]
+  ],
+  "success_rate": 68
 }

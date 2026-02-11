@@ -257,7 +257,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 **If opponent maintains open guard with feet on hips and active frames preventing forward movement:**
 - Execute **[[Toreando Pass]]** → [[Side Control]] (Probability: 55%)
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 45%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 45%)
 
 
 **If opponent attempts to close guard or establish butterfly hooks on posted knee:**
@@ -266,7 +266,7 @@ Mastery of Combat Base is essential for all guard passing systems, as it forms t
 
 
 **If opponent establishes De La Riva or X-Guard hooks on posted leg:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 55%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 55%)
 - Execute **[[Headquarters Pass]]** → [[Headquarters Position]] (Probability: 45%)
 
 
@@ -374,11 +374,11 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 5% |
-| Intermediate | 65% | 50% | 10% |
-| Advanced     | 80% | 70% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 60% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-90 seconds in competitive BJJ depending on guard style and passing strategy
 
@@ -396,7 +396,7 @@ From combat base, use planted foot to circle around opponent's guard, creating n
 - **[[Toreando Pass]]** - Primary transition technique - Most common dynamic pass from combat base
 - **[[Knee Slice Pass]]** - Primary transition technique - High-percentage pressure pass from combat base
 - **[[De La Riva Guard]]** - Counter position - Common guard retention response to combat base
-- **[[Leg Drag Position]]** - Transition target - Alternative passing position from combat base against hooks
+- **[[Leg Drag Control]]** - Transition target - Alternative passing position from combat base against hooks
 - **[[X-Guard]]** - Counter position - Opponent's elevation-based guard option against combat base
 - **[[Butterfly Guard]]** - Counter position - Opponent's hook-based guard for off-balancing combat base
 - **[[Half Guard]]** - Common destination - Position often reached when passes are partially defended

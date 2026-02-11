@@ -375,11 +375,11 @@ Start in established truck position. Top player works for submissions and positi
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 25% |
-| Intermediate | 50% | 55% | 45% |
-| Advanced     | 70% | 75% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 65% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 30-90 seconds before submission or transition
 

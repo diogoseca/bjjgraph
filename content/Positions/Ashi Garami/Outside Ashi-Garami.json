@@ -256,50 +256,28 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "15-30 seconds (immediate escape required)"
     },
     "transitions": [
       {
         "transition": "Ashi Garami Escape",
-        "attempt_probability": 15
+        "attempt_probability": 70
       },
       {
-        "transition": "Outside Ashi Entry",
-        "attempt_probability": 14
+        "transition": "Back Step",
+        "attempt_probability": 20
       },
       {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Standing to Single Leg X",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "Leg Weave Pass",
-        "attempt_probability": 14
-      },
-      {
-        "transition": "Technical Stand-up",
-        "attempt_probability": 16
+        "transition": "Counter heel hook",
+        "attempt_probability": 10
       }
     ],
     "knowledge_assessment": [
@@ -540,50 +518,20 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "average_time": "30-60 seconds before transition or escape"
     },
     "transitions": [
       {
-        "transition": "Outside Heel Hook",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Straight Ankle Lock",
-        "attempt_probability": 13
-      },
-      {
-        "transition": "Saddle Entry from Top",
-        "attempt_probability": 17
-      },
-      {
-        "transition": "Inside Ashi Entry",
-        "attempt_probability": 19
-      },
-      {
-        "transition": "Inside Ashi-Garami to Cross Ashi",
-        "attempt_probability": 16
-      },
-      {
-        "transition": "50-50 Entry from Standing",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Kneebar Setup",
-        "attempt_probability": 11
+        "attempt_probability": 100
       }
     ],
     "knowledge_assessment": [

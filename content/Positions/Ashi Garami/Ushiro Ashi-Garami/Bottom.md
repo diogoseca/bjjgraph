@@ -372,11 +372,11 @@ Start in ushiro ashi-garami with partner attempting to secure heel hook grips. P
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 15% | 30% | 5% |
-| Intermediate | 30% | 45% | 15% |
-| Advanced     | 50% | 65% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 40% |
+| Advancement Probability | 55% |
+| Submission Probability | 22% |
 
 **Average Time in Position**: 8-15 seconds (transitional position, not sustainable)
 

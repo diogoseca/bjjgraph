@@ -159,7 +159,7 @@ description: "Master the John Wayne Sweep from Butterfly Guard. High-reward tran
 The John Wayne Sweep is a powerful offensive technique from butterfly guard that capitalizes on opponent's forward pressure and poor base management. Named after the characteristic pistol-shooting motion used during the grip break, this sweep combines elements of traditional butterfly mechanics with creative grip fighting. The technique exploits the moment when your opponent reaches for underhooks or attempts to pass, using their forward momentum against them. By establishing strong sleeve control, creating an angle with your hip movement, and utilizing butterfly hooks effectively, you can elevate your opponent and transition directly to mount. This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -260,27 +260,21 @@ The John Wayne Sweep is a powerful offensive technique from butterfly guard that
 ## Training Progressions
 **Phase 1: Grip Control Fundamentals** - Establishing and maintaining two-on-one sleeve control from butterfly guard
 Partner offers static butterfly guard position. Practice securing two-on-one grips on sleeve, breaking opponent's centerline, and creating angular positioning. Focus on grip strength and control rather than completing sweeps. Drill pistol grip break motion repetitively.
-(Resistance: None)
 
 **Phase 2: Coordinated Movement Drilling** - Synchronizing sleeve pull, hook extension, and rotation
 Partner allows sweep to develop slowly. Practice coordinating all three components of the sweep with emphasis on timing and technique. Partner should maintain light base to allow repetitions but provide feedback on technique gaps. Complete 10-15 repetitions per side.
-(Resistance: Light)
 
 **Phase 3: Dynamic Entry and Timing** - Recognizing setup opportunities during live movement
 Start from standing and pull guard to butterfly, immediately looking for John Wayne Sweep opportunity. Partner applies forward pressure naturally. Practice reading their weight distribution and timing your angle creation with their commitment. Focus on reactive execution.
-(Resistance: Medium)
 
 **Phase 4: Countering Defensive Reactions** - Adapting to common counters and maintaining offensive initiative
 Partner actively defends the sweep using distance creation, underhooks, or strong posts. Practice recognizing when sweep is not available and transitioning smoothly to alternative attacks like X-guard, deep half guard, or kimura. Maintain offensive pressure throughout.
-(Resistance: Medium)
 
 **Phase 5: Competition Simulation** - Executing technique under full resistance with consequences
 Live rolling with specific goal of hitting John Wayne Sweep from butterfly guard. Partner uses full defensive tactics and counter-passing attempts. Practice chaining technique with other butterfly guard attacks and maintaining composure under pressure.
-(Resistance: Full)
 
 **Phase 6: Integration and Flow Development** - Seamless integration with complete butterfly guard system
 Free rolling with emphasis on using John Wayne Sweep as part of larger guard retention and sweeping system. Combine with arm drags, back takes, and submission threats. Focus on reading opponent's defensive patterns and selecting optimal technique.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
 **Starting Position**: [[Front Headlock]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -233,12 +233,12 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure front headlock position**: From standing or turtle position, wrap your choking arm (typically your dominant arm) deep around opponent's neck. Your bicep should be against one side of their neck, your forearm across the throat, and your armpit should be tight over the crown of their head. Keep your chest heavy on their upper back to prevent them from standing up. (Timing: Initial control - 1-2 seconds) [Pressure: Moderate]
-2. **Establish ten finger grip**: Reach your non-choking hand underneath opponent's torso to meet your choking hand. Interlace all ten fingers together, creating a palm-to-palm connection with fingers woven tightly. This grip should feel like a prayer grip but with maximum finger engagement. Position the grip so your choking forearm is centered on their throat, not on their chin or purely on the side of the neck. (Timing: Grip establishment - 1 second) [Pressure: Light]
-3. **Adjust hip position and posture**: If standing, step your hips back slightly while keeping your chest forward and heavy on opponent. If on the ground after a guard pull, establish closed guard or maintain a seated position with hooks. Your spine should be relatively upright with your head positioned above or slightly in front of theirs. This posture allows your lats and shoulder muscles to generate choking pressure rather than relying purely on arm strength. (Timing: Positional adjustment - 1-2 seconds) [Pressure: Moderate]
-4. **Elevate shoulders and engage lats**: Shrug your shoulders upward toward your ears while simultaneously pulling your elbows down and back toward your own hips. This creates a powerful squeezing action that closes the noose around opponent's neck. The movement should feel like you're trying to touch your elbows together behind your back while keeping your hands stationary. Your lats (latissimus dorsi muscles) should be fully engaged, creating the primary choking force. (Timing: Initial squeeze - 2-3 seconds) [Pressure: Firm]
-5. **Arch back and expand chest**: Create additional compression by arching your upper back slightly and expanding your chest. This movement increases the distance between your shoulders and hands, tightening the choke further. Imagine trying to look at the ceiling while keeping your arms in the same position. This subtle arch can transform a loose choke into a fight-ending finish. Maintain heavy pressure with your chest on opponent's back to prevent postural escape. (Timing: Secondary tightening - 1-2 seconds) [Pressure: Firm]
-6. **Walk backwards or fall to guard (finish)**: If standing, walk your feet backward while maintaining all previous pressure points. This drags opponent forward onto their toes, preventing them from generating counter-pressure. If entering from guard pull or transitioning to the ground, fall to closed guard or seated guard while keeping the choke locked. As you settle into position, perform one final shoulder shrug and lat squeeze to complete the submission. Monitor opponent for tap and release immediately when they signal. (Timing: Final adjustment and finish - 2-3 seconds) [Pressure: Maximum]
+1. **Secure front headlock position**: From standing or turtle position, wrap your choking arm (typically your dominant arm) deep around opponent's neck. Your bicep should be against one side of their neck, your forearm across the throat, and your armpit should be tight over the crown of their head. Keep your chest heavy on their upper back to prevent them from standing up. (Timing: Initial control - 1-2 seconds)
+2. **Establish ten finger grip**: Reach your non-choking hand underneath opponent's torso to meet your choking hand. Interlace all ten fingers together, creating a palm-to-palm connection with fingers woven tightly. This grip should feel like a prayer grip but with maximum finger engagement. Position the grip so your choking forearm is centered on their throat, not on their chin or purely on the side of the neck. (Timing: Grip establishment - 1 second)
+3. **Adjust hip position and posture**: If standing, step your hips back slightly while keeping your chest forward and heavy on opponent. If on the ground after a guard pull, establish closed guard or maintain a seated position with hooks. Your spine should be relatively upright with your head positioned above or slightly in front of theirs. This posture allows your lats and shoulder muscles to generate choking pressure rather than relying purely on arm strength. (Timing: Positional adjustment - 1-2 seconds)
+4. **Elevate shoulders and engage lats**: Shrug your shoulders upward toward your ears while simultaneously pulling your elbows down and back toward your own hips. This creates a powerful squeezing action that closes the noose around opponent's neck. The movement should feel like you're trying to touch your elbows together behind your back while keeping your hands stationary. Your lats (latissimus dorsi muscles) should be fully engaged, creating the primary choking force. (Timing: Initial squeeze - 2-3 seconds)
+5. **Arch back and expand chest**: Create additional compression by arching your upper back slightly and expanding your chest. This movement increases the distance between your shoulders and hands, tightening the choke further. Imagine trying to look at the ceiling while keeping your arms in the same position. This subtle arch can transform a loose choke into a fight-ending finish. Maintain heavy pressure with your chest on opponent's back to prevent postural escape. (Timing: Secondary tightening - 1-2 seconds)
+6. **Walk backwards or fall to guard (finish)**: If standing, walk your feet backward while maintaining all previous pressure points. This drags opponent forward onto their toes, preventing them from generating counter-pressure. If entering from guard pull or transitioning to the ground, fall to closed guard or seated guard while keeping the choke locked. As you settle into position, perform one final shoulder shrug and lat squeeze to complete the submission. Monitor opponent for tap and release immediately when they signal. (Timing: Final adjustment and finish - 2-3 seconds)
 
 
 </section>
@@ -258,25 +258,25 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Relying purely on arm strength instead of engaging shoulders and lats [Low DANGER]
+- **Mistake**: Relying purely on arm strength instead of engaging shoulders and lats
   - **Consequence**: Choke feels weak, opponent can defend easily, and you fatigue quickly burning out your grip and biceps
   - **Correction**: Focus on the shoulder shrug and elbow pull-down motion. Your arms should feel relatively relaxed while your back and shoulder muscles do the work. Practice the motion without a partner first to build the muscle memory.
-- **Mistake**: Positioning the choking arm too high on opponent's chin or face instead of deep on the neck [Medium DANGER]
+- **Mistake**: Positioning the choking arm too high on opponent's chin or face instead of deep on the neck
   - **Consequence**: Choke becomes primarily a crank on the jaw or face, which is painful but less effective and potentially dangerous to opponent's TMJ
   - **Correction**: Before establishing the grip, use your non-choking hand to guide your choking arm deeper. The blade of your forearm should bisect opponent's throat, not push up on their chin. Adjust position before locking the ten finger grip.
-- **Mistake**: Leaning too far forward with hips, losing leverage and allowing opponent to drive forward [Low DANGER]
+- **Mistake**: Leaning too far forward with hips, losing leverage and allowing opponent to drive forward
   - **Consequence**: Opponent can posture up, drive through you, or complete a takedown that breaks your control
   - **Correction**: Keep your hips back and weight distributed between forward chest pressure and backward hip positioning. Your spine should be relatively vertical, not bent over opponent's back. Think 'sit back and squeeze up' rather than 'bend forward and squeeze down.'
-- **Mistake**: Allowing elbows to flare out away from your own ribs [Medium DANGER]
+- **Mistake**: Allowing elbows to flare out away from your own ribs
   - **Consequence**: Opponent can insert their hands inside your grip and break it apart, or create space to escape
   - **Correction**: Imagine holding a basketball between your elbows throughout the entire sequence. Your elbows should pull toward each other and down toward your hips simultaneously. Pin them to your ribcage as if protecting your own body.
-- **Mistake**: Jerking or spiking the choke with sudden explosive force [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the choke with sudden explosive force
   - **Consequence**: Can cause serious neck injury, trachea damage, or loss of consciousness without warning
   - **Correction**: Apply pressure progressively over 3-5 seconds, giving partner clear signals that danger is increasing. In training, use controlled steady pressure. Save explosive finishes for competition only, and even then ensure opponent has opportunity to tap.
-- **Mistake**: Maintaining pressure after partner taps or shows distress signals [CRITICAL DANGER]
+- **Mistake**: Maintaining pressure after partner taps or shows distress signals
   - **Consequence**: Risk of choking partner unconscious or causing injury, violating fundamental training safety
   - **Correction**: Develop automatic release reflex the instant you feel a tap. In training, release at 70-80% pressure rather than fighting to the absolute finish. Partner safety always comes before ego or submission completion.
-- **Mistake**: Failing to control opponent's far arm, allowing them to strip your grip [Low DANGER]
+- **Mistake**: Failing to control opponent's far arm, allowing them to strip your grip
   - **Consequence**: Opponent peels your hands apart or creates enough space to slip their head out
   - **Correction**: Use your chest, armpit, and head position to trap opponent's far arm. If they have good hand fighting, transition to a different choke variation or improve position before attempting the finish. Control position first, then submit.
 
@@ -341,43 +341,6 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Grip Mechanics** (Week 1-2)
-- Focus: Learn proper hand positioning, finger interlacing, and basic body mechanics without resistance. Practice establishing the ten finger grip from various front headlock positions. Study anatomical targets and safety considerations. Emphasis on understanding the difference between control pressure and finishing pressure.
-- Resistance: Zero resistance
-- Safety: Partner remains completely compliant. Focus on grip mechanics and body positioning without any choking pressure. Partners communicate throughout about comfort level and learn to recognize proper arm positioning on the neck versus dangerous positions on the trachea or face.
-
-**Slow Pressure Application and Release Protocol** (Week 3-4)
-- Focus: Begin applying light to moderate pressure with cooperative partners who provide clear tap signals. Practice the complete sequence from setup through release protocol. Develop sensitivity to pressure levels and partner feedback. Work on shoulder elevation and lat engagement without explosive movements.
-- Resistance: Mild resistance
-- Safety: Apply pressure very slowly over 5-7 seconds, stopping at 50-60% of maximum pressure. Partner taps early to practice release protocol. Focus on smooth, controlled releases and checking partner status after each repetition. Rest 30-60 seconds between attempts to prevent cumulative pressure effects.
-
-**Positional Integration and Entry Practice** (Week 5-8)
-- Focus: Integrate the choke into live positional drilling from front headlock, guard pulls, and scramble situations. Practice recognizing when the setup is available versus forcing it. Work on maintaining the position under moderate resistance while preparing the finish. Develop the ability to threaten the choke to control opponent's reactions.
-- Resistance: Realistic resistance
-- Safety: Partners defend with proper technique but still tap early (70% pressure). Begin working on competition-realistic timing while maintaining training safety protocols. If any neck discomfort occurs, stop immediately and rest 24-48 hours. Partners maintain open communication about pressure levels throughout the training session.
-
-**Defense and Counter Development** (Week 9-12)
-- Focus: Learn and practice all major defenses against the ten finger guillotine. Work as both attacker and defender to understand the position from both perspectives. Develop sensitivity to when the choke is tight versus when it can be escaped. Study transitions to related submissions when primary attack is defended.
-- Resistance: Full resistance
-- Safety: Defender practices all escape methods with progressive resistance. Attacker learns to recognize when to maintain the choke versus when to transition. Establish clear protocols for unusual situations like failed taps or communication breakdowns. Both partners develop respect for the submission's power and commit to mutual safety.
-
-**Live Rolling Integration** (Week 13-16)
-- Focus: Attempt the ten finger guillotine during regular rolling sessions with training partners of various skill levels. Focus on high-percentage setups and timing rather than forcing the submission. Develop fight IQ for when to attack versus when to use the threat for positional advancement. Refine entry sequences and combination attacks.
-- Resistance: Full resistance
-- Safety: Apply all previously learned safety protocols during live rolling. Communicate with new or less experienced partners about your intention to work the technique. Release immediately on tap without any delay. Monitor cumulative effects across multiple rounds - if your neck or throat feels fatigued, avoid heavy guillotine training for 48 hours.
-
-**Competition Preparation and Maintenance** (Ongoing)
-- Focus: Maintain technical sharpness through regular drilling. Develop competition-specific finishing speed while preserving safety in training. Study high-level footage of the technique in competition. Create reliable entry sequences that work against elite-level defense. Build confidence in the technique as a primary weapon.
-- Resistance: Full resistance
-- Safety: Clearly distinguish between training intensity and competition intensity. Reserve maximum pressure and explosive finishes exclusively for competition. Continue monitoring partner wellbeing and maintain exemplary safety practices to set positive example for less experienced practitioners. Regularly review and update safety protocols based on new information or incidents in the gym.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -433,6 +396,7 @@ The Ten Finger Guillotine is a fundamental front headlock choke that utilizes an
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -224,7 +224,7 @@ Submission Position represents the critical principle of establishing and mainta
 
 **Omoplata Control**: Achieving leg control over opponent's shoulder with proper angle and posture control creates submission position by isolating shoulder joint and preventing forward roll escape
 
-**D'arce Control**: Establishing arm-in position with proper grip configuration and body weight distribution creates submission position by controlling shoulder and compressing neck arteries
+**Darce Control**: Establishing arm-in position with proper grip configuration and body weight distribution creates submission position by controlling shoulder and compressing neck arteries
 
 **Saddle**: Securing both legs controlled with proper hip positioning and heel exposure creates submission position for heel hooks by eliminating hip movement and establishing mechanical advantage
 

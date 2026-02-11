@@ -163,7 +163,7 @@ This entry serves as a cornerstone of modern leg lock methodology and has revolu
 The technique requires precise timing, spatial awareness, and the ability to recognize leg entanglement opportunities during passing sequences. Success depends on controlling the opponent's near leg while stepping over to secure the saddle configuration. When executed correctly, this entry creates a dominant position with minimal escape options for the opponent.
 
 **From Position**: [[Headquarters Position/Top]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 75%
+**Success Rate**: 65%
 
 </section>
 
@@ -212,13 +212,13 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure near leg control**: From top position (headquarters, knee slice, or passing position), establish control of the opponent's near leg using both hands. Grip the ankle with your near hand and control the knee or thigh with your far hand. This prevents the opponent from retracting their leg and creates the foundation for entry. (Timing: Establish control when opponent extends leg defensively or during guard recovery)
-2. **Create entry angle**: Step your outside leg (the leg furthest from opponent's hips) toward the opponent's hip line while maintaining leg control. Position your foot near their hip or on the mat beside their hip. This creates the proper angle for stepping over and prevents the opponent from rotating away. (Timing: Execute immediately after securing leg control)
-3. **Step over controlled leg**: Bring your inside leg (nearest to opponent's legs) over the opponent's controlled leg. Your inside knee should clear their leg and land on the opposite side. Maintain constant pressure on their leg throughout this movement to prevent escape. Keep your weight distributed to avoid being swept. (Timing: Smooth, controlled movement coordinated with hip positioning)
-4. **Thread inside leg**: Continue threading your inside leg under the opponent's controlled leg, bringing your inside thigh underneath their thigh. Your legs should now form a triangle configuration around their leg with your inside thigh positioned under their leg and your outside leg positioned over their leg. (Timing: Immediately following step-over before opponent can adjust)
-5. **Secure saddle configuration**: Lock your feet together (inside foot over outside foot) to complete the saddle entanglement. Ensure the opponent's knee is trapped between your legs with their leg pulled across your body. Your inside thigh should be positioned high on their inner thigh, controlling their hip rotation. Adjust your position to face the opponent's leg rather than their body. (Timing: Lock configuration while pulling opponent's leg tightly into saddle)
-6. **Establish positional control**: Fall to your outside hip, bringing the opponent's leg with you. Control their far leg with your outside arm to prevent them from squaring up or clearing their knee line. Establish control of their heel/foot with your inside arm. Ensure your hips are connected to theirs and your legs maintain constant pressure on their trapped leg. (Timing: Smooth transition to bottom position while maintaining all controls)
-7. **Adjust to submission position**: Make final adjustments to optimize your saddle configuration: ensure their toes point away from you (externally rotated), verify your legs are creating maximum pressure on their knee joint, and position their heel close to your chest for finishing control. From here, you can attack inside heel hooks, toe holds, or transitions to other ashi garami variations. (Timing: Final adjustment before attacking submissions)
+1. **Secure near leg control**: From top position (headquarters, knee slice, or passing position), establish control of the opponent's near leg using both hands. Grip the ankle with your near hand and control the knee or thigh with your far hand. This prevents the opponent from retracting their leg and creates the foundation for entry.
+2. **Create entry angle**: Step your outside leg (the leg furthest from opponent's hips) toward the opponent's hip line while maintaining leg control. Position your foot near their hip or on the mat beside their hip. This creates the proper angle for stepping over and prevents the opponent from rotating away.
+3. **Step over controlled leg**: Bring your inside leg (nearest to opponent's legs) over the opponent's controlled leg. Your inside knee should clear their leg and land on the opposite side. Maintain constant pressure on their leg throughout this movement to prevent escape. Keep your weight distributed to avoid being swept.
+4. **Thread inside leg**: Continue threading your inside leg under the opponent's controlled leg, bringing your inside thigh underneath their thigh. Your legs should now form a triangle configuration around their leg with your inside thigh positioned under their leg and your outside leg positioned over their leg.
+5. **Secure saddle configuration**: Lock your feet together (inside foot over outside foot) to complete the saddle entanglement. Ensure the opponent's knee is trapped between your legs with their leg pulled across your body. Your inside thigh should be positioned high on their inner thigh, controlling their hip rotation. Adjust your position to face the opponent's leg rather than their body.
+6. **Establish positional control**: Fall to your outside hip, bringing the opponent's leg with you. Control their far leg with your outside arm to prevent them from squaring up or clearing their knee line. Establish control of their heel/foot with your inside arm. Ensure your hips are connected to theirs and your legs maintain constant pressure on their trapped leg.
+7. **Adjust to submission position**: Make final adjustments to optimize your saddle configuration: ensure their toes point away from you (externally rotated), verify your legs are creating maximum pressure on their knee joint, and position their heel close to your chest for finishing control. From here, you can attack inside heel hooks, toe holds, or transitions to other ashi garami variations.
 
 
 </section>
@@ -268,27 +268,21 @@ The technique requires precise timing, spatial awareness, and the ability to rec
 ## Training Progressions
 **Phase 1: Isolated Movement Pattern (Weeks 1-2)** - Learning the footwork and leg threading mechanics without resistance
 Practice the step-over and leg threading motion repeatedly with compliant partner who maintains static position. Focus on smooth execution and correct leg positioning. Drill from various top positions (headquarters, knee slice, float passing). Emphasize proper angle creation before committing to entry.
-(Resistance: None)
 
 **Phase 2: Controlled Entry Drilling (Weeks 3-4)** - Adding basic defensive reactions and maintaining control throughout entry
 Partner provides light resistance by attempting to retract leg or turn away. Practice maintaining leg control while executing entry. Work on recognizing optimal timing windows during passing attempts. Begin connecting entry to basic inside heel hook finishing mechanics.
-(Resistance: Light)
 
 **Phase 3: Situational Sparring (Weeks 5-8)** - Entering saddle from live passing scenarios with medium resistance
 Top player attempts to pass guard with saddle entry as primary objective when opportunities arise. Bottom player plays normal guard retention but allows entries to develop. Focus on transitioning smoothly from passing positions to saddle. Work counter responses to common defenses.
-(Resistance: Medium)
 
 **Phase 4: Competition Timing (Weeks 9-12)** - Recognizing and capitalizing on entry opportunities during full resistance
 Live rolling with focus on saddle entries from top position. Work on chaining entries with passing attempts so opponent cannot predict your intentions. Practice entries against opponents familiar with the defense. Develop ability to recognize fleeting opportunities during scrambles.
-(Resistance: Full)
 
 **Phase 5: System Integration (Months 4-6)** - Connecting saddle entry to complete leg lock system and submission chains
 Integrate saddle entry with multiple submission attacks, transitions to other ashi garami positions, and entry/re-entry sequences. Practice against high-level leg lock defenders. Develop entries from increasingly complex passing positions and scrambles. Work on maintaining saddle against escape attempts.
-(Resistance: Full)
 
 **Phase 6: Ongoing Refinement** - Continuous improvement through competition testing and technical refinement
 Test entry against various body types and defensive styles. Analyze competition footage to identify new entry opportunities. Refine mechanics for efficiency and speed. Develop multiple entry paths to same position. Study high-level competitors' variations and incorporate effective elements.
-(Resistance: Full)
 
 
 

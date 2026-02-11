@@ -169,7 +169,7 @@ The mechanical change involves reconfiguring your leg position from parallel ash
 Strategically, this transition serves as an essential response when opponents successfully defend Inside Ashi attacks by rotating their knee line away from danger. Rather than forcing suboptimal attacks, advanced practitioners recognize when the opponent's defensive movement actually creates better opportunities from Cross Ashi. The ability to fluidly transition between ashi configurations based on opponent reactions is characteristic of high-level leg lock systems and demonstrates sophisticated positional awareness.
 
 **From Position**: [[Inside Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -216,14 +216,14 @@ Strategically, this transition serves as an essential response when opponents su
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess positioning**: Evaluate opponent's hip orientation and knee line. Confirm that Cross Ashi configuration will provide better finishing angles than current Inside Ashi position. Their inward knee rotation often signals this opportunity. (Timing: 1-2 seconds)
-2. **Secure heel grip**: Establish firm two-hand cup grip on opponent's heel with palm across Achilles and fingers toward toes. This grip must be maintained throughout the entire transition sequence to preserve control and submission threat. (Timing: Immediate)
-3. **Anchor inside leg**: Drive your inside leg deeper across opponent's hip to create a stable anchor point. This leg maintains constant pressure throughout the transition and prevents opponent from creating separation or sitting up. (Timing: 0.5 seconds)
-4. **Retract outside leg**: Begin retracting your outside leg from behind opponent's knee while maintaining strong inside leg pressure. Pull your outside knee toward your chest to create space for repositioning to the crossed configuration. (Timing: 0.5-1 second)
-5. **Rotate hips**: Actively rotate your hips to face more directly toward opponent's trapped leg. This hip repositioning creates the perpendicular alignment necessary for Cross Ashi control and optimal finishing leverage. (Timing: Simultaneous with step 4)
-6. **Cross outside leg**: Thread your outside leg across opponent's trapped leg at shin level, positioning your calf against the outside of their lower leg. The cross should be tight with your shin making firm contact and no space between legs. (Timing: 0.5-1 second)
-7. **Adjust inside leg position**: Reposition your inside leg to complete the crossed configuration. Your legs now form an X-pattern around opponent's trapped leg, with the inside leg maintaining hip control while creating the wedge effect. (Timing: 0.5 seconds)
-8. **Consolidate and attack**: Settle into Cross Ashi-Garami by tightening all control points. Verify perpendicular hip alignment and heel exposure. Assess whether to attack immediately with heel hook or advance to Saddle for higher control. (Timing: 1-2 seconds)
+1. **Assess positioning**: Evaluate opponent's hip orientation and knee line. Confirm that Cross Ashi configuration will provide better finishing angles than current Inside Ashi position. Their inward knee rotation often signals this opportunity.
+2. **Secure heel grip**: Establish firm two-hand cup grip on opponent's heel with palm across Achilles and fingers toward toes. This grip must be maintained throughout the entire transition sequence to preserve control and submission threat.
+3. **Anchor inside leg**: Drive your inside leg deeper across opponent's hip to create a stable anchor point. This leg maintains constant pressure throughout the transition and prevents opponent from creating separation or sitting up.
+4. **Retract outside leg**: Begin retracting your outside leg from behind opponent's knee while maintaining strong inside leg pressure. Pull your outside knee toward your chest to create space for repositioning to the crossed configuration.
+5. **Rotate hips**: Actively rotate your hips to face more directly toward opponent's trapped leg. This hip repositioning creates the perpendicular alignment necessary for Cross Ashi control and optimal finishing leverage.
+6. **Cross outside leg**: Thread your outside leg across opponent's trapped leg at shin level, positioning your calf against the outside of their lower leg. The cross should be tight with your shin making firm contact and no space between legs.
+7. **Adjust inside leg position**: Reposition your inside leg to complete the crossed configuration. Your legs now form an X-pattern around opponent's trapped leg, with the inside leg maintaining hip control while creating the wedge effect.
+8. **Consolidate and attack**: Settle into Cross Ashi-Garami by tightening all control points. Verify perpendicular hip alignment and heel exposure. Assess whether to attack immediately with heel hook or advance to Saddle for higher control.
 
 
 </section>
@@ -269,19 +269,15 @@ Strategically, this transition serves as an essential response when opponents su
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the leg reconfiguration movement pattern without resistance. Partner holds static Inside Ashi position while you drill switching to Cross Ashi configuration. Focus on maintaining inside leg anchor and proper hip rotation. Perform 25-30 repetitions per session emphasizing smooth mechanics.
-(Resistance: None)
 
 **Week 3-4** - Grip maintenance
 Add heel grip retention requirement throughout transition. Partner provides light defensive reactions including minor leg retraction and slight hip movement. Focus on never releasing heel control during the switch. Drill 20 transitions per session with grip verification after each repetition.
-(Resistance: Light)
 
 **Week 5-6** - Timing and recognition
 Practice recognizing when Cross Ashi offers better finishing angles than Inside Ashi. Partner varies hip positioning and heel exposure through different defensive reactions. Execute transition only when appropriate, staying in Inside Ashi when it offers better attacks.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Incorporate transition into full leg lock flow training with complete resistance. Start from various leg entanglements and practice transitioning between Inside Ashi, Cross Ashi, Saddle, and 50-50 based on opponent's defensive reactions. Include counter-defense against escape attempts during switch.
-(Resistance: Full)
 
 
 

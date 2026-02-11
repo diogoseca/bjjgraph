@@ -14,11 +14,6 @@
   "submission_type": "Ankle Lock",
   "target_area": "Ankle joint and Achilles tendon",
   "starting_position": "Ashi Garami",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Straight Footlock, also known as the Straight Ankle Lock, represents the fundamental entry point into leg lock systems in Brazilian Jiu-Jitsu. This submission targets the ankle joint and Achilles tendon through a combination of dorsiflexion and compression, creating mechanical pressure that forces the tap. Unlike more advanced leg locks such as heel hooks, the straight footlock is legal across all major competition rulesets including IBJJF white belt divisions, making it an essential technique for practitioners at every level. The submission's effectiveness lies in its accessibility from multiple positions including Ashi Garami variations, single leg X-guard, and even from top pressure positions. The straight footlock teaches fundamental principles of leg entanglement, hip positioning, and rotational control that serve as the foundation for more advanced leg attack systems. When executed properly, the technique creates a powerful fulcrum against the ankle while the practitioner's arms function as a compression unit, generating increasing pressure as the hips extend. The submission's relatively lower injury risk compared to knee-targeting attacks makes it an ideal teaching tool for developing leg lock competency, though proper application speed and tap recognition remain absolutely critical for training safety.",
   "safety_considerations": {
     "injury_risks": [
@@ -90,43 +85,37 @@
       "step_number": 1,
       "action": "Establish Ashi Garami control",
       "description": "Secure the leg entanglement with your inside leg crossing over opponent's trapped leg at the hip, your outside leg hooking behind their knee or posted on the mat. Ensure your hips are positioned higher than their knee joint to establish proper mechanical advantage for the finish.",
-      "timing": "Take 2-3 seconds to settle into stable position",
-      "pressure_level": "Light"
+      "timing": "Take 2-3 seconds to settle into stable position"
     },
     {
       "step_number": 2,
       "action": "Secure the foot grip",
       "description": "Wrap both arms around opponent's foot, ensuring the blade of your forearm (thumb-side radius bone) is positioned directly across their Achilles tendon. The foot should be pulled into your armpit or pressed against your ribcage. Clasp your hands together using either a gable grip or figure-four grip, with elbows tight to your body.",
-      "timing": "1-2 seconds for grip establishment",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds for grip establishment"
     },
     {
       "step_number": 3,
       "action": "Adjust hip alignment",
       "description": "Angle your hips at approximately 45 degrees to opponent's body, creating a strong structural line from your shoulders through your hips. Your hips should be slightly higher than their trapped knee. Lean your upper body backward while maintaining tight arm compression on the foot.",
-      "timing": "1 second adjustment",
-      "pressure_level": "Moderate"
+      "timing": "1 second adjustment"
     },
     {
       "step_number": 4,
       "action": "Pinch knees together",
       "description": "Squeeze your knees toward each other to trap opponent's leg and prevent external rotation of their hip, which is their primary escape mechanism. This creates a vice-like control that immobilizes the leg while you prepare to extend.",
-      "timing": "Immediate and constant",
-      "pressure_level": "Firm"
+      "timing": "Immediate and constant"
     },
     {
       "step_number": 5,
       "action": "Initiate hip extension",
       "description": "Drive your hips backward away from opponent while simultaneously pulling their foot tight to your chest. This creates dorsiflexion at the ankle joint. The movement should be smooth and controlled, not explosive. Your forearm acts as a fulcrum point against the Achilles tendon while your arms compress the foot.",
-      "timing": "3-4 seconds progressive pressure increase",
-      "pressure_level": "Firm"
+      "timing": "3-4 seconds progressive pressure increase"
     },
     {
       "step_number": 6,
       "action": "Maintain position until tap",
       "description": "Continue steady backward hip pressure while keeping arms locked tight and knees pinched. Monitor partner for tap signals constantly. The moment any tap signal occurs, immediately cease all pressure and begin release protocol. Never continue pressure after submission signal.",
-      "timing": "Hold until tap, typically 2-5 seconds",
-      "pressure_level": "Maximum"
+      "timing": "Hold until tap, typically 2-5 seconds"
     }
   ],
   "opponent_defense_patterns": [
@@ -160,44 +149,37 @@
     {
       "error": "Pulling with the arms instead of driving with the hips",
       "consequence": "Dramatically reduces submission effectiveness, wastes energy, and allows opponent time to defend or escape",
-      "correction": "Focus on hip extension as the primary pressure source. Arms should compress and hold, while hips create the finishing force by driving backward",
-      "danger_level": "Low"
+      "correction": "Focus on hip extension as the primary pressure source. Arms should compress and hold, while hips create the finishing force by driving backward"
     },
     {
       "error": "Positioning the bicep or wrist against Achilles instead of forearm blade",
       "consequence": "Loss of structural integrity in the finish, allows opponent to pull foot free, reduces pain compliance significantly",
-      "correction": "Adjust arm position so the bony ridge of your forearm (thumb-side radius) is the contact point against their Achilles tendon, creating a hard surface for the fulcrum",
-      "danger_level": "Low"
+      "correction": "Adjust arm position so the bony ridge of your forearm (thumb-side radius) is the contact point against their Achilles tendon, creating a hard surface for the fulcrum"
     },
     {
       "error": "Failing to control hip rotation with knee pinch",
       "consequence": "Opponent easily rotates out of the submission by externally rotating their hip, escaping before any real pressure develops",
-      "correction": "Actively squeeze knees together throughout the entire finish, creating a vice that prevents leg rotation and locks opponent in place",
-      "danger_level": "Low"
+      "correction": "Actively squeeze knees together throughout the entire finish, creating a vice that prevents leg rotation and locks opponent in place"
     },
     {
       "error": "Hips positioned too low or level with opponent's knee",
       "consequence": "Eliminates mechanical advantage, makes submission nearly impossible to finish, allows opponent to easily come on top",
-      "correction": "Ensure hips are elevated above opponent's knee joint before attempting finish. Scoot backward if necessary to create proper angle",
-      "danger_level": "Medium"
+      "correction": "Ensure hips are elevated above opponent's knee joint before attempting finish. Scoot backward if necessary to create proper angle"
     },
     {
       "error": "Explosive jerking or spiking the submission",
       "consequence": "High risk of serious ankle ligament damage or Achilles rupture, potential career-ending injury to training partner",
-      "correction": "Apply pressure progressively over 3-5 seconds minimum. The submission should feel like a gradually increasing vise, not a sudden spike",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure progressively over 3-5 seconds minimum. The submission should feel like a gradually increasing vise, not a sudden spike"
     },
     {
       "error": "Continuing pressure after tap signal",
       "consequence": "Guaranteed injury to partner, violation of training safety protocols, potential for serious ankle or tendon damage",
-      "correction": "Maintain constant awareness of partner's tap signals. The instant any tap occurs, cease all pressure immediately and begin controlled release protocol",
-      "danger_level": "CRITICAL"
+      "correction": "Maintain constant awareness of partner's tap signals. The instant any tap occurs, cease all pressure immediately and begin controlled release protocol"
     },
     {
       "error": "Neglecting to secure opponent's heel in armpit or against ribs",
       "consequence": "Opponent can point toes and slip foot through the grip, escaping the submission entirely",
-      "correction": "Pull heel deep into armpit and squeeze it against ribcage before beginning hip extension. The heel should feel locked in place",
-      "danger_level": "Low"
+      "correction": "Pull heel deep into armpit and squeeze it against ribcage before beginning hip extension. The heel should feel locked in place"
     }
   ],
   "variations_and_setups": [
@@ -289,50 +271,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Weeks 1-2",
-      "focus": "Learn proper Ashi Garami positioning, foot grip mechanics, and hip alignment without applying any finishing pressure. Study anatomy of ankle joint and Achilles tendon to understand injury mechanisms.",
-      "resistance_level": "None",
-      "safety_emphasis": "Zero pressure application - focus entirely on position and structure. Partner remains completely relaxed. Instructor supervision mandatory."
-    },
-    {
-      "phase": "Slow Controlled Practice",
-      "timeframe": "Weeks 3-4",
-      "focus": "Practice entry sequences and proper grip placement with partner providing zero resistance. Begin applying minimal pressure (10-15% maximum) with extremely slow hip extension over 10+ seconds. Partner taps early and often.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Mandatory 10+ second application time. Partner taps at first sensation of pressure. Practice tap recognition and immediate release protocol repeatedly."
-    },
-    {
-      "phase": "Progressive Resistance Introduction",
-      "timeframe": "Weeks 5-8",
-      "focus": "Partner begins providing mild defensive frames and basic escapes while you maintain position. Increase pressure to 30-40% while maintaining 5-7 second minimum application time. Emphasis on control before submission.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner still taps early before pain threshold. Focus on recognizing positional weakness before attempting finish. Multiple rounds of position-only training."
-    },
-    {
-      "phase": "Realistic Defensive Scenarios",
-      "timeframe": "Weeks 9-12",
-      "focus": "Partner provides realistic defensive responses including hip rotation, sitting up, and grip fighting. Practice transitions between Ashi variations. Build to 60-70% pressure with 4-5 second application minimum.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners must have clear verbal communication about pressure levels. Introduce positional sparring rounds with submission attempts ending position. Begin competition rule restriction awareness."
-    },
-    {
-      "phase": "Live Application",
-      "timeframe": "Weeks 13-16",
-      "focus": "Integrate straight footlock into live rolling from various positions. Chain with other submissions and sweeps. Apply 80-90% pressure with 3-5 second minimum application in training context (never 100% spike).",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain training application speed distinct from competition. Partner responsibility to tap earlier than competition. Regular check-ins about ankle soreness or fatigue. Limit repeated applications on same leg."
-    },
-    {
-      "phase": "Competition Preparation",
-      "timeframe": "Weeks 17+",
-      "focus": "Refine entries from guard pulls, scrambles, and passing situations. Develop combination attacks. Understand rule set restrictions (IBJJF vs sub-only vs no-gi). Mental preparation for recognizing taps under pressure.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "In competition, be prepared for delayed taps and maintain control. In training, continue using 3-5 second minimum application regardless of experience level. Regular review of injury prevention protocols."
-    }
-  ],
   "from_positions": [
     "Ashi Garami",
     "Outside Ashi-Garami",
@@ -396,5 +334,6 @@
       "name": "Straight Ankle Lock Control",
       "relationship": "Control position variant for the same submission mechanics"
     }
-  ]
+  ],
+  "success_rate": 58
 }

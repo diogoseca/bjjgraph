@@ -21,37 +21,37 @@ description: "Master Turtle Top position in BJJ. Offensive position with multipl
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Control",
-      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 16% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Control. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Anaconda",
-      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Anaconda. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Front Headlock to Darce",
-      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Front Headlock to Darce. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crucifix from Turtle",
-      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Crucifix from Turtle. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle Flatten to Side Control",
-      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Turtle Flatten to Side Control. This technique is attempted in 12% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Truck Entry",
-      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Truck Entry. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -204,21 +204,25 @@ Turtle Top is an offensive position where the practitioner attacks an opponent w
 
 ## Available Attacks
 
-### [[Turtle to Back Control]] (16% of attempts)
+### [[Turtle to Back Control]] (13% of attempts)
 
-### [[Front Headlock to Anaconda]] (13% of attempts)
+### [[Front Headlock to Anaconda]] (10% of attempts)
 
-### [[Front Headlock to Darce]] (13% of attempts)
+### [[Front Headlock to Darce]] (10% of attempts)
 
-### [[Crucifix from Turtle]] (11% of attempts)
+### [[Crucifix from Turtle]] (9% of attempts)
 
-### [[Turtle Flatten to Side Control]] (15% of attempts)
+### [[Turtle Flatten to Side Control]] (12% of attempts)
 
-### [[Turtle to Truck Entry]] (9% of attempts)
+### [[Turtle to Truck Entry]] (7% of attempts)
 
-### [[Front Headlock to Guillotine]] (12% of attempts)
+### [[Front Headlock to Guillotine]] (10% of attempts)
 
-### [[Kimura from Turtle]] (11% of attempts)
+### [[Kimura from Turtle]] (9% of attempts)
+
+### [[Arm Triangle from Turtle]] (10% of attempts)
+
+### [[Turtle to Standing]] (10% of attempts)
 
 
 
@@ -369,11 +373,11 @@ Partner in turtle defends with various escape attempts (granby, standup, sit-thr
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 45% | 20% |
-| Intermediate | 65% | 60% | 35% |
-| Advanced     | 80% | 75% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 68% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 15-45 seconds before transition to dominant position
 

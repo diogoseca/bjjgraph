@@ -157,7 +157,7 @@ The transition addresses a fundamental problem in leg lock exchanges: when oppon
 Strategically, this transition represents a positional improvement rather than a direct submission attempt. While ushiro offers attack opportunities, outside ashi-garami provides superior hip control, clearer heel exposure, and better transition options to saddle or honey hole. Advanced practitioners recognize when maintaining ushiro is disadvantageous and proactively return to outside ashi before losing control entirely. The technique requires understanding both leg entanglement configurations and the biomechanical principles that make outside ashi preferable for most finishing sequences.
 
 **From Position**: [[Ushiro Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ Strategically, this transition represents a positional improvement rather than a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess control depth**: Evaluate your current ushiro position to confirm inside leg control is sufficient for transition. Your inside leg should be controlling opponent's thigh with heel hooked behind their knee or calf. If control is shallow, consolidate before attempting transition. (Timing: Before initiating)
-2. **Control free leg**: Use your outside leg to pin opponent's free leg against their body or the mat, preventing them from posting or pushing during the transition. This removes their primary tool for resisting the hip reversal movement. (Timing: Immediately)
-3. **Release outside crossing**: Temporarily release your outside leg from its crossing position over opponent's trapped knee while maintaining strong inside leg control. Your hands should grip their heel or ankle area to prevent any leg extraction during this vulnerable moment. (Timing: 1-2 seconds)
-4. **Drive knee line back**: Push opponent's trapped knee away from their body and back toward neutral alignment using your inside leg and hip pressure. This reverses their inversion by rotating their hips back to standard orientation facing you. (Timing: Explosive)
-5. **Re-establish outside position**: As opponent's hips rotate back, bring your outside leg over their knee line to establish standard outside ashi-garami configuration. Your outside knee should cross over their trapped leg while inside leg stays underneath, creating the proper figure-four. (Timing: Immediately after hip rotation)
-6. **Consolidate and attack**: Once in outside ashi-garami, adjust your hip position to optimal finishing angle and establish heel hook grips. Confirm opponent cannot re-invert by controlling their hip line with your leg pressure before committing to submission attempt. (Timing: 2-3 seconds)
+1. **Assess control depth**: Evaluate your current ushiro position to confirm inside leg control is sufficient for transition. Your inside leg should be controlling opponent's thigh with heel hooked behind their knee or calf. If control is shallow, consolidate before attempting transition.
+2. **Control free leg**: Use your outside leg to pin opponent's free leg against their body or the mat, preventing them from posting or pushing during the transition. This removes their primary tool for resisting the hip reversal movement.
+3. **Release outside crossing**: Temporarily release your outside leg from its crossing position over opponent's trapped knee while maintaining strong inside leg control. Your hands should grip their heel or ankle area to prevent any leg extraction during this vulnerable moment.
+4. **Drive knee line back**: Push opponent's trapped knee away from their body and back toward neutral alignment using your inside leg and hip pressure. This reverses their inversion by rotating their hips back to standard orientation facing you.
+5. **Re-establish outside position**: As opponent's hips rotate back, bring your outside leg over their knee line to establish standard outside ashi-garami configuration. Your outside knee should cross over their trapped leg while inside leg stays underneath, creating the proper figure-four.
+6. **Consolidate and attack**: Once in outside ashi-garami, adjust your hip position to optimal finishing angle and establish heel hook grips. Confirm opponent cannot re-invert by controlling their hip line with your leg pressure before committing to submission attempt.
 
 
 </section>
@@ -249,19 +249,15 @@ Strategically, this transition represents a positional improvement rather than a
 ## Training Progressions
 **Week 1-2** - Positional recognition
 Learn to identify when ushiro ashi-garami is degrading and outside ashi would be preferable. Practice the leg configuration changes with a cooperative partner, understanding how the figure-four shifts during transition. No resistance, focus on smooth movement patterns.
-(Resistance: None)
 
 **Week 3-4** - Timing development
 Partner provides light resistance with slow inversion attempts. Practice recognizing the moment when their rotation stalls and initiating the return to outside ashi. Develop sensitivity for when transition is viable versus when following to back is better.
-(Resistance: Light)
 
 **Week 5-6** - Integration with attacks
 Chain the transition with immediate heel hook or ankle lock attempts upon arriving in outside ashi. Partner provides medium resistance including attempts to re-invert or counter-entangle. Practice decision-making between completing transition and abandoning for back take.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply in positional sparring and full rolling. Focus on reading opponents' escape intentions and choosing appropriate response: maintain ushiro, return to outside ashi, transition to saddle, or follow to back. Develop instinctive selection based on opponent's movements.
-(Resistance: Full)
 
 
 

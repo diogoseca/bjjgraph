@@ -173,7 +173,7 @@
         "actions": [
           {
             "technique": "Darce from Turtle",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 50
           },
           {
@@ -274,21 +274,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Ability to maintain top position against Matrix attempts"
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70,
+        "value": 62,
         "description": "Likelihood of advancing to better position after defending Matrix"
       },
       "submission_probability": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50,
+        "value": 42,
         "description": "Probability of finishing submission through counter-attacks"
       },
       "average_time": "1-3 seconds to recognize and defend Matrix entry, 5-8 seconds total to reestablish offensive position"
@@ -555,21 +549,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70,
+        "value": 60,
         "description": "Ability to maintain position during rotation and complete back take"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Likelihood of successfully advancing to back control"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 50,
+        "value": 40,
         "description": "Probability of finishing submission from resulting back control"
       },
       "average_time": "2-4 seconds for rotation execution, 5-10 seconds total to establish back control"

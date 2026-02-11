@@ -10,11 +10,6 @@
     "passing",
     "strategy"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Float Passing is a dynamic guard passing approach that emphasizes movement, timing, and minimal pressure to navigate around the opponent's guard. Unlike traditional pressure passing, float passing relies on quick transitions, constant movement, and strategic positioning to bypass defensive frames and leg configurations. The technique is particularly effective against flexible opponents or those with strong retention games who excel at recovering guard under pressure. Float passing creates passing opportunities by forcing opponents to constantly adjust their defensive structures, eventually exposing gaps in their guard retention. This approach requires excellent balance, timing, and the ability to read opponent reactions in real-time, making it a favorite among competitors who prefer speed and athleticism over grinding pressure.",
   "key_principles": [
     "Maintain minimal pressure to stay mobile and responsive",
@@ -37,38 +32,32 @@
     {
       "step_number": 1,
       "action": "Establish initial control",
-      "description": "From standing or combat base, secure grips on opponent's pants at the knees or ankles while maintaining proper posture. Keep your hips back and weight distributed to prevent off-balancing. Establish distance that allows you to control their legs while staying mobile.",
-      "timing": "Initial setup phase"
+      "description": "From standing or combat base, secure grips on opponent's pants at the knees or ankles while maintaining proper posture. Keep your hips back and weight distributed to prevent off-balancing. Establish distance that allows you to control their legs while staying mobile."
     },
     {
       "step_number": 2,
       "action": "Begin floating movement",
-      "description": "Start moving laterally around the opponent's guard, using small quick steps while maintaining your grips. Keep your weight light and mobile, ready to change direction instantly. Your movement should be unpredictable, mixing clockwise and counterclockwise circles around their hips.",
-      "timing": "Continuous movement phase"
+      "description": "Start moving laterally around the opponent's guard, using small quick steps while maintaining your grips. Keep your weight light and mobile, ready to change direction instantly. Your movement should be unpredictable, mixing clockwise and counterclockwise circles around their hips."
     },
     {
       "step_number": 3,
       "action": "Control leg frames",
-      "description": "As you circle, use your grips to redirect opponent's legs away from your passing path. Push one leg down or across while stepping around the other. Your grip manipulation should complement your footwork, creating openings in their defensive structure.",
-      "timing": "During lateral movement"
+      "description": "As you circle, use your grips to redirect opponent's legs away from your passing path. Push one leg down or across while stepping around the other. Your grip manipulation should complement your footwork, creating openings in their defensive structure."
     },
     {
       "step_number": 4,
       "action": "Identify passing window",
-      "description": "Watch for moments when opponent's legs separate or when their frames momentarily collapse due to your constant movement. These windows appear when they adjust their guard retention or attempt to recover structure. Recognize the opening immediately through their hip position and leg configuration.",
-      "timing": "Recognition phase - occurs multiple times"
+      "description": "Watch for moments when opponent's legs separate or when their frames momentarily collapse due to your constant movement. These windows appear when they adjust their guard retention or attempt to recover structure. Recognize the opening immediately through their hip position and leg configuration."
     },
     {
       "step_number": 5,
       "action": "Execute passing transition",
-      "description": "The instant you identify an opening, transition from floating to passing. Drop your weight forward while stepping your near leg past their bottom leg. Your chest should move toward their upper body as you establish shoulder pressure. This transition must be explosive and committed once initiated.",
-      "timing": "Explosive commitment - 0.5-1 second window"
+      "description": "The instant you identify an opening, transition from floating to passing. Drop your weight forward while stepping your near leg past their bottom leg. Your chest should move toward their upper body as you establish shoulder pressure. This transition must be explosive and committed once initiated."
     },
     {
       "step_number": 6,
       "action": "Secure passing position",
-      "description": "As you pass, immediately establish cross-face control with your near arm while your far arm controls their far hip or underhooks their far arm. Drive your shoulder into their face while keeping your hips low and heavy. Consolidate to side control by getting your chest perpendicular to theirs and securing dominant grips.",
-      "timing": "Final consolidation phase"
+      "description": "As you pass, immediately establish cross-face control with your near arm while your far arm controls their far hip or underhooks their far arm. Drive your shoulder into their face while keeping your hips low and heavy. Consolidate to side control by getting your chest perpendicular to theirs and securing dominant grips."
     }
   ],
   "common_counters": [
@@ -124,38 +113,32 @@
     {
       "phase": "Week 1-2: Movement Fundamentals",
       "focus": "Developing footwork and balance during floating movements",
-      "description": "Practice floating movements around static opponent. Focus on maintaining balance, proper posture, and grip control while moving laterally. Partner remains passive, holding guard structure but not actively defending. Work on smooth directional changes and staying light on your feet.",
-      "resistance_level": "None"
+      "description": "Practice floating movements around static opponent. Focus on maintaining balance, proper posture, and grip control while moving laterally. Partner remains passive, holding guard structure but not actively defending. Work on smooth directional changes and staying light on your feet."
     },
     {
       "phase": "Week 3-4: Timing Recognition",
       "focus": "Identifying passing windows during movement",
-      "description": "Partner adds light active guard retention, adjusting legs and frames as you float. Practice recognizing moments when their structure momentarily collapses or legs separate. Initially, partner signals when windows appear. Progress to recognizing windows independently without signals.",
-      "resistance_level": "Light"
+      "description": "Partner adds light active guard retention, adjusting legs and frames as you float. Practice recognizing moments when their structure momentarily collapses or legs separate. Initially, partner signals when windows appear. Progress to recognizing windows independently without signals."
     },
     {
       "phase": "Week 5-8: Commitment and Transition",
       "focus": "Explosive passing when windows appear",
-      "description": "Combine floating movement with committed passing transitions. Partner provides moderate resistance with guard retention but allows passes when windows genuinely open. Focus on decisive commitment once you identify the opening. Drill the transition from floating to passing until it becomes reflexive.",
-      "resistance_level": "Medium"
+      "description": "Combine floating movement with committed passing transitions. Partner provides moderate resistance with guard retention but allows passes when windows genuinely open. Focus on decisive commitment once you identify the opening. Drill the transition from floating to passing until it becomes reflexive."
     },
     {
       "phase": "Week 9-12: Counter Defense",
       "focus": "Maintaining position against common counters",
-      "description": "Partner actively attempts sweeps, recoveries, and defensive reactions during your float passing. Practice defending sweeps while maintaining floating posture, breaking grips efficiently, and adjusting to opponent's counter strategies. Focus on staying safe while creating passing opportunities.",
-      "resistance_level": "Medium"
+      "description": "Partner actively attempts sweeps, recoveries, and defensive reactions during your float passing. Practice defending sweeps while maintaining floating posture, breaking grips efficiently, and adjusting to opponent's counter strategies. Focus on staying safe while creating passing opportunities."
     },
     {
       "phase": "Week 13+: Live Integration",
       "focus": "Applying float passing against full resistance",
-      "description": "Full-speed positional sparring from open guard with float passing as primary strategy. Partner uses their best guard retention and offensive attacks. Work on reading different guard styles, adapting floating patterns to various opponents, and developing your personal float passing rhythm.",
-      "resistance_level": "Full"
+      "description": "Full-speed positional sparring from open guard with float passing as primary strategy. Partner uses their best guard retention and offensive attacks. Work on reading different guard styles, adapting floating patterns to various opponents, and developing your personal float passing rhythm."
     },
     {
       "phase": "Ongoing: Style Development",
       "focus": "Developing personal float passing variations",
-      "description": "Experiment with combining float passing with other passing styles. Develop your signature movement patterns, grip configurations, and passing entries. Study high-level competitors who excel at float passing and integrate their concepts into your game. Continue refining against diverse opponents.",
-      "resistance_level": "Full"
+      "description": "Experiment with combining float passing with other passing styles. Develop your signature movement patterns, grip configurations, and passing entries. Study high-level competitors who excel at float passing and integrate their concepts into your game. Continue refining against diverse opponents."
     }
   ],
   "variants_and_adaptations": [
@@ -183,33 +166,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the fundamental difference between float passing and pressure passing?",
-      "answer": "Float passing emphasizes minimal pressure, constant movement, and quick transitions to navigate around the guard, while pressure passing uses heavy weight, static control, and grinding force to collapse defensive structures. Float passing maintains mobility and lightness, whereas pressure passing prioritizes control and suffocating pressure. Float passing is more effective against flexible opponents with strong guard retention, while pressure passing works better against less mobile or less technical opponents.",
-      "difficulty": "Beginner"
+      "answer": "Float passing emphasizes minimal pressure, constant movement, and quick transitions to navigate around the guard, while pressure passing uses heavy weight, static control, and grinding force to collapse defensive structures. Float passing maintains mobility and lightness, whereas pressure passing prioritizes control and suffocating pressure. Float passing is more effective against flexible opponents with strong guard retention, while pressure passing works better against less mobile or less technical opponents."
     },
     {
       "question": "What are the key indicators that a passing window has opened during float passing?",
-      "answer": "Passing windows appear when opponent's legs separate or frames momentarily collapse due to constant movement adjustments. Key indicators include: gap between their legs becoming visible, their hips flattening to the mat instead of staying on their side, their knee frames extending too far from their body, or their attention divided between defending multiple angles simultaneously. The window typically lasts only 0.5-1 seconds, requiring immediate recognition and commitment.",
-      "difficulty": "Intermediate"
+      "answer": "Passing windows appear when opponent's legs separate or frames momentarily collapse due to constant movement adjustments. Key indicators include: gap between their legs becoming visible, their hips flattening to the mat instead of staying on their side, their knee frames extending too far from their body, or their attention divided between defending multiple angles simultaneously. The window typically lasts only 0.5-1 seconds, requiring immediate recognition and commitment."
     },
     {
       "question": "How should you adjust your floating pattern when facing different guard styles?",
-      "answer": "Against hook-based guards (De La Riva, X-Guard), focus on circular movements that prevent hook establishment and create backstep opportunities. Against collar-sleeve guards, use more distance and larger circles to stay out of grip range while controlling the legs. Against butterfly guard, maintain higher posture and use smaller, quicker movements to prevent sweeps. Against seated guards, mix levels between standing and combat base to prevent them from establishing strong upper body control. Adapt your floating speed, distance, and direction based on the opponent's primary defensive tools.",
-      "difficulty": "Advanced"
+      "answer": "Against hook-based guards (De La Riva, X-Guard), focus on circular movements that prevent hook establishment and create backstep opportunities. Against collar-sleeve guards, use more distance and larger circles to stay out of grip range while controlling the legs. Against butterfly guard, maintain higher posture and use smaller, quicker movements to prevent sweeps. Against seated guards, mix levels between standing and combat base to prevent them from establishing strong upper body control. Adapt your floating speed, distance, and direction based on the opponent's primary defensive tools."
     },
     {
       "question": "Why is grip control critical during float passing movements?",
-      "answer": "Grip control during floating movements serves multiple purposes: it controls opponent's leg positioning and prevents them from establishing strong frames, it provides stability and connection while you move laterally, it allows you to redirect their legs away from your passing path, and it prevents them from attacking with sweeps or submissions during your movement. Without consistent grip pressure, opponent can freely adjust their guard structure, establish stronger defensive positions, or time offensive attacks during your transitions.",
-      "difficulty": "Intermediate"
+      "answer": "Grip control during floating movements serves multiple purposes: it controls opponent's leg positioning and prevents them from establishing strong frames, it provides stability and connection while you move laterally, it allows you to redirect their legs away from your passing path, and it prevents them from attacking with sweeps or submissions during your movement. Without consistent grip pressure, opponent can freely adjust their guard structure, establish stronger defensive positions, or time offensive attacks during your transitions."
     },
     {
       "question": "What is the proper timing for transitioning from floating movement to committed passing?",
-      "answer": "The transition should occur the instant you recognize a genuine passing window, characterized by separation in opponent's leg frames or collapse in their defensive structure. The commitment must be explosive and decisive—hesitation allows the window to close. However, premature commitment before the window fully opens results in strong resistance and potential sweeps. The skill lies in patient floating until the window appears, then immediate explosive transition. If you meet significant resistance during the pass attempt, the window wasn't truly open—return to floating rather than forcing the pass.",
-      "difficulty": "Advanced"
+      "answer": "The transition should occur the instant you recognize a genuine passing window, characterized by separation in opponent's leg frames or collapse in their defensive structure. The commitment must be explosive and decisive—hesitation allows the window to close. However, premature commitment before the window fully opens results in strong resistance and potential sweeps. The skill lies in patient floating until the window appears, then immediate explosive transition. If you meet significant resistance during the pass attempt, the window wasn't truly open—return to floating rather than forcing the pass."
     },
     {
       "question": "How do you maintain balance and prevent sweeps during lateral floating movements?",
-      "answer": "Maintain balance by keeping weight on the balls of your feet with knees slightly bent, hips elevated and mobile, and torso upright with proper posture. Distribute weight evenly between both legs during movement, never crossing your feet or bringing them too close together. Keep hands active with grip control that provides both offensive manipulation and defensive posts if needed. Stay aware of opponent's sweep timing—if they commit to a sweep, immediately post your free hand, sprawl your hips back, and maintain leg control to defend. Good base during floating comes from dynamic balance and constant micro-adjustments rather than static positioning.",
-      "difficulty": "Intermediate"
+      "answer": "Maintain balance by keeping weight on the balls of your feet with knees slightly bent, hips elevated and mobile, and torso upright with proper posture. Distribute weight evenly between both legs during movement, never crossing your feet or bringing them too close together. Keep hands active with grip control that provides both offensive manipulation and defensive posts if needed. Stay aware of opponent's sweep timing—if they commit to a sweep, immediately post your free hand, sprawl your hips back, and maintain leg control to defend. Good base during floating comes from dynamic balance and constant micro-adjustments rather than static positioning."
     }
   ],
   "safety_considerations": "Float passing is generally safe when practiced with proper control and progressive resistance. Key safety points: maintain awareness of your balance to avoid falling onto opponent with uncontrolled weight, control your speed when transitioning from floating to passing to prevent knee or ankle injuries to both partners, communicate with training partners about resistance levels during drilling phases, avoid explosive movements before proper warm-up to prevent muscle strains, be cautious when floating around leg lock positions—maintain distance from entanglements until you understand the threats, practice proper falling technique if you lose balance during floating movements to protect yourself and your partner. When consolidating to side control, apply pressure gradually rather than dropping full weight suddenly. Progress resistance slowly over weeks to build the physical conditioning needed for sustained floating movements without exhausting yourself and compromising technique safety.",
@@ -281,5 +258,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -157,7 +157,7 @@ From a strategic standpoint, the Kimura from Crucifix serves as a secondary atta
 The mechanics of executing the Kimura from Crucifix differ from standard Kimura positions because you're attacking from behind rather than from a perpendicular angle. This requires specific adjustments in grip positioning and rotational force application. The crucifix position provides exceptional control throughout the submission attempt, making it difficult for the opponent to escape or create defensive angles even when they recognize the attack developing.
 
 **From Position**: [[Crucifix/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The mechanics of executing the Kimura from Crucifix differ from standard Kimura 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure wrist control**: From crucifix top, ensure you have a solid grip on the opponent's far wrist with your controlling hand. The grip should be four fingers over the wrist with thumb wrapping underneath, positioned so their palm faces away from their body. (Timing: Immediately after opponent commits to neck defense)
-2. **Thread the figure-four grip**: While maintaining wrist control, thread your other arm under their upper arm from the outside, reaching up to grip your own wrist. Your forearm should be positioned against their tricep area, creating the classic double wristlock configuration. (Timing: Quick transition to prevent opponent recognizing the attack)
-3. **Pin the elbow**: Draw their elbow tight to your ribcage and body by squeezing your arms together and pulling toward yourself. This removes slack from the system and prevents them from straightening their arm, which would defeat the submission mechanics. (Timing: Immediately after securing the figure-four)
-4. **Adjust hip position**: Shift your hips slightly to create a perpendicular angle to their shoulder joint. This hip adjustment changes the direction of force application and increases the mechanical advantage of the shoulder rotation. Maintain leg pressure on their trapped arm throughout. (Timing: While maintaining grip pressure)
-5. **Apply rotational force**: Begin rotating their arm by painting their hand in an arc toward their hip and then toward their back. The motion is circular, not linear—imagine drawing their hand along an arc that wraps around their body. Use your entire body, not just your arms. (Timing: Slow, controlled pressure application)
-6. **Finish the submission**: Continue the rotational pressure until the opponent taps or you feel the shoulder reaching its mechanical limit. Keep the elbow pinned tight throughout the finish. Be prepared to immediately release upon tap signal to prevent injury to your training partner. (Timing: Controlled escalation—give opponent time to tap)
+1. **Secure wrist control**: From crucifix top, ensure you have a solid grip on the opponent's far wrist with your controlling hand. The grip should be four fingers over the wrist with thumb wrapping underneath, positioned so their palm faces away from their body.
+2. **Thread the figure-four grip**: While maintaining wrist control, thread your other arm under their upper arm from the outside, reaching up to grip your own wrist. Your forearm should be positioned against their tricep area, creating the classic double wristlock configuration.
+3. **Pin the elbow**: Draw their elbow tight to your ribcage and body by squeezing your arms together and pulling toward yourself. This removes slack from the system and prevents them from straightening their arm, which would defeat the submission mechanics.
+4. **Adjust hip position**: Shift your hips slightly to create a perpendicular angle to their shoulder joint. This hip adjustment changes the direction of force application and increases the mechanical advantage of the shoulder rotation. Maintain leg pressure on their trapped arm throughout.
+5. **Apply rotational force**: Begin rotating their arm by painting their hand in an arc toward their hip and then toward their back. The motion is circular, not linear—imagine drawing their hand along an arc that wraps around their body. Use your entire body, not just your arms.
+6. **Finish the submission**: Continue the rotational pressure until the opponent taps or you feel the shoulder reaching its mechanical limit. Keep the elbow pinned tight throughout the finish. Be prepared to immediately release upon tap signal to prevent injury to your training partner.
 
 
 </section>
@@ -253,19 +253,15 @@ The mechanics of executing the Kimura from Crucifix differ from standard Kimura 
 ## Training Progressions
 **Week 1-2** - Grip mechanics and positioning
 Drill the figure-four grip entry from crucifix position with no resistance. Focus on proper hand placement, threading the arm correctly, and pinning the elbow. Partner remains static while you practice the grip sequence 20-30 times per side.
-(Resistance: None)
 
 **Week 3-4** - Rotational mechanics and timing
 Add light resistance where partner defends at 25-50% effort. Practice the complete motion from grip to finish, emphasizing circular rotation rather than lifting. Develop feel for proper pressure application and when to accelerate the finish.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and counter-counters
 Partner defends at 75% effort using known counters (straightening arm, grip fighting, rolling). Practice transitioning between Kimura and other crucifix attacks (chokes, armbar) based on their defensive reactions. Develop the attack-chain mentality.
-(Resistance: Medium)
 
 **Week 7+** - Live application and scenario drilling
 Incorporate into positional sparring starting from crucifix position. Also practice entering crucifix specifically to attack Kimura. Test against fully resisting opponents and refine timing windows and grip adjustments under pressure.
-(Resistance: Full)
 
 
 

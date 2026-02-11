@@ -397,11 +397,11 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 60% | 65% | 55% |
-| Intermediate | 75% | 80% | 70% |
-| Advanced     | 85% | 90% | 85% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 80% |
+| Advancement Probability | 85% |
+| Submission Probability | 78% |
 
 **Average Time in Position**: 45-90 seconds until submission or position advancement
 
@@ -421,7 +421,7 @@ Chain attacks from mounted crucifix creating tactical dilemmas. Attack neck with
 - **[[Armbar Control]]** - Submission position - crucifix creates easy armbar entries
 - **[[Seat Belt Control Back]]** - Transition target - natural progression when taking back from crucifix
 - **[[Mount]]** - Foundation position - mounted crucifix builds upon standard mount control
-- **[[North South Control]]** - Alternative control - can transition to for different attack angles
+- **[[North-South]]** - Alternative control - can transition to for different attack angles
 - **[[Kimura Trap]]** - Related arm control - similar principles of isolating opponent's limbs
 
 

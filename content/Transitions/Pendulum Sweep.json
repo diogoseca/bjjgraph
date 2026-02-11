@@ -8,11 +8,6 @@
     "fundamental",
     "guard-attack"
   ],
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 60,
-    "advanced": 75
-  },
   "overview": "The Pendulum Sweep is a fundamental and highly effective attack from closed guard that exploits the opponent's defensive posture when they post their hand to the mat. Named for the pendulum-like leg motion that generates sweeping momentum, this technique is one of the first sweeps taught to beginners due to its mechanical efficiency and high success rate. The sweep works by creating a powerful lever system using your legs while controlling the opponent's upper body, making it extremely difficult to defend once properly initiated. Unlike many sweeps that require breaking the opponent's posture forward, the Pendulum Sweep actually works best when the opponent maintains upright posture or even leans back, making it an ideal complement to other closed guard attacks. The technique's effectiveness comes from the combination of hip movement, proper gripping, and the pendulum motion of the outside leg, which creates overwhelming rotational force that dumps the opponent directly into mount position. Mastering this sweep provides practitioners with a reliable path from defensive bottom position to dominant top position.",
   "key_principles": [
     "Control opponent's sleeve and collar to break their base structure",
@@ -35,38 +30,32 @@
     {
       "step_number": 1,
       "action": "Establish grips",
-      "description": "Secure a firm grip on the opponent's same-side sleeve with your hand, controlling at the wrist or elbow. With your other hand, grip the opposite collar deep, or alternatively grip the opposite lapel. These grips will break the opponent's posting ability and provide leverage for the sweep.",
-      "timing": "Initial setup phase"
+      "description": "Secure a firm grip on the opponent's same-side sleeve with your hand, controlling at the wrist or elbow. With your other hand, grip the opposite collar deep, or alternatively grip the opposite lapel. These grips will break the opponent's posting ability and provide leverage for the sweep."
     },
     {
       "step_number": 2,
       "action": "Open guard and create angle",
-      "description": "Uncross your ankles and open your closed guard. Immediately place your same-side foot on the opponent's hip (the side where you're gripping their sleeve) while keeping your other leg wrapped around their back. Begin shifting your hips out to the side, creating a 45-90 degree angle with your body perpendicular to the opponent's centerline.",
-      "timing": "0.5-1 second transition"
+      "description": "Uncross your ankles and open your closed guard. Immediately place your same-side foot on the opponent's hip (the side where you're gripping their sleeve) while keeping your other leg wrapped around their back. Begin shifting your hips out to the side, creating a 45-90 degree angle with your body perpendicular to the opponent's centerline."
     },
     {
       "step_number": 3,
       "action": "Extend and chamber the pendulum leg",
-      "description": "Fully extend your outside leg (opposite side from sleeve grip) straight up toward the ceiling, keeping it close to the opponent's shoulder. This leg will become the pendulum. Simultaneously, use your foot on the hip to push and create more angle while pulling with your grips to off-balance the opponent to their posting side.",
-      "timing": "Synchronize with hip movement"
+      "description": "Fully extend your outside leg (opposite side from sleeve grip) straight up toward the ceiling, keeping it close to the opponent's shoulder. This leg will become the pendulum. Simultaneously, use your foot on the hip to push and create more angle while pulling with your grips to off-balance the opponent to their posting side."
     },
     {
       "step_number": 4,
       "action": "Execute pendulum swing",
-      "description": "With explosive force, swing your extended leg down in an arc like a pendulum, driving it toward the mat on the opposite side of the opponent's body. The leg should pass close to the opponent's head and shoulder, creating rotational momentum. Keep the leg straight and maintain speed throughout the arc.",
-      "timing": "1-1.5 second explosive motion"
+      "description": "With explosive force, swing your extended leg down in an arc like a pendulum, driving it toward the mat on the opposite side of the opponent's body. The leg should pass close to the opponent's head and shoulder, creating rotational momentum. Keep the leg straight and maintain speed throughout the arc."
     },
     {
       "step_number": 5,
       "action": "Pull and drive through",
-      "description": "As your pendulum leg swings down, simultaneously pull hard with both grips, especially the sleeve grip, to break the opponent's base. Your hip-side foot pushes off the opponent's hip while you crunch your core and pull them over your body. The combination of pendulum force, grip pulls, and hip drive creates overwhelming sweeping power.",
-      "timing": "Coordinate all forces simultaneously"
+      "description": "As your pendulum leg swings down, simultaneously pull hard with both grips, especially the sleeve grip, to break the opponent's base. Your hip-side foot pushes off the opponent's hip while you crunch your core and pull them over your body. The combination of pendulum force, grip pulls, and hip drive creates overwhelming sweeping power."
     },
     {
       "step_number": 6,
       "action": "Complete sweep to mount",
-      "description": "Continue the rotational motion until the opponent fully rotates over your body and lands on their back. As they fall, follow through with your momentum, keeping your grips and immediately moving into mount position. Your pendulum leg comes over their body as you establish mount, and your other leg follows to complete the position.",
-      "timing": "Smooth continuous motion to completion"
+      "description": "Continue the rotational motion until the opponent fully rotates over your body and lands on their back. As they fall, follow through with your momentum, keeping your grips and immediately moving into mount position. Your pendulum leg comes over their body as you establish mount, and your other leg follows to complete the position."
     }
   ],
   "common_counters": [
@@ -127,38 +116,32 @@
     {
       "phase": "Week 1-2: Foundation Mechanics",
       "focus": "Hip movement and pendulum leg motion",
-      "description": "Practice opening guard, creating angle with hips, and swinging pendulum leg in proper arc without a partner. Focus on the biomechanics of the movement. With compliant partner, drill the complete motion slowly, emphasizing proper angle creation and leg extension.",
-      "resistance_level": "None"
+      "description": "Practice opening guard, creating angle with hips, and swinging pendulum leg in proper arc without a partner. Focus on the biomechanics of the movement. With compliant partner, drill the complete motion slowly, emphasizing proper angle creation and leg extension."
     },
     {
       "phase": "Week 3-4: Grip Integration",
       "focus": "Coordinating grips with sweeping motion",
-      "description": "Add proper sleeve and collar grips to the drill. Practice timing the pull with the pendulum swing. Partner provides light resistance by maintaining base but not actively defending. Work on feeling when opponent's weight shifts to posting side.",
-      "resistance_level": "Light"
+      "description": "Add proper sleeve and collar grips to the drill. Practice timing the pull with the pendulum swing. Partner provides light resistance by maintaining base but not actively defending. Work on feeling when opponent's weight shifts to posting side."
     },
     {
       "phase": "Week 5-8: Timing and Setup",
       "focus": "Reading opponent's reactions and creating sweep opportunities",
-      "description": "Practice setting up the sweep from closed guard by threatening other attacks (Triangle, Kimura) to provoke posting response. Partner provides moderate resistance. Work on recognizing the moment when opponent posts and immediately transitioning to pendulum sweep.",
-      "resistance_level": "Medium"
+      "description": "Practice setting up the sweep from closed guard by threatening other attacks (Triangle, Kimura) to provoke posting response. Partner provides moderate resistance. Work on recognizing the moment when opponent posts and immediately transitioning to pendulum sweep."
     },
     {
       "phase": "Week 9-12: Follow-through to Mount",
       "focus": "Completing the sweep and securing dominant position",
-      "description": "Emphasize the transition from sweep completion to mount establishment. Partner may attempt to prevent mount after being swept. Practice maintaining grips and using momentum to secure mount despite resistance. Add multiple repetitions with reset.",
-      "resistance_level": "Medium"
+      "description": "Emphasize the transition from sweep completion to mount establishment. Partner may attempt to prevent mount after being swept. Practice maintaining grips and using momentum to secure mount despite resistance. Add multiple repetitions with reset."
     },
     {
       "phase": "Month 4+: Countering Defenses",
       "focus": "Adapting to opponent's defensive reactions",
-      "description": "Partner actively defends with various counters (wide base, standing, grip stripping). Practice recognizing and countering each defense, including transitions to Triangle, Omoplata, or alternative sweeps. Work on maintaining attacking initiative even when initial sweep is defended.",
-      "resistance_level": "Full"
+      "description": "Partner actively defends with various counters (wide base, standing, grip stripping). Practice recognizing and countering each defense, including transitions to Triangle, Omoplata, or alternative sweeps. Work on maintaining attacking initiative even when initial sweep is defended."
     },
     {
       "phase": "Ongoing: Live Training Integration",
       "focus": "Application during positional and free sparring",
-      "description": "Incorporate Pendulum Sweep into regular positional sparring from closed guard. Set goals for successful sweep execution during live rolling. Focus on setting up the sweep through combinations rather than relying on the technique in isolation.",
-      "resistance_level": "Full"
+      "description": "Incorporate Pendulum Sweep into regular positional sparring from closed guard. Set goals for successful sweep execution during live rolling. Focus on setting up the sweep through combinations rather than relying on the technique in isolation."
     }
   ],
   "variants_and_adaptations": [
@@ -186,33 +169,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary mechanical principle that makes the Pendulum Sweep effective?",
-      "answer": "The primary mechanical principle is the creation of rotational force through the combination of the pendulum leg's arc motion, which generates momentum around the opponent's center of gravity, combined with simultaneous upper body control through grips. The straight leg acts as a lever arm, and when swung in an arc close to the opponent's body while pulling with the grips, it creates overwhelming rotational force that is extremely difficult to resist. The angle created by the hips is crucial because it positions your body perpendicular to the opponent, maximizing the leverage of this rotational force.",
-      "difficulty": "Intermediate"
+      "answer": "The primary mechanical principle is the creation of rotational force through the combination of the pendulum leg's arc motion, which generates momentum around the opponent's center of gravity, combined with simultaneous upper body control through grips. The straight leg acts as a lever arm, and when swung in an arc close to the opponent's body while pulling with the grips, it creates overwhelming rotational force that is extremely difficult to resist. The angle created by the hips is crucial because it positions your body perpendicular to the opponent, maximizing the leverage of this rotational force."
     },
     {
       "question": "Why is it important to create a 45-90 degree angle with your hips before executing the pendulum motion?",
-      "answer": "Creating the proper angle with your hips is essential because it positions your body perpendicular to the opponent's centerline, which maximizes the leverage and rotational force of the sweep. Without this angle, you would be trying to sweep from directly underneath the opponent where they have the strongest base. The angle also allows the pendulum leg to swing in a proper arc that generates maximum momentum. Additionally, this angle makes it mechanically easier to pull the opponent over your body rather than trying to push them straight up, which would require fighting against gravity instead of using it to your advantage.",
-      "difficulty": "Beginner"
+      "answer": "Creating the proper angle with your hips is essential because it positions your body perpendicular to the opponent's centerline, which maximizes the leverage and rotational force of the sweep. Without this angle, you would be trying to sweep from directly underneath the opponent where they have the strongest base. The angle also allows the pendulum leg to swing in a proper arc that generates maximum momentum. Additionally, this angle makes it mechanically easier to pull the opponent over your body rather than trying to push them straight up, which would require fighting against gravity instead of using it to your advantage."
     },
     {
       "question": "What should you do if the opponent pulls their sleeve free just as you're initiating the pendulum motion?",
-      "answer": "If the opponent pulls their sleeve free and posts on the mat, you should immediately abandon the pendulum sweep and attack the posted arm. The best options are to transition to a Kimura grip on the posted arm, which gives you a powerful submission and sweeping opportunity, or to switch to a different sweep that capitalizes on their new position. The key is to maintain your attacking initiative and not simply accept the defensive position. You can also consider transitioning to Triangle Choke if the posting creates the right angle and spacing for that attack.",
-      "difficulty": "Advanced"
+      "answer": "If the opponent pulls their sleeve free and posts on the mat, you should immediately abandon the pendulum sweep and attack the posted arm. The best options are to transition to a Kimura grip on the posted arm, which gives you a powerful submission and sweeping opportunity, or to switch to a different sweep that capitalizes on their new position. The key is to maintain your attacking initiative and not simply accept the defensive position. You can also consider transitioning to Triangle Choke if the posting creates the right angle and spacing for that attack."
     },
     {
       "question": "How does the Pendulum Sweep differ from other closed guard sweeps in terms of when it works best?",
-      "answer": "Unlike sweeps such as the Hip Bump or Flower Sweep which work best when the opponent's posture is broken forward and they're driving into you, the Pendulum Sweep is most effective when the opponent maintains upright or backward-leaning posture. This makes it an excellent complementary technique in a closed guard system because it covers the situations where forward-breaking sweeps won't work. The Pendulum Sweep also specifically capitalizes on the opponent posting their hand to defend other attacks, making it ideal as a follow-up technique when your initial attack forces a defensive reaction.",
-      "difficulty": "Intermediate"
+      "answer": "Unlike sweeps such as the Hip Bump or Flower Sweep which work best when the opponent's posture is broken forward and they're driving into you, the Pendulum Sweep is most effective when the opponent maintains upright or backward-leaning posture. This makes it an excellent complementary technique in a closed guard system because it covers the situations where forward-breaking sweeps won't work. The Pendulum Sweep also specifically capitalizes on the opponent posting their hand to defend other attacks, making it ideal as a follow-up technique when your initial attack forces a defensive reaction."
     },
     {
       "question": "What are the key differences between executing a Pendulum Sweep in gi versus no-gi, and how do you adapt the technique?",
-      "answer": "In gi, you can rely on strong collar and sleeve grips that provide superior control and won't slip even under heavy pressure. In no-gi, you must replace these with body locks, overhooks, or wrist controls that require tighter engagement and more precise timing because they're less secure. The core mechanics of the pendulum motion remain the same, but in no-gi you need to maintain closer contact with the opponent and may need to execute the sweep more explosively since your grips are less reliable. You also need to anticipate that the opponent may be able to pull their arms free more easily, so having immediate follow-up options ready is even more critical in no-gi situations.",
-      "difficulty": "Advanced"
+      "answer": "In gi, you can rely on strong collar and sleeve grips that provide superior control and won't slip even under heavy pressure. In no-gi, you must replace these with body locks, overhooks, or wrist controls that require tighter engagement and more precise timing because they're less secure. The core mechanics of the pendulum motion remain the same, but in no-gi you need to maintain closer contact with the opponent and may need to execute the sweep more explosively since your grips are less reliable. You also need to anticipate that the opponent may be able to pull their arms free more easily, so having immediate follow-up options ready is even more critical in no-gi situations."
     },
     {
       "question": "Why must the pendulum leg remain straight throughout the sweeping motion rather than bent?",
-      "answer": "The pendulum leg must remain straight because it functions as a rigid lever arm that transfers maximum momentum to the opponent. A straight leg maximizes the length of the lever and the arc of the swing, creating much greater rotational force. When the leg is bent, it shortens the effective lever arm and reduces the momentum generated, similar to how a bent crowbar has less leverage than a straight one. Additionally, a straight leg maintains consistent contact and pressure against the opponent throughout the arc, whereas a bent leg would create inconsistent force application that the opponent could more easily resist or escape.",
-      "difficulty": "Beginner"
+      "answer": "The pendulum leg must remain straight because it functions as a rigid lever arm that transfers maximum momentum to the opponent. A straight leg maximizes the length of the lever and the arc of the swing, creating much greater rotational force. When the leg is bent, it shortens the effective lever arm and reduces the momentum generated, similar to how a bent crowbar has less leverage than a straight one. Additionally, a straight leg maintains consistent contact and pressure against the opponent throughout the arc, whereas a bent leg would create inconsistent force application that the opponent could more easily resist or escape."
     }
   ],
   "safety_considerations": "The Pendulum Sweep is generally a very safe technique for both practitioners when executed properly. The primary safety concern is ensuring controlled execution during the sweeping motion to avoid the opponent falling awkwardly or having insufficient time to protect their head when landing. When drilling, start slowly and allow your partner to become familiar with the falling motion. For the person being swept, practice proper breakfall technique by tucking your chin and using your arms to absorb impact. Avoid forcefully swinging the pendulum leg into the opponent's face or head; the leg should pass close to their shoulder but not strike them. When teaching beginners, emphasize the importance of maintaining control throughout the sweep rather than executing it explosively before they understand the mechanics. As with all sweeps, be mindful of training surfaces and ensure adequate mat space to complete the technique safely.",
@@ -276,5 +253,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 68
 }

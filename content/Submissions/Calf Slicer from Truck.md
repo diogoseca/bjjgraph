@@ -163,7 +163,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 **Type**: Leg Compression Lock
 **Target Area**: Calf muscle and knee joint
 **Starting Position**: [[Truck]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -243,13 +243,13 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Truck Position**: From truck position, ensure your opponent is face-down with their back controlled by your chest pressure. Your top leg should be over their hip, and your bottom leg should be threading under their trapped leg. Maintain a harness or seat belt grip on their upper body to prevent them from turning into you. Your weight should be distributed across their back, keeping them flat and unable to establish defensive frames. (Timing: 2-3 seconds to verify position) [Pressure: Moderate]
-2. **Isolate the Target Leg**: Identify which of their legs is trapped in your leg configuration - this is your target leg. Use your bottom leg (the one threading under) to hook deeply around their thigh, pulling it tight to your body. Simultaneously, use your top leg to drive pressure over their hip, rotating their hips away and preventing them from rolling toward you. This isolation prevents them from straightening the leg or extracting it from your control. (Timing: 1-2 seconds) [Pressure: Firm]
-3. **Insert Shin Behind Calf**: Carefully slide your shin (of your bottom leg) behind their calf muscle, positioning the bone directly across the belly of their gastrocnemius. Your shin should be perpendicular to their lower leg, creating a wedge. This requires you to adjust your hip angle slightly - rotate your hips toward their legs while maintaining upper body control. The precise placement is critical: too high (behind the knee) risks joint damage without the compression component; too low (near the achilles) loses effectiveness. (Timing: 2-3 seconds for precise placement) [Pressure: Light]
-4. **Control the Heel**: Reach down with your outside arm (the arm on the same side as your top leg) and grip their heel or foot firmly. Your grip should be on the heel itself or across the top of the foot, never pulling on the toes alone. Maintain your upper body pressure with your other arm posted or controlling their shoulder. This heel control is what allows you to create the compression angle by pulling their foot toward their hamstring. (Timing: 1-2 seconds) [Pressure: Moderate]
-5. **Create Compression Angle**: Begin pulling their heel toward their own hamstring while simultaneously driving your shin deeper into their calf muscle. This creates the characteristic compression that defines the calf slicer. Your shin acts as a wedge, and their calf muscle is compressed between your shin bone and their own hamstring. Maintain hip pressure with your top leg to prevent them from straightening their leg, which would relieve the pressure. The angle should feel like you're trying to fold their lower leg onto their upper leg. (Timing: 3-5 seconds progressive application) [Pressure: Moderate]
-6. **Apply Progressive Pressure**: Increase the compression slowly and progressively over 5-7 seconds minimum. Pull their heel closer to their hamstring while driving your shin deeper across the calf. Add hip pressure by driving your top leg over their hip, which rotates them further away and prevents escape. Monitor constantly for tap signals - calf slicers can cause muscle tears before pain becomes unbearable, so early taps are common. If they don't tap within 7-8 seconds of moderate pressure, consider transitioning to alternative attacks rather than forcing the submission. (Timing: 5-7 seconds minimum) [Pressure: Firm]
-7. **Finish or Transition**: If opponent taps, immediately release following the safety protocol. If they begin straightening their leg or extracting their calf from your shin wedge, transition immediately to alternative submissions: rotate to Twister control, switch to a Banana Split, or transition to back control with both hooks. Never chase a failing calf slicer by adding explosive pressure - the injury risk is too high. Successful finishes occur within 7-8 seconds of proper setup; resistance beyond this indicates positional adjustment is needed. (Timing: Immediate response to tap or resistance) [Pressure: Maximum]
+1. **Secure Truck Position**: From truck position, ensure your opponent is face-down with their back controlled by your chest pressure. Your top leg should be over their hip, and your bottom leg should be threading under their trapped leg. Maintain a harness or seat belt grip on their upper body to prevent them from turning into you. Your weight should be distributed across their back, keeping them flat and unable to establish defensive frames. (Timing: 2-3 seconds to verify position)
+2. **Isolate the Target Leg**: Identify which of their legs is trapped in your leg configuration - this is your target leg. Use your bottom leg (the one threading under) to hook deeply around their thigh, pulling it tight to your body. Simultaneously, use your top leg to drive pressure over their hip, rotating their hips away and preventing them from rolling toward you. This isolation prevents them from straightening the leg or extracting it from your control. (Timing: 1-2 seconds)
+3. **Insert Shin Behind Calf**: Carefully slide your shin (of your bottom leg) behind their calf muscle, positioning the bone directly across the belly of their gastrocnemius. Your shin should be perpendicular to their lower leg, creating a wedge. This requires you to adjust your hip angle slightly - rotate your hips toward their legs while maintaining upper body control. The precise placement is critical: too high (behind the knee) risks joint damage without the compression component; too low (near the achilles) loses effectiveness. (Timing: 2-3 seconds for precise placement)
+4. **Control the Heel**: Reach down with your outside arm (the arm on the same side as your top leg) and grip their heel or foot firmly. Your grip should be on the heel itself or across the top of the foot, never pulling on the toes alone. Maintain your upper body pressure with your other arm posted or controlling their shoulder. This heel control is what allows you to create the compression angle by pulling their foot toward their hamstring. (Timing: 1-2 seconds)
+5. **Create Compression Angle**: Begin pulling their heel toward their own hamstring while simultaneously driving your shin deeper into their calf muscle. This creates the characteristic compression that defines the calf slicer. Your shin acts as a wedge, and their calf muscle is compressed between your shin bone and their own hamstring. Maintain hip pressure with your top leg to prevent them from straightening their leg, which would relieve the pressure. The angle should feel like you're trying to fold their lower leg onto their upper leg. (Timing: 3-5 seconds progressive application)
+6. **Apply Progressive Pressure**: Increase the compression slowly and progressively over 5-7 seconds minimum. Pull their heel closer to their hamstring while driving your shin deeper across the calf. Add hip pressure by driving your top leg over their hip, which rotates them further away and prevents escape. Monitor constantly for tap signals - calf slicers can cause muscle tears before pain becomes unbearable, so early taps are common. If they don't tap within 7-8 seconds of moderate pressure, consider transitioning to alternative attacks rather than forcing the submission. (Timing: 5-7 seconds minimum)
+7. **Finish or Transition**: If opponent taps, immediately release following the safety protocol. If they begin straightening their leg or extracting their calf from your shin wedge, transition immediately to alternative submissions: rotate to Twister control, switch to a Banana Split, or transition to back control with both hooks. Never chase a failing calf slicer by adding explosive pressure - the injury risk is too high. Successful finishes occur within 7-8 seconds of proper setup; resistance beyond this indicates positional adjustment is needed. (Timing: Immediate response to tap or resistance)
 
 
 </section>
@@ -269,25 +269,25 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Placing shin behind the knee joint instead of across the calf muscle [CRITICAL DANGER]
+- **Mistake**: Placing shin behind the knee joint instead of across the calf muscle
   - **Consequence**: Creates pure knee ligament stress without compression, increasing injury risk dramatically while decreasing effectiveness
   - **Correction**: Your shin must be positioned on the meaty part of their calf muscle, several inches below the knee joint. Check placement before applying any pressure - you should feel the muscle belly, not the hollow behind the knee.
-- **Mistake**: Jerking or spiking the heel pull instead of progressive application [CRITICAL DANGER]
+- **Mistake**: Jerking or spiking the heel pull instead of progressive application
   - **Consequence**: Can cause immediate muscle rupture before opponent can tap; creates training injuries and breaks trust with partners
   - **Correction**: Apply pressure gradually over minimum 5-7 seconds. Think 'pressure cooker' not 'explosion' - slow, steady increase in compression. Monitor your training partner's face and breathing for distress signals.
-- **Mistake**: Losing upper body control while focusing on the leg attack [Medium DANGER]
+- **Mistake**: Losing upper body control while focusing on the leg attack
   - **Consequence**: Opponent escapes the truck position by rolling toward you, eliminating the submission and often reversing position
   - **Correction**: Maintain chest pressure or harness control throughout. Your upper body must pin their upper back to the mat while your legs work the submission. Use your free hand to control their far shoulder if needed.
-- **Mistake**: Attempting the submission without proper truck position established [Low DANGER]
+- **Mistake**: Attempting the submission without proper truck position established
   - **Consequence**: Low success rate, wasted energy, and opportunity for opponent to pass your guard or escape
   - **Correction**: Complete the truck position sequence first: back control, leg trap, hip twist, base broken. Only then should you attack the calf slicer. Position before submission - always.
-- **Mistake**: Pulling on toes instead of controlling the heel [High DANGER]
+- **Mistake**: Pulling on toes instead of controlling the heel
   - **Consequence**: Risk of toe/metatarsal injury, insufficient control for effective compression, opponent can slip their foot free
   - **Correction**: Grip the heel bone itself or cup the entire foot from the top. Your fingers should wrap around the heel, not grab individual toes. This provides stronger control and safer application.
-- **Mistake**: Failing to transition when opponent successfully defends [Medium DANGER]
+- **Mistake**: Failing to transition when opponent successfully defends
   - **Consequence**: Burning energy on a failed submission, allowing opponent time to compose defensive strategy and potentially escape
   - **Correction**: Set a mental timer: 7-8 seconds of proper pressure should produce a tap. If not, immediately flow to Twister, Banana Split, or back control. Never force a failing calf slicer.
-- **Mistake**: Forgetting to drive hip pressure over their hip [High DANGER]
+- **Mistake**: Forgetting to drive hip pressure over their hip
   - **Consequence**: Opponent can straighten their leg or extract their calf from your shin wedge, completely negating the submission
   - **Correction**: Your top leg must actively drive over their hip throughout the entire submission sequence. This hip pressure is what prevents leg straightening and maintains the compression angle. Think of it as a clamp.
 
@@ -352,43 +352,6 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Weeks 1-2: 4-6 sessions)
-- Focus: Study truck position mechanics, calf slicer anatomy, and injury mechanisms through solo drilling and instructional review. Understand the submission theoretically before physical practice. Review video footage of proper application and common errors. Learn to identify the calf muscle belly vs knee joint anatomically.
-- Resistance: None
-- Safety: Memorize all injury risks, tap signals, and release protocols before attempting on a partner. Understand that compression submissions can cause muscle damage before pain becomes severe. Require instructor demonstration and supervision.
-
-**Positional Mastery** (Weeks 3-4: 6-8 sessions)
-- Focus: Master truck position control completely independent of the submission. Drill truck entries from back control, half guard, and turtle. Practice maintaining truck control against progressive resistance for 30+ seconds. The submission cannot be learned safely without absolute positional confidence.
-- Resistance: Mild resistance
-- Safety: Position before submission always. Do not attempt calf slicer until you can maintain truck control for minimum 30 seconds against resisting opponent. Partner safety depends on your control foundation.
-
-**Slow Static Application** (Weeks 5-6: 8-10 sessions)
-- Focus: Practice shin placement, heel control, and compression angle on fully cooperative partners. Apply zero finishing pressure - focus entirely on positioning your shin correctly across the calf muscle, achieving proper heel grip, and understanding the compression geometry. Partner provides feedback on placement accuracy.
-- Resistance: Zero resistance
-- Safety: No finishing pressure whatsoever. Partners tap immediately when proper compression angle is achieved, before any pain occurs. Emphasize communication: attacker asks 'Is placement correct?' before any pressure application. Establish tap protocol and practice release procedure 3-5 times per session.
-
-**Progressive Pressure Introduction** (Weeks 7-10: 10-15 sessions)
-- Focus: Begin applying very light compression pressure with mandatory 7-10 second application window. Partner taps at first sensation of discomfort, well before pain. Attacker practices reading body language and breathing patterns for distress signals. Maximum 3-5 repetitions per session to prevent muscle fatigue injuries.
-- Resistance: Zero resistance
-- Safety: Partner taps at 20-30% of pain threshold. Absolutely no ego - tapping early is mandatory protocol. Monitor for next-day muscle soreness; if present, reduce pressure further in next session. Verbal check-ins required: 'Pressure okay?' before increasing. Minimum 2-minute rest between attempts to allow muscle recovery.
-
-**Realistic Application with Defense** (Weeks 11-16: 15-20 sessions)
-- Focus: Partner begins defending with realistic but controlled resistance. Practice the submission against leg straightening, hip rotation, and space creation defenses. Learn to recognize when submission isn't available and transition to alternatives. Build the Twister/Banana Split/back control chain.
-- Resistance: Realistic resistance
-- Safety: Early taps remain mandatory even with resistance. Attacker must release immediately on any resistance that requires explosive counter-pressure - never force the submission through defense. Partners alternate roles to develop empathy for how the pressure feels. Debrief after each attempt: 'Was that too much pressure?' Regular safety reminders from instructor/senior practitioner.
-
-**Competition Simulation and System Integration** (Weeks 17+: Ongoing refinement)
-- Focus: Integrate calf slicer into your truck position system with seamless transitions between multiple finish options. Practice in competition-style sparring rounds but maintain training speed application (never match speed). Develop sensitivity to when the submission is genuinely available vs when it's a low-percentage attempt.
-- Resistance: Full resistance
-- Safety: Competition speed application is PROHIBITED even in competition simulation - maintain 5-7 second progressive application always in training. This submission is reserved for competition or extremely advanced practitioners with mutual understanding. Build reputation as safe training partner by never spiking the submission. Accept that some opponents won't tap until injury - release and transition rather than injure training partners.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -442,6 +405,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

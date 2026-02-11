@@ -157,7 +157,7 @@ The escape sequence follows a strict hierarchy of priorities: first protect your
 Strategically, the Back Escape Series creates a decision tree where your opponent must constantly choose between maintaining control and pursuing submissions. By threatening to escape, you force them into reactive defense of their position rather than proactive submission hunting. Advanced practitioners chain multiple escape attempts together, using failed initial attempts to set up secondary escapes as the opponent adjusts their control points.
 
 **From Position**: [[Back Control/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ Strategically, the Back Escape Series creates a decision tree where your opponen
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure neck defense**: Immediately tuck your chin tightly to your chest and grab the opponent's choking arm with both hands in a two-on-one grip, pulling their wrist toward your chest to prevent the choke from getting deep (Timing: Instant response when back is taken)
-2. **Fight the seatbelt grip**: While maintaining neck defense, use your bottom hand to strip the opponent's overhook grip by pushing their wrist toward the mat, breaking the connection that traps your shoulder and arm (Timing: Once neck is protected)
-3. **Create angle toward underhook side**: Hip escape diagonally toward the side where opponent has the underhook (not the overhook), as this side offers weaker control and creates the angle needed to turn into your opponent (Timing: As seatbelt grip weakens)
-4. **Clear the bottom hook**: Use your same-side leg to trap their bottom hook against the mat by pressing your knee down, then slide your hips away from the trapped hook to free your lower body from their leg control (Timing: After creating angle)
-5. **Turn toward opponent**: With the bottom hook cleared and angle established, turn your shoulders and hips toward your opponent, using frames on their shoulder and hip to prevent them from re-establishing back control as you rotate (Timing: Immediately after clearing hook)
-6. **Establish guard**: Complete the turn by getting your hips to the mat facing your opponent, immediately establishing frames and recovering to open guard with feet on their hips or transitioning to closed guard if they pressure forward (Timing: Complete rotation as quickly as possible)
+1. **Secure neck defense**: Immediately tuck your chin tightly to your chest and grab the opponent's choking arm with both hands in a two-on-one grip, pulling their wrist toward your chest to prevent the choke from getting deep
+2. **Fight the seatbelt grip**: While maintaining neck defense, use your bottom hand to strip the opponent's overhook grip by pushing their wrist toward the mat, breaking the connection that traps your shoulder and arm
+3. **Create angle toward underhook side**: Hip escape diagonally toward the side where opponent has the underhook (not the overhook), as this side offers weaker control and creates the angle needed to turn into your opponent
+4. **Clear the bottom hook**: Use your same-side leg to trap their bottom hook against the mat by pressing your knee down, then slide your hips away from the trapped hook to free your lower body from their leg control
+5. **Turn toward opponent**: With the bottom hook cleared and angle established, turn your shoulders and hips toward your opponent, using frames on their shoulder and hip to prevent them from re-establishing back control as you rotate
+6. **Establish guard**: Complete the turn by getting your hips to the mat facing your opponent, immediately establishing frames and recovering to open guard with feet on their hips or transitioning to closed guard if they pressure forward
 
 
 </section>
@@ -256,19 +256,15 @@ Strategically, the Back Escape Series creates a decision tree where your opponen
 ## Training Progressions
 **Week 1-2** - Neck defense fundamentals
 Practice two-on-one grip fighting on the choking arm with partner applying light choke pressure. Focus on chin position, grip placement, and preventing the arm from getting under the chin. Develop muscle memory for immediate neck protection response.
-(Resistance: None)
 
 **Week 3-4** - Hip escape mechanics
 Drill the directional hip escape toward the underhook side with partner maintaining static back control. Practice identifying which side to escape toward and executing the angle creation without partner resisting. Add light resistance as movement becomes fluid.
-(Resistance: Light)
 
 **Week 5-6** - Complete escape sequences
 Chain all phases together: neck defense, seatbelt strip, hip escape, hook clear, and turn to guard. Partner provides moderate resistance at each phase, allowing technique completion but requiring proper execution. Practice both gi and no-gi variations.
-(Resistance: Medium)
 
 **Week 7+** - Live escape training
 Positional sparring starting from back control with partner actively hunting submissions while you escape. Develop timing for exploiting submission attempts as escape windows. Progress to full rolling with emphasis on back escape situations.
-(Resistance: Full)
 
 
 

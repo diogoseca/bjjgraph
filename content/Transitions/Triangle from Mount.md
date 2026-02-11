@@ -169,7 +169,7 @@ Strategically, Triangle from Mount functions as a chain-attack catalyst. When th
 At competition level, the mounted triangle is devastating because it combines positional dominance with immediate submission threat. The attacker retains mount points while threatening a blood choke, and failed defense typically leads to armbar or back take opportunities rather than positional loss. The key challenge is managing the transition moment when the leg swings over—this brief window of instability is where most failures occur, making timing and weight distribution the critical variables for success.
 
 **From Position**: [[3-4 Mount/Top]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -216,14 +216,14 @@ At competition level, the mounted triangle is devastating because it combines po
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate the arm**: From 3-4 Mount, use cross-face pressure and wrist control to push one of the opponent's arms across their centerline while keeping the other arm trapped between your hip and their torso. The goal is a clear arm-in, arm-out separation where one arm is inside your triangle space and one is outside. (Timing: Begin when opponent's defensive frames are compromised or after they defend an armbar/Americana attempt)
-2. **Secure wrist control**: Grip the wrist of the arm that will remain inside the triangle with your opposite hand, pinning it to the opponent's chest or the mat beside their head. This prevents them from withdrawing the arm during your leg transition and maintains the arm-in configuration. (Timing: Immediately after isolating the arm configuration)
-3. **Shift weight forward**: Drive your chest weight forward toward the opponent's face, loading pressure onto their upper chest and shoulders. Post your free hand on the mat beside their head for base. This forward weight shift pins their shoulders flat and creates the clearance your posted leg needs to swing over their shoulder. (Timing: Smooth transition—do not pause between weight shift and leg movement)
-4. **Swing posted leg over shoulder**: Lift your posted leg (the outside leg in 3-4 Mount) and swing it over the opponent's far shoulder, threading your hamstring across the back of their neck. The knee should clear their shoulder and drop to the mat on the opposite side. Keep your mounted knee anchored against their ribs throughout to maintain control during this transition. (Timing: Execute in one fluid motion while chest pressure keeps opponent pinned)
-5. **Lock the triangle**: Once your leg clears the shoulder, immediately hook your ankle behind the knee of your other leg (the previously mounted leg) to form the triangle configuration. Squeeze your knees together to close the space around their neck and trapped arm. Your thighs should compress both sides of their neck with the trapped arm pressing against one carotid artery. (Timing: Lock immediately—any delay allows opponent to posture or extract the trapped arm)
-6. **Adjust angle and consolidate**: Rotate your hips approximately 30-45 degrees perpendicular to the opponent's body to maximize the choking angle. Pull the opponent's head down with both hands or an overhook on the trapped arm side. Squeeze your thighs and elevate your hips slightly to tighten the triangle compression against the carotid arteries on both sides of the neck. (Timing: Adjust within 2-3 seconds of locking—opponent's defense window closes rapidly under mounted triangle pressure)
-7. **Control posture for finish**: Pull the opponent's head down toward their chest using a cupping grip behind the crown of their skull or by overhooking their trapped arm and pulling their elbow across your centerline. Maintain heavy hip pressure to prevent them from sitting up or stacking. The combination of leg squeeze, angle, and posture control creates the mounted triangle control position. (Timing: Continuous pressure—maintain until transitioning to finish or chain attack)
-8. **Establish mounted triangle control**: Consolidate the position by ensuring your weight remains on top, your triangle lock is tight with no slack, and the opponent's posture is completely broken. From this control position, you can work toward the triangle choke finish, transition to armbar on the trapped arm, or take the back if the opponent attempts to roll. This is the mounted triangle hub from which all finishing sequences begin. (Timing: Hold and assess defensive reactions before committing to a finishing sequence)
+1. **Isolate the arm**: From 3-4 Mount, use cross-face pressure and wrist control to push one of the opponent's arms across their centerline while keeping the other arm trapped between your hip and their torso. The goal is a clear arm-in, arm-out separation where one arm is inside your triangle space and one is outside.
+2. **Secure wrist control**: Grip the wrist of the arm that will remain inside the triangle with your opposite hand, pinning it to the opponent's chest or the mat beside their head. This prevents them from withdrawing the arm during your leg transition and maintains the arm-in configuration.
+3. **Shift weight forward**: Drive your chest weight forward toward the opponent's face, loading pressure onto their upper chest and shoulders. Post your free hand on the mat beside their head for base. This forward weight shift pins their shoulders flat and creates the clearance your posted leg needs to swing over their shoulder.
+4. **Swing posted leg over shoulder**: Lift your posted leg (the outside leg in 3-4 Mount) and swing it over the opponent's far shoulder, threading your hamstring across the back of their neck. The knee should clear their shoulder and drop to the mat on the opposite side. Keep your mounted knee anchored against their ribs throughout to maintain control during this transition.
+5. **Lock the triangle**: Once your leg clears the shoulder, immediately hook your ankle behind the knee of your other leg (the previously mounted leg) to form the triangle configuration. Squeeze your knees together to close the space around their neck and trapped arm. Your thighs should compress both sides of their neck with the trapped arm pressing against one carotid artery.
+6. **Adjust angle and consolidate**: Rotate your hips approximately 30-45 degrees perpendicular to the opponent's body to maximize the choking angle. Pull the opponent's head down with both hands or an overhook on the trapped arm side. Squeeze your thighs and elevate your hips slightly to tighten the triangle compression against the carotid arteries on both sides of the neck.
+7. **Control posture for finish**: Pull the opponent's head down toward their chest using a cupping grip behind the crown of their skull or by overhooking their trapped arm and pulling their elbow across your centerline. Maintain heavy hip pressure to prevent them from sitting up or stacking. The combination of leg squeeze, angle, and posture control creates the mounted triangle control position.
+8. **Establish mounted triangle control**: Consolidate the position by ensuring your weight remains on top, your triangle lock is tight with no slack, and the opponent's posture is completely broken. From this control position, you can work toward the triangle choke finish, transition to armbar on the trapped arm, or take the back if the opponent attempts to roll. This is the mounted triangle hub from which all finishing sequences begin.
 
 
 </section>
@@ -269,19 +269,15 @@ At competition level, the mounted triangle is devastating because it combines po
 ## Training Progressions
 **Week 1-2** - Arm isolation and leg mechanics
 Practice the arm isolation sequence and leg swing from 3-4 Mount against a stationary partner. Focus on establishing the arm-in, arm-out configuration, maintaining chest pressure during the leg transition, and locking the triangle immediately after the leg clears. Perform 20-30 repetitions per side with emphasis on smooth, continuous motion rather than speed.
-(Resistance: None)
 
 **Week 3-4** - Timing and reaction-based entries
 Partner performs specific defensive reactions from mount bottom—tucking elbows, bridging, framing—while you identify the correct timing window for the triangle entry. Practice recognizing when the arm-in/arm-out configuration appears naturally during their defense and executing the setup within that window. Add light resistance during the leg transition phase.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and recovery
 Integrate the triangle from mount into attack chains: Americana attempt forces arm extension, leading to triangle entry. Practice the triangle-to-armbar switch when the opponent defends the choke. Drill recovery back to mount when the triangle attempt fails. Partner provides moderate defensive resistance including grip fighting and posture recovery attempts.
-(Resistance: Medium)
 
 **Week 7+** - Live application and competition scenarios
 Apply the triangle from mount in positional sparring starting from 3-4 Mount. Partner uses full defensive resistance including bridging, framing, and escape attempts. Focus on reading defensive reactions in real-time and selecting the triangle entry when appropriate versus other mount attacks. Track success rate and identify personal failure patterns for targeted improvement.
-(Resistance: Full)
 
 
 

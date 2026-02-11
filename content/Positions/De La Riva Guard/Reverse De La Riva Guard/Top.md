@@ -238,7 +238,7 @@ The top player must navigate multiple decision points throughout the passing seq
 
 
 **If bottom player loses ankle grip but maintains reverse De La Riva hook structure with hip elevation:**
-- Execute **[[Leg Drag Pass]]** → [[Leg Drag Position]] (Probability: 75%)
+- Execute **[[Leg Drag Pass]]** → [[Leg Drag Control]] (Probability: 75%)
 - Execute **[[Knee Slice Pass]]** → [[Side Control]] (Probability: 65%)
 
 
@@ -385,11 +385,11 @@ Bottom player can transition freely between reverse De La Riva, X-Guard, Single 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 15% |
-| Intermediate | 65% | 55% | 25% |
-| Advanced     | 80% | 70% | 40% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 62% |
+| Submission Probability | 32% |
 
 **Average Time in Position**: 45-90 seconds for experienced passers, 2-3 minutes for beginners
 
@@ -403,7 +403,7 @@ Bottom player can transition freely between reverse De La Riva, X-Guard, Single 
 - **[[Reverse De La Riva Guard]]** - Hub position - this is the top perspective of the RDLR guard system
 - **[[De La Riva Guard]]** - Related guard position - similar passing challenges with different hook orientation
 - **[[Headquarters Position]]** - Transition target - intermediate control position during passing sequence
-- **[[Leg Drag Position]]** - Transition target - primary passing destination from RDLR top
+- **[[Leg Drag Control]]** - Transition target - primary passing destination from RDLR top
 - **[[Single Leg X-Guard]]** - Related position - common guard transition from reverse De La Riva that requires recognition
 - **[[X-Guard]]** - Related position - similar guard passing challenge with hook systems
 - **[[RDLR Pass]]** - Primary technique - specialized passing sequence for this position

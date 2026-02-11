@@ -98,21 +98,23 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Underhook Sweep from Half]]** (20% of attempts)
+- **[[Underhook Sweep from Half]]** (19% of attempts)
 
-- **[[Old School Sweep]]** (15% of attempts)
+- **[[Old School Sweep]]** (13% of attempts)
 
-- **[[Deep Half Entry]]** (15% of attempts)
+- **[[Deep Half Entry]]** (13% of attempts)
 
-- **[[Lockdown Sweeps]]** (10% of attempts)
+- **[[Lockdown Sweeps]]** (9% of attempts)
 
-- **[[Electric Chair Submission]]** (5% of attempts)
+- **[[Electric Chair Submission]]** (4% of attempts)
 
-- **[[Half Guard to Back Take]]** (15% of attempts)
+- **[[Half Guard to Back Take]]** (13% of attempts)
 
-- **[[Waiter Sweep]]** (10% of attempts)
+- **[[Waiter Sweep]]** (9% of attempts)
 
-- **[[Kimura from Half Guard]]** (10% of attempts)
+- **[[Kimura from Half Guard]]** (9% of attempts)
+
+- **[[Underhook Sweep]]** (11% of attempts)
 
 
 ### Common Mistakes
@@ -173,21 +175,23 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Knee Slice Pass]]** (25% of attempts)
+- **[[Knee Slice Pass]]** (23% of attempts)
 
-- **[[Smash Pass]]** (15% of attempts)
+- **[[Smash Pass]]** (13% of attempts)
 
-- **[[Underhook Pass]]** (15% of attempts)
+- **[[Underhook Pass]]** (13% of attempts)
 
-- **[[Long Step Pass]]** (8% of attempts)
+- **[[Long Step Pass]]** (7% of attempts)
 
-- **[[Crossface Pass]]** (12% of attempts)
+- **[[Crossface Pass]]** (11% of attempts)
 
-- **[[Kimura from Half Guard]]** (8% of attempts)
+- **[[Kimura from Half Guard]]** (7% of attempts)
 
-- **[[Darce Choke]]** (7% of attempts)
+- **[[Darce Choke]]** (6% of attempts)
 
-- **[[Back Step Pass]]** (10% of attempts)
+- **[[Back Step Pass]]** (9% of attempts)
+
+- **[[Crossface to Combat Base]]** (11% of attempts)
 
 
 ### Common Mistakes

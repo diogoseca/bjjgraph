@@ -231,7 +231,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 - **[[Deep Half Guard]]** - Alternative guard recovery option from bottom defensive position
 
-- **[[D'arce Control]]** - Submission control available when opponent turns into top attacker
+- **[[Darce Control]]** - Submission control available when opponent turns into top attacker
 
 - **[[Anaconda Control]]** - Alternative front headlock finish from top perspective
 

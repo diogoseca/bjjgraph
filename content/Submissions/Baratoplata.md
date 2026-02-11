@@ -157,7 +157,7 @@ The Baratoplata is an advanced shoulder lock submission that originated from the
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Rubber Guard]]
-**Success Rates**: Beginner 20%, Intermediate 35%, Advanced 50%
+**Success Rate**: 42%
 
 </section>
 
@@ -235,12 +235,12 @@ The Baratoplata is an advanced shoulder lock submission that originated from the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish rubber guard control**: From closed guard, break opponent's posture and establish Mission Control by placing your foot behind their head. Use your hand to control their trapped arm's wrist, preventing them from posting or creating defensive frames. Your other leg should maintain closed guard position initially. (Timing: 3-5 seconds to establish solid control) [Pressure: Moderate]
-2. **Transition to New York position**: Release your bottom leg from closed guard and bring your knee across opponent's back while maintaining high guard pressure with your top leg. This creates the angle necessary for the arm weave. Keep constant pressure pulling their head down and controlling their trapped arm throughout this transition. (Timing: 2-3 seconds for smooth transition) [Pressure: Firm]
-3. **Thread your arm for the weave**: With your hand that's controlling their wrist, thread your arm over their trapped arm and under your own leg that's across their back. This creates the characteristic arm weave that locks their shoulder in place. Maintain tight connection between your leg and their arm during this threading motion. (Timing: 2-4 seconds to establish weave) [Pressure: Moderate]
-4. **Secure the grip and adjust angle**: Once your arm is threaded, grip your own shin or knee to lock the position. Adjust your hip angle by scooting slightly away from opponent, creating the proper geometry for shoulder rotation. Your high guard leg should maintain constant downward pressure on their head and upper back. (Timing: 2-3 seconds for grip and angle adjustment) [Pressure: Firm]
-5. **Extend hips and rotate opponent's shoulder**: Slowly extend your hips while maintaining the arm weave and high guard control. This extension creates rotational pressure on opponent's shoulder, moving it beyond its normal range of motion. The pressure should be progressive and controlled, never sudden or explosive. (Timing: 5-7 seconds minimum for safe application) [Pressure: Maximum]
-6. **Fine-tune finishing pressure**: Make micro-adjustments to hip angle and leg pressure to maximize effectiveness while monitoring opponent's response. The finish combines downward pressure from your high guard leg, outward rotation from the arm weave, and extension from your hips. Be prepared to release immediately upon tap signal. (Timing: Continuous adjustment until tap) [Pressure: Maximum]
+1. **Establish rubber guard control**: From closed guard, break opponent's posture and establish Mission Control by placing your foot behind their head. Use your hand to control their trapped arm's wrist, preventing them from posting or creating defensive frames. Your other leg should maintain closed guard position initially. (Timing: 3-5 seconds to establish solid control)
+2. **Transition to New York position**: Release your bottom leg from closed guard and bring your knee across opponent's back while maintaining high guard pressure with your top leg. This creates the angle necessary for the arm weave. Keep constant pressure pulling their head down and controlling their trapped arm throughout this transition. (Timing: 2-3 seconds for smooth transition)
+3. **Thread your arm for the weave**: With your hand that's controlling their wrist, thread your arm over their trapped arm and under your own leg that's across their back. This creates the characteristic arm weave that locks their shoulder in place. Maintain tight connection between your leg and their arm during this threading motion. (Timing: 2-4 seconds to establish weave)
+4. **Secure the grip and adjust angle**: Once your arm is threaded, grip your own shin or knee to lock the position. Adjust your hip angle by scooting slightly away from opponent, creating the proper geometry for shoulder rotation. Your high guard leg should maintain constant downward pressure on their head and upper back. (Timing: 2-3 seconds for grip and angle adjustment)
+5. **Extend hips and rotate opponent's shoulder**: Slowly extend your hips while maintaining the arm weave and high guard control. This extension creates rotational pressure on opponent's shoulder, moving it beyond its normal range of motion. The pressure should be progressive and controlled, never sudden or explosive. (Timing: 5-7 seconds minimum for safe application)
+6. **Fine-tune finishing pressure**: Make micro-adjustments to hip angle and leg pressure to maximize effectiveness while monitoring opponent's response. The finish combines downward pressure from your high guard leg, outward rotation from the arm weave, and extension from your hips. Be prepared to release immediately upon tap signal. (Timing: Continuous adjustment until tap)
 
 
 </section>
@@ -260,25 +260,25 @@ The Baratoplata is an advanced shoulder lock submission that originated from the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting the finish without properly establishing the arm weave [Low DANGER]
+- **Mistake**: Attempting the finish without properly establishing the arm weave
   - **Consequence**: Opponent easily escapes as shoulder is not properly isolated, wasted energy and lost position
   - **Correction**: Take time to thread arm completely and secure grip on own shin before attempting hip extension
-- **Mistake**: Releasing high guard pressure during the transition [Medium DANGER]
+- **Mistake**: Releasing high guard pressure during the transition
   - **Consequence**: Opponent postures up and escapes, nullifying all control and setup work
   - **Correction**: Maintain constant downward pressure with top leg throughout entire sequence, never allow opponent's head to rise
-- **Mistake**: Using explosive jerking motions to finish the submission [CRITICAL DANGER]
+- **Mistake**: Using explosive jerking motions to finish the submission
   - **Consequence**: High risk of serious shoulder injury including rotator cuff tears and dislocations
   - **Correction**: Apply pressure slowly and progressively over 5-7 seconds minimum, allowing partner time to recognize and tap to the submission
-- **Mistake**: Failing to control opponent's free arm [Medium DANGER]
+- **Mistake**: Failing to control opponent's free arm
   - **Consequence**: Opponent posts and creates frames that prevent proper finishing angle
   - **Correction**: Use bottom leg to hook or control free arm, or adjust position to limit their posting options
-- **Mistake**: Incorrect hip angle preventing effective shoulder rotation [Low DANGER]
+- **Mistake**: Incorrect hip angle preventing effective shoulder rotation
   - **Consequence**: Insufficient pressure on shoulder joint, opponent defends easily
   - **Correction**: Scoot hips away from opponent to create proper angle, ensure your body forms correct geometry for rotational leverage
-- **Mistake**: Continuing to apply pressure after partner taps [CRITICAL DANGER]
+- **Mistake**: Continuing to apply pressure after partner taps
   - **Consequence**: Guaranteed serious injury to training partner's shoulder, potential permanent damage
   - **Correction**: Develop immediate release reflex, train the release protocol as thoroughly as the submission itself
-- **Mistake**: Attempting against opponents with limited shoulder flexibility [CRITICAL DANGER]
+- **Mistake**: Attempting against opponents with limited shoulder flexibility
   - **Consequence**: Excessive injury risk even with controlled application
   - **Correction**: Assess partner's flexibility during drilling, communicate before attempting, consider alternative techniques for less flexible partners
 
@@ -343,43 +343,6 @@ The Baratoplata is an advanced shoulder lock submission that originated from the
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (2-3 weeks minimum)
-- Focus: Study shoulder anatomy, injury mechanisms, and submission mechanics without any resistance. Learn proper arm weave threading, hip positioning, and release protocol.
-- Resistance: None
-- Safety: Understand rotator cuff and shoulder capsule vulnerability, learn all tap signals and release procedures, study common injuries and their severity
-
-**Position Entry Drilling** (3-4 weeks)
-- Focus: Practice establishing rubber guard control, transitioning from Mission Control to New York, and threading the arm weave smoothly. No finishing pressure applied.
-- Resistance: Zero resistance
-- Safety: Partner maintains relaxed shoulder throughout, communicate constantly, practice release protocol after each repetition
-
-**Controlled Pressure Introduction** (4-6 weeks)
-- Focus: Apply very light finishing pressure to understand feeling of submission. Partner taps early to familiarize with pressure levels. Maximum 20-30% of finishing pressure.
-- Resistance: Zero resistance
-- Safety: Extremely slow application over 7-10 seconds minimum, partner taps at first sign of pressure, immediate release practiced, assess shoulder comfort after each repetition
-
-**Progressive Resistance** (6-8 weeks)
-- Focus: Partner provides mild defensive resistance to entry and setup. Work on maintaining control against basic escape attempts. Still no full finishing pressure.
-- Resistance: Mild resistance
-- Safety: Continue slow application speeds, allow partner to work defensive movements that don't risk injury, establish clear communication protocols about shoulder comfort
-
-**Realistic Drilling** (8-12 weeks)
-- Focus: Work against realistic defensive reactions including posting, stacking, and grip fighting. Develop submission chains from Baratoplata attempts. Gradual increase to 60-70% finishing pressure.
-- Resistance: Realistic resistance
-- Safety: Maintain 5-7 second application minimum, respect all taps immediately, adjust pressure based on partner's shoulder flexibility, monitor for any signs of discomfort
-
-**Live Application** (3-6 months minimum before attempting in competition-style training)
-- Focus: Attempt Baratoplata from live rolling situations when opportunity presents. Chain with other rubber guard attacks. Develop timing and sensitivity to shoulder resistance.
-- Resistance: Full resistance
-- Safety: Never use competition speed in training, maintain slow controlled finishes, be especially cautious with new or unfamiliar partners, always prioritize partner safety over tap achievement
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -432,6 +395,7 @@ The Baratoplata is an advanced shoulder lock submission that originated from the
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

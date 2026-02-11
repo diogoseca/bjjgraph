@@ -157,7 +157,7 @@ This technique is essential for all practitioners as it forms the foundation of 
 Mastery of the frame and shrimp fundamentally changes a practitioner's ability to survive and escape from bad positions. It teaches critical lessons about creating and managing space, understanding control points, and using angles rather than strength. This technique serves as the gateway to more advanced escapes and represents a key distinction between beginners who panic under pressure and experienced practitioners who remain calm and systematically work their way back to guard.
 
 **From Position**: [[Side Control/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 80%
+**Success Rate**: 72%
 
 </section>
 
@@ -206,12 +206,12 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary frame**: Place your forearm across opponent's neck or chin, creating a stiff arm with elbow tight to your body. Your hand should be palm-down on their shoulder or collar, with your forearm acting as a barrier. Keep your elbow connected to your ribs to prevent arm isolation. The frame should use skeletal structure, not muscle tension. (Timing: Immediate upon recognizing pin position)
-2. **Create secondary frame**: Place your second hand on opponent's hip, near their belt line. This hand will push against their hip to create the initial separation. Your arm should be slightly bent with elbow protected. Both frames together create a cross-body barrier that prevents chest-to-chest pressure. (Timing: As soon as primary frame is secure)
-3. **Bridge to create initial space**: Drive through your feet to lift your hips slightly off the mat, creating just enough space to turn onto your side. This is a small, controlled bridge - not an explosive upa. Turn your body toward the opponent to create the angle needed for shrimping. Your shoulder should now be off the mat. (Timing: Coordinate with opponent's breathing or weight shift)
-4. **Execute first shrimp**: While maintaining both frames, explosively drive your inside hip backward and away from your opponent. Your knee should come up toward your chest as you slide your hips away. Think of creating a 'C' shape with your body. Your shoulders stay relatively stationary while your hips move 6-12 inches away from opponent. (Timing: Immediately following the bridge)
-5. **Insert knee shield or guard**: As space is created, immediately insert your inside knee between you and your opponent. Drive the knee upward toward their chest while maintaining your frames. Your shin should create a barrier across their torso. Alternatively, if sufficient space exists, hook their leg with your inside leg to begin guard recovery. (Timing: The moment adequate space is created)
-6. **Complete guard recovery**: Use your frames and knee shield to create additional space for your bottom leg to extract. Scoot your hips back while maintaining distance with your frames and knee. Once your bottom leg is free, establish full guard by either closing your legs around opponent or maintaining an open guard position with grips and foot placement. (Timing: Continuous movement until guard is established)
+1. **Establish primary frame**: Place your forearm across opponent's neck or chin, creating a stiff arm with elbow tight to your body. Your hand should be palm-down on their shoulder or collar, with your forearm acting as a barrier. Keep your elbow connected to your ribs to prevent arm isolation. The frame should use skeletal structure, not muscle tension.
+2. **Create secondary frame**: Place your second hand on opponent's hip, near their belt line. This hand will push against their hip to create the initial separation. Your arm should be slightly bent with elbow protected. Both frames together create a cross-body barrier that prevents chest-to-chest pressure.
+3. **Bridge to create initial space**: Drive through your feet to lift your hips slightly off the mat, creating just enough space to turn onto your side. This is a small, controlled bridge - not an explosive upa. Turn your body toward the opponent to create the angle needed for shrimping. Your shoulder should now be off the mat.
+4. **Execute first shrimp**: While maintaining both frames, explosively drive your inside hip backward and away from your opponent. Your knee should come up toward your chest as you slide your hips away. Think of creating a 'C' shape with your body. Your shoulders stay relatively stationary while your hips move 6-12 inches away from opponent.
+5. **Insert knee shield or guard**: As space is created, immediately insert your inside knee between you and your opponent. Drive the knee upward toward their chest while maintaining your frames. Your shin should create a barrier across their torso. Alternatively, if sufficient space exists, hook their leg with your inside leg to begin guard recovery.
+6. **Complete guard recovery**: Use your frames and knee shield to create additional space for your bottom leg to extract. Scoot your hips back while maintaining distance with your frames and knee. Once your bottom leg is free, establish full guard by either closing your legs around opponent or maintaining an open guard position with grips and foot placement.
 
 
 </section>
@@ -258,23 +258,18 @@ Mastery of the frame and shrimp fundamentally changes a practitioner's ability t
 ## Training Progressions
 **Week 1-2: Solo Drilling** - Movement mechanics and muscle memory
 Practice shrimping movements solo down the length of the mat. Focus on hip mobility, keeping shoulders relatively stationary, and creating proper 'C' shape with body. Add frame positioning while shrimping. 10 reps each direction at start and end of every training session.
-(Resistance: None)
 
 **Week 3-4: Static Positional** - Frame structure and positional awareness
 Partner holds side control with light pressure (30% intensity). Practice establishing frames, feeling for proper skeletal alignment, and executing single shrimp movements. Partner maintains base but doesn't actively counter. Focus on quality over speed.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance** - Escape under increasing pressure
 Partner gradually increases pressure from 50% to 75% intensity. They may attempt to maintain position but don't aggressively counter your escape attempts. Practice complete escape sequence from initial frame to guard recovery. Work both sides equally.
-(Resistance: Medium)
 
 **Week 9-12: Active Resistance** - Timing and countering opponent's reactions
 Partner uses full pressure and actively works to maintain position, but doesn't advance to mount or other positions. Practice timing shrimps with opponent's weight shifts, breathing, and base adjustments. Learn to feel when they're vulnerable to escape.
-(Resistance: Full)
 
 **Week 13+: Live Situational Sparring** - Integration with full defensive game
 Start in side control bottom, partner can advance position or attack submissions. Practice escaping while defending attacks, chaining multiple escape attempts, and maintaining composure under pressure. 5-minute rounds, reset when guard is achieved or submission occurs.
-(Resistance: Full)
 
 
 

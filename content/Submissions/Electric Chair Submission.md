@@ -167,7 +167,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 **Type**: Knee and Hip Compression
 **Target Area**: Knee joint, hip flexors, and posterior chain
 **Starting Position**: [[Lockdown]]
-**Success Rates**: Beginner 35%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -251,13 +251,13 @@ Historically developed and refined within the 10th Planet system, the Electric C
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish and tighten lockdown control**: From half guard bottom, secure your lockdown by threading your outside leg under opponent's trapped leg and locking your feet in a figure-four configuration. Pull your feet toward your body to create immediate pressure on their trapped leg while maintaining tight connection with your inside leg around their thigh. This foundational control must be solid before attempting any submission mechanics. (Timing: 2-3 seconds to secure proper lockdown configuration) [Pressure: Moderate]
-2. **Secure underhook and break posture**: Establish a deep underhook on the same side as your lockdown, driving your shoulder into opponent's armpit and controlling their far shoulder. Simultaneously use your lockdown to pull opponent forward, breaking their posture and preventing them from maintaining upright base. Your underhook arm should be active, constantly pulling opponent's weight forward over your centerline. (Timing: 1-2 seconds to secure underhook and break posture) [Pressure: Firm]
-3. **Begin inversion and create angle**: Start rotating your body away from opponent by pushing off your bottom shoulder and beginning to invert underneath them. As you rotate, use your underhook to maintain connection while creating the angle necessary for hip extension. Your head should move toward the mat in the direction away from opponent, creating approximately 45-90 degrees of rotation from your starting position. (Timing: 2-3 seconds for controlled rotation) [Pressure: Moderate]
-4. **Extend hips and initiate compression**: As you continue inverting, begin extending your hips forward and upward while maintaining lockdown pressure. This hip extension creates the primary compression force on opponent's trapped leg. Your hips should drive in a direction that creates a straight line through your body and opponent's trapped leg, maximizing the lever arm. Focus on smooth, progressive extension rather than explosive movement. (Timing: 3-4 seconds minimum for progressive pressure increase) [Pressure: Firm]
-5. **Add rotational torque**: While maintaining hip extension, increase your spinal rotation by continuing to turn your shoulders away from opponent. This rotation adds significant torque to their knee joint and hip flexors. Your chest should be facing away from opponent while your lockdown maintains control of their leg. The combination of extension and rotation creates the characteristic Electric Chair pressure that attacks multiple anatomical structures simultaneously. (Timing: 2-3 seconds to add rotational component) [Pressure: Firm]
-6. **Maximize extension and control finish**: Continue progressive hip extension while maintaining all controls. Your body should be nearly inverted with maximum hip extension creating a powerful lever against opponent's trapped leg. Maintain tight lockdown pressure throughout and control their upper body to prevent escape attempts. Apply final pressure slowly over 2-3 seconds minimum, watching carefully for tap signals. If opponent does not tap, maintain position and consider transitioning to sweep rather than forcing excessive pressure. (Timing: 2-3 seconds for final controlled pressure application) [Pressure: Maximum]
-7. **Release safely upon tap or transition to sweep**: Upon receiving tap signal, immediately cease all extension pressure and begin controlled release of lockdown. If no tap occurs within safe pressure limits, use the inverted position and opponent's defensive reactions to transition into Old School sweep or other positional advancement. Never force submission beyond safe training intensity - the position offers multiple attack options beyond pure submission finish. (Timing: 1-2 seconds for safe release protocol) [Pressure: Light]
+1. **Establish and tighten lockdown control**: From half guard bottom, secure your lockdown by threading your outside leg under opponent's trapped leg and locking your feet in a figure-four configuration. Pull your feet toward your body to create immediate pressure on their trapped leg while maintaining tight connection with your inside leg around their thigh. This foundational control must be solid before attempting any submission mechanics. (Timing: 2-3 seconds to secure proper lockdown configuration)
+2. **Secure underhook and break posture**: Establish a deep underhook on the same side as your lockdown, driving your shoulder into opponent's armpit and controlling their far shoulder. Simultaneously use your lockdown to pull opponent forward, breaking their posture and preventing them from maintaining upright base. Your underhook arm should be active, constantly pulling opponent's weight forward over your centerline. (Timing: 1-2 seconds to secure underhook and break posture)
+3. **Begin inversion and create angle**: Start rotating your body away from opponent by pushing off your bottom shoulder and beginning to invert underneath them. As you rotate, use your underhook to maintain connection while creating the angle necessary for hip extension. Your head should move toward the mat in the direction away from opponent, creating approximately 45-90 degrees of rotation from your starting position. (Timing: 2-3 seconds for controlled rotation)
+4. **Extend hips and initiate compression**: As you continue inverting, begin extending your hips forward and upward while maintaining lockdown pressure. This hip extension creates the primary compression force on opponent's trapped leg. Your hips should drive in a direction that creates a straight line through your body and opponent's trapped leg, maximizing the lever arm. Focus on smooth, progressive extension rather than explosive movement. (Timing: 3-4 seconds minimum for progressive pressure increase)
+5. **Add rotational torque**: While maintaining hip extension, increase your spinal rotation by continuing to turn your shoulders away from opponent. This rotation adds significant torque to their knee joint and hip flexors. Your chest should be facing away from opponent while your lockdown maintains control of their leg. The combination of extension and rotation creates the characteristic Electric Chair pressure that attacks multiple anatomical structures simultaneously. (Timing: 2-3 seconds to add rotational component)
+6. **Maximize extension and control finish**: Continue progressive hip extension while maintaining all controls. Your body should be nearly inverted with maximum hip extension creating a powerful lever against opponent's trapped leg. Maintain tight lockdown pressure throughout and control their upper body to prevent escape attempts. Apply final pressure slowly over 2-3 seconds minimum, watching carefully for tap signals. If opponent does not tap, maintain position and consider transitioning to sweep rather than forcing excessive pressure. (Timing: 2-3 seconds for final controlled pressure application)
+7. **Release safely upon tap or transition to sweep**: Upon receiving tap signal, immediately cease all extension pressure and begin controlled release of lockdown. If no tap occurs within safe pressure limits, use the inverted position and opponent's defensive reactions to transition into Old School sweep or other positional advancement. Never force submission beyond safe training intensity - the position offers multiple attack options beyond pure submission finish. (Timing: 1-2 seconds for safe release protocol)
 
 
 </section>
@@ -277,28 +277,28 @@ Historically developed and refined within the 10th Planet system, the Electric C
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Attempting submission without establishing proper lockdown control first [Low DANGER]
+- **Mistake**: Attempting submission without establishing proper lockdown control first
   - **Consequence**: Opponent easily escapes by freeing trapped leg; submission has no foundation
   - **Correction**: Always secure tight lockdown with proper figure-four configuration before attempting inversion; lockdown is the engine that powers all Electric Chair mechanics
-- **Mistake**: Explosive or jerking movements during hip extension [CRITICAL DANGER]
+- **Mistake**: Explosive or jerking movements during hip extension
   - **Consequence**: Serious knee injury risk to training partner; MCL or PCL damage possible
   - **Correction**: Apply all extension pressure progressively over minimum 5-7 seconds; compression submissions require gradual intensity increase for safety
-- **Mistake**: Releasing lockdown pressure during inversion [Low DANGER]
+- **Mistake**: Releasing lockdown pressure during inversion
   - **Consequence**: Opponent escapes by pulling leg free; entire submission opportunity lost
   - **Correction**: Maintain constant lockdown squeeze throughout all phases of the submission; your legs must remain active even while inverting and extending hips
-- **Mistake**: Insufficient rotation of shoulders and spine [Low DANGER]
+- **Mistake**: Insufficient rotation of shoulders and spine
   - **Consequence**: Reduced submission pressure; opponent can defend more easily
   - **Correction**: Focus on turning chest and shoulders away from opponent while maintaining hip extension; rotational torque is essential component of finish
-- **Mistake**: Losing underhook control during submission attempt [Low DANGER]
+- **Mistake**: Losing underhook control during submission attempt
   - **Consequence**: Opponent recovers posture and escapes; no control of upper body
   - **Correction**: Maintain active underhook throughout inversion; if you lose underhook, may need to transition to different finish variation or sweep option
-- **Mistake**: Continuing pressure after tap signal [CRITICAL DANGER]
+- **Mistake**: Continuing pressure after tap signal
   - **Consequence**: Serious injury to partner; violation of training safety protocols
   - **Correction**: Develop tap awareness and immediate release reflex; partner safety always takes priority over submission completion
-- **Mistake**: Attempting on opponents with limited flexibility without proper warm-up [High DANGER]
+- **Mistake**: Attempting on opponents with limited flexibility without proper warm-up
   - **Consequence**: Increased injury risk even with proper application speed
   - **Correction**: Ensure training partners have adequate hip and hamstring flexibility; use extended warm-up and communicate about flexibility limitations
-- **Mistake**: Focusing exclusively on extension without establishing proper angle first [Low DANGER]
+- **Mistake**: Focusing exclusively on extension without establishing proper angle first
   - **Consequence**: Reduced effectiveness; opponent can more easily defend by maintaining posture
   - **Correction**: Prioritize creating optimal angle through inversion before maximizing hip extension; angle amplifies extension force significantly
 
@@ -365,43 +365,6 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding (Weeks 1-2)** (First 2 weeks of learning Electric Chair mechanics)
-- Focus: Understand lockdown mechanics, body positioning, and pressure direction without applying submission pressure. Study anatomy of knee and hip compression. Review injury risks and safety protocols extensively.
-- Resistance: Zero resistance
-- Safety: Partner allows full technical exploration; focus exclusively on movement patterns and positional mechanics. No submission pressure applied. Extensive discussion of tap protocols and release procedures.
-
-**Slow Practice with Communication (Weeks 3-4)** (Weeks 3-4)
-- Focus: Begin applying minimal submission pressure with constant verbal communication. Practice complete technique from lockdown establishment through controlled finish. Emphasis on progressive pressure application over 7-10 seconds minimum.
-- Resistance: None
-- Safety: Constant verbal communication between partners. Pressure applied at 30-40% maximum intensity. Practice tap recognition and immediate release reflexes. Partner provides feedback on pressure sensation at each stage.
-
-**Positional Sparring Integration (Weeks 5-8)** (Weeks 5-8)
-- Focus: Integrate Electric Chair into half guard bottom positional sparring. Focus on achieving proper setup against mild defensive resistance. Practice reading opponent's defensive patterns and making appropriate adjustments.
-- Resistance: Mild resistance
-- Safety: Pressure increases to 50-60% maximum intensity. Application time remains 5-7 seconds minimum. Begin developing awareness of when to abandon submission attempt in favor of sweep option. Practice defending and escaping Electric Chair from top position.
-
-**Dynamic Application (Weeks 9-12)** (Weeks 9-12)
-- Focus: Apply Electric Chair against realistic defensive resistance. Develop timing for when to commit to submission versus when to use threat for positional advancement. Practice combination sequences including Electric Chair to sweep, Electric Chair to back take, and Electric Chair to alternative submissions.
-- Resistance: Realistic resistance
-- Safety: Pressure at 70-80% training intensity with 5-second minimum application. Develop sensitivity to different body types and flexibility levels. Practice adjusting pressure based on partner feedback and tap signals.
-
-**Competition Preparation (Weeks 13+)** (Month 4 and beyond)
-- Focus: Refine Electric Chair against fully resisting opponents. Develop high-level combinations and transitions. Understand when Electric Chair is highest percentage option versus other lockdown attacks. Practice under fatigue and time pressure.
-- Resistance: Full resistance
-- Safety: Training intensity reaches 80-90% maximum but application speed remains controlled (minimum 3-4 seconds in training; competition speed reserved for competition only). Maintain tap awareness even in intense training. Regular check-ins with training partners about pressure comfort levels.
-
-**Ongoing Mastery and Safety Culture (Ongoing)** (Continuous practice)
-- Focus: Continue refining technical details, developing counter-strategies, and exploring advanced variations. Mentor newer students on proper safety protocols. Maintain awareness that Electric Chair remains high-risk submission requiring continuous safety attention.
-- Resistance: Full resistance
-- Safety: Model exemplary safety practices for newer students. Never allow complacency in application speed or tap awareness. Regularly review and reinforce safety protocols with all training partners. Adjust intensity based on partner experience level and known injury history.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -453,6 +416,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

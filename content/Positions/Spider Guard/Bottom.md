@@ -21,37 +21,37 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 11% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
-      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Spider Guard Sweeps",
-      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Spider Guard Sweeps. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lasso Guard Sweeps",
-      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Lasso Guard Sweeps. This technique is attempted in 12% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 12% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -205,21 +205,23 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ## Available Escapes
 
-### [[Triangle Setup]] (12% of attempts)
+### [[Triangle Setup]] (11% of attempts)
 
-### [[Omoplata Sweep]] (13% of attempts)
+### [[Omoplata Sweep]] (10% of attempts)
 
-### [[Spider Guard Sweeps]] (12% of attempts)
+### [[Spider Guard Sweeps]] (11% of attempts)
 
-### [[Lasso Guard Sweeps]] (13% of attempts)
+### [[Lasso Guard Sweeps]] (12% of attempts)
 
-### [[De La Riva Sweep]] (12% of attempts)
+### [[De La Riva Sweep]] (11% of attempts)
 
-### [[Scissor Sweep]] (14% of attempts)
+### [[Scissor Sweep]] (12% of attempts)
 
-### [[Armbar from Guard]] (11% of attempts)
+### [[Armbar from Guard]] (10% of attempts)
 
-### [[Spider Guard to Omoplata]] (13% of attempts)
+### [[Spider Guard to Omoplata]] (12% of attempts)
+
+### [[Spider Guard Pass]] (11% of attempts)
 
 
 
@@ -365,11 +367,11 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 20% |
-| Intermediate | 60% | 45% | 35% |
-| Advanced     | 75% | 60% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 52% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 1-3 minutes depending on skill level and opponent's passing strategy
 

@@ -33,11 +33,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Counter Heel Hook is a defensive leg attack executed from 50-50 Guard Bottom that capitalizes on an opponent's overcommitment to their own heel hook attempt. Rather than simply defending the incoming attack, this technique transforms a defensive situation into an offensive opportunity by attacking the opponent's exposed heel while they focus on finishing their submission.\n\nThis counter relies on the fundamental principle that when an attacker commits fully to a heel hook, they often sacrifice their own heel defense to maximize breaking pressure. The bottom player exploits this momentary vulnerability by simultaneously defending their own heel through knee rotation while securing offensive grips on the opponent's heel. The technique requires precise timing, excellent grip fighting, and the ability to race the opponent to a finish.\n\nStrategically, the Counter Heel Hook represents the highest-level defensive option from 50-50 Bottom because it maintains engagement in the leg lock exchange rather than conceding position through escape. This approach is favored by elite leg lock specialists who have confidence in their submission finishing ability. However, it carries significant risk since both practitioners are simultaneously attacking and defending, making tap recognition and injury prevention critical considerations.",
   "key_principles": [
     "Defend while attacking: Simultaneously hide your heel through knee rotation while securing offensive grips on opponent's heel - never focus solely on defense",
@@ -59,44 +54,37 @@
     {
       "step_number": 1,
       "action": "Defend your heel",
-      "description": "Immediately rotate your knee inward toward your opposite hip to remove tension from any heel hook grip opponent has established. This creates the time window needed to mount your counter-attack.",
-      "timing": "Instant - must happen as opponent begins breaking motion"
+      "description": "Immediately rotate your knee inward toward your opposite hip to remove tension from any heel hook grip opponent has established. This creates the time window needed to mount your counter-attack."
     },
     {
       "step_number": 2,
       "action": "Identify opponent's heel",
-      "description": "While maintaining your defensive knee position, visually locate opponent's heel position. Their aggressive attacking posture often exposes their heel as they focus on finishing their attack.",
-      "timing": "During defensive rotation"
+      "description": "While maintaining your defensive knee position, visually locate opponent's heel position. Their aggressive attacking posture often exposes their heel as they focus on finishing their attack."
     },
     {
       "step_number": 3,
       "action": "Secure heel grip",
-      "description": "Reach with your outside hand to cup opponent's heel, placing your palm on the back of their heel with fingers wrapping around the Achilles tendon area. This is your primary controlling grip.",
-      "timing": "As opponent's heel becomes accessible"
+      "description": "Reach with your outside hand to cup opponent's heel, placing your palm on the back of their heel with fingers wrapping around the Achilles tendon area. This is your primary controlling grip."
     },
     {
       "step_number": 4,
       "action": "Establish second grip",
-      "description": "Bring your inside arm under opponent's leg to create a figure-four or gable grip configuration, clasping your hands together with opponent's heel trapped between your wrist and forearm.",
-      "timing": "Immediately after securing initial heel grip"
+      "description": "Bring your inside arm under opponent's leg to create a figure-four or gable grip configuration, clasping your hands together with opponent's heel trapped between your wrist and forearm."
     },
     {
       "step_number": 5,
       "action": "Create breaking angle",
-      "description": "Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. This creates the rotational force necessary for the heel hook finish.",
-      "timing": "Once grips are secured"
+      "description": "Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. This creates the rotational force necessary for the heel hook finish."
     },
     {
       "step_number": 6,
       "action": "Apply breaking pressure",
-      "description": "Drive your wrist blade into the Achilles while pulling the heel toward your hip and rotating opponent's toes outward. Apply controlled, progressive pressure while monitoring for tap.",
-      "timing": "After angle is established"
+      "description": "Drive your wrist blade into the Achilles while pulling the heel toward your hip and rotating opponent's toes outward. Apply controlled, progressive pressure while monitoring for tap."
     },
     {
       "step_number": 7,
       "action": "Monitor and adjust",
-      "description": "If opponent defends by extracting their heel or rotating their knee, immediately assess whether to pursue the finish, transition to alternative attack, or disengage to safer position.",
-      "timing": "Throughout breaking attempt"
+      "description": "If opponent defends by extracting their heel or rotating their knee, immediately assess whether to pursue the finish, transition to alternative attack, or disengage to safer position."
     }
   ],
   "common_counters": [
@@ -152,26 +140,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and heel defense",
-      "description": "Practice the heel cupping grip and figure-four configuration in isolation. Drill defensive knee rotation repeatedly. Partner holds static position while you establish grips without resistance.",
-      "resistance_level": "None"
+      "description": "Practice the heel cupping grip and figure-four configuration in isolation. Drill defensive knee rotation repeatedly. Partner holds static position while you establish grips without resistance."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing recognition",
-      "description": "Partner slowly attacks your heel hook while you practice recognizing the window for counter-attack. Focus on the moment opponent commits forward that exposes their heel. Execute counter at 50% speed.",
-      "resistance_level": "Light"
+      "description": "Partner slowly attacks your heel hook while you practice recognizing the window for counter-attack. Focus on the moment opponent commits forward that exposes their heel. Execute counter at 50% speed."
     },
     {
       "phase": "Week 5-6",
       "focus": "Grip fighting integration",
-      "description": "Partner actively defends their heel while attacking yours. Practice maintaining your heel defense while fighting for offensive grips. Introduce the race dynamic at controlled pace.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends their heel while attacking yours. Practice maintaining your heel defense while fighting for offensive grips. Introduce the race dynamic at controlled pace."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application and decision making",
-      "description": "Full speed 50-50 exchanges where you must decide whether to pursue counter, escape, or alternative defense based on real-time positioning. Include tap recognition and partner safety protocols.",
-      "resistance_level": "Full"
+      "description": "Full speed 50-50 exchanges where you must decide whether to pursue counter, escape, or alternative defense based on real-time positioning. Include tap recognition and partner safety protocols."
     }
   ],
   "variants_and_adaptations": [
@@ -194,53 +178,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Counter heel hook?",
-      "answer": "The primary goal is to transform a defensive situation into an offensive submission opportunity by attacking opponent's exposed heel while they commit to their own heel hook attack. Rather than simply escaping, you race the opponent to a submission finish.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transform a defensive situation into an offensive submission opportunity by attacking opponent's exposed heel while they commit to their own heel hook attack. Rather than simply escaping, you race the opponent to a submission finish."
     },
     {
       "question": "What must you do before attempting to attack opponent's heel?",
-      "answer": "You must first establish defensive knee rotation to protect your own heel from opponent's attack. This defensive position must be maintained throughout your counter-attack. Attacking without first defending leads to getting submitted before your counter can take effect.",
-      "difficulty": "Beginner"
+      "answer": "You must first establish defensive knee rotation to protect your own heel from opponent's attack. This defensive position must be maintained throughout your counter-attack. Attacking without first defending leads to getting submitted before your counter can take effect."
     },
     {
       "question": "What is the optimal timing window for initiating the counter heel hook?",
-      "answer": "The optimal window is when opponent commits forward pressure or rotation to maximize their heel hook breaking angle. This aggressive posture exposes their own heel while simultaneously telegraphing their attack. Wait for this commitment rather than preemptively attacking.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal window is when opponent commits forward pressure or rotation to maximize their heel hook breaking angle. This aggressive posture exposes their own heel while simultaneously telegraphing their attack. Wait for this commitment rather than preemptively attacking."
     },
     {
       "question": "What are the essential grips for Counter heel hook?",
-      "answer": "The primary grip cups opponent's heel with palm on back of heel and fingers wrapping the Achilles area. The secondary grip creates a figure-four or gable grip configuration by bringing the inside arm under opponent's leg and clasping hands together. Both grips must be secured before applying breaking pressure.",
-      "difficulty": "Intermediate"
+      "answer": "The primary grip cups opponent's heel with palm on back of heel and fingers wrapping the Achilles area. The secondary grip creates a figure-four or gable grip configuration by bringing the inside arm under opponent's leg and clasping hands together. Both grips must be secured before applying breaking pressure."
     },
     {
       "question": "Your opponent posts their hand and begins extracting their heel - how do you adjust?",
-      "answer": "Immediately transition to kneebar attack on their now-straightened leg, targeting the knee joint as they extend to escape. Alternatively, use the space they create to disengage and escape to standing position. Do not stubbornly chase an inaccessible heel.",
-      "difficulty": "Advanced"
+      "answer": "Immediately transition to kneebar attack on their now-straightened leg, targeting the knee joint as they extend to escape. Alternatively, use the space they create to disengage and escape to standing position. Do not stubbornly chase an inaccessible heel."
     },
     {
       "question": "How do you create the proper breaking angle for the heel hook finish?",
-      "answer": "Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. Drive your wrist blade into the Achilles while pulling the heel toward your hip. The rotation should come from your entire body, not just arm strength.",
-      "difficulty": "Intermediate"
+      "answer": "Rotate your hips and torso to angle opponent's toes toward the ceiling while their heel points toward your opposite hip. Drive your wrist blade into the Achilles while pulling the heel toward your hip. The rotation should come from your entire body, not just arm strength."
     },
     {
       "question": "What signals indicate opponent is about to overcommit and create the counter opportunity?",
-      "answer": "Signals include opponent leaning forward over your hips to maximize pressure, rotating their torso aggressively toward your trapped leg, pulling your heel toward their chest, or transitioning to belly-down position. These aggressive actions expose their own heel while they focus on finishing.",
-      "difficulty": "Advanced"
+      "answer": "Signals include opponent leaning forward over your hips to maximize pressure, rotating their torso aggressively toward your trapped leg, pulling your heel toward their chest, or transitioning to belly-down position. These aggressive actions expose their own heel while they focus on finishing."
     },
     {
       "question": "How do you decide between pursuing the counter versus escaping to standing?",
-      "answer": "Pursue the counter when opponent's heel is accessible, you can establish grips within 3-5 seconds, and your own heel remains protected through knee rotation. Escape to standing when opponent successfully hides their heel, you cannot establish offensive grips, or your heel defense is compromised and tap is imminent.",
-      "difficulty": "Advanced"
+      "answer": "Pursue the counter when opponent's heel is accessible, you can establish grips within 3-5 seconds, and your own heel remains protected through knee rotation. Escape to standing when opponent successfully hides their heel, you cannot establish offensive grips, or your heel defense is compromised and tap is imminent."
     },
     {
       "question": "What chain attacks are available if the counter heel hook is defended?",
-      "answer": "If opponent extracts their heel, transition to kneebar on their straightened leg. If opponent releases your leg to defend, pursue their heel with adjusted grips or transition to inside ashi-garami. If all attacks fail, use created space to escape to standing or transition to single leg X-guard.",
-      "difficulty": "Advanced"
+      "answer": "If opponent extracts their heel, transition to kneebar on their straightened leg. If opponent releases your leg to defend, pursue their heel with adjusted grips or transition to inside ashi-garami. If all attacks fail, use created space to escape to standing or transition to single leg X-guard."
     },
     {
       "question": "Why is tap recognition especially critical during counter heel hook exchanges?",
-      "answer": "Both practitioners are simultaneously attacking knee ligaments in a race situation, creating heightened injury risk. Adrenaline may delay pain recognition, and the racing dynamic can cause delayed tapping. You must immediately release upon any tap signal and be willing to tap yourself early if opponent gains dominant position on your heel.",
-      "difficulty": "Intermediate"
+      "answer": "Both practitioners are simultaneously attacking knee ligaments in a race situation, creating heightened injury risk. Adrenaline may delay pain recognition, and the racing dynamic can cause delayed tapping. You must immediately release upon any tap signal and be willing to tap yourself early if opponent gains dominant position on your heel."
     }
   ],
   "safety_considerations": "Counter heel hook exchanges carry significant knee ligament injury risk for both practitioners. The racing dynamic between two simultaneous heel hooks can lead to delayed tap recognition as both people focus on finishing rather than defending. Always practice with controlled pressure and immediate release upon tap. Beginners should drill grip mechanics without applying breaking pressure. Never apply rotational force to your own knee while attempting the counter. If opponent has dominant grips on your heel, tap early rather than risking ACL or MCL damage. Training partners should establish clear tap protocols before drilling. This technique should only be practiced by intermediate or advanced practitioners with established leg lock defense fundamentals.",
@@ -278,5 +252,6 @@
       "name": "Straight Ankle Lock",
       "relationship": "Alternative leg attack available from position"
     }
-  ]
+  ],
+  "success_rate": 58
 }

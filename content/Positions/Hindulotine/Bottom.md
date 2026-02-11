@@ -252,7 +252,7 @@ Success from bottom Hindulotine requires understanding the interplay between you
 
 
 **If opponent creates defensive frame with near-side arm:**
-- Execute **[[Hindulotine to Darce Choke]]** → [[D'arce Control]] (Probability: 60%)
+- Execute **[[Hindulotine to Darce Choke]]** → [[Darce Control]] (Probability: 60%)
 - Execute **[[Arm Triangle Transition]]** → [[Side Control]] (Probability: 45%)
 
 
@@ -367,11 +367,11 @@ Establish Hindulotine from bottom with partner actively defending by hand fighti
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 30% |
-| Intermediate | 65% | 55% | 50% |
-| Advanced     | 80% | 75% | 70% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 65% |
+| Submission Probability | 60% |
 
 **Average Time in Position**: 20-45 seconds
 
@@ -385,7 +385,7 @@ Establish Hindulotine from bottom with partner actively defending by hand fighti
 - **[[Guillotine Control]]** - Parent position with standard mechanics
 - **[[Closed Guard]]** - Common leg configuration for bottom Hindulotine
 - **[[Butterfly Guard]]** - Alternative leg configuration for angle adjustments
-- **[[D'arce Control]]** - Transition option when opponent defends with frames
+- **[[Darce Control]]** - Transition option when opponent defends with frames
 - **[[Anaconda Control]]** - Alternative finish when opponent turns
 - **[[Back Control]]** - Transition target when opponent escapes by turning
 - **[[Mount]]** - Sweep target when opponent drives forward

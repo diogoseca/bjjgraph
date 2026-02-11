@@ -13,11 +13,6 @@
   "submission_type": "Arm Lock",
   "target_area": "Elbow joint",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 40,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Armbar from Side Control is a fundamental finishing technique that targets the elbow joint through hyperextension. This submission capitalizes on the top player's dominant position and the control established in side control, making it one of the most reliable joint locks in Brazilian Jiu-Jitsu. The technique works by isolating the opponent's arm, typically the near arm, and creating a fulcrum across your hips while extending their elbow beyond its natural range of motion. The effectiveness of this armbar lies in the combination of positional control and precise technical execution. Unlike the armbar from mount or guard, the side control variation requires careful attention to maintaining weight distribution and preventing the opponent from turning into you or escaping their hips. The submission can be entered from various side control variations including standard side control, kesa gatame, and north-south position, making it a versatile finishing option from top position.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,43 +83,37 @@
       "step_number": 1,
       "action": "Establish tight side control",
       "description": "Begin in standard side control with your chest heavy on the opponent's chest. Secure a strong cross face with your near arm, driving your shoulder into their jaw while your far arm controls their far hip. Your weight should be distributed to prevent any bridging or shrimping movement. Ensure your hips are low and your knees are wide for maximum base.",
-      "timing": "Establish control for 3-5 seconds before transitioning",
-      "pressure_level": "Firm"
+      "timing": "Establish control for 3-5 seconds before transitioning"
     },
     {
       "step_number": 2,
       "action": "Isolate the near arm",
       "description": "Transition your cross face arm to control the opponent's near arm at the wrist or forearm. Use your chest pressure to pin their arm across their body or bring it slightly away from their torso. Your other hand maintains control of the far hip. The goal is to make the near arm completely isolated and unable to defend. If the opponent grips their own belt or gi, use your weight to break the grip before proceeding.",
-      "timing": "2-3 seconds to break grips and isolate",
-      "pressure_level": "Firm"
+      "timing": "2-3 seconds to break grips and isolate"
     },
     {
       "step_number": 3,
       "action": "Step over the head",
       "description": "While maintaining control of the isolated arm, step your leg nearest to the opponent's head over their face. Your shin should rest across their forehead or neck area, with your knee pointing toward their far shoulder. This step must be deliberate and controlled - do not jump or rush. Keep constant downward pressure with your chest to prevent them from following you or sitting up. Your other leg may post out temporarily for base during this transition.",
-      "timing": "1-2 seconds for controlled transition",
-      "pressure_level": "Moderate"
+      "timing": "1-2 seconds for controlled transition"
     },
     {
       "step_number": 4,
       "action": "Secure the arm across your hips",
       "description": "Bring the opponent's arm across your lower abdomen/hips with their thumb pointing upward. Grip their wrist with both hands, pulling it tight to your body. Your legs should now be in position with one leg across their face and the other leg positioned to control their far side or torso. Ensure the arm is positioned so the back of their elbow (tricep side) is against your hips, not the front. Pinch your knees together to control their head and prevent them from turning into you.",
-      "timing": "1-2 seconds to secure proper position",
-      "pressure_level": "Firm"
+      "timing": "1-2 seconds to secure proper position"
     },
     {
       "step_number": 5,
       "action": "Position hips perpendicular",
       "description": "Adjust your body position so your hips are perpendicular to the opponent's torso, forming a 'T' shape. Your back should be near or on the mat with the opponent's arm extended across your hips. Ensure your hips are as high on their shoulder as possible while maintaining control. The opponent's elbow should be positioned directly over your hip bones, creating the fulcrum point for the submission. Keep their wrist pulled tight to your chest.",
-      "timing": "1 second adjustment",
-      "pressure_level": "Firm"
+      "timing": "1 second adjustment"
     },
     {
       "step_number": 6,
       "action": "Extend hips for the finish",
       "description": "With the arm secured and thumb pointing up, initiate the finish by lifting your hips smoothly upward while pulling their wrist toward your chest. The extension should come primarily from hip elevation, not from pulling with your arms. Apply pressure gradually and progressively, giving your training partner ample time to tap. Squeeze your knees together to prevent them from rolling or extracting their arm. The moment you feel resistance or the elbow begins to straighten, slow your application and be ready to release immediately upon the tap.",
-      "timing": "3-5 seconds of progressive pressure",
-      "pressure_level": "Maximum"
+      "timing": "3-5 seconds of progressive pressure"
     }
   ],
   "opponent_defense_patterns": [
@@ -158,8 +147,7 @@
     {
       "error": "Spiking or jerking the armbar finish",
       "consequence": "Severe elbow injury to training partner, potential ligament tears or dislocation",
-      "correction": "Always apply smooth, progressive pressure over 3-5 seconds minimum. Lift hips gradually and maintain constant communication with training partners about application speed.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply smooth, progressive pressure over 3-5 seconds minimum. Lift hips gradually and maintain constant communication with training partners about application speed."
     },
     {
       "error": "Transitioning too quickly without establishing control",
@@ -174,8 +162,7 @@
     {
       "error": "Positioning opponent's thumb down instead of up",
       "consequence": "Reduces effectiveness of armbar and applies pressure to wrong part of elbow joint",
-      "correction": "Always ensure the thumb points toward the ceiling before finishing. The back of their elbow (tricep) should face your hips, not the front (bicep). Rotate the arm if necessary before securing final position.",
-      "danger_level": "Medium"
+      "correction": "Always ensure the thumb points toward the ceiling before finishing. The back of their elbow (tricep) should face your hips, not the front (bicep). Rotate the arm if necessary before securing final position."
     },
     {
       "error": "Pulling with arms instead of extending with hips",
@@ -190,8 +177,7 @@
     {
       "error": "Releasing control too early in training",
       "consequence": "Creates unsafe training habits and potential for injury if timing is misjudged",
-      "correction": "Maintain all control positions and pressure until the tap is complete and acknowledged. Only then release in the prescribed protocol. Never rush the release.",
-      "danger_level": "High"
+      "correction": "Maintain all control positions and pressure until the tap is complete and acknowledged. Only then release in the prescribed protocol. Never rush the release."
     }
   ],
   "variations_and_setups": [
@@ -278,50 +264,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Week 1-2)",
-      "timeframe": "First 2 weeks",
-      "focus": "Learn proper body positioning, arm isolation, and step-over mechanics without resistance. Study the safety protocols and release procedures thoroughly. Understand the anatomical mechanics of elbow hyperextension.",
-      "resistance_level": "None",
-      "safety_emphasis": "Instructor demonstrates proper tap protocols and release procedures. Practice the release protocol multiple times before attempting the submission. Learn to recognize proper vs improper arm positioning."
-    },
-    {
-      "phase": "Controlled Drilling (Week 3-4)",
-      "timeframe": "Weeks 3-4",
-      "focus": "Practice the full technique from side control to finish with compliant partner. Focus on maintaining control points and smooth transitions. Partner should tap early and often. Emphasize 5+ second application time.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Both partners practice tapping early - well before pain. Establish communication about pressure levels. Practice the complete release protocol after every repetition. No finishing the submission - stop at control position."
-    },
-    {
-      "phase": "Progressive Resistance (Week 5-8)",
-      "timeframe": "Weeks 5-8",
-      "focus": "Partner provides mild resistance to grips and position but allows the technique to complete. Work on breaking defensive grips and maintaining control during movement. Begin recognizing when setup conditions are not met.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Increase application time to account for movement. Partner taps at first sign of pressure. Practice abandoning technique if control is lost rather than forcing it. Discuss what resistance levels are appropriate."
-    },
-    {
-      "phase": "Situational Training (Week 9-12)",
-      "timeframe": "Weeks 9-12",
-      "focus": "Start from side control with partner defending normally. Work on timing, setup recognition, and chaining with other submissions. Partner defends the armbar but taps when caught. Learn to recognize low vs high percentage opportunities.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain slow application speed despite realistic resistance. Learn the difference between training and competition finishing speeds. Never spike the submission even when partner defends well. Accept when the technique fails rather than forcing it."
-    },
-    {
-      "phase": "Integration and Competition Training (Week 13+)",
-      "timeframe": "Week 13 onward",
-      "focus": "Incorporate armbar from side control into positional sparring and live rolling. Recognize setup opportunities from other positions. Chain with other submissions and positions. Understand positional hierarchy and risk assessment.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Differentiate training vs competition application speeds - always slower in training. Be especially careful with less experienced partners. Regularly review release protocols with new training partners. Accept taps instantly without additional pressure."
-    },
-    {
-      "phase": "Teaching and Refinement (Ongoing)",
-      "timeframe": "Ongoing",
-      "focus": "Help newer students learn the technique with emphasis on safety. Refine details based on body types and situations. Develop sensitivity to submission depth and timing. Study variations and high-level applications.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Model perfect safety protocols when teaching. Never demonstrate on an unwilling or unprepared partner. Emphasize that safety is more important than successful technique execution. Create a culture where tapping early is encouraged and respected."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "Kesa Gatame",
@@ -384,5 +326,6 @@
       "name": "Gift Wrap",
       "relationship": "Control position that can transition to armbar"
     }
-  ]
+  ],
+  "success_rate": 62
 }

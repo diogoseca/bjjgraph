@@ -157,7 +157,7 @@ The essence of re-guarding from Headquarters lies in creating distance and frame
 Successful re-guarding from this position is fundamental to maintaining a strong defensive game. The ability to recover guard when a pass is nearly complete separates intermediate practitioners from advanced competitors. This technique builds upon fundamental concepts of guard retention, framing mechanics, and hip escape principles while requiring precise timing and spatial awareness to execute against resisting opponents.
 
 **From Position**: [[Headquarters Position/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frames**: Immediately create frames with your hands on opponent's hips, shoulders, or biceps. The near-side hand typically frames on the hip while the far-side hand pushes on the shoulder or cross-faces. These frames prevent your opponent from settling their weight and consolidating the pass. Keep your elbows tight to your body while maintaining active pressure through your frames to create the maximum distance possible. (Timing: Immediate as Headquarters position is recognized)
-2. **Create angle with hip escape**: Execute a strong hip escape (shrimp) away from your opponent, using your frames to maintain distance. Plant your near-side foot on the mat and drive your hips away at a 45-degree angle. This movement creates the critical space needed for leg recovery while also creating an angle that makes it more difficult for your opponent to pressure directly into you. The quality of this shrimp determines the success of the entire sequence. (Timing: Immediately after establishing frames)
-3. **Recover near-side knee**: As you create space with the hip escape, immediately pull your near-side knee through the gap between you and your opponent. This knee should come to your chest in a defensive posture. Use your frames actively to prevent your opponent from closing the distance while your leg recovers. The near-side knee is recovered first because it's closer and easier to insert into the space you've created. (Timing: During the hip escape movement)
-4. **Insert knee shield or butterfly hook**: Once your near-side knee is recovered to your chest, extend it as a knee shield against your opponent's torso or insert it as a butterfly hook under their body. The knee shield creates a structural frame that prevents forward pressure, while the butterfly hook provides active control. Choose based on opponent's posture: knee shield against upright posture, butterfly hook against lower posture. This immediately establishes a guard structure. (Timing: Immediately after knee recovery)
-5. **Recover far-side leg**: With your near-side leg providing structure and frames maintaining distance, recover your far-side leg by bringing it around to establish full guard structure. This may involve threading it behind their leg for deep half, bringing it over for closed guard, or establishing it as a second butterfly hook. The far-side leg recovery completes your guard reconstitution and gives you offensive options. (Timing: 1-2 seconds after near-side leg establishment)
-6. **Establish full guard structure**: Complete the re-guard by establishing your chosen guard position fully. This might be closed guard, butterfly guard, half guard, or an open guard variation depending on opponent position and your preferences. Secure proper grips on their collar, sleeves, or body to prevent immediate passing attempts. Reset your base, posture, and control to return to a neutral or advantageous guard position where you can resume your offensive game. (Timing: Immediately after both legs are recovered)
+1. **Establish defensive frames**: Immediately create frames with your hands on opponent's hips, shoulders, or biceps. The near-side hand typically frames on the hip while the far-side hand pushes on the shoulder or cross-faces. These frames prevent your opponent from settling their weight and consolidating the pass. Keep your elbows tight to your body while maintaining active pressure through your frames to create the maximum distance possible.
+2. **Create angle with hip escape**: Execute a strong hip escape (shrimp) away from your opponent, using your frames to maintain distance. Plant your near-side foot on the mat and drive your hips away at a 45-degree angle. This movement creates the critical space needed for leg recovery while also creating an angle that makes it more difficult for your opponent to pressure directly into you. The quality of this shrimp determines the success of the entire sequence.
+3. **Recover near-side knee**: As you create space with the hip escape, immediately pull your near-side knee through the gap between you and your opponent. This knee should come to your chest in a defensive posture. Use your frames actively to prevent your opponent from closing the distance while your leg recovers. The near-side knee is recovered first because it's closer and easier to insert into the space you've created.
+4. **Insert knee shield or butterfly hook**: Once your near-side knee is recovered to your chest, extend it as a knee shield against your opponent's torso or insert it as a butterfly hook under their body. The knee shield creates a structural frame that prevents forward pressure, while the butterfly hook provides active control. Choose based on opponent's posture: knee shield against upright posture, butterfly hook against lower posture. This immediately establishes a guard structure.
+5. **Recover far-side leg**: With your near-side leg providing structure and frames maintaining distance, recover your far-side leg by bringing it around to establish full guard structure. This may involve threading it behind their leg for deep half, bringing it over for closed guard, or establishing it as a second butterfly hook. The far-side leg recovery completes your guard reconstitution and gives you offensive options.
+6. **Establish full guard structure**: Complete the re-guard by establishing your chosen guard position fully. This might be closed guard, butterfly guard, half guard, or an open guard variation depending on opponent position and your preferences. Secure proper grips on their collar, sleeves, or body to prevent immediate passing attempts. Reset your base, posture, and control to return to a neutral or advantageous guard position where you can resume your offensive game.
 
 
 </section>
@@ -261,19 +261,15 @@ Successful re-guarding from this position is fundamental to maintaining a strong
 ## Training Progressions
 **Week 1-2: Foundational Mechanics** - Learning proper framing and hip escape mechanics without resistance
 Partner starts in Headquarters position with light control. Practice establishing frames, executing clean hip escapes, and recovering near-side leg without opposition. Focus on proper form: structural frames, complete hip escapes that create visible distance, and smooth leg recovery. Repeat 10-15 times per training session until movements become automatic. Partner should maintain position without actively preventing your recovery, allowing you to develop proper motor patterns.
-(Resistance: None)
 
 **Week 3-4: Controlled Resistance** - Executing the sequence against light resistance and timing
 Partner applies approximately 30% resistance, maintaining Headquarters position with moderate pressure but allowing successful recovery if technique is executed correctly. This phase develops timing and the ability to feel when space is created. Practice chaining multiple hip escapes when the first doesn't create enough space. Begin to recognize different opponent reactions and adjust your recovery path accordingly. Aim for 70-80% success rate at this resistance level.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance** - Developing strength in the position and recognizing counters
 Partner increases resistance to 60-70%, actively trying to consolidate the pass while still operating within a specific game plan you both understand. Begin to recognize and respond to common counters: forward pressure, leg controls, crossface attempts. Practice multiple recovery variations from Headquarters: to closed guard, to butterfly guard, to half guard, to deep half. Develop decision-making skills about which recovery option to pursue based on opponent's positioning and pressure direction.
-(Resistance: Medium)
 
 **Week 9-12: Competition Intensity** - Full resistance recovery and chaining with other defensive options
 Partner applies full resistance, attempting to complete the pass using their best techniques. You must successfully recover guard or transition to other defensive positions (turtle, standing) when recovery isn't possible. Begin to integrate this technique into your complete defensive system, chaining it with other guard recovery options. Practice against different body types and passing styles. Success rate will naturally drop to 40-60% against skilled partners, which is expected and appropriate.
-(Resistance: Full)
 
 
 

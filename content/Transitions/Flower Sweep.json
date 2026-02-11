@@ -9,11 +9,6 @@
     "guard-bottom",
     "fundamental"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 70
-  },
   "overview": "The Flower Sweep is a fundamental closed guard sweep that exploits the opponent's reaction to your initial attack. Named for the circular, flowing motion that resembles a flower opening, this technique is one of the highest-percentage sweeps available from closed guard. The sweep works by creating a pendulum-like momentum that uses the opponent's forward pressure against them. What makes the Flower Sweep particularly effective is its ability to chain seamlessly with other attacks - if the opponent defends the sweep, you're already positioned for triangles, armbars, or omoplatas. The technique requires excellent hip mobility and precise timing, but once mastered, it becomes an instinctive response to the opponent's posture. The Flower Sweep is often one of the first sweeps taught to beginners due to its mechanical simplicity and high success rate, yet it remains effective at the highest levels of competition when executed with proper timing and setup.",
   "key_principles": [
     "Control the opponent's sleeve and collar/back of the head to break their base",
@@ -36,38 +31,32 @@
     {
       "step_number": 1,
       "action": "Establish grips",
-      "description": "From closed guard, grip the opponent's same-side sleeve with your same-side hand (right hand to their right sleeve). Your opposite hand controls their collar or wraps behind their head. Pull down to break their posture forward, bringing their chest close to yours.",
-      "timing": "Initial setup - take time to secure grips properly"
+      "description": "From closed guard, grip the opponent's same-side sleeve with your same-side hand (right hand to their right sleeve). Your opposite hand controls their collar or wraps behind their head. Pull down to break their posture forward, bringing their chest close to yours."
     },
     {
       "step_number": 2,
       "action": "Open guard and create angle",
-      "description": "Uncross your ankles and place your opposite foot (left foot if sweeping right) on the mat near their same-side hip. Simultaneously pivot your hips approximately 30-45 degrees away from the sweeping side, creating an angle with your body. Your other leg remains hooked around their back.",
-      "timing": "Smooth transition - 1-2 seconds"
+      "description": "Uncross your ankles and place your opposite foot (left foot if sweeping right) on the mat near their same-side hip. Simultaneously pivot your hips approximately 30-45 degrees away from the sweeping side, creating an angle with your body. Your other leg remains hooked around their back."
     },
     {
       "step_number": 3,
       "action": "Insert butterfly hook",
-      "description": "Bring your same-side leg (right leg if sweeping right) underneath the opponent, inserting a butterfly hook with your instep against the inside of their thigh. Keep your knee pointing upward and outward to create maximum leverage.",
-      "timing": "Quick insertion while opponent is off-balance"
+      "description": "Bring your same-side leg (right leg if sweeping right) underneath the opponent, inserting a butterfly hook with your instep against the inside of their thigh. Keep your knee pointing upward and outward to create maximum leverage."
     },
     {
       "step_number": 4,
       "action": "Initiate sweep motion",
-      "description": "Pull strongly with both grips while simultaneously lifting with your butterfly hook and pushing with your posted foot. The motion should be circular and diagonal - sweeping them over your shoulder on the sweeping side. Your hips should rotate and elevate off the mat.",
-      "timing": "Explosive but controlled - commit fully to the sweep"
+      "description": "Pull strongly with both grips while simultaneously lifting with your butterfly hook and pushing with your posted foot. The motion should be circular and diagonal - sweeping them over your shoulder on the sweeping side. Your hips should rotate and elevate off the mat."
     },
     {
       "step_number": 5,
       "action": "Follow through with body rotation",
-      "description": "As the opponent begins to roll over, continue rotating your entire body in the sweeping direction. Your posted leg drives hard while your hooking leg maintains upward pressure. Keep pulling with your grips to prevent them from posting their hand.",
-      "timing": "Continuous motion without pause"
+      "description": "As the opponent begins to roll over, continue rotating your entire body in the sweeping direction. Your posted leg drives hard while your hooking leg maintains upward pressure. Keep pulling with your grips to prevent them from posting their hand."
     },
     {
       "step_number": 6,
       "action": "Complete to mount",
-      "description": "As you reach the top position, swing your hooking leg over their body to establish mount. Your grips transition to controlling their arms or establishing mount control grips. Ensure your weight settles into a stable mount position with knees tight to their sides.",
-      "timing": "Immediate follow-through - don't pause in half-mount"
+      "description": "As you reach the top position, swing your hooking leg over their body to establish mount. Your grips transition to controlling their arms or establishing mount control grips. Ensure your weight settles into a stable mount position with knees tight to their sides."
     }
   ],
   "common_counters": [
@@ -128,32 +117,27 @@
     {
       "phase": "Week 1-2: Fundamental Mechanics",
       "focus": "Basic movement pattern and grip control",
-      "description": "Practice the sweep with a completely cooperative partner. Focus on getting the grips, creating the angle, and understanding the circular motion. Partner should allow the sweep to happen so you can feel the correct body mechanics. Repeat 20-30 times per training session.",
-      "resistance_level": "None"
+      "description": "Practice the sweep with a completely cooperative partner. Focus on getting the grips, creating the angle, and understanding the circular motion. Partner should allow the sweep to happen so you can feel the correct body mechanics. Repeat 20-30 times per training session."
     },
     {
       "phase": "Week 3-4: Light Resistance",
       "focus": "Timing and reaction to base",
-      "description": "Partner provides 30% resistance - they maintain some base but don't actively defend. Practice recognizing when they shift weight and timing your sweep to coincide with their movement. Begin working on grip breaks and re-establishing control. 15-20 repetitions with brief discussion after each attempt.",
-      "resistance_level": "Light"
+      "description": "Partner provides 30% resistance - they maintain some base but don't actively defend. Practice recognizing when they shift weight and timing your sweep to coincide with their movement. Begin working on grip breaks and re-establishing control. 15-20 repetitions with brief discussion after each attempt."
     },
     {
       "phase": "Week 5-8: Active Defense",
       "focus": "Dealing with counters and chaining attacks",
-      "description": "Partner provides 60% resistance - they post hands, sprawl, or grip your belt. Practice your counter-responses: attacking posted arms, switching directions, transitioning to other attacks. Work on the Hip Bump to Flower Sweep combination. Include 5-minute positional sparring rounds starting from closed guard.",
-      "resistance_level": "Medium"
+      "description": "Partner provides 60% resistance - they post hands, sprawl, or grip your belt. Practice your counter-responses: attacking posted arms, switching directions, transitioning to other attacks. Work on the Hip Bump to Flower Sweep combination. Include 5-minute positional sparring rounds starting from closed guard."
     },
     {
       "phase": "Week 9-12: Competition Application",
       "focus": "Full resistance and live integration",
-      "description": "Practice against full resistance in specific training and open sparring. Partner actively defends all sweeps. Focus on setting up the Flower Sweep with grips, breaking posture, and creating reactions. Record rolls and analyze successful vs. unsuccessful attempts. Begin recognizing the specific positions and moments when the sweep is highest percentage.",
-      "resistance_level": "Full"
+      "description": "Practice against full resistance in specific training and open sparring. Partner actively defends all sweeps. Focus on setting up the Flower Sweep with grips, breaking posture, and creating reactions. Record rolls and analyze successful vs. unsuccessful attempts. Begin recognizing the specific positions and moments when the sweep is highest percentage."
     },
     {
       "phase": "Month 4+: Refinement and Variation",
       "focus": "Advanced entries and combination attacks",
-      "description": "Work on entering the Flower Sweep from different guard positions and grips. Practice no-gi variations. Develop your own timing preferences and setups. Work the sweep against different body types and defensive styles. Focus on the smallest details: grip adjustments, hip angles, and explosive timing.",
-      "resistance_level": "Full"
+      "description": "Work on entering the Flower Sweep from different guard positions and grips. Practice no-gi variations. Develop your own timing preferences and setups. Work the sweep against different body types and defensive styles. Focus on the smallest details: grip adjustments, hip angles, and explosive timing."
     }
   ],
   "variants_and_adaptations": [
@@ -181,33 +165,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary purpose of creating an angle with your hips before executing the Flower Sweep?",
-      "answer": "Creating an angle (approximately 30-45 degrees) changes the sweeping direction from straight back to diagonal, which makes it much harder for the opponent to defend. When you sweep diagonally, the opponent must defend in multiple directions simultaneously - they can't simply post their knee or hand straight back. The angle also allows you to use your butterfly hook more effectively as a lever and generates the circular, rotating momentum that characterizes the sweep.",
-      "difficulty": "Intermediate"
+      "answer": "Creating an angle (approximately 30-45 degrees) changes the sweeping direction from straight back to diagonal, which makes it much harder for the opponent to defend. When you sweep diagonally, the opponent must defend in multiple directions simultaneously - they can't simply post their knee or hand straight back. The angle also allows you to use your butterfly hook more effectively as a lever and generates the circular, rotating momentum that characterizes the sweep."
     },
     {
       "question": "How should you respond if your opponent posts their hand on the mat during your Flower Sweep attempt?",
-      "answer": "The posted hand creates an excellent opportunity for attack rather than a problem. You should immediately switch to attacking the posted arm with a straight armbar (maintaining your sleeve grip and swinging your leg over), transition to a triangle choke, or set up an omoplata. Alternatively, if the opponent overcommits to the post, you can switch directions and sweep to the opposite side. The key is to view the posted hand not as a defense, but as the opponent giving you their arm.",
-      "difficulty": "Beginner"
+      "answer": "The posted hand creates an excellent opportunity for attack rather than a problem. You should immediately switch to attacking the posted arm with a straight armbar (maintaining your sleeve grip and swinging your leg over), transition to a triangle choke, or set up an omoplata. Alternatively, if the opponent overcommits to the post, you can switch directions and sweep to the opposite side. The key is to view the posted hand not as a defense, but as the opponent giving you their arm."
     },
     {
       "question": "Why is the Flower Sweep considered part of a fundamental guard attack system rather than an isolated technique?",
-      "answer": "The Flower Sweep is one component of a interconnected system that includes the Hip Bump Sweep, Kimura, Triangle, and Armbar. These techniques all use similar grips and body positioning, creating a web of attacks where defending one opens up another. For example, defending the Hip Bump by posting creates the Flower Sweep opportunity; defending the Flower Sweep by posting creates armbar opportunities. This systematic approach forces the opponent into a constant series of dilemmas, which is far more effective than relying on any single technique in isolation.",
-      "difficulty": "Advanced"
+      "answer": "The Flower Sweep is one component of a interconnected system that includes the Hip Bump Sweep, Kimura, Triangle, and Armbar. These techniques all use similar grips and body positioning, creating a web of attacks where defending one opens up another. For example, defending the Hip Bump by posting creates the Flower Sweep opportunity; defending the Flower Sweep by posting creates armbar opportunities. This systematic approach forces the opponent into a constant series of dilemmas, which is far more effective than relying on any single technique in isolation."
     },
     {
       "question": "What role does your posted foot play in the execution of the Flower Sweep?",
-      "answer": "The posted foot (the foot that's not doing the butterfly hook) is absolutely critical for generating power and elevation. It drives hard into the mat to lift your hips completely off the ground and provides the base for your body rotation. Without strong posted foot drive, you cannot generate enough momentum to sweep the opponent over. Think of it as the launching pad - it should push forcefully throughout the entire sweeping motion, not just at the beginning.",
-      "difficulty": "Beginner"
+      "answer": "The posted foot (the foot that's not doing the butterfly hook) is absolutely critical for generating power and elevation. It drives hard into the mat to lift your hips completely off the ground and provides the base for your body rotation. Without strong posted foot drive, you cannot generate enough momentum to sweep the opponent over. Think of it as the launching pad - it should push forcefully throughout the entire sweeping motion, not just at the beginning."
     },
     {
       "question": "Explain the relationship between grip control and the success rate of the Flower Sweep?",
-      "answer": "Grip control is directly proportional to sweep success because your grips serve three essential functions: breaking the opponent's posture, preventing them from posting their hands, and pulling them into the sweep direction. Strong, constant pulling pressure with both grips (sleeve and collar/head) keeps the opponent off-balance and limits their defensive options. Weak grips allow the opponent to posture up, base out, or post hands - all of which shut down the sweep. The grips must be maintained with pulling pressure throughout the entire technique, from setup through completion to mount.",
-      "difficulty": "Intermediate"
+      "answer": "Grip control is directly proportional to sweep success because your grips serve three essential functions: breaking the opponent's posture, preventing them from posting their hands, and pulling them into the sweep direction. Strong, constant pulling pressure with both grips (sleeve and collar/head) keeps the opponent off-balance and limits their defensive options. Weak grips allow the opponent to posture up, base out, or post hands - all of which shut down the sweep. The grips must be maintained with pulling pressure throughout the entire technique, from setup through completion to mount."
     },
     {
       "question": "How does the timing of opening your closed guard affect the Flower Sweep's effectiveness?",
-      "answer": "Opening the guard too early telegraphs your intention and gives the opponent time to establish a defensive base, lower their center of gravity, and prepare for your attack. The guard should remain closed until the moment you're ready to execute, at which point the opening, angle creation, and hook insertion should happen as one smooth, quick motion. This element of surprise, combined with the opponent's lack of preparation time, significantly increases your success rate. Advanced practitioners can open the guard slightly earlier, but only when they've already broken the opponent's posture completely.",
-      "difficulty": "Advanced"
+      "answer": "Opening the guard too early telegraphs your intention and gives the opponent time to establish a defensive base, lower their center of gravity, and prepare for your attack. The guard should remain closed until the moment you're ready to execute, at which point the opening, angle creation, and hook insertion should happen as one smooth, quick motion. This element of surprise, combined with the opponent's lack of preparation time, significantly increases your success rate. Advanced practitioners can open the guard slightly earlier, but only when they've already broken the opponent's posture completely."
     }
   ],
   "safety_considerations": "The Flower Sweep is one of the safest techniques in BJJ when practiced properly, with minimal injury risk to either practitioner. The primary safety concern is ensuring controlled follow-through to mount - avoid driving your knee or bodyweight into the opponent's face or ribs as you come on top. When learning, both partners should be aware of the rotational nature of the sweep to avoid awkward landings. Practitioners with limited hip mobility should warm up thoroughly before drilling this technique to prevent hip flexor or groin strains. During live training, tap quickly if caught in a submission during the scramble to mount. As the person being swept, do not post your hand directly into the mat with a locked elbow, as this can result in shoulder or elbow injuries - instead, post with a bent arm or learn to roll through safely.",
@@ -271,5 +249,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 62
 }

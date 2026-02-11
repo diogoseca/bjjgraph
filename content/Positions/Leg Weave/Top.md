@@ -361,11 +361,11 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 35% | 5% |
-| Intermediate | 65% | 55% | 10% |
-| Advanced     | 75% | 70% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 62% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 30-60 seconds for pass completion at advanced level
 
@@ -376,7 +376,7 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 ## Related Positions and Techniques
 
-- **[[Leg Drag Position]]** - Alternative passing finish from leg weave control
+- **[[Leg Drag Control]]** - Alternative passing finish from leg weave control
 - **[[Half Guard]]** - Common starting position before establishing leg weave
 - **[[Side Control]]** - Primary completion target for leg weave passes
 - **[[Headquarters Position]]** - Related passing position with similar pressure principles

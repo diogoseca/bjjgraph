@@ -157,7 +157,7 @@ Strategically, this escape serves as a pressure release valve when heel hook dan
 The technique requires precise timing and commitment. Half-hearted attempts create the worst possible scenario: inverted with leg still trapped, maximizing submission vulnerability. Success depends on reading the attacker's control depth, choosing the optimal moment to initiate rotation, and maintaining heel protection throughout the entire movement arc. Advanced practitioners develop the ability to chain this escape directly into back exposure defense or guard recovery from turtle.
 
 **From Position**: [[Ushiro Ashi-Garami/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish heel protection**: Before any movement, flex your trapped foot toward your shin in maximum dorsiflexion. This pulls the heel tight against your lower leg, denying the opponent the slack needed for a finishing heel hook grip. Maintain this position throughout the entire escape sequence. (Timing: Immediate upon recognizing escape necessity)
-2. **Control inside knee**: Use both hands to grip the opponent's inside leg at the knee, preventing them from stepping through to deepen the entanglement or transition to saddle. This grip also creates a frame that helps generate separation as you rotate. (Timing: Simultaneous with heel protection)
-3. **Position free leg**: Place your free foot against the opponent's hip on their near side. This leg will provide the pushing force to initiate and drive your rotation. Ensure solid contact with the hip bone for maximum leverage transfer. (Timing: 0.5-1 second after establishing hand control)
-4. **Initiate rotation**: Push forcefully off the opponent's hip while simultaneously pulling their inside knee toward you. Begin rotating your body away from the opponent, turning your back toward them. The combination of push-pull creates rotational momentum. (Timing: When opponent adjusts grips or relaxes pressure)
-5. **Complete inversion**: Continue the rotation fully, pulling your trapped leg through the gap created by the movement. Do not stop halfway—commit to bringing your hips completely over until you are facing away from the opponent. Your momentum helps strip their leg control. (Timing: Continuous motion, 1-2 seconds)
-6. **Establish turtle**: Land in a tight turtle position with elbows pinned to knees, chin tucked, and hips low. Immediately clear any remaining leg contact and prepare for back exposure defense. The compact shell prevents easy back takes. (Timing: Immediately upon completing rotation)
+1. **Establish heel protection**: Before any movement, flex your trapped foot toward your shin in maximum dorsiflexion. This pulls the heel tight against your lower leg, denying the opponent the slack needed for a finishing heel hook grip. Maintain this position throughout the entire escape sequence.
+2. **Control inside knee**: Use both hands to grip the opponent's inside leg at the knee, preventing them from stepping through to deepen the entanglement or transition to saddle. This grip also creates a frame that helps generate separation as you rotate.
+3. **Position free leg**: Place your free foot against the opponent's hip on their near side. This leg will provide the pushing force to initiate and drive your rotation. Ensure solid contact with the hip bone for maximum leverage transfer.
+4. **Initiate rotation**: Push forcefully off the opponent's hip while simultaneously pulling their inside knee toward you. Begin rotating your body away from the opponent, turning your back toward them. The combination of push-pull creates rotational momentum.
+5. **Complete inversion**: Continue the rotation fully, pulling your trapped leg through the gap created by the movement. Do not stop halfway—commit to bringing your hips completely over until you are facing away from the opponent. Your momentum helps strip their leg control.
+6. **Establish turtle**: Land in a tight turtle position with elbows pinned to knees, chin tucked, and hips low. Immediately clear any remaining leg contact and prepare for back exposure defense. The compact shell prevents easy back takes.
 
 
 </section>
@@ -254,19 +254,15 @@ The technique requires precise timing and commitment. Half-hearted attempts crea
 ## Training Progressions
 **Week 1-2** - Movement mechanics
 Practice the rotation in isolation without partner resistance. Focus on maintaining dorsiflexion throughout the movement arc, landing in proper turtle position, and building muscle memory for the full inversion. Use solo drilling to groove the motion pattern.
-(Resistance: None)
 
 **Week 3-4** - Partner timing
 Add cooperative partner holding Ushiro Ashi-Garami at 30% resistance. Practice timing the escape during partner's grip adjustments. Focus on feeling the control depth that makes escape viable versus requiring alternative strategies.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner increases resistance to 60% and actively follows rotation attempting back takes. Practice chaining turtle escape into back exposure defense. Develop decision-making for when to continue to turtle versus transition to deep half.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance positional sparring starting from Ushiro Ashi-Garami. Partner actively attacks heel hooks and follows escapes. Develop ability to read control depth and select appropriate escape in real-time competition conditions.
-(Resistance: Full)
 
 
 

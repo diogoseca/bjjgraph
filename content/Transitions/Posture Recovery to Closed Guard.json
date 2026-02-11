@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "Posture Recovery to Closed Guard is a fundamental defensive transition from turtle bottom positions, particularly from the Crackhead Control bottom perspective developed in the 10th Planet system. This technique represents the systematic approach to converting a disadvantageous turtle position into a neutral or advantageous closed guard position where offensive options become available.\n\nThe transition requires precise timing and mechanical understanding of how to create the space necessary for hip insertion while preventing the top player from advancing to back control. Unlike simple guard recovery attempts that rely on explosive movement alone, this technique emphasizes controlled posture changes that set up proper hip positioning before committing to the guard recovery.\n\nStrategically, this transition is essential because it transforms a position where you face constant back attack threats into one where you control distance and have access to sweeps, submissions, and positional improvements. The key insight is that posture recovery precedes guard recovery - attempting to close guard without first establishing proper spinal alignment and hip positioning leads to failed attempts and often accelerates back exposure.",
   "key_principles": [
     "Establish frames before attempting any hip movement to create necessary space for guard insertion",
@@ -54,38 +49,32 @@
     {
       "step_number": 1,
       "action": "Establish frames",
-      "description": "Post your near-side hand against opponent's hip or shoulder while keeping elbow tight to your body. This frame creates the initial barrier preventing them from flattening you.",
-      "timing": "Immediately when sensing opportunity"
+      "description": "Post your near-side hand against opponent's hip or shoulder while keeping elbow tight to your body. This frame creates the initial barrier preventing them from flattening you."
     },
     {
       "step_number": 2,
       "action": "Strip controlling grip",
-      "description": "Use your far hand to strip any collar tie or seatbelt grip on your near side. Peel their grip from wrist to elbow in one smooth motion while maintaining your frame.",
-      "timing": "Within 1-2 seconds of establishing frame"
+      "description": "Use your far hand to strip any collar tie or seatbelt grip on your near side. Peel their grip from wrist to elbow in one smooth motion while maintaining your frame."
     },
     {
       "step_number": 3,
       "action": "Hip escape toward frame",
-      "description": "Execute a small hip escape movement toward your posting hand side, creating angle and preventing opponent from following your hips. Your hip should move toward the mat on the frame side.",
-      "timing": "As grip breaks or loosens"
+      "description": "Execute a small hip escape movement toward your posting hand side, creating angle and preventing opponent from following your hips. Your hip should move toward the mat on the frame side."
     },
     {
       "step_number": 4,
       "action": "Insert knee shield",
-      "description": "Bring your inside knee across your body as a secondary frame, placing your shin across opponent's hip line. This prevents them from smashing back down and creates guard insertion angle.",
-      "timing": "Immediately following hip escape"
+      "description": "Bring your inside knee across your body as a secondary frame, placing your shin across opponent's hip line. This prevents them from smashing back down and creates guard insertion angle."
     },
     {
       "step_number": 5,
       "action": "Rotate hips to mat",
-      "description": "Complete the hip rotation so your back begins to reach the mat. Pull your far leg through as you rotate, preparing to wrap around opponent's torso for guard closure.",
-      "timing": "Fluid continuation of knee shield insertion"
+      "description": "Complete the hip rotation so your back begins to reach the mat. Pull your far leg through as you rotate, preparing to wrap around opponent's torso for guard closure."
     },
     {
       "step_number": 6,
       "action": "Close guard",
-      "description": "Cross your ankles behind opponent's back as your hips settle to the mat. Immediately break their posture by pulling them down with overhooks or collar ties to consolidate the closed guard position.",
-      "timing": "Within 1-2 seconds of hip rotation completion"
+      "description": "Cross your ankles behind opponent's back as your hips settle to the mat. Immediately break their posture by pulling them down with overhooks or collar ties to consolidate the closed guard position."
     }
   ],
   "common_counters": [
@@ -141,26 +130,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Frame establishment mechanics",
-      "description": "Practice establishing frames from turtle bottom against non-resisting partner. Focus on hand placement, elbow positioning, and creating space. Drill hip escape motion in isolation before combining with frames.",
-      "resistance_level": "None"
+      "description": "Practice establishing frames from turtle bottom against non-resisting partner. Focus on hand placement, elbow positioning, and creating space. Drill hip escape motion in isolation before combining with frames."
     },
     {
       "phase": "Week 3-4",
       "focus": "Timing and coordination",
-      "description": "Partner applies light pressure from top turtle while you execute full sequence. Focus on timing frame establishment with opponent's movement. Introduce grip stripping with live resistance on grips only.",
-      "resistance_level": "Light"
+      "description": "Partner applies light pressure from top turtle while you execute full sequence. Focus on timing frame establishment with opponent's movement. Introduce grip stripping with live resistance on grips only."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter integration",
-      "description": "Partner actively tries to prevent guard recovery with moderate resistance. Practice recognizing and countering common defensive reactions. Chain with alternative escapes when primary path is blocked.",
-      "resistance_level": "Medium"
+      "description": "Partner actively tries to prevent guard recovery with moderate resistance. Practice recognizing and countering common defensive reactions. Chain with alternative escapes when primary path is blocked."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Full positional sparring starting from Crackhead Control bottom. Work on recognizing optimal timing windows in live scrambles. Integrate with complete turtle defense system including granby rolls and sit-outs.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring starting from Crackhead Control bottom. Work on recognizing optimal timing windows in live scrambles. Integrate with complete turtle defense system including granby rolls and sit-outs."
     }
   ],
   "variants_and_adaptations": [
@@ -183,43 +168,35 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Posture Recovery to Closed Guard?",
-      "answer": "The primary goal is to transition from a disadvantageous turtle bottom position to closed guard where you have offensive options including sweeps, submissions, and the ability to control distance. This transforms a position of constant back attack threat into one where you dictate the engagement.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to transition from a disadvantageous turtle bottom position to closed guard where you have offensive options including sweeps, submissions, and the ability to control distance. This transforms a position of constant back attack threat into one where you dictate the engagement."
     },
     {
       "question": "Why must frames be established before attempting hip movement in this technique?",
-      "answer": "Frames create the necessary space between you and the opponent for successful hip insertion. Without frames, the opponent can follow your hip movement and maintain control or advance to back control. The frame acts as a barrier that the opponent must address before they can counter your movement.",
-      "difficulty": "Beginner"
+      "answer": "Frames create the necessary space between you and the opponent for successful hip insertion. Without frames, the opponent can follow your hip movement and maintain control or advance to back control. The frame acts as a barrier that the opponent must address before they can counter your movement."
     },
     {
       "question": "Your opponent drives forward aggressively as you attempt guard recovery - how do you adapt?",
-      "answer": "Use their forward momentum to assist your hip rotation. Their drive actually helps you get under them if you time the guard closure correctly. As they commit weight forward, complete your hip rotation faster and close your ankles behind their back, using their pressure to pull you into proper guard position.",
-      "difficulty": "Intermediate"
+      "answer": "Use their forward momentum to assist your hip rotation. Their drive actually helps you get under them if you time the guard closure correctly. As they commit weight forward, complete your hip rotation faster and close your ankles behind their back, using their pressure to pull you into proper guard position."
     },
     {
       "question": "What is the correct direction for the initial hip escape and why does it matter?",
-      "answer": "Hip escape toward your frame side, not away from opponent. Moving toward the frame keeps your back momentarily facing their chest before rotation completes, preventing them from easily taking your back. Moving away creates a direct path for back takes as you're essentially giving them the angle they want.",
-      "difficulty": "Intermediate"
+      "answer": "Hip escape toward your frame side, not away from opponent. Moving toward the frame keeps your back momentarily facing their chest before rotation completes, preventing them from easily taking your back. Moving away creates a direct path for back takes as you're essentially giving them the angle they want."
     },
     {
       "question": "Your opponent begins inserting a hook as you rotate your hips - what is the emergency response?",
-      "answer": "Immediately trap their foot with your same-side hand before completing the hip rotation. If the hook enters partially, stop the guard recovery attempt and address hook removal first. Completing the rotation with a hook in place converts your escape attempt into back control for them. Hook defense takes priority over guard closure.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately trap their foot with your same-side hand before completing the hip rotation. If the hook enters partially, stop the guard recovery attempt and address hook removal first. Completing the rotation with a hook in place converts your escape attempt into back control for them. Hook defense takes priority over guard closure."
     },
     {
       "question": "What is the timing relationship between hip rotation completion and guard closure?",
-      "answer": "Guard closure must happen immediately as hips reach the mat - within 1-2 seconds maximum. Any delay allows opponent to establish passing angle or return to top turtle. The ankles should cross behind opponent's back as a continuation of the hip rotation movement, not as a separate action.",
-      "difficulty": "Intermediate"
+      "answer": "Guard closure must happen immediately as hips reach the mat - within 1-2 seconds maximum. Any delay allows opponent to establish passing angle or return to top turtle. The ankles should cross behind opponent's back as a continuation of the hip rotation movement, not as a separate action."
     },
     {
       "question": "How do you manage energy expenditure during repeated guard recovery attempts from turtle?",
-      "answer": "Use positional frames and body weight rather than muscular effort to create space. Time attempts for opponent's weight shifts rather than fighting against their pressure. Small, efficient hip escapes conserve more energy than explosive movements. If initial attempt fails, reset defensive posture rather than frantically chaining multiple high-energy attempts.",
-      "difficulty": "Advanced"
+      "answer": "Use positional frames and body weight rather than muscular effort to create space. Time attempts for opponent's weight shifts rather than fighting against their pressure. Small, efficient hip escapes conserve more energy than explosive movements. If initial attempt fails, reset defensive posture rather than frantically chaining multiple high-energy attempts."
     },
     {
       "question": "When should you abandon the closed guard recovery and pursue half guard or butterfly guard instead?",
-      "answer": "Pursue half guard when opponent's weight commits heavily to one side making full hip rotation difficult. Choose butterfly guard when opponent creates distance during your recovery or backs away - insert hooks immediately rather than chasing closed guard. Flexibility limitations may also dictate half guard as a more realistic target than closed guard.",
-      "difficulty": "Advanced"
+      "answer": "Pursue half guard when opponent's weight commits heavily to one side making full hip rotation difficult. Choose butterfly guard when opponent creates distance during your recovery or backs away - insert hooks immediately rather than chasing closed guard. Flexibility limitations may also dictate half guard as a more realistic target than closed guard."
     }
   ],
   "safety_considerations": "This technique is relatively low-risk when performed correctly, but practitioners should be aware of several safety factors. Neck strain can occur if head position is compromised during the hip rotation - always keep chin tucked to chest throughout the movement. Avoid explosive jerking movements that could strain lower back muscles; use controlled hip escapes instead. Partners drilling this technique should communicate clearly about resistance levels to prevent injury during the learning phase. If you feel opponent securing hooks during your recovery attempt, stop and reset rather than fighting through a bad position. Shoulder injuries are possible if frames collapse under heavy pressure - tap or reset rather than allowing joints to be compromised in awkward positions.",
@@ -261,5 +238,6 @@
       "name": "Technical Standup",
       "relationship": "Alternative escape - standing option instead of guard recovery"
     }
-  ]
+  ],
+  "success_rate": 58
 }

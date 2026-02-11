@@ -157,7 +157,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 **Type**: Arm Lock
 **Target Area**: Elbow joint
 **Starting Position**: [[Crucifix]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -234,12 +234,12 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure Crucifix Control**: From back control or turtle position, establish the crucifix by trapping one of the opponent's arms between your legs while controlling their other arm with your hands. Your top leg should be across their face/neck area, and your bottom leg should hook under their armpit to trap their near arm. Ensure your chest is tight to their back. (Timing: Establish control before attempting submission) [Pressure: Firm]
-2. **Isolate the Target Arm**: With both hands, control the opponent's far arm (the one not trapped by your legs). Grip their wrist with one hand and their forearm or triceps area with the other. Pull this arm away from their body and extend it slightly, ensuring they cannot retract it. This isolation is critical - the opponent should not be able to make a fist near their chest or grab their own gi/body. (Timing: 2-3 seconds of controlled extension) [Pressure: Moderate]
-3. **Position Your Hips**: Shift your hips toward the opponent's shoulder on the side of the arm you're attacking. Your hip should be positioned close to their shoulder joint, creating a fulcrum point for the armbar. Maintain pressure with your chest against their back to prevent them from turning into you. Your body should form a 'T' shape with theirs. (Timing: Smooth repositioning over 1-2 seconds) [Pressure: Firm]
-4. **Thread Your Leg Across**: While maintaining wrist control, carefully thread your top leg over the opponent's face and shoulder, positioning your knee or thigh across their face. This leg will help control their upper body and prevent them from sitting up or turning. Keep your bottom leg hooked under their armpit to maintain the arm trap. Your legs should now control both of their arms completely. (Timing: Controlled movement over 2-3 seconds) [Pressure: Moderate]
-5. **Secure the Arm Position**: Pull the opponent's attacking arm across your hips, positioning their elbow pointing upward and their thumb pointing toward the ceiling. Both of your hands should control their wrist and forearm area. Your hips should be tight to their shoulder, creating the lever. Ensure their arm is straight but not yet hyperextended - you want control before finishing pressure. (Timing: Establish position over 1-2 seconds) [Pressure: Moderate]
-6. **Apply Finishing Pressure**: Squeeze your knees together to secure your leg position, then slowly lift your hips while pulling the wrist down toward your chest. The pressure should be applied by extending your hips upward, not by pulling with your arms. The opponent's elbow should bend the wrong way as your hips create a fulcrum against their humerus bone. Apply pressure slowly and progressively, giving your partner time to tap. (Timing: 3-5 seconds of progressive pressure application) [Pressure: Maximum]
+1. **Secure Crucifix Control**: From back control or turtle position, establish the crucifix by trapping one of the opponent's arms between your legs while controlling their other arm with your hands. Your top leg should be across their face/neck area, and your bottom leg should hook under their armpit to trap their near arm. Ensure your chest is tight to their back. (Timing: Establish control before attempting submission)
+2. **Isolate the Target Arm**: With both hands, control the opponent's far arm (the one not trapped by your legs). Grip their wrist with one hand and their forearm or triceps area with the other. Pull this arm away from their body and extend it slightly, ensuring they cannot retract it. This isolation is critical - the opponent should not be able to make a fist near their chest or grab their own gi/body. (Timing: 2-3 seconds of controlled extension)
+3. **Position Your Hips**: Shift your hips toward the opponent's shoulder on the side of the arm you're attacking. Your hip should be positioned close to their shoulder joint, creating a fulcrum point for the armbar. Maintain pressure with your chest against their back to prevent them from turning into you. Your body should form a 'T' shape with theirs. (Timing: Smooth repositioning over 1-2 seconds)
+4. **Thread Your Leg Across**: While maintaining wrist control, carefully thread your top leg over the opponent's face and shoulder, positioning your knee or thigh across their face. This leg will help control their upper body and prevent them from sitting up or turning. Keep your bottom leg hooked under their armpit to maintain the arm trap. Your legs should now control both of their arms completely. (Timing: Controlled movement over 2-3 seconds)
+5. **Secure the Arm Position**: Pull the opponent's attacking arm across your hips, positioning their elbow pointing upward and their thumb pointing toward the ceiling. Both of your hands should control their wrist and forearm area. Your hips should be tight to their shoulder, creating the lever. Ensure their arm is straight but not yet hyperextended - you want control before finishing pressure. (Timing: Establish position over 1-2 seconds)
+6. **Apply Finishing Pressure**: Squeeze your knees together to secure your leg position, then slowly lift your hips while pulling the wrist down toward your chest. The pressure should be applied by extending your hips upward, not by pulling with your arms. The opponent's elbow should bend the wrong way as your hips create a fulcrum against their humerus bone. Apply pressure slowly and progressively, giving your partner time to tap. (Timing: 3-5 seconds of progressive pressure application)
 
 
 </section>
@@ -259,25 +259,25 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Releasing crucifix control before securing the armbar [Medium DANGER]
+- **Mistake**: Releasing crucifix control before securing the armbar
   - **Consequence**: The opponent can immediately retract their arm and escape, or turn into you to counter-attack
   - **Correction**: Maintain all crucifix control points (both legs, chest pressure) throughout the entire armbar sequence. Only release the crucifix after you have achieved the tap or decided to transition to a different attack
-- **Mistake**: Pulling on the arm with upper body strength instead of using hip extension [Low DANGER]
+- **Mistake**: Pulling on the arm with upper body strength instead of using hip extension
   - **Consequence**: Reduced effectiveness of the submission, increased energy expenditure, and potential for the opponent to defend by pulling their arm back
   - **Correction**: Focus on lifting your hips while keeping the opponent's wrist pulled to your chest. Your arms should primarily control position, while your hips and core provide the finishing pressure
-- **Mistake**: Positioning your hips too far from the opponent's shoulder [Medium DANGER]
+- **Mistake**: Positioning your hips too far from the opponent's shoulder
   - **Consequence**: Loss of leverage, inability to fully extend the elbow, and increased opportunity for the opponent to escape
   - **Correction**: Keep your hips tight to the opponent's shoulder joint, creating a short and powerful lever. Your hip should be the fulcrum point that the opponent's humerus bone presses against
-- **Mistake**: Spiking or jerking the submission with explosive force [CRITICAL DANGER]
+- **Mistake**: Spiking or jerking the submission with explosive force
   - **Consequence**: Severe elbow injury including hyperextension, dislocation, or ligament rupture before partner can tap
   - **Correction**: CRITICAL SAFETY: Apply all armbar pressure slowly and progressively over 3-5 seconds minimum. Give your partner time to recognize the danger and tap. Never use explosive force in training
-- **Mistake**: Failing to control the opponent's wrist properly, allowing them to rotate their thumb down [High DANGER]
+- **Mistake**: Failing to control the opponent's wrist properly, allowing them to rotate their thumb down
   - **Consequence**: If the thumb rotates downward (hitchhiker position), the armbar becomes a shoulder lock instead, which is more dangerous and easier to defend
   - **Correction**: Maintain firm wrist control with both hands, keeping the opponent's thumb pointing toward the ceiling throughout the submission. This ensures proper alignment for an elbow attack
-- **Mistake**: Not isolating the arm completely before applying pressure [Medium DANGER]
+- **Mistake**: Not isolating the arm completely before applying pressure
   - **Consequence**: The opponent can defend by keeping their elbow bent and arm close to their body, or can pull their arm free
   - **Correction**: Ensure the opponent's arm is fully extended and isolated before beginning hip extension. Their elbow should already be straight (but not hyperextended) when you start the finishing motion
-- **Mistake**: Allowing the opponent to grip their own gi or make a defensive fist [Low DANGER]
+- **Mistake**: Allowing the opponent to grip their own gi or make a defensive fist
   - **Consequence**: Creates a strong defensive structure that is difficult to break and prevents full arm extension
   - **Correction**: Control the wrist and forearm area before the opponent can establish grips. If they have already gripped, break the grip by controlling above their hand and extending the arm
 
@@ -342,43 +342,6 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding** (Week 1-2)
-- Focus: Learn crucifix position mechanics, proper arm isolation, and safety protocols without any submission pressure. Partner is completely cooperative.
-- Resistance: None
-- Safety: Emphasize tap signals, release protocol, and proper grip positioning. Practice releasing immediately on tap. Discuss injury risks and ensure both partners understand the danger of explosive force on the elbow joint.
-
-**Slow Positional Practice** (Week 3-4)
-- Focus: Practice achieving crucifix position from various setups (back control, turtle, side control) and transitioning to arm isolation. Still no finishing pressure - stop at full extension.
-- Resistance: Zero resistance
-- Safety: Focus on maintaining continuous control throughout transitions. Partners should tap early (before any pain) to build safety habits. Review that thumb must point up, not down. Practice verbal communication during training.
-
-**Controlled Finishing Mechanics** (Week 5-8)
-- Focus: Begin applying very light finishing pressure with cooperative partner. Pressure should be applied over 5-7 seconds minimum. Partner taps early at first sign of pressure.
-- Resistance: Mild resistance
-- Safety: CRITICAL PHASE: This is where most training injuries occur. Both partners must commit to safety-first mindset. The attacking partner applies pressure extremely slowly. Defending partner taps early and clearly. Emphasize that training is not competition - there is no prize for resisting.
-
-**Realistic Defensive Scenarios** (Week 9-12)
-- Focus: Partner provides realistic defensive responses (pulling arm back, attempting grips, trying to turn). Practice maintaining position and control against these defenses before finishing.
-- Resistance: Realistic resistance
-- Safety: Defender should resist the position but tap immediately when the armbar is locked in properly. Emphasize that resisting the position is good training; resisting the finished submission is dangerous. Continue 3-5 second minimum application time.
-
-**Integration and Combination** (Week 13+)
-- Focus: Integrate crucifix armbar into broader game from various positions and situations. Chain with other crucifix submissions and back attacks. Begin using in situational sparring.
-- Resistance: Full resistance
-- Safety: Even at this advanced stage, maintain slow application in training. Competition speed is only for competition. Partners should have established trust and clear communication. Review safety protocols monthly as a refresher.
-
-**Advanced Competition Preparation** (Ongoing)
-- Focus: Refine timing, setups, and finishing details for competition scenarios. Practice against higher-level defensive techniques and escapes.
-- Resistance: Full resistance
-- Safety: Distinguish between training room and competition application. In training, continue prioritizing partner safety. Before competition, review that competition finishing speed is faster but must stop immediately on tap. Understand that referee stoppage is not always fast enough to prevent injury.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -432,6 +395,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

@@ -153,7 +153,7 @@ description: "Learn the Butterfly Sweep in BJJ. Complete execution guide from Bu
 The Butterfly Sweep is a fundamental attacking technique from butterfly guard that exploits opponent's weight distribution and base. By using butterfly hooks (feet positioned on opponent's inner thighs) combined with precise hip movement and off-balancing mechanics, the practitioner elevates and destabilizes the opponent, reversing position from bottom to top. This sweep is particularly effective when the opponent commits their weight forward or attempts to pass, creating the perfect opportunity for the guard player to capitalize on compromised balance. The technique exemplifies efficient use of leverage over strength, making it accessible to practitioners of all sizes and suitable against larger opponents. The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Jitsu, forming the foundation for numerous guard systems and serving as a gateway to more advanced butterfly guard attacks.
 
 **From Position**: [[Butterfly Guard/Bottom]]
-**Success Rates**: Beginner 40%, Intermediate 55%, Advanced 70%
+**Success Rate**: 62%
 
 </section>
 
@@ -202,12 +202,12 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet positioned as hooks on opponent's inner thighs, balls of feet making contact. Secure upper body control with underhooks or collar grips, bringing opponent's weight forward onto your centerline. Maintain active posture with chest up and hips mobile. (Timing: Initial position - take time to secure proper grips and hooks)
-2. **Break opponent's posture**: Pull opponent forward using your grips while simultaneously driving your forehead or shoulder into their chest. This breaks their posture and brings their weight onto you, compromising their base. Your goal is to get them heavy on top of you, making it difficult for them to post or resist the sweep. (Timing: 1-2 seconds of steady pulling pressure)
-3. **Post base hand**: Post your non-sweeping hand (typically the hand opposite to your sweep direction) on the mat behind you for stability and leverage. This hand acts as a pivot point and prevents you from falling backward. Keep elbow slightly bent to absorb pressure and maintain structural integrity. (Timing: Simultaneous with step 2)
-4. **Elevate with primary hook**: Drive your primary butterfly hook (the one on the side you're sweeping toward) upward and slightly across your body, lifting opponent's near leg off the mat. Extend your knee forcefully while maintaining flexion in your hip. This elevation breaks opponent's base and initiates the rolling momentum. (Timing: Explosive movement - 0.5 seconds)
-5. **Generate rotational momentum**: As you elevate with your hook, simultaneously fall to your base hand side while pulling opponent across your body with your grips. Your body acts as a fulcrum, using your hip movement and upper body control to rotate opponent over you. Drive through with your hips, creating a scooping motion that amplifies the sweep. (Timing: Continuous motion with step 4)
-6. **Follow through to top position**: Continue the rotational momentum until opponent is inverted, then drive forward with your entire body to establish mount or side control. Remove your hooks as you transition on top, replacing them with knee pressure and hip control. Secure the dominant position immediately by establishing strong crossface and underhook control before opponent can recover guard. (Timing: 1-2 seconds to complete the sweep and establish position)
+1. **Establish butterfly guard control**: Sit up in butterfly guard with both feet positioned as hooks on opponent's inner thighs, balls of feet making contact. Secure upper body control with underhooks or collar grips, bringing opponent's weight forward onto your centerline. Maintain active posture with chest up and hips mobile.
+2. **Break opponent's posture**: Pull opponent forward using your grips while simultaneously driving your forehead or shoulder into their chest. This breaks their posture and brings their weight onto you, compromising their base. Your goal is to get them heavy on top of you, making it difficult for them to post or resist the sweep.
+3. **Post base hand**: Post your non-sweeping hand (typically the hand opposite to your sweep direction) on the mat behind you for stability and leverage. This hand acts as a pivot point and prevents you from falling backward. Keep elbow slightly bent to absorb pressure and maintain structural integrity.
+4. **Elevate with primary hook**: Drive your primary butterfly hook (the one on the side you're sweeping toward) upward and slightly across your body, lifting opponent's near leg off the mat. Extend your knee forcefully while maintaining flexion in your hip. This elevation breaks opponent's base and initiates the rolling momentum.
+5. **Generate rotational momentum**: As you elevate with your hook, simultaneously fall to your base hand side while pulling opponent across your body with your grips. Your body acts as a fulcrum, using your hip movement and upper body control to rotate opponent over you. Drive through with your hips, creating a scooping motion that amplifies the sweep.
+6. **Follow through to top position**: Continue the rotational momentum until opponent is inverted, then drive forward with your entire body to establish mount or side control. Remove your hooks as you transition on top, replacing them with knee pressure and hip control. Secure the dominant position immediately by establishing strong crossface and underhook control before opponent can recover guard.
 
 
 </section>
@@ -257,27 +257,21 @@ The Butterfly Sweep is a fundamental attacking technique from butterfly guard th
 ## Training Progressions
 **Week 1-2: Technical Foundation** - Basic mechanics and coordination without resistance
 Partner starts on knees in butterfly guard. Practitioner focuses on establishing proper butterfly guard position, grip control, and posting base hand. Drill the sweep motion slowly, emphasizing the coordination of hook elevation, upper body pull, and hip rotation. Partner offers no resistance and allows themselves to be swept smoothly. Goal: 20-30 repetitions per side per session, focusing on fluid motion and proper technique.
-(Resistance: None)
 
 **Week 3-4: Adding Light Resistance** - Maintaining technique under light pressure and timing
 Partner provides light resistance by maintaining base but not actively countering. Practitioner must now break posture effectively and time the sweep properly. Partner occasionally posts lightly, requiring practitioner to adjust and complete the sweep. Introduce sweep variations when base hand posts. Drill 15-20 repetitions per side, then switch roles. Begin timing sweeps with partner's forward pressure.
-(Resistance: Light)
 
 **Week 5-8: Medium Resistance and Counters** - Problem-solving against common counters and transitioning on failures
 Partner actively defends with specific counters: posting hands, sprawling back, crossfacing, widening base. Practitioner must recognize defense and either complete sweep through proper technique or transition to alternative attacks (Kimura, X-Guard, Single Leg X). Introduce positional sparring from butterfly guard with goal of achieving sweep. 10-minute rounds with 2-minute positions. Partner gives 50% resistance.
-(Resistance: Medium)
 
 **Week 9-12: Competition Simulation** - Full resistance execution and chaining attacks
 Full resistance positional sparring from butterfly guard. Partner uses all defensive tools and counterattacks. Practitioner must set up sweeps through grips, off-balancing, and creating reactions. Focus on chaining butterfly sweep with other attacks in continuous sequences. Include scenarios where practitioner must recover butterfly guard after failed attempts. Live rolling emphasis on butterfly guard game.
-(Resistance: Full)
 
 **Week 13+: Advanced Application** - Style-specific adaptations and high-level timing
 Refine technique against different opponent styles (pressure passers, mobile passers, standing passers). Develop ability to hit butterfly sweep in transition during scrambles. Work on invisible details: grip fighting, microadjustments in hook pressure, using opponent's reactions. Train butterfly sweep entries from other positions. Study high-level competition footage and replicate specific butterfly sweep sequences.
-(Resistance: Full)
 
 **Ongoing: Maintenance and Refinement** - Continuous improvement and adaptation
 Regular drilling of fundamental mechanics to maintain technical sharpness. Experiment with grip variations, different starting positions, and creative transitions. Analyze personal footage to identify technical gaps. Work with training partners of various sizes and skill levels to develop universal application. Integrate butterfly sweep seamlessly into overall guard game.
-(Resistance: Full)
 
 
 

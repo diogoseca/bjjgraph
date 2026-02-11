@@ -393,11 +393,11 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 30% |
-| Intermediate | 65% | 58% | 52% |
-| Advanced     | 85% | 78% | 72% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 75% |
+| Advancement Probability | 68% |
+| Submission Probability | 62% |
 
 **Average Time in Position**: 45-90 seconds before submission attempt or position change
 

@@ -293,21 +293,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 70,
-        "advanced": 85,
+        "value": 78,
         "description": "Ability to maintain position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 80,
+        "value": 70,
         "description": "Probability of advancing to truck or full back control"
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Probability of finishing from this position"
       },
       "average_time": "45-90 seconds before transition or submission attempt"
@@ -552,21 +546,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 45,
-        "advanced": 65,
+        "value": 55,
         "description": "Ability to prevent position advancement or submission"
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60,
+        "value": 50,
         "description": "Probability of successful escape to better position"
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 25,
-        "advanced": 40,
+        "value": 32,
         "description": "Risk of being submitted from this position"
       },
       "average_time": "20-45 seconds before escape or submission"

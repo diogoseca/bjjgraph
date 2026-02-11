@@ -163,7 +163,7 @@ This transition exploits a fundamental vulnerability in leg lock defense: when o
 The back take from ashi has become increasingly important in modern competition as leg lock defenses have improved. High-level practitioners use the threat of leg attacks to create back take opportunities, and the threat of back takes to create leg lock openings. This creates a systematic dilemma where defending one attack opens vulnerability to the other, embodying the interconnected nature of positional grappling at advanced levels.
 
 **From Position**: [[Inside Ashi-Garami/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -210,13 +210,13 @@ The back take from ashi has become increasingly important in modern competition 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the trigger**: Identify when opponent sits up to address leg control or reaches forward to create defensive frames, exposing their back as they shift weight toward you. (Timing: As opponent commits weight forward)
-2. **Secure upper body connection**: Before releasing any leg control, reach with your inside arm to secure a grip on opponent's far shoulder, collar, or underhook position to establish upper body control. (Timing: Immediately after recognizing trigger)
-3. **Release inside leg**: Remove your inside leg from across opponent's hip while maintaining outside leg hook, using this leg to push off the mat and begin circling toward their back. (Timing: As upper body grip is secured)
-4. **Circle toward back**: Hip escape and circle your body toward opponent's back, using your outside leg hook as an anchor point while your inside leg swings around to establish first hook behind their hip. (Timing: Continuous motion following leg release)
-5. **Establish seatbelt control**: As you arrive at opponent's back, secure seatbelt grip with one arm over their shoulder and other under their armpit, hands clasped together controlling upper body. (Timing: As first hook is inserted)
-6. **Insert second hook**: Release remaining leg control on opponent's original trapped leg and insert second hook inside their thigh, completing back control with both hooks and seatbelt established. (Timing: Once seatbelt is secured)
-7. **Consolidate position**: Pull opponent onto their side or take them down to the mat, establishing chest-to-back connection with full back control including both hooks deep and harness secured. (Timing: Immediately after second hook)
+1. **Recognize the trigger**: Identify when opponent sits up to address leg control or reaches forward to create defensive frames, exposing their back as they shift weight toward you.
+2. **Secure upper body connection**: Before releasing any leg control, reach with your inside arm to secure a grip on opponent's far shoulder, collar, or underhook position to establish upper body control.
+3. **Release inside leg**: Remove your inside leg from across opponent's hip while maintaining outside leg hook, using this leg to push off the mat and begin circling toward their back.
+4. **Circle toward back**: Hip escape and circle your body toward opponent's back, using your outside leg hook as an anchor point while your inside leg swings around to establish first hook behind their hip.
+5. **Establish seatbelt control**: As you arrive at opponent's back, secure seatbelt grip with one arm over their shoulder and other under their armpit, hands clasped together controlling upper body.
+6. **Insert second hook**: Release remaining leg control on opponent's original trapped leg and insert second hook inside their thigh, completing back control with both hooks and seatbelt established.
+7. **Consolidate position**: Pull opponent onto their side or take them down to the mat, establishing chest-to-back connection with full back control including both hooks deep and harness secured.
 
 
 </section>
@@ -259,19 +259,15 @@ The back take from ashi has become increasingly important in modern competition 
 ## Training Progressions
 **Week 1-2** - Mechanical pathway
 Practice the transition sequence without resistance, focusing on the order of operations: recognize trigger, secure upper body, release inside leg, circle, establish hooks. Drill 50 repetitions per side per session.
-(Resistance: None)
 
 **Week 3-4** - Trigger recognition
 Partner provides light resistance and varies timing of sitting up or reaching forward. Practice recognizing the trigger and initiating transition at correct moment. Include failed attempts where timing is wrong.
-(Resistance: Light)
 
 **Week 5-6** - Chain integration
 Combine back take with leg attack threats, flowing between ankle lock attempts, heel hook threats, and back take based on partner's defensive reactions. Practice reading which option is available.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in positional sparring starting from inside ashi. Both partners work at full resistance with goal of either completing leg lock, taking back, or escaping. Track success rate.
-(Resistance: Full)
 
 
 

@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Armbar from Crucifix represents a high-percentage submission attack that capitalizes on the unique arm isolation available from the crucifix position. When the opponent defends the neck aggressively by tucking their chin and blocking choke attempts, their arm becomes vulnerable to hyperextension attacks. This transition exploits the fundamental defensive dilemma in crucifix—the opponent cannot simultaneously protect their neck and defend their trapped arms.\n\nFrom a mechanical standpoint, the armbar from crucifix differs from standard armbar entries because one arm is already isolated and controlled by your legs. The attacking arm is typically the far arm that you control with your hands, though the trapped arm can also be attacked depending on your positioning. The key advantage is that the opponent has limited defensive options—they cannot pull the arm to their chest, roll away effectively, or use their other arm to assist in defense.\n\nStrategically, the armbar serves as the secondary attack in the crucifix submission hierarchy. When choke attempts fail, transitioning to the armbar creates a submission chain that forces the opponent to defend multiple threats. Advanced practitioners use the armbar threat to open up the neck when the opponent extends their arm defensively, creating a cyclical attack pattern that eventually results in a finish.",
   "key_principles": [
     "Maintain crucifix control throughout the transition—never sacrifice positional dominance for submission attempts",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Secure wrist control",
-      "description": "With your top hand, establish a firm grip on the opponent's wrist of the arm you will attack, pulling it away from their body and toward your centerline to begin isolating the limb.",
-      "timing": "While maintaining crucifix control"
+      "description": "With your top hand, establish a firm grip on the opponent's wrist of the arm you will attack, pulling it away from their body and toward your centerline to begin isolating the limb."
     },
     {
       "step_number": 2,
       "action": "Hip adjustment",
-      "description": "Shift your hips slightly toward the opponent's head, positioning your pelvis directly next to their shoulder. This eliminates the space they need to pull their arm free and sets the angle for the hyperextension.",
-      "timing": "Smooth transition, no jerky movements"
+      "description": "Shift your hips slightly toward the opponent's head, positioning your pelvis directly next to their shoulder. This eliminates the space they need to pull their arm free and sets the angle for the hyperextension."
     },
     {
       "step_number": 3,
       "action": "Leg positioning",
-      "description": "Bring your top leg over the opponent's face or head, crossing your ankles if possible to lock your legs together. Your bottom leg stays under their armpit maintaining the crucifix structure on their other arm.",
-      "timing": "Coordinate with hip movement"
+      "description": "Bring your top leg over the opponent's face or head, crossing your ankles if possible to lock your legs together. Your bottom leg stays under their armpit maintaining the crucifix structure on their other arm."
     },
     {
       "step_number": 4,
       "action": "Control elbow alignment",
-      "description": "Ensure the opponent's elbow is positioned between your thighs with their thumb pointing upward. Squeeze your knees together to trap the elbow joint and prevent any rotation that would relieve pressure.",
-      "timing": "Before applying breaking pressure"
+      "description": "Ensure the opponent's elbow is positioned between your thighs with their thumb pointing upward. Squeeze your knees together to trap the elbow joint and prevent any rotation that would relieve pressure."
     },
     {
       "step_number": 5,
       "action": "Chest connection",
-      "description": "Pull the opponent's wrist to your chest using both hands, hugging the arm tight to your body. This eliminates slack in the arm and creates the lever system needed for the hyperextension.",
-      "timing": "Firm grip, arm against sternum"
+      "description": "Pull the opponent's wrist to your chest using both hands, hugging the arm tight to your body. This eliminates slack in the arm and creates the lever system needed for the hyperextension."
     },
     {
       "step_number": 6,
       "action": "Apply breaking pressure",
-      "description": "Lift your hips slowly while maintaining the wrist at your chest and knees pinched on the elbow. The hip elevation creates the hyperextension force against the elbow joint. Apply gradually, giving opponent time to tap.",
-      "timing": "Controlled pressure, not explosive"
+      "description": "Lift your hips slowly while maintaining the wrist at your chest and knees pinched on the elbow. The hip elevation creates the hyperextension force against the elbow joint. Apply gradually, giving opponent time to tap."
     }
   ],
   "common_counters": [
@@ -140,26 +129,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Fundamental mechanics",
-      "description": "Practice the armbar finish from a static crucifix position with a compliant partner. Focus on proper wrist control, hip placement next to the shoulder, leg positioning over the face, and controlled hip elevation. Partner does not resist but provides feedback on pressure and positioning.",
-      "resistance_level": "None"
+      "description": "Practice the armbar finish from a static crucifix position with a compliant partner. Focus on proper wrist control, hip placement next to the shoulder, leg positioning over the face, and controlled hip elevation. Partner does not resist but provides feedback on pressure and positioning."
     },
     {
       "phase": "Week 3-4",
       "focus": "Transition timing",
-      "description": "Partner defends chokes from crucifix by tucking chin. Practice recognizing when the arm becomes available and transitioning smoothly from crucifix control to armbar position. Develop the timing to attack when opponent is focused on neck defense. Light resistance on arm extraction.",
-      "resistance_level": "Light"
+      "description": "Partner defends chokes from crucifix by tucking chin. Practice recognizing when the arm becomes available and transitioning smoothly from crucifix control to armbar position. Develop the timing to attack when opponent is focused on neck defense. Light resistance on arm extraction."
     },
     {
       "phase": "Week 5-6",
       "focus": "Counter recognition",
-      "description": "Partner uses common counters: stacking, arm rotation, and bridging. Practice recognizing each counter early and applying appropriate responses. Drill the choke-to-armbar-to-choke cycle as opponent defends. Maintain position when armbar fails rather than losing crucifix entirely.",
-      "resistance_level": "Medium"
+      "description": "Partner uses common counters: stacking, arm rotation, and bridging. Practice recognizing each counter early and applying appropriate responses. Drill the choke-to-armbar-to-choke cycle as opponent defends. Maintain position when armbar fails rather than losing crucifix entirely."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Full sparring rounds starting from crucifix. Partner attempts realistic escapes while you work the complete submission chain. Track success rate and identify remaining gaps. Focus on maintaining composure when first attempt fails and cycling to next attack.",
-      "resistance_level": "Full"
+      "description": "Full sparring rounds starting from crucifix. Partner attempts realistic escapes while you work the complete submission chain. Track success rate and identify remaining gaps. Focus on maintaining composure when first attempt fails and cycling to next attack."
     }
   ],
   "variants_and_adaptations": [
@@ -182,53 +167,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Armbar from Crucifix?",
-      "answer": "The primary goal is to hyperextend the opponent's elbow joint for a submission while maintaining the positional dominance of the crucifix. This attack capitalizes on the unique arm isolation that crucifix provides, where the opponent cannot use both arms to defend simultaneously. The armbar represents the secondary attack after chokes, creating a submission chain.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to hyperextend the opponent's elbow joint for a submission while maintaining the positional dominance of the crucifix. This attack capitalizes on the unique arm isolation that crucifix provides, where the opponent cannot use both arms to defend simultaneously. The armbar represents the secondary attack after chokes, creating a submission chain."
     },
     {
       "question": "What position do you start Armbar from Crucifix from?",
-      "answer": "This technique starts from Crucifix Top, where you have established dominant control with one of the opponent's arms trapped in your leg triangle configuration and the other arm controlled with your hands. You are positioned behind or beside the opponent's upper body with your weight on their torso.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Crucifix Top, where you have established dominant control with one of the opponent's arms trapped in your leg triangle configuration and the other arm controlled with your hands. You are positioned behind or beside the opponent's upper body with your weight on their torso."
     },
     {
       "question": "What are the key grips needed for Armbar from Crucifix?",
-      "answer": "The essential grip is wrist control on the target arm using at least one hand, preferably both hands for security. The grip should pull the wrist toward your centerline and eventually to your chest. Additionally, your leg triangle must maintain constant inward pressure on the trapped arm throughout the transition to prevent escape.",
-      "difficulty": "Intermediate"
+      "answer": "The essential grip is wrist control on the target arm using at least one hand, preferably both hands for security. The grip should pull the wrist toward your centerline and eventually to your chest. Additionally, your leg triangle must maintain constant inward pressure on the trapped arm throughout the transition to prevent escape."
     },
     {
       "question": "How do you counter when the opponent rotates their arm to thumb-down position during your armbar attempt?",
-      "answer": "When the opponent rotates to thumb-down, immediately release the armbar attempt and transition to a choke attack. Their rotation to defend the arm typically opens their neck as their defending hand moves away. Alternatively, switch to a kimura grip on the same arm, which works regardless of thumb orientation and can be finished or used to set up other attacks.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent rotates to thumb-down, immediately release the armbar attempt and transition to a choke attack. Their rotation to defend the arm typically opens their neck as their defending hand moves away. Alternatively, switch to a kimura grip on the same arm, which works regardless of thumb orientation and can be finished or used to set up other attacks."
     },
     {
       "question": "When is the best time to attempt Armbar from Crucifix?",
-      "answer": "The optimal time is when the opponent is actively defending choke attempts by tucking their chin and blocking with their far arm. This defensive focus on the neck leaves their arm extended and vulnerable. Also attack when they are mentally exhausted from defending multiple choke attempts, or immediately after a failed escape attempt when their arm is momentarily extended.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal time is when the opponent is actively defending choke attempts by tucking their chin and blocking with their far arm. This defensive focus on the neck leaves their arm extended and vulnerable. Also attack when they are mentally exhausted from defending multiple choke attempts, or immediately after a failed escape attempt when their arm is momentarily extended."
     },
     {
       "question": "Your opponent stacks forward as you attempt the armbar—what adjustment do you make?",
-      "answer": "When the opponent stacks, your hip extension leverage is compromised. Underhook their stacking leg with your bottom arm and use their forward momentum to sweep them over your body while maintaining arm control. You can finish the armbar on the other side after the sweep. Alternatively, if the sweep is not available, transition back to crucifix position and attack the now-exposed neck since stacking often opens the chin.",
-      "difficulty": "Advanced"
+      "answer": "When the opponent stacks, your hip extension leverage is compromised. Underhook their stacking leg with your bottom arm and use their forward momentum to sweep them over your body while maintaining arm control. You can finish the armbar on the other side after the sweep. Alternatively, if the sweep is not available, transition back to crucifix position and attack the now-exposed neck since stacking often opens the chin."
     },
     {
       "question": "Why must you maintain the leg trap on the first arm while attacking the armbar?",
-      "answer": "If you release the leg trap to focus entirely on the armbar, the opponent immediately gains a free arm that can defend the armbar, create frames, or initiate escape sequences. The crucifix's power comes from bilateral arm control—losing either control point collapses the position's integrity. Train to maintain both controls simultaneously, treating them as interdependent rather than sequential.",
-      "difficulty": "Intermediate"
+      "answer": "If you release the leg trap to focus entirely on the armbar, the opponent immediately gains a free arm that can defend the armbar, create frames, or initiate escape sequences. The crucifix's power comes from bilateral arm control—losing either control point collapses the position's integrity. Train to maintain both controls simultaneously, treating them as interdependent rather than sequential."
     },
     {
       "question": "What is the correct elbow alignment for maximum armbar leverage from crucifix?",
-      "answer": "The opponent's elbow must be positioned between your thighs with their thumb pointing upward toward the ceiling. This alignment ensures the hyperextension force from your hip elevation attacks the elbow joint at its weakest angle. Squeeze your knees together to trap the elbow and prevent any rotation. If the thumb rotates away from vertical, the elbow can bend and escape pressure.",
-      "difficulty": "Intermediate"
+      "answer": "The opponent's elbow must be positioned between your thighs with their thumb pointing upward toward the ceiling. This alignment ensures the hyperextension force from your hip elevation attacks the elbow joint at its weakest angle. Squeeze your knees together to trap the elbow and prevent any rotation. If the thumb rotates away from vertical, the elbow can bend and escape pressure."
     },
     {
       "question": "How do you create the breaking pressure for the armbar finish?",
-      "answer": "Breaking pressure comes from hip elevation while maintaining wrist control at your chest. Pull the opponent's wrist firmly against your sternum using both hands, eliminating all slack in the arm. With knees pinched on the elbow, slowly elevate your hips toward the ceiling. The hip elevation creates leverage against the fixed elbow joint. Apply pressure gradually in training to allow time for the tap.",
-      "difficulty": "Beginner"
+      "answer": "Breaking pressure comes from hip elevation while maintaining wrist control at your chest. Pull the opponent's wrist firmly against your sternum using both hands, eliminating all slack in the arm. With knees pinched on the elbow, slowly elevate your hips toward the ceiling. The hip elevation creates leverage against the fixed elbow joint. Apply pressure gradually in training to allow time for the tap."
     },
     {
       "question": "If your first armbar attempt fails and the opponent pulls their arm free, what is your immediate priority?",
-      "answer": "Immediately return to consolidated crucifix position rather than chasing the arm. Reestablish control of their far arm with your hands and verify your leg trap is still secure on their near arm. Once crucifix control is confirmed, threaten the neck to reset the attack cycle. Chasing a lost arm typically results in losing the entire position. Position before submission always applies.",
-      "difficulty": "Advanced"
+      "answer": "Immediately return to consolidated crucifix position rather than chasing the arm. Reestablish control of their far arm with your hands and verify your leg trap is still secure on their near arm. Once crucifix control is confirmed, threaten the neck to reset the attack cycle. Chasing a lost arm typically results in losing the entire position. Position before submission always applies."
     }
   ],
   "safety_considerations": "The armbar from crucifix attacks the elbow joint, which has limited range of motion and can be injured quickly. Always apply pressure gradually through controlled hip elevation rather than explosive jerking motions. In training, give your partner adequate time to recognize the submission and tap before injury occurs. Beginners should practice at slow speeds until proper mechanics are established. The crucifix position itself can create shoulder strain on the trapped arm, so monitor your training partner's comfort throughout. When drilling, establish clear tap signals and release immediately upon receiving the tap. Avoid this technique if either practitioner has pre-existing elbow injuries.",
@@ -270,5 +245,6 @@
       "name": "Back Control to Crucifix",
       "relationship": "Entry transition to starting position"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -157,7 +157,7 @@ The beauty of the Hip Bump Sweep lies in its versatility and chain attack potent
 The Hip Bump Sweep is also an excellent technique for developing timing, hip mobility, and the ability to off-balance opponents. It teaches practitioners to feel weight distribution and exploit moments of vulnerability. While beginners often struggle with the explosive hip movement and timing required, intermediate and advanced practitioners can execute this sweep with remarkable consistency, especially when integrated into a comprehensive guard attack system.
 
 **From Position**: [[Closed Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish control and break posture**: From closed guard, secure a firm grip on your opponent's right wrist or sleeve with your left hand. Simultaneously, use your right hand to grip behind their head or collar. Pull their head down and forward, breaking their posture completely. Your ankles should remain locked, and you should feel their weight distributed forward onto you. (Timing: Initial setup - take time to establish solid grips and broken posture)
-2. **Open guard and plant posting hand**: Unlock your ankles and open your closed guard. Immediately plant your right hand on the mat approximately 6-12 inches away from your hip, fingers pointing away from your body. This hand will serve as the base for your explosive hip movement. Keep your left hand firmly controlling their right wrist, preventing them from posting on that side. (Timing: Quick transition - don't allow opponent time to establish base)
-3. **Hip escape and angle creation**: Shrimp your hips slightly to the left, creating a 30-45 degree angle with your body relative to your opponent. This angle is crucial - if you stay square, the sweep becomes much more difficult. Your right foot should come to the mat with your knee bent, ready to drive. Your left leg should begin to swing out wide to the left side. (Timing: Smooth and deliberate - proper angle sets up the entire sweep)
-4. **Execute explosive hip bump**: Drive explosively off your right foot and right hand simultaneously, bumping your left hip and shoulder into your opponent's right side (the side where you control their arm). The force should be directed diagonally upward at approximately 45 degrees. Your entire left side should make contact with their right side. Keep their right arm pinned to your body throughout this movement. (Timing: Explosive and committed - this is the critical moment of the technique)
-5. **Follow through and establish base**: As your opponent tips over from the hip bump, continue driving through the movement. Your left shoulder should drive into their chest as they fall to their left side. Immediately begin to establish your base by getting your left knee to the mat on the far side of their body. Your right leg follows through, and you begin to stack their position. (Timing: Continuous movement - maintain momentum from the hip bump)
-6. **Secure mount position**: Complete the sweep by bringing your right knee over their body to establish mount. Keep your weight forward and your hips low as you settle into the mount position. Maintain control of their right arm if possible, as this prevents them from using it to escape. Establish your posture in mount with your head up, back straight, and base wide. (Timing: Controlled finish - secure position before celebrating)
+1. **Establish control and break posture**: From closed guard, secure a firm grip on your opponent's right wrist or sleeve with your left hand. Simultaneously, use your right hand to grip behind their head or collar. Pull their head down and forward, breaking their posture completely. Your ankles should remain locked, and you should feel their weight distributed forward onto you.
+2. **Open guard and plant posting hand**: Unlock your ankles and open your closed guard. Immediately plant your right hand on the mat approximately 6-12 inches away from your hip, fingers pointing away from your body. This hand will serve as the base for your explosive hip movement. Keep your left hand firmly controlling their right wrist, preventing them from posting on that side.
+3. **Hip escape and angle creation**: Shrimp your hips slightly to the left, creating a 30-45 degree angle with your body relative to your opponent. This angle is crucial - if you stay square, the sweep becomes much more difficult. Your right foot should come to the mat with your knee bent, ready to drive. Your left leg should begin to swing out wide to the left side.
+4. **Execute explosive hip bump**: Drive explosively off your right foot and right hand simultaneously, bumping your left hip and shoulder into your opponent's right side (the side where you control their arm). The force should be directed diagonally upward at approximately 45 degrees. Your entire left side should make contact with their right side. Keep their right arm pinned to your body throughout this movement.
+5. **Follow through and establish base**: As your opponent tips over from the hip bump, continue driving through the movement. Your left shoulder should drive into their chest as they fall to their left side. Immediately begin to establish your base by getting your left knee to the mat on the far side of their body. Your right leg follows through, and you begin to stack their position.
+6. **Secure mount position**: Complete the sweep by bringing your right knee over their body to establish mount. Keep your weight forward and your hips low as you settle into the mount position. Maintain control of their right arm if possible, as this prevents them from using it to escape. Establish your posture in mount with your head up, back straight, and base wide.
 
 
 </section>
@@ -258,27 +258,21 @@ The Hip Bump Sweep is also an excellent technique for developing timing, hip mob
 ## Training Progressions
 **Week 1-2: Fundamental Movement Pattern** - Developing proper hip bump mechanics and angle creation
 Practice the hip bump motion solo and with compliant partner. Focus on creating the 45-degree angle, generating explosive hip drive, and maintaining arm control throughout. Partner provides minimal resistance. Drill 20-30 repetitions per session, alternating sides. Emphasis on feeling the proper angle and explosive hip movement.
-(Resistance: None)
 
 **Week 3-4: Posture Breaking Integration** - Combining posture control with sweep execution
 Partner begins with good posture. Practice breaking their posture first, then executing the sweep. Partner provides light resistance to posture breaking but allows sweep once posture is broken. Drill 15-20 repetitions per session. Learn to feel when posture is sufficiently broken before attempting sweep.
-(Resistance: Light)
 
 **Week 5-8: Adding Chain Attacks** - Hip Bump to Kimura to Guillotine triangle system
 Partner provides medium resistance and can post their free hand or pull their arm back. Practice transitioning smoothly to Kimura when they post, or Guillotine when they pull back. 10-15 repetitions per session of the full sequence. Focus on reading opponent's defensive reactions and flowing between techniques.
-(Resistance: Medium)
 
 **Week 9-12: Timing and Reactive Drilling** - Executing sweep in response to opponent's movements
 Partner moves randomly between attempting to stand, establishing posture, and breaking grips. Practitioner must recognize optimal timing windows and execute sweep or transition to alternative attacks. 5-10 minutes of continuous flow drilling per session. Developing timing awareness and reaction speed.
-(Resistance: Medium)
 
 **Month 4-6: Positional Sparring** - Full resistance application from closed guard
 Start in closed guard with full resistance. Partner attempts to maintain posture, pass guard, and defend sweeps using their full skill set. Practitioner works to create opportunities for Hip Bump Sweep and chain attacks. 5-minute rounds, multiple rounds per session. Real-time problem solving and adaptation.
-(Resistance: Full)
 
 **Month 6+: Competition Integration** - Applying technique in live rolling and competition
 Regular live rolling with focus on creating and recognizing Hip Bump opportunities. Competition-level drilling where partner knows the technique is coming and defends accordingly. Video review of execution to identify technical deficiencies. Refinement of timing, setups, and chain attacks under maximum pressure.
-(Resistance: Full)
 
 
 

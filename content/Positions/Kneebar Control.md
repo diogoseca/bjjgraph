@@ -182,23 +182,23 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Kneebar Finish]]** (9% of attempts)
+- **[[Knee Cut Pass]]** (12% of attempts)
 
-- **[[Knee Cut Pass]]** (13% of attempts)
+- **[[Side Control to Mount]]** (8% of attempts)
 
-- **[[Side Control to Mount]]** (11% of attempts)
+- **[[Side Control to North-South]]** (9% of attempts)
 
-- **[[Side Control to North-South]]** (12% of attempts)
+- **[[Straight Ankle Lock]]** (8% of attempts)
 
-- **[[Straight Ankle Lock]]** (11% of attempts)
+- **[[Toe Hold]]** (8% of attempts)
 
-- **[[Toe Hold]]** (10% of attempts)
+- **[[Half Guard Pass]]** (9% of attempts)
 
-- **[[Half Guard Pass]]** (12% of attempts)
+- **[[Knee on Belly]]** (8% of attempts)
 
-- **[[Knee on Belly]]** (11% of attempts)
+- **[[Armbar from Mount]]** (8% of attempts)
 
-- **[[Armbar from Mount]]** (11% of attempts)
+- **[[Kneebar]]** (30% of attempts)
 
 
 ### Common Mistakes

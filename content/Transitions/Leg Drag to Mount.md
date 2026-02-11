@@ -157,7 +157,7 @@ The strategic value of this transition lies in its simplicity and directional ef
 From a competitive standpoint, the leg drag to mount sequence scores points immediately upon achieving the mount position (typically 4 points) while simultaneously opening a wide array of submission opportunities. Advanced practitioners use this transition as part of a systematic approach where the threat of the mount forces defensive reactions that expose the back, creating the dilemma-based passing system that characterizes elite-level guard passing.
 
 **From Position**: [[Leg Drag Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ From a competitive standpoint, the leg drag to mount sequence scores points imme
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure upper body control**: Before initiating the mount transition, ensure your crossface or shoulder pressure is locked in. Your free arm should be controlling the far shoulder, head, or establishing an underhook. This prevents the opponent from sitting up or rotating during your transition. (Timing: Before beginning leg movement)
-2. **Drive hip pressure forward**: Increase your chest pressure into the opponent's near hip, driving them flat onto their back. Your weight should be forward and diagonal, creating maximum pressure that pins their hips to the mat and eliminates space for any defensive movement. (Timing: 1-2 seconds of sustained pressure)
-3. **Release leg control and backstep**: Release your grip on the opponent's crossed leg and immediately begin stepping your far leg over their body. Your near knee maintains pressure on their hip during this movement. The step must be decisive—hesitation allows frame insertion. (Timing: Execute immediately after establishing pressure)
-4. **Step over with far leg**: Swing your far leg in a wide arc over the opponent's torso, placing your knee on the mat on the far side of their body. Keep your hips low throughout this movement to prevent being elevated by a bridge. Your posted foot provides base during the transition. (Timing: Single fluid motion)
-5. **Slide near knee across belly**: As your far leg establishes position, slide your near knee across the opponent's abdomen to complete the mount. Your knee should travel along their belly rather than leaving space that would allow a knee shield insertion. Maintain forward pressure throughout. (Timing: Immediately following step-over)
-6. **Settle mount position**: Once both legs are in position, immediately settle your weight low on the mount with your hips driving into their belly. Establish grapevines or keep your feet hooked under their thighs to prevent bridging. Your hands post on the mat or control their head and arm to stabilize the position. (Timing: Within 1 second of completing step-over)
+1. **Secure upper body control**: Before initiating the mount transition, ensure your crossface or shoulder pressure is locked in. Your free arm should be controlling the far shoulder, head, or establishing an underhook. This prevents the opponent from sitting up or rotating during your transition.
+2. **Drive hip pressure forward**: Increase your chest pressure into the opponent's near hip, driving them flat onto their back. Your weight should be forward and diagonal, creating maximum pressure that pins their hips to the mat and eliminates space for any defensive movement.
+3. **Release leg control and backstep**: Release your grip on the opponent's crossed leg and immediately begin stepping your far leg over their body. Your near knee maintains pressure on their hip during this movement. The step must be decisive—hesitation allows frame insertion.
+4. **Step over with far leg**: Swing your far leg in a wide arc over the opponent's torso, placing your knee on the mat on the far side of their body. Keep your hips low throughout this movement to prevent being elevated by a bridge. Your posted foot provides base during the transition.
+5. **Slide near knee across belly**: As your far leg establishes position, slide your near knee across the opponent's abdomen to complete the mount. Your knee should travel along their belly rather than leaving space that would allow a knee shield insertion. Maintain forward pressure throughout.
+6. **Settle mount position**: Once both legs are in position, immediately settle your weight low on the mount with your hips driving into their belly. Establish grapevines or keep your feet hooked under their thighs to prevent bridging. Your hands post on the mat or control their head and arm to stabilize the position.
 
 
 </section>
@@ -252,19 +252,15 @@ From a competitive standpoint, the leg drag to mount sequence scores points imme
 ## Training Progressions
 **Week 1-2** - Basic mechanics
 Practice the step-over movement from static leg drag control with a compliant partner. Focus on the sequence: maintain pressure, far leg steps over, near knee slides across. Repeat until the movement feels natural and continuous.
-(Resistance: None)
 
 **Week 3-4** - Timing and pressure maintenance
 Partner provides light defensive movement (frames, small hip escapes). Practice maintaining pressure while executing the transition. Work on recognizing when the opponent is flat enough to attempt the mount versus when to pursue back take.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner attempts specific counters (bridge, knee shield insertion, framing). Practice adjusting mid-transition: riding bridges, redirecting to knee on belly when blocked, swimming through frames. Develop contingency responses.
-(Resistance: Medium)
 
 **Week 7+** - Live application and decision-making
 Incorporate into live passing sequences. Start from open guard and work through leg drag entry to mount. Practice reading whether opponent is giving mount or back take. Use in sparring with focus on transition efficiency.
-(Resistance: Full)
 
 
 

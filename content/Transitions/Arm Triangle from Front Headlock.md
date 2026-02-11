@@ -157,7 +157,7 @@ Strategically, this transition exploits a common defensive reaction. When your o
 The transition works best when chained with other front headlock threats. If your opponent defends the guillotine by turning their head and tucking their chin, the arm triangle becomes available because their defensive rotation exposes the head-and-arm alignment. This makes it a natural second attack in the front headlock submission chain, punishing the very defenses your opponent uses against your primary threats.
 
 **From Position**: [[Front Headlock]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The transition works best when chained with other front headlock threats. If you
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify the head-and-arm alignment**: From front headlock, recognize when the opponent's near arm is positioned close to their neck. This often occurs when they are hand-fighting to defend against guillotine or darce threats, pushing their own forearm toward their face or clasping hands near their chin. (Timing: Immediately after opponent defends your initial front headlock threat)
-2. **Trap the near arm**: Use your non-choking hand to push or guide the opponent's near arm tight against the side of their neck. Drive their elbow toward their ear using your chest and shoulder pressure, ensuring their bicep presses firmly into their carotid artery on one side. (Timing: While maintaining head control pressure)
-3. **Thread the choking arm**: Slide your head-controlling arm deeper so it wraps behind their neck and over their trapped shoulder. Your bicep should press against the opposite side of their neck from the trapped arm, creating bilateral compression on both carotid arteries simultaneously. (Timing: Smooth transition without releasing head pressure)
-4. **Lock the grip**: Connect your hands in a gable grip or palm-to-palm clasp behind the opponent's far shoulder or upper back. Squeeze your elbows together to tighten the head-and-arm triangle configuration. Your forearm and the opponent's own shoulder form the three sides of the choking triangle. (Timing: Secure grip before opponent can extract their trapped arm)
-5. **Transition to side control**: Walk your hips laterally toward the side of the trapped arm while maintaining the squeeze. Step over their body and settle into side control position with your chest driving into their chest. This lateral movement tightens the choke angle and removes the opponent's ability to roll or stand. (Timing: Immediately after locking grip to prevent defensive adjustments)
-6. **Consolidate and finish**: From side control with the arm triangle locked, drop your head to the mat on the far side of their body, squeeze your elbows together, and drive your shoulder forward into their trapped arm. Sprawl your legs back to maximize chest-to-chest pressure and eliminate any remaining space. (Timing: Apply steady increasing pressure for the finish)
+1. **Identify the head-and-arm alignment**: From front headlock, recognize when the opponent's near arm is positioned close to their neck. This often occurs when they are hand-fighting to defend against guillotine or darce threats, pushing their own forearm toward their face or clasping hands near their chin.
+2. **Trap the near arm**: Use your non-choking hand to push or guide the opponent's near arm tight against the side of their neck. Drive their elbow toward their ear using your chest and shoulder pressure, ensuring their bicep presses firmly into their carotid artery on one side.
+3. **Thread the choking arm**: Slide your head-controlling arm deeper so it wraps behind their neck and over their trapped shoulder. Your bicep should press against the opposite side of their neck from the trapped arm, creating bilateral compression on both carotid arteries simultaneously.
+4. **Lock the grip**: Connect your hands in a gable grip or palm-to-palm clasp behind the opponent's far shoulder or upper back. Squeeze your elbows together to tighten the head-and-arm triangle configuration. Your forearm and the opponent's own shoulder form the three sides of the choking triangle.
+5. **Transition to side control**: Walk your hips laterally toward the side of the trapped arm while maintaining the squeeze. Step over their body and settle into side control position with your chest driving into their chest. This lateral movement tightens the choke angle and removes the opponent's ability to roll or stand.
+6. **Consolidate and finish**: From side control with the arm triangle locked, drop your head to the mat on the far side of their body, squeeze your elbows together, and drive your shoulder forward into their trapped arm. Sprawl your legs back to maximize chest-to-chest pressure and eliminate any remaining space.
 
 
 </section>
@@ -255,19 +255,15 @@ The transition works best when chained with other front headlock threats. If you
 ## Training Progressions
 **Week 1-2** - Grip mechanics and arm isolation
 Drill the grip change from front headlock to arm triangle configuration on a stationary partner. Focus on trapping the near arm against the neck using chest pressure, threading the choking arm, and locking the gable grip. Repeat the grip transition dozens of times until the arm slide feels natural and smooth without releasing head control. Partner provides no resistance.
-(Resistance: None)
 
 **Week 3-4** - Lateral transition to side control
 Add the hip walk and side control transition to the grip change. Partner provides light resistance by framing on hips or attempting to circle. Practice recognizing when the head-and-arm alignment is available from front headlock and executing the full sequence: identify alignment, trap arm, thread grip, walk to side control. Focus on maintaining constant pressure during the lateral movement.
-(Resistance: Light)
 
 **Week 5-6** - Chaining from other front headlock attacks
 Start with guillotine or darce threats from front headlock, then transition to arm triangle when partner defends. Practice reading which defense the partner uses and selecting the arm triangle as the appropriate follow-up. Partner provides medium resistance and actively defends the initial threat. Drill alternating between finishing the primary attack and transitioning to the arm triangle based on defensive reactions.
-(Resistance: Medium)
 
 **Week 7+** - Live application and finishing under resistance
 Implement the arm triangle from front headlock in positional sparring rounds starting from front headlock. Partner uses full resistance and all available defenses. Focus on completing the full sequence against resisting opponents, troubleshooting grip breaks and defensive frames in real time. Include rounds where you must achieve front headlock from scramble situations before attacking.
-(Resistance: Full)
 
 
 

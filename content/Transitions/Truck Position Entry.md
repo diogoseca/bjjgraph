@@ -169,7 +169,7 @@ Strategically, this transition is most effective against opponents who use the c
 In competition, this entry has become increasingly relevant as practitioners develop layered back attack systems that branch between traditional rear naked choke sequences and modern Twister system attacks. The ability to transition from standing back control directly into Truck bypasses the turtle position entirely, denying the opponent the defensive frames and options that turtle provides. Advanced practitioners use this as part of a decision tree from standing back control: if the opponent maintains strong posture and defends the choke, threaten the takedown; when they drop to avoid the takedown, enter the Truck instead of following to standard back control.
 
 **From Position**: [[Standing Back Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -216,14 +216,14 @@ In competition, this entry has become increasingly relevant as practitioners dev
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the defensive drop**: From standing back control with harness grip locked, feel the opponent begin to lower their center of gravity by bending their knees or sitting their hips backward. This is your trigger to initiate the Truck entry rather than following to standard grounded back control. (Timing: Immediate recognition as opponent begins lowering)
-2. **Guide the descent with chest pressure**: Drive your chest forward and downward into the opponent's upper back while maintaining your harness grip. Use your body weight to accelerate their descent and control the direction, angling them slightly toward the side where you will thread your leg hook. Do not let them drop straight down into a compact turtle. (Timing: Simultaneous with opponent's descent)
-3. **Thread the near-side leg hook**: As the opponent's knees contact the mat, swing your inside leg (the leg on the side of your underhook arm) underneath their body, threading your shin across their centerline beneath their far hip. Your knee must pass completely under their torso so your foot emerges on the opposite side of their body, creating a deep structural hook. (Timing: During the transition from standing to ground)
-4. **Curl the hook and off-balance**: Once your foot clears the opponent's far hip, curl it upward to create a butterfly-style hook against the inside of their far thigh. Pull this hook toward your own body while driving your chest weight into their back, tilting them onto their side and away from the turtled base position they were attempting to establish. (Timing: Immediately after hook clears far hip)
-5. **Roll to Truck configuration**: Using your leg hook as the primary lever, roll toward your back while pulling the opponent with you through the harness grip. Your chest stays glued to their back throughout the roll. Stop the rotation when you reach your side with the opponent perpendicular to you, their spine exposed and their legs controlled by your hook structure. (Timing: Controlled roll following the hook engagement)
-6. **Establish secondary leg control**: Post your free leg over the opponent's near thigh or hook it behind their knee to create a second point of leg control. This prevents them from extracting their legs or rolling away from the Truck position. Your legs should form a figure-four or lockdown configuration trapping their lower body. (Timing: Immediately after roll completes)
-7. **Secure final Truck position**: Tighten your harness grip and adjust your hip position to maximize control. Your chest should be flush against their back, your primary hook deep under their far hip, and your secondary leg controlling their near leg. From here, begin evaluating submission options: Twister, Calf Slicer, Banana Split, or transition to back control with hooks. (Timing: Final consolidation phase)
-8. **Initiate attack sequence**: With Truck position locked, begin your first attack by controlling the opponent's far leg for Twister or Banana Split, or by adjusting your hook depth for Calf Slicer. Maintain upper body connection throughout any attack attempt to prevent the opponent from creating separation during your submission pursuit. (Timing: Transition to offensive phase)
+1. **Recognize the defensive drop**: From standing back control with harness grip locked, feel the opponent begin to lower their center of gravity by bending their knees or sitting their hips backward. This is your trigger to initiate the Truck entry rather than following to standard grounded back control.
+2. **Guide the descent with chest pressure**: Drive your chest forward and downward into the opponent's upper back while maintaining your harness grip. Use your body weight to accelerate their descent and control the direction, angling them slightly toward the side where you will thread your leg hook. Do not let them drop straight down into a compact turtle.
+3. **Thread the near-side leg hook**: As the opponent's knees contact the mat, swing your inside leg (the leg on the side of your underhook arm) underneath their body, threading your shin across their centerline beneath their far hip. Your knee must pass completely under their torso so your foot emerges on the opposite side of their body, creating a deep structural hook.
+4. **Curl the hook and off-balance**: Once your foot clears the opponent's far hip, curl it upward to create a butterfly-style hook against the inside of their far thigh. Pull this hook toward your own body while driving your chest weight into their back, tilting them onto their side and away from the turtled base position they were attempting to establish.
+5. **Roll to Truck configuration**: Using your leg hook as the primary lever, roll toward your back while pulling the opponent with you through the harness grip. Your chest stays glued to their back throughout the roll. Stop the rotation when you reach your side with the opponent perpendicular to you, their spine exposed and their legs controlled by your hook structure.
+6. **Establish secondary leg control**: Post your free leg over the opponent's near thigh or hook it behind their knee to create a second point of leg control. This prevents them from extracting their legs or rolling away from the Truck position. Your legs should form a figure-four or lockdown configuration trapping their lower body.
+7. **Secure final Truck position**: Tighten your harness grip and adjust your hip position to maximize control. Your chest should be flush against their back, your primary hook deep under their far hip, and your secondary leg controlling their near leg. From here, begin evaluating submission options: Twister, Calf Slicer, Banana Split, or transition to back control with hooks.
+8. **Initiate attack sequence**: With Truck position locked, begin your first attack by controlling the opponent's far leg for Twister or Banana Split, or by adjusting your hook depth for Calf Slicer. Maintain upper body connection throughout any attack attempt to prevent the opponent from creating separation during your submission pursuit.
 
 
 </section>
@@ -269,19 +269,15 @@ In competition, this entry has become increasingly relevant as practitioners dev
 ## Training Progressions
 **Week 1-2** - Hook threading mechanics from kneeling
 Partner kneels in turtle position. From behind with harness grip, practice threading your leg hook under their hips and completing the roll to Truck. Focus on getting your shin completely across their centerline with smooth motion. Perform 20-30 repetitions per side per session to build the muscle memory for hook depth and rolling angle.
-(Resistance: None)
 
 **Week 3-4** - Standing-to-ground descent timing
 Start in standing back control with harness grip. Partner drops to knees on a verbal cue. Practice following the descent with chest pressure and threading the hook during the transition. Emphasize reading the moment the partner begins to lower and initiating the hook entry simultaneously. Partner provides no resistance but drops at varied speeds.
-(Resistance: Light)
 
 **Week 5-6** - Defensive reactions and counter-responses
 Partner attempts specific defenses during the standing-to-Truck transition at 50-75% intensity: sprawling back, tucking into tight turtle, sitting through to guard, or grabbing the hooking leg. Practice recognizing each defense and executing the appropriate response. Chain into Truck submissions when entry succeeds.
-(Resistance: Medium)
 
 **Week 7+** - Live integration and decision tree drilling
 During sparring, work from standing back control and read whether the opponent stays standing, drops defensively, or fights grips. Apply the Truck entry when the drop occurs, and pursue alternative attacks when it does not. Focus on the full decision tree: choke if standing, Truck if dropping, mat return if resisting. Chain Truck entries into Twister, Calf Slicer, and Banana Split attacks.
-(Resistance: Full)
 
 
 

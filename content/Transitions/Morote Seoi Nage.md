@@ -159,7 +159,7 @@ description: "Master Morote Seoi Nage in BJJ. Complete two-handed shoulder throw
 Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo technique that has proven highly effective in Brazilian Jiu-Jitsu competition and self-defense scenarios. Unlike the single-handed Ippon Seoi Nage, this variation maintains grips on both sleeves or wrists throughout the throw, providing superior control and reducing the opponent's ability to counter. The technique exploits forward momentum or pressure, using a rotating entry to load the opponent onto your back before executing an explosive forward projection. This throw is particularly effective in gi competition where sleeve control is paramount, and it transitions seamlessly into dominant top positions like side control or mount. The Morote Seoi Nage requires precise timing, strong hip positioning, and excellent kuzushi (off-balancing) to execute successfully against resisting opponents. When mastered, it becomes a high-percentage technique that can score immediate points in competition while establishing superior position for submission attacks or control.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -209,13 +209,13 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish sleeve grips**: Secure firm grips on both of opponent's sleeves at the wrists or mid-forearm. Your grip should be strong enough to control their arms but flexible enough to allow pulling motion. Keep your elbows slightly bent and ready to pull. (Timing: During initial grip fighting exchange)
-2. **Break opponent's balance forward**: Execute a strong forward pull with both hands while stepping your lead foot forward. This kuzushi action should break opponent's posture forward and shift their weight onto their toes. Feel for the moment when they resist by pulling back or pushing forward. (Timing: Immediately before entry, exploit their reaction)
-3. **Step in with lead leg**: Step your lead foot (same side as your direction of rotation) deep across and in front of opponent's lead foot. This foot should be placed slightly inside their stance, pointing perpendicular to their centerline. Keep your weight on this foot momentarily. (Timing: As opponent's weight shifts forward)
-4. **Rotate and load opponent**: Explosively pivot on your lead foot, swinging your rear leg around in a circular motion while simultaneously rotating your torso 180 degrees. Drop your hips below opponent's center of gravity while pulling their arms across your chest. Your back should make contact with their front torso, loading them onto your hips and shoulders. (Timing: Continuous explosive motion from step entry)
-5. **Drive upward and forward**: Once opponent is loaded on your back, explosively extend your legs upward while simultaneously pulling downward with both arms. Your hips should thrust forward and upward, creating a lever that launches opponent over your shoulder. Maintain arm tension throughout to control the arc of their fall. (Timing: Immediately after loading opponent on your back)
-6. **Control the landing**: As opponent rotates over your shoulder, maintain your sleeve grips and guide their landing. Keep pulling their arms to accelerate their rotation and prevent them from posting out. Your body should follow their trajectory, preparing to land in a dominant top position. (Timing: Throughout the throw completion)
-7. **Establish position**: As opponent impacts the mat, immediately transition to side control by dropping your chest onto theirs while maintaining one or both sleeve grips. Establish crossface pressure with your upper body while securing a strong base with your legs. Release the far sleeve to secure underhook or establish other dominant grips. (Timing: Within 1-2 seconds of opponent landing)
+1. **Establish sleeve grips**: Secure firm grips on both of opponent's sleeves at the wrists or mid-forearm. Your grip should be strong enough to control their arms but flexible enough to allow pulling motion. Keep your elbows slightly bent and ready to pull.
+2. **Break opponent's balance forward**: Execute a strong forward pull with both hands while stepping your lead foot forward. This kuzushi action should break opponent's posture forward and shift their weight onto their toes. Feel for the moment when they resist by pulling back or pushing forward.
+3. **Step in with lead leg**: Step your lead foot (same side as your direction of rotation) deep across and in front of opponent's lead foot. This foot should be placed slightly inside their stance, pointing perpendicular to their centerline. Keep your weight on this foot momentarily.
+4. **Rotate and load opponent**: Explosively pivot on your lead foot, swinging your rear leg around in a circular motion while simultaneously rotating your torso 180 degrees. Drop your hips below opponent's center of gravity while pulling their arms across your chest. Your back should make contact with their front torso, loading them onto your hips and shoulders.
+5. **Drive upward and forward**: Once opponent is loaded on your back, explosively extend your legs upward while simultaneously pulling downward with both arms. Your hips should thrust forward and upward, creating a lever that launches opponent over your shoulder. Maintain arm tension throughout to control the arc of their fall.
+6. **Control the landing**: As opponent rotates over your shoulder, maintain your sleeve grips and guide their landing. Keep pulling their arms to accelerate their rotation and prevent them from posting out. Your body should follow their trajectory, preparing to land in a dominant top position.
+7. **Establish position**: As opponent impacts the mat, immediately transition to side control by dropping your chest onto theirs while maintaining one or both sleeve grips. Establish crossface pressure with your upper body while securing a strong base with your legs. Release the far sleeve to secure underhook or establish other dominant grips.
 
 
 </section>
@@ -261,23 +261,18 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 ## Training Progressions
 **Week 1-2: Basic Entry Mechanics** - Footwork and hip rotation without partner resistance
 Practice solo drilling of stepping pattern and hip rotation. Work with cooperative partner to establish correct loading position and body contact. Focus on achieving proper 180-degree rotation and low hip positioning. No throws yet, just entry and load.
-(Resistance: None)
 
 **Week 3-4: Controlled Throws** - Complete technique with compliant partner
 Execute full throws with partner who maintains grips but does not resist. Focus on smooth coordination of all movement phases. Practice controlling landing and immediately transitioning to side control. Emphasize maintaining sleeve grips throughout entire sequence.
-(Resistance: Light)
 
 **Week 5-8: Progressive Resistance** - Technique against moderate defensive reactions
 Partner begins adding realistic defensive reactions such as breaking posture, sprawling, or posting. Practice timing entries based on opponent's movement. Work grip fighting sequences that create throwing opportunities. Drill common counter scenarios and appropriate responses.
-(Resistance: Medium)
 
 **Week 9-12: Combination Training** - Chain throws and integrate with takedown system
 Combine Morote Seoi Nage with other techniques like arm drags, snap downs, or alternative throws. Practice entries from various grip configurations. Work against fully resisting partner in situational sparring. Focus on recognizing optimal timing windows.
-(Resistance: Full)
 
 **Month 4-6: Competition Application** - Live implementation and refinement
 Attempt technique during live rolling and competition training. Analyze video footage of attempts to identify technical errors. Work specific situations that create Morote Seoi Nage opportunities. Develop personal setups and variations that match your body type and game.
-(Resistance: Full)
 
 
 
@@ -372,7 +367,7 @@ Morote Seoi Nage serves as a critical bridge between standing positions and domi
 - [[Turtle]] - Follow-up - backup position if opponent posts during throw
 - [[Front Headlock]] - Follow-up - control position if opponent defends by posting
 - [[Mount]] - Follow-up - high-value position option after throw
-- [[Seoi Nage]] - Parent - general family of shoulder throws
+- [[Ippon Seoi Nage]] - Parent - general family of shoulder throws
 
 
 </section>

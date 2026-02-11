@@ -256,7 +256,7 @@ Physically, Matrix defense demands excellent balance, responsive base adjustment
 
 
 **Opponent actively threatening Matrix, defensive posture required:**
-- Execute **[[Darce from Turtle]]** → [[D'arce Control]] (Probability: 50%)
+- Execute **[[Darce from Turtle]]** → [[Darce Control]] (Probability: 50%)
 - Execute **[[Guillotine from Turtle]]** → [[Guillotine Control]] (Probability: 45%)
 
 
@@ -376,11 +376,11 @@ Bottom player is encouraged to attempt Matrix back takes while top player focuse
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 35% | 20% |
-| Intermediate | 60% | 55% | 35% |
-| Advanced     | 80% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 70% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 1-3 seconds to recognize and defend Matrix entry, 5-8 seconds total to reestablish offensive position
 

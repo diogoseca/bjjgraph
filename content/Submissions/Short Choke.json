@@ -14,11 +14,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries",
   "starting_position": "Side Control",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Short Choke is a highly effective gi-based blood choke executed from top positions, particularly side control and north-south. Unlike traditional collar chokes that require deep grips, the Short Choke capitalizes on minimal space and opponent defensive reactions. The technique involves threading your own lapel or the opponent's lapel behind their neck while maintaining superior top position control, then applying pressure through a combination of wrist rotation and shoulder pressure. This choke is particularly effective when opponents defend aggressively against more common submissions like the Americana or Kimura, creating the exact spacing needed for lapel manipulation. The Short Choke exemplifies economy of motion - once the lapel is positioned correctly, the finish requires minimal energy expenditure while creating maximum discomfort. The technique is especially valuable in gi competition because it can be concealed within normal top position pressure, making it difficult for opponents to recognize and defend until the submission is deeply locked. Advanced practitioners use the Short Choke as both a primary finish and a setup for transitioning to mount or taking the back when opponents attempt to escape.",
   "safety_considerations": {
     "injury_risks": [
@@ -82,49 +77,42 @@
       "step_number": 1,
       "action": "Secure dominant side control position",
       "description": "Establish tight side control with your chest heavy on opponent's chest. Control their near arm using either an underhook or by pinning it to the mat with your hip. Position your head near their far shoulder while maintaining crossface pressure. Your hips should be low and heavy, preventing any bridging or turning attempts.",
-      "timing": "Take 5-10 seconds to establish solid control before proceeding",
-      "pressure_level": "Firm"
+      "timing": "Take 5-10 seconds to establish solid control before proceeding"
     },
     {
       "step_number": 2,
       "action": "Feed lapel behind opponent's neck",
       "description": "Using your free hand (typically the hand nearest their legs), grip your own lapel at chest level or slightly lower. Maintain pressure with your chest and crossface while threading the lapel behind opponent's neck from the far side. The lapel should pass behind their neck like a scarf, with the material positioned against the side of their neck closest to you. This requires precise hand positioning and often involves slight adjustments to your body angle.",
-      "timing": "3-5 seconds for lapel placement",
-      "pressure_level": "Moderate"
+      "timing": "3-5 seconds for lapel placement"
     },
     {
       "step_number": 3,
       "action": "Secure lapel grip on opposite side",
       "description": "Once the lapel has been threaded behind their neck, reach under their head with your opposite hand and grip the lapel material. Your grip should be palm-down with fingers curled around the lapel fabric. The key is to have minimal slack in the material while maintaining top position control. Some practitioners prefer gripping their own gi material for additional control.",
-      "timing": "2-3 seconds to establish secure grip",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds to establish secure grip"
     },
     {
       "step_number": 4,
       "action": "Consolidate position and remove slack",
       "description": "Before applying finishing pressure, ensure your body position is optimized. Your chest should remain heavy on opponent's torso, your hips should be positioned to prevent them from turning, and both hands should have secure grips on the lapel. Slowly remove any slack in the lapel material by pulling your grips in opposite directions. The lapel should now form a tight band across the side of opponent's neck.",
-      "timing": "2-4 seconds to remove slack",
-      "pressure_level": "Moderate"
+      "timing": "2-4 seconds to remove slack"
     },
     {
       "step_number": 5,
       "action": "Apply rotational choking pressure",
       "description": "The finish comes from rotating your wrists and forearms in opposite directions while maintaining downward pressure with your shoulder into opponent's jaw. The hand holding your lapel (or their collar) rotates palm-up, while the other hand pulls the threaded lapel tight. Simultaneously, drive your shoulder into the side of their jaw, which both creates additional choking pressure and prevents them from turning their head. The combination of lapel tightness and shoulder pressure compresses the carotid artery.",
-      "timing": "Apply pressure slowly over 3-5 seconds in training",
-      "pressure_level": "Firm"
+      "timing": "Apply pressure slowly over 3-5 seconds in training"
     },
     {
       "step_number": 6,
       "action": "Adjust angle if needed and maintain until tap",
       "description": "If opponent attempts to defend by tucking their chin or creating frames, make micro-adjustments to your shoulder angle and lapel positioning. Small changes in your body angle can dramatically increase effectiveness. Once proper compression is achieved, maintain consistent pressure until tap. Never increase pressure suddenly or jerk the lapel. If no tap occurs within 5-7 seconds of firm pressure, the setup likely needs adjustment rather than more force.",
-      "timing": "Hold finishing pressure for 3-7 seconds maximum in training",
-      "pressure_level": "Maximum"
+      "timing": "Hold finishing pressure for 3-7 seconds maximum in training"
     },
     {
       "step_number": 7,
       "action": "Release immediately upon tap",
-      "description": "The moment you feel or see the tap signal, immediately release all choking pressure by opening your grips and removing lapel tension. Maintain top position briefly to ensure partner is conscious and recovering normally. If practicing with a new partner, verbally confirm they are okay before continuing training.",
-      "pressure_level": "Light"
+      "description": "The moment you feel or see the tap signal, immediately release all choking pressure by opening your grips and removing lapel tension. Maintain top position briefly to ensure partner is conscious and recovering normally. If practicing with a new partner, verbally confirm they are okay before continuing training."
     }
   ],
   "opponent_defense_patterns": [
@@ -158,38 +146,32 @@
     {
       "error": "Applying choking pressure before properly positioning the lapel behind the neck",
       "consequence": "Creates a crushing pressure on the trachea instead of blood choke on carotid arteries, causing pain rather than effective submission and potential injury",
-      "correction": "Take time to properly thread lapel behind neck, ensuring material sits on the side of the neck. Feel for the carotid pulse point with your hand before applying pressure.",
-      "danger_level": "CRITICAL"
+      "correction": "Take time to properly thread lapel behind neck, ensuring material sits on the side of the neck. Feel for the carotid pulse point with your hand before applying pressure."
     },
     {
       "error": "Losing top position control while focusing on lapel manipulation",
       "consequence": "Opponent escapes to guard or worse position before choke can be finished",
-      "correction": "Maintain heavy chest pressure and crossface throughout entire setup. If you feel opponent creating space, pause lapel work and re-establish positional control first.",
-      "danger_level": "Medium"
+      "correction": "Maintain heavy chest pressure and crossface throughout entire setup. If you feel opponent creating space, pause lapel work and re-establish positional control first."
     },
     {
       "error": "Using excessive pulling strength rather than proper rotation mechanics",
       "consequence": "Fatigues your arms, telegraphs the submission, and reduces effectiveness of the choke",
-      "correction": "Focus on wrist rotation and shoulder pressure rather than pulling the lapel. The choke should feel effortless when properly positioned.",
-      "danger_level": "Low"
+      "correction": "Focus on wrist rotation and shoulder pressure rather than pulling the lapel. The choke should feel effortless when properly positioned."
     },
     {
       "error": "Allowing too much slack in the lapel material",
       "consequence": "Opponent has time to defend, insert hands, or escape before choke takes effect",
-      "correction": "Before applying finishing pressure, ensure lapel is snug around neck with minimal slack. Take up all slack first, then apply rotational pressure.",
-      "danger_level": "Medium"
+      "correction": "Before applying finishing pressure, ensure lapel is snug around neck with minimal slack. Take up all slack first, then apply rotational pressure."
     },
     {
       "error": "Positioning your head too high or too low relative to opponent",
       "consequence": "Reduces shoulder pressure and gives opponent ability to turn their head away from the choke",
-      "correction": "Keep your head near opponent's far shoulder, creating downward angle with your shoulder into their near-side jaw. This prevents head movement and increases choke effectiveness.",
-      "danger_level": "Low"
+      "correction": "Keep your head near opponent's far shoulder, creating downward angle with your shoulder into their near-side jaw. This prevents head movement and increases choke effectiveness."
     },
     {
       "error": "Continuing to apply pressure after feeling tap signal",
       "consequence": "Risk of causing unconsciousness or injury to training partner; builds dangerous training habits",
-      "correction": "Develop instant release reflex when feeling tap. Practice releasing immediately even in drilling scenarios to build muscle memory.",
-      "danger_level": "CRITICAL"
+      "correction": "Develop instant release reflex when feeling tap. Practice releasing immediately even in drilling scenarios to build muscle memory."
     }
   ],
   "variations_and_setups": [
@@ -276,54 +258,10 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding",
-      "timeframe": "Week 1-2",
-      "focus": "Learn proper lapel threading mechanics and body positioning without applying any choking pressure. Practice on compliant partners focusing solely on proper positioning.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Understand anatomy of carotid vs trachea compression. Learn to recognize proper lapel placement by feel. Practice immediate release on command."
-    },
-    {
-      "phase": "Slow Positional Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Execute complete technique from side control against zero resistance, including very light finishing pressure (maximum 20% intensity). Partner taps immediately when feeling any pressure to build release reflexes.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Develop muscle memory for immediate release upon tap. Practice communication with partner about pressure levels. Never exceed light pressure during this phase."
-    },
-    {
-      "phase": "Defensive Awareness",
-      "timeframe": "Week 5-6",
-      "focus": "Partner begins adding realistic defensive reactions (framing, bridging, turning). Practice maintaining position and adjusting lapel placement without applying full finishing pressure.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Learn to differentiate between positional control pressure and choking pressure. Ensure partner can always signal tap with hands or feet. Pause and reset if position becomes scrambled."
-    },
-    {
-      "phase": "Progressive Resistance Application",
-      "timeframe": "Week 7-10",
-      "focus": "Increase finishing pressure to 50-70% while partner provides realistic escape attempts. Begin timing practice - if choke is not effective within 5 seconds of firm pressure, recognize the need for position adjustment rather than force increase.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Both partners monitor for proper blood choke sensations (pressure on sides of neck) versus air choke (pressure on throat). Immediate tap and release if anything feels wrong."
-    },
-    {
-      "phase": "Full Speed Integration",
-      "timeframe": "Week 11-14",
-      "focus": "Incorporate Short Choke attempts during live rolling at full resistance. Practice recognizing setup opportunities from side control and north-south transitions. Begin chaining with other submissions.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never apply competition-speed finishing in training. Always allow 3-5 second minimum application time. Both partners should be experienced enough to recognize blood choke sensations and tap appropriately early."
-    },
-    {
-      "phase": "Advanced Application and Competition Preparation",
-      "timeframe": "Month 4+",
-      "focus": "Use Short Choke as part of submission chain system. Practice concealing setup within normal top pressure. Develop variations and counters to common defenses. Competition simulation with strict time limits.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "In competition simulation, apply finishing pressure quickly but never violently. Develop awareness of when opponent is about to go unconscious (body goes limp, resistance stops) and release if no tap occurs. Understand that competition application differs from training application."
-    }
-  ],
   "from_positions": [
     "Side Control",
     "North-South",
-    "North South Control",
+    "North-South",
     "Kesa Gatame",
     "Scarf Hold Position",
     "Modified Scarf Hold",
@@ -382,7 +320,7 @@
       "relationship": "Position to transition to when opponent turns away from Short Choke pressure"
     },
     {
-      "name": "North South Control",
+      "name": "North-South",
       "relationship": "Alternate top control position for Short Choke setup"
     },
     {
@@ -397,5 +335,6 @@
       "name": "High Mount",
       "relationship": "Superior mounted position for Short Choke variation"
     }
-  ]
+  ],
+  "success_rate": 58
 }

@@ -367,11 +367,11 @@ From knee shield, practice flowing between deep half, x-guard, and standard half
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 25% | 10% |
-| Intermediate | 65% | 40% | 20% |
-| Advanced     | 80% | 55% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 48% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 1-3 minutes depending on skill differential and passing strategy
 

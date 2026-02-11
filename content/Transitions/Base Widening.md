@@ -159,7 +159,7 @@ description: "Learn Base Widening defensive technique in BJJ. Essential stabilit
 Base Widening is a fundamental defensive technique that involves expanding your stance and lowering your center of gravity to recover stability when your base is threatened. This technique is essential across all grappling positions, from standing to ground fighting, and represents one of the most important defensive reflexes in Brazilian Jiu-Jitsu. The principle is rooted in basic physics: a wider base creates a more stable platform that is significantly harder to destabilize or sweep. When executed properly, base widening allows you to resist sweeps, prevent takedowns, and maintain control even when your opponent is actively trying to off-balance you. The technique involves spreading your weight-bearing points farther apart while simultaneously lowering your hips, creating a pyramid-like structure that distributes force more effectively. This defensive movement is often combined with other defensive principles such as posting hands, head positioning, and weight distribution to create a comprehensive defensive framework. Mastery of base widening is crucial for all belt levels, as it forms the foundation for defending against attacks from nearly every position in BJJ.
 
 **From Position**: [[Half Guard/Top]]
-**Success Rates**: Beginner 65%, Intermediate 80%, Advanced 90%
+**Success Rate**: 85%
 
 </section>
 
@@ -208,13 +208,13 @@ Base Widening is a fundamental defensive technique that involves expanding your 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize threat**: Immediately identify when your opponent is attempting to compromise your base through grips, off-balancing, or positional pressure. Common indicators include pulling grips on your upper body, attacks on your posting arms, or attempts to control your hips. (Timing: Instant recognition - 0.2-0.5 seconds reaction window)
-2. **Spread legs wider**: Explosively drive your feet outward, spreading your legs significantly wider than shoulder-width apart. The wider stance increases the area of your base, making it geometrically more difficult for your opponent to create enough angular momentum to sweep you. (Timing: Execute simultaneously with threat recognition)
-3. **Lower center of gravity**: Drop your hips downward toward the mat while maintaining upright posture in your upper body. This lowering creates a more stable pyramid structure where force vectors must travel through a lower, more stable center of mass. (Timing: 0.3-0.5 seconds after initial spread)
-4. **Adjust weight distribution**: Actively shift your weight to distribute evenly across both legs and any hand posts. Avoid loading all weight on one side, as this creates an easy vector for your opponent to attack. Feel equal pressure through both legs and adjust micro-movements to maintain balance. (Timing: Continuous adjustment throughout the technique)
-5. **Post hands strategically**: If in a position where hand posting is available, place one or both hands on the mat or your opponent's body to create additional points of contact. These posts serve as supplementary base points that further increase your stability triangle. (Timing: Within 0.5 seconds of lowering hips)
-6. **Position head correctly**: Keep your head over your center of mass or slightly forward. Avoid letting your head drift too far back or to the side, as your head represents significant weight that can be used to create leverage against you. (Timing: Maintain throughout entire defensive sequence)
-7. **Prepare counter-movement**: Once base is stabilized, immediately begin planning your next move - whether that's improving position, escaping, or launching a counter-attack. Base widening is a temporary defensive measure, not a final position. (Timing: 1-2 seconds after achieving stable base)
+1. **Recognize threat**: Immediately identify when your opponent is attempting to compromise your base through grips, off-balancing, or positional pressure. Common indicators include pulling grips on your upper body, attacks on your posting arms, or attempts to control your hips.
+2. **Spread legs wider**: Explosively drive your feet outward, spreading your legs significantly wider than shoulder-width apart. The wider stance increases the area of your base, making it geometrically more difficult for your opponent to create enough angular momentum to sweep you.
+3. **Lower center of gravity**: Drop your hips downward toward the mat while maintaining upright posture in your upper body. This lowering creates a more stable pyramid structure where force vectors must travel through a lower, more stable center of mass.
+4. **Adjust weight distribution**: Actively shift your weight to distribute evenly across both legs and any hand posts. Avoid loading all weight on one side, as this creates an easy vector for your opponent to attack. Feel equal pressure through both legs and adjust micro-movements to maintain balance.
+5. **Post hands strategically**: If in a position where hand posting is available, place one or both hands on the mat or your opponent's body to create additional points of contact. These posts serve as supplementary base points that further increase your stability triangle.
+6. **Position head correctly**: Keep your head over your center of mass or slightly forward. Avoid letting your head drift too far back or to the side, as your head represents significant weight that can be used to create leverage against you.
+7. **Prepare counter-movement**: Once base is stabilized, immediately begin planning your next move - whether that's improving position, escaping, or launching a counter-attack. Base widening is a temporary defensive measure, not a final position.
 
 
 </section>
@@ -260,27 +260,21 @@ Base Widening is a fundamental defensive technique that involves expanding your 
 ## Training Progressions
 **Week 1-2: Fundamental Recognition** - Developing threat recognition and basic execution
 Partner applies slow, telegraphed sweep attempts from various positions while you practice identifying the threat and executing base widening. Focus on the feeling of stability versus instability.
-(Resistance: None)
 
 **Week 3-4: Timing Development** - Reducing reaction time and improving coordination
 Partner increases speed of sweep attempts. Practice widening base at the earliest possible moment - ideally before the sweep motion begins. Work on simultaneous leg spreading and hip lowering.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Application** - Maintaining base during continuous pressure and movement
 Partner applies sustained pressure from multiple angles, forcing you to continuously adjust your base. Practice small shuffle steps to reorient while maintaining width and low center of gravity.
-(Resistance: Medium)
 
 **Week 9-12: Integration with Transitions** - Using base widening as a bridge to better positions
 After successfully defending with base widening, immediately transition to improved positions or submissions. Practice the full sequence: defend, stabilize, counter-attack.
-(Resistance: Medium)
 
 **Week 13+: Competition Pressure** - Base widening under explosive, unpredictable attacks
 Partner uses full-speed, high-intensity sweep attempts with feints and combinations. You must identify and defend real threats while avoiding over-committing to feints.
-(Resistance: Full)
 
 **Ongoing: Positional Specialization** - Applying base widening principles to specific positions
 Dedicated training for base widening from guard passing positions, turtle defense, scrambles, and standing situations. Each position has unique spatial constraints that modify the technique.
-(Resistance: Full)
 
 
 

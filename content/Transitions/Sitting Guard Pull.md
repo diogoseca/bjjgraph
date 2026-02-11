@@ -153,7 +153,7 @@ description: "Learn Sitting Guard Pull in BJJ. Step-by-step execution from Stand
 The Sitting Guard Pull is one of the most fundamental and reliable methods for establishing guard from standing position in Brazilian Jiu-Jitsu. This technique allows a practitioner to safely transition from neutral standing to a seated open guard position while maintaining grips and controlling distance. Unlike dynamic jumping or rolling guard pulls, the sitting guard pull emphasizes control, safety, and strategic positioning. The technique is particularly valuable in both gi and no-gi contexts, serving as a foundational entry point to various open guard systems including butterfly guard, De La Riva, seated guard, and shin-to-shin configurations. The sitting guard pull's high success rate across all skill levels makes it an essential technique for competitors who prefer playing guard, as it reliably achieves the desired position while minimizing risk of injury or positional disadvantage. Mastery of this technique provides a solid platform for developing a comprehensive guard game.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 70%, Intermediate 85%, Advanced 95%
+**Success Rate**: 90%
 
 </section>
 
@@ -202,12 +202,12 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish primary grips**: From standing position, secure your preferred grip configuration. In gi, this typically involves a same-side collar grip with one hand and opposite sleeve or wrist control with the other. In no-gi, establish wrist control or an overhook/underhook position. The grip must be firm enough to maintain connection throughout the sitting motion. (Timing: Before any weight shift)
-2. **Create angle and assess space**: Angle your body slightly to one side (typically the side of your collar grip) rather than facing directly forward. Quickly assess the mat space behind you to ensure safe sitting room. This angle creates better access to specific guard types and prevents sitting directly backward which can strain the lower back. (Timing: Simultaneous with grip establishment)
-3. **Begin controlled descent**: Bend your knees and lower your hips in a controlled sitting motion, maintaining tension in your grips throughout. Your weight should transfer smoothly from standing to sitting, not dropping or falling. Keep your core engaged and your upper body slightly forward-leaning to maintain balance and prevent falling backward onto your tailbone. (Timing: 1-2 seconds for full descent)
-4. **Land on glutes with bent knees**: Complete the sitting motion by landing primarily on your glutes with knees bent and feet ready to engage. Your landing should be soft and controlled, absorbing impact through the muscles rather than bones. Immediately keep your feet mobile and active, preventing them from being statically planted. (Timing: Smooth landing without impact)
-5. **Establish foot positioning**: Immediately upon sitting, place your feet in strategic positions based on your intended guard type. Options include: feet on hips for open guard, one or both hooks inside for butterfly guard, one foot on hip and one shin across for De La Riva, or both feet framing on opponent's hips or knees. Keep feet active and ready to adjust. (Timing: Within 1 second of sitting)
-6. **Complete guard structure**: Finalize your chosen guard configuration by adjusting grips, foot placement, and body angle. Create frames with your legs and arms to control distance and prevent immediate passing attempts. Your head should stay up, eyes on opponent, ready to react to their response. From this foundation, you can now enter your preferred guard system or sweep sequence. (Timing: Complete within 2-3 seconds total)
+1. **Establish primary grips**: From standing position, secure your preferred grip configuration. In gi, this typically involves a same-side collar grip with one hand and opposite sleeve or wrist control with the other. In no-gi, establish wrist control or an overhook/underhook position. The grip must be firm enough to maintain connection throughout the sitting motion.
+2. **Create angle and assess space**: Angle your body slightly to one side (typically the side of your collar grip) rather than facing directly forward. Quickly assess the mat space behind you to ensure safe sitting room. This angle creates better access to specific guard types and prevents sitting directly backward which can strain the lower back.
+3. **Begin controlled descent**: Bend your knees and lower your hips in a controlled sitting motion, maintaining tension in your grips throughout. Your weight should transfer smoothly from standing to sitting, not dropping or falling. Keep your core engaged and your upper body slightly forward-leaning to maintain balance and prevent falling backward onto your tailbone.
+4. **Land on glutes with bent knees**: Complete the sitting motion by landing primarily on your glutes with knees bent and feet ready to engage. Your landing should be soft and controlled, absorbing impact through the muscles rather than bones. Immediately keep your feet mobile and active, preventing them from being statically planted.
+5. **Establish foot positioning**: Immediately upon sitting, place your feet in strategic positions based on your intended guard type. Options include: feet on hips for open guard, one or both hooks inside for butterfly guard, one foot on hip and one shin across for De La Riva, or both feet framing on opponent's hips or knees. Keep feet active and ready to adjust.
+6. **Complete guard structure**: Finalize your chosen guard configuration by adjusting grips, foot placement, and body angle. Create frames with your legs and arms to control distance and prevent immediate passing attempts. Your head should stay up, eyes on opponent, ready to react to their response. From this foundation, you can now enter your preferred guard system or sweep sequence.
 
 
 </section>
@@ -253,27 +253,21 @@ The Sitting Guard Pull is one of the most fundamental and reliable methods for e
 ## Training Progressions
 **Phase 1: Fundamental Mechanics (Week 1-2)** - Solo drilling the sitting motion with proper form
 Practice controlled sitting motion without a partner, focusing on smooth descent, proper landing position, and immediate foot activation. Drill 20-30 repetitions focusing on form, not speed. Emphasize landing softly on glutes with knees bent and feet ready. Practice from various starting positions and angles.
-(Resistance: None)
 
 **Phase 2: Grip Integration (Week 2-3)** - Adding grip maintenance to the sitting motion
 Partner holds grips statically while you practice sitting and maintaining connection throughout. Partner provides light resistance to grips (not pulling away, just maintaining tension). Practice 15-20 repetitions focusing on never breaking grip contact during the descent. Alternate gi and no-gi grip variations.
-(Resistance: Light)
 
 **Phase 3: Guard Establishment (Week 3-5)** - Completing the transition to specific guard types
 Practice full sequence: grip, sit, establish specific guard type (butterfly, De La Riva, seated guard, etc.). Partner remains neutral but maintains grips and proper distance. Drill 10-15 repetitions per guard type. Focus on smooth, continuous motion from standing to fully established guard position.
-(Resistance: Light)
 
 **Phase 4: Dynamic Response (Week 5-8)** - Reacting to opponent movement and resistance
 Partner adds medium resistance: attempting to break grips, stepping back, or circling during your sit. Practice maintaining control and adapting guard establishment to opponent's movement. Introduce sweep or submission entries immediately after successful guard pull. 10-minute rounds of guard pull specific training.
-(Resistance: Medium)
 
 **Phase 5: Competition Simulation (Week 8-12)** - Full resistance with immediate offensive actions
 Partner provides full resistance: breaking grips, passing attempts, disengaging, etc. Practice guard pull directly into sweep attempts or submission setups. Emphasize maintaining initiative after the pull. Include time pressure scenarios and referee-started engagements to simulate competition environment.
-(Resistance: Full)
 
 **Phase 6: Advanced Integration (Ongoing)** - Chaining with complete guard systems and game planning
 Integrate sitting guard pull into your complete guard system. Practice flowing between multiple guard types after the initial pull. Develop specific grip-fighting sequences that set up preferred guards. Study opponent tendencies and develop counters to their most common responses to your guard pull.
-(Resistance: Full)
 
 
 

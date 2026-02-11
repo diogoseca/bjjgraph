@@ -153,7 +153,7 @@ description: "Master the Technical Standup escape in BJJ. Step-by-step execution
 The Technical Standup is one of the most fundamental defensive movements in Brazilian Jiu-Jitsu, serving as a critical bridge between grounded and standing positions. This technique allows a grounded practitioner to safely return to their feet while maintaining defensive integrity and preventing the opponent from capitalizing on the transition. The movement combines proper base construction, systematic weight transfer, and intelligent posting mechanics to create a safe pathway to standing. Unlike an athletic scramble or explosive standup, the technical standup prioritizes control and safety, making it accessible to practitioners of all athletic levels. The technique is particularly valuable in self-defense scenarios, competition situations where disengagement is strategic, and as a foundational movement pattern that teaches proper body mechanics for numerous other techniques. Understanding the technical standup is essential for developing complete guard retention systems and defensive frameworks.
 
 **From Position**: [[Seated Guard/Bottom]]
-**Success Rates**: Beginner 65%, Intermediate 80%, Advanced 90%
+**Success Rate**: 85%
 
 </section>
 
@@ -202,12 +202,12 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish seated base**: From seated position, plant one foot flat on the mat with knee up, approximately hip-width from your seated hip. The other leg can be extended or bent depending on opponent distance. Sit on one hip, not flat on your back, creating a stable triangular base with your seated hip and planted foot. (Timing: Complete before opponent closes distance)
-2. **Post rear hand**: Place your rear hand (same side as seated hip) flat on the mat behind you, fingers pointing away from body or slightly angled. The posting hand should be 12-18 inches behind your hip, creating a strong structural support. Keep elbow slightly bent to absorb force, not locked straight. (Timing: Establish solid post before weight transfer)
-3. **Frame with lead hand**: Extend your front hand (opposite side from posting hand) toward opponent with palm facing them, creating a defensive frame to manage distance. This hand acts as both a range-finder and a barrier to prevent opponent from closing distance during your standup. Keep this arm active and ready to post or frame as needed. (Timing: Simultaneous with or immediately after rear post)
-4. **Bridge hips upward**: Press through your planted foot and posting hand simultaneously to elevate your hips completely off the mat. Your weight should now be distributed between your posting hand and planted foot, with hips high and extended leg hovering above mat. This creates maximum clearance and prevents opponent from securing you on the ground. (Timing: Explosive but controlled hip elevation)
-5. **Step through with free leg**: While maintaining elevated hip position, swing your extended leg underneath your body and plant the ball of that foot on the mat behind you. This creates a stable tripod base with both feet and your posting hand. The stepping motion should be smooth and controlled, keeping hips high throughout. (Timing: Maintain hip height during leg transition)
-6. **Rise to standing**: From the tripod position (both feet and posting hand), press through both legs while removing your posting hand from the mat, rising to a standing position. Maintain your defensive frame with the lead hand throughout this transition. Finish in a balanced fighting stance with knees slightly bent, weight centered, and hands ready to defend or engage. (Timing: Complete standup before opponent can close distance)
+1. **Establish seated base**: From seated position, plant one foot flat on the mat with knee up, approximately hip-width from your seated hip. The other leg can be extended or bent depending on opponent distance. Sit on one hip, not flat on your back, creating a stable triangular base with your seated hip and planted foot.
+2. **Post rear hand**: Place your rear hand (same side as seated hip) flat on the mat behind you, fingers pointing away from body or slightly angled. The posting hand should be 12-18 inches behind your hip, creating a strong structural support. Keep elbow slightly bent to absorb force, not locked straight.
+3. **Frame with lead hand**: Extend your front hand (opposite side from posting hand) toward opponent with palm facing them, creating a defensive frame to manage distance. This hand acts as both a range-finder and a barrier to prevent opponent from closing distance during your standup. Keep this arm active and ready to post or frame as needed.
+4. **Bridge hips upward**: Press through your planted foot and posting hand simultaneously to elevate your hips completely off the mat. Your weight should now be distributed between your posting hand and planted foot, with hips high and extended leg hovering above mat. This creates maximum clearance and prevents opponent from securing you on the ground.
+5. **Step through with free leg**: While maintaining elevated hip position, swing your extended leg underneath your body and plant the ball of that foot on the mat behind you. This creates a stable tripod base with both feet and your posting hand. The stepping motion should be smooth and controlled, keeping hips high throughout.
+6. **Rise to standing**: From the tripod position (both feet and posting hand), press through both legs while removing your posting hand from the mat, rising to a standing position. Maintain your defensive frame with the lead hand throughout this transition. Finish in a balanced fighting stance with knees slightly bent, weight centered, and hands ready to defend or engage.
 
 
 </section>
@@ -253,23 +253,18 @@ The Technical Standup is one of the most fundamental defensive movements in Braz
 ## Training Progressions
 **Week 1-2: Static Mechanics** - Master each position in isolation without time pressure or opponent
 Practice establishing seated base, posting hand placement, and hip bridge separately. Perform 10-15 repetitions of each component daily, focusing on perfect positioning and balance. Use mirror or coach feedback to ensure proper hand placement, hip height, and head position. Goal is to build muscle memory for each phase.
-(Resistance: None)
 
 **Week 3-4: Continuous Flow** - Link all phases together in smooth, continuous movement
 Perform complete technical standup sequences with emphasis on smooth transitions between phases. Start slowly, gradually increasing speed while maintaining technical precision. Aim for 20-30 complete repetitions per training session. Practice from both sides (left and right hip seated) to develop bilateral proficiency.
-(Resistance: None)
 
 **Week 5-8: Partner Pressure** - Execute technique with partner applying progressive resistance
 Partner kneels 3-4 feet away and applies gentle forward pressure as you attempt standup. Partner gradually increases pressure over weeks, eventually adding grips and realistic movement. Practice defending common counters and maintaining technique under stress. Include scenario training where partner randomly times attacks during your standup attempts.
-(Resistance: Light)
 
 **Week 9-12: Positional Integration** - Apply technical standup from various guard positions and scenarios
 Practice transitioning from failed guard retention to technical standup. Work from situations where opponent has opened your guard, passed partially, or where you've been swept but not fully controlled. Develop recognition of when standup is appropriate tactical choice versus when to recover guard. Include integration with guard pulls and re-engagement strategies.
-(Resistance: Medium)
 
 **Month 4+: Competition Application** - Execute under full resistance with strategic decision-making
 Incorporate technical standup into live rolling with specific goals: standup to disengage when losing position, standup to reset when exhausted, standup as counter to opponent's guard passing. Develop timing for using standup versus other defensive options. Practice rapid decision-making and execution under fatigue.
-(Resistance: Full)
 
 
 

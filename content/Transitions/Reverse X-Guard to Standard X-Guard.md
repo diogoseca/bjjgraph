@@ -157,7 +157,7 @@ Strategically, this transition becomes essential when your Reverse X-Guard sweep
 The transition requires precise timing and coordinated hook movement to prevent the opponent from capitalizing on the brief moment of reduced control. Advanced practitioners use this transition fluidly as part of a continuous threat cycle, forcing opponents to defend multiple angles simultaneously. The key is maintaining constant connection with at least one hook throughout the reconfiguration while your grips keep the opponent's posture compromised.
 
 **From Position**: [[Reverse X-Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The transition requires precise timing and coordinated hook movement to prevent 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure grip control**: Ensure you have a strong grip on opponent's sleeve on the controlled leg side and far collar or belt. This grip freezes their posture and prevents them from capitalizing on the transition. (Timing: Before initiating any hook movement)
-2. **Elevate hips and load hooks**: Push your hips up toward the ceiling while driving both hooks into your opponent to create maximum off-balancing pressure. This forces them to focus on balance rather than countering your transition. (Timing: Immediately before hook reconfiguration)
-3. **Rotate hip angle**: Begin rotating your hips from the inverted Reverse X angle toward the standard X-Guard orientation. Your body should move from facing away from the opponent to facing more directly toward them. (Timing: Simultaneous with hook movement)
-4. **Reposition primary hook**: Slide your hook from behind the opponent's near knee to the traditional X-Guard position on their far hip. Maintain constant pressure against their leg as you move to prevent any gap in control. (Timing: While maintaining secondary hook pressure)
-5. **Establish butterfly hook**: Your secondary leg transitions from the same-side hip hook to the butterfly hook position under the opponent's near thigh. This creates the classic X-Guard scissoring structure. (Timing: Immediately after primary hook is secured)
-6. **Settle and adjust**: Once both hooks are in X-Guard position, adjust your angle and grip to optimize for your chosen sweep direction. Ensure your far hip hook is deep and your butterfly hook is active under their thigh. (Timing: Within 1-2 seconds of completing transition)
+1. **Secure grip control**: Ensure you have a strong grip on opponent's sleeve on the controlled leg side and far collar or belt. This grip freezes their posture and prevents them from capitalizing on the transition.
+2. **Elevate hips and load hooks**: Push your hips up toward the ceiling while driving both hooks into your opponent to create maximum off-balancing pressure. This forces them to focus on balance rather than countering your transition.
+3. **Rotate hip angle**: Begin rotating your hips from the inverted Reverse X angle toward the standard X-Guard orientation. Your body should move from facing away from the opponent to facing more directly toward them.
+4. **Reposition primary hook**: Slide your hook from behind the opponent's near knee to the traditional X-Guard position on their far hip. Maintain constant pressure against their leg as you move to prevent any gap in control.
+5. **Establish butterfly hook**: Your secondary leg transitions from the same-side hip hook to the butterfly hook position under the opponent's near thigh. This creates the classic X-Guard scissoring structure.
+6. **Settle and adjust**: Once both hooks are in X-Guard position, adjust your angle and grip to optimize for your chosen sweep direction. Ensure your far hip hook is deep and your butterfly hook is active under their thigh.
 
 
 </section>
@@ -252,19 +252,15 @@ The transition requires precise timing and coordinated hook movement to prevent 
 ## Training Progressions
 **Week 1-2** - Fundamentals
 Practice the hook repositioning sequence with a compliant partner. Focus on maintaining at least one hook in contact throughout and understanding the body angle change required. Drill 50 repetitions per side daily.
-(Resistance: None)
 
 **Week 3-4** - Timing
 Partner provides light resistance and attempts basic counters. Work on recognizing when to initiate the transition based on opponent's weight distribution and reactions to your Reverse X-Guard attacks.
-(Resistance: Light)
 
 **Week 5-6** - Combinations
 Chain the transition with sweeps from both positions. Practice Reverse X-Guard sweep attempt, transition to Standard X-Guard when defended, then execute X-Guard sweep. Develop flow between positions.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Implement in positional sparring starting from Reverse X-Guard. Focus on reading opponent's reactions and choosing between maintaining Reverse X, transitioning to Standard X, or taking alternative paths based on defensive responses.
-(Resistance: Full)
 
 
 

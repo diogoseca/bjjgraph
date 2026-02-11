@@ -9,11 +9,6 @@
     "fundamental",
     "beginner"
   ],
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 55,
-    "advanced": 75
-  },
   "overview": "Guard Opening Sequence represents the systematic approach to breaking closed guard and transitioning to an open guard passing position. This foundational technique encompasses posture establishment, grip fighting, and the application of specific opening mechanics to force the opponent's guard open. The sequence is fundamental to all guard passing systems, as no pass can begin without first opening the closed guard. Understanding proper opening mechanics prevents common injuries, maintains positional control, and sets up high-percentage passing opportunities. The technique involves careful attention to base maintenance, grip control, and strategic pressure application to overcome the opponent's defensive structure while maintaining safety and control throughout the transition.",
   "key_principles": [
     "Establish strong posture before attempting to open the guard - broken posture makes opening impossible",
@@ -36,44 +31,37 @@
     {
       "step_number": 1,
       "action": "Establish posture",
-      "description": "Begin from closed guard top position. Create a strong defensive frame by straightening your spine, lifting your head, and creating distance with your hips. Your elbows should be inside their knees, forearms driving into their hips or controlling their belt. This posture is non-negotiable - without it, the guard cannot be safely opened.",
-      "timing": "First priority - establish before any opening attempt"
+      "description": "Begin from closed guard top position. Create a strong defensive frame by straightening your spine, lifting your head, and creating distance with your hips. Your elbows should be inside their knees, forearms driving into their hips or controlling their belt. This posture is non-negotiable - without it, the guard cannot be safely opened."
     },
     {
       "step_number": 2,
       "action": "Break opponent's grips",
-      "description": "Systematically remove the opponent's grip connections on your collar, sleeves, or head. Use circular motions to break collar grips by rotating your shoulders. For sleeve grips, push their grip toward their thumb (weakest point) while pulling your elbow back. Prevent them from re-establishing grips by maintaining proper distance and hand positioning.",
-      "timing": "2-3 seconds of focused grip fighting"
+      "description": "Systematically remove the opponent's grip connections on your collar, sleeves, or head. Use circular motions to break collar grips by rotating your shoulders. For sleeve grips, push their grip toward their thumb (weakest point) while pulling your elbow back. Prevent them from re-establishing grips by maintaining proper distance and hand positioning."
     },
     {
       "step_number": 3,
       "action": "Establish control grips",
-      "description": "Secure your own grips to control the opponent's position. Common options include: both hands on the pants near the knees (most common), one hand on belt with other on knee, or cross-collar grip with knee control. These grips prevent the opponent from following you as you create distance and control their hip movement.",
-      "timing": "Immediately after breaking their grips"
+      "description": "Secure your own grips to control the opponent's position. Common options include: both hands on the pants near the knees (most common), one hand on belt with other on knee, or cross-collar grip with knee control. These grips prevent the opponent from following you as you create distance and control their hip movement."
     },
     {
       "step_number": 4,
       "action": "Create initial distance",
-      "description": "From combat base or standing, begin creating distance between your hips and the opponent's hips. If using combat base, drive one knee forward while sitting your hips back. If standing, post one foot on the mat near their hip, maintaining grip control. This distance prevents them from breaking your posture and sets up the opening mechanics.",
-      "timing": "Smooth 1-2 second movement"
+      "description": "From combat base or standing, begin creating distance between your hips and the opponent's hips. If using combat base, drive one knee forward while sitting your hips back. If standing, post one foot on the mat near their hip, maintaining grip control. This distance prevents them from breaking your posture and sets up the opening mechanics."
     },
     {
       "step_number": 5,
       "action": "Apply opening pressure",
-      "description": "Execute the specific opening technique based on your position. Standing method: stand fully upright with both feet planted, gripping the pants near the knees, and drive your hips forward while pulling their knees toward you. Combat base method: drive your posted knee forward into their inner thigh while sitting your hips back and controlling their other leg. The pressure should be gradual and controlled, not explosive.",
-      "timing": "2-4 seconds of sustained pressure"
+      "description": "Execute the specific opening technique based on your position. Standing method: stand fully upright with both feet planted, gripping the pants near the knees, and drive your hips forward while pulling their knees toward you. Combat base method: drive your posted knee forward into their inner thigh while sitting your hips back and controlling their other leg. The pressure should be gradual and controlled, not explosive."
     },
     {
       "step_number": 6,
       "action": "Complete the opening",
-      "description": "Once you feel the opponent's ankles unlock, immediately control their legs to prevent re-closing. Push one knee across their body while maintaining control of the other leg. Your hips should stay back to maintain distance. From here, transition directly to your chosen passing position - knee slice, toreando, long step, or leg drag - without pausing in the open guard.",
-      "timing": "Immediate transition as guard opens"
+      "description": "Once you feel the opponent's ankles unlock, immediately control their legs to prevent re-closing. Push one knee across their body while maintaining control of the other leg. Your hips should stay back to maintain distance. From here, transition directly to your chosen passing position - knee slice, toreando, long step, or leg drag - without pausing in the open guard."
     },
     {
       "step_number": 7,
       "action": "Secure passing position",
-      "description": "Establish dominant grips and positioning for your selected pass. Keep constant pressure on their legs to prevent them from recovering closed guard or establishing a strong open guard retention position. Your posture should remain strong, hips mobile, and base secure as you begin your passing sequence.",
-      "timing": "Continuous flow into pass"
+      "description": "Establish dominant grips and positioning for your selected pass. Keep constant pressure on their legs to prevent them from recovering closed guard or establishing a strong open guard retention position. Your posture should remain strong, hips mobile, and base secure as you begin your passing sequence."
     }
   ],
   "common_counters": [
@@ -139,38 +127,32 @@
     {
       "phase": "Week 1-2: Posture and Base Fundamentals",
       "focus": "Establishing and maintaining proper posture in closed guard",
-      "description": "Partner allows you to establish posture but provides resistance when you try to open. Focus entirely on creating strong spine position, base, and grip control. Practice standing up from closed guard with proper mechanics. No actual opening yet.",
-      "resistance_level": "Light"
+      "description": "Partner allows you to establish posture but provides resistance when you try to open. Focus entirely on creating strong spine position, base, and grip control. Practice standing up from closed guard with proper mechanics. No actual opening yet."
     },
     {
       "phase": "Week 3-4: Static Opening Mechanics",
       "focus": "Executing opening techniques from established posture",
-      "description": "Partner maintains closed guard but does not break your posture or sweep. Practice both standing and combat base opening methods repeatedly. Focus on leverage and hip movement rather than strength. Partner allows guard to open but can re-close if your control is poor.",
-      "resistance_level": "Light"
+      "description": "Partner maintains closed guard but does not break your posture or sweep. Practice both standing and combat base opening methods repeatedly. Focus on leverage and hip movement rather than strength. Partner allows guard to open but can re-close if your control is poor."
     },
     {
       "phase": "Week 5-8: Dynamic Opening with Grip Fighting",
       "focus": "Combining grip fighting with opening mechanics",
-      "description": "Partner actively fights grips and attempts to break your posture but does not sweep. You must break their grips, establish your own, and open the guard while maintaining posture. Partner provides 50% resistance to opening mechanics. Begin transitioning to passing positions after opening.",
-      "resistance_level": "Medium"
+      "description": "Partner actively fights grips and attempts to break your posture but does not sweep. You must break their grips, establish your own, and open the guard while maintaining posture. Partner provides 50% resistance to opening mechanics. Begin transitioning to passing positions after opening."
     },
     {
       "phase": "Week 9-12: Opening Against Sweep Attempts",
       "focus": "Defending sweeps while executing opening sequence",
-      "description": "Partner attempts common sweeps (elevator, scissor, hip bump) during your opening attempts. You must recognize sweep threats, defend them, and continue opening sequence. Partner provides 70% resistance. Focus on maintaining base throughout the sequence.",
-      "resistance_level": "Medium"
+      "description": "Partner attempts common sweeps (elevator, scissor, hip bump) during your opening attempts. You must recognize sweep threats, defend them, and continue opening sequence. Partner provides 70% resistance. Focus on maintaining base throughout the sequence."
     },
     {
       "phase": "Week 13+: Full Resistance Opening to Pass",
       "focus": "Complete opening and passing sequence against resistance",
-      "description": "Partner uses full defensive guard including posture breaks, grip fighting, sweeps, and submission threats. You must successfully open the guard and transition to a passing position. This is competition-level training. Begin timing yourself to develop efficiency.",
-      "resistance_level": "Full"
+      "description": "Partner uses full defensive guard including posture breaks, grip fighting, sweeps, and submission threats. You must successfully open the guard and transition to a passing position. This is competition-level training. Begin timing yourself to develop efficiency."
     },
     {
       "phase": "Ongoing: Variation Development",
       "focus": "Adapting opening strategy to different guard styles",
-      "description": "Practice against specialized closed guard styles: collar and sleeve guard, overhook guard, rubber guard, high guard. Each requires slightly different opening mechanics. Partner uses their best guard retention techniques. Develop multiple opening methods for different scenarios.",
-      "resistance_level": "Full"
+      "description": "Practice against specialized closed guard styles: collar and sleeve guard, overhook guard, rubber guard, high guard. Each requires slightly different opening mechanics. Partner uses their best guard retention techniques. Develop multiple opening methods for different scenarios."
     }
   ],
   "variants_and_adaptations": [
@@ -203,33 +185,27 @@
   "knowledge_assessment": [
     {
       "question": "Why must you establish strong posture before attempting to open closed guard?",
-      "answer": "Strong posture with a straight spine and elevated head is essential because it prevents the opponent from breaking you down to sweep or submit you. Without proper posture, you cannot generate the leverage needed to open the guard, and you become vulnerable to triangles, omoplatas, and sweeps. Posture creates the structural foundation that allows your hips and legs to generate opening pressure safely.",
-      "difficulty": "Beginner"
+      "answer": "Strong posture with a straight spine and elevated head is essential because it prevents the opponent from breaking you down to sweep or submit you. Without proper posture, you cannot generate the leverage needed to open the guard, and you become vulnerable to triangles, omoplatas, and sweeps. Posture creates the structural foundation that allows your hips and legs to generate opening pressure safely."
     },
     {
       "question": "What are the three main grip strategies for opening closed guard and when should each be used?",
-      "answer": "The three main grip strategies are: 1) Both hands on pants near the knees (most common, provides best control for standing breaks), 2) One hand on belt with other on knee (good for combat base opening, provides hip control), and 3) Cross-collar with knee control (gi-specific, good against grip-dependent opponents). Choose based on your preferred opening method and opponent's guard style.",
-      "difficulty": "Intermediate"
+      "answer": "The three main grip strategies are: 1) Both hands on pants near the knees (most common, provides best control for standing breaks), 2) One hand on belt with other on knee (good for combat base opening, provides hip control), and 3) Cross-collar with knee control (gi-specific, good against grip-dependent opponents). Choose based on your preferred opening method and opponent's guard style."
     },
     {
       "question": "How do you defend against an elevator sweep attempt during standing guard break?",
-      "answer": "If opponent hooks your leg during standing guard break, immediately shift your weight toward the hooked leg side and base out with your hands if needed. Do not try to stand on the hooked leg. Step your free leg out wide for better base, use your grip to strip their hooking leg, then continue the opening sequence. The key is recognizing the sweep early and adjusting your base rather than fighting the hook with strength.",
-      "difficulty": "Intermediate"
+      "answer": "If opponent hooks your leg during standing guard break, immediately shift your weight toward the hooked leg side and base out with your hands if needed. Do not try to stand on the hooked leg. Step your free leg out wide for better base, use your grip to strip their hooking leg, then continue the opening sequence. The key is recognizing the sweep early and adjusting your base rather than fighting the hook with strength."
     },
     {
       "question": "What is the most common error when opening closed guard and how does it lead to submissions?",
-      "answer": "The most common error is attempting to open the guard with broken or compromised posture. When your posture is broken (spine curved, head down), you cannot generate proper leverage for opening, and you become extremely vulnerable to triangle chokes as your head and arm are in perfect position. Broken posture also makes you susceptible to omoplatas, sweeps, and collar chokes. You must always restore posture completely before attempting any opening mechanics.",
-      "difficulty": "Advanced"
+      "answer": "The most common error is attempting to open the guard with broken or compromised posture. When your posture is broken (spine curved, head down), you cannot generate proper leverage for opening, and you become extremely vulnerable to triangle chokes as your head and arm are in perfect position. Broken posture also makes you susceptible to omoplatas, sweeps, and collar chokes. You must always restore posture completely before attempting any opening mechanics."
     },
     {
       "question": "Explain why the opening and passing should be one continuous movement rather than separate techniques?",
-      "answer": "Opening and passing must be continuous because any pause after opening the guard gives the opponent time to re-close their guard or establish strong open guard retention with frames, hooks, and grips. The moment the ankles unlock, you must already be transitioning to knee slice, toreando, or your chosen pass. This requires having your passing strategy planned before you even open the guard. The transition should feel like one flowing movement where the opening mechanics naturally feed into passing mechanics.",
-      "difficulty": "Advanced"
+      "answer": "Opening and passing must be continuous because any pause after opening the guard gives the opponent time to re-close their guard or establish strong open guard retention with frames, hooks, and grips. The moment the ankles unlock, you must already be transitioning to knee slice, toreando, or your chosen pass. This requires having your passing strategy planned before you even open the guard. The transition should feel like one flowing movement where the opening mechanics naturally feed into passing mechanics."
     },
     {
       "question": "How should you use your hips and legs rather than arm strength to open the guard?",
-      "answer": "Opening the guard should be driven by hip and leg movement, not arm pulling. In the standing break, your hips drive forward while your legs provide the platform and stability - your arms merely hold position. In the combat base opening, your posted leg drives forward like a wedge while your hips sit back for leverage. Your arms control position and prevent re-closing, but the actual opening force comes from the much stronger hip and leg muscles moving in opposition to create mechanical advantage.",
-      "difficulty": "Advanced"
+      "answer": "Opening the guard should be driven by hip and leg movement, not arm pulling. In the standing break, your hips drive forward while your legs provide the platform and stability - your arms merely hold position. In the combat base opening, your posted leg drives forward like a wedge while your hips sit back for leverage. Your arms control position and prevent re-closing, but the actual opening force comes from the much stronger hip and leg muscles moving in opposition to create mechanical advantage."
     }
   ],
   "safety_considerations": "Guard opening requires careful attention to safety for both practitioners. The person opening must avoid using explosive or jerking movements that could injure the opponent's knees, hips, or ankles - apply pressure gradually and release immediately if partner taps. Never twist the legs during opening. The person in guard must unlock ankles when proper opening pressure is applied to prevent knee or ankle injuries. Both practitioners should communicate clearly, especially during learning phases. Avoid cranking or forcing the opening with pure strength. When standing, be aware of your partner's hips leaving the mat to prevent dropping them dangerously. Practice on appropriate mat surfaces to prevent injury if balance is lost during standing breaks. Partners should start with cooperative drilling before progressing to resistance.",
@@ -301,5 +277,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 65
 }

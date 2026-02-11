@@ -169,7 +169,7 @@ Strategically, the Tarikoplata Setup occupies a unique position in the Meathook 
 The technique requires precise sequencing: the shin must clear the shoulder line, the hip pivot must create omoplata angle, and the wrist grip must be established before releasing any Meathook control. Rushing any phase collapses the attack. For purple and brown belt practitioners, the Tarikoplata represents the deeper submission layer of Rubber Guard—where basic position chains evolve into compound locks that attack multiple joint structures simultaneously.
 
 **From Position**: [[Meathook/Bottom]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -217,14 +217,14 @@ The technique requires precise sequencing: the shin must clear the shoulder line
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Confirm Meathook control**: Verify your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your collar grip or overhook on the non-trapped side to keep their posture broken forward. Closed guard must remain connected with ankles crossed. (Timing: Before initiating any transition)
-2. **Initiate hip pivot**: Begin rotating your hips toward the trapped arm side while keeping your guard closed. This rotation shifts your body perpendicular to the opponent's spine and begins creating the omoplata angle. Your shin transitions from a horizontal hook across the tricep to a diagonal position over the shoulder. (Timing: 1-2 seconds, smooth rotation)
-3. **Thread leg over shoulder**: As your hips rotate, guide your hooking leg over the opponent's shoulder so that your shin crosses their upper back and your hamstring presses against the back of their shoulder. This is the omoplata leg configuration. Maintain your opposite leg's guard connection to prevent them from disengaging their hips. (Timing: Continuous with hip pivot)
-4. **Secure wrist grip**: With your same-side hand, reach down and grip the opponent's wrist of the trapped arm using a four-finger grip on the back of their hand with your thumb on their palm. This grip allows rotational manipulation. Your opposite hand maintains the collar or overhook grip to prevent posture recovery. (Timing: Immediately after leg is positioned)
-5. **Establish perpendicular angle**: Complete your hip rotation to achieve a 90-degree angle relative to the opponent's spine. Your body should be perpendicular to theirs with the trapped arm fully captured between your leg over their shoulder and your wrist grip below. This geometry maximizes both omoplata pressure and wrist rotation leverage. (Timing: 1-2 seconds to finalize angle)
-6. **Begin wrist rotation**: Start rotating the opponent's wrist to turn their palm toward their own head. This rotation pre-loads internal rotation stress on the shoulder joint. Apply rotation progressively over 2-3 seconds—never jerk or crank. The opponent should feel increasing pressure as the rotation compounds with the omoplata angle. (Timing: 2-3 seconds progressive rotation)
-7. **Drive hips forward**: Extend your hips forward and upward, driving into the opponent's shoulder while maintaining wrist rotation. Your shin across their upper back acts as a fulcrum while your hip extension creates the primary submission force. The wrist rotation prevents the rolling escape that would defeat a standard omoplata. (Timing: 3-4 seconds controlled extension)
-8. **Consolidate control position**: Once hip extension and wrist rotation are engaged, you have established Tarikoplata control within the Omoplata Control framework. Maintain both pressures while controlling the opponent's far hip with your free hand to prevent rolling. From here, progressive pressure application produces the tap or forces transition to mounted finish. (Timing: Hold and apply progressive pressure)
+1. **Confirm Meathook control**: Verify your shin hook is pressing firmly against the opponent's tricep with your ankle clearing their shoulder line. Maintain your collar grip or overhook on the non-trapped side to keep their posture broken forward. Closed guard must remain connected with ankles crossed.
+2. **Initiate hip pivot**: Begin rotating your hips toward the trapped arm side while keeping your guard closed. This rotation shifts your body perpendicular to the opponent's spine and begins creating the omoplata angle. Your shin transitions from a horizontal hook across the tricep to a diagonal position over the shoulder.
+3. **Thread leg over shoulder**: As your hips rotate, guide your hooking leg over the opponent's shoulder so that your shin crosses their upper back and your hamstring presses against the back of their shoulder. This is the omoplata leg configuration. Maintain your opposite leg's guard connection to prevent them from disengaging their hips.
+4. **Secure wrist grip**: With your same-side hand, reach down and grip the opponent's wrist of the trapped arm using a four-finger grip on the back of their hand with your thumb on their palm. This grip allows rotational manipulation. Your opposite hand maintains the collar or overhook grip to prevent posture recovery.
+5. **Establish perpendicular angle**: Complete your hip rotation to achieve a 90-degree angle relative to the opponent's spine. Your body should be perpendicular to theirs with the trapped arm fully captured between your leg over their shoulder and your wrist grip below. This geometry maximizes both omoplata pressure and wrist rotation leverage.
+6. **Begin wrist rotation**: Start rotating the opponent's wrist to turn their palm toward their own head. This rotation pre-loads internal rotation stress on the shoulder joint. Apply rotation progressively over 2-3 seconds—never jerk or crank. The opponent should feel increasing pressure as the rotation compounds with the omoplata angle.
+7. **Drive hips forward**: Extend your hips forward and upward, driving into the opponent's shoulder while maintaining wrist rotation. Your shin across their upper back acts as a fulcrum while your hip extension creates the primary submission force. The wrist rotation prevents the rolling escape that would defeat a standard omoplata.
+8. **Consolidate control position**: Once hip extension and wrist rotation are engaged, you have established Tarikoplata control within the Omoplata Control framework. Maintain both pressures while controlling the opponent's far hip with your free hand to prevent rolling. From here, progressive pressure application produces the tap or forces transition to mounted finish.
 
 
 </section>
@@ -267,19 +267,15 @@ The technique requires precise sequencing: the shin must clear the shoulder line
 ## Training Progressions
 **Week 1-2** - Leg transition mechanics
 From static Meathook, practice transitioning the shin hook from tricep control to over-shoulder omoplata configuration. Focus on maintaining control throughout the transition without releasing pressure. Partner offers zero resistance. Drill 15 repetitions per side, emphasizing smooth hip rotation.
-(Resistance: None)
 
 **Week 3-4** - Wrist grip timing and coordination
 Add the wrist grip establishment to the leg transition. Partner provides light resistance by slowly attempting arm extraction. Practice securing the four-finger wrist grip at the correct moment—after leg position but before releasing any Meathook control. Emphasize the overlap between control phases.
-(Resistance: Light)
 
 **Week 5-6** - Submission pressure and chain attacks
 Execute the complete technique with moderate resistance. Partner defends with various responses: posturing, straightening arm, stacking. Practice reading their defense and flowing to appropriate alternative (Triangle, Armbar, Gogoplata). Apply submission pressure progressively with constant verbal communication.
-(Resistance: Medium)
 
 **Week 7+** - Live application from Meathook
 Integrate Tarikoplata Setup into positional sparring from Meathook. Track success rate and identify which opponent responses trigger the Tarikoplata versus Baratoplata or Gogoplata. Develop the ability to select the correct Meathook attack based on real-time defensive reads.
-(Resistance: Full)
 
 
 

@@ -159,7 +159,7 @@ description: "Learn Rolling Kimura Escape in BJJ. Dynamic rolling technique from
 The Rolling Kimura Escape is an advanced defensive technique used to escape when an opponent has secured a tight Kimura grip on your arm. This dynamic escape utilizes forward rolling mechanics to relieve shoulder pressure and create space for guard recovery. The technique is particularly effective when traditional defensive frames have failed and the shoulder lock is being applied with significant pressure. The rolling motion works by using momentum and body rotation to change the angle of attack, transforming what would be a devastating submission into an opportunity to return to a neutral or even advantageous position. This escape requires excellent timing, spatial awareness, and complete commitment to the rolling motion. The key principle is that by rolling in the direction of the lock rather than resisting against it, you can momentarily relieve pressure while repositioning your body to defend. Success depends heavily on recognizing the exact moment when your opponent is committed to the finish and cannot easily adjust their base to follow your roll.
 
 **From Position**: [[Kimura Trap/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -208,13 +208,13 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize the need to escape**: As opponent secures the Kimura grip and begins applying pressure toward your back, assess that traditional defensive measures (hand fighting, posture recovery) are no longer viable. Feel the increasing shoulder torque and recognize the submission is progressing. This awareness must happen quickly, before the lock reaches the point of no return. (Timing: As soon as shoulder pressure becomes intense)
-2. **Tuck chin and prepare body position**: Immediately tuck your chin tightly to your chest to protect your neck during the upcoming roll. Draw your free arm across your body to assist with the rolling motion. Position your body weight slightly forward to prepare for the forward roll. Your trapped arm should remain as relaxed as possible to prevent additional torque. (Timing: 0.5-1 second before initiating roll)
-3. **Initiate forward roll**: Explosively drive forward over your trapped shoulder, committing fully to a forward roll in the direction of the Kimura lock. Plant your free hand on the mat and use it to guide your body into a tight somersault. Keep your chin tucked and your core tight throughout the rotation. The momentum must be sufficient to complete a full 360-degree rotation. (Timing: Explosive commitment - no hesitation)
-4. **Complete the roll and relieve pressure**: As you roll through, your body rotation temporarily changes the angle of the lock, relieving direct pressure on your shoulder joint. The opponent's grip may loosen slightly as they attempt to maintain control through your unexpected movement. Continue the rolling motion smoothly without pausing, allowing your hips to follow through completely. (Timing: Continuous smooth motion through full rotation)
-5. **Land in defensive position**: Complete the roll by landing on your back or side, facing your opponent. Your previously trapped arm should now have more mobility and reduced pressure. Immediately establish defensive frames with your free arm, creating distance between you and your opponent. Your legs should be ready to establish guard hooks or create additional barriers. (Timing: Immediately upon completing rotation)
-6. **Recover guard or create distance**: Use the momentum and space created by the roll to either re-establish guard position by getting your legs between you and your opponent, or create sufficient distance to stand up and reset. Keep your previously compromised shoulder protected by maintaining strong frames. If opponent still maintains grip, use hip movement to further alleviate pressure while working your legs into play. (Timing: Within 1-2 seconds of landing)
-7. **Secure safe position and assess**: Once you have established guard or created separation, take a moment to assess your shoulder's condition. Ensure you have proper defensive structure before re-engaging. If you successfully broke the Kimura grip, immediately establish better hand positioning to prevent opponent from re-attacking the same submission. Maintain active guard retention if in bottom position. (Timing: Ongoing defensive awareness)
+1. **Recognize the need to escape**: As opponent secures the Kimura grip and begins applying pressure toward your back, assess that traditional defensive measures (hand fighting, posture recovery) are no longer viable. Feel the increasing shoulder torque and recognize the submission is progressing. This awareness must happen quickly, before the lock reaches the point of no return.
+2. **Tuck chin and prepare body position**: Immediately tuck your chin tightly to your chest to protect your neck during the upcoming roll. Draw your free arm across your body to assist with the rolling motion. Position your body weight slightly forward to prepare for the forward roll. Your trapped arm should remain as relaxed as possible to prevent additional torque.
+3. **Initiate forward roll**: Explosively drive forward over your trapped shoulder, committing fully to a forward roll in the direction of the Kimura lock. Plant your free hand on the mat and use it to guide your body into a tight somersault. Keep your chin tucked and your core tight throughout the rotation. The momentum must be sufficient to complete a full 360-degree rotation.
+4. **Complete the roll and relieve pressure**: As you roll through, your body rotation temporarily changes the angle of the lock, relieving direct pressure on your shoulder joint. The opponent's grip may loosen slightly as they attempt to maintain control through your unexpected movement. Continue the rolling motion smoothly without pausing, allowing your hips to follow through completely.
+5. **Land in defensive position**: Complete the roll by landing on your back or side, facing your opponent. Your previously trapped arm should now have more mobility and reduced pressure. Immediately establish defensive frames with your free arm, creating distance between you and your opponent. Your legs should be ready to establish guard hooks or create additional barriers.
+6. **Recover guard or create distance**: Use the momentum and space created by the roll to either re-establish guard position by getting your legs between you and your opponent, or create sufficient distance to stand up and reset. Keep your previously compromised shoulder protected by maintaining strong frames. If opponent still maintains grip, use hip movement to further alleviate pressure while working your legs into play.
+7. **Secure safe position and assess**: Once you have established guard or created separation, take a moment to assess your shoulder's condition. Ensure you have proper defensive structure before re-engaging. If you successfully broke the Kimura grip, immediately establish better hand positioning to prevent opponent from re-attacking the same submission. Maintain active guard retention if in bottom position.
 
 
 </section>
@@ -260,27 +260,21 @@ The Rolling Kimura Escape is an advanced defensive technique used to escape when
 ## Training Progressions
 **Phase 1: Rolling Mechanics (Week 1-2)** - Master basic forward rolling technique without any submission context
 Practice forward rolls extensively to develop smooth, safe rolling mechanics. Focus on proper chin tuck, shoulder positioning, and landing safely. Perform 20-30 quality forward rolls per training session from standing, kneeling, and lying positions. Develop the ability to roll in both directions with equal proficiency.
-(Resistance: None)
 
 **Phase 2: Simulated Kimura Position (Week 3-4)** - Introduce Kimura grip position but with zero pressure
 Have training partner establish Kimura grip with absolutely no pressure applied to the shoulder. Practice initiating the forward roll from this position while partner maintains light contact only. Focus on smooth initiation and completing the full rotation. Partner should release grip if any discomfort is felt. Repeat 10-15 times per session.
-(Resistance: None)
 
 **Phase 3: Progressive Pressure (Week 5-8)** - Gradually increase submission pressure in controlled environment
 Partner applies increasing levels of Kimura pressure (starting at 20%, progressing to 50% maximum) while you practice timing the escape. Partner must be prepared to immediately release if the escape fails. Focus on recognizing the optimal timing window. Perform 5-10 repetitions at each pressure level before advancing.
-(Resistance: Light)
 
 **Phase 4: Dynamic Situation Training (Week 9-12)** - Practice escape during live positional sparring from side control
 Engage in controlled positional sparring where partner is allowed to attack Kimura but agrees to release pressure if you tap or if the escape is properly executed. Practice reading the situation and deciding when the rolling escape is appropriate versus other defensive options. Include other escape options to develop decision-making.
-(Resistance: Medium)
 
 **Phase 5: Competition Simulation (Week 13+)** - Test escape under realistic competition pressure with trusted partners
 Only with experienced training partners who have excellent control, practice the escape during more competitive rolling scenarios. Partner applies realistic Kimura pressure but with agreement to release if escape is properly initiated. This phase requires significant mutual trust and should only be attempted after complete mastery of previous phases.
-(Resistance: Medium)
 
 **Phase 6: Ongoing Maintenance and Refinement** - Periodic drilling to maintain proficiency and timing
 Continue practicing the rolling escape periodically (once per week) to maintain muscle memory and timing recognition. Focus on the decision-making aspect: when to use this escape versus other defensive options. Share your experience with training partners to ensure mutual safety when drilling this advanced technique.
-(Resistance: Light)
 
 
 

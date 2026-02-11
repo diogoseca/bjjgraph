@@ -268,46 +268,28 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 80
+        "value": 72
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 75
+        "value": 68
       },
       "submission_probability": {
-        "beginner": 40,
-        "intermediate": 60,
-        "advanced": 70
+        "value": 65
       },
       "average_time": "15-45 seconds from control to finish or escape"
     },
     "transitions": [
       {
         "transition": "Armbar Finish",
-        "attempt_probability": 35
+        "attempt_probability": 70
       },
       {
         "transition": "Triangle Setup",
         "attempt_probability": 20
       },
       {
-        "transition": "Closed Guard to Omoplata",
-        "attempt_probability": 15
-      },
-      {
-        "transition": "Triangle to Armbar",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Mount to Armbar",
+        "transition": "Belly Down Armbar",
         "attempt_probability": 10
-      },
-      {
-        "transition": "Kimura from Guard",
-        "attempt_probability": 8
       }
     ],
     "knowledge_assessment": [
@@ -544,34 +526,28 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 40,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "10-30 seconds (must escape quickly to prevent finish)"
     },
     "transitions": [
       {
         "transition": "Hip Escape",
-        "attempt_probability": 25
+        "attempt_probability": 15
       },
       {
         "transition": "Stack Defense",
-        "attempt_probability": 20
+        "attempt_probability": 18
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 18
+        "attempt_probability": 15
       },
       {
         "transition": "Hitchhiker Escape",
@@ -580,6 +556,10 @@
       {
         "transition": "Bridge and Roll",
         "attempt_probability": 17
+      },
+      {
+        "transition": "Rolling Escape",
+        "attempt_probability": 15
       }
     ],
     "knowledge_assessment": [

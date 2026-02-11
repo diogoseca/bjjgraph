@@ -157,7 +157,7 @@ The technique requires methodical execution rather than explosive movement. Pani
 Strategically, Address Leg Control represents the first link in any escape chain from Twister Control. Without freeing the trapped leg, attempts at upper body escapes or rolling through become impossible or counterproductive. Understanding this technique is essential for anyone training in no-gi environments where Twister Control entries are common, particularly against 10th Planet practitioners. The technique scales with technical understanding - beginners often telegraph their extraction attempts, while advanced practitioners use subtle weight shifts and incremental movements to slip free before the opponent can readjust.
 
 **From Position**: [[Twister Control]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -207,12 +207,12 @@ Strategically, Address Leg Control represents the first link in any escape chain
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess the entanglement**: Identify exactly how your leg is trapped - is the opponent using a butterfly hook under your hip, a lockdown-style entanglement, or a simple leg lace? Understanding the specific control mechanism determines your extraction method and prevents wasted energy on ineffective escape attempts. (Timing: Immediate upon recognizing position)
-2. **Establish protective frames**: Before attempting leg extraction, create frames with your arms against opponent's upper body to prevent them from deepening the position or transitioning to submissions. Your near-side arm should create space against their chest while your far-side arm protects your neck from guillotine or crank attempts. (Timing: Before any extraction attempt)
-3. **Hip the floor to reduce rotation**: Drop your hips toward the mat to reduce the spinal rotation the opponent has created. This decreases the torque on your spine and begins to align your upper and lower body. The movement should be controlled - not a dramatic bridge that exposes you to deeper control. (Timing: Once frames are established)
-4. **Attack the hooking leg**: Use your free leg to hook behind or push against the opponent's hooking leg. The goal is to straighten their hook or create separation between their leg and your trapped hip. Push their knee away from your body while simultaneously pulling your trapped leg toward yourself in small increments. (Timing: While maintaining hip pressure on mat)
-5. **Extract the trapped leg incrementally**: As the opponent's hook loosens, begin pulling your trapped leg free using small hip escapes and leg pumping motions. Do not yank explosively - instead, work the leg out in small increments while maintaining your frames. Each small extraction should be consolidated before attempting the next. (Timing: When hook control weakens)
-6. **Recover guard position**: Once your leg is free, immediately work to establish a guard position. Half guard is the most common recovery point - insert your free leg as a knee shield or establish lockdown on one of their legs. Alternatively, turtle and begin working to a more neutral position. Do not stay flat on your back with no guard structure. (Timing: Immediately upon leg extraction)
+1. **Assess the entanglement**: Identify exactly how your leg is trapped - is the opponent using a butterfly hook under your hip, a lockdown-style entanglement, or a simple leg lace? Understanding the specific control mechanism determines your extraction method and prevents wasted energy on ineffective escape attempts.
+2. **Establish protective frames**: Before attempting leg extraction, create frames with your arms against opponent's upper body to prevent them from deepening the position or transitioning to submissions. Your near-side arm should create space against their chest while your far-side arm protects your neck from guillotine or crank attempts.
+3. **Hip the floor to reduce rotation**: Drop your hips toward the mat to reduce the spinal rotation the opponent has created. This decreases the torque on your spine and begins to align your upper and lower body. The movement should be controlled - not a dramatic bridge that exposes you to deeper control.
+4. **Attack the hooking leg**: Use your free leg to hook behind or push against the opponent's hooking leg. The goal is to straighten their hook or create separation between their leg and your trapped hip. Push their knee away from your body while simultaneously pulling your trapped leg toward yourself in small increments.
+5. **Extract the trapped leg incrementally**: As the opponent's hook loosens, begin pulling your trapped leg free using small hip escapes and leg pumping motions. Do not yank explosively - instead, work the leg out in small increments while maintaining your frames. Each small extraction should be consolidated before attempting the next.
+6. **Recover guard position**: Once your leg is free, immediately work to establish a guard position. Half guard is the most common recovery point - insert your free leg as a knee shield or establish lockdown on one of their legs. Alternatively, turtle and begin working to a more neutral position. Do not stay flat on your back with no guard structure.
 
 
 </section>
@@ -255,19 +255,15 @@ Strategically, Address Leg Control represents the first link in any escape chain
 ## Training Progressions
 **Week 1-2** - Position recognition and frame establishment
 Partner places you in Twister Control. Practice recognizing the leg entanglement type, establishing protective frames, and breathing calmly under pressure. No escape attempts - focus purely on defensive structure and mental composure.
-(Resistance: None)
 
 **Week 3-4** - Incremental extraction mechanics
 From static Twister Control, practice the leg extraction sequence with cooperative partner. Focus on small, technical movements rather than power. Partner provides minimal resistance to allow you to feel correct mechanics.
-(Resistance: Light)
 
 **Week 5-6** - Timing and adaptation
 Partner provides moderate resistance and hunts basic submissions. Practice timing extraction attempts around their movements and transitions. Work on adapting your method when initial approach is blocked.
-(Resistance: Medium)
 
 **Week 7+** - Live application and recovery chains
 Apply Address Leg Control in live rolling and positional sparring. Practice the full sequence from being caught in Twister Control through guard recovery. Partner provides full resistance including submission hunting.
-(Resistance: Full)
 
 
 

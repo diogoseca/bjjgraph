@@ -157,7 +157,7 @@ The finish requires precise control of three mechanical elements: the arm weave 
 Strategically, the Baratoplata serves as the terminal attack in a chain that typically begins from Mission Control or Meathook positions. When opponents successfully defend Gogoplata and Triangle attempts, their defensive arm positioning often creates the ideal setup for the Baratoplata. This makes the technique a natural counter to intelligent guard defense, punishing the very movements that escape other rubber guard attacks.
 
 **From Position**: [[Omoplata Control/Top]]
-**Success Rates**: Beginner 25%, Intermediate 45%, Advanced 65%
+**Success Rate**: 55%
 
 </section>
 
@@ -206,12 +206,12 @@ Strategically, the Baratoplata serves as the terminal attack in a chain that typ
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify arm weave security**: Confirm your arm has been threaded completely through opponent's trapped limb with your forearm passing under their elbow. Your grip should be secured on your own shin or knee, creating the figure-four configuration that prevents arm extraction during the finish. (Timing: Before initiating pressure)
-2. **Check hip positioning**: Scoot your hips slightly away from opponent to create the proper angle for rotational shoulder attack. Your body should form a geometry where hip extension translates into shoulder rotation rather than elbow hyperextension. Feel for the angle that creates immediate tension. (Timing: 2-3 seconds adjustment)
-3. **Establish leg pressure**: Drive your high guard leg downward across opponent's upper back and neck, creating constant pressure that prevents them from posturing or creating space. Your hamstring should press firmly against their trap muscle area while your calf hooks behind their head. (Timing: Simultaneous with hip adjustment)
-4. **Initiate controlled hip extension**: Begin slowly extending your hips away from opponent while maintaining the arm weave configuration. This extension creates the primary rotational force on their shoulder joint. The movement should be deliberate and progressive, not explosive. (Timing: 5-7 seconds minimum)
-5. **Apply compound pressure**: Combine hip extension with pulling your arm weave toward your chest while simultaneously driving down with your high guard leg. These three vectors create the complete submission pressure attacking the shoulder through internal rotation combined with extension. (Timing: Progressive until tap)
-6. **Fine-tune angle if needed**: Make micro-adjustments to hip angle and leg positioning to maximize shoulder pressure. Monitor opponent's response - increased resistance without tap indicates angle adjustment needed. Be prepared for immediate release upon any tap signal. (Timing: Continuous monitoring)
+1. **Verify arm weave security**: Confirm your arm has been threaded completely through opponent's trapped limb with your forearm passing under their elbow. Your grip should be secured on your own shin or knee, creating the figure-four configuration that prevents arm extraction during the finish.
+2. **Check hip positioning**: Scoot your hips slightly away from opponent to create the proper angle for rotational shoulder attack. Your body should form a geometry where hip extension translates into shoulder rotation rather than elbow hyperextension. Feel for the angle that creates immediate tension.
+3. **Establish leg pressure**: Drive your high guard leg downward across opponent's upper back and neck, creating constant pressure that prevents them from posturing or creating space. Your hamstring should press firmly against their trap muscle area while your calf hooks behind their head.
+4. **Initiate controlled hip extension**: Begin slowly extending your hips away from opponent while maintaining the arm weave configuration. This extension creates the primary rotational force on their shoulder joint. The movement should be deliberate and progressive, not explosive.
+5. **Apply compound pressure**: Combine hip extension with pulling your arm weave toward your chest while simultaneously driving down with your high guard leg. These three vectors create the complete submission pressure attacking the shoulder through internal rotation combined with extension.
+6. **Fine-tune angle if needed**: Make micro-adjustments to hip angle and leg positioning to maximize shoulder pressure. Monitor opponent's response - increased resistance without tap indicates angle adjustment needed. Be prepared for immediate release upon any tap signal.
 
 
 </section>
@@ -254,19 +254,15 @@ Strategically, the Baratoplata serves as the terminal attack in a chain that typ
 ## Training Progressions
 **Week 1-2** - Position understanding
 Study shoulder anatomy and submission mechanics without any finishing pressure. Practice establishing arm weave from Omoplata Control with compliant partner. Learn proper release protocol and tap recognition. No resistance.
-(Resistance: None)
 
 **Week 3-4** - Mechanical precision
 Work on hip angle adjustment and compound pressure vectors with light pressure only. Partner taps early to familiarize with submission feeling. Focus on slow, controlled movements emphasizing proper angle creation.
-(Resistance: Light)
 
 **Week 5-6** - Defense recognition
 Partner provides moderate defensive resistance while you maintain control and identify escape attempts. Practice transitioning to alternative attacks when Baratoplata is defended. Increase finishing pressure to 50-60%.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Attempt Baratoplata finish from live rolling situations when opportunity presents. Chain with Gogoplata and Triangle from rubber guard positions. Maintain safe application speeds even in competition-style training.
-(Resistance: Full)
 
 
 

@@ -101,25 +101,29 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 ### Available Transitions
 
 
-- **[[Kneebar from Grasshopper]]** (9% of attempts)
+- **[[Kneebar from Grasshopper]]** (8% of attempts)
 
-- **[[Straight Ankle Lock Entry]]** (10% of attempts)
+- **[[Straight Ankle Lock Entry]]** (8% of attempts)
 
-- **[[Single Leg X Transition]]** (11% of attempts)
+- **[[Single Leg X Transition]]** (9% of attempts)
 
-- **[[X-Guard Sweep]]** (10% of attempts)
+- **[[X-Guard Sweep]]** (8% of attempts)
 
-- **[[Inside Ashi Entry]]** (10% of attempts)
+- **[[Inside Ashi Entry]]** (8% of attempts)
 
-- **[[Rolling Kneebar]]** (8% of attempts)
+- **[[Rolling Kneebar]]** (7% of attempts)
 
-- **[[Grasshopper Sweep]]** (10% of attempts)
+- **[[Grasshopper Sweep]]** (8% of attempts)
 
-- **[[Technical Standup]]** (13% of attempts)
+- **[[Technical Standup]]** (12% of attempts)
 
-- **[[50-50 Entry]]** (9% of attempts)
+- **[[50-50 Entry]]** (8% of attempts)
 
-- **[[Reverse De La Riva Recovery]]** (10% of attempts)
+- **[[Reverse De La Riva Recovery]]** (8% of attempts)
+
+- **[[Technical Standup from Inversion]]** (8% of attempts)
+
+- **[[X-Guard Elevation Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes

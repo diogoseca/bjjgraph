@@ -13,11 +13,6 @@
   "submission_type": "Leg Lock",
   "target_area": "Achilles tendon and ankle joint",
   "starting_position": "Ashi Garami",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Achilles Lock is a fundamental leg lock submission that targets the Achilles tendon and ankle joint by creating hyperextension and compression. Unlike heel hooks which attack rotational integrity, the Achilles Lock applies straight pressure to the posterior ankle, making it one of the safer leg attacks when applied with control. This submission is legal at all IBJJF belt levels (with straight ankle variations) and serves as the foundation for understanding leg lock mechanics. The position is typically entered from Ashi Garami variations, Single Leg X Guard, or during scrambles when controlling an opponent's leg. The effectiveness of the Achilles Lock depends on precise hip placement, proper grip configuration, and the ability to create a fulcrum against the opponent's Achilles tendon using your forearm or wrist bone. Understanding this submission is essential for developing a complete leg lock game and provides critical defensive awareness for all practitioners.",
   "safety_considerations": {
     "injury_risks": [
@@ -88,43 +83,37 @@
       "step_number": 1,
       "action": "Secure the leg position",
       "description": "From Ashi Garami, ensure your inside leg is firmly across the opponent's hip with your foot on the mat for base. Your outside leg hooks behind their trapped knee with your foot locked to your own hip. Your knees should be squeezed tightly together with no gap.",
-      "timing": "2-3 seconds to establish solid position",
-      "pressure_level": "Light"
+      "timing": "2-3 seconds to establish solid position"
     },
     {
       "step_number": 2,
       "action": "Grip configuration for heel control",
       "description": "Reach across and grab your opponent's heel with both hands. Configure a figure-four grip (one hand grabs opposite wrist) or gable grip (palms together). The heel must be trapped deep in your armpit with the Achilles tendon exposed. Ensure the foot cannot rotate or turn.",
-      "timing": "1-2 seconds to secure grip",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds to secure grip"
     },
     {
       "step_number": 3,
       "action": "Position the fulcrum point",
       "description": "Adjust your grip so that either your radius bone (wrist bone on thumb side) or your forearm creates a sharp edge directly against the opponent's Achilles tendon. This should be positioned approximately 2-3 inches above the heel. The sharper the angle, the more effective the submission.",
-      "timing": "1-2 seconds to find exact placement",
-      "pressure_level": "Light"
+      "timing": "1-2 seconds to find exact placement"
     },
     {
       "step_number": 4,
       "action": "Create the initial angle",
       "description": "Begin to lean your upper body backward while keeping your hips close to the opponent. Your shoulders should start moving away from the opponent's leg. This creates the foundational angle needed for the submission. Do not extend hips yet.",
-      "timing": "2-3 seconds gradual lean",
-      "pressure_level": "Moderate"
+      "timing": "2-3 seconds gradual lean"
     },
     {
       "step_number": 5,
       "action": "Hip extension for breaking pressure",
       "description": "While maintaining the backward lean, begin to slowly extend your hips forward and upward. Drive your hips toward the ceiling while pulling the heel into your armpit. The combination of hip extension, backward lean, and fulcrum pressure creates the Achilles lock. Apply pressure progressively over 3-5 seconds.",
-      "timing": "3-5 seconds progressive pressure",
-      "pressure_level": "Firm"
+      "timing": "3-5 seconds progressive pressure"
     },
     {
       "step_number": 6,
       "action": "Final adjustment and finish",
       "description": "Make micro-adjustments to maximize pressure: ensure toes are still pointed toward you, fulcrum is on Achilles (not calf), and your knees remain tight. If opponent hasn't tapped, incrementally increase hip extension while maintaining all positional controls. Stop immediately upon tap.",
-      "timing": "1-3 seconds for adjustments",
-      "pressure_level": "Maximum"
+      "timing": "1-3 seconds for adjustments"
     }
   ],
   "opponent_defense_patterns": [
@@ -153,38 +142,32 @@
     {
       "error": "Applying pressure too quickly or spiking the submission",
       "consequence": "High risk of Achilles tendon rupture, training partner injury, loss of trust",
-      "correction": "Always apply pressure progressively over 3-5 seconds minimum. Build up slowly and give partner time to recognize the submission and tap safely.",
-      "danger_level": "CRITICAL"
+      "correction": "Always apply pressure progressively over 3-5 seconds minimum. Build up slowly and give partner time to recognize the submission and tap safely."
     },
     {
       "error": "Positioning fulcrum on calf muscle instead of Achilles tendon",
       "consequence": "Submission is ineffective, wastes energy, allows opponent to escape",
-      "correction": "Ensure your wrist bone or forearm edge is placed 2-3 inches above the heel, directly on the Achilles tendon. You should feel the tendon - it's the hard cord-like structure, not the soft calf muscle.",
-      "danger_level": "Medium"
+      "correction": "Ensure your wrist bone or forearm edge is placed 2-3 inches above the heel, directly on the Achilles tendon. You should feel the tendon - it's the hard cord-like structure, not the soft calf muscle."
     },
     {
       "error": "Leaving gap between knees allowing leg extraction",
       "consequence": "Opponent easily escapes by pulling leg through the gap",
-      "correction": "Squeeze your knees together tightly throughout the entire submission. Your legs should be creating a vice-like control on the opponent's leg with no space for extraction.",
-      "danger_level": "Low"
+      "correction": "Squeeze your knees together tightly throughout the entire submission. Your legs should be creating a vice-like control on the opponent's leg with no space for extraction."
     },
     {
       "error": "Failing to control the foot direction (allowing foot to turn outward)",
       "consequence": "Pressure comes off Achilles tendon, submission fails, opponent may escape",
-      "correction": "Ensure toes are pointed toward your face and heel is deep in armpit. Use your grip to prevent any rotation of the foot. If foot turns, immediately adjust or abandon the submission.",
-      "danger_level": "Medium"
+      "correction": "Ensure toes are pointed toward your face and heel is deep in armpit. Use your grip to prevent any rotation of the foot. If foot turns, immediately adjust or abandon the submission."
     },
     {
       "error": "Hips too far from opponent's hip creating poor leverage angle",
       "consequence": "Cannot generate sufficient breaking pressure, tired arms, easy escape for opponent",
-      "correction": "Scoot your hips close to opponent's hip before attempting finish. Your seat should be nearly touching their leg. Close distance first, then apply technique.",
-      "danger_level": "Low"
+      "correction": "Scoot your hips close to opponent's hip before attempting finish. Your seat should be nearly touching their leg. Close distance first, then apply technique."
     },
     {
       "error": "Leaning forward instead of backward during finish",
       "consequence": "Removes the breaking angle, reduces pressure, may lose position entirely",
-      "correction": "Your shoulders and head must move away from the opponent while hips extend forward. Think of creating a 'bow and arrow' shape with your body - backward lean combined with forward hip drive.",
-      "danger_level": "Medium"
+      "correction": "Your shoulders and head must move away from the opponent while hips extend forward. Think of creating a 'bow and arrow' shape with your body - backward lean combined with forward hip drive."
     }
   ],
   "variations_and_setups": [
@@ -271,50 +254,6 @@
       "safety_critical": true
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding (Weeks 1-2)",
-      "timeframe": "2 weeks",
-      "focus": "Learn position mechanics, grip configurations, and body positioning without any pressure. Study anatomy of ankle and Achilles tendon. Practice entry from Ashi Garami.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand injury mechanisms and why slow application is critical. Learn to identify the Achilles tendon by feel. Practice communication protocols with training partners."
-    },
-    {
-      "phase": "Positional Practice (Weeks 3-4)",
-      "timeframe": "2 weeks",
-      "focus": "Practice securing Ashi Garami position and grip configurations with cooperative partner. Focus on creating proper angle without applying any breaking pressure. Repetition of setup sequences.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Partner gives immediate feedback on fulcrum placement and pressure. Practice tap recognition and immediate release protocols. No hip extension during this phase."
-    },
-    {
-      "phase": "Controlled Application (Weeks 5-8)",
-      "timeframe": "4 weeks",
-      "focus": "Begin applying minimal pressure (10-20%) to understand the submission mechanics. Partner taps early to practice release protocols. Develop sensitivity to proper fulcrum position through feedback.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Apply pressure over 5-7 seconds minimum. Stop at any sign of discomfort. Both partners verbally communicate throughout. Focus on perfect technique rather than finishing."
-    },
-    {
-      "phase": "Progressive Resistance (Weeks 9-12)",
-      "timeframe": "4 weeks",
-      "focus": "Partner provides realistic but controlled resistance. Practice against common defenses. Develop ability to maintain position while opponent attempts escapes. Increase pressure to 30-40% maximum.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Maintain 3-5 second application speed even with resistance. Partner still taps early. Practice adjustments without increasing danger. Discuss pressure levels before each session."
-    },
-    {
-      "phase": "Situational Training (Weeks 13+)",
-      "timeframe": "Ongoing",
-      "focus": "Integrate into positional sparring from Ashi Garami or leg entanglement situations. Practice entries from live scrambles. Develop timing and setup recognition during rolling.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Never exceed training-appropriate pressure even in competitive situations. Respect all taps immediately. Newer partners require slower application. Continuous communication about comfort levels."
-    },
-    {
-      "phase": "Advanced Integration (Ongoing)",
-      "timeframe": "Ongoing",
-      "focus": "Combine with other leg attacks, develop submission chains, practice transitions between positions. Study competition footage. Refine technique details and develop personal variations.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Mentor newer students on safe application. Lead by example in training culture. Continue conservative approach even at advanced levels. Prioritize longevity over submission count."
-    }
-  ],
   "from_positions": [
     "Ashi Garami",
     "Inside Ashi-Garami",
@@ -377,5 +316,6 @@
       "name": "Leg Entanglement",
       "relationship": "Conceptual framework for understanding Ashi positions and controls"
     }
-  ]
+  ],
+  "success_rate": 58
 }

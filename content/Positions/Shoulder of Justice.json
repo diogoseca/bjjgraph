@@ -308,58 +308,44 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 68,
-        "intermediate": 82,
-        "advanced": 94
+        "value": 88
       },
       "advancement_probability": {
-        "beginner": 48,
-        "intermediate": 63,
-        "advanced": 80
+        "value": 72
       },
       "submission_probability": {
-        "beginner": 38,
-        "intermediate": 55,
-        "advanced": 73
+        "value": 64
       },
       "average_time": "1-3 minutes depending on opponent's pain tolerance and defensive skill"
     },
     "transitions": [
       {
         "transition": "Kimura from Side Control",
-        "attempt_probability": 12
+        "attempt_probability": 16
       },
       {
         "transition": "Americana from Side Control",
-        "attempt_probability": 11
+        "attempt_probability": 14
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 12
+        "attempt_probability": 15
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 12
-      },
-      {
-        "transition": "Side Control to Mount",
-        "attempt_probability": 11
+        "attempt_probability": 15
       },
       {
         "transition": "Arm Triangle",
-        "attempt_probability": 10
+        "attempt_probability": 13
       },
       {
         "transition": "North-South Choke",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Position Change",
         "attempt_probability": 12
       },
       {
-        "transition": "Side Control to North-South",
-        "attempt_probability": 11
+        "transition": "Position Change",
+        "attempt_probability": 15
       }
     ]
   },
@@ -581,19 +567,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 45,
-        "intermediate": 62,
-        "advanced": 78
+        "value": 70
       },
       "advancement_probability": {
-        "beginner": 25,
-        "intermediate": 38,
-        "advanced": 52
+        "value": 45
       },
       "submission_probability": {
-        "beginner": 15,
-        "intermediate": 28,
-        "advanced": 42
+        "value": 35
       },
       "average_time": "45 seconds to 2 minutes before escape or submission"
     },

@@ -28,11 +28,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The leg extraction to Single Leg X-Guard represents a critical defensive transition from the Leg Knot Bottom position, transforming a compromised entanglement into an offensive guard platform. This technique addresses the fundamental problem of being trapped in an inferior leg entanglement by systematically clearing the trapped leg and immediately establishing Single Leg X-Guard before the opponent can re-engage their leg attack system.\n\nThe strategic value of this transition lies in its ability to reverse the positional hierarchy. Rather than simply escaping to a neutral position where the opponent can immediately re-attack, establishing Single Leg X-Guard creates an offensive threat that forces the opponent to defend sweeps and leg attacks. This transforms the exchange from a defensive scramble into a positional reversal that favors the previously defending player.\n\nSuccess in this transition requires precise timing, understanding of when opponent's leg control is weakest, and the mechanical skill to smoothly transition from extraction directly into Single Leg X-Guard configuration without allowing space for opponent's recovery. The technique exemplifies modern leg lock defense philosophy where escape and counter-attack are integrated into a single fluid movement rather than separate sequential actions.",
   "key_principles": [
     "Time the extraction when opponent transitions between positions or adjusts grips, exploiting momentary weakness in control",
@@ -53,38 +48,32 @@
     {
       "step_number": 1,
       "action": "Assess control",
-      "description": "Evaluate opponent's grip strength and entanglement tightness. Look for transitional moments when they adjust position, reach for submissions, or shift weight. Identify the extraction window before committing to the movement.",
-      "timing": "During opponent's transition"
+      "description": "Evaluate opponent's grip strength and entanglement tightness. Look for transitional moments when they adjust position, reach for submissions, or shift weight. Identify the extraction window before committing to the movement."
     },
     {
       "step_number": 2,
       "action": "Create angle",
-      "description": "Rotate your hips toward the direction your trapped leg will extract. This hip rotation creates space in the entanglement while simultaneously pre-positioning your body for Single Leg X-Guard entry. Use your free leg to push against opponent's hip to facilitate rotation.",
-      "timing": "Immediately upon identifying window"
+      "description": "Rotate your hips toward the direction your trapped leg will extract. This hip rotation creates space in the entanglement while simultaneously pre-positioning your body for Single Leg X-Guard entry. Use your free leg to push against opponent's hip to facilitate rotation."
     },
     {
       "step_number": 3,
       "action": "Limp leg extraction",
-      "description": "Relax the trapped leg completely and pull it through the entanglement using hip motion rather than knee or ankle strength. The limp leg mechanics prevent opponent from feeling resistance and reacting. Slide the leg out in a smooth continuous motion.",
-      "timing": "0.5-1 second window"
+      "description": "Relax the trapped leg completely and pull it through the entanglement using hip motion rather than knee or ankle strength. The limp leg mechanics prevent opponent from feeling resistance and reacting. Slide the leg out in a smooth continuous motion."
     },
     {
       "step_number": 4,
       "action": "Capture opponent's leg",
-      "description": "As your leg clears the entanglement, immediately hook your inside foot behind opponent's far knee while your outside leg wraps around their captured leg at hip level. Your hands grip their ankle and foot to control the leg. This must happen simultaneously with extraction completion.",
-      "timing": "Instant transition"
+      "description": "As your leg clears the entanglement, immediately hook your inside foot behind opponent's far knee while your outside leg wraps around their captured leg at hip level. Your hands grip their ankle and foot to control the leg. This must happen simultaneously with extraction completion."
     },
     {
       "step_number": 5,
       "action": "Establish Single Leg X position",
-      "description": "Sit up into proper Single Leg X-Guard posture with your hips angled underneath opponent's base. Your inside hook should be deep behind their knee while outside leg controls their hip. Grip configuration should be ankle/foot control with option for pants grip if in gi.",
-      "timing": "Within 1-2 seconds of extraction"
+      "description": "Sit up into proper Single Leg X-Guard posture with your hips angled underneath opponent's base. Your inside hook should be deep behind their knee while outside leg controls their hip. Grip configuration should be ankle/foot control with option for pants grip if in gi."
     },
     {
       "step_number": 6,
       "action": "Off-balance and control",
-      "description": "Immediately apply off-balancing pressure by extending your hips and pulling their ankle toward your chest. This prevents opponent from simply stepping out or re-establishing top position. Threaten sweep or leg attack to maintain offensive pressure and complete the reversal.",
-      "timing": "Continuous"
+      "description": "Immediately apply off-balancing pressure by extending your hips and pulling their ankle toward your chest. This prevents opponent from simply stepping out or re-establishing top position. Threaten sweep or leg attack to maintain offensive pressure and complete the reversal."
     }
   ],
   "common_counters": [
@@ -135,26 +124,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Extraction mechanics",
-      "description": "Practice leg extraction from static Leg Knot positions with no resistance. Focus on hip rotation angles, limp leg mechanics, and smooth extraction pathways. Partner holds position without actively defending to allow repetition of mechanical movement patterns.",
-      "resistance_level": "None"
+      "description": "Practice leg extraction from static Leg Knot positions with no resistance. Focus on hip rotation angles, limp leg mechanics, and smooth extraction pathways. Partner holds position without actively defending to allow repetition of mechanical movement patterns."
     },
     {
       "phase": "Week 3-4",
       "focus": "Single Leg X entry timing",
-      "description": "Add the Single Leg X-Guard establishment to extraction. Partner provides light resistance and occasional grip adjustments. Focus on seamless transition from extraction directly into hooks without pause. Develop muscle memory for the combined sequence.",
-      "resistance_level": "Light"
+      "description": "Add the Single Leg X-Guard establishment to extraction. Partner provides light resistance and occasional grip adjustments. Focus on seamless transition from extraction directly into hooks without pause. Develop muscle memory for the combined sequence."
     },
     {
       "phase": "Week 5-6",
       "focus": "Window recognition",
-      "description": "Partner actively maintains leg entanglement and creates occasional windows by adjusting grips or transitioning. Practice recognizing and exploiting these windows immediately. Add Single Leg X-Guard sweeps as follow-up to complete the counter-attack sequence.",
-      "resistance_level": "Medium"
+      "description": "Partner actively maintains leg entanglement and creates occasional windows by adjusting grips or transitioning. Practice recognizing and exploiting these windows immediately. Add Single Leg X-Guard sweeps as follow-up to complete the counter-attack sequence."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Full resistance leg entanglement sparring starting from Leg Knot positions. Both players work their systems while bottom player looks for extraction opportunities. Track success rate and identify patterns in successful vs. failed attempts.",
-      "resistance_level": "Full"
+      "description": "Full resistance leg entanglement sparring starting from Leg Knot positions. Both players work their systems while bottom player looks for extraction opportunities. Track success rate and identify patterns in successful vs. failed attempts."
     }
   ],
   "variants_and_adaptations": [
@@ -177,53 +162,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Extract leg and establish Single Leg X?",
-      "answer": "The primary goal is to escape from the compromised Leg Knot Bottom position while simultaneously establishing an offensive guard position. Rather than simply escaping to neutral where opponent can re-attack, this technique reverses the positional hierarchy by immediately threatening sweeps and leg attacks from Single Leg X-Guard, forcing opponent to defend.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to escape from the compromised Leg Knot Bottom position while simultaneously establishing an offensive guard position. Rather than simply escaping to neutral where opponent can re-attack, this technique reverses the positional hierarchy by immediately threatening sweeps and leg attacks from Single Leg X-Guard, forcing opponent to defend."
     },
     {
       "question": "What position do you start Extract leg and establish Single Leg X from?",
-      "answer": "This technique starts from Leg Knot Bottom, a defensive leg entanglement position where your leg is trapped in a knotted configuration with opponent threatening leg lock submissions. The position requires systematic escape before opponent can consolidate into more dangerous positions like Saddle.",
-      "difficulty": "Beginner"
+      "answer": "This technique starts from Leg Knot Bottom, a defensive leg entanglement position where your leg is trapped in a knotted configuration with opponent threatening leg lock submissions. The position requires systematic escape before opponent can consolidate into more dangerous positions like Saddle."
     },
     {
       "question": "What are the key grips needed for Extract leg and establish Single Leg X?",
-      "answer": "The primary grips are on opponent's ankle and foot to control their leg once extracted, preventing them from stepping out or re-establishing entanglement. In gi, add a pants grip at the knee level for enhanced control. The grip on the ankle should be established as the leg clears the entanglement, not after sitting up.",
-      "difficulty": "Intermediate"
+      "answer": "The primary grips are on opponent's ankle and foot to control their leg once extracted, preventing them from stepping out or re-establishing entanglement. In gi, add a pants grip at the knee level for enhanced control. The grip on the ankle should be established as the leg clears the entanglement, not after sitting up."
     },
     {
       "question": "How do you counter Extract leg and establish Single Leg X?",
-      "answer": "As the top player, maintain tight leg control without creating transitional windows. When you feel opponent attempting extraction, sprawl forward and drive weight to prevent their hip rotation. If their leg begins clearing, immediately attack their other leg with fresh entanglement before they can establish Single Leg X hooks. Alternatively, pull your leg back quickly and disengage to passing position.",
-      "difficulty": "Intermediate"
+      "answer": "As the top player, maintain tight leg control without creating transitional windows. When you feel opponent attempting extraction, sprawl forward and drive weight to prevent their hip rotation. If their leg begins clearing, immediately attack their other leg with fresh entanglement before they can establish Single Leg X hooks. Alternatively, pull your leg back quickly and disengage to passing position."
     },
     {
       "question": "When is the best time to attempt Extract leg and establish Single Leg X?",
-      "answer": "The optimal time is during opponent's transitional moments: when they reach for a submission grip, adjust their leg position, or shift weight to attack. These moments create brief windows where their control is weakest. Also effective when you've successfully hidden your heel and opponent must adjust their attack angle, creating space for extraction.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal time is during opponent's transitional moments: when they reach for a submission grip, adjust their leg position, or shift weight to attack. These moments create brief windows where their control is weakest. Also effective when you've successfully hidden your heel and opponent must adjust their attack angle, creating space for extraction."
     },
     {
       "question": "Your opponent maintains tight control with no transitional windows - what should you do?",
-      "answer": "Focus on creating windows rather than forcing extraction. Threaten entries to 50-50 Guard to draw reactions, use your free leg to push and create angles, or make small adjustments that force opponent to respond. If they're preparing a submission, your defensive movements may create the window. Never force extraction against tight control as this wastes energy and may worsen position.",
-      "difficulty": "Advanced"
+      "answer": "Focus on creating windows rather than forcing extraction. Threaten entries to 50-50 Guard to draw reactions, use your free leg to push and create angles, or make small adjustments that force opponent to respond. If they're preparing a submission, your defensive movements may create the window. Never force extraction against tight control as this wastes energy and may worsen position."
     },
     {
       "question": "What is the critical mechanical detail that makes limp leg extraction effective?",
-      "answer": "Complete relaxation of the trapped leg combined with hip rotation creates smooth extraction without telegraphing. When you pull with muscle tension, opponent feels resistance and tightens control. Limp leg mechanics use the hip rotation to slide the leg through the entanglement while the relaxed leg offers no resistance for opponent to grip or react to.",
-      "difficulty": "Intermediate"
+      "answer": "Complete relaxation of the trapped leg combined with hip rotation creates smooth extraction without telegraphing. When you pull with muscle tension, opponent feels resistance and tightens control. Limp leg mechanics use the hip rotation to slide the leg through the entanglement while the relaxed leg offers no resistance for opponent to grip or react to."
     },
     {
       "question": "Your leg clears the entanglement but opponent is already pulling their leg back to disengage - how do you respond?",
-      "answer": "Follow their retreating leg aggressively with your inside hook, chasing it to establish Single Leg X or transitioning to standard X-Guard if they create too much distance. The key is maintaining offensive guard rather than letting them reset to passing position. If they fully disengage, immediately sit up into Butterfly Guard or seated guard to maintain guard retention.",
-      "difficulty": "Advanced"
+      "answer": "Follow their retreating leg aggressively with your inside hook, chasing it to establish Single Leg X or transitioning to standard X-Guard if they create too much distance. The key is maintaining offensive guard rather than letting them reset to passing position. If they fully disengage, immediately sit up into Butterfly Guard or seated guard to maintain guard retention."
     },
     {
       "question": "What indicates that your extraction attempt is failing and you should abort?",
-      "answer": "Key indicators include: opponent tightening control as you begin moving, inability to create hip rotation angle despite effort, opponent sprawling forward to pin your hips, or feeling their grip strengthen rather than weaken. If you feel increasing resistance, stop the attempt, return to defensive positioning, and wait for a better window rather than forcing a failing technique.",
-      "difficulty": "Advanced"
+      "answer": "Key indicators include: opponent tightening control as you begin moving, inability to create hip rotation angle despite effort, opponent sprawling forward to pin your hips, or feeling their grip strengthen rather than weaken. If you feel increasing resistance, stop the attempt, return to defensive positioning, and wait for a better window rather than forcing a failing technique."
     },
     {
       "question": "How does the direction of your hip rotation affect extraction success?",
-      "answer": "Hip rotation should be toward the direction your trapped leg needs to exit the entanglement. Rotating away creates space on the extraction side while your hip movement pulls the leg through. Rotating the wrong direction tightens the entanglement and blocks extraction. The angle also pre-positions your body for Single Leg X-Guard entry, making the transition seamless.",
-      "difficulty": "Intermediate"
+      "answer": "Hip rotation should be toward the direction your trapped leg needs to exit the entanglement. Rotating away creates space on the extraction side while your hip movement pulls the leg through. Rotating the wrong direction tightens the entanglement and blocks extraction. The angle also pre-positions your body for Single Leg X-Guard entry, making the transition seamless."
     }
   ],
   "safety_considerations": "This technique involves leg entanglement positions where knee and ankle injuries are possible. During training, communicate clearly with partners about resistance levels and tap immediately if any leg lock pressure is applied during extraction attempts. The extraction motion itself is relatively safe, but failed attempts may leave you in worse leg lock positions. Practice at controlled speeds initially, only adding speed as the mechanical pattern becomes automatic. Partners should never explosively attack leg submissions during extraction drilling. In live training, recognize that forcing extraction against tight control risks knee injury if opponent has heel hook or kneebar position. When in doubt about joint safety, tap and reset rather than fighting through a bad position.",
@@ -269,5 +244,6 @@
       "name": "X-Guard",
       "relationship": "Alternative guard if Single Leg X entry is blocked"
     }
-  ]
+  ],
+  "success_rate": 58
 }

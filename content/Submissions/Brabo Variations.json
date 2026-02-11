@@ -16,11 +16,6 @@
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and jugular veins",
   "starting_position": "Front Headlock",
-  "success_rates": {
-    "beginner": 35,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Brabo Choke, commonly known as the no-gi darce choke, represents a family of blood chokes that target the carotid arteries through arm-in configurations from front headlock, turtle, and scramble positions. Unlike its gi counterpart, the brabo relies purely on body mechanics and arm positioning without the aid of collar grips, making it a fundamental submission for no-gi grappling and MMA applications. The term 'brabo' originated from Brazilian pronunciation of 'D'Arce' and has evolved to encompass various no-gi adaptations including rolling entries, shallow finishes, and marce variations. These variations exploit different defensive reactions and positional contexts, creating a comprehensive submission system from front headlock control. The technical foundation centers on threading one arm under the opponent's near arm while clasping hands on the far side of their neck, creating a figure-four configuration that compresses both carotid arteries when properly applied. Success depends on shoulder pressure, hip positioning, and understanding which variation applies to specific defensive postures. The brabo system connects seamlessly with anaconda chokes, guillotines, and back takes, forming a complete front headlock submission network that punishes common defensive movements.",
   "safety_considerations": {
     "injury_risks": [
@@ -92,50 +87,43 @@
       "step_number": 1,
       "action": "Secure front headlock position",
       "description": "Establish solid front headlock with your chest heavy on opponent's upper back, head controlled under your armpit. Use non-choking arm to secure opponent's near arm (overhook, underhook, or controlling their wrist). Angle your body 45 degrees to their spine to create space for arm threading.",
-      "timing": "Initial control - establish before opponent can defend",
-      "pressure_level": "Moderate"
+      "timing": "Initial control - establish before opponent can defend"
     },
     {
       "step_number": 2,
       "action": "Thread choking arm under near shoulder",
       "description": "Slide your choking-side arm (palm down) under opponent's near shoulder and deep across their throat. Your bicep should pass under their shoulder while your forearm crosses the front of their neck. Drive your shoulder forward and down to create initial compression. The deeper you thread, the tighter the finish.",
-      "timing": "Quick threading before opponent tucks arm",
-      "pressure_level": "Light"
+      "timing": "Quick threading before opponent tucks arm"
     },
     {
       "step_number": 3,
       "action": "Lock figure-four grip",
       "description": "Bring your non-choking hand to meet your choking hand on the far side of opponent's neck. Lock hands in figure-four configuration: choking hand grabs your non-choking bicep, non-choking hand grabs behind your choking tricep. Pull grip tight to eliminate slack. Your choking forearm should now be directly across opponent's throat.",
-      "timing": "Immediate - before opponent can defend hands",
-      "pressure_level": "Moderate"
+      "timing": "Immediate - before opponent can defend hands"
     },
     {
       "step_number": 4,
       "action": "Adjust body position for optimal angle",
       "description": "Step over with your choking-side leg if standing, or sprawl hips back if on ground. Your chest should be heavy on opponent's upper back/shoulder, creating downward pressure. Ensure your body forms straight line from hips through shoulders to prevent opponent from rolling underneath you. Keep hips forward to maintain weight distribution.",
-      "timing": "Simultaneous with grip lock",
-      "pressure_level": "Firm"
+      "timing": "Simultaneous with grip lock"
     },
     {
       "step_number": 5,
       "action": "Create shoulder pressure and compression",
       "description": "Drive the shoulder of your choking arm into the side of opponent's neck while pulling your elbows together. Your choking-side shoulder becomes a wedge that compresses one carotid while your forearm compresses the other. Expand your chest while maintaining tight elbows to create circumferential pressure around their neck. This 'bite down' motion is the finishing mechanism.",
-      "timing": "Progressive pressure over 3-5 seconds",
-      "pressure_level": "Firm"
+      "timing": "Progressive pressure over 3-5 seconds"
     },
     {
       "step_number": 6,
       "action": "Secure position and prevent escapes",
       "description": "Keep opponent's near arm controlled and head down throughout finish. If opponent attempts to roll to choking side, follow the roll while maintaining shoulder pressure. If they attempt to sit back, sprawl harder and drive forward. Monitor for tap constantly. Maintain position without increasing pressure after feeling tap signal.",
-      "timing": "Continuous throughout submission",
-      "pressure_level": "Maximum"
+      "timing": "Continuous throughout submission"
     },
     {
       "step_number": 7,
       "action": "Recognize specific variation context",
       "description": "Identify which brabo variation you're executing: standard brabo (front headlock), rolling brabo (from scramble), shallow brabo (when arm threading is limited), or marce variation (when opponent's arm is more extended). Each requires slight adjustment in grip, angle, or finishing mechanics while maintaining core principles of shoulder pressure and figure-four compression.",
-      "timing": "Throughout setup and execution",
-      "pressure_level": "Light"
+      "timing": "Throughout setup and execution"
     }
   ],
   "opponent_defense_patterns": [
@@ -174,50 +162,42 @@
     {
       "error": "Threading arm too shallow under opponent's shoulder",
       "consequence": "Insufficient compression on carotid arteries, allowing opponent to defend hand grip and escape",
-      "correction": "Drive arm deeper under shoulder until your bicep is past their shoulder joint and forearm crosses directly across throat. Use head and shoulder pressure to create space for threading.",
-      "danger_level": "Low"
+      "correction": "Drive arm deeper under shoulder until your bicep is past their shoulder joint and forearm crosses directly across throat. Use head and shoulder pressure to create space for threading."
     },
     {
       "error": "Leaving slack in figure-four grip when locking hands",
       "consequence": "Opponent can create space to turn head, defend neck, or slip arm out before finish",
-      "correction": "Pull elbows together immediately when locking grip to remove all slack. Your choking forearm should be in direct contact with their throat before applying pressure.",
-      "danger_level": "Low"
+      "correction": "Pull elbows together immediately when locking grip to remove all slack. Your choking forearm should be in direct contact with their throat before applying pressure."
     },
     {
       "error": "Positioning body directly behind opponent instead of at angle",
       "consequence": "Poor leverage for arm threading and shoulder pressure, easier for opponent to roll or sit back",
-      "correction": "Maintain 45-degree angle to opponent's spine on choking side. Your body should form 'L' shape with opponent's body, not straight line behind them.",
-      "danger_level": "Low"
+      "correction": "Maintain 45-degree angle to opponent's spine on choking side. Your body should form 'L' shape with opponent's body, not straight line behind them."
     },
     {
       "error": "Applying excessive pressure too quickly without allowing tap opportunity",
       "consequence": "Risk of unconsciousness without warning, potential injury to training partner",
-      "correction": "Apply pressure progressively over 3-5 seconds minimum. Give partner clear opportunity to recognize choke and tap. Stop immediately upon any tap signal.",
-      "danger_level": "CRITICAL"
+      "correction": "Apply pressure progressively over 3-5 seconds minimum. Give partner clear opportunity to recognize choke and tap. Stop immediately upon any tap signal."
     },
     {
       "error": "Pulling opponent's head sideways or cranking neck instead of using shoulder pressure",
       "consequence": "Ineffective choke that becomes painful neck crank, risk of cervical spine injury",
-      "correction": "Focus compression on throat via shoulder wedge and forearm, not torque on neck. Opponent's head should stay relatively neutral, not twisted or bent laterally.",
-      "danger_level": "CRITICAL"
+      "correction": "Focus compression on throat via shoulder wedge and forearm, not torque on neck. Opponent's head should stay relatively neutral, not twisted or bent laterally."
     },
     {
       "error": "Allowing hips to drift backward or weight to shift off opponent",
       "consequence": "Opponent easily rolls underneath or sits back to escape, losing control and submission",
-      "correction": "Keep hips forward and weight heavy on opponent's upper back throughout finish. Sprawl harder if opponent attempts to create space.",
-      "danger_level": "Medium"
+      "correction": "Keep hips forward and weight heavy on opponent's upper back throughout finish. Sprawl harder if opponent attempts to create space."
     },
     {
       "error": "Continuing to apply pressure after feeling tap or seeing distress signals",
       "consequence": "Serious injury risk including unconsciousness, stroke, or death if prolonged",
-      "correction": "Immediately release grip and pressure upon any tap signal or if opponent goes limp. Safety takes absolute priority over finishing submissions in training.",
-      "danger_level": "CRITICAL"
+      "correction": "Immediately release grip and pressure upon any tap signal or if opponent goes limp. Safety takes absolute priority over finishing submissions in training."
     },
     {
       "error": "Failing to control opponent's near arm during setup",
       "consequence": "Opponent uses free arm to frame, create space, or defend neck before threading",
-      "correction": "Secure overhook, underhook, or wrist control on opponent's near arm before attempting to thread choking arm. Their arm should be trapped or controlled throughout setup.",
-      "danger_level": "Low"
+      "correction": "Secure overhook, underhook, or wrist control on opponent's near arm before attempting to thread choking arm. Their arm should be trapped or controlled throughout setup."
     }
   ],
   "variations_and_setups": [
@@ -314,50 +294,6 @@
       "safety_critical": false
     }
   ],
-  "training_progressions_and_safety_protocols": [
-    {
-      "phase": "Technical Understanding and Mechanics",
-      "timeframe": "Week 1-2",
-      "focus": "Learn anatomy of blood chokes, proper arm threading mechanics, figure-four grip structure, and body positioning without any pressure application. Study differences between brabo, anaconda, and guillotine configurations.",
-      "resistance_level": "None",
-      "safety_emphasis": "Understand carotid artery location and compression mechanisms. Practice grip and position with zero pressure. Partner remains fully conscious and comfortable throughout all drilling."
-    },
-    {
-      "phase": "Slow Motion Setup Practice",
-      "timeframe": "Week 3-4",
-      "focus": "Practice threading arm, securing grip, and establishing body position from cooperative front headlock. Focus on smooth entry and control maintenance. No finishing pressure applied. Develop muscle memory for proper angles and depth.",
-      "resistance_level": "Zero resistance",
-      "safety_emphasis": "Maintain constant communication with partner. Practice tap recognition and immediate release protocol. Never apply finishing pressure—focus solely on achieving proper structure and position."
-    },
-    {
-      "phase": "Light Pressure Familiarization",
-      "timeframe": "Week 5-6",
-      "focus": "Begin applying very light finishing pressure (10-20% maximum) to understand compression feeling. Partner taps immediately when feeling any throat compression. Practice progressive pressure application over 5-7 seconds. Emphasize shoulder pressure over arm squeeze.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Partner taps early and often. Immediately release all pressure upon tap. Practice release protocol repeatedly. Never exceed light pressure threshold. Develop sensitivity to proper compression vs neck cranking."
-    },
-    {
-      "phase": "Variation Recognition and Setup",
-      "timeframe": "Week 7-10",
-      "focus": "Learn different brabo variations (standard, rolling, shallow, standing) and when each applies. Practice recognizing which variation fits defensive posture. Drill transitions between brabo, anaconda, and guillotine based on opponent reactions.",
-      "resistance_level": "Mild resistance",
-      "safety_emphasis": "Continue light pressure protocols. Focus on position recognition over submission completion. Practice aborting technique when setup isn't optimal rather than forcing poor positions."
-    },
-    {
-      "phase": "Dynamic Application with Realistic Resistance",
-      "timeframe": "Week 11-16",
-      "focus": "Apply brabo variations during positional sparring from front headlock, turtle, and scramble positions. Partner provides realistic defensive reactions. Increase pressure to moderate levels (40-60%) while maintaining safety protocols. Chain with other submissions.",
-      "resistance_level": "Realistic resistance",
-      "safety_emphasis": "Apply pressure progressively over minimum 3-5 seconds. Partner must have clear tap access at all times. Release immediately upon tap. Never use competition speed. Monitor partner throughout finish."
-    },
-    {
-      "phase": "Full Integration and Competition Preparation",
-      "timeframe": "Week 17+",
-      "focus": "Incorporate brabo system into full rolling with all resistance levels. Practice against opponents actively defending and countering. Develop timing for dynamic entries. Understand when to transition to other attacks when brabo isn't available. Prepare for competition application.",
-      "resistance_level": "Full resistance",
-      "safety_emphasis": "Maintain progressive pressure application even at full resistance. Distinguish between training and competition application speeds. Train partners should still tap earlier than competition. Never compromise safety for submission completion. Regularly review tap signal protocols."
-    }
-  ],
   "from_positions": [
     "Front Headlock",
     "Turtle",
@@ -372,7 +308,7 @@
     "Darce Choke",
     "Anaconda Choke",
     "Guillotine Choke",
-    "D'arce-Anaconda Connection",
+    "Darce-Anaconda Connection",
     "Arm Triangle",
     "Darce Variations",
     "Anaconda Variations",
@@ -406,7 +342,7 @@
       "relationship": "Alternative choke option when opponent postures up during brabo attempt"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Control position sharing fundamental mechanics with brabo variations"
     },
     {
@@ -417,5 +353,6 @@
       "name": "North-South",
       "relationship": "Transitional position offering north-south brabo adjustment opportunity"
     }
-  ]
+  ],
+  "success_rate": 58
 }

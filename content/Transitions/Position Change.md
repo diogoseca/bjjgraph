@@ -163,7 +163,7 @@ The ability to change positions effectively requires a deep understanding of the
 Position changes serve multiple strategic purposes: they increase point scoring opportunities in competition, create better submission angles, tire opponents through constant defensive demands, and demonstrate technical superiority. The most effective position changes combine offensive pressure with defensive awareness, ensuring that the transition itself doesn't create vulnerabilities. Mastering this fundamental concept allows practitioners to implement their game plan methodically while neutralizing opponent attacks.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -212,13 +212,13 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Assess current position**: Evaluate your current position within the BJJ hierarchy and identify the most strategic advancement option based on opponent's posture, grips, and base. Consider both immediate opportunities and multi-step sequences that lead to dominant positions. (Timing: Continuous assessment during engagement)
-2. **Establish control points**: Secure at least two points of contact with opponent through grips, hooks, frames, or pressure points. These connection points must be maintained throughout the transition to prevent opponent from creating space or recovering position. (Timing: Before initiating movement)
-3. **Create angle**: Generate an angle relative to opponent's centerline by shifting your hips, adjusting your torso position, or repositioning your base. The angle reduces opponent's defensive leverage and opens pathways for positional advancement. (Timing: 1-2 seconds before main transition)
-4. **Initiate transition movement**: Begin the position change by moving your body toward the target position while maintaining established control points. Commit your weight purposefully in the direction of advancement, using your core and legs to generate smooth, controlled movement. (Timing: Explosive yet controlled initiation)
-5. **Navigate opponent defenses**: Adjust your movement path based on opponent's defensive reactions, using their resistance as information to refine your transition. If one pathway closes, flow to alternative positions within the same hierarchical tier or higher. (Timing: Real-time adjustment during movement)
-6. **Secure new position**: Complete the transition by establishing the defining characteristics of the new position: proper weight distribution, control points specific to that position, and base that prevents immediate counters or escapes. (Timing: Immediate consolidation upon arrival)
-7. **Consolidate control**: Stabilize the newly achieved position by distributing your weight optimally, adjusting grips for maximum control, and removing opponent's defensive frames or escapes. Assess whether further advancement is immediately available or if position should be maintained. (Timing: 3-5 seconds after securing position)
+1. **Assess current position**: Evaluate your current position within the BJJ hierarchy and identify the most strategic advancement option based on opponent's posture, grips, and base. Consider both immediate opportunities and multi-step sequences that lead to dominant positions.
+2. **Establish control points**: Secure at least two points of contact with opponent through grips, hooks, frames, or pressure points. These connection points must be maintained throughout the transition to prevent opponent from creating space or recovering position.
+3. **Create angle**: Generate an angle relative to opponent's centerline by shifting your hips, adjusting your torso position, or repositioning your base. The angle reduces opponent's defensive leverage and opens pathways for positional advancement.
+4. **Initiate transition movement**: Begin the position change by moving your body toward the target position while maintaining established control points. Commit your weight purposefully in the direction of advancement, using your core and legs to generate smooth, controlled movement.
+5. **Navigate opponent defenses**: Adjust your movement path based on opponent's defensive reactions, using their resistance as information to refine your transition. If one pathway closes, flow to alternative positions within the same hierarchical tier or higher.
+6. **Secure new position**: Complete the transition by establishing the defining characteristics of the new position: proper weight distribution, control points specific to that position, and base that prevents immediate counters or escapes.
+7. **Consolidate control**: Stabilize the newly achieved position by distributing your weight optimally, adjusting grips for maximum control, and removing opponent's defensive frames or escapes. Assess whether further advancement is immediately available or if position should be maintained.
 
 
 </section>
@@ -265,27 +265,21 @@ Position changes serve multiple strategic purposes: they increase point scoring 
 ## Training Progressions
 **Week 1-2: Fundamental Understanding** - Learning positional hierarchy and basic transition pathways
 Study the BJJ positional hierarchy chart extensively. Practice identifying current position and verbally naming the next logical advancement. Drill basic transitions like guard pass to side control, side control to mount, and bottom mount to half guard with compliant partner. Focus on understanding WHY positions are organized hierarchically.
-(Resistance: None)
 
 **Week 3-4: Control Point Development** - Establishing and maintaining connection during transitions
 Drill transitions with emphasis on maintaining at least two points of contact throughout. Partner provides light resistance specifically targeting connection points. Practice recovering control when connection is momentarily lost. Develop sensitivity to which control points are most critical for specific transitions.
-(Resistance: Light)
 
 **Week 5-8: Angle Creation and Timing** - Creating angles before transitions and recognizing timing windows
 Work on hip movement and torso adjustment to create angles from various positions. Partner begins defending actively but predictably. Practice recognizing when opponent's defensive structure is compromised. Drill transition chains that flow through multiple positions in sequence.
-(Resistance: Medium)
 
 **Week 9-12: Reactive Transitions** - Using opponent's reactions to facilitate position changes
 Partner provides realistic resistance with various defensive strategies. Practice reading defensive reactions and flowing to alternative positions. Develop ability to chain position changes together when primary option is defended. Begin recognizing patterns in how different opponents defend positions.
-(Resistance: Medium)
 
 **Week 13-16: Competitive Application** - Position changes under full resistance with strategic decision-making
 Positional sparring from various starting positions with goal of advancing position against full resistance. Practice balancing position advancement with submission threats. Develop ability to recognize when to consolidate versus when to continue advancing. Track success rates of different transition pathways.
-(Resistance: Full)
 
 **Ongoing: Strategic Integration** - Integrating position changes into complete game strategy
 Build personal game plans around reliable position change sequences. Develop position-specific transition chains that play to individual strengths. Study video of own rolling to identify missed position change opportunities. Continuously refine transitions based on opponent skill level and style.
-(Resistance: Full)
 
 
 

@@ -153,7 +153,7 @@ description: "Master Float Passing in BJJ. Strategic guard passing using minimal
 Float Passing is a dynamic guard passing approach that emphasizes movement, timing, and minimal pressure to navigate around the opponent's guard. Unlike traditional pressure passing, float passing relies on quick transitions, constant movement, and strategic positioning to bypass defensive frames and leg configurations. The technique is particularly effective against flexible opponents or those with strong retention games who excel at recovering guard under pressure. Float passing creates passing opportunities by forcing opponents to constantly adjust their defensive structures, eventually exposing gaps in their guard retention. This approach requires excellent balance, timing, and the ability to read opponent reactions in real-time, making it a favorite among competitors who prefer speed and athleticism over grinding pressure.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish initial control**: From standing or combat base, secure grips on opponent's pants at the knees or ankles while maintaining proper posture. Keep your hips back and weight distributed to prevent off-balancing. Establish distance that allows you to control their legs while staying mobile. (Timing: Initial setup phase)
-2. **Begin floating movement**: Start moving laterally around the opponent's guard, using small quick steps while maintaining your grips. Keep your weight light and mobile, ready to change direction instantly. Your movement should be unpredictable, mixing clockwise and counterclockwise circles around their hips. (Timing: Continuous movement phase)
-3. **Control leg frames**: As you circle, use your grips to redirect opponent's legs away from your passing path. Push one leg down or across while stepping around the other. Your grip manipulation should complement your footwork, creating openings in their defensive structure. (Timing: During lateral movement)
-4. **Identify passing window**: Watch for moments when opponent's legs separate or when their frames momentarily collapse due to your constant movement. These windows appear when they adjust their guard retention or attempt to recover structure. Recognize the opening immediately through their hip position and leg configuration. (Timing: Recognition phase - occurs multiple times)
-5. **Execute passing transition**: The instant you identify an opening, transition from floating to passing. Drop your weight forward while stepping your near leg past their bottom leg. Your chest should move toward their upper body as you establish shoulder pressure. This transition must be explosive and committed once initiated. (Timing: Explosive commitment - 0.5-1 second window)
-6. **Secure passing position**: As you pass, immediately establish cross-face control with your near arm while your far arm controls their far hip or underhooks their far arm. Drive your shoulder into their face while keeping your hips low and heavy. Consolidate to side control by getting your chest perpendicular to theirs and securing dominant grips. (Timing: Final consolidation phase)
+1. **Establish initial control**: From standing or combat base, secure grips on opponent's pants at the knees or ankles while maintaining proper posture. Keep your hips back and weight distributed to prevent off-balancing. Establish distance that allows you to control their legs while staying mobile.
+2. **Begin floating movement**: Start moving laterally around the opponent's guard, using small quick steps while maintaining your grips. Keep your weight light and mobile, ready to change direction instantly. Your movement should be unpredictable, mixing clockwise and counterclockwise circles around their hips.
+3. **Control leg frames**: As you circle, use your grips to redirect opponent's legs away from your passing path. Push one leg down or across while stepping around the other. Your grip manipulation should complement your footwork, creating openings in their defensive structure.
+4. **Identify passing window**: Watch for moments when opponent's legs separate or when their frames momentarily collapse due to your constant movement. These windows appear when they adjust their guard retention or attempt to recover structure. Recognize the opening immediately through their hip position and leg configuration.
+5. **Execute passing transition**: The instant you identify an opening, transition from floating to passing. Drop your weight forward while stepping your near leg past their bottom leg. Your chest should move toward their upper body as you establish shoulder pressure. This transition must be explosive and committed once initiated.
+6. **Secure passing position**: As you pass, immediately establish cross-face control with your near arm while your far arm controls their far hip or underhooks their far arm. Drive your shoulder into their face while keeping your hips low and heavy. Consolidate to side control by getting your chest perpendicular to theirs and securing dominant grips.
 
 
 </section>
@@ -250,27 +250,21 @@ Float Passing is a dynamic guard passing approach that emphasizes movement, timi
 ## Training Progressions
 **Week 1-2: Movement Fundamentals** - Developing footwork and balance during floating movements
 Practice floating movements around static opponent. Focus on maintaining balance, proper posture, and grip control while moving laterally. Partner remains passive, holding guard structure but not actively defending. Work on smooth directional changes and staying light on your feet.
-(Resistance: None)
 
 **Week 3-4: Timing Recognition** - Identifying passing windows during movement
 Partner adds light active guard retention, adjusting legs and frames as you float. Practice recognizing moments when their structure momentarily collapses or legs separate. Initially, partner signals when windows appear. Progress to recognizing windows independently without signals.
-(Resistance: Light)
 
 **Week 5-8: Commitment and Transition** - Explosive passing when windows appear
 Combine floating movement with committed passing transitions. Partner provides moderate resistance with guard retention but allows passes when windows genuinely open. Focus on decisive commitment once you identify the opening. Drill the transition from floating to passing until it becomes reflexive.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense** - Maintaining position against common counters
 Partner actively attempts sweeps, recoveries, and defensive reactions during your float passing. Practice defending sweeps while maintaining floating posture, breaking grips efficiently, and adjusting to opponent's counter strategies. Focus on staying safe while creating passing opportunities.
-(Resistance: Medium)
 
 **Week 13+: Live Integration** - Applying float passing against full resistance
 Full-speed positional sparring from open guard with float passing as primary strategy. Partner uses their best guard retention and offensive attacks. Work on reading different guard styles, adapting floating patterns to various opponents, and developing your personal float passing rhythm.
-(Resistance: Full)
 
 **Ongoing: Style Development** - Developing personal float passing variations
 Experiment with combining float passing with other passing styles. Develop your signature movement patterns, grip configurations, and passing entries. Study high-level competitors who excel at float passing and integrate their concepts into your game. Continue refining against diverse opponents.
-(Resistance: Full)
 
 
 

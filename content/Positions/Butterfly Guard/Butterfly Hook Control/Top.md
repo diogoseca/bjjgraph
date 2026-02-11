@@ -368,11 +368,11 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 35% | 10% |
-| Intermediate | 50% | 55% | 20% |
-| Advanced     | 70% | 70% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 62% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 30-60 seconds before passing or being swept
 

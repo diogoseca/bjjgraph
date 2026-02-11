@@ -157,7 +157,7 @@ The mechanics of this choke create a unilateral blood restriction by driving the
 Strategically, the Paper Cutter serves as an excellent complement to arm attacks from Kesa-Gatame. When opponents defend americana and armbar threats by keeping their elbows tight and chin tucked, they often inadvertently create the collar access needed for this choke. The threat of the Paper Cutter forces opponents to choose between protecting their neck (which opens arm attacks) or protecting their arms (which exposes the choke), creating a classic submission dilemma that characterizes effective top-side control offense.
 
 **From Position**: [[Kuzure Kesa-Gatame/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, the Paper Cutter serves as an excellent complement to arm attacks
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure cross-collar grip**: While maintaining Kesa-Gatame control, reach across with your near hand and insert four fingers deep into opponent's far-side lapel at collar level, thumb outside the gi material for maximum grip security. (Timing: Execute when opponent defends arm attacks or focuses on hip escape)
-2. **Position the lapel blade**: Pull the collar tight and position the lapel edge directly across opponent's carotid artery on the far side of their neck, ensuring the fabric creates a firm ridge rather than bunching loosely. (Timing: Immediately after securing grip depth)
-3. **Drop your elbow**: Drive your gripping elbow downward toward opponent's far hip, which rotates your forearm and wrist to create the cutting angle. Your elbow should travel past their centerline toward the mat on their far side. (Timing: Smooth continuous motion, not jerky)
-4. **Pin the head**: Use your chest and shoulder to pin opponent's head and trap it against the mat, eliminating their ability to turn toward you or create space by extending their neck away from the choke. (Timing: Simultaneous with elbow drop)
-5. **Apply forearm pressure**: Bring your free forearm across opponent's throat from the near side, creating a scissoring action between your collar grip and forearm. Your forearm applies pressure to one carotid while the lapel blade compresses the other. (Timing: Once head is pinned and collar is positioned)
-6. **Complete the finish**: Pull your collar grip toward your own chest while simultaneously pressing your forearm forward, tightening the scissor. Maintain hip pressure and head pin throughout. The choke should produce a tap within seconds if correctly positioned. (Timing: Apply steadily increasing pressure until tap)
+1. **Secure cross-collar grip**: While maintaining Kesa-Gatame control, reach across with your near hand and insert four fingers deep into opponent's far-side lapel at collar level, thumb outside the gi material for maximum grip security.
+2. **Position the lapel blade**: Pull the collar tight and position the lapel edge directly across opponent's carotid artery on the far side of their neck, ensuring the fabric creates a firm ridge rather than bunching loosely.
+3. **Drop your elbow**: Drive your gripping elbow downward toward opponent's far hip, which rotates your forearm and wrist to create the cutting angle. Your elbow should travel past their centerline toward the mat on their far side.
+4. **Pin the head**: Use your chest and shoulder to pin opponent's head and trap it against the mat, eliminating their ability to turn toward you or create space by extending their neck away from the choke.
+5. **Apply forearm pressure**: Bring your free forearm across opponent's throat from the near side, creating a scissoring action between your collar grip and forearm. Your forearm applies pressure to one carotid while the lapel blade compresses the other.
+6. **Complete the finish**: Pull your collar grip toward your own chest while simultaneously pressing your forearm forward, tightening the scissor. Maintain hip pressure and head pin throughout. The choke should produce a tap within seconds if correctly positioned.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, the Paper Cutter serves as an excellent complement to arm attacks
 ## Training Progressions
 **Week 1-2** - Grip mechanics
 Practice deep collar grip insertion from static Kesa-Gatame. Focus on finding proper depth and lapel positioning without resistance. Drill the elbow drop motion to understand the cutting angle. Partner remains passive.
-(Resistance: None)
 
 **Week 3-4** - Positional integration
 Combine choke setup with Kesa-Gatame maintenance. Partner provides light hip escape attempts while you work to maintain position and insert grip. Learn to time grip insertion with partner's defensive movements.
-(Resistance: Light)
 
 **Week 5-6** - Attack combinations
 Chain Paper Cutter with americana and armbar attacks. When partner defends one threat, transition to another. Practice recognizing which attack is available based on partner's defensive positioning.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Apply technique in positional sparring starting from Kesa-Gatame. Partner defends at full resistance. Focus on timing, setup recognition, and completing finishes against active defense. Track success rate and adjust approach.
-(Resistance: Full)
 
 
 

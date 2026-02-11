@@ -20,38 +20,38 @@ description: "Master offensive strategies from Twister Control Top. Complete gui
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Twister Finish",
-      "text": "From this position, attempt Twister Finish. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Guillotine Choke",
+      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Calf Slicer from Truck",
+      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer from Truck",
-      "text": "From this position, attempt Calf Slicer from Truck. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Back Take",
+      "text": "From this position, attempt Back Take. This technique is attempted in 23% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take",
-      "text": "From this position, attempt Back Take. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Neck Crank",
+      "text": "From this position, attempt Neck Crank. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Neck Crank",
-      "text": "From this position, attempt Neck Crank. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Banana Split",
+      "text": "From this position, attempt Banana Split. This technique is attempted in 14% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Banana Split",
-      "text": "From this position, attempt Banana Split. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Twister",
+      "text": "From this position, attempt Twister. This technique is attempted in 30% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,17 +212,17 @@ One critical aspect that differentiates elite-level Twister Control from interme
 
 ## Available Attacks
 
-### [[Twister Finish]] (25% of attempts)
-
 ### [[Guillotine Choke]] (15% of attempts)
 
-### [[Calf Slicer from Truck]] (10% of attempts)
+### [[Calf Slicer from Truck]] (9% of attempts)
 
-### [[Back Take]] (25% of attempts)
+### [[Back Take]] (23% of attempts)
 
-### [[Neck Crank]] (10% of attempts)
+### [[Neck Crank]] (9% of attempts)
 
-### [[Banana Split]] (15% of attempts)
+### [[Banana Split]] (14% of attempts)
+
+### [[Twister]] (30% of attempts)
 
 
 
@@ -331,11 +331,11 @@ Partner provides specific defensive reactions from Twister Control bottom. Pract
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 50% | 30% |
-| Intermediate | 60% | 65% | 45% |
-| Advanced     | 75% | 78% | 60% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 72% |
+| Submission Probability | 52% |
 
 **Average Time in Position**: 20-45 seconds to submission or position change
 

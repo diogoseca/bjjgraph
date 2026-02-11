@@ -157,7 +157,7 @@ The technical foundation relies on timing the leg hook insertion precisely as th
 Strategically, this technique represents the positional advancement pathway within the buggy choke attack system. When opponents recognize the immediate choking threat and prioritize escaping to guard over remaining static, the Hook Leg and Take Back punishes this defensive choice with an even more dominant position. Understanding this transition elevates the buggy choke from a single-path attack to a branching system where the opponent's defensive selection determines which dominant outcome you achieve.
 
 **From Position**: [[Buggy Choke/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this technique represents the positional advancement pathway with
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize trigger**: Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture (Timing: Immediately as hip movement initiates)
-2. **Maintain harness connection**: Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement (Timing: Concurrent with opponent's movement)
-3. **Follow with chest**: Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction (Timing: Continuous throughout transition)
-4. **Insert near-side hook**: As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation (Timing: As soon as hip space appears)
-5. **Complete with second hook**: Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration (Timing: Within 1-2 seconds of first hook)
-6. **Establish back control**: Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology (Timing: Immediate position consolidation)
+1. **Recognize trigger**: Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture
+2. **Maintain harness connection**: Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement
+3. **Follow with chest**: Drive your chest forward staying glued to opponent's back as they sit, preventing any gap from forming between your chest and their spine while your weight flows in their movement direction
+4. **Insert near-side hook**: As opponent's near hip elevates during sitting, immediately insert your near-side leg with foot hooked inside their thigh, securing the primary hip control point that prevents rotation
+5. **Complete with second hook**: Once first hook is secure and controlling hip, bring your far-side leg around to insert second hook inside opponent's opposite thigh, completing the hooks-in back control configuration
+6. **Establish back control**: Adjust your position with both hooks deep, chest connected, and harness grip intact; ensure opponent's shoulders stay elevated and begin standard back control attack methodology
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this technique represents the positional advancement pathway with
 ## Training Progressions
 **Week 1-2** - Mechanical recognition
 Partner performs slow-motion sitting attempts from buggy choke bottom. Focus on recognizing the hip elevation trigger and maintaining harness grip while following movement. No hook insertion yet, just movement pattern recognition and upper body control maintenance.
-(Resistance: None)
 
 **Week 3-4** - Hook insertion timing
 Add hook insertion to the drill with partner providing predictable sitting movements. Practice timing the near-side hook insertion precisely as hip space appears, then completing with second hook. Partner provides light resistance to test timing accuracy.
-(Resistance: Light)
 
 **Week 5-6** - Counter-reaction adaptation
 Partner varies defensive responses including backward recline, hand fighting, and turning into you. Practice recognizing which counter is occurring and selecting appropriate response while still attempting back take completion. Develop pattern recognition under uncertainty.
-(Resistance: Medium)
 
 **Week 7+** - Competition simulation
 Full resistance positional sparring from buggy choke position. Partner attempts all available escapes including sitting to guard while you work complete attack system including back take, choke finish, and alternative transitions. Score for successful back take or submission.
-(Resistance: Full)
 
 
 
@@ -343,7 +339,7 @@ Hook Leg and Take Back represents the positional advancement pathway within the 
 - [[Turtle]] - Original position from which buggy choke develops
 - [[Harness]] - Critical grip structure maintained throughout transition
 - [[Crucifix]] - Alternative transition when opponent reclines backward defensively
-- [[D'arce Control]] - Switch option when opponent turns into the attack
+- [[Darce Control]] - Switch option when opponent turns into the attack
 
 
 </section>

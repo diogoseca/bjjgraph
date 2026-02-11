@@ -159,7 +159,7 @@ The biomechanics favor the bottom player because the opponent's clearing motion 
 This transition is particularly valuable in competition where opponents train specific lapel guard counters. Rather than engaging in a grip fight you may lose, flowing to spider guard maintains offensive pressure and keeps the opponent reacting to you rather than executing their passing sequence.
 
 **From Position**: [[Lapel Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ This transition is particularly valuable in competition where opponents train sp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Recognize lapel failure**: Identify the moment your lapel grip is being stripped or cleared by opponent's pressure, posture change, or active grip breaking—do not wait until control is completely lost (Timing: Immediately when lapel grip begins to fail)
-2. **Secure sleeve grips**: Reinforce or establish strong pistol grips on both sleeves at the cuff, maintaining at least one sleeve grip throughout the transition to prevent opponent from posturing away (Timing: Simultaneously with recognizing lapel failure)
-3. **Release lapel configuration**: Actively release your compromised lapel grip rather than fighting for it, using that energy to accelerate the transition to spider guard and catching opponent off-balance (Timing: Once sleeve grips are secured)
-4. **Hip adjustment**: Angle your hips toward the side of your dominant sleeve grip, creating the angle necessary for effective spider guard structure and preventing flat-on-back positioning (Timing: During lapel release)
-5. **Plant feet in biceps**: Drive both feet into opponent's bicep pockets, curling your toes to hook the muscle belly and extending your legs to create distance and control their arm positioning (Timing: Immediately after hip adjustment)
-6. **Establish spider guard structure**: Fully extend your legs while maintaining sleeve grips, creating the characteristic spider guard tension that controls opponent's posture and sets up sweeps or submissions (Timing: Completion of transition)
+1. **Recognize lapel failure**: Identify the moment your lapel grip is being stripped or cleared by opponent's pressure, posture change, or active grip breaking—do not wait until control is completely lost
+2. **Secure sleeve grips**: Reinforce or establish strong pistol grips on both sleeves at the cuff, maintaining at least one sleeve grip throughout the transition to prevent opponent from posturing away
+3. **Release lapel configuration**: Actively release your compromised lapel grip rather than fighting for it, using that energy to accelerate the transition to spider guard and catching opponent off-balance
+4. **Hip adjustment**: Angle your hips toward the side of your dominant sleeve grip, creating the angle necessary for effective spider guard structure and preventing flat-on-back positioning
+5. **Plant feet in biceps**: Drive both feet into opponent's bicep pockets, curling your toes to hook the muscle belly and extending your legs to create distance and control their arm positioning
+6. **Establish spider guard structure**: Fully extend your legs while maintaining sleeve grips, creating the characteristic spider guard tension that controls opponent's posture and sets up sweeps or submissions
 
 
 </section>
@@ -253,19 +253,15 @@ This transition is particularly valuable in competition where opponents train sp
 ## Training Progressions
 **Week 1-2** - Grip transfer mechanics
 Practice the sleeve grip maintenance and foot placement sequence without resistance. Partner holds static position while you drill the lapel release to bicep placement motion repeatedly.
-(Resistance: None)
 
 **Week 3-4** - Timing recognition
 Partner slowly strips lapel grip using various methods. Focus on recognizing the optimal moment to initiate transition and maintaining sleeve control throughout.
-(Resistance: Light)
 
 **Week 5-6** - Transition combinations
 Chain the transition into immediate spider guard attacks—sweeps, triangle setups, omoplata entries. Partner provides moderate resistance to lapel stripping and spider guard maintenance.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Full resistance sparring starting from lapel guard. Partner actively passes while you maintain lapel guard or transition to spider guard as needed. Focus on seamless guard flow.
-(Resistance: Full)
 
 
 

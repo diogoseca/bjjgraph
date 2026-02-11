@@ -157,7 +157,7 @@ Unlike the traditional guillotine where the elbow remains relatively low and pre
 The strategic timing for this variation is critical. The high elbow configuration is most effective when your opponent's posture is broken and their defensive frames are neutralized. Attempting the high elbow position against a postured opponent allows them to stack and potentially pass. However, when properly timed against a broken-down opponent, the finish comes rapidly, often within seconds of achieving the correct elbow angle. This makes it an ideal finishing sequence when you've established solid Hindulotine control and your opponent is committed to defending at close range.
 
 **From Position**: [[Hindulotine/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The strategic timing for this variation is critical. The high elbow configuratio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure base grip**: From Hindulotine bottom position, ensure your choking arm is threaded deep around opponent's neck with the blade of your wrist positioned directly under their chin, not on the throat. (Timing: Before initiating any movement)
-2. **Trap defensive arm**: Use your non-choking hand to control opponent's near-side wrist or bicep, preventing them from establishing a defensive frame between your bodies that would relieve pressure. (Timing: Immediately after confirming grip depth)
-3. **Elevate choking elbow**: Drive your choking elbow upward toward the ceiling, aiming to position it above your own shoulder line. This creates the lever arm that distinguishes the high elbow variation from standard guillotine mechanics. (Timing: Smoothly over 1-2 seconds)
-4. **Angle hips away**: Simultaneously hip escape away from your opponent while maintaining the grip, creating a diagonal stretch across their neck. Your hips should move toward the side opposite your choking arm. (Timing: Coordinated with elbow elevation)
-5. **Pull head to hip**: Pull opponent's head toward your opposite hip using a curling motion while keeping your elbow elevated. This creates a scissoring pressure that compresses both carotid arteries against your forearm blade. (Timing: As final finishing pressure)
-6. **Lock and squeeze**: Once you feel the correct angle and pressure, lock your grip tight by squeezing your elbows together and arching your back slightly. Maintain steady pressure until opponent taps or goes unconscious. (Timing: Hold for 3-8 seconds until tap)
+1. **Secure base grip**: From Hindulotine bottom position, ensure your choking arm is threaded deep around opponent's neck with the blade of your wrist positioned directly under their chin, not on the throat.
+2. **Trap defensive arm**: Use your non-choking hand to control opponent's near-side wrist or bicep, preventing them from establishing a defensive frame between your bodies that would relieve pressure.
+3. **Elevate choking elbow**: Drive your choking elbow upward toward the ceiling, aiming to position it above your own shoulder line. This creates the lever arm that distinguishes the high elbow variation from standard guillotine mechanics.
+4. **Angle hips away**: Simultaneously hip escape away from your opponent while maintaining the grip, creating a diagonal stretch across their neck. Your hips should move toward the side opposite your choking arm.
+5. **Pull head to hip**: Pull opponent's head toward your opposite hip using a curling motion while keeping your elbow elevated. This creates a scissoring pressure that compresses both carotid arteries against your forearm blade.
+6. **Lock and squeeze**: Once you feel the correct angle and pressure, lock your grip tight by squeezing your elbows together and arching your back slightly. Maintain steady pressure until opponent taps or goes unconscious.
 
 
 </section>
@@ -253,19 +253,15 @@ The strategic timing for this variation is critical. The high elbow configuratio
 ## Training Progressions
 **Week 1-2** - Grip mechanics isolation
 Practice the high elbow grip configuration against a non-resisting partner. Focus on feeling the correct elbow angle, wrist blade placement, and the difference in pressure between high and low elbow positions. Partner provides feedback on pressure.
-(Resistance: None)
 
 **Week 3-4** - Coordination with hip movement
 Add the hip escape component to the drill. Practice coordinating elbow elevation with hip angle changes against light resistance. Partner allows the transition but creates slight pressure to simulate realistic conditions.
-(Resistance: Light)
 
 **Week 5-6** - Counter recognition and timing
 Partner actively defends with specific counters: posturing, chin tuck, stacking. Practice recognizing when to attempt high elbow versus when to reset or transition. Develop timing awareness for when opponent is most vulnerable.
-(Resistance: Medium)
 
 **Week 7+** - Live integration
 Apply the high elbow variation during positional sparring starting from Hindulotine. Focus on recognizing live opportunities and executing the technique against fully resisting opponents. Analyze failures to refine timing.
-(Resistance: Full)
 
 
 
@@ -333,7 +329,7 @@ The High Elbow Guillotine Variation is a blood choke that can cause unconsciousn
 
 ## Position Integration
 
-The High Elbow Guillotine Variation serves as the primary finishing mechanism from Hindulotine bottom position, representing the highest-percentage path to submission when you have established secure head control from guard. This technique integrates directly with the Hindulotine system by providing the finishing sequence when opponent's defensive options are limited. If the high elbow finish fails, you maintain Hindulotine control and can attempt alternative finishes such as the arm-in guillotine, transition to D'arce when opponent creates space, or take the back when they turn to escape. The technique also chains from standard Guillotine Control and shares mechanical principles with the Anaconda and D'arce families of front headlock attacks.
+The High Elbow Guillotine Variation serves as the primary finishing mechanism from Hindulotine bottom position, representing the highest-percentage path to submission when you have established secure head control from guard. This technique integrates directly with the Hindulotine system by providing the finishing sequence when opponent's defensive options are limited. If the high elbow finish fails, you maintain Hindulotine control and can attempt alternative finishes such as the arm-in guillotine, transition to Darce when opponent creates space, or take the back when they turn to escape. The technique also chains from standard Guillotine Control and shares mechanical principles with the Anaconda and Darce families of front headlock attacks.
 
 </section>
 
@@ -344,7 +340,7 @@ The High Elbow Guillotine Variation serves as the primary finishing mechanism fr
 - [[Hindulotine]] - Starting position
 - [[Guillotine Control]] - Parent position family
 - [[Guillotine Choke]] - Base submission mechanic
-- [[D'arce Control]] - Transition when opponent creates space
+- [[Darce Control]] - Transition when opponent creates space
 - [[Anaconda Control]] - Alternative finish position
 - [[Back Take from Bottom]] - Transition when opponent turns away
 - [[Arm in Guillotine]] - Alternative grip configuration

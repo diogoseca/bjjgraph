@@ -153,7 +153,7 @@ description: "Learn Open Guard to Deep Half transition in BJJ. Step-by-step exec
 The transition from Open Guard to Deep Half represents a strategic guard recovery sequence that transforms defensive situations into powerful offensive opportunities. This technique is particularly valuable when facing aggressive standing or passing pressure from top position, allowing the bottom player to dive underneath their opponent's center of gravity and establish the deep half guard structure. The deep half position provides excellent sweeping mechanics while simultaneously nullifying many common passing strategies. This transition emphasizes proper hip movement, head positioning, and timing to safely navigate underneath the opponent's base. Modern practitioners have refined this entry to work against various passing styles, making it an essential component of comprehensive guard retention systems. The technique demonstrates the principle of using depth and angle changes to create defensive depth while maintaining offensive threats.
 
 **From Position**: [[Open Guard/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -202,12 +202,12 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish inside positioning**: From open guard, use your inside leg to create a butterfly hook or shin shield against your opponent's near leg. Simultaneously grip their pants at the knee or ankle with your near-side hand while your far hand controls their belt or far hip. This creates the necessary frame and angle for entry. (Timing: As opponent begins forward pressure or prepares to initiate pass)
-2. **Create angle with hip escape**: Execute a strong hip escape away from your opponent, rotating your hips approximately 45 degrees to create the angle needed to dive underneath. Your shoulders should turn toward the mat while maintaining your grips. This hip movement opens the pathway under your opponent's leg while protecting your back exposure. (Timing: Immediately following inside leg establishment)
-3. **Dive underneath near leg**: Drive your head and shoulders underneath your opponent's near leg, threading your body through the space between their legs. Your head must pass to the outside of their leg, never between their legs. Keep your chin tucked and neck protected as you slide underneath, using your grips to pull yourself through while your legs follow. (Timing: As opponent's weight shifts forward onto their hands or begins lateral movement)
-4. **Secure first connection point**: As your torso passes underneath, immediately wrap your near arm around the back of your opponent's near leg, securing it to your chest. Your head should be positioned on the outside of this leg, creating a barrier against crossface attempts. This first connection point is critical for structural integrity of the position. (Timing: Immediately upon clearing opponent's knee with your shoulder)
-5. **Complete deep half structure**: Bring your bottom leg (the one closest to the mat) across your opponent's far hip as a deep underhook, creating the characteristic deep half structure. Your top leg should hook over their near leg, establishing the lockdown or maintaining mobility for sweeps. Ensure your body is perpendicular to your opponent's, maximizing your leverage advantage. (Timing: Within 1-2 seconds of securing arm wrap around near leg)
-6. **Establish immediate sweeping threat**: Without pausing, immediately begin your preferred sweep sequence - whether old school sweep, waiter sweep, or Homer Simpson sweep. The transition is not complete until offensive action begins. Use your grips and leg positioning to off-balance your opponent, preventing them from establishing defensive posture in response to your entry. (Timing: Immediately upon completing deep half structure)
+1. **Establish inside positioning**: From open guard, use your inside leg to create a butterfly hook or shin shield against your opponent's near leg. Simultaneously grip their pants at the knee or ankle with your near-side hand while your far hand controls their belt or far hip. This creates the necessary frame and angle for entry.
+2. **Create angle with hip escape**: Execute a strong hip escape away from your opponent, rotating your hips approximately 45 degrees to create the angle needed to dive underneath. Your shoulders should turn toward the mat while maintaining your grips. This hip movement opens the pathway under your opponent's leg while protecting your back exposure.
+3. **Dive underneath near leg**: Drive your head and shoulders underneath your opponent's near leg, threading your body through the space between their legs. Your head must pass to the outside of their leg, never between their legs. Keep your chin tucked and neck protected as you slide underneath, using your grips to pull yourself through while your legs follow.
+4. **Secure first connection point**: As your torso passes underneath, immediately wrap your near arm around the back of your opponent's near leg, securing it to your chest. Your head should be positioned on the outside of this leg, creating a barrier against crossface attempts. This first connection point is critical for structural integrity of the position.
+5. **Complete deep half structure**: Bring your bottom leg (the one closest to the mat) across your opponent's far hip as a deep underhook, creating the characteristic deep half structure. Your top leg should hook over their near leg, establishing the lockdown or maintaining mobility for sweeps. Ensure your body is perpendicular to your opponent's, maximizing your leverage advantage.
+6. **Establish immediate sweeping threat**: Without pausing, immediately begin your preferred sweep sequence - whether old school sweep, waiter sweep, or Homer Simpson sweep. The transition is not complete until offensive action begins. Use your grips and leg positioning to off-balance your opponent, preventing them from establishing defensive posture in response to your entry.
 
 
 </section>
@@ -253,23 +253,18 @@ The transition from Open Guard to Deep Half represents a strategic guard recover
 ## Training Progressions
 **Week 1-2: Static Entry Drilling** - Basic movement pattern and proper head positioning
 Partner maintains static standing position while you drill the entry sequence slowly. Focus exclusively on correct head position (outside the leg), hip escape angle, and grip maintenance. Repeat 20-30 times per training session, alternating sides. Partner provides zero resistance.
-(Resistance: None)
 
 **Week 3-4: Progressive Resistance Entry** - Entry timing against light movement
 Partner begins adding light resistance and movement, attempting to step back or circle away at 30% intensity. Practice following their movement and adjusting entry angle accordingly. Begin linking entry directly to old school or waiter sweep. 15-20 repetitions per side per session.
-(Resistance: Light)
 
 **Week 5-8: Dynamic Drilling with Counters** - Problem-solving against common defensive reactions
 Partner actively attempts to prevent entry using sprawl, crossface, or disengagement at 50-60% intensity. Practice all counter-responses from common counters section. If entry fails, flow to alternative guards (butterfly, reverse De La Riva, seated guard). 10-15 quality repetitions per side, emphasizing decision-making.
-(Resistance: Medium)
 
 **Week 9-12: Positional Sparring Integration** - Entry from live guard retention scenarios
 Start from open guard with partner attempting realistic passing sequences. Execute entry when tactical opportunities arise against standing or combat base passing. Partner uses full resistance but resets if successful sweep occurs. 5-minute rounds, 4-6 rounds per session. Focus on recognizing optimal entry timing.
-(Resistance: Full)
 
 **Week 13+: Competition Simulation** - Entry under pressure with consequences
 Full positional sparring from open guard with scoring. Points awarded for successful entries that lead to sweeps, deductions for failed entries that result in guard passes. Partner uses competition-level intensity and strategy. Emphasize risk assessment and entry selection based on opponent's passing style.
-(Resistance: Full)
 
 
 

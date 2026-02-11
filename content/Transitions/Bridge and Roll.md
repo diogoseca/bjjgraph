@@ -159,7 +159,7 @@ description: "Master the Bridge and Roll escape from Mount in BJJ. Complete brea
 The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most fundamental and highest-percentage escape from the mounted position. This technique exploits the opponent's base by creating a powerful bridge with the hips while simultaneously trapping one arm and the same-side leg, forcing them to roll over their trapped shoulder. The escape is effective because it uses the strongest muscles in the body—the glutes and hamstrings—to generate explosive power that overwhelms the opponent's balance. The Bridge and Roll is typically the first mount escape taught to beginners due to its intuitive mechanics and immediate effectiveness, yet it remains a cornerstone technique at all belt levels. The success of this escape depends on proper timing, creating the correct angle before bridging, and understanding the relationship between the trapped arm and leg. When executed correctly, the practitioner not only escapes the mounted position but often ends up inside the opponent's closed guard with improved position. The technique demonstrates fundamental BJJ principles including the use of frames, hip movement, angle creation, and explosive power generation from inferior positions.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -208,13 +208,13 @@ The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive frames**: Place both hands on opponent's hips or biceps to create space and prevent them from establishing high mount or attacking submissions. Keep elbows tight to body to protect against arm attacks. This framing creates the necessary space to begin the escape sequence. (Timing: Immediate upon being mounted)
-2. **Choose side and trap arm**: Select the side where opponent's base appears weaker (usually the side they're leaning toward or posting with). Reach across your body with your same-side hand to grab their wrist or sleeve, pulling their arm across your centerline and trapping it tight against your chest. The trapped arm must be controlled completely as this becomes their only potential post. (Timing: When opponent shifts weight or reaches for attack)
-3. **Trap same-side foot**: Using your foot on the same side as the trapped arm, hook over and trap opponent's foot by placing your instep over their ankle or shin. The foot trap prevents them from posting with that leg during the roll. Your heel should hook behind their calf with toes pointing toward their knee to maximize control. (Timing: Simultaneously with or immediately after arm trap)
-4. **Create angle and plant opposite foot**: Turn your hips slightly toward the trapped side to create a 45-degree escape angle. Plant your free foot (opposite the trapped side) flat on the mat close to your buttocks with knee bent at approximately 90 degrees. This foot becomes your primary driving force. Your shoulders should still be relatively square to the ceiling. (Timing: Immediately after securing both traps)
-5. **Execute explosive bridge**: Drive powerfully through your planted foot, simultaneously extending your hips upward and rolling toward the trapped side. The bridge should create maximum elevation—aim to lift opponent's hips higher than their shoulders. Keep their trapped arm pinned tightly across your chest. Your head should press into their chest as you bridge, with your neck strong. The explosive power comes from glutes, hamstrings, and core. (Timing: Single explosive motion, no hesitation)
-6. **Complete the roll**: Continue the rolling momentum until opponent is forced over their trapped shoulder. As they roll, maintain control of their trapped arm and follow through until you land inside their closed guard or with them flat on their back. Keep your weight driving forward and downward as you complete the roll. Release the foot trap once past the tipping point but maintain arm control until you establish new position. (Timing: Continuous motion from bridge)
-7. **Establish position in guard**: As you complete the roll, pull your hips back slightly and establish posture inside their closed guard or immediately begin working to pass if they cannot close guard. Keep your base wide and hands ready to defend against immediate attacks like triangles or armbars. Maintain awareness that opponent may attempt to re-sweep. (Timing: Immediately after completing roll)
+1. **Establish defensive frames**: Place both hands on opponent's hips or biceps to create space and prevent them from establishing high mount or attacking submissions. Keep elbows tight to body to protect against arm attacks. This framing creates the necessary space to begin the escape sequence.
+2. **Choose side and trap arm**: Select the side where opponent's base appears weaker (usually the side they're leaning toward or posting with). Reach across your body with your same-side hand to grab their wrist or sleeve, pulling their arm across your centerline and trapping it tight against your chest. The trapped arm must be controlled completely as this becomes their only potential post.
+3. **Trap same-side foot**: Using your foot on the same side as the trapped arm, hook over and trap opponent's foot by placing your instep over their ankle or shin. The foot trap prevents them from posting with that leg during the roll. Your heel should hook behind their calf with toes pointing toward their knee to maximize control.
+4. **Create angle and plant opposite foot**: Turn your hips slightly toward the trapped side to create a 45-degree escape angle. Plant your free foot (opposite the trapped side) flat on the mat close to your buttocks with knee bent at approximately 90 degrees. This foot becomes your primary driving force. Your shoulders should still be relatively square to the ceiling.
+5. **Execute explosive bridge**: Drive powerfully through your planted foot, simultaneously extending your hips upward and rolling toward the trapped side. The bridge should create maximum elevation—aim to lift opponent's hips higher than their shoulders. Keep their trapped arm pinned tightly across your chest. Your head should press into their chest as you bridge, with your neck strong. The explosive power comes from glutes, hamstrings, and core.
+6. **Complete the roll**: Continue the rolling momentum until opponent is forced over their trapped shoulder. As they roll, maintain control of their trapped arm and follow through until you land inside their closed guard or with them flat on their back. Keep your weight driving forward and downward as you complete the roll. Release the foot trap once past the tipping point but maintain arm control until you establish new position.
+7. **Establish position in guard**: As you complete the roll, pull your hips back slightly and establish posture inside their closed guard or immediately begin working to pass if they cannot close guard. Keep your base wide and hands ready to defend against immediate attacks like triangles or armbars. Maintain awareness that opponent may attempt to re-sweep.
 
 
 </section>
@@ -264,27 +264,21 @@ The Bridge and Roll (also known as the Upa Escape or trap and roll) is the most 
 ## Training Progressions
 **Week 1-2: Solo Fundamentals** - Bridging mechanics and hip mobility
 Practice bridging motion solo focusing on full hip extension and explosive power. Work on creating 45-degree angles by turning hips. Drill arm trapping and foot hooking motions separately to develop muscle memory for each component.
-(Resistance: None)
 
 **Week 3-4: Static Partner Drills** - Trap mechanics and coordination
 With compliant partner in mount, practice trapping arm and same-side foot simultaneously. Execute slow-motion bridges to develop proper angle and timing. Partner remains passive but maintains realistic mount position. Focus on coordinating all elements smoothly.
-(Resistance: None)
 
 **Week 5-8: Progressive Resistance** - Explosive power and timing
 Partner begins with light resistance, gradually increasing as technique improves. Practice recognizing timing windows when opponent shifts weight or reaches for attacks. Develop explosive bridging power with full resistance. Begin countering basic opponent responses like posting with free arm.
-(Resistance: Light)
 
 **Week 9-12: Combination Drilling** - Integration with other escapes
 Chain bridge and roll with elbow escape—if one fails, flow to the other. Practice against partner who actively tries to prevent escape with technical defense. Develop ability to create escape opportunities through feints and reactions. Work on immediate guard establishment after successful escape.
-(Resistance: Medium)
 
 **Month 4-6: Situational Sparring** - Live application and refinement
 Start positional sparring from mounted position with goal of escape versus maintain. Opponent uses realistic mount maintenance and submission threats. Develop timing recognition under stress. Practice staying calm in mount and recognizing true escape opportunities versus desperate attempts.
-(Resistance: Full)
 
 **Month 7+: Advanced Applications** - High-level details and variations
 Develop nuanced understanding of when bridge and roll is highest percentage versus elbow escape. Practice against opponents with excellent mount maintenance. Study how to create opportunities through grip fighting and frames. Develop ability to recognize and exploit minute base adjustments.
-(Resistance: Full)
 
 
 

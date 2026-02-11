@@ -11,11 +11,6 @@
     "turtle",
     "offensive"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 68
-  },
   "overview": "The Front Headlock to Anaconda transition represents one of the highest-percentage finishing sequences from the front headlock position. This technique exploits the opponent's defensive posture in turtle or standing positions by converting head and arm control into a devastating choking attack. The anaconda choke, characterized by its distinctive rolling motion and figure-four arm configuration, creates simultaneous pressure on both the carotid artery and the shoulder, making it extremely difficult to defend once properly locked.\n\nThe transition is particularly effective because it capitalizes on the opponent's natural defensive instinct to protect their back exposure. When an opponent turtles to avoid back takes, they inadvertently present the perfect anatomy for the anaconda setup. The technique requires precise arm threading, proper shoulder pressure, and coordinated rolling mechanics to achieve the finish. Understanding the biomechanics of the choke—specifically how the rolling motion tightens the noose while eliminating space—is crucial for successful execution.\n\nThis transition has become a staple in modern no-gi grappling and MMA, where the absence of gi grips makes the front headlock position even more dominant. The anaconda's versatility allows it to be applied from various front headlock configurations, including standing snapdowns, failed takedown attempts, and turtle attacks. Mastering this transition provides practitioners with a reliable path from control to submission that works across all levels of competition.",
   "key_principles": [
     "Establish deep head control with shoulder driving opponent's head down and to the side",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Establish front headlock control",
-      "description": "From opponent's turtle or standing bent-over position, secure front headlock by wrapping your arm around their head and neck. Drive your shoulder into the side of their head, forcing it down and to the side. Your chest should be heavy on their upper back and shoulders, preventing upward movement. Control their posture by pulling their head toward your hip while maintaining downward pressure.",
-      "timing": "Initial control phase - establish before opponent recovers posture"
+      "description": "From opponent's turtle or standing bent-over position, secure front headlock by wrapping your arm around their head and neck. Drive your shoulder into the side of their head, forcing it down and to the side. Your chest should be heavy on their upper back and shoulders, preventing upward movement. Control their posture by pulling their head toward your hip while maintaining downward pressure."
     },
     {
       "step_number": 2,
       "action": "Thread choking arm across neck",
-      "description": "Release your headlock grip and immediately thread your choking-side arm (same side as their trapped head) deep across their neck. Your forearm should cross their throat with your elbow traveling past their far shoulder. Drive your shoulder forward to help your arm slide deeper, ensuring maximum depth of penetration. Your bicep should be on one side of their neck and your forearm on the other, creating the choking mechanism.",
-      "timing": "Quick transition - thread arm before opponent recognizes the setup"
+      "description": "Release your headlock grip and immediately thread your choking-side arm (same side as their trapped head) deep across their neck. Your forearm should cross their throat with your elbow traveling past their far shoulder. Drive your shoulder forward to help your arm slide deeper, ensuring maximum depth of penetration. Your bicep should be on one side of their neck and your forearm on the other, creating the choking mechanism."
     },
     {
       "step_number": 3,
       "action": "Trap opponent's near arm",
-      "description": "As you thread your choking arm, use your body weight and positioning to trap their near arm (the arm closest to you). Either scoop their arm with your threading motion, capturing it within your choking arm's embrace, or pin it to their body with your chest and shoulder. This trapped arm is critical—it prevents them from posting during the roll and creates the characteristic 'anaconda' position where their own arm contributes to the choke.",
-      "timing": "Simultaneous with arm threading - capture before they pull arm free"
+      "description": "As you thread your choking arm, use your body weight and positioning to trap their near arm (the arm closest to you). Either scoop their arm with your threading motion, capturing it within your choking arm's embrace, or pin it to their body with your chest and shoulder. This trapped arm is critical—it prevents them from posting during the roll and creates the characteristic 'anaconda' position where their own arm contributes to the choke."
     },
     {
       "step_number": 4,
       "action": "Secure figure-four grip",
-      "description": "Reach your non-choking arm underneath opponent's body and grab your own choking-side wrist, bicep, or hand to complete the figure-four configuration. Common grips include Gable grip (palm-to-palm), wrist-to-wrist, or grabbing your own bicep. Pull your elbows tight together, creating an enclosed loop around their neck and trapped arm. Before rolling, ensure the grip is solid and your choking forearm is positioned correctly across their carotid artery.",
-      "timing": "Lock grip securely before initiating roll"
+      "description": "Reach your non-choking arm underneath opponent's body and grab your own choking-side wrist, bicep, or hand to complete the figure-four configuration. Common grips include Gable grip (palm-to-palm), wrist-to-wrist, or grabbing your own bicep. Pull your elbows tight together, creating an enclosed loop around their neck and trapped arm. Before rolling, ensure the grip is solid and your choking forearm is positioned correctly across their carotid artery."
     },
     {
       "step_number": 5,
       "action": "Initiate rolling motion",
-      "description": "Step your leg over opponent's back (the leg on your choking-arm side) and begin rolling toward your choking arm. Drive off your non-choking-side leg to generate explosive rotational momentum. As you roll, pull opponent with you using your locked arms while tucking your chin and looking toward your hip. The roll should be smooth and controlled, bringing opponent's body on top of yours while your arms maintain constant squeezing pressure.",
-      "timing": "Explosive initiation but controlled execution - complete roll in one motion"
+      "description": "Step your leg over opponent's back (the leg on your choking-arm side) and begin rolling toward your choking arm. Drive off your non-choking-side leg to generate explosive rotational momentum. As you roll, pull opponent with you using your locked arms while tucking your chin and looking toward your hip. The roll should be smooth and controlled, bringing opponent's body on top of yours while your arms maintain constant squeezing pressure."
     },
     {
       "step_number": 6,
       "action": "Establish bottom position and adjust pressure",
-      "description": "Complete the roll so you are on your back with opponent on top, their trapped arm and neck still enclosed in your figure-four grip. Immediately make micro-adjustments: pull your elbows tighter together, drive your choking-side shoulder toward their opposite hip to create angle, and arch your back slightly to apply maximum pressure. Your legs can grapevine their legs or hook their hips for additional control. Focus on eliminating any space between your arms and their neck.",
-      "timing": "Immediate adjustment post-roll - maximize pressure before they defend"
+      "description": "Complete the roll so you are on your back with opponent on top, their trapped arm and neck still enclosed in your figure-four grip. Immediately make micro-adjustments: pull your elbows tighter together, drive your choking-side shoulder toward their opposite hip to create angle, and arch your back slightly to apply maximum pressure. Your legs can grapevine their legs or hook their hips for additional control. Focus on eliminating any space between your arms and their neck."
     },
     {
       "step_number": 7,
       "action": "Finish the choke",
-      "description": "Apply the finish by simultaneously squeezing your elbows together, driving your choking-side shoulder forward and down, and expanding your chest. The pressure should come from your entire upper body, not just your arms. The choke works by compressing both the carotid artery on one side and creating intense shoulder pressure that rotates their head, cutting off blood flow. Maintain control until opponent taps, being prepared to release immediately upon submission signal.",
-      "timing": "Sustained pressure with gradual increase - allow 3-5 seconds for tap"
+      "description": "Apply the finish by simultaneously squeezing your elbows together, driving your choking-side shoulder forward and down, and expanding your chest. The pressure should come from your entire upper body, not just your arms. The choke works by compressing both the carotid artery on one side and creating intense shoulder pressure that rotates their head, cutting off blood flow. Maintain control until opponent taps, being prepared to release immediately upon submission signal."
     }
   ],
   "common_counters": [
@@ -146,38 +134,32 @@
     {
       "phase": "Week 1-2: Foundational Mechanics",
       "focus": "Arm threading depth and figure-four grip acquisition",
-      "description": "Partner assumes static turtle position. Practice threading choking arm deeply across neck with proper shoulder pressure, then securing various figure-four grip options (Gable, wrist, bicep). Focus on depth awareness and grip security without rolling. Repeat 10-15 times per side until threading motion feels natural and grips are consistently solid.",
-      "resistance_level": "None"
+      "description": "Partner assumes static turtle position. Practice threading choking arm deeply across neck with proper shoulder pressure, then securing various figure-four grip options (Gable, wrist, bicep). Focus on depth awareness and grip security without rolling. Repeat 10-15 times per side until threading motion feels natural and grips are consistently solid."
     },
     {
       "phase": "Week 3-4: Rolling Mechanics",
       "focus": "Controlled rolling motion from front headlock to bottom anaconda position",
-      "description": "From secured grip position, practice rolling motion in isolation. Partner remains relatively passive but maintains their structure. Focus on smooth rotation, maintaining grip throughout roll, and landing in correct bottom position with proper pressure angles. Emphasize looking toward hip and tucking chin during roll. Execute 8-10 slow controlled rolls per training session.",
-      "resistance_level": "Light"
+      "description": "From secured grip position, practice rolling motion in isolation. Partner remains relatively passive but maintains their structure. Focus on smooth rotation, maintaining grip throughout roll, and landing in correct bottom position with proper pressure angles. Emphasize looking toward hip and tucking chin during roll. Execute 8-10 slow controlled rolls per training session."
     },
     {
       "phase": "Week 5-8: Integration and Timing",
       "focus": "Complete technique from live front headlock position",
-      "description": "Begin from front headlock position with partner providing moderate resistance in turtle. Practice recognizing proper timing to thread arm, capturing near arm, securing grip, and completing roll to finish. Partner defends with basic counters (pulling arm in, standing attempts). Success rate should increase as timing and setup recognition improve. Train 5-7 complete repetitions per round.",
-      "resistance_level": "Medium"
+      "description": "Begin from front headlock position with partner providing moderate resistance in turtle. Practice recognizing proper timing to thread arm, capturing near arm, securing grip, and completing roll to finish. Partner defends with basic counters (pulling arm in, standing attempts). Success rate should increase as timing and setup recognition improve. Train 5-7 complete repetitions per round."
     },
     {
       "phase": "Week 9-12: Pressure and Finishing Details",
       "focus": "Maximizing choking pressure and handling advanced defensive responses",
-      "description": "With secured anaconda position post-roll, focus on micro-adjustments that enhance choking effectiveness: elbow positioning, shoulder angle, back arch, leg control. Partner provides active defensive resistance (creating space, attempting to roll through, defending neck). Learn to feel when choke is truly locked versus when adjustments are needed. Practice 4-6 finishing attempts with full resistance.",
-      "resistance_level": "Full"
+      "description": "With secured anaconda position post-roll, focus on micro-adjustments that enhance choking effectiveness: elbow positioning, shoulder angle, back arch, leg control. Partner provides active defensive resistance (creating space, attempting to roll through, defending neck). Learn to feel when choke is truly locked versus when adjustments are needed. Practice 4-6 finishing attempts with full resistance."
     },
     {
       "phase": "Week 13+: Live Application and Variations",
       "focus": "Transitioning between front headlock attacks and recognizing optimal anaconda opportunities",
-      "description": "Free rolling from front headlock position where you must choose between anaconda, Darce, guillotine, or back take based on opponent's defensive reactions. Partner provides full resistance with intelligent defense. Focus on reading opponent's posture and arm position to identify highest-percentage attack. Develop ability to chain attacks when initial attempt is defended.",
-      "resistance_level": "Full"
+      "description": "Free rolling from front headlock position where you must choose between anaconda, Darce, guillotine, or back take based on opponent's defensive reactions. Partner provides full resistance with intelligent defense. Focus on reading opponent's posture and arm position to identify highest-percentage attack. Develop ability to chain attacks when initial attempt is defended."
     },
     {
       "phase": "Ongoing: Competition Refinement",
       "focus": "High-pressure execution and recovery from failed attempts",
-      "description": "Practice technique against fresh, fully-resisting opponents in competition-style rounds. Emphasize maintaining front headlock dominance even if anaconda attempt fails. Drill quick transitions to alternative submissions. Record successful applications and analyze positioning details that led to success. Refine personal variations based on your body type and athletic attributes.",
-      "resistance_level": "Full"
+      "description": "Practice technique against fresh, fully-resisting opponents in competition-style rounds. Emphasize maintaining front headlock dominance even if anaconda attempt fails. Drill quick transitions to alternative submissions. Record successful applications and analyze positioning details that led to success. Refine personal variations based on your body type and athletic attributes."
     }
   ],
   "variants_and_adaptations": [
@@ -205,33 +187,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the correct direction to roll when executing the anaconda choke, and why is this direction critical for the technique's success?",
-      "answer": "You must always roll toward your choking-arm side (the arm threaded across their neck). This direction is critical because rolling toward the choking arm tightens the noose-like configuration around the neck and trapped arm. Rolling the opposite direction would actually loosen the choke and allow easy escape, as it would open space rather than eliminate it. The rolling motion toward the choking side creates the characteristic spiraling pressure that makes the anaconda so effective.",
-      "difficulty": "Beginner"
+      "answer": "You must always roll toward your choking-arm side (the arm threaded across their neck). This direction is critical because rolling toward the choking arm tightens the noose-like configuration around the neck and trapped arm. Rolling the opposite direction would actually loosen the choke and allow easy escape, as it would open space rather than eliminate it. The rolling motion toward the choking side creates the characteristic spiraling pressure that makes the anaconda so effective."
     },
     {
       "question": "Why is trapping the opponent's near arm essential for the anaconda choke, and what happens if this arm remains free during the execution?",
-      "answer": "Trapping the near arm is essential because it serves multiple critical functions: prevents the opponent from posting during the roll (which would stop the technique entirely), creates additional pressure against their own neck (their trapped arm becomes part of the choking mechanism), and eliminates their primary defensive tool. If the arm remains free, the opponent can post as you attempt to roll, preventing completion of the technique and often allowing them to establish top position or escape the front headlock entirely. The trapped arm is what makes it an 'anaconda' rather than just a rolling choke.",
-      "difficulty": "Intermediate"
+      "answer": "Trapping the near arm is essential because it serves multiple critical functions: prevents the opponent from posting during the roll (which would stop the technique entirely), creates additional pressure against their own neck (their trapped arm becomes part of the choking mechanism), and eliminates their primary defensive tool. If the arm remains free, the opponent can post as you attempt to roll, preventing completion of the technique and often allowing them to establish top position or escape the front headlock entirely. The trapped arm is what makes it an 'anaconda' rather than just a rolling choke."
     },
     {
       "question": "Describe the optimal figure-four grip configuration for the anaconda and explain how grip depth affects choking effectiveness?",
-      "answer": "The optimal figure-four involves threading the choking arm deeply across the neck (elbow passing the far shoulder), then reaching the non-choking arm underneath their body to grip your own wrist, bicep, or establish palm-to-palm Gable grip. Grip depth is critical—shallow threading creates a weak angle that opponent can defend by tucking chin or turning. Deep threading positions the choking forearm directly across the carotid artery and creates maximum leverage when squeezing elbows together. The figure-four should feel tight and enclosed before initiating the roll, with no gaps or loose connections.",
-      "difficulty": "Intermediate"
+      "answer": "The optimal figure-four involves threading the choking arm deeply across the neck (elbow passing the far shoulder), then reaching the non-choking arm underneath their body to grip your own wrist, bicep, or establish palm-to-palm Gable grip. Grip depth is critical—shallow threading creates a weak angle that opponent can defend by tucking chin or turning. Deep threading positions the choking forearm directly across the carotid artery and creates maximum leverage when squeezing elbows together. The figure-four should feel tight and enclosed before initiating the roll, with no gaps or loose connections."
     },
     {
       "question": "What are the key biomechanical principles that make the anaconda choke effective, and how does the rolling motion enhance these principles?",
-      "answer": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates an enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed.",
-      "difficulty": "Advanced"
+      "answer": "The anaconda's effectiveness comes from several biomechanical principles: (1) The figure-four arm configuration creates an enclosed loop around the neck that tightens when elbows are squeezed together, (2) The trapped arm forces the opponent's shoulder into their own neck, adding pressure, (3) The rolling motion uses momentum and body weight to eliminate space and spiral the choke tighter, (4) The bottom position post-roll allows use of back arch and chest expansion to maximize pressure. The roll itself transforms a control position into a submission by dramatically reducing the space within the choke loop while simultaneously using rotational force to overcome defensive resistance. The spiral effect created by rolling makes it nearly impossible to defend once properly executed."
     },
     {
       "question": "How would you recognize the optimal moment to transition from front headlock to anaconda versus choosing an alternative attack like Darce or back take?",
-      "answer": "The optimal anaconda opportunity is recognized when: (1) Opponent's posture is broken forward and down, (2) Their near arm is positioned away from their body or can be easily scooped, (3) You have clear space to thread arm deeply without obstruction, (4) Opponent is relatively static in turtle or posted position rather than actively moving. Choose Darce instead when opponent's near arm is tight to their body but their far arm is exposed. Choose back take when opponent is mobile and turning, or when their hips are elevated. The decision comes from reading their defensive structure—anaconda works best against a compact turtle with accessible near arm, while other attacks are better for different defensive configurations. Advanced practitioners develop an instinctive feel for which attack matches the opponent's current vulnerability.",
-      "difficulty": "Advanced"
+      "answer": "The optimal anaconda opportunity is recognized when: (1) Opponent's posture is broken forward and down, (2) Their near arm is positioned away from their body or can be easily scooped, (3) You have clear space to thread arm deeply without obstruction, (4) Opponent is relatively static in turtle or posted position rather than actively moving. Choose Darce instead when opponent's near arm is tight to their body but their far arm is exposed. Choose back take when opponent is mobile and turning, or when their hips are elevated. The decision comes from reading their defensive structure—anaconda works best against a compact turtle with accessible near arm, while other attacks are better for different defensive configurations. Advanced practitioners develop an instinctive feel for which attack matches the opponent's current vulnerability."
     },
     {
       "question": "What safety considerations must be observed when practicing the anaconda choke, and what are the immediate steps if your partner shows signs of distress?",
-      "answer": "Critical safety considerations include: (1) Apply pressure gradually over 3-5 seconds minimum, allowing partner to recognize the submission and tap, (2) Ensure adequate mat space before rolling to avoid rolling partner into obstacles or off the mat, (3) Monitor partner continuously for tap signals (hand tap, foot tap, verbal tap, or loss of resistance), (4) In training, use controlled pressure rather than maximum force even when choke is locked. If partner shows distress (face discoloration, loss of consciousness, or unusual sounds): immediately release all pressure, uncross your ankles/unlock grip, roll partner to recovery position on their side, elevate their legs, call for instructor assistance, and do not move them unnecessarily. Never hold a choke after resistance stops or a tap is felt—release instantly. Prevention through controlled application is always preferable to managing emergencies.",
-      "difficulty": "Beginner"
+      "answer": "Critical safety considerations include: (1) Apply pressure gradually over 3-5 seconds minimum, allowing partner to recognize the submission and tap, (2) Ensure adequate mat space before rolling to avoid rolling partner into obstacles or off the mat, (3) Monitor partner continuously for tap signals (hand tap, foot tap, verbal tap, or loss of resistance), (4) In training, use controlled pressure rather than maximum force even when choke is locked. If partner shows distress (face discoloration, loss of consciousness, or unusual sounds): immediately release all pressure, uncross your ankles/unlock grip, roll partner to recovery position on their side, elevate their legs, call for instructor assistance, and do not move them unnecessarily. Never hold a choke after resistance stops or a tap is felt—release instantly. Prevention through controlled application is always preferable to managing emergencies."
     }
   ],
   "safety_considerations": "⚠️ CRITICAL SAFETY NOTICE: The anaconda choke is a blood choke that can cause unconsciousness in 3-8 seconds if applied with full force. During training, apply pressure gradually over 3-5 seconds minimum to allow partner adequate time to recognize the submission and tap. Monitor partner continuously throughout application and release IMMEDIATELY upon any tap signal (hand, foot, verbal, or loss of resistance). Before rolling, ensure adequate mat space in all directions to avoid rolling partner into obstacles, walls, or off the mat. The rolling motion can disorient both practitioners—maintain awareness of surroundings throughout execution. When practicing as the person being choked, tap early and clearly at the first sign of pressure or discomfort. Do not attempt to 'tough it out' or test your limits with chokes—this serves no training purpose and risks injury. If applying choke causes partner's face to rapidly change color or they make unusual sounds, release immediately even without a tap. Both partners share responsibility for safe training: the person applying must control pressure and release quickly, while the person receiving must tap appropriately and communicate any concerns. Never hold a choke after resistance stops. In competition, judges and referees monitor choke safety, but in training you are your partner's primary safety monitor.",
@@ -274,7 +250,7 @@
       "relationship": "Common starting context - opponent's defensive position being attacked"
     },
     {
-      "name": "D'arce-Anaconda Connection",
+      "name": "Darce-Anaconda Connection",
       "relationship": "Technical relationship - understanding the biomechanical connection between techniques"
     },
     {
@@ -303,5 +279,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 59
 }

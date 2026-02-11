@@ -46,7 +46,7 @@
       "relationship": "Common result when bottom player fails to defend leg weave effectively"
     },
     {
-      "name": "Leg Drag Position",
+      "name": "Leg Drag Control",
       "relationship": "Alternative passing finish when bottom player turns during leg weave"
     }
   ],
@@ -206,7 +206,7 @@
     ],
     "related_content": [
       {
-        "name": "Leg Drag Position",
+        "name": "Leg Drag Control",
         "relationship": "Alternative passing finish from leg weave control"
       },
       {
@@ -236,19 +236,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 50,
-        "intermediate": 65,
-        "advanced": 75
+        "value": 70
       },
       "advancement_probability": {
-        "beginner": 35,
-        "intermediate": 55,
-        "advanced": 70
+        "value": 62
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 15
+        "value": 12
       },
       "average_time": "30-60 seconds for pass completion at advanced level"
     },
@@ -531,19 +525,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 20,
-        "intermediate": 35,
-        "advanced": 50
+        "value": 42
       },
       "advancement_probability": {
-        "beginner": 15,
-        "intermediate": 30,
-        "advanced": 45
+        "value": 38
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 10,
-        "advanced": 20
+        "value": 15
       },
       "average_time": "30-90 seconds before pass or escape"
     },

@@ -21,37 +21,37 @@ description: "Master De La Riva Guard Bottom in BJJ. Hook-based offensive guard 
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
-      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 17% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva to X-Guard Transition",
-      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt De La Riva to X-Guard Transition. This technique is attempted in 15% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Berimbolo Entry",
-      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Berimbolo Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kiss of the Dragon",
-      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Kiss of the Dragon. This technique is attempted in 9% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Single Leg X Entry",
-      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Single Leg X Entry. This technique is attempted in 13% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Waiter Sweep",
-      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 10% of exchanges from this position.",
+      "text": "From this position, attempt Waiter Sweep. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -206,21 +206,23 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ## Available Escapes
 
-### [[De La Riva Sweep]] (18% of attempts)
+### [[De La Riva Sweep]] (17% of attempts)
 
-### [[De La Riva to X-Guard Transition]] (17% of attempts)
+### [[De La Riva to X-Guard Transition]] (15% of attempts)
 
-### [[Berimbolo Entry]] (15% of attempts)
+### [[Berimbolo Entry]] (13% of attempts)
 
-### [[Kiss of the Dragon]] (10% of attempts)
+### [[Kiss of the Dragon]] (9% of attempts)
 
-### [[Single Leg X Entry]] (15% of attempts)
+### [[Single Leg X Entry]] (13% of attempts)
 
-### [[Waiter Sweep]] (10% of attempts)
+### [[Waiter Sweep]] (9% of attempts)
 
-### [[Balloon Sweep]] (8% of attempts)
+### [[Balloon Sweep]] (7% of attempts)
 
-### [[Outside Ashi Entry]] (7% of attempts)
+### [[Outside Ashi Entry]] (6% of attempts)
+
+### [[Sickle Sweep]] (11% of attempts)
 
 
 
@@ -334,11 +336,11 @@ Partner maintains upright posture in your DLR guard. Practice the transition to 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 35% | 10% |
-| Intermediate | 60% | 55% | 20% |
-| Advanced     | 75% | 70% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 28% |
 
 **Average Time in Position**: 45-90 seconds per engagement
 

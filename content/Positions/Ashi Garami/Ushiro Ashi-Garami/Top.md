@@ -374,11 +374,11 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 25% | 35% | 20% |
-| Intermediate | 40% | 50% | 35% |
-| Advanced     | 60% | 70% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 50% |
+| Advancement Probability | 60% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 10-20 seconds (transitional position requiring quick decision-making)
 

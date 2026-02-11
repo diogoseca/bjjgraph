@@ -159,7 +159,7 @@ description: "Learn Kiss of the Dragon in BJJ. Rolling transition from Turtle to
 The Kiss of the Dragon is an advanced rolling back take technique that allows the top player to bypass the turtle position's defensive structure and directly establish back control. Named for its distinctive forward rolling motion that resembles a dragon's head curling down, this technique exploits the moment when an opponent turtles defensively. The practitioner uses a forward somersault while maintaining grip control on the opponent's hips or belt, rolling underneath and behind the turtle position to emerge directly on the back. This dynamic movement is particularly effective against opponents who are skilled at defending traditional back take attempts, as it circumvents the typical defensive frames and hand fighting that occur during standard back attacks. The technique requires excellent spatial awareness, timing, and the ability to maintain connection throughout the inversion. When executed properly, the Kiss of the Dragon provides an almost undefendable path to the back, as the defender's protective layers are bypassed entirely through the rolling motion.
 
 **From Position**: [[Turtle/Top]]
-**Success Rates**: Beginner 25%, Intermediate 40%, Advanced 60%
+**Success Rate**: 50%
 
 </section>
 
@@ -208,13 +208,13 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish hip control from top turtle**: From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hip level. This grip serves as your anchor point throughout the entire technique. Position yourself slightly to one side of the turtle position rather than directly behind, as this creates the angle needed for entry. (Timing: When opponent settles into defensive turtle structure)
-2. **Drop head below opponent's hips**: Lower your head and shoulders beneath the level of your opponent's hips while maintaining your grip. This positioning is critical as it creates the proper axis for your forward roll. Your forehead should be pointing toward the mat, and your spine should begin to round in preparation for the somersault motion. (Timing: As opponent's weight shifts forward or they brace against traditional back attacks)
-3. **Initiate forward roll under opponent**: Execute a tight forward somersault while pulling on the hip grip to maintain connection. Tuck your chin to your chest and roll over your shoulder, directing your momentum to pass underneath the opponent's center of gravity. The roll should be compact and controlled, with your body staying connected to the opponent's hips throughout the rotation. (Timing: Explosive initiation once head is properly positioned)
-4. **Maintain hip connection through inversion**: As you roll inverted underneath your opponent, actively pull on your hip grip to keep your body connected to theirs. This prevents separation and ensures you emerge in the correct position relative to their back. Your legs may briefly go over your head during this phase as you complete the somersault motion underneath them. (Timing: Continuous throughout the rolling motion)
-5. **Emerge behind opponent's back**: Complete the forward roll to emerge directly behind your opponent's back, ending in a position where you are sitting up and they are still in turtle facing away from you. Your grip on their hips should still be intact. Your chest should be approaching their back as you come out of the roll. (Timing: As rotational momentum completes and you return to upright orientation)
-6. **Establish seatbelt control**: Immediately transition your grips to establish the seatbelt position by threading one arm over the opponent's shoulder and the other under their armpit, clasping your hands together. This control must be established quickly before the opponent can turn to face you or defend the back position. (Timing: Immediately upon completing roll)
-7. **Insert hooks and secure back control**: With seatbelt control established, use your legs to insert both hooks inside your opponent's thighs, establishing full back control. The momentum from your roll and the surprise of your position makes hook insertion significantly easier than traditional back takes. Pull your opponent's weight back onto you to flatten them and consolidate your dominant position. (Timing: Before opponent can turn into you or establish defensive frames)
+1. **Establish hip control from top turtle**: From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hip level. This grip serves as your anchor point throughout the entire technique. Position yourself slightly to one side of the turtle position rather than directly behind, as this creates the angle needed for entry.
+2. **Drop head below opponent's hips**: Lower your head and shoulders beneath the level of your opponent's hips while maintaining your grip. This positioning is critical as it creates the proper axis for your forward roll. Your forehead should be pointing toward the mat, and your spine should begin to round in preparation for the somersault motion.
+3. **Initiate forward roll under opponent**: Execute a tight forward somersault while pulling on the hip grip to maintain connection. Tuck your chin to your chest and roll over your shoulder, directing your momentum to pass underneath the opponent's center of gravity. The roll should be compact and controlled, with your body staying connected to the opponent's hips throughout the rotation.
+4. **Maintain hip connection through inversion**: As you roll inverted underneath your opponent, actively pull on your hip grip to keep your body connected to theirs. This prevents separation and ensures you emerge in the correct position relative to their back. Your legs may briefly go over your head during this phase as you complete the somersault motion underneath them.
+5. **Emerge behind opponent's back**: Complete the forward roll to emerge directly behind your opponent's back, ending in a position where you are sitting up and they are still in turtle facing away from you. Your grip on their hips should still be intact. Your chest should be approaching their back as you come out of the roll.
+6. **Establish seatbelt control**: Immediately transition your grips to establish the seatbelt position by threading one arm over the opponent's shoulder and the other under their armpit, clasping your hands together. This control must be established quickly before the opponent can turn to face you or defend the back position.
+7. **Insert hooks and secure back control**: With seatbelt control established, use your legs to insert both hooks inside your opponent's thighs, establishing full back control. The momentum from your roll and the surprise of your position makes hook insertion significantly easier than traditional back takes. Pull your opponent's weight back onto you to flatten them and consolidate your dominant position.
 
 
 </section>
@@ -260,27 +260,21 @@ The Kiss of the Dragon is an advanced rolling back take technique that allows th
 ## Training Progressions
 **Phase 1: Rolling Mechanics** - Master the forward roll motion without opponent
 Practice forward rolls in isolation, focusing on tucked chin, rounded spine, and smooth rotation. Start from kneeling position and gradually add speed. Perform 20-30 repetitions to build muscle memory and comfort with inversion.
-(Resistance: None)
 
 **Phase 2: Static Position Drilling** - Execute technique from frozen turtle position
 Partner holds static turtle position while you practice the complete technique sequence from grip establishment through back control. Partner remains stationary to allow you to refine movement patterns and timing. Focus on maintaining hip connection throughout the roll. Perform 10-15 repetitions per training session.
-(Resistance: None)
 
 **Phase 3: Limited Resistance Entry** - Add defensive frames and posture from partner
 Partner maintains turtle but can adjust their posture and use frames to create realistic defensive structure. They do not actively counter your technique but present obstacles you must navigate. Practice timing your entry when they shift weight forward. Perform 8-10 repetitions focusing on reading defensive cues.
-(Resistance: Light)
 
 **Phase 4: Progressive Counters** - Partner introduces specific counters one at a time
 Partner applies one predetermined counter technique (following your roll, breaking grip, or sprawling back). Practice recognizing and responding to each counter type before adding additional defensive options. Cycle through each counter type for 5 repetitions before moving to the next.
-(Resistance: Medium)
 
 **Phase 5: Full Resistance from Turtle** - Execute technique during live positional sparring
 Start from top turtle position with partner defending at full resistance using any methods they choose. Attempt Kiss of the Dragon when opportunity presents itself. Reset to starting position after each attempt regardless of success. 5-minute rounds with multiple partners of varying skill levels.
-(Resistance: Full)
 
 **Phase 6: Integration into Open Rolling** - Apply technique during unrestricted sparring
 Use Kiss of the Dragon during normal training rolls when opponent assumes turtle position. No starting position restrictions. Track success rate and identify common scenarios where technique works best. Record attempts and outcomes to refine timing and setup recognition.
-(Resistance: Full)
 
 
 

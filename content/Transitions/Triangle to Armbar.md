@@ -153,7 +153,7 @@ description: "Learn Triangle to Armbar transition in BJJ. Step-by-step execution
 The Triangle to Armbar transition represents one of the most fundamental and high-percentage submission chains in Brazilian Jiu-Jitsu. When an opponent defends the triangle choke by maintaining proper posture or hand positioning, the armbar becomes immediately available. This transition capitalizes on the opponent's defensive response to the triangle, creating a classic two-attack system where defending one submission opens the path to another. The technical execution requires precise angle adjustment, hip mobility, and control of the defending arm. Unlike standalone armbars, this variation benefits from the leg control already established during the triangle attempt, making escape significantly more difficult. The transition can be executed from closed guard, open guard variations, or even scramble situations where triangle control has been established. Understanding this connection is essential for developing a complete guard game, as it forces opponents into defensive dilemmas where every response creates vulnerability. The triangle-to-armbar system exemplifies the principle of submission chains, where multiple attacks flow seamlessly based on the opponent's reactions, maximizing offensive pressure while minimizing energy expenditure.
 
 **From Position**: [[Triangle Control/Top]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -202,12 +202,12 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Identify the defending arm**: Recognize that the opponent is defending the triangle by using their trapped arm to create space or frame against your leg. This arm, already inside your triangle configuration, becomes your primary target for the armbar transition. (Timing: Immediate recognition when triangle pressure is being resisted)
-2. **Overhook and isolate the arm**: Reach over the top of the defending arm and secure a deep overhook grip, pulling the arm tight across your chest and toward your opposite shoulder. This isolation prevents the opponent from extracting the arm and commits them to a defensive position that facilitates the armbar. (Timing: Before opponent can retract or reposition the defending arm)
-3. **Release the triangle squeeze slightly**: Momentarily reduce the squeezing pressure of your legs to allow hip movement, while maintaining the leg configuration around the opponent's head and arm. This creates the mobility needed to pivot without losing positional control. (Timing: Only after securing the overhook control on the arm)
-4. **Pivot hips perpendicular**: Swing your hips out to the side, rotating your body until you are perpendicular to your opponent's torso. Your leg that was across the back of their neck should now be positioned across their face, while maintaining control of their trapped arm with your overhook. (Timing: Smooth, continuous motion immediately after loosening triangle pressure)
-5. **Secure arm across centerline**: Pull the controlled arm tightly across your hips and centerline, ensuring the opponent's thumb points upward and their elbow is above your hip line. Both hands should grip the wrist or forearm, creating maximum control before extending back for the finish. (Timing: Before dropping weight back for the armbar extension)
-6. **Fall back and extend for finish**: Drop your weight back toward the mat while simultaneously pinching your knees together and lifting your hips upward. The leg across the opponent's face drives down, controlling their head and preventing them from rolling forward, while hip elevation creates the hyperextension force on the elbow joint. (Timing: Explosive movement once arm is secured across hips)
+1. **Identify the defending arm**: Recognize that the opponent is defending the triangle by using their trapped arm to create space or frame against your leg. This arm, already inside your triangle configuration, becomes your primary target for the armbar transition.
+2. **Overhook and isolate the arm**: Reach over the top of the defending arm and secure a deep overhook grip, pulling the arm tight across your chest and toward your opposite shoulder. This isolation prevents the opponent from extracting the arm and commits them to a defensive position that facilitates the armbar.
+3. **Release the triangle squeeze slightly**: Momentarily reduce the squeezing pressure of your legs to allow hip movement, while maintaining the leg configuration around the opponent's head and arm. This creates the mobility needed to pivot without losing positional control.
+4. **Pivot hips perpendicular**: Swing your hips out to the side, rotating your body until you are perpendicular to your opponent's torso. Your leg that was across the back of their neck should now be positioned across their face, while maintaining control of their trapped arm with your overhook.
+5. **Secure arm across centerline**: Pull the controlled arm tightly across your hips and centerline, ensuring the opponent's thumb points upward and their elbow is above your hip line. Both hands should grip the wrist or forearm, creating maximum control before extending back for the finish.
+6. **Fall back and extend for finish**: Drop your weight back toward the mat while simultaneously pinching your knees together and lifting your hips upward. The leg across the opponent's face drives down, controlling their head and preventing them from rolling forward, while hip elevation creates the hyperextension force on the elbow joint.
 
 
 </section>
@@ -250,19 +250,15 @@ The Triangle to Armbar transition represents one of the most fundamental and hig
 ## Training Progressions
 **Phase 1: Isolated Drilling (Weeks 1-2)** - Mechanical repetition of the transition with cooperative partner
 Partner establishes triangle defense posture while you practice the overhook, pivot, and arm isolation sequence slowly. Focus on smooth hip movement and maintaining leg control throughout. Perform 20-30 repetitions per training session, emphasizing technical precision over speed.
-(Resistance: None)
 
 **Phase 2: Position-Specific Training (Weeks 3-4)** - Triangle control to armbar with light defensive resistance
 Start from established triangle position with partner providing mild defensive resistance by maintaining posture and attempting to create space. Practice reading their defensive response and timing your transition appropriately. Include both successful transitions and resets when opponent defends effectively.
-(Resistance: Light)
 
 **Phase 3: Submission Chain Drilling (Weeks 5-6)** - Full triangle-to-armbar chain with multiple attack sequences
 Begin from closed guard and establish triangle, then flow between triangle pressure, armbar transition, and return to triangle based on partner's reactions. Develop the ability to switch between attacks fluidly while maintaining offensive pressure. Partner provides moderate resistance and actively defends both submissions.
-(Resistance: Medium)
 
 **Phase 4: Live Training Integration (Week 7+)** - Applying the transition during full-resistance positional sparring
 Start from guard positions during rolling with the specific goal of establishing triangle control and recognizing armbar opportunities. Partner provides full resistance. Track success rate and identify common failure points for additional drilling focus. Integrate with other guard attacks and sweeps.
-(Resistance: Full)
 
 
 

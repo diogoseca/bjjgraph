@@ -30,11 +30,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The Toe Hold from Top is a rotational foot lock attack executed from the Honey Hole (Inside Sankaku/Saddle) top position, targeting the opponent's ankle and knee through forced inward rotation of the foot. This submission serves as a critical secondary attack when the opponent defends the primary heel hook by hiding their heel deep in your armpit or tucking their foot. The kimura-style grip on the opponent's foot creates a powerful twisting force that attacks the ankle ligaments, knee structures, and can generate a calf-crushing effect simultaneously.\n\nStrategically, the Toe Hold from Top fills a crucial gap in the Honey Hole attack chain. When opponents develop strong heel-hiding defense against inside and outside heel hooks, the toe hold becomes the pressure release valve that forces them to expose their heel again or submit to the rotation. The grip transition from heel hook hunting to toe hold requires minimal positional adjustment, making it a high-percentage chain attack. The submission timeline is compressed - once the kimura grip locks around the foot with proper figure-four mechanics, the finish window is 2-4 seconds.\n\nThe technique demands precise grip placement and controlled rotational force. Unlike heel hooks which attack primarily through rotational torque on the knee, the toe hold distributes force across the ankle, foot, and knee simultaneously. This makes it particularly effective against opponents who have conditioned themselves to defend rotational knee attacks but may underestimate the ankle threat. In competition, the toe hold from Honey Hole has become a staple of elite leg lockers who use it to create submission dilemmas that force opponents into impossible defensive choices.",
   "key_principles": [
     "Kimura grip configuration on the foot creates maximum rotational leverage through figure-four mechanics",
@@ -56,44 +51,37 @@
     {
       "step_number": 1,
       "action": "Identify heel defense",
-      "description": "Recognize that opponent has successfully hidden their heel by tucking their foot inward toward your hip or burying it in your armpit, making heel hook grip establishment impossible with current hand positioning",
-      "timing": "Immediately upon recognizing failed heel hook attempt"
+      "description": "Recognize that opponent has successfully hidden their heel by tucking their foot inward toward your hip or burying it in your armpit, making heel hook grip establishment impossible with current hand positioning"
     },
     {
       "step_number": 2,
       "action": "Secure the foot",
-      "description": "With your outside hand (the one closest to opponent's toes), reach over the top of their foot and cup the ball of the foot with your palm wrapping around the lateral edge of the foot near the toes, fingers gripping the sole",
-      "timing": "Within 1-2 seconds of abandoning heel hook grip"
+      "description": "With your outside hand (the one closest to opponent's toes), reach over the top of their foot and cup the ball of the foot with your palm wrapping around the lateral edge of the foot near the toes, fingers gripping the sole"
     },
     {
       "step_number": 3,
       "action": "Establish kimura grip",
-      "description": "Thread your inside arm underneath their foot from the ankle side, then grip your own wrist with a figure-four configuration identical to a kimura grip, creating a closed-loop control system around the foot and ankle joint",
-      "timing": "Immediately after securing foot control"
+      "description": "Thread your inside arm underneath their foot from the ankle side, then grip your own wrist with a figure-four configuration identical to a kimura grip, creating a closed-loop control system around the foot and ankle joint"
     },
     {
       "step_number": 4,
       "action": "Tighten leg triangle",
-      "description": "Before applying any rotational pressure, re-confirm your inside leg triangle is locked tight around their thigh and your outside leg is driving across their hip, preventing any rotation or hip movement that would dissipate the toe hold force",
-      "timing": "Brief positional check before applying pressure"
+      "description": "Before applying any rotational pressure, re-confirm your inside leg triangle is locked tight around their thigh and your outside leg is driving across their hip, preventing any rotation or hip movement that would dissipate the toe hold force"
     },
     {
       "step_number": 5,
       "action": "Pin elbow to hip",
-      "description": "Draw your elbows tight to your ribcage and pin the grip configuration against your torso, eliminating any slack in the system and ensuring that all rotational force transfers directly from your body mechanics through the grip into the foot",
-      "timing": "Immediately before initiating rotation"
+      "description": "Draw your elbows tight to your ribcage and pin the grip configuration against your torso, eliminating any slack in the system and ensuring that all rotational force transfers directly from your body mechanics through the grip into the foot"
     },
     {
       "step_number": 6,
       "action": "Apply controlled rotation",
-      "description": "Rotate the foot inward toward opponent's centerline using your entire upper body, not just arm strength, twisting the foot medially while your hips drive forward to prevent their hip from following the rotation, creating progressive torque on the ankle and knee joint",
-      "timing": "Steady progressive pressure over 2-4 seconds"
+      "description": "Rotate the foot inward toward opponent's centerline using your entire upper body, not just arm strength, twisting the foot medially while your hips drive forward to prevent their hip from following the rotation, creating progressive torque on the ankle and knee joint"
     },
     {
       "step_number": 7,
       "action": "Drive hips forward for finish",
-      "description": "Simultaneously drive your hips forward into opponent's trapped leg while maintaining the inward foot rotation, creating a compound force that attacks both the ankle through rotation and the knee through hyperextension, completing the submission",
-      "timing": "Final phase - stop immediately upon tap"
+      "description": "Simultaneously drive your hips forward into opponent's trapped leg while maintaining the inward foot rotation, creating a compound force that attacks both the ankle through rotation and the knee through hyperextension, completing the submission"
     }
   ],
   "common_counters": [
@@ -154,26 +142,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Grip mechanics and foot positioning",
-      "description": "Practice the kimura grip configuration on a compliant partner's foot from established Honey Hole. Focus on correct hand placement cupping the ball of the foot, figure-four lock, and elbow-to-rib pinning. No rotation applied - just grip establishment 20-30 repetitions per session on each side.",
-      "resistance_level": "None"
+      "description": "Practice the kimura grip configuration on a compliant partner's foot from established Honey Hole. Focus on correct hand placement cupping the ball of the foot, figure-four lock, and elbow-to-rib pinning. No rotation applied - just grip establishment 20-30 repetitions per session on each side."
     },
     {
       "phase": "Week 3-4",
       "focus": "Grip transition from heel hook to toe hold",
-      "description": "From Honey Hole with partner providing light resistance, practice the hand transition from heel hook hunting grip to toe hold kimura grip while maintaining triangle control. Partner hides heel on cue, you switch to toe hold. Apply gentle rotation to feel the mechanics. 15-20 transitions per round.",
-      "resistance_level": "Light"
+      "description": "From Honey Hole with partner providing light resistance, practice the hand transition from heel hook hunting grip to toe hold kimura grip while maintaining triangle control. Partner hides heel on cue, you switch to toe hold. Apply gentle rotation to feel the mechanics. 15-20 transitions per round."
     },
     {
       "phase": "Week 5-6",
       "focus": "Chain attacks and submission dilemmas",
-      "description": "Practice heel hook to toe hold to heel hook chains with partner defending at medium resistance. When partner hides heel, transition to toe hold. When partner rotates to relieve toe hold, transition back to heel hook on exposed heel. Build the attack chain that creates defensive dilemmas.",
-      "resistance_level": "Medium"
+      "description": "Practice heel hook to toe hold to heel hook chains with partner defending at medium resistance. When partner hides heel, transition to toe hold. When partner rotates to relieve toe hold, transition back to heel hook on exposed heel. Build the attack chain that creates defensive dilemmas."
     },
     {
       "phase": "Week 7-8",
       "focus": "Live positional sparring",
-      "description": "Full positional sparring starting from Honey Hole. Attempt toe hold when heel hook is defended, using all chain attacks available. Partner defends at full resistance. Track success rate and identify which defensive reactions you struggle to counter. Aim for 3-minute rounds with resets.",
-      "resistance_level": "Full"
+      "description": "Full positional sparring starting from Honey Hole. Attempt toe hold when heel hook is defended, using all chain attacks available. Partner defends at full resistance. Track success rate and identify which defensive reactions you struggle to counter. Aim for 3-minute rounds with resets."
     }
   ],
   "variants_and_adaptations": [
@@ -196,53 +180,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of Toe Hold from Top in the Honey Hole attack chain?",
-      "answer": "The primary goal is to submit the opponent through forced inward rotation of the foot attacking ankle ligaments and knee structures, but it also serves as a critical secondary attack that creates a submission dilemma - opponents hiding their heel to defend heel hooks expose themselves to the toe hold, and defending the toe hold by rotating often re-exposes the heel for heel hook transition.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is to submit the opponent through forced inward rotation of the foot attacking ankle ligaments and knee structures, but it also serves as a critical secondary attack that creates a submission dilemma - opponents hiding their heel to defend heel hooks expose themselves to the toe hold, and defending the toe hold by rotating often re-exposes the heel for heel hook transition."
     },
     {
       "question": "Your opponent has hidden their heel deep in your armpit from Honey Hole - what must you verify before transitioning to the toe hold grip?",
-      "answer": "Verify that your inside leg triangle remains tight around their thigh and your outside leg is still driving across their hip maintaining pin pressure. The grip transition from heel hook hunting to toe hold creates a brief vulnerability window where your hands are not controlling the opponent. Your legs must maintain 100% of the positional control during this transition or the opponent will escape the Honey Hole entirely.",
-      "difficulty": "Intermediate"
+      "answer": "Verify that your inside leg triangle remains tight around their thigh and your outside leg is still driving across their hip maintaining pin pressure. The grip transition from heel hook hunting to toe hold creates a brief vulnerability window where your hands are not controlling the opponent. Your legs must maintain 100% of the positional control during this transition or the opponent will escape the Honey Hole entirely."
     },
     {
       "question": "Where exactly should your hand cup the foot for maximum toe hold leverage?",
-      "answer": "Cup the ball of the foot with your palm wrapping around the lateral edge near the toes, not near the ankle. The further from the ankle joint your grip placement, the longer the moment arm and the greater the rotational leverage generated. Gripping near the ankle dramatically reduces leverage and requires excessive arm strength to generate sufficient torque for the finish.",
-      "difficulty": "Beginner"
+      "answer": "Cup the ball of the foot with your palm wrapping around the lateral edge near the toes, not near the ankle. The further from the ankle joint your grip placement, the longer the moment arm and the greater the rotational leverage generated. Gripping near the ankle dramatically reduces leverage and requires excessive arm strength to generate sufficient torque for the finish."
     },
     {
       "question": "Your opponent begins rotating their entire body in the direction of your toe hold pressure - how do you respond?",
-      "answer": "Follow their rotation with your hips while maintaining triangle control to stay connected. As they rotate, their heel typically becomes exposed - immediately release the toe hold and transition to an inside heel hook grip on the now-accessible heel. The toe hold forced them to choose between tapping to the toe hold or exposing their heel, and their rotation chose the latter. This heel hook to toe hold to heel hook chain is the core dilemma of the Honey Hole attack system.",
-      "difficulty": "Advanced"
+      "answer": "Follow their rotation with your hips while maintaining triangle control to stay connected. As they rotate, their heel typically becomes exposed - immediately release the toe hold and transition to an inside heel hook grip on the now-accessible heel. The toe hold forced them to choose between tapping to the toe hold or exposing their heel, and their rotation chose the latter. This heel hook to toe hold to heel hook chain is the core dilemma of the Honey Hole attack system."
     },
     {
       "question": "What is the critical mechanical difference between finishing the toe hold with arm strength versus body mechanics?",
-      "answer": "Arm-only rotation fatigues the forearms rapidly and generates insufficient torque against a resisting opponent, often failing to finish and burning grip strength needed for subsequent attacks. Proper body mechanics involve pinning elbows to your ribs and rotating your entire torso while driving hips forward, transferring your full body weight and core rotation into the foot. This generates dramatically more force with less fatigue and is sustainable across multiple submission attempts.",
-      "difficulty": "Intermediate"
+      "answer": "Arm-only rotation fatigues the forearms rapidly and generates insufficient torque against a resisting opponent, often failing to finish and burning grip strength needed for subsequent attacks. Proper body mechanics involve pinning elbows to your ribs and rotating your entire torso while driving hips forward, transferring your full body weight and core rotation into the foot. This generates dramatically more force with less fatigue and is sustainable across multiple submission attempts."
     },
     {
       "question": "What direction should you rotate the opponent's foot during the toe hold finish and why?",
-      "answer": "Rotate the foot inward toward the opponent's centerline (medial rotation). This direction attacks the lateral ankle ligaments and creates rotational stress on the knee joint simultaneously. Inward rotation is mechanically optimal because it works against the natural range of motion limits of the ankle complex and is amplified by the perpendicular body alignment of the Honey Hole position. Outward rotation would actually work with the joint's natural range and be far less effective.",
-      "difficulty": "Intermediate"
+      "answer": "Rotate the foot inward toward the opponent's centerline (medial rotation). This direction attacks the lateral ankle ligaments and creates rotational stress on the knee joint simultaneously. Inward rotation is mechanically optimal because it works against the natural range of motion limits of the ankle complex and is amplified by the perpendicular body alignment of the Honey Hole position. Outward rotation would actually work with the joint's natural range and be far less effective."
     },
     {
       "question": "Your toe hold grip is locked but the opponent straightens their leg explosively to resist - should you abandon the submission?",
-      "answer": "No - a straightened leg actually increases toe hold leverage because it lengthens the moment arm from ankle to knee. Maintain your kimura grip with elbows pinned to ribs, tighten your triangle to prevent full extension, and continue applying rotational pressure. The straightened leg makes the submission more effective, not less. However, if they manage to extract their foot from the grip entirely during the extension, transition immediately back to heel hook or kneebar before they re-establish defense.",
-      "difficulty": "Advanced"
+      "answer": "No - a straightened leg actually increases toe hold leverage because it lengthens the moment arm from ankle to knee. Maintain your kimura grip with elbows pinned to ribs, tighten your triangle to prevent full extension, and continue applying rotational pressure. The straightened leg makes the submission more effective, not less. However, if they manage to extract their foot from the grip entirely during the extension, transition immediately back to heel hook or kneebar before they re-establish defense."
     },
     {
       "question": "When should you choose toe hold over kneebar when the heel hook is defended from Honey Hole?",
-      "answer": "Choose toe hold when the opponent's foot is accessible at the ankle-to-toe range and they are hiding the heel specifically. Choose kneebar when the opponent's entire foot is buried deep and inaccessible for any grip, but their knee is exposed over your hip. The toe hold requires foot access for the kimura grip, while the kneebar requires knee exposure for hip pressure. Read which body part the opponent leaves vulnerable based on their specific heel-hiding defense.",
-      "difficulty": "Advanced"
+      "answer": "Choose toe hold when the opponent's foot is accessible at the ankle-to-toe range and they are hiding the heel specifically. Choose kneebar when the opponent's entire foot is buried deep and inaccessible for any grip, but their knee is exposed over your hip. The toe hold requires foot access for the kimura grip, while the kneebar requires knee exposure for hip pressure. Read which body part the opponent leaves vulnerable based on their specific heel-hiding defense."
     },
     {
       "question": "What are the entry requirements that must exist before you can effectively attempt the Toe Hold from Top?",
-      "answer": "Four conditions must be present: (1) Honey Hole top position established with inside leg triangle locked, (2) opponent's heel is defended or hidden making heel hook grip establishment impractical, (3) opponent's foot remains accessible at the ball/toes for kimura grip placement, and (4) your hip pressure through the outside leg is maintained to prevent rotational escape during the grip transition window. Missing any one of these conditions significantly reduces success probability.",
-      "difficulty": "Beginner"
+      "answer": "Four conditions must be present: (1) Honey Hole top position established with inside leg triangle locked, (2) opponent's heel is defended or hidden making heel hook grip establishment impractical, (3) opponent's foot remains accessible at the ball/toes for kimura grip placement, and (4) your hip pressure through the outside leg is maintained to prevent rotational escape during the grip transition window. Missing any one of these conditions significantly reduces success probability."
     },
     {
       "question": "During a competition round, you've attempted heel hook and toe hold three times each without finishing - what adjustment should you make?",
-      "answer": "The opponent has likely developed a defensive pattern you can read. Instead of continuing the same heel hook to toe hold cycle, introduce a kneebar or calf slicer to change the attack angle entirely and disrupt their defensive timing. Alternatively, abandon the current toe hold attempt mid-grip and immediately shoot for the heel hook while their hands are committed to toe hold defense. Breaking the predictable attack pattern is more important than perfecting any single submission attempt when the opponent has successfully defended multiple rounds.",
-      "difficulty": "Advanced"
+      "answer": "The opponent has likely developed a defensive pattern you can read. Instead of continuing the same heel hook to toe hold cycle, introduce a kneebar or calf slicer to change the attack angle entirely and disrupt their defensive timing. Alternatively, abandon the current toe hold attempt mid-grip and immediately shoot for the heel hook while their hands are committed to toe hold defense. Breaking the predictable attack pattern is more important than perfecting any single submission attempt when the opponent has successfully defended multiple rounds."
     }
   ],
   "safety_considerations": "The Toe Hold from Top attacks the ankle joint, foot ligaments, and creates secondary stress on the knee through forced rotation. Injury risk is significant because the ankle can sustain damage faster than many practitioners expect - ligament tears and fractures can occur within 1-2 seconds of applied rotational pressure. Always apply progressive pressure in training, never explosive cranking. Partners must tap early and clearly when rotation begins, as the submission tightens rapidly. Release immediately upon any tap signal. Practitioners with prior ankle injuries, previous foot surgeries, or existing knee instability should communicate these vulnerabilities before training. Avoid this technique entirely on partners who are new to leg locks and may not recognize the danger signals in time to tap. In competition, maintain controlled application even under adrenaline - the goal is submission through positional dominance, not injury through reckless force.",
@@ -296,5 +270,6 @@
       "name": "Leg Entanglement",
       "relationship": "Conceptual framework governing all leg lock positions and attacks"
     }
-  ]
+  ],
+  "success_rate": 58
 }

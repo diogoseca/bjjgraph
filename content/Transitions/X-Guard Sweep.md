@@ -153,7 +153,7 @@ description: "Master X-Guard Sweep in BJJ. Complete technical guide with step-by
 The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses superior leverage and off-balancing mechanics to elevate and sweep the opponent. By controlling both legs while maintaining upper body connection, the bottom player creates a powerful mechanical advantage that makes the sweep extremely difficult to defend. The technique exploits the opponent's unstable base by removing their ability to post or widen their stance, forcing them into a position where they cannot recover balance. This sweep is particularly effective against standing opponents and those attempting to pass the guard, as it capitalizes on their forward pressure and commitment to forward movement. The X-Guard Sweep serves as a cornerstone technique within the broader X-Guard attacking system, leading to dominant positions like mount, side control, or back control depending on the opponent's defensive reactions.
 
 **From Position**: [[X-Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure X-Guard position**: Establish complete X-Guard control with your bottom leg (X-hook) threaded across opponent's far leg, instep positioned behind their knee. Your top leg hooks their near leg at the hip level, controlling their base. Grip their ankle or pant leg with your same-side hand while your opposite hand controls their belt or gi material at the hip. (Timing: Before opponent establishes strong passing pressure)
-2. **Break opponent's posture and base**: Pull down on the ankle grip while simultaneously driving your X-hook upward into their far leg, lifting it off the ground. This removes one of their two primary base points. Your top hook simultaneously pulls their near leg toward you, preventing them from widening their base or stepping away to recover balance. (Timing: As opponent commits weight forward or attempts to pass)
-3. **Create elevation angle**: Drive your hips upward and toward the opponent's supporting leg while maintaining tension on all control points. Your X-hook should be lifting their far leg progressively higher, creating a diagonal elevation that compromises their center of gravity. Angle your body approximately 45 degrees relative to their centerline to maximize mechanical advantage. (Timing: Immediately after breaking their base)
-4. **Generate rotational force**: While maintaining upward pressure with your X-hook, begin rotating your torso and hips in the direction of the sweep (toward their controlled leg). Pull strongly on the ankle grip to accelerate their rotation and prevent them from posting their hand. Your top hook should maintain constant tension, preventing any recovery of their near leg's base. (Timing: As opponent begins to lose balance)
-5. **Complete the sweep**: Continue the rotational and upward pressure until opponent's weight fully commits past their tipping point. As they fall, release your X-hook and begin transitioning your body to follow them to the mat. Your top hook can be maintained momentarily to control their near leg and prevent scrambling, or released to allow faster position advancement. (Timing: As opponent falls to the mat)
-6. **Secure top position**: Follow opponent's falling trajectory by immediately coming up on top, driving your chest and shoulder pressure into their torso. Establish mount by bringing your knees to their sides, or transition to side control by securing crossface and hip control. Maintain tight connection throughout the transition to prevent re-guarding or escape attempts. (Timing: Immediately as sweep completes)
+1. **Secure X-Guard position**: Establish complete X-Guard control with your bottom leg (X-hook) threaded across opponent's far leg, instep positioned behind their knee. Your top leg hooks their near leg at the hip level, controlling their base. Grip their ankle or pant leg with your same-side hand while your opposite hand controls their belt or gi material at the hip.
+2. **Break opponent's posture and base**: Pull down on the ankle grip while simultaneously driving your X-hook upward into their far leg, lifting it off the ground. This removes one of their two primary base points. Your top hook simultaneously pulls their near leg toward you, preventing them from widening their base or stepping away to recover balance.
+3. **Create elevation angle**: Drive your hips upward and toward the opponent's supporting leg while maintaining tension on all control points. Your X-hook should be lifting their far leg progressively higher, creating a diagonal elevation that compromises their center of gravity. Angle your body approximately 45 degrees relative to their centerline to maximize mechanical advantage.
+4. **Generate rotational force**: While maintaining upward pressure with your X-hook, begin rotating your torso and hips in the direction of the sweep (toward their controlled leg). Pull strongly on the ankle grip to accelerate their rotation and prevent them from posting their hand. Your top hook should maintain constant tension, preventing any recovery of their near leg's base.
+5. **Complete the sweep**: Continue the rotational and upward pressure until opponent's weight fully commits past their tipping point. As they fall, release your X-hook and begin transitioning your body to follow them to the mat. Your top hook can be maintained momentarily to control their near leg and prevent scrambling, or released to allow faster position advancement.
+6. **Secure top position**: Follow opponent's falling trajectory by immediately coming up on top, driving your chest and shoulder pressure into their torso. Establish mount by bringing your knees to their sides, or transition to side control by securing crossface and hip control. Maintain tight connection throughout the transition to prevent re-guarding or escape attempts.
 
 
 </section>
@@ -255,27 +255,21 @@ The X-Guard Sweep is a fundamental attacking technique from X-Guard that uses su
 ## Training Progressions
 **Week 1-2: Fundamental Mechanics** - Learning proper X-Guard position and basic sweeping motion
 Partner starts standing in combat base. Practice entering X-Guard from butterfly guard or open guard. Focus on proper hook placement and elevation mechanics without resistance. Partner allows sweep to complete so you can feel the correct motion pattern.
-(Resistance: None)
 
 **Week 3-4: Adding Resistance** - Executing sweep against light defensive pressure
 Partner provides 30-40% resistance by maintaining wider base and lowering hips. Practice breaking their posture with grips before attempting sweep. Work on coordinating upward and rotational forces simultaneously. Partner gradually increases resistance as your technique improves.
-(Resistance: Light)
 
 **Week 5-6: Countering Defenses** - Dealing with common defensive reactions and counters
 Partner actively defends by posting hands, stepping back, or widening base. Practice recognizing defensive patterns and adjusting sweep timing and angle. Drill transitions to alternative attacks (armbar, triangle) when opponent posts. Work both gi and no-gi variations.
-(Resistance: Medium)
 
 **Week 7-8: Dynamic Integration** - Combining X-Guard Sweep with entries and follow-ups
 Start from standing or neutral position. Practice entering X-Guard from various guards (butterfly, De La Riva, open guard). Chain sweep with submission attempts or transitions to other positions. Partner uses full defensive effort with positional reset after each successful sweep.
-(Resistance: Full)
 
 **Week 9-10: Competition Timing** - Executing sweep under live sparring conditions
 Incorporate X-Guard Sweep into positional sparring rounds starting from guard. Work on timing the sweep to opponent's weight shifts and passing attempts. Practice sweep to position sequences (sweep to mount to submission). Begin using in live rolling with progressive resistance.
-(Resistance: Full)
 
 **Week 11+: Advanced Applications** - High-level variations and system integration
 Develop personal X-Guard attacking system integrating sweeps, submissions, and transitions. Practice against increasingly skilled opponents who understand the position. Work on grip fighting and defensive patterns specific to X-Guard. Drill competition scenarios with time pressure and rule-specific strategies.
-(Resistance: Full)
 
 
 

@@ -157,7 +157,7 @@ From a strategic standpoint, the mounted crucifix entry represents the natural e
 The technical requirements for this entry demand precise timing and weight distribution. You must maintain sufficient mount pressure to prevent bridging escapes while creating the space needed to thread your leg over the opponent's second arm. This balance between control and mobility distinguishes successful crucifix entries from failed attempts that result in positional loss. The transition requires reading opponent reactions and capitalizing on their defensive movements rather than forcing the position against strong resistance.
 
 **From Position**: [[S Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -205,12 +205,12 @@ The technical requirements for this entry demand precise timing and weight distr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure S Mount control**: Establish tight S Mount with your hip bone pressed firmly into opponent's near shoulder. Your near leg should extend over their head with foot planted beyond their far shoulder, while your far leg crosses their torso. Maintain wrist control on the isolated arm. (Timing: Hold position until opponent commits to defensive action)
-2. **Identify arm exposure**: Watch for opponent's far arm to cross their centerline - this commonly occurs when they attempt to push your leg off their head, frame against your hip, or grip their own collar for armbar defense. This exposed arm is your target for the second leg trap. (Timing: Immediately upon seeing arm cross centerline)
-3. **Shift weight forward**: Transfer your weight slightly forward onto your chest and posting arm, reducing pressure on your seated position. This creates the space needed to lift your far leg while preventing opponent from using the weight shift to bridge and escape. (Timing: Quick, controlled weight shift)
-4. **Thread leg over second arm**: Lift your far leg (the one crossing their torso) and thread it over opponent's exposed far arm, positioning your shin across their upper arm or bicep area. Use your hip rotation to drive the leg into position rather than lifting with pure leg strength. (Timing: Single smooth motion during weight shift)
-5. **Clamp knees together**: Immediately squeeze both knees together once the second arm is trapped, creating a vice-like pinch on both of opponent's arms. Your legs should form parallel barriers with shins pressing into their upper arms, preventing any arm extraction attempts. (Timing: Instant knee squeeze upon leg landing)
-6. **Settle weight and establish control**: Lower your hips back down while maintaining the knee clamp, redistributing weight forward onto opponent's upper chest. Your hands become free to control their head for choke setups, attack the neck directly, or stabilize your position against escape attempts. (Timing: 2-3 seconds to establish full control)
+1. **Secure S Mount control**: Establish tight S Mount with your hip bone pressed firmly into opponent's near shoulder. Your near leg should extend over their head with foot planted beyond their far shoulder, while your far leg crosses their torso. Maintain wrist control on the isolated arm.
+2. **Identify arm exposure**: Watch for opponent's far arm to cross their centerline - this commonly occurs when they attempt to push your leg off their head, frame against your hip, or grip their own collar for armbar defense. This exposed arm is your target for the second leg trap.
+3. **Shift weight forward**: Transfer your weight slightly forward onto your chest and posting arm, reducing pressure on your seated position. This creates the space needed to lift your far leg while preventing opponent from using the weight shift to bridge and escape.
+4. **Thread leg over second arm**: Lift your far leg (the one crossing their torso) and thread it over opponent's exposed far arm, positioning your shin across their upper arm or bicep area. Use your hip rotation to drive the leg into position rather than lifting with pure leg strength.
+5. **Clamp knees together**: Immediately squeeze both knees together once the second arm is trapped, creating a vice-like pinch on both of opponent's arms. Your legs should form parallel barriers with shins pressing into their upper arms, preventing any arm extraction attempts.
+6. **Settle weight and establish control**: Lower your hips back down while maintaining the knee clamp, redistributing weight forward onto opponent's upper chest. Your hands become free to control their head for choke setups, attack the neck directly, or stabilize your position against escape attempts.
 
 
 </section>
@@ -253,19 +253,15 @@ The technical requirements for this entry demand precise timing and weight distr
 ## Training Progressions
 **Week 1-2** - Mechanics and positioning
 Practice leg threading motion from established S Mount with compliant partner. Focus on weight shift mechanics, leg placement over arms, and knee squeeze timing. Partner offers arms in ideal positions to build muscle memory for the movement pattern.
-(Resistance: None)
 
 **Week 3-4** - Entry timing recognition
 Partner defends S Mount submissions naturally, creating organic arm exposure opportunities. Practice recognizing when far arm crosses centerline and timing entry attempts with opponent's defensive movements. Begin linking failed armbar attempts to crucifix entries.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks and combinations
 Develop complete attack flows from S Mount: armbar attempt → defense → crucifix entry, or triangle setup → arm exposure → crucifix. Practice transitioning between attacks fluidly based on opponent reactions with increasing defensive resistance.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Implement crucifix entries during positional sparring starting from mount. Work through common defensive reactions and develop personal timing for the transition. Focus on maintaining mount when crucifix fails rather than losing position entirely.
-(Resistance: Full)
 
 
 

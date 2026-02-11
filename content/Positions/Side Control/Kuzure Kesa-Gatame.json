@@ -276,21 +276,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 70,
-        "intermediate": 82,
-        "advanced": 92,
+        "value": 87,
         "description": "Ability to maintain position against escape attempts"
       },
       "advancement_probability": {
-        "beginner": 55,
-        "intermediate": 72,
-        "advanced": 85,
+        "value": 78,
         "description": "Likelihood of advancing to mount or back control"
       },
       "submission_probability": {
-        "beginner": 35,
-        "intermediate": 58,
-        "advanced": 75,
+        "value": 66,
         "description": "Likelihood of finishing from this position"
       },
       "average_time": "60-120 seconds to submission or position advancement"
@@ -538,21 +532,15 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 85,
-        "intermediate": 70,
-        "advanced": 50,
+        "value": 60,
         "description": "Opponent's ability to maintain position despite escape attempts"
       },
       "advancement_probability": {
-        "beginner": 12,
-        "intermediate": 28,
-        "advanced": 48,
+        "value": 38,
         "description": "Likelihood of successfully escaping to better position"
       },
       "submission_probability": {
-        "beginner": 5,
-        "intermediate": 15,
-        "advanced": 35,
+        "value": 25,
         "description": "Likelihood of finishing opponent from bottom position (through reversals)"
       },
       "average_time": "45-90 seconds before escape or submission from bottom position"

@@ -330,7 +330,7 @@
       "relationship": "Primary technical execution of entering into single leg control from standing exchanges"
     },
     {
-      "name": "Single Leg Finish",
+      "name": "Single Leg Takedown",
       "content_type": "Transition",
       "relationship": "Specific finishing sequences that complete the takedown from established single leg control"
     },

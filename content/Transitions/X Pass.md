@@ -153,7 +153,7 @@ description: "Learn the X Pass in BJJ. Comprehensive guide to executing this dyn
 The X Pass is a highly effective guard passing technique that combines pressure, angle creation, and strategic weight distribution to neutralize the bottom player's defensive structure. Originating from top half guard positions, this pass leverages crossface control and hip pressure to flatten the opponent while simultaneously clearing the legs. The technique's name derives from the cross-body angle created during execution, where the passer's torso forms an 'X' shape relative to the opponent's body. This pass is particularly effective against knee shield and standard half guard variations, as it attacks the fundamental defensive frames that bottom players rely upon. The X Pass exemplifies modern pressure passing principles by combining forward pressure with lateral movement, creating a dilemma where the opponent must choose between maintaining their guard structure or preventing the pass. When executed with proper timing and pressure application, the X Pass becomes a cornerstone technique for any guard passing system, seamlessly transitioning into dominant top positions.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 45%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -201,12 +201,12 @@ The X Pass is a highly effective guard passing technique that combines pressure,
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish crossface control**: Drive your shoulder across opponent's face while threading your arm under their head, establishing a strong crossface. Your hand should reach toward their far shoulder or secure a grip on their far lat. This crossface serves to flatten their shoulders and eliminate their ability to frame effectively against your chest. (Timing: Immediately upon securing top half guard position)
-2. **Apply chest pressure**: Drive your chest weight forward and down into opponent's sternum, using your crossface shoulder as the pressure point. Your weight should be distributed approximately 70% forward onto your crossface shoulder, 30% on your base leg. This pressure prevents them from turning into you or establishing an effective underhook. (Timing: Simultaneous with crossface establishment)
-3. **Step outside leg wide**: Take a wide step with your outside leg (the leg not trapped in half guard), planting your foot approximately 18-24 inches away from opponent's hip at a 45-degree angle. This creates the angle necessary for the X-shaped body position and provides a stable base for driving pressure across their body. (Timing: As opponent reacts to initial pressure)
-4. **Drive angle across body**: From your wide base, drive your chest and hips diagonally across opponent's torso, moving from their near shoulder toward their far hip. Your trapped leg should begin to straighten as you drive this angle, creating space to extract. Maintain constant forward pressure while shifting your weight to follow the diagonal line. (Timing: After establishing wide base)
-5. **Clear trapped leg**: As your angle and pressure flatten the opponent, begin extracting your trapped leg by straightening it and driving your knee toward the mat. Use your free hand to assist in controlling their bottom knee, preventing them from following your leg or re-establishing guard. Your hip pressure should pin their bottom leg to the mat as you clear. (Timing: Once opponent is flattened and unable to maintain frames)
-6. **Transition to side control**: Complete the pass by fully extracting your leg and transitioning your chest pressure into standard side control position. Your crossface should remain engaged as you settle your hip weight onto opponent's torso. Secure standard side control grips (far armpit and near hip or pants) and consolidate position before advancing. (Timing: Immediately upon clearing the legs)
+1. **Establish crossface control**: Drive your shoulder across opponent's face while threading your arm under their head, establishing a strong crossface. Your hand should reach toward their far shoulder or secure a grip on their far lat. This crossface serves to flatten their shoulders and eliminate their ability to frame effectively against your chest.
+2. **Apply chest pressure**: Drive your chest weight forward and down into opponent's sternum, using your crossface shoulder as the pressure point. Your weight should be distributed approximately 70% forward onto your crossface shoulder, 30% on your base leg. This pressure prevents them from turning into you or establishing an effective underhook.
+3. **Step outside leg wide**: Take a wide step with your outside leg (the leg not trapped in half guard), planting your foot approximately 18-24 inches away from opponent's hip at a 45-degree angle. This creates the angle necessary for the X-shaped body position and provides a stable base for driving pressure across their body.
+4. **Drive angle across body**: From your wide base, drive your chest and hips diagonally across opponent's torso, moving from their near shoulder toward their far hip. Your trapped leg should begin to straighten as you drive this angle, creating space to extract. Maintain constant forward pressure while shifting your weight to follow the diagonal line.
+5. **Clear trapped leg**: As your angle and pressure flatten the opponent, begin extracting your trapped leg by straightening it and driving your knee toward the mat. Use your free hand to assist in controlling their bottom knee, preventing them from following your leg or re-establishing guard. Your hip pressure should pin their bottom leg to the mat as you clear.
+6. **Transition to side control**: Complete the pass by fully extracting your leg and transitioning your chest pressure into standard side control position. Your crossface should remain engaged as you settle your hip weight onto opponent's torso. Secure standard side control grips (far armpit and near hip or pants) and consolidate position before advancing.
 
 
 </section>
@@ -253,23 +253,18 @@ The X Pass is a highly effective guard passing technique that combines pressure,
 ## Training Progressions
 **Phase 1: Foundational Mechanics (Weeks 1-2)** - Crossface and pressure application fundamentals
 Begin with static drilling from top half guard position. Focus exclusively on establishing proper crossface, stepping to wide base, and applying chest pressure across opponent's torso. Partner remains stationary, allowing you to feel correct body positions and weight distribution. Perform 10 repetitions per side, holding final position for 5 seconds to internalize proper alignment.
-(Resistance: None)
 
 **Phase 2: Angular Movement (Weeks 3-4)** - Creating the X-angle and leg clearing mechanics
 Progress to drilling the complete pass sequence with emphasis on angular driving and leg extraction timing. Partner provides light resistance by maintaining guard structure but not actively defending. Practice stepping wide, driving diagonal pressure, and clearing trapped leg in smooth, continuous motion. Focus on maintaining pressure throughout entire sequence. Perform 15 repetitions per side.
-(Resistance: Light)
 
 **Phase 3: Counter Response (Weeks 5-6)** - Addressing common defensive reactions
 Introduce specific defensive scenarios: knee shield frames, underhook attempts, and lockdown. Partner uses one defensive tactic at a time at 50% intensity. Practice appropriate responses to each counter: pinning knee shield, preventing underhooks, breaking lockdown. Cycle through 5 repetitions of each defensive scenario per side, gradually increasing resistance as success rate improves.
-(Resistance: Medium)
 
 **Phase 4: Live Integration (Weeks 7-8)** - Full resistance implementation and position consolidation
 Engage in positional sparring starting from top half guard with partner using full defensive arsenal. Practice completing X Pass against maximum resistance, troubleshooting problems as they arise. Emphasize position consolidation in side control after successful pass. 5-minute rounds, alternating positions with partner. Track success rate and identify specific defensive patterns that cause difficulty.
-(Resistance: Full)
 
 **Phase 5: Chain Integration (Ongoing)** - Connecting X Pass to broader passing system
 Practice X Pass as part of passing combinations. Set up X Pass from knee cut attempts, use it as backup when leg drag is defended, chain into other passing options when opponents defend specific aspects. Focus on reading opponent's defensive choices and selecting appropriate passing technique. Free rolling with emphasis on guard passing sequences.
-(Resistance: Full)
 
 
 

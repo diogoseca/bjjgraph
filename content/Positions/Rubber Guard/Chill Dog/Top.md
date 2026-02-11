@@ -390,11 +390,11 @@ Start every round with partner in Chill Dog and you attacking from top. You scor
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 40% | 20% |
-| Intermediate | 60% | 55% | 35% |
-| Advanced     | 75% | 70% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 62% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 30-60 seconds to establish back control or dominant position
 

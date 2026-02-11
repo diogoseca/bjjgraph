@@ -157,7 +157,7 @@ From the Hindulotine bottom position, the practitioner establishes butterfly hoo
 The strategic brilliance of this combination lies in its offensive layering. The opponent faces a no-win scenario: defending the sweep by posting wide opens the guillotine finish, while driving forward to escape the choke enables the sweep. This dilemma-based approach represents modern submission grappling at its highest level, where every defensive action opens a new offensive opportunity.
 
 **From Position**: [[Hindulotine/Bottom]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -206,12 +206,12 @@ The strategic brilliance of this combination lies in its offensive layering. The
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grip and hooks**: From Hindulotine bottom, ensure your guillotine grip is locked tight with forearm blade positioned high under opponent's chin. Insert both butterfly hooks inside their thighs with your feet actively hooked around their legs. (Timing: Before opponent pressures forward)
-2. **Angle your hips**: Rotate your hips approximately 45 degrees toward your choking arm side, creating the angle necessary for sweep trajectory. This positioning loads your hooks to catch their weight when they drive forward. (Timing: As opponent begins forward pressure)
-3. **Absorb forward pressure**: Allow opponent's forward drive to load onto your butterfly hooks rather than resisting directly. Keep your elbows tight and pull their head toward your chest while their weight settles onto your legs. (Timing: As opponent commits weight forward)
-4. **Elevate and pull**: Explosively extend your butterfly hooks upward while simultaneously pulling opponent's head toward your choking arm side hip. Your legs lift their hips while your arms guide their upper body in a sweeping arc. (Timing: Peak of their forward commitment)
-5. **Follow through rotation**: Continue the sweeping motion by following your opponent over, keeping your hips connected to theirs throughout the transition. Do not release guillotine pressure during the roll. (Timing: Immediately after elevation)
-6. **Land and finish**: Land in mount position with your hips settling onto opponent's solar plexus, guillotine grip still locked. Immediately adjust your angle and apply finishing pressure by driving hips toward choking arm side while maintaining mount control. (Timing: Upon landing in mount)
+1. **Establish grip and hooks**: From Hindulotine bottom, ensure your guillotine grip is locked tight with forearm blade positioned high under opponent's chin. Insert both butterfly hooks inside their thighs with your feet actively hooked around their legs.
+2. **Angle your hips**: Rotate your hips approximately 45 degrees toward your choking arm side, creating the angle necessary for sweep trajectory. This positioning loads your hooks to catch their weight when they drive forward.
+3. **Absorb forward pressure**: Allow opponent's forward drive to load onto your butterfly hooks rather than resisting directly. Keep your elbows tight and pull their head toward your chest while their weight settles onto your legs.
+4. **Elevate and pull**: Explosively extend your butterfly hooks upward while simultaneously pulling opponent's head toward your choking arm side hip. Your legs lift their hips while your arms guide their upper body in a sweeping arc.
+5. **Follow through rotation**: Continue the sweeping motion by following your opponent over, keeping your hips connected to theirs throughout the transition. Do not release guillotine pressure during the roll.
+6. **Land and finish**: Land in mount position with your hips settling onto opponent's solar plexus, guillotine grip still locked. Immediately adjust your angle and apply finishing pressure by driving hips toward choking arm side while maintaining mount control.
 
 
 </section>
@@ -254,19 +254,15 @@ The strategic brilliance of this combination lies in its offensive layering. The
 ## Training Progressions
 **Week 1-2** - Grip and hook coordination
 Practice maintaining guillotine grip while inserting and positioning butterfly hooks. Partner provides no resistance. Focus on keeping constant grip pressure while manipulating leg position. Drill the hip angle positioning that creates optimal sweep trajectory.
-(Resistance: None)
 
 **Week 3-4** - Timing and pressure recognition
 Partner provides light forward pressure at varying intervals. Practice recognizing the moment of commitment and timing your sweep initiation. Focus on using their energy rather than generating your own. Maintain grip throughout but allow sweep failures to reset.
-(Resistance: Light)
 
 **Week 5-6** - Combination attacks
 Partner defends sweep by posting or retreating. Practice flowing between guillotine finish attempts and sweep attempts based on their defensive reactions. Develop the instinct to attack whichever option their defense opens.
-(Resistance: Medium)
 
 **Week 7+** - Live application and troubleshooting
 Full resistance sparring with specific goal of achieving this sweep. Partner actively counters all options. Develop real-time problem solving for failed attempts and chain to alternative attacks when sweep is effectively defended.
-(Resistance: Full)
 
 
 

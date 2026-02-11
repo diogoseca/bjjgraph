@@ -372,7 +372,7 @@ The system should be trained in progressive phases, beginning with positional co
 - [[Saddle Entry from Top]] (Transition) - Advanced transition that expands system to heel hook attacks
 - [[Leg Entanglement]] (Principle) - Fundamental concept underlying position maintenance in chain
 - [[Submission Chains]] (Principle) - Core concept that defines the systematic approach to submissions
-- [[Position Transitions]] (Principle) - Broader concept that includes submission-to-submission transitions
+- [[Transition Sequences]] (Principle) - Broader concept that includes submission-to-submission transitions
 - [[Dilemma Creation]] (Principle) - Strategic concept of creating no-win defensive scenarios
 - [[Action and Reaction]] (Principle) - Principle of using opponent's defensive movements to guide transitions
 - [[Control Maintenance]] (Principle) - Essential concept for maintaining position during transitions

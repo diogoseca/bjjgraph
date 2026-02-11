@@ -5,7 +5,7 @@
 
 ---
 title: "Darce Choke | BJJ Technique | BJJ Graph"
-description: "Master the Darce Choke finish in BJJ. Complete guide from D'arce Control to submission. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
+description: "Master the Darce Choke finish in BJJ. Complete guide from Darce Control to submission. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%."
 ---
 
 
@@ -17,7 +17,7 @@ description: "Master the Darce Choke finish in BJJ. Complete guide from D'arce C
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Darce Choke in BJJ",
-  "description": "Step-by-step guide for Darce Choke from D'arce Control/Top. Possible outcomes: Game Over (65%), D'arce Control (25%), Half Guard (10%).",
+  "description": "Step-by-step guide for Darce Choke from Darce Control/Top. Possible outcomes: Game Over (65%), Darce Control (25%), Half Guard (10%).",
   "step": [
     {
       "@type": "HowToStep",
@@ -123,7 +123,7 @@ description: "Master the Darce Choke finish in BJJ. Complete guide from D'arce C
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Darce Choke",
-  "description": "Master the Darce Choke finish in BJJ. Complete guide from D'arce Control to submission. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
+  "description": "Master the Darce Choke finish in BJJ. Complete guide from Darce Control to submission. Success rates: Beginner 30%, Intermediate 50%, Advanced 65%.",
   "url": "https://bjjgraph.org/Transitions/Darce-Choke",
   "isPartOf": {
     "@type": "WebSite",
@@ -150,14 +150,14 @@ description: "Master the Darce Choke finish in BJJ. Complete guide from D'arce C
 
 <section id="overview" class="content-section">
 
-The Darce Choke (also known as the Brabo Choke) is a blood choke from the arm triangle family that compresses both carotid arteries using a figure-four grip configuration. Named after Joe D'Arce who popularized the technique in modern grappling, this submission is executed from D'arce Control where the attacking arm threads under the opponent's near armpit, across the back of their neck, and locks onto the attacker's own bicep. The choking mechanism creates a tight triangle of pressure using the attacker's arms and the opponent's own trapped shoulder.
+The Darce Choke (also known as the Brabo Choke) is a blood choke from the arm triangle family that compresses both carotid arteries using a figure-four grip configuration. Named after Joe D'Arce who popularized the technique in modern grappling, this submission is executed from Darce Control where the attacking arm threads under the opponent's near armpit, across the back of their neck, and locks onto the attacker's own bicep. The choking mechanism creates a tight triangle of pressure using the attacker's arms and the opponent's own trapped shoulder.
 
-This technique represents the finishing sequence after D'arce Control has been established. The finish requires precise hip positioning, shoulder pressure, and grip tightening to create the necessary compression on the carotid arteries. Unlike many chokes that rely primarily on arm strength, the Darce Choke uses body positioning and structural pressure to generate the force needed for submission. The opponent's trapped arm acts as the critical fulcrum that enables the strangle.
+This technique represents the finishing sequence after Darce Control has been established. The finish requires precise hip positioning, shoulder pressure, and grip tightening to create the necessary compression on the carotid arteries. Unlike many chokes that rely primarily on arm strength, the Darce Choke uses body positioning and structural pressure to generate the force needed for submission. The opponent's trapped arm acts as the critical fulcrum that enables the strangle.
 
 The Darce Choke is particularly effective because it attacks from a position where the opponent has limited defensive options. Once the grip is locked and the body position is correct, escape becomes extremely difficult. The technique sees frequent application in both gi and no-gi competition, with no-gi being especially favorable due to reduced friction and the prevalence of front headlock situations.
 
-**From Position**: [[D'arce Control/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**From Position**: [[Darce Control/Top]]
+**Success Rate**: 58%
 
 </section>
 
@@ -168,7 +168,7 @@ The Darce Choke is particularly effective because it attacks from a position whe
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Game Over]] | 65% |
-| Failure | [[D'arce Control]] | 25% |
+| Failure | [[Darce Control]] | 25% |
 | Counter | [[Half Guard]] | 10% |
 
 
@@ -192,7 +192,7 @@ The Darce Choke is particularly effective because it attacks from a position whe
 <section id="setup-requirements" class="content-section">
 
 ## Prerequisites
-- D'arce Control position established with figure-four or gable grip locked
+- Darce Control position established with figure-four or gable grip locked
 - Opponent's near-side arm trapped against their body within the choke configuration
 - Choking arm threaded deep under armpit with hand reaching past opponent's far hip
 - Opponent's posture broken with head below hips and unable to posture up
@@ -205,12 +205,12 @@ The Darce Choke is particularly effective because it attacks from a position whe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Verify grip depth**: Confirm your choking arm is threaded deep with your hand reaching past opponent's far hip. If shallow, re-thread before attempting the finish. Your bicep should be tight against the back of opponent's neck with no gaps. (Timing: Before initiating finish)
-2. **Lock the grip**: Secure your grip by grabbing your own bicep with your free hand while your choking arm's hand controls behind opponent's head or shoulder. Pinch elbows together tightly to create a sealed triangle of pressure around opponent's neck and trapped arm. (Timing: Immediate)
-3. **Apply shoulder pressure**: Drive your shoulder blade into the side of opponent's head, using your body weight to wedge their head down and create compression. Keep your head low next to theirs rather than lifting up, which would create escape space. (Timing: Continuous)
-4. **Walk hips perpendicular**: Step your hips around so your body is perpendicular to opponent's spine, creating the optimal angle for the choke. Your chest should drive into the back of their shoulder while your hips stay mobile to adjust the finishing angle. (Timing: 2-3 seconds)
-5. **Sprawl and extend**: Sprawl your hips back and extend your body while maintaining the tight grip configuration. This creates the final compression by using your entire body weight and structure to drive opponent's trapped shoulder into their own neck. (Timing: Finishing sequence)
-6. **Complete the strangle**: Squeeze your elbows together while maintaining the sprawled position and shoulder pressure. The choke compresses both carotid arteries simultaneously, producing unconsciousness within 3-8 seconds if properly applied. Maintain position until opponent taps or goes unconscious. (Timing: 3-8 seconds to finish)
+1. **Verify grip depth**: Confirm your choking arm is threaded deep with your hand reaching past opponent's far hip. If shallow, re-thread before attempting the finish. Your bicep should be tight against the back of opponent's neck with no gaps.
+2. **Lock the grip**: Secure your grip by grabbing your own bicep with your free hand while your choking arm's hand controls behind opponent's head or shoulder. Pinch elbows together tightly to create a sealed triangle of pressure around opponent's neck and trapped arm.
+3. **Apply shoulder pressure**: Drive your shoulder blade into the side of opponent's head, using your body weight to wedge their head down and create compression. Keep your head low next to theirs rather than lifting up, which would create escape space.
+4. **Walk hips perpendicular**: Step your hips around so your body is perpendicular to opponent's spine, creating the optimal angle for the choke. Your chest should drive into the back of their shoulder while your hips stay mobile to adjust the finishing angle.
+5. **Sprawl and extend**: Sprawl your hips back and extend your body while maintaining the tight grip configuration. This creates the final compression by using your entire body weight and structure to drive opponent's trapped shoulder into their own neck.
+6. **Complete the strangle**: Squeeze your elbows together while maintaining the sprawled position and shoulder pressure. The choke compresses both carotid arteries simultaneously, producing unconsciousness within 3-8 seconds if properly applied. Maintain position until opponent taps or goes unconscious.
 
 
 </section>
@@ -253,19 +253,15 @@ The Darce Choke is particularly effective because it attacks from a position whe
 ## Training Progressions
 **Week 1-2** - Grip mechanics and depth
 Practice threading the darce arm and establishing proper grip depth on a compliant partner. Focus on hand reaching past far hip before locking. Drill 50 repetitions per side daily, emphasizing the feel of proper penetration depth.
-(Resistance: None)
 
 **Week 3-4** - Body positioning for finish
 From established grip, practice walking hips perpendicular and applying the sprawl finish. Partner provides positioning feedback. Work on coordinating shoulder pressure with hip movement. Partner begins offering light defensive frames.
-(Resistance: Light)
 
 **Week 5-6** - Finishing against defense
 Partner defends at 50% with chin tuck, frames, and arm extraction attempts. Practice maintaining grip while adjusting to defensive movements. Introduce the transition to anaconda or mount when darce is defended. Build finishing timing recognition.
-(Resistance: Medium)
 
 **Week 7+** - Live application and chains
 Apply darce finish in positional sparring starting from front headlock or turtle. Full resistance with goal of either finishing or transitioning to alternative attacks. Track finish rate and identify common failure points for continued refinement.
-(Resistance: Full)
 
 
 
@@ -333,7 +329,7 @@ The Darce Choke is a blood choke that can produce unconsciousness within 3-8 sec
 
 ## Position Integration
 
-The Darce Choke represents the finishing sequence from D'arce Control, which is itself typically entered from front headlock, turtle attacks, or scramble situations. This technique is central to the arm triangle family of submissions and shares mechanical principles with the anaconda choke and traditional arm triangle. When the darce finish is defended, the grip provides excellent control for transitions to mount, back control, or north-south. The position chains naturally with anaconda attacks when opponent's defensive movement changes the optimal angle. Understanding the darce finish is essential for anyone developing a front headlock game, as it provides the primary submission threat that makes positional maintenance valuable.
+The Darce Choke represents the finishing sequence from Darce Control, which is itself typically entered from front headlock, turtle attacks, or scramble situations. This technique is central to the arm triangle family of submissions and shares mechanical principles with the anaconda choke and traditional arm triangle. When the darce finish is defended, the grip provides excellent control for transitions to mount, back control, or north-south. The position chains naturally with anaconda attacks when opponent's defensive movement changes the optimal angle. Understanding the darce finish is essential for anyone developing a front headlock game, as it provides the primary submission threat that makes positional maintenance valuable.
 
 </section>
 
@@ -341,7 +337,7 @@ The Darce Choke represents the finishing sequence from D'arce Control, which is 
 
 ## Related Techniques
 
-- [[D'arce Control]] - Starting position - control must be established before finish
+- [[Darce Control]] - Starting position - control must be established before finish
 - [[Anaconda Choke]] - Sister technique - same family with opposite arm threading
 - [[Front Headlock]] - Primary entry position - most common path to darce control
 - [[Arm Triangle]] - Related submission - shares arm-in choke mechanics

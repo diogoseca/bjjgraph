@@ -163,7 +163,7 @@ From mount, the attacking sequence begins with identifying which arm the opponen
 This technique represents a cornerstone of mount offense because it creates submission chains—defending the armbar often exposes the opponent to cross chokes, Americanas, or back takes. Understanding when to commit to the armbar versus when to threaten it as a positional advancement tool separates intermediate practitioners from advanced competitors.
 
 **From Position**: [[Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -211,13 +211,13 @@ This technique represents a cornerstone of mount offense because it creates subm
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate target arm**: From mount, identify the opponent's extended or pushing arm. Secure a two-on-one grip by controlling their wrist with your same-side hand while your opposite hand cups their triceps above the elbow, pinning the arm to your chest. (Timing: When opponent pushes on your chest or frames)
-2. **Establish high mount**: Walk your knees toward their armpits while maintaining arm control. Your weight shifts forward onto their upper chest, limiting their hip escape options and positioning you for the rotation. (Timing: Immediately after securing arm control)
-3. **Post controlling hand**: Place your hand (same side as the trapped arm) near their ear or on the mat beside their head. This post controls their head position and provides the pivot point for your body rotation. (Timing: Before lifting your leg)
-4. **Swing leg over face**: Lift your leg on the trapped arm side and swing it in a wide arc over their face. Your heel should clear their head and land with your hamstring pressing against their cheek, immediately controlling their ability to sit up. (Timing: Explosive movement once post is secure)
-5. **Rotate hips perpendicular**: As your leg clears their head, rotate your entire body so your hips face perpendicular to their body. Your hips should end up as close to their shoulder as possible while both legs work to control their upper body. (Timing: Simultaneous with leg clearing head)
-6. **Secure armbar control**: Squeeze your knees together, pinning their head and chest. Pull the trapped arm tight to your chest with their thumb pointing upward. Your hips should be glued to their shoulder with zero space between hip bone and shoulder joint. (Timing: Immediately upon completing rotation)
-7. **Establish finish position**: Sit back at a slight angle toward their trapped arm side while elevating your hips. Both hands control the wrist area, pulling toward your centerline. The arm should be straight with elbow joint exposed across your hip line. (Timing: Once control is fully established)
+1. **Isolate target arm**: From mount, identify the opponent's extended or pushing arm. Secure a two-on-one grip by controlling their wrist with your same-side hand while your opposite hand cups their triceps above the elbow, pinning the arm to your chest.
+2. **Establish high mount**: Walk your knees toward their armpits while maintaining arm control. Your weight shifts forward onto their upper chest, limiting their hip escape options and positioning you for the rotation.
+3. **Post controlling hand**: Place your hand (same side as the trapped arm) near their ear or on the mat beside their head. This post controls their head position and provides the pivot point for your body rotation.
+4. **Swing leg over face**: Lift your leg on the trapped arm side and swing it in a wide arc over their face. Your heel should clear their head and land with your hamstring pressing against their cheek, immediately controlling their ability to sit up.
+5. **Rotate hips perpendicular**: As your leg clears their head, rotate your entire body so your hips face perpendicular to their body. Your hips should end up as close to their shoulder as possible while both legs work to control their upper body.
+6. **Secure armbar control**: Squeeze your knees together, pinning their head and chest. Pull the trapped arm tight to your chest with their thumb pointing upward. Your hips should be glued to their shoulder with zero space between hip bone and shoulder joint.
+7. **Establish finish position**: Sit back at a slight angle toward their trapped arm side while elevating your hips. Both hands control the wrist area, pulling toward your centerline. The arm should be straight with elbow joint exposed across your hip line.
 
 
 </section>
@@ -266,23 +266,18 @@ This technique represents a cornerstone of mount offense because it creates subm
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the spinning motion without resistance. Focus on arm isolation, posting position, leg swing arc, and hip placement. Perform 20-30 repetitions per side with compliant partner.
-(Resistance: None)
 
 **Week 3-4** - Timing and entries
 Partner provides light defensive reactions (pushing, framing). Practice recognizing opportunities and timing the spin when arms extend. Focus on maintaining control through the transition.
-(Resistance: Light)
 
 **Week 5-6** - Chain attacks
 Partner defends armbar with common counters (clasping hands, sitting up, stacking). Practice flowing to alternative attacks: triangle, back take, return to mount. Develop automatic responses to defensive reactions.
-(Resistance: Medium)
 
 **Week 7-8** - Live application
 Apply technique in positional sparring from mount. Start with specific goals (achieve armbar control), progress to full submission attempts. Analyze which setups create reliable entries against resisting opponents.
-(Resistance: Full)
 
 **Ongoing** - Competition refinement
 Drill high-percentage entries based on tournament footage analysis. Time armbar attempts and work on explosive transitions. Practice finishing under fatigue conditions.
-(Resistance: Full)
 
 
 

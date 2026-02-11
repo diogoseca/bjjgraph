@@ -153,7 +153,7 @@ description: "Master takedown defense in BJJ and MMA. Learn sprawl mechanics, gr
 Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whether you fight from top or bottom position. The ability to defend takedowns effectively not only prevents your opponent from scoring points but also creates opportunities for counter-attacks and advantageous positions. Modern BJJ competition increasingly emphasizes standing exchanges, making takedown defense essential for both gi and no-gi practitioners. Effective takedown defense combines defensive posture, grip fighting, hip positioning, and timing to neutralize shooting attacks, body locks, and upper body throws. The fundamental principle is to maintain proper base and distance while reading your opponent's setup and reacting before they can fully commit to their attack. Advanced practitioners use takedown defense not merely to avoid being taken down, but as an offensive weapon to create front headlock situations, guillotine opportunities, and transitions to dominant top positions.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 45%, Intermediate 65%, Advanced 85%
+**Success Rate**: 75%
 
 </section>
 
@@ -202,12 +202,12 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish defensive stance**: Stand with feet shoulder-width apart, knees slightly bent, hips back, and hands at chest level. Keep your weight distributed on the balls of your feet to allow quick movement in any direction. Maintain an upright posture while keeping your center of gravity low enough to sprawl quickly. (Timing: Continuous throughout standing phase)
-2. **Read level change**: Watch for visual cues that signal a takedown attempt: opponent's hips dropping, shoulders dipping forward, eyes looking at your legs, or a sudden penetration step. React the instant you detect these signals, not after the opponent has already closed distance. (Timing: 0.1-0.3 seconds before contact)
-3. **Sprawl explosively**: Shoot your hips back and down while extending your legs behind you. Your hips should land on your opponent's upper back/shoulders while your chest drives forward over their head. Keep your weight heavy on their shoulders to flatten them out and prevent them from driving forward. (Timing: Explosive reaction within 0.2 seconds of level change)
-4. **Control the head**: Immediately establish a cross-face or front headlock position by wrapping your arm around the opponent's head. Your forearm should be under their chin or across their face, controlling their posture and preventing them from looking up or driving forward. Your other hand can grip their wrist or establish an overhook. (Timing: Immediately upon sprawling)
-5. **Circle away from power**: Step your lead leg (the leg on the side you're controlling the head) around to the side, creating an angle. This circular motion prevents your opponent from driving straight forward and positions you for counter-attacks. Keep your hips heavy on their shoulders as you circle. (Timing: 1-2 seconds after initial sprawl)
-6. **Transition to dominant position**: From the front headlock position, you can execute a guillotine choke, transition to the back by stepping over their far hip, snap them down to turtle, or establish side control by driving through their shoulder. Choose your transition based on opponent's reaction and your position relative to their body. (Timing: 3-5 seconds after initial defense)
+1. **Establish defensive stance**: Stand with feet shoulder-width apart, knees slightly bent, hips back, and hands at chest level. Keep your weight distributed on the balls of your feet to allow quick movement in any direction. Maintain an upright posture while keeping your center of gravity low enough to sprawl quickly.
+2. **Read level change**: Watch for visual cues that signal a takedown attempt: opponent's hips dropping, shoulders dipping forward, eyes looking at your legs, or a sudden penetration step. React the instant you detect these signals, not after the opponent has already closed distance.
+3. **Sprawl explosively**: Shoot your hips back and down while extending your legs behind you. Your hips should land on your opponent's upper back/shoulders while your chest drives forward over their head. Keep your weight heavy on their shoulders to flatten them out and prevent them from driving forward.
+4. **Control the head**: Immediately establish a cross-face or front headlock position by wrapping your arm around the opponent's head. Your forearm should be under their chin or across their face, controlling their posture and preventing them from looking up or driving forward. Your other hand can grip their wrist or establish an overhook.
+5. **Circle away from power**: Step your lead leg (the leg on the side you're controlling the head) around to the side, creating an angle. This circular motion prevents your opponent from driving straight forward and positions you for counter-attacks. Keep your hips heavy on their shoulders as you circle.
+6. **Transition to dominant position**: From the front headlock position, you can execute a guillotine choke, transition to the back by stepping over their far hip, snap them down to turtle, or establish side control by driving through their shoulder. Choose your transition based on opponent's reaction and your position relative to their body.
 
 
 </section>
@@ -250,27 +250,21 @@ Takedown defense is a critical skill in Brazilian Jiu-Jitsu that determines whet
 ## Training Progressions
 **Week 1-2: Fundamentals** - Sprawl mechanics and stance
 Practice sprawl motion from static positions without resistance. Focus on explosive hip extension, proper leg positioning, and maintaining balance. Partner stands in takedown position while you practice sprawling onto their shoulders repeatedly. Drill defensive stance and footwork patterns.
-(Resistance: None)
 
 **Week 3-4: Reaction training** - Recognizing and reacting to level changes
 Partner performs slow-motion takedown attempts while you practice reading visual cues and timing your sprawl. Gradually increase speed of attacks. Begin adding head control and cross-face after successful sprawl. Introduce basic circling movements.
-(Resistance: Light)
 
 **Week 5-8: Dynamic defense** - Full-speed sprawls with counter-attacks
 Partner attempts realistic takedowns at 70-80% intensity. Practice complete defensive sequences including sprawl, head control, circling, and transition to front headlock or guillotine. Begin drilling against various takedown styles (single leg, double leg, high crotch, ankle pick).
-(Resistance: Medium)
 
 **Week 9-12: Situational sparring** - Takedown defense in flow rolling
 Start all sparring rounds from standing with emphasis on takedown defense. Partner can use full repertoire of takedowns at 80-90% intensity. Practice chaining defensive sequences together and recognizing which counter-attacks are available based on opponent's reactions. Include grip fighting and distance management.
-(Resistance: Medium)
 
 **Week 13+: Competition simulation** - Full resistance with strategic applications
 Standing-only sparring rounds with points scored for successful takedowns and takedown defense. Practice using takedown defense as offensive weapon to create front headlock situations and submission opportunities. Develop personal defensive system based on body type and strengths.
-(Resistance: Full)
 
 **Ongoing: Advanced variations** - Adapting to different takedown styles
 Train defenses against specific takedown specialists (wrestlers, judoka, sambo). Practice defending against chain wrestling, greco-roman throws, and sacrifice throws. Develop counters to high-level setups involving grip fighting, feints, and combinations. Study video of your own standing exchanges to identify patterns.
-(Resistance: Full)
 
 
 

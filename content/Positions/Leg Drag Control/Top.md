@@ -251,7 +251,7 @@ From a competitive perspective, mastering leg drag control has become essential 
 
 
 **If opponent rolls to turtle to escape:**
-- Execute **[[Leg Drag to Darce Setup]]** → [[D'arce Control]] (Probability: 55%)
+- Execute **[[Leg Drag to Darce Setup]]** → [[Darce Control]] (Probability: 55%)
 - Execute **[[Follow to Back Control]]** → [[Back Control]] (Probability: 45%)
 
 
@@ -376,11 +376,11 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 55% | 15% |
-| Intermediate | 70% | 75% | 30% |
-| Advanced     | 85% | 90% | 45% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 82% |
+| Submission Probability | 38% |
 
 **Average Time in Position**: 3-7 seconds before transition to side control, back control, mount, or opponent escape
 
@@ -398,7 +398,7 @@ Partner randomly performs one of four defensive reactions (turn away, stay flat,
 - **[[Leg Drag Pass]]** - The technique used to enter this control position
 - **[[Crucifix]]** - Advanced position available when opponent sits up from leg drag
 - **[[Inside Ashi-Garami]]** - Leg entanglement option when opponent defends upper body
-- **[[D'arce Control]]** - Choking position available when opponent turtles
+- **[[Darce Control]]** - Choking position available when opponent turtles
 - **[[Technical Mount]]** - Alternative to full mount when opponent is partially turned
 - **[[North-South]]** - Control option when opponent blocks mount transition
 

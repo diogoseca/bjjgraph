@@ -91,7 +91,10 @@ description: "{{description}}"
 **Type**: {{submission_type}}
 **Target Area**: {{target_area}}
 **Starting Position**: [[{{starting_position}}]]
-**Success Rates**: Beginner {{success_rates.beginner}}%, Intermediate {{success_rates.intermediate}}%, Advanced {{success_rates.advanced}}%
+{% if from_position is defined and from_position -%}
+**From Position**: [[{{ from_position.split('/')[0] }}]] ({{ from_position.split('/')[1] if '/' in from_position else '' }})
+{% endif -%}
+**Success Rate**: {{success_rate}}%
 
 </section>
 
@@ -148,7 +151,7 @@ description: "{{description}}"
 
 ## Execution Steps
 {% for step in execution_steps -%}
-{{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}{% if step.pressure_level %} [Pressure: {{step.pressure_level}}]{% endif %}
+{{step.step_number}}. **{{step.action}}**: {{step.description}}{% if step.timing %} (Timing: {{step.timing}}){% endif %}
 {% endfor %}
 
 </section>
@@ -166,7 +169,7 @@ description: "{{description}}"
 
 ## Common Mistakes
 {% for error in common_errors -%}
-- **Mistake**: {{error.error}}{% if error.danger_level %} [{{error.danger_level}} DANGER]{% endif %}
+- **Mistake**: {{error.error}}
   - **Consequence**: {{error.consequence}}
   - **Correction**: {{error.correction}}
 {% endfor %}
@@ -189,19 +192,6 @@ description: "{{description}}"
 {% for qa in knowledge_assessment -%}
 **Q{{loop.index}}**: {{qa.question}}{% if qa.safety_critical %} **[SAFETY-CRITICAL]**{% endif %}
 **A**: {{qa.answer}}
-
-{% endfor %}
-
-</section>
-
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-{% for phase in training_progressions_and_safety_protocols -%}
-**{{phase.phase}}** ({{phase.timeframe}})
-- Focus: {{phase.focus}}
-- Resistance: {{phase.resistance_level}}
-- Safety: {{phase.safety_emphasis}}
 
 {% endfor %}
 
@@ -237,6 +227,20 @@ description: "{{description}}"
 
 </section>
 
+{% if outcomes is defined and outcomes %}
+<section id="outcomes" class="content-section">
+
+## Outcomes
+
+| Result | Position | Probability |
+|--------|----------|------------|
+{% for o in outcomes -%}
+| {{ o.result | capitalize }} | [[{{ o.to }}]] | {{ o.probability }}% |
+{% endfor %}
+
+</section>
+
+{% endif %}
 <section id="terminal-state" class="content-section">
 
 ## Match Outcome

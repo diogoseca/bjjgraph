@@ -357,11 +357,11 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 30% | 50% | 20% |
-| Intermediate | 50% | 70% | 35% |
-| Advanced     | 70% | 85% | 50% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 60% |
+| Advancement Probability | 78% |
+| Submission Probability | 42% |
 
 **Average Time in Position**: 10-30 seconds (transitional position)
 

@@ -157,7 +157,7 @@ From S Mount, the gift wrap becomes particularly powerful because you already ha
 The strategic value of this transition lies in its forcing function—the opponent must choose between defending the arm attack (which exposes the back) or preventing the back take (which exposes the arm). This dilemma creation is fundamental to high-level positional grappling. The gift wrap control also travels with you during the transition, providing continuous control through the movement rather than requiring you to release and re-establish grips.
 
 **From Position**: [[S Mount/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ The strategic value of this transition lies in its forcing function—the oppone
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Isolate the arm**: From S Mount, control opponent's near arm at the wrist with your near hand. Begin feeding their arm across their body toward their opposite shoulder, using your chest pressure to pin it. (Timing: When opponent defends armbar by bending arm or turning)
-2. **Establish gift wrap**: Reach your far hand under their neck from the opposite side, grabbing their wrist that you're feeding across. Your arm now wraps around their head while controlling their trapped arm—this is the gift wrap configuration. (Timing: As their arm crosses their centerline)
-3. **Secure the control**: Lock the gift wrap by pulling their wrist tight against their neck. Your chest drops onto their wrapped arm, pinning it to their body. Their face should be turned away from you by the arm position. (Timing: Immediately after grip connection)
-4. **Initiate rotation**: Begin walking your body around their head toward their back. Your weight stays heavy on their shoulder. Use your legs to push and pivot, keeping your hips glued to their body throughout the rotation. (Timing: Once gift wrap is fully secured)
-5. **Clear the shoulder**: Continue rotating until you clear their far shoulder and can see their back. Your gift wrap hand maintains control while your free hand begins reaching for the seatbelt underhook position on their far side. (Timing: As you pass perpendicular to their spine)
-6. **Establish back control**: Insert your bottom hook (the leg closest to the mat) into their hip first, then work to establish the second hook or body triangle. Transition from gift wrap to full seatbelt control by releasing their wrist and securing the over-under grip around their torso. (Timing: Once you're behind their shoulder line)
+1. **Isolate the arm**: From S Mount, control opponent's near arm at the wrist with your near hand. Begin feeding their arm across their body toward their opposite shoulder, using your chest pressure to pin it.
+2. **Establish gift wrap**: Reach your far hand under their neck from the opposite side, grabbing their wrist that you're feeding across. Your arm now wraps around their head while controlling their trapped arm—this is the gift wrap configuration.
+3. **Secure the control**: Lock the gift wrap by pulling their wrist tight against their neck. Your chest drops onto their wrapped arm, pinning it to their body. Their face should be turned away from you by the arm position.
+4. **Initiate rotation**: Begin walking your body around their head toward their back. Your weight stays heavy on their shoulder. Use your legs to push and pivot, keeping your hips glued to their body throughout the rotation.
+5. **Clear the shoulder**: Continue rotating until you clear their far shoulder and can see their back. Your gift wrap hand maintains control while your free hand begins reaching for the seatbelt underhook position on their far side.
+6. **Establish back control**: Insert your bottom hook (the leg closest to the mat) into their hip first, then work to establish the second hook or body triangle. Transition from gift wrap to full seatbelt control by releasing their wrist and securing the over-under grip around their torso.
 
 
 </section>
@@ -252,19 +252,15 @@ The strategic value of this transition lies in its forcing function—the oppone
 ## Training Progressions
 **Week 1-2** - Gift wrap grip mechanics
 Drill the gift wrap entry from S Mount with a compliant partner. Focus on proper hand placement, arm feeding sequence, and securing the grip under the neck. Partner allows arm to be wrapped without resistance. Build muscle memory for the grip configuration.
-(Resistance: None)
 
 **Week 3-4** - Rotation pathway
 Add the rotation around the head with light resistance. Partner turns away when cued, you establish gift wrap and complete the movement to back control. Focus on maintaining chest pressure and hip connection throughout. Partner provides 30% resistance.
-(Resistance: Light)
 
 **Week 5-6** - Counter integration
 Partner actively defends by keeping elbow tight, turning back toward you, or posting. Practice recognizing defensive reactions and switching to appropriate responses (armbar, reset to mount, attack posting arm). Build reaction chains.
-(Resistance: Medium)
 
 **Week 7+** - Live application
 Positional sparring starting from S Mount. Full resistance from partner attempting all escapes. Work on timing the gift wrap with natural defensive reactions. Chain with submissions if back take is defended. Track success rate and identify remaining gaps.
-(Resistance: Full)
 
 
 

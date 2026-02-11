@@ -153,7 +153,7 @@ description: "Master the Underhook Sweep from Half Guard in BJJ. Step-by-step ex
 The Underhook Sweep from Half Guard is a fundamental attacking technique that exploits the power of the underhook control to off-balance and sweep opponents from bottom half guard. This sweep represents one of the highest percentage attacks available from half guard, combining proper angle creation, hip movement, and timing to reverse position. The technique capitalizes on the underhook's ability to control the opponent's posture and weight distribution, creating the mechanical advantage necessary to complete the reversal. By establishing the underhook on the trapped leg side, you create a powerful lever that disrupts your opponent's base while simultaneously generating the momentum needed for the sweep. This technique serves as a cornerstone of modern half guard systems, offering a reliable pathway from defensive bottom position to dominant top control.
 
 **From Position**: [[Half Guard/Bottom]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -203,12 +203,12 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure the underhook**: Drive your arm deep under opponent's armpit on the trapped leg side, wrapping around their back. Your shoulder should connect tightly to their ribs, with your hand gripping their far lat or back of the gi. This underhook becomes your primary sweeping lever. (Timing: Establish during initial half guard engagement)
-2. **Create the angle**: Shift your hips out and away from your opponent at approximately 45 degrees, moving your shoulders toward the mat on the underhook side. This angle is critical as it creates the mechanical advantage for the sweep and prevents you from lifting dead weight directly underneath the opponent. (Timing: Immediately after securing underhook)
-3. **Control the far hip**: With your free hand, establish a strong grip on opponent's far hip, belt, or pants. This grip prevents them from posting their leg out for base and helps control their weight distribution. Pull this hip toward you while maintaining your angle. (Timing: Simultaneous with angle creation)
-4. **Load and bridge**: Come up onto your shoulder on the underhook side, creating a strong bridge position. Your head should be tight to opponent's ribs, and your underhook arm should be driving their weight up and over. This loading phase prepares the explosive component of the sweep. (Timing: As opponent commits weight forward)
-5. **Drive the sweep**: Explosively drive your underhook arm upward and forward while simultaneously pulling their far hip with your grip hand. Your hips should elevate and rotate toward the underhook side, using your bridge and the trapped leg as a fulcrum. Drive your shoulder into their torso as you sweep them over. (Timing: Coordinate with opponent's forward pressure)
-6. **Complete the reversal**: As opponent rolls over, maintain your underhook control and come up on top, transitioning into side control or knee on belly. Keep your weight distributed forward and chest pressure heavy to prevent re-guard. Secure the position before hunting submissions or advancing further. (Timing: Follow through momentum to top position)
+1. **Secure the underhook**: Drive your arm deep under opponent's armpit on the trapped leg side, wrapping around their back. Your shoulder should connect tightly to their ribs, with your hand gripping their far lat or back of the gi. This underhook becomes your primary sweeping lever.
+2. **Create the angle**: Shift your hips out and away from your opponent at approximately 45 degrees, moving your shoulders toward the mat on the underhook side. This angle is critical as it creates the mechanical advantage for the sweep and prevents you from lifting dead weight directly underneath the opponent.
+3. **Control the far hip**: With your free hand, establish a strong grip on opponent's far hip, belt, or pants. This grip prevents them from posting their leg out for base and helps control their weight distribution. Pull this hip toward you while maintaining your angle.
+4. **Load and bridge**: Come up onto your shoulder on the underhook side, creating a strong bridge position. Your head should be tight to opponent's ribs, and your underhook arm should be driving their weight up and over. This loading phase prepares the explosive component of the sweep.
+5. **Drive the sweep**: Explosively drive your underhook arm upward and forward while simultaneously pulling their far hip with your grip hand. Your hips should elevate and rotate toward the underhook side, using your bridge and the trapped leg as a fulcrum. Drive your shoulder into their torso as you sweep them over.
+6. **Complete the reversal**: As opponent rolls over, maintain your underhook control and come up on top, transitioning into side control or knee on belly. Keep your weight distributed forward and chest pressure heavy to prevent re-guard. Secure the position before hunting submissions or advancing further.
 
 
 </section>
@@ -255,27 +255,21 @@ The Underhook Sweep from Half Guard is a fundamental attacking technique that ex
 ## Training Progressions
 **Phase 1: Static Drilling (Weeks 1-2)** - Underhook mechanics and angle creation
 Partner starts in stationary half guard top position. Practice securing deep underhook, creating proper angle, and establishing far hip control. Drill the bridge and load position repeatedly. Focus on body positioning and leverage points rather than completion.
-(Resistance: None)
 
 **Phase 2: Cooperative Sweep (Weeks 2-3)** - Full sweep execution with timing
 Partner provides light forward pressure. Execute complete sweep from setup to top position, emphasizing smooth transitions between steps. Partner allows sweep to complete but maintains realistic body weight. Repeat 10-15 times per session focusing on technical precision.
-(Resistance: Light)
 
 **Phase 3: Progressive Resistance (Weeks 3-5)** - Dealing with common counters
 Partner introduces specific defensive reactions (whizzer, far leg post, flattening). Practice recognizing and countering each defense. Start with partner announcing which defense they will use, then progress to random selection. Develop adaptive responses to each counter.
-(Resistance: Medium)
 
 **Phase 4: Live Drilling (Weeks 5-8)** - Sweep chains and position maintenance
 Start from half guard bottom with partner defending intelligently. Must successfully sweep or transition within 60 seconds. Reset if opponent passes. Focus on chaining to other sweeps when underhook sweep is defended. Track success rates and identify patterns in failures.
-(Resistance: Full)
 
 **Phase 5: Positional Sparring (Weeks 8-12)** - Integration with complete half guard system
 Five-minute rounds starting from half guard bottom. Partner can attempt passes while you work sweeps and submissions. Develop ability to create underhook opportunities from various half guard variations. Emphasize smooth transitions between offensive options.
-(Resistance: Full)
 
 **Phase 6: Open Sparring Application (Ongoing)** - Timing and opportunity recognition in live rolling
 Actively seek half guard positions during normal sparring sessions. Practice recognizing optimal timing for underhook sweep versus other options. Develop intuitive feel for when opponent's weight and position create sweep opportunities. Track success rates against various skill levels and body types.
-(Resistance: Full)
 
 
 
@@ -361,7 +355,6 @@ The Underhook Sweep from Half Guard represents a cornerstone technique within th
 - [[Knee Shield Half Guard]] - Starting position variation for defensive structure
 - [[Kimura from Half Guard]] - Submission threat that creates underhook opportunities
 - [[Lockdown]] - Alternative leg control method in half guard system
-- [[Underhook Recovery]] - Fundamental technique for re-establishing underhook control when lost
 - [[Side Control]] - Ending position after successful sweep
 - [[Hip Movement]] - Core principle for generating sweeping power
 - [[Dogfight Position]] - Intermediate position arising from contested underhook battles

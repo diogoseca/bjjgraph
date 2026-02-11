@@ -157,7 +157,7 @@ The effectiveness of this transition lies in its ability to capitalize on the op
 This technique serves as a cornerstone of modern no-gi grappling and has proven equally effective in gi competition. Its prevalence in high-level competition stems from its reliability and the difficulty opponents face in defending it once proper front headlock control is established. The transition connects seamlessly with submission attacks including the rear naked choke, making it both a positional advancement and a direct path to fight-ending submissions.
 
 **From Position**: [[Front Headlock/Top]]
-**Success Rates**: Beginner 40%, Intermediate 60%, Advanced 75%
+**Success Rate**: 68%
 
 </section>
 
@@ -206,12 +206,12 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure front headlock control**: Establish a solid front headlock position with your choking arm wrapped around the opponent's neck. Your chest should be heavy on their upper back, and your hips should be loaded forward. Ensure your head is positioned on the opposite side of your choking arm to create proper angle and prevent opponent from rolling through. Your free hand should control their far arm or post on their hip for stability. (Timing: Initial control phase)
-2. **Circle toward choking arm side**: Begin circling your body toward the side of your choking arm while maintaining downward pressure on the opponent's head. This lateral movement creates the necessary angle to access their back. Take small shuffling steps with your feet while keeping your weight distributed forward. The opponent will typically follow this circle to maintain their base, inadvertently opening their back to your attack. (Timing: Continuous movement, 2-3 seconds)
-3. **Swim inside leg as first hook**: As you circle, bring your inside leg (the leg on the same side as your choking arm) underneath the opponent's near hip. Drive your knee forward and insert your foot as a hook on the inside of their thigh. Your shin should make contact with their inner thigh, and your foot should be active with toes flexed. Maintain head control throughout this insertion to prevent opponent from turning into you or escaping. (Timing: Mid-transition, coordinated with circling motion)
-4. **Transition to back mount position**: With your first hook established, continue your circular motion to bring your hips completely behind the opponent. Your outside leg should now swing around to establish the second hook on the opposite side. Your body should be perpendicular to the opponent's spine, with both hooks actively engaged pulling them back into your control. Adjust your upper body position to be chest-to-back rather than perpendicular. (Timing: Smooth continuation, 1-2 seconds after first hook)
-5. **Release front headlock grip**: Once both hooks are established and your chest is secured to the opponent's back, release your front headlock grip strategically. The timing is critical: release only when your hooks provide sufficient control to prevent escape. Your choking arm should slide down from the neck position while maintaining contact with the opponent's upper body. (Timing: After both hooks are secure)
-6. **Establish seat belt control**: Immediately transition to seat belt (harness) control by sliding your top arm over the opponent's shoulder and your bottom arm under their armpit. Connect your hands in a gable grip or rear naked choke grip configuration. Pull the opponent tight to your chest, ensuring their back is flat against you. Your hooks should pull them backward while your upper body pulls them into your control, creating a strong structural position that makes escape extremely difficult. (Timing: Immediate transition from headlock release)
+1. **Secure front headlock control**: Establish a solid front headlock position with your choking arm wrapped around the opponent's neck. Your chest should be heavy on their upper back, and your hips should be loaded forward. Ensure your head is positioned on the opposite side of your choking arm to create proper angle and prevent opponent from rolling through. Your free hand should control their far arm or post on their hip for stability.
+2. **Circle toward choking arm side**: Begin circling your body toward the side of your choking arm while maintaining downward pressure on the opponent's head. This lateral movement creates the necessary angle to access their back. Take small shuffling steps with your feet while keeping your weight distributed forward. The opponent will typically follow this circle to maintain their base, inadvertently opening their back to your attack.
+3. **Swim inside leg as first hook**: As you circle, bring your inside leg (the leg on the same side as your choking arm) underneath the opponent's near hip. Drive your knee forward and insert your foot as a hook on the inside of their thigh. Your shin should make contact with their inner thigh, and your foot should be active with toes flexed. Maintain head control throughout this insertion to prevent opponent from turning into you or escaping.
+4. **Transition to back mount position**: With your first hook established, continue your circular motion to bring your hips completely behind the opponent. Your outside leg should now swing around to establish the second hook on the opposite side. Your body should be perpendicular to the opponent's spine, with both hooks actively engaged pulling them back into your control. Adjust your upper body position to be chest-to-back rather than perpendicular.
+5. **Release front headlock grip**: Once both hooks are established and your chest is secured to the opponent's back, release your front headlock grip strategically. The timing is critical: release only when your hooks provide sufficient control to prevent escape. Your choking arm should slide down from the neck position while maintaining contact with the opponent's upper body.
+6. **Establish seat belt control**: Immediately transition to seat belt (harness) control by sliding your top arm over the opponent's shoulder and your bottom arm under their armpit. Connect your hands in a gable grip or rear naked choke grip configuration. Pull the opponent tight to your chest, ensuring their back is flat against you. Your hooks should pull them backward while your upper body pulls them into your control, creating a strong structural position that makes escape extremely difficult.
 
 
 </section>
@@ -257,27 +257,21 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 ## Training Progressions
 **Week 1-2: Positional Drilling** - Front headlock control and circling mechanics
 Partner starts in turtle position. Establish front headlock and practice circling motion toward choking arm side while maintaining downward pressure. Partner remains passive. Focus on footwork, weight distribution, and maintaining head control throughout circular movement. Complete 10 repetitions per side, alternating which arm is the choking arm.
-(Resistance: None)
 
 **Week 3-4: Hook Insertion Practice** - Sequential hook establishment from front headlock
 From established front headlock, practice inserting first hook while circling. Partner remains in turtle but can make minor adjustments to base. Focus on timing of hook insertion with circling motion. Drill first hook insertion 20 times before progressing to full transition with both hooks. Partner provides light resistance by maintaining strong turtle base.
-(Resistance: Light)
 
 **Week 5-8: Full Transition Repetitions** - Complete transition from front headlock to back control with seat belt
 Execute complete technique from front headlock establishment through both hooks to seat belt control. Partner maintains defensive turtle but does not actively escape. Perform 15 complete repetitions per training session, focusing on smooth transitions between each phase. Partner begins adding moderate resistance, attempting to maintain turtle position without escaping.
-(Resistance: Medium)
 
 **Week 9-12: Counter Defense Integration** - Dealing with common defensive reactions
 Partner actively defends using one designated counter per round (sitting back, rolling through, or standing). Practice recognizing and responding to each counter appropriately. Perform 5 repetitions against each counter type. Emphasis on maintaining front headlock control regardless of opponent's defensive movement and adapting technique based on their reaction.
-(Resistance: Medium)
 
 **Week 13+: Live Situational Sparring** - Front headlock position to back control in live scenarios
 Start all rounds from established front headlock position. Partner uses full resistance and all available defensive options. Focus on successfully completing transition against intelligent, experienced opposition. Include integration with submission attacks from back control. Perform 5-minute positional sparring rounds with this starting position.
-(Resistance: Full)
 
 **Ongoing: Competition Integration** - Recognizing and creating front headlock opportunities in free rolling
 Practice identifying front headlock opportunities during normal sparring, including snap-downs, failed takedown defenses, and opponent's turtle entries. Work on creating the position naturally rather than starting from it. Maintain statistics on success rate of transition during live training. Review video footage to identify improvement areas in execution under pressure.
-(Resistance: Full)
 
 
 

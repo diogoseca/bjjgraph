@@ -27,7 +27,7 @@
       "relationship": "Direct submission control position accessed when opponent pulls their arm back against overhook pressure"
     },
     {
-      "name": "D'arce Control",
+      "name": "Darce Control",
       "relationship": "Front headlock submission position entered when opponent drives forward into overhook control"
     },
     {
@@ -154,7 +154,7 @@
         "actions": [
           {
             "technique": "Darce Choke",
-            "target": "D'arce Control",
+            "target": "Darce Control",
             "probability": 60
           },
           {
@@ -270,7 +270,7 @@
         "relationship": "Primary submission control accessed when opponent pulls back against overhook pressure"
       },
       {
-        "name": "D'arce Control",
+        "name": "Darce Control",
         "relationship": "Front headlock submission position entered when opponent drives forward into overhook"
       },
       {
@@ -304,19 +304,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 30,
-        "intermediate": 50,
-        "advanced": 70
+        "value": 60
       },
       "advancement_probability": {
-        "beginner": 42,
-        "intermediate": 58,
-        "advanced": 75
+        "value": 66
       },
       "submission_probability": {
-        "beginner": 25,
-        "intermediate": 40,
-        "advanced": 60
+        "value": 50
       },
       "average_time": "5-15 seconds (transitional attacking position)"
     },
@@ -584,19 +578,13 @@
     ],
     "position_metrics": {
       "retention_rate": {
-        "beginner": 35,
-        "intermediate": 52,
-        "advanced": 70
+        "value": 61
       },
       "advancement_probability": {
-        "beginner": 32,
-        "intermediate": 48,
-        "advanced": 66
+        "value": 57
       },
       "submission_probability": {
-        "beginner": 18,
-        "intermediate": 32,
-        "advanced": 52
+        "value": 42
       },
       "average_time": "8-20 seconds (transitional guard control)"
     },

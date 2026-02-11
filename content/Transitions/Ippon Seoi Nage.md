@@ -157,7 +157,7 @@ In the BJJ context, Ippon Seoi Nage offers several strategic advantages: it gene
 The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing against forward pressure, and smooth transitions to ground control positions. Successful execution requires coordinating multiple elements: breaking your opponent's balance forward and to the side, achieving deep penetration with your hips below theirs, maintaining continuous pulling action throughout the throw, and controlling the landing to secure top position immediately.
 
 **From Position**: [[Standing Position/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 70%
+**Success Rate**: 60%
 
 </section>
 
@@ -206,12 +206,12 @@ The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish grips and off-balance**: Secure traditional sleeve and lapel grips (gi) or wrist and shoulder control (no-gi). Pull opponent's sleeve grip downward and forward while lifting lapel grip upward, breaking their posture forward. Opponent should feel pulled onto their toes with weight shifting forward. (Timing: 2-3 seconds of grip fighting before entry)
-2. **Entry step**: Step your lead foot (same side as lapel grip) deeply across opponent's centerline, positioning it between their feet or just beyond. Your foot should point in the direction you'll throw them. This entry step commits you to the throw and must be decisive. (Timing: Explosive movement coordinated with pulling action)
-3. **Hip insertion and loading**: Pivot on your lead foot while swinging your back leg around in a circular motion. Drop your hips below opponent's hip line by bending your knees. Simultaneously rotate your torso so your back faces opponent. Pull their arm across your chest and shoulder. Your hips should make contact with their lower abdomen/thigh area. (Timing: Continuous motion from entry step - no pause)
-4. **Load opponent onto back**: Continue pulling sleeve arm across your body while maintaining upward lift on lapel side. Straighten your legs partially to lift opponent's weight onto your back and shoulders. Their feet should leave the ground as their weight transfers completely onto you. Keep your back straight and abs engaged. (Timing: Explosive upward drive with legs)
-5. **Execute throw**: Bend forward at the waist while maintaining sleeve pull and continuing leg drive. Pull sleeve arm downward in arc toward the mat. Your opponent rotates over your shoulder/back in forward rolling motion. Drive your hips backward slightly to generate additional rotation power. (Timing: Smooth, accelerating motion - not jerky)
-6. **Land and establish position**: As opponent impacts the mat, maintain sleeve control and immediately drop your weight onto them. Land in side control position by driving your chest into theirs and establishing crossface with your free arm. Secure grips and distribute your weight to prevent immediate escape attempts. (Timing: Transition to ground control within 1-2 seconds of landing)
+1. **Establish grips and off-balance**: Secure traditional sleeve and lapel grips (gi) or wrist and shoulder control (no-gi). Pull opponent's sleeve grip downward and forward while lifting lapel grip upward, breaking their posture forward. Opponent should feel pulled onto their toes with weight shifting forward.
+2. **Entry step**: Step your lead foot (same side as lapel grip) deeply across opponent's centerline, positioning it between their feet or just beyond. Your foot should point in the direction you'll throw them. This entry step commits you to the throw and must be decisive.
+3. **Hip insertion and loading**: Pivot on your lead foot while swinging your back leg around in a circular motion. Drop your hips below opponent's hip line by bending your knees. Simultaneously rotate your torso so your back faces opponent. Pull their arm across your chest and shoulder. Your hips should make contact with their lower abdomen/thigh area.
+4. **Load opponent onto back**: Continue pulling sleeve arm across your body while maintaining upward lift on lapel side. Straighten your legs partially to lift opponent's weight onto your back and shoulders. Their feet should leave the ground as their weight transfers completely onto you. Keep your back straight and abs engaged.
+5. **Execute throw**: Bend forward at the waist while maintaining sleeve pull and continuing leg drive. Pull sleeve arm downward in arc toward the mat. Your opponent rotates over your shoulder/back in forward rolling motion. Drive your hips backward slightly to generate additional rotation power.
+6. **Land and establish position**: As opponent impacts the mat, maintain sleeve control and immediately drop your weight onto them. Land in side control position by driving your chest into theirs and establishing crossface with your free arm. Secure grips and distribute your weight to prevent immediate escape attempts.
 
 
 </section>
@@ -257,23 +257,18 @@ The modern application of Ippon Seoi Nage in BJJ emphasizes grip control, timing
 ## Training Progressions
 **Week 1-2: Static Drilling** - Footwork and hip positioning mechanics
 Partner stands still with light grips. Practice entry step, hip insertion, and loading motion slowly. Focus on proper depth and hip height. Repeat 20-30 times per session until movement feels natural.
-(Resistance: None)
 
 **Week 3-4: Cooperative Throwing** - Complete throw execution with willing partner
 Partner allows throw but maintains realistic grips and posture. Execute full throw including landing in side control. Emphasize smooth transitions and continuous motion. 15-20 repetitions per session.
-(Resistance: Light)
 
 **Week 5-8: Resistance Building** - Throws against progressive resistance
 Partner begins resisting moderately - posting hands, widening base, but not fully defending. Learn to recognize when throw is available versus when to abandon. Practice grip fighting before throw. 10-15 attempts per session.
-(Resistance: Medium)
 
 **Week 9-12: Situational Sparring** - Throws in standing-only rounds
 3-minute rounds starting from standing with goal of executing throw. Partner defends realistically but both focus on standup game. Begin recognizing setup opportunities and timing. 5-8 rounds per session.
-(Resistance: Full)
 
 **Month 4+: Competition Integration** - Throws in full sparring and competition
 Attempt throw opportunities during regular sparring rounds. Study successful competition footage. Develop throw setups from grip fighting sequences. Refine timing and decision-making about when to commit.
-(Resistance: Full)
 
 
 

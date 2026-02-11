@@ -366,11 +366,11 @@ Bottom player attempts Old School Sweep or Electric Chair entries while top play
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 45% | 30% | 15% |
-| Intermediate | 60% | 45% | 25% |
-| Advanced     | 75% | 60% | 35% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 68% |
+| Advancement Probability | 52% |
+| Submission Probability | 30% |
 
 **Average Time in Position**: 45-90 seconds before pass or sweep
 

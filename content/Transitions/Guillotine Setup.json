@@ -11,11 +11,6 @@
     "standing",
     "choke"
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 70
-  },
   "overview": "The Guillotine Setup represents one of the most fundamental and highest-percentage submission entries in Brazilian Jiu-Jitsu, serving as a critical bridge between controlling the opponent's head and securing a fight-finishing choke. This transition capitalizes on the dominant front headlock position, where the practitioner has already secured head control and posture dominance, and systematically converts this control into a guillotine choke configuration. The setup is characterized by precise arm placement around the opponent's neck, proper hand positioning for maximum leverage, and strategic body alignment that maximizes choking pressure while minimizing escape opportunities. What makes this setup particularly valuable is its versatility across multiple contexts—it can be executed from standing exchanges, scrambles, failed takedown attempts, or ground transitions, making it an essential tool for practitioners at all levels. The guillotine setup embodies the principle of capitalizing on opponent mistakes, as it most commonly presents itself when an opponent shoots for a takedown, turtles defensively, or attempts to pass guard with poor posture. Understanding the nuances of grip configuration, head positioning, and hip placement during the setup phase dramatically increases the success rate of the subsequent choke, as a properly established guillotine is extraordinarily difficult to defend once locked in place.",
   "key_principles": [
     "Secure deep arm placement around opponent's neck before attempting to finish",
@@ -38,44 +33,37 @@
     {
       "step_number": 1,
       "action": "Secure front headlock position",
-      "description": "Establish dominant front headlock control with your arm wrapped around opponent's head, controlling the back of their neck with your armpit. Your opposite hand should control their far arm or shoulder to prevent them from establishing a defensive frame. Maintain your weight distributed over their back to keep their posture broken.",
-      "timing": "Initial control phase"
+      "description": "Establish dominant front headlock control with your arm wrapped around opponent's head, controlling the back of their neck with your armpit. Your opposite hand should control their far arm or shoulder to prevent them from establishing a defensive frame. Maintain your weight distributed over their back to keep their posture broken."
     },
     {
       "step_number": 2,
       "action": "Thread choking arm deep",
-      "description": "Release your controlling arm and immediately thread it deep under the opponent's chin, driving your forearm across their throat. The goal is to get your wrist bone positioned directly against their trachea rather than having the soft part of your forearm against their neck. Push your shoulder forward as you thread to maximize depth and prevent them from tucking their chin.",
-      "timing": "As opponent attempts to recover or advance"
+      "description": "Release your controlling arm and immediately thread it deep under the opponent's chin, driving your forearm across their throat. The goal is to get your wrist bone positioned directly against their trachea rather than having the soft part of your forearm against their neck. Push your shoulder forward as you thread to maximize depth and prevent them from tucking their chin."
     },
     {
       "step_number": 3,
       "action": "Establish choking grip",
-      "description": "Once your choking arm is deep, bring your opposite hand to meet it. For maximum leverage, use a palm-to-palm grip (sometimes called 'gable grip') or interlace your fingers if your arms are long enough. The key is creating a tight closed loop around the neck with no gaps. Your choking-side shoulder should be tight against the side of their head.",
-      "timing": "Immediately after threading arm"
+      "description": "Once your choking arm is deep, bring your opposite hand to meet it. For maximum leverage, use a palm-to-palm grip (sometimes called 'gable grip') or interlace your fingers if your arms are long enough. The key is creating a tight closed loop around the neck with no gaps. Your choking-side shoulder should be tight against the side of their head."
     },
     {
       "step_number": 4,
       "action": "Step to angle",
-      "description": "Step your feet to create a 45-degree angle relative to your opponent's body, moving toward the side of your choking arm. This angle is critical—staying square allows them to defend, while stepping too far perpendicular reduces leverage. Your hips should shift toward the side where your choking arm is positioned.",
-      "timing": "Simultaneously with grip establishment"
+      "description": "Step your feet to create a 45-degree angle relative to your opponent's body, moving toward the side of your choking arm. This angle is critical—staying square allows them to defend, while stepping too far perpendicular reduces leverage. Your hips should shift toward the side where your choking arm is positioned."
     },
     {
       "step_number": 5,
       "action": "Secure head position",
-      "description": "Drive your chest and shoulder into the opponent's head, pinning it against your ribcage. Your head should be positioned on the opposite side of theirs, creating a 'head outside' configuration. This prevents them from turning into you and makes it extremely difficult for them to posture up or create space.",
-      "timing": "Before committing to finish"
+      "description": "Drive your chest and shoulder into the opponent's head, pinning it against your ribcage. Your head should be positioned on the opposite side of theirs, creating a 'head outside' configuration. This prevents them from turning into you and makes it extremely difficult for them to posture up or create space."
     },
     {
       "step_number": 6,
       "action": "Lock elbow position",
-      "description": "Bring your choking-side elbow tight to your ribcage, creating a compact, powerful frame. Your forearm should be nearly vertical, with your wrist bone driving into their throat. The tighter your elbow is to your body, the more power you can generate and the less space exists for them to escape. Your non-choking arm reinforces by pulling your choking hand toward your chest.",
-      "timing": "Final setup before transitioning to finish"
+      "description": "Bring your choking-side elbow tight to your ribcage, creating a compact, powerful frame. Your forearm should be nearly vertical, with your wrist bone driving into their throat. The tighter your elbow is to your body, the more power you can generate and the less space exists for them to escape. Your non-choking arm reinforces by pulling your choking hand toward your chest."
     },
     {
       "step_number": 7,
       "action": "Transition to finishing position",
-      "description": "From the established guillotine setup, you can transition to various finishing positions: pull guard and close your legs around their waist (closed guard guillotine), jump to guard with legs high on their back (high guard guillotine), or remain standing and drop your weight down (standing guillotine). The choice depends on your opponent's posture, your grips, and positional context.",
-      "timing": "Once all setup requirements are satisfied"
+      "description": "From the established guillotine setup, you can transition to various finishing positions: pull guard and close your legs around their waist (closed guard guillotine), jump to guard with legs high on their back (high guard guillotine), or remain standing and drop your weight down (standing guillotine). The choice depends on your opponent's posture, your grips, and positional context."
     }
   ],
   "common_counters": [
@@ -136,32 +124,27 @@
     {
       "phase": "Week 1-2: Foundation and Mechanics",
       "focus": "Basic arm threading and grip establishment from static front headlock",
-      "description": "Partner starts in turtle position while you establish front headlock. Practice threading your arm deep under their chin and securing various grip configurations (gable, S-grip, interlaced fingers). Focus on proper wrist placement against the throat and tight elbow positioning. Repeat 20-30 times per training session with no resistance.",
-      "resistance_level": "None"
+      "description": "Partner starts in turtle position while you establish front headlock. Practice threading your arm deep under their chin and securing various grip configurations (gable, S-grip, interlaced fingers). Focus on proper wrist placement against the throat and tight elbow positioning. Repeat 20-30 times per training session with no resistance."
     },
     {
       "phase": "Week 3-4: Angle Creation and Head Control",
       "focus": "Adding footwork and body positioning to the basic setup",
-      "description": "From front headlock, practice the complete setup including threading the arm, securing the grip, stepping to the proper angle, and pinning the head. Partner offers light resistance by trying to posture up slowly. Emphasize the timing of when to step and how to maintain continuous pressure throughout the transition. Perform 15-20 repetitions per side.",
-      "resistance_level": "Light"
+      "description": "From front headlock, practice the complete setup including threading the arm, securing the grip, stepping to the proper angle, and pinning the head. Partner offers light resistance by trying to posture up slowly. Emphasize the timing of when to step and how to maintain continuous pressure throughout the transition. Perform 15-20 repetitions per side."
     },
     {
       "phase": "Week 5-8: Dynamic Entry and Transition",
       "focus": "Setting up guillotine from various entry scenarios",
-      "description": "Practice entering the guillotine setup from failed takedown attempts, snap downs, and scrambles. Partner shoots for a double leg or single leg, and you sprawl and establish front headlock before transitioning to guillotine setup. Add variations including standing guillotine, closed guard guillotine, and high guard guillotine based on opponent's reaction. Include counter-wrestling scenarios.",
-      "resistance_level": "Medium"
+      "description": "Practice entering the guillotine setup from failed takedown attempts, snap downs, and scrambles. Partner shoots for a double leg or single leg, and you sprawl and establish front headlock before transitioning to guillotine setup. Add variations including standing guillotine, closed guard guillotine, and high guard guillotine based on opponent's reaction. Include counter-wrestling scenarios."
     },
     {
       "phase": "Week 9-12: Defensive Awareness and Counter-Counters",
       "focus": "Recognizing and defeating common defenses during the setup",
-      "description": "Partner actively defends using realistic counters: tucking chin, creating frames, driving forward, circling away. Practice maintaining setup despite defensive efforts and learn to switch between guillotine variations (high elbow, arm-in, standing vs. guard) based on their defense. Develop sensitivity to when the setup is compromised and transition to alternative attacks.",
-      "resistance_level": "Medium"
+      "description": "Partner actively defends using realistic counters: tucking chin, creating frames, driving forward, circling away. Practice maintaining setup despite defensive efforts and learn to switch between guillotine variations (high elbow, arm-in, standing vs. guard) based on their defense. Develop sensitivity to when the setup is compromised and transition to alternative attacks."
     },
     {
       "phase": "Week 13+: Competition Integration",
       "focus": "Applying guillotine setup in live training and positional sparring",
-      "description": "Incorporate guillotine setups into live rolling with specific focus on recognizing opportunities from scrambles, failed takedowns, and guard passing attempts. Practice chaining the setup with other front headlock attacks (anaconda, darce, snapdown to back take) to create dilemmas. Work against fully resisting opponents who know you're hunting for the guillotine.",
-      "resistance_level": "Full"
+      "description": "Incorporate guillotine setups into live rolling with specific focus on recognizing opportunities from scrambles, failed takedowns, and guard passing attempts. Practice chaining the setup with other front headlock attacks (anaconda, darce, snapdown to back take) to create dilemmas. Work against fully resisting opponents who know you're hunting for the guillotine."
     }
   ],
   "variants_and_adaptations": [
@@ -189,33 +172,27 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary anatomical landmark you should aim for when threading your choking arm under the opponent's chin?",
-      "answer": "You should aim to position your wrist bone (the bony prominence on the thumb side of your wrist) directly against the opponent's trachea rather than having the soft, muscular part of your forearm against their neck. This creates focused pressure on the most vulnerable part of the throat and prevents them from creating space by tucking their chin. The wrist bone acts as a hard point of pressure that is extremely difficult to defend against when properly positioned.",
-      "difficulty": "Intermediate"
+      "answer": "You should aim to position your wrist bone (the bony prominence on the thumb side of your wrist) directly against the opponent's trachea rather than having the soft, muscular part of your forearm against their neck. This creates focused pressure on the most vulnerable part of the throat and prevents them from creating space by tucking their chin. The wrist bone acts as a hard point of pressure that is extremely difficult to defend against when properly positioned."
     },
     {
       "question": "Why is stepping to a 45-degree angle critical for the guillotine setup, and what happens if you remain square to your opponent?",
-      "answer": "Stepping to a 45-degree angle toward your choking arm side creates mechanical advantage by aligning your body structure to maximize leverage while simultaneously removing your centerline from their driving path. If you remain square, the opponent can drive straight into you, stack you, or simply posture up because you have minimal leverage and they can use their legs and hips to generate forward pressure that overcomes your upper body strength. The angle makes it geometrically impossible for them to drive into you effectively while multiplying your choking power.",
-      "difficulty": "Advanced"
+      "answer": "Stepping to a 45-degree angle toward your choking arm side creates mechanical advantage by aligning your body structure to maximize leverage while simultaneously removing your centerline from their driving path. If you remain square, the opponent can drive straight into you, stack you, or simply posture up because you have minimal leverage and they can use their legs and hips to generate forward pressure that overcomes your upper body strength. The angle makes it geometrically impossible for them to drive into you effectively while multiplying your choking power."
     },
     {
       "question": "What are the three most common grip configurations for the guillotine setup, and when might you choose each one?",
-      "answer": "The three most common grips are: (1) Gable grip (palm-to-palm) - most secure and powerful for most practitioners, provides maximum pressure with least technical demand; (2) S-grip (four fingers of one hand curl around the wrist of the other) - good for practitioners with medium-length arms, allows for quick adjustments; and (3) Interlaced fingers - requires longest arms but provides deepest penetration, excellent when you have exceptional arm length relative to opponent's neck size. Choice depends on your arm length, opponent's neck thickness, and gi vs. no-gi context.",
-      "difficulty": "Beginner"
+      "answer": "The three most common grips are: (1) Gable grip (palm-to-palm) - most secure and powerful for most practitioners, provides maximum pressure with least technical demand; (2) S-grip (four fingers of one hand curl around the wrist of the other) - good for practitioners with medium-length arms, allows for quick adjustments; and (3) Interlaced fingers - requires longest arms but provides deepest penetration, excellent when you have exceptional arm length relative to opponent's neck size. Choice depends on your arm length, opponent's neck thickness, and gi vs. no-gi context."
     },
     {
       "question": "If your opponent successfully tucks their chin before you can get your arm deep, what are your best options to still secure an effective guillotine?",
-      "answer": "Your best options are: (1) Switch to a high elbow guillotine variation by raising your choking elbow and changing the angle of pressure to go over their chin rather than under it; (2) Transition to an arm-in guillotine if you can trap their defensive arm inside your grip; (3) Switch to an anaconda or darce choke where the tucked chin actually helps the submission by creating pressure; or (4) Use your free hand to physically strip their chin up while maintaining control, then re-establish the deep position. The key is recognizing early that the traditional setup is compromised and adapting rather than forcing a low-percentage position.",
-      "difficulty": "Advanced"
+      "answer": "Your best options are: (1) Switch to a high elbow guillotine variation by raising your choking elbow and changing the angle of pressure to go over their chin rather than under it; (2) Transition to an arm-in guillotine if you can trap their defensive arm inside your grip; (3) Switch to an anaconda or darce choke where the tucked chin actually helps the submission by creating pressure; or (4) Use your free hand to physically strip their chin up while maintaining control, then re-establish the deep position. The key is recognizing early that the traditional setup is compromised and adapting rather than forcing a low-percentage position."
     },
     {
       "question": "What role does your non-choking arm play in the guillotine setup, and how should it be positioned?",
-      "answer": "The non-choking arm serves as the reinforcement and securing mechanism for your primary choking arm. It should grip your choking hand and pull it toward your chest, creating a tight closed loop around the opponent's neck. This arm also helps maintain head control by keeping your chest driven into their head. Additionally, it can be used to control their far arm, strip defensive frames, or adjust your grip depth. The key is ensuring both arms work together as a unified system rather than having the non-choking arm be passive or disconnected from the setup.",
-      "difficulty": "Intermediate"
+      "answer": "The non-choking arm serves as the reinforcement and securing mechanism for your primary choking arm. It should grip your choking hand and pull it toward your chest, creating a tight closed loop around the opponent's neck. This arm also helps maintain head control by keeping your chest driven into their head. Additionally, it can be used to control their far arm, strip defensive frames, or adjust your grip depth. The key is ensuring both arms work together as a unified system rather than having the non-choking arm be passive or disconnected from the setup."
     },
     {
       "question": "From a front headlock position, what are the key indicators that tell you the timing is optimal to transition to a guillotine setup?",
-      "answer": "Key timing indicators include: (1) Opponent's head is lower than their hips with broken posture; (2) Their near arm is not creating a strong defensive frame against your body; (3) They are in a transitional moment such as attempting to stand, advance, or recover position; (4) You have sufficient control that they cannot immediately explosively posture up; (5) Clear access exists to thread your arm under their chin without obstruction; and (6) Your base is stable enough that transitioning your grips won't result in you being driven backward. The optimal moment is often when opponent is in motion trying to improve their position rather than when they are statically defending.",
-      "difficulty": "Advanced"
+      "answer": "Key timing indicators include: (1) Opponent's head is lower than their hips with broken posture; (2) Their near arm is not creating a strong defensive frame against your body; (3) They are in a transitional moment such as attempting to stand, advance, or recover position; (4) You have sufficient control that they cannot immediately explosively posture up; (5) Clear access exists to thread your arm under their chin without obstruction; and (6) Your base is stable enough that transitioning your grips won't result in you being driven backward. The optimal moment is often when opponent is in motion trying to improve their position rather than when they are statically defending."
     }
   ],
   "safety_considerations": "When training the guillotine setup, both practitioners must understand that the neck and trachea are extremely vulnerable areas requiring careful, controlled practice. Apply the setup slowly during drilling, giving your partner time to tap if uncomfortable. Never explosively jerk or crank the neck during the setup phase. Partners should communicate clearly about pressure levels, and the person applying the technique should release immediately upon any tap, verbal submission, or sign of distress. Be especially cautious with grip pressure during the initial threading phase, as overly aggressive arm placement can cause trachea damage even before the choke is fully applied. When practicing from standing positions, ensure adequate mat space and be prepared to control your partner's fall if they lose balance. Beginners should focus on positioning and mechanics with minimal pressure until they understand the technique thoroughly. Remember that a properly applied guillotine can render someone unconscious in 3-8 seconds, so never maintain pressure once a tap occurs, and never practice finishing mechanics without a partner's explicit consent and understanding of safe tapping protocols.",
@@ -287,5 +264,6 @@
       "probability": 10,
       "result": "counter"
     }
-  ]
+  ],
+  "success_rate": 60
 }

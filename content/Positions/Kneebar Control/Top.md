@@ -20,38 +20,38 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar Finish",
-      "text": "From this position, attempt Kneebar Finish. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Knee Cut Pass",
+      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee Cut Pass",
-      "text": "From this position, attempt Knee Cut Pass. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Side Control to Mount",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock",
+      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock",
-      "text": "From this position, attempt Straight Ankle Lock. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Toe Hold",
+      "text": "From this position, attempt Toe Hold. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Half Guard Pass",
+      "text": "From this position, attempt Half Guard Pass. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -212,23 +212,23 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 ## Available Attacks
 
-### [[Kneebar Finish]] (9% of attempts)
+### [[Knee Cut Pass]] (12% of attempts)
 
-### [[Knee Cut Pass]] (13% of attempts)
+### [[Side Control to Mount]] (8% of attempts)
 
-### [[Side Control to Mount]] (11% of attempts)
+### [[Side Control to North-South]] (9% of attempts)
 
-### [[Side Control to North-South]] (12% of attempts)
+### [[Straight Ankle Lock]] (8% of attempts)
 
-### [[Straight Ankle Lock]] (11% of attempts)
+### [[Toe Hold]] (8% of attempts)
 
-### [[Toe Hold]] (10% of attempts)
+### [[Half Guard Pass]] (9% of attempts)
 
-### [[Half Guard Pass]] (12% of attempts)
+### [[Knee on Belly]] (8% of attempts)
 
-### [[Knee on Belly]] (11% of attempts)
+### [[Armbar from Mount]] (8% of attempts)
 
-### [[Armbar from Mount]] (11% of attempts)
+### [[Kneebar]] (30% of attempts)
 
 
 
@@ -384,11 +384,11 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 55% | 20% |
-| Intermediate | 65% | 70% | 35% |
-| Advanced     | 80% | 85% | 55% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 72% |
+| Advancement Probability | 78% |
+| Submission Probability | 45% |
 
 **Average Time in Position**: 20-40 seconds before finish or positional transition
 

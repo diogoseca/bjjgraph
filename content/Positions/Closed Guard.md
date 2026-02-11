@@ -93,27 +93,31 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 ### Available Transitions
 
 
-- **[[Hip Bump Sweep]]** (10% of attempts)
+- **[[Hip Bump Sweep]]** (8% of attempts)
 
-- **[[Scissor Sweep]]** (10% of attempts)
+- **[[Scissor Sweep]]** (8% of attempts)
 
-- **[[Pendulum Sweep]]** (10% of attempts)
+- **[[Pendulum Sweep]]** (8% of attempts)
 
-- **[[Flower Sweep]]** (9% of attempts)
+- **[[Flower Sweep]]** (8% of attempts)
 
-- **[[Kimura to Back Take]]** (10% of attempts)
+- **[[Kimura to Back Take]]** (8% of attempts)
 
-- **[[Omoplata Sweep]]** (8% of attempts)
+- **[[Omoplata Sweep]]** (7% of attempts)
 
-- **[[Triangle Setup]]** (9% of attempts)
+- **[[Triangle Setup]]** (8% of attempts)
 
-- **[[Closed Guard to Triangle]]** (8% of attempts)
+- **[[Closed Guard to Triangle]]** (7% of attempts)
 
-- **[[Omoplata to Back]]** (7% of attempts)
+- **[[Omoplata to Back]]** (6% of attempts)
 
-- **[[Elevator Sweep]]** (10% of attempts)
+- **[[Elevator Sweep]]** (8% of attempts)
 
-- **[[Overhook Sweep]]** (9% of attempts)
+- **[[Overhook Sweep]]** (8% of attempts)
+
+- **[[Kimura Sweep]]** (8% of attempts)
+
+- **[[Muscle Sweep]]** (8% of attempts)
 
 
 ### Common Mistakes

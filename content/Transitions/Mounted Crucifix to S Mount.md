@@ -157,7 +157,7 @@ From a mechanical standpoint, this transition involves extracting one leg from t
 Strategically, this transition excels when opponents defend mounted crucifix chokes effectively by tucking their chin but leave their trapped arm extended. The S Mount opens armbar entries from a different angle while maintaining the control benefits of arm isolation. Advanced practitioners chain this transition with submission attempts, using the threat of one attack to facilitate the positional change.
 
 **From Position**: [[Mounted Crucifix/Top]]
-**Success Rates**: Beginner 30%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -204,12 +204,12 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Consolidate control**: Ensure your mounted crucifix is secure with maximum pressure on the trapped arm. Shift your weight slightly toward the arm you will maintain control over, preparing your opposite leg for extraction. (Timing: 2-3 seconds to verify stability)
-2. **Hip rotation initiation**: Begin rotating your hips toward the side of the arm you're keeping trapped. This rotation naturally starts lifting your extracting leg while maintaining pressure through your controlling leg and upper body weight. (Timing: Smooth continuous motion)
-3. **Leg extraction**: As your hips rotate, extract your leg from the crucifix position by bringing your knee toward your chest. Keep your shin tight against opponent's body throughout - do not create space that allows arm escape. (Timing: Quick extraction, 1-2 seconds)
-4. **Leg threading**: Immediately thread your extracted leg across opponent's neck and upper chest, placing your foot on the far side of their head. Your hamstring should contact their face/neck area while your calf extends past their ear. (Timing: Immediately following extraction)
-5. **Hip settling**: Drop your hips down and slightly back to establish the S Mount configuration. Your controlling leg maintains the arm trap while your threaded leg creates the characteristic S-shape across opponent's upper body. (Timing: Settle weight deliberately)
-6. **Position consolidation**: Squeeze your knees together to lock the S Mount position. Adjust your weight distribution forward to maintain control and prevent bridging. Verify the trapped arm remains secure before proceeding to attacks. (Timing: 3-5 seconds to establish)
+1. **Consolidate control**: Ensure your mounted crucifix is secure with maximum pressure on the trapped arm. Shift your weight slightly toward the arm you will maintain control over, preparing your opposite leg for extraction.
+2. **Hip rotation initiation**: Begin rotating your hips toward the side of the arm you're keeping trapped. This rotation naturally starts lifting your extracting leg while maintaining pressure through your controlling leg and upper body weight.
+3. **Leg extraction**: As your hips rotate, extract your leg from the crucifix position by bringing your knee toward your chest. Keep your shin tight against opponent's body throughout - do not create space that allows arm escape.
+4. **Leg threading**: Immediately thread your extracted leg across opponent's neck and upper chest, placing your foot on the far side of their head. Your hamstring should contact their face/neck area while your calf extends past their ear.
+5. **Hip settling**: Drop your hips down and slightly back to establish the S Mount configuration. Your controlling leg maintains the arm trap while your threaded leg creates the characteristic S-shape across opponent's upper body.
+6. **Position consolidation**: Squeeze your knees together to lock the S Mount position. Adjust your weight distribution forward to maintain control and prevent bridging. Verify the trapped arm remains secure before proceeding to attacks.
 
 
 </section>
@@ -252,19 +252,15 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 ## Training Progressions
 **Week 1-2** - Mechanics isolation
 Practice the leg extraction and threading motion without resistance. Partner remains completely passive while you develop muscle memory for the hip rotation, leg placement, and weight distribution. Focus on maintaining arm control throughout 20+ repetitions per side.
-(Resistance: None)
 
 **Week 3-4** - Timing development
 Partner provides light resistance and movement, including small bridges and arm extraction attempts. Learn to recognize the moments when transition is safe versus when you need to re-consolidate crucifix. Develop sensitivity to opponent's energy and timing.
-(Resistance: Light)
 
 **Week 5-6** - Chain integration
 Combine the transition with crucifix attacks and S Mount finishes. Practice attacking from crucifix, using opponent's defense to facilitate transition, then immediately attacking from S Mount. Build the complete attack sequence with moderate resistance.
-(Resistance: Medium)
 
 **Week 7+** - Competition application
 Apply transition in live rolling against fully resisting partners. Identify your success patterns, recognize when transition is high-percentage versus when maintaining crucifix is superior. Develop personal timing cues and troubleshoot failures.
-(Resistance: Full)
 
 
 

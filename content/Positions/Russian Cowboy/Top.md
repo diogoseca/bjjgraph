@@ -375,11 +375,11 @@ Partner in turtle position with moderate defensive posture. Practice entering Ru
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 25% |
-| Intermediate | 70% | 60% | 45% |
-| Advanced     | 85% | 80% | 65% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 70% |
+| Submission Probability | 55% |
 
 **Average Time in Position**: 45-90 seconds before transition or submission attempt
 

@@ -246,19 +246,13 @@
   ],
   "position_metrics": {
     "retention_rate": {
-      "beginner": 50,
-      "intermediate": 65,
-      "advanced": 80
+      "value": 72
     },
     "advancement_probability": {
-      "beginner": 48,
-      "intermediate": 63,
-      "advanced": 78
+      "value": 70
     },
     "submission_probability": {
-      "beginner": 20,
-      "intermediate": 35,
-      "advanced": 50
+      "value": 42
     },
     "average_time": "30-90 seconds before transition to ground position or submission attempt"
   }

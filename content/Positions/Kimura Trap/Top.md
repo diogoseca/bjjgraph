@@ -21,7 +21,7 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
     {
       "@type": "HowToStep",
       "name": "Execute Kimura from Side Control",
-      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 14% of exchanges from this position.",
+      "text": "From this position, attempt Kimura from Side Control. This technique is attempted in 15% of exchanges from this position.",
       "position": 1
     },
     {
@@ -210,7 +210,7 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Available Attacks
 
-### [[Kimura from Side Control]] (14% of attempts)
+### [[Kimura from Side Control]] (15% of attempts)
 
 ### [[Kimura from North-South]] (15% of attempts)
 
@@ -222,7 +222,7 @@ Strategically, the position is valued for its control density—the top player c
 
 ### [[Kimura from Turtle]] (14% of attempts)
 
-### [[Side Control to Mount]] (15% of attempts)
+### [[Kimura Defense]] (14% of attempts)
 
 
 
@@ -368,11 +368,11 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 70% | 55% | 40% |
-| Intermediate | 82% | 70% | 58% |
-| Advanced     | 90% | 82% | 72% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 86% |
+| Advancement Probability | 76% |
+| Submission Probability | 65% |
 
 **Average Time in Position**: 30-60 seconds before submission or positional advancement
 

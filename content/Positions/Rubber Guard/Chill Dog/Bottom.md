@@ -389,11 +389,11 @@ Start every round in Chill Dog with partner behind attempting any legal attack. 
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 40% | 30% | 5% |
-| Intermediate | 55% | 45% | 10% |
-| Advanced     | 70% | 60% | 15% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 62% |
+| Advancement Probability | 52% |
+| Submission Probability | 12% |
 
 **Average Time in Position**: 20-45 seconds before escape or position change
 

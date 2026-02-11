@@ -349,11 +349,11 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 
 ## Success Rates and Statistics
 
-| Skill Level  | Retention Rate | Advancement Probability | Submission Probability |
-|--------------|----------------|-------------------------|------------------------|
-| Beginner     | 50% | 40% | 10% |
-| Intermediate | 70% | 60% | 20% |
-| Advanced     | 85% | 75% | 30% |
+| Metric | Rate |
+|--------|------|
+| Retention Rate | 78% |
+| Advancement Probability | 68% |
+| Submission Probability | 25% |
 
 **Average Time in Position**: 20-60 seconds to complete pass or lose position
 

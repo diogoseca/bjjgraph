@@ -157,7 +157,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 **Type**: Shoulder Lock
 **Target Area**: Shoulder joint and rotator cuff
 **Starting Position**: [[Closed Guard]]
-**Success Rates**: Beginner 20%, Intermediate 35%, Advanced 55%
+**Success Rate**: 45%
 
 </section>
 
@@ -233,12 +233,12 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Establish Rubber Guard or High Guard Control**: From closed guard with broken posture, secure an overhook on opponent's arm and pull your foot high onto their back or shoulder. Control their head with your overhook side hand, creating a tight connection. This initial control prevents them from establishing defensive posture and sets up the arm isolation needed for the monoplata. (Timing: Hold for 2-3 seconds to ensure stable control) [Pressure: Moderate]
-2. **Create Space and Thread Bottom Leg**: Using your free leg, push on opponent's hip or thigh to create space and angle your body approximately 30-45 degrees. Thread your bottom leg (the one not controlling the overhook) underneath their trapped arm, aiming to position your shin across their upper back or neck area. This threading motion requires hip mobility and precise timing to catch the arm before they can defend. (Timing: 2-3 seconds for positioning adjustment) [Pressure: Light]
-3. **Establish Figure-Four Leg Configuration**: Once your bottom leg is threaded through, bring your top leg (the one that was on their back) over and lock your feet in a figure-four position. Your top foot should hook behind your bottom leg's knee or ankle, creating a tight loop around their trapped arm. Ensure the arm is isolated between your legs with their shoulder joint exposed and vulnerable to rotational pressure. (Timing: 3-4 seconds to secure proper leg configuration) [Pressure: Moderate]
-4. **Adjust Body Angle for Optimal Leverage**: Rotate your hips and body perpendicular to opponent's torso, similar to omoplata positioning. Your shoulder line should be roughly 90 degrees to theirs. Use your hands to grip their belt, pants, or gi material to control their torso and prevent them from rolling forward to escape. This angle optimization is critical for creating the proper leverage for shoulder pressure. (Timing: 2-3 seconds for angle adjustment) [Pressure: Firm]
-5. **Control Opponent's Posture with Free Leg**: Use your outside leg (not involved in the figure-four) to hook over opponent's head, back, or far shoulder, preventing them from posturing up or rolling forward. This additional control point eliminates their primary escape routes and keeps them locked in the submission position. You may also use this leg to push on their hip to enhance the angle. (Timing: Maintain continuously throughout finish) [Pressure: Moderate]
-6. **Apply Finishing Pressure Through Hip Extension**: Gradually extend your hips upward while maintaining the figure-four lock and rotating your legs clockwise (for right arm attacks) or counterclockwise (for left arm attacks). This motion applies rotational pressure to the shoulder joint. The pressure comes from your entire lower body, not just leg strength. Apply slowly and progressively, stopping immediately upon any tap signal. The shoulder lock intensifies as you extend and rotate. (Timing: 5-7 seconds progressive application, NEVER sudden) [Pressure: Maximum]
+1. **Establish Rubber Guard or High Guard Control**: From closed guard with broken posture, secure an overhook on opponent's arm and pull your foot high onto their back or shoulder. Control their head with your overhook side hand, creating a tight connection. This initial control prevents them from establishing defensive posture and sets up the arm isolation needed for the monoplata. (Timing: Hold for 2-3 seconds to ensure stable control)
+2. **Create Space and Thread Bottom Leg**: Using your free leg, push on opponent's hip or thigh to create space and angle your body approximately 30-45 degrees. Thread your bottom leg (the one not controlling the overhook) underneath their trapped arm, aiming to position your shin across their upper back or neck area. This threading motion requires hip mobility and precise timing to catch the arm before they can defend. (Timing: 2-3 seconds for positioning adjustment)
+3. **Establish Figure-Four Leg Configuration**: Once your bottom leg is threaded through, bring your top leg (the one that was on their back) over and lock your feet in a figure-four position. Your top foot should hook behind your bottom leg's knee or ankle, creating a tight loop around their trapped arm. Ensure the arm is isolated between your legs with their shoulder joint exposed and vulnerable to rotational pressure. (Timing: 3-4 seconds to secure proper leg configuration)
+4. **Adjust Body Angle for Optimal Leverage**: Rotate your hips and body perpendicular to opponent's torso, similar to omoplata positioning. Your shoulder line should be roughly 90 degrees to theirs. Use your hands to grip their belt, pants, or gi material to control their torso and prevent them from rolling forward to escape. This angle optimization is critical for creating the proper leverage for shoulder pressure. (Timing: 2-3 seconds for angle adjustment)
+5. **Control Opponent's Posture with Free Leg**: Use your outside leg (not involved in the figure-four) to hook over opponent's head, back, or far shoulder, preventing them from posturing up or rolling forward. This additional control point eliminates their primary escape routes and keeps them locked in the submission position. You may also use this leg to push on their hip to enhance the angle. (Timing: Maintain continuously throughout finish)
+6. **Apply Finishing Pressure Through Hip Extension**: Gradually extend your hips upward while maintaining the figure-four lock and rotating your legs clockwise (for right arm attacks) or counterclockwise (for left arm attacks). This motion applies rotational pressure to the shoulder joint. The pressure comes from your entire lower body, not just leg strength. Apply slowly and progressively, stopping immediately upon any tap signal. The shoulder lock intensifies as you extend and rotate. (Timing: 5-7 seconds progressive application, NEVER sudden)
 
 
 </section>
@@ -258,25 +258,25 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying explosive or jerking rotational pressure to the shoulder [CRITICAL DANGER]
+- **Mistake**: Applying explosive or jerking rotational pressure to the shoulder
   - **Consequence**: Causes immediate shoulder dislocation or severe rotator cuff damage, potentially ending your training partner's grappling career
   - **Correction**: Apply all pressure gradually and progressively over 5-7 seconds minimum. Think of slowly turning a dial, not flipping a switch. Stop immediately at any resistance or tap signal.
-- **Mistake**: Failing to secure the figure-four tightly before applying pressure [Medium DANGER]
+- **Mistake**: Failing to secure the figure-four tightly before applying pressure
   - **Consequence**: Opponent escapes easily by pulling their arm free, and you lose the position entirely
   - **Correction**: Ensure your feet are locked securely in figure-four configuration with no gaps. The trapped arm should have no space to maneuver. Test the tightness before progressing to finishing pressure.
-- **Mistake**: Not controlling opponent's posture with free leg or hands [Medium DANGER]
+- **Mistake**: Not controlling opponent's posture with free leg or hands
   - **Consequence**: Opponent easily postures up or rolls forward to escape, negating all your setup work
   - **Correction**: Always establish secondary control points. Your free leg should hook their head or back, and your hands should grip their belt or gi to control their torso. These controls must be active throughout the submission attempt.
-- **Mistake**: Threading the bottom leg too shallow or at wrong angle [Low DANGER]
+- **Mistake**: Threading the bottom leg too shallow or at wrong angle
   - **Consequence**: Figure-four position is compromised, reducing shoulder pressure and making the submission ineffective
   - **Correction**: Your bottom leg should thread deep underneath their arm with your shin positioned across their upper back or neck. Take time to adjust the angle before locking the figure-four.
-- **Mistake**: Attempting monoplata without sufficient hip mobility or flexibility [Low DANGER]
+- **Mistake**: Attempting monoplata without sufficient hip mobility or flexibility
   - **Consequence**: Cannot achieve proper positioning, wasting energy and exposing yourself to guard passes
   - **Correction**: Develop hip mobility through dedicated stretching and drilling. Practice the leg threading motion repeatedly without a partner until the movement is smooth and natural. Consider alternative submissions if flexibility is limited.
-- **Mistake**: Releasing all controls when opponent begins to defend [Medium DANGER]
+- **Mistake**: Releasing all controls when opponent begins to defend
   - **Consequence**: Lose the position entirely and may end up in inferior position or getting passed
   - **Correction**: Maintain at least one control point at all times. If the monoplata is defended, immediately transition to sweep, omoplata, triangle, or back take rather than abandoning the attack completely.
-- **Mistake**: Failing to recognize when training partner cannot tap due to arm entanglement [CRITICAL DANGER]
+- **Mistake**: Failing to recognize when training partner cannot tap due to arm entanglement
   - **Consequence**: Serious shoulder injury occurs because partner couldn't signal submission in time
   - **Correction**: Before applying finishing pressure, verify your partner has one hand completely free to tap. Watch for any verbal signals or changes in resistance. When in doubt, release pressure and check verbally.
 
@@ -341,43 +341,6 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding and Visualization** (1-2 weeks, 15-20 repetitions)
-- Focus: Learn proper leg threading mechanics, figure-four configuration, and body angle relationships without applying any pressure. Study injury mechanisms and understand why slow application is critical.
-- Resistance: Zero resistance
-- Safety: Training partner remains completely passive and compliant. No finishing pressure applied whatsoever. Focus entirely on positioning mechanics and understanding the submission's danger. Review all injury risks and tap protocols verbally with partner before each rep.
-
-**Slow Motion Drilling** (2-3 weeks, 30-40 repetitions)
-- Focus: Practice full sequence from guard to figure-four position at very slow speed. Begin introducing light pressure to understand the submission mechanics. Partner should tap at first sensation of shoulder pressure.
-- Resistance: Mild resistance
-- Safety: Apply pressure extremely slowly over 7-10 seconds. Partner must tap at very first sensation of shoulder discomfort. Practice immediate release protocol on every repetition. Verify tap access before any pressure application.
-
-**Positional Drilling with Specific Defenses** (3-4 weeks, 40-50 repetitions)
-- Focus: Partner provides specific defensive responses (posturing, arm extraction, rolling attempts) while you maintain control and adjust positioning. No finishing pressure yet—focus on control maintenance and transition options.
-- Resistance: Mild resistance
-- Safety: If control is lost, restart from beginning rather than forcing the position. Continue emphasizing slow application. Partner should defend the setup but tap immediately if figure-four is secured and pressure begins.
-
-**Progressive Resistance Integration** (4-6 weeks, 50+ repetitions)
-- Focus: Partner provides realistic defensive responses while you work to secure position and apply controlled finishing pressure. Begin recognizing when to transition to alternative attacks if monoplata is defended.
-- Resistance: Realistic resistance
-- Safety: Maintain 5-7 second minimum pressure application even with resistance. Partner should defend legitimately but never tough out shoulder pain. Practice verbal communication about pressure levels during drilling.
-
-**Live Rolling Integration** (2-3 months ongoing)
-- Focus: Attempt monoplata setups during normal rolling when opportunities present naturally. Focus on high-percentage entries from rubber guard and failed triangle attempts. Accept that technique will be defended often.
-- Resistance: Full resistance
-- Safety: Never use competition intensity or speed on shoulder submissions in training. Continue slow pressure application. If you catch it cleanly, verify partner can tap before applying pressure. Release immediately on any tap signal.
-
-**Advanced Integration and Competition Preparation** (6+ months, ongoing refinement)
-- Focus: Develop monoplata as part of systematic guard attack sequences. Chain with triangle, omoplata, and sweep options. Use as surprise weapon against high-level opponents. Understand when to use in competition versus training.
-- Resistance: Full resistance
-- Safety: Distinguish between training and competition application speeds. In training, always maintain safety protocols regardless of skill level. In competition, understand you can apply more speed but must still respect tap signals immediately. Continue reinforcing safety culture with all training partners.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -429,6 +392,7 @@ The Monoplata is an advanced shoulder lock submission that combines elements of 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

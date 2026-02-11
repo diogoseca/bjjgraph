@@ -167,7 +167,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 **Type**: Leg Lock
 **Target Area**: Ankle and knee ligaments (lateral ankle complex, medial collateral ligament)
 **Starting Position**: [[Inside Ashi-Garami]]
-**Success Rates**: Beginner 35%, Intermediate 50%, Advanced 65%
+**Success Rate**: 58%
 
 </section>
 
@@ -248,13 +248,13 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
-1. **Secure leg entanglement foundation**: From your top position in Ashi Garami or Outside Ashi, clamp your knees tightly together around opponent's trapped leg. Your bottom leg should hook across their hip (inside position) while your top leg crosses over their thigh. This creates the fundamental control structure that prevents leg extraction. Your hips should be close to their hip, eliminating space that would allow them to turn or escape. (Timing: Initial control phase: 2-3 seconds) [Pressure: Moderate]
-2. **Break opponent's defensive grips**: Most opponents will immediately grip their own foot or ankle to defend the toe hold. Use your hands to strip these grips by peeling their fingers away or by controlling their wrists and pulling them away from the danger zone. Alternatively, if they're gripping your legs, break these grips using circular hand movements or by suddenly changing your leg position to compromise their grip strength. (Timing: Grip fighting phase: 3-5 seconds) [Pressure: Light]
-3. **Establish figure-four grip on the foot**: Cup the ball of opponent's foot with your hand closest to their foot (usually your right hand if controlling their right leg). Your palm should contact the metatarsal area while your fingers wrap around the top of the foot. Your other hand reaches under their ankle and grasps the wrist of your first hand, creating the figure-four configuration. Use either a palm-to-palm grip or gable grip - never interlace fingers as this can cause finger injuries during the finish. (Timing: Grip establishment: 2-3 seconds) [Pressure: Light]
-4. **Adjust hip position for optimal leverage**: Before applying finishing pressure, slide your hips slightly forward and ensure they remain connected to opponent's hip. Your body should form approximately a 90-degree angle to their trapped leg. This positioning maximizes your leverage for the rotational component while preventing them from sitting up or changing angles to relieve pressure. Keep your head and shoulders elevated, maintaining visual contact with their leg and knee. (Timing: Positional adjustment: 1-2 seconds) [Pressure: Moderate]
-5. **Initiate heel pull toward your chest**: Begin pulling the opponent's heel toward your chest by flexing your arms, as if performing a bicep curl. This creates the initial pressure on the ankle by hyperextending it. The pull should be smooth and controlled, not jerky. Your elbows should stay tight to your torso for maximum leverage. This phase alone can finish some opponents, especially if they have previous ankle injuries or limited ankle mobility. (Timing: Initial pressure application: 3-5 seconds in training) [Pressure: Moderate]
-6. **Apply external rotation to the toe**: While maintaining the heel pull, begin rotating the toe away from opponent's centerline by turning your wrists and forearms as if turning a steering wheel. This external rotation is what differentiates the toe hold from a straight ankle lock and creates the dangerous torque on the MCL. The rotation should be extremely gradual in training - imagine turning a dial rather than wrenching a bolt. Monitor opponent's knee constantly during this phase. (Timing: Rotational pressure: 5-7 seconds minimum in training) [Pressure: Firm]
-7. **Combine heel pull and rotation for finish**: The final finishing phase involves simultaneously pulling the heel toward your chest while continuing the external rotation of the toe. This creates a spiraling pressure that attacks the ankle's lateral ligaments and the knee's MCL simultaneously. In training, apply this pressure extremely slowly and progressively over 5-7 seconds minimum, constantly communicating with your partner and stopping at the first sign of discomfort. In competition, the finish can be faster but must still be controlled to avoid referee stoppage for dangerous technique application. (Timing: Final submission phase: 5-7 seconds in training, 2-3 seconds in competition) [Pressure: Maximum]
+1. **Secure leg entanglement foundation**: From your top position in Ashi Garami or Outside Ashi, clamp your knees tightly together around opponent's trapped leg. Your bottom leg should hook across their hip (inside position) while your top leg crosses over their thigh. This creates the fundamental control structure that prevents leg extraction. Your hips should be close to their hip, eliminating space that would allow them to turn or escape. (Timing: Initial control phase: 2-3 seconds)
+2. **Break opponent's defensive grips**: Most opponents will immediately grip their own foot or ankle to defend the toe hold. Use your hands to strip these grips by peeling their fingers away or by controlling their wrists and pulling them away from the danger zone. Alternatively, if they're gripping your legs, break these grips using circular hand movements or by suddenly changing your leg position to compromise their grip strength. (Timing: Grip fighting phase: 3-5 seconds)
+3. **Establish figure-four grip on the foot**: Cup the ball of opponent's foot with your hand closest to their foot (usually your right hand if controlling their right leg). Your palm should contact the metatarsal area while your fingers wrap around the top of the foot. Your other hand reaches under their ankle and grasps the wrist of your first hand, creating the figure-four configuration. Use either a palm-to-palm grip or gable grip - never interlace fingers as this can cause finger injuries during the finish. (Timing: Grip establishment: 2-3 seconds)
+4. **Adjust hip position for optimal leverage**: Before applying finishing pressure, slide your hips slightly forward and ensure they remain connected to opponent's hip. Your body should form approximately a 90-degree angle to their trapped leg. This positioning maximizes your leverage for the rotational component while preventing them from sitting up or changing angles to relieve pressure. Keep your head and shoulders elevated, maintaining visual contact with their leg and knee. (Timing: Positional adjustment: 1-2 seconds)
+5. **Initiate heel pull toward your chest**: Begin pulling the opponent's heel toward your chest by flexing your arms, as if performing a bicep curl. This creates the initial pressure on the ankle by hyperextending it. The pull should be smooth and controlled, not jerky. Your elbows should stay tight to your torso for maximum leverage. This phase alone can finish some opponents, especially if they have previous ankle injuries or limited ankle mobility. (Timing: Initial pressure application: 3-5 seconds in training)
+6. **Apply external rotation to the toe**: While maintaining the heel pull, begin rotating the toe away from opponent's centerline by turning your wrists and forearms as if turning a steering wheel. This external rotation is what differentiates the toe hold from a straight ankle lock and creates the dangerous torque on the MCL. The rotation should be extremely gradual in training - imagine turning a dial rather than wrenching a bolt. Monitor opponent's knee constantly during this phase. (Timing: Rotational pressure: 5-7 seconds minimum in training)
+7. **Combine heel pull and rotation for finish**: The final finishing phase involves simultaneously pulling the heel toward your chest while continuing the external rotation of the toe. This creates a spiraling pressure that attacks the ankle's lateral ligaments and the knee's MCL simultaneously. In training, apply this pressure extremely slowly and progressively over 5-7 seconds minimum, constantly communicating with your partner and stopping at the first sign of discomfort. In competition, the finish can be faster but must still be controlled to avoid referee stoppage for dangerous technique application. (Timing: Final submission phase: 5-7 seconds in training, 2-3 seconds in competition)
 
 
 </section>
@@ -275,28 +275,28 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Mistakes
-- **Mistake**: Applying the rotational pressure too quickly or with jerking motions [CRITICAL DANGER]
+- **Mistake**: Applying the rotational pressure too quickly or with jerking motions
   - **Consequence**: Catastrophic ankle ligament tears, MCL ruptures, or fibula fractures that can end training careers
   - **Correction**: In training, apply all rotational pressure over a minimum 5-7 second window with smooth, progressive force. Imagine slowly turning a dial rather than quickly wrenching a bolt. Always communicate with your training partner during application
-- **Mistake**: Establishing the figure-four grip too far up the leg (on the shin instead of foot) [Low DANGER]
+- **Mistake**: Establishing the figure-four grip too far up the leg (on the shin instead of foot)
   - **Consequence**: Loss of submission leverage, inability to create sufficient rotational pressure, and potential for opponent to escape by simply retracting their leg
   - **Correction**: Ensure your hand cups the ball of the foot specifically (metatarsal area), not the ankle or lower shin. The figure-four should encircle the foot itself for maximum control and leverage
-- **Mistake**: Allowing space to develop between your hips and opponent's hip [Medium DANGER]
+- **Mistake**: Allowing space to develop between your hips and opponent's hip
   - **Consequence**: Opponent can create distance and relieve pressure on the submission, or fully extract their leg to escape the entanglement entirely
   - **Correction**: Actively pull your hips forward to maintain hip-to-hip connection throughout the entire submission sequence. Think of this as 'closing the door' that would allow them to escape
-- **Mistake**: Failing to control opponent's free leg, allowing them to push and create leverage [Medium DANGER]
+- **Mistake**: Failing to control opponent's free leg, allowing them to push and create leverage
   - **Consequence**: Opponent uses their free leg to push on your hip, shoulder, or head to create distance and escape, or to turn into you and attack your upper body
   - **Correction**: Keep your legs triangled tightly and maintain elevated posture. If their free leg becomes problematic, use your free hand to push it away or control it temporarily before re-engaging the submission
-- **Mistake**: Gripping with interlaced fingers in the figure-four configuration [High DANGER]
+- **Mistake**: Gripping with interlaced fingers in the figure-four configuration
   - **Consequence**: Finger injuries when opponent resists or when you apply finishing pressure - fingers can hyperextend or dislocate
   - **Correction**: Always use either palm-to-palm grip or gable grip (thumb-side wrist to thumb-side wrist). Never interlace fingers in any leg lock submission
-- **Mistake**: Focusing only on heel pull without incorporating rotational pressure [Low DANGER]
+- **Mistake**: Focusing only on heel pull without incorporating rotational pressure
   - **Consequence**: The submission becomes essentially a weak straight ankle lock without the dangerous rotational component that makes the toe hold effective against high-level opponents
   - **Correction**: The power of the toe hold comes from the combination of heel pull AND toe rotation. Both components must be applied simultaneously during the finishing phase for maximum effectiveness
-- **Mistake**: Attempting toe hold when opponent's knee is fully extended [Medium DANGER]
+- **Mistake**: Attempting toe hold when opponent's knee is fully extended
   - **Consequence**: Reduced pressure on the MCL and decreased submission effectiveness, plus opponent can more easily extract their leg when fully extended
   - **Correction**: Ensure opponent's knee maintains slight flexion (bent position) throughout the submission. This maximizes MCL vulnerability and maintains your positional control
-- **Mistake**: Releasing leg control before fully establishing the figure-four grip [Low DANGER]
+- **Mistake**: Releasing leg control before fully establishing the figure-four grip
   - **Consequence**: Opponent immediately retracts their leg and escapes the entire position before you can threaten the submission
   - **Correction**: Maintain tight knee clamp and inside leg position throughout the grip establishment phase. Never loosen your leg control until the figure-four is completely locked in place
 
@@ -365,43 +365,6 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 </section>
 
-<section id="training-progressions-and-safety-protocols" class="content-section hide-minimal">
-
-## Training Progressions
-**Technical Understanding Phase** (Week 1-2)
-- Focus: Learning proper grip mechanics, understanding injury mechanisms, and developing safety awareness. Practice establishing figure-four grip on compliant partner without applying any finishing pressure. Study anatomy of ankle and knee to understand which structures are vulnerable.
-- Resistance: None
-- Safety: Memorize all tap signals and release protocols. Discuss injury risks with instructor and training partners. Practice grip establishment slowly with constant verbal communication. No rotational pressure applied during this phase - focus is purely on positional mechanics and safety awareness.
-
-**Slow Technical Practice Phase** (Week 3-4)
-- Focus: Begin applying very light rotational pressure with 7-10 second application time. Partner should tap early at first sign of discomfort. Practice from stable top positions (Ashi Garami, Outside Ashi) with partner in defensive posture. Emphasize smooth, progressive pressure application.
-- Resistance: Zero resistance
-- Safety: Partner must tap at 20-30% of maximum pressure tolerance. Practice verbal communication throughout: attacker should announce 'applying pressure now' before beginning rotation. Both partners should develop awareness of what safe pressure application feels like. Never exceed light pressure during this phase.
-
-**Positional Integration Phase** (Week 5-8)
-- Focus: Practice entering toe hold from various leg entanglement positions including transitions from other leg attacks. Begin addressing basic defenses like grip fighting and leg retraction. Maintain slow application (5-7 seconds minimum) but practice full submission sequence including grip breaks and positional adjustments.
-- Resistance: Mild resistance
-- Safety: Partner provides light defensive resistance (gripping their own foot, attempting to create distance) but still taps early. Continue communicating throughout the technique. Begin recognizing the difference between position control and submission finishing - never rush the finishing phase even when position is secure.
-
-**Defensive Integration Phase** (Week 9-12)
-- Focus: Partner begins using realistic defensive strategies including rolling, sitting up, and attacking upper body. Practice maintaining control and finishing despite increased movement. Begin drilling from scramble situations and during transitions. Application time can reduce to 5 seconds minimum as both partners develop better awareness.
-- Resistance: Realistic resistance
-- Safety: Even with realistic defensive resistance, finishing pressure must remain slow and controlled. Partners should tap when they feel pressure building rather than waiting for pain. Practice recognizing when opponent's defensive movement actually increases submission danger (like rolling into the toe hold) and reduce pressure immediately when this occurs.
-
-**Competitive Application Phase** (Week 13+)
-- Focus: Practice toe hold during positional sparring focusing on leg entanglements. Allow full resistance but maintain safety-first mindset. Begin recognizing when to abandon toe hold attempt in favor of position retention or other attacks. Develop timing for toe hold attacks within broader leg lock sequences.
-- Resistance: Full resistance
-- Safety: During live training, both partners must maintain heightened safety awareness. Attacker should still apply pressure progressively (3-5 second minimum) and defender must tap early rather than testing their pain tolerance. Instructor supervision recommended during this phase. Both partners should err on the side of caution - better to release a submission early than to injure your training partner.
-
-**Ongoing Mastery and Teaching Phase** (Ongoing)
-- Focus: Refine finishing mechanics, develop setups from dynamic situations, integrate toe hold into complete leg lock system including heel hooks and knee bars. Begin teaching technique to junior students with emphasis on safety protocols. Study competition footage to understand high-level application while maintaining training safety standards.
-- Resistance: Full resistance
-- Safety: As skill level increases, safety awareness must also increase proportionally. Advanced practitioners should model perfect safety behavior for junior students. Never demonstrate or practice techniques in ways that could normalize unsafe behavior. Remember that competition application differs from training application - in competition you finish faster, but in training you must always prioritize partner safety over submission completion. Experienced practitioners should check in with training partners before and after practicing leg locks to ensure no lingering discomfort or injury.
-
-
-
-</section>
-
 <section id="from-positions" class="content-section">
 
 ## From Which Positions?
@@ -459,6 +422,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 
 </section>
+
 
 <section id="terminal-state" class="content-section">
 

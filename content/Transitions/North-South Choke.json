@@ -29,11 +29,6 @@
       "result": "counter"
     }
   ],
-  "success_rates": {
-    "beginner": 30,
-    "intermediate": 50,
-    "advanced": 65
-  },
   "overview": "The North-South Choke is a devastating blood choke executed from the North-South position, targeting both carotid arteries simultaneously through precise arm positioning and chest pressure. This technique exemplifies the principle of using body weight and structural alignment rather than muscular effort to create submission pressure. The choke becomes available when controlling an opponent from North-South, particularly when they focus on defending arm attacks or attempting to create space.\n\nStrategically, the North-South Choke serves as a powerful complement to Kimura and Americana attacks from North-South position. When opponents defend these arm locks by keeping their elbows tight and hands connected, they often expose their neck to the choke setup. This creates a potent submission dilemma where defending one attack opens vulnerability to another. The technique is particularly effective in no-gi grappling where the lack of collar grips makes traditional chokes difficult.\n\nThe key mechanical principle involves threading your choking arm deep under the opponent's neck while your chest drops onto their face, sealing the choke on both sides simultaneously. Unlike collar chokes that can stall or allow breathing, a properly applied North-South Choke produces unconsciousness within seconds due to bilateral carotid compression. This makes it one of the most efficient blood chokes in grappling when executed correctly.",
   "key_principles": [
     "Thread choking arm deep under opponent's neck before dropping chest weight",
@@ -55,38 +50,32 @@
     {
       "step_number": 1,
       "action": "Establish North-South",
-      "description": "From side control or Kesa Gatame, transition to North-South by walking your body toward opponent's head while maintaining chest pressure. Your chest should be heavy on their upper chest and face.",
-      "timing": "Execute when opponent defends arm attacks or when transitioning from side control"
+      "description": "From side control or Kesa Gatame, transition to North-South by walking your body toward opponent's head while maintaining chest pressure. Your chest should be heavy on their upper chest and face."
     },
     {
       "step_number": 2,
       "action": "Control opponent's arms",
-      "description": "Pin opponent's near arm with your hip or trap it against your body. Their far arm should be controlled by your non-choking arm pressing down on their bicep or elbow to prevent framing.",
-      "timing": "Before threading your choking arm"
+      "description": "Pin opponent's near arm with your hip or trap it against your body. Their far arm should be controlled by your non-choking arm pressing down on their bicep or elbow to prevent framing."
     },
     {
       "step_number": 3,
       "action": "Thread choking arm",
-      "description": "Slide your choking arm deep under opponent's neck from the side, threading until your bicep is positioned directly under their chin. Your forearm wraps around the far side of their neck.",
-      "timing": "When opponent's arms are controlled and neck is exposed"
+      "description": "Slide your choking arm deep under opponent's neck from the side, threading until your bicep is positioned directly under their chin. Your forearm wraps around the far side of their neck."
     },
     {
       "step_number": 4,
       "action": "Position your head",
-      "description": "Drop your ear to opponent's chest on the choking arm side. This maximizes the depth of your arm under their neck and creates the proper angle for bilateral carotid compression.",
-      "timing": "Immediately after threading arm"
+      "description": "Drop your ear to opponent's chest on the choking arm side. This maximizes the depth of your arm under their neck and creates the proper angle for bilateral carotid compression."
     },
     {
       "step_number": 5,
       "action": "Seal with chest pressure",
-      "description": "Drop your chest weight onto opponent's face and upper chest. Your sternum should press against their jaw and cheek, sealing the far-side carotid while your bicep compresses the near-side.",
-      "timing": "As you squeeze elbows together"
+      "description": "Drop your chest weight onto opponent's face and upper chest. Your sternum should press against their jaw and cheek, sealing the far-side carotid while your bicep compresses the near-side."
     },
     {
       "step_number": 6,
       "action": "Complete the choke",
-      "description": "Squeeze your elbows together while maintaining chest pressure and sprawled hips. The compression comes from the structural squeeze of your arms and chest, not from muscular pulling. Hold until tap or unconsciousness.",
-      "timing": "Final finishing sequence"
+      "description": "Squeeze your elbows together while maintaining chest pressure and sprawled hips. The compression comes from the structural squeeze of your arms and chest, not from muscular pulling. Hold until tap or unconsciousness."
     }
   ],
   "common_counters": [
@@ -147,26 +136,22 @@
     {
       "phase": "Week 1-2",
       "focus": "Position and arm threading",
-      "description": "Practice transitioning to North-South and threading the choking arm without resistance. Focus on proper head placement with ear on chest and getting maximum depth under opponent's neck. Drill the positional mechanics slowly with a compliant partner.",
-      "resistance_level": "None"
+      "description": "Practice transitioning to North-South and threading the choking arm without resistance. Focus on proper head placement with ear on chest and getting maximum depth under opponent's neck. Drill the positional mechanics slowly with a compliant partner."
     },
     {
       "phase": "Week 3-4",
       "focus": "Pressure and finishing mechanics",
-      "description": "Add light resistance while developing the squeeze mechanics. Practice maintaining sprawled hips while squeezing elbows together. Partner provides feedback on choke tightness. Begin timing the choke to understand how quickly it takes effect.",
-      "resistance_level": "Light"
+      "description": "Add light resistance while developing the squeeze mechanics. Practice maintaining sprawled hips while squeezing elbows together. Partner provides feedback on choke tightness. Begin timing the choke to understand how quickly it takes effect."
     },
     {
       "phase": "Week 5-6",
       "focus": "Entry combinations",
-      "description": "Chain the North-South Choke with Kimura and Americana attacks. When partner defends arms, attack choke. When partner defends choke, attack arms. Develop the submission dilemma from North-South position against moderate resistance.",
-      "resistance_level": "Medium"
+      "description": "Chain the North-South Choke with Kimura and Americana attacks. When partner defends arms, attack choke. When partner defends choke, attack arms. Develop the submission dilemma from North-South position against moderate resistance."
     },
     {
       "phase": "Week 7+",
       "focus": "Live application",
-      "description": "Implement in positional sparring starting from side control or North-South. Focus on recognizing when opponents create the opening for the choke by defending arm attacks. Test against fully resisting partners of varying skill levels.",
-      "resistance_level": "Full"
+      "description": "Implement in positional sparring starting from side control or North-South. Focus on recognizing when opponents create the opening for the choke by defending arm attacks. Test against fully resisting partners of varying skill levels."
     }
   ],
   "variants_and_adaptations": [
@@ -189,53 +174,43 @@
   "knowledge_assessment": [
     {
       "question": "What is the primary goal of the North-South Choke?",
-      "answer": "The primary goal is bilateral carotid artery compression, cutting off blood flow to the brain from both sides simultaneously. This is achieved through the combination of your bicep compressing one carotid while your chest pressure seals the other side. Unlike air chokes that restrict breathing, this blood choke produces unconsciousness within seconds when applied correctly.",
-      "difficulty": "Beginner"
+      "answer": "The primary goal is bilateral carotid artery compression, cutting off blood flow to the brain from both sides simultaneously. This is achieved through the combination of your bicep compressing one carotid while your chest pressure seals the other side. Unlike air chokes that restrict breathing, this blood choke produces unconsciousness within seconds when applied correctly."
     },
     {
       "question": "What position do you ideally start the North-South Choke from?",
-      "answer": "The technique is executed from North-South position, though you can transition there from side control, Kesa Gatame, or other top positions. The key is establishing heavy chest-to-chest pressure with your body perpendicular to your opponent, head-to-head, before threading the choking arm.",
-      "difficulty": "Beginner"
+      "answer": "The technique is executed from North-South position, though you can transition there from side control, Kesa Gatame, or other top positions. The key is establishing heavy chest-to-chest pressure with your body perpendicular to your opponent, head-to-head, before threading the choking arm."
     },
     {
       "question": "Where should your head be positioned during the choke?",
-      "answer": "Your ear should be pressed against your opponent's chest on the same side as your choking arm. This positioning maximizes the depth you can thread your arm under their neck while creating the proper angle for compression. If your head is too far from their body, your arm cannot get deep enough to close both carotids.",
-      "difficulty": "Intermediate"
+      "answer": "Your ear should be pressed against your opponent's chest on the same side as your choking arm. This positioning maximizes the depth you can thread your arm under their neck while creating the proper angle for compression. If your head is too far from their body, your arm cannot get deep enough to close both carotids."
     },
     {
       "question": "Your opponent is defending your Kimura attempt by keeping their elbows tight - how does this create an opportunity?",
-      "answer": "When opponents defend arm attacks by keeping elbows pinned to their sides with hands connected, they expose their neck while occupying their arms defensively. This is the ideal time to transition to the North-South Choke because their arms are occupied and cannot frame against your chest or block your arm from threading under their neck.",
-      "difficulty": "Intermediate"
+      "answer": "When opponents defend arm attacks by keeping elbows pinned to their sides with hands connected, they expose their neck while occupying their arms defensively. This is the ideal time to transition to the North-South Choke because their arms are occupied and cannot frame against your chest or block your arm from threading under their neck."
     },
     {
       "question": "How do you generate choking pressure without exhausting yourself?",
-      "answer": "The choke relies on structural pressure rather than muscular effort. Drop your body weight through your chest onto opponent's face, sprawl your hips low, and squeeze your elbows together using skeletal alignment. The compression comes from the structural configuration of your body, not from pulling with your biceps. You should be able to hold the position indefinitely without fatigue.",
-      "difficulty": "Intermediate"
+      "answer": "The choke relies on structural pressure rather than muscular effort. Drop your body weight through your chest onto opponent's face, sprawl your hips low, and squeeze your elbows together using skeletal alignment. The compression comes from the structural configuration of your body, not from pulling with your biceps. You should be able to hold the position indefinitely without fatigue."
     },
     {
       "question": "Your opponent starts bridging as you attempt to thread your choking arm - what is your response?",
-      "answer": "Immediately sprawl your hips hard to the mat and drive your chest weight down onto their face and upper chest. Do not continue trying to thread the arm while they are bridging. Re-establish control first by killing their hip movement with your sprawl, then reattempt the choking arm thread once they are flat and controlled again.",
-      "difficulty": "Intermediate"
+      "answer": "Immediately sprawl your hips hard to the mat and drive your chest weight down onto their face and upper chest. Do not continue trying to thread the arm while they are bridging. Re-establish control first by killing their hip movement with your sprawl, then reattempt the choking arm thread once they are flat and controlled again."
     },
     {
       "question": "What defensive mechanism should you watch for that indicates the choke is not properly sealed?",
-      "answer": "If your opponent remains conscious and calm after several seconds of squeeze, one or both carotids are not fully compressed. Check that your chest is pressing firmly on their face to seal the far-side carotid, and that your bicep is deep enough under their chin to compress the near-side. A properly sealed North-South Choke produces visible distress and unconsciousness within 5-10 seconds.",
-      "difficulty": "Advanced"
+      "answer": "If your opponent remains conscious and calm after several seconds of squeeze, one or both carotids are not fully compressed. Check that your chest is pressing firmly on their face to seal the far-side carotid, and that your bicep is deep enough under their chin to compress the near-side. A properly sealed North-South Choke produces visible distress and unconsciousness within 5-10 seconds."
     },
     {
       "question": "How do you chain the North-South Choke with arm attacks to create a submission dilemma?",
-      "answer": "From North-South, attack Kimura on the near arm. When opponent defends by keeping elbows tight and connecting hands, their neck becomes exposed for the choke. If they open their arms to defend the choke, immediately return to the Kimura. This back-and-forth creates a dilemma where defending one attack opens the other, forcing them to give up something.",
-      "difficulty": "Advanced"
+      "answer": "From North-South, attack Kimura on the near arm. When opponent defends by keeping elbows tight and connecting hands, their neck becomes exposed for the choke. If they open their arms to defend the choke, immediately return to the Kimura. This back-and-forth creates a dilemma where defending one attack opens the other, forcing them to give up something."
     },
     {
       "question": "What distinguishes a North-South Choke from a standard arm triangle in terms of mechanics?",
-      "answer": "The North-South Choke uses your chest weight on opponent's face to seal one carotid while your bicep seals the other. The arm triangle uses opponent's own shoulder as part of the choking structure. In North-South Choke, both compression points come from your body alone, making it effective regardless of opponent's arm position once your arm is threaded deep enough.",
-      "difficulty": "Advanced"
+      "answer": "The North-South Choke uses your chest weight on opponent's face to seal one carotid while your bicep seals the other. The arm triangle uses opponent's own shoulder as part of the choking structure. In North-South Choke, both compression points come from your body alone, making it effective regardless of opponent's arm position once your arm is threaded deep enough."
     },
     {
       "question": "When should you abandon the North-South Choke attempt and transition to another attack?",
-      "answer": "Abandon the attempt if opponent successfully creates significant space through bridging or hip escape, if they get strong frames against your body that prevent you from dropping weight, or if they begin turning into you in a way that threatens back exposure. Transition to Kimura, Americana, or re-establish side control rather than forcing a compromised choke position.",
-      "difficulty": "Advanced"
+      "answer": "Abandon the attempt if opponent successfully creates significant space through bridging or hip escape, if they get strong frames against your body that prevent you from dropping weight, or if they begin turning into you in a way that threatens back exposure. Transition to Kimura, Americana, or re-establish side control rather than forcing a compromised choke position."
     }
   ],
   "safety_considerations": "The North-South Choke is a blood choke that can produce unconsciousness within seconds when properly applied. Always train with a partner who understands the tap signal and will tap early during practice. Release immediately upon feeling the tap or seeing any signs of unconsciousness such as body going limp or face changing color. Never hold a blood choke after your partner has gone unconscious in training. When drilling, apply gradually increasing pressure so your partner can tap before full compression. This choke should not be practiced at full intensity without proper supervision and should never be used on training partners who are inexperienced with blood chokes.",
@@ -277,5 +252,6 @@
       "name": "Knee on Belly",
       "relationship": "Transition option for positional advancement"
     }
-  ]
+  ],
+  "success_rate": 58
 }
