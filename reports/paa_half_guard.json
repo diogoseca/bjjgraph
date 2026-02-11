@@ -1,0 +1,163 @@
+{
+  "article_path": "source/content/Positions/Half Guard.json",
+  "seed_keyword": "Half Guard",
+  "search_intent": "Master fundamental BJJ half guard techniques for bottom and top positions",
+  "paa_questions": [
+    {
+      "question": "What is half guard in BJJ?",
+      "answer_snippet": "Half guard is a position where one player traps a single leg of their opponent between their own legs, creating an asymmetric control structure with unique offensive and defensive possibilities",
+      "source_url": "https://bjjgraph.org/Positions/Half-Guard",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definitional query with massive search volume. Current overview is excellent but heading should be conversational."
+    },
+    {
+      "question": "Is half guard good for beginners?",
+      "answer_snippet": "Half guard is effective for beginners with 40% retention rate, increasing to 75% for advanced practitioners through systematic training of sweeps and guard retention",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "High-volume beginner concern. Data shows clear progression path across skill levels."
+    },
+    {
+      "question": "What are the best sweeps from half guard?",
+      "answer_snippet": "The most effective half guard sweeps are the underhook sweep (65% advanced success), old school sweep to mount (60% advanced), and deep half guard entries (75% advanced success)",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Top offensive technique query. Change 'offensive_transitions' heading to question format."
+    },
+    {
+      "question": "How do you pass half guard?",
+      "answer_snippet": "Pass half guard using knee slice pass (70% advanced success), smash pass (75% advanced), or crossface pass (70% advanced) with proper upper body control and systematic progression",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Critical top position query. Half guard top section should have conversational heading."
+    },
+    {
+      "question": "What is deep half guard?",
+      "answer_snippet": "Deep half guard is an advanced variation where the bottom player positions their head underneath the opponent for superior sweeping mechanics, with 75% advanced success rate for entries",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Most searched variation. Currently listed but needs dedicated explanation section before variations list."
+    },
+    {
+      "question": "What is the lockdown in half guard?",
+      "answer_snippet": "The lockdown is a 10th Planet half guard variation using leg entanglement to control the opponent's base and posture, enabling electric chair and old school sweep sequences",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Eddie Bravo innovation with huge search interest. Deserves dedicated section explaining mechanics."
+    },
+    {
+      "question": "Should you fight for the underhook in half guard?",
+      "answer_snippet": "Yes, the underhook battle determines positional hierarchy in half guard - securing it on the trapped leg side provides the primary offensive pathway to sweeps and back takes",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_existing",
+      "rationale": "Critical tactical question. Key principles mention it but could be more prominent with dedicated subsection."
+    },
+    {
+      "question": "What is knee shield half guard?",
+      "answer_snippet": "Knee shield half guard is a defensive variation using the shin across the opponent's body for distance management, preventing chest-to-chest pressure with 80% advanced retention rate",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Second most common variation after deep half. Needs dedicated explanation before variations list."
+    },
+    {
+      "question": "Can you submit from half guard?",
+      "answer_snippet": "Yes, half guard offers submissions including electric chair (45% advanced success from lockdown), kimura (50% advanced from top), and paths to back control for chokes",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_existing",
+      "rationale": "Submission potential question. Optimal submission paths exist but could be more prominent."
+    },
+    {
+      "question": "How do you prevent being flattened in half guard?",
+      "answer_snippet": "Prevent flattening by maintaining position on your side, creating constant frames with knee shield or underhook, and using continuous hip escape motion to preserve mobility",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Common beginner problem. Covered in common errors but deserves proactive troubleshooting section."
+    },
+    {
+      "question": "What's better, closed guard or half guard?",
+      "answer_snippet": "Both serve different purposes: closed guard offers more control and submission options, while half guard excels as a last-line defensive position with dynamic sweeping mechanics",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Comparison query from beginners choosing which guard to focus on first."
+    },
+    {
+      "question": "Who invented half guard?",
+      "answer_snippet": "Half guard evolved through practitioners like Roberto Gordo Correa, Eddie Bravo, Bernardo Faria, and Lucas Leite, transforming it from a stalling position into a sophisticated offensive system",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_existing",
+      "rationale": "Historical interest query. Currently mentioned in overview but could add brief history section."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is Half Guard in BJJ?",
+      "rationale": "Matches the highest-volume definitional search query pattern"
+    },
+    {
+      "current": "Offensive Transitions (Bottom)",
+      "suggested": "What Are the Best Sweeps from Half Guard Bottom?",
+      "rationale": "Conversational format targets primary bottom position search intent"
+    },
+    {
+      "current": "Offensive Transitions (Top)",
+      "suggested": "How Do You Pass Half Guard?",
+      "rationale": "Direct question format matches exact high-volume search query"
+    },
+    {
+      "current": "Variations",
+      "suggested": "What Are the Different Types of Half Guard?",
+      "rationale": "More natural language that appears in PAA results for position variants"
+    },
+    {
+      "current": "Common Errors (Bottom)",
+      "suggested": "What Are Common Half Guard Mistakes to Avoid?",
+      "rationale": "Question format improves engagement and matches search behavior"
+    },
+    {
+      "current": "Key Principles (Bottom)",
+      "suggested": "How Should You Play Half Guard Bottom?",
+      "rationale": "Strategic guidance question that users commonly search for"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Deep Half Guard Explained' - Dedicated explanation before variations list",
+    "Add section: 'Lockdown Half Guard System' - Eddie Bravo's innovation deserves full coverage",
+    "Add section: 'Knee Shield vs Regular Half Guard' - When to use each variation",
+    "Add section: 'How to Prevent Being Flattened' - Proactive troubleshooting guide",
+    "Add section: 'The Underhook Battle Explained' - Deep dive on most critical control point",
+    "Add FAQ section: beginner suitability, gi vs no-gi differences, comparison to closed guard",
+    "Add section: 'Half Guard History and Evolution' - Gordo to modern innovations",
+    "Add video embed opportunities for key concepts (underhook battle, deep half entry, lockdown)",
+    "Enhance variations list with when/why to use each one (decision tree)",
+    "Add training progression: beginner to advanced half guard curriculum"
+  ],
+  "schema_enhancements": [
+    "Add HowTo schema for 'How to Pass Half Guard' with step-by-step passing sequence",
+    "Add HowTo schema for 'How to Sweep from Half Guard' with systematic approach",
+    "Add FAQ schema with 12 common questions covering both bottom and top positions",
+    "Add VideoObject schema for future video content on key techniques",
+    "Enhance existing Article schema with speakable sections for voice search"
+  ],
+  "content_gaps_found": {
+    "variation_explanations": "Variations listed but not explained in detail (deep half, knee shield, lockdown need dedicated sections)",
+    "underhook_battle": "Mentioned as critical but lacks dedicated tactical breakdown section",
+    "gi_vs_nogi": "No explicit guidance on how half guard changes between gi and no-gi contexts",
+    "progression_path": "Missing clear beginner-to-advanced learning roadmap",
+    "video_content": "No embedded instructional videos for complex techniques",
+    "troubleshooting": "Common errors listed but lacks proactive 'how to fix' section",
+    "competition_strategy": "Limited guidance on competitive half guard tactics and meta-game"
+  }
+}

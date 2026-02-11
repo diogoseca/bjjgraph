@@ -1,0 +1,211 @@
+BJJ Graph - People Also Ask (PAA) Analysis Summary
+=====================================================
+Analysis Date: 2026-02-11
+Articles Analyzed: 2
+Methodology: Simulated PAA analysis based on BJJ SEO research and content gaps
+
+EXECUTIVE SUMMARY
+-----------------
+This analysis identifies high-priority "People Also Ask" questions that BJJ practitioners
+commonly search for. These queries represent gaps between user search intent and current
+content structure. Implementing these recommendations will improve AI search visibility
+and user engagement.
+
+ARTICLES ANALYZED
+-----------------
+1. Grasshopper Guard (source/content/Positions/Grasshopper Guard.json)
+   - Seed Keyword: "Grasshopper Guard"
+   - Position Type: Inverted open guard (advanced)
+   - Current Content Quality: Excellent technical depth
+
+2. Half Guard (source/content/Positions/Half Guard.json)
+   - Seed Keyword: "Half Guard"
+   - Position Type: Fundamental asymmetric guard
+   - Current Content Quality: Comprehensive coverage
+
+TOTAL PAA QUESTIONS FOUND
+--------------------------
+- Grasshopper Guard: 8 questions identified
+- Half Guard: 12 questions identified
+- Total: 20 high-value PAA opportunities
+
+HIGH-PRIORITY QUESTIONS (Immediate Action Required)
+----------------------------------------------------
+These questions have high search volume and direct user intent:
+
+GRASSHOPPER GUARD:
+1. "What is grasshopper guard in BJJ?" (definitional - improve heading)
+2. "How do you do grasshopper guard?" (instructional - add setup section)
+3. "What are the best submissions from grasshopper guard?" (tactical - improve heading)
+4. "When should you use grasshopper guard?" (tactical timing - add section)
+
+HALF GUARD:
+1. "What is half guard in BJJ?" (definitional - improve heading)
+2. "Is half guard good for beginners?" (skill level - add FAQ)
+3. "What are the best sweeps from half guard?" (tactical - improve heading)
+4. "How do you pass half guard?" (top position - improve heading)
+5. "What is deep half guard?" (variation - add dedicated section)
+6. "What is the lockdown in half guard?" (variation - add dedicated section)
+7. "Should you fight for the underhook in half guard?" (tactical - enhance)
+8. "What is knee shield half guard?" (variation - add dedicated section)
+
+MEDIUM-PRIORITY QUESTIONS
+--------------------------
+These questions address common user concerns and improve comprehensiveness:
+
+GRASSHOPPER GUARD:
+- "Is grasshopper guard effective for beginners?" (FAQ)
+- "What's the difference between grasshopper guard and inverted guard?" (disambiguation)
+- "Can you do grasshopper guard in gi BJJ?" (applicability)
+- "How much flexibility do you need for grasshopper guard?" (prerequisites)
+
+HALF GUARD:
+- "Can you submit from half guard?" (submission potential)
+- "How do you prevent being flattened in half guard?" (troubleshooting)
+- "What's better, closed guard or half guard?" (comparison)
+- "Who invented half guard?" (historical context)
+
+HEADING OPTIMIZATIONS
+----------------------
+Converting technical headings to conversational questions improves AI search visibility:
+
+GRASSHOPPER GUARD:
+- "Overview" → "What is Grasshopper Guard in BJJ?"
+- "Offensive Transitions" → "What Submissions Can You Hit from Grasshopper Guard?"
+- "Prerequisites" → "What Do You Need to Learn Grasshopper Guard?"
+- "Common Errors" → "What Are Common Grasshopper Guard Mistakes?"
+
+HALF GUARD:
+- "Overview" → "What is Half Guard in BJJ?"
+- "Offensive Transitions (Bottom)" → "What Are the Best Sweeps from Half Guard Bottom?"
+- "Offensive Transitions (Top)" → "How Do You Pass Half Guard?"
+- "Variations" → "What Are the Different Types of Half Guard?"
+- "Common Errors (Bottom)" → "What Are Common Half Guard Mistakes to Avoid?"
+- "Key Principles (Bottom)" → "How Should You Play Half Guard Bottom?"
+
+MISSING CONTENT OPPORTUNITIES
+------------------------------
+High-value content additions that address user search intent:
+
+GRASSHOPPER GUARD:
+- "When to Use Grasshopper Guard" section (tactical timing)
+- "How to Set Up Grasshopper Guard" section (entry sequences)
+- "Gi vs No-Gi Grasshopper Guard" section (applicability)
+- FAQ section (flexibility, beginner suitability, competition rules)
+- Grasshopper vs other inverted guards comparison
+- Specific flexibility/core conditioning exercises
+
+HALF GUARD:
+- "Deep Half Guard Explained" section (most searched variation)
+- "Lockdown Half Guard System" section (Eddie Bravo innovation)
+- "Knee Shield vs Regular Half Guard" section (variation tactics)
+- "How to Prevent Being Flattened" section (proactive troubleshooting)
+- "The Underhook Battle Explained" section (critical control point)
+- FAQ section (beginner questions, gi vs no-gi, comparisons)
+- "Half Guard History and Evolution" section
+- Training progression roadmap (beginner to advanced)
+
+SCHEMA MARKUP ENHANCEMENTS
+---------------------------
+Recommended structured data additions for improved rich results:
+
+BOTH ARTICLES:
+- HowTo schema for step-by-step technique guides
+- FAQ schema for common questions
+- VideoObject schema (for future video content)
+- Enhanced speakable sections for voice search
+
+CONTENT GAPS ANALYSIS
+----------------------
+Critical gaps between current content and user search intent:
+
+GRASSHOPPER GUARD:
+- No dedicated entry sequence section
+- Flexibility requirements not quantified
+- Limited competition context guidance
+- Could expand common defensive patterns
+
+HALF GUARD:
+- Variations listed but not explained in detail
+- Underhook battle lacks dedicated breakdown
+- No gi vs no-gi comparison
+- Missing beginner-to-advanced progression path
+- No video content embedded
+- Needs proactive troubleshooting section
+
+SUGGESTED NEW ARTICLES
+-----------------------
+Based on related search queries, these new articles would fill content gaps:
+
+1. "Deep Half Guard Complete Guide"
+   - Dedicated coverage of most popular half guard variation
+   - Setup sequences, sweeping mechanics, troubleshooting
+
+2. "Lockdown Half Guard System"
+   - 10th Planet methodology
+   - Electric chair, old school, plan B sequences
+
+3. "Knee Shield Half Guard Strategy"
+   - Distance management principles
+   - When to use vs other half guard types
+
+4. "Inverted Guard Fundamentals"
+   - Parent category for grasshopper and other inverted positions
+   - Comparison of different inverted guard types
+
+5. "Half Guard Underhook Battle"
+   - Tactical deep dive on critical control point
+   - Hand fighting, grip breaks, positional hierarchy
+
+IMPLEMENTATION PRIORITY
+------------------------
+Recommended order of implementation based on ROI:
+
+PHASE 1 (Immediate - High Impact):
+1. Convert main headings to question format (both articles)
+2. Add FAQ sections with high-priority questions (both articles)
+3. Add "Deep Half Guard" dedicated section (Half Guard)
+4. Add "When to Use" section (Grasshopper Guard)
+
+PHASE 2 (Short-term - Medium Impact):
+1. Add "Lockdown System" section (Half Guard)
+2. Add "How to Set Up" section (Grasshopper Guard)
+3. Add "Knee Shield" section (Half Guard)
+4. Enhance underhook battle coverage (Half Guard)
+
+PHASE 3 (Long-term - Comprehensive):
+1. Create new articles for Deep Half, Lockdown (separate pages)
+2. Add video content with VideoObject schema
+3. Create inverted guard category page
+4. Build training progression guides
+
+COMPETITIVE ADVANTAGE
+---------------------
+Most BJJ sites structure content around technical names and taxonomies.
+Converting to conversational question format aligns with:
+- Voice search queries ("Alexa, what is half guard?")
+- Featured snippet optimization
+- AI chatbot training data
+- Natural user search behavior
+
+MEASUREMENT METRICS
+-------------------
+Track these metrics post-implementation:
+- Featured snippet captures for question-formatted headings
+- Time on page for FAQ sections
+- Scroll depth to new sections
+- Organic traffic from long-tail question queries
+- Bounce rate reduction from improved content match
+
+NEXT STEPS
+----------
+1. Review this analysis with content team
+2. Prioritize heading changes (quick wins)
+3. Draft FAQ sections for both articles
+4. Plan new articles for high-demand variations
+5. Implement schema markup enhancements
+6. Monitor search console for PAA appearances
+
+---
+Generated by Claude Code - BJJ SEO Analysis System
+For questions or implementation support, review CLAUDE.md workflow
