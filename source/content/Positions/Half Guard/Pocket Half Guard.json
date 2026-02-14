@@ -3,7 +3,7 @@
   "slug": "pocket-half-guard",
   "description": "Master Pocket Half Guard in BJJ. Deep underhook half guard position with excellent offensive options from bottom and dominant control from top. Complete strategic guide.",
   "variant_uniqueness": "Deep underhook creates sweep/pass dilemma",
-  "overview": "Pocket Half Guard is a specialized half guard variation defined by deep underhook control combined with tight shoulder connection in the opponent's 'pocket' - the space between hip and ribcage. This position emerged from modern half guard evolution as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook that controls the opponent's far hip, combined with strategic shoulder positioning that creates a barrier against passes from bottom or flattening control from top.\n\nFrom the bottom perspective, Pocket Half Guard excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while tight leg control prevents them from advancing position. The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while using the bottom leg to create a frame against their near hip. This position gained prominence through Eddie Bravo's 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers.\n\nFrom the top perspective, Pocket Half Guard Top represents a dominant pressure-passing position where the top player has secured underhook control while flattening the bottom player's half guard. The underhook provides a powerful control mechanism that nullifies defensive frames and sweep attempts. Modern practitioners have developed this into a cornerstone of pressure-passing systems, particularly effective against defensive guard players who rely on distance management. The position represents a critical strategic battleground where underhook depth, chest pressure, and crossface control determine the outcome.",
+  "overview": "**Pocket Half Guard** (also called deep underhook half guard) is a specialized **[[Half Guard]]** variation defined by deep underhook control combined with tight shoulder connection in the opponent's 'pocket'—the space between hip and ribcage. This position emerged from modern half guard evolution as practitioners sought more offensive options while maintaining defensive integrity. The defining characteristic is the deep underhook that controls the opponent's far hip, combined with strategic shoulder positioning that creates a barrier against passes from bottom or flattening control from top.\n\nFrom the bottom perspective, **Pocket Half Guard Bottom** excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while tight leg control prevents them from advancing position. Success rates reach beginner 45%, intermediate 60%, advanced 75% for sweeps and position advancement. The 'pocket' refers to the space created by pulling the opponent's shoulder down with the underhook while using the bottom leg to create a frame against their near hip. This position gained prominence through Eddie Bravo's **[[10th Planet Half Guard Bottom System]]** and has been refined by competition specialists who recognize its effectiveness against pressure passers.\n\nFrom the top perspective, **Pocket Half Guard Top** represents a dominant pressure-passing position where the top player has secured underhook control while flattening the bottom player's half guard. The underhook provides a powerful control mechanism that nullifies defensive frames and sweep attempts, with pass success rates of beginner 45%, intermediate 60%, advanced 75%. Modern practitioners have developed this into a cornerstone of **[[Pressure Passing Framework]]** systems, particularly effective against defensive guard players who rely on distance management. The position represents a critical strategic battleground where underhook depth, chest pressure, and crossface control determine the outcome.",
   "key_principles": [
     "Underhook depth is the primary control mechanism - shallow underhook compromises all advantages regardless of perspective",
     "Pocket space from bottom creates sweeping leverage; pocket elimination from top enables passing control",
@@ -59,7 +59,7 @@
     "name": "Pocket Half Guard Bottom",
     "description": "Master Pocket Half Guard Bottom in BJJ. Deep underhook half guard variant with excellent sweeping and back-taking. Beginner 45%, Intermediate 60%, Advanced 75%.",
     "tags": ["bjj", "position", "half-guard", "bottom", "underhook", "pocket", "defensive"],
-    "overview": "Pocket Half Guard Bottom is a specialized half guard variant characterized by a deep underhook on the opponent's far side combined with tight hip connection and the trapped leg locked between your legs. The 'pocket' refers to the space created by pulling the opponent's far shoulder down with the underhook while using your bottom leg to create a frame against their near hip. This position excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while the tight leg control prevents them from advancing to mount or establishing a strong passing position.\n\nThe position gained prominence through Eddie Bravo's 10th Planet system and has been refined by competition specialists who recognize its effectiveness against pressure passers. Unlike standard half guard where the underhook may be shallow, Pocket Half Guard demands a deep underhook that reaches across the opponent's back, ideally gripping their far lat or armpit. This depth allows you to control their upper body rotation and create powerful off-balancing mechanics. The bottom leg creates a 'pocket' or wedge against the opponent's hip, providing both defensive framing and offensive leverage for sweeps.\n\nPocket Half Guard Bottom is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in half guard. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for the Old School Sweep, back-takes, and transitions to Deep Half Guard or X-Guard variations.",
+    "overview": "**Pocket Half Guard Bottom** is a specialized **[[Half Guard]]** variant characterized by a deep **[[Underhook Control]]** on the opponent's far side combined with tight hip connection and the trapped leg locked between your legs. The 'pocket' refers to the space created by pulling the opponent's far shoulder down with the underhook while using your bottom leg to create a frame against their near hip. This position excels at generating powerful sweeps and back-takes because the deep underhook compromises the opponent's base while the tight leg control prevents them from advancing to **[[Mount]]** or establishing a strong passing position. (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75%)\n\nThe position gained prominence through Eddie Bravo's **[[10th Planet Half Guard Bottom System]]** and has been refined by competition specialists who recognize its effectiveness against pressure passers. Unlike standard **[[Half Guard]]** where the underhook may be shallow, **Pocket Half Guard** demands a deep underhook that reaches across the opponent's back, ideally gripping their far lat or armpit. This depth allows you to control their upper body rotation and create powerful off-balancing mechanics. The bottom leg creates a 'pocket' or wedge against the opponent's hip, providing both defensive framing and offensive leverage for sweeps like **[[Old School Sweep]]**.\n\n**Pocket Half Guard Bottom** is particularly effective against opponents who favor heavy pressure passing or who attempt to flatten you in **[[Half Guard]]**. The deep underhook and hip frame prevent them from establishing chest-to-chest pressure, while the leg configuration maintains enough space to generate hip movement and rotational power for sweeps. Advanced practitioners use this position as a launching point for **[[Old School Sweep]]** (75% advanced success), back-takes to **[[Back Control]]** (70% advanced), and transitions to **[[Deep Half Guard]]** (80% advanced) or **[[Truck]]** (60% advanced) positions.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive with offensive options",
@@ -98,7 +98,19 @@
           "beginner": 45,
           "intermediate": 60,
           "advanced": 75
-        }
+        },
+        "execution_steps": [
+          "1. Establish **Pocket Half Guard Bottom** with deep underhook gripping opponent's far lat or armpit, bottom leg actively framing against their near hip",
+          "2. Use your underhook to pull opponent's far shoulder down toward the mat, forcing their weight forward and compromising their base",
+          "3. Post your bottom foot firmly on opponent's near hip with active pressure, creating the characteristic 'pocket' space between your bodies",
+          "4. Release your top leg from standard half guard lock and swing it up and over opponent's back, aiming to hook your top leg over their far shoulder",
+          "5. Your top leg should drape over their back with your shin pressing across their shoulder blades, while your bottom leg maintains the hip frame",
+          "6. Pull hard with your underhook toward your body while simultaneously driving your top leg down across their back, creating a powerful rolling moment",
+          "7. Use your bottom leg frame to explosively push off their hip, generating rotational force that tips opponent toward the side of your underhook",
+          "8. As opponent begins to roll, maintain your underhook grip and follow through with your top leg drive, committing fully to the roll",
+          "9. Roll opponent completely over until they land on their back, keeping your underhook connected throughout the entire rotation",
+          "10. Immediately establish **[[Mount]]** position by settling your hips on their torso, establishing base with your knees wide, and beginning mount control mechanics with posture and hand positioning for follow-up attacks"
+        ]
       },
       {
         "technique": "Back Take Generic",
@@ -107,7 +119,19 @@
           "beginner": 40,
           "intermediate": 55,
           "advanced": 70
-        }
+        },
+        "execution_steps": [
+          "1. From **Pocket Half Guard Bottom** with established deep underhook, read opponent's weight distribution as they attempt to circle toward your head for crossface",
+          "2. As opponent posts their near hand on the mat beside your head or attempts to step around toward your head, this creates the back-take opportunity",
+          "3. Use your deep underhook to pull opponent's far shoulder down forcefully while simultaneously sitting up explosively toward the underhook side",
+          "4. Your bottom leg (the framing leg) transitions from hip frame to driving off the mat, generating upward momentum as you sit to your hip",
+          "5. As you sit up, slide your underhook arm from controlling their far lat to wrapping around their waist, establishing your first seatbelt arm",
+          "6. Bring your free hand (non-underhook arm) over opponent's near shoulder, reaching across to connect your hands in seatbelt position",
+          "7. Lock your seatbelt by gripping your own wrist or forearm (one arm over shoulder, one arm under armpit), pulling them tight to your chest",
+          "8. Swing your outside leg (top leg) over opponent's near hip, inserting your first hook by threading your foot inside their near thigh",
+          "9. Drive your hips forward and up while pulling opponent's upper body back with your seatbelt, using this off-balancing to create space for your second hook",
+          "10. Insert your second hook (bottom leg foot inside their far thigh), curl both heels to the inside, settle your chest against their back, and establish full **[[Back Control]]** with both hooks secured and seatbelt grip locked for **[[Rear Naked Choke]]** attacks"
+        ]
       },
       {
         "technique": "Deep Half Entry",
@@ -116,7 +140,19 @@
           "beginner": 50,
           "intermediate": 65,
           "advanced": 80
-        }
+        },
+        "execution_steps": [
+          "1. From **Pocket Half Guard Bottom**, recognize when opponent drives heavy forward pressure attempting to flatten you and strip your underhook",
+          "2. Maintain your deep underhook grip on opponent's far side while they drive their chest pressure into you",
+          "3. Shrimp your hips away from opponent slightly, creating just enough space to change the angle of your body relative to theirs",
+          "4. Release your bottom leg frame from their hip and begin sliding your head and shoulders underneath opponent's trapped leg",
+          "5. Duck your head underneath their trapped leg while simultaneously pulling their far hip toward you with your underhook, guiding them over your body",
+          "6. Thread your head and shoulders completely underneath their trapped leg until your head emerges on the far side of their body",
+          "7. Your underhook arm (already secured) stays locked around their far hip, while your free arm reaches around to control their near leg or hip",
+          "8. Lock your arms together around opponent's trapped leg, creating a seat belt grip configuration around their thigh and hip",
+          "9. Position your body perpendicular to opponent with your shoulders under their hips, your head on the far side of their body away from their base",
+          "10. Establish **[[Deep Half Guard]]** by securing both arms around their trapped leg, maintaining perpendicular angle, and preparing for **[[Waiter Sweep]]** or other deep half sweeping options with significantly improved position control"
+        ]
       },
       {
         "technique": "Underhook Sweep from Half",
@@ -398,13 +434,51 @@
       "danaher": "Pocket Half Guard represents a biomechanically sophisticated approach to the underhook battle that defines modern half guard dynamics. The key mechanical advantage lies in the creation of a three-dimensional control system: the deep underhook controls the opponent's upper body rotation and prevents them from generating forward pressure into your chest, the bottom leg frame creates a wedge that maintains optimal distance and prevents hip flattening, and the top leg secures the fundamental half guard lock. This triangulated structure creates a mechanically stable defensive platform while simultaneously generating multiple offensive vectors. The 'pocket' space is not merely defensive spacing—it represents stored potential energy that can be explosively released through rotational sweeping mechanics. When we examine the force vectors involved in the Old School Sweep from this position, we see that the deep underhook creates a moment arm that allows us to off-balance our opponent's upper body while the bottom leg pocket provides a fulcrum point for hip rotation. The depth of the underhook is absolutely critical—each inch of underhook depth exponentially increases our control over the opponent's shoulder and reduces their ability to generate counterforce. Advanced practitioners understand that Pocket Half Guard is not a static holding position but rather a dynamic launching platform for a series of interconnected attacks where each defensive response by the opponent opens a different offensive pathway.",
       "gordon_ryan": "In competition, Pocket Half Guard Bottom is one of my go-to positions when facing heavy pressure passers because it gives me both strong defensive structure and immediate offensive threats. The reality of high-level competition is that your opponent will not give you easy sweeps—they're going to fight hard to strip your underhook and establish their crossface. That's why I emphasize being extremely aggressive with the underhook depth and not accepting shallow control. If I feel the underhook becoming compromised, I'm immediately transitioning to Deep Half or attacking the Old School Sweep rather than staying in a deteriorating position. The mistake I see most commonly is people treating Pocket Half Guard as a resting position where they wait for opportunities—that's exactly backwards. You need to constantly threaten the Old School Sweep, constantly threaten the back-take, and make your opponent defend your attacks rather than attacking your defenses. When I have Pocket Half Guard Bottom against high-level opponents, I'm looking for the moment they post their hand near my head to defend the underhook pressure—that posting creates the angle I need for the Old School Sweep. Against opponents who refuse to post and maintain tight defensive posture, I'm using the underhook to create swimming motions that gradually elevate their trapped leg, setting up the Electric Chair. The competition reality is that Pocket Half Guard Bottom gives you the tools to sweep or take the back, but you have to be the aggressor even from bottom position.",
       "eddie_bravo": "Pocket Half Guard is a cornerstone of our 10th Planet half guard system because it creates this beautiful dilemma for the opponent where every defensive choice opens up a different attack. When I developed the Lockdown system, I realized that the deep underhook combined with proper pocket spacing was the key to making the whole system work. The pocket space is what allows you to generate that whip motion with your hips that makes the Old School Sweep so powerful. But here's what most people miss—the pocket isn't just about creating space, it's about creating the right angle. Your bottom foot should be actively digging into their hip, not just passively framing, because that active pressure is what prevents them from smashing through and it's what gives you the pivot point for your sweeps. From Pocket Half Guard, you've got immediate access to the Old School Sweep, the back-take, the Electric Chair if they extend that trapped leg, and transitions into the Lockdown if you want to add that leg control. The innovation we brought to this position was understanding that you can combine the Pocket spacing with the Lockdown leg configuration—that combination creates even more control and opens up the entire Twister system. When you're working Pocket Half Guard in the gym, don't just drill the techniques in isolation. Drill the transitions between them—when they defend the Old School, you should automatically be flowing to the back-take or Deep Half. That flow between connected positions is what makes the whole system dangerous and unpredictable for your opponent."
+    },
+    "frequently_asked_questions": [
+      {
+        "question": "How do I set up Pocket Half Guard Bottom?",
+        "answer": "From **[[Half Guard]]** bottom, secure a deep **[[Underhook Control]]** on opponent's far side by reaching across their back to grip their far lat or armpit. Simultaneously create the 'pocket' by posting your bottom foot (same side as trapped leg) actively into their near hip. Your underhook arm should reach deep enough to control their shoulder rotation, while your bottom leg frame maintains space preventing them from flattening you. This configuration gives you beginner 45%, intermediate 60%, advanced 75% success for sweeps."
+      },
+      {
+        "question": "What's the best sweep from Pocket Half Guard?",
+        "answer": "The **[[Old School Sweep]]** is the highest-percentage sweep from **Pocket Half Guard Bottom**, with success rates of beginner 45%, intermediate 60%, advanced 75%. Execute by pulling opponent's far shoulder down with your deep underhook, posting your bottom foot on their near hip, then driving your top leg over their back while rolling them toward their trapped side. This sweep leads directly to **[[Mount]]** position."
+      },
+      {
+        "question": "How do I prevent getting passed from Pocket Half Guard Bottom?",
+        "answer": "Maintain three critical defenses: (1) keep your underhook depth at maximum by constantly pulling toward your body, (2) actively frame with your bottom foot against their hip to preserve pocket space, and (3) prevent crossface at all costs using head pressure on the underhook side. If opponent establishes crossface or strips your underhook, immediately transition to **[[Deep Half Guard]]** (70% advanced success) or **[[Knee Shield Half Guard]]** rather than accepting a compromised position."
+      },
+      {
+        "question": "When should I use Pocket Half Guard vs regular Half Guard?",
+        "answer": "Use **Pocket Half Guard Bottom** when facing pressure passers who try to flatten you in **[[Half Guard]]**, or when you've secured a deep underhook and want maximum offensive options. The position is ideal for setting up **[[Old School Sweep]]**, **[[Back Control]]** transitions, and **[[Deep Half Guard]]** entries. Choose regular **[[Half Guard]]** or **[[Knee Shield Half Guard]]** when you haven't yet secured the deep underhook, or when opponent's base is too strong for immediate sweep attempts."
+      },
+      {
+        "question": "What submissions can I hit from Pocket Half Guard Bottom?",
+        "answer": "**Pocket Half Guard Bottom** offers **[[Electric Chair Submission]]** (beginner 25%, intermediate 40%, advanced 55% success) when opponent extends their trapped leg trying to pass. You can also transition to **[[Truck]]** position (60% advanced) which opens the **[[Twister]]** submission system. Most practitioners use **Pocket Half Guard** primarily for sweeps to **[[Mount]]** or back-takes to **[[Back Control]]**, then finish submissions from dominant top positions."
+      },
+      {
+        "question": "How do I combine Pocket Half Guard with Lockdown?",
+        "answer": "The **[[10th Planet Half Guard Bottom System]]** combines **Pocket Half Guard** spacing with **[[Lockdown]]** leg control. Secure your deep underhook and pocket frame first, then add the **[[Lockdown]]** by triangling your legs around opponent's trapped leg (bottom foot over their shin, top foot hooking under). This combination (beginner 50%, intermediate 65%, advanced 80% control retention) prevents leg extraction while maintaining all **Pocket Half Guard** sweeping mechanics and adding **[[Electric Chair]]** submission threats."
+      },
+      {
+        "question": "What are common Pocket Half Guard mistakes beginners make?",
+        "answer": "The biggest beginner mistakes are: (1) accepting shallow underhook instead of fighting for depth (this eliminates all offensive advantages), (2) passive bottom leg that doesn't actively frame (allows opponent to collapse pocket space and flatten you), (3) allowing crossface while maintaining underhook (crossface + pressure neutralizes underhook advantage), and (4) being too static instead of constantly threatening **[[Old School Sweep]]** and back-takes (gives opponent time to establish dominant passing controls)."
+      },
+      {
+        "question": "How does Pocket Half Guard work in gi vs no-gi?",
+        "answer": "**Pocket Half Guard** is highly effective in both gi and no-gi, but control mechanics differ slightly. In gi, you can grip opponent's far lat, belt, or pants for deeper underhook control, making it easier to maintain position (intermediate 70% vs 60% no-gi retention). No-gi requires more active pressure and tighter connection since grips are on skin/rashguard. The sweep and back-take success rates are comparable across both contexts, though gi allows slightly more time to set up attacks while no-gi favors faster, more explosive movements."
+      }
+    ],
+    "bot_metadata": {
+      "last_improved": "2026-02-14",
+      "optimization_pass": "ai_seo_v1"
     }
   },
   "top": {
     "name": "Pocket Half Guard Top",
     "description": "Master Pocket Half Guard Top in BJJ. Complete guide covering control maintenance, passing options, and pressure tactics. Dominant passing position with 65% success rate.",
     "tags": ["bjj", "position", "half-guard", "top-position", "passing", "pressure-passing", "control"],
-    "overview": "Pocket Half Guard Top is a dominant pressure-passing position where the top player has secured underhook control while the bottom player's half guard is significantly flattened. This position is characterized by the top player's chest-to-chest pressure, crossface control, and the ability to apply crushing weight while systematically working to complete the pass. The 'pocket' refers to the tight space created where the top player's underhook traps the bottom player against their own legs, limiting mobility and creating a highly advantageous passing situation.\n\nFrom this position, the top player enjoys significant control advantages, including the ability to flatten the opponent, prevent re-guard, and advance to side control or mount. The underhook provides a powerful control mechanism that nullifies many of the bottom player's defensive frames and sweep attempts. Modern BJJ practitioners have developed this position into a cornerstone of pressure-passing systems, particularly effective against defensive guard players who rely on distance management and frames. The position represents a critical junction in the half guard game where the top player has achieved sufficient control to begin finishing the pass with high percentage.",
+    "overview": "**Pocket Half Guard Top** is a dominant pressure-passing position where the top player has secured **[[Underhook Control]]** while the bottom player's **[[Half Guard]]** is significantly flattened. This position is characterized by the top player's chest-to-chest pressure, crossface control, and the ability to apply crushing weight while systematically working to complete the pass. The 'pocket' refers to the tight space created where the top player's underhook traps the bottom player against their own legs, limiting mobility and creating a highly advantageous passing situation. (Success Rate: Beginner 45%, Intermediate 60%, Advanced 75% for pass completion)\n\nFrom this position, the top player enjoys significant control advantages, including the ability to flatten the opponent, prevent re-guard, and advance to **[[Side Control]]** or **[[Mount]]**. The underhook provides a powerful control mechanism that nullifies many of the bottom player's defensive frames and sweep attempts. Modern BJJ practitioners have developed this position into a cornerstone of **[[Pressure Passing Framework]]** systems, particularly effective against defensive guard players who rely on distance management and frames. The position represents a critical junction in the half guard game where the top player has achieved sufficient control to begin finishing the pass with high percentage through **[[Knee Slice Pass]]** (75% advanced), **[[Smash Pass]]** (70% advanced), or direct **[[Mount]]** transition (65% advanced).",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -442,7 +516,19 @@
           "beginner": 50,
           "intermediate": 65,
           "advanced": 75
-        }
+        },
+        "execution_steps": [
+          "1. From **Pocket Half Guard Top**, maintain deep underhook grip on opponent's far side while keeping chest pressure driving them flat onto their back",
+          "2. Establish crossface control with your free hand or head position, preventing opponent from turning into you or creating defensive frames",
+          "3. Post your free hand (non-underhook hand) on the mat near opponent's far hip, creating a base point for your pass",
+          "4. Begin extracting your trapped leg by driving your knee toward the mat and pulling your foot out from their half guard lock",
+          "5. As your leg becomes free, immediately bring that knee across opponent's bottom leg (the leg that was creating their pocket frame)",
+          "6. Slice your knee across their bottom leg in a diagonal motion toward the mat on the far side of their body, using your shin and knee to clear their leg defense",
+          "7. Keep your underhook pulling constantly toward your body while your crossface prevents them from following you or recovering guard",
+          "8. Drive your hips forward and through as your knee completes the slice, posting your freed leg on the far side of opponent's body",
+          "9. Settle your chest pressure fully onto opponent's upper torso as your hips move past their legs, establishing weight distribution that prevents re-guard",
+          "10. Complete the transition to **[[Side Control]]** by bringing your near leg (the leg that sliced) alongside your far leg, establishing strong crossface position with your near arm while your far arm controls their far hip, securing dominant pinning position"
+        ]
       },
       {
         "technique": "Smash Pass",
@@ -451,7 +537,19 @@
           "beginner": 45,
           "intermediate": 60,
           "advanced": 70
-        }
+        },
+        "execution_steps": [
+          "1. From **Pocket Half Guard Top** with established underhook and chest pressure, ensure opponent is completely flattened with shoulders pinned to mat",
+          "2. Secure your underhook grip deeply around opponent's far side, pulling their shoulder toward you to prevent them from creating angles",
+          "3. Establish strong crossface with your free arm, driving your forearm across opponent's face and jaw to control their head position",
+          "4. Walk your hips and chest in a circular motion toward opponent's legs while maintaining all upper body control points (underhook + crossface)",
+          "5. As you circle, use your trapped leg to pressure down into opponent's half guard lock, forcing their legs to flatten and widen",
+          "6. Drive your weight forward and down through your chest and hips, creating crushing pressure that prevents opponent from maintaining their half guard lock",
+          "7. Extract your trapped leg by driving your knee down toward the mat while simultaneously pulling it out from their loosening half guard grip",
+          "8. Immediately bring your freed leg over opponent's bottom leg (the pocket frame leg), smashing it down and pinning it to the mat with your shin or knee",
+          "9. Continue your circular hip movement toward opponent's head side while maintaining crossface and underhook, using your weight to prevent any guard recovery",
+          "10. Settle into **[[Side Control]]** by establishing chest-to-chest pressure, securing crossface with near arm, controlling far hip with far arm, and positioning your hips heavy on opponent's torso in dominant pinning configuration"
+        ]
       },
       {
         "technique": "Transition to Mount",
@@ -526,7 +624,14 @@
       {
         "technique": "Kimura from Half Guard",
         "target_position": "Kimura Control",
-        "trigger": "Opponent reaches for underhook defense or attempts to frame"
+        "trigger": "Opponent reaches for underhook defense or attempts to frame",
+        "execution_steps": [
+          "1. From **Pocket Half Guard Top**, recognize when opponent posts or frames with their near arm against your body attempting to create distance or defend your underhook",
+          "2. Release your crossface grip and immediately grab opponent's near wrist with firm control before they can retract their exposed arm",
+          "3. Feed their controlled wrist to your underhook hand, which releases the underhook to grip their wrist, while your original controlling hand slides over their shoulder",
+          "4. Thread your free hand underneath opponent's tricep/elbow area, then lock your hands together in kimura figure-four configuration",
+          "5. Lift their elbow up and away from their body while pulling their wrist toward their back, creating shoulder pressure and establishing **[[Kimura Control]]**"
+        ]
       },
       {
         "technique": "Darce Setup",
@@ -738,6 +843,44 @@
       "danaher": "The pocket half guard top position represents a critical control point in the systematic dismantling of the half guard. The underhook is not merely a grip - it is a control mechanism that fundamentally alters the bottom player's ability to generate frames and create the angles necessary for effective defense. When properly executed, the underhook creates a structural trap where the opponent's own body becomes complicit in their immobilization. The key is understanding that the underhook must be paired with precise chest pressure and crossface control to create what I call 'three-point pinning' - the underhook controls rotation, the chest pressure controls elevation, and the crossface controls facing direction. This triumvirate of controls renders the bottom player's defensive options severely limited. The methodical approach is paramount: first establish complete flattening through coordinated pressure, then systematically remove the trapped leg while maintaining all control points. The common error is rushing the pass before achieving complete control, which allows the opponent to exploit remaining angles.",
       "gordon_ryan": "Pocket half guard top is where you break people's will to defend. When I get to this position, especially in competition, I'm thinking about two things: maintaining crushing pressure and finishing the pass as efficiently as possible. The underhook is everything - once you have it deep and you're keeping constant pull toward your body, the bottom player is in serious trouble. I like to make it uncomfortable immediately with heavy chest pressure and a strong crossface. Most people will try to turn into the underhook to defend, and that's when I'm ready to either finish the knee slice pass or take their back if they commit too hard to the turn. The key in competition is not giving them any breathing room - keep the pressure constant, control their frames before they can establish them, and don't give them any false hope that they can recover. I've finished countless matches from this position because once I'm here, the opponent knows they're getting passed, it's just a matter of time. The psychological aspect is huge - when someone feels that crushing pressure and realizes their defensive options are limited, they often make mistakes trying to escape.",
       "eddie_bravo": "In the 10th Planet system, we see pocket half guard top as part of the passing game but we're always aware of the counters because we play so much half guard. When you're on top with that underhook, yeah, you've got great control, but you need to be smart about how aggressive you get with it. The bottom player can still threaten deep half, or if you're not careful with your weight distribution, they can use the lockdown to sweep you. What I like about this position is the Darce opportunity - when people turn into that underhook trying to defend, that's money for a Darce choke if you're ready for it. We drill that transition a lot because it's such a high-percentage finish. The other thing is don't sleep on the back take option. If they're fighting hard to prevent the pass and coming to their side, you can sometimes step over and take the back. The innovative approach is thinking about this position not just as a passing position but as a control position where you have multiple attacking options depending on how they defend. Keep them guessing between the pass, the Darce, and the back take, and you'll have much more success than just trying to bull your way through the same pass every time."
+    },
+    "frequently_asked_questions": [
+      {
+        "question": "How do I establish Pocket Half Guard Top position?",
+        "answer": "From **[[Half Guard]]** top, secure an underhook on the bottom player's far side by threading your arm deep under their armpit to grip their back or shoulder blade. Simultaneously drive your chest forward and down onto their torso while establishing crossface with your head or free arm. Flatten their hips by driving forward pressure, eliminating the pocket space they try to create with their bottom leg. Success rates for establishing this position are beginner 50%, intermediate 65%, advanced 75%."
+      },
+      {
+        "question": "What's the highest percentage pass from Pocket Half Guard Top?",
+        "answer": "The **[[Knee Slice Pass]]** offers the highest success rates from **Pocket Half Guard Top**: beginner 50%, intermediate 65%, advanced 75%. Execute by maintaining underhook and chest pressure while extracting your trapped leg, then slicing your knee across opponent's bottom leg as you transition to **[[Side Control]]**. Alternative high-percentage options include **[[Smash Pass]]** (70% advanced) and direct **[[Mount]]** transition (65% advanced)."
+      },
+      {
+        "question": "How do I prevent getting swept from Pocket Half Guard Top?",
+        "answer": "Maintain three critical controls: (1) deep underhook with constant pulling pressure toward your body preventing them from turning away, (2) chest-to-chest pressure keeping them flat on their back eliminating hip mobility, and (3) crossface control with your head or free arm preventing them from turning into you. If opponent threatens **[[Old School Sweep]]** or **[[Deep Half Guard]]** entry, immediately adjust your base wider and increase downward pressure while working to complete the pass."
+      },
+      {
+        "question": "What submissions are available from Pocket Half Guard Top?",
+        "answer": "**Pocket Half Guard Top** offers several submission opportunities: **[[Kimura from Half Guard]]** (55% advanced) when opponent frames with their near arm, **[[Darce Setup]]** to **[[D'arce Control]]** (60% advanced) when they turn into your underhook, and **[[Back Step]]** to **[[Back Control]]** (55% advanced) for **[[Rear Naked Choke]]**. Most practitioners prioritize passing to **[[Side Control]]** or **[[Mount]]** first, then attacking submissions from more dominant positions."
+      },
+      {
+        "question": "How do I deal with Lockdown from Pocket Half Guard Top?",
+        "answer": "When opponent establishes **[[Lockdown]]** leg control from **Pocket Half Guard Bottom**, maintain your underhook and chest pressure while posting your free hand on the mat for base. Avoid letting them break your posture down. Drive your trapped knee toward the mat while circling your trapped foot to the outside, gradually extracting your leg. Alternatively, transition to **[[Transition to North-South]]** (65% advanced) by stepping over their lockdown or attack **[[Kimura from Half Guard]]** on their defending arm."
+      },
+      {
+        "question": "Should I use Pocket Half Guard Top in gi or no-gi?",
+        "answer": "**Pocket Half Guard Top** is highly effective in both gi and no-gi, though mechanics differ slightly. In gi, you can grip opponent's far lat, belt, or pants for deeper underhook control, making it easier to maintain position (advanced 75% vs 70% no-gi pass rate). No-gi requires tighter chest pressure and more active crossface since grips are on skin/rashguard. Both contexts offer excellent pass success rates, though gi allows slightly more methodical pressure while no-gi favors faster transitions."
+      },
+      {
+        "question": "What are common mistakes in Pocket Half Guard Top?",
+        "answer": "The biggest mistakes from top are: (1) allowing space between your chest and opponent's torso (lets them establish frames and create distance), (2) losing underhook depth by not maintaining pulling pressure (opponent can escape or establish their own underhook), (3) failing to control crossface angle (opponent can turn into you for sweeps), (4) rushing the pass before completely flattening opponent (they maintain angles for **[[Deep Half Guard]]** or sweeps), and (5) allowing your base to become too narrow (opponent can off-balance and sweep you)."
+      },
+      {
+        "question": "How long should I stay in Pocket Half Guard Top before passing?",
+        "answer": "Average time in **Pocket Half Guard Top** is 45-90 seconds before completing pass or losing position. Advanced practitioners spend 30-60 seconds systematically flattening opponent, establishing complete control, then executing the pass. Don't rush—methodically achieve chest pressure, underhook depth, and crossface control first. If opponent is well-defended after 90 seconds, consider transitioning to **[[Transition to North-South]]** or **[[Back Step]]** rather than stalling in the same position."
+      }
+    ],
+    "bot_metadata": {
+      "last_improved": "2026-02-14",
+      "optimization_pass": "ai_seo_v1"
     }
   }
 }
