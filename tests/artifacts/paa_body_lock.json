@@ -1,0 +1,191 @@
+{
+  "article_path": "source/content/Positions/Body Lock.json",
+  "seed_keyword": "Body Lock",
+  "alternate_keywords": ["Body Lock Wrestling", "Body Lock BJJ", "Rear Body Lock", "Standing Body Lock"],
+  "paa_questions": [
+    {
+      "question": "What is a body lock in BJJ?",
+      "answer_snippet": "Dominant standing clinch control where both arms wrap around opponent's torso with locked hands, controlling center of mass",
+      "source_url": "https://bjjgraph.org/Positions/Body-Lock",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Primary definitional query - ensure overview directly answers this"
+    },
+    {
+      "question": "How do you escape a body lock?",
+      "answer_snippet": "Post hands on opponent's hips to create distance, break grip through hand fighting, or sit to guard if standing escape fails",
+      "source_url": "https://bjjgraph.org/Positions/Body-Lock",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "High-intent defensive query - already covered but needs FAQ format"
+    },
+    {
+      "question": "What is the difference between body lock and bear hug?",
+      "answer_snippet": "Body lock is technical grappling position with strategic grip placement; bear hug is general term for tight squeeze",
+      "source_url": "terminology_content",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Terminology confusion - needs clarification section"
+    },
+    {
+      "question": "How do you do a body lock takedown?",
+      "answer_snippet": "Lock hands around torso, drive hips forward, execute mat return to back control or throwing technique",
+      "source_url": "https://bjjgraph.org/Positions/Body-Lock",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Offensive technique query - convert transition section heading to question format"
+    },
+    {
+      "question": "Is body lock effective in MMA?",
+      "answer_snippet": "Highly effective in MMA for cage work, takedowns, and back takes; used extensively by wrestlers in UFC",
+      "source_url": "mma_analysis",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Cross-discipline interest - add MMA applicability note"
+    },
+    {
+      "question": "What grip should you use for body lock?",
+      "answer_snippet": "Gable grip (palm-to-palm) or rear naked choke grip (hand-to-bicep) are most common and secure",
+      "source_url": "technical_instruction",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Critical technical detail - needs dedicated grip mechanics section"
+    },
+    {
+      "question": "Can you submit someone from body lock?",
+      "answer_snippet": "Body lock is primarily transitional control position; submissions come after transitioning to back control, mount, or other dominant positions",
+      "source_url": "https://bjjgraph.org/Positions/Body-Lock",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Common misconception - needs direct answer"
+    },
+    {
+      "question": "How do you defend body lock in wrestling?",
+      "answer_snippet": "Widen base, maintain upright posture, hand fight to prevent lock, or hook opponent's leg to prevent lift",
+      "source_url": "wrestling_content",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Cross-training interest - ensure wrestling context is visible"
+    },
+    {
+      "question": "What is rear body lock vs front body lock?",
+      "answer_snippet": "Rear body lock (from behind) leads to back takes; front body lock (facing opponent) leads to throws and takedowns",
+      "source_url": "positional_breakdown",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Important positional distinction - needs clear differentiation section"
+    },
+    {
+      "question": "How do you get to body lock from clinch?",
+      "answer_snippet": "Win hand fighting to penetrate underhooks, clear opponent's frames, lock hands while driving chest connection",
+      "source_url": "https://bjjgraph.org/Positions/Body-Lock",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Entry mechanics query - already in prerequisites but needs FAQ visibility"
+    },
+    {
+      "question": "Should you lock hands over or under opponent's arms?",
+      "answer_snippet": "Lock around torso outside opponent's arms; trapping arms creates different position with different mechanics",
+      "source_url": "technical_detail",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Technical nuance - add to grip mechanics section"
+    },
+    {
+      "question": "What are the best body lock throws?",
+      "answer_snippet": "Mat return to back, suplex variations, hip toss, inside trip, and backward trip are highest percentage",
+      "source_url": "throwing_techniques",
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "rationale": "Technique variety query - ensure offensive transitions are comprehensive"
+    },
+    {
+      "question": "Can you use body lock in gi BJJ?",
+      "answer_snippet": "Yes, body lock works in gi but competes with gi-specific grips like collar and sleeve controls",
+      "source_url": "gi_vs_nogi",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Context question - add gi applicability note"
+    },
+    {
+      "question": "Why do wrestlers use body lock so much?",
+      "answer_snippet": "Wrestling rule structure rewards takedowns and back control, both primary outcomes of body lock control",
+      "source_url": "wrestling_strategy",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Strategic context - add wrestling vs BJJ usage comparison"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is a Body Lock in BJJ and Wrestling?",
+      "rationale": "Matches primary PAA query and captures both disciplines for broader appeal"
+    },
+    {
+      "current": "Offensive Transitions",
+      "suggested": "How to Execute Body Lock Takedowns and Back Takes",
+      "rationale": "Action-oriented heading matching technique queries"
+    },
+    {
+      "current": "Key Principles (Top)",
+      "suggested": "How to Control Body Lock Position (7 Essential Principles)",
+      "rationale": "Numbered list in heading increases CTR and featured snippet potential"
+    },
+    {
+      "current": "Defensive Responses (Bottom)",
+      "suggested": "How to Escape and Defend Body Lock Control",
+      "rationale": "Matches high-intent defensive query pattern"
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "Body Lock vs. Clinch vs. Double Unders (Position Comparison)",
+      "rationale": "Comparative framing for better semantic matching"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'Grip Variations' section explaining gable grip vs. RNC grip vs. S-grip with pros/cons",
+    "Add 'Rear vs. Front Body Lock' comparison section with tactical context",
+    "Add 'Body Lock in MMA' section discussing cage work and notable examples (Khabib, DC, etc.)",
+    "Add 'Wrestling vs. BJJ Body Lock' section highlighting rule/strategy differences",
+    "Add 'Common Entry Sequences' section from clinch positions",
+    "Add FAQ section answering top 5 PAA questions",
+    "Add 'When to Use vs. When to Avoid' tactical decision section",
+    "Add 'Gi vs. No-Gi Considerations' comparison",
+    "Add 'Body Lock Defenses Summary Table' for quick reference",
+    "Add video/visual diagram of grip types (if visual content strategy exists)"
+  ],
+  "schema_markup_opportunities": [
+    "Add FAQPage schema with top PAA questions",
+    "Add HowTo schema for 'How to Execute Body Lock Takedown'",
+    "Add HowTo schema for 'How to Escape Body Lock'",
+    "Add VideoObject schema if instructional videos are created",
+    "Ensure Article schema includes 'skillLevel': 'Beginner to Intermediate'"
+  ],
+  "internal_linking_gaps": [
+    "Link to [[Clinch]] position page",
+    "Link to [[Double Unders]] position page",
+    "Link to [[Standing Back Control]] as primary target",
+    "Link to [[Mat Return]] technique (create if missing)",
+    "Link to [[Gable Grip]] technique page (create if missing)",
+    "Link to [[Wrestling Fundamentals]] or [[Takedowns]] category page"
+  ],
+  "keyword_expansion_targets": [
+    "body lock takedown tutorial",
+    "rear body lock to back take",
+    "body lock escape bjj",
+    "wrestling body lock technique",
+    "body lock grip types",
+    "body lock defense mma",
+    "front body lock throws",
+    "standing body lock control",
+    "body lock vs bear hug",
+    "gable grip body lock"
+  ],
+  "competitive_content_analysis": {
+    "grapplers_guide": "Has detailed body lock series with 20+ videos - we should create comprehensive written guide to complement",
+    "bjj_fanatics": "Sells body lock instructionals prominently - opportunity for free comprehensive written content",
+    "youtube_instructionals": "High volume of video content, low quality written guides - text SEO opportunity",
+    "reddit_discussions": "Common questions about grip types and escape timing - FAQ section addresses these"
+  }
+}
