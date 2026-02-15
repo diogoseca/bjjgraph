@@ -1,0 +1,158 @@
+{
+  "article_path": "source/content/Positions/Ashi Garami/Honey Hole.json",
+  "seed_keyword": "Honey Hole",
+  "alternate_keywords": ["Inside Sankaku", "Saddle", "4/11 position", "Inside Ashi Garami"],
+  "paa_questions": [
+    {
+      "question": "What is the Honey Hole position in BJJ?",
+      "answer_snippet": "Advanced leg entanglement with inside control, also known as Inside Sankaku or Saddle, providing direct access to heel hooks",
+      "source_url": "https://bjjgraph.org/Positions/Ashi-Garami/Honey-Hole",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Main definitional query - ensure overview section directly answers this conversational question"
+    },
+    {
+      "question": "Is Honey Hole the same as Saddle in BJJ?",
+      "answer_snippet": "Yes, Honey Hole and Saddle are alternative names for the same inside leg entanglement position",
+      "source_url": "competitor_sites",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Common confusion - needs explicit clarification section early in content"
+    },
+    {
+      "question": "How do you escape from Honey Hole position?",
+      "answer_snippet": "Immediate explosive rotation before heel grip is established, or counter-entanglement to 50-50 guard",
+      "source_url": "instructional_sites",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "High-intent defensive query - already covered in bottom perspective but needs FAQ visibility"
+    },
+    {
+      "question": "Is Honey Hole legal in IBJJF?",
+      "answer_snippet": "Legal only at brown and black belt levels in no-gi competition due to heel hook access",
+      "source_url": "ibjjf_rules",
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "rationale": "Critical rule question - needs dedicated competition legality section"
+    },
+    {
+      "question": "Who invented the Honey Hole position?",
+      "answer_snippet": "Developed and popularized by John Danaher and the Danaher Death Squad in modern leg lock systems",
+      "source_url": "historical_sources",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Historical context query - add brief history section with Danaher system attribution"
+    },
+    {
+      "question": "What submissions can you do from Honey Hole?",
+      "answer_snippet": "Inside heel hook (primary), outside heel hook, kneebar, and toe hold",
+      "source_url": "https://bjjgraph.org/Positions/Ashi-Garami/Honey-Hole",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Convert 'offensive_transitions' section heading to question format"
+    },
+    {
+      "question": "Why is it called Honey Hole?",
+      "answer_snippet": "Term originates from wrestling/hunting terminology meaning 'sweet spot' or optimal position",
+      "source_url": "etymology_sources",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Curiosity-driven query - brief etymology note adds engagement"
+    },
+    {
+      "question": "How dangerous is the Honey Hole position?",
+      "answer_snippet": "Extremely dangerous with 2-5 second submission timeline and high knee injury risk if defended improperly",
+      "source_url": "https://bjjgraph.org/Positions/Ashi-Garami/Honey-Hole",
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "rationale": "Safety concern - ensure danger level is front-loaded in overview"
+    },
+    {
+      "question": "What's the difference between Honey Hole and 50-50?",
+      "answer_snippet": "Honey Hole has inside leg control creating asymmetric advantage; 50-50 is symmetric entanglement",
+      "source_url": "comparison_content",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Comparison query - add position comparison section"
+    },
+    {
+      "question": "How do you enter Honey Hole from X-Guard?",
+      "answer_snippet": "From Single Leg X, rotate opponent's leg inward while establishing inside triangle with your legs",
+      "source_url": "instructional_content",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "rationale": "Technical entry question - already in transitions but FAQ format improves discoverability"
+    },
+    {
+      "question": "Should beginners learn Honey Hole?",
+      "answer_snippet": "No, beginners should master basic positions first; Honey Hole requires advanced leg lock knowledge and safety awareness",
+      "source_url": "training_advice",
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "rationale": "Skill level appropriateness - add 'Prerequisites & Skill Level' section"
+    },
+    {
+      "question": "Can you use Honey Hole in gi BJJ?",
+      "answer_snippet": "Technically possible but far less common and less effective due to gi grips and friction; primarily no-gi position",
+      "source_url": "gi_vs_nogi_content",
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "rationale": "Context question - brief gi vs no-gi applicability note"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What is the Honey Hole Position in BJJ?",
+      "rationale": "Matches primary PAA query pattern, improves featured snippet capture"
+    },
+    {
+      "current": "Offensive Transitions",
+      "suggested": "What Submissions Work from Honey Hole?",
+      "rationale": "Conversational heading matches user search intent"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How to Control Honey Hole Position (Key Principles)",
+      "rationale": "Action-oriented heading with context"
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "Honey Hole vs. Similar Positions (What's the Difference?)",
+      "rationale": "Comparative framing matches comparison query intent"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'Competition Legality' section explaining IBJJF, ADCC, and submission-only ruleset differences",
+    "Add 'Position History' section crediting John Danaher and DDS development",
+    "Add 'Common Mistakes When Attacking' section (currently only has defensive common errors)",
+    "Add 'Honey Hole vs. 50-50 vs. Outside Ashi' comparison table",
+    "Add 'When NOT to Use Honey Hole' section with tactical context",
+    "Add FAQ section answering top 5 PAA questions directly",
+    "Add 'Gi vs. No-Gi Considerations' brief note",
+    "Add 'Skill Level Recommendations' section",
+    "Add etymology/terminology origin note for engagement"
+  ],
+  "schema_markup_opportunities": [
+    "Add FAQPage schema with top PAA questions",
+    "Add HowTo schema for 'How to Enter Honey Hole from X-Guard'",
+    "Add Organization schema for Danaher Death Squad mention",
+    "Ensure Article schema includes 'difficulty': 'Advanced' property"
+  ],
+  "internal_linking_gaps": [
+    "Link to [[IBJJF Rules]] or [[Competition Legality]] (create if missing)",
+    "Link to [[John Danaher]] or [[Danaher Leg Lock System]] profile page",
+    "Link to [[Leg Lock Safety]] or [[Training Safety]] guide",
+    "Cross-link comparison questions to [[50-50 Guard]] and [[Outside Ashi-Garami]]"
+  ],
+  "keyword_expansion_targets": [
+    "inside sankaku escape",
+    "saddle position bjj",
+    "4/11 position technique",
+    "honey hole vs 50-50",
+    "john danaher leg locks",
+    "heel hook from saddle",
+    "inside ashi garami tutorial",
+    "honey hole defense"
+  ]
+}
